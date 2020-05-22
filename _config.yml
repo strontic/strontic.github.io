@@ -1,3 +1,27 @@
 theme: jekyll-theme-cayman
 title: STRONTIC
 avatar: strontic-favicon.png
+
+
+### FOOTER ###
+
+social-network-links:
+  email: "info@strontic.com"
+  facebook: strontic
+  github: strontic
+  twitter: strontic20
+  instagram: strontic20
+  reddit: strontic
+  linkedin: company/strontic
+  youtube: channel/UC4f4ncsTlo-2VlNlXz6x6Bg
+  rss: true
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
