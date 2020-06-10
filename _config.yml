@@ -1,9 +1,11 @@
+#Theme configuration
 theme: jekyll-theme-hacker
 title: STRONTIC
 show_downloads: false
-markdown: GFM
 github:
   repository_url: https://github.com/strontic
   zip_url: null
   tar_url: null
   another_url: null
+markdown: GFM
+highlighter: rouge
