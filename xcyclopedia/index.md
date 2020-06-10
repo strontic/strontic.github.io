@@ -1,4 +1,6 @@
-﻿
+
+![xCyclopedia Logo](assets/strontic-xcyclopedia-logo_full.png)
+
 # xCyclopedia
 *Encyclopedia for Executables*
 
@@ -2236,3 +2238,5 @@ File Name | Description
 [sttray64.exe](library/sttray64.exe-4A57AB2D5E3624D63E7F8854C79F3D8C.md) | IDT PC Audio. All Rights Reserved 2004 - 2009 IDT, Inc.
 [Sysmon64.exe](library/Sysmon64.exe-016CD958D962524662CA12168667F905.md) | System activity monitor. 
 [winhlp32.exe](library/winhlp32.exe-CAA192BFDFB5F2A131EBD649B7062DE3.md) | Windows Winhlp32 Stub. 
+
+MIT License. Copyright (c) 2020 Strontic.
