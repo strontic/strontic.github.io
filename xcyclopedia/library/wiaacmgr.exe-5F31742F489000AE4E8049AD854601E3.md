@@ -1,0 +1,49 @@
+﻿
+# wiaacmgr.exe 
+* File Path: `C:\WINDOWS\system32\wiaacmgr.exe`
+* Description: Windows Picture Acquisition Wizard
+* Comments: 
+
+## Hashes
+Type | Hash
+-- | --
+MD5 | `5F31742F489000AE4E8049AD854601E3`
+SHA1 | `1E5482B611BD7419EF7DAD88AC062CD9EF8C0B71`
+SHA256 | `0D5B207BF6AA6E1BEC54CA3AEE09FB21CE65C8B4152E9C9A3FC53928C2C84B12`
+SHA384 | `BFD8D46807633907F241E69A4D01E83FF67E4FC7B2BC6DEC2FD8DB2279AFC5CE45E7FE5255381243280346F5F8A22C46`
+SHA415 | `E006114300BE193E4CF010345F2E7ACDE4353CA252A501E1A40D9396835C788EE683210DA4D0371ABA361B00EC86F9FE30E8DC56EBD5042685C939CBAE154A56`
+SSDEEP | `1536:9jLieYw9QU9UF1RGYYQ25OCKozqbKyRK5VNsjFtXaFRWp+UmBo6AtfB:RLj7721RrYlO/ozqeyR7F5aFRGmBo6G`
+
+## Runtime Data
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: 330000023241FB59996DCC4DFF000000000232
+* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: WIAACMGR.EXE.MUI
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.18362.1 (WinBuild.160101.0800)
+* Product Version: 10.0.18362.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+

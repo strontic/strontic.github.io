@@ -1,0 +1,63 @@
+﻿
+# makecab.exe 
+* File Path: `C:\Windows\system32\makecab.exe`
+* Description: Microsoft Cabinet Maker
+* Comments: 
+
+## Hashes
+Type | Hash
+-- | --
+MD5 | `B51BF14D7B1D6B5CEE13E90B86A99645`
+SHA1 | `F5ADC20E1674DD99923909A66C64FCCD51C29672`
+SHA256 | `E73754E12402679C921E4903C4E1130DCA6A3714FF7A42866AA38692AD0874F4`
+SHA384 | `558F5264B0BAC8832EF96A240B994BD15C4656C6C8AE9128EBBD54EE23016B7A1BCE708C99B05B7ED8E95CDB361F6625`
+SHA415 | `21E8CBA2DB8686EAE37AB9C80E80230874E94CFF39CBF3343B087F57F9559CA34CA477E65ECCF593310A1F6DD0287A54B4C0624D9FDA83CE548D9AC52A66413F`
+SSDEEP | `1536:2mTPqowqJjEfy8gH+EzP8+ZdfnCNgIT2v+N2iHhHdZYsq3EDrxYS0vJd:JTTNjEfy8ge0t3fnExiv+NnHdWDEDrxq`
+
+## Runtime Data
+### Usage (stdout):
+```Batchfile
+Cabinet Maker - Lossless Data Compression Tool
+
+MAKECAB [/V[n]] [/D var=value ...] [/L dir] source [destination]
+MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
+
+  source         File to compress.
+  destination    File name to give compressed file.  If omitted, the
+                 last character of the source file name is replaced
+                 with an underscore (_) and used as the destination.
+  /F directives  A file with MakeCAB directives (may be repeated). Refer to
+                 Microsoft Cabinet SDK for information on directive_file.
+  /D var=value   Defines variable with specified value.
+  /L dir         Location to place destination (default is current directory).
+  /V[n]          Verbosity level (1..3).
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: 3300000266BD1580EFA75CD6D3000000000266
+* Thumbprint: A4341B9FD50FB9964283220A36A1EF6F6FAA7840
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: makecab.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 5.00 (rs1_release.200407-1730)
+* Product Version: 5.00
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
