@@ -1,28 +1,10 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 title: STRONTIC
+show_downloads: false
 title-img: strontic-box-logo-white2-transparent.png
 markdown: GFM
-
-
-### FOOTER ###
-
-social-network-links:
-  email: "info@strontic.com"
-  facebook: strontic
-  github: strontic
-  twitter: strontic20
-  instagram: strontic20
-  reddit: strontic
-  linkedin: company/strontic
-  youtube: channel/UC4f4ncsTlo-2VlNlXz6x6Bg
-  rss: true
-#  xing: 
-#  stackoverflow: 
-#  snapchat: 
-#  spotify: 
-#  telephone:
-#  steam: 
-#  twitch: 
-#  yelp: 
-#  telegram: 
-#  calendly: 
+github:
+  repository_url: https://github.com/strontic
+  zip_url: null
+  tar_url: null
+  another_url: null
