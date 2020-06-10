@@ -1,4 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="/assets/strontic-favicon.png">
 <p align = "center"><img src="strontic-box-logo-white2-transparent.png" width="384">
 
 ### Projects:
