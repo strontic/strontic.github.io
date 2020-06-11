@@ -1,5 +1,5 @@
 #Theme configuration
-remote-theme: strontic/hacker
+remote-theme: strontic/jekyll-theme-hacker
 title: STRONTIC
 show_downloads: false
 github:
