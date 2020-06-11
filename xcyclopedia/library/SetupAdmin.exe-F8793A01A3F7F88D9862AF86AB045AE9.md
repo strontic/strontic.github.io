@@ -1,10 +1,12 @@
 ﻿
 # SetupAdmin.exe 
+
 * File Path: `C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.5.12\SetupAdmin.exe`
 * Description: Apple Installer (Elevated)
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F8793A01A3F7F88D9862AF86AB045AE9`
@@ -15,6 +17,7 @@ SHA415 | `52ED85DFE8213758768D6F94FF997526A3B2B506156DE624E3AE803DDD2ACC50E61A04
 SSDEEP | `3072:9MBpfRd0Hxy9JRtUtDj5XpMzBqjpSB3DWx4cK0Mup3alvOdeE+7if2E3ZUCoBl+:920EJrgEB2EzWepup3IirZUVl+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:9MBpfRd0Hxy9JRtUtDj5XpMzBqjpSB3DWx4cK0Mup3alvOdeE+7if2E3ZUCoBl+:9
 * Product Version: 12.10.5.12
 * Language: English (United States)
 * Legal Copyright:  Apple Inc. All Rights Reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

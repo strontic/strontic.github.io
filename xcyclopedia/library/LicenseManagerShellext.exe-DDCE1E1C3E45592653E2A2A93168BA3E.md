@@ -1,10 +1,12 @@
 ﻿
 # LicenseManagerShellext.exe 
+
 * File Path: `C:\WINDOWS\system32\LicenseManagerShellext.exe`
 * Description: LicenseManagerShellExt
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DDCE1E1C3E45592653E2A2A93168BA3E`
@@ -15,6 +17,7 @@ SHA415 | `1659994E429E5226C06655447FEAEC1A697214C3F39F09D25A5DDEED43CD587B1E56D5
 SSDEEP | `768:G2BmkoEV7aWLaRnwNTVMsIIl/Mau8Sn4k1/XElJBEXpw0PKry7MvgwnS:tBmQaW+RO7I+k98SnbXGJQw0P0y7M3S`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:G2BmkoEV7aWLaRnwNTVMsIIl/Mau8Sn4k1/XElJBEXpw0PKry7MvgwnS:tBmQaW+RO
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

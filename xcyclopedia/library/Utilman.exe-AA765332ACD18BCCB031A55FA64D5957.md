@@ -1,10 +1,12 @@
 ﻿
 # Utilman.exe 
+
 * File Path: `C:\Windows\system32\Utilman.exe`
 * Description: Utility Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AA765332ACD18BCCB031A55FA64D5957`
@@ -15,6 +17,7 @@ SHA415 | `1DFA7641D377A2AE746BEF2017860FD5FC1A7EF483DDF30528B20B72ABB045A6703C78
 SSDEEP | `1536:mzKO3PHD3zip90jKhsVtBxnoVCxNrDLJ6QLH84P6cuN5i:m20zg9eKh67z6084Pry`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:mzKO3PHD3zip90jKhsVtBxnoVCxNrDLJ6QLH84P6cuN5i:m20zg9eKh67z6084Pry
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

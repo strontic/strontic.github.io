@@ -1,10 +1,12 @@
 ﻿
 # recover.exe 
+
 * File Path: `C:\WINDOWS\system32\recover.exe`
 * Description: Recover Files Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `959C34797C8B15E7B66B8D9609D162C4`
@@ -15,6 +17,7 @@ SHA415 | `6FF0A02ACBE8BCCE45EC5C7B8D412AE3792745964D746A41B97A1F97A49559AF871E96
 SSDEEP | `192:bcqaHcXL7QQkgIEzY1aDfN0WCOZjwqnG0Vc2gSm2TWlnWVh:4qJL717lEEDmWhhhjc2TWlnW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Access Denied as you do not have sufficient privileges or
@@ -49,5 +52,7 @@ and make sure the disk is unlocked.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

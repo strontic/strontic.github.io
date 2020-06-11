@@ -1,10 +1,12 @@
 ﻿
 # dxdiag.exe 
+
 * File Path: `C:\Windows\SysWOW64\dxdiag.exe`
 * Description: Microsoft DirectX Diagnostic Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `11FF96408DD51BF242DD06D19E38A723`
@@ -15,6 +17,7 @@ SHA415 | `9CE3E87DE7287D1C374632D68576329B3C4401531E96170959C73D189172A9277CDA66
 SSDEEP | `3072:Cx/iv5FRt+TjVkNOY1LyyrQ7wIeCDS31PPX519hLT0MF88yBlxDHCmTNmFZrrozA:ia5CVA4MlpTrvGNBiiN6NE0ULXPRV/e`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Cx/iv5FRt+TjVkNOY1LyyrQ7wIeCDS31PPX519hLT0MF88yBlxDHCmTNmFZrrozA:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

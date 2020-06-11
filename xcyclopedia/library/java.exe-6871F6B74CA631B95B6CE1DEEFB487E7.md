@@ -1,10 +1,12 @@
 ﻿
 # java.exe 
+
 * File Path: `C:\ProgramData\Oracle\Java\javapath\java.exe`
 * Description: Java(TM) Platform SE binary
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6871F6B74CA631B95B6CE1DEEFB487E7`
@@ -15,6 +17,7 @@ SHA415 | `4DB080996591EA45F94CBEEC7D844C5DC27CA01BDFF31D1FBC4E04E281637A59EEEA59
 SSDEEP | `3072:CQ4Hdi0lKx96kzos9wMD0yRgUdRPu3fKMoTBf3vSjZqMN8YiYkwc:349S6DsStyaUddu3yMoTBevRXhc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -48,5 +51,7 @@ Error: Could not find Java SE Runtime Environment.
 * Product Version: 8.0.1710.11
 * Language: Language Neutral
 * Legal Copyright: Copyright  2018
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

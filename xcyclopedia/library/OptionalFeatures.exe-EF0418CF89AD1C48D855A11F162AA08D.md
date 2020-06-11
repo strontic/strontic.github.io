@@ -1,10 +1,12 @@
 ﻿
 # OptionalFeatures.exe 
+
 * File Path: `C:\WINDOWS\system32\OptionalFeatures.exe`
 * Description: Windows Features
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EF0418CF89AD1C48D855A11F162AA08D`
@@ -15,6 +17,7 @@ SHA415 | `2DDA8965E003DEA73D1CA9AC5E7CC2220593F23A2EC2D53B43400577A05487CFDAD5C0
 SSDEEP | `3072:7bOJ8bEaznWfH22ZsuX2xKwMPTnaSrIrvD4:7bSSznWjZnXeKwMLnaqY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:7bOJ8bEaznWfH22ZsuX2xKwMPTnaSrIrvD4:7bSSznWjZnXeKwMLnaqY`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

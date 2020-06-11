@@ -1,10 +1,12 @@
 ﻿
 # wbadmin.exe 
+
 * File Path: `C:\WINDOWS\system32\wbadmin.exe`
 * Description: Command Line Interface for Microsoft BLB Backup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9F43FA8FA2B91083214526A71E255913`
@@ -15,6 +17,7 @@ SHA415 | `1F9CD05F04644D3860CA27C971DE3E83493C7195793E8A4B86B33D4475A37C21718D11
 SSDEEP | `6144:d3+IcCc82Hrr4ZQTPUm0NVsk0S/upAGr7e1wytGI:wIGHzT4bkVCHtGI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 wbadmin 1.0 - Backup command-line tool
@@ -61,5 +64,7 @@ DELETE BACKUP             -- Deletes one or more backups.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

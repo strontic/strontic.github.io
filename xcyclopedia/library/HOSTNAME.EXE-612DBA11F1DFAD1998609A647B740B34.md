@@ -1,10 +1,12 @@
 ﻿
 # HOSTNAME.EXE 
+
 * File Path: `C:\WINDOWS\system32\HOSTNAME.EXE`
 * Description: Hostname APP
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `612DBA11F1DFAD1998609A647B740B34`
@@ -15,6 +17,7 @@ SHA415 | `C6077C31577FDB2011F4D2E7C1BCBB3983F2AE47D6BD7FA281E965E8C52DEDF27F7120
 SSDEEP | `192:0xyxH6lzKFc8rRYU861ds0ePdGXgoXabtwl4tWE6W:wyUuFTFP8cigAbtZWE6W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -52,5 +55,7 @@ hostname -s is not supported.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

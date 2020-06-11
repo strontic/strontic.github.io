@@ -1,10 +1,12 @@
 ﻿
 # setspn.exe 
+
 * File Path: `C:\Windows\system32\setspn.exe`
 * Description: Query or reset the computer's SPN attribute
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C184D581524245DAD7A0A02B51FD2C2`
@@ -15,6 +17,7 @@ SHA415 | `516AE7B3D0ABE7C0ACB9CF419826823CCE20B5C46BF1FC60AF7CC7887745A5F8CC2A37
 SSDEEP | `768:sY+4keaRDMP3gJtmH+9IFrf0DkvwNMq7VEe:hcDMfwOwDkX8VEe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: C:\Windows\system32\setspn.exe [modifiers switch] [accountname] 
@@ -114,5 +117,7 @@ Could not find account help
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

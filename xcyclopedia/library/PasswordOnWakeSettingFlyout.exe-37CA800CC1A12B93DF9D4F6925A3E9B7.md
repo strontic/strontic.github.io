@@ -1,10 +1,12 @@
 ﻿
 # PasswordOnWakeSettingFlyout.exe 
+
 * File Path: `C:\WINDOWS\system32\PasswordOnWakeSettingFlyout.exe`
 * Description: User CPL Password on wake setting flyout
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `37CA800CC1A12B93DF9D4F6925A3E9B7`
@@ -15,6 +17,7 @@ SHA415 | `E0B83CE2567C1D13BEDECEA8A46B851DF4E53FB9809157E2BFA457FB4ADD75944C3B0D
 SSDEEP | `768:gkErlbT40od/PVibcAbZGoQJ68e1omGSrcvM/K6ROIAMZJ1LXj1P0hUP+a:6bT49TJXOSmvcvQHRO0ZvzpPxz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:gkErlbT40od/PVibcAbZGoQJ68e1omGSrcvM/K6ROIAMZJ1LXj1P0hUP+a:6bT49TJ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

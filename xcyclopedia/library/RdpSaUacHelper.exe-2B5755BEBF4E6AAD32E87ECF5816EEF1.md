@@ -1,10 +1,12 @@
 ﻿
 # RdpSaUacHelper.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\RdpSaUacHelper.exe`
 * Description: RDP Session Agent UAC Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2B5755BEBF4E6AAD32E87ECF5816EEF1`
@@ -15,6 +17,7 @@ SHA415 | `1B092AE5A94FBF1147760D9808BA411C676E5A2FC486365AF9370A5D4B18F4171CE3E2
 SSDEEP | `768:g7dnB02js8+LOQbwMxIYYnkMX3GUUkZM+SIzI:OQ2oZLOQ05euZM+S`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:g7dnB02js8+LOQbwMxIYYnkMX3GUUkZM+SIzI:OQ2oZLOQ05euZM+S`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

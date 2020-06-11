@@ -1,10 +1,12 @@
 ﻿
 # RunLegacyCPLElevated.exe 
+
 * File Path: `C:\Windows\system32\RunLegacyCPLElevated.exe`
 * Description: Run a legacy CPL elevated
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0D0551E591F32BBA1B1701D115883802`
@@ -15,6 +17,7 @@ SHA415 | `9EA9A3EBA8A253C164CF824B6BDDA0F444313F8364DA755A4E5D65E2DD7B2F3F3D6BE6
 SSDEEP | `1536:2t/tSHBQXWDfbGGooRxakkn6oYY0ewiP8:6KBQXglRxaJVYYPwi`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:2t/tSHBQXWDfbGGooRxakkn6oYY0ewiP8:6KBQXglRxaJVYYPwi`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

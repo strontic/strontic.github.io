@@ -1,10 +1,12 @@
 ﻿
 # MigRegDB.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\Com\MigRegDB.exe`
 * Description: COM+
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1A781CC8D8EF206D6D24780EECAE4AFD`
@@ -15,6 +17,7 @@ SHA415 | `BACFF1D259988605AA7BEFAEB36B712A5C32B4DE00B50299D8B89234C7A181CCD3E14F
 SSDEEP | `192:JfSQKsSHfEGWYDlbFAK4h3Mktm+4HWYwWg:cEGWAbaK4Sgd4HWYwWg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:JfSQKsSHfEGWYDlbFAK4h3Mktm+4HWYwWg:cEGWAbaK4Sgd4HWYwWg`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

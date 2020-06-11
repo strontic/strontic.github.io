@@ -1,10 +1,12 @@
 ﻿
 # hwrcomp.exe 
+
 * File Path: `C:\Windows\system32\hwrcomp.exe`
 * Description: Microsoft Custom Dictionary Compiler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `138DE62F2F6AE9249EA596A8A5F142B2`
@@ -15,6 +17,7 @@ SHA415 | `E27961F581625F7C505B075B22AF677CB93741709A7B6C70E98AF024A22F7D30C35B6B
 SSDEEP | `768:bT2c85/Y9R1lef/xxu2InDvov3+gnOV04chZWoz9c8o4Jg3Q3dFbcEa424by4:pz9Do/nuXr4+gny0wo9Jgg3dZcEa4Te4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: hwrcomp [-lang <locale>]
@@ -66,5 +69,7 @@ hwrcomp -lang en-US -type SECONDARY-DICTIONARY -o myrsrc1 mylist1.txt
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

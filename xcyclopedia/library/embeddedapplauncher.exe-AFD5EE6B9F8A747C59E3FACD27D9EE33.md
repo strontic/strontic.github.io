@@ -1,10 +1,12 @@
 ﻿
 # embeddedapplauncher.exe 
+
 * File Path: `C:\Windows\system32\embeddedapplauncher.exe`
 * Description: Embedded App Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AFD5EE6B9F8A747C59E3FACD27D9EE33`
@@ -15,6 +17,7 @@ SHA415 | `67B8362EA22952A1FD1DE339A7A79CF975A6196DB301106F3188AAA2F5B96B89FE8BD1
 SSDEEP | `768:VNnFc/FIjSAwIA68rx9GHooYJJwzckZzyB0E5ho71Pm1I:7OG22e2UBN5hkPCI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:VNnFc/FIjSAwIA68rx9GHooYJJwzckZzyB0E5ho71Pm1I:7OG22e2UBN5hkPCI`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

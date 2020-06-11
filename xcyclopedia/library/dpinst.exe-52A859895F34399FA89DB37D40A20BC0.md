@@ -1,10 +1,12 @@
 ﻿
 # dpinst.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\dpinst.exe`
 * Description: Driver Package Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `52A859895F34399FA89DB37D40A20BC0`
@@ -15,6 +17,7 @@ SHA415 | `8E08A60B0B016129306C39BE7E4E2B344CB7F2DE61E5E004C0367E2814EE3B2EAEBE7E
 SSDEEP | `6144:OsSOzpPId26dQcEaUrPvwgwkRVagRoDHTj8K1sqI6VLp4XOigSbduP/1HHm/hHAl:qIId79EaUTvwieMozMEcOigSpuPMaLio`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:OsSOzpPId26dQcEaUrPvwgwkRVagRoDHTj8K1sqI6VLp4XOigSbduP/1HHm/hHAl:
 * Product Version: 2.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # diskperf.exe 
+
 * File Path: `C:\Windows\system32\diskperf.exe`
 * Description: Disk Performance Configuration Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `26FF50708FB975D7DF334460ABE5899A`
@@ -15,6 +17,7 @@ SHA415 | `A10BE643CC0C0A6A8BE85B4D667E502A0B7DF0F03630CBE39B4CB1A339E605BF697022
 SSDEEP | `384:79rok9TCGqAaRXvKnORtGbUfjSXRy5goyiOMNbZNisLP9eJ9W8JW:7T9TCGqAQKnORX0iiiOMNzimP9m9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -83,5 +86,7 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # setup.exe 
+
 * File Path: `C:\Windows\SysWOW64\InstallShield\setup.exe`
 * Description: 32-bit Setup Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D3C5EB399AB4522ABF662EB72C23DB9B`
@@ -15,6 +17,7 @@ SHA415 | `4BAB306A87E9EF348D2C2F7051AF3E9ADC2BA0AADA6895CE3370DEF83E2A0A657E9DA9
 SSDEEP | `1536:I8wNfktLYUqSfzC8wATsq3CRJMdzzOi3d0eFKg:I80ct8dSfmXosgCRJMdfO6FKg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:I8wNfktLYUqSfzC8wATsq3CRJMdzzOi3d0eFKg:I80ct8dSfmXosgCRJMdfO6FKg`
 * Product Version: 5, 54
 * Language: English (United States)
 * Legal Copyright: Copyright 1990-2000 InstallShield Software Corporation, Phone: (847) 240-9111
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

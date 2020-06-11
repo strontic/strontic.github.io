@@ -1,10 +1,12 @@
 ﻿
 # Locator.exe 
+
 * File Path: `C:\WINDOWS\system32\Locator.exe`
 * Description: Rpc Locator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A089120B99842F0A3CE8AE586A31BD56`
@@ -15,6 +17,7 @@ SHA415 | `F7E42E80CD9796E95FCF6B8A2B1EA5521CABF59B0152D96F6F80DA4D588E1CCD472207
 SSDEEP | `192:RZJX2saUpBw15IDs0sCJdvnJhJ4T1S+OGDrsa1q18oDDoGed1mDSWllW:jjy3u5JdvJ+SlGrpo1ZDSmDSWllW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:RZJX2saUpBw15IDs0sCJdvnJhJ4T1S+OGDrsa1q18oDDoGed1mDSWllW:jjy3u5Jdv
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

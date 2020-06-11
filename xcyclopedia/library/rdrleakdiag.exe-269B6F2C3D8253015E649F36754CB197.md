@@ -1,10 +1,12 @@
 ﻿
 # rdrleakdiag.exe 
+
 * File Path: `C:\Windows\SysWOW64\rdrleakdiag.exe`
 * Description: Microsoft Windows Resource Leak Diagnostic
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `269B6F2C3D8253015E649F36754CB197`
@@ -15,6 +17,7 @@ SHA415 | `E8DBCAA9EDDA99CD1CD68B18B2566774FF9C4FB5DEF6B8D9727D20FD20A881E26290E3
 SSDEEP | `768:Gis4jzsXfLI+c7EA3jA5k4/iTNco2N8Yrv+M6:wX+7T3syUiTNhYiM6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Gis4jzsXfLI+c7EA3jA5k4/iTNco2N8Yrv+M6:wX+7T3syUiTNhYiM6`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

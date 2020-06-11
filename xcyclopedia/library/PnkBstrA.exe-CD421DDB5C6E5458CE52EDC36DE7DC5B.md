@@ -1,10 +1,12 @@
 ﻿
 # PnkBstrA.exe 
+
 * File Path: `C:\WINDOWS\system32\PnkBstrA.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CD421DDB5C6E5458CE52EDC36DE7DC5B`
@@ -15,6 +17,7 @@ SHA415 | `0FE109E26F5B9F0C89971C30636EE99E1F5F69814C5CA653DFBB2F0173B14EAD1577D5
 SSDEEP | `1536:aCCmCvrxqUj4CU3sY8nv/IOwGPbhqeDxlHr:5ivrxqUr1IOzDxlL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:aCCmCvrxqUj4CU3sY8nv/IOwGPbhqeDxlHr:5ivrxqUr1IOzDxlL`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

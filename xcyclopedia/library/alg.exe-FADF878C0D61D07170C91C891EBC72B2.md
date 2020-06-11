@@ -1,10 +1,12 @@
 ﻿
 # alg.exe 
+
 * File Path: `C:\WINDOWS\system32\alg.exe`
 * Description: Application Layer Gateway Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FADF878C0D61D07170C91C891EBC72B2`
@@ -15,6 +17,7 @@ SHA415 | `32681420A6EA0CAD34CE61D97EA12D0807A92DB4701D27F1C2D65E4978CCE538CFF0E3
 SSDEEP | `1536:8fE1PcdpH07k3DWbKXJecY4HdPdmlDKSzKK6FRVsTJad/V2vH3:8wPcdpWQ6bKZVnl6eKoV0Md/w`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:8fE1PcdpH07k3DWbKXJecY4HdPdmlDKSzKK6FRVsTJad/V2vH3:8wPcdpWQ6bKZVn
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

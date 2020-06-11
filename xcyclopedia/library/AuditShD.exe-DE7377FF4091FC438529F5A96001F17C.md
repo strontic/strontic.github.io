@@ -1,10 +1,12 @@
 ﻿
 # AuditShD.exe 
+
 * File Path: `C:\WINDOWS\system32\oobe\AuditShD.exe`
 * Description: Audit Mode Desktop Switch Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DE7377FF4091FC438529F5A96001F17C`
@@ -15,6 +17,7 @@ SHA415 | `456EED82380FF7D470C787313C29CC11C2951DF118F74362A65541EDF98A782651C8AE
 SSDEEP | `384:os3HNdQBct+n76FSjz0Zb1YiAxZNNv2Hbe3Jbg6XhjKOr3fpgHuWGfErnUoskdeL:BHNYHncYzMAxJyK3Xqe0ok2ejb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:os3HNdQBct+n76FSjz0Zb1YiAxZNNv2Hbe3Jbg6XhjKOr3fpgHuWGfErnUoskdeL:B
 * Product Version: 10.0.18362.207
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

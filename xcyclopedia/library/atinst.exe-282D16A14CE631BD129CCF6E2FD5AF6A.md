@@ -1,10 +1,12 @@
 ﻿
 # atinst.exe 
+
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_TC\atinst.exe`
 * Description: Broker for Vista
 * Comments: T32 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `282D16A14CE631BD129CCF6E2FD5AF6A`
@@ -15,6 +17,7 @@ SHA415 | `1857937668B4B3405AE829DE189EAA95AF403FF2C5662675D2C924A838776F9237C93A
 SSDEEP | `6144:i6lrqsz/1TOZ4q2+Fei7DqUYpL5vb3WxHz9NTBZHdcxVW+GiLuCNjcP:1qszNTSM+F7mpL5vAHz9NTbdOnzNjS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ atmgr.exe
 * Product Version: 10033,0,2018,614
 * Language: English (United States)
 * Legal Copyright:  2006-2018 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

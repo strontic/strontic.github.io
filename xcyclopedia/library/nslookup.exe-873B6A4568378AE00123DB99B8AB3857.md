@@ -1,10 +1,12 @@
 ﻿
 # nslookup.exe 
+
 * File Path: `C:\WINDOWS\system32\nslookup.exe`
 * Description: nslookup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `873B6A4568378AE00123DB99B8AB3857`
@@ -15,6 +17,7 @@ SHA415 | `BBE6F86E90D28BB177A6A8BFC579598A41E73D02778EAE59DD41014FD24B14B0D0A53D
 SSDEEP | `1536:WOdNjLmD53XAWeW6Mhydn4tO4oOlkvzxz:WktLS5gWt0B444ocwz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Server:  UnKnown
@@ -55,5 +58,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

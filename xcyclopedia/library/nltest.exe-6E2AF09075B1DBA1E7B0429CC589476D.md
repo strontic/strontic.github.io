@@ -1,10 +1,12 @@
 ﻿
 # nltest.exe 
+
 * File Path: `C:\Windows\SysWOW64\nltest.exe`
 * Description: Microsoft Logon Server Test Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6E2AF09075B1DBA1E7B0429CC589476D`
@@ -15,6 +17,7 @@ SHA415 | `8D0094A5DFD30F62032375AB09537505FC9D60C9B64527CABE343377FF0DFB455ACB2F
 SSDEEP | `12288:/IRTTa4RbsbgxCDyH3nLeueO+ueO+ueO:/IRTNRbsMiyH3nLeueO+ueO+ueO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -100,5 +103,7 @@ Usage: nltest [/OPTIONS]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

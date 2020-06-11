@@ -1,10 +1,12 @@
 ﻿
 # autochk.exe 
+
 * File Path: `C:\Windows\system32\autochk.exe`
 * Description: Auto Check Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `33900CEB40D3ECD3504F1DD287428B49`
@@ -15,6 +17,7 @@ SHA415 | `406A55278AFB5BCFD70FF8C84B60AD93E427DEF558FF651E72E966A5E4BF907DAF333A
 SSDEEP | `12288:kEOVuzEjiPvADKg2ALAR3q/jiVO8dFeSoDTUm/Zg1X:bquQjHDKg2A0Ra/jedJ09/W1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:kEOVuzEjiPvADKg2ALAR3q/jiVO8dFeSoDTUm/Zg1X:bquQjHDKg2A0Ra/jedJ09
 * Product Version: 10.0.14393.1532
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

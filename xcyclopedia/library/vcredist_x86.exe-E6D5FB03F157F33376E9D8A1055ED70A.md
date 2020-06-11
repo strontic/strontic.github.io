@@ -1,10 +1,12 @@
 ﻿
 # vcredist_x86.exe 
+
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\vcredist_x86.exe`
 * Description: Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E6D5FB03F157F33376E9D8A1055ED70A`
@@ -15,6 +17,7 @@ SHA415 | `51298EC2DDE1D8EC6956CEE8DCE75572FC85217F49E071867A8A2987071E595DB03BF1
 SSDEEP | `12288:9tQsjr1agUc7iGBDZyRrvgF8diIhZrOvW4UhE:H9jrQQuGirgmdiIhZrOHuE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:9tQsjr1agUc7iGBDZyRrvgF8diIhZrOvW4UhE:H9jrQQuGirgmdiIhZrOHuE`
 * Product Version: 12.0.21005.1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

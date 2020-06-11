@@ -1,10 +1,12 @@
 ﻿
 # Gfxv4_0.exe 
+
 * File Path: `C:\WINDOWS\system32\Gfxv4_0.exe`
 * Description: Intel(R) Graphics Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D559A25253EE0988DE4C90F57AF83C6F`
@@ -15,6 +17,7 @@ SHA415 | `FCF24DA6D10478676CFCCE18F3C52E524E445B5101DD700715B01C6649E80000F05FFB
 SSDEEP | `12288:+umQC9Aph7xhAj1F8IQrMtEi0gHRhnUMXOMMvt6fDVCDa:+umQ/hNhAjTPZbUrMu0oa`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:+umQC9Aph7xhAj1F8IQrMtEi0gHRhnUMXOMMvt6fDVCDa:+umQ/hNhAjTPZbUrMu
 * Product Version: 8.15.10.4248
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # IntelCpHDCPSvc.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\IntelCpHDCPSvc.exe`
 * Description: IntelCpHDCPSvc Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `48F748F483CAEF391A70223688EDE265`
@@ -15,6 +17,7 @@ SHA415 | `06B501A515A76B278491946C72CA86DA83BF37CD08DCC70B454BAB2B0201AB703CA470
 SSDEEP | `6144:GLH9xuWtwcMXvTIIj7r0BaycmVJTEkx04YGoGismQP3M14u5pJrZgQp45w1e:GD5tIvTIIj7rhNQ/utw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:GLH9xuWtwcMXvTIIj7r0BaycmVJTEkx04YGoGismQP3M14u5pJrZgQp45w1e:GD5t
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesPerformance.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\SystemPropertiesPerformance.exe`
 * Description: Change Computer Performance Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C0D4EFAE5FB00D39A8FE4019D8C6036C`
@@ -15,6 +17,7 @@ SHA415 | `4832826E8257E77BA95C2FAAF4E58989B80637FCCF07FA9A6163BA267B2792A9D99514
 SSDEEP | `1536:EwZUtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jf:DUzECTMpuDhjRVJGl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:EwZUtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jf:DUzECTMpuDhjRVJGl`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

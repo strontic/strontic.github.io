@@ -1,10 +1,12 @@
 ﻿
 # agentactivationruntimestarter.exe 
+
 * File Path: `C:\WINDOWS\system32\agentactivationruntimestarter.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0724FA8BCAF2725746F9BB4264989D96`
@@ -15,6 +17,7 @@ SHA415 | `59C13F89500481D7CF31D8271CC472129DC40516FAC3458D8A0781F100FFBB9E10101D
 SSDEEP | `192:eZMn7hfwtpyxrHyihK0vSpN+wDAdJVvydyKGXoJxIJGSZ6lEP6UcNON:QMn16gyij6pNhKVaDN+qDUcNO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:eZMn7hfwtpyxrHyihK0vSpN+wDAdJVvydyKGXoJxIJGSZ6lEP6UcNON:QMn16gyij6
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

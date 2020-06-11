@@ -1,10 +1,12 @@
 ﻿
 # UserAccountControlSettings.exe 
+
 * File Path: `C:\Windows\system32\UserAccountControlSettings.exe`
 * Description: UserAccountControlSettings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5E2A9717AA62B8BBFF893299E57F6082`
@@ -15,6 +17,7 @@ SHA415 | `FE59BFB9D4512985E2BA646F2A214E48950CD1394682F3865CFF5B10B836FC519C61C1
 SSDEEP | `1536:XKwMgDKokMoXv0ORGNGgVv751sNz0UCdkV/L7:a9Uk5fXTwz5K`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:XKwMgDKokMoXv0ORGNGgVv751sNz0UCdkV/L7:a9Uk5fXTwz5K`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

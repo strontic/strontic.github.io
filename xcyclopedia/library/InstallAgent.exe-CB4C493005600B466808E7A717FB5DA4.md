@@ -1,10 +1,12 @@
 ﻿
 # InstallAgent.exe 
+
 * File Path: `C:\Windows\system32\InstallAgent.exe`
 * Description: InstallAgent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CB4C493005600B466808E7A717FB5DA4`
@@ -15,6 +17,7 @@ SHA415 | `6AC36691C44067685B499AB70F0C0B9017E99288AAF7EEBC8FD06B02EE659C00725ED4
 SSDEEP | `6144:ccA+cNOWNnPGH+OnT6EZOeY7HvW7QOQ2Ll6/1:ccA+cNOWZ4nWEZOeYjkl6t`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:ccA+cNOWNnPGH+OnT6EZOeY7HvW7QOQ2Ll6/1:ccA+cNOWZ4nWEZOeYjkl6t`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SystemResetPlatform.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemResetPlatform\SystemResetPlatform.exe`
 * Description: Windows System Reset Platform
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0E686AA48C5FB651F8187A1DCDF7CE5E`
@@ -15,6 +17,7 @@ SHA415 | `6E70F6C2D65EF98535BB9CD8B2322C906AB98123309AE3E21C8B9EAEC34C617AE226DA
 SSDEEP | `192:RaDyeCriNmhqU8TDg9uLDEhNhwSTZbVEv19GUGACk0G+WYSW:REGuyq9fyuHEhx0PGUx0hWYSW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:RaDyeCriNmhqU8TDg9uLDEhNhwSTZbVEv19GUGACk0G+WYSW:REGuyq9fyuHEhx0PG
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

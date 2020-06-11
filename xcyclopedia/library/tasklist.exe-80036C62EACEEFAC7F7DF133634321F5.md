@@ -1,10 +1,12 @@
 ﻿
 # tasklist.exe 
+
 * File Path: `C:\WINDOWS\system32\tasklist.exe`
 * Description: Lists the current running tasks
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `80036C62EACEEFAC7F7DF133634321F5`
@@ -15,6 +17,7 @@ SHA415 | `294D54A96AB528C0BE6ED6F526E50157EBFB986CF7D71C208DB91A1A9E8C9ECBF3EF5C
 SSDEEP | `3072:KuW1S+3PxZ2rrCRjbgnvQHMRgPgBxaZt:K91SQf26RjboIHMR+geZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -120,5 +123,7 @@ Type "TASKLIST /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

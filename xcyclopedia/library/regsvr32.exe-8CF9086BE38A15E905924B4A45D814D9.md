@@ -1,10 +1,12 @@
 ﻿
 # regsvr32.exe 
+
 * File Path: `C:\Windows\system32\regsvr32.exe`
 * Description: Microsoft(C) Register Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8CF9086BE38A15E905924B4A45D814D9`
@@ -15,6 +17,7 @@ SHA415 | `E0D47C679BB29676FE24F395F1B744C798EADA733692BEC67317AF1958EF556FDDD0C6
 SSDEEP | `384:PHMQ8+gxXO3Ih7uGLQryMqcgQ7zY+ZFFlIfoosWrzLHW:EQ8pk3k7uY2ZuQfFfIfoqL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:PHMQ8+gxXO3Ih7uGLQryMqcgQ7zY+ZFFlIfoosWrzLHW:EQ8pk3k7uY2ZuQfFfIfoq
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

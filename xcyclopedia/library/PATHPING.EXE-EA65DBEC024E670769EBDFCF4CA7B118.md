@@ -1,10 +1,12 @@
 ﻿
 # PATHPING.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\PATHPING.EXE`
 * Description: TCP/IP PathPing Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EA65DBEC024E670769EBDFCF4CA7B118`
@@ -15,6 +17,7 @@ SHA415 | `26490FC01E25F57420F2C73C1BEE8CB530523BD4D1AAE4DA1B2B7001877088890125D6
 SSDEEP | `384:rdYnZBEgfwhEfJF5Bn9mCraVvm6L8fzyWUAW:r29JHByVu6L8c`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -60,5 +63,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

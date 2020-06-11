@@ -1,10 +1,12 @@
 ﻿
 # FirstLogonAnim.exe 
+
 * File Path: `C:\WINDOWS\system32\oobe\FirstLogonAnim.exe`
 * Description: First Sign-in Animation
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `94C10EAE7738DA6F112A6407E8C952F8`
@@ -15,6 +17,7 @@ SHA415 | `A50C8DB8B280FEAB848D661BCF2A34935520D2B2ED10CB74D79D357885515426145F5D
 SSDEEP | `384:DoMBNKWwgKphXv9cZQ+WixWaHmXjDBRJZlApl9qKt:DrBcYKphFcZQCtGXj1PYv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:DoMBNKWwgKphXv9cZQ+WixWaHmXjDBRJZlApl9qKt:DrBcYKphFcZQCtGXj1PYv`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # verifiergui.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\verifiergui.exe`
 * Description: Driver Verifier Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1FFDE5339B78158668EDF02922258208`
@@ -15,6 +17,7 @@ SHA415 | `B04DFD3951BCE6CF37C9A3D1D9D26A1745FC96E47F26CCEC3ED4828DF8DFD192FB71D6
 SSDEEP | `3072:nAcJVIZen+Vcv2JBwwRBkBnRePnjp+z7zq2xk8RvoXD/Aq57Gi9yFmNEdnef4l2N:npG88g39O4l24apWcv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:nAcJVIZen+Vcv2JBwwRBkBnRePnjp+z7zq2xk8RvoXD/Aq57Gi9yFmNEdnef4l2N:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

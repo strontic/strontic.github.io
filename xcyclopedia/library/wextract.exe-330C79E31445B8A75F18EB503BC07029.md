@@ -1,10 +1,12 @@
 ﻿
 # wextract.exe 
+
 * File Path: `C:\Windows\SysWOW64\wextract.exe`
 * Description: Win32 Cabinet Self-Extractor                                           
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `330C79E31445B8A75F18EB503BC07029`
@@ -15,6 +17,7 @@ SHA415 | `DDD982483A877DA3285269BF81402FFB867F4854D17A8B6536F2A3A9D488BCC5AD88C8
 SSDEEP | `3072:e75U501s8Wp1icKAArDZz4N9GhbkUNEk959:Jz9p0yN90vE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:e75U501s8Wp1icKAArDZz4N9GhbkUNEk959:Jz9p0yN90vE`
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

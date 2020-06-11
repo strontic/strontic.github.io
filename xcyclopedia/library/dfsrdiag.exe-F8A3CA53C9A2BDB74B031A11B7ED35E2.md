@@ -1,10 +1,12 @@
 ﻿
 # dfsrdiag.exe 
+
 * File Path: `C:\Windows\system32\dfsrdiag.exe`
 * Description: DFS Replication Diagnostics Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F8A3CA53C9A2BDB74B031A11B7ED35E2`
@@ -15,6 +17,7 @@ SHA415 | `95AF37ACFC6744D1E009426FCFB56410022AD276ED66B39A7DC38FADA516A63924F797
 SSDEEP | `49152:7l5Bt5M1P5YkK0DtaVBJ10lMuEynUiuSJk/rwjR45P6mxkn:PBt5Y/KOz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 [ERROR] Unknown Command <-help>
@@ -75,5 +78,7 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
 * Product Version: 10.0.14393.2999
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

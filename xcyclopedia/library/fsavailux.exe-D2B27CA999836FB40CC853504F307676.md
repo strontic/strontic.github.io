@@ -1,10 +1,12 @@
 ﻿
 # fsavailux.exe 
+
 * File Path: `C:\Windows\system32\fsavailux.exe`
 * Description: Microsoft\fsavailux
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D2B27CA999836FB40CC853504F307676`
@@ -15,6 +17,7 @@ SHA415 | `4E4E25CF20F6A66744B65760CF139B6C9BEEBA39D770DD7E2DE71B68DEB9E3D41AC27A
 SSDEEP | `384:TWM7340MBGm9+XszPzQGi0vMbShA+FbK5WgVWW:z73ASgrjhAAbK9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:TWM7340MBGm9+XszPzQGi0vMbShA+FbK5WgVWW:z73ASgrjhAAbK9`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # DFDWiz.exe 
+
 * File Path: `C:\Windows\system32\DFDWiz.exe`
 * Description: Windows Disk Diagnostic User Resolver
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `72ECFD20DB8AE2C475856699987CADE3`
@@ -15,6 +17,7 @@ SHA415 | `08F818FEDF4F2F96FB972869A21CE6E5E2735EA8672FCA3B95D52E14FE1E3E9F8A73FB
 SSDEEP | `768:gnm5UETuFLczkNQ9GHQx4oj0GZND7k1Uk9wFO6Omc0G0zmjuHShGF:XS9g9nZDjO6DS0SLhG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:gnm5UETuFLczkNQ9GHQx4oj0GZND7k1Uk9wFO6Omc0G0zmjuHShGF:XS9g9nZDjO6D
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

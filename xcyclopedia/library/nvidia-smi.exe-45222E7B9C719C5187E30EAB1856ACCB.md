@@ -1,10 +1,12 @@
 ﻿
 # nvidia-smi.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\nvidia-smi.exe`
 * Description: NVIDIA-SMI 422.02
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `45222E7B9C719C5187E30EAB1856ACCB`
@@ -15,6 +17,7 @@ SHA415 | `BC6F203484DAB55F0A07D4251E24AEB86613CD7FB25433F7BC4112D89F03BC447F15D9
 SSDEEP | `12288:v38c60uMfhgknVcU00wIJ5dxKB6i9TXnD1:v38c60uMfhgiVcU00jLKNTXn`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Invalid combination of input arguments. Please run 'nvidia-smi -h' for help.
@@ -47,5 +50,7 @@ Invalid combination of input arguments. Please run 'nvidia-smi -h' for help.
 * Product Version: 8.17.14.2202
 * Language: English (United States)
 * Legal Copyright: (C) 2019 NVIDIA Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

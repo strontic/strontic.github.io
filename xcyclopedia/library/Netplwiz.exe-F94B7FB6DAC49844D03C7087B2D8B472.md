@@ -1,10 +1,12 @@
 ﻿
 # Netplwiz.exe 
+
 * File Path: `C:\WINDOWS\system32\Netplwiz.exe`
 * Description: Advanced User Accounts Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F94B7FB6DAC49844D03C7087B2D8B472`
@@ -15,6 +17,7 @@ SHA415 | `D63878F94F7699E4CC63C2CD885C29455E0C423D32DBA750E4FC3AA74DBACA80A1A4B1
 SSDEEP | `768:qt4lgFHE9Lm2kEwBrIit865IKX+1XycvydfUrh6WeENiJDBPrxZt4A:SmUFBIiGYIk+1RvyweWSDBPrxZaA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:qt4lgFHE9Lm2kEwBrIit865IKX+1XycvydfUrh6WeENiJDBPrxZt4A:SmUFBIiGYIk
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

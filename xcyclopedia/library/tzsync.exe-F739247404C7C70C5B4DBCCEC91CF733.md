@@ -1,10 +1,12 @@
 ﻿
 # tzsync.exe 
+
 * File Path: `C:\WINDOWS\system32\tzsync.exe`
 * Description: TimeZone Sync Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F739247404C7C70C5B4DBCCEC91CF733`
@@ -15,6 +17,7 @@ SHA415 | `5734A7A93CF182E383A2D147D1FE23FC35B6684B22C2EE058528E5BC181D81309F47D1
 SSDEEP | `768:gMO5WXdGYTNKWJDGYyXb0cDrQoNWt7G/XQYyKC7MGMEf9jZpAXDRXWfjP6:bGKNl9GDXbVDUoY7G/gYyKf19`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -51,5 +54,7 @@ Unhandled Exception: System.Security.SecurityException: Requested registry acces
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

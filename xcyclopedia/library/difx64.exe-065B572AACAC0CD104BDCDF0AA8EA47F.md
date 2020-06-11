@@ -1,10 +1,12 @@
 ﻿
 # difx64.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\difx64.exe`
 * Description: 64 bit driver installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `065B572AACAC0CD104BDCDF0AA8EA47F`
@@ -15,6 +17,7 @@ SHA415 | `A60074A82A190C320B8EAF952501BC17CA265FE8848FB0A6B8A2DB0A3802745DCEA3C7
 SSDEEP | `3072:FkjU/mLkLgUPhsASnGsTI2hzQXWENwZp/C01zSHjSmdOtd7C:F8LkLgUPhyTI2hzQYmjS+A7C`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:FkjU/mLkLgUPhsASnGsTI2hzQXWENwZp/C01zSHjSmdOtd7C:F8LkLgUPhyTI2hzQ
 * Product Version: 1, 4, 3, 0
 * Language: English (United States)
 * Legal Copyright: Copyright (C), Intel Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

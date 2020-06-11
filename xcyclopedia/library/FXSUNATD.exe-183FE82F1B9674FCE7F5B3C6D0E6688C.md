@@ -1,10 +1,12 @@
 ﻿
 # FXSUNATD.exe 
+
 * File Path: `C:\WINDOWS\system32\FXSUNATD.exe`
 * Description: Microsoft  Fax Unattend Setup Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `183FE82F1B9674FCE7F5B3C6D0E6688C`
@@ -15,6 +17,7 @@ SHA415 | `5C6C1DEE64DBD11AD9F529A0694ABC32EA974E88AA4507131230EF4E6D5EF70D036D98
 SSDEEP | `384:xZ5e2QtLYl7OoAkmaVXwm7Nv9p1dr/j3zzOeIXoA+n2MiQ641Iupp+/GQW2xiW:9XKLsYoVPN7j3zdIb19xupMG8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:xZ5e2QtLYl7OoAkmaVXwm7Nv9p1dr/j3zzOeIXoA+n2MiQ641Iupp+/GQW2xiW:9XK
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # VC_redist.x86.exe 
+
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\VC_redist.x86.exe`
 * Description: Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23506
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `314CFD879F7587019DC9FCC12F5D7348`
@@ -15,6 +17,7 @@ SHA415 | `94DFF0ACA18AD4A382873D620EC5CB16405A75F21BBD9D4A29DDD9BF5665130868BA94
 SSDEEP | `12288:/AqkoCtQO4Nai3jk/PHJKzCon0GZVPBb6:/xkoIgNaPpKmM0WB6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:/AqkoCtQO4Nai3jk/PHJKzCon0GZVPBb6:/xkoIgNaPpKmM0WB6`
 * Product Version: 14.0.23506.0
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

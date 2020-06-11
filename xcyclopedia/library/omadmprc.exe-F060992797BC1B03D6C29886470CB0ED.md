@@ -1,10 +1,12 @@
 ﻿
 # omadmprc.exe 
+
 * File Path: `C:\Windows\system32\omadmprc.exe`
 * Description: Host Process for Push Router Client of OMA-DM
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F060992797BC1B03D6C29886470CB0ED`
@@ -15,6 +17,7 @@ SHA415 | `64BA05CC41B04D49E7C68E269A3E4BCF546AA97FA76EA957A13DDDCD085DB589E62453
 SSDEEP | `1536:X9wFsRd/rTZQqboEtan41ToDU2+2dTniTfmR+MxBYpK:eFA/xQqUEtan41GU2+2dTniD4+M7YpK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:X9wFsRd/rTZQqboEtan41ToDU2+2dTniTfmR+MxBYpK:eFA/xQqUEtan41GU2+2dT
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

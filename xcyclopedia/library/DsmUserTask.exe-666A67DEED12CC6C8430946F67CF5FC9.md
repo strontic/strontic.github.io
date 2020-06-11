@@ -1,10 +1,12 @@
 ﻿
 # DsmUserTask.exe 
+
 * File Path: `C:\WINDOWS\system32\DsmUserTask.exe`
 * Description: Device Setup Manager User Task Handler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `666A67DEED12CC6C8430946F67CF5FC9`
@@ -15,6 +17,7 @@ SHA415 | `F7FDFC70CEEA423180F03B9A6AB961847D76D3453EEC629FB604AC876E6DC195225F94
 SSDEEP | `384:Nb9FrSVHV5m/VpmJZ7/OnLDLl3zcyhW3zW:yHVspmJlULDLdzcyO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:Nb9FrSVHV5m/VpmJZ7/OnLDLl3zcyhW3zW:yHVspmJlULDLdzcyO`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

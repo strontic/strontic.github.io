@@ -1,10 +1,12 @@
 ﻿
 # finger.exe 
+
 * File Path: `C:\WINDOWS\system32\finger.exe`
 * Description: TCPIP Finger Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `56C565BE7419852071C6DFCF36F31503`
@@ -15,6 +17,7 @@ SHA415 | `882C55EA96E9A54028E1065C29B2A7565CC8F9E17DAD4D413EDABABA6C047DECB3853E
 SSDEEP | `192:0T+V81sDF09kycvbhY+u6pePFzoyrAf992kATG9EUjNEwL7GaWU0W:0T+VCUF09FcDiEpedzeKTIjNbzWU0W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -60,5 +63,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

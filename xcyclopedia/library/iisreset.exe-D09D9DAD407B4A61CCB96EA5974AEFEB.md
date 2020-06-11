@@ -1,10 +1,12 @@
 ﻿
 # iisreset.exe 
+
 * File Path: `C:\Windows\system32\iisreset.exe`
 * Description: IIS control command line utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D09D9DAD407B4A61CCB96EA5974AEFEB`
@@ -15,6 +17,7 @@ SHA415 | `8DE4CC8CC09FA56C65D713176A2B2C9BA1AC9277167AD83F5FFD7AF1A8569A6FE300F6
 SSDEEP | `384:1rfAz/f54lG6A0O3yc7tGlps62gy8HDExabCviEgQBIbW0:ZG41A0O3bEl9H/WvijQBIz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -70,5 +73,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

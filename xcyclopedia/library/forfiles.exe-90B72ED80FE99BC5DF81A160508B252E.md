@@ -1,10 +1,12 @@
 ﻿
 # forfiles.exe 
+
 * File Path: `C:\WINDOWS\system32\forfiles.exe`
 * Description: ForFiles - Executes a command on selected files
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `90B72ED80FE99BC5DF81A160508B252E`
@@ -15,6 +17,7 @@ SHA415 | `F3CA9DA6A4C32B3E864A11E0178F1A4FDE2A6D1C2FCDC2BD60BAC08DB3BA752B5D6B4D
 SSDEEP | `768:VyIUxvUUy2SucVhKmirwPrKQcncfOV4NjYxD3gZCuXKoF4ZTGt6Xxlex2T4kRG:gICUDucV3zKQcncfBXXKfZTGt6XGx27M`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -124,5 +127,7 @@ Type "FORFILES /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

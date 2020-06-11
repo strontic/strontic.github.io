@@ -1,10 +1,12 @@
 ﻿
 # dcpromo.exe 
+
 * File Path: `C:\Windows\system32\dcpromo.exe`
 * Description: Active Directory Domain Services Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7CBFAC17F4A4BCA957D351749F0D9803`
@@ -15,6 +17,7 @@ SHA415 | `6EAFF562984F47A66C0EF2382CB69BDC8CBE43F2CF5761259393FD9F852E907C56DBAB
 SSDEEP | `6144:CWms72era8bVjnCbn+URLQvG+4ntASgZaghY:GsaUbnCT+URwOtgQg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 The specified argument 'help' should start with '/' or '-'.
@@ -46,5 +49,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

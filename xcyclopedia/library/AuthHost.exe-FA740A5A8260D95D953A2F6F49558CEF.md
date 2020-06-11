@@ -1,10 +1,12 @@
 ﻿
 # AuthHost.exe 
+
 * File Path: `C:\Windows\system32\AuthHost.exe`
 * Description: Microsoft AuthHost
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FA740A5A8260D95D953A2F6F49558CEF`
@@ -15,6 +17,7 @@ SHA415 | `89F28DF67B7DA680A3F8EF216D5D2AE0A1A866C96F3F566EBBA9CC224A89AD61141A47
 SSDEEP | `3072:zTiePil36/JNQlwxyB6cs7gZUI+b+scRil3pOS:zTiePKvlYKsh5cK3US`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ iCloudPhotos.exe iCloudDrive.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # Eap3Host.exe 
+
 * File Path: `C:\Windows\system32\Eap3Host.exe`
 * Description: Eap Third Party Surrogate Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `272735F369FCFC4496A6662691DA1D9A`
@@ -15,6 +17,7 @@ SHA415 | `9B28863A360291477A5D5806E8DADE149924BD969B948612853FA42C6B15C055295817
 SSDEEP | `384:NVRA0oogaIknVoVWGsJLlxRw6okaSWNaW:nooYknVoVelRokaJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:NVRA0oogaIknVoVWGsJLlxRw6okaSWNaW:nooYknVoVelRokaJ`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

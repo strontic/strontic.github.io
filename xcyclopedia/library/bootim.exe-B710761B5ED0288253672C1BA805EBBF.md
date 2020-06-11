@@ -1,10 +1,12 @@
 ﻿
 # bootim.exe 
+
 * File Path: `C:\Windows\system32\bootim.exe`
 * Description: boot immersive menus
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B710761B5ED0288253672C1BA805EBBF`
@@ -15,6 +17,7 @@ SHA415 | `5BAEB73847C1854D5BAA58367F2268C4BA662CD0CDAF153E791BA0034C6DBA030F99EC
 SSDEEP | `768:+wvsOjY8RL3Kpw2fCHAUTCdFPkkPL2vFHHoQ:+QsSLHgc09FMFHHoQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:+wvsOjY8RL3Kpw2fCHAUTCdFPkkPL2vFHHoQ:+QsSLHgc09FMFHHoQ`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

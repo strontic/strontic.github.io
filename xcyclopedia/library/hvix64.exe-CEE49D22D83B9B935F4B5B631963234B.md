@@ -1,10 +1,12 @@
 ﻿
 # hvix64.exe 
+
 * File Path: `C:\WINDOWS\system32\hvix64.exe`
 * Description: Hypervisor V2.0
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CEE49D22D83B9B935F4B5B631963234B`
@@ -15,6 +17,7 @@ SHA415 | `62B53BFC7052ABFD00A9EC0A95CEF5CFA1942D28FDFD439B63BB870F6B43BBDA4E23CE
 SSDEEP | `24576:LC2/d+GSlWsMQRRsk21MyNNb5vZgO9j7P6mI0GNE1DKt8GYc1N/oIybVaZmtCho:VML7sWyNzZgQjmmI7NeDKt8GYcc+O`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:LC2/d+GSlWsMQRRsk21MyNNb5vZgO9j7P6mI0GNE1DKt8GYc1N/oIybVaZmtCho:
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

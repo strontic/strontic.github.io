@@ -1,10 +1,12 @@
 ﻿
 # attrib.exe 
+
 * File Path: `C:\Windows\system32\attrib.exe`
 * Description: Attribute Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E2B44D665E20F6FF5C453E0BD450D6FB`
@@ -15,6 +17,7 @@ SHA415 | `32974CCC40AE7490FC51CA529AAB40EBC8CF6B7873DE845875EFD3FA0631637984AD50
 SSDEEP | `384:hkOm9rkgs4iO70XbuqT5m/yDfqBZSFwWPW8tW:hyrkt4ibiqeyIZSFR3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Displays or changes file attributes.
@@ -67,5 +70,7 @@ ATTRIB [+R | -R] [+A | -A ] [+S | -S] [+H | -H] [+I | -I]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

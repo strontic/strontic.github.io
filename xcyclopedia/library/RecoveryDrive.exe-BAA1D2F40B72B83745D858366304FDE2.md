@@ -1,10 +1,12 @@
 ﻿
 # RecoveryDrive.exe 
+
 * File Path: `C:\Windows\system32\RecoveryDrive.exe`
 * Description: Recovery Media Creator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BAA1D2F40B72B83745D858366304FDE2`
@@ -15,6 +17,7 @@ SHA415 | `BA66FE3BD9FCBEB84AC849508D223CB1AB3ED4952CAD917B0C723A602EE4C082E66E81
 SSDEEP | `24576:Ol26PyVFgx6RB8QrUsY28G2HUgA7SwJX5ebmnMiH94h:YF6y8RBjrfNcHUgCebmMid4h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:Ol26PyVFgx6RB8QrUsY28G2HUgA7SwJX5ebmnMiH94h:YF6y8RBjrfNcHUgCebmM
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

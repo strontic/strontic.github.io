@@ -1,10 +1,12 @@
 ﻿
 # acu.exe 
+
 * File Path: `C:\Windows\system32\acu.exe`
 * Description: ACU
 * Comments: Contains the Application Container Updater
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5A62052F6F1D9E8B5BD1485ADD99E5A0`
@@ -15,6 +17,7 @@ SHA415 | `CD28F6D7E513A0FEBCE3048A118D3094EFDB75EAB0638485D71C5A7D6BE0CFB6735AE7
 SSDEEP | `384:Xy2s+fssUg+OSxhDs9W9DA+YvrQKahZNisVUmDsVltVk0dvaeT7QCbmwDV7wJ/Wk:Erw2dYsbRnlDsV7gewKrPOwR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:Xy2s+fssUg+OSxhDs9W9DA+YvrQKahZNisVUmDsVltVk0dvaeT7QCbmwDV7wJ/Wk:E
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

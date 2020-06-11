@@ -1,10 +1,12 @@
 ﻿
 # EmbeddedAppLauncherConfig.exe 
+
 * File Path: `C:\Windows\system32\EmbeddedAppLauncherConfig.exe`
 * Description: Embedded App Launcher config
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `586054DE183F14002BA454848B3379C9`
@@ -15,6 +17,7 @@ SHA415 | `19DD95FE292F7C199975F120DA6A064318072CD81B87169C686772C73CA62491EFB051
 SSDEEP | `768:Y3Qswq/TISwkYZqVYhHzn3AmFOFbL1PvMoBLoF:HswqsyBOhz3KFbhPvL2F`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 SLCONFIG: ExePassThrough==>
@@ -48,5 +51,7 @@ SLCONFIG: ExePassThrough<==
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

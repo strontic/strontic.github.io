@@ -1,10 +1,12 @@
 ﻿
 # securekernel.exe 
+
 * File Path: `C:\Windows\system32\securekernel.exe`
 * Description: NT Secure Kernel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `73F82E56BD81F6FB3D56DB01233D994D`
@@ -15,6 +17,7 @@ SHA415 | `BC67B839F9DFAFE3CD394A0CF63E82E5B996241774B23FC14C075A4B7CA16E05D16662
 SSDEEP | `6144:BGz2Mvudm3/kqCkvTLQ3jRHttttMtfoLO1vRLvxwHFJQ8udnd:BmJmo3VCzHttttMtfoKZYJQ8M`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:BGz2Mvudm3/kqCkvTLQ3jRHttttMtfoLO1vRLvxwHFJQ8udnd:BmJmo3VCzHttttM
 * Product Version: 10.0.14393.3503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

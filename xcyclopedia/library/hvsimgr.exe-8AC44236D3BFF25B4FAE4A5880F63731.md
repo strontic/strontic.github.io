@@ -1,10 +1,12 @@
 ﻿
 # hvsimgr.exe 
+
 * File Path: `C:\WINDOWS\system32\hvsimgr.exe`
 * Description: Windows Defender Application Guard Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8AC44236D3BFF25B4FAE4A5880F63731`
@@ -15,6 +17,7 @@ SHA415 | `F80DDC7F5C79919EF3824AE75F135DC33FE0D16C788B6DDD75DACEE5DA29E817F38D05
 SSDEEP | `6144:q34Q+sUy0e8w3mbF1X6BBxRXeLvisHyFv9xibrITBXqk5MJQHQ+JHBe8QNTsa+4Q:s4Q+s0OOdSyITBXL4QHQkBeHNYauiuz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:q34Q+sUy0e8w3mbF1X6BBxRXeLvisHyFv9xibrITBXqk5MJQHQ+JHBe8QNTsa+4Q:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

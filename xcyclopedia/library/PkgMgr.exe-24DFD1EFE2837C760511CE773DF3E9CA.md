@@ -1,10 +1,12 @@
 ﻿
 # PkgMgr.exe 
+
 * File Path: `C:\Windows\SysWOW64\PkgMgr.exe`
 * Description: Windows Package Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `24DFD1EFE2837C760511CE773DF3E9CA`
@@ -15,6 +17,7 @@ SHA415 | `9246AA908E49E44C716A71A1DBD5F49A2D20189326232316DC8A02B988B591AD8404CA
 SSDEEP | `3072:fF8r7ENnKKphw6s4RTQcWl4gECKue9Pa4iuUblDwAMQUlW1Vm:fqr78nRccMxECze9+hblDw/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:fF8r7ENnKKphw6s4RTQcWl4gECKue9Pa4iuUblDwAMQUlW1Vm:fqr78nRccMxECze
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

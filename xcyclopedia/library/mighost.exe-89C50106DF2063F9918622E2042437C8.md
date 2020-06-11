@@ -1,10 +1,12 @@
 ﻿
 # mighost.exe 
+
 * File Path: `C:\Windows\system32\migwiz\mighost.exe`
 * Description: Migration Plugins host program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `89C50106DF2063F9918622E2042437C8`
@@ -15,6 +17,7 @@ SHA415 | `960178DD0C85104D8B8C5676A574690C2C80028BC103439E8DC25DF27F753DC8FF11E2
 SSDEEP | `6144:QrENU1pojDuUlARQLO62i5wKqGI+hN1UFpfNS5DWL08OavxkHpjlVMJpJafUQ/42:8veDuUl8QLOowKq1u`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.14393.3503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

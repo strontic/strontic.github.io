@@ -1,10 +1,12 @@
 ﻿
 # WUDFCompanionHost.exe 
+
 * File Path: `C:\WINDOWS\system32\WUDFCompanionHost.exe`
 * Description: Windows Driver Foundation - User-mode Driver Companion Framework Host Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `27BB6D5BDA8B81ECE806133E26B2E885`
@@ -15,6 +17,7 @@ SHA415 | `5E2C57598A3F953B7F7F2D43A77826D2BDFCCDADAACD4EC059BC97FD1DB2E30DE66EC1
 SSDEEP | `3072:mtHrtkHqpVvBa7Z2yjSGx9gz/777wEgh1u05m3nkPQyH55uaeIKB0lv:urt+qbvBa7Z2yJx9gz/777wEgh80fQyx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:mtHrtkHqpVvBa7Z2yjSGx9gz/777wEgh1u05m3nkPQyH55uaeIKB0lv:urt+qbvBa
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

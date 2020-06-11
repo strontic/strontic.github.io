@@ -1,10 +1,12 @@
 ﻿
 # PackageInspector.exe 
+
 * File Path: `C:\Windows\system32\PackageInspector.exe`
 * Description: PackageInspector allows creation of a catalog containing all executable files laid down by an installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `82896A46742C10E9771A512690A6720C`
@@ -15,6 +17,7 @@ SHA415 | `4A9F1FAA3E410F839E93ADAD0A4361A794657775DB539293FDAFFD3D852F03EF1259BE
 SSDEEP | `1536:barAFc3oN7s5PPE46TS+BtvrzSaRhE+b30hNj5x9irmgO0Y5+l4XTeT2KJg8Tt6s:2AFc3oN7sBPE4dyvfSa4y8+l4q3i8hL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage:
@@ -69,5 +72,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

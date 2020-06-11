@@ -1,10 +1,12 @@
 ﻿
 # getmac.exe 
+
 * File Path: `C:\Windows\system32\getmac.exe`
 * Description: Displays NIC MAC information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `88A081F2002F826E6B03503DAE39D78E`
@@ -15,6 +17,7 @@ SHA415 | `794C8D7D848FA57AE1E8504F6F39B8EF7D4B35F9188276BE17CD576DFF1B9AA6D4CE3B
 SSDEEP | `1536:dsWiKpuWkdLyfEEWHGiTgmeZEYXGY6zMb+usa6YkR:dDpumf/WvVeZEiRjsaRw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -82,5 +85,7 @@ Type "GETMAC /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

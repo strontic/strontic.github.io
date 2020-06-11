@@ -1,10 +1,12 @@
 ﻿
 # cmstp.exe 
+
 * File Path: `C:\WINDOWS\system32\cmstp.exe`
 * Description: Microsoft Connection Manager Profile Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D57251040FC3DB645062FD9166914A85`
@@ -15,6 +17,7 @@ SHA415 | `2707807502499CAE8C382A5AA8B0FF0E94ED4BCA2EE7F9AF82EB554488CAA058942DD2
 SSDEEP | `1536:joU9t6nsW/L+XqRsXo94FC9GiyY4cvR2jBWb/87BM++GWb+1JXn:MUTXARj4MH6cp0Wbk7BM+HWb+15n`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:joU9t6nsW/L+XqRsXo94FC9GiyY4cvR2jBWb/87BM++GWb+1JXn:MUTXARj4MH6cp
 * Product Version: 7.2.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

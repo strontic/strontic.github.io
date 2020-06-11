@@ -1,10 +1,12 @@
 ﻿
 # convertvhd.exe 
+
 * File Path: `C:\WINDOWS\system32\convertvhd.exe`
 * Description: VHD Conversion Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B45B3BDA85635073280359BD2F9EC9D7`
@@ -15,6 +17,7 @@ SHA415 | `820606A8093A16DC4E07FA0C0615ECA9E720B6759AFCE1B0A8584C159F501C94FF0042
 SSDEEP | `3072:htddaYtu1AyUGnzozhZHbaKAcNojRqTnEHV2zSKoiYxWcODf:hlvu1AyUeAh6cONqTnEHV2zSjxPe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 VHD Conversion Tool [Version 1.00]
@@ -65,5 +68,7 @@ convertvhd.exe -sourceToken <file handle> -destinationToken <file handle> [-btt]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

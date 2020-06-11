@@ -1,10 +1,12 @@
 ﻿
 # PrintDialogHost.exe 
+
 * File Path: `C:\Windows\system32\PrintDialogHost.exe`
 * Description: Print Dialog Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B55858B74F9BA4986E427C2700025899`
@@ -15,6 +17,7 @@ SHA415 | `04CA7D0B07FB8301087F973ABA4F75317BBF35D6E2FDC022D4FEFB3F90EAC1513E792F
 SSDEEP | `384:HtvKTII2pkc8DXzl2VKNGO4MPzH/xsi6QgrHYSdmHEOL0WRWo0W0lRDBRJsKl3hK:HxF9pkcilEKNprK8oYSdWpL3Ni1PxhUX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:HtvKTII2pkc8DXzl2VKNGO4MPzH/xsi6QgrHYSdmHEOL0WRWo0W0lRDBRJsKl3hK:H
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # taskhostw.exe 
+
 * File Path: `C:\WINDOWS\system32\taskhostw.exe`
 * Description: Host Process for Windows Tasks
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8AC325C757FA721B272ECEA19EBCF745`
@@ -15,6 +17,7 @@ SHA415 | `B0D66CB3AE5A19D33A62779DDF93A38AD9FDA4660D364BDBF5BE10C32E087B8484EFCD
 SSDEEP | `1536:b2cfEpwTrLoyh7ac8xcZzktOT+K8fTrTbKU2d8TPeF:bdf9P38xyzGOT+K8f3TbKUrTo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:b2cfEpwTrLoyh7ac8xcZzktOT+K8fTrTbKU2d8TPeF:bdf9P38xyzGOT+K8f3TbKU
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

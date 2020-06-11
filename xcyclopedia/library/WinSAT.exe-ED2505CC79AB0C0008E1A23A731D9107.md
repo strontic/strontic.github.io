@@ -1,10 +1,12 @@
 ﻿
 # WinSAT.exe 
+
 * File Path: `C:\WINDOWS\system32\WinSAT.exe`
 * Description: Windows System Assessment Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `ED2505CC79AB0C0008E1A23A731D9107`
@@ -15,6 +17,7 @@ SHA415 | `462EF9CB9E3AE8C6D946C97DDFBA421EB0737874AB65C2643024411BC72C2E16F07EF7
 SSDEEP | `49152:mOpNQ6QTvumPeAGU1FVA7PsYmq1dKwdfU2bECbe:9NDF1DFE/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:mOpNQ6QTvumPeAGU1FVA7PsYmq1dKwdfU2bECbe:9NDF1DFE/`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

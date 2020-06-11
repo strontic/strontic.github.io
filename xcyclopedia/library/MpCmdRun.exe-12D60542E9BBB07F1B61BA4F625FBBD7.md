@@ -1,10 +1,12 @@
 ﻿
 # MpCmdRun.exe 
+
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MpCmdRun.exe`
 * Description: Microsoft Malware Protection Command Line Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `12D60542E9BBB07F1B61BA4F625FBBD7`
@@ -15,6 +17,7 @@ SHA415 | `D0FA279C551A92A1152B263DBE4859882DFD166ACF01EE4D21FBE359206CEF07CD3365
 SSDEEP | `6144:9FtOG9DsbB12UhRjbsdN9/+ONeL9BpsxmId3efe+95zMmN:9lQbB12UhRjIB/+PId3sAmN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft Antimalware Service Command Line Utility (c) 2006-2018 Microsoft Corp
@@ -226,5 +229,7 @@ C:\ProgramData\Microsoft\Windows Defender\Support
 * Product Version: 4.18.2004.6
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

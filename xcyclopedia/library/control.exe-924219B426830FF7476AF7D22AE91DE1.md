@@ -1,10 +1,12 @@
 ﻿
 # control.exe 
+
 * File Path: `C:\Windows\system32\control.exe`
 * Description: Windows Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `924219B426830FF7476AF7D22AE91DE1`
@@ -15,6 +17,7 @@ SHA415 | `4447C609ED3428F7F44A4015C7B9C320A8C2CA38DD3AD41B33A8F100B5255621CBDD9B
 SSDEEP | `1536:vhM9USq0WalUt7ae/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:vBUUxa7Sp5+1k12b/Af885RK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:vhM9USq0WalUt7ae/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:vBUUx
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

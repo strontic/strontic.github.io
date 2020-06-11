@@ -1,10 +1,12 @@
 ﻿
 # RMActivate_ssp_isv.exe 
+
 * File Path: `C:\Windows\system32\RMActivate_ssp_isv.exe`
 * Description: Windows Rights Management Services Activation for Server Security Processor (Pre-production)
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E0075297232E3516010C32F45E2197F3`
@@ -15,6 +17,7 @@ SHA415 | `36454A7F5D6849B32734972CE86AEBA297884E18DB9849858C6A1FB9A19A13B59E4E0C
 SSDEEP | `12288:8+eJU5Qemoax1IQOn16RwPfhJTihufy6:3eJoaxOQfGhJTihua6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:8+eJU5Qemoax1IQOn16RwPfhJTihufy6:3eJoaxOQfGhJTihua6`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # Defrag.exe 
+
 * File Path: `C:\WINDOWS\system32\Defrag.exe`
 * Description: Disk Defragmenter Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `15EFD404D3065B560876BBE567CE981A`
@@ -15,6 +17,7 @@ SHA415 | `3B556CE7E80FB3E054A289BC35593240DB41915B8C28E0D8EB09417553640338273CB2
 SSDEEP | `3072:UtzyHzVHRADkbo0pwIuUEb4C6c5Q3eSjlR+8qxLijgJyfFOG83Yj34YFnw6OC2cs:UcTFRWKT3lRGOUZGKc4YFnwjCpW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft Drive Optimizer
@@ -92,5 +95,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corp.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

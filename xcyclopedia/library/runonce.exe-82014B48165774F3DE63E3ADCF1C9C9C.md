@@ -1,10 +1,12 @@
 ﻿
 # runonce.exe 
+
 * File Path: `C:\WINDOWS\system32\runonce.exe`
 * Description: Run Once Wrapper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `82014B48165774F3DE63E3ADCF1C9C9C`
@@ -15,6 +17,7 @@ SHA415 | `18790DC6619C90E147C68143C667E827407BF8C6AC94C753689172BF1F688471B74CB1
 SSDEEP | `1536:UAEVlUQH0CoVIxCvkepGvo8ahhjCCi9tJNwo1RQ4NXqDTvZqgL:UA+szVmSMo5hhF4NXKRqK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:UAEVlUQH0CoVIxCvkepGvo8ahhjCCi9tJNwo1RQ4NXqDTvZqgL:UA+szVmSMo5hhF
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

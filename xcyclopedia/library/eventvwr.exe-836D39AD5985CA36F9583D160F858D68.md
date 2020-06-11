@@ -1,10 +1,12 @@
 ﻿
 # eventvwr.exe 
+
 * File Path: `C:\Windows\SysWOW64\eventvwr.exe`
 * Description: Event Viewer Snapin Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `836D39AD5985CA36F9583D160F858D68`
@@ -15,6 +17,7 @@ SHA415 | `F1E89F90E94918162BEF341A8AB38F022C5B61610F4F27EBBA27BDC34274E972D8D0C5
 SSDEEP | `1536:RMhIMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY14:A3lhzslTZJ9j7Heb8C14`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ mmc.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

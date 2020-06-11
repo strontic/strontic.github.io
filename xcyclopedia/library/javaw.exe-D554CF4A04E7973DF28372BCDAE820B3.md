@@ -1,10 +1,12 @@
 ﻿
 # javaw.exe 
+
 * File Path: `C:\ProgramData\Oracle\Java\javapath\javaw.exe`
 * Description: Java(TM) Platform SE binary
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D554CF4A04E7973DF28372BCDAE820B3`
@@ -15,6 +17,7 @@ SHA415 | `81254377EB50BDFA4A5A96E994DC031207906E980A37C79804526C148FC49AD7E4A2B2
 SSDEEP | `3072:JKdm6VH3+Q6zaesz1SCCTOphtYAHIG0xR4TBfHnIjZqMNxWDAhT:J6mgh6BszOTO3tYAHIGGR4TBQvoDsT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:JKdm6VH3+Q6zaesz1SCCTOphtYAHIG0xR4TBfHnIjZqMNxWDAhT:J6mgh6BszOTO3
 * Product Version: 8.0.1710.11
 * Language: Language Neutral
 * Legal Copyright: Copyright  2018
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

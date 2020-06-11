@@ -1,10 +1,12 @@
 ﻿
 # wininit.exe 
+
 * File Path: `C:\Windows\system32\wininit.exe`
 * Description: Windows Start-Up Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5A998F811D7805B79B8E769027F62FD2`
@@ -15,6 +17,7 @@ SHA415 | `D25E505C48A417B639311CC7A8AF1E8360F3E9AC3189EF7B1C02D44258CA8E668E0033
 SSDEEP | `6144:NbuwYWApz2Q7BypXPZBxJT+ywlA7finB+6lwzQ+boT:NbHApKQ7ByhZHV+fLEzQT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:NbuwYWApz2Q7BypXPZBxJT+ywlA7finB+6lwzQ+boT:NbHApKQ7ByhZHV+fLEzQT`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

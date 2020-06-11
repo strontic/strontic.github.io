@@ -1,10 +1,12 @@
 ﻿
 # dwm.exe 
+
 * File Path: `C:\Windows\system32\dwm.exe`
 * Description: Desktop Window Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C89F159A577F19F7F03C73C98D29D841`
@@ -15,6 +17,7 @@ SHA415 | `3C7D4A156D926740200A8DA145B1741FA2974D1F76290D3C9DDCCCEC9DB7B192B8D9BD
 SSDEEP | `768:rXu0S+gTySq24Opa3OXX6pTPBuwsDpCpWxCD6Urgb/ng9h+h4J1xnSVa4:rXu+A1z4negTPxmrb/ng94va4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:rXu0S+gTySq24Opa3OXX6pTPBuwsDpCpWxCD6Urgb/ng9h+h4J1xnSVa4:rXu+A1z4
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # RDVGHelper.exe 
+
 * File Path: `C:\Windows\system32\RDVGHelper.exe`
 * Description: RemoteFX Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5D9616D2A76F38EF94866248CA4EDB2C`
@@ -15,6 +17,7 @@ SHA415 | `D0D092B837B02C1C84F90905DE4F261EF60C225BE73CFC5198B8E36352B1D1409348F8
 SSDEEP | `1536:IwUBRmG94TdP5MFdQk8O9v69CP+1ZepzMURO7Ni2GrSQfm/Vh1kgQnT6knIFGs:ImghCQP91zYxqF+2/IFT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:IwUBRmG94TdP5MFdQk8O9v69CP+1ZepzMURO7Ni2GrSQfm/Vh1kgQnT6knIFGs:Im
 * Product Version: 0, 0, 0, 1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2009
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

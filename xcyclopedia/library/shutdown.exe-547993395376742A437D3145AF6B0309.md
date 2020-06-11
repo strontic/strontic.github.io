@@ -1,10 +1,12 @@
 ﻿
 # shutdown.exe 
+
 * File Path: `C:\Windows\system32\shutdown.exe`
 * Description: Windows Shutdown and Annotation Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `547993395376742A437D3145AF6B0309`
@@ -15,6 +17,7 @@ SHA415 | `47C3A0DB40BB18B5551B96154F270FB2CCB60B5707FD7234FC2EEADBD686C7B163C98A
 SSDEEP | `384:9A2Rd8HRzOIXAYPczJkHg88KzFkedQnlRcDhWum3+vtul83Q/Wm+SW:e00xOIHczOA88gdQnYcGtul83K+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: C:\Windows\system32\shutdown.exe [/i | /l | /s | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
@@ -124,5 +127,7 @@ E   	5	20	Loss of network connectivity (Unplanned)
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

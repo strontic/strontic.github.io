@@ -1,10 +1,12 @@
 ﻿
 # WMIC.exe 
+
 * File Path: `C:\Windows\system32\wbem\WMIC.exe`
 * Description: WMI Commandline Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2CEE7F1AD77D8817E0F043E5E5ED1C83`
@@ -15,6 +17,7 @@ SHA415 | `80491E5AFC853630DEBDA44620DFD22D7EB79B9B3B761ADC2CC33B69046B315E3A7DE8
 SSDEEP | `6144:FsCjqsobsdwE1nPD2rWiCCyHUPkikNo/PH70FGH5enh:vJssdnYlci2c0FGH0nh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -164,5 +167,7 @@ help - Alias not found.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

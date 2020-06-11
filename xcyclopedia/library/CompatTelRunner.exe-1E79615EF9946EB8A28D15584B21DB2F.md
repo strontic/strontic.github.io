@@ -1,10 +1,12 @@
 ﻿
 # CompatTelRunner.exe 
+
 * File Path: `C:\WINDOWS\system32\CompatTelRunner.exe`
 * Description: Microsoft Compatibility Telemetry
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1E79615EF9946EB8A28D15584B21DB2F`
@@ -15,6 +17,7 @@ SHA415 | `40ECD7B2D273CF088BF0F6161656BC094290FF0148C6277A4D4E966C09CD03C07DD6C3
 SSDEEP | `3072:v17mRucu5IfDAZp+dBYE6lDgQr9hbwwBr5cxQ+VBD4nax79UkJvmRItLJ2wkLkhM:N7mRuc0IfDUoBCge9hbwwBtaQH6ukMRJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:v17mRucu5IfDAZp+dBYE6lDgQr9hbwwBr5cxQ+VBD4nax79UkJvmRItLJ2wkLkhM:
 * Product Version: 10.0.18362.1035
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # RelPost.exe 
+
 * File Path: `C:\Windows\system32\RelPost.exe`
 * Description: Windows Diagnosis and Recovery
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `932819A3B3ED8CF19348D7B349E7B49A`
@@ -15,6 +17,7 @@ SHA415 | `36E767289BFA3B18C3897BE2EDD40F657F21C4AB1D9AB4B28DCB9397E0CB567F52B470
 SSDEEP | `3072:T5MdLG2w7itD54IYKTODnePxCmtpaGyAuegPO8evTq2VA:dMA2XrOFnHFegEv+2V`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ RdpSa.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

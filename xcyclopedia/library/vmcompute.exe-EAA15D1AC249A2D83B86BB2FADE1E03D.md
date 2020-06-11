@@ -1,10 +1,12 @@
 ﻿
 # vmcompute.exe 
+
 * File Path: `C:\WINDOWS\system32\vmcompute.exe`
 * Description: Hyper-V Host Compute Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EAA15D1AC249A2D83B86BB2FADE1E03D`
@@ -15,6 +17,7 @@ SHA415 | `1195CDE9FBB6D971E7A077755DBF68D089153396D55F307BBF1DC948A56FF3106393F3
 SSDEEP | `49152:VGsjC0ZUmkJlp5a+Xl38zeaVbFqXZBuscr3tcjHm6DJ8hkZiuZV9zr0k5PQPxqGT:lKx51crWJ2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:VGsjC0ZUmkJlp5a+Xl38zeaVbFqXZBuscr3tcjHm6DJ8hkZiuZV9zr0k5PQPxqGT
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

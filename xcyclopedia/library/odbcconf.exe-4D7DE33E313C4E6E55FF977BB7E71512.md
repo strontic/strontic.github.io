@@ -1,10 +1,12 @@
 ﻿
 # odbcconf.exe 
+
 * File Path: `C:\Windows\system32\odbcconf.exe`
 * Description: ODBC Driver Configuration Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4D7DE33E313C4E6E55FF977BB7E71512`
@@ -15,6 +17,7 @@ SHA415 | `66AD6ADD0E93A467B6349E5BAC68F4C4AAF9F489DCFA4329E613CD4E2CF72C24A6A0A2
 SSDEEP | `768:MkdrsPEqAHuaabx3KbY8N5OYtpH30vNkb2:ldQEqAOa3bYingab2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:MkdrsPEqAHuaabx3KbY8N5OYtpH30vNkb2:ldQEqAOa3bYingab2`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

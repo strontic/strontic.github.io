@@ -1,10 +1,12 @@
 ﻿
 # hh.exe 
+
 * File Path: `C:\WINDOWS\hh.exe`
 * Description: Microsoft HTML Help Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DF73D52FDCE65F90A2E49EFB5248C77C`
@@ -15,6 +17,7 @@ SHA415 | `AE25AEA1EE10694FA49505D8A8BF63256CBCD6A3ACEEE00627DC5EF717745F140A753B
 SSDEEP | `192:WZ4u9mdac1vr3r9cemMRB/BE06YU/Um5GJ1KDJD/oWcG:WZ45Mc5v9ZZE0TUI1KDWWcG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:WZ4u9mdac1vr3r9cemMRB/BE06YU/Um5GJ1KDJD/oWcG:WZ45Mc5v9ZZE0TUI1KDWW
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

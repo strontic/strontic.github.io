@@ -1,10 +1,12 @@
 ﻿
 # winhlp32.exe 
+
 * File Path: `C:\WINDOWS\winhlp32.exe`
 * Description: Windows Winhlp32 Stub
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CAA192BFDFB5F2A131EBD649B7062DE3`
@@ -15,6 +17,7 @@ SHA415 | `22DF4780B41ED63616464AA57910010134FFA76DC9972555926B567FE5C8DBE2178C2B
 SSDEEP | `192:Rfq4m+jaCWGEZxyqQ4t5tmXdkLWyeHWnhh4jAr7b:RfCSWG+tnCqLWyeHWnhh4Uf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:Rfq4m+jaCWGEZxyqQ4t5tmXdkLWyeHWnhh4jAr7b:RfCSWG+tnCqLWyeHWnhh4Uf`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

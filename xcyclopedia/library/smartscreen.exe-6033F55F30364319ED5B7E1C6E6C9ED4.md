@@ -1,10 +1,12 @@
 ﻿
 # smartscreen.exe 
+
 * File Path: `C:\WINDOWS\system32\smartscreen.exe`
 * Description: Windows Defender SmartScreen
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6033F55F30364319ED5B7E1C6E6C9ED4`
@@ -15,6 +17,7 @@ SHA415 | `3098162C62A5083323B5C35DC63A25F54D8ABD5F168C5835B811742D26B91E9AD7869D
 SSDEEP | `49152:FkFfgfHzq9YKudUyiIWllo5hwHKAAdFpl9SdICBZgX5k8r37UnxNDg:ebsr37eN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:FkFfgfHzq9YKudUyiIWllo5hwHKAAdFpl9SdICBZgX5k8r37UnxNDg:ebsr37eN`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

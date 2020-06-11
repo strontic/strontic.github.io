@@ -1,10 +1,12 @@
 ﻿
 # UpgradeResultsUI.exe 
+
 * File Path: `C:\Windows\system32\UpgradeResultsUI.exe`
 * Description: Add features to Windows Results
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `897F39B632E46F4C9B8A1E971242A18C`
@@ -15,6 +17,7 @@ SHA415 | `608289BE2034BCDCE7A69510E819C85E2167B7EC47D3133611D19A081DCB224298600C
 SSDEEP | `768:hB7+No3a/HgK2Qb8a8unUXSpImvocJTMw2UR2ZhyKshYAGzeW:DlIgrhV+SSplozBHEhTGyW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:hB7+No3a/HgK2Qb8a8unUXSpImvocJTMw2UR2ZhyKshYAGzeW:DlIgrhV+SSplozBH
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

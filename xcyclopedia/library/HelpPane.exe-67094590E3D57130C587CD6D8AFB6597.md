@@ -1,10 +1,12 @@
 ﻿
 # HelpPane.exe 
+
 * File Path: `C:\WINDOWS\HelpPane.exe`
 * Description: Microsoft Help and Support
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `67094590E3D57130C587CD6D8AFB6597`
@@ -15,6 +17,7 @@ SHA415 | `7491E27790F20142849235514B132E838F8BC186B5B43FF6B9DDB9B60C31BCA9F10FCF
 SSDEEP | `12288:gDctr5AFr/UH4Cw9ny5BA+9yedBYfgXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:7XGryw9ny5BA+9jBm`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:gDctr5AFr/UH4Cw9ny5BA+9yedBYfgXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:7XGr
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

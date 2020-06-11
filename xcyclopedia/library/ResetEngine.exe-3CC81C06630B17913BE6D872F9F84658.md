@@ -1,10 +1,12 @@
 ﻿
 # ResetEngine.exe 
+
 * File Path: `C:\Windows\system32\ResetEngine.exe`
 * Description: Push-Button Reset Engine
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3CC81C06630B17913BE6D872F9F84658`
@@ -15,6 +17,7 @@ SHA415 | `6BA19D56888FEBCBD4884A99CDDC7F430D6FE955AD8C69C0C6C92D45074CFFBB6B2362
 SSDEEP | `192:AF5LaRPi/o+/VZCcfvqROAfsF9kMp+dpr1rCW9eW:w5LaSo+/qcnqNf5g+b0W9eW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:AF5LaRPi/o+/VZCcfvqROAfsF9kMp+dpr1rCW9eW:w5LaSo+/qcnqNf5g+b0W9eW`
 * Product Version: 10.0.14393.82
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # msinfo32.exe 
+
 * File Path: `C:\Windows\SysWOW64\msinfo32.exe`
 * Description: System Information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2D3773A656D92C8E4367511AD4DCDD8C`
@@ -15,6 +17,7 @@ SHA415 | `4BDD31AA11D0A5CF14C3F40FA978FAD0B76E5081C5809C9F3DF856E686CE18DDB4D7F7
 SSDEEP | `6144:wEiT2KFUUs3gcYKB6BUK07kc0ckcUkOnS58+SZEOHHrpm1XUZLxEZEOHHrpm1XUT:wEiT2Khs3gj8ZK07kc0ckcUky+OtLpmZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:wEiT2KFUUs3gcYKB6BUK07kc0ckcUkOnS58+SZEOHHrpm1XUZLxEZEOHHrpm1XUT:
 * Product Version: 10.0.14393.351
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

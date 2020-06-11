@@ -1,10 +1,12 @@
 ﻿
 # DPTopologyAppv2_0.exe 
+
 * File Path: `C:\WINDOWS\system32\DPTopologyAppv2_0.exe`
 * Description: Intel(R) Graphics Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `301AF8489E368687BFD231D80AFB0625`
@@ -15,6 +17,7 @@ SHA415 | `D1076F9721380D4862AF729E1DEDE077A446EBDC5D6A5FB39EA5A5122E05B2FBAB36A1
 SSDEEP | `3072:I7GFfLYMJlL1vZOwbJGLD6DvtMJCU7DzpChJWn/qaBQd:FFLY6mw+ODvtMJfDVChJW/qaBE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -85,5 +88,7 @@ dw20.exe
 * Product Version: 8.15.10.4248
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

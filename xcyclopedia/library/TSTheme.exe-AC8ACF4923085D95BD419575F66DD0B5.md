@@ -1,10 +1,12 @@
 ﻿
 # TSTheme.exe 
+
 * File Path: `C:\WINDOWS\system32\TSTheme.exe`
 * Description: TSTheme Server Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AC8ACF4923085D95BD419575F66DD0B5`
@@ -15,6 +17,7 @@ SHA415 | `811CE88CD65308DC18641F28A102F3872763ABE9A5E68BDC797B815511DA414ED88A40
 SSDEEP | `1536:NLjiAABY4fuwn3qag3i9qFnBVivyhyqv2:N3iE9G6JtnBVVYq+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:NLjiAABY4fuwn3qag3i9qFnBVivyhyqv2:N3iE9G6JtnBVVYq+`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

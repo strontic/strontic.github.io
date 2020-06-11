@@ -1,10 +1,12 @@
 ﻿
 # shrpubw.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\shrpubw.exe`
 * Description: Share Creation Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C75D61292038605925F0BAEBEE069B96`
@@ -15,6 +17,7 @@ SHA415 | `CCF8AE9ECBFAA7767188880B9DE7F9D4D1DF691CE87A01B9DE655170A60951F3746270
 SSDEEP | `768:rHxxG/5LWnLlGbm2rUhwJuT8dZc3rQ/sLB+h+jNNl6r2dkE8KFflbW14WeMc6ZK/:FpHyu0wQWzW14Xuvj4Ew`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:rHxxG/5LWnLlGbm2rUhwJuT8dZc3rQ/sLB+h+jNNl6r2dkE8KFflbW14WeMc6ZK/:F
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

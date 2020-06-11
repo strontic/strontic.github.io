@@ -1,10 +1,12 @@
 ﻿
 # tzsync.exe 
+
 * File Path: `C:\Windows\system32\tzsync.exe`
 * Description: TimeZone Sync Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `836E935C5539ED23FAD863CB823C0A8A`
@@ -15,6 +17,7 @@ SHA415 | `915BB47E188E091FED3E33623587A1B17F54F663E02367CE9BBFACAF79A711678DE7A1
 SSDEEP | `768:ZmOoGHeP1rK1iJSCL3tN1SDCQv3ChEfi7MXMwf9jzpAXDRzbfjPt:ZORKAz3tG3PChEfo9h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:ZmOoGHeP1rK1iJSCL3tN1SDCQv3ChEfi7MXMwf9jzpAXDRzbfjPt:ZORKAz3tG3PCh
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

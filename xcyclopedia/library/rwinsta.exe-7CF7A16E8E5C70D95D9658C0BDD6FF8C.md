@@ -1,10 +1,12 @@
 ﻿
 # rwinsta.exe 
+
 * File Path: `C:\Windows\SysWOW64\rwinsta.exe`
 * Description: Reset Session Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7CF7A16E8E5C70D95D9658C0BDD6FF8C`
@@ -15,6 +17,7 @@ SHA415 | `5CB166DEA6B6DCE2E1E95CDE4D61819F3CAD92D6F0C74DDA0CCD2AD74D07CFD0FF7B1E
 SSDEEP | `384:ZCB2LyLQlg9a0nSESiaEXCtf/nE8onWpZWm:ZtykSXGomL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Reset the session subsytem hardware and software to known initial values.
@@ -64,5 +67,7 @@ RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # sysprep.exe 
+
 * File Path: `C:\Windows\system32\Sysprep\sysprep.exe`
 * Description: System Preparation Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1FB9E48CBC693940B6CEF6D63779D4D9`
@@ -15,6 +17,7 @@ SHA415 | `15D40FFD9E223D7D25FB3795296A2F15E2F87DCC981C66B0AC16D7191B5B1CBD0E3A33
 SSDEEP | `3072:hMWXvgGdez3MT6SLIJMS831VZOmEZKZyNdMqD8hESwzNeK4tcd0qsuL1/z2jZBwt:1gKegTmefEZKZMMqDrMRQ7KBR+em7j`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:hMWXvgGdez3MT6SLIJMS831VZOmEZKZyNdMqD8hESwzNeK4tcd0qsuL1/z2jZBwt:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

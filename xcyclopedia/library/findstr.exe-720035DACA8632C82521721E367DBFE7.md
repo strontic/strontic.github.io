@@ -1,10 +1,12 @@
 ﻿
 # findstr.exe 
+
 * File Path: `C:\WINDOWS\system32\findstr.exe`
 * Description: Find String (QGREP) Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `720035DACA8632C82521721E367DBFE7`
@@ -15,6 +17,7 @@ SHA415 | `8387F391A718DE391D9788919F6053635DB367CC296E32B232765123D91E03C2B28E64
 SSDEEP | `768:JH5IEkl2sPp+bHEvHnmFm5Puf61UXmJXEYQTUDtHHtSWfcLS9st0/63:pqYrbHEvmWuy1wmh6UNHQYkSSt0/63`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Searches for strings in files.
@@ -95,5 +98,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

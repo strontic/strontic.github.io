@@ -1,10 +1,12 @@
 ﻿
 # LockAppHost.exe 
+
 * File Path: `C:\Windows\system32\LockAppHost.exe`
 * Description: LockAppHost
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CCC6C8D3FF120D250F724629C263FA8D`
@@ -15,6 +17,7 @@ SHA415 | `B2A47A979F8513EFBBF4BA4C08BD3F98E4E4FD5020CC69BE65536353650E03532137BD
 SSDEEP | `6144:V80LhMUpyhl3T804SLVSjYSLLGPTeYusbpfxVHM91FOvednwaHq9ow:V80lM4cD8XYSPiSYusFxSxhKL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:V80LhMUpyhl3T804SLVSjYSLLGPTeYusbpfxVHM91FOvednwaHq9ow:V80lM4cD8X
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

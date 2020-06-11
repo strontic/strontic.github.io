@@ -1,10 +1,12 @@
 ﻿
 # browserexport.exe 
+
 * File Path: `C:\WINDOWS\system32\browserexport.exe`
 * Description: Microsoft Edge Browser Exporter
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3FD9A107DE56D8ACDC46B75C6F821AF9`
@@ -15,6 +17,7 @@ SHA415 | `1ECAFDDD2C3976FE2FFEE5FEBD33A89EE0A21DBDABCA595E258F19F9C842869CDFC390
 SSDEEP | `3072:15mq+uBgLvEhQLuoKLBZKQRQg3wuLNzgEFwzNbPbMs3fC/nA:1wq+uByvEhQLufPQg3w2NzjFqbPbMsqn`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:15mq+uBgLvEhQLuoKLBZKQRQg3wuLNzgEFwzNbPbMs3fC/nA:1wq+uByvEhQLufPQ
 * Product Version: 11.00.18362.267
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

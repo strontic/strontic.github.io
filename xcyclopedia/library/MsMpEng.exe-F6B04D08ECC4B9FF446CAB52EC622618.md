@@ -1,10 +1,12 @@
 ﻿
 # MsMpEng.exe 
+
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\MsMpEng.exe`
 * Description: Antimalware Service Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F6B04D08ECC4B9FF446CAB52EC622618`
@@ -15,6 +17,7 @@ SHA415 | `68027A7D211BCBF01DA3E62A1467652DA6AE8A67406438034F2CB5BAF9CCB6B3204F69
 SSDEEP | `1536:/w22jtIgAVwgLJnT6BnnDm1CnE/+i3V3KTeqGeKDmVpWUBwDPs:IHJHglnTQDm1mEr3V3KTeq3KDmVpzwDU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:/w22jtIgAVwgLJnT6BnnDm1CnE/+i3V3KTeqGeKDmVpWUBwDPs:IHJHglnTQDm1mE
 * Product Version: 4.18.2001.10
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

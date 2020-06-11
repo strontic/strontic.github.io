@@ -1,10 +1,12 @@
 ﻿
 # LaunchWinApp.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\LaunchWinApp.exe`
 * Description: Launch Windows App
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3830773D9C9AB9D7BFDB5F54E855AD3E`
@@ -15,6 +17,7 @@ SHA415 | `FB61366AEA16FB44DC6C3802C59C91C603DAE27048FCF7C8BFB414D134509EC327F88C
 SSDEEP | `768:yKPlU4ICLXKmSVMjLbjWslPAf6h7ih2mZVy5lS:fP+4ZOEv576Vy5U`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:yKPlU4ICLXKmSVMjLbjWslPAf6h7ih2mZVy5lS:fP+4ZOEv576Vy5U`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

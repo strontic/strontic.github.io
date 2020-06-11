@@ -1,10 +1,12 @@
 ﻿
 # vmwp.exe 
+
 * File Path: `C:\WINDOWS\system32\vmwp.exe`
 * Description: Virtual Machine Worker Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F83D87F24713C0534B1B2E02FDBE1FBB`
@@ -15,6 +17,7 @@ SHA415 | `7A311A2D3E81BBFD97B07520F01DE2B93110BD3E331312BCD887B7C94E6A5C7E039356
 SSDEEP | `49152:M2Ix0Z7B2WpQVslpP9+Wy/S29PaFyp6RFFBzOmFaZc4S9jW6Kac+lJZkHDVn3n1Q:1PlpV0G03W7Pp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:M2Ix0Z7B2WpQVslpP9+Wy/S29PaFyp6RFFBzOmFaZc4S9jW6Kac+lJZkHDVn3n1Q
 * Product Version: 10.0.18362.476
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

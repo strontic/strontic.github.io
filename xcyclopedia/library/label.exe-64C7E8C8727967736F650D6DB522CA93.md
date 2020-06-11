@@ -1,10 +1,12 @@
 ﻿
 # label.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\label.exe`
 * Description: Disk Label Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `64C7E8C8727967736F650D6DB522CA93`
@@ -15,6 +17,7 @@ SHA415 | `4DBD6DB5F4A528C58C592557FBEBDFA7A47509B9E11AC9255443E05D97A0DC7BADB7C8
 SSDEEP | `192:vIqTD8E5i8hWI0LHvw5pCv30wY0gxinDftd5kRtm1kwWSXjW1gT:FTYyWI1Q30wdgxiRP8NwWSXjWaT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Creates, changes, or deletes the volume label of a disk.
@@ -57,5 +60,7 @@ LABEL [/MP] [volume] [label]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

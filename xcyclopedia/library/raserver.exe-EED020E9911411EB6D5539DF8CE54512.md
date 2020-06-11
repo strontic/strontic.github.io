@@ -1,10 +1,12 @@
 ﻿
 # raserver.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\raserver.exe`
 * Description: Windows Remote Assistance COM Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EED020E9911411EB6D5539DF8CE54512`
@@ -15,6 +17,7 @@ SHA415 | `439F7F68F57D4D53BD4ACD65B665EB7BB11B9678E0B82F5818108E6F6553C5D3392DF7
 SSDEEP | `3072:6+5zgPO1PaiB5KQASc9Bh5vKNcEfoYITc1kziq:6ggPiaiHAPvWoYITpiq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:6+5zgPO1PaiB5KQASc9Bh5vKNcEfoYITc1kziq:6ggPiaiHAPvWoYITpiq`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # webexmta.exe 
+
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_UMC\webexmta.exe`
 * Description: Cisco WebEx MTA
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `054B55FBEFA81598141F598A4D19AA74`
@@ -15,6 +17,7 @@ SHA415 | `812B9CCE814386841CB31F90A4AB9322C2330B38159686D78F09ACF32A49A2D44BE1D0
 SSDEEP | `49152:MKO/GfvurfW2Dp/Fbqc10IY7s53KNDuH2GPSSLREg272dkle0:XO/GfvurfW2F/FUIWPNDuHxKS+fN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 3303.0.1806.2100
 * Language: English (United States)
 * Legal Copyright:  1997-2018 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

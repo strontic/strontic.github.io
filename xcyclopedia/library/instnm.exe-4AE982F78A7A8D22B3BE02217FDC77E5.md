@@ -1,10 +1,12 @@
 ﻿
 # instnm.exe 
+
 * File Path: `C:\Windows\SysWOW64\instnm.exe`
 * Description: 32-bit NetMeeting Installer for Win64
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4AE982F78A7A8D22B3BE02217FDC77E5`
@@ -15,6 +17,7 @@ SHA415 | `D062E932EB2B88F28148D3881256389962DB532354333CF38324CBD8477E1658E96139
 SSDEEP | `96:K97UeXuKEjxrZ1DWPT0GwXZHEXHuDGMsf+TY2EW7cIXuWwGFMlC:g7LXuATYtEeDGM7TYLWl+WVeC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:K97UeXuKEjxrZ1DWPT0GwXZHEXHuDGMsf+TY2EW7cIXuWwGFMlC:g7LXuATYtEeDGM7
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

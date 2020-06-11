@@ -1,10 +1,12 @@
 ﻿
 # DPTopologyApp.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\DPTopologyApp.exe`
 * Description: Intel(R) Graphics Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7A1C2EF43CC4696FE295525630AB2F56`
@@ -15,6 +17,7 @@ SHA415 | `567B484B1142739F0A59F9F98A736D9F1E6B2DC71C5AB5A72D2759D22AB705B473C950
 SSDEEP | `3072:E/FfLGdjl6kopZE7J8cGLD6DvtMJCU7DzpChJWn/qa2bzooS:E/FLO8ECODvtMJfDVChJW/qa2ooS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -83,5 +86,7 @@ DPTopologyApp.exe WerFault.exe
 * Product Version: 8.15.10.3682
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

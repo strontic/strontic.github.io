@@ -1,10 +1,12 @@
 ﻿
 # spoolsv.exe 
+
 * File Path: `C:\Windows\system32\spoolsv.exe`
 * Description: Spooler SubSystem App
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EB865C37F327FCF15F6ECA2E9746F91B`
@@ -15,6 +17,7 @@ SHA415 | `5DE30E5D04420666DB27783A5DBB400356F05821B2BC8C2B7CC84C730626DBDA652DEF
 SSDEEP | `24576:9q12UfvBgw/56iB9u4KiJqQblmEAzI+3WBx5+/keN7KNXa:0kUfpgw/56iB9u4KiJqQblmEAzI6k1NK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:9q12UfvBgw/56iB9u4KiJqQblmEAzI+3WBx5+/keN7KNXa:0kUfpgw/56iB9u4Ki
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

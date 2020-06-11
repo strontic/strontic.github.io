@@ -1,10 +1,12 @@
 ﻿
 # regedit.exe 
+
 * File Path: `C:\Windows\regedit.exe`
 * Description: Registry Editor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BF5D30514FEA913E25CCC9E546257088`
@@ -15,6 +17,7 @@ SHA415 | `E504DDD78E4D700709CD4808DCC18AB12E44F04039B7D923161405D0433886972701DC
 SSDEEP | `6144:75oI77kJde8bLgu0Z48rSQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNNhC:1oI7e/OrSQRZ66z24VZbdrpgrXN2LWzy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:75oI77kJde8bLgu0Z48rSQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNNhC:1oI7
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

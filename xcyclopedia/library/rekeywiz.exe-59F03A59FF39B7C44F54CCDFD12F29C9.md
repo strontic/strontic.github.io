@@ -1,10 +1,12 @@
 ﻿
 # rekeywiz.exe 
+
 * File Path: `C:\Windows\SysWOW64\rekeywiz.exe`
 * Description: EFS REKEY wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `59F03A59FF39B7C44F54CCDFD12F29C9`
@@ -15,6 +17,7 @@ SHA415 | `91BDEF55E7D1FD7F2C290497F1A7652627DC8F1A6F46C2600E184BF1C924DE52699F69
 SSDEEP | `3072:2vkpJl4oqkBgWQB2eQ0W0Np0MyRNAGXj8yvt3CBdKULd:aEJltpBgWGDzNP0t3CBd7L`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:2vkpJl4oqkBgWQB2eQ0W0Np0MyRNAGXj8yvt3CBdKULd:aEJltpBgWGDzNP0t3CBd
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

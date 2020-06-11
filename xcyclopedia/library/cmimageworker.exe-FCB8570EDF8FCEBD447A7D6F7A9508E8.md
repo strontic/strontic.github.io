@@ -1,10 +1,12 @@
 ﻿
 # cmimageworker.exe 
+
 * File Path: `C:\WINDOWS\system32\cmimageworker.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FCB8570EDF8FCEBD447A7D6F7A9508E8`
@@ -15,6 +17,7 @@ SHA415 | `938ADAF54F210B1C49166F862BBE9114710BEEF4CEFB5689626101B2B73FEBCC1802E9
 SSDEEP | `1536:exgyiYuuOZXo4ZoAGwWCoO5VJydmHi/ZmcnT:JuOFo4uAGwIM0dmH83n`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:exgyiYuuOZXo4ZoAGwWCoO5VJydmHi/ZmcnT:JuOFo4uAGwIM0dmH83n`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

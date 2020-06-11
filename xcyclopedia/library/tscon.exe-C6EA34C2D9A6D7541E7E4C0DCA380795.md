@@ -1,10 +1,12 @@
 ﻿
 # tscon.exe 
+
 * File Path: `C:\Windows\SysWOW64\tscon.exe`
 * Description: Session Connection Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C6EA34C2D9A6D7541E7E4C0DCA380795`
@@ -15,6 +17,7 @@ SHA415 | `3E3E6E74D6F8DBA367F8AE48925C260FDAB33A0D1F3A2D487DDFC0F511C0543A8A2B79
 SSDEEP | `384:4vrzYf9G/TQ9qrfb/qXsBakXjAJyc4E8TTWjegW2X:4fY1G/06/M6xThMX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Attaches a user session to a remote desktop session.
@@ -68,5 +71,7 @@ TSCON {sessionid | sessionname} [/DEST:sessionname]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

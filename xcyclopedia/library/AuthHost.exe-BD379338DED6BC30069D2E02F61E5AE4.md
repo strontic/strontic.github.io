@@ -1,10 +1,12 @@
 ﻿
 # AuthHost.exe 
+
 * File Path: `C:\WINDOWS\system32\AuthHost.exe`
 * Description: Microsoft AuthHost
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BD379338DED6BC30069D2E02F61E5AE4`
@@ -15,6 +17,7 @@ SHA415 | `8FC95B18815172E21BDE56120F23CB034F03C4E5F9BAD5AC2F9451E5D64AD8D0796C5F
 SSDEEP | `3072:Zac1VeQgCazIEyhskFLKkn6xGbBoPbKvVLs:ZaOeQgChhnjnXbubKu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Zac1VeQgCazIEyhskFLKkn6xGbBoPbKvVLs:ZaOeQgChhnjnXbubKu`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

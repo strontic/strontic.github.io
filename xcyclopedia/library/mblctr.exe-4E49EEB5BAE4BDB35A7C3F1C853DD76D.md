@@ -1,10 +1,12 @@
 ﻿
 # mblctr.exe 
+
 * File Path: `C:\WINDOWS\system32\mblctr.exe`
 * Description: Windows Mobility Center
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4E49EEB5BAE4BDB35A7C3F1C853DD76D`
@@ -15,6 +17,7 @@ SHA415 | `73E2296879E2BCA4DE80110DBBA558ABA68CE579FDBA1206F584A4FE35FDED67D939D6
 SSDEEP | `12288:9tuceTlfs5PQXu+YqubBSMr1JM1h351qviizQBODAKylkm5ZUxXrc5Zh5ZG5Ze:9cfyQXTYDbrrrM735kRzAKcjY8poA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:9tuceTlfs5PQXu+YqubBSMr1JM1h351qviizQBODAKylkm5ZUxXrc5Zh5ZG5Ze:9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # TCPSVCS.EXE 
+
 * File Path: `C:\Windows\SysWOW64\TCPSVCS.EXE`
 * Description: TCP/IP Services Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `988751D8FF4CD39B5438A1C01D15C691`
@@ -15,6 +17,7 @@ SHA415 | `0FB19DEB626B8F71C5938CC241D17B3E93829A7714554488ABAAC1D363DA1A5BD29177
 SSDEEP | `192:OVF0o+wdXP6XxpT3+tkbrpc1XIJsp1tGK0WN/W:OVF0oDV6XxtSkvXJspF0WN/W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:OVF0o+wdXP6XxpT3+tkbrpc1XIJsp1tGK0WN/W:OVF0oDV6XxtSkvXJspF0WN/W`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

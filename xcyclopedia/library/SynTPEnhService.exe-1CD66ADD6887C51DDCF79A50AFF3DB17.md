@@ -1,10 +1,12 @@
 ﻿
 # SynTPEnhService.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\SynTPEnhService.exe`
 * Description: 64-bit Synaptics Pointing Enhance Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1CD66ADD6887C51DDCF79A50AFF3DB17`
@@ -15,6 +17,7 @@ SHA415 | `79E557C6341B83B7F4ACC7305416F374BA54D164DFFE32837C3E710CEE723EF13B735B
 SSDEEP | `6144:hOxF1P/2vCLTTL9rmtKBQZwYLn5UDzTq8:hO9/DH8Ln5Ubp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Parameters:
@@ -49,5 +52,7 @@ Service failed to run w/err 0x00000427
 * Product Version: 19.0.12.95 06Jul15
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2015
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

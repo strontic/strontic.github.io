@@ -1,10 +1,12 @@
 ﻿
 # WMIADAP.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\wbem\WMIADAP.exe`
 * Description: WMI Reverse Performance Adapter Maintenance Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EE50795FD4408F6C5E33E018D349A90F`
@@ -15,6 +17,7 @@ SHA415 | `B2D0E0361388BF63DD90D9637BA2CC3CC5DB24402A8896027C5402B89BDDF956EDB498
 SSDEEP | `3072:t6A+0GCHVy+0MA29dWmJfdWmYACVMlCVd75mcW:t6AXHVycA2ymJfdxYlMlCVJkN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:t6A+0GCHVy+0MA29dWmJfdWmYACVMlCVd75mcW:t6AXHVycA2ymJfdxYlMlCVJkN`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

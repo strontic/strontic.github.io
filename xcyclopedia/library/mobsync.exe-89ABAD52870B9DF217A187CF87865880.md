@@ -1,10 +1,12 @@
 ﻿
 # mobsync.exe 
+
 * File Path: `C:\Windows\SysWOW64\mobsync.exe`
 * Description: Microsoft Sync Center
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `89ABAD52870B9DF217A187CF87865880`
@@ -15,6 +17,7 @@ SHA415 | `973DC2A74278945C4FF94ABE6A3B77230834145CDE90EE2E5A6EFA9A0D4EB25B883D01
 SSDEEP | `1536:PfRhGe9h9GtoWGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fKb:7M6WGPo9St8WHxSD+09+Sb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:PfRhGe9h9GtoWGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fKb:7M6WGPo9St8WHxSD+09
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

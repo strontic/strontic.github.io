@@ -1,10 +1,12 @@
 ﻿
 # xcopy.exe 
+
 * File Path: `C:\WINDOWS\system32\xcopy.exe`
 * Description: Extended Copy Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F359375C36D2C540DFF1141B11BF2F7F`
@@ -15,6 +17,7 @@ SHA415 | `8DAE615673C56275DC967C3367124AE3EE102640D2E40B0A154C27E9ACDEE1E5D4EC7A
 SSDEEP | `768:CUKqLOr5C6Bjm0wxbDNy1/5jhXyG/K/KnYxDL:C6O9C6Bjm0GbDqfnYxDL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Copies files and directory trees.
@@ -104,5 +107,7 @@ File cannot be copied onto itself
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

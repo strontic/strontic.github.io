@@ -1,10 +1,12 @@
 ﻿
 # CredentialUIBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\CredentialUIBroker.exe`
 * Description: Credential Manager UI Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `27B933633AAC281FDAB8FDC7031315EC`
@@ -15,6 +17,7 @@ SHA415 | `3C0CC0F7230609AAF608F64A4F386F860750CD706561D7C990A196DF3FD04F1A481393
 SSDEEP | `3072:41pcQSzl+wITM3GDDssJXl2DTE5DTBZTecGS:WhSzlYQ2DD5wDTE5Pe4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:41pcQSzl+wITM3GDDssJXl2DTE5DTBZTecGS:WhSzlYQ2DD5wDTE5Pe4`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

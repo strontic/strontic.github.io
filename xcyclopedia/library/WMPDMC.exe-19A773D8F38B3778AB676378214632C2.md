@@ -1,10 +1,12 @@
 ﻿
 # WMPDMC.exe 
+
 * File Path: `C:\WINDOWS\system32\WMPDMC.exe`
 * Description: Cast to Device
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `19A773D8F38B3778AB676378214632C2`
@@ -15,6 +17,7 @@ SHA415 | `3B79B8565618A89BC5EBE80B274B66D5A60E34C74261F1C1DFDA0742DB88908C81D156
 SSDEEP | `24576:CKHeL8QgnrwWljzzVsYjigWEtn1qqumCzQMb8FQ6NTwrlHVJZh/u:CK+ngnrPljuYjig6RmEZb8FQUcrlHVU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:CKHeL8QgnrwWljzzVsYjigWEtn1qqumCzQMb8FQ6NTwrlHVJZh/u:CK+ngnrPlju
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

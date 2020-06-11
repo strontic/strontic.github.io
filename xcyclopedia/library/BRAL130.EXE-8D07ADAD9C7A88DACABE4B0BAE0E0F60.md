@@ -1,10 +1,12 @@
 ﻿
 # BRAL130.EXE 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\brpri15c.inf_amd64_0690de4775ab2976\amd64\BRAL130.EXE`
 * Description: Printer Driver Application Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8D07ADAD9C7A88DACABE4B0BAE0E0F60`
@@ -15,6 +17,7 @@ SHA415 | `7D073E3CAE310176EED29B0695ED2DEF79A6BF1C1F2AA8CD370929FADEFC6C46783DC9
 SSDEEP | `768:jASKYengkOZHkQ/LM+Pnxks6lhoV3HKnun2YED7JLk+g6GX73+7A:jdqeMwysaEz0W6KSk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:jASKYengkOZHkQ/LM+Pnxks6lhoV3HKnun2YED7JLk+g6GX73+7A:jdqeMwysaEz0W
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: (C) 2013 Brother Industries, Ltd. All Rights Reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

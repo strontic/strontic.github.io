@@ -1,10 +1,12 @@
 ﻿
 # IDTNJ.exe 
+
 * File Path: `C:\WINDOWS\system32\IDTNJ.exe`
 * Description: IDT PC Audio
 * Comments: All Rights Reserved 2004 - 2009 IDT, Inc.
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8132E4292A5D579168D894AE5EA2106D`
@@ -15,6 +17,7 @@ SHA415 | `FF294B292BB367E1E391CC0C15CD04BC633B035CD2F57DDB40333D343F3854A2BC1787
 SSDEEP | `1536:jeHYIo2MG+cicUSwmP1zo0abJw3mi6zo0abJw31WJ6RGVJxiVhV:j106JwWiz06JwxGVJgp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:jeHYIo2MG+cicUSwmP1zo0abJw3mi6zo0abJw31WJ6RGVJxiVhV:j106JwWiz06Jw
 * Product Version: 1.0.6491.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2004 - 2009 IDT, Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

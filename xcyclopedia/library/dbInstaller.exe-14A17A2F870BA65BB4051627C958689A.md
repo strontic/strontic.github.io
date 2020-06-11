@@ -1,10 +1,12 @@
 ﻿
 # dbInstaller.exe 
+
 * File Path: `C:\WINDOWS\system32\drivers\NVIDIA Corporation\Drs\dbInstaller.exe`
 * Description: DBInstall Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `14A17A2F870BA65BB4051627C958689A`
@@ -15,6 +17,7 @@ SHA415 | `6890CFD4B94441CBBBECAE75C5E36132F0449623ADBF31F3D40D5D5A68D8B9EFA48F5C
 SSDEEP | `12288:9BFE4CWYYCAcslyk5UTCkiOgd6oVDkrzmWBR+tWH+8fx:tE4Cq2sl9/htWBR+tWH+C`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:9BFE4CWYYCAcslyk5UTCkiOgd6oVDkrzmWBR+tWH+8fx:tE4Cq2sl9/htWBR+tWH
 * Product Version: 25.21.14.2202
 * Language: English (United States)
 * Legal Copyright: (C) 2019 NVIDIA Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

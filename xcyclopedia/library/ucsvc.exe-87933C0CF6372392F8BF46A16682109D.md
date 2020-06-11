@@ -1,10 +1,12 @@
 ﻿
 # ucsvc.exe 
+
 * File Path: `C:\WINDOWS\system32\ucsvc.exe`
 * Description: Boot File Servicing Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `87933C0CF6372392F8BF46A16682109D`
@@ -15,6 +17,7 @@ SHA415 | `0663B85C0B630446BE741B4945D3CB72ADD2310272067B8D5BED512D52130A06CC48E0
 SSDEEP | `768:ickL03UAgYIq5BehMZKRBaHMNhl7Z1ZEbkWHAuMBzO09cmZgXj1PQ+:l93UAgYr8uM2Wl7Z1+AMAuj0+mZ+pPl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:ickL03UAgYIq5BehMZKRBaHMNhl7Z1ZEbkWHAuMBzO09cmZgXj1PQ+:l93UAgYr8uM
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

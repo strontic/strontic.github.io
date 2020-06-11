@@ -1,10 +1,12 @@
 ﻿
 # CameraSettingsUIHost.exe 
+
 * File Path: `C:\Windows\SysWOW64\CameraSettingsUIHost.exe`
 * Description: Camera Settings UI Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `107E1400E4717574021CD3931BF5B10A`
@@ -15,6 +17,7 @@ SHA415 | `3F28FDA43F14957EF947F60563116991CF4CA0D4D85A257687C69C7C4D82201726D720
 SSDEEP | `384:2UREbyrAImg55c+U41XACfy5Vnl+7Qg2JSpOlWydWd+ZxlRDBRJilkoU6Hz:2UREeMInFcQynnv9Pm+x1PhoPHz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:2UREbyrAImg55c+U41XACfy5Vnl+7Qg2JSpOlWydWd+ZxlRDBRJilkoU6Hz:2UREeM
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

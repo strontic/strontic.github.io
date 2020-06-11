@@ -1,10 +1,12 @@
 ﻿
 # CastSrv.exe 
+
 * File Path: `C:\WINDOWS\system32\CastSrv.exe`
 * Description: Casting protocol connection listener
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FA7F2ABB62329C45703CE80E41A2A949`
@@ -15,6 +17,7 @@ SHA415 | `378CC7210D1D2D7F00CF2CA0BC52082B9466F541BBEC30449175D6E83B3C93CEC79684
 SSDEEP | `768:5RfIgXu7rbFvJkXnabe1SuDvNPsVOOzHbh0c5TIwS4zRN/yIumj4+o1ZYIB6Xj1z:7+nF5eNliPhHEqX/ys4X1ZYIB8pPu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:5RfIgXu7rbFvJkXnabe1SuDvNPsVOOzHbh0c5TIwS4zRN/yIumj4+o1ZYIB6Xj1z:7
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

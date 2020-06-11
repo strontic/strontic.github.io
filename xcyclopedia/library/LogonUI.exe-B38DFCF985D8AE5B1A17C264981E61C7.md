@@ -1,10 +1,12 @@
 ﻿
 # LogonUI.exe 
+
 * File Path: `C:\Windows\system32\LogonUI.exe`
 * Description: Windows Logon User Interface Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B38DFCF985D8AE5B1A17C264981E61C7`
@@ -15,6 +17,7 @@ SHA415 | `7B16787E8C4A5197D0E904C73CD256BF02E646B4C65013668161D00A193314E14270F4
 SSDEEP | `192:wPQ3DcPYDUfHqlZubjq4jrzCEqXVdQ9GvGHsl2WnUW:bDUfwgbLjreEOXGHsoWnUW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:wPQ3DcPYDUfHqlZubjq4jrzCEqXVdQ9GvGHsl2WnUW:bDUfwgbLjreEOXGHsoWnUW`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

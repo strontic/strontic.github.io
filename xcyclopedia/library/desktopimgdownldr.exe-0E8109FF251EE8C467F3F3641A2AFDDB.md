@@ -1,10 +1,12 @@
 ﻿
 # desktopimgdownldr.exe 
+
 * File Path: `C:\WINDOWS\system32\desktopimgdownldr.exe`
 * Description: desktopimgdownldr.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0E8109FF251EE8C467F3F3641A2AFDDB`
@@ -15,6 +17,7 @@ SHA415 | `6F6B03B8AF1B6CE81483994899917686B9A09B7F54BA694D9B3DA656BA3E36D6B142AD
 SSDEEP | `1536:hAN+bWaVooo4ooPMf8uolZlaEUuYUK1aZT7nV:xLSNdoPk8Fl2EdYHU57nV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:hAN+bWaVooo4ooPMf8uolZlaEUuYUK1aZT7nV:xLSNdoPk8Fl2EdYHU57nV`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

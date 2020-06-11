@@ -1,10 +1,12 @@
 ﻿
 # ConfigSecurityPolicy.exe 
+
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\ConfigSecurityPolicy.exe`
 * Description: Microsoft Security Client Policy Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F5C7871AE44E7EFF31C44EBEBDF60A5D`
@@ -15,6 +17,7 @@ SHA415 | `6A21A24B49DE7E9A4997A897C26449A33B8BED3FCEBED2B09A77A5BBD83FD853466EB1
 SSDEEP | `3072:FxLrofs9P7AqfaVETO5Ee6iaeHJlN87cEkPSEo3+fXa/MWKeGfS+mugPy0nCvgSs:FV0fs9P0qEkO5VScfo3nhuzvgnbZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:FxLrofs9P7AqfaVETO5Ee6iaeHJlN87cEkPSEo3+fXa/MWKeGfS+mugPy0nCvgSs:
 * Product Version: 4.18.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

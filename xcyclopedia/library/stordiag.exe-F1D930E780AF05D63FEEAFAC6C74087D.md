@@ -1,10 +1,12 @@
 ﻿
 # stordiag.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\stordiag.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F1D930E780AF05D63FEEAFAC6C74087D`
@@ -15,6 +17,7 @@ SHA415 | `9DA186715EC3CC372CDDB4E00DFC4537F9B011D099A720FCBE65C3F2D92C38FF197E06
 SSDEEP | `1536:n6dFZKXt4SeKT/DSsdj9hf5+VIsWvbJWE4KAhUfbKU:KFZpSeK6MkWpvbJWE4nQbKU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -58,5 +61,7 @@ conhost.exe fltMC.exe
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

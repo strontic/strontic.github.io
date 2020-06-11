@@ -1,10 +1,12 @@
 ﻿
 # rasautou.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\rasautou.exe`
 * Description: Remote Access Dialer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BA2347843ED36587134C3B8AF434EC8C`
@@ -15,6 +17,7 @@ SHA415 | `1B44CE4A8A0BDD4ED0CAFE4716B83DC1D25DC7EA28CE67979546FAFA51888E90A98979
 SSDEEP | `192:ik1L4V5rSrqEpitQ3xFey4zP7UJDoGoDL0FZqGxZPWmpfPWbjMiWSBWKX:ik1LLqElBFDk6DoG7ZlxZumfsMiWSBW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
@@ -46,5 +49,7 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

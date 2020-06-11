@@ -1,10 +1,12 @@
 ﻿
 # DeviceEnroller.exe 
+
 * File Path: `C:\Windows\system32\DeviceEnroller.exe`
 * Description: API for MDM Enrollment
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `96A487B266262DC65DC08ECD591BB25D`
@@ -15,6 +17,7 @@ SHA415 | `F1BB784C5D699E70EF7CDFF2485D2A9EB026BCE9E6A3199ED8E1833F5211969F7A953E
 SSDEEP | `3072:7nn6vo3sqtHAVDJ2SQBkLnysQOQ29mjkJzwGtxa/OlV:7nn6vTqtgVDYSxQOQ24SEYx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:7nn6vo3sqtHAVDJ2SQBkLnysQOQ29mjkJzwGtxa/OlV:7nn6vTqtgVDYSxQOQ24SE
 * Product Version: 10.0.14393.2515
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

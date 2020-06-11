@@ -1,10 +1,12 @@
 ﻿
 # ServerManagerLauncher.exe 
+
 * File Path: `C:\Windows\system32\ServerManagerLauncher.exe`
 * Description: Server Manager Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CA3A931A56D4B2429A39871131964101`
@@ -15,6 +17,7 @@ SHA415 | `48C30A64E8A92F9457AFC6FEF53A30B3856A8A93653687EEE40565B059C3CCA5A8C114
 SSDEEP | `1536:q0KilEIexVQW0wg5qawCJr8cG5iamb0e9BZUhlOo+vi6Uf:qz1VQWVEq5CJr8x3mb0evZUhco+Q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:q0KilEIexVQW0wg5qawCJr8cG5iamb0e9BZUhlOo+vi6Uf:qz1VQWVEq5CJr8x3mb
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

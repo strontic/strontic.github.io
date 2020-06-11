@@ -1,10 +1,12 @@
 ﻿
 # dtdump.exe 
+
 * File Path: `C:\Windows\SysWOW64\dtdump.exe`
 * Description: DTDUMP.EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B7938AAC81C0233A39A11E7FA31BFD55`
@@ -15,6 +17,7 @@ SHA415 | `2EFC191CB1066165906856A5E17B492A10969EF865896DD5E7BB0E8D9811B9477629C4
 SSDEEP | `768:MyP/7PTos0/ui4dpJ8mGveFq66XeB5+D5qzqYmPAd:PrTos1i4dgjG96OB6lAd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe WerFault.exe dtdump.exe
 * Product Version: 10.0.14393.351
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # UNPUXLauncher.exe 
+
 * File Path: `C:\WINDOWS\system32\UNP\UNPUXLauncher.exe`
 * Description: UNP UXLauncher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `72F631987F470275554A0A3864A5C915`
@@ -15,6 +17,7 @@ SHA415 | `A61462CFD299668338C6200A64017041ABC212C39F5031FCA7F2E41840BFF59735057D
 SSDEEP | `6144:NYtPFelqPO9q35AIM4Q4Utd0gU2HLtoxozVI8JmNmSNkbsoNqx5rUIBx/7:6ZFtO99a80g92Om80ZxqIz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:NYtPFelqPO9q35AIM4Q4Utd0gU2HLtoxozVI8JmNmSNkbsoNqx5rUIBx/7:6ZFtO9
 * Product Version: 10.0.18362.592
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

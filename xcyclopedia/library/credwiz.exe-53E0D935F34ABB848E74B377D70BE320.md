@@ -1,10 +1,12 @@
 ﻿
 # credwiz.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\credwiz.exe`
 * Description: Credential Backup and Restore Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `53E0D935F34ABB848E74B377D70BE320`
@@ -15,6 +17,7 @@ SHA415 | `5B87559BE7CE6B25FC005443C0D6F7A1C1E6ABD7CC364404C2263C537BC5CCCD390D0F
 SSDEEP | `384:suFGSBYGwI5xk2SdUykHEj1GFogeGiuXHNUc+t+4sV6fUopeKdZhNGjWM5WWNuKv:h1YGaYkj1GFrLXqcRj6ceZmDgST`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:suFGSBYGwI5xk2SdUykHEj1GFogeGiuXHNUc+t+4sV6fUopeKdZhNGjWM5WWNuKv:h
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

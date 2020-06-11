@@ -1,10 +1,12 @@
 ﻿
 # EASPolicyManagerBrokerHost.exe 
+
 * File Path: `C:\WINDOWS\system32\EASPolicyManagerBrokerHost.exe`
 * Description: Exchange Active Sync Policy Manager Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9662674EAF3960BFE0E605421F167597`
@@ -15,6 +17,7 @@ SHA415 | `19E9D62C7FE01F013AD9259D6F27F8EBC893985457BAA42A7C53D258E8C906711CC507
 SSDEEP | `1536:8DhL6/wRLlugrQyEqCchMOAHLq1JwGgqxgrLso:x/wZlj81NHLq1JwNqyrt`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:8DhL6/wRLlugrQyEqCchMOAHLq1JwGgqxgrLso:x/wZlj81NHLq1JwNqyrt`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

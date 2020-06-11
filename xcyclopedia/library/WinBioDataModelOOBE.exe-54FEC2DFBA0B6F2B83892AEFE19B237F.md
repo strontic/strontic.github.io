@@ -1,10 +1,12 @@
 ﻿
 # WinBioDataModelOOBE.exe 
+
 * File Path: `C:\Windows\system32\WinBioDataModelOOBE.exe`
 * Description: WinBioDataModel OOBE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `54FEC2DFBA0B6F2B83892AEFE19B237F`
@@ -15,6 +17,7 @@ SHA415 | `8330D33709DCC5A8B89526FAD18F965BC72F63AC932DEA77F1E1D0C02C5171FC84F542
 SSDEEP | `1536:hLS5fg5S4cRQRogdSm8HhqOHbpdU+tCg2tTpFD:Ufg5dIQRo0Sm8wOw+tCgqpF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:hLS5fg5S4cRQRogdSm8HhqOHbpdU+tCg2tTpFD:Ufg5dIQRo0Sm8wOw+tCgqpF`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

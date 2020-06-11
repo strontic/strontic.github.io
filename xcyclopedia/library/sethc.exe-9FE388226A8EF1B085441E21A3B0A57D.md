@@ -1,10 +1,12 @@
 ﻿
 # sethc.exe 
+
 * File Path: `C:\Windows\SysWOW64\sethc.exe`
 * Description: Accessibility shortcut keys
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9FE388226A8EF1B085441E21A3B0A57D`
@@ -15,6 +17,7 @@ SHA415 | `F30BA957AF6A5F06B02CF10667F7E1328550805C3E5EC56FF362C4E19C042966564834
 SSDEEP | `6144:djIopKuwwtKE7Oj+jC6uFz2LJGRg4kLNnei36cw:dIopXZkFCdUc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:djIopKuwwtKE7Oj+jC6uFz2LJGRg4kLNnei36cw:dIopXZkFCdUc`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

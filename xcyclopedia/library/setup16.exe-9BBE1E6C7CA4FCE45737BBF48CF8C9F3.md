@@ -1,10 +1,12 @@
 ﻿
 # setup16.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\setup16.exe`
 * Description: MS-Setup Setup Exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9BBE1E6C7CA4FCE45737BBF48CF8C9F3`
@@ -15,6 +17,7 @@ SHA415 | `0A66A4A407EB3DC328A5DD1CCCD6B5489DDFF1A88450BD70A05DA6247214E595BBA6F7
 SSDEEP | `384:rvZ3bbVOI/YppE8JqIry58l6Oatkn2MmoWco6O1Lmn9Ve5Aq+FnWSpyW21z:rRwAlq6O2kn5mzVLwxqWe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:rvZ3bbVOI/YppE8JqIry58l6Oatkn2MmoWco6O1Lmn9Ve5Aq+FnWSpyW21z:rRwAlq
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright: Copyright  Microsoft Corp. 1991-1997
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

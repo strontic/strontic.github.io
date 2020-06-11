@@ -1,10 +1,12 @@
 ﻿
 # Spectrum.exe 
+
 * File Path: `C:\WINDOWS\system32\Spectrum.exe`
 * Description: Windows Perception Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7F3921BA41FB025FD9285D795419B854`
@@ -15,6 +17,7 @@ SHA415 | `A24D98E9DC789F75050A7F32333311D8BF6966918AF319C28B7B944F1E660B9657FF66
 SSDEEP | `12288:K8l9bs0ViIuM9MTGqNvDlXYimWyvvGmUidXSyIq37OzW4fz:K8ZViZM9MTGqNvZT/yveodXSyIsqzWQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Unrecognized parameter: -help
@@ -50,5 +53,7 @@ Parameters:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

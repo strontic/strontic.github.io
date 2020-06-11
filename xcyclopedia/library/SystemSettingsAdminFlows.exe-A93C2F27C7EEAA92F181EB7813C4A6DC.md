@@ -1,10 +1,12 @@
 ﻿
 # SystemSettingsAdminFlows.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemSettingsAdminFlows.exe`
 * Description: Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A93C2F27C7EEAA92F181EB7813C4A6DC`
@@ -15,6 +17,7 @@ SHA415 | `44CCCF3FFB594588A992F80677A47C1CCBF25AFA4580C1EB253F3D512D5051AF245E56
 SSDEEP | `12288:j1uenJUZekwCOnI6h6VPKM7Pp+n7FVAWw6ajt6:NJ+QN6VPKMO8Ww6aM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:j1uenJUZekwCOnI6h6VPKM7Pp+n7FVAWw6ajt6:NJ+QN6VPKMO8Ww6aM`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # efsui.exe 
+
 * File Path: `C:\WINDOWS\system32\efsui.exe`
 * Description: EFS UI Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A4F4320848DC0C349D699FB6F3B2A799`
@@ -15,6 +17,7 @@ SHA415 | `A5C90C71949DE79FCAD7789ED0A2820300E3B493813086C6B835EED0C1FE360FB19724
 SSDEEP | `384:6qHnv+dVueErXAEtDqD6C1sKtkh/1pEZ2TxWS+RW:jv8VnErXAEwuSsK4rEZ2Tg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:6qHnv+dVueErXAEtDqD6C1sKtkh/1pEZ2TxWS+RW:jv8VnErXAEwuSsK4rEZ2Tg`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

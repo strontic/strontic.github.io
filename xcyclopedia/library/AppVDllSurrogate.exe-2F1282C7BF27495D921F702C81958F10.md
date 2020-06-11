@@ -1,10 +1,12 @@
 ﻿
 # AppVDllSurrogate.exe 
+
 * File Path: `C:\Windows\system32\AppVDllSurrogate.exe`
 * Description: Client DLL Surrogate Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2F1282C7BF27495D921F702C81958F10`
@@ -15,6 +17,7 @@ SHA415 | `E4B7050515D1BDB5FC8D7066070478609498A81F43028F3086C3AA9B2C6ABFBF0835E1
 SSDEEP | `3072:tKHXk8OYtTt+8qFrrz7YLriqWGNU6gTLe7Thec7d77:t3YbZqFrrz7cWGNU6gTLep/N7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:tKHXk8OYtTt+8qFrrz7YLriqWGNU6gTLe7Thec7d77:t3YbZqFrrz7cWGNU6gTLep
 * Product Version: 10.0.14393.3659
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

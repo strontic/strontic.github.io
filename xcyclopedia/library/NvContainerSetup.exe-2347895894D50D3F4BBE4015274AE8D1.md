@@ -1,10 +1,12 @@
 ﻿
 # NvContainerSetup.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\NvContainerSetup.exe`
 * Description: NVIDIA Package Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2347895894D50D3F4BBE4015274AE8D1`
@@ -15,6 +17,7 @@ SHA415 | `D2110A07E96C557185AE66DE92D41F1836EEBA9E274EFF4EC14C47122F0EAC6ACA2756
 SSDEEP | `98304:JwkZ3BPZDcrfZorS4rH+wcErSES3YQYdHo+T1NVNPhO90e9:akJBPe9qey4bYdHoq1N3890e9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `98304:JwkZ3BPZDcrfZorS4rH+wcErSES3YQYdHo+T1NVNPhO90e9:akJBPe9qey4bYdHo
 * Product Version: 1.0.7
 * Language: Language Neutral
 * Legal Copyright: Copyright  2017 NVIDIA Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

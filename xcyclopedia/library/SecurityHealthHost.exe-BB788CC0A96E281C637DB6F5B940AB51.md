@@ -1,10 +1,12 @@
 ﻿
 # SecurityHealthHost.exe 
+
 * File Path: `C:\WINDOWS\system32\SecurityHealthHost.exe`
 * Description: Windows Security Health Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BB788CC0A96E281C637DB6F5B940AB51`
@@ -15,6 +17,7 @@ SHA415 | `396F49ED0F4B79F2772BC8F887321D592E17F578B1643EDBFA0F3C2A5541F997099820
 SSDEEP | `1536:Yu0wgYqF9lKOc6Xi073JYP9TZTG3QrgBiTQGmCvtTJn+wRZmMveGxUwp6vPE:0w3OrX73JYP99S3Qrg4sGmCvtNn+wRZD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:Yu0wgYqF9lKOc6Xi073JYP9TZTG3QrgBiTQGmCvtTJn+wRZmMveGxUwp6vPE:0w3O
 * Product Version: 4.18.1901.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

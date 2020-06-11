@@ -1,10 +1,12 @@
 ﻿
 # dusmtask.exe 
+
 * File Path: `C:\WINDOWS\system32\dusmtask.exe`
 * Description: DUSM Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `479FF52670824724CFC04D77061100A5`
@@ -15,6 +17,7 @@ SHA415 | `5DB0EC4E8B36EFEBB4EC8A5035FBA579E04CD03AAD402067F39310B42E0C35A0277DB0
 SSDEEP | `768:xhILtRoEhlTyKs4rOE55rLEsvlq8giZUV50T+waVCs+wRbfgsBOed:3I9lTyVUdrLtvl6/jC6LzB3d`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:xhILtRoEhlTyKs4rOE55rLEsvlq8giZUV50T+waVCs+wRbfgsBOed:3I9lTyVUdrLt
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

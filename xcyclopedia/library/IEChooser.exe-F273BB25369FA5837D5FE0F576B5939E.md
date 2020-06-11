@@ -1,10 +1,12 @@
 ﻿
 # IEChooser.exe 
+
 * File Path: `C:\WINDOWS\system32\F12\IEChooser.exe`
 * Description: F12 Attach Chooser executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F273BB25369FA5837D5FE0F576B5939E`
@@ -15,6 +17,7 @@ SHA415 | `81AF21D859861B4F0FB5289C86C49EA9E240E58809361BEDDCFDBE7557AA4FC8731547
 SSDEEP | `3072:2ZgUGO7dG9WId8JoWfE4G9dWIYub14ezd+0olEIZMJ7fz668pkp5MCUr7:26zd8JNEXtYe48olLMpCCUr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:2ZgUGO7dG9WId8JoWfE4G9dWIYub14ezd+0olEIZMJ7fz668pkp5MCUr7:26zd8JN
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # IntelCpHDCPSvc.exe 
+
 * File Path: `C:\WINDOWS\system32\IntelCpHDCPSvc.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `722B032560284200851FCCA3B3FA0716`
@@ -15,6 +17,7 @@ SHA415 | `77C5D55D836F9CF8559F81C8312FF87E13489DB49EB3B411C661C05272E83DC12AE5E0
 SSDEEP | `6144:P+uCJzDCvBrk8Yi93GVAlx97CTFZxq8cTaHY5PmpxwUXofMuLkY436DMaQCyfnm3:PS9COtC39GjcMowL6Dy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:P+uCJzDCvBrk8Yi93GVAlx97CTFZxq8cTaHY5PmpxwUXofMuLkY436DMaQCyfnm3:
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

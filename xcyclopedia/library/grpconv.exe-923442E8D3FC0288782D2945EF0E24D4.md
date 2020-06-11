@@ -1,10 +1,12 @@
 ﻿
 # grpconv.exe 
+
 * File Path: `C:\Windows\system32\grpconv.exe`
 * Description: Windows Progman Group Converter
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `923442E8D3FC0288782D2945EF0E24D4`
@@ -15,6 +17,7 @@ SHA415 | `3F96C76B083CE505F4514075F5CDE3511CAD25945DBC64777BDB669B51B2A7A27E005F
 SSDEEP | `768:cEHjAW5nfyq4m2cQDz/i0pSfU+YOUSSay/+pT2NlVT5RqImK8e7n7GmL:cEHjA+9V2hKZUrT/IQzT5RqI7p7GmL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:cEHjAW5nfyq4m2cQDz/i0pSfU+YOUSSay/+pT2NlVT5RqImK8e7n7GmL:cEHjA+9V2
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

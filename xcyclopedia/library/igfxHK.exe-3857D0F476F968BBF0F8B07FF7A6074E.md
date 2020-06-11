@@ -1,10 +1,12 @@
 ﻿
 # igfxHK.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxHK.exe`
 * Description: igfxHK Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3857D0F476F968BBF0F8B07FF7A6074E`
@@ -15,6 +17,7 @@ SHA415 | `B9DF87FC810BB382A8EB08B640B31108381DFCBB6F3C1DDBBDE485610A0643FCF1A881
 SSDEEP | `6144:fxWDhqR9QT76bvD6w9b8ihrGQMUm6okJo9q9:fx2Q9YCaQVmYUQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:fxWDhqR9QT76bvD6w9b8ihrGQMUm6okJo9q9:fx2Q9YCaQVmYUQ`
 * Product Version: 6.15.10.3682
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

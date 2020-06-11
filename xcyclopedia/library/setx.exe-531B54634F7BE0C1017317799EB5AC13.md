@@ -1,10 +1,12 @@
 ﻿
 # setx.exe 
+
 * File Path: `C:\WINDOWS\system32\setx.exe`
 * Description: Setx - Sets environment variables
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `531B54634F7BE0C1017317799EB5AC13`
@@ -15,6 +17,7 @@ SHA415 | `4AB883DB84DB89964F126F4593428D888ADE869CBEFDE370C490BA258084EFEF7A77AF
 SSDEEP | `1536:YoDIvXk5MeicnNUl1Cyrm/ENjrqHjNa1t3r:afbTBCqjr6jNa1tb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -155,5 +158,7 @@ Type "SETX /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

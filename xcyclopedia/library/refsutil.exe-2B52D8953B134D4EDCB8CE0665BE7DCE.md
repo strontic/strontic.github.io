@@ -1,10 +1,12 @@
 ﻿
 # refsutil.exe 
+
 * File Path: `C:\WINDOWS\system32\refsutil.exe`
 * Description: refsutil.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2B52D8953B134D4EDCB8CE0665BE7DCE`
@@ -15,6 +17,7 @@ SHA415 | `B6FE97B06B2A037FE18C3999E25D20C18477C0141BF6B4C14C92F529DA62AE6878EAE4
 SSDEEP | `24576:tIWadWBl6V3k5I7EfeVxcfNyjGWLnL1XK92NqGkw+qLrZ8Kp:KPsBl6V3k5I7Efe4fNMGWLn9K92gRCL/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 This program requires administrator privileges.
@@ -46,5 +49,7 @@ This program requires administrator privileges.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

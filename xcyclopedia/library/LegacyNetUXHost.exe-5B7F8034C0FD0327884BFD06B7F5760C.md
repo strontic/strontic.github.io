@@ -1,10 +1,12 @@
 ﻿
 # LegacyNetUXHost.exe 
+
 * File Path: `C:\Windows\system32\LegacyNetUXHost.exe`
 * Description: Legacy Net UX Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5B7F8034C0FD0327884BFD06B7F5760C`
@@ -15,6 +17,7 @@ SHA415 | `47BAE0234C6FB24121861EC576E9A4BAB8322506BB0835632D547E5FC64201B22408BA
 SSDEEP | `3072:+9mlDBGVYt+uIc2pC5Akvxw8nobS+Z829rt/0uc6RMNS:+9SD8VYRInIBoufuaucCMN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:+9mlDBGVYt+uIc2pC5Akvxw8nobS+Z829rt/0uc6RMNS:+9SD8VYRInIBoufuaucC
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

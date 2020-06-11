@@ -1,10 +1,12 @@
 ﻿
 # changepk.exe 
+
 * File Path: `C:\Windows\system32\changepk.exe`
 * Description: Windows Activation
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E158157A57E322D9BB683FE2378724BA`
@@ -15,6 +17,7 @@ SHA415 | `2767FB90151E7A2BFB41516854D8893BCEC9E9458369ED481ED6A97EE06E7107832FB1
 SSDEEP | `1536:/nceOoyWlp5h15wTGjvzj07j5UfTTfPLr0:EoyqHXzK5UfTTfzr0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:/nceOoyWlp5h15wTGjvzj07j5UfTTfPLr0:EoyqHXzK5UfTTfzr0`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

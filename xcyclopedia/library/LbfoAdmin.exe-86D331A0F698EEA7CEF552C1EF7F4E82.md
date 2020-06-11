@@ -1,10 +1,12 @@
 ﻿
 # LbfoAdmin.exe 
+
 * File Path: `C:\Windows\system32\LbfoAdmin.exe`
 * Description: NIC Teaming
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `86D331A0F698EEA7CEF552C1EF7F4E82`
@@ -15,6 +17,7 @@ SHA415 | `868A972C04DC6829E040962B60E9CF24F219872CC90B97E2408D83B5077A84C1971DA7
 SSDEEP | `1536:5tVcjj4PBuhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWc14zUWJGCTBD:lxP8hUYXH1+mty9quegO7jS4VzT5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:5tVcjj4PBuhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWc14zUWJGCTBD:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # tabcal.exe 
+
 * File Path: `C:\WINDOWS\system32\tabcal.exe`
 * Description: Digitizer Calibration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C6D89BAA07C0779C2F21B1072FAD2C02`
@@ -15,6 +17,7 @@ SHA415 | `2F22F6A4DE0E18600CA6A32719D0F3952A9BE4BF5A1E5C0B830176C4A63899FAD555B2
 SSDEEP | `1536:IFR/Fbbgw/S6MW2rzqF0QnBMChpdfW2jbJK:IFFtbg6PMW2rzCB1pdfZbs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:IFR/Fbbgw/S6MW2rzqF0QnBMChpdfW2jbJK:IFFtbg6PMW2rzCB1pdfZbs`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

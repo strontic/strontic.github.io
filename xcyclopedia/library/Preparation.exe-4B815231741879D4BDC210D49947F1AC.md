@@ -1,10 +1,12 @@
 ﻿
 # Preparation.exe 
+
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\wdexpress_full\Preparation.exe`
 * Description: Microsoft Visual Studio 2015
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4B815231741879D4BDC210D49947F1AC`
@@ -15,6 +17,7 @@ SHA415 | `67DC63BB84F48CE0B70BC8BBEFFA737C82BF7C183AD7937F8172BE53ED307B9A043DEC
 SSDEEP | `3072:/3PpKOd0dAeJopCjW+C1dvI8YOOYI0UmpKpu0PaT57qap:sdAeJQCg7Amjgadlp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:/3PpKOd0dAeJopCjW+C1dvI8YOOYI0UmpKpu0PaT57qap:sdAeJQCg7Amjgadlp`
 * Product Version: 14.0.23107.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

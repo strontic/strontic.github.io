@@ -1,10 +1,12 @@
 ﻿
 # OpenWith.exe 
+
 * File Path: `C:\Windows\SysWOW64\OpenWith.exe`
 * Description: Pick an app
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A633739DA182E75C0D6741119A902A0B`
@@ -15,6 +17,7 @@ SHA415 | `3334DBA8E90E35A4881A1B7E4AD417861E908ECD1C8DF0D27C43346DFE836BE17C8AE2
 SSDEEP | `1536:TxTONUUIeF6ZyGhAUfKQTzBNer+CE+Ge+aPRL:rNKIrer+CE+GgpL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:TxTONUUIeF6ZyGhAUfKQTzBNer+CE+Ge+aPRL:rNKIrer+CE+GgpL`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # powershell.exe 
+
 * File Path: `C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe`
 * Description: Windows PowerShell
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `097CE5761C89434367598B34FE32893B`
@@ -15,6 +17,7 @@ SHA415 | `129912EB88C744EAA56BCA899BB7B3271D41E029FBD83D6E9853D4200CA8408C79736E
 SSDEEP | `6144:J94+nr3in2CIbWwO9sV1yZywi/PzNKXzJ7BapCK5d3klRzULOnWyjLsPhAQzqO:Y+pW2KXzJ4pdd3klnnWosPhnzq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -160,5 +163,7 @@ EXAMPLES
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

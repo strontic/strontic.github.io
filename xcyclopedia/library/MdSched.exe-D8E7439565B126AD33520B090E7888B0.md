@@ -1,10 +1,12 @@
 ﻿
 # MdSched.exe 
+
 * File Path: `C:\WINDOWS\system32\MdSched.exe`
 * Description: Windows Memory Diagnostics Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D8E7439565B126AD33520B090E7888B0`
@@ -15,6 +17,7 @@ SHA415 | `205463DD025D051BFB9F79AF2F3F6AF1D493E5157ED2828DA0868D372EE67D898F6EF1
 SSDEEP | `1536:i9n7ttvwY5rA7m+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:ixttvXA7e/FO+VQDUcUNWs+jm6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:i9n7ttvwY5rA7m+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:ixttvXA7e/FO+VQDUc
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

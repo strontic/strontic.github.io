@@ -1,10 +1,12 @@
 ﻿
 # CredentialEnrollmentManager.exe 
+
 * File Path: `C:\WINDOWS\system32\CredentialEnrollmentManager.exe`
 * Description: Credential Enrollment Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DD8536F70BD443BAF8B854C29B8DE442`
@@ -15,6 +17,7 @@ SHA415 | `F8290817651436B3890E25D2B9ADEA1CA8FC54C40F5C15B7AB50DDB23B1DF82DF7E2D1
 SSDEEP | `6144:er6WBzH7gLiHW6IneJPnA5hHZgbKbKwvCQN2tc26pVh:U6WBHgLiH1EeJPnfb61p2tX+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:er6WBzH7gLiHW6IneJPnA5hHZgbKbKwvCQN2tc26pVh:U6WBHgLiH1EeJPnfb61p2
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

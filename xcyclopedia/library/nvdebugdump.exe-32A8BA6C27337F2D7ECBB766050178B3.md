@@ -1,10 +1,12 @@
 ﻿
 # nvdebugdump.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\nvdebugdump.exe`
 * Description: NVIDIA Debug Dump
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `32A8BA6C27337F2D7ECBB766050178B3`
@@ -15,6 +17,7 @@ SHA415 | `3B7DAB51FB39CD01F20FC4F71A0310A0EBC754FD1298AB250A5C1A1473F5615961D38D
 SSDEEP | `6144:ttq1nNvvLoloR7Jw/yXZY+4k8nNWELk8qTB5NFO:a1NvFu/gZzeRqTvNF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Option "-help" is not recognized.
@@ -46,5 +49,7 @@ Option "-help" is not recognized.
 * Product Version: 6.14.14.2202
 * Language: English (United States)
 * Legal Copyright: (C) 2019 NVIDIA Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

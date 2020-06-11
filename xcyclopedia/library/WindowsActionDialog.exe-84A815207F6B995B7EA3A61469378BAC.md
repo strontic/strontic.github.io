@@ -1,10 +1,12 @@
 ﻿
 # WindowsActionDialog.exe 
+
 * File Path: `C:\WINDOWS\system32\WindowsActionDialog.exe`
 * Description: Windows Action Dialog Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `84A815207F6B995B7EA3A61469378BAC`
@@ -15,6 +17,7 @@ SHA415 | `852F406D047ECA3FACF688E4FE277AE0BC9CA04BCD630B969B2F6930BB324FB5C50BC0
 SSDEEP | `1536:gr6A9QantuswaSFT/4L+qr/Zyz3KIYlwBjyxT:k9RntrSFTkrwKTwB+h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:gr6A9QantuswaSFT/4L+qr/Zyz3KIYlwBjyxT:k9RntrSFTkrwKTwB+h`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

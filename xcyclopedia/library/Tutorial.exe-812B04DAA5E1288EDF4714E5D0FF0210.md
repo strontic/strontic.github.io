@@ -1,10 +1,12 @@
 ﻿
 # Tutorial.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\Tutorial.exe`
 * Description: Synaptics Pointing Device Tutorial
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `812B04DAA5E1288EDF4714E5D0FF0210`
@@ -15,6 +17,7 @@ SHA415 | `B4BA76D381B1DAD992196AFF467619B90230B39D99F3866BA29956B9E32079BA877E44
 SSDEEP | `49152:kK5/2Emx3wO699I8OpTNpTGuG7YaAKSsGb6gg2k2fethA+IS:VOEmxw39/OpZpTGurKOb6gg2k2CQS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:kK5/2Emx3wO699I8OpTNpTGuG7YaAKSsGb6gg2k2fethA+IS:VOEmxw39/OpZpTG
 * Product Version: 19.0.12.95 06Jul15
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2015
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

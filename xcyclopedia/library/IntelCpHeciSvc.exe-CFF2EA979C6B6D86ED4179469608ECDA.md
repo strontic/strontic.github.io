@@ -1,10 +1,12 @@
 ﻿
 # IntelCpHeciSvc.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\108559.inf_amd64_8327908856b66027\IntelCpHeciSvc.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CFF2EA979C6B6D86ED4179469608ECDA`
@@ -15,6 +17,7 @@ SHA415 | `83BAB6CDF0A94794A8A0C341EF50913759D9933395425B1BFB0CDAA41A6D0901B39216
 SSDEEP | `3072:Y6m/Vw6o/h64ggh5JXL/kbLQrQLaXVHBJ6TuuHzi76u+76sp6BsdVMrOH/HJVYyI:Y7/Vw/r4wVfpuHziJbsKOffYe96`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Y6m/Vw6o/h64ggh5JXL/kbLQrQLaXVHBJ6TuuHzi76u+76sp6BsdVMrOH/HJVYyI:
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

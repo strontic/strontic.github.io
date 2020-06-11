@@ -1,10 +1,12 @@
 ﻿
 # icsunattend.exe 
+
 * File Path: `C:\Windows\system32\icsunattend.exe`
 * Description: ICS Unattend Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D3689BFEBFAAC10BC59189C80E27F026`
@@ -15,6 +17,7 @@ SHA415 | `D0677238A700CBEB2F027AFB346B844A0D653BB67791FD986E336FAFE3D3DFE6F47685
 SSDEEP | `384:FASFRFkWUHqSrEdJVKC6tiTmiClgnyck4ToTg1zPWZRW:FAaIEFKTLiF9k4sTg1zu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:FASFRFkWUHqSrEdJVKC6tiTmiClgnyck4ToTg1zPWZRW:FAaIEFKTLiF9k4sTg1zu`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

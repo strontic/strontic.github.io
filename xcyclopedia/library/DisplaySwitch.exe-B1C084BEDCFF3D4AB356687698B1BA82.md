@@ -1,10 +1,12 @@
 ﻿
 # DisplaySwitch.exe 
+
 * File Path: `C:\Windows\system32\DisplaySwitch.exe`
 * Description: Display Switch
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B1C084BEDCFF3D4AB356687698B1BA82`
@@ -15,6 +17,7 @@ SHA415 | `B37FE0F7078591824792E9D9D78BB2322EAB626BA053EDB0C1C7812533E8BAEE4DE723
 SSDEEP | `3072:XUG9few5ZOAQuZpxQo4/j5AwR9wqhZsEvkQ86AyLa7eygpPIHl:XUaGw5ZGuxQo4/j5NwqhZLDsqM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:XUG9few5ZOAQuZpxQo4/j5AwR9wqhZsEvkQ86AyLa7eygpPIHl:XUaGw5ZGuxQo4/
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

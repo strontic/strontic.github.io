@@ -1,10 +1,12 @@
 ﻿
 # sdbinst.exe 
+
 * File Path: `C:\WINDOWS\system32\sdbinst.exe`
 * Description: Application Compatibility Database Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B365F6D8D8B2F42CB499179EA0693B9E`
@@ -15,6 +17,7 @@ SHA415 | `AAE63E85D3EDEEF41EF66EF6CE98F4A975C33E45B1485819737F3A33C9785D89936F2C
 SSDEEP | `384:6yiZ178Kqb8oDXYJ4/5FohU6oALA7rRi/EK5eOLCIy2BcSrWNgW:6yiZA5oU5YPU2eOWIy2BcSG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:6yiZ178Kqb8oDXYJ4/5FohU6oALA7rRi/EK5eOLCIy2BcSrWNgW:6yiZA5oU5YPU2e
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

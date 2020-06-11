@@ -1,10 +1,12 @@
 ﻿
 # where.exe 
+
 * File Path: `C:\Windows\system32\where.exe`
 * Description: Where - Lists location of files
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `165B6C8CE23CBA9CD586436BDDFE7E1F`
@@ -15,6 +17,7 @@ SHA415 | `CFAD1D59E417558676D19BDC3A008FE0914EFC8EEDBDB18A85B365E015A59B77445AE0
 SSDEEP | `768:3sFY7n39v/JNSiyzIs6nSCO3VC28PjYJP3/dmsxXC1:ASyUjYJP3/dxy1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -90,5 +93,7 @@ Type "WHERE /?" for usage help.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

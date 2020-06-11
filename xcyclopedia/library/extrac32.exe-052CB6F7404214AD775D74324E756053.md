@@ -1,10 +1,12 @@
 ﻿
 # extrac32.exe 
+
 * File Path: `C:\Windows\system32\extrac32.exe`
 * Description: Microsoft CAB File Extract Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `052CB6F7404214AD775D74324E756053`
@@ -15,6 +17,7 @@ SHA415 | `0C6EE7FBBAAD15EE3EE8DB2AF2AF7962E318187E0279304C0C5445E80C3F14A785DA09
 SSDEEP | `768:yQHk2EjPHGCTK4dhdYHvH9XFoDxeaPGoZw2YJ9cDH:HmHGCXKHvH9XFexeqG3JJ9cDH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft (R) Cabinet Extraction Tool
@@ -67,5 +70,7 @@ EXTRACT [/Y] /C source destination
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # PrintDialogHost3D.exe 
+
 * File Path: `C:\Windows\system32\PrintDialogHost3D.exe`
 * Description: Print Dialog Host 3D
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F56C679032C332768A706F0C71CA4B6D`
@@ -15,6 +17,7 @@ SHA415 | `16A11CC5742CE890A98672029BE565C64F9FD4524A6CF9DD73FD8D0CE8A00F44EB6995
 SSDEEP | `384:eNvKTII2pkc8DXzl2VKNGO4MPzH/xsi6Qg9waYOL08MWbbW:eRF9pkcilEKNprK8iwaVL08B`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:eNvKTII2pkc8DXzl2VKNGO4MPzH/xsi6Qg9waYOL08MWbbW:eRF9pkcilEKNprK8iw
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

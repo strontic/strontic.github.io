@@ -1,10 +1,12 @@
 ﻿
 # tsecimp.exe 
+
 * File Path: `C:\Windows\SysWOW64\tsecimp.exe`
 * Description: Microsoft Windows(TM) TAPI Security File Importer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D5F1A612B5CDD8C197DD8398B06B7E09`
@@ -15,6 +17,7 @@ SHA415 | `5FC58DDB95AD693EAF217460D6D4134D6A0A0999AA8B32ADB36788B2DB76ACB1BCD6A2
 SSDEEP | `384:oLanrYucAPr9nwcZghaPLpBYCyG5yY2JXn5fztwrY8ozoOWqv4WRKp8+onQrw8:YOnXgWLTN5yjmezoobKC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft Windows(TM) TAPI Security File Importer
@@ -57,5 +60,7 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

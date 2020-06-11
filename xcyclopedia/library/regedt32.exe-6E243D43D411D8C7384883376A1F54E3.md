@@ -1,10 +1,12 @@
 ﻿
 # regedt32.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\regedt32.exe`
 * Description: Registry Editor Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6E243D43D411D8C7384883376A1F54E3`
@@ -15,6 +17,7 @@ SHA415 | `3BE61D18F80EDD140220200827E7306ABD696AEB41916AB4689B6F92F6E6D5C93773B4
 SSDEEP | `96:bzam5S/tfZOWkcDLEp2TyIRoJoPcDGjs0nt+UFoiNVRrDJFMVW9EWUZhHWwP2f:6m56rDaGRomx+UFoiNVRb0WWxW9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:bzam5S/tfZOWkcDLEp2TyIRoJoPcDGjs0nt+UFoiNVRrDJFMVW9EWUZhHWwP2f:6m56
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # EDPCleanup.exe 
+
 * File Path: `C:\WINDOWS\system32\EDPCleanup.exe`
 * Description: EDP Cleanup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C1248530A08CCC4224ED797A3E67C9FC`
@@ -15,6 +17,7 @@ SHA415 | `00CE09DAC4F2897C2D0C5F48F9A88FC20F9FA7F720A574E5E0680329883A081B47EAAC
 SSDEEP | `3072:XhEtMta2Ts5e9dKHJ8bkwmYLyBGbYFiEwBLUrq0aTvH:XhA245pHekwmY2BSMi3F0aTv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:XhEtMta2Ts5e9dKHJ8bkwmYLyBGbYFiEwBLUrq0aTvH:XhA245pHekwmY2BSMi3F0
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

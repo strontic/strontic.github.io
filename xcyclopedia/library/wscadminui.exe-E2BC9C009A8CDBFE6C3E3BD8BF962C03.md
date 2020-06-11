@@ -1,10 +1,12 @@
 ﻿
 # wscadminui.exe 
+
 * File Path: `C:\WINDOWS\system32\wscadminui.exe`
 * Description: Windows Security Center Elevated UI App
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E2BC9C009A8CDBFE6C3E3BD8BF962C03`
@@ -15,6 +17,7 @@ SHA415 | `417D78EE581D43E365836BC516AC47DD0F0E6A5FF27DDEA6C2A32837DB47A7B57BB15B
 SSDEEP | `96:ffEI0sqZx2UhHHgP32Qj6tcVPSUcgnRqRmUsJ/83U/GluUWRnpeioGEWdhRWw:ffEuKx2ZGjaVPSDD64OGluULVWdhRW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:ffEI0sqZx2UhHHgP32Qj6tcVPSUcgnRqRmUsJ/83U/GluUWRnpeioGEWdhRWw:ffEuK
 * Product Version: 10.0.18362.449
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

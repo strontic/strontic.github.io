@@ -1,10 +1,12 @@
 ﻿
 # AppHostRegistrationVerifier.exe 
+
 * File Path: `C:\Windows\system32\AppHostRegistrationVerifier.exe`
 * Description: App Uri Handlers Registration Verifier
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `349A75331035C5266DA27BC3AFC552CC`
@@ -15,6 +17,7 @@ SHA415 | `927CD86C6ACC82FA508DAED2102BFCD6848843488F376929E5ABA0DE4E386419323761
 SSDEEP | `3072:hExf1PZ2cMzr10kgcye+fP5hP4mxZKG9W:hExfFMnzye+zP48`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:hExf1PZ2cMzr10kgcye+fP5hP4mxZKG9W:hExfFMnzye+zP48`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

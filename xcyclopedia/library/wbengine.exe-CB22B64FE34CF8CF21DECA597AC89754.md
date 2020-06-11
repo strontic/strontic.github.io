@@ -1,10 +1,12 @@
 ﻿
 # wbengine.exe 
+
 * File Path: `C:\WINDOWS\system32\wbengine.exe`
 * Description: Microsoft Block Level Backup Engine Service EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CB22B64FE34CF8CF21DECA597AC89754`
@@ -15,6 +17,7 @@ SHA415 | `5987A8B39440E0A00FE4148BCB3627700658A70B90C462838D95EA3A8F5BC810998CC3
 SSDEEP | `24576:Xsvjl6i34G1ZgyZorgw1EN8QbPio3kd8sM74ssLpEGofj0Y2VtDRY640VU2Iv:8vZ6i34G1ZgCordEN8Qzju6EpE6VtD+R`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:Xsvjl6i34G1ZgyZorgw1EN8QbPio3kd8sM74ssLpEGofj0Y2VtDRY640VU2Iv:8v
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

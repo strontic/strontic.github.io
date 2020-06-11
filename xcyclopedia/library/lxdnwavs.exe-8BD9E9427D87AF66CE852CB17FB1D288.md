@@ -1,10 +1,12 @@
 ﻿
 # lxdnwavs.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\common\finnish\lxdnwavs.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8BD9E9427D87AF66CE852CB17FB1D288`
@@ -15,6 +17,7 @@ SHA415 | `A341680E3EAD890F33145367F19ACA57A78316B023250B80951903ED40492638739004
 SSDEEP | `6144:+dxCmixBESFaANCfpYA6++d0yVqkfLZdyK08tk6sQ1Ds:+domibESkB6++hLZdyKVK6s84`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 PKSFX(R)  Version 2.50  FAST!  Self Extract Utility for Windows 95/NT 4-15-1998
@@ -76,5 +79,7 @@ conhost.exe
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

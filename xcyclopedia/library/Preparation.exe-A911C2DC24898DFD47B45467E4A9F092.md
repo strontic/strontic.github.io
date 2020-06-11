@@ -1,10 +1,12 @@
 ﻿
 # Preparation.exe 
+
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vsupdate_KB3022398\Preparation.exe`
 * Description: Microsoft Visual Studio 2015
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A911C2DC24898DFD47B45467E4A9F092`
@@ -15,6 +17,7 @@ SHA415 | `EB24C7280F56CE69A869F7103CF77A5CE6D9DD7294489E9F11C6E55AE755B82B734FFE
 SSDEEP | `3072:N3PpJOd0dAeJopCjW+C1dvI8YOOYI0UmpKpu0DaT5QtEfs:bdAeJQCg7AmjUadjs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:N3PpJOd0dAeJopCjW+C1dvI8YOOYI0UmpKpu0DaT5QtEfs:bdAeJQCg7AmjUadjs`
 * Product Version: 14.0.24720.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

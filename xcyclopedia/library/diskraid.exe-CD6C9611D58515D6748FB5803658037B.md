@@ -1,10 +1,12 @@
 ﻿
 # diskraid.exe 
+
 * File Path: `C:\Windows\SysWOW64\diskraid.exe`
 * Description: DiskRAID
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CD6C9611D58515D6748FB5803658037B`
@@ -15,6 +17,7 @@ SHA415 | `F80A7AB30B75A58977EF676CC9B55A3DB1DBF654981950AF6A4014BA62C6F2E39F44DB
 SSDEEP | `6144:3oNWCflwEYfMqCKJeeAiK+mHVGVTDDqQ8qipFSW2j:nbkqCKMf2mHV4DWjqk2j`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -67,5 +70,7 @@ Examples:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

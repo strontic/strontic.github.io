@@ -1,10 +1,12 @@
 ﻿
 # UserAccountBroker.exe 
+
 * File Path: `C:\Windows\system32\UserAccountBroker.exe`
 * Description: User Account Control Panel Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CBD61D61ADAF5FFF9FB6BDCF7622B640`
@@ -15,6 +17,7 @@ SHA415 | `F331FB566F4E036652D7B10BCA863A711E09BA7A908068CA94133C3A21BD15BBEC228C
 SSDEEP | `768:6P0FextngsrrPvPvHQQqQJfQGH+UkUKniBZ9GEhKP91P9oPx:9c9j/PvPUQDH+1Uz9GEQPrP9oJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:6P0FextngsrrPvPvHQQqQJfQGH+UkUKniBZ9GEhKP91P9oPx:9c9j/PvPUQDH+1Uz9
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

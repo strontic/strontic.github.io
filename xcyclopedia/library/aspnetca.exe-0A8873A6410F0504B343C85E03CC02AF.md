@@ -1,10 +1,12 @@
 ﻿
 # aspnetca.exe 
+
 * File Path: `C:\Windows\SysWOW64\inetsrv\aspnetca.exe`
 * Description: ASP.NET setup custom actions
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0A8873A6410F0504B343C85E03CC02AF`
@@ -15,6 +17,7 @@ SHA415 | `F13CC69494D76514818B567AB38E27BA1A107988162C0092C0E16832B12DCFDD36C2A7
 SSDEEP | `1536:WTZgdoCzeEX5vAwvZwt79Vj9MZo4XxRAUh/GWVgm8wnsDTxvu59:Kedo6Hpvj49Yhnh/ydDTxvG9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Description: aspnetca.exe is a helper utility that belongs to OS setup
@@ -47,5 +50,7 @@ and should never be called manually.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # InputSwitchToastHandler.exe 
+
 * File Path: `C:\WINDOWS\system32\InputSwitchToastHandler.exe`
 * Description: Input Switch Toast Handler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E2A533906CF884B55A1B45C3785E8FC6`
@@ -15,6 +17,7 @@ SHA415 | `39732F8FFBA262F56D0BB085E6BAD7CAFB35EBA75D209BDAF3DA199821A8A2CD34FD3C
 SSDEEP | `1536:a1bVoYmnvuTM9gChAFhYb3WD35+S/oMVoyRaLi:apVDgFeYbmD3hQqzR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

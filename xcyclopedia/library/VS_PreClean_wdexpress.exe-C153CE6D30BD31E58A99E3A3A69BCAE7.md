@@ -1,10 +1,12 @@
 ﻿
 # VS_PreClean_wdexpress.exe 
+
 * File Path: `C:\ProgramData\Package Cache\329727B8B863CDFD0E43686AB2D276075F5089EC\packages\VS_Clean\VS_PreClean_wdexpress.exe`
 * Description: Microsoft Visual Studio 2015 Pre-Clean Tool WDExpress
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C153CE6D30BD31E58A99E3A3A69BCAE7`
@@ -15,6 +17,7 @@ SHA415 | `F3E6134D2D0C39C1F6B5A0B5E250C569EE027053C1D5F2C929FBE19B75EE3CA87E0291
 SSDEEP | `3072:Or+rEKCcFhKsqv3+BWO1ieEjNj9WQYHfbuWmX+VSwQ6tO4DjeRu:OhsRoxISWsv+tOgSu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Or+rEKCcFhKsqv3+BWO1ieEjNj9WQYHfbuWmX+VSwQ6tO4DjeRu:OhsRoxISWsv+t
 * Product Version: 14.0.23107.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

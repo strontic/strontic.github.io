@@ -1,10 +1,12 @@
 ﻿
 # wkspbroker.exe 
+
 * File Path: `C:\Windows\system32\wkspbroker.exe`
 * Description: RemoteApp and Desktop Connection Runtime Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `47C63C223D25391A7EBF89A89227F0C7`
@@ -15,6 +17,7 @@ SHA415 | `FEC9A576884E876BE51D6A9EE24F46B83FFCEF9006391CEF10CF0053BF4D0C63F46A72
 SSDEEP | `3072:SVY6a+W49u3gHhdFiLKexNjrjPvDM77gdWU18XEYGTibKMuIko8IzPTI:SekPHhLiH7jPI7kWU1WmIs4bI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:SVY6a+W49u3gHhdFiLKexNjrjPvDM77gdWU18XEYGTibKMuIko8IzPTI:SekPHhLi
 * Product Version: 10.0.14393.2248
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

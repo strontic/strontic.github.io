@@ -1,10 +1,12 @@
 ﻿
 # LogiOverlay.exe 
+
 * File Path: `C:\ProgramData\Logishrd\LogiOptions\Software\Current\LogiOverlay.exe`
 * Description: Logi Overlay
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8966C8C9C879AA0DEE767DE848B87C68`
@@ -15,6 +17,7 @@ SHA415 | `B535BCD075FF45E8D8BDC48D839CFC4B0C80D07B2F8DFD98A6EE40F39223DC49D3FDD1
 SSDEEP | `6144:Wj2orPqa3zvYHv4Y6RyAZ3S2wUNIpLrAKncoGOhvKOJYDRyAZ3S2CaF:jorPqa3zvYP/6Vd6MIrmoGOhKDVdE6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 App.xaml.cs(45):OnStartup - App. Mutex 'LogiOverlay' created, launching UI
@@ -139,5 +142,7 @@ Unhandled Exception: System.IO.DirectoryNotFoundException: Could not find a part
 * Product Version: 8.20.329
 * Language: Language Neutral
 * Legal Copyright: (C)  1998-2019  Logitech. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # prevhost.exe 
+
 * File Path: `C:\Windows\system32\prevhost.exe`
 * Description: Preview Handler Surrogate Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D0E90BC2AEC6A5D8A6F27A1A354714FC`
@@ -15,6 +17,7 @@ SHA415 | `1F0A2F670021BCBA3CD77EDE74669B2252DACC9C1BF8D7BE03BDFEC94F4DBB0DB88D7F
 SSDEEP | `768:ruQ1KFbowNK6RsZqR1RT9g5vz0mJU++A5W45jF7GyMN:KffiUTu5L0D++A5W477GVN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:ruQ1KFbowNK6RsZqR1RT9g5vz0mJU++A5W45jF7GyMN:KffiUTu5L0D++A5W477GVN
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

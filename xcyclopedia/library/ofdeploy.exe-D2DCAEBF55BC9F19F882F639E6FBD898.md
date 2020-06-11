@@ -1,10 +1,12 @@
 ﻿
 # ofdeploy.exe 
+
 * File Path: `C:\WINDOWS\system32\ofdeploy.exe`
 * Description: Office Deployment
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D2DCAEBF55BC9F19F882F639E6FBD898`
@@ -15,6 +17,7 @@ SHA415 | `5E8FED64E64569606C82B3C10DEDB79845A3CA065BCB9D1FB9751B25E5960232C80C95
 SSDEEP | `1536:R9vlv2eyoYqU0oVsIziCcgy3+sFssssei25U9Wj90hK0VB+JeaWy:zlETVsIzlcdLxUuhKXJek`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:R9vlv2eyoYqU0oVsIziCcgy3+sFssssei25U9Wj90hK0VB+JeaWy:zlETVsIzlcdL
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

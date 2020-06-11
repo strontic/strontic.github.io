@@ -1,10 +1,12 @@
 ﻿
 # WWAHost.exe 
+
 * File Path: `C:\WINDOWS\system32\WWAHost.exe`
 * Description: Microsoft WWA Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `79477892E1864C675CC4134B5DE28A2D`
@@ -15,6 +17,7 @@ SHA415 | `D82ADE6D9EA2955DF05743133EECC9B1BFE0B1A4B1ED9A638507B007229845596DD9CD
 SSDEEP | `12288:OVVE07zkKNDPKm8RBMcSESrbxO0CstvanEqoUajtzkJUdpe5cgXEisqkULpL4Lak:OVqozkklYBUEog0CkvwaSCdpUQfHjb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ WWAHost.exe WerFault.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

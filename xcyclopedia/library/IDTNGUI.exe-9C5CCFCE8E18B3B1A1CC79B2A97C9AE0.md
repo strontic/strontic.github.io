@@ -1,10 +1,12 @@
 ﻿
 # IDTNGUI.exe 
+
 * File Path: `C:\WINDOWS\system32\IDTNGUI.exe`
 * Description: IDT PC Audio
 * Comments: All Rights Reserved 2004 - 2009 IDT, Inc.
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9C5CCFCE8E18B3B1A1CC79B2A97C9AE0`
@@ -15,6 +17,7 @@ SHA415 | `49D100E4AF2E82846FF3695E6D67BE3BC9C71ED56201FE3923E4A73598B2FABB07801D
 SSDEEP | `196608:8QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQQQQQQQQT:wQk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `196608:8QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQQQQQQQQ
 * Product Version: 1.0.6491.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2004 - 2009 IDT, Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

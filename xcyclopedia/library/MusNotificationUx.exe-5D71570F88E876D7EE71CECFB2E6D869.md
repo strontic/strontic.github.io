@@ -1,10 +1,12 @@
 ﻿
 # MusNotificationUx.exe 
+
 * File Path: `C:\Windows\system32\MusNotificationUx.exe`
 * Description: MusNotificationUx.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5D71570F88E876D7EE71CECFB2E6D869`
@@ -15,6 +17,7 @@ SHA415 | `61DA367E7421B7CEE613EE9FBF55ACE9A56451E6343167307AE27E3715D069DE241CE5
 SSDEEP | `3072:/SFjrQmWEbs2aN9lqz2dm8euvMdNb6c24EVv:/SFjRWEbs2aNe2dm8euvMdNbV24EV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:/SFjrQmWEbs2aN9lqz2dm8euvMdNb6c24EVv:/SFjRWEbs2aNe2dm8euvMdNbV24E
 * Product Version: 10.0.14393.3471
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # hdwwiz.exe 
+
 * File Path: `C:\WINDOWS\system32\hdwwiz.exe`
 * Description: Add Hardware Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B43E4960582BAAB50CC42141EA782F35`
@@ -15,6 +17,7 @@ SHA415 | `D939E0CCC5855E12D6DC3C0EDC553631635575EA02E63076A5B76E9A1C8E436C0BFE82
 SSDEEP | `768:oP+C9upFFdyb9A4G0In3BhzhWM1GOVz17:omC9upFFK9qZ3qOT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:oP+C9upFFdyb9A4G0In3BhzhWM1GOVz17:omC9upFFK9qZ3qOT`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

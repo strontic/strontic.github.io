@@ -1,10 +1,12 @@
 ﻿
 # nvspinfo.exe 
+
 * File Path: `C:\WINDOWS\system32\nvspinfo.exe`
 * Description: "nvspinfo.PROGRAM"
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `37A0B6BB41B2F8C10C8B601C1B919936`
@@ -15,6 +17,7 @@ SHA415 | `187F46CF7F9C3AE612E5B46F85F05F0A5F9D23A1211BE2AB09016B5082678B4F83B930
 SSDEEP | `3072:sRGqquvaEG8NdKcqsMW3Cj181i1SdryEFd7dTlwgn+1A1ZJ23dJ8emtIXPkfHfuO:sR3nvU8G0MWnemtIXPk/fGN1h78`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 could not open driver, error=5
@@ -164,5 +167,7 @@ cleaning up...finished
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

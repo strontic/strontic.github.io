@@ -1,10 +1,12 @@
 ﻿
 # deploymentcsphelper.exe 
+
 * File Path: `C:\WINDOWS\system32\deploymentcsphelper.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6C22EC440786D5E1EA69E0D53C4F3B4B`
@@ -15,6 +17,7 @@ SHA415 | `736E1517E3AB296C2155379BCE2A095273E956B00E53D947B51214985AADDA20D143E7
 SSDEEP | `768:gR1ewrDeT6bIDMVTnRXTOsl0BiCpuyk4FkzLHf:gGK/YI1x+BQ8U`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:gR1ewrDeT6bIDMVTnRXTOsl0BiCpuyk4FkzLHf:gGK/YI1x+BQ8U`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

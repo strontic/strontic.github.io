@@ -1,10 +1,12 @@
 ﻿
 # IntelWiDiUMS64.exe 
+
 * File Path: `C:\WINDOWS\system32\IntelWiDiUMS64.exe`
 * Description: Intel(R) User Mode Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `66F9365F028CA2FF6DDD55DA141894DF`
@@ -15,6 +17,7 @@ SHA415 | `5352E5021E620BE8EEF610FBBD6084478CD02FE84F179FF4C650C7C7628ED383BADA0B
 SSDEEP | `12288:europ/P7Qm5V0nnnBqf4pAmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi1:/ropXsm5+nnnB2cFMP3a6nAwTYkrhRqV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:europ/P7Qm5V0nnnBqf4pAmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi1:/rop
 * Product Version: 6.5.43.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

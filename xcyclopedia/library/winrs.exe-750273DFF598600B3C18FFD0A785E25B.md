@@ -1,10 +1,12 @@
 ﻿
 # winrs.exe 
+
 * File Path: `C:\Windows\SysWOW64\winrs.exe`
 * Description: winrs
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `750273DFF598600B3C18FFD0A785E25B`
@@ -15,6 +17,7 @@ SHA415 | `95D3264D7257E040A85BB2893179EF813AA3791E17D93B1E24CD68FE851F01822B0113
 SSDEEP | `768:aPYS96uoVdczsATsv2holTameJMjUOYX2/EDpKeDeixju:aA06uoVdMG2hoGyULXfpKeD7y`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 For more information on a specific command, type HELP command-name
@@ -144,5 +147,7 @@ Use "winrs -?" to obtain the usage information
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

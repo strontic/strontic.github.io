@@ -1,10 +1,12 @@
 ﻿
 # lpremove.exe 
+
 * File Path: `C:\WINDOWS\system32\lpremove.exe`
 * Description: MUI Language pack cleanup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AF035D5CE424EE392E8825E76F466D14`
@@ -15,6 +17,7 @@ SHA415 | `D802D71A5FCBBE651DB7631E3189175FB636376CD3DB0673A86BB3D4CF2ACD0E1CBD08
 SSDEEP | `1536:xu4NmePgdRxfZ1vvFhx73W/wmRq02aFo2Q7iU5wTaHBl4S:49xnvV73WYmc0LDQ7lqaHDn`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:xu4NmePgdRxfZ1vvFhx73W/wmRq02aFo2Q7iU5wTaHBl4S:49xnvV73WYmc0LDQ7l
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

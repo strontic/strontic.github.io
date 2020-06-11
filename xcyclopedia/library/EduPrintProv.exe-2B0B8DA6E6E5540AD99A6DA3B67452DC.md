@@ -1,10 +1,12 @@
 ﻿
 # EduPrintProv.exe 
+
 * File Path: `C:\WINDOWS\system32\EduPrintProv.exe`
 * Description: Printer Provision Utility for EDU
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2B0B8DA6E6E5540AD99A6DA3B67452DC`
@@ -15,6 +17,7 @@ SHA415 | `588FBAC8A6CFFEEEE600EDA61DF00D09F205671F5AF6953A27D9B06AF85C90B8A6B927
 SSDEEP | `1536:2t4MQXwhD5q4LfD3fpi1DXVOzfNDaeamV1xGXVvaER5g8+pLdl:ONlq4LLvpi1DlGD680AEbH+tz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:2t4MQXwhD5q4LfD3fpi1DXVOzfNDaeamV1xGXVvaER5g8+pLdl:ONlq4LLvpi1DlG
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

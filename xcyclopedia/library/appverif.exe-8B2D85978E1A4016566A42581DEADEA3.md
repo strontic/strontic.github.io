@@ -1,10 +1,12 @@
 ﻿
 # appverif.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\appverif.exe`
 * Description: Application Verifier User Interface Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8B2D85978E1A4016566A42581DEADEA3`
@@ -15,6 +17,7 @@ SHA415 | `4BB6B2C20B9CA676CD5860475CFFF45F665D665B59F27BD37C8CB28734FD1F4B96C657
 SSDEEP | `3072:qJHaxC4XrXb5QFYA4QMk1IYsSD8R+3X/n0E0rAwpmexlBRxct:qJ4bXb2em1/gu/n98X3a`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:qJHaxC4XrXb5QFYA4QMk1IYsSD8R+3X/n0E0rAwpmexlBRxct:qJ4bXb2em1/gu/n
 * Product Version: 10.0.10586.15
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

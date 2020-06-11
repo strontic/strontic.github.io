@@ -1,10 +1,12 @@
 ﻿
 # HP3DDGService.exe 
+
 * File Path: `C:\WINDOWS\system32\HP3DDGService.exe`
 * Description: HP3DDGService
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E5AEAB81548F0060001938831C6252B4`
@@ -15,6 +17,7 @@ SHA415 | `DDE284BCF9F7CEB4E1F6404177C7A3D07B6F4942261D1D8E6BDFF4B3ED68E24392F155
 SSDEEP | `3072:PX9cHZYrXCJCxmFmph289Sid6kiL66ySN:PX9f8CxomF6y4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:PX9cHZYrXCJCxmFmph289Sid6kiL66ySN:PX9f8CxomF6y4`
 * Product Version: 6.0.22.1
 * Language: English (United States)
 * Legal Copyright:  Copyright 2015 HP Development Company, L.P.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

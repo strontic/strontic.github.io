@@ -1,10 +1,12 @@
 ﻿
 # sc.exe 
+
 * File Path: `C:\WINDOWS\system32\sc.exe`
 * Description: Service Control Manager Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E46C638010C25479F66BACBE8596CA76`
@@ -15,6 +17,7 @@ SHA415 | `64555FB0471F1E3A6C8FAD22E105B5DE45B69A39876DA47CDD12E85CAAB0D882D12DF2
 SSDEEP | `1536:wW6BwD8hvD75p4B1cMy78dh9uo0yszmO9:wWQUovxPMg8dh9uxyUb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -138,5 +141,7 @@ sc query type= driver group= NDIS     - Enumerates all NDIS drivers
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

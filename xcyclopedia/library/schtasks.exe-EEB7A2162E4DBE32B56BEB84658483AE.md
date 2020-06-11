@@ -1,10 +1,12 @@
 ﻿
 # schtasks.exe 
+
 * File Path: `C:\Windows\system32\schtasks.exe`
 * Description: Task Scheduler Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EEB7A2162E4DBE32B56BEB84658483AE`
@@ -15,6 +17,7 @@ SHA415 | `2901FF71D1F027DF4150C81B93F48E2BD3FA1F33FBC24977826945FBF570C580B6F338
 SSDEEP | `3072:ZLEWdGDTw9q+nboxZiF9l2qeqg266jY1wPcspJNmtwHbVvUB9QMEZaS:lpUw91cZgf2VqgKPbpJNmtGUjQME`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -81,5 +84,7 @@ Type "SCHTASKS /QUERY /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

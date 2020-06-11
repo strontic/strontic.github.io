@@ -1,10 +1,12 @@
 ﻿
 # snmptrap.exe 
+
 * File Path: `C:\WINDOWS\system32\snmptrap.exe`
 * Description: SNMP Trap
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `78172782B1E1E26933D67A9DA912158C`
@@ -15,6 +17,7 @@ SHA415 | `CBFB4B5D15F088C58CCEDC9F9FD9B19740A44C9C9774338DFBAABC94AD787B6F42DE5E
 SSDEEP | `384:2M6mOTP15zN+lsamtjp9CCJ8gOHsgVQsizKWEyW:+Td5vp0K6zVfUI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:2M6mOTP15zN+lsamtjp9CCJ8gOHsgVQsizKWEyW:+Td5vp0K6zVfUI`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

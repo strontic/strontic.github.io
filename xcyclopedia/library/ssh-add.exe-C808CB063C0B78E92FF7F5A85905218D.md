@@ -1,10 +1,12 @@
 ﻿
 # ssh-add.exe 
+
 * File Path: `C:\WINDOWS\system32\OpenSSH\ssh-add.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C808CB063C0B78E92FF7F5A85905218D`
@@ -15,6 +17,7 @@ SHA415 | `3F7108CA89A7F57FE997F0440F885E5A88B33A2FC87919908E7977E34F179D1C82525E
 SSDEEP | `6144:4NWN/DJLikLPPD4mv/uws3RrDDdgi2yZ8jiRPgaDb2O7fcCnDtS9LU9qDCLlC4F:4NWNrJPLMQ/uwypei2alOU9uCLlCq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -46,5 +49,7 @@ Error connecting to agent: No such file or directory
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

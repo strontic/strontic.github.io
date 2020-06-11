@@ -1,10 +1,12 @@
 ﻿
 # bootsect.exe 
+
 * File Path: `C:\WINDOWS\system32\bootsect.exe`
 * Description: Boot Sector Manipulation Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `22A158A47C6082E68C058195023CA98A`
@@ -15,6 +17,7 @@ SHA415 | `F144B139036AD101E01AFA8CF586AB2166CEC2BAC0FA0C4153C756F19A3C7F134AE893
 SSDEEP | `1536:9qOIGiQ/GZpRNI1H/oHuYbwg0l53QiJP3JHpP9:9EZoGRN66/0T3QCv/1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -111,5 +114,7 @@ bootsect /nt52 E:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

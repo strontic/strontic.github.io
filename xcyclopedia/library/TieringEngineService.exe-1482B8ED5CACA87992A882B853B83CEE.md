@@ -1,10 +1,12 @@
 ﻿
 # TieringEngineService.exe 
+
 * File Path: `C:\Windows\system32\TieringEngineService.exe`
 * Description: Storage Tiers Management
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1482B8ED5CACA87992A882B853B83CEE`
@@ -15,6 +17,7 @@ SHA415 | `989DA7C97CE163A75A0816CD8797366A8BD4006CA6D799201FD81DFBAA3549ED16F628
 SSDEEP | `3072:rQ9u+XFWXk/JEP08LS/y+4WH5+BHHftVjQujLR7JJSm1U6Sqehk7K:rgu+Xf/JEc8LS14W8BfDLRVJpW9h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:rQ9u+XFWXk/JEP08LS/y+4WH5+BHHftVjQujLR7JJSm1U6Sqehk7K:rgu+Xf/JEc8
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

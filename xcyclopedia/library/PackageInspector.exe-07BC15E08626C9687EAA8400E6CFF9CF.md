@@ -1,10 +1,12 @@
 ﻿
 # PackageInspector.exe 
+
 * File Path: `C:\WINDOWS\system32\PackageInspector.exe`
 * Description: PackageInspector allows creation of a catalog containing all executable files laid down by an installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `07BC15E08626C9687EAA8400E6CFF9CF`
@@ -15,6 +17,7 @@ SHA415 | `489F8A9E9BB325F6E2E2AE774C370BBAF0929074A27350C7A45946528C02AD5EE2217D
 SSDEEP | `1536:M9/B9/ZMemxMQ432pWVjG+1hjM7er+KSCkWQC8UYlDU7+90n:E/BVZMFo3HQ+1hQC+KSlWDBYlDUR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Device Guard is not available in this edition of Windows.
@@ -46,5 +49,7 @@ Device Guard is not available in this edition of Windows.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

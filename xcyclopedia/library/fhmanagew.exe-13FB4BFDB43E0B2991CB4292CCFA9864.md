@@ -1,10 +1,12 @@
 ﻿
 # fhmanagew.exe 
+
 * File Path: `C:\WINDOWS\system32\fhmanagew.exe`
 * Description: File History Management Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `13FB4BFDB43E0B2991CB4292CCFA9864`
@@ -15,6 +17,7 @@ SHA415 | `A0587A8812B46773A09A85F526E0D691644E6457DC3169E583480D4FA9D5DD566197F8
 SSDEEP | `1536:DA+IkrFNWhvRZVyX9DMpBjNpXm+bzpUFweKSTQrY3rJntm1rliS4248uz08Q0MeC:DA+IkrFXXlMHjNRzpkVTFJcMuneHI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:DA+IkrFNWhvRZVyX9DMpBjNpXm+bzpUFweKSTQrY3rJntm1rliS4248uz08Q0MeC:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

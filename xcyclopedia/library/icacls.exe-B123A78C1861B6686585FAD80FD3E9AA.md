@@ -1,10 +1,12 @@
 ﻿
 # icacls.exe 
+
 * File Path: `C:\Windows\SysWOW64\icacls.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B123A78C1861B6686585FAD80FD3E9AA`
@@ -15,6 +17,7 @@ SHA415 | `38867CB3195D0D09E958AE9F96B88ABA0333473BF597CF0856B26E9E05E74C3944D1E0
 SSDEEP | `768:kv0pBuur32t8DPh+vT2CdCCGfEBLlYXD:kGBXmtyP6TSEBLlY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -181,5 +184,7 @@ First parameter must be a file name pattern or "/?"
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

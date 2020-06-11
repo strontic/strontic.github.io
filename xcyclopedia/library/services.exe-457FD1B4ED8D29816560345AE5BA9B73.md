@@ -1,10 +1,12 @@
 ﻿
 # services.exe 
+
 * File Path: `C:\Windows\system32\services.exe`
 * Description: Services and Controller app
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `457FD1B4ED8D29816560345AE5BA9B73`
@@ -15,6 +17,7 @@ SHA415 | `3D8DE64EF9E76C8D37B4CB1131A7DC20A4F209E048DA7EC0D5CB6A1805704B3266A41F
 SSDEEP | `12288:nDRc313431QELjTX7WjMKDFH2ZScqXaFmT:DRceCELjTX7MM+FH2ZScqX2q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:nDRc313431QELjTX7WjMKDFH2ZScqXaFmT:DRceCELjTX7MM+FH2ZScqX2q`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

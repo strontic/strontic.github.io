@@ -1,10 +1,12 @@
 ﻿
 # SecurityHealthService.exe 
+
 * File Path: `C:\WINDOWS\system32\SecurityHealthService.exe`
 * Description: Windows Security Health Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0D06BE475B3C82CEC609D9E9F0FBD502`
@@ -15,6 +17,7 @@ SHA415 | `C42E1E61C94A799438B2D54082C25FA863853A694CE1249C93194351ED52014DA3AD78
 SSDEEP | `12288:uxIhIgIXlvosIWDn6F3VDccW05fvVghEyhBKKrT1Na76JUT9iZ9v:uxUIgI1vosIzcU5fvVghEvKrEuUT9cF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Unknown switch.
@@ -46,5 +49,7 @@ Unknown switch.
 * Product Version: 4.18.1901.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

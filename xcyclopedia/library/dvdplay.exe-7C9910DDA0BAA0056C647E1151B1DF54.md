@@ -1,10 +1,12 @@
 ﻿
 # dvdplay.exe 
+
 * File Path: `C:\WINDOWS\system32\dvdplay.exe`
 * Description: dvdplay placeholder Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7C9910DDA0BAA0056C647E1151B1DF54`
@@ -15,6 +17,7 @@ SHA415 | `1704E57D6DFFB04A8230C66608CCA3938736D55C12F0C6B00A6A32B2504A6CC876D71C
 SSDEEP | `192:A3BgmrJ6JOdIXT6BkhGdP8T4W9A5q6vuU2yfumQPjhFigWXZW:+Bgu6JWEeCGdkE9q1mr8hWXZW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ wmplayer.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

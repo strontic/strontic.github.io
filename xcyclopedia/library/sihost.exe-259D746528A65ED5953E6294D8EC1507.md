@@ -1,10 +1,12 @@
 ﻿
 # sihost.exe 
+
 * File Path: `C:\WINDOWS\system32\sihost.exe`
 * Description: Shell Infrastructure Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `259D746528A65ED5953E6294D8EC1507`
@@ -15,6 +17,7 @@ SHA415 | `731F10B5D2576E172AAB421FDAA58B1B75D0A1E27662518C699FA0E1B11F396495A3BD
 SSDEEP | `3072:Qktg87fXG3zaSH3803Cw3i+HEopPHY5+aj3rcyfjVOTxc:zqyfXGDaSH380yw3i+kEY5n3cyfjVOTx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ explorer.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

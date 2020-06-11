@@ -1,10 +1,12 @@
 ﻿
 # AdobeARMHelper.exe 
+
 * File Path: `C:\ProgramData\Adobe\ARM\Acrobat_10.1.12\23913\AdobeARMHelper.exe`
 * Description: Adobe Reader and Acrobat Manager Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `516C021FEBEDE2962C9252DF85606C76`
@@ -15,6 +17,7 @@ SHA415 | `35CF7393EDDCD76B805B1511CB03AC3A5985813682C4760B04F55872EEC9645BF31D80
 SSDEEP | `6144:QsYQXsnUVx4ZXvQShdrXvbGLcqBG65tufv1Qp9At+a4juR1y9HkT:QjndvQSrrXvbGIqBGr1d+a9T`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:QsYQXsnUVx4ZXvQShdrXvbGLcqBG65tufv1Qp9At+a4juR1y9HkT:QjndvQSrrXvb
 * Product Version: 1.801.10.4720
 * Language: Language Neutral
 * Legal Copyright: Copyright 2013 Adobe Systems Incorporated
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

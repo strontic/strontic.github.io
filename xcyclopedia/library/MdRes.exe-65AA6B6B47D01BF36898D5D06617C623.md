@@ -1,10 +1,12 @@
 ﻿
 # MdRes.exe 
+
 * File Path: `C:\Windows\system32\MdRes.exe`
 * Description: Windows Memory Diagnostic
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `65AA6B6B47D01BF36898D5D06617C623`
@@ -15,6 +17,7 @@ SHA415 | `CEA0D2B7F4EE529994EB0CF955B4F969D22D5A5487B77DB50C043576AE6CF6500914D6
 SSDEEP | `1536:rZ9Hurm+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:rZ9Ore/FO+VQDUcUNWs+jm6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:rZ9Hurm+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:rZ9Ore/FO+VQDUcUNWs+jm6`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

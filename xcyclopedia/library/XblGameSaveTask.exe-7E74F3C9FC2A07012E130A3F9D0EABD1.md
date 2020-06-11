@@ -1,10 +1,12 @@
 ﻿
 # XblGameSaveTask.exe 
+
 * File Path: `C:\Windows\system32\XblGameSaveTask.exe`
 * Description: XblGameSave Standby Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7E74F3C9FC2A07012E130A3F9D0EABD1`
@@ -15,6 +17,7 @@ SHA415 | `901CCE2F1D86E3FC6DE0DCE5E3B18141AA12BECCCC429168AA26368A2B705DA990DF8F
 SSDEEP | `768:2DN1rr16rYzv5WmM6qbvn68ZYaDuF85nQT4mkw:MN6r8P0vJWaDuF8p64mkw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:2DN1rr16rYzv5WmM6qbvn68ZYaDuF85nQT4mkw:MN6r8P0vJWaDuF8p64mkw`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

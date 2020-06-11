@@ -1,10 +1,12 @@
 ﻿
 # winrshost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\winrshost.exe`
 * Description: Host Process for WinRM's Remote Shell plugin
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6052104B17F7344A9655A3EE30365D1A`
@@ -15,6 +17,7 @@ SHA415 | `A88B62881286D941459FA0DE6FBA362B635C5CEEA9AC0849DDB956104677DFB0CB7CF1
 SSDEEP | `384:qhPCqQ2beFNVFsTVXMg2KOUBECQTTW3ap/RXVWstEW:8qqzbCNVFsRMg2CSaKp/BF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

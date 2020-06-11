@@ -1,10 +1,12 @@
 ﻿
 # sxstrace.exe 
+
 * File Path: `C:\Windows\SysWOW64\sxstrace.exe`
 * Description: Sxs Tracing Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A204ED0CCEABC754FA7F7F5DFBB1F44D`
@@ -15,6 +17,7 @@ SHA415 | `A688B6B695A6B4397ECED343E1131655F00B51B0BD6FAF8906DB5436E7367ABC1D5D3A
 SSDEEP | `384:16d1wFtDt/BYismm3yMr7gqzYD10n/K5re0a5fG64kSXH4YXip7rDZVQhfN0W2MF:1ISd/BYis3CMfxcW0a5+uNwfNIVw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 WinSxs Tracing Utility.
@@ -59,5 +62,7 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

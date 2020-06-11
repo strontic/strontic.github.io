@@ -1,10 +1,12 @@
 ﻿
 # SensorDataService.exe 
+
 * File Path: `C:\WINDOWS\system32\SensorDataService.exe`
 * Description: Sensor Data Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EA7F202EE760B3F949191FDF86E553EA`
@@ -15,6 +17,7 @@ SHA415 | `9DD0554BF0DC733C029381F59CBB4F7D1734D56BF0015E5578AFBC23DC2A5C76F0DBC6
 SSDEEP | `12288:wPmjcHiBtUvDNCoc6OGzEHnixAB13bMPv7opKwJxc84ghf:1jcslMGn3B1Y75wx4g`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:wPmjcHiBtUvDNCoc6OGzEHnixAB13bMPv7opKwJxc84ghf:1jcslMGn3B1Y75wx4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # omadmclient.exe 
+
 * File Path: `C:\Windows\system32\omadmclient.exe`
 * Description: Host Process for OMA-DM Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B6906F0DE0E89290310CA5A6358E0E48`
@@ -15,6 +17,7 @@ SHA415 | `BCE96FC3BDB39FDD9BC93E8847EB1E00071FE64DAEE93C09DF22AD9AB5405D2EC3EB29
 SSDEEP | `6144:cA2SRAAZZ/YEdhqIecPAZf+skQOQ2MR/Vpz:cIqAZBrhqOED`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:cA2SRAAZZ/YEdhqIecPAZf+skQOQ2MR/Vpz:cIqAZBrhqOED`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

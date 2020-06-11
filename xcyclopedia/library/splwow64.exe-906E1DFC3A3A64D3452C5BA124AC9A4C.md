@@ -1,10 +1,12 @@
 ﻿
 # splwow64.exe 
+
 * File Path: `C:\WINDOWS\splwow64.exe`
 * Description: Print driver host for applications
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `906E1DFC3A3A64D3452C5BA124AC9A4C`
@@ -15,6 +17,7 @@ SHA415 | `5B7B7F4A681A9D1921FE7EF8537FBB9F4A03DF57DDC81715189C5D0C1C6F6211C87C13
 SSDEEP | `1536:ZCs6cgDB3XzsMVrqPfRrcE7m0pQ8LD7mNQeVt3A7HPd4n+lbeRZIbSQPT7R:ZkFgBrrdQ8LD78HQbPRyZ2pPT7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:ZCs6cgDB3XzsMVrqPfRrcE7m0pQ8LD7mNQeVt3A7HPd4n+lbeRZIbSQPT7R:ZkFgB
 * Product Version: 10.0.18362.476
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

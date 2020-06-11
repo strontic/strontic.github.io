@@ -1,10 +1,12 @@
 ﻿
 # SecondaryInstaller.exe 
+
 * File Path: `C:\ProgramData\Package Cache\5A1E141AE3EAC307C58E3662E9A2D5606121D7F3\packages\SecondaryInstaller\SecondaryInstaller.exe`
 * Description: Microsoft Visual Studio 2015 Secondary Installer Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DD53DCA17514DECD7A00D5BF381EB746`
@@ -15,6 +17,7 @@ SHA415 | `CD4B4922CB7A8514CA55AB7B5B9AC2E48C253004D20989125911898EE8B8B875112DBA
 SSDEEP | `24576:47uBlJ/j3xVspEn0rOJm9ElnKaFNKMGA0w9PJd5N:4alJ/j0pIAaahcfN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:47uBlJ/j3xVspEn0rOJm9ElnKaFNKMGA0w9PJd5N:4alJ/j0pIAaahcfN`
 * Product Version: 12.0.23107.156
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

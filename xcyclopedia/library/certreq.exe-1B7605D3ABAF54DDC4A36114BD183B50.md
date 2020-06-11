@@ -1,10 +1,12 @@
 ﻿
 # certreq.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\certreq.exe`
 * Description: CertReq.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1B7605D3ABAF54DDC4A36114BD183B50`
@@ -15,6 +17,7 @@ SHA415 | `25214FCAE7123445540601F9A6B2217123FA431490E4083FE971BDF107D20DD17DD142
 SSDEEP | `6144:ywwR7re3Aw043EWZg/DUK4imJCeBySNaz79qXquhWTeM6MoSXhzdHdfzV44h:TOgAZfUKDmJCeBJNav9qXquExdd7C4h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage:
@@ -185,5 +188,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

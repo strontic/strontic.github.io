@@ -1,10 +1,12 @@
 ﻿
 # wcsetupagent.exe 
+
 * File Path: `C:\WINDOWS\system32\wcsetupagent.exe`
 * Description: Utility VM Setup Agent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0B38C5E7171ACB373ADC19A2945D8A0C`
@@ -15,6 +17,7 @@ SHA415 | `6FC3A6778E66B4AF6F59F095F805BAC08C9E2CC8CFFFFC65BE5D8779B5C1FBD9969DB9
 SSDEEP | `1536:1/ob71HfaCfVVXd78VBBzQ4rryWV6JuIHt+Xec+6yPZ0:uxqPzQ8PVq8O8yO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:1/ob71HfaCfVVXd78VBBzQ4rryWV6JuIHt+Xec+6yPZ0:uxqPzQ8PVq8O8yO`
 * Product Version: 10.0.18362.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

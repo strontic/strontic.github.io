@@ -1,10 +1,12 @@
 ﻿
 # CNMVSB5.EXE 
+
 * File Path: `C:\WINDOWS\system32\spool\drivers\x64\3\CNMVSB5.EXE`
 * Description: Canon IJ Printer Driver
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `35AFA8AFF085348E4542FE01D61B947B`
@@ -15,6 +17,7 @@ SHA415 | `EF7A017F4049A71B4CFB900A8BCDD85DA7EAE630C328130CD1C7352209DFA0AAC233C7
 SSDEEP | `768:5nXHGQ9GT7X1Zhju7r8r+Rc9UQ5H9QwerF2BCMRAUHcZny8EjfvSSoGhdZ89V4LA:NT9cj7Zr+Rot224UAUHc5BE7vBdg4Lml`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:5nXHGQ9GT7X1Zhju7r8r+Rc9UQ5H9QwerF2BCMRAUHcZny8EjfvSSoGhdZ89V4LA:N
 * Product Version: 2.60.2.10
 * Language: English (United States)
 * Legal Copyright: Copyright CANON INC. 2000-2012 All Rights Reserved
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

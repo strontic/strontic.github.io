@@ -1,10 +1,12 @@
 ﻿
 # perfmon.exe 
+
 * File Path: `C:\Windows\SysWOW64\perfmon.exe`
 * Description: Resource and Performance Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `805F9B64745C730A6BD789083D0EF4E2`
@@ -15,6 +17,7 @@ SHA415 | `51C5A88956A17ED37A5D49445EC7E589E9A93B11A0198EBD847D40446D66B7DC7A891E
 SSDEEP | `3072:qWuWAqeMLVf7kaFGghtYIo9piswTogiqQKy349t:q8eCVTkaJhqIo9s37iTK24`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Argument 'help' is unknown.
@@ -46,5 +49,7 @@ Argument 'help' is unknown.
 * Product Version: 10.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

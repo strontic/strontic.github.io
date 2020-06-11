@@ -1,10 +1,12 @@
 ﻿
 # dtdump.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\dtdump.exe`
 * Description: DTDUMP.EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5420CD9E6E5D756C65A03C1F87F50819`
@@ -15,6 +17,7 @@ SHA415 | `D4D43290B6985482405F72F729F21362CA2730D2F567F6E88DBEABC5F9CB1509542B86
 SSDEEP | `1536:NukREoF+yDCzQIex/izDTjAew8FmHmaWtMWnlgSGNQMzvq4a65fuj2:NukfTezQTxqX0ew8FOmftMkghGEfG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:NukREoF+yDCzQIex/izDTjAew8FmHmaWtMWnlgSGNQMzvq4a65fuj2:NukfTezQTx
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

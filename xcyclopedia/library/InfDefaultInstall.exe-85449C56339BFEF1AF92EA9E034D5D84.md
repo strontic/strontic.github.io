@@ -1,10 +1,12 @@
 ﻿
 # InfDefaultInstall.exe 
+
 * File Path: `C:\Windows\SysWOW64\InfDefaultInstall.exe`
 * Description: INF Default Install
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `85449C56339BFEF1AF92EA9E034D5D84`
@@ -15,6 +17,7 @@ SHA415 | `588700E20E0723124CBDC051974240567E6B4FDBF08F963B69592502E525EFD69D77C0
 SSDEEP | `192:lAX7UYJHjXvWS72TYMDgABotwTOsZKW/GWL:4vXuS8YuqtJoKW/GWL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:lAX7UYJHjXvWS72TYMDgABotwTOsZKW/GWL:4vXuS8YuqtJoKW/GWL`
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

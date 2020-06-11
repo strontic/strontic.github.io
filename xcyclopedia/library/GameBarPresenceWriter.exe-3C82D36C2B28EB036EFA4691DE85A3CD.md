@@ -1,10 +1,12 @@
 ﻿
 # GameBarPresenceWriter.exe 
+
 * File Path: `C:\WINDOWS\system32\GameBarPresenceWriter.exe`
 * Description: Gamebar Presence Writer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3C82D36C2B28EB036EFA4691DE85A3CD`
@@ -15,6 +17,7 @@ SHA415 | `B615B8348CBE2B11822687DF8DF0EBB397B9E13CAF478528654FB38410BC83FD3F2B40
 SSDEEP | `6144:wBKtGtguuUps28JrBBjztkRUEQ9VVt6IJ7CwL/M1PJ+:CKtGKhXJr6vS1ZCwL/M1PM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:wBKtGtguuUps28JrBBjztkRUEQ9VVt6IJ7CwL/M1PJ+:CKtGKhXJr6vS1ZCwL/M1P
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

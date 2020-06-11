@@ -1,10 +1,12 @@
 ﻿
 # TpmInit.exe 
+
 * File Path: `C:\Windows\system32\TpmInit.exe`
 * Description: TPM Initialization Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8828BBB0A8A2EC40E4A976DCE47BD15F`
@@ -15,6 +17,7 @@ SHA415 | `15788516EC4FC3701F8DB054FD91EABAF5E15974C3CF5C0C8AC7B068A0AC03962F6B6E
 SSDEEP | `1536:T5Q0RzxjPGl4JLlficQ5myuxy+7BB8kOuGiceY0lA3CJHkxUM:NQIdPQ4H00g+7BB8ktPYfSFkx1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:T5Q0RzxjPGl4JLlficQ5myuxy+7BB8kOuGiceY0lA3CJHkxUM:NQIdPQ4H00g+7BB
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # sdksetup.exe 
+
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\sdksetup.exe`
 * Description: Windows Software Development Kit - Windows 10.0.10586.15
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `186953FB59928533D571CF9FAD3BA3C4`
@@ -15,6 +17,7 @@ SHA415 | `960412F7E7DBD7BAE9E7E6C635591875F41B5E6784CE444357C442D14DF10AF6EEE0D6
 SSDEEP | `24576:hiw+VVFoeh0/odHHpMHmLoMza655/xDnZpRC:qZVgYHHp4mtJDxDs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:hiw+VVFoeh0/odHHpMHmLoMza655/xDnZpRC:qZVgYHHp4mtJDxDs`
 * Product Version: 10.1.10586.15
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

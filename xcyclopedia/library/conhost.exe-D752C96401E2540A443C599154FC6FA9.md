@@ -1,10 +1,12 @@
 ﻿
 # conhost.exe 
+
 * File Path: `C:\Windows\system32\conhost.exe`
 * Description: Console Window Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D752C96401E2540A443C599154FC6FA9`
@@ -15,6 +17,7 @@ SHA415 | `DDEFBDD11FF0A4B3F47155331479E4D01852C1EA7670A7E449F3AD5F0AA0EAFED4146B
 SSDEEP | `384:MJrgzqNPdIb4NQUFiuBGPnUixUXeYKSWhnWUOufano5wACtQMyBs:MFVVdvQUnGPUixUOYK1SuYotCtGBs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:MJrgzqNPdIb4NQUFiuBGPnUixUXeYKSWhnWUOufano5wACtQMyBs:MFVVdvQUnGPUi
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

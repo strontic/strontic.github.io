@@ -1,10 +1,12 @@
 ﻿
 # SlideToShutDown.exe 
+
 * File Path: `C:\Windows\system32\SlideToShutDown.exe`
 * Description: SlideToShutDown
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D5358BFE01B96F561858FFE91B13A011`
@@ -15,6 +17,7 @@ SHA415 | `4D213AA14A3875DFA6C0782A3D4E8D2756FE570A457A1673A540D3F97B1940B0BA7ECE
 SSDEEP | `384:CqkHzUtCybmCW99GLjZGNDWW1RC6W08lRDBRJOklTIw31pgB67:rQwJSCW9aZGNF1RCwo1POy1M67`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:CqkHzUtCybmCW99GLjZGNDWW1RC6W08lRDBRJOklTIw31pgB67:rQwJSCW9aZGNF1R
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

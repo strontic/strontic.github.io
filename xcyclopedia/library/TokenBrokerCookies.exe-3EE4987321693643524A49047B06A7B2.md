@@ -1,10 +1,12 @@
 ﻿
 # TokenBrokerCookies.exe 
+
 * File Path: `C:\WINDOWS\system32\TokenBrokerCookies.exe`
 * Description: Token Broker Cookie Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3EE4987321693643524A49047B06A7B2`
@@ -15,6 +17,7 @@ SHA415 | `BA93C52D721061A94D2FF206473BA007A3FD4B2CB57C357827646C911BBA0DC2C3CAFC
 SSDEEP | `768:EJfW/9pKmdjCVfThu82O1dY6BVgTJIC1gYHCZCMA9L6:SfE9dEfThuidYaVgTJILYHCkMA9L6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:EJfW/9pKmdjCVfThu82O1dY6BVgTJIC1gYHCZCMA9L6:SfE9dEfThuidYaVgTJILYH
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

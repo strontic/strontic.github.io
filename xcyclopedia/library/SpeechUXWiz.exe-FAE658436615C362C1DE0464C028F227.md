@@ -1,10 +1,12 @@
 ﻿
 # SpeechUXWiz.exe 
+
 * File Path: `C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe`
 * Description: Speech UX Configuration
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FAE658436615C362C1DE0464C028F227`
@@ -15,6 +17,7 @@ SHA415 | `1155DECD84623841A3E523923E6226789DBB3C69A55460D83198B2E041AB5148C42BF9
 SSDEEP | `12288:VYh5lWZ9evDiCLtTR8YbVe0TIrf8NbywLkRLgLBAgV:etvOCL9R82VLTIrfMy8oLg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:VYh5lWZ9evDiCLtTR8YbVe0TIrf8NbywLkRLgLBAgV:etvOCL9R82VLTIrfMy8oL
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

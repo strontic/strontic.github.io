@@ -1,10 +1,12 @@
 ﻿
 # driverquery.exe 
+
 * File Path: `C:\Windows\SysWOW64\driverquery.exe`
 * Description: Queries the drivers on a system
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7067DC875FFC581C0FC3EF88489F2337`
@@ -15,6 +17,7 @@ SHA415 | `312DF64203757B5772F2AEE1E54C76E1A3A5EED446EE25BAD59EACCDEF90F4BB44863D
 SSDEEP | `1536:kSJkUmeeNcASrq4ccng6Bca+FyCbjf9EA1QnW8ubxE1J:AeeNdmcEYl/Fz5lbxk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -84,5 +87,7 @@ Type "DRIVERQUERY /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

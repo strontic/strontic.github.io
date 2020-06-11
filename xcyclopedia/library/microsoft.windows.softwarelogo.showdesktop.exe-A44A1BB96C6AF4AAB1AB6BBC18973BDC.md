@@ -1,10 +1,12 @@
 ﻿
 # microsoft.windows.softwarelogo.showdesktop.exe 
+
 * File Path: `C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe`
 * Description: Desktop Switch Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A44A1BB96C6AF4AAB1AB6BBC18973BDC`
@@ -15,6 +17,7 @@ SHA415 | `8FD15B995E5A8D1E555EFDB519B30527077C14555D5B1242CEB6B3DF5EC214E346E13F
 SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJiFgm1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJ
 * Product Version: 10.0.10586.15
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

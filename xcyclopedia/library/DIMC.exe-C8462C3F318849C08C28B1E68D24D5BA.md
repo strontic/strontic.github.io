@@ -1,10 +1,12 @@
 ﻿
 # DIMC.exe 
+
 * File Path: `C:\Windows\system32\DIMC.exe`
 * Description: Deployment Initial Machine Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C8462C3F318849C08C28B1E68D24D5BA`
@@ -15,6 +17,7 @@ SHA415 | `DB718BD1FAD1AC0E70F77A8CA73D693E15E5848AC901FF696CD25A3CDEA701AF4F7A0A
 SSDEEP | `384:gdYKO3GR/jE3y7gqn8udp+olZ0KQ+U46C7mYeeCFUO9/0Kh1l2HsedmAzYLMhG4G:gpWXq8u2YZVRz7S3CmkYLMhG40x`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -54,5 +57,7 @@ Usage: DIMC.exe -UnattendPath <Unattend_file> -HivePath <IMC_hive> [-SequenceNum
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # srdelayed.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\srdelayed.exe`
 * Description: Microsoft Windows System Restore Delayed File Renamer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `977A2FEB8C753F1A5BC0D5C19C9268A3`
@@ -15,6 +17,7 @@ SHA415 | `3FE50604F6992C9FD766BA169E1D6A488B421635BB4B3A92EBEC7347A62093B622BDED
 SSDEEP | `384:IAc7xSuNQSl2IubsCR0HEoN7QpVDzAW18oW:elNzl2IgfZIwFI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:IAc7xSuNQSl2IubsCR0HEoN7QpVDzAW18oW:elNzl2IgfZIwFI`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

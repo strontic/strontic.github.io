@@ -1,10 +1,12 @@
 ﻿
 # igfxCUIService.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxCUIService.exe`
 * Description: igfxCUIService Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E1C55B9A0BC573F95CBB0FE981C390D2`
@@ -15,6 +17,7 @@ SHA415 | `3D886DC308CB1FD84AE2DB480999F81335F35C750FAD1859A1640011EEC4F262D09273
 SSDEEP | `6144:/NQpiVHKxO4qWTi1SGC0LP8xTcjmBhiBI:/NQcovqQR6jgl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:/NQpiVHKxO4qWTi1SGC0LP8xTcjmBhiBI:/NQcovqQR6jgl`
 * Product Version: 6.15.10.3682
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

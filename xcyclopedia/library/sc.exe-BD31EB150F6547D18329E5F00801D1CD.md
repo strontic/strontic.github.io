@@ -1,10 +1,12 @@
 ﻿
 # sc.exe 
+
 * File Path: `C:\Windows\system32\sc.exe`
 * Description: Service Control Manager Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BD31EB150F6547D18329E5F00801D1CD`
@@ -15,6 +17,7 @@ SHA415 | `21135140B47BE37891B483ADCD631AC3B8E49F644579EA490C28A6A6AFD21BE4A9B3BC
 SSDEEP | `1536:FE12QL2b3tqEjs4bRYw6eVEPXPb5W9JaAq9dgy7:FlQaC+VEfPb5W9JPq/gk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -138,5 +141,7 @@ RdpSa.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

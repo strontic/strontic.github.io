@@ -1,10 +1,12 @@
 ﻿
 # NgcIso.exe 
+
 * File Path: `C:\WINDOWS\system32\NgcIso.exe`
 * Description: Windows Hello Security Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D1B8D623BE0EF7CFC76253F1A3877A18`
@@ -15,6 +17,7 @@ SHA415 | `58D2EE65D4D5B8ED01F91DA4141C5A7A3D00182D8ED8E9CEA37790C8DBDA5B33D96038
 SSDEEP | `6144:YmBnPUUeGP5yt2hNuOjoN5OyXHtnddAXlByQEM+Y4bqZIxEuFg:bBPdFOOsNjHWfv+YXZIl+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:YmBnPUUeGP5yt2hNuOjoN5OyXHtnddAXlByQEM+Y4bqZIxEuFg:bBPdFOOsNjHWfv
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

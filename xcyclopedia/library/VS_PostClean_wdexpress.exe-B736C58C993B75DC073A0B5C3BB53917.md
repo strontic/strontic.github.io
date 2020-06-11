@@ -1,10 +1,12 @@
 ﻿
 # VS_PostClean_wdexpress.exe 
+
 * File Path: `C:\ProgramData\Package Cache\98AD44F9BA70266A0668781FA842DB14512F984D\packages\VS_Clean\VS_PostClean_wdexpress.exe`
 * Description: Microsoft Visual Studio 2015 Post-Clean Tool WDExpress
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B736C58C993B75DC073A0B5C3BB53917`
@@ -15,6 +17,7 @@ SHA415 | `EF136625674657891B9B871D70541BEAF90EA59FDCF66E4AB8AF86292A2426230E516E
 SSDEEP | `3072:AA+rExvc1pqD6fg+BrO1i10jNTsWQIafblWWk+V0pp6MNDB:AQDQ4AYCWntm0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:AA+rExvc1pqD6fg+BrO1i10jNTsWQIafblWWk+V0pp6MNDB:AQDQ4AYCWntm0`
 * Product Version: 14.0.23107.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # msdt.exe 
+
 * File Path: `C:\Windows\system32\msdt.exe`
 * Description: Diagnostics Troubleshooting Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BB98CE2BD520AC69CB3D2F830974CABE`
@@ -15,6 +17,7 @@ SHA415 | `2072AE28855D1211010E926859076B52BEFFFE46B00792A58CF41866BF8A6AC75E7CF0
 SSDEEP | `24576:PsEhiqCDdRNfY6XH4qvIReK1odddGdBnyE0k26kVZnBm:iD4qNK7utRB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:PsEhiqCDdRNfY6XH4qvIReK1odddGdBnyE0k26kVZnBm:iD4qNK7utRB`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

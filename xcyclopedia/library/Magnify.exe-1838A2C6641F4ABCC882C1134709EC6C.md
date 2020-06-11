@@ -1,10 +1,12 @@
 ﻿
 # Magnify.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\Magnify.exe`
 * Description: Microsoft Screen Magnifier
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1838A2C6641F4ABCC882C1134709EC6C`
@@ -15,6 +17,7 @@ SHA415 | `E78BBF4051F6F5E298E8B4A3AEFCBA6A6AE8DC49F6F8791119051DE211E9B0BDE6EDA1
 SSDEEP | `6144:ImTH2CRKPyHXE8Bm2/zGxRDmyLHXIUypcC8l983bTPgCNi/2pcgLDrNQNG:ImTH2VPyZyHXiN8l98PPgD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:ImTH2CRKPyHXE8Bm2/zGxRDmyLHXIUypcC8l983bTPgCNi/2pcgLDrNQNG:ImTH2V
 * Product Version: 10.0.18362.449
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

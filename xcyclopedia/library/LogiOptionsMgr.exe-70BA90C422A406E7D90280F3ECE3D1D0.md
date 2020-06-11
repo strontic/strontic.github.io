@@ -1,10 +1,12 @@
 ﻿
 # LogiOptionsMgr.exe 
+
 * File Path: `C:\ProgramData\Logishrd\LogiOptions\Software\Current\LogiOptionsMgr.exe`
 * Description: LogiOptionsMgr.exe (UNICODE)
 * Comments: Created by the Productivity Software team
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `70BA90C422A406E7D90280F3ECE3D1D0`
@@ -15,6 +17,7 @@ SHA415 | `E3C4E5D58CFD14F3B5974B8752F375A03A652E47B1F8D6D9B838DD7182ECDE1D75AB2F
 SSDEEP | `98304:PWtE621boSnlAiG2GurdaaDtS0EhSMq+tee/Fha/AV+J2j0wzU7i:OtE62lAiGFmaaJmU+ee/fkKMwzoi`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `98304:PWtE621boSnlAiG2GurdaaDtS0EhSMq+tee/Fha/AV+J2j0wzU7i:OtE62lAiGFm
 * Product Version: 8.20.329
 * Language: English (United States)
 * Legal Copyright: (C) 1998-2019 Logitech. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

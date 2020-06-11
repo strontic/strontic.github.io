@@ -1,10 +1,12 @@
 ﻿
 # rdpinit.exe 
+
 * File Path: `C:\Windows\SysWOW64\rdpinit.exe`
 * Description: RemoteApp Logon Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D3385F970801B0DADE63D32429253B99`
@@ -15,6 +17,7 @@ SHA415 | `80DD35E44DE1467AB0B6B9EA6B87D131DB7EAA5AC4EB26BE2D98DC7D0498995EB5C275
 SSDEEP | `6144:ZFrFmlAyl+DiAyKJfOMAjnAGkaCLdU44PoiDZO8I/:Z1+l+byGOyi4Aoil`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:ZFrFmlAyl+DiAyKJfOMAjnAGkaCLdU44PoiDZO8I/:Z1+l+byGOyi4Aoil`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # dfp.exe 
+
 * File Path: `C:\WINDOWS\system32\dfp.exe`
 * Description: Disk Footprint Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A329A8498AD1138D93FC35EECF1933F7`
@@ -15,6 +17,7 @@ SHA415 | `5B4B72FE04E68392F44145E0C8353FFA3266A137E92B58E6C8DD9495C3E9FD6718680B
 SSDEEP | `768:bknZVecIF+2tSF0Klx/0aBSJLdosFAd+mZWj:QnKcIyz10JLPqUyW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Disk Footprint Tool
@@ -93,5 +96,7 @@ Run a pre-defined study
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

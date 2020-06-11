@@ -1,10 +1,12 @@
 ﻿
 # AtBroker.exe 
+
 * File Path: `C:\Windows\SysWOW64\AtBroker.exe`
 * Description: Windows Assistive Technology Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FAE22E6898713B4B42BA2716EF98F96F`
@@ -15,6 +17,7 @@ SHA415 | `0734E05288313FF9178E986F5FF0EE847E271FE719ECB6D510D8DAFD8C91DA0CFEE7B3
 SSDEEP | `768:LSZynr22lTSUTZ5KGrBB2waawoMOzAynI3MrbyAnnJ5NaLDc9:R5131B2owWzznI3M3JvaLDc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:LSZynr22lTSUTZ5KGrBB2waawoMOzAynI3MrbyAnnJ5NaLDc9:R5131B2owWzznI3M
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

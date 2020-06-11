@@ -1,10 +1,12 @@
 ﻿
 # audiodg.exe 
+
 * File Path: `C:\WINDOWS\system32\audiodg.exe`
 * Description: Windows Audio Device Graph Isolation 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `20613CCB91E7CF480C988A6905B06FFF`
@@ -15,6 +17,7 @@ SHA415 | `54F96A0EBCE805F51860835391570EB0D06FC0B52D5F17BF4988903633D98FE0FF0DEE
 SSDEEP | `6144:hn2s/UTgYurF8m7zdV970FtZUQd7fnPNkyq2zJllTdnr1IcbenL0c/PzkEr:LIVUF8ils7UQNnPlq2z1pJpbsfP4Er`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:hn2s/UTgYurF8m7zdV970FtZUQd7fnPNkyq2zJllTdnr1IcbenL0c/PzkEr:LIVUF
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

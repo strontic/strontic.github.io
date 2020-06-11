@@ -1,10 +1,12 @@
 ﻿
 # lpksetup.exe 
+
 * File Path: `C:\Windows\system32\lpksetup.exe`
 * Description: Language Pack Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `170343B59D2A8607C7106ED63E524AE3`
@@ -15,6 +17,7 @@ SHA415 | `12A0D2032FB87EFCE81AF03DBD47A3C3555FBE177EE547D77525419BB9DF334E529CE2
 SSDEEP | `12288:PQGXMy8IkciS00hDrydajNts6T8doqyKJjmReMNOtNQWggQVqtDx2/D6yfndmLh:PlX8IkciLEZnrT8OsmIWOtNQkQVIDw/a`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:PQGXMy8IkciS00hDrydajNts6T8doqyKJjmReMNOtNQWggQVqtDx2/D6yfndmLh:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

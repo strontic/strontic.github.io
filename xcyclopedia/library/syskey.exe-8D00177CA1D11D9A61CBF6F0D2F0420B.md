@@ -1,10 +1,12 @@
 ﻿
 # syskey.exe 
+
 * File Path: `C:\Windows\system32\syskey.exe`
 * Description: SAM Lock Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8D00177CA1D11D9A61CBF6F0D2F0420B`
@@ -15,6 +17,7 @@ SHA415 | `BD5F26E0BD7FBACB0E17DC7398BA170B9820CF6681C8EE20E3ADB857DEE08AC0120E27
 SSDEEP | `384:D898VYh93aAjZSD59AD3Vr2+alwOUQCigL/tPGwdAvkyUrlv6mkc1KC1Q1fWaxW:D898UKA1WS12+alNCxtPbgkyUrlAl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:D898VYh93aAjZSD59AD3Vr2+alwOUQCigL/tPGwdAvkyUrlv6mkc1KC1Q1fWaxW:D8
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

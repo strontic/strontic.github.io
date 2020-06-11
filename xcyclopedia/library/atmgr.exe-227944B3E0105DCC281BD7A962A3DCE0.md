@@ -1,10 +1,12 @@
 ﻿
 # atmgr.exe 
+
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_UMC\atmgr.exe`
 * Description: Cisco Webex Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `227944B3E0105DCC281BD7A962A3DCE0`
@@ -15,6 +17,7 @@ SHA415 | `2C8C6F1F2D06D560DCBBBEEBFCE1CF4C881BE01806FFCD6FA1295AB8C43B3DE70647EA
 SSDEEP | `12288:PqtaSHvWb65tFF4ytRFh1r1q/O4Qb3mu5g1NTdxtme/EvnYOh:PSHvG6n/4iRFh1r1q/gb3bsTfoeEj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:PqtaSHvWb65tFF4ytRFh1r1q/O4Qb3mu5g1NTdxtme/EvnYOh:PSHvG6n/4iRFh1
 * Product Version: 3303.0000.1807.1900
 * Language: English (United States)
 * Legal Copyright:  1997-2018 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

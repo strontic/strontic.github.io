@@ -1,10 +1,12 @@
 ﻿
 # VSSetupUtility.exe 
+
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\wdexpress_full\VSSetupUtility.exe`
 * Description: Microsoft Visual Studio Enterprise 2015 Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DC64DE03B37D8FBA375BDF870226A15E`
@@ -15,6 +17,7 @@ SHA415 | `4A02028881A108824DDC2ECD0F545098D5A155B4D30E14580360C402DFEBD9FE81A5A2
 SSDEEP | `3072:OjzkrbuhO99o47Q6cbJp3TIkUzUslp6fKl/Oj9ijUyry+zturqX26kl7FmU4x9h0:UzkHuhO994TJMBlofu/jZ9zG79ITOF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:OjzkrbuhO99o47Q6cbJp3TIkUzUslp6fKl/Oj9ijUyry+zturqX26kl7FmU4x9h0:
 * Product Version: 12.0.23107.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

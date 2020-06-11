@@ -1,10 +1,12 @@
 ﻿
 # UevTemplateBaselineGenerator.exe 
+
 * File Path: `C:\Windows\system32\UevTemplateBaselineGenerator.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CB80D6493F9D8BD662CE6A9C4A76001E`
@@ -15,6 +17,7 @@ SHA415 | `90D084135DB67920D6019B212CC84FDF6F6D78D6967FA249992FE1FCAC2DD3E4C769C4
 SSDEEP | `384:RL8CucwNKBcYKPdIQX6GIp0OIMSK+GWzJWdZ:R4CFwNKiBq5qe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

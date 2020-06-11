@@ -1,10 +1,12 @@
 ﻿
 # RemoteAppLifetimeManager.exe 
+
 * File Path: `C:\WINDOWS\system32\RemoteAppLifetimeManager.exe`
 * Description: RemoteAppLifetimeManager_ServerExe.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EA8D02C8E3413E25A750FFA602643C06`
@@ -15,6 +17,7 @@ SHA415 | `708B0CFA63F04207A41E9CC5AA667D9A51C66FFFA31D98997A465044A6E09DC4028C9B
 SSDEEP | `1536:7XorfHwGdYSUAwWOoMo0sAVA8vf4RD2Ab0wIphJYSe0eC9f9NZ:kQM335+m8vf45taphK0eC9VNZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:7XorfHwGdYSUAwWOoMo0sAVA8vf4RD2Ab0wIphJYSe0eC9f9NZ:kQM335+m8vf45t
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

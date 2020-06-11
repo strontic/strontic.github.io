@@ -1,10 +1,12 @@
 ﻿
 # nmscrub.exe 
+
 * File Path: `C:\WINDOWS\system32\nmscrub.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C03B59334DAC244B60282E221B4DA5EF`
@@ -15,6 +17,7 @@ SHA415 | `CAD19ACBF3EE3A1E90BD245F1BE08EE65073EE1905CF977E02F397D5B78EE26BE21284
 SSDEEP | `3072:2D4QAn2EgZZSK/UKLrVT69LGsCofBYlolBcmaYoldhT9yfPGk1roEfrTup:w4QlEgvFcK1BilEEiEfrTU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -57,5 +60,7 @@ conhost.exe
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

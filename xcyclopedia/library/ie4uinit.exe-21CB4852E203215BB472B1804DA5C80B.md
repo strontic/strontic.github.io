@@ -1,10 +1,12 @@
 ﻿
 # ie4uinit.exe 
+
 * File Path: `C:\WINDOWS\system32\ie4uinit.exe`
 * Description: IE Per-User Initialization Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `21CB4852E203215BB472B1804DA5C80B`
@@ -15,6 +17,7 @@ SHA415 | `A88FA5508AD574D73F08828EEC29426E1C5D2CA0DBE28115CB1D72EEA272A80FD78E24
 SSDEEP | `6144:MPyvRc+5+bRhN1Wjl4K/eZb8vm1YWAIu350PK:cypFqRhPK4KW8vm1YCuwK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:MPyvRc+5+bRhN1Wjl4K/eZb8vm1YWAIu350PK:cypFqRhPK4KW8vm1YCuwK`
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

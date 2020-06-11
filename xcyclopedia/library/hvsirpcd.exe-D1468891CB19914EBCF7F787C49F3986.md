@@ -1,10 +1,12 @@
 ﻿
 # hvsirpcd.exe 
+
 * File Path: `C:\WINDOWS\system32\hvsirpcd.exe`
 * Description: Windows Defender Application Guard Proxy services
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D1468891CB19914EBCF7F787C49F3986`
@@ -15,6 +17,7 @@ SHA415 | `C9B29423017911C3ABFA8A659AEEBE4DFE767E2515544D18CA5CBE7B8F01B2F8578906
 SSDEEP | `1536:tV6DeMNBiImM4s4/+5FtCYJh5uBx897zG9ujMb5++BPs:tVgmM4X/0J2Bxs7C3b5++BU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:tV6DeMNBiImM4s4/+5FtCYJh5uBx897zG9ujMb5++BPs:tVgmM4X/0J2Bxs7C3b5+
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

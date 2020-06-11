@@ -1,10 +1,12 @@
 ﻿
 # ApplyTrustOffline.exe 
+
 * File Path: `C:\WINDOWS\system32\ApplyTrustOffline.exe`
 * Description: "ApplyTrustOffline.PROGRAM"
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C7FAD0C018C29431ED2BD697E53F5AE8`
@@ -15,6 +17,7 @@ SHA415 | `2A6625B588260C426CDB98CF9596F7C734AAAC29947AD429BA67DA489FBEE9B74EDA84
 SSDEEP | `12288:0pg5U1ESg1DWBQT7xSpzoiE4/VVWQrs7zqIn1Tz9jfLf5HSW18VI0a6v0cCe9B:ogDtDWq2oVyVe7zqInNJ7LAWK/a6BCWB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:0pg5U1ESg1DWBQT7xSpzoiE4/VVWQrs7zqIn1Tz9jfLf5HSW18VI0a6v0cCe9B:o
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

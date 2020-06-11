@@ -1,10 +1,12 @@
 ﻿
 # printfilterpipelinesvc.exe 
+
 * File Path: `C:\Windows\system32\printfilterpipelinesvc.exe`
 * Description: Print Filter Pipeline Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A7BEA3B6B3F2889411D4BB4EC98AAB84`
@@ -15,6 +17,7 @@ SHA415 | `9058EDD7A6FE8E0507588B4F4A8EC226FE3755724E700201EBCEC9D5D156FE8AD6EAF1
 SSDEEP | `12288:7bWtmnZ9P+7J8DZyv/wmxP4NlHhCl2WuDXNbjz3Yc0ur:HwmZBQJ8DZkLwfhCl2fDXNcRu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:7bWtmnZ9P+7J8DZyv/wmxP4NlHhCl2WuDXNbjz3Yc0ur:HwmZBQJ8DZkLwfhCl2f
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

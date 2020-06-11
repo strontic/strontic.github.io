@@ -1,10 +1,12 @@
 ﻿
 # DeviceCredentialDeployment.exe 
+
 * File Path: `C:\WINDOWS\system32\DeviceCredentialDeployment.exe`
 * Description: "DeviceCredentialDeployment.exe"
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `25B0605A89AB8EE5E0A0D2D7E1D7294A`
@@ -15,6 +17,7 @@ SHA415 | `317DE88F4A443720EF699D7B0EC323FB95E2BBE8313CF96C110A8A08EB38CBA852F06C
 SSDEEP | `1536:pmJP2Yzg391V8YgSjvSBXa9foiB2MfiVEsRbudtseha1vSIAvvMHN:6eV8FSjvkq9f52MfiVEsRbXe3jvu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:pmJP2Yzg391V8YgSjvSBXa9foiB2MfiVEsRbudtseha1vSIAvvMHN:6eV8FSjvkq9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

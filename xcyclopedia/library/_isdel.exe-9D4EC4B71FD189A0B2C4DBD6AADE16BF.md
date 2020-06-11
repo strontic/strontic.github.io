@@ -1,10 +1,12 @@
 ﻿
 # _isdel.exe 
+
 * File Path: `C:\Windows\SysWOW64\InstallShield\_isdel.exe`
 * Description: 32-bit InstallShield Deleter.
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9D4EC4B71FD189A0B2C4DBD6AADE16BF`
@@ -15,6 +17,7 @@ SHA415 | `765F8A531CC44FB241C577938C936506450D579F2005E32092B443423749F25F09C498
 SSDEEP | `384:m3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:QwIA7Q7tDUAdnemQVSfg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:m3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:QwIA7Q7tDUAdnemQVSfg`
 * Product Version: 5, 51
 * Language: English (United States)
 * Legal Copyright: Copyright 1990-1998 InstallShield Software Corporation, Phone: (847) 240-9111
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

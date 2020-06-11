@@ -1,10 +1,12 @@
 ﻿
 # diskshadow.exe 
+
 * File Path: `C:\Windows\SysWOW64\diskshadow.exe`
 * Description: DiskShadow
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0BBDF97FE2D460CA266C4CEFDCEFD1F5`
@@ -15,6 +17,7 @@ SHA415 | `0C6779B520004F160FD2E2DF342FD94E30BE5B6F5795BA5044DFE29E263CE8A4F99CC8
 SSDEEP | `6144:KZnKEomdxniCQboHYcH8gdmkxLV/9jbIcfotva78wtNsYs:KZKE1dxnlV8qhX9jbC148+2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft DiskShadow version 1.0
@@ -60,5 +63,7 @@ DISKSHADOW.EXE  [/l <logfile>]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

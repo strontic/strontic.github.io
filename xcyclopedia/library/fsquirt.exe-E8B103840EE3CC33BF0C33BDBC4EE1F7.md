@@ -1,10 +1,12 @@
 ﻿
 # fsquirt.exe 
+
 * File Path: `C:\WINDOWS\system32\fsquirt.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E8B103840EE3CC33BF0C33BDBC4EE1F7`
@@ -15,6 +17,7 @@ SHA415 | `213097B9A28A92C425D78BC5D1A59C859D36E62FD752224C06430235FFC6B9440DD2F7
 SSDEEP | `1536:HmX3nBVtHbo2IIi6+xlpkPyzbcarFJQLg4KjYXo/Ww1EIngv7HDUNMQI8x5UaJnO:Mi2KbcarFAghjHWw1qjD8MQI+2mh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:HmX3nBVtHbo2IIi6+xlpkPyzbcarFJQLg4KjYXo/Ww1EIngv7HDUNMQI8x5UaJnO:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # netbtugc.exe 
+
 * File Path: `C:\Windows\system32\netbtugc.exe`
 * Description: NetBT Unattend Generic Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8D76289CF11C35ADE52A4245260EF13C`
@@ -15,6 +17,7 @@ SHA415 | `1C2EE539401C1347E4D82F55D699545E13EF281A6340F3F18F28ABAE01B96145F5F90D
 SSDEEP | `384:mNSykaXoNtawMHfs+vwguCJCcH2rVjWosk7DZjLaX+mV1jz3HW/tFW:mTkPwwcfz0CF6LDZHDmVNy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:mNSykaXoNtawMHfs+vwguCJCcH2rVjWosk7DZjLaX+mV1jz3HW/tFW:mTkPwwcfz0C
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

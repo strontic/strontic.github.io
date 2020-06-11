@@ -1,10 +1,12 @@
 ﻿
 # dsregcmd.exe 
+
 * File Path: `C:\WINDOWS\system32\dsregcmd.exe`
 * Description: DSREG commandline tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D92CE4EF92E2A72C5A151F3A6AC008C8`
@@ -15,6 +17,7 @@ SHA415 | `F6B90B8FD2112ADB6DD4699E41A00265381B6A0300F6AE91D10062D7D5C7860ECE9796
 SSDEEP | `24576:6IENi/Knq5kyc4g/cdsgRJQPnRsvjyx4LvJd:6M/9Rg/cdsFPnRsv+x4dd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 DSREGCMD switches
@@ -52,5 +55,7 @@ DSREGCMD switches
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

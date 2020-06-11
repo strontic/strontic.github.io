@@ -1,10 +1,12 @@
 ﻿
 # IntelWiDiVAD64.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\IntelWiDiVAD64.exe`
 * Description: Intel WiDi
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CB8F6222ADC1467369CC473F114D16C4`
@@ -15,6 +17,7 @@ SHA415 | `0C22567188CC38E390D9A4ED0FAA171B5EF2B2FF78CA0486828C7CE2E1AA7E420FB727
 SSDEEP | `98304:htQzK6nAwTYkrhRqlNvREqE6rn03dl2AqMZ6JiHohf9H6My9aQnPNVb5Z:TQzDZoEolTysQPTb5Z`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `98304:htQzK6nAwTYkrhRqlNvREqE6rn03dl2AqMZ6JiHohf9H6My9aQnPNVb5Z:TQzDZo
 * Product Version: 6.5.56.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

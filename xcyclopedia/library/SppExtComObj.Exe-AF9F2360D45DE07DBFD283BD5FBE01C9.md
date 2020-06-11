@@ -1,10 +1,12 @@
 ﻿
 # SppExtComObj.Exe 
+
 * File Path: `C:\WINDOWS\system32\SppExtComObj.Exe`
 * Description: KMS Connection Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AF9F2360D45DE07DBFD283BD5FBE01C9`
@@ -15,6 +17,7 @@ SHA415 | `561FE1384D3EC6625FAC813E674A451C31E76320A991CEBF84658CE0C810D643D5EA37
 SSDEEP | `12288:0uLVERs6Z5fwVfp08jJAIh1UEpID1gfd6nWYZfiIQbwW4pq:0uLoPwADKCKgWY24p`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:0uLVERs6Z5fwVfp08jJAIh1UEpID1gfd6nWYZfiIQbwW4pq:0uLoPwADKCKgWY24
 * Product Version: 10.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # msiexec.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\msiexec.exe`
 * Description: Windows installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F9A3EEE1C3A4067702BC9A59BC894285`
@@ -15,6 +17,7 @@ SHA415 | `8EF6C31C23811AD258FB74684747DD86AFFB212D3EEAAD4D46803E03254F49EC68D72C
 SSDEEP | `768:/o8HL2TB4LH87fQmL0SjBYjJd74Ou8FqO3znHSXq6CAGSDyP:KTB4L6fR3FYjnSujH76Vy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:/o8HL2TB4LH87fQmL0SjBYjJd74Ou8FqO3znHSXq6CAGSDyP:KTB4L6fR3FYjnSujH
 * Product Version: 5.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

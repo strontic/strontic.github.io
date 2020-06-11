@@ -1,10 +1,12 @@
 ﻿
 # dfrgui.exe 
+
 * File Path: `C:\WINDOWS\system32\dfrgui.exe`
 * Description: Microsoft Drive Optimizer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `570B9DB5B073A058735AA6C3AC6C80FF`
@@ -15,6 +17,7 @@ SHA415 | `370536A555A27EC951CA836B7BCB59CDF17C17365D37F7E2580B1D249856E36A2923EC
 SSDEEP | `3072:wI1w5sOZqEFKa+6EC3NeK15FbPkJKk/2lS:j1w5sVEQa+6d5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:wI1w5sOZqEFKa+6EC3NeK15FbPkJKk/2lS:j1w5sVEQa+6d5`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

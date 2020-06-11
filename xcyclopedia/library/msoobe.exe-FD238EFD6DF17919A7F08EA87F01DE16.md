@@ -1,10 +1,12 @@
 ﻿
 # msoobe.exe 
+
 * File Path: `C:\WINDOWS\system32\oobe\msoobe.exe`
 * Description: MSOOBE EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FD238EFD6DF17919A7F08EA87F01DE16`
@@ -15,6 +17,7 @@ SHA415 | `B13ECC0D427DA4D369C2DBA4AB96873BABB31CB45F7B326EBC39D5E4AB9C2C0EA73B5C
 SSDEEP | `3072:XHLpJD7Y+NJn3WhoR0nA5ASU+fdAV8WGUBtZ6UmK7VnZnL6iB:3LplYQn3MjC5U2d4vmK7VnZnL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:XHLpJD7Y+NJn3WhoR0nA5ASU+fdAV8WGUBtZ6UmK7VnZnL6iB:3LplYQn3MjC5U2d
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # klist.exe 
+
 * File Path: `C:\WINDOWS\system32\klist.exe`
 * Description: Tool for managing the Kerberos ticket cache
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0C04245D868D0BA1D5156499F137001C`
@@ -15,6 +17,7 @@ SHA415 | `F13AA25E69339636C11079D62CD82D8C37DE8FD915AD95A72F1B5EB85C76B3DD8BA576
 SSDEEP | `768:o5i+bkTkjLsDe0msoQcoadJBrtdoHZk/AtJ5jjKZIQ8Fci4n8D1cZdPMKo3FstB:oYT5DtedJBpdQh5nKztQ3FstB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -59,5 +62,7 @@ Command list:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # netsh.exe 
+
 * File Path: `C:\Windows\SysWOW64\netsh.exe`
 * Description: Network Command Shell
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C3542EE1B9198274179B797C9B2A4633`
@@ -15,6 +17,7 @@ SHA415 | `56A8331CE370ABB55E60771BB5236105709E70D46E648D901B97F53E4DD6E83DAB4CF6
 SSDEEP | `768:5MfVsa/qhZ4nlWDvrKlFhDjbb/hjZiL5IgmEc:C7/aS4Dv2jhDn5ZG5IgmEc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -84,5 +87,7 @@ To view help for a command, type the command, followed by a space, and then
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

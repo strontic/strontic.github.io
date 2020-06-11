@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesRemote.exe 
+
 * File Path: `C:\Windows\SysWOW64\SystemPropertiesRemote.exe`
 * Description: System Remote Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E5BCE633925BF7A1AD38E75DE332E749`
@@ -15,6 +17,7 @@ SHA415 | `08D59C802D025FF2A408C9E5E376C6EA73152B0B8A688AB97155E5F1B8D5D6BC603728
 SSDEEP | `1536:YNGO7tREC/rMcgEPJV+G57ThjEC0kzJP+V5Jny:xuzECTMpuDhjRVJGdy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:YNGO7tREC/rMcgEPJV+G57ThjEC0kzJP+V5Jny:xuzECTMpuDhjRVJGdy`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

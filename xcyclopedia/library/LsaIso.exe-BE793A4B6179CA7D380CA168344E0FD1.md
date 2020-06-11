@@ -1,10 +1,12 @@
 ﻿
 # LsaIso.exe 
+
 * File Path: `C:\Windows\system32\LsaIso.exe`
 * Description: Credential Guard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BE793A4B6179CA7D380CA168344E0FD1`
@@ -15,6 +17,7 @@ SHA415 | `E6AEDC6933727A5EA62EEF249DA6BDD481A0D407C8F701F6CC0C5BD02DB7B9F35BCCC4
 SSDEEP | `3072:aD0pGEPBmKdDxPPqmpax5FN27JzWpaQmTs3vIAqazg3o243NmaW9j+vS:aD04EPB9DEmsx5FWzWpvqyvIuB09n`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:aD0pGEPBmKdDxPPqmpax5FN27JzWpaQmTs3vIAqazg3o243NmaW9j+vS:aD04EPB9
 * Product Version: 10.0.14393.3659
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

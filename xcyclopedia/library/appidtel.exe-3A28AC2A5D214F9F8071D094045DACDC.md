@@ -1,10 +1,12 @@
 ﻿
 # appidtel.exe 
+
 * File Path: `C:\Windows\system32\appidtel.exe`
 * Description: Initializes Appid ManagedInstaller and Smartscreen Telemetry
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3A28AC2A5D214F9F8071D094045DACDC`
@@ -15,6 +17,7 @@ SHA415 | `B8BBEDBAE100ABA4C05ABEDF3EC83C3B637A736434039508B5B4001ACD9D6B47D7A9C5
 SSDEEP | `384:qnWST+GxWkh9zKf77M3I5TaC1oAD7v/F4TzIpncul2R5FSWrMF1u3+4KQTge0Ws1:AT+qv8779513v/Gzml05Fo3L4bq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:qnWST+GxWkh9zKf77M3I5TaC1oAD7v/F4TzIpncul2R5FSWrMF1u3+4KQTge0Ws1:A
 * Product Version: 10.0.14393.1613
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

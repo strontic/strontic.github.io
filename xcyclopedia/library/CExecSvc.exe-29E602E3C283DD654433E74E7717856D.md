@@ -1,10 +1,12 @@
 ﻿
 # CExecSvc.exe 
+
 * File Path: `C:\WINDOWS\system32\CExecSvc.exe`
 * Description: Container Execution Agent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `29E602E3C283DD654433E74E7717856D`
@@ -15,6 +17,7 @@ SHA415 | `B51DBB9150EABF4215C0696DA766A693C747A4AF8D522E598B7A79DFF617291E7933A1
 SSDEEP | `3072:8CZW+F9YCBTq2rFr7vYrdJXqY2EjEB3HDi+ZblgE0PX0Az0F:8nqq2VYBlqYBjiH2+uPX0DF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:8CZW+F9YCBTq2rFr7vYrdJXqY2EjEB3HDi+ZblgE0PX0Az0F:8nqq2VYBlqYBjiH2
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

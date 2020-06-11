@@ -1,10 +1,12 @@
 ﻿
 # TSWbPrxy.exe 
+
 * File Path: `C:\Windows\system32\TSWbPrxy.exe`
 * Description: Microsoft Remote Desktop Services Web Proxy
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DA0C1265BEF2AFB28473DBE9984802CF`
@@ -15,6 +17,7 @@ SHA415 | `611D1A2275E24DDDCFC4E9DEFF38318D4A5A9CB3D3DAA192712CF0238FB26225E960B7
 SSDEEP | `1536:B8c26d6377CtitwTw7paK86mmbZeMJ/YnIanbsaw+NhQ:Oe6itH2aKRb4COIoA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:B8c26d6377CtitwTw7paK86mmbZeMJ/YnIanbsaw+NhQ:Oe6itH2aKRb4COIoA`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

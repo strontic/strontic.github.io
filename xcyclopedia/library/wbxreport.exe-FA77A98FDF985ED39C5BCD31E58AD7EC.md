@@ -1,10 +1,12 @@
 ﻿
 # wbxreport.exe 
+
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_TC\wbxreport.exe`
 * Description: WBXReport Module
 * Comments: Webex Reporter
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FA77A98FDF985ED39C5BCD31E58AD7EC`
@@ -15,6 +17,7 @@ SHA415 | `2F8EA7F45D75142010B54671E7969622BA0E10EF9FD3ABACB9A215DE2895A89BE1ABE1
 SSDEEP | `12288:mcjD+ZGnFGXCez87jyFErlkrmFKCvJ4rDXJMgvEhrxgG:mcjD+ZGnFy1gyFEzFKCGJzEhFgG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:mcjD+ZGnFGXCez87jyFErlkrmFKCvJ4rDXJMgvEhrxgG:mcjD+ZGnFy1gyFEzFKC
 * Product Version: 3303.0.1806.2000
 * Language: English (United States)
 * Legal Copyright:  2007-2018 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

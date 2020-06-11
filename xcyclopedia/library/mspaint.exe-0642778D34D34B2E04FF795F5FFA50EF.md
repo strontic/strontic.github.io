@@ -1,10 +1,12 @@
 ﻿
 # mspaint.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\mspaint.exe`
 * Description: Paint
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0642778D34D34B2E04FF795F5FFA50EF`
@@ -15,6 +17,7 @@ SHA415 | `EA6E266602311883DA7E1CCFE96A7F0CEC66AB2114C04200D885B0C6E26687A4BA7A4F
 SSDEEP | `12288:qN+NnceYDudON67mYscZaQ02tf5KgbpHjaLxulGMmCb5Etixx9K91V1H3jfc:qN+NnceR/mYsYv02tf5ZNHjmxulGy9E0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:qN+NnceYDudON67mYscZaQ02tf5KgbpHjaLxulGMmCb5Etixx9K91V1H3jfc:qN+
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

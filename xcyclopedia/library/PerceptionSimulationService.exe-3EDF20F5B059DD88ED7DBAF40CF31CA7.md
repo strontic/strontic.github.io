@@ -1,10 +1,12 @@
 ﻿
 # PerceptionSimulationService.exe 
+
 * File Path: `C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationService.exe`
 * Description: Windows Perception Simulation Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3EDF20F5B059DD88ED7DBAF40CF31CA7`
@@ -15,6 +17,7 @@ SHA415 | `F871E2C5BAC4F71ED52BA9E3C0B6C852E008C77A7B0D6384F82A78D3E8606EB4DE94C4
 SSDEEP | `3072:SRVN02r2H3oFcIgfAqDoDPVoH30Y3+fZL:SZ0fHYFcIgAJDPVo33q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Windows Perception Simulation Service.
@@ -54,5 +57,7 @@ Unrecognized switch "-help"
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

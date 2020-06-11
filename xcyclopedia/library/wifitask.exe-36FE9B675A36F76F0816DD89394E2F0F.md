@@ -1,10 +1,12 @@
 ﻿
 # wifitask.exe 
+
 * File Path: `C:\WINDOWS\system32\wifitask.exe`
 * Description: Wireless Background Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `36FE9B675A36F76F0816DD89394E2F0F`
@@ -15,6 +17,7 @@ SHA415 | `8A073A266EAC0A07E5D9A3A67694EA5EAEEB16F3ADA60E08CFE329487505DBF5138E2E
 SSDEEP | `3072:eAvEBuaCdZYXo8JGHV0h27afHH5AWh8hHYsvPu:eMEkZ2vJMV0hz/5Xsu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:eAvEBuaCdZYXo8JGHV0h27afHH5AWh8hHYsvPu:eMEkZ2vJMV0hz/5Xsu`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

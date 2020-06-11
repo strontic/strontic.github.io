@@ -1,10 +1,12 @@
 ﻿
 # wdagtool.exe 
+
 * File Path: `C:\WINDOWS\system32\wdagtool.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D4803B1E65DB3642F478A6E4348B2D4B`
@@ -15,6 +17,7 @@ SHA415 | `9A252F8015F23371819BC389BB08A69F159DBE3933970546D6F8BED4D59A41B17DCA34
 SSDEEP | `1536:P0tPSGE8+SBNdGLRVmD3L/M4Z1umO3VpOiVE1Kq3KrT:cK+BNdGLRW37M4imO3VpFVWKr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 WDAGTool.exe [options]
@@ -60,5 +63,7 @@ WDAGTool.exe [options]
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

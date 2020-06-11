@@ -1,10 +1,12 @@
 ﻿
 # AppVShNotify.exe 
+
 * File Path: `C:\Windows\system32\AppVShNotify.exe`
 * Description: Microsoft Application Virtualization Client Shell Notifier
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DAFCE696CFDFEA5F622F16CC2376972B`
@@ -15,6 +17,7 @@ SHA415 | `E4C2E1F645870CE91D37CCC183AC449CA2D9A718E8EA1EBA63C0BA61D42F63FB6E5B86
 SSDEEP | `3072:k/ZPeVGFGmT0bbplXIP9rRnWwDyJLt6bWfNU6ITLn3CJ+eqGm41ArZKarG:k/ZqQ2/IP91ZDIhYWfNU6ITLnSvYdrZG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:k/ZPeVGFGmT0bbplXIP9rRnWwDyJLt6bWfNU6ITLn3CJ+eqGm41ArZKarG:k/ZqQ2
 * Product Version: 10.0.14393.3659
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

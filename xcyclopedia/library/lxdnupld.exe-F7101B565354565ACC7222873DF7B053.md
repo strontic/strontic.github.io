@@ -1,10 +1,12 @@
 ﻿
 # lxdnupld.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnupld.exe`
 * Description: Lexmark Connect Upload Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F7101B565354565ACC7222873DF7B053`
@@ -15,6 +17,7 @@ SHA415 | `184F9EB36B534CAE14A895E01FFCDB10772715662CE296DA574443E4EA2E7EEF7B0F8B
 SSDEEP | `96:Azrr82pZrp5M8Ryzrqyl6p9uNCS/6ajc/BfI3B+mcR2rRByqmE8LG/D:AHr82Prp3RG1Qac/BfIxrcRSRByVHAD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ lxdnwbgw.exe
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

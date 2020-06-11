@@ -1,10 +1,12 @@
 ﻿
 # mshta.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\mshta.exe`
 * Description: Microsoft (R) HTML Application host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `665D512BB2727713783B73F1B7FEB808`
@@ -15,6 +17,7 @@ SHA415 | `67E52CF8F27A26D8E3CC858B50A8A4230F41A8C20AD17BAF6F7625385B1B95A386DD61
 SSDEEP | `192:gHHYZgW7wr1upL/DNgoSNa2FD9WwwZIR9w:ykwr1upLBRYbWwwI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:gHHYZgW7wr1upL/DNgoSNa2FD9WwwZIR9w:ykwr1upLBRYbWwwI`
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # smartscreen.exe 
+
 * File Path: `C:\Windows\system32\smartscreen.exe`
 * Description: SmartScreen
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E336F6A378289D00261EBD104E1668EE`
@@ -15,6 +17,7 @@ SHA415 | `C44E8A890B9740AE0BC26E0A0026E3F4C51C7EAA376F2FA638165E2EA6F03AFCCDD657
 SSDEEP | `49152:jkSUwdaXFUbZwBmHNbPBgBmQ+MSt1Fzlhv3nLl:9PxMStthv3Z`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:jkSUwdaXFUbZwBmHNbPBgBmQ+MSt1Fzlhv3nLl:9PxMStthv3Z`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

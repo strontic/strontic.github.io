@@ -1,10 +1,12 @@
 ﻿
 # winlogon.exe 
+
 * File Path: `C:\Windows\system32\winlogon.exe`
 * Description: Windows Logon Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DEA4CE12F24601830083126E18A2C7C9`
@@ -15,6 +17,7 @@ SHA415 | `16C9F8F65BA9CE75C6D1FB099AB04AFDBED479C0531B71AEE2543FE0174F0396E76962
 SSDEEP | `12288:z6SgxZl8k5b0TiPlIPop37hOi3H4i3o/:+Sgxf8QNki3X3o`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:z6SgxZl8k5b0TiPlIPop37hOi3H4i3o/:+Sgxf8QNki3X3o`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

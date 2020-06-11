@@ -1,10 +1,12 @@
 ﻿
 # waitfor.exe 
+
 * File Path: `C:\WINDOWS\system32\waitfor.exe`
 * Description: waitfor - wait/send a signal over a network
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E6F52AF752157757EA5B0B1F1C997314`
@@ -15,6 +17,7 @@ SHA415 | `76CB0ECDC1A867A3785C8A9FFEF74154E3ECA3E86D65A70205CCAFB16ECD85342AC9F5
 SSDEEP | `768:Yf98nv2Ciy9wn0bgdr5g+L3Rcy95XX6GgHKePKx6nUM8:Uoevjn6lHKVx6N8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -90,5 +93,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # GenValObj.exe 
+
 * File Path: `C:\WINDOWS\system32\GenValObj.exe`
 * Description: Microsoft Software Protection Platform Admin Object
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A5E2601434A3C4EA559EF18944F0995D`
@@ -15,6 +17,7 @@ SHA415 | `904E561EE23DCFE11C7FD1E0B088BC154B9866162C238E02F129D4DF01F3F6EA458AFC
 SSDEEP | `12288:EwLVdwySY9thlbixmV/X2bUhdCnGdL8DXV6zXmFWApmOdJ:Ew5dwbMhl4mNX2bUhdCnGdL8DXV6HApv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:EwLVdwySY9thlbixmV/X2bUhdCnGdL8DXV6zXmFWApmOdJ:Ew5dwbMhl4mNX2bUh
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

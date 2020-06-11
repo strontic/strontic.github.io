@@ -1,10 +1,12 @@
 ﻿
 # chkntfs.exe 
+
 * File Path: `C:\Windows\SysWOW64\chkntfs.exe`
 * Description: NTFS Volume Maintenance Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E3C7BE10853AE9CC218A44192355984C`
@@ -15,6 +17,7 @@ SHA415 | `C5A4EE0AA834C789C2521E29CF4CBEB99084A5CAEF053253DEA5B4959D102C3D4E9CA5
 SSDEEP | `384:Lgsad7rP2v7OlZ+2cCwNK2/afV8qaLUGf4nX7U1blCCNcW56Wmd:LVad7rP2v7OlZ+2JwNK2/afVhKUGf1Ah`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Displays or modifies the checking of disk at boot time.
@@ -68,5 +71,7 @@ dirty or scheduled to be checked on next reboot.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

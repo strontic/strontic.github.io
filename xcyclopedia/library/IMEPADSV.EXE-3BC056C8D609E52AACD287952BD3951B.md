@@ -1,10 +1,12 @@
 ﻿
 # IMEPADSV.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\IME\SHARED\IMEPADSV.EXE`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3BC056C8D609E52AACD287952BD3951B`
@@ -15,6 +17,7 @@ SHA415 | `2911BB628AD35282ACE12D6A7A0B7DF481A3378ACBB2E7152136C3C5CF425623860FD4
 SSDEEP | `6144:jPBDu7UnR/iKhrWSSj8NBUVOdvPGoFZIbbUz2:jPBDu7UnR/iKJjSj8NLdhEK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:jPBDu7UnR/iKhrWSSj8NBUVOdvPGoFZIbbUz2:jPBDu7UnR/iKJjSj8NLdhEK`
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

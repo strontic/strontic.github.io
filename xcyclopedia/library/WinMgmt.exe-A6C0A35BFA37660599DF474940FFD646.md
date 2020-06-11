@@ -1,10 +1,12 @@
 ﻿
 # WinMgmt.exe 
+
 * File Path: `C:\WINDOWS\system32\wbem\WinMgmt.exe`
 * Description: WMI Service Control Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A6C0A35BFA37660599DF474940FFD646`
@@ -15,6 +17,7 @@ SHA415 | `C9FC4E6C069727939B5662BB7111B75C72962D58348C1B11502245C3879C570CA38691
 SSDEEP | `1536:X/XEbNIUy7cvXdShIPoANJLlAXuSXv+qSFEAeOFH:v8XshIPFJRAhP2EAe6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Invalid parameter
@@ -108,5 +111,7 @@ Usage:  winmgmt	[/backup <filename>] [/restore <filename> <flag>]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

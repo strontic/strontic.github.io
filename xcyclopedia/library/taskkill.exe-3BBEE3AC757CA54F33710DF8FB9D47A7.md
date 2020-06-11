@@ -1,10 +1,12 @@
 ﻿
 # taskkill.exe 
+
 * File Path: `C:\WINDOWS\system32\taskkill.exe`
 * Description: Terminates Processes
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3BBEE3AC757CA54F33710DF8FB9D47A7`
@@ -15,6 +17,7 @@ SHA415 | `8CD25388832D081A57831C767F5869122A7571E962641AB97DFE5F3E9090490BF68498
 SSDEEP | `1536:e39Rc5hnL7uU6PQUHJKpf7JaClxf7iL/DM5C0U4o+weE7XxXDs:e39ROhnL7upCNlxjiL7M5C0GeE7XxA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -114,5 +117,7 @@ Type "TASKKILL /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

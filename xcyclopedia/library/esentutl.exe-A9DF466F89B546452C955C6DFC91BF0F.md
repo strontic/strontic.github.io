@@ -1,10 +1,12 @@
 ﻿
 # esentutl.exe 
+
 * File Path: `C:\WINDOWS\system32\esentutl.exe`
 * Description: Extensible Storage Engine Utilities for Microsoft(R) Windows(R)
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A9DF466F89B546452C955C6DFC91BF0F`
@@ -15,6 +17,7 @@ SHA415 | `D06F51729AD8C6D00026D27B097F47E1A4A1217CD791819D6AC5F53CDCD6F4EFD260E4
 SSDEEP | `6144:URFVN/CkAAS4KaXa1CBY6Vet2DtIiuAq5M9V9uoLDG0BSGJMXjAd:URFe7mjNBSLSluoG0AjA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

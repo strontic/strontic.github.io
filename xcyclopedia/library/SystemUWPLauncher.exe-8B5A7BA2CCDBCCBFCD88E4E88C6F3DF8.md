@@ -1,10 +1,12 @@
 ﻿
 # SystemUWPLauncher.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemUWPLauncher.exe`
 * Description: SystemUWPLauncher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8B5A7BA2CCDBCCBFCD88E4E88C6F3DF8`
@@ -15,6 +17,7 @@ SHA415 | `91F1AE45B0F7569A2B41374B4478A18D4293DF54D15ADF9EBB35D6DF1021319B83E60C
 SSDEEP | `1536:R5T0csTTDrk1EeQ3VnF+CMqqZBDkFveLuB8xlrwhxIUQKxwnrPcChsJp/G:H0cwEQ3VkCMqqPDkIRaqrkYsJU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:R5T0csTTDrk1EeQ3VnF+CMqqZBDkFveLuB8xlrwhxIUQKxwnrPcChsJp/G:H0cwEQ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

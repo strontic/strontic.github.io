@@ -1,10 +1,12 @@
 ﻿
 # wevtutil.exe 
+
 * File Path: `C:\WINDOWS\system32\wevtutil.exe`
 * Description: Eventing Command Line Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `53748B0CD4C78AF5EF1D4E77F3C873AF`
@@ -15,6 +17,7 @@ SHA415 | `092923F239E34036F3C858C6A21896306940264CB27530F256D3A9F797EC69BF2B1989
 SSDEEP | `3072:ErPhXZDqesxB+La1I6lOprqtXzQLxLiJvcIXSBPiJsLiyrDHzjlgOM/ADVqK8Rsc:E3u1YrqtjO9UkIBJei+a3Ih2/LItW/B`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Windows Events Command Line Utility.
@@ -101,5 +104,7 @@ The parameter is incorrect.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

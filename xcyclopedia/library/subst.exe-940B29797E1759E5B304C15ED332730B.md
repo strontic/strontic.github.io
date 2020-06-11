@@ -1,10 +1,12 @@
 ﻿
 # subst.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\subst.exe`
 * Description: Subst Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `940B29797E1759E5B304C15ED332730B`
@@ -15,6 +17,7 @@ SHA415 | `BD4C44DFFBD3FEE5BC63EA629262F777175DCEC499E07310C97C9E0153FDA05C7C8CCC
 SSDEEP | `192:DuXlcd//+t9lePB2WAYtkGpFB0d3MtcnkKVRXkJWeGWNAaX:DMlc5/+tf+4J5GpFBW3oEdUJWeGW5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Associates a path with a drive letter.
@@ -56,5 +59,7 @@ Type SUBST with no parameters to display a list of current virtual drives.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

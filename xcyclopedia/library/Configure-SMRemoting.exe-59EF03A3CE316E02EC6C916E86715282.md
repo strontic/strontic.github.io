@@ -1,10 +1,12 @@
 ﻿
 # Configure-SMRemoting.exe 
+
 * File Path: `C:\Windows\system32\Configure-SMRemoting.exe`
 * Description: Configure-SMRemoting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `59EF03A3CE316E02EC6C916E86715282`
@@ -15,6 +17,7 @@ SHA415 | `682CA659B0CC47E235FB5177E41359565339CFD6B41651CF448961B4131DA57F3A4100
 SSDEEP | `768:Z8RbOjsY9kR/Luxlf3qHgeNljODzWLZGj+B/YYLyOoZzytqfvbJbkYLEzXQbJW5P:uR89+pSLf3YgmlNwfXOtqfj2FrBW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -46,5 +49,7 @@ Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

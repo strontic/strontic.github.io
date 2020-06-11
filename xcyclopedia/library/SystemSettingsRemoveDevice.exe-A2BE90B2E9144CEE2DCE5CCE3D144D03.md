@@ -1,10 +1,12 @@
 ﻿
 # SystemSettingsRemoveDevice.exe 
+
 * File Path: `C:\Windows\system32\SystemSettingsRemoveDevice.exe`
 * Description: SystemSettingsRemoveDevice
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A2BE90B2E9144CEE2DCE5CCE3D144D03`
@@ -15,6 +17,7 @@ SHA415 | `E98F8785DC007550E00EBB9DCEDB8BD0AA8197FD485B9D1B6A3CE9413D27EF47FCC6D2
 SSDEEP | `384:jfPLIeo1rWOtZIV3tGcN8GGv3YW7bWYE8XlRDBRJplTIw31pg24:LPLu1iEuGZGGvN3E01PV1P4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:jfPLIeo1rWOtZIV3tGcN8GGv3YW7bWYE8XlRDBRJplTIw31pg24:LPLu1iEuGZGGvN
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

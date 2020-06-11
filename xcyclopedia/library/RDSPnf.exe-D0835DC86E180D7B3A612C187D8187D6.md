@@ -1,10 +1,12 @@
 ﻿
 # RDSPnf.exe 
+
 * File Path: `C:\Windows\system32\RDSPnf.exe`
 * Description: Windows All-User Installer Profile Processing Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D0835DC86E180D7B3A612C187D8187D6`
@@ -15,6 +17,7 @@ SHA415 | `2E9D0D8536AC6C30D51609316B7524EB2C59470EA1B2A116E6053055CEDFCD7E6CC5EC
 SSDEEP | `1536:+qk7IZRkue4GwYsl2TvgRepi+k2rklK+38HkFXU4:lR0bkl2zgmn30K+38EC4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:+qk7IZRkue4GwYsl2TvgRepi+k2rklK+38HkFXU4:lR0bkl2zgmn30K+38EC4`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

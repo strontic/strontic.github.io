@@ -1,10 +1,12 @@
 ﻿
 # svchost.exe 
+
 * File Path: `C:\Windows\system32\svchost.exe`
 * Description: Host Process for Windows Services
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `36F670D89040709013F6A460176767EC`
@@ -15,6 +17,7 @@ SHA415 | `BB93D19C35D751468B09B275DE48452FF8724569167B43F42D6AF74639F95121B84F59
 SSDEEP | `768:MOob6+aRtPsddC9utr12ks4uJcaRWi/DeT1PhPi:gbhkydC9M2OuJca7/SPhPi`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:MOob6+aRtPsddC9utr12ks4uJcaRWi/DeT1PhPi:gbhkydC9M2OuJca7/SPhPi`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SyncAppvPublishingServer.exe 
+
 * File Path: `C:\WINDOWS\system32\SyncAppvPublishingServer.exe`
 * Description: Microsoft Application Virtualization Sync Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F5436BA0DDCB88473858BDB310C234D9`
@@ -15,6 +17,7 @@ SHA415 | `19499C76127F0457CB7B1CB0BA04C32FD803764F9C0732A087DAF6C6A9124E5A9525C9
 SSDEEP | `768:nKrnaluTrkL5oZjn6V46K4Dwikn9aeDx/RP+Ed2I1PrkLHb:nvuTr5Zjna4pmwiE9aeDxpPX/PrkL7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:nKrnaluTrkL5oZjn6V46K4Dwikn9aeDx/RP+Ed2I1PrkLHb:nvuTr5Zjna4pmwiE9a
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

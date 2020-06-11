@@ -1,10 +1,12 @@
 ﻿
 # UpdateNotificationMgr.exe 
+
 * File Path: `C:\WINDOWS\system32\UNP\UpdateNotificationMgr.exe`
 * Description: Update Notification Pipeline Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0792FC5F674BBB1FDA27112C6A549F42`
@@ -15,6 +17,7 @@ SHA415 | `DE93BB6E9C422ED0257C06D6EB5E005BB59FB2B56A44427BA9DB2FEBBB76FBA5EE8A5B
 SSDEEP | `6144:NS4HeEPDU7ek07stQ67iOVBIZmTQIhyDWFX7MDEDbQINXif3y56l6:U4+t0IeOLIZe/cDMYAifC5d`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:NS4HeEPDU7ek07stQ67iOVBIZmTQIhyDWFX7MDEDbQINXif3y56l6:U4+t0IeOLIZ
 * Product Version: 10.0.18362.592
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

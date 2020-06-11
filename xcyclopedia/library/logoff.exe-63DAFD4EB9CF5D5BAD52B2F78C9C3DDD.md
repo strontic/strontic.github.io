@@ -1,10 +1,12 @@
 ﻿
 # logoff.exe 
+
 * File Path: `C:\Windows\system32\logoff.exe`
 * Description: Session Logoff Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `63DAFD4EB9CF5D5BAD52B2F78C9C3DDD`
@@ -15,6 +17,7 @@ SHA415 | `782724E112FBF327DD170957819C329B9E2A63CA2FC828ACD76337A23E8C4CB288AF8E
 SSDEEP | `384:jrh2V3nRO3qQRC9QgstQrldEg55M2ID2/GFtR+nzn5mocyGMrUvbzCW37uW:jrhEYdLaRlmh3Qz5mxvbz/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -57,5 +60,7 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

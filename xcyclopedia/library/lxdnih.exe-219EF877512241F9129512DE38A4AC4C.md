@@ -1,10 +1,12 @@
 ﻿
 # lxdnih.exe 
+
 * File Path: `C:\WINDOWS\system32\lxdnih.exe`
 * Description: Printer Communication System
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `219EF877512241F9129512DE38A4AC4C`
@@ -15,6 +17,7 @@ SHA415 | `7542DAC37B894DAA4A733F0B6491EACCE3A70948FCC4815A472ACE4205F874565919CB
 SSDEEP | `6144:caWuJ18VFexmvFLwRPbvFjNEu4KFPuc7PF4FZO+w+5cWMlARtiTQ4SYaP2+:648VFexwEl9NEu4af4FY+5cWM2Gk4W2+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:caWuJ18VFexmvFLwRPbvFjNEu4KFPuc7PF4FZO+w+5cWMlARtiTQ4SYaP2+:648VF
 * Product Version: 1.233.39.0
 * Language: English (United States)
 * Legal Copyright:  
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SysResetErr.exe 
+
 * File Path: `C:\Windows\system32\SysResetErr.exe`
 * Description: Windows System Reset
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C2AE4D7D3999C1C2A8A6CEE01668CA6`
@@ -15,6 +17,7 @@ SHA415 | `A94F8FE2B150CB2D736F17F4066122B2E58BE3378C41304CEE1768BF2EEF84AE58C8A6
 SSDEEP | `384:WVKwFuZe2LoGVAH/my7LVcSYFLUh15rCMun7kMWeEWxxAdwQES52+uvMWde+iYQs:XeEGl7FFJarxxhSFuvO8Q6+vwI1PyhF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:WVKwFuZe2LoGVAH/my7LVcSYFLUh15rCMun7kMWeEWxxAdwQES52+uvMWde+iYQs:X
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # hvsievaluator.exe 
+
 * File Path: `C:\WINDOWS\system32\hvsievaluator.exe`
 * Description: Windows Defender Application Guard Policy Evaluator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BA343E46B1A84D71FFC63163B5186E23`
@@ -15,6 +17,7 @@ SHA415 | `037B4DC97392276DEE7885FCF52B15474A17D6EA9465546754AE436DC8B023A8F789CF
 SSDEEP | `3072:ujkosJywLhFDrhNOCc1ptIoly5UvkQQGMXbfLRtGf:uQHJLhx9MCcjtB8A9MXbfq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:ujkosJywLhFDrhNOCc1ptIoly5UvkQQGMXbfLRtGf:uQHJLhx9MCcjtB8A9MXbfq`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

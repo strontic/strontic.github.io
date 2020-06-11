@@ -1,10 +1,12 @@
 ﻿
 # chglogon.exe 
+
 * File Path: `C:\WINDOWS\system32\chglogon.exe`
 * Description: Change Logon Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `495D25C8551F585A6C1967F720008439`
@@ -15,6 +17,7 @@ SHA415 | `B0CAE3D1093484975663F659C0356C53F61A2A3E03E8190B02139F79A546BCC71A9078
 SSDEEP | `384:IHKiqXNzrO3TVneuEvz5+Yc1K8OSRHnhNAmaJP45HCMHnCUi7iWnEW:Iq7FrOj9edg91K8b01ACdj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -55,5 +58,7 @@ CHANGE LOGON {/QUERY | /ENABLE | /DISABLE | /DRAIN | /DRAINUNTILRESTART}
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

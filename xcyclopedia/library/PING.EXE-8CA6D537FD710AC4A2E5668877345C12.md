@@ -1,10 +1,12 @@
 ﻿
 # PING.EXE 
+
 * File Path: `C:\Windows\SysWOW64\PING.EXE`
 * Description: TCP/IP Ping Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8CA6D537FD710AC4A2E5668877345C12`
@@ -15,6 +17,7 @@ SHA415 | `92E94FF3A18B115D509F70A1581AAD35890B53EA340E53670174F68CCC5DA5516BCD3F
 SSDEEP | `384:SxaLJouSQZtCJcKChCK8g6NSdXggoC5sxQ7pXpOWalW:SxaSlKkChCNwWLelXo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Bad option -help.
@@ -79,5 +82,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

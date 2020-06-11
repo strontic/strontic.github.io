@@ -1,10 +1,12 @@
 ﻿
 # bfsvc.exe 
+
 * File Path: `C:\Windows\bfsvc.exe`
 * Description: Boot File Servicing Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6B190FA28D61EFDE98F6B057A8C4676B`
@@ -15,6 +17,7 @@ SHA415 | `9CB50265F4CECBEC96B81B833267EAB4A34810DB6B98A68F2D8584EFEA56C0D08B8707
 SSDEEP | `768:qSsny4smb1M4WbEQCnK2/h3pj4szhayaUya6Kcz6gsl3j8KORJT48euOkj8H5toj:qFyp41MBCd3F9Va5fX6gsBIK6beTf7k`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -47,5 +50,7 @@ BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! E
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

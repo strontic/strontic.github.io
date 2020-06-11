@@ -1,10 +1,12 @@
 ﻿
 # DbxSvc.exe 
+
 * File Path: `C:\WINDOWS\system32\DbxSvc.exe`
 * Description: Dropbox Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F68BA120DE41816E651485F79A59101E`
@@ -15,6 +17,7 @@ SHA415 | `21C30BF96FE4E5ADCC3F65EC78DF87DF8F521F724A24D10C80F4E432A725557D7579C2
 SSDEEP | `768:O8n1qwrENhyssfU//Hk4gs3RJ4OBFuJTPMUFO9mQlvdXQ8vPMDGAK4rm:d1qHtuQUsQO7YPMUQzW8vPoKQm`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:O8n1qwrENhyssfU//Hk4gs3RJ4OBFuJTPMUFO9mQlvdXQ8vPMDGAK4rm:d1qHtuQUs
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: Dropbox, Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

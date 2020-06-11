@@ -1,10 +1,12 @@
 ﻿
 # sessionmsg.exe 
+
 * File Path: `C:\WINDOWS\system32\sessionmsg.exe`
 * Description: Microsoft Remote Desktop Services Session Message Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `98C98A278F41D46C80437196D0251D0D`
@@ -15,6 +17,7 @@ SHA415 | `9F9E6178C730C8567EEF07ABA871E593ABD43D3DCAB38A69B3E31BA6AF28561B974CA0
 SSDEEP | `1536:mjbH60wB85ZqWAttrOtXaI5cAAOojMNFzJ0ZpPn:SJwAAo5bAOojMnuP`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:mjbH60wB85ZqWAttrOtXaI5cAAOojMNFzJ0ZpPn:SJwAAo5bAOojMnuP`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

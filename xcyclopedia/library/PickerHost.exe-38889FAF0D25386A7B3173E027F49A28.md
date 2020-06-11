@@ -1,10 +1,12 @@
 ﻿
 # PickerHost.exe 
+
 * File Path: `C:\Windows\SysWOW64\PickerHost.exe`
 * Description: File Picker UI Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `38889FAF0D25386A7B3173E027F49A28`
@@ -15,6 +17,7 @@ SHA415 | `7FB1469BC31229C3AA5C0E49897F9C10E8BA2CAA1488A9E52175491F0875DC7C0D0786
 SSDEEP | `768:dlFQlHffsbUNiYOEe7DPAeW+gLB+Ox6qj3ydcCIfXXj1P8g:lQJffs0iYOE1eW3LB96q7ydbAnpP8g`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:dlFQlHffsbUNiYOEe7DPAeW+gLB+Ox6qj3ydcCIfXXj1P8g:lQJffs0iYOE1eW3LB9
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

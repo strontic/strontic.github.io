@@ -1,10 +1,12 @@
 ﻿
 # fsutil.exe 
+
 * File Path: `C:\WINDOWS\system32\fsutil.exe`
 * Description: fsutil.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9A619D0345B400A0FD02452198F26423`
@@ -15,6 +17,7 @@ SHA415 | `8F42EDEDE3BC7DA7287257B7A154DF62C10B5DDDFF405593A942B7A4A7A2F1154A2945
 SSDEEP | `3072:WuquKPoY/fr+kSgr48vN/JmaAu8GtpYUGhyzq2RS8O7q4L:WVFPocf6kSmvV4aAuDt+UJSrV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 -help is an invalid parameter.
@@ -67,5 +70,7 @@ wim               Transparent wim hosting management
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

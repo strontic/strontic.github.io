@@ -1,10 +1,12 @@
 ﻿
 # wevtutil.exe 
+
 * File Path: `C:\Windows\system32\wevtutil.exe`
 * Description: Eventing Command Line Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `91803E340A7E7AFDF95A8031F6EF3F3E`
@@ -15,6 +17,7 @@ SHA415 | `E4BBAB5A6444213F15F034A86CE4708BA58ACF42BE8BF78D0C893CC9D0F5AF57832832
 SSDEEP | `6144:4ZmJ1a5hEP2sQtsIyTM6IJfgieD8F16BcsGWptybsVvfqs:4ZmO5hEtIyngfgHkgpGWpImv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Windows Events Command Line Utility.
@@ -100,5 +103,7 @@ Command help is not supported. The parameter is incorrect.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # reset.exe 
+
 * File Path: `C:\WINDOWS\system32\reset.exe`
 * Description: Remote Desktop Services Reset Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `15D84EF11876BB1264257B0CC60C7B62`
@@ -15,6 +17,7 @@ SHA415 | `332ADE1C24566C4560F3759B5C037829B37D843599DC2802AA28B05A18B4F81EF3A848
 SSDEEP | `384:oWe6KXLaxy2eeTX94d9NtGHK2aJSWmgW:Re2etd3Wk6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 RESET { SESSION }
@@ -48,5 +51,7 @@ RESET { SESSION }
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

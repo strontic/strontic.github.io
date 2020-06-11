@@ -1,10 +1,12 @@
 ﻿
 # mofcomp.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\wbem\mofcomp.exe`
 * Description: The Managed Object Format (MOF) Compiler 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `278B4A8F97B9746A38AF2D3EA9EE9B0B`
@@ -15,6 +17,7 @@ SHA415 | `FD8B461A105CC7619A867967C263A6E2CAFC563D45672C96DEE8F726F49488657CAC0C
 SSDEEP | `384:CL8YPsKmxfmGCMuoyZ4zRvojhjqpbBueb/YX9yOkKy2dyvoahJ/VSWvoW6S:C3lUr6OQN8BuXdyvoa7/VL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft (R) MOF Compiler Version 10.0.18362.1
@@ -79,5 +82,7 @@ usage: mofcomp [-check] [-N:<Path>]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

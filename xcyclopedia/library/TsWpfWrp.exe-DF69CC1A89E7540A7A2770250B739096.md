@@ -1,10 +1,12 @@
 ﻿
 # TsWpfWrp.exe 
+
 * File Path: `C:\WINDOWS\system32\TsWpfWrp.exe`
 * Description: Windows Presentation Foundation Terminal Server Print Wrapper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DF69CC1A89E7540A7A2770250B739096`
@@ -15,6 +17,7 @@ SHA415 | `88E3178D5F5090C5E8ED171DDD92D989A207CF95959536F33F605D7E1A20CC42B52D8B
 SSDEEP | `384:sgA5GX01zlPby6ZjmDZBv0xAX7lWqmW8jF0GftpBjrGf:sgvaSHw+ie`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
@@ -46,5 +49,7 @@ Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
 * Product Version: 3.0.6920.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

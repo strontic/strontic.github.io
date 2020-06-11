@@ -1,10 +1,12 @@
 ﻿
 # IMJPSET.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\IME\IMEJP\IMJPSET.EXE`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0243C95369EE36091113791CB7D2A33B`
@@ -15,6 +17,7 @@ SHA415 | `7E52FBA520719AF33C33C3D5545FF8213AC4D2ED7AC4AF48EDF10C18B3EAD987D6DE6A
 SSDEEP | `3072:pc+4LmZ3jdj/giKieglJqRzCr1Pgoy+bwdYH67IkK2NLPcV2:pcGzdj/ewqRzM1P3y+b5mIkC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:pc+4LmZ3jdj/giKieglJqRzCr1Pgoy+bwdYH67IkK2NLPcV2:pcGzdj/ewqRzM1P3
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

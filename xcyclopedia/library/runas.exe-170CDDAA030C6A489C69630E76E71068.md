@@ -1,10 +1,12 @@
 ﻿
 # runas.exe 
+
 * File Path: `C:\WINDOWS\system32\runas.exe`
 * Description: Run As Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `170CDDAA030C6A489C69630E76E71068`
@@ -15,6 +17,7 @@ SHA415 | `2DDBF137F60336705D9B8954CB6E3008A9A987F16B755847B66D871340523EC2D5E562
 SSDEEP | `384:OP0JqX7EhjATauoVQCywQP//f3isE1r/ZSuOKKQRwYSQvEyNWLOW:O8JqQJATaPK/f3isEJht9KhQvEyW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:OP0JqX7EhjATauoVQCywQP//f3isE1r/ZSuOKKQRwYSQvEyNWLOW:O8JqQJATaPK/f
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

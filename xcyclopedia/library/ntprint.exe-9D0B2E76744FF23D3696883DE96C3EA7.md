@@ -1,10 +1,12 @@
 ﻿
 # ntprint.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\ntprint.exe`
 * Description: Printer driver software installation
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9D0B2E76744FF23D3696883DE96C3EA7`
@@ -15,6 +17,7 @@ SHA415 | `E1E67D65A0FE30D1B1CBCFFFB310067B145BC6C5BAF5FE1C33761279158889F3A4DC13
 SSDEEP | `768:K4EoqI6mulFT5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qb:S/HVIPd4n+lbeRZIbSQPPA7C`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:K4EoqI6mulFT5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qb:S
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

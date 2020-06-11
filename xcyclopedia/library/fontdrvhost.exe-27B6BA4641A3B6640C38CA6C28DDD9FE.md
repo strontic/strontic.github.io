@@ -1,10 +1,12 @@
 ﻿
 # fontdrvhost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\fontdrvhost.exe`
 * Description: Usermode Font Driver Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `27B6BA4641A3B6640C38CA6C28DDD9FE`
@@ -15,6 +17,7 @@ SHA415 | `95DCF7FEB927D7186D7956C8C5BAD24B7F5F49BEAF64801BBC0A3AC2A878EC0EC9C122
 SSDEEP | `12288:yA9zG/6EZnWuQjGZiZV0uvucsHX7e6QaBzK:yA9CnaYcV0uvSHre6T`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:yA9zG/6EZnWuQjGZiZV0uvucsHX7e6QaBzK:yA9CnaYcV0uvSHre6T`
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

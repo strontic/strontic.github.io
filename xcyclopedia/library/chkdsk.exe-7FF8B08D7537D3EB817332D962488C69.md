@@ -1,10 +1,12 @@
 ﻿
 # chkdsk.exe 
+
 * File Path: `C:\Windows\system32\chkdsk.exe`
 * Description: Check Disk Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7FF8B08D7537D3EB817332D962488C69`
@@ -15,6 +17,7 @@ SHA415 | `3A58412C9D091A3F8B239744877A025A139C7546D1A6DC145DA390EEA3FBF8685D8FDF
 SSDEEP | `384:Zf1Q/Mof3hE7QaVigrWBLD4APQ7fJGro1h2+0eImIoOzFNWWSFrhW:h10hP0ViYWBDMfQrM30ev4Or`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Checks a disk and displays a status report.
@@ -92,5 +95,7 @@ skipping certain checks of the volume.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

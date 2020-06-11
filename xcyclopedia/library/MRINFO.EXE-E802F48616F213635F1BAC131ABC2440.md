@@ -1,10 +1,12 @@
 ﻿
 # MRINFO.EXE 
+
 * File Path: `C:\WINDOWS\system32\MRINFO.EXE`
 * Description: Multicast Information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E802F48616F213635F1BAC131ABC2440`
@@ -15,6 +17,7 @@ SHA415 | `8DB1B47FB4C3C2AEE247CFA1BFD283C6B787DCD089405395E562AA2329E187CB545851
 SSDEEP | `384:vTMwKjX6uaSyqF28i/rGTjMfyP/EWj8W:vYFX/+pmjMfMB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -55,5 +58,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # DataExchangeHost.exe 
+
 * File Path: `C:\Windows\system32\DataExchangeHost.exe`
 * Description: Data Exchange Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `516E28557D03FBBB5B06D0A871A71320`
@@ -15,6 +17,7 @@ SHA415 | `4E82D1040E46C235C52D8CFAD7DD8432A5551B5AA0CCB3F463AB1F6DD67C975F3BE062
 SSDEEP | `6144:P9KFZFytGANN5k9zu9QAQ2FaTd7FE/Fno9hs:Pwpytvkhu9pQ+aTdC8hs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:P9KFZFytGANN5k9zu9QAQ2FaTd7FE/Fno9hs:Pwpytvkhu9pQ+aTdC8hs`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

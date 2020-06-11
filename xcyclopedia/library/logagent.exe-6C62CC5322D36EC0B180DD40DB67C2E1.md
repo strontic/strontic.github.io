@@ -1,10 +1,12 @@
 ﻿
 # logagent.exe 
+
 * File Path: `C:\Windows\system32\logagent.exe`
 * Description: Windows Media Player Logagent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6C62CC5322D36EC0B180DD40DB67C2E1`
@@ -15,6 +17,7 @@ SHA415 | `C1EFDD0FEBC6F5D95954D2D86B06F7513ADEB50ADA4BF20565593755E76D18147369F0
 SSDEEP | `1536:YSA8y59/iay73JyUzq3s/JJPjE2Ce87O1XqSQVfYWlC17ygPG8Tm0Okz89TWr1F:rmKY3yJbE2T87O1p4lCNYJkgdWrr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:YSA8y59/iay73JyUzq3s/JJPjE2Ce87O1XqSQVfYWlC17ygPG8Tm0Okz89TWr1F:r
 * Product Version: 12.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # rmttpmvscmgrsvr.exe 
+
 * File Path: `C:\Windows\system32\rmttpmvscmgrsvr.exe`
 * Description: TPM Virtual Smart Card Manager DCOM Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D438510CBFA334C76703910802FFD64A`
@@ -15,6 +17,7 @@ SHA415 | `DA1172F6A1BEEA3226F1FC1A8AC0C1D679349DA78E0C94B0999034F37498FBEA3AF393
 SSDEEP | `3072:NOqCXfLMrr3tWVhMbfu7Ya2JflqQ8dqcrPM:AqIq3Bbfu7Y5JN4kcr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:NOqCXfLMrr3tWVhMbfu7Ya2JflqQ8dqcrPM:AqIq3Bbfu7Y5JN4kcr`
 * Product Version: 10.0.14393.2248
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

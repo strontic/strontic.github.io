@@ -1,10 +1,12 @@
 ﻿
 # AppVStreamingUX.exe 
+
 * File Path: `C:\WINDOWS\system32\AppV\AppVStreamingUX.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3B4E3EC4711F640798E46AF3DC0AD5D3`
@@ -15,6 +17,7 @@ SHA415 | `41C790B37FEE62373ACF933DF0CBBC477624E18D0DE487187B68FA5D030A2BE2EEB0B5
 SSDEEP | `3072:kyIen7ExTWZTSddxYkEmIjr+pjMqVVdmabWcONiHNp6ei/EzbHMqVVdmabWcONil:T7ExKZUdXCaqg6RclCaqg6Rh/k`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:kyIen7ExTWZTSddxYkEmIjr+pjMqVVdmabWcONiHNp6ei/EzbHMqVVdmabWcONil:
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

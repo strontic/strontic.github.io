@@ -1,10 +1,12 @@
 ﻿
 # reg.exe 
+
 * File Path: `C:\Windows\SysWOW64\reg.exe`
 * Description: Registry Console Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `ECB768001DC8424E9B1FF3AC1E89C937`
@@ -15,6 +17,7 @@ SHA415 | `AE3751CB524C708CCEBE3841C5F783F1A6A4A27F1B057CB99E04E1F06525FFE11FE748
 SSDEEP | `1536:rRRsxYLSn2XmD+FcvgauM1DCulDYF1uUZYZNi:A2Y2cvBlDYF1RZcN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -77,5 +80,7 @@ Type "REG /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

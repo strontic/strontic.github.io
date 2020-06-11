@@ -1,10 +1,12 @@
 ﻿
 # hvloader.exe 
+
 * File Path: `C:\Windows\system32\hvloader.exe`
 * Description: HV Loader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7E5A06C8F5A7687A08283AB58C52E6CB`
@@ -15,6 +17,7 @@ SHA415 | `AE8B911E19A554A8A06D701BD05D43AD349EB7EC8DC3BA9DFBC256BDFB25E346F52088
 SSDEEP | `24576:zFR2MZIVWC/Ho/gAQ+z8Om7xu54vrlcxLXoIg:hRpaVWCD+INDlcxc/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:zFR2MZIVWC/Ho/gAQ+z8Om7xu54vrlcxLXoIg:hRpaVWCD+INDlcxc/`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

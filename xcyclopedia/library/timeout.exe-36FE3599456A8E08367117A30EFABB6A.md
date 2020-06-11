@@ -1,10 +1,12 @@
 ﻿
 # timeout.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\timeout.exe`
 * Description: timeout - pauses command processing
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `36FE3599456A8E08367117A30EFABB6A`
@@ -15,6 +17,7 @@ SHA415 | `D936F66869367DF24251DE7241768530C1450E55BDBFC6CD476D49D5EC37252290D344
 SSDEEP | `384:Em5HP2SF6SbP8Xqb4X6tU6E1bZSzXF56eWNjq2wdXonvYI1H5Mx4viGhLI1wh0WL:Em5HPpqqS6vX2T9q2IovZ5MxYewhsO1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -69,5 +72,7 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

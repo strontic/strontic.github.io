@@ -1,10 +1,12 @@
 ﻿
 # MpDlpCmd.exe 
+
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MpDlpCmd.exe`
 * Description: Microsoft Malware Protection DLP Command Line Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `36505607C5FE18E2B6E868E5ADF6BD94`
@@ -15,6 +17,7 @@ SHA415 | `C6DA6433234FFB6AC1BE0CC5E26C2D7EC0B1660624623B1635188D795B1751E57691D1
 SSDEEP | `6144:zPKePpKyzob2nBRmiTVVmVVV8VVNVVVcVVVxVVVPVVlVVVRVVVtVVWV60jVLVVOW:zPKeQyEaBTD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 MpDlpCmd: Failed with hr = 0x80070667.MpDlpCmd: Invalid command line argument
@@ -48,5 +51,7 @@ Usage: MpDlpCmd -<Command>
 * Product Version: 4.18.2004.6
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

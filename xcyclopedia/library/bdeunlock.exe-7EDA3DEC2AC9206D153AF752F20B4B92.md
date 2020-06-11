@@ -1,10 +1,12 @@
 ﻿
 # bdeunlock.exe 
+
 * File Path: `C:\WINDOWS\system32\bdeunlock.exe`
 * Description: BitLocker Unlock
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7EDA3DEC2AC9206D153AF752F20B4B92`
@@ -15,6 +17,7 @@ SHA415 | `B5C62EBA034F48EBD58850881AFFA7E6419709E8DD5B781ACAD794BD7EDCCED394C8FD
 SSDEEP | `6144:fP0J4POGmdJd474KENUMoMNlxJn1MNNoELCKVs7nyatGt+SYFmW2t:fPC4PH0dO4f1CNNHhH+S+O`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:fP0J4POGmdJd474KENUMoMNlxJn1MNNoELCKVs7nyatGt+SYFmW2t:fPC4PH0dO4f
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

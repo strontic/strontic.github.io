@@ -1,10 +1,12 @@
 ﻿
 # VSSUIRUN.exe 
+
 * File Path: `C:\Windows\SysWOW64\VSSUIRUN.exe`
 * Description: Configure Shadow Copies
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D19CB960CB648DE1C660BC81CE100243`
@@ -15,6 +17,7 @@ SHA415 | `18603C17DCA53BEFA21059420BFDA8176F77C5C5D710C4C16CF6F4A5EB23E73676CC42
 SSDEEP | `768:+o+ZPJzxnFapcUbMui+0V6Hepo9BE/1n/YIfbXzbkN4dppainbNnnnnnnnnnnnn2:8FadRQhmubXfk64inb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:+o+ZPJzxnFapcUbMui+0V6Hepo9BE/1n/YIfbXzbkN4dppainbNnnnnnnnnnnnn2:8
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

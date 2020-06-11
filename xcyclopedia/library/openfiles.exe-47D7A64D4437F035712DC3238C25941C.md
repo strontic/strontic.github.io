@@ -1,10 +1,12 @@
 ﻿
 # openfiles.exe 
+
 * File Path: `C:\Windows\system32\openfiles.exe`
 * Description: Displays the current open files list
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `47D7A64D4437F035712DC3238C25941C`
@@ -15,6 +17,7 @@ SHA415 | `3A373054E6F8D8CB0250ED19324291C826922498027CF7C9C8F8C2977C70A87C658267
 SSDEEP | `1536:iaRkJmD6MTXtlujhsCnEdOpTFV8MN3CEsevGef3B7jOx5UW:Nki6mXhOpbpJCEXB7jOxt`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -68,5 +71,7 @@ Type "OPENFILES /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

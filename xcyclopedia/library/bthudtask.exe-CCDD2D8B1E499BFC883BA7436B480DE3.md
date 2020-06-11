@@ -1,10 +1,12 @@
 ﻿
 # bthudtask.exe 
+
 * File Path: `C:\Windows\system32\bthudtask.exe`
 * Description: Bluetooth Uninstall Device Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CCDD2D8B1E499BFC883BA7436B480DE3`
@@ -15,6 +17,7 @@ SHA415 | `B3824502EF9D678078741EBDA37AC044F6FA3CD1EA2BB150B77BE2A7A9CE843EE2DD14
 SSDEEP | `384:xB/XWYz5UAFDKUKw2cfXNIZwAZdkkYWWUHWJKJajXDO1/EagS817l:f/mYNl49UfdYkkhEzDO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:xB/XWYz5UAFDKUKw2cfXNIZwAZdkkYWWUHWJKJajXDO1/EagS817l:f/mYNl49UfdY
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

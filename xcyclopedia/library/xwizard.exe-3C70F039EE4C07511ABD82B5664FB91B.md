@@ -1,10 +1,12 @@
 ﻿
 # xwizard.exe 
+
 * File Path: `C:\Windows\SysWOW64\xwizard.exe`
 * Description: Extensible Wizards Host Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3C70F039EE4C07511ABD82B5664FB91B`
@@ -15,6 +17,7 @@ SHA415 | `979DE327D129C2272781812D3AE03A8FB7A9CB52C3E41A13078992E9B9E7DB45AC6B52
 SSDEEP | `768:o5ObzBwv/bqaWLtpJwzh/rIo8YeTWs2IkRDzsq4ytZZZL2YCX4ib:o4KvGaiwVTIo18URDoq4OZZZLlCIib`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:o5ObzBwv/bqaWLtpJwzh/rIo8YeTWs2IkRDzsq4ytZZZL2YCX4ib:o4KvGaiwVTIo1
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # UNPUXHost.exe 
+
 * File Path: `C:\WINDOWS\system32\UNP\UNPUXHost.exe`
 * Description: UNPUXHost
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4AFAC1B50CD0B90CC0930C9418AF03DB`
@@ -15,6 +17,7 @@ SHA415 | `C72D174FFE0CB0560592F8D716ADC98B05E373845E5A25F80C1628BA8E2226EDCE1603
 SSDEEP | `768:1SvXdZFyP5TiadxlHHpo+03A23EFirAjjZlB3EGrI0KpJmHIpTc2SKMI1Pk3:wO5TimRJo+Y3YtpldEaKpoI9c2XP`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ msedge.exe
 * Product Version: 10.0.18362.592
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

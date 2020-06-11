@@ -1,10 +1,12 @@
 ﻿
 # openfiles.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\openfiles.exe`
 * Description: Displays the current open files list
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `900D74E3290692BDBD5A309E8C5BADB8`
@@ -15,6 +17,7 @@ SHA415 | `CA08723DCAC21C5B7EA3656B914E6FDFEC4618370672C8B486896DD29897653ADAF72B
 SSDEEP | `1536:hORf1xgApDmbw8/aH/4Rg30lc3eypgNammxdEn:RApDV8ifMg30lcYammxW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -46,5 +49,7 @@ ERROR: The target system must be running a 32 bit OS.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

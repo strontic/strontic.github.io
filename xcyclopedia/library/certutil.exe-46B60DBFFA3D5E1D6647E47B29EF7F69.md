@@ -1,10 +1,12 @@
 ﻿
 # certutil.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\certutil.exe`
 * Description: CertUtil.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `46B60DBFFA3D5E1D6647E47B29EF7F69`
@@ -15,6 +17,7 @@ SHA415 | `BA06B5B235E23F33C90EAAA18C9DF8AB3D681BD86D39C4D18602F75BDAB8769DCF2CDB
 SSDEEP | `24576:K8/xybz43b1MthtgIq3eY7J70MrDZjwTznwA74hLltY3RIzEKOruXTK2Hub7:zUt07J4MrDUkV7JOajK2Hu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -179,5 +182,7 @@ CertUtil: -? command completed successfully.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

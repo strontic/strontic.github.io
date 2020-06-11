@@ -1,10 +1,12 @@
 ﻿
 # NDP461-DevPack-KB3105179-ENU.exe 
+
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\NDP461-DevPack-KB3105179-ENU.exe`
 * Description: Microsoft .NET Framework 4.6.1 Developer Pack
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3C34A6ACE80A26B3189072DFB1AF9CB0`
@@ -15,6 +17,7 @@ SHA415 | `AE31897B5197C4E51F916EC1261D48D17CAAD3790C7BB3B6738A5D3030BAD8A97D1339
 SSDEEP | `6144:OqIuRebMq5S+Ud8QK+ehB9XgdmAeUBZ2x52OoElZTxP0hQg21OihqWnA6EccKsgd:OqIOkU8QMXE9B7PElZlPD1xqWnjTc4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:OqIuRebMq5S+Ud8QK+ehB9XgdmAeUBZ2x52OoElZTxP0hQg21OihqWnA6EccKsgd:
 * Product Version: 4.6.1055
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

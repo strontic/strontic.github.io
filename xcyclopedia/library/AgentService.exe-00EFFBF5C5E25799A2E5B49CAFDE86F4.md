@@ -1,10 +1,12 @@
 ﻿
 # AgentService.exe 
+
 * File Path: `C:\WINDOWS\system32\AgentService.exe`
 * Description: AgentService EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `00EFFBF5C5E25799A2E5B49CAFDE86F4`
@@ -15,6 +17,7 @@ SHA415 | `F216DDE8B55AB24157EAB1609065EF0056C1013786680F134566CDA6C98ED44F48B486
 SSDEEP | `24576:SHO2QxywLyc/VkxxnKNDzR+QaMLWRh229pI8LTJXkLh+fRhc5lEH02mJ7iz:sO2QxzDV0xnaDd+tHKJ4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:SHO2QxywLyc/VkxxnKNDzR+QaMLWRh229pI8LTJXkLh+fRhc5lEH02mJ7iz:sO2Q
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

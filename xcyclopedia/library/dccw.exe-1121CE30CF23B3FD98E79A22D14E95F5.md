@@ -1,10 +1,12 @@
 ﻿
 # dccw.exe 
+
 * File Path: `C:\Windows\SysWOW64\dccw.exe`
 * Description: Display Color Calibration
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1121CE30CF23B3FD98E79A22D14E95F5`
@@ -15,6 +17,7 @@ SHA415 | `4BEE7AEC8B25B2344658FCB240F16139ED6168A762708991159DF12963B89865D0762B
 SSDEEP | `12288:Vz5g7ZpGOhS/IzJqrraq/t2qXy6xdRhMA:Xg6GS/EEn/tkI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:Vz5g7ZpGOhS/IzJqrraq/t2qXy6xdRhMA:Xg6GS/EEn/tkI`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # MBR2GPT.EXE 
+
 * File Path: `C:\WINDOWS\system32\MBR2GPT.EXE`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B61D34A24656EFA52312F5DDD3E071D0`
@@ -15,6 +17,7 @@ SHA415 | `2538FB5773E45D950000B0C82E657829B524D3C2810C4E351D6D215B67BB2033C6F111
 SSDEEP | `12288:gEPjkp44aaCdEHeZPFqpjgfQ0/K+hhJbngfIWco0FM4P6B0thmKa:7PjklHCPF60WcoOjS0mK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -82,5 +85,7 @@ Invalid arguments
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

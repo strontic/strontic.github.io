@@ -1,10 +1,12 @@
 ﻿
 # dcgpofix.exe 
+
 * File Path: `C:\Windows\system32\dcgpofix.exe`
 * Description: Microsoft (C) Default Group Policy Object Restore Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `240AB7E571FC384F8A5C48985856011E`
@@ -15,6 +17,7 @@ SHA415 | `E665B41756464FD81618FA6972BAAB13A8213788186381A05C5FC5C287E5E28D6EB0FE
 SSDEEP | `1536:ZNYh3QQ1eb2045yZhteRKntUIc+aW8R77QVfI:kXet/7t4+aNR77iQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -60,5 +63,7 @@ Optional. Use this switch to enable this tool to ignore the schema version of  A
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

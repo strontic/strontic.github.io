@@ -1,10 +1,12 @@
 ﻿
 # ctfmon.exe 
+
 * File Path: `C:\Windows\SysWOW64\ctfmon.exe`
 * Description: CTF Loader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `29656B9E6B04C85E7BF4018B6844BE28`
@@ -15,6 +17,7 @@ SHA415 | `57D7BFD06DA4D25091114D697F3DE5D8B34CE38DC8D70968E0476771B176BD6E2BC600
 SSDEEP | `96:TekkA3GX9c27oo90tPDWPT4u14HbJV/s/iDm9os0Tz0DJ7pRKRNEW6gWw0ee0qZ:SkkAWXOI/TKbeiS9os0TzitW6gWV0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:TekkA3GX9c27oo90tPDWPT4u14HbJV/s/iDm9os0Tz0DJ7pRKRNEW6gWw0ee0qZ:Skk
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

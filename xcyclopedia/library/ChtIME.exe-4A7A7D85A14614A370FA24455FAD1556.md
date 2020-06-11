@@ -1,10 +1,12 @@
 ﻿
 # ChtIME.exe 
+
 * File Path: `C:\Windows\system32\InputMethod\CHT\ChtIME.exe`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4A7A7D85A14614A370FA24455FAD1556`
@@ -15,6 +17,7 @@ SHA415 | `AD0C4F24D8B144D9899F538D8BDE814415FA72F9F1A2F20E8F6CBAD03E65C6B7BC6108
 SSDEEP | `6144:5Bn1GSZm12oszthUHA+DfZ2MBeHHb03fxahO7ZI:5psym12oZHA+DwGfAF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:5Bn1GSZm12oszthUHA+DfZ2MBeHHb03fxahO7ZI:5psym12oZHA+DwGfAF`
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

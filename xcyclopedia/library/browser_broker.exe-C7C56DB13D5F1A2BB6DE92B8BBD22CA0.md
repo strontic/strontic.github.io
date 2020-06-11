@@ -1,10 +1,12 @@
 ﻿
 # browser_broker.exe 
+
 * File Path: `C:\Windows\system32\browser_broker.exe`
 * Description: Browser_Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C7C56DB13D5F1A2BB6DE92B8BBD22CA0`
@@ -15,6 +17,7 @@ SHA415 | `B7D27488AE9235A800145062C7146C455D903BEEEC5B2049B3A340B15C13C611C0F013
 SSDEEP | `384:/789syaX6EptzFas9SYtSZu0h5Q2DgWQHFWMWbHFWumXjDBRJp81Zl9Qz:/geXPXzcW0ha2DKEyXj1PAY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:/789syaX6EptzFas9SYtSZu0h5Q2DgWQHFWMWbHFWumXjDBRJp81Zl9Qz:/geXPXzc
 * Product Version: 11.00.14393.2791
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

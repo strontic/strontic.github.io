@@ -1,10 +1,12 @@
 ﻿
 # oobeldr.exe 
+
 * File Path: `C:\Windows\system32\oobe\oobeldr.exe`
 * Description: OOBE Loader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3E9EFBFB004E0698438D51FB383727B2`
@@ -15,6 +17,7 @@ SHA415 | `751E000A6115E7CF79DBA56A681C13AC4F7268A3BCF942AA35414FFEB1E88623B098B3
 SSDEEP | `768:McYoysP9ODc0Z6nNKl2UOVtIoDfMpJQIazVQuReUvg6kjYw+VdCZeCx/CYybL1Qy:M/sIrZ6ncstZTMDtua6k7OCIClCZiUI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:McYoysP9ODc0Z6nNKl2UOVtIoDfMpJQIazVQuReUvg6kjYw+VdCZeCx/CYybL1Qy:M
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

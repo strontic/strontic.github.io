@@ -1,10 +1,12 @@
 ﻿
 # comp.exe 
+
 * File Path: `C:\Windows\SysWOW64\comp.exe`
 * Description: File Compare Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `55EE66B7718A5402A3BD68EF8FABAF5E`
@@ -15,6 +17,7 @@ SHA415 | `AEB90CA095797BAB45E71AE252D00F440DE6804F6B1EEB3A8FB22B8D19B98944601D09
 SSDEEP | `384:bKrfzScjH8Doidi+cIVSXphKPH5wtGN7WjcWKB:bKr9Hjidi4VmQmGCYB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Compares the contents of two files or sets of files.
@@ -59,5 +62,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

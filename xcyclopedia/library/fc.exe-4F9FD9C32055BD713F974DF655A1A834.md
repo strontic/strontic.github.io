@@ -1,10 +1,12 @@
 ﻿
 # fc.exe 
+
 * File Path: `C:\Windows\system32\fc.exe`
 * Description: DOS 5 File Compare Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4F9FD9C32055BD713F974DF655A1A834`
@@ -15,6 +17,7 @@ SHA415 | `A2B5BA13D42EC3FCB28BAE9EEC38AF857EA9D5131C186C50996F00028E394E6F78A94B
 SSDEEP | `384:uuZasabyl+bHLdPGNu59VpoVfO5HyfTC9A8ih8eWrqYW:nasa+l+l2u59oVkyLCFrq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Compares two files or sets of files and displays the differences between
@@ -73,5 +76,7 @@ FC: Insufficient number of file specifications
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # psr.exe 
+
 * File Path: `C:\Windows\SysWOW64\psr.exe`
 * Description: Steps Recorder
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D1D04E03BE76897B60E4CF5500007CAE`
@@ -15,6 +17,7 @@ SHA415 | `8C9C463DC6ED89A602CBB7CDA3ECA6744DA749488910A085C14E39636D6D81BCEA39D5
 SSDEEP | `6144:ZIT4UtEKMwWGFCysoCJAVcD8LPhSiWofQr2k5l8BmMxowi/EH1g:ZAVEwrcD8pellpco//EH1g`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:ZIT4UtEKMwWGFCysoCJAVcD8LPhSiWofQr2k5l8BmMxowi/EH1g:ZAVEwrcD8pell
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

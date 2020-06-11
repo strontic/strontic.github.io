@@ -1,10 +1,12 @@
 ﻿
 # pacjsworker.exe 
+
 * File Path: `C:\WINDOWS\system32\pacjsworker.exe`
 * Description: HTTP Auto Proxy Detection Worker Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7CC6A3E8D83E4E394F7013BA2ECDE1D4`
@@ -15,6 +17,7 @@ SHA415 | `1FE97B00E0B3E06CC28675AAAE271EFCA9737E6D19C6098603BA1E54A478F326E00B43
 SSDEEP | `192:/AU3HPC1wwnUAVoNvDxPNwhxST1aE9cKIdWaNAW:HHzwnU0oBOkcKaWaNAW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:/AU3HPC1wwnUAVoNvDxPNwhxST1aE9cKIdWaNAW:HHzwnU0oBOkcKaWaNAW`
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

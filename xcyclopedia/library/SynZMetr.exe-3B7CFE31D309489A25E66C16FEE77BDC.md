@@ -1,10 +1,12 @@
 ﻿
 # SynZMetr.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_b28b907efbdd0634\SynZMetr.exe`
 * Description: Synaptics Pressure Graph
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3B7CFE31D309489A25E66C16FEE77BDC`
@@ -15,6 +17,7 @@ SHA415 | `18C6D82E5A0BA6E5AEBED4286F2910888C2849E63B82ACB924E96A341F625AAC97138A
 SSDEEP | `3072:JIWrQgt6PmvebEc5jQQMalHt/TM03bXu75nZwpJ8k1wr73U1QfK5IC/tJ4IOTa7:OW/t6Pmvegy02t/b+73w3R+ID`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:JIWrQgt6PmvebEc5jQQMalHt/TM03bXu75nZwpJ8k1wr73U1QfK5IC/tJ4IOTa7:O
 * Product Version: 15.3.29 13Oct11
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2011
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # lodctr.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\lodctr.exe`
 * Description: Load PerfMon Counters
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CF8FC7C3E40105C13B6294418D1CB670`
@@ -15,6 +17,7 @@ SHA415 | `26AE574F982703CCD587EECC329FB7C77A53560A9C4A4CD65AEC82BFEFD2AFEE767E3A
 SSDEEP | `768:tJ3ZlM8ZiyQE48ejycQTHoAug/NkSAjdA8VoczAtJuHygYnHuw7XJ:9lM8oyQEVImHoAugCSAjVVBHkHuw7XJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -114,5 +117,7 @@ quotation marks.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

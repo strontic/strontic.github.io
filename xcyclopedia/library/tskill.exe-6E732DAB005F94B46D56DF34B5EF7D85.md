@@ -1,10 +1,12 @@
 ﻿
 # tskill.exe 
+
 * File Path: `C:\WINDOWS\system32\tskill.exe`
 * Description: Remote Desktop Services End Process Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6E732DAB005F94B46D56DF34B5EF7D85`
@@ -15,6 +17,7 @@ SHA415 | `DD096D8B69749202F1CCB5145D346BDC27A8FBC8D48B5C1281404BE5CB59F563AE7EDF
 SSDEEP | `384:deUPfdE901EeMrjS/JI8lEgz5ZhJK8bg1Kl4uwkU2i4xxC5xCInHWqSUZpyCyW42:deUoyQrjSBI8zJJK8bcKZwPNmxC5xCsp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -59,5 +62,7 @@ TSKILL processid | processname [/SERVER:servername] [/ID:sessionid | /A] [/V]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

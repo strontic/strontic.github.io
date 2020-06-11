@@ -1,10 +1,12 @@
 ﻿
 # UevAgentPolicyGenerator.exe 
+
 * File Path: `C:\WINDOWS\system32\UevAgentPolicyGenerator.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DB9581764DBE3AC8FF9AB2F52F2C7A2D`
@@ -15,6 +17,7 @@ SHA415 | `115EB42E5FE5305244C5E6DFB870DB864A29251B6809E27A2FA8BE872276DC9F4D83E8
 SSDEEP | `384:kZm0fhsl8PKzKq06MUt3jt/KJSaI3DDvQS114fOmDH1J/8rfZuKRSfDOya2VFkmN:kkllzqD2ZRP2VFk8vnjHn6tPt0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:kZm0fhsl8PKzKq06MUt3jt/KJSaI3DDvQS114fOmDH1J/8rfZuKRSfDOya2VFkmN:k
 * Product Version: 10.0.18362.449
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

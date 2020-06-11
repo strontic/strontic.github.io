@@ -1,10 +1,12 @@
 ﻿
 # dllhst3g.exe 
+
 * File Path: `C:\Windows\system32\dllhst3g.exe`
 * Description: COM Surrogate
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DC9817C8F88FB51BEC1F2A16A2AC5234`
@@ -15,6 +17,7 @@ SHA415 | `296392EC2EE5B2EF4504C61F6007017ECFED47FAF527B95EEE425B35DE687B33417B17
 SSDEEP | `192:n40Y2eSwWhTWsxDEF+HsaHL010pEBswbWCyW:n40UWhTWs6cWs8WCyW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:n40Y2eSwWhTWsxDEF+HsaHL010pEBswbWCyW:n40UWhTWs6cWs8WCyW`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

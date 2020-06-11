@@ -1,10 +1,12 @@
 ﻿
 # DmOmaCpMo.exe 
+
 * File Path: `C:\Windows\system32\DmOmaCpMo.exe`
 * Description: Host Process for OMA-CP Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0EB3D27E3F73231822E8E646028ACB81`
@@ -15,6 +17,7 @@ SHA415 | `15D77C95B8B8C0691B99F544D743530D8E42E7CA053624DFE95C44CA6559F2A120336A
 SSDEEP | `384:MLxWPh+ywR0bGYid9hpRjrTMCezDi8rVnrMReuU/3upCW6pxeW:9PMywRBPPhpxMX28BnrMLK3omx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:MLxWPh+ywR0bGYid9hpRjrTMCezDi8rVnrMReuU/3upCW6pxeW:9PMywRBPPhpxMX2
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

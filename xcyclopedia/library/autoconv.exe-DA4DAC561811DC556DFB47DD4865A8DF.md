@@ -1,10 +1,12 @@
 ﻿
 # autoconv.exe 
+
 * File Path: `C:\WINDOWS\system32\autoconv.exe`
 * Description: Auto File System Conversion Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DA4DAC561811DC556DFB47DD4865A8DF`
@@ -15,6 +17,7 @@ SHA415 | `96C467AB45F9A7198DF221B47E26E7270FDDF37F61737FDCC7612AD94AC0B1798EFECD
 SSDEEP | `12288:O1vnIHUlk/q2fUxX57JisWaJvgFme2cgaRSY0LK4MbVk2PCMOB4tr:OFnOd/q2fmQsWSYme2ckY54eq/2h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:O1vnIHUlk/q2fUxX57JisWaJvgFme2cgaRSY0LK4MbVk2PCMOB4tr:OFnOd/q2fm
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # igfxext.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxext.exe`
 * Description: igfxext Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1845629B7AF497702DD567A3E8B00E3C`
@@ -15,6 +17,7 @@ SHA415 | `2946CCB90C506CFCFB667D23991099E4C5A2C79EBD8A7C9693542E0546641BD39B9A96
 SSDEEP | `3072:LuVyH6UbOiGETepffvM1iOZZ2rSkwBxRBpBP1FH+JkkxNZVgXLcZmcoG3jjgJDfP:LJOlETQ3vMjQnuxfzrBLU976fvH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:LuVyH6UbOiGETepffvM1iOZZ2rSkwBxRBpBP1FH+JkkxNZVgXLcZmcoG3jjgJDfP:
 * Product Version: 6.15.10.3682
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # ktmutil.exe 
+
 * File Path: `C:\Windows\system32\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E1E323995AAB4B9491F326F15A067748`
@@ -15,6 +17,7 @@ SHA415 | `6FB2BC407014FE3F6E03431F6A1DE4F00158C1B0C7D9E108DF3BC09D95323994FADF55
 SSDEEP | `384:qbzPHplMV00/RJWZtq6Ext6+NQfA+D2XSPf+mW8jW:qbDzMVPQZjEvNDI2CP2k`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 -help is an invalid parameter.
@@ -50,5 +53,7 @@ tm     Commands related to transaction managers
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

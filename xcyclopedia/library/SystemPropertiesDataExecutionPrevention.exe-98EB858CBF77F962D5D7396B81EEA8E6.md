@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesDataExecutionPrevention.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemPropertiesDataExecutionPrevention.exe`
 * Description: Change Data Execution Prevention Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `98EB858CBF77F962D5D7396B81EEA8E6`
@@ -15,6 +17,7 @@ SHA415 | `F3F9A5DE500D782FBD8FA527C0AEBC75BB996EEAEB738D961FE29C581899483061DEC5
 SSDEEP | `1536:mimZPtREC/rMcgEPJV+G57ThjEC0kzJP+V5JK:m7PzECTMpuDhjRVJGo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:mimZPtREC/rMcgEPJV+G57ThjEC0kzJP+V5JK:m7PzECTMpuDhjRVJGo`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

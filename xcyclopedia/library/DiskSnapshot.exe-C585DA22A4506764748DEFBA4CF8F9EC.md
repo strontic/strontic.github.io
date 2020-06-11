@@ -1,10 +1,12 @@
 ﻿
 # DiskSnapshot.exe 
+
 * File Path: `C:\WINDOWS\system32\DiskSnapshot.exe`
 * Description: DiskSnapshot.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C585DA22A4506764748DEFBA4CF8F9EC`
@@ -15,6 +17,7 @@ SHA415 | `8365478477758FBFD9315B632EA43F3A8C48F6B2E894FF7B1365FD3074E7157D763E97
 SSDEEP | `1536:0t1XK6Z5eFG2Wj0bXWkA3u+gnp5xSfZymol31:/6/X7j0jWkA3u+gnp5xUyN31`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -56,5 +59,7 @@ DiskSnapshot.exe [options]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

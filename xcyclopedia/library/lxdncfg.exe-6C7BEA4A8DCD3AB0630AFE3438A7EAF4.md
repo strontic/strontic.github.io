@@ -1,10 +1,12 @@
 ﻿
 # lxdncfg.exe 
+
 * File Path: `C:\WINDOWS\system32\lxdncfg.exe`
 * Description: Printer Communication System
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6C7BEA4A8DCD3AB0630AFE3438A7EAF4`
@@ -15,6 +17,7 @@ SHA415 | `D3EC878C33739BBF11C10A1C86636E4A0964E0AA163D388569CE74FA763FE5C39324AA
 SSDEEP | `12288:ZzBu6pHMYlJtzUwcCO6OxlaPu5DBLG+tv44Y3bODRz:ZzB7nJtzGCO6OraPu9tv44I6z`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:ZzBu6pHMYlJtzUwcCO6OxlaPu5DBLG+tv44Y3bODRz:ZzB7nJtzGCO6OraPu9tv4
 * Product Version: 1.233.39.0
 * Language: English (United States)
 * Legal Copyright:  
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

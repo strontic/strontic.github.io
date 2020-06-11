@@ -1,10 +1,12 @@
 ﻿
 # WFS.exe 
+
 * File Path: `C:\WINDOWS\system32\WFS.exe`
 * Description: Microsoft  Windows Fax and Scan
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7D05DBCCB67C329AD2F2E5FCAEE84260`
@@ -15,6 +17,7 @@ SHA415 | `92E02D9933CEFD5D47C21E0B0B8AAB8796A2E72AA5F06CFB82EB954E7A717423E7E653
 SSDEEP | `12288:XbvNyOSTTKcrOmqXE7b5sJbD5qgHqRz0Sc5GUXBue1I+xt4vFe:rw8m8EygaMc5GK1uvFe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:XbvNyOSTTKcrOmqXE7b5sJbD5qgHqRz0Sc5GUXBue1I+xt4vFe:rw8m8EygaMc5G
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

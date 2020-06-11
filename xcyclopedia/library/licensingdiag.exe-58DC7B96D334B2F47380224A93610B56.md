@@ -1,10 +1,12 @@
 ﻿
 # licensingdiag.exe 
+
 * File Path: `C:\Windows\system32\licensingdiag.exe`
 * Description: Licensing Diagnostic Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `58DC7B96D334B2F47380224A93610B56`
@@ -15,6 +17,7 @@ SHA415 | `822ACB7930F85B9902D3394E9C7180703B678B4DB9E0E4DA8AA02490182422B1A847CE
 SSDEEP | `1536:BIl84wWlkIGxab8nuviEHeobh2ejgy3VTVuaxpvE:BdxawW7eC8u3h0aT8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

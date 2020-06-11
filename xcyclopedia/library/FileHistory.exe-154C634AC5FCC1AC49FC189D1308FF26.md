@@ -1,10 +1,12 @@
 ﻿
 # FileHistory.exe 
+
 * File Path: `C:\WINDOWS\system32\FileHistory.exe`
 * Description: File History
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `154C634AC5FCC1AC49FC189D1308FF26`
@@ -15,6 +17,7 @@ SHA415 | `1734455A15F224F9AF60928ED642E959C6536FC628DE29BC4D0151C2273A582AFE4573
 SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:Gcs3IvxzYuVD8CnxICGJn+jobd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:G
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

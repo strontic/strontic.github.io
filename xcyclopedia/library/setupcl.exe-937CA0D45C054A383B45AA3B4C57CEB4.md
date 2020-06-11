@@ -1,10 +1,12 @@
 ﻿
 # setupcl.exe 
+
 * File Path: `C:\WINDOWS\system32\setupcl.exe`
 * Description: System Clone Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `937CA0D45C054A383B45AA3B4C57CEB4`
@@ -15,6 +17,7 @@ SHA415 | `44B7909844F86339594480F4B987DB32D416FDF3BDE8E46013058CFC2116D827B5776C
 SSDEEP | `3072:dAKweaSxR7c//nxGB85alG7PKUdl8U4Bfb7CCaJ4lKC8Aum0:dAKHaSxR+/f5alcub7CS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:dAKweaSxR7c//nxGB85alG7PKUdl8U4Bfb7CCaJ4lKC8Aum0:dAKHaSxR+/f5alcu
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

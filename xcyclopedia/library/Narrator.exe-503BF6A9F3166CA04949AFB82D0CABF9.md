@@ -1,10 +1,12 @@
 ﻿
 # Narrator.exe 
+
 * File Path: `C:\WINDOWS\system32\Narrator.exe`
 * Description: Screen Reader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `503BF6A9F3166CA04949AFB82D0CABF9`
@@ -15,6 +17,7 @@ SHA415 | `74168F4FE678B926B247DA539CB5CEE3A10F5C9D563B24B4491757E29E1BE4FDDC9FCB
 SSDEEP | `6144:AfEpTAwIWqIq83D2NKPgtHBKnV942qjn6+5v6fUTfzyX:fpTtIWq6SNKPgtHBQy6+cozy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:AfEpTAwIWqIq83D2NKPgtHBKnV942qjn6+5v6fUTfzyX:fpTtIWq6SNKPgtHBQy6+
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

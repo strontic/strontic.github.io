@@ -1,10 +1,12 @@
 ﻿
 # msdtc.exe 
+
 * File Path: `C:\WINDOWS\system32\msdtc.exe`
 * Description: Microsoft Distributed Transaction Coordinator Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DC59FE37CFF118B6DAC426FE9923B32C`
@@ -15,6 +17,7 @@ SHA415 | `3E5E3A16008E510172A5D97DF8A5D1F0FC5330837A1A5C0D53E3D02B32075C468F1DA3
 SSDEEP | `1536:jpfIniVRD81jmGX8q15ZkMH1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lk:zVFNzqBkfv7fcmEAkyXiqk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:jpfIniVRD81jmGX8q15ZkMH1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lk:zVFNzqB
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

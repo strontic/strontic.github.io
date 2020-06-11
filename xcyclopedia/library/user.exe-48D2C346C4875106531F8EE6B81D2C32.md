@@ -1,10 +1,12 @@
 ﻿
 # user.exe 
+
 * File Path: `C:\Windows\SysWOW64\user.exe`
 * Description: User
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `48D2C346C4875106531F8EE6B81D2C32`
@@ -15,6 +17,7 @@ SHA415 | `43C56A955A427CF988F3A30B4875C0A847C11EECDA3D3A0043E49B16F79C93CDD6E8CD
 SSDEEP | `24:e1GS3Y23ddVXHsUjhGKgt46IZW0g5cNDsf2Si35WWdPPYPNS:S3/HOYQtVIZWjgYVo5WwHg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24:e1GS3Y23ddVXHsUjhGKgt46IZW0g5cNDsf2Si35WWdPPYPNS:S3/HOYQtVIZWjgYVo5
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

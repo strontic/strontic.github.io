@@ -1,10 +1,12 @@
 ﻿
 # WinRTNetMUAHostServer.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\WinRTNetMUAHostServer.exe`
 * Description: WinRTNet MUA HostServer EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `085E55B1669D4B4CB3D0EB6AA95BC6A9`
@@ -15,6 +17,7 @@ SHA415 | `48E80E7A196CCFD386BBC4D5ABF18DF0BAC05169731BD030FCDC4F79F4083CDEB29DC2
 SSDEEP | `384:LMckxIQG2fZHN66ROOrklUklEZ57kpwBnTVn82Q3UUWQoW1wn:QIQG25LAIvQ3jvw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:LMckxIQG2fZHN66ROOrklUklEZ57kpwBnTVn82Q3UUWQoW1wn:QIQG25LAIvQ3jvw`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

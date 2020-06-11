@@ -1,10 +1,12 @@
 ﻿
 # ServerManager.exe 
+
 * File Path: `C:\Windows\system32\ServerManager.exe`
 * Description: Server Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `83D44E309295488A933B084288B976D8`
@@ -15,6 +17,7 @@ SHA415 | `5D32B05803603F1910E0C8F0F3659042F40C966B99564FE99C8F354DAD4F275A9E8914
 SSDEEP | `3072:wBQrNQUQXf8fyOcR1HnPYctZLF9nM6zQHo:wGuUQPzAGR9M`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:wBQrNQUQXf8fyOcR1HnPYctZLF9nM6zQHo:wGuUQPzAGR9M`
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

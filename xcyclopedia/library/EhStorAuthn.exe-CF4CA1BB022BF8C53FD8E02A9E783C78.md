@@ -1,10 +1,12 @@
 ﻿
 # EhStorAuthn.exe 
+
 * File Path: `C:\Windows\SysWOW64\EhStorAuthn.exe`
 * Description: Microsoft Enhanced Storage Authentication Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CF4CA1BB022BF8C53FD8E02A9E783C78`
@@ -15,6 +17,7 @@ SHA415 | `BB0A674EF5570328725F44BE1D0D7CA364C330F4457BE2D5D320264B330B26BCEFB6A8
 SSDEEP | `1536:cqxyzyCaU4o9edlBYGYhveomgPHA5kG9mQ7N6wMkNaAYG5n8s:aaUmDBY5hvxPxQZDFcZIZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:cqxyzyCaU4o9edlBYGYhveomgPHA5kG9mQ7N6wMkNaAYG5n8s:aaUmDBY5hvxPxQZ
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

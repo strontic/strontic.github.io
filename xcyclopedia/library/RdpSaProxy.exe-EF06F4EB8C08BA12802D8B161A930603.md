@@ -1,10 +1,12 @@
 ﻿
 # RdpSaProxy.exe 
+
 * File Path: `C:\Windows\SysWOW64\RdpSaProxy.exe`
 * Description: RDP Session Agent Proxy
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EF06F4EB8C08BA12802D8B161A930603`
@@ -15,6 +17,7 @@ SHA415 | `BAF032D4F6E05583818C630CA6FF12DEEF585785DB305752E1761DB0CD97BF9729ACE2
 SSDEEP | `384:/L5k/aLdITBPd0f/X5J19YFN1X/Gg/ZEv9WB9VW:j5fRsBPdO/f1i3Gv2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:/L5k/aLdITBPd0f/X5J19YFN1X/Gg/ZEv9WB9VW:j5fRsBPdO/f1i3Gv2`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

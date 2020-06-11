@@ -1,10 +1,12 @@
 ﻿
 # SearchProtocolHost.exe 
+
 * File Path: `C:\WINDOWS\system32\SearchProtocolHost.exe`
 * Description: Microsoft Windows Search Protocol Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2EF0A0531B2566153D9A3DF4160F650B`
@@ -15,6 +17,7 @@ SHA415 | `844F41E051DDC2A41F832B9AE13D9615B9D541CD494D833B351C551659803FE04D3E91
 SSDEEP | `6144:JFGI4vnjysb1AjnqHOtBC/RHSpN3wDyzpn90EqGTxrkR10efUK3:J8I4PjLb6+HOa/RSpNhcEdtQztf9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:JFGI4vnjysb1AjnqHOtBC/RHSpN3wDyzpn90EqGTxrkR10efUK3:J8I4PjLb6+HOa
 * Product Version: 7.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

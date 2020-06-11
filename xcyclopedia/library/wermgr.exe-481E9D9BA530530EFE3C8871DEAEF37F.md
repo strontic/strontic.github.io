@@ -1,10 +1,12 @@
 ﻿
 # wermgr.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\wermgr.exe`
 * Description: Windows Problem Reporting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `481E9D9BA530530EFE3C8871DEAEF37F`
@@ -15,6 +17,7 @@ SHA415 | `9DD514F2829CBE958A626CA10B31E2035A5FF8C0F1EB170FFA5DDE34D37A331BABBF05
 SSDEEP | `6144:msVFVSHm0qTiCH+/e47U5Bhl6ZKjUWQE12KOXVJyB60OHyLC7vX9a:jVh3KoBhMZKjUzEFOlc2Hyw/0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:msVFVSHm0qTiCH+/e47U5Bhl6ZKjUWQE12KOXVJyB60OHyLC7vX9a:jVh3KoBhMZK
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

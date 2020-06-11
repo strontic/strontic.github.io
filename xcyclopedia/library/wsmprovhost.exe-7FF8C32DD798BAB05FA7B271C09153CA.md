@@ -1,10 +1,12 @@
 ﻿
 # wsmprovhost.exe 
+
 * File Path: `C:\Windows\SysWOW64\wsmprovhost.exe`
 * Description: Host process for WinRM plug-ins
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7FF8C32DD798BAB05FA7B271C09153CA`
@@ -15,6 +17,7 @@ SHA415 | `AC812C3214EA5616DE8D7C74D2A5915EDF4E2353CC929D8B70FF0C8E3C30A0EC6D914D
 SSDEEP | `768:yFCKVJxp8aWrk/gl6gzuVv+3HJhrJQL5dFSm1ZqnJUi/G:yYYjW/rk4RN3kv6nJUi/G`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:yFCKVJxp8aWrk/gl6gzuVv+3HJhrJQL5dFSm1ZqnJUi/G:yYYjW/rk4RN3kv6nJUi/
 * Product Version: 10.0.14393.3541
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

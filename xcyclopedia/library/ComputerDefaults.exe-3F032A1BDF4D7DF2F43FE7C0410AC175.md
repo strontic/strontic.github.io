@@ -1,10 +1,12 @@
 ﻿
 # ComputerDefaults.exe 
+
 * File Path: `C:\Windows\system32\ComputerDefaults.exe`
 * Description: Set Program Access and Computer Defaults Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3F032A1BDF4D7DF2F43FE7C0410AC175`
@@ -15,6 +17,7 @@ SHA415 | `C281C1009D2CF7CC41E45B39E3EFBBAD3AED091A21FAC30EE369281BAF4C0D9AC190B3
 SSDEEP | `1536:gS1tjONtCc7jFGPURDoq4OZZZLlCIibk:7HOocRD68wbk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:gS1tjONtCc7jFGPURDoq4OZZZLlCIibk:7HOocRD68wbk`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

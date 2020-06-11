@@ -1,10 +1,12 @@
 ﻿
 # w32tm.exe 
+
 * File Path: `C:\Windows\SysWOW64\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BEDC6052E058F12EC66178A195202C8F`
@@ -15,6 +17,7 @@ SHA415 | `AD68685C06DD83CA212B1DB4CCC58569257191B35971E6FFE8A6E2C6FAA093206DB3FD
 SSDEEP | `1536:ea2Ypn6hrDAErmKFUWE4lv+0sn9bsmAkLMqIOvPlorzq/K:eaz6hfpr1KWE4ASCIGPlm4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 w32tm [/? | /register | /unregister ]
@@ -172,5 +175,7 @@ RdpSa.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

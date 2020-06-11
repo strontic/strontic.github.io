@@ -1,10 +1,12 @@
 ﻿
 # WerFault.exe 
+
 * File Path: `C:\Windows\SysWOW64\WerFault.exe`
 * Description: Windows Problem Reporting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `78E2621A3ED108179AE91557C1F21DDA`
@@ -15,6 +17,7 @@ SHA415 | `DC9504F60CFB16A154C8AD357A6C29646294CF658569EF56BA92B220489C7ACA91101E
 SSDEEP | `6144:Yeo6g5XV78CqRujwNY9MVJyB60OHyLC7vdw:1g/gCqRBN5c2Hywy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:Yeo6g5XV78CqRujwNY9MVJyB60OHyLC7vdw:1g/gCqRBN5c2Hywy`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

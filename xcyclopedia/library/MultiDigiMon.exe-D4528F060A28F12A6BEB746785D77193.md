@@ -1,10 +1,12 @@
 ﻿
 # MultiDigiMon.exe 
+
 * File Path: `C:\Windows\system32\MultiDigiMon.exe`
 * Description: Digitizer to Monitor Mapping Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D4528F060A28F12A6BEB746785D77193`
@@ -15,6 +17,7 @@ SHA415 | `ECF026BAF407B969F57B79EDF301DC02922C0C146BA5AF354A643ACD0447E2A663423A
 SSDEEP | `768:LB8jP8jVgBJs1KstTLkbPQ9mKoH1Xzijfblu/qdfdh22C+BH7sFpCKcKP:dI2msFVk0oKBRuydfW2jbJK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:LB8jP8jVgBJs1KstTLkbPQ9mKoH1Xzijfblu/qdfdh22C+BH7sFpCKcKP:dI2msFVk
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

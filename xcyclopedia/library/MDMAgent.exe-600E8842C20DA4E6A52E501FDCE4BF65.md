@@ -1,10 +1,12 @@
 ﻿
 # MDMAgent.exe 
+
 * File Path: `C:\WINDOWS\system32\MDMAgent.exe`
 * Description: MDMAgent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `600E8842C20DA4E6A52E501FDCE4BF65`
@@ -15,6 +17,7 @@ SHA415 | `73B5AF967F900F6735E5372056ED9D7C216C821F66E77BC327BF297A669115586DD2A1
 SSDEEP | `3072:WwHm44Z8eunMeM9NX3SHAnZ2XMseZ/Mg:WiX4Xn0eR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:WwHm44Z8eunMeM9NX3SHAnZ2XMseZ/Mg:WiX4Xn0eR`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

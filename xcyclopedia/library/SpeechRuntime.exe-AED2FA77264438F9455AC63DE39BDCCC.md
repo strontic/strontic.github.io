@@ -1,10 +1,12 @@
 ﻿
 # SpeechRuntime.exe 
+
 * File Path: `C:\WINDOWS\system32\Speech_OneCore\common\SpeechRuntime.exe`
 * Description: Speech Runtime Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AED2FA77264438F9455AC63DE39BDCCC`
@@ -15,6 +17,7 @@ SHA415 | `9FD099E8C0DC29EEE34B2A960FA565AB9D4EB3BC77B077DBCE5DEBE081273B56E43775
 SSDEEP | `3072:xYDha79YqPxnPM+7qpkneC6usF5oJqUXOnAmtbZdn9GfLGCDd8THwz5OhvF:5xtm26fF5WqUX41n9GfLU04`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:xYDha79YqPxnPM+7qpkneC6usF5oJqUXOnAmtbZdn9GfLGCDd8THwz5OhvF:5xtm2
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

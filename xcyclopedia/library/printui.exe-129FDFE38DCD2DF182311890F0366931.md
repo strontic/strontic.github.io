@@ -1,10 +1,12 @@
 ﻿
 # printui.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\printui.exe`
 * Description: Change Printing Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `129FDFE38DCD2DF182311890F0366931`
@@ -15,6 +17,7 @@ SHA415 | `DCC6E16ED3CBF8EE39E88E93FAB251901C43D173DC82FCED9FD06E7C7329FFB0644F68
 SSDEEP | `768:Ug6gpziuE5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnQ3:wQcVIPd4n+lbeRZIbSQPPA7t3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Ug6gpziuE5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnQ3:wQ
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

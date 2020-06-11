@@ -1,10 +1,12 @@
 ﻿
 # djoin.exe 
+
 * File Path: `C:\WINDOWS\system32\djoin.exe`
 * Description: Unattended Setup Generic Command For Domain Join
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FC389A4A4EE92F6472F7A19849AC7DF4`
@@ -15,6 +17,7 @@ SHA415 | `AAC75C26BC9CE73C77B8B97FA551D983FF282D907EE1B8E2FCC98BB78C0E0D6F6722CB
 SSDEEP | `768:3TEB5BmzKrhhEghX5uPewgHIUajrWQy9N0G9Bkj2sMIj8FY8MEyGpqAJrb0L/YO7:DknrhthAp22CfBkj2s3GtywzJXGMyQJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: djoin.exe [/OPTIONS]
@@ -91,5 +94,7 @@ The parameter is incorrect.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

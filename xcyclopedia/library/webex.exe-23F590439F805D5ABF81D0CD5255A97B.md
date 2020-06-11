@@ -1,10 +1,12 @@
 ﻿
 # webex.exe 
+
 * File Path: `C:\ProgramData\WebEx\webex.exe`
 * Description: Cisco Webex Meeting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `23F590439F805D5ABF81D0CD5255A97B`
@@ -15,6 +17,7 @@ SHA415 | `3E9857AA8D2F5463FBEB4AAC2C4C259D6CA79C7F440F9FB9724BD071300C396140070F
 SSDEEP | `12288:RujXKKv7VnbJKNWL5eM5fNmaKIDeyBUruYo7g1jA1F3RhNT5bsmoihBwF6kk:EXKKpJKw04mUBCuYo810n3RTdsmoiheS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:RujXKKv7VnbJKNWL5eM5fNmaKIDeyBUruYo7g1jA1F3RhNT5bsmoihBwF6kk:EXK
 * Product Version: 10032,999,2018,614
 * Language: English (United States)
 * Legal Copyright:  2018 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

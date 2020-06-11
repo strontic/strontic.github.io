@@ -1,10 +1,12 @@
 ﻿
 # MbaeParserTask.exe 
+
 * File Path: `C:\Windows\system32\MbaeParserTask.exe`
 * Description: Mobile Broadband Account Experience Parser Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `77B6CB827F0132F41C85EE81B268F6FA`
@@ -15,6 +17,7 @@ SHA415 | `6EC96DE7330B376258765258DBEDBB1D83E54A5B92B5FF143129D5AF4B7B4F62387781
 SSDEEP | `1536:X7KTL3NOpVnehHjUWiApZ8z4My7KjGoiuzS7aVH8J/P+pbv:X7KFOpchHiApU45+jGolzS7aaZP6v`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:X7KTL3NOpVnehHjUWiApZ8z4My7KjGoiuzS7aVH8J/P+pbv:X7KFOpchHiApU45+j
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

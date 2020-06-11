@@ -1,10 +1,12 @@
 ﻿
 # windeploy.exe 
+
 * File Path: `C:\Windows\system32\oobe\windeploy.exe`
 * Description: Windows Deployment Loader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AFA0AFCE5A199EAA222A34FDAEEEAEB3`
@@ -15,6 +17,7 @@ SHA415 | `981C81088868963C645B23FA0C45DC463711746EDD031A4B215626E9E99A78C73DA12A
 SSDEEP | `3072:WKNAgd6Ft/FmnFHaOV2DOH9sd3bVJ2agmUZfon:WGAg2CnwO8pdrVJmZf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:WKNAgd6Ft/FmnFHaOV2DOH9sd3bVJ2agmUZfon:WGAg2CnwO8pdrVJmZf`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

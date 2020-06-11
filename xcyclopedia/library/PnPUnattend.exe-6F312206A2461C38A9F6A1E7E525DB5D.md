@@ -1,10 +1,12 @@
 ﻿
 # PnPUnattend.exe 
+
 * File Path: `C:\Windows\system32\PnPUnattend.exe`
 * Description: PnP unattend action
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6F312206A2461C38A9F6A1E7E525DB5D`
@@ -15,6 +17,7 @@ SHA415 | `8F947FED2B08885A2DB12636F4C12C2301F19AD6B7E222EAD0BF9522442760B5B0580B
 SSDEEP | `768:dyWVS6RNl4eRgEhe4vORPimz25rIeuAKS0Zj7Wl8Jry2KjZl7nxDQVW5RQGtGtvg:fVD15hgRPYmS01V+LNQkQFBjY8BO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 DESCRIPTION:
@@ -55,5 +58,7 @@ USAGE:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

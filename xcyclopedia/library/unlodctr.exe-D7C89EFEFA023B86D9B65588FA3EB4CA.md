@@ -1,10 +1,12 @@
 ﻿
 # unlodctr.exe 
+
 * File Path: `C:\Windows\system32\unlodctr.exe`
 * Description: Unload PerfMon Counters
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D7C89EFEFA023B86D9B65588FA3EB4CA`
@@ -15,6 +17,7 @@ SHA415 | `E8C92389855ED14955EEFFDAC54157C870C17C0D30336B947AD488DC0BFBFBC62A6998
 SSDEEP | `768:nuZpVyGynw6d5C1oBtWFebMiPN8uDHbplMc8+xFcYS7DTk:nubXW8uplMcb7cYS7DTk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -69,5 +72,7 @@ Double Quotation marks.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # proquota.exe 
+
 * File Path: `C:\WINDOWS\system32\proquota.exe`
 * Description: ProQuota
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `468CE68311D458C654353CECEA899976`
@@ -15,6 +17,7 @@ SHA415 | `09025D8F4EFED78B97E7C87BBDF6400EFFE2F5FFA835952CC0E46AD915BDADC58BCE74
 SSDEEP | `768:N3v8VZTw3RTqK0Orqa4UFoZiNBHJniPOvWom5/T0oseh/Tt6Wk:pvH3RTqv9a4UWUJ6Ouomt0oV/TtPk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:N3v8VZTw3RTqK0Orqa4UFoZiNBHJniPOvWom5/T0oseh/Tt6Wk:pvH3RTqv9a4UWUJ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

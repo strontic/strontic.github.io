@@ -1,10 +1,12 @@
 ﻿
 # Windows.Media.BackgroundPlayback.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\Windows.Media.BackgroundPlayback.exe`
 * Description: Windows Media Playback EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6712EDA62F74CC71BEEDDB41E1FE3E4D`
@@ -15,6 +17,7 @@ SHA415 | `7B6612FA3404D952F2961012DB9EA7F798541663D0E6DF10FB2C2BCD6262273D9D10ED
 SSDEEP | `192:WMfv74WudkjM3SRM3qO4JD1hbX0HcWT5WLx28c:Wsz47dkjM9weHcWT5WLx28`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:WMfv74WudkjM3SRM3qO4JD1hbX0HcWT5WLx28c:Wsz47dkjM9weHcWT5WLx28`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

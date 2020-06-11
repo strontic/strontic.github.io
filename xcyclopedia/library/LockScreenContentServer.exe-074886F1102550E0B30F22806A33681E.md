@@ -1,10 +1,12 @@
 ﻿
 # LockScreenContentServer.exe 
+
 * File Path: `C:\Windows\system32\LockScreenContentServer.exe`
 * Description: LockScreenContent Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `074886F1102550E0B30F22806A33681E`
@@ -15,6 +17,7 @@ SHA415 | `1EDE585D95D966C539EE17E9647E1EAFC7D36C2183DEB1E357A9E41D419A66292763B0
 SSDEEP | `768:oangc4hQ7u07x8jBmu5kuWHtFHl9rG9GO1pP1PM10d:9gxKVFwjVWHvHHrG9GwpNPg0d`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:oangc4hQ7u07x8jBmu5kuWHtFHl9rG9GO1pP1PM10d:9gxKVFwjVWHvHHrG9GwpNPg
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

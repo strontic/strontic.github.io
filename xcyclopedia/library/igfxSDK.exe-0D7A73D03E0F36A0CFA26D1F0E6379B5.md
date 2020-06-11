@@ -1,10 +1,12 @@
 ﻿
 # igfxSDK.exe 
+
 * File Path: `C:\WINDOWS\system32\igfxSDK.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0D7A73D03E0F36A0CFA26D1F0E6379B5`
@@ -15,6 +17,7 @@ SHA415 | `8C09218064D8BCD51424DBBB9E2FD33F72143846B1FDD982A2BFA9A5A70115E0DC4F07
 SSDEEP | `12288:sk0FHwQB8NY1rAgnpETLpR2VnvQPliga8ZBX/Fd1tl5DBoBBXYcbf6vQ:7fpR1P0ga6LBk1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:sk0FHwQB8NY1rAgnpETLpR2VnvQPliga8ZBX/Fd1tl5DBoBBXYcbf6vQ:7fpR1P0
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

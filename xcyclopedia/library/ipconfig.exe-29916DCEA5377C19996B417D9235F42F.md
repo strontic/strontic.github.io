@@ -1,10 +1,12 @@
 ﻿
 # ipconfig.exe 
+
 * File Path: `C:\Windows\system32\ipconfig.exe`
 * Description: IP Configuration Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `29916DCEA5377C19996B417D9235F42F`
@@ -15,6 +17,7 @@ SHA415 | `805C3BF8252BD90795E3D9C481686041A343BD5F805A8E16127529A3DF860AE45322C4
 SSDEEP | `768:e+7E/DIclS42UY4KN7afkCUeyBJD1eav8UyrdbK:nk1lEH+lUeyBJDhExrdW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -99,5 +102,7 @@ Examples:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

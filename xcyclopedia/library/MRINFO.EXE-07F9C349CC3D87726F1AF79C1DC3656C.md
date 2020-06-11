@@ -1,10 +1,12 @@
 ﻿
 # MRINFO.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\MRINFO.EXE`
 * Description: Multicast Information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `07F9C349CC3D87726F1AF79C1DC3656C`
@@ -15,6 +17,7 @@ SHA415 | `5BA598456F7BC1FB718B0904543A1757B1E56CD8F6953C00829AD1E3F6A9E2CA9E8F1F
 SSDEEP | `384:epMaCtCFWvw4aYtKJUO6UjIMfbP3BsWj8W:epMptCFcC2YQ+IMfLBp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Error: Address could not be resolved
@@ -57,5 +60,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

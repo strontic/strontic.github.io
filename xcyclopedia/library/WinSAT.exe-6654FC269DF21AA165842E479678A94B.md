@@ -1,10 +1,12 @@
 ﻿
 # WinSAT.exe 
+
 * File Path: `C:\Windows\system32\WinSAT.exe`
 * Description: Windows System Assessment Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6654FC269DF21AA165842E479678A94B`
@@ -15,6 +17,7 @@ SHA415 | `F0DE17528A9E2FEB6107C61D912B927F176A32A5995A6321AFE3889759C107EF76EFFA
 SSDEEP | `49152:VRlzGrhju/2WnULOzka2HXTETmqYmq1dKwdfU2bECbe:tAMVfO1DFE/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -184,5 +187,7 @@ Error: Unable to run inside of a Virtual Machine.  Please try again running dire
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

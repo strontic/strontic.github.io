@@ -1,10 +1,12 @@
 ﻿
 # cofire.exe 
+
 * File Path: `C:\WINDOWS\system32\cofire.exe`
 * Description: Corrupted File Recovery Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `83260EA240E8D8C6E5486423C5FA671A`
@@ -15,6 +17,7 @@ SHA415 | `C0ABB837A126B1B0FCB0D5940106A1577A2991E01A1772FADD15C436F0324EB921579F
 SSDEEP | `384:ko7fEoW3Y+EjLflv0Ipc3VqRRE/7R4Db9+YMP2ymVTQGWFJW:k+fEX3SLflvpKlV+9+f2ymi9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:ko7fEoW3Y+EjLflv0Ipc3VqRRE/7R4Db9+YMP2ymVTQGWFJW:k+fEX3SLflvpKlV+9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

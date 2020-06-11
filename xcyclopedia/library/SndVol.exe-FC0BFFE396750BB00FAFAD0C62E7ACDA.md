@@ -1,10 +1,12 @@
 ﻿
 # SndVol.exe 
+
 * File Path: `C:\Windows\SysWOW64\SndVol.exe`
 * Description: Volume Mixer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FC0BFFE396750BB00FAFAD0C62E7ACDA`
@@ -15,6 +17,7 @@ SHA415 | `B4C85DEAA340C0743FFB86FE14F86AA545E056C2B15A8AD3BD020A3667F8DDD9A9EAC5
 SSDEEP | `3072:wKMTzCPpReR4y9RBzqOEyAInlNrw2tWtBJwHjbEyB7HbI8O/Yxyy+yWo:wAyzZqmQ/Jxy10pwwto`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ perfmon.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

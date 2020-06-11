@@ -1,10 +1,12 @@
 ﻿
 # wowreg32.exe 
+
 * File Path: `C:\WINDOWS\system32\wowreg32.exe`
 * Description: SetupAPI 64-bit Surrogate
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `98E3D5253B836A5C14596BF498A195F0`
@@ -15,6 +17,7 @@ SHA415 | `02558524716A1A525D9BD72783D5FE8BFE15854B4BA879E8F8EA4AA40DBD7A0FCA6358
 SSDEEP | `384:Ov/trEwxdJHZC0JOtAfqKYtR4KZLTWgeZjHW:Ov/thbJ1HfKNIZj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:Ov/trEwxdJHZC0JOtAfqKYtR4KZLTWgeZjHW:Ov/thbJ1HfKNIZj`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # igfxext.exe 
+
 * File Path: `C:\WINDOWS\system32\igfxext.exe`
 * Description: igfxext Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5E5C4C6E0D621A1E7B523509CBAD3856`
@@ -15,6 +17,7 @@ SHA415 | `C4B72956718EF09D92820C91D2D25D55EB69F939A4B1CAA6AD5FDD6E4095602670DB26
 SSDEEP | `3072:dT1htmbcfmTj9LgwvQ+gYY1d3C0OaxYaad8Jw+vGqeKhI4xFVBr3jwiQX:t3LfmTJLLQ+WH7xYV9OBH5i`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:dT1htmbcfmTj9LgwvQ+gYY1d3C0OaxYaad8Jw+vGqeKhI4xFVBr3jwiQX:t3LfmTJ
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # fvenotify.exe 
+
 * File Path: `C:\WINDOWS\system32\fvenotify.exe`
 * Description: BitLocker Drive Encryption Notification Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D7B50B5843EFD63DBAAE341B8E70856D`
@@ -15,6 +17,7 @@ SHA415 | `3396D978A76027FB41B30C9FD7879995C3CC23E79FB7C57E3707AC40C8BE001C3757ED
 SSDEEP | `3072:s8QDYpxKs6HELN4y7YrZEyqvkTPwnVS570M9kdatGCO+xmBc+hMPhPsx:pQTH4N4QYafVs7nyatGt+SYF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:s8QDYpxKs6HELN4y7YrZEyqvkTPwnVS570M9kdatGCO+xmBc+hMPhPsx:pQTH4N4Q
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

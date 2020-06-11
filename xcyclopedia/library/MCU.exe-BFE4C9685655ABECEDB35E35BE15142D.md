@@ -1,10 +1,12 @@
 ﻿
 # MCU.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\MCU.exe`
 * Description: NVIDIA Maximus Configuration Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BFE4C9685655ABECEDB35E35BE15142D`
@@ -15,6 +17,7 @@ SHA415 | `AE011D464A55874FE01D39EB78811A267D0DE14062380FC80605F8DE266598063142EE
 SSDEEP | `12288:xzONvMk17hBelz3l9trOGl7mpSOz3l9trOGl7mpSNw8:ahBepFdl7byFdl7bG8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:xzONvMk17hBelz3l9trOGl7mpSOz3l9trOGl7mpSNw8:ahBepFdl7byFdl7bG8`
 * Product Version: 1.1.5204.20580
 * Language: Language Neutral
 * Legal Copyright: Copyright  NVIDIA Corporation 2012
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

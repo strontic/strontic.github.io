@@ -1,10 +1,12 @@
 ﻿
 # SrTasks.exe 
+
 * File Path: `C:\WINDOWS\system32\SrTasks.exe`
 * Description: Microsoft Windows System Protection background tasks.
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1333D9F46AE3D79BADDD84FE11347261`
@@ -15,6 +17,7 @@ SHA415 | `F5A29537FEC9C72EBE2734240FAA1B40E90C651BD89F2B3512815EA6B7BF6F42A17BF6
 SSDEEP | `1536:CvZ7YK/lQt9EXKIAES4cpKror9+NymAucl:cQjEawGKM4yRug`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:CvZ7YK/lQt9EXKIAES4cpKror9+NymAucl:cQjEawGKM4yRug`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

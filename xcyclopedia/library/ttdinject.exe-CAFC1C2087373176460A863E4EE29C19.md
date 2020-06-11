@@ -1,10 +1,12 @@
 ﻿
 # ttdinject.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\ttdinject.exe`
 * Description: Time Traver Debugger Application Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CAFC1C2087373176460A863E4EE29C19`
@@ -15,6 +17,7 @@ SHA415 | `BC01F401640F44C134B8158A4044E8EE3ACFC806AC42C06DA7D06148178474927F8B75
 SSDEEP | `3072:P7+nuZC491nBweMVewi0FOPU5I2ze3DgOTgZoX+NV597Io0aeg:PB84Rwi0F2UDvOw2YPfAg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:P7+nuZC491nBweMVewi0FOPU5I2ze3DgOTgZoX+NV597Io0aeg:PB84Rwi0F2UDvO
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

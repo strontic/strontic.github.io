@@ -1,10 +1,12 @@
 ﻿
 # FaceFodUninstaller.exe 
+
 * File Path: `C:\WINDOWS\system32\WinBioPlugIns\FaceFodUninstaller.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7B15536C8FCEF1DD04C5742151E411E8`
@@ -15,6 +17,7 @@ SHA415 | `72D4CDFA1142417D000F1D9F5B76B1B11DF00F98CBC7D54DB4B57DB0BC5EA0BF2F955D
 SSDEEP | `12288:FKFFRHiubNbMLpTnOAvbMt+dZkLSoGyqgwn:CFNiuBbejOAvO+dZySo5qd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:FKFFRHiubNbMLpTnOAvbMt+dZkLSoGyqgwn:CFNiuBbejOAvO+dZySo5qd`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

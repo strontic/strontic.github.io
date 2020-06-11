@@ -1,10 +1,12 @@
 ﻿
 # ashelper.exe 
+
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_UMC\ashelper.exe`
 * Description: Cisco WebEx Application Advance Sharing Module
 * Comments: 01/16/2018 T32(Unicode)
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `97FADB5EF08B33E8F5CD910A3B1A8D07`
@@ -15,6 +17,7 @@ SHA415 | `D09D2F16C2977D515CA2B5B06C24D645940131EEC2B063EF7315AC6DE6A0060472BE7C
 SSDEEP | `1536:JjvLxD4cYK5AQsQxiu+DCNLk9l9KYn23h+N:JzLpTIQxi9DCLk9jLnPN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:JjvLxD4cYK5AQsQxiu+DCNLk9l9KYn23h+N:JzLpTIQxi9DCLk9jLnPN`
 * Product Version: 1032,1811,0100,1600
 * Language: English (United States)
 * Legal Copyright:  1997-2018 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

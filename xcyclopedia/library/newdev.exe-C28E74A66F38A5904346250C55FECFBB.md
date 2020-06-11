@@ -1,10 +1,12 @@
 ﻿
 # newdev.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\newdev.exe`
 * Description: Device driver software installation
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C28E74A66F38A5904346250C55FECFBB`
@@ -15,6 +17,7 @@ SHA415 | `4179A6FD1F1A0DA727C1C3ACE301E7FA0C49456D8103E49B313AE2716C515F6C3C902C
 SSDEEP | `1536:zKIFOzdF2FaJfFrGUUUUUUUUUUUU3+GX:zKIFACAJh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:zKIFOzdF2FaJfFrGUUUUUUUUUUUU3+GX:zKIFACAJh`
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

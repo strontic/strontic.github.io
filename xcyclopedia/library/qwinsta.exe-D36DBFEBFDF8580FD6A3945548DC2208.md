@@ -1,10 +1,12 @@
 ﻿
 # qwinsta.exe 
+
 * File Path: `C:\Windows\system32\qwinsta.exe`
 * Description: Query Session Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D36DBFEBFDF8580FD6A3945548DC2208`
@@ -15,6 +17,7 @@ SHA415 | `8212C130954CBAD274481C9790318D4E23BA1DACEF14B62B4903B002C0C70F81993DD2
 SSDEEP | `384:leL8dd8Ys5NJheuABDaB7A8c72t/YuLFEi551EydM1cbg1KTmN5hpBGCr/FehqF8:EgddBsjeuYOc2rLLQimWg1Dh5eh8G`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Display information about Remote Desktop Services sessions.
@@ -76,5 +79,7 @@ QUERY SESSION [sessionname | username | sessionid]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

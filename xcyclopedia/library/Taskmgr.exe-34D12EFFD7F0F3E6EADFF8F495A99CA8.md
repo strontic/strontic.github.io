@@ -1,10 +1,12 @@
 ﻿
 # Taskmgr.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\Taskmgr.exe`
 * Description: Task Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `34D12EFFD7F0F3E6EADFF8F495A99CA8`
@@ -15,6 +17,7 @@ SHA415 | `886746E36BE23E20F5D99A143B386D688A6C7D5FBE163AED1E0F8FF3B5FC36CB1AF10E
 SSDEEP | `24576:LK4GZ7mq3XJ9VwyeqwS+on+HtZACaxNh8yd+B:LK487H3vneNzACaV8yd+B`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:LK4GZ7mq3XJ9VwyeqwS+on+HtZACaxNh8yd+B:LK487H3vneNzACaV8yd+B`
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

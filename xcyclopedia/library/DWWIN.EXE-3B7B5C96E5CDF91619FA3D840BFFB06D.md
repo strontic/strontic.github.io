@@ -1,10 +1,12 @@
 ﻿
 # DWWIN.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\DWWIN.EXE`
 * Description: Windows Error Reporting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3B7B5C96E5CDF91619FA3D840BFFB06D`
@@ -15,6 +17,7 @@ SHA415 | `A50368469E154248BF489D0353A263CD339B3B4F1F7D0BCA8CB776B6EDB268B1CB735E
 SSDEEP | `3072:k2lM4p25ySZ3VCtZW0V9cBTdlW6DP/OSKVm3LSES+LkP+wvpITuOGAxDczTT:ktgYRFC7W0WdlmSKoblkPnuT44cz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:k2lM4p25ySZ3VCtZW0V9cBTdlW6DP/OSKVm3LSES+LkP+wvpITuOGAxDczTT:ktgY
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

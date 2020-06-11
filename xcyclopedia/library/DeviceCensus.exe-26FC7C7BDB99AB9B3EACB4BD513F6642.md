@@ -1,10 +1,12 @@
 ﻿
 # DeviceCensus.exe 
+
 * File Path: `C:\Windows\system32\DeviceCensus.exe`
 * Description: Device Census
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `26FC7C7BDB99AB9B3EACB4BD513F6642`
@@ -15,6 +17,7 @@ SHA415 | `549B74E464A4F1749912F6B23440A34CEBD727554A9D255647AB74674F80C728F42E37
 SSDEEP | `768:/rqp1ssuvWRCll0zrMF7G4i6Xf4r6wD1Pu:2jivW0+PO7GcfWPu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:/rqp1ssuvWRCll0zrMF7G4i6Xf4r6wD1Pu:2jivW0+PO7GcfWPu`
 * Product Version: 10.0.18362.1035
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

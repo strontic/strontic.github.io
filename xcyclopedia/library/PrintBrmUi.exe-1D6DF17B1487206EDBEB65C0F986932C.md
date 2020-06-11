@@ -1,10 +1,12 @@
 ﻿
 # PrintBrmUi.exe 
+
 * File Path: `C:\Windows\system32\PrintBrmUi.exe`
 * Description: PrintBrm Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1D6DF17B1487206EDBEB65C0F986932C`
@@ -15,6 +17,7 @@ SHA415 | `6733F13D9D1ADF7FA831279F476DB61B2ACF2C9CB9A8B49E85B6251E4E4A54EB77FAF3
 SSDEEP | `1536:5IswKPQ81LZvsiKG0kcNG9s+DYKRvvKayDs:5Is5DvsG0kc/4YsnDx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:5IswKPQ81LZvsiKG0kcNG9s+DYKRvvKayDs:5Is5DvsG0kc/4YsnDx`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

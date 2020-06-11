@@ -1,10 +1,12 @@
 ﻿
 # Dxpserver.exe 
+
 * File Path: `C:\WINDOWS\system32\Dxpserver.exe`
 * Description: Device Stage Platform Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DDCB3000144A8DE1286AE59AAF9A438A`
@@ -15,6 +17,7 @@ SHA415 | `57748B6248515B574E6C4B20298F38574E6631F3A2DE3A45515B36CAA0389CEBF45733
 SSDEEP | `6144:dB3aDSTFwFhEj18rztQdy+SYeof0dRFn:dBqDqqa9GQKR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:dB3aDSTFwFhEj18rztQdy+SYeof0dRFn:dBqDqqa9GQKR`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

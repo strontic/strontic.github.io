@@ -1,10 +1,12 @@
 ﻿
 # prproc.exe 
+
 * File Path: `C:\WINDOWS\system32\prproc.exe`
 * Description: PlayReady Process EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BFD6335E4F61D44CA74B627A45686106`
@@ -15,6 +17,7 @@ SHA415 | `7A7008B98388DB13C400B9DD04CF46A102439237EFE1A52816FA86A71238C34E36E570
 SSDEEP | `384:sIuAESo4BfUVV/Wm5DYgWvmXjDBRJY/Y1lxwMwxQ:TeSBUVTlXj1PpwxQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:sIuAESo4BfUVV/Wm5DYgWvmXjDBRJY/Y1lxwMwxQ:TeSBUVTlXj1PpwxQ`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

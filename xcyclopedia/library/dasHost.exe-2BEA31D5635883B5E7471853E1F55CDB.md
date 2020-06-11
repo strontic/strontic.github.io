@@ -1,10 +1,12 @@
 ﻿
 # dasHost.exe 
+
 * File Path: `C:\Windows\system32\dasHost.exe`
 * Description: Device Association Framework Provider Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2BEA31D5635883B5E7471853E1F55CDB`
@@ -15,6 +17,7 @@ SHA415 | `3C3300881FFCB6654E60291646B11748299340029C36F8401E012A0C57679FB1F0ABBB
 SSDEEP | `1536:BH2ICtxwqaU6hh3mgCiIfkye2pb1n6xMyTktG8letDBlwiY2lZJI3:liw06hoO2ppStktG7tHwiYKy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.14393.2791
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # LicensingUI.exe 
+
 * File Path: `C:\Windows\system32\LicensingUI.exe`
 * Description: Licensing UI
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FD591AF9E78ED65C96A736507780C5E9`
@@ -15,6 +17,7 @@ SHA415 | `97D89217BCBD14DB4936A3A885F1FEBAD9E87AF85BCB759104854990BDAC05438823E0
 SSDEEP | `3072:ebazxnZ1T2lNznF8kF8jrWZ1LW5NuyN3whWAgiJTdDf/Wvkaf14REt1f:rz9ZV2vR8kajSZ1LW5NrdwhWAFKrwEf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:ebazxnZ1T2lNznF8kF8jrWZ1LW5NuyN3whWAgiJTdDf/Wvkaf14REt1f:rz9ZV2vR
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # wscript.exe 
+
 * File Path: `C:\Windows\SysWOW64\wscript.exe`
 * Description: Microsoft  Windows Based Script Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6FA091DD757D5A64DC7B64F103198C10`
@@ -15,6 +17,7 @@ SHA415 | `B5AD127B3BBE63EA9284E8E03BA02A23F9929AAF679F18E17DBA995A9794E1B86D7D04
 SSDEEP | `3072:uDuGci1o2ialMm+aZ2KdGQMs7uGTxtKlLU:ujcaoOZRMs7tT2L`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:uDuGci1o2ialMm+aZ2KdGQMs7uGTxtKlLU:ujcaoOZRMs7tT2L`
 * Product Version: 5.812.10240.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

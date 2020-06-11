@@ -1,10 +1,12 @@
 ﻿
 # AppVNice.exe 
+
 * File Path: `C:\WINDOWS\system32\AppVNice.exe`
 * Description: Microsoft Application Virtualization appvnice
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E805EC74A53B64CE1D9D6739B8055579`
@@ -15,6 +17,7 @@ SHA415 | `16F05EE418208FB2504E991D164BFB6AD794A118B650BEA1868D41FBEF086C1BBAF6E6
 SSDEEP | `3072:YRQgzaY5yEWHfHEaUceWGNU6ITLJdkV1Ll:6QHEQfHEa4WGNU6ITLJG5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:YRQgzaY5yEWHfHEaUceWGNU6ITLJdkV1Ll:6QHEQfHEa4WGNU6ITLJG5`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

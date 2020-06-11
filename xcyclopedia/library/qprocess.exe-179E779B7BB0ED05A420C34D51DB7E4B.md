@@ -1,10 +1,12 @@
 ﻿
 # qprocess.exe 
+
 * File Path: `C:\Windows\system32\qprocess.exe`
 * Description: Query Process Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `179E779B7BB0ED05A420C34D51DB7E4B`
@@ -15,6 +17,7 @@ SHA415 | `DCADA2AB2AF08A9652017504931A09184C01443E2788FB3A7916122FF4A701A164C98D
 SSDEEP | `384:UNbL5jXhznOMC2BoH3S4tXHZeCGl5c3kbaEF55rLutDPgsKviTV5p0gdc9YXBFoJ:wbVN7FC2Z4neV5HhBqDv7zp0ooTVQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Displays information about processes.
@@ -70,5 +73,7 @@ QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

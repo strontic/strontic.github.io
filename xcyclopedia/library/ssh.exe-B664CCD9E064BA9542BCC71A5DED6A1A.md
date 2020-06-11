@@ -1,10 +1,12 @@
 ﻿
 # ssh.exe 
+
 * File Path: `C:\WINDOWS\system32\OpenSSH\ssh.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B664CCD9E064BA9542BCC71A5DED6A1A`
@@ -15,6 +17,7 @@ SHA415 | `7EB6A9ACB61D964C82C46E897F8A5195C7F06BEDF7F1ECD2D64F2783BE996F7A6356E9
 SSDEEP | `24576:QTDSQPwMHspFKajxUAn0/2L50P6DlZC2u:eSMYFKaT70P6DlZC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -53,5 +56,7 @@ conhost.exe
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

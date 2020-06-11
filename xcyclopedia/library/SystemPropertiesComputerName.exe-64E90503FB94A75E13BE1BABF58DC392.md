@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesComputerName.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\SystemPropertiesComputerName.exe`
 * Description: Change Computer Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `64E90503FB94A75E13BE1BABF58DC392`
@@ -15,6 +17,7 @@ SHA415 | `D2AC4DC99A8AB2DD3243A29BDB531AA9BE86AB1E12C17BEFEAAF2B4635BA56EA57CB81
 SSDEEP | `1536:Hq/ZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5J7:HyKzECTMpuDhjRVJGB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:Hq/ZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5J7:HyKzECTMpuDhjRVJGB`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

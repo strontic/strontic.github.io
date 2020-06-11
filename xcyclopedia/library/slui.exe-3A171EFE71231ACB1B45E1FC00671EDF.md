@@ -1,10 +1,12 @@
 ﻿
 # slui.exe 
+
 * File Path: `C:\Windows\system32\slui.exe`
 * Description: Windows Activation Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3A171EFE71231ACB1B45E1FC00671EDF`
@@ -15,6 +17,7 @@ SHA415 | `3451E60E30A2F4BA63B68DF7F42300EC532942E2585C97306D61B70D5E2B745947FC00
 SSDEEP | `6144:DcuofCPuZTuDH4SSIs00Tly7UEwqY/W5R02qO7VKCyWQp:DBoanYlT4wq3nyR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:DcuofCPuZTuDH4SSIs00Tly7UEwqY/W5R02qO7VKCyWQp:DBoanYlT4wq3nyR`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

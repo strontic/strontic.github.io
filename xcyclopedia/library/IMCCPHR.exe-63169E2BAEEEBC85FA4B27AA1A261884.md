@@ -1,10 +1,12 @@
 ﻿
 # IMCCPHR.exe 
+
 * File Path: `C:\WINDOWS\system32\IME\SHARED\IMCCPHR.exe`
 * Description: IMCCPHR.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `63169E2BAEEEBC85FA4B27AA1A261884`
@@ -15,6 +17,7 @@ SHA415 | `6BC3C117418E4D8D404EDC5C5E2EAD82965B527CDB179FF1902CA501F5E5AAB4F6453A
 SSDEEP | `6144:In4Ubu6sLzbSDzimcBiZg50/qR5xKqOlx8uSXmCPwP6k+kc8DZ5n:I4UaNLzbqJQr50/qRWUuSXmH6k+kcuv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ RdpSa.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

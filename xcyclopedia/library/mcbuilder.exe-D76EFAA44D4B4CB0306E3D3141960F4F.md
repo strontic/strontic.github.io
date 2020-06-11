@@ -1,10 +1,12 @@
 ﻿
 # mcbuilder.exe 
+
 * File Path: `C:\WINDOWS\system32\mcbuilder.exe`
 * Description: Resource cache builder tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D76EFAA44D4B4CB0306E3D3141960F4F`
@@ -15,6 +17,7 @@ SHA415 | `50901E98D24E1408ADAF71A9526CED8EF619696DF2CC5769A8DA16F21A1CE17392958D
 SSDEEP | `1536:4MCPcVlY9eAHnrGyclAFCuFo3XejV09B2ssW4d09dlGscBuCP/LtFn:4MycVoeYrDceFCuFo3XeiBmMwscBuC3j`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:4MCPcVlY9eAHnrGyclAFCuFo3XejV09B2ssW4d09dlGscBuCP/LtFn:4MycVoeYrD
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

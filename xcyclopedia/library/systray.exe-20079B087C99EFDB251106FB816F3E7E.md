@@ -1,10 +1,12 @@
 ﻿
 # systray.exe 
+
 * File Path: `C:\Windows\system32\systray.exe`
 * Description: Systray .exe stub
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `20079B087C99EFDB251106FB816F3E7E`
@@ -15,6 +17,7 @@ SHA415 | `8569C3E6EFDC18ACB3CE7243DCB7C294F0257D1B156B6E386BB66301364F631E419659
 SSDEEP | `192:+PR9Poet5oeSNbA/4C6yBCrkyJ63y6U9GXQGmRKfeWayW:+PRl7Ctm16nkyJuyrGmkWWayW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:+PR9Poet5oeSNbA/4C6yBCrkyJ63y6U9GXQGmRKfeWayW:+PRl7Ctm16nkyJuyrGmk
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

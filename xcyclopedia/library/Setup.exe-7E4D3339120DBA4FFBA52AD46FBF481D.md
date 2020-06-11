@@ -1,10 +1,12 @@
 ﻿
 # Setup.exe 
+
 * File Path: `C:\ProgramData\Intel\Package Cache\{00000000-0000-0000-0000-000000000000}\Setup.exe`
 * Description: Intel(R) Rapid Storage Technology installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7E4D3339120DBA4FFBA52AD46FBF481D`
@@ -15,6 +17,7 @@ SHA415 | `93AB032AE867051CA2741585CE3B2249ECE913274D2295DCD0A485725B7F61C2A40C05
 SSDEEP | `24576:anb06bg3QRg81WW4EK6MS69A99J24uUqv15l/u1FxUIHXdh:so6MQRn1WW4n6oejJvVSu1FxRH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:anb06bg3QRg81WW4EK6MS69A99J24uUqv15l/u1FxUIHXdh:so6MQRn1WW4n6oej
 * Product Version: 12.8.2.1000
 * Language: English (United States)
 * Legal Copyright: Copyright 2013, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

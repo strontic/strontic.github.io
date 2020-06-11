@@ -1,10 +1,12 @@
 ﻿
 # sdclt.exe 
+
 * File Path: `C:\WINDOWS\system32\sdclt.exe`
 * Description: Microsoft Windows Backup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F96744B10792C70426608E670C0E39DB`
@@ -15,6 +17,7 @@ SHA415 | `D4C3506B48CFF9769DAB360EA2DD38EE64FF5B85B289978EE1A7276757F5009F197EE9
 SSDEEP | `24576:nMmYxJ6XVm85rBkZVUNg0SUxj8AFGh9yptQHZ7RHegR:/YzWVeDVAFGaQ5dH9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:nMmYxJ6XVm85rBkZVUNg0SUxj8AFGh9yptQHZ7RHegR:/YzWVeDVAFGaQ5dH9`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

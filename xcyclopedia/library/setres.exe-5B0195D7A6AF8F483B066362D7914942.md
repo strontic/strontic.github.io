@@ -1,10 +1,12 @@
 ﻿
 # setres.exe 
+
 * File Path: `C:\Windows\system32\setres.exe`
 * Description: Configures display settings.
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5B0195D7A6AF8F483B066362D7914942`
@@ -15,6 +17,7 @@ SHA415 | `E948DB911773E58A4F6ED1F363BD2EE9F6E9AF076AD011D6C8AD776B353F2CFA5DD737
 SSDEEP | `192:o9wfNdMn1QbDT5sPPV6jS9aPg7q0Ak7aOqWn52320nGM1rZPD+I4WNzW:omf81Qdsl6jAUwqVk9pEG0nJP6RWNzW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Error: "help" is not a valid argument.
@@ -56,5 +59,7 @@ Description:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

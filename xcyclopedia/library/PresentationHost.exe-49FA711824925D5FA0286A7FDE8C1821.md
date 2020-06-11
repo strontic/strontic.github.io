@@ -1,10 +1,12 @@
 ﻿
 # PresentationHost.exe 
+
 * File Path: `C:\WINDOWS\system32\PresentationHost.exe`
 * Description: Windows Presentation Foundation Host
 * Comments: Flavor=Retail
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `49FA711824925D5FA0286A7FDE8C1821`
@@ -15,6 +17,7 @@ SHA415 | `DD522992F5D0F2E01ECEB8567BC2990C8FC6AB9562777E091EE54F0F74C67839058D6A
 SSDEEP | `6144:GvMzhWcTzxZmi/tzLqt5KNXwy3Odjp19k5KNXf:GvMzIoPm2tnyKVwy3OdLaKV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ iexplore.exe
 * Product Version: 4.0.41210.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

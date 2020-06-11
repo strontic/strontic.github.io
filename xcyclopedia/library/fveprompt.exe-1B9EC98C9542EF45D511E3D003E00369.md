@@ -1,10 +1,12 @@
 ﻿
 # fveprompt.exe 
+
 * File Path: `C:\WINDOWS\system32\fveprompt.exe`
 * Description: BitLocker Drive Encryption
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1B9EC98C9542EF45D511E3D003E00369`
@@ -15,6 +17,7 @@ SHA415 | `FC516D4397A7352277434DFAC225E3BF3FF1D6E32B2EB35A96C9BEA4492C6BE9A61703
 SSDEEP | `3072:1DW4TLqIv9m7KH7vkvL9R0wnVS570M9kdatGCO+xmBc+hMPhPsx:xWcW89m7K74L9PVs7nyatGt+SYF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:1DW4TLqIv9m7KH7vkvL9R0wnVS570M9kdatGCO+xmBc+hMPhPsx:xWcW89m7K74L9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

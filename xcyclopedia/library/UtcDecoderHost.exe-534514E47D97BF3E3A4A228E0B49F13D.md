@@ -1,10 +1,12 @@
 ﻿
 # UtcDecoderHost.exe 
+
 * File Path: `C:\WINDOWS\system32\UtcDecoderHost.exe`
 * Description: Microsoft Windows Diagnostics Tracking Decoder Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `534514E47D97BF3E3A4A228E0B49F13D`
@@ -15,6 +17,7 @@ SHA415 | `C4237A992F410D19D0BFDC5D96CB721D69E8FA6A138958E61EFD2CB673DA38EC668C57
 SSDEEP | `3072:2eE9igI3sb64t2X63PXe4Dj2O9fWBdVXHJiLIbyB9WDyktD3/+Z00DLhxKS:2KmAiWDyktD310Dt4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:2eE9igI3sb64t2X63PXe4Dj2O9fWBdVXHJiLIbyB9WDyktD3/+Z00DLhxKS:2KmAi
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

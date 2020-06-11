@@ -1,10 +1,12 @@
 ﻿
 # mavinject.exe 
+
 * File Path: `C:\Windows\SysWOW64\mavinject.exe`
 * Description: Microsoft Application Virtualization Injector
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `644673C741AB152A3E8904A5B4080489`
@@ -15,6 +17,7 @@ SHA415 | `9EAA3DDFF753ED4A0D6B47FFE5815409F3D39D8DCFA7ADC5FF2BFF0167F908AFF34B05
 SSDEEP | `3072:nQ7FmBt0fSoD79hILhpVVrujzKdu5ommZPEAkp8:imBt0fSoD79hOLazAZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:nQ7FmBt0fSoD79hILhpVVrujzKdu5ommZPEAkp8:imBt0fSoD79hOLazAZ`
 * Product Version: 10.0.14393.3659
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # Microsoft.Uev.CscUnpinTool.exe 
+
 * File Path: `C:\WINDOWS\system32\Microsoft.Uev.CscUnpinTool.exe`
 * Description: Microsoft.Uev.CscUnpinTool EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7E24FB51000C55C6CD46B6654258A29B`
@@ -15,6 +17,7 @@ SHA415 | `962C5B1652FE126A6FFF0264B2A29AD00D51E9E2F1560111F1CE31B22FF09A34BB1344
 SSDEEP | `6144:N2qTLgq/vdn/b5E031eJeWfkkOYKh3LBwkYtjaoPfME:M8rF/bX31eJeY6heM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:N2qTLgq/vdn/b5E031eJeWfkkOYKh3LBwkYtjaoPfME:M8rF/bX31eJeY6heM`
 * Product Version: 10.0.18362.449
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

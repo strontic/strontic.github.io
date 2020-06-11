@@ -1,10 +1,12 @@
 ﻿
 # DataStoreCacheDumpTool.exe 
+
 * File Path: `C:\WINDOWS\system32\DataStoreCacheDumpTool.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B3E4FEC7C8AD9291722B49D0D63E6550`
@@ -15,6 +17,7 @@ SHA415 | `729E33924037E53DB47603B7205838461256B67C8B61E89C81DE291B143FB46F5F98A2
 SSDEEP | `3072:P9pjSKU9zmqoPsbV/Wk8QZxkNcNB5w3XQtLpFRiyiZAvfG83gOR:P9pSlZjoEZOk8QZxkNcNB5wcO8wI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:P9pjSKU9zmqoPsbV/Wk8QZxkNcNB5w3XQtLpFRiyiZAvfG83gOR:P9pSlZjoEZOk8
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

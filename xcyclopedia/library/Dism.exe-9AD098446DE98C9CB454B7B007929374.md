@@ -1,10 +1,12 @@
 ﻿
 # Dism.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\Dism.exe`
 * Description: Dism Image Servicing Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9AD098446DE98C9CB454B7B007929374`
@@ -15,6 +17,7 @@ SHA415 | `CF0EA288CFB4690012BAF03C4810E6758B602CBAD5EF80802D3BC18EB7283E86072BBB
 SSDEEP | `3072:kJd77RF5S/krWIVkZi4qMxmbO0Q0xJOOZ9HCdq0V1x2qMllVr0gGdD:glF5MkrWDsxQEJrEq03x2rrNG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -50,5 +53,7 @@ Use an elevated command prompt to complete these tasks.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

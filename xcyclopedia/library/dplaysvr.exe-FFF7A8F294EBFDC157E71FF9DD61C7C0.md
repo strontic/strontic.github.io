@@ -1,10 +1,12 @@
 ﻿
 # dplaysvr.exe 
+
 * File Path: `C:\Windows\SysWOW64\dplaysvr.exe`
 * Description: DirectPlay Stub
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FFF7A8F294EBFDC157E71FF9DD61C7C0`
@@ -15,6 +17,7 @@ SHA415 | `80B8B9D78E4A87C72E63750B9A105A9EFF84D1BA08ADAE836BEC61B3F89FFE110388C9
 SSDEEP | `96:Kh0ZTLPO5Rsa6zgK14WcE8mPTMW5CKaafNEWauWwbj:Kh0ZTTOvx6zgVGTczafmWauW2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:Kh0ZTLPO5Rsa6zgK14WcE8mPTMW5CKaafNEWauWwbj:Kh0ZTTOvx6zgVGTczafmWauW
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

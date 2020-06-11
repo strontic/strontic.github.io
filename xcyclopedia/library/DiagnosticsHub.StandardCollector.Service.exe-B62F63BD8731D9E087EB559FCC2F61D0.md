@@ -1,10 +1,12 @@
 ﻿
 # DiagnosticsHub.StandardCollector.Service.exe 
+
 * File Path: `C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe`
 * Description: Microsoft (R) Diagnostics Hub Standard Collector
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B62F63BD8731D9E087EB559FCC2F61D0`
@@ -15,6 +17,7 @@ SHA415 | `CBC36CD6F9620CBD40654F9D54320FE117224BCAAE24A8CA63D9A13A538DF413BD3AD5
 SSDEEP | `1536:81054RsY6lxm7KtNtQyOXnCZkBwxrbIcSyOXnFu3QAv0hy:80yRtMmmrccS3ugAvmy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Unrecognized option: -help
@@ -46,5 +49,7 @@ Unrecognized option: -help
 * Product Version: 11.00.14393.3564
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

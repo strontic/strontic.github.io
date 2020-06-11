@@ -1,10 +1,12 @@
 ﻿
 # ssh-keyscan.exe 
+
 * File Path: `C:\WINDOWS\system32\OpenSSH\ssh-keyscan.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4720A475F697D41705EBEECC9812C718`
@@ -15,6 +17,7 @@ SHA415 | `285FEF404DDF66CD5CF77342C43FCF82F0E2E51405590DD0FC1CF558549576F605A9A3
 SSDEEP | `6144:EM8cYMUe6/LztG7NFm7tUp/GXusKK2tiaDb2O7fcCnDtiZgcaGHCSlhoWksAYX:EcIztcexUp/TbXBSa2CSl6WX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -48,5 +51,7 @@ conhost.exe
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

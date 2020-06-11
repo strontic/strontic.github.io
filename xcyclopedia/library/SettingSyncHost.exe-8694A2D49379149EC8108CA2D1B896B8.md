@@ -1,10 +1,12 @@
 ﻿
 # SettingSyncHost.exe 
+
 * File Path: `C:\Windows\system32\SettingSyncHost.exe`
 * Description: Host Process for Setting Synchronization
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8694A2D49379149EC8108CA2D1B896B8`
@@ -15,6 +17,7 @@ SHA415 | `C1FE1C6134B49FBE7A3C76EA11BCA941EAC9D548A6F9FF182A09EF286EE66984F28CF2
 SSDEEP | `12288:JNE3C87eVaxbbHPSAvK4qhO/flsUTVmPjNHyE:zES8aVw/vK3hkflsUT2pHyE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:JNE3C87eVaxbbHPSAvK4qhO/flsUTVmPjNHyE:zES8aVw/vK3hkflsUT2pHyE`
 * Product Version: 10.0.14393.3085
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

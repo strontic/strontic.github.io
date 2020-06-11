@@ -1,10 +1,12 @@
 ﻿
 # dcomcnfg.exe 
+
 * File Path: `C:\WINDOWS\system32\dcomcnfg.exe`
 * Description: COM+
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4AE67BC82428D471E89711AF646FF78D`
@@ -15,6 +17,7 @@ SHA415 | `6AA3FDFFD2C0AFAEFBAA6E838776980224CD5DA32AB74337C6424E6B61B871B082D43E
 SSDEEP | `192:Q3E0I+HAv9pIb2dlXUqYLHhIeVNTo7ewTlbBG7/kfuW0EW:Q3EkHYPMclXUqYLBZTU7xlbBmW0EW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:Q3E0I+HAv9pIb2dlXUqYLHhIeVNTo7ewTlbBG7/kfuW0EW:Q3EkHYPMclXUqYLBZTU
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

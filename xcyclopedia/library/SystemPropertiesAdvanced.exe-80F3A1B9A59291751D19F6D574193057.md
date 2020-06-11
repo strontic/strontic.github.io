@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesAdvanced.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemPropertiesAdvanced.exe`
 * Description: Advanced System Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `80F3A1B9A59291751D19F6D574193057`
@@ -15,6 +17,7 @@ SHA415 | `D8141DEBEB9D7FD4D06A4F1835EEE377BFDB313446FF5F818E239A70B3F8E87141763A
 SSDEEP | `1536:HyZjtREC/rMcgEPJV+G57ThjEC0kzJP+V5JH:cjzECTMpuDhjRVJGN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:HyZjtREC/rMcgEPJV+G57ThjEC0kzJP+V5JH:cjzECTMpuDhjRVJGN`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

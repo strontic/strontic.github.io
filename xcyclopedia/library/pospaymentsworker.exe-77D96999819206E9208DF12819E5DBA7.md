@@ -1,10 +1,12 @@
 ﻿
 # pospaymentsworker.exe 
+
 * File Path: `C:\WINDOWS\system32\pospaymentsworker.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `77D96999819206E9208DF12819E5DBA7`
@@ -15,6 +17,7 @@ SHA415 | `64442AA0DEB117DC2E898E00E870D4A1721A344D2CB1BCD1CB55458921DC7B313625FF
 SSDEEP | `768:5bnh7QM8jHn3msM4D+bVToo53iJmlh2KAk+b7O/C1A0Cciac5GweiNP:5ThsHn3mfdbVoCi8lI1kRYXiacgweih`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:5bnh7QM8jHn3msM4D+bVToo53iJmlh2KAk+b7O/C1A0Cciac5GweiNP:5ThsHn3mfd
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

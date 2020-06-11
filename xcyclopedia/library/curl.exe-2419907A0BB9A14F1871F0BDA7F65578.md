@@ -1,10 +1,12 @@
 ﻿
 # curl.exe 
+
 * File Path: `C:\WINDOWS\system32\curl.exe`
 * Description: The curl executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2419907A0BB9A14F1871F0BDA7F65578`
@@ -15,6 +17,7 @@ SHA415 | `096C15AF30DB0D69682FB120C5C2E24584D95F4F751F59DD482B65EC513056A046EE9F
 SSDEEP | `6144:AycXoA0oHKhKkkNc48DD4w8u8L1GtnzuQEqAqM+BbTQhGKgcvQsFME1P9YRS:oxSzx48PlqQsNYFE1P9YRS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: curl [options...] <url>
@@ -258,5 +261,7 @@ conhost.exe
 * Product Version: 7.55.1
 * Language: English (United States)
 * Legal Copyright:  1996 - 2017 Daniel Stenberg, <daniel@haxx.se>.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

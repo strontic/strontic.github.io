@@ -1,10 +1,12 @@
 ﻿
 # MSchedExe.exe 
+
 * File Path: `C:\WINDOWS\system32\MSchedExe.exe`
 * Description: Automatic Maintenance
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `08E812ABE592D0C4B3D899225BCE5FB6`
@@ -15,6 +17,7 @@ SHA415 | `0EBCA00B5664404D1BA1EB6FF48495A9D1E8EF907EB5AF7BDE4AB2F2884EDF33358228
 SSDEEP | `1536:VLtREC/rMcgEPJV+G57ThjEC0kzJP+V5JY:VzECTMpuDhjRVJGe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:VLtREC/rMcgEPJV+G57ThjEC0kzJP+V5JY:VzECTMpuDhjRVJGe`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # recover.exe 
+
 * File Path: `C:\Windows\SysWOW64\recover.exe`
 * Description: Recover Files Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D1B908D88FB9EEA82933DB365D398FDD`
@@ -15,6 +17,7 @@ SHA415 | `EA80DF577A1B6A170EC3436C5A704D26238990138040FA5A625EA949F543C773932080
 SSDEEP | `192:vK9bKr8caQtNYJlXH5NfTvDAxtyLXTek2LWLnWr:vKhmulXH5Nm0F2LWLnW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Recovers readable information from a bad or defective disk.
@@ -50,5 +53,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

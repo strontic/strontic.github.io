@@ -1,10 +1,12 @@
 ﻿
 # Register-CimProvider.exe 
+
 * File Path: `C:\Windows\system32\Register-CimProvider.exe`
 * Description: WMI
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2EAEAF637C621487553BDFB6116BA432`
@@ -15,6 +17,7 @@ SHA415 | `32CF49751615440D8DA8674B26185C758426CC8E5810BA8A1A746795D28D0ACC2C5488
 SSDEEP | `384:YYej3FYu/Y7uEEZLsG5lrtVpVhuUSfSCioLiTjPk8Qp9XHUol0l3ExvWx1W:YFeu6I/1t3rSaCL+I8+VHUol63Ex2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -106,5 +109,7 @@ Usage:  Register-CimProvider.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

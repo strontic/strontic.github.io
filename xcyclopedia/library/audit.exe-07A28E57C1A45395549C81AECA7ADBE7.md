@@ -1,10 +1,12 @@
 ﻿
 # audit.exe 
+
 * File Path: `C:\WINDOWS\system32\oobe\audit.exe`
 * Description: Audit
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `07A28E57C1A45395549C81AECA7ADBE7`
@@ -15,6 +17,7 @@ SHA415 | `AED291B36F8A32F324E8BE246ABAFBE8CF289AFB15ECAC7D508B271003C160999B5DE9
 SSDEEP | `1536:d6EiMvq8kbhfvYY9JxFHKTzu2xBmKNWV6jwXFMcm9SSjHE:d6rMv6vYY93FHKTzVx2gjwE9hD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:d6EiMvq8kbhfvYY9JxFHKTzu2xBmKNWV6jwXFMcm9SSjHE:d6rMv6vYY93FHKTzVx
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

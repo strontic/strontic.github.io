@@ -1,10 +1,12 @@
 ﻿
 # fltMC.exe 
+
 * File Path: `C:\Windows\system32\fltMC.exe`
 * Description: Filter Manager Control Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C1FB634109DF6A3E5BB58E09ED31A150`
@@ -15,6 +17,7 @@ SHA415 | `EFD02F8CC732A6FAF0F4778906D5B4CE78459B28A0DB7ED37E8CCA1AD76FBB8651BC9B
 SSDEEP | `384:woaKAz7gaDjjlbhSsFz3KO91P43Qp3blz9vKsc8e4NdP7SmIdUGsNJdWH9W:woO7g8jjRhT3KOPKQNbNb7B7SGNJy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -58,5 +61,7 @@ Valid commands:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

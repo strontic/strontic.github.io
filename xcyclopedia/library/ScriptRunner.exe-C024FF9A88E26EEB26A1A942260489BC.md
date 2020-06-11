@@ -1,10 +1,12 @@
 ﻿
 # ScriptRunner.exe 
+
 * File Path: `C:\WINDOWS\system32\ScriptRunner.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C024FF9A88E26EEB26A1A942260489BC`
@@ -15,6 +17,7 @@ SHA415 | `2FE2BA7A3BB5C8EE0F9A717CE4980E921D9A849F54BACEB9A9586984613B5EF46BC4F5
 SSDEEP | `384:u9zXIqagu/0Ei6wmsWl5wWJSD1IDBRJtA02l9n1k:CzdG/0T32GI1Pb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Invalid argument specified: /h
@@ -56,5 +59,7 @@ Error: Invalid argument specified
 * Product Version: 10.0.18362.815
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

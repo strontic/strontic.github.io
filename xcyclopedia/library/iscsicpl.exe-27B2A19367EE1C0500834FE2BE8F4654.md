@@ -1,10 +1,12 @@
 ﻿
 # iscsicpl.exe 
+
 * File Path: `C:\Windows\SysWOW64\iscsicpl.exe`
 * Description: Microsoft iSCSI Initiator Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `27B2A19367EE1C0500834FE2BE8F4654`
@@ -15,6 +17,7 @@ SHA415 | `454DB3338551D48029732AC506AE4E3F2BD0EB871B3A865F422202ABC940EA9188C7C1
 SSDEEP | `3072:IfbmFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:kJX8I0jct5rEJdp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ rundll32.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

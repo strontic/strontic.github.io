@@ -1,10 +1,12 @@
 ﻿
 # wksprt.exe 
+
 * File Path: `C:\WINDOWS\system32\wksprt.exe`
 * Description: RemoteApp and Desktop Connection Runtime
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E4F33F52B519BB8C4214054DC8866730`
@@ -15,6 +17,7 @@ SHA415 | `3B2969F1DB6F724E6797B5D175819DB2B8D6952893DC331680012AF2CB6A207F94F5DC
 SSDEEP | `12288:eSTkUHQFoyyObuDHBjUPhPuc3XIB7GjFMvT3lxR:erUHoRyOS6uwimI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:eSTkUHQFoyyObuDHBjUPhPuc3XIB7GjFMvT3lxR:erUHoRyOS6uwimI`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

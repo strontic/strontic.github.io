@@ -1,10 +1,12 @@
 ﻿
 # mitigationscanner.exe 
+
 * File Path: `C:\WINDOWS\system32\mitigationscanner.exe`
 * Description: Microsoft Recommended Troubleshooting Scanner
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3C112A2CCE8308809A68FB1C7F6B0291`
@@ -15,6 +17,7 @@ SHA415 | `6DF5F448F1BFB393FFDC9AB38ACD80C3AC2DA242D654D140B41EA9DD98F0A06499FE08
 SSDEEP | `1536:mxAvmbTf+Px3Hh9cmUzPGef5oVrAjN0ZBMV0:mx3TI2mUiefmVEpsMa`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:mxAvmbTf+Px3Hh9cmUzPGef5oVrAjN0ZBMV0:mx3TI2mUiefmVEpsMa`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

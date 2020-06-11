@@ -1,10 +1,12 @@
 ﻿
 # isoburn.exe 
+
 * File Path: `C:\WINDOWS\system32\isoburn.exe`
 * Description: Windows Disc Image Burning Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `78164919675FD6B09CDE384C2A3310BC`
@@ -15,6 +17,7 @@ SHA415 | `C67884DE63707D5CEFA708903B4DDAAE589628E58BC485AE60FE5CD6042ED052700D28
 SSDEEP | `1536:Ps/iPurcRUUOr/QPpvsiy4xOHQ0gruB/AtOCauyb4XKAbeHZrQqf:SgRUKvsv5gruBkabb6NeHd3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:Ps/iPurcRUUOr/QPpvsiy4xOHQ0gruB/AtOCauyb4XKAbeHZrQqf:SgRUKvsv5gru
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # gpupdate.exe 
+
 * File Path: `C:\WINDOWS\system32\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D4F01BEC9CA921C13ED1BDD1BF1D2D24`
@@ -15,6 +17,7 @@ SHA415 | `A264036B7043D475A9FB6A8C4D08860F3BC26036DF84173710B07E47D4B4272D20C2AE
 SSDEEP | `384:bFhlVqanxKd/cz0+i2nfXdtN2gGM+dVbFd5sBOuROnPl2R/WoDbyEV4uee0hKEou:b3qaxKVczmfdr8yPl0jVV4je0hKEof`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Description:  Updates multiple Group Policy settings.
@@ -98,5 +101,7 @@ Value                      Description
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

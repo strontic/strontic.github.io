@@ -1,10 +1,12 @@
 ﻿
 # wlrmdr.exe 
+
 * File Path: `C:\Windows\system32\wlrmdr.exe`
 * Description: Windows logon reminder
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E18544710300FA84B16E556D8915EC6C`
@@ -15,6 +17,7 @@ SHA415 | `A94754E47D75EC9D06283BF175FA503BB2C3B952C947F2B1BB90B7BCF6B05CF20FE9AC
 SSDEEP | `1536:jq4T59iOiNz2Sw31dzLQKYq96insvqr9PxDtYcPRdrI:z4O0zGH/QKY86fu9ZDtYcJdrI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:jq4T59iOiNz2Sw31dzLQKYq96insvqr9PxDtYcPRdrI:z4O0zGH/QKY86fu9ZDtYc
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # CIDiag.exe 
+
 * File Path: `C:\WINDOWS\system32\CIDiag.exe`
 * Description: CodeIntegrity Diagnostic Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D8C88345F64DB744BBE5436110B042E1`
@@ -15,6 +17,7 @@ SHA415 | `E15AF5DCD3C6C732E57B379ACE5DF1330289F48841BCE195670F1D18580AA0AC484E3F
 SSDEEP | `768:9EGpRl8ugUv0R00llkihWl0IHjYrKMfgK:9Rl8U0RVllE+IixfgK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: "CIDiag.exe /start", "CIDiag.exe /stop", or "CIDiag.exe /stop /nologs"
@@ -46,5 +49,7 @@ Usage: "CIDiag.exe /start", "CIDiag.exe /stop", or "CIDiag.exe /stop /nologs"
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

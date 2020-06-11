@@ -1,10 +1,12 @@
 ﻿
 # mfevtps.exe 
+
 * File Path: `C:\WINDOWS\system32\mfevtps.exe`
 * Description: McAfee Process Validation Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AC0880100ADC1E0253107600CC1E8C81`
@@ -15,6 +17,7 @@ SHA415 | `B1C879E4B453284D20576E2363D98E90C3760E58996C747E741BDA7F7F7C21F72EE76B
 SSDEEP | `12288:4D/BJd98p+rdp68htJslsWy/GLaSh222YyQpcdheu+jE29cr:4D/yQh/kHyL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:4D/BJd98p+rdp68htJslsWy/GLaSh222YyQpcdheu+jE29cr:4D/yQh/kHyL`
 * Product Version: 20.1.0.177
 * Language: Language Neutral
 * Legal Copyright: Copyright (C) 1995-2020 McAfee, LLC. All Rights Reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

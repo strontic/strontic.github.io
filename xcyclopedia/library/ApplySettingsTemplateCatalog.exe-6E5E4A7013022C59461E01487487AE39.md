@@ -1,10 +1,12 @@
 ﻿
 # ApplySettingsTemplateCatalog.exe 
+
 * File Path: `C:\Windows\system32\ApplySettingsTemplateCatalog.exe`
 * Description: ApplySettingsTemplateCatalog EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6E5E4A7013022C59461E01487487AE39`
@@ -15,6 +17,7 @@ SHA415 | `2B4FED15EA38EAEC61A57CE0D8872F310297B059AA6E6FDDDEB49BB014FF82B5474BE2
 SSDEEP | `24576:X0KdFOSqr40VzK9a8C5vtsBQlU8STQ/jTuI8G26crjGEzq9yiXlM:RfOSqFZK9St47q3Xl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:X0KdFOSqr40VzK9a8C5vtsBQlU8STQ/jTuI8G26crjGEzq9yiXlM:RfOSqFZK9St
 * Product Version: 10.0.14393.3471
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

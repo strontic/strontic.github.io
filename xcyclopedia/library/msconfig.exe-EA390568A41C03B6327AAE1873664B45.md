@@ -1,10 +1,12 @@
 ﻿
 # msconfig.exe 
+
 * File Path: `C:\Windows\system32\msconfig.exe`
 * Description: MSCONFIG MFC APPLICATION
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EA390568A41C03B6327AAE1873664B45`
@@ -15,6 +17,7 @@ SHA415 | `6E5BDB1B5BB65FCD175A3A268A63AC4C80E76B1A2E6C167551DD5BE19A5FE3F21AB575
 SSDEEP | `3072:GixBrgOYNvtt4DIIsYhCx8oMFir9fUd0/HlGJRA1:GirgObIIsYYSFkUdSGJRW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:GixBrgOYNvtt4DIIsYhCx8oMFir9fUd0/HlGJRA1:GirgObIIsYYSFkUdSGJRW`
 * Product Version: 1, 0, 0, 1
 * Language: English (United States)
 * Legal Copyright: COPYRIGHT (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # coredpussvr.exe 
+
 * File Path: `C:\WINDOWS\system32\coredpussvr.exe`
 * Description: coredpussvr.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BD3B1090305E418FEE72BEADBADE57DE`
@@ -15,6 +17,7 @@ SHA415 | `0E070F80AA20EC04AB577CCDBF78F7A27C87DD503DDC07B975B4B1F2494A66ED844E4C
 SSDEEP | `1536:spmceAIvCTCbvs7g5ozoB1nGQaXmdwlRUlkMsaB4NWsCz74V+8Zh:C9Ob+cB1sXYAiuMjgDy74FZh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:spmceAIvCTCbvs7g5ozoB1nGQaXmdwlRUlkMsaB4NWsCz74V+8Zh:C9Ob+cB1sXYA
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

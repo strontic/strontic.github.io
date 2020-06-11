@@ -1,10 +1,12 @@
 ﻿
 # edpnotify.exe 
+
 * File Path: `C:\Windows\system32\edpnotify.exe`
 * Description: Microsoft Enterpise Data Protection
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B23E719836D235DE85DE688CBB57511A`
@@ -15,6 +17,7 @@ SHA415 | `FA0334BE639B0AACF071B2AA2481A025B8E18A033A1E962B6FC22561B2E54739E47968
 SSDEEP | `768:w9f+ggq0NmeN0NuIw6NiAaupxo2oiMQn5+VecIom0gijQCVmB6hsEIqeBJ:wrg7AxNlZxoO74VeBomndCV9h1Iqc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:w9f+ggq0NmeN0NuIw6NiAaupxo2oiMQn5+VecIom0gijQCVmB6hsEIqeBJ:wrg7AxN
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

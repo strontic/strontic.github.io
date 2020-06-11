@@ -1,10 +1,12 @@
 ﻿
 # cleanmgr.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\cleanmgr.exe`
 * Description: Disk Space Cleanup Manager for Windows
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `62E489BDA46EB47876EC8373F6334D18`
@@ -15,6 +17,7 @@ SHA415 | `D18789B2DECF9CF05C7113E0FAB6C1814EAC5F6DDD683B423F2E2F82658765801FD3B9
 SSDEEP | `1536:f3ghfNvKIU2Hxr4aU9xZcE6j9OM2IyDZpux6pd:YTvnU2WaIoEA0M2IyNE4d`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:f3ghfNvKIU2Hxr4aU9xZcE6j9OM2IyDZpux6pd:YTvnU2WaIoEA0M2IyNE4d`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

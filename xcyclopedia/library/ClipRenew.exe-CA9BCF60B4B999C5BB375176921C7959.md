@@ -1,10 +1,12 @@
 ﻿
 # ClipRenew.exe 
+
 * File Path: `C:\WINDOWS\system32\ClipRenew.exe`
 * Description: Acquire License From Store
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CA9BCF60B4B999C5BB375176921C7959`
@@ -15,6 +17,7 @@ SHA415 | `C227C9F5170B04EE1C61BC57FF88E20B850B61D6150B36FF83FF7723964249FD95D3DF
 SSDEEP | `3072:LLkWNsgAAyx0E13Ai6/cwT7GHENd1GoxC:3fsnD0D/BWkW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:LLkWNsgAAyx0E13Ai6/cwT7GHENd1GoxC:3fsnD0D/BWkW`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # Microsoft.Uev.SyncController.exe 
+
 * File Path: `C:\WINDOWS\system32\Microsoft.Uev.SyncController.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `68EC8F87BD36362B5DA3EF46FDFDBD14`
@@ -15,6 +17,7 @@ SHA415 | `D9657F6217CEABBC4937284CEAE591D73FA8C601EACB56128FCDFAC50B05CD86C46DCE
 SSDEEP | `1536:9hCtaUCKV/Q2vd1sTNe+6NwiKE10DHlZ:YCKV/Q2vd1sTNGBl10z`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:9hCtaUCKV/Q2vd1sTNe+6NwiKE10DHlZ:YCKV/Q2vd1sTNGBl10z`
 * Product Version: 10.0.18362.449
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

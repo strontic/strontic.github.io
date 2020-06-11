@@ -1,10 +1,12 @@
 ﻿
 # cttunesvr.exe 
+
 * File Path: `C:\WINDOWS\system32\cttunesvr.exe`
 * Description: ClearType Tuner
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B807358EEADC9989DEE47AB20C963CD6`
@@ -15,6 +17,7 @@ SHA415 | `A82FF141B8058B1F6526621ED0D6D03715E3A770D20D20B2CF341D732B5B17D684BED9
 SSDEEP | `768:IDaX+NIPckKZ1d9mD85fV8JWdALEzKZQJ7+g1tl1dVldhYI+F/6VcHTV:IWTAd5N8qtKZk7J1tl1dVldht+F/tzV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:IDaX+NIPckKZ1d9mD85fV8JWdALEzKZQJ7+g1tl1dVldhYI+F/6VcHTV:IWTAd5N8q
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # BitLockerDeviceEncryption.exe 
+
 * File Path: `C:\WINDOWS\system32\BitLockerDeviceEncryption.exe`
 * Description: BitLocker Device Encryption Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3F787E8B7D704E9C728C3BDC58566F45`
@@ -15,6 +17,7 @@ SHA415 | `9BBC9F3261BD92650D5065E08CA4B4AD08448A59F714574407E3BF913308BD5A248166
 SSDEEP | `3072:OsIWPUSyJIzdmCE/n5Yh4Oz0R+svk886jh7:OxW2WHE/5Yh4OwhTjh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:OsIWPUSyJIzdmCE/n5Yh4Oz0R+svk886jh7:OxW2WHE/5Yh4OwhTjh`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

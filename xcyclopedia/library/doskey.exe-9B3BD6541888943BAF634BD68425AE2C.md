@@ -1,10 +1,12 @@
 ﻿
 # doskey.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\doskey.exe`
 * Description: Keyboard History Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9B3BD6541888943BAF634BD68425AE2C`
@@ -15,6 +17,7 @@ SHA415 | `697170A3EA437EAE0A840182013C14A594B3C3F167745E943F7BD3EA4102FD079B2AA8
 SSDEEP | `192:SggeWYfxnntxPYYtPg+pplkhazuApmg2Y8PqFDDUkSVltSWRRkHWpiWDwvN:TlnntxPTlgZAKAog2DPqCDMHWpiWDI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Edits command lines, recalls Windows commands, and creates macros.
@@ -73,5 +76,7 @@ $*     Symbol replaced by everything following macro name on command line.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

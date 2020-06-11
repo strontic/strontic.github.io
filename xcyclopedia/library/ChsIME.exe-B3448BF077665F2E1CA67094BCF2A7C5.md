@@ -1,10 +1,12 @@
 ﻿
 # ChsIME.exe 
+
 * File Path: `C:\WINDOWS\system32\InputMethod\CHS\ChsIME.exe`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B3448BF077665F2E1CA67094BCF2A7C5`
@@ -15,6 +17,7 @@ SHA415 | `745E6EB5993B844F6D87ABD95C7B0410963CA4F187D7292B109AE664208D73DD28CE7B
 SSDEEP | `3072:c99SpyqIROrwjfU+SZNx0QMhySIVhtAaIWULvxhs5UAgR3G+8yduCjpOBhDC+XMt:c99ScfROEj/m0nItAaTq2Vz+YTCmM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:c99SpyqIROrwjfU+SZNx0QMhySIVhtAaIWULvxhs5UAgR3G+8yduCjpOBhDC+XMt:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

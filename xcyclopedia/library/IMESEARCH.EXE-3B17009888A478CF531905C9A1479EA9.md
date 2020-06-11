@@ -1,10 +1,12 @@
 ﻿
 # IMESEARCH.EXE 
+
 * File Path: `C:\Windows\SysWOW64\IME\SHARED\IMESEARCH.EXE`
 * Description: IME search module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3B17009888A478CF531905C9A1479EA9`
@@ -15,6 +17,7 @@ SHA415 | `5B939E68E3F0874EF68C8B99CBED80543287212115E7C8758EF415BDA3BF385F156B75
 SSDEEP | `1536:MpWpQqJsGoypPwP/jiqg+QbrG4nGJoYZSvtLQ/soV4Zvws460R5sTSDBQa9uk:MUpQc9oys/jiZGPS5DZvws46gaTAl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:MpWpQqJsGoypPwP/jiqg+QbrG4nGJoYZSvtLQ/soV4Zvws460R5sTSDBQa9uk:MUp
 * Product Version: 10.0.14393.2457
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

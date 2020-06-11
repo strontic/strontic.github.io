@@ -1,10 +1,12 @@
 ﻿
 # bfsvc.exe 
+
 * File Path: `C:\WINDOWS\bfsvc.exe`
 * Description: Boot File Servicing Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B75D52E7DBEEF44A2C3324A2CE0272C9`
@@ -15,6 +17,7 @@ SHA415 | `CADC07E798B52BB0C95C5B3FEBC88C9F21EB73BF53DC7BCD7447B73D435BD5444D6260
 SSDEEP | `1536:8VRuhv3kcGhiwYMvCG/PBYSXtAC3xTkehjgph:8DuhvJGgwPPiSn+ehK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -48,5 +51,7 @@ BFSVC Error: ServicingBootFiles failed. Error = 0xc1
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # cmmon32.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\cmmon32.exe`
 * Description: Microsoft Connection Manager Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8BAF4640EDA0C53DCD53AD743E22F881`
@@ -15,6 +17,7 @@ SHA415 | `D2ACCA45755EF4C852F96BB7D2D488271B26EE1D8091A635F70E5A941A07D27EF2998F
 SSDEEP | `768:QHDnOXh9Uwynd5wRInPrH3G2TnmKOYgjF2SmF/Fmz5tKCT7GV:QHD69bRInzH3Vmhf6NC5tKCTy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:QHDnOXh9Uwynd5wRInPrH3G2TnmKOYgjF2SmF/Fmz5tKCT7GV:QHD69bRInzH3Vmhf
 * Product Version: 7.2.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

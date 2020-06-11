@@ -1,10 +1,12 @@
 ﻿
 # secinit.exe 
+
 * File Path: `C:\WINDOWS\system32\secinit.exe`
 * Description: Security Init
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `359D5837D4C23BD3DFD851EEB1F8EC59`
@@ -15,6 +17,7 @@ SHA415 | `D65684FFBD6B863FA48E744C78805AA4D5DC0860DCC2CD937DCC5AAECF086D68BC6E20
 SSDEEP | `192:mm92M7hPKuLkrkkTkSWdPtku2LKNDgWKGSCW8mNW8vWzRiW:m022ZKxlxWd1ku2LZWKTNW8vWzRiW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:mm92M7hPKuLkrkkTkSWdPtku2LKNDgWKGSCW8mNW8vWzRiW:m022ZKxlxWd1ku2LZW
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

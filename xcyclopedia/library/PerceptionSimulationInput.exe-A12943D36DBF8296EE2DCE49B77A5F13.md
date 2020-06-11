@@ -1,10 +1,12 @@
 ﻿
 # PerceptionSimulationInput.exe 
+
 * File Path: `C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationInput.exe`
 * Description: Mixed Reality Simulation Control
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A12943D36DBF8296EE2DCE49B77A5F13`
@@ -15,6 +17,7 @@ SHA415 | `6FFAF0A720C2034C6062826586ED40AE213514555BB3A2869DBBB91CD423104ED4B735
 SSDEEP | `1536:Ng0qeYCprYI/VbD3efO9pMj8DAmpfhNokN:NLqeYCprYI/VXqOKWJN/N`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:Ng0qeYCprYI/VbD3efO9pMj8DAmpfhNokN:NLqeYCprYI/VXqOKWJN/N`
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

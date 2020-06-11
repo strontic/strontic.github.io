@@ -1,10 +1,12 @@
 ﻿
 # Robocopy.exe 
+
 * File Path: `C:\Windows\SysWOW64\Robocopy.exe`
 * Description: Microsoft Robocopy
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AF707013DB5416E4CBD73652CEB1E784`
@@ -15,6 +17,7 @@ SHA415 | `D0AB971753FF683862D464508E4459B343AF07AF1C753E208BC0B4EE4CC3F6406B3168
 SSDEEP | `3072:ajpskxediYR4xFCKYRFXntbFgIZfcRbksA+:YpLU9Jg5Rbk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -211,5 +214,7 @@ SSDEEP | `3072:ajpskxediYR4xFCKYRFXntbFgIZfcRbksA+:YpLU9Jg5Rbk`
 * Product Version: 10.0.14393.2636
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

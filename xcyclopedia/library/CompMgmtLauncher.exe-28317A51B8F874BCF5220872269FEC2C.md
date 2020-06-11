@@ -1,10 +1,12 @@
 ﻿
 # CompMgmtLauncher.exe 
+
 * File Path: `C:\Windows\system32\CompMgmtLauncher.exe`
 * Description: Computer Management Snapin Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `28317A51B8F874BCF5220872269FEC2C`
@@ -15,6 +17,7 @@ SHA415 | `CFB1DA18B1FAA715E2A1B0D61D346A7E0ED0FD8DCD916D6044BFDC8B1DC6C1B1D5C716
 SSDEEP | `1536:9DeNdNKcJaVlpAjzfldyCKPu1oT1ldlOo+vi6Uf:BHcJazmjTldyCut1ldco+Q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ ServerManager.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

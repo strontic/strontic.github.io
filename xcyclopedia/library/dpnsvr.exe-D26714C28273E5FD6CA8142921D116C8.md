@@ -1,10 +1,12 @@
 ﻿
 # dpnsvr.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\dpnsvr.exe`
 * Description: DirectPlay Stub
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D26714C28273E5FD6CA8142921D116C8`
@@ -15,6 +17,7 @@ SHA415 | `9E0C3C05AB60A81352D80F878B5DD0309EE42F8C533E2A13E594C1DECD4002D520A55D
 SSDEEP | `96:eaFuEXlTnK04u+Mm9Tcqq2jshTswbgewmV4UEWguWwq:eyhK0V+ME70gwsewmV6WguW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:eaFuEXlTnK04u+Mm9Tcqq2jshTswbgewmV4UEWguWwq:eyhK0V+ME70gwsewmV6WguW
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

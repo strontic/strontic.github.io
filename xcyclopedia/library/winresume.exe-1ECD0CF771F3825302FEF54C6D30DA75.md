@@ -1,10 +1,12 @@
 ﻿
 # winresume.exe 
+
 * File Path: `C:\WINDOWS\system32\winresume.exe`
 * Description: Resume From Hibernate boot application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1ECD0CF771F3825302FEF54C6D30DA75`
@@ -15,6 +17,7 @@ SHA415 | `2893F938E533B38AC49D64297F5F13A6077373BEFA8D5F249F85D54D23C172E2C61674
 SSDEEP | `24576:yQ/i6EqiMw1E/h7/ZoaJ3viGlP+tpqw232Syu8oItTDq:ta68QNpYyP+tpwGDE3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:yQ/i6EqiMw1E/h7/ZoaJ3viGlP+tpqw232Syu8oItTDq:ta68QNpYyP+tpwGDE3`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

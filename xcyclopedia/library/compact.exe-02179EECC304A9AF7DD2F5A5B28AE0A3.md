@@ -1,10 +1,12 @@
 ﻿
 # compact.exe 
+
 * File Path: `C:\Windows\SysWOW64\compact.exe`
 * Description: File Compress Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `02179EECC304A9AF7DD2F5A5B28AE0A3`
@@ -15,6 +17,7 @@ SHA415 | `FBB02E804B6EC2EB649F392E058E52CACD1AA13899DF5A65EABAD7FED7370D3749D5B6
 SSDEEP | `768:fdMd1p9eIsK/K1hbSXqTIICbWhf2olLfkcAKAnUVVPehd47XN1NKNT:fdMd1p9erhUWiUV4hd47XNDKN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Displays or alters the compression of files on NTFS partitions.
@@ -90,5 +93,7 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

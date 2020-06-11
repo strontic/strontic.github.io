@@ -1,10 +1,12 @@
 ﻿
 # lsass.exe 
+
 * File Path: `C:\WINDOWS\system32\lsass.exe`
 * Description: Local Security Authority Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `03C70933698C6E3E466076DD9C3FAA18`
@@ -15,6 +17,7 @@ SHA415 | `790F72185B2B1F9CE427D26329863E7E54DFE9FD5CF74B693B864CE628EDCE34B9F9BF
 SSDEEP | `768:g9WRRwWrlMDdjX7WsLeLSfsNkKqS/spMs6FUCyy1P7pS:g9mvlMDgsLeLzkKjsysvCbP7pS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:g9WRRwWrlMDdjX7WsLeLSfsNkKqS/spMs6FUCyy1P7pS:g9mvlMDgsLeLzkKjsysvC
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # wbemtest.exe 
+
 * File Path: `C:\WINDOWS\system32\wbem\wbemtest.exe`
 * Description: WMI Test Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6C18ACC7CDEFAECAA87E3956BE3E5117`
@@ -15,6 +17,7 @@ SHA415 | `D0866E1BE02318FDE1A21B0EB767FA7B8802AFFE42038EC49F66BD7F6408F605782810
 SSDEEP | `3072:/yUMtThU5nveHj1Gza9wY7uKTYATTEfYpU0z8i7CBajhmGfUhIPFJRAhP2EAe+:/yUMtThUNWD1qaKIKaZmGAUtDeP`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:/yUMtThU5nveHj1Gza9wY7uKTYATTEfYpU0z8i7CBajhmGfUhIPFJRAhP2EAe+:/y
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

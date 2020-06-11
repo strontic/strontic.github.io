@@ -1,10 +1,12 @@
 ﻿
 # ThumbnailExtractionHost.exe 
+
 * File Path: `C:\WINDOWS\system32\ThumbnailExtractionHost.exe`
 * Description: Thumbnail Handler Extraction Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DEAAED1436B398C2F5F37F036082E145`
@@ -15,6 +17,7 @@ SHA415 | `B0698E7988A7F03C08963867B9C386E60D32354A15298DBCD3FD01E6ACDF5A9A71178C
 SSDEEP | `768:Pj8TiS8w6v1NURYrOIjgIbiOVzPO7iLj+ykc:Pj8Gw6d7O2PeS+ykc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Pj8TiS8w6v1NURYrOIjgIbiOVzPO7iLj+ykc:Pj8Gw6d7O2PeS+ykc`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

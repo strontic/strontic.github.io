@@ -1,10 +1,12 @@
 ﻿
 # smss.exe 
+
 * File Path: `C:\Windows\system32\smss.exe`
 * Description: Windows Session Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `725EC50D4B0F607BF5B45B5E0115770B`
@@ -15,6 +17,7 @@ SHA415 | `591977951CB2A2057B7888B0A25AACB15D4D822B187AFF1AED3FC66D383871D8110032
 SSDEEP | `3072:KY/96LhnveimVXP4R43aYuHH5ybCPgisSZvSFhkRa2E:KYV6LhnvfYGHAbCYi/NSEE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:KY/96LhnveimVXP4R43aYuHH5ybCPgisSZvSFhkRa2E:KYV6LhnvfYGHAbCYi/NSE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

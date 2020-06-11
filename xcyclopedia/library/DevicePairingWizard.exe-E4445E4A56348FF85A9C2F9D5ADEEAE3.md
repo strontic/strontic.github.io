@@ -1,10 +1,12 @@
 ﻿
 # DevicePairingWizard.exe 
+
 * File Path: `C:\Windows\system32\DevicePairingWizard.exe`
 * Description: Device Pairing Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E4445E4A56348FF85A9C2F9D5ADEEAE3`
@@ -15,6 +17,7 @@ SHA415 | `64A28DC76C2981FF88B80E3E2540C94D3684F7643E13AD3EECCED261BD88156F054ADA
 SSDEEP | `1536:Qc7rNy7PUmeHh0ORziE8Ujcd7GtKe9MqZ3qOTj:77A7Pe+ORziE8gcQtr6oj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:Qc7rNy7PUmeHh0ORziE8Ujcd7GtKe9MqZ3qOTj:77A7Pe+ORziE8gcQtr6oj`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # GeForce_Experience_Update_v2.5.11.45.exe 
+
 * File Path: `C:\ProgramData\NVIDIA Corporation\NetService\00000000-0000-0000-0000-000000000000\GeForce_Experience_Update_v2.5.11.45.exe`
 * Description: NVIDIA Package Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FE5D1D640544809506B49010A5832868`
@@ -15,6 +17,7 @@ SHA415 | `7B9BDA54529C15996AE382B5955828780791E01DA80AF082EDCD99B4538BAAA325611C
 SSDEEP | `786432:fr8nZFpCrZLMSULEJJ0rP51BxeESCICR5GeP086xDmhMZVV:YnfpCrnULvR/xVdIgGes/xDIMZVV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `786432:fr8nZFpCrZLMSULEJJ0rP51BxeESCICR5GeP086xDmhMZVV:YnfpCrnULvR/xVd
 * Product Version: 1.0.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2015 NVIDIA Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

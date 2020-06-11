@@ -1,10 +1,12 @@
 ﻿
 # immersivetpmvscmgrsvr.exe 
+
 * File Path: `C:\WINDOWS\system32\immersivetpmvscmgrsvr.exe`
 * Description: Immersive TPM Virtual Smart Card Manager COM Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3A6BC919D7D4EEB9CEBDAD4D27EFBA91`
@@ -15,6 +17,7 @@ SHA415 | `75EFCD87EC745EA813DF710F4EEA9760A5DCED8981A9C20B9F38DBC77967A6C7BDFC3D
 SSDEEP | `3072:ZBpuuQi6yLdJyA+Hyh2RSxjGyLpfXi3L4:DpuubxEl4xjtV/ib`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:ZBpuuQi6yLdJyA+Hyh2RSxjGyLpfXi3L4:DpuubxEl4xjtV/ib`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

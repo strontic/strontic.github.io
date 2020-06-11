@@ -1,10 +1,12 @@
 ﻿
 # McInst.exe 
+
 * File Path: `C:\ProgramData\McInstTemp0309601560372635\McInst.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | ``
@@ -15,6 +17,7 @@ SHA415 | ``
 SSDEEP | ``
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | ``
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

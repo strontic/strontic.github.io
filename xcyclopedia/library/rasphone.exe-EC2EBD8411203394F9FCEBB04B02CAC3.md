@@ -1,10 +1,12 @@
 ﻿
 # rasphone.exe 
+
 * File Path: `C:\Windows\system32\rasphone.exe`
 * Description: Remote Access Phonebook
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EC2EBD8411203394F9FCEBB04B02CAC3`
@@ -15,6 +17,7 @@ SHA415 | `9D52DB525DBC9DF9340B05CBD49CB5A069AEB7C0C9EF2D005D6F53192AB25A769765AF
 SSDEEP | `768:Z+kNIl9wpFrAjJK9W6SNZCPPxbR+Qi1MrjNBFquBW:ZAW2NZsPp8Mrjk2W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Z+kNIl9wpFrAjJK9W6SNZCPPxbR+Qi1MrjNBFquBW:ZAW2NZsPp8Mrjk2W`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

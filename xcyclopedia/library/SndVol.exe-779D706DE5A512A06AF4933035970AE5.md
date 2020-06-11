@@ -1,10 +1,12 @@
 ﻿
 # SndVol.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\SndVol.exe`
 * Description: Volume Mixer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `779D706DE5A512A06AF4933035970AE5`
@@ -15,6 +17,7 @@ SHA415 | `5D33688704D5AE6BA33B351224AAC2896EECDE811968CA4D668BE48BBD48F33E39E122
 SSDEEP | `3072:e3vE5+T1v9ImTX+8AcbJovI6GuQgQxj1Vp4/7Do9zjbEyB7HbIdMXssz:e38GvTX+fcbiv7//vy10dMb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:e3vE5+T1v9ImTX+8AcbJovI6GuQgQxj1Vp4/7Do9zjbEyB7HbIdMXssz:e38GvTX+
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

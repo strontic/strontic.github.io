@@ -1,10 +1,12 @@
 ﻿
 # runexehelper.exe 
+
 * File Path: `C:\WINDOWS\system32\runexehelper.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `980A7C242B19E686EDE4EA4D22A293E5`
@@ -15,6 +17,7 @@ SHA415 | `039BBE007E0A2C310B34CE6AB97000D6B0DB4D5026019C2F150A0A49F523228E427582
 SSDEEP | `1536:KVdTx8/9rLYXkwRCQkvXGQtfPxfFPBzQTXR5uUDRl7:KDOFHY7RCQkeQtfJf8jTuUj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:KVdTx8/9rLYXkwRCQkvXGQtfPxfFPBzQTXR5uUDRl7:KDOFHY7RCQkeQtfJf8jTuU
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

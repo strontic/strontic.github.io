@@ -1,10 +1,12 @@
 ﻿
 # LanguageComponentsInstallerComHandler.exe 
+
 * File Path: `C:\WINDOWS\system32\LanguageComponentsInstallerComHandler.exe`
 * Description: LanguageComponentsInstaller COM Handler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6904E511544803D32C5C7521717EB341`
@@ -15,6 +17,7 @@ SHA415 | `D135F48623DD56815DDEC4C987501BAFA1C6B73BCEFC901D35C91DE74F98AB88FD0436
 SSDEEP | `1536:dIPDJnLpz8lQ+eluBvirj2igxP+3uQgx84tS5:6hDQBvirD2+rR4s5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:dIPDJnLpz8lQ+eluBvirj2igxP+3uQgx84tS5:6hDQBvirD2+rR4s5`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

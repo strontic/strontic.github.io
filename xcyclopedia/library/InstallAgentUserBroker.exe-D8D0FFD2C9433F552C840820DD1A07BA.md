@@ -1,10 +1,12 @@
 ﻿
 # InstallAgentUserBroker.exe 
+
 * File Path: `C:\Windows\system32\InstallAgentUserBroker.exe`
 * Description: InstallAgentUserBroker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D8D0FFD2C9433F552C840820DD1A07BA`
@@ -15,6 +17,7 @@ SHA415 | `3A5C847092625C1AE1F2234BE3A6FFD2343B15137A5740D6246DD82C01F33AEBE2A860
 SSDEEP | `6144:SkYl1yUHxDUQPDctrkcTHTRviQOQ22UF5:SkYl15Jrcucy5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:SkYl1yUHxDUQPDctrkcTHTRviQOQ22UF5:SkYl15Jrcucy5`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

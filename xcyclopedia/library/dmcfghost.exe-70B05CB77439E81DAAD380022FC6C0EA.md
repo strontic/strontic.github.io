@@ -1,10 +1,12 @@
 ﻿
 # dmcfghost.exe 
+
 * File Path: `C:\WINDOWS\system32\dmcfghost.exe`
 * Description: Host Process for Push Router Client of OMA-CP
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `70B05CB77439E81DAAD380022FC6C0EA`
@@ -15,6 +17,7 @@ SHA415 | `907BDD993906F921B28420340BA30258C4FDD2C5A74C2FA0B7A03A30DE46E6A3A58B59
 SSDEEP | `768:vz7r4fVYCBAYvrd14j7aKVjWZl0OLKVnqNMm2cY9YQ:HQCYvrZKlWZ+OLK0NMmlY9YQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:vz7r4fVYCBAYvrd14j7aKVjWZl0OLKVnqNMm2cY9YQ:HQCYvrZKlWZ+OLK0NMmlY9Y
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

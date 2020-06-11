@@ -1,10 +1,12 @@
 ﻿
 # PktMon.exe 
+
 * File Path: `C:\WINDOWS\system32\PktMon.exe`
 * Description: Packet Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2B65BC360DD7C4C290231DEE93A0CE75`
@@ -15,6 +17,7 @@ SHA415 | `D2760181E94847A47A4ECAEDE288D12C82BD25EB05FE57881FF1DDDDBDECD106D21DEB
 SSDEEP | `3072:uJEmhfWDN/2qhND+jvMEXAxzkFD2D/o2Kwa5wGz+R4dx:5md4R2qhND+jEvxzkFaZs+Rw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 pktmon { filter | comp | reset | start | stop } [OPTIONS | help]
@@ -62,5 +65,7 @@ Unknown command '-help'. See pktmon  help.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

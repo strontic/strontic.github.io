@@ -1,10 +1,12 @@
 ﻿
 # TapiUnattend.exe 
+
 * File Path: `C:\Windows\system32\TapiUnattend.exe`
 * Description: Microsoft Windows(TM) Telephony Unattend Action
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8692BADA1945B15A9F3489767F873D2A`
@@ -15,6 +17,7 @@ SHA415 | `F2273D86E190320834AF7021839BEE62DC3455656A04C5F0F313BF4D9914B3DA229DB7
 SSDEEP | `384:sMOWb5h4wtbdsHvPvkYvT90LX0mW/lUW:sMXtgPvkY7CrE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:sMOWb5h4wtbdsHvPvkYvT90LX0mW/lUW:sMXtgPvkY7CrE`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

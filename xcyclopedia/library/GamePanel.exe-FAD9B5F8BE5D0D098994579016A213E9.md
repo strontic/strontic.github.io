@@ -1,10 +1,12 @@
 ﻿
 # GamePanel.exe 
+
 * File Path: `C:\Windows\system32\GamePanel.exe`
 * Description: Game Bar
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FAD9B5F8BE5D0D098994579016A213E9`
@@ -15,6 +17,7 @@ SHA415 | `A4D15F0729532B6BC8B7947578A60951FE0B045590B21CEB96E2EC48B9690B6948CBDA
 SSDEEP | `12288:1kT/fyVNTfdlAbNY7fgV7u5EPPKTWR9aUPIi:1kjiTf+ggV7u5EPPKyR9aUP`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:1kT/fyVNTfdlAbNY7fgV7u5EPPKTWR9aUPIi:1kjiTf+ggV7u5EPPKyR9aUP`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

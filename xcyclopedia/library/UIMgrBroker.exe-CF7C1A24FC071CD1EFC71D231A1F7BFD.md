@@ -1,10 +1,12 @@
 ﻿
 # UIMgrBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\UIMgrBroker.exe`
 * Description: Microsoft UIManager Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CF7C1A24FC071CD1EFC71D231A1F7BFD`
@@ -15,6 +17,7 @@ SHA415 | `B75CA1552F365421584A996C53F219B3D5C8C1D2947540817C9D5D7BCA44D64A8A6DDB
 SSDEEP | `768:NUBIBfjJcJQdHj8W8Kd7S8tYQcPPYh1YKeUaDcBRU9VkQB7qBYMsd:oIYJQtlre8OQKo+jU7/U9q27qBYMsd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:NUBIBfjJcJQdHj8W8Kd7S8tYQcPPYh1YKeUaDcBRU9VkQB7qBYMsd:oIYJQtlre8OQ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

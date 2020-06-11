@@ -1,10 +1,12 @@
 ﻿
 # setupugc.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\setupugc.exe`
 * Description: Setup Unattend Generic Command Processor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1F20551A16D1CD16AB1C143A751657CA`
@@ -15,6 +17,7 @@ SHA415 | `789DA1A1618500044B5A370CE66CB7E74BE5CB295F27AA75DDE4A1A24C8E061FA6B6DF
 SSDEEP | `1536:GAbihsvAgWeD6LJEH9WIc1mneGrGNvANqrtvvSN29O+QFeWRT7PgY3:GAvvWe+lEH9G1YivjvMmO+2eqT7PgY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:GAbihsvAgWeD6LJEH9WIc1mneGrGNvANqrtvvSN29O+QFeWRT7PgY3:GAvvWe+lEH
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

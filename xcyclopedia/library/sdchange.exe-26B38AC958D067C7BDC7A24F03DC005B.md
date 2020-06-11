@@ -1,10 +1,12 @@
 ﻿
 # sdchange.exe 
+
 * File Path: `C:\WINDOWS\system32\sdchange.exe`
 * Description: Windows Remote Assistance SD Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `26B38AC958D067C7BDC7A24F03DC005B`
@@ -15,6 +17,7 @@ SHA415 | `B6B95B22D8A02B23BB51763C28EB4899E4ABEB0A28DA2784BC4CECECB7A2FAB7D210F3
 SSDEEP | `768:+OXw9/Xec6vJ0ued19M5xyotjUGdAVOPJ4wxJ2z5yu+h6fu:dXw9/ec6vet1iyot45OPhv2zbdf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:+OXw9/Xec6vJ0ued19M5xyotjUGdAVOPJ4wxJ2z5yu+h6fu:dXw9/ec6vet1iyot45
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

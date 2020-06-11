@@ -1,10 +1,12 @@
 ﻿
 # rstrui.exe 
+
 * File Path: `C:\WINDOWS\system32\rstrui.exe`
 * Description: Microsoft Windows System Restore
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1D4A8AD1E0012FABABFC7F3B4F0EF4F9`
@@ -15,6 +17,7 @@ SHA415 | `EE6AE22BFB8502EDA9750F62DF06F048FBEE33CE56926009BBC20A2AD3F67BC4B61C0D
 SSDEEP | `6144:6GEtHges25EgmpBaAc6WrpDZ9Oangx2+UvQ/KpmOq:6GWAXppBaAcdrxZ9OKFvQ/Kp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:6GEtHges25EgmpBaAc6WrpDZ9Oangx2+UvQ/KpmOq:6GWAXppBaAcdrxZ9OKFvQ/K
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

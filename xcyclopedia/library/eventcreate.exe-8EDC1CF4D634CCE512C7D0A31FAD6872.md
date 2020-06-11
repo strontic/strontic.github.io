@@ -1,10 +1,12 @@
 ﻿
 # eventcreate.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\eventcreate.exe`
 * Description: Event Create - Creates a custom event in an event log
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8EDC1CF4D634CCE512C7D0A31FAD6872`
@@ -15,6 +17,7 @@ SHA415 | `76C1F570904FF87B362FB680B3ECB4D583BEB47618C3863F2D742FFB054640A9F6F88A
 SSDEEP | `768:R6YgjPJ6d/bcLQxwHMHQd87DJiBH6hXED4pYFnxlJOoa+o6m:R6YgjPJ8geXwd87DJiJ6ku+xlJva+o6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -97,5 +100,7 @@ Type "EVENTCREATE /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # WorkFolders.exe 
+
 * File Path: `C:\WINDOWS\system32\WorkFolders.exe`
 * Description: Work Folders
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E981562DBC7E8680D21EF6F78ED91006`
@@ -15,6 +17,7 @@ SHA415 | `CC5B782DC7D9BC058E86E993207A45660436279D694A5425FE18C2CA58B6E3409C566D
 SSDEEP | `1536:l2QTk0Va3gfCVMrS7rF+VlCaIm1wisw/8cxEa:lbTRZ6ZPF+VlCaIm1Uw0cxE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ control.exe
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

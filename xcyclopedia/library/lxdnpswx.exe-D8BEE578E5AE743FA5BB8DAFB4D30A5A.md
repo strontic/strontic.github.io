@@ -1,10 +1,12 @@
 ﻿
 # lxdnpswx.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnpswx.exe`
 * Description: Printer Status Window Interface
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D8BEE578E5AE743FA5BB8DAFB4D30A5A`
@@ -15,6 +17,7 @@ SHA415 | `54A55063ADAFD4388BA5EDA7BFD771B40887720D2F05FD0802BC455114F966F6A98683
 SSDEEP | `24576:17QGKVTXr9Zum9L2dtPDNWgmY1uLbwbrYMEKC3+lvJgpo0Wlk:0TXrLum92uWC3+Xgpo0Mk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:17QGKVTXr9Zum9L2dtPDNWgmY1uLbwbrYMEKC3+lvJgpo0Wlk:0TXrLum92uWC3+
 * Product Version: 4.424.0.29
 * Language: Language Neutral
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesProtection.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemPropertiesProtection.exe`
 * Description: System Protection Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `08E7ED3B8AC417381982959A5A349571`
@@ -15,6 +17,7 @@ SHA415 | `44153B0C664F7AB7F1DC8F7F902685FC8103537E635EEECED714052FDF92340638D8E6
 SSDEEP | `1536:vlZDtREC/rMcgEPJV+G57ThjEC0kzJP+V5Ji:vDzECTMpuDhjRVJGs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:vlZDtREC/rMcgEPJV+G57ThjEC0kzJP+V5Ji:vDzECTMpuDhjRVJGs`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

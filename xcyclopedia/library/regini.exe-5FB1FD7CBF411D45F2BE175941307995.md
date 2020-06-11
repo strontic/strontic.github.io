@@ -1,10 +1,12 @@
 ﻿
 # regini.exe 
+
 * File Path: `C:\WINDOWS\system32\regini.exe`
 * Description: Registry Initializer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5FB1FD7CBF411D45F2BE175941307995`
@@ -15,6 +17,7 @@ SHA415 | `ADEC344E54215DA973E6FF0ECB8F16B0D8E6CCE549D34D42E0B52FA76FD28149B81880
 SSDEEP | `768:iyaUZvEhpkMEkutakv/Kotcu1s+mlitj6iPGlVogExyylTWcqICJ:ieZvAlEkzlelT6ipUppICJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -200,5 +203,7 @@ REGINI: Missing parameter(s) for -h switch
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # FXSSVC.exe 
+
 * File Path: `C:\WINDOWS\system32\FXSSVC.exe`
 * Description: Fax Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C6F56E6CF1822CFB9D8F85870453675E`
@@ -15,6 +17,7 @@ SHA415 | `AB22367210F5E5741D92A4C10DE3E38577E34F31A9C1EEC1EF96C17EEAC57EE5EFD52E
 SSDEEP | `12288:mJFox052yo03ypNIwZMNGQWk48QVwGe+ip6BvjNOCWkbIlDpV/h:KME/oAONd2NJ48QVwGe+ip6BJ9b+j/h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:mJFox052yo03ypNIwZMNGQWk48QVwGe+ip6BvjNOCWkbIlDpV/h:KME/oAONd2NJ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

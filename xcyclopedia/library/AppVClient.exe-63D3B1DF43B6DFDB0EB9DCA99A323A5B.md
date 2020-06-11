@@ -1,10 +1,12 @@
 ﻿
 # AppVClient.exe 
+
 * File Path: `C:\WINDOWS\system32\AppVClient.exe`
 * Description: Microsoft Application Virtualization Client Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `63D3B1DF43B6DFDB0EB9DCA99A323A5B`
@@ -15,6 +17,7 @@ SHA415 | `185377DD726CF6530BCE294488BAFBE0C4FFD73AE51FCBB1293E021C61F1BBCBDAA444
 SSDEEP | `12288:ruXOXTsbhYPll5gFampro20OcGNUbT2QTX2rXrj7MXky:6eXMhQOampr6gcX2rXrj7MUy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:ruXOXTsbhYPll5gFampro20OcGNUbT2QTX2rXrj7MXky:6eXMhQOampr6gcX2rXr
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

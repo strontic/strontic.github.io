@@ -1,10 +1,12 @@
 ﻿
 # bridgeunattend.exe 
+
 * File Path: `C:\WINDOWS\system32\bridgeunattend.exe`
 * Description: Bridge Unattend Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C32982DB9B77DB1815773BEB1D0F0C9`
@@ -15,6 +17,7 @@ SHA415 | `84603B5B40C7F268520A1F6C875AC0B541096233B4304568B05E486965F5B5FF3ABA75
 SSDEEP | `384:RUPV9EqYO5uyNRJrv5J/jLmyy6dEhWaIHqypPWefW:g9zVhHqy+6HxJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:RUPV9EqYO5uyNRJrv5J/jLmyy6dEhWaIHqypPWefW:g9zVhHqy+6HxJ`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

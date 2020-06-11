@@ -1,10 +1,12 @@
 ﻿
 # gpscript.exe 
+
 * File Path: `C:\WINDOWS\system32\gpscript.exe`
 * Description: Group Policy Script Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C053BB1BDD38B15D828ACF018DA25A50`
@@ -15,6 +17,7 @@ SHA415 | `D6B4695B0F74314C086714D93EEC3C33AB46A6EA63F77A8B732A737DB37010A2F648E5
 SSDEEP | `768:+HvvCVRZLhCJbpUfwqzQj+l0ex0H5LPTdT/g0LOlKFd:qvyV4lIk++ex0HBPTdT40LJFd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:+HvvCVRZLhCJbpUfwqzQj+l0ex0H5LPTdT/g0LOlKFd:qvyV4lIk++ex0HBPTdT40L
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

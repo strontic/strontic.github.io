@@ -1,10 +1,12 @@
 ﻿
 # TRACERT.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\TRACERT.EXE`
 * Description: TCP/IP Traceroute Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EA35DB862E273A15D3BAACE1D68522E4`
@@ -15,6 +17,7 @@ SHA415 | `95408536C2E74234E213FCC330C8E0BCE27E4D0003CC97A36D1DB95F09D094DEF7C286
 SSDEEP | `384:ySQTBs+gdwrTE4g1veQKBrmEL1bCWfaW:7L8I4g1SBaEL1X`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -58,5 +61,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

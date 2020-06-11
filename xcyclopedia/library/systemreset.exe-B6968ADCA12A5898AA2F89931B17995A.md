@@ -1,10 +1,12 @@
 ﻿
 # systemreset.exe 
+
 * File Path: `C:\Windows\system32\systemreset.exe`
 * Description: System Reset for Windows
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B6968ADCA12A5898AA2F89931B17995A`
@@ -15,6 +17,7 @@ SHA415 | `0EEF879CA113DA0BECDB90553305D11418582FCAEA6AEC1DAB6BF1E180A487A2D584BF
 SSDEEP | `6144:/lBRW/mAuJludfNp6tHPYBLF7KURQGEEEsND0ZCYWh9AiTImjWINEEwJJry:/XE/mludfNUtg5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:/lBRW/mAuJludfNp6tHPYBLF7KURQGEEEsND0ZCYWh9AiTImjWINEEwJJry:/XE/m
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

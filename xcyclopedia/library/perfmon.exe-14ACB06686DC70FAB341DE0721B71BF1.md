@@ -1,10 +1,12 @@
 ﻿
 # perfmon.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\perfmon.exe`
 * Description: Resource and Performance Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `14ACB06686DC70FAB341DE0721B71BF1`
@@ -15,6 +17,7 @@ SHA415 | `B73BDF19200B8FA86F76FE0067919BA2062E678DEF212AA22C1FBA98390CA4E053DD38
 SSDEEP | `3072:Xq8ijr4QZhpxd6/GghtYIo9piswTogiqQKy349:or4aHxd67hqIo9s37iTK24`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Xq8ijr4QZhpxd6/GghtYIo9piswTogiqQKy349:or4aHxd67hqIo9s37iTK24`
 * Product Version: 10.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # iissetup.exe 
+
 * File Path: `C:\Windows\system32\inetsrv\iissetup.exe`
 * Description: IIS Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CBD62EFF3196AD1FF0E5D2D96D46BD2F`
@@ -15,6 +17,7 @@ SHA415 | `DDD87DA8C5BCDDE1CEEDD1F88CC0A579E818CC128F56EFAF2BF3849963B8A6E8741788
 SSDEEP | `3072:68t+2/7Ign7PmRkQ9O84NxY1aLSQyfz2IJinRqin/3lmLBg5UqoLoQ5b2:Xtf7PKkSF4N6ULSQxIJinRv30LBFoQ5b`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Description: iissetup.exe is a helper utility that belongs to OS setup
@@ -48,5 +51,7 @@ Failed = 0x80070057
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

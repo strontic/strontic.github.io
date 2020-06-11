@@ -1,10 +1,12 @@
 ﻿
 # VSSVC.exe 
+
 * File Path: `C:\Windows\system32\VSSVC.exe`
 * Description: Microsoft Volume Shadow Copy Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `532EDECFB487E57C5B8AAF5A7AC83B30`
@@ -15,6 +17,7 @@ SHA415 | `099631C7EBE0EBA730AB46806F1C0E5AC1D26ABF9F63FB8488DF6802895C2832DF6B03
 SSDEEP | `24576:IsVx+g9o1x+2kivU4REd//XpVPcFSNptbQEGNTObiUcA:px+g9m+EREd//XpVEFgtbQEGNTeiU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:IsVx+g9o1x+2kivU4REd//XpVPcFSNptbQEGNTObiUcA:px+g9m+EREd//XpVEFg
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

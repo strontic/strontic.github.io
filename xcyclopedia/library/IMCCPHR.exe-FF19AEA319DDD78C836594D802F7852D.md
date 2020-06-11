@@ -1,10 +1,12 @@
 ﻿
 # IMCCPHR.exe 
+
 * File Path: `C:\Windows\SysWOW64\IME\SHARED\IMCCPHR.exe`
 * Description: IMCCPHR.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FF19AEA319DDD78C836594D802F7852D`
@@ -15,6 +17,7 @@ SHA415 | `801143A7385F5CF4F5CE4E2AC39D777172D0C391DF644F52B3483CB4D99C90CE6F8DD5
 SSDEEP | `6144:XU+5vaaMT6oqB+UASFpLiOlx8uSXmCPwP6k+kc8DZ5nSK:k+5xlASFauSXmH6k+kcuvSK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:XU+5vaaMT6oqB+UASFpLiOlx8uSXmCPwP6k+kc8DZ5nSK:k+5xlASFauSXmH6k+kc
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

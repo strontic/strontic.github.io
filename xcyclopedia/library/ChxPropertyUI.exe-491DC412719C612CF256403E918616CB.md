@@ -1,10 +1,12 @@
 ﻿
 # ChxPropertyUI.exe 
+
 * File Path: `C:\WINDOWS\system32\InputMethod\SHARED\ChxPropertyUI.exe`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `491DC412719C612CF256403E918616CB`
@@ -15,6 +17,7 @@ SHA415 | `E5E42EBDBD1A7829A109C295A4616A206A1BEEEAFAE7D1157BDBC2DEA7028F1A07920E
 SSDEEP | `768:kEpTU3rrlG9P2HQjUhz4XvCPn9CwJtMGUt:kSUflGRRy0/eJk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:kEpTU3rrlG9P2HQjUhz4XvCPn9CwJtMGUt:kSUflGRRy0/eJk`
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

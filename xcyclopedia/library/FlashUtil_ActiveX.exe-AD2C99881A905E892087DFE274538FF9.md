@@ -1,10 +1,12 @@
 ﻿
 # FlashUtil_ActiveX.exe 
+
 * File Path: `C:\WINDOWS\system32\Macromed\Flash\FlashUtil_ActiveX.exe`
 * Description: Adobe Flash Player Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AD2C99881A905E892087DFE274538FF9`
@@ -15,6 +17,7 @@ SHA415 | `3F32E7017B1EDEE57E85C94FF35F9DAA862F5957121542249DB6C5C7A70882E53579F5
 SSDEEP | `12288:jJ91eBTd8OIyVPHfsrYJ0AFWS3fCT+/38AAAAAAAAAAAAAAAXAbAAAAAAAAAAAAl:Nwd9xHfsrYJ0AFW6qT+/TkDNl6L1pCye`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:jJ91eBTd8OIyVPHfsrYJ0AFWS3fCT+/38AAAAAAAAAAAAAAAXAbAAAAAAAAAAAAl
 * Product Version: 32,0,0,330
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 Adobe
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

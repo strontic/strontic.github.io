@@ -1,10 +1,12 @@
 ﻿
 # net1.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\net1.exe`
 * Description: Net Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DACD2D80B3942C3064B29BC0D0382EF3`
@@ -15,6 +17,7 @@ SHA415 | `277280B09C0FA57D84B7A9647E78A407FF5B1FCDCF29C1C05A46B2012223148E5AC33F
 SSDEEP | `3072:7WtacjLYEi0KTL44s9wkWxDt0ciq2Yh4Vbl1KBHBwq:SacjLYEi0K+hWkciq2YhMb7KBHB9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 The syntax of this command is:
@@ -73,5 +76,7 @@ NET
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # F12Chooser.exe 
+
 * File Path: `C:\Windows\SysWOW64\F12\F12Chooser.exe`
 * Description: F12 Attach Chooser executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CBA6274E1AA61A67125B75FA79272B1D`
@@ -15,6 +17,7 @@ SHA415 | `5697C2B4FA3075BED87BA026246E6AD7A6EA25A31362CF5F84E74C41D4293433FA944C
 SSDEEP | `3072:c2zInIbHQJcQuWKwVkTdPPny78sL4LLKY1wlrNzWQP1EveaxqSM:c0/bwJcojVuP/y7X8FwlrNqImJM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:c2zInIbHQJcQuWKwVkTdPPny78sL4LLKY1wlrNzWQP1EveaxqSM:c0/bwJcojVuP/
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # UevTemplateConfigItemGenerator.exe 
+
 * File Path: `C:\Windows\system32\UevTemplateConfigItemGenerator.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6A804B9E53D255F4F7828E8C08A5635B`
@@ -15,6 +17,7 @@ SHA415 | `424C8671005B816AF61A5A202F51E5F8FF50931CE2567739433587AFE284A920409579
 SSDEEP | `192:matJHLqs8r/KZ1ElGTubagmrCdsa/2p2y0rSWp8eMPOHnXWXFWfzv:rtpesr1MCIbmOdsa/2p2GWp8eVWXFWfL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

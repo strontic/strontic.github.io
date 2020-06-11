@@ -1,10 +1,12 @@
 ﻿
 # systeminfo.exe 
+
 * File Path: `C:\WINDOWS\system32\systeminfo.exe`
 * Description: Displays system information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4E678D82DDE61AAACA201F9636507F9E`
@@ -15,6 +17,7 @@ SHA415 | `395BF5A1069AC4DA7893524337E8E90B4367392C58DED45B5590E02F1040A7522BCC4A
 SSDEEP | `1536:/WubkGjW3NtMsqQHwOuAUUm+ImTFOMGCQTjiLJUoc5waGG3JygbPL0sVTTyGTjNa:+ubgNtXRG3HwUwubZXBxM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -81,5 +84,7 @@ Type "SYSTEMINFO /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

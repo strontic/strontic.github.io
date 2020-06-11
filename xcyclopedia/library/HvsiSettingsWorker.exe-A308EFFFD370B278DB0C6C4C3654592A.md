@@ -1,10 +1,12 @@
 ﻿
 # HvsiSettingsWorker.exe 
+
 * File Path: `C:\WINDOWS\system32\HvsiSettingsWorker.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A308EFFFD370B278DB0C6C4C3654592A`
@@ -15,6 +17,7 @@ SHA415 | `2425437BAC9D2C7495F37F9A6AABC8B5928957C098B671B384617AD692C40288905AE6
 SSDEEP | `3072:P9uuqRXjgG5eheOaVElHTJqNaZ1zVcTpWcuV92:PcuqRUqehlaVEfl1aWcuVE`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:P9uuqRXjgG5eheOaVElHTJqNaZ1zVcTpWcuV92:PcuqRUqehlaVEfl1aWcuVE`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

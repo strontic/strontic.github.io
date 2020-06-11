@@ -1,10 +1,12 @@
 ﻿
 # msra.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\msra.exe`
 * Description: Windows Remote Assistance
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `86285D8B321388CEA5D5A1B092873D73`
@@ -15,6 +17,7 @@ SHA415 | `2F0D50BC938B621A9E2C20913C75049FF4D4EE6BB4E21C24CB5C7E44BE4A4E0C6D6EF5
 SSDEEP | `1536:N7ls7XazinQ+dYxfNJK02oM8kIcnmPkkSTst7vIyR:LgkSX8jn6KvI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ msra.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

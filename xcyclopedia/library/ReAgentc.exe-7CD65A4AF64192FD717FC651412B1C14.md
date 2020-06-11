@@ -1,10 +1,12 @@
 ﻿
 # ReAgentc.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\ReAgentc.exe`
 * Description: Microsoft Windows Recovery Agent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7CD65A4AF64192FD717FC651412B1C14`
@@ -15,6 +17,7 @@ SHA415 | `2E6FE1CE6FE57F273D1E823FB55FDA56D77A3E4BB0244D2CA6D86F2252B901D2F9598A
 SSDEEP | `384:rvPE/ltosXE6ze4EtxXqXS3LzNhgZBNb6sUqAWyw9As6zssxX1q5+Tu9NC+NqNKX:rvPE/lPSX6XELzOow8d7m+unNmrT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 This command can only be executed from an elevated command prompt.
@@ -51,5 +54,7 @@ REAGENTC.EXE: An error has occurred.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # lpkinstall.exe 
+
 * File Path: `C:\Windows\system32\lpkinstall.exe`
 * Description: Language Pack Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DE7C9EF49B7C0DFECC0D535A11607AB2`
@@ -15,6 +17,7 @@ SHA415 | `F03207207EEC93CFEE5E972ACB228C26CF4FE4162244C8149263EE7D84C9C2A1D472F1
 SSDEEP | `768:v0Cuho104bqSjm4PoNHi0tRlhl0VNbT6WniSHUPzBa:vPaoBbqGm4wD+VNbTJiSHUPNa`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:v0Cuho104bqSjm4PoNHi0tRlhl0VNbT6WniSHUPzBa:vPaoBbqGm4wD+VNbTJiSHUP
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

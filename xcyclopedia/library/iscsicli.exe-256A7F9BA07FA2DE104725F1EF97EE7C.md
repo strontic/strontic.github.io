@@ -1,10 +1,12 @@
 ﻿
 # iscsicli.exe 
+
 * File Path: `C:\Windows\SysWOW64\iscsicli.exe`
 * Description: iSCSI Discovery tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `256A7F9BA07FA2DE104725F1EF97EE7C`
@@ -15,6 +17,7 @@ SHA415 | `739C8CB2F2D11061DFE910B2AA64715BE585290C312AFF47A6321A565BB876A65586A9
 SSDEEP | `3072:VD6n2UP/eH6HcII4vRBDyCanAICgKOKaeqUKOpVk/qfWJTfS1n37M:0X8kDyCsKRaeqUp3WJrM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft iSCSI Initiator Version 10.0 Build 14393
@@ -233,5 +236,7 @@ The operation completed successfully.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

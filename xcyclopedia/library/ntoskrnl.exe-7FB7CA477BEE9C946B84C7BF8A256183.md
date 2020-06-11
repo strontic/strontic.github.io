@@ -1,10 +1,12 @@
 ﻿
 # ntoskrnl.exe 
+
 * File Path: `C:\Windows\system32\ntoskrnl.exe`
 * Description: NT Kernel & System
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7FB7CA477BEE9C946B84C7BF8A256183`
@@ -15,6 +17,7 @@ SHA415 | `ECD4E83CD72719F5B8F40F4173D2B08E6E56C50CC7D8F71171A524251B6562B5166312
 SSDEEP | `98304:BgHF7AG/Ci96g1OMezQ3ux5EHFQqQyLDPQXT:B2FX/jAcOMeU3uAHFQqQMoXT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `98304:BgHF7AG/Ci96g1OMezQ3ux5EHFQqQyLDPQXT:B2FX/jAcOMeU3uAHFQqQMoXT`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

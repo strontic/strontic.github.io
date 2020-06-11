@@ -1,10 +1,12 @@
 ﻿
 # CustomInstallExec.exe 
+
 * File Path: `C:\WINDOWS\system32\CustomInstallExec.exe`
 * Description: Microsoft Store Package Dependency Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3094B6C6B3ECC4244926CCAB4B64C85A`
@@ -15,6 +17,7 @@ SHA415 | `E4C22236EE62B7285A856F5BCD352578670926ABBA66B1B6EB2D2A193CA2708710F54D
 SSDEEP | `1536:EU7uTemeJ2fA0akOh6SvRdG63FdUK0AAF0vo+KbnrG:WvDakbsNElAA0pKnr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:EU7uTemeJ2fA0akOh6SvRdG63FdUK0AAF0vo+KbnrG:WvDakbsNElAA0pKnr`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

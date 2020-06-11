@@ -1,10 +1,12 @@
 ﻿
 # Setup.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\netwew01.inf_amd64_d48428047ce3cc1e\Setup.exe`
 * Description: Intel PROSet/Wireless Software
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DE608134E33D3ABFFA944723ACD3E292`
@@ -15,6 +17,7 @@ SHA415 | `CCDB39CF6D30CF5EA56B2A76EA2D4D2CB9B3271AFB15DD1BF7E78F33C2A130239CFEEC
 SSDEEP | `49152:TFmoJsL19tkT6ligMQTj0fMRdHUkA/pMVZjA:UoJgkgMCj/HUppURA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:TFmoJsL19tkT6ligMQTj0fMRdHUkA/pMVZjA:UoJgkgMCj/HUppURA`
 * Product Version: 18.11.0
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Intel Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

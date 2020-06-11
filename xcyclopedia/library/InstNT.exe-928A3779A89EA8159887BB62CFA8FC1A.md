@@ -1,10 +1,12 @@
 ﻿
 # InstNT.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_b28b907efbdd0634\InstNT.exe`
 * Description: TouchPad Driver Installation Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `928A3779A89EA8159887BB62CFA8FC1A`
@@ -15,6 +17,7 @@ SHA415 | `D46B2801560A632D5BB56FCAD182240E8F39A82DC619EDE2E30775865C8983BB335178
 SSDEEP | `3072:keiipYAJNL84yVUbZfRoLgFgIFxo4fovxeScdLMlMx+TDk:TFYku47hvnYcClMxF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:keiipYAJNL84yVUbZfRoLgFgIFxo4fovxeScdLMlMx+TDk:TFYku47hvnYcClMxF`
 * Product Version: 15.3.29 13Oct11
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2011
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

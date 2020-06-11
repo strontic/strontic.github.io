@@ -1,10 +1,12 @@
 ﻿
 # Sysmon64.exe 
+
 * File Path: `C:\WINDOWS\Sysmon64.exe`
 * Description: System activity monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `016CD958D962524662CA12168667F905`
@@ -15,6 +17,7 @@ SHA415 | `2D040EE6A0F74E2FDDE46F106EFE3736EA220C4CAA6A65A63C09F2B96EBDF1097D0F65
 SSDEEP | `24576:SOBRF+n9SDmKlWswHfrmQGPTQzmQBe2n6prjZRKvgsvC1fwz2p3014kbyqXBzAE2:L+n9smKl2C1oz+014kbyqXBnOb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -89,5 +92,7 @@ Neither install nor uninstall requires a reboot.
 * Product Version: 7.02
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2014-2018 Mark Russinovich and Thomas Garnier
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

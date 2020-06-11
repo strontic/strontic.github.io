@@ -1,10 +1,12 @@
 ﻿
 # dllhost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\dllhost.exe`
 * Description: COM Surrogate
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `60D0B50CFF3A0722ADC274F49FB16F14`
@@ -15,6 +17,7 @@ SHA415 | `934A1D0CE45FB6EDBF0FF25325CBA44A8A99202FAF3B5B1024DECF41E46DE0F3C6FDFB
 SSDEEP | `384:TnrG6z40eYJnRB/cCWx5WzbnmXjDBRJPraLbBlwA4BN:nR5eYRRB/cF6bmXj1P0b4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:TnrG6z40eYJnRB/cCWx5WzbnmXjDBRJPraLbBlwA4BN:nR5eYRRB/cF6bmXj1P0b4`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # DeviceProperties.exe 
+
 * File Path: `C:\WINDOWS\system32\DeviceProperties.exe`
 * Description: Device Properties
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B7352C06F8FCC2FD9E715CFC3077294A`
@@ -15,6 +17,7 @@ SHA415 | `A2E0AF7DC62E56F45F94ACCB85AF259D04E2D044FE642B35F916B00FCE84A9591FAD67
 SSDEEP | `1536:2ZKcf92y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi65C:2f955NOFpTyIcuz9WzF4Chdlzri6M`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:2ZKcf92y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi65C:2f955NOFpTyIcuz
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # pcaui.exe 
+
 * File Path: `C:\Windows\system32\pcaui.exe`
 * Description: Program Compatibility Assistant User Interface
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B76E547561217CF46DB5932B0FACC82A`
@@ -15,6 +17,7 @@ SHA415 | `3258DC44F5577746CF14608DB53799935858C575688F325F42831B058F3E586AA10E9B
 SSDEEP | `768:uN3oqhtzsss1Oxn/7N4dmdBeEgXGsh34rl4YL/qThbo72u1YWGC03:KYWhs1Oxn/7N4dmC7JVofrAhU72uqWGL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:uN3oqhtzsss1Oxn/7N4dmdBeEgXGsh34rl4YL/qThbo72u1YWGC03:KYWhs1Oxn/7N
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

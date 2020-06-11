@@ -1,10 +1,12 @@
 ﻿
 # VmComputeAgent.exe 
+
 * File Path: `C:\WINDOWS\system32\VmComputeAgent.exe`
 * Description: Hyper-V Guest Compute Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E29BC05DB34DBD3207624200824E288A`
@@ -15,6 +17,7 @@ SHA415 | `AF24523E6BB0CA992D686A124D5199B3C2CE738A855BD30BCD9B4769DEBFC53F3A48D4
 SSDEEP | `24576:gY4Hasg7TmbJqUKsMqRkd+B2gZGBe2h4+05zMmG6XnM:gY46DnY8UKIJ5J++bG6XnM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:gY4Hasg7TmbJqUKsMqRkd+B2gZGBe2h4+05zMmG6XnM:gY46DnY8UKIJ5J++bG6X
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

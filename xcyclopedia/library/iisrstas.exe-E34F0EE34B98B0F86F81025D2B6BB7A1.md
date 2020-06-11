@@ -1,10 +1,12 @@
 ﻿
 # iisrstas.exe 
+
 * File Path: `C:\Windows\system32\inetsrv\iisrstas.exe`
 * Description: Internet Information Services reset control
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E34F0EE34B98B0F86F81025D2B6BB7A1`
@@ -15,6 +17,7 @@ SHA415 | `44FD48F26D55D0653D53F507DD85FCF68124E4402676AE00C3714F6FA303AE3BD08FF6
 SSDEEP | `768:kSDvu1xzh06Rz/4K48TQ3stHudMCAZSSlYSEZaNPkSfpeGJQ:kJNAMpHudMMSlYPqfpeGJQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:kSDvu1xzh06Rz/4K48TQ3stHudMCAZSSlYSEZaNPkSfpeGJQ:kJNAMpHudMMSlYPqf
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

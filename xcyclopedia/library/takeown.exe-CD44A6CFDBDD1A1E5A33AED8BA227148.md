@@ -1,10 +1,12 @@
 ﻿
 # takeown.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\takeown.exe`
 * Description: Takes ownership of a file
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CD44A6CFDBDD1A1E5A33AED8BA227148`
@@ -15,6 +17,7 @@ SHA415 | `BA8E8DB9401EA129CE39D80BC1B117B74CF30563A1D456F178AFA76CF1C3EB43A2EA47
 SSDEEP | `1536:83WkghEw/BWqjjKCnhTTbdEme6i939WhpWfkZa817:RM8nh3hQ6i9N8pOkZa8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -112,5 +115,7 @@ Type "TAKEOWN /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

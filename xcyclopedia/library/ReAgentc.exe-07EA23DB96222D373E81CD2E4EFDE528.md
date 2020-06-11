@@ -1,10 +1,12 @@
 ﻿
 # ReAgentc.exe 
+
 * File Path: `C:\Windows\system32\ReAgentc.exe`
 * Description: Microsoft Windows Recovery Agent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `07EA23DB96222D373E81CD2E4EFDE528`
@@ -15,6 +17,7 @@ SHA415 | `780659BB28C00300F1C40EDA7278B17E4A1FFB887CAB4E523A5A70E46F99D62EED5538
 SSDEEP | `384:m61HSFYeyi8UsOks9TG2FTcxTNpXHOI/qw5HCRxCx+BFFvvPsosWt67KFFT+HCHP:mMOYJ5rO95KN7697FvvPL67GFmCQ1Q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -93,5 +96,7 @@ REAGENTC.EXE <command> /?.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

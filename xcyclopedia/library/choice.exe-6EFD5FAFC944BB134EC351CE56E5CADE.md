@@ -1,10 +1,12 @@
 ﻿
 # choice.exe 
+
 * File Path: `C:\WINDOWS\system32\choice.exe`
 * Description: Offers the user a choice
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6EFD5FAFC944BB134EC351CE56E5CADE`
@@ -15,6 +17,7 @@ SHA415 | `C948F0B8D73C80DF6F95FBD9BA253332E4825D9ADB3E722DC0C692EADB6D162D4C8035
 SSDEEP | `768:MyxBmc9jCDEY6Jh2p3jUPvFCyJTngr/vnY26xxzj8WHa:bmxKjkwTngr/g2axnfHa`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -97,5 +100,7 @@ Type "CHOICE /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

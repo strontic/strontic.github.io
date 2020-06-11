@@ -1,10 +1,12 @@
 ﻿
 # appidcertstorecheck.exe 
+
 * File Path: `C:\WINDOWS\system32\appidcertstorecheck.exe`
 * Description: AppID Certificate Store Verification Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `835E25A0FB27A1DAABBF8E09400FA668`
@@ -15,6 +17,7 @@ SHA415 | `8A869D9DAB12574F19D4B3BD921A85C87A5A8C02757ECF0CC2712F8430606F5A7EEE14
 SSDEEP | `384:4ZjMZWmm0DtyZ8hZDvroPtwQCW2EENcx3qBe9xeWKaK1W:4Zj0fm0Y2BoZCW2yNqBKxKaK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:4ZjMZWmm0DtyZ8hZDvroPtwQCW2EENcx3qBe9xeWKaK1W:4Zj0fm0Y2BoZCW2yNqBK
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # notepad.exe 
+
 * File Path: `C:\WINDOWS\system32\notepad.exe`
 * Description: Notepad
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `06E6C0482562459ADB462CA9008262F8`
@@ -15,6 +17,7 @@ SHA415 | `6D94A72C2BF0DB2DBB3994184B03D136117D3EA65E4D0A81AA5BD6A5DD904AD0E5B5CD
 SSDEEP | `3072:4GPGNDPjlam62b+jJQQUQhLBiW+3mCzSJSrVrvkwuS4GvRep:5GN70v2b+jJTh4WsmCz8SVrfvp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:4GPGNDPjlam62b+jJQQUQhLBiW+3mCzSJSrVrvkwuS4GvRep:5GN70v2b+jJTh4Ws
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

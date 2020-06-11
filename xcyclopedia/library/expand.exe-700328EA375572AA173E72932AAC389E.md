@@ -1,10 +1,12 @@
 ﻿
 # expand.exe 
+
 * File Path: `C:\Windows\system32\expand.exe`
 * Description: LZ Expansion Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `700328EA375572AA173E72932AAC389E`
@@ -15,6 +17,7 @@ SHA415 | `31F03FF8F42F3719BE40EA48B3A68E3D1979A492236C346FC2D8C324F07647AE67E963
 SSDEEP | `1536:zXf4VOsHS2ENfKm1TFcdK5fHuYHwrBDn:TQHSHNH1TyeuJn`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft (R) File Expansion Utility
@@ -49,5 +52,7 @@ No destination specified for: help.
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

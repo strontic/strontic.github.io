@@ -1,10 +1,12 @@
 ﻿
 # bcdedit.exe 
+
 * File Path: `C:\WINDOWS\system32\bcdedit.exe`
 * Description: Boot Configuration Data Editor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `66E4F813624DF01D67CF03616760A7AC`
@@ -15,6 +17,7 @@ SHA415 | `D66427D200F9E65753CAB578D8A50008A4967D2E286F72B24C9E3E1FD7F03D5D164006
 SSDEEP | `6144:ON3c/dVFQtQDneFIrMZxhxm1JjzIpx7YOAr:ON3clXLDP4UznIz7YF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -134,5 +137,7 @@ Command that control remote event logging
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

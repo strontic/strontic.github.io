@@ -1,10 +1,12 @@
 ﻿
 # dispdiag.exe 
+
 * File Path: `C:\WINDOWS\system32\dispdiag.exe`
 * Description: Display Diagnostics
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4131B785B0EC3C5A7F71FA80D113972C`
@@ -15,6 +17,7 @@ SHA415 | `53FA476266CCE83E04C867034075FB53208309143E7EC290FD962C04541E7D19627881
 SSDEEP | `3072:J03bMUGJg/SrM6AXsxoDee217IMqKUiqf:qbMUGJgKmsxvRJIMqKUiq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Logs display information to a file in the current directory.
@@ -61,5 +64,7 @@ Output:
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

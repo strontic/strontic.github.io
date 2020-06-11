@@ -1,10 +1,12 @@
 ﻿
 # ig.exe 
+
 * File Path: `C:\ProgramData\Malwarebytes\MBAMService\dbclsupdate\staging\ig.exe`
 * Description: Malware Scanner
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1FBB6A003122B2421536F64788A09B73`
@@ -15,6 +17,7 @@ SHA415 | `2AFB4DA3934EA8AB280D62ADB73F7410D0F6069034C1D06429C3FF3727915DB495F797
 SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOxa9MlMFdG8Zi9U`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -48,5 +51,7 @@ SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOx
 * Product Version: 1.0.0.27
 * Language: English (United States)
 * Legal Copyright: (C) Malwarebytes. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

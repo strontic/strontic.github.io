@@ -1,10 +1,12 @@
 ﻿
 # igfxEM.exe 
+
 * File Path: `C:\WINDOWS\system32\igfxEM.exe`
 * Description: igfxEM Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E315F19FE0F144051CEDCB2B95185ED2`
@@ -15,6 +17,7 @@ SHA415 | `6472287CD59024604F447F4E9E9AF8DF5676325B38D47CC3CD7E5BE405E18607455DA8
 SSDEEP | `6144:5V3Ep9l+2RzFemY1TeTSbrA7l1sirHMunVHiujfQ+GB3:5V3y+2RzFnSSl/M6xhnG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:5V3Ep9l+2RzFemY1TeTSbrA7l1sirHMunVHiujfQ+GB3:5V3y+2RzFnSSl/M6xhnG
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

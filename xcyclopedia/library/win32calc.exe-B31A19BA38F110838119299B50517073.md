@@ -1,10 +1,12 @@
 ﻿
 # win32calc.exe 
+
 * File Path: `C:\Windows\system32\win32calc.exe`
 * Description: Windows Calculator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B31A19BA38F110838119299B50517073`
@@ -15,6 +17,7 @@ SHA415 | `499A7F5CBE504DB9C92703AD514E18F24188EC4FD292E28F4BAC242002D84305EFAFF8
 SSDEEP | `12288:/jsYXcrgzAAwesoULcW2n4y9gjrGGKDXanoUHeGL7GOK:QXrYAAZsPM4yqGfXanJod`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:/jsYXcrgzAAwesoULcW2n4y9gjrGGKDXanoUHeGL7GOK:QXrYAAZsPM4yqGfXanJ
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

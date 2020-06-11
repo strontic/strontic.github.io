@@ -1,10 +1,12 @@
 ﻿
 # vulkaninfo.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\vulkaninfo.exe`
 * Description: Vulkan Info
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `30EEE2C73114645F611369A96BA6935A`
@@ -15,6 +17,7 @@ SHA415 | `02BC18DD2318C15EE7E2182D48269FA4C4D2D0F49C7F0C74272336F31CFD73642C1CB7
 SSDEEP | `3072:OgW3xaAatQEFc5riL/hetFVYJMYpr7xQgQMOTVZYZ1:xW3xaAatrFQ0pekX0fYj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -62,5 +65,7 @@ OPTIONS:
 * Product Version: 1.1.82.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015-2018
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

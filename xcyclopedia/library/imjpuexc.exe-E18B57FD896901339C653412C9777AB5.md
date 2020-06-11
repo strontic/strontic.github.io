@@ -1,10 +1,12 @@
 ﻿
 # imjpuexc.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\IME\IMEJP\imjpuexc.exe`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E18B57FD896901339C653412C9777AB5`
@@ -15,6 +17,7 @@ SHA415 | `8B0464A245AECE9B9F9CA7725FFD3C66FC0F3C8B0A4C2DD18D62E14680C7D4ABA7590B
 SSDEEP | `6144:fYbtNQVS8pX71N6a8VU0N9EOY54Je6TeX2i/uJmoMZmIwEZgDtavjr:fYbteVS8J7X6BSSDGBPiphI7r`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft IME Property Command Line Tool (10.0.18362.1)
@@ -64,5 +67,7 @@ IMJPUEXC GETFILTERDICT		IMJPUEXC REMOVEFILTERDICT
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # quser.exe 
+
 * File Path: `C:\Windows\system32\quser.exe`
 * Description: Query User Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3E404E87709B53797446FC968D293DB5`
@@ -15,6 +17,7 @@ SHA415 | `E38E1887190D88B27E8D8D2BD50B64E6EE1A5AF656AB9E761C5174176A7E9488BB5858
 SSDEEP | `384:y945Lr624gG8FKP8Xpiw7ASNTpti9rbJTEE55VzU/E4YnwjqX5yszGur/FWqPWSY:m4ZrB4gd8Pcow9pubJXPUMMmyqWqbI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Display information about users logged on to the system.
@@ -64,5 +67,7 @@ QUERY USER [username | sessionname | sessionid] [/SERVER:servername]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

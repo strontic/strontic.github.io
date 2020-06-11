@@ -1,10 +1,12 @@
 ﻿
 # NDKPing.exe 
+
 * File Path: `C:\WINDOWS\system32\NDKPing.exe`
 * Description: RDMA Ping Cmd
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E9AD6C80432ABCAF0F562FA3452C92F4`
@@ -15,6 +17,7 @@ SHA415 | `E2F1B8C8A70441578C4CB455020A94B8E54F74B3959D914A82A9D1887CBDE5CCDEF774
 SSDEEP | `384:20fVRIE2MvvcSji9iAK8HZeiKoKO77282fgWJWW:2k8ESSSPeiMOG82fH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 NDKPing can run on a system as Server or Client.
@@ -78,5 +81,7 @@ Error: Unable to stop NDKPing driver.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # upfc.exe 
+
 * File Path: `C:\WINDOWS\system32\upfc.exe`
 * Description: Updateability From SCM
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CC25007DBB7A5F1F2F42C5487B97CCC2`
@@ -15,6 +17,7 @@ SHA415 | `EECD9376C583CCDD1BC37FD92A59FF6EA2AC2D116A139855175C5F8DD9E90263B3CD31
 SSDEEP | `3072:BMUpKLj2imosk7z9fcDvDxQWZnvkqPt2m64Sxb0:+2sj2fG7zFcDvDxpR2GSq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:BMUpKLj2imosk7z9fcDvDxQWZnvkqPt2m64Sxb0:+2sj2fG7zFcDvDxpR2GSq`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

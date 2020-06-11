@@ -1,10 +1,12 @@
 ﻿
 # IMTCLNWZ.EXE 
+
 * File Path: `C:\Windows\system32\IME\IMETC\IMTCLNWZ.EXE`
 * Description: IMTCLNWZ.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4900C7A4A9DFEDC07BC5B01D62530F92`
@@ -15,6 +17,7 @@ SHA415 | `A0355B871AA17A2A189D95A3721D7B3AD1A1CD26DBF5B9EF48D3A128EEBEF2C7949E8D
 SSDEEP | `1536:69JOfSp8Lfaf4dryTxaMhHr9BzZXrPciii5X+ADu4/ALncnxjNqcG5yObq:oJOfSps7dr8QAZXrUAF+4u0AI5Nqc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:69JOfSp8Lfaf4dryTxaMhHr9BzZXrPciii5X+ADu4/ALncnxjNqcG5yObq:oJOfSp
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

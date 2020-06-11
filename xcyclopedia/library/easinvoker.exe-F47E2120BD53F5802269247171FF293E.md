@@ -1,10 +1,12 @@
 ﻿
 # easinvoker.exe 
+
 * File Path: `C:\WINDOWS\system32\easinvoker.exe`
 * Description: Exchange ActiveSync Invoker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F47E2120BD53F5802269247171FF293E`
@@ -15,6 +17,7 @@ SHA415 | `2BAF6AA6C539B453AC7F507F356D916493CB48AC5E75A537DB6AC5EB652A68EAA87FB8
 SSDEEP | `1536:eK98sego4n5sGBWMh7YeF1yu2xXibswbTYXmuUZfKdrpPjC:eN2/BWMh16u2xXibswbexUROlbC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:eK98sego4n5sGBWMh7YeF1yu2xXibswbTYXmuUZfKdrpPjC:eN2/BWMh16u2xXibs
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # CompPkgSrv.exe 
+
 * File Path: `C:\WINDOWS\system32\CompPkgSrv.exe`
 * Description: Component Package Support Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6B61564CE8524ACCA9BCD2CEC6B71AB9`
@@ -15,6 +17,7 @@ SHA415 | `C69E965DA7B2B192B5C6FF5A7568D0D2144379D3F6744B2FE84A6F5F912018D3FBDC0A
 SSDEEP | `3072:nhhrHBdZvT+lElAV8IXo3bdzRIBW+QEJvlf9dkiu3Dku4kox8fub5Lif:nrB7TeV8I6bdzRIBW+QExjdkvutLi`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:nhhrHBdZvT+lElAV8IXo3bdzRIBW+QEJvlf9dkiu3Dku4kox8fub5Lif:nrB7TeV8
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

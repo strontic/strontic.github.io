@@ -1,10 +1,12 @@
 ﻿
 # SSCERuntime_x64-enu.exe 
+
 * File Path: `C:\ProgramData\Package Cache\E33F355F5E83D93099A732E2ECE02E07818B2696\packages\SSCE40\SSCERuntime_x64-enu.exe`
 * Description: Microsoft SQL Server Compact 4.0 Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FF8B645421F67E7963BDCA643FE4B20F`
@@ -15,6 +17,7 @@ SHA415 | `74AC239C5EE9E6AE6BC9583A7E170575FD6FC9C3B32CBA12147D41A579237CFD80AA1F
 SSDEEP | `49152:t4x8xiiEPUjAzWGoHuYsQLPNgsIcNdw5S/gddc5vmLuykalm/KVsNVa/kY:t4x8xivglnRgsI0dwsuEuLfkac7acY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:t4x8xiiEPUjAzWGoHuYsQLPNgsIcNdw5S/gddc5vmLuykalm/KVsNVa/kY:t4x8x
 * Product Version: 4.0.8876.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

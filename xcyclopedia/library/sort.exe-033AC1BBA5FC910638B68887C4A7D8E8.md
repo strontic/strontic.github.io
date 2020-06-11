@@ -1,10 +1,12 @@
 ﻿
 # sort.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\sort.exe`
 * Description: Sort Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `033AC1BBA5FC910638B68887C4A7D8E8`
@@ -15,6 +17,7 @@ SHA415 | `0C8DE51B207FAF39C4A0717B3AFF7777F88A14F9F2AD553E658030F5AF67B413FC42FB
 SSDEEP | `384:3BeKs3+hUjP5qEuDYIeXxrC8iomc5r0eArFSZxgy0vqIOPWtnWRRkIup:3BJ+Q6Ie1NXmHrny0ityCkI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
@@ -102,5 +105,7 @@ Invalid switch.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

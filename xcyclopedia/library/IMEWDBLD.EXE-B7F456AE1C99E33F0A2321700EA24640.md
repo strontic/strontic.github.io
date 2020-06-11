@@ -1,10 +1,12 @@
 ﻿
 # IMEWDBLD.EXE 
+
 * File Path: `C:\Windows\system32\IME\SHARED\IMEWDBLD.EXE`
 * Description: Microsoft IME Open Extended Dictionary Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B7F456AE1C99E33F0A2321700EA24640`
@@ -15,6 +17,7 @@ SHA415 | `1323414D732B40D7B22296BDB36011492E1D89581E9501D6B2594FE7C59B0EB80AE623
 SSDEEP | `12288:+yJ0spoD+gQkCeYeQqAd/+I1Mgh9BVyKC7Gs/r:+KKDyLrDdLpdyK/s/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:+yJ0spoD+gQkCeYeQqAd/+I1Mgh9BVyKC7Gs/r:+KKDyLrDdLpdyK/s/`
 * Product Version: 10.0.14393.2608
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

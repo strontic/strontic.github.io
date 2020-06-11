@@ -1,10 +1,12 @@
 ﻿
 # RMActivate.exe 
+
 * File Path: `C:\WINDOWS\system32\RMActivate.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `34032EC119A104AA7844C4738A45279C`
@@ -15,6 +17,7 @@ SHA415 | `D97C61AE2E24A72DA7657CA2E70F608E733E2D19AAD8CF5DA338DBCCAC2BDA4A858130
 SSDEEP | `12288:FI0vgV15wY6PSAxqRMLtuVcB6P+0VY6imTnwGDT/sV6G:FbZY6yRqQhG0VYyTUVn`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:FI0vgV15wY6PSAxqRMLtuVcB6P+0VY6imTnwGDT/sV6G:FbZY6yRqQhG0VYyTUVn
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SetupAdmin.exe 
+
 * File Path: `C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.19.0.10\SetupAdmin.exe`
 * Description: Apple Installer (Elevated)
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5436A8FB69F01DFBA3FBCF3264359276`
@@ -15,6 +17,7 @@ SHA415 | `9EFCDAF705C297E1D18DF65C451C61240EEB65C8F5522D34F7F8DB307E37B5A8B4BD03
 SSDEEP | `3072:pdLClucgfn8E0dKd2XhJ7ke4YgG1CkCAGVnMCQdbL7H:b+lucntT77keSMrjH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:pdLClucgfn8E0dKd2XhJ7ke4YgG1CkCAGVnMCQdbL7H:b+lucntT77keSMrjH`
 * Product Version: 7.19.0.10
 * Language: English (United States)
 * Legal Copyright:  Apple Inc. All Rights Reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

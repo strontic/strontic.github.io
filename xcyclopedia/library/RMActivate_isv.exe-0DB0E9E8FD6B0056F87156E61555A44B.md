@@ -1,10 +1,12 @@
 ﻿
 # RMActivate_isv.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\RMActivate_isv.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0DB0E9E8FD6B0056F87156E61555A44B`
@@ -15,6 +17,7 @@ SHA415 | `55E2861872875CF6585F63F252B653DFCD66C5C9B249F8B872E3177D2AC84E1344CCBF
 SSDEEP | `12288:DV+9MjWE/1SK7shykIInOfurtNhnZ1n124pbqE5TPMjo91QDmvGy3klEl46h2Bb:DV+9MjbSK7E4AOfotNxZ1n124p+E5TVs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:DV+9MjWE/1SK7shykIInOfurtNhnZ1n124pbqE5TPMjo91QDmvGy3klEl46h2Bb:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

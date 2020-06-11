@@ -1,10 +1,12 @@
 ﻿
 # chkdsk.exe 
+
 * File Path: `C:\Windows\SysWOW64\chkdsk.exe`
 * Description: Check Disk Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8CBF8AA76ECBE850F97C57B85BAEB2C4`
@@ -15,6 +17,7 @@ SHA415 | `DF3E1AF59184C46559996C1C7B624F2BB54E2B4A4A5F9A3F118521BB9A52475A2FF5CD
 SSDEEP | `384:7pyYxYtvrKp9IScM056YmFXuY0MCW1eN1WSFphWdg:7YYS1rO9ISVt0+expy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Checks a disk and displays a status report.
@@ -92,5 +95,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

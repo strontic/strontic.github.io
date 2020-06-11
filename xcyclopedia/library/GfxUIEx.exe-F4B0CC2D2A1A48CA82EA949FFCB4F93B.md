@@ -1,10 +1,12 @@
 ﻿
 # GfxUIEx.exe 
+
 * File Path: `C:\WINDOWS\system32\GfxUIEx.exe`
 * Description: GFXUIEX Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F4B0CC2D2A1A48CA82EA949FFCB4F93B`
@@ -15,6 +17,7 @@ SHA415 | `C9D35DDCFE0AD70DCC03E638E9DB311606CD9CF5F83C0243DA319FB5E78F6B57D04F1D
 SSDEEP | `6144:tEHuSsXQo7TWM4TYV2CASQezytLR07jyXNwQJdLqjMlODvtMJfDVChJWEgI1pHpO:WHuSsXQszOWtGdFcMlMvt6fDVC7g2pM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ Gfxv4_0.exe
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

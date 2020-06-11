@@ -1,10 +1,12 @@
 ﻿
 # chgusr.exe 
+
 * File Path: `C:\Windows\system32\chgusr.exe`
 * Description: Change INI File Mapping Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FA3BD1F9901285218280C4019623F589`
@@ -15,6 +17,7 @@ SHA415 | `98E3EF448D6AF85E9378E237BA3CB659155BB113FBD750F632943028E192E26B351432
 SSDEEP | `384:kyMAOpQEtYZQBEP55zi/ErBPC3Y71OcQLu0Qm16jNH4aWsVW:FENY6mBPIEjQa0QT4A`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Change Install Mode.
@@ -62,5 +65,7 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

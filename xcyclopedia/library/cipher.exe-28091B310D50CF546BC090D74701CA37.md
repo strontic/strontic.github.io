@@ -1,10 +1,12 @@
 ﻿
 # cipher.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\cipher.exe`
 * Description: File Encryption Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `28091B310D50CF546BC090D74701CA37`
@@ -15,6 +17,7 @@ SHA415 | `A99A21A4F2758D32026F60F1386AE0A07228D9056C90A6105CFCC7F930C538057B2E38
 SSDEEP | `768:zG2q9UMGiifR/VKpHBZeKWq34p+ZEpTz5aP:zBqWrT5KIKcptz5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Displays or alters the encryption of directories [files] on NTFS partitions.
@@ -153,5 +156,7 @@ Displays or alters the encryption of directories [files] on NTFS partitions.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # pwcreator.exe 
+
 * File Path: `C:\WINDOWS\system32\pwcreator.exe`
 * Description: Create a Windows To Go workspace
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EF15ED92CDF4D96B153E8B95EDB0835A`
@@ -15,6 +17,7 @@ SHA415 | `A2A6F46BC3BB402854C4F2E5510B1D7EBAA38C22C87403FD1D7B6E63AA411265D02CF7
 SSDEEP | `12288:68SmNyeXJCdo+u0gHMLnLqawhXJVx4kQylIjRrU3tRW:68SmNyeXv+u0gHMLnhwNxvQ6LW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:68SmNyeXJCdo+u0gHMLnLqawhXJVx4kQylIjRrU3tRW:68SmNyeXv+u0gHMLnhwN
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

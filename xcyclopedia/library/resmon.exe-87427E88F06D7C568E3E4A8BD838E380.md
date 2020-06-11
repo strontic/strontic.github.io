@@ -1,10 +1,12 @@
 ﻿
 # resmon.exe 
+
 * File Path: `C:\Windows\SysWOW64\resmon.exe`
 * Description: Resource Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `87427E88F06D7C568E3E4A8BD838E380`
@@ -15,6 +17,7 @@ SHA415 | `06523880AB8FCF072E2216FAE170CF554B952475BD920CDC504CC16521A6B3BFFAB3B3
 SSDEEP | `1536:SmEqBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:SqghtYIo9piswTogiqQKy349`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ perfmon.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

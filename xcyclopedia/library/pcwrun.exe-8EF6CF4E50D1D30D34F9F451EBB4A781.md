@@ -1,10 +1,12 @@
 ﻿
 # pcwrun.exe 
+
 * File Path: `C:\WINDOWS\system32\pcwrun.exe`
 * Description: Program Compatibility Troubleshooter Invoker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8EF6CF4E50D1D30D34F9F451EBB4A781`
@@ -15,6 +17,7 @@ SHA415 | `B8C78C066D1E559C6BE2904FA0988DE56839BDE8AD6AE2390E32959942F813E72EAD15
 SSDEEP | `192:4N2ogLOLwB1EsMOchQXfRwO5gjeSxsAQGlWlO2dL7imMWtgW:GgLOLZROc6RbOjVxnlEO2pMWtgW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ msdt.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

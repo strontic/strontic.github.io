@@ -1,10 +1,12 @@
 ﻿
 # CheckNetIsolation.exe 
+
 * File Path: `C:\Windows\SysWOW64\CheckNetIsolation.exe`
 * Description: AppContainer Network Isolation Diagnostic Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5D62E3D4F94C05BA6DCA8EFFEE9B4405`
@@ -15,6 +17,7 @@ SHA415 | `493F1007F86575300E3F9359C6ACDF7B4C831A8BCDA5CEFADD89D0F4E98F057B77DAA9
 SSDEEP | `384:Iaar56L0NJzIdSTnAjX1MURXplqjbLcjsLWDdh4Z17eYWn7pOWdJoyh:IabswPTlqA4LWX016R7pNJoy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Error: Invalid Parameters
@@ -60,5 +63,7 @@ Usage:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # sdbinst.exe 
+
 * File Path: `C:\Windows\system32\sdbinst.exe`
 * Description: Application Compatibility Database Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B41D427B810504D0479BF2CFBE385009`
@@ -15,6 +17,7 @@ SHA415 | `ED0194B8D15FAB2C80CB4A7FD34F1CBFBE42B22E447D23D37D68FC5273728716192DAA
 SSDEEP | `384:bHgVSPQlmB8YKtrFoJl0BUuESeBtOB8YmgzpS2jVdg/E0FyRLyUqbhk2BRbmDWDJ:bHgVSIe8XBATuEvm6XMWywUqb22BRy8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Error: Invalid switch -help.
@@ -54,5 +57,7 @@ Usage: C:\Windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

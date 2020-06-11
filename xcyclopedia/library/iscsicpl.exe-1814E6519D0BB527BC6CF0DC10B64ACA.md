@@ -1,10 +1,12 @@
 ﻿
 # iscsicpl.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\iscsicpl.exe`
 * Description: Microsoft iSCSI Initiator Configuration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1814E6519D0BB527BC6CF0DC10B64ACA`
@@ -15,6 +17,7 @@ SHA415 | `E9B809D62A7D62187614EC3FD4E0C45B4E3855356C89F8F2C932FE7024670220A11D45
 SSDEEP | `96:m/5zvUR/NZNKln9Y8p2kvnxDGjoBcHz0yjCyj9ZBxbDeSD1MM7kmqDJWRxkMC58y:mVWNu74Dznx5ZLZpMM7kmFkrmW7RRWY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:m/5zvUR/NZNKln9Y8p2kvnxDGjoBcHz0yjCyj9ZBxbDeSD1MM7kmqDJWRxkMC58y:mV
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

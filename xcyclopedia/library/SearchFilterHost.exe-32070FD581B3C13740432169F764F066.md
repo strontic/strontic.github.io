@@ -1,10 +1,12 @@
 ﻿
 # SearchFilterHost.exe 
+
 * File Path: `C:\Windows\system32\SearchFilterHost.exe`
 * Description: Microsoft Windows Search Filter Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `32070FD581B3C13740432169F764F066`
@@ -15,6 +17,7 @@ SHA415 | `DFD426FE196102C67903E4C63A8A33F378B7EA25FADCDFC18FC81719E109FBBDD901E1
 SSDEEP | `6144:G2YkMO2AEXE6h1BmnCUKGswLrkR10efUK:LYkMPAEVLnUKJwLQztf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:G2YkMO2AEXE6h1BmnCUKGswLrkR10efUK:LYkMPAEVLnUKJwLQztf`
 * Product Version: 7.0.14393.3564
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

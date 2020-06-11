@@ -1,10 +1,12 @@
 ﻿
 # MDEServer.exe 
+
 * File Path: `C:\WINDOWS\system32\MDEServer.exe`
 * Description: Cast to Device Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5B10B91AE7922C4A797579BE86DD82E1`
@@ -15,6 +17,7 @@ SHA415 | `A99B89CC35239BC89486E32BEC5A4477EACC2F2322CA60B44D17A62D4631BB8E23E95D
 SSDEEP | `6144:NjjAn48JAzrXAYFISIhgRpprfhPr2npaN34AriFmgfvuk6:NnY5MXAhSIhefhPrz4AriFmgfW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:NjjAn48JAzrXAYFISIhgRpprfhPr2npaN34AriFmgfvuk6:NnY5MXAhSIhefhPrz4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # MusNotifyIcon.exe 
+
 * File Path: `C:\WINDOWS\system32\MusNotifyIcon.exe`
 * Description: MusNotifyIcon.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C8BA4405BD893605DB8A99AFB40AB06C`
@@ -15,6 +17,7 @@ SHA415 | `73B82F98B04D43DA5A856224862F15193115EC72B506BF90CE4E625EEC0C9EB5B47A6B
 SSDEEP | `6144:rcsX1F3mg7o+9/B0NZjNfs/QfCn/QurUf:ong7Z878rI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:rcsX1F3mg7o+9/B0NZjNfs/QfCn/QurUf:ong7Z878rI`
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

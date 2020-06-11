@@ -1,10 +1,12 @@
 ﻿
 # DataUsageLiveTileTask.exe 
+
 * File Path: `C:\WINDOWS\system32\DataUsageLiveTileTask.exe`
 * Description: Data Sense Live Tile Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `03F022E74920EC1894CBB9FA6A7E7596`
@@ -15,6 +17,7 @@ SHA415 | `96C7E022BBF0EE4908621AF03E9607E0557F3872F9B80EF9C7C2A647FED9571E1C701E
 SSDEEP | `3072:JCbsmZ9H1DaNFznRJkrY1aOWGN9zXWpbw2n78a:JCbNhJavbRJcIzXgbw2nt`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:JCbsmZ9H1DaNFznRJkrY1aOWGN9zXWpbw2n78a:JCbNhJavbRJcIzXgbw2nt`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # dnscacheugc.exe 
+
 * File Path: `C:\WINDOWS\system32\dnscacheugc.exe`
 * Description: DNSCache Unattend Generic Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `15551D0CD29028F3B08FB1469F87B427`
@@ -15,6 +17,7 @@ SHA415 | `DBB430BE5865AFF68CBAD38323EF672028AD27DE2B7B824E1C212358417457533C807F
 SSDEEP | `384:LmP+UlYbpy8KVWnBEhYP76xiZZ8MbuBk6TtsVaPpPryc1ObH9uoskMUzJUISfu2B:LezKb2Wn2P4j+r6GZwJUISfvjg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:LmP+UlYbpy8KVWnBEhYP76xiZZ8MbuBk6TtsVaPpPryc1ObH9uoskMUzJUISfu2B:L
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

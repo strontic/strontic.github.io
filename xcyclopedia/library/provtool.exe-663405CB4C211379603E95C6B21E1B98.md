@@ -1,10 +1,12 @@
 ﻿
 # provtool.exe 
+
 * File Path: `C:\WINDOWS\system32\provtool.exe`
 * Description: Provisioning package runtime processing tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `663405CB4C211379603E95C6B21E1B98`
@@ -15,6 +17,7 @@ SHA415 | `E933744C12A6C41993807EAC7EE5F2EC25503E53B9E07A934BA86E3CF6C042F35D5D7A
 SSDEEP | `1536:F5rqBynKLU3zwoktZwol60ED5ZnWRemvvrtO/kRMOTgDfZZt+qK7MI:UdUUouZll61DJstORO8DRZtUj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:F5rqBynKLU3zwoktZwol60ED5ZnWRemvvrtO/kRMOTgDfZZt+qK7MI:UdUUouZll6
 * Product Version: 10.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

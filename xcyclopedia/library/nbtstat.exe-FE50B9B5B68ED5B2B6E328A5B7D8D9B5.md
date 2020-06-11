@@ -1,10 +1,12 @@
 ﻿
 # nbtstat.exe 
+
 * File Path: `C:\WINDOWS\system32\nbtstat.exe`
 * Description: TCP/IP NetBios Information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FE50B9B5B68ED5B2B6E328A5B7D8D9B5`
@@ -15,6 +17,7 @@ SHA415 | `F842778706CC220EAC7794264D89E6A39C171B18B5FC7B8417124AEE2C2F8946B89762
 SSDEEP | `384:KCZSVzL69ZiDYYv2L9Q9RlS9ptktI7J8WUrW:K2SFOPiMYUyPT9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -70,5 +73,7 @@ NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

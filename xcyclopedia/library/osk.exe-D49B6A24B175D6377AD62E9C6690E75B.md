@@ -1,10 +1,12 @@
 ﻿
 # osk.exe 
+
 * File Path: `C:\Windows\SysWOW64\osk.exe`
 * Description: Accessibility On-Screen Keyboard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D49B6A24B175D6377AD62E9C6690E75B`
@@ -15,6 +17,7 @@ SHA415 | `51BAF1288E34D5E549637993C4168E496AA17818EDEEE3334B4FE65F15A4C6A9A4A339
 SSDEEP | `6144:QRT99mOdaa5s/8Vuc5H3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZO7:QhVyPjmNwzaoo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:QRT99mOdaa5s/8Vuc5H3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZO7:QhVy
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

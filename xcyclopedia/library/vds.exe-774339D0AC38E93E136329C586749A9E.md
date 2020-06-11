@@ -1,10 +1,12 @@
 ﻿
 # vds.exe 
+
 * File Path: `C:\WINDOWS\system32\vds.exe`
 * Description: Virtual Disk Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `774339D0AC38E93E136329C586749A9E`
@@ -15,6 +17,7 @@ SHA415 | `DB9B014B65A041DEA4A3943132F548C1A4B66E361121A26B7F5048A5BC3C4E1E0C1EDE
 SSDEEP | `6144:FaoyIxrIf9Qoyuy/Nr7YXCHUAKK4uUxjENrCUy04wRGE2hMEzmZ1G:gvOeytcC/14uUx4rh12hpWG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:FaoyIxrIf9Qoyuy/Nr7YXCHUAKK4uUxjENrCUy04wRGE2hMEzmZ1G:gvOeytcC/14
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

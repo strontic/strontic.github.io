@@ -1,10 +1,12 @@
 ﻿
 # verifier.exe 
+
 * File Path: `C:\WINDOWS\system32\verifier.exe`
 * Description: Verifier Configuration Editor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F3E010D3E862323BEE891727CFAA31C1`
@@ -15,6 +17,7 @@ SHA415 | `632E1144D3924EFAFBF1FD519F39F82751B2F0767D2F4B52889C750177D6FB6AB6D36E
 SSDEEP | `3072:xHYDGZ2xcI9EiQQ6U2zJ0HwZpHKG5c5VoJe3+Vcv2JxQQBBEB3BefnjHrjqR+Da5:xHYDGZ2xcI9UJU2zaHwZpqGAC4T5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -309,5 +312,7 @@ PARAMETERS:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

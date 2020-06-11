@@ -1,10 +1,12 @@
 ﻿
 # rdpinput.exe 
+
 * File Path: `C:\WINDOWS\system32\rdpinput.exe`
 * Description: RDP Session Input Handler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `638D90959FDFD9E98603685F840DF819`
@@ -15,6 +17,7 @@ SHA415 | `7762E38C700FC4C2AC924C1734CE43CA6905020C07B0D6B7459654919383FB867039C3
 SSDEEP | `3072:y+Geq+nKnlN34HidzNnltWBknhbnzUI3gNTISf2/BQrcx:y+GGONIHidzNneB8LoI3Fy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:y+Geq+nKnlN34HidzNnltWBknhbnzUI3gNTISf2/BQrcx:y+GGONIHidzNneB8LoI
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

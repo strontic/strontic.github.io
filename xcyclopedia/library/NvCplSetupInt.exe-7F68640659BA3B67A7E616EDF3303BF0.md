@@ -1,10 +1,12 @@
 ﻿
 # NvCplSetupInt.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\NvCplSetupInt.exe`
 * Description: NVIDIA Package Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7F68640659BA3B67A7E616EDF3303BF0`
@@ -15,6 +17,7 @@ SHA415 | `25AC0E3ED90A91EE3E22006FB0074723ADE87B1DBD8D6105F40E33C5D91AD6AC339966
 SSDEEP | `3145728:q/+34gIa3n4eu/NXPOvBKvKzcmqxt57o5oL3NCz:SgJX+NgBaKzcmGnkB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3145728:q/+34gIa3n4eu/NXPOvBKvKzcmqxt57o5oL3NCz:SgJX+NgBaKzcmGnkB`
 * Product Version: 1.0.7
 * Language: Language Neutral
 * Legal Copyright: Copyright  2017 NVIDIA Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

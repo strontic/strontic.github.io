@@ -1,10 +1,12 @@
 ﻿
 # BitLockerWizardElev.exe 
+
 * File Path: `C:\WINDOWS\system32\BitLockerWizardElev.exe`
 * Description: BitLocker Drive Encryption Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7B6ADCD4165DE7732C61E2381D69BEA3`
@@ -15,6 +17,7 @@ SHA415 | `7D1AC8460D0555871748159AB649345B73F6DA7DB4A323D167CAFAF401DA35C737A597
 SSDEEP | `3072:jYwy7wnVS570M9kdatGCO+xmBc+hMPhPsx:EwFVs7nyatGt+SYF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:jYwy7wnVS570M9kdatGCO+xmBc+hMPhPsx:EwFVs7nyatGt+SYF`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

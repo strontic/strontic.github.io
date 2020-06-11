@@ -1,10 +1,12 @@
 ﻿
 # netiougc.exe 
+
 * File Path: `C:\Windows\SysWOW64\netiougc.exe`
 * Description: Netio Unattend Generic Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FD90F8572E1ED65B5B249178EBD283AB`
@@ -15,6 +17,7 @@ SHA415 | `669C678E7D506A063AE30C82FEB8501D171ADEFD903A67F56AE1A6D2A28F9631D01E87
 SSDEEP | `384:j5bWosE69IAuIkApoFmuXe1cinRmE7+nUXusNPPEYxWX5NWqW:j5bxkkASFmKinRmECUXusNHV8tW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:j5bWosE69IAuIkApoFmuXe1cinRmE7+nUXusNPPEYxWX5NWqW:j5bxkkASFmKinRmE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

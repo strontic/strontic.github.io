@@ -1,10 +1,12 @@
 ﻿
 # sort.exe 
+
 * File Path: `C:\Windows\system32\sort.exe`
 * Description: Sort Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C824EDDD464E93C4FC77294EB2BB92DF`
@@ -15,6 +17,7 @@ SHA415 | `171AF6EAF0329FA924BE66F35A8DA88BB386B025668C7D1A7F8F790C0850103F2652E8
 SSDEEP | `384:vfWsOdFNAA0rAIQc7fS41FV6Z4ex5Zk12M65rrqsyxIhCWXRNwNyOabKPSOkNnWK:nWs+6xDS4nV5umyqTZ0bK6OYQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
@@ -102,5 +105,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

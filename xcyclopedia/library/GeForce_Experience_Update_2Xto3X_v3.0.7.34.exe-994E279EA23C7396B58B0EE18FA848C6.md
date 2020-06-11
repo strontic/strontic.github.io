@@ -1,10 +1,12 @@
 ﻿
 # GeForce_Experience_Update_2Xto3X_v3.0.7.34.exe 
+
 * File Path: `C:\ProgramData\NVIDIA Corporation\NetService\00000000-0000-0000-0000-000000000000\GeForce_Experience_Update_2Xto3X_v3.0.7.34.exe`
 * Description: NVIDIA Package Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `994E279EA23C7396B58B0EE18FA848C6`
@@ -15,6 +17,7 @@ SHA415 | `4E7B571AA777C19E2AEF5796AFEA1AD1F11CCAD08A9D17C2DECAB957ABB1962D46206F
 SSDEEP | `786432:gDhk/LXKxsRgW6DXPTqR7pQxfWO9FguQi76Jm4kqkZAfLAlo/+9Rf3qpksiu2M+e:2G/2gZCh51NOJcto/+9deGHM+OswVwU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `786432:gDhk/LXKxsRgW6DXPTqR7pQxfWO9FguQi76Jm4kqkZAfLAlo/+9Rf3qpksiu2M+
 * Product Version: 1.0.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2015 NVIDIA Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

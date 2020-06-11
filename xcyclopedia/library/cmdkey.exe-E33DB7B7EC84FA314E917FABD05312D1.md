@@ -1,10 +1,12 @@
 ﻿
 # cmdkey.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\cmdkey.exe`
 * Description: Credential Manager Command Line Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E33DB7B7EC84FA314E917FABD05312D1`
@@ -15,6 +17,7 @@ SHA415 | `9CD06D586FFB8328D30934FD83B3CBAEB55FDE83F0FE040F1B590A2085BDFF2B323318
 SSDEEP | `384:sXDMrVrS2sXpdwDqudqL/XYzd/3YGllWiwWW5K:sXDbPwDLkYhAGlPI5K`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -73,5 +76,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

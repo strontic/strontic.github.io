@@ -1,10 +1,12 @@
 ﻿
 # CloudStorageWizard.exe 
+
 * File Path: `C:\Windows\system32\CloudStorageWizard.exe`
 * Description: CloudStorageWizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `710ECA77A9DD864DB7FF59B74F9A4FFF`
@@ -15,6 +17,7 @@ SHA415 | `8D7C9DDD66D02C1EB8E89F0A88221E260EEC66E702C84405841B8750D2F92707F2100A
 SSDEEP | `3072:MkKlA48WgqLPCEp9FcYBp2BsSVB+ZCTGP40H+w2pVmM3T2jk:MkCA4FLdpX37uZBEH+RiyD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:MkKlA48WgqLPCEp9FcYBp2BsSVB+ZCTGP40H+w2pVmM3T2jk:MkCA4FLdpX37uZBE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # tracerpt.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\tracerpt.exe`
 * Description: Event Trace Report Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EABB19326C4A2516AF46F78FFC453398`
@@ -15,6 +17,7 @@ SHA415 | `24A2A931041CCD8828CE4B409E766EE59058F3E06BB6F7A8C02202C66516B0EAAF0D55
 SSDEEP | `6144:3h4+xgMM4iqmnz2ANXYDTtvkWJR7M95hkUjKbbDUgR:3L5MfzcTeWJRK4UmbnU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -99,5 +102,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

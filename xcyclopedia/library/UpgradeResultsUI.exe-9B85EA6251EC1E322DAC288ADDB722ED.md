@@ -1,10 +1,12 @@
 ﻿
 # UpgradeResultsUI.exe 
+
 * File Path: `C:\WINDOWS\system32\UpgradeResultsUI.exe`
 * Description: Add features to Windows Results
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9B85EA6251EC1E322DAC288ADDB722ED`
@@ -15,6 +17,7 @@ SHA415 | `9D279C4C77B5ACFC0A1341ACA8D39A2CBA816E93006DEA50843603B94D42B35A3B4A2D
 SSDEEP | `768:TbpAhvHoweYyP3gsMizVXkvB/PK5jwLKLM5FfURp9xjzd8J5nTx:T91f3gpOVXkU5MLKZx3CJdTx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ csrss.exe wininit.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

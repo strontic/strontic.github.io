@@ -1,10 +1,12 @@
 ﻿
 # SmartScreenSettings.exe 
+
 * File Path: `C:\Windows\system32\SmartScreenSettings.exe`
 * Description: SmartScreenSettings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6B2EA6F8937B573372304CAE5F829A4D`
@@ -15,6 +17,7 @@ SHA415 | `7CD37602BEB86940DBFB84706FB9ADD29979D27BF0398928EE00967C760EBF1ACC8CFA
 SSDEEP | `1536:xVYQY2iN1ytxIG7cZ751sNz0UCdkV/L7://iWfVQl5K`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:xVYQY2iN1ytxIG7cZ751sNz0UCdkV/L7://iWfVQl5K`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

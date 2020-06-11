@@ -1,10 +1,12 @@
 ﻿
 # LauncherPrereqSetup_x64.exe 
+
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\LauncherPrereqSetup_x64.exe`
 * Description: Launcher Prerequisites (x64)
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `10B55600091BEED4D473589AA677067C`
@@ -15,6 +17,7 @@ SHA415 | `309E1C81AD2CF27F09DFF1C9DB210F8A3C679C962CE1CC41B6106AEE529BDDB5E1596F
 SSDEEP | `12288:NrwQwDfT8qx+lXvbqeVDAe7bZhyD2BDQC6Yoj0RSp:N3wDfTJxCXvbqa8UbTLWp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:NrwQwDfT8qx+lXvbqeVDAe7bZhyD2BDQC6Yoj0RSp:N3wDfTJxCXvbqa8UbTLWp`
 * Product Version: 1.0.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2014-2015 Epic Games, Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

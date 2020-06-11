@@ -1,10 +1,12 @@
 ﻿
 # WmiPrvSE.exe 
+
 * File Path: `C:\Windows\system32\wbem\WmiPrvSE.exe`
 * Description: WMI Provider Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E1BCE838CD2695999AB34215BF94B501`
@@ -15,6 +17,7 @@ SHA415 | `93065861800C912F99E2C44D2E1FCDE45B607F8925087579EDBCC228E1D845F90E04A8
 SSDEEP | `6144:JaKgCnAi4d8qi0/aNEHOSckNGxnqn9mu69mO8nX5SjPgep5nn2/DeP:fAuqiGHY0GxnY8NmOCYj/9C8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:JaKgCnAi4d8qi0/aNEHOSckNGxnqn9mu69mO8nX5SjPgep5nn2/DeP:fAuqiGHY0G
 * Product Version: 10.0.14393.2155
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

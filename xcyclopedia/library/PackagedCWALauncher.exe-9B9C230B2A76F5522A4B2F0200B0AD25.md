@@ -1,10 +1,12 @@
 ﻿
 # PackagedCWALauncher.exe 
+
 * File Path: `C:\WINDOWS\system32\PackagedCWALauncher.exe`
 * Description: Packaged CWA Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9B9C230B2A76F5522A4B2F0200B0AD25`
@@ -15,6 +17,7 @@ SHA415 | `1871C43D045911869B36F447EA36CF661EFAE3A49340F72FB65C422D17B4897A879295
 SSDEEP | `768:r6BYjPXvCCa0lXcxHWJS62GWSXrkhojoLu+oWU9+WSiKmESarHYS8Y:eBACCaifIqrkmoLu+oW3mM4S8Y`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:r6BYjPXvCCa0lXcxHWJS62GWSXrkhojoLu+oWU9+WSiKmESarHYS8Y:eBACCaifIqr
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

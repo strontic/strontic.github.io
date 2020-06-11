@@ -1,10 +1,12 @@
 ﻿
 # wsqmcons.exe 
+
 * File Path: `C:\WINDOWS\system32\wsqmcons.exe`
 * Description: Windows SQM Consolidator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3198C8F020BC60931404167EEC51E2BF`
@@ -15,6 +17,7 @@ SHA415 | `B9077F05312078ED5A3849F104B17FAB9E1CE9EA6BA461AFB4AF91E4CD7A1494B6973E
 SSDEEP | `1536:RWLApNMLQn1YnotjyPrhFWe7H+E+PSZJHnGQumre2q6E:n09otOPV/3ZJHGQuCe28`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:RWLApNMLQn1YnotjyPrhFWe7H+E+PSZJHnGQumre2q6E:n09otOPV/3ZJHGQuCe28
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

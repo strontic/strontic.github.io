@@ -1,10 +1,12 @@
 ﻿
 # lxdnwavs.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\common\hebrew\lxdnwavs.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `41A8541278A76ACD9130ACF5685B7FCD`
@@ -15,6 +17,7 @@ SHA415 | `559461D759B458D19D273F068AE0CF0304F072F13334B35622CAF5D8EA1B210B694863
 SSDEEP | `24576:uIJUd2MJGu9gyJT6MoFpXkF43TZTb1ypRY2WEIPjO0HYrHV1y9Q1kN/GRTfilOVU:VEcuRoAeH1yp67VbujDYW7VdzmrvD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:uIJUd2MJGu9gyJT6MoFpXkF43TZTb1ypRY2WEIPjO0HYrHV1y9Q1kN/GRTfilOVU
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

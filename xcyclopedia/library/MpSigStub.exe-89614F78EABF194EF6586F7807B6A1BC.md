@@ -1,10 +1,12 @@
 ﻿
 # MpSigStub.exe 
+
 * File Path: `C:\Windows\system32\MpSigStub.exe`
 * Description: Microsoft Malware Protection Signature Update Stub
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `89614F78EABF194EF6586F7807B6A1BC`
@@ -15,6 +17,7 @@ SHA415 | `F430E40714A7CF74141792BF1E2E364D100ADF6B44324BCBD1FF3826BBBE86FFFA1A30
 SSDEEP | `12288:1ukxwlT4Opldy3LDSaapZKt+t5lqvbWR0bwpAUUFNECeNPF/z:ckx48OplQ3LDqpZKt+t7gb2tIDECelFr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:1ukxwlT4Opldy3LDSaapZKt+t5lqvbWR0bwpAUUFNECeNPF/z:ckx48OplQ3LDqp
 * Product Version: 1.1.16900.5
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

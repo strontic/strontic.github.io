@@ -1,10 +1,12 @@
 ﻿
 # rdpsign.exe 
+
 * File Path: `C:\Windows\system32\rdpsign.exe`
 * Description: Remote Desktop Session Host Server Sign Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D4F93F19231EB61BB3A13D42FA82D842`
@@ -15,6 +17,7 @@ SHA415 | `9AB365C956B1CC295C23BAC6C39E0B289EFFC7F4871F31A089907FCAC1C8051C2D5E99
 SSDEEP | `1536:i1gg2lY1dflxnezx0Xr4mnLPnu/UQqKklhNVg68XPU1PTbg0sO80DhGBNqS:Lg2lQdn1Xr4mLPyUQmVsPURXg0580DU3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 All rdp file(s) have been succesfully signed.
@@ -62,5 +65,7 @@ OPTIONS
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

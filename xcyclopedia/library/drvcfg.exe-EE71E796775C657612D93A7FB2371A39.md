@@ -1,10 +1,12 @@
 ﻿
 # drvcfg.exe 
+
 * File Path: `C:\Windows\system32\drvcfg.exe`
 * Description: Driver Configuration Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EE71E796775C657612D93A7FB2371A39`
@@ -15,6 +17,7 @@ SHA415 | `B346A353702D340F185BF6DAC474AE67A5B5574173A97537DFBAD86787080057A440AC
 SSDEEP | `1536:s0P8+mKFDtocK42SXxC7+0PfuFWjzm1DDew:s0k10pIwxs3fu2zqDn`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:s0P8+mKFDtocK42SXxC7+0PfuFWjzm1DDew:s0k10pIwxs3fu2zqDn`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

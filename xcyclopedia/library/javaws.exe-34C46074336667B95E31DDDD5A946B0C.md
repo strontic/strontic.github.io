@@ -1,10 +1,12 @@
 ﻿
 # javaws.exe 
+
 * File Path: `C:\ProgramData\Oracle\Java\javapath\javaws.exe`
 * Description: Java(TM) Web Start Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `34C46074336667B95E31DDDD5A946B0C`
@@ -15,6 +17,7 @@ SHA415 | `297F87699F7D693BA17F2C48C8695577D2AD9C7EA983FD7A56872AFF71C3CC3C886554
 SSDEEP | `6144:6C5PvoX0rLPsHdDn+pBKlNR709/gdCBvRR:JvoXOLPsHdDCOP709BBvv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:6C5PvoX0rLPsHdDn+pBKlNR709/gdCBvRR:JvoXOLPsHdDCOP709BBvv`
 * Product Version: 8.0.1710.11
 * Language: Language Neutral
 * Legal Copyright: Copyright  2018
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

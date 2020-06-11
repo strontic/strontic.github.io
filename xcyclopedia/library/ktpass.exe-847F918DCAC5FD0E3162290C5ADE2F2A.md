@@ -1,10 +1,12 @@
 ﻿
 # ktpass.exe 
+
 * File Path: `C:\Windows\system32\ktpass.exe`
 * Description: Kerberos keytab tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `847F918DCAC5FD0E3162290C5ADE2F2A`
@@ -15,6 +17,7 @@ SHA415 | `32CEDA70E9257BE9BFB1AA42810951691DA9A6927D8FD75B31414FA8CA1FADB28ED02F
 SSDEEP | `768:a26UJ2jK/o47bxidpPfZbSvKz5XVvvSvIPRmFx6U2eFDw0LOhJVoUw:Uu7XoPsvyZQ4U2elRGJVjw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -88,5 +91,7 @@ Command line options:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # vssadmin.exe 
+
 * File Path: `C:\Windows\SysWOW64\vssadmin.exe`
 * Description: Command Line Interface for Microsoft Volume Shadow Copy Service 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7C49576CF1ABD8B22FD819FDB9F5917A`
@@ -15,6 +17,7 @@ SHA415 | `0F915B425C76C7A66FAB1EC0F9D4D2DAF3E6B9DCFF77113925806C6F03EF948D99382A
 SSDEEP | `3072:+G4LJaB3Wlz3cPMXBFy+iSNoT45lkWPanAtb:+G4LJM3Wlz3cPMRLNXlwA1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
@@ -64,5 +67,7 @@ Query Reverts         - Query the progress of in-progress revert operations.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

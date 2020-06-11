@@ -1,10 +1,12 @@
 ﻿
 # IMTCPROP.exe 
+
 * File Path: `C:\Windows\SysWOW64\IME\IMETC\IMTCPROP.exe`
 * Description: IMTCPROP.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `428B2502806D71368D48C46EB89E7291`
@@ -15,6 +17,7 @@ SHA415 | `FB3A734B976C20213FB29DEECEA411C7EABC36620461BB5697FE01D33E1781529001AF
 SSDEEP | `6144:rSUpfPJGxpY7Jvgkmw3V+jINmKKRiT7fJX:rSKZRgkmwzKwR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ RdpSa.exe
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

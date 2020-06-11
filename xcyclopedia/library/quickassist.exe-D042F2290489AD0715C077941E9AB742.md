@@ -1,10 +1,12 @@
 ﻿
 # quickassist.exe 
+
 * File Path: `C:\WINDOWS\system32\quickassist.exe`
 * Description: Quick Assist
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D042F2290489AD0715C077941E9AB742`
@@ -15,6 +17,7 @@ SHA415 | `8F30778C46F7B879217FE1B9AB03594C9ACFD918342B3F83D0E0F0514681458C8CAD15
 SSDEEP | `12288:8GTc62pXTXZy7tjPghe8HPOgCzsUdLeANsDvH:TIt9Zyt7fLIU0GS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:8GTc62pXTXZy7tjPghe8HPOgCzsUdLeANsDvH:TIt9Zyt7fLIU0GS`
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

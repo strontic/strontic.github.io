@@ -1,10 +1,12 @@
 ﻿
 # vfpctrl.exe 
+
 * File Path: `C:\WINDOWS\system32\vfpctrl.exe`
 * Description: vfpctrl.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `15EA1DB2573CFDA594DF77E2E7320F2C`
@@ -15,6 +17,7 @@ SHA415 | `A647223AD3CD71D76106D573896CE166B980842AA50E44D326707D9D74A26A56C6E152
 SSDEEP | `6144:43r73bllgQM/gTvK7zO5M5JP61njuK7D7av9zujDqN05dfQZI:4H3sUK7zOiF2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -595,5 +598,7 @@ VFP control and diagnostics utility
 * Product Version: 10.0.18362.10000
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

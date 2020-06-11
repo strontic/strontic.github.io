@@ -1,10 +1,12 @@
 ﻿
 # UI0Detect.exe 
+
 * File Path: `C:\Windows\system32\UI0Detect.exe`
 * Description: Interactive services detection
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8578F83EC5175920F2D8586FFF9DCE47`
@@ -15,6 +17,7 @@ SHA415 | `BB7C5D344F67D89DE02672B28225B5692ADED0327806C23D64B6E3F4025081FC8943A5
 SSDEEP | `768:5yICGYzhoM2WTbQUZrJ4rCRBBwr6FZTSiMMNpa8zOjFMMNv0/vM+2vgI:niuMXHQUlJdwr6FZJMMW7MMs0+2vx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:5yICGYzhoM2WTbQUZrJ4rCRBBwr6FZTSiMMNpa8zOjFMMNv0/vM+2vgI:niuMXHQUl
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

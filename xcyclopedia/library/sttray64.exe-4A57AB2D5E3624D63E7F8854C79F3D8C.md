@@ -1,10 +1,12 @@
 ﻿
 # sttray64.exe 
+
 * File Path: `C:\WINDOWS\sttray64.exe`
 * Description: IDT PC Audio
 * Comments: All Rights Reserved 2004 - 2009 IDT, Inc.
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4A57AB2D5E3624D63E7F8854C79F3D8C`
@@ -15,6 +17,7 @@ SHA415 | `13AFC3561EA186DE0BDCC2944F6FBC8C892594508EFAB24AD44F2BF5CBF539ECA34BD7
 SSDEEP | `49152:C3hDDB/rQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQ0:C3VBTQQQQQQQQQQQQQQQQQQQQQQQQQQ1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:C3hDDB/rQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQ0
 * Product Version: 1.0.6491.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2004 - 2009 IDT, Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

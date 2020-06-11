@@ -1,10 +1,12 @@
 ﻿
 # rsopprov.exe 
+
 * File Path: `C:\Windows\SysWOW64\rsopprov.exe`
 * Description: RSoP Service Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `059D642ED9005D1DC83BBFC217D71644`
@@ -15,6 +17,7 @@ SHA415 | `9F51091798BDE78BA8A594A3D80B5532E9828ECEC0F42006301D2589F45CD4581A09DB
 SSDEEP | `1536:I++00Q9MdYWhOgec2vvGWtu1bsoMW7BlqDyEV/uQSVl6fpTOccunYHd5D:F+XQ9MdYWhOgecmvGWA9My+/u50p3lnq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:I++00Q9MdYWhOgec2vvGWtu1bsoMW7BlqDyEV/uQSVl6fpTOccunYHd5D:F+XQ9Md
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

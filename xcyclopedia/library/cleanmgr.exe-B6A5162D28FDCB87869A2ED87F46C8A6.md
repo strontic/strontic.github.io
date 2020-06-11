@@ -1,10 +1,12 @@
 ﻿
 # cleanmgr.exe 
+
 * File Path: `C:\Windows\system32\cleanmgr.exe`
 * Description: Disk Space Cleanup Manager for Windows
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B6A5162D28FDCB87869A2ED87F46C8A6`
@@ -15,6 +17,7 @@ SHA415 | `2A9C5654C20115F4982D978F43C81D0C01C79DE259972F0CED439C2C2D111B0E1F11C8
 SSDEEP | `3072:T7iHR8+DLd664sn+yfZAEPGRvQhRkKqUa9antF5hvvJkuXp6:Xir3JfeE+ohSKq99UF5hvv/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ DismHost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # hvsirdpclient.exe 
+
 * File Path: `C:\WINDOWS\system32\hvsirdpclient.exe`
 * Description: Windows Defender Application Guard Manager RDP Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CE334734537CC5BD420901ACBEE05047`
@@ -15,6 +17,7 @@ SHA415 | `81A3D5248F575A63C8C52D28E898805A538DEB524EEC21D84BCE62BA2743C8EEF97A3B
 SSDEEP | `3072:BW0Mr3wvM8yk4rimBjmR7huIxmvRD0upcsruRc/nZRaZIyrxZU8GkZ2z:BW06N8Uj8dxmvRocuRcvIxZU8U`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:BW0Mr3wvM8yk4rimBjmR7huIxmvRD0upcsruRc/nZRaZIyrxZU8GkZ2z:BW06N8Uj
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

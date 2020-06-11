@@ -1,10 +1,12 @@
 ﻿
 # rundll32.exe 
+
 * File Path: `C:\Windows\SysWOW64\rundll32.exe`
 * Description: Windows host process (Rundll32)
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `111474C61232202B5B588D2B512CBB25`
@@ -15,6 +17,7 @@ SHA415 | `05E3F4A3683E67CB5DD7E434E3619CBF04103B1907A18B04B61F06013FA1F925BA9E27
 SSDEEP | `1536:557g1LwvkpZruNJosIB/ROln5IUmDjoXp:5MtjCNysI9ROln5I0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:557g1LwvkpZruNJosIB/ROln5IUmDjoXp:5MtjCNysI9ROln5I0`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # MsSpellCheckingHost.exe 
+
 * File Path: `C:\Windows\system32\MsSpellCheckingHost.exe`
 * Description: Microsoft Spell Checking Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EAA0B5A766E8FABB40F5D2DB226CD58E`
@@ -15,6 +17,7 @@ SHA415 | `B25D8E7498970BA6C2FD24682B989BDBE95DAC7F7A92ACDB17B9410850C703D4196385
 SSDEEP | `1536:XpGBAqVyPws2lwLwkzE0poUuDEarG0yTbPGlUbMMwJaMqW5ECKLfbApC4:ZILpRkzE06Df5yfOkMMoaMqNCKjbApB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:XpGBAqVyPws2lwLwkzE0poUuDEarG0yTbPGlUbMMwJaMqW5ECKLfbApC4:ZILpRkz
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

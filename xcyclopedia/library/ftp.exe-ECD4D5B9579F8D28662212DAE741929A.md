@@ -1,10 +1,12 @@
 ﻿
 # ftp.exe 
+
 * File Path: `C:\WINDOWS\system32\ftp.exe`
 * Description: File Transfer Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `ECD4D5B9579F8D28662212DAE741929A`
@@ -15,6 +17,7 @@ SHA415 | `9292A78C962B13DF304AD348228BE0A1A16F10595D50BE68ACEE6EC1151E5C6CA162B0
 SSDEEP | `1536:wJJs/XMsSn2hAIXLRAR5VQEGcL0lpiJRJ8ihg+eup9MXf:wJOcQuVQEGcL0bYR+jHv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -71,5 +74,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

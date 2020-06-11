@@ -1,10 +1,12 @@
 ﻿
 # msoobe.exe 
+
 * File Path: `C:\Windows\system32\oobe\msoobe.exe`
 * Description: MSOOBE EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `575C0A7C3429C081D9E8430C05C1235B`
@@ -15,6 +17,7 @@ SHA415 | `676D1D0DAA8E12994ECF31B517BBAE96EDAEE2AEB372EF4A055263852A0F461E75AF49
 SSDEEP | `3072:6aqZr/8Zc8NRAV9rjzN8DQVfviKq+ddR0uSlwtK6E:6aqZrkgV9Peo3AgdVSl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ FirstLogonAnim.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

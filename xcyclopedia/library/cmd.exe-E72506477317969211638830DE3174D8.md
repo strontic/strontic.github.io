@@ -1,10 +1,12 @@
 ﻿
 # cmd.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\cmd.exe`
 * Description: Windows Command Processor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E72506477317969211638830DE3174D8`
@@ -15,6 +17,7 @@ SHA415 | `9DB667228C0B2772547144CC630A0B0E46179CDBFB9174BB3C66E9ED1DA40E9A65A98C
 SSDEEP | `6144:2LCkt63w0V/4rQt9t/GEmgLL3c8Vif/z3WSEctnmGT:2Vt+w8wyv/666WoJf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Starts a new instance of the Windows command interpreter
@@ -225,5 +228,7 @@ conhost.exe
 * Product Version: 10.0.18362.449
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

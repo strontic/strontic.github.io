@@ -1,10 +1,12 @@
 ﻿
 # wiaacmgr.exe 
+
 * File Path: `C:\WINDOWS\system32\wiaacmgr.exe`
 * Description: Windows Picture Acquisition Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5F31742F489000AE4E8049AD854601E3`
@@ -15,6 +17,7 @@ SHA415 | `E006114300BE193E4CF010345F2E7ACDE4353CA252A501E1A40D9396835C788EE68321
 SSDEEP | `1536:9jLieYw9QU9UF1RGYYQ25OCKozqbKyRK5VNsjFtXaFRWp+UmBo6AtfB:RLj7721RrYlO/ozqeyR7F5aFRGmBo6G`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:9jLieYw9QU9UF1RGYYQ25OCKozqbKyRK5VNsjFtXaFRWp+UmBo6AtfB:RLj7721Rr
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

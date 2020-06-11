@@ -1,10 +1,12 @@
 ﻿
 # msconfig.exe 
+
 * File Path: `C:\WINDOWS\system32\msconfig.exe`
 * Description: System Configuration Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EC284B6D1AFBBA44211F4F0C3EA44838`
@@ -15,6 +17,7 @@ SHA415 | `80732EC1F7E211CE984BAF32C0480189384AA2C76E95E1AFC0446F04CA35EB48AF98CB
 SSDEEP | `3072:4Y4vQ82v8NLxkoUoi95DQ9oVrBfUd0/HlGJRA1i:ngQV0FkoUoi95c9ofUdSGJRW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:4Y4vQ82v8NLxkoUoi95DQ9oVrBfUd0/HlGJRA1i:ngQV0FkoUoi95c9ofUdSGJRW`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

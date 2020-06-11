@@ -1,10 +1,12 @@
 ﻿
 # MdmDiagnosticsTool.exe 
+
 * File Path: `C:\Windows\system32\MdmDiagnosticsTool.exe`
 * Description: MdmDiagnosticsTool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A3EBBF477473AF06EE428238AAB8AB57`
@@ -15,6 +17,7 @@ SHA415 | `3E045B4249354AF6781D1B0B703A8875601F206B857CB66EE19C068542EE50DC254BAC
 SSDEEP | `384:cOvq2p3sGLXV1WR31AHZqOmzvl2RygjWQGBrWSi1Wm3:c897VA8kjl07jxGg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Report location -help
@@ -46,5 +49,7 @@ Report location -help
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

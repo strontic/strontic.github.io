@@ -1,10 +1,12 @@
 ﻿
 # RdpSa.exe 
+
 * File Path: `C:\WINDOWS\system32\RdpSa.exe`
 * Description: RDP Session Agent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `771DB305FD783FBAD8DB72E9ED39A1EE`
@@ -15,6 +17,7 @@ SHA415 | `6488A288BD5476C5AFCC2424F9CEB6433FEC99E29573C7C343D0B33DA2292887F21FD0
 SSDEEP | `768:Ld7aGOnhdnjhD94KnQZIpv2hLsOmdKr1iHX1aw+PJH+O4ZkWa5:Y7hD9k/Rr1UX1l+RHGZRa5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Ld7aGOnhdnjhD94KnQZIpv2hLsOmdKr1iHX1aw+PJH+O4ZkWa5:Y7hD9k/Rr1UX1l+
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SearchIndexer.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\SearchIndexer.exe`
 * Description: Microsoft Windows Search Indexer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `435D951C7B6B47CD676DFF0776DC61A8`
@@ -15,6 +17,7 @@ SHA415 | `2CDB96F5C76A39A43D5074C0BCCADFE7DCA0149F0ECD2F62AE872D44ADEFE9081AA126
 SSDEEP | `12288:jpZuDj4wgpxQrS+mJ/4DXrFkF4Y7lxWujS4p0ehoPYxRCqtpzwzFhirDd:vuX44rSZJADXrHklxvS4pVPtpzwzFhi9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:jpZuDj4wgpxQrS+mJ/4DXrFkF4Y7lxWujS4p0ehoPYxRCqtpzwzFhirDd:vuX44r
 * Product Version: 7.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

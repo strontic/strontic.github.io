@@ -1,10 +1,12 @@
 ﻿
 # dmcertinst.exe 
+
 * File Path: `C:\Windows\system32\dmcertinst.exe`
 * Description: DM Certificate Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5DEF89906DA4AB4BCBB8B9E48338F7BC`
@@ -15,6 +17,7 @@ SHA415 | `C29B722AB220A872B15743063C082FC3DE49850AB546BA57DE03292C7317064005424B
 SSDEEP | `3072:Bi3pKC/eGfWQbEHAoGFiNt8RXsQUyzWYQOQ2qMxbUUaBJ:Bi3pKOeXEiYRNjfQOQ2vxwUaB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Bi3pKC/eGfWQbEHAoGFiNt8RXsQUyzWYQOQ2qMxbUUaBJ:Bi3pKOeXEiYRNjfQOQ2
 * Product Version: 10.0.14393.1066
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

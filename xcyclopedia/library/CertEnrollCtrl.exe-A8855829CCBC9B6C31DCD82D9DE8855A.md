@@ -1,10 +1,12 @@
 ﻿
 # CertEnrollCtrl.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\CertEnrollCtrl.exe`
 * Description: Certificate Enrollment Control
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A8855829CCBC9B6C31DCD82D9DE8855A`
@@ -15,6 +17,7 @@ SHA415 | `95182FBA6BD30AF07AB432E5DCE330CBF29D26271DF273BD1C0B1F050B8FDCC497D48D
 SSDEEP | `768:kbcS84pT8cJ+8lUR5qiavKHjiPg7wxTISrcmZeeoFvgKs1ghXLyZGZmRau9BA:kx/OcE8+RfHeo7wGInZeeoFvrlZmRau`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:kbcS84pT8cJ+8lUR5qiavKHjiPg7wxTISrcmZeeoFvgKs1ghXLyZGZmRau9BA:kx/O
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

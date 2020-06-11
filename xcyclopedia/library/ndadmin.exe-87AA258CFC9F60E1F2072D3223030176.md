@@ -1,10 +1,12 @@
 ﻿
 # ndadmin.exe 
+
 * File Path: `C:\Windows\SysWOW64\ndadmin.exe`
 * Description: Device driver software installation
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `87AA258CFC9F60E1F2072D3223030176`
@@ -15,6 +17,7 @@ SHA415 | `2F900998FC19AF319654C6839CCA0DEE25FDD3A47ACFC907C8AC2688BAEEC337C1AFE8
 SSDEEP | `768:pYuiqOIbjQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:pfDbjfFrGUUUUUUUUUUUU3+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:pYuiqOIbjQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:pfDbjfFrGUUUUUUUUUUUU3+
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

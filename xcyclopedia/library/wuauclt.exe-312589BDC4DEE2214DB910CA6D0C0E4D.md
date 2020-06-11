@@ -1,10 +1,12 @@
 ﻿
 # wuauclt.exe 
+
 * File Path: `C:\WINDOWS\system32\wuauclt.exe`
 * Description: Windows Update
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `312589BDC4DEE2214DB910CA6D0C0E4D`
@@ -15,6 +17,7 @@ SHA415 | `FF470D99B190A7E691367AB7E5A0D6513B669BD214360B958F79ED0704DD9F3612537F
 SSDEEP | `768:/Ul/9UyG1qzF8vHPP12MTnKXKh16KwdOjOvixrH6KRUQGFMP0GasceHTMixx44zU:/e/9DYvdt17i0Dep2c7WNVexfNR+3EPJ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:/Ul/9UyG1qzF8vHPP12MTnKXKh16KwdOjOvixrH6KRUQGFMP0GasceHTMixx44zU:/
 * Product Version: 10.0.18362.836
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

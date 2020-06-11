@@ -1,10 +1,12 @@
 ﻿
 # chgport.exe 
+
 * File Path: `C:\WINDOWS\system32\chgport.exe`
 * Description: Change port Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `879A0A757FD993B5D860863F8CE0C68F`
@@ -15,6 +17,7 @@ SHA415 | `E28ED737C5FEC5C9D868123A6CC509EBEEB7E1D0A66F21BBC067B0F8118DF31D243CAF
 SSDEEP | `384:Ar+obL+VKq01o+Lht/reAOgAS6Eoz5AinK8zSjpmjFqALxn3r9GZqEWqQW:Ar+otF1NLLreAtASiVnK82V+Pqsc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -54,5 +57,7 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

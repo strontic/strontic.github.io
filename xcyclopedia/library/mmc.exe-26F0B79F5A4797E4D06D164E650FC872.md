@@ -1,10 +1,12 @@
 ﻿
 # mmc.exe 
+
 * File Path: `C:\WINDOWS\system32\mmc.exe`
 * Description: Microsoft Management Console
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `26F0B79F5A4797E4D06D164E650FC872`
@@ -15,6 +17,7 @@ SHA415 | `0EC6FFE2AC8392289411F3726A1039F728F9070D17042787B1BC0F071A8E9E406A1B77
 SSDEEP | `24576:cBFvd3Acqi85cX/wD7UyfkOP3lXHX2tfRYMo7wMo7DH:cBJNAcp851+OPVXHX2tc7e7DH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:cBFvd3Acqi85cX/wD7UyfkOP3lXHX2tfRYMo7wMo7DH:cBJNAcp851+OPVXHX2tc
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

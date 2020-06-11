@@ -1,10 +1,12 @@
 ﻿
 # wpr.exe 
+
 * File Path: `C:\Windows\system32\wpr.exe`
 * Description: Microsoft Windows Performance Recorder
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `41C3D445A9A9EACB210EB10713A91510`
@@ -15,6 +17,7 @@ SHA415 | `D0D15A3ED7D6E08985572BC29BFF427657C601A840B173A477C2E5CEF1F6CC0E5567E5
 SSDEEP | `3072:AOP1GQlPB5MwJtDNCjiimHxEVfNAzMYOzycVbaVlc2C+FtGeZs2TLxl7KJ39vxOX:AOf5rtcjiiDNMXOWcmlJIeGAS3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -75,5 +78,7 @@ Copyright (c) 2015 Microsoft Corporation. All rights reserved.
 * Product Version: 10.0.14393.2969
 * Language: English (United States)
 * Legal Copyright:  2015 Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

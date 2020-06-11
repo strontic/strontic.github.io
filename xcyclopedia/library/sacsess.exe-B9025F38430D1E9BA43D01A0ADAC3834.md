@@ -1,10 +1,12 @@
 ﻿
 # sacsess.exe 
+
 * File Path: `C:\Windows\system32\sacsess.exe`
 * Description: Microsoft SAC Service Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B9025F38430D1E9BA43D01A0ADAC3834`
@@ -15,6 +17,7 @@ SHA415 | `A8E9732A29AFC017647308E774318C399F24AA7432AF0B22E8A2620B3C557AAB78BA34
 SSDEEP | `768:7lyfr2oFRpasiZoC4yVMoQCT8oi2dskiqBqLTPBd2pOPDjUg:RyfrxFRmchM8oi2zqJopOPDgg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:7lyfr2oFRpasiZoC4yVMoQCT8oi2dskiqBqLTPBd2pOPDjUg:RyfrxFRmchM8oi2zq
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

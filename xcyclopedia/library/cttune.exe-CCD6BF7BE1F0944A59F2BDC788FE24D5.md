@@ -1,10 +1,12 @@
 ﻿
 # cttune.exe 
+
 * File Path: `C:\Windows\system32\cttune.exe`
 * Description: ClearType Tuner
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CCD6BF7BE1F0944A59F2BDC788FE24D5`
@@ -15,6 +17,7 @@ SHA415 | `BB9E0C5AE79FE469B6D4EA9E8D3BA42D62B13800117464EDF6E4019CACFCDDC055E44A
 SSDEEP | `3072:DyuUhMflm2sfT+SMK5NBdQR7u4h6vJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUe:+3qflm5KfQGZu4h6voxEvTEPp/F`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:DyuUhMflm2sfT+SMK5NBdQR7u4h6vJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUe:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

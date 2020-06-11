@@ -1,10 +1,12 @@
 ﻿
 # BioIso.exe 
+
 * File Path: `C:\WINDOWS\system32\BioIso.exe`
 * Description: Secure Biometrics
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C04085E4357604ECB6103EEAC83FCFBD`
@@ -15,6 +17,7 @@ SHA415 | `8BDD5FA1F4CE483EDB620A6BCA370C064E815A623C94B3A6DE43AC0762786D3E81F37A
 SSDEEP | `24576:yAfVbFaR3pjx+o3C+Cf/930v0eAtiYrIOcnypbN2igC:xfVbFaR3pjx+o3C+Cf/930v0eAtiYrcY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:yAfVbFaR3pjx+o3C+Cf/930v0eAtiYrIOcnypbN2igC:xfVbFaR3pjx+o3C+Cf/9
 * Product Version: 10.0.18362.418
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

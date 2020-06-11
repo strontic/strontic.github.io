@@ -1,10 +1,12 @@
 ﻿
 # aitstatic.exe 
+
 * File Path: `C:\Windows\system32\aitstatic.exe`
 * Description: Application Impact Telemetry Static Analyzer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `901E2BAC6E0292AD04CA8423A3A2C384`
@@ -15,6 +17,7 @@ SHA415 | `DC331F9E98BAED6A34A019171C4BCFEDE22C40F78A930E9AB1984E6BB241885EB98EB5
 SSDEEP | `49152:IabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/LX:IyKNNYtaAIrAoTMgJvuLX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:IabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/LX:IyKNNYtaAIr
 * Product Version: 10.0.18362.1035
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

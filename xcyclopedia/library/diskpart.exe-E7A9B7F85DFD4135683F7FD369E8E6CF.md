@@ -1,10 +1,12 @@
 ﻿
 # diskpart.exe 
+
 * File Path: `C:\WINDOWS\system32\diskpart.exe`
 * Description: DiskPart
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E7A9B7F85DFD4135683F7FD369E8E6CF`
@@ -15,6 +17,7 @@ SHA415 | `FB155B98894A72E4E02F03C263750032F688C2C806E95F3830392112381B513D4A6606
 SSDEEP | `3072:79qQ9n50N/mAIQnqjdVuKsa8Sb9XVNrB5lyf7txHZohfa:xNk/RIQqZV78SbvH5liPO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:79qQ9n50N/mAIQnqjdVuKsa8Sb9XVNrB5lyf7txHZohfa:xNk/RIQqZV78SbvH5li
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

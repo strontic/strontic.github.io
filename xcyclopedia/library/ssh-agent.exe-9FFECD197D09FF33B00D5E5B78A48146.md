@@ -1,10 +1,12 @@
 ﻿
 # ssh-agent.exe 
+
 * File Path: `C:\WINDOWS\system32\OpenSSH\ssh-agent.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9FFECD197D09FF33B00D5E5B78A48146`
@@ -15,6 +17,7 @@ SHA415 | `6C1077035A534C51586CF4ADAF6F7387AB3411F0C0662A3331F238D2C1F4BA007D3523
 SSDEEP | `6144:wE7PBeGGXEkgumpLL5szsz/uyNPgfdaDb2O7fcCnDto/HOvtBCrljcz:J7J1GlvQRSyVammkfCrljcz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -46,5 +49,7 @@ unable to start ssh-agent service, error :1058
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

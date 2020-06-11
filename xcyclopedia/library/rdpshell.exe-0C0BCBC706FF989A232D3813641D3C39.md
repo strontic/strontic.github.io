@@ -1,10 +1,12 @@
 ﻿
 # rdpshell.exe 
+
 * File Path: `C:\Windows\system32\rdpshell.exe`
 * Description: RemoteApp Shell
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0C0BCBC706FF989A232D3813641D3C39`
@@ -15,6 +17,7 @@ SHA415 | `32C2480C21BDF54A1422B4408730FC14731D06658AB43FA6A25F9E38967367A9EC8ECA
 SSDEEP | `12288:+No5qVFUM+GApsbf///YeYw5tIhWkq44T:+No5qVFUa8sb3oeVPkRc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:+No5qVFUM+GApsbf///YeYw5tIhWkq44T:+No5qVFUa8sb3oeVPkRc`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

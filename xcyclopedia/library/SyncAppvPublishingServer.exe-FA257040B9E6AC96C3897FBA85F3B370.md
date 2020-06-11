@@ -1,10 +1,12 @@
 ﻿
 # SyncAppvPublishingServer.exe 
+
 * File Path: `C:\Windows\system32\SyncAppvPublishingServer.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FA257040B9E6AC96C3897FBA85F3B370`
@@ -15,6 +17,7 @@ SHA415 | `0E528A4766D3F7DFEDE9886496EBFE4C88C6B5F2008AF88BF99CA77C0FBC9DCF773CE0
 SSDEEP | `768:Z7amor5f5o0N6WW6mz8iLgkA7jnzsjpQbHcJI1PFca:dDu5oxn6/iMkA7XsCbHceP+a`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Z7amor5f5o0N6WW6mz8iLgkA7jnzsjpQbHcJI1PFca:dDu5oxn6/iMkA7XsCbHceP+
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # explorer.exe 
+
 * File Path: `C:\Windows\SysWOW64\explorer.exe`
 * Description: Windows Explorer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `729BAFD24FF83EBC6F963001386E6EB7`
@@ -15,6 +17,7 @@ SHA415 | `AB0A945210D6704FCFAED60001661B01FDB25F916AF2BC5CB6C8903506DA0C04F0A396
 SSDEEP | `49152:is67bEusTP+xQrJpJSH4lLdG22bGeeaAtN1kyw8A7/eFwIADOVhU7:mbcTP+QrRSH4lLdGJbGeeZX9w8a0ODOs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:is67bEusTP+xQrJpJSH4lLdG22bGeeaAtN1kyw8A7/eFwIADOVhU7:mbcTP+QrRS
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

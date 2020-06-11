@@ -1,10 +1,12 @@
 ﻿
 # PrintBrm.exe 
+
 * File Path: `C:\WINDOWS\system32\spool\tools\PrintBrm.exe`
 * Description: Print BRM command line tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F15C1B19C2D045F41E512DE2F4CD7393`
@@ -15,6 +17,7 @@ SHA415 | `10B877C3DD2190AA742226DC5242CAE01E83C8083351146ED7ADB1F5BBA4CF1B77D2A9
 SSDEEP | `384:PN0dFv8UEW0C142UILosjjEcGG5BMTLC9fA8RKPEaEVuSROE3UY5Lz+WFhW:MJ8UEW7T4eEL6fNaH4zOE3Zzl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Error: A single mode must be selected!
@@ -63,5 +66,7 @@ PrintBrm -B|R|Q [-S <server>] -F <file> [-D <directory>] [-O FORCE] [-P ALL|ORIG
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

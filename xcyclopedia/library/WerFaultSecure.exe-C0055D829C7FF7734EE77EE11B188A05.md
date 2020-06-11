@@ -1,10 +1,12 @@
 ﻿
 # WerFaultSecure.exe 
+
 * File Path: `C:\Windows\system32\WerFaultSecure.exe`
 * Description: Windows Fault Reporting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C0055D829C7FF7734EE77EE11B188A05`
@@ -15,6 +17,7 @@ SHA415 | `018BDA166C5BCC11B960CF11DB428BDBD3EEE73B9A1BAD282FA85C06010DC2EDB183FE
 SSDEEP | `3072:Fo0ulM2aKFJ+yC3pwRb6JPqB604HHy7hRCd39vmQk:FpZVJyB60OHyLC7vl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Fo0ulM2aKFJ+yC3pwRb6JPqB604HHy7hRCd39vmQk:FpZVJyB60OHyLC7vl`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

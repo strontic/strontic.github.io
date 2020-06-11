@@ -1,10 +1,12 @@
 ﻿
 # dcomcnfg.exe 
+
 * File Path: `C:\Windows\system32\dcomcnfg.exe`
 * Description: COM+
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `97EDBB24F9A5970325DAF0B0E39805A8`
@@ -15,6 +17,7 @@ SHA415 | `C078E9C333DA1E37B25F53004E125C10A3F957E856E8F4A9A89C5F5E523E4EA470B4EB
 SSDEEP | `192:onUDb+CMPDA/20Wki5mlJpeWLf6w5Svnb0FG8x9L6fVWZEW:onUDCC84lWkiwlJAWr6bvnb0FGWZEW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ mmc.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

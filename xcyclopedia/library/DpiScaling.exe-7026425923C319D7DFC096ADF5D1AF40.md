@@ -1,10 +1,12 @@
 ﻿
 # DpiScaling.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\DpiScaling.exe`
 * Description: Display Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7026425923C319D7DFC096ADF5D1AF40`
@@ -15,6 +17,7 @@ SHA415 | `956A37525AB56BBFBD6341A92F10F5E1A4B36FC0253F198FFBE38535E4FA71B30F3B18
 SSDEEP | `1536:/PZI91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJj1:JOOwNMSqoKXNvuZAFDqXzlzQ5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ explorer.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # iotstartup.exe 
+
 * File Path: `C:\WINDOWS\system32\iotstartup.exe`
 * Description: IotStartup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DEC60017A50CA7CCBCBB87CA170597C5`
@@ -15,6 +17,7 @@ SHA415 | `3962DC1483D74051216C9383356F2A882E0EF5A8BE2B3714BDCB9069017BE68CC01777
 SSDEEP | `3072:dbPAv9zchsC1B6KP/IMrbU8pzj10PePeM1RI0l4bXR+cirj9cuiV:dcv9zchz1B6KP/IMrbU8pXKEeiI0lu+s`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage:
@@ -70,5 +73,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

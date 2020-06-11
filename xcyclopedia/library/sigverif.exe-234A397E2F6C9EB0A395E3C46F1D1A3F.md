@@ -1,10 +1,12 @@
 ﻿
 # sigverif.exe 
+
 * File Path: `C:\WINDOWS\system32\sigverif.exe`
 * Description: File Signature Verification
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `234A397E2F6C9EB0A395E3C46F1D1A3F`
@@ -15,6 +17,7 @@ SHA415 | `05B64C71611BBDA35FE6BF727297E2587667B614C3672B407C77F7565348505AC6CE7A
 SSDEEP | `1536:qz5Obw/IyKVwZrJTX5WcXtr4ktxzAZT3WuEs:fwfKOJDnXtr4kkB7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:qz5Obw/IyKVwZrJTX5WcXtr4ktxzAZT3WuEs:fwfKOJDnXtr4kkB7`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

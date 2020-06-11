@@ -1,10 +1,12 @@
 ﻿
 # SIHClient.exe 
+
 * File Path: `C:\WINDOWS\system32\SIHClient.exe`
 * Description: SIH Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `373C3A47ECA082D4F65D7CE0C97F864F`
@@ -15,6 +17,7 @@ SHA415 | `6EB27D12E3319A9748216421549CEDB4C034823437E656C1A939D6F34080EC234CAA21
 SSDEEP | `6144:GwFdARhZVyuF3VJkcZFMV9giqkbVDbZGiM6lxH:Gw/038B9giqkpbZJ9lF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:GwFdARhZVyuF3VJkcZFMV9giqkbVDbZGiM6lxH:Gw/038B9giqkpbZJ9lF`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # escUnattend.exe 
+
 * File Path: `C:\Windows\system32\escUnattend.exe`
 * Description: IE ESC 7.0 Unattended Install Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C214508E8CBD209D971284159DC36EF0`
@@ -15,6 +17,7 @@ SHA415 | `D413DC83250533F5C794D6027C2711B9B92866D618FC9083E609D278810058741D5560
 SSDEEP | `1536:YmJfn5EV1YFxso5nJGz09tXQiIWzHrQFm/mwna/LkCNDb:YKXbgHFCa/LkUDb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ rundll32.exe
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # ARP.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\ARP.EXE`
 * Description: TCP/IP Arp Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1E04A5BD586C72BDC4890FF468DB350D`
@@ -15,6 +17,7 @@ SHA415 | `5CD3E606A5EE3EB183BCA94657194446B47FBC9457BE52E9DC892DEFDE1A65B7089BAA
 SSDEEP | `384:ks0uDm3V7A3TmJsMonFaRQo2A4N66GijP25gWScmWE:kvuDmODmuzFaWo21Yij+5l8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -77,5 +80,7 @@ Example:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

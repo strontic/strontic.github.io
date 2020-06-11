@@ -1,10 +1,12 @@
 ﻿
 # hwrreg.exe 
+
 * File Path: `C:\Windows\system32\hwrreg.exe`
 * Description: Microsoft Custom Dictionary Registration Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CA884831726320755F49820B9EC85E14`
@@ -15,6 +17,7 @@ SHA415 | `6A3BE37B55B4AD58648F0FA991CBC06A10C3B2BDC740481562B5CD03D4BD2734588E54
 SSDEEP | `3072:9chRQFLQSXRKC9TPN/cVRZl31qbydPlJReBrYWQgbmpQJ5GtCmY2lZmVC:rRRh1uLZLcydPlJReSr45J5G1Y`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 USAGE:
@@ -82,5 +85,7 @@ hwrreg -remove -lang en-US -type PRIMARY-DICTIONARY
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

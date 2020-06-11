@@ -1,10 +1,12 @@
 ﻿
 # RemotePosWorker.exe 
+
 * File Path: `C:\Windows\system32\RemotePosWorker.exe`
 * Description: Remote Pos Driver Worker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `54AECDAB09EA76FBCC1BD79D38AE6C89`
@@ -15,6 +17,7 @@ SHA415 | `8FFC6A3B96554F0C204401C9A8E077B66DD84177BD4CAB86838A27E8BFF596B1750A6D
 SSDEEP | `192:PbmZxVQ3IzPysnM1Hgn/1LpaqKOXLfasWbPO7JId4qig9GXnPhAWB7W:jSVQ3P+MBElpaEbWyeFoPqWB7W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:PbmZxVQ3IzPysnM1Hgn/1LpaqKOXLfasWbPO7JId4qig9GXnPhAWB7W:jSVQ3P+MBE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

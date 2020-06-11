@@ -1,10 +1,12 @@
 ﻿
 # w3wp.exe 
+
 * File Path: `C:\Windows\system32\inetsrv\w3wp.exe`
 * Description: IIS Worker Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AB6D6849B3B8B8F4A292DC76EBB1243F`
@@ -15,6 +17,7 @@ SHA415 | `EAE9436AB3896AF2F3E1F11305DA1955116C777F3627D333E99378E7702865A480A526
 SSDEEP | `384:zHOsMck/6v+UVWcrqNYOmOMC2nUxVYXZfw8gtUUMkHutQdKWSuY:zHLMck/q+U0WqNgOt2oVAZfMaUMkOty4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: C:\Windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host file]  
@@ -69,5 +72,7 @@ Usage: C:\Windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host 
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

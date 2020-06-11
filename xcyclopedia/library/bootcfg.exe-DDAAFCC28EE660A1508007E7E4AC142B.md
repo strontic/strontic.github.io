@@ -1,10 +1,12 @@
 ﻿
 # bootcfg.exe 
+
 * File Path: `C:\WINDOWS\system32\bootcfg.exe`
 * Description: BootCfg - Lists or changes the boot settings.
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DDAAFCC28EE660A1508007E7E4AC142B`
@@ -15,6 +17,7 @@ SHA415 | `B6B43580C326BB613569D4AB63868F6EAACBCB4B97C359AC96E27A3969C9B4EF3E69A7
 SSDEEP | `1536:b8Ysh0ZSHZ+WpvSN/v3bDCaCGmMtpfTnJQP+WU5tFa+U1:bfSIWpvS5CjaprK+WKtFa+Y`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -98,5 +101,7 @@ Type "BOOTCFG /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

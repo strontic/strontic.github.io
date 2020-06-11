@@ -1,10 +1,12 @@
 ﻿
 # InstallAgent.exe 
+
 * File Path: `C:\Windows\SysWOW64\InstallAgent.exe`
 * Description: InstallAgent
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E60B4C378EEDAFFE66020EB0E9ACB5CC`
@@ -15,6 +17,7 @@ SHA415 | `FA91DEA521E067CA5F15987D8DF41550F8C31458D5C518F599C494163440DA13F4D83F
 SSDEEP | `3072:/Nu2jMjWcwYpoFESQOQ2QoGjrGofbUjgNs8En/moo1clWJFM5BjLe+ydGgug3Nqu:/rQOQ2YC0wE8/1oilW05wXdGO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:/Nu2jMjWcwYpoFESQOQ2QoGjrGofbUjgNs8En/moo1clWJFM5BjLe+ydGgug3Nqu:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

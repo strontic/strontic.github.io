@@ -1,10 +1,12 @@
 ﻿
 # VSUPrereq.exe 
+
 * File Path: `C:\ProgramData\Microsoft\VisualStudioSecondaryInstaller\14.0\installers\VSUV1PreReqV1_Hidden\en\0\VSUPrereq.exe`
 * Description: VSUPreReq
 * Comments: Microsoft Visual Studio 2015 Update Prerequisite
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5D5C7BD94CCE9DE7BC7D7F69683B5B5F`
@@ -15,6 +17,7 @@ SHA415 | `005EB5681ABA21D01901DCDE436C3836C87071A72D2D47BEF3F39E9D7A4E85FF150A58
 SSDEEP | `192:4EwbJzheN8s0Si1eq6LyKICgWiGWqYWYyieHaVWQ4SWNSfqnajTEV9YoZbiYMl+:4EgJzhG8s7i13TxWiGWdg6Zl5w+B+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:4EwbJzheN8s0Si1eq6LyKICgWiGWqYWYyieHaVWQ4SWNSfqnajTEV9YoZbiYMl+:4E
 * Product Version: 1.0.0.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

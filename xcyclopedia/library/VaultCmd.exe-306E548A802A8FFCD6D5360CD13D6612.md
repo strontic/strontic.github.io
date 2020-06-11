@@ -1,10 +1,12 @@
 ﻿
 # VaultCmd.exe 
+
 * File Path: `C:\Windows\system32\VaultCmd.exe`
 * Description: Vault cmdline Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `306E548A802A8FFCD6D5360CD13D6612`
@@ -15,6 +17,7 @@ SHA415 | `8B309B01B8FEA58823178B587332A72B1C62F6EA15D0814041B4510622C2A790B3CA99
 SSDEEP | `384:6HP+BIhjOAVnyluGSkhJrefbHjcN5GMuetruHIp7bYjAVkBNWYFW:EP7XVnyQGS08fbDcLGPeKo8jAqBZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Creates, displays and deletes stored credentials.
@@ -54,5 +57,7 @@ VaultCmd /sync
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # mtstocom.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\mtstocom.exe`
 * Description: COM+
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `19A5109213EF9A6EE2EF43EEE758CEF6`
@@ -15,6 +17,7 @@ SHA415 | `1089ABB3181B93CD31735563EF9C6E2519DBAADC628CD624A5F0C9BB1687458E70128F
 SSDEEP | `3072:/2CIqC/a+hKhEcEyer1iDEGkyqcfgB4XO9S0:/1ZC/xyer1dGkJcfgB4X4S0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:/2CIqC/a+hKhEcEyer1iDEGkyqcfgB4XO9S0:/1ZC/xyer1dGkJcfgB4X4S0`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

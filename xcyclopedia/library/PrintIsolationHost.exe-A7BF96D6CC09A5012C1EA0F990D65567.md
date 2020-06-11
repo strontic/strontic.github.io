@@ -1,10 +1,12 @@
 ﻿
 # PrintIsolationHost.exe 
+
 * File Path: `C:\Windows\system32\PrintIsolationHost.exe`
 * Description: PrintIsolationHost
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A7BF96D6CC09A5012C1EA0F990D65567`
@@ -15,6 +17,7 @@ SHA415 | `8406DC9CFD81669F4C16C5272E438C061FE200C0AA38F1064E21FEFBFB9356FACFCF46
 SSDEEP | `1536:EGUkAANziFZVt3A7HPd4n+lbeRZIbSQPT:fCA5iFZHQbPRyZ2pPT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:EGUkAANziFZVt3A7HPd4n+lbeRZIbSQPT:fCA5iFZHQbPRyZ2pPT`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

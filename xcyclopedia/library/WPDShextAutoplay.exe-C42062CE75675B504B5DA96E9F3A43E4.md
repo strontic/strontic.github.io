@@ -1,10 +1,12 @@
 ﻿
 # WPDShextAutoplay.exe 
+
 * File Path: `C:\WINDOWS\system32\WPDShextAutoplay.exe`
 * Description: Windows Portable Device Shell Extension Autoplay Handler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C42062CE75675B504B5DA96E9F3A43E4`
@@ -15,6 +17,7 @@ SHA415 | `F26AC50ADCE228F6C6908DC25CD3DF1C5BFB0497F7DCCF36845050AF96119F44DC2987
 SSDEEP | `768:BFyWuIZzk4N+O8j8SjdLFCl4JKOzlR488Uq2:xZzN3EjdL1JHU5h2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:BFyWuIZzk4N+O8j8SjdLFCl4JKOzlR488Uq2:xZzN3EjdL1JHU5h2`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

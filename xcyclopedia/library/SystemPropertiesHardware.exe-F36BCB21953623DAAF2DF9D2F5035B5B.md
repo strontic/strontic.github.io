@@ -1,10 +1,12 @@
 ﻿
 # SystemPropertiesHardware.exe 
+
 * File Path: `C:\WINDOWS\system32\SystemPropertiesHardware.exe`
 * Description: Hardware Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F36BCB21953623DAAF2DF9D2F5035B5B`
@@ -15,6 +17,7 @@ SHA415 | `F96F0DB9BB102D8158FBAEDA439C08058D4B9B2B0D1CF518C7B1A64E3495979B239127
 SSDEEP | `1536:M+ZrtREC/rMcgEPJV+G57ThjEC0kzJP+V5J6:xrzECTMpuDhjRVJGo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:M+ZrtREC/rMcgEPJV+G57ThjEC0kzJP+V5J6:xrzECTMpuDhjRVJGo`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

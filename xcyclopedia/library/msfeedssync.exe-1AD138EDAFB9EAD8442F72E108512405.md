@@ -1,10 +1,12 @@
 ﻿
 # msfeedssync.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\msfeedssync.exe`
 * Description: Microsoft Feeds Synchronization
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1AD138EDAFB9EAD8442F72E108512405`
@@ -15,6 +17,7 @@ SHA415 | `9AB1EB84E0DF5A5628F6383E5BE154E0D6D1E7626D73276E8ED2E2C937413415DF4E96
 SSDEEP | `192:KcLz8zPHJt6lzgj3tivDB4Fe/ix7h/Z7+rZDRM/2mwmopWcs0Wt:KW8jKzA3tiF4s/U/krZDC+p5pWcs0W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:KcLz8zPHJt6lzgj3tivDB4Fe/ix7h/Z7+rZDRM/2mwmopWcs0Wt:KW8jKzA3tiF4s/
 * Product Version: 11.00.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

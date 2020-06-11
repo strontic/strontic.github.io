@@ -1,10 +1,12 @@
 ﻿
 # directxdatabaseupdater.exe 
+
 * File Path: `C:\WINDOWS\system32\directxdatabaseupdater.exe`
 * Description: DirectX Database Updater
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `837334B79C27455DDEDAF1F6B926F5FD`
@@ -15,6 +17,7 @@ SHA415 | `5D0F5DDBDAD0F1156FF773C2635DB4371F3D59C3C193BE11489A77C727302C2D9DF6A8
 SSDEEP | `6144:DEfxm1cIOTb+WQuKha8YyHQlf8zEt07kn/pFBNO/:O0yIK3+aqHQN8zE3n/fBI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:DEfxm1cIOTb+WQuKha8YyHQlf8zEt07kn/pFBNO/:O0yIK3+aqHQN8zE3n/fBI`
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

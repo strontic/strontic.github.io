@@ -1,10 +1,12 @@
 ﻿
 # SpatialAudioLicenseSrv.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\SpatialAudioLicenseSrv.exe`
 * Description: Spatial License AppService Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `41187C75D46B386BFF798EB14C983006`
@@ -15,6 +17,7 @@ SHA415 | `2724BDC7A0D774C14D8C9CFDF30183CFE67D823033B5EC72003641C036C9EE44C6480B
 SSDEEP | `3072:Ps0vk4oXfXUVaNCzfq/ceR3vetxSJa02KhnQORN9PdjLmyWGHTgyrt:nWXfXUVaEjEckmtKhBQORJLmyWuEm`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Ps0vk4oXfXUVaNCzfq/ceR3vetxSJa02KhnQORN9PdjLmyWGHTgyrt:nWXfXUVaEj
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

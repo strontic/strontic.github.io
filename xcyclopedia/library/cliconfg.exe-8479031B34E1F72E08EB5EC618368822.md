@@ -1,10 +1,12 @@
 ﻿
 # cliconfg.exe 
+
 * File Path: `C:\Windows\SysWOW64\cliconfg.exe`
 * Description: SQL Client Configuration Utility EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8479031B34E1F72E08EB5EC618368822`
@@ -15,6 +17,7 @@ SHA415 | `998074580414EC757FF93C99248B14711A136782418C97A4A7370C49E32FA6FC5DD9C8
 SSDEEP | `384:aDfQx42X5iIDBrXIhWrwWlPXuNvBQAMYJQ2JQSkdowyoX:ibxqI6LuI30lJBkvT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:aDfQx42X5iIDBrXIhWrwWlPXuNvBQAMYJQ2JQSkdowyoX:ibxqI6LuI30lJBkvT`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

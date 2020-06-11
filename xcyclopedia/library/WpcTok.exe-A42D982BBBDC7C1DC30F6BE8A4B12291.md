@@ -1,10 +1,12 @@
 ﻿
 # WpcTok.exe 
+
 * File Path: `C:\WINDOWS\system32\WpcTok.exe`
 * Description: Family Safety Token Auth
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A42D982BBBDC7C1DC30F6BE8A4B12291`
@@ -15,6 +17,7 @@ SHA415 | `CC828FDD14B212AD35CF737A7938E17E0C1E2543DF669106EF66C0C3DBEA611F4C0C76
 SSDEEP | `6144:UI89m2gQJtoetvKS0kOgkrn+CtFwWGO/q:omHyPR1Of1AWGN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:UI89m2gQJtoetvKS0kOgkrn+CtFwWGO/q:omHyPR1Of1AWGN`
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

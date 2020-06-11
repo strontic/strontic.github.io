@@ -1,10 +1,12 @@
 ﻿
 # ApplicationFrameHost.exe 
+
 * File Path: `C:\Windows\system32\ApplicationFrameHost.exe`
 * Description: Application Frame Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `654D3D69623B9DD7AF410C360AB12136`
@@ -15,6 +17,7 @@ SHA415 | `97F180AD8A669F4C1371661CDB2BA17CCD6432A5A87350D8B7D3681A715F1F77955109
 SSDEEP | `768:x5QhpssSBRpXH769rXsAq9COl0DOg6LtseT2OwRX1PCarx:xwp3sXHI5O+DnCtsevwRlPnrx`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:x5QhpssSBRpXH769rXsAq9COl0DOg6LtseT2OwRX1PCarx:xwp3sXHI5O+DnCtsevw
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SynTPEnh.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\SynTPEnh.exe`
 * Description: Synaptics TouchPad 64-bit Enhancements
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AEBC1AFA26110E24B324B10FFD7D99D7`
@@ -15,6 +17,7 @@ SHA415 | `25BD5103575A201364239119CA543107DA88498202DD6E421B093D32DA3E4408C0E021
 SSDEEP | `49152:lBvL7wuV6xl2OwsymLXHLL6LMAIe65cSTsMxYjnuglmolVs:lBn1ylAmLXHv6LM3uMxYl0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:lBvL7wuV6xl2OwsymLXHLL6LMAIe65cSTsMxYjnuglmolVs:lBn1ylAmLXHv6LM3
 * Product Version: 19.3.31.31 16Aug17
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2017
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

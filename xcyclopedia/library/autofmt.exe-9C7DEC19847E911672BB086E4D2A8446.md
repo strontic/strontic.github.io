@@ -1,10 +1,12 @@
 ﻿
 # autofmt.exe 
+
 * File Path: `C:\Windows\SysWOW64\autofmt.exe`
 * Description: Auto File System Format Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9C7DEC19847E911672BB086E4D2A8446`
@@ -15,6 +17,7 @@ SHA415 | `A8AD5FECF9F20BF4D81E698A5EE46546A0DFDD5BC81A1F5ED87C5CC64F9B6B99F20F1D
 SSDEEP | `12288:PTLVkNNcemo4AKK4DK9TGiAejWi+EhMXEEIOFOxL9yNknsq5G1X:P+Nvmo4rKThMXEEIHL9ymsqg1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:PTLVkNNcemo4AKK4DK9TGiAejWi+EhMXEEIOFOxL9yNknsq5G1X:P+Nvmo4rKThM
 * Product Version: 10.0.14393.1532
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # unsecapp.exe 
+
 * File Path: `C:\Windows\system32\wbem\unsecapp.exe`
 * Description: Sink to receive asynchronous callbacks for WMI client application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2E49BB6C9F6599F518FE30BE2F000247`
@@ -15,6 +17,7 @@ SHA415 | `6CE443732A9FBCB928AF0CAD1BE7A60BBB2503004C582F09F586DE5591ED7115C60A20
 SSDEEP | `768:IIhcv/LC1nUcEGg5X93oVEpWv+wIvZDYbPq1BI4o78SDBIx+4eT/x+QPWPSVT:I6cOqcEVXaapWvhmWTq1BFO8S15VT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Cannot run standalone
@@ -46,5 +49,7 @@ Cannot run standalone
 * Product Version: 10.0.14393.2515
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

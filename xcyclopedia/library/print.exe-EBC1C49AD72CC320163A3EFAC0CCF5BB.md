@@ -1,10 +1,12 @@
 ﻿
 # print.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\print.exe`
 * Description: Print Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EBC1C49AD72CC320163A3EFAC0CCF5BB`
@@ -15,6 +17,7 @@ SHA415 | `15C59A27BADCBA74179302CF9EFE1A811175989151A0ED1635F8A394D9CD389DF42B9F
 SSDEEP | `192:Mq/n5s3ZO2SNxhavglQL/BRKupoDwliLlixtU3YtmYkVWuUW:Mq/5iLjKupZlWl8U0sVWuUW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Prints a text file.
@@ -51,5 +54,7 @@ PRINT [/D:device] [[drive:][path]filename[...]]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

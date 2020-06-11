@@ -1,10 +1,12 @@
 ﻿
 # IcsEntitlementHost.exe 
+
 * File Path: `C:\Windows\system32\IcsEntitlementHost.exe`
 * Description: ICS Entitlement Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E7F16BEB428C7D3A9DDFD562BF5C04E5`
@@ -15,6 +17,7 @@ SHA415 | `4BFE9107076C542949B79B084FE7ABA25C77BB083B9DEBCC48C3701EE928F63892D894
 SSDEEP | `384:r6VhHWwJlubdFZGMe9wjdBZNKrIwPqP1OQZJTsmrRsltbrWzEsdW:GVdWWuYMe9e2I4ssltyEs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:r6VhHWwJlubdFZGMe9wjdBZNKrIwPqP1OQZJTsmrRsltbrWzEsdW:GVdWWuYMe9e2I
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

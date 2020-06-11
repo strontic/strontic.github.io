@@ -1,10 +1,12 @@
 ﻿
 # vulkaninfo-x64.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\vulkaninfo-x64.exe`
 * Description: Vulkan Info
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CC2F1911FB22D8B0046E72E0391F127B`
@@ -15,6 +17,7 @@ SHA415 | `CEC4FF6BF82835A4AFD7AB679B6A7C96060E9C7916055E5887ADA25268CB9B4FE72020
 SSDEEP | `3072:n7ymPAuwHw+NoRdJCS4ouubj/gx0FYxdb776H8h1Frb97i:n7EuwHw+N4JCS4ot/E5j+l`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -62,5 +65,7 @@ OPTIONS:
 * Product Version: 1.1.82.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015-2018
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

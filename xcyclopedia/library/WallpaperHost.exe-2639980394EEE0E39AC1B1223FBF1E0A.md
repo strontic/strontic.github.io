@@ -1,10 +1,12 @@
 ﻿
 # WallpaperHost.exe 
+
 * File Path: `C:\Windows\system32\WallpaperHost.exe`
 * Description: Wallpaper Host Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2639980394EEE0E39AC1B1223FBF1E0A`
@@ -15,6 +17,7 @@ SHA415 | `BD9B02098185E2C20E0B280798CC8B4D54F7F8B9CA96134752C5740F7E0B111BF0E787
 SSDEEP | `384:utkFMXwAMKCwgPvC6Td8z1Q/zkDk0yWcPoBb0tiJL+G3diW4B7GcmEWKLFW:KkFMXxfgnCKyykY0yWcwd0oV3WB7Gcm6`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:utkFMXwAMKCwgPvC6Td8z1Q/zkDk0yWcPoBb0tiJL+G3diW4B7GcmEWKLFW:KkFMXx
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

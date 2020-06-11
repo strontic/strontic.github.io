@@ -1,10 +1,12 @@
 ﻿
 # ieUnatt.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\ieUnatt.exe`
 * Description: IE 7.0 Unattended Install Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B838BE2B7D5882D732CE074CA118F49B`
@@ -15,6 +17,7 @@ SHA415 | `02A48A93A4FB8BD0F870BBF2278CBE8A1FA07B8E7C892628AFB830BB21A560AEB2DDFD
 SSDEEP | `1536:fjTmdpPlmSHYzmuxcFPWk61oSW+LpeVYuBN/uG/loN+v0PmmPu8zWL:fuHJzf61oSW+LAVYAuG/l1MjPu8o`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:fjTmdpPlmSHYzmuxcFPWk61oSW+LpeVYuBN/uG/loN+v0PmmPu8zWL:fuHJzf61oS
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # WaaSMedicAgent.exe 
+
 * File Path: `C:\WINDOWS\system32\WaaSMedicAgent.exe`
 * Description: WaasMedic Agent Exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `62373D66B248DDB3932982D858DE1EE5`
@@ -15,6 +17,7 @@ SHA415 | `8263C5423D56A2A90AC785FB1D9EC3AFE9FBD1B7850DEDE17B1B03EFF1AE1F2A14EBBC
 SSDEEP | `1536:KtesTu/Vao2nqglpU51z8IyUtv3I5fg4BRUL1uv1a1soS/SdHEskO:Isb2nm52UR3I5fg4BRUpM2+/SdkskO`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:KtesTu/Vao2nqglpU51z8IyUtv3I5fg4BRUL1uv1a1soS/SdHEskO:Isb2nm52UR3
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # PrintBrmEngine.exe 
+
 * File Path: `C:\WINDOWS\system32\spool\tools\PrintBrmEngine.exe`
 * Description: PrintBrmEngine EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `50C182A13541D305C481423923D99DDD`
@@ -15,6 +17,7 @@ SHA415 | `2DB4BB051A5E06236146930CEE4688F761623CF5C29BCA62307337E56EF062BEA9D9A4
 SSDEEP | `6144:AQ2u8uIStqyiEsH+mPeHSvww1djmtYHKUc:t2uIwqVEOzPySX1dIsKU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:AQ2u8uIStqyiEsH+mPeHSvww1djmtYHKUc:t2uIwqVEOzPySX1dIsKU`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

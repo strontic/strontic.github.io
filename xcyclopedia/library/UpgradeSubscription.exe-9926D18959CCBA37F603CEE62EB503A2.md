@@ -1,10 +1,12 @@
 ﻿
 # UpgradeSubscription.exe 
+
 * File Path: `C:\WINDOWS\system32\UpgradeSubscription.exe`
 * Description: Windows Upgrade to Subscription tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9926D18959CCBA37F603CEE62EB503A2`
@@ -15,6 +17,7 @@ SHA415 | `10F744468A3A0C852B101A7C0DD50A54C55FDCA37EE2A91625F03C01DAF1054C538711
 SSDEEP | `1536:gL+gpXxpD7f0SjVzc0a6A1TkISXo7zroljY3TlTCas4qu9t0awb:gL+O7f0oVzKoo7z9l/sbu9yRb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:gL+gpXxpD7f0SjVzc0a6A1TkISXo7zroljY3TlTCas4qu9t0awb:gL+O7f0oVzKoo
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

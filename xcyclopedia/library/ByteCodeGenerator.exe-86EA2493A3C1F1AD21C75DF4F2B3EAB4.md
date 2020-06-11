@@ -1,10 +1,12 @@
 ﻿
 # ByteCodeGenerator.exe 
+
 * File Path: `C:\WINDOWS\system32\ByteCodeGenerator.exe`
 * Description: AppX Deployment Bytecode Generator EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `86EA2493A3C1F1AD21C75DF4F2B3EAB4`
@@ -15,6 +17,7 @@ SHA415 | `FD45EDA488C55A17E4DD8134D1F85BDF6761078B55A2B66FEDBA206CE7CC6785498931
 SSDEEP | `1536:e0tp2C+ECHbB1oI/SzyLXdUxvfZQFf/JTp:R+EeiIGyZUG/Jd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:e0tp2C+ECHbB1oI/SzyLXdUxvfZQFf/JTp:R+EeiIGyZUG/Jd`
 * Product Version: 10.0.18362.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

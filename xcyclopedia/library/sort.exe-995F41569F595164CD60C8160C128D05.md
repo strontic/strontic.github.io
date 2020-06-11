@@ -1,10 +1,12 @@
 ﻿
 # sort.exe 
+
 * File Path: `C:\Windows\SysWOW64\sort.exe`
 * Description: Sort Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `995F41569F595164CD60C8160C128D05`
@@ -15,6 +17,7 @@ SHA415 | `36D2D8F0F635B4C8585933E2E21613A300F1C8B9837F92D7889F51B8C0E3DEE29E16D0
 SSDEEP | `384:i0RnTyULFfjVsEI+4e+lMAw1WjHKXRfa7ZbHWjnWoYwc5:i0tZZsP+3+lMp1k1bwhc5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
@@ -102,5 +105,7 @@ perfmon.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

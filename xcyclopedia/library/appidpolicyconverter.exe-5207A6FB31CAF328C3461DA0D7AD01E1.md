@@ -1,10 +1,12 @@
 ﻿
 # appidpolicyconverter.exe 
+
 * File Path: `C:\Windows\system32\appidpolicyconverter.exe`
 * Description: AppID Policy Converter Task
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5207A6FB31CAF328C3461DA0D7AD01E1`
@@ -15,6 +17,7 @@ SHA415 | `45A0A6650600A9D992C14369AD5FF173C3C8C5618F3D1C1A0130DABA25D5D2A0BB4180
 SSDEEP | `3072:Z5i7J6W7X30gb8Z6Q3jT2Um1QVzeebBLN4VocqnwBg5RFuhBkCyN:ZkBn0gRb1yjbBZ4Vo0gbAhBkC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:Z5i7J6W7X30gb8Z6Q3jT2Um1QVzeebBLN4VocqnwBg5RFuhBkCyN:ZkBn0gRb1yjb
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

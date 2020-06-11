@@ -1,10 +1,12 @@
 ﻿
 # AdobeARM.exe 
+
 * File Path: `C:\ProgramData\Adobe\ARM\Acrobat_10.1.12\23913\AdobeARM.exe`
 * Description: Adobe Reader and Acrobat Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `07A37CB5C5A01E73FB69F138FAE2DB0E`
@@ -15,6 +17,7 @@ SHA415 | `89B8F7C32482436D78050063E4E2596B962AD26037FEE62EFE3295E4D2F247B5A6BE32
 SSDEEP | `12288:pdzFuqW7mmusNTu9An4SrnDPgM7yCNtON0eFd:pdzFuqUmS8SfyCN4+eFd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:pdzFuqW7mmusNTu9An4SrnDPgM7yCNtON0eFd:pdzFuqUmS8SfyCN4+eFd`
 * Product Version: 1.801.10.4720
 * Language: English (United States)
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # Setup.exe 
+
 * File Path: `C:\Windows\system32\oobe\Setup.exe`
 * Description: Windows Installation and Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8BBDBD0FA1F6AD661B85FC8A5BD3E2B3`
@@ -15,6 +17,7 @@ SHA415 | `F9706A280CCB54F57A3764BC797855CE2275E15C888041D86DD49323F81B9E4FF10B6C
 SSDEEP | `6144:yQkCRcNHLceEUQkAtEKbRsknK+zhQXJgzBU4GfFSc:yQkCONHLtEU6KtYagc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:yQkCRcNHLceEUQkAtEKbRsknK+zhQXJgzBU4GfFSc:yQkCONHLtEU6KtYagc`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

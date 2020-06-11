@@ -1,10 +1,12 @@
 ﻿
 # phoneactivate.exe 
+
 * File Path: `C:\Windows\system32\phoneactivate.exe`
 * Description: Phone Activation UI
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DADF857A0132D0795A52A576E35FED51`
@@ -15,6 +17,7 @@ SHA415 | `863C1FE896406318B261AF897BD2D83D67BBE15F591F33B71A5A556A636511BA394960
 SSDEEP | `1536:Bz2qdTHUFZjPchDTzJcS3r16z4n019VtJSBTCnG9ZDTNjGPI1:4qdYTcVlrDQtJ29ZDTkQ1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:Bz2qdTHUFZjPchDTzJcS3r16z4n019VtJSBTCnG9ZDTNjGPI1:4qdYTcVlrDQtJ29
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

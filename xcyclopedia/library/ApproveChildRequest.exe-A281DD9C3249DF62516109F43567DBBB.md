@@ -1,10 +1,12 @@
 ﻿
 # ApproveChildRequest.exe 
+
 * File Path: `C:\WINDOWS\system32\ApproveChildRequest.exe`
 * Description: Grant more screen time
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A281DD9C3249DF62516109F43567DBBB`
@@ -15,6 +17,7 @@ SHA415 | `54788F96AFD09245CD81F3AFBA82B23B66D57C29B545164A67FA2FDAAB55630D3FF162
 SSDEEP | `6144:kYCKCIBaBYq+fEG0z97a2nfRGKdDPDvV:pCIsYqCEGU9+cnjDt`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:kYCKCIBaBYq+fEG0z97a2nfRGKdDPDvV:pCIsYqCEGU9+cnjDt`
 * Product Version: 10.0.18362.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

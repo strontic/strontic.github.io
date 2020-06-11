@@ -1,10 +1,12 @@
 ﻿
 # typeperf.exe 
+
 * File Path: `C:\WINDOWS\system32\typeperf.exe`
 * Description: Command line performance monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0C25F8C87E72FB23C60646DBA70A6B50`
@@ -15,6 +17,7 @@ SHA415 | `8D8C654DA52EB0E87659156CBBC21A6D504E804E82329034222F7AF76637BD9C9B0118
 SSDEEP | `768:Fk7vbjdOeEMhDmPokX/3jtR+hs+yD8HzkTdcAfPkpnxqYioc7+DBOk1mMHroaXNs:oPXCbjD8TkT9PDYdckOkkEMaXNkfT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -91,5 +94,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

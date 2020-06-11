@@ -1,10 +1,12 @@
 ﻿
 # igfxCUIService.exe 
+
 * File Path: `C:\WINDOWS\system32\igfxCUIService.exe`
 * Description: igfxCUIService Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EAEF64907434CCE808BE12D1B0043E21`
@@ -15,6 +17,7 @@ SHA415 | `7592E50942FD2957716CE5F0ADD76B4D51C0F8C099FB0E69C23EF56BF62778D94D5592
 SSDEEP | `6144:/X67T/HNGxW4Cm7mQuT/F/1A2RKnXYRRSgEbJ4Y:/XcT/tG4+7m50YRR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:/X67T/HNGxW4Cm7mQuT/F/1A2RKnXYRRSgEbJ4Y:/XcT/tG4+7m50YRR`
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

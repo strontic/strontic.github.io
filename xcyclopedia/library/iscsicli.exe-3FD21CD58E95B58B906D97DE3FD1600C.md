@@ -1,10 +1,12 @@
 ﻿
 # iscsicli.exe 
+
 * File Path: `C:\WINDOWS\system32\iscsicli.exe`
 * Description: iSCSI Discovery tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3FD21CD58E95B58B906D97DE3FD1600C`
@@ -15,6 +17,7 @@ SHA415 | `5ED17599C756DF02D1C4F027BF8E197D572F23975F237FC10A7CE0273466C2B657819C
 SSDEEP | `1536:qKIgL6sXkrLXe5X3aNmq35RWKgY2MUGKYDXrQS:pL6sSu5KgYAGFbQS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:qKIgL6sXkrLXe5X3aNmq35RWKgY2MUGKYDXrQS:pL6sSu5KgYAGFbQS`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # appcmd.exe 
+
 * File Path: `C:\Windows\SysWOW64\inetsrv\appcmd.exe`
 * Description: Application Server Command Line Admin Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `78A4CCBAB7D1524FADED0C0D2F65F85A`
@@ -15,6 +17,7 @@ SHA415 | `0E022DE0FE279B6658471F20E985758DBE789C08E54E5FAA70F7A051D75FAB105B4484
 SSDEEP | `1536:PZiQ51RyAgHmpYVwO0vt647m0DLG32xZzB0we8lUvy8yUf8D:PZF3gHmpYVwR37NzB0we8lUvhfkD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 General purpose IIS command line administration tool.
@@ -93,5 +96,7 @@ like "/!debug:value" to set a config property named "debug".
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

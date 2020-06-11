@@ -1,10 +1,12 @@
 ﻿
 # nmbind.exe 
+
 * File Path: `C:\WINDOWS\system32\nmbind.exe`
 * Description: Hyper-V Network Core Bind Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4F9F573505E8E050D3194B282824BE27`
@@ -15,6 +17,7 @@ SHA415 | `E5589240DA7F95731B174C50415B852B8ED79F97A869D78FCBCE7C8AD8811A8781CED9
 SSDEEP | `3072:/4euIuc8dS/S6T69LGsC+QVwjckfbUUQscmaYoldhT6ByXIx6CFVQgB4k:Aqu7dcS6+QVw4UBbx6CDb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -58,5 +61,7 @@ Options:
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

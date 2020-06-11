@@ -1,10 +1,12 @@
 ﻿
 # igfxSDK.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxSDK.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `91EC77417E4FAA62BD8A8CFC78E3E61B`
@@ -15,6 +17,7 @@ SHA415 | `852DE68F62C61B2B1963F356806D5ACB7617AEBB1583A3F03FBF3BB80BD4C8C3A6CD31
 SSDEEP | `12288:k8wZR0bi/1/hYtJp17ONkcRP9r3lP0ekf1Z9/u49loV6BoqSewU7u:XiNkiTlrk5rlaUi`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:k8wZR0bi/1/hYtJp17ONkcRP9r3lP0ekf1Z9/u49loV6BoqSewU7u:XiNkiTlrk5
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

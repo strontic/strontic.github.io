@@ -1,10 +1,12 @@
 ﻿
 # SynMood.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\SynMood.exe`
 * Description: MoodPad
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `45DBD2973A4FC4BB17178B41EC88E25A`
@@ -15,6 +17,7 @@ SHA415 | `EB8CE874013B53FB642D81D6B449FC4128EBCDCDFE76A58A09605FF377CC20035183E9
 SSDEEP | `49152:4aP94MPghI/aw0h+uX7sIYxj8PjrDeN2ef6tU49KNO5ZSW99bGmIn3:4RSghI/aw0XsXj8brDeN2NbKNO5ZSW9s`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:4aP94MPghI/aw0h+uX7sIYxj8PjrDeN2ef6tU49KNO5ZSW99bGmIn3:4RSghI/aw
 * Product Version: 19.0.12.95 06Jul15
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2015
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

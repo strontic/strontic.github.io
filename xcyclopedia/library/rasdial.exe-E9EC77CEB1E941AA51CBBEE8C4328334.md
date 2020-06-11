@@ -1,10 +1,12 @@
 ﻿
 # rasdial.exe 
+
 * File Path: `C:\WINDOWS\system32\rasdial.exe`
 * Description: Remote Access Command Line Dial UI
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E9EC77CEB1E941AA51CBBEE8C4328334`
@@ -15,6 +17,7 @@ SHA415 | `ED917ADEE31200FB5E9D202CA931C787D060C2AC211F625B84A3A41209429BDDBD5593
 SSDEEP | `384:WSII9NhWmOm5XPuYb9ASn++hyUje+lRmLjR6LO9Kf+txVP9h96WWVW:WSrkmpuYbKF60ORaILUtLFh9i`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 USAGE:
@@ -57,5 +60,7 @@ USAGE:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

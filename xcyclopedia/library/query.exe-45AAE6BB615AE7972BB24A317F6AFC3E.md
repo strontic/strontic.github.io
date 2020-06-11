@@ -1,10 +1,12 @@
 ﻿
 # query.exe 
+
 * File Path: `C:\Windows\system32\query.exe`
 * Description: MultiUser Query Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `45AAE6BB615AE7972BB24A317F6AFC3E`
@@ -15,6 +17,7 @@ SHA415 | `E9644DCD3B8BAF0C5237AB1E997040776FA3BB7F9B8E38986E1502F3AD2DBA23DDA894
 SSDEEP | `192:k/P8qyttAW2/Ei8h9aPB/E/RJoqxx2+YcILhAvNsr+GXn1qmPQWa3W:k/P8qyUW2s9/fTD2T72vNsr+APQWa3W`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 QUERY { PROCESS | SESSION | TERMSERVER | USER }
@@ -48,5 +51,7 @@ QUERY { PROCESS | SESSION | TERMSERVER | USER }
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

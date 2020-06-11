@@ -1,10 +1,12 @@
 ﻿
 # MusNotification.exe 
+
 * File Path: `C:\Windows\system32\MusNotification.exe`
 * Description: MusNotificationBroker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A599DDEE2632DA3F870731844183F663`
@@ -15,6 +17,7 @@ SHA415 | `2E8D8652A4EF27EBE26320C954CD1D952965C6464868984F37BCC5F64190015DDCE66A
 SSDEEP | `6144:SWl+MekLddBepd6Mhbwb8PNaW64OgqGTEqs8sTAucn:SW42Ldgbws7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:SWl+MekLddBepd6Mhbwb8PNaW64OgqGTEqs8sTAucn:SW42Ldgbws7`
 * Product Version: 10.0.14393.3564
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

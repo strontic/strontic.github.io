@@ -1,10 +1,12 @@
 ﻿
 # FlashPlayerApp.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\FlashPlayerApp.exe`
 * Description: Adobe Flash Player Control Panel Applet
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6A54EEB33860B37DCE52149FE7F8713A`
@@ -15,6 +17,7 @@ SHA415 | `419C55642F9B1D3F228EA1547A99AEF64FC23D2E1698692D6799CF7C405DE787BA84F1
 SSDEEP | `12288:MB0z4tN/qGDb+DLUFoYkp6d1BtOkodxduog/TXJa/x82IErOJsLV/QtOM4:SCA+OoJuog/TXJmxOgIu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:MB0z4tN/qGDb+DLUFoYkp6d1BtOkodxduog/TXJa/x82IErOJsLV/QtOM4:SCA+O
 * Product Version: 32,0,0,330
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 Adobe. All Rights Reserved. Adobe and Flash are either trademarks or registered trademarks in the United States and/or other countries.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

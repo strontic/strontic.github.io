@@ -1,10 +1,12 @@
 ﻿
 # hcsdiag.exe 
+
 * File Path: `C:\WINDOWS\system32\hcsdiag.exe`
 * Description: Hyper-V Host Compute Service Diagnostics Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7ECBAFFBA8F3D816FC1F04C8AE91451F`
@@ -15,6 +17,7 @@ SHA415 | `FA06DC906835D9F39CD76D680488FF2AB6C0168CB15B9AB09C3A2ABF158EF71370AE41
 SSDEEP | `6144:WzrrbHubsHAjOccJSgz01ELJpKY07ua4ncfVirOuWqEajNC/qx:2buWAyccccKY07ua4nc0ORqdg/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -76,5 +79,7 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

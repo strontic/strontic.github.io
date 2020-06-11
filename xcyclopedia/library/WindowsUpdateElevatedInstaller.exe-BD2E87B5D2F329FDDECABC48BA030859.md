@@ -1,10 +1,12 @@
 ﻿
 # WindowsUpdateElevatedInstaller.exe 
+
 * File Path: `C:\WINDOWS\system32\WindowsUpdateElevatedInstaller.exe`
 * Description: WindowsUpdateElevatedInstaller
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BD2E87B5D2F329FDDECABC48BA030859`
@@ -15,6 +17,7 @@ SHA415 | `14B68AF798FB1AA5C2048E627BC866F4B0B44E0DF65413036D37E82E6B9694ECE9D84C
 SSDEEP | `768:+oZU+dzAFzSH7F1bCWPgUV6PLfJwkTiogaVEqvbqU9gFVDBo1whfVmPNMY9g:bSczAGJg/wiioRVFbqU9gFjmwhfVUMYq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:+oZU+dzAFzSH7F1bCWPgUV6PLfJwkTiogaVEqvbqU9gFVDBo1whfVmPNMY9g:bSczA
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

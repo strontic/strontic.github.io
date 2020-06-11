@@ -1,10 +1,12 @@
 ﻿
 # UserOOBEBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\oobe\UserOOBEBroker.exe`
 * Description: User OOBE Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D68C90CAC3EA2647642C076385439AAF`
@@ -15,6 +17,7 @@ SHA415 | `17476E31DC840EF69A5B0E38ADEC417F4DC9B501D74D4CD63BD2E3AFF4D5103783F6AE
 SSDEEP | `1536:iE85UpE/0bf67aMxlhbkhTTLQGhDGy+jHu/28eyX4bpV:7i8PMxldkvf+jO/2uXm`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:iE85UpE/0bf67aMxlhbkhTTLQGhDGy+jHu/28eyX4bpV:7i8PMxldkvf+jO/2uXm`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

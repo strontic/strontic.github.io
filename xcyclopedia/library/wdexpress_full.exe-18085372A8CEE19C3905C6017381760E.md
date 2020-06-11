@@ -1,10 +1,12 @@
 ﻿
 # wdexpress_full.exe 
+
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\wdexpress_full.exe`
 * Description: Microsoft Visual Studio Express 2015 for Windows Desktop - ENU
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `18085372A8CEE19C3905C6017381760E`
@@ -15,6 +17,7 @@ SHA415 | `3279DCE83073470EB5AA3DDD0EB5EFAE18900327407D21E752E26B1DF493C7A179160E
 SSDEEP | `49152:KFNxi7/ums6UA7xhdvRnGWMpL4susHB2CzSC+GZ/q2QplreA8Dt:KFjuldvRGPb7UCzSCbRy9V8Dt`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:KFNxi7/ums6UA7xhdvRnGWMpL4susHB2CzSC+GZ/q2QplreA8Dt:KFjuldvRGPb7
 * Product Version: 14.0.23107.156
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

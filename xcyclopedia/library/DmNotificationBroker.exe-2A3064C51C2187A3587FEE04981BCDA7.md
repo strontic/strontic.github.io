@@ -1,10 +1,12 @@
 ﻿
 # DmNotificationBroker.exe 
+
 * File Path: `C:\Windows\system32\DmNotificationBroker.exe`
 * Description: DmNotificationBroker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2A3064C51C2187A3587FEE04981BCDA7`
@@ -15,6 +17,7 @@ SHA415 | `EB8DF7D07B5E2D292747A735F4F52FA805F5DB460405CB3BE2ECB93522FA4C19DFE373
 SSDEEP | `768:9wg2XXdIn24Dzfvv+lj4dhkMl0n5KxxZCs:SNIn24v3v+6diM+n0XZCs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:9wg2XXdIn24Dzfvv+lj4dhkMl0n5KxxZCs:SNIn24v3v+6diM+n0XZCs`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

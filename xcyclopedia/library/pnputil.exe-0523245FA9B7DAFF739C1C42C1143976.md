@@ -1,10 +1,12 @@
 ﻿
 # pnputil.exe 
+
 * File Path: `C:\Windows\system32\pnputil.exe`
 * Description: Microsoft PnP Utility - Tool to add, delete, export, and enumerate driver packages.
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0523245FA9B7DAFF739C1C42C1143976`
@@ -15,6 +17,7 @@ SHA415 | `C3CB23AC0C8F5DB03E82E78B7D7DA8DE134729D5F3DFE6CD9CC8CE82602E247EFB1652
 SSDEEP | `3072:0NW1s+CH73jzcN0VF87uLdqsLFuxV8tNcGTptemDEi6Khwayrn:K4s+Cb3V87uLUTuNnZ6c`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft PnP Utility
@@ -92,5 +95,7 @@ Examples:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

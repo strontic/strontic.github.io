@@ -1,10 +1,12 @@
 ﻿
 # DismHost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\Dism\DismHost.exe`
 * Description: Dism Host Servicing Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C03E96B1D6BF156F67BA119843B3A09`
@@ -15,6 +17,7 @@ SHA415 | `E84DD0003FCD8ED5722980A210642967F2B6ECB2325D2342B7234816F526EC4EB046D6
 SSDEEP | `1536:fB8PziSvy9mKtADr+bL01nzkBifwG/oov+szRTG/Y5HX/LRsLRY32/groXmpPc:fBovy2dxwUfJrmszZG/Y5z+O32IroWk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:fB8PziSvy9mKtADr+bL01nzkBifwG/oov+szRTG/Y5HX/LRsLRY32/groXmpPc:fB
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

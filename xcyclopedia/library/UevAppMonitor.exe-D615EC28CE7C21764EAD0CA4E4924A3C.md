@@ -1,10 +1,12 @@
 ﻿
 # UevAppMonitor.exe 
+
 * File Path: `C:\Windows\system32\UevAppMonitor.exe`
 * Description:  
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D615EC28CE7C21764EAD0CA4E4924A3C`
@@ -15,6 +17,7 @@ SHA415 | `A6AA0361D6589698DE1AEA2A376ED524C620BF5534276BB7568BDB553F33D29FE7F8EC
 SSDEEP | `768:HTKezpTF+wsijB91slxN+u996swwiKEtycTY5lkQ7Vy9ylDXu:GezL191szN++6NwiKE10DjlK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:HTKezpTF+wsijB91slxN+u996swwiKEtycTY5lkQ7Vy9ylDXu:GezL191szN++6Nwi
 * Product Version: 10.0.14393.2828
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

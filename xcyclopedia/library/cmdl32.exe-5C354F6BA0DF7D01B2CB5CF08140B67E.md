@@ -1,10 +1,12 @@
 ﻿
 # cmdl32.exe 
+
 * File Path: `C:\Windows\SysWOW64\cmdl32.exe`
 * Description: Microsoft Connection Manager Auto-Download
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C354F6BA0DF7D01B2CB5CF08140B67E`
@@ -15,6 +17,7 @@ SHA415 | `FCE9A292FE574BFAB3C957A053D8AA6C0FCD0B29AF72DC345E563B9E66895977C8DAA9
 SSDEEP | `768:D4TqHPEiucKt9XCUdfFPbeLi1VsODF3QU7e2Yc58PlUNyvNy9PcuIDxEp:D4T+PEJcKt9XdFBVfr7d8eCJuIDK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:D4TqHPEiucKt9XCUdfFPbeLi1VsODF3QU7e2Yc58PlUNyvNy9PcuIDxEp:D4T+PEJc
 * Product Version: 7.2.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

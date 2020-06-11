@@ -1,10 +1,12 @@
 ﻿
 # rdpclip.exe 
+
 * File Path: `C:\Windows\system32\rdpclip.exe`
 * Description: RDP Clipboard Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D887E718FB0F4C99B9F01C5BD59F8B90`
@@ -15,6 +17,7 @@ SHA415 | `0BBADDCF0A208228F5876A5BF5DDFAD6F7C472D637E00C0AD636D0F49616249A5CB2FA
 SSDEEP | `12288:/9AysJajZlBVobhyvz9Oh8KunUnz9hg+ZJuKy3wGrxrkqobbNYz:/+ysJ+3BVobsvz9Oh8KunUnz9L3uFJru`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:/9AysJajZlBVobhyvz9Oh8KunUnz9hg+ZJuKy3wGrxrkqobbNYz:/+ysJ+3BVobs
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

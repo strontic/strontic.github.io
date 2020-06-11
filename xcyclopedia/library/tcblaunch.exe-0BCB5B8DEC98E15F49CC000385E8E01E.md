@@ -1,10 +1,12 @@
 ﻿
 # tcblaunch.exe 
+
 * File Path: `C:\WINDOWS\system32\tcblaunch.exe`
 * Description: TCB Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0BCB5B8DEC98E15F49CC000385E8E01E`
@@ -15,6 +17,7 @@ SHA415 | `7F5568AFAEEC3705D3B2B87C646BD9366FAB646F53C0B2D1B98B0EFBD957EF37DB2A60
 SSDEEP | `12288:D16JqsiP1wupRaxznLtq3lUfToyMEdeSjO1/A+mLfWGTI:56JcPyURaNnLklyXeSjONA+mC3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:D16JqsiP1wupRaxznLtq3lUfToyMEdeSjO1/A+mLfWGTI:56JcPyURaNnLklyXeS
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

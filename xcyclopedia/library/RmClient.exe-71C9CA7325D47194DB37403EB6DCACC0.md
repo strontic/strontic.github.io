@@ -1,10 +1,12 @@
 ﻿
 # RmClient.exe 
+
 * File Path: `C:\Windows\SysWOW64\RmClient.exe`
 * Description: Restart Manager LUA Restart Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `71C9CA7325D47194DB37403EB6DCACC0`
@@ -15,6 +17,7 @@ SHA415 | `C4A57E928ADEEAE04AC4F33B41378BC3D4DFCB2E9E09EDFCA298450D90E544289D9EF9
 SSDEEP | `384:NFZRll0KfWFKcqXug/q2shXWHzWfrVf4:1Rll9WgcFhkoA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -49,5 +52,7 @@ SSDEEP | `384:NFZRll0KfWFKcqXug/q2shXWHzWfrVf4:1Rll9WgcFhkoA`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

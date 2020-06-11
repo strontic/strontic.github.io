@@ -1,10 +1,12 @@
 ﻿
 # BRALB30.EXE 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\brpri15c.inf_amd64_0690de4775ab2976\amd64\BRALB30.EXE`
 * Description: Printer Driver Application Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `73A2D1EBED8C96A062ED7057E382660A`
@@ -15,6 +17,7 @@ SHA415 | `1D16208F7C9BEFF8843AD3A676A5DBD6D025F713E0BC075ABDDDAE4E9BCBB972700539
 SSDEEP | `1536:uKy4sXACmpI/jdhFTcpvTHLE/5pXr5kdzgzX7iL:BynYGjnFYpvTHwx95cUzX7iL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:uKy4sXACmpI/jdhFTcpvTHLE/5pXr5kdzgzX7iL:BynYGjnFYpvTHwx95cUzX7iL`
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: (C) 2013 Brother Industries, Ltd. All Rights Reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

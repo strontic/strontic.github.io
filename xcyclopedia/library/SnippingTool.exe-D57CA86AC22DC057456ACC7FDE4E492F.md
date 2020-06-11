@@ -1,10 +1,12 @@
 ﻿
 # SnippingTool.exe 
+
 * File Path: `C:\WINDOWS\system32\SnippingTool.exe`
 * Description: Snipping Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D57CA86AC22DC057456ACC7FDE4E492F`
@@ -15,6 +17,7 @@ SHA415 | `C0C1145E229D73B939DF48B69F7EFF80EA3CABB82923492726923B7B5CB2BC6B11871C
 SSDEEP | `98304:WL6slxL4TsqaA2SRmXUrymuXB2rmaOOaCa2PKCZZNRwtPV3Oy:WL6svDqaA2SRmXUrymuXB2rmaOOaCa2Q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `98304:WL6slxL4TsqaA2SRmXUrymuXB2rmaOOaCa2PKCZZNRwtPV3Oy:WL6svDqaA2SRmX
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

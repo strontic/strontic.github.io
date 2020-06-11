@@ -1,10 +1,12 @@
 ﻿
 # whoami.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\whoami.exe`
 * Description: whoami - displays logged on user information
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `311EFED1B6336ED8DC5471FE58C88CB5`
@@ -15,6 +17,7 @@ SHA415 | `7CAE8E0CA29B21ED29033B58A075AD9FE5A7A2331196C17E4A34DE1F40287FEF16D63D
 SSDEEP | `1536:it/GOnLQsPrbAXLE7bYfnK1lWlVI4ih6oQyINs7c6dwOxL5J9k:cLPYfnyWE4imNs7c6dwOxtJ9k`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -125,5 +128,7 @@ Type "WHOAMI /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

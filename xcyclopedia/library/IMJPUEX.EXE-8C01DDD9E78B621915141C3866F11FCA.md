@@ -1,10 +1,12 @@
 ﻿
 # IMJPUEX.EXE 
+
 * File Path: `C:\WINDOWS\system32\IME\IMEJP\IMJPUEX.EXE`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8C01DDD9E78B621915141C3866F11FCA`
@@ -15,6 +17,7 @@ SHA415 | `C95D77A5BACF5C03233901F96A1084296B675DAA570B5802AB41A07B314D5542B5554C
 SSDEEP | `1536:hM9wQdmoGjRSOqnoqGSA+oVu6cRi8MCcYH67nIWDK2NLPcr:/wGXz+oYLRi8MtYH67IkK2NLPcr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:hM9wQdmoGjRSOqnoqGSA+oVu6cRi8MCcYH67nIWDK2NLPcr:/wGXz+oYLRi8MtYH6
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

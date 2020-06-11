@@ -1,10 +1,12 @@
 ﻿
 # OneDriveSetup.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\OneDriveSetup.exe`
 * Description: Microsoft OneDrive Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1941AED7D47CA3A8DA33D98B6D877E88`
@@ -15,6 +17,7 @@ SHA415 | `159D0F8A8ECFD4E95174326DB607A2FFCC77F1DDE376022E5D1A9C3FF9DEA5D1E18C1E
 SSDEEP | `786432:9i5ecJ5QH6G5hH/g4vx9w5rTc/it1G80kvKv9NwzdvSgHWW:9itJG9PHY4vHw5GiW80kvKv9NwZvSgB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ OneDriveSetup.exe
 * Product Version: 19.002.0107.0005
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

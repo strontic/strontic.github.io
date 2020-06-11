@@ -1,10 +1,12 @@
 ﻿
 # logman.exe 
+
 * File Path: `C:\WINDOWS\system32\logman.exe`
 * Description: Performance Log Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `04C731A807ECBE033F8811A0883B8450`
@@ -15,6 +17,7 @@ SHA415 | `05B4C4247D721263C0505BA78A5EA838399D1F021EDF172B6C47DF74D1A29DB4512B46
 SSDEEP | `1536:bRsHmrJwBZk8ffyo5k+HSoMr+sgPvUj7mCqVn1brmHuYbwvE6K/2naCXoM:OGS/JHmLlj73uZxaF6K+na+h`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -188,5 +191,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

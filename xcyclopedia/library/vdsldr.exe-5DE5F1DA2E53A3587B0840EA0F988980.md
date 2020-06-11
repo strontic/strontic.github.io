@@ -1,10 +1,12 @@
 ﻿
 # vdsldr.exe 
+
 * File Path: `C:\WINDOWS\system32\vdsldr.exe`
 * Description: Virtual Disk Service Loader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5DE5F1DA2E53A3587B0840EA0F988980`
@@ -15,6 +17,7 @@ SHA415 | `01BA41E8F43670E94D5A24E61E56F43552FAF82D8B76E322C8EFA98203402EBC308EE2
 SSDEEP | `384:aOTexdJzCTFzy/2gKS9CGJfq4wHn9dFVQ31JFQ7V0fWLJ+zg/1zzWr+Wg4E:aFzCTAugKUB5q4wHx6d20OLJyg/1zkA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:aOTexdJzCTFzy/2gKS9CGJfq4wHn9dFVQ31JFQ7V0fWLJ+zg/1zzWr+Wg4E:aFzCTA
 * Product Version: 10.0.18362.267
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # hvsiproxyapp.exe 
+
 * File Path: `C:\WINDOWS\system32\hvsiproxyapp.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AFB055FCCEBE0E11FB2F94833BF21E0B`
@@ -15,6 +17,7 @@ SHA415 | `55AE8A72877D1B9CC011A3D6A4F35320E30AE35CB12B7B56250283526B429548A84C2B
 SSDEEP | `768:r4qDjPpbZpzwOV5gTOFI92T+TxZg5Ulcognow/77hEZbkYPTQ+w6UeWTH:kqxZNwqfHf1ognounhOwmQ+wmWTH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:r4qDjPpbZpzwOV5gTOFI92T+TxZg5Ulcognow/77hEZbkYPTQ+w6UeWTH:kqxZNwqf
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

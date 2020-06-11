@@ -1,10 +1,12 @@
 ﻿
 # wecutil.exe 
+
 * File Path: `C:\Windows\system32\wecutil.exe`
 * Description: Event Collector Command Line Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `79DB4E860724467CAD0D448B34ED9648`
@@ -15,6 +17,7 @@ SHA415 | `F34EF54E6E64541824978784032A0DA52937DD3D7A8646EED01BA3E530029A458BB2F3
 SSDEEP | `1536:Sv88yHaViIRG/ekIGuQoeVMFiDkVvXCObkF/6m7VOc85DfzRVEK3sX2Q:Sv81+SWOuzeaFAIXFb+6EON5DfVVEWI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Windows Event Collector Utility
@@ -83,5 +86,7 @@ The parameter is incorrect.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

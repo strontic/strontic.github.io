@@ -1,10 +1,12 @@
 ﻿
 # LocationNotificationWindows.exe 
+
 * File Path: `C:\Windows\system32\LocationNotificationWindows.exe`
 * Description: Location Notification
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5313F9A0C940970D5491E00C19EF074C`
@@ -15,6 +17,7 @@ SHA415 | `A765B5440630BF14C1E11ADA5127E15A0E2E06CAD120B44A5E9806BCF4EA2F70BBDC74
 SSDEEP | `1536:AGiirUZv/AsPfwmFGaHp8ZYBOA/wb0vBRwOKGpL:AGiXVfwpaJ8Zu/wb0ZRwwpL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:AGiirUZv/AsPfwmFGaHp8ZYBOA/wb0vBRwOKGpL:AGiXVfwpaJ8Zu/wb0ZRwwpL`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # fodhelper.exe 
+
 * File Path: `C:\Windows\system32\fodhelper.exe`
 * Description: Features On Demand Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4679A1966AABBF229FEC12E3D7A323BD`
@@ -15,6 +17,7 @@ SHA415 | `B24AA37FBF9FE3FECA838BB9389A2B1FD3873E27C9D4A378509C9C40E73DD0475EDA8C
 SSDEEP | `768:Mvj4V4fDopm6nh9b/wnbuqLI+2d+czaMl/+X17GS7Nrj0ppJPG8a:k4V2yL1qLIVdrBQXpGS9j+PG5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Mvj4V4fDopm6nh9b/wnbuqLI+2d+czaMl/+X17GS7Nrj0ppJPG8a:k4V2yL1qLIVdr
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # FsIso.exe 
+
 * File Path: `C:\WINDOWS\system32\FsIso.exe`
 * Description: Secure Frame Server Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `412EA0122D864A7185D798832DBAFEE4`
@@ -15,6 +17,7 @@ SHA415 | `227780B6203CC458840E0EED6BA1080B49B85F40B0BAA91BDEBB301D9DEBABD116DD44
 SSDEEP | `1536:/PX7mv94+Ie9AZhaDtAAbeNzHHO2LwgYTcOsr3u9DxNJ8dr+WEPaR:Hr+4+IeohaDt3eNzHHVwgYTWe9DF5rk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:/PX7mv94+Ie9AZhaDtAAbeNzHHO2LwgYTcOsr3u9DxNJ8dr+WEPaR:Hr+4+IeohaD
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

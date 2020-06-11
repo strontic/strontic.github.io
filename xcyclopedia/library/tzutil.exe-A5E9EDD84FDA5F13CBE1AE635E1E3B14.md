@@ -1,10 +1,12 @@
 ﻿
 # tzutil.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\tzutil.exe`
 * Description: Windows Time Zone Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A5E9EDD84FDA5F13CBE1AE635E1E3B14`
@@ -15,6 +17,7 @@ SHA415 | `42678253E796B51E233231FB41B80614F328899DFA2B7FE218520CC59CDF8E3E43890D
 SSDEEP | `768:hiMwpD1KHjiPg7wsjjdmN2JcII4WUvT3IR8VWyup:hupDIHeo7wewYc9GcKVWyup`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Windows Time Zone Utility
@@ -72,5 +75,7 @@ Remarks:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # odbcad32.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\odbcad32.exe`
 * Description: ODBC Administrator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `39F4994EFCF25880A7CE77B620C27676`
@@ -15,6 +17,7 @@ SHA415 | `399DF78083AAAB1E2E1B8B45F63B9682ED71A1DEC2253B8AE66D0495A6394B92E3C3EA
 SSDEEP | `1536:VjaDytv3Jrz6q9EyYt9FlUIlbvBjIloW:VjaUUKI9jo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:VjaDytv3Jrz6q9EyYt9FlUIlbvBjIloW:VjaUUKI9jo`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

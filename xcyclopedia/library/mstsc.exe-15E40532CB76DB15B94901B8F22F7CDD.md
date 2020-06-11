@@ -1,10 +1,12 @@
 ﻿
 # mstsc.exe 
+
 * File Path: `C:\Windows\system32\mstsc.exe`
 * Description: Remote Desktop Connection
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `15E40532CB76DB15B94901B8F22F7CDD`
@@ -15,6 +17,7 @@ SHA415 | `A428C6D26184E93C84AD3FB7EA52064AD126B9A0BA49B867CE9634B1CC9F5368460864
 SSDEEP | `98304:1wmZMEPXNi7qBGc0q50XT39ehY/BfZGoO0tpbEJ33lxMg:1wmZMEPXNi7qBP0q50XT39ehY/BfZGoG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `98304:1wmZMEPXNi7qBGc0q50XT39ehY/BfZGoO0tpbEJ33lxMg:1wmZMEPXNi7qBP0q50
 * Product Version: 10.0.14393.1358
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

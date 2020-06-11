@@ -1,10 +1,12 @@
 ﻿
 # drvinst.exe 
+
 * File Path: `C:\Windows\system32\drvinst.exe`
 * Description: Driver Installation Module
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `188CE3916E9FD3D123F38F01F8F8B93C`
@@ -15,6 +17,7 @@ SHA415 | `6553BD32D33CA3D77DF4A1E6E17E12A4A42EEB3BBF3D642FEABD367508D65721EB802B
 SSDEEP | `3072:ibFtPkdahbAIdY1LdxggXlQYUw/pf1YVI9L50b9yoHO5T4ucsiR:6jkda/Y1RmoUMtOrkLT4ux`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:ibFtPkdahbAIdY1LdxggXlQYUw/pf1YVI9L50b9yoHO5T4ucsiR:6jkda/Y1RmoUM
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

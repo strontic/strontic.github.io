@@ -1,10 +1,12 @@
 ﻿
 # lxdncfgx.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\common\lxdncfgx.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `49E1240196BAA68E6D6D1A12594881DD`
@@ -15,6 +17,7 @@ SHA415 | `2636AB4767A4D69E60EF0E5B13BA40461D4E7120E81E5B9ED1AB09A586864D744DF4C4
 SSDEEP | `3072:RSNeVGdB9MvMfudf2DnDOug33J5G4HewDCFdFns:RSNeVOVudfknqugnnGwDCds`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft (R) Diamond Extraction Tool - Version (32) 1.00.0601 (03/18/97)
@@ -67,5 +70,7 @@ EXTRACT [/Y] /C source destination
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # upnpcont.exe 
+
 * File Path: `C:\Windows\SysWOW64\upnpcont.exe`
 * Description: UPnP Device Host Container
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `570A5D1292074F1A29A1BD9C3F2E6384`
@@ -15,6 +17,7 @@ SHA415 | `518D85E632414E5A246626F6D32CBAAAB567A2B666A56C3CCEC68EF173DAF1CDDDFCEA
 SSDEEP | `768:oozuCyXfaIV0QCZFhR125RjJqTOMrMUhHE:hyCcfT820TOMr3`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:oozuCyXfaIV0QCZFhR125RjJqTOMrMUhHE:hyCcfT820TOMr3`
 * Product Version: 10.0.14393.3321
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

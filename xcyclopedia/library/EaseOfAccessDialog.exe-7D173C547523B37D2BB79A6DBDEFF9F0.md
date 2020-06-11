@@ -1,10 +1,12 @@
 ﻿
 # EaseOfAccessDialog.exe 
+
 * File Path: `C:\WINDOWS\system32\EaseOfAccessDialog.exe`
 * Description: Ease of Access Dialog Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7D173C547523B37D2BB79A6DBDEFF9F0`
@@ -15,6 +17,7 @@ SHA415 | `6C9FC29E2E3A0D45F48705E5675254FF7978614C5683C73C51C4745794924218F540FF
 SSDEEP | `1536:yi+1oLjBFRtzUpMeuLhzwlh46faS7w50/u7K8iKZYT1hoKUHjgnsWaiT:yi702LZwnyS7ru7KCchLUHjm7N`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:yi+1oLjBFRtzUpMeuLhzwlh46faS7w50/u7K8iKZYT1hoKUHjgnsWaiT:yi702LZw
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

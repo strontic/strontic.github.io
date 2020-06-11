@@ -1,10 +1,12 @@
 ﻿
 # dstokenclean.exe 
+
 * File Path: `C:\WINDOWS\system32\dstokenclean.exe`
 * Description: Data Sharing Service Maintenance Driver
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `20557E03CA22AED1B0CDA80CFF2A0C1D`
@@ -15,6 +17,7 @@ SHA415 | `7D6B1537CE9F3AB7A60D1352950189E68B5EE0085EA03F29DDCE92F537CA1A126D2862
 SSDEEP | `192:5VhA1C19DpWWxDvuqri9Efwz9GNYGt7WdoXlV2A4sDWsEW:5j8gxpb1Wq0xwCq7W6VXDWsEW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:5VhA1C19DpWWxDvuqri9Efwz9GNYGt7WdoXlV2A4sDWsEW:5j8gxpb1Wq0xwCq7W6V
 * Product Version: 10.0.18362.657
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

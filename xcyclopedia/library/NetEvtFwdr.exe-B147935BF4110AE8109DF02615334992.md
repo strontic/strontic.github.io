@@ -1,10 +1,12 @@
 ﻿
 # NetEvtFwdr.exe 
+
 * File Path: `C:\Windows\system32\NetEvtFwdr.exe`
 * Description: Event Forwarder
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B147935BF4110AE8109DF02615334992`
@@ -15,6 +17,7 @@ SHA415 | `8FF94A3C64165775A0280E50F27936E0477730F8AB8685E22293F8B35E1FB01E2AB601
 SSDEEP | `768:z9gabaMs1I49GiE6SQSzEZFkSTeZIW9H+YjsXcblKhc5udRQOQ2DT045ud0kFlk1:hzBCB0ijSQ4Y8lKcAdRQOQ2DxAekF6VD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:z9gabaMs1I49GiE6SQSzEZFkSTeZIW9H+YjsXcblKhc5udRQOQ2DT045ud0kFlk1:h
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

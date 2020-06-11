@@ -1,10 +1,12 @@
 ﻿
 # WmiApSrv.exe 
+
 * File Path: `C:\WINDOWS\system32\wbem\WmiApSrv.exe`
 * Description: WMI Performance Reverse Adapter
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `72260CE9438A7A9A8A5BA101EDA4D6BD`
@@ -15,6 +17,7 @@ SHA415 | `F671504C6824CF222BE5E3C7BB409B887176ECC6EC9D0A4D886F065345B76233DE79C7
 SSDEEP | `3072:yVuG1JcDtqbSZczNZaPT/VxACI7J02rnY3F3uU+75jX1oAp48ZFRvCcw:jGetqbSZczvkjV+PN/nMajXiAW8PRvC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:yVuG1JcDtqbSZczNZaPT/VxACI7J02rnY3F3uU+75jX1oAp48ZFRvCcw:jGetqbSZ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

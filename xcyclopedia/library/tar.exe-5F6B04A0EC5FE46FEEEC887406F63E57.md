@@ -1,10 +1,12 @@
 ﻿
 # tar.exe 
+
 * File Path: `C:\WINDOWS\system32\tar.exe`
 * Description: bsdtar archive tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5F6B04A0EC5FE46FEEEC887406F63E57`
@@ -15,6 +17,7 @@ SHA415 | `86FF05413B95426061CE320B391DD803D8A02875A4CD3643C160D39FFD92343E3BDE6A
 SSDEEP | `768:fCrAYUa+A8vnKWEkZW2eFrAjgLdjH0g3DoSaFmWDY58cijGfyrj4M7J5Spxdz+B8:6kYUa+/QIdeVAM9U0J75knH4MLSp7G8`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -50,5 +53,7 @@ Usage:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) libarchive authors
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # FXSCOVER.exe 
+
 * File Path: `C:\WINDOWS\system32\FXSCOVER.exe`
 * Description: Microsoft  Fax Cover Page Editor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `59EBDB360E375A9ABCD6B783D5021ED3`
@@ -15,6 +17,7 @@ SHA415 | `1696D6E456DE04956BF69ED4256527D56F45676B88FBB5AA906D85D3B630248C4B16D1
 SSDEEP | `6144:lHCSyxsUIK4RDa2xCsDg4B88udMDORE/:lHWxs9KmFNB88uNE/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:lHCSyxsUIK4RDa2xCsDg4B88udMDORE/:lHWxs9KmFNB88uNE/`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

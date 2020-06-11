@@ -1,10 +1,12 @@
 ﻿
 # WWAHost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\WWAHost.exe`
 * Description: Microsoft WWA Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1351E05280B0404F890C6DE47B8F0CCC`
@@ -15,6 +17,7 @@ SHA415 | `2115D0CC6332A7AFB8686F521ED4CE1A241E218B0CFA35377E82E18F56423BE36D7824
 SSDEEP | `24576:LvvWoEh6wu/SHS/cDjUTpwUUcTtrFGvhy:CoEh6mHBHUnTtrFGvhy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:LvvWoEh6wu/SHS/cDjUTpwUUcTtrFGvhy:CoEh6mHBHUnTtrFGvhy`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

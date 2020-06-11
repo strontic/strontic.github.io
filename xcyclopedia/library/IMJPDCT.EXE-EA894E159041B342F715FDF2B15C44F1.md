@@ -1,10 +1,12 @@
 ﻿
 # IMJPDCT.EXE 
+
 * File Path: `C:\WINDOWS\SysWOW64\IME\IMEJP\IMJPDCT.EXE`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EA894E159041B342F715FDF2B15C44F1`
@@ -15,6 +17,7 @@ SHA415 | `CBCABE46D3AC4710FBB2BE14A44790B6CBECD7D88B92FADC3E0EADF9E9AB3FF6499600
 SSDEEP | `12288:5gJXgnfAXHxioNVwvbJ5xKK8XdAp8qrs3:GJQnwHxioNVwjJ54K8XdAp8qo`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:5gJXgnfAXHxioNVwvbJ5xKK8XdAp8qrs3:GJQnwHxioNVwjJ54K8XdAp8qo`
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # MuiUnattend.exe 
+
 * File Path: `C:\Windows\SysWOW64\MuiUnattend.exe`
 * Description: MUI unattend action
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F947248406F262A426EFCCB945ECA635`
@@ -15,6 +17,7 @@ SHA415 | `6AC26CB57C681C9684DF9B381754172112D7A2E74F2BE459C05CBB9691CC19A3DE1568
 SSDEEP | `1536:1pkDEMe6iXYVHOyjw8Mojw8vPioPoN0XjKNCC6OKJhe6hyBri14pmc:1pMnYM9MywAgGX+NCC6O2Ij7pmc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:1pkDEMe6iXYVHOyjw8Mojw8vPioPoN0XjKNCC6OKJhe6hyBri14pmc:1pMnYM9Myw
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # csrss.exe 
+
 * File Path: `C:\WINDOWS\system32\csrss.exe`
 * Description: Client Server Runtime Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `23019322FFECB179746210BE52D6DE60`
@@ -15,6 +17,7 @@ SHA415 | `8BCDFCBF40F7B4ACFA494AAFF6EE4B00C44D564C3D99FE8626E3CD71A01A87DF2A6BDA
 SSDEEP | `192:UjnbFaItcWHiJ8n9COMFm3W59nWQKN7OwDBQABJcxW/amJqnajgrTZutRnPw:UPM03W59nWRNHDBRJcUJl0huHnPw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:UjnbFaItcWHiJ8n9COMFm3W59nWQKN7OwDBQABJcxW/amJqnajgrTZutRnPw:UPM03
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

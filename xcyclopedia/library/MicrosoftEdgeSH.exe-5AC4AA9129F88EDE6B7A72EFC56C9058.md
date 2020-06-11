@@ -1,10 +1,12 @@
 ﻿
 # MicrosoftEdgeSH.exe 
+
 * File Path: `C:\WINDOWS\system32\MicrosoftEdgeSH.exe`
 * Description: Microsoft Edge Web Platform
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5AC4AA9129F88EDE6B7A72EFC56C9058`
@@ -15,6 +17,7 @@ SHA415 | `069FC3F1FA8B39712EB97A170A6BC42E38171F9704F103D1018B159996A462B87F13C3
 SSDEEP | `1536:si33kj/gVtpMEag3Id5QV/Y/tu+ynENk:Rnk7m7H+QV/YJyENk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:si33kj/gVtpMEag3Id5QV/Y/tu+ynENk:Rnk7m7H+QV/YJyENk`
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

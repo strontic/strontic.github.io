@@ -1,10 +1,12 @@
 ﻿
 # powercfg.exe 
+
 * File Path: `C:\Windows\SysWOW64\powercfg.exe`
 * Description: Power Settings Command-Line Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DBAD85BFE615D3C006D68DC630FACBFD`
@@ -15,6 +17,7 @@ SHA415 | `83351674E56978D9CB7F5FE0C56722D11F569E34200AF8AF9C3F105CF1C1A2D3466741
 SSDEEP | `1536:L4EqDN3DVIdnIhcN1i60GK/5j8d4IQIYWHqYTT:DqDN3DGyKhK5SQIYVQT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -119,5 +122,7 @@ Invalid Parameters -- try "/?" for help
 * Product Version: 10.0.14393.351
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

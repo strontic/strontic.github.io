@@ -1,10 +1,12 @@
 ﻿
 # AxInstUI.exe 
+
 * File Path: `C:\Windows\system32\AxInstUI.exe`
 * Description: ActiveX Installer Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `04D542885F20AADF19D2D2C3464B4835`
@@ -15,6 +17,7 @@ SHA415 | `EC7D923E1D01ED3A6FDEBF00DB322ED11B4FCFA3B936B3DC3017187B42E603799B9EF9
 SSDEEP | `384:qfoN1CWpDLEFV553RCoB1GM4+1xq3UZU9a1xq3UZU9iWmIW:qoNk8m5hCS1GM48ZU9QZU9q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:qfoN1CWpDLEFV553RCoB1GM4+1xq3UZU9a1xq3UZU9iWmIW:qoNk8m5hCS1GM48ZU9
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

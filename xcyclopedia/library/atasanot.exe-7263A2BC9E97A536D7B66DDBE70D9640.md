@@ -1,10 +1,12 @@
 ﻿
 # atasanot.exe 
+
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_TC\atasanot.exe`
 * Description: WebEx Application Sharing Annonation Module
 * Comments: 11/22/2016 T31(Unicode)
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7263A2BC9E97A536D7B66DDBE70D9640`
@@ -15,6 +17,7 @@ SHA415 | `5DBB29A412F72DD749DF7CFDBC75F09A9D3ACF915E2F2130B21A5C98975A39B18EA9B4
 SSDEEP | `1536:5kd09VieuRg0tc6SDm6TokrgQAgm39j7SRb3hKJs:I09qPtDSlsOgQ1e7SRke`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:5kd09VieuRg0tc6SDm6TokrgQAgm39j7SRb3hKJs:I09qPtDSlsOgQ1e7SRke`
 * Product Version: 1031,1609,1100,2200
 * Language: English (United States)
 * Legal Copyright: 1997-2015 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

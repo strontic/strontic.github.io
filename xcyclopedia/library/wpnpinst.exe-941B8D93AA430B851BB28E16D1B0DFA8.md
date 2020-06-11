@@ -1,10 +1,12 @@
 ﻿
 # wpnpinst.exe 
+
 * File Path: `C:\WINDOWS\system32\wpnpinst.exe`
 * Description: Support exe for Internet Printing
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `941B8D93AA430B851BB28E16D1B0DFA8`
@@ -15,6 +17,7 @@ SHA415 | `914482E5803D4C24436BE532ECB033076CBD851AAA0CA8D0203D45C9BC390D59B76607
 SSDEEP | `384:wXd7MNMiz/5juCh6JZef6IH9w3Evg8q1Ubu74l3WhcW:AMeShKs6WifDURg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:wXd7MNMiz/5juCh6JZef6IH9w3Evg8q1Ubu74l3WhcW:AMeShKs6WifDURg`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

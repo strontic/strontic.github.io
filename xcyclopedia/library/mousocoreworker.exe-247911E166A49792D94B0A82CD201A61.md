@@ -1,10 +1,12 @@
 ﻿
 # mousocoreworker.exe 
+
 * File Path: `C:\WINDOWS\system32\mousocoreworker.exe`
 * Description: MoUSO Core Worker Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `247911E166A49792D94B0A82CD201A61`
@@ -15,6 +17,7 @@ SHA415 | `5DCA6360117118554E2ED96A1B511E1D85C6418EB05C8B176A75F072D14A837FF3C471
 SSDEEP | `6144:ADos+dDnz88uogqvOvyf45pD04dudI4SYtJzLAyW6/Rxxv4fYHuU:HdPuWmlp0i8lSCfWsSXU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:ADos+dDnz88uogqvOvyf45pD04dudI4SYtJzLAyW6/Rxxv4fYHuU:HdPuWmlp0i8l
 * Product Version: 10.0.18362.418
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

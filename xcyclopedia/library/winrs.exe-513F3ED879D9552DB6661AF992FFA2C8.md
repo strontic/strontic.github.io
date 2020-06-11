@@ -1,10 +1,12 @@
 ﻿
 # winrs.exe 
+
 * File Path: `C:\WINDOWS\system32\winrs.exe`
 * Description: winrs
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `513F3ED879D9552DB6661AF992FFA2C8`
@@ -15,6 +17,7 @@ SHA415 | `30DDA0CD2AB5FDE674265FB2E676821EAE10BF24603EAE2C72B8186C6A21665B1EDC95
 SSDEEP | `768:OoP5b7LATPN2avUphn9VXvN2XChn4OwGwBO8DIDp+z9ecMmkSx+Bz6lqrzit:b3gPN2acphn9yXCa5OBDpk4mk5it`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -104,5 +107,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

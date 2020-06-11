@@ -1,10 +1,12 @@
 ﻿
 # winload.exe 
+
 * File Path: `C:\Windows\system32\Boot\winload.exe`
 * Description: OS Loader
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E64AF8D519FD2F9458EBD0AE4FAEB717`
@@ -15,6 +17,7 @@ SHA415 | `51CD9199123FC47825D285A9C962B738BB25ECE40151144958299D4FC93095CAC5D548
 SSDEEP | `24576:OMnMGiAV4mNuvN9Q1Z15j4ASnKtuAoVc4XP6C1nLoInjX:OQKmNulkqYYPsA`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:OMnMGiAV4mNuvN9Q1Z15j4ASnKtuAoVc4XP6C1nLoInjX:OQKmNulkqYYPsA`
 * Product Version: 10.0.14393.3503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

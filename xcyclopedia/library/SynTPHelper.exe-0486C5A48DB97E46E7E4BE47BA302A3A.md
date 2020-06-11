@@ -1,10 +1,12 @@
 ﻿
 # SynTPHelper.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\SynTPHelper.exe`
 * Description: Synaptics Pointing Device Helper
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0486C5A48DB97E46E7E4BE47BA302A3A`
@@ -15,6 +17,7 @@ SHA415 | `E2015B786740DAFBB03CB24A826E4D0D0D0ECE8966ACD470B73AA360FAEAFA573FF7F4
 SSDEEP | `3072:IL6WznnpdvpJssqbTDR9aGRaB9ZoOkA+ill4xejgbA8L+u6MTqu5O3qfGmD1izfG:IJldvplqbTPyGOkA+ylDE0i3tG3zfG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:IL6WznnpdvpJssqbTDR9aGRaB9ZoOkA+ill4xejgbA8L+u6MTqu5O3qfGmD1izfG:
 * Product Version: 19.3.31.31 16Aug17
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2017
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

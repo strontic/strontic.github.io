@@ -1,10 +1,12 @@
 ﻿
 # mfpmp.exe 
+
 * File Path: `C:\Windows\SysWOW64\mfpmp.exe`
 * Description: Media Foundation Protected Pipeline EXE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `09D9A8B3CCAF53D20323F2FCD16D0166`
@@ -15,6 +17,7 @@ SHA415 | `9BA2A355CF302DDECC3CA3CA965B55A8AF425A987161C1D2DEF40B4BE6141A13C21167
 SSDEEP | `768:hD6AXmMLJBMPZTtQ3T/sBrUDjjAUx7vq6II1PcERC:hhXdLPMPJBroAg7vq6dPNk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:hD6AXmMLJBMPZTtQ3T/sBrUDjjAUx7vq6II1PcERC:hhXdLPMPJBroAg7vq6dPNk`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

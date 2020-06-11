@@ -1,10 +1,12 @@
 ﻿
 # convert.exe 
+
 * File Path: `C:\WINDOWS\system32\convert.exe`
 * Description: File System Conversion Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `27810AD3D1479BDF78517EFDB7D05938`
@@ -15,6 +17,7 @@ SHA415 | `39AED39711173327E27A2CA91D0F8845CA61B4664ED742ED96BDF3FBDA21F8C045463F
 SSDEEP | `384:LRR3cNJyL/72TtOfKuXvZ7ThK8y7jPNzW3qW:LjCJyLz8tkXvxWjPe`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Converts a FAT volume to NTFS.
@@ -62,5 +65,7 @@ Invalid drive specification.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

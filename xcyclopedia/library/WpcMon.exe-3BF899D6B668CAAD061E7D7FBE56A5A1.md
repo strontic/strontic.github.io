@@ -1,10 +1,12 @@
 ﻿
 # WpcMon.exe 
+
 * File Path: `C:\WINDOWS\system32\WpcMon.exe`
 * Description: Family Safety Monitor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3BF899D6B668CAAD061E7D7FBE56A5A1`
@@ -15,6 +17,7 @@ SHA415 | `D6DDE49610ECB5536EAC35C2CC29C844769E1EAA1EDF8B919DC96FA6C447281E2220B6
 SSDEEP | `12288:zoMJ78ekdneMUV+y9mBBEb7WRQaw6t3CqrhsiGWHjrfmvmZ:00kdDP0sBk7Zaw6t31hsiG+Lmvm`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:zoMJ78ekdneMUV+y9mBBEb7WRQaw6t3CqrhsiGWHjrfmvmZ:00kdDP0sBk7Zaw6t
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

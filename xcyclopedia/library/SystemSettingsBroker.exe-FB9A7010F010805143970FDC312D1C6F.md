@@ -1,10 +1,12 @@
 ﻿
 # SystemSettingsBroker.exe 
+
 * File Path: `C:\Windows\system32\SystemSettingsBroker.exe`
 * Description: System Settings Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FB9A7010F010805143970FDC312D1C6F`
@@ -15,6 +17,7 @@ SHA415 | `BDBD1B2F216E3948CEAE4A361CB91C6EF95A38677826BD01659F354F0A00E2F76C61AA
 SSDEEP | `3072:GlVjCEcr2/c9MCxdDBDk8NxN+Yvay4S7R33U8P9D1rlef+IsIcty9ra:IVj6Ac9Lxld1NvH9Rrljtara`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:GlVjCEcr2/c9MCxdDBDk8NxN+Yvay4S7R33U8P9D1rlef+IsIcty9ra:IVj6Ac9Lx
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

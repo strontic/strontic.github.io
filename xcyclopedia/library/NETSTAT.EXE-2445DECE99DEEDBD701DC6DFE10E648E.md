@@ -1,10 +1,12 @@
 ﻿
 # NETSTAT.EXE 
+
 * File Path: `C:\WINDOWS\system32\NETSTAT.EXE`
 * Description: TCP/IP Netstat Command
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2445DECE99DEEDBD701DC6DFE10E648E`
@@ -15,6 +17,7 @@ SHA415 | `5815BEA5548B47515CE4DF76B1CD9618F71A8307AAFC7E79FB66398BBD60DDABDA43A7
 SSDEEP | `768:KCypZ5fjx6DnzLknmAWAhRZpU6OqPN5ZDQgdiyxuC:RnemAWAhy63l5Z0wiyxuC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -87,5 +90,7 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

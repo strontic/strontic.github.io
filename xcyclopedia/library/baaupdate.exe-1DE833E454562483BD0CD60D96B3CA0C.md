@@ -1,10 +1,12 @@
 ﻿
 # baaupdate.exe 
+
 * File Path: `C:\WINDOWS\system32\baaupdate.exe`
 * Description: BitLocker Access Agent Update Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1DE833E454562483BD0CD60D96B3CA0C`
@@ -15,6 +17,7 @@ SHA415 | `E923E923B5885A5A8BA8BABBACD0726829D1AB865E1B234D488A069811CFDEEDDED434
 SSDEEP | `3072:U2wXAiztqwnVS570M9kdatGCO+xmBc+hMPhPsx:8wizNVs7nyatGt+SYF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:U2wXAiztqwnVS570M9kdatGCO+xmBc+hMPhPsx:8wizNVs7nyatGt+SYF`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

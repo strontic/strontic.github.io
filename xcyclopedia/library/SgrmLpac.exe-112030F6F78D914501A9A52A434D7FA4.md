@@ -1,10 +1,12 @@
 ﻿
 # SgrmLpac.exe 
+
 * File Path: `C:\WINDOWS\system32\SgrmLpac.exe`
 * Description: System Guard Runtime Monitor LPAC
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `112030F6F78D914501A9A52A434D7FA4`
@@ -15,6 +17,7 @@ SHA415 | `D267B2D125C5F64644B7EC2F1732597574CDDF05B0C63A611176F7B429968341D24140
 SSDEEP | `768:ZEO3LQkmF+N8D6fKWwbK99KwUz6TSf6EPMTOzXO/k6IIy9iWx29+ymqXj1Pra:53IF+Nq6YvSEPmYXe3O8W49+9MpPra`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:ZEO3LQkmF+N8D6fKWwbK99KwUz6TSf6EPMTOzXO/k6IIy9iWx29+ymqXj1Pra:53IF
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

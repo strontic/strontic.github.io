@@ -1,10 +1,12 @@
 ﻿
 # ie4ushowIE.exe 
+
 * File Path: `C:\WINDOWS\system32\ie4ushowIE.exe`
 * Description: IE Per-User Show IE Icon Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AA9935605C3D902AD7BC03A1335D721C`
@@ -15,6 +17,7 @@ SHA415 | `363B94464EB8DDEF9F79C8AC995B511919D7673CBA2165684C08D7A616B31DF37123A4
 SSDEEP | `1536:JU0XRXlqGvzE+dQbhaoFmS4LiSWLRd8rIOmzIz0cauDVpQDIX6YLJByxl:JU0XFlqGDQFbYSSWLn8rt00QDv6JByxl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:JU0XRXlqGvzE+dQbhaoFmS4LiSWLRd8rIOmzIz0cauDVpQDIX6YLJByxl:JU0XFlq
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

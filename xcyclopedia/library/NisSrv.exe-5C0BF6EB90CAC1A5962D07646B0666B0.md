@@ -1,10 +1,12 @@
 ﻿
 # NisSrv.exe 
+
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\NisSrv.exe`
 * Description: Microsoft Network Realtime Inspection Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C0BF6EB90CAC1A5962D07646B0666B0`
@@ -15,6 +17,7 @@ SHA415 | `3A811894467E8BAFD77F1028C269B15AEF38A7E48DABACE4A0EA1AE9E4F50C26824C5D
 SSDEEP | `49152:2k5mE897MNoMDbRTbkLIOjVvNwWZQ+RzUM6yC8r37Uncpgt:DcEgF2W6+FUqr37Tpgt`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:2k5mE897MNoMDbRTbkLIOjVvNwWZQ+RzUM6yC8r37Uncpgt:DcEgF2W6+FUqr37T
 * Product Version: 4.18.2001.10
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # change.exe 
+
 * File Path: `C:\WINDOWS\system32\change.exe`
 * Description: Remote Desktop Services Change Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `01302ADDA9C5C683F8EBD151C2184683`
@@ -15,6 +17,7 @@ SHA415 | `19581C959E1EB56CDBB2673C29D25623F7640B5D91C66C403431F5E78DAF203269677D
 SSDEEP | `384:o1yecKXLaxy2eeTX94dAbPtGHK2ayXWDLW:de8etdAbWng`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 CHANGE { LOGON | PORT | USER }
@@ -48,5 +51,7 @@ CHANGE { LOGON | PORT | USER }
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

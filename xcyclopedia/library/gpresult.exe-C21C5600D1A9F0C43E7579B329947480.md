@@ -1,10 +1,12 @@
 ﻿
 # gpresult.exe 
+
 * File Path: `C:\WINDOWS\system32\gpresult.exe`
 * Description: Query Group Policy RSOP Data
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C21C5600D1A9F0C43E7579B329947480`
@@ -15,6 +17,7 @@ SHA415 | `B544D2B9BC525974E3B951687228F5D6A2BEB8F391FCD9FFF3B32D2EE44EC4A8456C3F
 SSDEEP | `6144:IqHAmk7jtxdElaoR3Ls10c8T4sJHJeAFVUQkM:IqZkX4aa3L+0c8T4e/VqM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -111,5 +114,7 @@ Type "GPRESULT /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

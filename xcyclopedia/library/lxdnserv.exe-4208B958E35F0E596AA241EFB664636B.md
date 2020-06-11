@@ -1,10 +1,12 @@
 ﻿
 # lxdnserv.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnserv.exe`
 * Description: Lexmark Connect Service Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4208B958E35F0E596AA241EFB664636B`
@@ -15,6 +17,7 @@ SHA415 | `B0322FE1547E5EC2D768CEC2C414BFE51ABBC77DE1BABA72B72A3A7BE4ED204199F216
 SSDEEP | `384:18pEwVlhdIWh/RpFGr4NsNnOQUWPoUNYgL+rILokIXWgod4GGVUm1uNi5FF:KDVlhnp3qFWWPoUygLmk9d4vmm1uw5f`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:18pEwVlhdIWh/RpFGr4NsNnOQUWPoUNYgL+rILokIXWgod4GGVUm1uNi5FF:KDVlhn
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

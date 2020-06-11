@@ -1,10 +1,12 @@
 ﻿
 # pcalua.exe 
+
 * File Path: `C:\WINDOWS\system32\pcalua.exe`
 * Description: Program Compatibility Assistant
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F8FD8FA4C87E6DCF063A17D24A2576CE`
@@ -15,6 +17,7 @@ SHA415 | `BAC419C1A70F05F508C19D0F48803D9ED3DA7662D58DEF0A8C85E1FA4FAFC5DB97F0ED
 SSDEEP | `1536:ZAMMTMxtBoGcFBZUv9mFNgyQZe4RDNxjJvt:ZvM+tBgBKAFNgyEDNxf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:ZAMMTMxtBoGcFBZUv9mFNgyQZe4RDNxjJvt:ZvM+tBgBKAFNgyEDNxf`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

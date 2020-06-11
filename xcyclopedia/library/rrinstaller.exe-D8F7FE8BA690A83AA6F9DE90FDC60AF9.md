@@ -1,10 +1,12 @@
 ﻿
 # rrinstaller.exe 
+
 * File Path: `C:\Windows\SysWOW64\rrinstaller.exe`
 * Description: R&R installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D8F7FE8BA690A83AA6F9DE90FDC60AF9`
@@ -15,6 +17,7 @@ SHA415 | `02ABD78D00CB2A61EAC328CCF08A5FFD395885EC7FF8E263B5C8E840CA520784F3EE62
 SSDEEP | `768:ON5B6WXWkVjcbbnYE8HwktFKtOI51SCl+FOd9Q5vfRy1dX:GB6BkVSnYE8HwktFCO+1ToZy1dX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:ON5B6WXWkVjcbbnYE8HwktFKtOI51SCl+FOd9Q5vfRy1dX:GB6BkVSnYE8HwktFCO+
 * Product Version: 11.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

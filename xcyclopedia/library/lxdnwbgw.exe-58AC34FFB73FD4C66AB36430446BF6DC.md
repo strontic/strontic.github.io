@@ -1,10 +1,12 @@
 ﻿
 # lxdnwbgw.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnwbgw.exe`
 * Description: Lexmark Web Gateway
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `58AC34FFB73FD4C66AB36430446BF6DC`
@@ -15,6 +17,7 @@ SHA415 | `FFBC2D8E948D4FCF48D1B132961AC2EC9F47F7EF6B57DBA1084859F29E755B5A64974D
 SSDEEP | `1536:EZfoEPEv2yfEmgV1/2m+ScCKBJfuPqBLvKa8zpf:EyIC2ycmg/xDYJfuALyLzpf`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:EZfoEPEv2yfEmgV1/2m+ScCKBJfuPqBLvKa8zpf:EyIC2ycmg/xDYJfuALyLzpf`
 * Product Version: 1.93.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

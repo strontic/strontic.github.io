@@ -1,10 +1,12 @@
 ﻿
 # NetCfgNotifyObjectHost.exe 
+
 * File Path: `C:\WINDOWS\system32\NetCfgNotifyObjectHost.exe`
 * Description: Host Process for Network Driver Configuration Plugins
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F892D0F9B7313820D6F5422897C50247`
@@ -15,6 +17,7 @@ SHA415 | `30BEF77A3130D2AA25C8775AD12DCAD5C3764389584D505AB1EB858A19584A14B03ABE
 SSDEEP | `1536:9Q+UcyaTflSNiKopNgdxmey4BId1OZrRwaYYJLsU:qcn8N7784ZdwaLp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:9Q+UcyaTflSNiKopNgdxmey4BId1OZrRwaYYJLsU:qcn8N7784ZdwaLp`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

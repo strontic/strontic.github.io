@@ -1,10 +1,12 @@
 ﻿
 # iexpress.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\iexpress.exe`
 * Description: Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `15F76E09BBD08461D288B17514B39051`
@@ -15,6 +17,7 @@ SHA415 | `74BD049C1ED32295CC91DEE697DF53AFB6B2FE64E8380ACDA3BA7741939A43B56AE8A1
 SSDEEP | `3072:oS6ntTqzK5znU3xU1gNDnGOb+ahXNqJohePnq45L84Ws:DYqzKxUjNDGOb+asEwv5LH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:oS6ntTqzK5znU3xU1gNDnGOb+ahXNqJohePnq45L84Ws:DYqzKxUjNDGOb+asEwv5
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

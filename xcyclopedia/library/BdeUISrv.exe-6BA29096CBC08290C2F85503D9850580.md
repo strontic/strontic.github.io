@@ -1,10 +1,12 @@
 ﻿
 # BdeUISrv.exe 
+
 * File Path: `C:\WINDOWS\system32\BdeUISrv.exe`
 * Description: BDE UI Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6BA29096CBC08290C2F85503D9850580`
@@ -15,6 +17,7 @@ SHA415 | `7786A66FA4D9D18DA5768B1DB4D1B1A124B23B52FE1FE05BBC9C2664FA4BCBFE8A6E23
 SSDEEP | `768:ZrDbWsE9AqzdZ+SCV1xdiyfkMVZ/jDPmScTNPGCghddQZbYgP17VGrto2w2E+:5vE9Aqzdm9di+7LjCZ8g97Ety`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:ZrDbWsE9AqzdZ+SCV1xdiyfkMVZ/jDPmScTNPGCghddQZbYgP17VGrto2w2E+:5vE9
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

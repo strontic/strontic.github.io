@@ -1,10 +1,12 @@
 ﻿
 # verclsid.exe 
+
 * File Path: `C:\WINDOWS\system32\verclsid.exe`
 * Description: Extension CLSID Verification Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7E92F78B3B4E2B57D7A0FA89BB4AC462`
@@ -15,6 +17,7 @@ SHA415 | `470933D363F5E4DDEA1BC4EC7A44D9F12D86A0CD588743EDA02FE8B74F00A0DB012688
 SSDEEP | `192:/tYltBozp++dth0fSLi0gN6iboFq8vJfzlZOIuJAxcNPjk/WnNW:/tcBotXXLnC6CoFTJf54Iu5YWnNW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:/tYltBozp++dth0fSLi0gN6iboFq8vJfzlZOIuJAxcNPjk/WnNW:/tcBotXXLnC6Co
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

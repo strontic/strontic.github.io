@@ -1,10 +1,12 @@
 ﻿
 # igfxTray.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxTray.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `94CE60E4864942F14D34BE93FD8FE80B`
@@ -15,6 +17,7 @@ SHA415 | `A81F1A3687A2DB7C985AA34D6771D880DE8161B147C319C95A4714420E3DCF3731D283
 SSDEEP | `6144:bOKrfap2ojjnjTmT66cRt6UfBKqmfUQODvtMJfDVChJWRU:HojjnuGfBK3ZMvt6fDVCX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:bOKrfap2ojjnjTmT66cRt6UfBKqmfUQODvtMJfDVChJWRU:HojjnuGfBK3ZMvt6fD
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

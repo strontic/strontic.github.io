@@ -1,10 +1,12 @@
 ﻿
 # write.exe 
+
 * File Path: `C:\Windows\SysWOW64\write.exe`
 * Description: Windows Write
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `ED73F0253A4C10F6B7C221FF6E8BD8B4`
@@ -15,6 +17,7 @@ SHA415 | `2306B5DF02E851D1BFE756F9F2E7A09C49F1E6EF98798A2AD1E36909802B998283448F
 SSDEEP | `96:lxyZeX932JnXvk7Cc1uDWPTQ+fpH7NHWW2MrTtDJdMi2bKveLrxuJRdFEWFOWwj6:lieXZ2JOT5lWW2MrTFPuxu/sWFOWq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ wordpad.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

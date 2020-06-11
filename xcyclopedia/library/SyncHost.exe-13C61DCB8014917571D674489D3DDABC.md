@@ -1,10 +1,12 @@
 ﻿
 # SyncHost.exe 
+
 * File Path: `C:\Windows\system32\SyncHost.exe`
 * Description: Host Process for Windows Sync
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `13C61DCB8014917571D674489D3DDABC`
@@ -15,6 +17,7 @@ SHA415 | `40DEE04323CE981C1EEC123368CFC6299B97ED1F5C0080BD6636F1014E0A9E723E88C7
 SSDEEP | `768:KcvTwUyNnb5WWRbXrm204WqQqFIqJ6cRnhN6zKLsNpszkw6k5GNK6JaZu0j/PZ/l:ZTuV5Wmby204h3qcvMzKLw/NK6exeZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:KcvTwUyNnb5WWRbXrm204WqQqFIqJ6cRnhN6zKLsNpszkw6k5GNK6JaZu0j/PZ/l:Z
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

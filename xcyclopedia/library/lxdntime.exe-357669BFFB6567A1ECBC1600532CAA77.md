@@ -1,10 +1,12 @@
 ﻿
 # lxdntime.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdntime.exe`
 * Description: Lexmark Connect Time Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `357669BFFB6567A1ECBC1600532CAA77`
@@ -15,6 +17,7 @@ SHA415 | `C862715D0590E2C08328CEC570D99F35B6B310185519C0E3A4E6C21DD280DE12AD40AB
 SSDEEP | `96:l6Gj8ppZV2Es8fuFaEjQeOrF+G/mjCFTk/6aSA0HyDIfcWcRIdrRByq+kTe/L:hj8pPVk8uLQeOzS4T39GAcWcRqRByCwL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `96:l6Gj8ppZV2Es8fuFaEjQeOrF+G/mjCFTk/6aSA0HyDIfcWcRIdrRByq+kTe/L:hj8pP
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

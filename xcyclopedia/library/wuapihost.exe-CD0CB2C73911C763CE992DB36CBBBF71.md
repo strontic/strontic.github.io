@@ -1,10 +1,12 @@
 ﻿
 # wuapihost.exe 
+
 * File Path: `C:\WINDOWS\system32\wuapihost.exe`
 * Description: wuapihost
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CD0CB2C73911C763CE992DB36CBBBF71`
@@ -15,6 +17,7 @@ SHA415 | `BD7072D885211A509084174F6A2C160E5BFAD3D0820CE689CE69B7DFFD4F72CA35F68B
 SSDEEP | `192:XLCUXHrvEqYRrmZYt9W262zdK/s3NPQ/Udxy8ZbXt/NKpWafW:bCqHhYRi2b96WdKE9PQcpn/GWafW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:XLCUXHrvEqYRrmZYt9W262zdK/s3NPQ/Udxy8ZbXt/NKpWafW:bCqHhYRi2b96WdKE
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

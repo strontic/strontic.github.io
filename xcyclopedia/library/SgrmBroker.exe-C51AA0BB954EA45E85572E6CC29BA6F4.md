@@ -1,10 +1,12 @@
 ﻿
 # SgrmBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\SgrmBroker.exe`
 * Description: System Guard Runtime Monitor Broker Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C51AA0BB954EA45E85572E6CC29BA6F4`
@@ -15,6 +17,7 @@ SHA415 | `C5EB2AFFE8303CC1308E023A24BAEA2FEBB7D8C4570AFE55C499FFE22E4E02D6E41E95
 SSDEEP | `6144:RqjM9iHEeJs8fY16oqRXWenOCe0OpnUPw+U98U:4jM9iHRZfY16VRXWxyw2U`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:RqjM9iHEeJs8fY16oqRXWenOCe0OpnUPw+U98U:4jM9iHRZfY16VRXWxyw2U`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

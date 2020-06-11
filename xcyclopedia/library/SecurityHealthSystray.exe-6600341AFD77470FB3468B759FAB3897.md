@@ -1,10 +1,12 @@
 ﻿
 # SecurityHealthSystray.exe 
+
 * File Path: `C:\WINDOWS\system32\SecurityHealthSystray.exe`
 * Description: Windows Security notification icon
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6600341AFD77470FB3468B759FAB3897`
@@ -15,6 +17,7 @@ SHA415 | `914E6B02B656AF22103AC69CD9A21387193B0E33B2AB3AF7C5369609BF63D40D0ABF63
 SSDEEP | `1536:iYHET+M5mU1kLvqJzcq82XkXUzy7G7pq:mxh1kLvqJJ0N7G7pq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:iYHET+M5mU1kLvqJzcq82XkXUzy7G7pq:mxh1kLvqJJ0N7G7pq`
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

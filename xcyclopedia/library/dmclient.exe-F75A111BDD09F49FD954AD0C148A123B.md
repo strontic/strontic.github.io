@@ -1,10 +1,12 @@
 ﻿
 # dmclient.exe 
+
 * File Path: `C:\WINDOWS\system32\dmclient.exe`
 * Description: Microsoft Feedback SIUF Deployment Manager Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F75A111BDD09F49FD954AD0C148A123B`
@@ -15,6 +17,7 @@ SHA415 | `C50E1190D19320EFD0C6F3659D1F99FD812985CDA62D693E6E6A2AD4BDA8AFBD87633C
 SSDEEP | `3072:se+tiQjJcCxWmdxS/4Fo4TUlWNmK39l+zkuj/OFj/H5I:se+tiaxxlY/4Fo4TUl8NHgC/Z`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:se+tiQjJcCxWmdxS/4Fo4TUlWNmK39l+zkuj/OFj/H5I:se+tiaxxlY/4Fo4TUl8N
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

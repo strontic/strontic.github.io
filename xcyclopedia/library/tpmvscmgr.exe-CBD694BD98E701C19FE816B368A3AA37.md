@@ -1,10 +1,12 @@
 ﻿
 # tpmvscmgr.exe 
+
 * File Path: `C:\Windows\system32\tpmvscmgr.exe`
 * Description: TPM Virtual Smartcard Setup Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `CBD694BD98E701C19FE816B368A3AA37`
@@ -15,6 +17,7 @@ SHA415 | `499EB95320228CC2D65D209C3DAE23F2C27A4BE680F2838887676BA2E86CE028D5DD4F
 SSDEEP | `3072:OHyb47+equxzJc7z40/VrJBac8+ZTAb90p:OHyb4qeLoVd40`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -133,5 +136,7 @@ TpmVscMgr.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

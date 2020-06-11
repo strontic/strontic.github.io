@@ -1,10 +1,12 @@
 ﻿
 # DeviceEject.exe 
+
 * File Path: `C:\Windows\system32\DeviceEject.exe`
 * Description: Eject Device
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `45DBFE6EA65E1FA16A2E9DA86EE01124`
@@ -15,6 +17,7 @@ SHA415 | `D656E3D9822D94CAA3A590BFCF9A13E1D884C2FF5DA0D13C8286A0493C12EC08B0A3E2
 SSDEEP | `384:mfAm+y3Vvrc92z0DOZ969eNopxWvyDyK5TYWpwWJJY0ehA/9gnl0:mAczcq0D19eg0yuK5zbJYQ/9gnl0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:mfAm+y3Vvrc92z0DOZ969eNopxWvyDyK5TYWpwWJJY0ehA/9gnl0:mAczcq0D19eg0
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

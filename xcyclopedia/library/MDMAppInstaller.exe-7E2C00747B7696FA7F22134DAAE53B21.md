@@ -1,10 +1,12 @@
 ﻿
 # MDMAppInstaller.exe 
+
 * File Path: `C:\WINDOWS\system32\MDMAppInstaller.exe`
 * Description: MDM App Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7E2C00747B7696FA7F22134DAAE53B21`
@@ -15,6 +17,7 @@ SHA415 | `659F69437B0EDE1C2FA085F269ED6C6E077C73E326B0A23FCDA8B7537A98F18E04D91B
 SSDEEP | `3072:2G5eoTFm1pGV/FhHsSnJVVhxFt/Z2PS5:2G5eocGV/FbnxbvZ26`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:2G5eoTFm1pGV/FhHsSnJVVhxFt/Z2PS5:2G5eocGV/FbnxbvZ26`
 * Product Version: 10.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # SecEdit.exe 
+
 * File Path: `C:\WINDOWS\system32\SecEdit.exe`
 * Description: Windows Security Configuration Editor Command Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6BBF766473872B90B89DA1F1578FE075`
@@ -15,6 +17,7 @@ SHA415 | `6EBB8C2A0922BD07A77BE21B10F395EA41DD7FEC55BEE5E6E77ECCF78B6CECDB0E469A
 SSDEEP | `768:BbIQdrhdSuuu0Kb+exp5LIftuLKGIGYJqT7/pXk:ZIcddSuu2xpRIfyKGIGj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -47,5 +50,7 @@ You do not have sufficient permissions to perform this command.  Make sure that 
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

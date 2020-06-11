@@ -1,10 +1,12 @@
 ﻿
 # integrator.exe 
+
 * File Path: `C:\ProgramData\Microsoft\ClickToRun\{00000000-0000-0000-0000-000000000000}\integrator.exe`
 * Description: Microsoft Office Click-to-Run Integrator
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1D765330D26A45797F10EA5DA20B88F7`
@@ -15,6 +17,7 @@ SHA415 | `0996D76CB87A90E899E9C4425464DABA0E8D8E82435EAB05ACBDE1CA25FEB5ED8A6649
 SSDEEP | `98304:wyvDOBT9EY0hSrpOUKWXGyUg+jeqkZovgWvYFKUfo9AbfrMxLV:wFR0KpOUKveZofvYk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -76,5 +79,7 @@ MsiName=<Msi1>,<Msi2>  - Comma seperated list of Msi Names
 * Product Version: 16.0.12730.20144
 * Language: Language Neutral
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

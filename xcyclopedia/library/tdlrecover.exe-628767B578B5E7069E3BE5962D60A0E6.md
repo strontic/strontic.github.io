@@ -1,10 +1,12 @@
 ﻿
 # tdlrecover.exe 
+
 * File Path: `C:\Windows\system32\tdlrecover.exe`
 * Description: Microsoft Tile Data Layer Reset Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `628767B578B5E7069E3BE5962D60A0E6`
@@ -15,6 +17,7 @@ SHA415 | `DBE605655B57EB85FE2D2C3F40661719F4BDF5422E035035217FCBA1B5F2D2BDDEA35D
 SSDEEP | `1536:tEe8VJDo5G61tqcgS9+iRr78W+3JfJPB+J7/sYYzIA5pEM2gMD+Mc0Lnt:tepoari78x3dJPBc/sYYMAt2HSRot`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:tEe8VJDo5G61tqcgS9+iRr78W+3JfJPB+J7/sYYzIA5pEM2gMD+Mc0Lnt:tepoari
 * Product Version: 10.0.14393.3564
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

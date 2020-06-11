@@ -1,10 +1,12 @@
 ﻿
 # auditpol.exe 
+
 * File Path: `C:\WINDOWS\system32\auditpol.exe`
 * Description: Audit Policy Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `538128A46A0D751E789A984A9E6E8BF8`
@@ -15,6 +17,7 @@ SHA415 | `AD137387E7818673E0AFDD27F4204ED112E7666060D0920CACAAB2D512B3584704694D
 SSDEEP | `768:1GLeL9hh30sNl3T/QeiTdfwhyYzCoIl0AH4dC3NR0oTeDppoTb+nMucN:7L9hh30oKl5fwioI+jdC3NR0oTeDppoP`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: AuditPol command [<sub-command><options>]
@@ -64,5 +67,7 @@ The parameter is incorrect.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

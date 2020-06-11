@@ -1,10 +1,12 @@
 ﻿
 # ddodiag.exe 
+
 * File Path: `C:\WINDOWS\system32\ddodiag.exe`
 * Description: DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `55E9A8CC0C0E0A8B3F2CA6B8635958F0`
@@ -15,6 +17,7 @@ SHA415 | `488FFABBA8C55D2F0355D83D5FBA30EC99CDBC41E325CE34366055642BDD94ACD70013
 SSDEEP | `768:K9m8ov3QRQ32fYMGK/hc3aZkLmMgMaouZl6i1pottgJ:C6vQmmfYMGK/hc3aZkLmMgMaouZl6i6u`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:K9m8ov3QRQ32fYMGK/hc3aZkLmMgMaouZl6i1pottgJ:C6vQmmfYMGK/hc3aZkLmMg
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

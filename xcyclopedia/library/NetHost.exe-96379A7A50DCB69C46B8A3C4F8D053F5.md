@@ -1,10 +1,12 @@
 ﻿
 # NetHost.exe 
+
 * File Path: `C:\Windows\system32\NetHost.exe`
 * Description: EXE for configuring VPN proxy
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `96379A7A50DCB69C46B8A3C4F8D053F5`
@@ -15,6 +17,7 @@ SHA415 | `E25AFF81BEA2E0A3BACDF617F78535E6D791D041A58EA94975E706B3420CDC56606406
 SSDEEP | `192:VYKPtCdeYTvjKky4SuN5TUDIN+Gy9GXkSBWdbqW:3QV7KLHftNSBWdbqW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:VYKPtCdeYTvjKky4SuN5TUDIN+Gy9GXkSBWdbqW:3QV7KLHftNSBWdbqW`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

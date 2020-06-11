@@ -1,10 +1,12 @@
 ﻿
 # RuntimeBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\RuntimeBroker.exe`
 * Description: Runtime Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6CFF0673CE2002A2FE2218642605187A`
@@ -15,6 +17,7 @@ SHA415 | `996777FF3A7A8994FAC8A7768F315F56DEE33CFBF8C5995924607EF2DD0A7FD1A18348
 SSDEEP | `1536:px4++Y9uxyixRfAuiyJw8rFk2xh7kwMLnjCdF/o9o+J2EmSlV0ls/XiVepP3T2:p6+oxRrim0LeX/ooQ2en0wiVuL2`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:px4++Y9uxyixRfAuiyJw8rFk2xh7kwMLnjCdF/o9o+J2EmSlV0ls/XiVepP3T2:p6
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

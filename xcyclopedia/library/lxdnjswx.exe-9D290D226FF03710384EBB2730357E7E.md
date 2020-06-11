@@ -1,10 +1,12 @@
 ﻿
 # lxdnjswx.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnjswx.exe`
 * Description: Job Status Window Interface
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9D290D226FF03710384EBB2730357E7E`
@@ -15,6 +17,7 @@ SHA415 | `30416B0F40A33D3393FC2E624D19BCE2468DC0B49C2C9DD6E1EB4E3153E9A2C9F016D5
 SSDEEP | `24576:J7v671K+JDOplJZIUeHxKbgt6LADn4hDq62HYLalUF/zcoKfZ:J+71KcDc2AVGHYulUFIoKfZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:J7v671K+JDOplJZIUeHxKbgt6LADn4hDq62HYLalUF/zcoKfZ:J+71KcDc2AVGHY
 * Product Version: 4.424.0.29
 * Language: Language Neutral
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

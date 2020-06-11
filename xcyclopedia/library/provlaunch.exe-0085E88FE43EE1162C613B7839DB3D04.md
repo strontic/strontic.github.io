@@ -1,10 +1,12 @@
 ﻿
 # provlaunch.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\provlaunch.exe`
 * Description: Provisioning package runtime command launching tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0085E88FE43EE1162C613B7839DB3D04`
@@ -15,6 +17,7 @@ SHA415 | `D16B72D76BDC81E7E5B2A3699E183E99F66032204714249EDC96BE1135D23F48F551BC
 SSDEEP | `768:X6YO1DsFvUBwTyeRwrAxFNsRlZRb043iuGLWF9Qe8YxGcTWqM5MPVohv:qYO1/5e2My5043iy9Qe8PcC6PVk`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:X6YO1DsFvUBwTyeRwrAxFNsRlZRb043iuGLWF9Qe8YxGcTWqM5MPVohv:qYO1/5e2M
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

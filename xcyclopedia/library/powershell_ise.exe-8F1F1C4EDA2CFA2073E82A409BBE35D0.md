@@ -1,10 +1,12 @@
 ﻿
 # powershell_ise.exe 
+
 * File Path: `C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe`
 * Description: Windows PowerShell ISE
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8F1F1C4EDA2CFA2073E82A409BBE35D0`
@@ -15,6 +17,7 @@ SHA415 | `1B10FDD483282C004B3A3C7A25A88C5B1BF8527BFA0C4640C5148DE3586593A4F9DBDC
 SSDEEP | `3072:qzNkVjGPsw40LTkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLqV:qZk6uZToIuUXmmZbgDooMg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:qzNkVjGPsw40LTkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLqV:qZk6uZToIuUXmmZ
 * Product Version: 10.0.14393.103
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

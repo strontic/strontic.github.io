@@ -1,10 +1,12 @@
 ﻿
 # lxdncoms.exe 
+
 * File Path: `C:\WINDOWS\system32\lxdncoms.exe`
 * Description: Printer Communication System
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `442A10BF6B1DB6FC6ACD7F7A4FBA0F0B`
@@ -15,6 +17,7 @@ SHA415 | `63F1130CB439387B1C08A80B2E9AF9709D14B467711FC63DFDB46B538C1F2A4F376BF3
 SSDEEP | `24576:26+ICXOsGWSPWM27+e5d9EuCFg1/NoM+8pGMaXTxjYMbGtd:26rmOsGWSPG+e5dLpGMalEMbGtd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:26+ICXOsGWSPWM27+e5d9EuCFg1/NoM+8pGMaXTxjYMbGtd:26rmOsGWSPG+e5dL
 * Product Version: 1.233.39.0
 * Language: English (United States)
 * Legal Copyright:  
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

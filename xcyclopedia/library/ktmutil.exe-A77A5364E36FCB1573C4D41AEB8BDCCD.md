@@ -1,10 +1,12 @@
 ﻿
 # ktmutil.exe 
+
 * File Path: `C:\WINDOWS\system32\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A77A5364E36FCB1573C4D41AEB8BDCCD`
@@ -15,6 +17,7 @@ SHA415 | `BE5406CAE81F171344B1E4D97CCDF34D112356C5DC22F07C872476CD017176AED522D3
 SSDEEP | `384:hR8zefNzVpqIuU+N22F0FmNOf2TCS3M3/uW+jW:YeFVnFwN/jM3/u`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 The KTMUTIL utility requires that you have administrative privileges.
@@ -46,5 +49,7 @@ The KTMUTIL utility requires that you have administrative privileges.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

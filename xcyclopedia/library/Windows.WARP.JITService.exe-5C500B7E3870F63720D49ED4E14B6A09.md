@@ -1,10 +1,12 @@
 ﻿
 # Windows.WARP.JITService.exe 
+
 * File Path: `C:\WINDOWS\system32\Windows.WARP.JITService.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C500B7E3870F63720D49ED4E14B6A09`
@@ -15,6 +17,7 @@ SHA415 | `AC9F929CC7C0041782E86000C08135D26E677FDFD52923A83978E4D06C074CCCC9F328
 SSDEEP | `1536:FCLX3lElsTlD0CjYdwc8aKwtPi54W9qk4m/N:GaRGwEaKwY4M/N`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:FCLX3lElsTlD0CjYdwc8aKwtPi54W9qk4m/N:GaRGwEaKwY4M/N`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

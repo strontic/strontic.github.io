@@ -1,10 +1,12 @@
 ﻿
 # NDP461-KB3102436-x86-x64-AllOS-ENU.exe 
+
 * File Path: `C:\ProgramData\Package Cache\NetFxDevpack_FullRedistISV_4.6.1_394271\packages\dotnetframework\NDP461-KB3102436-x86-x64-AllOS-ENU.exe`
 * Description: Microsoft .NET Framework 4.6.1 Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `864056903748706E251FEC9F5D887EF9`
@@ -15,6 +17,7 @@ SHA415 | `43BEF5EB278CF0954EAE1A6FEEC5A9852B932270508DD10647B9EA32DFD3832ECB5817
 SSDEEP | `1572864:SL78UzR3Tg8Xyh0/aHrATkd01efRk8GgxvRpwefR4/M6Wd1+yn:wtg8ih0CHyCRKgdgQR+MD7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1572864:SL78UzR3Tg8Xyh0/aHrATkd01efRk8GgxvRpwefR4/M6Wd1+yn:wtg8ih0CHyC
 * Product Version: 4.6.01055.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

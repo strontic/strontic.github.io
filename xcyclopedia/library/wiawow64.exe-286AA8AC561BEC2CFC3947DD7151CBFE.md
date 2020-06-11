@@ -1,10 +1,12 @@
 ﻿
 # wiawow64.exe 
+
 * File Path: `C:\Windows\system32\wiawow64.exe`
 * Description: Thunking WIA APIS from 32 to 64 Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `286AA8AC561BEC2CFC3947DD7151CBFE`
@@ -15,6 +17,7 @@ SHA415 | `255591548BC976D2C66E33159EB60ECC3DA172A323F39529A4DC88848B961C2E09911D
 SSDEEP | `768:q/WQ8x1W1ZpRxZ40XbNaWL3e/F5vC2VSxmthdICw:pI380YWLO/F1C2V+mw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:q/WQ8x1W1ZpRxZ40XbNaWL3e/F5vC2VSxmthdICw:pI380YWLO/F1C2V+mw`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

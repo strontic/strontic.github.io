@@ -1,10 +1,12 @@
 ﻿
 # IntelWiDiUMS64.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\IntelWiDiUMS64.exe`
 * Description: Intel(R) WiDi User Mode Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C5A1C3DBA3AACF33CE9B866D6A3E4A55`
@@ -15,6 +17,7 @@ SHA415 | `A87FBAD95395FAEFC637B126D93AF799E3424DBA9714AEC439C5482EE6634D9D36BBCF
 SSDEEP | `12288:grgX5f35Q0nnnBqfrmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi18:grgX5P5BnnnB2aMP3a6nAwTYkrhRqlNi`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:grgX5f35Q0nnnBqfrmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi18:grgX5P5B
 * Product Version: 6.5.57.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

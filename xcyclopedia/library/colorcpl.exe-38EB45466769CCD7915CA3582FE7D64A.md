@@ -1,10 +1,12 @@
 ﻿
 # colorcpl.exe 
+
 * File Path: `C:\Windows\SysWOW64\colorcpl.exe`
 * Description: Microsoft Color Control Panel
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `38EB45466769CCD7915CA3582FE7D64A`
@@ -15,6 +17,7 @@ SHA415 | `DFBD80C74F55C1ACFCA0ABF9AA7F6BA4E3D8D227DDF73E6CF8BC25D5CCCC0494C136D1
 SSDEEP | `1536:K27IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:bkXlvq7jSP1cR2prbpdCY9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:K27IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:bkXlvq7jSP1c
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

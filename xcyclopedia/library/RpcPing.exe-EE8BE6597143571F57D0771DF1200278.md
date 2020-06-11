@@ -1,10 +1,12 @@
 ﻿
 # RpcPing.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\RpcPing.exe`
 * Description: RPC Ping Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EE8BE6597143571F57D0771DF1200278`
@@ -15,6 +17,7 @@ SHA415 | `7A3F2BABE4DE6F38877080285CDEE9719F02589B96A354EA3AA1D32EBC5F43E0831A7C
 SSDEEP | `768:TIm2ShykuX5+v49UeL58k2kmOqaKk9lFMS:CShy14v49Ueuk2TZafM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Usage: 
@@ -243,5 +246,7 @@ the typical profile.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

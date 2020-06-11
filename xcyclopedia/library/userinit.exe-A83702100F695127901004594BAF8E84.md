@@ -1,10 +1,12 @@
 ﻿
 # userinit.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\userinit.exe`
 * Description: Userinit Logon Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A83702100F695127901004594BAF8E84`
@@ -15,6 +17,7 @@ SHA415 | `52F330626CD2755035DAAB0A7B4EA7E48DC8DB14CAE27326B043618A1C9A2E592BD51E
 SSDEEP | `384:Uwo38oAephzq+dtPzq0zUQm9J7uEQN2VMQn7RgWbymWhBGy:Uj38k7zq+bLjBm9d5QN23nS5BT`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:Uwo38oAephzq+dtPzq0zUQm9J7uEQN2VMQn7RgWbymWhBGy:Uj38k7zq+bLjBm9d5Q
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

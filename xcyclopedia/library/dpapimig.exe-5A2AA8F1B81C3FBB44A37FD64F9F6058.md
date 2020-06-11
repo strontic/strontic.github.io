@@ -1,10 +1,12 @@
 ﻿
 # dpapimig.exe 
+
 * File Path: `C:\Windows\SysWOW64\dpapimig.exe`
 * Description: DPAPI Key Migration Wizard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5A2AA8F1B81C3FBB44A37FD64F9F6058`
@@ -15,6 +17,7 @@ SHA415 | `47C171C96FDC485090856CC1E948ED807A5165CDD491FE6F4BBA69BE2F0C9D03407B6B
 SSDEEP | `1536:X7VGruFMeu0OUZirGQxPF3J00l3uU1HIED1fCbWpygzUA:rVGruFi0weSJj16bEL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:X7VGruFMeu0OUZirGQxPF3J00l3uU1HIED1fCbWpygzUA:rVGruFi0weSJj16bEL`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

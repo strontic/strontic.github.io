@@ -1,10 +1,12 @@
 ﻿
 # bcdboot.exe 
+
 * File Path: `C:\Windows\system32\bcdboot.exe`
 * Description: Bcdboot utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `728818E7BC00EF3333A3D23C7FF6AFA8`
@@ -15,6 +17,7 @@ SHA415 | `24A61D11977F8FCE680F6F2DA80FE354FE8CBB5303E0F01AA162F900B7FA114E674355
 SSDEEP | `3072:BohQoV9ohKGp0qe9kzMVjS5EVk/R6iPeW+cUfbdQ:BohQoVGhKE0qt49Sak/0Dd`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -94,5 +97,7 @@ Examples: bcdboot c:\windows /l en-us
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

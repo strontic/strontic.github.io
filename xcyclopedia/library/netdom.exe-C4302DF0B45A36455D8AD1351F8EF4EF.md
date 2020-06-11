@@ -1,10 +1,12 @@
 ﻿
 # netdom.exe 
+
 * File Path: `C:\Windows\system32\netdom.exe`
 * Description: NETDOM5
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C4302DF0B45A36455D8AD1351F8EF4EF`
@@ -15,6 +17,7 @@ SHA415 | `FCBC8E16915902B46E970672FC3DB4DB960E8EEADB8A28ACF24E94C1A5A0B5495F0535
 SSDEEP | `1536:4Fcnp3h40I1tG+Q+HWvautLpft8nDZWIMDl5peW9ei1xrDBAVOkyZit:46clBdWvaUeBMDl5pe0ea5yOkw+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 The syntax of this command is:
@@ -68,5 +71,7 @@ The command completed successfully.
 * Product Version: 10.0.14393.2969
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

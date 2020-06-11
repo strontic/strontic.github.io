@@ -1,10 +1,12 @@
 ﻿
 # valWBFPolicyService.exe 
+
 * File Path: `C:\WINDOWS\system32\valWBFPolicyService.exe`
 * Description: ValidityWBF Policy Service (EEM)
 * Comments: This component is part of Validity Sensors' software distribution. <http://www.validityinc.com>
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E21D325AF3D32A68112D71D9968A01FF`
@@ -15,6 +17,7 @@ SHA415 | `C7F94D9F5BFC672DFE8CA8B4DF2040E8A7598F024DDD217005A6F26677977F69C69E15
 SSDEEP | `384:tbq9QJuBcxYrQho2MN4YkZ5libhN1TfyfKn1pxO:twUYcmMhunkZ5li9TfF70`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:tbq9QJuBcxYrQho2MN4YkZ5libhN1TfyfKn1pxO:twUYcmMhunkZ5li9TfF70`
 * Product Version: 4.05.0228.000
 * Language: English (United States)
 * Legal Copyright: Copyright  2006-2013, Validity Sensors, Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

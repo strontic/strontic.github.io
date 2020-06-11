@@ -1,10 +1,12 @@
 ﻿
 # SecEdit.exe 
+
 * File Path: `C:\Windows\SysWOW64\SecEdit.exe`
 * Description: Windows Security Configuration Editor Command Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `2C1D80EE80F12EF1033F8FA1E1996276`
@@ -15,6 +17,7 @@ SHA415 | `386EE042A46B21A08B5C4920AEA7CBA090566BF68415933067D12200A938EE6F161816
 SSDEEP | `384:Lq6Gd06LjLnghyhiWuTCGHYXMODXdYNlfDWPzHiW+aXq0lDf2Bh7/oSXkoQfwD4:+dgMh3uTCGHlkX2NlfU9JqT7/pXkU4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -49,5 +52,7 @@ secedit [/configure | /analyze | /import | /export | /validate | /generaterollba
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

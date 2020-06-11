@@ -1,10 +1,12 @@
 ﻿
 # ksetup.exe 
+
 * File Path: `C:\Windows\SysWOW64\ksetup.exe`
 * Description: Kerberos Setup tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DC949023143F0672926669523C18C5D3`
@@ -15,6 +17,7 @@ SHA415 | `89204168C484B8199A67D2F833C1533974EC0574BFE572A638C255FC0246D56DD31DAB
 SSDEEP | `384:lpbmAwwWaM/kDonLvuAiaSR/dUbhdORa4RdTRXqcHw+R9pdri84Vey4W9ExWZuEb:gwWaMVnLv1AodOlRucQ+RP4VekE4tln`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -101,5 +104,7 @@ USAGE:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

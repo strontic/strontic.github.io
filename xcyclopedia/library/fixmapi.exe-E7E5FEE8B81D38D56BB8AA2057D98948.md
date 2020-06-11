@@ -1,10 +1,12 @@
 ﻿
 # fixmapi.exe 
+
 * File Path: `C:\Windows\system32\fixmapi.exe`
 * Description: FIXMAPI 1.0 MAPI Repair Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E7E5FEE8B81D38D56BB8AA2057D98948`
@@ -15,6 +17,7 @@ SHA415 | `EDAE19FDC50319EA0D8BED022AB1E3120ECB1222A71A41DB3DEFF4979DD7F000F04AF9
 SSDEEP | `384:fqOs9U8XIy7lyHDNjjGgHUekDxmH2VO1znEpGarlfHM4W6nWe:g6rHDNjXHdke0OGcaR/M4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:fqOs9U8XIy7lyHDNjjGgHUekDxmH2VO1znEpGarlfHM4W6nWe:g6rHDNjXHdke0OGc
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

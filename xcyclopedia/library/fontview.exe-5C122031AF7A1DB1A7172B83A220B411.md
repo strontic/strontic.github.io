@@ -1,10 +1,12 @@
 ﻿
 # fontview.exe 
+
 * File Path: `C:\Windows\system32\fontview.exe`
 * Description: Windows Font Viewer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5C122031AF7A1DB1A7172B83A220B411`
@@ -15,6 +17,7 @@ SHA415 | `585225919D16DBFF50E7FE6EE4AB26301184A5D0DD9CC6AF7330639654813AE69AC68A
 SSDEEP | `3072:ogsI3cRyfNJjWRkOtHxtt3EOL2QvIsitSYVF:NsY9DWRRZzqGY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:ogsI3cRyfNJjWRkOtHxtt3EOL2QvIsitSYVF:NsY9DWRRZzqGY`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # wusa.exe 
+
 * File Path: `C:\Windows\system32\wusa.exe`
 * Description: Windows Update Standalone Installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E7A1BF42A43A9031533768B393D5673A`
@@ -15,6 +17,7 @@ SHA415 | `5D0B26DA97215FF2FA6C2B06D61935AB08874A6FF6EF9EFD036BA9FD0624B8D226802E
 SSDEEP | `6144:vUpf+bIZfL49UoCczcuMHxM4w+LpxyN90vE:vUpGb+qURGMHxMSby90`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:vUpf+bIZfL49UoCczcuMHxM4w+LpxyN90vE:vUpGb+qURGMHxMSby90`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

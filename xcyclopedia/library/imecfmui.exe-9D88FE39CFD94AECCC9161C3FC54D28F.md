@@ -1,10 +1,12 @@
 ﻿
 # imecfmui.exe 
+
 * File Path: `C:\WINDOWS\system32\IME\SHARED\imecfmui.exe`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9D88FE39CFD94AECCC9161C3FC54D28F`
@@ -15,6 +17,7 @@ SHA415 | `FD4A0597C0615051240CA85CD98928422A13896842208EF8A7DF01F11E5D0B7D21C179
 SSDEEP | `6144:+hZlNumztRYEapwjtyojd82ssgC4XVKikAlm0lEKTn5JZgBk8SK0Q:+DlNuouzpwjeCgHfkAlm00S`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:+hZlNumztRYEapwjtyojd82ssgC4XVKikAlm0lEKTn5JZgBk8SK0Q:+DlNuouzpwj
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

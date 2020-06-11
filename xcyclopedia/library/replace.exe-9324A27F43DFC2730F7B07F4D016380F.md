@@ -1,10 +1,12 @@
 ﻿
 # replace.exe 
+
 * File Path: `C:\Windows\system32\replace.exe`
 * Description: Replace File Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9324A27F43DFC2730F7B07F4D016380F`
@@ -15,6 +17,7 @@ SHA415 | `FD802AC289A18D974F1D7CB747C3200364F0A0BC943AE9DEB058484A079B83F0C7AF62
 SSDEEP | `384:IM4UBCd83UMtmHiijohrHntRxggu/W4mnmXgyA9l+VWFh/W:rbkM0ljo1bxgY4amnASs`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Replaces files.
@@ -66,5 +69,7 @@ Invalid switch - -help
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # comrepl.exe 
+
 * File Path: `C:\Windows\system32\Com\comrepl.exe`
 * Description: COM+ Server Replication
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `A61466AC5B04D235D32C17FDDFA54681`
@@ -15,6 +17,7 @@ SHA415 | `6AF9C1C03B38918096F33C17FF8B49ED835E51E1E5DE2A8FDFF10D9D4D60138BB2FBF6
 SSDEEP | `384:pay6yYzMArSaLnJBKzN7Uka2xElF8ZrdWEVuoW:wy6vMAtzKVElGN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 ERROR: WriteConsole failed = 00000001
@@ -47,5 +50,7 @@ ERROR: WriteConsole failed = 00000001
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

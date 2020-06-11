@@ -1,10 +1,12 @@
 ﻿
 # w32tm.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F314879F9C86A478D321FABDE0CC8FD1`
@@ -15,6 +17,7 @@ SHA415 | `6DFB34681A8E3D4A20B1AF0BA457FE3700E994520153303A4B1329851B930AAE31B4FA
 SSDEEP | `1536:IkYpn6hGFOkvhHnFj8amgcwg9HjcmnAldBF1zf5QZgXoPpZsUy7:IN6hGFfhtL2QmnAldBFpf5QZsoRZvy7`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 w32tm [/? | /register | /unregister ]
@@ -181,5 +184,7 @@ w32tm /leapseconds /getstatus [/verbose]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

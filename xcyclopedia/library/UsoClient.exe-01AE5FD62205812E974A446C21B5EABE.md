@@ -1,10 +1,12 @@
 ﻿
 # UsoClient.exe 
+
 * File Path: `C:\WINDOWS\system32\UsoClient.exe`
 * Description: UsoClient
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `01AE5FD62205812E974A446C21B5EABE`
@@ -15,6 +17,7 @@ SHA415 | `105365FBCA9AF8A20F8D83EEE1E7418ADB87A4EF02514D326BC1D582D0278DE9C87CEF
 SSDEEP | `1536:YCdmw+Fo0VGUPszO+PHOxfPKkYdIlwN+RloUUXEvJgsu:/2TPWHOd/bwN+RloUhRgsu`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:YCdmw+Fo0VGUPszO+PHOxfPKkYdIlwN+RloUUXEvJgsu:/2TPWHOd/bwN+RloUhRg
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

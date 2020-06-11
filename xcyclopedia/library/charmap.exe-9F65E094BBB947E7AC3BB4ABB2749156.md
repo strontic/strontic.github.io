@@ -1,10 +1,12 @@
 ﻿
 # charmap.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\charmap.exe`
 * Description: Character Map
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9F65E094BBB947E7AC3BB4ABB2749156`
@@ -15,6 +17,7 @@ SHA415 | `F8B5C5FCE33C687A1B93FA1E97C9912C6D5551A935880FC42D9A063EE90544A9887207
 SSDEEP | `3072:SXWU7ehUgCn9HMhZC2YZFfDXBdbrLF5NUdrSO9K/tagbdDu5nB2HH:SrgC5MhZCdXfDRdbgqt5gMH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:SXWU7ehUgCn9HMhZC2YZFfDXBdbrLF5NUdrSO9K/tagbdDu5nB2HH:SrgC5MhZCdX
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

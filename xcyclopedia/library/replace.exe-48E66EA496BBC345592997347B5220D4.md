@@ -1,10 +1,12 @@
 ﻿
 # replace.exe 
+
 * File Path: `C:\Windows\SysWOW64\replace.exe`
 * Description: Replace File Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `48E66EA496BBC345592997347B5220D4`
@@ -15,6 +17,7 @@ SHA415 | `36D3BA2CF14A27BA6037D9E238E4A60A1ED211DDDEF9BFB9D657C384EC150484175DEC
 SSDEEP | `384:tvp8Vc0mTVLYq6lDRP5QeXXgsDg7rF9KKdlWFh/WoR4:tRuc/VkdNRPevUg9p8T`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Replaces files.
@@ -66,5 +69,7 @@ RdpSa.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # msg.exe 
+
 * File Path: `C:\Windows\SysWOW64\msg.exe`
 * Description: Message Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `200850BBE6A2DE88A212E0E86C3FF845`
@@ -15,6 +17,7 @@ SHA415 | `3ABC8013A00A511802C6FFA33319350ADA319CA6562CCABB666456B6A06D5B4888E356
 SSDEEP | `384:vvpXtYHHqGtCWY9L9I/irrEDKfaEX4inB2QDxaf0FiWcUW6:HRt94CWShIWg+BddF4`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Send a message to a user.
@@ -82,5 +85,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

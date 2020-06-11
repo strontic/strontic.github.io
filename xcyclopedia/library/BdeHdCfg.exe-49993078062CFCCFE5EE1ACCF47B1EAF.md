@@ -1,10 +1,12 @@
 ﻿
 # BdeHdCfg.exe 
+
 * File Path: `C:\WINDOWS\system32\BdeHdCfg.exe`
 * Description: BitLocker Drive Encryption: Drive Preparation Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `49993078062CFCCFE5EE1ACCF47B1EAF`
@@ -15,6 +17,7 @@ SHA415 | `AA832DF6A6EC05C915EF5798B7577F5FF0968C4A2449D9019ABFF2FA64B61E502CFEBA
 SSDEEP | `3072:qVSiRmzT/b1a+PKHVZzwnVS570M9kdatGCO+xmBc+hMPhPsx:q8x3KHVZ8Vs7nyatGt+SYF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 BitLocker Drive Preparation Tool version 10.0.18362
@@ -113,5 +116,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

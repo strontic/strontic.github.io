@@ -1,10 +1,12 @@
 ﻿
 # MRT.exe 
+
 * File Path: `C:\Windows\system32\MRT.exe`
 * Description: Microsoft Windows Malicious Software Removal Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `792A4FC72C80CA97C00196B4D8B27A0E`
@@ -15,6 +17,7 @@ SHA415 | `54BF1E32C36D7AB05B455D2908F19ABE903C5B7B37F1F6C81F8414C41CC87FD5F01BA9
 SSDEEP | `3145728:AIjdsgooon1zd/A/G/j5xB/G5xdE5x65xS/W5xV5xh5xr5xT5xM5xw5xR5xb8sBr:tjd+ovT8sBr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3145728:AIjdsgooon1zd/A/G/j5xB/G5xdE5x65xS/W5xV5xh5xr5xT5xM5xw5xR5xb8s
 * Product Version: 5.82.17046.2
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

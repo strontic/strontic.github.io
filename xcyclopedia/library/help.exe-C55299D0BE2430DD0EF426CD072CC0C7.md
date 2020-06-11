@@ -1,10 +1,12 @@
 ﻿
 # help.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\help.exe`
 * Description: Command Line Help Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C55299D0BE2430DD0EF426CD072CC0C7`
@@ -15,6 +17,7 @@ SHA415 | `8D4127430FB54E2BA1B07FECC904BAA1900118B932C20FB800A6EF67271A1E6EF98B78
 SSDEEP | `192:YuVkWfO6zY6WypD7VE3isM2WRqkoWdcWiH:Ysj7zBWy1VEs7oWdcWiH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Provides help information for Windows commands.
@@ -50,5 +53,7 @@ HELP [command]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

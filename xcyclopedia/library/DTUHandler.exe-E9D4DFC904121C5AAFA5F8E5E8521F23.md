@@ -1,10 +1,12 @@
 ﻿
 # DTUHandler.exe 
+
 * File Path: `C:\WINDOWS\system32\DTUHandler.exe`
 * Description: DTUHandler
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E9D4DFC904121C5AAFA5F8E5E8521F23`
@@ -15,6 +17,7 @@ SHA415 | `F429BDD75158249FEBCBFA9094CC7F2FE4A7A292CAE5818E95F51AA505F9766AC78DB6
 SSDEEP | `3072:n4MJyeF34WSPTrf9OLzh4bJurJ/pJyeoHpM7CDtamBZgNRO5jzw7Qu6zt:4wyeJRSPTroCDtamBZghQp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:n4MJyeF34WSPTrf9OLzh4bJurJ/pJyeoHpM7CDtamBZgNRO5jzw7Qu6zt:4wyeJRS
 * Product Version: 10.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

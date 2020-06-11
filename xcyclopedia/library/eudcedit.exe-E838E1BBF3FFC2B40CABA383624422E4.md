@@ -1,10 +1,12 @@
 ﻿
 # eudcedit.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\eudcedit.exe`
 * Description: Private Character Editor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E838E1BBF3FFC2B40CABA383624422E4`
@@ -15,6 +17,7 @@ SHA415 | `B46F14A854105E225CE7FF0E962ED8A858E8A19F5B399F33CED3FD11F843FA087D92E4
 SSDEEP | `6144:2uDFjoYTB9nZgILF3dW5lLHcLj12UcQTEStPT2O01PZSqtYVQs:2c119nZjVcQTESt613tY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:2uDFjoYTB9nZgILF3dW5lLHcLj12UcQTEStPT2O01PZSqtYVQs:2c119nZjVcQTES
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

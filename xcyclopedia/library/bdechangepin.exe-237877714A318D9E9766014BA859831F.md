@@ -1,10 +1,12 @@
 ﻿
 # bdechangepin.exe 
+
 * File Path: `C:\WINDOWS\system32\bdechangepin.exe`
 * Description: BitLocker Drive Encryption: PIN Change Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `237877714A318D9E9766014BA859831F`
@@ -15,6 +17,7 @@ SHA415 | `34EB1C22E0C631E85FB1210ED8024C5E2144F6BDE960949E8B205BD14AA79F4A86EB28
 SSDEEP | `6144:7OqNU7GHVxHEVHHHQVb1kHVqHVqHQQbTuTRTHTfTEHVf2XTQT6TITQT+VyW176eQ:ioUJH+S+`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:7OqNU7GHVxHEVHHHQVb1kHVqHVqHQQbTuTRTHTfTEHVf2XTQT6TITQT+VyW176eQ:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

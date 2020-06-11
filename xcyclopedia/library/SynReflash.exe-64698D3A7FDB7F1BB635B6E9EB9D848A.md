@@ -1,10 +1,12 @@
 ﻿
 # SynReflash.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\SynReflash.exe`
 * Description: TouchPad Reflash
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `64698D3A7FDB7F1BB635B6E9EB9D848A`
@@ -15,6 +17,7 @@ SHA415 | `4B7AA3F042E68FAD83402A3FD428501DA10581E3E888C75A9CBA582CFB686AEB3E23B2
 SSDEEP | `24576:6nQNZz4L5PWFIutBzQ1zCjakbmq920WDU5VM0XS:GsEwzQ1zCjakbd2NU56CS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:6nQNZz4L5PWFIutBzQ1zCjakbmq920WDU5VM0XS:GsEwzQ1zCjakbd2NU56CS`
 * Product Version: 19.0.12.95 06Jul15
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2015
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

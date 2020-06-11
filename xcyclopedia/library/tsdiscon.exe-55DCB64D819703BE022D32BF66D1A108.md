@@ -1,10 +1,12 @@
 ﻿
 # tsdiscon.exe 
+
 * File Path: `C:\Windows\system32\tsdiscon.exe`
 * Description: Session Disconnection Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `55DCB64D819703BE022D32BF66D1A108`
@@ -15,6 +17,7 @@ SHA415 | `F81BD057F3889B8012B1110512EF08F7A983D838FDA6F5DEB33E9C9358B8BB180AD7A3
 SSDEEP | `384:xGRs3qOHWuTfRDB825sttUGnREL55rSg0Nh7CJzjjp+vcu05yKcyGMrUEePWMmWW:xGRmHzw2ynnA9DYRCFjUjwyLEeQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Disconnects a Remote Desktop Services session.
@@ -66,5 +69,7 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

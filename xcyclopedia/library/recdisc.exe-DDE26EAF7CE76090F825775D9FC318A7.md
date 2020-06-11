@@ -1,10 +1,12 @@
 ﻿
 # recdisc.exe 
+
 * File Path: `C:\WINDOWS\system32\recdisc.exe`
 * Description: Microsoft Windows Repair Disc
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DDE26EAF7CE76090F825775D9FC318A7`
@@ -15,6 +17,7 @@ SHA415 | `87C9FFD9A0EE5FD377A7C5B38246524A4FBD18E5B2EEA5A23C688363251E8473049F75
 SSDEEP | `3072:E7Mc6yIZDx/HhN0Uc38lB/BAuegPO8evTq2V4:+4/BNllB5FegEv+2V`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:E7Mc6yIZDx/HhN0Uc38lB/BAuegPO8evTq2V4:+4/BNllB5FegEv+2V`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

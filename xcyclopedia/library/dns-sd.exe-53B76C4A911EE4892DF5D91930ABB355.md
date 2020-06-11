@@ -1,10 +1,12 @@
 ﻿
 # dns-sd.exe 
+
 * File Path: `C:\Windows\SysWOW64\dns-sd.exe`
 * Description: Bonjour Console Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `53B76C4A911EE4892DF5D91930ABB355`
@@ -15,6 +17,7 @@ SHA415 | `11A62D827219A8AFEE82822C7986C6BDEBC35A738ADCE1A47ECCDF195173E82F778847
 SSDEEP | `1536:2UpInlAVwr1BTvm2hm2qW3gY1hP7a0BDkXOgmSaQGRtIk:0z+2hmQQk7RkOgmSaQGnl`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -64,5 +67,7 @@ dns-sd.exe -S                 (Test multiple operations on a shared socket)
 * Product Version: 3,1,0,1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2003-2015 Apple Inc.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

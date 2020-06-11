@@ -1,10 +1,12 @@
 ﻿
 # sfc.exe 
+
 * File Path: `C:\Windows\SysWOW64\sfc.exe`
 * Description: System Integrity Check and Repair
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `755A36263B919A5FEC30F7F697B0AA4A`
@@ -15,6 +17,7 @@ SHA415 | `A5CD04C177614491B8DA8D4888B95C368836ED74F68FB7FE7740149F3A9B930853D638
 SSDEEP | `768:n8pfRks4ZxJXxTnrJikirB7ILn5FvYzmMPljmmpgFUG:S09RnrJikirZdlmmpgB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -72,5 +75,7 @@ e.g.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

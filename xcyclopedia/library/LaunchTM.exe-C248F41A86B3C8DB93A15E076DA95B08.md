@@ -1,10 +1,12 @@
 ﻿
 # LaunchTM.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\LaunchTM.exe`
 * Description: Task Manager Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C248F41A86B3C8DB93A15E076DA95B08`
@@ -15,6 +17,7 @@ SHA415 | `2B4E42ADAFC18D7483446A10606F4AAB4393A079C5F9A743C113066C92E1FA473ECAC1
 SSDEEP | `192:Onk7+bO20NWADmQS94MDZb5vBGrIWAqayWrN:2hS2YWASDXBGsWAqayWr`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:Onk7+bO20NWADmQS94MDZb5vBGrIWAqayWrN:2hS2YWASDXBGsWAqayWr`
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

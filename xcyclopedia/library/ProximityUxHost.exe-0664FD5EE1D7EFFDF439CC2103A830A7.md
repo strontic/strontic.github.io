@@ -1,10 +1,12 @@
 ﻿
 # ProximityUxHost.exe 
+
 * File Path: `C:\WINDOWS\system32\ProximityUxHost.exe`
 * Description: Proximity UX Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0664FD5EE1D7EFFDF439CC2103A830A7`
@@ -15,6 +17,7 @@ SHA415 | `CA77BDB255362F62B58A6C06ADCA8E2233BFCC8881037307F7EECEF4BC347839E71934
 SSDEEP | `6144:6KbAqG7L05P8v+lyQXMgVNj/Y2Zqm1Fl5B92lg:6KbnG7LW8GlXXVNj/Yi31ZBclg`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:6KbAqG7L05P8v+lyQXMgVNj/Y2Zqm1Fl5B92lg:6KbnG7LW8GlXXVNj/Yi31ZBclg
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

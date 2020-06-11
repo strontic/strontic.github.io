@@ -1,10 +1,12 @@
 ﻿
 # lxdnwavs.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\common\hungaran\lxdnwavs.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D1F3875FBFEC80DFED2A1A87ED1DDF25`
@@ -15,6 +17,7 @@ SHA415 | `89F1C2A812F85FD9328A10686EFDE7E53A4CA7C60DF2AD5CB090BA19F21CD94A00EF21
 SSDEEP | `6144:+dxCmixBESFadYAU8wXqU7uU6ob6ECZna2csXJ+W0zT:+domibES4YAU8wZYob3h2ZZOH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 PKSFX(R)  Version 2.50  FAST!  Self Extract Utility for Windows 95/NT 4-15-1998
@@ -76,5 +79,7 @@ conhost.exe
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

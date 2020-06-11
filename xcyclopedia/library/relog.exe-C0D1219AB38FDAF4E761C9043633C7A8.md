@@ -1,10 +1,12 @@
 ﻿
 # relog.exe 
+
 * File Path: `C:\WINDOWS\system32\relog.exe`
 * Description: Performance Relogging Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C0D1219AB38FDAF4E761C9043633C7A8`
@@ -15,6 +17,7 @@ SHA415 | `3384DBE3D35EB7306CF7EB0BEC13628E2C5DB277F86CD7FD9C5FE2F90D77E6D4719AC5
 SSDEEP | `768:jS+J9nlfS+UpKYp86NByg+BOU3S+QLur+h4sLRjs+JT95Uk8dQMV4sc8222Mp/qz:G+axNi3Dsc1sdjswjdGTV4scL2R/qR1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -83,5 +86,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

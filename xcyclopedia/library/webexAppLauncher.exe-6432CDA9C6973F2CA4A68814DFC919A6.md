@@ -1,10 +1,12 @@
 ﻿
 # webexAppLauncher.exe 
+
 * File Path: `C:\ProgramData\WebEx\webexAppLauncher.exe`
 * Description: WebEx Productivity Tools Application
 * Comments: WebEx Productivity Tools Application Program
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6432CDA9C6973F2CA4A68814DFC919A6`
@@ -15,6 +17,7 @@ SHA415 | `10F634B166B57B62C63B79DCF34490ABBAAD0182C3B935FF82E238E105832C22E0128F
 SSDEEP | `12288:jJbcd8yYloFSV0uFGrYMcnGSeDj9//YzHXfZs:jJgd8yEV+cleP5wPG`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ cmd.exe
 * Product Version: 3303,4,1807,2500
 * Language: English (United States)
 * Legal Copyright:  2017 Cisco and/or its affiliates. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

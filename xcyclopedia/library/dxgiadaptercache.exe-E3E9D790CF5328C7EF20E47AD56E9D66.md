@@ -1,10 +1,12 @@
 ﻿
 # dxgiadaptercache.exe 
+
 * File Path: `C:\WINDOWS\system32\dxgiadaptercache.exe`
 * Description: DXGI Adapter Cache
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E3E9D790CF5328C7EF20E47AD56E9D66`
@@ -15,6 +17,7 @@ SHA415 | `EF64F292C7082127227CB272139E2A38C1D68EF9B67913F162986B52D34C3C51D66FC6
 SSDEEP | `6144:nb5AYTWqz0W/7o0FnA82+qjRaSLM2iISGlp1K:b5AYTWqz0QA8qjRaSLM1IJp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:nb5AYTWqz0W/7o0FnA82+qjRaSLM2iISGlp1K:b5AYTWqz0QA8qjRaSLM1IJp`
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

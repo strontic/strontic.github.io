@@ -1,10 +1,12 @@
 ﻿
 # SpaceAgent.exe 
+
 * File Path: `C:\WINDOWS\system32\SpaceAgent.exe`
 * Description: Storage Spaces Settings
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7007DF3C55AEC1C0226D9CD375681E1D`
@@ -15,6 +17,7 @@ SHA415 | `355488CBA49C26DF4212ED1BD27002AADE05C5A0C49F261705B454D0083EFF45D78386
 SSDEEP | `3072:PnEGTU8sw1ag4rFUkNwh8osksFJcO0rKO+i0M8LIeBioDq:8Wsw1ag4rWecsFJcO0rKni0M+IUioD`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:PnEGTU8sw1ag4rFUkNwh8osksFJcO0rKO+i0M8LIeBioDq:8Wsw1ag4rWecsFJcO0
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

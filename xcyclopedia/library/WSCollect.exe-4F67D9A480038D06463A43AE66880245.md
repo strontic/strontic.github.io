@@ -1,10 +1,12 @@
 ﻿
 # WSCollect.exe 
+
 * File Path: `C:\Windows\system32\WSCollect.exe`
 * Description: This tool collects Windows Store log files
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4F67D9A480038D06463A43AE66880245`
@@ -15,6 +17,7 @@ SHA415 | `1BF7022E4F51D1390586DB88259884619C0A9E276E66E8BA079F2CABA4985F946E20E2
 SSDEEP | `768:gSfVcsHPYfMr+I4vyIY1JrSpCNvzOTSOAVDNsn4FOBkStBW1:4UCI4qn1SWUSOAVAg0Y1`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Error: 0x8007007b
@@ -46,5 +49,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

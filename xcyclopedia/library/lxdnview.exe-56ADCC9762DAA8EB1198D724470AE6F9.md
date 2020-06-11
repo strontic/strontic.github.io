@@ -1,10 +1,12 @@
 ﻿
 # lxdnview.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnview.exe`
 * Description: Lexmark Connect Viewer Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `56ADCC9762DAA8EB1198D724470AE6F9`
@@ -15,6 +17,7 @@ SHA415 | `5B3F24246594BE358F0E3FC0B2C145BDE25577B0EEDFD0128C1267E4FCBCA4A894380B
 SSDEEP | `192:nQ8h490svBOClpjfYlnRL3BgsRt2cRXRBy9gQD:Q8h4b9PMlnRL3rRt2gq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ iexplore.exe
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

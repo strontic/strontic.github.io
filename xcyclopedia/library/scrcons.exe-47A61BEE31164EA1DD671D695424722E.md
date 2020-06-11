@@ -1,10 +1,12 @@
 ﻿
 # scrcons.exe 
+
 * File Path: `C:\WINDOWS\system32\wbem\scrcons.exe`
 * Description: WMI Standard Event Consumer - scripting
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `47A61BEE31164EA1DD671D695424722E`
@@ -15,6 +17,7 @@ SHA415 | `CC5CA984988CF57FF897C0D2F59ED5E85D77C3A1E31A5F1CE9FB0BCEDBA6A2D402A6F0
 SSDEEP | `1536:S5yZTlWQg7Pvzgaf51FnRurL+nEFvyeu:SgRWQg7PvJfrFncrL+nEJq`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Cannot run standalone
@@ -46,5 +49,7 @@ Cannot run standalone
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

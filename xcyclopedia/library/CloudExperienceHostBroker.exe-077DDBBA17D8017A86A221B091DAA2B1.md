@@ -1,10 +1,12 @@
 ﻿
 # CloudExperienceHostBroker.exe 
+
 * File Path: `C:\Windows\system32\CloudExperienceHostBroker.exe`
 * Description: CloudExperienceHost Broker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `077DDBBA17D8017A86A221B091DAA2B1`
@@ -15,6 +17,7 @@ SHA415 | `6534737A874622DC753DF2F6A95A0535B02391D2D1873F373A8D862F1FA2EF5A43FA53
 SSDEEP | `1536:aZBWjco9eS2/Eqidhxz43BkxYMvNhIsd+pS199YMXVP15FP0cG:QBqMS28vkBkxYE+pSb9YM515FMZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:aZBWjco9eS2/Eqidhxz43BkxYMvNhIsd+pS199YMXVP15FP0cG:QBqMS28vkBkxYE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

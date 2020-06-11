@@ -1,10 +1,12 @@
 ﻿
 # consent.exe 
+
 * File Path: `C:\WINDOWS\system32\consent.exe`
 * Description: Consent UI for administrative applications
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EE2A1C85C472F89B146CC8EE598CCCBC`
@@ -15,6 +17,7 @@ SHA415 | `FC63B0815D4D05FD43937A47C0BC39A0A5D417D14E06850F3F675A42B05D17661CA950
 SSDEEP | `3072:jl6QmvXarBwHwNRFj2LEwGL0xlsiMFz7D:jkvX9w3ILEwGYPJMFz`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:jl6QmvXarBwHwNRFj2LEwGL0xlsiMFz7D:jkvX9w3ILEwGYPJMFz`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

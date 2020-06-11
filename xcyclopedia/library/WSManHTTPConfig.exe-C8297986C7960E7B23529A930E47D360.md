@@ -1,10 +1,12 @@
 ﻿
 # WSManHTTPConfig.exe 
+
 * File Path: `C:\WINDOWS\system32\WSManHTTPConfig.exe`
 * Description: WSMan HTTP Configuration File
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `C8297986C7960E7B23529A930E47D360`
@@ -15,6 +17,7 @@ SHA415 | `CDAACF8BC6BA899A891B9C93935D8B1AF47D83FCD53AF47673E7133789136307AC0737
 SSDEEP | `768:wPq9n+u59a3PWePKVgknl0cxjofHfi//2elS:wS9n79a3PWHn+AjoPfi/xlS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -47,5 +50,7 @@ WSMan Generic Command ERROR: Error in parsing input
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

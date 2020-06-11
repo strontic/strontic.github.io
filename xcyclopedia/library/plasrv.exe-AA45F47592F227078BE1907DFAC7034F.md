@@ -1,10 +1,12 @@
 ﻿
 # plasrv.exe 
+
 * File Path: `C:\Windows\system32\plasrv.exe`
 * Description: Performance Logs and Alerts DCOM Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AA45F47592F227078BE1907DFAC7034F`
@@ -15,6 +17,7 @@ SHA415 | `CE2162180BCE565B931407CD2A31824A3187BE484265EFAE9707EA8BBFED5BB22A6C1B
 SSDEEP | `192:TgvfedAPgkqDzEM4r1RWXIZCRvhIuPdS1reDR5eWdXW:TgvfKkqXynW4SvGuPJwWdXW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ chrome.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

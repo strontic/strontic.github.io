@@ -1,10 +1,12 @@
 ﻿
 # GeForce_Experience_Update_v2.4.3.22.exe 
+
 * File Path: `C:\ProgramData\NVIDIA Corporation\NetService\00000000-0000-0000-0000-000000000000\GeForce_Experience_Update_v2.4.3.22.exe`
 * Description: NVIDIA Package Launcher
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D1F9698C96BD79E6B697FED7292E33E3`
@@ -15,6 +17,7 @@ SHA415 | `C27728628887FD19D5D34D885F6ABEE51022E1E6A1BBA2B078C2D0DAC3130FA7C0947D
 SSDEEP | `786432:NXZzhTwSs9GhNvfAWJcZDA0TYWOiQsAd1FbmqYMTBkP0qjGrQ:xZNTZbvfJcZ0fWTAd/bmq6PFjGrQ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `786432:NXZzhTwSs9GhNvfAWJcZDA0TYWOiQsAd1FbmqYMTBkP0qjGrQ:xZNTZbvfJcZ0f
 * Product Version: 1.0.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2015 NVIDIA Corporation
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

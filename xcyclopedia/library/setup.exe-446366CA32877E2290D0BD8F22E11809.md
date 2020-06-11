@@ -1,10 +1,12 @@
 ﻿
 # setup.exe 
+
 * File Path: `C:\ProgramData\Adobe\Setup\{00000000-0000-0000-0000-000000000000}\RDC\setup.exe`
 * Description: Adobe Bootstrapper for Single Installation
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `446366CA32877E2290D0BD8F22E11809`
@@ -15,6 +17,7 @@ SHA415 | `EDBB4CD70B9C372F827136DB217087451732F83A34AF854FF031A659E9AEE0FE849C00
 SSDEEP | `6144:aYrIOXsqmWzJrdc6GJRQUWGUA9PRWLiFSbE56FORF:q2lWRPWhA9PRWg9`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:aYrIOXsqmWzJrdc6GJRQUWGUA9PRWLiFSbE56FORF:q2lWRPWhA9PRWg9`
 * Product Version: 20.9.20063.381938
 * Language: English (United States)
 * Legal Copyright: Copyright  2020 Adobe Systems Incorporated.  All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

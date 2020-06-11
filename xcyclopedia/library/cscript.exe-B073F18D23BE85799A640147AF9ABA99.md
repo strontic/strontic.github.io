@@ -1,10 +1,12 @@
 ﻿
 # cscript.exe 
+
 * File Path: `C:\WINDOWS\system32\cscript.exe`
 * Description: Microsoft  Console Based Script Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B073F18D23BE85799A640147AF9ABA99`
@@ -15,6 +17,7 @@ SHA415 | `326729DE03A7A443393861CFAF33F69C11E4D5EEA048B8F90B0D6F6E37BDD62B20B628
 SSDEEP | `3072:94IxXaX+MPR9ZSwDBTK5kF9sAwaFOhjUrL2lT6IZxtt:94IMJZhR9sAyKCTfZh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft (R) Windows Script Host Version 5.812
@@ -64,5 +67,7 @@ Options:
 * Product Version: 5.812.10240.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # perfhost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\perfhost.exe`
 * Description: x86 Performance Counter Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0EC027E95D4B022102940FA3CD930E46`
@@ -15,6 +17,7 @@ SHA415 | `5E0BB30C355CD6E1DFB5D0D9228ECC662DC45EEE19166D4033E4894F62A3EC650117F5
 SSDEEP | `384:2abyH9T1hZCnqpbLHoZv1ZS+lF6Wa0Wk5Ftgs+p5YT:PenhUPzSOFOiWI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:2abyH9T1hZCnqpbLHoZv1ZS+lF6Wa0Wk5Ftgs+p5YT:PenhUPzSOFOiWI`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

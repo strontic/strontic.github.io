@@ -1,10 +1,12 @@
 ﻿
 # cacls.exe 
+
 * File Path: `C:\WINDOWS\system32\cacls.exe`
 * Description: Control ACLs Program
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B75DBE7670516FE2F1C06211006299B2`
@@ -15,6 +17,7 @@ SHA415 | `215046CE99E4DFE2645F9DBC230BB29891B3AE985882419738BDE15024E41B5B19110A
 SSDEEP | `768:462i0EvHYstIAp5m8ubMFdQDpRuvu0tiPbND+G4bU:b2ibbIA3m8rFaDp820kxD+GuU`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -87,5 +90,7 @@ SSDEEP | `768:462i0EvHYstIAp5m8ubMFdQDpRuvu0tiPbND+G4bU:b2ibbIA3m8rFaDp820kxD+Gu
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

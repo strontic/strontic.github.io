@@ -1,10 +1,12 @@
 ﻿
 # xpsrchvw.exe 
+
 * File Path: `C:\WINDOWS\system32\xpsrchvw.exe`
 * Description: XPS Viewer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `BB3F56E70E18DD705CDDB237B355EFBB`
@@ -15,6 +17,7 @@ SHA415 | `E7263F252753FDE97EE90E90786FA57CEC5E75C20D77D2F6CB19B144ACC46EA8BE0046
 SSDEEP | `49152:jB1kxmYjBwNoVuyOiz3r8JYwxZCkwlyZTX7LiiMlMU55fnWRHQifpGfZax5TtORi:jB1kUawxr77LgsXTtaQMw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:jB1kxmYjBwNoVuyOiz3r8JYwxZCkwlyZTX7LiiMlMU55fnWRHQifpGfZax5TtORi
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

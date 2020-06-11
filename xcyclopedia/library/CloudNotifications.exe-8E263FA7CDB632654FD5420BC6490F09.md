@@ -1,10 +1,12 @@
 ﻿
 # CloudNotifications.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\CloudNotifications.exe`
 * Description: Cloud notifications
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8E263FA7CDB632654FD5420BC6490F09`
@@ -15,6 +17,7 @@ SHA415 | `6911E6C0C46C610C979A8086E5F73A7F44E5C2B9935DE32180C5368DB42A50519413AB
 SSDEEP | `1536:jb+YR3wgD0Nuoh44/cJ6x0ZOOLAqiKTy+YMXPhJ:jb++sNrhnKO+ZX`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:jb+YR3wgD0Nuoh44/cJ6x0ZOOLAqiKTy+YMXPhJ:jb++sNrhnKO+ZX`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

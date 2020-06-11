@@ -1,10 +1,12 @@
 ﻿
 # tcmsetup.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\tcmsetup.exe`
 * Description: Microsoft Windows(TM) Telephony Administration Setup
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `23CED384B3241EECF806DB2C7BF96126`
@@ -15,6 +17,7 @@ SHA415 | `A660742F3233DF88F9AE6C37021FBE17E2A0CC673381929C910727E8EAA228DE83922D
 SSDEEP | `192:WqMu21Wg6MyBF8TPJ9vXsDFWRLsCoad6V6WvQWGGoW:7MpYg26vX+WRQD8WvQWGGoW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:WqMu21Wg6MyBF8TPJ9vXsDFWRLsCoad6V6WvQWGGoW:7MpYg26vX+WRQD8WvQWGGoW
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

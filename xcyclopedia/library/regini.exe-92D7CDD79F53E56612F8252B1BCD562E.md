@@ -1,10 +1,12 @@
 ﻿
 # regini.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\regini.exe`
 * Description: Registry Initializer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `92D7CDD79F53E56612F8252B1BCD562E`
@@ -15,6 +17,7 @@ SHA415 | `000B354083A10B0DD519DEE59DF7EE5BE22DB5BBBBFF9BC8210D1B94DEEEA1F9402883
 SSDEEP | `768:TvGV2EIgkhyilsH6RBDDbucQx40DEFfIiwvWC+LMcwD7zEkduKjmvt1Q8Z:T5E3SDDbu1efINWCUMVznjmv3BZ`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -200,5 +203,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

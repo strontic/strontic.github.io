@@ -1,10 +1,12 @@
 ﻿
 # dialer.exe 
+
 * File Path: `C:\Windows\SysWOW64\dialer.exe`
 * Description: Microsoft Windows Phone Dialer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8D1B750238D9EB0BA7DCA00EC51073FE`
@@ -15,6 +17,7 @@ SHA415 | `3433F2D4D4BEF48320DBA16BF3CE848623E152E4091679DB878C72C5B79A87E2A66EA1
 SSDEEP | `768:eBuB3QCe1YBo6gtZU/q0Xgedekspe9idXV:yuBACeua6gUrgSRs8idXV`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:eBuB3QCe1YBo6gtZU/q0Xgedekspe9idXV:yuBACeua6gUrgSRs8idXV`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

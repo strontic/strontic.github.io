@@ -1,10 +1,12 @@
 ﻿
 # tttracer.exe 
+
 * File Path: `C:\WINDOWS\system32\tttracer.exe`
 * Description: Time Travel Tracing Tracer Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5D419F7F98ABC0B3CF9E52D3598F587F`
@@ -15,6 +17,7 @@ SHA415 | `EB00FF3DA21C4A9B19DEE75A1177CDF0E5164AF1882D5DE622A5081C3454C0088C2502
 SSDEEP | `6144:LMjBOQRWbzF90BaZXMbACl4DH3IH5rNbbVdUK3KRSO+Qqm/QDGr5rITBevg:TTBZaACO4NB9KRLDWGqd2g`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Microsoft (R) TTTracer 1.01.05
@@ -49,5 +52,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

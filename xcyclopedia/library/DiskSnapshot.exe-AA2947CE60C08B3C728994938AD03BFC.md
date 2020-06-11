@@ -1,10 +1,12 @@
 ﻿
 # DiskSnapshot.exe 
+
 * File Path: `C:\Windows\system32\DiskSnapshot.exe`
 * Description: DiskSnapshot.exe
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AA2947CE60C08B3C728994938AD03BFC`
@@ -15,6 +17,7 @@ SHA415 | `70CDE99FA111C967FB873528280BB68212BB363DD747A92B26D63540097558F23BBE2F
 SSDEEP | `1536:oUXgqagabifeWsFMtGhynZrsjTD7wObLRaecOPfGeLIcY+xAz4qgfXEGRdx:vGWsFMtGhynZrsjTD7wObLRaecOP+eMy`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -56,5 +59,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

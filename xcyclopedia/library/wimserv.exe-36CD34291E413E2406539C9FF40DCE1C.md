@@ -1,10 +1,12 @@
 ﻿
 # wimserv.exe 
+
 * File Path: `C:\Windows\system32\wimserv.exe`
 * Description: Wimfltr v2 extractor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `36CD34291E413E2406539C9FF40DCE1C`
@@ -15,6 +17,7 @@ SHA415 | `85B25003D721786F0225DB6C33F15C7FA10B12CF8EF1C7857C2920ACAB8F3532E989B2
 SSDEEP | `6144:MsjKw62wMgi0wTDMwffNtDTU4BUFhbwRVegMU7k3QRfX/1vPeoNcM80Au9Oyo:1jKn21gi0wTgwNtHU45Mp3W1d80Q`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:MsjKw62wMgi0wTDMwffNtDTU4BUFhbwRVegMU7k3QRfX/1vPeoNcM80Au9Oyo:1jK
 * Product Version: 10.0.14393.3503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

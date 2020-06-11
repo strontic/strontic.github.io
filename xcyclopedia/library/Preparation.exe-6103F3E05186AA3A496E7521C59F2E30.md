@@ -1,10 +1,12 @@
 ﻿
 # Preparation.exe 
+
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\patch_KB3110221\Preparation.exe`
 * Description: Microsoft Visual Studio 2015
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6103F3E05186AA3A496E7521C59F2E30`
@@ -15,6 +17,7 @@ SHA415 | `58BAF260BAB9D740063099BA2A72797F262522850096C00E38E63F3C95B72A540FE933
 SSDEEP | `3072:h3PpcWd0dAeJopCjW+C1dvI8YOOYI0UmpKpmV2aT5qTEoN:EdAeJQCg7AmbEadEN`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:h3PpcWd0dAeJopCjW+C1dvI8YOOYI0UmpKpmV2aT5qTEoN:EdAeJQCg7AmbEadEN`
 * Product Version: 14.0.24730.2
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

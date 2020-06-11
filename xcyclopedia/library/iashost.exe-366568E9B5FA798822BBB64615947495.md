@@ -1,10 +1,12 @@
 ﻿
 # iashost.exe 
+
 * File Path: `C:\Windows\system32\iashost.exe`
 * Description: IAS Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `366568E9B5FA798822BBB64615947495`
@@ -15,6 +17,7 @@ SHA415 | `E10C96A5E57A7AEE50C3458B1D55D39377B4926EDDAD85CD4EB5ECAF80DEC8A95C1A23
 SSDEEP | `384:j5WCUR7Lm5oCWcafg5q7QMGmHzke2UMMAmF3wHpm/CHZXhti1W/uW:jkhhKcf7QP6zkvMAmVwJm+XuC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:j5WCUR7Lm5oCWcafg5q7QMGmHzke2UMMAmF3wHpm/CHZXhti1W/uW:jkhhKcf7QP6z
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

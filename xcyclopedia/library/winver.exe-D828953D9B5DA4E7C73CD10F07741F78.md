@@ -1,10 +1,12 @@
 ﻿
 # winver.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\winver.exe`
 * Description: Version Reporter Applet
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D828953D9B5DA4E7C73CD10F07741F78`
@@ -15,6 +17,7 @@ SHA415 | `F2BA5E00FB0200B63AFB75E2063E5EEFAD1F97492E8AF3176D83C37814CDB776B8B60E
 SSDEEP | `768:6wqdzEyP+GSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXp:gAyP+xakkn6oYY0ewiP8A`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:6wqdzEyP+GSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXp:gAyP+xakkn6oY
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

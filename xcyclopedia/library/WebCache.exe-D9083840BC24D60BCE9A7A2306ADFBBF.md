@@ -1,10 +1,12 @@
 ﻿
 # WebCache.exe 
+
 * File Path: `C:\Windows\system32\WebCache.exe`
 * Description: Microsoft Web Cache
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `D9083840BC24D60BCE9A7A2306ADFBBF`
@@ -15,6 +17,7 @@ SHA415 | `B60CFB1D15BDA9B48A07A61529DC6E5BE43131242F13144257E05FBF1EBE9ED4AA68DD
 SSDEEP | `192:IqIy3WrPffBZOaMrU/E64GRfUNGGohB4EY8WWBU0WgFfx:Iv6WLBsOE5G9uG9hBeW/WgFp`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `192:IqIy3WrPffBZOaMrU/E64GRfUNGGohB4EY8WWBU0WgFfx:Iv6WLBsOE5G9uG9hBeW/
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

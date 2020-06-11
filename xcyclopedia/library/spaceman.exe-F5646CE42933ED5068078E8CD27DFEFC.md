@@ -1,10 +1,12 @@
 ﻿
 # spaceman.exe 
+
 * File Path: `C:\Windows\system32\spaceman.exe`
 * Description: Storage Spaces Manager
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F5646CE42933ED5068078E8CD27DFEFC`
@@ -15,6 +17,7 @@ SHA415 | `4083456A8605A66544741DA80DF2201F7F797DCB7C49B68568517EFE6E63DBD32FEDB2
 SSDEEP | `768:2J50rAlo07YvjyttPYuYlwswWiLCotCNSBf96vxoU44vLu:y5BOlwmieotCif96vxol4Du`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:2J50rAlo07YvjyttPYuYlwswWiLCotCNSBf96vxoU44vLu:y5BOlwmieotCif96vxo
 * Product Version: 10.0.14393.206
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

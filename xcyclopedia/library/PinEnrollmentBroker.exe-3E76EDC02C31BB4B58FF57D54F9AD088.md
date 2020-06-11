@@ -1,10 +1,12 @@
 ﻿
 # PinEnrollmentBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\PinEnrollmentBroker.exe`
 * Description: PinEnrollmentBroker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3E76EDC02C31BB4B58FF57D54F9AD088`
@@ -15,6 +17,7 @@ SHA415 | `6F9284D941EE5CE1988428385A952A65B3BA235A86EFE09AB043BE66FF86588BE99C56
 SSDEEP | `1536:E+ddVA6E18Rxkd6chgU16Wv3NVart3rkLbYj2YKmlAwvus9arRKgXUa0:BdVL0lgUJv9Vaac2Yllh18xka0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:E+ddVA6E18Rxkd6chgU16Wv3NVart3rkLbYj2YKmlAwvus9arRKgXUa0:BdVL0lgU
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

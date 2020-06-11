@@ -1,10 +1,12 @@
 ﻿
 # tpmvscmgrsvr.exe 
+
 * File Path: `C:\WINDOWS\system32\tpmvscmgrsvr.exe`
 * Description: TPM Virtual Smart Card Manager COM Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `720E3A4012C6C7711D749E0A959E948F`
@@ -15,6 +17,7 @@ SHA415 | `3DAF9C63D41AA470333008CC7CA0B15386E93EBF17C8C95CA7CE739A2B267F2974B814
 SSDEEP | `3072:0aGCNhdT87SLKD3OleE3j2C2IH/JMhM4:NNNrv83OlN3qC7xqM`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:0aGCNhdT87SLKD3OleE3j2C2IH/JMhM4:NNNrv83OlN3qC7xqM`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # CNMSE.EXE 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\mp230p6.inf_amd64_2ac7fe20edbb4402\CNMSE.EXE`
 * Description: Canon IJ Print Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `3C10FAAA0E0BD71A39C5CD096282744F`
@@ -15,6 +17,7 @@ SHA415 | `C920E12192A3D7FCBDB6C76F84866F9787B9497A54C22BDCC1CE0DCFA09639F1BF1BB5
 SSDEEP | `384:lgZukZ110kHwpXOr3xTK9xwY+kGq7wOcYJLcfaFeMS:lgZb1K+kXOLpewY+kGq7wORLDY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:lgZukZ110kHwpXOr3xTK9xwY+kGq7wOcYJLcfaFeMS:lgZb1K+kXOLpewY+kGq7wOR
 * Product Version: 2.60.2.10
 * Language: English (United States)
 * Legal Copyright: Copyright CANON INC. 2000-2012 All Rights Reserved
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

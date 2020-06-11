@@ -1,10 +1,12 @@
 ﻿
 # poqexec.exe 
+
 * File Path: `C:\WINDOWS\system32\poqexec.exe`
 * Description: Primitive Operations Queue Executor
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `5CCF728D271601A8135ED970B13F14FD`
@@ -15,6 +17,7 @@ SHA415 | `1CD24C27CA8501EC598951B704B9F02E51DE7948FE6F65818A840B3226A98F751D640C
 SSDEEP | `12288:3LvyayW9hu2jXJjJsoHGJmlIsJEadzz+iOqN8L5Y:7aavbBGJQiiQ5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:3LvyayW9hu2jXJjJsoHGJmlIsJEadzz+iOqN8L5Y:7aavbBGJQiiQ5`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

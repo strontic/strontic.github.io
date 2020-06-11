@@ -1,10 +1,12 @@
 ﻿
 # ImeBroker.exe 
+
 * File Path: `C:\WINDOWS\system32\IME\SHARED\ImeBroker.exe`
 * Description: Microsoft IME
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B6AB1E86471DEDA8250A3626BE4035EE`
@@ -15,6 +17,7 @@ SHA415 | `DABBE475036CD7F8024DBC6B1D5E95B4D6867401F022439A3E15C89C9DD8EE9378597D
 SSDEEP | `12288:aaOxcQRnLkUD6ZzzV1qvkvxfrMBxY1ihmLUOmc:a08f6ZzZ3qyjLgc`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:aaOxcQRnLkUD6ZzzV1qvkvxfrMBxY1ihmLUOmc:a08f6ZzZ3qyjLgc`
 * Product Version: 10.0.18362.657
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

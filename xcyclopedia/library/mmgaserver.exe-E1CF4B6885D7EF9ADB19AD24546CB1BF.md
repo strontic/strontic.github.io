@@ -1,10 +1,12 @@
 ﻿
 # mmgaserver.exe 
+
 * File Path: `C:\WINDOWS\system32\mmgaserver.exe`
 * Description: MMGA Server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E1CF4B6885D7EF9ADB19AD24546CB1BF`
@@ -15,6 +17,7 @@ SHA415 | `F487975A094F07E6AFDE93618AFF71C7F407C544B6C2F116A9483BF3D185FFE46B518F
 SSDEEP | `24576:Mg6mGcJfyPK91AP1K+d1I8nNWNMJSL23:Mg6mGcJf3WPvI8NWNMM23`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:Mg6mGcJfyPK91AP1K+d1I8nNWNMJSL23:Mg6mGcJf3WPvI8NWNMM23`
 * Product Version: 10.0.18362.145
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

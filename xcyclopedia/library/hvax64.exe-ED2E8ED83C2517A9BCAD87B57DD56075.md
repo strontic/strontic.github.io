@@ -1,10 +1,12 @@
 ﻿
 # hvax64.exe 
+
 * File Path: `C:\Windows\system32\hvax64.exe`
 * Description: Hypervisor V2.0
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `ED2E8ED83C2517A9BCAD87B57DD56075`
@@ -15,6 +17,7 @@ SHA415 | `A7A535B9B4BC6B050F3740985FCA962FD36F3DE30B66A13F9866F7F4259CD507A06FEF
 SSDEEP | `24576:lU1hEhLvUX7O4yReHZtc2AE4ejrbi2WqoIYe+/3Nk:oqUX7O4yIP4bW`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:lU1hEhLvUX7O4yReHZtc2AE4ejrbi2WqoIYe+/3Nk:oqUX7O4yIP4bW`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -1,10 +1,12 @@
 ﻿
 # OposHost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\OposHost.exe`
 * Description: OPOS Service Object Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `168DD397E91BCBFC500C6CC919E6088F`
@@ -15,6 +17,7 @@ SHA415 | `4DE7D569FF07A1816606ADD42B5BF27AC6BE509DFE6B00AC7072ECAD29C3745531FE61
 SSDEEP | `768:KT/7YMYSI8E4svMbuXX08DFH0mdLbEivB6Ts7b3AcoYb6ZoIh:KTTs8E5vMb2ks0mdr/Ploi6ZoIh`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:KT/7YMYSI8E4svMbuXX08DFH0mdLbEivB6Ts7b3AcoYb6ZoIh:KTTs8E5vMb2ks0md
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

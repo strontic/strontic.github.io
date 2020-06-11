@@ -1,10 +1,12 @@
 ﻿
 # sppsvc.exe 
+
 * File Path: `C:\WINDOWS\system32\sppsvc.exe`
 * Description: Microsoft Software Protection Platform Service
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `AC3C5CEAEDD1A6BF9EF825DE8F1F0CC9`
@@ -15,6 +17,7 @@ SHA415 | `89F60C99069F80922025EE46367FF335A353BE35423090E21A492BED5F6BCE03A2680E
 SSDEEP | `49152:eHx6xzRDH+cglpdSyuL2UTkRa1va8c8oyZXFlUKIiew38bBmqIb/qY745x6129l4:EGYDY2U4CS86KIievusxawP1a/z`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:eHx6xzRDH+cglpdSyuL2UTkRa1va8c8oyZXFlUKIiew38bBmqIb/qY745x6129l4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

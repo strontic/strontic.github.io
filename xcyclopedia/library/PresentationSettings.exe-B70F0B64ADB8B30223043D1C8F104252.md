@@ -1,10 +1,12 @@
 ﻿
 # PresentationSettings.exe 
+
 * File Path: `C:\WINDOWS\system32\PresentationSettings.exe`
 * Description: Microsoft Mobile PC Presentation Adaptability Client
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B70F0B64ADB8B30223043D1C8F104252`
@@ -15,6 +17,7 @@ SHA415 | `65D60AB4F3DDC8AC46B1E495F2BE1D6DCF01857596B7C2F11BD2CAF40B8F4759BC69EF
 SSDEEP | `3072:OT+4yL3H/sLDokwVU3NZ0dbpwvkBmDvvDZpFB+2xmh0QSoKKBlKxyAZEHm:h4K3HiokwV076mLts2xmhfGKraEH`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:OT+4yL3H/sLDokwVU3NZ0dbpwvkBmDvvDZpFB+2xmh0QSoKKBlKxyAZEHm:h4K3Hi
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

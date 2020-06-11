@@ -1,10 +1,12 @@
 ﻿
 # bitsadmin.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\bitsadmin.exe`
 * Description: BITS administration utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `81F910AD326B38EA6546E51173D75B2C`
@@ -15,6 +17,7 @@ SHA415 | `7086F8F42DA304896107923C7951FBFDFD7A3450DF4D36859E7C86F529EFEF657ECAA7
 SSDEEP | `3072:g8D853+Y/8tEONgK2SzecuFPOJrFzspK1en4NWc0jRuEiWM:glKZzuFPu1Gz/`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -289,5 +292,7 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 * Product Version: 7.8.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

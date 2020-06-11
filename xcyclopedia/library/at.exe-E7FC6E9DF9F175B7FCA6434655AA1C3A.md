@@ -1,10 +1,12 @@
 ﻿
 # at.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\at.exe`
 * Description: Schedule service command line interface
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `E7FC6E9DF9F175B7FCA6434655AA1C3A`
@@ -15,6 +17,7 @@ SHA415 | `D5832F6583C8AD5CE4C88B763FC51C0D61220AD18A17B36E63DF819C4A547EF81F40FD
 SSDEEP | `384:BeOCq/oHKXbeoFBNiUd/2SRy9Wh/HCa1okag+7lwUcXc/fspkJ7v3WxwWlmF4:MwMKqoFBNiUgl9WhPkiVM/gkJ7mR`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 The AT command has been deprecated. Please use schtasks.exe instead.
@@ -76,5 +79,7 @@ time               Specifies the time when command is to run.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

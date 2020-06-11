@@ -1,10 +1,12 @@
 ﻿
 # pwlauncher.exe 
+
 * File Path: `C:\WINDOWS\system32\pwlauncher.exe`
 * Description: Windows To Go Startup Options Command Line Tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `31CADAB884E8CF69275F5F726E6C9B98`
@@ -15,6 +17,7 @@ SHA415 | `409113EF3783181ECF952FD69C192EFB3560B3541A85F57075E4BB7A25B3F5811D282E
 SSDEEP | `768:BLc1zbEp2MX8Dr8MqgdKgLMJc2Wa3CM8lB:BAm/SHegLec2R3CNlB`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 pwlauncher.exe - Windows To Go startup options command-line tool.
@@ -57,5 +60,7 @@ pwlauncher [/enable | /disable]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

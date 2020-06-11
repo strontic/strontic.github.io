@@ -1,10 +1,12 @@
 ﻿
 # MicrosoftEdgeDevTools.exe 
+
 * File Path: `C:\WINDOWS\system32\MicrosoftEdgeDevTools.exe`
 * Description: Microsoft Edge Content Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0E954887FC791F668CE388F89BC3D6C6`
@@ -15,6 +17,7 @@ SHA415 | `19D81B619A111E9CF10E48E0F7EA27878F192DDD14A39A0F69AE7A7084406AA22C8CA1
 SSDEEP | `1536:nnadCUC/KixG5bPc33lj8yC2aj+7KxxL2/m4nVrs6FhnP8Ru:nndL85gFjt1a6W2/tVg6F5P8Ru`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `1536:nnadCUC/KixG5bPc33lj8yC2aj+7KxxL2/m4nVrs6FhnP8Ru:nndL85gFjt1a6W2/
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

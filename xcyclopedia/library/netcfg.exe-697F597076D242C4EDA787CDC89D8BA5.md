@@ -1,10 +1,12 @@
 ﻿
 # netcfg.exe 
+
 * File Path: `C:\WINDOWS\system32\netcfg.exe`
 * Description: WinPE network installer
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `697F597076D242C4EDA787CDC89D8BA5`
@@ -15,6 +17,7 @@ SHA415 | `528684CCA0C19644E811142A46393ED68AD855C76C42F1495C4BE9244EFE32950C0BCC
 SSDEEP | `768:dl6Vl8RZhOObzltEb0CvZllVW+JNt8iQ0M0Rqc:q8L5bxtEg8jDW+iiQ094c`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 netcfg [-v] [-winpe] [-l <full-path-to-component-INF>] -c <p|s|c> 
@@ -159,5 +162,7 @@ General Notes:
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

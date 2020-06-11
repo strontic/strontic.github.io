@@ -1,10 +1,12 @@
 ﻿
 # mpnotify.exe 
+
 * File Path: `C:\WINDOWS\system32\mpnotify.exe`
 * Description: Windows NT Multiple Provider Notification Application
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `570FC07F1BC73511B7A13B8327EF4C0E`
@@ -15,6 +17,7 @@ SHA415 | `4E69EE20D3BE8776B9F1EE1F7CF16327B8AE878AA6DEDBAA37C5A93AFDDF5E96EF009F
 SSDEEP | `384:jnTPEz/bWLtVKOA4yz7WdYx0MZGqbWajW:jnT8bbWuLz2Y+MZt5`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:jnTPEz/bWLtVKOA4yz7WdYx0MZGqbWajW:jnT8bbWuLz2Y+MZt5`
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

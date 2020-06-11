@@ -1,10 +1,12 @@
 ﻿
 # backgroundTaskHost.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\backgroundTaskHost.exe`
 * Description: Background Task Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `DD15DCECF4B1EF67B89FA0B603C7D413`
@@ -15,6 +17,7 @@ SHA415 | `AB8385063FD1E2DABFCCDBB57B4AE0B1D8C9568A0460B7027B7A44EAFA0BDD1696759F
 SSDEEP | `384:JB3rKpHXoQHWZWfGWNmXjDBRJ+lNFElZW:J1r0XNHWO0Xj1Pcv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:JB3rKpHXoQHWZWfGWNmXjDBRJ+lNFElZW:J1r0XNHWO0Xj1Pcv`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

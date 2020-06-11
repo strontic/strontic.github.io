@@ -1,10 +1,12 @@
 ﻿
 # bcastdvr.exe 
+
 * File Path: `C:\Windows\SysWOW64\bcastdvr.exe`
 * Description: Broadcast DVR server
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `B9ACA0D1F3899B50881F2CF59276D360`
@@ -15,6 +17,7 @@ SHA415 | `E2276790BE374BDDCD0695EA5E1D631A610B19C2EEA92368D9216FFB7D0697BB7231B8
 SSDEEP | `12288:27F6WBY2O/mECOD1i4x0kq3d/J1E2E/fzxEy+ITM:2J6WBY2O9CWi4x3qT0fzxEy+I`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `12288:27F6WBY2O/mECOD1i4x0kq3d/J1E2E/fzxEy+ITM:2J6WBY2O9CWi4x3qT0fzxEy
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

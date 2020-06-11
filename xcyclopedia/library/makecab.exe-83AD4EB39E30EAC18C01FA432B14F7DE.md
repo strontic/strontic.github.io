@@ -1,10 +1,12 @@
 ﻿
 # makecab.exe 
+
 * File Path: `C:\Windows\SysWOW64\makecab.exe`
 * Description: Microsoft Cabinet Maker
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `83AD4EB39E30EAC18C01FA432B14F7DE`
@@ -15,6 +17,7 @@ SHA415 | `9E3E67982358FCAE4FE3C9567B5C79343E88467689788487776356DE028E9A896FB63E
 SSDEEP | `1536:QFHETnZXp+PoktsRQDsi7tMSBAlJUZDeZNUqH6mKCVYYY5WRlR+3olpMLLp6xEm/:QpETnBp+PoktsRQDsi7tMSBAlJUpeZND`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Cabinet Maker - Lossless Data Compression Tool
@@ -59,5 +62,7 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

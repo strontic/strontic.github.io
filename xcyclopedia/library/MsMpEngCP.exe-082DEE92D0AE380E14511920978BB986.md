@@ -1,10 +1,12 @@
 ﻿
 # MsMpEngCP.exe 
+
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Scans\MsMpEngCP.exe`
 * Description: Antimalware Service Executable Content Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `082DEE92D0AE380E14511920978BB986`
@@ -15,6 +17,7 @@ SHA415 | `597398C2CF8282965EF80E425136385099527F32ECFE58F65FD299A0FA64663D94DB59
 SSDEEP | `384:3eomtrT4YLgDPtMbh4xM9vwq4OWlgxWw8hDBRJkIVAQhlGs/18Gd:gT4LchXsh1PkwvKPS`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:3eomtrT4YLgDPtMbh4xM9vwq4OWlgxWw8hDBRJkIVAQhlGs/18Gd:gT4LchXsh1Pkw
 * Product Version: 1.1.17038.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

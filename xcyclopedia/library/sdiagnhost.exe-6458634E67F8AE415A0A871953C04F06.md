@@ -1,10 +1,12 @@
 ﻿
 # sdiagnhost.exe 
+
 * File Path: `C:\WINDOWS\system32\sdiagnhost.exe`
 * Description: Scripted Diagnostics Native Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `6458634E67F8AE415A0A871953C04F06`
@@ -15,6 +17,7 @@ SHA415 | `AA814494ED1D6DAFDECCF9A1DDD4E47DB471F0AB19B0F652FB42EF5818C306278AF865
 SSDEEP | `384:yNaPLsFWEjuhHKkTy8YBFMQgkIBMyeL1McHGcMXgvaflllsd/OUxKilcWA7DW:IsL0W7gkz1+2xflTsMYKiw`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

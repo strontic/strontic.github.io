@@ -1,10 +1,12 @@
 ﻿
 # SpeechModelDownload.exe 
+
 * File Path: `C:\Windows\system32\Speech_OneCore\Common\SpeechModelDownload.exe`
 * Description: Speech Model Download Executable
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `EBBB4D68A3F7CDD7048B1BEE36CA582B`
@@ -15,6 +17,7 @@ SHA415 | `2BC258E557D86AADDABD490D568136EF08A182EA2221B8FF5853D8823128426575A8C2
 SSDEEP | `3072:476vlzYS5qsa89jucvwHRVOsC5P8JHz19eFK665Fb4/+1:o6dzYca8oc4VZCh8JT1yKxb`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:476vlzYS5qsa89jucvwHRVOsC5P8JHz19eFK665Fb4/+1:o6dzYca8oc4VZCh8JT1
 * Product Version: 10.0.14393.67
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

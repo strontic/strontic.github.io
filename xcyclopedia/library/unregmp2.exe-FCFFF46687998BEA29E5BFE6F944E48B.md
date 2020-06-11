@@ -1,10 +1,12 @@
 ﻿
 # unregmp2.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\unregmp2.exe`
 * Description: Microsoft Windows Media Player Setup Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FCFFF46687998BEA29E5BFE6F944E48B`
@@ -15,6 +17,7 @@ SHA415 | `F63AE57F1828C245CA1DA30E8D38F17FC4F5ACBFF09B7C9518716F7CD1C203754C326C
 SSDEEP | `3072:fI/3G2gOfAg0Ie/05y0IcWr8Chs2HIJs5l5WdF3tmhd8b9sNZa:fIs0g0I62fl5WT3uebUZa`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:fI/3G2gOfAg0Ie/05y0IcWr8Chs2HIJs5l5WdF3tmhd8b9sNZa:fIs0g0I62fl5WT
 * Product Version: 12.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

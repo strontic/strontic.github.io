@@ -1,10 +1,12 @@
 ﻿
 # clip.exe 
+
 * File Path: `C:\Windows\system32\clip.exe`
 * Description: Clip - copies the data into clipboard
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `020308633CC047DB3026FE49ED9A8363`
@@ -15,6 +17,7 @@ SHA415 | `578CBB625E9B29ABE9CD7002002E6FA3F132E53ACA9E712EDF7790FF832AFDC9F83160
 SSDEEP | `768:ZtTxvqQ5ch96j6O3VRiSXALa3cAefgy6x5YCM:fT9vzpcAefwxCC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -63,5 +66,7 @@ Type "CLIP /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

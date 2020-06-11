@@ -1,10 +1,12 @@
 ﻿
 # BackgroundTransferHost.exe 
+
 * File Path: `C:\Windows\system32\BackgroundTransferHost.exe`
 * Description: Download/Upload Host
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `1D6D710DFF26D49BCE1023D5AE2479FF`
@@ -15,6 +17,7 @@ SHA415 | `77BD2C36FDDCEAFF4162D67987000309765BAE1AB98002E5BB4471D64B4B5A7A52AEAD
 SSDEEP | `384:P26LrFHXUgU8g/LDBDKj+ZAWRIjRgpQNQpdRsp2TI0ToSxW0fgWkvE0g7QmmrIPh:+6vFFU8g//BW4AZ1NeI0jDN03A`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `384:P26LrFHXUgU8g/LDBDKj+ZAWRIjRgpQNQpdRsp2TI0ToSxW0fgWkvE0g7QmmrIPh:+
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

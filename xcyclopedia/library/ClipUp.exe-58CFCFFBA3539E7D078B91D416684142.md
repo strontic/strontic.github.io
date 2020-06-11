@@ -1,10 +1,12 @@
 ﻿
 # ClipUp.exe 
+
 * File Path: `C:\WINDOWS\system32\ClipUp.exe`
 * Description: Client License Platform migration tool
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `58CFCFFBA3539E7D078B91D416684142`
@@ -15,6 +17,7 @@ SHA415 | `1969C99512DBB3F6E6E917EB535B9571181E31459733A3E404ED23B7AFFF4118216BF4
 SSDEEP | `24576:eC4vyV8xG0oNcxhMNyXP7QoG5bgTYr4UTZGxIETIRfEC:Z4vyVaG0oNWeN2LTYoz+fF`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Done.
@@ -60,5 +63,7 @@ Failed! Error 0x80070057.
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

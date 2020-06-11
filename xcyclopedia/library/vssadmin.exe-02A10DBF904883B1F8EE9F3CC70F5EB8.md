@@ -1,10 +1,12 @@
 ﻿
 # vssadmin.exe 
+
 * File Path: `C:\WINDOWS\system32\vssadmin.exe`
 * Description: Command Line Interface for Microsoft Volume Shadow Copy Service 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `02A10DBF904883B1F8EE9F3CC70F5EB8`
@@ -15,6 +17,7 @@ SHA415 | `BF465F6FBEE3BA0865A90F461F7598E6113CE8986F2351DA3C5E2F50CDBA85D9C5FC5D
 SSDEEP | `3072:MNB9JdZjbn9OW4mPuZm47pyv7xp8AkTI5f0g8vY:Mn9JDHn9OW4mYm47pYEAkTI5f0g8v`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
@@ -59,5 +62,7 @@ Resize ShadowStorage  - Resize a volume shadow copy storage association
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

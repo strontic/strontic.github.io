@@ -1,10 +1,12 @@
 ﻿
 # wlanext.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\wlanext.exe`
 * Description: Windows Wireless LAN 802.11 Extensibility Framework
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `9045B6C51D5C90387F01CA901279B85D`
@@ -15,6 +17,7 @@ SHA415 | `1818EB37D1FE38EEF89EC88F1B2FA5CA5491709D4B9C1A9CC2214C2F8AE2FE7EC6D2FA
 SSDEEP | `768:Baom1KGJQ9yJKySgGtPtdCkdhy/RkS6NAAu6H3VTtkyHba9ftjG/FTR4m4kRmbtA:wo5S4TLgGtFriySuAABlfdSm4bZudD0`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `768:Baom1KGJQ9yJKySgGtPtdCkdhy/RkS6NAAu6H3VTtkyHba9ftjG/FTR4m4kRmbtA:w
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

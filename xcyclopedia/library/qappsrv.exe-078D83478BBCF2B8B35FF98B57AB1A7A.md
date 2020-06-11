@@ -1,10 +1,12 @@
 ﻿
 # qappsrv.exe 
+
 * File Path: `C:\Windows\system32\qappsrv.exe`
 * Description: Query Remote Desktop Session Host Server Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `078D83478BBCF2B8B35FF98B57AB1A7A`
@@ -15,6 +17,7 @@ SHA415 | `66554F2C9D713F5F1B854199554842072FA04303FA26A3E9426B7ED7199DA5B5491D07
 SSDEEP | `384:IOrssE/DEAxTtGPtoeruEQ55Nztu0UCOPlq+0XkWypTwJg9Hii9WPaWl:pY7DBGPTS3o0OImHDK`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Displays the available Remote Desktop Session Host servers on the network.
@@ -66,5 +69,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

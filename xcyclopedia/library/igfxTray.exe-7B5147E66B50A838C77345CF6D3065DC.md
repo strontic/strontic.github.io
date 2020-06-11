@@ -1,10 +1,12 @@
 ﻿
 # igfxTray.exe 
+
 * File Path: `C:\WINDOWS\system32\igfxTray.exe`
 * Description: 
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `7B5147E66B50A838C77345CF6D3065DC`
@@ -15,6 +17,7 @@ SHA415 | `D42169C86E0A06249719FAE3EC7071C736F1A799E1D63D31DCFE14A1C1DF286C28DF67
 SSDEEP | `6144:QjZFw8QTQSJ4KasLh6a2eUdAEu6ODvtMJfDVChJWMl:Yw8TiB2eUzu6Mvt6fDVC`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `6144:QjZFw8QTQSJ4KasLh6a2eUdAEu6ODvtMJfDVChJWMl:Yw8TiB2eUzu6Mvt6fDVC`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

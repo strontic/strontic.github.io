@@ -1,10 +1,12 @@
 ﻿
 # Fondue.exe 
+
 * File Path: `C:\Windows\system32\Fondue.exe`
 * Description: Windows Features on Demand UX
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `F995D2EF9220F33C260425DB39ED05A3`
@@ -15,6 +17,7 @@ SHA415 | `CC630797C013E368CFAB47DB1D643D10E8590F69B09AFB4748D4A1B06F00858231AE41
 SSDEEP | `3072:s4H1bKbEaznWfH22ZsuX2xKwMPTnaSrIrvDi:sobMznWjZnXeKwMLnaqY`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `3072:s4H1bKbEaznWfH22ZsuX2xKwMPTnaSrIrvDi:sobMznWjZnXeKwMLnaqY`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

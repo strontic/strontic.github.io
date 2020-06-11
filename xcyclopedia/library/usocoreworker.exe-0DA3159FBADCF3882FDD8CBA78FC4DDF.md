@@ -1,10 +1,12 @@
 ﻿
 # usocoreworker.exe 
+
 * File Path: `C:\WINDOWS\system32\usocoreworker.exe`
 * Description: USO Core Worker Process
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `0DA3159FBADCF3882FDD8CBA78FC4DDF`
@@ -15,6 +17,7 @@ SHA415 | `06554B75933DB42BC8AB3C244DA1037A81F84D47684F6C27D397E2DDA4F63912841924
 SSDEEP | `24576:gUCz3Xsi628dIDD1xdyhlY1xyZloTmx2UlcIzmkrG4Q+:g358dEDjt4dlokv`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `24576:gUCz3Xsi628dIDD1xdyhlY1xyZloTmx2UlcIzmkrG4Q+:g358dEDjt4dlokv`
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

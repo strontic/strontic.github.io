@@ -1,10 +1,12 @@
 ﻿
 # DfsrAdmin.exe 
+
 * File Path: `C:\Windows\DfsrAdmin.exe`
 * Description: DFS Replication Command Line
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `8B37A70A2E4EACB9D9ECFD21050A5B3B`
@@ -15,6 +17,7 @@ SHA415 | `9D7506B2EE3917029B5AEE055E3F13492DAFCCEB96ABB5BAF522D75E50A439869EB7DC
 SSDEEP | `3072:RncwuBKkFpSJ8oBgjeCBfzBdYPZs3VDTENpSVwICI+Z:JtTkFpK8IfgdYPZs3VD+ICI`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -98,5 +101,7 @@ The object -help is not a valid object.
 * Product Version: 10.0.14393.2999
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

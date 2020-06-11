@@ -1,10 +1,12 @@
 ﻿
 # RtCamU64.exe 
+
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\rtsuvc.inf_amd64_a028e52e0363c18f\RtCamU64.exe`
 * Description: RtCamU
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `4CEA4E1A844CF2815182A1EAC17DBD8D`
@@ -15,6 +17,7 @@ SHA415 | `63C886888A1C54368F56077AD8EEC2CEE9D0C901B6C1CA1673B1D3EFD2D50E7D5FAAEF
 SSDEEP | `49152:auRxdmhKVPyB2vXbUqXbE8sV3RykWSxJ6bxUwVi9tHuOqhDHdatbItMIj:atMIo10rqhD9aofj`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 
@@ -45,5 +48,7 @@ SSDEEP | `49152:auRxdmhKVPyB2vXbUqXbE8sV3RykWSxJ6bxUwVi9tHuOqhDHdatbItMIj:atMIo1
 * Product Version: 1.11.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Realtek Semiconductor Corp.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 

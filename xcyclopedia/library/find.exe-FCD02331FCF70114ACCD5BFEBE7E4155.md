@@ -1,10 +1,12 @@
 ﻿
 # find.exe 
+
 * File Path: `C:\WINDOWS\SysWOW64\find.exe`
 * Description: Find String (grep) Utility
 * Comments: 
 
 ## Hashes
+
 Type | Hash
 -- | --
 MD5 | `FCD02331FCF70114ACCD5BFEBE7E4155`
@@ -15,6 +17,7 @@ SHA415 | `BDDEECEB564C839EB8450E4A1C32429B2CDDA7A2ADC5D7F98DF0712BAA2FF44C92C2EC
 SSDEEP | `384:6+OKTP6CRc8BRUHPDQ2m9MeIcgn6LQ00DWDIWxR:VOKj6CRc8BRUbLm9MeIcXLf0cL`
 
 ## Runtime Data
+
 ### Usage (stdout):
 ```Batchfile
 Searches for a text string in a file or files.
@@ -61,5 +64,7 @@ FIND: Parameter format not correct
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+MIT License. Copyright (c) 2020 Strontic.
 
 
