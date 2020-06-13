@@ -50,9 +50,9 @@ SSDEEP | `3072:Xq8ijr4QZhpxd6/GghtYIo9piswTogiqQKy349:or4aHxd67hqIo9s37iTK24`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
-## Additional Info
+## Additional Info*
 
-*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
 
 ---
 

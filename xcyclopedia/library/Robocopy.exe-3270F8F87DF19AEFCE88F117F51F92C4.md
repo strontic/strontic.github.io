@@ -222,9 +222,9 @@ SSDEEP | `3072:IPpN18Y+qCVM8apAGjTEAUQ4hlgFWCyju2ECI+e:ipNTnBeqrhC`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
-## Additional Info
+## Additional Info*
 
-*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
 
 ---
 # robocopy
