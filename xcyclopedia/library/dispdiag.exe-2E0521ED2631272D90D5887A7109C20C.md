@@ -13,7 +13,7 @@ MD5 | `2E0521ED2631272D90D5887A7109C20C`
 SHA1 | `D7396AD887AEB2DA1D5D1045741CBCFD684098AD`
 SHA256 | `2FAFF3700BF080D64D0997994C533B57816751E70893A158AF6C7B47D9FD9301`
 SHA384 | `A3235624D967DF832805EFA3FEA07553C343EF710D8B88DA004CC15E5B301F8CDC2A60F55F1525CBBE9489913298F9EC`
-SHA415 | `CA3BC7605B220BA691F064F69AF5C794F44C3529EDED9700A905D2BA7BDC1336EAB975A68DAC5EB222D760234C73042A563B3703739132B5F60504A28D002FCA`
+SHA512 | `CA3BC7605B220BA691F064F69AF5C794F44C3529EDED9700A905D2BA7BDC1336EAB975A68DAC5EB222D760234C73042A563B3703739132B5F60504A28D002FCA`
 SSDEEP | `1536:f+DGiHD+sItZuxWsB81yl/uJkgqQlgzn3/bCZxcd060I+qCIIpX78hWF26Z:fhsBLl/a8z3/bSxcdSINBIpX7iWf`
 
 ## Runtime Data
@@ -48,8 +48,8 @@ Usage: dispdiag [-testacpi] [-d] [-delay <seconds>] [-brightnesslogging] [-out <
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -62,6 +62,40 @@ Usage: dispdiag [-testacpi] [-d] [-delay <seconds>] [-brightnesslogging] [-out <
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# dispdiag
+
+Logs display information to a file.
+
+## Syntax
+
+```
+dispdiag [-testacpi] [-d] [-delay <seconds>] [-out <filepath>]
+```
+
+#### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| - testacpi | Runs hotkey diagnostics test. Displays the key name, code and scan code for any key pressed during the test. |
+| -d | Generates a dump file with test results. |
+| -delay `<seconds>` | Delays the collection of data by specified time in *seconds*. |
+| -out `<filepath>`  | Specifies path and filename to save collected data. This must be the last parameter. |
+| -? | Displays available command parameters and provides help for using them. |
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

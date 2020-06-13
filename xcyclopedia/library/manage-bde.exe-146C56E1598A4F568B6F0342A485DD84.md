@@ -13,7 +13,7 @@ MD5 | `146C56E1598A4F568B6F0342A485DD84`
 SHA1 | `B49C5B846CB0BF31612A4357B7BD4647F4C71641`
 SHA256 | `7C4D5E3CE3B97EBF2533C8529789EE4B1FCB846C95D21DCC9EC87EB1309A5BC9`
 SHA384 | `A684AF67831592564E6FCC00AC0493F0B4728B152D2BE841E783FA5A1F0B0723008D337349C790F5FF25C26EB1BAC3D8`
-SHA415 | `9486B32CA343BFA76DD6369B040CE317F56BBCCA6E4706EC81FAD80E1E4A4037AB3607B5A77DF135104DECDB952D098BDF192C6F94AF0CC048801939B4F662B9`
+SHA512 | `9486B32CA343BFA76DD6369B040CE317F56BBCCA6E4706EC81FAD80E1E4A4037AB3607B5A77DF135104DECDB952D098BDF192C6F94AF0CC048801939B4F662B9`
 SSDEEP | `6144:bo2xdPdE8j77GF1Gqq1PmToVs7nyatGt+SYF:E2xdPL6OH+S+`
 
 ## Runtime Data
@@ -74,8 +74,8 @@ Examples:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -88,6 +88,61 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# manage-bde
+
+Turns on or turns off BitLocker, specifies unlock mechanisms, updates recovery methods, and unlocks BitLocker-protected data drives.
+
+> [!NOTE]
+> This command-line tool can be used in place of the **BitLocker Drive Encryption** Control Panel item.
+
+## Syntax
+
+```
+manage-bde [-status] [â€“on] [â€“off] [â€“pause] [â€“resume] [â€“lock] [â€“unlock] [â€“autounlock] [â€“protectors] [â€“tpm]
+[â€“setidentifier] [-forcerecovery] [â€“changepassword] [â€“changepin] [â€“changekey] [-keypackage] [â€“upgrade] [-wipefreespace] [{-?|/?}] [{-help|-h}]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- |------------ |
+| [manage-bde status](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-status.md) | Provides information about all drives on the computer, whether or not they are BitLocker-protected. |
+| [manage-bde on](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-on.md) | Encrypts the drive and turns on BitLocker. |
+| [manage-bde off](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-off.md) | Decrypts the drive and turns off BitLocker. All key protectors are removed when decryption is complete. |
+| [manage-bde pause](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-pause.md) | Pauses encryption or decryption. |
+| [manage-bde resume](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-resume.md) | Resumes encryption or decryption. |
+| [manage-bde lock](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-lock.md) | Prevents access to BitLocker-protected data. |
+| [manage-bde unlock](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-unlock.md) | Allows access to BitLocker-protected data with a recovery password or a recovery key. |
+| [manage-bde autounlock](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-autounlock.md) | Manages automatic unlocking of data drives. |
+| [manage-bde protectors](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-protectors.md) | Manages protection methods for the encryption key. |
+| [manage-bde tpm](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-tpm.md) | Configures the computer's Trusted Platform Module (TPM). This command isn't supported on computers running Windows 8 or **win8_server_2**. To manage the TPM on these computers, use either the TPM Management MMC snap-in or the TPM Management cmdlets for Windows PowerShell. |
+| [manage-bde setidentifier](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-setidentifier.md)   | Sets the drive identifier field on the drive to the value specified in the **Provide the unique identifiers for your organization** Group Policy setting. |
+| [manage-bde ForceRecovery](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-forcerecovery.md) | Forces a BitLocker-protected drive into recovery mode on restart. This command deletes all TPM-related key protectors from the drive. When the computer restarts, only a recovery password or recovery key can be used to unlock the drive. |
+| [manage-bde changepassword](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-changepassword.md) | Modifies the password for a data drive. |
+| [manage-bde changepin](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-changepin.md) | Modifies the PIN for an operating system drive. |
+| [manage-bde changekey](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-changekey.md) | Modifies the startup key for an operating system drive. |
+| [manage-bde KeyPackage](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-keypackage.md) | Generates a key package for a drive. |
+| [manage-bde upgrade](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-upgrade.md) | Upgrades the BitLocker version. |
+| [manage-bde WipeFreeSpace](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/manage-bde-wipefreespace.md) | Wipes the free space on a drive. |
+| -? or /? | Displays brief Help at the command prompt. |
+| -help or -h | Displays complete Help at the command prompt. |
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [Enabling BitLocker by Using the Command Line](https://technet.microsoft.com/library/dd894351(v=ws.10).aspx)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

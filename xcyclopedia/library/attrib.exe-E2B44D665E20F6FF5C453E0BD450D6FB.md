@@ -13,7 +13,7 @@ MD5 | `E2B44D665E20F6FF5C453E0BD450D6FB`
 SHA1 | `3A5684E9496357F7A2AAD5ECB175C3DC99C1D7FC`
 SHA256 | `F9F41EE710DCA39EFF229F5277AF4E3A24EDF7ECA6DFB2627AC3FEFC934907B2`
 SHA384 | `B86F9206323866A0079629C0EEB01903C81DCC57F13F705D6DFF82835D83327779E80AF39175EF25E9A13AF5FC764A9E`
-SHA415 | `32974CCC40AE7490FC51CA529AAB40EBC8CF6B7873DE845875EFD3FA0631637984AD50215C9F1C418ACCCAD8EF5E8C1129B4DFE63E3B40C84BB9BFDB0F4BCFAB`
+SHA512 | `32974CCC40AE7490FC51CA529AAB40EBC8CF6B7873DE845875EFD3FA0631637984AD50215C9F1C418ACCCAD8EF5E8C1129B4DFE63E3B40C84BB9BFDB0F4BCFAB`
 SSDEEP | `384:hkOm9rkgs4iO70XbuqT5m/yDfqBZSFwWPW8tW:hyrkt4ibiqeyIZSFR3`
 
 ## Runtime Data
@@ -56,8 +56,8 @@ ATTRIB [+R | -R] [+A | -A ] [+S | -S] [+H | -H] [+I | -I]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -70,6 +70,73 @@ ATTRIB [+R | -R] [+A | -A ] [+S | -S] [+H | -H] [+I | -I]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# attrib
+
+Displays, sets, or removes attributes assigned to files or directories. If used without parameters, **attrib** displays attributes of all files in the current directory.
+
+## Syntax
+
+```
+attrib [{+|-}r] [{+|-}a] [{+|-}s] [{+|-}h] [{+|-}i] [<drive>:][<path>][<filename>] [/s [/d] [/l]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `{+|-}r` | Sets (**+**) or clears (**-**) the Read-only file attribute. |
+| `{+\|-}a` | Sets (**+**) or clears (**-**) the Archive file attribute. This attribute set marks files that have changed since the last time they were backed up. Note that the **xcopy** command uses archive attributes. |
+| `{+\|-}s` | Sets (**+**) or clears (**-**) the System file attribute. If a file uses this attribute set, you must clear the attribute before you can change any other attributes for the file. |
+| `{+\|-}h` | Sets (**+**) or clears (**-**) the Hidden file attribute. If a file uses this attribute set, you must clear the attribute before you can change any other attributes for the file. |
+| `{+\|-}i` | Sets (**+**) or clears (**-**) the Not Content Indexed file attribute. |
+| `[<drive>:][<path>][<filename>]` | Specifies the location and name of the directory, file, or group of files for which you want to display or change attributes.<p>You can use the **?** and **&#42;** wildcard characters in the *filename* parameter to display or change the attributes for a group of files. |
+| /s | Applies **attrib** and any command-line options to matching files in the current directory and all of its subdirectories. |
+| /d | Applies **attrib** and any command-line options to directories. |
+| /l | Applies **attrib** and any command-line options to the Symbolic Link, rather than the target of the Symbolic Link. |
+| /? | Displays help at the command prompt. |
+
+## Examples
+
+To display the attributes of a file named News86 that is located in the current directory, type:
+
+```
+attrib news86
+```
+
+To assign the Read-only attribute to the file named report.txt, type:
+
+```
+attrib +r report.txt
+```
+
+To remove the Read-only attribute from files in the public directory and its subdirectories on a disk in drive b:, type:
+
+```
+attrib -r b:\public\*.* /s
+```
+
+To set the Archive attribute for all files on drive a:, and then clear the Archive attribute for files with the .bak extension, type:
+
+```
+attrib +a a:*.* & attrib -a a:*.bak
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [xcopy command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/xcopy.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

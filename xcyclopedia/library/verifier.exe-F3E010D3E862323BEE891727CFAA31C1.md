@@ -13,7 +13,7 @@ MD5 | `F3E010D3E862323BEE891727CFAA31C1`
 SHA1 | `9DDA34B51ECA17DD15D2AB6435A2D24BDCCE0F4F`
 SHA256 | `21C898775E0640EABD0D1CF03A7A69336BCB08BA28A27C34FA4A211C66F6BE66`
 SHA384 | `8D3688621C073F608C070B22AFADB8F18BF7998F0D924DB79D88D20E6284761198C1D4CAF6620C415D861E42DADB8DA5`
-SHA415 | `632E1144D3924EFAFBF1FD519F39F82751B2F0767D2F4B52889C750177D6FB6AB6D36E725BF9DBC1FCBC71FA26058630BB0D4BBF82534C343480E0A7AC2B241E`
+SHA512 | `632E1144D3924EFAFBF1FD519F39F82751B2F0767D2F4B52889C750177D6FB6AB6D36E725BF9DBC1FCBC71FA26058630BB0D4BBF82534C343480E0A7AC2B241E`
 SSDEEP | `3072:xHYDGZ2xcI9EiQQ6U2zJ0HwZpHKG5c5VoJe3+Vcv2JxQQBBEB3BefnjHrjqR+Da5:xHYDGZ2xcI9UJU2zaHwZpqGAC4T5`
 
 ## Runtime Data
@@ -298,8 +298,8 @@ PARAMETERS:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -312,6 +312,50 @@ PARAMETERS:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+# verifier
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Driver verifier manager.
+
+## Syntax
+```
+verifier /standard /driver <name> [<name> ...]
+verifier /standard /all
+verifier [/flags <flags>] [/faults [<probability> [<tags> [<applications> [<minutes>]]]] /driver <name> [<name>...]
+verifier [/flags FLAGS] [/faults [<probability> [<tags> [<applications> [<minutes>]]]] /all
+verifier /querysettings
+verifier /volatile /flags <flags>
+verifier /volatile /adddriver <name> [<name>...]
+verifier /volatile /removedriver <name> [<name>...]
+verifier /volatile /faults [<probability> [<tags> [<applications>]]
+verifier /reset
+verifier /query
+verifier /log <LogFileName> [/interval <seconds>]
+```
+#### Parameters
+|Parameter|Description|
+|-------|--------|
+|\<flags>|Must be a number in decimal or hexadecimal, combination of bits:<p>-   **Value: description**<br />-   **bit 0:** special pool checking<br />-   **bit 1:** force irql checking<br />-   **bit 2:** low resources simulation<br />-   **bit 3:** pool tracking<br />-   **bit 4:** I/O verification<br />-   **bit 5:** deadlock detection<br />-   **bit 6:** unused<br />-   **bit 7:** DMA verification<br />-   **bit 8:** security checks<br />-   **bit 9:** force pending I/O requests<br />-   **bit 10:** IRP logging<br />-   **bit 11:** miscellaneous checks<p>for example, **/flags 27** is equivalent with **/flags 0x1B**|
+|/volatile|Used to change the verifier settings dynamically without restarting the system. Any new settings will be lost when the system is restarted.|
+|\<probability>|Number between 1 and 10,000 specifying the fault injection probability. For example, specifying 100 means a fault injection probability of 1% (100/10,000).<p>if this parameter is not specified then the default probability of 6% will be used.|
+|\<tags>|Specifies the pool tags that will be injected with faults, separated by space characters. If this parameter is not specified then any pool allocation can be injected with faults.|
+|\<applications>|Specifies the image file name of the applications that will be injected with faults, separated by space characters. If this parameter is not specified then low resources simulation can take place in any application.|
+|\<minutes>|A positive number specifying the length of the period after rebooting, in minutes, during which no fault injection will occur. If this parameter is not specified then the default length of 8 minutes will be used.|
+|/?|Displays help at the command prompt.|
+
+## Additional References
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

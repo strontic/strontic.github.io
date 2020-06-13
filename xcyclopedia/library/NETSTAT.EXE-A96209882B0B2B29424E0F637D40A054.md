@@ -13,7 +13,7 @@ MD5 | `A96209882B0B2B29424E0F637D40A054`
 SHA1 | `DDF26C79F8F35E6B24514691903C1E76B5284C6F`
 SHA256 | `9F070E1F4AA9AE0A5EA084FEBBD5983293E5748D0A5CC5D46098CB9271D2D508`
 SHA384 | `B39DB56EF87790684F0ABC87B8452CF618CBAC8AC59E63E694200ACECF021C1BDB0E641960205045D165A722345851FD`
-SHA415 | `F12A33D18E737A27509E5C2074F5ABAC745D4F10C331DBB021B399AB7B0D57BC0669451B4A547D37775DEFEC8AFEE13D17AD4DE8B8639944ADCAF7843B5E23D3`
+SHA512 | `F12A33D18E737A27509E5C2074F5ABAC745D4F10C331DBB021B399AB7B0D57BC0669451B4A547D37775DEFEC8AFEE13D17AD4DE8B8639944ADCAF7843B5E23D3`
 SSDEEP | `768:yyy7240Mf3csNXGEPJfHepZsRupU6OlSfp9TW79T1Obn:a0YJ9PZHepuZ6kSfp9T69TYbn`
 
 ## Runtime Data
@@ -76,8 +76,8 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000001733031072665B8B9B3000000000173
-* Thumbprint: 14590DC5C3AAF238FCFD7785B4B93F4071402C34
+* Serial: `33000001733031072665B8B9B3000000000173`
+* Thumbprint: `14590DC5C3AAF238FCFD7785B4B93F4071402C34`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -90,6 +90,86 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# netstat
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, IPv4 statistics (for the IP, ICMP, TCP, and UDP protocols), and IPv6 statistics (for the IPv6, ICMPv6, TCP over IPv6, and UDP over IPv6 protocols). Used without parameters, this command displays active TCP connections.
+
+> [!IMPORTANT]
+> This command is available only if the Internet Protocol (TCP/IP) protocol is installed as a component in the properties of a network adapter in Network Connections.
+
+## Syntax
+
+```
+netstat [-a] [-e] [-n] [-o] [-p <Protocol>] [-r] [-s] [<interval>]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| -a | Displays all active TCP connections and the TCP and UDP ports on which the computer is listening. |
+| -e | Displays Ethernet statistics, such as the number of bytes and packets sent and received. This parameter can be combined with **-s**. |
+| -n | Displays active TCP connections, however, addresses and port numbers are expressed numerically and no attempt is made to determine names. |
+| -o | Displays active TCP connections and includes the process ID (PID) for each connection. You can find the application based on the PID on the Processes tab in Windows Task Manager. This parameter can be combined with **-a**, **-n**, and **-p**. |
+| -p `<Protocol>` | Shows connections for the protocol specified by *Protocol*. In this case, the *Protocol* can be tcp, udp, tcpv6, or udpv6. If this parameter is used with **-s** to display statistics by protocol, *Protocol* can be tcp, udp, icmp, ip, tcpv6, udpv6, icmpv6, or ipv6. |
+| -s | Displays statistics by protocol. By default, statistics are shown for the TCP, UDP, ICMP, and IP protocols. If the IPv6 protocol is installed, statistics are shown for the TCP over IPv6, UDP over IPv6, ICMPv6, and IPv6 protocols. The **-p** parameter can be used to specify a set of protocols. |
+| -r | Displays the contents of the IP routing table. This is equivalent to the route print command. |
+| `<interval>` | Redisplays the selected information every *interval* seconds. Press CTRL+C to stop the redisplay. If this parameter is omitted, this command prints the selected information only once. |
+| /? | Displays help at the command prompt. |
+
+#### Remarks
+
+- The **netstat** command provides statistics for the following:
+
+    | Parameter | Description |
+    | --------- | ----------- |
+    | Proto | The name of the protocol (TCP or UDP). |
+    | Local address | The IP address of the local computer and the port number being used. The name of the local computer that corresponds to the IP address and the name of the port is shown unless the **-n** parameter is specified. If the port is not yet established, the port number is shown as an asterisk (*). |
+    | Foreign address | The IP address and port number of the remote computer to which the socket is connected. The names that corresponds to the IP address and the port are shown unless the **-n** parameter is specified. If the port is not yet established, the port number is shown as an asterisk (*). |
+    | State | Indicates the state of a TCP connection, including:<ul><li>CLOSE_WAIT</li><li>CLOSED</li><li>ESTABLISHED</li><li>FIN_WAIT_1</li><li>FIN_WAIT_2</li><li>LAST_ACK</li><li>LISTEN</li><li>SYN_RECEIVED</li><li>SYN_SEND</li><li>TIMED_WAIT</li></ul> |
+
+### Examples
+
+To display both the Ethernet statistics and the statistics for all protocols, type:
+
+```
+netstat -e -s
+```
+
+To display the statistics for only the TCP and UDP protocols, type:
+
+```
+netstat -s -p tcp udp
+```
+
+To display active TCP connections and the process IDs every 5 seconds, type:
+
+```
+netstat -o 5
+```
+
+To display active TCP connections and the process IDs using numerical form, type:
+
+```
+netstat -n -o
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

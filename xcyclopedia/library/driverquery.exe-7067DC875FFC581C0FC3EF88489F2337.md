@@ -13,7 +13,7 @@ MD5 | `7067DC875FFC581C0FC3EF88489F2337`
 SHA1 | `4BB4D86B70DE10F370DFB6F3B288507557652F63`
 SHA256 | `8034E5DFBD3E66212FF59916536826ED259CEB9F9D85C3DF3DD01037B4619641`
 SHA384 | `B93B0C3874A078C922A23FFA31156CF4D32CE2DF31B47D83B389EEAB58E2862B3BC94100E499010EC97432F13278A37C`
-SHA415 | `312DF64203757B5772F2AEE1E54C76E1A3A5EED446EE25BAD59EACCDEF90F4BB44863D3580D82A29C3C7FAA3F26C7C7D75ECA40F939FFE9EC3F639CB8B682BD4`
+SHA512 | `312DF64203757B5772F2AEE1E54C76E1A3A5EED446EE25BAD59EACCDEF90F4BB44863D3580D82A29C3C7FAA3F26C7C7D75ECA40F939FFE9EC3F639CB8B682BD4`
 SSDEEP | `1536:kSJkUmeeNcASrq4ccng6Bca+FyCbjf9EA1QnW8ubxE1J:AeeNdmcEYl/Fz5lbxk`
 
 ## Runtime Data
@@ -73,8 +73,8 @@ Type "DRIVERQUERY /?" for usage.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -87,6 +87,77 @@ Type "DRIVERQUERY /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# driverquery
+
+Enables an administrator to display a list of installed device drivers and their properties. If used without parameters, **driverquery** runs on the local computer.
+
+## Syntax
+
+```
+driverquery [/s <system> [/u [<domain>\]<username> [/p <password>]]] [/fo {table | list | csv}] [/nh] [/v | /si]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- |------------ |
+| /s `<system>` | Specifies the name or IP address of a remote computer. Do not use backslashes. The default is the local computer. |
+| /u `[<domain>]<username>` | Runs the command with the credentials of the user account as specified by *user* or *domain\user*. By default, */s* uses the credentials of the user who is currently logged on to the computer that is issuing the command. **/u** can't be used unless **/s** is specified. |
+| /p `<password>` | Specifies the password of the user account that is specified in the **/u** parameter. **/p** cannot be used unless **/u** is specified. |
+| /fo table | Formats the output as a table. This is the default. |
+| /fo list | Formats the output as a list. |
+| /fo csv | Formats the output with comma-separated values. |
+| /nh | Omits the header row from the displayed driver information. Not valid if the **/fo** parameter is set to **list**. |
+| /v | Displays verbose output. **/v** is not valid for signed drivers. |
+| /si | Provides information about signed drivers. |
+| /? | Displays help at the command prompt. |
+
+### Examples
+
+To display a list of installed device drivers on the local computer, type:
+
+```
+driverquery
+```
+
+To display the output in a comma-separated values (CSV) format, type:
+
+```
+driverquery /fo csv
+```
+
+To hide the header row in the output, type:
+
+```
+driverquery /nh
+```
+
+To use the **driverquery** command on a remote server named *server1* using your current credentials on the local computer, type:
+
+```
+driverquery /s server1
+```
+
+To use the **driverquery** command on a remote server named *server1* using the credentials for *user1* on the domain *maindom*, type:
+
+```
+driverquery /s server1 /u maindom\user1 /p p@ssw3d
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

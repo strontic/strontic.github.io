@@ -13,7 +13,7 @@ MD5 | `ECD4D5B9579F8D28662212DAE741929A`
 SHA1 | `0C43673D6E2833186C4C6D769EA9C0AAFA67411A`
 SHA256 | `F2E90D24AC7B15725750A7532CA52C596EAB980CA199F7580FD7FA4FB0C351B1`
 SHA384 | `4211EB8CA5A7B0D6009E4707754836E40D11B5714000CF64D9868DC8DA4899F29C6D9D1FA4819C429911CCD3F08C2ABC`
-SHA415 | `9292A78C962B13DF304AD348228BE0A1A16F10595D50BE68ACEE6EC1151E5C6CA162B09FB02D831558A502E7547FF5F7B46597E1DA96B00383E0E3B337587513`
+SHA512 | `9292A78C962B13DF304AD348228BE0A1A16F10595D50BE68ACEE6EC1151E5C6CA162B09FB02D831558A502E7547FF5F7B46597E1DA96B00383E0E3B337587513`
 SSDEEP | `1536:wJJs/XMsSn2hAIXLRAR5VQEGcL0lpiJRJ8ihg+eup9MXf:wJOcQuVQEGcL0bYR+jHv`
 
 ## Runtime Data
@@ -60,8 +60,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,6 +74,81 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# ftp
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Transfers files to and from a computer running a File Transfer Protocol (ftp) server service. This command can be used interactively or in batch mode by processing ASCII text files.
+
+## Syntax
+
+```
+ftp [-v] [-d] [-i] [-n] [-g] [-s:<filename>] [-a] [-A] [-x:<sendbuffer>] [-r:<recvbuffer>] [-b:<asyncbuffers>][-w:<windowssize>][<host>] [-?]
+```
+
+### Parameters
+
+| Parameter | Description |
+| ----------| ----------- |
+| -v | Suppresses display of remote server responses. |
+| -d | Enables debugging, displaying all commands passed between the FTP client and FTP server. |
+| -i | Disables interactive prompting during multiple file transfers. |
+| -n | Suppresses auto-login upon initial connection. |
+| -g | Disables file name globbing.  **Glob** permits the use of the asterisk (*) and question mark (?) as wildcard characters in local file and path names. |
+| -s:`<filename>` | Specifies a text file that contains **ftp** commands. These commands run automatically after **ftp** starts. This parameter allows no spaces. Use this parameter instead of redirection (`<`). **Note:** In Windows 8 and  Windows Server 2012  or later operating systems, the text file must be written in UTF-8. |
+| -a | Specifies that any local interface can be used when binding the ftp data connection. |
+| -A | Logs onto the ftp server as anonymous. |
+| -x:`<sendbuffer> `| Overrides the default SO_SNDBUF size of 8192. |
+| -r:`<recvbuffer>` | Overrides the default SO_RCVBUF size of 8192. |
+| -b:`<asyncbuffers>` | Overrides the default async buffer count of 3. |
+| -w:`<windowssize>` | Specifies the size of the transfer buffer. The default window size is 4096 bytes. |
+| `<host>` | Specifies the computer name, IP address, or IPv6 address of the ftp server to which to connect. The host name or address, if specified, must be the last parameter on the line. |
+| -? | Displays help at the command prompt. |
+
+#### Remarks
+
+- The **ftp** command-line parameters are case-sensitive.
+
+- This command is available only if the **Internet Protocol (TCP/IP)** protocol is installed as a component in the properties of a network adapter in Network Connections.
+
+- The **ftp** command can be used interactively. After it is started, **ftp** creates a sub-environment in which you can use **ftp** commands. You can return to the command prompt by typing the **quit** command. When the **ftp** sub-environment is running, it is indicated by the `ftp >` command prompt. For more information, see the **ftp** commands.
+
+- The **ftp** command supports the use of IPv6 when the IPv6 protocol is installed.
+
+### Examples
+
+To log on to the ftp server named `ftp.example.microsoft.com`, type:
+
+```
+ftp ftp.example.microsoft.com
+```
+
+To log on to the ftp server named `ftp.example.microsoft.com` and run the **ftp** commands contained in a file named *resync.txt*, type:
+
+```
+ftp -s:resync.txt ftp.example.microsoft.com
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [Additional FTP guidance](https://docs.microsoft.com/previous-versions/orphan-topics/ws.10/cc756013(v=ws.10))
+
+- [IP version 6](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc738636(v=ws.10))
+
+- [IPv6 applications](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc782509(v=ws.10))
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

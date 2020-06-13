@@ -13,7 +13,7 @@ MD5 | `F152E16FC4FE1EDF606D9DFAD92C5242`
 SHA1 | `F18018561FE70713083BC2E269D3395A737A0861`
 SHA256 | `82DD94761865BE53BA3122E0542BA05D373445B376AFACAF20B6E3AF2B33CE79`
 SHA384 | `984F05065462B54596E1F715311259F1AC8D9A02112C5CD25B1E3F7C121DBD53FE2D1CA40E4B57318E9BD4C3A1C6E4DA`
-SHA415 | `0DF4988648DD1123E8C83DFD885D75FF2EA4CDE06DAE2ED69B7A4F686079C8855539BC2827142096E48D378D6321AA4120A94DAD6344F21A6D45DFE52529089D`
+SHA512 | `0DF4988648DD1123E8C83DFD885D75FF2EA4CDE06DAE2ED69B7A4F686079C8855539BC2827142096E48D378D6321AA4120A94DAD6344F21A6D45DFE52529089D`
 SSDEEP | `768:Jy3gEqgeQNCkA2Qe75rpcPGqKlLtqljprTllDyVO1vTzwabxFu5TwgtL4:gwEqgJNCkA2Lrpa5fHuYHwREgtL4`
 
 ## Runtime Data
@@ -61,8 +61,8 @@ Remarks:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -75,6 +75,53 @@ Remarks:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+# tzutil
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Displays the Windows Time Zone utility.
+
+## Syntax
+```
+tzutil [/?] [/g] [/s <timeZoneID>[_dstoff]] [/l]
+```
+#### Parameters
+|Parameter|Description|
+|-------|--------|
+|/?|Displays help at the command prompt.|
+|/g|Displays the current time zone ID.|
+|/s \<timeZoneID>[_dstoff]|Sets the current time zone using the specified time zone ID. The **_dstoff** suffix disables Daylight Saving time adjustments for the time zone (where applicable).|
+|/l|lists all valid time zone IDs and display names. The output will be:<p>-   \<display name><br />-   \<time zone ID>|
+
+## Remarks
+An exit code of **0** indicates the command completed successfully.
+
+## Examples
+To display the current time zone ID, type:
+```
+tzutil /g
+```
+To set the current time zone to Pacific Standard time, type:
+```
+tzutil /s Pacific Standard time
+```
+To set the current time zone to Pacific Standard time and disable Daylight Saving time adjustments, type:
+```
+tzutil /s Pacific Standard time_dstoff
+```
+## Additional References
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

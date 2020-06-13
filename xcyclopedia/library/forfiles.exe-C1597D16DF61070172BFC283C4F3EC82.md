@@ -13,7 +13,7 @@ MD5 | `C1597D16DF61070172BFC283C4F3EC82`
 SHA1 | `83DA939493AE1C44FC0DEE93DD5B8E095AB0C441`
 SHA256 | `5B2BA93B56D9DA593CBD896FD153414BF6C2C301F5FB034974D1504FA087B955`
 SHA384 | `9AB8F605385530FE87FD86E7E374C0FBEAAC22C47AAAFAEDD44C3B15ADCAE1824C9BFFCBDA314F9A3CE53046C27794C3`
-SHA415 | `A16A4BE24D47F5CD59B7F8CA388543632DB1B8DE45D5AF53F5AD1D20F3BA2B91BEE45CB85E7CD9F233DF5E388EFFEE1CDC46AAD4A17433DE1F59D3AD0A80DB3D`
+SHA512 | `A16A4BE24D47F5CD59B7F8CA388543632DB1B8DE45D5AF53F5AD1D20F3BA2B91BEE45CB85E7CD9F233DF5E388EFFEE1CDC46AAD4A17433DE1F59D3AD0A80DB3D`
 SSDEEP | `1536:3JfxGF15zZseSwsR13mI3SRNok+t6ZVxypHO0:z+1JZseSwsR1RSs0VxypH`
 
 ## Runtime Data
@@ -113,8 +113,8 @@ Type "FORFILES /?" for usage.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -127,6 +127,105 @@ Type "FORFILES /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# forfiles
+
+Selects and runs a command on a file or set of files. This command is most commonly used in batch files.
+
+## Syntax
+
+```
+forfiles [/P pathname] [/M searchmask] [/S] [/C command] [/D [+ | -] [{<date> | <days>}]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /P `<pathname>` | Specifies the path from which to start the search. By default, searching starts in the current working directory. |
+| /M `<searchmask>` | Searches files according to the specified search mask. The default searchmask is `*`. |
+| /S | Instructs the **forfiles** command to search in subdirectories recursively. |
+| /C `<command>` | Runs the specified command on each file. Command strings should be wrapped in double quotes. The default command is `"cmd /c echo @file"`. |
+| /D `[{+\|-}][{<date> | <days>}]` | Selects files with a last modified date within the specified time frame:<ul><li>Selects files with a last modified date later than or equal to (**+**) or earlier than or equal to (**-**) the specified date, where *date* is in the format MM/DD/YYYY.</li><li>Selects files with a last modified date later than or equal to (**+**) the current date plus the number of days specified, or earlier than or equal to (**-**) the current date minus the number of days specified.</li><li>Valid values for *days* include any number in the range 0â€“32,768. If no sign is specified, **+** is used by default.</li></ul> |
+| /? | Displays the help text in the cmd window. |
+
+#### Remarks
+
+- The `forfiles /S` command is similar to `dir /S`.
+
+- You can use the following variables in the command string as specified by the **/C** command-line option:
+
+    | Variable | Description |
+    | -------- | ----------- |
+    | @FILE | File name. |
+    | @FNAME | File name without extension. |
+    | @EXT | File name extension. |
+    | @PATH | Full path of the file. |
+    | @RELPATH | Relative path of the file. |
+    | @ISDIR | Evaluates to TRUE if a file type is a directory. Otherwise, this variable evaluates to FALSE. |
+    | @FSIZE | File size, in bytes. |
+    | @FDATE | Last modified date stamp on the file. |
+    | @FTIME | Last modified time stamp on the file. |
+
+- The **forfiles** command lets you run a command on or pass arguments to multiple files. For example, you could run the **type** command on all files in a tree with the .txt file name extension. Or you could execute every batch file (*.bat) on drive C, with the file name Myinput.txt as the first argument.
+
+- This command can:
+
+    - Select files by an absolute date or a relative date by using the **/d** parameter.
+
+    - Build an archive tree of files by using variables such as @FSIZE and @FDATE.
+
+    - Differentiate files from directories by using the @ISDIR variable.
+
+    - Include special characters in the command line by using the hexadecimal code for the character, in 0x*HH* format (for example, 0x09 for a tab).
+
+- This command works by implementing the `recurse subdirectories` flag on tools that are designed to process only a single file.
+
+### Examples
+
+To list all of the batch files on drive C, type:
+
+```
+forfiles /P c:\ /S /M *.bat /C "cmd /c echo @file is a batch file"
+```
+
+To list all of the directories on drive C, type:
+
+```
+forfiles /P c:\ /S /M *.* /C "cmd /c if @isdir==TRUE echo @file is a directory"
+```
+
+To list all of the files in the current directory that are at least one year old, type:
+
+```
+forfiles /S /M *.* /D -365 /C "cmd /c echo @file is at least one year old."
+```
+
+To display the text *file* is outdated for each of the files in the current directory that are older than January 1, 2007, type:
+
+```
+forfiles /S /M *.* /D -01/01/2007 /C "cmd /c echo @file is outdated."
+```
+
+To list the file name extensions of all the files in the current directory in column format, and add a tab before the extension, type:
+
+```
+forfiles /S /M *.* /C "cmd /c echo The extension of @file is 0x09@ext"
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

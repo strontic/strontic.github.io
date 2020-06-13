@@ -13,7 +13,7 @@ MD5 | `5A28B3C94D93A367B370C80820942DC8`
 SHA1 | `1328A9F91A011F707B2C0718EB206CD2DEFA4D7B`
 SHA256 | `1E7C610F63BA1E22F8CE1350DF98F0825A4A23328C15928BE67EE6E8B58E0290`
 SHA384 | `88EBC5C363B085C9BEED8912537EC008F3D2A4007B937FE44135A8DBF6F09FA6A919F49B58802BF6E87370BB1C7136F6`
-SHA415 | `291D9CB617700388F16C202C859A7020CC7F8E1985D96530526404DA4DD4D82EEFF26B5483ECBF01C974BE558D4767530D749B791515B291ABCB09855D94C156`
+SHA512 | `291D9CB617700388F16C202C859A7020CC7F8E1985D96530526404DA4DD4D82EEFF26B5483ECBF01C974BE558D4767530D749B791515B291ABCB09855D94C156`
 SSDEEP | `768:5RieH9nlsba7UydioQhMSj6DkPkzixXsLmM+Pu:riUltYyiofSj64PdSmM+Pu`
 
 ## Runtime Data
@@ -76,8 +76,8 @@ SSDEEP | `768:5RieH9nlsba7UydioQhMSj6DkPkzixXsLmM+Pu:riUltYyiofSj64PdSmM+Pu`
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -90,6 +90,71 @@ SSDEEP | `768:5RieH9nlsba7UydioQhMSj6DkPkzixXsLmM+Pu:riUltYyiofSj64PdSmM+Pu`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# cacls
+
+>[!IMPORTANT]
+> This command has been deprecated. Please use [icacls](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/icacls.md) instead.
+
+Displays or modifies discretionary access control lists (DACL) on specified files.
+
+## Syntax
+
+```
+cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user [...]] [/p user:<perm> [...]] [/d user [...]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `<filename>` | Required. Displays ACLs of specified files. |
+| /t | Changes ACLs of specified files in the current directory and all subdirectories. |
+| /m | Changes ACLs of volumes mounted to a directory. |
+| /l | Works on the Symbolic Link itself instead of the target. |
+| /s:sddl | Replaces the ACLs with those specified in the SDDL string. This parameter is not valid for use with the **/e**, **/g**, **/r**, **/p**, or **/d** parameters. |
+| /e | Edit an ACL instead of replacing it. |
+| /c | Continue after access denied errors. |
+| `/g user:<perm>` | Grants specified user access rights, including these valid values for permission:<ul><li>**n** - None</li><li>**r** - Read</li><li>**w** - Write</li><li>**c** - Change (write)</li><li>**f** - Full control</li></ul> |
+| /r user [...] | Revoke specified user's access rights. Only valid when used with the **/e** parameter. |
+| `[/p user:<perm> [...]` | Replace specified user's access rights, including these valid values for permission:<ul><li>**n** - None</li><li>**r** - Read</li><li>**w** - Write</li><li>**c** - Change (write)</li><li>**f** - Full control</li></ul> |
+| [/d user [...] | Deny specified user access. |
+| /? | Displays help at the command prompt. |
+
+#### Sample output
+
+| Output | Access control entry (ACE) applies to |
+-------- | ------------------------------------- |
+| OI | Object inherit. This folder and files. |
+| CI | Container inherit. This folder and subfolders. |
+| IO | Inherit only. The ACE does not apply to the current file/directory. |
+| No output message | This folder only. |
+| (OI)(CI) | This folder, subfolders, and files. |
+| (OI)(CI)(IO) | Subfolders and files only. |
+| (CI)(IO) | Subfolders only. |
+| (OI)(IO) | Files only. |
+
+#### Remarks
+
+- You can use wildcards (**?** and **&#42;**) to specify multiple files.
+
+- You can specify more than one user.
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [icacls](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/icacls.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

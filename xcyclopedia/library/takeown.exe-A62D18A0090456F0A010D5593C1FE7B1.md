@@ -13,7 +13,7 @@ MD5 | `A62D18A0090456F0A010D5593C1FE7B1`
 SHA1 | `8FEB54D53BF8084C9FC416D65D70DA2D5A0EDF29`
 SHA256 | `DFABEFDBA0976DAC4552238DA3E0EE15EAE604A813B78B2105F9C5EF1662CBD1`
 SHA384 | `2B27286ACA6D06AC02A773B7D6237DE004208D3A780C55DF7E2791CBDB3BFB795DC3D175B88172791E7EB1933E195F29`
-SHA415 | `65310FD368D89CB888DB768DE9379A5C8FE754AAB0D3FA3A113717D2F18711572A9710B6A04EED9B86EDA8A31E2688C625A3476374FAB6CA6D607FCEF569751F`
+SHA512 | `65310FD368D89CB888DB768DE9379A5C8FE754AAB0D3FA3A113717D2F18711572A9710B6A04EED9B86EDA8A31E2688C625A3476374FAB6CA6D607FCEF569751F`
 SSDEEP | `1536:v+kmdz3XixtuDlMcxJnaPmlfnGG8gzo2xNj:GkSz35VhaPc78gM2xB`
 
 ## Runtime Data
@@ -101,8 +101,8 @@ Type "TAKEOWN /?" for usage.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -115,6 +115,59 @@ Type "TAKEOWN /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# takeown
+
+Enables an administrator to recover access to a file that previously was denied, by making the administrator the owner of the file.
+
+
+
+## Syntax
+
+```
+takeown [/s <Computer> [/u [<Domain>\]<User name> [/p [<Password>]]]] /f <File name> [/a] [/r [/d {Y|N}]]
+```
+
+#### Parameters
+
+|Parameter|Description|
+|---------|-----------|
+|/s \<Computer>|Specifies the name or IP address of a remote computer (do not use backslashes). The default value is the local computer. This parameter applies to all of the files and folders specified in the command.|
+|/u [\<Domain>\]<User name>|Runs the script with the permissions of the specified user account. The default value is system permissions.|
+|/p [\<Password>]|Specifies the password of the user account that is specified in the **/u** parameter.|
+|/f \<File name>|Specifies the file name or directory name pattern. You can use the wildcard character * when specifying the pattern. You can also use the syntax *ShareName*\*FileName*.|
+|/a|Gives ownership to the Administrators group instead of the current user.|
+|/r|Performs a recursive operation on all files in the specified directory and subdirectories.|
+|/d {Y \| N}|Suppresses the confirmation prompt that is displayed when the current user does not have the "List Folder" permission on a specified directory, and instead uses the specified default value. Valid values for the **/d** option are as follows:</br>-   Y: Take ownership of the directory.</br>-   N: Skip the directory.</br>Note that you must use this option in conjunction with the **/r** option.|
+|/?|Displays help at the command prompt.|
+
+## Remarks
+
+-   This command is typically used in batch files.
+-   If the **/a** parameter is not specified, file ownership is given to the user who is currently logged on to the computer.
+-   Mixed patterns using (**?** and **&#42;**) are not supported by **takeown** command.
+-   After deleting the lock with **takeown**, you might have to use Windows Explorer or the **cacls** command to give yourself full permissions to the files and directories before you can delete them. For more information about **cacls**, see "Additional References" at the end of this topic.
+
+## <a name="BKMK_examples"></a>Examples
+
+To take ownership of a file named Lostfile, type:
+```
+takeown /f lostfile
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

@@ -13,7 +13,7 @@ MD5 | `02179EECC304A9AF7DD2F5A5B28AE0A3`
 SHA1 | `0D9F00E6ECF05009EE1A7BC13DB1C47E5F09B8D2`
 SHA256 | `4DE8F214708A0E45EA67B1618F77E180A7CB7A7B82708E5E6C35894E3427D869`
 SHA384 | `0CA7DD8DFE813AF00E72897738954FAB9D165D9D386A3AB19BE414E7F48DFBE861E85AD4DA4CE39483488FE272FE9655`
-SHA415 | `FBB02E804B6EC2EB649F392E058E52CACD1AA13899DF5A65EABAD7FED7370D3749D5B6F18710CD369A0D0EB58C73D7E5FB9B7B9C361452C0D2CE92BEF09035A7`
+SHA512 | `FBB02E804B6EC2EB649F392E058E52CACD1AA13899DF5A65EABAD7FED7370D3749D5B6F18710CD369A0D0EB58C73D7E5FB9B7B9C361452C0D2CE92BEF09035A7`
 SSDEEP | `768:fdMd1p9eIsK/K1hbSXqTIICbWhf2olLfkcAKAnUVVPehd47XN1NKNT:fdMd1p9erhUWiUV4hd47XNDKN`
 
 ## Runtime Data
@@ -79,8 +79,8 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -93,6 +93,91 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# compact
+
+Displays or alters the compression of files or directories on NTFS partitions. If used without parameters, **compact** displays the compression state of the current directory and the files it contains.
+
+## Syntax
+
+```
+compact [/c | /u] [/s[:<dir>]] [/a] [/i] [/f] [/q] [<filename>[...]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /c | Compresses the specified directory or file. |
+| /u | Uncompresses the specified directory or file. |
+| /s[:`<dir>`] | Applies the **compact** command to all subdirectories of the specified directory (or of the current directory if none is specified). |
+| /a | Displays hidden or system files. |
+| /i | Ignores errors. |
+| /f | Forces compression or uncompression of the specified directory or file. **/f** is used in the case of a file that was partly compressed when the operation was interrupted by a system crash. To force the file to be compressed in its entirety, use the **/c** and **/f** parameters and specify the partially compressed file. |
+| /q | Reports only the most essential information. |
+| `<filename>` | Specifies the file or directory. You can use multiple file names, and the **&#42;** and **?** wildcard characters. |
+| /? | Displays help at the command prompt. |
+
+#### Remarks
+
+- This command is the command-line version of the NTFS file system compression feature. The compression state of a directory indicates whether files are automatically compressed when they are added to the directory. Setting the compression state of a directory does not necessarily change the compression state of files that are already in the directory.
+
+- You can't use this command to read, write, or mount volumes compressed using DriveSpace or DoubleSpace. You also can't use this command to compress file allocation table (FAT) or FAT32 partitions.
+
+## Examples
+
+To set the compression state of the current directory, its subdirectories, and existing files, type:
+
+```
+compact /c /s
+```
+
+To set the compression state of files and subdirectories within the current directory, without altering the compression state of the current directory itself, type:
+
+```
+compact /c /s *.*
+```
+
+To compress a volume, from the root directory of the volume, type:
+
+```
+compact /c /i /s:\
+```
+
+> [!NOTE]
+> This example sets the compression state of all directories (including the root directory on the volume) and compresses every file on the volume. The **/i** parameter prevents error messages from interrupting the compression process.
+
+To compress all files with the .bmp file name extension in the \tmp directory and all subdirectories of \tmp, without modifying the compressed attribute of the directories, type:
+
+```
+compact /c /s:\tmp *.bmp
+```
+
+To force complete compression of the file *zebra.bmp*, which was partially compressed during a system crash, type:
+
+```
+compact /c /f zebra.bmp
+```
+
+To remove the compressed attribute from the directory c:\tmp, without changing the compression state of any files in that directory, type:
+
+```
+compact /u c:\tmp
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

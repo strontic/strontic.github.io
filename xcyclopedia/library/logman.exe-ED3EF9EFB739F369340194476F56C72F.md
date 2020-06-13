@@ -13,7 +13,7 @@ MD5 | `ED3EF9EFB739F369340194476F56C72F`
 SHA1 | `9A2F50035585497EA308C584B03EF8D7E817455B`
 SHA256 | `8D290236B47D598B09D7B8C2685609C63DC4BBD459FDD2E99957C074F698CEA9`
 SHA384 | `6F5160B3796315764282FF64CC60CC36DD0BCC7D98EDD023BBACE55A5ECCB05D7716B2F8A0064255A71EAB8C124E627B`
-SHA415 | `6704088E1FAA8E2010A828D4E429F49D02A78F09A26D919A131AEB29D5F4007FF56143BFF70D0517322EF6F32CCE0ACB65B093E5C9F598D9034771221AD0FE9C`
+SHA512 | `6704088E1FAA8E2010A828D4E429F49D02A78F09A26D919A131AEB29D5F4007FF56143BFF70D0517322EF6F32CCE0ACB65B093E5C9F598D9034771221AD0FE9C`
 SSDEEP | `1536:yovQzGHeo7wn2SIgy7RRT1kH6PvtiykKuX8aCEEaC:mzBqJSIgk71zPvYKu8as`
 
 ## Runtime Data
@@ -177,8 +177,8 @@ Examples:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -191,6 +191,43 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# logman
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Creates and manages Event Trace Session and Performance logs and supports many functions of Performance Monitor from the command line.
+
+## Syntax
+
+```
+logman [create | query | start | stop | delete| update | import | export | /?] [options]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| [logman create](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/logman-create.md) | Creates a counter, trace, configuration data collector, or API. |
+| [logman query](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/logman-query.md) | Queries data collector properties. |
+| [logman start &#124; stop](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/logman-start-stop.md) | Starts or stops data collection. |
+| [logman delete](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/logman-delete.md) | Deletes an existing data collector. |
+| [logman update](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/logman-update.md) | Updates the properties of an existing data collector. |
+| [logman import &#124; export](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/logman-import-export.md) | Imports a data collector set from an XML file or export a data collector set to an XML file. |
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

@@ -13,7 +13,7 @@ MD5 | `65D86C34814C02569E2AD53FD24E7F61`
 SHA1 | `21D5224E20A4BE7F303AB6C4B9F219D0D70904EE`
 SHA256 | `8133502266008B77DE7921451E1210B0EF3F0ED2DB7D8D3EE0C3350D856FA6FA`
 SHA384 | `D3B15ADFD4E2D663967BB1235D50EF4B817A05514363331F915A0A7068774A96D20DB3B3CC167D373411DA2CE959C564`
-SHA415 | `81DA07AE71AB530F07E5B27796954453ADD82518B69F9A26463DFB6E172C1309C9E53B70DB122204A9DC9DED936975E6EDC6BF876A84CED1F2FE20C2884C8D2C`
+SHA512 | `81DA07AE71AB530F07E5B27796954453ADD82518B69F9A26463DFB6E172C1309C9E53B70DB122204A9DC9DED936975E6EDC6BF876A84CED1F2FE20C2884C8D2C`
 SSDEEP | `6144:8AZEzZR4p/WwO9sV1yZywi/PzNKXzJ7BapCK5d3klRzULOnWyjLsPhAQzqO:8SW2KXzJ4pdd3klnnWosPhnzq`
 
 ## Runtime Data
@@ -149,8 +149,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000001733031072665B8B9B3000000000173
-* Thumbprint: 14590DC5C3AAF238FCFD7785B4B93F4071402C34
+* Serial: `33000001733031072665B8B9B3000000000173`
+* Thumbprint: `14590DC5C3AAF238FCFD7785B4B93F4071402C34`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -163,6 +163,72 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# PowerShell
+
+Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. Built on the .NET Framework, Windows PowerShell helps IT professionals and power users control and automate the administration of the Windows operating system and applications that run on Windows.
+
+The **PowerShell.exe** command-line tool starts a Windows PowerShell session in a Command Prompt window. When you use **PowerShell.exe**, you can use its optional parameters to customize the session. For example, you can start a session that uses a particular execution policy or one that excludes a Windows PowerShell profile. Otherwise, the session is the same as any session that is started in the Windows PowerShell console.
+
+## Using PowerShell.exe
+
+You can use the **PowerShell.exe** command-line tool to start a Windows PowerShell session in a Command Prompt window.
+
+- To start a Windows PowerShell session in a command prompt window, type `PowerShell`. A **PS** prefix is added to the command prompt to indicate that you are in a Windows PowerShell session.
+
+- To start a session with a particular execution policy, use the **ExecutionPolicy** parameter.
+
+    ```
+    PowerShell.exe -ExecutionPolicy Restricted
+    ```
+
+- To start a Windows PowerShell session without your Windows PowerShell profiles, use the **NoProfile** parameter.
+
+    ```
+    PowerShell.exe -NoProfile
+    ```
+
+- To start a session , use the **ExecutionPolicy** parameter.
+
+    ```
+    PowerShell.exe -ExecutionPolicy Restricted
+    ```
+
+- To see the PowerShell.exe help file, use the following command format.
+
+    ```
+    PowerShell.exe -help, -?, /?
+    ```
+
+- To end a Windows PowerShell session in a Command Prompt window, type `exit`. The typical command prompt returns.
+
+For a complete list of the **PowerShell.exe** command-line parameters, see [about_PowerShell.Exe](https://go.microsoft.com/fwlink/?LinkID=113439).
+
+## Other Ways to Start Windows PowerShell
+
+For information about other ways to start Windows PowerShell, see [Starting Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=135259).
+
+## Remarks
+
+Windows PowerShell runs on the Server Core installation option of Windows Server operating systems. However, features that require a graphic user interface, such as the [Windows PowerShell Integrated Scripting Environment (ISE)](https://technet.microsoft.com/library/hh849182), and the [Out-GridView](https://go.microsoft.com/fwlink/?LinkID=113364) and [Show-Command](https://go.microsoft.com/fwlink/?LinkID=217448) cmdlets, do not run on Server Core installations.
+
+## Additional References
+
+[about_PowerShell.Exe](https://go.microsoft.com/fwlink/?LinkID=113439)
+[about_PowerShell_Ise.exe](https://go.microsoft.com/fwlink/?LinkId=256512)
+[Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=107116)
+[Scripting with Windows PowerShell](https://technet.microsoft.com/scriptcenter/dd742419)
+See Also
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

@@ -13,7 +13,7 @@ MD5 | `27810AD3D1479BDF78517EFDB7D05938`
 SHA1 | `5C6BFE796FC727555E15DC3A6A69F62D54F7ED8C`
 SHA256 | `934E31A623332839C4068C8565EFD5E9718B58C46B42D865034A690CDD3FB1A1`
 SHA384 | `C48858869FD2E1213546827B147BDD67FF3B2796F1B3BE03FBCC1254F216683B98E8DB06AE52A3174AF18E196A33D173`
-SHA415 | `39AED39711173327E27A2CA91D0F8845CA61B4664ED742ED96BDF3FBDA21F8C045463F94F2477E1E5833A1E9A962914BF940635235DA172B58156AE1578AC51C`
+SHA512 | `39AED39711173327E27A2CA91D0F8845CA61B4664ED742ED96BDF3FBDA21F8C045463F94F2477E1E5833A1E9A962914BF940635235DA172B58156AE1578AC51C`
 SSDEEP | `384:LRR3cNJyL/72TtOfKuXvZ7ThK8y7jPNzW3qW:LjCJyLz8tkXvxWjPe`
 
 ## Runtime Data
@@ -51,8 +51,8 @@ Invalid drive specification.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -65,6 +65,42 @@ Invalid drive specification.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# convert
+
+Converts a disk from one disk type to another.
+
+## Syntax
+
+```
+convert basic
+convert dynamic
+convert gpt
+convert mbr
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| [convert basic command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/convert-basic.md) | Converts an empty dynamic disk into a basic disk. |
+| [convert dynamic command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/convert-dynamic.md) | Converts a basic disk into a dynamic disk. |
+| [convert gpt command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/convert-gpt.md) | Converts an empty basic disk with the master boot record (MBR) partition style into a basic disk with the GUID partition table (GPT) partition style. |
+| [convert mbr command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/convert-mbr.md) | Converts an empty basic disk with the GUID Partition Table (GPT) partition style into a basic disk with the master boot record (MBR) partition style. |
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

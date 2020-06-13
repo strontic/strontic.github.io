@@ -13,7 +13,7 @@ MD5 | `B2DBA298A747802266E7DC6D1EA262E6`
 SHA1 | `B2A0AE0404C964680EAD364E8B7C96D3802A3A0E`
 SHA256 | `D9D80AAE27B350994D2917609B1944187B769DE4798F2BC0FF5FD1F58AF1DF19`
 SHA384 | `AF4AE5D6A3712EAF16FD22187A7A0E694F88CF5A248DBF4D35F46746217270CC4527F90D380EB22D079F034020660F51`
-SHA415 | `B0BFFAB0D39C44A5D51212729D3E6096BF4A3DAD06347202905A194DF05828A0BFB972CC4FBC630183D0A04197417646B56BA543EBE6BABA51ED72609A20A972`
+SHA512 | `B0BFFAB0D39C44A5D51212729D3E6096BF4A3DAD06347202905A194DF05828A0BFB972CC4FBC630183D0A04197417646B56BA543EBE6BABA51ED72609A20A972`
 SSDEEP | `3072:+JPjYKBwkkGb4WRKEzC8S7oainDvUqw8vbJCCguyAuShuboaG8aVubA:+ljYkkG5zrS3ia8v9n89GLu`
 
 ## Runtime Data
@@ -132,8 +132,8 @@ Commands:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -146,6 +146,53 @@ Commands:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# pnputil
+
+Pnputil.exe is a command line utility that you can use to manage the driver store. You can use Pnputil to add driver packages, remove driver packages, and list driver packages that are in the store.
+
+## Syntax
+
+```
+pnputil.exe [-f | -i] [ -? | -a | -d | -e ] <INF name>
+```
+
+### Parameters
+
+|Parameter|Description|
+|---------|-----------|
+|-a|Specifies to add the identified INF file.|
+|-d|Specifies to delete the identified INF file.|
+|-e|Specifies to enumerate all third-party INF files.|
+|-f|Specifies to force the deletion of the identified INF file. Cannot be used in conjunction with the **â€“i** parameter.|
+|-i|Specifies to install the identified INF file. Cannot be used in conjunction with  the **-f** parameter.|
+|/?|Displays help at the command prompt.|
+
+
+## Examples
+
+-   pnputil.exe -a a:\usbcam\USBCAM.INF  Adds the INF file that is specified by USBCAM.INF
+-   pnputil.exe -a c:\drivers\*.inf  Adds all INF files in c:\drivers\
+-   pnputil.exe -i -a a:\usbcam\USBCAM.INF  Adds and installs the specified driver.
+-   pnputil.exe â€“e  Enumerates all third-party drivers.
+-   pnputil.exe -d oem0.inf  Deletes the specified.
+-   pnputil.exe -f -d oem0.inf  Forces the deletion of the specified INF file.
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+[Popd](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/popd.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

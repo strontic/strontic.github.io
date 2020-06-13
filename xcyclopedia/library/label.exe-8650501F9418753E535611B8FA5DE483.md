@@ -13,7 +13,7 @@ MD5 | `8650501F9418753E535611B8FA5DE483`
 SHA1 | `A8AE6440E56BBEBEB29972CF0C86F12B9594EFDD`
 SHA256 | `68F18947DB7B9E0DDFD840D039DF793A4C07FA5BC00CA11E768FDF9D0D5B57C9`
 SHA384 | `EA017EB7A6E1A963BEEF174D6EBC076BAF667CFD1D749B9972BE69868A056525E7840CB101AA2148D9C4C94455735506`
-SHA415 | `83C64C24785BC452140887A740F205976AD449F6977B3A95F8957824A70965EA06819219017623B98D9FA6E4638AFC3A958AC2962D51C4363C3C5EE4423E2F09`
+SHA512 | `83C64C24785BC452140887A740F205976AD449F6977B3A95F8957824A70965EA06819219017623B98D9FA6E4638AFC3A958AC2962D51C4363C3C5EE4423E2F09`
 SSDEEP | `384:9MCo7ZWXxA4+StBlOcH9RjjdZ5ZTl2ProWSXjW:277Z4A4FYcXXToTy`
 
 ## Runtime Data
@@ -46,8 +46,8 @@ LABEL [/MP] [volume] [label]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -60,6 +60,77 @@ LABEL [/MP] [volume] [label]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# label
+
+Creates, changes, or deletes the volume label (that is, the name) of a disk. If used without parameters, the **label** command changes the current volume label or deletes the existing label.
+
+## Syntax
+
+```
+label [/mp] [<volume>] [<label>]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /mp | Specifies that the volume should be treated as a mount point or volume name. |
+| `<volume>` | Specifies a drive letter (followed by a colon), mount point, or volume name. If a volume name is specified, the **/mp** parameter is unnecessary. |
+| `<label>` | Specifies the label for the volume. |
+| /? | Displays help at the command prompt. |
+
+## Remarks
+
+- Windows displays the volume label and serial number (if it has one) as part of the directory listing.
+
+- An NTFS volume label can be up to 32 characters in length, including spaces. NTFS volume labels retain and display the case that was used when the label was created.
+
+## Examples
+
+To label a disk in drive A that contains sales information for July, type:
+
+```
+label a:sales-july
+```
+
+To view and delete the current label for drive C, follow these steps:
+
+1. At the command prompt, type:
+
+   ```
+   label
+   ```
+
+   Output similar to the following should be displayed:
+
+   ```
+   Volume in drive C: is Main Disk
+   Volume Serial Number is 6789-ABCD
+   Volume label (32 characters, ENTER for none)?
+   ```
+
+2. Press ENTER. The following prompt should be displayed:
+
+   ```
+   Delete current volume label (Y/N)?
+   ```
+
+3. Press **Y** to delete the current label, or **N** if you want to keep the existing label.
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

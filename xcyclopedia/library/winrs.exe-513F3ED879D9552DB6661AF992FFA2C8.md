@@ -13,7 +13,7 @@ MD5 | `513F3ED879D9552DB6661AF992FFA2C8`
 SHA1 | `A074788FD13B12EE7281B90A5B0AF72A572F073B`
 SHA256 | `700ACD72EBC15130B66048B7E7D3282A17A8ABA24092D871620955883A1160A6`
 SHA384 | `943BD99942ABCFCD2277CDE3400E26A8675640D652C5439E1055BC51E713843A271B7243DAD854EE0F0C707773FEB133`
-SHA415 | `30DDA0CD2AB5FDE674265FB2E676821EAE10BF24603EAE2C72B8186C6A21665B1EDC95338A262246CFF6F6E2DCA2A58C1D9DF4B4AB4B39DDD98ABB73267071A5`
+SHA512 | `30DDA0CD2AB5FDE674265FB2E676821EAE10BF24603EAE2C72B8186C6A21665B1EDC95338A262246CFF6F6E2DCA2A58C1D9DF4B4AB4B39DDD98ABB73267071A5`
 SSDEEP | `768:OoP5b7LATPN2avUphn9VXvN2XChn4OwGwBO8DIDp+z9ecMmkSx+Bz6lqrzit:b3gPN2acphn9yXCa5OBDpk4mk5it`
 
 ## Runtime Data
@@ -93,8 +93,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -107,6 +107,86 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+# winrs
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Windows remote Management allows you to manage and execute programs remotely.
+## Syntax
+```
+winrs [/<parameter>[:<value>]] <command>
+```
+#### Parameters
+
+|           Parameter            |                                                                                                                                                                                    Description                                                                                                                                                                                     |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      /remote:\<endpoint>       |                                                                                          Specifies the target endpoint using a NetBIOS name or the standard connection:<p>-   <url>: [\<transport>://]\<target>[:\<port>]<p>if not specified, **/r:localhost** is used.                                                                                          |
+|          /unencrypted          | Specifies that the messages to the remote shell will not be encrypted. This is useful for troubleshooting or when the network traffic is already encrypted using **ipsec**, or when physical security is enforced.<p>By default, the messages are encrypted using Kerberos or NTLM keys.<p>This command-line option is ignored when HTTPS transport is selected. |
+|     /username:\<username>      |                                                                                Specifies username on command line.<p>if not specified, the tool will use Negotiate authentication or prompt for the name.<p>if **/username** is specified, **/password** must also be specified.                                                                                 |
+|     /password:\<password>      |                                                                           Specifies password on command line.<p>if **/password** is not specified but **/username** is, the tool will prompt for the password.<p>if **/password** is specified, **/username** must also be specified.                                                                            |
+|      /timeout:\<seconds>       |                                                                                                                                                                             This option is deprecated.                                                                                                                                                                             |
+|       /directory:\<path>       |                                                                                            Specifies starting directory for remote shell.<p>if not specified, the remote shell will start in the user's home directory defined by the environment variable **%USERPROFILE%**.                                                                                             |
+| /environment:\<string>=<value> |                                                                          Specifies a single environment variable to be set when shell starts, which allows changing default environment for shell.<p>Multiple occurrences of this switch must be used to specify multiple environment variables.                                                                          |
+|            /noecho             |                                                                                                    Specifies that echo should be disabled. This may be necessary to ensure that user's answers to remote prompts are not displayed locally.<p>By default echo is on.                                                                                                    |
+|           /noprofile           |                                              Specifies that the user's profile should not be loaded.<p>By default, the server will attempt to load the user profile.<p>if the remote user is not a local administrator on the target system, then this option will be required (the default will result in error).                                               |
+|         /allowdelegate         |                                                                                                                  Specifies that the user's credentials can be used to access a remote share, for example, found on a different machine than the target endpoint.                                                                                                                   |
+|          /compression          |                                                                           Turn on compression.  Older installations on remote machines may not support compression so it is off by default.<p>Default setting is off, since older installations on remote machines may not support compression.                                                                           |
+|            /usessl             |                                                                                                               Use an SSL connection when using a remote endpoint.  Specifying this instead of the transport **https:** will use the default **WinRM** default port.                                                                                                                |
+|               /?               |                                                                                                                                                                        Displays help at the command prompt.                                                                                                                                                                        |
+
+## Remarks
+-   All command-line options accept either short form or long form. For example both **/r** and **/remote** are valid.
+-   To terminate the **/remote** command, the user can type **Ctrl-C** or **Ctrl-break**, which will be sent to the remote shell. The second **Ctrl-C** will force termination of **winrs.exe**.
+-   To manage active remote shells or winrs configuration, use the WinRM tool.  The URI alias to manage active shells is **shell/cmd**.  The URI alias for winrs configuration is **winrm/config/winrs**.
+
+## Examples
+```
+winrs /r:https://contoso.com command
+```
+```
+winrs /r:contoso.com /usessl command
+```
+```
+winrs /r:myserver command
+```
+```
+winrs /r:http://127.0.0.1 command
+```
+```
+winrs /r:http://169.51.2.101:80 /unencrypted command
+```
+```
+winrs /r:https://[::FFFF:129.144.52.38] command
+```
+```
+winrs /r:http://[1080:0:0:0:8:800:200C:417A]:80 command
+```
+```
+winrs /r:https://contoso.com /t:600 /u:administrator /p:$%fgh7 ipconfig
+```
+```
+winrs /r:myserver /env:path=^%path^%;c:\tools /env:TEMP=d:\temp config.cmd
+```
+```
+winrs /r:myserver netdom join myserver /domain:testdomain /userd:johns /passwordd:$%fgh789
+```
+```
+winrs /r:myserver /ad /u:administrator /p:$%fgh7 dir \\anotherserver\share
+```
+
+## Additional References
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

@@ -13,7 +13,7 @@ MD5 | `13C83CB32EE31E91B85EE5F499BCB13C`
 SHA1 | `D4C9B250AC4196EE512DF9043610B259BE3B171D`
 SHA256 | `31BF2CF2FB4EAC38C03DC388A99680A421B426A44C6A1E870FB40D1D2DC72458`
 SHA384 | `BD1A550727DF759813AD8543A32E35C9D9C4B3EC3C809C82EFA4C6E3DF7C4BA20EEDF2889F961BC1DDDAADB692429619`
-SHA415 | `94602CBD182712B2A2140800E360B4FB6714CA3E6ECB4E68FA7421F6ECE926604297C954F5F38EDF4B8FB7826C32389DD9F955F5E566E1BFD1EA0C1FDB4B10CA`
+SHA512 | `94602CBD182712B2A2140800E360B4FB6714CA3E6ECB4E68FA7421F6ECE926604297C954F5F38EDF4B8FB7826C32389DD9F955F5E566E1BFD1EA0C1FDB4B10CA`
 SSDEEP | `3072:2AjbEaznWfH22ZsuX2xKwMPTnaSrIrvDQ:FbznWjZnXeKwMLnaqY`
 
 ## Runtime Data
@@ -34,8 +34,8 @@ Fondue.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,6 +48,56 @@ Fondue.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# fondue
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Enables Windows optional features by downloading required files from Windows Update or another source specified by Group Policy. The manifest file for the feature must already be installed in your Windows image.
+
+## Syntax
+
+```
+fondue.exe /enable-feature:<feature_name> [/caller-name:<program_name>] [/hide-ux:{all | rebootrequest}]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /enable-feature:`<feature_name>` | Specifies the name of the Windows optional feature you want to enable. You can only enable one feature per command line. To enable multiple features, use fondue.exe for each feature. |
+| /caller-name:`<program_name>` | Specifies the program or process name when you call fondue.exe from a script or batch file. You can use this option to add the program name to the SQM report if there is an error. |
+| /hide-ux:`{all | rebootrequest}` | Use **all** to hide all messages to the user including progress and permission requests to access Windows Update. If permission is required, the operation will fail.<p>Use **rebootrequest** to only hide user messages asking for permission to reboot the computer. Use this option if you have a script that controls reboot requests. |
+
+### Examples
+
+To enable Microsoft .NET Framework 4.8, type:
+
+```
+fondue.exe /enable-feature:NETFX4
+```
+
+To enable Microsoft .NET Framework 4.8, add the program name to the SQM report, and not display messages to the user, type:
+
+```
+fondue.exe /enable-feature:NETFX4 /caller-name:Admin.bat /hide-ux:all
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [Microsoft .NET Framework 4.8 Download](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

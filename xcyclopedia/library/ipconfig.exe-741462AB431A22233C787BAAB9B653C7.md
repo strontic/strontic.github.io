@@ -13,7 +13,7 @@ MD5 | `741462AB431A22233C787BAAB9B653C7`
 SHA1 | `AEDB279E378BED6C2DB3C9DC9E12BA635E0B391C`
 SHA256 | `A4370C0CF81686C0B696FA6261C9D3E0D810AE704AB8301839DFFD5D5112F476`
 SHA384 | `87BF929855780EF927F0A0F4460B6135C06F111603C28D83E37FD075025A9BD43A997BDA808641E117274432AD2CF1B8`
-SHA415 | `74642DB3D3A63212332D348CC06AB4F9C1478DE48559C44B17EAAECAC8DEA5B37E406E2C91BF92B6A2A4C8596D25ED6F7417860A0EA59FF26BAC1985E6BA5074`
+SHA512 | `74642DB3D3A63212332D348CC06AB4F9C1478DE48559C44B17EAAECAC8DEA5B37E406E2C91BF92B6A2A4C8596D25ED6F7417860A0EA59FF26BAC1985E6BA5074`
 SSDEEP | `768:4tC/CWA2ccnjnsOwu431kBmBgt+nYVb9nK:4c/ClhcPwuqk4B++YF9nK`
 
 ## Runtime Data
@@ -88,8 +88,8 @@ Examples:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -102,6 +102,92 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# ipconfig
+
+Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. Used without parameters, **ipconfig** displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+
+## Syntax
+
+```
+ipconfig [/allcompartments] [/all] [/renew [<adapter>]] [/release [<adapter>]] [/renew6[<adapter>]] [/release6 [<adapter>]] [/flushdns] [/displaydns] [/registerdns] [/showclassid <adapter>] [/setclassid <adapter> [<classID>]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /all | Displays the full TCP/IP configuration for all adapters. Adapters can represent physical interfaces, such as installed network adapters, or logical interfaces, such as dial-up connections. |
+| /displaydns | Displays the contents of the DNS client resolver cache, which includes both entries preloaded from the local Hosts file and any recently obtained resource records for name queries resolved by the computer. The DNS Client service uses this information to resolve frequently queried names quickly, before querying its configured DNS servers. |
+| /flushdns | Flushes and resets the contents of the DNS client resolver cache. During DNS troubleshooting, you can use this procedure to discard negative cache entries from the cache, as well as any other entries that have been added dynamically. |
+| /registerdns | Initiates manual dynamic registration for the DNS names and IP addresses that are configured at a computer. You can use this parameter to troubleshoot a failed DNS name registration or resolve a dynamic update problem between a client and the DNS server without rebooting the client computer. The DNS settings in the advanced properties of the TCP/IP protocol determine which names are registered in DNS. |
+| /release `[<adapter>]` | Sends a DHCPRELEASE message to the DHCP server to release the current DHCP configuration and discard the IP address configuration for either all adapters (if an adapter is not specified) or for a specific adapter if the *adapter* parameter is included. This parameter disables TCP/IP for adapters configured to obtain an IP address automatically. To specify an adapter name, type the adapter name that appears when you use **ipconfig** without parameters. |
+| /release6`[<adapter>]` | Sends a DHCPRELEASE message to the DHCPv6 server to release the current DHCP configuration and discard the IPv6 address configuration for either all adapters (if an adapter is not specified) or for a specific adapter if the *adapter* parameter is included. This parameter disables TCP/IP for adapters configured to obtain an IP address automatically. To specify an adapter name, type the adapter name that appears when you use **ipconfig** without parameters. |
+| /renew `[<adapter>]` | Renews DHCP configuration for all adapters (if an adapter is not specified) or for a specific adapter if the *adapter* parameter is included. This parameter is available only on computers with adapters that are configured to obtain an IP address automatically. To specify an adapter name, type the adapter name that appears when you use **ipconfig** without parameters. |
+| /renew6 `[<adapter>]` | Renews DHCPv6 configuration for all adapters (if an adapter is not specified) or for a specific adapter if the *adapter* parameter is included. This parameter is available only on computers with adapters that are configured to obtain an IPv6 address automatically. To specify an adapter name, type the adapter name that appears when you use **ipconfig** without parameters. |
+| /setclassid `<adapter>[<classID>]` | Configures the DHCP class ID for a specified adapter. To set the DHCP class ID for all adapters, use the asterisk (**&#42;**) wildcard character in place of *adapter*. This parameter is available only on computers with adapters that are configured to obtain an IP address automatically. If a DHCP class ID is not specified, the current class ID is removed. |
+| /showclassid `<adapter>` | Displays the DHCP class ID for a specified adapter. To see the DHCP class ID for all adapters, use the asterisk (**&#42;**) wildcard character in place of *adapter*. This parameter is available only on computers with adapters that are configured to obtain an IP address automatically. |
+| /? | Displays Help at the command prompt. |
+
+#### Remarks
+
+- This command is most useful on computers that are configured to obtain an IP address automatically. This enables users to determine which TCP/IP configuration values have been configured by DHCP, Automatic Private IP Addressing (APIPA), or an alternate configuration.
+
+- If the name you supply for *adapter* contains any spaces, use quotation marks around the adapter name (for example, "adapter name").
+
+- For adapter names, **ipconfig** supports the use of the asterisk (*) wildcard character to specify either adapters with names that begin with a specified string or adapters with names that contain a specified string. For example, `Local*` matches all adapters that start with the string Local and `*Con*` matches all adapters that contain the string Con.
+
+### Examples
+
+To display the basic TCP/IP configuration for all adapters, type:
+
+```
+ipconfig
+```
+
+To display the full TCP/IP configuration for all adapters, type:
+
+```
+ipconfig /all
+```
+
+To renew a DHCP-assigned IP address configuration for only the Local Area Connection adapter, type:
+
+```
+ipconfig /renew Local Area Connection
+```
+
+To flush the DNS resolver cache when troubleshooting DNS name resolution problems, type:
+
+```
+ipconfig /flushdns
+```
+
+To display the DHCP class ID for all adapters with names that start with Local, type:
+
+```
+ipconfig /showclassid Local*
+```
+
+To set the DHCP class ID for the Local Area Connection adapter to TEST, type:
+
+```
+ipconfig /setclassid Local Area Connection TEST
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

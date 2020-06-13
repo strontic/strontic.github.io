@@ -13,7 +13,7 @@ MD5 | `728818E7BC00EF3333A3D23C7FF6AFA8`
 SHA1 | `42A50C87008B7EECA9918F47471C74AA2B065D5F`
 SHA256 | `6FCE4D0E7A0C3A0D051EFB61CA5AD1E30AF75BCCA01DCD42CD3F49A105F34FFE`
 SHA384 | `062187D0487EE03AE1CF82D50C2966FCAE78D3C291943050639DBA3ED36E4DDAB91E06754F059A280D67017D4EB9DB0E`
-SHA415 | `24A61D11977F8FCE680F6F2DA80FE354FE8CBB5303E0F01AA162F900B7FA114E6743552D97EA05B6A25873CD2EA375E85A9DF46D3C2B47EC6BB886C4DA276421`
+SHA512 | `24A61D11977F8FCE680F6F2DA80FE354FE8CBB5303E0F01AA162F900B7FA114E6743552D97EA05B6A25873CD2EA375E85A9DF46D3C2B47EC6BB886C4DA276421`
 SSDEEP | `3072:BohQoV9ohKGp0qe9kzMVjS5EVk/R6iPeW+cUfbdQ:BohQoVGhKE0qt49Sak/0Dd`
 
 ## Runtime Data
@@ -83,8 +83,8 @@ Examples: bcdboot c:\windows /l en-us
 ## Signature
 
 * Status: Signature verified.
-* Serial: 3300000266BD1580EFA75CD6D3000000000266
-* Thumbprint: A4341B9FD50FB9964283220A36A1EF6F6FAA7840
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -97,6 +97,42 @@ Examples: bcdboot c:\windows /l en-us
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# bcdboot
+
+Enables you to quickly set up a system partition, or to repair the boot environment located on the system partition. The system partition is set up by copying a simple set of Boot Configuration Data (BCD) files to an existing empty partition.
+
+## Syntax
+
+```
+bcdboot <source> [/l] [/s]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| source | Specifies the location of the Windows directory to use as the source for copying boot environment files. |
+| /l | Specifies the locale. The default locale is US English. |
+| /s | Specifies the volume letter of the system partition. The default is the system partition identified by the firmware. |
+
+## Examples
+
+For information about where to find BCDboot and examples of how to use this command, see the [BCDboot Command-Line Options](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-8.1-and-8/hh824874(v=win.10)) topic.
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

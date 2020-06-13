@@ -13,7 +13,7 @@ MD5 | `2CEE7F1AD77D8817E0F043E5E5ED1C83`
 SHA1 | `1B53EEB550F08CAFD15AA98FA40B39E36943D292`
 SHA256 | `6679EA8FBEB539B5852CE8838420471FED0600F5050F3370DBB355DAC76BF072`
 SHA384 | `FEFAE464E79D5FDA0E29148955D630941416542F3EC542E57EBF55AFDD5A19D7A5859926C65D760783F94B7C8DCA4E4C`
-SHA415 | `80491E5AFC853630DEBDA44620DFD22D7EB79B9B3B761ADC2CC33B69046B315E3A7DE8897AEB94985C3F38A202643D7034D5D448A353336DEEC90B390F184DB2`
+SHA512 | `80491E5AFC853630DEBDA44620DFD22D7EB79B9B3B761ADC2CC33B69046B315E3A7DE8897AEB94985C3F38A202643D7034D5D448A353336DEEC90B390F184DB2`
 SSDEEP | `6144:FsCjqsobsdwE1nPD2rWiCCyHUPkikNo/PH70FGH5enh:vJssdnYlci2c0FGH0nh`
 
 ## Runtime Data
@@ -153,8 +153,8 @@ help - Alias not found.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -167,6 +167,75 @@ help - Alias not found.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# wmic
+
+
+
+Displays WMI information inside an interactive command shell.
+
+
+
+## Syntax
+
+```
+wmic </parameter>
+```
+
+## Sub-commands
+
+The following sub-commands are available at all times:
+
+|Sub-command|Description|
+|-----------|-----------|
+|class|Escapes from the default alias mode of WMIC to access classes in the WMI schema directly.|
+|path|Escapes from the default alias mode of WMIC to access instances in the WMI schema directly.|
+|context|Displays the current values of all global switches.|
+|[quit \| exit]|Exits the WMIC command shell.|
+
+## Examples
+
+To display the current values of all global switches, type:
+```
+wmic context
+```
+Output similar to the following displays:
+```
+NAMESPACE    : root\cimv2
+ROLE         : root\cli
+NODE(S)      : BOBENTERPRISE
+IMPLEVEL     : IMPERSONATE
+[AUTHORITY   : N/A]
+AUTHLEVEL    : PKTPRIVACY
+LOCALE       : ms_409
+PRIVILEGES   : ENABLE
+TRACE        : OFF
+RECORD       : N/A
+INTERACTIVE  : OFF
+FAILFAST     : OFF
+OUTPUT       : STDOUT
+APPEND       : STDOUT
+USER         : N/A
+AGGREGATE    : ON
+```
+To change the language ID used by the command line to English (locale ID 409), type:
+```
+wmic /locale:ms_409
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

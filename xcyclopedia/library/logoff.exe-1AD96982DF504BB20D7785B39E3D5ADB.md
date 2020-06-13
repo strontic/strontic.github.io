@@ -13,7 +13,7 @@ MD5 | `1AD96982DF504BB20D7785B39E3D5ADB`
 SHA1 | `83CEDE8F9A8EB017586DD33A52F1D932F90E1451`
 SHA256 | `FD250A61F9BDFEA9E9F726BBF9F1D6840BC6D0BF8E7AFF8841E554ED688BFC84`
 SHA384 | `0C46B0FECB3B346EAB3E490CDD9B02509A212E54CA0337518C2E48A820DF207ACF03EA9E1CEDC4A1FA1AE12B6D042D1A`
-SHA415 | `E34A3EC8E66B2DB98E948B11B519FF256303FF5FF9B38A678172586E76869C02003BEB950B3E25D8EB48545650F0A2DA351C9DA4BAEC48DACC0CC9D8053892A1`
+SHA512 | `E34A3EC8E66B2DB98E948B11B519FF256303FF5FF9B38A678172586E76869C02003BEB950B3E25D8EB48545650F0A2DA351C9DA4BAEC48DACC0CC9D8053892A1`
 SSDEEP | `384:E+i3f12nVyOkFmL0hjEaz5/g9K8yeZ1JDAhq6NLb0gW6WjMcZHKW3VuW:jivMPkEohPW9K8yar6R0gQlp`
 
 ## Runtime Data
@@ -46,8 +46,8 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000001C422B2F79B793DACB20000000001C4
-* Thumbprint: AE9C1AE54763822EEC42474983D8B635116C8452
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -60,6 +60,75 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# logoff
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Logs off a user from a session on a Remote Desktop Session Host server and deletes the session.
+
+## Syntax
+```
+logoff [<sessionname> | <sessionID>] [/server:<servername>] [/v]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `<sessionname>` | Specifies the name of the session. This must be an active session.|
+| `<sessionID>` | Specifies the numeric ID which identifies the session to the server. |
+| /server:`<servername>` | Specifies the Remote Desktop Session Host server that contains the session whose user you want to log off. If unspecified, the server on which you are currently active is used. |
+| /v | Displays information about the actions being performed. |
+| /? | Displays help at the command prompt. |
+
+#### Remarks
+
+- You can always log off yourself from the session to which you are currently logged on. You must, however, have **Full Control** permission to log off users from other sessions.
+
+- Logging off a user from a session without warning can result in loss of data at the user's session. You should send a message to the user by using the **msg** command to warn the user before taking this action.
+
+- If `<sessionID>` or `<sessionname>` isn't specified, **logoff** logs the user off from the current session.
+
+- After you log off a user, all processes end and the session is deleted from the server.
+
+- You can't log off a user from the console session.
+
+### Examples
+
+To log off a user from the current session, type:
+
+```
+logoff
+```
+
+To log off a user from a session by using the session's ID, for example *session 12*, type:
+
+```
+logoff 12
+```
+
+To log off a user from a session by using the name of the session and server, for example session *TERM04* on *Server1*, type:
+
+```
+logoff TERM04 /server:Server1
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

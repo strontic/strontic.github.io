@@ -13,7 +13,7 @@ MD5 | `5341171CD30698B6390598B4CD7D9E12`
 SHA1 | `F1E0BACA0D5CC6BB6127E6DE978645F6140CC584`
 SHA256 | `C1A71BBB60FAB4B6AF35E9ACCF65D965738DB35E9CFD99BC5F9AE9728DC7CDC8`
 SHA384 | `B56D92854D7C592E67BC07C2227CB9B335A9A159F317BAD92987BF1C604D4E100423E4893399167A1B52CCB3096BB63A`
-SHA415 | `4658D4AB6C6E02C8E9067CDD9562DC545797FFAB0715B4299464BC691FE364D3C0FB83F7A3D548541FA37C529088A15E2753DF2490DB1BF0934B34B33D1042D1`
+SHA512 | `4658D4AB6C6E02C8E9067CDD9562DC545797FFAB0715B4299464BC691FE364D3C0FB83F7A3D548541FA37C529088A15E2753DF2490DB1BF0934B34B33D1042D1`
 SSDEEP | `384:3JwkQCNIdIcUu3Nq3kzCSTHcwdIXzMTRGluYubYWSOmWbp6sb:3JwBmINTzCST8wdXTklu9bDzp6sb`
 
 ## Runtime Data
@@ -66,8 +66,8 @@ Example:
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000001733031072665B8B9B3000000000173
-* Thumbprint: 14590DC5C3AAF238FCFD7785B4B93F4071402C34
+* Serial: `33000001733031072665B8B9B3000000000173`
+* Thumbprint: `14590DC5C3AAF238FCFD7785B4B93F4071402C34`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -80,6 +80,69 @@ Example:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+# arp
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Displays and modifies entries in the Address Resolution Protocol (ARP) cache. The ARP cache contains one or more tables that are used to store IP addresses and their resolved Ethernet or Token Ring physical addresses. There is a separate table for each Ethernet or Token Ring network adapter installed on your computer. Used without parameters, **arp** displays help information.
+
+## Syntax
+
+```
+arp [/a [<inetaddr>] [/n <ifaceaddr>]] [/g [<inetaddr>] [-n <ifaceaddr>]] [/d <inetaddr> [<ifaceaddr>]] [/s <inetaddr> <etheraddr> [<ifaceaddr>]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `[/a [<inetaddr>] [/n <ifaceaddr>]` | Displays current arp cache tables for all interfaces. The **/n** parameter is case-sensitive. To display the arp cache entry for a specific IP address, use **arp /a** with the **inetaddr** parameter, where **inetaddr** is an IP address. If **inetaddr** is not specified, the first applicable interface is used. To display the arp cache table for a specific interface, use the **/n ifaceaddr** parameter in conjunction with the **/a** parameter where **inetaddr** is the IP address assigned to the interface. |
+| `[/g [<inetaddr>] [/n <ifaceaddr>]` | Identical to **/a**. |
+| `[/d <inetaddr> [<ifaceaddr>]` | Deletes an entry with a specific IP address, where **inetaddr** is the IP address. To delete an entry in a table for a specific interface, use the **ifaceaddr** parameter where **ifaceaddr** is the IP address assigned to the interface. To delete all entries, use the asterisk (*) wildcard character in place of **inetaddr**. |
+| `[/s <inetaddr> <etheraddr> [<ifaceaddr>]` | Adds a static entry to the arp cache that resolves the IP address **inetaddr** to the physical address **etheraddr**. To add a static arp cache entry to the table for a specific interface, use the **ifaceaddr** parameter where **ifaceaddr** is an IP address assigned to the interface. |
+| /? | Displays help at the command prompt. |
+
+### Remarks
+
+- The IP addresses for **inetaddr** and **ifaceaddr** are expressed in dotted decimal notation.
+
+- The physical address for **etheraddr** consists of six bytes expressed in hexadecimal notation and separated by hyphens (for example, 00-AA-00-4F-2A-9C).
+
+- Entries added with the **/s** parameter are static and do not time out of the arp cache. The entries are removed if the TCP/IP protocol is stopped and started. To create permanent static arp cache entries, place the appropriate **arp** commands in a batch file and use Scheduled Tasks to run the batch file at startup.
+
+## Examples
+
+To display the arp cache tables for all interfaces, type:
+
+```
+arp /a
+```
+
+To display the arp cache table for the interface that is assigned the IP address *10.0.0.99*, type:
+
+```
+arp /a /n 10.0.0.99
+```
+
+To add a static arp cache entry that resolves the IP address *10.0.0.80* to the physical address *00-AA-00-4F-2A-9C*, type:
+
+```
+arp /s 10.0.0.80 00-AA-00-4F-2A-9C
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

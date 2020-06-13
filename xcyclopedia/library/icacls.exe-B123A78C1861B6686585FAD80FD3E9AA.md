@@ -13,7 +13,7 @@ MD5 | `B123A78C1861B6686585FAD80FD3E9AA`
 SHA1 | `95D063153A3535F3C1F0AABEB3ED396D04E5E5C1`
 SHA256 | `A1BD6ADB57EFD737C0ABC1BE4D4E732B54AFAAED42FC4E077522FA4DC88B5CA6`
 SHA384 | `42D2190C82E9D487F11900A419C07401E1986CDFA67ECE261B83969309306E70F9958BF32700E5458C0D153F1C1B3420`
-SHA415 | `38867CB3195D0D09E958AE9F96B88ABA0333473BF597CF0856B26E9E05E74C3944D1E009289034DBF2B781563E23D6F07FE07CBC752C9F430A910A3468657FB8`
+SHA512 | `38867CB3195D0D09E958AE9F96B88ABA0333473BF597CF0856B26E9E05E74C3944D1E009289034DBF2B781563E23D6F07FE07CBC752C9F430A910A3468657FB8`
 SSDEEP | `768:kv0pBuur32t8DPh+vT2CdCCGfEBLlYXD:kGBXmtyP6TSEBLlY`
 
 ## Runtime Data
@@ -170,8 +170,8 @@ First parameter must be a file name pattern or "/?"
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -184,6 +184,163 @@ First parameter must be a file name pattern or "/?"
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# icacls
+
+Displays or modifies discretionary access control lists (DACLs) on specified files, and applies stored DACLs to files in specified directories.
+
+> [!NOTE]
+> This command replaces the deprecated [cacls command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/cacls.md).
+
+## Syntax
+
+```
+icacls <filename> [/grant[:r] <sid>:<perm>[...]] [/deny <sid>:<perm>[...]] [/remove[:g|:d]] <sid>[...]] [/t] [/c] [/l] [/q] [/setintegritylevel <Level>:<policy>[...]]
+icacls <directory> [/substitute <sidold> <sidnew> [...]] [/restore <aclfile> [/c] [/l] [/q]]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `<filename>` | Specifies the file for which to display DACLs. |
+| `<directory>` | Specifies the directory for which to display DACLs. |
+| /t | Performs the operation on all specified files in the current directory and its subdirectories. |
+| /c | Continues the operation despite any file errors. Error messages will still be displayed. |
+| /l | Performs the operation on a symbolic link instead of its destination. |
+| /q | Suppresses success messages. |
+| [/save `<ACLfile>` [/t] [/c] [/l] [/q]] | Stores DACLs for all matching files into *ACLfile* for later use with **/restore**. |
+| [/setowner `<username>` [/t] [/c] [/l] [/q]] | Changes the owner of all matching files to the specified user. |
+| [/findsid `<sid>` [/t] [/c] [/l] [/q]] | Finds all matching files that contain a DACL explicitly mentioning the specified security identifier (SID). |
+| [/verify [/t] [/c] [/l] [/q]] | Finds all files with ACLs that are not canonical or have lengths inconsistent with ACE (access control entry) counts. |
+| [/reset [/t] [/c] [/l] [/q]] | Replaces ACLs with default inherited ACLs for all matching files. |
+| [/grant[:r] \<sid>:<perm>[...]] | Grants specified user access rights. Permissions replace previously granted explicit permissions.<p>Not adding the **:r**, means that permissions are added to any previously granted explicit permissions. |
+| [/deny \<sid>:<perm>[...]] | Explicitly denies specified user access rights. An explicit deny ACE is added for the stated permissions and the same permissions in any explicit grant are removed. |
+| [/remove`[:g | :d]]` `<sid>`[...] [/t] [/c] [/l] [/q] | Removes all occurrences of the specified SID from the DACL. This command can also use:<ul><li>**:g** - Removes all occurrences of granted rights to the specified SID.</li><li>**:d** - Removes all occurrences of denied rights to the specified SID. |
+| [/setintegritylevel [(CI)(OI)] `<Level>:<Policy>`[...]] | Explicitly adds an integrity ACE to all matching files. The level can be specified as:<ul><li>**l** - Low</li><li>**m**- Medium</li><li>**h** - High</li></ul>Inheritance options for the integrity ACE may precede the level and are applied only to directories. |
+| [/substitute `<sidold> <sidnew>` [...]] | Replaces an existing SID (*sidold*) with a new SID (*sidnew*). Requires using with the `<directory>` parameter. |
+| /restore `<ACLfile>` [/c] [/l] [/q] | Applies stored DACLs from `<ACLfile>` to files in the specified directory. Requires using with the `<directory>` parameter. |
+| /inheritancelevel:`[e | d | r]` | Sets the inheritance level, which can be:<ul><li>**e** - Enables inheritance</li><li>**d** - Disables inheritance and copies the ACEs</li><li>**r** - Removes all inherited ACEs</li></ul> |
+
+## Remarks
+
+- SIDs may be in either numerical or friendly name form. If you use a numerical form, affix the wildcard character **&#42;** to the beginning of the SID.
+
+- This command preserves the canonical order of ACE entries as:  
+
+    - Explicit denials
+
+    -  Explicit grants
+
+    - Inherited denials
+
+    - Inherited grants
+
+- The `<perm>` option is a permission mask that can be specified in one of the following forms:
+
+    - A sequence of simple rights:
+
+      - **F** - Full access
+
+      - **M**- Modify access
+
+      - **RX** - Read and execute access
+
+      - **R** - Read-only access
+
+      - **W** - Write-only access
+
+    - A comma-separated list in parenthesis of specific rights:
+
+      - **D** - Delete
+
+      - **RC** - Read control
+
+      - **WDAC** - Write DAC
+
+      - **WO** - Write owner
+
+      - **S** - Synchronize
+
+      - **AS** - Access system security
+
+      - **MA** - Maximum allowed
+
+      - **GR** - Generic read
+
+      - **GW** - Generic write
+
+      - **GE** - Generic execute
+
+      - **GA** - Generic all
+
+      - **RD** - Read data/list directory
+
+      - **WD** - Write data/add file
+
+      - **AD** - Append data/add subdirectory
+
+      - **REA** - Read extended attributes
+
+      - **WEA** - Write extended attributes
+
+      - **X** - Execute/traverse
+
+      - **DC** - Delete child
+
+      - **RA** - Read attributes
+
+      - **WA** - Write attributes
+
+  - Inheritance rights may precede either `<perm>` form, and they are applied only to directories:
+
+      - **(OI)** - Object inherit
+
+      - **(CI)** - Container inherit
+
+      - **(IO)** - Inherit only
+
+      - **(NP)** - Do not propagate inherit
+
+## Examples
+
+To save the DACLs for all files in the C:\Windows directory and its subdirectories to the ACLFile file, type:
+
+```
+icacls c:\windows\* /save aclfile /t
+```
+
+To restore the DACLs for every file within ACLFile that exists in the C:\Windows directory and its subdirectories, type:
+
+```
+icacls c:\windows\ /restore aclfile
+```
+
+To grant the user User1 Delete and Write DAC permissions to a file named Test1, type:
+
+```
+icacls test1 /grant User1:(d,wdac)
+```
+
+To grant the user defined by SID S-1-1-0 Delete and Write DAC permissions to a file, named Test2, type:
+
+```
+icacls test2 /grant *S-1-1-0:(d,wdac)
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

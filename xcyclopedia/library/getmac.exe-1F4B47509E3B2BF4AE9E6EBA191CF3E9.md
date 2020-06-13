@@ -13,7 +13,7 @@ MD5 | `1F4B47509E3B2BF4AE9E6EBA191CF3E9`
 SHA1 | `D18125DF129262045A4F642CAA880556CEB6A3BC`
 SHA256 | `83A26A068E174E389B9793E93E65B802B6D923CC70EE8AFB06B49C885491B462`
 SHA384 | `2D4C12F4A948D6AEAA1CFDCFED2BBB6462D9F6E689198F5315531D1D355A3A72438653970F5A92211E85A05296ABFEA5`
-SHA415 | `C87BF1FDE6660A627F4F15EB340C118B47C2B43C2F80F8487F8299688BAB01B67FEE097A502729F48EC046AEC9096BD5839F8D26B97C6EF7F5D269582C58E302`
+SHA512 | `C87BF1FDE6660A627F4F15EB340C118B47C2B43C2F80F8487F8299688BAB01B67FEE097A502729F48EC046AEC9096BD5839F8D26B97C6EF7F5D269582C58E302`
 SSDEEP | `1536:Aq4azRifXs7Si9IOzIlEzYNgrscLvQipeSJHAFT0UaPH9:ALfXsei2OMUYerscbQiop0Ua/`
 
 ## Runtime Data
@@ -71,8 +71,8 @@ Type "GETMAC /?" for usage.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -85,6 +85,72 @@ Type "GETMAC /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# getmac
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Returns the media access control (MAC) address and list of network protocols associated with each address for all network cards in each computer, either locally or across a network. This command is particularly useful either when you want to enter the MAC address into a network analyzer, or when you need to know what protocols are currently in use on each network adapter on a computer.
+
+## Syntax
+
+```
+getmac[.exe][/s <computer> [/u <domain\<user> [/p <password>]]][/fo {table | list | csv}][/nh][/v]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- |------------ |
+| /s `<computer>` | Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer. |
+| /u `<domain>\<user>` | Runs the command with the account permissions of the user specified by *user* or *domain\user*. The default is the permissions of the current logged on user on the computer issuing the command. |
+| /p `<password>` | Specifies the password of the user account that is specified in the **/u** parameter. |
+| /fo {table | list | csv} | Specifies the format to use for the query output. Valid values are **table**, **list**, and **csv**. The default format for output is **table**. |
+| /nh | Suppresses column header in output. Valid when the **/fo** parameter is set to **table** or **csv**. |
+| /v | Specifies that the output display verbose information. |
+| /? | Displays help at the command prompt. |
+
+### Examples
+
+The following examples show how you can use the **getmac** command:
+
+```
+getmac /fo table /nh /v
+```
+
+```
+getmac /s srvmain
+```
+
+```
+getmac /s srvmain /u maindom\hiropln
+```
+
+```
+getmac /s srvmain /u maindom\hiropln /p p@ssW23
+```
+
+```
+getmac /s srvmain /u maindom\hiropln /p p@ssW23 /fo list /v
+```
+
+```
+getmac /s srvmain /u maindom\hiropln /p p@ssW23 /fo table /nh
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

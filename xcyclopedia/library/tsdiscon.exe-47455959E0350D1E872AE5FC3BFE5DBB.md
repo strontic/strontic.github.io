@@ -13,7 +13,7 @@ MD5 | `47455959E0350D1E872AE5FC3BFE5DBB`
 SHA1 | `9FDC68C6FADAC5DB89AFA92E6F40F7CA28FB2D27`
 SHA256 | `A3A379B1834A12854EB5EAE1074091DEA0BFDD2427B64DB510D04919019CA171`
 SHA384 | `85709A29820476DF8A7E42B61E17A8A0002E9C36750ADE2633E575AB25C899C09A18014794C51B8E611303ABE95B17DE`
-SHA415 | `8D76D248474289E680462D3B7594E1137706F687E5CFE7D7908D4CFB1A5D767E6D541D7808CD5D1208A41C6160C14FDE84D3E884290412AD0955DB0719E9A789`
+SHA512 | `8D76D248474289E680462D3B7594E1137706F687E5CFE7D7908D4CFB1A5D767E6D541D7808CD5D1208A41C6160C14FDE84D3E884290412AD0955DB0719E9A789`
 SSDEEP | `384:Pp/a0VoRbvo9qCab/qtKMjasXeTQBf/nE8hvWMmWWv:hy8oRbYm/sKBTUhwX`
 
 ## Runtime Data
@@ -55,8 +55,8 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -69,6 +69,65 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+# tsdiscon
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Disconnects a session from a Remote Desktop Session Host server.
+
+
+
+> [!NOTE]
+> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](https://technet.microsoft.com/library/hh831527) in the Windows Server TechNet Library.
+
+## Syntax
+```
+tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
+```
+
+### Parameters
+
+|Parameter|Description|
+|-------|--------|
+|\<SessionId>|Specifies the ID of the session to disconnect.|
+|\<SessionName>|Specifies the name of the session to disconnect.|
+|/server:\<ServerName>|Specifies the terminal server that contains the session that you want to disconnect. Otherwise, the current rd Session Host server is used.|
+|/v|Displays information about the actions being performed.|
+|/?|Displays help at the command prompt.|
+
+## Remarks
+-   You must have Full Control permission or Disconnect special access permission to disconnect another user from a session.
+-   if no session ID or session name is specified, **tsdiscon** disconnects the current session.
+-   Any applications that were running when you disconnected the session are automatically running when you reconnect to that session with no loss of data. Use **reset session** to end the running applications of the disconnected session, but be aware that this might result in loss of data at the session.
+-   The **/server** parameter is required only if you use **tsdiscon** from a remote server.
+-   The console session cannot be disconnected.
+
+## Examples
+- To disconnect the current session, type:
+  ```
+  tsdiscon
+  ```
+- To disconnect session 10, type:
+  ```
+  tsdiscon 10
+  ```
+- To disconnect the session named TERM04, type:
+  ```
+  tsdiscon TERM04
+  ```
+  ## Additional References
+  - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+  [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

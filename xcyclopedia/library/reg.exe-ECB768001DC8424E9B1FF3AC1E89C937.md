@@ -13,7 +13,7 @@ MD5 | `ECB768001DC8424E9B1FF3AC1E89C937`
 SHA1 | `58EA87FF0A63C55E6609152C5B731755016D9872`
 SHA256 | `CBB9F8D012CB0AF2CA87AC74ABB5C77A7743C64697C8D92104D3EBA27A699AB0`
 SHA384 | `AE9955DD8209617725E9C485C1D9D13CE4E991279C15368EFDE02D4FC3DDB37AA1E99564CAD606E8F2E5F69E4A8A38BC`
-SHA415 | `AE3751CB524C708CCEBE3841C5F783F1A6A4A27F1B057CB99E04E1F06525FFE11FE74868AF299791CC5143234ADEC20C9D5E0E3C7BF8A2062CDAB0FC64EFAF92`
+SHA512 | `AE3751CB524C708CCEBE3841C5F783F1A6A4A27F1B057CB99E04E1F06525FFE11FE74868AF299791CC5143234ADEC20C9D5E0E3C7BF8A2062CDAB0FC64EFAF92`
 SSDEEP | `1536:rRRsxYLSn2XmD+FcvgauM1DCulDYF1uUZYZNi:A2Y2cvBlDYF1RZcN`
 
 ## Runtime Data
@@ -66,8 +66,8 @@ Type "REG /?" for usage.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -80,6 +80,46 @@ Type "REG /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# reg
+
+
+
+Performs operations on registry subkey information and values in registry entries. The **reg** commands include:
+
+[Reg add](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-add.md)
+
+[Reg compare](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-compare.md)
+
+[Reg copy](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-copy.md)
+
+[Reg delete](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-delete.md)
+
+[Reg export](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-export.md)
+
+[Reg import](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-import.md)
+
+[Reg load](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-load.md)
+
+[Reg query](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-query.md)
+
+[Reg restore](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-restore.md)
+
+[Reg save](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-save.md)
+
+[Reg unload](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-unload.md)
+
+Some operations enable you to view or configure registry entries on local or remote computers, while others allow you to configure only local computers. Using **reg** to configure the registry of remote computers limits the parameters that you can use in some operations. Check the syntax and parameters for each operation to verify that they can be used on remote computers
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

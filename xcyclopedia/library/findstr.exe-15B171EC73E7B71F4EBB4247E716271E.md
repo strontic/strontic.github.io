@@ -13,7 +13,7 @@ MD5 | `15B171EC73E7B71F4EBB4247E716271E`
 SHA1 | `C6F01014D0CDCE1D77FC8C2F79447C28D8B8C9AD`
 SHA256 | `2956F7BC863498DFCC868CE7DF4C9C131A4A5C17B065658456AFEF7566ACE1EE`
 SHA384 | `262436CD83B35800766C12218A17C397112BB58EC405370867BD7D75E1C79AFD57829C73B3C875B7C3C352D0F9E68A1D`
-SHA415 | `0CB3F8B77C4CA0AA972A3D46D5C85200C09EFEF454100A4FBC5A3D751483C30F4C32437537387C6F036F81E7D237950C9AD60D4B296A7D119C5C256D21424271`
+SHA512 | `0CB3F8B77C4CA0AA972A3D46D5C85200C09EFEF454100A4FBC5A3D751483C30F4C32437537387C6F036F81E7D237950C9AD60D4B296A7D119C5C256D21424271`
 SSDEEP | `768:fkwYjv0u6An0gwwAX4AwXu3CAXtIcTgVGe1GUR+jKR0TqS92IINKdR:fcbI20gtcXhXtIc8VkURV2TqSAIIodR`
 
 ## Runtime Data
@@ -84,8 +84,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -98,6 +98,139 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# findstr
+
+Searches for patterns of text in files.
+
+## Syntax
+
+```
+findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] [/c:<string>] [/g:<file>] [/d:<dirlist>] [/a:<colorattribute>] [/off[line]] <strings> [<drive>:][<path>]<filename>[ ...]
+```
+
+### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /b | Matches the text pattern if it is at the beginning of a line. |
+| /e | Matches the text pattern if it is at the end of a line. |
+| /l | Processes search strings literally. |
+| /r | Processes search strings as regular expressions. This is the default setting. |
+| /s | Searches the current directory and all subdirectories. |
+| /i | Ignores the case of the characters when searching for the string. |
+| /x | Prints lines that match exactly. |
+| /v | Prints only lines that don't contain a match. |
+| /n | Prints the line number of each line that matches. |
+| /m | Prints only the file name if a file contains a match. |
+| /o | Prints character offset before each matching line. |
+| /p | Skips files with non-printable characters. |
+| /off[line] | Does not skip files that have the offline attribute set. |
+| /f:`<file>` | Gets a file list from the specified file. |
+| /c:`<string>` | Uses the specified text as a literal search string. |
+| /g:`<file>` | Gets search strings from the specified file. |
+| /d:`<dirlist>` | Searches the specified list of directories. Each directory must be separated with a semicolon (;), for example `dir1;dir2;dir3`. |
+| /a:`<colorattribute>` | Specifies color attributes with two hexadecimal digits. Type `color /?` for additional information. |
+| `<strings>` | Specifies the text to search for in *filename*. Required. |
+| `[\<drive>:][<path>]<filename>[ ...]` | Specifies the location and file or files to search. At least one file name is required. |
+| /? | Displays Help at the command prompt. |
+
+#### Remarks
+
+- All **findstr** command-line options must precede *strings* and *filename* in the command string.
+
+- Regular expressions use both literal characters and meta-characters to find patterns of text, rather than exact strings of characters.
+
+  - A literal character is a character that doesn't have a special meaning in the regular-expression syntax; instead, it matches an occurrence of that character. For example, letters and numbers are literal characters.
+
+  - A meta-character is a symbol with special meaning (an operator or delimiter) in the regular-expression syntax.
+
+    The accepted meta-characters, are:
+
+    | Meta-character | Value |
+    | -------------- | ----- |
+    | `.` | **Wildcard** - Any character |
+    | `*` | **Repeat** - Zero or more occurrences of the previous character or class. |
+    | `^` | **Beginning line position** - Beginning of the line. |
+    | `$` | **Ending line position** - End of the line. |
+    | `[class]` | **Character class** - Any one character in a set. |
+    | `[^class]` | **Inverse class** - Any one character not in a set. |
+    | `[x-y]` | **Range** - Any characters within the specified range. |
+    | `\x` | **Escape** - Literal use of a meta-character. |
+    | `<string` | **Beginning word position** - Beginning of the word. |
+    | `string>` | **Ending word position** - End of the word. |
+
+    The special characters in regular expression syntax have the most power when you use them together. For example, use the combination of the wildcard character (`.`) and repeat (`*`) character to match any string of characters: `.*`
+
+    Use the following expression as part of a larger expression to match any string beginning with *b* and ending with *ing*: `b.*ing`
+
+- To search for multiple strings in a set of files, you must create a text file that contains each search criterion on a separate line.
+
+- Use spaces to separate multiple search strings unless the argument is prefixed with **/c**.
+
+### Examples
+
+To search for *hello* or *there* in file *x.y*, type:
+
+```
+findstr hello there x.y
+```
+
+To search for *hello there* in file *x.y*, type:
+
+```
+findstr /c:hello there x.y
+```
+
+To find all occurrences of the word *Windows* (with an initial capital letter W) in the file *proposal.txt*, type:
+
+```
+findstr Windows proposal.txt
+```
+
+To search every file in the current directory and all subdirectories that contained the word *Windows*, regardless of the letter case, type:
+
+```
+findstr /s /i Windows *.*
+```
+
+To find all occurrences of lines that begin with *FOR* and are preceded by zero or more spaces (as in a computer program loop), and to display the line number where each occurrence is found, type:
+
+```
+findstr /b /n /r /c:^ *FOR *.bas
+```
+
+To list the exact files that you want to search in a text file, use the search criteria in the file *stringlist.txt*, to search the files listed in *filelist.txt*, and then to store the results in the file *results.out*, type:
+
+```
+findstr /g:stringlist.txt /f:filelist.txt > results.out
+```
+
+To list every file containing the word *computer* within the current directory and all subdirectories, regardless of case, type:
+
+```
+findstr /s /i /m <computer> *.*
+```
+
+To list every file containing the word computer and any other words that begin with comp, (such as compliment and compete), type:
+
+```
+findstr /s /i /m <comp.* *.*
+```
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

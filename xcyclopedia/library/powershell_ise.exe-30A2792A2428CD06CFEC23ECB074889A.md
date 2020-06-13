@@ -13,7 +13,7 @@ MD5 | `30A2792A2428CD06CFEC23ECB074889A`
 SHA1 | `C7C8939C7780E8E68AC303E6B1ABD69892CA39A0`
 SHA256 | `6CBCD7E7544C5878C07382499440C4878B5DA4C8B2C64BC9D81F1A2686330B0F`
 SHA384 | `BCF8D75E3E188E9688DBA441C7FC7829FB9C6136261D9B6DD66BBEACB1AE435A50853DB0B5186816AF27B422BAA7448B`
-SHA415 | `F253CB4B5E155BC4A8C1190971167219FB229C83F901AEF948F59B4030D3C5247FFC78BCC2C9C062AA98E37970BF54F8A09435A618DDEC3EC2F8E166A7B812AC`
+SHA512 | `F253CB4B5E155BC4A8C1190971167219FB229C83F901AEF948F59B4030D3C5247FFC78BCC2C9C062AA98E37970BF54F8A09435A618DDEC3EC2F8E166A7B812AC`
 SSDEEP | `3072:19kVjGPsw403LkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLEY:TkkuZToIuUXmmZbgDooMD`
 
 ## Runtime Data
@@ -34,8 +34,8 @@ SSDEEP | `3072:19kVjGPsw403LkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLEY:TkkuZToIuUXmmZbg
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,6 +48,67 @@ SSDEEP | `3072:19kVjGPsw403LkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLEY:TkkuZToIuUXmmZbg
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# PowerShell_ise
+
+
+
+Windows PowerShell Integrated Scripting Environment (ISE) is a graphical host application that enables you to read, write, run, debug, and test scripts and modules in a graphic-assisted environment. Key features such as IntelliSense, Show-Command, snippets, tab completion, syntax-coloring, visual debugging, and context-sensitive Help provide a rich scripting experience.
+
+The **PowerShell_ISE.exe** tool starts a Windows PowerShell ISE session. When you use **PowerShell_ISE.exe**, you can use its optional parameters to open files in Windows PowerShell ISE or to start a Windows PowerShell ISE session with no profile or with a multithreaded apartment.
+
+**PowerShell_ISE.exe** was introduced in Windows PowerShell 2.0 and expanded significantly in Windows PowerShell 3.0.
+
+## Using PowerShell_ISE.exe
+
+You can use **PowerShell_ISE.exe** to start and end a Windows PowerShell session as follows:
+- To start a Windows PowerShell ISE session, in a Command Prompt window, in Windows PowerShell, or at the Start menu, type:
+  ```
+  PowerShell_Ise
+  ```
+- To open a script (.ps1), script module (.psm1), module manifest (.psd1), XML file, or any other supported file in Windows PowerShell ISE, use the following command format:
+  ```
+  PowerShell_Ise <FilePath>
+  ```
+  In Windows PowerShell 3.0, you can use the optional **File** parameter as follows:
+  ```
+  PowerShell_Ise -File <FilePath>
+  ```
+- To start a Windows PowerShell ISE session without your Windows PowerShell profiles, use the **NoProfile** parameter. (The **NoProfile** parameter is introduced in Windows PowerShell 3.0.)
+  ```
+  PowerShell_Ise -NoProfile
+  ```
+- To see the **PowerShell_ISE.exe** Help file in a Command Prompt window, use the following command format:
+  ```
+  PowerShell_Ise -help, -?, /?
+  ```
+  For a complete list of the **PowerShell_ISE.exe** command-line parameters, see [about_PowerShell_Ise.exe](https://go.microsoft.com/fwlink/?LinkId=256512).
+
+## Start Windows PowerShell ISE in other ways
+
+For information about other ways to start Windows PowerShell ISE, see [Starting Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=135259).
+
+## Remarks
+
+Windows PowerShell runs on the Server Core installation option of Windows Server operating systems. However, because Windows PowerShell ISE requires a graphic user interface, it does not run on Server Core installations.
+
+## Additional References
+
+[about_PowerShell_Ise.exe](https://go.microsoft.com/fwlink/?LinkId=256512)
+[about_PowerShell.exe](https://go.microsoft.com/fwlink/?LinkID=113439)
+[Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=107116)
+[Scripting with Windows PowerShell](https://technet.microsoft.com/scriptcenter/dd742419)
+See Also
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

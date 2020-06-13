@@ -13,7 +13,7 @@ MD5 | `A23A7A6B6F8E1A5D913EA119F5F2ED1A`
 SHA1 | `282DA9EE622F01CC63352E53FDC3D4A75CEEB6FD`
 SHA256 | `EAAE8536D554D0E86D8540A8B34DB2649BD884843F389495D0B6E91636C6CF54`
 SHA384 | `CBB579F2DE51AD747BE78062727925908E63BBC49B46C75036FEA83A1CFA2CB3ED53B305B38E216BE012105D7F42C850`
-SHA415 | `A6B533FA57E308C90EEEC20F0FA8F95FB08C1ED247F5CDBCDFBD90BC2E1AD01873FE1FA8A95E0AED0859AFA60F1AE166F084F8DDD6155165AF193AE9884F5DC2`
+SHA512 | `A6B533FA57E308C90EEEC20F0FA8F95FB08C1ED247F5CDBCDFBD90BC2E1AD01873FE1FA8A95E0AED0859AFA60F1AE166F084F8DDD6155165AF193AE9884F5DC2`
 SSDEEP | `3072:UR6F94YsstVZRkXZn+I53+Yvsd0etQ6HEez0j9BE:hF9VZkXZn+899B`
 
 ## Runtime Data
@@ -278,8 +278,8 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -292,6 +292,141 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 * Product Version: 7.8.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+# bitsadmin
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows 10
+
+Bitsadmin is a command-line tool used to create, download or upload jobs, and to monitor their progress. The bitsadmin tool uses switches to identify the work to perform. You can call `bitsadmin /?` or `bitsadmin /help` to get a list of switches.
+
+Most switches require a `<job>` parameter, which you set to the job's display name, or GUID. A job's display name doesn't have to be unique. The **/create** and **/list** switches return a job's GUID.
+
+By default, you can access information about your own jobs. To access information for another user's jobs, you must have administrator privileges. If the job was created in an elevated state, then you must run **bitsadmin** from an elevated window; otherwise, you'll have read-only access to the job.
+
+Many of the switches correspond to methods in the [BITS interfaces](https://docs.microsoft.com/windows/win32/bits/bits-interfaces). For additional details that may be relevant to using a switch, see the corresponding method.
+
+Use the following switches to create a job, set and retrieve the properties of a job, and monitor the status of a job. For examples that show how to use some of these switches to perform tasks, see [bitsadmin examples](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-examples.md).
+
+## Available switches
+
+- [bitsadmin /addfile](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-addfile.md)
+- [bitsadmin /addfileset](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-addfileset.md)
+- [bitsadmin /addfilewithranges](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-addfilewithranges.md)
+- [bitsadmin /cache](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache.md)
+- [bitsadmin /cache /delete](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-delete.md)
+- [bitsadmin /cache /deleteurl](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-deleteurl.md)
+- [bitsadmin /cache /getexpirationtime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-getexpirationtime.md)
+- [bitsadmin /cache /getlimit](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-getlimit.md)
+- [bitsadmin /cache /help](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-help.md)
+- [bitsadmin /cache /info](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-info.md)
+- [bitsadmin /cache /list](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-list.md)
+- [bitsadmin /cache /setexpirationtime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-setexpirationtime.md)
+- [bitsadmin /cache /setlimit](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-and-setlimit.md)
+- [bitsadmin /cache /clear](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cache-clear.md)
+- [bitsadmin /cancel](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-cancel.md)
+- [bitsadmin /complete](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-complete.md)
+- [bitsadmin /create](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-create.md)
+- [bitsadmin /examples](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-examples.md)
+- [bitsadmin /getaclflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getaclflags.md)
+- [bitsadmin /getbytestotal](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getbytestotal.md)
+- [bitsadmin /getbytestransferred](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getbytestransferred.md)
+- [bitsadmin /getclientcertificate](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getclientcertificate.md)
+- [bitsadmin /getcompletiontime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getcompletiontime.md)
+- [bitsadmin /getcreationtime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getcreationtime.md)
+- [bitsadmin /getcustomheaders](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getcustomheaders.md)
+- [bitsadmin /getdescription](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getdescription.md)
+- [bitsadmin /getdisplayname](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getdisplayname.md)
+- [bitsadmin /geterror](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-geterror.md)
+- [bitsadmin /geterrorcount](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-geterrorcount.md)
+- [bitsadmin /getfilestotal](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getfilestotal.md)
+- [bitsadmin /getfilestransferred](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getfilestransferred.md)
+- [bitsadmin /gethelpertokenflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-gethelpertokenflags.md)
+- [bitsadmin /gethelpertokensid](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-gethelpertokensid.md)
+- [bitsadmin /gethttpmethod](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-gethttpmethod.md)
+- [bitsadmin /getmaxdownloadtime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getmaxdownloadtime.md)
+- [bitsadmin /getminretrydelay](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getminretrydelay.md)
+- [bitsadmin /getmodificationtime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getmodificationtime.md)
+- [bitsadmin /getnoprogresstimeout](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getnoprogresstimeout.md)
+- [bitsadmin /getnotifycmdline](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getnotifycmdline.md)
+- [bitsadmin /getnotifyflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getnotifyflags.md)
+- [bitsadmin /getnotifyinterface](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getnotifyinterface.md)
+- [bitsadmin /getowner](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getowner.md)
+- [bitsadmin /getpeercachingflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getpeercachingflags.md)
+- [bitsadmin /getpriority](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getpriority.md)
+- [bitsadmin /getproxybypasslist](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getproxybypasslist.md)
+- [bitsadmin /getproxylist](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getproxylist.md)
+- [bitsadmin /getproxyusage](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getproxyusage.md)
+- [bitsadmin /getreplydata](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getreplydata.md)
+- [bitsadmin /getreplyfilename](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getreplyfilename.md)
+- [bitsadmin /getreplyprogress](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getreplyprogress.md)
+- [bitsadmin /getsecurityflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getsecurityflags.md)
+- [bitsadmin /getstate](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getstate.md)
+- [bitsadmin /gettemporaryname](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-gettemporaryname.md)
+- [bitsadmin /gettype](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-gettype.md)
+- [bitsadmin /getvalidationstate](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-getvalidationstate.md)
+- [bitsadmin /help](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-help.md)
+- [bitsadmin /info](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-info.md)
+- [bitsadmin /list](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-list.md)
+- [bitsadmin /listfiles](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-listfiles.md)
+- [bitsadmin /makecustomheaderswriteonly](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-makecustomheaderswriteonly.md)
+- [bitsadmin /monitor](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-monitor.md)
+- [bitsadmin /nowrap](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-nowrap.md)
+- [bitsadmin /peercaching](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peercaching.md)
+- [bitsadmin /peercaching /getconfigurationflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peercaching-and-getconfigurationflags.md)
+- [bitsadmin /peercaching /help](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peercaching-and-help.md)
+- [bitsadmin /peercaching /setconfigurationflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peercaching-and-setconfigurationflags.md)
+- [bitsadmin /peers](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peers.md)
+- [bitsadmin /peers /clear](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peers-and-clear.md)
+- [bitsadmin /peers /discover](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peers-and-discover.md)
+- [bitsadmin /peers /help](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peers-and-help.md)
+- [bitsadmin /peers /list](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-peers-and-list.md)
+- [bitsadmin /rawreturn](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-rawreturn.md)
+- [bitsadmin /removeclientcertificate](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-removeclientcertificate.md)
+- [bitsadmin /removecredentials](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-removecredentials.md)
+- [bitsadmin /replaceremoteprefix](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-replaceremoteprefix.md)
+- [bitsadmin /reset](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-reset.md)
+- [bitsadmin /resume](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-resume.md)
+- [bitsadmin /setaclflag](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setaclflag.md)
+- [bitsadmin /setclientcertificatebyid](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setclientcertificatebyid.md)
+- [bitsadmin /setclientcertificatebyname](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setclientcertificatebyname.md)
+- [bitsadmin /setcredentials](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setcredentials.md)
+- [bitsadmin /setcustomheaders](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setcustomheaders.md)
+- [bitsadmin /setdescription](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setdescription.md)
+- [bitsadmin /setdisplayname](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setdisplayname.md)
+- [bitsadmin /sethelpertoken](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-sethelpertoken.md)
+- [bitsadmin /sethelpertokenflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-sethelpertokenflags.md)
+- [bitsadmin /sethttpmethod](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-sethttpmethod.md)
+- [bitsadmin /setmaxdownloadtime](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setmaxdownloadtime.md)
+- [bitsadmin /setminretrydelay](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setminretrydelay.md)
+- [bitsadmin /setnoprogresstimeout](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setnoprogresstimeout.md)
+- [bitsadmin /setnotifycmdline](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setnotifycmdline.md)
+- [bitsadmin /setnotifyflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setnotifyflags.md)
+- [bitsadmin /setpeercachingflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setpeercachingflags.md)
+- [bitsadmin /setpriority](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setpriority.md)
+- [bitsadmin /setproxysettings](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setproxysettings.md)
+- [bitsadmin /setreplyfilename](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setreplyfilename.md)
+- [bitsadmin /setsecurityflags](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setsecurityflags.md)
+- [bitsadmin /setvalidationstate](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-setvalidationstate.md)
+- [bitsadmin /suspend](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-suspend.md)
+- [bitsadmin /takeownership](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-takeownership.md)
+- [bitsadmin /transfer](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-transfer.md)
+- [bitsadmin /util](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util.md)
+- [bitsadmin /util /enableanalyticchannel](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util-and-enableanalyticchannel.md)
+- [bitsadmin /util /getieproxy](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util-and-getieproxy.md)
+- [bitsadmin /util /help](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util-and-help.md)
+- [bitsadmin /util /repairservice](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util-and-repairservice.md)
+- [bitsadmin /util /setieproxy](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util-and-setieproxy.md)
+- [bitsadmin /util /version](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-util-and-version.md)
+- [bitsadmin /wrap](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-wrap.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

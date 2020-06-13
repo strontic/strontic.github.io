@@ -13,7 +13,7 @@ MD5 | `A329A8498AD1138D93FC35EECF1933F7`
 SHA1 | `84E36303B684B0AFB366CAD99C0A46A58EFDD5AF`
 SHA256 | `DBB8F982FC65125C1AD654CCD19948017918656916A8037952CEEECD261D6C92`
 SHA384 | `17727672A8A525D2E4131D841E8D615F3BB9A5CDDC6BA91B24EB27FBAEE486182AF92FA0BA0E8872826301ADD53DB7C9`
-SHA415 | `5B4B72FE04E68392F44145E0C8353FFA3266A137E92B58E6C8DD9495C3E9FD6718680B81B8430136A07CB7492818E40DDDB35F784101F2AD1801F143CE68247C`
+SHA512 | `5B4B72FE04E68392F44145E0C8353FFA3266A137E92B58E6C8DD9495C3E9FD6718680B81B8430136A07CB7492818E40DDDB35F784101F2AD1801F143CE68247C`
 SSDEEP | `768:bknZVecIF+2tSF0Klx/0aBSJLdosFAd+mZWj:QnKcIyz10JLPqUyW`
 
 ## Runtime Data
@@ -82,8 +82,8 @@ Run a pre-defined study
 ## Signature
 
 * Status: The file C:\WINDOWS\system32\dfp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
-* Serial: 
-* Thumbprint: 
+* Serial: ``
+* Thumbprint: ``
 * Issuer: 
 * Subject: 
 
@@ -96,6 +96,8 @@ Run a pre-defined study
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

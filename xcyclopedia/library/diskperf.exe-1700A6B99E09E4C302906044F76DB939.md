@@ -13,7 +13,7 @@ MD5 | `1700A6B99E09E4C302906044F76DB939`
 SHA1 | `1E2EBC20AFEC9DE96087DA8160B000FEFBD79A11`
 SHA256 | `D7F1468580A04F101C5AB726B7E9D73CB71C9F1D5E94DA51EEE0F65E9631C78A`
 SHA384 | `8A0C467C939D13F86A7B7B6CE7D5B9CB5E06469276B69F7D5D4FA4D4C6A5335918EAA2A14627F3F0FD2E68239222B3BC`
-SHA415 | `B3BC92CF4DB59BD82344017DA4153EA0C706F4FEE0DB5E11993CE550BB3593115A756BAFD294B121FCE10C19E9788406BB0D91880D1D9F00FBCCC135F4175CFD`
+SHA512 | `B3BC92CF4DB59BD82344017DA4153EA0C706F4FEE0DB5E11993CE550BB3593115A756BAFD294B121FCE10C19E9788406BB0D91880D1D9F00FBCCC135F4175CFD`
 SSDEEP | `384:hCOMb4sSHnWfhG4MOzR7QJYMneiZM9WuJW:hCOMs1HnWfxtcPn9ZMT`
 
 ## Runtime Data
@@ -72,8 +72,8 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 ## Signature
 
 * Status: Signature verified.
-* Serial: 330000023241FB59996DCC4DFF000000000232
-* Thumbprint: FF82BC38E1DA5E596DF374C53E3617F7EDA36B06
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -86,6 +86,43 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# diskperf
+
+The **diskperf** command remotely enables or disables physical or logical disk performance counters on computers running Windows.
+
+## Syntax
+
+```
+diskperf [-y[d|v] | -n[d|v]] [\\computername]
+```
+
+## Options
+
+| Option | Description |
+| ------ | ----------- |
+| -y | Starts all disk performance counters when the computer restarts. |
+| -yd | Enables disk performance counters for physical drives when the computer restarts. |
+| -yv | Enables disk performance counters for logical drives or storage volumes when the computer restarts. |
+| -n | Disables all disk performance counters when the computer restarts. |
+| -nd | Disable disk performance counters for physical drives when the computer restarts. |
+| -nv | Disable disk performance counters for logical drives or storage volumes when the computer restarts. |
+| `\\<computername>` | Specifies the name of the computer where you want to enable or disable disk performance counters. |
+| -? | Displays context sensitive help. |
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 

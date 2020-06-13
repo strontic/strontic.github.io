@@ -13,7 +13,7 @@ MD5 | `075434A31ACB3954337BE18A1B336B87`
 SHA1 | `D760FD199019CD649DE07F569F4E474D2E7B1994`
 SHA256 | `F8C2840361890958E4863FC81D52C59C213292577ABE6A285EC2DDBD34454507`
 SHA384 | `CFF2C547BFCF098FCD07A7735CD44F6D15BE17635B211EBBB98B0C72B95A57537B00298A8E20BECA1CFAA9DC9B46AD97`
-SHA415 | `21861CE7EC4A1E907015B47F448449D363D91EE6104C1ECF6F83BA14F32E1698325C6B175B0408D1AB83CF1CECFF184CF0FFEB2868674AD20A960A6A080E6CD7`
+SHA512 | `21861CE7EC4A1E907015B47F448449D363D91EE6104C1ECF6F83BA14F32E1698325C6B175B0408D1AB83CF1CECFF184CF0FFEB2868674AD20A960A6A080E6CD7`
 SSDEEP | `768:lvGV2EIgkhyiloBj/HUNV6CBV2JLI9tt2yfX:l5EPj/0N8Cagtsyf`
 
 ## Runtime Data
@@ -189,8 +189,8 @@ REGINI: Missing parameter(s) for -h switch
 ## Signature
 
 * Status: Signature verified.
-* Serial: 33000000BCE120FDD27CC8EE930000000000BC
-* Thumbprint: E85459B23C232DB3CB94C7A56D47678F58E8E51E
+* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
+* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -203,6 +203,51 @@ REGINI: Missing parameter(s) for -h switch
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Additional Info
+
+*Source: [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+
+---
+
+# regini
+
+Modifies the registry from the command line or a script, and applies changes that were preset in one or more text files. You can create, modify, or delete registry keys, in addition to modifying the permissions on the registry keys.
+
+For details on the format and content of the text script file that Regini.exe uses to make changes to the registry, see [How to change registry values or permissions from a command line or a script](https://support.microsoft.com/help/264584/how-to-change-registry-values-or-permissions-from-a-command-line-or-a).
+
+## Syntax
+
+```
+regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputWidth][-b] textFiles...
+```
+
+#### Parameters
+
+|Parameter|Description|
+
+|-m \<\\\\ComputerName>|Specifies the remote computer name with a registry that is to be modified. Use the format **\\\\ComputerName**.|
+|---------------------|-|
+|-h \<hivefile hiveroot>|Specifies the local registry hive to modify. You must specify the name of the hive file and the root of the hive in the format **hivefile hiveroot**.|
+|-i \<n>|Specifies the level of indentation to use to indicate the tree structure of registry keys in the command output. The **Regdmp.exe** tool (which gets a registry key's current permissions in binary format) uses indentation in multiples of four, so the default value is **4**.|
+|-o \<outputwidth>|Specifies the width of the command output, in characters. If the output will appear in the command window, the default value is the width of the window. If the output is directed to a file, the default value is **240** characters.|
+|-b|Specifies that **Regini.exe** output is backward compatible with previous versions of **Regini.exe**. See the Remarks section for details.|
+|textfiles|Specifies the name of one or more text files that contain registry data. Any number of ANSI or Unicode text files can be listed.|
+
+## Remarks
+
+The following guidelines apply primarily to the content of the text files that contain registry data that you apply by using **Regini.exe**.
+-   Use the semicolon as an end-of-line comment character. It must be the first non-blank character in a line.
+-   Use the backslash to indicate continuation of a line. The command will ignore all characters from the backslash up to (but not including) the first non-blank character of the next line. If you include more than one space before the backslash, it is replaced by a single space.
+-   Use hard-tab characters to control indentation. This indentation indicates the tree structure of the registry keys; however, these characters are converted to a single space regardless of their position.
+
+## Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
 
 MIT License. Copyright (c) 2020 Strontic.
 
