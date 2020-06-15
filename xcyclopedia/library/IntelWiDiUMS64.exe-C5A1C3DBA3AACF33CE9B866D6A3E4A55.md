@@ -49,6 +49,12 @@ SSDEEP | `12288:grgX5f35Q0nnnBqfrmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi18:grgX5P5B
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\IntelWiDiUMS64.exe](IntelWiDiUMS64.exe-66F9365F028CA2FF6DDD55DA141894DF.md) | 82
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

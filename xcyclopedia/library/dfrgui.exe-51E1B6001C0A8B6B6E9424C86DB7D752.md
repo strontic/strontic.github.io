@@ -49,6 +49,12 @@ SSDEEP | `12288:cROWeHcf6SpA8Xu3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx71:cRO9HcfdCWu3/k
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dfrgui.exe](dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B.md) | 83
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

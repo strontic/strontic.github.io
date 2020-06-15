@@ -52,6 +52,8 @@ This program requires administrator privileges.
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

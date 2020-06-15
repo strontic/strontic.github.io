@@ -49,6 +49,12 @@ SSDEEP | `1536:qz5Obw/IyKVwZrJTX5WcXtr4ktxzAZT3WuEs:fwfKOJDnXtr4kkB7`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\sigverif.exe](sigverif.exe-CDE35CFE5B9950DC07671EC79E2E9A9C.md) | 44
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

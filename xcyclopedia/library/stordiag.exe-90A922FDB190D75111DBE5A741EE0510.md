@@ -62,6 +62,12 @@ conhost.exe
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\stordiag.exe](stordiag.exe-F1D930E780AF05D63FEEAFAC6C74087D.md) | 91
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

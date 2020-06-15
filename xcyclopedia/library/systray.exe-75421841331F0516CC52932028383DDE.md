@@ -49,6 +49,12 @@ SSDEEP | `96:txKsz2619X9iYxBg49DRE2DWPToCSRHiZHpUpvo8cceXkbOY8DJdMs2bKveLZiEY:Zz
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\systray.exe](systray.exe-D11C2C0C960BF32AF69214465005348F.md) | 38
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

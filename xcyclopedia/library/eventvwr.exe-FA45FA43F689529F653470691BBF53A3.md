@@ -49,6 +49,14 @@ SSDEEP | `1536:upY3EFY5IMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY1a:+vs3lhzslTZJ9j7Heb8C1a`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\eventvwr.exe](eventvwr.exe-16DF74906C84D249F47C3709F47DF6C3.md) | 83
+[C:\WINDOWS\SysWOW64\eventvwr.exe](eventvwr.exe-30F9C40400D0874235F16BEBBD56D1A5.md) | 91
+[C:\Windows\SysWOW64\eventvwr.exe](eventvwr.exe-836D39AD5985CA36F9583D160F858D68.md) | 86
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

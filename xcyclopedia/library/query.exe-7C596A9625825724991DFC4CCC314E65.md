@@ -52,10 +52,17 @@ QUERY { PROCESS | SESSION | TERMSERVER | USER }
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\change.exe](change.exe-68074CDC920210253683740773BF83BA.md) | 47
+[C:\Windows\SysWOW64\reset.exe](reset.exe-4A17440BFD58A851B10902E3F04D0CAB.md) | 80
+
 
 ## Additional Info*
 
-**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 

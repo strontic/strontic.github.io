@@ -62,6 +62,12 @@ Options:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\nmscrub.exe](nmscrub.exe-C03B59334DAC244B60282E221B4DA5EF.md) | 40
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

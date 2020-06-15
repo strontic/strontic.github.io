@@ -49,6 +49,14 @@ SSDEEP | `1536:kqxynjQUFLi7Y/bNVfCKGeomgPHA5kG9mQ7N6wMkNaAYG5n8sZI:ccUF6YTNVKKGx
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-3A8D87E31C85B5F949BF26436D7DD02A.md) | 61
+[C:\WINDOWS\system32\EhStorAuthn.exe](EhStorAuthn.exe-F6C6BB7C8DB07549BE3D04DA75F79E1A.md) | 55
+[C:\Windows\SysWOW64\EhStorAuthn.exe](EhStorAuthn.exe-CF4CA1BB022BF8C53FD8E02A9E783C78.md) | 69
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

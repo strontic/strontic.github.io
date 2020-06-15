@@ -49,6 +49,13 @@ SSDEEP | `3072:e3vE5+T1v9ImTX+8AcbJovI6GuQgQxj1Vp4/7Do9zjbEyB7HbIdMXssz:e38GvTX+
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\SndVol.exe](SndVol.exe-BE6B28D62DB5B2AAF92B00DBD717D453.md) | 35
+[C:\Windows\SysWOW64\SndVol.exe](SndVol.exe-FC0BFFE396750BB00FAFAD0C62E7ACDA.md) | 25
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

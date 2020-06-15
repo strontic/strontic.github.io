@@ -49,6 +49,12 @@ SSDEEP | `1536:fA8sWX8TTs0Uv/v6qlDgGf61w1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lk:IWKun
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\msdtc.exe](msdtc.exe-DC59FE37CFF118B6DAC426FE9923B32C.md) | 71
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

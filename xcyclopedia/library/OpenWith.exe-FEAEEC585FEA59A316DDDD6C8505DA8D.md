@@ -49,6 +49,14 @@ SSDEEP | `1536:PhuNoJDGys4JLd9P14GqBaUfKQTzBNer+CE+Ge+JPVW:fhFXd7qMIrer+CE+GXNW`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\OpenWith.exe](OpenWith.exe-C9B3F7E1EB1970A715FA56AB076A260B.md) | 46
+[C:\Windows\SysWOW64\OpenWith.exe](OpenWith.exe-A633739DA182E75C0D6741119A902A0B.md) | 54
+[C:\WINDOWS\SysWOW64\OpenWith.exe](OpenWith.exe-FADC6187E347B4820DA5B907B45F6024.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

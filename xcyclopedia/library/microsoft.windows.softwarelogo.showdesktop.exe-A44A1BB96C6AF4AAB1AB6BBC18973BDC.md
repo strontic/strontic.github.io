@@ -49,6 +49,13 @@ SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJ
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\TsWpfWrp.exe](TsWpfWrp.exe-DF69CC1A89E7540A7A2770250B739096.md) | 29
+[C:\WINDOWS\SysWOW64\TsWpfWrp.exe](TsWpfWrp.exe-29080A899EACB7AC730A681B515A86EF.md) | 27
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

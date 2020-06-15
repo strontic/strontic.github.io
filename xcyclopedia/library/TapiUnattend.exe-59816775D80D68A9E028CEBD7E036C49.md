@@ -49,6 +49,12 @@ SSDEEP | `192:5qeadkYPdilaGPwrndYV9WJ2VNF7PUWjrD50pHMhLVtmYGmW/LUWh+:58vPUYWkzJ2
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-56096EC9DE2590DA5ADB369750AEE322.md) | 50
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

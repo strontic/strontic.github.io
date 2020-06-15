@@ -49,6 +49,14 @@ SSDEEP | `768:NDpDXH2DQdeRhEsMx+V3sWfd4T2dClPd9stAgSRayp+APmBo6A+NbafEFK/Fh/js:9
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wiaacmgr.exe](wiaacmgr.exe-28195E69188E35791856476067DDCEA0.md) | 36
+[C:\WINDOWS\system32\wiaacmgr.exe](wiaacmgr.exe-5F31742F489000AE4E8049AD854601E3.md) | 38
+[C:\Windows\SysWOW64\wiaacmgr.exe](wiaacmgr.exe-73C072230BF92531ACB1B7EC25AF3593.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,13 @@ SSDEEP | `6144:58nhIq/0CaKkuYTVK1QsfjIbTGsBmR7Gs/UEVTppkX+:mnqgrfkuYTVcQsfezmR7G
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-B840116C2D5805095F46CFD8ACBD0EB8.md) | 36
+[C:\WINDOWS\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-F042BFE4E2BE1EF592D9CFA14F8E6BD1.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

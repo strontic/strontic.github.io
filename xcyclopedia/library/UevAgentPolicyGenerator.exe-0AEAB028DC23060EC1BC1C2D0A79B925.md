@@ -49,6 +49,12 @@ conhost.exe
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-DB9581764DBE3AC8FF9AB2F52F2C7A2D.md) | 66
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

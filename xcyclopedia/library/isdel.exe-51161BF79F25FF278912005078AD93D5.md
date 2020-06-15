@@ -49,6 +49,12 @@ SSDEEP | `384:K3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:MwIA7Q7tDUAdnemQVSfg`
 * Language: English (United States)
 * Legal Copyright: Copyright 1990-1998 InstallShield Software Corporation, Phone: (847) 240-9111
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\InstallShield\_isdel.exe](isdel.exe-9D4EC4B71FD189A0B2C4DBD6AADE16BF.md) | 99
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

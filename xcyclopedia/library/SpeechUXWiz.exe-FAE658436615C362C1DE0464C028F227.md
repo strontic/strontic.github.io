@@ -49,6 +49,12 @@ SSDEEP | `12288:VYh5lWZ9evDiCLtTR8YbVe0TIrf8NbywLkRLgLBAgV:etvOCL9R82VLTIrfMy8oL
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-BE50185ACB3EAC15CF46EC3297C436AC.md) | 71
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

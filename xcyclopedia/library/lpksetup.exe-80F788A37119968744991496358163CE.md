@@ -49,6 +49,12 @@ SSDEEP | `12288:IZCwI1daL75d7QfwRIQf8oHLPgJVKnkSHRgyfndmLh:mCf1dS7QfYIQUoHLIJVKn
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\lpksetup.exe](lpksetup.exe-170343B59D2A8607C7106ED63E524AE3.md) | 30
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

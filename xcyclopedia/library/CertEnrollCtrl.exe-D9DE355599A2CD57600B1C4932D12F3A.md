@@ -49,6 +49,12 @@ SSDEEP | `768:fAQHFNpqi4P1fhZzUkjmj+LINv7tWNp+2OEiZ+iaOjprTllDyVO1vTzwiEU7JWG8:f
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\tzutil.exe](tzutil.exe-F152E16FC4FE1EDF606D9DFAD92C5242.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

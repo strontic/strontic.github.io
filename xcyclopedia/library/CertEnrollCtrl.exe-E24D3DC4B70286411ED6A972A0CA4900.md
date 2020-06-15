@@ -49,6 +49,13 @@ SSDEEP | `768:WnpYP5+iavKHTiPgnwYZPh4uZv+9OeQ80WGlt7ot:TPHOonwa5l2jQEGlt7o`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\expand.exe](expand.exe-C5A28F44F47524452C188ED74E754095.md) | 32
+[C:\Windows\SysWOW64\tzutil.exe](tzutil.exe-E2A285FBF3BEB083A8A1336C28197195.md) | 32
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

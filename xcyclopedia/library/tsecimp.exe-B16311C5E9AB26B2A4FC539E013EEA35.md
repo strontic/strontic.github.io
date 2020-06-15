@@ -61,6 +61,12 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\tsecimp.exe](tsecimp.exe-D5F1A612B5CDD8C197DD8398B06B7E09.md) | 29
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

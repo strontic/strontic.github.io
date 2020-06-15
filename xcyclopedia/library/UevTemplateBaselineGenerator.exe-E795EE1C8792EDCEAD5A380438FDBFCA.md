@@ -49,6 +49,12 @@ SSDEEP | `384:OwL8CUA6oNTSAkBcYKPdIQX6GIp056PMSK+aWlqJWiZ:Z4CbTSviBqYB9`
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\UevTemplateBaselineGenerator.exe](UevTemplateBaselineGenerator.exe-CB80D6493F9D8BD662CE6A9C4A76001E.md) | 68
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

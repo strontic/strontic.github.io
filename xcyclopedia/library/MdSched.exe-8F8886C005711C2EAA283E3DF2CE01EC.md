@@ -49,6 +49,14 @@ SSDEEP | `1536:XCuhL13HwZEUm+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:txNSEUe/FO+VQDUcUNW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\MdRes.exe](MdRes.exe-4D39CFCDAE03CBD0CE29CAE5CFD45883.md) | 79
+[C:\Windows\system32\MdRes.exe](MdRes.exe-65AA6B6B47D01BF36898D5D06617C623.md) | 82
+[C:\WINDOWS\system32\MdSched.exe](MdSched.exe-D8E7439565B126AD33520B090E7888B0.md) | 77
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

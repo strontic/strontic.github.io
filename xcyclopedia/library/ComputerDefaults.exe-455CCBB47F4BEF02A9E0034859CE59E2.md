@@ -49,6 +49,20 @@ SSDEEP | `1536:05zu0Yg9vp+15SJrePojhZ7oyrURDoq4OZZZLlCIibe6:URBT+1gwRD68wbe`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ComputerDefaults.exe](ComputerDefaults.exe-3F032A1BDF4D7DF2F43FE7C0410AC175.md) | 54
+[C:\WINDOWS\system32\ComputerDefaults.exe](ComputerDefaults.exe-495F18535BBBA007A18EC5EE708318FE.md) | 54
+[C:\WINDOWS\system32\xwizard.exe](xwizard.exe-30D89280E86DFB29C2F232194642125E.md) | 44
+[C:\Windows\system32\xwizard.exe](xwizard.exe-C0CCC55F9E988ACB8B624EFD0EC8B92B.md) | 49
+[C:\Windows\SysWOW64\ComputerDefaults.exe](ComputerDefaults.exe-4A007FCF54D0379B75D1FA50F840D62B.md) | 52
+[C:\WINDOWS\SysWOW64\PickerHost.exe](PickerHost.exe-FC004590CCAFF6A2DDFF20FEB2C663B2.md) | 25
+[C:\WINDOWS\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-C88891AC9FBC632FAC0ECB4D484D5798.md) | 30
+[C:\Windows\SysWOW64\xwizard.exe](xwizard.exe-3C70F039EE4C07511ABD82B5664FB91B.md) | 50
+[C:\WINDOWS\SysWOW64\xwizard.exe](xwizard.exe-CB72CA2B130AA4B776FAF32E18453CF6.md) | 46
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

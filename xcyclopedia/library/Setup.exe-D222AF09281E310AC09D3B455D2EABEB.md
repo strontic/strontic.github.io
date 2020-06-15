@@ -49,6 +49,12 @@ SSDEEP | `6144:jERcm00h7fq2me69s7dwEYGc6tqnzhQXJgzBU4GfjTBc7:j/EMejT/q9agf7`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\oobe\Setup.exe](Setup.exe-8BBDBD0FA1F6AD661B85FC8A5BD3E2B3.md) | 46
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

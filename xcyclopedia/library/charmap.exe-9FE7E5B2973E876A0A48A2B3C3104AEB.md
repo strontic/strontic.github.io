@@ -49,6 +49,14 @@ SSDEEP | `3072:ci6ND48iXJJ5G4peH4817f7UIH+XnF/buMbrLF5NUdrSO9K/tagbdDu5nB:8i5J5G
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\charmap.exe](charmap.exe-763D2F95751F734633EA53F15ADE3893.md) | 54
+[C:\WINDOWS\SysWOW64\charmap.exe](charmap.exe-9F65E094BBB947E7AC3BB4ABB2749156.md) | 54
+[C:\Windows\SysWOW64\charmap.exe](charmap.exe-E42E8639F4A99DBA11570C3B50625A2F.md) | 57
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

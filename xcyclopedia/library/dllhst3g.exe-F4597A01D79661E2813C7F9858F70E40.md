@@ -49,6 +49,12 @@ SSDEEP | `192:lwUObYCCVz4DsjE1czJn71BCKwfu6EDcSWYyWTb:lXG6z40GYJnRB/cSWYyWTb`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\dllhost.exe](dllhost.exe-60D0B50CFF3A0722ADC274F49FB16F14.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

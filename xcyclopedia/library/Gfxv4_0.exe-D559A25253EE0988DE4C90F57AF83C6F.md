@@ -49,6 +49,18 @@ SSDEEP | `12288:+umQC9Aph7xhAj1F8IQrMtEi0gHRhnUMXOMMvt6fDVCDa:+umQ/hNhAjTPZbUrMu
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\GfxUIEx.exe](GfxUIEx.exe-9526B0F7E1DD6BFA9784163AA3CDB80E.md) | 33
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\Gfxv2_0.exe](Gfxv2_0.exe-FB842B6C461EAC8A300B206C90D8D5B6.md) | 32
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\Gfxv4_0.exe](Gfxv4_0.exe-CAD2033F0AC69854E239C9A08341878C.md) | 36
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxTray.exe](igfxTray.exe-94CE60E4864942F14D34BE93FD8FE80B.md) | 32
+[C:\WINDOWS\system32\GfxUIEx.exe](GfxUIEx.exe-F4B0CC2D2A1A48CA82EA949FFCB4F93B.md) | 33
+[C:\WINDOWS\system32\Gfxv2_0.exe](Gfxv2_0.exe-EDC9BFD1835DEDDC938C1D20951E241D.md) | 43
+[C:\WINDOWS\system32\igfxTray.exe](igfxTray.exe-7B5147E66B50A838C77345CF6D3065DC.md) | 35
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

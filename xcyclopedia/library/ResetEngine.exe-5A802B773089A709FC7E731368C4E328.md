@@ -49,6 +49,14 @@ SSDEEP | `384:Nk5w2vEyakPia68sgTaW0eW1D1IDBRJtvpLIKl9l:KwBUiEseIbI1PZpLN`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 25
+[C:\WINDOWS\system32\ScriptRunner.exe](ScriptRunner.exe-C024FF9A88E26EEB26A1A942260489BC.md) | 41
+[C:\Windows\system32\wuauclt.exe](wuauclt.exe-7582BF723A39B56BCCEF2C170E330BD7.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

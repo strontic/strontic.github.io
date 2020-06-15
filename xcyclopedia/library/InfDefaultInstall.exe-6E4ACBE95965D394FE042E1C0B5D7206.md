@@ -49,6 +49,12 @@ SSDEEP | `192:PY5Y0PDblClcp1IvCg+7RSBGzZzdBgW6U19wzs9aW/GW:PY5YUx4o1kCrNsGx7gWCz
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-8A91DEC7CD83D38314AD072EE568D1CB.md) | 49
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

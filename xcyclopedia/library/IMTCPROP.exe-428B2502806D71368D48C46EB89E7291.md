@@ -49,6 +49,14 @@ RdpSa.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\IMETC\IMTCPROP.exe](IMTCPROP.exe-7319F199B67069654A4E65048AE956F5.md) | 47
+[C:\WINDOWS\system32\IME\IMETC\IMTCPROP.exe](IMTCPROP.exe-EDD8488E449D5D1997796ABBA1EBE001.md) | 46
+[C:\WINDOWS\SysWOW64\IME\IMETC\IMTCPROP.exe](IMTCPROP.exe-BF4E435A6D47A79D5F347234D21D0FD5.md) | 54
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `24576:hiw+VVFoeh0/odHHpMHmLoMza655/xDnZpRC:qZVgYHHp4mtJDxDs`
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Microsoft\VisualStudioSecondaryInstaller\14.0\installers\Win10SDK_10.0.10586.15\en\0\-LinkID=690621.exe](-LinkID%3d690621.exe-186953FB59928533D571CF9FAD3BA3C4.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

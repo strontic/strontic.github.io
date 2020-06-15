@@ -49,6 +49,12 @@ SSDEEP | `384:EZUNyVYtrHIaqEYZ+WSqYWViiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiLiiiiih:Q
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\calc.exe](calc.exe-0F47684C213A9A4E77E9CB5CD3A1C70D.md) | 49
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `384:mfAm+y3Vvrc92z0DOZ969eNopxWvyDyK5TYWpwWJJY0ehA/9gnl0:mAczcq0D19eg0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DeviceEject.exe](DeviceEject.exe-668B64378328E7559105C81BEE39A1FA.md) | 50
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

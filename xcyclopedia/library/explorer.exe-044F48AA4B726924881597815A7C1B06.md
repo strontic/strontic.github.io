@@ -49,6 +49,12 @@ SSDEEP | `49152:cTGYV/tDbWmg4KlW0qsZUGmLlk5zNsYtxOmsXiCaw8A7/eFwIADOmBK:BwY95rmy
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\explorer.exe](explorer.exe-729BAFD24FF83EBC6F963001386E6EB7.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

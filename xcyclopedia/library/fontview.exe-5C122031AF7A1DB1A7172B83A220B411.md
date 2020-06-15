@@ -49,6 +49,14 @@ SSDEEP | `3072:ogsI3cRyfNJjWRkOtHxtt3EOL2QvIsitSYVF:NsY9DWRRZzqGY`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\fontview.exe](fontview.exe-074E78E53542819A9CB19E0DEDB1E18F.md) | 68
+[C:\Windows\SysWOW64\fontview.exe](fontview.exe-41F2C4BCF495E8130FA93D7A641476CD.md) | 82
+[C:\WINDOWS\SysWOW64\fontview.exe](fontview.exe-B3A764361C0ACDEAD4B17F1D33ADC9A7.md) | 77
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

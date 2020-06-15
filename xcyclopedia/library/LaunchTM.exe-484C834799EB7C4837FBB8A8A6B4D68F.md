@@ -49,6 +49,12 @@ Taskmgr.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-E40B4BED011FA2AF5AC660E620E3F887.md) | 96
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

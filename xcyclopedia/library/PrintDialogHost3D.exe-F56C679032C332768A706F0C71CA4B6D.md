@@ -49,6 +49,12 @@ SSDEEP | `384:eNvKTII2pkc8DXzl2VKNGO4MPzH/xsi6Qg9waYOL08MWbbW:eRF9pkcilEKNprK8iw
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PrintDialogHost.exe](PrintDialogHost.exe-B55858B74F9BA4986E427C2700025899.md) | 69
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

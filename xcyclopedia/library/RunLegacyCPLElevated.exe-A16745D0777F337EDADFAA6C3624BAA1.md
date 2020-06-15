@@ -49,6 +49,18 @@ SSDEEP | `768:zTFJH4SEIUkzkN2qEFhDJydZAGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/J:z
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-0D0551E591F32BBA1B1701D115883802.md) | 54
+[C:\WINDOWS\system32\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-88C2C65B3CAAEA8E424921E4A987E522.md) | 65
+[C:\Windows\system32\winver.exe](winver.exe-3815F11126543C450BDE1AB19559C70A.md) | 71
+[C:\WINDOWS\system32\winver.exe](winver.exe-A9E590D2497EDC084324D6A2584B1905.md) | 69
+[C:\Windows\SysWOW64\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-E1519821284895922C0DE974BB13DB8B.md) | 68
+[C:\WINDOWS\SysWOW64\winver.exe](winver.exe-D828953D9B5DA4E7C73CD10F07741F78.md) | 72
+[C:\Windows\SysWOW64\winver.exe](winver.exe-D93830F17D450C7D418534CED70E263B.md) | 69
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

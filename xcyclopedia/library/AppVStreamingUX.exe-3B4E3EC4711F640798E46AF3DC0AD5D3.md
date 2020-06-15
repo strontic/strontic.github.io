@@ -49,6 +49,12 @@ SSDEEP | `3072:kyIen7ExTWZTSddxYkEmIjr+pjMqVVdmabWcONiHNp6ei/EzbHMqVVdmabWcONil:
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\AppVStreamingUX.exe](AppVStreamingUX.exe-71F4D0AC9EB0985E1F01EB8FAFFE7220.md) | 69
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

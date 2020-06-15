@@ -49,6 +49,12 @@ SSDEEP | `384:CqkHzUtCybmCW99GLjZGNDWW1RC6W08lRDBRJOklTIw31pgB67:rQwJSCW9aZGNF1R
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SystemSettingsRemoveDevice.exe](SystemSettingsRemoveDevice.exe-A2BE90B2E9144CEE2DCE5CCE3D144D03.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

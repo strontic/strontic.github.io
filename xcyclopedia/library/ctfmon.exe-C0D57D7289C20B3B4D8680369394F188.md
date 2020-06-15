@@ -49,6 +49,12 @@ SSDEEP | `96:M4WjLouIAnAwAuEaAp2hpHXDGjoaqHjK9osw2mpDJ7pRKR0LEWAgWwtevwDp:6LIbu2
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-29656B9E6B04C85E7BF4018B6844BE28.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

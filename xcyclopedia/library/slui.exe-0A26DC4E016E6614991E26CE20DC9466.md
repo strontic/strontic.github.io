@@ -49,6 +49,12 @@ SSDEEP | `6144:32x/n9wywep0KtB9hL8NQ+i+2faxw7jAxXk8OqY/W5R02qO7VKCyWQp:3in9dTv9J
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\slui.exe](slui.exe-3A171EFE71231ACB1B45E1FC00671EDF.md) | 41
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

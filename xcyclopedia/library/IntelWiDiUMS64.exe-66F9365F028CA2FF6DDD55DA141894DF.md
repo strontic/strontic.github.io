@@ -49,6 +49,12 @@ SSDEEP | `12288:europ/P7Qm5V0nnnBqf4pAmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi1:/rop
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\IntelWiDiUMS64.exe](IntelWiDiUMS64.exe-C5A1C3DBA3AACF33CE9B866D6A3E4A55.md) | 82
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

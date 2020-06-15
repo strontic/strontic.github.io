@@ -49,6 +49,14 @@ SSDEEP | `1536:Ps/iPurcRUUOr/QPpvsiy4xOHQ0gruB/AtOCauyb4XKAbeHZrQqf:SgRUKvsv5gru
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\isoburn.exe](isoburn.exe-13D374B961671151002FD0BC062621EF.md) | 41
+[C:\WINDOWS\SysWOW64\isoburn.exe](isoburn.exe-022E216F1DA247426B2E56C73BEE14F6.md) | 36
+[C:\Windows\SysWOW64\isoburn.exe](isoburn.exe-C599384D60BD0D4609004177762F2480.md) | 38
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

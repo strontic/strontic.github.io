@@ -49,6 +49,13 @@ SSDEEP | `49152:k9JbbwYlBBp2d1/bOd9x520LnuglmolVO+:k9Jp2POd9K0t2+`
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2015
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\SynTPEnh.exe](SynTPEnh.exe-AEBC1AFA26110E24B324B10FFD7D99D7.md) | 33
+[C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_b28b907efbdd0634\SynTPEnh.exe](SynTPEnh.exe-4076E418CD3EB0E09FFBCD828C35CE26.md) | 32
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

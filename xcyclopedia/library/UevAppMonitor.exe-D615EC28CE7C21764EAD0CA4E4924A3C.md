@@ -49,6 +49,14 @@ SSDEEP | `768:HTKezpTF+wsijB91slxN+u996swwiKEtycTY5lkQ7Vy9ylDXu:GezL191szN++6Nwi
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\Microsoft.Uev.SyncController.exe](Microsoft.Uev.SyncController.exe-68EC8F87BD36362B5DA3EF46FDFDBD14.md) | 55
+[C:\Windows\system32\Microsoft.Uev.SyncController.exe](Microsoft.Uev.SyncController.exe-E0C7CE7B684529C73B6FC6E679611C9C.md) | 54
+[C:\WINDOWS\system32\UevAppMonitor.exe](UevAppMonitor.exe-D49102FE0B311535B01F3E3039F09218.md) | 82
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

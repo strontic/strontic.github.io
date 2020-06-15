@@ -49,6 +49,14 @@ SSDEEP | `12288:ZVyLNz7Q8E7eqXSUiQte8dJsdXdAp8qrrU:uCXSUiQtnXsdXdAp8q`
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-AB0F17707EA78CF85C8AA46C32BB96FA.md) | 29
+[C:\WINDOWS\system32\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-E7F38B547F4D9919382D21B1F13B1982.md) | 35
+[C:\WINDOWS\SysWOW64\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-EA894E159041B342F715FDF2B15C44F1.md) | 32
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -88,6 +88,8 @@ hwrreg -remove -lang en-US -type PRIMARY-DICTIONARY
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

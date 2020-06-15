@@ -49,6 +49,16 @@ SSDEEP | `1536:7wGtTBNyNnGYx3VGrzv751sNz0UCdkV/L7k:1NyNnGsU/z5K`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SmartScreenSettings.exe](SmartScreenSettings.exe-6B2EA6F8937B573372304CAE5F829A4D.md) | 58
+[C:\Windows\system32\UserAccountControlSettings.exe](UserAccountControlSettings.exe-5E2A9717AA62B8BBFF893299E57F6082.md) | 60
+[C:\WINDOWS\system32\UserAccountControlSettings.exe](UserAccountControlSettings.exe-B913E9A10545FA6EC8E91483AA93B0BD.md) | 55
+[C:\Windows\SysWOW64\SmartScreenSettings.exe](SmartScreenSettings.exe-09A0EA8CAE050CA74E1FB2E42ED93766.md) | 60
+[C:\WINDOWS\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-C88891AC9FBC632FAC0ECB4D484D5798.md) | 46
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

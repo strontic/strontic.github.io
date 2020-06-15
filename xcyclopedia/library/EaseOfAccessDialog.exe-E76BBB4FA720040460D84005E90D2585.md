@@ -49,6 +49,12 @@ SSDEEP | `1536:/CVX6AvefdIeDmc2zEaeSQcwIjowH//pwt6Gq/v1qzWO0vmTZB1+hKW/GJzNjgvJ:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\sethc.exe](sethc.exe-0E6CDF17D71D663ECA4659AAA94735DB.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

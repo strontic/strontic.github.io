@@ -49,6 +49,12 @@ SSDEEP | `384:xjLVTMIIibVSd/0Ztw+1xq3UZU9a1xq3UZU9yW0IW:9LZMHF0Ztw8ZU9QZU9Q`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-04D542885F20AADF19D2D2C3464B4835.md) | 55
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

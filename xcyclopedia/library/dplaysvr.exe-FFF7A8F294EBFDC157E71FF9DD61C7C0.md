@@ -49,6 +49,12 @@ SSDEEP | `96:Kh0ZTLPO5Rsa6zgK14WcE8mPTMW5CKaafNEWauWwbj:Kh0ZTTOvx6zgVGTczafmWauW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\dpnsvr.exe](dpnsvr.exe-FFF7A8F294EBFDC157E71FF9DD61C7C0.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

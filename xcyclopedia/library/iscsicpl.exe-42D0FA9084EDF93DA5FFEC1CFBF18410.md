@@ -49,6 +49,12 @@ SSDEEP | `3072:STmFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:SRX8I0jct5rEJdp`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-27B2A19367EE1C0500834FE2BE8F4654.md) | 94
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

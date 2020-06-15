@@ -49,6 +49,13 @@ SSDEEP | `3072:/3PpKOd0dAeJopCjW+C1dvI8YOOYI0UmpKpu0PaT57qap:sdAeJQCg7Amjgadlp`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\patch_KB3110221\Preparation.exe](Preparation.exe-6103F3E05186AA3A496E7521C59F2E30.md) | 80
+[C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vsupdate_KB3022398\Preparation.exe](Preparation.exe-A911C2DC24898DFD47B45467E4A9F092.md) | 85
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

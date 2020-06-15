@@ -49,6 +49,14 @@ SSDEEP | `384:m6fHNIfcrCX6wEclbCKWWUHWJKJajXDO1/EagS817lU:m6ftjwjxCbEzDO`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\bthudtask.exe](bthudtask.exe-AA060C5F96D87FF96730C6295FC0B748.md) | 52
+[C:\Windows\system32\bthudtask.exe](bthudtask.exe-CCDD2D8B1E499BFC883BA7436B480DE3.md) | 57
+[C:\WINDOWS\SysWOW64\bthudtask.exe](bthudtask.exe-D2E1480FF0B3A60B857268CFE353D20E.md) | 61
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `1536:jq4T59iOiNz2Sw31dzLQKYq96insvqr9PxDtYcPRdrI:z4O0zGH/QKY86fu9ZDtYc
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\wlrmdr.exe](wlrmdr.exe-A6F7BB4E57150E73A60FEB3C0DE8AF7A.md) | 35
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

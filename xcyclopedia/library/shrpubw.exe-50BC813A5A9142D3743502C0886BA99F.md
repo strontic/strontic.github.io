@@ -49,6 +49,12 @@ SSDEEP | `1536:9FcLcDZD7c6+I73IBjoXW6TkNmkBTxWJF51KsvhFsVe:9F7DI6+yikW6TkNXgJFWs
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\shrpubw.exe](shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209.md) | 49
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

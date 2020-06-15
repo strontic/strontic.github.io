@@ -49,6 +49,12 @@ SSDEEP | `1536:wKYbc2+xsCvof6N/uYhjaPCbLqt/6QWSfKYbkkbsFDfSIT0nJ2QC7pFJan1ZQnBF:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-E805EC74A53B64CE1D9D6739B8055579.md) | 38
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `12288:t4ZkNIN03Ps/n6Vpt8XB04dDuc/04dDuc/vq:t4boEgp/4xI4x7v`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\Magnify.exe](Magnify.exe-E7274A1C29BF277EA232150F05812E67.md) | 55
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

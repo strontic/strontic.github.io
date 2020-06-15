@@ -49,6 +49,14 @@ SSDEEP | `3072:rSu3CErr/G0r16YNDnGOb+ahXNqJohePnq45L84I:5SElfNDGOb+asEwv5L`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\iexpress.exe](iexpress.exe-CFCE9FDAC8DD2A4E5209B772CF843E89.md) | 69
+[C:\WINDOWS\SysWOW64\iexpress.exe](iexpress.exe-15F76E09BBD08461D288B17514B39051.md) | 66
+[C:\Windows\SysWOW64\iexpress.exe](iexpress.exe-82D7A8C4A67BA56A24CEAB1C1114F4CD.md) | 71
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

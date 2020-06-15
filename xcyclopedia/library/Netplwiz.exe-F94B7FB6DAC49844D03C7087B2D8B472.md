@@ -49,6 +49,14 @@ SSDEEP | `768:qt4lgFHE9Lm2kEwBrIit865IKX+1XycvydfUrh6WeENiJDBPrxZt4A:SmUFBIiGYIk
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-75DCFA9FCA3B674DB727C88FE734144B.md) | 54
+[C:\WINDOWS\SysWOW64\Netplwiz.exe](Netplwiz.exe-5C356B86E15FB91B62AB373580CAA4FE.md) | 58
+[C:\Windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-E1A1217142FB0EC85120E211E5C607DF.md) | 54
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

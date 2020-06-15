@@ -49,6 +49,12 @@ SSDEEP | `12288:4Zc0IursYCYQeSnyZJiqlEbXSb9NtCGOF2O27MVzy:4MYenGJiKEbXWtfOkUy`
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\vcredist_x86.exe](vcredist_x86.exe-1191BA2A9908EE79C0220221233E850A.md) | 75
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

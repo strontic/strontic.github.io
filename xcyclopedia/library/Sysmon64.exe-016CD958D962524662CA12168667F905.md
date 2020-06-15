@@ -95,6 +95,8 @@ Neither install nor uninstall requires a reboot.
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

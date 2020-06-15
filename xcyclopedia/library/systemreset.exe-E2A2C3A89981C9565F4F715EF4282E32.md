@@ -49,6 +49,12 @@ SSDEEP | `6144:8bqZN0MTDBl9icF+pWdtLhqoQwp3f4gqurXS12VxL44L57KUgQGEEEsND0ZCYWh5:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\systemreset.exe](systemreset.exe-B6968ADCA12A5898AA2F89931B17995A.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

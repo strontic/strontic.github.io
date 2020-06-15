@@ -49,6 +49,12 @@ win32calc.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\calc.exe](calc.exe-4673C27FDCAB6166578A1863060D83FF.md) | 32
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

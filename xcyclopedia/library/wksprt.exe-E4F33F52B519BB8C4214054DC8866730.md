@@ -49,6 +49,12 @@ SSDEEP | `12288:eSTkUHQFoyyObuDHBjUPhPuc3XIB7GjFMvT3lxR:erUHoRyOS6uwimI`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wksprt.exe](wksprt.exe-B1A354667950BBBEA757CF91918ED092.md) | 50
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `384:lgZukZ110kHwpXOr3xTK9xwY+kGq7wOcYJLcfaFeMS:lgZb1K+kXOLpewY+kGq7wOR
 * Language: English (United States)
 * Legal Copyright: Copyright CANON INC. 2000-2012 All Rights Reserved
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\spool\drivers\x64\3\CNMSEB5.EXE](CNMSEB5.EXE-3C10FAAA0E0BD71A39C5CD096282744F.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `49152:BkJTnMm2McXrkpFYCllKuIe5S307CTvME4kC8r37UnyZ:tbelKuur371Z`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\NisSrv.exe](NisSrv.exe-5C0BF6EB90CAC1A5962D07646B0666B0.md) | 32
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

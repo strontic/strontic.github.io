@@ -49,6 +49,12 @@ SSDEEP | `384:6OjquxO7jRcrWUmZgni0gAk5zdH9XGEmBwxQtZe7rs+xfQOrR3fpgHuWGfErn0o4:6
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\oobe\AuditShD.exe](AuditShD.exe-DE7377FF4091FC438529F5A96001F17C.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

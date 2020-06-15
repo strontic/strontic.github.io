@@ -49,6 +49,12 @@ SSDEEP | `24576:9MnMGiAV4mNuvN9Q1Z15j4ASnKtuAoVc4XP6C1nLoIK1q:9QKmNulkqYYPsO`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Boot\winload.exe](winload.exe-E64AF8D519FD2F9458EBD0AE4FAEB717.md) | 93
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

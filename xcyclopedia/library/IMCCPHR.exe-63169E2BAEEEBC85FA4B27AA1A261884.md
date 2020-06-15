@@ -49,6 +49,14 @@ RdpSa.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-226B54F581C9C77990067F670730B3BA.md) | 55
+[C:\WINDOWS\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-3206C15BFF18728020FA4CF141CF17CB.md) | 57
+[C:\Windows\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-FF19AEA319DDD78C836594D802F7852D.md) | 55
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `768:pHDnOXh9UwynQ7NWnd+8GX+7/uy47D3fK/8DBz5tKA3:pHD69lNWnumWy4Om5tKA3`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\cmmon32.exe](cmmon32.exe-8BAF4640EDA0C53DCD53AD743E22F881.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

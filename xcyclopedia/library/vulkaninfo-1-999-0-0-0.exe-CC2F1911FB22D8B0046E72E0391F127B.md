@@ -66,6 +66,13 @@ OPTIONS:
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015-2018
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\vulkaninfo-x64.exe](vulkaninfo-x64.exe-CC2F1911FB22D8B0046E72E0391F127B.md) | 100
+[C:\WINDOWS\system32\vulkaninfo.exe](vulkaninfo.exe-CC2F1911FB22D8B0046E72E0391F127B.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

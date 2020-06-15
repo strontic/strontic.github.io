@@ -49,6 +49,12 @@ SSDEEP | `6144:+hZlNumztRYEapwjtyojd82ssgC4XVKikAlm0lEKTn5JZgBk8SK0Q:+DlNuouzpwj
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\IME\SHARED\imecfmui.exe](imecfmui.exe-BCDCDA8BF1BD998A89B860B4916C5821.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

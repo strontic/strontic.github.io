@@ -188,6 +188,12 @@ Error: Unable to run inside of a Virtual Machine.  Please try again running dire
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\WinSAT.exe](WinSAT.exe-ED2505CC79AB0C0008E1A23A731D9107.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

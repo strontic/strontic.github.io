@@ -49,6 +49,14 @@ SSDEEP | `768:SMAdw1UF1r1/02mWC7t4Knpr8g4LZkrrH1Xzij1dFdqdfdh22C+BH7sFpCKcKP:Xi7
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\MultiDigiMon.exe](MultiDigiMon.exe-D4528F060A28F12A6BEB746785D77193.md) | 52
+[C:\Windows\system32\tabcal.exe](tabcal.exe-0F1D05D267CB743E0C1FCB7C9BE3920A.md) | 38
+[C:\WINDOWS\system32\tabcal.exe](tabcal.exe-C6D89BAA07C0779C2F21B1072FAD2C02.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

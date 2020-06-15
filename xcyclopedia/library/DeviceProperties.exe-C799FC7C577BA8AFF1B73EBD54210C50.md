@@ -49,6 +49,13 @@ SSDEEP | `1536:IEwSO2y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi65p:IAO55NOFpTyIcuz9
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DeviceProperties.exe](DeviceProperties.exe-B7352C06F8FCC2FD9E715CFC3077294A.md) | 88
+[C:\Windows\SysWOW64\DeviceProperties.exe](DeviceProperties.exe-4BE4A5A9E90122607ADF050E231760BB.md) | 93
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

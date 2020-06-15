@@ -49,6 +49,12 @@ SSDEEP | `6144:ZIT4UtEKMwWGFCysoCJAVcD8LPhSiWofQr2k5l8BmMxowi/EH1g:ZAVEwrcD8pell
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\psr.exe](psr.exe-93F9974E3ED1946C71D823925F6AC60E.md) | 60
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,14 @@ SSDEEP | `1536:vq4IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:yDXlvq7jSP1c
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\colorcpl.exe](colorcpl.exe-25040F44B9DDAB66CE97AE7EB076C1F4.md) | 99
+[C:\Windows\system32\colorcpl.exe](colorcpl.exe-362986B35574BF922A81E7B0BA50C96B.md) | 96
+[C:\Windows\SysWOW64\colorcpl.exe](colorcpl.exe-38EB45466769CCD7915CA3582FE7D64A.md) | 96
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

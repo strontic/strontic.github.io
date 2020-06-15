@@ -49,6 +49,14 @@ SSDEEP | `1536:lpG572BDBmNrEnXeSFsTalip+UmBo6AtfzH6:TGxeDBmNr2X4TalimBo6I`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wiaacmgr.exe](wiaacmgr.exe-28195E69188E35791856476067DDCEA0.md) | 33
+[C:\WINDOWS\system32\wiaacmgr.exe](wiaacmgr.exe-5F31742F489000AE4E8049AD854601E3.md) | 35
+[C:\WINDOWS\SysWOW64\wiaacmgr.exe](wiaacmgr.exe-CF062E57233A3CE8633084EC9D10449D.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `98304:WsPOzq2u7InCEE+wysPM4mlaw0LI60GBGrGrGWAuU7jPLQ:hPOzq6nTE+wBMHlaw
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\mspaint.exe](mspaint.exe-A5F69864C0CA8FDC157F3E7EF48F2F10.md) | 91
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

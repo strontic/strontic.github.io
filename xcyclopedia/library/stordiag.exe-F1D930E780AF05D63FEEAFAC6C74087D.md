@@ -62,6 +62,12 @@ conhost.exe fltMC.exe
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\stordiag.exe](stordiag.exe-90A922FDB190D75111DBE5A741EE0510.md) | 91
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

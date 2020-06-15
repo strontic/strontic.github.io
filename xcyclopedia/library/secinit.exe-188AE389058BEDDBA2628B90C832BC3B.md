@@ -49,6 +49,12 @@ SSDEEP | `384:nJjWTxYcgSQ7XC1ucsjvNwe1W8vEzRiW:JwYcgSQu1chTQ`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\secinit.exe](secinit.exe-D0A955764640BAD5BB2677DFC77D448F.md) | 30
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

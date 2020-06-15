@@ -49,6 +49,12 @@ SSDEEP | `3072:OT+4yL3H/sLDokwVU3NZ0dbpwvkBmDvvDZpFB+2xmh0QSoKKBlKxyAZEHm:h4K3Hi
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-658873DCA615D9692113B0240F2B17AC.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

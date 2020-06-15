@@ -52,6 +52,8 @@ This application requires elevated rights. Please re-run with administrator priv
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -66,6 +66,13 @@ OPTIONS:
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015-2018
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\vulkaninfo.exe](vulkaninfo.exe-CC2F1911FB22D8B0046E72E0391F127B.md) | 100
+[C:\WINDOWS\system32\vulkaninfo-1-999-0-0-0.exe](vulkaninfo-1-999-0-0-0.exe-CC2F1911FB22D8B0046E72E0391F127B.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

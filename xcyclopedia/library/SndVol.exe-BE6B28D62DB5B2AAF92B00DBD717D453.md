@@ -49,6 +49,13 @@ SSDEEP | `3072:tEKC5GybtCSb6K4c8TklfXzHgasD8sazJeYEoqGcQDWkyzjbEyB7HbIrnvkSW:tEK
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\SndVol.exe](SndVol.exe-779D706DE5A512A06AF4933035970AE5.md) | 35
+[C:\Windows\SysWOW64\SndVol.exe](SndVol.exe-FC0BFFE396750BB00FAFAD0C62E7ACDA.md) | 29
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

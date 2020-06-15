@@ -49,6 +49,12 @@ SSDEEP | `384:jfPLIeo1rWOtZIV3tGcN8GGv3YW7bWYE8XlRDBRJplTIw31pg24:LPLu1iEuGZGGvN
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SlideToShutDown.exe](SlideToShutDown.exe-D5358BFE01B96F561858FFE91B13A011.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

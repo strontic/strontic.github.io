@@ -49,6 +49,12 @@ SSDEEP | `1536:N8wNfktLYUqSfzC8wATsq3CRJMdzzOi3d0eFKg:N80ct8dSfmXosgCRJMdfO6FKg`
 * Language: English (United States)
 * Legal Copyright: Copyright 1990-2000 InstallShield Software Corporation, Phone: (847) 240-9111
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\InstallShield\setup.exe](setup.exe-D3C5EB399AB4522ABF662EB72C23DB9B.md) | 99
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

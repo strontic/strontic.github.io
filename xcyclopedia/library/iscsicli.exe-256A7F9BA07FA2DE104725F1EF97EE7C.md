@@ -237,6 +237,12 @@ The operation completed successfully.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\iscsicli.exe](iscsicli.exe-5D9CE9006FDE6D04DF8A589897844D4E.md) | 68
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

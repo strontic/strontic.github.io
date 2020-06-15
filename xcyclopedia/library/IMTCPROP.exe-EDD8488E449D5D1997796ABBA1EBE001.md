@@ -49,6 +49,14 @@ SSDEEP | `6144:cN91K0fN/d05A33Fx7nrEjINmKKRiT7fJ:Mff1d0+nFx/Kw`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\IMETC\IMTCPROP.exe](IMTCPROP.exe-7319F199B67069654A4E65048AE956F5.md) | 47
+[C:\Windows\SysWOW64\IME\IMETC\IMTCPROP.exe](IMTCPROP.exe-428B2502806D71368D48C46EB89E7291.md) | 46
+[C:\WINDOWS\SysWOW64\IME\IMETC\IMTCPROP.exe](IMTCPROP.exe-BF4E435A6D47A79D5F347234D21D0FD5.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

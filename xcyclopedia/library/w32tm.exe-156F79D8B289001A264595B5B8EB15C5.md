@@ -187,6 +187,8 @@ w32tm /leapseconds /getstatus [/verbose]
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

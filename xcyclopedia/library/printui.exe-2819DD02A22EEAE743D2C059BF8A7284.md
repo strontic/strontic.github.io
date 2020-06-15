@@ -49,6 +49,21 @@ SSDEEP | `768:mQ5fn5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qnc:7bVIPd4
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 46
+[C:\WINDOWS\system32\ntprint.exe](ntprint.exe-7DC74288D09DCA85F8484793F76B373A.md) | 88
+[C:\Windows\system32\ntprint.exe](ntprint.exe-CBC3D64B4D65A29843C4D140DE1319B6.md) | 90
+[C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-A7BF96D6CC09A5012C1EA0F990D65567.md) | 58
+[C:\WINDOWS\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-E3D32AA13B48E4A5B17AA618D5C1B395.md) | 63
+[C:\WINDOWS\system32\printui.exe](printui.exe-C14B13D2A4DA60A016D90D395C4136E3.md) | 88
+[C:\Windows\system32\printui.exe](printui.exe-FBA9678D2749E85B086F8CBF21757A32.md) | 93
+[C:\WINDOWS\SysWOW64\ntprint.exe](ntprint.exe-9D0B2E76744FF23D3696883DE96C3EA7.md) | 86
+[C:\Windows\SysWOW64\ntprint.exe](ntprint.exe-DB649341DCBF95A8D898BDF09BC8D96D.md) | 90
+[C:\WINDOWS\SysWOW64\printui.exe](printui.exe-129FDFE38DCD2DF182311890F0366931.md) | 88
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

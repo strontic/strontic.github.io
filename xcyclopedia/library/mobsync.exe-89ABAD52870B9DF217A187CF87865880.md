@@ -49,6 +49,14 @@ SSDEEP | `1536:PfRhGe9h9GtoWGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fKb:7M6WGPo9St8WHxSD+09
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\mobsync.exe](mobsync.exe-984EEFEB48B347AB5693E86D03D0BD48.md) | 75
+[C:\Windows\system32\mobsync.exe](mobsync.exe-99C4EC4CA3E1A91B3F2D3969BB41E6D8.md) | 85
+[C:\WINDOWS\SysWOW64\mobsync.exe](mobsync.exe-1D73E097AD55C76CB15F046911FA9504.md) | 77
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

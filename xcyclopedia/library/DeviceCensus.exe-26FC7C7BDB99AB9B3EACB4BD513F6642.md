@@ -49,6 +49,12 @@ SSDEEP | `768:/rqp1ssuvWRCll0zrMF7G4i6Xf4r6wD1Pu:2jivW0+PO7GcfWPu`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 85
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

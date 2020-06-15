@@ -49,6 +49,13 @@ SSDEEP | `6144:VUtA/9qfmX28r8Vuc5H3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZ:+A/9q0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\osk.exe](osk.exe-9237BD6C14767145300EA58ACC2F20F9.md) | 61
+[C:\Windows\SysWOW64\osk.exe](osk.exe-D49B6A24B175D6377AD62E9C6690E75B.md) | 80
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

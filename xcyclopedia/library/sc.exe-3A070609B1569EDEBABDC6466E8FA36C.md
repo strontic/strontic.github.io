@@ -144,6 +144,8 @@ sc query type= driver group= NDIS     - Enumerates all NDIS drivers
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

@@ -49,6 +49,12 @@ SSDEEP | `3072:8kjU/mLkLgUPhsASnGsTI2hzQkWENwZp/C014SHjSmdGQ5m:88LkLgUPhyTI2hzQA
 * Language: English (United States)
 * Legal Copyright: Copyright (C), Intel Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\difx64.exe](difx64.exe-065B572AACAC0CD104BDCDF0AA8EA47F.md) | 85
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

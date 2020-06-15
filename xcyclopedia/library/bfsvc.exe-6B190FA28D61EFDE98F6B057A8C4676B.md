@@ -53,6 +53,8 @@ BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! E
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

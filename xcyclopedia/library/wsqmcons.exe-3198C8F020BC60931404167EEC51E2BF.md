@@ -49,6 +49,12 @@ SSDEEP | `1536:RWLApNMLQn1YnotjyPrhFWe7H+E+PSZJHnGQumre2q6E:n09otOPV/3ZJHGQuCe28
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-67FA4FB09632BC10881316F229E0D128.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

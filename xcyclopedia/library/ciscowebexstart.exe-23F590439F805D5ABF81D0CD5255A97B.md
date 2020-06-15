@@ -49,6 +49,12 @@ SSDEEP | `12288:RujXKKv7VnbJKNWL5eM5fNmaKIDeyBUruYo7g1jA1F3RhNT5bsmoihBwF6kk:EXK
 * Language: English (United States)
 * Legal Copyright:  2018 Cisco and/or its affiliates. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\WebEx\webex.exe](webex.exe-23F590439F805D5ABF81D0CD5255A97B.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

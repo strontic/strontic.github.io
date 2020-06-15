@@ -49,6 +49,12 @@ SSDEEP | `192:UjnbFaItcWHiJ8n9COMFm3W59nWQKN7OwDBQABJcxW/amJqnajgrTZutRnPw:UPM03
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\csrss.exe](csrss.exe-955E9227AA30A08B7465C109B863B886.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

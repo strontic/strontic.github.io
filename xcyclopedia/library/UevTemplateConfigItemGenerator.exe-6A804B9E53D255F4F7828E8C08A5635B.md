@@ -49,6 +49,12 @@ conhost.exe
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-CAD9DF722BCCEED4CCA888650FCB2F80.md) | 71
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

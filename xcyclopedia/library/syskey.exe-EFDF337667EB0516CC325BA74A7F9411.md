@@ -49,6 +49,12 @@ SSDEEP | `384:2Tf/M5xZu0TnS07ZQnnCvhK5I37X8xuVTy+SC7uHUrSjaU1KC1Q1fWaxWVf:eX+xQ0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\syskey.exe](syskey.exe-8D00177CA1D11D9A61CBF6F0D2F0420B.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

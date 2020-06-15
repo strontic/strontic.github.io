@@ -49,6 +49,12 @@ SSDEEP | `1536:R0CslG0dk/42GXQoLXHtEryPuO2NTk9/sG8OGbqkl+k0MTgFveWbXkbTsUFncUwp:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\fsquirt.exe](fsquirt.exe-78D460CCDA4D36835579CD33BD9B9908.md) | 40
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

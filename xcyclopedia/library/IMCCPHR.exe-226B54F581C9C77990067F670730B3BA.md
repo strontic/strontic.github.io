@@ -49,6 +49,14 @@ SSDEEP | `6144:HJd0U657tqAq+tvd0/+Yr7EUmkOlx8uSXmCPwP6k+kc8DZ5n:HJqpxtvu2c7U+uSX
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-63169E2BAEEEBC85FA4B27AA1A261884.md) | 55
+[C:\WINDOWS\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-3206C15BFF18728020FA4CF141CF17CB.md) | 55
+[C:\Windows\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-FF19AEA319DDD78C836594D802F7852D.md) | 60
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

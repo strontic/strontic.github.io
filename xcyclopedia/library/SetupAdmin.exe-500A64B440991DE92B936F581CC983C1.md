@@ -49,6 +49,15 @@ SSDEEP | `3072:ldLClucgfn8E0dKd2XhJ7ke4YgG1CkCAzVnMe0dSOrI:v+lucntT77kePMbBI`
 * Language: English (United States)
 * Legal Copyright:  Apple Inc. All Rights Reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.11.0.19\SetupAdmin.exe](SetupAdmin.exe-37CA4650EB320FA312EB3E390FF5E439.md) | 83
+[C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.12.0.14\SetupAdmin.exe](SetupAdmin.exe-E8B56473844F14C06C2A0287C40AC5EC.md) | 83
+[C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.18.0.22\SetupAdmin.exe](SetupAdmin.exe-62F80097D3CEC9783DE17548F2A21BED.md) | 83
+[C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.19.0.10\SetupAdmin.exe](SetupAdmin.exe-5436A8FB69F01DFBA3FBCF3264359276.md) | 83
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

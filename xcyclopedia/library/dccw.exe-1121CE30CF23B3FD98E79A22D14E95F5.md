@@ -49,6 +49,12 @@ SSDEEP | `12288:Vz5g7ZpGOhS/IzJqrraq/t2qXy6xdRhMA:Xg6GS/EEn/tkI`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dccw.exe](dccw.exe-B6532886AB39BD25126033D15C241E45.md) | 85
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,14 @@ SSDEEP | `1536:VjaDytv3Jrz6q9EyYt9FlUIlbvBjIloW:VjaUUKI9jo`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\odbcad32.exe](odbcad32.exe-35DF6D2F992F336A3BB3E971FBC10936.md) | 86
+[C:\Windows\system32\odbcad32.exe](odbcad32.exe-E2E95A7A343DE93C4F5FD57BF8DA5F16.md) | 85
+[C:\Windows\SysWOW64\odbcad32.exe](odbcad32.exe-3CF7DB52FEF9AD31F647BF50E6DEA420.md) | 93
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

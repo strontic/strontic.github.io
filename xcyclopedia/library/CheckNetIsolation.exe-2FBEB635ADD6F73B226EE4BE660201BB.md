@@ -64,6 +64,12 @@ Usage:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\CheckNetIsolation.exe](CheckNetIsolation.exe-4AB46153B2934EFDA4D3CC58E9BF976A.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `393216:Yklp+dkBSuF2SfUfn6vVq0kv6+LMIdl/zkP2vq4qn7:tp+Ty2SfUfnwUvxAIdlx
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vcRedistD14\VC_redist.x64.exe](VC_redist.x64.exe-8A005EA9D33D072031DBBA928614CB62.md) | 50
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

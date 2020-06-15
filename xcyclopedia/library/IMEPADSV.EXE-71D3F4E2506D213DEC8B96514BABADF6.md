@@ -49,6 +49,12 @@ SSDEEP | `3072:ycJ26Mwx2h44Iw+TRubNjnWkdOkFP9/f+JbE6HYkyTQbbUzLWpq:126L2mS+TcjnW
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\IME\SHARED\IMEPADSV.EXE](IMEPADSV.EXE-8F62E9D1C1785A1A7EAD874B145C15F9.md) | 38
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

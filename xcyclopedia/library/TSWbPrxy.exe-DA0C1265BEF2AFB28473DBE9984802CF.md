@@ -49,6 +49,12 @@ SSDEEP | `1536:B8c26d6377CtitwTw7paK86mmbZeMJ/YnIanbsaw+NhQ:Oe6itH2aKRb4COIoA`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\TSWbPrxy.exe](TSWbPrxy.exe-2395DEF1650E0F426E4FAA1DD22BEA69.md) | 41
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

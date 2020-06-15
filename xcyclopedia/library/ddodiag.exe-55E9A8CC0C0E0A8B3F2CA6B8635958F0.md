@@ -49,6 +49,12 @@ SSDEEP | `768:K9m8ov3QRQ32fYMGK/hc3aZkLmMgMaouZl6i1pottgJ:C6vQmmfYMGK/hc3aZkLmMg
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ddodiag.exe](ddodiag.exe-AC8C4B3F8FF22209B1BBB95271C56D56.md) | 69
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

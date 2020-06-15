@@ -49,6 +49,13 @@ SSDEEP | `3072:tRS0ENnKKphw6s4RTQcWl4K9rpW6Hr76s5TuiAyD4Ugqo4iHMK:fS08nRccMx9r1H
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-24DFD1EFE2837C760511CE773DF3E9CA.md) | 47
+[C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 46
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

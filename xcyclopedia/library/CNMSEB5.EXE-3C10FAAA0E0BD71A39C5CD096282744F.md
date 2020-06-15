@@ -49,6 +49,12 @@ SSDEEP | `384:lgZukZ110kHwpXOr3xTK9xwY+kGq7wOcYJLcfaFeMS:lgZb1K+kXOLpewY+kGq7wOR
 * Language: English (United States)
 * Legal Copyright: Copyright CANON INC. 2000-2012 All Rights Reserved
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\mp230p6.inf_amd64_2ac7fe20edbb4402\CNMSE.EXE](CNMSE.EXE-3C10FAAA0E0BD71A39C5CD096282744F.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

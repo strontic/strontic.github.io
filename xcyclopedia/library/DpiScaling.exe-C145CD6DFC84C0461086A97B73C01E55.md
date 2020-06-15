@@ -49,6 +49,14 @@ explorer.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DpiScaling.exe](DpiScaling.exe-A66987E89D00E4F8DDD5A8D0636155B2.md) | 86
+[C:\Windows\system32\DpiScaling.exe](DpiScaling.exe-C1E219912D2237CB6661F7DAF20CC4DD.md) | 93
+[C:\WINDOWS\SysWOW64\DpiScaling.exe](DpiScaling.exe-7026425923C319D7DFC096ADF5D1AF40.md) | 88
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

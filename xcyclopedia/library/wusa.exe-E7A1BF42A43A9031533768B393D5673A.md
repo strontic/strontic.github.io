@@ -49,6 +49,14 @@ SSDEEP | `6144:vUpf+bIZfL49UoCczcuMHxM4w+LpxyN90vE:vUpGb+qURGMHxMSby90`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\wusa.exe](wusa.exe-7E8AE39BE13B6F0A7CAD480B7148123F.md) | 41
+[C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 41
+[C:\WINDOWS\SysWOW64\wusa.exe](wusa.exe-C46BE74BD433DD95952142967E3F1F9A.md) | 33
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

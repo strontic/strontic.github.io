@@ -49,6 +49,14 @@ SSDEEP | `1536:X7VGruFMeu0OUZirGQxPF3J00l3uU1HIED1fCbWpygzUA:rVGruFi0weSJj16bEL`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\dpapimig.exe](dpapimig.exe-18B5EEFA97438CA873227949C09336E9.md) | 61
+[C:\Windows\system32\dpapimig.exe](dpapimig.exe-DD32F3C19410E4E7974DBB33229CBD7F.md) | 66
+[C:\WINDOWS\SysWOW64\dpapimig.exe](dpapimig.exe-DC226BFBD23D608E6D89372D8CA870E9.md) | 65
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

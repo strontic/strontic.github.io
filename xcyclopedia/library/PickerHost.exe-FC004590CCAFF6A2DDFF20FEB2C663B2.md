@@ -49,6 +49,13 @@ SSDEEP | `1536:n0Gx+HrLi98S9O9XmwUWi0OwmDJrePojhg2zbEZOxg99+NtAxTjpP1u:b+LL3g0XX
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\ComputerDefaults.exe](ComputerDefaults.exe-455CCBB47F4BEF02A9E0034859CE59E2.md) | 25
+[C:\WINDOWS\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-C88891AC9FBC632FAC0ECB4D484D5798.md) | 25
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

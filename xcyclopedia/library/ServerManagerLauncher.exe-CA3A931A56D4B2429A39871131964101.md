@@ -49,6 +49,13 @@ SSDEEP | `1536:q0KilEIexVQW0wg5qawCJr8cG5iamb0e9BZUhlOo+vi6Uf:qz1VQWVEq5CJr8x3mb
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-28317A51B8F874BCF5220872269FEC2C.md) | 30
+[C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-E0861FA9E0A4B441C6A11405D12D0C30.md) | 41
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

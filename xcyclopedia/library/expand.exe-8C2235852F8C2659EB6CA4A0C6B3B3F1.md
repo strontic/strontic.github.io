@@ -69,10 +69,17 @@ EXPAND Source.cab -F:Files Destination
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-A8855829CCBC9B6C31DCD82D9DE8855A.md) | 33
+[C:\WINDOWS\SysWOW64\tzutil.exe](tzutil.exe-A5E9EDD84FDA5F13CBE1AE635E1E3B14.md) | 30
+
 
 ## Additional Info*
 
-**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs) by [Microsoft](https://opensource.microsoft.com/codeofconduct/), available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Some links modified.*
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 

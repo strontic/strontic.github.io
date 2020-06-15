@@ -49,6 +49,12 @@ SSDEEP | `3072:nAcJVIZen+Vcv2JBwwRBkBnRePnjp+z7zq2xk8RvoXD/Aq57Gi9yFmNEdnef4l2N:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\verifiergui.exe](verifiergui.exe-4DC139CE2F54F89EF5876272DC590D3C.md) | 40
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

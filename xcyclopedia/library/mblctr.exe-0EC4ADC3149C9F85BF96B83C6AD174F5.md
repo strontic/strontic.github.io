@@ -49,6 +49,12 @@ SSDEEP | `12288:TGkJjCh6BMZLpgdc5geSMO4nu451qviizQBODAKylkm5ZUxXrc5Zh5ZG5Ze:TjMZ
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\mblctr.exe](mblctr.exe-4E49EEB5BAE4BDB35A7C3F1C853DD76D.md) | 63
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

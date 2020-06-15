@@ -49,6 +49,12 @@ SSDEEP | `3072:nQ7FmBt0fSoD79hILhpVVrujzKdu5ommZPEAkp8:imBt0fSoD79hOLazAZ`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.md) | 54
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -50,6 +50,13 @@ Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 29
+[C:\WINDOWS\SysWOW64\TsWpfWrp.exe](TsWpfWrp.exe-29080A899EACB7AC730A681B515A86EF.md) | 75
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

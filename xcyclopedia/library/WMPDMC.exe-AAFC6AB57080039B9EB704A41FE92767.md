@@ -49,6 +49,13 @@ SSDEEP | `24576:rJlY3691YO3FM3o3hdXXf2arvfWWuvMxlBJVpW5HVJZh/u:rJW369uaFM43hd/2a
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\WMPDMC.exe](WMPDMC.exe-19A773D8F38B3778AB676378214632C2.md) | 30
+[C:\Windows\SysWOW64\WMPDMC.exe](WMPDMC.exe-9415AD42E4221206DE129FD1F62A23D4.md) | 30
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

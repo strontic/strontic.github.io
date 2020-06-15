@@ -49,6 +49,12 @@ SSDEEP | `49152:mOpNQ6QTvumPeAGU1FVA7PsYmq1dKwdfU2bECbe:9NDF1DFE/`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WinSAT.exe](WinSAT.exe-6654FC269DF21AA165842E479678A94B.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,22 @@ Gfxv4_0.exe
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DPTopologyApp.exe](DPTopologyApp.exe-4BBF74559712524F4B3538B8F28E4634.md) | 43
+[C:\WINDOWS\system32\DPTopologyAppv2_0.exe](DPTopologyAppv2_0.exe-301AF8489E368687BFD231D80AFB0625.md) | 36
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\DPTopologyApp.exe](DPTopologyApp.exe-7A1C2EF43CC4696FE295525630AB2F56.md) | 33
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\DPTopologyAppv2_0.exe](DPTopologyAppv2_0.exe-9D5A50F61F6009E9B028E0EFFB947197.md) | 38
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\Gfxv2_0.exe](Gfxv2_0.exe-FB842B6C461EAC8A300B206C90D8D5B6.md) | 33
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\Gfxv4_0.exe](Gfxv4_0.exe-CAD2033F0AC69854E239C9A08341878C.md) | 27
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxTray.exe](igfxTray.exe-94CE60E4864942F14D34BE93FD8FE80B.md) | 41
+[C:\WINDOWS\system32\GfxUIEx.exe](GfxUIEx.exe-F4B0CC2D2A1A48CA82EA949FFCB4F93B.md) | 55
+[C:\WINDOWS\system32\Gfxv2_0.exe](Gfxv2_0.exe-EDC9BFD1835DEDDC938C1D20951E241D.md) | 29
+[C:\WINDOWS\system32\Gfxv4_0.exe](Gfxv4_0.exe-D559A25253EE0988DE4C90F57AF83C6F.md) | 33
+[C:\WINDOWS\system32\igfxTray.exe](igfxTray.exe-7B5147E66B50A838C77345CF6D3065DC.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

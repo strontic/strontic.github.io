@@ -61,6 +61,12 @@ conhost.exe
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\nmbind.exe](nmbind.exe-4F9F573505E8E050D3194B282824BE27.md) | 40
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,13 @@ SSDEEP | `1536:69JOfSp8Lfaf4dryTxaMhHr9BzZXrPciii5X+ADu4/ALncnxjNqcG5yObq:oJOfSp
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\IME\IMETC\IMTCLNWZ.EXE](IMTCLNWZ.EXE-29F4933D7C3B572A653DDC628FBDA485.md) | 36
+[C:\Windows\SysWOW64\IME\IMETC\IMTCLNWZ.EXE](IMTCLNWZ.EXE-433BDECA0C6C645DB6DEAD1FD50735E8.md) | 36
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

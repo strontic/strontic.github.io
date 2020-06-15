@@ -49,6 +49,12 @@ SSDEEP | `12288:63D3ZogZlBIKmwTUHT3cqoilZzCiAvXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:KJJZ
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\HelpPane.exe](HelpPane.exe-67094590E3D57130C587CD6D8AFB6597.md) | 58
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

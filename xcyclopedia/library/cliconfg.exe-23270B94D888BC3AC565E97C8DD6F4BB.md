@@ -49,6 +49,14 @@ SSDEEP | `384:TLbyf4WRmiKCkPCRDCDxPThhWFwWGPXuNvBQAMYJQ2JQSkdowyo:fbynRmPzQEuI30
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\cliconfg.exe](cliconfg.exe-FF9932C30F72B19E57D9B07F230487E7.md) | 58
+[C:\WINDOWS\SysWOW64\cliconfg.exe](cliconfg.exe-588677B78E8431F7822DB276E75D4DD7.md) | 65
+[C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-8479031B34E1F72E08EB5EC618368822.md) | 63
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

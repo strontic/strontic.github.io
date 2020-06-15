@@ -49,6 +49,12 @@ SSDEEP | `3072:FkjU/mLkLgUPhsASnGsTI2hzQXWENwZp/C01zSHjSmdOtd7C:F8LkLgUPhyTI2hzQ
 * Language: English (United States)
 * Legal Copyright: Copyright (C), Intel Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\difx64.exe](difx64.exe-FFDEFD629AC64F91AA18060C51E3DBF4.md) | 85
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

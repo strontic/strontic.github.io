@@ -49,6 +49,13 @@ wmplayer.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dvdplay.exe](dvdplay.exe-9778532E11E1C71F14659D4F9BDB43A5.md) | 40
+[C:\WINDOWS\SysWOW64\dvdplay.exe](dvdplay.exe-42364CF7A02E3FB931237931A5EF0BD0.md) | 49
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

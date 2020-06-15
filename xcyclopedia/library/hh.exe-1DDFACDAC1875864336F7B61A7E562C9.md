@@ -49,6 +49,14 @@ SSDEEP | `192:zKLI4aXNtrWeydEtcGxCRLoOVR4kBGJ1KDJD/oWcGE:uaTqeOJGxCRUSzA1KDWWcG`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\hh.exe](hh.exe-52AFE6DE5E463B7A08C184B1EB49DD6A.md) | 40
+[C:\WINDOWS\hh.exe](hh.exe-DF73D52FDCE65F90A2E49EFB5248C77C.md) | 43
+[C:\Windows\SysWOW64\hh.exe](hh.exe-7AA22C33D8C35E6F59ADB2D02C8702C7.md) | 49
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

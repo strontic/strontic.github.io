@@ -49,6 +49,12 @@ SSDEEP | `1536:P+a0Kgw4XuTQD4gyB0HN5g5r1qzWO0vmTZB1+hKW/Gzg30:f0K2+T0Kut5g5lAg30
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-E76BBB4FA720040460D84005E90D2585.md) | 43
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

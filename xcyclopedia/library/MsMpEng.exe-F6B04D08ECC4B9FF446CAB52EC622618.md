@@ -49,6 +49,12 @@ SSDEEP | `1536:/w22jtIgAVwgLJnT6BnnDm1CnE/+i3V3KTeqGeKDmVpWUBwDPs:IHJHglnTQDm1mE
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2003.8-0\MsMpEng.exe](MsMpEng.exe-331A9DAB79909E3012F0FBD1BA870757.md) | 82
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

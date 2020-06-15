@@ -49,6 +49,13 @@ SSDEEP | `1536:nnadCUC/KixG5bPc33lj8yC2aj+7KxxL2/m4nVrs6FhnP8Ru:nndL85gFjt1a6W2/
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\MicrosoftEdgeBCHost.exe](MicrosoftEdgeBCHost.exe-0E954887FC791F668CE388F89BC3D6C6.md) | 100
+[C:\WINDOWS\system32\MicrosoftEdgeCP.exe](MicrosoftEdgeCP.exe-0E954887FC791F668CE388F89BC3D6C6.md) | 100
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

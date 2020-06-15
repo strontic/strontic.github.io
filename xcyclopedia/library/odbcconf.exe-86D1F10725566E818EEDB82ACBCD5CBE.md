@@ -49,6 +49,12 @@ SSDEEP | `384:yVrAigT9MLPeRYdggm+EVlCK2tCnnnMreqsOlJvHRp/VeBdpStFVzlYOyvC1yJaG:g
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-B38C108A8DB4B97EA352287BF796A273.md) | 35
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

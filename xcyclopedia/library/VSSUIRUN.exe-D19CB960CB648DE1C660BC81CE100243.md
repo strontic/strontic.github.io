@@ -49,6 +49,12 @@ SSDEEP | `768:+o+ZPJzxnFapcUbMui+0V6Hepo9BE/1n/YIfbXzbkN4dppainbNnnnnnnnnnnnn2:8
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\VSSUIRUN.exe](VSSUIRUN.exe-5BDDD40C274F2D118FBF9CB58DC188AE.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

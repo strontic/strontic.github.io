@@ -49,6 +49,12 @@ SSDEEP | `192:A8FOum/QeY7PN4ABIWtbJc2/1YFYynD4Lt262m4XRWg7ZjHW:AP842tb1/TA4JmrhW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-52CEB4B5FED7DA60485818002E26455E.md) | 40
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

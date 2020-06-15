@@ -49,6 +49,13 @@ SSDEEP | `3072:3sFam0B3VWzOsZO+xjNuIiL3OjONyxDsFEPpLGnAuegPO8evTq2Vl:3kN0BFW/YwJ
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\recdisc.exe](recdisc.exe-DDE26EAF7CE76090F825775D9FC318A7.md) | 50
+[C:\Windows\system32\RelPost.exe](RelPost.exe-932819A3B3ED8CF19348D7B349E7B49A.md) | 44
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

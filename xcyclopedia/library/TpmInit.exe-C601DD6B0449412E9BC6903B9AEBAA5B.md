@@ -49,6 +49,14 @@ SSDEEP | `1536:s6/XFhLJWzBBgQ63Z0NpluGiceY0lA3CJHkxUM:sIFhLot7NpEPYfSFkx1`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\TpmInit.exe](TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F.md) | 47
+[C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 55
+[C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-BD19D000F87EA4CD0DEC6203207E9D03.md) | 46
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

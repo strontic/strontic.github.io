@@ -49,6 +49,13 @@ wordpad.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\write.exe](write.exe-1D27F61CC5D659247D2E0C111C5386DE.md) | 32
+[C:\Windows\SysWOW64\write.exe](write.exe-ED73F0253A4C10F6B7C221FF6E8BD8B4.md) | 47
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

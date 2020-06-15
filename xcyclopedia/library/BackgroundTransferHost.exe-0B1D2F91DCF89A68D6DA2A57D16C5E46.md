@@ -49,6 +49,12 @@ SSDEEP | `384:Nfbx9KcVP+A3ROAK1Py/PxspKqTeB3W0RgWGQE0g7qW2RPT/8rFeZmJhAh:Nfbx99V
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\BackgroundTransferHost.exe](BackgroundTransferHost.exe-2969638F9461553E1F5A7B4EC272F97F.md) | 54
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

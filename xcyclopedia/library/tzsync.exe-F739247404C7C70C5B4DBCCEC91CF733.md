@@ -57,6 +57,8 @@ Unhandled Exception: System.Security.SecurityException: Requested registry acces
 
 
 
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

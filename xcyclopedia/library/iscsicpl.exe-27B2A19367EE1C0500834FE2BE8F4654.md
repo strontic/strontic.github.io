@@ -49,6 +49,12 @@ rundll32.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\iscsicpl.exe](iscsicpl.exe-42D0FA9084EDF93DA5FFEC1CFBF18410.md) | 94
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `12288:Kb1fpCwfIJlwX9VKHcD8pellpco//EH1:Kb93fIJO9VK8ApeCoXEH`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\psr.exe](psr.exe-D1D04E03BE76897B60E4CF5500007CAE.md) | 60
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

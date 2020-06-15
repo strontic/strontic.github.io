@@ -49,6 +49,16 @@ SSDEEP | `768:TDwl5wICn6m2jA4G0In3BhzhWM1GOVz171:vwbwI/jqZ3qOT5`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\hdwwiz.exe](hdwwiz.exe-1127C71A9213CB60B3F8CF26DF9F2988.md) | 60
+[C:\WINDOWS\system32\hdwwiz.exe](hdwwiz.exe-B43E4960582BAAB50CC42141EA782F35.md) | 65
+[C:\WINDOWS\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-C1C61B9A1EBE38489E6873CB60B67266.md) | 52
+[C:\Windows\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-E051296DB680CC2F1F7AD1547394073A.md) | 46
+[C:\Windows\SysWOW64\hdwwiz.exe](hdwwiz.exe-35F1D1DBCEDE7F2385BE75D5CCF75F71.md) | 63
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

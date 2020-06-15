@@ -89,6 +89,18 @@ dw20.exe
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DPTopologyApp.exe](DPTopologyApp.exe-4BBF74559712524F4B3538B8F28E4634.md) | 60
+[C:\WINDOWS\system32\DPTopologyAppv2_0.exe](DPTopologyAppv2_0.exe-301AF8489E368687BFD231D80AFB0625.md) | 60
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\DPTopologyApp.exe](DPTopologyApp.exe-7A1C2EF43CC4696FE295525630AB2F56.md) | 61
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\GfxUIEx.exe](GfxUIEx.exe-9526B0F7E1DD6BFA9784163AA3CDB80E.md) | 38
+[C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxTray.exe](igfxTray.exe-94CE60E4864942F14D34BE93FD8FE80B.md) | 43
+[C:\WINDOWS\system32\GfxUIEx.exe](GfxUIEx.exe-F4B0CC2D2A1A48CA82EA949FFCB4F93B.md) | 32
+[C:\WINDOWS\system32\igfxTray.exe](igfxTray.exe-7B5147E66B50A838C77345CF6D3065DC.md) | 41
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -49,6 +49,12 @@ SSDEEP | `384:VoYmzGe47482PWACGisc9ywU+eiF+PBYf/+hZJ1I6S2f10UglLUGcg8ZjUWfuW:eYJ
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\proquota.exe](proquota.exe-A7A8990035457CE44E9565363A872784.md) | 27
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

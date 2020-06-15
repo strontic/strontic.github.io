@@ -49,6 +49,12 @@ SSDEEP | `6144:OsSOzpPId26dQcEaUrPvwgwkRVagRoDHTj8K1sqI6VLp4XOigSbduP/1HHm/hHAl:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\dpinst.exe](dpinst.exe-E7853F12668A54D92899D56791C45BF5.md) | 97
+
 
 
 MIT License. Copyright (c) 2020 Strontic.
