@@ -62,14 +62,13 @@ Type SUBST with no parameters to display a list of current virtual drives.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# subst
+## subst
 
 
 
@@ -77,14 +76,14 @@ Associates a path with a drive letter. If used without parameters, **subst** dis
 
 
 
-## Syntax
+### Syntax
 
 ```
 subst [<Drive1>: [<Drive2>:]<Path>] 
 subst <Drive1>: /d
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -93,7 +92,7 @@ subst <Drive1>: /d
 |/d|Deletes a substituted (virtual) drive.|
 |/?|Displays help at the command prompt.|
 
-## Remarks
+### Remarks
 
 -   The following commands do not work and should not be used on drives that are specified in the **subst** command:
 
@@ -112,7 +111,7 @@ subst <Drive1>: /d
 
     `Invalid parameter - drive1:`
 
-## <a name="BKMK_examples"></a>Examples
+### <a name="BKMK_examples"></a>Examples
 
 To create a virtual drive Z for the path B:\User\Betty\Forms, type:
 ```
@@ -123,11 +122,12 @@ Instead of typing the full path, you can reach this directory by typing the lett
 z: 
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

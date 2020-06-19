@@ -66,19 +66,19 @@ File | Score
 
 ---
 
-# fondue
+## fondue
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Enables Windows optional features by downloading required files from Windows Update or another source specified by Group Policy. The manifest file for the feature must already be installed in your Windows image.
 
-## Syntax
+### Syntax
 
 ```
 fondue.exe /enable-feature:<feature_name> [/caller-name:<program_name>] [/hide-ux:{all | rebootrequest}]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -86,7 +86,7 @@ fondue.exe /enable-feature:<feature_name> [/caller-name:<program_name>] [/hide-u
 | /caller-name:`<program_name>` | Specifies the program or process name when you call fondue.exe from a script or batch file. You can use this option to add the program name to the SQM report if there is an error. |
 | /hide-ux:`{all | rebootrequest}` | Use **all** to hide all messages to the user including progress and permission requests to access Windows Update. If permission is required, the operation will fail.<p>Use **rebootrequest** to only hide user messages asking for permission to reboot the computer. Use this option if you have a script that controls reboot requests. |
 
-### Examples
+#### Examples
 
 To enable Microsoft .NET Framework 4.8, type:
 
@@ -100,13 +100,14 @@ To enable Microsoft .NET Framework 4.8, add the program name to the SQM report, 
 fondue.exe /enable-feature:NETFX4 /caller-name:Admin.bat /hide-ux:all
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 - [Microsoft .NET Framework 4.8 Download](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

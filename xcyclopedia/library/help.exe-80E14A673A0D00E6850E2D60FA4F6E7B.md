@@ -56,32 +56,31 @@ HELP [command]
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# help
+## help
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Displays a list of the available commands or detailed help information on a specified command. If used without parameters, **help** lists and briefly describes every system command.
 
-## Syntax
+### Syntax
 
 ```
 help [<command>]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | `<command>` | Specifies the command for which to display detailed help information. |
 
-### Examples
+#### Examples
 
 To view information about the **robocopy** command, type:
 
@@ -101,11 +100,12 @@ To display detailed help information about how to use the **create partition pri
 help create partition primary
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

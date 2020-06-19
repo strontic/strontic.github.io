@@ -98,13 +98,12 @@ conhost.exe
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# chkdsk
+## chkdsk
 
 Checks the file system and file system metadata of a volume for logical and physical errors. If used without parameters, **chkdsk** displays only the status of the volume and does not fix any errors. If used with the **/f**, **/r**, **/x**, or **/b** parameters, it fixes errors on the volume.
 
@@ -117,13 +116,13 @@ Checks the file system and file system metadata of a volume for logical and phys
 > [!NOTE]
 > Chkdsk can be used only for local disks. The command cannot be used with a local drive letter that has been redirected over the network.
 
-## Syntax
+### Syntax
 
 ```
 chkdsk [<volume>[[<path>]<filename>]] [/f] [/v] [/r] [/x] [/i] [/c] [/l[:<size>]] [/b]  
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -147,7 +146,7 @@ chkdsk [<volume>[[<path>]<filename>]] [/f] [/v] [/r] [/x] [/i] [/c] [/l[:<size>]
 | /markclean | Use with FAT/FAT32/exFAT only. Marks the volume clean if no corruption was detected, even if **/f** was not specified. |
 | /? | Displays help at the command prompt. |
 
-## Remarks
+### Remarks
 
 - The **/i** or **/c** switch reduces the amount of time required to run **chkdsk** by skipping certain volume checks.
 
@@ -190,7 +189,7 @@ chkdsk [<volume>[[<path>]<filename>]] [/f] [/v] [/r] [/x] [/i] [/c] [/l[:<size>]
 
 - On servers that are infrequently restarted, you may want to use the **chkntfs** or the `fsutil dirty query` commands to determine whether the volume's dirty bit is already set before running chkdsk.
 
-### Understanding exit codes
+#### Understanding exit codes
 
 The following table lists the exit codes that **chkdsk** reports after it has finished.  
 
@@ -201,7 +200,7 @@ The following table lists the exit codes that **chkdsk** reports after it has fi
   | 2 | Performed disk cleanup (such as garbage collection) or did not perform cleanup because **/f** was not specified. |
   | 3 | Could not check the disk, errors could not be fixed, or errors were not fixed because **/f** was not specified. |
 
-## Examples
+### Examples
 
 To check the disk in drive D and have Windows fix errors, type:
 
@@ -219,11 +218,12 @@ chkdsk *.*
 
 **Chkdsk** displays a status report, and then lists the files that match the file specifications that have noncontiguous blocks.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

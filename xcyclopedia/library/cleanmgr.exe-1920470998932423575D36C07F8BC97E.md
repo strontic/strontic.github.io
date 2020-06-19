@@ -51,26 +51,25 @@ SSDEEP | `1536:aLUWncoHKY6FQ9rk8s4bifEX5wgLfD4yvZ5M:SrJHsFci8X5lv4yxy`
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# cleanmgr
+## cleanmgr
 
 > Applies to: Windows Server 2019, Windows Server 2016, Windows Server 2012, Windows Server 2008 R2, Windows Server (Semi-Annual Channel)
 
 Clears unnecessary files from your computer's hard disk. You can use command-line options to specify that **Cleanmgr** cleans up Temp files, Internet files, downloaded files, and Recycle Bin files. You can then schedule the task to run at a specific time by using the **Scheduled Tasks** tool.
 
-## Syntax
+### Syntax
 
 ```
 cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/VERYLOWDISK]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -82,7 +81,7 @@ cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/
 | /verylowdisk | Run with the default settings, no user prompts. |
 | /? | Displays help at the command prompt. |
 
-#### Options
+##### Options
 
 The options for the files that you can specify for Disk Cleanup by using **/sageset** and **/sagerun** include:
 
@@ -109,7 +108,7 @@ The options for the files that you can specify for Disk Cleanup by using **/sage
 >[!NOTE]
 > If you specify cleaning up the drive that contains the Windows installation, all of these options are available on the **Disk Cleanup** tab. If you specify any other drive, only the Recycle Bin and the Catalog files for content index options are available on the **Disk Cleanup** tab.
 
-## Examples
+### Examples
 
 To run the Disk Cleanup app so that you can use its dialog box to specify options for use later, saving the settings to the set **1**, type the following:
 
@@ -129,13 +128,14 @@ To run `cleanmgr /sageset:1` and `cleanmgr /sagerun:1` together, type:
 cleanmgr /tuneup:1
 ```
 
-## Additional References
+### Additional References
 
 - [Free up drive space in Windows 10](https://support.microsoft.com/help/12425/windows-10-free-up-drive-space)
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

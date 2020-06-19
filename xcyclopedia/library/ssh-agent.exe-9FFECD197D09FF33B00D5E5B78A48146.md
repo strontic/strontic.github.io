@@ -58,6 +58,15 @@ File | Score
 [C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 25
 [C:\WINDOWS\system32\OpenSSH\ssh-keyscan.exe](ssh-keyscan.exe-4720A475F697D41705EBEECC9812C718.md) | 40
 
+## Possible Misuse
+
+*The following table contains possible examples of `ssh-agent.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [sshdoor](https://github.com/eset/malware-ioc/blob/master/sshdoor/README.adoc) | `\|`191ab40fd464a5b80b287e848f1a4ad7fcd572ae` \|ssh-agent \|"/usr/share/man/man0/.cache" \|176.9.47.34:28739 \|N/A` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [sshdoor.yar](https://github.com/eset/malware-ioc/blob/master/sshdoor/sshdoor.yar) | `        description = "Signature to match the clean (or not) OpenSSH agent (ssh-agent)"` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

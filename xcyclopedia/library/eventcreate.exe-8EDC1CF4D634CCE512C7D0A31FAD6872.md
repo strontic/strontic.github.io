@@ -103,27 +103,26 @@ Type "EVENTCREATE /?" for usage.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# eventcreate
+## eventcreate
 
 Enables an administrator to create a custom event in a specified event log.
 
 > [!IMPORTANT]
 > Custom events can't be written to the security log.
 
-## Syntax
+### Syntax
 
 ```
 eventcreate [/s <computer> [/u <domain\user> [/p <password>]] {[/l {APPLICATION|SYSTEM}]|[/so <srcname>]} /t {ERROR|WARNING|INFORMATION|SUCCESSAUDIT|FAILUREAUDIT} /id <eventID> /d <description>
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- |------------ |
@@ -137,7 +136,7 @@ eventcreate [/s <computer> [/u <domain\user> [/p <password>]] {[/l {APPLICATION|
 | /d `<description>` | Specifies the description to use for the newly created event. |
 | /? | Displays help at the command prompt. |
 
-### Examples
+#### Examples
 
 The following examples show how you can use the **eventcreate** command:
 
@@ -151,11 +150,12 @@ eventcreate /s server1 /s server2 /u user /p password /id 100 /t error /so winmg
 eventcreate /s server /u user /id 100 /t warning /so winmgmt /d Remote machine with partial user credentials
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

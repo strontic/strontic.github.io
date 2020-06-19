@@ -51,21 +51,20 @@ SSDEEP | `12288:osZ19HD/SOPWw0VobebjHdpdSznOnI3/kgYXKyytr:osb9DSqWLVGeHXd4gysVyh
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# autofmt
+## autofmt
 
 Starts the Auto File System Format Utility, which formats a drive or partition when called from the Windows Recovery Console.
 
 > [!IMPORTANT]
 > You cannot run **autofmt** directly from the command-line.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -74,6 +73,7 @@ Starts the Auto File System Format Utility, which formats a drive or partition w
 - [How to use Windows Recovery Environment (WinRE) to troubleshoot common startup issues](https://support.microsoft.com/help/4026030/how-to-use-windows-recovery-environment-winre-to-troubleshoot-common-s)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

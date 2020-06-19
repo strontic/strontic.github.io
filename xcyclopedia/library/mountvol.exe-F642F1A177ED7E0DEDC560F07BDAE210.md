@@ -95,18 +95,17 @@ Possible values for VolumeName along with current mount points are:
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# mountvol
+## mountvol
 
 Creates, deletes, or lists a volume mount point. You can also link volumes without requiring a drive letter.
 
-## Syntax
+### Syntax
 
 ```
 mountvol [<drive>:]<path volumename>
@@ -118,7 +117,7 @@ mountvol [/n|/e]
 mountvol <drive>: /s
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -133,7 +132,7 @@ mountvol <drive>: /s
 | /s | Mounts the EFI system partition on the specified drive. |
 | /? | Displays help at the command prompt. |
 
-## Remarks
+### Remarks
 
 - If you dismount your volume while using the **/p** parameter, the volume list will show the volume as not mounted until a volume mount point is created.
 
@@ -141,7 +140,7 @@ mountvol <drive>: /s
 
 - If you need to expand your volume space without reformatting or replacing a hard drive, you can add a mount path to another volume. The benefit of using one volume with several mount paths is that you can access all local volumes by using a single drive letter (such as `C:`). You don't need to remember which volume corresponds to which drive letterâ€”although you can still mount local volumes and assign them drive letters.
 
-## Examples
+### Examples
 
 To create a mount point, type:
 
@@ -149,11 +148,12 @@ To create a mount point, type:
 mountvol \sysmount \\?\volume\{2eca078d-5cbc-43d3-aff8-7e8511f60d0e}\
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

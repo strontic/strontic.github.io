@@ -97,18 +97,17 @@ Examples:
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# typeperf
+## typeperf
 
 The **typeperf** command writes performance data to the command window or to a log file. To stop **typeperf**, press CTRL+C.
 
-## Syntax
+### Syntax
 
 ```
 typeperf <counter [counter ...]> [options]
@@ -117,7 +116,7 @@ typeperf -q [object] [options]
 typeperf -qx [object] [options]
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -126,7 +125,7 @@ typeperf -qx [object] [options]
 > [!NOTE]
 > **\<counter>** is the full name of a performance counter in *\\\\Computer\Object(Instance)\Counter* format, such as **\\\\Server1\Processor(0)\% User Time**.
 
-## Options
+### Options
 
 |                   Option                   |                                                         Description                                                          |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -142,7 +141,7 @@ typeperf -qx [object] [options]
 |            -s \<computer_name>             |                   Specifies a remote computer to monitor if no computer is specified in the counter path.                    |
 |                     -y                     |                                        Answer yes to all questions without prompting.                                        |
 
-## Examples
+### Examples
 
 - To writes the values for the local computer's performance counter **\\\\Processor(_Total)\% Processor Time** to the command window at a default sample interval of 1 second until CTRL+C is pressed.  
   ```
@@ -158,6 +157,7 @@ typeperf -qx [object] [options]
   ```
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

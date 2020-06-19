@@ -68,13 +68,12 @@ OPTIONS
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# rdpsign
+## rdpsign
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -84,12 +83,12 @@ Enables you to digitally sign a Remote Desktop Protocol (.rdp) file.
 > [!NOTE]
 > In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](https://technet.microsoft.com/library/hh831527) in the Windows Server TechNet Library.
 
-## Syntax
+### Syntax
 ```
 rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |-------|--------|
@@ -100,7 +99,7 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 |/l|Tests the signing and output results without actually replacing any of the input files.|
 |/?|Displays help at the command prompt.|
 
-## Remarks
+### Remarks
 -   The SHA1 or SHA256 certificate thumbprint should represent a trusted .rdp file publisher. To obtain the certificate thumbprint, open the Certificates snap-in, double-click the certificate that you want to use (either in the local computer's certificates store or in your personal certificates store), click the **details** tab, and then in the **Field** list, click **Thumbprint**.
 
     > [!NOTE]
@@ -110,7 +109,7 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 -   The signed output files will overwrite the input files.
 -   if any of the .rdp files cannot be read or written to, the tool will continue to the next file if multiple files are specified.
 
-## <a name="BKMK_examples"></a>Examples
+### <a name="BKMK_examples"></a>Examples
 - To sign an .rdp file that is named File1.rdp, navigate to the folder where you saved the .rdp file, and then type the following:
   ```
   rdpsign /sha1 hash file1.rdp
@@ -130,6 +129,7 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
   [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

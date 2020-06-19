@@ -72,13 +72,12 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# tsdiscon
+## tsdiscon
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -89,12 +88,12 @@ Disconnects a session from a Remote Desktop Session Host server.
 > [!NOTE]
 > In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](https://technet.microsoft.com/library/hh831527) in the Windows Server TechNet Library.
 
-## Syntax
+### Syntax
 ```
 tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |-------|--------|
@@ -104,14 +103,14 @@ tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
 |/v|Displays information about the actions being performed.|
 |/?|Displays help at the command prompt.|
 
-## Remarks
+### Remarks
 -   You must have Full Control permission or Disconnect special access permission to disconnect another user from a session.
 -   if no session ID or session name is specified, **tsdiscon** disconnects the current session.
 -   Any applications that were running when you disconnected the session are automatically running when you reconnect to that session with no loss of data. Use **reset session** to end the running applications of the disconnected session, but be aware that this might result in loss of data at the session.
 -   The **/server** parameter is required only if you use **tsdiscon** from a remote server.
 -   The console session cannot be disconnected.
 
-## Examples
+### Examples
 - To disconnect the current session, type:
   ```
   tsdiscon
@@ -129,6 +128,7 @@ tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
   [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

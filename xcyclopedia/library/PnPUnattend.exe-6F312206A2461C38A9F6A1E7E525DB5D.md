@@ -61,24 +61,23 @@ USAGE:
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# pnpunattend
+## pnpunattend
 
 Audits a computer for device drivers, and perform unattended driver installations, or search for drivers without installing and, optionally, report the results to the command line. Use this command to specify the installation of specific drivers for specific hardware devices. See Remarks.
 
-## Syntax
+### Syntax
 
 ```
 PnPUnattend.exe auditSystem [/help] [/?] [/h] [/s] [/L]
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -87,7 +86,7 @@ PnPUnattend.exe auditSystem [/help] [/?] [/h] [/s] [/L]
 |/L|Optional. Specifies to display the log information for this command in the command prompt.|
 |/?|Optional. Displays help for this command at the command prompt.|
 
-## Remarks
+### Remarks
 
 Preliminary preparation is required. Prior to using this command, you must complete the following tasks:
 
@@ -98,7 +97,7 @@ Preliminary preparation is required. Prior to using this command, you must compl
 5. For WindowsÂ® 7 navigate the registry path: **HKEY_LOCAL_Machine\Software\Microsoft\Windows NT\CurrentVersion\\**, and then create the keys: **UnattendSettings\PnPUnattend\DriverPaths\\**
 6. For Windows Vista, navigate to the registry path: **HK_LM\Software\Microsoft\Windows NT\CurrentVersion\\**, and then create the keys = **\UnattendSettings\PnPUnattend\DriverPaths**.
 
-## Examples
+### Examples
 
 To command shows how to use the **PNPUnattend.exe** to audit a computer for possible driver updates, and then report the findings to the command prompt.
 
@@ -106,11 +105,12 @@ To command shows how to use the **PNPUnattend.exe** to audit a computer for poss
 pnpunattend auditsystem /s /l
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

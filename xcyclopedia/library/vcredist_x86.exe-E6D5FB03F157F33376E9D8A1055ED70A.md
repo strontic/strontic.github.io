@@ -55,6 +55,14 @@ File | Score
 -- | --
 [C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\vcredist_x64.exe](vcredist_x64.exe-B990C5A1F5495DB1C8CA0447A63223D8.md) | 74
 
+## Possible Misuse
+
+*The following table contains possible examples of `vcredist_x86.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1095.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1095/T1095.md) |   Start-Process (Join-Path $unzipPath "vcredist_x86.exe") | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -50,6 +50,13 @@ SSDEEP | `3072:JKdm6VH3+Q6zaesz1SCCTOphtYAHIG0xR4TBfHnIjZqMNxWDAhT:J6mgh6BszOTO3
 * Legal Copyright: Copyright  2018
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `javaw.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_mal_adwind.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mal_adwind.yml) | `description: Detects javaw.exe in AppData folder as used by Adwind / JRAT` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

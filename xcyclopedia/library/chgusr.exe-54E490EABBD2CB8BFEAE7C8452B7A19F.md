@@ -68,13 +68,12 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# chgusr
+## chgusr
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -83,7 +82,7 @@ Changes the install mode for the Remote Desktop Session Host server.
 > [!NOTE]
 > This command has been replaced by the **change user command**. For more information, including the syntax and parameter details, see [change user command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/change-user.md).
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -92,6 +91,7 @@ Changes the install mode for the Remote Desktop Session Host server.
 - [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

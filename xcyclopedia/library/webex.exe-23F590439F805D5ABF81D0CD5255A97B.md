@@ -55,6 +55,14 @@ File | Score
 -- | --
 [C:\ProgramData\WebEx\ciscowebexstart.exe](ciscowebexstart.exe-23F590439F805D5ABF81D0CD5255A97B.md) | 100
 
+## Possible Misuse
+
+*The following table contains possible examples of `webex.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_prog_location_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_prog_location_network_connection.yml) | `            # - '*\ProgramData\\*'  # too many false positives, e.g. with Webex for Windows` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

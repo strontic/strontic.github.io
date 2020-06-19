@@ -216,18 +216,29 @@ SSDEEP | `3072:ajpskxediYR4xFCKYRFXntbFgIZfcRbksA+:YpLU9Jg5Rbk`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `Robocopy.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `            - robocopy.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\robocopy.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `Name: Robocopy.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `  - Command: Robocopy.exe C:\SourceFolder C:\DestFolder` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `  - Command: Robocopy.exe \\SERVER\SourceFolder C:\DestFolder` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `  - https://social.technet.microsoft.com/wiki/contents/articles/1073.robocopy-and-a-few-examples.aspx` | 
 
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# robocopy
+## robocopy
 
 Copies file data.
 
-## Syntax
+### Syntax
 
 ```
 robocopy <Source> <Destination> [<File>[ ...]] [<Options>]
@@ -239,7 +250,7 @@ For example, to copy a file named *yearly-report.mov* from c:\reports to a file 
 robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 ```
 
-### Parameters
+#### Parameters
 
 |   Parameter    |                                                                                            Description                                                                                           |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -248,7 +259,7 @@ robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 |    \<File>     | Specifies the file or files to be copied. You can use wildcard characters (**&#42;** or **?**), if you want. If the **File** parameter is not specified, **\*.\*** is used as the default value. |
 |   \<Options>   |                                                                    Specifies options to be used with the **robocopy** command.                                                                   |
 
-### Copy options
+#### Copy options
 
 |Option|Description|
 |------|-----------|
@@ -291,7 +302,7 @@ robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 >- **/COPY:U**
 >- **/SEC**
 
-### File selection options
+#### File selection options
 
 |Option|Description|
 |------|-----------|
@@ -320,7 +331,7 @@ robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 |/xjd|Excludes junction points for directories.|
 |/xjf|Excludes junction points for files.|
 
-### Retry options
+#### Retry options
 
 |Option|Description|
 |------|-----------|
@@ -329,7 +340,7 @@ robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 |/reg|Saves the values specified in the **/r** and **/w** options as default settings in the registry.|
 |/tbd|Specifies that the system will wait for share names to be defined (retry error 67).|
 
-### Logging options
+#### Logging options
 
 |Option|Description|
 |------|-----------|
@@ -354,7 +365,7 @@ robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 |/njh|Specifies that there is no job header.|
 |/njs|Specifies that there is no job summary.|
 
-### Job options
+#### Job options
 
 |Option|Description|
 |------|-----------|
@@ -365,7 +376,7 @@ robocopy C:\reports '\\marketing\videos' yearly-report.mov /mt /z
 |/nodd|Indicates that no destination directory is specified.|
 |/if|Includes the specified files.|
 
-### Exit (return) codes
+#### Exit (return) codes
 
 Value | Description
 -- | --
@@ -381,17 +392,18 @@ Value | Description
 > [!NOTE]
 > Any value greater than 8 indicates that there was at least one failure during the copy operation.
 
-### Remarks
+#### Remarks
 
 -   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:  
     -   With the **/e** plus **/purge** options, if the destination directory exists, the destination directory security settings are not overwritten.
     -   With the **/mir** option, if the destination directory exists, the destination directory security settings are overwritten.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

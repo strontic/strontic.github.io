@@ -60,13 +60,12 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# chgport
+## chgport
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -75,7 +74,7 @@ Lists or changes the COM port mappings to be compatible with MS-DOS applications
 > [!NOTE]
 > This command has been replaced by the **change port command**. For more information, including the syntax and parameter details, see [change port command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/change-port.md).
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -84,6 +83,7 @@ Lists or changes the COM port mappings to be compatible with MS-DOS applications
 - [Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

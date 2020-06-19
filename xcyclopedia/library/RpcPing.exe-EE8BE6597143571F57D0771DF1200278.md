@@ -248,20 +248,29 @@ the typical profile.
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `RpcPing.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `Name: Rpcping.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `  - Command: rpcping -s 127.0.0.1 -e 1234 -a privacy -u NTLM` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `  - Path: C:\Windows\System32\rpcping.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `  - Path: C:\Windows\SysWOW64\rpcping.exe` | 
 
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# rpcping
+## rpcping
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Confirms the RPC connectivity between the computer running Microsoft Exchange Server and any of the supported Microsoft Exchange Client workstations on the network. This utility can be used to check if the Microsoft Exchange Server services are responding to RPC requests from the client workstations via the network.
 
-## Syntax
+### Syntax
 ```
 rpcping [/t <protseq>] [/s <server_addr>] [/e <endpoint>
         |/f <interface UUID>[,Majorver]] [/O <Interface Object UUID]
@@ -275,7 +284,7 @@ rpcping [/t <protseq>] [/s <server_addr>] [/e <endpoint>
         [/r <report_results_interval>] [/v <verbose_level>] [/d]
 ```
 
-#### Parameters
+##### Parameters
 
 |            Parameter             |                                                                                                                                                                                                                                                                                                                                               Description                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -311,16 +320,17 @@ rpcping [/t <protseq>] [/s <server_addr>] [/e <endpoint>
 |                /p                |                                                                                                                                                                                                                                                                                                                      Specifies to prompt for credentials if authentication fails.                                                                                                                                                                                                                                                                                                                       |
 |                /?                |                                                                                                                                                                                                                                                                                                                                  Displays help at the command prompt.                                                                                                                                                                                                                                                                                                                                   |
 
-## Examples
+### Examples
 To find out if your Exchange server that you connect through RPC/HTTP is accessible, type:
 ```
 rpcping /t ncacn_http /s exchange_server /o RpcProxy=front_end_proxy /P username,domain,* /H Basic /u NTLM /a connect /F 3
 ```
 
-## Additional References
+### Additional References
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

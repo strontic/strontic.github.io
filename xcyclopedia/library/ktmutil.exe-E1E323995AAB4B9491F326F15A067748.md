@@ -56,18 +56,17 @@ tm     Commands related to transaction managers
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# ktmutil
+## ktmutil
 
 Starts the Kernel Transaction Manager utility. If used without parameters, **ktmutil** displays available subcommands.
 
-## Syntax
+### Syntax
 
 ```
 ktmutil list tms
@@ -80,7 +79,7 @@ ktmutil force rollback {GUID}
 ktmutil forget
 ```
 
-## Examples
+### Examples
 
 
 To force an Indoubt transaction with GUID 311a9209-03f4-11dc-918f-00188b8f707b to commit, type:
@@ -89,11 +88,12 @@ To force an Indoubt transaction with GUID 311a9209-03f4-11dc-918f-00188b8f707b t
 ktmutil force commit {311a9209-03f4-11dc-918f-00188b8f707b}
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -50,7 +50,14 @@ SSDEEP | `24576:zRBg2mPBlKQaJaunUDUvE0MBa2o4VWtrAt0YA0iRiYq/Byhkp:zu/a8unUDUvE0M
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `autochk.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_raw_disk_access_using_illegitimate_tools.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_raw_disk_access_using_illegitimate_tools.yml) | `            - '\autochk.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1547.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md) | By default, the multistring <code>BootExecute</code> value of the registry key <code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager</code> is set to <code>autocheck autochk *</code>. This value causes Windows, at startup, to check the file-system integrity of the hard disks if the system has been shut down abnormally. Adversaries can add other programs or processes to this registry value which will automatically launch at boot. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 
@@ -58,7 +65,7 @@ SSDEEP | `24576:zRBg2mPBlKQaJaunUDUvE0MBa2o4VWtrAt0YA0iRiYq/Byhkp:zu/a8unUDUvE0M
 
 ---
 
-# autochk
+## autochk
 
 Runs when the computer is started and prior to Windows Server starting to verify the logical integrity of a file system.
 
@@ -70,7 +77,7 @@ Runs when the computer is started and prior to Windows Server starting to verify
 
 - If the volume is flagged as dirty.
 
-## Remarks
+### Remarks
 
 > [!WARNING]
 > The **autochk** command-line tool cannot be directly run from the command-line. Instead, use the **chkntfs** command-line tool to configure the way you want **autochk** to run at startup.
@@ -79,7 +86,7 @@ Runs when the computer is started and prior to Windows Server starting to verify
 >
 > - Use the **chkntfs.exe** command-line tool with the **/t** parameter to change the autochk delay from 0 seconds to up to 3 days (259,200 seconds). However, a long delay means that the computer does not start until the time elapses or until you press a key to cancel **autochk**.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -88,6 +95,7 @@ Runs when the computer is started and prior to Windows Server starting to verify
 - [chkntfs command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/chkntfs.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

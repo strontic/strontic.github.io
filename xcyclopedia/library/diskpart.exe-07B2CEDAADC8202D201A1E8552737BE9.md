@@ -61,7 +61,15 @@ Microsoft DiskPart syntax:
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `diskpart.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_malware_wannacry.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml) | `            - '*\diskpart.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_malware_wannacry.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml) | `    - Diskpart.exe usage to manage partitions on the local hard drive` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `            - diskpart.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 
@@ -69,7 +77,7 @@ Microsoft DiskPart syntax:
 
 ---
 
-# diskpart
+## diskpart
 
 > Applies to: Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, and Windows Server 2008 R2, Windows Server 2008
 
@@ -77,7 +85,7 @@ The diskpart command interpreter helps you manage your computer's drives (disks,
 
 Before you can use **diskpart** commands, you must first list, and then select an object to give it focus. After an object has focus, any diskpart commands that you type will act on that object.
 
-## List available objects
+### List available objects
 
 You can list the available objects and determine an object's number or drive letter by using:
 
@@ -91,7 +99,7 @@ You can list the available objects and determine an object's number or drive let
 
 After you run the **list** commands, an asterisk (*) appears next to the object with focus.
 
-## Determine focus
+### Determine focus
 
 When you select an object, the focus remains on that object until you select a different object. For example, if the focus is set on disk 0 and you select volume 8 on disk 2, the focus shifts from disk 0 to disk 2, volume 8.
 
@@ -99,7 +107,7 @@ Some commands automatically change the focus. For example, when you create a new
 
 You can only give focus to a partition on the selected disk. After a partition has focus, the related volume (if any) also has focus. After a volume has focus, the related disk and partition also have focus if the volume maps to a single specific partition. If this isn't the case, focus on the disk and partition is lost.
 
-## Syntax
+### Syntax
 
 To start the diskpart command interpreter, at the command prompt type:
 
@@ -110,7 +118,7 @@ diskpart <parameter>
 > [!IMPORTANT]
 > You must be in your local **Administrators** group, or a group with similar permissions, to run diskpart.
 
-### Parameters
+#### Parameters
 
 You can run the following commands from the Diskpart command interpreter:
 
@@ -155,7 +163,7 @@ You can run the following commands from the Diskpart command interpreter:
 | [shrink](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/shrink.md) | Reduces the size of the selected volume by the amount you specify. |
 | [uniqueid](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/uniqueid.md) | Displays or sets the GUID partition table (GPT) identifier or master boot record (MBR) signature for the disk with focus. |
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -164,6 +172,7 @@ You can run the following commands from the Diskpart command interpreter:
 - [Storage Cmdlets in Windows PowerShell](https://docs.microsoft.com/powershell/module/storage/)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

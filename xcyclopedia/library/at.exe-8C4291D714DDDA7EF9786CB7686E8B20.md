@@ -81,7 +81,31 @@ time               Specifies the time when command is to run.
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `at.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [zeek_smb_converted_win_atsvc_task.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek_smb_converted_win_atsvc_task.yml) | `description: Detects remote task creation via at.exe or API interacting with ATSVC namedpipe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_atsvc_task.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_atsvc_task.yml) | `description: Detects remote task creation via at.exe or API interacting with ATSVC namedpipe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_interactive_at.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_interactive_at.yml) | `        Image\|endswith: '\at.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_interactive_at.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_interactive_at.yml) | `    - Unlikely (at.exe deprecated as of Windows 8)` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `            - at.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `Name: At.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `  - Command: C:\Windows\System32\at.exe at 09:00 /interactive /every:m,t,w,th,f,s,su C:\Windows\System32\revshell.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `  - Path: C:\WINDOWS\System32\At.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `  - Path: C:\WINDOWS\SysWOW64\At.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `  - Link: https://www.secureworks.com/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems` | 
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #1: At.exe Scheduled task [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #1: At.exe Scheduled task [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | <blockquote>Adversaries may abuse the <code>at.exe</code> utility to perform task scheduling for initial or recurring execution of malicious code. The [at](https://attack.mitre.org/software/S0110) utility exists as an executable within Windows for scheduling tasks at a specified time and date. Using [at](https://attack.mitre.org/software/S0110) requires that the Task Scheduler service be running, and the user to be logged on as a member of the local Administrators group.  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | An adversary may use <code>at.exe</code> in Windows environments to execute programs at system startup or on a scheduled basis for persistence. [at](https://attack.mitre.org/software/S0110) can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account (such as SYSTEM). | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | Note: The <code>at.exe</code> command line utility has been deprecated in current versions of Windows in favor of <code>schtasks</code>.</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | - [Atomic Test #1 - At.exe Scheduled task](#atomic-test-1---atexe-scheduled-task) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | ## Atomic Test #1 - At.exe Scheduled task | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | Upon successful execution, cmd.exe will spawn at.exe and create a scheduled task that will spawn cmd at a specific time. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.005.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md) | The deprecated [at](https://attack.mitre.org/software/S0110) utility could also be abused by adversaries (ex: [At (Windows)](https://attack.mitre.org/techniques/T1053/002)), though <code>at.exe</code> can not access tasks created with <code>schtasks</code> or the Control Panel. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 
@@ -89,20 +113,20 @@ time               Specifies the time when command is to run.
 
 ---
 
-# at
+## at
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Schedules commands and programs to run on a computer at a specified time and date. You can use **at** only when the Schedule service is running. Used without parameters, **at** lists scheduled commands. You must be a member of the local Administrators group to run this command.
 
-## Syntax
+### Syntax
 
 ```
 at [\computername] [[id] [/delete] | /delete [/yes]]
 at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] <command>
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -118,7 +142,7 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
 | `<command>` | Specifies the Windows command, program (that is, .exe or .com file), or batch program (that is, .bat or .cmd file) that you want to run. When the command requires a path as an argument, use the absolute path (that is, the entire path beginning with the drive letter). If the command is on a remote computer, specify Universal Naming Convention (UNC) notation for the server and share name, rather than a remote drive letter. |
 | /? | Displays help at the command prompt. |
 
-### Remarks
+#### Remarks
 
 - This command doesn't automatically load cmd.exe before running commands. If you're not running an executable (.exe) file, you must explicitly load cmd.exe at the beginning of the command as follows:
 
@@ -196,7 +220,7 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
 
 - You can use the Scheduled Tasks folder to view or modify the settings of a task that was created by using this command. When you schedule a task using this command, the task is listed in the Scheduled Tasks folder, with a name such as the following:**at3478**. However, if you modify a task through the Scheduled Tasks folder, it's upgraded to a normal scheduled task. The task is no longer visible to the **at** command, and the at account setting no longer applies to it. You must explicitly enter a user account and password for the task.
 
-## Examples
+### Examples
 
 To display a list of commands scheduled on the Marketing server, type:
 
@@ -234,13 +258,14 @@ To run a command that is not an executable (.exe) file, precede the command with
 cmd /c dir > c:\test.out
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 - [schtasks](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/schtasks.md). Another command-line scheduling tool.
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

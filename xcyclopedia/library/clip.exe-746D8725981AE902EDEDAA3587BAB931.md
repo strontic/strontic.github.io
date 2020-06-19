@@ -69,25 +69,24 @@ Type "CLIP /?" for usage.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# clip
+## clip
 
 Redirects the command output from the command line to the Windows clipboard. You can use this command to copy data directly into any application that can receive text from the Clipboard. You can also paste this text output into other programs.
 
-## Syntax
+### Syntax
 
 ```
 <command> | clip
 clip < <filename>
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -95,7 +94,7 @@ clip < <filename>
 | `<filename>` | Specifies a file whose contents you want to send to the Windows clipboard. |
 | /? | Displays help at the command prompt. |
 
-## Examples
+### Examples
 
 To copy the current directory listing to the Windows clipboard, type:
 
@@ -115,11 +114,12 @@ To copy the contents of a file called *readme.txt* to the Windows clipboard, typ
 clip < readme.txt
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

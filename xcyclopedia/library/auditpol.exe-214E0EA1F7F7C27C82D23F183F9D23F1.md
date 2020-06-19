@@ -70,14 +70,13 @@ The parameter is incorrect.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# auditpol
+## auditpol
 
 Displays information about and performs functions to manipulate audit policies, including:
 
@@ -95,13 +94,13 @@ Displays information about and performs functions to manipulate audit policies, 
 
 - Configuring global resource SACLs.
 
-## Syntax
+### Syntax
 
 ```
 auditpol command [<sub-command><options>]
 ```
 
-### Parameters
+#### Parameters
 
 | Sub-command | Description |
 | ----------- | ----------- |
@@ -115,11 +114,12 @@ auditpol command [<sub-command><options>]
 | /resourceSACL | Configures global resource system access control lists (SACLs). **Note:** Applies only to Windows 7 and Windows Server 2008 R2. For more information, see [auditpol resourceSACL](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/auditpol-resourcesacl.md). |
 | /?| Displays help at the command prompt. |
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -103,7 +103,13 @@ Value                      Description
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `gpupdate.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\gpupdate.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 
@@ -111,17 +117,17 @@ Value                      Description
 
 ---
 
-# gpupdate
+## gpupdate
 
 Updates Group Policy settings.
 
-## Syntax
+### Syntax
 
 ```
 gpupdate [/target:{computer | user}] [/force] [/wait:<VALUE>] [/logoff] [/boot] [/sync] [/?]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- |------------ |
@@ -133,7 +139,7 @@ gpupdate [/target:{computer | user}] [/force] [/wait:<VALUE>] [/logoff] [/boot] 
 | /sync | Causes the next foreground policy application to be done synchronously. Foreground policy is applied at computer boot and user logon. You can specify this for the user, computer, or both, by using the **/target** parameter. The **/force** and **/wait** parameters are ignored if you specify them. |
 | /? | Displays Help at the command prompt. |
 
-### Examples
+#### Examples
 
 To force a background update of all Group Policy settings, regardless of whether they've changed, type:
 
@@ -141,11 +147,12 @@ To force a background update of all Group Policy settings, regardless of whether
 gpupdate /force
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

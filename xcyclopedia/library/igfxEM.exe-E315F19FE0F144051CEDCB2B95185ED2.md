@@ -50,6 +50,13 @@ SSDEEP | `6144:5V3Ep9l+2RzFemY1TeTSbrA7l1sirHMunVHiujfQ+GB3:5V3y+2RzFnSSl/M6xhnG
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `igfxEM.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`igfxEM.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

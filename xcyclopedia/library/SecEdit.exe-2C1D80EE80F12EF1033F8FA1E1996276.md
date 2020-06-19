@@ -68,13 +68,13 @@ File | Score
 
 ---
 
-# secedit
+## secedit
 
 
 
 Configures and analyzes system security by comparing your current configuration to specified security templates.
 
-## Syntax
+### Syntax
 
 ```
 secedit
@@ -86,7 +86,7 @@ secedit
 [/validate <configuration file name>]
 ```
 
-#### Parameters
+##### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -97,7 +97,7 @@ secedit
 |[Secedit:import](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/secedit-import.md)|Allows you to import a security template into a database so that the settings specified in the template can be applied to a system or analyzed against a system.|
 |[Secedit:validate](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/secedit-validate.md)|Allows you to validate the syntax of a security template.|
 
-## Remarks
+### Remarks
 
 For all filenames, the current directory is used if no path is specified.
 
@@ -114,12 +114,13 @@ When a security template is created using the Security Template snap-in and the 
 > [!NOTE]
 > The Microsoft Management Console (MMC) and the Security Configuration and Analysis snap-in are not available on Server Core.
 
-## Additional References
+### Additional References
 
 For examples of how this command can be used, see the examples section in any of the subcommand files.
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

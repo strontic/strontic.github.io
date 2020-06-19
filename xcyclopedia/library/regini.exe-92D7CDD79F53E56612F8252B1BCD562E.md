@@ -217,19 +217,19 @@ File | Score
 
 ---
 
-# regini
+## regini
 
 Modifies the registry from the command line or a script, and applies changes that were preset in one or more text files. You can create, modify, or delete registry keys, in addition to modifying the permissions on the registry keys.
 
 For details on the format and content of the text script file that Regini.exe uses to make changes to the registry, see [How to change registry values or permissions from a command line or a script](https://support.microsoft.com/help/264584/how-to-change-registry-values-or-permissions-from-a-command-line-or-a).
 
-## Syntax
+### Syntax
 
 ```
 regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputWidth][-b] textFiles...
 ```
 
-#### Parameters
+##### Parameters
 
 |Parameter|Description|
 
@@ -241,18 +241,19 @@ regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputWidth][-b] text
 |-b|Specifies that **Regini.exe** output is backward compatible with previous versions of **Regini.exe**. See the Remarks section for details.|
 |textfiles|Specifies the name of one or more text files that contain registry data. Any number of ANSI or Unicode text files can be listed.|
 
-## Remarks
+### Remarks
 
 The following guidelines apply primarily to the content of the text files that contain registry data that you apply by using **Regini.exe**.
 -   Use the semicolon as an end-of-line comment character. It must be the first non-blank character in a line.
 -   Use the backslash to indicate continuation of a line. The command will ignore all characters from the backslash up to (but not including) the first non-blank character of the next line. If you include more than one space before the backslash, it is replaced by a single space.
 -   Use hard-tab characters to control indentation. This indentation indicates the tree structure of the registry keys; however, these characters are converted to a single space regardless of their position.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

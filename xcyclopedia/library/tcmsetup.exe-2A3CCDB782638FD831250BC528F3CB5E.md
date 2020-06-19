@@ -51,27 +51,26 @@ SSDEEP | `192:3SLkTQErLQ2W5c6H1OePP6mswFVDIdaB9cSrkbWMpBbg6UdHmxCmWGEoW:GkEAd6VO
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# tcmsetup
+## tcmsetup
 
 
 
 Sets up or disables the TAPI client.
 
-## Syntax
+### Syntax
 
 ```
 tcmsetup [/q] [/x] /c <Server1> [<Server2> â€¦] 
 tcmsetup  [/q] /c /d
 ```
 
-#### Parameters
+##### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -83,14 +82,14 @@ tcmsetup  [/q] /c /d
 |/d|Clears the list of remote servers. Disables the TAPI client by preventing it from using the TAPI service providers that are on the remote servers.|
 |/?|Displays help at the command prompt.|
 
-## Remarks
+### Remarks
 
 -   To perform this procedure, you must be a member of the Administrators group on the local computer, or you must have been delegated the appropriate authority. If the computer is joined to a domain, members of the Domain Admins group might be able to perform this procedure. As a security best practice, consider using **Run as** to perform this procedure.
 -   In order for TAPI to function correctly, you must run **tcmsetup** to specify the remote servers that will be used by TAPI clients.
 -   Before a client user can use a phone or line on a TAPI server, the telephony server administrator must assign the user to the phone or line.
 -   The list of telephony servers that is created by this command replaces any existing list of telephony servers available to the client. You cannot use this command to add to the existing list.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -102,6 +101,7 @@ tcmsetup  [/q] /c /d
 
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

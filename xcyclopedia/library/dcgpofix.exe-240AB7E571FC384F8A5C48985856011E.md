@@ -66,27 +66,26 @@ Optional. Use this switch to enable this tool to ignore the schema version of  A
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# dcgpofix
+## dcgpofix
 
 Recreates the default Group Policy Objects (GPOs) for a domain. To get to the Group Policy Management Console (GPMC), you must install Group Policy Management as a feature through Server Manager.
 
 >[!IMPORTANT]
 > As a best practice, you should configure the Default Domain Policy GPO only to manage the default **Account Policies** settings, Password Policy, Account Lockout Policy, and Kerberos Policy. Additionally, you should configure the Default Domain Controllers Policy GPO only to set user rights and audit policies.
 
-## Syntax
+### Syntax
 
 ```
 dcgpofix [/ignoreschema] [/target: {domain | dc | both}] [/?]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -94,7 +93,7 @@ dcgpofix [/ignoreschema] [/target: {domain | dc | both}] [/?]
 | `/target {domain | dc | both` | Specifies whether to target the Default Domain policy, the Default Domain Controllers policy, or both types of policies. |
 | /? | Displays Help at the command prompt. |
 
-## Examples
+### Examples
 
 To manage the default **Account Policies** settings, Password Policy, Account Lockout Policy, and Kerberos Policy, while ignoring the Active Directory schema version, type:
 
@@ -108,11 +107,12 @@ To configure the Default Domain Controllers Policy GPO only to set user rights a
 dcgpofix /ignoreschema /target:dc
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

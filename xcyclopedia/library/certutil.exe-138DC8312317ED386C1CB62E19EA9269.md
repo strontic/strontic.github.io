@@ -170,7 +170,77 @@ CertUtil: -? command completed successfully.
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `certutil.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [godmode_sigma_rule.yml](https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml) | `            - ' -decode '  # Used with certutil` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [godmode_sigma_rule.yml](https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml) | `            - ' /decode '  # Used with certutil ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [proxy_ua_suspicious.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_ua_suspicious.yml) | `        - 'CertUtil URL Agent'  # https://twitter.com/stvemillertime/status/985150675527974912` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `            - certutil.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_renamed_binary.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml) | `            - 'certutil.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_renamed_binary.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml) | `            - '\certutil.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_renamed_binary_highly_relevant.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml) | `            - "certutil.exe"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_renamed_binary_highly_relevant.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml) | `            - '*\certutil.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_shell_spawn_susp_program.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shell_spawn_susp_program.yml) | `            - '*\certutil.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `title: Suspicious Certutil Command` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `description: Detects a suspicious Microsoft certutil execution with sub commands like 'decode' sub command, which is sometimes used to decode malicious code with` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `    the built-in certutil utility` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `    - https://blogs.technet.microsoft.com/pki/2006/11/30/basic-crl-checking-with-certutil/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `    - https://lolbas-project.github.io/lolbas/Binaries/Certutil/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `            - '*certutil* -URL*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `            - '*certutil* /URL*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `            - '*certutil* -ping*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_command.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_command.yml) | `            - '*certutil* /ping*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `title: Certutil Encode` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `description: Detects suspicious a certutil command that used to encode files, which is sometimes used for data exfiltration` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `    - https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `            - certutil -f -encode *` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `            - certutil.exe -f -encode *` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `            - certutil -encode -f *` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_certutil_encode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_certutil_encode.yml) | `            - certutil.exe -encode -f *` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - certutil.exe *-urlcache* http*` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - certutil.exe *-urlcache* ftp*` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*\certutil.exe * -decode *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*\certutil.exe * -decodehex *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*\certutil.exe -ping *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `Name: Certutil.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Command: certutil.exe -urlcache -split -f http://7-zip.org/a/7z1604-x64.exe 7zip.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Command: certutil.exe -verifyctl -f -split http://7-zip.org/a/7z1604-x64.exe 7zip.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Command: certutil.exe -urlcache -split -f https://raw.githubusercontent.com/Moriarty2016/git/master/test.ps1 c:\temp:ttt` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Command: certutil -encode inputFileName encodedOutputFileName` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Command: certutil -decode encodedInputFileName decodedOutputFileName` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Path: C:\Windows\System32\certutil.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - Path: C:\Windows\SysWOW64\certutil.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - IOC: Certutil.exe creating new files on disk` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml) | `  - IOC: Useragent CertUtil URL Agent` | 
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-dukes-operation-ghost-event.json](https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json) | `                                "description": "Adversaries may use [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027) to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware, [Scripting](https://attack.mitre.org/techniques/T1064), [PowerShell](https://attack.mitre.org/techniques/T1086), or by using utilities present on the system.\n\nOne such example is use of [certutil](https://attack.mitre.org/software/S0160) to decode a remote access tool portable executable file that has been hidden inside a certificate file. (Citation: Malwarebytes Targeted Attack against Saudi Arabia)\n\nAnother example is using the Windows <code>copy /b</code> command to reassemble binary fragments into a malicious payload. (Citation: Carbon Black Obfuscation Sept 2016)\n\nPayloads may be compressed, archived, or encrypted in order to avoid detection.  These payloads may be used with [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027) during Initial Access or later to mitigate detection. Sometimes a user's action may be required to open it for deobfuscation or decryption as part of [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016) Adversaries may also used compressed or archived scripts, such as Javascript.",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-turla-powershell-event.json](https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-powershell-event.json) | `                                "description": "Adversaries may use Obfuscated Files or Information to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware, Scripting, PowerShell, or by using utilities present on the system.\n\nOne such example is use of certutil to decode a remote access tool portable executable file that has been hidden inside a certificate file. (Citation: Malwarebytes Targeted Attack against Saudi Arabia)\n\nAnother example is using the Windows <code>copy /b</code> command to reassemble binary fragments into a malicious payload. (Citation: Carbon Black Obfuscation Sept 2016)\n\nPayloads may be compressed, archived, or encrypted in order to avoid detection. These payloads may be used with Obfuscated Files or Information during Initial Access or later to mitigate detection. Sometimes a user's action may be required to open it for deobfuscation or decryption as part of User Execution. The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016) Adversaries may also used compressed or archived scripts, such as Javascript.\n\nDetection: Detecting the action of deobfuscating or decoding files or information may be difficult depending on the implementation. If the functionality is contained within malware and uses the Windows API, then attempting to detect malicious behavior before or after the action may yield better results than attempting to perform analysis on loaded libraries or API calls. If scripts are used, then collecting the scripts for analysis may be necessary. Perform process and command-line monitoring to detect potentially malicious behavior related to scripts and system utilities such as certutil.\n\nMonitor the execution file paths and command-line arguments for common archive file applications and extensions, such as those for Zip and RAR archive tools, and correlate with other suspicious behavior to reduce false positives from normal user and administrator behavior.\n\nPlatforms: Windows\n\nData Sources: File monitoring, Process Monitoring, Process command-line parameters\n\nDefense Bypassed: Anti-virus, Host intrusion prevention systems, Signature-based detection, Network intrusion detection system\n\nPermissions Required: User\n\nContributors: Matthew Demaske, Adaptforward, Red Canary",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #2: Certutil Rename and Decode [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #7: certutil download (urlcache) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #8: certutil download (verifyctl) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #2: Certutil Rename and Decode [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #7: certutil download (urlcache) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #8: certutil download (verifyctl) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | - [Atomic Test #7 - certutil download (urlcache)](#atomic-test-7---certutil-download-urlcache) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | - [Atomic Test #8 - certutil download (verifyctl)](#atomic-test-8---certutil-download-verifyctl) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | ## Atomic Test #7 - certutil download (urlcache) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | Use certutil -urlcache argument to download a file from the web. Note - /urlcache also works! | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | cmd /c certutil -urlcache -split -f #{remote_file} #{local_path} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | ## Atomic Test #8 - certutil download (verifyctl) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | Use certutil -verifyctl argument to download a file from the web. Note - /verifyctl also works! | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | $datePath = "certutil-$(Get-Date -format yyyy_MM_dd_HH_mm)" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1105.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md) | certutil -verifyctl -split -f #{remote_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | One such example is use of [certutil](https://attack.mitre.org/software/S0160) to decode a remote access tool portable executable file that has been hidden inside a certificate file. (Citation: Malwarebytes Targeted Attack against Saudi Arabia) Another example is using the Windows <code>copy /b</code> command to reassemble binary fragments into a malicious payload. (Citation: Carbon Black Obfuscation Sept 2016) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | - [Atomic Test #2 - Certutil Rename and Decode](#atomic-test-2---certutil-rename-and-decode) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | certutil -encode #{executable} %temp%\T1140_calc.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | ## Atomic Test #2 - Certutil Rename and Decode | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | Rename certutil and decode a file. This is in reference to latest research by FireEye [here](https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1140.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md) | copy %windir%\system32\certutil.exe %temp%\tcm.tmp | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1564.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.004/T1564.004.md) | certutil.exe -urlcache -split -f https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1564.004/src/test.ps1 c:\temp:ttt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 
@@ -178,7 +248,7 @@ CertUtil: -? command completed successfully.
 
 ---
 
-# certutil
+## certutil
 
 Certutil.exe is a command-line program, installed as part of Certificate Services. You can use certutil.exe to dump and display certification authority (CA) configuration information, configure Certificate Services, backup and restore CA components, and verify certificates, key pairs, and certificate chains.
 
@@ -187,9 +257,9 @@ If certutil is run on a certification authority without additional parameters, i
 > [!IMPORTANT]
 > Earlier versions of certutil may not provide all of the options that are described in this document. You can see all the options that a specific version of certutil provides by running `certutil -?` or `certutil <parameter> -?`.
 
-## Parameters
+### Parameters
 
-### -dump
+#### -dump
 
 Dump configuration information or files.
 
@@ -202,7 +272,7 @@ certutil [options] [-dump] file
 [-f] [-silent] [-split] [-p password] [-t timeout]
 ```
 
-### -asn
+#### -asn
 
 Parse the ASN.1 file.
 
@@ -212,7 +282,7 @@ certutil [options] -asn file [type]
 
 `[type]`: numeric CRYPT_STRING_* decoding type
 
-### -decodehex
+#### -decodehex
 
 Decode a hexadecimal-encoded file.
 
@@ -226,7 +296,7 @@ certutil [options] -decodehex infile outfile [type]
 [-f]
 ```
 
-### -decode
+#### -decode
 
 Decode a Base64-encoded file.
 
@@ -238,7 +308,7 @@ certutil [options] -decode infile outfile
 [-f]
 ```
 
-### -encode
+#### -encode
 
 Encode a file to Base64.
 
@@ -250,7 +320,7 @@ certutil [options] -encode infile outfile
 [-f] [-unicodetext]
 ```
 
-### -deny
+#### -deny
 
 Deny a pending request.
 
@@ -262,7 +332,7 @@ certutil [options] -deny requestID
 [-config Machine\CAName]
 ```
 
-### -resubmit
+#### -resubmit
 
 Resubmit a pending request.
 
@@ -274,7 +344,7 @@ certutil [options] -resubmit requestId
 [-config Machine\CAName]
 ```
 
-### -setattributes
+#### -setattributes
 
 Set attributes for a pending certificate request.
 
@@ -292,11 +362,11 @@ Where:
 [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 - Names and values must be colon separated, while multiple name, value pairs must be newline separated. For example: `CertificateTemplate:User\nEMail:User@Domain.com` where the `\n` sequence is converted to a newline separator.
 
-### -setextension
+#### -setextension
 
 Set an extension for a pending certificate request.
 
@@ -316,7 +386,7 @@ Where:
 [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 - If the last parameter is numeric, it's taken as a **Long**.
 
@@ -326,7 +396,7 @@ Where:
 
 - If the last parameter is anything else, it's taken as a String.
 
-### -revoke
+#### -revoke
 
 Revoke a certificate.
 
@@ -362,7 +432,7 @@ Where:
 [-config Machine\CAName]
 ```
 
-### -isvalid
+#### -isvalid
 
 Display the disposition of the current certificate.
 
@@ -374,7 +444,7 @@ certutil [options] -isvalid serialnumber | certhash
 [-config Machine\CAName]
 ```
 
-### -getconfig
+#### -getconfig
 
 Get the default configuration string.
 
@@ -386,7 +456,7 @@ certutil [options] -getconfig
 [-config Machine\CAName]
 ```
 
-### -ping
+#### -ping
 
 Attempt to contact the Active Directory Certificate Services Request interface.
 
@@ -402,7 +472,7 @@ Where:
 [-config Machine\CAName]
 ```
 
-### -cainfo
+#### -cainfo
 
 Display information about the certification authority.
 
@@ -520,7 +590,7 @@ Where:
 [-f] [-split] [-config Machine\CAName]
 ```
 
-### -ca.cert
+#### -ca.cert
 
 Retrieve the certificate for the certification authority.
 
@@ -538,7 +608,7 @@ Where:
 [-f] [-split] [-config Machine\CAName]
 ```
 
-### -ca.chain
+#### -ca.chain
 
 Retrieve the certificate chain for the certification authority.
 
@@ -556,7 +626,7 @@ Where:
 [-f] [-split] [-config Machine\CAName]
 ```
 
-### -getcrl
+#### -getcrl
 
 Gets a certificate revocation list (CRL).
 
@@ -572,7 +642,7 @@ Where:
 [-f] [-split] [-config Machine\CAName]
 ```
 
-### -crl
+#### -crl
 
 Publish new certificate revocation lists (CRLs) or delta CRLs.
 
@@ -592,7 +662,7 @@ Where:
 [-split] [-config Machine\CAName]
 ```
 
-### -shutdown
+#### -shutdown
 
 Shuts down the Active Directory Certificate Services.
 
@@ -604,7 +674,7 @@ certutil [options] -shutdown
 [-config Machine\CAName]
 ```
 
-### -installcert
+#### -installcert
 
 Installs a certification authority certificate.
 
@@ -616,7 +686,7 @@ certutil [options] -installcert [cacertfile]
 [-f] [-silent] [-config Machine\CAName]
 ```
 
-### -renewcert
+#### -renewcert
 
 Renews a certification authority certificate.
 
@@ -630,7 +700,7 @@ certutil [options] -renewcert [reusekeys] [Machine\ParentCAName]
 [-f] [-silent] [-config Machine\CAName]
 ```
 
-### -schema
+#### -schema
 
 Dumps the schema for the certificate.
 
@@ -651,7 +721,7 @@ Where:
 [-split] [-config Machine\CAName]
 ```
 
-### -view
+#### -view
 
 Dumps the certificate view.
 
@@ -681,7 +751,7 @@ Where:
 [-silent] [-split] [-config Machine\CAName] [-restrict RestrictionList] [-out ColumnList]
 ```
 
-#### Remarks
+##### Remarks
 
 - To display the **StatusCode** column for all entries, type `-out StatusCode`
 
@@ -699,7 +769,7 @@ Where:
 
 - Use `now+dd:hh` for a date relative to the current time.
 
-### -db
+#### -db
 
 Dumps the raw database.
 
@@ -711,7 +781,7 @@ certutil [options] -db
 [-config Machine\CAName] [-restrict RestrictionList] [-out ColumnList]
 ```
 
-### -deleterow
+#### -deleterow
 
 Deletes a row from the server database.
 
@@ -735,7 +805,7 @@ Where:
 [-f] [-config Machine\CAName]
 ```
 
-#### Examples
+##### Examples
 
 - To delete failed and pending requests submitted by January 22, 2001, type: `1/22/2001 request`
 
@@ -745,7 +815,7 @@ Where:
 
 - To delete CRLs that expired by January 22, 2001, type: `1/22/2001 crl`
 
-### -backup
+#### -backup
 
 Backs up the Active Directory Certificate Services.
 
@@ -765,7 +835,7 @@ Where:
 [-f] [-config Machine\CAName] [-p Password]
 ```
 
-### -backupdb
+#### -backupdb
 
 Backs up the Active Directory Certificate Services database.
 
@@ -785,7 +855,7 @@ Where:
 [-f] [-config Machine\CAName]
 ```
 
-### -backupkey
+#### -backupkey
 
 Backs up the Active Directory Certificate Services certificate and private key.
 
@@ -801,7 +871,7 @@ Where:
 [-f] [-config Machine\CAName] [-p password] [-t timeout]
 ```
 
-### -restore
+#### -restore
 
 Restores the Active Directory Certificate Services.
 
@@ -817,7 +887,7 @@ Where:
 [-f] [-config Machine\CAName] [-p password]
 ```
 
-### -restoredb
+#### -restoredb
 
 Restores the Active Directory Certificate Services database.
 
@@ -833,7 +903,7 @@ Where:
 [-f] [-config Machine\CAName]
 ```
 
-### -restorekey
+#### -restorekey
 
 Restores the Active Directory Certificate Services certificate and private key.
 
@@ -849,7 +919,7 @@ Where:
 [-f] [-config Machine\CAName] [-p password]
 ```
 
-### -importpfx
+#### -importpfx
 
 Import the certificate and private key. For more info, see the `-store` parameter in this article.
 
@@ -883,11 +953,11 @@ Where:
 [-f] [-user] [-p password] [-csp provider]
 ```
 
-#### Remarks
+##### Remarks
 
 - Defaults to personal machine store.
 
-### -dynamicfilelist
+#### -dynamicfilelist
 
 Displays a dynamic file list.
 
@@ -899,7 +969,7 @@ certutil [options] -dynamicfilelist
 [-config Machine\CAName]
 ```
 
-### -databaselocations
+#### -databaselocations
 
 Displays database locations.
 
@@ -911,7 +981,7 @@ certutil [options] -databaselocations
 [-config Machine\CAName]
 ```
 
-### -hashfile
+#### -hashfile
 
 Generates and displays a cryptographic hash over a file.
 
@@ -919,7 +989,7 @@ Generates and displays a cryptographic hash over a file.
 certutil [options] -hashfile infile [hashalgorithm]
 ```
 
-### -store
+#### -store
 
 Dumps the certificate store.
 
@@ -953,7 +1023,7 @@ Where:
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-silent] [-split] [-dc DCName]
 ```
 
-#### Options
+##### Options
 
 - The `-user` option accesses a user store instead of a machine store.
 
@@ -973,7 +1043,7 @@ For example:
 
 - `CA .11`
 
-### -addstore
+#### -addstore
 
 Adds a certificate to the store. For more info, see the `-store` parameter in this article.
 
@@ -991,7 +1061,7 @@ Where:
 [-f] [-user] [-enterprise] [-grouppolicy] [-dc DCName]
 ```
 
-### -delstore
+#### -delstore
 
 Deletes a certificate from the store. For more info, see the `-store` parameter in this article.
 
@@ -1009,7 +1079,7 @@ Where:
 [-enterprise] [-user] [-grouppolicy] [-dc DCName]
 ```
 
-### -verifystore
+#### -verifystore
 
 Verifies a certificate in the store. For more info, see the `-store` parameter in this article.
 
@@ -1027,7 +1097,7 @@ Where:
 [-enterprise] [-user] [-grouppolicy] [-silent] [-split] [-dc DCName] [-t timeout]
 ```
 
-### -repairstore
+#### -repairstore
 
 Repairs a key association or update certificate properties or the key security descriptor. For more info, see the `-store` parameter in this article.
 
@@ -1070,7 +1140,7 @@ Where:
 [-f] [-enterprise] [-user] [-grouppolicy] [-silent] [-split] [-csp provider]
 ```
 
-### -viewstore
+#### -viewstore
 
 Dumps the certificates store. For more info, see the `-store` parameter in this article.
 
@@ -1090,7 +1160,7 @@ Where:
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-dc DCName]
 ```
 
-#### Options
+##### Options
 
 - The `-user` option accesses a user store instead of a machine store.
 
@@ -1110,7 +1180,7 @@ For example:
 
 - `CA .11`
 
-### -viewdelstore
+#### -viewdelstore
 
 Deletes a certificate from the store.
 
@@ -1130,7 +1200,7 @@ Where:
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-dc DCName]
 ```
 
-#### Options
+##### Options
 
 - The `-user` option accesses a user store instead of a machine store.
 
@@ -1150,7 +1220,7 @@ For example:
 
 - `CA .11`
 
-### -dspublish
+#### -dspublish
 
 Publishes a certificate or certificate revocation list (CRL) to Active Directory.
 
@@ -1192,7 +1262,7 @@ Where:
 [-f] [-user] [-dc DCName]
 ```
 
-### -adtemplate
+#### -adtemplate
 
 Displays Active Directory templates.
 
@@ -1204,7 +1274,7 @@ certutil [options] -adtemplate [template]
 [-f] [-user] [-ut] [-mt] [-dc DCName]
 ```
 
-### -template
+#### -template
 
 Displays the certificate templates.
 
@@ -1216,7 +1286,7 @@ certutil [options] -template [template]
 [-f] [-user] [-silent] [-policyserver URLorID] [-anonymous] [-kerberos] [-clientcertificate clientcertID] [-username username] [-p password]
 ```
 
-### -templatecas
+#### -templatecas
 
 Displays the certification authorities (CAs) for a certificate template.
 
@@ -1228,7 +1298,7 @@ certutil [options] -templatecas template
 [-f] [-user] [-dc DCName]
 ```
 
-### -catemplates
+#### -catemplates
 
 Displays templates for the Certificate Authority.
 
@@ -1240,7 +1310,7 @@ certutil [options] -catemplates [template]
 [-f] [-user] [-ut] [-mt] [-config Machine\CAName] [-dc DCName]
 ```
 
-### -setcasites
+#### -setcasites
 
 Manages site names, including setting, verifying, and deleting Certificate Authority site names
 
@@ -1258,7 +1328,7 @@ Where:
 [-f] [-config Machine\CAName] [-dc DCName]
 ```
 
-#### Remarks
+##### Remarks
 
 - The `-config` option targets a single Certificate Authority (Default is all CAs).
 
@@ -1267,7 +1337,7 @@ Where:
 > [!NOTE]
 > For more information about configuring CAs for Active Directory Domain Services (AD DS) site awareness, see [AD DS Site Awareness for AD CS and PKI clients](https://social.technet.microsoft.com/wiki/contents/articles/14106.ad-ds-site-awareness-for-ad-cs-and-pki-clients.aspx).
 
-### -enrollmentserverURL
+#### -enrollmentserverURL
 
 Displays, adds, or deletes enrollment server URLs associated with a CA.
 
@@ -1302,7 +1372,7 @@ Where:
 [-config Machine\CAName] [-dc DCName]
 ```
 
-### -adca
+#### -adca
 
 Displays Active Directory Certificate Authorities.
 
@@ -1314,7 +1384,7 @@ certutil [options] -adca [CAName]
 [-f] [-split] [-dc DCName]
 ```
 
-### -ca
+#### -ca
 
 Displays enrollment policy Certificate Authorities.
 
@@ -1326,7 +1396,7 @@ certutil [options] -CA [CAName | templatename]
 [-f] [-user] [-silent] [-split] [-policyserver URLorID] [-anonymous] [-kerberos] [-clientcertificate clientcertID] [-username username] [-p password]
 ```
 
-### -policy
+#### -policy
 
 Displays the enrollment policy.
 
@@ -1334,7 +1404,7 @@ Displays the enrollment policy.
 [-f] [-user] [-silent] [-split] [-policyserver URLorID] [-anonymous] [-kerberos] [-clientcertificate clientcertID] [-username username] [-p password]
 ```
 
-### -policycache
+#### -policycache
 
 Displays or deletes enrollment policy cache entries.
 
@@ -1352,7 +1422,7 @@ Where:
 [-f] [-user] [-policyserver URLorID]
 ```
 
-### -credstore
+#### -credstore
 
 Displays, adds, or deletes Credential Store entries.
 
@@ -1376,7 +1446,7 @@ Where:
 [-f] [-user] [-silent] [-anonymous] [-kerberos] [-clientcertificate clientcertID] [-username username] [-p password]
 ```
 
-### -installdefaulttemplates
+#### -installdefaulttemplates
 
 Installs default certificate templates.
 
@@ -1388,7 +1458,7 @@ certutil [options] -installdefaulttemplates
 [-dc DCName]
 ```
 
-### -URLcache
+#### -URLcache
 
 Displays or deletes URL cache entries.
 
@@ -1412,7 +1482,7 @@ Where:
 [-f] [-split]
 ```
 
-### -pulse
+#### -pulse
 
 Pulses auto enrollment events.
 
@@ -1424,7 +1494,7 @@ certutil [options] -pulse
 [-user]
 ```
 
-### -machineinfo
+#### -machineinfo
 
 Displays information about the Active Directory machine object.
 
@@ -1432,7 +1502,7 @@ Displays information about the Active Directory machine object.
 certutil [options] -machineinfo domainname\machinename$
 ```
 
-### -DCInfo
+#### -DCInfo
 
 Displays information about the domain controller. The default displays DC certificates without verification.
 
@@ -1449,7 +1519,7 @@ certutil [options] -DCInfo [domain] [verify | deletebad | deleteall]
 >
 >For example, assume there is a domain named CPANDL with a domain controller named CPANDL-DC1. You can run the following command to a retrieve a list of domain controllers and their certificates that from CPANDL-DC1: `certutil -dc cpandl-dc1 -DCInfo cpandl`
 
-### -entinfo
+#### -entinfo
 
 Displays information about an enterprise Certificate Authority.
 
@@ -1461,7 +1531,7 @@ certutil [options] -entinfo domainname\machinename$
 [-f] [-user]
 ```
 
-### -tcainfo
+#### -tcainfo
 
 Displays information about the Certificate Authority.
 
@@ -1473,7 +1543,7 @@ certutil [options] -tcainfo [domainDN | -]
 [-f] [-enterprise] [-user] [-urlfetch] [-dc DCName] [-t timeout]
 ```
 
-### -scinfo
+#### -scinfo
 
 Displays information about the smart card.
 
@@ -1489,7 +1559,7 @@ Where:
 [-silent] [-split] [-urlfetch] [-t timeout]
 ```
 
-### -scroots
+#### -scroots
 
 Manages smart card root certificates.
 
@@ -1504,7 +1574,7 @@ certutil [options] -scroots delete [readername]
 [-f] [-split] [-p Password]
 ```
 
-### -verifykeys
+#### -verifykeys
 
 Verifies a public or private key set.
 
@@ -1522,13 +1592,13 @@ Where:
 [-f] [-user] [-silent] [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 - If no arguments are specified, each signing CA certificate is verified against its private key.
 
 - This operation can only be performed against a local CA or local keys.
 
-### -verify
+#### -verify
 
 Verifies a certificate, certificate revocation list (CRL), or certificate chain.
 
@@ -1561,7 +1631,7 @@ Where:
 [-f] [-enterprise] [-user] [-silent] [-split] [-urlfetch] [-t timeout]
 ```
 
-#### Remarks
+##### Remarks
 
 - Using **applicationpolicylist** restricts chain building to only chains valid for the specified Application Policies.
 
@@ -1577,7 +1647,7 @@ Where:
 
 - If **cacertfile** and **crossedcacertfile** are both specified, the fields in both files are verified against **certfile**.
 
-### -verifyCTL
+#### -verifyCTL
 
 Verifies the AuthRoot or Disallowed Certificates CTL.
 
@@ -1607,7 +1677,7 @@ Where:
 [-f] [-user] [-split]
 ```
 
-### -sign
+#### -sign
 
 Re-signs a certificate revocation list (CRL) or certificate.
 
@@ -1655,7 +1725,7 @@ Where:
 [-nullsign] [-f] [-silent] [-cert certID]
 ```
 
-#### Remarks
+##### Remarks
 
 - Using the minus sign (-) removes serial numbers and extensions.
 
@@ -1665,7 +1735,7 @@ Where:
 
 - Using the minus sign before **alternatesignaturealgorithm** allows you to use the legacy signature format. Using the plus sign allows you to use the alternate signature format. If you don't specify **alternatesignaturealgorithm**, the signature format in the certificate or CRL is used.
 
-### -vroot
+#### -vroot
 
 Creates or deletes web virtual roots and file shares.
 
@@ -1673,7 +1743,7 @@ Creates or deletes web virtual roots and file shares.
 certutil [options] -vroot [delete]
 ```
 
-### -vocsproot
+#### -vocsproot
 
 Creates or deletes web virtual roots for an OCSP web proxy.
 
@@ -1681,7 +1751,7 @@ Creates or deletes web virtual roots for an OCSP web proxy.
 certutil [options] -vocsproot [delete]
 ```
 
-### -addenrollmentserver
+#### -addenrollmentserver
 
 Add an Enrollment Server application and application pool if necessary, for the specified Certificate Authority. This command does not install binaries or packages.
 
@@ -1707,7 +1777,7 @@ Where:
 [-config Machine\CAName]
 ```
 
-### -deleteenrollmentserver
+#### -deleteenrollmentserver
 
 Deletes an Enrollment Server application and application pool if necessary, for the specified Certificate Authority. This command does not install binaries or packages.
 
@@ -1729,7 +1799,7 @@ Where:
 [-config Machine\CAName]
 ```
 
-### -addpolicyserver
+#### -addpolicyserver
 
 Add a Policy Server application and application pool, if necessary. This command does not install binaries or packages.
 
@@ -1749,7 +1819,7 @@ Where:
 
 - **keybasedrenewal** allows use of policies returned to the client containing keybasedrenewal templates. This option applies only for **username** and **clientcertificate** authentication.
 
-### -deletepolicyserver
+#### -deletepolicyserver
 
 Deletes a Policy Server application and application pool, if necessary. This command does not remove binaries or packages.
 
@@ -1767,7 +1837,7 @@ Where:
 
 - **keybasedrenewal** allows use of a KeyBasedRenewal policy server.
 
-### -oid
+#### -oid
 
 Displays the object identifier or set a display name.
 
@@ -1803,7 +1873,7 @@ Where:
 
 - `-f` creates a DS object.
 
-### -error
+#### -error
 
 Displays the message text associated with an error code.
 
@@ -1811,7 +1881,7 @@ Displays the message text associated with an error code.
 certutil [options] -error errorcode
 ```
 
-### -getreg
+#### -getreg
 
 Displays a registry value.
 
@@ -1847,7 +1917,7 @@ Where:
 [-f] [-user] [-grouppolicy] [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 - If a string value starts with `+` or `-`, and the existing value is a `REG_MULTI_SZ` value, the string is added to or removed from the existing registry value. To force creation of a `REG_MULTI_SZ` value, add `\n` to the end of the string value.
 
@@ -1855,7 +1925,7 @@ Where:
 
 - Use `chain\chaincacheresyncfiletime \@now` to effectively flush cached CRLs.
 
-### -setreg
+#### -setreg
 
 Sets a registry value.
 
@@ -1891,7 +1961,7 @@ Where:
 [-f] [-user] [-grouppolicy] [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 - If a string value starts with `+` or `-`, and the existing value is a `REG_MULTI_SZ` value, the string is added to or removed from the existing registry value. To force creation of a `REG_MULTI_SZ` value, add `\n` to the end of the string value.
 
@@ -1899,7 +1969,7 @@ Where:
 
 - Use `chain\chaincacheresyncfiletime \@now` to effectively flush cached CRLs.
 
-### -delreg
+#### -delreg
 
 Deletes a registry value.
 
@@ -1935,7 +2005,7 @@ Where:
 [-f] [-user] [-grouppolicy] [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 - If a string value starts with `+` or `-`, and the existing value is a `REG_MULTI_SZ` value, the string is added to or removed from the existing registry value. To force creation of a `REG_MULTI_SZ` value, add `\n` to the end of the string value.
 
@@ -1943,7 +2013,7 @@ Where:
 
 - Use `chain\chaincacheresyncfiletime \@now` to effectively flush cached CRLs.
 
-### -importKMS
+#### -importKMS
 
 Imports user keys and certificates into the server database for key archival.
 
@@ -1967,7 +2037,7 @@ Where:
 [-f] [-silent] [-split] [-config Machine\CAName] [-p password] [-symkeyalg symmetrickeyalgorithm[,keylength]]
 ```
 
-### -importcert
+#### -importcert
 
 Imports a certificate file into the database.
 
@@ -1985,11 +2055,11 @@ Where:
 [-f] [-config Machine\CAName]
 ```
 
-#### Remarks
+##### Remarks
 
 The Certificate Authority may also need to be configured to support foreign certificates. To do this, type `import - certutil -setreg ca\KRAFlags +KRAF_ENABLEFOREIGN`.
 
-### -getkey
+#### -getkey
 
 Retrieves an archived private key recovery blob, generates a recovery script, or recovers archived keys.
 
@@ -2031,7 +2101,7 @@ Where:
 [-f] [-unicodetext] [-silent] [-config Machine\CAName] [-p password] [-protectto SAMnameandSIDlist] [-csp provider]
 ```
 
-### -recoverkey
+#### -recoverkey
 
 Recover an archived private key.
 
@@ -2043,7 +2113,7 @@ certutil [options] -recoverkey recoveryblobinfile [PFXoutfile [recipientindex]]
 [-f] [-user] [-silent] [-split] [-p password] [-protectto SAMnameandSIDlist] [-csp provider] [-t timeout]
 ```
 
-### -mergePFX
+#### -mergePFX
 
 Merges PFX files.
 
@@ -2063,13 +2133,13 @@ Where:
 [-f] [-user] [-split] [-p password] [-protectto SAMnameAndSIDlist] [-csp provider]
 ```
 
-#### Remarks
+##### Remarks
 
 - The password specified on the command line must be a comma-separated password list.
 
 - If more than one password is specified, the last password is used for the output file. If only one password is provided or if the last password is `*`, the user will be prompted for the output file password.
 
-### -convertEPF
+#### -convertEPF
 
 Converts a PFX file into an EPF file.
 
@@ -2098,13 +2168,13 @@ Where:
 [-f] [-silent] [-split] [-dc DCName] [-p password] [-csp provider]
 ```
 
-#### Remarks
+##### Remarks
 
 - The password specified on the command line must be a comma-separated password list.
 
 - If more than one password is specified, the last password is used for the output file. If only one password is provided or if the last password is `*`, the user will be prompted for the output file password.
 
-### -?
+#### -?
 
 Displays the list of parameters.
 
@@ -2122,7 +2192,7 @@ Where:
 
 - **-? -v** displays a full list of parameters and options.
 
-## Options
+### Options
 
 This section defines all of the options you're able to specify, based on the command. Each parameter includes information about which options are valid for use.
 
@@ -2161,7 +2231,7 @@ This section defines all of the options you're able to specify, based on the com
 | -t timeout | URL fetch timeout in milliseconds. |
 | -symkeyalg symmetrickeyalgorithm[,keylength] | Name of the Symmetric Key Algorithm with optional key length. For example: `AES,128` or `3DES` |
 
-### Additional References
+#### Additional References
 
 For some more examples about how to use this command, see
 
@@ -2176,6 +2246,7 @@ For some more examples about how to use this command, see
 - [certutil command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/certutil.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

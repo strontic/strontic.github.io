@@ -66,14 +66,13 @@ conhost.exe
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# finger
+## finger
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -82,13 +81,13 @@ Displays information about users on a specified remote computer (typically a com
 > [!IMPORTANT]
 > This command is available only if the Internet Protocol (TCP/IP) protocol is installed as a component in the properties of a network adapter in Network Connections.
 
-## Syntax
+### Syntax
 
 ```
 finger [-l] [<user>] [@<host>] [...]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -97,13 +96,13 @@ finger [-l] [<user>] [@<host>] [...]
 | `@<host>` | Specifies the remote computer running the finger service where you are looking for user information. You can specify a computer name or IP address. |
 | /? | Displays help at the command prompt. |
 
-#### Remarks
+##### Remarks
 
 - You must prefix **finger** parameters with a hyphen (-) rather than a slash (/).
 
 - Multiple `user@host` parameters can be specified.
 
-### Examples
+#### Examples
 
 To display information for *user1* on the computer *users.microsoft.com*, type:
 
@@ -117,11 +116,12 @@ To display information for *all users* on the computer *users.microsoft.com*, ty
 finger @users.microsoft.com
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

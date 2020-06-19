@@ -50,6 +50,13 @@ SSDEEP | `196608:sLRDnuBotjJh2emr8L/YIsG7MOgqHG64n:0RDOotj+eBLJ7XF2`
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `vcredist_x86.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1095.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1095/T1095.md) |   Start-Process (Join-Path $unzipPath "vcredist_x86.exe") | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

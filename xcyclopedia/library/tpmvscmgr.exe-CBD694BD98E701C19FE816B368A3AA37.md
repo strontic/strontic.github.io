@@ -139,18 +139,17 @@ TpmVscMgr.exe
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# tpmvscmgr
+## tpmvscmgr
 
 The Tpmvscmgr command-line tool allows users with Administrative credentials to create and delete TPM virtual smart cards on a computer.
 
-## Syntax
+### Syntax
 
 ```
 Tpmvscmgr create [/name] [/AdminKey DEFAULT | PROMPT | RANDOM] [/PIN DEFAULT | PROMPT] [/PUK DEFAULT | PROMPT] [/generate] [/machine] [/?]
@@ -159,7 +158,7 @@ Tpmvscmgr create [/name] [/AdminKey DEFAULT | PROMPT | RANDOM] [/PIN DEFAULT | P
 Tpmvscmgr destroy [/instance <instance ID>] [/?]
 ```
 
-#### Parameters for Create command
+##### Parameters for Create command
 
 The Create command sets up new virtual smart cards on the user's system. It returns the instance ID of the newly created card for later reference if deletion is required. The instance ID is in the format **ROOT\SMARTCARDREADER\000n** where **n** starts from 0 and is increased by 1 each time you create a new virtual smart card.
 
@@ -173,7 +172,7 @@ The Create command sets up new virtual smart cards on the user's system. It retu
 |/machine|Allows you to specify the name of a remote computer on which the virtual smart card can be created. This can be used in a domain environment only, and it relies on DCOM. For the command to succeed in creating a virtual smart card on a different computer, the user running this command must be a member in the local administrators group on the remote computer.|
 |/?|Displays Help for this command.|
 
-#### Parameters for Destroy command
+##### Parameters for Destroy command
 
 The Destroy command securely deletes a virtual smart card from the user's computer.
 
@@ -185,13 +184,13 @@ The Destroy command securely deletes a virtual smart card from the user's comput
 |/instance|Specifies the instance ID of the virtual smart card to be removed. The instanceID was generated as output by Tpmvscmgr.exe when the card was created. The /instance parameter is a required field for the Destroy command.|
 |/?|Displays Help for this command.|
 
-## Remarks
+### Remarks
 
 Membership in the **Administrators** group (or equivalent) on the target computer is the minimum required to run all the parameters of this command.
 
 For alphanumeric inputs, the full 127 character ASCII set is allowed.
 
-## Examples
+### Examples
 
 The following command shows how to create a virtual smart card that can be later managed by a smart card management tool launched from another computer.
 ```
@@ -211,11 +210,12 @@ tpmvscmgr.exe destroy /instance <instance ID>
 ```
 where \<instance ID> is the value printed on the screen when the user created the card. Specifically, for the first card created, the instance ID is ROOT\SMARTCARDREADER\0000.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

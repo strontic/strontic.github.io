@@ -50,6 +50,13 @@ SSDEEP | `768:bft/qZZYgutzQN6TP00/SOZpjfZz52ySWDcI6ICRfrid:Lt+WwY0oPl2ySmcI6IUid
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `dialer.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rasautou.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rasautou.yml) | `Description: Windows Remote Access Dialer` | 
 
 
 

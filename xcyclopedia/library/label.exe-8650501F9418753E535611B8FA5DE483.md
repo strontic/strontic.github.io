@@ -63,24 +63,23 @@ LABEL [/MP] [volume] [label]
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# label
+## label
 
 Creates, changes, or deletes the volume label (that is, the name) of a disk. If used without parameters, the **label** command changes the current volume label or deletes the existing label.
 
-## Syntax
+### Syntax
 
 ```
 label [/mp] [<volume>] [<label>]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -89,13 +88,13 @@ label [/mp] [<volume>] [<label>]
 | `<label>` | Specifies the label for the volume. |
 | /? | Displays help at the command prompt. |
 
-## Remarks
+### Remarks
 
 - Windows displays the volume label and serial number (if it has one) as part of the directory listing.
 
 - An NTFS volume label can be up to 32 characters in length, including spaces. NTFS volume labels retain and display the case that was used when the label was created.
 
-## Examples
+### Examples
 
 To label a disk in drive A that contains sales information for July, type:
 
@@ -127,11 +126,12 @@ To view and delete the current label for drive C, follow these steps:
 
 3. Press **Y** to delete the current label, or **N** if you want to keep the existing label.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

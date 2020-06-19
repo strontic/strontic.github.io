@@ -65,24 +65,23 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# sxstrace
+## sxstrace
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Diagnoses side-by-side problems.
 
-## Syntax
+### Syntax
 ```
 sxstrace [{[trace -logfile:<FileName> [-nostop]|[parse -logfile:<FileName> -outfile:<ParsedFile>  [-filter:<AppName>]}]
 ```
 
-#### Parameters
+##### Parameters
 |Parameter|Description|
 |-------|--------|
 |trace|Enables tracing for sxs (side-by-side)|
@@ -97,7 +96,7 @@ sxstrace [{[trace -logfile:<FileName> [-nostop]|[parse -logfile:<FileName> -outf
 |stoptrace|Stop the trace if it is not stopped before.|
 |-?|Displays help at the command prompt.|
 
-## Examples
+### Examples
 Enable tracing and save trace file to **sxstrace.etl**:
 ```
 sxstrace trace -logfile:sxstrace.etl
@@ -107,11 +106,12 @@ Translate the raw trace file into a human readable format and save the result to
 sxstrace parse -logfile:sxstrace.etl -outfile:sxstrace.txt
 ```
 
-## Additional References
+### Additional References
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

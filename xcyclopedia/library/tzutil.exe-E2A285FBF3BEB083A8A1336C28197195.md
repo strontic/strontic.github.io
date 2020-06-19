@@ -89,17 +89,17 @@ File | Score
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# tzutil
+## tzutil
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Displays the Windows Time Zone utility.
 
-## Syntax
+### Syntax
 ```
 tzutil [/?] [/g] [/s <timeZoneID>[_dstoff]] [/l]
 ```
-#### Parameters
+##### Parameters
 |Parameter|Description|
 |-------|--------|
 |/?|Displays help at the command prompt.|
@@ -107,10 +107,10 @@ tzutil [/?] [/g] [/s <timeZoneID>[_dstoff]] [/l]
 |/s \<timeZoneID>[_dstoff]|Sets the current time zone using the specified time zone ID. The **_dstoff** suffix disables Daylight Saving time adjustments for the time zone (where applicable).|
 |/l|lists all valid time zone IDs and display names. The output will be:<p>-   \<display name><br />-   \<time zone ID>|
 
-## Remarks
+### Remarks
 An exit code of **0** indicates the command completed successfully.
 
-## Examples
+### Examples
 To display the current time zone ID, type:
 ```
 tzutil /g
@@ -123,11 +123,12 @@ To set the current time zone to Pacific Standard time and disable Daylight Savin
 ```
 tzutil /s Pacific Standard time_dstoff
 ```
-## Additional References
+### Additional References
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

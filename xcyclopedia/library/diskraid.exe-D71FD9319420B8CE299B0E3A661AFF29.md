@@ -51,14 +51,13 @@ SSDEEP | `6144:iC1L0IOCNKw86UzN1F9BE/r4sepFo4SPtq:iC1InwlUzfBE/rxmgq`
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# Diskraid
+## Diskraid
 
 **Diskraid** is a command-line tool that enables you to configure and manage redundant array of independent (or inexpensive) disks (RAID) storage subsystems.
 
@@ -71,22 +70,22 @@ Most Diskraid commands operate on a specific host bus adapter (HBA) port, initia
 > [!NOTE]
 > The Diskraid command-line tool works only with storage subsystems that support Virtual Disk Service (VDS).
 
-## Diskraid commands
+### Diskraid commands
 
 The following commands are available from within the Diskraid tool.
 
-### add
+#### add
 
 Adds an existing LUN to the currently selected LUN, or adds an iSCSI target portal to the currently selected iSCSI target portal group.
 
-#### Syntax
+##### Syntax
 
 ```
 add plex lun=n [noerr]
 add tpgroup tportal=n [noerr]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -94,11 +93,11 @@ add tpgroup tportal=n [noerr]
 | tpgroup tportal=`<n>` | Specifies the iSCSI target portal number to add to the currently selected iSCSI target portal group. |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### associate
+#### associate
 
 Sets the specified list of controller ports as active for the currently selected LUN (other controller ports are made inactive), or adds the specified controller ports to the list of existing active controller ports for the currently selected LUN, or associates the specified iSCSI target for the currently selected LUN.
 
-#### Syntax
+##### Syntax
 
 ```
 associate controllers [add] <n>[,<n> [,â€¦]]
@@ -106,7 +105,7 @@ associate ports [add] <n-m>[,<n-m>[,â€¦]]
 associate targets [add] <n>[,<n> [,â€¦]]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -117,7 +116,7 @@ associate targets [add] <n>[,<n> [,â€¦]]
 | `<n>[,<n> [, ...]]` | Use with the **controllers** or **targets** parameter. Specifies the numbers of the controllers or iSCSI targets to set to active or associate. |
 | `<n-m>[,<n-m>[,â€¦]]` | Use with the **ports** parameter. Specifies the controller ports to set active using a controller number (*n*) and port number (*m*) pair. |
 
-#### Example
+##### Example
 
 To associate and add ports to a LUN that uses a VDS 1.1 provider:
 
@@ -134,17 +133,17 @@ Controller port associations changed.
 (Controller ports active after this command: Ctlr 0 Port 0, Ctlr 0 Port 1, Ctlr 1 Port 1)
 ```
 
-### automagic
+#### automagic
 
 Sets or clears flags that give hints to providers on how to configure a LUN. Used with no parameters, the **automagic** operation displays a list of flags.
 
-#### Syntax
+##### Syntax
 
 ```
 automagic {set | clear | apply} all <flag=value> [<flag=value> [...]]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -153,31 +152,31 @@ automagic {set | clear | apply} all <flag=value> [<flag=value> [...]]
 | apply | Applies the current flags to the selected LUN. |
 | `<flag>` | Flags are identified by three-letter acronyms, including:<ul><li>**FCR** - Fast Crash Recovery Required</li><li>**FTL** - Fault Tolerant</li><li>**MSR** - Mostly Reads</li><li>**MXD** - Maximum drives</li><li>**MXS** - Maximum Size Expected</li><li>**ORA** - Optimal Read Alignment</li><li>**ORS** - Optimal Read Size</li><li>**OSR** - Optimize for Sequential Reads</li><li>**OSW** - Optimize for Sequential Writes</li><li> **OWA** - Optimal Write Alignment</li><li>**OWS** - Optimal Write Size</li><li>**RBP** - Rebuild Priority</li><li>**RBV** - Read Back Verify Enabled</li><li>**RMP** - Remap Enabled</li><li>**STS** - Strip Size</li><li>**WTC** - Write-Through Caching Enabled</li><li>**YNK** - Removable</li></ul> |
 
-### break
+#### break
 
 Removes the plex from the currently selected LUN. The plex and the data it contained are not retained, and the drive extents may be reclaimed.
 
 > [!CAUTION]
 > You must first select a mirrored LUN before using this command. All data on the plex will be deleted. All data contained on the original LUN is not guaranteed to be consistent.
 
-#### Syntax
+##### Syntax
 
 ```
 break plex=<plex_number> [noerr]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | plex | Specifies the number of the plex to remove. The plex and the data it contained will not be retained, and the resources used by this plex will be reclaimed. The data contained on the LUN is not guaranteed to be consistent. If you want to retain this plex, use the Volume Shadow Copy Service (VSS). |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### chap
+#### chap
 
 Sets the Challenge Handshake Authentication Protocol (CHAP) shared secret so that iSCSI initiators and iSCSI targets can communicate with one another.
 
-#### Syntax
+##### Syntax
 
 ```
 chap initiator set secret=[<secret>] [target=<target>]
@@ -186,7 +185,7 @@ chap target set secret=[<secret>] [initiator=<initiatorname>]
 chap target remember secret=[<secret>] initiator=<initiatorname>
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -198,11 +197,11 @@ chap target remember secret=[<secret>] initiator=<initiatorname>
 | target | Specifies a target in the currently selected subsystem to associate with the secret. This is optional when setting a secret on the initiator and leaving it out indicates that the secret will be used for all targets that do not already have an associated secret. |
 | initiatorname | Specifies an initiator iSCSI name to associate with the secret. This is optional when setting a secret on a target and leaving it out indicates that the secret will be used for all initiators that do not already have an associated secret. |
 
-### create
+#### create
 
 Creates a new LUN or iSCSI target on the currently selected subsystem, or creates a target portal group on the currently selected target. You can view the actual binding using the **Diskraid list** command.
 
-#### Syntax
+##### Syntax
 
 ```
 create lun simple [size=<n>] [drives=<n>] [noerr]
@@ -214,7 +213,7 @@ create target name=<name> [iscsiname=<iscsiname>] [noerr]
 create tpgroup [noerr]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -232,11 +231,11 @@ create tpgroup [noerr]
 | tpgroup | Creates a new iSCSI target portal group on the currently selected target. |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### delete
+#### delete
 
 Deletes the currently selected LUN, iSCSI target (as long as there are not any LUNs associated with the iSCSI target) or iSCSI target portal group.
 
-#### Syntax
+##### Syntax
 
 ```
 delete lun [uninstall] [noerr]
@@ -244,7 +243,7 @@ delete target [noerr]
 delete tpgroup [noerr]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -254,17 +253,17 @@ delete tpgroup [noerr]
 | tpgroup | Deletes the currently selected iSCSI target portal group. |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### detail
+#### detail
 
 Displays detailed information about the currently selected object of the specified type.
 
-#### Syntax
+##### Syntax
 
 ```
 detail {hbaport | iadapter | iportal | provider | subsystem | controller | port | drive | lun | tportal | target | tpgroup} [verbose]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -282,11 +281,11 @@ detail {hbaport | iadapter | iportal | provider | subsystem | controller | port 
 | tpgroup | Lists detailed information about the currently selected iSCSI target portal group. |
 | verbose | For use only with the LUN parameter. Lists additional information, including its plexes. |
 
-### dissociate
+#### dissociate
 
 Sets specified list of controller ports as inactive for the currently selected LUN (other controller ports are not affected), or dissociates the specified list of iSCSI targets for the currently selected LUN.
 
-#### Syntax
+##### Syntax
 
 ```
 dissociate controllers <n> [,<n> [,...]]
@@ -294,7 +293,7 @@ dissociate ports <n-m>[,<n-m>[,â€¦]]
 dissociate targets <n> [,<n> [,â€¦]]
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -304,7 +303,7 @@ dissociate targets <n> [,<n> [,â€¦]]
 | `<n> [,<n> [,â€¦]]` | For use with the **controllers** or **targets** parameter. Specifies the numbers of the controllers or iSCSI targets to set as inactive or dissociate. |
 | `<n-m>[,<n-m>[,â€¦]]` | For use with the **ports** parameter. Specifies the controller ports to set as inactive by using a controller number (*n*) and port number (*m*) pair. |
 
-#### Example
+##### Example
 
 ```
 DISKRAID> SEL LUN 5
@@ -323,27 +322,27 @@ Controller port associations changed.
 (Controller ports active after this command: Ctlr 0 Port 1)
 ```
 
-### exit
+#### exit
 
 Exits Diskraid.
 
-#### Syntax
+##### Syntax
 
 ```
 exit
 ```
 
-### extend
+#### extend
 
 Extends the currently selected LUN by adding sectors to the end of the LUN. Not all providers support extending LUNs. Does not extend any volumes or file systems contained on the LUN. After you extend the LUN, you should extend the associated on-disk structures using the **DiskPart extend** command.
 
-#### Syntax
+##### Syntax
 
 ```
 extend lun [size=<LUN_size>] [drives=<drive_number>, [<drive_number>, ...]] [noerr]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -351,91 +350,91 @@ extend lun [size=<LUN_size>] [drives=<drive_number>, [<drive_number>, ...]] [noe
 | drives= | Specifies the `<drive_number>` for the drives to use when creating a LUN. Either the *size* or the `<drive>` parameter must be specified. They can also be used together. If the **size=** parameter is not specified, the LUN created is the largest possible size allowed by all the specified drives. Providers use the drives in the order specified when possible. |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### flushcache
+#### flushcache
 
 Clears the cache on the currently selected controller.
 
-#### Syntax
+##### Syntax
 
 ```
 flushcache controller
 ```
 
-### help
+#### help
 
 Displays a list of all Diskraid commands.
 
-#### Syntax
+##### Syntax
 
 ```
 help
 ```
 
-### importtarget
+#### importtarget
 
 Retrieves or sets the current Volume Shadow Copy Service (VSS) import target that is set for the currently selected subsystem.
 
-#### Syntax
+##### Syntax
 
 ```
 importtarget subsystem [set target]
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
 | set target | If specified, sets the currently selected target to the VSS import target for the currently selected subsystem. If not specified, the command retrieves the current VSS import target that is set for the currently selected subsystem. |
 
-### initiator
+#### initiator
 
 Retrieves information about the local iSCSI initiator.
 
-#### Syntax
+##### Syntax
 
 ```
 initiator
 ```
 
-### invalidatecache
+#### invalidatecache
 
 Invalidates the cache on the currently selected controller.
 
-#### Syntax
+##### Syntax
 
 ```
 invalidatecache controller
 ```
 
-### lbpolicy
+#### lbpolicy
 
 Sets the load balance policy on the currently selected LUN.
 
-#### Syntax
+##### Syntax
 
 ```
 lbpolicy set lun type=<type> [paths=<path>-{primary | <weight>}[,<path>-{primary | <weight>}[,â€¦]]]
 lbpolicy set lun paths=<path>-{primary | <weight>}[,<path>-{primary | <weight>}[,â€¦]]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | type | Specifies the load balance policy. If the type is not specified, then the **path** parameter must be specified. Type can be one of the following:<ul><li>**FAILOVER** - Uses one primary path with other paths being backup paths.</li><li>**ROUNDROBIN** - Uses all paths in round-robin fashion, which tries each path sequentially.</li><li>**SUBSETROUNDROBIN** - Uses all primary paths in round-robin fashion; backup paths are used only if all primary paths fail.</li><li>**DYNLQD** - Uses the path with the least number of active requests.<li><li>**WEIGHTED** - Uses the path with the least weight (each path must be assigned a weight).</li><li>**LEASTBLOCKS** - Uses the path with the least blocks.</li><li>**VENDORSPECIFIC** - Uses a vendor-specific policy.</li></ul> |
 | path | Specifies whether a path is **primary** or has a particular `<weight>`. Any paths not specified are implicitly set as backup. Any paths listed must be one of the currently selected LUN's paths. |
 
-### list
+#### list
 
 Displays a list of objects of the specified type.
 
-#### Syntax
+##### Syntax
 
 ```
 list {hbaports | iadapters | iportals | providers | subsystems | controllers | ports | drives | LUNs | tportals | targets | tpgroups}
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -452,17 +451,17 @@ list {hbaports | iadapters | iportals | providers | subsystems | controllers | p
 | targets | Lists summary information about all iSCSI targets in the currently selected subsystem. The currently selected target is marked by an asterisk (*). |
 | tpgroups | Lists summary information about all iSCSI target portal groups in the currently selected target. The currently selected portal group is marked by an asterisk (*). |
 
-### login
+#### login
 
 Logs the specified iSCSI initiator adapter into the currently selected iSCSI target.
 
-#### Syntax
+##### Syntax
 
 ```
 login target iadapter=<iadapter> [type={manual | persistent | boot}] [chap={none | oneway | mutual}] [iportal=<iportal>] [tportal=<tportal>] [<flag> [<flag> [â€¦]]]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -474,33 +473,33 @@ login target iadapter=<iadapter> [type={manual | persistent | boot}] [chap={none
 | iportal | Specifies an optional initiator portal in the specified initiator adapter to use for the log in. |
 | `<flag>` | Identified by three-letter acronyms:<ul><li>**IPS** - Require IPsec</li><li>**EMP** - Enable multipath</li><li>**EHD** - Enable header digest</li><li>**EDD** - Enable data digest</li></ul> |
 
-### logout
+#### logout
 
 Logs the specified iSCSI initiator adapter out of the currently selected iSCSI target.
 
-#### Syntax
+##### Syntax
 
 ```
 logout target iadapter= <iadapter>
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | iadapter | Specifies the initiator adapter with a login session to logout from. |
 
-### maintenance
+#### maintenance
 
 Performs maintenance operations on the currently selected object of the specified type.
 
-#### Syntax
+##### Syntax
 
 ```
 maintenance <object operation> [count=<iteration>]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -508,162 +507,162 @@ maintenance <object operation> [count=<iteration>]
 | `<operation>` | Specifies the maintenance operation to perform. The *operation* type can be **spinup**, **spindown**, **blink**, **beep** or **ping**. An *operation* must be specified. |
 | count= | Specifies the number of times to repeat the *operation*. This is typically used with **blink**, **beep**,or **ping**. |
 
-### name
+#### name
 
 Sets the friendly name of the currently selected subsystem, LUN, or iSCSI target to the specified name.
 
-#### Syntax
+##### Syntax
 
 ```
 name {subsystem | lun | target} [<name>]
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
 | `<name>` | Specifies a name for the subsystem, LUN, or target. The name must be less than 64 characters in length. If no name is supplied, the existing name, if any, is deleted. |
 
-### offline
+#### offline
 
 Sets the state of the currently selected object of the specified type to **offline**.
 
-#### Syntax
+##### Syntax
 
 ```
 offline <object>
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
 | `<object>` | Specifies the type of object on which to perform this operation. The type can be: **subsystem**, **controller**, **drive**, **LUN**, or **tportal**. |
 
-### online
+#### online
 
 Sets the state of the selected object of the specified type to **online**. If object is **hbaport**, changes the status of the paths to the currently selected HBA port to **online**.
 
-#### Syntax
+##### Syntax
 
 ```
 online <object>
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
 | `<object>` | Specifies the type of object on which to perform this operation. The type can be: **hbaport**, **subsystem**, **controller**, **drive**, **LUN**, or **tportal**. |
 
-### recover
+#### recover
 
 Performs operations necessary, such as resynchronization or hot sparing, to repair the currently selected fault-tolerant LUN. For example, RECOVER might cause a hot spare to be bound to a RAID set that has a failed disk or other disk extent reallocation.
 
-#### Syntax
+##### Syntax
 
 ```
 recover <lun>
 ```
 
-### reenumerate
+#### reenumerate
 
 Reenumerates objects of the specified type. If you use the extend LUN command, you must use the refresh command to update the disk size before using the reenumerate command.
 
-#### Syntax
+##### Syntax
 
 ```
 reenumerate {subsystems | drives}
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | subsystems | Queries the provider to discover any new subsystems that were added in the currently selected provider. |
 | drives | Queries the internal I/O buses to discover any new drives that were added in the currently selected subsystem. |
 
-### refresh
+#### refresh
 
 Refreshes internal data for the currently selected provider.
 
-#### Syntax
+##### Syntax
 
 ```
 refresh provider
 ```
 
-### rem
+#### rem
 
 Used to comment scripts.
 
-#### Syntax
+##### Syntax
 
 ```
 Rem <comment>
 ```
 
-### remove
+#### remove
 
 Removes the specified iSCSI target portal from the currently selected target portal group.
 
-#### Syntax
+##### Syntax
 
 ```
 remove tpgroup tportal=<tportal> [noerr]
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
 | tpgroup tportal=`<tportal>` | Specifies the iSCSI target portal to remove. |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### replace
+#### replace
 
 Replaces the specified drive with the currently selected drive. The specified drive may not be the currently selected drive.
 
-#### Syntax
+##### Syntax
 
 ```
 replace drive=<drive_number>
 ```
 
-##### Parameter
+###### Parameter
 
 | Parameter | Description |
 | --------- | ----------- |
 | drive= | Specifies the `<drive_number>` for the drive to be replaced. |
 
-### reset
+#### reset
 
 Resets the currently selected controller or port.
 
-#### Syntax
+##### Syntax
 
 ```
 reset {controller | port}
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | controller | Resets the controller. |
 | port | Resets the port. |
 
-### select
+#### select
 
 Displays or changes the currently selected object.
 
-#### Syntax
+##### Syntax
 
 ```
 select {hbaport | iadapter | iportal | provider | subsystem | controller | port | drive | lun | tportal | target | tpgroup } [<n>]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -682,67 +681,67 @@ select {hbaport | iadapter | iportal | provider | subsystem | controller | port 
 | tpgroup `[<n>]` | Sets the focus to the specified iSCSI target portal group within the currently selected iSCSI target. If no target portal group is specified, the command displays the currently selected target portal group (if any). Specifying an invalid target portal group index results in no in-focus target portal group. |
 |`[<n>]` | Specifies the `<object number>` to select. If the `<object number>` specified is not valid, any existing selections for objects of the specified type are cleared. If no `<object number>` is specified, the current object is displayed.
 
-### setflag
+#### setflag
 
 Sets the currently selected drive as a hot spare. Hot spares can't be used for ordinary LUN binding operations. They're reserved for fault handling only. The drive must not be currently bound to any existing LUN.
 
-#### Syntax
+##### Syntax
 
 ```
 setflag drive hotspare={true | false}
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | true | Selects the currently selected drive as a hot spare. |
 | false | Unselects the currently selected drive as a hot spare. |
 
-### shrink
+#### shrink
 
 Reduces the size of the selected LUN.
 
-#### Syntax
+##### Syntax
 
 ```
 shrink lun size=<n> [noerr]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | size | Specifies the desired amount of space in megabytes (MB) to reduce the size of the LUN by. To specify the size using other units, use one of the following recognized suffixes immediately after the size:<ul><li>**B** - byte</li><li>**KB** - kilobyte</li><li>**MB** - megabyte</li><li>**GB** - gigabyte</li><li>**TB** - terabyte</li><li>**PB** - petabyte. |
 | noerr | For scripting only. When an error is encountered, Diskraid continues to process commands as if the error did not occur. |
 
-### standby
+#### standby
 
 Changes the status of the paths to the currently selected host bus adapter (HBA) port to STANDBY.
 
-#### Syntax
+##### Syntax
 
 ```
 standby hbaport
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
 | hbaport | Changes the status of the paths to the currently selected host bus adapter (HBA) port to STANDBY. |
 
-### unmask
+#### unmask
 
 Makes the currently selected LUNs accessible from the specified hosts.
 
-#### Syntax
+##### Syntax
 
 ```
 unmask lun {all | none | [add] wwn=<hexadecimal_number> [;<hexadecimal_number> [;â€¦]] | [add] initiator=<initiator>[;<initiator>[;â€¦]]} [uninstall]
 ```
 
-##### Parameters
+###### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -753,7 +752,7 @@ unmask lun {all | none | [add] wwn=<hexadecimal_number> [;<hexadecimal_number> [
 | initiator= | Specifies a list of iSCSI initiators to which the currently selected LUN should be made accessible. To mask/unmask to a specific set of hosts in an iSCSI subsystem, you can type a semicolon-separated list of iSCSI initiator names for the initiators on the host computers of interest. |
 | uninstall | If specified, uninstalls the disk associated with the LUN on the local system before the LUN is masked. |
 
-## Scripting Diskraid
+### Scripting Diskraid
 
 Diskraid can be scripted on any computer running a supported version of Windows Server, with an associated VDS hardware provider. To invoke a Diskraid script, at the command prompt type:
 
@@ -763,7 +762,7 @@ diskraid /s <script.txt>
 
 By default, Diskraid stops processing commands and returns an error code if there is a problem in the script. To continue running the script and ignore errors, include the **noerr** parameter on the command. This permits such useful practices as using a single script to delete all the LUNs in a subsystem regardless of the total number of LUNs. Not all commands support the **noerr** parameter. Errors are always returned on command-syntax errors, regardless of whether you included the **noerr** parameter.
 
-## Diskraid error codes
+### Diskraid error codes
 
 | Error Code | Error Description |
 | ---------- | ----------------- |
@@ -774,7 +773,7 @@ By default, Diskraid stops processing commands and returns an error code if ther
 | 4 | One of the services Diskraid uses returned a failure. |
 | 5 | A command syntax error occurred. The script failed because an object was improperly selected or was invalid for use with that command. |
 
-## Example
+### Example
 
 To view the status of subsystem 0 on your computer, type:
 
@@ -817,11 +816,12 @@ To exit Diskraid, type the following at the Diskraid prompt:
 exit
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

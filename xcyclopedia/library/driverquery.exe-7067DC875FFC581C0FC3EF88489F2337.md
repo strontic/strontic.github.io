@@ -90,24 +90,23 @@ Type "DRIVERQUERY /?" for usage.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# driverquery
+## driverquery
 
 Enables an administrator to display a list of installed device drivers and their properties. If used without parameters, **driverquery** runs on the local computer.
 
-## Syntax
+### Syntax
 
 ```
 driverquery [/s <system> [/u [<domain>\]<username> [/p <password>]]] [/fo {table | list | csv}] [/nh] [/v | /si]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- |------------ |
@@ -122,7 +121,7 @@ driverquery [/s <system> [/u [<domain>\]<username> [/p <password>]]] [/fo {table
 | /si | Provides information about signed drivers. |
 | /? | Displays help at the command prompt. |
 
-### Examples
+#### Examples
 
 To display a list of installed device drivers on the local computer, type:
 
@@ -154,11 +153,12 @@ To use the **driverquery** command on a remote server named *server1* using the 
 driverquery /s server1 /u maindom\user1 /p p@ssw3d
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

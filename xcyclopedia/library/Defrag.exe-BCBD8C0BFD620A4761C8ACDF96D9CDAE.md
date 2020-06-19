@@ -116,13 +116,24 @@ File | Score
 -- | --
 [C:\WINDOWS\system32\Defrag.exe](Defrag.exe-15EFD404D3065B560876BBE567CE981A.md) | 75
 
+## Possible Misuse
+
+*The following table contains possible examples of `Defrag.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_slingshot.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_slingshot.yml) | `title: Defrag Deactivation` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_slingshot.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_slingshot.yml) | `            - '*schtasks* /delete *Defrag\ScheduledDefrag*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_slingshot.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_slingshot.yml) | `        TaskName: '\Microsoft\Windows\Defrag\ScheduledDefrag'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_raw_disk_access_using_illegitimate_tools.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_raw_disk_access_using_illegitimate_tools.yml) | `            - '\defrag.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\defrag.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# defrag
+## defrag
 
 > Applies to: Windows 10, Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -130,7 +141,7 @@ Locates and consolidates fragmented files on local volumes to improve system per
 
 Membership in the local **Administrators** group, or equivalent, is the minimum required to run this command.
 
-## Syntax
+### Syntax
 
 ```
 defrag <volumes> | /c | /e <volumes>    [/h] [/m [n]| [/u] [v]]
@@ -139,7 +150,7 @@ defrag <volumes> | /c | /e <volumes> /x [/h] [/m [n]| [/u] [v]]
 defrag <volume> [<parameters>]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -161,7 +172,7 @@ defrag <volume> [<parameters>]
 | /x | Perform free space consolidation on the specified volumes. |
 | /? | Displays this help information. |
 
-#### Remarks
+##### Remarks
 
 - You can't defragment specific file system volumes or drives, including:
 
@@ -191,7 +202,7 @@ defrag <volume> [<parameters>]
 
 - Running the **defrag** command and Disk defragmenter are mutually exclusive. If you are using Disk defragmenter to defragment a volume and you run the **defrag** command at a command-line, the **defrag** command fails. Conversely, if you run the **defrag** command and open Disk defragmenter, the defragmentation options in Disk defragmenter are unavailable.
 
-## Examples
+### Examples
 
 To defragment the volume on drive C while providing progress and verbose output, type:
 
@@ -217,7 +228,7 @@ To defragment all volumes with normal priority and provide verbose output, type:
 defrag /c /h /v
 ```
 
-## Scheduled task
+### Scheduled task
 
 The defragmentation process runs scheduled task as a maintenance task, which typically runs every week. As an Administrator, you can change the how often the task runs by using the **Optimize Drives** app.
 
@@ -237,7 +248,7 @@ The defragmentation process runs scheduled task as a maintenance task, which typ
 
     - The computer started back up (resumed from idle).
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -250,6 +261,7 @@ The defragmentation process runs scheduled task as a maintenance task, which typ
 - [Optimize-Volume Powershell](https://docs.microsoft.com/powershell/module/storage/optimize-volume?view=win10-ps)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

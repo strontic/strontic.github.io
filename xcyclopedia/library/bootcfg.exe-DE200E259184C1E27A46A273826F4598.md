@@ -104,26 +104,25 @@ Type "BOOTCFG /?" for usage.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# bootcfg
+## bootcfg
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Configures, queries, or changes Boot.ini file settings.
 
-## Syntax
+### Syntax
 
 ```  
 bootcfg <parameter> [arguments...]  
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -140,6 +139,7 @@ bootcfg <parameter> [arguments...]
 | [bootcfg timeout](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bootcfg-timeout.md) | Changes the operating system time-out value. |
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -89,24 +89,23 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# diskperf
+## diskperf
 
 The **diskperf** command remotely enables or disables physical or logical disk performance counters on computers running Windows.
 
-## Syntax
+### Syntax
 
 ```
 diskperf [-y[d|v] | -n[d|v]] [\\computername]
 ```
 
-## Options
+### Options
 
 | Option | Description |
 | ------ | ----------- |
@@ -119,11 +118,12 @@ diskperf [-y[d|v] | -n[d|v]] [\\computername]
 | `\\<computername>` | Specifies the name of the computer where you want to enable or disable disk performance counters. |
 | -? | Displays context sensitive help. |
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -65,6 +65,14 @@ File | Score
 [C:\WINDOWS\system32\Gfxv4_0.exe](Gfxv4_0.exe-D559A25253EE0988DE4C90F57AF83C6F.md) | 32
 [C:\WINDOWS\system32\igfxTray.exe](igfxTray.exe-7B5147E66B50A838C77345CF6D3065DC.md) | 46
 
+## Possible Misuse
+
+*The following table contains possible examples of `igfxTray.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [oceanlotus](https://github.com/eset/malware-ioc/blob/master/oceanlotus/README.adoc) | `* `HKCU\SOFTWARE\Intel\Display\igfxcui\igfxtray\;[NUMBER];[DWORD]`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -77,20 +77,20 @@ File | Score
 
 ---
 
-# klist
+## klist
 
 Displays a list of currently cached Kerberos tickets.
 
 > [!IMPORTANT]
 > You must be at least a **Domain Admin**, or equivalent, to run all the parameters of this command.
 
-## Syntax
+### Syntax
 
 ```
 klist [-lh <logonID.highpart>] [-li <logonID.lowpart>] tickets | tgt | purge | sessions | kcd_cache | get | add_bind | query_bind | purge_bind
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -108,7 +108,7 @@ klist [-lh <logonID.highpart>] [-li <logonID.lowpart>] tickets | tgt | purge | s
 | kdcoptions | Displays the Key Distribution Center (KDC) options specified in RFC 4120. |
 | /? | Displays Help for this command. |
 
-#### Remarks
+##### Remarks
 
 - If no parameters are provided, **klist** retrieves all the tickets for the currently logged on user.
 
@@ -188,7 +188,7 @@ klist [-lh <logonID.highpart>] [-li <logonID.lowpart>] tickets | tgt | purge | s
 
   - **kdcoptions** - For the current list of options and their explanations, see [RFC 4120](http://www.ietf.org/rfc/rfc4120.txt).
 
-### Examples
+#### Examples
 
 To query the Kerberos ticket cache to determine if any tickets are missing, if the target server or account is in error, or if the encryption type is not supported due to an Event ID 27 error, type:
 
@@ -256,11 +256,12 @@ To rediscover domain controllers, or to flush the cache before creating new doma
 klist purge_bind
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

@@ -137,7 +137,7 @@ File | Score
 
 ---
 
-# bdehdcfg
+## bdehdcfg
 
 Prepares a hard drive with the partitions necessary for BitLocker Drive Encryption. Most installations of Windows 7 will not need to use this tool because BitLocker setup includes the ability to prepare and repartition drives as required.
 
@@ -154,13 +154,13 @@ Prepares a hard drive with the partitions necessary for BitLocker Drive Encrypti
 >
 >- If this policy setting is being enforced, a hard drive cannot be repartitioned because the drive is protected. If you are upgrading computers in your organization from a previous version of Windows and those computers were configured with a single partition, you should create the required BitLocker system partition before applying the policy setting to the computers.
 
-## Syntax
+### Syntax
 
 ```
 bdehdcfg [â€“driveinfo <drive_letter>] [-target {default|unallocated|<drive_letter> shrink|<drive_letter> merge}] [â€“newdriveletter] [â€“size <size_in_mb>] [-quiet]
 ```
 
-#### Parameters
+##### Parameters
 
 | Parameter | Description |
 | --------- |----------- |
@@ -172,11 +172,12 @@ bdehdcfg [â€“driveinfo <drive_letter>] [-target {default|unallocated|<drive
 | [bdehdcfg: restart](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bdehdcfg-restart.md) | Directs the computer to restart after the drive preparation has finished. |
 | /? | Displays Help at the command prompt. |
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

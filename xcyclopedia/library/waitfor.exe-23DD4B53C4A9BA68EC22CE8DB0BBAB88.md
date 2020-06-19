@@ -95,7 +95,14 @@ conhost.exe
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `waitfor.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*waitfor*/s*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*waitfor*/si persist*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 
@@ -103,7 +110,7 @@ conhost.exe
 
 ---
 
-# waitfor
+## waitfor
 
 
 
@@ -111,14 +118,14 @@ Sends or waits for a signal on a system. **Waitfor** is used to synchronize comp
 
 
 
-## Syntax
+### Syntax
 
 ```
 waitfor [/s <Computer> [/u [<Domain>\]<User> [/p [<Password>]]]] /si <SignalName>
 waitfor [/t <Timeout>] <SignalName>
 ```
 
-### Parameters
+#### Parameters
 
 |       Parameter       |                                                                                         Description                                                                                          |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -130,7 +137,7 @@ waitfor [/t <Timeout>] <SignalName>
 |     \<SignalName>     |                                                Specifies the signal that **waitfor** waits for or sends. *SignalName* is not case-sensitive.                                                 |
 |          /?           |                                                                             Displays help at the command prompt.                                                                             |
 
-## Remarks
+### Remarks
 
 -   Signal names cannot exceed 225 characters. Valid characters include a-z, A-Z, 0-9, and the ASCII extended character set (128-255).
 -   If you do not use **/s**, the signal is broadcast to all the systems in a domain. If you use **/s**, the signal is sent only to the specified system.
@@ -140,7 +147,7 @@ waitfor [/t <Timeout>] <SignalName>
 -   Computers can only receive signals if they are in the same domain as the computer sending the signal.
 -   You can use **waitfor** when you test software builds. For example, the compiling computer can send a signal to several computers running **waitfor** after the compile has completed successfully. On receipt of the signal, the batch file that includes **waitfor** can instruct the computers to immediately start installing software or running tests on the compiled build.
 
-## Examples
+### Examples
 
 To wait until the espresso\build007 signal is received, type:
 ```
@@ -157,11 +164,12 @@ To manually activate the espresso\build007 signal, type:
 waitfor /si espresso\build007
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

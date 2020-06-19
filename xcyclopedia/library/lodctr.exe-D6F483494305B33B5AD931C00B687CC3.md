@@ -92,26 +92,25 @@ Double Quotation marks.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# lodctr
+## lodctr
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Allows you to register or save performance counter name and registry settings in a file and designate trusted services.
 
-## Syntax
+### Syntax
 
 ```
 lodctr <filename> [/s:<filename>] [/r:<filename>] [/t:<servicename>]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -122,11 +121,11 @@ lodctr <filename> [/s:<filename>] [/r:<filename>] [/t:<servicename>]
 | /t:`<servicename>` | Indicates that service `<servicename>` is trusted. |
 | /? | Displays help at the command prompt. |
 
-#### Remarks
+##### Remarks
 
 - If the information that you supply contains spaces, use quotation marks around the text (for example, "file name 1").
 
-### Examples
+#### Examples
 
 To save the current performance registry settings and explanatory text to file *perf backup1.txt*, type:
 
@@ -134,11 +133,12 @@ To save the current performance registry settings and explanatory text to file *
 lodctr /s:perf backup1.txt
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

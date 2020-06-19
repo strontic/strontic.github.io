@@ -74,14 +74,13 @@ Type "OPENFILES /?" for usage.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# openfiles
+## openfiles
 
 
 
@@ -92,17 +91,17 @@ This topic includes information about the following commands:
 -   [openfiles /query](#BKMK_query)
 -   [openfiles /local](#BKMK_local)
 
-## <a name=BKMK_disconnect></a>openfiles /disconnect
+### <a name=BKMK_disconnect></a>openfiles /disconnect
 
 Enables an administrator to disconnect files and folders that have been opened remotely through a shared folder.
 
-### Syntax
+#### Syntax
 
 ```
 openfiles /disconnect [/s <System> [/u [<Domain>\]<UserName> [/p [<Password>]]]] {[/id <OpenFileID>] | [/a <AccessedBy>] | [/o {read | write | read/write}]} [/op <OpenFile>]
 ```
 
-#### Parameters
+##### Parameters
 
 |            Parameter             |                                                                                                                                 Description                                                                                                                                  |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,7 +114,7 @@ openfiles /disconnect [/s <System> [/u [<Domain>\]<UserName> [/p [<Password>]]]]
 |         /op \<OpenFile>          |                                                           Disconnects all open file connections that are created by a specific open file name. The wildcard character (**&#42;**) can be used with this parameter.                                                           |
 |                /?                |                                                                                                                     Displays help at the command prompt.                                                                                                                     |
 
-### Examples
+#### Examples
 
 To disconnect all open files with the file ID 26843578, type:
 ```
@@ -138,17 +137,17 @@ To disconnect all open files on the remote computer srvmain that are being acces
 openfiles /disconnect /s srvmain /u maindom\hiropln /id *
 ```
 
-## <a name=BKMK_query></a>openfiles /query
+### <a name=BKMK_query></a>openfiles /query
 
 Queries and displays all open files.
 
-### Syntax
+#### Syntax
 
 ```
 openfiles /query [/s <System> [/u [<Domain>\]<UserName> [/p [<Password>]]]] [/fo {TABLE | LIST | CSV}] [/nh] [/v]
 ```
 
-#### Parameters
+##### Parameters
 
 |          Parameter           |                                                                                                                                 Description                                                                                                                                  |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -160,7 +159,7 @@ openfiles /query [/s <System> [/u [<Domain>\]<UserName> [/p [<Password>]]]] [/fo
 |              /v              |                                                                                                       Specifies that detailed information be displayed in the output.                                                                                                        |
 |              /?              |                                                                                                                     Displays help at the command prompt.                                                                                                                     |
 
-### Examples
+#### Examples
 
 To query and display all open files, type:
 ```
@@ -182,29 +181,29 @@ openfiles /query /s srvmain /u maindom\hiropln /p p@ssW23
 > [!NOTE]
 > In this example, the password is supplied on the command line. To prevent displaying the password, leave out the **/p** option. You will be prompted for the password, which will not be echoed to the screen.
 
-## <a name=BKMK_local></a>openfiles /local
+### <a name=BKMK_local></a>openfiles /local
 
 Enables or disables the system Maintain Objects List global flag. If used without parameters, **openfiles /local** displays the current status of the Maintain Objects List global flag.
 
-### Syntax
+#### Syntax
 
 ```
 openfiles /local [on | off]
 ```
 
-#### Parameters
+##### Parameters
 
 |Parameter|Description|
 |---------|-----------|
 |[on \| off]|Enables or disables the system Maintain Objects List global flag, which tracks local file handles.|
 |/?|Displays help at the command prompt.|
 
-### Remarks
+#### Remarks
 
 -   Enabling the Maintain Objects List global flag may slow down your system.
 -   Changes made by using the **on** or **off** option do not take effect until you restart the system.
 
-### Examples
+#### Examples
 
 To check the current status of the Maintain Objects List global flag, type:
 ```
@@ -228,11 +227,12 @@ To disable the Maintain Objects List global flag, type:
 openfiles /local off
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

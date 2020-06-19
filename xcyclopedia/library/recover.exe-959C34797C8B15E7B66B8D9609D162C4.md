@@ -59,6 +59,14 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\recover.exe](recover.exe-89DA1734EAA590115A227C8E60E6C7B9.md) | 30
 
+## Possible Misuse
+
+*The following table contains possible examples of `recover.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1048.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1048.003/T1048.003.md) | 3. Once the data is received, use the below command to recover the data. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [use-cases.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/use-cases.md) | - How long does it take us to contain, remediate, recover? | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 
@@ -66,7 +74,7 @@ File | Score
 
 ---
 
-# recover
+## recover
 
 
 
@@ -74,38 +82,39 @@ Recovers readable information from a bad or defective disk.
 
 
 
-## Syntax
+### Syntax
 
 ```
 recover [<Drive>:][<Path>]<FileName>
 ```
 
-### Parameters
+#### Parameters
 
 |           Parameter           |                                          Description                                          |
 |-------------------------------|-----------------------------------------------------------------------------------------------|
 | [\<Drive>:][<Path>]<FileName> | Specifies the location and name of the file that you want to recover. *FileName* is required. |
 |              /?               |                             Displays help at the command prompt.                              |
 
-## Remarks
+### Remarks
 
 -   The **recover** command reads a file, sector-by-sector, and recovers data from the good sectors. Data in bad sectors is lost.
 -   Bad sectors reported by **chkdsk** were marked as bad when your disk was prepared for operation. They pose no danger, and **recover** does not affect them.
 -   Because all data in bad sectors is lost when you recover a file, you should recover only one file at a time.
 -   You cannot use wildcard characters (**&#42;** and **?**) with the **recover** command. You must specify a file (and the location of the file if it is not in the current directory).
 
-## Examples
+### Examples
 
 To recover the file Story.txt in the \Fiction directory on drive D, type:
 ```
 recover d:\fiction\story.txt 
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

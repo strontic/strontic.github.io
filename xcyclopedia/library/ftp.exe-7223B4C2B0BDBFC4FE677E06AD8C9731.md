@@ -76,7 +76,17 @@ conhost.exe
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `ftp.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `Name: Ftp.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `    Usecase: Spawn new process using ftp.exe. Ftp.exe runs cmd /C YourCommand` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `  - Path: C:\Windows\System32\ftp.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `  - Path: C:\Windows\SysWOW64\ftp.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | ` - IOC: cmd /c as child process of ftp.exe` | 
 
 ## Additional Info*
 
@@ -84,19 +94,19 @@ conhost.exe
 
 ---
 
-# ftp
+## ftp
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Transfers files to and from a computer running a File Transfer Protocol (ftp) server service. This command can be used interactively or in batch mode by processing ASCII text files.
 
-## Syntax
+### Syntax
 
 ```
 ftp [-v] [-d] [-i] [-n] [-g] [-s:<filename>] [-a] [-A] [-x:<sendbuffer>] [-r:<recvbuffer>] [-b:<asyncbuffers>][-w:<windowssize>][<host>] [-?]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | ----------| ----------- |
@@ -115,7 +125,7 @@ ftp [-v] [-d] [-i] [-n] [-g] [-s:<filename>] [-a] [-A] [-x:<sendbuffer>] [-r:<re
 | `<host>` | Specifies the computer name, IP address, or IPv6 address of the ftp server to which to connect. The host name or address, if specified, must be the last parameter on the line. |
 | -? | Displays help at the command prompt. |
 
-#### Remarks
+##### Remarks
 
 - The **ftp** command-line parameters are case-sensitive.
 
@@ -125,7 +135,7 @@ ftp [-v] [-d] [-i] [-n] [-g] [-s:<filename>] [-a] [-A] [-x:<sendbuffer>] [-r:<re
 
 - The **ftp** command supports the use of IPv6 when the IPv6 protocol is installed.
 
-### Examples
+#### Examples
 
 To log on to the ftp server named `ftp.example.microsoft.com`, type:
 
@@ -139,7 +149,7 @@ To log on to the ftp server named `ftp.example.microsoft.com` and run the **ftp*
 ftp -s:resync.txt ftp.example.microsoft.com
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -150,6 +160,7 @@ ftp -s:resync.txt ftp.example.microsoft.com
 - [IPv6 applications](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc782509(v=ws.10))
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

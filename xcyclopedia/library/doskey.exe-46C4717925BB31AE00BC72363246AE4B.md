@@ -78,7 +78,13 @@ $*     Symbol replaced by everything following macro name on command line.
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `doskey.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1119.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1119/T1119.md) | doskey /history > %TEMP%\T1119_2.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 
@@ -86,17 +92,17 @@ $*     Symbol replaced by everything following macro name on command line.
 
 ---
 
-# doskey
+## doskey
 
 Calls Doskey.exe, which recalls previously entered command-line commands, edits command lines, and creates macros.
 
-## Syntax
+### Syntax
 
 ```
 doskey [/reinstall] [/listsize=<size>] [/macros:[all | <exename>] [/history] [/insert | /overstrike] [/exename=<exename>] [/macrofile=<filename>] [<macroname>=[<text>]]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -113,7 +119,7 @@ doskey [/reinstall] [/listsize=<size>] [/macros:[all | <exename>] [/history] [/i
 | `<macroname>`=[`<text>`] | Creates a macro that carries out the commands specified by *Text*. *MacroName* specifies the name you want to assign to the macro. *Text* specifies the commands you want to record. If *Text* is left blank, *MacroName* is cleared of any assigned commands. |
 | /? | Displays help at the command prompt. |
 
-#### Remarks
+##### Remarks
 
 - Certain character-based, interactive programs, such as program debuggers or file transfer programs (FTP) automatically use Doskey.exe. To use Doskey.exe, a program must be a console process and use buffered input. Program key assignments override **doskey** key assignments. For example, if the program uses the F7 key for a function, you cannot get a **doskey** command history in a pop-up window.
 
@@ -180,7 +186,7 @@ doskey [/reinstall] [/listsize=<size>] [/macros:[all | <exename>] [/history] [/i
 
   - To run the command, insert one or more spaces at the command prompt, and then type the command name.
 
-### Examples
+#### Examples
 
 The **/macros** and **/history** command-line options are useful for creating batch programs to save macros and commands. For example, to store all current **doskey** macros, type:
 
@@ -254,11 +260,12 @@ To delete a macro called *vlist*, type:
 doskey vlist =
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

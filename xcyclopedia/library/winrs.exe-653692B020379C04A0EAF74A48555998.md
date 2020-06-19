@@ -150,22 +150,21 @@ Use "winrs -?" to obtain the usage information
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
-# winrs
+## winrs
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Windows remote Management allows you to manage and execute programs remotely.
-## Syntax
+### Syntax
 ```
 winrs [/<parameter>[:<value>]] <command>
 ```
-#### Parameters
+##### Parameters
 
 |           Parameter            |                                                                                                                                                                                    Description                                                                                                                                                                                     |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -183,12 +182,12 @@ winrs [/<parameter>[:<value>]] <command>
 |            /usessl             |                                                                                                               Use an SSL connection when using a remote endpoint.  Specifying this instead of the transport **https:** will use the default **WinRM** default port.                                                                                                                |
 |               /?               |                                                                                                                                                                        Displays help at the command prompt.                                                                                                                                                                        |
 
-## Remarks
+### Remarks
 -   All command-line options accept either short form or long form. For example both **/r** and **/remote** are valid.
 -   To terminate the **/remote** command, the user can type **Ctrl-C** or **Ctrl-break**, which will be sent to the remote shell. The second **Ctrl-C** will force termination of **winrs.exe**.
 -   To manage active remote shells or winrs configuration, use the WinRM tool.  The URI alias to manage active shells is **shell/cmd**.  The URI alias for winrs configuration is **winrm/config/winrs**.
 
-## Examples
+### Examples
 ```
 winrs /r:https://contoso.com command
 ```
@@ -223,11 +222,12 @@ winrs /r:myserver netdom join myserver /domain:testdomain /userd:johns /password
 winrs /r:myserver /ad /u:administrator /p:$%fgh7 dir \\anotherserver\share
 ```
 
-## Additional References
+### Additional References
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

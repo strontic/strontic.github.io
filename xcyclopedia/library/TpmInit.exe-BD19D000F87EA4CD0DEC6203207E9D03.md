@@ -57,6 +57,14 @@ File | Score
 [C:\WINDOWS\system32\TpmInit.exe](TpmInit.exe-C601DD6B0449412E9BC6903B9AEBAA5B.md) | 46
 [C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 44
 
+## Possible Misuse
+
+*The following table contains possible examples of `TpmInit.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`TpmInit.EXE`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

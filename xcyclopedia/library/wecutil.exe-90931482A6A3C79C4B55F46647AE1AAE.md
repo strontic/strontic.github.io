@@ -89,21 +89,20 @@ The parameter is incorrect.
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# wecutil
+## wecutil
 
 
 
 Enables you to create and manage subscriptions to events that are forwarded from remote computers. The remote computer must support the WS-Management protocol. 
 
 
-## Syntax
+### Syntax
 
 ```
 wecutil  [{es | enum-subscription}] 
@@ -116,7 +115,7 @@ wecutil  [{es | enum-subscription}]
 [{qc | quick-config} [/q:[<Quiet>]]].
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -129,7 +128,7 @@ wecutil  [{es | enum-subscription}]
 |{rs \| retry-subscription} \<Subid> [\<Eventsource>â€¦]|Retries to establish a connection and send a remote subscription request to an inactive subscription. Attempts to reactivate all event sources or specified event sources. Disabled sources are not retried. \<Subid> is a string that uniquely identifies a subscription. \<Subid> is the same as the string that was specified in the \<SubscriptionId> tag of the XML configuration file, which was used to create the subscription. \<Eventsource> is a string that identifies a computer that serves as a source of events. \<Eventsource> should be a fully qualified domain name, a NetBIOS name, or an IP address.|
 |{qc \| quick-config} [/q:[\<Quiet>]]|Configures the Windows Event Collector service to ensure a subscription can be created and sustained through reboots. This includes the following steps:</br>1.  Enable the ForwardedEvents channel if it is disabled.</br>2.  Set the Windows Event Collector service to delay start.</br>3.  Start the Windows Event Collector service if it is not running.|
 
-## Options
+### Options
 
 |Option|Description|
 |------|-----------|
@@ -166,7 +165,7 @@ wecutil  [{es | enum-subscription}]
 |/cup:\<Compassword>|Sets the user password for the shared user credential. When \<Compassword> is set to * (asterisk), the password is read from the console. This option is only valid when the **/cun** option is specified.|
 |/q:[\<Quiet>]|Specifies whether the configuration procedure prompts for confirmation. \<Quiet> can be true or false. If <Quiet> is true, the configuration procedure does not prompt for confirmation. The default value of this option is false.|
 
-## Remarks
+### Remarks
 
 > [!IMPORTANT]
 > If you receive the message, â€œThe RPC server is unavailable? when you try to run wecutil, you need to start the Windows Event Collector service (wecsvc). To start wecsvc, at an elevated command prompt type net start wecsvc.
@@ -198,7 +197,7 @@ wecutil  [{es | enum-subscription}]
   </Subscription>
   ```
 
-## Examples
+### Examples
 
 Output configuration information for a subscription named sub1:
 ```
@@ -241,11 +240,12 @@ Delete a subscription named sub1:
 wecutil ds sub1
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

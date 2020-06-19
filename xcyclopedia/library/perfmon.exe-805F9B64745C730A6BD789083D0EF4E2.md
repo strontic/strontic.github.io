@@ -69,17 +69,17 @@ File | Score
 
 ---
 
-# perfmon
+## perfmon
 
 Start Windows Reliability and Performance Monitor in a specific standalone mode.
 
-## Syntax
+### Syntax
 
 ```
 perfmon </res|report|rel|sys>
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -88,11 +88,12 @@ perfmon </res|report|rel|sys>
 |/rel|Start Reliability Monitor.|
 |/sys|Start Performance Monitor.|
 
-## Additional References
+### Additional References
 
 [Windows Performance Monitor](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749154(v%3dws.11))
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

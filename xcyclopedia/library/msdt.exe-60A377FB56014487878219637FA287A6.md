@@ -50,7 +50,17 @@ SSDEEP | `6144:wBGliP5NYIuL/uzcYdt1r1nLrXujAlhKsjbAObd8fXrpirWMyL:wHU/uZNr1+AlhK
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
 
+*The following table contains possible examples of `msdt.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_possible_applocker_bypass.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_possible_applocker_bypass.yml) | `            - '\msdt.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msdt.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msdt.yml) | `Name: Msdt.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msdt.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msdt.yml) | `  - Command: msdt.exe -path C:\WINDOWS\diagnostics\index\PCWDiagnostic.xml -af C:\PCW8E57.xml /skip TRUE` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msdt.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msdt.yml) | `  - Path: C:\Windows\System32\Msdt.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msdt.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msdt.yml) | `  - Path: C:\Windows\SysWOW64\Msdt.exe` | 
 
 ## Additional Info*
 
@@ -58,17 +68,17 @@ SSDEEP | `6144:wBGliP5NYIuL/uzcYdt1r1nLrXujAlhKsjbAObd8fXrpirWMyL:wHU/uZNr1+AlhK
 
 ---
 
-# msdt
+## msdt
 
 Invokes a troubleshooting pack at the command line or as part of an automated script, and enables additional options without user input.
 
-## Syntax
+### Syntax
 
 ```
 msdt </id <name> | /path <name> | /cab < name>> <</parameter> [options] â€¦ <parameter> [options]>>
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -83,7 +93,7 @@ msdt </id <name> | /path <name> | /cab < name>> <</parameter> [options] â€¦ 
 | /advanced | Expands the advanced link on the Welcome page by default when the troubleshooting pack is started. |
 | /custom | Prompts the user to confirm each possible resolution before it is applied. |
 
-### Return codes
+#### Return codes
 
 Troubleshooting packs comprise a set of root causes, each of which describes a specific technical problem. After completing the troubleshooting pack tasks, each root cause returns a state of fixed, not fixed, detected (but not fixable), or not found. In addition to specific results reported in the troubleshooter user interface, the troubleshooting engine returns a code in the results describing, in general terms, whether or not the troubleshooter fixed the original problem. The codes are:
 
@@ -94,7 +104,7 @@ Troubleshooting packs comprise a set of root causes, each of which describes a s
 | 1 | **Present, but not fixed:** The troubleshooter identified one or more root causes that remain in a not fixed state. This code is returned even if another root cause was fixed. |
 | 2 | **Not found:** The troubleshooter did not identify any root causes. |
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
@@ -103,6 +113,7 @@ Troubleshooting packs comprise a set of root causes, each of which describes a s
 - [TroubleshootingPack Powershell reference](https://docs.microsoft.com/powershell/module/troubleshootingpack/?view=win10-ps)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

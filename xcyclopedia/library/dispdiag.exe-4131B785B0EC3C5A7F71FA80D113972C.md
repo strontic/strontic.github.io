@@ -67,24 +67,23 @@ Output:
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# dispdiag
+## dispdiag
 
 Logs display information to a file.
 
-## Syntax
+### Syntax
 
 ```
 dispdiag [-testacpi] [-d] [-delay <seconds>] [-out <filepath>]
 ```
 
-#### Parameters
+##### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -94,11 +93,12 @@ dispdiag [-testacpi] [-d] [-delay <seconds>] [-out <filepath>]
 | -out `<filepath>`  | Specifies path and filename to save collected data. This must be the last parameter. |
 | -? | Displays available command parameters and provides help for using them. |
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

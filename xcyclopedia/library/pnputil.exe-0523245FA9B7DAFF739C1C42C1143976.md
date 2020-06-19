@@ -98,24 +98,23 @@ Examples:
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# pnputil
+## pnputil
 
 Pnputil.exe is a command line utility that you can use to manage the driver store. You can use Pnputil to add driver packages, remove driver packages, and list driver packages that are in the store.
 
-## Syntax
+### Syntax
 
 ```
 pnputil.exe [-f | -i] [ -? | -a | -d | -e ] <INF name>
 ```
 
-### Parameters
+#### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -127,7 +126,7 @@ pnputil.exe [-f | -i] [ -? | -a | -d | -e ] <INF name>
 |/?|Displays help at the command prompt.|
 
 
-## Examples
+### Examples
 
 -   pnputil.exe -a a:\usbcam\USBCAM.INF  Adds the INF file that is specified by USBCAM.INF
 -   pnputil.exe -a c:\drivers\*.inf  Adds all INF files in c:\drivers\
@@ -136,13 +135,14 @@ pnputil.exe [-f | -i] [ -? | -a | -d | -e ] <INF name>
 -   pnputil.exe -d oem0.inf  Deletes the specified.
 -   pnputil.exe -f -d oem0.inf  Forces the deletion of the specified INF file.
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 [Popd](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/popd.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

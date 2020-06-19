@@ -88,14 +88,13 @@ conhost.exe
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# msg
+## msg
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -104,13 +103,13 @@ Sends a message to a user on a Remote Desktop Session Host server.
 > [!NOTE]
 > You must have Message special access permission to send a message.
 
-## Syntax
+### Syntax
 
 ```
 msg {<username> | <sessionname> | <sessionID>| @<filename> | *} [/server:<servername>] [/time:<seconds>] [/v] [/w] [<message>]
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -126,7 +125,7 @@ msg {<username> | <sessionname> | <sessionID>| @<filename> | *} [/server:<server
 | `<message>` | Specifies the text of the message that you want to send. If no message is specified, you will be prompted to enter a message. To send a message that is contained in a file, type the less than (<) symbol followed by the file name. |
 | /? | Displays help at the command prompt. |
 
-### Examples
+#### Examples
 
 To send a message entitled, *Let's meet at 1PM today* to all sessions for *User1*, type:
 
@@ -158,11 +157,12 @@ To send the message to all users, with an acknowledgment time-out (for example, 
 msg * /time:10 Let's meet at 1PM today
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

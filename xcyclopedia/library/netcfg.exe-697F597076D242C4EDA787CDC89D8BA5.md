@@ -165,26 +165,25 @@ General Notes:
 
 
 
-
 ## Additional Info*
 
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
 
-# netcfg
+## netcfg
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Installs the Windows Preinstallation Environment (WinPE), a lightweight version of Windows used to deploy workstations.
 
-## Syntax
+### Syntax
 
 ```
 netcfg [/v] [/e] [/winpe] [/l ] /c /i
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -198,7 +197,7 @@ netcfg [/v] [/e] [/winpe] [/l ] /c /i
 | /b | Displays the binding paths, when followed by a string containing the name of the path. |
 | /? | Displays help at the command prompt. |
 
-### Examples
+#### Examples
 
 To install the protocol *example* using c:\oemdir\example.inf, type:
 
@@ -242,11 +241,12 @@ To display binding paths containing *MS_TCPIP*, type:
 netcfg /b ms_tcpip
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.

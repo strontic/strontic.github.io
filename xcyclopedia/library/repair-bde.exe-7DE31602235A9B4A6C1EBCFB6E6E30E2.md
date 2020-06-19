@@ -145,7 +145,7 @@ File | Score
 
 ---
 
-# repair-bde
+## repair-bde
 
 
 
@@ -160,13 +160,13 @@ The following limitations exist for the Repair-bde command-line tool:
 
 
 
-## Syntax
+### Syntax
 
 ```
 repair-bde <InputVolume> <OutputVolumeorImage> [-rk] [â€“rp] [-pw] [â€“kp] [â€“lf] [-f] [{-?|/?}]
 ```
 
-#### Parameters
+##### Parameters
 
 |Parameter|Description|
 |---------|-----------|
@@ -180,11 +180,11 @@ repair-bde <InputVolume> <OutputVolumeorImage> [-rk] [â€“rp] [-pw] [â€�
 |-f|Forces a volume to be dismounted even if it cannot be locked. This command may also be specified as **-force**.|
 |-? or /?|Displays Help at the command prompt.|
 
-## Remarks
+### Remarks
 
 If the path to a key package is not specified, **repair-bde** will search the drive for a key package. However, if the hard drive has been damaged, **repair-bde** may not be able to find the package and will prompt you to provide the path.
 
-## Examples
+### Examples
 
 To attempts to repair drive C and write the content from drive C to drive D by using the recovery key file (RecoveryKey.bek) stored on drive F and writes the results of this attempt to the log file (log.txt) on drive Z.
 ```
@@ -203,11 +203,12 @@ To attempts to repair drive C and write the content from drive C to drive D and 
 repair-bde C: D: -pw
 ```
 
-## Additional References
+### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
+
 
 
 MIT License. Copyright (c) 2020 Strontic.
