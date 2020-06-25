@@ -1,4 +1,7 @@
-﻿
+---
+title: xCyclopedia | The Encyclopedia for Executables
+---
+
 # xCyclopedia
 *Encyclopedia for Executables*
 
