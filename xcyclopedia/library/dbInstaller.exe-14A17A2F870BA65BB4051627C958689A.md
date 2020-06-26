@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dbInstaller.exe | DBInstall Application
+---
+
 # dbInstaller.exe 
 
 * File Path: `C:\WINDOWS\system32\drivers\NVIDIA Corporation\Drs\dbInstaller.exe`

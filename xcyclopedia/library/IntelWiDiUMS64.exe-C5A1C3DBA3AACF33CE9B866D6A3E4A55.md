@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IntelWiDiUMS64.exe | Intel(R) WiDi User Mode Service
+---
+
 # IntelWiDiUMS64.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\IntelWiDiUMS64.exe`

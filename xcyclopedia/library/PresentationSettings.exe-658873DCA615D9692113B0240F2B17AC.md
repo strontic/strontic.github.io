@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PresentationSettings.exe | Microsoft Mobile PC Presentation Adaptability Client
+---
+
 # PresentationSettings.exe 
 
 * File Path: `C:\Windows\system32\PresentationSettings.exe`

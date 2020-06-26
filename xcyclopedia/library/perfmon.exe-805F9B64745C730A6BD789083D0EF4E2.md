@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: perfmon.exe | Resource and Performance Monitor
+---
+
 # perfmon.exe 
 
 * File Path: `C:\Windows\SysWOW64\perfmon.exe`

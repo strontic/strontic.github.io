@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ftp.exe | File Transfer Program
+---
+
 # ftp.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\ftp.exe`
@@ -79,7 +82,7 @@ conhost.exe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ftp.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ftp.exe` being misused. While `ftp.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

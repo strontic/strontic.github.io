@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: McInst.exe | 
+---
+
 # McInst.exe 
 
 * File Path: `C:\ProgramData\McInstTemp0309601560372635\McInst.exe`

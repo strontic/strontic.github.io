@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BackgroundTransferHost.exe | Download/Upload Host
+---
+
 # BackgroundTransferHost.exe 
 
 * File Path: `C:\Windows\SysWOW64\BackgroundTransferHost.exe`

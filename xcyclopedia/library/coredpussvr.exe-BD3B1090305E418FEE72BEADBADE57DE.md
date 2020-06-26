@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: coredpussvr.exe | coredpussvr.exe
+---
+
 # coredpussvr.exe 
 
 * File Path: `C:\WINDOWS\system32\coredpussvr.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sethc.exe | Accessibility shortcut keys
+---
+
 # sethc.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\sethc.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sethc.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sethc.exe` being misused. While `sethc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

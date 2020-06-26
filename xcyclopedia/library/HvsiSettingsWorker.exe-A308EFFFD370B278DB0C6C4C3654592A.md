@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: HvsiSettingsWorker.exe | 
+---
+
 # HvsiSettingsWorker.exe 
 
 * File Path: `C:\WINDOWS\system32\HvsiSettingsWorker.exe`

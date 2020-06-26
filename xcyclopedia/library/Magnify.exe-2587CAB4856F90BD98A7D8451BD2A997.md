@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Magnify.exe | Microsoft Screen Magnifier
+---
+
 # Magnify.exe 
 
 * File Path: `C:\WINDOWS\system32\Magnify.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:RH9pV8Xv6h4WJlVY46jIx8GfOby13UtHpnzLadC8VdTiuHunwV:DpKXbqD6jI573U
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Magnify.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Magnify.exe` being misused. While `Magnify.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

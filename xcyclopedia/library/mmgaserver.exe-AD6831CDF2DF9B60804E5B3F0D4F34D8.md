@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: mmgaserver.exe | MMGA Server
+---
+
 # mmgaserver.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\mmgaserver.exe`

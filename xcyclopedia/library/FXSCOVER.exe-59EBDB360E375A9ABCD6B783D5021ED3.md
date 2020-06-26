@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: FXSCOVER.exe | Microsoft  Fax Cover Page Editor
+---
+
 # FXSCOVER.exe 
 
 * File Path: `C:\WINDOWS\system32\FXSCOVER.exe`

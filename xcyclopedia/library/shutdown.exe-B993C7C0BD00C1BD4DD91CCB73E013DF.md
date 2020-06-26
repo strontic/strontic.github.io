@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: shutdown.exe | Windows Shutdown and Annotation Tool
+---
+
 # shutdown.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\shutdown.exe`
@@ -136,7 +139,7 @@ E   	5	20	Loss of network connectivity (Unplanned)
 
 ## Possible Misuse
 
-*The following table contains possible examples of `shutdown.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `shutdown.exe` being misused. While `shutdown.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

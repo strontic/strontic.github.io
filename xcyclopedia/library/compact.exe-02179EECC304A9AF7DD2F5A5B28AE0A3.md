@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: compact.exe | File Compress Utility
+---
+
 # compact.exe 
 
 * File Path: `C:\Windows\SysWOW64\compact.exe`

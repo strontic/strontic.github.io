@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: GameBarPresenceWriter.exe | Gamebar Presence Writer
+---
+
 # GameBarPresenceWriter.exe 
 
 * File Path: `C:\Windows\SysWOW64\GameBarPresenceWriter.exe`

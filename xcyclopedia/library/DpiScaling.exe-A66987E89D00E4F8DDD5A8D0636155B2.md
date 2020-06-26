@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DpiScaling.exe | Display Control Panel
+---
+
 # DpiScaling.exe 
 
 * File Path: `C:\WINDOWS\system32\DpiScaling.exe`

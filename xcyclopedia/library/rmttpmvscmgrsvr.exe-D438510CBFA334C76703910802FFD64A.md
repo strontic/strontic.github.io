@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rmttpmvscmgrsvr.exe | TPM Virtual Smart Card Manager DCOM Server
+---
+
 # rmttpmvscmgrsvr.exe 
 
 * File Path: `C:\Windows\system32\rmttpmvscmgrsvr.exe`

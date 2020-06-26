@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: HelpPane.exe | Microsoft Help and Support
+---
+
 # HelpPane.exe 
 
 * File Path: `C:\WINDOWS\HelpPane.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `HelpPane.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `HelpPane.exe` being misused. While `HelpPane.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

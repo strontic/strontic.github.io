@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dtdump.exe | DTDUMP.EXE
+---
+
 # dtdump.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\dtdump.exe`

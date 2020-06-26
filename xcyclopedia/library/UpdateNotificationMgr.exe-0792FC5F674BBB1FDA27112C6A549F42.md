@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UpdateNotificationMgr.exe | Update Notification Pipeline Manager
+---
+
 # UpdateNotificationMgr.exe 
 
 * File Path: `C:\WINDOWS\system32\UNP\UpdateNotificationMgr.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration Tool
+---
+
 # ConfigSecurityPolicy.exe 
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2003.8-0\ConfigSecurityPolicy.exe`

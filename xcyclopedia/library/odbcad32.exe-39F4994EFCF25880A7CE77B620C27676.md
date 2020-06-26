@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: odbcad32.exe | ODBC Administrator
+---
+
 # odbcad32.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\odbcad32.exe`

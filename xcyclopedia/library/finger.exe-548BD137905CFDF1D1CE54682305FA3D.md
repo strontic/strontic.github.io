@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: finger.exe | TCPIP Finger Command
+---
+
 # finger.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\finger.exe`

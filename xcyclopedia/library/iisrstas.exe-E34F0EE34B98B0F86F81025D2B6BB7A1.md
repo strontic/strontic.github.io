@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: iisrstas.exe | Internet Information Services reset control
+---
+
 # iisrstas.exe 
 
 * File Path: `C:\Windows\system32\inetsrv\iisrstas.exe`

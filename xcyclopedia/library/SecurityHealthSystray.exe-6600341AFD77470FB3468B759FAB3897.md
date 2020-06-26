@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SecurityHealthSystray.exe | Windows Security notification icon
+---
+
 # SecurityHealthSystray.exe 
 
 * File Path: `C:\WINDOWS\system32\SecurityHealthSystray.exe`

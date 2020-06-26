@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SSCERuntime_x64-enu.exe | Microsoft SQL Server Compact 4.0 Setup
+---
+
 # SSCERuntime_x64-enu.exe 
 
 * File Path: `C:\ProgramData\Package Cache\E33F355F5E83D93099A732E2ECE02E07818B2696\packages\SSCE40\SSCERuntime_x64-enu.exe`

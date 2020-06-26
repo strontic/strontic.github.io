@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DmOmaCpMo.exe | Host Process for OMA-CP Client
+---
+
 # DmOmaCpMo.exe 
 
 * File Path: `C:\WINDOWS\system32\DmOmaCpMo.exe`

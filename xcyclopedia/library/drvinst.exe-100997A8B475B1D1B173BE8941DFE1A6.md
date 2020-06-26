@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: drvinst.exe | Driver Installation Module
+---
+
 # drvinst.exe 
 
 * File Path: `C:\WINDOWS\system32\drvinst.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:m2hSnc/gTJrTuNZxhfoyDigOqtJ+tGfOijamuJ4/0NZdY5s:acYd6Txhf0g1++uJ4
 
 ## Possible Misuse
 
-*The following table contains possible examples of `drvinst.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `drvinst.exe` being misused. While `drvinst.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

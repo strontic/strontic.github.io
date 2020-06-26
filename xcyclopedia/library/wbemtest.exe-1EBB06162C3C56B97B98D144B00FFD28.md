@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wbemtest.exe | WMI Test Tool
+---
+
 # wbemtest.exe 
 
 * File Path: `C:\Windows\system32\wbem\wbemtest.exe`

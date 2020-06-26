@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemUWPLauncher.exe | SystemUWPLauncher
+---
+
 # SystemUWPLauncher.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\SystemUWPLauncher.exe`

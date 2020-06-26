@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Sysmon64.exe | System activity monitor
+---
+
 # Sysmon64.exe 
 
 * File Path: `C:\WINDOWS\Sysmon64.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UpgradeSubscription.exe | Windows Upgrade to Subscription tool
+---
+
 # UpgradeSubscription.exe 
 
 * File Path: `C:\WINDOWS\system32\UpgradeSubscription.exe`

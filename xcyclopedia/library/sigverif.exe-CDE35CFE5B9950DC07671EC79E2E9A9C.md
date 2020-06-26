@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sigverif.exe | File Signature Verification
+---
+
 # sigverif.exe 
 
 * File Path: `C:\Windows\system32\sigverif.exe`

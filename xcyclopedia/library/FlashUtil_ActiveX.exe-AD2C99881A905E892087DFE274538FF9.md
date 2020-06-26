@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: FlashUtil_ActiveX.exe | Adobe Flash Player Utility
+---
+
 # FlashUtil_ActiveX.exe 
 
 * File Path: `C:\WINDOWS\system32\Macromed\Flash\FlashUtil_ActiveX.exe`

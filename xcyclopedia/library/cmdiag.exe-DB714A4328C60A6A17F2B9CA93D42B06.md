@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cmdiag.exe | 
+---
+
 # cmdiag.exe 
 
 * File Path: `C:\WINDOWS\system32\cmdiag.exe`

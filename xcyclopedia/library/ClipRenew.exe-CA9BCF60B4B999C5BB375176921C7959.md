@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ClipRenew.exe | Acquire License From Store
+---
+
 # ClipRenew.exe 
 
 * File Path: `C:\WINDOWS\system32\ClipRenew.exe`

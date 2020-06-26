@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: backgroundTaskHost.exe | Background Task Host
+---
+
 # backgroundTaskHost.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\backgroundTaskHost.exe`

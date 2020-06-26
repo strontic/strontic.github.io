@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: slui.exe | Windows Activation Client
+---
+
 # slui.exe 
 
 * File Path: `C:\Windows\system32\slui.exe`

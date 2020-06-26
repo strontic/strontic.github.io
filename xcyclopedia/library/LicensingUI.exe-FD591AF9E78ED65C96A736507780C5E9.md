@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LicensingUI.exe | Licensing UI
+---
+
 # LicensingUI.exe 
 
 * File Path: `C:\Windows\system32\LicensingUI.exe`

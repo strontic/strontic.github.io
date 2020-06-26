@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: eventcreate.exe | Event Create - Creates a custom event in an event log
+---
+
 # eventcreate.exe 
 
 * File Path: `C:\WINDOWS\system32\eventcreate.exe`

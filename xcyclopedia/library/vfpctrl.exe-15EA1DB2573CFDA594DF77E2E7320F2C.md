@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: vfpctrl.exe | vfpctrl.exe
+---
+
 # vfpctrl.exe 
 
 * File Path: `C:\WINDOWS\system32\vfpctrl.exe`

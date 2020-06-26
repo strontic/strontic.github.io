@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: pacjsworker.exe | HTTP Auto Proxy Detection Worker Process
+---
+
 # pacjsworker.exe 
 
 * File Path: `C:\WINDOWS\system32\pacjsworker.exe`

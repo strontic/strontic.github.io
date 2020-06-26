@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: aitstatic.exe | Application Impact Telemetry Static Analyzer
+---
+
 # aitstatic.exe 
 
 * File Path: `C:\WINDOWS\system32\aitstatic.exe`

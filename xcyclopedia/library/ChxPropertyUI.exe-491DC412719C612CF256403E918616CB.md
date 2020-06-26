@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ChxPropertyUI.exe | Microsoft IME
+---
+
 # ChxPropertyUI.exe 
 
 * File Path: `C:\WINDOWS\system32\InputMethod\SHARED\ChxPropertyUI.exe`

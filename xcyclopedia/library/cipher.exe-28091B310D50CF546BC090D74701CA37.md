@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cipher.exe | File Encryption Utility
+---
+
 # cipher.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\cipher.exe`
@@ -160,7 +163,7 @@ Displays or alters the encryption of directories [files] on NTFS partitions.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cipher.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cipher.exe` being misused. While `cipher.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

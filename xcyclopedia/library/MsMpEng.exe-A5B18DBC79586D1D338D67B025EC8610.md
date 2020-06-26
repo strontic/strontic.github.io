@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MsMpEng.exe | Antimalware Service Executable
+---
+
 # MsMpEng.exe 
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MsMpEng.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:fdI8TdDVcmoEVF5+KTeviKDmD/6u89VVE:fiMdDgYF5ADmT65BE`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MsMpEng.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MsMpEng.exe` being misused. While `MsMpEng.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

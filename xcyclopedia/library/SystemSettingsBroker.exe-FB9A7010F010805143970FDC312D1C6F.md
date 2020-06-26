@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemSettingsBroker.exe | System Settings Broker
+---
+
 # SystemSettingsBroker.exe 
 
 * File Path: `C:\Windows\system32\SystemSettingsBroker.exe`

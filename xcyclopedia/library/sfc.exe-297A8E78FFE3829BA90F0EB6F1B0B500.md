@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sfc.exe | System Integrity Check and Repair
+---
+
 # sfc.exe 
 
 * File Path: `C:\Windows\system32\sfc.exe`

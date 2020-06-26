@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PackageInspector.exe | PackageInspector allows creation of a catalog containing all executable files laid down by an installer
+---
+
 # PackageInspector.exe 
 
 * File Path: `C:\WINDOWS\system32\PackageInspector.exe`

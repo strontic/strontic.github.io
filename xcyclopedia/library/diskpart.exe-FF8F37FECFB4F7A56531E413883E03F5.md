@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: diskpart.exe | DiskPart
+---
+
 # diskpart.exe 
 
 * File Path: `C:\Windows\SysWOW64\diskpart.exe`
@@ -63,7 +66,7 @@ Microsoft DiskPart syntax:
 
 ## Possible Misuse
 
-*The following table contains possible examples of `diskpart.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `diskpart.exe` being misused. While `diskpart.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

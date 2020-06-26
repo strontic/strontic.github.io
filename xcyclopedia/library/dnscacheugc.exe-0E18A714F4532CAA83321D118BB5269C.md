@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dnscacheugc.exe | DNSCache Unattend Generic Command
+---
+
 # dnscacheugc.exe 
 
 * File Path: `C:\Windows\system32\dnscacheugc.exe`

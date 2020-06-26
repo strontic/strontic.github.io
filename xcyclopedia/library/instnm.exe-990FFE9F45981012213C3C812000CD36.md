@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: instnm.exe | 32-bit NetMeeting Installer for Win64
+---
+
 # instnm.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\instnm.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RemoteAppLifetimeManager.exe | RemoteAppLifetimeManager_ServerExe.exe
+---
+
 # RemoteAppLifetimeManager.exe 
 
 * File Path: `C:\WINDOWS\system32\RemoteAppLifetimeManager.exe`

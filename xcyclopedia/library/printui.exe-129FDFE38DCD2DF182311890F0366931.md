@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: printui.exe | Change Printing Settings
+---
+
 # printui.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\printui.exe`

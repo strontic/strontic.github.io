@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dpnsvr.exe | DirectPlay Stub
+---
+
 # dpnsvr.exe 
 
 * File Path: `C:\WINDOWS\system32\dpnsvr.exe`

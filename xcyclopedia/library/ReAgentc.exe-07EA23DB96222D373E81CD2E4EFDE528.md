@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ReAgentc.exe | Microsoft Windows Recovery Agent
+---
+
 # ReAgentc.exe 
 
 * File Path: `C:\Windows\system32\ReAgentc.exe`

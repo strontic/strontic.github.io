@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MsSpellCheckingHost.exe | Microsoft Spell Checking Host
+---
+
 # MsSpellCheckingHost.exe 
 
 * File Path: `C:\WINDOWS\system32\MsSpellCheckingHost.exe`

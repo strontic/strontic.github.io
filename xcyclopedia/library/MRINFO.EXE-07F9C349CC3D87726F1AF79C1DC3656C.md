@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MRINFO.EXE | Multicast Information
+---
+
 # MRINFO.EXE 
 
 * File Path: `C:\WINDOWS\SysWOW64\MRINFO.EXE`

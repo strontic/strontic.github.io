@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sethc.exe | Accessibility shortcut keys
+---
+
 # sethc.exe 
 
 * File Path: `C:\WINDOWS\system32\sethc.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:It+nB7SR0oZGHcb9q+HIt+wwtnK7sOK/qRLb48sm9+W/6H5lNdzDv:vB7SRUHwq+H
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sethc.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sethc.exe` being misused. While `sethc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

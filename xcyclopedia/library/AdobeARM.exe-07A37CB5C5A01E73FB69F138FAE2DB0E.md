@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AdobeARM.exe | Adobe Reader and Acrobat Manager
+---
+
 # AdobeARM.exe 
 
 * File Path: `C:\ProgramData\Adobe\ARM\Acrobat_10.1.12\23913\AdobeARM.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:pdzFuqW7mmusNTu9An4SrnDPgM7yCNtON0eFd:pdzFuqUmS8SfyCN4+eFd`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AdobeARM.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AdobeARM.exe` being misused. While `AdobeARM.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

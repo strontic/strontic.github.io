@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dllhost.exe | COM Surrogate
+---
+
 # dllhost.exe 
 
 * File Path: `C:\Windows\SysWOW64\dllhost.exe`
@@ -52,7 +55,7 @@ SSDEEP | `384:q8ZKHtffwK/8LCsSW/5WyqolRDBRJ73lJQfy:lYXwK0LCs7Jqk1PT9`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dllhost.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dllhost.exe` being misused. While `dllhost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

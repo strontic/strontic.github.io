@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AuditShD.exe | Audit Mode Desktop Switch Utility
+---
+
 # AuditShD.exe 
 
 * File Path: `C:\Windows\system32\oobe\AuditShD.exe`

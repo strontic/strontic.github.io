@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: help.exe | Command Line Help Utility
+---
+
 # help.exe 
 
 * File Path: `C:\WINDOWS\system32\help.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: poqexec.exe | Primitive Operations Queue Executor
+---
+
 # poqexec.exe 
 
 * File Path: `C:\WINDOWS\system32\poqexec.exe`

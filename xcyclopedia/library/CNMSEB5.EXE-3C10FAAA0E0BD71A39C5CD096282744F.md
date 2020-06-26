@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CNMSEB5.EXE | Canon IJ Print Utility
+---
+
 # CNMSEB5.EXE 
 
 * File Path: `C:\WINDOWS\system32\spool\drivers\x64\3\CNMSEB5.EXE`

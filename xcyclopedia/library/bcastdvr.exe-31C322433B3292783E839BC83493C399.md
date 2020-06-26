@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bcastdvr.exe | Broadcast DVR server
+---
+
 # bcastdvr.exe 
 
 * File Path: `C:\Windows\system32\bcastdvr.exe`

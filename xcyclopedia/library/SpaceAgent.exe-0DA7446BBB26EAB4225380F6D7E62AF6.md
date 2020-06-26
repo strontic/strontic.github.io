@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SpaceAgent.exe | Storage Spaces Settings
+---
+
 # SpaceAgent.exe 
 
 * File Path: `C:\Windows\system32\SpaceAgent.exe`

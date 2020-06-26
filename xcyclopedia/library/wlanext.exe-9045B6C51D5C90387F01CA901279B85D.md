@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wlanext.exe | Windows Wireless LAN 802.11 Extensibility Framework
+---
+
 # wlanext.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\wlanext.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:Baom1KGJQ9yJKySgGtPtdCkdhy/RkS6NAAu6H3VTtkyHba9ftjG/FTR4m4kRmbtA:w
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wlanext.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wlanext.exe` being misused. While `wlanext.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

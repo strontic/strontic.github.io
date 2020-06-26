@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: InstallAgent.exe | InstallAgent
+---
+
 # InstallAgent.exe 
 
 * File Path: `C:\Windows\SysWOW64\InstallAgent.exe`

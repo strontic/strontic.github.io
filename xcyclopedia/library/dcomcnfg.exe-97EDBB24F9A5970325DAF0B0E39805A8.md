@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dcomcnfg.exe | COM+
+---
+
 # dcomcnfg.exe 
 
 * File Path: `C:\Windows\system32\dcomcnfg.exe`

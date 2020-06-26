@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CertEnrollCtrl.exe | Certificate Enrollment Control
+---
+
 # CertEnrollCtrl.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\CertEnrollCtrl.exe`

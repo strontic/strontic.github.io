@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MicrosoftEdgeSH.exe | Microsoft Edge Web Platform
+---
+
 # MicrosoftEdgeSH.exe 
 
 * File Path: `C:\WINDOWS\system32\MicrosoftEdgeSH.exe`

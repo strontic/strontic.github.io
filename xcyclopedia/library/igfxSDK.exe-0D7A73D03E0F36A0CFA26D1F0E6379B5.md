@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: igfxSDK.exe | 
+---
+
 # igfxSDK.exe 
 
 * File Path: `C:\WINDOWS\system32\igfxSDK.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: immersivetpmvscmgrsvr.exe | Immersive TPM Virtual Smart Card Manager COM Server
+---
+
 # immersivetpmvscmgrsvr.exe 
 
 * File Path: `C:\Windows\system32\immersivetpmvscmgrsvr.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PasswordOnWakeSettingFlyout.exe | User CPL Password on wake setting flyout
+---
+
 # PasswordOnWakeSettingFlyout.exe 
 
 * File Path: `C:\WINDOWS\system32\PasswordOnWakeSettingFlyout.exe`

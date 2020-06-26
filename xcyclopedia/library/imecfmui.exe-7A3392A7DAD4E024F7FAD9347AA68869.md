@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: imecfmui.exe | Microsoft IME
+---
+
 # imecfmui.exe 
 
 * File Path: `C:\Windows\SysWOW64\IME\SHARED\imecfmui.exe`

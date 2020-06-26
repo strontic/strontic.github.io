@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WerFault.exe | Windows Problem Reporting
+---
+
 # WerFault.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\WerFault.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:Ckr/VXnt5NxZll0APF8qgLf6tm9sFvIc2Hywv:Xr/VXnt5NxZlb6r9sFvIcyhv`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WerFault.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WerFault.exe` being misused. While `WerFault.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

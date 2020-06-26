@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IDTNJ.exe | IDT PC Audio
+---
+
 # IDTNJ.exe 
 
 * File Path: `C:\WINDOWS\system32\IDTNJ.exe`

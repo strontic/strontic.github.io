@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ImeBroker.exe | Microsoft IME
+---
+
 # ImeBroker.exe 
 
 * File Path: `C:\WINDOWS\system32\IME\SHARED\ImeBroker.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sort.exe | Sort Utility
+---
+
 # sort.exe 
 
 * File Path: `C:\Windows\system32\sort.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: changepk.exe | Windows Activation
+---
+
 # changepk.exe 
 
 * File Path: `C:\WINDOWS\system32\changepk.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AuthHost.exe | Microsoft AuthHost
+---
+
 # AuthHost.exe 
 
 * File Path: `C:\WINDOWS\system32\AuthHost.exe`

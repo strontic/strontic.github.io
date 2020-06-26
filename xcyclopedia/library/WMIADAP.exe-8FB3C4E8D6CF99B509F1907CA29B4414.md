@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WMIADAP.exe | WMI Reverse Performance Adapter Maintenance Utility
+---
+
 # WMIADAP.exe 
 
 * File Path: `C:\Windows\system32\wbem\WMIADAP.exe`

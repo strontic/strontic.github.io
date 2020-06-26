@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
+---
+
 # cleanmgr.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\cleanmgr.exe`

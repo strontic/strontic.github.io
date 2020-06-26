@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DeviceEject.exe | Eject Device
+---
+
 # DeviceEject.exe 
 
 * File Path: `C:\WINDOWS\system32\DeviceEject.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WinBioDataModelOOBE.exe | WinBioDataModel OOBE
+---
+
 # WinBioDataModelOOBE.exe 
 
 * File Path: `C:\WINDOWS\system32\WinBioDataModelOOBE.exe`

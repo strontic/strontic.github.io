@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BRAL130.EXE | Printer Driver Application Launcher
+---
+
 # BRAL130.EXE 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\brpri15c.inf_amd64_0690de4775ab2976\amd64\BRAL130.EXE`

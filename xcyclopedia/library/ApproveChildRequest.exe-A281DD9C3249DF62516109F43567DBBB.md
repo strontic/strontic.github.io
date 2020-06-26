@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ApproveChildRequest.exe | Grant more screen time
+---
+
 # ApproveChildRequest.exe 
 
 * File Path: `C:\WINDOWS\system32\ApproveChildRequest.exe`

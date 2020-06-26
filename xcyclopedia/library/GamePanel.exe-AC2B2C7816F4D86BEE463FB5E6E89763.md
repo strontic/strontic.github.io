@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: GamePanel.exe | Game Bar
+---
+
 # GamePanel.exe 
 
 * File Path: `C:\Windows\SysWOW64\GamePanel.exe`

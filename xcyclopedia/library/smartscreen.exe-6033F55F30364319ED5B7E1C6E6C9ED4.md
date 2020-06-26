@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: smartscreen.exe | Windows Defender SmartScreen
+---
+
 # smartscreen.exe 
 
 * File Path: `C:\WINDOWS\system32\smartscreen.exe`
@@ -52,7 +55,7 @@ SSDEEP | `49152:FkFfgfHzq9YKudUyiIWllo5hwHKAAdFpl9SdICBZgX5k8r37UnxNDg:ebsr37eN`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `smartscreen.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `smartscreen.exe` being misused. While `smartscreen.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

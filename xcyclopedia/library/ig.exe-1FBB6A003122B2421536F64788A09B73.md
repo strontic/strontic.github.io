@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ig.exe | Malware Scanner
+---
+
 # ig.exe 
 
 * File Path: `C:\ProgramData\Malwarebytes\MBAMService\dbclsupdate\staging\ig.exe`

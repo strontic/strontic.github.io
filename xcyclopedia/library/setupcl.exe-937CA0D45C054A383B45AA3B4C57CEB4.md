@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: setupcl.exe | System Clone Tool
+---
+
 # setupcl.exe 
 
 * File Path: `C:\WINDOWS\system32\setupcl.exe`

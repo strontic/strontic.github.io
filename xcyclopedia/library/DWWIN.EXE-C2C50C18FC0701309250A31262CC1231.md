@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DWWIN.EXE | Windows Error Reporting
+---
+
 # DWWIN.EXE 
 
 * File Path: `C:\Windows\SysWOW64\DWWIN.EXE`

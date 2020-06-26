@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: nvspinfo.exe | "nvspinfo.PROGRAM"
+---
+
 # nvspinfo.exe 
 
 * File Path: `C:\WINDOWS\system32\nvspinfo.exe`

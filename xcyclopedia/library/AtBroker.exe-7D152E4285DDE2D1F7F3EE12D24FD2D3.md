@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AtBroker.exe | Windows Assistive Technology Manager
+---
+
 # AtBroker.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\AtBroker.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:z/l35mNtIZ1gSOQQ1Pu/lLVitQYTpQpQ5KEYe/qh0xdITx6xr0HvHxlKL0mY9T:jlh
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AtBroker.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AtBroker.exe` being misused. While `AtBroker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

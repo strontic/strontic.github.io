@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ntoskrnl.exe | NT Kernel & System
+---
+
 # ntoskrnl.exe 
 
 * File Path: `C:\Windows\system32\ntoskrnl.exe`
@@ -52,7 +55,7 @@ SSDEEP | `98304:BgHF7AG/Ci96g1OMezQ3ux5EHFQqQyLDPQXT:B2FX/jAcOMeU3uAHFQqQMoXT`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ntoskrnl.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ntoskrnl.exe` being misused. While `ntoskrnl.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

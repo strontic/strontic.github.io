@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMTCLNWZ.EXE | IMTCLNWZ.exe
+---
+
 # IMTCLNWZ.EXE 
 
 * File Path: `C:\Windows\system32\IME\IMETC\IMTCLNWZ.EXE`

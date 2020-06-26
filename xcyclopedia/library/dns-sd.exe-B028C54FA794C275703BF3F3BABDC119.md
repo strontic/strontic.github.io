@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dns-sd.exe | Bonjour Console Utility
+---
+
 # dns-sd.exe 
 
 * File Path: `C:\Windows\system32\dns-sd.exe`

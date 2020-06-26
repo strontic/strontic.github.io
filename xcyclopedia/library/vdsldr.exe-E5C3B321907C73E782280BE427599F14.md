@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: vdsldr.exe | Virtual Disk Service Loader
+---
+
 # vdsldr.exe 
 
 * File Path: `C:\Windows\system32\vdsldr.exe`

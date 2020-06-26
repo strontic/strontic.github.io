@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hwrreg.exe | Microsoft Custom Dictionary Registration Tool
+---
+
 # hwrreg.exe 
 
 * File Path: `C:\Windows\system32\hwrreg.exe`

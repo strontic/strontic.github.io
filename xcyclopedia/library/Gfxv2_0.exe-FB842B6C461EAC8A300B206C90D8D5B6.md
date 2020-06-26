@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Gfxv2_0.exe | Intel(R) Graphics Control Panel
+---
+
 # Gfxv2_0.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\Gfxv2_0.exe`

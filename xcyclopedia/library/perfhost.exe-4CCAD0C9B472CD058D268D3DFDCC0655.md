@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: perfhost.exe | x86 Performance Counter Host
+---
+
 # perfhost.exe 
 
 * File Path: `C:\Windows\SysWOW64\perfhost.exe`

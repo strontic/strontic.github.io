@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SetupAdmin.exe | Apple Installer (Elevated)
+---
+
 # SetupAdmin.exe 
 
 * File Path: `C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.2.0.67\SetupAdmin.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: fhmanagew.exe | File History Management Tool
+---
+
 # fhmanagew.exe 
 
 * File Path: `C:\WINDOWS\system32\fhmanagew.exe`

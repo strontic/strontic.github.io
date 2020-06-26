@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: regini.exe | Registry Initializer
+---
+
 # regini.exe 
 
 * File Path: `C:\Windows\system32\regini.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wininit.exe | Windows Start-Up Application
+---
+
 # wininit.exe 
 
 * File Path: `C:\Windows\system32\wininit.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:NbuwYWApz2Q7BypXPZBxJT+ywlA7finB+6lwzQ+boT:NbHApKQ7ByhZHV+fLEzQT`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wininit.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wininit.exe` being misused. While `wininit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

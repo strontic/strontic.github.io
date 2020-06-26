@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: mstsc.exe | Remote Desktop Connection
+---
+
 # mstsc.exe 
 
 * File Path: `C:\Windows\system32\mstsc.exe`
@@ -52,7 +55,7 @@ SSDEEP | `98304:1wmZMEPXNi7qBGc0q50XT39ehY/BfZGoO0tpbEJ33lxMg:1wmZMEPXNi7qBP0q50
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mstsc.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mstsc.exe` being misused. While `mstsc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MicrosoftEdgeCP.exe | Microsoft Edge Content Process
+---
+
 # MicrosoftEdgeCP.exe 
 
 * File Path: `C:\WINDOWS\system32\MicrosoftEdgeCP.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: FlashPlayerApp.exe | Adobe Flash Player Control Panel Applet
+---
+
 # FlashPlayerApp.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\FlashPlayerApp.exe`

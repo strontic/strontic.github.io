@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tpmvscmgrsvr.exe | TPM Virtual Smart Card Manager COM Server
+---
+
 # tpmvscmgrsvr.exe 
 
 * File Path: `C:\Windows\system32\tpmvscmgrsvr.exe`

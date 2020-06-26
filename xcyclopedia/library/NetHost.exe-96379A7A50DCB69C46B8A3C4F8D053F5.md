@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: NetHost.exe | EXE for configuring VPN proxy
+---
+
 # NetHost.exe 
 
 * File Path: `C:\Windows\system32\NetHost.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AppVStreamingUX.exe |  
+---
+
 # AppVStreamingUX.exe 
 
 * File Path: `C:\Windows\system32\AppVStreamingUX.exe`

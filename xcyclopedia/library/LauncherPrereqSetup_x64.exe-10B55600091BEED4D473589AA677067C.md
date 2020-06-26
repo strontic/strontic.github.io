@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LauncherPrereqSetup_x64.exe | Launcher Prerequisites (x64)
+---
+
 # LauncherPrereqSetup_x64.exe 
 
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\LauncherPrereqSetup_x64.exe`

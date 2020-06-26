@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: comp.exe | File Compare Utility
+---
+
 # comp.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\comp.exe`

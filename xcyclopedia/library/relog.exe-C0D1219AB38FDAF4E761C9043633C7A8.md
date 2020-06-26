@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: relog.exe | Performance Relogging Utility
+---
+
 # relog.exe 
 
 * File Path: `C:\WINDOWS\system32\relog.exe`

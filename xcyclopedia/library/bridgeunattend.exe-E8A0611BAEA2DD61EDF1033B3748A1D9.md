@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bridgeunattend.exe | Bridge Unattend Utility
+---
+
 # bridgeunattend.exe 
 
 * File Path: `C:\Windows\system32\bridgeunattend.exe`

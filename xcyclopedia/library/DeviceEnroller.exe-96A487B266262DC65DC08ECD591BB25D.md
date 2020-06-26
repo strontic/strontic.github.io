@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DeviceEnroller.exe | API for MDM Enrollment
+---
+
 # DeviceEnroller.exe 
 
 * File Path: `C:\Windows\system32\DeviceEnroller.exe`

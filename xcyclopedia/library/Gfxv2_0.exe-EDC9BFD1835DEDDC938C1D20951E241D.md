@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Gfxv2_0.exe | Intel(R) Graphics Control Panel
+---
+
 # Gfxv2_0.exe 
 
 * File Path: `C:\WINDOWS\system32\Gfxv2_0.exe`

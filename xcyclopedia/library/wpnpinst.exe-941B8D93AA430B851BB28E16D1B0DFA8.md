@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wpnpinst.exe | Support exe for Internet Printing
+---
+
 # wpnpinst.exe 
 
 * File Path: `C:\WINDOWS\system32\wpnpinst.exe`

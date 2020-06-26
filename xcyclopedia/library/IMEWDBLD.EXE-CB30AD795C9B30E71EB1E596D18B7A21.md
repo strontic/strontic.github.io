@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
+---
+
 # IMEWDBLD.EXE 
 
 * File Path: `C:\WINDOWS\system32\IME\SHARED\IMEWDBLD.EXE`

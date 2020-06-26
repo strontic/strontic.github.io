@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SppExtComObj.Exe | KMS Connection Broker
+---
+
 # SppExtComObj.Exe 
 
 * File Path: `C:\Windows\system32\SppExtComObj.Exe`

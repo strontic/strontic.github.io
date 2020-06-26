@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: regedt32.exe | Registry Editor Utility
+---
+
 # regedt32.exe 
 
 * File Path: `C:\Windows\system32\regedt32.exe`

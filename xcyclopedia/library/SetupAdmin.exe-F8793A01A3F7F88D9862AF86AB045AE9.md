@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SetupAdmin.exe | Apple Installer (Elevated)
+---
+
 # SetupAdmin.exe 
 
 * File Path: `C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.5.12\SetupAdmin.exe`

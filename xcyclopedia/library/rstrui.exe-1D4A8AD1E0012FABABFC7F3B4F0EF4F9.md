@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rstrui.exe | Microsoft Windows System Restore
+---
+
 # rstrui.exe 
 
 * File Path: `C:\WINDOWS\system32\rstrui.exe`

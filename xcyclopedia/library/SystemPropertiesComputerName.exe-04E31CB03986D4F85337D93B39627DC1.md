@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesComputerName.exe | Change Computer Settings
+---
+
 # SystemPropertiesComputerName.exe 
 
 * File Path: `C:\WINDOWS\system32\SystemPropertiesComputerName.exe`

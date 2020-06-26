@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RpcPing.exe | RPC Ping Utility
+---
+
 # RpcPing.exe 
 
 * File Path: `C:\WINDOWS\system32\RpcPing.exe`
@@ -250,7 +253,7 @@ the typical profile.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RpcPing.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RpcPing.exe` being misused. While `RpcPing.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

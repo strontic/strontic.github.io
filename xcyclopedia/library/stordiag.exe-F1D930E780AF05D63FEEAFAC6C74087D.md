@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: stordiag.exe |  
+---
+
 # stordiag.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\stordiag.exe`

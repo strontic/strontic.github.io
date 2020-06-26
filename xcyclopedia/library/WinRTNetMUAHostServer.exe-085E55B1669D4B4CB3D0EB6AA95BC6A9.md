@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WinRTNetMUAHostServer.exe | WinRTNet MUA HostServer EXE
+---
+
 # WinRTNetMUAHostServer.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\WinRTNetMUAHostServer.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tttracer.exe | Time Travel Tracing Tracer Tool
+---
+
 # tttracer.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\tttracer.exe`
@@ -56,7 +59,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `tttracer.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `tttracer.exe` being misused. While `tttracer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dmclient.exe | Microsoft Feedback SIUF Deployment Manager Client
+---
+
 # dmclient.exe 
 
 * File Path: `C:\WINDOWS\system32\dmclient.exe`

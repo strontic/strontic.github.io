@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SlideToShutDown.exe | SlideToShutDown
+---
+
 # SlideToShutDown.exe 
 
 * File Path: `C:\WINDOWS\system32\SlideToShutDown.exe`

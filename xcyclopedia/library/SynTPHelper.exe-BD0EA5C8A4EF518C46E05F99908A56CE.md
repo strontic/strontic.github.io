@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SynTPHelper.exe | Synaptics Pointing Device Helper
+---
+
 # SynTPHelper.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_b28b907efbdd0634\SynTPHelper.exe`

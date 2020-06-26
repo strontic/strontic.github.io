@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ServerManagerLauncher.exe | Server Manager Launcher
+---
+
 # ServerManagerLauncher.exe 
 
 * File Path: `C:\Windows\system32\ServerManagerLauncher.exe`

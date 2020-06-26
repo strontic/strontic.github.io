@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wlrmdr.exe | Windows logon reminder
+---
+
 # wlrmdr.exe 
 
 * File Path: `C:\Windows\system32\wlrmdr.exe`

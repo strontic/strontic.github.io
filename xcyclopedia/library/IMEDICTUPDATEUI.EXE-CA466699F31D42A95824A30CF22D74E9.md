@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMEDICTUPDATEUI.EXE | Microsoft IME
+---
+
 # IMEDICTUPDATEUI.EXE 
 
 * File Path: `C:\Windows\system32\IME\SHARED\IMEDICTUPDATEUI.EXE`

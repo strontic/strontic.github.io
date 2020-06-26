@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dfrgui.exe | Microsoft Drive Optimizer
+---
+
 # dfrgui.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\dfrgui.exe`

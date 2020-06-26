@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: raserver.exe | Windows Remote Assistance COM Server
+---
+
 # raserver.exe 
 
 * File Path: `C:\WINDOWS\system32\raserver.exe`

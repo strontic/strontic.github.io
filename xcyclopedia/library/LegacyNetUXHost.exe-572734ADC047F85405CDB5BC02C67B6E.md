@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LegacyNetUXHost.exe | Legacy Net UX Host
+---
+
 # LegacyNetUXHost.exe 
 
 * File Path: `C:\WINDOWS\system32\LegacyNetUXHost.exe`

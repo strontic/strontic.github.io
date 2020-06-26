@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MdmDiagnosticsTool.exe | MdmDiagnosticsTool
+---
+
 # MdmDiagnosticsTool.exe 
 
 * File Path: `C:\WINDOWS\system32\MdmDiagnosticsTool.exe`

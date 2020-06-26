@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msdt.exe | Diagnostics Troubleshooting Wizard
+---
+
 # msdt.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\msdt.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:wBGliP5NYIuL/uzcYdt1r1nLrXujAlhKsjbAObd8fXrpirWMyL:wHU/uZNr1+AlhK
 
 ## Possible Misuse
 
-*The following table contains possible examples of `msdt.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `msdt.exe` being misused. While `msdt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

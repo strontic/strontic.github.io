@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: winhlp32.exe | Windows Winhlp32 Stub
+---
+
 # winhlp32.exe 
 
 * File Path: `C:\WINDOWS\winhlp32.exe`

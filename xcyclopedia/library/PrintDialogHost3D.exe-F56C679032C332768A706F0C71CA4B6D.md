@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PrintDialogHost3D.exe | Print Dialog Host 3D
+---
+
 # PrintDialogHost3D.exe 
 
 * File Path: `C:\Windows\system32\PrintDialogHost3D.exe`

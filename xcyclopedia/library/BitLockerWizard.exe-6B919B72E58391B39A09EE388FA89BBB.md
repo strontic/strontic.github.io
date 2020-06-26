@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BitLockerWizard.exe | BitLocker Drive Encryption Wizard
+---
+
 # BitLockerWizard.exe 
 
 * File Path: `C:\WINDOWS\system32\BitLockerWizard.exe`

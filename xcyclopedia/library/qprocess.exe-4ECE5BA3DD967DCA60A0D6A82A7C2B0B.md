@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: qprocess.exe | Query Process Utility
+---
+
 # qprocess.exe 
 
 * File Path: `C:\Windows\SysWOW64\qprocess.exe`
@@ -77,7 +80,7 @@ QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
 
 ## Possible Misuse
 
-*The following table contains possible examples of `qprocess.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `qprocess.exe` being misused. While `qprocess.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

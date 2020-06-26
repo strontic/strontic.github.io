@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesAdvanced.exe | Advanced System Settings
+---
+
 # SystemPropertiesAdvanced.exe 
 
 * File Path: `C:\Windows\system32\SystemPropertiesAdvanced.exe`

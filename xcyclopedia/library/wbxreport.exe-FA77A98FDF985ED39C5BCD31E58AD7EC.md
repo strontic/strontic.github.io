@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wbxreport.exe | WBXReport Module
+---
+
 # wbxreport.exe 
 
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_TC\wbxreport.exe`

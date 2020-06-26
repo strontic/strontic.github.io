@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MdRes.exe | Windows Memory Diagnostic
+---
+
 # MdRes.exe 
 
 * File Path: `C:\Windows\system32\MdRes.exe`

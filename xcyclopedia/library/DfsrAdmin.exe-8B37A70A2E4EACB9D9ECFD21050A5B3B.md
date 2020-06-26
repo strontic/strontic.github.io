@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DfsrAdmin.exe | DFS Replication Command Line
+---
+
 # DfsrAdmin.exe 
 
 * File Path: `C:\Windows\DfsrAdmin.exe`

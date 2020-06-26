@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: java.exe | Java(TM) Platform SE binary
+---
+
 # java.exe 
 
 * File Path: `C:\ProgramData\Oracle\Java\javapath\java.exe`
@@ -55,7 +58,7 @@ Error: Could not find Java SE Runtime Environment.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `java.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `java.exe` being misused. While `java.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

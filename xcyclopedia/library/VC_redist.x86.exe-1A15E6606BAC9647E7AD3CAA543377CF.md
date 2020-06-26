@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: VC_redist.x86.exe | Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23026
+---
+
 # VC_redist.x86.exe 
 
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vcRedistD14\VC_redist.x86.exe`

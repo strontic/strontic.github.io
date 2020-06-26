@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bootim.exe | boot immersive menus
+---
+
 # bootim.exe 
 
 * File Path: `C:\WINDOWS\system32\bootim.exe`

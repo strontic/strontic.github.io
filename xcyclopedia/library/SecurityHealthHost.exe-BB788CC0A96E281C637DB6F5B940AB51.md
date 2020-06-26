@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SecurityHealthHost.exe | Windows Security Health Host
+---
+
 # SecurityHealthHost.exe 
 
 * File Path: `C:\WINDOWS\system32\SecurityHealthHost.exe`

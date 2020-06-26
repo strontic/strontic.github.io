@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: difx64.exe | 64 bit driver installer
+---
+
 # difx64.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\difx64.exe`

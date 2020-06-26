@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WmiPrvSE.exe | WMI Provider Host
+---
+
 # WmiPrvSE.exe 
 
 * File Path: `C:\Windows\system32\wbem\WmiPrvSE.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:JaKgCnAi4d8qi0/aNEHOSckNGxnqn9mu69mO8nX5SjPgep5nn2/DeP:fAuqiGHY0G
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WmiPrvSE.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WmiPrvSE.exe` being misused. While `WmiPrvSE.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

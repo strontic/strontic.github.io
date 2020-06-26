@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msdtc.exe | Microsoft Distributed Transaction Coordinator Service
+---
+
 # msdtc.exe 
 
 * File Path: `C:\WINDOWS\system32\msdtc.exe`

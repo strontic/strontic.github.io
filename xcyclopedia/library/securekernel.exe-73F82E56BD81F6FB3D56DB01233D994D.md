@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: securekernel.exe | NT Secure Kernel
+---
+
 # securekernel.exe 
 
 * File Path: `C:\Windows\system32\securekernel.exe`

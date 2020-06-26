@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CloudStorageWizard.exe | CloudStorageWizard
+---
+
 # CloudStorageWizard.exe 
 
 * File Path: `C:\Windows\SysWOW64\CloudStorageWizard.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rdrleakdiag.exe | Microsoft Windows Resource Leak Diagnostic
+---
+
 # rdrleakdiag.exe 
 
 * File Path: `C:\WINDOWS\system32\rdrleakdiag.exe`

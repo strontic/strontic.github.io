@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemSettingsRemoveDevice.exe | SystemSettingsRemoveDevice
+---
+
 # SystemSettingsRemoveDevice.exe 
 
 * File Path: `C:\WINDOWS\system32\SystemSettingsRemoveDevice.exe`

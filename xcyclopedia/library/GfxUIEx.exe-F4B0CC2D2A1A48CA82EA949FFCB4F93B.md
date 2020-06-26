@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: GfxUIEx.exe | GFXUIEX Module
+---
+
 # GfxUIEx.exe 
 
 * File Path: `C:\WINDOWS\system32\GfxUIEx.exe`

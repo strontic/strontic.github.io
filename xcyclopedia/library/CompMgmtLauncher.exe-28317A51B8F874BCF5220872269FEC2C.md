@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CompMgmtLauncher.exe | Computer Management Snapin Launcher
+---
+
 # CompMgmtLauncher.exe 
 
 * File Path: `C:\Windows\system32\CompMgmtLauncher.exe`

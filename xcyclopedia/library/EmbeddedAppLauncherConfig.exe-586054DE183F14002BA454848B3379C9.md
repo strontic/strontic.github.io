@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: EmbeddedAppLauncherConfig.exe | Embedded App Launcher config
+---
+
 # EmbeddedAppLauncherConfig.exe 
 
 * File Path: `C:\Windows\system32\EmbeddedAppLauncherConfig.exe`

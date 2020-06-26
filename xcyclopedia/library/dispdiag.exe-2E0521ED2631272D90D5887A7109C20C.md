@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dispdiag.exe | Display Diagnostics
+---
+
 # dispdiag.exe 
 
 * File Path: `C:\Windows\system32\dispdiag.exe`

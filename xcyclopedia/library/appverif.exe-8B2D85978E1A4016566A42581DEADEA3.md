@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: appverif.exe | Application Verifier User Interface Utility
+---
+
 # appverif.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\appverif.exe`

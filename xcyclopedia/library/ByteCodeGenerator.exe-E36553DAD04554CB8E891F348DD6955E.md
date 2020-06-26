@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ByteCodeGenerator.exe | AppX Deployment Bytecode Generator EXE
+---
+
 # ByteCodeGenerator.exe 
 
 * File Path: `C:\Windows\system32\ByteCodeGenerator.exe`

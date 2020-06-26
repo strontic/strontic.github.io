@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: expand.exe | LZ Expansion Utility
+---
+
 # expand.exe 
 
 * File Path: `C:\WINDOWS\system32\expand.exe`
@@ -72,7 +75,7 @@ EXPAND Source.cab -F:Files Destination
 
 ## Possible Misuse
 
-*The following table contains possible examples of `expand.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `expand.exe` being misused. While `expand.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

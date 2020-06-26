@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DevicePairingWizard.exe | Device Pairing Application
+---
+
 # DevicePairingWizard.exe 
 
 * File Path: `C:\Windows\system32\DevicePairingWizard.exe`

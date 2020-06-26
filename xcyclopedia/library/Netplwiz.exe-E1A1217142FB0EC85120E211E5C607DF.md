@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Netplwiz.exe | Advanced User Accounts Control Panel
+---
+
 # Netplwiz.exe 
 
 * File Path: `C:\Windows\SysWOW64\Netplwiz.exe`

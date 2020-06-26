@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Robocopy.exe | Microsoft Robocopy
+---
+
 # Robocopy.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\Robocopy.exe`
@@ -224,7 +227,7 @@ SSDEEP | `3072:IPpN18Y+qCVM8apAGjTEAUQ4hlgFWCyju2ECI+e:ipNTnBeqrhC`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Robocopy.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Robocopy.exe` being misused. While `Robocopy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

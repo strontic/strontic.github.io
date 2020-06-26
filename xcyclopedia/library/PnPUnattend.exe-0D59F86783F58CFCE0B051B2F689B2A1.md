@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PnPUnattend.exe | PnP unattend action
+---
+
 # PnPUnattend.exe 
 
 * File Path: `C:\WINDOWS\system32\PnPUnattend.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dllhst3g.exe | COM Surrogate
+---
+
 # dllhst3g.exe 
 
 * File Path: `C:\WINDOWS\system32\dllhst3g.exe`

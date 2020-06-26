@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SearchIndexer.exe | Microsoft Windows Search Indexer
+---
+
 # SearchIndexer.exe 
 
 * File Path: `C:\WINDOWS\system32\SearchIndexer.exe`
@@ -52,7 +55,7 @@ SSDEEP | `24576:njii3HccalYk+8etruJUAa9MGJ3vphTH:njiMfD8QuJUAalvph`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SearchIndexer.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SearchIndexer.exe` being misused. While `SearchIndexer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

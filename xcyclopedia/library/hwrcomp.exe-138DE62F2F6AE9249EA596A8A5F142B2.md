@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hwrcomp.exe | Microsoft Custom Dictionary Compiler
+---
+
 # hwrcomp.exe 
 
 * File Path: `C:\Windows\system32\hwrcomp.exe`

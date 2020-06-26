@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wifitask.exe | Wireless Background Task
+---
+
 # wifitask.exe 
 
 * File Path: `C:\WINDOWS\system32\wifitask.exe`

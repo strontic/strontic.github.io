@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dpapimig.exe | DPAPI Key Migration Wizard
+---
+
 # dpapimig.exe 
 
 * File Path: `C:\WINDOWS\system32\dpapimig.exe`

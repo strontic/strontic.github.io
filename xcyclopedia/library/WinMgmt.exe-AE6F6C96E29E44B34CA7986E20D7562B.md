@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WinMgmt.exe | WMI Service Control Utility
+---
+
 # WinMgmt.exe 
 
 * File Path: `C:\Windows\SysWOW64\wbem\WinMgmt.exe`

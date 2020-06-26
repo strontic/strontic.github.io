@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMCCPHR.exe | IMCCPHR.exe
+---
+
 # IMCCPHR.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\IME\SHARED\IMCCPHR.exe`

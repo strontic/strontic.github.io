@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: difx64.exe | 64 bit driver installer
+---
+
 # difx64.exe 
 
 * File Path: `C:\WINDOWS\system32\difx64.exe`

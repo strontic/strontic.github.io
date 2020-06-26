@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: winrs.exe | winrs
+---
+
 # winrs.exe 
 
 * File Path: `C:\WINDOWS\system32\winrs.exe`

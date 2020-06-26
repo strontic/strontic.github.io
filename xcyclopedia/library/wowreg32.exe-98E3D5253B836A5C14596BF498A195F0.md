@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wowreg32.exe | SetupAPI 64-bit Surrogate
+---
+
 # wowreg32.exe 
 
 * File Path: `C:\WINDOWS\system32\wowreg32.exe`

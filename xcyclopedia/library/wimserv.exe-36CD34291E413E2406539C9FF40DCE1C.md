@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wimserv.exe | Wimfltr v2 extractor
+---
+
 # wimserv.exe 
 
 * File Path: `C:\Windows\system32\wimserv.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:MsjKw62wMgi0wTDMwffNtDTU4BUFhbwRVegMU7k3QRfX/1vPeoNcM80Au9Oyo:1jK
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wimserv.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wimserv.exe` being misused. While `wimserv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

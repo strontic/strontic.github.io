@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: embeddedapplauncher.exe | Embedded App Launcher
+---
+
 # embeddedapplauncher.exe 
 
 * File Path: `C:\Windows\system32\embeddedapplauncher.exe`

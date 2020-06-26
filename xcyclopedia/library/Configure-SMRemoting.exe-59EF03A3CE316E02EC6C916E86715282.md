@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Configure-SMRemoting.exe | Configure-SMRemoting
+---
+
 # Configure-SMRemoting.exe 
 
 * File Path: `C:\Windows\system32\Configure-SMRemoting.exe`

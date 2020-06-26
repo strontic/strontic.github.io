@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: netdom.exe | NETDOM5
+---
+
 # netdom.exe 
 
 * File Path: `C:\Windows\system32\netdom.exe`

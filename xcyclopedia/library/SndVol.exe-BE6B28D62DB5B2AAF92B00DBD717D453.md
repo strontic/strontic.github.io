@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SndVol.exe | Volume Mixer
+---
+
 # SndVol.exe 
 
 * File Path: `C:\WINDOWS\system32\SndVol.exe`

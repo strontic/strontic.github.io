@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: choice.exe | Offers the user a choice
+---
+
 # choice.exe 
 
 * File Path: `C:\Windows\SysWOW64\choice.exe`
@@ -104,7 +107,7 @@ Type "CHOICE /?" for usage.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `choice.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `choice.exe` being misused. While `choice.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

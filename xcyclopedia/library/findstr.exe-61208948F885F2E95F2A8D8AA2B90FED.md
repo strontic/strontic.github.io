@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: findstr.exe | Find String (QGREP) Utility
+---
+
 # findstr.exe 
 
 * File Path: `C:\Windows\SysWOW64\findstr.exe`
@@ -102,7 +105,7 @@ conhost.exe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `findstr.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `findstr.exe` being misused. While `findstr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

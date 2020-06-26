@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PerceptionSimulationService.exe | Windows Perception Simulation Service
+---
+
 # PerceptionSimulationService.exe 
 
 * File Path: `C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationService.exe`

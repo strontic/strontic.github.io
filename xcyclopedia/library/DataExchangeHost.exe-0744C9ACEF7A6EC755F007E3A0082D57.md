@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DataExchangeHost.exe | Data Exchange Host
+---
+
 # DataExchangeHost.exe 
 
 * File Path: `C:\WINDOWS\system32\DataExchangeHost.exe`

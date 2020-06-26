@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LogiOptionsMgr.exe | LogiOptionsMgr.exe (UNICODE)
+---
+
 # LogiOptionsMgr.exe 
 
 * File Path: `C:\ProgramData\Logishrd\LogiOptions\Software\Current\LogiOptionsMgr.exe`

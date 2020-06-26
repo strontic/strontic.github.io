@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: webex.exe | Cisco Webex Meeting
+---
+
 # webex.exe 
 
 * File Path: `C:\ProgramData\WebEx\webex.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `webex.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `webex.exe` being misused. While `webex.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

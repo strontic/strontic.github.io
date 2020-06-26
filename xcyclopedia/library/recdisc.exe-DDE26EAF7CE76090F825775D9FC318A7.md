@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: recdisc.exe | Microsoft Windows Repair Disc
+---
+
 # recdisc.exe 
 
 * File Path: `C:\WINDOWS\system32\recdisc.exe`

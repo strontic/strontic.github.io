@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UserAccountControlSettings.exe | UserAccountControlSettings
+---
+
 # UserAccountControlSettings.exe 
 
 * File Path: `C:\Windows\SysWOW64\UserAccountControlSettings.exe`

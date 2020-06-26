@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: EDPCleanup.exe | EDP Cleanup
+---
+
 # EDPCleanup.exe 
 
 * File Path: `C:\Windows\system32\EDPCleanup.exe`

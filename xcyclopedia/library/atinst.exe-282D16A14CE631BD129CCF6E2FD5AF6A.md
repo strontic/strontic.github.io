@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: atinst.exe | Broker for Vista
+---
+
 # atinst.exe 
 
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_TC\atinst.exe`

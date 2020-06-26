@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CredentialEnrollmentManager.exe | Credential Enrollment Manager
+---
+
 # CredentialEnrollmentManager.exe 
 
 * File Path: `C:\WINDOWS\system32\CredentialEnrollmentManager.exe`

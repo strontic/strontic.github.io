@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: baaupdate.exe | BitLocker Access Agent Update Utility
+---
+
 # baaupdate.exe 
 
 * File Path: `C:\WINDOWS\system32\baaupdate.exe`

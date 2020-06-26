@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: mspaint.exe | Paint
+---
+
 # mspaint.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\mspaint.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:qN+NnceYDudON67mYscZaQ02tf5KgbpHjaLxulGMmCb5Etixx9K91V1H3jfc:qN+
 
 ## Possible Misuse
 
-*The following table contains possible examples of `mspaint.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `mspaint.exe` being misused. While `mspaint.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

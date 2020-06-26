@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wextract.exe | Win32 Cabinet Self-Extractor                                           
+---
+
 # wextract.exe 
 
 * File Path: `C:\Windows\SysWOW64\wextract.exe`

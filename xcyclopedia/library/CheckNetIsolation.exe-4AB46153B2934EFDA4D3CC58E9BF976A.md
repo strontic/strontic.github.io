@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
+---
+
 # CheckNetIsolation.exe 
 
 * File Path: `C:\WINDOWS\system32\CheckNetIsolation.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: lodctr.exe | Load PerfMon Counters
+---
+
 # lodctr.exe 
 
 * File Path: `C:\Windows\SysWOW64\lodctr.exe`

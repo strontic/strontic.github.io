@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ctfmon.exe | CTF Loader
+---
+
 # ctfmon.exe 
 
 * File Path: `C:\WINDOWS\system32\ctfmon.exe`
@@ -52,7 +55,7 @@ SSDEEP | `192:EQJ1V2Llzc5pjq0N3h37iJ47cq6D7JiFC8WAgW:PHKlQXqw3h3mKAqgYvWAgW`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ctfmon.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ctfmon.exe` being misused. While `ctfmon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

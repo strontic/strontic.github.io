@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: lxdnupld.exe | Lexmark Connect Upload Executable
+---
+
 # lxdnupld.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnupld.exe`

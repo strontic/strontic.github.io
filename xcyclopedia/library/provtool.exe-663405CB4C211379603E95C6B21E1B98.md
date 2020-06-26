@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: provtool.exe | Provisioning package runtime processing tool
+---
+
 # provtool.exe 
 
 * File Path: `C:\WINDOWS\system32\provtool.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:F5rqBynKLU3zwoktZwol60ED5ZnWRemvvrtO/kRMOTgDfZZt+qK7MI:UdUUouZll6
 
 ## Possible Misuse
 
-*The following table contains possible examples of `provtool.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `provtool.exe` being misused. While `provtool.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

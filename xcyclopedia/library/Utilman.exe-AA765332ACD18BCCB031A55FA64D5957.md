@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Utilman.exe | Utility Manager
+---
+
 # Utilman.exe 
 
 * File Path: `C:\Windows\system32\Utilman.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:mzKO3PHD3zip90jKhsVtBxnoVCxNrDLJ6QLH84P6cuN5i:m20zg9eKh67z6084Pry
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Utilman.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Utilman.exe` being misused. While `Utilman.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

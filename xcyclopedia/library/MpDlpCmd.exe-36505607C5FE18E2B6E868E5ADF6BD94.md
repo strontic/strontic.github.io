@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MpDlpCmd.exe | Microsoft Malware Protection DLP Command Line Utility
+---
+
 # MpDlpCmd.exe 
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MpDlpCmd.exe`

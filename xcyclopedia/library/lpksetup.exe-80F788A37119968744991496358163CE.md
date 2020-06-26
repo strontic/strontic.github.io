@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: lpksetup.exe | Language Pack Installer
+---
+
 # lpksetup.exe 
 
 * File Path: `C:\WINDOWS\system32\lpksetup.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WindowsActionDialog.exe | Windows Action Dialog Broker
+---
+
 # WindowsActionDialog.exe 
 
 * File Path: `C:\WINDOWS\system32\WindowsActionDialog.exe`

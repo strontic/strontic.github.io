@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RMActivate_isv.exe | Windows Rights Management Services Activation for Desktop Security Processor
+---
+
 # RMActivate_isv.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\RMActivate_isv.exe`

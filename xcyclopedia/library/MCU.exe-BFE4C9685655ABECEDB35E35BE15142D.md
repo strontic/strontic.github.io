@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MCU.exe | NVIDIA Maximus Configuration Utility
+---
+
 # MCU.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\MCU.exe`

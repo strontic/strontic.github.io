@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ClipUp.exe | Client License Platform migration tool
+---
+
 # ClipUp.exe 
 
 * File Path: `C:\WINDOWS\system32\ClipUp.exe`

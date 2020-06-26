@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WWAHost.exe | Microsoft WWA Host
+---
+
 # WWAHost.exe 
 
 * File Path: `C:\Windows\SysWOW64\WWAHost.exe`

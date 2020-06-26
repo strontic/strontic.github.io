@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: chkdsk.exe | Check Disk Utility
+---
+
 # chkdsk.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\chkdsk.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SynTPEnhService.exe | 64-bit Synaptics Pointing Enhance Service
+---
+
 # SynTPEnhService.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\SynTPEnhService.exe`

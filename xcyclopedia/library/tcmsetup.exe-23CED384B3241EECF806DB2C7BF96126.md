@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tcmsetup.exe | Microsoft Windows(TM) Telephony Administration Setup
+---
+
 # tcmsetup.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\tcmsetup.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: igfxEM.exe | igfxEM Module
+---
+
 # igfxEM.exe 
 
 * File Path: `C:\WINDOWS\system32\igfxEM.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:5V3Ep9l+2RzFemY1TeTSbrA7l1sirHMunVHiujfQ+GB3:5V3y+2RzFnSSl/M6xhnG
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxEM.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxEM.exe` being misused. While `igfxEM.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

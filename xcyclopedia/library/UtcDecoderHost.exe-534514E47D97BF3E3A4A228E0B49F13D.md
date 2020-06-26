@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UtcDecoderHost.exe | Microsoft Windows Diagnostics Tracking Decoder Host
+---
+
 # UtcDecoderHost.exe 
 
 * File Path: `C:\WINDOWS\system32\UtcDecoderHost.exe`

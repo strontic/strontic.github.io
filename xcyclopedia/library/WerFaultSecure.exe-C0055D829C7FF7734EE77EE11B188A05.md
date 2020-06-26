@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WerFaultSecure.exe | Windows Fault Reporting
+---
+
 # WerFaultSecure.exe 
 
 * File Path: `C:\Windows\system32\WerFaultSecure.exe`

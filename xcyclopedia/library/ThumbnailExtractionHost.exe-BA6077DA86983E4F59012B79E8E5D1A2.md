@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ThumbnailExtractionHost.exe | Thumbnail Handler Extraction Host
+---
+
 # ThumbnailExtractionHost.exe 
 
 * File Path: `C:\Windows\SysWOW64\ThumbnailExtractionHost.exe`

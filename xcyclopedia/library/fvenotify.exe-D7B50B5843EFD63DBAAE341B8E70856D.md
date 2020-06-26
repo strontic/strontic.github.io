@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: fvenotify.exe | BitLocker Drive Encryption Notification Utility
+---
+
 # fvenotify.exe 
 
 * File Path: `C:\WINDOWS\system32\fvenotify.exe`

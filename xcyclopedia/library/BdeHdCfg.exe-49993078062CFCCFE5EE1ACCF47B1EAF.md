@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BdeHdCfg.exe | BitLocker Drive Encryption: Drive Preparation Tool
+---
+
 # BdeHdCfg.exe 
 
 * File Path: `C:\WINDOWS\system32\BdeHdCfg.exe`

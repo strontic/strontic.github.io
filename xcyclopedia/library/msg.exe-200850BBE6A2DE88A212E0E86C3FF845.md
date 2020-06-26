@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msg.exe | Message Utility
+---
+
 # msg.exe 
 
 * File Path: `C:\Windows\SysWOW64\msg.exe`

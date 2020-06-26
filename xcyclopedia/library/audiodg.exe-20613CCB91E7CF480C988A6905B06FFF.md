@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: audiodg.exe | Windows Audio Device Graph Isolation 
+---
+
 # audiodg.exe 
 
 * File Path: `C:\WINDOWS\system32\audiodg.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:hn2s/UTgYurF8m7zdV970FtZUQd7fnPNkyq2zJllTdnr1IcbenL0c/PzkEr:LIVUF
 
 ## Possible Misuse
 
-*The following table contains possible examples of `audiodg.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `audiodg.exe` being misused. While `audiodg.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

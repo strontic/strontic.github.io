@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Setup.exe | Intel(R) Rapid Storage Technology installer
+---
+
 # Setup.exe 
 
 * File Path: `C:\ProgramData\Intel\Package Cache\{00000000-0000-0000-0000-000000000000}\Setup.exe`
@@ -52,7 +55,7 @@ SSDEEP | `24576:anb06bg3QRg81WW4EK6MS69A99J24uUqv15l/u1FxUIHXdh:so6MQRn1WW4n6oej
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Setup.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Setup.exe` being misused. While `Setup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

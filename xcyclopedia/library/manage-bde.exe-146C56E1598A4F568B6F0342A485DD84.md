@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: manage-bde.exe | BitLocker Drive Encryption: Configuration Tool
+---
+
 # manage-bde.exe 
 
 * File Path: `C:\WINDOWS\system32\manage-bde.exe`
@@ -104,7 +107,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `manage-bde.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `manage-bde.exe` being misused. While `manage-bde.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

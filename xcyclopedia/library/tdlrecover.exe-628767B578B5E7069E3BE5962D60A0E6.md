@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tdlrecover.exe | Microsoft Tile Data Layer Reset Tool
+---
+
 # tdlrecover.exe 
 
 * File Path: `C:\Windows\system32\tdlrecover.exe`

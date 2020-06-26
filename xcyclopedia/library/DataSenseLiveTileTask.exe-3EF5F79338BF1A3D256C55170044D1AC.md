@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DataSenseLiveTileTask.exe | Data Sense Live Tile Task
+---
+
 # DataSenseLiveTileTask.exe 
 
 * File Path: `C:\Windows\system32\DataSenseLiveTileTask.exe`

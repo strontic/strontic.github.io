@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SIHClient.exe | SIH Client
+---
+
 # SIHClient.exe 
 
 * File Path: `C:\Windows\system32\SIHClient.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:A8RnN/1W1K6dkSgvDIFawwdw05OhfHUx:AgWVSVDIFKdb52f`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SIHClient.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SIHClient.exe` being misused. While `SIHClient.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

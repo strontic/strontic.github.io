@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bthudtask.exe | Bluetooth Uninstall Device Task
+---
+
 # bthudtask.exe 
 
 * File Path: `C:\Windows\SysWOW64\bthudtask.exe`

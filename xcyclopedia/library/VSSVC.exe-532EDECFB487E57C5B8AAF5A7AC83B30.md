@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: VSSVC.exe | Microsoft Volume Shadow Copy Service
+---
+
 # VSSVC.exe 
 
 * File Path: `C:\Windows\system32\VSSVC.exe`
@@ -52,7 +55,7 @@ SSDEEP | `24576:IsVx+g9o1x+2kivU4REd//XpVPcFSNptbQEGNTObiUcA:px+g9m+EREd//XpVEFg
 
 ## Possible Misuse
 
-*The following table contains possible examples of `VSSVC.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `VSSVC.exe` being misused. While `VSSVC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

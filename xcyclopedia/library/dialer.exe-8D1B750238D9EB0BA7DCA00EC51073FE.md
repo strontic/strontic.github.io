@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dialer.exe | Microsoft Windows Phone Dialer
+---
+
 # dialer.exe 
 
 * File Path: `C:\Windows\SysWOW64\dialer.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:eBuB3QCe1YBo6gtZU/q0Xgedekspe9idXV:yuBACeua6gUrgSRs8idXV`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `dialer.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `dialer.exe` being misused. While `dialer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

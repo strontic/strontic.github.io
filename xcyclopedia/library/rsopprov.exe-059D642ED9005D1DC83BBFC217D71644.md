@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rsopprov.exe | RSoP Service Application
+---
+
 # rsopprov.exe 
 
 * File Path: `C:\Windows\SysWOW64\rsopprov.exe`

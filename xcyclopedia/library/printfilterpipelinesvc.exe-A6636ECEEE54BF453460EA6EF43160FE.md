@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: printfilterpipelinesvc.exe | Print Filter Pipeline Host
+---
+
 # printfilterpipelinesvc.exe 
 
 * File Path: `C:\WINDOWS\system32\printfilterpipelinesvc.exe`

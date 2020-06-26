@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: InputSwitchToastHandler.exe | Input Switch Toast Handler
+---
+
 # InputSwitchToastHandler.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\InputSwitchToastHandler.exe`

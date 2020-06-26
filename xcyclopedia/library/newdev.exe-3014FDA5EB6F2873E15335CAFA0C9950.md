@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: newdev.exe | Device driver software installation
+---
+
 # newdev.exe 
 
 * File Path: `C:\WINDOWS\system32\newdev.exe`

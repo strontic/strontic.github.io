@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SecEdit.exe | Windows Security Configuration Editor Command Tool
+---
+
 # SecEdit.exe 
 
 * File Path: `C:\WINDOWS\system32\SecEdit.exe`

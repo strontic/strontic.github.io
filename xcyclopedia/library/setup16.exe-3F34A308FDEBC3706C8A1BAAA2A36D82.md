@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: setup16.exe | MS-Setup Setup Exe
+---
+
 # setup16.exe 
 
 * File Path: `C:\Windows\SysWOW64\setup16.exe`

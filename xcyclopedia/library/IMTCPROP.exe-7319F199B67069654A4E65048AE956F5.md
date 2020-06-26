@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMTCPROP.exe | IMTCPROP.exe
+---
+
 # IMTCPROP.exe 
 
 * File Path: `C:\Windows\system32\IME\IMETC\IMTCPROP.exe`

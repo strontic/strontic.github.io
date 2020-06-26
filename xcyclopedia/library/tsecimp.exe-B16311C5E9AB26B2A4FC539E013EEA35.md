@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tsecimp.exe | Microsoft Windows(TM) TAPI Security File Importer
+---
+
 # tsecimp.exe 
 
 * File Path: `C:\Windows\system32\tsecimp.exe`

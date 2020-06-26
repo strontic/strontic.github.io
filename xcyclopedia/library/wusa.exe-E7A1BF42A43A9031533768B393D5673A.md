@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wusa.exe | Windows Update Standalone Installer
+---
+
 # wusa.exe 
 
 * File Path: `C:\Windows\system32\wusa.exe`

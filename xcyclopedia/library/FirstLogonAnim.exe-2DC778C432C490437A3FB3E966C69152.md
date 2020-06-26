@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: FirstLogonAnim.exe | First Sign-in Animation
+---
+
 # FirstLogonAnim.exe 
 
 * File Path: `C:\Windows\system32\oobe\FirstLogonAnim.exe`

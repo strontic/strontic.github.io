@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DismHost.exe | Dism Host Servicing Process
+---
+
 # DismHost.exe 
 
 * File Path: `C:\Windows\SysWOW64\Dism\DismHost.exe`

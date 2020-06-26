@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AdobeARMHelper.exe | Adobe Reader and Acrobat Manager Helper
+---
+
 # AdobeARMHelper.exe 
 
 * File Path: `C:\ProgramData\Adobe\ARM\Acrobat_10.1.12\23913\AdobeARMHelper.exe`

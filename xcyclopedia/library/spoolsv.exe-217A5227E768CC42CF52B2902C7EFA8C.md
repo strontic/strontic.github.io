@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: spoolsv.exe | Spooler SubSystem App
+---
+
 # spoolsv.exe 
 
 * File Path: `C:\WINDOWS\system32\spoolsv.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:TntjB9Jl2BFaRCEe2Rv6VNWP3YT8pnFZ6NgMBjvHgbllJFhP4C/wWr9vPFPHYZsO
 
 ## Possible Misuse
 
-*The following table contains possible examples of `spoolsv.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `spoolsv.exe` being misused. While `spoolsv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

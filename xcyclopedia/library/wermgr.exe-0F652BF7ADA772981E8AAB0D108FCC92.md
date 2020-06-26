@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wermgr.exe | Windows Problem Reporting
+---
+
 # wermgr.exe 
 
 * File Path: `C:\Windows\SysWOW64\wermgr.exe`

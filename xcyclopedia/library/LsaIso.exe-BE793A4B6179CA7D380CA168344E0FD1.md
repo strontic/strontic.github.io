@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LsaIso.exe | Credential Guard
+---
+
 # LsaIso.exe 
 
 * File Path: `C:\Windows\system32\LsaIso.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:aD0pGEPBmKdDxPPqmpax5FN27JzWpaQmTs3vIAqazg3o243NmaW9j+vS:aD04EPB9
 
 ## Possible Misuse
 
-*The following table contains possible examples of `LsaIso.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `LsaIso.exe` being misused. While `LsaIso.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: mtstocom.exe | COM+
+---
+
 # mtstocom.exe 
 
 * File Path: `C:\Windows\SysWOW64\mtstocom.exe`

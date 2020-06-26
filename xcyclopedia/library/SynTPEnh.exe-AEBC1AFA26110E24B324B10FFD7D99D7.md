@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SynTPEnh.exe | Synaptics TouchPad 64-bit Enhancements
+---
+
 # SynTPEnh.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\SynTPEnh.exe`

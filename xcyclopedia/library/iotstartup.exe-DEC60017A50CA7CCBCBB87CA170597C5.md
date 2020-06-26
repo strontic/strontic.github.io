@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: iotstartup.exe | IotStartup
+---
+
 # iotstartup.exe 
 
 * File Path: `C:\WINDOWS\system32\iotstartup.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PrintBrm.exe | Print BRM command line tool
+---
+
 # PrintBrm.exe 
 
 * File Path: `C:\Windows\system32\spool\tools\PrintBrm.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: webexAppLauncher.exe | WebEx Productivity Tools Application
+---
+
 # webexAppLauncher.exe 
 
 * File Path: `C:\ProgramData\WebEx\webexAppLauncher.exe`

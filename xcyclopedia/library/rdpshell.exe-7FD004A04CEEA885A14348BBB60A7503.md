@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rdpshell.exe | RemoteApp Shell
+---
+
 # rdpshell.exe 
 
 * File Path: `C:\WINDOWS\system32\rdpshell.exe`

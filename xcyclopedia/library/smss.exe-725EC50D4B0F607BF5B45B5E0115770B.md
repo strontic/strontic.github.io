@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: smss.exe | Windows Session Manager
+---
+
 # smss.exe 
 
 * File Path: `C:\Windows\system32\smss.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:KY/96LhnveimVXP4R43aYuHH5ybCPgisSZvSFhkRa2E:KYV6LhnvfYGHAbCYi/NSE
 
 ## Possible Misuse
 
-*The following table contains possible examples of `smss.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `smss.exe` being misused. While `smss.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

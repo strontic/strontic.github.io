@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cttunesvr.exe | ClearType Tuner
+---
+
 # cttunesvr.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\cttunesvr.exe`

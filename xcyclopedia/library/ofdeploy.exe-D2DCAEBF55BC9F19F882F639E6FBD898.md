@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ofdeploy.exe | Office Deployment
+---
+
 # ofdeploy.exe 
 
 * File Path: `C:\WINDOWS\system32\ofdeploy.exe`

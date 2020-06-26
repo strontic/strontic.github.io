@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LbfoAdmin.exe | NIC Teaming
+---
+
 # LbfoAdmin.exe 
 
 * File Path: `C:\Windows\system32\LbfoAdmin.exe`

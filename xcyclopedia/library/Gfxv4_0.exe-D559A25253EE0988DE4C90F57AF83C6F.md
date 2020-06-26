@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Gfxv4_0.exe | Intel(R) Graphics Control Panel
+---
+
 # Gfxv4_0.exe 
 
 * File Path: `C:\WINDOWS\system32\Gfxv4_0.exe`

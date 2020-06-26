@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bootcfg.exe | BootCfg - Lists or changes the boot settings.
+---
+
 # bootcfg.exe 
 
 * File Path: `C:\Windows\SysWOW64\bootcfg.exe`

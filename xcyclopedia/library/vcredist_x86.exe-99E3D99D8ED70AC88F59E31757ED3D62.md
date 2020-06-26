@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: vcredist_x86.exe | Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005
+---
+
 # vcredist_x86.exe 
 
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vcRedistD12\1033\vcredist_x86.exe`
@@ -52,7 +55,7 @@ SSDEEP | `196608:sLRDnuBotjJh2emr8L/YIsG7MOgqHG64n:0RDOotj+eBLJ7XF2`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `vcredist_x86.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `vcredist_x86.exe` being misused. While `vcredist_x86.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

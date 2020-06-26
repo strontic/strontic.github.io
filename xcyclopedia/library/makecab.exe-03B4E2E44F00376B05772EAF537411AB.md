@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: makecab.exe | Microsoft Cabinet Maker
+---
+
 # makecab.exe 
 
 * File Path: `C:\WINDOWS\system32\makecab.exe`
@@ -66,7 +69,7 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
 
 ## Possible Misuse
 
-*The following table contains possible examples of `makecab.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `makecab.exe` being misused. While `makecab.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

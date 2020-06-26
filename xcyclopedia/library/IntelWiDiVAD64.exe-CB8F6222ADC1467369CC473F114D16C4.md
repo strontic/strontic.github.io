@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IntelWiDiVAD64.exe | Intel WiDi
+---
+
 # IntelWiDiVAD64.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\IntelWiDiVAD64.exe`

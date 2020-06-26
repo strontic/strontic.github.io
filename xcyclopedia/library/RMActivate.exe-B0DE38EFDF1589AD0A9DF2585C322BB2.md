@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RMActivate.exe | Windows Rights Management Services Activation for Desktop Security Processor
+---
+
 # RMActivate.exe 
 
 * File Path: `C:\Windows\system32\RMActivate.exe`

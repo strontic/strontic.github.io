@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LaunchTM.exe | Task Manager Launcher
+---
+
 # LaunchTM.exe 
 
 * File Path: `C:\Windows\SysWOW64\LaunchTM.exe`

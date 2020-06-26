@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: nvdebugdump.exe | NVIDIA Debug Dump
+---
+
 # nvdebugdump.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\nvdebugdump.exe`

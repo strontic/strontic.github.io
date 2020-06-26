@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: NvCplSetupInt.exe | NVIDIA Package Launcher
+---
+
 # NvCplSetupInt.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\NvCplSetupInt.exe`

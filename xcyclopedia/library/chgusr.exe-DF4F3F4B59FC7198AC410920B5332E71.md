@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: chgusr.exe | Change INI File Mapping Utility
+---
+
 # chgusr.exe 
 
 * File Path: `C:\WINDOWS\system32\chgusr.exe`

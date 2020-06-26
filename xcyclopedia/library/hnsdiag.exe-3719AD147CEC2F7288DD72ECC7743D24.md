@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hnsdiag.exe | Hyper-V Host Network Service Diagnostics Tool
+---
+
 # hnsdiag.exe 
 
 * File Path: `C:\WINDOWS\system32\hnsdiag.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: igfxCUIService.exe | igfxCUIService Module
+---
+
 # igfxCUIService.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxCUIService.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:/NQpiVHKxO4qWTi1SGC0LP8xTcjmBhiBI:/NQcovqQR6jgl`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxCUIService.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxCUIService.exe` being misused. While `igfxCUIService.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

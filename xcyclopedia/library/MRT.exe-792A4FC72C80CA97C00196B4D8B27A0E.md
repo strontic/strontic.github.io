@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MRT.exe | Microsoft Windows Malicious Software Removal Tool
+---
+
 # MRT.exe 
 
 * File Path: `C:\Windows\system32\MRT.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3145728:AIjdsgooon1zd/A/G/j5xB/G5xdE5x65xS/W5xV5xh5xr5xT5xM5xw5xR5xb8s
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MRT.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MRT.exe` being misused. While `MRT.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

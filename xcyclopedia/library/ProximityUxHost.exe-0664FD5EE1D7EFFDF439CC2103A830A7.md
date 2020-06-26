@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ProximityUxHost.exe | Proximity UX Host
+---
+
 # ProximityUxHost.exe 
 
 * File Path: `C:\WINDOWS\system32\ProximityUxHost.exe`

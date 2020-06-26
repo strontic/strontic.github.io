@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DeviceProperties.exe | Device Properties
+---
+
 # DeviceProperties.exe 
 
 * File Path: `C:\WINDOWS\system32\DeviceProperties.exe`

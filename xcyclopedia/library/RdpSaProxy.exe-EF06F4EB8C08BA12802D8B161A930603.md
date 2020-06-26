@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RdpSaProxy.exe | RDP Session Agent Proxy
+---
+
 # RdpSaProxy.exe 
 
 * File Path: `C:\Windows\SysWOW64\RdpSaProxy.exe`

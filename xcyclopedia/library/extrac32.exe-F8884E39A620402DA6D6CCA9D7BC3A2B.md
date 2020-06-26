@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: extrac32.exe | Microsoft CAB File Extract Utility
+---
+
 # extrac32.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\extrac32.exe`
@@ -93,7 +96,7 @@ Copyright (c) Microsoft Corporation. All rights reserved..
 
 ## Possible Misuse
 
-*The following table contains possible examples of `extrac32.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `extrac32.exe` being misused. While `extrac32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

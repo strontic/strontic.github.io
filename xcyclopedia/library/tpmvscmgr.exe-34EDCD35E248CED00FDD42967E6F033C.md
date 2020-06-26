@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tpmvscmgr.exe | TPM Virtual Smartcard Setup Utility
+---
+
 # tpmvscmgr.exe 
 
 * File Path: `C:\WINDOWS\system32\tpmvscmgr.exe`

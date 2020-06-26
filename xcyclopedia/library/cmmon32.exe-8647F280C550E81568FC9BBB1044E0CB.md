@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cmmon32.exe | Microsoft Connection Manager Monitor
+---
+
 # cmmon32.exe 
 
 * File Path: `C:\Windows\SysWOW64\cmmon32.exe`

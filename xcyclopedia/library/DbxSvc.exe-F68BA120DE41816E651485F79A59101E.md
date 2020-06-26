@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DbxSvc.exe | Dropbox Service
+---
+
 # DbxSvc.exe 
 
 * File Path: `C:\WINDOWS\system32\DbxSvc.exe`

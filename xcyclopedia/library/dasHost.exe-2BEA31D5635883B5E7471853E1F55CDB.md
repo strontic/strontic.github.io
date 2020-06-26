@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dasHost.exe | Device Association Framework Provider Host
+---
+
 # dasHost.exe 
 
 * File Path: `C:\Windows\system32\dasHost.exe`

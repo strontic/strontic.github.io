@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: OneDriveSetup.exe | Microsoft OneDrive Setup
+---
+
 # OneDriveSetup.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\OneDriveSetup.exe`

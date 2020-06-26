@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: chglogon.exe | Change Logon Utility
+---
+
 # chglogon.exe 
 
 * File Path: `C:\Windows\system32\chglogon.exe`

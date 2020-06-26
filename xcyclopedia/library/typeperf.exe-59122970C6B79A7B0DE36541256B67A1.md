@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: typeperf.exe | Command line performance monitor
+---
+
 # typeperf.exe 
 
 * File Path: `C:\Windows\system32\typeperf.exe`

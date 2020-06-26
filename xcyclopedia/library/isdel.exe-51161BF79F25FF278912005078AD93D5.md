@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: _isdel.exe | 32-bit InstallShield Deleter.
+---
+
 # _isdel.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\InstallShield\_isdel.exe`

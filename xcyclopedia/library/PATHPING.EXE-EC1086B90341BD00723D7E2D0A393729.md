@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PATHPING.EXE | TCP/IP PathPing Command
+---
+
 # PATHPING.EXE 
 
 * File Path: `C:\Windows\system32\PATHPING.EXE`

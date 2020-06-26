@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DmNotificationBroker.exe | DmNotificationBroker
+---
+
 # DmNotificationBroker.exe 
 
 * File Path: `C:\Windows\system32\DmNotificationBroker.exe`

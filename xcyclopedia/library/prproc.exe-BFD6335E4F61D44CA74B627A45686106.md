@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: prproc.exe | PlayReady Process EXE
+---
+
 # prproc.exe 
 
 * File Path: `C:\WINDOWS\system32\prproc.exe`

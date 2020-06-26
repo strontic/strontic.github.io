@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wsmprovhost.exe | Host process for WinRM plug-ins
+---
+
 # wsmprovhost.exe 
 
 * File Path: `C:\Windows\system32\wsmprovhost.exe`
@@ -52,7 +55,7 @@ SSDEEP | `384:lKYYAGDVPibLECF9QAfokJr8msW5DTaCav6f31CoNHjJrk9gpW73fW:lA+jlwq8m1M
 
 ## Possible Misuse
 
-*The following table contains possible examples of `wsmprovhost.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `wsmprovhost.exe` being misused. While `wsmprovhost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LockAppHost.exe | LockAppHost
+---
+
 # LockAppHost.exe 
 
 * File Path: `C:\WINDOWS\system32\LockAppHost.exe`

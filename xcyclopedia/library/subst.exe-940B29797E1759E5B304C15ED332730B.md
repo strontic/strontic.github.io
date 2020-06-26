@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: subst.exe | Subst Utility
+---
+
 # subst.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\subst.exe`

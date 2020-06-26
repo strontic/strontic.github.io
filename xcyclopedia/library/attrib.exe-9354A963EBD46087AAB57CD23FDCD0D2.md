@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: attrib.exe | Attribute Utility
+---
+
 # attrib.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\attrib.exe`
@@ -78,7 +81,7 @@ ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [+O | -O] [+I | -I] [+X | -X] [+P
 
 ## Possible Misuse
 
-*The following table contains possible examples of `attrib.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `attrib.exe` being misused. While `attrib.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

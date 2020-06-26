@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: colorcpl.exe | Microsoft Color Control Panel
+---
+
 # colorcpl.exe 
 
 * File Path: `C:\WINDOWS\system32\colorcpl.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WorkFolders.exe | Work Folders
+---
+
 # WorkFolders.exe 
 
 * File Path: `C:\WINDOWS\system32\WorkFolders.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PerceptionSimulationInput.exe | Mixed Reality Simulation Control
+---
+
 # PerceptionSimulationInput.exe 
 
 * File Path: `C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationInput.exe`

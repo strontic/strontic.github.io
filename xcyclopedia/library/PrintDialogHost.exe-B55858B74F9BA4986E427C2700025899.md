@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PrintDialogHost.exe | Print Dialog Host
+---
+
 # PrintDialogHost.exe 
 
 * File Path: `C:\Windows\system32\PrintDialogHost.exe`

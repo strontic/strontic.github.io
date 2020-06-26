@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ie4uinit.exe | IE Per-User Initialization Utility
+---
+
 # ie4uinit.exe 
 
 * File Path: `C:\WINDOWS\system32\ie4uinit.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:MPyvRc+5+bRhN1Wjl4K/eZb8vm1YWAIu350PK:cypFqRhPK4KW8vm1YCuwK`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ie4uinit.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ie4uinit.exe` being misused. While `ie4uinit.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

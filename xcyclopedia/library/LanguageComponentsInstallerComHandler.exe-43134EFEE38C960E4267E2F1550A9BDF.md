@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LanguageComponentsInstallerComHandler.exe | LanguageComponentsInstaller COM Handler
+---
+
 # LanguageComponentsInstallerComHandler.exe 
 
 * File Path: `C:\Windows\system32\LanguageComponentsInstallerComHandler.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: setup.exe | Adobe Bootstrapper for Single Installation
+---
+
 # setup.exe 
 
 * File Path: `C:\ProgramData\Adobe\Setup\{00000000-0000-0000-0000-000000000000}\setup.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:clIo1bqQ7pjAkcc+kLQkxDGLMWHCq79Zh34UH/ath3E4T:exb8c+WxDGQWH179ZBX
 
 ## Possible Misuse
 
-*The following table contains possible examples of `setup.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `setup.exe` being misused. While `setup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

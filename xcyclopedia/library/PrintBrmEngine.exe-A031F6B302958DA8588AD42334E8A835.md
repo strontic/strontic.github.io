@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PrintBrmEngine.exe | PrintBrmEngine EXE
+---
+
 # PrintBrmEngine.exe 
 
 * File Path: `C:\Windows\system32\spool\tools\PrintBrmEngine.exe`

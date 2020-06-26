@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: help.exe | Command Line Help Utility
+---
+
 # help.exe 
 
 * File Path: `C:\Windows\SysWOW64\help.exe`

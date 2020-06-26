@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: EASPolicyManagerBrokerHost.exe | Exchange Active Sync Policy Manager Broker
+---
+
 # EASPolicyManagerBrokerHost.exe 
 
 * File Path: `C:\WINDOWS\system32\EASPolicyManagerBrokerHost.exe`

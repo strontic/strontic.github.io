@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SettingSyncHost.exe | Host Process for Setting Synchronization
+---
+
 # SettingSyncHost.exe 
 
 * File Path: `C:\Windows\SysWOW64\SettingSyncHost.exe`

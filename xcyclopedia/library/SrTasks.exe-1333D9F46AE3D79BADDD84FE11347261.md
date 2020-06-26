@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SrTasks.exe | Microsoft Windows System Protection background tasks.
+---
+
 # SrTasks.exe 
 
 * File Path: `C:\WINDOWS\system32\SrTasks.exe`

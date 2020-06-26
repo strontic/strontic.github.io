@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LicenseManagerShellext.exe | LicenseManagerShellExt
+---
+
 # LicenseManagerShellext.exe 
 
 * File Path: `C:\WINDOWS\system32\LicenseManagerShellext.exe`

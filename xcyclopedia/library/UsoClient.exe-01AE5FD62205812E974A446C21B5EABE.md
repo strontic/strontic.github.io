@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UsoClient.exe | UsoClient
+---
+
 # UsoClient.exe 
 
 * File Path: `C:\WINDOWS\system32\UsoClient.exe`

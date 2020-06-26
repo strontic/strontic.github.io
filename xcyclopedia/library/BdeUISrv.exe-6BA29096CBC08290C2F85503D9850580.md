@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BdeUISrv.exe | BDE UI Launcher
+---
+
 # BdeUISrv.exe 
 
 * File Path: `C:\WINDOWS\system32\BdeUISrv.exe`

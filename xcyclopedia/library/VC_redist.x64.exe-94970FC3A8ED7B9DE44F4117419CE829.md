@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: VC_redist.x64.exe | Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127
+---
+
 # VC_redist.x64.exe 
 
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\VC_redist.x64.exe`

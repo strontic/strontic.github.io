@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Tutorial.exe | Synaptics Pointing Device Tutorial
+---
+
 # Tutorial.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\Tutorial.exe`
@@ -52,7 +55,7 @@ SSDEEP | `49152:kK5/2Emx3wO699I8OpTNpTGuG7YaAKSsGb6gg2k2fethA+IS:VOEmxw39/OpZpTG
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Tutorial.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Tutorial.exe` being misused. While `Tutorial.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

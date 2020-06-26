@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PrintIsolationHost.exe | PrintIsolationHost
+---
+
 # PrintIsolationHost.exe 
 
 * File Path: `C:\Windows\system32\PrintIsolationHost.exe`

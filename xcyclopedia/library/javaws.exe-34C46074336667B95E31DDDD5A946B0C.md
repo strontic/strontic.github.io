@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: javaws.exe | Java(TM) Web Start Launcher
+---
+
 # javaws.exe 
 
 * File Path: `C:\ProgramData\Oracle\Java\javapath\javaws.exe`

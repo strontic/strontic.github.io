@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ksetup.exe | Kerberos Setup tool
+---
+
 # ksetup.exe 
 
 * File Path: `C:\WINDOWS\system32\ksetup.exe`

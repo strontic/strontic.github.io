@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: taskkill.exe | Terminates Processes
+---
+
 # taskkill.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\taskkill.exe`
@@ -121,7 +124,7 @@ Type "TASKKILL /?" for usage.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskkill.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskkill.exe` being misused. While `taskkill.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

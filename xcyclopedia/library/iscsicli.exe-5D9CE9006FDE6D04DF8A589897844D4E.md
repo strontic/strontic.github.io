@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: iscsicli.exe | iSCSI Discovery tool
+---
+
 # iscsicli.exe 
 
 * File Path: `C:\Windows\system32\iscsicli.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UIMgrBroker.exe | Microsoft UIManager Broker
+---
+
 # UIMgrBroker.exe 
 
 * File Path: `C:\WINDOWS\system32\UIMgrBroker.exe`

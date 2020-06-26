@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msoobe.exe | MSOOBE EXE
+---
+
 # msoobe.exe 
 
 * File Path: `C:\WINDOWS\system32\oobe\msoobe.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: omadmclient.exe | Host Process for OMA-DM Client
+---
+
 # omadmclient.exe 
 
 * File Path: `C:\Windows\system32\omadmclient.exe`

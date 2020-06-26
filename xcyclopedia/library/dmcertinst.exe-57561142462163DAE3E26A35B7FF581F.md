@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dmcertinst.exe | DM Certificate Installer
+---
+
 # dmcertinst.exe 
 
 * File Path: `C:\WINDOWS\system32\dmcertinst.exe`

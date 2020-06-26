@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: valWBFPolicyService.exe | ValidityWBF Policy Service (EEM)
+---
+
 # valWBFPolicyService.exe 
 
 * File Path: `C:\WINDOWS\system32\valWBFPolicyService.exe`

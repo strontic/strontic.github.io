@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MpSigStub.exe | Microsoft Malware Protection Signature Update Stub
+---
+
 # MpSigStub.exe 
 
 * File Path: `C:\Windows\system32\MpSigStub.exe`

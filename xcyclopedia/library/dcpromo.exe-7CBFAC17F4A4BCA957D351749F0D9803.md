@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dcpromo.exe | Active Directory Domain Services Installer
+---
+
 # dcpromo.exe 
 
 * File Path: `C:\Windows\system32\dcpromo.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: logman.exe | Performance Log Utility
+---
+
 # logman.exe 
 
 * File Path: `C:\Windows\system32\logman.exe`

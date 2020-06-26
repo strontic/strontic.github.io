@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BitLockerWizardElev.exe | BitLocker Drive Encryption Wizard
+---
+
 # BitLockerWizardElev.exe 
 
 * File Path: `C:\WINDOWS\system32\BitLockerWizardElev.exe`

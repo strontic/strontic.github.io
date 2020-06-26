@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WpcMon.exe | Family Safety Monitor
+---
+
 # WpcMon.exe 
 
 * File Path: `C:\WINDOWS\system32\WpcMon.exe`

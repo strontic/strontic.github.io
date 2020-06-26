@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: timeout.exe | timeout - pauses command processing
+---
+
 # timeout.exe 
 
 * File Path: `C:\Windows\system32\timeout.exe`
@@ -76,7 +79,7 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `timeout.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `timeout.exe` being misused. While `timeout.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

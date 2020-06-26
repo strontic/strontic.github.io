@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: vmcompute.exe | Hyper-V Host Compute Service
+---
+
 # vmcompute.exe 
 
 * File Path: `C:\WINDOWS\system32\vmcompute.exe`

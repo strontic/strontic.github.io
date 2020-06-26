@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: HOSTNAME.EXE | Hostname APP
+---
+
 # HOSTNAME.EXE 
 
 * File Path: `C:\WINDOWS\SysWOW64\HOSTNAME.EXE`
@@ -59,7 +62,7 @@ hostname -s is not supported.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `HOSTNAME.EXE` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `HOSTNAME.EXE` being misused. While `HOSTNAME.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -87,6 +90,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [qradar.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/qradar.yml) | ` event_data.DestinationHostname: Hostname/HOSTNAME` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [qradar.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/qradar.yml) | ` DestinationHostname: Hostname/HOSTNAME` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [splunk-zeek.yml](https://github.com/Neo23x0/sigma/blob/master/tools/config/splunk-zeek.yml) | `  destination.hostname:` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp_invisimole.json](https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json) | `                "description": "The system time is set and stored by the Windows Time Service within a domain to maintain time synchronization between systems and services in an enterprise network. (Citation: MSDN System Time) (Citation: Technet Windows Time Service)\n\nAn adversary may gather the system time and/or time zone from a local or remote system. This information may be gathered in a number of ways, such as with [Net](https://attack.mitre.org/software/S0039) on Windows by performing <code>net time \\\\hostname</code> to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a [Scheduled Task](https://attack.mitre.org/techniques/T1053) (Citation: RSA EU12 They're Inside), or to discover locality information based on time zone to assist in victim targeting.",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-telebots.json](https://github.com/eset/malware-ioc/blob/master/telebots/misp-telebots.json) | `                "type": "hostname",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [windigo](https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc) | `- hostname` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [windigo](https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc) | `           [-w local_tun[:remote_tun]] [user@]hostname [command]` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)

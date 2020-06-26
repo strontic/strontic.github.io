@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SyncAppvPublishingServer.exe | Microsoft Application Virtualization Sync Utility
+---
+
 # SyncAppvPublishingServer.exe 
 
 * File Path: `C:\WINDOWS\system32\SyncAppvPublishingServer.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:nKrnaluTrkL5oZjn6V46K4Dwikn9aeDx/RP+Ed2I1PrkLHb:nvuTr5Zjna4pmwiE9a
 
 ## Possible Misuse
 
-*The following table contains possible examples of `SyncAppvPublishingServer.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `SyncAppvPublishingServer.exe` being misused. While `SyncAppvPublishingServer.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

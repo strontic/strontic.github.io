@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: LogiOverlay.exe | Logi Overlay
+---
+
 # LogiOverlay.exe 
 
 * File Path: `C:\ProgramData\Logishrd\LogiOptions\Software\Current\LogiOverlay.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: gpresult.exe | Query Group Policy RSOP Data
+---
+
 # gpresult.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\gpresult.exe`

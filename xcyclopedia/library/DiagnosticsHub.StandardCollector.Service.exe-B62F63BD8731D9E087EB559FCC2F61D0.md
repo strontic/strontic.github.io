@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DiagnosticsHub.StandardCollector.Service.exe | Microsoft (R) Diagnostics Hub Standard Collector
+---
+
 # DiagnosticsHub.StandardCollector.Service.exe 
 
 * File Path: `C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe`

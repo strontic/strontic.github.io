@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: browser_broker.exe | Browser_Broker
+---
+
 # browser_broker.exe 
 
 * File Path: `C:\Windows\system32\browser_broker.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dpinst.exe | Driver Package Installer
+---
+
 # dpinst.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\dpinst.exe`

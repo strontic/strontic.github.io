@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sttray64.exe | IDT PC Audio
+---
+
 # sttray64.exe 
 
 * File Path: `C:\WINDOWS\sttray64.exe`

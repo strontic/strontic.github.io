@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Locator.exe | Rpc Locator
+---
+
 # Locator.exe 
 
 * File Path: `C:\Windows\system32\Locator.exe`
@@ -52,7 +55,7 @@ SSDEEP | `192:h+KPfrjBKb15VbkP1NC+XwkKjGLIIQG5Va1F18oDkoJeumD6WrlW:Zvgb3w1Y+gkKj
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Locator.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Locator.exe` being misused. While `Locator.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

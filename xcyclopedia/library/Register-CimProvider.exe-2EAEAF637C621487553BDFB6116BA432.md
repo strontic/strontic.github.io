@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Register-CimProvider.exe | WMI
+---
+
 # Register-CimProvider.exe 
 
 * File Path: `C:\Windows\system32\Register-CimProvider.exe`
@@ -113,7 +116,7 @@ Usage:  Register-CimProvider.exe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Register-CimProvider.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Register-CimProvider.exe` being misused. While `Register-CimProvider.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: vmwp.exe | Virtual Machine Worker Process
+---
+
 # vmwp.exe 
 
 * File Path: `C:\WINDOWS\system32\vmwp.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: NvContainerSetup.exe | NVIDIA Package Launcher
+---
+
 # NvContainerSetup.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\NvContainerSetup.exe`

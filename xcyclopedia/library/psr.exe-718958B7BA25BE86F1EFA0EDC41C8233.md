@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: psr.exe | Steps Recorder
+---
+
 # psr.exe 
 
 * File Path: `C:\WINDOWS\system32\psr.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:/BHHC4xaQGcV5fFkWDgN6QLqAtxQG48Qc7gUi/TteDghATBLUri23R:/BHHC48lcj
 
 ## Possible Misuse
 
-*The following table contains possible examples of `psr.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `psr.exe` being misused. While `psr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

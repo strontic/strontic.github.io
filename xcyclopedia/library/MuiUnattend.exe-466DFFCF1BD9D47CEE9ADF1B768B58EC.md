@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MuiUnattend.exe | MUI unattend action
+---
+
 # MuiUnattend.exe 
 
 * File Path: `C:\Windows\system32\MuiUnattend.exe`

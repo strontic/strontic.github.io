@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: fsquirt.exe | 
+---
+
 # fsquirt.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\fsquirt.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tabcal.exe | Digitizer Calibration Tool
+---
+
 # tabcal.exe 
 
 * File Path: `C:\Windows\system32\tabcal.exe`

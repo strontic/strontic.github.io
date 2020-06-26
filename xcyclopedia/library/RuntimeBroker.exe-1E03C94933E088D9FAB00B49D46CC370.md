@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RuntimeBroker.exe | Runtime Broker
+---
+
 # RuntimeBroker.exe 
 
 * File Path: `C:\Windows\system32\RuntimeBroker.exe`
@@ -52,7 +55,7 @@ SSDEEP | `384:kXkyzjbt4ss3JwAnAGWaP6GON0Hxd5OXCpf+veF2WH6WpFlRDBRJLElfkPjCE/X:kX
 
 ## Possible Misuse
 
-*The following table contains possible examples of `RuntimeBroker.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `RuntimeBroker.exe` being misused. While `RuntimeBroker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

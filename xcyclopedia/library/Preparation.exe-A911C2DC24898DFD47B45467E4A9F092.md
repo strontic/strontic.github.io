@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Preparation.exe | Microsoft Visual Studio 2015
+---
+
 # Preparation.exe 
 
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vsupdate_KB3022398\Preparation.exe`
@@ -58,7 +61,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Preparation.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Preparation.exe` being misused. While `Preparation.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

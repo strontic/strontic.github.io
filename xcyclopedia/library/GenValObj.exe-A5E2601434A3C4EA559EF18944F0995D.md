@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: GenValObj.exe | Microsoft Software Protection Platform Admin Object
+---
+
 # GenValObj.exe 
 
 * File Path: `C:\WINDOWS\system32\GenValObj.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: OposHost.exe | OPOS Service Object Host
+---
+
 # OposHost.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\OposHost.exe`

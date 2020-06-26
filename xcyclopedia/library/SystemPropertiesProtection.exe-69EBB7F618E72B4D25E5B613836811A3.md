@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesProtection.exe | System Protection Settings
+---
+
 # SystemPropertiesProtection.exe 
 
 * File Path: `C:\Windows\SysWOW64\SystemPropertiesProtection.exe`

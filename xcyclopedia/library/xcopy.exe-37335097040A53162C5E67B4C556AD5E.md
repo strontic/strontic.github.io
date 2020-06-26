@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: xcopy.exe | Extended Copy Utility
+---
+
 # xcopy.exe 
 
 * File Path: `C:\Windows\SysWOW64\xcopy.exe`
@@ -111,7 +114,7 @@ File cannot be copied onto itself
 
 ## Possible Misuse
 
-*The following table contains possible examples of `xcopy.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `xcopy.exe` being misused. While `xcopy.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

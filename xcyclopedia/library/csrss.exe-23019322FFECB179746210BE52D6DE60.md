@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: csrss.exe | Client Server Runtime Process
+---
+
 # csrss.exe 
 
 * File Path: `C:\WINDOWS\system32\csrss.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `csrss.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `csrss.exe` being misused. While `csrss.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

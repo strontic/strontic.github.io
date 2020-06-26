@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RunLegacyCPLElevated.exe | Run a legacy CPL elevated
+---
+
 # RunLegacyCPLElevated.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\RunLegacyCPLElevated.exe`

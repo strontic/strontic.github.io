@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: winver.exe | Version Reporter Applet
+---
+
 # winver.exe 
 
 * File Path: `C:\WINDOWS\system32\winver.exe`

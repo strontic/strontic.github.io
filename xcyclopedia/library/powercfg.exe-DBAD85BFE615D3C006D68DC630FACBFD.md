@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: powercfg.exe | Power Settings Command-Line Tool
+---
+
 # powercfg.exe 
 
 * File Path: `C:\Windows\SysWOW64\powercfg.exe`

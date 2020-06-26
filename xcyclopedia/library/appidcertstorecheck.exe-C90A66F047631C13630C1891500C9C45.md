@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: appidcertstorecheck.exe | AppID Certificate Store Verification Task
+---
+
 # appidcertstorecheck.exe 
 
 * File Path: `C:\Windows\system32\appidcertstorecheck.exe`

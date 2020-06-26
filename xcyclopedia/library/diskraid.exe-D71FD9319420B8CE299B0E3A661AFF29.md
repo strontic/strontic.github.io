@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: diskraid.exe | DiskRAID
+---
+
 # diskraid.exe 
 
 * File Path: `C:\WINDOWS\system32\diskraid.exe`

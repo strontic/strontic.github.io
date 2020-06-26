@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wiaacmgr.exe | Windows Picture Acquisition Wizard
+---
+
 # wiaacmgr.exe 
 
 * File Path: `C:\WINDOWS\system32\wiaacmgr.exe`

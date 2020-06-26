@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sdksetup.exe | Windows Software Development Kit - Windows 10.0.10586.15
+---
+
 # sdksetup.exe 
 
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\sdksetup.exe`

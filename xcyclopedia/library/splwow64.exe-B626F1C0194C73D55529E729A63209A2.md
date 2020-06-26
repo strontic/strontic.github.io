@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: splwow64.exe | Print driver host for applications
+---
+
 # splwow64.exe 
 
 * File Path: `C:\Windows\splwow64.exe`

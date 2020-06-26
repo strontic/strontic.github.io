@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMESEARCH.EXE | IME search module
+---
+
 # IMESEARCH.EXE 
 
 * File Path: `C:\WINDOWS\system32\IME\SHARED\IMESEARCH.EXE`

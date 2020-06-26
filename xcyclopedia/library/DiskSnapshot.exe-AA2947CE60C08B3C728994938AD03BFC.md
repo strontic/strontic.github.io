@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DiskSnapshot.exe | DiskSnapshot.exe
+---
+
 # DiskSnapshot.exe 
 
 * File Path: `C:\Windows\system32\DiskSnapshot.exe`

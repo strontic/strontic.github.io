@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bcdboot.exe | Bcdboot utility
+---
+
 # bcdboot.exe 
 
 * File Path: `C:\WINDOWS\system32\bcdboot.exe`

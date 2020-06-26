@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: oobeldr.exe | OOBE Loader
+---
+
 # oobeldr.exe 
 
 * File Path: `C:\Windows\system32\oobe\oobeldr.exe`

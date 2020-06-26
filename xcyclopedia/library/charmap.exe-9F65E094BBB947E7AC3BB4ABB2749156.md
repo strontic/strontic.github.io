@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: charmap.exe | Character Map
+---
+
 # charmap.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\charmap.exe`

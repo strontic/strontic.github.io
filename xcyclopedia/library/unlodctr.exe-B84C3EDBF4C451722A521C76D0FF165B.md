@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: unlodctr.exe | Unload PerfMon Counters
+---
+
 # unlodctr.exe 
 
 * File Path: `C:\WINDOWS\system32\unlodctr.exe`

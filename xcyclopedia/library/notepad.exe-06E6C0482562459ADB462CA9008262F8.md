@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: notepad.exe | Notepad
+---
+
 # notepad.exe 
 
 * File Path: `C:\WINDOWS\system32\notepad.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:4GPGNDPjlam62b+jJQQUQhLBiW+3mCzSJSrVrvkwuS4GvRep:5GN70v2b+jJTh4Ws
 
 ## Possible Misuse
 
-*The following table contains possible examples of `notepad.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `notepad.exe` being misused. While `notepad.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

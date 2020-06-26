@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DeviceCensus.exe | Device Census
+---
+
 # DeviceCensus.exe 
 
 * File Path: `C:\WINDOWS\system32\DeviceCensus.exe`
@@ -60,7 +63,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `DeviceCensus.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `DeviceCensus.exe` being misused. While `DeviceCensus.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

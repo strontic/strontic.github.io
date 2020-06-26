@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IEChooser.exe | F12 Attach Chooser executable
+---
+
 # IEChooser.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\F12\IEChooser.exe`

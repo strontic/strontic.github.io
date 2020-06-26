@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SyncHost.exe | Host Process for Windows Sync
+---
+
 # SyncHost.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\SyncHost.exe`

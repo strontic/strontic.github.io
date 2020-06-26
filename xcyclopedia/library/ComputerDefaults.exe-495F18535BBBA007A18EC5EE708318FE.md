@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ComputerDefaults.exe | Set Program Access and Computer Defaults Control Panel
+---
+
 # ComputerDefaults.exe 
 
 * File Path: `C:\WINDOWS\system32\ComputerDefaults.exe`
@@ -63,7 +66,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ComputerDefaults.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ComputerDefaults.exe` being misused. While `ComputerDefaults.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

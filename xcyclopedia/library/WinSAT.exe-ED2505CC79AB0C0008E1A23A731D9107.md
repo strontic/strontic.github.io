@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WinSAT.exe | Windows System Assessment Tool
+---
+
 # WinSAT.exe 
 
 * File Path: `C:\WINDOWS\system32\WinSAT.exe`

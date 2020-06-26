@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dfsrdiag.exe | DFS Replication Diagnostics Tool
+---
+
 # dfsrdiag.exe 
 
 * File Path: `C:\Windows\system32\dfsrdiag.exe`

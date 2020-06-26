@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: usocoreworker.exe | USO Core Worker Process
+---
+
 # usocoreworker.exe 
 
 * File Path: `C:\WINDOWS\system32\usocoreworker.exe`

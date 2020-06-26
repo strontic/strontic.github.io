@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: srdelayed.exe | Microsoft Windows System Restore Delayed File Renamer
+---
+
 # srdelayed.exe 
 
 * File Path: `C:\WINDOWS\system32\srdelayed.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: RemotePosWorker.exe | Remote Pos Driver Worker
+---
+
 # RemotePosWorker.exe 
 
 * File Path: `C:\WINDOWS\system32\RemotePosWorker.exe`

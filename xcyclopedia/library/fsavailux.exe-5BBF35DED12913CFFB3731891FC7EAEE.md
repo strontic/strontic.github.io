@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: fsavailux.exe | Microsoft\fsavailux
+---
+
 # fsavailux.exe 
 
 * File Path: `C:\WINDOWS\system32\fsavailux.exe`

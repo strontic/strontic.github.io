@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cacls.exe | Control ACLs Program
+---
+
 # cacls.exe 
 
 * File Path: `C:\Windows\system32\cacls.exe`
@@ -94,7 +97,7 @@ SSDEEP | `768:5RieH9nlsba7UydioQhMSj6DkPkzixXsLmM+Pu:riUltYyiofSj64PdSmM+Pu`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cacls.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cacls.exe` being misused. While `cacls.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

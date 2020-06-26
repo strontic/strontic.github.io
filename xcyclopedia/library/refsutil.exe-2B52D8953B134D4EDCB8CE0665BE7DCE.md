@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: refsutil.exe | refsutil.exe
+---
+
 # refsutil.exe 
 
 * File Path: `C:\WINDOWS\system32\refsutil.exe`

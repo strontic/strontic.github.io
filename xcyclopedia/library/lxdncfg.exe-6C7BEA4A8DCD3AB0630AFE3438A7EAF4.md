@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: lxdncfg.exe | Printer Communication System
+---
+
 # lxdncfg.exe 
 
 * File Path: `C:\WINDOWS\system32\lxdncfg.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: netcfg.exe | WinPE network installer
+---
+
 # netcfg.exe 
 
 * File Path: `C:\Windows\system32\netcfg.exe`

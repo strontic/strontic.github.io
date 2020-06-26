@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: prevhost.exe | Preview Handler Surrogate Host
+---
+
 # prevhost.exe 
 
 * File Path: `C:\Windows\system32\prevhost.exe`

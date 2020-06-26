@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: lxdncoms.exe | Printer Communication System
+---
+
 # lxdncoms.exe 
 
 * File Path: `C:\WINDOWS\system32\lxdncoms.exe`

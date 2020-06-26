@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: integrator.exe | Microsoft Office Click-to-Run Integrator
+---
+
 # integrator.exe 
 
 * File Path: `C:\ProgramData\Microsoft\ClickToRun\{00000000-0000-0000-0000-000000000000}\integrator.exe`

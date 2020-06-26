@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PnkBstrB.exe | 
+---
+
 # PnkBstrB.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\PnkBstrB.exe`

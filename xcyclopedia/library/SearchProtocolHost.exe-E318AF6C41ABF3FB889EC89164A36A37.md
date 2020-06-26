@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SearchProtocolHost.exe | Microsoft Windows Search Protocol Host
+---
+
 # SearchProtocolHost.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\SearchProtocolHost.exe`

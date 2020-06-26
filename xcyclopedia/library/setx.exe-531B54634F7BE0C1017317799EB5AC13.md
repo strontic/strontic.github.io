@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: setx.exe | Setx - Sets environment variables
+---
+
 # setx.exe 
 
 * File Path: `C:\WINDOWS\system32\setx.exe`

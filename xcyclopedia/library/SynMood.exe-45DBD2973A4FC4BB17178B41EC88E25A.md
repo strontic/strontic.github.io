@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SynMood.exe | MoodPad
+---
+
 # SynMood.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\SynMood.exe`

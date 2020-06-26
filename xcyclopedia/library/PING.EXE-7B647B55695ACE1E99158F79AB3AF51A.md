@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PING.EXE | TCP/IP Ping Command
+---
+
 # PING.EXE 
 
 * File Path: `C:\Windows\system32\PING.EXE`
@@ -86,7 +89,7 @@ conhost.exe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PING.EXE` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PING.EXE` being misused. While `PING.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

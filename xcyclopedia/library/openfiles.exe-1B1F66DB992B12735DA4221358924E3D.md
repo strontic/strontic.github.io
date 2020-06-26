@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: openfiles.exe | Displays the current open files list
+---
+
 # openfiles.exe 
 
 * File Path: `C:\WINDOWS\system32\openfiles.exe`

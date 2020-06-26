@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WFS.exe | Microsoft  Windows Fax and Scan
+---
+
 # WFS.exe 
 
 * File Path: `C:\WINDOWS\system32\WFS.exe`

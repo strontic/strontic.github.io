@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CIDiag.exe | CodeIntegrity Diagnostic Tool
+---
+
 # CIDiag.exe 
 
 * File Path: `C:\WINDOWS\system32\CIDiag.exe`

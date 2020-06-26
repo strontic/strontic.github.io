@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rdpsign.exe | Remote Desktop Session Host Server Sign Tool
+---
+
 # rdpsign.exe 
 
 * File Path: `C:\Windows\SysWOW64\rdpsign.exe`

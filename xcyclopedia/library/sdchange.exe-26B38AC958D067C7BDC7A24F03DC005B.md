@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sdchange.exe | Windows Remote Assistance SD Server
+---
+
 # sdchange.exe 
 
 * File Path: `C:\WINDOWS\system32\sdchange.exe`

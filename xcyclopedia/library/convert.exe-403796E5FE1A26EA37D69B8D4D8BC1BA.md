@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: convert.exe | File System Conversion Utility
+---
+
 # convert.exe 
 
 * File Path: `C:\Windows\SysWOW64\convert.exe`
@@ -69,7 +72,7 @@ Invalid drive specification.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `convert.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `convert.exe` being misused. While `convert.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

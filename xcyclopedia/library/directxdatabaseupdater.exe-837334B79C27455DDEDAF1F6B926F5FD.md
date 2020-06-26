@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: directxdatabaseupdater.exe | DirectX Database Updater
+---
+
 # directxdatabaseupdater.exe 
 
 * File Path: `C:\WINDOWS\system32\directxdatabaseupdater.exe`

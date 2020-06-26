@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: TokenBrokerCookies.exe | Token Broker Cookie Helper
+---
+
 # TokenBrokerCookies.exe 
 
 * File Path: `C:\WINDOWS\system32\TokenBrokerCookies.exe`

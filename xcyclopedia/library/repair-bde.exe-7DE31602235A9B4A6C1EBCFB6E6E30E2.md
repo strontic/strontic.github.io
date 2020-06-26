@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: repair-bde.exe | BitLocker Drive Encryption: Repair Tool
+---
+
 # repair-bde.exe 
 
 * File Path: `C:\WINDOWS\system32\repair-bde.exe`

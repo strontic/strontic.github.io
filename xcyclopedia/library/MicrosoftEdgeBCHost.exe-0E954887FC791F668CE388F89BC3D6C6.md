@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MicrosoftEdgeBCHost.exe | Microsoft Edge Content Process
+---
+
 # MicrosoftEdgeBCHost.exe 
 
 * File Path: `C:\WINDOWS\system32\MicrosoftEdgeBCHost.exe`

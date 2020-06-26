@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MultiDigiMon.exe | Digitizer to Monitor Mapping Tool
+---
+
 # MultiDigiMon.exe 
 
 * File Path: `C:\WINDOWS\system32\MultiDigiMon.exe`

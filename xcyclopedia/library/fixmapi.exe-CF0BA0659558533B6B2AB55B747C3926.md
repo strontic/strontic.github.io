@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: fixmapi.exe | FIXMAPI 1.0 MAPI Repair Tool
+---
+
 # fixmapi.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\fixmapi.exe`

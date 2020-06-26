@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: taskhostw.exe | Host Process for Windows Tasks
+---
+
 # taskhostw.exe 
 
 * File Path: `C:\WINDOWS\system32\taskhostw.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:b2cfEpwTrLoyh7ac8xcZzktOT+K8fTrTbKU2d8TPeF:bdf9P38xyzGOT+K8f3TbKU
 
 ## Possible Misuse
 
-*The following table contains possible examples of `taskhostw.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `taskhostw.exe` being misused. While `taskhostw.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

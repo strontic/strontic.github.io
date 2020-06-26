@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dfp.exe | Disk Footprint Tool
+---
+
 # dfp.exe 
 
 * File Path: `C:\WINDOWS\system32\dfp.exe`

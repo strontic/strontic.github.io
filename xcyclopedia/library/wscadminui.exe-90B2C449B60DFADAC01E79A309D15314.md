@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wscadminui.exe | Windows Security Center Elevated UI App
+---
+
 # wscadminui.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\wscadminui.exe`

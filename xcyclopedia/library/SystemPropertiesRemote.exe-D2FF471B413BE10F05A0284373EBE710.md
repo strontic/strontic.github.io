@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesRemote.exe | System Remote Settings
+---
+
 # SystemPropertiesRemote.exe 
 
 * File Path: `C:\Windows\system32\SystemPropertiesRemote.exe`

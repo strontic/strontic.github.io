@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: whoami.exe | whoami - displays logged on user information
+---
+
 # whoami.exe 
 
 * File Path: `C:\Windows\SysWOW64\whoami.exe`
@@ -132,7 +135,7 @@ Type "WHOAMI /?" for usage.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `whoami.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `whoami.exe` being misused. While `whoami.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MbaeParserTask.exe | Mobile Broadband Account Experience Parser Task
+---
+
 # MbaeParserTask.exe 
 
 * File Path: `C:\WINDOWS\system32\MbaeParserTask.exe`

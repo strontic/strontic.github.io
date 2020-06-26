@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: odbcconf.exe | ODBC Driver Configuration Program
+---
+
 # odbcconf.exe 
 
 * File Path: `C:\WINDOWS\system32\odbcconf.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:MFr3bf13VACISsdb1i7sjI179wnOEmCP0ZxM:Mph3VACISsd5i7l798hmjM`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `odbcconf.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `odbcconf.exe` being misused. While `odbcconf.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

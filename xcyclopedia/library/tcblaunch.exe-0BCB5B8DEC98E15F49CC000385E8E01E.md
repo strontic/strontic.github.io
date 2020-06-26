@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tcblaunch.exe | TCB Launcher
+---
+
 # tcblaunch.exe 
 
 * File Path: `C:\WINDOWS\system32\tcblaunch.exe`

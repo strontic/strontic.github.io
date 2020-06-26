@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ApplicationFrameHost.exe | Application Frame Host
+---
+
 # ApplicationFrameHost.exe 
 
 * File Path: `C:\WINDOWS\system32\ApplicationFrameHost.exe`

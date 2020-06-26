@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CNMSE.EXE | Canon IJ Print Utility
+---
+
 # CNMSE.EXE 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\mp230p6.inf_amd64_2ac7fe20edbb4402\CNMSE.EXE`

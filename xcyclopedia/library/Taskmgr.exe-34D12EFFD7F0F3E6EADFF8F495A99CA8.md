@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Taskmgr.exe | Task Manager
+---
+
 # Taskmgr.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\Taskmgr.exe`
@@ -52,7 +55,7 @@ SSDEEP | `24576:LK4GZ7mq3XJ9VwyeqwS+on+HtZACaxNh8yd+B:LK487H3vneNzACaV8yd+B`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Taskmgr.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Taskmgr.exe` being misused. While `Taskmgr.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

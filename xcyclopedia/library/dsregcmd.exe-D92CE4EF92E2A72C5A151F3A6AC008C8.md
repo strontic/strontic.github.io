@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dsregcmd.exe | DSREG commandline tool
+---
+
 # dsregcmd.exe 
 
 * File Path: `C:\WINDOWS\system32\dsregcmd.exe`

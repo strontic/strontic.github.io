@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: djoin.exe | Unattended Setup Generic Command For Domain Join
+---
+
 # djoin.exe 
 
 * File Path: `C:\WINDOWS\system32\djoin.exe`

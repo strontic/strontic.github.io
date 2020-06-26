@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AppVClient.exe | Microsoft Application Virtualization Client Service
+---
+
 # AppVClient.exe 
 
 * File Path: `C:\Windows\system32\AppVClient.exe`
@@ -52,7 +55,7 @@ SSDEEP | `24576:DSXrvk0fpTNboKb1uNclDsaefhjKWN3mlt9NcGXWbDyLM6a6hpf2:Dwrvk08WNlw
 
 ## Possible Misuse
 
-*The following table contains possible examples of `AppVClient.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `AppVClient.exe` being misused. While `AppVClient.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

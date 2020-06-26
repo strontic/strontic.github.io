@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Eap3Host.exe | Eap Third Party Surrogate Host
+---
+
 # Eap3Host.exe 
 
 * File Path: `C:\Windows\system32\Eap3Host.exe`

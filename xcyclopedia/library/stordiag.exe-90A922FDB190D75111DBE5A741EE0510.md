@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: stordiag.exe |  
+---
+
 # stordiag.exe 
 
 * File Path: `C:\WINDOWS\system32\stordiag.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tsdiscon.exe | Session Disconnection Utility
+---
+
 # tsdiscon.exe 
 
 * File Path: `C:\Windows\SysWOW64\tsdiscon.exe`

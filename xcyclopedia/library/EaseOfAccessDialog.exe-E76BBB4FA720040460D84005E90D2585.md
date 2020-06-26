@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: EaseOfAccessDialog.exe | Ease of Access Dialog Host
+---
+
 # EaseOfAccessDialog.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\EaseOfAccessDialog.exe`

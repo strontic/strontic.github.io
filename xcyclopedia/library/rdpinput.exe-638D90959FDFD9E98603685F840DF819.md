@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rdpinput.exe | RDP Session Input Handler
+---
+
 # rdpinput.exe 
 
 * File Path: `C:\WINDOWS\system32\rdpinput.exe`

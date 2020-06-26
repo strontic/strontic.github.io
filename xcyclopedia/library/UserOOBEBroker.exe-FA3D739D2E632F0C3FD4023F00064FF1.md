@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UserOOBEBroker.exe | User OOBE Broker
+---
+
 # UserOOBEBroker.exe 
 
 * File Path: `C:\Windows\system32\oobe\UserOOBEBroker.exe`

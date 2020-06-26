@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: takeown.exe | Takes ownership of a file
+---
+
 # takeown.exe 
 
 * File Path: `C:\WINDOWS\system32\takeown.exe`
@@ -119,7 +122,7 @@ Type "TAKEOWN /?" for usage.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `takeown.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `takeown.exe` being misused. While `takeown.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

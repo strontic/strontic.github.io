@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: FileHistory.exe | File History
+---
+
 # FileHistory.exe 
 
 * File Path: `C:\WINDOWS\system32\FileHistory.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:G
 
 ## Possible Misuse
 
-*The following table contains possible examples of `FileHistory.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `FileHistory.exe` being misused. While `FileHistory.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

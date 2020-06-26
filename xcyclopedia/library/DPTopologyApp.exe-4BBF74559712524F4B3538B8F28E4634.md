@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DPTopologyApp.exe | Intel(R) Graphics Control Panel
+---
+
 # DPTopologyApp.exe 
 
 * File Path: `C:\WINDOWS\system32\DPTopologyApp.exe`

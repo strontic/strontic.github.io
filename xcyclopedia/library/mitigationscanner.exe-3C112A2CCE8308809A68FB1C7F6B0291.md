@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: mitigationscanner.exe | Microsoft Recommended Troubleshooting Scanner
+---
+
 # mitigationscanner.exe 
 
 * File Path: `C:\WINDOWS\system32\mitigationscanner.exe`

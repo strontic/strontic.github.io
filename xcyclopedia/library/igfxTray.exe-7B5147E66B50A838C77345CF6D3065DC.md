@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: igfxTray.exe | 
+---
+
 # igfxTray.exe 
 
 * File Path: `C:\WINDOWS\system32\igfxTray.exe`
@@ -67,7 +70,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxTray.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxTray.exe` being misused. While `igfxTray.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

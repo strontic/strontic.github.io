@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesPerformance.exe | Change Computer Performance Settings
+---
+
 # SystemPropertiesPerformance.exe 
 
 * File Path: `C:\WINDOWS\system32\SystemPropertiesPerformance.exe`

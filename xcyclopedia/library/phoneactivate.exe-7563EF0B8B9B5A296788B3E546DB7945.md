@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: phoneactivate.exe | Phone Activation UI
+---
+
 # phoneactivate.exe 
 
 * File Path: `C:\WINDOWS\system32\phoneactivate.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wiawow64.exe | Thunking WIA APIS from 32 to 64 Process
+---
+
 # wiawow64.exe 
 
 * File Path: `C:\WINDOWS\system32\wiawow64.exe`

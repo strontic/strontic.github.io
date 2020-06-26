@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hvsirdpclient.exe | Windows Defender Application Guard Manager RDP Client
+---
+
 # hvsirdpclient.exe 
 
 * File Path: `C:\WINDOWS\system32\hvsirdpclient.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hvsimgr.exe | Windows Defender Application Guard Manager
+---
+
 # hvsimgr.exe 
 
 * File Path: `C:\WINDOWS\system32\hvsimgr.exe`

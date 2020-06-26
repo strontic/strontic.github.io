@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: diskpart.exe | DiskPart
+---
+
 # diskpart.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\diskpart.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:Np2AtxlujeroeGq0grOzERTllMLUM7bzIlCmifDxF8OxW2hx8AtY5:Np2WxlNCqn3
 
 ## Possible Misuse
 
-*The following table contains possible examples of `diskpart.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `diskpart.exe` being misused. While `diskpart.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

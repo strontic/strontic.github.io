@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: TSWbPrxy.exe | Microsoft Remote Desktop Services Web Proxy
+---
+
 # TSWbPrxy.exe 
 
 * File Path: `C:\Windows\system32\TSWbPrxy.exe`

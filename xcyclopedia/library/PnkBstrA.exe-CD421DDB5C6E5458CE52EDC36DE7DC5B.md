@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PnkBstrA.exe | 
+---
+
 # PnkBstrA.exe 
 
 * File Path: `C:\WINDOWS\system32\PnkBstrA.exe`

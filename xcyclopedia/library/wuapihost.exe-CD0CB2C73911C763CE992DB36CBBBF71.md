@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wuapihost.exe | wuapihost
+---
+
 # wuapihost.exe 
 
 * File Path: `C:\WINDOWS\system32\wuapihost.exe`

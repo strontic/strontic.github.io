@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ddodiag.exe | DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
+---
+
 # ddodiag.exe 
 
 * File Path: `C:\WINDOWS\system32\ddodiag.exe`

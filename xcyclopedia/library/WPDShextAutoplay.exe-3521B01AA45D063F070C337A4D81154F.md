@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WPDShextAutoplay.exe | Windows Portable Device Shell Extension Autoplay Handler
+---
+
 # WPDShextAutoplay.exe 
 
 * File Path: `C:\Windows\system32\WPDShextAutoplay.exe`

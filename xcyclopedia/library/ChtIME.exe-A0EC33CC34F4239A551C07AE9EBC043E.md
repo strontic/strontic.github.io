@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ChtIME.exe | Microsoft IME
+---
+
 # ChtIME.exe 
 
 * File Path: `C:\WINDOWS\system32\InputMethod\CHT\ChtIME.exe`

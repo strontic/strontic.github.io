@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: TSTheme.exe | TSTheme Server Module
+---
+
 # TSTheme.exe 
 
 * File Path: `C:\Windows\system32\TSTheme.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:gpRsBistJVwVmaHXfTnR6eOlleFPt/Afv2:gpRKlra3fkllmPqf+`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `TSTheme.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `TSTheme.exe` being misused. While `TSTheme.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

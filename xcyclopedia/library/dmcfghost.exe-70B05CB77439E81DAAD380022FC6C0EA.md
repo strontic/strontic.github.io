@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dmcfghost.exe | Host Process for Push Router Client of OMA-CP
+---
+
 # dmcfghost.exe 
 
 * File Path: `C:\WINDOWS\system32\dmcfghost.exe`

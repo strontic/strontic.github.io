@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CloudNotifications.exe | Cloud notifications
+---
+
 # CloudNotifications.exe 
 
 * File Path: `C:\WINDOWS\system32\CloudNotifications.exe`

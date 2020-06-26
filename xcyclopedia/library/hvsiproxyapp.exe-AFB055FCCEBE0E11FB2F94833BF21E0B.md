@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hvsiproxyapp.exe | 
+---
+
 # hvsiproxyapp.exe 
 
 * File Path: `C:\WINDOWS\system32\hvsiproxyapp.exe`

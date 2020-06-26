@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: rdpclip.exe | RDP Clipboard Monitor
+---
+
 # rdpclip.exe 
 
 * File Path: `C:\Windows\system32\rdpclip.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:/9AysJajZlBVobhyvz9Oh8KunUnz9hg+ZJuKy3wGrxrkqobbNYz:/+ysJ+3BVobs
 
 ## Possible Misuse
 
-*The following table contains possible examples of `rdpclip.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `rdpclip.exe` being misused. While `rdpclip.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

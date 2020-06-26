@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PkgMgr.exe | Windows Package Manager
+---
+
 # PkgMgr.exe 
 
 * File Path: `C:\Windows\system32\PkgMgr.exe`

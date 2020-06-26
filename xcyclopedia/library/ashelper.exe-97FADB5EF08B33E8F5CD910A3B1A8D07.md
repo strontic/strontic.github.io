@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ashelper.exe | Cisco WebEx Application Advance Sharing Module
+---
+
 # ashelper.exe 
 
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_UMC\ashelper.exe`

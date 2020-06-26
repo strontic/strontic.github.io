@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UI0Detect.exe | Interactive services detection
+---
+
 # UI0Detect.exe 
 
 * File Path: `C:\Windows\system32\UI0Detect.exe`

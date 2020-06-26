@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: tracerpt.exe | Event Trace Report Tool
+---
+
 # tracerpt.exe 
 
 * File Path: `C:\Windows\SysWOW64\tracerpt.exe`

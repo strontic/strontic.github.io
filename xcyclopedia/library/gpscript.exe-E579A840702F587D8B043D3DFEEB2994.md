@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: gpscript.exe | Group Policy Script Application
+---
+
 # gpscript.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\gpscript.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:Y7alU+Bk3XQ/V85PA4hhk488ELrTEuCgmdtjxX1TdTlZF99V5e:7++Bk3At85PA4mv
 
 ## Possible Misuse
 
-*The following table contains possible examples of `gpscript.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `gpscript.exe` being misused. While `gpscript.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

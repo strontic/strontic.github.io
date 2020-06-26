@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CompatTelRunner.exe | Microsoft Compatibility Telemetry
+---
+
 # CompatTelRunner.exe 
 
 * File Path: `C:\WINDOWS\system32\CompatTelRunner.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `CompatTelRunner.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `CompatTelRunner.exe` being misused. While `CompatTelRunner.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

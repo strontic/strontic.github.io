@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ApplySettingsTemplateCatalog.exe | ApplySettingsTemplateCatalog EXE
+---
+
 # ApplySettingsTemplateCatalog.exe 
 
 * File Path: `C:\Windows\system32\ApplySettingsTemplateCatalog.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: setup.exe | 32-bit Setup Launcher
+---
+
 # setup.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\InstallShield\setup.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `setup.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `setup.exe` being misused. While `setup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

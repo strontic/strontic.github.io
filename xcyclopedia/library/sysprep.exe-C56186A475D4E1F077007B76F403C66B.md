@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sysprep.exe | System Preparation Tool
+---
+
 # sysprep.exe 
 
 * File Path: `C:\WINDOWS\system32\Sysprep\sysprep.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:THp7LMuRrE5+mQvI5c2I+QdxSlJGzNX5oieQ8yFWuy+PdIC+bXj:jxLMAa+mQvI5
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sysprep.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sysprep.exe` being misused. While `sysprep.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

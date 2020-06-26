@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: HP3DDGService.exe | HP3DDGService
+---
+
 # HP3DDGService.exe 
 
 * File Path: `C:\WINDOWS\system32\HP3DDGService.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: verifiergui.exe | Driver Verifier Manager
+---
+
 # verifiergui.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\verifiergui.exe`

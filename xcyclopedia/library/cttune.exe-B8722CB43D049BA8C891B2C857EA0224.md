@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cttune.exe | ClearType Tuner
+---
+
 # cttune.exe 
 
 * File Path: `C:\WINDOWS\system32\cttune.exe`

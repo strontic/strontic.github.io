@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: XblGameSaveTask.exe | XblGameSave Standby Task
+---
+
 # XblGameSaveTask.exe 
 
 * File Path: `C:\WINDOWS\system32\XblGameSaveTask.exe`

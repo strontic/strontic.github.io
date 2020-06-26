@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Setup.exe | Intel PROSet/Wireless Software
+---
+
 # Setup.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\netwew01.inf_amd64_d48428047ce3cc1e\Setup.exe`
@@ -52,7 +55,7 @@ SSDEEP | `49152:TFmoJsL19tkT6ligMQTj0fMRdHUkA/pMVZjA:UoJgkgMCj/HUppURA`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Setup.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Setup.exe` being misused. While `Setup.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: nmbind.exe | Hyper-V Network Core Bind Application
+---
+
 # nmbind.exe 
 
 * File Path: `C:\WINDOWS\system32\nmbind.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: NETSTAT.EXE | TCP/IP Netstat Command
+---
+
 # NETSTAT.EXE 
 
 * File Path: `C:\Windows\SysWOW64\NETSTAT.EXE`
@@ -94,7 +97,7 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 
 ## Possible Misuse
 
-*The following table contains possible examples of `NETSTAT.EXE` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `NETSTAT.EXE` being misused. While `NETSTAT.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
@@ -116,7 +119,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1049.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md) | netstat | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1049.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md) | Upon successful execution, sh will execute `netstat` and `who -a`. Results will output via stdout. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1049.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md) | ##### Description: Check if netstat command exists on the machine | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1049.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md) | if [ -x "$(command -v netstat)" ]; then exit 0; else exit 1;  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1049.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md) | if [ -x "$(command -v netstat)" ]; then exit 0; else exit 1; fi;  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1049.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md) | echo "Install netstat on the machine."; exit 1; | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*

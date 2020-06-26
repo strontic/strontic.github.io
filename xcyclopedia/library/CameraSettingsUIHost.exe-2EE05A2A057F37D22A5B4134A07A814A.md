@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: CameraSettingsUIHost.exe | Camera Settings UI Host
+---
+
 # CameraSettingsUIHost.exe 
 
 * File Path: `C:\WINDOWS\system32\CameraSettingsUIHost.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: FXSSVC.exe | Fax Service
+---
+
 # FXSSVC.exe 
 
 * File Path: `C:\WINDOWS\system32\FXSSVC.exe`
@@ -52,7 +55,7 @@ SSDEEP | `12288:mJFox052yo03ypNIwZMNGQWk48QVwGe+ip6BvjNOCWkbIlDpV/h:KME/oAONd2NJ
 
 ## Possible Misuse
 
-*The following table contains possible examples of `FXSSVC.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `FXSSVC.exe` being misused. While `FXSSVC.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

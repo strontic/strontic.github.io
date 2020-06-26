@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bitsadmin.exe | BITS administration utility
+---
+
 # bitsadmin.exe 
 
 * File Path: `C:\WINDOWS\system32\bitsadmin.exe`
@@ -296,7 +299,7 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `bitsadmin.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `bitsadmin.exe` being misused. While `bitsadmin.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

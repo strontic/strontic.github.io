@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PickerHost.exe | File Picker UI Host
+---
+
 # PickerHost.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\PickerHost.exe`

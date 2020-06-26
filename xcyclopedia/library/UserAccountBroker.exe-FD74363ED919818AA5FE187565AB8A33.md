@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: UserAccountBroker.exe | User Account Control Panel Host
+---
+
 # UserAccountBroker.exe 
 
 * File Path: `C:\WINDOWS\system32\UserAccountBroker.exe`

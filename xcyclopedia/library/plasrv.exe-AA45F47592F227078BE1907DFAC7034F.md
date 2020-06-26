@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: plasrv.exe | Performance Logs and Alerts DCOM Server
+---
+
 # plasrv.exe 
 
 * File Path: `C:\Windows\system32\plasrv.exe`
@@ -52,7 +55,7 @@ chrome.exe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `plasrv.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `plasrv.exe` being misused. While `plasrv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

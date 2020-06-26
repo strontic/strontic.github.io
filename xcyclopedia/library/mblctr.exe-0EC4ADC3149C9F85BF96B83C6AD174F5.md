@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: mblctr.exe | Windows Mobility Center
+---
+
 # mblctr.exe 
 
 * File Path: `C:\Windows\system32\mblctr.exe`

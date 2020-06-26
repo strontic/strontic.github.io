@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: atasanot.exe | WebEx Application Sharing Annonation Module
+---
+
 # atasanot.exe 
 
 * File Path: `C:\ProgramData\WebEx\WebEx\T33_TC\atasanot.exe`

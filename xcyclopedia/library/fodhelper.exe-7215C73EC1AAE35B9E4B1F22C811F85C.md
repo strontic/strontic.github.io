@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: fodhelper.exe | Features On Demand Helper
+---
+
 # fodhelper.exe 
 
 * File Path: `C:\WINDOWS\system32\fodhelper.exe`
@@ -52,7 +55,7 @@ SSDEEP | `768:pwO9ZeoptCAgwlGO1IuTsS4G5KaTVzmoPrOi9davNZ3YS2:t9IoPztg22uTVzm8h9S
 
 ## Possible Misuse
 
-*The following table contains possible examples of `fodhelper.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `fodhelper.exe` being misused. While `fodhelper.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

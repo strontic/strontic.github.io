@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bdeunlock.exe | BitLocker Unlock
+---
+
 # bdeunlock.exe 
 
 * File Path: `C:\WINDOWS\system32\bdeunlock.exe`

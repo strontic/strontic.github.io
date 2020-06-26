@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: DisplaySwitch.exe | Display Switch
+---
+
 # DisplaySwitch.exe 
 
 * File Path: `C:\WINDOWS\system32\DisplaySwitch.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:1fp3NHIF5Ni1dZpbS57m0KZkxj3O4LvkJ20/mSLTWVXrSY6t:t3WNiHS57m0KIj3N
 
 ## Possible Misuse
 
-*The following table contains possible examples of `DisplaySwitch.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `DisplaySwitch.exe` being misused. While `DisplaySwitch.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: EduPrintProv.exe | Printer Provision Utility for EDU
+---
+
 # EduPrintProv.exe 
 
 * File Path: `C:\WINDOWS\system32\EduPrintProv.exe`

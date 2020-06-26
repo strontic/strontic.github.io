@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WSCollect.exe | This tool collects Windows Store log files
+---
+
 # WSCollect.exe 
 
 * File Path: `C:\Windows\system32\WSCollect.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sxstrace.exe | Sxs Tracing Tool
+---
+
 # sxstrace.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\sxstrace.exe`

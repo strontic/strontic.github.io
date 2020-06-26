@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MdSched.exe | Windows Memory Diagnostics Tool
+---
+
 # MdSched.exe 
 
 * File Path: `C:\WINDOWS\system32\MdSched.exe`

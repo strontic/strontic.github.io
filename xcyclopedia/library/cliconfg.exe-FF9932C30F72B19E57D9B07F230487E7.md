@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cliconfg.exe | SQL Client Configuration Utility EXE
+---
+
 # cliconfg.exe 
 
 * File Path: `C:\Windows\system32\cliconfg.exe`

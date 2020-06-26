@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: consent.exe | Consent UI for administrative applications
+---
+
 # consent.exe 
 
 * File Path: `C:\Windows\system32\consent.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:fhPwZ9//62wgsLLO3aeEA3XKTIUQdud9V6BILDblLVQ+Ffss728apgczk5pPoO:fR
 
 ## Possible Misuse
 
-*The following table contains possible examples of `consent.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `consent.exe` being misused. While `consent.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ssh.exe | 
+---
+
 # ssh.exe 
 
 * File Path: `C:\WINDOWS\system32\OpenSSH\ssh.exe`
@@ -60,7 +63,7 @@ conhost.exe
 
 ## Possible Misuse
 
-*The following table contains possible examples of `ssh.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `ssh.exe` being misused. While `ssh.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

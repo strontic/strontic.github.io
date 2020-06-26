@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PinEnrollmentBroker.exe | PinEnrollmentBroker
+---
+
 # PinEnrollmentBroker.exe 
 
 * File Path: `C:\WINDOWS\system32\PinEnrollmentBroker.exe`

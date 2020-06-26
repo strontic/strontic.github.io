@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: sdbinst.exe | Application Compatibility Database Installer
+---
+
 # sdbinst.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\sdbinst.exe`
@@ -52,7 +55,7 @@ SSDEEP | `384:2ehy/EpSJ0b9o0a24wdJVIGxif3+cox1IuOQVsYmsPDERzWNgWD:2e/VbXa24oIAoy
 
 ## Possible Misuse
 
-*The following table contains possible examples of `sdbinst.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `sdbinst.exe` being misused. While `sdbinst.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

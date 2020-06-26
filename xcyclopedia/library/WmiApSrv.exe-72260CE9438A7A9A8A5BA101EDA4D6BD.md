@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WmiApSrv.exe | WMI Performance Reverse Adapter
+---
+
 # WmiApSrv.exe 
 
 * File Path: `C:\WINDOWS\system32\wbem\WmiApSrv.exe`
@@ -52,7 +55,7 @@ SSDEEP | `3072:yVuG1JcDtqbSZczNZaPT/VxACI7J02rnY3F3uU+75jX1oAp48ZFRvCcw:jGetqbSZ
 
 ## Possible Misuse
 
-*The following table contains possible examples of `WmiApSrv.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `WmiApSrv.exe` being misused. While `WmiApSrv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: igfxext.exe | igfxext Module
+---
+
 # igfxext.exe 
 
 * File Path: `C:\WINDOWS\system32\igfxext.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: EhStorAuthn.exe | Microsoft Enhanced Storage Authentication Program
+---
+
 # EhStorAuthn.exe 
 
 * File Path: `C:\WINDOWS\system32\EhStorAuthn.exe`

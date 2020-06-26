@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bfsvc.exe | Boot File Servicing Utility
+---
+
 # bfsvc.exe 
 
 * File Path: `C:\Windows\bfsvc.exe`

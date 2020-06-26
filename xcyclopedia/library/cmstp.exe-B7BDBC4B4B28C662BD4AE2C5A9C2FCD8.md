@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cmstp.exe | Microsoft Connection Manager Profile Installer
+---
+
 # cmstp.exe 
 
 * File Path: `C:\Windows\SysWOW64\cmstp.exe`
@@ -52,7 +55,7 @@ SSDEEP | `1536:4vsrh8bTOKnZyZ2XPf5ZVuJ+gPjYqJZr9IOcMHW1vKSt63:4Erh8GKnYIFO3DIOcM
 
 ## Possible Misuse
 
-*The following table contains possible examples of `cmstp.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `cmstp.exe` being misused. While `cmstp.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

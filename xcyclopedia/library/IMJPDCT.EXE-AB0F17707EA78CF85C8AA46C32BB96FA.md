@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMJPDCT.EXE | Microsoft IME
+---
+
 # IMJPDCT.EXE 
 
 * File Path: `C:\Windows\system32\IME\IMEJP\IMJPDCT.EXE`

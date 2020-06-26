@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AxInstUI.exe | ActiveX Installer Service
+---
+
 # AxInstUI.exe 
 
 * File Path: `C:\WINDOWS\system32\AxInstUI.exe`

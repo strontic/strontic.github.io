@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: vcredist_x64.exe | Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030
+---
+
 # vcredist_x64.exe 
 
 * File Path: `C:\ProgramData\Package Cache\{00000000-0000-0000-0000-000000000000}\vcredist_x64.exe`

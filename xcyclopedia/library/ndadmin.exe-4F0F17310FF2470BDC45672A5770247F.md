@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ndadmin.exe | Device driver software installation
+---
+
 # ndadmin.exe 
 
 * File Path: `C:\Windows\system32\ndadmin.exe`

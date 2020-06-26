@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: igfxEM.exe | igfxEM Module
+---
+
 # igfxEM.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxEM.exe`
@@ -52,7 +55,7 @@ SSDEEP | `6144:K0J0aSVMXHuAxnTVl7fzvjbFmZJoEXtgS1gtxC53A:K0J083uA5nbtACHtp`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `igfxEM.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `igfxEM.exe` being misused. While `igfxEM.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

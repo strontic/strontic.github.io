@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dxdiag.exe | Microsoft DirectX Diagnostic Tool
+---
+
 # dxdiag.exe 
 
 * File Path: `C:\Windows\system32\dxdiag.exe`

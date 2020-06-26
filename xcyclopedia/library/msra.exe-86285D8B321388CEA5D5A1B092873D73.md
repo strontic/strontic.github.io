@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msra.exe | Windows Remote Assistance
+---
+
 # msra.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\msra.exe`

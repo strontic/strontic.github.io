@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: systemreset.exe | System Reset for Windows
+---
+
 # systemreset.exe 
 
 * File Path: `C:\WINDOWS\system32\systemreset.exe`

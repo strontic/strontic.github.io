@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: clip.exe | Clip - copies the data into clipboard
+---
+
 # clip.exe 
 
 * File Path: `C:\Windows\system32\clip.exe`

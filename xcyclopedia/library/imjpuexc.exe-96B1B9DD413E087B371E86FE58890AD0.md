@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: imjpuexc.exe | Microsoft IME
+---
+
 # imjpuexc.exe 
 
 * File Path: `C:\Windows\system32\IME\IMEJP\imjpuexc.exe`

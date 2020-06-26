@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: hcsdiag.exe | Hyper-V Host Compute Service Diagnostics Tool
+---
+
 # hcsdiag.exe 
 
 * File Path: `C:\WINDOWS\system32\hcsdiag.exe`

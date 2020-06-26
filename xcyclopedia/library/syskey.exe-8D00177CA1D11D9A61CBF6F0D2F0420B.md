@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: syskey.exe | SAM Lock Tool
+---
+
 # syskey.exe 
 
 * File Path: `C:\Windows\system32\syskey.exe`
@@ -57,7 +60,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `syskey.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `syskey.exe` being misused. While `syskey.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

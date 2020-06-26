@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesHardware.exe | Hardware Settings
+---
+
 # SystemPropertiesHardware.exe 
 
 * File Path: `C:\Windows\SysWOW64\SystemPropertiesHardware.exe`

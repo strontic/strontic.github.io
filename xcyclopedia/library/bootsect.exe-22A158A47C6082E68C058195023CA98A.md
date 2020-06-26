@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bootsect.exe | Boot Sector Manipulation Tool
+---
+
 # bootsect.exe 
 
 * File Path: `C:\WINDOWS\system32\bootsect.exe`

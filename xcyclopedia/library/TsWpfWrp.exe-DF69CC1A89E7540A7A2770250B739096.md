@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: TsWpfWrp.exe | Windows Presentation Foundation Terminal Server Print Wrapper
+---
+
 # TsWpfWrp.exe 
 
 * File Path: `C:\WINDOWS\system32\TsWpfWrp.exe`

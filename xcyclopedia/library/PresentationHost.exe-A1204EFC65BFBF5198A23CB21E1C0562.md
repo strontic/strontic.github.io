@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PresentationHost.exe | Windows Presentation Foundation Host
+---
+
 # PresentationHost.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\PresentationHost.exe`
@@ -59,7 +62,7 @@ File | Score
 
 ## Possible Misuse
 
-*The following table contains possible examples of `PresentationHost.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `PresentationHost.exe` being misused. While `PresentationHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

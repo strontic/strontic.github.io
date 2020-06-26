@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Dism.exe | Dism Image Servicing Utility
+---
+
 # Dism.exe 
 
 * File Path: `C:\Windows\system32\Dism.exe`
@@ -140,7 +143,7 @@ option immediately before /?.
 
 ## Possible Misuse
 
-*The following table contains possible examples of `Dism.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `Dism.exe` being misused. While `Dism.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MpCmdRun.exe | Microsoft Malware Protection Command Line Utility
+---
+
 # MpCmdRun.exe 
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\MpCmdRun.exe`
@@ -229,7 +232,7 @@ C:\ProgramData\Microsoft\Windows Defender\Support
 
 ## Possible Misuse
 
-*The following table contains possible examples of `MpCmdRun.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `MpCmdRun.exe` being misused. While `MpCmdRun.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: licensingdiag.exe | Licensing Diagnostic Tool
+---
+
 # licensingdiag.exe 
 
 * File Path: `C:\WINDOWS\system32\licensingdiag.exe`

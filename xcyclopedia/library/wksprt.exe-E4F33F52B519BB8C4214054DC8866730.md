@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wksprt.exe | RemoteApp and Desktop Connection Runtime
+---
+
 # wksprt.exe 
 
 * File Path: `C:\WINDOWS\system32\wksprt.exe`

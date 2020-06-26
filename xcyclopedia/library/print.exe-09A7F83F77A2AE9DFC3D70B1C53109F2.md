@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: print.exe | Print Utility
+---
+
 # print.exe 
 
 * File Path: `C:\WINDOWS\system32\print.exe`
@@ -58,7 +61,7 @@ PRINT [/D:device] [[drive:][path]filename[...]]
 
 ## Possible Misuse
 
-*The following table contains possible examples of `print.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `print.exe` being misused. While `print.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

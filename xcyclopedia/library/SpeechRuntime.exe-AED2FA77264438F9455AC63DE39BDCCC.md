@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SpeechRuntime.exe | Speech Runtime Executable
+---
+
 # SpeechRuntime.exe 
 
 * File Path: `C:\WINDOWS\system32\Speech_OneCore\common\SpeechRuntime.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wpr.exe | Microsoft Windows Performance Recorder
+---
+
 # wpr.exe 
 
 * File Path: `C:\WINDOWS\system32\wpr.exe`

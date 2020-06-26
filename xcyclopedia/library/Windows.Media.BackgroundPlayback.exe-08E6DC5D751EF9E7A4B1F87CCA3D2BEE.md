@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
+---
+
 # Windows.Media.BackgroundPlayback.exe 
 
 * File Path: `C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe`

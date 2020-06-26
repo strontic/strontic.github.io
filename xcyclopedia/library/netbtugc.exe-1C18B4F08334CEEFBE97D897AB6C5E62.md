@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: netbtugc.exe | NetBT Unattend Generic Command
+---
+
 # netbtugc.exe 
 
 * File Path: `C:\WINDOWS\system32\netbtugc.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wkspbroker.exe | RemoteApp and Desktop Connection Runtime Broker
+---
+
 # wkspbroker.exe 
 
 * File Path: `C:\WINDOWS\system32\wkspbroker.exe`

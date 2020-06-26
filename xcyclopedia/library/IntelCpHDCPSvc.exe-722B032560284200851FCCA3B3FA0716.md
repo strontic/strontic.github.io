@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IntelCpHDCPSvc.exe | 
+---
+
 # IntelCpHDCPSvc.exe 
 
 * File Path: `C:\WINDOWS\system32\IntelCpHDCPSvc.exe`

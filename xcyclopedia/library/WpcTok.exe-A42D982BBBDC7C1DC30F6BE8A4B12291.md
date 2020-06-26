@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: WpcTok.exe | Family Safety Token Auth
+---
+
 # WpcTok.exe 
 
 * File Path: `C:\WINDOWS\system32\WpcTok.exe`

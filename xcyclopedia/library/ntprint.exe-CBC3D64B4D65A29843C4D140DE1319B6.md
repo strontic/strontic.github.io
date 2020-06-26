@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ntprint.exe | Printer driver software installation
+---
+
 # ntprint.exe 
 
 * File Path: `C:\Windows\system32\ntprint.exe`

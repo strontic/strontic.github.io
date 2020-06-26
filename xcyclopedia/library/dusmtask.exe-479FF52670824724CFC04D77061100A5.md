@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: dusmtask.exe | DUSM Task
+---
+
 # dusmtask.exe 
 
 * File Path: `C:\WINDOWS\system32\dusmtask.exe`

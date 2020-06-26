@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IDTNGUI.exe | IDT PC Audio
+---
+
 # IDTNGUI.exe 
 
 * File Path: `C:\WINDOWS\system32\IDTNGUI.exe`

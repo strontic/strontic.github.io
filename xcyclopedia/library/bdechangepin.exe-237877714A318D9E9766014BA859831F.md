@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: bdechangepin.exe | BitLocker Drive Encryption: PIN Change Tool
+---
+
 # bdechangepin.exe 
 
 * File Path: `C:\WINDOWS\system32\bdechangepin.exe`

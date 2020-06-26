@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: cmimageworker.exe | 
+---
+
 # cmimageworker.exe 
 
 * File Path: `C:\WINDOWS\system32\cmimageworker.exe`

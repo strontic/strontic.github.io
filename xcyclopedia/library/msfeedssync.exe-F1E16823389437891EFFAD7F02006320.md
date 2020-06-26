@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msfeedssync.exe | Microsoft Feeds Synchronization
+---
+
 # msfeedssync.exe 
 
 * File Path: `C:\Windows\SysWOW64\msfeedssync.exe`
@@ -50,6 +53,13 @@ SSDEEP | `192:ROd9kmXRfE0QX6xtk2JTxDSSl7LRGRMLTvoZWcsLsl:RM99ZSXkiqYWRGCIZWcsL`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `msfeedssync.exe` being misused. While `msfeedssync.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_wmi_module_load.yml) | `            - '\msfeedssync.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SystemPropertiesDataExecutionPrevention.exe | Change Data Execution Prevention Settings
+---
+
 # SystemPropertiesDataExecutionPrevention.exe 
 
 * File Path: `C:\WINDOWS\SysWOW64\SystemPropertiesDataExecutionPrevention.exe`

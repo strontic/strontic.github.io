@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: verclsid.exe | Extension CLSID Verification Host
+---
+
 # verclsid.exe 
 
 * File Path: `C:\Windows\system32\verclsid.exe`
@@ -52,7 +55,7 @@ SSDEEP | `384:9zKT0L1EoPM4guC1aCJRI8RqKKoQWJNW:BKT0L304SrJRI8RxKo3`
 
 ## Possible Misuse
 
-*The following table contains possible examples of `verclsid.exe` being misused. While this file is **not** malicious, its legitimate functionality can by abused for malicious purposes.*
+*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --

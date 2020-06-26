@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: BitLockerDeviceEncryption.exe | BitLocker Device Encryption Tool
+---
+
 # BitLockerDeviceEncryption.exe 
 
 * File Path: `C:\WINDOWS\system32\BitLockerDeviceEncryption.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: win32calc.exe | Windows Calculator
+---
+
 # win32calc.exe 
 
 * File Path: `C:\Windows\SysWOW64\win32calc.exe`

@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: setres.exe | Configures display settings.
+---
+
 # setres.exe 
 
 * File Path: `C:\Windows\system32\setres.exe`

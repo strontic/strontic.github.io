@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: AppHostRegistrationVerifier.exe | App Uri Handlers Registration Verifier
+---
+
 # AppHostRegistrationVerifier.exe 
 
 * File Path: `C:\Windows\system32\AppHostRegistrationVerifier.exe`

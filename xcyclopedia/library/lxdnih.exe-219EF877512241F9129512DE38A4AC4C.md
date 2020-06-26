@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: lxdnih.exe | Printer Communication System
+---
+
 # lxdnih.exe 
 
 * File Path: `C:\WINDOWS\system32\lxdnih.exe`

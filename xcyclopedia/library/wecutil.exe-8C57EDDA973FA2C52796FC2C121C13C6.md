@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: wecutil.exe | Event Collector Command Line Utility
+---
+
 # wecutil.exe 
 
 * File Path: `C:\Windows\SysWOW64\wecutil.exe`

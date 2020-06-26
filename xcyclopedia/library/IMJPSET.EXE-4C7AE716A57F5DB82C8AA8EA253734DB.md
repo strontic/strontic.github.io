@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: IMJPSET.EXE | Microsoft IME
+---
+
 # IMJPSET.EXE 
 
 * File Path: `C:\Windows\system32\IME\IMEJP\IMJPSET.EXE`

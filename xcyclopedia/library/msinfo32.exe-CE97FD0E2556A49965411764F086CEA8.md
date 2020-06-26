@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: msinfo32.exe | System Information
+---
+
 # msinfo32.exe 
 
 * File Path: `C:\WINDOWS\system32\msinfo32.exe`

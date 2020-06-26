@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: MicrosoftEdgeDevTools.exe | Microsoft Edge Content Process
+---
+
 # MicrosoftEdgeDevTools.exe 
 
 * File Path: `C:\WINDOWS\system32\MicrosoftEdgeDevTools.exe`

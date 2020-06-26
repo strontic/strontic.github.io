@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: PackagedCWALauncher.exe | Packaged CWA Launcher
+---
+
 # PackagedCWALauncher.exe 
 
 * File Path: `C:\WINDOWS\system32\PackagedCWALauncher.exe`

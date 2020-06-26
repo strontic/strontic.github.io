@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: SmartScreenSettings.exe | SmartScreenSettings
+---
+
 # SmartScreenSettings.exe 
 
 * File Path: `C:\Windows\system32\SmartScreenSettings.exe`

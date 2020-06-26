@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: ktmutil.exe | Kernel Transaction Management Utility
+---
+
 # ktmutil.exe 
 
 * File Path: `C:\Windows\system32\ktmutil.exe`

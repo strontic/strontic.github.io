@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: shrpubw.exe | Share Creation Wizard
+---
+
 # shrpubw.exe 
 
 * File Path: `C:\Windows\system32\shrpubw.exe`

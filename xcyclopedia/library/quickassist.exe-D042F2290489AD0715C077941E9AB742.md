@@ -1,4 +1,7 @@
-﻿
+﻿---
+title: quickassist.exe | Quick Assist
+---
+
 # quickassist.exe 
 
 * File Path: `C:\WINDOWS\system32\quickassist.exe`
