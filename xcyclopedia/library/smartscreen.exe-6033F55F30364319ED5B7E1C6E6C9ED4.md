@@ -52,6 +52,11 @@ SSDEEP | `49152:FkFfgfHzq9YKudUyiIWllo5hwHKAAdFpl9SdICBZgX5k8r37UnxNDg:ebsr37eN`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\smartscreen.exe](smartscreen.exe-B75FA41284409A6134BF824BEAE59B4E.md) | 30
 
 ## Possible Misuse
 

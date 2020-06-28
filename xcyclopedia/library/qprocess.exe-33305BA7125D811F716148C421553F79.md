@@ -1,0 +1,117 @@
+﻿---
+title: qprocess.exe | Query Process Utility
+---
+
+# qprocess.exe 
+
+* File Path: `C:\Windows\system32\qprocess.exe`
+* Description: Query Process Utility
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `33305BA7125D811F716148C421553F79`
+SHA1 | `A90B92D3F21FE22BD7C896A0CAE8663AD7514273`
+SHA256 | `F71965F45A393E95B8C10B6D8947903BD0F035FC8CA3982D0F1A7D42B23FA315`
+SHA384 | `F82B7FB20FD43C00AA287C59DBC998B1D2F2D053A68453582B33A15492555205A7AAAD14D25823CDDA0F0517ECF787F2`
+SHA512 | `C28347F4C719317B847C333C393B316DDFBD290FB56F7B286269E3850C05BF717F12E81FEB95D2F07D5A18F22DE0C9FE9D0329322726117B6342E2D62E46992D`
+SSDEEP | `768:z0wxzFYy7HF93OARwQs3Zzg2yHMpZ8iLLBVu3:z0wFjPxOZdgnsLL23`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+Displays information about processes.
+
+QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
+  [/SERVER:servername]
+
+  *                  Display all visible processes.
+  processid          Display process specified by processid.
+  username           Display all processes belonging to username.
+  sessionname        Display all processes running at sessionname.
+  /ID:nn             Display all processes running at session nn.
+  programname        Display all processes associated with programname.
+  /SERVER:servername The Remote Desktop Session Host server to be queried.
+
+```
+
+### Usage (stderr):
+```Batchfile
+Invalid parameter(s)
+Displays information about processes.
+
+QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
+  [/SERVER:servername]
+
+  *                  Display all visible processes.
+  processid          Display process specified by processid.
+  username           Display all processes belonging to username.
+  sessionname        Display all processes running at sessionname.
+  /ID:nn             Display all processes running at session nn.
+  programname        Display all processes associated with programname.
+  /SERVER:servername The Remote Desktop Session Host server to be queried.
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: qprocess.exe.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Possible Misuse
+
+*The following table contains possible examples of `qprocess.exe` being misused. While `qprocess.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_commands_recon_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_commands_recon_activity.yml) | `            - qprocess` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+## qprocess
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Displays information about processes that are running on a Remote Desktop Session Host (RD Session Host) server.
+
+> [!NOTE]
+> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](https://technet.microsoft.com/library/hh831527) in the Windows Server TechNet Library.
+
+### Remarks
+This command is the same as the **query process** command.
+
+### Additional References
+[query process](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/query-process.md)
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+[Remote Desktop Services (Terminal Services) Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remote-desktop-services-terminal-services-command-reference.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

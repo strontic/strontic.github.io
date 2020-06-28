@@ -97,6 +97,11 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\compact.exe](compact.exe-278549BBD0CE09F011C1B8481576CA0C.md) | 38
 
 
 ## Additional Info*

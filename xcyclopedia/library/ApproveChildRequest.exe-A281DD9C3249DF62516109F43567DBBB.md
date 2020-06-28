@@ -52,6 +52,11 @@ SSDEEP | `6144:kYCKCIBaBYq+fEG0z97a2nfRGKdDPDvV:pCIsYqCEGU9+cnjDt`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-A0105B22267A0AB8B5EA13274434E928.md) | 50
 
 
 

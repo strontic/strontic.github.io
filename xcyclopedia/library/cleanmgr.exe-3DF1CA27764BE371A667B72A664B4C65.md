@@ -57,6 +57,8 @@ SSDEEP | `3072:afql8tVhvzv16fypZAEPGRvQhRkKqUa9antF5hvvJkuXp6G:KtVhvzLpeE+ohSKq9
 File | Score
 -- | --
 [C:\Windows\system32\cleanmgr.exe](cleanmgr.exe-B6A5162D28FDCB87869A2ED87F46C8A6.md) | 71
+[C:\Windows\system32\cleanmgr.exe](cleanmgr.exe-D17E532DB343357FC9EBF5E559820BD4.md) | 66
+[C:\Windows\SysWOW64\cleanmgr.exe](cleanmgr.exe-5AB8F80E61D780F31585E612B83FFFAD.md) | 63
 
 
 ## Additional Info*

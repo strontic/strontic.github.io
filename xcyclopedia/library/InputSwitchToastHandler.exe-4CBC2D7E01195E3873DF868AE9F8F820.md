@@ -52,6 +52,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\InputSwitchToastHandler.exe](InputSwitchToastHandler.exe-BE00D803E4E2B5A19C3E8AECC42C8727.md) | 41
 
 
 

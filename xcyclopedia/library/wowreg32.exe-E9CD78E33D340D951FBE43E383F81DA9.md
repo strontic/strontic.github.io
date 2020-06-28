@@ -57,6 +57,7 @@ SSDEEP | `192:A8FOum/QeY7PN4ABIWtbJc2/1YFYynD4Lt262m4XRWg7ZjHW:AP842tb1/TA4JmrhW
 File | Score
 -- | --
 [C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-52CEB4B5FED7DA60485818002E26455E.md) | 40
+[C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-5C3C994AB427D907A3787B62B744DB69.md) | 46
 
 
 

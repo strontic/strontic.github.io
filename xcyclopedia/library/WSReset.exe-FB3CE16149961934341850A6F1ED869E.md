@@ -56,9 +56,11 @@ SSDEEP | `768:qnEer5SoQTaOS00qaZMW9w1Nsn4FOBkStBWr:I/8h3S00qaZcGg0Yr`
 
 File | Score
 -- | --
+[C:\Windows\system32\WSCollect.exe](WSCollect.exe-1C4F7AB2AD0B867487E42F77A637A3F2.md) | 43
 [C:\Windows\system32\WSCollect.exe](WSCollect.exe-4F67D9A480038D06463A43AE66880245.md) | 40
 [C:\WINDOWS\system32\WSCollect.exe](WSCollect.exe-C471046B92D04242ED85AB1522E90012.md) | 43
 [C:\Windows\system32\WSReset.exe](WSReset.exe-374AB8022CA5EE56684BC28626F36F73.md) | 43
+[C:\Windows\system32\WSReset.exe](WSReset.exe-C08D9492A11813196000AF9E4F5EE23F.md) | 46
 
 ## Possible Misuse
 

@@ -212,6 +212,7 @@ COMMON USAGE:
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\verifiergui.exe](verifiergui.exe-1FFDE5339B78158668EDF02922258208.md) | 40
+[C:\Windows\SysWOW64\verifiergui.exe](verifiergui.exe-56D77A92B6AFACDE189C0A5613A0F6CA.md) | 40
 
 
 

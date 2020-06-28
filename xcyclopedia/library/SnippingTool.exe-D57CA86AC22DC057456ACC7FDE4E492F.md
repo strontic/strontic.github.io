@@ -52,6 +52,11 @@ SSDEEP | `98304:WL6slxL4TsqaA2SRmXUrymuXB2rmaOOaCa2PKCZZNRwtPV3Oy:WL6svDqaA2SRmX
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SnippingTool.exe](SnippingTool.exe-0D42E0492585153117F6ECF250EC8993.md) | 94
 
 
 

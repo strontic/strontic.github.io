@@ -1,0 +1,130 @@
+﻿---
+title: clip.exe | Clip - copies the data into clipboard
+---
+
+# clip.exe 
+
+* File Path: `C:\Windows\SysWOW64\clip.exe`
+* Description: Clip - copies the data into clipboard
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `E40CB198EBCD20CD16739F670D4D7B74`
+SHA1 | `E898A3B321BD6734C5A676382B5C0DFD42BE377D`
+SHA256 | `6CDC8D3C147DCF7253C0FB7BB552B4AE918ABA4058CC072A2320A7297D4FBED7`
+SHA384 | `EC95F7C7CC1D0F72AC9ABCF24C6BECA45B9B01F3E42945A308302311943064D237159AB647E535BB1BD039640DFCBFFA`
+SHA512 | `1E5A68B2AE30C7D16A0A74807FA069BE2D1B8ADCFCBCDE777217B9420A987196AF13FB05177E476157029A1F7916E6948A1286CDB8957CDD142756DA3C42BEEF`
+SSDEEP | `384:R7OPm5RmB6C+DlVbrb6IQhH48oOhQ76pXeEYfM3G8HIdkLWXKQAF900kdxLd73NV:R7OPQc+DlVbrvQhYWhQ+BeEYfyRHPcZl`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+CLIP
+
+Description:
+    Redirects output of command line tools to the Windows clipboard.
+    This text output can then be pasted into other programs.
+
+Parameter List:
+    /?                  Displays this help message.
+
+Examples:
+    DIR | CLIP          Places a copy of the current directory
+                        listing into the Windows clipboard.
+
+    CLIP < README.TXT   Places a copy of the text from readme.txt
+                        on to the Windows clipboard.
+
+```
+
+### Usage (stderr):
+```Batchfile
+ERROR: Invalid argument/option - '-help'.
+Type "CLIP /?" for usage.
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: clip.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## clip
+
+Redirects the command output from the command line to the Windows clipboard. You can use this command to copy data directly into any application that can receive text from the Clipboard. You can also paste this text output into other programs.
+
+### Syntax
+
+```
+<command> | clip
+clip < <filename>
+```
+
+#### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `<command>` | Specifies a command whose output you want to send to the Windows clipboard. |
+| `<filename>` | Specifies a file whose contents you want to send to the Windows clipboard. |
+| /? | Displays help at the command prompt. |
+
+### Examples
+
+To copy the current directory listing to the Windows clipboard, type:
+
+```
+dir | clip
+```
+
+To copy the output of a program called *generic.awk* to the Windows clipboard, type:
+
+```
+awk -f generic.awk input.txt | clip
+```
+
+To copy the contents of a file called *readme.txt* to the Windows clipboard, type:
+
+```
+clip < readme.txt
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

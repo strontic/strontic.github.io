@@ -52,6 +52,11 @@ SSDEEP | `6144:7OqNU7GHVxHEVHHHQVb1kHVqHVqHQQbTuTRTHTfTEHVf2XTQT6TITQT+VyW176eQ:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-F58E82580EC2E892BDC9BDFCA1EE9FB7.md) | 74
 
 
 

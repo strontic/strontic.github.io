@@ -52,6 +52,11 @@ SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:G
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\FileHistory.exe](FileHistory.exe-11FCDD6D3B8F0381AC9E90F9B4EC0865.md) | 77
 
 ## Possible Misuse
 

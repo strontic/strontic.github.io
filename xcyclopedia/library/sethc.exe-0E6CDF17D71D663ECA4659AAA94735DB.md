@@ -56,7 +56,9 @@ SSDEEP | `1536:P+a0Kgw4XuTQD4gyB0HN5g5r1qzWO0vmTZB1+hKW/Gzg30:f0K2+T0Kut5g5lAg30
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-E3F4970C45200284908BF474D26FCF3E.md) | 47
 [C:\WINDOWS\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-E76BBB4FA720040460D84005E90D2585.md) | 43
+[C:\Windows\SysWOW64\sethc.exe](sethc.exe-79B368594321417E6BF79FB308DD9DF3.md) | 50
 
 ## Possible Misuse
 

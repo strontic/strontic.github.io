@@ -52,6 +52,11 @@ SSDEEP | `384:rvZ3bbVOI/YppE8JqIry58l6Oatkn2MmoWco6O1Lmn9Ve5Aq+FnWSpyW21z:rRwAlq
 * Language: English (United States)
 * Legal Copyright: Copyright  Microsoft Corp. 1991-1997
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\setup16.exe](setup16.exe-59B1ECC8E19727831C55347FD53C5709.md) | 58
 
 
 

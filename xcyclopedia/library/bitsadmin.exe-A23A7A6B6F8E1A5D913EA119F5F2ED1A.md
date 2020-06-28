@@ -296,6 +296,11 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\bitsadmin.exe](bitsadmin.exe-01AAB62D5799F75B0D69EB29C1CA6855.md) | 40
 
 ## Possible Misuse
 

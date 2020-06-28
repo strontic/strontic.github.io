@@ -56,8 +56,10 @@ SSDEEP | `1536:i9n7ttvwY5rA7m+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:ixttvXA7e/FO+VQDUc
 
 File | Score
 -- | --
+[C:\Windows\system32\MdRes.exe](MdRes.exe-0C523F617F069E18124660A1486D6B6F.md) | 80
 [C:\WINDOWS\system32\MdRes.exe](MdRes.exe-4D39CFCDAE03CBD0CE29CAE5CFD45883.md) | 80
 [C:\Windows\system32\MdRes.exe](MdRes.exe-65AA6B6B47D01BF36898D5D06617C623.md) | 83
+[C:\Windows\system32\MdSched.exe](MdSched.exe-4FF2CCEEDC45B573012B35E6DCA467AA.md) | 83
 [C:\Windows\system32\MdSched.exe](MdSched.exe-8F8886C005711C2EAA283E3DF2CE01EC.md) | 77
 
 

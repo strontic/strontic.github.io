@@ -57,6 +57,7 @@ SSDEEP | `49152:mOpNQ6QTvumPeAGU1FVA7PsYmq1dKwdfU2bECbe:9NDF1DFE/`
 File | Score
 -- | --
 [C:\Windows\system32\WinSAT.exe](WinSAT.exe-6654FC269DF21AA165842E479678A94B.md) | 47
+[C:\Windows\system32\WinSAT.exe](WinSAT.exe-715DB53A8064C6DECCF68B7501DF3386.md) | 47
 
 
 

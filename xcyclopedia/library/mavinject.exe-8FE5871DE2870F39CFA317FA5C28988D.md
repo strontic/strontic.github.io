@@ -56,6 +56,7 @@ SSDEEP | `3072:9P5mmt0fSoD7Rcw3oc8LxCsExhfMFFM+X8cAI:Tmmt0fSoD7RcG2LxCZIr`
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-49338D141DD60CA212D85F60521FB1DF.md) | 50
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-644673C741AB152A3E8904A5B4080489.md) | 54
 
 ## Possible Misuse

@@ -52,6 +52,11 @@ SSDEEP | `1536:odABSPFdvuSgfTWWjEuZ+6CIt9M4vpttqZ9mTfHzPlliSPTcqgoLSbgvVoZtnCYg:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\Utilman.exe](Utilman.exe-8AD7C62A874D0DE5B2DC3823710364FC.md) | 43
 
 ## Possible Misuse
 

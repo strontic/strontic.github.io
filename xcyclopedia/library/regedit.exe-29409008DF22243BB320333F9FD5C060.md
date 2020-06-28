@@ -56,8 +56,10 @@ SSDEEP | `6144:Y1thznQC4hEgB/w2KBi+sQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNN2:Y1Dzn
 
 File | Score
 -- | --
+[C:\Windows\regedit.exe](regedit.exe-0EE48CC819E58D266827F8605AF17ABD.md) | 77
 [C:\Windows\regedit.exe](regedit.exe-BF5D30514FEA913E25CCC9E546257088.md) | 72
 [C:\WINDOWS\SysWOW64\regedit.exe](regedit.exe-01CE651BAE4DB16618DF8FF1A517E6E4.md) | 100
+[C:\Windows\SysWOW64\regedit.exe](regedit.exe-08D8384279EB3E25242B270860193E1C.md) | 77
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-2E327F27B5B836D8304DF46E8E20341A.md) | 72
 
 ## Possible Misuse

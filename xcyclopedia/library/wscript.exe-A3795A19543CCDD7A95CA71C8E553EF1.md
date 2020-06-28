@@ -52,6 +52,11 @@ SSDEEP | `3072:ITqLSkm7WhKM3/QYh19ujlNvXbDVqCjURGVruGTxt+5d:I0SksWhKuEJXF3BVrtTk
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\wscript.exe](wscript.exe-4D780D8F77047EE1C65F747D9F63A1FE.md) | 46
 
 ## Possible Misuse
 

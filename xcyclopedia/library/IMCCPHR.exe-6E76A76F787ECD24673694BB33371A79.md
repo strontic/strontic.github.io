@@ -1,0 +1,70 @@
+﻿---
+title: IMCCPHR.exe | IMCCPHR.exe
+---
+
+# IMCCPHR.exe 
+
+* File Path: `C:\Windows\system32\IME\SHARED\IMCCPHR.exe`
+* Description: IMCCPHR.exe
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `6E76A76F787ECD24673694BB33371A79`
+SHA1 | `57A31ED7CFCE584B0EFDE2517D9C674262B1836F`
+SHA256 | `903E4FA43525D57646F55D9B3B91730F9B3A0527A7044E0340E6A2582EC19FDD`
+SHA384 | `1C65466D129CC2C1A7429E6C2CA955EB32C181345B42F0BBA0F362D1FB1D9FD1487D619115CBEE3A4E952FE22666C130`
+SHA512 | `4A1BECFD0F98118C77C897FD20AA8DBF0B084316308BAB13B83E3CAAE3F0F63234DF6AE15D0B68FC95E6E4F42B3DDD6D5412CEB2F7F0CDC6F2F6BFF9800CB593`
+SSDEEP | `6144:yp6wO0Ny9Nfq1fEhgCWR5ioOXsOlx8uSXmCPwP6k+kc8DZ5n:a6EyDmAghRO2uSXmH6k+kcuv`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: IMCCPHR.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-226B54F581C9C77990067F670730B3BA.md) | 54
+[C:\WINDOWS\system32\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-63169E2BAEEEBC85FA4B27AA1A261884.md) | 55
+[C:\WINDOWS\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-3206C15BFF18728020FA4CF141CF17CB.md) | 52
+[C:\Windows\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-69A21227EB75F9100BAFD6CE573A1DC0.md) | 61
+[C:\Windows\SysWOW64\IME\SHARED\IMCCPHR.exe](IMCCPHR.exe-FF19AEA319DDD78C836594D802F7852D.md) | 57
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

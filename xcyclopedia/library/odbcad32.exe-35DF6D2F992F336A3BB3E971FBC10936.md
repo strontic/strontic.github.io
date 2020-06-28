@@ -56,7 +56,9 @@ SSDEEP | `1536:Z92DkhzwaDytv3Jrz6q9EyYt9FlUIlbvBjIloW:yDraUUKI9jo`
 
 File | Score
 -- | --
+[C:\Windows\system32\odbcad32.exe](odbcad32.exe-5A39C66F76F4629666BADC65370744FD.md) | 80
 [C:\Windows\system32\odbcad32.exe](odbcad32.exe-E2E95A7A343DE93C4F5FD57BF8DA5F16.md) | 79
+[C:\Windows\SysWOW64\odbcad32.exe](odbcad32.exe-270A8ECB4852CE263591DBBCEDE32EDA.md) | 83
 [C:\WINDOWS\SysWOW64\odbcad32.exe](odbcad32.exe-39F4994EFCF25880A7CE77B620C27676.md) | 86
 [C:\Windows\SysWOW64\odbcad32.exe](odbcad32.exe-3CF7DB52FEF9AD31F647BF50E6DEA420.md) | 88
 

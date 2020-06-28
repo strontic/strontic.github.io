@@ -57,6 +57,8 @@ SSDEEP | `3072:SXVXRFVRrpRbtbgfw6muHQbPRyZ2pPTU:mVXhFTBc4fu8AZ2`
 File | Score
 -- | --
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 46
+[C:\Windows\splwow64.exe](splwow64.exe-9FCD31635CC99F1DAFB64AB3F963E0C1.md) | 43
+[C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-95E50C824C9C9B4362AA3522B8449E29.md) | 50
 [C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-A7BF96D6CC09A5012C1EA0F990D65567.md) | 49
 
 

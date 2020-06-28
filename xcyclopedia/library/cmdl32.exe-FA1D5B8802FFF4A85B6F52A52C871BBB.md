@@ -57,6 +57,7 @@ SSDEEP | `1536:Sg54co5XqW6rJ9HT05zevkp8KdUaAEuI:SqOY5s8KdUpI`
 File | Score
 -- | --
 [C:\WINDOWS\system32\cmdl32.exe](cmdl32.exe-14C82BE72A2ABB9928470524EE9CEBED.md) | 35
+[C:\Windows\system32\cmdl32.exe](cmdl32.exe-77B22CEA6688A005473FC4896910924F.md) | 30
 
 
 

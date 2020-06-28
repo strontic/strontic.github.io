@@ -56,7 +56,9 @@ wordpad.exe
 
 File | Score
 -- | --
+[C:\Windows\system32\write.exe](write.exe-B947CCA7F485F6C1156F4D02E8C9874F.md) | 35
 [C:\Windows\SysWOW64\write.exe](write.exe-ED73F0253A4C10F6B7C221FF6E8BD8B4.md) | 36
+[C:\Windows\write.exe](write.exe-B947CCA7F485F6C1156F4D02E8C9874F.md) | 35
 
 ## Possible Misuse
 

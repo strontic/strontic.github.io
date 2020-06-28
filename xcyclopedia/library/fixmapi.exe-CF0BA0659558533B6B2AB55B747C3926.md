@@ -52,6 +52,11 @@ SSDEEP | `192:2dUXQZn7olGDNW6XIgKssGpwgf3V7oeSMNNrgtm9p5kAWVnWU9SDe:2rJWhgK0plfl
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\fixmapi.exe](fixmapi.exe-C7385E6E8E1E437E4FBED1DCADB150E9.md) | 54
 
 
 

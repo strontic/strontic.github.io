@@ -52,6 +52,11 @@ SSDEEP | `384:xZ5e2QtLYl7OoAkmaVXwm7Nv9p1dr/j3zzOeIXoA+n2MiQ641Iupp+/GQW2xiW:9XK
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\FXSUNATD.exe](FXSUNATD.exe-2D93B27FC9B9523714AF89FDA7BB26FB.md) | 38
 
 
 

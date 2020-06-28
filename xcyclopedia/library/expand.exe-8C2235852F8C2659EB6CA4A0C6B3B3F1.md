@@ -77,6 +77,7 @@ EXPAND Source.cab -F:Files Destination
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-A8855829CCBC9B6C31DCD82D9DE8855A.md) | 33
+[C:\Windows\SysWOW64\expand.exe](expand.exe-544B0DBFF3F393BCE8BB9D815F532D51.md) | 38
 [C:\WINDOWS\SysWOW64\tzutil.exe](tzutil.exe-A5E9EDD84FDA5F13CBE1AE635E1E3B14.md) | 30
 
 ## Possible Misuse

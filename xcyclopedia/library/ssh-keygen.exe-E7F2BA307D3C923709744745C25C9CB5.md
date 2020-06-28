@@ -4,7 +4,7 @@ title: ssh-keygen.exe |
 
 # ssh-keygen.exe 
 
-* File Path: `C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe`
+* File Path: `C:\Windows\system32\OpenSSH\ssh-keygen.exe`
 * Description: 
 * Comments: 
 
@@ -23,7 +23,8 @@ SSDEEP | `6144:1jOlrq2QzsTMhJoEBA/YF9HE0C09/l760j6qTjhqVSxwn1VU1B8zqcNPaDb2O7fB:
 
 ### Usage (stdout):
 ```Batchfile
-Enter file in which the key is (C:\Users\user/.ssh/id_rsa): 
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\WDAGUtilityAccount/.ssh/id_rsa): 
 ```
 
 ### Usage (stderr):
@@ -62,8 +63,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -58,11 +58,13 @@ File | Score
 -- | --
 [C:\Windows\system32\SmartScreenSettings.exe](SmartScreenSettings.exe-6B2EA6F8937B573372304CAE5F829A4D.md) | 46
 [C:\Windows\system32\UserAccountControlSettings.exe](UserAccountControlSettings.exe-5E2A9717AA62B8BBFF893299E57F6082.md) | 46
+[C:\Windows\system32\UserAccountControlSettings.exe](UserAccountControlSettings.exe-A9E9342FE35671E51E80CC64CC6A5CE5.md) | 47
 [C:\WINDOWS\system32\UserAccountControlSettings.exe](UserAccountControlSettings.exe-B913E9A10545FA6EC8E91483AA93B0BD.md) | 49
 [C:\WINDOWS\SysWOW64\ComputerDefaults.exe](ComputerDefaults.exe-455CCBB47F4BEF02A9E0034859CE59E2.md) | 30
 [C:\WINDOWS\SysWOW64\PickerHost.exe](PickerHost.exe-FC004590CCAFF6A2DDFF20FEB2C663B2.md) | 25
 [C:\Windows\SysWOW64\SmartScreenSettings.exe](SmartScreenSettings.exe-09A0EA8CAE050CA74E1FB2E42ED93766.md) | 44
 [C:\Windows\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-35F0E7A30480242173C49979870C79B1.md) | 46
+[C:\Windows\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-5AEA4CD2B6CA1E44E27D1A95917FEE60.md) | 47
 
 
 

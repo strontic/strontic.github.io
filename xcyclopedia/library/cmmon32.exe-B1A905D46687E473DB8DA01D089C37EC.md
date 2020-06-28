@@ -57,6 +57,7 @@ SSDEEP | `768:Wb7KMItc9tJfTp3TTfQI7AtjdKOHDnOHh9UASnOvM/mNDJP9z:W3jDTf4tjhHDq9Ye
 File | Score
 -- | --
 [C:\Windows\system32\cmmon32.exe](cmmon32.exe-527B257B270FE03BB7C2CA5BC54CC71B.md) | 46
+[C:\Windows\system32\cmmon32.exe](cmmon32.exe-BAFEC2E2CA3D475942E001907B9597BC.md) | 38
 
 
 

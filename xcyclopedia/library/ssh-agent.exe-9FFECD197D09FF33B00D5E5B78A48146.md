@@ -4,7 +4,7 @@ title: ssh-agent.exe |
 
 # ssh-agent.exe 
 
-* File Path: `C:\WINDOWS\system32\OpenSSH\ssh-agent.exe`
+* File Path: `C:\Windows\system32\OpenSSH\ssh-agent.exe`
 * Description: 
 * Comments: 
 
@@ -38,8 +38,8 @@ unable to start ssh-agent service, error :1058
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

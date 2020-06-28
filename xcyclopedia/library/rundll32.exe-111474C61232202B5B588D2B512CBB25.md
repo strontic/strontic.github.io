@@ -56,8 +56,10 @@ SSDEEP | `1536:557g1LwvkpZruNJosIB/ROln5IUmDjoXp:5MtjCNysI9ROln5I0`
 
 File | Score
 -- | --
+[C:\Windows\system32\rundll32.exe](rundll32.exe-44B041922105E01BFD0D096123F7D312.md) | 40
 [C:\Windows\system32\rundll32.exe](rundll32.exe-C7645D43451C6D94D87F4D07BDE59C89.md) | 41
 [C:\WINDOWS\system32\rundll32.exe](rundll32.exe-F68AF942FD7CCC0E7BAB1A2335D2AD26.md) | 44
+[C:\Windows\SysWOW64\rundll32.exe](rundll32.exe-4D3D5A68D1B9A98985DCF8F6CABA68F1.md) | 43
 [C:\WINDOWS\SysWOW64\rundll32.exe](rundll32.exe-D0432468FA4B7F66166C430E1334DBDA.md) | 44
 
 ## Possible Misuse

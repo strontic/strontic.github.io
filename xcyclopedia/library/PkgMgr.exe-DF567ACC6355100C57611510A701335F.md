@@ -57,6 +57,7 @@ SSDEEP | `3072:tRS0ENnKKphw6s4RTQcWl4K9rpW6Hr76s5TuiAyD4Ugqo4iHMK:fS08nRccMx9r1H
 File | Score
 -- | --
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-24DFD1EFE2837C760511CE773DF3E9CA.md) | 47
+[C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-2F98A0859C8F75D8EEE78E0C8DB2F59F.md) | 54
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 46
 
 

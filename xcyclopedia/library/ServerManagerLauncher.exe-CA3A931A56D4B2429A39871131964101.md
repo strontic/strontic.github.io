@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-28317A51B8F874BCF5220872269FEC2C.md) | 30
 [C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-E0861FA9E0A4B441C6A11405D12D0C30.md) | 41
+[C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-FF9690925244473ECC4C2E5B535B8599.md) | 36
 
 
 

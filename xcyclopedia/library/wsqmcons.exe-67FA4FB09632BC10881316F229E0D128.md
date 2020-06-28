@@ -57,6 +57,7 @@ SSDEEP | `768:xO9MbwAtFq+ogaRQpv1ojVbPJGJBMCat2Jp0sBflQuWnnnPreUVnbO6wGNj4:tbLog
 File | Score
 -- | --
 [C:\WINDOWS\system32\wsqmcons.exe](wsqmcons.exe-3198C8F020BC60931404167EEC51E2BF.md) | 36
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-3B04F0282E333C98974BB8A39360DD24.md) | 33
 
 ## Possible Misuse
 

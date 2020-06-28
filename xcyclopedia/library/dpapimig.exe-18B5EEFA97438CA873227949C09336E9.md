@@ -56,8 +56,10 @@ SSDEEP | `1536:ybpU97MQHScZby00l3uU1HIED1fCbWpygzU:y1UJzbBSJj16bE`
 
 File | Score
 -- | --
+[C:\Windows\system32\dpapimig.exe](dpapimig.exe-B6D6477A0C90A81624C6A8548026B4D0.md) | 72
 [C:\Windows\system32\dpapimig.exe](dpapimig.exe-DD32F3C19410E4E7974DBB33229CBD7F.md) | 66
 [C:\Windows\SysWOW64\dpapimig.exe](dpapimig.exe-5A2AA8F1B81C3FBB44A37FD64F9F6058.md) | 61
+[C:\Windows\SysWOW64\dpapimig.exe](dpapimig.exe-D35833E98209E9267C4FE5C2C3E88AE9.md) | 61
 [C:\WINDOWS\SysWOW64\dpapimig.exe](dpapimig.exe-DC226BFBD23D608E6D89372D8CA870E9.md) | 68
 
 

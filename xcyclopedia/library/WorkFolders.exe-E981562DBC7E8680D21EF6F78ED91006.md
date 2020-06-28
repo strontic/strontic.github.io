@@ -52,6 +52,11 @@ control.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WorkFolders.exe](WorkFolders.exe-8373D16B14416C0F892DDFECBB4CBFAC.md) | 57
 
 
 

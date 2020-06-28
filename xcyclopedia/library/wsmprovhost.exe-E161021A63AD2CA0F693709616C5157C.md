@@ -52,6 +52,11 @@ SSDEEP | `384:rWsKmx9ggrM3uaB92+qaNlUq2I7RrzAbrMlpmsKW6KCmnbxiOCOW7VfWrZ1Le:ilU9
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\wsmprovhost.exe](wsmprovhost.exe-05997300509B65EF3C3BB7AC0FCCA97F.md) | 54
 
 ## Possible Misuse
 

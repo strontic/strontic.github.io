@@ -56,6 +56,7 @@ SSDEEP | `1536:jpfIniVRD81jmGX8q15ZkMH1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lk:zVFNzqB
 
 File | Score
 -- | --
+[C:\Windows\system32\msdtc.exe](msdtc.exe-2EF846AC66E181BE820B513DBC15B5D2.md) | 68
 [C:\Windows\system32\msdtc.exe](msdtc.exe-308F08347923DEEDE7BC03EC7D485841.md) | 71
 
 

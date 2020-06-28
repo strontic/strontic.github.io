@@ -52,6 +52,11 @@ SSDEEP | `384:IAc7xSuNQSl2IubsCR0HEoN7QpVDzAW18oW:elNzl2IgfZIwFI`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\srdelayed.exe](srdelayed.exe-B5F31FDCE1BE4171124B9749F9D2C600.md) | 58
 
 
 

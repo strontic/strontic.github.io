@@ -56,6 +56,7 @@ SSDEEP | `96:M4WjLouIAnAwAuEaAp2hpHXDGjoaqHjK9osw2mpDJ7pRKR0LEWAgWwtevwDp:6LIbu2
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-1B19D302D7FFA3D0901B3D990A4E8E12.md) | 55
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-29656B9E6B04C85E7BF4018B6844BE28.md) | 33
 
 ## Possible Misuse

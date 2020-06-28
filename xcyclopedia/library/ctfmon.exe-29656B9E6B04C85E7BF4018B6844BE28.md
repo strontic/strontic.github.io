@@ -56,6 +56,7 @@ SSDEEP | `96:TekkA3GX9c27oo90tPDWPT4u14HbJV/s/iDm9os0Tz0DJ7pRKRNEW6gWw0ee0qZ:Skk
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-1B19D302D7FFA3D0901B3D990A4E8E12.md) | 43
 [C:\WINDOWS\SysWOW64\ctfmon.exe](ctfmon.exe-C0D57D7289C20B3B4D8680369394F188.md) | 33
 
 ## Possible Misuse

@@ -4,7 +4,7 @@ title: setup.exe | 32-bit Setup Launcher
 
 # setup.exe 
 
-* File Path: `C:\WINDOWS\SysWOW64\InstallShield\setup.exe`
+* File Path: `C:\Windows\SysWOW64\InstallShield\setup.exe`
 * Description: 32-bit Setup Launcher
 * Comments: 
 

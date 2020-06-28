@@ -56,6 +56,7 @@ SSDEEP | `1536:2ZKcf92y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi65C:2f955NOFpTyIcuz
 
 File | Score
 -- | --
+[C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-02C5A4C5A452E248F805186B8BF41BF7.md) | 91
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-C799FC7C577BA8AFF1B73EBD54210C50.md) | 88
 [C:\Windows\SysWOW64\DeviceProperties.exe](DeviceProperties.exe-4BE4A5A9E90122607ADF050E231760BB.md) | 88
 

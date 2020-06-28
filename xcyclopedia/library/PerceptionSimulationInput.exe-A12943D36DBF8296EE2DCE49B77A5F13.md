@@ -52,6 +52,11 @@ SSDEEP | `1536:Ng0qeYCprYI/VbD3efO9pMj8DAmpfhNokN:NLqeYCprYI/VXqOKWJN/N`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-BD77981903F642E483C2EAD1F153E305.md) | 85
 
 
 

@@ -1,0 +1,83 @@
+﻿---
+title: resmon.exe | Resource Monitor
+---
+
+# resmon.exe 
+
+* File Path: `C:\Windows\SysWOW64\resmon.exe`
+* Description: Resource Monitor
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `29C52C15D2D68A4BBE9A36701D31100E`
+SHA1 | `6F0ECAC4D0DF233C7F20FF660A672E8C8D594232`
+SHA256 | `F3707C1D638F5487D1EF0A72173356023307DC6734DC738944C75F127FBCFD54`
+SHA384 | `AC6BD6FDB6469C78E75B9975C54B238D570C91C9982713AD350386B08226367E7AF0913056112B5A240587D4A84EA36A`
+SHA512 | `30E967CB19BE23D8595BFD0C86E3DCA888C118DA5957C8B7FE6C4DA693C69FBA1ACD5C63D296C974A55C3C76059799CFE2910737C8FBE1E8EC62D0E429A39EAE`
+SSDEEP | `1536:L/YKBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:LgKghtYIo9piswTogiqQKy349`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+perfmon.exe
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: resmon.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\perfmon.exe](perfmon.exe-AE3D54BF0D325BDFB785B86511930E37.md) | 66
+[C:\Windows\system32\perfmon.exe](perfmon.exe-D38AA59C3BEA5456BD6F95C73AD3C964.md) | 65
+[C:\Windows\system32\perfmon.exe](perfmon.exe-D761794B0779B9951349E2F2507B25BC.md) | 69
+[C:\Windows\system32\resmon.exe](resmon.exe-852ACA89972551B00B110EEE6ADA717A.md) | 93
+[C:\Windows\system32\resmon.exe](resmon.exe-C9221473CE8A3EF5C0FB8ABB912786FA.md) | 93
+[C:\WINDOWS\system32\resmon.exe](resmon.exe-FF8CA7D9F879E176A1284F16A05A618C.md) | 96
+[C:\WINDOWS\SysWOW64\perfmon.exe](perfmon.exe-14ACB06686DC70FAB341DE0721B71BF1.md) | 71
+[C:\Windows\SysWOW64\perfmon.exe](perfmon.exe-6284C86A1AE399794C18FBBC86CC8340.md) | 75
+[C:\Windows\SysWOW64\perfmon.exe](perfmon.exe-805F9B64745C730A6BD789083D0EF4E2.md) | 72
+[C:\Windows\SysWOW64\resmon.exe](resmon.exe-87427E88F06D7C568E3E4A8BD838E380.md) | 94
+[C:\WINDOWS\SysWOW64\resmon.exe](resmon.exe-B44E84B38D62E787F5154983A71A864F.md) | 94
+
+## Possible Misuse
+
+*The following table contains possible examples of `resmon.exe` being misused. While `resmon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_taskmgr_parent.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_taskmgr_parent.yml) | `            - '*\resmon.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

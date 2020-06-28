@@ -56,6 +56,7 @@ SSDEEP | `384:OwL8CUA6oNTSAkBcYKPdIQX6GIp056PMSK+aWlqJWiZ:Z4CbTSviBqYB9`
 
 File | Score
 -- | --
+[C:\Windows\system32\UevTemplateBaselineGenerator.exe](UevTemplateBaselineGenerator.exe-C85A5D2C00FF444E9E7D3E31977234AE.md) | 93
 [C:\Windows\system32\UevTemplateBaselineGenerator.exe](UevTemplateBaselineGenerator.exe-CB80D6493F9D8BD662CE6A9C4A76001E.md) | 68
 
 

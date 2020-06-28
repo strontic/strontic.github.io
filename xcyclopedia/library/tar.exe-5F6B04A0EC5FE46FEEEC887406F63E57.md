@@ -57,6 +57,11 @@ Usage:
 * Language: English (United States)
 * Legal Copyright: Copyright (c) libarchive authors
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\tar.exe](tar.exe-4D188B08E9274E1360062B22E88A2F3F.md) | 29
 
 
 

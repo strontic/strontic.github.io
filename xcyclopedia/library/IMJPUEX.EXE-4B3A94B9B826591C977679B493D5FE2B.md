@@ -1,0 +1,69 @@
+﻿---
+title: IMJPUEX.EXE | Microsoft IME
+---
+
+# IMJPUEX.EXE 
+
+* File Path: `C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE`
+* Description: Microsoft IME
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `4B3A94B9B826591C977679B493D5FE2B`
+SHA1 | `04CB26BEE5B66CC251FE3529A7BC19E5503F6BC3`
+SHA256 | `D063C93E6B4B3C6AC60950AEE6F981E5A0E804D907C1A11D5534008B56A8483D`
+SHA384 | `4DB9C81DC52811B3B2FC86866AE99CCEEEEBCE0F4AFE42C289BC3C80109275006BA35A06D341E0CAC05EB8A9115CE8DF`
+SHA512 | `9C75AE70F80F5E16CC79CD4DF2F0B1E25308405C02F5EB677FEE2C961E2147B5CADF371240C33AF8DC66BB0133E22C818BC6CD66544C0CD8AE419F2EF6BBE0CD`
+SSDEEP | `1536:w+7qqVboOxOpYdxNxCBvnjYhnycXyrqNDcYH67nIWDK2NLPcrqs:w+PVboOxOpgUBvnjYhnpXyrqNYYH67ID`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: imjpuex.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-069FC22EEF43E9EDC2818E30FBF21BDA.md) | 47
+[C:\WINDOWS\system32\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-8C01DDD9E78B621915141C3866F11FCA.md) | 44
+[C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-48288F9B61EB81FE9DEE7C75D949BC54.md) | 46
+[C:\WINDOWS\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-9E320A6AF5B77D63CFC7DF365CBA40E2.md) | 49
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

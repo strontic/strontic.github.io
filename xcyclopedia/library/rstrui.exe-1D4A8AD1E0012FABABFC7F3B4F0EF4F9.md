@@ -52,6 +52,11 @@ SSDEEP | `6144:6GEtHges25EgmpBaAc6WrpDZ9Oangx2+UvQ/KpmOq:6GWAXppBaAcdrxZ9OKFvQ/K
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rstrui.exe](rstrui.exe-CC4FD2CAEAB42F55A7EB6A29D0F0759B.md) | 49
 
 
 

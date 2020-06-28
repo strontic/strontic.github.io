@@ -56,8 +56,10 @@ SSDEEP | `384:m6fHNIfcrCX6wEclbCKWWUHWJKJajXDO1/EagS817lU:m6ftjwjxCbEzDO`
 
 File | Score
 -- | --
+[C:\Windows\system32\bthudtask.exe](bthudtask.exe-4DCD6FCABF20FBC8BFB11A9F6E4B77F0.md) | 52
 [C:\WINDOWS\system32\bthudtask.exe](bthudtask.exe-AA060C5F96D87FF96730C6295FC0B748.md) | 52
 [C:\Windows\system32\bthudtask.exe](bthudtask.exe-CCDD2D8B1E499BFC883BA7436B480DE3.md) | 57
+[C:\Windows\SysWOW64\bthudtask.exe](bthudtask.exe-45629A966631FE387396D2546BA58112.md) | 60
 [C:\WINDOWS\SysWOW64\bthudtask.exe](bthudtask.exe-D2E1480FF0B3A60B857268CFE353D20E.md) | 61
 
 

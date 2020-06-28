@@ -52,6 +52,11 @@ msra.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\msra.exe](msra.exe-C672D655B862EB54B57B678D506F58E4.md) | 88
 
 
 

@@ -56,7 +56,9 @@ SSDEEP | `3072:ci6ND48iXJJ5G4peH4817f7UIH+XnF/buMbrLF5NUdrSO9K/tagbdDu5nB:8i5J5G
 
 File | Score
 -- | --
+[C:\Windows\system32\charmap.exe](charmap.exe-56007E9A525980A3F904798CF2A65DF6.md) | 50
 [C:\WINDOWS\system32\charmap.exe](charmap.exe-763D2F95751F734633EA53F15ADE3893.md) | 54
+[C:\Windows\SysWOW64\charmap.exe](charmap.exe-436AB8366C52C59543BEB03F4599C01B.md) | 50
 [C:\WINDOWS\SysWOW64\charmap.exe](charmap.exe-9F65E094BBB947E7AC3BB4ABB2749156.md) | 54
 [C:\Windows\SysWOW64\charmap.exe](charmap.exe-E42E8639F4A99DBA11570C3B50625A2F.md) | 57
 

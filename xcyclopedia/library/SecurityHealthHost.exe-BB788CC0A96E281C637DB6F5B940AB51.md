@@ -52,6 +52,11 @@ SSDEEP | `1536:Yu0wgYqF9lKOc6Xi073JYP9TZTG3QrgBiTQGmCvtTJn+wRZmMveGxUwp6vPE:0w3O
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-B090D816B80E2C5A0DC8A2CFE110816D.md) | 63
 
 
 

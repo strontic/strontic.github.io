@@ -105,6 +105,11 @@ Value                      Description
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\gpupdate.exe](gpupdate.exe-DA1142C431A0F14E3C191C163186D3F6.md) | 74
 
 ## Possible Misuse
 

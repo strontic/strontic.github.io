@@ -118,6 +118,7 @@ conhost.exe
 File | Score
 -- | --
 [C:\WINDOWS\system32\Defrag.exe](Defrag.exe-15EFD404D3065B560876BBE567CE981A.md) | 75
+[C:\Windows\system32\Defrag.exe](Defrag.exe-F7AC2F29879A0789A74F87012861A956.md) | 74
 
 ## Possible Misuse
 

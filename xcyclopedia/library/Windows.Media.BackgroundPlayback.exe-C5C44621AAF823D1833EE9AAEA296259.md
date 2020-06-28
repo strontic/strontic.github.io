@@ -52,6 +52,11 @@ SSDEEP | `192:o3zYuEkxShCP40zZZUo2DEiVaOcB2BPHTv/qGSjqOsJ41A9GX0KcW95WE:o3cuEcSU
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-44F6D9B36D00FD48BE6FD0F2F93307A1.md) | 32
 
 
 

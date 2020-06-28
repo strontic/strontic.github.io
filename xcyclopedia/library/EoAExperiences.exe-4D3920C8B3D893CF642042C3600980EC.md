@@ -1,0 +1,61 @@
+﻿---
+title: EoAExperiences.exe | 
+---
+
+# EoAExperiences.exe 
+
+* File Path: `C:\Windows\system32\EoAExperiences.exe`
+* Description: 
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `4D3920C8B3D893CF642042C3600980EC`
+SHA1 | `D157FD8AB114C818CB3D1B057B43E8785829A7A1`
+SHA256 | `FA1382EB49B486540639EC75EE60AA83BC09188345C99C7F7E391CFB6A0B3AB1`
+SHA384 | `3FCABAEC05E17935937C8E8C0292DB212F308CA1A8995803F199B5B211037ED07B9D5A9BBBCD20E63B6E7EFB86D4214E`
+SHA512 | `ACA85FFDD4FE4D413B6D9E4468B32036C94F560A763518C05FBDC9CFFDE46D69262AFC4949389E3BF0626B7E0E9F044E35EDA6D179F093A30822BBB54807F4AF`
+SSDEEP | `1536:gRR73rR1hU8oiRce13TCGrBa/YL5fub56BXa2SZKQ5MFGipZYghqvKqfxqSqJubo:gjNU8NJWGrB3JnMMYixnQaWfSuQ2a`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

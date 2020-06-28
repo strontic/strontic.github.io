@@ -52,6 +52,11 @@ SSDEEP | ``
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\mcbuilder.exe](mcbuilder.exe-9EE06F45CF8D8154FA53BC0B0397E2D2.md) | 38
 
 
 

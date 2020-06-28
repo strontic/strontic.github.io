@@ -1,0 +1,61 @@
+﻿---
+title: browserexport.exe | Microsoft Edge Browser Exporter
+---
+
+# browserexport.exe 
+
+* File Path: `C:\Windows\system32\browserexport.exe`
+* Description: Microsoft Edge Browser Exporter
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `8F62856617BFB752B7C4746D9A384659`
+SHA1 | `85F5814D9DB8F280C1732710D8BA9CA4B5A612D5`
+SHA256 | `983502C17475814CCCC6D8B41A87B62B28DED6DCE680A67DD6EE44B367E20A1A`
+SHA384 | `80C3979630489B6AA04350F9B4D10A67D038AFECCBA0D0A9BB0A0DBA38A1C0653B9FD0823DD9B8ABF71BB2DF0F982B91`
+SHA512 | `6B181A691939A4B9ED655D2E1C7B88B5E990BE83AD4CCA45811D1BCD8A6CCA612FB5B396ACAC96E1CB2B1127F3FEC1295B4CB250A0ABBBDD28E909B20CE3AAC6`
+SSDEEP | `3072:A6sR5hdaQoi36UnM/EA1Pozcrx2SpDatdgKmUw1NbPbMssjpt4S2+GcykX:YR5hdPoi36EM/1xvpDatdvUbPbMsDcz`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: browserexport.exe
+* Product Name: Internet Explorer
+* Company Name: Microsoft Corporation
+* File Version: 11.00.19041.1 (WinBuild.160101.0800)
+* Product Version: 11.00.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

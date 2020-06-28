@@ -57,6 +57,7 @@ SSDEEP | `384:yVrAigT9MLPeRYdggm+EVlCK2tCnnnMreqsOlJvHRp/VeBdpStFVzlYOyvC1yJaG:g
 File | Score
 -- | --
 [C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-B38C108A8DB4B97EA352287BF796A273.md) | 35
+[C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-D567FFF92055255DBE43BF8F989A4B7E.md) | 47
 
 ## Possible Misuse
 

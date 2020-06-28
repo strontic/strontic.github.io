@@ -52,6 +52,11 @@ SSDEEP | `3072:n4MJyeF34WSPTrf9OLzh4bJurJ/pJyeoHpM7CDtamBZgNRO5jzw7Qu6zt:4wyeJRS
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DTUHandler.exe](DTUHandler.exe-8C39A00C7D56DDA973430424EF88C09C.md) | 52
 
 
 

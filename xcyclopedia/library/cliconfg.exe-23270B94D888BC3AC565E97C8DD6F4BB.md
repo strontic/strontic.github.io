@@ -56,8 +56,10 @@ SSDEEP | `384:TLbyf4WRmiKCkPCRDCDxPThhWFwWGPXuNvBQAMYJQ2JQSkdowyo:fbynRmPzQEuI30
 
 File | Score
 -- | --
+[C:\Windows\system32\cliconfg.exe](cliconfg.exe-E06C0D21FFE629D45E3F0067B86D2CEA.md) | 61
 [C:\Windows\system32\cliconfg.exe](cliconfg.exe-FF9932C30F72B19E57D9B07F230487E7.md) | 58
 [C:\WINDOWS\SysWOW64\cliconfg.exe](cliconfg.exe-588677B78E8431F7822DB276E75D4DD7.md) | 65
+[C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-5EE49921CB7AEA9FDF2938F99DB69FFA.md) | 61
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-8479031B34E1F72E08EB5EC618368822.md) | 63
 
 

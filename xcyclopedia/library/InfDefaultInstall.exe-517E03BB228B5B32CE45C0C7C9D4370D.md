@@ -56,6 +56,7 @@ SSDEEP | `192:YYU4MFe9DWWOSDccAuotLLtmSSsZKW/GWj:YwDWWObXt9HSoKW/GW`
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-3E9C81A60DEDC5FFFF1D8F1FC5D7908F.md) | 50
 [C:\Windows\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-85449C56339BFEF1AF92EA9E034D5D84.md) | 41
 
 ## Possible Misuse

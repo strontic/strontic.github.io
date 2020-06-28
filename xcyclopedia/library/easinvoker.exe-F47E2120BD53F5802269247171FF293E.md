@@ -52,6 +52,11 @@ SSDEEP | `1536:eK98sego4n5sGBWMh7YeF1yu2xXibswbTYXmuUZfKdrpPjC:eN2/BWMh16u2xXibs
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\easinvoker.exe](easinvoker.exe-82EF69ECABF12160625A6BA15D2A2671.md) | 50
 
 
 

@@ -188,6 +188,11 @@ w32tm /leapseconds /getstatus [/verbose]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\w32tm.exe](w32tm.exe-E55B6A057FDDD35A7380FB2C6811A8EC.md) | 35
 
 ## Possible Misuse
 

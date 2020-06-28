@@ -52,6 +52,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\sdiagnhost.exe](sdiagnhost.exe-6A21B1893DDE94CB87BA56111375888A.md) | 35
 
 ## Possible Misuse
 

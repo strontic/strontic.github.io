@@ -71,6 +71,11 @@ The parameter is incorrect.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\auditpol.exe](auditpol.exe-29A66352A9656748B1C1DA61C7161EDE.md) | 40
 
 
 ## Additional Info*

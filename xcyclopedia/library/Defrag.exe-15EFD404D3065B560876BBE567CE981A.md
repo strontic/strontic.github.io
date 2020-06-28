@@ -104,6 +104,7 @@ Examples:
 File | Score
 -- | --
 [C:\Windows\system32\Defrag.exe](Defrag.exe-BCBD8C0BFD620A4761C8ACDF96D9CDAE.md) | 75
+[C:\Windows\system32\Defrag.exe](Defrag.exe-F7AC2F29879A0789A74F87012861A956.md) | 71
 
 ## Possible Misuse
 

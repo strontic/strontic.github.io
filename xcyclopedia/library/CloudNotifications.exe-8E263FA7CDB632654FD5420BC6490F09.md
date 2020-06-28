@@ -52,6 +52,11 @@ SSDEEP | `1536:jb+YR3wgD0Nuoh44/cJ6x0ZOOLAqiKTy+YMXPhJ:jb++sNrhnKO+ZX`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\CloudNotifications.exe](CloudNotifications.exe-CC6E14967CA55471701693EB47C00369.md) | 46
 
 
 

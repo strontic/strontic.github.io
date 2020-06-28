@@ -56,8 +56,10 @@ SSDEEP | `1536:9bnuqGDAcb+FBMhf+NaR50aimTtJrlyrFEEfKQTzBNer+CE+Ge+xEPTv:RRfyhf+m
 
 File | Score
 -- | --
+[C:\Windows\system32\OpenWith.exe](OpenWith.exe-49371805F24C419A1362A6672F0A8A76.md) | 43
 [C:\WINDOWS\system32\OpenWith.exe](OpenWith.exe-C9B3F7E1EB1970A715FA56AB076A260B.md) | 46
 [C:\Windows\system32\OpenWith.exe](OpenWith.exe-FEAEEC585FEA59A316DDDD6C8505DA8D.md) | 47
+[C:\Windows\SysWOW64\OpenWith.exe](OpenWith.exe-64148E3F7B8519DCB04FE5E96D5F1184.md) | 50
 [C:\Windows\SysWOW64\OpenWith.exe](OpenWith.exe-A633739DA182E75C0D6741119A902A0B.md) | 49
 
 ## Possible Misuse

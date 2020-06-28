@@ -57,6 +57,7 @@ SSDEEP | `768:ZczVhjLsqDGO6sA4K/5OpD1KJYQ/9gnl0:sLsqKOCf5QD1shVga`
 File | Score
 -- | --
 [C:\Windows\system32\DeviceEject.exe](DeviceEject.exe-45DBFE6EA65E1FA16A2E9DA86EE01124.md) | 50
+[C:\Windows\system32\DeviceEject.exe](DeviceEject.exe-ABCCD41E21586BB8A669E9B2F04CB65E.md) | 38
 
 
 

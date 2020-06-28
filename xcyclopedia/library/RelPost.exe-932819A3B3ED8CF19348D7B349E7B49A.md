@@ -56,8 +56,10 @@ RdpSa.exe
 
 File | Score
 -- | --
+[C:\Windows\system32\recdisc.exe](recdisc.exe-8EF7D941809838D9672680F72F060DEC.md) | 52
 [C:\WINDOWS\system32\recdisc.exe](recdisc.exe-DDE26EAF7CE76090F825775D9FC318A7.md) | 47
 [C:\WINDOWS\system32\RelPost.exe](RelPost.exe-9499F2E28D56464FCB187BAD92F8076D.md) | 44
+[C:\Windows\system32\RelPost.exe](RelPost.exe-E351DDC4F470EDEF41D705315CA1F156.md) | 46
 
 
 

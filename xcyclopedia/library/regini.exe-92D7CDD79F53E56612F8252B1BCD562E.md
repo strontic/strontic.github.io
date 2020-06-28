@@ -212,6 +212,7 @@ conhost.exe
 File | Score
 -- | --
 [C:\Windows\SysWOW64\regini.exe](regini.exe-075434A31ACB3954337BE18A1B336B87.md) | 38
+[C:\Windows\SysWOW64\regini.exe](regini.exe-C99C3BB423097FCF4990539FC1ED60E3.md) | 46
 
 
 ## Additional Info*

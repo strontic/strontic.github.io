@@ -52,6 +52,11 @@ SSDEEP | `12288:gW81rbq1E+6pulwknM87R3wG1IvOeynRFkDHc2Hywy:j8xqnUuoUR3wGnRFk7cyh
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WerFault.exe](WerFault.exe-B843354FF4C728A87A5A061E0974FD78.md) | 35
 
 ## Possible Misuse
 

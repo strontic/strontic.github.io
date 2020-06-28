@@ -1,0 +1,69 @@
+﻿---
+title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
+---
+
+# IMEWDBLD.EXE 
+
+* File Path: `C:\Windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE`
+* Description: Microsoft IME Open Extended Dictionary Module
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `40FBB367D0F83472C170359D6E3446A0`
+SHA1 | `C274597DAB07491C3CA8D9863383145771E4EDBB`
+SHA256 | `0CFF477B20735E3E56EB8FB1866108362F3FED20E230F07BBC21F8C2D8E13C96`
+SHA384 | `030423B6426729A7BE096632F6CF46D4DBA4A8A57E45A8143ADD7380C9C932D6D926F52BE3EC1CB83928AC067A911059`
+SHA512 | `E53E7F2379B75755D4617AB13D2DBC60D705D11689763FC0335AB61A3E61330A86488705F4C2B92F2CB1264334243BD8A27027B3240AE477D4327A83129C939D`
+SSDEEP | `6144:vBNjNNnj4mDYaW1rxK4Op4mBNqvcGSvSOkBvGemmq8V7Gs/UEVTppcX+LRe:vBNhNn0881rxK4Op4mB2cGuSOE1V7Gs2`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: imewdbld.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-CB30AD795C9B30E71EB1E596D18B7A21.md) | 36
+[C:\Windows\system32\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-FBEE6DD18640B1575FF98D1EB3B51724.md) | 35
+[C:\Windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-B840116C2D5805095F46CFD8ACBD0EB8.md) | 33
+[C:\WINDOWS\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-F042BFE4E2BE1EF592D9CFA14F8E6BD1.md) | 38
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -52,6 +52,11 @@ SSDEEP | `1536:yt0hBmMsWjcdIzvN+5Ges4j8c+EHPb/ha/9ZHoi5Qd+2HY7qUQPeaM:5BGIz10Ges
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\mcbuilder.exe](mcbuilder.exe-CAE8E531CD82401A9ECB4C446CBB964B.md) | 38
 
 
 

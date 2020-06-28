@@ -1,0 +1,61 @@
+﻿---
+title: LaunchTM.exe | Task Manager Launcher
+---
+
+# LaunchTM.exe 
+
+* File Path: `C:\Windows\system32\LaunchTM.exe`
+* Description: Task Manager Launcher
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `3BB01913A732B1628B4011724E752805`
+SHA1 | `7CD0744778A42001BCCE2652A2EB1009AC9CF598`
+SHA256 | `0DEE6B54087EA0982A3CD515E64C66B7670BF86DCA0A0DF742B8C00F17BF54E0`
+SHA384 | `89D39EEA991998BDBF994242311B8B2C6AE008F2E4911291BA41F261D38017C356016F8A3BBF5358512FB2BB63617AF4`
+SHA512 | `6DB0D67CB89408A779E85FF4F4A9CD6FD835BEB43BA6A7A25118D2D8413F5992F403C2D82E1014DB8EA878C46D77FA6A6FCAA396B5A62C972A4C6E7C71326EC4`
+SSDEEP | `192:1gvRQ0/cEyT/uufqZgesMd1fskvBJG+WIqayW:kRsxT2lb/jBJTWIqayW`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+Taskmgr.exe
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: LaunchTM.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

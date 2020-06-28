@@ -52,6 +52,11 @@ SSDEEP | `1536:DA+IkrFNWhvRZVyX9DMpBjNpXm+bzpUFweKSTQrY3rJntm1rliS4248uz08Q0MeC:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\fhmanagew.exe](fhmanagew.exe-22604BBB1760AC54911FD2B568D39775.md) | 66
 
 
 

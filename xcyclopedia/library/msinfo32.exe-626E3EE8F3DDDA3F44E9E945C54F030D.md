@@ -56,9 +56,11 @@ SSDEEP | `6144:Jaq0Jr2rk3LZ6FWszl7TxKhph5hphba31oQmSZEOHHrpm1XUZLxEZEOHHrpm1XUK:
 
 File | Score
 -- | --
+[C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 49
 [C:\WINDOWS\system32\msinfo32.exe](msinfo32.exe-CE97FD0E2556A49965411764F086CEA8.md) | 52
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-DA35587758FC9C154435FB76C7183BE4.md) | 55
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-2D3773A656D92C8E4367511AD4DCDD8C.md) | 50
+[C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 65
 
 
 ## Additional Info*

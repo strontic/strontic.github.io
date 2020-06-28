@@ -57,6 +57,7 @@ SSDEEP | `192:PY5Y0PDblClcp1IvCg+7RSBGzZzdBgW6U19wzs9aW/GW:PY5YUx4o1kCrNsGx7gWCz
 File | Score
 -- | --
 [C:\WINDOWS\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-8A91DEC7CD83D38314AD072EE568D1CB.md) | 49
+[C:\Windows\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-EE18876C1E5DE583DE7547075975120E.md) | 29
 
 ## Possible Misuse
 

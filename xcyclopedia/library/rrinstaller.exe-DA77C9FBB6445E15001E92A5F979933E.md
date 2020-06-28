@@ -52,6 +52,11 @@ SSDEEP | `768:q8nAsI0FE6xrF6/3WjtPHddqJfPF4XO1sdCV3+eXDu4T5oy7m:s0FEbWjtPHddqJfe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\rrinstaller.exe](rrinstaller.exe-0FC620A6F80CB075E05CA72352D84584.md) | 47
 
 
 

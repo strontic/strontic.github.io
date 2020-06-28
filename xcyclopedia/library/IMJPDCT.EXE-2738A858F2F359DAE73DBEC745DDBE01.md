@@ -1,0 +1,70 @@
+﻿---
+title: IMJPDCT.EXE | Microsoft IME
+---
+
+# IMJPDCT.EXE 
+
+* File Path: `C:\Windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE`
+* Description: Microsoft IME
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `2738A858F2F359DAE73DBEC745DDBE01`
+SHA1 | `459D54AC03321B99079C7A1EE971A5DF0CE01FAE`
+SHA256 | `E8A4BB3EF340DD3A94E5F649A0F41B0EE0390349D435D020DCE8576AF42112DD`
+SHA384 | `8F592ACF04E77A495E04C76BB65831A36B395DE5726012362823475CECEC7913B8A318F6C0D88A427228AB734EA0E2B5`
+SHA512 | `FEB3016D9BD68FF01FF9A4CD056FB1C0F63CFE6BB46ED9406B5D9EDC82DB1FFB92216CFCB7B51929F3D84A5FFECB9D00AB5D512CE084D6D9A8F2BACCD00B6DC7`
+SSDEEP | `12288:z2dXCJNAcvhunX1vRTbiY6+uabaXdAp8qrL1:wXcNBunlvRTGY6ZAaXdAp8qP`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: imjpdct.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-49414139613D64A97DA848E0DEDB109C.md) | 33
+[C:\Windows\system32\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-AB0F17707EA78CF85C8AA46C32BB96FA.md) | 30
+[C:\WINDOWS\system32\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-E7F38B547F4D9919382D21B1F13B1982.md) | 30
+[C:\Windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-4BB57648D2936E60642F40822E77E493.md) | 30
+[C:\WINDOWS\SysWOW64\IME\IMEJP\IMJPDCT.EXE](IMJPDCT.EXE-EA894E159041B342F715FDF2B15C44F1.md) | 36
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

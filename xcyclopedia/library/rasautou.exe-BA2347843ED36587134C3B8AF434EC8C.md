@@ -53,6 +53,11 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\rasautou.exe](rasautou.exe-81A6467E638E5C15C0C0ABB4DA13DEAD.md) | 55
 
 ## Possible Misuse
 

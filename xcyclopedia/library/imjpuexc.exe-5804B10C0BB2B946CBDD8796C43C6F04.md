@@ -1,0 +1,80 @@
+﻿---
+title: imjpuexc.exe | Microsoft IME
+---
+
+# imjpuexc.exe 
+
+* File Path: `C:\Windows\system32\IME\IMEJP\imjpuexc.exe`
+* Description: Microsoft IME
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `5804B10C0BB2B946CBDD8796C43C6F04`
+SHA1 | `5FED65BA54F2CC1DA0D658BD70585111F9092754`
+SHA256 | `71F269F30BA467E1AB201035E41BCC0AE16737CB22F5DB66814964C7369E9595`
+SHA384 | `E58A6FC5213488ED73D3F98DC6103FD046DDCAA265E2C26CA745F19CAB0D76191ED43251500E4415A93585BF3B5ECE87`
+SHA512 | `BA8345C6FD678A335678407CFA7AAEA81B7AF4D19BB9DBEC823F51EA35F20176DF23ACAE2AC2ADD9D9AE3577B0E3757F0A96C0C960BF17A395AA5C5DA184B98B`
+SSDEEP | `6144:yjvgIyHpSphcDRsc7s6NLzBW7+0F3jiGK1Y1iQ3q6oQ:XvHpUh8ZsYLiF3vKqjq`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+Microsoft IME Property Command Line Tool (10.0.19041.1)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+The Syntax of this command is:
+
+ IMJPUEXC HELP command
+
+ Commands available are:
+ 
+IMJPUEXC ADDSYSDICT		IMJPUEXC CHECKSYSDICT 
+IMJPUEXC REMOVESYSDICT		IMJPUEXC SETKANAINPUT 
+IMJPUEXC GETKANAINPUT		IMJPUEXC SETCUSTOMDICTPATH 
+IMJPUEXC GETCUSTOMDICTPATH	IMJPUEXC FIXCUSTOMDICT 
+IMJPUEXC CODEAREAFORCONVERT	IMJPUEXC SETOKURIGANAOPTION 
+IMJPUEXC GETOKURIGANAOPTION	IMJPUEXC SETKEYTEMPLATE 
+IMJPUEXC SETKUTOUTEN		IMJPUEXC RESET 
+IMJPUEXC LOADAUTOTUNEDATA	IMJPUEXC SAVEAUTOTUNEDATA 
+IMJPUEXC REMOVEAUTOTUNEDATA	IMJPUEXC SETFILTERDICT 
+IMJPUEXC GETFILTERDICT		IMJPUEXC REMOVEFILTERDICT
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: imjpuexc.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

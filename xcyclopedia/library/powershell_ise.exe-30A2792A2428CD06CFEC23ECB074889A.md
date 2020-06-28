@@ -57,6 +57,8 @@ SSDEEP | `3072:19kVjGPsw403LkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLEY:TkkuZToIuUXmmZbg
 File | Score
 -- | --
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe](powershell_ise.exe-3F06E220C3E591F458D549B01ECCCB95.md) | 88
+[C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe](powershell_ise.exe-E05920670516CC96822699E5688A79FA.md) | 91
+[C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe](powershell_ise.exe-0722BC6EA7EB1A21AC2FAC7BE9B4C9A6.md) | 93
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe](powershell_ise.exe-8F1F1C4EDA2CFA2073E82A409BBE35D0.md) | 90
 [C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe](powershell_ise.exe-9F47663A5E104CD1EF4079CC37F12674.md) | 94
 

@@ -56,6 +56,7 @@ SSDEEP | `1536:58MVf2oQ8Q/D98Sq+13trgHtxzAZT3WuEs:586Oo7Q/a413trgHkB7`
 
 File | Score
 -- | --
+[C:\Windows\system32\sigverif.exe](sigverif.exe-2151A535274B53BA8A728E542CBC07A8.md) | 41
 [C:\WINDOWS\system32\sigverif.exe](sigverif.exe-234A397E2F6C9EB0A395E3C46F1D1A3F.md) | 44
 
 

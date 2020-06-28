@@ -52,6 +52,11 @@ SSDEEP | `96:m/5zvUR/NZNKln9Y8p2kvnxDGjoBcHz0yjCyj9ZBxbDeSD1MM7kmqDJWRxkMC58y:mV
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-653F3E22DB3F8589703A9B3677CCA56E.md) | 71
 
 
 

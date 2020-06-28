@@ -56,9 +56,11 @@ SSDEEP | `1536:C1m08k96mow2rZJqUPGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fK:aSfwmxPGPo9St8W
 
 File | Score
 -- | --
+[C:\Windows\system32\mobsync.exe](mobsync.exe-5990B373978022822C91C1B997B859AA.md) | 66
 [C:\Windows\system32\mobsync.exe](mobsync.exe-99C4EC4CA3E1A91B3F2D3969BB41E6D8.md) | 74
 [C:\WINDOWS\SysWOW64\mobsync.exe](mobsync.exe-1D73E097AD55C76CB15F046911FA9504.md) | 79
 [C:\Windows\SysWOW64\mobsync.exe](mobsync.exe-89ABAD52870B9DF217A187CF87865880.md) | 75
+[C:\Windows\SysWOW64\mobsync.exe](mobsync.exe-F7114D05B442F103BD2D3E20E78A7AA5.md) | 75
 
 
 

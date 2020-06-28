@@ -52,6 +52,11 @@ SSDEEP | `384:LmP+UlYbpy8KVWnBEhYP76xiZZ8MbuBk6TtsVaPpPryc1ObH9uoskMUzJUISfu2B:L
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-D0B5FAF9E653543DEA270ECF5C720E0C.md) | 36
 
 
 

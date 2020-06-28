@@ -71,6 +71,7 @@ Command list:
 File | Score
 -- | --
 [C:\Windows\system32\klist.exe](klist.exe-1B4E8E3355E782F088EE2A2F54CE7D49.md) | 29
+[C:\Windows\system32\klist.exe](klist.exe-8ADE30AD79FDC8BFC227D35C73C640F3.md) | 36
 [C:\Windows\SysWOW64\klist.exe](klist.exe-31EDAEFB67CA2DEF614D6093537CADEB.md) | 25
 
 

@@ -57,8 +57,10 @@ SSDEEP | `1536:qsyq0QwSzQnCtuk/zewix5HuAh6N0Qs093kKAbeHZrQqfe:Y6zQC4k/zewS5Huy6U
 File | Score
 -- | --
 [C:\Windows\system32\isoburn.exe](isoburn.exe-13D374B961671151002FD0BC062621EF.md) | 35
+[C:\Windows\system32\isoburn.exe](isoburn.exe-2853B9F80D6B8309759CC20D5540BF87.md) | 30
 [C:\WINDOWS\system32\isoburn.exe](isoburn.exe-78164919675FD6B09CDE384C2A3310BC.md) | 38
 [C:\WINDOWS\SysWOW64\isoburn.exe](isoburn.exe-022E216F1DA247426B2E56C73BEE14F6.md) | 40
+[C:\Windows\SysWOW64\isoburn.exe](isoburn.exe-BDC61F9F6F634563BF1DB9C6F92C1DF5.md) | 36
 
 
 

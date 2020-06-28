@@ -64,6 +64,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\MRINFO.EXE](MRINFO.EXE-F664A3E4625D86FC6B389AFF416CF67F.md) | 68
 
 
 

@@ -56,9 +56,11 @@ explorer.exe
 
 File | Score
 -- | --
+[C:\Windows\system32\DpiScaling.exe](DpiScaling.exe-109D8299C806BD19A3E9F34A0B5C0DB0.md) | 91
 [C:\Windows\system32\DpiScaling.exe](DpiScaling.exe-C1E219912D2237CB6661F7DAF20CC4DD.md) | 90
 [C:\WINDOWS\SysWOW64\DpiScaling.exe](DpiScaling.exe-7026425923C319D7DFC096ADF5D1AF40.md) | 94
 [C:\Windows\SysWOW64\DpiScaling.exe](DpiScaling.exe-C145CD6DFC84C0461086A97B73C01E55.md) | 86
+[C:\Windows\SysWOW64\DpiScaling.exe](DpiScaling.exe-D44D3A0F5E53F6ECC5C6232930CFCC5E.md) | 91
 
 
 

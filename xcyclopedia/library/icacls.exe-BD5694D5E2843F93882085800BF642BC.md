@@ -188,6 +188,11 @@ First parameter must be a file name pattern or "/?"
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\icacls.exe](icacls.exe-2E49585E4E08565F52090B144062F97E.md) | 66
 
 ## Possible Misuse
 

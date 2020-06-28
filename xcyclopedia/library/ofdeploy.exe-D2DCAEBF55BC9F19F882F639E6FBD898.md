@@ -52,6 +52,11 @@ SSDEEP | `1536:R9vlv2eyoYqU0oVsIziCcgy3+sFssssei25U9Wj90hK0VB+JeaWy:zlETVsIzlcdL
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ofdeploy.exe](ofdeploy.exe-F09C49AD23CECE014B1244ED86CF5E3B.md) | 33
 
 
 

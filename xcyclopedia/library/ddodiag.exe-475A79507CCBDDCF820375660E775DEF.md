@@ -57,6 +57,7 @@ SSDEEP | `768:Sm6fhsXKZkrWcwMa4uZlqiKQvn5TA62lBcwP4:Sm6fhsXKZkrWcwMa4uZlqiKQBTAB
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\ddodiag.exe](ddodiag.exe-A8816FB7E1EC305DA72AE297B0F8BCA5.md) | 74
+[C:\Windows\SysWOW64\ddodiag.exe](ddodiag.exe-B99A1EA960AA12EA6A972335999D2B1F.md) | 74
 
 
 

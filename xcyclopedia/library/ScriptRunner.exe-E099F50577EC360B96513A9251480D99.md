@@ -67,6 +67,7 @@ Error: Invalid argument specified
 
 File | Score
 -- | --
+[C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 46
 [C:\WINDOWS\system32\ScriptRunner.exe](ScriptRunner.exe-C024FF9A88E26EEB26A1A942260489BC.md) | 47
 
 ## Possible Misuse

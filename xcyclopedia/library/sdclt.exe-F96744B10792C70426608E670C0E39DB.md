@@ -52,6 +52,11 @@ SSDEEP | `24576:nMmYxJ6XVm85rBkZVUNg0SUxj8AFGh9yptQHZ7RHegR:/YzWVeDVAFGaQ5dH9`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\sdclt.exe](sdclt.exe-1A6DC77B647238046A1F466B72CC271B.md) | 46
 
 ## Possible Misuse
 

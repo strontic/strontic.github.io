@@ -56,9 +56,11 @@ SSDEEP | `3072:pOhX097+C1z8Wp1icKAArDZz4N9GhbkUNEk95rd:4hE97+m9p0yN90vE2`
 
 File | Score
 -- | --
+[C:\Windows\system32\wextract.exe](wextract.exe-56E501E3E49CFDE55EB1CAABE6913E45.md) | 71
 [C:\WINDOWS\system32\wextract.exe](wextract.exe-A740582789B3622EAAA53D2D31955363.md) | 71
 [C:\Windows\system32\wextract.exe](wextract.exe-EF82872F2141313EF07C49405145DF3B.md) | 72
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-330C79E31445B8A75F18EB503BC07029.md) | 77
+[C:\Windows\SysWOW64\wextract.exe](wextract.exe-B9CC7E24DB7DE2E75678761B1D8BAC3E.md) | 86
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 35
 
 

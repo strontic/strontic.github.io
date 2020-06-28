@@ -1,0 +1,69 @@
+﻿---
+title: IMTCLNWZ.EXE | IMTCLNWZ.exe
+---
+
+# IMTCLNWZ.EXE 
+
+* File Path: `C:\Windows\SysWOW64\IME\IMETC\IMTCLNWZ.EXE`
+* Description: IMTCLNWZ.exe
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `FFC5AB5333DEA60739B3AAB472A106E5`
+SHA1 | `AF7004ACAA6B32B01FE78B5CEE16CB7C4FF1E96C`
+SHA256 | `14DC557335BB9356B0E667AA26480ECA9255C4C3B0026990D81488B65E525617`
+SHA384 | `2497CEDC924E0DF6259CD9CB7753EA925C70261F5C9F6AFFFEC18A14485E28696517AFC3D8FD0CB2E0E48D96A2F49D82`
+SHA512 | `EC2A5CD754A0954DC6DEB16BCAC78251CB20B732CD200C61354168C03E5504B96148C0012589D04DE3691919D60A00B5145F34DB44E89811538F7496AFD01883`
+SSDEEP | `1536:t+PSj1oXEIQScbIlLFBWEqGMrrlxUeBUsv6STTuCqOJat408RPvITqEIxjNqcG5D:t+q+L3lLFBWEqGMrrlWeBUsv6STT5qOH`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: IMTCLNWZ.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IME\IMETC\IMTCLNWZ.EXE](IMTCLNWZ.EXE-276DC3BD19C1340A5CD15EF59493DBD4.md) | 27
+[C:\Windows\system32\IME\IMETC\IMTCLNWZ.EXE](IMTCLNWZ.EXE-4900C7A4A9DFEDC07BC5B01D62530F92.md) | 24
+[C:\WINDOWS\SysWOW64\IME\IMETC\IMTCLNWZ.EXE](IMTCLNWZ.EXE-29F4933D7C3B572A653DDC628FBDA485.md) | 36
+[C:\Windows\SysWOW64\IME\IMETC\IMTCLNWZ.EXE](IMTCLNWZ.EXE-433BDECA0C6C645DB6DEAD1FD50735E8.md) | 27
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

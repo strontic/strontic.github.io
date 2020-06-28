@@ -57,6 +57,8 @@ SSDEEP | `6144:bBGfglmU1M1AdY1lrB6KTdl0DNO0KlcDecoZgBk8SK0Qj+:bMfglmUC1MY1lrBLda
 File | Score
 -- | --
 [C:\WINDOWS\system32\IME\SHARED\imecfmui.exe](imecfmui.exe-9D88FE39CFD94AECCC9161C3FC54D28F.md) | 33
+[C:\Windows\system32\IME\SHARED\imecfmui.exe](imecfmui.exe-CA2AFE86E64242CE78A5FC41F8D774CB.md) | 33
+[C:\Windows\SysWOW64\IME\SHARED\imecfmui.exe](imecfmui.exe-E4FD27E531572F8A15B2C26AE2939501.md) | 32
 
 
 

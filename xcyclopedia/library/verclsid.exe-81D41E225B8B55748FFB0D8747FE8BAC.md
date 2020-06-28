@@ -1,0 +1,74 @@
+﻿---
+title: verclsid.exe | Extension CLSID Verification Host
+---
+
+# verclsid.exe 
+
+* File Path: `C:\Windows\system32\verclsid.exe`
+* Description: Extension CLSID Verification Host
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `81D41E225B8B55748FFB0D8747FE8BAC`
+SHA1 | `B8359399F1751FF1AFFC4A3A9F90F890CB17C9ED`
+SHA256 | `AC6E1F614CB902C0ABE4297646E21C70590624B652A080BFBB8407B1AB52609D`
+SHA384 | `1A10576F99F7927D3C30D5EC3031BF226BAA3E650BC6C3844DA759D4A40C51F4D7F29AF93128AE29AFDCD01E47BDFDBE`
+SHA512 | `495B57077F2E50247D8CB041405A39B6B8459A794AC3A801DF5CCF6EB1C2A8AFCCA668920A7039A6199B91C8895A2FCB7D70CB1955C69E0D31E4C4CDCD81AC0E`
+SSDEEP | `192:1S1rPu2/TzyyIDWm8ZdFN2y9qnWJ8VaZGuJG+WfCkXWSNW:1S17uezxm8vL2PWJqOGuUCoWSNW`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: verclsid.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+## Possible Misuse
+
+*The following table contains possible examples of `verclsid.exe` being misused. While `verclsid.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_malware_verclsid_shellcode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_malware_verclsid_shellcode.yml) | `title: Malware Shellcode in Verclsid Target Process` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_malware_verclsid_shellcode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_malware_verclsid_shellcode.yml) | `description: Detects a process access to verclsid.exe that injects shellcode from a Microsoft Office application / VBA macro` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_malware_verclsid_shellcode.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_malware_verclsid_shellcode.yml) | `        TargetImage: '*\verclsid.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Verclsid.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Verclsid.yml) | `Name: Verclsid.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Verclsid.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Verclsid.yml) | `  - Command: verclsid.exe /S /C {CLSID}` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Verclsid.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Verclsid.yml) | `  - Path: C:\Windows\System32\verclsid.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Verclsid.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Verclsid.yml) | `  - Path: C:\Windows\SysWOW64\verclsid.exe` | 
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

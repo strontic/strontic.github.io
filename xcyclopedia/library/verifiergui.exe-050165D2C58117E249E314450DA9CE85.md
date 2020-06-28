@@ -56,8 +56,10 @@ SSDEEP | `3072:FSYd2/HjOKkqkfqrKXnNHDMn34tTc5VoJe3+Vcv2JxQQBBEB3Befnj5+TrjqZvKx:
 
 File | Score
 -- | --
+[C:\Windows\system32\verifier.exe](verifier.exe-2116190AE866163ED485C4FD3E13D03B.md) | 50
 [C:\Windows\system32\verifier.exe](verifier.exe-99EBA9BAF9E048AB6BD29148F4989672.md) | 50
 [C:\WINDOWS\system32\verifier.exe](verifier.exe-F3E010D3E862323BEE891727CFAA31C1.md) | 52
+[C:\Windows\system32\verifiergui.exe](verifiergui.exe-03A76A765ABE56C8999A548331F191D9.md) | 55
 [C:\Windows\system32\verifiergui.exe](verifiergui.exe-3B4696162C3ABD7BB68D8630464AFC99.md) | 29
 
 

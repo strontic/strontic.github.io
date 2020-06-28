@@ -118,6 +118,11 @@ Type "GPRESULT /?" for usage.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\gpresult.exe](gpresult.exe-24091E39D3C98CD0866002B618801C6E.md) | 27
 
 
 ## Additional Info*

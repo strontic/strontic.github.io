@@ -57,6 +57,8 @@ SSDEEP | `384:Nfbx9KcVP+A3ROAK1Py/PxspKqTeB3W0RgWGQE0g7qW2RPT/8rFeZmJhAh:Nfbx99V
 File | Score
 -- | --
 [C:\WINDOWS\system32\BackgroundTransferHost.exe](BackgroundTransferHost.exe-2969638F9461553E1F5A7B4EC272F97F.md) | 54
+[C:\Windows\system32\BackgroundTransferHost.exe](BackgroundTransferHost.exe-A6FCD059386BE8DB866BF1339A8BE345.md) | 52
+[C:\Windows\SysWOW64\BackgroundTransferHost.exe](BackgroundTransferHost.exe-1BE6B2C519B9E212265C30CBA6319B88.md) | 63
 
 
 

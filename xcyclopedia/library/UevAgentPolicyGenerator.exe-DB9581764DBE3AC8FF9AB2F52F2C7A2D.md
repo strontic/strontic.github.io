@@ -57,6 +57,7 @@ SSDEEP | `384:kZm0fhsl8PKzKq06MUt3jt/KJSaI3DDvQS114fOmDH1J/8rfZuKRSfDOya2VFkmN:k
 File | Score
 -- | --
 [C:\Windows\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-0AEAB028DC23060EC1BC1C2D0A79B925.md) | 66
+[C:\Windows\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-C048906265AB5C4EA7118084A1E316CF.md) | 99
 
 
 

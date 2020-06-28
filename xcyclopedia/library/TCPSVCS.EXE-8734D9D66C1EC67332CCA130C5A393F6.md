@@ -52,6 +52,11 @@ SSDEEP | `192:sI7v0F0o+AFfQB3byNWt2b54rCXL6//1vKsWD/Wcyf:sQMF0o75QB3byc294S6//Qs
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\TCPSVCS.EXE](TCPSVCS.EXE-73905DB831B4F37F0673D2DD5BBF7779.md) | 63
 
 
 

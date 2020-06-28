@@ -52,6 +52,11 @@ SSDEEP | `768:VchlCMQTkKE4nTzRimqtcuwMZIxl3vbOOLANWuM2fRJOXj1PYWfF:VchlC1kKratci
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-9E9747DF3D5A7F1C095D23FDF5A874F8.md) | 54
 
 
 

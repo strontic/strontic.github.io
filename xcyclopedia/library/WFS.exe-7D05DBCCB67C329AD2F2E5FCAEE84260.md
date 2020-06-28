@@ -52,6 +52,11 @@ SSDEEP | `12288:XbvNyOSTTKcrOmqXE7b5sJbD5qgHqRz0Sc5GUXBue1I+xt4vFe:rw8m8EygaMc5G
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WFS.exe](WFS.exe-EECE3DAFAF89C27DE21E23F1D9A27B55.md) | 32
 
 
 

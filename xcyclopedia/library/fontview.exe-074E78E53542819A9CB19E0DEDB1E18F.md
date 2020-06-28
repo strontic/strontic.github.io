@@ -57,7 +57,9 @@ SSDEEP | `3072:xyawG6ub3v5LZgGiKCNJjWRkOtHxtt3EOL2QvIsitSYVD:xyawAvrxmWRRZzqGY`
 File | Score
 -- | --
 [C:\Windows\system32\fontview.exe](fontview.exe-5C122031AF7A1DB1A7172B83A220B411.md) | 68
+[C:\Windows\system32\fontview.exe](fontview.exe-C07C4F59EA1A3795CEC526582A5DD7C2.md) | 61
 [C:\Windows\SysWOW64\fontview.exe](fontview.exe-41F2C4BCF495E8130FA93D7A641476CD.md) | 69
+[C:\Windows\SysWOW64\fontview.exe](fontview.exe-8324ECE6961ADBE6120CCE9E0BC05F76.md) | 69
 [C:\WINDOWS\SysWOW64\fontview.exe](fontview.exe-B3A764361C0ACDEAD4B17F1D33ADC9A7.md) | 71
 
 

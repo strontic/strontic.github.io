@@ -52,6 +52,11 @@ SSDEEP | `96:ffEI0sqZx2UhHHgP32Qj6tcVPSUcgnRqRmUsJ/83U/GluUWRnpeioGEWdhRWw:ffEuK
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wscadminui.exe](wscadminui.exe-99D392604486D81F2F0AC21ED5A13091.md) | 46
 
 
 

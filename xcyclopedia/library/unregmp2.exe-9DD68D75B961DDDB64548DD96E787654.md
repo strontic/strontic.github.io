@@ -52,6 +52,11 @@ SSDEEP | `3072:f3YK3Rsc33GxmF0vhxwWWZyjCLNECOf9QsvVTBvAwk4Opk17umhz7:vRscGwWQq37
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\unregmp2.exe](unregmp2.exe-A6FC8CE566DEC7C5873CB9D02D7B874E.md) | 33
 
 
 

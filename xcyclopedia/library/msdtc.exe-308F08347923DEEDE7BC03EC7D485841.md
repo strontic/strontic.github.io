@@ -56,6 +56,7 @@ SSDEEP | `1536:fA8sWX8TTs0Uv/v6qlDgGf61w1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lk:IWKun
 
 File | Score
 -- | --
+[C:\Windows\system32\msdtc.exe](msdtc.exe-2EF846AC66E181BE820B513DBC15B5D2.md) | 63
 [C:\WINDOWS\system32\msdtc.exe](msdtc.exe-DC59FE37CFF118B6DAC426FE9923B32C.md) | 71
 
 

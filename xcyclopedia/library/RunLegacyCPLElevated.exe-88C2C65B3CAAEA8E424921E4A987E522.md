@@ -56,11 +56,15 @@ SSDEEP | `1536:Pudc6rZCoC1ksGyYHAxakkn6oYY0ewiP8:GegzC1nWAxaJVYYPwi`
 
 File | Score
 -- | --
+[C:\Windows\system32\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-095CDBFC0D53FC186EE6BA4D82E5B811.md) | 57
 [C:\Windows\system32\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-0D0551E591F32BBA1B1701D115883802.md) | 58
 [C:\Windows\system32\winver.exe](winver.exe-3815F11126543C450BDE1AB19559C70A.md) | 63
+[C:\Windows\system32\winver.exe](winver.exe-63DC2D604B8A96C9962494D1D957DD77.md) | 57
 [C:\WINDOWS\system32\winver.exe](winver.exe-A9E590D2497EDC084324D6A2584B1905.md) | 58
+[C:\Windows\SysWOW64\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-848480B7DA5B0428E62938093C183BC0.md) | 58
 [C:\WINDOWS\SysWOW64\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-A16745D0777F337EDADFAA6C3624BAA1.md) | 65
 [C:\Windows\SysWOW64\RunLegacyCPLElevated.exe](RunLegacyCPLElevated.exe-E1519821284895922C0DE974BB13DB8B.md) | 57
+[C:\Windows\SysWOW64\winver.exe](winver.exe-B5471B0FB5402FC318C82C994C6BF84D.md) | 60
 [C:\WINDOWS\SysWOW64\winver.exe](winver.exe-D828953D9B5DA4E7C73CD10F07741F78.md) | 60
 [C:\Windows\SysWOW64\winver.exe](winver.exe-D93830F17D450C7D418534CED70E263B.md) | 58
 

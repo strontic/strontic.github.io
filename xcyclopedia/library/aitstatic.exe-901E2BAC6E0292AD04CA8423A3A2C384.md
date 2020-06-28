@@ -56,6 +56,7 @@ SSDEEP | `49152:IabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/LX:IyKNNYtaAIr
 
 File | Score
 -- | --
+[C:\Windows\system32\aitstatic.exe](aitstatic.exe-019C68136DB95EEC5275E1246B17A288.md) | 66
 [C:\WINDOWS\system32\aitstatic.exe](aitstatic.exe-2C02288BFAFB12E33BAB55AB06A6EF23.md) | 97
 
 

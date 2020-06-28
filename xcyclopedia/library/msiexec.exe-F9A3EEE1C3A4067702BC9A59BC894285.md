@@ -52,6 +52,11 @@ SSDEEP | `768:/o8HL2TB4LH87fQmL0SjBYjJd74Ou8FqO3znHSXq6CAGSDyP:KTB4L6fR3FYjnSujH
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\msiexec.exe](msiexec.exe-9D09DC1EDA745A5F87553048E57620CF.md) | 50
 
 ## Possible Misuse
 

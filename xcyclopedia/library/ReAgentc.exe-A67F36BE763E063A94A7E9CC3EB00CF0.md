@@ -1,0 +1,111 @@
+﻿---
+title: ReAgentc.exe | Microsoft Windows Recovery Agent
+---
+
+# ReAgentc.exe 
+
+* File Path: `C:\Windows\SysWOW64\ReAgentc.exe`
+* Description: Microsoft Windows Recovery Agent
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `A67F36BE763E063A94A7E9CC3EB00CF0`
+SHA1 | `99E933D32A6562CE7A85AD66D6BEDF08179ED0B5`
+SHA256 | `FA698E4B50CC76ABFBF99E5D27C81D19C26F2AF529EF4D2568A2F9ABA436E455`
+SHA384 | `F6AD606F0830D5EAE3148FD5B0C076A23A133B6892FB11FD28D80571F70FE42AE9E42AB0D09EBF7F6F5FBC651C50A398`
+SHA512 | `6A7B24B7B778571C03404C77D2888F4C6C51E1AF795AE7F5DEC57AB5E70198E6E42294EEE478F5AF25BA19129ACCD044ED872FBFC4115F06D0415C7D24F45E0F`
+SSDEEP | `768:UCvPVU/lmwRXy/fvI6FrkYwzmL0+bfziuq+z:UV/lmoX2fvIoSmViu`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+Configures the Windows Recovery Environment (Windows RE) and system reset.
+
+REAGENTC.EXE <command> <arguments>
+
+The following commands can be specified:
+
+  /info             - Displays Windows RE and system reset configuration
+                      information.
+  /setreimage       - Sets the location of the custom Windows RE image.
+  /enable           - Enables Windows RE.
+  /disable          - Disables Windows RE.
+  /boottore         - Configures the system to start Windows RE next time the
+                      system starts up.
+  /setbootshelllink - Adds an entry to the Reset and Restore page in the boot
+                      menu.
+
+For more information about these commands and their arguments, type
+REAGENTC.EXE <command> /?.
+
+  Examples:
+    REAGENTC.EXE /setreimage /?
+    REAGENTC.EXE /disable /?
+
+REAGENTC.EXE: Operation Successful.
+    
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+Configures the Windows Recovery Environment (Windows RE) and system reset.
+
+REAGENTC.EXE <command> <arguments>
+
+The following commands can be specified:
+
+  /info             - Displays Windows RE and system reset configuration
+                      information.
+  /setreimage       - Sets the location of the custom Windows RE image.
+  /enable           - Enables Windows RE.
+  /disable          - Disables Windows RE.
+  /boottore         - Configures the system to start Windows RE next time the
+                      system starts up.
+  /setbootshelllink - Adds an entry to the Reset and Restore page in the boot
+                      menu.
+
+For more information about these commands and their arguments, type
+REAGENTC.EXE <command> /?.
+
+  Examples:
+    REAGENTC.EXE /setreimage /?
+    REAGENTC.EXE /disable /?
+
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: reagentc.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

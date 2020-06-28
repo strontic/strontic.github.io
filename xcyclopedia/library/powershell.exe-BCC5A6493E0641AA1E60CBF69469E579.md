@@ -173,6 +173,8 @@ File | Score
 -- | --
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-097CE5761C89434367598B34FE32893B.md) | 85
 [C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-CDA48FC75952AD12D99E526D0B6BF70A.md) | 85
+[C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-F8278DB78BE164632C57002E82B07813.md) | 85
+[C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-5B16D54F2AE6B74DCF863BC0F5E502B5.md) | 85
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-65D86C34814C02569E2AD53FD24E7F61.md) | 88
 
 ## Possible Misuse
