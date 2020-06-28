@@ -10,9 +10,9 @@ title: xCyclopedia | The Encyclopedia for Executables
 
 ## Index
 
-File Name & (Variants) | Description
+File Name / Variants | Description
 -- | --
-[_isdel.exe](library/_isdel.exe-51161BF79F25FF278912005078AD93D5.md) ([2](library/_isdel.exe-9D4EC4B71FD189A0B2C4DBD6AADE16BF.md)) | 32-bit InstallShield Deleter.. 
+[_isdel.exe](library/isdel.exe-51161BF79F25FF278912005078AD93D5.md) ([2](library/isdel.exe-9D4EC4B71FD189A0B2C4DBD6AADE16BF.md)) | 32-bit InstallShield Deleter.. 
 [acu.exe](library/acu.exe-5A62052F6F1D9E8B5BD1485ADD99E5A0.md) | ACU. Contains the Application Container Updater
 [AdobeARM.exe](library/AdobeARM.exe-07A37CB5C5A01E73FB69F138FAE2DB0E.md) | Adobe Reader and Acrobat Manager. 
 [AdobeARMHelper.exe](library/AdobeARMHelper.exe-516C021FEBEDE2962C9252DF85606C76.md) | Adobe Reader and Acrobat Manager Helper. 
@@ -375,7 +375,7 @@ File Name & (Variants) | Description
 [LicenseManagerShellext.exe](library/LicenseManagerShellext.exe-6290371174BD6A21DA88BD2CA14026F9.md) ([2](library/LicenseManagerShellext.exe-760FAE2CDBB9F789D307F41124F3852E.md)) ([3](library/LicenseManagerShellext.exe-DDCE1E1C3E45592653E2A2A93168BA3E.md)) | LicenseManagerShellExt. 
 [licensingdiag.exe](library/licensingdiag.exe-3B178CA47D045EEF6F29342BD89129BF.md) ([2](library/licensingdiag.exe-58DC7B96D334B2F47380224A93610B56.md)) ([3](library/licensingdiag.exe-BE0F986621AB4990E3444151DCF062D7.md)) | Licensing Diagnostic Tool. 
 [LicensingUI.exe](library/LicensingUI.exe-4090173356CF88A820FB4A4D267322BF.md) ([2](library/LicensingUI.exe-D1FBF1E85C785C7E0DFE3C2AC860A115.md)) ([3](library/LicensingUI.exe-FD591AF9E78ED65C96A736507780C5E9.md)) | Licensing UI. 
-[-LinkID=690621.exe](library/-LinkID=690621.exe-186953FB59928533D571CF9FAD3BA3C4.md) | Windows Software Development Kit - Windows 10.0.10586.15. 
+[-LinkID=690621.exe](library/-LinkID%3d690621.exe-186953FB59928533D571CF9FAD3BA3C4.md) | Windows Software Development Kit - Windows 10.0.10586.15. 
 [LocationNotificationWindows.exe](library/LocationNotificationWindows.exe-5313F9A0C940970D5491E00C19EF074C.md) ([2](library/LocationNotificationWindows.exe-9BAD04696E81E4420A99660C8D1388A1.md)) ([3](library/LocationNotificationWindows.exe-C04C36BBD0AD2C406258E4129BCC6428.md)) | Location Notification. 
 [Locator.exe](library/Locator.exe-109C1D609951E886D3643B15C1EDD1C2.md) ([2](library/Locator.exe-A089120B99842F0A3CE8AE586A31BD56.md)) ([3](library/Locator.exe-D45676C47616B9ABBFAEC97DD3B240A8.md)) | Rpc Locator. 
 [LockAppHost.exe](library/LockAppHost.exe-4549FC53D244EC4855CAF1D5D91D3A7C.md) ([2](library/LockAppHost.exe-666291BAF4D604CC0A13940EE1C2652B.md)) ([3](library/LockAppHost.exe-9B47DD2F5E37AA1FDD9A9B9298978853.md)) ([4](library/LockAppHost.exe-CCC6C8D3FF120D250F724629C263FA8D.md)) | LockAppHost. 
@@ -541,7 +541,7 @@ File Name & (Variants) | Description
 [powercfg.exe](library/powercfg.exe-0C4D5B1C001E5B34C759E1A96315FC62.md) ([2](library/powercfg.exe-255BE9B546ADA1279965E3FA428DF99F.md)) ([3](library/powercfg.exe-9CA38BE255FFF57A92BD6FBF8052B705.md)) ([4](library/powercfg.exe-9D71DBDD3AD017EC69554ACF9CAADD05.md)) ([5](library/powercfg.exe-DBAD85BFE615D3C006D68DC630FACBFD.md)) ([6](library/powercfg.exe-F8C5CF8A518FAFE5E2577CBC2E6D1820.md)) | Power Settings Command-Line Tool. 
 [powershell.exe](library/powershell.exe-097CE5761C89434367598B34FE32893B.md) ([2](library/powershell.exe-5B16D54F2AE6B74DCF863BC0F5E502B5.md)) ([3](library/powershell.exe-65D86C34814C02569E2AD53FD24E7F61.md)) ([4](library/powershell.exe-BCC5A6493E0641AA1E60CBF69469E579.md)) ([5](library/powershell.exe-CDA48FC75952AD12D99E526D0B6BF70A.md)) ([6](library/powershell.exe-F8278DB78BE164632C57002E82B07813.md)) | Windows PowerShell. 
 [powershell_ise.exe](library/powershell_ise.exe-0722BC6EA7EB1A21AC2FAC7BE9B4C9A6.md) ([2](library/powershell_ise.exe-30A2792A2428CD06CFEC23ECB074889A.md)) ([3](library/powershell_ise.exe-3F06E220C3E591F458D549B01ECCCB95.md)) ([4](library/powershell_ise.exe-8F1F1C4EDA2CFA2073E82A409BBE35D0.md)) ([5](library/powershell_ise.exe-9F47663A5E104CD1EF4079CC37F12674.md)) ([6](library/powershell_ise.exe-E05920670516CC96822699E5688A79FA.md)) | Windows PowerShell ISE. 
-[=patch%5Ckb3110221&o4=VS14-KB3110221.exe](library/-prd=12514&pver=Dev14&sbp=d14vsuldr&plcid=0x409&clcid=0x409&ar=24730.02&sar=S80_RCPrep&o1=enu_MicroUpdate1.3_iOOB&o2=enu&o3=patch%5Ckb3110221&o4=VS14-KB3110221.exe-4D721C2468AA9DDCABB6346CE13F2E29.md) | Update for Microsoft Visual Studio 2015 (KB3110221). 
+[=patch%5Ckb3110221&o4=VS14-KB3110221.exe](library/%3denu%26o3%3dpatch%255Ckb3110221%26o4%3dVS14-KB3110221.exe-4D721C2468AA9DDCABB6346CE13F2E29.md) | Update for Microsoft Visual Studio 2015 (KB3110221). 
 [Preparation.exe](library/Preparation.exe-4B815231741879D4BDC210D49947F1AC.md) ([2](library/Preparation.exe-6103F3E05186AA3A496E7521C59F2E30.md)) ([3](library/Preparation.exe-A911C2DC24898DFD47B45467E4A9F092.md)) | Microsoft Visual Studio 2015. 
 [PresentationHost.exe](library/PresentationHost.exe-3DD3F827425D39663544135A427CEC92.md) ([2](library/PresentationHost.exe-49FA711824925D5FA0286A7FDE8C1821.md)) ([3](library/PresentationHost.exe-7DB413989BDDFD23AF251B26FC9F6055.md)) ([4](library/PresentationHost.exe-A1204EFC65BFBF5198A23CB21E1C0562.md)) ([5](library/PresentationHost.exe-C6671F8B9F073785FD617661AD1F1C45.md)) ([6](library/PresentationHost.exe-EF27D65B92D89E8175E6751A57ED9D93.md)) | Windows Presentation Foundation Host. Flavor=Retail
 [PresentationSettings.exe](library/PresentationSettings.exe-658873DCA615D9692113B0240F2B17AC.md) ([2](library/PresentationSettings.exe-790799A168C41689849310F6C15F98FA.md)) ([3](library/PresentationSettings.exe-B70F0B64ADB8B30223043D1C8F104252.md)) | Microsoft Mobile PC Presentation Adaptability Client. 
