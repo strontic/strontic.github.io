@@ -52,6 +52,11 @@ SSDEEP | `6144:4eAkMWcB6AOKGURBat2Zbb0qpMQQFgZKUVMLWF:DJVAEHt2ZUCAuVMiF`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Narrator.exe](Narrator.exe-72E6BB735FAE36942575D0E9BB998DE5.md) | 32
 
 ## Possible Misuse
 
@@ -60,6 +65,10 @@ SSDEEP | `6144:4eAkMWcB6AOKGURBat2Zbb0qpMQQFgZKUVMLWF:DJVAEHt2ZUCAuVMiF`
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_install_reg_debugger_backdoor.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_install_reg_debugger_backdoor.yml) | `            - '*\CurrentVersion\Image File Execution Options\narrator.exe*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_narrator_feedback_persistance.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_narrator_feedback_persistance.yml) | `title: Narrator's Feedback-Hub Persistence` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_narrator_feedback_persistance.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_narrator_feedback_persistance.yml) | `description: Detects abusing Windows 10 Narrator's Feedback-Hub` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_stickykey_like_backdoor.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml) | `            - '*\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Narrator.exe\Debugger'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_stickykey_like_backdoor.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml) | `            - '*cmd.exe Narrator.exe *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_narrator_feedback_persistance.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_narrator_feedback_persistance.yml) | `title: Narrator's Feedback-Hub Persistence` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_narrator_feedback_persistance.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_narrator_feedback_persistance.yml) | `description: Detects abusing Windows 10 Narrator's Feedback-Hub` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_stickykey_like_backdoor.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_stickykey_like_backdoor.yml) | `            - '*\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Narrator.exe\Debugger'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

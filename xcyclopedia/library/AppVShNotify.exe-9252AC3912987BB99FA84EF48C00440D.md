@@ -57,8 +57,11 @@ SSDEEP | `6144:GMFUFeCAT5pFSj3onWGNU6ITLzZ5QvKWNL:nFYATkDGNUbTPZ5AKg`
 File | Score
 -- | --
 [C:\WINDOWS\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-4564AEECEED25F34A2A6156A355C09B6.md) | 33
+[C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-EAA5FF4ED735D3D1FE292600A9E3DEC6.md) | 32
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-47C060EF467EB3E4461D26BCBC858377.md) | 40
+[C:\Windows\system32\AppVNice.exe](AppVNice.exe-E4CC15631219560406D2CE920CB2C133.md) | 33
 [C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-E805EC74A53B64CE1D9D6739B8055579.md) | 33
+[C:\Windows\system32\AppVShNotify.exe](AppVShNotify.exe-3E705409974662FD944B65C3B9ADAC31.md) | 35
 [C:\Windows\system32\AppVShNotify.exe](AppVShNotify.exe-422209DBC6879722C59054DBFBCDA152.md) | 35
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 36
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 41

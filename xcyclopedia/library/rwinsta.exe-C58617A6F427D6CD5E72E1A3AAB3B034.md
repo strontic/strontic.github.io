@@ -71,6 +71,11 @@ RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rwinsta.exe](rwinsta.exe-BB409E77E0EF5A6645A0E665586C7440.md) | 79
 
 
 ## Additional Info*

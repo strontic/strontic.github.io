@@ -56,6 +56,7 @@ SSDEEP | `384:edaovOa6xblcWrHqLWqGWPD1IDBRJ1WI1x4leE:jmx4HqpRI1P8I3S`
 
 File | Score
 -- | --
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 30
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 30
 [C:\Windows\system32\dllhost.exe](dllhost.exe-C6723950D1A8CD49D93C8D082B175D41.md) | 38
 [C:\Windows\system32\NDKPing.exe](NDKPing.exe-5FC26E00B9012CC0188F65BB999174E9.md) | 29

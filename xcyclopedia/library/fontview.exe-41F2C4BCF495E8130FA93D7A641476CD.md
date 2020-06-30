@@ -59,7 +59,9 @@ File | Score
 [C:\WINDOWS\system32\fontview.exe](fontview.exe-074E78E53542819A9CB19E0DEDB1E18F.md) | 69
 [C:\Windows\system32\fontview.exe](fontview.exe-5C122031AF7A1DB1A7172B83A220B411.md) | 82
 [C:\Windows\system32\fontview.exe](fontview.exe-C07C4F59EA1A3795CEC526582A5DD7C2.md) | 71
+[C:\Windows\system32\fontview.exe](fontview.exe-EF5974EAF2890C9D9F659C42F356B5D1.md) | 72
 [C:\Windows\SysWOW64\fontview.exe](fontview.exe-8324ECE6961ADBE6120CCE9E0BC05F76.md) | 75
+[C:\Windows\SysWOW64\fontview.exe](fontview.exe-A8E73AF0EEBD57BDC848C2A58B8CF8BD.md) | 85
 [C:\WINDOWS\SysWOW64\fontview.exe](fontview.exe-B3A764361C0ACDEAD4B17F1D33ADC9A7.md) | 80
 
 

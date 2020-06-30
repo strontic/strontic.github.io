@@ -56,6 +56,7 @@ SSDEEP | `192:WMfv74WudkjM3SRM3qO4JD1hbX0HcWT5WLx28c:Wsz47dkjM9weHcWT5WLx28`
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-7E9CE7F806505ABB9C7B07C69F39DC17.md) | 55
 [C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-A23082AF84891D599B09E3FA28ACE972.md) | 60
 
 

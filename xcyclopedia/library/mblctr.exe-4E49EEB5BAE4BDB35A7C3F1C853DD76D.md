@@ -57,6 +57,7 @@ SSDEEP | `12288:9tuceTlfs5PQXu+YqubBSMr1JM1h351qviizQBODAKylkm5ZUxXrc5Zh5ZG5Ze:9
 File | Score
 -- | --
 [C:\Windows\system32\mblctr.exe](mblctr.exe-0EC4ADC3149C9F85BF96B83C6AD174F5.md) | 63
+[C:\Windows\system32\mblctr.exe](mblctr.exe-BF6E710F30D7981EF0F90225D9C51001.md) | 60
 [C:\Windows\system32\mblctr.exe](mblctr.exe-D3DB14EABB2679E08020BCD0C96FA9F6.md) | 65
 
 

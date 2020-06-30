@@ -57,8 +57,10 @@ SSDEEP | `1536:1mOzYulqCAV/Qkd1sTNe+6NwiKE10DHlG:zYoqCAV/Qkd1sTNGBl10A`
 File | Score
 -- | --
 [C:\WINDOWS\system32\Microsoft.Uev.SyncController.exe](Microsoft.Uev.SyncController.exe-68EC8F87BD36362B5DA3EF46FDFDBD14.md) | 75
+[C:\Windows\system32\Microsoft.Uev.SyncController.exe](Microsoft.Uev.SyncController.exe-A15E06A45812CDE8B959C1BC0F64A619.md) | 71
 [C:\Windows\system32\Microsoft.Uev.SyncController.exe](Microsoft.Uev.SyncController.exe-B9D4C0EA77E598B45015E36624D8FBE4.md) | 71
 [C:\Windows\system32\UevAppMonitor.exe](UevAppMonitor.exe-B54F6F7A63A0E20DE1A80D1C8AAA2882.md) | 55
+[C:\Windows\system32\UevAppMonitor.exe](UevAppMonitor.exe-C3163D61262081660226C0A8047F8A67.md) | 55
 [C:\WINDOWS\system32\UevAppMonitor.exe](UevAppMonitor.exe-D49102FE0B311535B01F3E3039F09218.md) | 55
 [C:\Windows\system32\UevAppMonitor.exe](UevAppMonitor.exe-D615EC28CE7C21764EAD0CA4E4924A3C.md) | 54
 

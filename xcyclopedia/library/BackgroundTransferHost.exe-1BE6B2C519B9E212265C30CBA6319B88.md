@@ -58,7 +58,9 @@ File | Score
 -- | --
 [C:\WINDOWS\system32\BackgroundTransferHost.exe](BackgroundTransferHost.exe-2969638F9461553E1F5A7B4EC272F97F.md) | 47
 [C:\Windows\system32\BackgroundTransferHost.exe](BackgroundTransferHost.exe-A6FCD059386BE8DB866BF1339A8BE345.md) | 61
+[C:\Windows\system32\BackgroundTransferHost.exe](BackgroundTransferHost.exe-BF255B52B25761E750889EA4984C328D.md) | 50
 [C:\WINDOWS\SysWOW64\BackgroundTransferHost.exe](BackgroundTransferHost.exe-0B1D2F91DCF89A68D6DA2A57D16C5E46.md) | 63
+[C:\Windows\SysWOW64\BackgroundTransferHost.exe](BackgroundTransferHost.exe-26D9648F16F1379272FF20AAA888B5D6.md) | 60
 
 
 

@@ -56,6 +56,7 @@ SSDEEP | `192:mm92M7hPKuLkrkkTkSWdPtku2LKNDgWKGSCW8mNW8vWzRiW:m022ZKxlxWd1ku2LZW
 
 File | Score
 -- | --
+[C:\Windows\system32\secinit.exe](secinit.exe-7AFB95AB0136F93059C5C2DE7D809412.md) | 65
 [C:\WINDOWS\SysWOW64\secinit.exe](secinit.exe-D7FE3D2CED30B30C51465B138B728AAE.md) | 33
 
 

@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\system32\cmmon32.exe](cmmon32.exe-527B257B270FE03BB7C2CA5BC54CC71B.md) | 44
 [C:\WINDOWS\system32\cmmon32.exe](cmmon32.exe-B1A905D46687E473DB8DA01D089C37EC.md) | 38
+[C:\Windows\system32\cmmon32.exe](cmmon32.exe-C3651D3DDC8D85B590F7CC6583EA4374.md) | 44
 
 
 

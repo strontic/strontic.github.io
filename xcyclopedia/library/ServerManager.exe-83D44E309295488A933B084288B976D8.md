@@ -52,6 +52,11 @@ SSDEEP | `3072:wBQrNQUQXf8fyOcR1HnPYctZLF9nM6zQHo:wGuUQPzAGR9M`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ServerManager.exe](ServerManager.exe-65ADE21DC82C01972891285581D85866.md) | 68
 
 
 

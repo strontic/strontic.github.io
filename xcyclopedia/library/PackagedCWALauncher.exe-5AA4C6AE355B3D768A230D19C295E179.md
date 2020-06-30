@@ -52,6 +52,11 @@ SSDEEP | `384:y6azCoQre/3ofFQvpBiY1J76Zy9fF3Kgx8khPIsLU7KU0KFkM+ietj76S8WssWr:yR
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\PackagedCWALauncher.exe](PackagedCWALauncher.exe-416CCB1416BC6548EFBEF88A865E43A0.md) | 38
 
 
 

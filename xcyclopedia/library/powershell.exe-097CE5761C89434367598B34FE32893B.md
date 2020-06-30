@@ -171,10 +171,12 @@ EXAMPLES
 
 File | Score
 -- | --
+[C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-7353F60B1739074EB17C5F4DDDEFE239.md) | 88
 [C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-CDA48FC75952AD12D99E526D0B6BF70A.md) | 83
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-F8278DB78BE164632C57002E82B07813.md) | 90
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-5B16D54F2AE6B74DCF863BC0F5E502B5.md) | 86
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-65D86C34814C02569E2AD53FD24E7F61.md) | 91
+[C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-83767E18DB29B51A804A9E312D0ED99C.md) | 90
 [C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-BCC5A6493E0641AA1E60CBF69469E579.md) | 85
 
 ## Possible Misuse
@@ -207,6 +209,26 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_remote_powershell_session.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_remote_powershell_session.yml) | `description: Detects basic PowerShell Remoting by monitoring for network inbound connections to ports 5985 OR 5986` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_remote_powershell_session.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_remote_powershell_session.yml) | `    - Legitimate use of remote PowerShell execution` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_mshta_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_mshta_execution.yml) | `    - https://medium.com/tsscyber/pentesting-and-hta-bypassing-powershell-constrained-language-mode-53a42856c997` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `            - '*\powershell.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_exploit_scripts.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_powershell_exploit_scripts.yml) | `title: Malicious PowerShell Commandlet Names` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_exploit_scripts.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_powershell_exploit_scripts.yml) | `description: Detects the creation of known powershell scripts for exploitation` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_exploit_scripts.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_powershell_exploit_scripts.yml) | `    - https://raw.githubusercontent.com/Neo23x0/sigma/f35c50049fa896dff91ff545cb199319172701e8/rules/windows/powershell/powershell_malicious_commandlets.yml` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_adsi_cache_usage.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_susp_adsi_cache_usage.yml) | `            - 'C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_adsi_cache_usage.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_susp_adsi_cache_usage.yml) | `    - Other legimate tools, which do ADSI (LDAP) operations, e.g. any remoting activity by MMC, Powershell, Windows etc.` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `title: In-memory PowerShell` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `description: Detects loading of essential DLL used by PowerShell, but not by the process powershell.exe. Detects meterpreter's "load powershell" extension.` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `            - '\powershell.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `       # User: 'NT AUTHORITY\SYSTEM'   # if set, matches all powershell processes not launched by SYSTEM` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_execution_moduleload.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_powershell_execution_moduleload.yml) | `title: PowerShell Execution` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_execution_moduleload.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_powershell_execution_moduleload.yml) | `description: Detects execution of PowerShell` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_dbghelp_dbgcore_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml) | `            - '\powershell.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_winword_wmidll_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_winword_wmidll_load.yml) | `    - https://www.carbonblack.com/2019/04/24/cb-tau-threat-intelligence-notification-emotet-utilizing-wmi-to-launch-powershell-encoded-code/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_powershell_network_connection.yml) | `title: PowerShell Network Connections` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_powershell_network_connection.yml) | `description: Detects a Powershell process that opens network connections - check for suspicious target ports and target systems - adjust to your environment (e.g.` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_powershell_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_powershell_network_connection.yml) | `        Image: '*\powershell.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_remote_powershell_session_network.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_remote_powershell_session_network.yml) | `title: Remote PowerShell Session` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_remote_powershell_session_network.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_remote_powershell_session_network.yml) | `description: Detects remote PowerShell connections by monitoring network outbount connections to ports 5985 or 5986 from not network service account` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_remote_powershell_session_network.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_remote_powershell_session_network.yml) | `    - Leigitmate usage of remote PowerShell, e.g. remote administration and monitoring.` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [powershell_alternate_powershell_hosts.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_alternate_powershell_hosts.yml) | `title: Alternate PowerShell Hosts` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [powershell_alternate_powershell_hosts.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_alternate_powershell_hosts.yml) | `description: Detects alternate PowerShell hosts potentially bypassing detections looking for powershell.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [powershell_alternate_powershell_hosts.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_alternate_powershell_hosts.yml) | `    service: powershell` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
@@ -891,7 +913,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1069.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.002/T1069.002.md) | Permission Groups Discovery utilizing PowerShell. This test will display some errors if run on a computer not connected to a domain. Upon execution, domain | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1069.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.002/T1069.002.md) | #### Attack Commands: Run with `powershell`!  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1069.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.002/T1069.002.md) | ```powershell | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1069.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.002/T1069.002.md) | Requires the Active Directory module for powershell to be installed | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1069.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.002/T1069.002.md) | #### Dependencies:  Run with `powershell`! | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1069.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.002/T1069.002.md) | ##### Description: Requires the Active Directory module for powershell to be installed. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1071.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md) | - [Atomic Test #1 - Malicious User Agents - Powershell](#atomic-test-1---malicious-user-agents---powershell) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1071.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md) | ## Atomic Test #1 - Malicious User Agents - Powershell | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1071.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md) | #### Attack Commands: Run with `powershell`!  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -1253,7 +1276,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1569.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md) | #### Dependencies:  Run with `powershell`! | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1571.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md) | - [Atomic Test #1 - Testing usage of uncommonly used port with PowerShell](#atomic-test-1---testing-usage-of-uncommonly-used-port-with-powershell) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1571.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md) | ## Atomic Test #1 - Testing usage of uncommonly used port with PowerShell | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1571.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md) | Testing uncommonly used port utilizing PowerShell. APT33 has been known to attempt telnet over port 8081. Upon exectuion, details about the successful | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1571.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md) | Testing uncommonly used port utilizing PowerShell. APT33 has been known to attempt telnet over port 8081. Upon execution, details about the successful | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1571.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md) | #### Attack Commands: Run with `powershell`!  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1571.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md) | ```powershell | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1573.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573/T1573.md) | Upon successful execution, powershell will make a network connection to 127.0.0.1 over 443. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -1285,57 +1308,55 @@ Source | Source File | Example | License
 
 Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. Built on the .NET Framework, Windows PowerShell helps IT professionals and power users control and automate the administration of the Windows operating system and applications that run on Windows.
 
-The **PowerShell.exe** command-line tool starts a Windows PowerShell session in a Command Prompt window. When you use **PowerShell.exe**, you can use its optional parameters to customize the session. For example, you can start a session that uses a particular execution policy or one that excludes a Windows PowerShell profile. Otherwise, the session is the same as any session that is started in the Windows PowerShell console.
-
 ### Using PowerShell.exe
 
-You can use the **PowerShell.exe** command-line tool to start a Windows PowerShell session in a Command Prompt window.
+The **PowerShell.exe** command-line tool starts a Windows PowerShell session in a Command Prompt window. When you use **PowerShell.exe**, you can use its optional parameters to customize the session. For example, you can start a session that uses a particular execution policy or one that excludes a Windows PowerShell profile. Otherwise, the session is the same as any session that is started in the Windows PowerShell console.
 
-- To start a Windows PowerShell session in a command prompt window, type `PowerShell`. A **PS** prefix is added to the command prompt to indicate that you are in a Windows PowerShell session.
+- To start a Windows PowerShell session in a Command Prompt window, type `PowerShell`. A **PS** prefix is added to the command prompt to indicate that you are in a Windows PowerShell session.
 
-- To start a session with a particular execution policy, use the **ExecutionPolicy** parameter.
+- To start a session with a particular execution policy, use the **ExecutionPolicy** parameter, and type:
 
-    ```
+    ```powershell
     PowerShell.exe -ExecutionPolicy Restricted
     ```
 
-- To start a Windows PowerShell session without your Windows PowerShell profiles, use the **NoProfile** parameter.
+- To start a Windows PowerShell session without your Windows PowerShell profiles, use the **NoProfile** parameter, and type:
 
-    ```
+    ```powershell
     PowerShell.exe -NoProfile
     ```
 
-- To start a session , use the **ExecutionPolicy** parameter.
+- To start a session , use the **ExecutionPolicy** parameter, and type:
 
-    ```
+    ```powershell
     PowerShell.exe -ExecutionPolicy Restricted
     ```
 
-- To see the PowerShell.exe help file, use the following command format.
+- To see the PowerShell.exe help file, type:
 
-    ```
-    PowerShell.exe -help, -?, /?
+    ```powershell
+    PowerShell.exe -help
+    PowerShell.exe -?
+    PowerShell.exe /?
     ```
 
 - To end a Windows PowerShell session in a Command Prompt window, type `exit`. The typical command prompt returns.
 
-For a complete list of the **PowerShell.exe** command-line parameters, see [about_PowerShell.Exe](https://go.microsoft.com/fwlink/?LinkID=113439).
+#### Remarks
 
-### Other Ways to Start Windows PowerShell
+- For a complete list of the **PowerShell.exe** command-line parameters, see [about_PowerShell.Exe](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_powershell_exe).
 
-For information about other ways to start Windows PowerShell, see [Starting Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=135259).
+- For information about other ways to start Windows PowerShell, see [Starting Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/starting-windows-powershell).
 
-### Remarks
-
-Windows PowerShell runs on the Server Core installation option of Windows Server operating systems. However, features that require a graphic user interface, such as the [Windows PowerShell Integrated Scripting Environment (ISE)](https://technet.microsoft.com/library/hh849182), and the [Out-GridView](https://go.microsoft.com/fwlink/?LinkID=113364) and [Show-Command](https://go.microsoft.com/fwlink/?LinkID=217448) cmdlets, do not run on Server Core installations.
+- Windows PowerShell runs on the Server Core installation option of Windows Server operating systems. However, features that require a graphic user interface, such as the [Windows PowerShell Integrated Scripting Environment (ISE)](https://docs.microsoft.com/previous-versions//hh849182(v=technet.10)), and the [Out-GridView](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/out-gridview) and [Show-Command](https://docs.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/Show-Command) cmdlets, don't run on Server Core installations.
 
 ### Additional References
 
-[about_PowerShell.Exe](https://go.microsoft.com/fwlink/?LinkID=113439)
-[about_PowerShell_Ise.exe](https://go.microsoft.com/fwlink/?LinkId=256512)
-[Windows PowerShell](https://go.microsoft.com/fwlink/?LinkID=107116)
-[Scripting with Windows PowerShell](https://technet.microsoft.com/scriptcenter/dd742419)
-See Also
+- [about_PowerShell.Exe](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_powershell_exe)
+
+- [about_PowerShell_Ise.exe](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_powershell_ise_exe)
+
+- [Windows PowerShell](https://docs.microsoft.com/powershell/)
 
 ---
 

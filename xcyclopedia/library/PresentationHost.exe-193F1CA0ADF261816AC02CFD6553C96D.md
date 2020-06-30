@@ -1,0 +1,82 @@
+﻿---
+title: PresentationHost.exe | Windows Presentation Foundation Host
+---
+
+# PresentationHost.exe 
+
+* File Path: `C:\Windows\system32\PresentationHost.exe`
+* Description: Windows Presentation Foundation Host
+* Comments: Flavor=Retail
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `193F1CA0ADF261816AC02CFD6553C96D`
+SHA1 | `1A53BBECD49F42F4B919241E5C0F8F4DA55807CE`
+SHA256 | `6A51D20B0D5E3889A5BF168BF6C9A81AE50CCF74C5349547146F11C6016A87DB`
+SHA384 | `6896012A88A39FA5E822B0EC126FBE2BB44BBD385557F0D09344250BAC1418BB787B6D056CEFF347E24F67E151453550`
+SHA512 | `EF778890C769FAC09B770902FC6D1F03417105BF947E3FA96A06287F9866D585A5C1F008756B4E3B0C707C4A13893F02C51A199012CA0882CBB934808512AA96`
+SSDEEP | `6144:aM9Qd26/6a7xX2LOgh5KNXwy3Odjp19k5KNXf:z9QA6/rGikKVwy3OdLaKV`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+iexplore.exe
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: PresentationHost.exe.mui
+* Product Name: Microsoft .NET Framework
+* Company Name: Microsoft Corporation
+* File Version: 4.0.41210.0 built by: Main
+* Product Version: 4.0.41210.0
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation.  All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PresentationHost.exe](PresentationHost.exe-3DD3F827425D39663544135A427CEC92.md) | 63
+[C:\WINDOWS\system32\PresentationHost.exe](PresentationHost.exe-49FA711824925D5FA0286A7FDE8C1821.md) | 60
+[C:\Windows\system32\PresentationHost.exe](PresentationHost.exe-EF27D65B92D89E8175E6751A57ED9D93.md) | 54
+[C:\Windows\SysWOW64\PresentationHost.exe](PresentationHost.exe-7DB413989BDDFD23AF251B26FC9F6055.md) | 68
+[C:\WINDOWS\SysWOW64\PresentationHost.exe](PresentationHost.exe-A1204EFC65BFBF5198A23CB21E1C0562.md) | 66
+[C:\Windows\SysWOW64\PresentationHost.exe](PresentationHost.exe-B73ECB016B35D5B7ACB91125924525E5.md) | 68
+[C:\Windows\SysWOW64\PresentationHost.exe](PresentationHost.exe-C6671F8B9F073785FD617661AD1F1C45.md) | 65
+
+## Possible Misuse
+
+*The following table contains possible examples of `PresentationHost.exe` being misused. While `PresentationHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Presentationhost.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Presentationhost.yml) | `Name: Presentationhost.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Presentationhost.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Presentationhost.yml) | `  - Command: Presentationhost.exe C:\temp\Evil.xbap` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Presentationhost.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Presentationhost.yml) | `  - Path: C:\Windows\System32\Presentationhost.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Presentationhost.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Presentationhost.yml) | `  - Path: C:\Windows\SysWOW64\Presentationhost.exe` | 
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

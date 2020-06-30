@@ -56,7 +56,9 @@ SSDEEP | `6144:ZIT4UtEKMwWGFCysoCJAVcD8LPhSiWofQr2k5l8BmMxowi/EH1g:ZAVEwrcD8pell
 
 File | Score
 -- | --
+[C:\Windows\system32\psr.exe](psr.exe-402F1EFF59C025CF3BB134B27CB1E729.md) | 65
 [C:\Windows\system32\psr.exe](psr.exe-93F9974E3ED1946C71D823925F6AC60E.md) | 60
+[C:\Windows\SysWOW64\psr.exe](psr.exe-A1B3839290C9485182436E2D2B12A644.md) | 71
 
 ## Possible Misuse
 

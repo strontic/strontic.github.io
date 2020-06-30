@@ -52,6 +52,11 @@ SSDEEP | `768:TzqDycebzSCWpCn+BVhKR/05BWLtkg4V9PnrcB9GZD4Yjg:3qPrdBGRYBWLeg4V9Pr
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\credwiz.exe](credwiz.exe-5944AD75821F321AFEFCB8C027A5F00F.md) | 58
 
 
 

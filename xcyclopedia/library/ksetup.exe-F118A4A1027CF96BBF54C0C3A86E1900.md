@@ -108,6 +108,11 @@ USAGE:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ksetup.exe](ksetup.exe-65DDBDDC57FAF9C526E467C6039BF3B4.md) | 68
 
 
 ## Additional Info*

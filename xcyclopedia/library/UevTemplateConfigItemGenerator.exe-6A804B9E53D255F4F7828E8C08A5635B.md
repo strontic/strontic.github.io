@@ -56,6 +56,7 @@ conhost.exe
 
 File | Score
 -- | --
+[C:\Windows\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-45FB133A09574504B7548E74E3A27992.md) | 72
 [C:\Windows\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-57C26AF3682374941B185A50C4DBFA8A.md) | 72
 [C:\WINDOWS\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-CAD9DF722BCCEED4CCA888650FCB2F80.md) | 71
 

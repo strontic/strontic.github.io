@@ -37,8 +37,8 @@ SSDEEP | `384:m3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:QwIA7Q7tDUAdnemQVSfg`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000000BCE120FDD27CC8EE930000000000BC`
-* Thumbprint: `E85459B23C232DB3CB94C7A56D47678F58E8E51E`
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

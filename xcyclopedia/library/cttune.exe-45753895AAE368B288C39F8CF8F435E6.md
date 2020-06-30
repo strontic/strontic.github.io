@@ -56,7 +56,9 @@ SSDEEP | `3072:DEdvm8MbSFdDRjBsFvJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUMl:DE5m8MbSFd
 
 File | Score
 -- | --
+[C:\Windows\system32\cttune.exe](cttune.exe-7573E129035AA191B752FAB5BED546AF.md) | 63
 [C:\Windows\system32\cttune.exe](cttune.exe-CCD6BF7BE1F0944A59F2BDC788FE24D5.md) | 69
+[C:\Windows\SysWOW64\cttune.exe](cttune.exe-B3D58D03EF76001519914F49DF180DA5.md) | 71
 
 
 

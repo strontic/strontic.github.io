@@ -52,6 +52,11 @@ SSDEEP | `192:Iry5FafCNQdQ54KRU7asy+HMqKlsgi6MtU/w80WWxW:vujS2KG7R9gihtX80WWxW`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\regedt32.exe](regedt32.exe-21A5E8E802DE750575AE1FE9EB4CCBFA.md) | 60
 
 
 

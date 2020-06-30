@@ -74,6 +74,11 @@ EXTRACT [/Y] /C source destination
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\extrac32.exe](extrac32.exe-8D6D545BA6D9BA01A18D52A28BDAC15A.md) | 43
 
 ## Possible Misuse
 

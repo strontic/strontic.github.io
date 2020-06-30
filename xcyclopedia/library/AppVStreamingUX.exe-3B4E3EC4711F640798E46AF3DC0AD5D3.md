@@ -56,6 +56,7 @@ SSDEEP | `3072:kyIen7ExTWZTSddxYkEmIjr+pjMqVVdmabWcONiHNp6ei/EzbHMqVVdmabWcONil:
 
 File | Score
 -- | --
+[C:\Windows\system32\AppV\AppVStreamingUX.exe](AppVStreamingUX.exe-17028EE25ADAF871E45BAB091C93554E.md) | 94
 [C:\Windows\system32\AppV\AppVStreamingUX.exe](AppVStreamingUX.exe-C40113C178B800D5B422462D56A5CEFE.md) | 90
 [C:\Windows\system32\AppVStreamingUX.exe](AppVStreamingUX.exe-71F4D0AC9EB0985E1F01EB8FAFFE7220.md) | 69
 

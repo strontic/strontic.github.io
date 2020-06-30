@@ -52,6 +52,11 @@ SSDEEP | `192:RaDyeCriNmhqU8TDg9uLDEhNhwSTZbVEv19GUGACk0G+WYSW:REGuyq9fyuHEhx0PG
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SystemResetPlatform\SystemResetPlatform.exe](SystemResetPlatform.exe-C690F0C2909BA39276AE43C5F012FBB5.md) | 57
 
 
 

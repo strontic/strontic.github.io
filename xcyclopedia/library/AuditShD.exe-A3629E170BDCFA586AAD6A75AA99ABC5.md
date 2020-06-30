@@ -56,6 +56,7 @@ SSDEEP | `384:6OjquxO7jRcrWUmZgni0gAk5zdH9XGEmBwxQtZe7rs+xfQOrR3fpgHuWGfErn0o4:6
 
 File | Score
 -- | --
+[C:\Windows\system32\oobe\AuditShD.exe](AuditShD.exe-2404E60A42629FD1242DE3EE440C9AB0.md) | 38
 [C:\WINDOWS\system32\oobe\AuditShD.exe](AuditShD.exe-DE7377FF4091FC438529F5A96001F17C.md) | 36
 
 

@@ -56,6 +56,7 @@ SSDEEP | `6144:yQkCRcNHLceEUQkAtEKbRsknK+zhQXJgzBU4GfFSc:yQkCONHLtEU6KtYagc`
 
 File | Score
 -- | --
+[C:\Windows\system32\oobe\Setup.exe](Setup.exe-0B67469C1455F18FF86E3B61A608C24F.md) | 44
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-872B6BC9730A7D94E91A38E3AA6DFDEE.md) | 41
 [C:\WINDOWS\system32\oobe\Setup.exe](Setup.exe-D222AF09281E310AC09D3B455D2EABEB.md) | 46
 

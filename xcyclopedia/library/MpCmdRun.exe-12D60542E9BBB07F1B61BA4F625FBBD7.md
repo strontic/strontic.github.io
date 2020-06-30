@@ -4,7 +4,7 @@ title: MpCmdRun.exe | Microsoft Malware Protection Command Line Utility
 
 # MpCmdRun.exe 
 
-* File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MpCmdRun.exe`
+* File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\MpCmdRun.exe`
 * Description: Microsoft Malware Protection Command Line Utility
 * Comments: 
 

@@ -56,6 +56,7 @@ SSDEEP | `12288:PQGXMy8IkciS00hDrydajNts6T8doqyKJjmReMNOtNQWggQVqtDx2/D6yfndmLh:
 
 File | Score
 -- | --
+[C:\Windows\system32\lpksetup.exe](lpksetup.exe-56CCA7441E152D0B0F7F2383521536A2.md) | 29
 [C:\Windows\system32\lpksetup.exe](lpksetup.exe-77BA86BC95DD19D9C6B0BD4E5E94E823.md) | 30
 [C:\WINDOWS\system32\lpksetup.exe](lpksetup.exe-80F788A37119968744991496358163CE.md) | 30
 

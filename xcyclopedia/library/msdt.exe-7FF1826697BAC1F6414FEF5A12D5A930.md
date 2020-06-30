@@ -56,7 +56,9 @@ SSDEEP | `24576:bRec0WsSAbN0OBBJ6XH4qvIReK1odddGdBnyE0k26kVZnBm3:b+dqNK7utRB2`
 
 File | Score
 -- | --
+[C:\Windows\system32\msdt.exe](msdt.exe-728A1A72370AF1A7641650FD43DB7DBE.md) | 74
 [C:\Windows\system32\msdt.exe](msdt.exe-BB98CE2BD520AC69CB3D2F830974CABE.md) | 72
+[C:\Windows\SysWOW64\msdt.exe](msdt.exe-4EBC38519675FB0BA6915D0D8A7FCD01.md) | 69
 
 ## Possible Misuse
 

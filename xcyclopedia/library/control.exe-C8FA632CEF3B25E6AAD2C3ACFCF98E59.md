@@ -57,8 +57,10 @@ SSDEEP | `1536:61uTV4Ny6e/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:2DY67Sp5+1k
 File | Score
 -- | --
 [C:\WINDOWS\system32\control.exe](control.exe-62D970D8B60F75C12D21C740F2D8A5DA.md) | 83
+[C:\Windows\system32\control.exe](control.exe-88EA810385F455C74306D71C4879C61C.md) | 83
 [C:\Windows\system32\control.exe](control.exe-924219B426830FF7476AF7D22AE91DE1.md) | 80
 [C:\Windows\system32\control.exe](control.exe-D7D596CA323E67AAE7F8752BD9B45A1E.md) | 86
+[C:\Windows\SysWOW64\control.exe](control.exe-1F13E714A0FEA8887707DFF49287996F.md) | 86
 [C:\Windows\SysWOW64\control.exe](control.exe-359DE40504BF90EFD590C248B71C8B81.md) | 85
 [C:\WINDOWS\SysWOW64\control.exe](control.exe-C7C91F18B0F90ABE6C09D3CEAA895E83.md) | 88
 

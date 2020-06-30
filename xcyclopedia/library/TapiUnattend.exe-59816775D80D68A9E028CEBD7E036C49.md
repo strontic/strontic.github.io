@@ -56,6 +56,7 @@ SSDEEP | `192:5qeadkYPdilaGPwrndYV9WJ2VNF7PUWjrD50pHMhLVtmYGmW/LUWh+:58vPUYWkzJ2
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-1ABCB8B7EFA840DC7C998AA57FA7B563.md) | 60
 [C:\Windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-56096EC9DE2590DA5ADB369750AEE322.md) | 50
 [C:\Windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-D5BFFD755F566AAACB57CF83FDAA5CD0.md) | 52
 

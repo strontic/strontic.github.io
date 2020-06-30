@@ -56,6 +56,7 @@ SSDEEP | `192:2dUXQZn7olGDNW6XIgKssGpwgf3V7oeSMNNrgtm9p5kAWVnWU9SDe:2rJWhgK0plfl
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\fixmapi.exe](fixmapi.exe-3174ECF9B3C9AC16DDF77BAB13DA6D27.md) | 49
 [C:\Windows\SysWOW64\fixmapi.exe](fixmapi.exe-C7385E6E8E1E437E4FBED1DCADB150E9.md) | 54
 
 

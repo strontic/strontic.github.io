@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-49338D141DD60CA212D85F60521FB1DF.md) | 49
 [C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.md) | 54
+[C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-A0B66B648C645B6B2A982C9414153437.md) | 33
 
 ## Possible Misuse
 

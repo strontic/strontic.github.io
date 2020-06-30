@@ -61,6 +61,11 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\chgport.exe](chgport.exe-7FF1E566408BB6AA60401DFB0A8CCAB9.md) | 74
 
 
 ## Additional Info*

@@ -1,0 +1,142 @@
+﻿---
+title: label.exe | Disk Label Utility
+---
+
+# label.exe 
+
+* File Path: `C:\Windows\SysWOW64\label.exe`
+* Description: Disk Label Utility
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `F05BF97ABF40E4D6620C44C02F93DA67`
+SHA1 | `2BAE11E3A9B67B3692D55D4481BB2640101537A5`
+SHA256 | `332FA83BDC982AB5A509EFF6FDAC3161034BF55B32B7F7DC3C7551FE3A6A0CBC`
+SHA384 | `5C029D1925A7645E96F86576D219DFD7FE0FBA0D7D951E3F0915621F7E25A761B2FFC8EC3AA6C6BB50BFB436877E786F`
+SHA512 | `5CE47F545883B4BAE5DC2E3090B39753A21862AB3C505B1CA8F42BB04F7686DAB790939FC528C2ECA37B46AE6393E74DD85B40037F02390FF30A7A19049EFD67`
+SSDEEP | `192:ukoZDUEfi8wI0THvYBB+vhCl4EIC2SDp9td5kdtm1kgWStjWxoNNezd1O:WZgrIVUhCl2C2gPANgWStjWxoOzd`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+Creates, changes, or deletes the volume label of a disk.
+
+LABEL [drive:][label]
+LABEL [/MP] [volume] [label]
+
+  drive:          Specifies the drive letter of a drive.
+  label           Specifies the label of the volume.
+  /MP             Specifies that the volume should be treated as a
+                  mount point or volume name.
+  volume          Specifies the drive letter (followed by a colon),
+                  mount point, or volume name.  If volume name is specified,
+                  the /MP flag is unnecessary.
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: Label.Exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## label
+
+Creates, changes, or deletes the volume label (that is, the name) of a disk. If used without parameters, the **label** command changes the current volume label or deletes the existing label.
+
+### Syntax
+
+```
+label [/mp] [<volume>] [<label>]
+```
+
+#### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| /mp | Specifies that the volume should be treated as a mount point or volume name. |
+| `<volume>` | Specifies a drive letter (followed by a colon), mount point, or volume name. If a volume name is specified, the **/mp** parameter is unnecessary. |
+| `<label>` | Specifies the label for the volume. |
+| /? | Displays help at the command prompt. |
+
+### Remarks
+
+- Windows displays the volume label and serial number (if it has one) as part of the directory listing.
+
+- An NTFS volume label can be up to 32 characters in length, including spaces. NTFS volume labels retain and display the case that was used when the label was created.
+
+### Examples
+
+To label a disk in drive A that contains sales information for July, type:
+
+```
+label a:sales-july
+```
+
+To view and delete the current label for drive C, follow these steps:
+
+1. At the command prompt, type:
+
+   ```
+   label
+   ```
+
+   Output similar to the following should be displayed:
+
+   ```
+   Volume in drive C: is Main Disk
+   Volume Serial Number is 6789-ABCD
+   Volume label (32 characters, ENTER for none)?
+   ```
+
+2. Press ENTER. The following prompt should be displayed:
+
+   ```
+   Delete current volume label (Y/N)?
+   ```
+
+3. Press **Y** to delete the current label, or **N** if you want to keep the existing label.
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

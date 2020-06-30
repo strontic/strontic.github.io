@@ -52,6 +52,11 @@ SSDEEP | `12288:DV+9MjWE/1SK7shykIInOfurtNhnZ1n124pbqE5TPMjo91QDmvGy3klEl46h2Bb:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\RMActivate_isv.exe](RMActivate_isv.exe-572D9CEE80416DBDAB2D3BC3FEB6A4F2.md) | 35
 
 
 

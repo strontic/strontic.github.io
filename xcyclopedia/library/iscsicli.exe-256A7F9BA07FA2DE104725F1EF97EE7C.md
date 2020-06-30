@@ -245,6 +245,8 @@ The operation completed successfully.
 File | Score
 -- | --
 [C:\Windows\system32\iscsicli.exe](iscsicli.exe-5D9CE9006FDE6D04DF8A589897844D4E.md) | 68
+[C:\Windows\system32\iscsicli.exe](iscsicli.exe-DDD4ADBFC4B3C951084CB5F59D46E7C3.md) | 65
+[C:\Windows\SysWOW64\iscsicli.exe](iscsicli.exe-8E8F391704E2A0E15B67740BC79B7B38.md) | 60
 
 
 

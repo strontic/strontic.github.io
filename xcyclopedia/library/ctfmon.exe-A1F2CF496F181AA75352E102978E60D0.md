@@ -52,6 +52,11 @@ SSDEEP | `192:EQJ1V2Llzc5pjq0N3h37iJ47cq6D7JiFC8WAgW:PHKlQXqw3h3mKAqgYvWAgW`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ctfmon.exe](ctfmon.exe-AFE653CCC2592633C22DD5DA4124AB59.md) | 60
 
 ## Possible Misuse
 

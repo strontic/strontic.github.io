@@ -52,6 +52,11 @@ SSDEEP | `12288:CM1NnWpAJfOGFpRTLVvFbpi8q+MnN0SN8JklYQ2Q9ncfG3LaLpLbLvL4LHKLAL1M
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WWAHost.exe](WWAHost.exe-F981C29A73292182380F3E1797C7087B.md) | 32
 
 
 

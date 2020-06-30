@@ -52,6 +52,11 @@ SSDEEP | `192:u15PydQJai6viLbtI4oNCCavM3EjsWcuMBHd4qigoXaRDTmW/7W:uzydQJm6L5qChv
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RemotePosWorker.exe](RemotePosWorker.exe-CA8CBA4456A18263425CBF7EF23F71D5.md) | 66
 
 
 

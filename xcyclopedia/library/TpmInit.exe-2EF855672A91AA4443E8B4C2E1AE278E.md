@@ -56,10 +56,12 @@ SSDEEP | `1536:TcI7HDs/dfHDh6XcnkYXFT70JLNuuGiceY0lA3CJHkxUM:T+/dfHQXcnV+JLNNPYf
 
 File | Score
 -- | --
+[C:\Windows\system32\TpmInit.exe](TpmInit.exe-578EF2B7D0C63504C39DD1BF3CADB2A8.md) | 52
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F.md) | 47
 [C:\WINDOWS\system32\TpmInit.exe](TpmInit.exe-C601DD6B0449412E9BC6903B9AEBAA5B.md) | 57
 [C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 47
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-22A202B729CB70DF605D7E81D77B9B41.md) | 54
+[C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-23E73EAD4C5304744E76E8ECE21273BC.md) | 52
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-BD19D000F87EA4CD0DEC6203207E9D03.md) | 41
 
 ## Possible Misuse

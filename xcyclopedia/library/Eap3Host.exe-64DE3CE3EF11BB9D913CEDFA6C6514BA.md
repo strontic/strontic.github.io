@@ -52,6 +52,11 @@ SSDEEP | `384:jVnmTTtoIYU0NLVPCoY1wZaicJoT60ltO84Ra5WzaW:aTt70NQp1wZrcJ3iO84Raq`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Eap3Host.exe](Eap3Host.exe-ECF9FA34803CBA8A3FC78E8BFB1C707E.md) | 58
 
 
 

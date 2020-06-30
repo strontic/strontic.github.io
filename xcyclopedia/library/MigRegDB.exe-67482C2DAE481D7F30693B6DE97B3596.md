@@ -52,6 +52,11 @@ SSDEEP | `192:4/mCGi9GIGRs6MsXMF0eKsxyTbKJIzHG7uUO4fWYwW:imC1YIGdbceeXysIrpr4fWY
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\com\MigRegDB.exe](MigRegDB.exe-4AFD76EEDFD38B370AC829BD567CF718.md) | 74
 
 
 

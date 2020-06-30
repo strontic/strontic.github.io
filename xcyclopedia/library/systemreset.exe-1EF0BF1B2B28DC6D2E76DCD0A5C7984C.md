@@ -56,6 +56,7 @@ SSDEEP | `6144:ADIrA4zB/KTXlvKv6/d9ECOHsWPiJ/9akwBqARoqd/yLV7KUIQGEEEsND0ZCYWhg:
 
 File | Score
 -- | --
+[C:\Windows\system32\systemreset.exe](systemreset.exe-3C00E9197B70F158351790D472993082.md) | 40
 [C:\Windows\system32\systemreset.exe](systemreset.exe-B6968ADCA12A5898AA2F89931B17995A.md) | 43
 [C:\WINDOWS\system32\systemreset.exe](systemreset.exe-E2A2C3A89981C9565F4F715EF4282E32.md) | 41
 

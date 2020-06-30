@@ -54,6 +54,11 @@ WSMan Generic Command ERROR: Error in parsing input
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-7C0A337D8666F226C8587B675326BBE1.md) | 40
 
 
 

@@ -64,6 +64,11 @@ USAGE:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rasdial.exe](rasdial.exe-92260053B3B48CFEC6113464C76235FD.md) | 47
 
 ## Possible Misuse
 

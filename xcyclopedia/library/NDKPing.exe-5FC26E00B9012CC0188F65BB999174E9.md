@@ -86,6 +86,7 @@ Usage Sample:
 File | Score
 -- | --
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 29
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 27
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 27
 [C:\Windows\system32\dllhost.exe](dllhost.exe-C6723950D1A8CD49D93C8D082B175D41.md) | 43
 [C:\WINDOWS\system32\NDKPing.exe](NDKPing.exe-E9AD6C80432ABCAF0F562FA3452C92F4.md) | 41

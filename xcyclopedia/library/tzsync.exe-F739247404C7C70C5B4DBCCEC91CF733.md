@@ -58,6 +58,11 @@ Unhandled Exception: System.Security.SecurityException: Requested registry acces
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\tzsync.exe](tzsync.exe-5BB8DEB569B92CAE95617286BD25ED99.md) | 54
 
 
 

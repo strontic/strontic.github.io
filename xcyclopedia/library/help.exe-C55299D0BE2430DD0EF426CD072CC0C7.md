@@ -57,6 +57,11 @@ HELP [command]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\help.exe](help.exe-BF60A4B7DC84EBFD9CA3A9C022BE1E32.md) | 43
 
 
 ## Additional Info*

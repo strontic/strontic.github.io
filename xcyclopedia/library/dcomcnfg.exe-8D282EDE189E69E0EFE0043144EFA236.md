@@ -52,6 +52,11 @@ mmc.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\dcomcnfg.exe](dcomcnfg.exe-CF23005187F904FC2B510E52B4EF5DD9.md) | 54
 
 
 

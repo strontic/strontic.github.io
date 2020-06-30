@@ -52,6 +52,11 @@ WWAHost.exe WerFault.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\WWAHost.exe](WWAHost.exe-776EE69BF2955CE384816C8BCCC02D41.md) | 75
 
 
 

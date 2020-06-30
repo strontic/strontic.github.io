@@ -57,9 +57,11 @@ SSDEEP | `768:EyYwyE6CQGFflfHWQiESLyXs+VsXgXm2NCYRGbSEln5IyYpamDjobj8Su8of:EyYtC
 File | Score
 -- | --
 [C:\Windows\system32\rundll32.exe](rundll32.exe-44B041922105E01BFD0D096123F7D312.md) | 41
+[C:\Windows\system32\rundll32.exe](rundll32.exe-C73BA51880F5A7FB20C84185A23212EF.md) | 43
 [C:\Windows\system32\rundll32.exe](rundll32.exe-C7645D43451C6D94D87F4D07BDE59C89.md) | 40
 [C:\WINDOWS\system32\rundll32.exe](rundll32.exe-F68AF942FD7CCC0E7BAB1A2335D2AD26.md) | 50
 [C:\Windows\SysWOW64\rundll32.exe](rundll32.exe-111474C61232202B5B588D2B512CBB25.md) | 43
+[C:\Windows\SysWOW64\rundll32.exe](rundll32.exe-2F633406BC9875AA48D6CC5884B70862.md) | 50
 [C:\WINDOWS\SysWOW64\rundll32.exe](rundll32.exe-D0432468FA4B7F66166C430E1334DBDA.md) | 50
 
 ## Possible Misuse
@@ -71,6 +73,12 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml) | `        # meterpreter getsystem technique 2: rundll32.exe C:\Users\test\AppData\Local\Temp\tmexsn.dll,a /p:tmexsn` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml) | `            - 'rundll32'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_user_driver_loaded.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_user_driver_loaded.yml) | `            - '*\Windows\System32\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `            - '*\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_mimikatz_inmemory_detection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_mimikatz_inmemory_detection.yml) | `        Image: 'C:\Windows\System32\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_dbghelp_dbgcore_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml) | `            - '\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_rundll32_net_connections.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_rundll32_net_connections.yml) | `title: Rundll32 Internet Connection` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_rundll32_net_connections.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_rundll32_net_connections.yml) | `description: Detects a rundll32 that communicates with public IP addresses` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_rundll32_net_connections.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_rundll32_net_connections.yml) | `        Image: '*\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_apt_equationgroup_dll_u_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_equationgroup_dll_u_load.yml) | `        Image: '*\rundll32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_apt_sofacy.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_sofacy.yml) | `            - 'rundll32.exe %APPDATA%\\*.dat",*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_apt_sofacy.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_sofacy.yml) | `            - 'rundll32.exe %APPDATA%\\*.dll",#1'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

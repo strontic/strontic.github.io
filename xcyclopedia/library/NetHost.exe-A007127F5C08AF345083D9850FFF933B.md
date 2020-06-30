@@ -52,6 +52,11 @@ SSDEEP | `192:Gjp7kelQmX+jyFYaJ+YYahY6GyoXkftWdVqW:oo6Xay+Oy0X5ftWdVqW`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\NetHost.exe](NetHost.exe-D7DDC0404F4F360DB6CE67130B176BD3.md) | 58
 
 
 

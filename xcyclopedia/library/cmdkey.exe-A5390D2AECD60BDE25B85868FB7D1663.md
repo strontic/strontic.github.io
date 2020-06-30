@@ -80,6 +80,11 @@ Examples:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\cmdkey.exe](cmdkey.exe-2C6DFF18B542601CC6EF0B64AEC48A95.md) | 66
 
 ## Possible Misuse
 

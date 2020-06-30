@@ -56,6 +56,9 @@ SSDEEP | `768:fAQHFNpqi4P1fhZzUkjmj+LINv7tWNp+2OEiZ+iaOjprTllDyVO1vTzwiEU7JWG8:f
 
 File | Score
 -- | --
+[C:\Windows\system32\CertEnrollCtrl.exe](CertEnrollCtrl.exe-021F0494762A3060149B29038373347B.md) | 43
+[C:\Windows\system32\expand.exe](expand.exe-7395D1ACEAC1FD7790DD59F12DFCDEFB.md) | 41
+[C:\Windows\system32\tzutil.exe](tzutil.exe-9DAABD70528904EA05C5605D2FC75717.md) | 33
 [C:\Windows\system32\tzutil.exe](tzutil.exe-F152E16FC4FE1EDF606D9DFAD92C5242.md) | 36
 
 

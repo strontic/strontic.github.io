@@ -1,0 +1,91 @@
+﻿---
+title: bdeunlock.exe | BitLocker Unlock
+---
+
+# bdeunlock.exe 
+
+* File Path: `C:\Windows\system32\bdeunlock.exe`
+* Description: BitLocker Unlock
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `23C71245731416DD69B78A64BDB8A230`
+SHA1 | `2798E3AF9D6E47B438C1C0FA4DDF5E31B18AD0F9`
+SHA256 | `939D06CAB2527EFCDC3AB98FC450452552AC99C45A312095AEFCBA6A2549D9DA`
+SHA384 | `D3FBA1EB89D7178BB01AC6CD19B9570FF0568E2AD5189515852897B0336F46C24613C0CAF54E1BA742FAB78683F445F2`
+SHA512 | `D426AE9FB16C0640ECA7FB0ED57FD5EB67DB974F74F5B3FD1A8E1C25BAE0F71E755415B483D8C189B539BF67052A4CAD9B510CE9E63D5BF9439267B00074FC4E`
+SSDEEP | `6144:VJa/PSfHXVXmW/L8UcU9dQJVEmuGPIoZBaSVs7nyatGt+SYFmW2F:Da/PSfHX9mXVbuWZ3H+S+m`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: BDEUNLOCK.EXE.MUI
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\baaupdate.exe](baaupdate.exe-124495DF347DBB3FE50CAF55B211CBD9.md) | 43
+[C:\WINDOWS\system32\baaupdate.exe](baaupdate.exe-1DE833E454562483BD0CD60D96B3CA0C.md) | 41
+[C:\Windows\system32\baaupdate.exe](baaupdate.exe-A5BCC0E852AC6B17F3D0E6C9F95E95D4.md) | 40
+[C:\Windows\system32\BdeHdCfg.exe](BdeHdCfg.exe-29B6905327F9571F99697BA8951F60D5.md) | 44
+[C:\WINDOWS\system32\BdeHdCfg.exe](BdeHdCfg.exe-49993078062CFCCFE5EE1ACCF47B1EAF.md) | 44
+[C:\Windows\system32\BdeHdCfg.exe](BdeHdCfg.exe-89D0572C9B53F34230C8514F6B11BD56.md) | 44
+[C:\Windows\system32\bdeunlock.exe](bdeunlock.exe-6DF8548ED3BA2DF3C682A5E342DA7BE4.md) | 43
+[C:\WINDOWS\system32\bdeunlock.exe](bdeunlock.exe-7EDA3DEC2AC9206D153AF752F20B4B92.md) | 46
+[C:\Windows\system32\BitLockerWizard.exe](BitLockerWizard.exe-1F7EC0D141821C5BB3B51C054E7CA8D4.md) | 40
+[C:\WINDOWS\system32\BitLockerWizard.exe](BitLockerWizard.exe-6B919B72E58391B39A09EE388FA89BBB.md) | 43
+[C:\Windows\system32\BitLockerWizard.exe](BitLockerWizard.exe-A9C78F189E2111734F7E961EBE38188A.md) | 43
+[C:\Windows\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-46A96812D5A434C3794F06DB978D0C19.md) | 40
+[C:\Windows\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-68A4D7474F142060F46C37BCE45FABFE.md) | 46
+[C:\WINDOWS\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-7B6ADCD4165DE7732C61E2381D69BEA3.md) | 43
+[C:\Windows\system32\fvenotify.exe](fvenotify.exe-1DDE0327CAF5309EC597B21726028153.md) | 46
+[C:\WINDOWS\system32\fvenotify.exe](fvenotify.exe-D7B50B5843EFD63DBAAE341B8E70856D.md) | 43
+[C:\Windows\system32\fvenotify.exe](fvenotify.exe-EE3C814D1035CDCDF48E232742D6FA43.md) | 38
+[C:\WINDOWS\system32\fveprompt.exe](fveprompt.exe-1B9EC98C9542EF45D511E3D003E00369.md) | 47
+[C:\Windows\system32\fveprompt.exe](fveprompt.exe-1FDC5C40B2DE4167895EFFCAB0854C0C.md) | 44
+[C:\Windows\system32\fveprompt.exe](fveprompt.exe-57935115ADFEC73AB98655EEA54DF706.md) | 43
+[C:\WINDOWS\system32\manage-bde.exe](manage-bde.exe-146C56E1598A4F568B6F0342A485DD84.md) | 44
+[C:\Windows\system32\manage-bde.exe](manage-bde.exe-84021D418863A3E530D2E3F65F5D154C.md) | 40
+[C:\Windows\system32\manage-bde.exe](manage-bde.exe-D44D57F5AAF9D5FD64EFC00C4761C304.md) | 41
+[C:\Windows\system32\repair-bde.exe](repair-bde.exe-0858920D41400F8C585AFE31B80FF884.md) | 47
+[C:\WINDOWS\system32\repair-bde.exe](repair-bde.exe-7DE31602235A9B4A6C1EBCFB6E6E30E2.md) | 41
+[C:\Windows\system32\repair-bde.exe](repair-bde.exe-9FA5C71841FDE30C7D62CC95E5389E6A.md) | 44
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

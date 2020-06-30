@@ -1,0 +1,61 @@
+﻿---
+title: Windows.WARP.JITService.exe | 
+---
+
+# Windows.WARP.JITService.exe 
+
+* File Path: `C:\Windows\SysWOW64\Windows.WARP.JITService.exe`
+* Description: 
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `F624D56D38A171191622EE186FA2B89F`
+SHA1 | `26A7ADBC043E67AD5ECF7AFB6221CCF562A81E84`
+SHA256 | `81B5BBAA76411A13187E12D7A4D7671A3479E328ED525C45583D856AB709C506`
+SHA384 | `DD93EA33A581A1559D527C3D17DA6F0E88EDC488D8D8A49D81E6BCB6FAB6A667E0E7E7334327A8D1BF32A84C919A6BC5`
+SHA512 | `DBD548E3B65D6506B620100A3E66DCAA87A39F6B8BDB255E7174332A6E8F1C78743A01167E737A8E7F659120D3FD4F6C269A9A214AA3D448AA991DE73B661CB4`
+SSDEEP | `768:d1ueFgasxVGOc4bya7sS2l1idxFEf3j7:dQ4sxVca7mLWxF6P`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+Windows.WARP.JITService.exe WerFault.exe
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -56,6 +56,7 @@ SSDEEP | `192:RZJX2saUpBw15IDs0sCJdvnJhJ4T1S+OGDrsa1q18oDDoGed1mDSWllW:jjy3u5Jdv
 
 File | Score
 -- | --
+[C:\Windows\system32\Locator.exe](Locator.exe-A0DD6042F7734F61D55D6A62D60FE498.md) | 66
 [C:\Windows\system32\Locator.exe](Locator.exe-D45676C47616B9ABBFAEC97DD3B240A8.md) | 43
 
 ## Possible Misuse

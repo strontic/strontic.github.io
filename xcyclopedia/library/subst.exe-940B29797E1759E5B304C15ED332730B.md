@@ -63,6 +63,11 @@ Type SUBST with no parameters to display a list of current virtual drives.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\subst.exe](subst.exe-1CD4F787762A6A3688F02A346F6D5178.md) | 47
 
 
 ## Additional Info*

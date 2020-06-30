@@ -52,6 +52,11 @@ SSDEEP | `192:WqMu21Wg6MyBF8TPJ9vXsDFWRLsCoad6V6WvQWGGoW:7MpYg26vX+WRQD8WvQWGGoW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\tcmsetup.exe](tcmsetup.exe-8EC5D3BE26A23B88DF4DE0CC17931777.md) | 44
 
 
 ## Additional Info*

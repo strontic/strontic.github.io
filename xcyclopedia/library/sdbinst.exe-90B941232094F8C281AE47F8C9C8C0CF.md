@@ -52,6 +52,11 @@ SSDEEP | `384:2ehy/EpSJ0b9o0a24wdJVIGxif3+cox1IuOQVsYmsPDERzWNgWD:2e/VbXa24oIAoy
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\sdbinst.exe](sdbinst.exe-9A081E86E9FF0AA957EDA8E8D0624BAC.md) | 40
 
 ## Possible Misuse
 

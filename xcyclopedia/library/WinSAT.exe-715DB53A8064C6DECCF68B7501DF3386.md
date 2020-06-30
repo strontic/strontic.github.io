@@ -196,6 +196,7 @@ Error: Unable to run inside of a Virtual Machine.  Please try again running dire
 File | Score
 -- | --
 [C:\Windows\system32\WinSAT.exe](WinSAT.exe-6654FC269DF21AA165842E479678A94B.md) | 49
+[C:\Windows\system32\WinSAT.exe](WinSAT.exe-D21AA5C451C43D15B2BA3611F57F2321.md) | 54
 [C:\WINDOWS\system32\WinSAT.exe](WinSAT.exe-ED2505CC79AB0C0008E1A23A731D9107.md) | 47
 
 

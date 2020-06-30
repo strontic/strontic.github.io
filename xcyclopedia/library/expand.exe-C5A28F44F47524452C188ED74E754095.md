@@ -60,7 +60,10 @@ No destination specified for: help.
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-56808A6D43D550A1999E1D729BE77C0F.md) | 32
 [C:\Windows\SysWOW64\CertEnrollCtrl.exe](CertEnrollCtrl.exe-E24D3DC4B70286411ED6A972A0CA4900.md) | 32
+[C:\Windows\SysWOW64\expand.exe](expand.exe-B245CEEC35156CB95CAB80865F1A6D56.md) | 32
+[C:\Windows\SysWOW64\tzutil.exe](tzutil.exe-DFED5044997A60C7C8909E3FC755240F.md) | 33
 [C:\Windows\SysWOW64\tzutil.exe](tzutil.exe-E2A285FBF3BEB083A8A1336C28197195.md) | 38
 
 ## Possible Misuse

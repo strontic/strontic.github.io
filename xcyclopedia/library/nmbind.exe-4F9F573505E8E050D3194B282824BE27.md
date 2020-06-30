@@ -69,6 +69,8 @@ Options:
 
 File | Score
 -- | --
+[C:\Windows\system32\nmbind.exe](nmbind.exe-3D626FD2F40B613B7DA08DE5565682E5.md) | 38
+[C:\Windows\system32\nmscrub.exe](nmscrub.exe-74C4FCF594933760AF8DD4057F25A31C.md) | 38
 [C:\WINDOWS\system32\nmscrub.exe](nmscrub.exe-C03B59334DAC244B60282E221B4DA5EF.md) | 40
 
 

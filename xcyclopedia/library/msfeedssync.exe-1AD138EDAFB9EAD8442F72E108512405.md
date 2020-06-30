@@ -52,6 +52,11 @@ SSDEEP | `192:KcLz8zPHJt6lzgj3tivDB4Fe/ix7h/Z7+rZDRM/2mwmopWcs0Wt:KW8jKzA3tiF4s/
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\msfeedssync.exe](msfeedssync.exe-E5DAF79825C26A4B30977F99EF3C586B.md) | 35
 
 ## Possible Misuse
 

@@ -56,7 +56,9 @@ SSDEEP | `12288:cROWeHcf6SpA8Xu3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx71:cRO9HcfdCWu3/k
 
 File | Score
 -- | --
+[C:\Windows\system32\dfrgui.exe](dfrgui.exe-5D773715386E186D1FAEADDA6AA75384.md) | 79
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B.md) | 83
+[C:\Windows\SysWOW64\dfrgui.exe](dfrgui.exe-7023EC5BAEF3BDE3C77C0FA08D924501.md) | 80
 
 
 

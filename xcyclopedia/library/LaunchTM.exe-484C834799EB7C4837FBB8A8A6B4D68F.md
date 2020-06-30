@@ -56,7 +56,9 @@ Taskmgr.exe
 
 File | Score
 -- | --
+[C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-D4889220D216BEEB0D36C132D8ECE979.md) | 94
 [C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-E40B4BED011FA2AF5AC660E620E3F887.md) | 96
+[C:\Windows\SysWOW64\LaunchTM.exe](LaunchTM.exe-E68ABE4D3218D6A029F1889E7DCC3D5B.md) | 93
 
 
 

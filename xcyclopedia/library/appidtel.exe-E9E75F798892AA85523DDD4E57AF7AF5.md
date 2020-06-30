@@ -52,6 +52,11 @@ SSDEEP | `384:hIrLeecOjRDf07QjwyB+1ON40zRHB+YZml2R5a/L+mV87E0gWsdsWQv:uOecVr10lB
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\appidtel.exe](appidtel.exe-00DEBC48A45BF89972A43F337CE4D32E.md) | 71
 
 
 

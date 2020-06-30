@@ -1,0 +1,68 @@
+﻿---
+title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
+---
+
+# iscsicpl.exe 
+
+* File Path: `C:\Windows\system32\iscsicpl.exe`
+* Description: Microsoft iSCSI Initiator Configuration Tool
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `369DE501B34D7A13F0D847BAC1F73354`
+SHA1 | `31CD3206A8AB0477773FBC01F3FC8F4ACBA2C2F8`
+SHA256 | `FEB783C81B0BC6A5E7BEDF3E1EB71106C95B2B818272B841902F14F33B507DD5`
+SHA384 | `DD1917D4153A877740B3B81495D2BB670DC689CACBA4EC947058A6D716E8D89F3EBAA6E7B153FFB397130BAAD60A33AF`
+SHA512 | `3988030325CF08F04D765AAFDEFE9E1BA72421A9CA58DFE6B480989EB7BE8527AAB7C1D0DF84A16A6E996267BC43AE961CB781DBB73D392C8830A9EFDCC4F416`
+SSDEEP | `3072:1KPRFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:1K8X8I0jct5rEJdp`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: iscsicpl.exe.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\iscsicpl.exe](iscsicpl.exe-42D0FA9084EDF93DA5FFEC1CFBF18410.md) | 91
+[C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-27B2A19367EE1C0500834FE2BE8F4654.md) | 90
+[C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-A985A6EBE1B37BC6028D035AC2E0D73F.md) | 93
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

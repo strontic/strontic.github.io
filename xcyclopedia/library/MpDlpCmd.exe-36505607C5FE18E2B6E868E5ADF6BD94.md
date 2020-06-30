@@ -4,7 +4,7 @@ title: MpDlpCmd.exe | Microsoft Malware Protection DLP Command Line Utility
 
 # MpDlpCmd.exe 
 
-* File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MpDlpCmd.exe`
+* File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\MpDlpCmd.exe`
 * Description: Microsoft Malware Protection DLP Command Line Utility
 * Comments: 
 
@@ -35,7 +35,7 @@ Usage: MpDlpCmd -<Command>
 ```
 
 ### Child Processes:
-
+conhost.exe
 
 ## Signature
 
@@ -55,6 +55,11 @@ Usage: MpDlpCmd -<Command>
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2005.5-0\MpDlpCmd.exe](MpDlpCmd.exe-3F78DD1AA45AE707133B087A3BDC0ED8.md) | 74
 
 
 

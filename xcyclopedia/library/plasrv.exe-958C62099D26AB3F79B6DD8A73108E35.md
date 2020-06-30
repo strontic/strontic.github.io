@@ -52,6 +52,11 @@ SSDEEP | `192:o/feVr4m7MI5cRuv1mRZeOxLGTXdTuUQV5GWWXW:o/fE7x6utmyPTXENgWWXW`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\plasrv.exe](plasrv.exe-B9C0F1B4FD8F16205A82FCB4795EC25F.md) | 69
 
 ## Possible Misuse
 

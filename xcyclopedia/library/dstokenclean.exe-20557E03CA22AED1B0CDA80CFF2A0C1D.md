@@ -52,6 +52,11 @@ SSDEEP | `192:5VhA1C19DpWWxDvuqri9Efwz9GNYGt7WdoXlV2A4sDWsEW:5j8gxpb1Wq0xwCq7W6V
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dstokenclean.exe](dstokenclean.exe-6A7D8561BCBA33ED64E3BEFD67C10CA0.md) | 66
 
 
 

@@ -68,7 +68,9 @@ conhost.exe
 
 File | Score
 -- | --
+[C:\Windows\system32\nmbind.exe](nmbind.exe-3D626FD2F40B613B7DA08DE5565682E5.md) | 43
 [C:\WINDOWS\system32\nmbind.exe](nmbind.exe-4F9F573505E8E050D3194B282824BE27.md) | 40
+[C:\Windows\system32\nmscrub.exe](nmscrub.exe-74C4FCF594933760AF8DD4057F25A31C.md) | 36
 
 
 

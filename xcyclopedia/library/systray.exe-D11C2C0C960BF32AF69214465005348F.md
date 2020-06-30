@@ -57,6 +57,7 @@ SSDEEP | `96:zP/Akb2EQwi2P4p2hoIrVDGjsFJXOHMxpTxpvoClJXWUSiDJdMs2bKveLoEWtGyp:jr
 File | Score
 -- | --
 [C:\Windows\SysWOW64\systray.exe](systray.exe-28D565BB24D30E5E3DE8AFF6900AF098.md) | 68
+[C:\Windows\SysWOW64\systray.exe](systray.exe-6621A1811053A752B0DE76F8EEFEC12D.md) | 65
 [C:\Windows\SysWOW64\systray.exe](systray.exe-75421841331F0516CC52932028383DDE.md) | 38
 
 

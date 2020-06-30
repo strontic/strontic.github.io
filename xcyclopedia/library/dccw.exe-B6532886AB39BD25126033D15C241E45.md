@@ -56,7 +56,9 @@ SSDEEP | `12288:pSJ10jGOhS/IzJqrraq/t2qXy6xdRhMA:4rGS/EEn/tkI`
 
 File | Score
 -- | --
+[C:\Windows\system32\dccw.exe](dccw.exe-2FA157F391C6C8B7A1EC3D5036D78241.md) | 85
 [C:\Windows\SysWOW64\dccw.exe](dccw.exe-1121CE30CF23B3FD98E79A22D14E95F5.md) | 85
+[C:\Windows\SysWOW64\dccw.exe](dccw.exe-AA76EB7D3BB05E726748802E555A2173.md) | 80
 
 
 

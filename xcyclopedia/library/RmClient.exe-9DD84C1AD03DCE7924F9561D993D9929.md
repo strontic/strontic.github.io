@@ -56,6 +56,11 @@ SSDEEP | `192:pZiJ0hqWr/6jLL+YPLmTf8KbprpHMTtmZkfW5zWGJP:pYJwr8f+YPLmvrpsJJfW5zW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\RmClient.exe](RmClient.exe-E6BECD6BB535D6E6750A247398B87CEA.md) | 46
 
 
 

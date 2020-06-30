@@ -57,6 +57,7 @@ Windows.Media.BackgroundPlayback.exe WerFault.exe
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-6712EDA62F74CC71BEEDDB41E1FE3E4D.md) | 60
+[C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-7E9CE7F806505ABB9C7B07C69F39DC17.md) | 50
 
 
 

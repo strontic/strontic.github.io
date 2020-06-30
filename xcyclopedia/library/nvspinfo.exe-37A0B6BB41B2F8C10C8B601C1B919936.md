@@ -171,6 +171,11 @@ cleaning up...finished
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\nvspinfo.exe](nvspinfo.exe-FE1FA5CBAB26DE105DB01ADCB1B254DC.md) | 47
 
 
 

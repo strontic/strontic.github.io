@@ -56,8 +56,10 @@ SSDEEP | `6144:J7wfr3En31gvKzIjhAuymPgpwl4TWxx5tY0Fo+1PZSqtYV:Zwj3EnFu8pwKOx5+u1
 
 File | Score
 -- | --
+[C:\Windows\system32\eudcedit.exe](eudcedit.exe-408DC5DB105FFCE3B70B09AF77E12AEC.md) | 32
 [C:\Windows\system32\eudcedit.exe](eudcedit.exe-A9DE6557179D371938FBE52511B551CE.md) | 29
 [C:\WINDOWS\system32\eudcedit.exe](eudcedit.exe-AAEC4A29B995CA1079E84C7862C1A239.md) | 35
+[C:\Windows\SysWOW64\eudcedit.exe](eudcedit.exe-D306B9780453DF3FC0B8FF2538EFC064.md) | 30
 [C:\Windows\SysWOW64\eudcedit.exe](eudcedit.exe-D3AEA350CE4203ACC780D2FD85E19CAE.md) | 40
 [C:\WINDOWS\SysWOW64\eudcedit.exe](eudcedit.exe-E838E1BBF3FFC2B40CABA383624422E4.md) | 32
 [C:\Windows\SysWOW64\eudcedit.exe](eudcedit.exe-EA7665A5FFB3B16DE571F6386BD76851.md) | 27

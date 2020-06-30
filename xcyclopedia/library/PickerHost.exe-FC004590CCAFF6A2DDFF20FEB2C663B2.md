@@ -57,6 +57,9 @@ SSDEEP | `1536:n0Gx+HrLi98S9O9XmwUWi0OwmDJrePojhg2zbEZOxg99+NtAxTjpP1u:b+LL3g0XX
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\ComputerDefaults.exe](ComputerDefaults.exe-455CCBB47F4BEF02A9E0034859CE59E2.md) | 25
+[C:\Windows\SysWOW64\ComputerDefaults.exe](ComputerDefaults.exe-FF2E0EABBB610CD9D4F06C8C0E33B92F.md) | 25
+[C:\Windows\SysWOW64\PickerHost.exe](PickerHost.exe-C7721213B06567AB730B99046F611F1A.md) | 35
+[C:\Windows\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-8BF5AC3EC558D69DC4B0E173E726F770.md) | 24
 [C:\WINDOWS\SysWOW64\UserAccountControlSettings.exe](UserAccountControlSettings.exe-C88891AC9FBC632FAC0ECB4D484D5798.md) | 25
 
 

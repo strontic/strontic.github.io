@@ -167,6 +167,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1036.006.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.006/T1036.006.md) | 1. 1. echo '#!/bin/bash\necho "print \"hello, world!\"" \| /usr/bin/python\nexit' > execute.txt && chmod +x execute.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1083.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1083/T1083.md) | cd $HOME && find . -print \| sed -e 's;[^/]*/;\|__;g;s;__\|; \|;g' > #{output_file} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1087.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1087.001/T1087.001.md) | username=$(echo $HOME \| awk -F'/' '{print $3}') && lsof -u $username | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1110.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.003/T1110.003.md) | This atomic attempts to map the IPC$ share on one of the Domain Controllers using a password of Spring2020 for each user in the %temp%\users.txt list. Any successful authentications will be printed to the screen with a message like "[*] username:password", whereas a failed auth will simply print a period. Use the input arguments to specify your own password to use for the password spray. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1489.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md) | Stops a specified service using the net.exe command. Upon execution, if the service was running "The Print Spooler service was stopped successfully." | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1489.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md) | will be displayed. If the service was not running, "The Print Spooler service is not started." will be displayed and it can be | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.001/T1546.001.md) | * <code>HKEY_CLASSES_ROOT\txtfile\shell\print\command</code> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -181,57 +182,48 @@ Source | Source File | Example | License
 
 ## print
 
+Sends a text file to a printer. A file can print in the background if you send it to a printer connected to a serial or parallel port on the local computer.
 
-
-Sends a text file to a printer.
-
-
+> [!NOTE]
+> You can perform many configuration tasks from the command prompt by using the [Mode command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/mode.md), including configuring a printer connected to a parallel or a serial port, displaying printer status, or preparing a printer for code page switching.
 
 ### Syntax
 
 ```
-Print [/d:<PrinterName>] [<Drive>:][<Path>]<FileName>[ ...]
+print [/d:<printername>] [<drive>:][<path>]<filename>[ ...]
 ```
 
 #### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/d:\<PrinterName>|Specifies the printer that you want to print the job. To print to a locally connected printer, specify the port on your computer where the printer is connected.</br>-   Valid values for parallel ports are LPT1, LPT2, and LPT3.</br>-   Valid values for serial ports are COM1, COM2, COM3, and COM4.</br>You can also specify a network printer by using its queue name (\\\\*ServerName*\*PrinterName*). If you do not specify a printer, the print job is sent to LPT1 by default.|
-|\<Drive>:|Specifies the logical or physical drive where the file you want to print is located. This parameter is not required if the file you want to print is located on the current drive.|
-|\<Path>|Specifies the location of the file you want to print. This parameter is not required if the file you want to print is located in the current directory.|
-|\<FileName>[ ...]|Required. Specifies the file you want to print. You can include multiple files in one command.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| /d:`<printername>` | Specifies the printer that you want to print the job. To print to a locally connected printer, specify the port on your computer where the printer is connected. Valid values for parallel ports are **LPT1**, **LPT2**, and **LPT3**. Valid values for serial ports are **COM1**, **COM2**, **COM3**, and **COM4**. You can also specify a network printer by using its queue name (`\\server_name\printer_name`). If you don't specify a printer, the print job is sent to **LPT1** by default. |
+| `<drive>`: | Specifies the logical or physical drive where the file you want to print is located. This parameter isn't required if the file you want to print is located on the current drive. |
+| `<path>` | Specifies the location of the file you want to print. This parameter isn't required if the file you want to print is located in the current directory. |
+| `<filename>[ ...]` | Required. Specifies the file you want to print. You can include multiple files in one command. |
+| /? | Displays help at the command prompt. |
 
-### Remarks
+#### Examples
 
--   A file can print in the background if you send it to a printer connected to a serial or parallel port on the local computer.
--   You can perform many configuration tasks from the command prompt by using the **Mode** command.
+To send the **report.txt** file, located in the current directory, to a printer connected to **lpt2** on the local computer, type:
 
-    See [Mode](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/mode.md) for more information about:  
-    -   Configuring a printer connected to a parallel port
-    -   Configuring a printer connected to a serial port
-    -   Displaying the status of a printer
-    -   Preparing a printer for code page switching
-
-### Examples
-
-To send the file Report.txt in the current directory to a printer connected to LPT2 on the local computer, type:
 ```
 print /d:lpt2 report.txt
 ```
-To send the file Report.txt in the c:\Accounting directory to the Printer1 print queue on the \\\\CopyRoom server, type:
+
+To send the **report.txt** file, located in the **c:\accounting** directory, to the **printer1** print queue on the **/d:\\copyroom** server, type:
+
 ```
-print /d:\\copyroom\printer1 c:\accounting\report.txt 
+print /d:\\copyroom\printer1 c:\accounting\report.txt
 ```
 
 ### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-[Print Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/print-command-reference.md)
+- [Print Command Reference](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/print-command-reference.md)
 
-[Mode](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/mode.md)
+- [Mode command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/mode.md)
 
 ---
 

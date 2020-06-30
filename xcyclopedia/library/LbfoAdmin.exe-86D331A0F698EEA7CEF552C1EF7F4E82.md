@@ -52,6 +52,11 @@ SSDEEP | `1536:5tVcjj4PBuhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWc14zUWJGCTBD:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\LbfoAdmin.exe](LbfoAdmin.exe-911DC9868BBFEA5E95DC88BE10BC9C11.md) | 97
 
 
 

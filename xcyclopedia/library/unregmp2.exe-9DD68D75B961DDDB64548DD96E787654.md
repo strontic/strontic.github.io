@@ -56,6 +56,7 @@ SSDEEP | `3072:f3YK3Rsc33GxmF0vhxwWWZyjCLNECOf9QsvVTBvAwk4Opk17umhz7:vRscGwWQq37
 
 File | Score
 -- | --
+[C:\Windows\system32\unregmp2.exe](unregmp2.exe-9CF8E80F71544316E5F90F2B87F2350C.md) | 30
 [C:\Windows\system32\unregmp2.exe](unregmp2.exe-A6FC8CE566DEC7C5873CB9D02D7B874E.md) | 33
 
 

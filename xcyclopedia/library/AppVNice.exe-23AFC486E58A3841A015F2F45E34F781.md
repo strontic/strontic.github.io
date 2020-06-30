@@ -57,7 +57,9 @@ SSDEEP | `1536:wKYbc2+xsCvof6N/uYhjaPCbLqt/6QWSfKYbkkbsFDfSIT0nJ2QC7pFJan1ZQnBF:
 File | Score
 -- | --
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-2F8BF990BEDECF1974DC4189E24F709D.md) | 46
+[C:\Windows\system32\AppVNice.exe](AppVNice.exe-E4CC15631219560406D2CE920CB2C133.md) | 32
 [C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-E805EC74A53B64CE1D9D6739B8055579.md) | 38
+[C:\Windows\system32\mavinject.exe](mavinject.exe-72D5E2A3FF5D88C891E0DF1AA28B6422.md) | 47
 
 
 

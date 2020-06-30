@@ -52,6 +52,11 @@ SSDEEP | `384:ko7fEoW3Y+EjLflv0Ipc3VqRRE/7R4Db9+YMP2ymVTQGWFJW:k+fEX3SLflvpKlV+9
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\cofire.exe](cofire.exe-698E0C4F178784A5EB308AFAB490485C.md) | 68
 
 
 

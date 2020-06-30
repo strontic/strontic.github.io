@@ -69,6 +69,11 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\chgusr.exe](chgusr.exe-8DAF58E7E05F72467DE0FAFDED21BA1A.md) | 82
 
 
 ## Additional Info*

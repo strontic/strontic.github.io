@@ -53,6 +53,11 @@ Cannot run standalone
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wbem\unsecapp.exe](unsecapp.exe-8B0E699F01BDD3B9AD741D1BD7343248.md) | 40
 
 
 

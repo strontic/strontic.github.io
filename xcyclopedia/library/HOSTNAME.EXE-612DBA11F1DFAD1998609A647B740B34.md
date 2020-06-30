@@ -59,6 +59,11 @@ hostname -s is not supported.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\HOSTNAME.EXE](HOSTNAME.EXE-7F95220A65A5A5D4A98873E86EF2E549.md) | 69
 
 ## Possible Misuse
 

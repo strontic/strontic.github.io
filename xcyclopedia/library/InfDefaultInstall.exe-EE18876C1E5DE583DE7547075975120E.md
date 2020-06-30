@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-6E4ACBE95965D394FE042E1C0B5D7206.md) | 29
 [C:\WINDOWS\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-8A91DEC7CD83D38314AD072EE568D1CB.md) | 27
+[C:\Windows\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-A18B52BBC5C39DAD58703CF92ACAA37C.md) | 33
 
 ## Possible Misuse
 

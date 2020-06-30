@@ -58,6 +58,11 @@ REAGENTC.EXE: An error has occurred.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\ReAgentc.exe](ReAgentc.exe-67118D8D0AD2EFE5009C0B1414E02B1C.md) | 36
 
 
 

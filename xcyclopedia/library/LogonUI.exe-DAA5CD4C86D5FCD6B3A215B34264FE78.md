@@ -52,6 +52,11 @@ SSDEEP | `192:sU1JmsaTvp/oNIsb+BC5zolJ8sdzpdNouZid7llW5UW:LKTv9qVKBuzoJZzpfZiJfW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\LogonUI.exe](LogonUI.exe-33F89DD9629CB0422A2C17268376232D.md) | 60
 
 
 

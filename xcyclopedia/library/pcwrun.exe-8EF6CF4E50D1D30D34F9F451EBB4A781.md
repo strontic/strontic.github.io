@@ -52,6 +52,11 @@ msdt.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\pcwrun.exe](pcwrun.exe-FEE8B8FE78C3B7C9FC1C7ABB6FBCBCF6.md) | 69
 
 ## Possible Misuse
 

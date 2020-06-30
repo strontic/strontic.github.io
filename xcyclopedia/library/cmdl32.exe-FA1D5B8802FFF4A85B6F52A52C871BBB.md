@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\WINDOWS\system32\cmdl32.exe](cmdl32.exe-14C82BE72A2ABB9928470524EE9CEBED.md) | 35
 [C:\Windows\system32\cmdl32.exe](cmdl32.exe-77B22CEA6688A005473FC4896910924F.md) | 30
+[C:\Windows\system32\cmdl32.exe](cmdl32.exe-A7D1CD7846E8414CB349EF577D616F2E.md) | 30
 
 
 

@@ -76,6 +76,11 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\timeout.exe](timeout.exe-98E377F190CC95851C1417B72921E83C.md) | 36
 
 ## Possible Misuse
 

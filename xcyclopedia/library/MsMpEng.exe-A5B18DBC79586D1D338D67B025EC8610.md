@@ -4,7 +4,7 @@ title: MsMpEng.exe | Antimalware Service Executable
 
 # MsMpEng.exe 
 
-* File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MsMpEng.exe`
+* File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\MsMpEng.exe`
 * Description: Antimalware Service Executable
 * Comments: 
 

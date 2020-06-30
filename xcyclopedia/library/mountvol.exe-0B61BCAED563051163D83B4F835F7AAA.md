@@ -96,6 +96,11 @@ Possible values for VolumeName along with current mount points are:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\mountvol.exe](mountvol.exe-15AA34D64152527D4542546C3CFAC9A9.md) | 44
 
 
 ## Additional Info*

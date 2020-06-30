@@ -4,7 +4,7 @@ title: NisSrv.exe | Microsoft Network Realtime Inspection Service
 
 # NisSrv.exe 
 
-* File Path: `C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\NisSrv.exe`
+* File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\NisSrv.exe`
 * Description: Microsoft Network Realtime Inspection Service
 * Comments: 
 

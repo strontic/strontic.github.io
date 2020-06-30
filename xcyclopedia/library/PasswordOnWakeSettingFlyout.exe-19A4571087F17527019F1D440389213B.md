@@ -56,6 +56,7 @@ SSDEEP | `768:VchlCMQTkKE4nTzRimqtcuwMZIxl3vbOOLANWuM2fRJOXj1PYWfF:VchlC1kKratci
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-008528DD5373011FE99F7964CABFA486.md) | 47
 [C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-9E9747DF3D5A7F1C095D23FDF5A874F8.md) | 54
 
 

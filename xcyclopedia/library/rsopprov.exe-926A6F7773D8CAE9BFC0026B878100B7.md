@@ -52,6 +52,11 @@ SSDEEP | `1536:xbtS596ancQktKSfS8XqhrLzkz0ZAXETG+J0g9Md42hOg+cqwhwbTYB8dp:1w3Xcb
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rsopprov.exe](rsopprov.exe-3E8360BC377BF8D2C8B7956A3262C874.md) | 43
 
 
 

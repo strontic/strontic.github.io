@@ -100,6 +100,11 @@ like "/!debug:value" to set a config property named "debug".
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\inetsrv\appcmd.exe](appcmd.exe-698A7B8DCF5B3F2F0CC15B2A6B18E360.md) | 35
 
 ## Possible Misuse
 

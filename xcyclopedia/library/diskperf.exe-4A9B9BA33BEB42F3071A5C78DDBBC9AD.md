@@ -90,6 +90,11 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\diskperf.exe](diskperf.exe-62878AC98008FE21396427160C975295.md) | 74
 
 
 ## Additional Info*

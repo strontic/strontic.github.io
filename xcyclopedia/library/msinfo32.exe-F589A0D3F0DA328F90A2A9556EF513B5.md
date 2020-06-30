@@ -1,0 +1,140 @@
+﻿---
+title: msinfo32.exe | System Information
+---
+
+# msinfo32.exe 
+
+* File Path: `C:\Windows\SysWOW64\msinfo32.exe`
+* Description: System Information
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `F589A0D3F0DA328F90A2A9556EF513B5`
+SHA1 | `CA714A87F2DB9B17DE10095713748425076CCBDE`
+SHA256 | `9D9EFB1655826BC2CC5F0767C2F461BBE6D8E743113EB6B396B5966740373DEC`
+SHA384 | `D8ABCEC2963AD3AFB9067023D10F542F9D3D4C4C7E6E81C374DE24B420FC603760D92E197179C891B2BC96830FDFA952`
+SHA512 | `09F769849517095A491217E5BA65F39F9BD6056BA0C71D6DA82BCE00BFB63ACD1D8088C73A54E51D8D37A9C9C89A7141A65F663FD5728C3BA50AEFFD1660E09F`
+SSDEEP | `6144:uHJ3+9UJO4va8O8Qu0dIlUD7Drj7jmyh27ZEOHHrpm1XUZLxEZEOHHrpm1XUZLxO:uHJ3+9UkMOG0dIlUD7Drj7jmJFtLpm1G`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: msinfo.dll.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 55
+[C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 61
+[C:\WINDOWS\system32\msinfo32.exe](msinfo32.exe-CE97FD0E2556A49965411764F086CEA8.md) | 58
+[C:\Windows\system32\msinfo32.exe](msinfo32.exe-DA35587758FC9C154435FB76C7183BE4.md) | 58
+[C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-2D3773A656D92C8E4367511AD4DCDD8C.md) | 47
+[C:\WINDOWS\SysWOW64\msinfo32.exe](msinfo32.exe-626E3EE8F3DDDA3F44E9E945C54F030D.md) | 50
+[C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 55
+
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## msinfo32
+
+> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Opens the System Information tool to display a comprehensive view of the hardware, system components, and software environment on the local computer.
+
+Some System Information categories contain large amounts of data. You can use the **start /wait** command to optimize reporting performance for these categories. For more information, see [System Information](https://technet.microsoft.com/library/cc783305(v=ws.10).aspx).
+
+### Syntax
+
+```
+msinfo32 [/pch] [/nfo <path>] [/report <path>] [/computer <computername>] [/showcategories] [/category <categoryID>] [/categories {+<categoryID>(+<categoryID>)|+all(-<categoryID>)}]
+```
+
+#### Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `<path>` | Specifies the file to be opened in the format *C:\Folder1\File1.xxx*, where *C* is the drive letter, *Folder1* is the folder, *File1* is the file name, and *xxx* is the file name extension.<p>This file can be an **.nfo**, **.xml**, **.txt**, or **.cab** file. |
+| `<computername>` | Specifies the name of the target or local computer. This can be a UNC name, an IP address, or a full computer name. |
+| `<categoryID>` | Specifies the ID of the category item. You can obtain the category ID by using **/showcategories**. |
+| /pch | Displays the System History view in the System Information tool. |
+| /nfo | Saves the exported file as an **.nfo** file. If the file name that is specified in *path* does not end in an **.nfo** extension, the **.nfo** extension is automatically appended to the file name. |
+| /report | Saves the file in *path* as a text file. The file name is saved exactly as it appears in *path*. The .txt extension is not appended to the file unless it is specified in path. |
+| /computer | Starts the System Information tool for the specified remote computer. You must have the appropriate permissions to access the remote computer. |
+| /showcategories | Starts the System Information tool with all available category IDs displayed, rather than displaying the friendly or localized names. For example, the Software Environment category is displayed as the **SWEnv** category. |
+| /category | Starts System Information with the specified category selected. Use **/showcategories** to display a list of available category IDs. |
+| /categories | Starts System Information with only the specified category or categories displayed. It also limits the output to the selected category or categories. Use **/showcategories** to display a list of available category IDs. |
+| /? | Displays help at the command prompt. |
+
+#### Examples
+
+To list the available category IDs, type:
+
+```
+msinfo32 /showcategories
+```
+
+To start the System Information tool with all available information displayed, except Loaded Modules, type:
+
+```
+msinfo32 /categories +all -loadedmodules
+```
+
+To display **System Summary** information and to create an .nfo file called *syssum.nfo*, which contains information in the **System Summary** category, type:
+
+```
+msinfo32 /nfo syssum.nfo /categories +systemsummary
+```
+
+To display resource conflict information and to create an .nfo file called *conflicts.nfo*, which contains information about resource conflicts, type:
+
+```
+msinfo32 /nfo conflicts.nfo /categories +componentsproblemdevices+resourcesconflicts+resourcesforcedhardware
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

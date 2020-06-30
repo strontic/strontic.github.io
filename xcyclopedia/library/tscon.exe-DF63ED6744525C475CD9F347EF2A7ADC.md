@@ -75,6 +75,11 @@ TSCON {sessionid | sessionname} [/DEST:sessionname]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\tscon.exe](tscon.exe-C00AF21B675DF6DD88EB61BB297B8500.md) | 83
 
 ## Possible Misuse
 

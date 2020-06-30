@@ -56,6 +56,7 @@ SSDEEP | `6144:7OqNU7GHVxHEVHHHQVb1kHVqHVqHQQbTuTRTHTfTEHVf2XTQT6TITQT+VyW176eQ:
 
 File | Score
 -- | --
+[C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-5EEE93027DABB96684475B1041B1CA5D.md) | 88
 [C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-F58E82580EC2E892BDC9BDFCA1EE9FB7.md) | 74
 
 

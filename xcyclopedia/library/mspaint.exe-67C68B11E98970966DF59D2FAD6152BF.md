@@ -1,0 +1,77 @@
+﻿---
+title: mspaint.exe | Paint
+---
+
+# mspaint.exe 
+
+* File Path: `C:\Windows\system32\mspaint.exe`
+* Description: Paint
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `67C68B11E98970966DF59D2FAD6152BF`
+SHA1 | `8956D4DFF2E321B7308D7FDD8BD32BF47D61F398`
+SHA256 | `615CFFE98CAD0DB5F7F261CE915F13BBBC22378BB2A80591D38205D5658A8092`
+SHA384 | `DDA836D6E9F58A535871386D191A9FA9EE1C8EE9B099F7F2F86133758B2E1618CE33E1C190CF59E7AEEF23761D0FFF33`
+SHA512 | `0B2D663E7E2611092EBBB6771321B33A128675144E2CE4260998949A486F91BC7F51ABF429CD0489004947FCE584C21DD14AE0BB06820ADA82E2D8377366B9A2`
+SSDEEP | `98304:70eQ2u7InCOgQwyRPM1mlawYL260GBGrGrGWAub7jPhivQ:7096n/gQw4MIlawYVb7jP8v`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000001C422B2F79B793DACB20000000001C4`
+* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: MSPAINT.EXE.MUI
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\mspaint.exe](mspaint.exe-A5F69864C0CA8FDC157F3E7EF48F2F10.md) | 71
+[C:\Windows\SysWOW64\mspaint.exe](mspaint.exe-7598568851B293CD82E958C3B9735F7C.md) | 93
+[C:\Windows\SysWOW64\mspaint.exe](mspaint.exe-8A6A020DABFB0024BE80D988C59F8F2A.md) | 69
+
+## Possible Misuse
+
+*The following table contains possible examples of `mspaint.exe` being misused. While `mspaint.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\mspaint.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`mspaint.exe (a 2009 file)`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`mspaint.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

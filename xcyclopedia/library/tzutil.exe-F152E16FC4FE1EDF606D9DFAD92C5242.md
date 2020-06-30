@@ -83,8 +83,11 @@ Remarks:
 
 File | Score
 -- | --
+[C:\Windows\system32\CertEnrollCtrl.exe](CertEnrollCtrl.exe-021F0494762A3060149B29038373347B.md) | 33
 [C:\Windows\system32\CertEnrollCtrl.exe](CertEnrollCtrl.exe-D9DE355599A2CD57600B1C4932D12F3A.md) | 36
 [C:\Windows\system32\expand.exe](expand.exe-700328EA375572AA173E72932AAC389E.md) | 32
+[C:\Windows\system32\expand.exe](expand.exe-7395D1ACEAC1FD7790DD59F12DFCDEFB.md) | 36
+[C:\Windows\system32\tzutil.exe](tzutil.exe-9DAABD70528904EA05C5605D2FC75717.md) | 38
 
 
 ## Additional Info*

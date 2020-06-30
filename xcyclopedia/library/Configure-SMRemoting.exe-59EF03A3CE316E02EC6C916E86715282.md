@@ -53,6 +53,11 @@ Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\Configure-SMRemoting.exe](Configure-SMRemoting.exe-01B26A8919A84F68E836BD7F43AE646E.md) | 29
 
 
 

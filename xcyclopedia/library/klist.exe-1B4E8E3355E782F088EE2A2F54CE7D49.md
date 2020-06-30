@@ -72,7 +72,9 @@ File | Score
 -- | --
 [C:\WINDOWS\system32\klist.exe](klist.exe-0C04245D868D0BA1D5156499F137001C.md) | 29
 [C:\Windows\system32\klist.exe](klist.exe-8ADE30AD79FDC8BFC227D35C73C640F3.md) | 32
+[C:\Windows\system32\klist.exe](klist.exe-D15C2108D9A0356CBA6B850749F920F2.md) | 27
 [C:\Windows\SysWOW64\klist.exe](klist.exe-31EDAEFB67CA2DEF614D6093537CADEB.md) | 25
+[C:\Windows\SysWOW64\klist.exe](klist.exe-E69A6624A40AC6700AF7FC55DD3FA626.md) | 29
 
 
 ## Additional Info*

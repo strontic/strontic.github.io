@@ -61,6 +61,11 @@ Usage: DIMC.exe -UnattendPath <Unattend_file> -HivePath <IMC_hive> [-SequenceNum
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DIMC.exe](DIMC.exe-EA8A0C993231DA2150F5F6DC378EF811.md) | 35
 
 
 

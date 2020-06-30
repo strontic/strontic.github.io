@@ -62,6 +62,11 @@ CHANGE LOGON {/QUERY | /ENABLE | /DISABLE | /DRAIN | /DRAINUNTILRESTART}
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\chglogon.exe](chglogon.exe-043CC77ED997F7E4BD153030A18304DC.md) | 83
 
 
 ## Additional Info*

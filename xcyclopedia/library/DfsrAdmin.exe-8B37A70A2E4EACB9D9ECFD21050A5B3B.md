@@ -105,6 +105,11 @@ The object -help is not a valid object.
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\DfsrAdmin.exe](DfsrAdmin.exe-FDC25C48F19D2DBE817BAFFE16AEA267.md) | 69
 
 
 

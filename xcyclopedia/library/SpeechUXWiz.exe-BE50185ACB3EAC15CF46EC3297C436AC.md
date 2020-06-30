@@ -57,6 +57,7 @@ SSDEEP | `12288:6wc771uSH9hBp8YbVe0TIrf8NbywLkRLgLBAgVF:H3+9h/82VLTIrfMy8oLgp`
 File | Score
 -- | --
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-02BCE04D6192EB6BC85A195E0187E707.md) | 75
+[C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-12BEDBBE10C9281CADB3A1CE54F716E5.md) | 69
 [C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-FAE658436615C362C1DE0464C028F227.md) | 71
 
 

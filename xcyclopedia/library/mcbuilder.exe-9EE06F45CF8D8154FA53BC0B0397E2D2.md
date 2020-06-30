@@ -56,6 +56,7 @@ SSDEEP | `1536:ucNRbdJlpmUyxs1fweEVIMANxZ09B2ssW4d09dldIGxWJ1jMXT:uwpdJlgUkseLVI
 
 File | Score
 -- | --
+[C:\Windows\system32\mcbuilder.exe](mcbuilder.exe-7B786EF4D8FD478B2709D138672384B8.md) | 36
 [C:\WINDOWS\system32\mcbuilder.exe](mcbuilder.exe-D76EFAA44D4B4CB0306E3D3141960F4F.md) | 38
 
 

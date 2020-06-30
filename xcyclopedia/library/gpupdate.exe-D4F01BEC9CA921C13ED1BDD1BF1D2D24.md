@@ -110,6 +110,7 @@ Value                      Description
 File | Score
 -- | --
 [C:\Windows\system32\gpupdate.exe](gpupdate.exe-2F23BC7F66D9C1CA02F7777616285874.md) | 32
+[C:\Windows\system32\gpupdate.exe](gpupdate.exe-5BC3021BF9F2787FA17442B68739755E.md) | 44
 
 ## Possible Misuse
 

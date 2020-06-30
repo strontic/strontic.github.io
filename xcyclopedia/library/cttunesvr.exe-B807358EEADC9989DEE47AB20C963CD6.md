@@ -52,6 +52,11 @@ SSDEEP | `768:IDaX+NIPckKZ1d9mD85fV8JWdALEzKZQJ7+g1tl1dVldhYI+F/6VcHTV:IWTAd5N8q
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\cttunesvr.exe](cttunesvr.exe-22C73A156EF2EBC1426B714B5130899A.md) | 80
 
 
 

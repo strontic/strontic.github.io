@@ -107,6 +107,11 @@ Usage: nltest [/OPTIONS]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\nltest.exe](nltest.exe-6201C092902FBBD5F53D3292C6A0130E.md) | 49
 
 ## Possible Misuse
 

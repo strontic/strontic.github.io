@@ -52,6 +52,11 @@ SSDEEP | `12288:ocAJAGEQxcMYh1ghmtvZFebD0InhJTi3uf+tA:7AJADMcehCRFAzJTi3umt`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RMActivate_ssp_isv.exe](RMActivate_ssp_isv.exe-342376866AF2714CC5436AB15289367F.md) | 33
 
 
 

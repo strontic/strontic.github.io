@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-517E03BB228B5B32CE45C0C7C9D4370D.md) | 50
 [C:\Windows\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-85449C56339BFEF1AF92EA9E034D5D84.md) | 36
+[C:\Windows\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-95BE9B12D200216D84F4D4BFED75FB30.md) | 38
 
 ## Possible Misuse
 

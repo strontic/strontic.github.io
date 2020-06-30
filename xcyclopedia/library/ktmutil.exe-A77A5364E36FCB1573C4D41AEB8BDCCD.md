@@ -53,6 +53,11 @@ The KTMUTIL utility requires that you have administrative privileges.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ktmutil.exe](ktmutil.exe-4EA868EA2484EB3DE0598855BA3D8926.md) | 63
 
 
 ## Additional Info*

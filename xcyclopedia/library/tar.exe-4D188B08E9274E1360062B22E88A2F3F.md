@@ -85,6 +85,7 @@ Usage:
 
 File | Score
 -- | --
+[C:\Windows\system32\tar.exe](tar.exe-0B8821B257EEE9C01CD29C62AE9D3EF9.md) | 27
 [C:\WINDOWS\system32\tar.exe](tar.exe-5F6B04A0EC5FE46FEEEC887406F63E57.md) | 29
 
 

@@ -57,6 +57,7 @@ SSDEEP | `98304:WL6slxL4TsqaA2SRmXUrymuXB2rmaOOaCa2PKCZZNRwtPV3Oy:WL6svDqaA2SRmX
 File | Score
 -- | --
 [C:\Windows\system32\SnippingTool.exe](SnippingTool.exe-0D42E0492585153117F6ECF250EC8993.md) | 94
+[C:\Windows\system32\SnippingTool.exe](SnippingTool.exe-B7B2F164769C738D5CB30A418EEAE8B2.md) | 94
 
 
 

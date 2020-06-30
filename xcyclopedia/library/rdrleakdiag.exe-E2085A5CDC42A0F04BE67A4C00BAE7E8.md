@@ -52,6 +52,11 @@ SSDEEP | `768:tUdeWNzYB1Le+oRybz2liM/pIR6/Nco2Nd7qzNzP:rOYBEAAiKa6/NI7AP`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\rdrleakdiag.exe](rdrleakdiag.exe-A44B52E1F19718E6C5CC4A3DF406E2A3.md) | 40
 
 
 

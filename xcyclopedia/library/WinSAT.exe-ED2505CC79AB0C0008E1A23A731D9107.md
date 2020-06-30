@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\system32\WinSAT.exe](WinSAT.exe-6654FC269DF21AA165842E479678A94B.md) | 47
 [C:\Windows\system32\WinSAT.exe](WinSAT.exe-715DB53A8064C6DECCF68B7501DF3386.md) | 47
+[C:\Windows\system32\WinSAT.exe](WinSAT.exe-D21AA5C451C43D15B2BA3611F57F2321.md) | 50
 
 
 

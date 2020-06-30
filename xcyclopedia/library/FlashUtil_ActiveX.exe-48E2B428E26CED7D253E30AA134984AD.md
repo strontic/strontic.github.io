@@ -37,10 +37,10 @@ SSDEEP | `24576:XeFoi1EUF6BqpT8qYhAZBQp/KiIy3W6aqh0SdWHtN2b/:Xev1EUckpTQ0ap/1Sqh
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000008D391F9E635AAD4D5000000000008D`
-* Thumbprint: `B8A71534F400FF263831F8FD44D22053A3F6857F`
-* Issuer: CN=Microsoft Windows Third Party Component CA 2013, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-* Subject: CN=Microsoft Windows Third Party Application Component, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
 ## File Metadata
 

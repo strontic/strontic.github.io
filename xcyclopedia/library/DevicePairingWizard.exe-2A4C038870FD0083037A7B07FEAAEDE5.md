@@ -56,6 +56,7 @@ SSDEEP | `1536:w9B9jBpFkkmgXWW4wyYjXAOyb8Z3qOTU:u9jBpFkkW2yYE7loU`
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-BC95978508CD50D1A831B9DE752D0B15.md) | 33
 [C:\WINDOWS\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-C1C61B9A1EBE38489E6873CB60B67266.md) | 46
 
 

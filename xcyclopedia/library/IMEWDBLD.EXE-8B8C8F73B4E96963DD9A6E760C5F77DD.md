@@ -1,0 +1,71 @@
+﻿---
+title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
+---
+
+# IMEWDBLD.EXE 
+
+* File Path: `C:\Windows\system32\IME\shared\IMEWDBLD.EXE`
+* Description: Microsoft IME Open Extended Dictionary Module
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `8B8C8F73B4E96963DD9A6E760C5F77DD`
+SHA1 | `71F3B5DA45334B704E5B738F442A5997A9EEC19E`
+SHA256 | `51E8741641C33D13908F3260BEE589871D5EFD9210504F7B4CDEEE50BAE17C2C`
+SHA384 | `3D57C2A6F93AB54849FC755C705B655C2B2F75D38B7DCEE95B5683751795FDB2C51890E677A7A376C3D90E153A4DB374`
+SHA512 | `31C97E1B37727CB5E1208CB468A4DF2BB9C1CBD7B31443B32BA4C0028DD221C386DEBF745639C4094C4C428E0D382145050F77D46A42EB399BC0FBF6CB366504`
+SSDEEP | `6144:wDVtT8kSl4FnvSGrwuTUJD3PAfjHPPnsFGUPg7Gs/UEVTppNX+:wBd89iFaGrwuTiAfbaXPg7Gs/r`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: imewdbld.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1075 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1075
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-CB30AD795C9B30E71EB1E596D18B7A21.md) | 43
+[C:\Windows\system32\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-FBEE6DD18640B1575FF98D1EB3B51724.md) | 38
+[C:\Windows\SysWOW64\IME\shared\IMEWDBLD.EXE](IMEWDBLD.EXE-0984D217E10D11B2DBB8CCD47CDF36BD.md) | 36
+[C:\Windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-40FBB367D0F83472C170359D6E3446A0.md) | 32
+[C:\Windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-B840116C2D5805095F46CFD8ACBD0EB8.md) | 32
+[C:\WINDOWS\SysWOW64\IME\SHARED\IMEWDBLD.EXE](IMEWDBLD.EXE-F042BFE4E2BE1EF592D9CFA14F8E6BD1.md) | 33
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

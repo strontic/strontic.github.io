@@ -121,6 +121,11 @@ quotation marks.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\lodctr.exe](lodctr.exe-4FCD147FDB2985F73B7FA8C93C655FC5.md) | 74
 
 
 ## Additional Info*

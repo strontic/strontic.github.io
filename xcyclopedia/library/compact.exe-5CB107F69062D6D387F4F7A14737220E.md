@@ -102,6 +102,7 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\compact.exe](compact.exe-2FF6DBD252522101AB50FDFF9BC73164.md) | 49
+[C:\Windows\SysWOW64\compact.exe](compact.exe-D9A6C940D8AF7BFBA08D010B85F155A2.md) | 35
 
 
 ## Additional Info*

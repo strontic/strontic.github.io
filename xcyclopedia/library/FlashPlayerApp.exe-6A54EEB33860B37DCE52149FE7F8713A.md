@@ -52,6 +52,11 @@ SSDEEP | `12288:MB0z4tN/qGDb+DLUFoYkp6d1BtOkodxduog/TXJa/x82IErOJsLV/QtOM4:SCA+O
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 Adobe. All Rights Reserved. Adobe and Flash are either trademarks or registered trademarks in the United States and/or other countries.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\FlashPlayerApp.exe](FlashPlayerApp.exe-60499A695209C07EE815A098A6DDEA68.md) | 96
 
 
 

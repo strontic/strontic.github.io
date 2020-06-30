@@ -52,6 +52,11 @@ SSDEEP | `384:Iz1Ta0f0pScSlHS4cGZoDb7ILHigFtXCjTfejWoskr2msiyjdc6XkRfW/jFW:A0pSl
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\netbtugc.exe](netbtugc.exe-4F65D6E9B482043831C169DB586E410E.md) | 79
 
 
 

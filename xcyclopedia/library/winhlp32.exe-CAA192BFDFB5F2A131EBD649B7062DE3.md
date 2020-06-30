@@ -52,6 +52,11 @@ SSDEEP | `192:Rfq4m+jaCWGEZxyqQ4t5tmXdkLWyeHWnhh4jAr7b:RfCSWG+tnCqLWyeHWnhh4Uf`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\winhlp32.exe](winhlp32.exe-351FDCE5B7CDE5009C768FFDA64B5E57.md) | 63
 
 
 

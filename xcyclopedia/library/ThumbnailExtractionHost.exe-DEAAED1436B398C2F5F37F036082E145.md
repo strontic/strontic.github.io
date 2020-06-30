@@ -52,6 +52,11 @@ SSDEEP | `768:Pj8TiS8w6v1NURYrOIjgIbiOVzPO7iLj+ykc:Pj8Gw6d7O2PeS+ykc`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ThumbnailExtractionHost.exe](ThumbnailExtractionHost.exe-1519AC5136CDF3601AFF23A90D4FD9EC.md) | 57
 
 
 

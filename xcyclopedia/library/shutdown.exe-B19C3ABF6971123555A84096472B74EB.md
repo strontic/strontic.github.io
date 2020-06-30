@@ -136,6 +136,11 @@ E   	5	20	Loss of network connectivity (Unplanned)
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\shutdown.exe](shutdown.exe-9BD3C486D5A6378C92A8BE34EAF3088E.md) | 58
 
 ## Possible Misuse
 

@@ -57,6 +57,7 @@ conhost.exe
 File | Score
 -- | --
 [C:\Windows\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-0AEAB028DC23060EC1BC1C2D0A79B925.md) | 66
+[C:\Windows\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-23DEA2A17AB38BB991A593070F4CEC6A.md) | 97
 [C:\WINDOWS\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-DB9581764DBE3AC8FF9AB2F52F2C7A2D.md) | 99
 
 

@@ -52,6 +52,11 @@ SSDEEP | `384:2M6mOTP15zN+lsamtjp9CCJ8gOHsgVQsizKWEyW:+Td5vp0K6zVfUI`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\snmptrap.exe](snmptrap.exe-58983BFDDDB09E21AF8F3BA3EC45FC7D.md) | 54
 
 
 

@@ -56,6 +56,7 @@ SSDEEP | `96:bzam5S/tfZOWkcDLEp2TyIRoJoPcDGjs0nt+UFoiNVRrDJFMVW9EWUZhHWwP2f:6m56
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\regedt32.exe](regedt32.exe-1F64004A05B6B683C49E877084CFF97E.md) | 68
 [C:\Windows\SysWOW64\regedt32.exe](regedt32.exe-49E9EA6F79338B350A8B23CEA47D1A86.md) | 66
 
 

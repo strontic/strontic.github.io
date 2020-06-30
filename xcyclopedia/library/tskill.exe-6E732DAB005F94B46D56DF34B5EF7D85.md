@@ -66,6 +66,11 @@ TSKILL processid | processname [/SERVER:servername] [/ID:sessionid | /A] [/V]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\tskill.exe](tskill.exe-ECB28BE6AB10EC79A0E817A27F9AA6DD.md) | 47
 
 
 ## Additional Info*

@@ -602,6 +602,11 @@ VFP control and diagnostics utility
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\vfpctrl.exe](vfpctrl.exe-F2B0AE382F6BAACBD2AE6632B5C69A9F.md) | 57
 
 
 

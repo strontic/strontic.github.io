@@ -1,0 +1,83 @@
+﻿---
+title: WerFaultSecure.exe | Windows Fault Reporting
+---
+
+# WerFaultSecure.exe 
+
+* File Path: `C:\Windows\system32\WerFaultSecure.exe`
+* Description: Windows Fault Reporting
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `813CD5FD7FB059B4ED2D67A99FCBEEC0`
+SHA1 | `2D8F41FD538099AC8FF51338BF810CB126408C69`
+SHA256 | `33AED665E00FC25534FB06C19B92B65E8137551AEE03F1D6406F0ABD82815D63`
+SHA384 | `4C1F256CE525482423884BE5A3DC4EAB81773C496A6EF0DE75A675DB8A5763FEF853FE25B5798EAABF56903B8D578894`
+SHA512 | `0E2E5B8DB6F45D42B51E3AF55027B44B5DF02B539D6E55290F09C86B986986E90909372C7A39B5458200DE0B82AD23F2DAE4421250530036D13CF32EEE209C0F`
+SSDEEP | `3072:T3fsuA/LUSFh/aDpFJ+yC3pwRb6JPqB604HHy7hRCd39v+YW:T3fIzxhOgVJyB60OHyLC7v0`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: WerFaultSecure.exe.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WerFault.exe](WerFault.exe-B843354FF4C728A87A5A061E0974FD78.md) | 41
+[C:\Windows\system32\WerFault.exe](WerFault.exe-DDAA52E54923C29A2AC75BDA3CD7DADB.md) | 47
+[C:\WINDOWS\system32\WerFaultSecure.exe](WerFaultSecure.exe-6B384653F71F69C620F18506FF8D5CEB.md) | 65
+[C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-9A393C5A2213248F772F6F8AAF26CBC8.md) | 65
+[C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C0055D829C7FF7734EE77EE11B188A05.md) | 71
+[C:\Windows\system32\wermgr.exe](wermgr.exe-51F8D9C50CCF160D67388651DB19AC28.md) | 50
+[C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 66
+[C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 52
+[C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 47
+[C:\Windows\SysWOW64\WerFault.exe](WerFault.exe-78E2621A3ED108179AE91557C1F21DDA.md) | 49
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-3A8ED7F8072921BB83E6C9A143983073.md) | 65
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-504211A31F3A16D3FAD61A8451D08EFD.md) | 60
+[C:\WINDOWS\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-5DF1A6DC202D24CED14830637F145F48.md) | 65
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-F511182849011A1DBF635A34C1278C63.md) | 65
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-0F652BF7ADA772981E8AAB0D108FCC92.md) | 63
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-20FA16AAE2860CAFC503651E1D8A0B87.md) | 43
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-2B5F4FFF330CD1B3B921DAF77330C205.md) | 43
+[C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 43
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

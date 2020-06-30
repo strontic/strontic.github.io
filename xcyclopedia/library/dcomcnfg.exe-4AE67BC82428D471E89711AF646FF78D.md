@@ -52,6 +52,11 @@ SSDEEP | `192:Q3E0I+HAv9pIb2dlXUqYLHhIeVNTo7ewTlbBG7/kfuW0EW:Q3EkHYPMclXUqYLBZTU
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dcomcnfg.exe](dcomcnfg.exe-2230E122EB447CBC9EAAE68AF853F3B7.md) | 60
 
 
 

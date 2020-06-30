@@ -57,6 +57,7 @@ SSDEEP | `3072:fhP2ErzTESY0QeKpy/z/wyCTBQSZAuegPO8evTq2Vq:flQSdQw/rCTBlFegEv+2V`
 File | Score
 -- | --
 [C:\WINDOWS\system32\recdisc.exe](recdisc.exe-DDE26EAF7CE76090F825775D9FC318A7.md) | 60
+[C:\Windows\system32\RelPost.exe](RelPost.exe-1291A9F82F82C0B57F312300A1B09895.md) | 50
 [C:\Windows\system32\RelPost.exe](RelPost.exe-932819A3B3ED8CF19348D7B349E7B49A.md) | 52
 [C:\WINDOWS\system32\RelPost.exe](RelPost.exe-9499F2E28D56464FCB187BAD92F8076D.md) | 41
 [C:\Windows\system32\RelPost.exe](RelPost.exe-E351DDC4F470EDEF41D705315CA1F156.md) | 43

@@ -89,6 +89,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\msg.exe](msg.exe-19F739EF36C5B97158AE639EB79E205F.md) | 85
 
 
 ## Additional Info*

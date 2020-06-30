@@ -80,6 +80,11 @@ $*     Symbol replaced by everything following macro name on command line.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\doskey.exe](doskey.exe-BB1CE26B03564489620E07D9BBC308BF.md) | 46
 
 ## Possible Misuse
 

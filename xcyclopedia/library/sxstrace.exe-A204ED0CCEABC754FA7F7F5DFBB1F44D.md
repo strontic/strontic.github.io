@@ -66,6 +66,11 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\sxstrace.exe](sxstrace.exe-B50DF715CD6FD0B92C660F2326B0181E.md) | 27
 
 
 ## Additional Info*

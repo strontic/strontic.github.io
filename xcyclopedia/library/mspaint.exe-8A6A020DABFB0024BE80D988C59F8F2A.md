@@ -56,7 +56,9 @@ SSDEEP | `98304:WsPOzq2u7InCEE+wysPM4mlaw0LI60GBGrGrGWAuU7jPLQ:hPOzq6nTE+wBMHlaw
 
 File | Score
 -- | --
+[C:\Windows\system32\mspaint.exe](mspaint.exe-67C68B11E98970966DF59D2FAD6152BF.md) | 69
 [C:\Windows\system32\mspaint.exe](mspaint.exe-A5F69864C0CA8FDC157F3E7EF48F2F10.md) | 91
+[C:\Windows\SysWOW64\mspaint.exe](mspaint.exe-7598568851B293CD82E958C3B9735F7C.md) | 68
 
 ## Possible Misuse
 

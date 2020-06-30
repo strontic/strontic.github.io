@@ -67,6 +67,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\finger.exe](finger.exe-7072125EE25D342DF114919ED68D34A1.md) | 74
 
 
 ## Additional Info*

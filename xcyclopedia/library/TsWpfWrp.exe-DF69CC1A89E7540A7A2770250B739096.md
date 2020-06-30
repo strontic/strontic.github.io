@@ -58,7 +58,9 @@ Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
 File | Score
 -- | --
 [C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 29
+[C:\Windows\system32\TsWpfWrp.exe](TsWpfWrp.exe-E7220B745646E732C1388B6173E5C6E9.md) | 88
 [C:\WINDOWS\SysWOW64\TsWpfWrp.exe](TsWpfWrp.exe-29080A899EACB7AC730A681B515A86EF.md) | 75
+[C:\Windows\SysWOW64\TsWpfWrp.exe](TsWpfWrp.exe-8A89E11097AA485616BD3833369F0B08.md) | 69
 
 
 

@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-019C68136DB95EEC5275E1246B17A288.md) | 66
 [C:\WINDOWS\system32\aitstatic.exe](aitstatic.exe-2C02288BFAFB12E33BAB55AB06A6EF23.md) | 97
+[C:\Windows\system32\aitstatic.exe](aitstatic.exe-84BED4FA529D5F89B4E2AE8947F33C6A.md) | 97
 
 
 

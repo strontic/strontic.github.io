@@ -57,6 +57,11 @@ HELP [command]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\help.exe](help.exe-DB1F19E6BAADBD36EA51F31F4210D756.md) | 61
 
 
 ## Additional Info*

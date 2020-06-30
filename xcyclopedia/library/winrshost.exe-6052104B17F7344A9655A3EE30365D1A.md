@@ -52,6 +52,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\winrshost.exe](winrshost.exe-06044E3942AB103B96307187BBD1ED93.md) | 43
 
 
 
