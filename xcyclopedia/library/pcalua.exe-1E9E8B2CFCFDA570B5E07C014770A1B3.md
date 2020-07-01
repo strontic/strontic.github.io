@@ -4,7 +4,7 @@ title: pcalua.exe | Program Compatibility Assistant
 
 # pcalua.exe 
 
-* File Path: `C:\Windows\system32\pcalua.exe`
+* File Path: `C:\windows\system32\pcalua.exe`
 * Description: Program Compatibility Assistant
 * Comments: 
 

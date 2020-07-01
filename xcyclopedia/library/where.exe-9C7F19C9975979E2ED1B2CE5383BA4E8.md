@@ -4,7 +4,7 @@ title: where.exe | Where - Lists location of files
 
 # where.exe 
 
-* File Path: `C:\Windows\system32\where.exe`
+* File Path: `C:\windows\system32\where.exe`
 * Description: Where - Lists location of files
 * Comments: 
 

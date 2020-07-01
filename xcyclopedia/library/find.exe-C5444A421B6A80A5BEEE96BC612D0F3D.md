@@ -4,7 +4,7 @@ title: find.exe | Find String (grep) Utility
 
 # find.exe 
 
-* File Path: `C:\Windows\system32\find.exe`
+* File Path: `C:\windows\system32\find.exe`
 * Description: Find String (grep) Utility
 * Comments: 
 

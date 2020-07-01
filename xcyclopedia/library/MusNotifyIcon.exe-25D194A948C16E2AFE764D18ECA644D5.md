@@ -4,7 +4,7 @@ title: MusNotifyIcon.exe | MusNotifyIcon.exe
 
 # MusNotifyIcon.exe 
 
-* File Path: `C:\Windows\system32\MusNotifyIcon.exe`
+* File Path: `C:\windows\system32\MusNotifyIcon.exe`
 * Description: MusNotifyIcon.exe
 * Comments: 
 

@@ -4,7 +4,7 @@ title: sdiagnhost.exe | Scripted Diagnostics Native Host
 
 # sdiagnhost.exe 
 
-* File Path: `C:\Windows\system32\sdiagnhost.exe`
+* File Path: `C:\windows\system32\sdiagnhost.exe`
 * Description: Scripted Diagnostics Native Host
 * Comments: 
 
@@ -56,6 +56,7 @@ conhost.exe
 
 File | Score
 -- | --
+[C:\windows\system32\sdiagnhost.exe](sdiagnhost.exe-4946EEFDBC08E0BAD98033137502FAA6.md) | 30
 [C:\WINDOWS\system32\sdiagnhost.exe](sdiagnhost.exe-6458634E67F8AE415A0A871953C04F06.md) | 74
 [C:\Windows\system32\sdiagnhost.exe](sdiagnhost.exe-6A21B1893DDE94CB87BA56111375888A.md) | 36
 

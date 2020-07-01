@@ -4,7 +4,7 @@ title: DIMC.exe | Deployment Initial Machine Configuration Tool
 
 # DIMC.exe 
 
-* File Path: `C:\Windows\system32\DIMC.exe`
+* File Path: `C:\windows\system32\DIMC.exe`
 * Description: Deployment Initial Machine Configuration Tool
 * Comments: 
 

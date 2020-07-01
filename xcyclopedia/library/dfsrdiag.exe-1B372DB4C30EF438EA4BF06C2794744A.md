@@ -4,7 +4,7 @@ title: dfsrdiag.exe | DFS Replication Diagnostics Tool
 
 # dfsrdiag.exe 
 
-* File Path: `C:\Windows\system32\dfsrdiag.exe`
+* File Path: `C:\windows\system32\dfsrdiag.exe`
 * Description: DFS Replication Diagnostics Tool
 * Comments: 
 
@@ -62,7 +62,7 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
 ```
 
 ### Child Processes:
-
+mmc.exe
 
 ## Signature
 

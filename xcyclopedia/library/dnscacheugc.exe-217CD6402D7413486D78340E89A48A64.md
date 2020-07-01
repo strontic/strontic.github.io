@@ -4,7 +4,7 @@ title: dnscacheugc.exe | DNSCache Unattend Generic Command
 
 # dnscacheugc.exe 
 
-* File Path: `C:\Windows\system32\dnscacheugc.exe`
+* File Path: `C:\windows\system32\dnscacheugc.exe`
 * Description: DNSCache Unattend Generic Command
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `384:xmP+UlYbpy8KVWnBEhYPz6ZAFRZMcbWlHZ61at/VYMXPryc1ObH9uosk4z/UI2fq:x
 File | Score
 -- | --
 [C:\WINDOWS\system32\dnscacheugc.exe](dnscacheugc.exe-15551D0CD29028F3B08FB1469F87B427.md) | 69
+[C:\windows\system32\dnscacheugc.exe](dnscacheugc.exe-728F97CD4946C2A6D63A78759A2B5D5C.md) | 27
 [C:\Windows\system32\dnscacheugc.exe](dnscacheugc.exe-D0B5FAF9E653543DEA270ECF5C720E0C.md) | 38
 
 

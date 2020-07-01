@@ -4,7 +4,7 @@ title: ie4ushowIE.exe | IE Per-User Show IE Icon Utility
 
 # ie4ushowIE.exe 
 
-* File Path: `C:\Windows\system32\ie4ushowIE.exe`
+* File Path: `C:\windows\system32\ie4ushowIE.exe`
 * Description: IE Per-User Show IE Icon Utility
 * Comments: 
 

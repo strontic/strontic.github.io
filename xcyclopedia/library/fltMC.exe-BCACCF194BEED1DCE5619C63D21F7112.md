@@ -4,7 +4,7 @@ title: fltMC.exe | Filter Manager Control Program
 
 # fltMC.exe 
 
-* File Path: `C:\Windows\system32\fltMC.exe`
+* File Path: `C:\windows\system32\fltMC.exe`
 * Description: Filter Manager Control Program
 * Comments: 
 

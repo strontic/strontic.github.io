@@ -4,7 +4,7 @@ title: nslookup.exe | nslookup
 
 # nslookup.exe 
 
-* File Path: `C:\Windows\system32\nslookup.exe`
+* File Path: `C:\windows\system32\nslookup.exe`
 * Description: nslookup
 * Comments: 
 
@@ -23,8 +23,8 @@ SSDEEP | `768:3xx2FQe580dMI0GA4/YQFRWsWlYviTs3lvW22Mn1tZRyNXVkjheTFRYnM0qLdYG6:w
 
 ### Usage (stdout):
 ```Batchfile
-Default Server:  ip-172-31-0-2.us-east-2.compute.internal
-Address:  172.31.0.2
+Default Server:  UnKnown
+Address:  168.63.129.16
 
 > 
 ```

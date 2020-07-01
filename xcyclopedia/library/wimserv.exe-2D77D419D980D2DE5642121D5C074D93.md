@@ -4,7 +4,7 @@ title: wimserv.exe | Wimfltr v2 extractor
 
 # wimserv.exe 
 
-* File Path: `C:\Windows\system32\wimserv.exe`
+* File Path: `C:\windows\system32\wimserv.exe`
 * Description: Wimfltr v2 extractor
 * Comments: 
 

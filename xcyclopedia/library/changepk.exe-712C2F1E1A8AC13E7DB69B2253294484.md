@@ -4,7 +4,7 @@ title: changepk.exe | Windows Activation
 
 # changepk.exe 
 
-* File Path: `C:\Windows\system32\changepk.exe`
+* File Path: `C:\windows\system32\changepk.exe`
 * Description: Windows Activation
 * Comments: 
 

@@ -4,7 +4,7 @@ title: certoc.exe | CertOC.exe
 
 # certoc.exe 
 
-* File Path: `C:\Windows\system32\certoc.exe`
+* File Path: `C:\windows\system32\certoc.exe`
 * Description: CertOC.exe
 * Comments: 
 

@@ -4,7 +4,7 @@ title: conhost.exe | Console Window Host
 
 # conhost.exe 
 
-* File Path: `C:\Windows\system32\conhost.exe`
+* File Path: `C:\windows\system32\conhost.exe`
 * Description: Console Window Host
 * Comments: 
 
@@ -23,8 +23,39 @@ SSDEEP | `12288:Z5VnZ6Fc5FgVOv9N/eP6GXTaCNqc+6qOBJoTblzu3snT+tCblZ9/:ZrnZVfjvTO6
 
 ### Usage (stdout):
 ```Batchfile
-[2J[?25l[m[30;1H
+[2J[m[H[H]0;C:\windows\system32\help.exe[?25lFor more information on a specific command, type HELP command-name 
+[?25h[?25l[30;1H
 
+[HATTRIB         Displays or changes file attributes.[69X[69C
+BREAK          Sets or clears extended CTRL+C checking.[65X[65C
+BCDEDIT        Sets properties in boot database to control boot loading.[48X[48C
+CACLS          Displays or modifies access control lists (ACLs) of files.[47X[47C
+CALL           Calls one batch program from another.[68X[68C
+CD             Displays the name of or changes the current directory.[51X[51C
+CHCP           Displays or sets the active code page number.[60X[60C
+CHDIR          Displays the name of or changes the current directory.[51X[51C
+CHKDSK         Checks a disk and displays a status report.[62X[62C
+CHKNTFS        Displays or modifies the checking of disk at boot time.[50X[50C
+CLS            Clears the screen.[87X[87C
+CMD            Starts a new instance of the Windows command interpreter.[48X[48C
+COLOR          Sets the default console foreground and background colors.[47X[47C
+COMP           Compares the contents of two files or sets of files.[53X[53C
+COMPACT        Displays or alters the compression of files on NTFS partitions.[42X[42C
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the[52X[52C
+               current drive.[91X[91C
+COPY           Copies one or more files to another location.[60X[60C
+DATE           Displays or sets the date.[79X[79C
+DEL            Deletes one or more files.[79X[79C
+DIR            Displays a list of files and subdirectories in a directory.[46X[46C
+DISKPART       Displays or configures Disk Partition properties.[56X[56C
+DOSKEY         Edits command lines, recalls Windows commands, and[55X[55C
+               creates macros.[90X[90C
+DRIVERQUERY    Displays current device driver status and properties.[52X[52C
+ECHO           Displays messages, or turns command echoing on or off.[51X[51C
+ENDLOCAL       Ends localization of environment changes in a batch file.[48X[48C
+ERASE          Deletes one or more files.[79X[79C
+EXIT           Quits the CMD.EXE program (command interpreter).[57X[57C
+[120X[120C[?25h[?25l
 
 
 
@@ -42,6 +73,25 @@ SSDEEP | `12288:Z5VnZ6Fc5FgVOv9N/eP6GXTaCNqc+6qOBJoTblzu3snT+tCblZ9/:ZrnZVfjvTO6
 
 
 
+[12;1HFC             Compares two files or sets of files, and displays the[52X[52C
+               differences between them.[80X[80C
+FIND           Searches for a text string in a file or files.[59X[59C
+FINDSTR        Searches for strings in files.[75X[75C
+FOR            Runs a specified command for each file in a set of files.[48X[48C
+FORMAT         Formats a disk for use with Windows.[69X[69C
+FSUTIL         Displays or configures the file system properties.[55X[55C
+FTYPE          Displays or modifies file types used in file extension[51X[51C
+               associations.[92X[92C
+GOTO           Directs the Windows command interpreter to a labeled line in[45X[45C
+               a batch program.[89X[89C
+GPRESULT       Displays Group Policy information for machine or user.[51X[51C
+GRAFTABL       Enables Windows to display an extended character set in[50X[50C
+               graphics mode.[91X[91C
+HELP           Provides Help information for Windows commands.[58X[58C
+ICACLS         Display, modify, backup, or restore ACLs for files and[51X[51C
+               directories.[93X[93C
+IF             Performs conditional processing in batch programs.[55X[55C
+[120X[120C[?25h[?25l
 
 
 
@@ -50,6 +100,16 @@ SSDEEP | `12288:Z5VnZ6Fc5FgVOv9N/eP6GXTaCNqc+6qOBJoTblzu3snT+tCblZ9/:ZrnZVfjvTO6
 
 
 
+[21;1HLABEL          Creates, changes, or deletes the volume label of a disk.[49X[49C
+MD             Creates a directory.[85X[85C
+MKDIR          Creates a directory.[85X[85C
+MKLINK         Creates Symbolic Links and Hard Links[68X[68C
+MODE           Configures a system device.[78X[78C
+MORE           Displays output one screen at a time.[68X[68C
+MOVE           Moves one or more files from one directory to another[52X[52C
+               directory.[95X[95C
+OPENFILES      Displays files opened by remote users for a file share.[50X[50C
+[120X[120C[?25h[?25l
 
 
 
@@ -57,37 +117,16 @@ SSDEEP | `12288:Z5VnZ6Fc5FgVOv9N/eP6GXTaCNqc+6qOBJoTblzu3snT+tCblZ9/:ZrnZVfjvTO6
 
 
 
+[22;1HPATH           Displays or sets a search path for executable files.[53X[53C
+PAUSE          Suspends processing of a batch file and displays a message.[46X[46C
+POPD           Restores the previous value of the current directory saved by[44X[44C
+               PUSHD.[99X[99C
+PRINT          Prints a text file.[86X[86C
+PROMPT         Changes the Windows command prompt.[70X[70C
+PUSHD          Saves the current directory then changes it.[61X[61C
+RD             Removes a directory.[85X[85C
+[120X[120C[?25h[?25l
 
-[HFOR            Runs a specified command for each file in a set of files.
-FORMAT         Formats a disk for use with Windows.
-FSUTIL         Displays or configures the file system properties.
-FTYPE          Displays or modifies file types used in file extension
-               associations.
-GOTO           Directs the Windows command interpreter to a labeled line in
-               a batch program.
-GPRESULT       Displays Group Policy information for machine or user.
-GRAFTABL       Enables Windows to display an extended character set in
-               graphics mode.
-HELP           Provides Help information for Windows commands.
-ICACLS         Display, modify, backup, or restore ACLs for files and
-               directories.
-IF             Performs conditional processing in batch programs.
-LABEL          Creates, changes, or deletes the volume label of a disk.
-MD             Creates a directory.
-MKDIR          Creates a directory.
-MKLINK         Creates Symbolic Links and Hard Links
-MODE           Configures a system device.
-MORE           Displays output one screen at a time.
-MOVE           Moves one or more files from one directory to another
-               directory.
-OPENFILES      Displays files opened by remote users for a file share.
-PATH           Displays or sets a search path for executable files.
-PAUSE          Suspends processing of a batch file and displays a message.
-POPD           Restores the previous value of the current directory saved by
-               PUSHD.
-PRINT          Prints a text file.
-PROMPT         Changes the Windows command prompt.
-]0;C:\Windows\system32\help.exe[?25h[?25l
 
 
 
@@ -100,28 +139,10 @@ PROMPT         Changes the Windows command prompt.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[HRENAME         Renames a file or files.[81X[81C
+[16;1HRECOVER        Recovers readable information from a bad or defective disk.[46X[46C
+REM            Records comments (remarks) in batch files or CONFIG.SYS.[49X[49C
+REN            Renames a file or files.[81X[81C
+RENAME         Renames a file or files.[81X[81C
 REPLACE        Replaces files.[90X[90C
 RMDIR          Removes a directory.[85X[85C
 ROBOCOPY       Advanced utility to copy files and directory trees[55X[55C
@@ -132,12 +153,26 @@ SCHTASKS       Schedules commands and programs to run on a computer.[52X[52C
 SHIFT          Shifts the position of replaceable parameters in batch files.[44X[44C
 SHUTDOWN       Allows proper local or remote shutdown of machine.[55X[55C
 SORT           Sorts input.[93X[93C
-START          Starts a separate window to run a specified program or command.[42X[42C
+[120X[120C[?25h[?25l
+
+
+
+
+[25;1HSTART          Starts a separate window to run a specified program or command.[42X[42C
 SUBST          Associates a path with a drive letter.[67X[67C
 SYSTEMINFO     Displays machine specific properties and configuration.[50X[50C
 TASKLIST       Displays all currently running tasks including services.[49X[49C
 TASKKILL       Kill or stop a running process or application.[59X[59C
-TIME           Displays or sets the system time.[72X[72C
+[120X[120C[?25h[?25l
+
+
+
+
+
+
+
+
+[21;1HTIME           Displays or sets the system time.[72X[72C
 TITLE          Sets the window title for a CMD.EXE session.[61X[61C
 TREE           Graphically displays the directory structure of a drive or[47X[47C
                path.[100X[100C
@@ -146,7 +181,11 @@ VER            Displays the Windows version.[76X[76C
 VERIFY         Tells Windows whether to verify that your files are written[46X[46C
                correctly to a disk.[85X[85C
 VOL            Displays a disk volume label and serial number.[58X[58C
-XCOPY          Copies files and directory trees.[72X[72C
+[120X[120C[?25h[?25l
+
+
+
+[26;1HXCOPY          Copies files and directory trees.[72X[72C
 WMIC           Displays WMI information inside interactive command shell.[47X[47C
 [120X[120C
 For more information on tools see the command-line reference in the online help.[40X[40C

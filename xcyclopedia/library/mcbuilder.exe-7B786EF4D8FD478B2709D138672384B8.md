@@ -4,7 +4,7 @@ title: mcbuilder.exe | Resource cache builder tool
 
 # mcbuilder.exe 
 
-* File Path: `C:\Windows\system32\mcbuilder.exe`
+* File Path: `C:\windows\system32\mcbuilder.exe`
 * Description: Resource cache builder tool
 * Comments: 
 

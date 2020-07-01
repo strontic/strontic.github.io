@@ -4,7 +4,7 @@ title: InfDefaultInstall.exe | INF Default Install
 
 # InfDefaultInstall.exe 
 
-* File Path: `C:\Windows\system32\InfDefaultInstall.exe`
+* File Path: `C:\windows\system32\InfDefaultInstall.exe`
 * Description: INF Default Install
 * Comments: 
 

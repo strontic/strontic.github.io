@@ -4,7 +4,7 @@ title: cttunesvr.exe | ClearType Tuner
 
 # cttunesvr.exe 
 
-* File Path: `C:\Windows\system32\cttunesvr.exe`
+* File Path: `C:\windows\system32\cttunesvr.exe`
 * Description: ClearType Tuner
 * Comments: 
 

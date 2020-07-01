@@ -4,7 +4,7 @@ title: winlogon.exe | Windows Logon Application
 
 # winlogon.exe 
 
-* File Path: `C:\Windows\system32\winlogon.exe`
+* File Path: `C:\windows\system32\winlogon.exe`
 * Description: Windows Logon Application
 * Comments: 
 

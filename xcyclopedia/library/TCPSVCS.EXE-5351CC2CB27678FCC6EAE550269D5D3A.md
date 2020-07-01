@@ -4,7 +4,7 @@ title: TCPSVCS.EXE | TCP/IP Services Application
 
 # TCPSVCS.EXE 
 
-* File Path: `C:\Windows\system32\TCPSVCS.EXE`
+* File Path: `C:\windows\system32\TCPSVCS.EXE`
 * Description: TCP/IP Services Application
 * Comments: 
 

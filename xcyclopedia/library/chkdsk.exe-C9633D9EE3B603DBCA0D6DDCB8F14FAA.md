@@ -4,7 +4,7 @@ title: chkdsk.exe | Check Disk Utility
 
 # chkdsk.exe 
 
-* File Path: `C:\Windows\SysWOW64\chkdsk.exe`
+* File Path: `C:\windows\SysWOW64\chkdsk.exe`
 * Description: Check Disk Utility
 * Comments: 
 
@@ -79,7 +79,7 @@ skipping certain checks of the volume.
 ```
 
 ### Child Processes:
-
+wordpad.exe
 
 ## Signature
 

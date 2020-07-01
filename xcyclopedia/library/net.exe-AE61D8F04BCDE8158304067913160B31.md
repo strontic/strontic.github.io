@@ -4,7 +4,7 @@ title: net.exe | Net Command
 
 # net.exe 
 
-* File Path: `C:\Windows\system32\net.exe`
+* File Path: `C:\windows\system32\net.exe`
 * Description: Net Command
 * Comments: 
 

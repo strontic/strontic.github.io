@@ -4,7 +4,7 @@ title: comrepl.exe | COM+ Server Replication
 
 # comrepl.exe 
 
-* File Path: `C:\Windows\SysWOW64\com\comrepl.exe`
+* File Path: `C:\windows\SysWOW64\com\comrepl.exe`
 * Description: COM+ Server Replication
 * Comments: 
 
@@ -34,7 +34,7 @@ ERROR: WriteConsole failed = 00000001
 ```
 
 ### Child Processes:
-RdpSa.exe
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: Robocopy.exe | Microsoft Robocopy
 
 # Robocopy.exe 
 
-* File Path: `C:\Windows\SysWOW64\Robocopy.exe`
+* File Path: `C:\windows\SysWOW64\Robocopy.exe`
 * Description: Microsoft Robocopy
 * Comments: 
 
@@ -28,7 +28,7 @@ SSDEEP | `1536:mApbBIj7ia5hTXZbCPh1PLed8hSrDiHU7oZHr9xpSCihGEwI+yx3:mAptIjt1kPvP
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Monday, June 29, 2020 5:01:44 PM
+  Started : Wednesday, July 1, 2020 2:57:10 AM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -159,6 +159,36 @@ SSDEEP | `1536:mApbBIj7ia5hTXZbCPh1PLed8hSrDiHU7oZHr9xpSCihGEwI+yx3:mAptIjt1kPvP
                /ETA :: show Estimated Time of Arrival of copied files.
 
           /LOG:file :: output status to LOG file (overwrite existing log).
+         /LOG+:file :: output status to LOG file (append to existing log).
+
+       /UNILOG:file :: output status to LOG file as UNICODE (overwrite existing log).
+      /UNILOG+:file :: output status to LOG file as UNICODE (append to existing log).
+
+               /TEE :: output to console window, as well as the log file.
+
+               /NJH :: No Job Header.
+               /NJS :: No Job Summary.
+
+           /UNICODE :: output status as UNICODE.
+
+::
+:: Job Options :
+::
+       /JOB:jobname :: take parameters from the named JOB file.
+      /SAVE:jobname :: SAVE parameters to the named job file
+              /QUIT :: QUIT after processing command line (to view parameters). 
+              /NOSD :: NO Source Directory is specified.
+              /NODD :: NO Destination Directory is specified.
+                /IF :: Include the following Files.
+
+::
+:: Remarks :
+::
+       Using /PURGE or /MIR on the root directory of the volume formerly caused 
+       robocopy to apply the requested operation on files inside the System 
+       Volume Information directory as well. This is no longer the case; if 
+       either is specified, robocopy will skip any files or directories with that 
+       name in the top-level source and destination directories of the copy session.
 
 ```
 
@@ -168,7 +198,7 @@ SSDEEP | `1536:mApbBIj7ia5hTXZbCPh1PLed8hSrDiHU7oZHr9xpSCihGEwI+yx3:mAptIjt1kPvP
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

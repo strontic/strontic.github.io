@@ -4,7 +4,7 @@ title: iashost.exe | IAS Host
 
 # iashost.exe 
 
-* File Path: `C:\Windows\SysWOW64\iashost.exe`
+* File Path: `C:\windows\SysWOW64\iashost.exe`
 * Description: IAS Host
 * Comments: 
 

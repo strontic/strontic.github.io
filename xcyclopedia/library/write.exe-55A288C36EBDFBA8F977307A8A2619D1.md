@@ -4,7 +4,7 @@ title: write.exe | Windows Write
 
 # write.exe 
 
-* File Path: `C:\Windows\SysWOW64\write.exe`
+* File Path: `C:\windows\SysWOW64\write.exe`
 * Description: Windows Write
 * Comments: 
 

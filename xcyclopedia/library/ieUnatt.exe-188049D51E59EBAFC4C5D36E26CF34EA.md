@@ -4,7 +4,7 @@ title: ieUnatt.exe | IE 7.0 Unattended Install Utility
 
 # ieUnatt.exe 
 
-* File Path: `C:\Windows\SysWOW64\ieUnatt.exe`
+* File Path: `C:\windows\SysWOW64\ieUnatt.exe`
 * Description: IE 7.0 Unattended Install Utility
 * Comments: 
 

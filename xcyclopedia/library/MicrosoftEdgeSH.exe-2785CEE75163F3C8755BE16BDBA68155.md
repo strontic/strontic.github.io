@@ -4,7 +4,7 @@ title: MicrosoftEdgeSH.exe | Microsoft Edge Web Platform
 
 # MicrosoftEdgeSH.exe 
 
-* File Path: `C:\Windows\system32\MicrosoftEdgeSH.exe`
+* File Path: `C:\windows\system32\MicrosoftEdgeSH.exe`
 * Description: Microsoft Edge Web Platform
 * Comments: 
 
@@ -53,6 +53,13 @@ SSDEEP | `768:FZymeD5NFlGX3MAtrpgBD+YGiYH3j5cTnYSu9aeqb1+ync+:FZm5NFlGX3ZtrpgClN
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `MicrosoftEdgeSH.exe` being misused. While `MicrosoftEdgeSH.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_powershell_parent_process.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml) | `            - "MicrosoftEdgeSH.exe"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

@@ -4,7 +4,7 @@ title: rmttpmvscmgrsvr.exe | TPM Virtual Smart Card Manager DCOM Server
 
 # rmttpmvscmgrsvr.exe 
 
-* File Path: `C:\Windows\system32\rmttpmvscmgrsvr.exe`
+* File Path: `C:\windows\system32\rmttpmvscmgrsvr.exe`
 * Description: TPM Virtual Smart Card Manager DCOM Server
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `3072:LWmZBgGFCvMIU/Zl4Y8uMVhvmbPEzmTO:JXhWAl4Y8uMV9mwz`
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 

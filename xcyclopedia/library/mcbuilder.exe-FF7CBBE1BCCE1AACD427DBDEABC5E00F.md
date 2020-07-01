@@ -4,7 +4,7 @@ title: mcbuilder.exe | Resource cache builder tool
 
 # mcbuilder.exe 
 
-* File Path: `C:\Windows\SysWOW64\mcbuilder.exe`
+* File Path: `C:\windows\SysWOW64\mcbuilder.exe`
 * Description: Resource cache builder tool
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:8k0hBmMsWjcdISFZ2fY1DWgFZCmj88+Tnvb9hQBscHiRUE+w82Qu6tUQkv/:IBGIS
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

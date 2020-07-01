@@ -4,7 +4,7 @@ title: schtasks.exe | Task Scheduler Configuration Tool
 
 # schtasks.exe 
 
-* File Path: `C:\Windows\SysWOW64\schtasks.exe`
+* File Path: `C:\windows\SysWOW64\schtasks.exe`
 * Description: Task Scheduler Configuration Tool
 * Comments: 
 
@@ -68,7 +68,7 @@ Type "SCHTASKS /QUERY /?" for usage.
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

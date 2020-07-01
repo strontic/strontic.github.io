@@ -4,7 +4,7 @@ title: forfiles.exe | ForFiles - Executes a command on selected files
 
 # forfiles.exe 
 
-* File Path: `C:\Windows\SysWOW64\forfiles.exe`
+* File Path: `C:\windows\SysWOW64\forfiles.exe`
 * Description: ForFiles - Executes a command on selected files
 * Comments: 
 
@@ -96,7 +96,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +6/29/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +7/1/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"

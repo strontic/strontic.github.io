@@ -4,7 +4,7 @@ title: DFDWiz.exe | Windows Disk Diagnostic User Resolver
 
 # DFDWiz.exe 
 
-* File Path: `C:\Windows\system32\DFDWiz.exe`
+* File Path: `C:\windows\system32\DFDWiz.exe`
 * Description: Windows Disk Diagnostic User Resolver
 * Comments: 
 

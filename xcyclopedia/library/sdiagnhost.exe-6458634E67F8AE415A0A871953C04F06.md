@@ -56,6 +56,7 @@ conhost.exe
 
 File | Score
 -- | --
+[C:\windows\system32\sdiagnhost.exe](sdiagnhost.exe-4946EEFDBC08E0BAD98033137502FAA6.md) | 29
 [C:\Windows\system32\sdiagnhost.exe](sdiagnhost.exe-6A21B1893DDE94CB87BA56111375888A.md) | 35
 [C:\Windows\system32\sdiagnhost.exe](sdiagnhost.exe-9BB47FC39CB24A16A0AB0302960645BA.md) | 74
 

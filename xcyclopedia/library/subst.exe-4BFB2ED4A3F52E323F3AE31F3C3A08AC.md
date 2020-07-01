@@ -4,7 +4,7 @@ title: subst.exe | Subst Utility
 
 # subst.exe 
 
-* File Path: `C:\Windows\system32\subst.exe`
+* File Path: `C:\windows\system32\subst.exe`
 * Description: Subst Utility
 * Comments: 
 

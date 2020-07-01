@@ -4,7 +4,7 @@ title: dplaysvr.exe | DirectPlay Stub
 
 # dplaysvr.exe 
 
-* File Path: `C:\Windows\SysWOW64\dplaysvr.exe`
+* File Path: `C:\windows\SysWOW64\dplaysvr.exe`
 * Description: DirectPlay Stub
 * Comments: 
 

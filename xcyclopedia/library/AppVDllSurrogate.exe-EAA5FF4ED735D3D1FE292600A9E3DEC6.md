@@ -4,7 +4,7 @@ title: AppVDllSurrogate.exe | Client DLL Surrogate Host
 
 # AppVDllSurrogate.exe 
 
-* File Path: `C:\Windows\system32\AppVDllSurrogate.exe`
+* File Path: `C:\windows\system32\AppVDllSurrogate.exe`
 * Description: Client DLL Surrogate Host
 * Comments: 
 

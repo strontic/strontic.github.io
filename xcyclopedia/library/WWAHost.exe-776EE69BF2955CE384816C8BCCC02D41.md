@@ -4,7 +4,7 @@ title: WWAHost.exe | Microsoft WWA Host
 
 # WWAHost.exe 
 
-* File Path: `C:\Windows\SysWOW64\WWAHost.exe`
+* File Path: `C:\windows\SysWOW64\WWAHost.exe`
 * Description: Microsoft WWA Host
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `12288:N0jLUorSvvHBLEGomLGLYLpLbLyKLgLSLqLlL6LvLOYeayWnv4ndboNoIozoMoXe
 ```
 
 ### Child Processes:
-wordpad.exe WWAHost.exe WerFault.exe
+
 
 ## Signature
 

@@ -244,9 +244,11 @@ The operation completed successfully.
 
 File | Score
 -- | --
+[C:\windows\system32\iscsicli.exe](iscsicli.exe-518F842EA8449A89448D6754A4AA8AD9.md) | 75
 [C:\Windows\system32\iscsicli.exe](iscsicli.exe-DDD4ADBFC4B3C951084CB5F59D46E7C3.md) | 69
 [C:\Windows\SysWOW64\iscsicli.exe](iscsicli.exe-256A7F9BA07FA2DE104725F1EF97EE7C.md) | 68
 [C:\Windows\SysWOW64\iscsicli.exe](iscsicli.exe-8E8F391704E2A0E15B67740BC79B7B38.md) | 66
+[C:\windows\SysWOW64\iscsicli.exe](iscsicli.exe-E14C6ADFC8FE002023459590BFF0009C.md) | 75
 
 
 

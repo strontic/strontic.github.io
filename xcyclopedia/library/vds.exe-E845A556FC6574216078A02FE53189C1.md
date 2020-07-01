@@ -4,7 +4,7 @@ title: vds.exe | Virtual Disk Service
 
 # vds.exe 
 
-* File Path: `C:\Windows\system32\vds.exe`
+* File Path: `C:\windows\system32\vds.exe`
 * Description: Virtual Disk Service
 * Comments: 
 

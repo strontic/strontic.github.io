@@ -4,7 +4,7 @@ title: winrshost.exe | Host Process for WinRM's Remote Shell plugin
 
 # winrshost.exe 
 
-* File Path: `C:\Windows\system32\winrshost.exe`
+* File Path: `C:\windows\system32\winrshost.exe`
 * Description: Host Process for WinRM's Remote Shell plugin
 * Comments: 
 

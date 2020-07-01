@@ -4,7 +4,7 @@ title: scp.exe |
 
 # scp.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\scp.exe`
+* File Path: `C:\windows\system32\OpenSSH\scp.exe`
 * Description: 
 * Comments: 
 

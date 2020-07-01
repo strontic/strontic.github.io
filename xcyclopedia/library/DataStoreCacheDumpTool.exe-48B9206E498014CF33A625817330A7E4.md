@@ -4,7 +4,7 @@ title: DataStoreCacheDumpTool.exe |
 
 # DataStoreCacheDumpTool.exe 
 
-* File Path: `C:\Windows\system32\DataStoreCacheDumpTool.exe`
+* File Path: `C:\windows\system32\DataStoreCacheDumpTool.exe`
 * Description: 
 * Comments: 
 

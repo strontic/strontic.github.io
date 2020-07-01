@@ -4,7 +4,7 @@ title: PkgMgr.exe | Windows Package Manager
 
 # PkgMgr.exe 
 
-* File Path: `C:\Windows\system32\PkgMgr.exe`
+* File Path: `C:\windows\system32\PkgMgr.exe`
 * Description: Windows Package Manager
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `3072:JdN18XlC0HmKIbTENXK6JRAqs4xjw8m1IsF/Xq:fX89HmtbTMHxM8cT/X`
 File | Score
 -- | --
 [C:\WINDOWS\system32\PkgMgr.exe](PkgMgr.exe-16C0DDFCE82A53516E634F691689EBB6.md) | 50
+[C:\windows\system32\PkgMgr.exe](PkgMgr.exe-B212B2FE6910AF8B2068F2FF2242204F.md) | 41
 [C:\Windows\system32\PkgMgr.exe](PkgMgr.exe-DC51BE58FEAF1A400DA1BBFC16219C10.md) | 46
 [C:\Windows\system32\wusa.exe](wusa.exe-59701FE9C8BA85BCEB73A9B1B3E8E1C4.md) | 43
 

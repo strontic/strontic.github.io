@@ -4,7 +4,7 @@ title: odbcconf.exe | ODBC Driver Configuration Program
 
 # odbcconf.exe 
 
-* File Path: `C:\Windows\system32\odbcconf.exe`
+* File Path: `C:\windows\system32\odbcconf.exe`
 * Description: ODBC Driver Configuration Program
 * Comments: 
 

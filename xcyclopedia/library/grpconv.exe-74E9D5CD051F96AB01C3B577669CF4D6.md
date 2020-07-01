@@ -4,7 +4,7 @@ title: grpconv.exe | Windows Progman Group Converter
 
 # grpconv.exe 
 
-* File Path: `C:\Windows\SysWOW64\grpconv.exe`
+* File Path: `C:\windows\SysWOW64\grpconv.exe`
 * Description: Windows Progman Group Converter
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:8K/nMfbqDir+ox/QkI8frhR3aYz75y95:8KPMfRKK11o2y95`
 ```
 
 ### Child Processes:
-mmc.exe
+
 
 ## Signature
 

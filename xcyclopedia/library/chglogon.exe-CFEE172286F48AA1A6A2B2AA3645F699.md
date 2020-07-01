@@ -4,7 +4,7 @@ title: chglogon.exe | Change Logon Utility
 
 # chglogon.exe 
 
-* File Path: `C:\Windows\SysWOW64\chglogon.exe`
+* File Path: `C:\windows\SysWOW64\chglogon.exe`
 * Description: Change Logon Utility
 * Comments: 
 

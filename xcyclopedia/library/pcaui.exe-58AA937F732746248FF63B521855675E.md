@@ -4,7 +4,7 @@ title: pcaui.exe | Program Compatibility Assistant User Interface
 
 # pcaui.exe 
 
-* File Path: `C:\Windows\system32\pcaui.exe`
+* File Path: `C:\windows\system32\pcaui.exe`
 * Description: Program Compatibility Assistant User Interface
 * Comments: 
 

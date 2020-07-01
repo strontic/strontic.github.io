@@ -4,7 +4,7 @@ title: svchost.exe | Host Process for Windows Services
 
 # svchost.exe 
 
-* File Path: `C:\Windows\SysWOW64\svchost.exe`
+* File Path: `C:\windows\SysWOW64\svchost.exe`
 * Description: Host Process for Windows Services
 * Comments: 
 

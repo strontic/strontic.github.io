@@ -4,7 +4,7 @@ title: Robocopy.exe | Microsoft Robocopy
 
 # Robocopy.exe 
 
-* File Path: `C:\Windows\system32\Robocopy.exe`
+* File Path: `C:\windows\system32\Robocopy.exe`
 * Description: Microsoft Robocopy
 * Comments: 
 
@@ -28,7 +28,7 @@ SSDEEP | `3072:StpvdJc0KoVWupPQhVlP0CFbWj7hmLkpqxp/jGw:SHXc0JDp8Vx/FKjXpI/`
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Monday, June 29, 2020 3:30:01 PM
+  Started : Wednesday, July 1, 2020 2:24:04 AM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).

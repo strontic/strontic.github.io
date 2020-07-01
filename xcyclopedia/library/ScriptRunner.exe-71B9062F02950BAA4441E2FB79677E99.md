@@ -4,7 +4,7 @@ title: ScriptRunner.exe |
 
 # ScriptRunner.exe 
 
-* File Path: `C:\Windows\system32\ScriptRunner.exe`
+* File Path: `C:\windows\system32\ScriptRunner.exe`
 * Description:  
 * Comments: 
 

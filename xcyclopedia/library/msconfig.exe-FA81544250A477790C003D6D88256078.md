@@ -4,7 +4,7 @@ title: msconfig.exe | System Configuration Utility
 
 # msconfig.exe 
 
-* File Path: `C:\Windows\system32\msconfig.exe`
+* File Path: `C:\windows\system32\msconfig.exe`
 * Description: System Configuration Utility
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `3072:hqEa1DAvAaBSChjo4nZYRywPeChrL5fUd0/HlGJRA18:3eAjj9nO9mCFJUdSGJRW`
 
 File | Score
 -- | --
+[C:\windows\system32\msconfig.exe](msconfig.exe-9115A4002D040BF7F16AC1E29F353FB9.md) | 46
 [C:\Windows\system32\msconfig.exe](msconfig.exe-C39148DD0D650E2C49095237998218F2.md) | 41
 [C:\Windows\system32\msconfig.exe](msconfig.exe-EA390568A41C03B6327AAE1873664B45.md) | 46
 [C:\WINDOWS\system32\msconfig.exe](msconfig.exe-EC284B6D1AFBBA44211F4F0C3EA44838.md) | 43

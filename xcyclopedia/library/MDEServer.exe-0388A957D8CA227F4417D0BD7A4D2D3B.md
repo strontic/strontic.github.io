@@ -4,7 +4,7 @@ title: MDEServer.exe | Cast to Device Server
 
 # MDEServer.exe 
 
-* File Path: `C:\Windows\system32\MDEServer.exe`
+* File Path: `C:\windows\system32\MDEServer.exe`
 * Description: Cast to Device Server
 * Comments: 
 

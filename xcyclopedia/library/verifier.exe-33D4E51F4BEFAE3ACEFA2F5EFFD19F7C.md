@@ -4,7 +4,7 @@ title: verifier.exe | Verifier Configuration Editor
 
 # verifier.exe 
 
-* File Path: `C:\Windows\system32\verifier.exe`
+* File Path: `C:\windows\system32\verifier.exe`
 * Description: Verifier Configuration Editor
 * Comments: 
 

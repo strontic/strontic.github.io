@@ -4,7 +4,7 @@ title: DeviceCensus.exe | Device Census
 
 # DeviceCensus.exe 
 
-* File Path: `C:\Windows\system32\DeviceCensus.exe`
+* File Path: `C:\windows\system32\DeviceCensus.exe`
 * Description: Device Census
 * Comments: 
 

@@ -4,7 +4,7 @@ title: systray.exe | Systray .exe stub
 
 # systray.exe 
 
-* File Path: `C:\Windows\system32\systray.exe`
+* File Path: `C:\windows\system32\systray.exe`
 * Description: Systray .exe stub
 * Comments: 
 

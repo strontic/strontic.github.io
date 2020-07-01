@@ -52,6 +52,11 @@ SSDEEP | `768:5yICGYzhoM2WTbQUZrJ4rCRBBwr6FZTSiMMNpa8zOjFMMNv0/vM+2vgI:niuMXHQUl
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\system32\UI0Detect.exe](UI0Detect.exe-A867F0F978EE64C87FADC3B100869EE4.md) | 47
 
 
 

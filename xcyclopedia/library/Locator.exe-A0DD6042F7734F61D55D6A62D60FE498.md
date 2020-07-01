@@ -4,7 +4,7 @@ title: Locator.exe | Rpc Locator
 
 # Locator.exe 
 
-* File Path: `C:\Windows\system32\Locator.exe`
+* File Path: `C:\windows\system32\Locator.exe`
 * Description: Rpc Locator
 * Comments: 
 

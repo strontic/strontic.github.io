@@ -4,7 +4,7 @@ title: waitfor.exe | waitfor - wait/send a signal over a network
 
 # waitfor.exe 
 
-* File Path: `C:\Windows\SysWOW64\waitfor.exe`
+* File Path: `C:\windows\SysWOW64\waitfor.exe`
 * Description: waitfor - wait/send a signal over a network
 * Comments: 
 

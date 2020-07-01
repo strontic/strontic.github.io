@@ -4,7 +4,7 @@ title: RMActivate_ssp_isv.exe | Windows Rights Management Services Activation fo
 
 # RMActivate_ssp_isv.exe 
 
-* File Path: `C:\Windows\system32\RMActivate_ssp_isv.exe`
+* File Path: `C:\windows\system32\RMActivate_ssp_isv.exe`
 * Description: Windows Rights Management Services Activation for Server Security Processor (Pre-production)
 * Comments: 
 

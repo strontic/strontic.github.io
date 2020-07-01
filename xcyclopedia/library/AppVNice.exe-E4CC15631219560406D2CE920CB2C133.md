@@ -4,7 +4,7 @@ title: AppVNice.exe | Microsoft Application Virtualization appvnice
 
 # AppVNice.exe 
 
-* File Path: `C:\Windows\system32\AppVNice.exe`
+* File Path: `C:\windows\system32\AppVNice.exe`
 * Description: Microsoft Application Virtualization appvnice
 * Comments: 
 

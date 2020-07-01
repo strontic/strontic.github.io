@@ -4,7 +4,7 @@ title: CameraSettingsUIHost.exe | Camera Settings UI Host
 
 # CameraSettingsUIHost.exe 
 
-* File Path: `C:\Windows\SysWOW64\CameraSettingsUIHost.exe`
+* File Path: `C:\windows\SysWOW64\CameraSettingsUIHost.exe`
 * Description: Camera Settings UI Host
 * Comments: 
 

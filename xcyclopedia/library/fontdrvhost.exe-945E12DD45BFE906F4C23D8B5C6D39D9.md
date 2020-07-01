@@ -4,7 +4,7 @@ title: fontdrvhost.exe | Usermode Font Driver Host
 
 # fontdrvhost.exe 
 
-* File Path: `C:\Windows\system32\fontdrvhost.exe`
+* File Path: `C:\windows\system32\fontdrvhost.exe`
 * Description: Usermode Font Driver Host
 * Comments: 
 

@@ -4,7 +4,7 @@ title: mighost.exe | Migration Plugins host program
 
 # mighost.exe 
 
-* File Path: `C:\Windows\system32\migwiz\mighost.exe`
+* File Path: `C:\windows\system32\migwiz\mighost.exe`
 * Description: Migration Plugins host program
 * Comments: 
 

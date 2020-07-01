@@ -4,7 +4,7 @@ title: taskkill.exe | Terminates Processes
 
 # taskkill.exe 
 
-* File Path: `C:\Windows\system32\taskkill.exe`
+* File Path: `C:\windows\system32\taskkill.exe`
 * Description: Terminates Processes
 * Comments: 
 

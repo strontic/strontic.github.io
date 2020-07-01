@@ -4,7 +4,7 @@ title: UserAccountBroker.exe | User Account Control Panel Host
 
 # UserAccountBroker.exe 
 
-* File Path: `C:\Windows\SysWOW64\UserAccountBroker.exe`
+* File Path: `C:\windows\SysWOW64\UserAccountBroker.exe`
 * Description: User Account Control Panel Host
 * Comments: 
 

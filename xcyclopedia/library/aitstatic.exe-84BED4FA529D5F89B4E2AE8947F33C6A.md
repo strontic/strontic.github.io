@@ -4,7 +4,7 @@ title: aitstatic.exe | Application Impact Telemetry Static Analyzer
 
 # aitstatic.exe 
 
-* File Path: `C:\Windows\system32\aitstatic.exe`
+* File Path: `C:\windows\system32\aitstatic.exe`
 * Description: Application Impact Telemetry Static Analyzer
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `49152:yabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/L/:yyKNNYtaAIr
 File | Score
 -- | --
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-019C68136DB95EEC5275E1246B17A288.md) | 66
+[C:\windows\system32\aitstatic.exe](aitstatic.exe-0B422732D5DB83AB9F533E002751BD88.md) | 99
 [C:\WINDOWS\system32\aitstatic.exe](aitstatic.exe-2C02288BFAFB12E33BAB55AB06A6EF23.md) | 97
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-901E2BAC6E0292AD04CA8423A3A2C384.md) | 97
 

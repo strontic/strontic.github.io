@@ -4,7 +4,7 @@ title: imecfmui.exe | Microsoft IME
 
 # imecfmui.exe 
 
-* File Path: `C:\Windows\system32\IME\shared\imecfmui.exe`
+* File Path: `C:\windows\system32\IME\shared\imecfmui.exe`
 * Description: Microsoft IME
 * Comments: 
 

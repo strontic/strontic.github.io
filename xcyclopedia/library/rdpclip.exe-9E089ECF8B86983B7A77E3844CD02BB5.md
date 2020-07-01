@@ -4,7 +4,7 @@ title: rdpclip.exe | RDP Clipboard Monitor
 
 # rdpclip.exe 
 
-* File Path: `C:\Windows\system32\rdpclip.exe`
+* File Path: `C:\windows\system32\rdpclip.exe`
 * Description: RDP Clipboard Monitor
 * Comments: 
 

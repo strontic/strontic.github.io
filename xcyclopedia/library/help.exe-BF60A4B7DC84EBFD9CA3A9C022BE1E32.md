@@ -4,7 +4,7 @@ title: help.exe | Command Line Help Utility
 
 # help.exe 
 
-* File Path: `C:\Windows\SysWOW64\help.exe`
+* File Path: `C:\windows\SysWOW64\help.exe`
 * Description: Command Line Help Utility
 * Comments: 
 
@@ -37,7 +37,7 @@ HELP [command]
 ```
 
 ### Child Processes:
-
+explorer.exe
 
 ## Signature
 

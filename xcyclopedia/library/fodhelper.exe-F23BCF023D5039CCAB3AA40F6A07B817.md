@@ -4,7 +4,7 @@ title: fodhelper.exe | Features On Demand Helper
 
 # fodhelper.exe 
 
-* File Path: `C:\Windows\system32\fodhelper.exe`
+* File Path: `C:\windows\system32\fodhelper.exe`
 * Description: Features On Demand Helper
 * Comments: 
 

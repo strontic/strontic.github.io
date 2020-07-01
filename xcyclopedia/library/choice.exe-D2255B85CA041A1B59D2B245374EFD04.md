@@ -4,7 +4,7 @@ title: choice.exe | Offers the user a choice
 
 # choice.exe 
 
-* File Path: `C:\Windows\SysWOW64\choice.exe`
+* File Path: `C:\windows\SysWOW64\choice.exe`
 * Description: Offers the user a choice
 * Comments: 
 

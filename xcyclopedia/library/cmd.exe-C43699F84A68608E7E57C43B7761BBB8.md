@@ -4,7 +4,7 @@ title: cmd.exe | Windows Command Processor
 
 # cmd.exe 
 
-* File Path: `C:\Windows\SysWOW64\cmd.exe`
+* File Path: `C:\windows\SysWOW64\cmd.exe`
 * Description: Windows Command Processor
 * Comments: 
 

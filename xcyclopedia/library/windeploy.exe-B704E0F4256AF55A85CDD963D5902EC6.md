@@ -4,7 +4,7 @@ title: windeploy.exe | Windows Deployment Loader
 
 # windeploy.exe 
 
-* File Path: `C:\Windows\system32\oobe\windeploy.exe`
+* File Path: `C:\windows\system32\oobe\windeploy.exe`
 * Description: Windows Deployment Loader
 * Comments: 
 

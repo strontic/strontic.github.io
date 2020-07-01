@@ -4,7 +4,7 @@ title: ssh.exe |
 
 # ssh.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\ssh.exe`
+* File Path: `C:\windows\system32\OpenSSH\ssh.exe`
 * Description: 
 * Comments: 
 

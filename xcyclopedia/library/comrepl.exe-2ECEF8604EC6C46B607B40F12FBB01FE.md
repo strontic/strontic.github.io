@@ -4,7 +4,7 @@ title: comrepl.exe | COM+ Server Replication
 
 # comrepl.exe 
 
-* File Path: `C:\Windows\system32\com\comrepl.exe`
+* File Path: `C:\windows\system32\com\comrepl.exe`
 * Description: COM+ Server Replication
 * Comments: 
 

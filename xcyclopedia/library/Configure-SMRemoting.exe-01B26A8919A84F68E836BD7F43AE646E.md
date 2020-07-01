@@ -4,7 +4,7 @@ title: Configure-SMRemoting.exe | Configure-SMRemoting
 
 # Configure-SMRemoting.exe 
 
-* File Path: `C:\Windows\system32\Configure-SMRemoting.exe`
+* File Path: `C:\windows\system32\Configure-SMRemoting.exe`
 * Description: Configure-SMRemoting
 * Comments: 
 
@@ -58,6 +58,7 @@ Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 File | Score
 -- | --
 [C:\Windows\system32\Configure-SMRemoting.exe](Configure-SMRemoting.exe-59EF03A3CE316E02EC6C916E86715282.md) | 29
+[C:\windows\system32\Configure-SMRemoting.exe](Configure-SMRemoting.exe-B2FA87E8F814BF08E1599B6B2FDC9720.md) | 21
 
 
 

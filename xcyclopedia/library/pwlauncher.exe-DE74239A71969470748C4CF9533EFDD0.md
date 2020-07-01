@@ -4,7 +4,7 @@ title: pwlauncher.exe | Windows To Go Startup Options Command Line Tool
 
 # pwlauncher.exe 
 
-* File Path: `C:\Windows\system32\pwlauncher.exe`
+* File Path: `C:\windows\system32\pwlauncher.exe`
 * Description: Windows To Go Startup Options Command Line Tool
 * Comments: 
 

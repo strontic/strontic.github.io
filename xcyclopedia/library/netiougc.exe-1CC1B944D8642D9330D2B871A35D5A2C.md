@@ -4,7 +4,7 @@ title: netiougc.exe | Netio Unattend Generic Command
 
 # netiougc.exe 
 
-* File Path: `C:\Windows\system32\netiougc.exe`
+* File Path: `C:\windows\system32\netiougc.exe`
 * Description: Netio Unattend Generic Command
 * Comments: 
 

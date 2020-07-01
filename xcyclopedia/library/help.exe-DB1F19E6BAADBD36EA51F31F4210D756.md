@@ -4,7 +4,7 @@ title: help.exe | Command Line Help Utility
 
 # help.exe 
 
-* File Path: `C:\Windows\system32\help.exe`
+* File Path: `C:\windows\system32\help.exe`
 * Description: Command Line Help Utility
 * Comments: 
 

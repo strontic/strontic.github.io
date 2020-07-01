@@ -4,7 +4,7 @@ title: Windows.WARP.JITService.exe |
 
 # Windows.WARP.JITService.exe 
 
-* File Path: `C:\Windows\system32\Windows.WARP.JITService.exe`
+* File Path: `C:\windows\system32\Windows.WARP.JITService.exe`
 * Description: 
 * Comments: 
 

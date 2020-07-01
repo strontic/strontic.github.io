@@ -1,0 +1,121 @@
+﻿---
+title: recover.exe | Recover Files Utility
+---
+
+# recover.exe 
+
+* File Path: `C:\windows\SysWOW64\recover.exe`
+* Description: Recover Files Utility
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `70DC5E90F88E476FA769BB7D12F936F5`
+SHA1 | `7BC2E73873672D8F8352DB970BD69692726E0305`
+SHA256 | `34AEF088190D020B1684D7433C2F9393BBBE37CC33DFE40ED63195A16A735A85`
+SHA384 | `1B10BA938091A2DEDB6884776075BA725819FF743A87DE2DD67241EBC5665C660829AFD99B0DDB1D42857A26D5B24F01`
+SHA512 | `D98DEA9F4DA56CE940E4D8B0099E914C7E2E79CE85BFD957DDDF1D4FE2B214EA3C9E12EDCBEB086B58DFE112849355CCEDAEEC89E43956FFE15520C6B025625B`
+SSDEEP | `192:4Lv4Vl0kJ9X5UNqTVDsBC0n0C10FVk2TWCnWapp:4Lpi9X5Ue+Pn0xY2TWCnWap`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: The file C:\windows\SysWOW64\recover.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
+* Serial: ``
+* Thumbprint: ``
+* Issuer: 
+* Subject: 
+
+## File Metadata
+
+* Original Filename: Recover.Exe.MUI
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 6.3.9600.16384 (winblue_rtm.130821-1623)
+* Product Version: 6.3.9600.16384
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\system32\recover.exe](recover.exe-C0CC9E1A8AA53A2E7BBEA3BEB0ED5281.md) | 41
+
+## Possible Misuse
+
+*The following table contains possible examples of `recover.exe` being misused. While `recover.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1048.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1048.003/T1048.003.md) | 3. Once the data is received, use the below command to recover the data. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [use-cases.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/use-cases.md) | - How long does it take us to contain, remediate, recover? | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## recover
+
+
+
+Recovers readable information from a bad or defective disk.
+
+
+
+### Syntax
+
+```
+recover [<Drive>:][<Path>]<FileName>
+```
+
+#### Parameters
+
+|           Parameter           |                                          Description                                          |
+|-------------------------------|-----------------------------------------------------------------------------------------------|
+| [\<Drive>:][<Path>]<FileName> | Specifies the location and name of the file that you want to recover. *FileName* is required. |
+|              /?               |                             Displays help at the command prompt.                              |
+
+### Remarks
+
+-   The **recover** command reads a file, sector-by-sector, and recovers data from the good sectors. Data in bad sectors is lost.
+-   Bad sectors reported by **chkdsk** were marked as bad when your disk was prepared for operation. They pose no danger, and **recover** does not affect them.
+-   Because all data in bad sectors is lost when you recover a file, you should recover only one file at a time.
+-   You cannot use wildcard characters (**&#42;** and **?**) with the **recover** command. You must specify a file (and the location of the file if it is not in the current directory).
+
+### Examples
+
+To recover the file Story.txt in the \Fiction directory on drive D, type:
+```
+recover d:\fiction\story.txt 
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -4,7 +4,7 @@ title: ThumbnailExtractionHost.exe | Thumbnail Handler Extraction Host
 
 # ThumbnailExtractionHost.exe 
 
-* File Path: `C:\Windows\system32\ThumbnailExtractionHost.exe`
+* File Path: `C:\windows\system32\ThumbnailExtractionHost.exe`
 * Description: Thumbnail Handler Extraction Host
 * Comments: 
 

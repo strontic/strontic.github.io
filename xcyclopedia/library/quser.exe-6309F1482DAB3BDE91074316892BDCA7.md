@@ -4,7 +4,7 @@ title: quser.exe | Query User Utility
 
 # quser.exe 
 
-* File Path: `C:\Windows\system32\quser.exe`
+* File Path: `C:\windows\system32\quser.exe`
 * Description: Query User Utility
 * Comments: 
 

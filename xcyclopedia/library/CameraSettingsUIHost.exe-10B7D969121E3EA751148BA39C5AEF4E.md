@@ -4,7 +4,7 @@ title: CameraSettingsUIHost.exe | Camera Settings UI Host
 
 # CameraSettingsUIHost.exe 
 
-* File Path: `C:\Windows\system32\CameraSettingsUIHost.exe`
+* File Path: `C:\windows\system32\CameraSettingsUIHost.exe`
 * Description: Camera Settings UI Host
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:EQ5CeJyHBiCouAXxqGZSwUSwXBMa7OTXj1Pu0gT:Ehh/Nqxqo/a7ObpPuhT`
 ```
 
 ### Child Processes:
-
+win32calc.exe
 
 ## Signature
 

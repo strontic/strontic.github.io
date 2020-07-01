@@ -4,7 +4,7 @@ title: dcgpofix.exe | Microsoft (C) Default Group Policy Object Restore Utility
 
 # dcgpofix.exe 
 
-* File Path: `C:\Windows\system32\dcgpofix.exe`
+* File Path: `C:\windows\system32\dcgpofix.exe`
 * Description: Microsoft (C) Default Group Policy Object Restore Utility
 * Comments: 
 

@@ -4,7 +4,7 @@ title: TSTheme.exe | TSTheme Server Module
 
 # TSTheme.exe 
 
-* File Path: `C:\Windows\SysWOW64\TSTheme.exe`
+* File Path: `C:\windows\SysWOW64\TSTheme.exe`
 * Description: TSTheme Server Module
 * Comments: 
 

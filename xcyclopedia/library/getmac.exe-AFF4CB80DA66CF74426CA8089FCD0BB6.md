@@ -4,7 +4,7 @@ title: getmac.exe | Displays NIC MAC information
 
 # getmac.exe 
 
-* File Path: `C:\Windows\system32\getmac.exe`
+* File Path: `C:\windows\system32\getmac.exe`
 * Description: Displays NIC MAC information
 * Comments: 
 

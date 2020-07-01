@@ -4,7 +4,7 @@ title: typeperf.exe | Command line performance monitor
 
 # typeperf.exe 
 
-* File Path: `C:\Windows\SysWOW64\typeperf.exe`
+* File Path: `C:\windows\SysWOW64\typeperf.exe`
 * Description: Command line performance monitor
 * Comments: 
 
@@ -30,7 +30,7 @@ Typeperf writes performance data to the command window or to a log file. To
 stop Typeperf, press CTRL+C.
 
 Usage:
-C:\Windows\SysWOW64\typeperf.exe { <counter [counter ...]> 
+C:\windows\SysWOW64\typeperf.exe { <counter [counter ...]> 
                                 | -cf <filename> 
                                 | -q [object] 
                                 | -qx [object] 

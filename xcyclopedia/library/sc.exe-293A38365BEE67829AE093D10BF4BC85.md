@@ -4,7 +4,7 @@ title: sc.exe | Service Control Manager Configuration Tool
 
 # sc.exe 
 
-* File Path: `C:\Windows\SysWOW64\sc.exe`
+* File Path: `C:\windows\SysWOW64\sc.exe`
 * Description: Service Control Manager Configuration Tool
 * Comments: 
 
@@ -125,7 +125,7 @@ sc query type= driver group= NDIS     - Enumerates all NDIS drivers
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

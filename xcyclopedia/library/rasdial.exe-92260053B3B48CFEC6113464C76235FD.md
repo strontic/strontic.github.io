@@ -4,7 +4,7 @@ title: rasdial.exe | Remote Access Command Line Dial UI
 
 # rasdial.exe 
 
-* File Path: `C:\Windows\system32\rasdial.exe`
+* File Path: `C:\windows\system32\rasdial.exe`
 * Description: Remote Access Command Line Dial UI
 * Comments: 
 
@@ -24,13 +24,13 @@ SSDEEP | `384:qMrNEf9uohXdznu+hyUje+GRmLjM2OOAIf+bxVY9t0yNwKWQVW:qMrN2uohXQ60NRa
 ### Usage (stdout):
 ```Batchfile
 USAGE:
-	C:\Windows\system32\rasdial.exe entryname [username [password|*]] [/DOMAIN:domain]
+	C:\windows\system32\rasdial.exe entryname [username [password|*]] [/DOMAIN:domain]
 		[/PHONE:phonenumber] [/CALLBACK:callbacknumber]
 		[/PHONEBOOK:phonebookfile] [/PREFIXSUFFIX]
 
-	C:\Windows\system32\rasdial.exe [entryname] /DISCONNECT
+	C:\windows\system32\rasdial.exe [entryname] /DISCONNECT
 
-	C:\Windows\system32\rasdial.exe
+	C:\windows\system32\rasdial.exe
 
 	Please refer to our privacy statement at 
 	'https://go.microsoft.com/fwlink/?LinkId=521839'

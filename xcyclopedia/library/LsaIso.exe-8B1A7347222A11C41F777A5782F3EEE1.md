@@ -4,7 +4,7 @@ title: LsaIso.exe | Credential Guard & Key Guard
 
 # LsaIso.exe 
 
-* File Path: `C:\Windows\system32\LsaIso.exe`
+* File Path: `C:\windows\system32\LsaIso.exe`
 * Description: Credential Guard & Key Guard
 * Comments: 
 

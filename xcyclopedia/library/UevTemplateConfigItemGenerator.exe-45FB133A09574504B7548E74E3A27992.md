@@ -4,7 +4,7 @@ title: UevTemplateConfigItemGenerator.exe |
 
 # UevTemplateConfigItemGenerator.exe 
 
-* File Path: `C:\Windows\system32\UevTemplateConfigItemGenerator.exe`
+* File Path: `C:\windows\system32\UevTemplateConfigItemGenerator.exe`
 * Description:  
 * Comments: 
 

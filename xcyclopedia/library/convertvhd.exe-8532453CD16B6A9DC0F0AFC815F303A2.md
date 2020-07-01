@@ -4,7 +4,7 @@ title: convertvhd.exe | VHD Conversion Tool
 
 # convertvhd.exe 
 
-* File Path: `C:\Windows\system32\convertvhd.exe`
+* File Path: `C:\windows\system32\convertvhd.exe`
 * Description: VHD Conversion Tool
 * Comments: 
 
@@ -30,7 +30,7 @@ Copyright (C) 2017 Microsoft Corporation. All rights reserved.
 
 ### Usage (stderr):
 ```Batchfile
-onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF677E97CE7: (caller: 00007FF677E98954) Exception(1) tid(1094) 80070057 The parameter is incorrect.
+onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF6F60E7CE7: (caller: 00007FF6F60E8954) Exception(1) tid(1944) 80070057 The parameter is incorrect.
     Msg:[
 
 USAGE:

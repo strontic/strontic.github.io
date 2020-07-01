@@ -4,7 +4,7 @@ title: msiexec.exe | Windows installer
 
 # msiexec.exe 
 
-* File Path: `C:\Windows\system32\msiexec.exe`
+* File Path: `C:\windows\system32\msiexec.exe`
 * Description: Windows installer
 * Comments: 
 

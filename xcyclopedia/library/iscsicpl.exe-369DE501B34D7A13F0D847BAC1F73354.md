@@ -4,7 +4,7 @@ title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
 
 # iscsicpl.exe 
 
-* File Path: `C:\Windows\system32\iscsicpl.exe`
+* File Path: `C:\windows\system32\iscsicpl.exe`
 * Description: Microsoft iSCSI Initiator Configuration Tool
 * Comments: 
 
@@ -57,7 +57,9 @@ SSDEEP | `3072:1KPRFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:1K8X8I0jct5rEJdp`
 File | Score
 -- | --
 [C:\Windows\system32\iscsicpl.exe](iscsicpl.exe-42D0FA9084EDF93DA5FFEC1CFBF18410.md) | 91
+[C:\windows\system32\iscsicpl.exe](iscsicpl.exe-DCEF208FB5CF6F04349BCAC2F2499B29.md) | 91
 [C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-27B2A19367EE1C0500834FE2BE8F4654.md) | 90
+[C:\windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-61045F4908AB5D9D69F0A8E6B7B67806.md) | 91
 [C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-A985A6EBE1B37BC6028D035AC2E0D73F.md) | 93
 
 

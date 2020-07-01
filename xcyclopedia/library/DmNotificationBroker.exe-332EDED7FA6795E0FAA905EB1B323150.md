@@ -4,7 +4,7 @@ title: DmNotificationBroker.exe | DmNotificationBroker
 
 # DmNotificationBroker.exe 
 
-* File Path: `C:\Windows\system32\DmNotificationBroker.exe`
+* File Path: `C:\windows\system32\DmNotificationBroker.exe`
 * Description: DmNotificationBroker
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:NnJ4zlyQy46gAoTtet82Bl0/+l8Cmj5z:X0y4IZ82+/C8Fj5z`
 ```
 
 ### Child Processes:
-
+mmc.exe
 
 ## Signature
 

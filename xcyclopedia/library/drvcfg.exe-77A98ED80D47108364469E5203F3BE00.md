@@ -4,7 +4,7 @@ title: drvcfg.exe | Driver Configuration Module
 
 # drvcfg.exe 
 
-* File Path: `C:\Windows\system32\drvcfg.exe`
+* File Path: `C:\windows\system32\drvcfg.exe`
 * Description: Driver Configuration Module
 * Comments: 
 

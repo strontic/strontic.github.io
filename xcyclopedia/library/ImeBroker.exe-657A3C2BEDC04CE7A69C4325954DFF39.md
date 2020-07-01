@@ -4,7 +4,7 @@ title: ImeBroker.exe | Microsoft IME
 
 # ImeBroker.exe 
 
-* File Path: `C:\Windows\system32\IME\shared\ImeBroker.exe`
+* File Path: `C:\windows\system32\IME\shared\ImeBroker.exe`
 * Description: Microsoft IME
 * Comments: 
 

@@ -4,7 +4,7 @@ title: iexpress.exe | Wizard
 
 # iexpress.exe 
 
-* File Path: `C:\Windows\SysWOW64\iexpress.exe`
+* File Path: `C:\windows\SysWOW64\iexpress.exe`
 * Description: Wizard
 * Comments: 
 
@@ -58,8 +58,10 @@ File | Score
 -- | --
 [C:\Windows\system32\iexpress.exe](iexpress.exe-17B93A43E25D821D01AF40BA6BABCC8C.md) | 57
 [C:\Windows\system32\iexpress.exe](iexpress.exe-81DE6E1BC6067389835A8A56A5BAE61C.md) | 65
+[C:\windows\system32\iexpress.exe](iexpress.exe-CA2F3153EF3BCB0BD3A8984C933DF604.md) | 66
 [C:\WINDOWS\system32\iexpress.exe](iexpress.exe-CFCE9FDAC8DD2A4E5209B772CF843E89.md) | 66
 [C:\Windows\system32\iexpress.exe](iexpress.exe-F2B70A9C54BC8ECC299942E718ACB785.md) | 69
+[C:\windows\SysWOW64\iexpress.exe](iexpress.exe-159199095C9959BE75E61C0FF947708F.md) | 61
 [C:\WINDOWS\SysWOW64\iexpress.exe](iexpress.exe-15F76E09BBD08461D288B17514B39051.md) | 65
 [C:\Windows\SysWOW64\iexpress.exe](iexpress.exe-82D7A8C4A67BA56A24CEAB1C1114F4CD.md) | 58
 [C:\Windows\SysWOW64\iexpress.exe](iexpress.exe-D594B2A33EFAFD0EABF09E3FDC05FCEA.md) | 66

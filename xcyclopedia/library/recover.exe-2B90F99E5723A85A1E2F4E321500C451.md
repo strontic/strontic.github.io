@@ -4,7 +4,7 @@ title: recover.exe | Recover Files Utility
 
 # recover.exe 
 
-* File Path: `C:\Windows\SysWOW64\recover.exe`
+* File Path: `C:\windows\SysWOW64\recover.exe`
 * Description: Recover Files Utility
 * Comments: 
 

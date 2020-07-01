@@ -4,7 +4,7 @@ title: runonce.exe | Run Once Wrapper
 
 # runonce.exe 
 
-* File Path: `C:\Windows\system32\runonce.exe`
+* File Path: `C:\windows\system32\runonce.exe`
 * Description: Run Once Wrapper
 * Comments: 
 

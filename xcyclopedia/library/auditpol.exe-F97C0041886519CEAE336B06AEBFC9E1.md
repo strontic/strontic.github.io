@@ -4,7 +4,7 @@ title: auditpol.exe | Audit Policy Program
 
 # auditpol.exe 
 
-* File Path: `C:\Windows\system32\auditpol.exe`
+* File Path: `C:\windows\system32\auditpol.exe`
 * Description: Audit Policy Program
 * Comments: 
 

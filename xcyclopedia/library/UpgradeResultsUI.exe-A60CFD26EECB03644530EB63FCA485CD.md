@@ -4,7 +4,7 @@ title: UpgradeResultsUI.exe | Add features to Windows Results
 
 # UpgradeResultsUI.exe 
 
-* File Path: `C:\Windows\system32\UpgradeResultsUI.exe`
+* File Path: `C:\windows\system32\UpgradeResultsUI.exe`
 * Description: Add features to Windows Results
 * Comments: 
 

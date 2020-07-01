@@ -4,7 +4,7 @@ title: ServerManager.exe | Server Manager
 
 # ServerManager.exe 
 
-* File Path: `C:\Windows\system32\ServerManager.exe`
+* File Path: `C:\windows\system32\ServerManager.exe`
 * Description: Server Manager
 * Comments: 
 

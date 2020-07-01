@@ -4,7 +4,7 @@ title: tscon.exe | Session Connection Utility
 
 # tscon.exe 
 
-* File Path: `C:\Windows\system32\tscon.exe`
+* File Path: `C:\windows\system32\tscon.exe`
 * Description: Session Connection Utility
 * Comments: 
 

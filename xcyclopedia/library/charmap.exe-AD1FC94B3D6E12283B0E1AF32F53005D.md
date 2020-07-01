@@ -4,7 +4,7 @@ title: charmap.exe | Character Map
 
 # charmap.exe 
 
-* File Path: `C:\Windows\system32\charmap.exe`
+* File Path: `C:\windows\system32\charmap.exe`
 * Description: Character Map
 * Comments: 
 

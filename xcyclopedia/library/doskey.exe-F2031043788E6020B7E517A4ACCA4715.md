@@ -4,7 +4,7 @@ title: doskey.exe | Keyboard History Utility
 
 # doskey.exe 
 
-* File Path: `C:\Windows\SysWOW64\doskey.exe`
+* File Path: `C:\windows\SysWOW64\doskey.exe`
 * Description: Keyboard History Utility
 * Comments: 
 

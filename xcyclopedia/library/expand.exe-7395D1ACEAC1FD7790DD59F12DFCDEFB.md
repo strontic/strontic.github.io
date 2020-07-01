@@ -4,7 +4,7 @@ title: expand.exe | LZ Expansion Utility
 
 # expand.exe 
 
-* File Path: `C:\Windows\system32\expand.exe`
+* File Path: `C:\windows\system32\expand.exe`
 * Description: LZ Expansion Utility
 * Comments: 
 
@@ -26,7 +26,23 @@ SSDEEP | `768:Ou/msq2r0flBpp4C2f7FNr9Zx2zP+7bbDD3ihyhXxvP8viaAjprTllDyVO1vTzwV:O
 Microsoft (R) File Expansion Utility
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-No destination specified for: help.
+Expands one or more compressed files.
+
+EXPAND [-R] Source Destination
+EXPAND -R Source [Destination]
+EXPAND -I Source [Destination]
+EXPAND -D Source.cab [-F:Files]
+EXPAND Source.cab -F:Files Destination
+
+  -R		Rename expanded files.
+  -I		Rename expanded files but ignore directory structure.
+  -D		Display list of files in source.
+  Source	Source file specification.  Wildcards may be used.
+  -F:Files	Name of files to expand from a .CAB.
+  Destination	Destination file | path specification.
+		Destination may be a directory.
+		If Source is multiple files and -r is not specified,
+		Destination must be a directory.
 
 ```
 

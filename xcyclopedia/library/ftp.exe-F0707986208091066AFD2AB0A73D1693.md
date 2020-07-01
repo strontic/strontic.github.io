@@ -4,7 +4,7 @@ title: ftp.exe | File Transfer Program
 
 # ftp.exe 
 
-* File Path: `C:\Windows\SysWOW64\ftp.exe`
+* File Path: `C:\windows\SysWOW64\ftp.exe`
 * Description: File Transfer Program
 * Comments: 
 
@@ -23,8 +23,7 @@ SSDEEP | `768:q9TSteOAJzRjbEm1kvWZhCwZeNyQbsVoSVzBHIeoG5BIFYB2BC4pOU5:qViejSWZYw
 
 ### Usage (stdout):
 ```Batchfile
-Unknown host help.
-ftp> 
+
 ```
 
 ### Usage (stderr):

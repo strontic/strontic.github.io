@@ -4,7 +4,7 @@ title: xpsrchvw.exe | XPS Viewer
 
 # xpsrchvw.exe 
 
-* File Path: `C:\Windows\system32\xpsrchvw.exe`
+* File Path: `C:\windows\system32\xpsrchvw.exe`
 * Description: XPS Viewer
 * Comments: 
 

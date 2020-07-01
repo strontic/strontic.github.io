@@ -4,7 +4,7 @@ title: newdev.exe | Device driver software installation
 
 # newdev.exe 
 
-* File Path: `C:\Windows\SysWOW64\newdev.exe`
+* File Path: `C:\windows\SysWOW64\newdev.exe`
 * Description: Device driver software installation
 * Comments: 
 

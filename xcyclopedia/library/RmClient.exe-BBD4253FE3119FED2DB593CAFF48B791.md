@@ -4,7 +4,7 @@ title: RmClient.exe | Restart Manager LUA Restart Client
 
 # RmClient.exe 
 
-* File Path: `C:\Windows\system32\RmClient.exe`
+* File Path: `C:\windows\system32\RmClient.exe`
 * Description: Restart Manager LUA Restart Client
 * Comments: 
 

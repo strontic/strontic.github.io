@@ -4,7 +4,7 @@ title: AtBroker.exe | Windows Assistive Technology Manager
 
 # AtBroker.exe 
 
-* File Path: `C:\Windows\system32\AtBroker.exe`
+* File Path: `C:\windows\system32\AtBroker.exe`
 * Description: Windows Assistive Technology Manager
 * Comments: 
 

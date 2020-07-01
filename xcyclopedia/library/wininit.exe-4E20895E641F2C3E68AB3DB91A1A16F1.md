@@ -4,7 +4,7 @@ title: wininit.exe | Windows Start-Up Application
 
 # wininit.exe 
 
-* File Path: `C:\Windows\system32\wininit.exe`
+* File Path: `C:\windows\system32\wininit.exe`
 * Description: Windows Start-Up Application
 * Comments: 
 

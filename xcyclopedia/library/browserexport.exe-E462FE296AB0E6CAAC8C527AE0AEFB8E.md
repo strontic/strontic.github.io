@@ -4,7 +4,7 @@ title: browserexport.exe | Microsoft Edge Browser Exporter
 
 # browserexport.exe 
 
-* File Path: `C:\Windows\system32\browserexport.exe`
+* File Path: `C:\windows\system32\browserexport.exe`
 * Description: Microsoft Edge Browser Exporter
 * Comments: 
 

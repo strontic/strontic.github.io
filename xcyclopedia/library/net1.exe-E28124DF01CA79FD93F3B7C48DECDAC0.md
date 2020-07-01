@@ -4,7 +4,7 @@ title: net1.exe | Net Command
 
 # net1.exe 
 
-* File Path: `C:\Windows\SysWOW64\net1.exe`
+* File Path: `C:\windows\SysWOW64\net1.exe`
 * Description: Net Command
 * Comments: 
 

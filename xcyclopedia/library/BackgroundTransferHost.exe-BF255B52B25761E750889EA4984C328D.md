@@ -4,7 +4,7 @@ title: BackgroundTransferHost.exe | Download/Upload Host
 
 # BackgroundTransferHost.exe 
 
-* File Path: `C:\Windows\system32\BackgroundTransferHost.exe`
+* File Path: `C:\windows\system32\BackgroundTransferHost.exe`
 * Description: Download/Upload Host
 * Comments: 
 

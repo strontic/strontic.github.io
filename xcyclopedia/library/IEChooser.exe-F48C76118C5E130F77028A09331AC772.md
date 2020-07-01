@@ -4,7 +4,7 @@ title: IEChooser.exe | F12 Attach Chooser executable
 
 # IEChooser.exe 
 
-* File Path: `C:\Windows\SysWOW64\F12\IEChooser.exe`
+* File Path: `C:\windows\SysWOW64\F12\IEChooser.exe`
 * Description: F12 Attach Chooser executable
 * Comments: 
 

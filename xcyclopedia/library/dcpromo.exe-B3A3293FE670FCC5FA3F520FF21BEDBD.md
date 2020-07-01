@@ -4,7 +4,7 @@ title: dcpromo.exe | Active Directory Domain Services Installer
 
 # dcpromo.exe 
 
-* File Path: `C:\Windows\system32\dcpromo.exe`
+* File Path: `C:\windows\system32\dcpromo.exe`
 * Description: Active Directory Domain Services Installer
 * Comments: 
 

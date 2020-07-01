@@ -4,7 +4,7 @@ title: reg.exe | Registry Console Tool
 
 # reg.exe 
 
-* File Path: `C:\Windows\SysWOW64\reg.exe`
+* File Path: `C:\windows\SysWOW64\reg.exe`
 * Description: Registry Console Tool
 * Comments: 
 

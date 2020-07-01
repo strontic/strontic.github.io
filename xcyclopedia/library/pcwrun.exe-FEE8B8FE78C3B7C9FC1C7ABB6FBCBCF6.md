@@ -4,7 +4,7 @@ title: pcwrun.exe | Program Compatibility Troubleshooter Invoker
 
 # pcwrun.exe 
 
-* File Path: `C:\Windows\system32\pcwrun.exe`
+* File Path: `C:\windows\system32\pcwrun.exe`
 * Description: Program Compatibility Troubleshooter Invoker
 * Comments: 
 

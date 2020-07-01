@@ -4,7 +4,7 @@ title: tskill.exe | Remote Desktop Services End Process Utility
 
 # tskill.exe 
 
-* File Path: `C:\Windows\SysWOW64\tskill.exe`
+* File Path: `C:\windows\SysWOW64\tskill.exe`
 * Description: Remote Desktop Services End Process Utility
 * Comments: 
 

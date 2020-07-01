@@ -4,7 +4,7 @@ title: rasphone.exe | Remote Access Phonebook
 
 # rasphone.exe 
 
-* File Path: `C:\Windows\system32\rasphone.exe`
+* File Path: `C:\windows\system32\rasphone.exe`
 * Description: Remote Access Phonebook
 * Comments: 
 

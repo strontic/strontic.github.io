@@ -4,7 +4,7 @@ title: IMESEARCH.EXE | IME search module
 
 # IMESEARCH.EXE 
 
-* File Path: `C:\Windows\system32\IME\shared\IMESEARCH.EXE`
+* File Path: `C:\windows\system32\IME\shared\IMESEARCH.EXE`
 * Description: IME search module
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `3072:cbth8LNIhe/Jbp5NtIdhqZL+1gAiDtPaBRPl:9IMJl5Nt5ZLs0a/`
 ```
 
 ### Child Processes:
-
+wordpad.exe
 
 ## Signature
 

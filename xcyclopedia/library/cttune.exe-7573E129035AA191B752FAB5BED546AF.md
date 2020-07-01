@@ -4,7 +4,7 @@ title: cttune.exe | ClearType Tuner
 
 # cttune.exe 
 
-* File Path: `C:\Windows\system32\cttune.exe`
+* File Path: `C:\windows\system32\cttune.exe`
 * Description: ClearType Tuner
 * Comments: 
 
@@ -56,9 +56,11 @@ SSDEEP | `3072:zm4yGRFz+l/tZGacUk8bfkTWVnwqZkvJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAo:
 
 File | Score
 -- | --
+[C:\windows\system32\cttune.exe](cttune.exe-CB908509B2FD8557B71F3A16840DF6AA.md) | 58
 [C:\Windows\system32\cttune.exe](cttune.exe-CCD6BF7BE1F0944A59F2BDC788FE24D5.md) | 58
 [C:\Windows\SysWOW64\cttune.exe](cttune.exe-45753895AAE368B288C39F8CF8F435E6.md) | 63
 [C:\Windows\SysWOW64\cttune.exe](cttune.exe-B3D58D03EF76001519914F49DF180DA5.md) | 63
+[C:\windows\SysWOW64\cttune.exe](cttune.exe-C7AC98601D543EFF883E3D3E48797BF2.md) | 61
 
 
 

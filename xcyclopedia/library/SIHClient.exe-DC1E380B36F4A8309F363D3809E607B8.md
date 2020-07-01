@@ -4,7 +4,7 @@ title: SIHClient.exe | SIH Client
 
 # SIHClient.exe 
 
-* File Path: `C:\Windows\system32\SIHClient.exe`
+* File Path: `C:\windows\system32\SIHClient.exe`
 * Description: SIH Client
 * Comments: 
 

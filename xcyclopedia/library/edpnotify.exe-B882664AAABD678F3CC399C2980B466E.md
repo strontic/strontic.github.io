@@ -4,7 +4,7 @@ title: edpnotify.exe | Microsoft Enterpise Data Protection
 
 # edpnotify.exe 
 
-* File Path: `C:\Windows\SysWOW64\edpnotify.exe`
+* File Path: `C:\windows\SysWOW64\edpnotify.exe`
 * Description: Microsoft Enterpise Data Protection
 * Comments: 
 

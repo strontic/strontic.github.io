@@ -1,0 +1,95 @@
+﻿---
+title: reset.exe | Remote Desktop Services Reset Utility
+---
+
+# reset.exe 
+
+* File Path: `C:\windows\system32\reset.exe`
+* Description: Remote Desktop Services Reset Utility
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `112B15C842E08391DF6D46C959E83F07`
+SHA1 | `D05643D047A7FABCEF1F9DFB41367A4EA4BB7236`
+SHA256 | `A07B90834EFB0E2EEA532EAA97F5254DFCB688166AFBC7E845F3E8C32025C21C`
+SHA384 | `E833CB0780DDAACF6C88BB78C5BE9BD137651B72C8AE744F0C9B0066CB1F7B912BCD9CB8682FEABBC1D0B5FD3FED17BD`
+SHA512 | `2790092A67F5B6A2AF123DF6457677A1D1880C5C8AE5894E71306FC51470FF8D9B49CA2678EA722F5326B16776A4A3073C4C05BF636227C51066B52E196AFC57`
+SSDEEP | `384:ChqzHhQM8kL35RXgyfWQqiXsOkeYoKNe1thWZgW:ChqjlnJfzRcB81t8`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: The file C:\windows\system32\reset.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
+* Serial: ``
+* Thumbprint: ``
+* Issuer: 
+* Subject: 
+
+## File Metadata
+
+* Original Filename: reset.exe.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 6.3.9600.16384 (winblue_rtm.130821-1623)
+* Product Version: 6.3.9600.16384
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\system32\change.exe](change.exe-368AD808891952AA58C8B4F31F38E76C.md) | 72
+[C:\windows\system32\query.exe](query.exe-2BAD78953FE53A8369D53289118CDFB0.md) | 69
+
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## reset
+
+
+
+Resets DiskShadow.exe to the default state. **Reset** is especially useful in separating compound DiskShadow operations such as **create**, **import**, **backup**, or **restore**.
+
+### Syntax
+
+```
+reset
+```
+
+### Remarks
+
+-   When you use the **reset** command, you lose state from commands such as **add**, **set**, **load**, or **writer**. **Reset** also releases IVssBackupComponent interfaces and loses non-persistent shadow copies.
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

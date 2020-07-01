@@ -4,7 +4,7 @@ title: netbtugc.exe | NetBT Unattend Generic Command
 
 # netbtugc.exe 
 
-* File Path: `C:\Windows\system32\netbtugc.exe`
+* File Path: `C:\windows\system32\netbtugc.exe`
 * Description: NetBT Unattend Generic Command
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `384:gLz1Ta0f0pScSlHS4cGZoDb7ILHigFKXC08fPCdjWoskS2CRmsi1jdc6emPW/JFW:U
 ```
 
 ### Child Processes:
-
+mmc.exe
 
 ## Signature
 

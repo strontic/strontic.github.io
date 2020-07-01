@@ -4,7 +4,7 @@ title: SDNDiagnosticsTask.exe |
 
 # SDNDiagnosticsTask.exe 
 
-* File Path: `C:\Windows\system32\SDNDiagnosticsTask.exe`
+* File Path: `C:\windows\system32\SDNDiagnosticsTask.exe`
 * Description: 
 * Comments: 
 

@@ -4,7 +4,7 @@ title: appidtel.exe | Initializes Appid ManagedInstaller and Smartscreen Telemet
 
 # appidtel.exe 
 
-* File Path: `C:\Windows\SysWOW64\appidtel.exe`
+* File Path: `C:\windows\SysWOW64\appidtel.exe`
 * Description: Initializes Appid ManagedInstaller and Smartscreen Telemetry
 * Comments: 
 

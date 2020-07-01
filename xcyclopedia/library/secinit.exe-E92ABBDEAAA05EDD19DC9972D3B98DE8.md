@@ -4,7 +4,7 @@ title: secinit.exe | Security Init
 
 # secinit.exe 
 
-* File Path: `C:\Windows\SysWOW64\secinit.exe`
+* File Path: `C:\windows\SysWOW64\secinit.exe`
 * Description: Security Init
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `192:wKNJVLN9VfIA628ghXhtNtm+Qk9W8vQzRiWGh:wm1N9tIA628gRv7Pr9W8vQzRiWG`
 ```
 
 ### Child Processes:
-
+wordpad.exe
 
 ## Signature
 

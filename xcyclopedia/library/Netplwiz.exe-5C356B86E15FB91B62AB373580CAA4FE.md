@@ -58,10 +58,12 @@ File | Score
 -- | --
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-520A7B7065DCB406D7ECA847B81FD4EC.md) | 50
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-75DCFA9FCA3B674DB727C88FE734144B.md) | 50
+[C:\windows\system32\Netplwiz.exe](Netplwiz.exe-78CE8CDC02FFBA84FE890D48B10A7E49.md) | 61
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-A8581BA45F03CBC449DED52F9D09D4E0.md) | 50
 [C:\WINDOWS\system32\Netplwiz.exe](Netplwiz.exe-F94B7FB6DAC49844D03C7087B2D8B472.md) | 58
 [C:\Windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-28DF040CA6E1FF434429485EDB9EF869.md) | 63
 [C:\Windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-2CCA5ECF833419FFD7140A4E189C1FC9.md) | 80
+[C:\windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-B58F08DF50F5553E249500CD325CAD7D.md) | 61
 [C:\Windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-E1A1217142FB0EC85120E211E5C607DF.md) | 60
 
 

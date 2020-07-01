@@ -4,7 +4,7 @@ title: dxdiag.exe | Microsoft DirectX Diagnostic Tool
 
 # dxdiag.exe 
 
-* File Path: `C:\Windows\SysWOW64\dxdiag.exe`
+* File Path: `C:\windows\SysWOW64\dxdiag.exe`
 * Description: Microsoft DirectX Diagnostic Tool
 * Comments: 
 

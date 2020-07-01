@@ -58,6 +58,7 @@ WSMan Generic Command ERROR: Error in parsing input
 
 File | Score
 -- | --
+[C:\windows\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-008EE0AF717ECC77A270279C7B15D2CB.md) | 36
 [C:\Windows\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-7C0A337D8666F226C8587B675326BBE1.md) | 40
 
 

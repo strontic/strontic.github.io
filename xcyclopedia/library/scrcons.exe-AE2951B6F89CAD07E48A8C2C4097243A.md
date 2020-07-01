@@ -4,7 +4,7 @@ title: scrcons.exe | WMI Standard Event Consumer - scripting
 
 # scrcons.exe 
 
-* File Path: `C:\Windows\system32\wbem\scrcons.exe`
+* File Path: `C:\windows\system32\wbem\scrcons.exe`
 * Description: WMI Standard Event Consumer - scripting
 * Comments: 
 

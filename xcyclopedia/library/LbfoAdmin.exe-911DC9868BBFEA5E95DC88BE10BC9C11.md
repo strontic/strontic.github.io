@@ -4,7 +4,7 @@ title: LbfoAdmin.exe | NIC Teaming
 
 # LbfoAdmin.exe 
 
-* File Path: `C:\Windows\system32\LbfoAdmin.exe`
+* File Path: `C:\windows\system32\LbfoAdmin.exe`
 * Description: NIC Teaming
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `1536:BtVcjj4PBuhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWc14zUWJGCTBH:
 
 File | Score
 -- | --
+[C:\windows\system32\LbfoAdmin.exe](LbfoAdmin.exe-864ACD5218AE9D270B2DC7AACBE26BA7.md) | 86
 [C:\Windows\system32\LbfoAdmin.exe](LbfoAdmin.exe-86D331A0F698EEA7CEF552C1EF7F4E82.md) | 97
 
 

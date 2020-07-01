@@ -4,7 +4,7 @@ title: Magnify.exe | Microsoft Screen Magnifier
 
 # Magnify.exe 
 
-* File Path: `C:\Windows\SysWOW64\Magnify.exe`
+* File Path: `C:\windows\SysWOW64\Magnify.exe`
 * Description: Microsoft Screen Magnifier
 * Comments: 
 

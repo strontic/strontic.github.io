@@ -4,7 +4,7 @@ title: tzutil.exe | Windows Time Zone Utility
 
 # tzutil.exe 
 
-* File Path: `C:\Windows\system32\tzutil.exe`
+* File Path: `C:\windows\system32\tzutil.exe`
 * Description: Windows Time Zone Utility
 * Comments: 
 

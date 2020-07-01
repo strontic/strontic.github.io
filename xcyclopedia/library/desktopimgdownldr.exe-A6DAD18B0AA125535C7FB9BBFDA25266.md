@@ -4,7 +4,7 @@ title: desktopimgdownldr.exe | desktopimgdownldr.exe
 
 # desktopimgdownldr.exe 
 
-* File Path: `C:\Windows\system32\desktopimgdownldr.exe`
+* File Path: `C:\windows\system32\desktopimgdownldr.exe`
 * Description: desktopimgdownldr.exe
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:x1QqAHgKLYb9GoboIdVEVLbIafdXRXnwW4sO0lZTJOd2:xsAlUITE5HVXRXnwW9Ow
 ```
 
 ### Child Processes:
-
+mmc.exe
 
 ## Signature
 

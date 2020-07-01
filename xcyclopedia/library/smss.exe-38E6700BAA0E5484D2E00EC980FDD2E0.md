@@ -4,7 +4,7 @@ title: smss.exe | Windows Session Manager
 
 # smss.exe 
 
-* File Path: `C:\Windows\system32\smss.exe`
+* File Path: `C:\windows\system32\smss.exe`
 * Description: Windows Session Manager
 * Comments: 
 

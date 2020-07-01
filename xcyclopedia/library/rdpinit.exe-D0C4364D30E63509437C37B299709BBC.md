@@ -4,7 +4,7 @@ title: rdpinit.exe | RemoteApp Logon Application
 
 # rdpinit.exe 
 
-* File Path: `C:\Windows\SysWOW64\rdpinit.exe`
+* File Path: `C:\windows\SysWOW64\rdpinit.exe`
 * Description: RemoteApp Logon Application
 * Comments: 
 

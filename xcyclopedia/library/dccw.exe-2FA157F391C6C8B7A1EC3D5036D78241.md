@@ -4,7 +4,7 @@ title: dccw.exe | Display Color Calibration
 
 # dccw.exe 
 
-* File Path: `C:\Windows\system32\dccw.exe`
+* File Path: `C:\windows\system32\dccw.exe`
 * Description: Display Color Calibration
 * Comments: 
 

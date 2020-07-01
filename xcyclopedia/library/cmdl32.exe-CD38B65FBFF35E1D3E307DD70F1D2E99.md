@@ -56,6 +56,7 @@ SSDEEP | `768:KTqHPEiucKtfeXiBWts4v5s5OI5r5kP7Jtj7Zq26JCOcdsnIbcC:KT+PEJcKtfeyq0
 
 File | Score
 -- | --
+[C:\windows\SysWOW64\cmdl32.exe](cmdl32.exe-421B1E635E43A97F98FE7E1A8B612CAA.md) | 33
 [C:\Windows\SysWOW64\cmdl32.exe](cmdl32.exe-5C354F6BA0DF7D01B2CB5CF08140B67E.md) | 44
 [C:\Windows\SysWOW64\cmdl32.exe](cmdl32.exe-87390E37E36622B054D4BDCBB7997B6C.md) | 43
 [C:\Windows\SysWOW64\cmdl32.exe](cmdl32.exe-BD60DF43E6419AFE39B3FCBFB14077E7.md) | 50

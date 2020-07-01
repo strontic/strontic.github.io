@@ -4,7 +4,7 @@ title: setx.exe | Setx - Sets environment variables
 
 # setx.exe 
 
-* File Path: `C:\Windows\SysWOW64\setx.exe`
+* File Path: `C:\windows\SysWOW64\setx.exe`
 * Description: Setx - Sets environment variables
 * Comments: 
 

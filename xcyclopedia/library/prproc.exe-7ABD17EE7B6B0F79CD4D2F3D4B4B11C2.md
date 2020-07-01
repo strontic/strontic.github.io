@@ -4,7 +4,7 @@ title: prproc.exe | PlayReady Process EXE
 
 # prproc.exe 
 
-* File Path: `C:\Windows\system32\prproc.exe`
+* File Path: `C:\windows\system32\prproc.exe`
 * Description: PlayReady Process EXE
 * Comments: 
 

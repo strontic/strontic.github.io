@@ -4,7 +4,7 @@ title: mstsc.exe | Remote Desktop Connection
 
 # mstsc.exe 
 
-* File Path: `C:\Windows\system32\mstsc.exe`
+* File Path: `C:\windows\system32\mstsc.exe`
 * Description: Remote Desktop Connection
 * Comments: 
 

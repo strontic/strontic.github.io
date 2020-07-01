@@ -4,7 +4,7 @@ title: vssadmin.exe | Command Line Interface for Microsoft Volume Shadow Copy Se
 
 # vssadmin.exe 
 
-* File Path: `C:\Windows\system32\vssadmin.exe`
+* File Path: `C:\windows\system32\vssadmin.exe`
 * Description: Command Line Interface for Microsoft Volume Shadow Copy Service 
 * Comments: 
 

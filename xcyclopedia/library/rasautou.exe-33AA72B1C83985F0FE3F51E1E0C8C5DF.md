@@ -4,7 +4,7 @@ title: rasautou.exe | Remote Access Dialer
 
 # rasautou.exe 
 
-* File Path: `C:\Windows\system32\rasautou.exe`
+* File Path: `C:\windows\system32\rasautou.exe`
 * Description: Remote Access Dialer
 * Comments: 
 

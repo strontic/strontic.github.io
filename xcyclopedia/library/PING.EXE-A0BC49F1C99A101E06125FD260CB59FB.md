@@ -4,7 +4,7 @@ title: PING.EXE | TCP/IP Ping Command
 
 # PING.EXE 
 
-* File Path: `C:\Windows\SysWOW64\PING.EXE`
+* File Path: `C:\windows\SysWOW64\PING.EXE`
 * Description: TCP/IP Ping Command
 * Comments: 
 

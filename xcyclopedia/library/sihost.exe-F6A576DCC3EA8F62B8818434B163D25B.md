@@ -4,7 +4,7 @@ title: sihost.exe | Shell Infrastructure Host
 
 # sihost.exe 
 
-* File Path: `C:\Windows\system32\sihost.exe`
+* File Path: `C:\windows\system32\sihost.exe`
 * Description: Shell Infrastructure Host
 * Comments: 
 

@@ -4,7 +4,7 @@ title: qappsrv.exe | Query Remote Desktop Session Host Server Utility
 
 # qappsrv.exe 
 
-* File Path: `C:\Windows\system32\qappsrv.exe`
+* File Path: `C:\windows\system32\qappsrv.exe`
 * Description: Query Remote Desktop Session Host Server Utility
 * Comments: 
 

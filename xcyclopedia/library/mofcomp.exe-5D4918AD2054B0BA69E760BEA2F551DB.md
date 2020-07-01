@@ -4,7 +4,7 @@ title: mofcomp.exe | The Managed Object Format (MOF) Compiler
 
 # mofcomp.exe 
 
-* File Path: `C:\Windows\system32\wbem\mofcomp.exe`
+* File Path: `C:\windows\system32\wbem\mofcomp.exe`
 * Description: The Managed Object Format (MOF) Compiler 
 * Comments: 
 

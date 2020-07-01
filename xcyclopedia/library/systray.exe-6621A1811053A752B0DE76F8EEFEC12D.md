@@ -4,7 +4,7 @@ title: systray.exe | Systray .exe stub
 
 # systray.exe 
 
-* File Path: `C:\Windows\SysWOW64\systray.exe`
+* File Path: `C:\windows\SysWOW64\systray.exe`
 * Description: Systray .exe stub
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `96:qtku2zQw4ZP4p2R4YdsDGjsW+sHQxpTxpstoCfXWUSiDJdMs2bKveL4EWXGyWw0:qCu
 File | Score
 -- | --
 [C:\Windows\SysWOW64\systray.exe](systray.exe-28D565BB24D30E5E3DE8AFF6900AF098.md) | 63
+[C:\windows\SysWOW64\systray.exe](systray.exe-7169F450AC2EC08ED8DD16C00B28A585.md) | 38
 [C:\Windows\SysWOW64\systray.exe](systray.exe-75421841331F0516CC52932028383DDE.md) | 38
 [C:\WINDOWS\SysWOW64\systray.exe](systray.exe-D11C2C0C960BF32AF69214465005348F.md) | 65
 

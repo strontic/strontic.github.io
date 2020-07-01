@@ -4,7 +4,7 @@ title: lpkinstall.exe | Language Pack Installer
 
 # lpkinstall.exe 
 
-* File Path: `C:\Windows\system32\lpkinstall.exe`
+* File Path: `C:\windows\system32\lpkinstall.exe`
 * Description: Language Pack Installer
 * Comments: 
 

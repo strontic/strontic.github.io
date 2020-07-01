@@ -4,7 +4,7 @@ title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
 
 # WSManHTTPConfig.exe 
 
-* File Path: `C:\Windows\SysWOW64\WSManHTTPConfig.exe`
+* File Path: `C:\windows\SysWOW64\WSManHTTPConfig.exe`
 * Description: WSMan HTTP Configuration File
 * Comments: 
 

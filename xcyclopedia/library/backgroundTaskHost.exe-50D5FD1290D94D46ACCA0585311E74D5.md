@@ -4,7 +4,7 @@ title: backgroundTaskHost.exe | Background Task Host
 
 # backgroundTaskHost.exe 
 
-* File Path: `C:\Windows\system32\backgroundTaskHost.exe`
+* File Path: `C:\windows\system32\backgroundTaskHost.exe`
 * Description: Background Task Host
 * Comments: 
 

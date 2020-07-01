@@ -4,7 +4,7 @@ title: systemreset.exe | System Reset for Windows
 
 # systemreset.exe 
 
-* File Path: `C:\Windows\system32\systemreset.exe`
+* File Path: `C:\windows\system32\systemreset.exe`
 * Description: System Reset for Windows
 * Comments: 
 

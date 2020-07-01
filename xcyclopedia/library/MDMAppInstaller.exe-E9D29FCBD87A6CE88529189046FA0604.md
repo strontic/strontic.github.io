@@ -4,7 +4,7 @@ title: MDMAppInstaller.exe | MDM App Installer
 
 # MDMAppInstaller.exe 
 
-* File Path: `C:\Windows\system32\MDMAppInstaller.exe`
+* File Path: `C:\windows\system32\MDMAppInstaller.exe`
 * Description: MDM App Installer
 * Comments: 
 

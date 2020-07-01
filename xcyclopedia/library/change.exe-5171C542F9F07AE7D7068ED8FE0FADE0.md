@@ -4,7 +4,7 @@ title: change.exe | Remote Desktop Services Change Utility
 
 # change.exe 
 
-* File Path: `C:\Windows\system32\change.exe`
+* File Path: `C:\windows\system32\change.exe`
 * Description: Remote Desktop Services Change Utility
 * Comments: 
 
@@ -35,7 +35,7 @@ CHANGE { LOGON | PORT | USER }
 ```
 
 ### Child Processes:
-
+win32calc.exe
 
 ## Signature
 

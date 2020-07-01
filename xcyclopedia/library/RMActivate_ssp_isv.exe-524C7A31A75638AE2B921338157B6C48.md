@@ -4,7 +4,7 @@ title: RMActivate_ssp_isv.exe | Windows Rights Management Services Activation fo
 
 # RMActivate_ssp_isv.exe 
 
-* File Path: `C:\Windows\SysWOW64\RMActivate_ssp_isv.exe`
+* File Path: `C:\windows\SysWOW64\RMActivate_ssp_isv.exe`
 * Description: Windows Rights Management Services Activation for Server Security Processor (Pre-production)
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `12288:oCVhJzivvvk13ntYeHczJsGYjA004B6RgmDFbnRWvrBY9zihL2W:BrJziy3ntdHo
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

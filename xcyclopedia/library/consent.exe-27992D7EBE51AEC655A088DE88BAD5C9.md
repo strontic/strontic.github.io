@@ -4,7 +4,7 @@ title: consent.exe | Consent UI for administrative applications
 
 # consent.exe 
 
-* File Path: `C:\Windows\system32\consent.exe`
+* File Path: `C:\windows\system32\consent.exe`
 * Description: Consent UI for administrative applications
 * Comments: 
 

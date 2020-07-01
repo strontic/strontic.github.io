@@ -4,7 +4,7 @@ title: MusNotificationUx.exe | MusNotificationUx.exe
 
 # MusNotificationUx.exe 
 
-* File Path: `C:\Windows\system32\MusNotificationUx.exe`
+* File Path: `C:\windows\system32\MusNotificationUx.exe`
 * Description: MusNotificationUx.exe
 * Comments: 
 

@@ -4,7 +4,7 @@ title: TRACERT.EXE | TCP/IP Traceroute Command
 
 # TRACERT.EXE 
 
-* File Path: `C:\Windows\SysWOW64\TRACERT.EXE`
+* File Path: `C:\windows\SysWOW64\TRACERT.EXE`
 * Description: TCP/IP Traceroute Command
 * Comments: 
 

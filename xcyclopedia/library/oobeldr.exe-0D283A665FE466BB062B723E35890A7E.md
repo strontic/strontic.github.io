@@ -4,7 +4,7 @@ title: oobeldr.exe | OOBE Loader
 
 # oobeldr.exe 
 
-* File Path: `C:\Windows\system32\oobe\oobeldr.exe`
+* File Path: `C:\windows\system32\oobe\oobeldr.exe`
 * Description: OOBE Loader
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:4t43dRI9NpXk7Pb78iMkqppHFMa71M1l9Salw:K4NRIDpX2PH8iWpp774Xm`
 ```
 
 ### Child Processes:
-
+cmd.exe
 
 ## Signature
 

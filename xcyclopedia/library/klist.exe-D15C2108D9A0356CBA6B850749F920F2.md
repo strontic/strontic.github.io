@@ -4,7 +4,7 @@ title: klist.exe | Tool for managing the Kerberos ticket cache
 
 # klist.exe 
 
-* File Path: `C:\Windows\system32\klist.exe`
+* File Path: `C:\windows\system32\klist.exe`
 * Description: Tool for managing the Kerberos ticket cache
 * Comments: 
 

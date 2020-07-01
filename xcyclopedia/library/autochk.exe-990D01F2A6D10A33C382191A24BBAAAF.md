@@ -4,7 +4,7 @@ title: autochk.exe | Auto Check Utility
 
 # autochk.exe 
 
-* File Path: `C:\Windows\system32\autochk.exe`
+* File Path: `C:\windows\system32\autochk.exe`
 * Description: Auto Check Utility
 * Comments: 
 

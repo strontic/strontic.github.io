@@ -4,7 +4,7 @@ title: AppVClient.exe | Microsoft Application Virtualization Client Service
 
 # AppVClient.exe 
 
-* File Path: `C:\Windows\system32\AppVClient.exe`
+* File Path: `C:\windows\system32\AppVClient.exe`
 * Description: Microsoft Application Virtualization Client Service
 * Comments: 
 

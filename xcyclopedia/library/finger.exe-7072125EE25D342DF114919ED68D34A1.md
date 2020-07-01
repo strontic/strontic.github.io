@@ -4,7 +4,7 @@ title: finger.exe | TCPIP Finger Command
 
 # finger.exe 
 
-* File Path: `C:\Windows\system32\finger.exe`
+* File Path: `C:\windows\system32\finger.exe`
 * Description: TCPIP Finger Command
 * Comments: 
 
@@ -24,7 +24,7 @@ SSDEEP | `192:vT+V81sDF09kycvbhH+u6pePFkzCM0Mh08G9EQjNEwzru/aW60W:vT+VCUF09FcDdE
 ### Usage (stdout):
 ```Batchfile
 
-[EC2AMAZ-52833MP]
+[Strontic5]
 
 ```
 

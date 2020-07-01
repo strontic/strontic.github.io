@@ -4,7 +4,7 @@ title: where.exe | Where - Lists location of files
 
 # where.exe 
 
-* File Path: `C:\Windows\SysWOW64\where.exe`
+* File Path: `C:\windows\SysWOW64\where.exe`
 * Description: Where - Lists location of files
 * Comments: 
 

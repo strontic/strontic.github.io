@@ -4,7 +4,7 @@ title: rekeywiz.exe | EFS REKEY wizard
 
 # rekeywiz.exe 
 
-* File Path: `C:\Windows\system32\rekeywiz.exe`
+* File Path: `C:\windows\system32\rekeywiz.exe`
 * Description: EFS REKEY wizard
 * Comments: 
 

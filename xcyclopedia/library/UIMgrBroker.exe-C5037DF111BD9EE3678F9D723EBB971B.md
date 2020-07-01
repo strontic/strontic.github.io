@@ -4,7 +4,7 @@ title: UIMgrBroker.exe | Microsoft UIManager Broker
 
 # UIMgrBroker.exe 
 
-* File Path: `C:\Windows\system32\UIMgrBroker.exe`
+* File Path: `C:\windows\system32\UIMgrBroker.exe`
 * Description: Microsoft UIManager Broker
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:hkbIlhPTJg07Q0eBNU5FaJsKkiWPPAh1SkNOaBTsIlkQB7WBv3:eo807QDPJs/iAw8
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 

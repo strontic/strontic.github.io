@@ -4,7 +4,7 @@ title: rwinsta.exe | Reset Session Utility
 
 # rwinsta.exe 
 
-* File Path: `C:\Windows\system32\rwinsta.exe`
+* File Path: `C:\windows\system32\rwinsta.exe`
 * Description: Reset Session Utility
 * Comments: 
 

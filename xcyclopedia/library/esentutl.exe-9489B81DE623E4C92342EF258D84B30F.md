@@ -4,7 +4,7 @@ title: esentutl.exe | Extensible Storage Engine Utilities for Microsoft(R) Windo
 
 # esentutl.exe 
 
-* File Path: `C:\Windows\SysWOW64\esentutl.exe`
+* File Path: `C:\windows\SysWOW64\esentutl.exe`
 * Description: Extensible Storage Engine Utilities for Microsoft(R) Windows(R)
 * Comments: 
 

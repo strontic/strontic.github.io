@@ -4,7 +4,7 @@ title: expand.exe | LZ Expansion Utility
 
 # expand.exe 
 
-* File Path: `C:\Windows\SysWOW64\expand.exe`
+* File Path: `C:\windows\SysWOW64\expand.exe`
 * Description: LZ Expansion Utility
 * Comments: 
 

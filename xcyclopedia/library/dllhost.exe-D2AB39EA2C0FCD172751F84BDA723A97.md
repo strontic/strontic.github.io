@@ -4,7 +4,7 @@ title: dllhost.exe | COM Surrogate
 
 # dllhost.exe 
 
-* File Path: `C:\Windows\system32\dllhost.exe`
+* File Path: `C:\windows\system32\dllhost.exe`
 * Description: COM Surrogate
 * Comments: 
 

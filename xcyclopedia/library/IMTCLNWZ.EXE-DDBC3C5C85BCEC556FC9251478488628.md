@@ -4,7 +4,7 @@ title: IMTCLNWZ.EXE | IMTCLNWZ.exe
 
 # IMTCLNWZ.EXE 
 
-* File Path: `C:\Windows\system32\IME\IMETC\IMTCLNWZ.EXE`
+* File Path: `C:\windows\system32\IME\IMETC\IMTCLNWZ.EXE`
 * Description: IMTCLNWZ.exe
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `3072:Yeph9guiW2j2h7iBoJ+K9P+Dp10GWNqc:xn9guh2j2h7xJf49ewc`
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 

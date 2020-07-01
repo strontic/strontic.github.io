@@ -4,7 +4,7 @@ title: mavinject.exe | Microsoft Application Virtualization Injector
 
 # mavinject.exe 
 
-* File Path: `C:\Windows\SysWOW64\mavinject.exe`
+* File Path: `C:\windows\SysWOW64\mavinject.exe`
 * Description: Microsoft Application Virtualization Injector
 * Comments: 
 

@@ -4,7 +4,7 @@ title: systeminfo.exe | Displays system information
 
 # systeminfo.exe 
 
-* File Path: `C:\Windows\system32\systeminfo.exe`
+* File Path: `C:\windows\system32\systeminfo.exe`
 * Description: Displays system information
 * Comments: 
 

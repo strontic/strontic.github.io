@@ -4,7 +4,7 @@ title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
 
 # WSManHTTPConfig.exe 
 
-* File Path: `C:\Windows\system32\WSManHTTPConfig.exe`
+* File Path: `C:\windows\system32\WSManHTTPConfig.exe`
 * Description: WSMan HTTP Configuration File
 * Comments: 
 
@@ -58,6 +58,7 @@ WSMan Generic Command ERROR: Error in parsing input
 
 File | Score
 -- | --
+[C:\windows\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-008EE0AF717ECC77A270279C7B15D2CB.md) | 35
 [C:\Windows\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-11D3620AB49916F0179316888852A570.md) | 40
 
 

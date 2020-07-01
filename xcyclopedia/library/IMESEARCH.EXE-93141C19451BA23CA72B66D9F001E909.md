@@ -4,7 +4,7 @@ title: IMESEARCH.EXE | IME search module
 
 # IMESEARCH.EXE 
 
-* File Path: `C:\Windows\SysWOW64\IME\shared\IMESEARCH.EXE`
+* File Path: `C:\windows\SysWOW64\IME\shared\IMESEARCH.EXE`
 * Description: IME search module
 * Comments: 
 

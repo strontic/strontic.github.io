@@ -4,7 +4,7 @@ title: extrac32.exe | Microsoft CAB File Extract Utility
 
 # extrac32.exe 
 
-* File Path: `C:\Windows\system32\extrac32.exe`
+* File Path: `C:\windows\system32\extrac32.exe`
 * Description: Microsoft CAB File Extract Utility
 * Comments: 
 

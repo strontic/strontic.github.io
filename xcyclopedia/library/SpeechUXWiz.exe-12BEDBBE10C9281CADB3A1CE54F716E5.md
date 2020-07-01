@@ -4,7 +4,7 @@ title: SpeechUXWiz.exe | Speech UX Configuration
 
 # SpeechUXWiz.exe 
 
-* File Path: `C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe`
+* File Path: `C:\windows\system32\Speech\SpeechUX\SpeechUXWiz.exe`
 * Description: Speech UX Configuration
 * Comments: 
 

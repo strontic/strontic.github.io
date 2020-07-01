@@ -4,7 +4,7 @@ title: comp.exe | File Compare Utility
 
 # comp.exe 
 
-* File Path: `C:\Windows\system32\comp.exe`
+* File Path: `C:\windows\system32\comp.exe`
 * Description: File Compare Utility
 * Comments: 
 

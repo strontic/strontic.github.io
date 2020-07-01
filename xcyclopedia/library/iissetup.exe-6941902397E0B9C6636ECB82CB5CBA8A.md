@@ -55,6 +55,11 @@ Failed = 0x80070057
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\SysWOW64\inetsrv\iissetup.exe](iissetup.exe-AB9AEAF8E31AA23DDC92B336D234DBFF.md) | 32
 
 
 

@@ -4,7 +4,7 @@ title: secinit.exe | Security Init
 
 # secinit.exe 
 
-* File Path: `C:\Windows\system32\secinit.exe`
+* File Path: `C:\windows\system32\secinit.exe`
 * Description: Security Init
 * Comments: 
 

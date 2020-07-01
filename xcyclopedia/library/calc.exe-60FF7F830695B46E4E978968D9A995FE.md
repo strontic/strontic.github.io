@@ -4,7 +4,7 @@ title: calc.exe | Windows Calculator
 
 # calc.exe 
 
-* File Path: `C:\Windows\SysWOW64\calc.exe`
+* File Path: `C:\windows\SysWOW64\calc.exe`
 * Description: Windows Calculator
 * Comments: 
 

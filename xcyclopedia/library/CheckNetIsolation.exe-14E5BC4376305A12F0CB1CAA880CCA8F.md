@@ -4,7 +4,7 @@ title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
 
 # CheckNetIsolation.exe 
 
-* File Path: `C:\Windows\SysWOW64\CheckNetIsolation.exe`
+* File Path: `C:\windows\SysWOW64\CheckNetIsolation.exe`
 * Description: AppContainer Network Isolation Diagnostic Tool
 * Comments: 
 
@@ -47,7 +47,7 @@ Usage:
 ```
 
 ### Child Processes:
-
+wordpad.exe
 
 ## Signature
 

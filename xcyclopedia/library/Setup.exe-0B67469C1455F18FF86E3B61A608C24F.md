@@ -4,7 +4,7 @@ title: Setup.exe | Windows Installation and Setup
 
 # Setup.exe 
 
-* File Path: `C:\Windows\system32\oobe\Setup.exe`
+* File Path: `C:\windows\system32\oobe\Setup.exe`
 * Description: Windows Installation and Setup
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `6144:BJLIiPDg8W83jmUJEsl+jV5frzhQXJgzBU4GfjT:BuiP/39eHfJag`
 ```
 
 ### Child Processes:
-
+cmd.exe
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: runas.exe | Run As Utility
 
 # runas.exe 
 
-* File Path: `C:\Windows\SysWOW64\runas.exe`
+* File Path: `C:\windows\SysWOW64\runas.exe`
 * Description: Run As Utility
 * Comments: 
 

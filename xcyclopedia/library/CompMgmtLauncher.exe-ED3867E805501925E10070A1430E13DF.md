@@ -4,7 +4,7 @@ title: CompMgmtLauncher.exe | Computer Management Snapin Launcher
 
 # CompMgmtLauncher.exe 
 
-* File Path: `C:\Windows\system32\CompMgmtLauncher.exe`
+* File Path: `C:\windows\system32\CompMgmtLauncher.exe`
 * Description: Computer Management Snapin Launcher
 * Comments: 
 
@@ -58,9 +58,11 @@ File | Score
 -- | --
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-28317A51B8F874BCF5220872269FEC2C.md) | 32
 [C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-E0861FA9E0A4B441C6A11405D12D0C30.md) | 38
+[C:\windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-EF0DB115967BFB1996403434AA3C9D7E.md) | 33
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-FF9690925244473ECC4C2E5B535B8599.md) | 38
 [C:\Windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-984C9F7202A43577C2A3D52A1300FFE7.md) | 41
 [C:\Windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-CA3A931A56D4B2429A39871131964101.md) | 32
+[C:\windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-CF83A07EECB55210ADAA65EF8B4C75D8.md) | 33
 
 
 

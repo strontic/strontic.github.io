@@ -4,7 +4,7 @@ title: convert.exe | File System Conversion Utility
 
 # convert.exe 
 
-* File Path: `C:\Windows\SysWOW64\convert.exe`
+* File Path: `C:\windows\SysWOW64\convert.exe`
 * Description: File System Conversion Utility
 * Comments: 
 

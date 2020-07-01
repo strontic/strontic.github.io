@@ -4,7 +4,7 @@ title: sessionmsg.exe | Microsoft Remote Desktop Services Session Message Server
 
 # sessionmsg.exe 
 
-* File Path: `C:\Windows\system32\sessionmsg.exe`
+* File Path: `C:\windows\system32\sessionmsg.exe`
 * Description: Microsoft Remote Desktop Services Session Message Server
 * Comments: 
 

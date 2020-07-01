@@ -4,7 +4,7 @@ title: msdt.exe | Diagnostics Troubleshooting Wizard
 
 # msdt.exe 
 
-* File Path: `C:\Windows\system32\msdt.exe`
+* File Path: `C:\windows\system32\msdt.exe`
 * Description: Diagnostics Troubleshooting Wizard
 * Comments: 
 
@@ -56,7 +56,9 @@ SSDEEP | `24576:6ZE6Yj7JKD6XH4qvIReK1odddGdBnyE0k26kVZnBm:9aqNK7utRB`
 
 File | Score
 -- | --
+[C:\windows\system32\msdt.exe](msdt.exe-71F99D108A429C131E8335B5E4FE01F9.md) | 68
 [C:\Windows\system32\msdt.exe](msdt.exe-BB98CE2BD520AC69CB3D2F830974CABE.md) | 79
+[C:\windows\SysWOW64\msdt.exe](msdt.exe-3AAB3F3107C0F2FDE2AD082EB98A84EA.md) | 65
 [C:\Windows\SysWOW64\msdt.exe](msdt.exe-4EBC38519675FB0BA6915D0D8A7FCD01.md) | 69
 [C:\Windows\SysWOW64\msdt.exe](msdt.exe-7FF1826697BAC1F6414FEF5A12D5A930.md) | 74
 

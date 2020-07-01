@@ -58,6 +58,7 @@ Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 File | Score
 -- | --
 [C:\Windows\system32\Configure-SMRemoting.exe](Configure-SMRemoting.exe-01B26A8919A84F68E836BD7F43AE646E.md) | 29
+[C:\windows\system32\Configure-SMRemoting.exe](Configure-SMRemoting.exe-B2FA87E8F814BF08E1599B6B2FDC9720.md) | 21
 
 
 

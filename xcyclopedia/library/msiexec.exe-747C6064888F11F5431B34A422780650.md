@@ -4,7 +4,7 @@ title: msiexec.exe | Windows installer
 
 # msiexec.exe 
 
-* File Path: `C:\Windows\SysWOW64\msiexec.exe`
+* File Path: `C:\windows\SysWOW64\msiexec.exe`
 * Description: Windows installer
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:No8HL2TB4LH97PQtGNSNuuNELvInbOv8PAZWmDXIMLXq6CAy/Cc:sTB4LRPOF5ELw8
 ```
 
 ### Child Processes:
-
+wordpad.exe
 
 ## Signature
 

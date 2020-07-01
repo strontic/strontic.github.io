@@ -4,7 +4,7 @@ title: wevtutil.exe | Eventing Command Line Utility
 
 # wevtutil.exe 
 
-* File Path: `C:\Windows\SysWOW64\wevtutil.exe`
+* File Path: `C:\windows\SysWOW64\wevtutil.exe`
 * Description: Eventing Command Line Utility
 * Comments: 
 

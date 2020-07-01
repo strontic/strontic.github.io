@@ -4,7 +4,7 @@ title: RMActivate.exe | Windows Rights Management Services Activation for Deskto
 
 # RMActivate.exe 
 
-* File Path: `C:\Windows\SysWOW64\RMActivate.exe`
+* File Path: `C:\windows\SysWOW64\RMActivate.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
 * Comments: 
 

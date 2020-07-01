@@ -4,7 +4,7 @@ title: ssh-keygen.exe |
 
 # ssh-keygen.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\ssh-keygen.exe`
+* File Path: `C:\windows\system32\OpenSSH\ssh-keygen.exe`
 * Description: 
 * Comments: 
 
@@ -24,7 +24,7 @@ SSDEEP | `6144:1jOlrq2QzsTMhJoEBA/YF9HE0C09/l760j6qTjhqVSxwn1VU1B8zqcNPaDb2O7fB:
 ### Usage (stdout):
 ```Batchfile
 Generating public/private rsa key pair.
-Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa): 
+Enter file in which to save the key (C:\Users\x-user/.ssh/id_rsa): 
 ```
 
 ### Usage (stderr):
@@ -58,7 +58,7 @@ usage: ssh-keygen [-q] [-b bits] [-t dsa | ecdsa | ed25519 | rsa]
 ```
 
 ### Child Processes:
-conhost.exe
+explorer.exe
 
 ## Signature
 

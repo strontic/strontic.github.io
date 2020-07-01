@@ -4,7 +4,7 @@ title: bcdedit.exe | Boot Configuration Data Editor
 
 # bcdedit.exe 
 
-* File Path: `C:\Windows\system32\bcdedit.exe`
+* File Path: `C:\windows\system32\bcdedit.exe`
 * Description: Boot Configuration Data Editor
 * Comments: 
 

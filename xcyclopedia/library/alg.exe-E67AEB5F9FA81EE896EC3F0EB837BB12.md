@@ -4,7 +4,7 @@ title: alg.exe | Application Layer Gateway Service
 
 # alg.exe 
 
-* File Path: `C:\Windows\system32\alg.exe`
+* File Path: `C:\windows\system32\alg.exe`
 * Description: Application Layer Gateway Service
 * Comments: 
 

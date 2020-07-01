@@ -4,7 +4,7 @@ title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
 
 # Windows.Media.BackgroundPlayback.exe 
 
-* File Path: `C:\Windows\system32\Windows.Media.BackgroundPlayback.exe`
+* File Path: `C:\windows\system32\Windows.Media.BackgroundPlayback.exe`
 * Description: Windows Media Playback EXE
 * Comments: 
 

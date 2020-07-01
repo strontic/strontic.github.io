@@ -4,7 +4,7 @@ title: sfc.exe | System Integrity Check and Repair
 
 # sfc.exe 
 
-* File Path: `C:\Windows\SysWOW64\sfc.exe`
+* File Path: `C:\windows\SysWOW64\sfc.exe`
 * Description: System Integrity Check and Repair
 * Comments: 
 

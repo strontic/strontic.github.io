@@ -4,7 +4,7 @@ title: PktMon.exe | Packet Monitor
 
 # PktMon.exe 
 
-* File Path: `C:\Windows\system32\PktMon.exe`
+* File Path: `C:\windows\system32\PktMon.exe`
 * Description: Packet Monitor
 * Comments: 
 

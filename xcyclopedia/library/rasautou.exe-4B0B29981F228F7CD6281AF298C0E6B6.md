@@ -4,7 +4,7 @@ title: rasautou.exe | Remote Access Dialer
 
 # rasautou.exe 
 
-* File Path: `C:\Windows\SysWOW64\rasautou.exe`
+* File Path: `C:\windows\SysWOW64\rasautou.exe`
 * Description: Remote Access Dialer
 * Comments: 
 
@@ -33,7 +33,7 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 ```
 
 ### Child Processes:
-
+rundll32.exe
 
 ## Signature
 

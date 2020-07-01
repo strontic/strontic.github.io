@@ -4,7 +4,7 @@ title: WerFault.exe | Windows Problem Reporting
 
 # WerFault.exe 
 
-* File Path: `C:\Windows\system32\WerFault.exe`
+* File Path: `C:\windows\system32\WerFault.exe`
 * Description: Windows Problem Reporting
 * Comments: 
 

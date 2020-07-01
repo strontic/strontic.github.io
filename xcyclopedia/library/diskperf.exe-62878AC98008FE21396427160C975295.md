@@ -4,7 +4,7 @@ title: diskperf.exe | Disk Performance Configuration Utility
 
 # diskperf.exe 
 
-* File Path: `C:\Windows\system32\diskperf.exe`
+* File Path: `C:\windows\system32\diskperf.exe`
 * Description: Disk Performance Configuration Utility
 * Comments: 
 

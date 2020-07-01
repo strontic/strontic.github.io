@@ -4,7 +4,7 @@ title: diskshadow.exe | DiskShadow
 
 # diskshadow.exe 
 
-* File Path: `C:\Windows\SysWOW64\diskshadow.exe`
+* File Path: `C:\windows\SysWOW64\diskshadow.exe`
 * Description: DiskShadow
 * Comments: 
 
@@ -25,7 +25,7 @@ SSDEEP | `6144:PZQ5sJS74kNNodXUDWiOzRQVZwR5SinzKa:PZAsJSzNoxUVO1QVZALnua`
 ```Batchfile
 Microsoft DiskShadow version 1.0
 Copyright (C) 2013 Microsoft Corporation
-On computer:  EC2AMAZ-52833MP,  6/29/2020 3:51:57 PM
+On computer:  Strontic5,  7/1/2020 2:46:32 AM
 
 DISKSHADOW.EXE  [/s <scriptfile> [param1] [param2] [param3] ...] [/l <logfile>]
                           - Runs script mode

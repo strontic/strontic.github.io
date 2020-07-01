@@ -4,7 +4,7 @@ title: regedit.exe | Registry Editor
 
 # regedit.exe 
 
-* File Path: `C:\Windows\SysWOW64\regedit.exe`
+* File Path: `C:\windows\SysWOW64\regedit.exe`
 * Description: Registry Editor
 * Comments: 
 

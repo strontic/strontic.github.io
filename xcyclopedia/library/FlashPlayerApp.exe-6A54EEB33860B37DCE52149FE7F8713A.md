@@ -57,6 +57,7 @@ SSDEEP | `12288:MB0z4tN/qGDb+DLUFoYkp6d1BtOkodxduog/TXJa/x82IErOJsLV/QtOM4:SCA+O
 File | Score
 -- | --
 [C:\Windows\SysWOW64\FlashPlayerApp.exe](FlashPlayerApp.exe-60499A695209C07EE815A098A6DDEA68.md) | 96
+[C:\windows\SysWOW64\FlashPlayerApp.exe](FlashPlayerApp.exe-D283ACC1C4AC03C1356D215E90C0875C.md) | 60
 
 
 

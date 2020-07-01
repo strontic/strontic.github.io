@@ -4,7 +4,7 @@ title: lpremove.exe | MUI Language pack cleanup
 
 # lpremove.exe 
 
-* File Path: `C:\Windows\system32\lpremove.exe`
+* File Path: `C:\windows\system32\lpremove.exe`
 * Description: MUI Language pack cleanup
 * Comments: 
 

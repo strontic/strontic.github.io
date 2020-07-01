@@ -4,7 +4,7 @@ title: SndVol.exe | Volume Mixer
 
 # SndVol.exe 
 
-* File Path: `C:\Windows\SysWOW64\SndVol.exe`
+* File Path: `C:\windows\SysWOW64\SndVol.exe`
 * Description: Volume Mixer
 * Comments: 
 
@@ -58,8 +58,10 @@ File | Score
 -- | --
 [C:\Windows\system32\SndVol.exe](SndVol.exe-0D8208F039702F6D7FEA2FC002836408.md) | 35
 [C:\WINDOWS\system32\SndVol.exe](SndVol.exe-BE6B28D62DB5B2AAF92B00DBD717D453.md) | 30
+[C:\windows\system32\SndVol.exe](SndVol.exe-DA0973777069BEFF69D9D89476340104.md) | 32
 [C:\WINDOWS\SysWOW64\SndVol.exe](SndVol.exe-779D706DE5A512A06AF4933035970AE5.md) | 29
 [C:\Windows\SysWOW64\SndVol.exe](SndVol.exe-7D7D5466FCDCD28976A004B5B08864E3.md) | 30
+[C:\windows\SysWOW64\SndVol.exe](SndVol.exe-8D40C30D3BA0030D55C1249C118D7F63.md) | 35
 [C:\Windows\SysWOW64\SndVol.exe](SndVol.exe-FC0BFFE396750BB00FAFAD0C62E7ACDA.md) | 35
 
 

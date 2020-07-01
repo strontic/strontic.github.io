@@ -4,7 +4,7 @@ title: CompPkgSrv.exe | Component Package Support Server
 
 # CompPkgSrv.exe 
 
-* File Path: `C:\Windows\system32\CompPkgSrv.exe`
+* File Path: `C:\windows\system32\CompPkgSrv.exe`
 * Description: Component Package Support Server
 * Comments: 
 

@@ -4,7 +4,7 @@ title: schtasks.exe | Task Scheduler Configuration Tool
 
 # schtasks.exe 
 
-* File Path: `C:\Windows\system32\schtasks.exe`
+* File Path: `C:\windows\system32\schtasks.exe`
 * Description: Task Scheduler Configuration Tool
 * Comments: 
 

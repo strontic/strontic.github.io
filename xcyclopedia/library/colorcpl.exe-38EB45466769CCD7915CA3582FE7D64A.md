@@ -56,10 +56,12 @@ SSDEEP | `1536:K27IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:bkXlvq7jSP1c
 
 File | Score
 -- | --
+[C:\windows\system32\colorcpl.exe](colorcpl.exe-1FCE45CF94DA9CD4D28B25FFFC1E684F.md) | 96
 [C:\WINDOWS\system32\colorcpl.exe](colorcpl.exe-25040F44B9DDAB66CE97AE7EB076C1F4.md) | 97
 [C:\Windows\system32\colorcpl.exe](colorcpl.exe-362986B35574BF922A81E7B0BA50C96B.md) | 97
 [C:\Windows\system32\colorcpl.exe](colorcpl.exe-7009947CFC65EA513ED9EBD37EC63C62.md) | 96
 [C:\Windows\system32\colorcpl.exe](colorcpl.exe-F24913A27288728064D4B1EE4FBC2354.md) | 96
+[C:\windows\SysWOW64\colorcpl.exe](colorcpl.exe-0A606DBA8620A3F24240226798720CDD.md) | 96
 [C:\Windows\SysWOW64\colorcpl.exe](colorcpl.exe-BFCDDC11FE74898B5099303303A24595.md) | 96
 [C:\Windows\SysWOW64\colorcpl.exe](colorcpl.exe-DB71E132EBF1FEB6E93E8A2A0F0C903D.md) | 96
 [C:\WINDOWS\SysWOW64\colorcpl.exe](colorcpl.exe-F68A384E758C94DA13875354C9CFEB27.md) | 96

@@ -4,7 +4,7 @@ title: dfrgui.exe | Microsoft Drive Optimizer
 
 # dfrgui.exe 
 
-* File Path: `C:\Windows\system32\dfrgui.exe`
+* File Path: `C:\windows\system32\dfrgui.exe`
 * Description: Microsoft Drive Optimizer
 * Comments: 
 
@@ -56,7 +56,9 @@ SSDEEP | `12288:P393ZejWw8Xd3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx7:Pp4XWd3/kRc4l6g6gt
 
 File | Score
 -- | --
+[C:\windows\system32\dfrgui.exe](dfrgui.exe-B04260F1057D2C30D6475F553A3F85E3.md) | 85
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B.md) | 85
+[C:\windows\SysWOW64\dfrgui.exe](dfrgui.exe-0CB14A5281EE411B6D13B205C146EB85.md) | 80
 [C:\Windows\SysWOW64\dfrgui.exe](dfrgui.exe-51E1B6001C0A8B6B6E9424C86DB7D752.md) | 79
 [C:\Windows\SysWOW64\dfrgui.exe](dfrgui.exe-7023EC5BAEF3BDE3C77C0FA08D924501.md) | 86
 

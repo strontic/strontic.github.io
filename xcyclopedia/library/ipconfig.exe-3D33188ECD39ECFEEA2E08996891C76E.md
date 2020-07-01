@@ -4,7 +4,7 @@ title: ipconfig.exe | IP Configuration Utility
 
 # ipconfig.exe 
 
-* File Path: `C:\Windows\system32\ipconfig.exe`
+* File Path: `C:\windows\system32\ipconfig.exe`
 * Description: IP Configuration Utility
 * Comments: 
 

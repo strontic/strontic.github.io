@@ -4,7 +4,7 @@ title: upfc.exe | Updateability From SCM
 
 # upfc.exe 
 
-* File Path: `C:\Windows\system32\upfc.exe`
+* File Path: `C:\windows\system32\upfc.exe`
 * Description: Updateability From SCM
 * Comments: 
 

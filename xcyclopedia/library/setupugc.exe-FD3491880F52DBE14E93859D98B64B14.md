@@ -4,7 +4,7 @@ title: setupugc.exe | Setup Unattend Generic Command Processor
 
 # setupugc.exe 
 
-* File Path: `C:\Windows\system32\setupugc.exe`
+* File Path: `C:\windows\system32\setupugc.exe`
 * Description: Setup Unattend Generic Command Processor
 * Comments: 
 

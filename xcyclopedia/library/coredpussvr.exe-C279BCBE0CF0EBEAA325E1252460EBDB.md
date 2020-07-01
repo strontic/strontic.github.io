@@ -4,7 +4,7 @@ title: coredpussvr.exe | coredpussvr.exe
 
 # coredpussvr.exe 
 
-* File Path: `C:\Windows\system32\coredpussvr.exe`
+* File Path: `C:\windows\system32\coredpussvr.exe`
 * Description: coredpussvr.exe
 * Comments: 
 

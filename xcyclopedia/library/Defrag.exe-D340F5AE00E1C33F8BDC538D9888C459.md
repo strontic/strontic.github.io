@@ -4,7 +4,7 @@ title: Defrag.exe | Disk Defragmenter Module
 
 # Defrag.exe 
 
-* File Path: `C:\Windows\system32\Defrag.exe`
+* File Path: `C:\windows\system32\Defrag.exe`
 * Description: Disk Defragmenter Module
 * Comments: 
 
@@ -104,6 +104,7 @@ Examples:
 File | Score
 -- | --
 [C:\WINDOWS\system32\Defrag.exe](Defrag.exe-15EFD404D3065B560876BBE567CE981A.md) | 74
+[C:\windows\system32\Defrag.exe](Defrag.exe-537BFBA3084BAE2892C0FCAA08A12C0B.md) | 71
 [C:\Windows\system32\Defrag.exe](Defrag.exe-BCBD8C0BFD620A4761C8ACDF96D9CDAE.md) | 71
 [C:\Windows\system32\Defrag.exe](Defrag.exe-F7AC2F29879A0789A74F87012861A956.md) | 69
 

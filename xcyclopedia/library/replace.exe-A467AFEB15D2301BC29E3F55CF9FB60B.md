@@ -4,7 +4,7 @@ title: replace.exe | Replace File Utility
 
 # replace.exe 
 
-* File Path: `C:\Windows\SysWOW64\replace.exe`
+* File Path: `C:\windows\SysWOW64\replace.exe`
 * Description: Replace File Utility
 * Comments: 
 

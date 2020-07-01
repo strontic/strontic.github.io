@@ -4,7 +4,7 @@ title: icsunattend.exe | ICS Unattend Utility
 
 # icsunattend.exe 
 
-* File Path: `C:\Windows\system32\icsunattend.exe`
+* File Path: `C:\windows\system32\icsunattend.exe`
 * Description: ICS Unattend Utility
 * Comments: 
 

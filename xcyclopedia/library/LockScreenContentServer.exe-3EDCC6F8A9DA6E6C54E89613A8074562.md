@@ -4,7 +4,7 @@ title: LockScreenContentServer.exe | LockScreenContent Server
 
 # LockScreenContentServer.exe 
 
-* File Path: `C:\Windows\system32\LockScreenContentServer.exe`
+* File Path: `C:\windows\system32\LockScreenContentServer.exe`
 * Description: LockScreenContent Server
 * Comments: 
 

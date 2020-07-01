@@ -4,7 +4,7 @@ title: SyncAppvPublishingServer.exe |
 
 # SyncAppvPublishingServer.exe 
 
-* File Path: `C:\Windows\system32\SyncAppvPublishingServer.exe`
+* File Path: `C:\windows\system32\SyncAppvPublishingServer.exe`
 * Description: 
 * Comments: 
 

@@ -4,7 +4,7 @@ title: w32tm.exe | Windows Time Service Diagnostic Tool
 
 # w32tm.exe 
 
-* File Path: `C:\Windows\SysWOW64\w32tm.exe`
+* File Path: `C:\windows\SysWOW64\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
 * Comments: 
 

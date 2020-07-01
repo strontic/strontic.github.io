@@ -4,7 +4,7 @@ title: tpmvscmgr.exe | TPM Virtual Smartcard Setup Utility
 
 # tpmvscmgr.exe 
 
-* File Path: `C:\Windows\system32\tpmvscmgr.exe`
+* File Path: `C:\windows\system32\tpmvscmgr.exe`
 * Description: TPM Virtual Smartcard Setup Utility
 * Comments: 
 

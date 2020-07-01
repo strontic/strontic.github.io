@@ -4,7 +4,7 @@ title: sftp.exe |
 
 # sftp.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\sftp.exe`
+* File Path: `C:\windows\system32\OpenSSH\sftp.exe`
 * Description: 
 * Comments: 
 

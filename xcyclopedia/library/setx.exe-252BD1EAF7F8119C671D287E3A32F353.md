@@ -4,7 +4,7 @@ title: setx.exe | Setx - Sets environment variables
 
 # setx.exe 
 
-* File Path: `C:\Windows\system32\setx.exe`
+* File Path: `C:\windows\system32\setx.exe`
 * Description: Setx - Sets environment variables
 * Comments: 
 

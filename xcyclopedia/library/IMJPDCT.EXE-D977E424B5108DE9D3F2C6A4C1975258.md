@@ -4,7 +4,7 @@ title: IMJPDCT.EXE | Microsoft IME
 
 # IMJPDCT.EXE 
 
-* File Path: `C:\Windows\system32\IME\IMEJP\IMJPDCT.EXE`
+* File Path: `C:\windows\system32\IME\IMEJP\IMJPDCT.EXE`
 * Description: Microsoft IME
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `12288:n5PPpu995+vPbnrhVbFDq6pE58GMXFiXdAp8qr:5u01qzKFiXdAp8q`
 ```
 
 ### Child Processes:
-
+IMJPDCT.EXE
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: wecutil.exe | Event Collector Command Line Utility
 
 # wecutil.exe 
 
-* File Path: `C:\Windows\SysWOW64\wecutil.exe`
+* File Path: `C:\windows\SysWOW64\wecutil.exe`
 * Description: Event Collector Command Line Utility
 * Comments: 
 
@@ -70,7 +70,7 @@ The parameter is incorrect.
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 

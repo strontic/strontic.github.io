@@ -4,7 +4,7 @@ title: mobsync.exe | Microsoft Sync Center
 
 # mobsync.exe 
 
-* File Path: `C:\Windows\system32\mobsync.exe`
+* File Path: `C:\windows\system32\mobsync.exe`
 * Description: Microsoft Sync Center
 * Comments: 
 

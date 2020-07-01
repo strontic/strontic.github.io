@@ -4,7 +4,7 @@ title: autofmt.exe | Auto File System Format Utility
 
 # autofmt.exe 
 
-* File Path: `C:\Windows\SysWOW64\autofmt.exe`
+* File Path: `C:\windows\SysWOW64\autofmt.exe`
 * Description: Auto File System Format Utility
 * Comments: 
 

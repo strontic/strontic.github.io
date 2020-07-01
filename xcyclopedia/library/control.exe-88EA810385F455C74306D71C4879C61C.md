@@ -4,7 +4,7 @@ title: control.exe | Windows Control Panel
 
 # control.exe 
 
-* File Path: `C:\Windows\system32\control.exe`
+* File Path: `C:\windows\system32\control.exe`
 * Description: Windows Control Panel
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `1536:trl0+A4FF/P4yXBe/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:tyt43
 
 File | Score
 -- | --
+[C:\windows\system32\control.exe](control.exe-4B605DF70C49B6B9D65652879ACAEE32.md) | 82
 [C:\WINDOWS\system32\control.exe](control.exe-62D970D8B60F75C12D21C740F2D8A5DA.md) | 83
 [C:\Windows\system32\control.exe](control.exe-924219B426830FF7476AF7D22AE91DE1.md) | 77
 [C:\Windows\system32\control.exe](control.exe-D7D596CA323E67AAE7F8752BD9B45A1E.md) | 79
@@ -63,6 +64,7 @@ File | Score
 [C:\Windows\SysWOW64\control.exe](control.exe-359DE40504BF90EFD590C248B71C8B81.md) | 80
 [C:\WINDOWS\SysWOW64\control.exe](control.exe-C7C91F18B0F90ABE6C09D3CEAA895E83.md) | 82
 [C:\Windows\SysWOW64\control.exe](control.exe-C8FA632CEF3B25E6AAD2C3ACFCF98E59.md) | 83
+[C:\windows\SysWOW64\control.exe](control.exe-F74B09C54E47526BB0679F8F0967AD0E.md) | 80
 
 ## Possible Misuse
 

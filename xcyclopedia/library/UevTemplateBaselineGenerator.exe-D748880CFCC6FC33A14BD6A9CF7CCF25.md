@@ -4,7 +4,7 @@ title: UevTemplateBaselineGenerator.exe |
 
 # UevTemplateBaselineGenerator.exe 
 
-* File Path: `C:\Windows\system32\UevTemplateBaselineGenerator.exe`
+* File Path: `C:\windows\system32\UevTemplateBaselineGenerator.exe`
 * Description:  
 * Comments: 
 

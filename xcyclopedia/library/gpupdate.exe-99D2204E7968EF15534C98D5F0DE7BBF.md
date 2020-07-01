@@ -4,7 +4,7 @@ title: gpupdate.exe | Microsoft Group Policy Update Utility
 
 # gpupdate.exe 
 
-* File Path: `C:\Windows\SysWOW64\gpupdate.exe`
+* File Path: `C:\windows\SysWOW64\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
 * Comments: 
 
@@ -85,7 +85,7 @@ Value                      Description
 ```
 
 ### Child Processes:
-
+conhost.exe
 
 ## Signature
 

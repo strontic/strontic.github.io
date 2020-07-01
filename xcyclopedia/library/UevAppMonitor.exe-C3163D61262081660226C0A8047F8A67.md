@@ -4,7 +4,7 @@ title: UevAppMonitor.exe |
 
 # UevAppMonitor.exe 
 
-* File Path: `C:\Windows\system32\UevAppMonitor.exe`
+* File Path: `C:\windows\system32\UevAppMonitor.exe`
 * Description:  
 * Comments: 
 

@@ -4,7 +4,7 @@ title: SearchFilterHost.exe | Microsoft Windows Search Filter Host
 
 # SearchFilterHost.exe 
 
-* File Path: `C:\Windows\system32\SearchFilterHost.exe`
+* File Path: `C:\windows\system32\SearchFilterHost.exe`
 * Description: Microsoft Windows Search Filter Host
 * Comments: 
 

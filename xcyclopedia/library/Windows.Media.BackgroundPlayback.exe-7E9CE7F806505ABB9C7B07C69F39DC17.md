@@ -4,7 +4,7 @@ title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
 
 # Windows.Media.BackgroundPlayback.exe 
 
-* File Path: `C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe`
+* File Path: `C:\windows\SysWOW64\Windows.Media.BackgroundPlayback.exe`
 * Description: Windows Media Playback EXE
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `192:aACMfqJvX0ofTOrOkvOTSRM3qO4JD1hfX0H8WZ5WpxJE:8sqDgOkvOJwaH8WZ5WpxG
 ```
 
 ### Child Processes:
-Windows.Media.BackgroundPlayback.exe
+
 
 ## Signature
 

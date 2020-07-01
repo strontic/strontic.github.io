@@ -4,7 +4,7 @@ title: ftp.exe | File Transfer Program
 
 # ftp.exe 
 
-* File Path: `C:\Windows\system32\ftp.exe`
+* File Path: `C:\windows\system32\ftp.exe`
 * Description: File Transfer Program
 * Comments: 
 

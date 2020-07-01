@@ -4,7 +4,7 @@ title: logman.exe | Performance Log Utility
 
 # logman.exe 
 
-* File Path: `C:\Windows\system32\logman.exe`
+* File Path: `C:\windows\system32\logman.exe`
 * Description: Performance Log Utility
 * Comments: 
 
@@ -27,7 +27,7 @@ SSDEEP | `1536:w/6DGGrJK5ZYkP7poyR4XlGX/lgxnHXKYT2OXmHuYHwMy3O2KY2naCigXly:w0X9k
 Microsoft r Logman.exe (10.0.17763.1)
 
 Usage:
-  C:\Windows\system32\logman.exe [create|query|start|stop|delete|update|import|export] [options]
+  C:\windows\system32\logman.exe [create|query|start|stop|delete|update|import|export] [options]
 
 Verbs:
   create                        Create a new data collector.

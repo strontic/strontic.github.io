@@ -4,7 +4,7 @@ title: query.exe | MultiUser Query Utility
 
 # query.exe 
 
-* File Path: `C:\Windows\SysWOW64\query.exe`
+* File Path: `C:\windows\SysWOW64\query.exe`
 * Description: MultiUser Query Utility
 * Comments: 
 

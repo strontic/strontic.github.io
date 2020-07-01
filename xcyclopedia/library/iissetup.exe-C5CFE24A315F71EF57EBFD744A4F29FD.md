@@ -4,7 +4,7 @@ title: iissetup.exe | IIS Setup
 
 # iissetup.exe 
 
-* File Path: `C:\Windows\SysWOW64\inetsrv\iissetup.exe`
+* File Path: `C:\windows\SysWOW64\inetsrv\iissetup.exe`
 * Description: IIS Setup
 * Comments: 
 

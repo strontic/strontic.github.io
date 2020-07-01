@@ -56,10 +56,12 @@ SSDEEP | `6144:QRT99mOdaa5s/8Vuc5H3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZO7:QhVy
 
 File | Score
 -- | --
+[C:\windows\system32\osk.exe](osk.exe-17BD0C6AA822D5957EF63E3884CF5BC2.md) | 60
 [C:\Windows\system32\osk.exe](osk.exe-745F2DF5BEED97B8C751DF83938CB418.md) | 69
 [C:\WINDOWS\system32\osk.exe](osk.exe-9237BD6C14767145300EA58ACC2F20F9.md) | 61
 [C:\Windows\system32\osk.exe](osk.exe-B160BA195ACC126E2ECA539094914688.md) | 72
 [C:\Windows\system32\osk.exe](osk.exe-C6012DC3DBF49FBD67DBF57F1DE35E35.md) | 80
+[C:\windows\SysWOW64\osk.exe](osk.exe-8519218ECB3C67B13A7CCAD4453B6012.md) | 65
 
 ## Possible Misuse
 

@@ -4,7 +4,7 @@ title: isoburn.exe | Windows Disc Image Burning Tool
 
 # isoburn.exe 
 
-* File Path: `C:\Windows\system32\isoburn.exe`
+* File Path: `C:\windows\system32\isoburn.exe`
 * Description: Windows Disc Image Burning Tool
 * Comments: 
 

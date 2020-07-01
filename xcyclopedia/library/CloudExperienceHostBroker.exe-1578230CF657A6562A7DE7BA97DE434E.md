@@ -4,7 +4,7 @@ title: CloudExperienceHostBroker.exe | CloudExperienceHost Broker
 
 # CloudExperienceHostBroker.exe 
 
-* File Path: `C:\Windows\system32\CloudExperienceHostBroker.exe`
+* File Path: `C:\windows\system32\CloudExperienceHostBroker.exe`
 * Description: CloudExperienceHost Broker
 * Comments: 
 

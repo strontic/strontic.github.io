@@ -4,7 +4,7 @@ title: msfeedssync.exe | Microsoft Feeds Synchronization
 
 # msfeedssync.exe 
 
-* File Path: `C:\Windows\SysWOW64\msfeedssync.exe`
+* File Path: `C:\windows\SysWOW64\msfeedssync.exe`
 * Description: Microsoft Feeds Synchronization
 * Comments: 
 

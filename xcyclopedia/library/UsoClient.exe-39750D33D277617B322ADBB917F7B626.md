@@ -4,7 +4,7 @@ title: UsoClient.exe | UsoClient
 
 # UsoClient.exe 
 
-* File Path: `C:\Windows\system32\UsoClient.exe`
+* File Path: `C:\windows\system32\UsoClient.exe`
 * Description: UsoClient
 * Comments: 
 

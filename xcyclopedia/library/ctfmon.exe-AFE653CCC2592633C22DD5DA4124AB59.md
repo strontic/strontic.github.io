@@ -4,7 +4,7 @@ title: ctfmon.exe | CTF Loader
 
 # ctfmon.exe 
 
-* File Path: `C:\Windows\system32\ctfmon.exe`
+* File Path: `C:\windows\system32\ctfmon.exe`
 * Description: CTF Loader
 * Comments: 
 

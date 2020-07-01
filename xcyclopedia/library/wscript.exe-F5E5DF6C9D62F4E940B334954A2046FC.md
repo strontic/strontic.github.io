@@ -4,7 +4,7 @@ title: wscript.exe | Microsoft  Windows Based Script Host
 
 # wscript.exe 
 
-* File Path: `C:\Windows\system32\wscript.exe`
+* File Path: `C:\windows\system32\wscript.exe`
 * Description: Microsoft  Windows Based Script Host
 * Comments: 
 

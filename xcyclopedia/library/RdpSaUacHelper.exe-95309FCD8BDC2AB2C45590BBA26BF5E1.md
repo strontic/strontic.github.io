@@ -4,7 +4,7 @@ title: RdpSaUacHelper.exe | RDP Session Agent UAC Helper
 
 # RdpSaUacHelper.exe 
 
-* File Path: `C:\Windows\SysWOW64\RdpSaUacHelper.exe`
+* File Path: `C:\windows\SysWOW64\RdpSaUacHelper.exe`
 * Description: RDP Session Agent UAC Helper
 * Comments: 
 

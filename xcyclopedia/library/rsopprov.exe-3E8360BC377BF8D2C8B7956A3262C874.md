@@ -4,7 +4,7 @@ title: rsopprov.exe | RSoP Service Application
 
 # rsopprov.exe 
 
-* File Path: `C:\Windows\system32\rsopprov.exe`
+* File Path: `C:\windows\system32\rsopprov.exe`
 * Description: RSoP Service Application
 * Comments: 
 

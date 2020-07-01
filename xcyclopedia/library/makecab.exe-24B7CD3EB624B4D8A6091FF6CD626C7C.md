@@ -4,7 +4,7 @@ title: makecab.exe | Microsoft Cabinet Maker
 
 # makecab.exe 
 
-* File Path: `C:\Windows\system32\makecab.exe`
+* File Path: `C:\windows\system32\makecab.exe`
 * Description: Microsoft Cabinet Maker
 * Comments: 
 

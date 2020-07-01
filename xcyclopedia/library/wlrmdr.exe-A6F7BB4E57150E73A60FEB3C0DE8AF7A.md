@@ -56,6 +56,7 @@ SSDEEP | `1536:xD4X02Ldm8340UVhJvNysbsvqr9PxDtrrP7:t2LdmC4dJvkxu9ZDtrrj`
 
 File | Score
 -- | --
+[C:\windows\system32\wlrmdr.exe](wlrmdr.exe-04446BA6D8ECEF7BCF4652A71E2F3F84.md) | 44
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-3B4132776636F37787317DA4E0A75ED3.md) | 44
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-82404475E1FFEEDBFA1758197858C432.md) | 36
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-E18544710300FA84B16E556D8915EC6C.md) | 35

@@ -4,7 +4,7 @@ title: sppsvc.exe | Microsoft Software Protection Platform Service
 
 # sppsvc.exe 
 
-* File Path: `C:\Windows\system32\sppsvc.exe`
+* File Path: `C:\windows\system32\sppsvc.exe`
 * Description: Microsoft Software Protection Platform Service
 * Comments: 
 

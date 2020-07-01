@@ -4,7 +4,7 @@ title: ssh-agent.exe |
 
 # ssh-agent.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\ssh-agent.exe`
+* File Path: `C:\windows\system32\OpenSSH\ssh-agent.exe`
 * Description: 
 * Comments: 
 

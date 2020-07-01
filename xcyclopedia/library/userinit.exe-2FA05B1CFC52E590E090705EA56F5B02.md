@@ -4,7 +4,7 @@ title: userinit.exe | Userinit Logon Application
 
 # userinit.exe 
 
-* File Path: `C:\Windows\SysWOW64\userinit.exe`
+* File Path: `C:\windows\SysWOW64\userinit.exe`
 * Description: Userinit Logon Application
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `384:BU8ligOwpzLgHTZ4xBlwOHzuommB//QNmYMQnkvWxymW7:BbliwpLgHGvVXmk/QNmY
 ```
 
 ### Child Processes:
-explorer.exe
+
 
 ## Signature
 

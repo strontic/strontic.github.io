@@ -56,8 +56,10 @@ SSDEEP | `1536:9FcLcDZD7c6+I73IBjoXW6TkNmkBTxWJF51KsvhFsVe:9F7DI6+yikW6TkNXgJFWs
 
 File | Score
 -- | --
+[C:\windows\system32\shrpubw.exe](shrpubw.exe-1A1252D725D20C7A173873A67681F5D3.md) | 46
 [C:\Windows\system32\shrpubw.exe](shrpubw.exe-B3456B75C4FF03EE621D8FB9C86E3200.md) | 44
 [C:\Windows\SysWOW64\shrpubw.exe](shrpubw.exe-51311626D7D8EC313EF248FB60776F1A.md) | 47
+[C:\windows\SysWOW64\shrpubw.exe](shrpubw.exe-6BDDC423CCDDB15AB14A0A54C148091F.md) | 47
 [C:\Windows\SysWOW64\shrpubw.exe](shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209.md) | 49
 
 

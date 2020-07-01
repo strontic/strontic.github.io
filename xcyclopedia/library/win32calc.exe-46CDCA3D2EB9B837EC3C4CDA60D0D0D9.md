@@ -4,7 +4,7 @@ title: win32calc.exe | Windows Calculator
 
 # win32calc.exe 
 
-* File Path: `C:\Windows\system32\win32calc.exe`
+* File Path: `C:\windows\system32\win32calc.exe`
 * Description: Windows Calculator
 * Comments: 
 

@@ -4,7 +4,7 @@ title: RDVGHelper.exe | RemoteFX Helper
 
 # RDVGHelper.exe 
 
-* File Path: `C:\Windows\system32\RDVGHelper.exe`
+* File Path: `C:\windows\system32\RDVGHelper.exe`
 * Description: RemoteFX Helper
 * Comments: 
 

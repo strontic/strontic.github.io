@@ -56,14 +56,17 @@ SSDEEP | `3072:CcDENnKKphw6s4RTQcWl4agXpDTa3IZJvks/dTDbnDrH+yBUMp3cKAArDZz4N9GJ:
 
 File | Score
 -- | --
+[C:\windows\system32\wextract.exe](wextract.exe-4B9C652BD0FD95A9E6123913C35519D6.md) | 35
 [C:\Windows\system32\wextract.exe](wextract.exe-56E501E3E49CFDE55EB1CAABE6913E45.md) | 33
 [C:\Windows\system32\wextract.exe](wextract.exe-91243AFCF25E3A7705CAAA03492996B7.md) | 36
 [C:\WINDOWS\system32\wextract.exe](wextract.exe-A740582789B3622EAAA53D2D31955363.md) | 32
 [C:\Windows\system32\wextract.exe](wextract.exe-EF82872F2141313EF07C49405145DF3B.md) | 33
 [C:\Windows\system32\wusa.exe](wusa.exe-59701FE9C8BA85BCEB73A9B1B3E8E1C4.md) | 43
 [C:\WINDOWS\system32\wusa.exe](wusa.exe-7E8AE39BE13B6F0A7CAD480B7148123F.md) | 35
+[C:\windows\system32\wusa.exe](wusa.exe-8930570F7F76840334962EFC6C173438.md) | 40
 [C:\Windows\system32\wusa.exe](wusa.exe-8A0B789F779802881EEAC4F99532A35C.md) | 36
 [C:\Windows\system32\wusa.exe](wusa.exe-E7A1BF42A43A9031533768B393D5673A.md) | 41
+[C:\windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-049A6E9C689E058AC091C3DD08CB06DF.md) | 46
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-24DFD1EFE2837C760511CE773DF3E9CA.md) | 43
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-299F9CBA823CFB6F7AD965877154902B.md) | 40
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-2F98A0859C8F75D8EEE78E0C8DB2F59F.md) | 41
@@ -71,10 +74,12 @@ File | Score
 [C:\WINDOWS\SysWOW64\wextract.exe](wextract.exe-3035914DF08E473A10745C662047A63D.md) | 35
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-330C79E31445B8A75F18EB503BC07029.md) | 32
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-7CD5F431EA58317F3B2E582F2D1DDFE9.md) | 38
+[C:\windows\SysWOW64\wextract.exe](wextract.exe-A66A88FFE53BBB9DDAACE0110A8232EC.md) | 38
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-B9CC7E24DB7DE2E75678761B1D8BAC3E.md) | 32
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-6C81724C47077509C4CC874E34008FC3.md) | 50
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-A60D32269A6A6E7BFDC50E22A70B8F54.md) | 54
 [C:\WINDOWS\SysWOW64\wusa.exe](wusa.exe-C46BE74BD433DD95952142967E3F1F9A.md) | 52
+[C:\windows\SysWOW64\wusa.exe](wusa.exe-F3EF56F76D69361022B47EF1E6201644.md) | 52
 
 
 

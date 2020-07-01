@@ -4,7 +4,7 @@ title: wuapihost.exe | wuapihost
 
 # wuapihost.exe 
 
-* File Path: `C:\Windows\system32\wuapihost.exe`
+* File Path: `C:\windows\system32\wuapihost.exe`
 * Description: wuapihost
 * Comments: 
 

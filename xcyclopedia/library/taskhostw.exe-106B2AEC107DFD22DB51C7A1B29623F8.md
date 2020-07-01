@@ -4,7 +4,7 @@ title: taskhostw.exe | Host Process for Windows Tasks
 
 # taskhostw.exe 
 
-* File Path: `C:\Windows\system32\taskhostw.exe`
+* File Path: `C:\windows\system32\taskhostw.exe`
 * Description: Host Process for Windows Tasks
 * Comments: 
 

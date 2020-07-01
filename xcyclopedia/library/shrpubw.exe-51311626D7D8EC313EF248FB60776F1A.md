@@ -4,7 +4,7 @@ title: shrpubw.exe | Share Creation Wizard
 
 # shrpubw.exe 
 
-* File Path: `C:\Windows\SysWOW64\shrpubw.exe`
+* File Path: `C:\windows\SysWOW64\shrpubw.exe`
 * Description: Share Creation Wizard
 * Comments: 
 
@@ -56,8 +56,10 @@ SSDEEP | `1536:aXAWBTT7E7F3D0l4AuIDKBTxWJF51KsvhFsVqvCm:aQWBTT7EtptIcgJFWsvNvCm`
 
 File | Score
 -- | --
+[C:\windows\system32\shrpubw.exe](shrpubw.exe-1A1252D725D20C7A173873A67681F5D3.md) | 44
 [C:\Windows\system32\shrpubw.exe](shrpubw.exe-50BC813A5A9142D3743502C0886BA99F.md) | 47
 [C:\Windows\system32\shrpubw.exe](shrpubw.exe-B3456B75C4FF03EE621D8FB9C86E3200.md) | 49
+[C:\windows\SysWOW64\shrpubw.exe](shrpubw.exe-6BDDC423CCDDB15AB14A0A54C148091F.md) | 44
 [C:\Windows\SysWOW64\shrpubw.exe](shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209.md) | 49
 
 

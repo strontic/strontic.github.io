@@ -4,7 +4,7 @@ title: cofire.exe | Corrupted File Recovery Client
 
 # cofire.exe 
 
-* File Path: `C:\Windows\system32\cofire.exe`
+* File Path: `C:\windows\system32\cofire.exe`
 * Description: Corrupted File Recovery Client
 * Comments: 
 

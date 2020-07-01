@@ -4,7 +4,7 @@ title: SysResetErr.exe | Windows System Reset
 
 # SysResetErr.exe 
 
-* File Path: `C:\Windows\system32\SysResetErr.exe`
+* File Path: `C:\windows\system32\SysResetErr.exe`
 * Description: Windows System Reset
 * Comments: 
 

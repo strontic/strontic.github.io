@@ -4,7 +4,7 @@ title: dasHost.exe | Device Association Framework Provider Host
 
 # dasHost.exe 
 
-* File Path: `C:\Windows\system32\dasHost.exe`
+* File Path: `C:\windows\system32\dasHost.exe`
 * Description: Device Association Framework Provider Host
 * Comments: 
 

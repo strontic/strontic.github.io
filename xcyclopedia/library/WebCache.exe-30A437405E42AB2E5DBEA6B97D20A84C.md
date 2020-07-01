@@ -4,7 +4,7 @@ title: WebCache.exe | Microsoft Web Cache
 
 # WebCache.exe 
 
-* File Path: `C:\Windows\system32\WebCache.exe`
+* File Path: `C:\windows\system32\WebCache.exe`
 * Description: Microsoft Web Cache
 * Comments: 
 

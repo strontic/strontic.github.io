@@ -4,7 +4,7 @@ title: ClipUp.exe | Client License Platform migration tool
 
 # ClipUp.exe 
 
-* File Path: `C:\Windows\system32\ClipUp.exe`
+* File Path: `C:\windows\system32\ClipUp.exe`
 * Description: Client License Platform migration tool
 * Comments: 
 
@@ -24,7 +24,7 @@ SSDEEP | `24576:yUM9HgdVoa2Q/Bd7twtlbFRspR0+GJTZoXoqRp8zAG:yH6H/Bxmlb7sbgBO4qYL`
 ### Usage (stdout):
 ```Batchfile
 Done.
-C:\Windows\system32\ClipUp.exe Usage: 
+C:\windows\system32\ClipUp.exe Usage: 
 -?/-h	This help menu
 -p 	Attempts to migrate data from the legacy Windows Phone database
 -o 	Attempts to migrate data from Windows Genuine Authorization blob

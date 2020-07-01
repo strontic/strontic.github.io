@@ -4,7 +4,7 @@ title: NetEvtFwdr.exe | Event Forwarder
 
 # NetEvtFwdr.exe 
 
-* File Path: `C:\Windows\system32\NetEvtFwdr.exe`
+* File Path: `C:\windows\system32\NetEvtFwdr.exe`
 * Description: Event Forwarder
 * Comments: 
 

@@ -4,7 +4,7 @@ title: CompatTelRunner.exe | Microsoft Compatibility Telemetry
 
 # CompatTelRunner.exe 
 
-* File Path: `C:\Windows\system32\CompatTelRunner.exe`
+* File Path: `C:\windows\system32\CompatTelRunner.exe`
 * Description: Microsoft Compatibility Telemetry
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `3072:S17mRucu5IfDAZp+dBYE6lDgQr9hbwwBr5cxQ+VBD4nax79UkJvmRItLJ2wkLk0Z:
 File | Score
 -- | --
 [C:\WINDOWS\system32\CompatTelRunner.exe](CompatTelRunner.exe-1E79615EF9946EB8A28D15584B21DB2F.md) | 96
+[C:\windows\system32\CompatTelRunner.exe](CompatTelRunner.exe-4BDD8E93D7A5E57BEA22B18BF9675021.md) | 32
 [C:\Windows\system32\CompatTelRunner.exe](CompatTelRunner.exe-E261809228A9C7DDD17E7E0B5E23704C.md) | 96
 
 ## Possible Misuse

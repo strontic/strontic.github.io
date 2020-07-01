@@ -4,7 +4,7 @@ title: logagent.exe | Windows Media Player Logagent
 
 # logagent.exe 
 
-* File Path: `C:\Windows\system32\logagent.exe`
+* File Path: `C:\windows\system32\logagent.exe`
 * Description: Windows Media Player Logagent
 * Comments: 
 

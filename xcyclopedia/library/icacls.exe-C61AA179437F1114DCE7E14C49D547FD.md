@@ -4,7 +4,7 @@ title: icacls.exe |
 
 # icacls.exe 
 
-* File Path: `C:\Windows\SysWOW64\icacls.exe`
+* File Path: `C:\windows\SysWOW64\icacls.exe`
 * Description: 
 * Comments: 
 

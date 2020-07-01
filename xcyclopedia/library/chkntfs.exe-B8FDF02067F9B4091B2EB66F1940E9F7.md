@@ -4,7 +4,7 @@ title: chkntfs.exe | NTFS Volume Maintenance Utility
 
 # chkntfs.exe 
 
-* File Path: `C:\Windows\system32\chkntfs.exe`
+* File Path: `C:\windows\system32\chkntfs.exe`
 * Description: NTFS Volume Maintenance Utility
 * Comments: 
 

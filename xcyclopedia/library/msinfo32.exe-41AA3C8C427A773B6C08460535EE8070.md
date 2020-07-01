@@ -4,7 +4,7 @@ title: msinfo32.exe | System Information
 
 # msinfo32.exe 
 
-* File Path: `C:\Windows\system32\msinfo32.exe`
+* File Path: `C:\windows\system32\msinfo32.exe`
 * Description: System Information
 * Comments: 
 
@@ -57,9 +57,11 @@ SSDEEP | `6144:+r2K7TX6A9pEHWI8Ub8mZEOHHrpm1XUZLxEZEOHHrpm1XUZLx:+2AcHaqtLpm1Ewt
 File | Score
 -- | --
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 63
+[C:\windows\system32\msinfo32.exe](msinfo32.exe-4BA6D7F9032FE80308C0501E087A54F6.md) | 69
 [C:\WINDOWS\system32\msinfo32.exe](msinfo32.exe-CE97FD0E2556A49965411764F086CEA8.md) | 63
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-DA35587758FC9C154435FB76C7183BE4.md) | 61
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-2D3773A656D92C8E4367511AD4DCDD8C.md) | 57
+[C:\windows\SysWOW64\msinfo32.exe](msinfo32.exe-54E568D65C876CF31586CCE68F51DEEA.md) | 60
 [C:\WINDOWS\SysWOW64\msinfo32.exe](msinfo32.exe-626E3EE8F3DDDA3F44E9E945C54F030D.md) | 60
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 58
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-F589A0D3F0DA328F90A2A9556EF513B5.md) | 61

@@ -4,7 +4,7 @@ title: ApplyTrustOffline.exe | "ApplyTrustOffline.PROGRAM"
 
 # ApplyTrustOffline.exe 
 
-* File Path: `C:\Windows\system32\ApplyTrustOffline.exe`
+* File Path: `C:\windows\system32\ApplyTrustOffline.exe`
 * Description: "ApplyTrustOffline.PROGRAM"
 * Comments: 
 

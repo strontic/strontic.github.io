@@ -4,7 +4,7 @@ title: logagent.exe | Windows Media Player Logagent
 
 # logagent.exe 
 
-* File Path: `C:\Windows\SysWOW64\logagent.exe`
+* File Path: `C:\windows\SysWOW64\logagent.exe`
 * Description: Windows Media Player Logagent
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:m8JS2sV0ast4CpgSDXik+WuEeTJWcmX2oIuhkZHgxTMxFKrCKtmtZ:XS240RCCpgj
 ```
 
 ### Child Processes:
-mmc.exe
+
 
 ## Signature
 

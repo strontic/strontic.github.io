@@ -4,7 +4,7 @@ title: explorer.exe | Windows Explorer
 
 # explorer.exe 
 
-* File Path: `C:\Windows\explorer.exe`
+* File Path: `C:\windows\explorer.exe`
 * Description: Windows Explorer
 * Comments: 
 

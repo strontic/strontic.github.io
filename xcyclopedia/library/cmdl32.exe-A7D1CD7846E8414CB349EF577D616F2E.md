@@ -4,7 +4,7 @@ title: cmdl32.exe | Microsoft Connection Manager Auto-Download
 
 # cmdl32.exe 
 
-* File Path: `C:\Windows\system32\cmdl32.exe`
+* File Path: `C:\windows\system32\cmdl32.exe`
 * Description: Microsoft Connection Manager Auto-Download
 * Comments: 
 

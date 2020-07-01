@@ -4,7 +4,7 @@ title: SystemResetPlatform.exe | Windows System Reset Platform
 
 # SystemResetPlatform.exe 
 
-* File Path: `C:\Windows\system32\SystemResetPlatform\SystemResetPlatform.exe`
+* File Path: `C:\windows\system32\SystemResetPlatform\SystemResetPlatform.exe`
 * Description: Windows System Reset Platform
 * Comments: 
 

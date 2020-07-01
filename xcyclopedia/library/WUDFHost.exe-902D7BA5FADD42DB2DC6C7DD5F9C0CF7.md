@@ -4,7 +4,7 @@ title: WUDFHost.exe | Windows Driver Foundation - User-mode Driver Framework Hos
 
 # WUDFHost.exe 
 
-* File Path: `C:\Windows\system32\WUDFHost.exe`
+* File Path: `C:\windows\system32\WUDFHost.exe`
 * Description: Windows Driver Foundation - User-mode Driver Framework Host Process
 * Comments: 
 

@@ -4,7 +4,7 @@ title: pnputil.exe | Microsoft PnP Utility - Tool to add, delete, export, and en
 
 # pnputil.exe 
 
-* File Path: `C:\Windows\system32\pnputil.exe`
+* File Path: `C:\windows\system32\pnputil.exe`
 * Description: Microsoft PnP Utility - Tool to add, delete, export, and enumerate driver packages.
 * Comments: 
 

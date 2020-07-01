@@ -4,7 +4,7 @@ title: WUDFCompanionHost.exe | Windows Driver Foundation - User-mode Driver Comp
 
 # WUDFCompanionHost.exe 
 
-* File Path: `C:\Windows\system32\WUDFCompanionHost.exe`
+* File Path: `C:\windows\system32\WUDFCompanionHost.exe`
 * Description: Windows Driver Foundation - User-mode Driver Companion Framework Host Process
 * Comments: 
 

@@ -4,7 +4,7 @@ title: PATHPING.EXE | TCP/IP PathPing Command
 
 # PATHPING.EXE 
 
-* File Path: `C:\Windows\SysWOW64\PATHPING.EXE`
+* File Path: `C:\windows\SysWOW64\PATHPING.EXE`
 * Description: TCP/IP PathPing Command
 * Comments: 
 

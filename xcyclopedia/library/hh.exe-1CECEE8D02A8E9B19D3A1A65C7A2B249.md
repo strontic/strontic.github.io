@@ -4,7 +4,7 @@ title: hh.exe | Microsoft HTML Help Executable
 
 # hh.exe 
 
-* File Path: `C:\Windows\hh.exe`
+* File Path: `C:\windows\hh.exe`
 * Description: Microsoft HTML Help Executable
 * Comments: 
 
@@ -58,11 +58,13 @@ File | Score
 -- | --
 [C:\Windows\hh.exe](hh.exe-2C8FE78D53C8CA27523A71DFD2938241.md) | 38
 [C:\Windows\hh.exe](hh.exe-52AFE6DE5E463B7A08C184B1EB49DD6A.md) | 38
+[C:\windows\hh.exe](hh.exe-B934411DFE7DEACFA95A1255A48133C9.md) | 36
 [C:\WINDOWS\hh.exe](hh.exe-DF73D52FDCE65F90A2E49EFB5248C77C.md) | 71
 [C:\WINDOWS\SysWOW64\hh.exe](hh.exe-1DDFACDAC1875864336F7B61A7E562C9.md) | 33
 [C:\Windows\SysWOW64\hh.exe](hh.exe-25DA176935752443FE077C2F0F819B7E.md) | 33
 [C:\Windows\SysWOW64\hh.exe](hh.exe-7AA22C33D8C35E6F59ADB2D02C8702C7.md) | 38
 [C:\Windows\SysWOW64\hh.exe](hh.exe-A97778801ABF79482E757200E4035A01.md) | 46
+[C:\windows\SysWOW64\hh.exe](hh.exe-ED2E7B5224BA827838C012C26A561DDB.md) | 38
 
 ## Possible Misuse
 

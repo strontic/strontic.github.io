@@ -4,7 +4,7 @@ title: WMPDMC.exe | Cast to Device
 
 # WMPDMC.exe 
 
-* File Path: `C:\Windows\system32\WMPDMC.exe`
+* File Path: `C:\windows\system32\WMPDMC.exe`
 * Description: Cast to Device
 * Comments: 
 

@@ -4,7 +4,7 @@ title: HelpPane.exe | Microsoft Help and Support
 
 # HelpPane.exe 
 
-* File Path: `C:\Windows\HelpPane.exe`
+* File Path: `C:\windows\HelpPane.exe`
 * Description: Microsoft Help and Support
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `12288:CYQskmB4b43OYv/x+Pzr2PKlfs9W1W3MT3HOXKPXPiXuHNHGb6bH/zx/GCLW/nhf
 File | Score
 -- | --
 [C:\WINDOWS\HelpPane.exe](HelpPane.exe-67094590E3D57130C587CD6D8AFB6597.md) | 52
+[C:\windows\HelpPane.exe](HelpPane.exe-95DBA7370490F85BD8A48B913A3D8541.md) | 57
 [C:\Windows\HelpPane.exe](HelpPane.exe-9A6D44491772E8AA3EBDDC63C1CEF991.md) | 50
 [C:\Windows\HelpPane.exe](HelpPane.exe-E8B796A523D2B63A9C7BB0576DFE793E.md) | 52
 

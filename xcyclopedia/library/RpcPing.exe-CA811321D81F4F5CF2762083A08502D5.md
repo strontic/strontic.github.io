@@ -4,7 +4,7 @@ title: RpcPing.exe | RPC Ping Utility
 
 # RpcPing.exe 
 
-* File Path: `C:\Windows\system32\RpcPing.exe`
+* File Path: `C:\windows\system32\RpcPing.exe`
 * Description: RPC Ping Utility
 * Comments: 
 

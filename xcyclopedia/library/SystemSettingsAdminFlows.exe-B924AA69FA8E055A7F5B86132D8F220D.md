@@ -4,7 +4,7 @@ title: SystemSettingsAdminFlows.exe | Settings
 
 # SystemSettingsAdminFlows.exe 
 
-* File Path: `C:\Windows\system32\SystemSettingsAdminFlows.exe`
+* File Path: `C:\windows\system32\SystemSettingsAdminFlows.exe`
 * Description: Settings
 * Comments: 
 

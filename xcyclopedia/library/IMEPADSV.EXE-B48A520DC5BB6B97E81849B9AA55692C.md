@@ -4,7 +4,7 @@ title: IMEPADSV.EXE | Microsoft IME
 
 # IMEPADSV.EXE 
 
-* File Path: `C:\Windows\SysWOW64\IME\shared\IMEPADSV.EXE`
+* File Path: `C:\windows\SysWOW64\IME\shared\IMEPADSV.EXE`
 * Description: Microsoft IME
 * Comments: 
 

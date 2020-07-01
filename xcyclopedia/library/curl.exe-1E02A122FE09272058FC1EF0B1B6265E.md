@@ -4,7 +4,7 @@ title: curl.exe | The curl executable
 
 # curl.exe 
 
-* File Path: `C:\Windows\SysWOW64\curl.exe`
+* File Path: `C:\windows\SysWOW64\curl.exe`
 * Description: The curl executable
 * Comments: 
 
@@ -241,7 +241,7 @@ Usage: curl [options...] <url>
 ```Batchfile
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
 ```
 
 ### Child Processes:

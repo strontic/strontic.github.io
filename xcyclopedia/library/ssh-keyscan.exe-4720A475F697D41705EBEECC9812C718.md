@@ -4,7 +4,7 @@ title: ssh-keyscan.exe |
 
 # ssh-keyscan.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\ssh-keyscan.exe`
+* File Path: `C:\windows\system32\OpenSSH\ssh-keyscan.exe`
 * Description: 
 * Comments: 
 
@@ -35,7 +35,7 @@ usage: ssh-keyscan [-46cDHv] [-f file] [-p port] [-T timeout] [-t type]
 ```
 
 ### Child Processes:
-conhost.exe
+wordpad.exe
 
 ## Signature
 

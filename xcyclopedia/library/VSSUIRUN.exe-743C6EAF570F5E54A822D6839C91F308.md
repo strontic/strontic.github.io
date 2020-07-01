@@ -4,7 +4,7 @@ title: VSSUIRUN.exe | Configure Shadow Copies
 
 # VSSUIRUN.exe 
 
-* File Path: `C:\Windows\SysWOW64\VSSUIRUN.exe`
+* File Path: `C:\windows\SysWOW64\VSSUIRUN.exe`
 * Description: Configure Shadow Copies
 * Comments: 
 
@@ -58,7 +58,9 @@ File | Score
 -- | --
 [C:\Windows\system32\VSSUIRUN.exe](VSSUIRUN.exe-19C1BE4655954E6E7AB7394C627A270F.md) | 40
 [C:\Windows\system32\VSSUIRUN.exe](VSSUIRUN.exe-5BDDD40C274F2D118FBF9CB58DC188AE.md) | 41
+[C:\windows\system32\VSSUIRUN.exe](VSSUIRUN.exe-A8DB29BB5AF418AB2C9931EF48514647.md) | 35
 [C:\Windows\SysWOW64\VSSUIRUN.exe](VSSUIRUN.exe-D19CB960CB648DE1C660BC81CE100243.md) | 50
+[C:\windows\SysWOW64\VSSUIRUN.exe](VSSUIRUN.exe-D5DB2E9D9EAAF91382DD9D9A3BDA4F5F.md) | 49
 
 
 

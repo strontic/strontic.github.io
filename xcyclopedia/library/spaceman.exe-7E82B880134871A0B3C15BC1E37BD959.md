@@ -4,7 +4,7 @@ title: spaceman.exe | Storage Spaces Manager
 
 # spaceman.exe 
 
-* File Path: `C:\Windows\system32\spaceman.exe`
+* File Path: `C:\windows\system32\spaceman.exe`
 * Description: Storage Spaces Manager
 * Comments: 
 

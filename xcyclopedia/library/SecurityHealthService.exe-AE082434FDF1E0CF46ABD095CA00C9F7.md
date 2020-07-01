@@ -4,7 +4,7 @@ title: SecurityHealthService.exe | Windows Security Health Service
 
 # SecurityHealthService.exe 
 
-* File Path: `C:\Windows\system32\SecurityHealthService.exe`
+* File Path: `C:\windows\system32\SecurityHealthService.exe`
 * Description: Windows Security Health Service
 * Comments: 
 

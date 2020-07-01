@@ -4,7 +4,7 @@ title: escUnattend.exe | IE ESC 7.0 Unattended Install Utility
 
 # escUnattend.exe 
 
-* File Path: `C:\Windows\SysWOW64\escUnattend.exe`
+* File Path: `C:\windows\SysWOW64\escUnattend.exe`
 * Description: IE ESC 7.0 Unattended Install Utility
 * Comments: 
 

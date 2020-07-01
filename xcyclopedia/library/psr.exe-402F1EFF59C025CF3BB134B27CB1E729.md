@@ -4,7 +4,7 @@ title: psr.exe | Steps Recorder
 
 # psr.exe 
 
-* File Path: `C:\Windows\system32\psr.exe`
+* File Path: `C:\windows\system32\psr.exe`
 * Description: Steps Recorder
 * Comments: 
 
@@ -56,7 +56,9 @@ SSDEEP | `6144:z1yxV51DmDVQwwwoHsmbM/NzV/JAVcD8LPhSiWofQr2k5l8BmMxowi/EH1:z1yr5E
 
 File | Score
 -- | --
+[C:\windows\system32\psr.exe](psr.exe-4ABD52BC6FF33F33C8B930A8EB78D591.md) | 60
 [C:\Windows\system32\psr.exe](psr.exe-93F9974E3ED1946C71D823925F6AC60E.md) | 60
+[C:\windows\SysWOW64\psr.exe](psr.exe-61B53950F13B05BDA1653B0007C75F93.md) | 68
 [C:\Windows\SysWOW64\psr.exe](psr.exe-A1B3839290C9485182436E2D2B12A644.md) | 60
 [C:\Windows\SysWOW64\psr.exe](psr.exe-D1D04E03BE76897B60E4CF5500007CAE.md) | 65
 

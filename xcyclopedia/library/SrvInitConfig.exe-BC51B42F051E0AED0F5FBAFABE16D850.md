@@ -4,7 +4,7 @@ title: SrvInitConfig.exe | Server Configurations
 
 # SrvInitConfig.exe 
 
-* File Path: `C:\Windows\system32\SrvInitConfig.exe`
+* File Path: `C:\windows\system32\SrvInitConfig.exe`
 * Description: Server Configurations
 * Comments: 
 

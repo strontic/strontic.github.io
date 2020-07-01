@@ -4,7 +4,7 @@ title: SearchProtocolHost.exe | Microsoft Windows Search Protocol Host
 
 # SearchProtocolHost.exe 
 
-* File Path: `C:\Windows\SysWOW64\SearchProtocolHost.exe`
+* File Path: `C:\windows\SysWOW64\SearchProtocolHost.exe`
 * Description: Microsoft Windows Search Protocol Host
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `6144:DtgW5k1lFB6VWxZ5Djary3vimDRfiiYmhX5MxugXZHD2QrkR10efUK3Kb:DGW5k1l
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

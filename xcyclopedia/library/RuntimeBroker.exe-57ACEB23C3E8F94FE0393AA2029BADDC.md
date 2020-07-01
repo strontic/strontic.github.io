@@ -4,7 +4,7 @@ title: RuntimeBroker.exe | Runtime Broker
 
 # RuntimeBroker.exe 
 
-* File Path: `C:\Windows\system32\RuntimeBroker.exe`
+* File Path: `C:\windows\system32\RuntimeBroker.exe`
 * Description: Runtime Broker
 * Comments: 
 

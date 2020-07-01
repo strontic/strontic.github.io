@@ -4,7 +4,7 @@ title: RelPost.exe | Windows Diagnosis and Recovery
 
 # RelPost.exe 
 
-* File Path: `C:\Windows\system32\RelPost.exe`
+* File Path: `C:\windows\system32\RelPost.exe`
 * Description: Windows Diagnosis and Recovery
 * Comments: 
 
@@ -60,6 +60,7 @@ File | Score
 [C:\WINDOWS\system32\recdisc.exe](recdisc.exe-DDE26EAF7CE76090F825775D9FC318A7.md) | 50
 [C:\Windows\system32\RelPost.exe](RelPost.exe-932819A3B3ED8CF19348D7B349E7B49A.md) | 55
 [C:\WINDOWS\system32\RelPost.exe](RelPost.exe-9499F2E28D56464FCB187BAD92F8076D.md) | 52
+[C:\windows\system32\RelPost.exe](RelPost.exe-A0158E92E454D6457DA72789C9E43108.md) | 50
 [C:\Windows\system32\RelPost.exe](RelPost.exe-E351DDC4F470EDEF41D705315CA1F156.md) | 49
 
 

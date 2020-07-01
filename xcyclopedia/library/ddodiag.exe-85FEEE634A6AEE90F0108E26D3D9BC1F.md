@@ -56,6 +56,7 @@ SSDEEP | `768:C+UDtsXkIdh/W7TNL5TGK/hc3aZkLmMgMaouZl6iAK5vjQf:904JINL5TGK/hc3aZk
 
 File | Score
 -- | --
+[C:\windows\system32\ddodiag.exe](ddodiag.exe-0BE4FCCB6BE4FCCF4A449755B71D9277.md) | 66
 [C:\WINDOWS\system32\ddodiag.exe](ddodiag.exe-55E9A8CC0C0E0A8B3F2CA6B8635958F0.md) | 66
 [C:\Windows\system32\ddodiag.exe](ddodiag.exe-AC8C4B3F8FF22209B1BBB95271C56D56.md) | 69
 [C:\Windows\system32\ddodiag.exe](ddodiag.exe-DECF7B40F170889DA82C0F54749AE3E9.md) | 69

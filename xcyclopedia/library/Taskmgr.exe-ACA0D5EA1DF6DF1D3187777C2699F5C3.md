@@ -4,7 +4,7 @@ title: Taskmgr.exe | Task Manager
 
 # Taskmgr.exe 
 
-* File Path: `C:\Windows\SysWOW64\Taskmgr.exe`
+* File Path: `C:\windows\SysWOW64\Taskmgr.exe`
 * Description: Task Manager
 * Comments: 
 

@@ -4,7 +4,7 @@ title: SgrmLpac.exe | System Guard Runtime Monitor LPAC
 
 # SgrmLpac.exe 
 
-* File Path: `C:\Windows\system32\SgrmLpac.exe`
+* File Path: `C:\windows\system32\SgrmLpac.exe`
 * Description: System Guard Runtime Monitor LPAC
 * Comments: 
 

@@ -4,7 +4,7 @@ title: mspaint.exe | Paint
 
 # mspaint.exe 
 
-* File Path: `C:\Windows\system32\mspaint.exe`
+* File Path: `C:\windows\system32\mspaint.exe`
 * Description: Paint
 * Comments: 
 
@@ -56,7 +56,9 @@ SSDEEP | `98304:70eQ2u7InCOgQwyRPM1mlawYL260GBGrGrGWAub7jPhivQ:7096n/gQw4MIlawYV
 
 File | Score
 -- | --
+[C:\windows\system32\mspaint.exe](mspaint.exe-226B4A88EB18B3A86B6D56B0FC05F35C.md) | 69
 [C:\Windows\system32\mspaint.exe](mspaint.exe-A5F69864C0CA8FDC157F3E7EF48F2F10.md) | 71
+[C:\windows\SysWOW64\mspaint.exe](mspaint.exe-1B84FBA247447BBF80A0883495823263.md) | 68
 [C:\Windows\SysWOW64\mspaint.exe](mspaint.exe-7598568851B293CD82E958C3B9735F7C.md) | 93
 [C:\Windows\SysWOW64\mspaint.exe](mspaint.exe-8A6A020DABFB0024BE80D988C59F8F2A.md) | 69
 

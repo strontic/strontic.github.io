@@ -4,7 +4,7 @@ title: dxgiadaptercache.exe | DXGI Adapter Cache
 
 # dxgiadaptercache.exe 
 
-* File Path: `C:\Windows\system32\dxgiadaptercache.exe`
+* File Path: `C:\windows\system32\dxgiadaptercache.exe`
 * Description: DXGI Adapter Cache
 * Comments: 
 

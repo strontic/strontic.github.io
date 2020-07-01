@@ -4,7 +4,7 @@ title: MusNotification.exe | MusNotificationBroker
 
 # MusNotification.exe 
 
-* File Path: `C:\Windows\system32\MusNotification.exe`
+* File Path: `C:\windows\system32\MusNotification.exe`
 * Description: MusNotificationBroker
 * Comments: 
 

@@ -4,7 +4,7 @@ title: iisual.exe |
 
 # iisual.exe 
 
-* File Path: `C:\Windows\system32\inetsrv\iisual.exe`
+* File Path: `C:\windows\system32\inetsrv\iisual.exe`
 * Description:  
 * Comments: 
 
@@ -25,7 +25,7 @@ SSDEEP | `384:bXk2Vxev12I9QLYfIR9wI+qTgQjgkvtJirWM:beN2I9QuI/5Je`
 ```Batchfile
 
 HTTP User Access Logging v1.0
-Date: Monday, June 29, 2020 3:43:38 PM
+Date: Wednesday, July 1, 2020 2:38:59 AM
 
 Usage: IISUAL.exe -logfile <logfile path> -outputpostfix <string>
 Example: IISUAL.exe -logfile c:\inetpub\logs\LogFiles\W3SVC1\sample.log -outputpostfix output

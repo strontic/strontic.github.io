@@ -4,7 +4,7 @@ title: SettingSyncHost.exe | Host Process for Setting Synchronization
 
 # SettingSyncHost.exe 
 
-* File Path: `C:\Windows\system32\SettingSyncHost.exe`
+* File Path: `C:\windows\system32\SettingSyncHost.exe`
 * Description: Host Process for Setting Synchronization
 * Comments: 
 

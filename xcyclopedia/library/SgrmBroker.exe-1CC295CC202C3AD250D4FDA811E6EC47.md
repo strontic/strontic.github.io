@@ -4,7 +4,7 @@ title: SgrmBroker.exe | System Guard Runtime Monitor Broker Service
 
 # SgrmBroker.exe 
 
-* File Path: `C:\Windows\system32\SgrmBroker.exe`
+* File Path: `C:\windows\system32\SgrmBroker.exe`
 * Description: System Guard Runtime Monitor Broker Service
 * Comments: 
 

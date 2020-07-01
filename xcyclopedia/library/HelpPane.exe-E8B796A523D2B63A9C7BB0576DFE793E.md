@@ -57,6 +57,7 @@ SSDEEP | `12288:63D3ZogZlBIKmwTUHT3cqoilZzCiAvXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:KJJZ
 File | Score
 -- | --
 [C:\WINDOWS\HelpPane.exe](HelpPane.exe-67094590E3D57130C587CD6D8AFB6597.md) | 58
+[C:\windows\HelpPane.exe](HelpPane.exe-95DBA7370490F85BD8A48B913A3D8541.md) | 61
 [C:\Windows\HelpPane.exe](HelpPane.exe-9A6D44491772E8AA3EBDDC63C1CEF991.md) | 58
 [C:\Windows\HelpPane.exe](HelpPane.exe-CB8609764B0908853541EB4718ECE471.md) | 52
 

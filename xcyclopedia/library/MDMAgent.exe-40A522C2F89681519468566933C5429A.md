@@ -4,7 +4,7 @@ title: MDMAgent.exe | MDMAgent
 
 # MDMAgent.exe 
 
-* File Path: `C:\Windows\system32\MDMAgent.exe`
+* File Path: `C:\windows\system32\MDMAgent.exe`
 * Description: MDMAgent
 * Comments: 
 

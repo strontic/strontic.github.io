@@ -4,7 +4,7 @@ title: InetMgr.exe | IIS Manager
 
 # InetMgr.exe 
 
-* File Path: `C:\Windows\system32\inetsrv\InetMgr.exe`
+* File Path: `C:\windows\system32\inetsrv\InetMgr.exe`
 * Description: IIS Manager
 * Comments: 
 
@@ -52,6 +52,11 @@ SSDEEP | `3072:8bj2Cf40w3oh7PR3i3RLchg5O++FL034X1:zCgtoJFihLt3A+`
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\system32\inetsrv\InetMgr.exe](InetMgr.exe-D9BF7B9A71D28754716899BCB99047AE.md) | 83
 
 
 

@@ -4,7 +4,7 @@ title: tar.exe | bsdtar archive tool
 
 # tar.exe 
 
-* File Path: `C:\Windows\SysWOW64\tar.exe`
+* File Path: `C:\windows\SysWOW64\tar.exe`
 * Description: bsdtar archive tool
 * Comments: 
 

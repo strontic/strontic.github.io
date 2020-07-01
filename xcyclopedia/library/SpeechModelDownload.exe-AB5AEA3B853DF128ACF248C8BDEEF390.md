@@ -4,7 +4,7 @@ title: SpeechModelDownload.exe | Speech Model Download Executable
 
 # SpeechModelDownload.exe 
 
-* File Path: `C:\Windows\SysWOW64\Speech_OneCore\common\SpeechModelDownload.exe`
+* File Path: `C:\windows\SysWOW64\Speech_OneCore\common\SpeechModelDownload.exe`
 * Description: Speech Model Download Executable
 * Comments: 
 

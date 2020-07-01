@@ -57,6 +57,8 @@ SSDEEP | `12288:Kb1fpCwfIJlwX9VKHcD8pellpco//EH1:Kb93fIJO9VK8ApeCoXEH`
 File | Score
 -- | --
 [C:\Windows\system32\psr.exe](psr.exe-402F1EFF59C025CF3BB134B27CB1E729.md) | 60
+[C:\windows\system32\psr.exe](psr.exe-4ABD52BC6FF33F33C8B930A8EB78D591.md) | 54
+[C:\windows\SysWOW64\psr.exe](psr.exe-61B53950F13B05BDA1653B0007C75F93.md) | 60
 [C:\Windows\SysWOW64\psr.exe](psr.exe-A1B3839290C9485182436E2D2B12A644.md) | 58
 [C:\Windows\SysWOW64\psr.exe](psr.exe-D1D04E03BE76897B60E4CF5500007CAE.md) | 60
 

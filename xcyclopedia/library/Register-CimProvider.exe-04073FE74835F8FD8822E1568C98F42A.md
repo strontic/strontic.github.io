@@ -4,7 +4,7 @@ title: Register-CimProvider.exe | WMI
 
 # Register-CimProvider.exe 
 
-* File Path: `C:\Windows\SysWOW64\Register-CimProvider.exe`
+* File Path: `C:\windows\SysWOW64\Register-CimProvider.exe`
 * Description: WMI
 * Comments: 
 

@@ -4,7 +4,7 @@ title: openfiles.exe | Displays the current open files list
 
 # openfiles.exe 
 
-* File Path: `C:\Windows\SysWOW64\openfiles.exe`
+* File Path: `C:\windows\SysWOW64\openfiles.exe`
 * Description: Displays the current open files list
 * Comments: 
 

@@ -4,7 +4,7 @@ title: certutil.exe | CertUtil.exe
 
 # certutil.exe 
 
-* File Path: `C:\Windows\system32\certutil.exe`
+* File Path: `C:\windows\system32\certutil.exe`
 * Description: CertUtil.exe
 * Comments: 
 

@@ -4,7 +4,7 @@ title: attrib.exe | Attribute Utility
 
 # attrib.exe 
 
-* File Path: `C:\Windows\system32\attrib.exe`
+* File Path: `C:\windows\system32\attrib.exe`
 * Description: Attribute Utility
 * Comments: 
 

@@ -4,7 +4,7 @@ title: lsass.exe | Local Security Authority Process
 
 # lsass.exe 
 
-* File Path: `C:\Windows\system32\lsass.exe`
+* File Path: `C:\windows\system32\lsass.exe`
 * Description: Local Security Authority Process
 * Comments: 
 

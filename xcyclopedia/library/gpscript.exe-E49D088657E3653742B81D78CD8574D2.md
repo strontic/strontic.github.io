@@ -4,7 +4,7 @@ title: gpscript.exe | Group Policy Script Application
 
 # gpscript.exe 
 
-* File Path: `C:\Windows\system32\gpscript.exe`
+* File Path: `C:\windows\system32\gpscript.exe`
 * Description: Group Policy Script Application
 * Comments: 
 

@@ -4,7 +4,7 @@ title: DeviceCredentialDeployment.exe | "DeviceCredentialDeployment.exe"
 
 # DeviceCredentialDeployment.exe 
 
-* File Path: `C:\Windows\system32\DeviceCredentialDeployment.exe`
+* File Path: `C:\windows\system32\DeviceCredentialDeployment.exe`
 * Description: "DeviceCredentialDeployment.exe"
 * Comments: 
 

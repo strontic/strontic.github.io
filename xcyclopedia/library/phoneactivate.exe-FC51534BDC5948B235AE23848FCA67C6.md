@@ -4,7 +4,7 @@ title: phoneactivate.exe | Phone Activation UI
 
 # phoneactivate.exe 
 
-* File Path: `C:\Windows\system32\phoneactivate.exe`
+* File Path: `C:\windows\system32\phoneactivate.exe`
 * Description: Phone Activation UI
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:KDIv8OvRpZDqENAlZn22MgI8/OlCJIF53E1t7J5Xld9g6n6Lpjj0nPD:KKbRpEeSt
 ```
 
 ### Child Processes:
-
+mmc.exe
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: mstsc.exe | Remote Desktop Connection
 
 # mstsc.exe 
 
-* File Path: `C:\Windows\SysWOW64\mstsc.exe`
+* File Path: `C:\windows\SysWOW64\mstsc.exe`
 * Description: Remote Desktop Connection
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `24576:rN0/uZQC57AknPDqr849hYeHmh9HunnB8bGGkN/2OotOFbLpwC5Krz7OikYv3hTa
 ```
 
 ### Child Processes:
-mstsc.exe
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: eudcedit.exe | Private Character Editor
 
 # eudcedit.exe 
 
-* File Path: `C:\Windows\system32\eudcedit.exe`
+* File Path: `C:\windows\system32\eudcedit.exe`
 * Description: Private Character Editor
 * Comments: 
 

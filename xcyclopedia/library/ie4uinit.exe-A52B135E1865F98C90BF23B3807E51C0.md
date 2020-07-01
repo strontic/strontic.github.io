@@ -4,7 +4,7 @@ title: ie4uinit.exe | IE Per-User Initialization Utility
 
 # ie4uinit.exe 
 
-* File Path: `C:\Windows\system32\ie4uinit.exe`
+* File Path: `C:\windows\system32\ie4uinit.exe`
 * Description: IE Per-User Initialization Utility
 * Comments: 
 

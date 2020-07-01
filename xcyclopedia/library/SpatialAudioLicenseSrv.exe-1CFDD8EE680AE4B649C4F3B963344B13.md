@@ -4,7 +4,7 @@ title: SpatialAudioLicenseSrv.exe | Spatial License AppService Broker
 
 # SpatialAudioLicenseSrv.exe 
 
-* File Path: `C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe`
+* File Path: `C:\windows\SysWOW64\SpatialAudioLicenseSrv.exe`
 * Description: Spatial License AppService Broker
 * Comments: 
 

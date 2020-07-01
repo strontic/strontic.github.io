@@ -4,7 +4,7 @@ title: Windows.WARP.JITService.exe |
 
 # Windows.WARP.JITService.exe 
 
-* File Path: `C:\Windows\SysWOW64\Windows.WARP.JITService.exe`
+* File Path: `C:\windows\SysWOW64\Windows.WARP.JITService.exe`
 * Description: 
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:d1ueFgasxVGOc4bya7sS2l1idxFEf3j7:dQ4sxVca7mLWxF6P`
 ```
 
 ### Child Processes:
-Windows.WARP.JITService.exe WerFault.exe
+
 
 ## Signature
 

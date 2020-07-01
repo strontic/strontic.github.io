@@ -4,7 +4,7 @@ title: dsregcmd.exe | DSREG commandline tool
 
 # dsregcmd.exe 
 
-* File Path: `C:\Windows\system32\dsregcmd.exe`
+* File Path: `C:\windows\system32\dsregcmd.exe`
 * Description: DSREG commandline tool
 * Comments: 
 
@@ -39,7 +39,7 @@ DSREGCMD switches
 ```
 
 ### Child Processes:
-RdpSa.exe
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: VSSVC.exe | Microsoft Volume Shadow Copy Service
 
 # VSSVC.exe 
 
-* File Path: `C:\Windows\system32\VSSVC.exe`
+* File Path: `C:\windows\system32\VSSVC.exe`
 * Description: Microsoft Volume Shadow Copy Service
 * Comments: 
 

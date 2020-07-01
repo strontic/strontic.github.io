@@ -4,7 +4,7 @@ title: WinSAT.exe | Windows System Assessment Tool
 
 # WinSAT.exe 
 
-* File Path: `C:\Windows\system32\WinSAT.exe`
+* File Path: `C:\windows\system32\WinSAT.exe`
 * Description: Windows System Assessment Tool
 * Comments: 
 
@@ -166,8 +166,7 @@ OTHER COMMAND LINE OPTIONS :
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Cannot process the command line
-       Assessment name 'help' is not valid
+Error: Unable to run inside of a Virtual Machine.  Please try again running directly on the native hardware.
 
 ```
 

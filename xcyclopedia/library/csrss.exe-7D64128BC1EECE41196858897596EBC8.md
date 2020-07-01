@@ -4,7 +4,7 @@ title: csrss.exe | Client Server Runtime Process
 
 # csrss.exe 
 
-* File Path: `C:\Windows\system32\csrss.exe`
+* File Path: `C:\windows\system32\csrss.exe`
 * Description: Client Server Runtime Process
 * Comments: 
 

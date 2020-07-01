@@ -4,7 +4,7 @@ title: AtBroker.exe | Windows Assistive Technology Manager
 
 # AtBroker.exe 
 
-* File Path: `C:\Windows\SysWOW64\AtBroker.exe`
+* File Path: `C:\windows\SysWOW64\AtBroker.exe`
 * Description: Windows Assistive Technology Manager
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:3T+Kjgbmte3DLwhxr5Fo2cMfUuc0xpkh9hwTPGV5X62UbtGeKJaD+RIu62EMKaHs:3
 ```
 
 ### Child Processes:
-
+wordpad.exe
 
 ## Signature
 

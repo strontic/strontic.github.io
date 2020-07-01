@@ -4,7 +4,7 @@ title: mpnotify.exe | Windows NT Multiple Provider Notification Application
 
 # mpnotify.exe 
 
-* File Path: `C:\Windows\system32\mpnotify.exe`
+* File Path: `C:\windows\system32\mpnotify.exe`
 * Description: Windows NT Multiple Provider Notification Application
 * Comments: 
 

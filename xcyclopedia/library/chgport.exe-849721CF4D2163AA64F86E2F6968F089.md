@@ -4,7 +4,7 @@ title: chgport.exe | Change port Utility
 
 # chgport.exe 
 
-* File Path: `C:\Windows\SysWOW64\chgport.exe`
+* File Path: `C:\windows\SysWOW64\chgport.exe`
 * Description: Change port Utility
 * Comments: 
 

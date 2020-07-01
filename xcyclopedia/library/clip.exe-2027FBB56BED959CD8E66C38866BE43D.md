@@ -4,7 +4,7 @@ title: clip.exe | Clip - copies the data into clipboard
 
 # clip.exe 
 
-* File Path: `C:\Windows\SysWOW64\clip.exe`
+* File Path: `C:\windows\SysWOW64\clip.exe`
 * Description: Clip - copies the data into clipboard
 * Comments: 
 

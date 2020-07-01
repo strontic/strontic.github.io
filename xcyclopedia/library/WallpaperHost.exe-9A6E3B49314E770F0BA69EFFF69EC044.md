@@ -4,7 +4,7 @@ title: WallpaperHost.exe | Wallpaper Host Process
 
 # WallpaperHost.exe 
 
-* File Path: `C:\Windows\system32\WallpaperHost.exe`
+* File Path: `C:\windows\system32\WallpaperHost.exe`
 * Description: Wallpaper Host Process
 * Comments: 
 

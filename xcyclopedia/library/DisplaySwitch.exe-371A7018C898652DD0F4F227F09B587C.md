@@ -4,7 +4,7 @@ title: DisplaySwitch.exe | Display Switch
 
 # DisplaySwitch.exe 
 
-* File Path: `C:\Windows\system32\DisplaySwitch.exe`
+* File Path: `C:\windows\system32\DisplaySwitch.exe`
 * Description: Display Switch
 * Comments: 
 

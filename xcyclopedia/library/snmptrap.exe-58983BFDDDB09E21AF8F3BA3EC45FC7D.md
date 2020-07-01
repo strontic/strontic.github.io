@@ -4,7 +4,7 @@ title: snmptrap.exe | SNMP Trap
 
 # snmptrap.exe 
 
-* File Path: `C:\Windows\system32\snmptrap.exe`
+* File Path: `C:\windows\system32\snmptrap.exe`
 * Description: SNMP Trap
 * Comments: 
 

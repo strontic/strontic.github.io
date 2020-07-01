@@ -4,7 +4,7 @@ title: wsmprovhost.exe | Host process for WinRM plug-ins
 
 # wsmprovhost.exe 
 
-* File Path: `C:\Windows\system32\wsmprovhost.exe`
+* File Path: `C:\windows\system32\wsmprovhost.exe`
 * Description: Host process for WinRM plug-ins
 * Comments: 
 

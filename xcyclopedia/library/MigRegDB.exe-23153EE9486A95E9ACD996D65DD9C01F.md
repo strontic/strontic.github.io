@@ -4,7 +4,7 @@ title: MigRegDB.exe | COM+
 
 # MigRegDB.exe 
 
-* File Path: `C:\Windows\SysWOW64\com\MigRegDB.exe`
+* File Path: `C:\windows\SysWOW64\com\MigRegDB.exe`
 * Description: COM+
 * Comments: 
 

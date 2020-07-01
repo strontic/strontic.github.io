@@ -4,7 +4,7 @@ title: LogonUI.exe | Windows Logon User Interface Host
 
 # LogonUI.exe 
 
-* File Path: `C:\Windows\system32\LogonUI.exe`
+* File Path: `C:\windows\system32\LogonUI.exe`
 * Description: Windows Logon User Interface Host
 * Comments: 
 

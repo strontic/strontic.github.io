@@ -4,7 +4,7 @@ title: rdrleakdiag.exe | Microsoft Windows Resource Leak Diagnostic
 
 # rdrleakdiag.exe 
 
-* File Path: `C:\Windows\SysWOW64\rdrleakdiag.exe`
+* File Path: `C:\windows\SysWOW64\rdrleakdiag.exe`
 * Description: Microsoft Windows Resource Leak Diagnostic
 * Comments: 
 

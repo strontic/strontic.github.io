@@ -4,7 +4,7 @@ title: verclsid.exe | Extension CLSID Verification Host
 
 # verclsid.exe 
 
-* File Path: `C:\Windows\system32\verclsid.exe`
+* File Path: `C:\windows\system32\verclsid.exe`
 * Description: Extension CLSID Verification Host
 * Comments: 
 

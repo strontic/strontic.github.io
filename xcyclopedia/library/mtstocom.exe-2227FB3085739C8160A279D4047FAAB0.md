@@ -4,7 +4,7 @@ title: mtstocom.exe | COM+
 
 # mtstocom.exe 
 
-* File Path: `C:\Windows\SysWOW64\mtstocom.exe`
+* File Path: `C:\windows\SysWOW64\mtstocom.exe`
 * Description: COM+
 * Comments: 
 

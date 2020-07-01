@@ -4,7 +4,7 @@ title: unregmp2.exe | Microsoft Windows Media Player Setup Utility
 
 # unregmp2.exe 
 
-* File Path: `C:\Windows\system32\unregmp2.exe`
+* File Path: `C:\windows\system32\unregmp2.exe`
 * Description: Microsoft Windows Media Player Setup Utility
 * Comments: 
 

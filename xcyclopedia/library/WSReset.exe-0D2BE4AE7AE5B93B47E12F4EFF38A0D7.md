@@ -4,7 +4,7 @@ title: WSReset.exe | This tool resets the Windows Store without changing account
 
 # WSReset.exe 
 
-* File Path: `C:\Windows\system32\WSReset.exe`
+* File Path: `C:\windows\system32\WSReset.exe`
 * Description: This tool resets the Windows Store without changing account settings or deleting installed apps
 * Comments: 
 

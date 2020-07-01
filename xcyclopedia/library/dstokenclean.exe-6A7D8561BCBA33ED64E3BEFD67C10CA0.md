@@ -4,7 +4,7 @@ title: dstokenclean.exe | Data Sharing Service Maintenance Driver
 
 # dstokenclean.exe 
 
-* File Path: `C:\Windows\system32\dstokenclean.exe`
+* File Path: `C:\windows\system32\dstokenclean.exe`
 * Description: Data Sharing Service Maintenance Driver
 * Comments: 
 

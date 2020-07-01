@@ -4,7 +4,7 @@ title: drvinst.exe | Driver Installation Module
 
 # drvinst.exe 
 
-* File Path: `C:\Windows\system32\drvinst.exe`
+* File Path: `C:\windows\system32\drvinst.exe`
 * Description: Driver Installation Module
 * Comments: 
 

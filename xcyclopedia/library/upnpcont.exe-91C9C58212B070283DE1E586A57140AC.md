@@ -4,7 +4,7 @@ title: upnpcont.exe | UPnP Device Host Container
 
 # upnpcont.exe 
 
-* File Path: `C:\Windows\system32\upnpcont.exe`
+* File Path: `C:\windows\system32\upnpcont.exe`
 * Description: UPnP Device Host Container
 * Comments: 
 

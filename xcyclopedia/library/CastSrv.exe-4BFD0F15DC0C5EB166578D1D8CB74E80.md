@@ -4,7 +4,7 @@ title: CastSrv.exe | Casting protocol connection listener
 
 # CastSrv.exe 
 
-* File Path: `C:\Windows\system32\CastSrv.exe`
+* File Path: `C:\windows\system32\CastSrv.exe`
 * Description: Casting protocol connection listener
 * Comments: 
 

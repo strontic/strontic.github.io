@@ -4,7 +4,7 @@ title: audiodg.exe | Windows Audio Device Graph Isolation
 
 # audiodg.exe 
 
-* File Path: `C:\Windows\system32\audiodg.exe`
+* File Path: `C:\windows\system32\audiodg.exe`
 * Description: Windows Audio Device Graph Isolation 
 * Comments: 
 

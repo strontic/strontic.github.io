@@ -4,7 +4,7 @@ title: WSCollect.exe | This tool collects Windows Store log files
 
 # WSCollect.exe 
 
-* File Path: `C:\Windows\system32\WSCollect.exe`
+* File Path: `C:\windows\system32\WSCollect.exe`
 * Description: This tool collects Windows Store log files
 * Comments: 
 
@@ -33,7 +33,7 @@ Error: 0x8007007b
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 

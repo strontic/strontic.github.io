@@ -4,7 +4,7 @@ title: cacls.exe | Control ACLs Program
 
 # cacls.exe 
 
-* File Path: `C:\Windows\system32\cacls.exe`
+* File Path: `C:\windows\system32\cacls.exe`
 * Description: Control ACLs Program
 * Comments: 
 

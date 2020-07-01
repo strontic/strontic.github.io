@@ -4,7 +4,7 @@ title: rsopprov.exe | RSoP Service Application
 
 # rsopprov.exe 
 
-* File Path: `C:\Windows\SysWOW64\rsopprov.exe`
+* File Path: `C:\windows\SysWOW64\rsopprov.exe`
 * Description: RSoP Service Application
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `1536:m+QBL9MdYWhOgecpBpgfQ7viyGPERtSw/9JRpAFE6kg2xlh8wQ13NnffdZyVl:m+u
 File | Score
 -- | --
 [C:\Windows\SysWOW64\rsopprov.exe](rsopprov.exe-059D642ED9005D1DC83BBFC217D71644.md) | 47
+[C:\windows\SysWOW64\rsopprov.exe](rsopprov.exe-94E579E399CF030EE23DD9B1A3CC1D8E.md) | 40
 
 
 

@@ -4,7 +4,7 @@ title: lpksetup.exe | Language Pack Installer
 
 # lpksetup.exe 
 
-* File Path: `C:\Windows\system32\lpksetup.exe`
+* File Path: `C:\windows\system32\lpksetup.exe`
 * Description: Language Pack Installer
 * Comments: 
 
@@ -57,6 +57,7 @@ SSDEEP | `12288:00xnenkLxnnxd7aR/hnyA2zuw3gX7L/OVcrNStde1yfndmLh:3enkLBxd7abyA2S
 File | Score
 -- | --
 [C:\Windows\system32\lpksetup.exe](lpksetup.exe-170343B59D2A8607C7106ED63E524AE3.md) | 29
+[C:\windows\system32\lpksetup.exe](lpksetup.exe-553AC4DBA04F72B7FF6A4FB84009C001.md) | 25
 [C:\Windows\system32\lpksetup.exe](lpksetup.exe-77BA86BC95DD19D9C6B0BD4E5E94E823.md) | 27
 [C:\WINDOWS\system32\lpksetup.exe](lpksetup.exe-80F788A37119968744991496358163CE.md) | 32
 

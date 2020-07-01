@@ -4,7 +4,7 @@ title: OpenWith.exe | Pick an app
 
 # OpenWith.exe 
 
-* File Path: `C:\Windows\system32\OpenWith.exe`
+* File Path: `C:\windows\system32\OpenWith.exe`
 * Description: Pick an app
 * Comments: 
 
@@ -56,9 +56,11 @@ SSDEEP | `1536:dDI9ao9Lv8OUqKRrorQoTyU46iz7bKp3GcaBaLy5tpzKQfKQTzBNer+CE+Ge+z8J:
 
 File | Score
 -- | --
+[C:\windows\system32\OpenWith.exe](OpenWith.exe-2C56E3290BED2E82AE666EEA01843073.md) | 43
 [C:\Windows\system32\OpenWith.exe](OpenWith.exe-49371805F24C419A1362A6672F0A8A76.md) | 43
 [C:\WINDOWS\system32\OpenWith.exe](OpenWith.exe-C9B3F7E1EB1970A715FA56AB076A260B.md) | 41
 [C:\Windows\system32\OpenWith.exe](OpenWith.exe-FEAEEC585FEA59A316DDDD6C8505DA8D.md) | 44
+[C:\windows\SysWOW64\OpenWith.exe](OpenWith.exe-1DFE1ED0A9EF0FA4FFE8D08DFB00F121.md) | 46
 [C:\Windows\SysWOW64\OpenWith.exe](OpenWith.exe-64148E3F7B8519DCB04FE5E96D5F1184.md) | 40
 [C:\Windows\SysWOW64\OpenWith.exe](OpenWith.exe-A633739DA182E75C0D6741119A902A0B.md) | 43
 [C:\Windows\SysWOW64\OpenWith.exe](OpenWith.exe-C6CEF89904DEC9404CCCD414E353C344.md) | 47

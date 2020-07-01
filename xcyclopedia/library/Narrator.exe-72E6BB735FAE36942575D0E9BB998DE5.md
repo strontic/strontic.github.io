@@ -4,7 +4,7 @@ title: Narrator.exe | Screen Reader
 
 # Narrator.exe 
 
-* File Path: `C:\Windows\system32\Narrator.exe`
+* File Path: `C:\windows\system32\Narrator.exe`
 * Description: Screen Reader
 * Comments: 
 

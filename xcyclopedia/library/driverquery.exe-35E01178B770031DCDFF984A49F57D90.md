@@ -4,7 +4,7 @@ title: driverquery.exe | Queries the drivers on a system
 
 # driverquery.exe 
 
-* File Path: `C:\Windows\SysWOW64\driverquery.exe`
+* File Path: `C:\windows\SysWOW64\driverquery.exe`
 * Description: Queries the drivers on a system
 * Comments: 
 

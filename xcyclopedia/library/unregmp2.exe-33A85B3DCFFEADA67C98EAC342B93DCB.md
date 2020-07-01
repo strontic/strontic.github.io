@@ -4,7 +4,7 @@ title: unregmp2.exe | Microsoft Windows Media Player Setup Utility
 
 # unregmp2.exe 
 
-* File Path: `C:\Windows\SysWOW64\unregmp2.exe`
+* File Path: `C:\windows\SysWOW64\unregmp2.exe`
 * Description: Microsoft Windows Media Player Setup Utility
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `3072:TI/3G2NOfAg0IezJCqk6SRaqprku+k5lzndAUmaH+b9s1:TIL5HeZlzdAkebA`
 ```
 
 ### Child Processes:
-unregmp2.exe
+
 
 ## Signature
 

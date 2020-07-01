@@ -4,7 +4,7 @@ title: sysprep.exe | System Preparation Tool
 
 # sysprep.exe 
 
-* File Path: `C:\Windows\system32\Sysprep\sysprep.exe`
+* File Path: `C:\windows\system32\Sysprep\sysprep.exe`
 * Description: System Preparation Tool
 * Comments: 
 

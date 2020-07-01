@@ -57,6 +57,7 @@ mmc.exe
 File | Score
 -- | --
 [C:\Windows\SysWOW64\dcomcnfg.exe](dcomcnfg.exe-CF23005187F904FC2B510E52B4EF5DD9.md) | 54
+[C:\windows\SysWOW64\dcomcnfg.exe](dcomcnfg.exe-EEFA48A56DD2D83440FDF47FEFD6FC1E.md) | 35
 
 
 

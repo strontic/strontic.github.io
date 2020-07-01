@@ -56,6 +56,7 @@ SSDEEP | `3072:Vf8h0Gfm1y0Mx3JOlaEHPxPxQZDFcZIZ:Vfu0i17OlaEJPxQZDFZ`
 
 File | Score
 -- | --
+[C:\windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-2E862F8AAA85563A8C8DFBF869F30DE9.md) | 54
 [C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-3A8D87E31C85B5F949BF26436D7DD02A.md) | 44
 [C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-9657C921DC6703DE71288C1BE50A7826.md) | 46
 [C:\WINDOWS\system32\EhStorAuthn.exe](EhStorAuthn.exe-F6C6BB7C8DB07549BE3D04DA75F79E1A.md) | 47

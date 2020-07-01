@@ -4,7 +4,7 @@ title: fsquirt.exe |
 
 # fsquirt.exe 
 
-* File Path: `C:\Windows\system32\fsquirt.exe`
+* File Path: `C:\windows\system32\fsquirt.exe`
 * Description: 
 * Comments: 
 

@@ -4,7 +4,7 @@ title: audit.exe | Audit
 
 # audit.exe 
 
-* File Path: `C:\Windows\system32\oobe\audit.exe`
+* File Path: `C:\windows\system32\oobe\audit.exe`
 * Description: Audit
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:9rZ3vNrbQBU8aB9Xf7XSB7Oz8jmeBPNNrvrmRzM:9V/NroU8a7Xf7XSB7y+/JNlU`
 ```
 
 ### Child Processes:
-
+cmd.exe
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: setspn.exe | Query or reset the computer's SPN attribute
 
 # setspn.exe 
 
-* File Path: `C:\Windows\system32\setspn.exe`
+* File Path: `C:\windows\system32\setspn.exe`
 * Description: Query or reset the computer's SPN attribute
 * Comments: 
 
@@ -23,7 +23,7 @@ SSDEEP | `384:5Q/B9iDavPAwpJt45OYFNIPPvgwYqzzYrdz24w8W4fM3n/NxzCqzv7YyMsUrlYW2:5
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\Windows\system32\setspn.exe [modifiers switch] [accountname] 
+Usage: C:\windows\system32\setspn.exe [modifiers switch] [accountname] 
   Where "accountname" can be the name or domain\name
   of the target computer or user account
 

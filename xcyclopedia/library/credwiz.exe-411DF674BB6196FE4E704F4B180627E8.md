@@ -4,7 +4,7 @@ title: credwiz.exe | Credential Backup and Restore Wizard
 
 # credwiz.exe 
 
-* File Path: `C:\Windows\SysWOW64\credwiz.exe`
+* File Path: `C:\windows\SysWOW64\credwiz.exe`
 * Description: Credential Backup and Restore Wizard
 * Comments: 
 

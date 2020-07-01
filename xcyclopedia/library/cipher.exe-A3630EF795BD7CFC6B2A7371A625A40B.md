@@ -4,7 +4,7 @@ title: cipher.exe | File Encryption Utility
 
 # cipher.exe 
 
-* File Path: `C:\Windows\SysWOW64\cipher.exe`
+* File Path: `C:\windows\SysWOW64\cipher.exe`
 * Description: File Encryption Utility
 * Comments: 
 

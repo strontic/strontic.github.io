@@ -4,7 +4,7 @@ title: ARP.EXE | TCP/IP Arp Command
 
 # ARP.EXE 
 
-* File Path: `C:\Windows\system32\ARP.EXE`
+* File Path: `C:\windows\system32\ARP.EXE`
 * Description: TCP/IP Arp Command
 * Comments: 
 

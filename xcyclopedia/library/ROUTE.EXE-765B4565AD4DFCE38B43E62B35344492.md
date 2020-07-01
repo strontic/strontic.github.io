@@ -4,7 +4,7 @@ title: ROUTE.EXE | TCP/IP Route Command
 
 # ROUTE.EXE 
 
-* File Path: `C:\Windows\SysWOW64\ROUTE.EXE`
+* File Path: `C:\windows\SysWOW64\ROUTE.EXE`
 * Description: TCP/IP Route Command
 * Comments: 
 
@@ -101,7 +101,7 @@ Examples:
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

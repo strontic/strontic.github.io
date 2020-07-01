@@ -4,7 +4,7 @@ title: WaaSMedicAgent.exe | WaasMedic Agent Exe
 
 # WaaSMedicAgent.exe 
 
-* File Path: `C:\Windows\system32\WaaSMedicAgent.exe`
+* File Path: `C:\windows\system32\WaaSMedicAgent.exe`
 * Description: WaasMedic Agent Exe
 * Comments: 
 

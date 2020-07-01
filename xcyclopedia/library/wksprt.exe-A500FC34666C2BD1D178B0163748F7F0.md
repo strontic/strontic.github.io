@@ -4,7 +4,7 @@ title: wksprt.exe | RemoteApp and Desktop Connection Runtime
 
 # wksprt.exe 
 
-* File Path: `C:\Windows\system32\wksprt.exe`
+* File Path: `C:\windows\system32\wksprt.exe`
 * Description: RemoteApp and Desktop Connection Runtime
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `12288:LH+OHVp6H59J9HMpTuIRJ4r7GXIB7GjFMvT3lxR:LeOHD6HjUdRJ4r7GimI`
 
 File | Score
 -- | --
+[C:\windows\system32\wksprt.exe](wksprt.exe-6A0628874E4857DCB9715C2F1522CEBE.md) | 33
 [C:\Windows\system32\wksprt.exe](wksprt.exe-B1A354667950BBBEA757CF91918ED092.md) | 50
 [C:\Windows\system32\wksprt.exe](wksprt.exe-BA81ED5D41505A2311DB75585620A381.md) | 41
 [C:\WINDOWS\system32\wksprt.exe](wksprt.exe-E4F33F52B519BB8C4214054DC8866730.md) | 47

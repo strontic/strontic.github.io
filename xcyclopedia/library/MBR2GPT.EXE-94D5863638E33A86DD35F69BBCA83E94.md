@@ -4,7 +4,7 @@ title: MBR2GPT.EXE |
 
 # MBR2GPT.EXE 
 
-* File Path: `C:\Windows\system32\MBR2GPT.EXE`
+* File Path: `C:\windows\system32\MBR2GPT.EXE`
 * Description: 
 * Comments: 
 

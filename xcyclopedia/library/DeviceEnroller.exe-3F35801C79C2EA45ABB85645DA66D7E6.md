@@ -4,7 +4,7 @@ title: DeviceEnroller.exe | API for MDM Enrollment
 
 # DeviceEnroller.exe 
 
-* File Path: `C:\Windows\system32\DeviceEnroller.exe`
+* File Path: `C:\windows\system32\DeviceEnroller.exe`
 * Description: API for MDM Enrollment
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `6144:j/xk5py+XqCdPWzskwq3j0QPkl0VI1kFqQOQ2DrRaOQQJK4k:azyqPWzskwq3oQPk
 ```
 
 ### Child Processes:
-
+mmc.exe
 
 ## Signature
 

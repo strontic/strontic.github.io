@@ -4,7 +4,7 @@ title: InfDefaultInstall.exe | INF Default Install
 
 # InfDefaultInstall.exe 
 
-* File Path: `C:\Windows\SysWOW64\InfDefaultInstall.exe`
+* File Path: `C:\windows\SysWOW64\InfDefaultInstall.exe`
 * Description: INF Default Install
 * Comments: 
 

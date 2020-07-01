@@ -4,7 +4,7 @@ title: label.exe | Disk Label Utility
 
 # label.exe 
 
-* File Path: `C:\Windows\SysWOW64\label.exe`
+* File Path: `C:\windows\SysWOW64\label.exe`
 * Description: Disk Label Utility
 * Comments: 
 

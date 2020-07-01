@@ -4,7 +4,7 @@ title: powershell_ise.exe | Windows PowerShell ISE
 
 # powershell_ise.exe 
 
-* File Path: `C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe`
+* File Path: `C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe`
 * Description: Windows PowerShell ISE
 * Comments: 
 

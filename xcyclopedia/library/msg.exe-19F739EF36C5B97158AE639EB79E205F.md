@@ -4,7 +4,7 @@ title: msg.exe | Message Utility
 
 # msg.exe 
 
-* File Path: `C:\Windows\system32\msg.exe`
+* File Path: `C:\windows\system32\msg.exe`
 * Description: Message Utility
 * Comments: 
 

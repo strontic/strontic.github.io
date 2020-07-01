@@ -4,7 +4,7 @@ title: qwinsta.exe | Query Session Utility
 
 # qwinsta.exe 
 
-* File Path: `C:\Windows\system32\qwinsta.exe`
+* File Path: `C:\windows\system32\qwinsta.exe`
 * Description: Query Session Utility
 * Comments: 
 

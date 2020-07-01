@@ -4,7 +4,7 @@ title: LaunchWinApp.exe | Launch Windows App
 
 # LaunchWinApp.exe 
 
-* File Path: `C:\Windows\SysWOW64\LaunchWinApp.exe`
+* File Path: `C:\windows\SysWOW64\LaunchWinApp.exe`
 * Description: Launch Windows App
 * Comments: 
 

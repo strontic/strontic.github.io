@@ -4,7 +4,7 @@ title: cscript.exe | Microsoft  Console Based Script Host
 
 # cscript.exe 
 
-* File Path: `C:\Windows\system32\cscript.exe`
+* File Path: `C:\windows\system32\cscript.exe`
 * Description: Microsoft  Console Based Script Host
 * Comments: 
 

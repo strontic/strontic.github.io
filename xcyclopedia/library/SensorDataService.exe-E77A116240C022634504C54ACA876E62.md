@@ -4,7 +4,7 @@ title: SensorDataService.exe | Sensor Data Service
 
 # SensorDataService.exe 
 
-* File Path: `C:\Windows\system32\SensorDataService.exe`
+* File Path: `C:\windows\system32\SensorDataService.exe`
 * Description: Sensor Data Service
 * Comments: 
 

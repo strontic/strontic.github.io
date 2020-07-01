@@ -69,6 +69,7 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 File | Score
 -- | --
 [C:\Windows\system32\tsecimp.exe](tsecimp.exe-B16311C5E9AB26B2A4FC539E013EEA35.md) | 29
+[C:\windows\SysWOW64\tsecimp.exe](tsecimp.exe-823625FC6094A237DD0965A8BA3287BF.md) | 33
 
 
 

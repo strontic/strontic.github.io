@@ -4,7 +4,7 @@ title: query.exe | MultiUser Query Utility
 
 # query.exe 
 
-* File Path: `C:\Windows\system32\query.exe`
+* File Path: `C:\windows\system32\query.exe`
 * Description: MultiUser Query Utility
 * Comments: 
 
@@ -35,7 +35,7 @@ QUERY { PROCESS | SESSION | TERMSERVER | USER }
 ```
 
 ### Child Processes:
-
+conhost.exe
 
 ## Signature
 

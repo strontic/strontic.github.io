@@ -4,7 +4,7 @@ title: whoami.exe | whoami - displays logged on user information
 
 # whoami.exe 
 
-* File Path: `C:\Windows\SysWOW64\whoami.exe`
+* File Path: `C:\windows\SysWOW64\whoami.exe`
 * Description: whoami - displays logged on user information
 * Comments: 
 

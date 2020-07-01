@@ -4,7 +4,7 @@ title: winload.exe | OS Loader
 
 # winload.exe 
 
-* File Path: `C:\Windows\system32\winload.exe`
+* File Path: `C:\windows\system32\winload.exe`
 * Description: OS Loader
 * Comments: 
 

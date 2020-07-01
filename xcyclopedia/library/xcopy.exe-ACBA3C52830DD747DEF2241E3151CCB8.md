@@ -4,7 +4,7 @@ title: xcopy.exe | Extended Copy Utility
 
 # xcopy.exe 
 
-* File Path: `C:\Windows\system32\xcopy.exe`
+* File Path: `C:\windows\system32\xcopy.exe`
 * Description: Extended Copy Utility
 * Comments: 
 

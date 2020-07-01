@@ -4,7 +4,7 @@ title: RpcPing.exe | RPC Ping Utility
 
 # RpcPing.exe 
 
-* File Path: `C:\Windows\SysWOW64\RpcPing.exe`
+* File Path: `C:\windows\SysWOW64\RpcPing.exe`
 * Description: RPC Ping Utility
 * Comments: 
 
@@ -230,7 +230,7 @@ the typical profile.
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

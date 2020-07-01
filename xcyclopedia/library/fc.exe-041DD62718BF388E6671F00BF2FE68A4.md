@@ -4,7 +4,7 @@ title: fc.exe | DOS 5 File Compare Utility
 
 # fc.exe 
 
-* File Path: `C:\Windows\system32\fc.exe`
+* File Path: `C:\windows\system32\fc.exe`
 * Description: DOS 5 File Compare Utility
 * Comments: 
 

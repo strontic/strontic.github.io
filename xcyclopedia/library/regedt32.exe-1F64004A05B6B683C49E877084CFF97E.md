@@ -4,7 +4,7 @@ title: regedt32.exe | Registry Editor Utility
 
 # regedt32.exe 
 
-* File Path: `C:\Windows\SysWOW64\regedt32.exe`
+* File Path: `C:\windows\SysWOW64\regedt32.exe`
 * Description: Registry Editor Utility
 * Comments: 
 

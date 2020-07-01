@@ -4,7 +4,7 @@ title: mmc.exe | Microsoft Management Console
 
 # mmc.exe 
 
-* File Path: `C:\Windows\system32\mmc.exe`
+* File Path: `C:\windows\system32\mmc.exe`
 * Description: Microsoft Management Console
 * Comments: 
 
@@ -57,10 +57,12 @@ SSDEEP | `24576:sd4qiadffSbED3FULzf+WbnIVqiSdrvMo7wMo7DHO:sOQdffPD3FYfTbYqiSdr77
 File | Score
 -- | --
 [C:\WINDOWS\system32\mmc.exe](mmc.exe-26F0B79F5A4797E4D06D164E650FC872.md) | 36
+[C:\windows\system32\mmc.exe](mmc.exe-3E4EAD40B4F45F956354569B75FFDEEA.md) | 38
 [C:\Windows\system32\mmc.exe](mmc.exe-C51BACB9B93CA44254BE462516C6BEE0.md) | 35
 [C:\Windows\system32\mmc.exe](mmc.exe-E1328E5A4A87C376927DB685110F8D6F.md) | 32
 [C:\Windows\SysWOW64\mmc.exe](mmc.exe-08CA3F1D18A0B8F55098C3940AFD088E.md) | 40
 [C:\Windows\SysWOW64\mmc.exe](mmc.exe-258D0788201374F240CD4A7D97968217.md) | 32
+[C:\windows\SysWOW64\mmc.exe](mmc.exe-8096658A9A034257022ADF125B85F904.md) | 36
 [C:\Windows\SysWOW64\mmc.exe](mmc.exe-9012E43AD3F261742257A1234A006746.md) | 33
 [C:\WINDOWS\SysWOW64\mmc.exe](mmc.exe-E92C9CCE925FAF5CF45308F855F10016.md) | 33
 

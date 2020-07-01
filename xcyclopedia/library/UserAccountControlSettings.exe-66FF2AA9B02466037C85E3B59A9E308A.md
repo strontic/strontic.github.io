@@ -4,7 +4,7 @@ title: UserAccountControlSettings.exe | UserAccountControlSettings
 
 # UserAccountControlSettings.exe 
 
-* File Path: `C:\Windows\system32\UserAccountControlSettings.exe`
+* File Path: `C:\windows\system32\UserAccountControlSettings.exe`
 * Description: UserAccountControlSettings
 * Comments: 
 

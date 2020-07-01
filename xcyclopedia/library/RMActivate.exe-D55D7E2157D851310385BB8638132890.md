@@ -4,7 +4,7 @@ title: RMActivate.exe | Windows Rights Management Services Activation for Deskto
 
 # RMActivate.exe 
 
-* File Path: `C:\Windows\system32\RMActivate.exe`
+* File Path: `C:\windows\system32\RMActivate.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `12288:OyTJtslBVQwM19Z8XaeNZjdDov+qLUN8DToZ:4BV6ZqH3Mv+IToZ`
 ```
 
 ### Child Processes:
-
+conhost.exe
 
 ## Signature
 

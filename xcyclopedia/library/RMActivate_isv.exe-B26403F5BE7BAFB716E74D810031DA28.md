@@ -4,7 +4,7 @@ title: RMActivate_isv.exe | Windows Rights Management Services Activation for De
 
 # RMActivate_isv.exe 
 
-* File Path: `C:\Windows\system32\RMActivate_isv.exe`
+* File Path: `C:\windows\system32\RMActivate_isv.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `12288:m9wWxpaoM9zkuEjqNjxUV+9UT4kAXYfHg:HxL3UV+9UT4b`
 ```
 
 ### Child Processes:
-RdpSa.exe
+
 
 ## Signature
 

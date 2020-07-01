@@ -4,7 +4,7 @@ title: print.exe | Print Utility
 
 # print.exe 
 
-* File Path: `C:\Windows\SysWOW64\print.exe`
+* File Path: `C:\windows\SysWOW64\print.exe`
 * Description: Print Utility
 * Comments: 
 

@@ -4,7 +4,7 @@ title: MicrosoftEdgeCP.exe | Microsoft Edge Content Process
 
 # MicrosoftEdgeCP.exe 
 
-* File Path: `C:\Windows\system32\MicrosoftEdgeCP.exe`
+* File Path: `C:\windows\system32\MicrosoftEdgeCP.exe`
 * Description: Microsoft Edge Content Process
 * Comments: 
 
@@ -53,6 +53,13 @@ SSDEEP | `1536:zermIcat/7LnbR8l/DNRo04HwnVC8AknP8RsK:zeryK3V8l/804oV3TP8Rs`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `MicrosoftEdgeCP.exe` being misused. While `MicrosoftEdgeCP.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_powershell_parent_process.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml) | `            - '\microsoftedgecp.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

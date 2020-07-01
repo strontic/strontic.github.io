@@ -4,7 +4,7 @@ title: reg.exe | Registry Console Tool
 
 # reg.exe 
 
-* File Path: `C:\Windows\system32\reg.exe`
+* File Path: `C:\windows\system32\reg.exe`
 * Description: Registry Console Tool
 * Comments: 
 

@@ -4,7 +4,7 @@ title: wlrmdr.exe | Windows logon reminder
 
 # wlrmdr.exe 
 
-* File Path: `C:\Windows\system32\wlrmdr.exe`
+* File Path: `C:\windows\system32\wlrmdr.exe`
 * Description: Windows logon reminder
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:Y4gMLrY6x6g+d5cKswSjhbTvXylmAbsvqr9PxDtESpPTo:1rY6YxdsrvClEu9ZDtE
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 
@@ -56,6 +56,7 @@ SSDEEP | `1536:Y4gMLrY6x6g+d5cKswSjhbTvXylmAbsvqr9PxDtESpPTo:1rY6YxdsrvClEu9ZDtE
 
 File | Score
 -- | --
+[C:\windows\system32\wlrmdr.exe](wlrmdr.exe-04446BA6D8ECEF7BCF4652A71E2F3F84.md) | 35
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-82404475E1FFEEDBFA1758197858C432.md) | 38
 [C:\WINDOWS\system32\wlrmdr.exe](wlrmdr.exe-A6F7BB4E57150E73A60FEB3C0DE8AF7A.md) | 44
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-E18544710300FA84B16E556D8915EC6C.md) | 33

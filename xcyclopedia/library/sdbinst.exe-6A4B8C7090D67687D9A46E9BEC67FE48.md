@@ -4,7 +4,7 @@ title: sdbinst.exe | Application Compatibility Database Installer
 
 # sdbinst.exe 
 
-* File Path: `C:\Windows\system32\sdbinst.exe`
+* File Path: `C:\windows\system32\sdbinst.exe`
 * Description: Application Compatibility Database Installer
 * Comments: 
 
@@ -24,7 +24,7 @@ SSDEEP | `384:s/y/Z0MK6L81zXovOym1a5gOFxYIzr/GdsEri/EXD4pLCIy2BcmQ7WngW:2y/ZhgYf
 ### Usage (stdout):
 ```Batchfile
 Error: Invalid switch -help.
-Usage: C:\Windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
+Usage: C:\windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
 
     -? - print this help text.
     -p - Allow SDBs containing patches.
@@ -41,7 +41,7 @@ Usage: C:\Windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 

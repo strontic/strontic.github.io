@@ -4,7 +4,7 @@ title: EhStorAuthn.exe | Microsoft Enhanced Storage Authentication Program
 
 # EhStorAuthn.exe 
 
-* File Path: `C:\Windows\system32\EhStorAuthn.exe`
+* File Path: `C:\windows\system32\EhStorAuthn.exe`
 * Description: Microsoft Enhanced Storage Authentication Program
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `1536:/tUJVgNnVqfBDkNe0XZ28Pmj/YQq2hKxyy2L5IIw0oeomgPHA5kG9mQ7N6wMkNaA:
 
 File | Score
 -- | --
+[C:\windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-2E862F8AAA85563A8C8DFBF869F30DE9.md) | 46
 [C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-3A8D87E31C85B5F949BF26436D7DD02A.md) | 46
 [C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-D45618E58303EDB4268A6CCA5EC99ECC.md) | 46
 [C:\WINDOWS\system32\EhStorAuthn.exe](EhStorAuthn.exe-F6C6BB7C8DB07549BE3D04DA75F79E1A.md) | 55

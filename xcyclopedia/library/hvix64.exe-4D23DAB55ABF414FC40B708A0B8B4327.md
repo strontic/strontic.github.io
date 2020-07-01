@@ -4,7 +4,7 @@ title: hvix64.exe | Hypervisor V2.0
 
 # hvix64.exe 
 
-* File Path: `C:\Windows\system32\hvix64.exe`
+* File Path: `C:\windows\system32\hvix64.exe`
 * Description: Hypervisor V2.0
 * Comments: 
 

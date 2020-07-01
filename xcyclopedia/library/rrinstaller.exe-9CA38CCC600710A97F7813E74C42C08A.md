@@ -4,7 +4,7 @@ title: rrinstaller.exe | R&R installer
 
 # rrinstaller.exe 
 
-* File Path: `C:\Windows\system32\rrinstaller.exe`
+* File Path: `C:\windows\system32\rrinstaller.exe`
 * Description: R&R installer
 * Comments: 
 

@@ -4,7 +4,7 @@ title: easinvoker.exe | Exchange ActiveSync Invoker
 
 # easinvoker.exe 
 
-* File Path: `C:\Windows\system32\easinvoker.exe`
+* File Path: `C:\windows\system32\easinvoker.exe`
 * Description: Exchange ActiveSync Invoker
 * Comments: 
 

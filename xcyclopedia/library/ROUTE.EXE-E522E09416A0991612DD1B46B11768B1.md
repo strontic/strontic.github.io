@@ -4,7 +4,7 @@ title: ROUTE.EXE | TCP/IP Route Command
 
 # ROUTE.EXE 
 
-* File Path: `C:\Windows\system32\ROUTE.EXE`
+* File Path: `C:\windows\system32\ROUTE.EXE`
 * Description: TCP/IP Route Command
 * Comments: 
 

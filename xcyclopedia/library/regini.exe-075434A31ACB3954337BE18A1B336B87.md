@@ -211,6 +211,7 @@ REGINI: Missing parameter(s) for -h switch
 
 File | Score
 -- | --
+[C:\windows\SysWOW64\regini.exe](regini.exe-50752D2AEDF0E27FF7EFCA584755A203.md) | 43
 [C:\Windows\SysWOW64\regini.exe](regini.exe-8E9CB202467E209A7C4C5C15A7727DA2.md) | 36
 [C:\WINDOWS\SysWOW64\regini.exe](regini.exe-92D7CDD79F53E56612F8252B1BCD562E.md) | 38
 [C:\Windows\SysWOW64\regini.exe](regini.exe-C99C3BB423097FCF4990539FC1ED60E3.md) | 41

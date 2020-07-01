@@ -4,7 +4,7 @@ title: proquota.exe | ProQuota
 
 # proquota.exe 
 
-* File Path: `C:\Windows\SysWOW64\proquota.exe`
+* File Path: `C:\windows\SysWOW64\proquota.exe`
 * Description: ProQuota
 * Comments: 
 

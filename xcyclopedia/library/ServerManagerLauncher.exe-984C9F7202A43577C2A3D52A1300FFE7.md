@@ -4,7 +4,7 @@ title: ServerManagerLauncher.exe | Server Manager Launcher
 
 # ServerManagerLauncher.exe 
 
-* File Path: `C:\Windows\system32\ServerManagerLauncher.exe`
+* File Path: `C:\windows\system32\ServerManagerLauncher.exe`
 * Description: Server Manager Launcher
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:WJ41FMOgdPNvNAa6iZq0Sv7fWDTkhVzvOmvOj8lOo+vi6Uf:WS1CdNvaXiZNSv7fW
 ```
 
 ### Child Processes:
-
+ServerManager.exe
 
 ## Signature
 
@@ -59,8 +59,10 @@ File | Score
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-28317A51B8F874BCF5220872269FEC2C.md) | 33
 [C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-E0861FA9E0A4B441C6A11405D12D0C30.md) | 33
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-ED3867E805501925E10070A1430E13DF.md) | 41
+[C:\windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-EF0DB115967BFB1996403434AA3C9D7E.md) | 30
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-FF9690925244473ECC4C2E5B535B8599.md) | 33
 [C:\Windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-CA3A931A56D4B2429A39871131964101.md) | 33
+[C:\windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-CF83A07EECB55210ADAA65EF8B4C75D8.md) | 38
 
 
 

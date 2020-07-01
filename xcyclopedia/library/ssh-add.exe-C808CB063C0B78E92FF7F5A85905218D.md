@@ -4,7 +4,7 @@ title: ssh-add.exe |
 
 # ssh-add.exe 
 
-* File Path: `C:\Windows\system32\OpenSSH\ssh-add.exe`
+* File Path: `C:\windows\system32\OpenSSH\ssh-add.exe`
 * Description: 
 * Comments: 
 

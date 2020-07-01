@@ -56,6 +56,8 @@ SSDEEP | `12288:/jsYXcrgzAAwesoULcW2n4y9gjrGGKDXanoUHeGL7GOK:QXrYAAZsPM4yqGfXanJ
 
 File | Score
 -- | --
+[C:\windows\system32\calc.exe](calc.exe-D82C445E3D484F31CD2638A4338E5FD9.md) | 32
+[C:\windows\SysWOW64\calc.exe](calc.exe-E26D49197CA9E38BCC6033DE53F720BD.md) | 30
 [C:\Windows\SysWOW64\win32calc.exe](win32calc.exe-A20DCDBED017776C8B3D01A511A8DC46.md) | 35
 
 

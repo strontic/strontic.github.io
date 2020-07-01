@@ -4,7 +4,7 @@ title: wsqmcons.exe | Windows SQM Consolidator
 
 # wsqmcons.exe 
 
-* File Path: `C:\Windows\system32\wsqmcons.exe`
+* File Path: `C:\windows\system32\wsqmcons.exe`
 * Description: Windows SQM Consolidator
 * Comments: 
 

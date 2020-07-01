@@ -4,7 +4,7 @@ title: msoobe.exe | MSOOBE EXE
 
 # msoobe.exe 
 
-* File Path: `C:\Windows\system32\oobe\msoobe.exe`
+* File Path: `C:\windows\system32\oobe\msoobe.exe`
 * Description: MSOOBE EXE
 * Comments: 
 

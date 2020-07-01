@@ -4,7 +4,7 @@ title: ttdinject.exe | Time Traver Debugger Application Launcher
 
 # ttdinject.exe 
 
-* File Path: `C:\Windows\system32\ttdinject.exe`
+* File Path: `C:\windows\system32\ttdinject.exe`
 * Description: Time Traver Debugger Application Launcher
 * Comments: 
 
@@ -32,7 +32,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
 ### Usage (stderr):
 ```Batchfile
-!!! Unexpected string 'help' after 'C:\Windows\system32\ttdinject.exe'
+!!! Unexpected string 'help' after 'C:\windows\system32\ttdinject.exe'
 
 
 ```

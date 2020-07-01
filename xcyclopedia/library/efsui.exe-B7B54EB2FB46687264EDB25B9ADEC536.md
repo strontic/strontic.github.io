@@ -4,7 +4,7 @@ title: efsui.exe | EFS UI Application
 
 # efsui.exe 
 
-* File Path: `C:\Windows\system32\efsui.exe`
+* File Path: `C:\windows\system32\efsui.exe`
 * Description: EFS UI Application
 * Comments: 
 

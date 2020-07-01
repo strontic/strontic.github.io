@@ -4,7 +4,7 @@ title: Microsoft.Uev.SyncController.exe |
 
 # Microsoft.Uev.SyncController.exe 
 
-* File Path: `C:\Windows\system32\Microsoft.Uev.SyncController.exe`
+* File Path: `C:\windows\system32\Microsoft.Uev.SyncController.exe`
 * Description:  
 * Comments: 
 

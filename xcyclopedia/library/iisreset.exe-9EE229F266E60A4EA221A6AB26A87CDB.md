@@ -4,7 +4,7 @@ title: iisreset.exe | IIS control command line utility
 
 # iisreset.exe 
 
-* File Path: `C:\Windows\SysWOW64\iisreset.exe`
+* File Path: `C:\windows\SysWOW64\iisreset.exe`
 * Description: IIS control command line utility
 * Comments: 
 

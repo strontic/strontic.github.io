@@ -59,6 +59,13 @@ File | Score
 [C:\WINDOWS\system32\MicrosoftEdgeBCHost.exe](MicrosoftEdgeBCHost.exe-0E954887FC791F668CE388F89BC3D6C6.md) | 100
 [C:\WINDOWS\system32\MicrosoftEdgeDevTools.exe](MicrosoftEdgeDevTools.exe-0E954887FC791F668CE388F89BC3D6C6.md) | 100
 
+## Possible Misuse
+
+*The following table contains possible examples of `MicrosoftEdgeCP.exe` being misused. While `MicrosoftEdgeCP.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_powershell_parent_process.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml) | `            - '\microsoftedgecp.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

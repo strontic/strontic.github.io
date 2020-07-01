@@ -4,7 +4,7 @@ title: LocationNotificationWindows.exe | Location Notification
 
 # LocationNotificationWindows.exe 
 
-* File Path: `C:\Windows\system32\LocationNotificationWindows.exe`
+* File Path: `C:\windows\system32\LocationNotificationWindows.exe`
 * Description: Location Notification
 * Comments: 
 

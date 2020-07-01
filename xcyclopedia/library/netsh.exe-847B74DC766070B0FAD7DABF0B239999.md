@@ -4,7 +4,7 @@ title: netsh.exe | Network Command Shell
 
 # netsh.exe 
 
-* File Path: `C:\Windows\SysWOW64\netsh.exe`
+* File Path: `C:\windows\SysWOW64\netsh.exe`
 * Description: Network Command Shell
 * Comments: 
 
@@ -24,7 +24,7 @@ SSDEEP | `768:pLsMGla4aMvfv84lJ6TAMO5QZt6ljIbfSotJZy:Zs7p1/8O6DOy3GIbfS8D`
 ### Usage (stdout):
 ```Batchfile
 
-Usage: C:\Windows\SysWOW64\netsh.exe [-a AliasFile] [-c Context] [-r RemoteMachine] [-u [DomainName\]UserName] [-p Password | *]
+Usage: C:\windows\SysWOW64\netsh.exe [-a AliasFile] [-c Context] [-r RemoteMachine] [-u [DomainName\]UserName] [-p Password | *]
              [Command | -f ScriptFile]
 
 The following commands are available:
@@ -49,7 +49,6 @@ ipsecdosprotection - Changes to the `netsh ipsecdosprotection' context.
 lan            - Changes to the `netsh lan' context.
 namespace      - Changes to the `netsh namespace' context.
 netio          - Changes to the `netsh netio' context.
-p2p            - Changes to the `netsh p2p' context.
 ras            - Changes to the `netsh ras' context.
 rpc            - Changes to the `netsh rpc' context.
 set            - Updates configuration settings.
@@ -59,7 +58,7 @@ winhttp        - Changes to the `netsh winhttp' context.
 winsock        - Changes to the `netsh winsock' context.
 
 The following sub-contexts are available:
- advfirewall branchcache bridge dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio p2p ras rpc wfp winhttp winsock
+ advfirewall branchcache bridge dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio ras rpc wfp winhttp winsock
 
 To view help for a command, type the command, followed by a space, and then
  type ?.
@@ -72,7 +71,7 @@ To view help for a command, type the command, followed by a space, and then
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 
@@ -178,6 +177,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall set rule group="remote desktop" new enable=Yes | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall set rule group="file and printer sharing" new enable=Yes | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall reset | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall add rule name="atomic testing" action=allow dir=in protocol=TCP localport=450 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall delete rule name="atomic testing" protocol=TCP localport=450 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 

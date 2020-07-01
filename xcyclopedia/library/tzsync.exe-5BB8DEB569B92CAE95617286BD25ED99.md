@@ -4,7 +4,7 @@ title: tzsync.exe | TimeZone Sync Task
 
 # tzsync.exe 
 
-* File Path: `C:\Windows\system32\tzsync.exe`
+* File Path: `C:\windows\system32\tzsync.exe`
 * Description: TimeZone Sync Task
 * Comments: 
 

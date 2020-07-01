@@ -4,7 +4,7 @@ title: SnippingTool.exe | Snipping Tool
 
 # SnippingTool.exe 
 
-* File Path: `C:\Windows\system32\SnippingTool.exe`
+* File Path: `C:\windows\system32\SnippingTool.exe`
 * Description: Snipping Tool
 * Comments: 
 

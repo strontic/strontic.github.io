@@ -4,7 +4,7 @@ title: Dxpserver.exe | Device Stage Platform Server
 
 # Dxpserver.exe 
 
-* File Path: `C:\Windows\system32\Dxpserver.exe`
+* File Path: `C:\windows\system32\Dxpserver.exe`
 * Description: Device Stage Platform Server
 * Comments: 
 

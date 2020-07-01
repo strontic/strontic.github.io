@@ -4,7 +4,7 @@ title: cmdkey.exe | Credential Manager Command Line Utility
 
 # cmdkey.exe 
 
-* File Path: `C:\Windows\SysWOW64\cmdkey.exe`
+* File Path: `C:\windows\SysWOW64\cmdkey.exe`
 * Description: Credential Manager Command Line Utility
 * Comments: 
 

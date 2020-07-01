@@ -4,7 +4,7 @@ title: Utilman.exe | Utility Manager
 
 # Utilman.exe 
 
-* File Path: `C:\Windows\system32\Utilman.exe`
+* File Path: `C:\windows\system32\Utilman.exe`
 * Description: Utility Manager
 * Comments: 
 

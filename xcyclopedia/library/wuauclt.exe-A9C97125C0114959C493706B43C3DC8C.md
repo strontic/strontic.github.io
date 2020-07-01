@@ -4,7 +4,7 @@ title: wuauclt.exe | Windows Update
 
 # wuauclt.exe 
 
-* File Path: `C:\Windows\system32\wuauclt.exe`
+* File Path: `C:\windows\system32\wuauclt.exe`
 * Description: Windows Update
 * Comments: 
 

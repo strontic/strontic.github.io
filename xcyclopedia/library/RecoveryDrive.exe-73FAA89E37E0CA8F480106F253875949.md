@@ -4,7 +4,7 @@ title: RecoveryDrive.exe | Recovery Media Creator
 
 # RecoveryDrive.exe 
 
-* File Path: `C:\Windows\system32\RecoveryDrive.exe`
+* File Path: `C:\windows\system32\RecoveryDrive.exe`
 * Description: Recovery Media Creator
 * Comments: 
 

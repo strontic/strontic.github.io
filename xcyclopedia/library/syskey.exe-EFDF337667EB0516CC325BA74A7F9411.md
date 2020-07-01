@@ -57,6 +57,7 @@ SSDEEP | `384:2Tf/M5xZu0TnS07ZQnnCvhK5I37X8xuVTy+SC7uHUrSjaU1KC1Q1fWaxWVf:eX+xQ0
 File | Score
 -- | --
 [C:\Windows\system32\syskey.exe](syskey.exe-8D00177CA1D11D9A61CBF6F0D2F0420B.md) | 33
+[C:\windows\SysWOW64\syskey.exe](syskey.exe-C72F56AC33E9F1204528020CD0840A5A.md) | 29
 
 ## Possible Misuse
 

@@ -4,7 +4,7 @@ title: SystemUWPLauncher.exe | SystemUWPLauncher
 
 # SystemUWPLauncher.exe 
 
-* File Path: `C:\Windows\system32\SystemUWPLauncher.exe`
+* File Path: `C:\windows\system32\SystemUWPLauncher.exe`
 * Description: SystemUWPLauncher
 * Comments: 
 

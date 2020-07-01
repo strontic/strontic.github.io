@@ -4,7 +4,7 @@ title: qprocess.exe | Query Process Utility
 
 # qprocess.exe 
 
-* File Path: `C:\Windows\system32\qprocess.exe`
+* File Path: `C:\windows\system32\qprocess.exe`
 * Description: Query Process Utility
 * Comments: 
 

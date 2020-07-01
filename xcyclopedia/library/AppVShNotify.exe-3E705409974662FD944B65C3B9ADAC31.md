@@ -4,7 +4,7 @@ title: AppVShNotify.exe | Microsoft Application Virtualization Client Shell Noti
 
 # AppVShNotify.exe 
 
-* File Path: `C:\Windows\system32\AppVShNotify.exe`
+* File Path: `C:\windows\system32\AppVShNotify.exe`
 * Description: Microsoft Application Virtualization Client Shell Notifier
 * Comments: 
 

@@ -4,7 +4,7 @@ title: wextract.exe | Win32 Cabinet Self-Extractor
 
 # wextract.exe 
 
-* File Path: `C:\Windows\SysWOW64\wextract.exe`
+* File Path: `C:\windows\SysWOW64\wextract.exe`
 * Description: Win32 Cabinet Self-Extractor                                           
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `3072:KZy+bnr+O1m8Wp1icKAArDZz4N9GhbkUNEk951d:KZy+bnr+f9p0yN90vE`
 
 File | Score
 -- | --
+[C:\windows\system32\wextract.exe](wextract.exe-4B9C652BD0FD95A9E6123913C35519D6.md) | 71
 [C:\Windows\system32\wextract.exe](wextract.exe-56E501E3E49CFDE55EB1CAABE6913E45.md) | 77
 [C:\Windows\system32\wextract.exe](wextract.exe-91243AFCF25E3A7705CAAA03492996B7.md) | 75
 [C:\WINDOWS\system32\wextract.exe](wextract.exe-A740582789B3622EAAA53D2D31955363.md) | 71
@@ -63,6 +64,7 @@ File | Score
 [C:\Windows\system32\wusa.exe](wusa.exe-59701FE9C8BA85BCEB73A9B1B3E8E1C4.md) | 40
 [C:\WINDOWS\SysWOW64\wextract.exe](wextract.exe-3035914DF08E473A10745C662047A63D.md) | 75
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-330C79E31445B8A75F18EB503BC07029.md) | 74
+[C:\windows\SysWOW64\wextract.exe](wextract.exe-A66A88FFE53BBB9DDAACE0110A8232EC.md) | 71
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-B9CC7E24DB7DE2E75678761B1D8BAC3E.md) | 72
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 38
 

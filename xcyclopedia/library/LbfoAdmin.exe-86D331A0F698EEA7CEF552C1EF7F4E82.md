@@ -56,6 +56,7 @@ SSDEEP | `1536:5tVcjj4PBuhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWc14zUWJGCTBD:
 
 File | Score
 -- | --
+[C:\windows\system32\LbfoAdmin.exe](LbfoAdmin.exe-864ACD5218AE9D270B2DC7AACBE26BA7.md) | 86
 [C:\Windows\system32\LbfoAdmin.exe](LbfoAdmin.exe-911DC9868BBFEA5E95DC88BE10BC9C11.md) | 97
 
 

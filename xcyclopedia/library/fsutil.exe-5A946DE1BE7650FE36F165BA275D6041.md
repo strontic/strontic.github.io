@@ -4,7 +4,7 @@ title: fsutil.exe | fsutil.exe
 
 # fsutil.exe 
 
-* File Path: `C:\Windows\system32\fsutil.exe`
+* File Path: `C:\windows\system32\fsutil.exe`
 * Description: fsutil.exe
 * Comments: 
 

@@ -4,7 +4,7 @@ title: CredentialUIBroker.exe | Credential Manager UI Host
 
 # CredentialUIBroker.exe 
 
-* File Path: `C:\Windows\SysWOW64\CredentialUIBroker.exe`
+* File Path: `C:\windows\SysWOW64\CredentialUIBroker.exe`
 * Description: Credential Manager UI Host
 * Comments: 
 

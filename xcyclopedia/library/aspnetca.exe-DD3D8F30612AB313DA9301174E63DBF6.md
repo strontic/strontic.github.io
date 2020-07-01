@@ -4,7 +4,7 @@ title: aspnetca.exe | ASP.NET setup custom actions
 
 # aspnetca.exe 
 
-* File Path: `C:\Windows\SysWOW64\inetsrv\aspnetca.exe`
+* File Path: `C:\windows\SysWOW64\inetsrv\aspnetca.exe`
 * Description: ASP.NET setup custom actions
 * Comments: 
 

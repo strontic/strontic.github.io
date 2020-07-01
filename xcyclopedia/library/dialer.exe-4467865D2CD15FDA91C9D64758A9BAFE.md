@@ -4,7 +4,7 @@ title: dialer.exe | Microsoft Windows Phone Dialer
 
 # dialer.exe 
 
-* File Path: `C:\Windows\SysWOW64\dialer.exe`
+* File Path: `C:\windows\SysWOW64\dialer.exe`
 * Description: Microsoft Windows Phone Dialer
 * Comments: 
 

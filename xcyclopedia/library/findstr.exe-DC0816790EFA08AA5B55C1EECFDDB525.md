@@ -4,7 +4,7 @@ title: findstr.exe | Find String (QGREP) Utility
 
 # findstr.exe 
 
-* File Path: `C:\Windows\system32\findstr.exe`
+* File Path: `C:\windows\system32\findstr.exe`
 * Description: Find String (QGREP) Utility
 * Comments: 
 

@@ -4,7 +4,7 @@ title: diskpart.exe | DiskPart
 
 # diskpart.exe 
 
-* File Path: `C:\Windows\system32\diskpart.exe`
+* File Path: `C:\windows\system32\diskpart.exe`
 * Description: DiskPart
 * Comments: 
 
@@ -27,7 +27,7 @@ SSDEEP | `3072:KtHwJOXNE1ntLGA3zlAsMz3rHfrQrE0I5et372xaU62:HJOXNuntiAz3Mvfrv5etr
 Microsoft DiskPart version 10.0.17763.1
 
 Copyright (C) Microsoft Corporation.
-On computer: EC2AMAZ-52833MP
+On computer: Strontic5
 
 Microsoft DiskPart syntax:
 	diskpart [/s <script>] [/?]

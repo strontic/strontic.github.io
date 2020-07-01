@@ -4,7 +4,7 @@ title: nltest.exe | Microsoft Logon Server Test Utility
 
 # nltest.exe 
 
-* File Path: `C:\Windows\system32\nltest.exe`
+* File Path: `C:\windows\system32\nltest.exe`
 * Description: Microsoft Logon Server Test Utility
 * Comments: 
 

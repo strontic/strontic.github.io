@@ -56,6 +56,8 @@ mmc.exe
 
 File | Score
 -- | --
+[C:\windows\system32\inetsrv\InetMgr6.exe](InetMgr6.exe-67BC2F8C5456E8279292572AD34474CA.md) | 61
+[C:\windows\SysWOW64\inetsrv\InetMgr6.exe](InetMgr6.exe-1A2A739F84AA8CD25D4DC3EC3F3B75BA.md) | 55
 [C:\Windows\SysWOW64\inetsrv\InetMgr6.exe](InetMgr6.exe-54DC8D74C38A5D3BEBD9099ED1679214.md) | 58
 
 

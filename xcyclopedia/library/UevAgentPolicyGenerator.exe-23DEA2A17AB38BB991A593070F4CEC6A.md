@@ -4,7 +4,7 @@ title: UevAgentPolicyGenerator.exe |
 
 # UevAgentPolicyGenerator.exe 
 
-* File Path: `C:\Windows\system32\UevAgentPolicyGenerator.exe`
+* File Path: `C:\windows\system32\UevAgentPolicyGenerator.exe`
 * Description:  
 * Comments: 
 

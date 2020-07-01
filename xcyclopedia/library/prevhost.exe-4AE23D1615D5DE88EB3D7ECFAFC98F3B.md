@@ -4,7 +4,7 @@ title: prevhost.exe | Preview Handler Surrogate Host
 
 # prevhost.exe 
 
-* File Path: `C:\Windows\SysWOW64\prevhost.exe`
+* File Path: `C:\windows\SysWOW64\prevhost.exe`
 * Description: Preview Handler Surrogate Host
 * Comments: 
 

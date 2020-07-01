@@ -4,7 +4,7 @@ title: at.exe | Schedule service command line interface
 
 # at.exe 
 
-* File Path: `C:\Windows\SysWOW64\at.exe`
+* File Path: `C:\windows\SysWOW64\at.exe`
 * Description: Schedule service command line interface
 * Comments: 
 

@@ -4,7 +4,7 @@ title: gpupdate.exe | Microsoft Group Policy Update Utility
 
 # gpupdate.exe 
 
-* File Path: `C:\Windows\system32\gpupdate.exe`
+* File Path: `C:\windows\system32\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
 * Comments: 
 

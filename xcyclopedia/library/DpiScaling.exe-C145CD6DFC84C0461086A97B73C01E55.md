@@ -59,7 +59,9 @@ File | Score
 [C:\Windows\system32\DpiScaling.exe](DpiScaling.exe-109D8299C806BD19A3E9F34A0B5C0DB0.md) | 90
 [C:\Windows\system32\DpiScaling.exe](DpiScaling.exe-833A4FD57FCF875A70C19D1FF7FAC341.md) | 90
 [C:\WINDOWS\system32\DpiScaling.exe](DpiScaling.exe-A66987E89D00E4F8DDD5A8D0636155B2.md) | 86
+[C:\windows\system32\DpiScaling.exe](DpiScaling.exe-AE604CF7BF5FC3309464397C58AFCD0B.md) | 90
 [C:\Windows\system32\DpiScaling.exe](DpiScaling.exe-C1E219912D2237CB6661F7DAF20CC4DD.md) | 93
+[C:\windows\SysWOW64\DpiScaling.exe](DpiScaling.exe-39F635B39BBE56192EC28F70DD52B5B4.md) | 88
 [C:\Windows\SysWOW64\DpiScaling.exe](DpiScaling.exe-4D298B8E380BA853A5FCCE8E6DDE6A87.md) | 88
 [C:\WINDOWS\SysWOW64\DpiScaling.exe](DpiScaling.exe-7026425923C319D7DFC096ADF5D1AF40.md) | 88
 [C:\Windows\SysWOW64\DpiScaling.exe](DpiScaling.exe-D44D3A0F5E53F6ECC5C6232930CFCC5E.md) | 90

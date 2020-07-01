@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-1ABCB8B7EFA840DC7C998AA57FA7B563.md) | 50
 [C:\WINDOWS\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-59816775D80D68A9E028CEBD7E036C49.md) | 50
+[C:\windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-6E6696E83DB3006D50E14A2FDFE70484.md) | 38
 [C:\Windows\SysWOW64\TapiUnattend.exe](TapiUnattend.exe-D5BFFD755F566AAACB57CF83FDAA5CD0.md) | 47
 
 

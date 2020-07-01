@@ -4,7 +4,7 @@ title: cmmon32.exe | Microsoft Connection Manager Monitor
 
 # cmmon32.exe 
 
-* File Path: `C:\Windows\system32\cmmon32.exe`
+* File Path: `C:\windows\system32\cmmon32.exe`
 * Description: Microsoft Connection Manager Monitor
 * Comments: 
 

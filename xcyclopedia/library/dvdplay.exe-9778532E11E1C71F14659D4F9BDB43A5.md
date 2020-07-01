@@ -57,9 +57,11 @@ wmplayer.exe
 File | Score
 -- | --
 [C:\Windows\system32\dvdplay.exe](dvdplay.exe-5AEA5B5787AF2AD9DB4CE8B0E8FF2A62.md) | 43
+[C:\windows\system32\dvdplay.exe](dvdplay.exe-6B07C78F5310954DAF9A1962B5E49F6D.md) | 43
 [C:\WINDOWS\system32\dvdplay.exe](dvdplay.exe-7C9910DDA0BAA0056C647E1151B1DF54.md) | 41
 [C:\Windows\system32\dvdplay.exe](dvdplay.exe-B7FF9DEE35818D7C2780D3897963D787.md) | 40
 [C:\Windows\SysWOW64\dvdplay.exe](dvdplay.exe-5E6A3BE2A3A85CCB85430027EFDDDECA.md) | 40
+[C:\windows\SysWOW64\dvdplay.exe](dvdplay.exe-B0231148BAA81C21A914185A8410AA14.md) | 36
 [C:\Windows\SysWOW64\dvdplay.exe](dvdplay.exe-D388610A1DE600E01277AECF3B1280A3.md) | 32
 
 

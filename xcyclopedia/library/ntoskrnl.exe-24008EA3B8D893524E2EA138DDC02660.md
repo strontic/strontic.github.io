@@ -4,7 +4,7 @@ title: ntoskrnl.exe | NT Kernel & System
 
 # ntoskrnl.exe 
 
-* File Path: `C:\Windows\system32\ntoskrnl.exe`
+* File Path: `C:\windows\system32\ntoskrnl.exe`
 * Description: NT Kernel & System
 * Comments: 
 

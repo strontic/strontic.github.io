@@ -4,7 +4,7 @@ title: WWAHost.exe | Microsoft WWA Host
 
 # WWAHost.exe 
 
-* File Path: `C:\Windows\system32\WWAHost.exe`
+* File Path: `C:\windows\system32\WWAHost.exe`
 * Description: Microsoft WWA Host
 * Comments: 
 

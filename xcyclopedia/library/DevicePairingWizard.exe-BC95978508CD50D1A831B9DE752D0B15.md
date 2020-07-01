@@ -4,7 +4,7 @@ title: DevicePairingWizard.exe | Device Pairing Application
 
 # DevicePairingWizard.exe 
 
-* File Path: `C:\Windows\SysWOW64\DevicePairingWizard.exe`
+* File Path: `C:\windows\SysWOW64\DevicePairingWizard.exe`
 * Description: Device Pairing Application
 * Comments: 
 

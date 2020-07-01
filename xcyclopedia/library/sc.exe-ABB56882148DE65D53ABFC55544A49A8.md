@@ -4,7 +4,7 @@ title: sc.exe | Service Control Manager Configuration Tool
 
 # sc.exe 
 
-* File Path: `C:\Windows\system32\sc.exe`
+* File Path: `C:\windows\system32\sc.exe`
 * Description: Service Control Manager Configuration Tool
 * Comments: 
 

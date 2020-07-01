@@ -4,7 +4,7 @@ title: SearchIndexer.exe | Microsoft Windows Search Indexer
 
 # SearchIndexer.exe 
 
-* File Path: `C:\Windows\SysWOW64\SearchIndexer.exe`
+* File Path: `C:\windows\SysWOW64\SearchIndexer.exe`
 * Description: Microsoft Windows Search Indexer
 * Comments: 
 

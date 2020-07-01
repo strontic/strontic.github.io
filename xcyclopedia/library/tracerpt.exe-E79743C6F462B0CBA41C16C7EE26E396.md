@@ -4,7 +4,7 @@ title: tracerpt.exe | Event Trace Report Tool
 
 # tracerpt.exe 
 
-* File Path: `C:\Windows\SysWOW64\tracerpt.exe`
+* File Path: `C:\windows\SysWOW64\tracerpt.exe`
 * Description: Event Trace Report Tool
 * Comments: 
 
@@ -27,7 +27,7 @@ SSDEEP | `6144:oD0edtl6+oVjFdNesLHOlciALURde2M/TFlX:2TdtlkjxLHocrUQ/TFl`
 Microsoft r TraceRpt.Exe (10.0.17763.1)
 
 Usage:
-  C:\Windows\SysWOW64\tracerpt.exe <[-l] <value [value [...]]>|-rt <session_name [session_name [...]]>> [options]
+  C:\windows\SysWOW64\tracerpt.exe <[-l] <value [value [...]]>|-rt <session_name [session_name [...]]>> [options]
 
 Options:
   -?                            Displays context sensitive help.

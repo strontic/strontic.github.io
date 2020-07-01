@@ -4,7 +4,7 @@ title: ktpass.exe | Kerberos keytab tool
 
 # ktpass.exe 
 
-* File Path: `C:\Windows\SysWOW64\ktpass.exe`
+* File Path: `C:\windows\SysWOW64\ktpass.exe`
 * Description: Kerberos keytab tool
 * Comments: 
 

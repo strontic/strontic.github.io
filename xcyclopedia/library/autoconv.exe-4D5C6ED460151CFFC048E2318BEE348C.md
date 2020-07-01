@@ -4,7 +4,7 @@ title: autoconv.exe | Auto File System Conversion Utility
 
 # autoconv.exe 
 
-* File Path: `C:\Windows\SysWOW64\autoconv.exe`
+* File Path: `C:\windows\SysWOW64\autoconv.exe`
 * Description: Auto File System Conversion Utility
 * Comments: 
 

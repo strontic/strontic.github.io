@@ -4,7 +4,7 @@ title: winresume.exe | Resume From Hibernate boot application
 
 # winresume.exe 
 
-* File Path: `C:\Windows\system32\winresume.exe`
+* File Path: `C:\windows\system32\winresume.exe`
 * Description: Resume From Hibernate boot application
 * Comments: 
 

@@ -4,7 +4,7 @@ title: UserAccountBroker.exe | User Account Control Panel Host
 
 # UserAccountBroker.exe 
 
-* File Path: `C:\Windows\system32\UserAccountBroker.exe`
+* File Path: `C:\windows\system32\UserAccountBroker.exe`
 * Description: User Account Control Panel Host
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `768:r2tK/96NezOFrcczXpdzPOt4sE/P9ZOA71aySTfB0QYiPWrdUPZXszSpXj1Pm+/T:r
 ```
 
 ### Child Processes:
-RdpSa.exe
+
 
 ## Signature
 

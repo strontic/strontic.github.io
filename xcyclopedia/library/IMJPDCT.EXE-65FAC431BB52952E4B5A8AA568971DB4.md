@@ -4,7 +4,7 @@ title: IMJPDCT.EXE | Microsoft IME
 
 # IMJPDCT.EXE 
 
-* File Path: `C:\Windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE`
+* File Path: `C:\windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE`
 * Description: Microsoft IME
 * Comments: 
 

@@ -4,7 +4,7 @@ title: sacsess.exe | Microsoft SAC Service Helper
 
 # sacsess.exe 
 
-* File Path: `C:\Windows\system32\sacsess.exe`
+* File Path: `C:\windows\system32\sacsess.exe`
 * Description: Microsoft SAC Service Helper
 * Comments: 
 

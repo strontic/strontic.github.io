@@ -4,7 +4,7 @@ title: NetCfgNotifyObjectHost.exe | Host Process for Network Driver Configuratio
 
 # NetCfgNotifyObjectHost.exe 
 
-* File Path: `C:\Windows\system32\NetCfgNotifyObjectHost.exe`
+* File Path: `C:\windows\system32\NetCfgNotifyObjectHost.exe`
 * Description: Host Process for Network Driver Configuration Plugins
 * Comments: 
 

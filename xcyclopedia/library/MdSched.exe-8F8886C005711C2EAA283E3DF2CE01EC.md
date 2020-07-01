@@ -59,8 +59,10 @@ File | Score
 [C:\Windows\system32\MdRes.exe](MdRes.exe-0C523F617F069E18124660A1486D6B6F.md) | 83
 [C:\WINDOWS\system32\MdRes.exe](MdRes.exe-4D39CFCDAE03CBD0CE29CAE5CFD45883.md) | 79
 [C:\Windows\system32\MdRes.exe](MdRes.exe-65AA6B6B47D01BF36898D5D06617C623.md) | 82
+[C:\windows\system32\MdRes.exe](MdRes.exe-AADC9A8194CDEC4908A8DFD82FD75D9F.md) | 80
 [C:\Windows\system32\MdRes.exe](MdRes.exe-D597D3941EB75B50F23A607FAD0FCB9E.md) | 82
 [C:\Windows\system32\MdSched.exe](MdSched.exe-26F5DBA1FB3B8E477BF3941879B23E59.md) | 82
+[C:\windows\system32\MdSched.exe](MdSched.exe-377CC9DAE7227D875154579C7BAA6625.md) | 75
 [C:\Windows\system32\MdSched.exe](MdSched.exe-4FF2CCEEDC45B573012B35E6DCA467AA.md) | 82
 [C:\WINDOWS\system32\MdSched.exe](MdSched.exe-D8E7439565B126AD33520B090E7888B0.md) | 77
 

@@ -4,7 +4,7 @@ title: reset.exe | Remote Desktop Services Reset Utility
 
 # reset.exe 
 
-* File Path: `C:\Windows\system32\reset.exe`
+* File Path: `C:\windows\system32\reset.exe`
 * Description: Remote Desktop Services Reset Utility
 * Comments: 
 

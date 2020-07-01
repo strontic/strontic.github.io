@@ -4,7 +4,7 @@ title: find.exe | Find String (grep) Utility
 
 # find.exe 
 
-* File Path: `C:\Windows\SysWOW64\find.exe`
+* File Path: `C:\windows\SysWOW64\find.exe`
 * Description: Find String (grep) Utility
 * Comments: 
 
@@ -48,7 +48,7 @@ FIND: Parameter format not correct
 ```
 
 ### Child Processes:
-conhost.exe
+
 
 ## Signature
 

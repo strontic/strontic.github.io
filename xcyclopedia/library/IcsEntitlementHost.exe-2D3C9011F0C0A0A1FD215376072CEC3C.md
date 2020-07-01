@@ -4,7 +4,7 @@ title: IcsEntitlementHost.exe | ICS Entitlement Host
 
 # IcsEntitlementHost.exe 
 
-* File Path: `C:\Windows\system32\IcsEntitlementHost.exe`
+* File Path: `C:\windows\system32\IcsEntitlementHost.exe`
 * Description: ICS Entitlement Host
 * Comments: 
 

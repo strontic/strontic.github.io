@@ -4,7 +4,7 @@ title: WindowsUpdateElevatedInstaller.exe | WindowsUpdateElevatedInstaller
 
 # WindowsUpdateElevatedInstaller.exe 
 
-* File Path: `C:\Windows\system32\WindowsUpdateElevatedInstaller.exe`
+* File Path: `C:\windows\system32\WindowsUpdateElevatedInstaller.exe`
 * Description: WindowsUpdateElevatedInstaller
 * Comments: 
 

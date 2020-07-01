@@ -4,7 +4,7 @@ title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
 
 # cleanmgr.exe 
 
-* File Path: `C:\Windows\system32\cleanmgr.exe`
+* File Path: `C:\windows\system32\cleanmgr.exe`
 * Description: Disk Space Cleanup Manager for Windows
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `3072:99eq+KCx3PwALkqnAEPGRvQhRkKqUa9antF5hvvJkuXpe:9NCBkqAE+ohSKq99UF5
 ```
 
 ### Child Processes:
-DismHost.exe
+
 
 ## Signature
 

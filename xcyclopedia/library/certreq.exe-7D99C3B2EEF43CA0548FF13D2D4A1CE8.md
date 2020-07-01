@@ -4,7 +4,7 @@ title: certreq.exe | CertReq.exe
 
 # certreq.exe 
 
-* File Path: `C:\Windows\system32\certreq.exe`
+* File Path: `C:\windows\system32\certreq.exe`
 * Description: CertReq.exe
 * Comments: 
 

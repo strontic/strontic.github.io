@@ -4,7 +4,7 @@ title: netdom.exe | NETDOM5
 
 # netdom.exe 
 
-* File Path: `C:\Windows\SysWOW64\netdom.exe`
+* File Path: `C:\windows\SysWOW64\netdom.exe`
 * Description: NETDOM5
 * Comments: 
 

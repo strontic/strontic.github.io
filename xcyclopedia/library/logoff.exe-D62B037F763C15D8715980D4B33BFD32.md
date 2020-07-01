@@ -4,7 +4,7 @@ title: logoff.exe | Session Logoff Utility
 
 # logoff.exe 
 
-* File Path: `C:\Windows\SysWOW64\logoff.exe`
+* File Path: `C:\windows\SysWOW64\logoff.exe`
 * Description: Session Logoff Utility
 * Comments: 
 

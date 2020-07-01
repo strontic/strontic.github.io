@@ -4,7 +4,7 @@ title: TpmInit.exe | TPM Initialization Wizard
 
 # TpmInit.exe 
 
-* File Path: `C:\Windows\SysWOW64\TpmInit.exe`
+* File Path: `C:\windows\SysWOW64\TpmInit.exe`
 * Description: TPM Initialization Wizard
 * Comments: 
 
@@ -60,8 +60,10 @@ File | Score
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-578EF2B7D0C63504C39DD1BF3CADB2A8.md) | 60
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F.md) | 52
 [C:\WINDOWS\system32\TpmInit.exe](TpmInit.exe-C601DD6B0449412E9BC6903B9AEBAA5B.md) | 54
+[C:\windows\system32\TpmInit.exe](TpmInit.exe-F0D6FA1110EFFFD3A773757A2DB0C950.md) | 38
 [C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 54
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-22A202B729CB70DF605D7E81D77B9B41.md) | 60
+[C:\windows\SysWOW64\TpmInit.exe](TpmInit.exe-6C56049244A18816695CA8719A6A1BB2.md) | 49
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-BD19D000F87EA4CD0DEC6203207E9D03.md) | 50
 
 ## Possible Misuse

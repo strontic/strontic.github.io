@@ -4,7 +4,7 @@ title: RDSPnf.exe | Windows All-User Installer Profile Processing Module
 
 # RDSPnf.exe 
 
-* File Path: `C:\Windows\system32\RDSPnf.exe`
+* File Path: `C:\windows\system32\RDSPnf.exe`
 * Description: Windows All-User Installer Profile Processing Module
 * Comments: 
 

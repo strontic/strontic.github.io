@@ -4,7 +4,7 @@ title: PrintBrmUi.exe | PrintBrm Application
 
 # PrintBrmUi.exe 
 
-* File Path: `C:\Windows\system32\PrintBrmUi.exe`
+* File Path: `C:\windows\system32\PrintBrmUi.exe`
 * Description: PrintBrm Application
 * Comments: 
 

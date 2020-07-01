@@ -4,7 +4,7 @@ title: osk.exe | Accessibility On-Screen Keyboard
 
 # osk.exe 
 
-* File Path: `C:\Windows\system32\osk.exe`
+* File Path: `C:\windows\system32\osk.exe`
 * Description: Accessibility On-Screen Keyboard
 * Comments: 
 
@@ -56,9 +56,11 @@ SSDEEP | `6144:Yb/lKGivRTnrr1hf7Wc1OcvH3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZ:I
 
 File | Score
 -- | --
+[C:\windows\system32\osk.exe](osk.exe-17BD0C6AA822D5957EF63E3884CF5BC2.md) | 50
 [C:\Windows\system32\osk.exe](osk.exe-745F2DF5BEED97B8C751DF83938CB418.md) | 72
 [C:\WINDOWS\system32\osk.exe](osk.exe-9237BD6C14767145300EA58ACC2F20F9.md) | 66
 [C:\Windows\system32\osk.exe](osk.exe-C6012DC3DBF49FBD67DBF57F1DE35E35.md) | 72
+[C:\windows\SysWOW64\osk.exe](osk.exe-8519218ECB3C67B13A7CCAD4453B6012.md) | 65
 [C:\Windows\SysWOW64\osk.exe](osk.exe-D49B6A24B175D6377AD62E9C6690E75B.md) | 72
 
 ## Possible Misuse

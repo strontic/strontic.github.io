@@ -4,7 +4,7 @@ title: ChsIME.exe | Microsoft IME
 
 # ChsIME.exe 
 
-* File Path: `C:\Windows\system32\InputMethod\CHS\ChsIME.exe`
+* File Path: `C:\windows\system32\InputMethod\CHS\ChsIME.exe`
 * Description: Microsoft IME
 * Comments: 
 

@@ -4,7 +4,7 @@ title: tasklist.exe | Lists the current running tasks
 
 # tasklist.exe 
 
-* File Path: `C:\Windows\system32\tasklist.exe`
+* File Path: `C:\windows\system32\tasklist.exe`
 * Description: Lists the current running tasks
 * Comments: 
 

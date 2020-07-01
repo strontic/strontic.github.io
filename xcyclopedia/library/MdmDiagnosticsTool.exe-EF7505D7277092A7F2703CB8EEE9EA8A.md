@@ -4,7 +4,7 @@ title: MdmDiagnosticsTool.exe | MdmDiagnosticsTool
 
 # MdmDiagnosticsTool.exe 
 
-* File Path: `C:\Windows\system32\MdmDiagnosticsTool.exe`
+* File Path: `C:\windows\system32\MdmDiagnosticsTool.exe`
 * Description: MdmDiagnosticsTool
 * Comments: 
 
@@ -24,11 +24,11 @@ SSDEEP | `1536:aA+3nEATZklqlsCmHlnry0R3BTcl+GdGnqcweYb:YHAy0RRYl+GdGqcxYb`
 ### Usage (stdout):
 ```Batchfile
 
-  Usage1: C:\Windows\system32\MdmDiagnosticsTool.exe -out <output folder path>
+  Usage1: C:\windows\system32\MdmDiagnosticsTool.exe -out <output folder path>
       * Output MDM diagnostics info only to given folder path specified in -out parameter.
-      eg: C:\Windows\system32\MdmDiagnosticsTool.exe -out c:\temp\outputfolder
+      eg: C:\windows\system32\MdmDiagnosticsTool.exe -out c:\temp\outputfolder
 
-  Usage2: C:\Windows\system32\MdmDiagnosticsTool.exe -area <area name(s)> -cab <output cab file path>
+  Usage2: C:\windows\system32\MdmDiagnosticsTool.exe -area <area name(s)> -cab <output cab file path>
       * Collect predefined area logs and create a log cab to given cab file.
       * Supported area name example:
           Autopilot
@@ -38,10 +38,10 @@ SSDEEP | `1536:aA+3nEATZklqlsCmHlnry0R3BTcl+GdGnqcweYb:YHAy0RRYl+GdGqcxYb`
           Autopilot;DeviceEnrollment;Tpm
       * Please find all possible areas in registry under:
           HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MdmDiagnostics\Area
-      eg: C:\Windows\system32\MdmDiagnosticsTool.exe -area Autopilot;Tpm -cab c:\temp\AutopilotDiag.cab
-  Usage3: C:\Windows\system32\MdmDiagnosticsTool.exe -area <area name(s)> -zip <output zip file path>
+      eg: C:\windows\system32\MdmDiagnosticsTool.exe -area Autopilot;Tpm -cab c:\temp\AutopilotDiag.cab
+  Usage3: C:\windows\system32\MdmDiagnosticsTool.exe -area <area name(s)> -zip <output zip file path>
       * Collect predefined area logs and create a log zip to given zip file. Areas supported are the same as Usage2 for creating cab
-  Usage4: C:\Windows\system32\MdmDiagnosticsTool.exe -xml <xml file of information to gather> -zip <output zip file path> -server <MDM Server to alert>
+  Usage4: C:\windows\system32\MdmDiagnosticsTool.exe -xml <xml file of information to gather> -zip <output zip file path> -server <MDM Server to alert>
       * Collect information specified in the xml and create a log zip to given zip file. 
 
 

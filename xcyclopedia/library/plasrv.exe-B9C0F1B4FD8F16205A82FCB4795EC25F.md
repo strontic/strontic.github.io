@@ -4,7 +4,7 @@ title: plasrv.exe | Performance Logs and Alerts DCOM Server
 
 # plasrv.exe 
 
-* File Path: `C:\Windows\system32\plasrv.exe`
+* File Path: `C:\windows\system32\plasrv.exe`
 * Description: Performance Logs and Alerts DCOM Server
 * Comments: 
 

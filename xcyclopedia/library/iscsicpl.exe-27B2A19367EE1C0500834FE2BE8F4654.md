@@ -58,6 +58,8 @@ File | Score
 -- | --
 [C:\Windows\system32\iscsicpl.exe](iscsicpl.exe-369DE501B34D7A13F0D847BAC1F73354.md) | 90
 [C:\Windows\system32\iscsicpl.exe](iscsicpl.exe-42D0FA9084EDF93DA5FFEC1CFBF18410.md) | 94
+[C:\windows\system32\iscsicpl.exe](iscsicpl.exe-DCEF208FB5CF6F04349BCAC2F2499B29.md) | 94
+[C:\windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-61045F4908AB5D9D69F0A8E6B7B67806.md) | 91
 [C:\Windows\SysWOW64\iscsicpl.exe](iscsicpl.exe-A985A6EBE1B37BC6028D035AC2E0D73F.md) | 90
 
 

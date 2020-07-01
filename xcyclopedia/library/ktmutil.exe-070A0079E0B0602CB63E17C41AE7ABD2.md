@@ -4,7 +4,7 @@ title: ktmutil.exe | Kernel Transaction Management Utility
 
 # ktmutil.exe 
 
-* File Path: `C:\Windows\SysWOW64\ktmutil.exe`
+* File Path: `C:\windows\SysWOW64\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
 * Comments: 
 

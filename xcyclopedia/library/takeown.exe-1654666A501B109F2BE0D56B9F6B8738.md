@@ -4,7 +4,7 @@ title: takeown.exe | Takes ownership of a file
 
 # takeown.exe 
 
-* File Path: `C:\Windows\system32\takeown.exe`
+* File Path: `C:\windows\system32\takeown.exe`
 * Description: Takes ownership of a file
 * Comments: 
 

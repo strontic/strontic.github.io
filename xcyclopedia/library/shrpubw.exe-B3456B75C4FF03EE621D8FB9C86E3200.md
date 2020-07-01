@@ -4,7 +4,7 @@ title: shrpubw.exe | Share Creation Wizard
 
 # shrpubw.exe 
 
-* File Path: `C:\Windows\system32\shrpubw.exe`
+* File Path: `C:\windows\system32\shrpubw.exe`
 * Description: Share Creation Wizard
 * Comments: 
 
@@ -32,7 +32,7 @@ SSDEEP | `1536:lI5RMIC9qsqAt2ZKRUsOrVukBTxWJF51KsvhFsVq:lkRMI5sqy28RUsOrVPgJFWsv
 ```
 
 ### Child Processes:
-
+RdpSa.exe
 
 ## Signature
 
@@ -56,8 +56,10 @@ SSDEEP | `1536:lI5RMIC9qsqAt2ZKRUsOrVukBTxWJF51KsvhFsVq:lkRMI5sqy28RUsOrVPgJFWsv
 
 File | Score
 -- | --
+[C:\windows\system32\shrpubw.exe](shrpubw.exe-1A1252D725D20C7A173873A67681F5D3.md) | 49
 [C:\Windows\system32\shrpubw.exe](shrpubw.exe-50BC813A5A9142D3743502C0886BA99F.md) | 44
 [C:\Windows\SysWOW64\shrpubw.exe](shrpubw.exe-51311626D7D8EC313EF248FB60776F1A.md) | 49
+[C:\windows\SysWOW64\shrpubw.exe](shrpubw.exe-6BDDC423CCDDB15AB14A0A54C148091F.md) | 49
 [C:\Windows\SysWOW64\shrpubw.exe](shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209.md) | 46
 
 

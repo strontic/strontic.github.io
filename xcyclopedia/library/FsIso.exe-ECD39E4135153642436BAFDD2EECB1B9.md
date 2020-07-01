@@ -4,7 +4,7 @@ title: FsIso.exe | Secure Frame Server Helper
 
 # FsIso.exe 
 
-* File Path: `C:\Windows\system32\FsIso.exe`
+* File Path: `C:\windows\system32\FsIso.exe`
 * Description: Secure Frame Server Helper
 * Comments: 
 

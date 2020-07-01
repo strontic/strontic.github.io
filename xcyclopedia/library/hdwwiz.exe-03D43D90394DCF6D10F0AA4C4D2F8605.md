@@ -4,7 +4,7 @@ title: hdwwiz.exe | Add Hardware Wizard
 
 # hdwwiz.exe 
 
-* File Path: `C:\Windows\system32\hdwwiz.exe`
+* File Path: `C:\windows\system32\hdwwiz.exe`
 * Description: Add Hardware Wizard
 * Comments: 
 

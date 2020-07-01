@@ -4,7 +4,7 @@ title: grpconv.exe | Windows Progman Group Converter
 
 # grpconv.exe 
 
-* File Path: `C:\Windows\system32\grpconv.exe`
+* File Path: `C:\windows\system32\grpconv.exe`
 * Description: Windows Progman Group Converter
 * Comments: 
 

@@ -4,7 +4,7 @@ title: mfpmp.exe | Media Foundation Protected Pipeline EXE
 
 # mfpmp.exe 
 
-* File Path: `C:\Windows\system32\mfpmp.exe`
+* File Path: `C:\windows\system32\mfpmp.exe`
 * Description: Media Foundation Protected Pipeline EXE
 * Comments: 
 

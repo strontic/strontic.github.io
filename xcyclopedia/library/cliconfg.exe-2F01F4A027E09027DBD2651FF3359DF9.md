@@ -4,7 +4,7 @@ title: cliconfg.exe | SQL Client Configuration Utility EXE
 
 # cliconfg.exe 
 
-* File Path: `C:\Windows\system32\cliconfg.exe`
+* File Path: `C:\windows\system32\cliconfg.exe`
 * Description: SQL Client Configuration Utility EXE
 * Comments: 
 
@@ -56,6 +56,7 @@ SSDEEP | `384:qbyf4ZRmiVJklCrxPQu8hWPwWsPXuNvBQAMYJQ2JQSkdowyo:qbyYRm4uLGKuI30lJ
 
 File | Score
 -- | --
+[C:\windows\system32\cliconfg.exe](cliconfg.exe-1A81668402876DBDE84C5E111C8D4A78.md) | 57
 [C:\WINDOWS\system32\cliconfg.exe](cliconfg.exe-23270B94D888BC3AC565E97C8DD6F4BB.md) | 75
 [C:\Windows\system32\cliconfg.exe](cliconfg.exe-E06C0D21FFE629D45E3F0067B86D2CEA.md) | 60
 [C:\Windows\system32\cliconfg.exe](cliconfg.exe-FF9932C30F72B19E57D9B07F230487E7.md) | 57
@@ -63,6 +64,7 @@ File | Score
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-5924FC77AC5B646CCF8CEF54DBED2D69.md) | 66
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-5EE49921CB7AEA9FDF2938F99DB69FFA.md) | 63
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-8479031B34E1F72E08EB5EC618368822.md) | 66
+[C:\windows\SysWOW64\cliconfg.exe](cliconfg.exe-D742C17757BA63F0FB22715C3E0CFF68.md) | 63
 
 
 

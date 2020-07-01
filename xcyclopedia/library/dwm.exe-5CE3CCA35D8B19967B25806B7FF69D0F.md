@@ -4,7 +4,7 @@ title: dwm.exe | Desktop Window Manager
 
 # dwm.exe 
 
-* File Path: `C:\Windows\system32\dwm.exe`
+* File Path: `C:\windows\system32\dwm.exe`
 * Description: Desktop Window Manager
 * Comments: 
 

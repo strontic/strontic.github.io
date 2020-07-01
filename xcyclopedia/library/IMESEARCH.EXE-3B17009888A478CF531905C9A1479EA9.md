@@ -52,6 +52,11 @@ SSDEEP | `1536:MpWpQqJsGoypPwP/jiqg+QbrG4nGJoYZSvtLQ/soV4Zvws460R5sTSDBQa9uk:MUp
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\SysWOW64\IME\SHARED\IMESEARCH.EXE](IMESEARCH.EXE-4238CBE22DA0FFB3026A2279174F6CFB.md) | 27
 
 
 

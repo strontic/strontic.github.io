@@ -4,7 +4,7 @@ title: ucsvc.exe | Boot File Servicing Utility
 
 # ucsvc.exe 
 
-* File Path: `C:\Windows\system32\ucsvc.exe`
+* File Path: `C:\windows\system32\ucsvc.exe`
 * Description: Boot File Servicing Utility
 * Comments: 
 

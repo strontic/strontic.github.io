@@ -56,7 +56,9 @@ SSDEEP | `12288:yT+EGk1h46q2OealQwHsTQrVylVzt8XB04dDuc/04dDuc/vq3r:ynGkj46qNMQEl
 
 File | Score
 -- | --
+[C:\windows\system32\Magnify.exe](Magnify.exe-184D10CE4DC3456B5A39BE9CD273E7E5.md) | 54
 [C:\Windows\system32\Magnify.exe](Magnify.exe-88156DA1B88F03E6591359587F3FAF2C.md) | 55
+[C:\windows\SysWOW64\Magnify.exe](Magnify.exe-6A13392704DA5A0504C60EBBB64A44C8.md) | 52
 
 ## Possible Misuse
 

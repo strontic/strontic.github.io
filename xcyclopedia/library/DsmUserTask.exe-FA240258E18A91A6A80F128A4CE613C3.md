@@ -4,7 +4,7 @@ title: DsmUserTask.exe | Device Setup Manager User Task Handler
 
 # DsmUserTask.exe 
 
-* File Path: `C:\Windows\system32\DsmUserTask.exe`
+* File Path: `C:\windows\system32\DsmUserTask.exe`
 * Description: Device Setup Manager User Task Handler
 * Comments: 
 

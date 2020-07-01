@@ -4,7 +4,7 @@ title: dcomcnfg.exe | COM+
 
 # dcomcnfg.exe 
 
-* File Path: `C:\Windows\SysWOW64\dcomcnfg.exe`
+* File Path: `C:\windows\SysWOW64\dcomcnfg.exe`
 * Description: COM+
 * Comments: 
 
@@ -57,6 +57,7 @@ mmc.exe
 File | Score
 -- | --
 [C:\Windows\SysWOW64\dcomcnfg.exe](dcomcnfg.exe-8D282EDE189E69E0EFE0043144EFA236.md) | 54
+[C:\windows\SysWOW64\dcomcnfg.exe](dcomcnfg.exe-EEFA48A56DD2D83440FDF47FEFD6FC1E.md) | 36
 
 
 

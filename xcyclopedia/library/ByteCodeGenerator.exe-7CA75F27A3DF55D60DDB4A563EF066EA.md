@@ -4,7 +4,7 @@ title: ByteCodeGenerator.exe | AppX Deployment Bytecode Generator EXE
 
 # ByteCodeGenerator.exe 
 
-* File Path: `C:\Windows\SysWOW64\ByteCodeGenerator.exe`
+* File Path: `C:\windows\SysWOW64\ByteCodeGenerator.exe`
 * Description: AppX Deployment Bytecode Generator EXE
 * Comments: 
 

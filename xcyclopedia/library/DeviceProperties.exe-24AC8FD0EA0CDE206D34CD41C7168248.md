@@ -4,7 +4,7 @@ title: DeviceProperties.exe | Device Properties
 
 # DeviceProperties.exe 
 
-* File Path: `C:\Windows\system32\DeviceProperties.exe`
+* File Path: `C:\windows\system32\DeviceProperties.exe`
 * Description: Device Properties
 * Comments: 
 
@@ -57,9 +57,11 @@ SSDEEP | `1536:8Z/fI2y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi658:8xI55NOFpTyIcuz9
 File | Score
 -- | --
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-02C5A4C5A452E248F805186B8BF41BF7.md) | 93
+[C:\windows\system32\DeviceProperties.exe](DeviceProperties.exe-68F19DB5C6A27D3B52A3240877554E7D.md) | 91
 [C:\WINDOWS\system32\DeviceProperties.exe](DeviceProperties.exe-B7352C06F8FCC2FD9E715CFC3077294A.md) | 93
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-C799FC7C577BA8AFF1B73EBD54210C50.md) | 91
 [C:\Windows\SysWOW64\DeviceProperties.exe](DeviceProperties.exe-4BE4A5A9E90122607ADF050E231760BB.md) | 91
+[C:\windows\SysWOW64\DeviceProperties.exe](DeviceProperties.exe-CA0473B448DDD32D95D5B157BB2C6CFA.md) | 91
 
 
 

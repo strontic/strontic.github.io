@@ -4,7 +4,7 @@ title: sdiagnhost.exe | Scripted Diagnostics Native Host
 
 # sdiagnhost.exe 
 
-* File Path: `C:\Windows\SysWOW64\sdiagnhost.exe`
+* File Path: `C:\windows\SysWOW64\sdiagnhost.exe`
 * Description: Scripted Diagnostics Native Host
 * Comments: 
 
@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-258F58247AACD6568910D85E33A07886.md) | 50
 [C:\Windows\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-43353191117C9236DDCCE362A8E74BA7.md) | 52
+[C:\windows\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-BD954F1A95B1C1B0D68AC4AF5E427807.md) | 35
 
 ## Possible Misuse
 

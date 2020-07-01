@@ -4,7 +4,7 @@ title: appidpolicyconverter.exe | AppID Policy Converter Task
 
 # appidpolicyconverter.exe 
 
-* File Path: `C:\Windows\system32\appidpolicyconverter.exe`
+* File Path: `C:\windows\system32\appidpolicyconverter.exe`
 * Description: AppID Policy Converter Task
 * Comments: 
 

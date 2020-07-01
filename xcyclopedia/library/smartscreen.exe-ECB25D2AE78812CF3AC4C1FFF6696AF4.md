@@ -4,7 +4,7 @@ title: smartscreen.exe | Windows Defender SmartScreen
 
 # smartscreen.exe 
 
-* File Path: `C:\Windows\system32\smartscreen.exe`
+* File Path: `C:\windows\system32\smartscreen.exe`
 * Description: Windows Defender SmartScreen
 * Comments: 
 

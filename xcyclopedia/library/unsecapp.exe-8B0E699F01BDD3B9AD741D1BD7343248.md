@@ -4,7 +4,7 @@ title: unsecapp.exe | Sink to receive asynchronous callbacks for WMI client appl
 
 # unsecapp.exe 
 
-* File Path: `C:\Windows\system32\wbem\unsecapp.exe`
+* File Path: `C:\windows\system32\wbem\unsecapp.exe`
 * Description: Sink to receive asynchronous callbacks for WMI client application
 * Comments: 
 

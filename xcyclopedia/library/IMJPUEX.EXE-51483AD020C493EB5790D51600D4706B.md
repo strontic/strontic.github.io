@@ -1,0 +1,75 @@
+﻿---
+title: IMJPUEX.EXE | Microsoft IME 2012
+---
+
+# IMJPUEX.EXE 
+
+* File Path: `C:\windows\system32\IME\IMEJP\IMJPUEX.EXE`
+* Description: Microsoft IME 2012
+* Comments: 
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `51483AD020C493EB5790D51600D4706B`
+SHA1 | `E57777520559000620CF03233119A6FC71B59DB3`
+SHA256 | `20A18553227F133E90207CEAC689BE83067DCB673A23B4B230CAAE4B2501FF05`
+SHA384 | `23F65C702DC5BE8738A34F6838A054345321D53E469FE0C3D34F735AAF0247B259C7E521965A8D4B70EA4BC86A2D4E98`
+SHA512 | `8FB92E8C11DBF04160FAB62EBAF01D5D1A229A19BA88A3CAD5ADB6174483C7CB9D90432F8D5D36158FD846036F02F9BE8CFEDB9030C8E4A3757FC989378CE188`
+SSDEEP | `768:seBZnbN5kfqgZ0zuu0YVcWjXUBtBlukancwnIXGDFY2NL1Ke+V1pgF+ChWuKZVl5:P9atCuu9VccYH67nIWDK2NLPcr`
+
+## Runtime Data
+
+### Usage (stdout):
+```Batchfile
+
+```
+
+### Usage (stderr):
+```Batchfile
+
+```
+
+### Child Processes:
+
+
+## Signature
+
+* Status: The file C:\windows\system32\IME\IMEJP\IMJPUEX.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
+* Serial: ``
+* Thumbprint: ``
+* Issuer: 
+* Subject: 
+
+## File Metadata
+
+* Original Filename: imjpuex.exe
+* Product Name: Microsoft IME 2012
+* Company Name: Microsoft Corporation
+* File Version: 15.0.9600.18514
+* Product Version: 15.0.9600.18514
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\windows\system32\IME\IMEJP\IMJPSET.EXE](IMJPSET.EXE-3C36873D17795ECDC0BBFFDDFCA4BC38.md) | 50
+[C:\Windows\system32\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-069FC22EEF43E9EDC2818E30FBF21BDA.md) | 54
+[C:\Windows\system32\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-6B59D6B19D912836B63BDF82E6225E2E.md) | 54
+[C:\WINDOWS\system32\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-8C01DDD9E78B621915141C3866F11FCA.md) | 54
+[C:\windows\SysWOW64\IME\IMEJP\IMJPSET.EXE](IMJPSET.EXE-9C6D673CBAC43B464AFB3F7E7BAD25ED.md) | 46
+[C:\windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-31864ABD4AB1B2E8A42498CDC1EA6974.md) | 72
+[C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-48288F9B61EB81FE9DEE7C75D949BC54.md) | 58
+[C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-4B3A94B9B826591C977679B493D5FE2B.md) | 47
+[C:\WINDOWS\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-9E320A6AF5B77D63CFC7DF365CBA40E2.md) | 57
+[C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE](IMJPUEX.EXE-F25AFE5F7458838756F205E18A800A3B.md) | 46
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

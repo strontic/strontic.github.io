@@ -4,7 +4,7 @@ title: appcmd.exe | Application Server Command Line Admin Tool
 
 # appcmd.exe 
 
-* File Path: `C:\Windows\system32\inetsrv\appcmd.exe`
+* File Path: `C:\windows\system32\inetsrv\appcmd.exe`
 * Description: Application Server Command Line Admin Tool
 * Comments: 
 

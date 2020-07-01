@@ -4,7 +4,7 @@ title: stordiag.exe |
 
 # stordiag.exe 
 
-* File Path: `C:\Windows\SysWOW64\stordiag.exe`
+* File Path: `C:\windows\SysWOW64\stordiag.exe`
 * Description:  
 * Comments: 
 

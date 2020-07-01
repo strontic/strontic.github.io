@@ -4,7 +4,7 @@ title: ctfmon.exe | CTF Loader
 
 # ctfmon.exe 
 
-* File Path: `C:\Windows\SysWOW64\ctfmon.exe`
+* File Path: `C:\windows\SysWOW64\ctfmon.exe`
 * Description: CTF Loader
 * Comments: 
 
@@ -58,6 +58,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-1B19D302D7FFA3D0901B3D990A4E8E12.md) | 52
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-29656B9E6B04C85E7BF4018B6844BE28.md) | 36
+[C:\windows\SysWOW64\ctfmon.exe](ctfmon.exe-BE80808B5FE1D9C9351653EEC814A75A.md) | 36
 [C:\WINDOWS\SysWOW64\ctfmon.exe](ctfmon.exe-C0D57D7289C20B3B4D8680369394F188.md) | 61
 
 ## Possible Misuse

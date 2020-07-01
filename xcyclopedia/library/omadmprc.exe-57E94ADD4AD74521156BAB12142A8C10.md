@@ -4,7 +4,7 @@ title: omadmprc.exe | Host Process for Push Router Client of OMA-DM
 
 # omadmprc.exe 
 
-* File Path: `C:\Windows\system32\omadmprc.exe`
+* File Path: `C:\windows\system32\omadmprc.exe`
 * Description: Host Process for Push Router Client of OMA-DM
 * Comments: 
 

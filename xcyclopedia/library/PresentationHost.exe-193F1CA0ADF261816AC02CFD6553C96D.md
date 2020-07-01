@@ -4,9 +4,9 @@ title: PresentationHost.exe | Windows Presentation Foundation Host
 
 # PresentationHost.exe 
 
-* File Path: `C:\Windows\system32\PresentationHost.exe`
+* File Path: `C:\windows\system32\PresentationHost.exe`
 * Description: Windows Presentation Foundation Host
-* Comments: Flavor=Retail
+* Comments: 
 
 ## Hashes
 
@@ -44,21 +44,23 @@ iexplore.exe
 
 ## File Metadata
 
-* Original Filename: PresentationHost.exe.mui
-* Product Name: Microsoft .NET Framework
+* Original Filename: PresentationHost.exe
+* Product Name: Microsoft Windows Operating System
 * Company Name: Microsoft Corporation
-* File Version: 4.0.41210.0 built by: Main
-* Product Version: 4.0.41210.0
+* File Version: 10.0.17763.1 (WinBuild.160101.0800)
+* Product Version: 10.0.17763.1
 * Language: English (United States)
-* Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\windows\system32\PresentationHost.exe](PresentationHost.exe-35200D32C398793D85F900B0273E6F43.md) | 57
 [C:\Windows\system32\PresentationHost.exe](PresentationHost.exe-3DD3F827425D39663544135A427CEC92.md) | 63
 [C:\WINDOWS\system32\PresentationHost.exe](PresentationHost.exe-49FA711824925D5FA0286A7FDE8C1821.md) | 60
 [C:\Windows\system32\PresentationHost.exe](PresentationHost.exe-EF27D65B92D89E8175E6751A57ED9D93.md) | 54
+[C:\windows\SysWOW64\PresentationHost.exe](PresentationHost.exe-19F810B1F9ABC04F6E6CB66A2AFB5327.md) | 66
 [C:\Windows\SysWOW64\PresentationHost.exe](PresentationHost.exe-7DB413989BDDFD23AF251B26FC9F6055.md) | 68
 [C:\WINDOWS\SysWOW64\PresentationHost.exe](PresentationHost.exe-A1204EFC65BFBF5198A23CB21E1C0562.md) | 66
 [C:\Windows\SysWOW64\PresentationHost.exe](PresentationHost.exe-B73ECB016B35D5B7ACB91125924525E5.md) | 68

@@ -4,7 +4,7 @@ title: WmiApSrv.exe | WMI Performance Reverse Adapter
 
 # WmiApSrv.exe 
 
-* File Path: `C:\Windows\system32\wbem\WmiApSrv.exe`
+* File Path: `C:\windows\system32\wbem\WmiApSrv.exe`
 * Description: WMI Performance Reverse Adapter
 * Comments: 
 

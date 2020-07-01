@@ -4,7 +4,7 @@ title: rdpshell.exe | RemoteApp Shell
 
 # rdpshell.exe 
 
-* File Path: `C:\Windows\SysWOW64\rdpshell.exe`
+* File Path: `C:\windows\SysWOW64\rdpshell.exe`
 * Description: RemoteApp Shell
 * Comments: 
 

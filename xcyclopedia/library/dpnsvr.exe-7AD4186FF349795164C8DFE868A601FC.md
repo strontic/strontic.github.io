@@ -4,7 +4,7 @@ title: dpnsvr.exe | DirectPlay Stub
 
 # dpnsvr.exe 
 
-* File Path: `C:\Windows\system32\dpnsvr.exe`
+* File Path: `C:\windows\system32\dpnsvr.exe`
 * Description: DirectPlay Stub
 * Comments: 
 

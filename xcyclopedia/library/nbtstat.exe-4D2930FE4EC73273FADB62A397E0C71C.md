@@ -4,7 +4,7 @@ title: nbtstat.exe | TCP/IP NetBios Information
 
 # nbtstat.exe 
 
-* File Path: `C:\Windows\system32\nbtstat.exe`
+* File Path: `C:\windows\system32\nbtstat.exe`
 * Description: TCP/IP NetBios Information
 * Comments: 
 

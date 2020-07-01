@@ -4,7 +4,7 @@ title: userinit.exe | Userinit Logon Application
 
 # userinit.exe 
 
-* File Path: `C:\Windows\system32\userinit.exe`
+* File Path: `C:\windows\system32\userinit.exe`
 * Description: Userinit Logon Application
 * Comments: 
 

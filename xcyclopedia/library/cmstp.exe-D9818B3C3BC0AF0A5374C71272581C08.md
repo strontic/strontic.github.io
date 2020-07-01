@@ -4,7 +4,7 @@ title: cmstp.exe | Microsoft Connection Manager Profile Installer
 
 # cmstp.exe 
 
-* File Path: `C:\Windows\system32\cmstp.exe`
+* File Path: `C:\windows\system32\cmstp.exe`
 * Description: Microsoft Connection Manager Profile Installer
 * Comments: 
 
