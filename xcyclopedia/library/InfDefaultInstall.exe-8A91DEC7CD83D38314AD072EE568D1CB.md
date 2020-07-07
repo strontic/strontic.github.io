@@ -8,6 +8,12 @@ title: InfDefaultInstall.exe | INF Default Install
 * Description: INF Default Install
 * Comments: 
 
+## Screenshot
+
+![InfDefaultInstall.exe](screenshots/InfDefaultInstall.exe-6E4ACBE95965D394FE042E1C0B5D7206-1.png)
+![InfDefaultInstall.exe](screenshots/InfDefaultInstall.exe-6E4ACBE95965D394FE042E1C0B5D7206-2.png)
+![InfDefaultInstall.exe](screenshots/InfDefaultInstall.exe-6E4ACBE95965D394FE042E1C0B5D7206-3.png)
+
 ## Hashes
 
 Type | Hash

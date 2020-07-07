@@ -8,6 +8,10 @@ title: DevicePairingWizard.exe | Device Pairing Application
 * Description: Device Pairing Application
 * Comments: 
 
+## Screenshot
+
+![DevicePairingWizard.exe](screenshots/DevicePairingWizard.exe-E051296DB680CC2F1F7AD1547394073A-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,10 @@ title: LaunchWinApp.exe | Launch Windows App
 * Description: Launch Windows App
 * Comments: 
 
+## Screenshot
+
+![LaunchWinApp.exe](screenshots/LaunchWinApp.exe-98EBBD66B13C7E5AB7470A1FAED28654-2.png)
+
 ## Hashes
 
 Type | Hash

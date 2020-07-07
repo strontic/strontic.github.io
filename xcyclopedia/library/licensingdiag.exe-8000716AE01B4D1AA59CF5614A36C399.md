@@ -8,6 +8,10 @@ title: licensingdiag.exe | Licensing Diagnostic Tool
 * Description: Licensing Diagnostic Tool
 * Comments: 
 
+## Screenshot
+
+![licensingdiag.exe](screenshots/licensingdiag.exe-58DC7B96D334B2F47380224A93610B56-1.png)
+
 ## Hashes
 
 Type | Hash

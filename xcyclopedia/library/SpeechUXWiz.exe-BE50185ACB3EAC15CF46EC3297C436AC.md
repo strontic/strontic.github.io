@@ -8,6 +8,10 @@ title: SpeechUXWiz.exe | Speech UX Configuration
 * Description: Speech UX Configuration
 * Comments: 
 
+## Screenshot
+
+![SpeechUXWiz.exe](screenshots/SpeechUXWiz.exe-BE50185ACB3EAC15CF46EC3297C436AC-1.png)
+
 ## Hashes
 
 Type | Hash

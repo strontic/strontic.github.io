@@ -8,6 +8,10 @@ title: tabcal.exe | Digitizer Calibration Tool
 * Description: Digitizer Calibration Tool
 * Comments: 
 
+## Screenshot
+
+![tabcal.exe](screenshots/tabcal.exe-0F1D05D267CB743E0C1FCB7C9BE3920A-1.png)
+
 ## Hashes
 
 Type | Hash

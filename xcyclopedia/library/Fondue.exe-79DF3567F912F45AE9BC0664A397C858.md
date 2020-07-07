@@ -8,6 +8,10 @@ title: Fondue.exe | Windows Features on Demand UX
 * Description: Windows Features on Demand UX
 * Comments: 
 
+## Screenshot
+
+![Fondue.exe](screenshots/Fondue.exe-79DF3567F912F45AE9BC0664A397C858.png)
+
 ## Hashes
 
 Type | Hash

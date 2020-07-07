@@ -8,6 +8,10 @@ title: msinfo32.exe | System Information
 * Description: System Information
 * Comments: 
 
+## Screenshot
+
+![msinfo32.exe](screenshots/msinfo32.exe-41AA3C8C427A773B6C08460535EE8070-2.png)
+
 ## Hashes
 
 Type | Hash

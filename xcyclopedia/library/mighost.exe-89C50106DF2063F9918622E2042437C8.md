@@ -8,6 +8,10 @@ title: mighost.exe | Migration Plugins host program
 * Description: Migration Plugins host program
 * Comments: 
 
+## Screenshot
+
+![mighost.exe](screenshots/mighost.exe-89C50106DF2063F9918622E2042437C8-1.png)
+
 ## Hashes
 
 Type | Hash

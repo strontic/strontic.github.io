@@ -8,6 +8,10 @@ title: hh.exe | Microsoft HTML Help Executable
 * Description: Microsoft HTML Help Executable
 * Comments: 
 
+## Screenshot
+
+![hh.exe](screenshots/hh.exe-52AFE6DE5E463B7A08C184B1EB49DD6A-1.png)
+
 ## Hashes
 
 Type | Hash

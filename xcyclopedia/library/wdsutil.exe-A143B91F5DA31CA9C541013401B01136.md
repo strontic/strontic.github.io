@@ -164,32 +164,32 @@ For help with a specific command, type 'WDSUTIL <command> /?' where
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-wdsutil is a command-line utility used for managing your Windows Deployment Services server. To run these commands, click **start**, right-click **Command prompt**, and click **Run as administrator**.  
-### Commands  
-|Command|Description|  
-|------|--------|  
-|[Using the add Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-add-command.md)|adds objects or prestages computers.|  
-|[Using the Approve-AutoaddDevices Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-approve-autoadddevices-command.md)|Approves computers that are pending administrator approval.|  
-|[Using the convert-RiprepImage Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-convert-riprepimage-command.md)|converts an existing remote Installation Preparation (RIPrep) image to a Windows Image (.wim) file.|  
-|[Using the copy Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-copy-command.md)|Copies an image or a driver group.|  
-|[Using the delete-AutoaddDevices Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-delete-autoadddevices-command.md)|deletes computers that are in the Auto-add database (which stores information about the computers on the server).|  
-|[Using the Disable Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-disable-command.md)|Disables all services for Windows Deployment Services.|  
-|[Using the Disconnect-Client Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-disconnect-client-command.md)|Disconnects a client from a multicast transmission or namespace.|  
-|[Using the Enable Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-enable-command.md)|Enables all services for Windows Deployment Services.|  
-|[Using the Export-Image Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-export-image-command.md)|Exports an image from the image store to a .wim file.|  
-|[Using The get Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-get-command.md)|Retrieves properties and attributes about the specified object.|  
-|[Using the Initialize-Server Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-initialize-server-command.md)|Configures a Windows Deployment Services server for initial use.|  
-|[Using the New Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-new-command.md)|creates new capture and discover images as well as multicast transmissions and namespaces.|  
-|[The progress Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-progress-command.md)|Displays the progress status while a command is being executed.|  
-|[Using The Reject-AutoaddDevices Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-reject-autoadddevices-command.md)|Rejects computers that are pending administrator approval.|  
-|[Using the remove Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-remove-command.md)|removes objects.|  
-|[Using the replace-Image Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-replace-image-command.md)|replaces a boot or installation image with a new version of that image.|  
-|[The Set Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-set-command.md)|Sets properties and attributes on the specified object.|  
-|[The start Server Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-start-server-command.md)|starts all services on the Windows Deployment Services server, including multicast transmissions, namespaces, and the Transport Server.|  
-|[The Stop Server Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-stop-server-command.md)|Stops all services on the Windows Deployment Services server.|  
-|[The uninitialize-Server Option](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-uninitialize-server-option.md)|reverts changes made during server initialization.|  
-|[The Update-ServerFiles Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-update-serverfiles-command.md)|Updates server files on the remoteInstall share.|  
-|[The verbose Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-verbose-command.md)|Displays verbose output for the specified command.|  
+wdsutil is a command-line utility used for managing your Windows Deployment Services server. To run these commands, click **start**, right-click **Command prompt**, and click **Run as administrator**.
+### Commands
+|Command|Description|
+|------|--------|
+|[Using the add Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-add-command.md)|adds objects or prestages computers.|
+|[Using the Approve-AutoaddDevices Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-approve-autoadddevices-command.md)|Approves computers that are pending administrator approval.|
+|[Using the convert-RiprepImage Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-convert-riprepimage-command.md)|converts an existing remote Installation Preparation (RIPrep) image to a Windows Image (.wim) file.|
+|[Using the copy Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-copy-command.md)|Copies an image or a driver group.|
+|[Using the delete-AutoaddDevices Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-delete-autoadddevices-command.md)|deletes computers that are in the Auto-add database (which stores information about the computers on the server).|
+|[Using the Disable Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-disable-command.md)|Disables all services for Windows Deployment Services.|
+|[Using the Disconnect-Client Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-disconnect-client-command.md)|Disconnects a client from a multicast transmission or namespace.|
+|[Using the Enable Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-enable-command.md)|Enables all services for Windows Deployment Services.|
+|[Using the Export-Image Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-export-image-command.md)|Exports an image from the image store to a .wim file.|
+|[Using The get Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-get-command.md)|Retrieves properties and attributes about the specified object.|
+|[Using the Initialize-Server Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-initialize-server-command.md)|Configures a Windows Deployment Services server for initial use.|
+|[Using the New Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-new-command.md)|creates new capture and discover images as well as multicast transmissions and namespaces.|
+|[The progress Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-progress-command.md)|Displays the progress status while a command is being executed.|
+|[Using The Reject-AutoaddDevices Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-reject-autoadddevices-command.md)|Rejects computers that are pending administrator approval.|
+|[Using the remove Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-remove-command.md)|removes objects.|
+|[Using the replace-Image Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/using-the-replace-image-command.md)|replaces a boot or installation image with a new version of that image.|
+|[The Set Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-set-command.md)|Sets properties and attributes on the specified object.|
+|[The start Server Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-start-server-command.md)|starts all services on the Windows Deployment Services server, including multicast transmissions, namespaces, and the Transport Server.|
+|[The Stop Server Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-stop-server-command.md)|Stops all services on the Windows Deployment Services server.|
+|[The uninitialize-Server Option](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-uninitialize-server-option.md)|reverts changes made during server initialization.|
+|[The Update-ServerFiles Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-update-serverfiles-command.md)|Updates server files on the remoteInstall share.|
+|[The verbose Command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/the-verbose-command.md)|Displays verbose output for the specified command.|
 
 ---
 

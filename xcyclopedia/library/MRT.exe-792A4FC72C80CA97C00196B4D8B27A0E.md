@@ -8,6 +8,10 @@ title: MRT.exe | Microsoft Windows Malicious Software Removal Tool
 * Description: Microsoft Windows Malicious Software Removal Tool
 * Comments: 
 
+## Screenshot
+
+![MRT.exe](screenshots/MRT.exe-792A4FC72C80CA97C00196B4D8B27A0E.png)
+
 ## Hashes
 
 Type | Hash

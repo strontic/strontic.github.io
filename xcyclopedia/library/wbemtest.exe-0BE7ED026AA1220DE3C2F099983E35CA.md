@@ -8,6 +8,10 @@ title: wbemtest.exe | WMI Test Tool
 * Description: WMI Test Tool
 * Comments: 
 
+## Screenshot
+
+![wbemtest.exe](screenshots/wbemtest.exe-6C18ACC7CDEFAECAA87E3956BE3E5117.png)
+
 ## Hashes
 
 Type | Hash

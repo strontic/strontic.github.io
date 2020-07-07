@@ -8,6 +8,10 @@ title: hdwwiz.exe | Add Hardware Wizard
 * Description: Add Hardware Wizard
 * Comments: 
 
+## Screenshot
+
+![hdwwiz.exe](screenshots/hdwwiz.exe-1127C71A9213CB60B3F8CF26DF9F2988-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,11 @@ title: SnippingTool.exe | Snipping Tool
 * Description: Snipping Tool
 * Comments: 
 
+## Screenshot
+
+![SnippingTool.exe](screenshots/SnippingTool.exe-D57CA86AC22DC057456ACC7FDE4E492F.png)
+![SnippingTool.exe](screenshots/SnippingTool.exe-EEC266EB429AB22A812B185213993FA4-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,10 @@ title: PrintBrmUi.exe | PrintBrm Application
 * Description: PrintBrm Application
 * Comments: 
 
+## Screenshot
+
+![PrintBrmUi.exe](screenshots/PrintBrmUi.exe-E2E5292FA22FC82DC73CDC13D11E044B-5.png)
+
 ## Hashes
 
 Type | Hash

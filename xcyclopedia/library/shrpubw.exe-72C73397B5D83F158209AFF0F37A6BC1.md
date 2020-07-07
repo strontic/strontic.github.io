@@ -8,6 +8,10 @@ title: shrpubw.exe | Share Creation Wizard
 * Description: Share Creation Wizard
 * Comments: 
 
+## Screenshot
+
+![shrpubw.exe](screenshots/shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209-1.png)
+
 ## Hashes
 
 Type | Hash

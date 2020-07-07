@@ -8,6 +8,10 @@ title: TpmInit.exe | TPM Initialization Wizard
 * Description: TPM Initialization Wizard
 * Comments: 
 
+## Screenshot
+
+![TpmInit.exe](screenshots/TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F-1.png)
+
 ## Hashes
 
 Type | Hash

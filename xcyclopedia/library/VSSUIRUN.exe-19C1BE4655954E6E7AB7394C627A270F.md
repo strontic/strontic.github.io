@@ -8,6 +8,10 @@ title: VSSUIRUN.exe | Configure Shadow Copies
 * Description: Configure Shadow Copies
 * Comments: 
 
+## Screenshot
+
+![VSSUIRUN.exe](screenshots/VSSUIRUN.exe-5BDDD40C274F2D118FBF9CB58DC188AE-1.png)
+
 ## Hashes
 
 Type | Hash

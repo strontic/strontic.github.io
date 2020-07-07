@@ -8,6 +8,10 @@ title: printui.exe | Change Printing Settings
 * Description: Change Printing Settings
 * Comments: 
 
+## Screenshot
+
+![printui.exe](screenshots/printui.exe-13554E4D7EFFD6EB9719D884DC5D3D1C-1.png)
+
 ## Hashes
 
 Type | Hash

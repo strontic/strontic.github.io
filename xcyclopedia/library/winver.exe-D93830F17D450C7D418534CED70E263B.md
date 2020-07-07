@@ -8,6 +8,11 @@ title: winver.exe | Version Reporter Applet
 * Description: Version Reporter Applet
 * Comments: 
 
+## Screenshot
+
+![winver.exe](screenshots/winver.exe-2FAF36CA1A8C76A14294ABB5E2048CF6-1.png)
+![winver.exe](screenshots/winver.exe-3815F11126543C450BDE1AB19559C70A-1.png)
+
 ## Hashes
 
 Type | Hash

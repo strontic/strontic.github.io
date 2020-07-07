@@ -8,6 +8,10 @@ title: changepk.exe | Change Product Key
 * Description: Change Product Key
 * Comments: 
 
+## Screenshot
+
+![changepk.exe](screenshots/changepk.exe-E158157A57E322D9BB683FE2378724BA-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,10 @@ title: win32calc.exe | Windows Calculator
 * Description: Windows Calculator
 * Comments: 
 
+## Screenshot
+
+![win32calc.exe](screenshots/win32calc.exe-B31A19BA38F110838119299B50517073-1.png)
+
 ## Hashes
 
 Type | Hash

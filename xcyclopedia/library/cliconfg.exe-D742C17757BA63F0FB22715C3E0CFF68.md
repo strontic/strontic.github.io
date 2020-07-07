@@ -8,6 +8,10 @@ title: cliconfg.exe | SQL Client Configuration Utility EXE
 * Description: SQL Client Configuration Utility EXE
 * Comments: 
 
+## Screenshot
+
+![cliconfg.exe](screenshots/cliconfg.exe-FF9932C30F72B19E57D9B07F230487E7-1.png)
+
 ## Hashes
 
 Type | Hash

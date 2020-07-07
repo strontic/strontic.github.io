@@ -8,6 +8,10 @@ title: mspaint.exe | Paint
 * Description: Paint
 * Comments: 
 
+## Screenshot
+
+![mspaint.exe](screenshots/mspaint.exe-8A6A020DABFB0024BE80D988C59F8F2A-3.png)
+
 ## Hashes
 
 Type | Hash

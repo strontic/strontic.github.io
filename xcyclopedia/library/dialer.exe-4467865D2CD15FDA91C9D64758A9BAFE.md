@@ -8,6 +8,10 @@ title: dialer.exe | Microsoft Windows Phone Dialer
 * Description: Microsoft Windows Phone Dialer
 * Comments: 
 
+## Screenshot
+
+![dialer.exe](screenshots/dialer.exe-0B69655F912619756C704A0BF716B61F.png)
+
 ## Hashes
 
 Type | Hash

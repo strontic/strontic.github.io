@@ -8,6 +8,10 @@ title: SmartScreenSettings.exe | SmartScreenSettings
 * Description: SmartScreenSettings
 * Comments: 
 
+## Screenshot
+
+![SmartScreenSettings.exe](screenshots/SmartScreenSettings.exe-6B2EA6F8937B573372304CAE5F829A4D-1.png)
+
 ## Hashes
 
 Type | Hash

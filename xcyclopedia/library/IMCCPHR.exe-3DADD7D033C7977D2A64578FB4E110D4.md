@@ -8,6 +8,10 @@ title: IMCCPHR.exe | Microsoft IME 2012
 * Description: Microsoft IME 2012
 * Comments: 
 
+## Screenshot
+
+![IMCCPHR.exe](screenshots/IMCCPHR.exe-226B54F581C9C77990067F670730B3BA-3.png)
+
 ## Hashes
 
 Type | Hash

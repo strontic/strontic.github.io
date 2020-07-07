@@ -8,6 +8,11 @@ title: setup.exe | Adobe Bootstrapper for Single Installation
 * Description: Adobe Bootstrapper for Single Installation
 * Comments: 
 
+## Screenshot
+
+![Setup.exe](screenshots/Setup.exe-8BBDBD0FA1F6AD661B85FC8A5BD3E2B3-1.png)
+![Setup.exe](screenshots/Setup.exe-DE608134E33D3ABFFA944723ACD3E292.png)
+
 ## Hashes
 
 Type | Hash

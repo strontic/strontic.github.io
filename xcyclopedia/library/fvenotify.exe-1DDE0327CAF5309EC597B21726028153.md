@@ -8,6 +8,10 @@ title: fvenotify.exe | BitLocker Drive Encryption Notification Utility
 * Description: BitLocker Drive Encryption Notification Utility
 * Comments: 
 
+## Screenshot
+
+![fvenotify.exe](screenshots/fvenotify.exe-D7B50B5843EFD63DBAAE341B8E70856D.png)
+
 ## Hashes
 
 Type | Hash

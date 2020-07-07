@@ -8,6 +8,10 @@ title: FileHistory.exe | File History
 * Description: File History
 * Comments: 
 
+## Screenshot
+
+![FileHistory.exe](screenshots/FileHistory.exe-154C634AC5FCC1AC49FC189D1308FF26.png)
+
 ## Hashes
 
 Type | Hash

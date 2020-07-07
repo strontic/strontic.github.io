@@ -8,6 +8,10 @@ title: bootim.exe | boot immersive menus
 * Description: boot immersive menus
 * Comments: 
 
+## Screenshot
+
+![bootim.exe](screenshots/bootim.exe-C31EA91BA21D71BFD1E606745BE1973C-1.png)
+
 ## Hashes
 
 Type | Hash

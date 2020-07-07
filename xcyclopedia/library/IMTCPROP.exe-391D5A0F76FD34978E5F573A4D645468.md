@@ -8,6 +8,10 @@ title: IMTCPROP.exe | Microsoft IME 2012
 * Description: Microsoft IME 2012
 * Comments: 
 
+## Screenshot
+
+![IMTCPROP.exe](screenshots/IMTCPROP.exe-EDD8488E449D5D1997796ABBA1EBE001.png)
+
 ## Hashes
 
 Type | Hash

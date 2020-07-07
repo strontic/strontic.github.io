@@ -8,6 +8,10 @@ title: IMTCPROP.exe | IMTCPROP.exe
 * Description: IMTCPROP.exe
 * Comments: 
 
+## Screenshot
+
+![IMTCPROP.exe](screenshots/IMTCPROP.exe-EDD8488E449D5D1997796ABBA1EBE001.png)
+
 ## Hashes
 
 Type | Hash

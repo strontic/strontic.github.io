@@ -8,6 +8,10 @@ title: IDTNJ.exe | IDT PC Audio
 * Description: IDT PC Audio
 * Comments: All Rights Reserved 2004 - 2009 IDT, Inc.
 
+## Screenshot
+
+![IDTNJ.exe](screenshots/IDTNJ.exe-8132E4292A5D579168D894AE5EA2106D.png)
+
 ## Hashes
 
 Type | Hash

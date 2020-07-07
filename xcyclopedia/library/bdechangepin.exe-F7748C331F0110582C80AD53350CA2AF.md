@@ -8,6 +8,10 @@ title: bdechangepin.exe | BitLocker Drive Encryption: PIN Change Tool
 * Description: BitLocker Drive Encryption: PIN Change Tool
 * Comments: 
 
+## Screenshot
+
+![bdechangepin.exe](screenshots/bdechangepin.exe-237877714A318D9E9766014BA859831F.png)
+
 ## Hashes
 
 Type | Hash

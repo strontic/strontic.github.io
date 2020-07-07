@@ -8,6 +8,10 @@ title: tcmsetup.exe | Microsoft Windows(TM) Telephony Administration Setup
 * Description: Microsoft Windows(TM) Telephony Administration Setup
 * Comments: 
 
+## Screenshot
+
+![tcmsetup.exe](screenshots/tcmsetup.exe-2A3CCDB782638FD831250BC528F3CB5E-1.png)
+
 ## Hashes
 
 Type | Hash

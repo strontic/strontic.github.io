@@ -8,6 +8,10 @@ title: rasphone.exe | Remote Access Phonebook
 * Description: Remote Access Phonebook
 * Comments: 
 
+## Screenshot
+
+![rasphone.exe](screenshots/rasphone.exe-EC2EBD8411203394F9FCEBB04B02CAC3-3.png)
+
 ## Hashes
 
 Type | Hash

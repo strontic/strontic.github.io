@@ -53,13 +53,6 @@ SSDEEP | `24576:zZt9KkvnUcCLX7picmIQpvhnno7eQ0pmdh3oEw2tZG3pv5uA:d1vnDKXH+Keodh3
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `MoUsoCoreWorker.exe` being misused. While `MoUsoCoreWorker.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_wmi_module_load.yml) | `            - '\MoUsoCoreWorker.exe'  # in system32, seen on a win10 pro 2004 machine` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

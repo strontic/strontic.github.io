@@ -8,6 +8,11 @@ title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
 * Description: Disk Space Cleanup Manager for Windows
 * Comments: 
 
+## Screenshot
+
+![cleanmgr.exe](screenshots/cleanmgr.exe-1920470998932423575D36C07F8BC97E.png)
+![cleanmgr.exe](screenshots/cleanmgr.exe-B6A5162D28FDCB87869A2ED87F46C8A6-4.png)
+
 ## Hashes
 
 Type | Hash

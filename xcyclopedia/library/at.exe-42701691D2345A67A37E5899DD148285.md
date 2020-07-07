@@ -131,7 +131,7 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
     OK      3    Each F     11:59 PM    backup2.bat
     ```
 
-- If including an identification number (*ID*) with this command, only information for a single entry appears in a format similar to the following:  
+- If including an identification number (*ID*) with this command, only information for a single entry appears in a format similar to the following:
 
     ```
     Task ID: 1
@@ -155,13 +155,13 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
 
 - Scheduled commands are stored in the registry. As a result, you don't lose scheduled tasks if you restart the Schedule service.
 
-- Do not use a redirected drive for scheduled jobs that access the network. The Schedule service might not be able to access the redirected drive, or the redirected drive might not be present if a different user is logged on at the time the scheduled task runs. Instead, use UNC paths for scheduled jobs. For example:  
+- Do not use a redirected drive for scheduled jobs that access the network. The Schedule service might not be able to access the redirected drive, or the redirected drive might not be present if a different user is logged on at the time the scheduled task runs. Instead, use UNC paths for scheduled jobs. For example:
 
     ```
     at 1:00pm my_backup \\server\share
     ```
 
-    Do not use the following syntax, where **x:** is a connection made by the user:  
+    Do not use the following syntax, where **x:** is a connection made by the user:
 
     ```
     at 1:00pm my_backup x:
@@ -184,7 +184,7 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
 
         - **Value Name.** atTaskMaxHours
 
-        - **Data type.** reg_DWOrd 
+        - **Data type.** reg_DWOrd
 
         - **Radix.** Decimal
 

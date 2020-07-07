@@ -8,6 +8,10 @@ title: certreq.exe | CertReq.exe
 * Description: CertReq.exe
 * Comments: 
 
+## Screenshot
+
+![certreq.exe](screenshots/certreq.exe-81C07107AB05BD4C4AE1B7D889BCD4FE-2.png)
+
 ## Hashes
 
 Type | Hash

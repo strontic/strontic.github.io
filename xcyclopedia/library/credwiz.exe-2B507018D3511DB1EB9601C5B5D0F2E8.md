@@ -8,6 +8,10 @@ title: credwiz.exe | Credential Backup and Restore Wizard
 * Description: Credential Backup and Restore Wizard
 * Comments: 
 
+## Screenshot
+
+![credwiz.exe](screenshots/credwiz.exe-A6001253D5FD839243DB624A2735F188-1.png)
+
 ## Hashes
 
 Type | Hash

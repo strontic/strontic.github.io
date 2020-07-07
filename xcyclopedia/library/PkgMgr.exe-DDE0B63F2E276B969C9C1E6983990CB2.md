@@ -8,6 +8,11 @@ title: PkgMgr.exe | Windows Package Manager
 * Description: Windows Package Manager
 * Comments: 
 
+## Screenshot
+
+![PkgMgr.exe](screenshots/PkgMgr.exe-DC51BE58FEAF1A400DA1BBFC16219C10-1.png)
+![PkgMgr.exe](screenshots/PkgMgr.exe-DC51BE58FEAF1A400DA1BBFC16219C10-4.png)
+
 ## Hashes
 
 Type | Hash

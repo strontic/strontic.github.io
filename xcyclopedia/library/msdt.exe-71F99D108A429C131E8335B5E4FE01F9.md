@@ -8,6 +8,10 @@ title: msdt.exe | Diagnostics Troubleshooting Wizard
 * Description: Diagnostics Troubleshooting Wizard
 * Comments: 
 
+## Screenshot
+
+![msdt.exe](screenshots/msdt.exe-7FF1826697BAC1F6414FEF5A12D5A930-2.png)
+
 ## Hashes
 
 Type | Hash

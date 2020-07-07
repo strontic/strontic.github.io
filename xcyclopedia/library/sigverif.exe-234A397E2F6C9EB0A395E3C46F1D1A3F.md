@@ -8,6 +8,10 @@ title: sigverif.exe | File Signature Verification
 * Description: File Signature Verification
 * Comments: 
 
+## Screenshot
+
+![sigverif.exe](screenshots/sigverif.exe-234A397E2F6C9EB0A395E3C46F1D1A3F.png)
+
 ## Hashes
 
 Type | Hash

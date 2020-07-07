@@ -8,6 +8,10 @@ title: IMTCLNWZ.EXE | Microsoft IME 2012
 * Description: Microsoft IME 2012
 * Comments: 
 
+## Screenshot
+
+![IMTCLNWZ.exe](screenshots/IMTCLNWZ.EXE-39CABA9F140433C5C26B2F6F2BF27CB6.png)
+
 ## Hashes
 
 Type | Hash

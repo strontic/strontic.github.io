@@ -8,6 +8,10 @@ title: phoneactivate.exe | Phone Activation UI
 * Description: Phone Activation UI
 * Comments: 
 
+## Screenshot
+
+![phoneactivate.exe](screenshots/phoneactivate.exe-FC51534BDC5948B235AE23848FCA67C6-4.png)
+
 ## Hashes
 
 Type | Hash

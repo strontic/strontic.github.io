@@ -8,6 +8,10 @@ title: msconfig.exe | System Configuration Utility
 * Description: System Configuration Utility
 * Comments: 
 
+## Screenshot
+
+![msconfig.exe](screenshots/msconfig.exe-FA81544250A477790C003D6D88256078-1.png)
+
 ## Hashes
 
 Type | Hash

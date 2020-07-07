@@ -8,6 +8,10 @@ title: charmap.exe | Character Map
 * Description: Character Map
 * Comments: 
 
+## Screenshot
+
+![charmap.exe](screenshots/charmap.exe-763D2F95751F734633EA53F15ADE3893.png)
+
 ## Hashes
 
 Type | Hash

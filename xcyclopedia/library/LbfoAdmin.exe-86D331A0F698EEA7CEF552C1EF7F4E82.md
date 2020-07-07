@@ -8,6 +8,10 @@ title: LbfoAdmin.exe | NIC Teaming
 * Description: NIC Teaming
 * Comments: 
 
+## Screenshot
+
+![LbfoAdmin.exe](screenshots/LbfoAdmin.exe-911DC9868BBFEA5E95DC88BE10BC9C11-1.png)
+
 ## Hashes
 
 Type | Hash

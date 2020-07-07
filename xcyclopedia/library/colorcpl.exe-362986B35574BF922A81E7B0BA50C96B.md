@@ -8,6 +8,10 @@ title: colorcpl.exe | Microsoft Color Control Panel
 * Description: Microsoft Color Control Panel
 * Comments: 
 
+## Screenshot
+
+![colorcpl.exe](screenshots/colorcpl.exe-362986B35574BF922A81E7B0BA50C96B-1.png)
+
 ## Hashes
 
 Type | Hash

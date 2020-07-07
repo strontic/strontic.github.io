@@ -8,6 +8,11 @@ title: syskey.exe | SAM Lock Tool
 * Description: SAM Lock Tool
 * Comments: 
 
+## Screenshot
+
+![syskey.exe](screenshots/syskey.exe-8D00177CA1D11D9A61CBF6F0D2F0420B-3.png)
+![syskey.exe](screenshots/syskey.exe-EFDF337667EB0516CC325BA74A7F9411-1.png)
+
 ## Hashes
 
 Type | Hash

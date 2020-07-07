@@ -8,6 +8,10 @@ title: FXSCOVER.exe | Microsoft  Fax Cover Page Editor
 * Description: Microsoft  Fax Cover Page Editor
 * Comments: 
 
+## Screenshot
+
+![FXSCOVER.exe](screenshots/FXSCOVER.exe-59EBDB360E375A9ABCD6B783D5021ED3.png)
+
 ## Hashes
 
 Type | Hash

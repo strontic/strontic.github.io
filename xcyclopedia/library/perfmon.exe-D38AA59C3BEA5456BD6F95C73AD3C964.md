@@ -8,6 +8,10 @@ title: perfmon.exe | Resource and Performance Monitor
 * Description: Resource and Performance Monitor
 * Comments: 
 
+## Screenshot
+
+![perfmon.exe](screenshots/perfmon.exe-805F9B64745C730A6BD789083D0EF4E2-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -114,7 +114,7 @@ icacls <directory> [/substitute <sidold> <sidnew> [...]] [/restore <aclfile> [/c
 
 - SIDs may be in either numerical or friendly name form. If you use a numerical form, affix the wildcard character **&#42;** to the beginning of the SID.
 
-- This command preserves the canonical order of ACE entries as:  
+- This command preserves the canonical order of ACE entries as:
 
     - Explicit denials
 

@@ -65,7 +65,6 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_prog_location_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_susp_prog_location_network_connection.yml) | `            # - '*\ProgramData\\*'  # too many false positives, e.g. with Webex for Windows` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_prog_location_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_prog_location_network_connection.yml) | `            # - '*\ProgramData\\*'  # too many false positives, e.g. with Webex for Windows` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

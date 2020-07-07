@@ -8,6 +8,10 @@ title: mblctr.exe | Windows Mobility Center
 * Description: Windows Mobility Center
 * Comments: 
 
+## Screenshot
+
+![mblctr.exe](screenshots/mblctr.exe-4E49EEB5BAE4BDB35A7C3F1C853DD76D.png)
+
 ## Hashes
 
 Type | Hash

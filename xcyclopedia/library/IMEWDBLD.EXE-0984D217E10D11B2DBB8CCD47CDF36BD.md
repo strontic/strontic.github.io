@@ -8,6 +8,10 @@ title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
 * Description: Microsoft IME Open Extended Dictionary Module
 * Comments: 
 
+## Screenshot
+
+![IMEWDBLD.exe](screenshots/IMEWDBLD.EXE-CB30AD795C9B30E71EB1E596D18B7A21.png)
+
 ## Hashes
 
 Type | Hash

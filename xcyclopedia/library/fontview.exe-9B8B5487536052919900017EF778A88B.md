@@ -8,6 +8,10 @@ title: fontview.exe | Windows Font Viewer
 * Description: Windows Font Viewer
 * Comments: 
 
+## Screenshot
+
+![fontview.exe](screenshots/fontview.exe-074E78E53542819A9CB19E0DEDB1E18F.png)
+
 ## Hashes
 
 Type | Hash

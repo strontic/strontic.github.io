@@ -8,6 +8,10 @@ title: notepad.exe | Notepad
 * Description: Notepad
 * Comments: 
 
+## Screenshot
+
+![notepad.exe](screenshots/notepad.exe-AF79F5A331C50CC87F0A5F921AD93B0F-2.png)
+
 ## Hashes
 
 Type | Hash
@@ -79,13 +83,9 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_gup.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml) | `            - 'C:\Program Files\Notepad++\updater\gup.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_gup.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml) | `            - 'C:\Program Files (x86)\Notepad++\updater\gup.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_gup.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml) | `    - Execution of tools named GUP.exe and located in folders different than Notepad++\updater` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_notepad_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_notepad_network_connection.yml) | `title: Notepad Making Network Connection` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_notepad_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_notepad_network_connection.yml) | `description: Detects suspicious network connection by Notepad` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_notepad_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_notepad_network_connection.yml) | `    - https://blog.cobaltstrike.com/2013/08/08/why-is-notepad-exe-connecting-to-the-internet/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_notepad_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_notepad_network_connection.yml) | `        Image: '*\notepad.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_image_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_image_load.yml) | `            - '*\notepad.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Gpup.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Gpup.yml) | `    Description: Execute another command through gpup.exe (Notepad++ binary).` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Gpup.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Gpup.yml) | `  - 'C:\Program Files (x86)\Notepad++\updater\gpup.exe    '` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Explorer.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Explorer.yml) | `  - Command: explorer.exe C:\Windows\System32\notepad.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Forfiles.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml) | `  - Command: forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Forfiles.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml) | `    Description: Executes calc.exe since there is a match for notepad.exe in the c:\windows\System32 folder.` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Forfiles.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml) | `  - Command: forfiles /p c:\windows\system32 /m notepad.exe /c "c:\folder\normal.dll:evil.exe"` | 

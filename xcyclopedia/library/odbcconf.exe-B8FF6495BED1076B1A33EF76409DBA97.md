@@ -8,6 +8,10 @@ title: odbcconf.exe | ODBC Driver Configuration Program
 * Description: ODBC Driver Configuration Program
 * Comments: 
 
+## Screenshot
+
+![odbcconf.exe](screenshots/odbcconf.exe-4D7DE33E313C4E6E55FF977BB7E71512-1.png)
+
 ## Hashes
 
 Type | Hash

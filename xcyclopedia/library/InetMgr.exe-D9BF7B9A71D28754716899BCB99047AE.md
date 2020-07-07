@@ -8,6 +8,11 @@ title: InetMgr.exe | IIS Manager
 * Description: IIS Manager
 * Comments: 
 
+## Screenshot
+
+![InetMgr.exe](screenshots/InetMgr.exe-A9464BD6A64A088F5664550D4FCD6CAD-1.png)
+![InetMgr.exe](screenshots/InetMgr.exe-A9464BD6A64A088F5664550D4FCD6CAD-5.png)
+
 ## Hashes
 
 Type | Hash

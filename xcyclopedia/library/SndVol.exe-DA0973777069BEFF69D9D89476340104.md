@@ -8,6 +8,10 @@ title: SndVol.exe | Volume Mixer
 * Description: Volume Mixer
 * Comments: 
 
+## Screenshot
+
+![SndVol.exe](screenshots/SndVol.exe-BE6B28D62DB5B2AAF92B00DBD717D453.png)
+
 ## Hashes
 
 Type | Hash

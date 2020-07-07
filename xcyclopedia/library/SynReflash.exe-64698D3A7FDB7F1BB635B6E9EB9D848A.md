@@ -8,6 +8,10 @@ title: SynReflash.exe | TouchPad Reflash
 * Description: TouchPad Reflash
 * Comments: 
 
+## Screenshot
+
+![SynReflash.exe](screenshots/SynReflash.exe-64698D3A7FDB7F1BB635B6E9EB9D848A.png)
+
 ## Hashes
 
 Type | Hash

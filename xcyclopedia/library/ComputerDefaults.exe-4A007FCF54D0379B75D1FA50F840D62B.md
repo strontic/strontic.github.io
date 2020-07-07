@@ -8,6 +8,10 @@ title: ComputerDefaults.exe | Set Program Access and Computer Defaults Control P
 * Description: Set Program Access and Computer Defaults Control Panel
 * Comments: 
 
+## Screenshot
+
+![ComputerDefaults.exe](screenshots/ComputerDefaults.exe-4A007FCF54D0379B75D1FA50F840D62B-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,10 @@ title: SynZMetr.exe | Synaptics Pressure Graph
 * Description: Synaptics Pressure Graph
 * Comments: 
 
+## Screenshot
+
+![SynZMetr.exe](screenshots/SynZMetr.exe-3B7CFE31D309489A25E66C16FEE77BDC.png)
+
 ## Hashes
 
 Type | Hash

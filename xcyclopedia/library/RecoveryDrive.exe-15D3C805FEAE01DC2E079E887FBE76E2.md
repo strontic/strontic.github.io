@@ -8,6 +8,10 @@ title: RecoveryDrive.exe | Recovery Media Creator
 * Description: Recovery Media Creator
 * Comments: 
 
+## Screenshot
+
+![RecoveryDrive.exe](screenshots/RecoveryDrive.exe-BAA1D2F40B72B83745D858366304FDE2-1.png)
+
 ## Hashes
 
 Type | Hash

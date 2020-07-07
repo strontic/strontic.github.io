@@ -8,6 +8,10 @@ title: eudcedit.exe | Private Character Editor
 * Description: Private Character Editor
 * Comments: 
 
+## Screenshot
+
+![eudcedit.exe](screenshots/eudcedit.exe-BE25BBC85EB503BF8128ADAD7D971A61-1.png)
+
 ## Hashes
 
 Type | Hash

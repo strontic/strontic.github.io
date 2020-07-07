@@ -8,6 +8,10 @@ title: Tutorial.exe | Synaptics Pointing Device Tutorial
 * Description: Synaptics Pointing Device Tutorial
 * Comments: 
 
+## Screenshot
+
+![Tutorial.exe](screenshots/Tutorial.exe-812B04DAA5E1288EDF4714E5D0FF0210.png)
+
 ## Hashes
 
 Type | Hash

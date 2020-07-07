@@ -8,6 +8,10 @@ title: IDTNGUI.exe | IDT PC Audio
 * Description: IDT PC Audio
 * Comments: All Rights Reserved 2004 - 2009 IDT, Inc.
 
+## Screenshot
+
+![IDTNGUI.exe](screenshots/IDTNGUI.exe-9C5CCFCE8E18B3B1A1CC79B2A97C9AE0.png)
+
 ## Hashes
 
 Type | Hash

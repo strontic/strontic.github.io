@@ -68,8 +68,8 @@ Configures, queries, or changes Boot.ini file settings.
 
 ### Syntax
 
-```  
-bootcfg <parameter> [arguments...]  
+```
+bootcfg <parameter> [arguments...]
 ```
 
 #### Parameters

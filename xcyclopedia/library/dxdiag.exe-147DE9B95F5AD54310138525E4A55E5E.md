@@ -8,6 +8,10 @@ title: dxdiag.exe | Microsoft DirectX Diagnostic Tool
 * Description: Microsoft DirectX Diagnostic Tool
 * Comments: 
 
+## Screenshot
+
+![dxdiag.exe](screenshots/dxdiag.exe-11FF96408DD51BF242DD06D19E38A723-1.png)
+
 ## Hashes
 
 Type | Hash

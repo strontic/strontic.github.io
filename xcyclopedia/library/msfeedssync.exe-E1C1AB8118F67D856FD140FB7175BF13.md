@@ -53,13 +53,6 @@ SSDEEP | `192:DgOt5Km8/ddLDVIg3wHmm4DvXFhRM3s8oRWcs0oj:DBt5A/dFJI02mmyFhCARWcs0I
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `msfeedssync.exe` being misused. While `msfeedssync.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_wmi_module_load.yml) | `            - '\msfeedssync.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

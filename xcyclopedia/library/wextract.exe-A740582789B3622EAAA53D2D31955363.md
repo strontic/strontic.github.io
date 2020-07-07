@@ -8,6 +8,10 @@ title: wextract.exe | Win32 Cabinet Self-Extractor
 * Description: Win32 Cabinet Self-Extractor                                           
 * Comments: 
 
+## Screenshot
+
+![wextract.exe](screenshots/wextract.exe-EF82872F2141313EF07C49405145DF3B-2.png)
+
 ## Hashes
 
 Type | Hash

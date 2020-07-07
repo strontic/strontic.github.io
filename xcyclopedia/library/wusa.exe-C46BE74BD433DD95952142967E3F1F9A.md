@@ -8,6 +8,10 @@ title: wusa.exe | Windows Update Standalone Installer
 * Description: Windows Update Standalone Installer
 * Comments: 
 
+## Screenshot
+
+![wusa.exe](screenshots/wusa.exe-6C81724C47077509C4CC874E34008FC3-2.png)
+
 ## Hashes
 
 Type | Hash

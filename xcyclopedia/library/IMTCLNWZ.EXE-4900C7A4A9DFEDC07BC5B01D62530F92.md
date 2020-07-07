@@ -8,6 +8,10 @@ title: IMTCLNWZ.EXE | IMTCLNWZ.exe
 * Description: IMTCLNWZ.exe
 * Comments: 
 
+## Screenshot
+
+![IMTCLNWZ.exe](screenshots/IMTCLNWZ.EXE-39CABA9F140433C5C26B2F6F2BF27CB6.png)
+
 ## Hashes
 
 Type | Hash

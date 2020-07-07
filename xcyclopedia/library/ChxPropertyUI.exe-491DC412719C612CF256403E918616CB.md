@@ -8,6 +8,10 @@ title: ChxPropertyUI.exe | Microsoft IME
 * Description: Microsoft IME
 * Comments: 
 
+## Screenshot
+
+![ChxPropertyUI.exe](screenshots/ChxPropertyUI.exe-491DC412719C612CF256403E918616CB.png)
+
 ## Hashes
 
 Type | Hash

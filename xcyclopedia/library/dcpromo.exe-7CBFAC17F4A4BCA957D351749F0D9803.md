@@ -8,6 +8,10 @@ title: dcpromo.exe | Active Directory Domain Services Installer
 * Description: Active Directory Domain Services Installer
 * Comments: 
 
+## Screenshot
+
+![dcpromo.exe](screenshots/dcpromo.exe-7CBFAC17F4A4BCA957D351749F0D9803-2.png)
+
 ## Hashes
 
 Type | Hash

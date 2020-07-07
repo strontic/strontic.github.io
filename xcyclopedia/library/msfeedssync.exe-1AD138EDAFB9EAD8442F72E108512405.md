@@ -58,13 +58,6 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\msfeedssync.exe](msfeedssync.exe-E5DAF79825C26A4B30977F99EF3C586B.md) | 35
 
-## Possible Misuse
-
-*The following table contains possible examples of `msfeedssync.exe` being misused. While `msfeedssync.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_wmi_module_load.yml) | `            - '\msfeedssync.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

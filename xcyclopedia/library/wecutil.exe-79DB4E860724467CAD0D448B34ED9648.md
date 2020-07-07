@@ -102,19 +102,19 @@ The parameter is incorrect.
 
 
 
-Enables you to create and manage subscriptions to events that are forwarded from remote computers. The remote computer must support the WS-Management protocol. 
+Enables you to create and manage subscriptions to events that are forwarded from remote computers. The remote computer must support the WS-Management protocol.
 
 
 ### Syntax
 
 ```
-wecutil  [{es | enum-subscription}] 
-[{gs | get-subscription} <Subid> [/f:<Format>] [/uni:<Unicode>]] 
-[{gr | get-subscriptionruntimestatus} <Subid> [<Eventsource> â€¦]] 
-[{ss | set-subscription} [<Subid> [/e:[<Subenabled>]] [/esa:<Address>] [/ese:[<Srcenabled>]] [/aes] [/res] [/un:<Username>] [/up:<Password>] [/d:<Desc>] [/uri:<Uri>] [/cm:<Configmode>] [/ex:<Expires>] [/q:<Query>] [/dia:<Dialect>] [/tn:<Transportname>] [/tp:<Transportport>] [/dm:<Deliverymode>] [/dmi:<Deliverymax>] [/dmlt:<Deliverytime>] [/hi:<Heartbeat>] [/cf:<Content>] [/l:<Locale>] [/ree:[<Readexist>]] [/lf:<Logfile>] [/pn:<Publishername>] [/essp:<Enableport>] [/hn:<Hostname>] [/ct:<Type>]] [/c:<Configfile> [/cun:<Username> /cup:<Password>]]] 
-[{cs | create-subscription} <Configfile> [/cun:<Username> /cup:<Password>]] 
-[{ds | delete-subscription} <Subid>] 
-[{rs | retry-subscription} <Subid> [<Eventsource>â€¦]] 
+wecutil  [{es | enum-subscription}]
+[{gs | get-subscription} <Subid> [/f:<Format>] [/uni:<Unicode>]]
+[{gr | get-subscriptionruntimestatus} <Subid> [<Eventsource> â€¦]]
+[{ss | set-subscription} [<Subid> [/e:[<Subenabled>]] [/esa:<Address>] [/ese:[<Srcenabled>]] [/aes] [/res] [/un:<Username>] [/up:<Password>] [/d:<Desc>] [/uri:<Uri>] [/cm:<Configmode>] [/ex:<Expires>] [/q:<Query>] [/dia:<Dialect>] [/tn:<Transportname>] [/tp:<Transportport>] [/dm:<Deliverymode>] [/dmi:<Deliverymax>] [/dmlt:<Deliverytime>] [/hi:<Heartbeat>] [/cf:<Content>] [/l:<Locale>] [/ree:[<Readexist>]] [/lf:<Logfile>] [/pn:<Publishername>] [/essp:<Enableport>] [/hn:<Hostname>] [/ct:<Type>]] [/c:<Configfile> [/cun:<Username> /cup:<Password>]]]
+[{cs | create-subscription} <Configfile> [/cun:<Username> /cup:<Password>]]
+[{ds | delete-subscription} <Subid>]
+[{rs | retry-subscription} <Subid> [<Eventsource>â€¦]]
 [{qc | quick-config} [/q:[<Quiet>]]].
 ```
 
@@ -173,7 +173,7 @@ wecutil  [{es | enum-subscription}]
 > [!IMPORTANT]
 > If you receive the message, â€œThe RPC server is unavailable? when you try to run wecutil, you need to start the Windows Event Collector service (wecsvc). To start wecsvc, at an elevated command prompt type net start wecsvc.
 
-- To shows the contents of a configuration file:  
+- To shows the contents of a configuration file:
   ```
   <Subscription xmlns=https://schemas.microsoft.com/2006/03/windows/events/subscription>
   <Uri>https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>

@@ -8,6 +8,10 @@ title: IMESEARCH.EXE | IME search module
 * Description: IME search module
 * Comments: 
 
+## Screenshot
+
+![IMESEARCH.exe](screenshots/IMESEARCH.EXE-8F79895C80CDE73D8EED5B111C3C804E-2.png)
+
 ## Hashes
 
 Type | Hash

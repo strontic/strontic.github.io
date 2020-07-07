@@ -8,6 +8,11 @@ title: xpsrchvw.exe | XPS Viewer
 * Description: XPS Viewer
 * Comments: 
 
+## Screenshot
+
+![xpsrchvw.exe](screenshots/xpsrchvw.exe-1B0235FBA270018B86EA326AD7944CB0-1.png)
+![xpsrchvw.exe](screenshots/xpsrchvw.exe-1B0235FBA270018B86EA326AD7944CB0-5.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,10 @@ title: rekeywiz.exe | EFS REKEY wizard
 * Description: EFS REKEY wizard
 * Comments: 
 
+## Screenshot
+
+![rekeywiz.exe](screenshots/rekeywiz.exe-00B81012CA22B209EAA209DD5BF917D6-1.png)
+
 ## Hashes
 
 Type | Hash

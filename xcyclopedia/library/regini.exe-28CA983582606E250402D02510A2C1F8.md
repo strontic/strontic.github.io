@@ -216,6 +216,17 @@ File | Score
 [C:\WINDOWS\system32\regini.exe](regini.exe-5FB1FD7CBF411D45F2BE175941307995.md) | 55
 [C:\Windows\system32\regini.exe](regini.exe-EAF2E449CAEC0FF310376373C5B993C9.md) | 35
 
+## Possible Misuse
+
+*The following table contains possible examples of `regini.exe` being misused. While `regini.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Regini.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regini.yml) | `Name: Regini.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Regini.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regini.yml) | `  - Command: regini.exe newfile.txt:hidden.ini` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Regini.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regini.yml) | `  - Path: C:\Windows\System32\regini.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Regini.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regini.yml) | `  - Path: C:\Windows\SysWOW64\regini.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Regini.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regini.yml) | ` - IOC: regini.exe reading from ADS` | 
 
 ## Additional Info*
 
@@ -227,32 +238,34 @@ File | Score
 
 Modifies the registry from the command line or a script, and applies changes that were preset in one or more text files. You can create, modify, or delete registry keys, in addition to modifying the permissions on the registry keys.
 
-For details on the format and content of the text script file that Regini.exe uses to make changes to the registry, see [How to change registry values or permissions from a command line or a script](https://support.microsoft.com/help/264584/how-to-change-registry-values-or-permissions-from-a-command-line-or-a).
+For details on the format and content of the text script file that regini.exe uses to make changes to the registry, see [How to change registry values or permissions from a command line or a script](https://support.microsoft.com/help/264584/how-to-change-registry-values-or-permissions-from-a-command-line-or-a).
 
 ### Syntax
 
 ```
-regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputWidth][-b] textFiles...
+regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputwidth][-b] textfiles...
 ```
 
-##### Parameters
+#### Parameters
 
-|Parameter|Description|
+| Parameter | Description |
+|--|--|
+| -m `<\\computername>` | Specifies the remote computer name with a registry that is to be modified. Use the format **\\ComputerName**. |
+| -h `<hivefile hiveroot>` | Specifies the local registry hive to modify. You must specify the name of the hive file and the root of the hive in the format **hivefile hiveroot**. |
+| -i `<n>` | Specifies the level of indentation to use to indicate the tree structure of registry keys in the command output. The **regdmp.exe** tool (which gets a registry key's current permissions in binary format) uses indentation in multiples of four, so the default value is **4**. |
+| -o `<outputwidth>` | Specifies the width of the command output, in characters. If the output will appear in the command window, the default value is the width of the window. If the output is directed to a file, the default value is **240** characters. |
+| -b | Specifies that **regini.exe** output is backward compatible with previous versions of **regini.exe**. |
+| textfiles | Specifies the name of one or more text files that contain registry data. Any number of ANSI or Unicode text files can be listed. |
 
-|-m \<\\\\ComputerName>|Specifies the remote computer name with a registry that is to be modified. Use the format **\\\\ComputerName**.|
-|---------------------|-|
-|-h \<hivefile hiveroot>|Specifies the local registry hive to modify. You must specify the name of the hive file and the root of the hive in the format **hivefile hiveroot**.|
-|-i \<n>|Specifies the level of indentation to use to indicate the tree structure of registry keys in the command output. The **Regdmp.exe** tool (which gets a registry key's current permissions in binary format) uses indentation in multiples of four, so the default value is **4**.|
-|-o \<outputwidth>|Specifies the width of the command output, in characters. If the output will appear in the command window, the default value is the width of the window. If the output is directed to a file, the default value is **240** characters.|
-|-b|Specifies that **Regini.exe** output is backward compatible with previous versions of **Regini.exe**. See the Remarks section for details.|
-|textfiles|Specifies the name of one or more text files that contain registry data. Any number of ANSI or Unicode text files can be listed.|
+##### Remarks
 
-### Remarks
+The following guidelines apply primarily to the content of the text files that contain registry data that you apply by using **regini.exe**.
 
-The following guidelines apply primarily to the content of the text files that contain registry data that you apply by using **Regini.exe**.
--   Use the semicolon as an end-of-line comment character. It must be the first non-blank character in a line.
--   Use the backslash to indicate continuation of a line. The command will ignore all characters from the backslash up to (but not including) the first non-blank character of the next line. If you include more than one space before the backslash, it is replaced by a single space.
--   Use hard-tab characters to control indentation. This indentation indicates the tree structure of the registry keys; however, these characters are converted to a single space regardless of their position.
+- Use the semicolon as an end-of-line comment character. It must be the first non-blank character in a line.
+
+- Use the backslash to indicate continuation of a line. The command will ignore all characters from the backslash up to (but not including) the first non-blank character of the next line. If you include more than one space before the backslash, it is replaced by a single space.
+
+- Use hard-tab characters to control indentation. This indentation indicates the tree structure of the registry keys; however, these characters are converted to a single space regardless of their position.
 
 ### Additional References
 

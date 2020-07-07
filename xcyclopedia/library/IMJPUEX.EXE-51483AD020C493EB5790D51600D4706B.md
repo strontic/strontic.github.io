@@ -8,6 +8,10 @@ title: IMJPUEX.EXE | Microsoft IME 2012
 * Description: Microsoft IME 2012
 * Comments: 
 
+## Screenshot
+
+![IMJPUEX.exe](screenshots/IMJPUEX.EXE-8C01DDD9E78B621915141C3866F11FCA.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,10 @@ title: IMJPDCT.EXE | Microsoft IME
 * Description: Microsoft IME
 * Comments: 
 
+## Screenshot
+
+![IMJPDCT.exe](screenshots/IMJPDCT.EXE-E7F38B547F4D9919382D21B1F13B1982.png)
+
 ## Hashes
 
 Type | Hash

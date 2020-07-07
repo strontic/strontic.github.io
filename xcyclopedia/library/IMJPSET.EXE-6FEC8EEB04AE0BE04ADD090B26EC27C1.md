@@ -8,6 +8,10 @@ title: IMJPSET.EXE | Microsoft IME
 * Description: Microsoft IME
 * Comments: 
 
+## Screenshot
+
+![IMJPSET.exe](screenshots/IMJPSET.EXE-71340CEA2C0FC1089AF616AAE507649C.png)
+
 ## Hashes
 
 Type | Hash

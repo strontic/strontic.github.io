@@ -8,6 +8,10 @@ title: setup16.exe | MS-Setup Setup Exe
 * Description: MS-Setup Setup Exe
 * Comments: 
 
+## Screenshot
+
+![setup16.exe](screenshots/setup16.exe-3F34A308FDEBC3706C8A1BAAA2A36D82-1.png)
+
 ## Hashes
 
 Type | Hash

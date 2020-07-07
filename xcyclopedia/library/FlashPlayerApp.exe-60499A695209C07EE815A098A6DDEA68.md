@@ -8,6 +8,10 @@ title: FlashPlayerApp.exe | Adobe Flash Player Control Panel Applet
 * Description: Adobe Flash Player Control Panel Applet
 * Comments: 
 
+## Screenshot
+
+![FlashPlayerApp.exe](screenshots/FlashPlayerApp.exe-D283ACC1C4AC03C1356D215E90C0875C-1.png)
+
 ## Hashes
 
 Type | Hash

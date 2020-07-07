@@ -8,6 +8,11 @@ title: ServerManager.exe | Server Manager
 * Description: Server Manager
 * Comments: 
 
+## Screenshot
+
+![ServerManager.exe](screenshots/ServerManager.exe-83D44E309295488A933B084288B976D8-1.png)
+![ServerManager.exe](screenshots/ServerManager.exe-83D44E309295488A933B084288B976D8-2.png)
+
 ## Hashes
 
 Type | Hash

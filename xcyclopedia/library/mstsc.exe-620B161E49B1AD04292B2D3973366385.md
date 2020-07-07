@@ -8,6 +8,12 @@ title: mstsc.exe | Remote Desktop Connection
 * Description: Remote Desktop Connection
 * Comments: 
 
+## Screenshot
+
+![mstsc.exe](screenshots/mstsc.exe-15E40532CB76DB15B94901B8F22F7CDD-1.png)
+![mstsc.exe](screenshots/mstsc.exe-15E40532CB76DB15B94901B8F22F7CDD-2.png)
+![mstsc.exe](screenshots/mstsc.exe-15E40532CB76DB15B94901B8F22F7CDD-4.png)
+
 ## Hashes
 
 Type | Hash
@@ -63,8 +69,6 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_rdp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_susp_rdp.yml) | `            - '*\mstsc.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_rdp_hijack_shadowing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_rdp_hijack_shadowing.yml) | `title: MSTSC Shadowing` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_rdp_hijack_shadowing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_rdp_hijack_shadowing.yml) | `description: Detects RDP session hijacking by using MSTSC shadowing` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_rdp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_rdp.yml) | `            - '*\mstsc.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_tsclient_filewrite_startup.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_tsclient_filewrite_startup.yml) | `        Image: '*\mstsc.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 

@@ -8,6 +8,10 @@ title: fsquirt.exe |
 * Description: 
 * Comments: 
 
+## Screenshot
+
+![fsquirt.exe](screenshots/fsquirt.exe-78D460CCDA4D36835579CD33BD9B9908-1.png)
+
 ## Hashes
 
 Type | Hash

@@ -8,6 +8,11 @@ title: regedit.exe | Registry Editor
 * Description: Registry Editor
 * Comments: 
 
+## Screenshot
+
+![regedit.exe](screenshots/regedit.exe-2E327F27B5B836D8304DF46E8E20341A-1.png)
+![regedit.exe](screenshots/regedit.exe-2E327F27B5B836D8304DF46E8E20341A-4.png)
+
 ## Hashes
 
 Type | Hash

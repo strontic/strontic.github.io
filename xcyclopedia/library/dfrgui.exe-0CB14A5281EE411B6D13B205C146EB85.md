@@ -8,6 +8,10 @@ title: dfrgui.exe | Microsoft Drive Optimizer
 * Description: Microsoft Drive Optimizer
 * Comments: 
 
+## Screenshot
+
+![dfrgui.exe](screenshots/dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B-1.png)
+
 ## Hashes
 
 Type | Hash

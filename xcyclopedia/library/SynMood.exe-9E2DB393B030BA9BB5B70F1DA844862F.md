@@ -8,6 +8,10 @@ title: SynMood.exe | MoodPad
 * Description: MoodPad
 * Comments: 
 
+## Screenshot
+
+![SynMood.exe](screenshots/SynMood.exe-9E2DB393B030BA9BB5B70F1DA844862F.png)
+
 ## Hashes
 
 Type | Hash

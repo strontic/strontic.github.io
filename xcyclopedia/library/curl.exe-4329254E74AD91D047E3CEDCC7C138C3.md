@@ -272,6 +272,8 @@ conhost.exe
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_curl_download.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_curl_download.yml) | `        Image\|endswith: '\curl.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_curl_fileupload.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_curl_fileupload.yml) | `        Image\|endswith: '\curl.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_curl_start_combo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_curl_start_combo.yml) | `    - https://medium.com/@reegun/curl-exe-is-the-new-rundll32-exe-lolbin-3f79c5f35983` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
