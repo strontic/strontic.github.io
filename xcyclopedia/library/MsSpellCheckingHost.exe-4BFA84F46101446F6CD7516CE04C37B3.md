@@ -6,7 +6,6 @@ title: MsSpellCheckingHost.exe | Microsoft Spell Checking Host
 
 * File Path: `C:\Windows\system32\MsSpellCheckingHost.exe`
 * Description: Microsoft Spell Checking Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C3BC4B8C3E4BC49C6AE5F28DE4891FA946D0566160E2C47E3927DF4C9BAD0E41`
 SHA384 | `72281EE7930B27E98BF4083C710E1E1FC4F6C30B212010A4C670276A35CC96E3178333E064F43670B100738E061DF063`
 SHA512 | `90B5F54FA68E3D0CC10A64A720B2FF461A7A2F12C6227C8DCEB78C17B99279137BE5ED585E4816534D3F3DA70F426FF06F48C50A690E8441F708CF3872C22886`
 SSDEEP | `1536:516b9VLrXr/+qbpDLhPD4k3RJRfmY53iDMj+V1sI/ZkbIEK6WApaly:Ej/qgpDxBJRfzd5+YI/ZJEK6WApal`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

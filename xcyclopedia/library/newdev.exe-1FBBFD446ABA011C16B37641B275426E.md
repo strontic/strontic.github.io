@@ -6,7 +6,6 @@ title: newdev.exe | Device driver software installation
 
 * File Path: `C:\windows\system32\newdev.exe`
 * Description: Device driver software installation
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1E9A0CF47B53FF744E212DC58D1629889187F13038EA6A5E32D5B2E44B279328`
 SHA384 | `4B54154044B34665036C1ADCC44924968F3045BB18B6F19D982BE91DA317DAB051EB7D125F2A110EFD18A88ED62A9FE7`
 SHA512 | `D6E0F969359E559BC048D4BA7931E971548EC0F6890062F8B68B32DCB1D75C843B1FA8912C544C7F73FF26C3ED86BDAC32D2A9BD5C62DFA1C7D58CC4E2E767C2`
 SSDEEP | `1536:u1pkpTpyCkU407Qq14uiMnAM80xCjsJQP5n+RafCuB:hPNdB4Lmp9kuQZ+RsbB`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

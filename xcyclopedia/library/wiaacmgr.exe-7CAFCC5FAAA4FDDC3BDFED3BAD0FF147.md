@@ -6,7 +6,6 @@ title: wiaacmgr.exe | Windows Picture Acquisition Wizard
 
 * File Path: `C:\windows\system32\wiaacmgr.exe`
 * Description: Windows Picture Acquisition Wizard
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C485B377A3982A890B91F71495B1D74B7E0244D8B571800D462BFA051B0BF6C3`
 SHA384 | `A902890C79A7D971072526B1EB4E91B98EBDC325A7628C427DE55F1C6B45B92D1629657A251B74CE2AF15D6AF86602F3`
 SHA512 | `51A8F74BA208E45A4288F72E31A2752B1DA5D686226C01D794537481DFF1E5622BD89DD6031494C26CA40311D5623D11BBAA35067877ACBD9EB130098203D3B3`
 SSDEEP | `1536:wL46uxQPZnlN3EIpXey07p352nDXg3Ln6cMFQWd+uYiuWp+UmBo6Atf7:U4r6AIpOy0lEDXM+d+uMGmBo6Q`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

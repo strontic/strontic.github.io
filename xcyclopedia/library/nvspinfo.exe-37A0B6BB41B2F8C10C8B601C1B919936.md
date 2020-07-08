@@ -6,7 +6,6 @@ title: nvspinfo.exe | "nvspinfo.PROGRAM"
 
 * File Path: `C:\WINDOWS\system32\nvspinfo.exe`
 * Description: "nvspinfo.PROGRAM"
-* Comments: 
 
 ## Hashes
 
@@ -144,14 +143,6 @@ InstanceGuid = {00000000-0000-0000-0000000000000000}
 cleaning up...finished
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

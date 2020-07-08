@@ -6,7 +6,6 @@ title: splwow64.exe | Print driver host for applications
 
 * File Path: `C:\Windows\splwow64.exe`
 * Description: Print driver host for applications
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `BCC166B2E9FA1483CA5FE851F0C5D7477AB1D029F20CF5EBBB1BCB01B9BFE506`
 SHA384 | `A75D934CA1E22488C029E3272F36782B091802E63162CA1E61276BC50CA667176F6C1567C7E31FF81F32E026B2C0CE45`
 SHA512 | `030FAD141DEA3E972082DFA352EBBF5CEF556E23599DE6B3A249FB6E743151F326C6D93565FDDD136132D4AD3320C7BC7B0ABCFE618A7ACB70DCFD782A360181`
 SSDEEP | `3072:SXVXRFVRrpRbtbgfw6muHQbPRyZ2pPTU:mVXhFTBc4fu8AZ2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

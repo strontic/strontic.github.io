@@ -6,7 +6,6 @@ title: UserAccountControlSettings.exe | UserAccountControlSettings
 
 * File Path: `C:\Windows\SysWOW64\UserAccountControlSettings.exe`
 * Description: UserAccountControlSettings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `ABD38D1510072F2D241FCD356A71A399307047523B3CCB0CB5A6233A242E44CB`
 SHA384 | `0E431E39D50FBBDA2E69A8B8FAA07BA620A9A64689415A5238F42EBDEAC4C077DC682933DCB94CA0CCEB8BCED28EAE19`
 SHA512 | `88EA3076E29A6837207C3039F86AEB1BEDBF7CC07E75617A50FEED771317A41DFF97A06A85893E2F15C708224E144EA81BC02889FB1FBB80C7F49505B86587E8`
 SSDEEP | `1536:7wGtTBNyNnGYx3VGrzv751sNz0UCdkV/L7k:1NyNnGsU/z5K`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

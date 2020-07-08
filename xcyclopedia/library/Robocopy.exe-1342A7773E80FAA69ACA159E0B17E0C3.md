@@ -6,7 +6,6 @@ title: Robocopy.exe | Microsoft Robocopy
 
 * File Path: `C:\windows\SysWOW64\Robocopy.exe`
 * Description: Microsoft Robocopy
-* Comments: 
 
 ## Hashes
 
@@ -191,14 +190,6 @@ SSDEEP | `1536:mApbBIj7ia5hTXZbCPh1PLed8hSrDiHU7oZHr9xpSCihGEwI+yx3:mAptIjt1kPvP
        name in the top-level source and destination directories of the copy session.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: logoff.exe | Session Logoff Utility
 
 * File Path: `C:\Windows\system32\logoff.exe`
 * Description: Session Logoff Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `782724E112FBF327DD170957819C329B9E2A63CA2FC828ACD76337A23E8C4CB288AF8E
 SSDEEP | `384:jrh2V3nRO3qQRC9QgstQrldEg55M2ID2/GFtR+nzn5mocyGMrUvbzCW37uW:jrhEYdLaRlmh3Qz5mxvbz/`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -42,9 +36,6 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

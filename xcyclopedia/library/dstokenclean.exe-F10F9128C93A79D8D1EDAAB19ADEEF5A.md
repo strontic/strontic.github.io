@@ -6,7 +6,6 @@ title: dstokenclean.exe | Data Sharing Service Maintenance Driver
 
 * File Path: `C:\Windows\system32\dstokenclean.exe`
 * Description: Data Sharing Service Maintenance Driver
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `700F2DBF378F89BFD9C9378483BE76012326D58F906E83B5996A289EC013C8CF`
 SHA384 | `96B71E53305D890E326A029AF0C4E2B2354773050046F142AA40C79754DBEA3FDE728D442DD766AA789D8E206660FBBB`
 SHA512 | `6F8027697D240EEB1514958ACD26925B33E93F1CB46FE9520BC91F50B41839184288B28A409899B8F82C0EDFA4C9310EE3C7CAF9159474012F07E581F03EDB19`
 SSDEEP | `192:DuhLbbgVPrmg7dOOaYgeCTM1NS2TkvGSGt7Wd9GXkgDARVsDWzEW:DCHbcRs+xCkNS2Qzq7W/gUODWzEW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

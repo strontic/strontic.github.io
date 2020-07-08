@@ -6,7 +6,6 @@ title: smss.exe | Windows Session Manager
 
 * File Path: `C:\WINDOWS\system32\smss.exe`
 * Description: Windows Session Manager
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5F48638E3397204C2C63D7B76D025D62302D0E45FC5055C0A692B0BBC7E6B337`
 SHA384 | `CDF1B503FC281B7D5160DB64DAC05BEC3AD5111F7FD4031427DEB601386334C21D7A93889BE1276BF68C52F6D71D2AC3`
 SHA512 | `729FBF4FEE059706EC5E77DD6C3326840E0BC255B7C50C1F77AD9DAC5A2B9579D91264DC5C2252C39F6A2D92EC60E1FCAB34B7ACCE44AF9816BBC1F7B7521891`
 SSDEEP | `3072:GQPiKMyrlh1jouZDDw5U0KZDHbVBpHSKbkdjv2Ylt:5iKMy9jfnpyxzR`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -63,6 +47,8 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `            - '*\smss.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_raw_disk_access_using_illegitimate_tools.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_raw_disk_access_using_illegitimate_tools.yml) | `            - '\smss.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`smss.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         description = "Detects uncommon file size of smss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         and filename == "smss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

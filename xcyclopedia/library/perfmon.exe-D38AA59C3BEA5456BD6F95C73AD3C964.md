@@ -6,7 +6,6 @@ title: perfmon.exe | Resource and Performance Monitor
 
 * File Path: `C:\Windows\system32\perfmon.exe`
 * Description: Resource and Performance Monitor
-* Comments: 
 
 ## Screenshot
 
@@ -30,14 +29,6 @@ SSDEEP | `3072:Y0fcuMXJEzBG8IPFThJRoGghtYIo9piswTogiqQKy349:hWZEzBG8SFNJWhqIo9s3
 Argument 'help' is unknown.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

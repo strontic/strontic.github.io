@@ -6,7 +6,6 @@ title: AtBroker.exe | Windows Assistive Technology Manager
 
 * File Path: `C:\windows\system32\AtBroker.exe`
 * Description: Windows Assistive Technology Manager
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `63A92B2A5C99F4C339BC55BA45B61D0CD6A4E4970B6BA9613B7B0E19771E4CD1`
 SHA384 | `402E135FBD15D839ECD43C7910D8B313AD3F2AD0D83D00A87D864EFA3F03235CE466CB1BFEB631E8C8630FE22C8CBAF1`
 SHA512 | `625DA76A65CD18C08B65DED435ACCB2085E81E00BB3F5377C577987AB270D70F6BD52254929E8BD646789607A6B159CE84A61FDD18D445E0968B63BED9F85837`
 SSDEEP | `768:EO713Y7bS1JqhnUhQ900m33uOFq2jhQpGM6Ypbn2ZpuejqhOfusLdInbBrYzl2PY:dr5Q900AH6pGrxfusund0RssgSZMV2L`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

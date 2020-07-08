@@ -6,7 +6,6 @@ title: ktmutil.exe | Kernel Transaction Management Utility
 
 * File Path: `C:\windows\SysWOW64\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
-* Comments: 
 
 ## Hashes
 
@@ -30,14 +29,6 @@ tx     Commands related to transactions
 tm     Commands related to transaction managers
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

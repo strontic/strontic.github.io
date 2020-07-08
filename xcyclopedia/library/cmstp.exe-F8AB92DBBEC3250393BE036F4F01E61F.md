@@ -6,7 +6,6 @@ title: cmstp.exe | Microsoft Connection Manager Profile Installer
 
 * File Path: `C:\windows\system32\cmstp.exe`
 * Description: Microsoft Connection Manager Profile Installer
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `6AA5CF9836357A3A75EF20A5CCD5F57363C27CA06FE6FFC30958FE552527D7C6`
 SHA384 | `48006F511A7EFF3E586269236E5E391CB7374C2E5DF9A9583EE98B6FE9729E1775680409F41C402F2D1A5E0E9333228F`
 SHA512 | `CF82295853B200E08D8CB8A4B78985935A63634B976070A244978EDC21583EEAD80E3EC1261DFA2DE64706C942F3F0BCA22D240016DC935EFE2DCDD5DAE32262`
 SSDEEP | `1536:Bo87JMD4lzobKldKVy8c/NaIG/cgG8iX3fi6UWzar71MgpmtnHrYXTxeTh:B/7JMDUzMKlkVKKcgp6HGMVtLYXTx8h`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

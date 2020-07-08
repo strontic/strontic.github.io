@@ -6,7 +6,6 @@ title: powercfg.exe | Power Settings Command-Line Tool
 
 * File Path: `C:\Windows\SysWOW64\powercfg.exe`
 * Description: Power Settings Command-Line Tool
-* Comments: 
 
 ## Hashes
 
@@ -104,9 +103,6 @@ Command List:
 Invalid Parameters -- try "/?" for help
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

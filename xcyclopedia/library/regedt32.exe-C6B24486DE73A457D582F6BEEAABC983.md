@@ -6,7 +6,6 @@ title: regedt32.exe | Registry Editor Utility
 
 * File Path: `C:\Windows\system32\regedt32.exe`
 * Description: Registry Editor Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `A83D55C6F3FD0E634D4CD570CED654A8BDC1776027680BC3F003476E764CC499`
 SHA384 | `4ACE1A903F35E55CC5EB69BA1062426CB47956DE6D4FE2AA5C8EE60532CC2A53460C8F6979C01D2ACD3308B8FFA8B84C`
 SHA512 | `59D38AE1A915C73D565BDECB9FF10C3074B021DC2D2B144DD6636FB59BF15085C76A306F09403617065FE21A3DEC91B4F744FE63EA79004DF0DC730E14E6557C`
 SSDEEP | `192:9cIya1bGZuqvFJscKonxSWR8ji6ZPl6cMWbxW:KIyQbQuOfx5nEXiENMWbxW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 regedit.exe
@@ -53,6 +40,13 @@ regedit.exe
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `regedt32.exe` being misused. While `regedt32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $a3 = "regedt32.exe" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

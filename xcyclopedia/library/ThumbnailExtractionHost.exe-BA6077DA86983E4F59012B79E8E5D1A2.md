@@ -6,7 +6,6 @@ title: ThumbnailExtractionHost.exe | Thumbnail Handler Extraction Host
 
 * File Path: `C:\Windows\SysWOW64\ThumbnailExtractionHost.exe`
 * Description: Thumbnail Handler Extraction Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C561761738ABD510DD0EFBA3F8889A7800AB3E9922B2448036AED380A0443EB8`
 SHA384 | `E718E7B61145D87B9329AB7929B885AC0AC72B3DB1A8D23D07DE44655BB5514A64A3A819551CEB307614298C4B92052C`
 SHA512 | `F1FFC83F4BEAF8694F1B65609174EDF379B6E34C699B6F5CDFD35507B205697A5E81E6E9FE5861137755D136D6FA667D845B0F56AA145BE225FF5D5E85E13C46`
 SSDEEP | `768:6frRvo+V50WxyqxQ7sIdLIaGdCPbU0qQZ5LaOHzUd:UPV50Wkq2sI9IaGcPbU0NZXHzU`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

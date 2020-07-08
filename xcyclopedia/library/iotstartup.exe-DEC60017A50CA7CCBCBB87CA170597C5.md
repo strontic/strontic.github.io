@@ -6,7 +6,6 @@ title: iotstartup.exe | IotStartup
 
 * File Path: `C:\WINDOWS\system32\iotstartup.exe`
 * Description: IotStartup
-* Comments: 
 
 ## Hashes
 
@@ -50,14 +49,6 @@ Examples:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

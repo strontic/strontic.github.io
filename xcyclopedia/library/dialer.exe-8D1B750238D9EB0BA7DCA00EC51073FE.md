@@ -6,7 +6,6 @@ title: dialer.exe | Microsoft Windows Phone Dialer
 
 * File Path: `C:\Windows\SysWOW64\dialer.exe`
 * Description: Microsoft Windows Phone Dialer
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `70D8EF4026D54E14835A8E760B98D3C34A9DF7DE6DDF089469A57543D5302D30`
 SHA384 | `8DEE92B6B40C5760B70E5A0B41B608B551B73C84F36C5D8EEB55C56A0B9EE420462AB011E3C7E7A0AF97926C938694D9`
 SHA512 | `3433F2D4D4BEF48320DBA16BF3CE848623E152E4091679DB878C72C5B79A87E2A66EA11C0D4177EEF955C23E2F647947679422FD8C52E9012F03C8DAE6B6DADB`
 SSDEEP | `768:eBuB3QCe1YBo6gtZU/q0Xgedekspe9idXV:yuBACeua6gUrgSRs8idXV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: openfiles.exe | Displays the current open files list
 
 * File Path: `C:\windows\system32\openfiles.exe`
 * Description: Displays the current open files list
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5B6256E8C1590C938B3BFDC3D03FFC90D1855DBC1A1C25D0570483FF08779CF5`
 SHA384 | `043BFC067054FB98212AF2D9ABA4BD2922F70B9C73B7C26C28E3B9E6FA65A110FC6C6A0F36B2965982D7434368A4D87B`
 SHA512 | `A6FE5111245E65CEF26FD12698FF77FDF24608E4740AC82D123DAAE9A97FEF6BFEF2AC4CF6DF70057C20BF0B8C290950A180A0E03BEDA54B50987B09E51088A8`
 SSDEEP | `1536:DFfGcb1X0jL3+nJNdYWFojeXtNTQgiNpOU2UJPZK2vaxAX:nb1XQYcjq7ijOUDPZVvaxO`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

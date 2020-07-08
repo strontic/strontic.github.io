@@ -6,7 +6,6 @@ title: MbaeParserTask.exe | Mobile Broadband Account Experience Parser Task
 
 * File Path: `C:\windows\system32\MbaeParserTask.exe`
 * Description: Mobile Broadband Account Experience Parser Task
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D60BE154D0807E322F110A8CB51D25776B6D08547921283AE6E5CF7BC98E686F`
 SHA384 | `40388FCE3864FC7603A56971B9C493BB37FECA20340E57C7CA0D1DE97326AD1C5C79A285BD9D71CE5C9E24EB9ACCB291`
 SHA512 | `D8BC94584CA6DB4A0928DF5AAE838BE81399795269B8A41CD8ADE08A6375D70CAF3016152319F1CCAFB8FDE606D74A7B95F719A0E8F196B8AF31303E71CBE6B0`
 SSDEEP | `1536:esJpCV55CdzgWPeYfHDGy6fMHpz155ChJRefXSqg7grneh9ZY/Nom:TnoszjP9jMU3OhJkfX/gkre7ZZm`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

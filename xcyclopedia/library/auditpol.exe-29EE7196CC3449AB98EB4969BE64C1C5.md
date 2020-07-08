@@ -6,7 +6,6 @@ title: auditpol.exe | Audit Policy Program
 
 * File Path: `C:\WINDOWS\SysWOW64\auditpol.exe`
 * Description: Audit Policy Program
-* Comments: 
 
 ## Hashes
 
@@ -49,9 +48,6 @@ The parameter is incorrect.
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

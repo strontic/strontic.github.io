@@ -6,7 +6,6 @@ title: vssadmin.exe | Command Line Interface for Microsoft Volume Shadow Copy Se
 
 * File Path: `C:\windows\SysWOW64\vssadmin.exe`
 * Description: Command Line Interface for Microsoft Volume Shadow Copy Service 
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `EA45BFBE5AACE1F1BF9184EE4053ABABB82538449DF7F9B1B73F62EB1A5741B2`
 SHA384 | `E7A1657A1D16FE42341FE1D3FAD17892AC9A1406881F3201AC9E504F8F0901ACA50CD3BFCECE98D7A893F3D65171B23B`
 SHA512 | `7DCD7EBB115417944ACB5F3488E33730775B149FCABE59766FD8E730A7AD616072F01C588BFA30E9BCC3BA7786CE5DFB61E2A582FA3741E0E3281491EED51D64`
 SSDEEP | `1536:LG4LJsRI4N89we2hiSx7AfHIxshncmwpeqZJ1B+BLCoGsWbpB+WeAJQr2q5VZDoj:LG4LJaNKwe2hX4efW2bp4Wev9VZcZq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -76,6 +60,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | vssadmin.exe delete shadows /all /quiet | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | if(!(vssadmin.exe list shadows \| findstr "No items found that satisfy the query.")) { exit 0 } else { exit 1 }  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | vssadmin.exe create shadow /for=c: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $b = "vssadmin delete shadows" ascii wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_germanwiper.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_germanwiper.yar) |       $KillShadowCopies = "vssadmin.exe delete shadows" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

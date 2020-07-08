@@ -6,7 +6,6 @@ title: ie4uinit.exe | IE Per-User Initialization Utility
 
 * File Path: `C:\Windows\system32\ie4uinit.exe`
 * Description: IE Per-User Initialization Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `6F83621ED34B61CA0BBAFF5A5FD158FEECA364DE52EEC38E1CC2295A82A7BD5C`
 SHA384 | `96D0EEAD8C04662AD3CB5DF188C881292FA28AED20491B039B7C269D05FA5DCAA9898988381AD63ADB74935635E06F02`
 SHA512 | `616873A3BCC7A1E78441A9040FD37DFA5F6648347685C1B4198841B64F8E553F82CC28288215B6016602071F5C854D43EFFE0898C552F3A1B6D183479612264F`
 SSDEEP | `6144:U3scA4efnKKCR/o6e8cnz/eXTsrqAxWl/s5ZMyQ:U8cAjKd7I7UAx+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

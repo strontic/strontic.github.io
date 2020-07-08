@@ -6,7 +6,6 @@ title: netcfg.exe | WinPE network installer
 
 * File Path: `C:\Windows\system32\netcfg.exe`
 * Description: WinPE network installer
-* Comments: 
 
 ## Hashes
 
@@ -139,14 +138,6 @@ General Notes:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: Register-CimProvider.exe | WMI
 
 * File Path: `C:\windows\system32\Register-CimProvider.exe`
 * Description: WMI
-* Comments: 
 
 ## Hashes
 
@@ -86,14 +85,6 @@ Usage:  Register-CimProvider.exe
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

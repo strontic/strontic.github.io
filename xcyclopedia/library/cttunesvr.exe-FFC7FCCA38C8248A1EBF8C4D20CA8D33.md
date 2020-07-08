@@ -6,7 +6,6 @@ title: cttunesvr.exe | ClearType Tuner
 
 * File Path: `C:\Windows\SysWOW64\cttunesvr.exe`
 * Description: ClearType Tuner
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `BD23F7BAA3EA5D4303FD11BBF58132C9732DFCFD4EC61ADC0033AB7556B8B8B9`
 SHA384 | `B099FD33F2D1004D660BD88BD655361227DD210AC83CE3FED19973441DB30743D4B063B0B2C920418221DFA82E08F472`
 SHA512 | `6AB73D95BDE4E727875861AB2697BEC43730EDF40C1800D9118513C5B85111DE05DB85D44CB745FCE1A47A8B59762EC85E31C7346B373C33203C38ACACDAB2A5`
 SSDEEP | `768:iyq+IN5iphUL9jsspsuwqJk1vjsiMzr1avhTku:iyqN5ipisspsuwqJk1vjIEvdku`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

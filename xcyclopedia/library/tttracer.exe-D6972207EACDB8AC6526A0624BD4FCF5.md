@@ -6,7 +6,6 @@ title: tttracer.exe | Time Travel Tracing Tracer Tool
 
 * File Path: `C:\windows\SysWOW64\tttracer.exe`
 * Description: Time Travel Tracing Tracer Tool
-* Comments: 
 
 ## Hashes
 
@@ -26,11 +25,6 @@ SSDEEP | `3072:NqmrA6A5XVO/DNT/J7rnOoXAlXZ3ptkeuOwinfX9EJTJx4VniXOFZ9nkTvcx8MxB:
 We have created EULA.TXT in the current folder. 
 Please review this file before agreeing.
 Have you read and do you accept the EULA? Y/N
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

@@ -6,7 +6,6 @@ title: tpmvscmgr.exe | TPM Virtual Smartcard Setup Utility
 
 * File Path: `C:\WINDOWS\system32\tpmvscmgr.exe`
 * Description: TPM Virtual Smartcard Setup Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `601B87ABDE366C0F4807947C5FB3F2B8DB62E03EB35605397962B662B922A8322BDFB1
 SSDEEP | `3072:uGBdmn6NHZM10co7T5Ooikw3+RCe2HaF1iaGdlSd9SpXx:uGBdk6NHrwQQTaF1tSp`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -118,9 +112,6 @@ TpmVscMgr.exe
 	TpmVscMgr destroy /instance root\smartcardreader\0000
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

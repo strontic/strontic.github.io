@@ -6,7 +6,6 @@ title: wbengine.exe | Microsoft Block Level Backup Engine Service EXE
 
 * File Path: `C:\Windows\system32\wbengine.exe`
 * Description: Microsoft Block Level Backup Engine Service EXE
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5AE95F3F77AAED3067CBA39C5B2CD1790B949027E837B5AF580F2A8D4714FB68`
 SHA384 | `9025F8389C63383683EFC1506D7F3D6ECE763D2623B0E244454669C169DF6C44F127495BC770A51C3D709E1C8A70446D`
 SHA512 | `56AC22606CA58BB32B752DCCE360D68C10E4B27097A3423D6936FF0BD8F94F4537168C9D361F81DABF487EF71E4BF48EE895AAFADC57C77E8D8D8DE87176BED5`
 SSDEEP | `49152:bjzbr8N77L0toSDJMdZgwaIdzqrDv8Ii:re7yoSFX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

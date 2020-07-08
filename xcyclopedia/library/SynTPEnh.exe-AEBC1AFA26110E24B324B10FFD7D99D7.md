@@ -6,7 +6,6 @@ title: SynTPEnh.exe | Synaptics TouchPad 64-bit Enhancements
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_318aa16b062fddc3\SynTPEnh.exe`
 * Description: Synaptics TouchPad 64-bit Enhancements
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `64BDD0C702ECFB772320C4AE37C5DDA56AE0A8181C36FA305958D4BF9D1D6FC9`
 SHA384 | `477214FD721F0AEB013BC09CFBD5544B4C181436679E9E5095501BFF22AA62B6FEEEEED33CA948C85CD171DDA31166B8`
 SHA512 | `25BD5103575A201364239119CA543107DA88498202DD6E421B093D32DA3E4408C0E02109A5438BF08C86E441F924DFBECC066D65E79F54FBB0D3DCDFA3F278A4`
 SSDEEP | `49152:lBvL7wuV6xl2OwsymLXHLL6LMAIe65cSTsMxYjnuglmolVs:lBn1ylAmLXHv6LM3uMxYl0`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

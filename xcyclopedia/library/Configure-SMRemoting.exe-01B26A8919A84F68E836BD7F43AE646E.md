@@ -6,7 +6,6 @@ title: Configure-SMRemoting.exe | Configure-SMRemoting
 
 * File Path: `C:\windows\system32\Configure-SMRemoting.exe`
 * Description: Configure-SMRemoting
-* Comments: 
 
 ## Hashes
 
@@ -21,19 +20,11 @@ SSDEEP | `768:HcDIGqtaELu1Sbx9XxH8/QTmD3J+aPW6a8EkiHT45IdEgWDJbkYLEzXQbJcRmIld:c
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

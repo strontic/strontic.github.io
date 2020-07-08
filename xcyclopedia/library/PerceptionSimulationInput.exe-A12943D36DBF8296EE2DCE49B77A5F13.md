@@ -6,7 +6,6 @@ title: PerceptionSimulationInput.exe | Mixed Reality Simulation Control
 
 * File Path: `C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationInput.exe`
 * Description: Mixed Reality Simulation Control
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `16B94CD57454FE534BFDA208F827E77CAB9FCC501F34E60C8C3D1E9304B674FC`
 SHA384 | `EAD82DE275E0122155DACD26057A976F083ABF655A63469A9AC0C9FF1CB6ABF022C4385072E3E0FED45ED3CB2AB9F952`
 SHA512 | `6FFAF0A720C2034C6062826586ED40AE213514555BB3A2869DBBB91CD423104ED4B73599CA212613A9E02C46512709C07B251E9CF530D10B1248C9C6DA302E58`
 SSDEEP | `1536:Ng0qeYCprYI/VbD3efO9pMj8DAmpfhNokN:NLqeYCprYI/VXqOKWJN/N`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

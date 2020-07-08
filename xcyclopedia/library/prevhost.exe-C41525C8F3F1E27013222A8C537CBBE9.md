@@ -6,7 +6,6 @@ title: prevhost.exe | Preview Handler Surrogate Host
 
 * File Path: `C:\windows\SysWOW64\prevhost.exe`
 * Description: Preview Handler Surrogate Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D9EA07FA377F97EAF12A28AF9FC32D88C8B65F65E7F2BD446DF246E881C0596C`
 SHA384 | `DEE687CB78F869D6F6ECD2773B6F452944D75B97B12D6C63E1C13EC9A20BCF3E8D7CECBF00A8B136A3324FAD35DFA782`
 SHA512 | `C1E8D012C6AD163EA8E0ABBD060ED1ABFB7F385846FA99F5946EDE86AD432013218DE7172F293316951ED5CE37D42382DF8EB439E7B5B19FD5716E47092CA10C`
 SSDEEP | `384:eo9ICxxX3rL3dq6Xfd+AujdRwntWncWawOf:eo9lbLtFdtGRwnSUw0`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

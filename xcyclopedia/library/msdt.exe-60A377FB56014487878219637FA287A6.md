@@ -6,7 +6,6 @@ title: msdt.exe | Diagnostics Troubleshooting Wizard
 
 * File Path: `C:\WINDOWS\SysWOW64\msdt.exe`
 * Description: Diagnostics Troubleshooting Wizard
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `30CCA92B58621615572F1C9F37F3C6AE4DD6FE54F0BFC372A664FC5C554AA1E5`
 SHA384 | `1081E07B52E16D9BE15F12A2E96BD2FED80644451EB318D1EB41C4DE92FDD52BA601637C8FC967641E7ECC8A6CFC0055`
 SHA512 | `DB01D2B3CA435B2DA15593DB6A7F2341722D5C0DB35BCA1FD94250D7129FD2B14EC8CB0782EE06C226F3A2CC4310C22E32A7B6A6A1083FFC767A072173322A80`
 SSDEEP | `6144:wBGliP5NYIuL/uzcYdt1r1nLrXujAlhKsjbAObd8fXrpirWMyL:wHU/uZNr1+AlhKsjbAW8f7pin`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

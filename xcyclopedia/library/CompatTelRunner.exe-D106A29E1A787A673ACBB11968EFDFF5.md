@@ -6,7 +6,6 @@ title: CompatTelRunner.exe | Microsoft Compatibility Telemetry
 
 * File Path: `C:\Windows\system32\CompatTelRunner.exe`
 * Description: Microsoft Compatibility Telemetry
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D4C583BC6EFD5F24ADF5C70421BA3FDCF6A53B010BC6A0D96147A6C7C3ADBC0C`
 SHA384 | `33A5D8054A54D1307B3A7CD1C7AC4B21FE62E4A135619553984B8DBE50CF40C6556145BFAE85BC06D89D2E447F6BF6AF`
 SHA512 | `392737C08A8BE420561D3189BDB64714D265D23C10C00915CA8E6C471BCFDBE0C6501C955608F3CF6C907C4E9D630EE847A0A5027E45D01F624C13CFCBBF506F`
 SSDEEP | `3072:emQNq9Gqo0bp/59ziXK4z2fuukK+NqD2n6f9UkaVxR8t3J2wPFr:ejNq95o0l/59ziXK4zkNA5k8R8dV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

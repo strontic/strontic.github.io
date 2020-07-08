@@ -6,7 +6,6 @@ title: rasdial.exe | Remote Access Command Line Dial UI
 
 * File Path: `C:\windows\system32\rasdial.exe`
 * Description: Remote Access Command Line Dial UI
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F532D2031B53B90C1B851E4640C6F24DBFE9383A05CF0B3BDC0B580EBAADAF77`
 SHA384 | `FEA8D592C35A7AE1B45F7E0FA2463721157CF27C9B2F82CA02A8039CA065E60020403D8562368B172A4441F78FEB0281`
 SHA512 | `DFD957FFB7C47C6CEA9135926A47A07C8272E632E983A64413D544211F44769CB177E44752D5F9AFBE9F0AFBFA576C3B43155ECF2B7AE47607F6DC733BFD973B`
 SSDEEP | `384:fxcmqdtuotHHJdyJuG0ZwitTH4aiwydFmMnTi4LokPHVIJKW5VW7:fxvqdtuoZKJuG0ztsaitdz+4oYVIJV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: ClipUp.exe | Client License Platform migration tool
 
 * File Path: `C:\Windows\system32\ClipUp.exe`
 * Description: Client License Platform migration tool
-* Comments: 
 
 ## Hashes
 
@@ -45,9 +44,6 @@ Done.
 Failed! Error 0x80070057.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

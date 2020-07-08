@@ -6,7 +6,6 @@ title: ttdinject.exe | Time Traver Debugging Application Injector
 
 * File Path: `C:\Windows\SysWOW64\ttdinject.exe`
 * Description: Time Traver Debugging Application Injector
-* Comments: 
 
 ## Hashes
 

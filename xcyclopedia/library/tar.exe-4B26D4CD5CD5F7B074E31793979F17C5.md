@@ -6,7 +6,6 @@ title: tar.exe | bsdtar archive tool
 
 * File Path: `C:\Windows\SysWOW64\tar.exe`
 * Description: bsdtar archive tool
-* Comments: 
 
 ## Hashes
 

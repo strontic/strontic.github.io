@@ -6,7 +6,6 @@ title: openfiles.exe | Displays the current open files list
 
 * File Path: `C:\WINDOWS\SysWOW64\openfiles.exe`
 * Description: Displays the current open files list
-* Comments: 
 
 ## Hashes
 
@@ -21,19 +20,11 @@ SSDEEP | `1536:hORf1xgApDmbw8/aH/4Rg30lc3eypgNammxdEn:RApDV8ifMg30lcYammxW`
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 ERROR: The target system must be running a 32 bit OS.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

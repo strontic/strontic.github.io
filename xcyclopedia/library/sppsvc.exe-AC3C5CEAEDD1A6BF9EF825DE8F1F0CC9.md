@@ -6,7 +6,6 @@ title: sppsvc.exe | Microsoft Software Protection Platform Service
 
 * File Path: `C:\WINDOWS\system32\sppsvc.exe`
 * Description: Microsoft Software Protection Platform Service
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1C9442E8CEE197FC16E6148387A8A4B8B9A7A0BA19C57AFA41F4B42EC635B174`
 SHA384 | `17AC12D02615B8F8C6EABB7DA64A3D42B6CFA0065EE0A9FC360E3999740232FB86276974445FA2DC3A5F66FF2C73CCB7`
 SHA512 | `89F60C99069F80922025EE46367FF335A353BE35423090E21A492BED5F6BCE03A2680E593E889611D99F8E760B2E186FFCB1D00F4D93DDED7567823CDA689263`
 SSDEEP | `49152:eHx6xzRDH+cglpdSyuL2UTkRa1va8c8oyZXFlUKIiew38bBmqIb/qY745x6129l4:EGYDY2U4CS86KIievusxawP1a/z`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

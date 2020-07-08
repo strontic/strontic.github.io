@@ -6,7 +6,6 @@ title: w3wp.exe | IIS Worker Process
 
 * File Path: `C:\windows\SysWOW64\inetsrv\w3wp.exe`
 * Description: IIS Worker Process
-* Comments: 
 
 ## Hashes
 
@@ -56,14 +55,6 @@ Usage: C:\windows\SysWOW64\inetsrv\w3wp.exe -s <site id> | -h [application host 
 		 Optional parameter for enabling locale to use user's setting on language,  
 		 environ
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: CredentialEnrollmentManager.exe | Credential Enrollment Manager
 
 * File Path: `C:\Windows\system32\CredentialEnrollmentManager.exe`
 * Description: Credential Enrollment Manager
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D1360612ECF7169105929115E160C2BD248300A7D2B6A21E7E93301DF4939EF9`
 SHA384 | `5BB3E37698591E5430A1C4A81458C45DE7C6369ED170CB680ACED8E4EF9B20DBD5245E6225C5ED31872E42020842C8D3`
 SHA512 | `EE5C8328A48F89E4383FC9009679059C2120F17493323B3374B4F1E57F4F0759B54AB29235736E5C65DDF43889EAFC933D9C91A6AAA6D91BE5E176086EE74915`
 SSDEEP | `6144:AWj7vNrA+SlceAQQKL7MwALywkpn/XVdcY9ShQrHSMiPz:XFrA+/LKL5ALywa9db8exk`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

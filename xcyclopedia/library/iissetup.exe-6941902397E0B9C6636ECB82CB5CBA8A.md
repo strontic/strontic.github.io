@@ -6,7 +6,6 @@ title: iissetup.exe | IIS Setup
 
 * File Path: `C:\Windows\SysWOW64\inetsrv\iissetup.exe`
 * Description: IIS Setup
-* Comments: 
 
 ## Hashes
 
@@ -28,14 +27,6 @@ and should never be called manually.
 Failed = 0x80070057
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

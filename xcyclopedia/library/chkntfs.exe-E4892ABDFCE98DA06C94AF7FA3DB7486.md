@@ -6,7 +6,6 @@ title: chkntfs.exe | NTFS Volume Maintenance Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\chkntfs.exe`
 * Description: NTFS Volume Maintenance Utility
-* Comments: 
 
 ## Hashes
 
@@ -48,14 +47,6 @@ If no switches are specified, CHKNTFS will display if the specified drive is
 dirty or scheduled to be checked on next reboot.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

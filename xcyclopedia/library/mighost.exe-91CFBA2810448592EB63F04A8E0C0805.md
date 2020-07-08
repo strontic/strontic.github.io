@@ -6,7 +6,6 @@ title: mighost.exe | Migration Plugins host program
 
 * File Path: `C:\windows\system32\migwiz\mighost.exe`
 * Description: Migration Plugins host program
-* Comments: 
 
 ## Screenshot
 
@@ -22,18 +21,6 @@ SHA256 | `03DC58AA00E5773631C70E11766FAD0B2E244798ADF706E0967F54AB05570C1D`
 SHA384 | `EEF812767A4014AF6FB105A7408F1AC52B632828433FF1C3019AD03F81CF83AEB35FAD3CD55CA2ECAE73BA6C9B71FFBD`
 SHA512 | `B51F510E985C33AEDA7308C16B4089234B54BB7CD57154F9C245D2569AEAD6161F79C329647ACDCC9AEDE71E2BD437291F35E906664FBD2C4C02A884EE0BEC9D`
 SSDEEP | `6144:AYUW8Kw2pojDuUlMtq10Q8m7NNqM9N+hN1UFpfNS5iXjD56Gpovgp2H32nq54945:AYH86eDuUlEqatglsLb1`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 conhost.exe

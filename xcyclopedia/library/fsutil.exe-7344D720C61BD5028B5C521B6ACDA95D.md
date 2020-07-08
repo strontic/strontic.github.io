@@ -6,7 +6,6 @@ title: fsutil.exe | fsutil.exe
 
 * File Path: `C:\windows\system32\fsutil.exe`
 * Description: fsutil.exe
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1A988D562A72325C0E97E4BE05FB311E052E12A095387754FED02B446B032A1A`
 SHA384 | `45F22BF51EA18F18B32C67725FCBD767F608E72DEE0F675699B15D3B7D7A3EDD5AC70C0A3097FC699BAC9EC9BC664A56`
 SHA512 | `6D4148B3E7079DDC57D3B2BD5E90C4D1326CC817EBC95AE7FDDB446D2D28E011F78E62E1C1EC21D60C3984E6F041F16DAC4F4720C2C2387F97BCE1E074ACB899`
 SSDEEP | `3072:4Cyz+KlW+RInMlyfGt+1mlhHLYAHhAWqqkzL6ZqnEBcD3rYF4ZXTPou:4hW+RInMlyfGt+1mlRLYAHhAWqTzUBco`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -71,6 +55,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | will be displayed. More information about fsutil can be found at https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fsutil-usn | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | fsutil usn deletejournal /D C: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | fsutil usn createjournal m=1000 a=100 c: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_badrabbit.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_badrabbit.yar) |       $s4 = "fsutil usn deletejournal /D %c:" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) |       $x5 = "fsutil usn deletejournal /D %c:" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

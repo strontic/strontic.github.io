@@ -6,7 +6,6 @@ title: SecurityHealthService.exe | Windows Security Health Service
 
 * File Path: `C:\windows\system32\SecurityHealthService.exe`
 * Description: Windows Security Health Service
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `24576:7AVvj3VjZ6kEXpY9ExRnHS1wRhZJDuELAG:7koRftJDuELAG`
 Unknown switch.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: osk.exe | Accessibility On-Screen Keyboard
 
 * File Path: `C:\Windows\system32\osk.exe`
 * Description: Accessibility On-Screen Keyboard
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `21E04C0248BE53D40C091619DBE3B7337E8B26D2E37DEBB5E8E0489D3D72B423`
 SHA384 | `EF38ED43AAC37BFF290D1E8AC9F6B79888B2F46DD6964CD4C543535F6632BB03413BE6BAB23791306E48CFEF6FED0A4C`
 SHA512 | `F0CA5207049B5451870C4C89558D203CE2C137D20F263572356D46DEC0E0DC7D2D7BD5D57DE5562CAD7F40382F00FE8F0143229251DFDBBC6094C8BD76DE4B68`
 SSDEEP | `6144:VUtA/9qfmX28r8Vuc5H3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZ:+A/9q0jmNwzaoo`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -79,6 +63,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.008.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md) | * On-Screen Keyboard: <code>C:\Windows\System32\osk.exe</code> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.008.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md) | Upon successful execution, powershell will modify the registry and swap osk.exe with cmd.exe. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.008.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md) | \| parent_list \| Comma separated list of system binaries to which you want to attach each #{attached_process}. Default: "osk.exe" \| String \| osk.exe, sethc.exe, utilman.exe, magnify.exe, narrator.exe, DisplaySwitch.exe, atbroker.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		description = "Abnormal osk.exe (On Screen Keyboard) - typical strings not found in file" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		filename == "osk.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

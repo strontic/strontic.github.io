@@ -6,7 +6,6 @@ title: doskey.exe | Keyboard History Utility
 
 * File Path: `C:\windows\system32\doskey.exe`
 * Description: Keyboard History Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `94457F9006427E5279F61D4CC5575FBC7C5AF56457F36D9909A08B5646885A24`
 SHA384 | `4BEBA4AB38A7E1BD4CD4E1386EFCAEDAFAC790A1A1DA63DC4603CDA5C69E3E6EBE148D035D1ABEF70690D50A18E3B61C`
 SHA512 | `75BE38443A8CE5704D190EFAB2BAD3957F1931AC2889855FE884F40FEE8B20B29459618297C91A69BA8942420CBF326CBB5AA0653027CCCE96019D2DA941D10F`
 SSDEEP | `384:o76LVQ4WipnXqiHlz+Hs69YoJtvp6pKRYeMnfW2iW:Y+Vrn1XHHR+Hs6fBR1Mnh`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -60,6 +44,8 @@ SSDEEP | `384:o76LVQ4WipnXqiHlz+Hs69YoJtvp6pKRYeMnfW2iW:Y+Vrn1XHHR+Hs6fBR1Mnh`
 Source | Source File | Example | License
 -- | -- | -- | --
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1119.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1119/T1119.md) | doskey /history > %TEMP%\T1119_2.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		description = "Anomaly rule looking for certain strings in a system file (maybe false positive on certain systems) - file doskey.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		filename == "doskey.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

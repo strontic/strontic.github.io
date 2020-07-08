@@ -5,8 +5,6 @@ title: ssh-agent.exe |
 # ssh-agent.exe 
 
 * File Path: `C:\windows\system32\OpenSSH\ssh-agent.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -21,19 +19,11 @@ SSDEEP | `6144:wE7PBeGGXEkgumpLL5szsz/uyNPgfdaDb2O7fcCnDto/HOvtBCrljcz:J7J1GlvQR
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 unable to start ssh-agent service, error :1058
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -57,6 +47,8 @@ unable to start ssh-agent service, error :1058
 
 File | Score
 -- | --
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-add.exe](ssh-add.exe-166F0CE9CC00A55569794AF53E847039.md) | 38
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-agent.exe](ssh-agent.exe-34F9BFD01311EA9D88ACE80CA7CDF890.md) | 38
 [C:\WINDOWS\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 36
 [C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 25
 [C:\WINDOWS\system32\OpenSSH\ssh-keyscan.exe](ssh-keyscan.exe-4720A475F697D41705EBEECC9812C718.md) | 40

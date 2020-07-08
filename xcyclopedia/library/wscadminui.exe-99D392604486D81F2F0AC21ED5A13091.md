@@ -6,7 +6,6 @@ title: wscadminui.exe | Windows Security Center Elevated UI App
 
 * File Path: `C:\Windows\system32\wscadminui.exe`
 * Description: Windows Security Center Elevated UI App
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9AFA38359D1960A2366522E0658D656DD984A0838AF491EC51E179B444394985`
 SHA384 | `D783F5C8F9F66B386C17B785990EC024DEB7A70F402DF86AC8A6136092B429BB0DCC0792E97FC5B27F731C4786ACA09D`
 SHA512 | `A3AAAD47F9BDA9DBEB4423B99B9E23251D15B358F2B99EFF3262755909A378FE901D32432069352BFFA03F0F946BDD17384D7591045997B867189D6E2A052A8C`
 SSDEEP | `96:TCfIlqZhGhbHHgP32Qz69cVvbDrahnVZxzX29snVkG1FREWehRWw:TUGKhGCGzqVvvGhdhWG1FSWehRW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

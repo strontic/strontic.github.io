@@ -6,7 +6,6 @@ title: fc.exe | DOS 5 File Compare Utility
 
 * File Path: `C:\WINDOWS\system32\fc.exe`
 * Description: DOS 5 File Compare Utility
-* Comments: 
 
 ## Hashes
 
@@ -58,9 +57,6 @@ FC: Insufficient number of file specifications
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

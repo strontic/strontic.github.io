@@ -6,7 +6,6 @@ title: imjpuexc.exe | Microsoft IME
 
 * File Path: `C:\windows\SysWOW64\IME\IMEJP\imjpuexc.exe`
 * Description: Microsoft IME
-* Comments: 
 
 ## Hashes
 
@@ -44,14 +43,6 @@ IMJPUEXC REMOVEAUTOTUNEDATA	IMJPUEXC SETFILTERDICT
 IMJPUEXC GETFILTERDICT		IMJPUEXC REMOVEFILTERDICT
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

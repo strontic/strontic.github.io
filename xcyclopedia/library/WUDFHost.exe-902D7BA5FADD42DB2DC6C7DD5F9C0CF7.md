@@ -6,7 +6,6 @@ title: WUDFHost.exe | Windows Driver Foundation - User-mode Driver Framework Hos
 
 * File Path: `C:\windows\system32\WUDFHost.exe`
 * Description: Windows Driver Foundation - User-mode Driver Framework Host Process
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `2E9EDAC8AD372BD9ADFFE852A18F5FBD25DE804C0CA39C2F5B88365CC443C138`
 SHA384 | `FE7A8F017E45C30E6D6A7F24ED8C88CEC4B8EF3E773463DFA8A6986A410C166BE77EDA3E50ED952FEAD6B571ACAFBCBF`
 SHA512 | `C017AE2EEFAA459E20678C300D399811A525A0B78D75B850858E03711A4BAFC063B29695848ECCABFEAC6B009D8C4B1EA89A31D1A81E6C51D93AA22B96B0236A`
 SSDEEP | `6144:zPyPToujGJt70lxeD8gBwPZGp6I+zkY5oU+xCK0/v:zPETQIlED8gaZJk8/v`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

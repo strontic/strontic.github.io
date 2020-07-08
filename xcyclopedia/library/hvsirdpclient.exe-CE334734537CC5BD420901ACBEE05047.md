@@ -6,7 +6,6 @@ title: hvsirdpclient.exe | Windows Defender Application Guard Manager RDP Client
 
 * File Path: `C:\WINDOWS\system32\hvsirdpclient.exe`
 * Description: Windows Defender Application Guard Manager RDP Client
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9EE4AC9EAC87954A06C06542ACF49149C1ACB7BC1F2DD939EEF110D67C687C85`
 SHA384 | `ABF4CC3122500F2C1DE8356B0C8FB4320A6A474C64E3DE686005F5448BD3409FA19F00202816EEF372D8507978115DB3`
 SHA512 | `81A3D5248F575A63C8C52D28E898805A538DEB524EEC21D84BCE62BA2743C8EEF97A3B511826AB2980956BA6A1732397D5DF68DD70A2956B66346A4C63B985B1`
 SSDEEP | `3072:BW0Mr3wvM8yk4rimBjmR7huIxmvRD0upcsruRc/nZRaZIyrxZU8GkZ2z:BW06N8Uj8dxmvRocuRcvIxZU8U`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

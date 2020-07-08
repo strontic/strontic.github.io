@@ -6,7 +6,6 @@ title: SmartScreenSettings.exe | SmartScreenSettings
 
 * File Path: `C:\windows\system32\SmartScreenSettings.exe`
 * Description: SmartScreenSettings
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `2A83D0563431D686222F93E53E3699054A447887CDAED5DD1596F8F3993653CE`
 SHA384 | `07009B71C9688787959C02987CB282E413F08B75679B03A6F44BFAB80ABF51D2B2D5CD31BB8DA192C0E1D16BF2DA9927`
 SHA512 | `5B47C8A1A6E346B0FB3735057726F6A7C1B7A1D6689C949DD09B70E6AE090CE22620B3523637E7906D7433816573EA8798A714685BC1B76892CB7888ABEC031D`
 SSDEEP | `3072:aaSTp0rcKl2MXtPofEeRNywSuMpCkQ/D+Vm/JYpW+j:aagmrp2MXt6Vkw7YrQiVZA+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

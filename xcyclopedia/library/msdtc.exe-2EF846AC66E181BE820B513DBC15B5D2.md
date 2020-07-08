@@ -6,7 +6,6 @@ title: msdtc.exe | Microsoft Distributed Transaction Coordinator Service
 
 * File Path: `C:\Windows\system32\msdtc.exe`
 * Description: Microsoft Distributed Transaction Coordinator Service
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `EDFE71025C352D0DABEC7B9506C5945BB0EC11F8DB540DB8CB1116C2EA1648A8`
 SHA384 | `BA601A97F69630626939298014FFCD764B0CF4D936A02814145BA18EE4A5EFCD55F699EDD2ECFDD5BC551C4548F65BE3`
 SHA512 | `2587ACD723F515EB8FA1DD7016647079FD7AF2A1C32F92FF344766803D524D9820BEBAF21DAA3B3D3556D2DB8AB956A8A1682EAA46ABB9B04A4C8E1E21321BDC`
 SSDEEP | `1536:vOKf3ewElEA4yattFzRFZzi1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lc:GNlOxzvv7fcmEAkyXiqc`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

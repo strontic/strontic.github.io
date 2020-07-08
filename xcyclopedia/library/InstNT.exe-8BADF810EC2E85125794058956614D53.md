@@ -6,7 +6,6 @@ title: InstNT.exe | TouchPad Driver Installation Application
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\InstNT.exe`
 * Description: TouchPad Driver Installation Application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8DFB712590B20D8D1EDB7178E71EC9A5BE4EA6004A5FF108678EC91C0EC95D2B`
 SHA384 | `A80008EB045CC3BB9A95C337E29D97D571186BFC7F5987E17795743D1C10193559ED10E444059B27E6C8151BB406B75A`
 SHA512 | `390739251E42A2A05861F9D70596C5CF9433091A1CA051BA77514EB22EA551D93874A663E2AA25D5C21E4D0BDD76B5576D62A8DFB578250D8D79777A0E06AD7E`
 SSDEEP | `6144:25yg3DcnG5sbr4Td21basT+ke7/65YPK4jhWayIgVV:qyg3gnG5s/4sMv/bK4jhLgr`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

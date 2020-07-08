@@ -6,7 +6,6 @@ title: CredentialUIBroker.exe | Credential Manager UI Host
 
 * File Path: `C:\windows\system32\CredentialUIBroker.exe`
 * Description: Credential Manager UI Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C8442825955EDC99C4554B73EFDE720FA43B249E6A91FDB7318EA9927B83F309`
 SHA384 | `24E6DFF5327D73CFF17117EE093BDA2B6CCC5FD47C101B41D7D3E2021467A98F407833FF34905BA0E762F24C7375982C`
 SHA512 | `5CC3993E0BD8159CD7491FD61EBE8E85C3F28B75FDB1CBB2CAA5859AB91FBB708380899CBA71C8AB68D30CABD8AA13582E510C8E45F67932D636D55B3B566A9F`
 SSDEEP | `768:eKcVnqVj4vjUvlT5DqkWWgR5xy0JeeogbuR+wFXnY1PoA4N:e4huTk6xpog6R9XgPiN`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

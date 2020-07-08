@@ -6,7 +6,6 @@ title: PktMon.exe | Packet Monitor
 
 * File Path: `C:\Windows\system32\PktMon.exe`
 * Description: Packet Monitor
-* Comments: 
 
 ## Hashes
 
@@ -49,9 +48,6 @@ Unknown command '-help'. See pktmon  help.
 
 ```
 
-### Child Processes:
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -71,6 +67,13 @@ Unknown command '-help'. See pktmon  help.
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `PktMon.exe` being misused. While `PktMon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_pcap_drivers.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/other/win_pcap_drivers.yml) | `          - '*pktmon*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

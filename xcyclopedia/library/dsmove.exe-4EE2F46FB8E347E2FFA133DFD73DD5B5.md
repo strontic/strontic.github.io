@@ -6,7 +6,6 @@ title: dsmove.exe | Microsoft AD DS/LDS move command line utility.
 
 * File Path: `C:\Windows\system32\dsmove.exe`
 * Description: Microsoft AD DS/LDS move command line utility.
-* Comments: 
 
 ## Hashes
 
@@ -113,9 +112,6 @@ dsmove succeeded
 dsmove failed:Value for 'Target object for this command' has incorrect format.
 type dsmove /? for help.
 ```
-
-### Child Processes:
-
 
 ## Signature
 

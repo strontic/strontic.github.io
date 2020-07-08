@@ -6,7 +6,6 @@ title: esentutl.exe | Extensible Storage Engine Utilities for Microsoft(R) Windo
 
 * File Path: `C:\windows\SysWOW64\esentutl.exe`
 * Description: Extensible Storage Engine Utilities for Microsoft(R) Windows(R)
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3DFA41F89ABFEB121BF98D70A94C4C7F01960E8D48195AE82C7045DAB46F7366`
 SHA384 | `193080C3A7CD849613A80577F7A66F00A17DE92C582033176A212A4292EB64A2C9CE969DF2341D7E4B51E61EBB58581D`
 SHA512 | `94CEC8FD27B1227455FD747FEA0A34CFE7C4335A6D0D180F0E3BD580842A527882704D6DDD5B6BA62B162ACB27ABF62EEC3333AF4299B8CA0AE24BFEBCD3EB1F`
 SSDEEP | `3072:d3fxCdL/4n2T6ZVVxmL/GrdTobO2tQ8YE82WAZj4QPJgYzWexVwuUg+L9G40jQLW:dERGritQ8YE82WmjkUzCvLKJFc2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

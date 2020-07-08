@@ -6,7 +6,6 @@ title: dcdiag.exe | Active Directory Domain Services / Lightweight Directory Ser
 
 * File Path: `C:\Windows\system32\dcdiag.exe`
 * Description: Active Directory Domain Services / Lightweight Directory Services diagnosis utility
-* Comments: 
 
 ## Hashes
 
@@ -231,11 +230,6 @@ International or
 	Unicode characters will only display correctly if appropriate fonts
 and
 	language support are loaded
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

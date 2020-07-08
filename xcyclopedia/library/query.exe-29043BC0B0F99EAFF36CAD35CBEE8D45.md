@@ -6,7 +6,6 @@ title: query.exe | MultiUser Query Utility
 
 * File Path: `C:\Windows\system32\query.exe`
 * Description: MultiUser Query Utility
-* Comments: 
 
 ## Hashes
 
@@ -33,9 +32,6 @@ Invalid parameter(s)
 QUERY { PROCESS | SESSION | TERMSERVER | USER }
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

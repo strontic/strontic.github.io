@@ -6,7 +6,6 @@ title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
 
 * File Path: `C:\WINDOWS\SysWOW64\CheckNetIsolation.exe`
 * Description: AppContainer Network Isolation Diagnostic Tool
-* Comments: 
 
 ## Hashes
 
@@ -40,14 +39,6 @@ Usage:
       
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

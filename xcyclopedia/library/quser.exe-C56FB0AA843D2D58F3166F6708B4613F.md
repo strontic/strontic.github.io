@@ -6,7 +6,6 @@ title: quser.exe | Query User Utility
 
 * File Path: `C:\windows\SysWOW64\quser.exe`
 * Description: Query User Utility
-* Comments: 
 
 ## Hashes
 
@@ -49,9 +48,6 @@ QUERY USER [username | sessionname | sessionid] [/SERVER:servername]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: eventcreate.exe | Event Create - Creates a custom event in an event log
 
 * File Path: `C:\windows\SysWOW64\eventcreate.exe`
 * Description: Event Create - Creates a custom event in an event log
-* Comments: 
 
 ## Hashes
 
@@ -82,9 +81,6 @@ ERROR: Invalid argument/option - '-help'.
 Type "EVENTCREATE /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

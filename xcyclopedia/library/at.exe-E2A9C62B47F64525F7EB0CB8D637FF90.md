@@ -6,7 +6,6 @@ title: at.exe | Schedule service command line interface
 
 * File Path: `C:\WINDOWS\system32\at.exe`
 * Description: Schedule service command line interface
-* Comments: 
 
 ## Hashes
 
@@ -56,14 +55,6 @@ time               Specifies the time when command is to run.
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

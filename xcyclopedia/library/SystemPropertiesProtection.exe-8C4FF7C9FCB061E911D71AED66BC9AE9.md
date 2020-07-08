@@ -6,7 +6,6 @@ title: SystemPropertiesProtection.exe | System Protection Settings
 
 * File Path: `C:\Windows\system32\SystemPropertiesProtection.exe`
 * Description: System Protection Settings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9F97EB9B0E80CDBF6D8CEE98A65AB3E99DD70ED5ED55BF8C8031D9193258DBD5`
 SHA384 | `A8E903411CA7E7B1E8D5F84790884B86961582AF79380FC40452FF41DB2E719C28A4F14B238D84779E09D1A7C72918EC`
 SHA512 | `0AB162689D68828BC986D8A428E8C54B18639521871A42BA764FA886323934031FB151AF909FAD7C39D2AA470AAAEE9F2D2380E25029A6759B991B6B14D5798B`
 SSDEEP | `1536:DZG8tREC/rMcgEPJV+G57ThjEC0kzJP+V5Jg:U8zECTMpuDhjRVJG2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -131,6 +115,13 @@ File | Score
 [C:\WINDOWS\SysWOW64\SystemPropertiesRemote.exe](SystemPropertiesRemote.exe-D985E417E6A4708D4241BB3D2C715AE4.md) | 85
 [C:\Windows\SysWOW64\SystemPropertiesRemote.exe](SystemPropertiesRemote.exe-E5BCE633925BF7A1AD38E75DE332E749.md) | 88
 
+## Possible Misuse
+
+*The following table contains possible examples of `SystemPropertiesProtection.exe` being misused. While `SystemPropertiesProtection.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | 		$s14 = "SystemPropertiesProtection.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

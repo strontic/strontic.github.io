@@ -6,7 +6,6 @@ title: wevtutil.exe | Eventing Command Line Utility
 
 * File Path: `C:\windows\SysWOW64\wevtutil.exe`
 * Description: Eventing Command Line Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `27A835C4F4C7B44482F991FE82B7163D32FDB4A4B01C9FCF31724789F5017309`
 SHA384 | `F0AD24B0B15CBFA7013358EAA810F8AB679EC7ACF7736FDAB72A2071BDF4FE5345F0783B8585F1EC94681BCEC7820DCC`
 SHA512 | `6BACD7E79D15727D4DBC0CBC42879BF57803ED4C7AD691EA02755F06455FB3F4663703628DDBFD396BD17857559912D26752D0455A0A0A233841A2F2BE05682C`
 SSDEEP | `3072:+nBogny/ccewDuHWdR7oLlqsX4N1jrQawDg2aHBMJKjrb/TTf4eI:+nBogny/ccewSqz/rb/Ti`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -72,6 +56,11 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551.001/T1551.001.md) | * <code>wevtutil cl application</code> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551.001/T1551.001.md) | * <code>wevtutil cl security</code> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551.001/T1551.001.md) | wevtutil cl #{log_name} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $a = "wevtutil clear-log" ascii wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) |       $s1 = "('wevtutil.exe el') DO (call :do_clear" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) |       $s2 = "wevtutil.exe cl %1" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) |       $x6 = "wevtutil cl Setup & wevtutil cl System" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_recon_indicators.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_recon_indicators.yar) |       $s18 = "wevtutil cl " ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

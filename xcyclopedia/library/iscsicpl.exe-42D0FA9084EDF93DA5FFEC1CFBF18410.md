@@ -6,7 +6,6 @@ title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
 
 * File Path: `C:\Windows\system32\iscsicpl.exe`
 * Description: Microsoft iSCSI Initiator Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F172D2F71EB88FD70F1BDBF2F2BFEFFD8C09BA03DAEE8A182C47AE77DB1A4DDA`
 SHA384 | `C582BB2EE3F24501DA921E74F65FBC306D9A98A30639D84DDA6A0088A1AD76E782A65DB6491B925A63880DF4B122F55E`
 SHA512 | `B76857D9006B6471AD9CAFDD2E68EEA08F10B2AEF4AFE424C712E42E0EC4D5E580314491D420D133F2CC4A69F3C71DAEF505D5B27D67ECCD994D68BD4C4AE430`
 SSDEEP | `3072:STmFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:SRX8I0jct5rEJdp`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

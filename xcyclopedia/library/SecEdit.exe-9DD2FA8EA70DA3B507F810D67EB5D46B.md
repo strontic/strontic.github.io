@@ -6,7 +6,6 @@ title: SecEdit.exe | Windows Security Configuration Editor Command Tool
 
 * File Path: `C:\WINDOWS\SysWOW64\SecEdit.exe`
 * Description: Windows Security Configuration Editor Command Tool
-* Comments: 
 
 ## Hashes
 
@@ -27,14 +26,6 @@ SSDEEP | `768:zrQ3EZ8qSNqD7zQzXEPGDuYJqT7/pXkI:/TZ8qSCEzUPGDujV`
 You do not have sufficient permissions to perform this command.  Make sure that you are running as the local administrator or have opened the command prompt using the 'Run as administrator' option.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

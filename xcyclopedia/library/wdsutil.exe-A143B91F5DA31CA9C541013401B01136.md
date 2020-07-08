@@ -6,7 +6,6 @@ title: wdsutil.exe | Windows Deployment Services Management Utility
 
 * File Path: `C:\Windows\system32\wdsutil.exe`
 * Description: Windows Deployment Services Management Utility
-* Comments: 
 
 ## Hashes
 
@@ -126,14 +125,6 @@ For help with a specific command, type 'WDSUTIL <command> /?' where
 <command> is one of the commands listed above. For example: WDSUTIL /Add /?
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

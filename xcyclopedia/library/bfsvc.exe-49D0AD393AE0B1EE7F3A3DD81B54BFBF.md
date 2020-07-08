@@ -6,7 +6,6 @@ title: bfsvc.exe | Boot File Servicing Utility
 
 * File Path: `C:\windows\bfsvc.exe`
 * Description: Boot File Servicing Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `021C4C6F8C3C1C0E5C40D8E1BF40EA5EAE08CC8551E86015BEC4896468383444E51EE2
 SSDEEP | `1536:Qc6e7U9ENdy1qvblmlg7YgEXrP4lqRm3EWuCgzJ9vFLewg2b:Q8E8vblwjXjtm3SvFzewl`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

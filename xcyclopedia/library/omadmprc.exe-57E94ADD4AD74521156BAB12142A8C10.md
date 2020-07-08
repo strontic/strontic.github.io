@@ -6,7 +6,6 @@ title: omadmprc.exe | Host Process for Push Router Client of OMA-DM
 
 * File Path: `C:\windows\system32\omadmprc.exe`
 * Description: Host Process for Push Router Client of OMA-DM
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1EEF86C7E1736D42DC5C061D7FA29D6DB13BF4B0FEC0136A6A172735686B1F1C`
 SHA384 | `567DAEDCE0C5410648DC1883317CFF28B34756A262C48A38F0F0EDEF2A659B3A3005A2B0F56A7ADF44CF57BE00EF854E`
 SHA512 | `EDDA17548CB01ECD28F5D4339563C7504BC34CBD606B2EDB48A49DBA1DB78C2A58A997B393252985F921DF3214B5561A5F3C5FE1D5D74DEBABAEFB50ADE0AD12`
 SSDEEP | `1536:3/ywGvuhy/a9FEQZ2nrEmxv/GKr3qCh779CO+edTniyJ+GHpqc9TYS:z8u2O2xvesp1+edTniGbUc99`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

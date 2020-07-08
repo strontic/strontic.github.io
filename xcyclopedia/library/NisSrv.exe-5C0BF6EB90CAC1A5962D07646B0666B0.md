@@ -6,7 +6,6 @@ title: NisSrv.exe | Microsoft Network Realtime Inspection Service
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\NisSrv.exe`
 * Description: Microsoft Network Realtime Inspection Service
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A9C1546530183F9AF38F38ADAA531DF514E1E35EB62FC289D7F7AF27551D1979`
 SHA384 | `05D0FE53592BBB78070BC1CA40BE42E04D91EACDED594AFAF9AA8EE53CE63B176086240D30B9D5BC872A8D6554C76DE2`
 SHA512 | `3A811894467E8BAFD77F1028C269B15AEF38A7E48DABACE4A0EA1AE9E4F50C26824C5DC7F9E1C9941782CF7CB3A4B3C8E4CA0A2829C59BBAB283E3BAC8043E22`
 SSDEEP | `49152:2k5mE897MNoMDbRTbkLIOjVvNwWZQ+RzUM6yC8r37Uncpgt:DcEgF2W6+FUqr37Tpgt`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

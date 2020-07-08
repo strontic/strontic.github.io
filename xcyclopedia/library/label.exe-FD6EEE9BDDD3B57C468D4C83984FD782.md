@@ -6,7 +6,6 @@ title: label.exe | Disk Label Utility
 
 * File Path: `C:\windows\SysWOW64\label.exe`
 * Description: Disk Label Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `916981FA577F28DB734F0F0CED5C50A1371B0654ADDE0F6F286B4A19C2924AB4`
 SHA384 | `914247C1642D82497CA41A1A11F8F57400FFFA23582780DBDFA21AEF696169391B6532558684752E4DB89AB00621F57F`
 SHA512 | `514F79E10AAB282DEF25BF83A39D6BD8C4AF39BCCE1833A3207C00613EBA26BFAD8267762AB0739008FCF288DB054D55DB62FF9DF9E7129C0B1690CCE8C5F75F`
 SSDEEP | `192:lsV+wijYL+HmvMC0XaENmTWeDWBC6zHGZbk5C10F8vkYWSUjWQOh9Cy:lsij1XaE+0t7GCxXYWSUjWQOe`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,14 @@ SSDEEP | `192:lsV+wijYL+HmvMC0XaENmTWeDWBC6zHGZbk5C10F8vkYWSUjWQOh9Cy:lsij1XaE+0
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `label.exe` being misused. While `label.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_Excel4Macro_Sharpshooter.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_Excel4Macro_Sharpshooter.yar) |         // ' 0018     23 LABEL : Cell Value, String Constant - build-in-name 1 Auto_Open | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_win_privesc.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_win_privesc.yar) | 		$s1 = "<Label x:Name=\"lblPort\" Content=\"Port:\"  HorizontalAlignment=\"Left\" Height=\"28\" Margin=\"10,0,0,0\" Width=\"35\"/>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

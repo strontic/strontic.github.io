@@ -6,7 +6,6 @@ title: ktmutil.exe | Kernel Transaction Management Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `192:L7RP5w/3p4VZycwkCdwGZpvCBzqtQrdl/6qWuR2m1k+W+jWyI:/RP8SZycLSpvC9qt
 The KTMUTIL utility requires that you have administrative privileges.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

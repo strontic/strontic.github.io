@@ -6,7 +6,6 @@ title: RelPost.exe | Windows Diagnosis and Recovery
 
 * File Path: `C:\Windows\system32\RelPost.exe`
 * Description: Windows Diagnosis and Recovery
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `509A5A06F26E7CD8FED50D39D36D32D617887F04FDD8EDC2546254DF61C1132F`
 SHA384 | `61EE458F783F495843ECF18C03EF3D416D479CB1EB55D59B786C13A05C023389A34EF5A3DBF054E2EE548ADA1A5DC6D8`
 SHA512 | `52574C86E8216E4A2A9D779399E7921EF54DDD7E8EF33CBE528B2A07058615836BDA6E3B5F941BB977CD378EBA20224B1003042C7EF23B374882CDED78AD3127`
 SSDEEP | `3072:xyFp9kpKealesPggZISSa7Je3xNZopLGnAuegPO8evTq2V:mp9kpKpelINJOtFegEv+2V`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

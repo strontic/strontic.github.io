@@ -6,7 +6,6 @@ title: klist.exe | Tool for managing the Kerberos ticket cache
 
 * File Path: `C:\windows\SysWOW64\klist.exe`
 * Description: Tool for managing the Kerberos ticket cache
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `7A26E6A8B69F50C68697B101842A799BCCAF1F3AE8D3322C96AB6AAEF34C464D`
 SHA384 | `C3AFD91AF886DC05124B3C82F3001AC532BA51C36A4C6E2839F7F314F3AD50ED0B3E3FB2D53EDC270FD5D9C5490E353C`
 SHA512 | `9DBB31B5E808A4FDA316F69921AAF5EECDB56F379CB3AA10D47C2E489A11AC5A8BB28F978E823949D60F77E88D52096839D1A6DE5F08644C67F3BFBE0921B9E6`
 SSDEEP | `768:tQ8Fci4KOBa1oqsDzXz1bYG1KO/GTxgBQ:6jXztKO/GV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

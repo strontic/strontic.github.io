@@ -6,7 +6,6 @@ title: AppVClient.exe | Microsoft Application Virtualization Client Service
 
 * File Path: `C:\Windows\system32\AppVClient.exe`
 * Description: Microsoft Application Virtualization Client Service
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `03BC40C526BA6C67474DF13A61D724F7E01C39342D66C5F4BE7FC3F8A0F5A662`
 SHA384 | `564D2BD90F9DEF1F8320EC9306249C01140598728F587A69B4BCD643C67ACC0D0D87C8339546B66280A83172C028B758`
 SHA512 | `61A84E54EB5B2D65B400BF67E2CAE5687139EE5B2B25B6BE3758D973F6CA56CBA2DFAA54CE3192CE69393B128249A6D13FD2048C0E7FF7FEE43A33DC4CF71F37`
 SSDEEP | `12288:5ph5FaYjJB0ZFLyFrwGZxW6jSYwdFBqJGNUbTpqGCICumH83M2X:f7F5f0ZJyFrwGvW6jSNdFBqTqGCICumK`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

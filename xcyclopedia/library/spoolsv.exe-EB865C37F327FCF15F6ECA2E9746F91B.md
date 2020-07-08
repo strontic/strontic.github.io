@@ -6,7 +6,6 @@ title: spoolsv.exe | Spooler SubSystem App
 
 * File Path: `C:\Windows\system32\spoolsv.exe`
 * Description: Spooler SubSystem App
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C37A2C7CBCB14C5686BC8DD195CB1DBEFAA6E664CF020EF32FDBC997D5AF9314`
 SHA384 | `8D5F0CBD7080E2D84F7D7BBAE2A890B32DB1F4DF3B438EDBF94073493A9321DD2B4035CDBA2B60D490A950314BD81E7D`
 SHA512 | `5DE30E5D04420666DB27783A5DBB400356F05821B2BC8C2B7CC84C730626DBDA652DEFAA4390E171A03D429C52BE244ECAB686BA820360E9B90C4D7D6D1023D0`
 SSDEEP | `24576:9q12UfvBgw/56iB9u4KiJqQblmEAzI+3WBx5+/keN7KNXa:0kUfpgw/56iB9u4KiJqQblmEAzI6k1NK`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -65,6 +49,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1489.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md) | This technique was used by WannaCry. Upon execution, if the spoolsv service was running "SUCCESS: The process "spoolsv.exe" with PID 2316 has been terminated." | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1489.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md) | will be displayed. If the service was not running "ERROR: The process "spoolsv.exe" not found." will be displayed and it can be | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1489.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md) | \| process_name \| Name of a process to kill \| String \| spoolsv.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         description = "Detects uncommon file size of spoolsv.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         and filename == "spoolsv.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

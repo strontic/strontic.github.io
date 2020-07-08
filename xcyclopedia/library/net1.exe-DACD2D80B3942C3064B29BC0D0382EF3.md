@@ -6,7 +6,6 @@ title: net1.exe | Net Command
 
 * File Path: `C:\WINDOWS\SysWOW64\net1.exe`
 * Description: Net Command
-* Comments: 
 
 ## Hashes
 
@@ -58,9 +57,6 @@ NET
       STATISTICS | STOP | TIME | USE | USER | VIEW ]
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

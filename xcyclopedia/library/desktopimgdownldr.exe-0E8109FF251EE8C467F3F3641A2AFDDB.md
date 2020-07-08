@@ -6,7 +6,6 @@ title: desktopimgdownldr.exe | desktopimgdownldr.exe
 
 * File Path: `C:\WINDOWS\system32\desktopimgdownldr.exe`
 * Description: desktopimgdownldr.exe
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `AAADA36880E08C0B37ED6A1F6FF605144C650D987C0F8049347E9DD5A04CDB4E`
 SHA384 | `5B08CAB01899FA32A2DA507D98D2101EC54C970EE365C59068AC8C8EDC91457938A534EE9C05E34ABE36AE79C69C5978`
 SHA512 | `6F6B03B8AF1B6CE81483994899917686B9A09B7F54BA694D9B3DA656BA3E36D6B142AD5A1828F9C2163E9BF0CCFE72E9D506F30A2584A991FAE7848767DF8750`
 SSDEEP | `1536:hAN+bWaVooo4ooPMf8uolZlaEUuYUK1aZT7nV:xLSNdoPk8Fl2EdYHU57nV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

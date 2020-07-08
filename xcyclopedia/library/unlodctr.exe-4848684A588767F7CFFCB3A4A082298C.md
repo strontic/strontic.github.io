@@ -6,7 +6,6 @@ title: unlodctr.exe | Unload PerfMon Counters
 
 * File Path: `C:\windows\system32\unlodctr.exe`
 * Description: Unload PerfMon Counters
-* Comments: 
 
 ## Hashes
 
@@ -49,14 +48,6 @@ Note: any arguments with spaces in the names must be enclosed within
 Double Quotation marks.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

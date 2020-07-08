@@ -6,7 +6,6 @@ title: powershell_ise.exe | Windows PowerShell ISE
 
 * File Path: `C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe`
 * Description: Windows PowerShell ISE
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `CD65AE1EBB2B8EE7DEA364729A14D3CF4221C0EA9156B55A84EAD138F5C146E3`
 SHA384 | `C9496564E48385EB4893442774D71DB39FDA2791FA59AF6A9920623900B982B099EEE4B0C8BDD67AFBD1D41A37698355`
 SHA512 | `2BA7211B7586D5C14602209B858F7ECBA42A901B1287C0B773118D62799E75CCF0618535EB600F959FBF81226060CCB6F83E89B08AF80795731FAECB440B0278`
 SSDEEP | `3072:bwUkVjGPsw40vLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLa6:bfk+uZToIuUXmmZbgDooMz`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

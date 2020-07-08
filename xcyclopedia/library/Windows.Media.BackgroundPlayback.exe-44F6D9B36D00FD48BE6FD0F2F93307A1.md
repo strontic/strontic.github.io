@@ -6,7 +6,6 @@ title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
 
 * File Path: `C:\Windows\system32\Windows.Media.BackgroundPlayback.exe`
 * Description: Windows Media Playback EXE
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F1675AEC9BE46208FBAFA4D6BB389F61C89B1F6059E15CA1C4390EBA9F7C03AC`
 SHA384 | `484BFB61760F6317F691FDD4B11BCA3A20F5CA7DD61B7274110AB9AA0798015F08E8481BE388327FAB6B2E56EBAF700A`
 SHA512 | `EE72E9EB80B3AD8C8BC02026FD7D8D7307BBD3F4CC0334A326FC3649897227DFAF9A07D16DE84BD3B792B9784B96848B384D6376D66FA463EF8AFC843158213A`
 SSDEEP | `192:BIVYCOELtatxHyzLfscOLViBYA8OzyMpJgXGSjqOsJD1h7re0Hm1zaDW+5Wk:BISdkctxHsLtiV25bHgXJQtHMGW+5Wk`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

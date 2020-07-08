@@ -6,7 +6,6 @@ title: AppHostRegistrationVerifier.exe | App Uri Handlers Registration Verifier
 
 * File Path: `C:\windows\system32\AppHostRegistrationVerifier.exe`
 * Description: App Uri Handlers Registration Verifier
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `619E84381F1387B59B623ECF8E8CE46F661C2E6F41A5CA908AC670F180EA7DFF`
 SHA384 | `74E36E9E302D10C1AAFCEE343DF8B0519A33B3FF29C6408E5F8AF0E28BA42EBB5F66E4314A916AA77A5DDEBB1EFF79F5`
 SHA512 | `46E6061750A5D5503FB67E4811941B8270197DE8A7B2948CE69CB421E1F7364D23440783A9081484E1D2FF0954E3561605FB6B9CFB8C7E983B1C2DE7DE878F57`
 SSDEEP | `3072:VbGud/LlijmvSU4E6ilAODb+r7RNDrMqIvq5fAf/:BGgLlmvJiZvK7MBb`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

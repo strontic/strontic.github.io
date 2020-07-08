@@ -6,7 +6,6 @@ title: VC_redist.x86.exe | Microsoft Visual C++ 2015 Redistributable (x86) - 14.
 
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\vcRedistD14\VC_redist.x86.exe`
 * Description: Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23506
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `4FF07492947C3E52607AA8DE0C241898AA35C439C442DE1CEA5D17DE5B7C7F01`
 SHA384 | `8085C9EA1155F07E79317F0DFC56EA4198F700A72FDE200F06D9FE97D4055DBB69EFE50973036E2193465ABA75DFC20E`
 SHA512 | `DBD4023D3919FFCCA2D21FF01BECE68BC58004B966F0484EEEF54FAC0192CED1601859DD72F2214A38DC53C2C18582B74711D8B80E4BAC60B9A6AD03B72FE803`
 SSDEEP | `393216:Yklp+dkBSuF2SfUfn6vVq0kv6+LMIdl/zkP2vq4qn7:tp+Ty2SfUfnwUvxAIdlxvnqn7`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

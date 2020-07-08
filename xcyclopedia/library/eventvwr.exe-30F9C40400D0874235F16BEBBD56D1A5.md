@@ -6,7 +6,6 @@ title: eventvwr.exe | Event Viewer Snapin Launcher
 
 * File Path: `C:\WINDOWS\SysWOW64\eventvwr.exe`
 * Description: Event Viewer Snapin Launcher
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `9EFC59144E49A6C2A08A890310D58FE7279C26E13BC1C7CF346E4DFBCC30DBD5`
 SHA384 | `52FDA8C6671B1934B706A85E2760D4ABF942D00C237C14C7680A0CA1657E0F789ADE811C8895D8CCB23E10BBABD08C37`
 SHA512 | `7B8E9579357093C875566354FBB77DD8BD5787D1ADEE5E38C28C64003125088080E563305C6DD579A2A144AEA937953CFD35082FD4D6D8C1AB48A21722A6FFFF`
 SSDEEP | `1536:ORsuhIMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY1a:23lhzslTZJ9j7Heb8C1a`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -95,6 +79,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | cmd.exe /c eventvwr.msc | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | PowerShell code to bypass User Account Control using Event Viewer and a relevant Windows Registry modification. More information here - https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/ | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | Start-Process "C:\Windows\System32\eventvwr.msc" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar) | 		$s12 = "eventvwr" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

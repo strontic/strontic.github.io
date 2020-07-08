@@ -6,7 +6,6 @@ title: WSCollect.exe | This tool collects Windows Store log files
 
 * File Path: `C:\Windows\system32\WSCollect.exe`
 * Description: This tool collects Windows Store log files
-* Comments: 
 
 ## Hashes
 
@@ -33,9 +32,6 @@ Done.
 ERROR: The system was unable to find the specified registry key or value.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

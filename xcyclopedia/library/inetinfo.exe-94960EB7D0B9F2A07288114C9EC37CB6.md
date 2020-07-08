@@ -6,7 +6,6 @@ title: inetinfo.exe | Internet Information Services
 
 * File Path: `C:\windows\system32\inetsrv\inetinfo.exe`
 * Description: Internet Information Services
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5F4C607F64ACEE3B3300C8E4EC360FA69C01681026E681A7F9297E446F55816B`
 SHA384 | `6F52C7E193403F551F32A5D8B6404F918D132715EB7F7DBEC0421076342E2D9E94A864E9298B029179A6860AA1B423ED`
 SHA512 | `25AFD6A878A6D7BAF8D8E0D154E974CA4F5CC817F9A17F498969A543628EB905BED4E15612E632DC41B0829204C4ECF760EAAB01648F740EC89428779FBC0472`
 SSDEEP | `384:Bci8FfBq3IyPukZq/JhK788exOSO/3WnX:Bt89U3akcrKGoSg0`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

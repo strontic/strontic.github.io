@@ -6,7 +6,6 @@ title: windeploy.exe | Windows Deployment Loader
 
 * File Path: `C:\windows\system32\oobe\windeploy.exe`
 * Description: Windows Deployment Loader
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `7C45A477B27643ED3F0BFB053792846C7761E31B58DB2AA42F24971768D4694B`
 SHA384 | `65151587B5B0034C9FE10347CFFCDCEDB4CD40F61C77CB141C8A49AF1E24DC7BABC014FB72AC681EF801C34643F4253F`
 SHA512 | `41B15F52DFD9B6B18F553CB719DBF09F2650B587CC70E5AF294E1D1498586B9B472737BF4CAAA936C6CAF96B790931E16CC86A471C1F51AAA07619CD7C0DD5EE`
 SSDEEP | `3072:hWaxiWwNc6NrSd3lx3I1+cMx07usQXhszeqe3Pni2:haFNcWrSd3lxY1+cIgesai`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: credwiz.exe | Credential Backup and Restore Wizard
 
 * File Path: `C:\Windows\SysWOW64\credwiz.exe`
 * Description: Credential Backup and Restore Wizard
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `2156279EAC34CC622F755766DE61090290FF8B0960EBB46B03038AE321B3566D`
 SHA384 | `C741910F4F9D932244AA155C0B596B59218100B2DDEFFF772EAFDA72FE8D873C186022B3F3565805CBC5A8A29E94D283`
 SHA512 | `BC919B76D0DC34AF5156D170BCDC80D46218810D144FCCEBA7ACDF0AA6069C9B66569750CDD2DEDC4B503A0A823C57CEB169F0441E552161900E6E7601EFB3C9`
 SSDEEP | `384:yuFGSBYpI5xk2SJUkU3ij/PofixfO/gJ+N+4sV6Vey6Yr9jKmZzPzWN5WrNuimn:v1YbKyj/P4InJBjk6A9j1Zbe5/n`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

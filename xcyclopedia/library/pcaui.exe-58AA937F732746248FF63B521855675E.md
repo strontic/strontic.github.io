@@ -6,7 +6,6 @@ title: pcaui.exe | Program Compatibility Assistant User Interface
 
 * File Path: `C:\windows\system32\pcaui.exe`
 * Description: Program Compatibility Assistant User Interface
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `39817B66C11DAD6D7A5B606C7146CC8B6590371AC3A942D700D2EA3E4BC3FF1F`
 SHA384 | `0193AE70CBCBCCCAEE149D543D87E547716C9D98C7F35E018B21FE6E11FC4EE947ED3E945BDC0A56EEE685A82AA631A5`
 SHA512 | `E98A4F3B5F4113F662FDE51371D2D90F818EFC369BAE979742BBE83C23B9B398C45067DB656E1BB072FAEDF43254CA0D9FEE8DE91BF229996FC624511954A156`
 SSDEEP | `3072:Yk5BaNPMsZzaNRNQQE6ef5POfQEpRZWQiPWgvP9lcZ9uD3P0hLGvySHqT:Xn+kia/QQYQokWQiOgvP9qiySHq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

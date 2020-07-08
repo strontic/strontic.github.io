@@ -6,7 +6,6 @@ title: Dxpserver.exe | Device Stage Platform Server
 
 * File Path: `C:\Windows\system32\Dxpserver.exe`
 * Description: Device Stage Platform Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `55B7E34965532077A36B9641C9E8D70AEA2AAE40AFE8D53F56E0CC9B5F36A96D`
 SHA384 | `CD32D692DB2F56AF48711C5A21F5E66B9CABE1294EFCF67138084A6CFBBD1F6C46FA7F35FF3EED9BF3E0BF53729A6D38`
 SHA512 | `26B661ECE8F0EAAF9561607DF5C7D5E144173A145A1B522E801E4FB62BC98BFBC8B58BA0778280C82809C07AF4674D2BE67CE537AFFA77AD341DE725FA7E29BA`
 SSDEEP | `6144:rqalQGj6XpSsYeMUg0cejAUbGhXGoAA2YoqNdd:rqqQBXvGtGYhokd`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

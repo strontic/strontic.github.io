@@ -6,7 +6,6 @@ title: dsquery.exe | Microsoft AD DS/LDS query command line utility
 
 * File Path: `C:\Windows\SysWOW64\dsquery.exe`
 * Description: Microsoft AD DS/LDS query command line utility
-* Comments: 
 
 ## Hashes
 
@@ -106,9 +105,6 @@ dsrm /? - help for deleting objects.
 dsquery failed:The parameter is incorrect.:Incorrect object type specified.
 type dsquery /? for help.
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: GenValObj.exe | Microsoft Software Protection Platform Admin Object
 
 * File Path: `C:\Windows\system32\GenValObj.exe`
 * Description: Microsoft Software Protection Platform Admin Object
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `FFC29D1A0B6412AB2519DDCC11B12E2083744178820567D6B2E26EC2122FC0F8`
 SHA384 | `3E074A8AB81C636CB55FF21B3D9F079549C03E9904823ADB3DDF0567B349E061644EE2985B34E654E182B6482154986F`
 SHA512 | `1EDA4B1E10375FCB5FF26BEDCFFDEABB3B29BB13950143FDEECA012EC2B905C11F8DA6C5DD0FF278CA6A0697DF6D6234274674C76F802B5B79F4B6DD5B1C0C48`
 SSDEEP | `12288:GSjOxIqzk8mJqdZK1UCjFVx5J6QulvdhWcwOr/+EnGdpnrLWyH3xlxTtBn:GStqzk0/KJjFVx2jWlOr/HnGdhKKV5Bn`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

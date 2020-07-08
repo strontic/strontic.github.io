@@ -6,7 +6,6 @@ title: ndadmin.exe | Device driver software installation
 
 * File Path: `C:\Windows\SysWOW64\ndadmin.exe`
 * Description: Device driver software installation
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5854CCFE32F15C1FF34BE30850C4827D2CFAC39C698681016266D7A61460DBE3`
 SHA384 | `77D561DE47219D41AF93B269F824E67924EEE2DF118504B5D176448E5700010687BC28E6CF6C32140BF0D5683666C9E0`
 SHA512 | `2F900998FC19AF319654C6839CCA0DEE25FDD3A47ACFC907C8AC2688BAEEC337C1AFE8152E0ED9EE71C81FE5121691A14CBD4B535CA8739931E46B07CC28577D`
 SSDEEP | `768:pYuiqOIbjQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:pfDbjfFrGUUUUUUUUUUUU3+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

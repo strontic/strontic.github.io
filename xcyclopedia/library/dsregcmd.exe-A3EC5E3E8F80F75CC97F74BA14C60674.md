@@ -6,7 +6,6 @@ title: dsregcmd.exe | DSREG commandline tool
 
 * File Path: `C:\windows\system32\dsregcmd.exe`
 * Description: DSREG commandline tool
-* Comments: 
 
 ## Hashes
 
@@ -32,14 +31,6 @@ DSREGCMD switches
                     /debug : Displays debug messages
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

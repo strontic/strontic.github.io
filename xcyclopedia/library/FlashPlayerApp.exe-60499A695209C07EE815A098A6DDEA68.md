@@ -6,7 +6,6 @@ title: FlashPlayerApp.exe | Adobe Flash Player Control Panel Applet
 
 * File Path: `C:\Windows\SysWOW64\FlashPlayerApp.exe`
 * Description: Adobe Flash Player Control Panel Applet
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `B01E649F9DB7AAB77A45D3FC13FA7C8B40B7018FFA01AEE061C439C0FA5912B6`
 SHA384 | `EEB13A6EABFE90BBE3B25EAD4D982DB32B9C921207286FAB4FC082D1633D4D5555C41EFEBB8E93F5E3A5FD48A0939E69`
 SHA512 | `47071E073A44AABD7ADC7611EFC1CC7435D23AB7A4915B4AB3E65297EE97DD44BF40AFA42F79D6B4CDC27B5C0BC23D736B026D989B75971F8FEF642E3E5E573B`
 SSDEEP | `12288:6B0z4tN/qGDb+DLUFoYkp6d1BtOkodxduog/TXJa/x82IErOJsBV/QtiM:MCA+OoJuog/TXJmxOWI`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

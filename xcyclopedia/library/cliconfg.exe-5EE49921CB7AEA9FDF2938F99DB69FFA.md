@@ -6,7 +6,6 @@ title: cliconfg.exe | SQL Client Configuration Utility EXE
 
 * File Path: `C:\Windows\SysWOW64\cliconfg.exe`
 * Description: SQL Client Configuration Utility EXE
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `DDC3AA90B1229F7ED1F3C64BCDEBC527D18FA24C6BCA9A0B0A7A9C0ECD37E89B`
 SHA384 | `F59153D910A52D707F6A20BF3DF50ADF0719731CD85212464678D9DFDD860667F6578DF145FE79BF51CDE457C19776EF`
 SHA512 | `86205ADB8FEFA78B19249000FB11109C42EA12D52455D6606FBFC91087D2395ECAA856CCE4A428A33B1A0E4222A8532C15D7CA6D0AFF9BBA6DDD07CD9A814F38`
 SSDEEP | `384:EwA9G50JT6pxW0wWFPXuNvBQAMYJQ2JQSkdowyoF:5K6pRruI30lJBkvTF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -70,6 +54,14 @@ File | Score
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-8479031B34E1F72E08EB5EC618368822.md) | 66
 [C:\windows\SysWOW64\cliconfg.exe](cliconfg.exe-D742C17757BA63F0FB22715C3E0CFF68.md) | 69
 
+## Possible Misuse
+
+*The following table contains possible examples of `cliconfg.exe` being misused. While `cliconfg.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_honeybee.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_honeybee.yar) |       $x2 = "del /f /q %TEMP%\\setup.cab && cliconfg.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_honeybee.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_honeybee.yar) |       $x1 = "cmd /c taskkill /im cliconfg.exe /f /t && del /f /q" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

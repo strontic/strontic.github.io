@@ -6,7 +6,6 @@ title: mfpmp.exe | Media Foundation Protected Pipeline EXE
 
 * File Path: `C:\Windows\system32\mfpmp.exe`
 * Description: Media Foundation Protected Pipeline EXE
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `27287AC874CEF86BE03AEE7B6D34FDC3BD208070ED20E44621A305865FB7579E`
 SHA384 | `A4380BA6C1E3D565C07AFCA79CF0076AD1499576A3112585420409A5702F91056840418D2723735E1BD0C57AAE80E4A7`
 SHA512 | `A91179E1561168B3B58F5CA893BCE425D35F4A02AEC20AC3D6FB944F5EB3C06B0A1B9D9F3FB9EA87869D65671D2B89B4AE19ACF794372BDBD27F5E9756C5A8AB`
 SSDEEP | `768:T9djkePa3/Yk6CPq0dv23xdLEED1txmjajEI1PWCi:T9dji3/Yp0dv23xdEEZnmjatPY`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

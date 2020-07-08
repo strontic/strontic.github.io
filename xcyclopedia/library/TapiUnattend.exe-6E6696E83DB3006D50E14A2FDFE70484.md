@@ -6,7 +6,6 @@ title: TapiUnattend.exe | Microsoft Windows(TM) Telephony Unattend Action
 
 * File Path: `C:\windows\SysWOW64\TapiUnattend.exe`
 * Description: Microsoft Windows(TM) Telephony Unattend Action
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `E661ACA2F9FCB9B3EE9403C2233606993BB45C6FC28CD29E4EC6B280F9A888EB`
 SHA384 | `A7203002D6AC1F1FD070114C089848DC73C1BE61FC5639F24DDB3281297FEE68017956200430CD118341FB56109552E6`
 SHA512 | `3ABAF78887F04B0CA9DBD918123D2317EED7BEF5CF40DA98CB20331468DB9C3B9DEB811DDE6BAAE0A6C694DC46E2D166462DB46616556C2EFF7CA73F8CEEA142`
 SSDEEP | `192:gadkYPdilaaweFyaa+xDXwqQ9uTBrDU8jjBo9bL5C10FIgGeW/oUWom:1vPUYnea2DXwxeBU8jjO9NxqgGeW/oUX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

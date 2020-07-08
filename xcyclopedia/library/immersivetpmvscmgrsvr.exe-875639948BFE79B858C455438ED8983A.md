@@ -6,7 +6,6 @@ title: immersivetpmvscmgrsvr.exe | Immersive TPM Virtual Smart Card Manager COM 
 
 * File Path: `C:\windows\system32\immersivetpmvscmgrsvr.exe`
 * Description: Immersive TPM Virtual Smart Card Manager COM Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1F83F9D9201ED34B18D1452E439D6D2FB51B52A2FA627CCAE3B2976D78AF83B2`
 SHA384 | `F1B47F2045C04288DDACFA5CDC12C6C74F835EEB8AE76B1A45015DCA33704A155AA86B786BA9E92A832862C1D14A17AA`
 SHA512 | `CBAEF20298B8ADF1862D54CB9F77FA3458C7DCD401ABD7CE05F057C0804E90370071EC78F6403F480D2493260C2725FFAEA8AC750DB9108A32BDA780FFF2D7FC`
 SSDEEP | `3072:zaQ5r27S3uEuOpu818ejgWS3YBDAAnkmX87vPB3MUd:za63u9Opu818wTSMDAAkmX87x3M`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

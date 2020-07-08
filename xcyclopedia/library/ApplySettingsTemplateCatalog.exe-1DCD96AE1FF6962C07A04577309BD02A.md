@@ -6,7 +6,6 @@ title: ApplySettingsTemplateCatalog.exe | ApplySettingsTemplateCatalog EXE
 
 * File Path: `C:\WINDOWS\system32\ApplySettingsTemplateCatalog.exe`
 * Description: ApplySettingsTemplateCatalog EXE
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `24576:dugbn8bApqnMugKT+4Gv0j1NxEZDE/SoZa91S6tARZGkwZVM9s0xQsL:duVApJKT
 This application requires elevated rights. Please re-run with administrator privileges.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

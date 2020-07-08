@@ -6,7 +6,6 @@ title: quickassist.exe | Quick Assist
 
 * File Path: `C:\WINDOWS\system32\quickassist.exe`
 * Description: Quick Assist
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C58A2F432B756B9E7044892573658B18ED978C711E2BA960D9BD0F4350602D44`
 SHA384 | `869FBA6E6772DDD936882CA00AF37409356A19E0B3F2FFF23D5A10F6D9E3CD0EDD621F48204F3CE6607FD9B7449B1F4F`
 SHA512 | `8F30778C46F7B879217FE1B9AB03594C9ACFD918342B3F83D0E0F0514681458C8CAD15F0C43DFF52F638905F2938EB122C88A4712847FEF8C0A9012D234BC969`
 SSDEEP | `12288:8GTc62pXTXZy7tjPghe8HPOgCzsUdLeANsDvH:TIt9Zyt7fLIU0GS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,14 @@ SSDEEP | `12288:8GTc62pXTXZy7tjPghe8HPOgCzsUdLeANsDvH:TIt9Zyt7fLIU0GS`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `quickassist.exe` being misused. While `quickassist.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_middle_east_talosreport.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_middle_east_talosreport.yar) |       $s1 = "QuickAssist.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_middle_east_talosreport.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_middle_east_talosreport.yar) |       $s4 = "name=\"QuickAssist\" " fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

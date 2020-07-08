@@ -6,7 +6,6 @@ title: chkdsk.exe | Check Disk Utility
 
 * File Path: `C:\Windows\system32\chkdsk.exe`
 * Description: Check Disk Utility
-* Comments: 
 
 ## Hashes
 
@@ -72,14 +71,6 @@ The /I or /C switch reduces the amount of time required to run Chkdsk by
 skipping certain checks of the volume.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

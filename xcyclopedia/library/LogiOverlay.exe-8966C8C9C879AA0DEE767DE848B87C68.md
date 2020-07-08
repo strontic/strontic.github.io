@@ -6,7 +6,6 @@ title: LogiOverlay.exe | Logi Overlay
 
 * File Path: `C:\ProgramData\Logishrd\LogiOptions\Software\Current\LogiOverlay.exe`
 * Description: Logi Overlay
-* Comments: 
 
 ## Hashes
 
@@ -124,9 +123,6 @@ Unhandled Exception: System.IO.DirectoryNotFoundException: Could not find a part
    at LogiOverlay.App.Main()
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

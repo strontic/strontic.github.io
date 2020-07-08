@@ -6,7 +6,6 @@ title: VaultCmd.exe | Vault cmdline Program
 
 * File Path: `C:\WINDOWS\system32\VaultCmd.exe`
 * Description: Vault cmdline Program
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ VaultCmd /listproperties
 VaultCmd /sync
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

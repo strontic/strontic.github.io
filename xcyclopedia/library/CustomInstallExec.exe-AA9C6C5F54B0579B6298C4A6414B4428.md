@@ -6,7 +6,6 @@ title: CustomInstallExec.exe | Microsoft Store Package Dependency Installer
 
 * File Path: `C:\Windows\system32\CustomInstallExec.exe`
 * Description: Microsoft Store Package Dependency Installer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `85AF8B069C57E695123895227FAD05916F3CDAA4CAE252099B90152DB126CB58`
 SHA384 | `CE5FEDE74EE78FE65BAA0E9573DD8450F739FB88AEB84447CE7AAEE8DF34964B9CD52E18714414D11C916A4576E6EBEC`
 SHA512 | `9207D6618CD0A17B1571997B540578BF11713371C3828D2E7A6D0EA8DEE4C25F165D09443ED5F99AFF20758B0436494A6B5DA7616944A0D060DFD8BFC9EAD335`
 SSDEEP | `3072:ckwb1vEK8wDyMr1+Hd/KtVGB/Buu0ODR/:/wb1vswDyMrBtK/Q`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

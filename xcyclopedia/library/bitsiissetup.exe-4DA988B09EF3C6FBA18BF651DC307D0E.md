@@ -6,7 +6,6 @@ title: bitsiissetup.exe | BITS IIS Setup utility
 
 * File Path: `C:\Windows\system32\inetsrv\bitsiissetup.exe`
 * Description: BITS IIS Setup utility
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `1536:FUqeR19ad+nRADc465UmRqrnZH01ectdrfLu9q:FUKrgegoo`
 [BITSIISSETUP] Uninstallation of BITS IIS extension failed with error 0x80070057
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

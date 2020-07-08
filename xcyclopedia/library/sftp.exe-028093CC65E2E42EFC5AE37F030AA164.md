@@ -5,8 +5,6 @@ title: sftp.exe |
 # sftp.exe 
 
 * File Path: `C:\windows\system32\OpenSSH\sftp.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +18,6 @@ SHA512 | `1416021F7B0D8E96AC1B581119B79E80E20404884C8FA12272A26181F6FC522B136820
 SSDEEP | `6144:pqTjTw9mPw0bLaPpV+y9h+jdi2qAYE4/GgcKuzxywdrHGlUTONZJVxrgZmlx4Cjh:pqrw9mPw0bLaXb9h+Mh84/Gggx5AVx8o`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

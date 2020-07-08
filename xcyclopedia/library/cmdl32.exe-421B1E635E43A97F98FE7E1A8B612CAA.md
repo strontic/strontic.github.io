@@ -6,7 +6,6 @@ title: cmdl32.exe | Microsoft Connection Manager Auto-Download
 
 * File Path: `C:\windows\SysWOW64\cmdl32.exe`
 * Description: Microsoft Connection Manager Auto-Download
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9631159F2AAF4832D4E4DF11054948C4A1439946E21C1680FF8B108274E59C6E`
 SHA384 | `6BB5D475AF07E8E1A56088CB91670A8C8AC4A8B65ED5E5A77E618F9F4B32CD598FA33056C118F0846CF1D33A7AEAF125`
 SHA512 | `867920EC7B836F8BA0C12C736FC55B633F876F5A3F04E60495B4E80D17B3430D8570E201EB372B2AD55859FECEBF2BDA4B729965DE047B02148761307B8AE184`
 SSDEEP | `768:XTvH3EiucKtfMd18HpenahEt7tIguJhtxgi7JfY/r5JQn9M0SULD6nYe9q6qMTcm:XTf3EJcKtIeHIaitiguNxJ7JfY1JQn9O`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

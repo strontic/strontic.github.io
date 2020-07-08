@@ -6,7 +6,6 @@ title: stordiag.exe |
 
 * File Path: `C:\Windows\SysWOW64\stordiag.exe`
 * Description:  
-* Comments: 
 
 ## Hashes
 
@@ -37,11 +36,6 @@ StorDiag [-collectEtw] [-out <PATH>]
 -out <PATH>                  Specify the output path. If not specified, logs are saved to %TEMP%\StorDiag
 
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

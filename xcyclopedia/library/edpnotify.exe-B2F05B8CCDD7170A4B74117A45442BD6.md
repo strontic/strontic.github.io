@@ -6,7 +6,6 @@ title: edpnotify.exe | Microsoft Enterpise Data Protection
 
 * File Path: `C:\WINDOWS\SysWOW64\edpnotify.exe`
 * Description: Microsoft Enterpise Data Protection
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F3B835D99FECBBCF197260F0B28074DFFC4456069B6DE601C849C48BCE236856`
 SHA384 | `65EE8FABADA77E932C3C90571805633D66F0791108002A36D15B8213AC046F0A9D8436CB792A9AE5E52C5BE89D369E98`
 SHA512 | `15647E24AE0BAA1B5DE8FC73CD1659F8B1EBEC1C26D406ED38C2AE01153A7CC6D5A82627EDCCBE8C97124128E1F16764F8C7825140359D8362EC4F121530E570`
 SSDEEP | `768:PAf5kGdKloyyfUJILglNIJiy5xd6RRPmbixum:YfIKLgGIH+ixum`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

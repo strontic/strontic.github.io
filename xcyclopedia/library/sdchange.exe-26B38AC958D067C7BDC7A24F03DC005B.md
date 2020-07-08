@@ -6,7 +6,6 @@ title: sdchange.exe | Windows Remote Assistance SD Server
 
 * File Path: `C:\WINDOWS\system32\sdchange.exe`
 * Description: Windows Remote Assistance SD Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C77CF226823B431529AA78CA70442E6FAADEDBF7DDA12B0908BD4908CD06EC42`
 SHA384 | `7B136AEF27078C7177DDC07034C63F630D4A8ED38211109B9D14A71D3E85038BB1B1DBBB8E1869C48FCCC5E092B0853D`
 SHA512 | `B6B95B22D8A02B23BB51763C28EB4899E4ABEB0A28DA2784BC4CECECB7A2FAB7D210F367D7CB3B9EBDE38B97896FBFC436B4A1A46403277873330781F2D68DCA`
 SSDEEP | `768:+OXw9/Xec6vJ0ued19M5xyotjUGdAVOPJ4wxJ2z5yu+h6fu:dXw9/ec6vet1iyot45OPhv2zbdf`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

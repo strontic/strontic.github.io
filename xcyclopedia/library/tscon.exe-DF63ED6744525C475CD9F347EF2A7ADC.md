@@ -6,7 +6,6 @@ title: tscon.exe | Session Connection Utility
 
 * File Path: `C:\WINDOWS\system32\tscon.exe`
 * Description: Session Connection Utility
-* Comments: 
 
 ## Hashes
 
@@ -53,9 +52,6 @@ TSCON {sessionid | sessionname} [/DEST:sessionname]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: PrintBrm.exe | Print BRM command line tool
 
 * File Path: `C:\Windows\system32\spool\tools\PrintBrm.exe`
 * Description: Print BRM command line tool
-* Comments: 
 
 ## Hashes
 
@@ -43,14 +42,6 @@ PrintBrm -B|R|Q [-S <server>] -F <file> [-D <directory>] [-O FORCE] [-P ALL|ORIG
 -?               Display this help
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

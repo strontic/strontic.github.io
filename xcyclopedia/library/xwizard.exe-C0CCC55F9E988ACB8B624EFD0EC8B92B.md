@@ -6,7 +6,6 @@ title: xwizard.exe | Extensible Wizards Host Process
 
 * File Path: `C:\Windows\system32\xwizard.exe`
 * Description: Extensible Wizards Host Process
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `AEA9116467138FDE0FDE0FD50C61EF1258B551AE1B64B2DF6BBCCE11467DF41C`
 SHA384 | `E227C1168E3D090E871C260BB14028FB675DFC258E8F7F7934B3F2874B6F9DBDA8A60D2C91A81EB7903895FEC8BFB27A`
 SHA512 | `9480415021EF8841B9E1EC587399F5564C7F1AED73C93B5BB8DAA4B12270C5E1FC07D62D4B482E172549C5AC371518C5B7570871C3E0C40E1865242A2C6B338D`
 SSDEEP | `1536:khXUw9qLxeqI2GXaUzudDogp8URDoq4OZZZLlCIib:kBUlxeCeu6cdRD68wb`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

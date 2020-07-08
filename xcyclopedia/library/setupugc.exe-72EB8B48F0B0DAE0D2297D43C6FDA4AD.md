@@ -6,7 +6,6 @@ title: setupugc.exe | Setup Unattend Generic Command Processor
 
 * File Path: `C:\windows\system32\setupugc.exe`
 * Description: Setup Unattend Generic Command Processor
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F68597747905687DF9B28B0B11B0BC7F71DDD4D1F11578B578241837E7255205`
 SHA384 | `B3801207ECD67CDFD055B0ACDECB979F87E36F01ADD992D426C1931AFE82DA2E50F8C6DBB0DE064B93740F7CD327AE6B`
 SHA512 | `2F73BFE784AB6CA4286FA3AE9558DAB0BC56D0AB4085B1898DDA0B3F4D0C339546787792126BACD42D4E2A36A0CB16C9582327D54E1D8568AA025957186AA18F`
 SSDEEP | `3072:5KTMX/DnWX/ufX5ucqVoj1U230xeuT54t:5KTG78ETqVoRUCyG`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

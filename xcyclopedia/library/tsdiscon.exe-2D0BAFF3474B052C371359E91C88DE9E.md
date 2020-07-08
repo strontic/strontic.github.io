@@ -6,7 +6,6 @@ title: tsdiscon.exe | Session Disconnection Utility
 
 * File Path: `C:\WINDOWS\system32\tsdiscon.exe`
 * Description: Session Disconnection Utility
-* Comments: 
 
 ## Hashes
 
@@ -51,9 +50,6 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

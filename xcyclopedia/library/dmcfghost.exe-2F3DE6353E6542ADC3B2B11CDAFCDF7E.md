@@ -6,7 +6,6 @@ title: dmcfghost.exe | Host Process for Push Router Client of OMA-CP
 
 * File Path: `C:\Windows\system32\dmcfghost.exe`
 * Description: Host Process for Push Router Client of OMA-CP
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `BBF2CD3259D4EE211F1EC4A0C5F62C5400EE77584AAA1F09E33CD880825528EA`
 SHA384 | `0B4379075224291ECF09237D0DD71018C763F13B3943555F254EC5BD672D6E93B523DE7BDBE559A60B850CBE80DE6DC9`
 SHA512 | `D3CB14A4ACC0F15AFD1C99D10E85FC28BEA8D8A69BCE175059B11D3A9B1C4D810D4CD1D35E3C9613E9FDBCF192C56D916D3F6B643920923753D1F30CAC372A48`
 SSDEEP | `768:k49Fv2Ei7Y0Dl7IOaojrnNZDahY4owDl0lDGAgkMk57z:rv2Ew0OrnNZDa3D+kAgkT57z`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

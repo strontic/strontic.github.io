@@ -5,8 +5,6 @@ title: McInst.exe |
 # McInst.exe 
 
 * File Path: `C:\ProgramData\McInstTemp0309601560372635\McInst.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +16,6 @@ SHA256 | ``
 SHA384 | ``
 SHA512 | ``
 SSDEEP | ``
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

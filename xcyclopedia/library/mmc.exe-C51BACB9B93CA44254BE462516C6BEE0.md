@@ -6,7 +6,6 @@ title: mmc.exe | Microsoft Management Console
 
 * File Path: `C:\Windows\system32\mmc.exe`
 * Description: Microsoft Management Console
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `35791F1DBD343A5A46A3A18100E2E85C1DF83085053E07DEAE56D46132F982AF`
 SHA384 | `50D70D08EBF9863D422DF3FC7978BCA58BE603643C000F59A571AC5EAA4D0915C9F14155CF9B95731D00B470CAF01596`
 SHA512 | `36A110DCFF0E10B2C45A9C4F0850D114100F59525EAAC3E2FA95A8E9925A108AFC1AD05B800226FF5EB2D5B628D4C63BED2E4FC47EDCB440C975477EF0FF8AE8`
 SSDEEP | `24576:bj9vu0hWh5OephGCeKIvnOtAaOMo7wMo7DH:J45OeThmnOG97e7DH`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -98,6 +82,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.015.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.015/T1546.015.md) | START MMC.EXE EVENTVWR.MSC | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | copy "#{executable_binary}" "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | mklink c:\testbypass.exe "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) |       $a5 = "taskkill /f /im mmc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

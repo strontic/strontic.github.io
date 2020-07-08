@@ -6,7 +6,6 @@ title: repair-bde.exe | BitLocker Drive Encryption: Repair Tool
 
 * File Path: `C:\windows\system32\repair-bde.exe`
 * Description: BitLocker Drive Encryption: Repair Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `BD64933EBFEF87F2CCBDC270625C7D2533F82CBF558F08D61605EAEB06387F08`
 SHA384 | `8634E2ABFA7CBACAECECDC2437A095E32879AA057D1A8FD2B0FF3D3F9DAE7B25D0D4EE4F7BC221881D8F279205CA7C64`
 SHA512 | `43AFBFD153FABA24FCEFD1713498326112A35009B5BED01606A080D0D6B905D7540A76539F738F9F79A7DF933DDA96C0C7D7D375917729DD13384A4B891ED5EA`
 SSDEEP | `3072:hVn5UdQ7FzkRlGwwnVS570M9kdatGCO+xmBc+hMPhPsx:CQ7FQR+Vs7nyatGt+SYF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

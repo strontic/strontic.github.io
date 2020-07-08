@@ -6,7 +6,6 @@ title: relog.exe | Performance Relogging Utility
 
 * File Path: `C:\windows\system32\relog.exe`
 * Description: Performance Relogging Utility
-* Comments: 
 
 ## Hashes
 
@@ -61,11 +60,6 @@ Examples:
   relog logfile.blg -cf counters.txt -f bin
   relog logfile.blg -f csv -o logfile.csv -t 2
   relog logfile.blg -q -o counters.txt
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

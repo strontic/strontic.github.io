@@ -6,7 +6,6 @@ title: forfiles.exe | ForFiles - Executes a command on selected files
 
 * File Path: `C:\windows\SysWOW64\forfiles.exe`
 * Description: ForFiles - Executes a command on selected files
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B23D7C93C9B1D568E608EBAE4ED38634F73280AA61104687D60AA3DB33F93307`
 SHA384 | `10387A59F043C58863BDE41897F94B557F9E1185F098C32C6395D32DDDCB3A4FF966280033F7F79D29CD658165D32D39`
 SHA512 | `3546F4FF2DE0899547D09E8104B952F50923EDE9611166F5110124EC415C6BA278EB7E2078E6741893B29B064D65C239F8EAA2B8A63E15E90A8F948F55262AEF`
 SSDEEP | `768:I96fS4A9RwCnBIxMLKKtMZ3Pop82t1i+JDAjqq40HQDxFlf9WpI3M:I966RnnB12ndut1i+xA+n0GxFlVWp3`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -81,6 +65,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1202.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md) | [Reference](https://github.com/api0cradle/LOLBAS/blob/master/OSBinaries/Forfiles.md) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1202.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md) | forfiles /p c:\windows\system32 /m notepad.exe /c #{process} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1202.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md) | forfiles /p c:\windows\system32 /m notepad.exe /c "c:\folder\normal.dll:evil.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_sofacy_xtunnel_bundestag.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_sofacy_xtunnel_bundestag.yar) |         $s3 = "forfiles" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

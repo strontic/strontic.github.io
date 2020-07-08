@@ -6,7 +6,6 @@ title: SetupAdmin.exe | Apple Installer (Elevated)
 
 * File Path: `C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.5.12\SetupAdmin.exe`
 * Description: Apple Installer (Elevated)
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A133FD222DC79389207880EB37EB7273D8FEC229030E5B82A911A45248A03739`
 SHA384 | `234714A6FCF68A561BE43EE96946DAC5CC14CC578AE6B84A06398EFF4E0A473057BA6617A35D846CB707095F149F66E7`
 SHA512 | `52ED85DFE8213758768D6F94FF997526A3B2B506156DE624E3AE803DDD2ACC50E61A04106CB7457E7C2FC5BF07A73C228ADBA3859371B72B8F7587AADBF15C55`
 SSDEEP | `3072:9MBpfRd0Hxy9JRtUtDj5XpMzBqjpSB3DWx4cK0Mup3alvOdeE+7if2E3ZUCoBl+:920EJrgEB2EzWepup3IirZUVl+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

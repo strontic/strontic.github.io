@@ -6,7 +6,6 @@ title: isoburn.exe | Windows Disc Image Burning Tool
 
 * File Path: `C:\WINDOWS\system32\isoburn.exe`
 * Description: Windows Disc Image Burning Tool
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `96CFCED5904216E2E4EF70008AAFB4CF965CE9D348E83E9FECD85F6B09AB2243`
 SHA384 | `800A392FCB00836E68A385D68B0BC5AB4581C7A8D32D448C263F4E5361161CED768B245D5CB51F89E63D65902FFBF6C6`
 SHA512 | `C67884DE63707D5CEFA708903B4DDAAE589628E58BC485AE60FE5CD6042ED052700D28A3417C8A3AF1B9BE887AE5C1BFCDD9436A557E914D9A2F0AEC82FEF0D3`
 SSDEEP | `1536:Ps/iPurcRUUOr/QPpvsiy4xOHQ0gruB/AtOCauyb4XKAbeHZrQqf:SgRUKvsv5gruBkabb6NeHd3`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

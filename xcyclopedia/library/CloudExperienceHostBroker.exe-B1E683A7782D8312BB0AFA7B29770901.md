@@ -6,7 +6,6 @@ title: CloudExperienceHostBroker.exe | CloudExperienceHost Broker
 
 * File Path: `C:\WINDOWS\system32\CloudExperienceHostBroker.exe`
 * Description: CloudExperienceHost Broker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D28F9B923F9121FA8B6169F401F1662D202C4CDD30CD6240291FCDD6B7839A11`
 SHA384 | `C35E1AF675CA62E3FE444E77FD146C29C4A037525CF963C4B5E57A5D32BB366DEEB21B27F5B9ACF988DEDFD4A9944E34`
 SHA512 | `7B5B4E840CA37552AAAC9D1AC4A3D4140B8BF3E1F73F46D29A78C2BA2C1670A76FEFB0297F9FB537EA3901EDC1113105E19C725F833AA818A27EFC5209DC45F0`
 SSDEEP | `1536:Dqfo2k/y29JgBWvv0vRwGc+koOygRbz+8yMVo/zYnfjWpPR:+/Bwv05wR+koOfbz+58o/kb2Z`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

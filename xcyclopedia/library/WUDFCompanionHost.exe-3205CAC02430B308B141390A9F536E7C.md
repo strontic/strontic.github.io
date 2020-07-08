@@ -6,7 +6,6 @@ title: WUDFCompanionHost.exe | Windows Driver Foundation - User-mode Driver Comp
 
 * File Path: `C:\Windows\system32\WUDFCompanionHost.exe`
 * Description: Windows Driver Foundation - User-mode Driver Companion Framework Host Process
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `493433767C039A105A6FF53305CF0CF34F85A737D94BAFCA4E449284675AE34F`
 SHA384 | `2E99DDF2A3403C8F5116444B89C89E31597DC1556BE2BA793DF7228CAC732EBA7516812596E87127D5136B2E76739F2D`
 SHA512 | `58586D6EB0B4BDB9A4B85847810BA1E5F3F7A66274F559423D927C68B09E73CCD6AD09CF076DCC9A62C2C2C380BCCA292481EEEF69C9903761B9AAE1C470D319`
 SSDEEP | `3072:9GVLyyv9RNNId5aci25bCTZR5tIPBu0YuAt4QxG55uaDxV:9GVLyyv9jNId7i25bCTZR5tJ09Qxe`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

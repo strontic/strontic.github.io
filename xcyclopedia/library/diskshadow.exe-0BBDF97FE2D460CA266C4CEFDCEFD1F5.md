@@ -6,7 +6,6 @@ title: diskshadow.exe | DiskShadow
 
 * File Path: `C:\Windows\SysWOW64\diskshadow.exe`
 * Description: DiskShadow
-* Comments: 
 
 ## Hashes
 
@@ -40,14 +39,6 @@ DISKSHADOW.EXE  [/l <logfile>]
     /l <logfile>          - Output log file
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

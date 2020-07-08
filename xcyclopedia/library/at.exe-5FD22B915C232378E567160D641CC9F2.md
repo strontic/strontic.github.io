@@ -6,7 +6,6 @@ title: at.exe | Schedule service command line interface
 
 * File Path: `C:\windows\system32\at.exe`
 * Description: Schedule service command line interface
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `488E74E2026D03F21B33F470C23B3DE2F466643186C2E06AE7B4883CC2E59377`
 SHA384 | `AEEC553FCD0BE20665C6A0EC09241C6149EC8F5250F6D6F7FEA752D83139A9AEBD8A5E83AC8EFB8E13D42999AF476EFE`
 SHA512 | `AC59CE4FE3770DF0FA2DF2AB8C8801EA1A6D4B2C280863E376138CADFBC5287AE67A10634D50DDD9D64B16C6F6D7FFB7AEFE3156FE87DC7E862754E7745EE2BF`
 SSDEEP | `768:kMd5AsU2AN1nPPh1592eqYHPBzRQL+pI+8K:HfMVP5172sPrW5+8`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

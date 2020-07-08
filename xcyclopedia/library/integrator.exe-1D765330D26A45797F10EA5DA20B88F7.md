@@ -6,7 +6,6 @@ title: integrator.exe | Microsoft Office Click-to-Run Integrator
 
 * File Path: `C:\ProgramData\Microsoft\ClickToRun\{00000000-0000-0000-0000-000000000000}\integrator.exe`
 * Description: Microsoft Office Click-to-Run Integrator
-* Comments: 
 
 ## Hashes
 
@@ -56,14 +55,6 @@ MsiName=<Msi1>,<Msi2>  - Comma seperated list of Msi Names
 /? - Help
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

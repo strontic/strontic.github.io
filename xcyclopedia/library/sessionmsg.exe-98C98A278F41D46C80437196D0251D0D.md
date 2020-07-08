@@ -6,7 +6,6 @@ title: sessionmsg.exe | Microsoft Remote Desktop Services Session Message Server
 
 * File Path: `C:\WINDOWS\system32\sessionmsg.exe`
 * Description: Microsoft Remote Desktop Services Session Message Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5D134D17096689092F69FC5B7982A67B0DC5888114185EC10C6A6EB4E57D24D3`
 SHA384 | `3834DE1A44A336605F4009BA41B8F2A2017F249D5AB07C030198ADD3C1BA448D03176E1E17157A60407C52C1713E564E`
 SHA512 | `9F9E6178C730C8567EEF07ABA871E593ABD43D3DCAB38A69B3E31BA6AF28561B974CA075900BAB5F1E0764FB42F8CA69993A244B327485363A222ADAF64ED63D`
 SSDEEP | `1536:mjbH60wB85ZqWAttrOtXaI5cAAOojMNFzJ0ZpPn:SJwAAo5bAOojMnuP`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

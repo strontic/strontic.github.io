@@ -6,7 +6,6 @@ title: tzutil.exe | Windows Time Zone Utility
 
 * File Path: `C:\Windows\SysWOW64\tzutil.exe`
 * Description: Windows Time Zone Utility
-* Comments: 
 
 ## Hashes
 
@@ -50,11 +49,6 @@ Examples:
 
 Remarks:
     An exit code of 0 indicates the command completed successfully.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

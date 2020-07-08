@@ -6,7 +6,6 @@ title: ebsnvme-id.exe | EBS NVMe ID utility application
 
 * File Path: `C:\ProgramData\Amazon\Tools\ebsnvme-id.exe`
 * Description: EBS NVMe ID utility application
-* Comments: 
 
 ## Hashes
 
@@ -29,11 +28,6 @@ Error: Non-numeric input: -help
 EBS NVMe ID utility application ver 1.0.0.32
 Usage: ebsnvme-id <disknumber> ... <disknumberN>
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

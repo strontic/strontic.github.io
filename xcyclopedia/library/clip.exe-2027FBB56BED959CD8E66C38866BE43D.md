@@ -6,7 +6,6 @@ title: clip.exe | Clip - copies the data into clipboard
 
 * File Path: `C:\windows\SysWOW64\clip.exe`
 * Description: Clip - copies the data into clipboard
-* Comments: 
 
 ## Hashes
 
@@ -48,9 +47,6 @@ ERROR: Invalid argument/option - '-help'.
 Type "CLIP /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

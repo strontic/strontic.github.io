@@ -6,7 +6,6 @@ title: appidpolicyconverter.exe | AppID Policy Converter Task
 
 * File Path: `C:\Windows\system32\appidpolicyconverter.exe`
 * Description: AppID Policy Converter Task
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `AB4692F6CCACF20BF82675AD415A5E3AD1C3FD0C5526666661E060835EDCC33F`
 SHA384 | `9BE17CC2FFB1BBF344E798C682188076054A71398A53BE4BCE879074C92FE193BDF52AC786D8BDA22B205FCB013A91E9`
 SHA512 | `45A0A6650600A9D992C14369AD5FF173C3C8C5618F3D1C1A0130DABA25D5D2A0BB4180F11EFBAD2E9ADA7F61F4F85BCAE37C0FF238972D4924EEE2A31AF3CD08`
 SSDEEP | `3072:Z5i7J6W7X30gb8Z6Q3jT2Um1QVzeebBLN4VocqnwBg5RFuhBkCyN:ZkBn0gRb1yjbBZ4Vo0gbAhBkC`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

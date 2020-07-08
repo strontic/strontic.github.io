@@ -6,7 +6,6 @@ title: BdeHdCfg.exe | BitLocker Drive Encryption: Drive Preparation Tool
 
 * File Path: `C:\WINDOWS\system32\BdeHdCfg.exe`
 * Description: BitLocker Drive Encryption: Drive Preparation Tool
-* Comments: 
 
 ## Hashes
 
@@ -93,14 +92,6 @@ Examples:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

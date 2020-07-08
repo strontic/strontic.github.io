@@ -6,7 +6,6 @@ title: MpDlpCmd.exe | Microsoft Malware Protection DLP Command Line Utility
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\MpDlpCmd.exe`
 * Description: Microsoft Malware Protection DLP Command Line Utility
-* Comments: 
 
 ## Hashes
 
@@ -26,11 +25,6 @@ SSDEEP | `6144:zPKePpKyzob2nBRmiTVVmVVV8VVNVVVcVVVxVVVPVVlVVVRVVVtVVWV60jVLVVOW:
 MpDlpCmd: Failed with hr = 0x80070667.MpDlpCmd: Invalid command line argument
 
 Usage: MpDlpCmd -<Command>
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

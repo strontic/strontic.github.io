@@ -6,7 +6,6 @@ title: WPDShextAutoplay.exe | Windows Portable Device Shell Extension Autoplay H
 
 * File Path: `C:\Windows\system32\WPDShextAutoplay.exe`
 * Description: Windows Portable Device Shell Extension Autoplay Handler
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `77CEF9A66108F8B434D06E420A772AA28C57D2A432E48E73BFF7891ABFFEF767`
 SHA384 | `AEA2AE9C81EE719008AAE58243A1F687BD7CE6B245601B761C4672815BF466FEE030F6910C0A31916FD5470C6F0EA80E`
 SHA512 | `926DF211B396CBE33A6F31914DBC36E3E4C55A1CB76BB263CF3D0FBB733602D9B2C07670EAABAAFD2B1EC02F7A5C07549C92200FFD64642619DD4C3CD1FDCC52`
 SSDEEP | `768:kqA06TVsbsK1zOr7B/yS7ZpYUcloJoes:kls7py/yS7Lqo2es`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: appidcertstorecheck.exe | AppID Certificate Store Verification Task
 
 * File Path: `C:\windows\system32\appidcertstorecheck.exe`
 * Description: AppID Certificate Store Verification Task
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F00EA11118B39D06A3D361E851B6D13B29A3FC0C787AB763E9C351F718CB90BB`
 SHA384 | `21E42A9CC1350A3731BD24A4651E04D3C0BB28CDB2D4936035500C69B7B8C1FD7C92DAA96FC1DF70D676EA6B1F52031F`
 SHA512 | `9AAD049B675685DB93B89C556ACFC588629998B2C4488301CE5FD6F2298CFCBDC6BE841071ED442A6ACC4702581E11B8A8E8127F27644F49903022BAE6A744E9`
 SSDEEP | `384:AZjMZWmfU49uFAQlH1eAXGPm+aea2EBpAAx2xBe9feW4aK1W:AZj0ffUkQldXGfa2cJwxBKf4aK`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

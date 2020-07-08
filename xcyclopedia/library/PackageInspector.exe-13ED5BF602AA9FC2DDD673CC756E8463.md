@@ -6,7 +6,6 @@ title: PackageInspector.exe | PackageInspector allows creation of a catalog cont
 
 * File Path: `C:\windows\system32\PackageInspector.exe`
 * Description: PackageInspector allows creation of a catalog containing all executable files laid down by an installer
-* Comments: 
 
 ## Hashes
 
@@ -49,14 +48,6 @@ Stop/Scan Options :
 	listPath	--	Specifies location to output list of files laid down by installer (for -out list)
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

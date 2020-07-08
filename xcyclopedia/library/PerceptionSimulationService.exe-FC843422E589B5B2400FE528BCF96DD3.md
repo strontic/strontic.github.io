@@ -6,7 +6,6 @@ title: PerceptionSimulationService.exe | Windows Perception Simulation Service
 
 * File Path: `C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe`
 * Description: Windows Perception Simulation Service
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ PerceptionSimulation [/I][/U][/?]
 Unrecognized switch "-help"
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

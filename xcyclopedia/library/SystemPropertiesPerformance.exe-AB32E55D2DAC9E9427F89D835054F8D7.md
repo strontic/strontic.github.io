@@ -6,7 +6,6 @@ title: SystemPropertiesPerformance.exe | Change Computer Performance Settings
 
 * File Path: `C:\windows\system32\SystemPropertiesPerformance.exe`
 * Description: Change Computer Performance Settings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `357BDAD469524CDF42680FF44E17CE41C64B38872C4F55E89DE0560FBD003693`
 SHA384 | `B2263627B403559C47F50CC05B185B669DDBF82B5C4503714A7B20A017743E5E1596FFCEE2425BA745259B5DB5659C9F`
 SHA512 | `D001A698E41842C6B81D8912E0EC78FE7DB174E9248F320C46A9E717D59E1E8E43678325792814A1685E055CECDADFA4852D677554C4DA184757543FD89ED4CC`
 SSDEEP | `1536:o0oZbtREC/rMcgEPJV+G57ThjEC0kzJP+V5JV:orbzECTMpuDhjRVJG/`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: CompPkgSrv.exe | Component Package Support Server
 
 * File Path: `C:\windows\system32\CompPkgSrv.exe`
 * Description: Component Package Support Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `739A4C71D0D5069B1E18A1B88665F3F22496637F534A308E6FF032C42E44973A`
 SHA384 | `4E999DF2C9197A5CC3A9A5EA2CA5E156C3E08D70809E427CE8C1E2B7A5225EB43AB79EF9BE7ADFC45D0EF999BB904F0E`
 SHA512 | `A57651EA171AB7AA0BF79095CCD47AC68317ACA104557640834088950D549B3AA355E56E9568ED2E7FCF2B473CA2DC3BF897F2636E15B1285919E6CC561A6640`
 SSDEEP | `3072:2+I7VFp9rfg+fbAP7ittKsXmYU9ojbCurhWhx4f+eenYNX8WU+Dkr4koxleNYg8f:2FvxIebjtgAmYU0yCg8`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

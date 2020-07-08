@@ -6,7 +6,6 @@ title: ScriptRunner.exe |
 
 * File Path: `C:\WINDOWS\system32\ScriptRunner.exe`
 * Description:  
-* Comments: 
 
 ## Hashes
 
@@ -36,14 +35,6 @@ ScriptRunner.exe -appvscript foo.cmd arg1 arg2 -appvscriptrunnerparameters -wait
 Error: Invalid argument specified
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

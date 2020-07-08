@@ -6,7 +6,6 @@ title: mspaint.exe | Paint
 
 * File Path: `C:\Windows\system32\mspaint.exe`
 * Description: Paint
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `FDB5A84BF619CFDB6BBF6C88D657724574EC67393AFAD56443F0C173BF1AFEF5`
 SHA384 | `255FD4B958A5CF7F6C48A074E9AB53F9674E30C9D196A279346788D20C21A93B9CBF5269B746A2C577190007817661AF`
 SHA512 | `06B50F8BDB25E60DD7624DFAF7D89DB1404B30998C6AE3E77893BB1DE7948DF355FB2C8E42ED3F71D21A0AB781511C9C4B6EAE2362A4D92F7277B4720FCA9282`
 SSDEEP | `24576:uxD4o8zPsAdQnDdEJ+OknWfYgoSlSoUM:/DGdERuq1lSoz`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -66,6 +50,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\mspaint.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`mspaint.exe (a 2009 file)`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`mspaint.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_codoso.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_codoso.yar) | 		$s4 = "mspaint.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

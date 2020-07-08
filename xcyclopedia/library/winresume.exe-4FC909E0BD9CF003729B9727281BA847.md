@@ -6,7 +6,6 @@ title: winresume.exe | Resume From Hibernate boot application
 
 * File Path: `C:\windows\system32\Boot\winresume.exe`
 * Description: Resume From Hibernate boot application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `47AD7012A9F441AA8C693A289D9B91EB6E57679E3E798256179A61BCE64F773F`
 SHA384 | `AD96A7D7B0FE8329183FE38255811A04E98A83C3E5F86B93EE3300343A0A2DAEDD2D910AC477218299131A40FC751C13`
 SHA512 | `68E624A6097B82E05CBC5C6499207C0EA8519D7E2B8A33AAE7E6A2F3D9165F753B4AD4054C00F5658167B7C4BE1A8F9BF969FC7796800B8D0999488721CA3398`
 SSDEEP | `24576:Py+JVSmbRfzi7AfnpEmz2q3EwwvucmBdtth2x5xWMOTh1G4DwKcU1BQ+cB77:PrSqRW7A2mx3s2cMHhc5x5O3Dw1+W`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

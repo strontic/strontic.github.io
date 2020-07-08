@@ -6,7 +6,6 @@ title: wecutil.exe | Event Collector Command Line Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\wecutil.exe`
 * Description: Event Collector Command Line Utility
-* Comments: 
 
 ## Hashes
 
@@ -68,9 +67,6 @@ Command help is not supported. Error = 0x57.
 The parameter is incorrect.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

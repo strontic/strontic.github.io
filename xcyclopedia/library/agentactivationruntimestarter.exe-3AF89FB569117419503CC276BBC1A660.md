@@ -5,8 +5,6 @@ title: agentactivationruntimestarter.exe |
 # agentactivationruntimestarter.exe 
 
 * File Path: `C:\Windows\system32\agentactivationruntimestarter.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +16,6 @@ SHA256 | `DE238C935519F2BCCDEB8DBFF975CDE9F8B7A7FA64B81608736FC764FF210547`
 SHA384 | `353AE2CE38E998C1BEB5DD3AAB338593D6DCE5890132D72D1B141DF95910D8689EBA033BA228E861027B227EACE71E76`
 SHA512 | `98BEE887E7AC5117C1136F5026B5A319AA18188F55AD01BBA66B996B1A002BA0AC77701D768DAD4E1374A856984A8A0BCD7C6D3094AF83EB02AEFC57A6FE5E4D`
 SSDEEP | `192:wXstVHZqzn/3dbd3380z/hDU48AoAvcmC2veFHpqcTJGTZ6lEo6UcY0:3tVH8Tdbx8ExPvt0mClhHMUcY`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

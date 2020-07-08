@@ -6,7 +6,6 @@ title: dotNetFx-Web.exe | Microsoft .NET Framework 4.6.1 Developer Pack
 
 * File Path: `C:\ProgramData\Package Cache\NetFxWeb394271\packages\dotNetFramework\dotNetFx-Web.exe`
 * Description: Microsoft .NET Framework 4.6.1 Developer Pack
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `0C32151C7B29E7DCDE9524DB04AC6FA86F4532CB99C747639D05F7C335EE95AE`
 SHA384 | `F840C858A6E4181DC5D7D2934A1C4CB8DE6D4E23D46F6742965FCF27C4E5D983B0C8B057C0AC0E49E934A0556CD50477`
 SHA512 | `736BEFDDC5AC457DF17524E6EEFF90CDF153C99032BA99EB5AC248644E4DB1F76A33CF9CC1E14356D8E76DF9645CBB7F545A122F62B27CA9AD006A95369AA65F`
 SSDEEP | `1572864:2rcwvZwvNwAsRAf8sk7bETUIPogxnZq6gFTpRFeceQJbKnefoai+ucYr3R19JB9E:KisRs8sMbURZgFzFLJunYrarh1h9EUN8`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

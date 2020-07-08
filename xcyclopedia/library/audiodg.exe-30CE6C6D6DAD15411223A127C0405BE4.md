@@ -6,7 +6,6 @@ title: audiodg.exe | Windows Audio Device Graph Isolation
 
 * File Path: `C:\windows\system32\audiodg.exe`
 * Description: Windows Audio Device Graph Isolation 
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `18D496289E7992AA65D733715146597421EBAC179BEB593905AB42963043A0E1`
 SHA384 | `9A7F7D711F1EBAF5CE1A08A77943EAFCFF8A2078B99E710399907E7DDFAD6EB251861AD90FF4CCC816C8CE061E6BDC68`
 SHA512 | `517F8F0DAF061AAE28AFDD2606854A30AFB12A92C192146B2839BCDF2EA518D251EAA85B4D159CB67DD4E7534EB5A4C116D1BDC157FA6C402D0EEC2418521DBC`
 SSDEEP | `12288:n+R8p4PptSXiRtfP68HJMbBLccXNSRLKmHYZbxwYlr:n+RzPptS2HiLccQLdYl5p`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

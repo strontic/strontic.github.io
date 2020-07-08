@@ -6,7 +6,6 @@ title: csvde.exe | NT5DS
 
 * File Path: `C:\Windows\system32\csvde.exe`
 * Description: NT5DS
-* Comments: 
 
 ## Hashes
 
@@ -84,14 +83,6 @@ No log files were written.  In order to generate a log file, please
 specify the log file path via the -j option.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: MsMpEngCP.exe | Antimalware Service Executable Content Process
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Scans\MsMpEngCP.exe`
 * Description: Antimalware Service Executable Content Process
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C745DEBCC64A595BB72293BA2A7ECF4D5B7273FC7BAE25A79D6D0AF81496A0E2`
 SHA384 | `02A87008BC2824A6982DBCD1F18F33C4668AF09E30944CBB6EA48FF4B4BAC2AA9B9883FA2DF3F7D458D188A071A9BB1E`
 SHA512 | `597398C2CF8282965EF80E425136385099527F32ECFE58F65FD299A0FA64663D94DB59C485D965E901BA7F6F227528608F565CD18C08AE53BFA564FE1F3AC254`
 SSDEEP | `384:3eomtrT4YLgDPtMbh4xM9vwq4OWlgxWw8hDBRJkIVAQhlGs/18Gd:gT4LchXsh1PkwvKPS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

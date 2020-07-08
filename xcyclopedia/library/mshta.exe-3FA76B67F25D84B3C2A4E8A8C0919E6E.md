@@ -6,7 +6,6 @@ title: mshta.exe | Microsoft (R) HTML Application host
 
 * File Path: `C:\windows\SysWOW64\mshta.exe`
 * Description: Microsoft (R) HTML Application host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `515437A6721142081C0706DBB18D11F6B294490389F688ADDDA41CED8301C094`
 SHA384 | `FA2C32008CA27C120245B32CE9E52062008BD3465C37A9A1110172975890B5ED01E3EF7A9C0DB351564F897164FAAB7B`
 SHA512 | `D0789D3640269E4B8C4CEBB048CBBDE49223780F2861FD4D15310893DBC5F800E16556D43A243FD3F2F21FA76B832D1CBDA4B2A5B00EE5746E149109E2D03CB1`
 SSDEEP | `96:u4c5BDMXp5IRe+pYX9rnpkYi6y1XDWPT8mp0Hsd3yrO+zJUw0Fcg2DJ+PjGGsEWG:uTYXz1BXNp7HTuZO+z10FTDFWwWVIR7`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -146,6 +130,19 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.005.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.005/T1218.005.md) | mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run ""powershell -noexit -file PathToAtomicsFolder\T1218.005\src\powershell.ps1"":close") | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.005.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.005/T1218.005.md) | ## Atomic Test #3 - Mshta Executes Remote HTML Application (HTA) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.005.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.005/T1218.005.md) | mshta "#{temp_file}" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_babyshark.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_babyshark.yar) |       $x2 = /mshta\.exe http:\/\/[a-z0-9\.\/]{5,30}\.hta/ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_fin7.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_fin7.yar) |       $x7 = "7374656d33325c6d736874612e657865000023002e002e005c002e002e005c002e002e005c00570069006e0064006f00770073005c005300790073007400" ascii /* hex encoded string 'stem32\mshta.exe#..\..\..\Windows\Syst' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_leviathan.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_leviathan.yar) |       $x2 = ".Run \"taskkill /im mshta.exe" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_11882.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_11882.yar) |       $x1 = "4d534854412e4558452068747470" /* MSHTA.EXE http */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_11882.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_11882.yar) |       $x2 = "6d736874612e6578652068747470" /* mshta.exe http */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_11882.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_11882.yar) |       $x3 = "6d736874612068747470" /* mshta http */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_11882.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_11882.yar) |       $x4 = "4d534854412068747470" /* MSHTA http */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_11882.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_11882.yar) |         $mshta = "mshta" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_11882.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_11882.yar) |         any of ($mshta, $http, $https, $cmd, $pwsh, $exe) and any of ($equation1, $equation2) and $address | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_cve_2017_8759.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2017_8759.yar) |       $s2 = /<soap:address location="http[s]?:\/\/[^"]{8,140}mshta.exe"/ ascii wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_mal_scripts.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_scripts.yar) |       description = "Detects MSHTA Bypass" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_mal_scripts.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_scripts.yar) |       $s3 = "/c start mshta j" ascii nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_url_persitence.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_url_persitence.yar) |     $file1 = /[\x0a\x0d](IconFile\|(Base\|)URL)\s*=[^\x0d]*(powershell\|cmd\|certutil\|mshta\|wscript\|cscript\|rundll32\|wmic\|regsvr32\|msbuild)(\.exe\|)[^\x0d]{2,}\x0d/ nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -6,7 +6,6 @@ title: diagtrackrunner.exe | Microsoft Windows Diagnostics Tracking Runner
 
 * File Path: `C:\windows\system32\CompatTel\diagtrackrunner.exe`
 * Description: Microsoft Windows Diagnostics Tracking Runner
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `67E045FD25809E8CA486B1D17EB33667835FBC04974DD65DC07FCFC7E9A3D254`
 SHA384 | `E3A5AA681D1FFE5A8651102908FDFB26F1E1E6E8B6FF762D346311911EB903B925A7AC4D91A180FFEB34166D9DDE49EB`
 SHA512 | `4B728AA781C426881CF490E718EAC90AD551620CA2A42F26350978F9D2F3B0225F1BA82F002B5616DD415B29E721A537012E1AE00FEF1F892F63052FB6CE9551`
 SSDEEP | `1536:VLrfIoQDQxgs0Y5eDYVAb8KxLQgSSQlKWy/y:VQ2xgs35eDEAb8KxLQgSdcp/y`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

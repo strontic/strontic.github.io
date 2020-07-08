@@ -6,7 +6,6 @@ title: WSReset.exe | This tool resets the Windows Store without changing account
 
 * File Path: `C:\windows\system32\WSReset.exe`
 * Description: This tool resets the Windows Store without changing account settings or deleting installed apps
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5FDDA5D5E3AE48A72CD3E71410BF0A67512B7793006CAB5878D1361000616AD6`
 SHA384 | `987F38A48EB5B6B940D63F1B301D90777983378D9537DF13DCD59076A448298853F1DB15554B257631B37C61F169B208`
 SHA512 | `A059D2656D2130D26D8195989B6DE11851307FE85073A7473D8F80B74BC14795101663A6C2FBF0F5B23D274B0DDE7A284D38A0D300589B124895389C261B18B4`
 SSDEEP | `768:SnEer5SWnW7Sk0lKdoR9+1Nsn4FOBkStBWX:g/8tSk0lKd1Gg0YX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

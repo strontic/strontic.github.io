@@ -6,7 +6,6 @@ title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
 
 * File Path: `C:\windows\system32\CheckNetIsolation.exe`
 * Description: AppContainer Network Isolation Diagnostic Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A36892E480544B78981C04B26DD144F2C8DB1430CAA1B31A112AE6045B4E77A0`
 SHA384 | `1139E9F6A975E94C31B00A136E03AB05D1BFAE80FEE4D5A8A5913A1FC5FB089029485E903CEC698F1CF8B212020185D3`
 SHA512 | `5B9BB66712B9FDB7FA6F816B23D9B5AD5EB120ACB191471F2B46A33607F2223CFCF946E169F787343FCE570FB10DB6BBB47D9915431B4A7DABBF8034CF67FC96`
 SSDEEP | `768:5ao5bItbKbR7Ua2bxC11c40QLVMTlY97p:5aMbnR49qm4ZUlY97p`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

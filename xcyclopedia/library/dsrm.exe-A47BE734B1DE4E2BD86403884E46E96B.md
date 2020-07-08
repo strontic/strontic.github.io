@@ -6,7 +6,6 @@ title: dsrm.exe | Microsoft AD DS/LDS deletion command line utility
 
 * File Path: `C:\Windows\SysWOW64\dsrm.exe`
 * Description: Microsoft AD DS/LDS deletion command line utility
-* Comments: 
 
 ## Hashes
 
@@ -104,9 +103,6 @@ dsrm /? - help for deleting objects.
 dsrm failed:Value for 'Target object for this command' has incorrect format.
 type dsrm /? for help.
 ```
-
-### Child Processes:
-
 
 ## Signature
 

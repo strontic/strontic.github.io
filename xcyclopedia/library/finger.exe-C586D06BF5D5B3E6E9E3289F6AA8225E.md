@@ -6,7 +6,6 @@ title: finger.exe | TCPIP Finger Command
 
 * File Path: `C:\Windows\SysWOW64\finger.exe`
 * Description: TCPIP Finger Command
-* Comments: 
 
 ## Hashes
 

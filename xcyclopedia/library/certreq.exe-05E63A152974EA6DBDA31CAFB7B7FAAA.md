@@ -6,7 +6,6 @@ title: certreq.exe | CertReq.exe
 
 * File Path: `C:\windows\SysWOW64\certreq.exe`
 * Description: CertReq.exe
-* Comments: 
 
 ## Screenshot
 
@@ -167,11 +166,6 @@ Usage:
     -config URL
 
 Unknown argument: -help
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

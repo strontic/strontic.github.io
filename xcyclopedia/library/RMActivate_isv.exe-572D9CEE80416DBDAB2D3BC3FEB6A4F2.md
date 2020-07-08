@@ -6,7 +6,6 @@ title: RMActivate_isv.exe | Windows Rights Management Services Activation for De
 
 * File Path: `C:\windows\SysWOW64\RMActivate_isv.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `F983D1A5EAA26F8300DC6D8CC7B15782E6F0BF3F7B3A57C845BC4B2C470E0879`
 SHA384 | `C6723EB5273D37731CA94759D8CCA7769E5E901E8E2159579CE5BA421462EAD7FEA995BE67DF380C709BAF7DBA4395E3`
 SHA512 | `BCE6F0C4BE19119CE5C731A9FD5ACAD340B466494F096B29961D2F0D929B0775D97A892AD2177B6DD308F3503F06B516ACBCDE2DCA3BF48939F70DF596560994`
 SSDEEP | `12288:HDV+9MjWE/1pLKDRXbEh6OwhKUWr8D0oDpJ2QbMS/Qs4HnTs12vROdBie42WoQD:jV+9MjbpLqpyfUWYDXDpJ2qMS/YTsUOs`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 conhost.exe

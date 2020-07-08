@@ -6,7 +6,6 @@ title: dsmgmt.exe | NT5DS
 
 * File Path: `C:\Windows\SysWOW64\dsmgmt.exe`
 * Description: NT5DS
-* Comments: 
 
 ## Hashes
 
@@ -53,11 +52,6 @@ This is an interactive tool. Type "help" at the prompt for more information.
 				 administrator account password
 
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

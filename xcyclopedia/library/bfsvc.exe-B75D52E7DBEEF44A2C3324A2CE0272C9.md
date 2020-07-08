@@ -6,7 +6,6 @@ title: bfsvc.exe | Boot File Servicing Utility
 
 * File Path: `C:\WINDOWS\bfsvc.exe`
 * Description: Boot File Servicing Utility
-* Comments: 
 
 ## Hashes
 
@@ -21,11 +20,6 @@ SSDEEP | `1536:8VRuhv3kcGhiwYMvCG/PBYSXtAC3xTkehjgph:8DuhvJGgwPPiSn+ehK`
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 BFSVC Warning: Failed to determine source OS version.
@@ -33,9 +27,6 @@ BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! E
 BFSVC Error: ServicingBootFiles failed. Error = 0xc1
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

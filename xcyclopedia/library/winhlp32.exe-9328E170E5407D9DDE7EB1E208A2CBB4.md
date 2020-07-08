@@ -6,7 +6,6 @@ title: winhlp32.exe | Windows Winhlp32 Stub
 
 * File Path: `C:\Windows\winhlp32.exe`
 * Description: Windows Winhlp32 Stub
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B32AD4D55CD16563908C3AD06B38020FDC9679FBF1BF8EDFFE747EE4122AF62E`
 SHA384 | `F01DE1AA7978D43894CC076C65AD43FB2F828D2F71320490308CD764769E716C2F189C0DB761A40C7A6FDD7F11B3B8A4`
 SHA512 | `5F58B4F770812355031781FCBC9C976BF079B810094A20E187ABC9384DB480C78FC87C0F9FE539A18C9C4DE1BD500B2D7FB497852D67DD3EC41B53036C32DBD1`
 SSDEEP | `96:Ch6sdQqe9JXOlPoj1L9A2DWPToOJ+XNHr+NtgTvDJvkMp84NEWaJeHWwZhh4xqo:CUGQLXO7DTdCxrItgTJkDWIeHWmhh4j`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `96:Ch6sdQqe9JXOlPoj1L9A2DWPToOJ+XNHr+NtgTvDJvkMp84NEWaJeHWwZhh4xqo:CUG
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `winhlp32.exe` being misused. While `winhlp32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_korplug_fast.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_korplug_fast.yar) |         $s4 = "\\winhlp32.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

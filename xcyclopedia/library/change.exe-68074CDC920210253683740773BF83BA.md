@@ -6,7 +6,6 @@ title: change.exe | Remote Desktop Services Change Utility
 
 * File Path: `C:\Windows\SysWOW64\change.exe`
 * Description: Remote Desktop Services Change Utility
-* Comments: 
 
 ## Hashes
 
@@ -33,9 +32,6 @@ Invalid parameter(s)
 CHANGE { LOGON | PORT | USER }
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

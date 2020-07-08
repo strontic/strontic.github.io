@@ -6,7 +6,6 @@ title: perfmon.exe | Resource and Performance Monitor
 
 * File Path: `C:\windows\system32\perfmon.exe`
 * Description: Resource and Performance Monitor
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `5898266DF2C54E2F0555D97CC11FBF4707AFE2E991B1A86C1EE7F14F9CA5FA4D`
 SHA384 | `CCF9EBE3A771B3CD323BA65083E656AB3BE4888F1ED2D937A904A040247419DEF39EB22B70C542868BC174756D4CE389`
 SHA512 | `AF80549E39DB68AE65E9F869875ED7F3FFA1281EFBD2CB2B271E19B8CD941F5FB3DD55E3607F7A027282A0457323EBF22294C4E24C1F06B04ECD1E7C55555BC1`
 SSDEEP | `3072:MRra4at1xbcghtYIo9piswTogiqQKy349b:eYxZhqIo9s37iTK24`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: diskperf.exe | Disk Performance Configuration Utility
 
 * File Path: `C:\windows\SysWOW64\diskperf.exe`
 * Description: Disk Performance Configuration Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `6D1DFE10BF4482151DB3A8F34601DFDB527CC7EA107C0A74D8498DFA54E4E976`
 SHA384 | `253CBC35A449CC973858409918BB5BCDD721482289008BBC356CA1AEEBA86577212E823115BB53CED9AC8C23037B19FD`
 SHA512 | `A24AA80D5EB542A4B3428A8B75CCDE39CD6467456BE2719D14DE0D400E934CDAAB126EB93E17DB32FE66A1BB4E8FF364F90EA8AA4F390D5413AA5ACC80ED19EC`
 SSDEEP | `384:4piOMtQz0EkQV+evvoX/Ml2fPgL8r/JulWRJWmP19:kiOMtQgEkQV+ekMyPmo/Juo31`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

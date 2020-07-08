@@ -6,7 +6,6 @@ title: lpkinstall.exe | Language Pack Installer
 
 * File Path: `C:\Windows\system32\lpkinstall.exe`
 * Description: Language Pack Installer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D3904780DA4DFE30A49D39A1274247FCC2A2D1AE4AC09AF2668A8902864F9DD5`
 SHA384 | `027263BB1FBD95AE23337442855FE76EE4BD4A8703F48414EBF0EA19D24E8C49046423DFF7170328D978F8DEA2EEE43F`
 SHA512 | `93817DBE57450EEC4AB0074C51C6DD3A57A5D739B111D0B10D423A9CF9DA9D218A0FE9714F055B36B1F50382A216D5E6BF9B5CC8393A1C55ABA9D963BD488CDA`
 SSDEEP | `768:Cj6Rghp/0enynqTmQxAB6ulx68SY/gWdP4aal0c28wvn6f9P:Cj6Rg7xyqTmiA4cxV4xL+c28wP6f9P`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

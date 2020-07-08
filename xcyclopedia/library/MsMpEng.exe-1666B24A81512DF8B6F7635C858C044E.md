@@ -6,7 +6,6 @@ title: MsMpEng.exe | Antimalware Service Executable
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2005.5-0\MsMpEng.exe`
 * Description: Antimalware Service Executable
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `AA23BBCABA315E1035FD397A512551C6573B1BAD3B72665DA4F7D6D6537012C8`
 SHA384 | `B2359351DA119F256B2B595C5FCD493A7CA8A0034C92DB3CCD8ACBC2AF31361A4F8383A7312419722F6D7A9C303629D9`
 SHA512 | `4FB719067BFB2727F3588A6DF791FAB771B367D85EBC0BE0769118D3649A0D304871F7CD153D551A4953336AFABF9EC020680618F589B43A1C22308526C09F1C`
 SSDEEP | `3072:ZF1UoonTD+XE/UMNNKTe1TTfTsc0DfLfyFl:z12TDTMMN7Ic0DfmFl`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -64,6 +48,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_plugx_susp_exe_locations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_plugx_susp_exe_locations.yml) | `        Image: '*\MsMpEng.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_proc_wrong_parent.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_proc_wrong_parent.yml) | `            - '*\Windows Defender\\*\MsMpEng.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_svchost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_svchost.yml) | `            - '*\MsMpEng.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_cloudhopper.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_cloudhopper.yar) |       $s1 = "MsMpEng.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

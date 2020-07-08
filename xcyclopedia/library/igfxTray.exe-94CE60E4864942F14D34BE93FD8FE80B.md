@@ -5,8 +5,6 @@ title: igfxTray.exe |
 # igfxTray.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxTray.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +16,6 @@ SHA256 | `7298397567A6E42D1F1624D38AE8963B89C3D3000DA7E3CDC42F87C54B11C93F`
 SHA384 | `E998543BFFFF291F196786CF15ABE1035A4CFF6DD172AD5BF431EE1DB957D2092F9D81A997DC373B824E08854C5DD83C`
 SHA512 | `A81F1A3687A2DB7C985AA34D6771D880DE8161B147C319C95A4714420E3DCF3731D28301160F64B5A964B1036CC424D169781B4963A8FAC5C3B87EC507D53919`
 SSDEEP | `6144:bOKrfap2ojjnjTmT66cRt6UfBKqmfUQODvtMJfDVChJWRU:HojjnuGfBK3ZMvt6fDVCX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -75,6 +58,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [malware-ioc](https://github.com/eset/malware-ioc) | [oceanlotus](https://github.com/eset/malware-ioc/blob/master/oceanlotus/README.adoc) | `* `HKCU\SOFTWARE\Intel\Display\igfxcui\igfxtray\;[NUMBER];[DWORD]`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_four_element_sword.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_four_element_sword.yar) | 		$s4 = "igfxtray.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

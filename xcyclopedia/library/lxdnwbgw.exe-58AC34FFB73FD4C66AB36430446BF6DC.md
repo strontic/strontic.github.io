@@ -6,7 +6,6 @@ title: lxdnwbgw.exe | Lexmark Web Gateway
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnwbgw.exe`
 * Description: Lexmark Web Gateway
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B69FACB26213BFEAE66C46D15860357E936F69531462F1F58F638DFD022E2CFE`
 SHA384 | `9CD7C690604D68E4E2832245F2A63F1FEC78D681B1198291CB30AB7376866CBBAFB04325E474239C7B316C82A4C54320`
 SHA512 | `FFBC2D8E948D4FCF48D1B132961AC2EC9F47F7EF6B57DBA1084859F29E755B5A64974D99B5087FA31DF9065A0A2D8446E1B2DB6CCB51B2062C565208340A3657`
 SSDEEP | `1536:EZfoEPEv2yfEmgV1/2m+ScCKBJfuPqBLvKa8zpf:EyIC2ycmg/xDYJfuALyLzpf`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

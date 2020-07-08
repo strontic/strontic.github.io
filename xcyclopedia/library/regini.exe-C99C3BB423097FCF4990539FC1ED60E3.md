@@ -6,7 +6,6 @@ title: regini.exe | Registry Initializer
 
 * File Path: `C:\Windows\SysWOW64\regini.exe`
 * Description: Registry Initializer
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `DACAE80E98FEB789E0E09D763E047CCB1C54F3187059C6F5D0F4CDD433FE9D2E96C2E9
 SSDEEP | `768:YyvGV2EIgkhyilxWRhBDjMQx40tEt9WCADa1urxFE5L+ax9GFtLNI:H5EiADjb69WCAZF8x9GFJNI`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

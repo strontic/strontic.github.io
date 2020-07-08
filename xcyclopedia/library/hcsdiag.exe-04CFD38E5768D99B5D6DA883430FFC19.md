@@ -6,7 +6,6 @@ title: hcsdiag.exe | Hyper-V Host Compute Service Diagnostics Tool
 
 * File Path: `C:\Windows\system32\hcsdiag.exe`
 * Description: Hyper-V Host Compute Service Diagnostics Tool
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `4BA72D96813B0B85189A35EA04C5E94F4F21E6C36863E0EFA25258A45EBECB8AD07FA2
 SSDEEP | `6144:3Axd0mvvdMRSw24rNGniPiKZm2SlDbd3vx/kQnlm:qBvvKSw2RiXZm2+DNx/1E`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -61,9 +55,6 @@ Copyright (c) Microsoft Corporation. All rights reserved.
     for containers hosted in a virtual machine).
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

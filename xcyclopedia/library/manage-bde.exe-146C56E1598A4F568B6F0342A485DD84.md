@@ -6,7 +6,6 @@ title: manage-bde.exe | BitLocker Drive Encryption: Configuration Tool
 
 * File Path: `C:\WINDOWS\system32\manage-bde.exe`
 * Description: BitLocker Drive Encryption: Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -65,14 +64,6 @@ Examples:
     manage-bde -unlock E: -RecoveryKey F:\84E151C1...7A62067A512.bek
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

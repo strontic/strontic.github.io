@@ -6,7 +6,6 @@ title: sort.exe | Sort Utility
 
 * File Path: `C:\Windows\system32\sort.exe`
 * Description: Sort Utility
-* Comments: 
 
 ## Hashes
 

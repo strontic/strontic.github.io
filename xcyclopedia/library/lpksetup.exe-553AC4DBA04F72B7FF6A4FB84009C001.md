@@ -6,7 +6,6 @@ title: lpksetup.exe | Language Pack Installer
 
 * File Path: `C:\windows\system32\lpksetup.exe`
 * Description: Language Pack Installer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CB91CE75C73E7C24C2BB58B515C86DC4FCFAE19D31AD3B4060418B8A479D7C8A`
 SHA384 | `731555FC95599759F85711523EF5518F846EF129B8AF014F2E4DD173A16D1DE8D52EB4EA7BA72A881DABC95EA0C121D0`
 SHA512 | `DDDAAE762C57E2044745A98D751264A53A13A8F8681736093FEBF5D7EA081AC8A75DC78CD18380A84D0E129B4B4FF17723FA697C1564F587ED7898F37F3F0FA9`
 SSDEEP | `12288:VOdlvElaFLjWodE5Wqb67dSkeKqcI9S7ZMXVw40JlyfndmLh:VOdlvn/WzTb6wUIwbrJlemd`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

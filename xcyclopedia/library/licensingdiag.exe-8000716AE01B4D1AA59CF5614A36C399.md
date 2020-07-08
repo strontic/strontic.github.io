@@ -6,7 +6,6 @@ title: licensingdiag.exe | Licensing Diagnostic Tool
 
 * File Path: `C:\windows\system32\licensingdiag.exe`
 * Description: Licensing Diagnostic Tool
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `CFE4E82E2B43B00A59A94B6C7583163B381914A976C09F3AE4A70791C3B48C5F`
 SHA384 | `4501476D9BA381C3008BE5425E9F673A57C20B3BCFE42DCE3E64F1DEB40661217EF735578C877238A15054CCB4B6F983`
 SHA512 | `6E214722FB9A5BB4149D088177A9E22D24528598A44396784AFDA33001ADCD8F1B7CCFD81AE560309E39477C92D15F587E71F6C831C8B2F05187D2BE0F63BD11`
 SSDEEP | `12288:dV1d/xtiQ51mYdZ4PUy772FrmdP18bHT3UuTSl/Zr:D1d/xtr5b8M7Fr4t8bHIuu/Zr`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

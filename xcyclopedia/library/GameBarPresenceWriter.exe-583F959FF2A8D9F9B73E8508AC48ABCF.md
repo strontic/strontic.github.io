@@ -6,7 +6,6 @@ title: GameBarPresenceWriter.exe | Gamebar Presence Writer
 
 * File Path: `C:\Windows\system32\GameBarPresenceWriter.exe`
 * Description: Gamebar Presence Writer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `505280C8EFE3F358F80CED74C1558A132CE85BF2337B0CCC09A47B2C9E9A7EEC`
 SHA384 | `03FF26ED72C89AD35204787CA3B76EC3F345383D64EAD45183CA05FFCD71100CE026BE2FE809C2F4CF501E261AB8190B`
 SHA512 | `9C7E07D266F0B62A4DAB7C4DCBF48B10EB91D6689F1DA18CD4A020DB2027141FE7B5FCDDA58CE6564A541E34D0CC43E910A719D99BCA99C79ECECD624D83F731`
 SSDEEP | `3072:gWba1t9ZdZqJhf/vFrfyT8kSXiXpEVBuf:gWm1chNjykkpmBu`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

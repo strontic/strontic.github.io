@@ -6,7 +6,6 @@ title: gpupdate.exe | Microsoft Group Policy Update Utility
 
 * File Path: `C:\WINDOWS\system32\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
-* Comments: 
 
 ## Hashes
 
@@ -78,14 +77,6 @@ Value                      Description
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

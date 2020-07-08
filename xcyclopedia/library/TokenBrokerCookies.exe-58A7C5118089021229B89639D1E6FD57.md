@@ -6,7 +6,6 @@ title: TokenBrokerCookies.exe | Token Broker Cookie Helper
 
 * File Path: `C:\windows\system32\TokenBrokerCookies.exe`
 * Description: Token Broker Cookie Helper
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `950FB6C29989F0291446281BB4CD2F1477855197F52F5AA8901C0E7B5F96D0A6`
 SHA384 | `1AA0E78DE2176253A824FAA70F1485B0B7CB988B34E1095AA31222228725A5C4D676504A79DFACB8E68B57C123644E9D`
 SHA512 | `F13A76FEFEB9D6EBBA8F04652DB9527BE71E50BBAB2B755EBA640EA7F33B374D6DC4F0710D6589C8E7955463C26DBE91838D191368B1BEDA37008842AD71C732`
 SSDEEP | `768:tMUZi+ojuTSUIulmkniTYG6xmF87lMAVMn:uUuuTScmkiTYG6xmF8ZMAVMn`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

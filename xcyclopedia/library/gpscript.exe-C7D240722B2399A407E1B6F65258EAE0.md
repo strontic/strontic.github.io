@@ -6,7 +6,6 @@ title: gpscript.exe | Group Policy Script Application
 
 * File Path: `C:\Windows\system32\gpscript.exe`
 * Description: Group Policy Script Application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `6D01F0FBA4F2DF370DFF5C91728C407DF8E364470E1D6776BF25C6248B938212`
 SHA384 | `C6D70EA0942727BA2000795ADCAD9A7E6910BB171DF3494F101A343E6B7565F6231E48FC763A2F77E2FBE0D617E83DAE`
 SHA512 | `1436D7C9CD5F757DE622701753FC9B6DE330387D46DAE39612C204A6B79500E46DD2EE77DCAECE391F84D2B098C0AD388AF327022C4BBC316157B4D316309480`
 SSDEEP | `768:vPx149fDVT7oUke5GZeEyLJ+885rAJl0ex0HslgTdTcgdCtZ7M:XxeDp8k5GZelN+88pa+ex0HfTdTldQM`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

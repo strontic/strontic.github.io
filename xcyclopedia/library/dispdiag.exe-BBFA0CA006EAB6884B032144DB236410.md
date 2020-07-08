@@ -6,7 +6,6 @@ title: dispdiag.exe | Display Diagnostics
 
 * File Path: `C:\windows\system32\dispdiag.exe`
 * Description: Display Diagnostics
-* Comments: 
 
 ## Hashes
 
@@ -41,14 +40,6 @@ Output:
 	Name of the saved file.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

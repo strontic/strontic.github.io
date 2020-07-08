@@ -6,7 +6,6 @@ title: wuauclt.exe | Windows Update
 
 * File Path: `C:\WINDOWS\system32\wuauclt.exe`
 * Description: Windows Update
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `62AFF13B933C69C3CF2DBC4D29FE2D7C19E15226D65652455726B08BE66AD94C`
 SHA384 | `93082F4A65005E51D3BF659670A98E2C99ACCC87D6A1594A2192511A3549F97497580CB5B7B6F499434988796DC321A2`
 SHA512 | `FF470D99B190A7E691367AB7E5A0D6513B669BD214360B958F79ED0704DD9F3612537F4CE1B2BD4038A064B46748A6915C1A23255D8210864C974A36195DA593`
 SSDEEP | `768:/Ul/9UyG1qzF8vHPP12MTnKXKh16KwdOjOvixrH6KRUQGFMP0GasceHTMixx44zU:/e/9DYvdt17i0Dep2c7WNVexfNR+3EPJ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `768:/Ul/9UyG1qzF8vHPP12MTnKXKh16KwdOjOvixrH6KRUQGFMP0GasceHTMixx44zU:/
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `wuauclt.exe` being misused. While `wuauclt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$x0 = "WUAUCLT.EXE" fullword wide /* PEStudio Blacklist: strings */ /* score: '20.01' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

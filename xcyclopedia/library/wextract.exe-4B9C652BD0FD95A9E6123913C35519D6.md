@@ -6,7 +6,6 @@ title: wextract.exe | Win32 Cabinet Self-Extractor
 
 * File Path: `C:\windows\system32\wextract.exe`
 * Description: Win32 Cabinet Self-Extractor                                           
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `BEE6558E08359DA2F716BFCAA524778844C696A4E4DEC87426AFB7F5EF23DFE0`
 SHA384 | `FE95696E80BDE91D26AB24C95AC7A3EAA9E654ABE599CB0E485E20D06121EEAE591107C2307E48D51848B93888478077`
 SHA512 | `0964EFAA0F3E20FDC20D58433E3D45562083F4748DB435A36BAC7D118EEFF0197BCF77DC831EA8F5A47D5B331F9DCDBC80668931A764FEC26129C5D47AF2F3F9`
 SSDEEP | `3072:IyqBXv8dNxT5Wp1icKAArDZz4N9GhbkUNEk95V:8k7Mp0yN90vE`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

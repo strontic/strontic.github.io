@@ -5,8 +5,6 @@ title: nmscrub.exe |
 # nmscrub.exe 
 
 * File Path: `C:\Windows\system32\nmscrub.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -43,14 +41,6 @@ SwitchFriendlyName = 'nat'
          IsLightWeight = 0
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

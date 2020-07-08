@@ -6,7 +6,6 @@ title: RDSPnf.exe | Windows All-User Installer Profile Processing Module
 
 * File Path: `C:\Windows\system32\RDSPnf.exe`
 * Description: Windows All-User Installer Profile Processing Module
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `693CA6F133EA31B28EE57366D6FE01B055CFC4840EDBD1A15F1B6F3A615520A4`
 SHA384 | `690EE816997A5783750D1A5E4C8311393EFA4BA09D6ABCCE55F166FFA3C4BAFE640FEBDC605DB7AEFF6FCDB9E2C05C7A`
 SHA512 | `2E9D0D8536AC6C30D51609316B7524EB2C59470EA1B2A116E6053055CEDFCD7E6CC5EC28C96138229FCA405B971B2B0F700B67CEDBDF4A799FD25199135D6A72`
 SSDEEP | `1536:+qk7IZRkue4GwYsl2TvgRepi+k2rklK+38HkFXU4:lR0bkl2zgmn30K+38EC4`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

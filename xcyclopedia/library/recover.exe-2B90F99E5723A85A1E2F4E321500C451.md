@@ -6,7 +6,6 @@ title: recover.exe | Recover Files Utility
 
 * File Path: `C:\windows\SysWOW64\recover.exe`
 * Description: Recover Files Utility
-* Comments: 
 
 ## Hashes
 
@@ -28,11 +27,6 @@ Recovers readable information from a bad or defective disk.
 RECOVER [drive:][path]filename
 Consult the online Command Reference in Windows Help
 before using the RECOVER command.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

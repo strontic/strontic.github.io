@@ -6,7 +6,6 @@ title: BackgroundTransferHost.exe | Download/Upload Host
 
 * File Path: `C:\Windows\SysWOW64\BackgroundTransferHost.exe`
 * Description: Download/Upload Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D99D243CF16CE52FB4ECF7118EF43D8AB253012E680D63DA82EE1B25814ABBF1`
 SHA384 | `361ADDEFE103EB7CA2FB275288DC2B715C2BF4917D1ABAE0EA3CAE88F6EC561B3BFCC77F8835FD5D39EFAD37542A08D3`
 SHA512 | `13C43BA2E442476D46F5230A5371AB3C0D502C0C825FB78B68526021F7690252AFBF810650E63B744F1A4F978ADC49AB5512AA6C7FCF62F6725EEB55A99193C3`
 SSDEEP | `384:ytOSqlnvpXZemjaBxspKvz0//W0fgWkvE0g7QmmrIPjPsbFe+4rDWW:OOPv8j0/NN03AO`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

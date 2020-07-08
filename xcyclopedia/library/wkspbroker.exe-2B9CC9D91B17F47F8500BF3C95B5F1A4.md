@@ -6,7 +6,6 @@ title: wkspbroker.exe | RemoteApp and Desktop Connection Runtime Broker
 
 * File Path: `C:\WINDOWS\system32\wkspbroker.exe`
 * Description: RemoteApp and Desktop Connection Runtime Broker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9B47C71D96016772E403B6008BC5CFE589558BCA6578399308DA558C794D92D3`
 SHA384 | `97AFDD709EA6817C3997EC468E78BE98547E00F79D439D91E6CE770E7C7178578F2D9833E35F8DF4A22D5C780521387C`
 SHA512 | `60A1B6202823C735DB0A260EADCF7EF8DE71EA6138FFBF8CA8330DE1154D9494A50594F9835A47861ADEC92F50DD160C5E6ACD2C2924C9179223239E19F5B177`
 SSDEEP | `6144:DwnDyApbUHf95tXxSRB7prq1qctU1WyZFk3RdA:DeyApu9rXxSLtrwPEWynn`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

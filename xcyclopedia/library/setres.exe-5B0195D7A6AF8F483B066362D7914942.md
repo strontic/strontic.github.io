@@ -6,7 +6,6 @@ title: setres.exe | Configures display settings.
 
 * File Path: `C:\Windows\system32\setres.exe`
 * Description: Configures display settings.
-* Comments: 
 
 ## Hashes
 
@@ -36,14 +35,6 @@ Description:
 -i               Display the current screen resolution.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

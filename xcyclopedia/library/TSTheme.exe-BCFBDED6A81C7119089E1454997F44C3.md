@@ -6,7 +6,6 @@ title: TSTheme.exe | TSTheme Server Module
 
 * File Path: `C:\Windows\SysWOW64\TSTheme.exe`
 * Description: TSTheme Server Module
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B220104B36A01F1202EFE45BEAEEC3227927DCDAF364239CFF90724430B2BCA0`
 SHA384 | `B3F089815CED2DD8BABF5B46D54C5130F38B627E03954E26C0740E85A939963D3CA1B5FA913986F00187345DBDCC4FCC`
 SHA512 | `2EA9C45AB610163C78D07FF54F3278CCEEB59DAC92435619ED49481D0D9C7B011A82AF1DAEC71577F941A506486E81BA318E4E1235064855247EFA61921F3102`
 SSDEEP | `768:PMoZrjHpb3tbZ5+2cSi+/pC6S9nJg+jfoghjjoiSi6nfkunHdofjaEObi:PMcrjHlgd+/peg+Loghjanfksdofjax`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

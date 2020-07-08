@@ -6,7 +6,6 @@ title: ServerCeipOptin.exe | Customer Experience Improvement Program opt-in comm
 
 * File Path: `C:\windows\system32\ServerCeipOptin.exe`
 * Description: Customer Experience Improvement Program opt-in command-line tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `FEA559EA217255E913EC5587834E8D23235590B7FD70A92579C256FDE068591F`
 SHA384 | `66C2CABBA026EFF8BFBA8AB5B6F6F16CE6F393BFFED26A0AA9264DD16B65B0FA9CF7D83D51BE37AE725A2A0078387FEA`
 SHA512 | `2ACAE84F3E2F98B32895CF70DAFBD0533C3AA778B60D0F476A67944693AB57EB93A22AEAF8A48312DD5833BC83D5DBD1A000E28875DCEAFC09D4A28C6AAC7FB0`
 SSDEEP | `192:N/sn3IxRFzwR3ace0vj6La4XPdjtBwpv7M5Md43B3uP9eAFZU6WN8UmrW:tjRFzwRbvj6LTLBy4SOAP9egNW6JrW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

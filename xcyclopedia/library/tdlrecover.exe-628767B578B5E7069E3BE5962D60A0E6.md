@@ -6,7 +6,6 @@ title: tdlrecover.exe | Microsoft Tile Data Layer Reset Tool
 
 * File Path: `C:\Windows\system32\tdlrecover.exe`
 * Description: Microsoft Tile Data Layer Reset Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `66718DED2E5AEA4D072B55D748CDAA686D4FB98CCB811682A18FE1C5B7DD1153`
 SHA384 | `5227CB0597AFD53FDE0589462B1F953C7C1F73D0A19575EDC177687DD2CCA372D177FBCA4280B86E5D067C35C8B9A666`
 SHA512 | `DBE605655B57EB85FE2D2C3F40661719F4BDF5422E035035217FCBA1B5F2D2BDDEA35DEFBBA8098EB480E6ED960CEF51860F9CFCB74FD0B088A5FDC7D713456B`
 SSDEEP | `1536:tEe8VJDo5G61tqcgS9+iRr78W+3JfJPB+J7/sYYzIA5pEM2gMD+Mc0Lnt:tepoari78x3dJPBc/sYYMAt2HSRot`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

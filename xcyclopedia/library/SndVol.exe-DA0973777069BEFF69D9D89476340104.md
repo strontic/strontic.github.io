@@ -6,7 +6,6 @@ title: SndVol.exe | Volume Mixer
 
 * File Path: `C:\windows\system32\SndVol.exe`
 * Description: Volume Mixer
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `8B72FC4CA330772DA1236D6A809452DB4F6FB3CE62F80F2B5750E65A74D799D8`
 SHA384 | `EC31FB083A3ECF88DDE1146EA5939456DCE47BDA04408CE9713E5485E0C269F9DD51698B3DA16C5E31D27F790154029F`
 SHA512 | `2BB0A0032FCBC7ECEC5653708C1BB53EB777379E2AF1A097BC422111EFE41A705DB96F8278D9155FCEE631F9504CF6FA9E624572C844EEB5941B870AC8E6C41D`
 SSDEEP | `3072:XAX1Tz8W559nIJdBiFOksFYPZ3uI8qoMpkjbEyB7HbI2l:STZ5xIJdBiFOtG378qooy10y`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -68,6 +52,14 @@ File | Score
 [C:\windows\SysWOW64\SndVol.exe](SndVol.exe-8D40C30D3BA0030D55C1249C118D7F63.md) | 30
 [C:\Windows\SysWOW64\SndVol.exe](SndVol.exe-FC0BFFE396750BB00FAFAD0C62E7ACDA.md) | 32
 
+## Possible Misuse
+
+*The following table contains possible examples of `SndVol.exe` being misused. While `SndVol.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		description = "Anomaly rule looking for certain strings in a system file (maybe false positive on certain systems) - file SndVol.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		filename == "sndvol.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

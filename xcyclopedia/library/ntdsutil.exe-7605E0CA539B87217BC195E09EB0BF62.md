@@ -6,7 +6,6 @@ title: ntdsutil.exe | NT5DS
 
 * File Path: `C:\Windows\SysWOW64\ntdsutil.exe`
 * Description: NT5DS
-* Comments: 
 
 ## Hashes
 
@@ -68,11 +67,6 @@ This is an interactive tool. Type "help" at the prompt for more information.
  Snapshot                      - Snapshot management
  SSL Port %d                   - Configure SSL Port for an AD LDS Instance.
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

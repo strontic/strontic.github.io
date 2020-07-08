@@ -6,7 +6,6 @@ title: tcmsetup.exe | Microsoft Windows(TM) Telephony Administration Setup
 
 * File Path: `C:\windows\system32\tcmsetup.exe`
 * Description: Microsoft Windows(TM) Telephony Administration Setup
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `7C159CDD1FB7C5359439DA809B5BEB15E1FFDF769D2249054C36F99C7B9BF609`
 SHA384 | `3E09745D001E2F91BBE80D3C35AD2A554EC73D610386AF6946CA422AB5E08C0F571331DF308C59C05FBBFC59113C25DC`
 SHA512 | `32A4B20A1188ED6F1315686CC1EFF87820D6D361D452E68780316AA8E4AE00740B178DD30A866662AF3C20BFE6091DFB02C4A906F24F4DFF01A323C0224FF051`
 SSDEEP | `192:Xz8yrtsYOD7iyxXQw3IE2zDrxLCY7f8WS3qb6UdOU/QN99OWGQoW:ab7ieXKdzDrx207dbKV9OWGQoW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

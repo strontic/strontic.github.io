@@ -6,7 +6,6 @@ title: netbtugc.exe | NetBT Unattend Generic Command
 
 * File Path: `C:\Windows\SysWOW64\netbtugc.exe`
 * Description: NetBT Unattend Generic Command
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `EB1A56A400487D079C2836872E3EA56004FC4FBCE5A17ED4750435760BAB6E52`
 SHA384 | `F0D0B2CF9FAC74E3C1ED08E1F81C2470C88ECA5D2E31348A79424665172CEC02F9DE1E60BB3EBC27F76C6176B3ED5EC5`
 SHA512 | `F276156B0A422B02819468637B6D1BE7F8E5EBC16E12C67816344BB52EDF3555DD8517A38154C92367F1C66504EFEDFC7C4E9B4453909CEB7616B6FF5AF9EEBD`
 SSDEEP | `384:Fsmj2osEmqxLbiaOG0dcXvpgbCbgXCgGcJmScLScQbKbIiLbp/W/tFWwr:rEbOXvyCLG9cecQwIipKbr`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

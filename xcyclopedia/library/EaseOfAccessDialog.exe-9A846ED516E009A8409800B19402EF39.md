@@ -6,7 +6,6 @@ title: EaseOfAccessDialog.exe | Ease of Access Dialog Host
 
 * File Path: `C:\windows\system32\EaseOfAccessDialog.exe`
 * Description: Ease of Access Dialog Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9B1CAE08E7C181C67174FE89C8C75E10B15D5329E81295A9FFD01E912135E9D1`
 SHA384 | `1CF3AF9A1036FFC9DA85C0ED73FE71320F607FDAB352434CC2B7ABC75E2A69468CC35228B0211E06BE7866356DDE7250`
 SHA512 | `68F75C4919BCD34BA90AD987E5E2674182A615FDB3D6A847FAF30A679603841C4A68F2A492197CF813653F93FCDA6152EFD38248B96364546358D9D82D9D78FE`
 SSDEEP | `6144:ldgan4BCk19yZCnpAlGrX6uFz2LJGRg4kLNnei36cw:02sTdjFCdUc`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

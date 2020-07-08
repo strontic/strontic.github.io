@@ -6,7 +6,6 @@ title: WMIC.exe | WMI Commandline Utility
 
 * File Path: `C:\Windows\SysWOW64\wbem\WMIC.exe`
 * Description: WMI Commandline Utility
-* Comments: 
 
 ## Hashes
 
@@ -151,9 +150,6 @@ For more information on CLASS/PATH/CONTEXT, type: (CLASS | PATH | CONTEXT) /?
 help - Alias not found.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

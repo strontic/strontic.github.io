@@ -6,7 +6,6 @@ title: BdeHdCfg.exe | BitLocker Drive Encryption: Drive Preparation Tool
 
 * File Path: `C:\windows\system32\BdeHdCfg.exe`
 * Description: BitLocker Drive Encryption: Drive Preparation Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `AF5EFBFB05EAF46626EFB8DBFD8BD1A878A224E2C12438D26B6B88AAD764939E`
 SHA384 | `9AF969C5A892175D03A28F65688BFCDC236A36629B082AF83F8EE1658628F05B08A2CA3DF124D7D47970D42C7E06145C`
 SHA512 | `F9F96A3D67C56790F4A6E953DD29FBF8E0A07BDD2C3715524B36D73FC0505F1F05A22E675CFF072333C28B6DD9050582545BFBC52B882A8082889A8B33514789`
 SSDEEP | `3072:m3F7+BQd9UKEVMownVS570M9kdatGCO+xmBc+hMPhPsx:m3F7uKEVMpVs7nyatGt+SYF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

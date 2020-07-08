@@ -6,7 +6,6 @@ title: reset.exe | Remote Desktop Services Reset Utility
 
 * File Path: `C:\windows\system32\reset.exe`
 * Description: Remote Desktop Services Reset Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A07B90834EFB0E2EEA532EAA97F5254DFCB688166AFBC7E845F3E8C32025C21C`
 SHA384 | `E833CB0780DDAACF6C88BB78C5BE9BD137651B72C8AE744F0C9B0066CB1F7B912BCD9CB8682FEABBC1D0B5FD3FED17BD`
 SHA512 | `2790092A67F5B6A2AF123DF6457677A1D1880C5C8AE5894E71306FC51470FF8D9B49CA2678EA722F5326B16776A4A3073C4C05BF636227C51066B52E196AFC57`
 SSDEEP | `384:ChqzHhQM8kL35RXgyfWQqiXsOkeYoKNe1thWZgW:ChqjlnJfzRcB81t8`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

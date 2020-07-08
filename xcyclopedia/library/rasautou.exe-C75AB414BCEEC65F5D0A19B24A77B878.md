@@ -6,7 +6,6 @@ title: rasautou.exe | Remote Access Dialer
 
 * File Path: `C:\Windows\system32\rasautou.exe`
 * Description: Remote Access Dialer
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `384:jCiWZUm33JulLX7auWmPScTwhC8sWoBW:j343szWK+h1O`
 Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

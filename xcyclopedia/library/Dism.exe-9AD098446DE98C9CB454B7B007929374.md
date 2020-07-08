@@ -6,7 +6,6 @@ title: Dism.exe | Dism Image Servicing Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\Dism.exe`
 * Description: Dism Image Servicing Utility
-* Comments: 
 
 ## Hashes
 
@@ -30,14 +29,6 @@ Elevated permissions are required to run DISM.
 Use an elevated command prompt to complete these tasks.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

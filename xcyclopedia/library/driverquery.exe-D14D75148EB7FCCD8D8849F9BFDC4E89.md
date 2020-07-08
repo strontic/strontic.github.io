@@ -6,7 +6,6 @@ title: driverquery.exe | Queries the drivers on a system
 
 * File Path: `C:\Windows\SysWOW64\driverquery.exe`
 * Description: Queries the drivers on a system
-* Comments: 
 
 ## Hashes
 
@@ -69,9 +68,6 @@ ERROR: Invalid argument/option - '-help'.
 Type "DRIVERQUERY /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

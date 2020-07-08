@@ -6,7 +6,6 @@ title: poqexec.exe | Primitive Operations Queue Executor
 
 * File Path: `C:\Windows\system32\poqexec.exe`
 * Description: Primitive Operations Queue Executor
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D376B08CCDDD00755AA49DA2D1645AF0A7AF938BCA65284DE1E4E7CA0D5DA80A`
 SHA384 | `994BFCDC0F5A59D9E294535855C979DA950A81202ACBDCA73EF8699C2B1724D07CF20A36C3A6D3B37D77378B98E06A3E`
 SHA512 | `F605E7C3E5054A32396290C2E1CB9C92C9F4230CB9CE523EC9D342FE7DC163C970E300BA88FCF58250CD73EAE71768FBAD4E4D1E3056070757D6558941E7AACF`
 SSDEEP | `3072:PDzJ+oQ0eV9NRba5FoqWgHgNQDfvSpfFE4IDn+LUgj:PDzJe0eVtba5FoqRgQDfUfFE4ID+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: baaupdate.exe | BitLocker Access Agent Update Utility
 
 * File Path: `C:\windows\system32\baaupdate.exe`
 * Description: BitLocker Access Agent Update Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `9CF66EAF1B13F74CF0770F1B7CDB557889DDA61EAB13CE5ED2B7C324A711F16A`
 SHA384 | `0C3EF0436E5F5742D2EF9F78EE5842388840A2CFB9C31C260D1BE09982259CF0E321B0419D6E0924727EEC13D438E63C`
 SHA512 | `4A68E9CFF6990A88E4CE9FF7160B4E9D8907055CC1FB4A56AFF1FFD599B8CC9893611449028D058326D7979EE9E87A29E200D0F5C62B7F2FEFB21AC4003D6500`
 SSDEEP | `3072:P15pon8wnVS570M9kdatGCO+xmBc+hMPhPsx:5otVs7nyatGt+SYF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

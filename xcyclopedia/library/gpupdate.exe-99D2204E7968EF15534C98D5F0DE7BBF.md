@@ -6,7 +6,6 @@ title: gpupdate.exe | Microsoft Group Policy Update Utility
 
 * File Path: `C:\windows\SysWOW64\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
-* Comments: 
 
 ## Hashes
 
@@ -76,11 +75,6 @@ Value                      Description
                             The /Force and /Wait parameters will be ignored
                             if specified.
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

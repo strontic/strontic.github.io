@@ -6,7 +6,6 @@ title: ServerWerOptin.exe | Windows Error Reporting opt-in command-line tool
 
 * File Path: `C:\windows\system32\ServerWerOptin.exe`
 * Description: Windows Error Reporting opt-in command-line tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3E808C7D0D1728D81D1754E068DFBBFC76D162A404D3820080BCF86D597D22BA`
 SHA384 | `C0E1FBBD15017FC0920A09EA343382FBCA934267337B87663B7BA5E81DE132CC0191BD644BCFACA27F66C454A581E8CE`
 SHA512 | `E4C35A72D1C4A7CA0F180CBC13C89E56890145A419BB75E3042DDAE096915DC649A670C63068C7D19D93CEE23356C2FAD83F8C0365976711860DD59069EC0C2F`
 SSDEEP | `192:NVwRbUvE4HgHTe2Vbah/PBG2JpP27mifRiuP9eAFZUOWLUv0Wa:rwGTgHTe2VbuY2fwXRJP9egJWLc0Wa`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

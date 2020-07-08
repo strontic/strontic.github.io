@@ -6,7 +6,6 @@ title: WindowsActionDialog.exe | Windows Action Dialog Broker
 
 * File Path: `C:\Windows\system32\WindowsActionDialog.exe`
 * Description: Windows Action Dialog Broker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `E00A7184BAB1FF6252CCC29A5878D94B148C91B583BA45CE657872F888531F3A`
 SHA384 | `3212F1CA742CB2A0CC5FA9BF1CAA6447FE75F499888A59301730FCF4D06F2FF88829BEB4E2BE751E982B9D412440376E`
 SHA512 | `26A65B5208339B73114E9DB63C962FE0A1F5A30ED3DD9D9F3AF02FD048E30B631717A65FDF740102782B63959C81674834C5342353C4E83FC7B34AA233F45067`
 SSDEEP | `768:6kSHpGgnr2M2xBMqV7YSyE4gwqfWs4r5qn+Vtxfyye6Y3Vgp42LZtuwDq4EgmGDg:n6nr2TFRvyEXrb4Yn+lfG6HZtTmGS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

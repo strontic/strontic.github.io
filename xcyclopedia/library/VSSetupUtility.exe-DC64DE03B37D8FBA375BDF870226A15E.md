@@ -6,7 +6,6 @@ title: VSSetupUtility.exe | Microsoft Visual Studio Enterprise 2015 Setup
 
 * File Path: `C:\ProgramData\Package Cache\00000000-0000-0000-0000-000000000000\packages\wdexpress_full\VSSetupUtility.exe`
 * Description: Microsoft Visual Studio Enterprise 2015 Setup
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5B8EB81E6463AC73B9CA22330DF25019E1AC71DD3C2E160CC4A68BE38280C02D`
 SHA384 | `5A7364BBD58323CF2BC4B2608312A7CF71A9FC3BD63C88375CF8B1EA30B31CB1D2A955D9B96D50498743FD4B74131EEB`
 SHA512 | `4A02028881A108824DDC2ECD0F545098D5A155B4D30E14580360C402DFEBD9FE81A5A2750CFF0DC717DF567AE54EAACF13BD3793288757AC1BB6D747CE1032E3`
 SSDEEP | `3072:OjzkrbuhO99o47Q6cbJp3TIkUzUslp6fKl/Oj9ijUyry+zturqX26kl7FmU4x9h0:UzkHuhO994TJMBlofu/jZ9zG79ITOF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

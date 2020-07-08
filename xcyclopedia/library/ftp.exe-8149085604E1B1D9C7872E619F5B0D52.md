@@ -6,7 +6,6 @@ title: ftp.exe | File Transfer Program
 
 * File Path: `C:\WINDOWS\SysWOW64\ftp.exe`
 * Description: File Transfer Program
-* Comments: 
 
 ## Hashes
 

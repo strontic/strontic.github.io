@@ -6,7 +6,6 @@ title: winrs.exe | winrs
 
 * File Path: `C:\Windows\system32\winrs.exe`
 * Description: winrs
-* Comments: 
 
 ## Hashes
 
@@ -129,9 +128,6 @@ For more information on tools see the command-line reference in the online help.
 Winrs.exe: Unrecognized switch "/h"
 Use "winrs -?" to obtain the usage information
 ```
-
-### Child Processes:
-
 
 ## Signature
 

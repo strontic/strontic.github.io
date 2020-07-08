@@ -6,7 +6,6 @@ title: TFTP.EXE | Trivial File Transfer Protocol App
 
 * File Path: `C:\Windows\system32\TFTP.EXE`
 * Description: Trivial File Transfer Protocol App
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `20FB0032F9DDE474488B136B8AC512761DDEBCEC22382E1A8E0530ECE4FA03035FB0B7
 SSDEEP | `768:LCBu/DB8PbDz0mVMRlpTrmOjTtCCzprfu:mBuV8wmORlpPmOjTHJfu`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -47,9 +41,6 @@ TFTP [-i] host [GET | PUT] source [destination]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

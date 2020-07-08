@@ -6,7 +6,6 @@ title: DmNotificationBroker.exe | DmNotificationBroker
 
 * File Path: `C:\Windows\system32\DmNotificationBroker.exe`
 * Description: DmNotificationBroker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D012DA52B3A3C739E94AE6A2828BAAF0C9C3AD5FFEDFA14038A9225DD563C256`
 SHA384 | `588287C0779210482053339FD67A0E58DB6271C0A9810E3D7763698F6028393DDD87D73A8244D350BA6C11E2BFB941EC`
 SHA512 | `EB8DF7D07B5E2D292747A735F4F52FA805F5DB460405CB3BE2ECB93522FA4C19DFE37396499A5A502809EAA5FAFD35D0A21D3B2265E781553DD703CAA607B9AB`
 SSDEEP | `768:9wg2XXdIn24Dzfvv+lj4dhkMl0n5KxxZCs:SNIn24v3v+6diM+n0XZCs`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

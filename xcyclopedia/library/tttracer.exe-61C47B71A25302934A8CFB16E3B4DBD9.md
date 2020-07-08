@@ -6,7 +6,6 @@ title: tttracer.exe | Time Travel Debugging Tracer Tool
 
 * File Path: `C:\Windows\system32\tttracer.exe`
 * Description: Time Travel Debugging Tracer Tool
-* Comments: 
 
 ## Hashes
 
@@ -66,9 +65,6 @@ AND NON-INFRINGEMENT.
 Error:  Unrecognized command line option '/h' (Error Code 0x80070057:  The parameter is incorrect.)
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

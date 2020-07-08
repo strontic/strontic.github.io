@@ -6,7 +6,6 @@ title: fltMC.exe | Filter Manager Control Program
 
 * File Path: `C:\Windows\system32\fltMC.exe`
 * Description: Filter Manager Control Program
-* Comments: 
 
 ## Hashes
 
@@ -38,14 +37,6 @@ Valid commands:
     Use fltmc help [ command ] for help on a specific command
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

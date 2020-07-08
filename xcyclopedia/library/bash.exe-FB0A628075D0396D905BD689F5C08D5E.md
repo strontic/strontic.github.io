@@ -6,7 +6,6 @@ title: bash.exe | Microsoft Bash Launcher
 
 * File Path: `C:\Windows\system32\bash.exe`
 * Description: Microsoft Bash Launcher
-* Comments: 
 
 ## Hashes
 
@@ -28,14 +27,6 @@ Distributions can be installed by visiting the Microsoft Store:
 https://aka.ms/wslstore
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

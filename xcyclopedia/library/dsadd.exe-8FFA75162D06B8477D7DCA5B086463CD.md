@@ -6,7 +6,6 @@ title: dsadd.exe | Microsoft AD DS/LDS creation command line utility
 
 * File Path: `C:\Windows\system32\dsadd.exe`
 * Description: Microsoft AD DS/LDS creation command line utility
-* Comments: 
 
 ## Hashes
 
@@ -90,9 +89,6 @@ dsquery /? - help for finding objects matching search criteria.
 dsrm /? - help for deleting objects.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: scwcmd.exe | Windows Security Configuration Wizard Command Tool
 
 * File Path: `C:\windows\system32\scwcmd.exe`
 * Description: Windows Security Configuration Wizard Command Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C73A7928DC9F9BAA4B7DBB14D75B7A5A556ADF76E283ED6B3392241727EEF96B`
 SHA384 | `268CD940A57370C829F0861BF3ACCAAF3883BE0BE804F7D8D5E9C8FF196573AAF79E6F36598892822A440528A7912A0A`
 SHA512 | `3F29E2689A047B99626EA0A95816F4A649ABAA020FAEC335B6A5FC3AEEAF83827BFEEB953D5BFF56FA735D0BA66E762D2B44C849CE23F4F60724C2C16B3FDED7`
 SSDEEP | `1536:5lSvl17gK7zL24Ti9ZgzO9m/o5NvvtwiGenAA10qZvd+AvoLOtuC0c:5gX733TiMy9mUwiWyI4o25N`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

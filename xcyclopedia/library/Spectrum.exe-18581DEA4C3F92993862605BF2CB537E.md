@@ -6,7 +6,6 @@ title: Spectrum.exe | Windows Perception Service
 
 * File Path: `C:\Windows\system32\Spectrum.exe`
 * Description: Windows Perception Service
-* Comments: 
 
 ## Hashes
 
@@ -30,14 +29,6 @@ Parameters:
  /safemode:off      to disable safe mode if enabled
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

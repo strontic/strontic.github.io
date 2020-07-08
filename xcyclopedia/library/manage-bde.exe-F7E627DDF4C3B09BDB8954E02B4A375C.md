@@ -6,7 +6,6 @@ title: manage-bde.exe | BitLocker Drive Encryption: Configuration Tool
 
 * File Path: `C:\windows\system32\manage-bde.exe`
 * Description: BitLocker Drive Encryption: Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CB4B9AF3F8127E7A7BC7F5364CC8AEF9E2315CC153BB651ABD2E8A9CBFBFD65A`
 SHA384 | `48862144DA9666442607C77D812B33672FC9CB3CF75370BE8F59432C8542D296E09332F90B143EC3DD34976DDD56B115`
 SHA512 | `B1539F3F9EB7855D6A7C78986ED8CC8AB2D9D177CE2D658B85B13BE409A24AC2FD55365FD3C6C0A49438012692AA1C29E5961C0A11CD89A17DDB5A50D0987A54`
 SSDEEP | `6144:Z3x5ClQ1RGJbMsTt063tVs7nyatGt+SYF:IVMsZH+S+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

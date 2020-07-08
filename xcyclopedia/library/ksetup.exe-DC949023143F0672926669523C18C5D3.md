@@ -6,7 +6,6 @@ title: ksetup.exe | Kerberos Setup tool
 
 * File Path: `C:\Windows\SysWOW64\ksetup.exe`
 * Description: Kerberos Setup tool
-* Comments: 
 
 ## Hashes
 
@@ -81,14 +80,6 @@ USAGE:
 	Deletes the encryption types trust attribute for <domain>.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

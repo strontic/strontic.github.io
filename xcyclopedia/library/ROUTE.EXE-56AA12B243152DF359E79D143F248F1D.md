@@ -6,7 +6,6 @@ title: ROUTE.EXE | TCP/IP Route Command
 
 * File Path: `C:\Windows\system32\ROUTE.EXE`
 * Description: TCP/IP Route Command
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `888F256261A0221AF413CD236CF9D53E845A2EF38630CACA1AE87B2AD1CBA3363349DD
 SSDEEP | `384:CfMg61vPf/7xZ9zh8YQvkQzZTIItJbXsw81J2keLpXH63NyWn0W:CfMgW/Nh8rMctFI1LwpXHENj`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -99,9 +93,6 @@ Examples:
     > route DELETE 3ffe::/32
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

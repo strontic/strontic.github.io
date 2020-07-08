@@ -6,7 +6,6 @@ title: drvinst.exe | Driver Installation Module
 
 * File Path: `C:\windows\SysWOW64\drvinst.exe`
 * Description: Driver Installation Module
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `65488A3C53A3C1F5569BEAB9CD3FE1683040DC9595BF698A1962E02694F4EE8C`
 SHA384 | `E467D245233E8604098FA5510412CE028CA705D95AC51898AFA2824E7962EC42BC64BB49C495A2B1570AAF77E37B6498`
 SHA512 | `01DA4B646C64209067D57C47D62766A48006C0221A0489039A3A2049495B3A01B1C1DB3C296E1F81F9DF2C2F121C338B0BBE81C40D80A655B441945BF256689F`
 SSDEEP | `1536:gfcaZlvmbft4ZEy0lz7o5TqkpFvm3FoD2e1hfkRrccCTNleyjQW8pKeqg2WW:gfI1QE/WrrUoV1hcRjaIyEzpKeH2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

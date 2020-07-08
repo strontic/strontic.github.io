@@ -6,7 +6,6 @@ title: SystemPropertiesDataExecutionPrevention.exe | Change Data Execution Preve
 
 * File Path: `C:\windows\system32\SystemPropertiesDataExecutionPrevention.exe`
 * Description: Change Data Execution Prevention Settings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `2A68E97CBC5EB55C687E7499A08B827910619FEEB5674A980E5E118D382416CF`
 SHA384 | `F65F56EBA61A6A116FC576DB99522238BCD02963576F7E6DB2D86388EAE69A3C54BA0F1C3259FEB9BC151087D4BEE1FB`
 SHA512 | `8436DD7C7154B6F50219553927E35D149601C4565C9D738563B0ACD5EFFCA12704FE1F03D6815E0A8B8B785386E56A060F5374E050E622139C5FE7B17A236A42`
 SSDEEP | `1536:5bZ7tREC/rMcgEPJV+G57ThjEC0kzJP+V5J0:/7zECTMpuDhjRVJGe`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

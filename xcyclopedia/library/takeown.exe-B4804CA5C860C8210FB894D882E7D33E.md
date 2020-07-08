@@ -6,7 +6,6 @@ title: takeown.exe | Takes ownership of a file
 
 * File Path: `C:\windows\system32\takeown.exe`
 * Description: Takes ownership of a file
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `26B3DD8E0FD18190144EF1DDB2ED08AFFEAB2BCD1A218E091DB5671010AF4AF7`
 SHA384 | `23DB5E621872322BC4A291D9B4D42B10617D7A680E203D61B5B6A6F4CDE8D513A60501E1C6ADA9B318EA72FDF275314F`
 SHA512 | `10DF193F2D0113E217C80965FE149BEFFA128DF513CF68C69FCC428371CA40A652CFBCB39B02B2319BC39D6B185015F2F1B17E197C24054C3A802ACB459148CA`
 SSDEEP | `1536:/nGSpfE65t75MbF8o4cbxnzuttd/Gbrj3VKMV7bvVQX4xQq:zR395MbFZzuB83VjQX4xL`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -68,6 +52,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | ## Atomic Test #1 - Take ownership using takeown utility | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | \| file_folder_to_own \| Path of the file or folder for takeown to take ownership. \| path \| %temp%&#92;T1222.001_takeown_folder\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | takeown.exe /f #{file_folder_to_own} /r | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_scripts.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_scripts.yar) |         $s1 = "success = obj.run(\"cmd /c takeown /f %SystemRoot%\\system32\\sethc.exe&echo y\| " ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

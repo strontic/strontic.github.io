@@ -6,7 +6,6 @@ title: regedt32.exe | Registry Editor Utility
 
 * File Path: `C:\windows\SysWOW64\regedt32.exe`
 * Description: Registry Editor Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `066151EA27DA27CA88B05235E0B917E4ABFCD0544BEAB1B2ED24E1724C48AB8D`
 SHA384 | `BA07F3E7459A0CB4D657CA2AA8BA207F3FE03FC57A66D29F4E228ABE33F32B138174557F8223CF292E1CAE36C9F22336`
 SHA512 | `542D568B25461F55338992672AD5102E2314D00E01DB2953A564016A34EA7E8C6BE395308F7F29A4B584803F3F6F6F3F56818911E004BA34B443A4B11C1BBC31`
 SSDEEP | `96:ZhDtmfaKIBXeDNn0c8iyIRoYnfY0DWPTceQO0RmvB8OOBFp3ew+DJFMVWtEW3ZhK:2kXyqCRokCTxPvB8OOBFp39U0WpxWT`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `96:ZhDtmfaKIBXeDNn0c8iyIRoYnfY0DWPTceQO0RmvB8OOBFp3ew+DJFMVWtEW3ZhK:2k
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `regedt32.exe` being misused. While `regedt32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $a3 = "regedt32.exe" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

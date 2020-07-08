@@ -6,7 +6,6 @@ title: change.exe | Remote Desktop Services Change Utility
 
 * File Path: `C:\windows\system32\change.exe`
 * Description: Remote Desktop Services Change Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F8399AE46822EA51E284AD43ED716350BB23F00CCB21E7171072E49E4CBE3060`
 SHA384 | `49238BCB245FA3B3040307D1B17358F2F619CF3D3562C78C628683C96C2529D811F5FDDE7ACB79D09E1DA6E7E99EFFDD`
 SHA512 | `FDB76DC48387B60C4127257F6E6A8E911B1EBF95F7630A617F0D91349A44A7211254280F1FFF21926A652F655BBA48FEB0F00B08AC6AC65F06D9D70733A1FCA6`
 SSDEEP | `384:AYmhjjVkM8kL35RXgyfWQqiXsO5eYoKNe1DPWALW:AYWlnJfzRcU81DL`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

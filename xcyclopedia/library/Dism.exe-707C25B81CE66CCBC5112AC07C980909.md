@@ -6,7 +6,6 @@ title: Dism.exe | Dism Image Servicing Utility
 
 * File Path: `C:\Windows\system32\Dism.exe`
 * Description: Dism Image Servicing Utility
-* Comments: 
 
 ## Hashes
 
@@ -113,14 +112,6 @@ option immediately before /?.
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

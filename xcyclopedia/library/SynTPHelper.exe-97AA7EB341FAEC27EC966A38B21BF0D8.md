@@ -6,7 +6,6 @@ title: SynTPHelper.exe | Synaptics Pointing Device Helper
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\SynTPHelper.exe`
 * Description: Synaptics Pointing Device Helper
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `BBA761488E37D2439007C7580C0C39F5CA1D72649A5F74424C3902E3467B5C04`
 SHA384 | `5917D59C6AD065F9577DDDC934F3B55D42B36A80CBB0A7930A768063DA4A104C87F42333785B4F0E29AFDF4B106CBB61`
 SHA512 | `90A7DB017759EF69A08B231E499FD9376DA8792C8E94E1240088D0D24AC396DA3E9AF0B26912ED576D2C05B1DBC2CA016BB2698F29E9FCC6100198C3B7C00E9C`
 SSDEEP | `3072:oL2zesLaguulYGr36TU9ysGdC7Z31SYEcI4Bid+SoreLJ2au9BCDWFuPs:oSzduVGr36TqnZ31SxYUdimdABdis`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

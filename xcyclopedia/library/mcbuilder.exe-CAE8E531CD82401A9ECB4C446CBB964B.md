@@ -6,7 +6,6 @@ title: mcbuilder.exe | Resource cache builder tool
 
 * File Path: `C:\Windows\SysWOW64\mcbuilder.exe`
 * Description: Resource cache builder tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F5FBD701E0CEEFCAB76839231C23F29EB967AD6107520B8454C40FD8DCDDFDE1`
 SHA384 | `A4DBA9F6CD894551E6B6B3A7386BBDD6BBEDA047A989559F00658BFB63A24918F63264A98E83A6F234AB1C865E0B4A07`
 SHA512 | `0D87C7C6797312286AB141AF5260BA8E6A3DE98A51617AFF9F7D1DC149B239FA04E26F87B72FB7E4BC387566317C8801A62D50E953F0872A8790EB5B9D8F7932`
 SSDEEP | `1536:U5i0hBmMsWjcdIkpk0551bBuej8LrdHNaAssqeyAiBTd9aFZBrx7WwE45:UhBGIkV71bBuEmrIsqeyAiBTdCBrpWwr`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

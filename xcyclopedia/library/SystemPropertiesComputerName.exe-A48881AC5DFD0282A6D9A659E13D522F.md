@@ -6,7 +6,6 @@ title: SystemPropertiesComputerName.exe | Change Computer Settings
 
 * File Path: `C:\Windows\system32\SystemPropertiesComputerName.exe`
 * Description: Change Computer Settings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `EE2B5FDCE2A54B39FBF61456BA6F9FACC39E0EEE70716E218D0E828695C3C485`
 SHA384 | `29CACC0791911F3A82DC8132CBD4ECF2F6C085C7044D98D7705D9DE6288B41489E7B39956425C8613FBA30EFB175A01A`
 SHA512 | `F11DD7EE9C6CCEABEE7F4DDD5FC29EECC33A11D69CC79B762C950710C004AE93774497E26D6543346B0D1887086E374018AD77986B53916019E023CBFB25B60E`
 SSDEEP | `1536:YkGQtREC/rMcgEPJV+G57ThjEC0kzJP+V5J9:oQzECTMpuDhjRVJGX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: mountvol.exe | Mount Volume Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\mountvol.exe`
 * Description: Mount Volume Utility
-* Comments: 
 
 ## Hashes
 
@@ -69,14 +68,6 @@ Possible values for VolumeName along with current mount points are:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: SecEdit.exe | Windows Security Configuration Editor Command Tool
 
 * File Path: `C:\windows\system32\SecEdit.exe`
 * Description: Windows Security Configuration Editor Command Tool
-* Comments: 
 
 ## Hashes
 
@@ -29,14 +28,6 @@ The syntax of this command is:
 secedit [/configure | /analyze | /import | /export | /validate | /generaterollback]
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

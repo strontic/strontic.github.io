@@ -6,7 +6,6 @@ title: chgusr.exe | Change INI File Mapping Utility
 
 * File Path: `C:\Windows\SysWOW64\chgusr.exe`
 * Description: Change INI File Mapping Utility
-* Comments: 
 
 ## Hashes
 
@@ -47,9 +46,6 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

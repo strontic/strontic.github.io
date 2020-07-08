@@ -6,7 +6,6 @@ title: winhlp32.exe | Windows Winhlp32 Stub
 
 * File Path: `C:\windows\winhlp32.exe`
 * Description: Windows Winhlp32 Stub
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `FA17F4BA95F3A9C109A4479ADAB435587245286B050101CDDC91C0E17EAD09BF`
 SHA384 | `03BEAD7A258273C55C1E201CAB744B6E368625FB2655FB34AD4A80FE8E981290E695219E1875DA8B9AE3EDC7D1660D91`
 SHA512 | `C86FB05FCB92F8B39D16F2067FAF2FBF1DC25B84FD2D4796BA690C9A7FBDE7C88C79173D7FA8E515DDA7FFD15B06281AD688C684CBA7323177CDC2BF08393D1F`
 SSDEEP | `192:gsmOdb+XliQTMBVlB9Y10F/kjW1eHWThh4jt7p:nOXliKG/hijW1eHWThh43`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `192:gsmOdb+XliQTMBVlB9Y10F/kjW1eHWThh4jt7p:nOXliKG/hijW1eHWThh43`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `winhlp32.exe` being misused. While `winhlp32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_korplug_fast.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_korplug_fast.yar) |         $s4 = "\\winhlp32.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -6,7 +6,6 @@ title: mmc.exe | Microsoft Management Console
 
 * File Path: `C:\windows\SysWOW64\mmc.exe`
 * Description: Microsoft Management Console
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `9563E5438C4925884538162D4B275387E59EE5CA3B89C9576D598B3B58253E4A`
 SHA384 | `93DE6ED2CBDD2D1B0AD40C61629B4F938E332763C5FB165A76930934CFBDE9A837BD03538CC7F05566BBC9A4DF3FD8D1`
 SHA512 | `5D2BE4A8857F0D3F7AE7029972108CD5BDCA8BB0FB423E5259FD4C351120FB7EDA2755F65F0E0432644BD324029E00514F9756C1B7E65DB55579B1E10FDFC38C`
 SSDEEP | `24576:sOyZSkxGMCGNMpSv86Hb4M83Uo8Mo7wMo7DHZCgaSaFqXO:sQk8qNMpSE6HEM83Uoa7e7DHLaLFqXO`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -98,6 +82,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.015.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.015/T1546.015.md) | START MMC.EXE EVENTVWR.MSC | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | copy "#{executable_binary}" "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | mklink c:\testbypass.exe "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) |       $a5 = "taskkill /f /im mmc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

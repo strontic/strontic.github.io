@@ -6,7 +6,6 @@ title: WmiApSrv.exe | WMI Performance Reverse Adapter
 
 * File Path: `C:\windows\system32\wbem\WmiApSrv.exe`
 * Description: WMI Performance Reverse Adapter
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5A29EBB6DA036E303611EB1304192655021405BB05452FD37886DDE604FF0D9D`
 SHA384 | `EAEA2B3F5D3971A91E24C5E8E21EE4E3FA39C368125B2A3B9658B213029A196B2A0F721E5ACEE1D05DBC2282889242B7`
 SHA512 | `4591856C73168EF833FC661BD31ED719BE0074BFBB71B153ECD301A413F4B98BF31DF8E5A8924FD55D1ABF46AEF79B3BFD992073588BDB1C19975433CBFA993A`
 SSDEEP | `3072:xM/2ye7sSZqVYjX4Y+U9ov/W3tiopJuHb/tnTiTuTVLxtBtiXorbZU2oPY:dqVYjX4Y+ygu3tioHete2vBc4rFnoP`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

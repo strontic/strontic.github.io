@@ -6,7 +6,6 @@ title: aitstatic.exe | Application Impact Telemetry Static Analyzer
 
 * File Path: `C:\Windows\system32\aitstatic.exe`
 * Description: Application Impact Telemetry Static Analyzer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F8714EF296F22EDB81A0B231DA4E4CB63764DE9E5DE99ACDD59E756BFC2B199E`
 SHA384 | `7A98F84A84B308409F6E67A2490D52EEC5087B3E00D72F2E8A1C28B3DFC4F2D077752ED348223AC353C5DF88D9A69E96`
 SHA512 | `5ADBE143C31278A1E196F3194381BA69DAB42087B6DF5FE0DE3365230CA0AA00DD47CE3203D11D9BDA147325728A3EFC51454CC85EA1647715BE541FC2633795`
 SSDEEP | `49152:CGU3EStENWqei+pSYryLTQ4ullYF5svlRlZPAoTMZmhJv3eEkF/L:ClIAwvAImAoTMgJvuL`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

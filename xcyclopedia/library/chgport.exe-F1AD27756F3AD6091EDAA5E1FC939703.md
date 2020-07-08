@@ -6,7 +6,6 @@ title: chgport.exe | Change port Utility
 
 * File Path: `C:\Windows\SysWOW64\chgport.exe`
 * Description: Change port Utility
-* Comments: 
 
 ## Hashes
 
@@ -21,11 +20,6 @@ SSDEEP | `384:kqZsef9gWS14s9atkb/DqaEXKpI8zDBTG2UWgQWH:kqZsefq91tF/XA2+`
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 Invalid parameter(s)
@@ -39,9 +33,6 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

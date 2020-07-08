@@ -6,7 +6,6 @@ title: calc.exe | Windows Calculator
 
 * File Path: `C:\WINDOWS\system32\calc.exe`
 * Description: Windows Calculator
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A103A57D50B32469C5811E2808F021ADF9D9220093B540B8A9C83B5C821D370E`
 SHA384 | `E05506AEDDFDF2D58F1548B3C90359D1628535BEA4D21B4125E31EA962AAB42DE957645558387DBB426943D6DAB7416A`
 SHA512 | `F1076B0502C8A70BEB991ACDB18653AF7D7193BE8E2A2F68CD855DDEFCA0880FBED85DD4B507A01C32901A5985AAE1F8B7A0E5AA8916B6DF4D7A27F29B0F2D3F`
 SSDEEP | `384:EZUNyVYtrHIaqEYZ+WSqYWViiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiLiiiiih:QvVY1o8YZ5c`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -159,6 +143,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1569.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md) | Upon successful execution, powershell will download psexec.exe and spawn calc.exe on a remote endpoint (default:localhost). | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1569.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md) | #{psexec_exe} \\#{remote_host} "C:\Windows\System32\calc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1574.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md) | Upon execution, calc.exe will be opened. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | 		$s7 = "\"\"%windir%\\\\calc.exe\"\")" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

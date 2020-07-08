@@ -6,7 +6,6 @@ title: dcgpofix.exe | Microsoft (C) Default Group Policy Object Restore Utility
 
 * File Path: `C:\windows\system32\dcgpofix.exe`
 * Description: Microsoft (C) Default Group Policy Object Restore Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `47BF6EE4C567A90287AF05DC8FFEA98EAF1F908337F24B5C168473ABFCF31A1D`
 SHA384 | `3262E3AEA2E711AEA211523531C5C1B4AB5E80F0FBD5C31862AF15D7B63628F04A38ACC7715069E76CE5B9380F791FC5`
 SHA512 | `8073331511ED286E90F8923E0F10EAEA9FF13786529906F93B8C2963F66D8A71C6493AE372FCEB1FD6DA98FE420E2767130994D40D6BA1A259274249E3ACBC62`
 SSDEEP | `768:LR5KfsXvepcZ2s6rEi6hylcz15IpdybiuHhAALbNgMKKSZjdhiCWMWruDqWcDy:TeUeRj6h5IM9HhvJgMK/jdhr3KXWcDy`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

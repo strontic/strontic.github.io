@@ -6,7 +6,6 @@ title: ReAgentc.exe | Microsoft Windows Recovery Agent
 
 * File Path: `C:\WINDOWS\system32\ReAgentc.exe`
 * Description: Microsoft Windows Recovery Agent
-* Comments: 
 
 ## Hashes
 
@@ -36,9 +35,6 @@ REAGENTC.EXE: An error has occurred.
     
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

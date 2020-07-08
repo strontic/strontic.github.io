@@ -6,7 +6,6 @@ title: dns-sd.exe | Bonjour Console Utility
 
 * File Path: `C:\Windows\SysWOW64\dns-sd.exe`
 * Description: Bonjour Console Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `11A62D827219A8AFEE82822C7986C6BDEBC35A738ADCE1A47ECCDF195173E82F778847
 SSDEEP | `1536:2UpInlAVwr1BTvm2hm2qW3gY1hP7a0BDkXOgmSaQGRtIk:0z+2hmQQk7RkOgmSaQGnl`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -49,9 +43,6 @@ dns-sd.exe -I   (Test registering and then immediately updating TXT record)
 dns-sd.exe -S                 (Test multiple operations on a shared socket)
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

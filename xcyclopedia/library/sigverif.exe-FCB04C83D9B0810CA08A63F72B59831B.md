@@ -6,7 +6,6 @@ title: sigverif.exe | File Signature Verification
 
 * File Path: `C:\windows\system32\sigverif.exe`
 * Description: File Signature Verification
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `16FE4B3D2C4CDE39C0EA555581D8DFB929899C3D650685DAA21EFF59AE4E8FDE`
 SHA384 | `29425C8039C5A7B306570D729BE904ADD38BA5C0FBE480FD542C282239658DE2EA98A9B0025A554A86F8A4CE014426CB`
 SHA512 | `B7D88C36988BBC161131CCA92C65B7EB048290F38601A0E8E214ECA6454D8E51FF27FC086FB2A5021FB42ED888F2808CC624237578CBC666537921D1F085573B`
 SSDEEP | `1536:sJMQqk+mP6CjsvghUWNpc0SQOrsItxzAZT3WuEs:sJr19dAvgpL3OrsIkB7`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

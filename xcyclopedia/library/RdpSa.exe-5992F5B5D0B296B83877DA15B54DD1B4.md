@@ -6,7 +6,6 @@ title: RdpSa.exe | RDP Session Agent
 
 * File Path: `C:\Windows\system32\RdpSa.exe`
 * Description: RDP Session Agent
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `32F60EABE54C4D0CD0F0EC29F48F55CA1AD097BF35097247B186FD70426F847C`
 SHA384 | `31109A4B018DA163230978D94984DE0B651D392AB016470288B1DE3697D200FBCCEE36C19A1A83B6E7BA7D18C2CEA08C`
 SHA512 | `4F6DA913AF530301DA1D0638AA2635ADA446EBEE6E27B5059DB5C2B7FE439162AC3B1A595ECF4163A093890DF9AC94D9085A53D8C991E48703F9D2691326E7E6`
 SSDEEP | `1536:hUI4Ok4rdTa5rbcdkhvaaaaaaaaaaaaaaaaaaaaaaaaaaaPTS+FnnlVZuh71o:lotbo0vaaaaaaaaaaaaaaaaaaaaaaaah`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: easinvoker.exe | Exchange ActiveSync Invoker
 
 * File Path: `C:\windows\system32\easinvoker.exe`
 * Description: Exchange ActiveSync Invoker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `30951DB8BFC21640645AA9144CFEAA294BB7C6980EF236D28552B6F4F3F92A96`
 SHA384 | `AD6EA47AF94680809482B82B1B5F65B9EA7732573B2378EA7CF39467D52256E186F684114BE5BF7F5223C86F21414FEC`
 SHA512 | `520887B01BDA96B7C4F91B9330A5C03A12F7C7F266D4359432E7BACC76B0EEF377C05A4361F8FA80AD0B94B5865699D747A5D94A2D3DCDB85DABF5887BB6C612`
 SSDEEP | `3072:zar2xXibKcf5K67+k02XbFbosspwUUgcR:Nibl7+k02XZb9UA`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

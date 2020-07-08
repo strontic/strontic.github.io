@@ -6,7 +6,6 @@ title: mqbkup.exe | Message Queuing Backup/Restore Utility
 
 * File Path: `C:\Windows\system32\mqbkup.exe`
 * Description: Message Queuing Backup/Restore Utility
-* Comments: 
 
 ## Hashes
 
@@ -38,14 +37,6 @@ Arguments:
 -?	print this help
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

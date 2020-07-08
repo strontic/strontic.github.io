@@ -6,7 +6,6 @@ title: tar.exe | bsdtar archive tool
 
 * File Path: `C:\windows\system32\tar.exe`
 * Description: bsdtar archive tool
-* Comments: 
 
 ## Hashes
 
@@ -59,9 +58,6 @@ Usage:
   Help:    tar.exe --help
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

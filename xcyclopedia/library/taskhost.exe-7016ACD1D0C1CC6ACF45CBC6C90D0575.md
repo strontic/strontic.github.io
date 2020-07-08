@@ -6,7 +6,6 @@ title: taskhost.exe | Host Process for Windows Tasks
 
 * File Path: `C:\windows\system32\taskhost.exe`
 * Description: Host Process for Windows Tasks
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B79E0890E5ACFFE7966BB32A6AAA415D6E334D0DF5452DEBE6A867BB03451EA6`
 SHA384 | `C2576D3C55335ECD8D31B5A4B80CAB9A33789420308EE82077BD173190A0CBBB9BD2558EC822E41959B880CAA5460960`
 SHA512 | `A6024C58FB6ED460B5C27B0AA2245425135C5F5C45A98F0F32AB651D2B1FC0DA3BA07EE38D333E0E619609C2E0C54C8550874B8967283F70B16B39CE873DEB9F`
 SSDEEP | `1536:G94iupJRlYWC8f+G/UH+wp0FDYvftV6CTONh6qN/mAP2S/:GBQJRlYW/hszYYvfeCTOP6qF9j/`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -65,6 +49,12 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_raw_disk_access_using_illegitimate_tools.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_raw_disk_access_using_illegitimate_tools.yml) | `            - '\taskhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            # - '\taskhost.exe'  # disabled due to false positives` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`taskhost.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_blackenergy.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_blackenergy.yar) | 		$s8 = "taskhost.exe" fullword wide /* Goodware String - occured 1 times */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_moonlightmaze.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_moonlightmaze.yar) | 	$a4="/var/tmp/taskhost" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_eternalrocks.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_eternalrocks.yar) |       description = "Detects EternalRocks Malware - file taskhost.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_eternalrocks.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_eternalrocks.yar) |       $s2 = "svchost.taskhost.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         description = "Detects uncommon file size of taskhost.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         and filename == "taskhost.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

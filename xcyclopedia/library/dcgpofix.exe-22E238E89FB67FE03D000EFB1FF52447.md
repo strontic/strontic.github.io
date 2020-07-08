@@ -6,7 +6,6 @@ title: dcgpofix.exe | Microsoft (C) Default Group Policy Object Restore Utility
 
 * File Path: `C:\Windows\SysWOW64\dcgpofix.exe`
 * Description: Microsoft (C) Default Group Policy Object Restore Utility
-* Comments: 
 
 ## Hashes
 
@@ -40,14 +39,6 @@ Optional. Use this switch to enable this tool to ignore the schema version of  A
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

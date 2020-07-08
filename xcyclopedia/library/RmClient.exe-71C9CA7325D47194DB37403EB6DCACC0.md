@@ -6,7 +6,6 @@ title: RmClient.exe | Restart Manager LUA Restart Client
 
 * File Path: `C:\Windows\SysWOW64\RmClient.exe`
 * Description: Restart Manager LUA Restart Client
-* Comments: 
 
 ## Hashes
 
@@ -29,14 +28,6 @@ SSDEEP | `384:NFZRll0KfWFKcqXug/q2shXWHzWfrVf4:1Rll9WgcFhkoA`
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

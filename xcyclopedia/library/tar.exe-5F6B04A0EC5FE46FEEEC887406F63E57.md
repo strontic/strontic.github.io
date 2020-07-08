@@ -6,7 +6,6 @@ title: tar.exe | bsdtar archive tool
 
 * File Path: `C:\WINDOWS\system32\tar.exe`
 * Description: bsdtar archive tool
-* Comments: 
 
 ## Hashes
 
@@ -21,11 +20,6 @@ SSDEEP | `768:fCrAYUa+A8vnKWEkZW2eFrAjgLdjH0g3DoSaFmWDY58cijGfyrj4M7J5Spxdz+B8:6
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 Usage:
@@ -35,9 +29,6 @@ Usage:
   Help:    tar.exe --help
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: iisual.exe |
 
 * File Path: `C:\windows\system32\inetsrv\iisual.exe`
 * Description:  
-* Comments: 
 
 ## Hashes
 
@@ -31,14 +30,6 @@ Usage: IISUAL.exe -logfile <logfile path> -outputpostfix <string>
 Example: IISUAL.exe -logfile c:\inetpub\logs\LogFiles\W3SVC1\sample.log -outputpostfix output
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

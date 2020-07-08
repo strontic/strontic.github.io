@@ -6,7 +6,6 @@ title: setx.exe | Setx - Sets environment variables
 
 * File Path: `C:\windows\system32\setx.exe`
 * Description: Setx - Sets environment variables
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `867A772036DDDC29AC5B54DA4D6E53A1A84BF6F9DEAACFE2361DF5D9CFB8D26F`
 SHA384 | `96C659FEC3676B62685D25739941A280D5A9D0603925437FBB212F72F000E712C5E6EDDBC745E5BF6334BD9A8910B246`
 SHA512 | `3E0CAB178FE7BE8EA96B71C9CDE0D1A9FB2E33EE6361E4CD708FBBF7A9C0B514CB321818B68D327FAF1EA1BD843D84B3CDB7F15C988E0C5FAF1A6E60C9C26934`
 SSDEEP | `1536:6DlKFuOMZVYf3wCEgGxkS90FV+qEwBZJqqd4ahF:66eVYfhkkSUsqlZJqg4ab`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: autofmt.exe | Auto File System Format Utility
 
 * File Path: `C:\windows\system32\autofmt.exe`
 * Description: Auto File System Format Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C03082DCCE81FA7A4B4FE30D71F45C8F2F2D64BF207EB38505BC158936FE99A5`
 SHA384 | `786E7125BF04D3986EFF353D90804AD06D6DAFB9BFBB031561A73537A93D2CA44B046D37E52D6EB7B4EA409C375C441F`
 SHA512 | `2E74A568C11EF05FF0816136FB8B153827F13F3E529F95B15A1AB48E3902F6186780C91D4932FC0059DA7C219E9A12DB27F6BB04A0A3158215B00B81267AC98E`
 SSDEEP | `12288:dY7sqslEq1zOwr2cLX+9kh8LiyxwjtAytr:67LkEqtOwrjLO9kKLioyh`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

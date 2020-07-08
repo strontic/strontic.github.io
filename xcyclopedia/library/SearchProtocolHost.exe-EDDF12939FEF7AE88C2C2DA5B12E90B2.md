@@ -6,7 +6,6 @@ title: SearchProtocolHost.exe | Microsoft Windows Search Protocol Host
 
 * File Path: `C:\windows\SysWOW64\SearchProtocolHost.exe`
 * Description: Microsoft Windows Search Protocol Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `25E66D30D30CC0C1887043429DA5805DEB8B5F064217670D35DCF058D7A7A709`
 SHA384 | `6C1DE6AB9D259A626A3111595723DECD1442A0BC5216D84206851B9CACE3E3DDBF0284F4E05DB8E25A8DD35CA63F65A7`
 SHA512 | `06C88E29DD92002A77E24A830DF90A349DD68B231DE5DB00D76F304885683503AE3D7E991593DC47287890FE86E379A596918F8F6033713F2718FF020B35C9AA`
 SSDEEP | `6144:DtgW5k1lFB6VWxZ5Djary3vimDRfiiYmhX5MxugXZHD2QrkR10efUK3Kb:DGW5k1lFB6kxZlMyX04h0uk2QQztf9Kb`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

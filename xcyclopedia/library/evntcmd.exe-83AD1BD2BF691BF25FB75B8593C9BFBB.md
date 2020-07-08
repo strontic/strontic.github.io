@@ -6,7 +6,6 @@ title: evntcmd.exe | Event Translator Configuration Tool
 
 * File Path: `C:\windows\system32\evntcmd.exe`
 * Description: Event Translator Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CB335C39B8BD2DA55071E3FB19FC516F26CB1DF10E8113DAAE7A2537E4834F85`
 SHA384 | `6709CB63CCE0D26C53C9344231272DC87974DA9BC60938A14905B2128EE3D2F47E7B5069AB033D33DDE39F38360BF5E4`
 SHA512 | `9BB8FB16A09CAC647F52FE72A07473A3AB7E6FF35680BA175DAB54046D512C40A3897FE606F141B9C1708B40E808BCEA6FDFCD2FB964613A4093735C4FD92049`
 SSDEEP | `384:XdzXejBImR1Yd0JOsD8tqZDbRNtKYpjV40zjleCiDL0Cajh1sF/No3eqSbWYZrW:tciRsD3ZDtjZVN1eCCLHajh1mqSB`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

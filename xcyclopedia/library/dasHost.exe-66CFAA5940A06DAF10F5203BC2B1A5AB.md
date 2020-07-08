@@ -6,7 +6,6 @@ title: dasHost.exe | Device Association Framework Provider Host
 
 * File Path: `C:\windows\system32\dasHost.exe`
 * Description: Device Association Framework Provider Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `96C8F4B3E1F325DCD1EE5AE1FEC78562D115099A731934AEADC3E49EF19A720D`
 SHA384 | `21DEB946430B1E697ACB88E602B34C3CAC78D0297B0B813078B32E57AD603AACE5D622B1080055D053E538F647AAA6FC`
 SHA512 | `C962ADF5AE6AED7D1887CE147CB0AC1A59BBC076CDA01EDAD05CF6DBC5E62875695C9102423ACB0BCFA8C7CC0D26A725A6294E6E1A8E4E4E20DFC6D3FC89BA5F`
 SSDEEP | `1536:52WqC3B2KcVR5SjPAKnwHqZRM6crqThEjCn8dXqe6cckUs:52ZV5Sj4KnwKft2Cn8dXWg`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

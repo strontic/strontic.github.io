@@ -6,7 +6,6 @@ title: WSCollect.exe | This tool collects Windows Store log files
 
 * File Path: `C:\windows\system32\WSCollect.exe`
 * Description: This tool collects Windows Store log files
-* Comments: 
 
 ## Hashes
 
@@ -24,11 +23,6 @@ SSDEEP | `768:b9fjhGHXzsCoiGdxCU52dfo5DNsn4FOBkStBWp:bTuXzsCoiGdxChfo5Ag0Yp`
 ### Usage (stdout):
 ```Batchfile
 Error: 0x8007007b
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

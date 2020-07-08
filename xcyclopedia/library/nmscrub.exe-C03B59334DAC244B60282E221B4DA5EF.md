@@ -5,8 +5,6 @@ title: nmscrub.exe |
 # nmscrub.exe 
 
 * File Path: `C:\WINDOWS\system32\nmscrub.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -35,11 +33,6 @@ usage: nmscrub.exe
 	-x    display extension adapters only
 	-V    verbose output
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

@@ -6,7 +6,6 @@ title: browserexport.exe | Microsoft Edge Browser Exporter
 
 * File Path: `C:\windows\system32\browserexport.exe`
 * Description: Microsoft Edge Browser Exporter
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C1F0E89FAA6595649C786BF3012D8E6BA45BBF319E587AB9BBDD94BEA87228EF`
 SHA384 | `932662301A38E777159F340687FA5DC335167D3223195CC9A3EB7A2B6E853FC4846CAA062F1ACBFC5F6D878F4F64C5F1`
 SHA512 | `A87EF914494F0A6E3FA79DF4765379A6BA71B51AB80732B9C6F30CE1FCAAC401F9576D0E1E8B138B6C5D09DD6ADF7B6B9F42B93A177AADF9AA29DAD33EA768E3`
 SSDEEP | `3072:ZMWHOmxD81wmJUv+JwkVjrqjlymf2RdOPIXwQNbPbMshTcMP6AoTIYDGh:ZMWHOmxDEwmJkkVjJmf2RAP0jbPbMsWv`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

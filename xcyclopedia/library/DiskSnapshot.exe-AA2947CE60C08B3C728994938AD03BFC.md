@@ -6,7 +6,6 @@ title: DiskSnapshot.exe | DiskSnapshot.exe
 
 * File Path: `C:\Windows\system32\DiskSnapshot.exe`
 * Description: DiskSnapshot.exe
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `70CDE99FA111C967FB873528280BB68212BB363DD747A92B26D63540097558F23BBE2F
 SSDEEP | `1536:oUXgqagabifeWsFMtGhynZrsjTD7wObLRaecOPfGeLIcY+xAz4qgfXEGRdx:vGWsFMtGhynZrsjTD7wObLRaecOP+eMy`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

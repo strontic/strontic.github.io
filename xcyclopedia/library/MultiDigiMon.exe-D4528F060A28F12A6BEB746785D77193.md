@@ -6,7 +6,6 @@ title: MultiDigiMon.exe | Digitizer to Monitor Mapping Tool
 
 * File Path: `C:\Windows\system32\MultiDigiMon.exe`
 * Description: Digitizer to Monitor Mapping Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `114B321AC1B33A99FE0350037219CA41198550B24F8F9DB92C079F3B22AD2F38`
 SHA384 | `FFA90BA27C5073A0CD82CA6171A4A73B468193F817EFB298F5E8FB7AA9971490A55DFCCCA0A2FA4DFE8CCB138F94F192`
 SHA512 | `ECF026BAF407B969F57B79EDF301DC02922C0C146BA5AF354A643ACD0447E2A663423A550E0637F3B6D9BE5313FCE400A1F0B7FC81D88F9ABB0EA4EB4FF59051`
 SSDEEP | `768:LB8jP8jVgBJs1KstTLkbPQ9mKoH1Xzijfblu/qdfdh22C+BH7sFpCKcKP:dI2msFVk0oKBRuydfW2jbJK`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

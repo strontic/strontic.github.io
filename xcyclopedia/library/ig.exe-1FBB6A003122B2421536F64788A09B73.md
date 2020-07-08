@@ -6,7 +6,6 @@ title: ig.exe | Malware Scanner
 
 * File Path: `C:\ProgramData\Malwarebytes\MBAMService\dbclsupdate\staging\ig.exe`
 * Description: Malware Scanner
-* Comments: 
 
 ## Hashes
 
@@ -28,14 +27,6 @@ SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOx
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: AWSAcpiSpcrReader.exe | AWS ACPI SPCR reader
 
 * File Path: `C:\ProgramData\Amazon\EC2-Windows\Launch\Scripts\AWSAcpiSpcrReader.exe`
 * Description: AWS ACPI SPCR reader
-* Comments: 
 
 ## Hashes
 
@@ -28,14 +27,6 @@ Size of SPCR: 80
 Exception caught: GetSystemFirmwareTable() failed.  LastError: Element not found.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

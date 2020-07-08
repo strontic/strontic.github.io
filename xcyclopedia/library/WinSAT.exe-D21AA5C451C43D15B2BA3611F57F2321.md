@@ -6,7 +6,6 @@ title: WinSAT.exe | Windows System Assessment Tool
 
 * File Path: `C:\windows\system32\WinSAT.exe`
 * Description: Windows System Assessment Tool
-* Comments: 
 
 ## Hashes
 
@@ -169,9 +168,6 @@ OTHER COMMAND LINE OPTIONS :
 Error: Unable to run inside of a Virtual Machine.  Please try again running directly on the native hardware.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

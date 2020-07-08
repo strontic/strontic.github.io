@@ -6,7 +6,6 @@ title: lxdnupld.exe | Lexmark Connect Upload Executable
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnupld.exe`
 * Description: Lexmark Connect Upload Executable
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `512A535EEACF8A2DC13BE82E2BAC2E57A23C595B3610B8D5F48894D333C9497F`
 SHA384 | `9F4A5D4633D3F11727AC7CA543689AD7E98528E4BD4F391D3CA4575BE31606E40E44591431BD14A625D8F72F94CC3073`
 SHA512 | `184F9EB36B534CAE14A895E01FFCDB10772715662CE296DA574443E4EA2E7EEF7B0F8BEF36A65433C97A8E67C5851903570D89D54F9259F7A35F955B407E900C`
 SSDEEP | `96:Azrr82pZrp5M8Ryzrqyl6p9uNCS/6ajc/BfI3B+mcR2rRByqmE8LG/D:AHr82Prp3RG1Qac/BfIxrcRSRByVHAD`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 lxdnwbgw.exe

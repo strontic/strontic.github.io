@@ -6,7 +6,6 @@ title: tttracer.exe | Time Travel Tracing Tracer Tool
 
 * File Path: `C:\windows\system32\tttracer.exe`
 * Description: Time Travel Tracing Tracer Tool
-* Comments: 
 
 ## Hashes
 

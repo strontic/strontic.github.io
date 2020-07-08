@@ -6,7 +6,6 @@ title: setspn.exe | Query or reset the computer's SPN attribute
 
 * File Path: `C:\windows\SysWOW64\setspn.exe`
 * Description: Query or reset the computer's SPN attribute
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `84B7B28DB52AE454CABA76B134895EB3244295CB3A45EC40ACB9B5D653C96553`
 SHA384 | `DB450537480A83240A3505DF833BEBD3C72D9397BBE5FF6496BFDCBD508322CB1027B1E87AC3501B5E13A10E2629B396`
 SHA512 | `5DEDF00A5C320DE1496BB2D2C9165242F6460AB4472895D4299F620C0D04BEB7DCA50E7621004344B9977FEC746852C3FBB289148EDA136506E726242D4AF5EB`
 SSDEEP | `384:Klb7NApubbjTyH7Mc3NQELSj0TXc3D23U531edYWxaWPlUI:gb7NApQ3TyH7zy+wT31SnW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

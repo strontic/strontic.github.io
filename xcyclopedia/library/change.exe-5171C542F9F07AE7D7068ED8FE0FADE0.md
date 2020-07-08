@@ -6,7 +6,6 @@ title: change.exe | Remote Desktop Services Change Utility
 
 * File Path: `C:\windows\system32\change.exe`
 * Description: Remote Desktop Services Change Utility
-* Comments: 
 
 ## Hashes
 

@@ -5,8 +5,6 @@ title: ssh-keyscan.exe |
 # ssh-keyscan.exe 
 
 * File Path: `C:\windows\system32\OpenSSH\ssh-keyscan.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +18,6 @@ SHA512 | `285FEF404DDF66CD5CF77342C43FCF82F0E2E51405590DD0FC1CF558549576F605A9A3
 SSDEEP | `6144:EM8cYMUe6/LztG7NFm7tUp/GXusKK2tiaDb2O7fcCnDtiZgcaGHCSlhoWksAYX:EcIztcexUp/TbXBSa2CSl6WX`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -59,6 +52,8 @@ wordpad.exe
 
 File | Score
 -- | --
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-add.exe](ssh-add.exe-166F0CE9CC00A55569794AF53E847039.md) | 35
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-agent.exe](ssh-agent.exe-34F9BFD01311EA9D88ACE80CA7CDF890.md) | 33
 [C:\WINDOWS\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 36
 [C:\WINDOWS\system32\OpenSSH\ssh-agent.exe](ssh-agent.exe-9FFECD197D09FF33B00D5E5B78A48146.md) | 40
 [C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 21

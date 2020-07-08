@@ -6,7 +6,6 @@ title: lodctr.exe | Load PerfMon Counters
 
 * File Path: `C:\windows\SysWOW64\lodctr.exe`
 * Description: Load PerfMon Counters
-* Comments: 
 
 ## Hashes
 
@@ -66,14 +65,6 @@ Note: any arguments with spaces in the names must be enclosed within
 Double Quotation marks.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

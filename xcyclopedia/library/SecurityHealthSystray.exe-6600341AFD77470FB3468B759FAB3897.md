@@ -6,7 +6,6 @@ title: SecurityHealthSystray.exe | Windows Security notification icon
 
 * File Path: `C:\WINDOWS\system32\SecurityHealthSystray.exe`
 * Description: Windows Security notification icon
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `7F2FE5ED8FA26F044DBBB0DB6B633C8FEAA2C683880D5C3842A5927F85A2D3BE`
 SHA384 | `25AB212B07E0854D4B4C0FBE0968103CB9DDBD104FC2DEF1F28313E2E2F93D3434E8756115DD2440A282D64050A522E4`
 SHA512 | `914E6B02B656AF22103AC69CD9A21387193B0E33B2AB3AF7C5369609BF63D40D0ABF638A975B9878CAA0CBEBA53E3F13C4C8004C6E19345298459557C6BB0645`
 SSDEEP | `1536:iYHET+M5mU1kLvqJzcq82XkXUzy7G7pq:mxh1kLvqJJ0N7G7pq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

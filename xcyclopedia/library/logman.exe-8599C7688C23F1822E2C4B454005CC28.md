@@ -6,7 +6,6 @@ title: logman.exe | Performance Log Utility
 
 * File Path: `C:\windows\system32\logman.exe`
 * Description: Performance Log Utility
-* Comments: 
 
 ## Hashes
 
@@ -168,14 +167,6 @@ Examples:
   logman start "NT Kernel Logger" -p "Windows Kernel Trace" (process,thread) -ets
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

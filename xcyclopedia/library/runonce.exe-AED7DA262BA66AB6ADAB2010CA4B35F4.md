@@ -6,7 +6,6 @@ title: runonce.exe | Run Once Wrapper
 
 * File Path: `C:\Windows\system32\runonce.exe`
 * Description: Run Once Wrapper
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3A03F1D1EA3403CC2C81CA8F49E0330BE7AC9E05EF5CD16352F12B43FB9E4E38`
 SHA384 | `EEDC01E81EE2C61DBEF9D39CDCF85B99A9D53C08D4BD1247432D516A9ACA6B2E2B7412ABF7D4596DC1D279E880BA3AB1`
 SHA512 | `4B50748D0E2F1B0D5FC1527013BAC45370ECB427D60F95BC0FFB5916A9329E09A76451CBAE778713EF68F52510817C907C9FA1837788FC3330C2A52725EEBA8C`
 SSDEEP | `1536:EoziWRwNqkzNRZ59thN9twj42NlgYG3c2xt:5Vw9D+N6l3c2j`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -88,6 +72,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1547.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md) | RunOnce Key Persistence via PowerShell | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1547.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md) | Upon successful execution, a new entry will be added to the runonce item in the registry. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1547.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md) | \| reg_key_path \| Path to registry key to update \| Path \| HKLM:&#92;Software&#92;Microsoft&#92;Windows&#92;CurrentVersion&#92;RunOnce\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_rombertik_carbongrabber.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_rombertik_carbongrabber.yar) | 		$s3 = "Software\\Microsoft\\Windows\\Currentversion\\RunOnce" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

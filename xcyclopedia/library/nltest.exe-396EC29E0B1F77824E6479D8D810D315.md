@@ -6,7 +6,6 @@ title: nltest.exe | Microsoft Logon Server Test Utility
 
 * File Path: `C:\Windows\system32\nltest.exe`
 * Description: Microsoft Logon Server Test Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `EAC37CAE455A235959028FD8C68DEFD8806ACA07E2BAEB197D8B0EEA68A086781F1BAD
 SSDEEP | `6144:fhCtTfmDzLPxjpOMUoikXV3OV87zWzN0cOXXn3:f4q/PxjpEzJ`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -85,9 +79,6 @@ Usage: nltest [/OPTIONS]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

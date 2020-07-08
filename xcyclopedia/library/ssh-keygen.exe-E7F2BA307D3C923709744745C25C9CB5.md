@@ -5,8 +5,6 @@ title: ssh-keygen.exe |
 # ssh-keygen.exe 
 
 * File Path: `C:\windows\system32\OpenSSH\ssh-keygen.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 

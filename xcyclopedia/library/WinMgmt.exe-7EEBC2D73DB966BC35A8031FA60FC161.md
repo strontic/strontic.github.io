@@ -6,7 +6,6 @@ title: WinMgmt.exe | WMI Service Control Utility
 
 * File Path: `C:\windows\system32\wbem\WinMgmt.exe`
 * Description: WMI Service Control Utility
-* Comments: 
 
 ## Hashes
 
@@ -88,14 +87,6 @@ Usage:  winmgmt	[/backup <filename>] [/restore <filename> <flag>]
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: openfiles.exe | Displays the current open files list
 
 * File Path: `C:\Windows\system32\openfiles.exe`
 * Description: Displays the current open files list
-* Comments: 
 
 ## Hashes
 
@@ -53,9 +52,6 @@ ERROR: Invalid syntax.
 Type "OPENFILES /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

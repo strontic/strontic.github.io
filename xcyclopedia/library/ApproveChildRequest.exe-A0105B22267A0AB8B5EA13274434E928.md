@@ -6,7 +6,6 @@ title: ApproveChildRequest.exe | Grant more screen time
 
 * File Path: `C:\Windows\system32\ApproveChildRequest.exe`
 * Description: Grant more screen time
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `42A8775EC0CEE6DF6075F2C849F8E97E1A7761ED2C9CE29A442D1120DF5637A7`
 SHA384 | `6CE5D18B64C5932625AB23A6F86DEA55DE323B96DBEC2058B96FB25B1B2E1496F3A1ECF2C96FA5A37FEB9EBEE7B0BD4A`
 SHA512 | `7707AB70C17D3B47CD547C8B8F155409D652DFC479A24B5BBE6C8F302ACACF0DC6A753AF86FD8468A979A68B97231182E3FD055C660B615882469D0647350ECE`
 SSDEEP | `6144:/z8U6JeC+OAJSEZbN7engxGwKa2nfRGKdDPDvV:/fm7+zbhLxGWcnjDt`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

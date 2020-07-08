@@ -6,7 +6,6 @@ title: SpeechModelDownload.exe | Speech Model Download Executable
 
 * File Path: `C:\Windows\SysWOW64\Speech_OneCore\Common\SpeechModelDownload.exe`
 * Description: Speech Model Download Executable
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `373FAFD132B5B41E98AA9A158826C66B3360283534B3D5744983AF002C87E00C`
 SHA384 | `0AC32FD00886B2F5B84C22B417757B78134B70DE5B18B7C8DBA72BF578FCD8C1EDA075D22F4B86A8960D6BF199DFAEED`
 SHA512 | `FE98908A52C2ACADFFA9DA4E5E12A11C2C2BAF3EDBDD5D6C0E062D845C56D4DB4865222F558A7ADAE83602A8EA0C1DFA0A84C69051A7D98D0945C7877ECA592B`
 SSDEEP | `3072:Zs6DTcNoBqIoNwIh3HFGfwaTaCdRcmoPNQZMJj65EEKXqZ3l:mQTOlPNw2XFGfwITcmoPY+x1uV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

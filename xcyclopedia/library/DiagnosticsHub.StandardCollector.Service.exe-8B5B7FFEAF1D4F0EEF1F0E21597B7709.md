@@ -6,7 +6,6 @@ title: DiagnosticsHub.StandardCollector.Service.exe | Microsoft (R) Diagnostics 
 
 * File Path: `C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe`
 * Description: Microsoft (R) Diagnostics Hub Standard Collector
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `1536:0J6uSIgtRftJql6DhU421i/drGQuxfFSkKSXUd5gAnlVcvjQSbEcK47rjPbBUt:gv
 Unrecognized option: -help
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

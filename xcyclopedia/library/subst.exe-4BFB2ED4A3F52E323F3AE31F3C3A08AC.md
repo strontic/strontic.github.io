@@ -6,7 +6,6 @@ title: subst.exe | Subst Utility
 
 * File Path: `C:\windows\system32\subst.exe`
 * Description: Subst Utility
-* Comments: 
 
 ## Hashes
 
@@ -36,14 +35,6 @@ SUBST drive1: /D
 Type SUBST with no parameters to display a list of current virtual drives.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

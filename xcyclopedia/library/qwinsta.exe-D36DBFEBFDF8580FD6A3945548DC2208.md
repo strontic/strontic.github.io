@@ -6,7 +6,6 @@ title: qwinsta.exe | Query Session Utility
 
 * File Path: `C:\Windows\system32\qwinsta.exe`
 * Description: Query Session Utility
-* Comments: 
 
 ## Hashes
 
@@ -61,9 +60,6 @@ QUERY SESSION [sessionname | username | sessionid]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

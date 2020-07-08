@@ -6,7 +6,6 @@ title: makecab.exe | Microsoft Cabinet Maker
 
 * File Path: `C:\Windows\system32\makecab.exe`
 * Description: Microsoft Cabinet Maker
-* Comments: 
 
 ## Hashes
 
@@ -39,14 +38,6 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
   /V[n]          Verbosity level (1..3).
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

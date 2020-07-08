@@ -6,7 +6,6 @@ title: RemoteAppLifetimeManager.exe | RemoteAppLifetimeManager_ServerExe.exe
 
 * File Path: `C:\Windows\system32\RemoteAppLifetimeManager.exe`
 * Description: RemoteAppLifetimeManager_ServerExe.exe
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `E4940A4E264098B8BD5C26B4621884C1465025563CF67E0C93AF40BD990A1999`
 SHA384 | `0895E17E765C0EF67152D4AF6E981A4A46F4250649C217664740BEAF036BEF5B1C23ABA009F5191940CFDFCBD4BA009B`
 SHA512 | `CB1C1B6CD9FB3A04FAB961E10DEE63B87DA5493D694960270096C89296B27BA155FE72ECEE581F98930239C234C10DD36114BA249E7D27C2F9D76150131D04B2`
 SSDEEP | `1536:tk2yS4wz789Xfwx3kG/qsganNZGRgvO9EMl91SccyyyxyyyFfJDg8TBSb/1gk0dv:KS/89vwl7/tpNouvWEMlrzwUBj1Odv`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

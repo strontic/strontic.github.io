@@ -5,8 +5,6 @@ title: ssh.exe |
 # ssh.exe 
 
 * File Path: `C:\windows\system32\OpenSSH\ssh.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +18,6 @@ SHA512 | `7EB6A9ACB61D964C82C46E897F8A5195C7F06BEDF7F1ECD2D64F2783BE996F7A6356E9
 SSDEEP | `24576:QTDSQPwMHspFKajxUAn0/2L50P6DlZC2u:eSMYFKaT70P6DlZC`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

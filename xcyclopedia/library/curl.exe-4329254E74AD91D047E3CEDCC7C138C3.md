@@ -6,7 +6,6 @@ title: curl.exe | The curl executable
 
 * File Path: `C:\Windows\SysWOW64\curl.exe`
 * Description: The curl executable
-* Comments: 
 
 ## Hashes
 

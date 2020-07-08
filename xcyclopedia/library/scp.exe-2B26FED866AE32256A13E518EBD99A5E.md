@@ -5,8 +5,6 @@ title: scp.exe |
 # scp.exe 
 
 * File Path: `C:\windows\system32\OpenSSH\scp.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -21,11 +19,6 @@ SSDEEP | `6144:WThqanTjXv0Xa6CRU+/WFg/jB5B07qnolqLC8Z+a:qqanTDv0q6B+/WGXnolGCQ`
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 unknown option -- h
@@ -33,9 +26,6 @@ usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
            [-l limit] [-o ssh_option] [-P port] [-S program] source ... target
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

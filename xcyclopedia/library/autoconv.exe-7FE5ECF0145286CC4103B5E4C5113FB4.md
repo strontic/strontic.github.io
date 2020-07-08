@@ -6,7 +6,6 @@ title: autoconv.exe | Auto File System Conversion Utility
 
 * File Path: `C:\windows\system32\autoconv.exe`
 * Description: Auto File System Conversion Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `17A36D732A619E9D6DF37AA8E322B41DED3CBEA440DFC5B6F8B981D275D2F41B`
 SHA384 | `0CF1D4028E9250C074F10915D1A5FFC4FD274F88BEFC2EE1A105729D1F53E55E65B3663908F9512E047D28EC0DB36018`
 SHA512 | `17CACE66AE60A26426991BA1DC12FE7A1D52E96F0398DE648DB0AC1F77768CB722B54D8C52E1C698727C6AEE1C8C1D9E9F964D53E92559C4CD18E8B54F38E7B7`
 SSDEEP | `12288:XEtjuwMyr+R1gdOSMnZwoLIwHCQzuhKv1eUuPFgb5VvqKXH5u6Q:0NuwM7UOSSZwo03QzCKv1itcvqhD`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

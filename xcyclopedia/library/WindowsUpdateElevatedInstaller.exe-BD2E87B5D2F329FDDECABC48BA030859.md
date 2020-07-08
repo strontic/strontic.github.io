@@ -6,7 +6,6 @@ title: WindowsUpdateElevatedInstaller.exe | WindowsUpdateElevatedInstaller
 
 * File Path: `C:\WINDOWS\system32\WindowsUpdateElevatedInstaller.exe`
 * Description: WindowsUpdateElevatedInstaller
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `190CA5674323788D0C52ABAA150C04064A8EA44AD43FD54CE2EA8E1658CA9D2D`
 SHA384 | `086A2D31BC233448C1F9AB6D82E8615F9EFE9F6F99BC10461C56D2D159CF1A87BDECADD5E9037B9FF0AE83EF764BAAF3`
 SHA512 | `14B68AF798FB1AA5C2048E627BC866F4B0B44E0DF65413036D37E82E6B9694ECE9D84CB38C7375EF2DC2873860F5DFF4B4BB66229C5AA4F929C058D3E1890789`
 SSDEEP | `768:+oZU+dzAFzSH7F1bCWPgUV6PLfJwkTiogaVEqvbqU9gFVDBo1whfVmPNMY9g:bSczAGJg/wiioRVFbqU9gFjmwhfVUMYq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

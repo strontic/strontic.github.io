@@ -6,7 +6,6 @@ title: directxdatabaseupdater.exe | DirectX Database Updater
 
 * File Path: `C:\WINDOWS\system32\directxdatabaseupdater.exe`
 * Description: DirectX Database Updater
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `87E2184DBFC222261FECE79A03D17FCBE09923B6171A4A9FB93E370EDF68CDC6`
 SHA384 | `C3292AF9C8C92C7D94C7288BECC52B5E88AE4713E505EBB4B317305168BBB9391489C1EEEE1BEFE78677431BAC668CD1`
 SHA512 | `5D0F5DDBDAD0F1156FF773C2635DB4371F3D59C3C193BE11489A77C727302C2D9DF6A838B1FBBE2AC91824AD98BF9330AAF49C56186FDCF5B65AE85F2C3AC56D`
 SSDEEP | `6144:DEfxm1cIOTb+WQuKha8YyHQlf8zEt07kn/pFBNO/:O0yIK3+aqHQN8zE3n/fBI`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

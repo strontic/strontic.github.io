@@ -6,7 +6,6 @@ title: winrs.exe | winrs
 
 * File Path: `C:\WINDOWS\system32\winrs.exe`
 * Description: winrs
-* Comments: 
 
 ## Hashes
 

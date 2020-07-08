@@ -6,7 +6,6 @@ title: vulkaninfo-1-999-0-0-0.exe | Vulkan Info
 
 * File Path: `C:\WINDOWS\system32\vulkaninfo-1-999-0-0-0.exe`
 * Description: Vulkan Info
-* Comments: 
 
 ## Hashes
 
@@ -42,14 +41,6 @@ OPTIONS:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

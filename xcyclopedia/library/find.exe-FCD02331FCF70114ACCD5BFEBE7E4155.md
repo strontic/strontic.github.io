@@ -6,7 +6,6 @@ title: find.exe | Find String (grep) Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\find.exe`
 * Description: Find String (grep) Utility
-* Comments: 
 
 ## Hashes
 
@@ -46,9 +45,6 @@ or piped from another command.
 FIND: Parameter format not correct
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

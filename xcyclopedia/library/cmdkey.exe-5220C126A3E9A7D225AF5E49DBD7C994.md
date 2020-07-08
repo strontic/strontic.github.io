@@ -6,7 +6,6 @@ title: cmdkey.exe | Credential Manager Command Line Utility
 
 * File Path: `C:\windows\system32\cmdkey.exe`
 * Description: Credential Manager Command Line Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `EDE0AA5307DBEC6AC00D5DBCE957B170702C7E4222109F8C2254B53FB67870F6`
 SHA384 | `9E84CCC8357542D0BE96C086E462DD420B81DFF9B30DB43314060E6F5E1893862334B75184301AA991C6A17CD30E5E35`
 SHA512 | `6E7E7B763C3D530E7B95B843A1FBE4A0F137CC86170C872AEA4B2984BF06D16AA636AFACD7E826F97949D0A07DB2BEE5009F2BEFD9ECC5FD06F2F34D3531763D`
 SSDEEP | `384:y28ru5wAMv/jmSzwHDVYq6oqWiIeuDuZzfueOIVWlwW:UgMzxqJx9ihOIc`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

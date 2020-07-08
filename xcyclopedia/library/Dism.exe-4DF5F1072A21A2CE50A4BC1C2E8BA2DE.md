@@ -6,7 +6,6 @@ title: Dism.exe | Dism Image Servicing Utility
 
 * File Path: `C:\windows\system32\Dism.exe`
 * Description: Dism Image Servicing Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `2FBFF06B431E9B0144BFC689E94257B77F9A8F91F03AF4851BD100278415A667`
 SHA384 | `DA6AB89CEB06E137FE80374F0FC13B30D9BC2305954FEEE894901F5263AE4DDE316B9CCECE521254E43BE31A255AEBB2`
 SHA512 | `7ECB0F33B486A4138B61C1CE4DCBF8B30F4F6D819729955B14FB1B87B6B80D5F46306AAADC25C8A854C6CC776810F2D2B4BF0D1AE03313C69E5C56684B70D9AD`
 SSDEEP | `3072:dr5BWjxg0uMYjLKntkyPmw9JxEDRI5BaPrdpQa5s7Phoua+anr:xvWjxHuMYKtkytbgKDaPrdaa0Pho5r`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

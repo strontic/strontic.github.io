@@ -6,7 +6,6 @@ title: comp.exe | File Compare Utility
 
 * File Path: `C:\Windows\SysWOW64\comp.exe`
 * Description: File Compare Utility
-* Comments: 
 
 ## Hashes
 

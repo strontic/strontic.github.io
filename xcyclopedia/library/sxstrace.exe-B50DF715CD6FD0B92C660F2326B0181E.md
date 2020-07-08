@@ -6,7 +6,6 @@ title: sxstrace.exe | Sxs Tracing Tool
 
 * File Path: `C:\windows\SysWOW64\sxstrace.exe`
 * Description: Sxs Tracing Tool
-* Comments: 
 
 ## Hashes
 
@@ -39,14 +38,6 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
           SxsTrace Parse -logfile:SxsTrace.etl -outfile:SxsTrace.txt
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -5,8 +5,6 @@ title: wdagtool.exe |
 # wdagtool.exe 
 
 * File Path: `C:\WINDOWS\system32\wdagtool.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -40,14 +38,6 @@ WDAGTool.exe [options]
                               Valid levels are 0 - 3.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: ThumbnailExtractionHost.exe | Thumbnail Handler Extraction Host
 
 * File Path: `C:\Windows\system32\ThumbnailExtractionHost.exe`
 * Description: Thumbnail Handler Extraction Host
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `274E6D2AAFB4E660A1FE3FE4FDB8C8EF79576AF9AD5FC0D64A42ABB9D7AFAF9C`
 SHA384 | `E30D0D640F32E421802C5473824764927859C1710BAB90E7CC583A7049F02F9B972C305976BB3C475BD55935F6C94121`
 SHA512 | `B77CD3F0719C00601236BC3A356BCB534E3AE6D2976C938E76978A7555F27B707B47CAAC046B99DE72BDDB60F68023A1E59F8D4BB1FB6C3EF0CE210E5436E808`
 SSDEEP | `768:F6TwnuaNcBL2BXnC3l4J6BmlXSq6oO0y4WF:ATwnuaIL2Be+zlXSLey4WF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 RdpSa.exe

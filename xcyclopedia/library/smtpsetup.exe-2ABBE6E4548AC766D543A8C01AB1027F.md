@@ -6,7 +6,6 @@ title: smtpsetup.exe | SMTP Setup
 
 * File Path: `C:\Windows\system32\inetsrv\smtpsetup.exe`
 * Description: SMTP Setup
-* Comments: 
 
 ## Hashes
 
@@ -44,14 +43,6 @@ Options:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

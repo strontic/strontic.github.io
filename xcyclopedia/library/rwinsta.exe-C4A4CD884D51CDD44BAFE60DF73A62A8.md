@@ -6,7 +6,6 @@ title: rwinsta.exe | Reset Session Utility
 
 * File Path: `C:\Windows\system32\rwinsta.exe`
 * Description: Reset Session Utility
-* Comments: 
 
 ## Hashes
 
@@ -49,9 +48,6 @@ RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

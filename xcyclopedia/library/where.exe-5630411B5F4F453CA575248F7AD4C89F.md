@@ -6,7 +6,6 @@ title: where.exe | Where - Lists location of files
 
 * File Path: `C:\Windows\SysWOW64\where.exe`
 * Description: Where - Lists location of files
-* Comments: 
 
 ## Hashes
 

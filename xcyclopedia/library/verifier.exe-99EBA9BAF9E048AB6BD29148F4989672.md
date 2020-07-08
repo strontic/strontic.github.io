@@ -6,7 +6,6 @@ title: verifier.exe | Verifier Configuration Editor
 
 * File Path: `C:\Windows\system32\verifier.exe`
 * Description: Verifier Configuration Editor
-* Comments: 
 
 ## Hashes
 
@@ -245,14 +244,6 @@ PARAMETERS:
           detected by the selected verifier extensions.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

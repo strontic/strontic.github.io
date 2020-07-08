@@ -6,7 +6,6 @@ title: repadmin.exe | NT5DS
 
 * File Path: `C:\Windows\system32\repadmin.exe`
 * Description: NT5DS
-* Comments: 
 
 ## Hashes
 
@@ -124,14 +123,6 @@ Note: Text (Naming Context names, server names, etc) with International or
       language support are loaded.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

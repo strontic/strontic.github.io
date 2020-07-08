@@ -6,7 +6,6 @@ title: LocationNotificationWindows.exe | Location Notification
 
 * File Path: `C:\Windows\system32\LocationNotificationWindows.exe`
 * Description: Location Notification
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A9024C4C0ED03730085FB529828A917F701E3DCA30D3286AE0D41E9FFF33F445`
 SHA384 | `C95FDCCF27B395B62EEAADB17ACB7346DB06F6340996BC8147BFA158A63D6B43B3FEDDFF70A1094E087D2A636B518BCB`
 SHA512 | `9626EFC5A8C89A0F761DE07EADA67596A9AAD3C4895DF408611B0996C92CBE1EED795CB51A821C281A3649FB107282D15565178912688F70FDA49F9B96304777`
 SSDEEP | `1536:VVrqPCW4YrmTpVF5ETTJXeIPsi7oTIMvNyDJb2zL:VVnamTpVF5qJEeyIMvoEzL`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

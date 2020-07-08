@@ -6,7 +6,6 @@ title: CastSrv.exe | Casting protocol connection listener
 
 * File Path: `C:\Windows\system32\CastSrv.exe`
 * Description: Casting protocol connection listener
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `260B608EC4C2E43A78C5585B97AEFCE1A34429A6FA85CE6E152719344EDF896D`
 SHA384 | `2840F98C1B6A49782FC479FC6FE5B0C94DF93A7E3B50AF6F1722612B4DD231543FB62B9102937444712C1D41EB485C84`
 SHA512 | `E2F80FB124C201E678F52921513B17EB03BDD91576F0D4BACB48C86200E27A39D43EB286F56FDF78C74D0A90220796F745D714213171EFEA2052A116EBD7FD23`
 SSDEEP | `1536:gObBZ2wy1VwFvmrzQx4Qg+pLvrT8hZKiWuKhazDnJPKoJ:hbBZZyrUvmrolgwrTSKiWuKozzJCoJ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

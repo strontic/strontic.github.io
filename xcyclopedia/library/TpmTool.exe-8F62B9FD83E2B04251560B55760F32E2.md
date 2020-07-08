@@ -5,8 +5,6 @@ title: TpmTool.exe |
 # TpmTool.exe 
 
 * File Path: `C:\Windows\system32\TpmTool.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -59,14 +57,6 @@ Examples:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: dvdplay.exe | dvdplay placeholder Application
 
 * File Path: `C:\windows\SysWOW64\dvdplay.exe`
 * Description: dvdplay placeholder Application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `FCC3442059D7314AEE8904A5CE2B93EF0A0C9865C2AB670C8EE438E4D828A9B8`
 SHA384 | `C965B0D8284E05D55226F7E9107FEA45874964568A3A3829DF7AD246A416B0B4DBD9841C0EE2732DCA046AB7311DCB7C`
 SHA512 | `8D3A6ADEE4E1F03BC8CC8B98E4FB75D5B77F354A41B276D16C3D26C68BF3226BBF82B0F2A2ED8869024249B82FA324EBB984EFFF0F89B151B7B9CB2C649C661C`
 SSDEEP | `192:goX+50TRupVOBA10FtkoPjhFioWEZWFoq:jX+gEpIFoEpWEZWZ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

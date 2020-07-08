@@ -6,7 +6,6 @@ title: AdobeARMHelper.exe | Adobe Reader and Acrobat Manager Helper
 
 * File Path: `C:\ProgramData\Adobe\ARM\Acrobat_10.1.12\23913\AdobeARMHelper.exe`
 * Description: Adobe Reader and Acrobat Manager Helper
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `0ED27C1C59E4AC96B704F423AB836589EFFAEC2B4615F534EEFFF104893ADC36`
 SHA384 | `0BE329A74D99343D12DAFB66F308519A388D0EB12D4780F12F6B025E955E31A6A9CD2023E16FEE5491E5FFC3FD8F8634`
 SHA512 | `35CF7393EDDCD76B805B1511CB03AC3A5985813682C4760B04F55872EEC9645BF31D80B6266E6BC6865E7246BB8157845C0DBA42A8054D62B4303DF75834B2EE`
 SSDEEP | `6144:QsYQXsnUVx4ZXvQShdrXvbGLcqBG65tufv1Qp9At+a4juR1y9HkT:QjndvQSrrXvbGIqBGr1d+a9T`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

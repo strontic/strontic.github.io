@@ -6,7 +6,6 @@ title: jetpack.exe | Off-line jet database compact app
 
 * File Path: `C:\Windows\system32\jetpack.exe`
 * Description: Off-line jet database compact app
-* Comments: 
 
 ## Hashes
 
@@ -29,14 +28,6 @@ usage: C:\Windows\system32\jetpack.exe [-351db] <database name> <temp database n
      : Default - compacts NTS5.0 release database
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

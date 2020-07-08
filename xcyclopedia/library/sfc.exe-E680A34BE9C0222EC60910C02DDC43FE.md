@@ -6,7 +6,6 @@ title: sfc.exe | System Integrity Check and Repair
 
 * File Path: `C:\windows\system32\sfc.exe`
 * Description: System Integrity Check and Repair
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `95D582C79421497C848D8406757F18ACF4E8CC690D6FB5096CDEDAD4DE6DB660`
 SHA384 | `474AAA0696CE1ACC70095DB3A26BEAA8765C2489AB81B9DB06132A5D8FFF41C18B98F8EBA2192D55D3870B07B9F5A99F`
 SHA512 | `1338DF7866C836D8091B1521866FA919DA3E6DE03631FC001F980F4DC517CE83354CF95F291D11DE252B23DD9F961BDA1505124C158F840FAFF891E8B5570A63`
 SSDEEP | `768:8pTRZd8QEYVx+Dlu2HICbxlCNtsFiXrf9n+GKyHkXi3FNzq+2qBWRm2cbpVUsx9:IjdLP+Dl9HhxcZbFn+GKisqFNZBWMXfz`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `768:8pTRZd8QEYVx+Dlu2HICbxlCNtsFiXrf9n+GKyHkXi3FNzq+2qBWRm2cbpVUsx9:Ij
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `sfc.exe` being misused. While `sfc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poisonivy.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy.yar) | 		$s4 = "\\sfc.exe" fullword ascii /* score: '11.005' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

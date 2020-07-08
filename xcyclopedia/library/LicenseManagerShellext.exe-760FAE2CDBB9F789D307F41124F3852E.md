@@ -6,7 +6,6 @@ title: LicenseManagerShellext.exe | LicenseManagerShellExt
 
 * File Path: `C:\Windows\system32\LicenseManagerShellext.exe`
 * Description: LicenseManagerShellExt
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5F938CF1B5272FD6BCBDBA557C9D110A3624E56066464F25C99E68026798D8B5`
 SHA384 | `DE02F9FFE6A6FD75F9F436C988A047E895A6785D1B731635C27A084EE28E1D4723370D1128D0C553CEE5924F57525DE7`
 SHA512 | `86F8C96F19205456D0A73501E19B1767D03EEB5067D60A93DBA1E40B04A1448D1C1083ADBE9EEB3C3E7EDA2B65B8C36C758F89E5986DDCC4325AD95C4D8E8E4E`
 SSDEEP | `768:U004d0m+MgrKxaNWWPhfISuVfGsWruqnj+0ngYlSzwBzbKf4RaWy2eCf:UZDrK0NWWPh7u5G/ruqjBJlSqHI4Hy2X`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

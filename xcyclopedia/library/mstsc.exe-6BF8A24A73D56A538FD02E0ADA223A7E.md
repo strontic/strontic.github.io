@@ -6,7 +6,6 @@ title: mstsc.exe | Remote Desktop Connection
 
 * File Path: `C:\windows\system32\mstsc.exe`
 * Description: Remote Desktop Connection
-* Comments: 
 
 ## Screenshot
 
@@ -24,21 +23,6 @@ SHA256 | `DF4D4192ED3A623F46ED7964D82C880E9EBC5A990FF8B149B4507B2DEBA95B7D`
 SHA384 | `175B8D86F9C76EE7039CC5E447115114AFB01B2D69F1805FA4B06CA305581AEB3A1274DE56F6FA7DDE47CBB6AB333C5A`
 SHA512 | `37DE2AE729358964EEF0D5EEBDBF98B278D7AB2E77838EF8FA10C839D253A90FBE88D70961FC4D3C32D99B47A8305E6E3C2AD3B801760573C1A469DD223017A9`
 SSDEEP | `24576:M9qDarxCH+184odqWAN/s+Qr+Mva5KvMg1KA:M9CarxCH+185dqWb+Qrp+0Mg1K`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -69,6 +53,8 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_rdp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_susp_rdp.yml) | `            - '*\mstsc.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_rdp_hijack_shadowing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_rdp_hijack_shadowing.yml) | `title: MSTSC Shadowing` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_rdp_hijack_shadowing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_rdp_hijack_shadowing.yml) | `description: Detects RDP session hijacking by using MSTSC shadowing` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | 		$s1 = "srv\\newclient\\lib\\win32\\obj\\i386\\mstsc.pdb" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) |       $a2 = "taskkill /f /im mstsc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

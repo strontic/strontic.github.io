@@ -6,7 +6,6 @@ title: gpupdate.exe | Microsoft Group Policy Update Utility
 
 * File Path: `C:\windows\system32\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3DD84330921869C8980FEF735A32391F15C2FA0EDCA1A68E82EEE48BDAC1B227`
 SHA384 | `F803284390DD0898E6E5059B2A781BF394E9270036DBE89926E7E03FB331CAC16277F2635CB5C6C608C6E88575C4A857`
 SHA512 | `F1D830752740039C6B111CE2ADC959BA820DFB593ED0C48BB4025690EE1595EBE26C4EECA6343D97A43F05FA2370FCBCE35C94E40DF162ACFB2375F18CED8C2A`
 SSDEEP | `384:MGaJ7eVYC8HQp42zvsjh7FGlulQohSvQDheFlCWFeDW:OJ7eHd42zvuFGlspSvFlM`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

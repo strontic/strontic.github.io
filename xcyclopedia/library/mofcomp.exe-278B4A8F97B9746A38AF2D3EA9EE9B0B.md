@@ -6,7 +6,6 @@ title: mofcomp.exe | The Managed Object Format (MOF) Compiler
 
 * File Path: `C:\WINDOWS\SysWOW64\wbem\mofcomp.exe`
 * Description: The Managed Object Format (MOF) Compiler 
-* Comments: 
 
 ## Hashes
 
@@ -59,14 +58,6 @@ usage: mofcomp [-check] [-N:<Path>]
    Example c:>mofcomp -N:root\default yourmof.mof
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

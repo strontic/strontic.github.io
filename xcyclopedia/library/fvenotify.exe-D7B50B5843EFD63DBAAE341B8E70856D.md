@@ -6,7 +6,6 @@ title: fvenotify.exe | BitLocker Drive Encryption Notification Utility
 
 * File Path: `C:\WINDOWS\system32\fvenotify.exe`
 * Description: BitLocker Drive Encryption Notification Utility
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `AA3CC04A5A3C0E986E54D50EB73BE618780A8BBBCF2CF650A7838B347B6E140F`
 SHA384 | `CCBD9D30B8EFC0BA6A52CC67C389F570CA221422C34A041EA84D60BE512F251C16CB422D8E599344A1A9B5AC4C7B7E38`
 SHA512 | `3396D978A76027FB41B30C9FD7879995C3CC23E79FB7C57E3707AC40C8BE001C3757EDD94386E5A21389B170CEAE279DB2B62130104837AD94EC996C8B849FF7`
 SSDEEP | `3072:s8QDYpxKs6HELN4y7YrZEyqvkTPwnVS570M9kdatGCO+xmBc+hMPhPsx:pQTH4N4QYafVs7nyatGt+SYF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

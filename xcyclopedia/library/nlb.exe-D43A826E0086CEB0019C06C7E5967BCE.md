@@ -6,7 +6,6 @@ title: nlb.exe | Network Load Balancing Control Utility
 
 * File Path: `C:\Windows\system32\nlb.exe`
 * Description: Network Load Balancing Control Utility
-* Comments: 
 
 ## Hashes
 
@@ -109,14 +108,6 @@ Usage: NLB <command>
 For detailed information, see the online help for NLB.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

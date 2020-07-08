@@ -6,7 +6,6 @@ title: wslconfig.exe | Microsoft Windows Subsystem for Linux Configuration Tool
 
 * File Path: `C:\Windows\system32\wslconfig.exe`
 * Description: Microsoft Windows Subsystem for Linux Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -44,14 +43,6 @@ Usage:
         Upgrades the distribution to the WslFs file system format.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: wuauclt.exe | Windows Update
 
 * File Path: `C:\Windows\system32\wuauclt.exe`
 * Description: Windows Update
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3BF0C76DD0B3FA97C14E765E5B0C02EB4FC6BCD539EA382B8A70E994749A5DD7`
 SHA384 | `B6C879EC0F11542CD47DA8D386EF9AC6DD60AA863370E1095F7741898E049D0C7F925F0F8A145F3654A4569F8EFAB23D`
 SHA512 | `6703CD49A5090E176F178F1A8B6FDFBAAD8D644DA4BD577C0B6EE4718A31F54A2C2747B38F303316478EB828924384ACFD602D243F285775BAFCF5752D3C719A`
 SSDEEP | `1536:OK0TzC8tY6HAqCsd56ncymh7TpkwsZYZ6PD3:OKE+8tY6H/FPRkLYZ67`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `1536:OK0TzC8tY6HAqCsd56ncymh7TpkwsZYZ6PD3:OKE+8tY6H/FPRkLYZ67`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `wuauclt.exe` being misused. While `wuauclt.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$x0 = "WUAUCLT.EXE" fullword wide /* PEStudio Blacklist: strings */ /* score: '20.01' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

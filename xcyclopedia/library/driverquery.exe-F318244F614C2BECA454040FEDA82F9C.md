@@ -6,7 +6,6 @@ title: driverquery.exe | Queries the drivers on a system
 
 * File Path: `C:\windows\system32\driverquery.exe`
 * Description: Queries the drivers on a system
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `0B9AF0395FE2E9F5ACFCA6945F9F678FA4453F179E6A0E7DC32A259120366A01`
 SHA384 | `9ECCD979FA50FF7E1BEA401E11EDEA04A0DE6FEEB2F0585B3FDCDE29123214095CD65458798E6A8DE031944D92A776A1`
 SHA512 | `A239EE63CED77F5AFE705B68538049037B5987342792055A5366222C08C9588DC8FA358626F761DA6675868274FA8968DA1617A336C61F75C538561ACCD38FAB`
 SSDEEP | `1536:+7sJFSTkPn9CDgQAVxk4T7tbULMnjuxlQVWtrs/bM4A4kDID55dxyY:3FS4nkebjjAlQCI/bD5/xv`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

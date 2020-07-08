@@ -6,7 +6,6 @@ title: EhStorAuthn.exe | Microsoft Enhanced Storage Authentication Program
 
 * File Path: `C:\windows\system32\EhStorAuthn.exe`
 * Description: Microsoft Enhanced Storage Authentication Program
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F7A1ACF775987523B769F2C5E389BC0B6BCB2DC8D80B3EA0F76C1014E824B3C1`
 SHA384 | `03505CCD8F77A73B71BE964DEDEA07991421FF3AA271BF0B93850A4397C2F2A61B3E3BACDD77268F6946B861FC421F40`
 SHA512 | `2207E351704909B6C84661A8BACEECAA48F6053C3F2885143EC288547378B45E1DD1A6D199995F1CC146DE13EE06B47215087169AC0102577A0A325519679A86`
 SSDEEP | `1536:/tUJVgNnVqfBDkNe0XZ28Pmj/YQq2hKxyy2L5IIw0oeomgPHA5kG9mQ7N6wMkNaA:/+yqfBD18uTzvPL2b0oxPxQZDFcZIZR`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

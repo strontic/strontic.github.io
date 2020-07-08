@@ -6,7 +6,6 @@ title: UpgradeSubscription.exe | Windows Upgrade to Subscription tool
 
 * File Path: `C:\WINDOWS\system32\UpgradeSubscription.exe`
 * Description: Windows Upgrade to Subscription tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D4BD281DF2EF4D82A02C39A9BBF254D9EFB1F8D604CE3F5AC23E5C2EB00A355F`
 SHA384 | `9AC73E9045FA742886FE83AFDC8524CC239B3F0C984DA988296CFD135BE5A726EF5EFF2CCB1852287E0F6601D5288E79`
 SHA512 | `10F744468A3A0C852B101A7C0DD50A54C55FDCA37EE2A91625F03C01DAF1054C538711567ECDB784D189EA1BCEB395D7F2F6AD181043F94ECFF8BA72327BC761`
 SSDEEP | `1536:gL+gpXxpD7f0SjVzc0a6A1TkISXo7zroljY3TlTCas4qu9t0awb:gL+O7f0oVzKoo7z9l/sbu9yRb`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

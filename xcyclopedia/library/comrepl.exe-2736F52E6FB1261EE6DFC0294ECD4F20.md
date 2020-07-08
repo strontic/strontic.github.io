@@ -6,7 +6,6 @@ title: comrepl.exe | COM+ Server Replication
 
 * File Path: `C:\windows\SysWOW64\com\comrepl.exe`
 * Description: COM+ Server Replication
-* Comments: 
 
 ## Hashes
 
@@ -27,14 +26,6 @@ ERROR: WriteConsole failed = 00000001
 ERROR: WriteConsole failed = 00000001
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

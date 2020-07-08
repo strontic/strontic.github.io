@@ -6,7 +6,6 @@ title: Sysmon64.exe | System activity monitor
 
 * File Path: `C:\WINDOWS\Sysmon64.exe`
 * Description: System activity monitor
-* Comments: 
 
 ## Hashes
 
@@ -74,9 +73,6 @@ Neither install nor uninstall requires a reboot.
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

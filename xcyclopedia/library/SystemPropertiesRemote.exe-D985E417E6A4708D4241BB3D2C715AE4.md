@@ -6,7 +6,6 @@ title: SystemPropertiesRemote.exe | System Remote Settings
 
 * File Path: `C:\WINDOWS\SysWOW64\SystemPropertiesRemote.exe`
 * Description: System Remote Settings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `95131C527805752C2443F2DBA44480A505A1D9C9F58E238B8CCE0D6C684D5DF9`
 SHA384 | `3CEE60CB35454CEBA2E151D05B414FA3CFB6B0453D54A9AAF408F29521DC881F175B138D6A2F9EAA02397A06F74E3C3F`
 SHA512 | `FDC9B5F2328BAD05A5EBCD94605877B8DF31ABF0D699BEC94031DEB3B5C65D42544E1F002E138F5BB6C8E65D751302E13402ECD11F72150DAF784AF5898F1A7D`
 SSDEEP | `1536:BhfGZsztREC/rMcgEPJV+G57ThjEC0kzJP+V5J4C:PYAzECTMpuDhjRVJGS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -131,6 +115,13 @@ File | Score
 [C:\windows\SysWOW64\SystemPropertiesRemote.exe](SystemPropertiesRemote.exe-CA5A7FF55867711D17BECF7E711A9C1E.md) | 85
 [C:\Windows\SysWOW64\SystemPropertiesRemote.exe](SystemPropertiesRemote.exe-E5BCE633925BF7A1AD38E75DE332E749.md) | 83
 
+## Possible Misuse
+
+*The following table contains possible examples of `SystemPropertiesRemote.exe` being misused. While `SystemPropertiesRemote.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | 		$s15 = "SystemPropertiesRemote.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

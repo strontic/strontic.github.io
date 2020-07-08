@@ -6,7 +6,6 @@ title: relog.exe | Performance Relogging Utility
 
 * File Path: `C:\Windows\SysWOW64\relog.exe`
 * Description: Performance Relogging Utility
-* Comments: 
 
 ## Hashes
 
@@ -71,14 +70,6 @@ Examples:
   relog logfile.blg -q -o counters.txt
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

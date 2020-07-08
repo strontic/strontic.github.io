@@ -6,7 +6,6 @@ title: syskey.exe | SAM Lock Tool
 
 * File Path: `C:\Windows\SysWOW64\syskey.exe`
 * Description: SAM Lock Tool
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `29D60AA6C35719216CABE7E2290B08DBF6D7BE0E1ECC66B88E8760EA0AD54459`
 SHA384 | `70CF220B857BF6D4117A41E8D7764AC64E84456DE6931EA7C97C1195F2A75085D449F291C8F1A99ED7E5804B470A2138`
 SHA512 | `79DB4349ED2349C9D05FC5E6BC848768C8302E6095EF2167CA7B38C18F41378FC2BB8473B72C94B6948E014A85EDB7A37159324264D8EEAE72EA25E691B8CC61`
 SSDEEP | `384:2Tf/M5xZu0TnS07ZQnnCvhK5I37X8xuVTy+SC7uHUrSjaU1KC1Q1fWaxWVf:eX+xQ0TnSZChK5I3d5/iHUrSjaN0`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -73,6 +57,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [godmode_sigma_rule.yml](https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml) | `            - 'reg SAVE HKLM\SAM'  # save registry SAM - syskey extraction` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_syskey_registry_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml) | `title: SysKey Registry Keys Access` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_syskey_registry_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml) | `description: Detects handle requests and access operations to specific registry keys to calculate the SysKey` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [yara_mixed_ext_vars.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/yara_mixed_ext_vars.yar) |       description      = "LSA dump programe (bootkey/syskey) - pwdump and others" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -6,7 +6,6 @@ title: wecutil.exe | Event Collector Command Line Utility
 
 * File Path: `C:\windows\system32\wecutil.exe`
 * Description: Event Collector Command Line Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `811A33B362FF1E1B7DC9A8F9BC093AE717387FD1117411D3FD76DEF49B7BB985`
 SHA384 | `B12B0675493828CD94DEDD5F1C5A7BBFA417A369FED85CB566A990EABF273267E01AC287B57425259035B1BBC66B8F1A`
 SHA512 | `24E19E0EED8E987C7FAEA060EA5C56CA4D94FA4E54FF505C335B52D542A2CBF80A431572019A61C78174367DCC6C1F5BF3EC0C688AAD5A9902DE4E01259BF8DE`
 SSDEEP | `1536:V/Z2xPuTQ1A3s5rknXqCgOBb2uhmuSk2dzBnunSPdQbdv3el54338d:V/Z2xPYQ8gG1ga2uYhztsJc54n8`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

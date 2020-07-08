@@ -6,7 +6,6 @@ title: ApplySettingsTemplateCatalog.exe | ApplySettingsTemplateCatalog EXE
 
 * File Path: `C:\windows\system32\ApplySettingsTemplateCatalog.exe`
 * Description: ApplySettingsTemplateCatalog EXE
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `54062BD49C1120990100AB837D08F976D0159FF4208A279B6BF81A607C27B989`
 SHA384 | `E3380703BBDF766859DE881F4B51FF9F040C121C811CAECD1E309FA9251B4D99200284DAF6AB096C2D03E0469978A819`
 SHA512 | `02CF7888CD7EC34F7D5E715E41C96B52D7AA340B4D52E163855195D831979CF64563E2A01529BA4B65E28DE16FD08A62378D9C2910A5C93ECCC589FA8247E480`
 SSDEEP | `24576:3LVP6YQsKv5FSZw9BBb5zqfjv1NETP0LrMPrJ9f9Jcsq/nG6zaQVd9nMUq:3LElsc4wHBN+f71Zd9M`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

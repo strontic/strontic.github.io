@@ -6,7 +6,6 @@ title: redircmp.exe | Microsoft Computer Container Redirection Utility
 
 * File Path: `C:\Windows\SysWOW64\redircmp.exe`
 * Description: Microsoft Computer Container Redirection Utility
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ redircmp CONTAINER-DN
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

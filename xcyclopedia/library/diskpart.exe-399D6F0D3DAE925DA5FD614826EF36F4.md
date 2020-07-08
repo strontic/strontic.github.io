@@ -6,7 +6,6 @@ title: diskpart.exe | DiskPart
 
 * File Path: `C:\Windows\SysWOW64\diskpart.exe`
 * Description: DiskPart
-* Comments: 
 
 ## Hashes
 
@@ -33,14 +32,6 @@ DiskPart has encountered an error: No mapping between account names and security
 See the System Event Log for more information.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

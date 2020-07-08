@@ -6,7 +6,6 @@ title: redirusr.exe | Microsoft User Container Redirection Utility
 
 * File Path: `C:\Windows\SysWOW64\redirusr.exe`
 * Description: Microsoft User Container Redirection Utility
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ redirusr CONTAINER-DN
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

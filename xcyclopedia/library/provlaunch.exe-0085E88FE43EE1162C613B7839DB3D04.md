@@ -6,7 +6,6 @@ title: provlaunch.exe | Provisioning package runtime command launching tool
 
 * File Path: `C:\WINDOWS\SysWOW64\provlaunch.exe`
 * Description: Provisioning package runtime command launching tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `493FC3D1298666AD2168EFA6F2166ED169F1879EE6520D61C7696DDDAA53491A`
 SHA384 | `B36B778FEBBF33751EF2153C2E8FCD05F0F785D04F9640DAF206D8DF68C619C1087E4EE1AEFF79697B03270506340ABE`
 SHA512 | `D16B72D76BDC81E7E5B2A3699E183E99F66032204714249EDC96BE1135D23F48F551BC54EEE6E6E786A0C6B695F5B5EB71847D2E9F274685E561B9BF611F065B`
 SSDEEP | `768:X6YO1DsFvUBwTyeRwrAxFNsRlZRb043iuGLWF9Qe8YxGcTWqM5MPVohv:qYO1/5e2My5043iy9Qe8PcC6PVk`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

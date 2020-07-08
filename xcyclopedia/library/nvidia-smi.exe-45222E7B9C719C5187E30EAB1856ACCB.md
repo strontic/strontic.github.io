@@ -6,7 +6,6 @@ title: nvidia-smi.exe | NVIDIA-SMI 422.02
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\nvidia-smi.exe`
 * Description: NVIDIA-SMI 422.02
-* Comments: 
 
 ## Hashes
 
@@ -27,14 +26,6 @@ Invalid combination of input arguments. Please run 'nvidia-smi -h' for help.
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

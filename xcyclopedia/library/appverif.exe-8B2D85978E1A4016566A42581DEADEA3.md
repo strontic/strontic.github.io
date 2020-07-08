@@ -6,7 +6,6 @@ title: appverif.exe | Application Verifier User Interface Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\appverif.exe`
 * Description: Application Verifier User Interface Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `E6AFB4C0B55B74F2AA288FBD494B388844CDCA4750ACA9DB9CD3E8886E3A6646`
 SHA384 | `CE8B0BF6B69C5A34C6C9247DB6FE79FF441F7346AD5311B42F8F276E937EA60475BAD0D2776D64DDA295797820CFD391`
 SHA512 | `4BB6B2C20B9CA676CD5860475CFFF45F665D665B59F27BD37C8CB28734FD1F4B96C6579253CD47C4FB97860DC302538AAF1C90EB2CDF0F6C5D5EBA21850C617E`
 SSDEEP | `3072:qJHaxC4XrXb5QFYA4QMk1IYsSD8R+3X/n0E0rAwpmexlBRxct:qJ4bXb2em1/gu/n98X3a`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

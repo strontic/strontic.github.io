@@ -6,7 +6,6 @@ title: ApplicationFrameHost.exe | Application Frame Host
 
 * File Path: `C:\Windows\system32\ApplicationFrameHost.exe`
 * Description: Application Frame Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1149BA08C3C39E66F8D56898C809FFF97AD5693C686D820FC5301F6113ED9B9B`
 SHA384 | `73104E7153810897F799E53BDF1AD9895EE153BA43EE47AEF578B1322C020E671682CEF25194DC3915FC5840BE531190`
 SHA512 | `97F180AD8A669F4C1371661CDB2BA17CCD6432A5A87350D8B7D3681A715F1F77955109A03F3B0A252AD54D350112DC4D12597D97EBE1DD2CABEBC08CFA8CBFA8`
 SSDEEP | `768:x5QhpssSBRpXH769rXsAq9COl0DOg6LtseT2OwRX1PCarx:xwp3sXHI5O+DnCtsevwRlPnrx`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

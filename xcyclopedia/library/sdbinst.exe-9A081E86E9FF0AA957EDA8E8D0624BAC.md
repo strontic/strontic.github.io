@@ -6,7 +6,6 @@ title: sdbinst.exe | Application Compatibility Database Installer
 
 * File Path: `C:\windows\SysWOW64\sdbinst.exe`
 * Description: Application Compatibility Database Installer
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ Usage: C:\windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
     -n "name" - Internal name of file (uninstall only).
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

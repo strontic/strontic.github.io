@@ -6,7 +6,6 @@ title: dcpromo.exe | Active Directory Domain Services Installer
 
 * File Path: `C:\windows\system32\dcpromo.exe`
 * Description: Active Directory Domain Services Installer
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `008FA2B9697F9A173E40572FACE100410E51975E34A5CEF2BE08DFA8E04ED3C0`
 SHA384 | `084F720DED236AF8513F3E18A91AF69CE8B767F7822A512A40BE89949B3CDB9E0CCC12B8429386509BF90A565792473B`
 SHA512 | `61CCA407A0749E904DF0116905A8A1CFD59BB24368134003350A3F33D41447960FB438F8047C089D96DDE6DD1ABF1BE0B4BC3B60EB3A53CE0E6AAF84C6266D89`
 SSDEEP | `3072:fK8SUAf7wvvwc1rMo1Nm6pvMIoY+egFpIrl0Ivz8JDiO8np6awjhIrvD:8fcHwy3y6pk2+eghIvz8XZaghY`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

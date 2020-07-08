@@ -6,7 +6,6 @@ title: DevicePairingWizard.exe | Device Pairing Application
 
 * File Path: `C:\windows\SysWOW64\DevicePairingWizard.exe`
 * Description: Device Pairing Application
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `B8E0841130EB3DC73E827E8CDD0CA7A8CAA2DA7AA0D7DE74433B13B0C19AB7A1`
 SHA384 | `B3FFB1A7DA6AB402542FC9F8E751043934615E58EC5C12B3E0C78215305376D483B4FC7F0FE37C9A781763E0E78EB393`
 SHA512 | `F614CB8CE25B1D288CC6256579B5AD734D1EA8C41427696951085AE22695627439F687CE29345691CAD15DE7FF1AB6CD913C9963CE210872030EDFC8FD85832C`
 SSDEEP | `768:KrSiEYEdvml88AVAwsWPitgfvNmWv/6oueZBryb24G0In3BhzhWM1GOVz177c:KrSiEYOY19eed2/6f8ryb8Z3qOTfc`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

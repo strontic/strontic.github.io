@@ -6,7 +6,6 @@ title: Microsoft.Uev.CscUnpinTool.exe | Microsoft.Uev.CscUnpinTool EXE
 
 * File Path: `C:\windows\system32\Microsoft.Uev.CscUnpinTool.exe`
 * Description: Microsoft.Uev.CscUnpinTool EXE
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `0AA862A9D84ABF0EE2E69AECE938B93F45587D3FA133086A21B7CC3120602F6F`
 SHA384 | `07B73DA7DD701F7D659C6679366B4E4A800B6FBE6A6295A83EB466E090F7E8BF877BB9C751AD7591FD40BBBAFEE63B30`
 SHA512 | `DC2865BCEAB04152A71F68A2EBE34100D881FDEE5869520DF4C3C24EA0D084D7B1658E4E15DE6AF67893B56FCFBFDAB37730D355071ED15520C3D62873B151A8`
 SSDEEP | `6144:cxbk1lTidFaSEy3cRaZv5zBMxLCiGeV7HJ4oPa9S:6b0yFNcRa51axmMzQS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

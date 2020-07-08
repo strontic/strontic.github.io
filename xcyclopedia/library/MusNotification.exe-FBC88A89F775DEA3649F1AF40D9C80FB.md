@@ -6,7 +6,6 @@ title: MusNotification.exe | MusNotificationBroker
 
 * File Path: `C:\Windows\system32\MusNotification.exe`
 * Description: MusNotificationBroker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1ED725825F3BC7E71AF77D8B79D721A574227D91CC89CD80B9765CC8088CB8DD`
 SHA384 | `3FF6E9067D424ACDAA3075FBBFBE6015CE5B1AA0D5FD61B016F7E73B16366A33D24895CB1D161AFD1DADF137FC23D4C4`
 SHA512 | `AD92ED83056671876BA4E8E0F0D4BD2D8915D3B155D1C796CDBEFE170A70AF458D4778A1103E169C7BAFAAD186C318AA520F5111CDE89F9EB76132EA957EEBAB`
 SSDEEP | `12288:/P+sGvgtfzHuCxRxTusWyPAP3mHJtK2vCaqAe2p:/NG4tfiCxRxueAOJtK2qaq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

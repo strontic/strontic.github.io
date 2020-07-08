@@ -6,7 +6,6 @@ title: printfilterpipelinesvc.exe | Print Filter Pipeline Host
 
 * File Path: `C:\WINDOWS\system32\printfilterpipelinesvc.exe`
 * Description: Print Filter Pipeline Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `59571714902CF3ECC5EB92BCD1D091533170F8F33E68821524F492A0CB0E1D7A`
 SHA384 | `738D91355CD10A362A01529B70DE517EBB0F29CF3F8B17862CF63E672C846331A81FF6697D69A634C2418D8BEE3D8D40`
 SHA512 | `E4A16194D5192F5349FC1A6B6222A6569EC428F40DBA30E8379B6C2661919BE9D49CB84D0EACEFF906754E61756A30C7988325A9B687DD2689119272C32B5248`
 SSDEEP | `12288:I37n1/jDYGZcyuwiB/t8xBacwHbRiGWmuL:I3b1lGyuwiBumRiF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

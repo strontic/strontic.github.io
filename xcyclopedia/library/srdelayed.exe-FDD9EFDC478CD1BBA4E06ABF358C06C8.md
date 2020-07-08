@@ -6,7 +6,6 @@ title: srdelayed.exe | Microsoft Windows System Restore Delayed File Renamer
 
 * File Path: `C:\WINDOWS\system32\srdelayed.exe`
 * Description: Microsoft Windows System Restore Delayed File Renamer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CDF5DDE44714DC7B41F9CC3402CB1244A25EA607477A28EF424F7F01FEC4D16F`
 SHA384 | `785F3BD0D4792711A272EE95E6660300569AD2D438E780329FBAE7E05B4D10D38DCFC2845BEC4A68657FA9616137A30C`
 SHA512 | `9B5365996FA8FD4698518102F9DAC7EB62C1E26050431FCB04F13D343B52B2F4A75390C4672DA28D315F0F3A4CB2A971C78CA89E683743E5E0999593F11FCB83`
 SSDEEP | `384:crnOh2CaX1I8jYxOLzL2F38unuAW18oW:ICabjYxyKFluI`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: reg.exe | Registry Console Tool
 
 * File Path: `C:\windows\system32\reg.exe`
 * Description: Registry Console Tool
-* Comments: 
 
 ## Hashes
 
@@ -62,9 +61,6 @@ ERROR: Invalid Argument/Option - '-help'.
 Type "REG /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

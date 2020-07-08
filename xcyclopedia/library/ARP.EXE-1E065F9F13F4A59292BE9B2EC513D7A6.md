@@ -6,7 +6,6 @@ title: ARP.EXE | TCP/IP Arp Command
 
 * File Path: `C:\Windows\system32\ARP.EXE`
 * Description: TCP/IP Arp Command
-* Comments: 
 
 ## Hashes
 
@@ -57,14 +56,6 @@ Example:
   > arp -a                                    .... Displays the arp table.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

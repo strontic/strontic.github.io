@@ -6,7 +6,6 @@ title: mavinject.exe | Microsoft Application Virtualization Injector
 
 * File Path: `C:\windows\SysWOW64\mavinject.exe`
 * Description: Microsoft Application Virtualization Injector
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1A4B1740610C61F1EFE390EF5632B89566E35A381558BB609921D2606361B9BE`
 SHA384 | `70D225B83C8BCCEDAA99239CC3F1D4B9FFED8A6612B1A817B759F89FB66EA356543891399954913CB6CBF60FDFEB5894`
 SHA512 | `F76F8B153127C0C50E0A8817A7509BBFE5E02F167ECC3FD84D10F209BC27DD958D0284840B23A8417F14AF2714F147382E46DC98EF89E31C79D9D188E6A034E8`
 SSDEEP | `1536:kxsbgq5mTGDRbNubo7yfkgG6W4fXSoDEnAkbGwCL5AQcmEAQ2e980YgqYPCA5f7K:ko5mmt0fSoD7Rcmi80SYPNfY1gX8DIo`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

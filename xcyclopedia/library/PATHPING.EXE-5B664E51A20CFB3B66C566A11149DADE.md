@@ -6,7 +6,6 @@ title: PATHPING.EXE | TCP/IP PathPing Command
 
 * File Path: `C:\Windows\SysWOW64\PATHPING.EXE`
 * Description: TCP/IP PathPing Command
-* Comments: 
 
 ## Hashes
 
@@ -38,11 +37,6 @@ Options:
     -w timeout       Wait timeout milliseconds for each reply.
     -4               Force using IPv4.
     -6               Force using IPv6.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

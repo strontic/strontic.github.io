@@ -6,7 +6,6 @@ title: PasswordOnWakeSettingFlyout.exe | User CPL Password on wake setting flyou
 
 * File Path: `C:\windows\system32\PasswordOnWakeSettingFlyout.exe`
 * Description: User CPL Password on wake setting flyout
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `93E37875D30884F2B748A4BABDB8777D0D5EB2683F54283A032C0433A058D01F`
 SHA384 | `5DEDF8E84CA2E8078B5B48FC1B4ADB3E1F4CF3A963F3A257755A82728E897C161C698A43D63E087EAA118F03005D0597`
 SHA512 | `CA0824CB1EC47819C6C1A9A2DEF32DDEEB2A90AB5AF5A1E45B090881A9E4F88A22900287EF6E822DCCBE9BAB75B3C8BE39A59000B068A7FE6BFEF761DEA82BBB`
 SSDEEP | `768:F0JLsZWvx4I5UD5iVibsTLg7cVvoumrGBW80VaRx0HcMZJinUnI1Pk2:zW54bijgMmrlb8Rx0NZ0nUQPp`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

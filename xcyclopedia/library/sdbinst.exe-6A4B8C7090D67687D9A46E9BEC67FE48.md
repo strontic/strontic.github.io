@@ -6,7 +6,6 @@ title: sdbinst.exe | Application Compatibility Database Installer
 
 * File Path: `C:\windows\system32\sdbinst.exe`
 * Description: Application Compatibility Database Installer
-* Comments: 
 
 ## Hashes
 
@@ -32,11 +31,6 @@ Usage: C:\windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
     -u - Uninstall.
     -g {guid} - GUID of file (uninstall only).
     -n "name" - Internal name of file (uninstall only).
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

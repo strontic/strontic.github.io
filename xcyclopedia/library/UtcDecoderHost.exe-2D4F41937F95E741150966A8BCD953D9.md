@@ -6,7 +6,6 @@ title: UtcDecoderHost.exe | Microsoft Windows Diagnostics Tracking Decoder Host
 
 * File Path: `C:\Windows\system32\UtcDecoderHost.exe`
 * Description: Microsoft Windows Diagnostics Tracking Decoder Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `334B0F305BFDD30385E3B676C14F77B22ADEE0DAA7D2701457D50132999DF047`
 SHA384 | `68BEA6B6D17AC3E3900DB184B2A460AC53B5B5336087318B262EF55B777E3ABE1388C8523F62D632DB4F62B3F7A1D3E1`
 SHA512 | `48C2B8B757228127E16A74B78299018A86770B554986F3D87D5B34E3BC5B4992F69038932A093778F0E9D185BEC874A87959B0E81312B702C0B62685D26F2762`
 SSDEEP | `3072:zvg2+MrqGZhFG/XOTCYkAa/i0noIhlET4liTBhH9LBtVcrdF//Eb7zInE7jIqc:8ATZBmF/m8nKq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

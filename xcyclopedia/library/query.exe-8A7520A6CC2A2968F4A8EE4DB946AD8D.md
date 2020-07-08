@@ -6,7 +6,6 @@ title: query.exe | MultiUser Query Utility
 
 * File Path: `C:\windows\system32\query.exe`
 * Description: MultiUser Query Utility
-* Comments: 
 
 ## Hashes
 

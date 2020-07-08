@@ -6,7 +6,6 @@ title: jetpack.exe | Off-line jet database compact app
 
 * File Path: `C:\windows\system32\jetpack.exe`
 * Description: Off-line jet database compact app
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A870E42E157063EB871F6E1876EED567F2716A087F1B4570FAD572C1DE771FAB`
 SHA384 | `2DA662AF432250841E388F1588BF74A41E8F643DA630778A1538AEE32C5B8588537F919BBD11D1C0364C989E6FE53200`
 SHA512 | `B2C69C0F54EB969A195E0B38464A1BD5910AFDF1FF8F1DFE0A371F53F0C56C447DAA751D8151C610C266DEFBBD83C9C73F73DBA93E8C32674B76AB21C503BB27`
 SSDEEP | `192:Na/lsoPWyW7dW1fpkicPP0DkV8ZWe3eAaUQmsW0UcHW:Na+TyKDP0G8ZWe3eysW0PHW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: pwlauncher.exe | Windows To Go Startup Options Command Line Tool
 
 * File Path: `C:\WINDOWS\system32\pwlauncher.exe`
 * Description: Windows To Go Startup Options Command Line Tool
-* Comments: 
 
 ## Hashes
 
@@ -37,14 +36,6 @@ pwlauncher [/enable | /disable]
     /disable            Disable the startup option.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: eudcedit.exe | Private Character Editor
 
 * File Path: `C:\Windows\system32\eudcedit.exe`
 * Description: Private Character Editor
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `A3D0B2683FF84CFB46650A67D50E1794C6CF3DCD0CD6CE1B974595F61CCCBD6B`
 SHA384 | `47DBA09C81B3F802A0B163FBCD83BF57FD0E3AB503E4B8664DEA6770C947BA86310941C59A8EDF7A296D4F24B13230A0`
 SHA512 | `424D42ABA6586FDD4354E6DD384E7905514E15EED233EF41E86C08191FCD6C39FF97D46FF35BD22A8307D1E49642F6F284AB3483049F6309208887C5E63B69FF`
 SSDEEP | `6144:J7wfr3En31gvKzIjhAuymPgpwl4TWxx5tY0Fo+1PZSqtYV:Zwj3EnFu8pwKOx5+u13tY`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

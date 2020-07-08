@@ -6,7 +6,6 @@ title: diskraid.exe | DiskRAID
 
 * File Path: `C:\windows\system32\diskraid.exe`
 * Description: DiskRAID
-* Comments: 
 
 ## Hashes
 
@@ -45,11 +44,6 @@ Examples:
 
     DISKRAID
     DISKRAID /v
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

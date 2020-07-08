@@ -6,7 +6,6 @@ title: evntcmd.exe | Event Translator Configuration Tool
 
 * File Path: `C:\Windows\system32\evntcmd.exe`
 * Description: Event Translator Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ options:   -?,-h        usage help;
            -n           don't restart SNMP service on trap changes;
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

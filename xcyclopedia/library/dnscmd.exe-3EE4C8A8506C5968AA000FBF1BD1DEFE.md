@@ -6,7 +6,6 @@ title: dnscmd.exe | DNS Command Line Admin Utility
 
 * File Path: `C:\windows\system32\dnscmd.exe`
 * Description: DNS Command Line Admin Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `67877821BF1574060F4E45AB8BE62E28F54FB40A23CE70B86A6369A4D63DB5BC`
 SHA384 | `880FBA698989B7D143AE11CC78549A8F1E5D62DCA4E445379DAF8A8BA6F2908ADE903F0759D539C458A2699C450FC70E`
 SHA512 | `7DE900F28A6C6C33A7318BB67F6FC92653FF4CF20205B8AFD8D457D2332AD444E38F97EDE6ACD8D40D8601BD5F1C8F0D94EDF88B320BF364899C064EAEF9EF00`
 SSDEEP | `6144:o5FNqlwAxdeYEsan7TRPrES2LN8s9xi0DCtT1TRep2A+wXz3o:o5FNCreYEscTRPAS2LN8VdewfezY`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -65,6 +49,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `  - Path: C:\Windows\System32\Dnscmd.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `  - Path: C:\Windows\SysWOW64\Dnscmd.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | ` - IOC: Dnscmd.exe loading dll from UNC path` | 
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) |       $x4 = "CreateObject(\"WScript.Shell\").Run DnsCmd,0" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

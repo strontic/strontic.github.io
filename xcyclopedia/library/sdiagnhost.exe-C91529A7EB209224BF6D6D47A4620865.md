@@ -6,7 +6,6 @@ title: sdiagnhost.exe | Scripted Diagnostics Native Host
 
 * File Path: `C:\Windows\system32\sdiagnhost.exe`
 * Description: Scripted Diagnostics Native Host
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `6FEDAAF41148F8E0803451B44AA5270AE6F96BF6D31CB81B3FE9459D2239E54E`
 SHA384 | `73F4EFD6FAABB3A196E86190744C494D387E4D99E8AAFC233D89EE7A9DB8428202C4C18C15D034B7AA8650F63DFC4860`
 SHA512 | `3F2B8CC14C10A6CAEC9049F0A84889A895DEB1039EE0F91045554A591992A6F80AEE810C2E0CCAF89787DBB478D146835CB93B067C44AE70AFD54895E03C5280`
 SSDEEP | `384:VWGCbl3oxEU8mgjLaunvYb1f4Z9OLv74qurfnC4HGcMXgRaoaDMnkfPiu1Wa7DW:VlWoAzvNeLv8zqfoaAnGPiub`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 conhost.exe

@@ -6,7 +6,6 @@ title: DIMC.exe | Deployment Initial Machine Configuration Tool
 
 * File Path: `C:\windows\system32\DIMC.exe`
 * Description: Deployment Initial Machine Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -34,14 +33,6 @@ Usage: DIMC.exe -UnattendPath <Unattend_file> -HivePath <IMC_hive> [-SequenceNum
     -?                Display help. This is the same as not typing any options.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

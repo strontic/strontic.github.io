@@ -6,7 +6,6 @@ title: Netplwiz.exe | Advanced User Accounts Control Panel
 
 * File Path: `C:\Windows\SysWOW64\Netplwiz.exe`
 * Description: Advanced User Accounts Control Panel
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `2A026F06F5116BABB3250C021184D78961E939AC7D2069C4B75B6404E8E5B717`
 SHA384 | `801E6D6ECEA6CBC4B9D4D3707FDFB09E84D48E02F35102B64E9562916EF92A61A3877AB2F4A27E0C2790F84170FF97CF`
 SHA512 | `1ECC1A028EE76F07F23F151A047A3997C08B109B3525549F7DD1CC79396354E270032C39DBD23A536025621868040DD0A98D80D62D0822B62D929AC21EF57FCD`
 SSDEEP | `768:FzpSzHgMsnY6gzbKGpfUrh6WeENiJDBPrxZt4ynaA:FigMZiGMeWSDBPrxZayna`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

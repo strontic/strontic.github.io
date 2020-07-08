@@ -6,7 +6,6 @@ title: dsmod.exe | Microsoft AD DS/LDS modification command line utility
 
 * File Path: `C:\Windows\SysWOW64\dsmod.exe`
 * Description: Microsoft AD DS/LDS modification command line utility
-* Comments: 
 
 ## Hashes
 
@@ -116,9 +115,6 @@ dsquery /? - help for finding objects matching search criteria.
 dsrm /? - help for deleting objects.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

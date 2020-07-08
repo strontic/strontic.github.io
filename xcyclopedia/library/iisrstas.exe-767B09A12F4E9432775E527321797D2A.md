@@ -6,7 +6,6 @@ title: iisrstas.exe | Internet Information Services reset control
 
 * File Path: `C:\windows\system32\inetsrv\iisrstas.exe`
 * Description: Internet Information Services reset control
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `818D9BE7DDC6F9363972771B39959A923A1AF92D4D9C90F2B5BD38366589E0E2`
 SHA384 | `B45CA37902C6F3ADCA67359DC162C95E01D4AF55B5ACB0D8D3B1FD9D26D37FA0362B21D876B40F449A20EF9C942D1A84`
 SHA512 | `99204F3CF32E39F495D1EFC6F29549F4611C0278B7FA44EBDAF62DAF0A0D1D4312362D5338B7F76D8BF6432A7DE54ABA200216C2E5DD1ED998EBEB9A86099944`
 SSDEEP | `768:vZV9W7AepdMtzw6dWnfDgYZ0rAFyCgvKibmCPtXnHAzdEY4NPQ0iKlJQ:hbypOsXIbmyHAzeK/KlJQ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

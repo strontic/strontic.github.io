@@ -6,7 +6,6 @@ title: bridgeunattend.exe | Bridge Unattend Utility
 
 * File Path: `C:\windows\system32\bridgeunattend.exe`
 * Description: Bridge Unattend Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `7F7FAE31CF7B8B04112F746C27B51BB37F3DCCEF08E5459AB65CBE0F44A146B5`
 SHA384 | `95F28064D9A75A41026E5962ADC95923C689B10FDF04424EFB010719796C4D7967DE9BB9004A7A1BA5DB46AE6D1E28AF`
 SHA512 | `4EFE2C7C45CF5EA75B7ABF172A96121064E6C393DC4C721BC5B6008130282989DF13E19B6AEDE8078AA7A63ED0E679A03408BA018E4340D4FABC9843898D3A11`
 SSDEEP | `384:0uvJeoW5iyUVbpJrv5FCgxmyytdcW9qp4EaIHqbfW4fW:Pefx+rcygjQp4wHqj`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: sdbinst.exe | Application Compatibility Database Installer
 
 * File Path: `C:\WINDOWS\SysWOW64\sdbinst.exe`
 * Description: Application Compatibility Database Installer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D`
 SHA384 | `D6C19520A88C859C3105B9C05C4CEEB2D123D3F27DBB0A13252051500B39513B27E74940299BFE017903EC27A9459848`
 SHA512 | `23125FB4EC1006CAA64C3F64B35A386F5181CFB5865386DD0775217931FAE1CEF14E948656B90722D324E1C9828CB70C93C3DBBB6ECBD4BEF18B2488D6243DF7`
 SSDEEP | `384:2ehy/EpSJ0b9o0a24wdJVIGxif3+cox1IuOQVsYmsPDERzWNgWD:2e/VbXa24oIAoy1HkYmsPDER+R`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

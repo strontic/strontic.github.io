@@ -6,7 +6,6 @@ title: odbcconf.exe | ODBC Driver Configuration Program
 
 * File Path: `C:\Windows\system32\odbcconf.exe`
 * Description: ODBC Driver Configuration Program
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `476346234300504CCCF360EF8172B4E07CCA59B43B7F09818B11B71210DF3481`
 SHA384 | `5876AB1D3FD483E7BB6565EC668FADF0D7FCA52BB935C066682508647E0C103469D2664082DA7600600D87E0674F6265`
 SHA512 | `745036FA0BDDE18E2302580C4EE0E95969D1C27F6F0741A95581A0C45F4946ED926D9F30D9D018308A4A3734A074C959DF51275C5A81FBE253D7F93BFC4A2779`
 SSDEEP | `768:O3PYdy60y+LCmASNmMexDlqxCSl9NBid:9yry+LCmASNoxlqjlMd`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

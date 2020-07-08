@@ -6,7 +6,6 @@ title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
 
 * File Path: `C:\Windows\SysWOW64\cleanmgr.exe`
 * Description: Disk Space Cleanup Manager for Windows
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `21737F8A48F1A7FB7873DFED26836382613DDC9E1DB860D71250B5067C011D82`
 SHA384 | `0EA3AC9AD762E37B1789F8ED665E0302AF1AF116748B47ABEE7DED71DCECCF14739A5E06460904F77A545456332116E2`
 SHA512 | `B098215E02967963C092161B3A15774886F7276B15D1C297E3ED0FA76CE44068ACF353A44B4891A4574F427848C4D35A1CD229F230FF04B1A6CBAC2073EC0EAB`
 SSDEEP | `3072:rJ8eh6cvBPXSWRf1nhBYoFcBdyqLAEPGRvQhRkKqUa9antF5hvvJkuXpZJq:LHvhBYoFcBMqsE+ohSKq99UF5hvv/`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

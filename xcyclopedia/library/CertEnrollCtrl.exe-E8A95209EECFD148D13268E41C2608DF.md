@@ -6,7 +6,6 @@ title: CertEnrollCtrl.exe | Certificate Enrollment Control
 
 * File Path: `C:\Windows\system32\CertEnrollCtrl.exe`
 * Description: Certificate Enrollment Control
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `91B5E9129F86AD6ED9AB1259A7E78B1DAC0EC0BDA78089365A6F3B6FD79B0A9D`
 SHA384 | `CAABCACE61765176E3403A36E065A3FFA47C232B6D3638AE8884DB02B6FEFED29C9F779B3134CBCD90A17F3C14050E28`
 SHA512 | `012504386292DB5260159DBEACA6B33ACCB6C5FBA321AE1A143D066B9B0BBFBE1B656F7692B2DDD5034DAEBDF575EFBCB6845153E9991B8049E0DB36A9343F36`
 SSDEEP | `1536:sM1e8fWdrbP7IbNAEGixueL+pI+BvHuiUtz2ZCCyF:ApyNAEGib+pI+BWLAjyF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2001.10-0\ConfigSecurityPolicy.exe`
 * Description: Microsoft Security Client Policy Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `4B90C5EAE610B164216398B9C28F00BF2DD7E46DB558C66C99090EA0C047C133`
 SHA384 | `4DC4208F8CDF031C6701EBD4C2FAAEA74E92718BACDA514F398F46D7D59042017D097ADBF21BF9A4A519636E0050749F`
 SHA512 | `6A21A24B49DE7E9A4997A897C26449A33B8BED3FCEBED2B09A77A5BBD83FD853466EB11F6BAF3D98A1D4CF7795EDFD65AFAFAE09B5317D91227D7502BE17E5F2`
 SSDEEP | `3072:FxLrofs9P7AqfaVETO5Ee6iaeHJlN87cEkPSEo3+fXa/MWKeGfS+mugPy0nCvgSs:FV0fs9P0qEkO5VScfo3nhuzvgnbZ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

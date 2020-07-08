@@ -6,7 +6,6 @@ title: PnPUnattend.exe | PnP unattend action
 
 * File Path: `C:\WINDOWS\system32\PnPUnattend.exe`
 * Description: PnP unattend action
-* Comments: 
 
 ## Hashes
 
@@ -35,14 +34,6 @@ USAGE:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

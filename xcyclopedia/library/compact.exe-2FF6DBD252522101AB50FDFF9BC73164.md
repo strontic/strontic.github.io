@@ -6,7 +6,6 @@ title: compact.exe | File Compress Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\compact.exe`
 * Description: File Compress Utility
-* Comments: 
 
 ## Hashes
 
@@ -70,14 +69,6 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
   parameters.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

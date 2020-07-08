@@ -6,7 +6,6 @@ title: refsutil.exe | refsutil.exe
 
 * File Path: `C:\WINDOWS\system32\refsutil.exe`
 * Description: refsutil.exe
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `24576:tIWadWBl6V3k5I7EfeVxcfNyjGWLnL1XK92NqGkw+qLrZ8Kp:KPsBl6V3k5I7Efe
 This program requires administrator privileges.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: microsoft.windows.softwarelogo.showdesktop.exe | Desktop Switch Utility
 
 * File Path: `C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe`
 * Description: Desktop Switch Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `590D02B129D15287FFCDC4A3AAB38F510F1ED2F437D344D7BF09C998EE138EF1`
 SHA384 | `661E16D7FE297A2A7C00413BCA2989AA4EAA568649D8EC97661CE3CF18F0CBC2ECB10DC084C60C405944789D3681431E`
 SHA512 | `8FD15B995E5A8D1E555EFDB519B30527077C14555D5B1242CEB6B3DF5EC214E346E13FF8402AC63026280A7E5AC2E8FBCE3F18D60A72B1E68A7E525F04B87A54`
 SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJiFgm1`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

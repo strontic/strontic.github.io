@@ -6,7 +6,6 @@ title: Defrag.exe | Disk Defragmenter Module
 
 * File Path: `C:\Windows\system32\Defrag.exe`
 * Description: Disk Defragmenter Module
-* Comments: 
 
 ## Hashes
 
@@ -84,11 +83,6 @@ Examples:
 	defrag C: D: /M
 	defrag C:\mountpoint /A /U
 	defrag /C /H /V
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

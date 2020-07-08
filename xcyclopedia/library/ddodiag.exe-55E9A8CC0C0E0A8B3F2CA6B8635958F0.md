@@ -6,7 +6,6 @@ title: ddodiag.exe | DDODiag is a tool that collects Device Display Object (DDO)
 
 * File Path: `C:\WINDOWS\system32\ddodiag.exe`
 * Description: DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D3887E2B8537644653C1787D8CF9E142B43653C0266F76930798780B60249A13`
 SHA384 | `186C46BD44D8A3D1E28F824BC700B20EC240DD8B831AA6AC1A2F5C594FF81E6618AF7400DE7F0B5CFA251CAC6006B2A8`
 SHA512 | `488FFABBA8C55D2F0355D83D5FBA30EC99CDBC41E325CE34366055642BDD94ACD7001372EBA99D23BF42DBB0F7F27B5836C86C0A03DB37CB4992D0DDEE78D5E7`
 SSDEEP | `768:K9m8ov3QRQ32fYMGK/hc3aZkLmMgMaouZl6i1pottgJ:C6vQmmfYMGK/hc3aZkLmMgMaouZl6i6u`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: wusa.exe | Windows Update Standalone Installer
 
 * File Path: `C:\windows\system32\wusa.exe`
 * Description: Windows Update Standalone Installer
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `E0438C5594A4EEB8515518989EE3A773581F414273B857B885D2201F66A95B06`
 SHA384 | `8CF139BA0B9ADF180448ED29660BCE78D19D6BB8FE55CF52104CD5C83B1FB8FC3D9FE61364A3C80D39D765B13E55CC39`
 SHA512 | `197279F4F762D2746E5D67FEC5B94CD569647B9BEB79B0A6069C20A1D4C2DD36808F8B546CD8F0E7E515D744F05654D9D704C3FBD8ECA951F6B4A8E16BAB8C8A`
 SSDEEP | `3072:SjomFcaF4iHSd5bqcoENXK6JRAqs4xjw8m1IRpR9/BRMp3cKAArDZz4N9GhbkUNJ:Sj9FjuiebqcoMHxM8cg9wpxyN90vE`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -84,6 +68,14 @@ File | Score
 [C:\WINDOWS\SysWOW64\wusa.exe](wusa.exe-C46BE74BD433DD95952142967E3F1F9A.md) | 38
 [C:\windows\SysWOW64\wusa.exe](wusa.exe-F3EF56F76D69361022B47EF1E6201644.md) | 41
 
+## Possible Misuse
+
+*The following table contains possible examples of `wusa.exe` being misused. While `wusa.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_thrip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_thrip.yar) |       $s5 = "wusa.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_thrip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_thrip.yar) |       $s4 = "wusa.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -6,7 +6,6 @@ title: SgrmBroker.exe | System Guard Runtime Monitor Broker Service
 
 * File Path: `C:\windows\system32\SgrmBroker.exe`
 * Description: System Guard Runtime Monitor Broker Service
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A428E6C8F23145DC75A0425E56A6C2A687BB78548AC697BA20465876CCA2DECA`
 SHA384 | `7E3D6331DDB887CBA28B5BA73E94A5CA8F50D2533A02C932676A30AB71CB31CE0FDB5E0637A79792215B8BC85EF05F07`
 SHA512 | `2FFF097BE38CFF175327368958F556B630209B95B028B21BB7E72DE63E6918BC577D35440258E764761D3C04A7C9EAE2C35EDAFB4D5B6FED0D0306470B1AB155`
 SSDEEP | `3072:vHBbnguVjx2eDtGN3WES5GGn+0afFIa4LPzVVefJEP3ct94RUxn+/DfiYItQHi:vHV30iGgj5Gb0afFIXPmfJYcARUQ/TI`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: extrac32.exe | Microsoft CAB File Extract Utility
 
 * File Path: `C:\WINDOWS\system32\extrac32.exe`
 * Description: Microsoft CAB File Extract Utility
-* Comments: 
 
 ## Hashes
 
@@ -47,14 +46,6 @@ EXTRACT [/Y] /C source destination
   /L dir     Location to place extracted files (default is current directory).
   /Y         Do not prompt before overwriting an existing file.
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

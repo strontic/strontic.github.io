@@ -6,7 +6,6 @@ title: SearchIndexer.exe | Microsoft Windows Search Indexer
 
 * File Path: `C:\Windows\system32\SearchIndexer.exe`
 * Description: Microsoft Windows Search Indexer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `6177CDD79D82143DE463486D22DE69416DB3DA99A91C0B65E8708A295BAEF2EA`
 SHA384 | `17693032BFF1BC7D6920E1867B08F31B7537C11F42FCC1E641F18F2B729C8BD30C7FB7E89A1EE661F983C205BBE0A9D1`
 SHA512 | `9ED16FD87E51086FE74099306407D13C108AF611CED8ED3F489A5FB34085880BBCA99403228401E26727A2A9F82819FE9A40F1F5B3DB479F3208989E9C2E524B`
 SSDEEP | `24576:APjxG1T2jt3pbhvNpFZLZIeYPC1Cy1bthyD:APDZbPpzLKCcy1bthE`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: lxdnserv.exe | Lexmark Connect Service Executable
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdnserv.exe`
 * Description: Lexmark Connect Service Executable
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `16848BA9052A58D03B420E2E803605CDE59D99E01691CA0FEA92EFE43CB8F318`
 SHA384 | `6922700350710447AF9710069880593E507E549A7C2D7C0A171F1338E07327D8E2B51C298386DD56499C803F6181FF70`
 SHA512 | `B0322FE1547E5EC2D768CEC2C414BFE51ABBC77DE1BABA72B72A3A7BE4ED204199F2165C3676A0CB507173C02F43CD3A7701C0071FC3C8D1E78719E24CD6F582`
 SSDEEP | `384:18pEwVlhdIWh/RpFGr4NsNnOQUWPoUNYgL+rILokIXWgod4GGVUm1uNi5FF:KDVlhnp3qFWWPoUygLmk9d4vmm1uw5f`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

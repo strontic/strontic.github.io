@@ -6,7 +6,6 @@ title: nmbind.exe | Hyper-V Network Core Bind Application
 
 * File Path: `C:\WINDOWS\system32\nmbind.exe`
 * Description: Hyper-V Network Core Bind Application
-* Comments: 
 
 ## Hashes
 
@@ -38,14 +37,6 @@ Options:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

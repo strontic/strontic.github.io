@@ -6,7 +6,6 @@ title: dpinst.exe | Driver Package Installer
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\dpinst.exe`
 * Description: Driver Package Installer
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1165CA1C70618FDBC1E703550413788FFFEDD1A0663E1C7F29A3CFBE1D25906B`
 SHA384 | `72D122E08B84CD0F58F1C9873CB3EA6ADF748FF0A56F480BB064BC62D5987594A25C0B527F0B3421EE0062E598365E5B`
 SHA512 | `8E08A60B0B016129306C39BE7E4E2B344CB7F2DE61E5E004C0367E2814EE3B2EAEBE7E86E43905EEEA8640BA86FF872432729CDBF03B854F9EBECAADD5EC626E`
 SSDEEP | `6144:OsSOzpPId26dQcEaUrPvwgwkRVagRoDHTj8K1sqI6VLp4XOigSbduP/1HHm/hHAl:qIId79EaUTvwieMozMEcOigSpuPMaLio`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

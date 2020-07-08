@@ -6,7 +6,6 @@ title: BitLockerWizardElev.exe | BitLocker Drive Encryption Wizard
 
 * File Path: `C:\WINDOWS\system32\BitLockerWizardElev.exe`
 * Description: BitLocker Drive Encryption Wizard
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8DD7656C9B7DABCC199E2A7859E756E3E24DEFB9E46909EEE66F95F20F24CF3C`
 SHA384 | `FF089FB95C14467C6C2292DDF0FB1BF91151CB00CF68A645962A8D72E1BFB3AB00A014225223537A8730041F1158759B`
 SHA512 | `7D1AC8460D0555871748159AB649345B73F6DA7DB4A323D167CAFAF401DA35C737A597FF8CC6E8DB4F8534F8D3DB7258DB3E4811E28E0D1E56446BCFC024471E`
 SSDEEP | `3072:jYwy7wnVS570M9kdatGCO+xmBc+hMPhPsx:EwFVs7nyatGt+SYF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: ktmutil.exe | Kernel Transaction Management Utility
 
 * File Path: `C:\windows\SysWOW64\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `0D3BEF6EF8809E17F5EB943825C76813198F32AA8BD49B3DB7E9C2B0DEC184D2`
 SHA384 | `0052D67E292B44E73987F77C6E4EFA46AB1ECC19F047BEF55E5FAFCDB8A1BAE616380EDFD224E76E0175A54DC91D7C1D`
 SHA512 | `E8B5DBF4B188F6C01F86397CCE804144253553BE21EBFE31C9DF3F3720DC865DE58FD867D5D7D3107CEFA67056ECD1E654299EC37765D4A792D5F3CA039809A1`
 SSDEEP | `192:1PCRLNGTRxlyFfJpehFxtoXkzTVsas6Ps9NC10Fck+WRjWvzx:1PCylyFy3toXkfVnuTx5+WRjW7`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

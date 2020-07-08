@@ -6,7 +6,6 @@ title: ktpass.exe | Kerberos keytab tool
 
 * File Path: `C:\Windows\system32\ktpass.exe`
 * Description: Kerberos keytab tool
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `32CEDA70E9257BE9BFB1AA42810951691DA9A6927D8FD75B31414FA8CA1FADB28ED02F
 SSDEEP | `768:a26UJ2jK/o47bxidpPfZbSvKz5XVvvSvIPRmFx6U2eFDw0LOhJVoUw:Uu7XoPsvyZQ4U2elRGJVjw`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -73,9 +67,6 @@ Command line options:
 [- +]      SetPass : Set the user's password if supplied.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

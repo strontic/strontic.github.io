@@ -6,7 +6,6 @@ title: AuditShD.exe | Audit Mode Desktop Switch Utility
 
 * File Path: `C:\windows\system32\oobe\AuditShD.exe`
 * Description: Audit Mode Desktop Switch Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `AC9284E17FEB93F313FA31B5B62CF6E6743F0DF3797C3D513E6FD3E55382115F`
 SHA384 | `DB6BC6BA6F9AACC251B9174CE504FC1072C38F2D583267AF24AB2EC2CDEFB7CAECD1BF8BD3B33F3D4C1581ADD2296FF2`
 SHA512 | `73CFFE43D1E516AE256B5A6E8BA8B45BD7B29CA00EBA7752D2B9B7E845C2B091FC1547C8B42411C10D62A42929E7E4134AAF5BDA4F2D23B0CD422F046A1D4CFE`
 SSDEEP | `384:j/5LaX/4UEmZrsu/ZoajJGDuyHWBSTe0nEkKhGwOr3fpgHuWGfErnUoskBR4ogg+:xagKrswVeGS/Do4ojPvX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

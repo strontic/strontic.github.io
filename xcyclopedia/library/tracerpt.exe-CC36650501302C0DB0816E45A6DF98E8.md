@@ -6,7 +6,6 @@ title: tracerpt.exe | Event Trace Report Tool
 
 * File Path: `C:\windows\system32\tracerpt.exe`
 * Description: Event Trace Report Tool
-* Comments: 
 
 ## Hashes
 
@@ -79,14 +78,6 @@ Examples:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

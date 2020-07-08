@@ -19,21 +19,6 @@ SHA384 | `0CFC064D2B9899239AD97E3D36E5DC4A216F3B9CEBF10D05BE2F3C625951DDB158AB62
 SHA512 | `D09D2F16C2977D515CA2B5B06C24D645940131EEC2B063EF7315AC6DE6A0060472BE7CC4D5A4B9961147161A1DF41BAC39A5767DAC5E655659138F9638D2D050`
 SSDEEP | `1536:JjvLxD4cYK5AQsQxiu+DCNLk9l9KYn23h+N:JzLpTIQxi9DCLk9jLnPN`
 
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -53,6 +38,14 @@ SSDEEP | `1536:JjvLxD4cYK5AQsQxiu+DCNLk9l9KYn23h+N:JzLpTIQxi9DCLk9jLnPN`
 * Legal Copyright:  1997-2018 Cisco and/or its affiliates. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `ashelper.exe` being misused. While `ashelper.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt30_backspace.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt30_backspace.yar) | 		$s0 = "regsvr32 /s \"%ProgramFiles%\\Norton360\\Engine\\5.1.0.29\\ashelper.dll\"" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt30_backspace.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt30_backspace.yar) | 		$s4 = "\\ashelper.dll" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -6,7 +6,6 @@ title: SynTPEnhService.exe | 64-bit Synaptics Pointing Enhance Service
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_4e500223b4e4a9e4\SynTPEnhService.exe`
 * Description: 64-bit Synaptics Pointing Enhance Service
-* Comments: 
 
 ## Hashes
 
@@ -29,14 +28,6 @@ Parameters:
 Service failed to run w/err 0x00000427
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: PnPutil.exe | Microsoft PnP Utility - Tool to add, delete and enumerate d
 
 * File Path: `C:\windows\system32\PnPutil.exe`
 * Description: Microsoft PnP Utility - Tool to add, delete and enumerate driver packages.
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `47DDC47F579CDF2AFCD1FE1FA1FA4241746775273CF82BFF02388E20AEC1554A`
 SHA384 | `8E3C8A2124E5B68FA40AE88171B6ED3E5A7DE250A5AFD6A5A97F5FAB26EE7D1307FA483FC51181F242358F5029D8D987`
 SHA512 | `B77EEA4FFB63001D91A6565A18003EE66726E84CE3FDD6016045F9CB45E1F20E4D50AC005FFDC39F61E171BF838E6AA3834C88586ECCB386DE73CF7514A29E2B`
 SSDEEP | `384:4J3e7GlAaLCPQwEyhD5yssigbB1yXdbg7sGPT/evOKE/WR8vW:c3kzwssigb4GSvOKEh`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

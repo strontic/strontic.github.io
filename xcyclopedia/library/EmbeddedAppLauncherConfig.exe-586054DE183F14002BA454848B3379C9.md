@@ -6,7 +6,6 @@ title: EmbeddedAppLauncherConfig.exe | Embedded App Launcher config
 
 * File Path: `C:\Windows\system32\EmbeddedAppLauncherConfig.exe`
 * Description: Embedded App Launcher config
-* Comments: 
 
 ## Hashes
 
@@ -28,14 +27,6 @@ SLCONFIG: invalid parameter, can only use /generalize, /specialize
 SLCONFIG: ExePassThrough<==
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

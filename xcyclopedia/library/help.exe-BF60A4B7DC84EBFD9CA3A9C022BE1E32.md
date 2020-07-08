@@ -6,7 +6,6 @@ title: help.exe | Command Line Help Utility
 
 * File Path: `C:\windows\SysWOW64\help.exe`
 * Description: Command Line Help Utility
-* Comments: 
 
 ## Hashes
 
@@ -28,11 +27,6 @@ Provides help information for Windows commands.
 HELP [command]
 
     command - displays help information on that command.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

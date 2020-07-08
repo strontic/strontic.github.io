@@ -6,7 +6,6 @@ title: rmttpmvscmgrsvr.exe | TPM Virtual Smart Card Manager DCOM Server
 
 * File Path: `C:\Windows\system32\rmttpmvscmgrsvr.exe`
 * Description: TPM Virtual Smart Card Manager DCOM Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `DE2AA596DBBCC30F21CB8817E40AED2071AA65ED98FEE8A60214C885FFED6460`
 SHA384 | `407CDC2D2F1C6AEB763AFBADFB186A9D1D135A1FB94F5EE47AA0AF0A6D04F732BF35E5DA7BCC7339B46FB2DA3D2BF49E`
 SHA512 | `DA1172F6A1BEEA3226F1FC1A8AC0C1D679349DA78E0C94B0999034F37498FBEA3AF393B8569C509BD3AE7AC4838E3DF1FCBB7A28D0EF832D549B70296FD6EAED`
 SSDEEP | `3072:NOqCXfLMrr3tWVhMbfu7Ya2JflqQ8dqcrPM:AqIq3Bbfu7Y5JN4kcr`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

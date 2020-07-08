@@ -6,7 +6,6 @@ title: SetupAdmin.exe | Apple Installer (Elevated)
 
 * File Path: `C:\ProgramData\Apple\Installer Cache\iCloud Control Panel 7.6.0.15\SetupAdmin.exe`
 * Description: Apple Installer (Elevated)
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `67DCCFC65B2F316AE0E04433FE398313836B3D11C643FED5076418B3CFC92ADF`
 SHA384 | `92A22C3E8A6B81F116D6556206B80A2D21D52B90BEFA21A369B41516A953974380DBC736746D38CB9F16B7E6C5A89702`
 SHA512 | `36A54C6C337FAFEFB9B6D50C0675AC1C8BA2E0B10895F83EC95B3380393EB256C30FD7A972A6BE3A0C33452E4B0D5981CC8283FC184DD1A87B489650BB42D895`
 SSDEEP | `3072:kZeZldbcqLa/oBFLuaESBD1UIbkiOwWoeIVOuQp3fIko:RZlrkVaESRPGtuilo`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: vdsldr.exe | Virtual Disk Service Loader
 
 * File Path: `C:\Windows\system32\vdsldr.exe`
 * Description: Virtual Disk Service Loader
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `43F0AF018DC498619222CF16E1C9BDE2F7710732686DC361E4D692B7EFB4DDF9`
 SHA384 | `1F4A682E255E4345F9BCBEF76547CBEB546F6CD513B031AB216ACBAAE4A53FA6B0DB4CF689B25586D0027BBE10061AD6`
 SHA512 | `15FADC71B9FA172BD72BC1CD20F3D30E5FD49DBDAA5A7450E26D8982AA97FF0E7E6995681B1034B8EBC41B115C8D90A1757A390A010FC792A9247480EF732D3C`
 SSDEEP | `768:zAL3gebEqepDZzYlwIyhjQp2kLxufikOB:cMPuw/jALxeikO`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

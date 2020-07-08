@@ -6,7 +6,6 @@ title: FlashUtil_ActiveX.exe | Adobe Flash Player Utility
 
 * File Path: `C:\Windows\system32\Macromed\Flash\FlashUtil_ActiveX.exe`
 * Description: Adobe Flash Player Utility
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `C05B1C1B1F0FB1849D809E05DA33AE19DB6E9E6C3F3B462713D8629A82357CA4`
 SHA384 | `7CFEE521897A663D5CFECCB72ACD19267BE0976C6996E5D01FE094FD887A431A835132EA4F7EA660F32B118494056039`
 SHA512 | `B7B99424CB4EADADE9C4E337A0B1E08904BAC4E42504D13260F5BE1971103CF84C41FB3E31ED980839FE41B4A0EFACE6645AEAF1F692B738DDA90178D766FFC9`
 SSDEEP | `24576:XLCmMHfsrhzUOCodT+8p4RDeqyDZuN79:7C3HfsrTCodT8DQDZuN5`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: eventcreate.exe | Event Create - Creates a custom event in an event log
 
 * File Path: `C:\windows\SysWOW64\eventcreate.exe`
 * Description: Event Create - Creates a custom event in an event log
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8C7AD7303B8E4ADDAFC174B46EE951FC063DB116DEB7ABFB6AEEBF733B84D87C`
 SHA384 | `3278C7CA6DD762B10D28786B0C37FE69525D62E606A417AE1A242AD2D8F7121E18F3AA8012E7238D5B3FAB9E349B5201`
 SHA512 | `F68EFB300A03D40F7CE5D1E6F9047673A64BBC3E712EAECF5780E8ECBB43CED2C90F0BE9313A0D86DDD940D0D8F4245E0AD867313FDD3E32AED269E31B0C58FD`
 SSDEEP | `768:dYgC1IJDS8nn+18w2FKAws02VUMJgIAI/SSYMhxYxWI2ANwX:dYgCGDvnBf+2tJffYkxYxYANwX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

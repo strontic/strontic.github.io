@@ -6,7 +6,6 @@ title: mmc.exe | Microsoft Management Console
 
 * File Path: `C:\Windows\SysWOW64\mmc.exe`
 * Description: Microsoft Management Console
-* Comments: 
 
 ## Screenshot
 
@@ -23,18 +22,6 @@ SHA256 | `730FB58C545AE4D88654AFF4431E64742405FCE1289C52BC9C80397758D48BE4`
 SHA384 | `EBDBFBD5C92BA499CA0520123DDD87B77C85CEA5DD135DF89922CFD12E7E460A20213393A5E9A655585F718048B0CE5A`
 SHA512 | `1D06E2B315E3684E3D35A1FD9D5677F2689D22C2A0C8E177272A32DEEA3477601CA6A21C5CFD170994272CA69B56AD2A1198ECFEBCCCA65DBA05484C3E4F3043`
 SSDEEP | `24576:P74be/1cWKvhKVbPhS8nZ0MbatL+gR+QUxmvVMo7wMo7DHjexVkj8r:P74UcZm48ndeR7e7DHjexVkj8r`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 mmc.exe
@@ -98,6 +85,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.015.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.015/T1546.015.md) | START MMC.EXE EVENTVWR.MSC | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | copy "#{executable_binary}" "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | mklink c:\testbypass.exe "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) |       $a5 = "taskkill /f /im mmc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

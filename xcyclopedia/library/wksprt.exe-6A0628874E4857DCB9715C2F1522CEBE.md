@@ -6,7 +6,6 @@ title: wksprt.exe | RemoteApp and Desktop Connection Runtime
 
 * File Path: `C:\windows\system32\wksprt.exe`
 * Description: RemoteApp and Desktop Connection Runtime
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `4F57F549AEA9065CA3D487B18EE3048689CDB1A93947BD1368BB4BD9F2581E6B`
 SHA384 | `1B15F02D159508C5A5AE837B726A4A5D6E58544DD3DDB85ED58E0E77A03FA14661008AD0888EF7B94EA4BCCA19FF7A3C`
 SHA512 | `C437AC7D488B40B4CD6F43040124544FBE1B634FEAA7F218FCF9FD19882C89F29DCB565F1DFE97B9686280FE10718BF57BC61E53E8756593FA29168861B2F77A`
 SSDEEP | `6144:XXRhscr7sO8g+RMxZGlK/P2kJLPOYXJjHH/2fEVdnoiEEiEEsfByAwZZS4onQF3W:Xb7syxAloeUmYX9/o5XIB7GjF3mW+xR`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

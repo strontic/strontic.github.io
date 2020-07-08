@@ -6,7 +6,6 @@ title: recover.exe | Recover Files Utility
 
 * File Path: `C:\WINDOWS\system32\recover.exe`
 * Description: Recover Files Utility
-* Comments: 
 
 ## Hashes
 
@@ -29,14 +28,6 @@ You have to invoke this utility running in elevated mode
 and make sure the disk is unlocked.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

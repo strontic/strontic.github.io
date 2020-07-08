@@ -6,7 +6,6 @@ title: MdmDiagnosticsTool.exe | MdmDiagnosticsTool
 
 * File Path: `C:\Windows\system32\MdmDiagnosticsTool.exe`
 * Description: MdmDiagnosticsTool
-* Comments: 
 
 ## Hashes
 
@@ -46,14 +45,6 @@ SSDEEP | `1536:N7L5ewNt3W0wWBPt+KWmfVev4+6PdHvpuebu:lYuW0wqt+LyVo4+GdHBDbu`
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

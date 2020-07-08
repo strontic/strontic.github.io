@@ -6,7 +6,6 @@ title: RMActivate.exe | Windows Rights Management Services Activation for Deskto
 
 * File Path: `C:\windows\SysWOW64\RMActivate.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `9162B0FF6453363794763BFCF06BD80F560780A20F8A2B590BAE987034F3A48E`
 SHA384 | `A35AF18CCE1FC7C233092A712D46BCD0852BBB7E0B13239C99183A851F154E428E037FE8F6934258A15E20C7A8C9327B`
 SHA512 | `6692205E8ADC7879A5D36842A66D8C2E4876B4F15BAEFD4D661367162BBF23439B59AEFC9039372C338F6484482C2609EE91F2EABA8D7962088DD1F056B8C07F`
 SSDEEP | `12288:dcbjRXYik0+0TAFJ/m2lmdfk8/ZdZpECITu8tutVNf/yTlZ3:2jFj7+xD/mGmdfk8/ZREbu8tutPXyZZ3`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 conhost.exe

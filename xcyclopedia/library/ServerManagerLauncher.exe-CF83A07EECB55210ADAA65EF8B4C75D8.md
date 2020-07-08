@@ -6,7 +6,6 @@ title: ServerManagerLauncher.exe | Server Manager Launcher
 
 * File Path: `C:\windows\system32\ServerManagerLauncher.exe`
 * Description: Server Manager Launcher
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `E38B3E1B6DCC39DF44E0FD20ECF91B60549BDA698ED2958CFF9DDADB87525992`
 SHA384 | `A803F056274A772EEF05EF24BD7E2C3A62B7B4DF47EE4A469F4DFE6EF3D5218A70EAB223F941F4B50EB6A74F5F84538D`
 SHA512 | `FF8EC3D1E29FF23219AB2862DC1C4D34D8E64E23663DA3E9B259A4A81D29510C237B3AA965B281D0D3D40CEEE7D54AE07A4C5ADCC0F41031B0BC36A799306A9D`
 SSDEEP | `1536:Tmad7hGms8y2O/TxrTfRt5ThYFJAdOYmUlOo+vi6Uf:TmaZ48MVXfRtJuZYmUco+Q`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: gpfixup.exe | NT5DS
 
 * File Path: `C:\Windows\system32\gpfixup.exe`
 * Description: NT5DS
-* Comments: 
 
 ## Hashes
 
@@ -74,9 +73,6 @@ Usage: gpfixup [/?] [/v]
 Invalid parameter.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

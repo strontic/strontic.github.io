@@ -6,7 +6,6 @@ title: mofcomp.exe | The Managed Object Format (MOF) Compiler
 
 * File Path: `C:\windows\SysWOW64\wbem\mofcomp.exe`
 * Description: The Managed Object Format (MOF) Compiler 
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `2648BF5F04685DC297EBAFCF237BA24259D219F726BA7050B5D4739867CCD11F`
 SHA384 | `024BD635693EEFB4976187CF37A3F34A37CE14D452571C1FF21C2DBF6DCB58229C532AFF406BA3B0FB34E3FAC8F70334`
 SHA512 | `87B9742AE160FB71B84C11D7197D1473BD0FE4F26FA9850670BC14601F13C9A3F0CC767D485042BE72F2301A2427A499EABC678E68086EF275509A5EF48BD74F`
 SSDEEP | `384:GxnKeV5c2bFJFKFSB5XOo/o1cI6Kbl6lF3yPoatrgxgaWsoWyns6:GIUb7FKFvXBY3yPoatcxgA8ns6`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: hnsdiag.exe | Hyper-V Host Network Service Diagnostics Tool
 
 * File Path: `C:\WINDOWS\system32\hnsdiag.exe`
 * Description: Hyper-V Host Network Service Diagnostics Tool
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `8B530889DE397BCE7D7AE09AB13822C22C90EE6A7CA919DC9F701A26E032FD8890FA2F
 SSDEEP | `1536:zbWUCXlO29XoIhJ0TbwJZHkNsb+fGFsRT0GYxFKTkk/gjFK1uGSLzqoz4Qkor:bCNXo7bw/8+FmuC/gpK1T4zqjQX`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -54,9 +48,6 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 	  Specifting 'l' will additionally give the object in the latest schema version.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

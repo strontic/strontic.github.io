@@ -6,7 +6,6 @@ title: nvdebugdump.exe | NVIDIA Debug Dump
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\nvdebugdump.exe`
 * Description: NVIDIA Debug Dump
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `6144:ttq1nNvvLoloR7Jw/yXZY+4k8nNWELk8qTB5NFO:a1NvFu/gZzeRqTvNF`
 Option "-help" is not recognized.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

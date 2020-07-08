@@ -6,7 +6,6 @@ title: MRT.exe | Microsoft Windows Malicious Software Removal Tool
 
 * File Path: `C:\Windows\system32\MRT.exe`
 * Description: Microsoft Windows Malicious Software Removal Tool
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `0E648156E17AEC12C15871C73966A59682B4C0562286EB764FAF2AD256AA4C22`
 SHA384 | `CED837D34CCC8EF7975B6348392E0C83D3C081DBA71F9E4C7C5FD184F65076B4744CB1E55487A3131EF2D3B14D56232C`
 SHA512 | `54BF1E32C36D7AB05B455D2908F19ABE903C5B7B37F1F6C81F8414C41CC87FD5F01BA989260D8FB4C61A57478F8717732B2ABA364F1AD74A3AE125FC491F0171`
 SSDEEP | `3145728:AIjdsgooon1zd/A/G/j5xB/G5xdE5x65xS/W5xV5xh5xr5xT5xM5xw5xR5xb8sBr:tjd+ovT8sBr`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -64,6 +48,7 @@ SSDEEP | `3145728:AIjdsgooon1zd/A/G/j5xB/G5xdE5x65xS/W5xV5xh5xr5xT5xM5xw5xR5xb8s
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_svchost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_svchost.yml) | `            - '*\Mrt.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_fireball.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_fireball.yar) |       $x1 = "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\MRT.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

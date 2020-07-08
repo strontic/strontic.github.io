@@ -6,7 +6,6 @@ title: scrcons.exe | WMI Standard Event Consumer - scripting
 
 * File Path: `C:\windows\system32\wbem\scrcons.exe`
 * Description: WMI Standard Event Consumer - scripting
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `7D0BA1A011EC2C2C392A86D1C5EBAF20F5615142ED3DE4ED5CD603F60E520345`
 SHA384 | `ACF3447B8EB88D1F61CFCC7BF2F45E148B2A6611C0A88FD2AE8C41B446B7D154BE868D1B3724A07B06C4822EC5130437`
 SHA512 | `A7776DEFA9885E692639E75901FE3BAAE2A691DFE71ADA0A5BA2872AFF4F588F19E1196AEF4E75D0F32FBC939F732190DA16B0B5A4CC3C230323D3025D9FEDCD`
 SSDEEP | `768:GTiff1Pzo3VOyP1xhHjcai2qNBEFg/PlWyHtke0qu0+d3MiDjGfEqq7ntns0YLd0:G+ff1STMx3lWeT0quRd3jkEqq7ntR80`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

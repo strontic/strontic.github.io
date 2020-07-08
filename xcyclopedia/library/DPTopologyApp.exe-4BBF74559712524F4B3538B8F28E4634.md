@@ -6,7 +6,6 @@ title: DPTopologyApp.exe | Intel(R) Graphics Control Panel
 
 * File Path: `C:\WINDOWS\system32\DPTopologyApp.exe`
 * Description: Intel(R) Graphics Control Panel
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `6A631AADE2C8A23D47D7EC43C18B946010D64E4EFBD8CB880187700711AA108C7824A1
 SSDEEP | `3072:5Sl5je/1K+tfLzs6iXzt4MGLD6DvtMJCU7DzpChJWn/qasQ0QE:5me/1NL+SODvtMJfDVChJW/qasFQE`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

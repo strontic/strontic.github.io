@@ -6,7 +6,6 @@ title: rdpsign.exe | Remote Desktop Session Host Server Sign Tool
 
 * File Path: `C:\windows\system32\rdpsign.exe`
 * Description: Remote Desktop Session Host Server Sign Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `89412D995DFECD94256BF93978A02D0B4D349461FA9B5E0376B1928D482A1E42`
 SHA384 | `6935B8BFFCDF5936E1CA41DDEA6620559DF6B5C8DCC4D7A0D3311094FBCCEA77C07639223B01B0C8A8BCB2310D65F19D`
 SHA512 | `0B14EDC6CEC0B211A1A2AD45614EEDFD53DF3EB6256B963CFC346AC9F7937FB5ED21F2FC75B084359947EAED53AD98A0924B37E60AB968FD3F57A4A8C066B97B`
 SSDEEP | `1536:Nz864NbAFyw/RAI/gz+PYkiOCbg/4CPJclm4az3DI5z5:Nz8pC7Rlozjkih4muAz5`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

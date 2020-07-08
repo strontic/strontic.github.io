@@ -6,7 +6,6 @@ title: SrTasks.exe | Microsoft Windows System Protection background tasks.
 
 * File Path: `C:\WINDOWS\system32\SrTasks.exe`
 * Description: Microsoft Windows System Protection background tasks.
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `DD8B82ABB81377966076A4C53F54FDB1AED85BE2370AEDE7589B8116204055E0`
 SHA384 | `356B24F050577995D38520B8D77CD587358CF78396795D719FBFD0E28C354B5E474D4A8C0621443966A029BCB91E5D67`
 SHA512 | `F5A29537FEC9C72EBE2734240FAA1B40E90C651BD89F2B3512815EA6B7BF6F42A17BF69339CE426D695C4A22614ABA9B6AECF1AAF7DBB01291BF0C8076E920D0`
 SSDEEP | `1536:CvZ7YK/lQt9EXKIAES4cpKror9+NymAucl:cQjEawGKM4yRug`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

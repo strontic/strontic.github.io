@@ -6,7 +6,6 @@ title: wlrmdr.exe | Windows logon reminder
 
 * File Path: `C:\Windows\system32\wlrmdr.exe`
 * Description: Windows logon reminder
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `876E04F2C6F953C80EDF173DFB2EB950257AABE5603ABC2EA43EAC0229A553A3`
 SHA384 | `12E1E812951521411E63B00A0E4CD2247E4A3FC3097FB8C5A9BF050C2BEAC0E61549302BDE28A9713BD3ADC11ABD97F9`
 SHA512 | `38F55778FDC19397FAB21D4879C8B810586B64508BE64BA4189866AA8B3C663E54824562132862AA88274C89C706B1D27FE57B726830E26C55AC590BD691B18B`
 SSDEEP | `1536:s4/jyj91lFbMs/ukWlxZyE8svqr9PxDtykPmvX:7jyj9WoWlxgGu9ZDtyk+vX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

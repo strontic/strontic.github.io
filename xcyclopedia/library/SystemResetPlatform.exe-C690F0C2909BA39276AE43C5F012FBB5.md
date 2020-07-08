@@ -6,7 +6,6 @@ title: SystemResetPlatform.exe | Windows System Reset Platform
 
 * File Path: `C:\windows\system32\SystemResetPlatform\SystemResetPlatform.exe`
 * Description: Windows System Reset Platform
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1F1599817CF846587E419C2C121D66AE33D4B3201A677B6FCCD9754E61E2CD60`
 SHA384 | `1EBD6B4D5F56AEB0806D1220DCAE1153EFAAEC4B0D878B19CFD48FF82BDE6886DA2951D8036B9C238A65053CD419336A`
 SHA512 | `DCA7B028F04439A21169D2BE10A6D707DCCB29A3812D9402147B97F732D70DECD5D319D439C569902D406453CE3523AB8BA4E6D848EE7871926F50E03164C64F`
 SSDEEP | `192:ubaDyeCriN2OBMTDg9lAkhN7cTVN19GUGvCy2WuSW:mEGu1ifylzhcPGURWuSW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: openfiles.exe | Displays the current open files list
 
 * File Path: `C:\windows\SysWOW64\openfiles.exe`
 * Description: Displays the current open files list
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `6374E1C9D3647F9C04AE42FFF152AA3F9986CF2E778B76A62DB4E2B1D53F0BCE`
 SHA384 | `59A97AB3457AAE639D0FCFC849EF830306DFBB51428EB661D5FD7981E469CC6576CE0A43D3F98BA42AF05DF37675766C`
 SHA512 | `A44A44A4BC6FCF24BB4BA620A169E74A68985E25296DF7D9513C68F14815844C0DDCE07061B0315BBF5BC635EA15818650283786CC6219CC9FC25D9BE2661775`
 SSDEEP | `1536:Pd/kV1s49FCdS8vmRsbizG8iWt12BmjxRPaP:F49FCdS8vmmbQG8Omjx9`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

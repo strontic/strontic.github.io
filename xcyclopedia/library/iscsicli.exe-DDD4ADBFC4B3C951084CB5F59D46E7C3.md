@@ -6,7 +6,6 @@ title: iscsicli.exe | iSCSI Discovery tool
 
 * File Path: `C:\windows\system32\iscsicli.exe`
 * Description: iSCSI Discovery tool
-* Comments: 
 
 ## Hashes
 
@@ -213,14 +212,6 @@ mode, just run iscsicli without any parameters
 The operation completed successfully. 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

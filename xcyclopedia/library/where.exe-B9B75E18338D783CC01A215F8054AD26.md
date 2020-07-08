@@ -6,7 +6,6 @@ title: where.exe | Where - Lists location of files
 
 * File Path: `C:\windows\SysWOW64\where.exe`
 * Description: Where - Lists location of files
-* Comments: 
 
 ## Hashes
 
@@ -75,9 +74,6 @@ ERROR: Invalid argument or option - '/h'.
 Type "WHERE /?" for usage help.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

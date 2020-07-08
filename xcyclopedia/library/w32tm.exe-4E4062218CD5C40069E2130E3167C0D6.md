@@ -6,7 +6,6 @@ title: w32tm.exe | Windows Time Service Diagnostic Tool
 
 * File Path: `C:\windows\system32\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `21FFF3ACF14AF70E22D23028DC26BEE58C8394707C61618AE1D35866DC9C4D51`
 SHA384 | `2FE3A8CD50C77616820693F140C23C6B9E8B9680EAC0579402CDFD04A99E17EF7F92BA0B0385BEFE31A55649A88B724D`
 SHA512 | `0073D92F6B2B8B6BA2E8D8B657933972875E3B4379A7BBA59BCB3177FEB99E9F8B120E5554FB969576F34CA254CBAF05658A4349AE963D8FB8522FAA3E2C278F`
 SSDEEP | `1536:xYGoDYpHygP5FQwowTX3BwEdlk+HaEYkr/s+ZA7kCC+Kp9Ma4ZGVje:xboox9v3q+HaqrRCCZpWa4Z4a`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

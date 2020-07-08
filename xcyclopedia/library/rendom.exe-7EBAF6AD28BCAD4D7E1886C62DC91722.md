@@ -6,7 +6,6 @@ title: rendom.exe | NT5DS
 
 * File Path: `C:\Windows\SysWOW64\rendom.exe`
 * Description: NT5DS
-* Comments: 
 
 ## Hashes
 
@@ -93,14 +92,6 @@ rendom </list | /showforest | /upload | /prepare | /execute | /end | /clean>
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

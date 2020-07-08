@@ -6,7 +6,6 @@ title: WerFault.exe | Windows Problem Reporting
 
 * File Path: `C:\Windows\SysWOW64\WerFault.exe`
 * Description: Windows Problem Reporting
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `23E2B8DC4B1327ED034FFCF7B04C6F52558271339A52B46D9968D7950DADC160`
 SHA384 | `AAFE111D13A6E4E3737668F0F72E3E3A1B4CD4FA380DC033021005EDC903827F9CD9C0BD902EF9647D49EE8403A53248`
 SHA512 | `EC7077446FDEE7DFA92C97343046336CA9B9C2EA37A271362A03AE2E92EA7DC179B48C37F30149D05BD842EF5F5D5F6D13511CF360536A17CC333BB9D299B79B`
 SSDEEP | `12288:yvmb8TlogTyNUbl1vACGlxU0KuqhFugc2Hywnd:kmbwCgTyNUblmz7AuqhFugcyhnd`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

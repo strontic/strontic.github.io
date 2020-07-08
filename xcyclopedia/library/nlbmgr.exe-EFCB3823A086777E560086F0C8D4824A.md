@@ -6,7 +6,6 @@ title: nlbmgr.exe | Network Load Balancing management client
 
 * File Path: `C:\Windows\system32\nlbmgr.exe`
 * Description: Network Load Balancing management client
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B87F4B0E6823906EFD355CCCF95E57DBB89B1841A3BAE1EBDBDF18B4716AD3C4`
 SHA384 | `75426260436729DEA5155D2AC92E030E4A5E6E9EABC6120D0C6AE037375D42E4EBBB06A73B7A9AF3504B8FF0414AD069`
 SHA512 | `DD3A919B68E06282D431931FE9A2F23DDD903F6C966CBA774A0DBCA0A01D17E59BE7221BBF0A7DB7AABCA0C8F11050DCB9D05448C290AD1680589D8068E0F91F`
 SSDEEP | `6144:xYhLX8A43oVJDuTCkGNMwt6Jeu1xWk/2yL5Cj0H/i59KfHPf:xOz8A43Iu8WwAJD1YYL5CK//`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
 
 * File Path: `C:\Windows\SysWOW64\WSManHTTPConfig.exe`
 * Description: WSMan HTTP Configuration File
-* Comments: 
 
 ## Hashes
 
@@ -21,20 +20,12 @@ SSDEEP | `768:sjMBy4bVzm+6ZP1oZFFHCZr9pfhrG2JbBwl:OMBy4p7ZFW7hrhbB`
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 WSMan Generic Command ERROR: Unknown switch: -help
 WSMan Generic Command ERROR: Error in parsing input
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

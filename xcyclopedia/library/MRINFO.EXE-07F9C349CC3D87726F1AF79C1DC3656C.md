@@ -6,7 +6,6 @@ title: MRINFO.EXE | Multicast Information
 
 * File Path: `C:\WINDOWS\SysWOW64\MRINFO.EXE`
 * Description: Multicast Information
-* Comments: 
 
 ## Hashes
 
@@ -35,11 +34,6 @@ Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
  -?           Print Usage
  destination  Address or name of destination
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

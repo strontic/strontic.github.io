@@ -6,7 +6,6 @@ title: setspn.exe | Query or reset the computer's SPN attribute
 
 * File Path: `C:\Windows\SysWOW64\setspn.exe`
 * Description: Query or reset the computer's SPN attribute
-* Comments: 
 
 ## Hashes
 
@@ -99,9 +98,6 @@ FindDomainForAccount: Call to DsGetDcNameWithAccountW failed with return value 0
 Could not find account help
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

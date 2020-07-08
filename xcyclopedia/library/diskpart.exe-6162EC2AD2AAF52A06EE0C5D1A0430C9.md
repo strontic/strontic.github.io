@@ -6,7 +6,6 @@ title: diskpart.exe | DiskPart
 
 * File Path: `C:\Windows\system32\diskpart.exe`
 * Description: DiskPart
-* Comments: 
 
 ## Hashes
 
@@ -36,14 +35,6 @@ Microsoft DiskPart syntax:
 	/?          - Show this help screen.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

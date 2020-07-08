@@ -6,7 +6,6 @@ title: w32tm.exe | Windows Time Service Diagnostic Tool
 
 * File Path: `C:\Windows\system32\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
-* Comments: 
 
 ## Hashes
 
@@ -152,14 +151,6 @@ w32tm /debug {/disable | {/enable /file:<name> /size:<bytes> /entries:<value>
   truncate: truncate the file if it exists.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

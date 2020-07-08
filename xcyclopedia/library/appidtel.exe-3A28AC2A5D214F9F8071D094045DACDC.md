@@ -6,7 +6,6 @@ title: appidtel.exe | Initializes Appid ManagedInstaller and Smartscreen Telemet
 
 * File Path: `C:\Windows\system32\appidtel.exe`
 * Description: Initializes Appid ManagedInstaller and Smartscreen Telemetry
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C8F93FFEE5E0E267E1D2225EF73D6B6B938CC7E6A0907645CF955EBE6163EDC8`
 SHA384 | `2BF2BDBC7D9D8A590E1F648E6EF3D8DD5060429D85909622519D9E3BAB5DC358E64A08F6D81EC77483C632DB2ED55196`
 SHA512 | `B8BBEDBAE100ABA4C05ABEDF3EC83C3B637A736434039508B5B4001ACD9D6B47D7A9C5A3C9D80F16C32728763197B67194944826A238385703CB18499443EC5C`
 SSDEEP | `384:qnWST+GxWkh9zKf77M3I5TaC1oAD7v/F4TzIpncul2R5FSWrMF1u3+4KQTge0Ws1:AT+qv8779513v/Gzml05Fo3L4bq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

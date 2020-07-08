@@ -6,7 +6,6 @@ title: setx.exe | Setx - Sets environment variables
 
 * File Path: `C:\WINDOWS\system32\setx.exe`
 * Description: Setx - Sets environment variables
-* Comments: 
 
 ## Hashes
 
@@ -140,9 +139,6 @@ ERROR: Invalid syntax.
 Type "SETX /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

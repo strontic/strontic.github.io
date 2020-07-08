@@ -6,7 +6,6 @@ title: SystemPropertiesAdvanced.exe | Advanced System Settings
 
 * File Path: `C:\windows\system32\SystemPropertiesAdvanced.exe`
 * Description: Advanced System Settings
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8D7826605D9C8428EFE3FC374C32C6DACE4A574462192F4A8DD187C6916D31C0`
 SHA384 | `47C01B196FE268F44C7E9C72A0CD5E5C8384664BC4C8ADAFD345AEE72547CC677E8B5CACD5D46F8CF78EE51EA0FB18D0`
 SHA512 | `6549837F9A6B4826B8804DAC78623B3B7FAD39B4991F3E70677E84152A911D12631A821133EA78ED317867CDE510FAA47B689ECD2A83632C88112A06024C94A0`
 SSDEEP | `1536:CjEN6hZktREC/rMcgEPJV+G57ThjEC0kzJP+V5Jt:CIN6DkzECTMpuDhjRVJGX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

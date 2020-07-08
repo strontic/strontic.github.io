@@ -6,7 +6,6 @@ title: ntprint.exe | Printer driver software installation
 
 * File Path: `C:\Windows\system32\ntprint.exe`
 * Description: Printer driver software installation
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `430EDEF77FCEBEEDDC33BD48F51391AD48685B82762712E996532B2FC9B68B4B`
 SHA384 | `050727871A69C98F2C3DA0E190CA0F3F36D610FA293974D13EEED0BC4AB538925CDABBFF2EA180380A5AB9DAC4BD9BC4`
 SHA512 | `F16CFF1F3C4BD8718F4D9DD760B97324B8EDF3C080C4FE5D554D63D6DC74ADAF4C8420F8F2B1DF55BBA68BBC44A146ABBB768AB4874AE350B1B7BD6A5DF633C5`
 SSDEEP | `768:3ISFkCmIz95vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnU:4+hpxVIPd4n+lbeRZIbSQPPA7R`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

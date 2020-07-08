@@ -6,7 +6,6 @@ title: rstrui.exe | Microsoft Windows System Restore
 
 * File Path: `C:\Windows\system32\rstrui.exe`
 * Description: Microsoft Windows System Restore
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1726F953B518D611979730EFA87F63D324E20138B3A846468E35B9E67DA2F5D6`
 SHA384 | `4604EF8D747CAF94B38D9D54F31CFF84B4AC70795C46D724FD747C1448F1642F70D5F5E6933D673685340313B872A9F5`
 SHA512 | `2B074CABF5506D37484056C1BDF8CD005682CAFAE3FB4E614D2B2D69F7D34EF3B217575E052F6F0D6A46EE26F5DDA1F49BA003F844F9DD7941A9B0C505A2C0F8`
 SSDEEP | `6144:zBXgbF45I9ng85AiaKRnWJjbangH2+UvQ/KpmOq:zBXuGOg857H+bKjvQ/Kp`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

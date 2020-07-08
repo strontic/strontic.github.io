@@ -6,7 +6,6 @@ title: dllhost.exe | COM Surrogate
 
 * File Path: `C:\WINDOWS\SysWOW64\dllhost.exe`
 * Description: COM Surrogate
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `4B878483EB200C8731F95096EEF036F285BD36AB916FE550DD484B872E60D037`
 SHA384 | `6E9BC7DC5C3C9FFBC3F81144668399BD60E4C28D127B5CB8679513CB04F7AAED79ADBE48183987ABDEC9D0FEB5E20056`
 SHA512 | `934A1D0CE45FB6EDBF0FF25325CBA44A8A99202FAF3B5B1024DECF41E46DE0F3C6FDFBF300CAB1E2FDFD592A6EABFE786FA7E9602C308C6E71A6C26F8403D034`
 SSDEEP | `384:TnrG6z40eYJnRB/cCWx5WzbnmXjDBRJPraLbBlwA4BN:nR5eYRRB/cF6bmXj1P0b4`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -85,6 +69,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_adsi_cache_usage.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_susp_adsi_cache_usage.yml) | `            - 'C:\windows\system32\dllhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_cmstp_com_object_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cmstp_com_object_access.yml) | `        ParentCommandLine\|contains: '\DllHost.exe '` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `            - '*\dllhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) |       $s7 = "dllhost.dat" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

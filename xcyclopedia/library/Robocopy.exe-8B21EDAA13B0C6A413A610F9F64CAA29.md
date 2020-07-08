@@ -6,7 +6,6 @@ title: Robocopy.exe | Microsoft Robocopy
 
 * File Path: `C:\Windows\SysWOW64\Robocopy.exe`
 * Description: Microsoft Robocopy
-* Comments: 
 
 ## Hashes
 
@@ -217,14 +216,6 @@ SSDEEP | `3072:KvpGEuRH3T+yMmVFKIVDU0SA7E9uhzFFWMYFqjx6pkpGCs9nvIp:8p7uFKyMmrA9u
        Low free space mode is incompatible with /MT, /EFSRAW, /B, and /ZB.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

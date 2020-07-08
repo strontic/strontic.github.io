@@ -6,7 +6,6 @@ title: licensingdiag.exe | Licensing Diagnostic Tool
 
 * File Path: `C:\windows\system32\licensingdiag.exe`
 * Description: Licensing Diagnostic Tool
-* Comments: 
 
 ## Screenshot
 
@@ -22,18 +21,6 @@ SHA256 | `AD50D6F3F21A34D2FE251D5C3CC0E0F42170E2C70E45B7712BDBDA0543B8BBF8`
 SHA384 | `C1195C22E782E1E85516A3CA3AB0DFAE725BD87F5A6AABAC617644984AEFB1C7E9DE4BC3EB154CBB47027F365028F483`
 SHA512 | `42AAE30E2A08450770D7045CA10B14ADB6613CFF7604A7521D049C93E0F642B14FE0AF46070A60CD5AEEDFCC35E8BB19034E1553FD90A44B08D4AD6765BC9346`
 SSDEEP | `6144:YVtC3MmyBfL0HlMfMezbQOS3mJUd/Wo+1ghgFxS:aQmfL06bzbQN3gUwophgFxS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 conhost.exe

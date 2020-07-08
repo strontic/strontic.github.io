@@ -6,7 +6,6 @@ title: qprocess.exe | Query Process Utility
 
 * File Path: `C:\windows\system32\qprocess.exe`
 * Description: Query Process Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8C6E84197282F283347D8426E695BBDCFCD24E29EB49B077783F666891A1431D`
 SHA384 | `CE6F81D46229F7E832B2504D7CC2A584100268514E051672D6925300173F9AF23A60A73917F2EB85D5BB57FEEA39FBFC`
 SHA512 | `D7C73498CA513C848BA140629FA676FE1C511B541EBC7775C1A87EB04D0FF12717AA8404F2B76D86D68A75854132AC5A4D1B8F175F321759F6B436D1A9ECF94A`
 SSDEEP | `384:O/Xk76DdPJ3Ukq7Cae5TddQrYpwDgZVwid7cTraEP55Ks63VkgszNhodGbASbGia:zmdPhdZ15dKU2DEQ/oz3VkpfyG0yrBF`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -60,6 +44,7 @@ SSDEEP | `384:O/Xk76DdPJ3Ukq7Cae5TddQrYpwDgZVwid7cTraEP55Ks63VkgszNhodGbASbGia:z
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_commands_recon_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_commands_recon_activity.yml) | `            - qprocess` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_suspicious_strings.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_suspicious_strings.yar) |       $ = "qprocess" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

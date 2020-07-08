@@ -6,7 +6,6 @@ title: AppVShNotify.exe | Microsoft Application Virtualization Client Shell Noti
 
 * File Path: `C:\Windows\system32\AppVShNotify.exe`
 * Description: Microsoft Application Virtualization Client Shell Notifier
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `E08ED858EFCC15393FB0C84ADAEEDA6A97A334C2A9EB6D45C6202953C3DAF171`
 SHA384 | `EF214AE9D3B31A1750AFB1227F4E25FDC360BBE4D5A8989CCCBEA6DB8E1FD8A4D90B8EDB5697C3B2476AA5E079844884`
 SHA512 | `B5FC30FA293F20CFA2CBDD1F401F2A9D406DA889BFF2A4DC7D56DD14F7C423BA8B207E8D0D13165C2DCE602A9D790F671CEC9981EA4F54EC6EA684698996D216`
 SSDEEP | `3072:M8Ngvq78iajNsFhehRsPi5o57WGNU6ITLTe33mKXDsH+w:M8Ngvq7XQYshRui5MWGNU6ITLTmWKTs1`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

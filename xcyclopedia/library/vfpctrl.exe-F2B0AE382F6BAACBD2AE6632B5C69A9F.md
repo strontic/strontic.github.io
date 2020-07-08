@@ -6,7 +6,6 @@ title: vfpctrl.exe | vfpctrl.exe
 
 * File Path: `C:\Windows\system32\vfpctrl.exe`
 * Description: vfpctrl.exe
-* Comments: 
 
 ## Hashes
 
@@ -575,14 +574,6 @@ VFP control and diagnostics utility
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

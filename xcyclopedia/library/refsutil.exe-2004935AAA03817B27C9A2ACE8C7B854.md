@@ -6,7 +6,6 @@ title: refsutil.exe | refsutil.exe
 
 * File Path: `C:\Windows\system32\refsutil.exe`
 * Description: refsutil.exe
-* Comments: 
 
 ## Hashes
 
@@ -30,14 +29,6 @@ salvage   Salvage operations for corrupt volume
 triage    Handle corruptions
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

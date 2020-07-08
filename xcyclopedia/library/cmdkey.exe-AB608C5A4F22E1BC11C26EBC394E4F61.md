@@ -6,7 +6,6 @@ title: cmdkey.exe | Credential Manager Command Line Utility
 
 * File Path: `C:\windows\SysWOW64\cmdkey.exe`
 * Description: Credential Manager Command Line Utility
-* Comments: 
 
 ## Hashes
 
@@ -53,14 +52,6 @@ Examples:
      
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

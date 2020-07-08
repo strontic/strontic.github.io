@@ -6,7 +6,6 @@ title: TCPSVCS.EXE | TCP/IP Services Application
 
 * File Path: `C:\windows\SysWOW64\TCPSVCS.EXE`
 * Description: TCP/IP Services Application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `B2268460262B8587C8ACD530A5EDD7FB5D13CF41640D8BCF02A2EA213882FAB4`
 SHA384 | `B8070597F6926BFEC5206B1E2F1EF3B7FFF865A6F3B1C230145A946492F438C170B6C1A24A335B22AD33F9EA95540E65`
 SHA512 | `114D097595E3302B00698B8429F2758BDCBFC7F5DEB540C1C3A3134A89AAF8CCFC4C6AF8D19793E4ABC8B2459BC46C219110164FE2B3EA425BD8FAB61EFBED9D`
 SSDEEP | `192:EF0o+tFS+H3I3Ou4vt2bvCpeXL6//1PKcW5/Wh:EF0oe4+XaR412DCM6//QcW5/Wh`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `192:EF0o+tFS+H3I3Ou4vt2bvCpeXL6//1PKcW5/Wh:EF0oe4+XaR412DCM6//QcW5/Wh`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `TCPSVCS.EXE` being misused. While `TCPSVCS.EXE` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) |       $s2 = "tcpsvcs.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

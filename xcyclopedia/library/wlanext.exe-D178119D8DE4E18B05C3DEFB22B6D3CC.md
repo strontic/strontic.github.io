@@ -6,7 +6,6 @@ title: wlanext.exe | Windows Wireless LAN 802.11 Extensibility Framework
 
 * File Path: `C:\Windows\system32\wlanext.exe`
 * Description: Windows Wireless LAN 802.11 Extensibility Framework
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8456099DEB994F309FDE890E4F0E571A0A67F9B7DD079516905175CD1500FA52`
 SHA384 | `89748309A3C9179084972E211638F875820D609D9FA5272370E6FFA937376211EE6685001F73F03161EC6480D374EBC1`
 SHA512 | `EA97A93C3B6E9ADA6ACEB6DBA358C9E4A6EE4EDF1228942378C8879ECA8A60A6B85112D11E0DB387999729203707A0D4292CC80697CBB8CF42B4BE2202762E44`
 SSDEEP | `1536:Q9XHUkfBwkQ1meRIZN1Y8t93q91YI/JIq7cNn5LfDb5s:QR1fOkby8tyL/JZsnJu`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

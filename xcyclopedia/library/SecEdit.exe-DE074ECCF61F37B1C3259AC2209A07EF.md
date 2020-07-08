@@ -6,7 +6,6 @@ title: SecEdit.exe | Windows Security Configuration Editor Command Tool
 
 * File Path: `C:\windows\system32\SecEdit.exe`
 * Description: Windows Security Configuration Editor Command Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D24642E2194D6F09B886990EAFA0A40803EE53EA3F9D142435B5214291DBA062`
 SHA384 | `B4D1D1A52A7D2A6A64E106158CB4A7540BBCC54AB229FB2168963CD06723D16096B79A6A87A3A38CF48E137F09E5359B`
 SHA512 | `E185F6F54E5D83D682E4F91189BF491EFD980DBCF5DD6679ECF7D61DC5FE54506ABAB1947A9666A13CBED54C0F026F6646112968449966E86425405536005EF0`
 SSDEEP | `768:OaHJU1+UAoZ+xuHToXN33Qx+wBqI1bRvwJsJqT7/pXk:kqoZcuYAx+kqIpRvwJf`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

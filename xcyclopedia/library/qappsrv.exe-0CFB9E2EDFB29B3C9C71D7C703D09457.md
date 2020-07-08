@@ -6,7 +6,6 @@ title: qappsrv.exe | Query Remote Desktop Session Host Server Utility
 
 * File Path: `C:\windows\system32\qappsrv.exe`
 * Description: Query Remote Desktop Session Host Server Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C7B819B38A086C2B50E4F2AC3BA2CC7248B0993A23DCE275E4A090EF6075C8C5`
 SHA384 | `9005E54E21CB26B714C1251104B9E913D0CA47A8282CAD03E9A85F74181E1AA68FF75A7060BD2DE39C8FF729BB15AB6D`
 SHA512 | `6653BD95828D3F86833E4B9E447162C4A1C94F241E85A1708FCB611527F7243349182602635FACC9F6D14A75149A9CA4A74077CAFB1F43B75AB07F7E7EE7CC5D`
 SSDEEP | `384:HmOJ1AjKsOMMcYdj/re7MOLj8ZEa55H1hM+Wr5GS4j+OheSo90TeOv1WeaW:T1AXP76j/yF8Hre+kH4eOv7`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

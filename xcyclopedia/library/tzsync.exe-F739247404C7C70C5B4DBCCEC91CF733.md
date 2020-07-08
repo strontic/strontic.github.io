@@ -6,7 +6,6 @@ title: tzsync.exe | TimeZone Sync Task
 
 * File Path: `C:\WINDOWS\system32\tzsync.exe`
 * Description: TimeZone Sync Task
-* Comments: 
 
 ## Hashes
 
@@ -21,11 +20,6 @@ SSDEEP | `768:gMO5WXdGYTNKWJDGYyXb0cDrQoNWt7G/XQYyKC7MGMEf9jZpAXDRXWfjP6:bGKNl9G
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 
@@ -36,9 +30,6 @@ Unhandled Exception: System.Security.SecurityException: Requested registry acces
    at TimeZoneSyncTask.Program.Main(String[] args)
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

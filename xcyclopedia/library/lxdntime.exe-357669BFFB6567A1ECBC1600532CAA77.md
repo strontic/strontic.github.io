@@ -6,7 +6,6 @@ title: lxdntime.exe | Lexmark Connect Time Executable
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\x64\lxdntime.exe`
 * Description: Lexmark Connect Time Executable
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D9FBE59C8A5D9ECAA4EA076EA12080553CB95BE145371379C12CAEDD5164F62D`
 SHA384 | `33FF41AC6EE38BA47BC7863A68EFFCEB179D216EA2492671D0513FD0845F38C368EF3B4A8509918B12D1F7B3380D6CFD`
 SHA512 | `C862715D0590E2C08328CEC570D99F35B6B310185519C0E3A4E6C21DD280DE12AD40ABA96B896AE89DCAF265927215D78F38181887858FB30F84E05FC07B412D`
 SSDEEP | `96:l6Gj8ppZV2Es8fuFaEjQeOrF+G/mjCFTk/6aSA0HyDIfcWcRIdrRByq+kTe/L:hj8pPVk8uLQeOzS4T39GAcWcRqRByCwL`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: aitagent.exe | Application Impact Telemetry Agent
 
 * File Path: `C:\windows\system32\aitagent.exe`
 * Description: Application Impact Telemetry Agent
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `814CC5D5BDA54437AF2BE28BD4DC6FBF15E2779994295ED6433EEE9E3C27AF70`
 SHA384 | `EB26C28D263AC9B12A3403A2C52D24FF6AF004F03CC0C76C97F5B146686772EE09BA29124D4EF5DA5F28C9D13F59E03E`
 SHA512 | `EC91357A79DB681BFD9BCF6AC98BEEE14702A64703518DE8F2E55EFFCF4981ADBC277161846058F80345058F8838AE490CE46BB633BAED6F720269A744A5FA33`
 SSDEEP | `3072:caFUeChEt4MQCUs15HjnXEqX2QQp5hhZ4GX1+4zt+sNl/E:caFUeGEt4xCUkjXEqX2QO99jN+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

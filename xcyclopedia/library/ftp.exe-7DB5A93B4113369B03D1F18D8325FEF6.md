@@ -6,7 +6,6 @@ title: ftp.exe | File Transfer Program
 
 * File Path: `C:\Windows\system32\ftp.exe`
 * Description: File Transfer Program
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `BB35CD7B526B0E819E8C83CF84769F2DD1EBF0C62094D4756881612B22892B3F964489
 SSDEEP | `1536:PDri+Kto7tsFr0VHYHtenn8hhuMhMMXi:PyEOFwhYHteOdS`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile

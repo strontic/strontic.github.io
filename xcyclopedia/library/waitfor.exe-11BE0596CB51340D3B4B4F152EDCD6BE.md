@@ -6,7 +6,6 @@ title: waitfor.exe | waitfor - wait/send a signal over a network
 
 * File Path: `C:\windows\SysWOW64\waitfor.exe`
 * Description: waitfor - wait/send a signal over a network
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `09CC91B6997D3C2432AA73D0D021856B8603304DAE9B315E10289CCF941B5A21`
 SHA384 | `745EF128123876C79328B9625658B557966B5F1EF35837EB9182C8A5D655BCC4AF97284B8C1202A5BE95EB6F473B4A1D`
 SHA512 | `C93BE466B5D79CEF12C202FE8D500D3C33E2AA24F9060375AC78921B0E15B29E4595C5788E0EB18669F841D381413F4BF2EC2E1F289ADD8B9A9A2D7E6111F9C4`
 SSDEEP | `768:PHa2di85dRs/bFz9fBItNbXXkBL/+kdy1xYxOLfrH1K:PHa2diodRs/Rz9ZIj0NGkdSxYxAf71`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -61,6 +45,7 @@ Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*waitfor*/s*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `            - '*waitfor*/si persist*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) |       $x2 = "wss.Run \"powershell.exe \" & Chr(34) & \"& {waitfor haha /T 2}\" & Chr(34), 0" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

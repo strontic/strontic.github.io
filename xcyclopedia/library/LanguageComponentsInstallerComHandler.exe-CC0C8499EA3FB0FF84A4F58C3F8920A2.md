@@ -6,7 +6,6 @@ title: LanguageComponentsInstallerComHandler.exe | LanguageComponentsInstaller C
 
 * File Path: `C:\Windows\system32\LanguageComponentsInstallerComHandler.exe`
 * Description: LanguageComponentsInstaller COM Handler
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `EC47F7C125C7412B2C0D3F8C776EC281FAEBCF82DDE7A98D25602CD1864E44B7`
 SHA384 | `7841EDCEF9E98CA65467EF2BA0C23C70279E5B8B9489E98388CF6799802B1CC0D2B75EDCE09FCEFE0A406A5EDDEC0BF7`
 SHA512 | `3580EAEDFC3EA83AD93E96F7AFC3152AE85E58D89BBA522E11AC77EC31F6DC34AAF4EE19AE743D2E85A0FF85EA6EEE010E814400E2B92FB9EBC269136F440005`
 SSDEEP | `1536:v7kVOPRMzTIP01zyWuYZp/ytbWiw+Y3N2HKtaM2:jk8GoP01mol+HKQM2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

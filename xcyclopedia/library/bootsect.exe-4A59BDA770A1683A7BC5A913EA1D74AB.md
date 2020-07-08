@@ -6,7 +6,6 @@ title: bootsect.exe | Boot Sector Manipulation Tool
 
 * File Path: `C:\Windows\system32\bootsect.exe`
 * Description: Boot Sector Manipulation Tool
-* Comments: 
 
 ## Hashes
 
@@ -91,14 +90,6 @@ labeled E:, use the following command:
 bootsect /nt52 E:
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: wsmprovhost.exe | Host process for WinRM plug-ins
 
 * File Path: `C:\Windows\SysWOW64\wsmprovhost.exe`
 * Description: Host process for WinRM plug-ins
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `86965D84501F9C09AFE9A74963E8A0AB45B5033936F6C30D3CEEC32A4AB6F2BE`
 SHA384 | `EB0453BEE3E0025E964B5A3CFE5C7752AF9BC74A2DE3B8E9D39F163456739075E4A3CE79AEC9204E92D38AC2DC46229A`
 SHA512 | `AC812C3214EA5616DE8D7C74D2A5915EDF4E2353CC929D8B70FF0C8E3C30A0EC6D914D583497F34C5572E3B2A09A21870414DAD7C5E91925BE0E855F6D35BCA1`
 SSDEEP | `768:yFCKVJxp8aWrk/gl6gzuVv+3HJhrJQL5dFSm1ZqnJUi/G:yYYjW/rk4RN3kv6nJUi/G`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

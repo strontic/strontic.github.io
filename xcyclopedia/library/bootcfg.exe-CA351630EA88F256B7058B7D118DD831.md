@@ -6,7 +6,6 @@ title: bootcfg.exe | BootCfg - Lists or changes the boot settings.
 
 * File Path: `C:\windows\SysWOW64\bootcfg.exe`
 * Description: BootCfg - Lists or changes the boot settings.
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `33D7B0893AD2A7565ED27A360E233405D3D41186E276264FE29E0577FC17720D`
 SHA384 | `78E092BFA1E78D24099E9FACD6FA774BCC983E94ABE07FBA47BE940C46185C9A70F4D302BB17C7C36C5D7731A0F39248`
 SHA512 | `C963A1313CCA0F25F097419F4A3040BD9D1285EECC4D15F74B44FC8C700E91C277CE9B9688325DAA5E19EAA585FB5E908EF08AB720D7E78D0E15C88ADC5E59E9`
 SSDEEP | `1536:7BY7WndfOntMv0nCXZtcEIzzdYmmT91G7V7EUzJKm39lwzBSrxdCRPK:EWnontMgKZtLEzdYmmTG7NnEm39qzBI6`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

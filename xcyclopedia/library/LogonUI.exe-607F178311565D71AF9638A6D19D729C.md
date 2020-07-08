@@ -6,7 +6,6 @@ title: LogonUI.exe | Windows Logon User Interface Host
 
 * File Path: `C:\windows\system32\LogonUI.exe`
 * Description: Windows Logon User Interface Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `997C0E69C490770815DD64189AD2F59F8309AD266981BFC5D70A728DD174D19C`
 SHA384 | `0AB044962DD74A603135DC7B3E5DE4042CC5368691C473E2FF68D3228EDC5EEE667BB57060899C0E285819274603DC03`
 SHA512 | `1537488E962119E600E97A5E78A54701546D4B9F66EF2CBFE9C8D9537092F51EBB0A954B487AF9CEDC0801E6CC405DB90E4D49436FA0311ED75588FCED094617`
 SSDEEP | `192:Y4Q5QD3rAMw3PDtu+WalQp0nunmbpEQrpQDoeKY0U1XlGWmUW:7YQD3rAMdGlFAgSSpuoehgWmUW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `192:Y4Q5QD3rAMw3PDtu+WalQp0nunmbpEQrpQDoeKY0U1XlGWmUW:7YQD3rAMdGlFAgSS
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `LogonUI.exe` being misused. While `LogonUI.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | 		$s2 = "LogonUI.exe" fullword wide /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

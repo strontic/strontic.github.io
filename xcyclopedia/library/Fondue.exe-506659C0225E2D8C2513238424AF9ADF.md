@@ -6,7 +6,6 @@ title: Fondue.exe | Windows Features on Demand UX
 
 * File Path: `C:\windows\system32\Fondue.exe`
 * Description: Windows Features on Demand UX
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `A7DD9378D44CE86FFEBC0292F59EF096595043E6114011A0CFD9295F0A6CF7A2`
 SHA384 | `85205BAD74DFEFBD57C099B84A902C6B7BAB164A5E7290762C2C9C4CED672F107D873F4A24A4CA27978CB07213F144AB`
 SHA512 | `90E58AC7B807FAB6C59047B935A46557AC0EB53F19FF1BCD0C6405742F6F1B4B0B14FB0AE9C7966B5C71E126D2D385DB6CDD3DF27F44D2A4D41D1E3AC4D0833D`
 SSDEEP | `3072:XxbEaznWfH22ZsuX2xKwMPTnaSrIrvDb:dznWjZnXeKwMLnaqY`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

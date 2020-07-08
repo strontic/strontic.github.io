@@ -6,7 +6,6 @@ title: syskey.exe | SAM Lock Tool
 
 * File Path: `C:\windows\SysWOW64\syskey.exe`
 * Description: SAM Lock Tool
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `ED1F857082E575E1D2426ADB2416DE6172BC993174DCC95801FC3516C451D96D`
 SHA384 | `69E69FC5F0FB4B8D79F88DF4258AABC2F5854AB1661D72794B9BE81CF16062412232AC9B0E3A8A8DCB8ECEE969C40785`
 SHA512 | `E02853A09F38B705ECAD0CF330476E1D3F1F9DA62C7E1924D1C61C3FABB7164C4D774F23BA9F13F333EC1DE43722D8D9BB18C0B406BB7627BE704B76C252955C`
 SSDEEP | `384:OiRkpseHdT7BHMI/W/PKjlXfoEXmq4O3q5X1GwU1KC1Q1XWTxWx:rS2+IgWE2qfq5X1GwI`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -72,6 +56,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [godmode_sigma_rule.yml](https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml) | `            - 'reg SAVE HKLM\SAM'  # save registry SAM - syskey extraction` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_syskey_registry_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml) | `title: SysKey Registry Keys Access` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_syskey_registry_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml) | `description: Detects handle requests and access operations to specific registry keys to calculate the SysKey` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [yara_mixed_ext_vars.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/yara_mixed_ext_vars.yar) |       description      = "LSA dump programe (bootkey/syskey) - pwdump and others" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

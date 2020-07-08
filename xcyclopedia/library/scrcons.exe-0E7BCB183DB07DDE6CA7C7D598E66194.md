@@ -6,7 +6,6 @@ title: scrcons.exe | WMI Standard Event Consumer - scripting
 
 * File Path: `C:\Windows\system32\wbem\scrcons.exe`
 * Description: WMI Standard Event Consumer - scripting
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `768:9kE3fnX1q73OXNdvKCKIu/6F7EMwrY/I3Pf11c93IQ+n7nQ4JIxzI/GPWT+2J:iIX0
 Cannot run standalone
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

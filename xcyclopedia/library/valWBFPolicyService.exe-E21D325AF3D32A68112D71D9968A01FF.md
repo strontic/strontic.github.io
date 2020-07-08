@@ -19,21 +19,6 @@ SHA384 | `0E088720FF1985CCD5A61882824F3590CF1F52C27839B098AC3A2550DB4D3FFB000703
 SHA512 | `C7F94D9F5BFC672DFE8CA8B4DF2040E8A7598F024DDD217005A6F26677977F69C69E15D752DCE3BCF387A610EE2039F09D013714DD840899AB18C7697D71FE6B`
 SSDEEP | `384:tbq9QJuBcxYrQho2MN4YkZ5libhN1TfyfKn1pxO:twUYcmMhunkZ5li9TfF70`
 
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
-
 ## Signature
 
 * Status: The file C:\WINDOWS\system32\valWBFPolicyService.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

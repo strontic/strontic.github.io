@@ -6,7 +6,6 @@ title: reset.exe | Remote Desktop Services Reset Utility
 
 * File Path: `C:\windows\system32\reset.exe`
 * Description: Remote Desktop Services Reset Utility
-* Comments: 
 
 ## Hashes
 
@@ -33,9 +32,6 @@ Invalid parameter(s)
 RESET { SESSION }
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

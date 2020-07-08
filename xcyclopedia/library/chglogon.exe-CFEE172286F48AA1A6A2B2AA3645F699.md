@@ -6,7 +6,6 @@ title: chglogon.exe | Change Logon Utility
 
 * File Path: `C:\windows\SysWOW64\chglogon.exe`
 * Description: Change Logon Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `005FC9B063EF1A237DC344B75916A6BCB0B47152A2C7619BA81DB0EA9A82C91A14AF68
 SSDEEP | `384:s4pwPylhbRXSQJxDbLafHRzd2oc6W9EWp:npZxzar2Pxv`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -40,9 +34,6 @@ CHANGE LOGON {/QUERY | /ENABLE | /DISABLE | /DRAIN | /DRAINUNTILRESTART}
   /DRAINUNTILRESTART    Disable new user logons until the server is restarted, but allow reconnections to existing sessions.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: syskey.exe | SAM Lock Tool
 
 * File Path: `C:\Windows\system32\syskey.exe`
 * Description: SAM Lock Tool
-* Comments: 
 
 ## Screenshot
 
@@ -23,21 +22,6 @@ SHA256 | `C33F6532E98DD6FBFF3F30B80982D2B6B97D8A78AF19F50D0C8A9C114AA0C510`
 SHA384 | `E4DA7363985AC0BEB9F28F542675331D2B2CD572E3E03A3C650F219C7F7AD52708A3D79FADE918CD05C212E7C9ED22F2`
 SHA512 | `BD5F26E0BD7FBACB0E17DC7398BA170B9820CF6681C8EE20E3ADB857DEE08AC0120E2701ECEE34AEEAAC7B71D9A3A359AB6017AF289793CF7C85D801EE5860BF`
 SSDEEP | `384:D898VYh93aAjZSD59AD3Vr2+alwOUQCigL/tPGwdAvkyUrlv6mkc1KC1Q1fWaxW:D898UKA1WS12+alNCxtPbgkyUrlAl`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -72,6 +56,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [godmode_sigma_rule.yml](https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml) | `            - 'reg SAVE HKLM\SAM'  # save registry SAM - syskey extraction` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_syskey_registry_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml) | `title: SysKey Registry Keys Access` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_syskey_registry_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml) | `description: Detects handle requests and access operations to specific registry keys to calculate the SysKey` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [yara_mixed_ext_vars.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/yara_mixed_ext_vars.yar) |       description      = "LSA dump programe (bootkey/syskey) - pwdump and others" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

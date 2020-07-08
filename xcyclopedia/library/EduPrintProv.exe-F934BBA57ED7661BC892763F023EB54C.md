@@ -6,7 +6,6 @@ title: EduPrintProv.exe | Printer Provision Utility for EDU
 
 * File Path: `C:\Windows\system32\EduPrintProv.exe`
 * Description: Printer Provision Utility for EDU
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `1D3595FC64E37533FBBFC26EA27E6F66420759BD9341321435A5872ECFC13D8C`
 SHA384 | `831857BCCC57A303FE9F2C40C2E97D205E1B2CBD504125CAC30C2D4AFBD6CCC901CABD7CF8B54B0879F592214FF5B358`
 SHA512 | `CD25310DA12D7F4CC5C19F116E620B1A01F63D95BD69CA3D777AD5770723FDF70CE9B810EF35F34FA9A5F4BE2B1D266EC463AC9D99FF03FB9B1569B3F86C7859`
 SSDEEP | `1536:MfHhAeoQeNhu3qg7P8i9pKaHiQVFmLfb6RemPLmRAewRXvnXXJj/4kigzpd8Xs+0:qZS0qg7kirNOeLLmRAecnXCktliXsJ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

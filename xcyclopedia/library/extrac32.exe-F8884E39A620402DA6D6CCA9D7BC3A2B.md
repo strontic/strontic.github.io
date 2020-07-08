@@ -6,7 +6,6 @@ title: extrac32.exe | Microsoft CAB File Extract Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\extrac32.exe`
 * Description: Microsoft CAB File Extract Utility
-* Comments: 
 
 ## Hashes
 
@@ -66,14 +65,6 @@ Copyright (c) Microsoft Corporation. All rights reserved..
                 35 Files     29,114,054 bytes
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: dsacls.exe | DS Control ACLs Program
 
 * File Path: `C:\Windows\system32\dsacls.exe`
 * Description: DS Control ACLs Program
-* Comments: 
 
 ## Hashes
 
@@ -215,14 +214,6 @@ You can specify more than one user in a command.
 The command completed successfully
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: NLB-unattend.exe | Network Load Balancing Unattended Installation Utility
 
 * File Path: `C:\Windows\system32\NLB-unattend.exe`
 * Description: Network Load Balancing Unattended Installation Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A25F235C512EDBEBCB48EB95F8D6BA48A06463BFD497493D12EEC6AECD8632BE`
 SHA384 | `48636BD8EE322B607585EACC3193BA1F75925123222D39868A15757D50CE463DB5AF97BE52C464B40223630503DE6DAD`
 SHA512 | `780E838611EFBE3942E7EB74522C19D8A17EF280C43415C07FD88F23244D235982D8A04CCF808E157F21B4A993294D40B8C8DFBBE0D462E1B6CE7F4C3B8847B7`
 SSDEEP | `768:kJzqIQnYqjurW/WxZFdQJ7dWv85aNk6k3chGQxhO7K:WVqJuxv2JZx7K`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

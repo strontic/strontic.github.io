@@ -6,7 +6,6 @@ title: RpcPing.exe | RPC Ping Utility
 
 * File Path: `C:\Windows\system32\RpcPing.exe`
 * Description: RPC Ping Utility
-* Comments: 
 
 ## Hashes
 
@@ -223,14 +222,6 @@ the typical profile.
 -p - Prompt for credentials if authentication fails.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

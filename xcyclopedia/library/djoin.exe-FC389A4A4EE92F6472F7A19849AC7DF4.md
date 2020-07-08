@@ -6,7 +6,6 @@ title: djoin.exe | Unattended Setup Generic Command For Domain Join
 
 * File Path: `C:\WINDOWS\system32\djoin.exe`
 * Description: Unattended Setup Generic Command For Domain Join
-* Comments: 
 
 ## Hashes
 
@@ -71,14 +70,6 @@ djoin.exe /REQUESTODJ /LOADFILE <FilePath> /WINDOWSPATH <Path>
 The parameter is incorrect.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

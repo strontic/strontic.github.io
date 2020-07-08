@@ -6,7 +6,6 @@ title: wsl.exe | Microsoft Windows Subsystem for Linux Launcher
 
 * File Path: `C:\Windows\system32\wsl.exe`
 * Description: Microsoft Windows Subsystem for Linux Launcher
-* Comments: 
 
 ## Hashes
 
@@ -43,14 +42,6 @@ Options:
         Stop parsing arguments and pass the remainder to the Linux process.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: SpatialAudioLicenseSrv.exe | Spatial License AppService Broker
 
 * File Path: `C:\WINDOWS\system32\SpatialAudioLicenseSrv.exe`
 * Description: Spatial License AppService Broker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3BAB2BAD38553E174508C0EF3F6D385152129064CB00AA3C419E1832DFBD2861`
 SHA384 | `018160548D93DD288C8DA55421AF6F407618F49C0D86A22C5675008E1D5DF7DD793BF2B26C42F0E467058C29C75C9A72`
 SHA512 | `4275098015A687DF4EA2D466D693A6256C60992FA60E418C4D9D9D6826ACBDF4B2AC39C0A34FDAF7A22D791BD630C21A61B2660DBE34913DC2A5982089A0B3A6`
 SSDEEP | `3072:ULcHIlIFOJrycskIM2aOKH+ATh2jhkwBpr7FIchMyjmXU1sfvk3nkojLDAGpi:icHIppBIMrOTATh2jhkmCcpjmXUu7ifd`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

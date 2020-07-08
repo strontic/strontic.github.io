@@ -6,7 +6,6 @@ title: SearchFilterHost.exe | Microsoft Windows Search Filter Host
 
 * File Path: `C:\Windows\SysWOW64\SearchFilterHost.exe`
 * Description: Microsoft Windows Search Filter Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D2603E6540EB2439AD53D29DA0F243914DB6FFB67A9A92F6E360F77498129B4C`
 SHA384 | `9F3D33F62A9DEF34CEF4241E75088721CBF297B4B4E7DB1276AF5C0E83ACB6DB960C72878DD1EA7155F3BF3528C67D59`
 SHA512 | `2A707811B2CEBF69A75088C6BA0EEDEFA9C03CFF1DA916CD2BD630C922D39ED568FF5021112176AB9DC796A210EE1B64F617EC6F9CD111715EE4F9C3A347660D`
 SSDEEP | `3072:uT6+GteY7fVFBaJ6BpTuFOSSq7+uuJpnphrsHh++1ihk6kvtfGq0ev3U5WNi1knG:06FVFQSY7eJpnphrsHhMrkR10efUKi`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

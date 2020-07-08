@@ -6,7 +6,6 @@ title: net.exe | Net Command
 
 * File Path: `C:\windows\SysWOW64\net.exe`
 * Description: Net Command
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `4B487075F31CFCA0A480B2C8BE0D265655298F26E95B00F132285C784B3DA4EB`
 SHA384 | `206095D63C7E1601C4316439E0A58D315243DC68AEECF6A481AF2CB69E13E7E22286B78C13E97827E1E6257B7E78C26D`
 SHA512 | `EE3F565760683A9E3E7D3D17C924DDE84CBD3E2B5248E334EB7870584C01C8ED01BD58078D1E72E8EFFE6AF6B6E8BF73B052A8A4B9B2024639CC6226EFDF48EC`
 SSDEEP | `768:ahyJxfvuxv/5u5qiRKye/+cKCiESTC/e3YAivbrTgagbXERtUD+YY4q8:awExn5u5DII8wpEvzga2UY+YY4q`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -102,6 +86,11 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1531.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1531/T1531.md) | net.exe user #{user_account} /delete | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md) | net.exe stop #{service_name} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md) | net.exe start #{service_name} >nul 2>&1 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poseidon_group.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poseidon_group.yar) | 		$a1 = "net.exe group \"Domain Admins\" /domain" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poseidon_group.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poseidon_group.yar) | 		$a2 = "net.exe group \"Admins. do Dom" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poseidon_group.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poseidon_group.yar) | 		$a7 = "net.exe localgroup Administradores" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | 		$s2 = "No Net.exe Add User" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) |       $s4 = ":Execute net.exe user Administrator pass" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

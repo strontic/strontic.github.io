@@ -6,7 +6,6 @@ title: unregmp2.exe | Microsoft Windows Media Player Setup Utility
 
 * File Path: `C:\Windows\SysWOW64\unregmp2.exe`
 * Description: Microsoft Windows Media Player Setup Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `C9ABD0B301EC1472DC12E6D8333228AF97D9831F55D6B2DF17E4B36393580006`
 SHA384 | `23C216409CF45E616E4A0E3EB5B3796D44644B0EECDFF74D136BBD994D25A9B863A966851A5DF042F12135FE1B4BD1B5`
 SHA512 | `5626410FB82DA158A1D4C892A277AD8FBD1CD961EB4A16DC8219223A6AEA938ACA2A9E3AB5E90D87AC402E56B9C1645CF0EC15D6A1B5A9CDDBEC26767B73D05F`
 SSDEEP | `3072:TL7SqkfAgUIeesj09dHEjATm0S/DneLmXpab9UmaZ:200TC0S/Lem8bra`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

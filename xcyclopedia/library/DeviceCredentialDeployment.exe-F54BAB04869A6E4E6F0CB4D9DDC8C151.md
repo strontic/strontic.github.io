@@ -6,7 +6,6 @@ title: DeviceCredentialDeployment.exe | "DeviceCredentialDeployment.exe"
 
 * File Path: `C:\Windows\system32\DeviceCredentialDeployment.exe`
 * Description: "DeviceCredentialDeployment.exe"
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `774B570C43254D32B769489270E6ADE3F39CCEB19985675339AEE06AFAF230CD`
 SHA384 | `3FEBFB2B6B7C055D429C41B35AAFB59E8344A3376CEEB8491146B56DA1E2D0216EBC155567A5DF8A0C2C7AA21CD4F844`
 SHA512 | `F6161861EE8AB963689378E13ED45082FD3FAF6F2D8C86683D5A30F79359E81A01637780E3C0CD35E47E73849DD748F08C33BA1D723E64BAB4BB174F0F60443D`
 SSDEEP | `1536:LiYK2URh11/JU6bS3/NIQB2/21eCmRWqlGfT/AIAgg4fi2n:OxvRBb+NvB2/21e36f7AjggJ2n`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

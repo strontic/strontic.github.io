@@ -6,7 +6,6 @@ title: IESettingSync.exe | Microsoft  IE Setting Sync Background Application
 
 * File Path: `C:\Windows\system32\IESettingSync.exe`
 * Description: Microsoft  IE Setting Sync Background Application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8ED529346594977D27FA52696A2B788C0A0FA3A0E5F630CEFFF637C133DE9258`
 SHA384 | `15339FCB2AAA0F1A306511DFF654BE427FE53A749A1E48E5AB633065D3A073A15653A4E34FF164F7E0D50E25C7E725DC`
 SHA512 | `E320B97711D0CABA74528BFD746B6C707742E21EBB98E2F9D96F7D4EFC214D7209E34B9EFFE5053CB85DA9EF41057193F0F7232E251B20BE5E43D1FA0BF2FB66`
 SSDEEP | `12288:/Uoy2lnwgFgYAF3dKF1BzzjfPAhXKkvkp/:8N2ln3qY23dKF7rP+Kkvk1`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

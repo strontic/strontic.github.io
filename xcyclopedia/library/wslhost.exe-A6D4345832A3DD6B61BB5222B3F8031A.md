@@ -6,7 +6,6 @@ title: wslhost.exe | Microsoft Windows Subsystem for Linux Background Host
 
 * File Path: `C:\Windows\system32\lxss\wslhost.exe`
 * Description: Microsoft Windows Subsystem for Linux Background Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3FD90C1DD370DBD49CA69B311C2336D194EA22FDF14103278149F97ADD39DB4B`
 SHA384 | `0B8AF6DD7C98720D0BCC815B5C3658F0254F48081AAC095C3F73072E3980E7AB6DF477DE595EF1879584B9A9FE84BC04`
 SHA512 | `300A543D78AC97EEF69271D25FD6183934B02C9DC6BDED75B2ACE7FD14FA1FAF83D98A1449F2EBF363E9E3161FD0EBD2F91111B876660310B4BE67C9587028ED`
 SSDEEP | `3072:siNrwFHg6zbV2llPLg0x+3rczlHAkbRcrwmp4uMiVK1S0Bz7N9S70Z2/xpSqykP1:siag6zc+bdHpDw7N9u0Z2lH55c2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

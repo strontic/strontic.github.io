@@ -6,7 +6,6 @@ title: DfsrAdmin.exe | DFS Replication Command Line
 
 * File Path: `C:\windows\DfsrAdmin.exe`
 * Description: DFS Replication Command Line
-* Comments: 
 
 ## Hashes
 
@@ -83,9 +82,6 @@ Failed:
 The object -help is not a valid object.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: clip.exe | Clip - copies the data into clipboard
 
 * File Path: `C:\windows\SysWOW64\clip.exe`
 * Description: Clip - copies the data into clipboard
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3C677C3B2552414B11013DEAC07C80C12139F71D66064C8E0A255C92CC625E0C`
 SHA384 | `AF19772900759F221B66B73C6D0AD5167E5318BA2F47921B45D6E76E27A9003516FB9CBFEE3E56C819B2B2657921C2A5`
 SHA512 | `483EF5780B0F293522588047ECA949A5D73FF9560DB629F4EDE48DBC9C835EDFBFC99AB6B32998854E18E584FD5211A53C24E7D2E8D7A0A5C541DE171C8FC9BC`
 SSDEEP | `384:1LOP0eBg+HfPdbo9NfFaoFoO+ufarg5E37Zq/twa1STXTddgQO55WFZxoxtBs7Nu:1LOPNBDYNfFv8h37Utwa18dkCLxox07w`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

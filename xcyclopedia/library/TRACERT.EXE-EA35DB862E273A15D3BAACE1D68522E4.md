@@ -6,7 +6,6 @@ title: TRACERT.EXE | TCP/IP Traceroute Command
 
 * File Path: `C:\WINDOWS\SysWOW64\TRACERT.EXE`
 * Description: TCP/IP Traceroute Command
-* Comments: 
 
 ## Hashes
 
@@ -36,11 +35,6 @@ Options:
     -S srcaddr         Source address to use (IPv6-only).
     -4                 Force using IPv4.
     -6                 Force using IPv6.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

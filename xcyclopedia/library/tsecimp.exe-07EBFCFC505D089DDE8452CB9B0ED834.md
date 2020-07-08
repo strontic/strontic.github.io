@@ -6,7 +6,6 @@ title: tsecimp.exe | Microsoft Windows(TM) TAPI Security File Importer
 
 * File Path: `C:\windows\system32\tsecimp.exe`
 * Description: Microsoft Windows(TM) TAPI Security File Importer
-* Comments: 
 
 ## Hashes
 
@@ -37,14 +36,6 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

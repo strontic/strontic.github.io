@@ -6,7 +6,6 @@ title: dfp.exe | Disk Footprint Tool
 
 * File Path: `C:\WINDOWS\system32\dfp.exe`
 * Description: Disk Footprint Tool
-* Comments: 
 
 ## Hashes
 
@@ -73,14 +72,6 @@ Run a pre-defined study
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

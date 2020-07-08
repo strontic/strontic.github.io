@@ -6,7 +6,6 @@ title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration
 
 * File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\ConfigSecurityPolicy.exe`
 * Description: Microsoft Security Client Policy Configuration Tool
-* Comments: 
 
 ## Hashes
 
@@ -21,19 +20,11 @@ SSDEEP | `3072:Kns2yL/4Vn+mFSGaToJqOMa1LFLK2gg6cEADk74t+fXa/QwKeGiSMV+T8rguIcmX:
 
 ## Runtime Data
 
-### Usage (stdout):
-```Batchfile
-
-```
-
 ### Usage (stderr):
 ```Batchfile
 Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: bcdboot.exe | Bcdboot utility
 
 * File Path: `C:\Windows\system32\bcdboot.exe`
 * Description: Bcdboot utility
-* Comments: 
 
 ## Hashes
 
@@ -74,14 +73,6 @@ Examples: bcdboot c:\windows /l en-us
           bcdboot c:\windows /p
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

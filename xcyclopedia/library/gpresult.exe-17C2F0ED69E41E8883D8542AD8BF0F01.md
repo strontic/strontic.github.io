@@ -6,7 +6,6 @@ title: gpresult.exe | Query Group Policy RSOP Data
 
 * File Path: `C:\WINDOWS\SysWOW64\gpresult.exe`
 * Description: Query Group Policy RSOP Data
-* Comments: 
 
 ## Hashes
 
@@ -96,9 +95,6 @@ ERROR: Invalid syntax. Value expected for '/h'.
 Type "GPRESULT /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

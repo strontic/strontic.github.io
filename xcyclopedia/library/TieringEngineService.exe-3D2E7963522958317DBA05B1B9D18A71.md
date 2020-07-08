@@ -6,7 +6,6 @@ title: TieringEngineService.exe | Storage Tiers Management
 
 * File Path: `C:\windows\system32\TieringEngineService.exe`
 * Description: Storage Tiers Management
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `FD08AC764E086F40A53EFC6D531A70AA8C63E608EC52CD7696FF5020D0ABC168`
 SHA384 | `36A4F2CC7099D162252AF1CC7CDE7264CBDBCA1B439246766E1FBE44CF9377C043BFBF709B848310A4EB37E0C2B9E347`
 SHA512 | `7BBEC8942D1A82E1E24B0DF1AC2D29F0708AD6076B3D6252AB4A52CB19C6AED5B8462E778D61335526736EAC860B804493CB4BC18A5DD91B42D08520034AE861`
 SSDEEP | `6144:4gR0oo7/J54/tpOQhcHPNmZuFfwBc7RK1TqHECjI/:4ff7/JS3dhm1NFo+oYjM`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

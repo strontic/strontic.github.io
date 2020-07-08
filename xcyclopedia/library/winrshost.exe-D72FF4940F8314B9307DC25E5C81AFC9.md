@@ -6,7 +6,6 @@ title: winrshost.exe | Host Process for WinRM's Remote Shell plugin
 
 * File Path: `C:\windows\SysWOW64\winrshost.exe`
 * Description: Host Process for WinRM's Remote Shell plugin
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `BB39024C490BD804BAB068AC14CF7CBABBA1C2E7E3DFEB495D23B549955CEBD1`
 SHA384 | `A41070E9DB5D466880BBE3C8F4D4A4DEC5D42FCDAA9F89B58EB9688C18ADCA49C2149D23D374449610C7F1E7095986B2`
 SHA512 | `61EE3AE134763079C4F8C5373DE75283E9B9C5CA23D2032B3AB61FC2C98A84538BE7DC34258ACB1F9963C01391DFB08A4147CF7DA2A022BB9CBC69570508BED2`
 SSDEEP | `384:cr9KMq7bVKkfNHD4dN5rKXQVtqc+lV01cKKWsKEWwR:wdq7bVBfNj4dv/+cWq1cKzW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

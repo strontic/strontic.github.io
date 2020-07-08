@@ -6,7 +6,6 @@ title: netdom.exe | NETDOM5
 
 * File Path: `C:\Windows\system32\netdom.exe`
 * Description: NETDOM5
-* Comments: 
 
 ## Hashes
 
@@ -48,14 +47,6 @@ The command completed successfully.
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

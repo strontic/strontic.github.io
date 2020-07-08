@@ -6,7 +6,6 @@ title: msg.exe | Message Utility
 
 * File Path: `C:\windows\SysWOW64\msg.exe`
 * Description: Message Utility
-* Comments: 
 
 ## Hashes
 

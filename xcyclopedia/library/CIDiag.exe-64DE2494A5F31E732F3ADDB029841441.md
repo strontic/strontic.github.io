@@ -6,7 +6,6 @@ title: CIDiag.exe | CodeIntegrity Diagnostic Tool
 
 * File Path: `C:\Windows\system32\CIDiag.exe`
 * Description: CodeIntegrity Diagnostic Tool
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `768:ZXNZZo0h/uuk9rIyeZrc35mvI++uP9w7l03VXQdr+gT8RdU:ZdZZo0h/uuk9rIycQM
 Usage: "CIDiag.exe /start", "CIDiag.exe /stop <outputpath>", or "CIDiag.exe /stop /nologs <outputpath>"
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

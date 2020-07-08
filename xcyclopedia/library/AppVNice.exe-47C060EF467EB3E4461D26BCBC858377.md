@@ -6,7 +6,6 @@ title: AppVNice.exe | Microsoft Application Virtualization appvnice
 
 * File Path: `C:\Windows\system32\AppVNice.exe`
 * Description: Microsoft Application Virtualization appvnice
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `206226AC00F39F47F7F401EE444F8BF803607DC0FAFF4D5DB1B05F5438E84F3C`
 SHA384 | `742A9704617A70D44B6256414175174B55AE59A285BA71E57483CD42DF35EE71C02E6BF919C4C70ABBBF450D295AE94A`
 SHA512 | `11818BA92FA99DB09957F732A06032726BBBDF551CB305FA7F9C352324B12773514EAEF9FC3B9A537F1903BCD785FC0AFF00602D6B15E4F506CEB4F3BCAA6415`
 SSDEEP | `3072:Uh4kTFwXWmvV+vJa0WGNU6ITLAUIdedcl:U/beV+vXWGNU6ITLArP`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

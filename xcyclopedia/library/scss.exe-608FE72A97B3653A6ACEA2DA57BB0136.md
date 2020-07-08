@@ -6,7 +6,6 @@ title: scss.exe | Security Compliance Scanner Server
 
 * File Path: `C:\windows\system32\scss.exe`
 * Description: Security Compliance Scanner Server
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CDD26305649864B79E4FD13ED46657028A881E7AD46B3E5E78842C21C0A2F184`
 SHA384 | `752A37AD033E3A05FB132BD44DCC256998B257C0A70E37BF8132CD70A1C64C07A3CCFDB9740DC63C2D24A8D1BA7FD15A`
 SHA512 | `22EA4DFD96AEBE977D82B65E2DFE2631CFCE941FECE14F3CC3F5B3CF68E7B311EB55F6A9240D88577C9C2C4C7859C633D9281F6EFDA583D2C9709B0898FC3E60`
 SSDEEP | `384:uWT83XZuqsO+voReilo9+xDxRZk2g5oU/cHQZe40lWLFNFW:TT83puq/+valdFxI35s40u`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

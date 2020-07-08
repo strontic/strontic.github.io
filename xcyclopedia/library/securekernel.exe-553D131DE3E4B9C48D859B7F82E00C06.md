@@ -6,7 +6,6 @@ title: securekernel.exe | NT Secure Kernel
 
 * File Path: `C:\Windows\system32\securekernel.exe`
 * Description: NT Secure Kernel
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `7F85188451EE4671F4A82E296FCA5A6FC2ABDCFA99EE26A39566030AAB9F31FD`
 SHA384 | `28939CDD108AFD7F46762A998A3BE09911EB67E90452F0B6CAD97CE57AF8A4F23DD8F0924DB638E1DF08F5B30FDE9BC6`
 SHA512 | `D43DA9A3E14A21230474A1D30E7740D6FC08F3F0002CDF48092FFA978DB8761719986D77F08FF45B3715E31A97A19FBB54562F4042B8CF59F6ED98B1011EB8C8`
 SSDEEP | `12288:ppcCJL/ugIw4nyxIGDlqoWphbeIKupneONp9tnzOqyG+DDmbttttGrXfrHO8poDy:8baCpe8HtV+DDyttttWrGD+PUQ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

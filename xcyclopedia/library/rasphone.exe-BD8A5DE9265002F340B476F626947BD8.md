@@ -6,7 +6,6 @@ title: rasphone.exe | Remote Access Phonebook
 
 * File Path: `C:\windows\system32\rasphone.exe`
 * Description: Remote Access Phonebook
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `A3124A4C8AA0EE06D9C1BCE39DD9C5E1E38BBC895D14FA36B75AFE1F2FD758E3`
 SHA384 | `32DF79D273D25449C506DDFEB4EEDD1B5D1C0B129DF24D21AED2C8CF145509946A9E47532226312550F6CEC71DBF1488`
 SHA512 | `47C82457B1166EB8678F773B63DF3D1D9C480B0DC051511063F8CE065BA02AAEB4FE4183D3DBA1D69E21BE57EF01B3DC60418B51F66CE9A5EBBF339D0C05F832`
 SSDEEP | `768:pDwNtItOtllxfGxZtcDlr9jb7WsA6klONFEYkwy:poWAYZyhhWN6k9Zwy`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

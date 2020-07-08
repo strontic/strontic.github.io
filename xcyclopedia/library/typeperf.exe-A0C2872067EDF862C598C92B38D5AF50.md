@@ -6,7 +6,6 @@ title: typeperf.exe | Command line performance monitor
 
 * File Path: `C:\windows\system32\typeperf.exe`
 * Description: Command line performance monitor
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `8959C4F253F33BB139F788350D0E6D0035455AB9A56BFAC9F3070E66F25AC10E`
 SHA384 | `3DBC2DB17E49C42E794F4B93655DFDE2BBE3BBB8029F05D344D152CDC3EA073C8A93B839F12D745143E3978D4C71B3A1`
 SHA512 | `28FF970B07873D0A52ED4D7F3C33C3A2460C6855ACAA9A0013F9F61E0BD8DBE071F3672FE9249BB978CDFC54D55254EF87F8A929F5EB969CBB756CA485AC639C`
 SSDEEP | `768:g7+DHZNemz6fOwooB7Mtzv6rK06zWVl/wNpyig1u8yB9139+5tU+vssZoacnxbI:gWFHw7bWkVl/k+QRN+5pqacn5I`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

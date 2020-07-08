@@ -6,7 +6,6 @@ title: unsecapp.exe | Sink to receive asynchronous callbacks for WMI client appl
 
 * File Path: `C:\Windows\system32\wbem\unsecapp.exe`
 * Description: Sink to receive asynchronous callbacks for WMI client application
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `1536:FzAje3eVm2whnlaErDGa32TklXtK6bD+Bzn1RyfSfcQQZ:Fz8UFgErDGa32TklXk6
 Cannot run standalone
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

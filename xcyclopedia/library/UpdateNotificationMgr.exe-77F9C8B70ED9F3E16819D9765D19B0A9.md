@@ -6,7 +6,6 @@ title: UpdateNotificationMgr.exe | Update Notification Pipeline Manager
 
 * File Path: `C:\Windows\system32\UNP\UpdateNotificationMgr.exe`
 * Description: Update Notification Pipeline Manager
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `5FE4952BCF8AC7EDF0C7C6342F674AFF558D47D7902C8217D73069AE084F3F9B`
 SHA384 | `856FA8054D8BAF5955403BC621F8FEA66F3B664BD58A340B011B06209222D1960A9EBE7FA56F364E5DC1CDE05F0B77CC`
 SHA512 | `997063AA59C9B1FE1EEF0FE8BDA269D429B387914C3EF3450A439439D279E8C916A454A347503F2CD37BCCE4B94C92FF2D96E9ADEED3866BADFC946CA67E28B5`
 SSDEEP | `6144:f0qkYPw/UC2Vl9KNsrqPWE53VkN9ghWSXeAGagqeM8ywebWxZGi/tHd53HN3qfuC:8nIwKl9nNqooGqVGGAJHVd8AAQUZf`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

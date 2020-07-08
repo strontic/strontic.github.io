@@ -6,7 +6,6 @@ title: PresentationHost.exe | Windows Presentation Foundation Host
 
 * File Path: `C:\windows\SysWOW64\PresentationHost.exe`
 * Description: Windows Presentation Foundation Host
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `B3982E67820ABC7B41818A7236232CE6DE92689B76B6F152FAB9EF302528566D`
 SHA384 | `C2EDBBA50566EC3BDB8153E6144B15F5C6EDE8EA441B0E2625F0449277DBB4D9A40E767ABFF0D8481CDEE2460BFC00D8`
 SHA512 | `0BEA9890DBCD3AFD2889D0E7C0F2746995169E7B424F58D4998C50BC49D2B37D30F5BD1845D3079B25F9963AF2B71F136719CBD9FDA37F7B85874992096B3E1D`
 SSDEEP | `6144:gW/3xqCu+WWzLw5KNXwy3Odjp19k5KNXfB:1/3U9cQKVwy3OdLaKV`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 iexplore.exe

@@ -6,7 +6,6 @@ title: tskill.exe | Remote Desktop Services End Process Utility
 
 * File Path: `C:\Windows\SysWOW64\tskill.exe`
 * Description: Remote Desktop Services End Process Utility
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `B30ABAF0BB04FB0931D031E134BC17C85CBF3A3682AA1144D46438991DF2231496AA9E
 SSDEEP | `384:nfC/dOQejY9qXIVb/Y0LhakXr3owymfj/IkC56W4kQWk5ff:nKVOQe81/R3M5dk`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -44,9 +38,6 @@ TSKILL processid | processname [/SERVER:servername] [/ID:sessionid | /A] [/V]
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

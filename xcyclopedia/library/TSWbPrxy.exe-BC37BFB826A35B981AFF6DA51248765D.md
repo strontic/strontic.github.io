@@ -6,7 +6,6 @@ title: TSWbPrxy.exe | Microsoft Remote Desktop Services Web Proxy
 
 * File Path: `C:\Windows\system32\TSWbPrxy.exe`
 * Description: Microsoft Remote Desktop Services Web Proxy
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A0D6F924564F662D584D3C24C4EB50EA8607B8F8D8816550AAD3ECDD87DBE34D`
 SHA384 | `830B5679898D4D45242C6B864F4ECF52FD46A4252578B411E5FF18320E254179DD1A22111143A77BD6363C384BE710BA`
 SHA512 | `FF56159F87CC1FD3A520111349E6DEDA97803A6EE1987287388773FAF5F30064624DD8A2D48411449AC64B53C4020416D112E20E36D8F409273EA9C45EF49C52`
 SSDEEP | `1536:vQjKKc/Fd7yXLc8jgey3pWVPoUjN9/1U95hLlNQmjKmqt+kbZhpC36UOnUA7sawr:oWhTyJjgTQVPoUjN9/1U95hLlXjK9+k2`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

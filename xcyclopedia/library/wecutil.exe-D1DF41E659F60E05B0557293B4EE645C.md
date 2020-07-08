@@ -6,7 +6,6 @@ title: wecutil.exe | Event Collector Command Line Utility
 
 * File Path: `C:\windows\SysWOW64\wecutil.exe`
 * Description: Event Collector Command Line Utility
-* Comments: 
 
 ## Hashes
 

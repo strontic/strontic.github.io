@@ -6,7 +6,6 @@ title: xcopy.exe | Extended Copy Utility
 
 * File Path: `C:\WINDOWS\system32\xcopy.exe`
 * Description: Extended Copy Utility
-* Comments: 
 
 ## Hashes
 
@@ -89,9 +88,6 @@ This may be overridden with /-Y on the command line.
 File cannot be copied onto itself
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

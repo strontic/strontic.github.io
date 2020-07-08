@@ -6,7 +6,6 @@ title: PackageInspector.exe | PackageInspector allows creation of a catalog cont
 
 * File Path: `C:\WINDOWS\system32\PackageInspector.exe`
 * Description: PackageInspector allows creation of a catalog containing all executable files laid down by an installer
-* Comments: 
 
 ## Hashes
 
@@ -26,14 +25,6 @@ SSDEEP | `1536:M9/B9/ZMemxMQ432pWVjG+1hjM7er+KSCkWQC8UYlDU7+90n:E/BVZMFo3HQ+1hQC
 Device Guard is not available in this edition of Windows.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: typeperf.exe | Command line performance monitor
 
 * File Path: `C:\Windows\system32\typeperf.exe`
 * Description: Command line performance monitor
-* Comments: 
 
 ## Hashes
 
@@ -71,14 +70,6 @@ Examples:
   typeperf -qx PhysicalDisk -o counters.txt
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

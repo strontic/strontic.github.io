@@ -6,7 +6,6 @@ title: colorcpl.exe | Microsoft Color Control Panel
 
 * File Path: `C:\Windows\system32\colorcpl.exe`
 * Description: Microsoft Color Control Panel
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `86C19BC9523FB84EEF1A18AF66ACED909C32FEDBAD9988397A8367A836BBB2E0`
 SHA384 | `B71E7970CD5AA3C28E8909F4DABAF3F889BD9D12D2D233BB4E0EB1BEBF62902B671B51891B49F092B319E1BD2B1F408F`
 SHA512 | `514DFB6B4CFAC6BCB7B70B810A1FDBBFF6E21EBDBD0DE3929045E53520B9045D9CCCD9897996800875184415693AE1D4A7E0DA1C9F5307D12CE49FD480C7E7A3`
 SSDEEP | `1536:wf7sbIPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:a4EXlvq7jSP1cR2prbpdCY9`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

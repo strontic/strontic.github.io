@@ -6,7 +6,6 @@ title: sfc.exe | System Integrity Check and Repair
 
 * File Path: `C:\windows\SysWOW64\sfc.exe`
 * Description: System Integrity Check and Repair
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `17EFB7CA5F719D6A8C08791C355CAECAF77B29B02383BC8BADF078E086A0ACC8`
 SHA384 | `F5AD0EA23D995596F18C83BD5E18C95127DB0C1B51D694A0D4395F10793ECB5F703C0B3DF43C7E473D4AC7C563979BC2`
 SHA512 | `602B722943CF8627DAB77751FE26DEC995593EA9C4DA817263FF27875A4964826A9D7464456285F494B2BDCEB7A4E93EB9DCFAAB2C62C472BEB6248C0509DABB`
 SSDEEP | `768:QpTlBpVdFfxFQzCLEsR96FbvJzYDfIU2559:gH9hgbpWgU2559`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,13 @@ SSDEEP | `768:QpTlBpVdFfxFQzCLEsR96FbvJzYDfIU2559:gH9hgbpWgU2559`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `sfc.exe` being misused. While `sfc.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poisonivy.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy.yar) | 		$s4 = "\\sfc.exe" fullword ascii /* score: '11.005' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

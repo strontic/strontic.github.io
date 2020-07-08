@@ -6,7 +6,6 @@ title: qwinsta.exe | Query Session Utility
 
 * File Path: `C:\windows\system32\qwinsta.exe`
 * Description: Query Session Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `56272AFAE873484043BF272DDED0DE04FBD4C23704A129550663C425B134EBC2`
 SHA384 | `0631A818F4ED248BEAA75409D16FE1420FE2D6749BB58FD78804921D966B74FAB6A91B38E0B9661373EC39D52340B723`
 SHA512 | `373B03F4A239430809DF91A7B98B81E5152F9DEA2C16AB0F4698F004EBE90CD93BE7EE5CD5ED88ABC822E96DB49E0DF8E16916A777E6DE01D79C67B6CB352448`
 SSDEEP | `768:zMh7G7oGyug+ZJiS9JUcyDjwTfPcf87hrru+GOzf:ghkpikNr3zf`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

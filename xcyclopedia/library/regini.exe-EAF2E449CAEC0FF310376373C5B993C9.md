@@ -6,7 +6,6 @@ title: regini.exe | Registry Initializer
 
 * File Path: `C:\Windows\system32\regini.exe`
 * Description: Registry Initializer
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `E85E4D70AA7FE560D33CDFC17787A15EBF1D0512B62E175B10D43ACBDA37F25BE6924E
 SSDEEP | `768:MdiXap6oTK4VLXMGee84o6u8UZBo8JzlvNWFxQJF6UsPGlVogExyylZhLPc+8zUZ:IgapRdxXMi84o+8vEM6UspUiPl8zU5Nt`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -185,9 +179,6 @@ where: -m specifies a remote Windows NT machine whose registry is to be manipula
 REGINI: Missing parameter(s) for -h switch
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

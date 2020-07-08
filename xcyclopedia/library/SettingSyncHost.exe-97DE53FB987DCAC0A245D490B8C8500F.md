@@ -6,7 +6,6 @@ title: SettingSyncHost.exe | Host Process for Setting Synchronization
 
 * File Path: `C:\Windows\SysWOW64\SettingSyncHost.exe`
 * Description: Host Process for Setting Synchronization
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `06E6FE30F85CEA70C9727C678FB9293EC58C5C651E9C0DB323B46F35ABF8D7CB`
 SHA384 | `880CABE6CE3F857046759872D366BD2C2712D50E32E79B84BE6B02B86CCFB8035326C5D3F19CAB0AED0A47A0BF9AE9CB`
 SHA512 | `943342DAC99C75CE58B776F89ECDB720DD5C133C2BC34178C5668E347E30531FF53B6B9715313E69CD7B626C8224D1DC521419DB46D9C0E886BF83D47839909F`
 SSDEEP | `12288:U6vTjDyx76CGcTceTrAUcGkiwy36rQozaB:U6vTjDyx76CXTceTEfXiwysQow`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

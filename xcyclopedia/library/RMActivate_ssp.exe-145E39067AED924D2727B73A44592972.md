@@ -6,7 +6,6 @@ title: RMActivate_ssp.exe | Windows Rights Management Services Activation for Se
 
 * File Path: `C:\Windows\system32\RMActivate_ssp.exe`
 * Description: Windows Rights Management Services Activation for Server Security Processor
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `F7199C104247A0161EE140E8D9D414C1D5EF90F1983B475FD5CDB8291B408A8B`
 SHA384 | `3864A68AA537F1808C91A3C6706DDFC8A36BF0751A98F1B2B5E27F0E3CA9288A30C94ED6FF43A7E03D08141B46A6D2C2`
 SHA512 | `DC2E2F6C99AE96F89C1E984AE35842AB2E28C34C95A9F71D04866BEE7D0881765C2267556B58542003CB58E7DB5D8FC213C13A5FB7825E25765F8B04049CF897`
 SSDEEP | `12288:PQ3ogQa53PzX9B24/jw+rRdavcy7h+xKaPfn:PQ3193PztAGk83qZDaPf`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

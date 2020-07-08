@@ -6,7 +6,6 @@ title: mpnotify.exe | Windows NT Multiple Provider Notification Application
 
 * File Path: `C:\windows\system32\mpnotify.exe`
 * Description: Windows NT Multiple Provider Notification Application
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `77F61BB677DC591F01382E88307CE1BDB62C41D9929CB3C6BA3EC6C93FAFC2CE`
 SHA384 | `A23FF8DDF9861D31781BE65A5424AA28AE99F07B5B93AD90B81CB8478771484D4DB76B34C46FA0F7C46C981343380C14`
 SHA512 | `2D8F3DCE658D36D701D8693946901614F8FB183E93C04C6695D40EF325B63A23BD432AEE97282364F3F4249BF913A1706FF4386C6BF0C965DC23E5C0A41B19AB`
 SSDEEP | `384:EWdBhcz5gXsmFMNOwSyF5kM5StJZMP7SJPYnWkjWf:PBhczKhMNOwSAShng+QHw`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

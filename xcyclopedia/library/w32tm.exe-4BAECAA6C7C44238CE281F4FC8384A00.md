@@ -6,7 +6,6 @@ title: w32tm.exe | Windows Time Service Diagnostic Tool
 
 * File Path: `C:\windows\system32\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
-* Comments: 
 
 ## Hashes
 
@@ -161,14 +160,6 @@ w32tm /leapseconds /getstatus [/verbose]
   verbose: Set the verbose mode to display more information.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

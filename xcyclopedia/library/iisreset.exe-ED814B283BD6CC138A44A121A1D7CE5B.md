@@ -6,7 +6,6 @@ title: iisreset.exe | IIS control command line utility
 
 * File Path: `C:\Windows\SysWOW64\iisreset.exe`
 * Description: IIS control command line utility
-* Comments: 
 
 ## Hashes
 
@@ -48,11 +47,6 @@ iisreset [computername]
                         on the local system.
     /DISABLE            Disable restarting of Internet Services 
                         on the local system.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

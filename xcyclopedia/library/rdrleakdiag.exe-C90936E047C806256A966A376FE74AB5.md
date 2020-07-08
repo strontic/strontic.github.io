@@ -6,7 +6,6 @@ title: rdrleakdiag.exe | Microsoft Windows Resource Leak Diagnostic
 
 * File Path: `C:\Windows\system32\rdrleakdiag.exe`
 * Description: Microsoft Windows Resource Leak Diagnostic
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CFDB4DDDF8E024B38012CF753E45837E9D3C1D7F4DCBBD75CDCF1B9565CC41BA`
 SHA384 | `58C717777F203A18C714F72A88DD4BE2F7A1311E2EC5B08845BF4AEBAD0CED3C003B198FCFCC817B745D9B1A2EDCC84B`
 SHA512 | `75203DF287657250D6B532093332985E28AAD5544B628693723280DB20B03C50507CDBB9415D458DA8CF8320ED9880C1D0E996E849B6BF3A853AEAB9DF43D358`
 SSDEEP | `768:e3RJG0VpogU20p4mm79a8qlhM3uP7Qs336vk42iENco2NS3wrv:hgB0pI9Mz6+xiENR3w`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

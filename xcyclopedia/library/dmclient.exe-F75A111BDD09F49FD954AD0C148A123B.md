@@ -6,7 +6,6 @@ title: dmclient.exe | Microsoft Feedback SIUF Deployment Manager Client
 
 * File Path: `C:\WINDOWS\system32\dmclient.exe`
 * Description: Microsoft Feedback SIUF Deployment Manager Client
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D9F4EC9052D0C8B799660E7D74B41BA18366016AC361F7A85FE0FBB03637CB47`
 SHA384 | `AA77569B05175DA1A95994F42A6DAB5359B9C51ABE6A028C0904C2D87CF120CAA42DDDE2D6477441C6C5AACE76032614`
 SHA512 | `C50E1190D19320EFD0C6F3659D1F99FD812985CDA62D693E6E6A2AD4BDA8AFBD87633CDB170EF9D5C50A3A72266022E54E02C6C51E3FCC1BD312597B4465B757`
 SSDEEP | `3072:se+tiQjJcCxWmdxS/4Fo4TUlWNmK39l+zkuj/OFj/H5I:se+tiaxxlY/4Fo4TUl8NHgC/Z`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

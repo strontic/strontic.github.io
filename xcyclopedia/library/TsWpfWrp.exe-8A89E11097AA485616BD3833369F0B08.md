@@ -6,7 +6,6 @@ title: TsWpfWrp.exe | Windows Presentation Foundation Terminal Server Print Wrap
 
 * File Path: `C:\Windows\SysWOW64\TsWpfWrp.exe`
 * Description: Windows Presentation Foundation Terminal Server Print Wrapper
-* Comments: 
 
 ## Hashes
 
@@ -24,11 +23,6 @@ SSDEEP | `384:0gA5GlA1zlPby9ZjmDZBv0xAXInWqmWWS3xuT+quY0GftpBjLqW:0g9m8H3FTiVz`
 ### Usage (stdout):
 ```Batchfile
 Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

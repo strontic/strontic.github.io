@@ -6,7 +6,6 @@ title: ComputerDefaults.exe | Set Program Access and Computer Defaults Control P
 
 * File Path: `C:\WINDOWS\SysWOW64\ComputerDefaults.exe`
 * Description: Set Program Access and Computer Defaults Control Panel
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `58BA527A7734600F3FF475A38A0CB233A883EFF4F09DFFE2B23686C9C8253F35`
 SHA384 | `66F4C931577B17BCC67F69AF59E3ACBB6D69AA50D716BA57A4085EA7F924250758E34484F8E7040D0EC855AAB6B0EE45`
 SHA512 | `58AA95D1CF3B058D61B094ECDE23D4BC9F9F2498A02EC9B1D30ED5DA74ABACE6CD810544F7E111FE1F050CFE8A0C14F74DA6ADF3B7564D660695F6B61FDD0705`
 SSDEEP | `1536:05zu0Yg9vp+15SJrePojhZ7oyrURDoq4OZZZLlCIibe6:URBT+1gwRD68wbe`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: getmac.exe | Displays NIC MAC information
 
 * File Path: `C:\windows\SysWOW64\getmac.exe`
 * Description: Displays NIC MAC information
-* Comments: 
 
 ## Hashes
 
@@ -67,9 +66,6 @@ ERROR: Invalid argument/option - '-help'.
 Type "GETMAC /?" for usage.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

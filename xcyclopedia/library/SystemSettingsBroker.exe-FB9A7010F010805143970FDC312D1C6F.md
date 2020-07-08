@@ -6,7 +6,6 @@ title: SystemSettingsBroker.exe | System Settings Broker
 
 * File Path: `C:\Windows\system32\SystemSettingsBroker.exe`
 * Description: System Settings Broker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `707AD52F04D0F8A4E9B1C383D6663938A353CFB440F47C820EC49987A595EBEA`
 SHA384 | `9BD5749B9F9627D86B61483FFCEE1CEB4FDFAF6D9E290B3F00F4849ABF2726FCF98F882247C83CBB6FB726C769653A75`
 SHA512 | `BDBD1B2F216E3948CEAE4A361CB91C6EF95A38677826BD01659F354F0A00E2F76C61AA1BEC586241F7A2E4C429945E9BD0D30E1F7616EC50C387772A4F647FA4`
 SSDEEP | `3072:GlVjCEcr2/c9MCxdDBDk8NxN+Yvay4S7R33U8P9D1rlef+IsIcty9ra:IVj6Ac9Lxld1NvH9Rrljtara`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

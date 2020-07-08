@@ -6,7 +6,6 @@ title: MicrosoftEdgeSH.exe | Microsoft Edge Web Platform
 
 * File Path: `C:\windows\system32\MicrosoftEdgeSH.exe`
 * Description: Microsoft Edge Web Platform
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D7A4F824B02C13DAACA06815F1D579612B24D6B0FC4138317FC23D2AA7E24025`
 SHA384 | `D8780F65B5672BC4CC496C40F03CC5B8A3A4AACF8BAE509CFDF1E79AB6F4E441B81B47BA1C986899AE6B9D85A3A9A7DA`
 SHA512 | `85C126DC5C38E9354035E32FADDBBA11778FBE8EC47B6F7A108BAD35D7762A0B01C4B17CB1184F8C449F8E1138D1A97D6C7EC75030E6DF1B707F428D81741CB2`
 SSDEEP | `768:FZymeD5NFlGX3MAtrpgBD+YGiYH3j5cTnYSu9aeqb1+ync+:FZm5NFlGX3ZtrpgClNtSuHq5+ync+`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

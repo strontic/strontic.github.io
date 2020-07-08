@@ -6,7 +6,6 @@ title: evntwin.exe | Event Translator Config Tool
 
 * File Path: `C:\Windows\system32\evntwin.exe`
 * Description: Event Translator Config Tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `51B944D3EE32C3AFBB6F90E84B7432C4E2A9D8CFBD854649EE609B08C7F8CA23`
 SHA384 | `C28CDEBDFCD7CC8707D2259191FA695D4BB8B4ECF10A9F35AC0CC73B1648E39B7015533BF59AC8AEC3F74762CC20F8A9`
 SHA512 | `1F60CBD10D157D829B3CC5503CF1AE1C1DCFF546D227D64A519079460116305BAFB985D2A435D05F154553054DD4547B8D95D7A66156EF83CA278EF53FAA5CFC`
 SSDEEP | `1536:NS+iG2pzEz/l7mzPIuMbcyh/Ospm20BgXmijjFdY7H+O1TksqtXxc5Y:hsztI/bcn2mbkPY7H+O1TksqtXxL`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

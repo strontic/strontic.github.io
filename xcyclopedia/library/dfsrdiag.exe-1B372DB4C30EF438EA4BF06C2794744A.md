@@ -6,7 +6,6 @@ title: dfsrdiag.exe | DFS Replication Diagnostics Tool
 
 * File Path: `C:\windows\system32\dfsrdiag.exe`
 * Description: DFS Replication Diagnostics Tool
-* Comments: 
 
 ## Hashes
 
@@ -53,11 +52,6 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
   ReplicationState  - Displays the updates that are currently being
                       transferred on inbound and outbound connections
 
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

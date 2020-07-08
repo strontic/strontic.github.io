@@ -6,7 +6,6 @@ title: NDKPing.exe | RDMA Ping Cmd
 
 * File Path: `C:\Windows\system32\NDKPing.exe`
 * Description: RDMA Ping Cmd
-* Comments: 
 
 ## Hashes
 
@@ -54,14 +53,6 @@ Usage Sample:
 	             NDKPing -C -ServerAddr 10.10.10.10:55555 -ClientAddr 10.10.10.11 -ClientIf 4 -TestType rping -LogFilename .\NDKPingResults.log -V 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

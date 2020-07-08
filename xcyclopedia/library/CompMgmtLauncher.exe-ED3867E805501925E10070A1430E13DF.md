@@ -6,7 +6,6 @@ title: CompMgmtLauncher.exe | Computer Management Snapin Launcher
 
 * File Path: `C:\windows\system32\CompMgmtLauncher.exe`
 * Description: Computer Management Snapin Launcher
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `E95853AA8C13062CDF99342D307B13BBE62D61FC653EE0FE7E6EAD4CCD4A46A2`
 SHA384 | `E790A90FC55A01ABB1C4EC94713FE0F2EDEAE3238ECA97A612CDE11D045F73B9509238693720F04F4AB90C8EC3AB6A10`
 SHA512 | `E4784B15C3B374F4BD422A5BD948C39A7D95D8A0D6A908B50AEF65E7F19C433892A3F69B4DA896209354698590D2125D0EF55EA98193C0A62FF78B0B965D9BC1`
 SSDEEP | `1536:F3V5MYdZ1e5zb6j6g8gZ7fRMv3ilVOFGxVz9lOo+vi6Uf:FlbL1epuj6AZ7fRMvusFGxVz9co+Q`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 ServerManager.exe

@@ -6,7 +6,6 @@ title: dcpromo.exe | Active Directory Domain Services Installer
 
 * File Path: `C:\windows\system32\dcpromo.exe`
 * Description: Active Directory Domain Services Installer
-* Comments: 
 
 ## Screenshot
 
@@ -28,11 +27,6 @@ SSDEEP | `6144:Wnw7PfVxVxjFxmM/HeWjq32r6AjhRZaghY:WnKPfVLnsM/HeMTQg`
 ### Usage (stdout):
 ```Batchfile
 The specified argument 'help' should start with '/' or '-'.
-
-```
-
-### Usage (stderr):
-```Batchfile
 
 ```
 

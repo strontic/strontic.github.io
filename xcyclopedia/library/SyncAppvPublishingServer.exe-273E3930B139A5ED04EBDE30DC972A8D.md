@@ -6,7 +6,6 @@ title: SyncAppvPublishingServer.exe | Microsoft Application Virtualization Sync 
 
 * File Path: `C:\Windows\system32\SyncAppvPublishingServer.exe`
 * Description: Microsoft Application Virtualization Sync Utility
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `92D0CC0C047C2ACA0941F4E99B35BDD52B9A2FAE1BA3216CAD3DDEEB36E3161A`
 SHA384 | `2C086C00111B50AEE73D6E0300D8782D8FACB1A0E6D1140D9F84F3C80657D994A53D85E675425233366D0B280E656C56`
 SHA512 | `06A21CB3F9781BBB63E4E9EE3BBED2949DE1BD4E50DB64D8D8F44EF92405ABAF2DED1E7F689167FB6EDF04B789389428196ED5B1E4AF920C3F5653F5896D4528`
 SSDEEP | `768:B6Fyyphi89jr4jwmp3PwyDdwiBieSWaZxZEApqiNwGr6wD1PqVC:B6V9jrN8P3DviCa5EgnG4PqVC`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

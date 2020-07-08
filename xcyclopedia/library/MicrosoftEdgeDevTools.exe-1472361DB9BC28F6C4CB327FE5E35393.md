@@ -6,7 +6,6 @@ title: MicrosoftEdgeDevTools.exe | Microsoft Edge Content Process
 
 * File Path: `C:\Windows\system32\MicrosoftEdgeDevTools.exe`
 * Description: Microsoft Edge Content Process
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `91A954FECD74F20B4A25708D7323E64FB4DD4E03997BCF234E7B810F9EB03A95`
 SHA384 | `2BB29A5C674127BF2AEE4091240E22B889B90C4A4B50E9C7D5915B88E6DA08D0FB9DB592D8964C81A894809FBABD657A`
 SHA512 | `B3675480F4B234098B485A7F63799BD95877C879E85456D4FCF9EAC3CC2FD6C7383AF7419E0BE8297289B3C577839E046B343E18B655EADD184501117D1C13AB`
 SSDEEP | `1536:pIYH0romDAy7+O0eNz2sRZjDM0Q1/UqjbB877rnjrd1nP8RX:pI7omcy17kf0Qy7/jpVP8RX`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: webex.exe | Cisco Webex Meeting
 
 * File Path: `C:\ProgramData\WebEx\webex.exe`
 * Description: Cisco Webex Meeting
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `615B095FC46BD3E08988B4799681473677BB4949CA7B736913BF428CC97E9E1B`
 SHA384 | `09D9061EBF1E8179AB60A246611DCF6CB7CAC854CE823C60EAD5841DC2EC10860D1769D99AA2004AAA79E076D37EBAAD`
 SHA512 | `3E9857AA8D2F5463FBEB4AAC2C4C259D6CA79C7F440F9FB9724BD071300C396140070F65011F4099556EE33E3A03479C08E49E97917E2EA898F90433F175FAE4`
 SSDEEP | `12288:RujXKKv7VnbJKNWL5eM5fNmaKIDeyBUruYo7g1jA1F3RhNT5bsmoihBwF6kk:EXKKpJKw04mUBCuYo810n3RTdsmoiheS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -65,6 +49,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_prog_location_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_susp_prog_location_network_connection.yml) | `            # - '*\ProgramData\\*'  # too many false positives, e.g. with Webex for Windows` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_malware_MacOS_plist_suspicious.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_malware_MacOS_plist_suspicious.yar) |       $fp2 = "<string>com.cisco.base64</string>"  // Webex | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

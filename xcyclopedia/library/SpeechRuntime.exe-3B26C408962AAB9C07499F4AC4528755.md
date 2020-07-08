@@ -6,7 +6,6 @@ title: SpeechRuntime.exe | Speech Runtime Executable
 
 * File Path: `C:\windows\system32\Speech_OneCore\common\SpeechRuntime.exe`
 * Description: Speech Runtime Executable
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `19AE878E2A5C9ABEB915B950DA847FCD3A093E639B084B7297D1E65FBB300237`
 SHA384 | `310003C180D1176AE39092C4015FC161FF6506F04D9908E89610254B06024AD1029C44DE653B9EF3996A6F2E2F78D3BA`
 SHA512 | `BB3E02A98D6B44E927AE68BC567398ACB80FBE09849991B4505B90743DD73E3759287CB10C86E10067C009FEC975642FE0494DDB10290A1CFE7666EFB9785315`
 SSDEEP | `3072:OtjwGC2d1PRPGsqvKixTDALGl9CjrIFbp0FNl/UXQkYuljH3z5iL:2jhCQRPGXvFALc9CjUFbpAUXQglrU`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

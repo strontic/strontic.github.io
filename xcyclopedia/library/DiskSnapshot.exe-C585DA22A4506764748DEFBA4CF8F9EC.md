@@ -6,7 +6,6 @@ title: DiskSnapshot.exe | DiskSnapshot.exe
 
 * File Path: `C:\WINDOWS\system32\DiskSnapshot.exe`
 * Description: DiskSnapshot.exe
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +19,6 @@ SHA512 | `8365478477758FBFD9315B632EA43F3A8C48F6B2E894FF7B1365FD3074E7157D763E97
 SSDEEP | `1536:0t1XK6Z5eFG2Wj0bXWkA3u+gnp5xSfZymol31:/6/X7j0jWkA3u+gnp5xUyN31`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -41,9 +35,6 @@ DiskSnapshot.exe [options]
 	-o [output-file] write detail data to a file
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

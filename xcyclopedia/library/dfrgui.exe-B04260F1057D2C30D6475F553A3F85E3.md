@@ -6,7 +6,6 @@ title: dfrgui.exe | Microsoft Drive Optimizer
 
 * File Path: `C:\windows\system32\dfrgui.exe`
 * Description: Microsoft Drive Optimizer
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `61DC9578476295F03996C5A1F352BD0600FBDC172A750F1F424AB3F5A547A100`
 SHA384 | `911AE49626EDD29CF5DA131B15DD00FC242625068A88DF704D0FD8DC8B868CDF15792A5623F896C3FB6DB1C1934CF912`
 SHA512 | `6E93CF4FFB539B48493D07299983A6CAB547010CC368577E57242F17A5CD8806C08EADF2B9D0BDDED5A8D3E3636412F4A3E30D478C79E1524B1D98A6DE77F01B`
 SSDEEP | `12288:xy2B8XS3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx7:wiWS3/kRc4l6g6gtPbcHn7q`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

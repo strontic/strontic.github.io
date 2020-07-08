@@ -6,7 +6,6 @@ title: msfeedssync.exe | Microsoft Feeds Synchronization
 
 * File Path: `C:\Windows\system32\msfeedssync.exe`
 * Description: Microsoft Feeds Synchronization
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `D842C0AA333567D6B14A5F7429282652917A10B449BBAB8A79D7F4C4821A5D9F`
 SHA384 | `8CF439B72E2D5AE237C3221CEAEFB9505978EA7E7E37E0C3AA8D2B858EA23CAE895B55AE0DE9B7BAC91F366BAE9CB5AE`
 SHA512 | `76D6D8ADAAAAC72244A4116698A652027FF910FAF570A0BBBD79CE560EE01B615E6691B941605062A29B5FCD6B1017FEDFBF1750E3CCF9FE200736673D73A051`
 SSDEEP | `192:aTRvrbsW2+9r8ZoT2U9NhZGFxAGGGZIW8XmMjQ+adCeeQtShWcs0:Otr2U8ZoLhQ2GNd82iaCQ0hWcs0`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

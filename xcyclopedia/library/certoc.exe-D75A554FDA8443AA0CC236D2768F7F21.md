@@ -6,7 +6,6 @@ title: certoc.exe | CertOC.exe
 
 * File Path: `C:\windows\system32\certoc.exe`
 * Description: CertOC.exe
-* Comments: 
 
 ## Hashes
 
@@ -44,14 +43,6 @@ Usage:
 The parameter is incorrect. 0x80070057 (WIN32: 87 ERROR_INVALID_PARAMETER)
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: wbadmin.exe | Command Line Interface for Microsoft BLB Backup
 
 * File Path: `C:\Windows\system32\wbadmin.exe`
 * Description: Command Line Interface for Microsoft BLB Backup
-* Comments: 
 
 ## Hashes
 
@@ -41,14 +40,6 @@ GET STATUS                -- Reports the status of the currently running
 DELETE BACKUP             -- Deletes one or more backups.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

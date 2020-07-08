@@ -6,7 +6,6 @@ title: igfxHK.exe | igfxHK Module
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\igdlh64.inf_amd64_69885addc92dcf91\igfxHK.exe`
 * Description: igfxHK Module
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `566E2A37880C67C14515994A9D5FF4A2A7CBDFF889D001BF1F04B661D6D21259`
 SHA384 | `4B63EE527EC55230184371D496A75DA0B4352AC1BCA9357D7CABB5F1D8137F888F1BA017E060917153CBE5F2A058F85C`
 SHA512 | `B9DF87FC810BB382A8EB08B640B31108381DFCBB6F3C1DDBBDE485610A0643FCF1A8819667141786533375151A97EED63E2D188CADAD91FAEBA850F9A65BE1ED`
 SSDEEP | `6144:fxWDhqR9QT76bvD6w9b8ihrGQMUm6okJo9q9:fx2Q9YCaQVmYUQ`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -53,6 +37,14 @@ SSDEEP | `6144:fxWDhqR9QT76bvD6w9b8ihrGQMUm6okJo9q9:fx2Q9YCaQVmYUQ`
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `igfxHK.exe` being misused. While `igfxHK.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         description = "Detects uncommon file size of igfxhk.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         and filename == "igfxhk.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

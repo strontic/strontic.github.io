@@ -6,7 +6,6 @@ title: PING.EXE | TCP/IP Ping Command
 
 * File Path: `C:\windows\system32\PING.EXE`
 * Description: TCP/IP Ping Command
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `A510579A207C53BA35EF3551D2D62CFD9FE0E9D7F13C1DD6BEB8CED0D7F1154E`
 SHA384 | `909593D3E144D947C31DE0B0BAFA6EED2AFC950A882FF6C196B49C239682342B6F76DAF1C5FECF46C41C7605E1D7D557`
 SHA512 | `868FA38CF8FE6BEC9C59135B0A0425E4F2B079FAAB145F50533C048C1531286035AE2FF6EC2F52127B078EF8178211DDCDC741D72E78FEC54F6B440B19CA4593`
 SSDEEP | `384:WPq7wf2cDzAK2IPOfwg/qaG7W3127r6lDXocT2sWjlW:WyafAK2IPojI7sY6lDYcT8`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
@@ -63,6 +47,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `            - ping.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_ping_hex_ip.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml) | `            - '*\ping.exe 0x*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `            - '\ping.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[signature-base](https://github.com/Neo23x0/signature-base) | [spy_regin_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_regin_fiveeyes.yar) | 	    $a7="ping.exe" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

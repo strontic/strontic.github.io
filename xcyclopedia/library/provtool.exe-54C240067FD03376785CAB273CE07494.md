@@ -6,7 +6,6 @@ title: provtool.exe | Provisioning package runtime processing tool
 
 * File Path: `C:\Windows\system32\provtool.exe`
 * Description: Provisioning package runtime processing tool
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `CFFB7B74EE1F49C6C27B5CE5B72CD3D3BA455B98961DE6C3ADE9BB7A584A3BE2`
 SHA384 | `688CA650017978487B76B3130AF79B20AE792D5DA7BEA94FB2C6CE404DACB75C1E8634349C8DABDE0A825FB8D07D5EBE`
 SHA512 | `5A7BA21C65C9FA8764D9CE1FA770690ACD7884ECF0C918C2F34C1229806C1A7AB6BDF0E1F266C427DDBCC7CF09A70195A824496BCECA45BCB82DC1943664F64D`
 SSDEEP | `1536:JdSSEqWBb3ZIbP58PK/U3zDxXmXoN9LK7KMOKF5NkFWhM7Ozg8c7bXoNKoB:ed3ZIbP58PKc3PxXmX8KrlD+gKOc8khS`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

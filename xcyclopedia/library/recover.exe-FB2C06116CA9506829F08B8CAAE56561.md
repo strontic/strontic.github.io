@@ -6,7 +6,6 @@ title: recover.exe | Recover Files Utility
 
 * File Path: `C:\Windows\system32\recover.exe`
 * Description: Recover Files Utility
-* Comments: 
 
 ## Hashes
 
@@ -30,14 +29,6 @@ Consult the online Command Reference in Windows Help
 before using the RECOVER command.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

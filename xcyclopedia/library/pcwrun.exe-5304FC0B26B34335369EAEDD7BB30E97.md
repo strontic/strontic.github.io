@@ -6,7 +6,6 @@ title: pcwrun.exe | Program Compatibility Troubleshooter Invoker
 
 * File Path: `C:\Windows\system32\pcwrun.exe`
 * Description: Program Compatibility Troubleshooter Invoker
-* Comments: 
 
 ## Hashes
 
@@ -18,18 +17,6 @@ SHA256 | `E3D136C667662A2198DA3D45A4637DF1EFE1F61B2B948F421FC0F8EEE6D83C3A`
 SHA384 | `A6417550886393FC9A9052BC5DF6F3447F1F28B9AED55116F3B21D83EBF5F00EDEE0BE1FAC2075E22E070FEDF8832100`
 SHA512 | `DE582402580A4D87E51AD992625024AC9E6E0E5CD9E4C88C2BFB5608F9DE99FB8BE037E055670BAEB71E2698E3E06CB017882FEF9D9963ED873E386FB39E8C8B`
 SSDEEP | `384:9uqm53yj33csvrp6rThI/NfiiJoJ4fA+cWMgW:9+ij33cGrMrwNfiiJcOA+C`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
 
 ### Child Processes:
 msdt.exe

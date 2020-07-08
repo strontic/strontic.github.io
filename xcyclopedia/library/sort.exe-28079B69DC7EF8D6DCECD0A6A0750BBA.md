@@ -6,7 +6,6 @@ title: sort.exe | Sort Utility
 
 * File Path: `C:\Windows\system32\sort.exe`
 * Description: Sort Utility
-* Comments: 
 
 ## Hashes
 
@@ -86,9 +85,6 @@ SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
 -helpThe system cannot find the file specified.
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

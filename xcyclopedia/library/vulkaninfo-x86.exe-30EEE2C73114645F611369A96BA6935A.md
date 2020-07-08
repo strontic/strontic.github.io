@@ -6,7 +6,6 @@ title: vulkaninfo-x86.exe | Vulkan Info
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\nvhm.inf_amd64_7f7fab851df220a9\vulkaninfo-x86.exe`
 * Description: Vulkan Info
-* Comments: 
 
 ## Hashes
 
@@ -42,14 +41,6 @@ OPTIONS:
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

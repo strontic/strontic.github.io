@@ -6,7 +6,6 @@ title: PresentationSettings.exe | Microsoft Mobile PC Presentation Adaptability 
 
 * File Path: `C:\Windows\system32\PresentationSettings.exe`
 * Description: Microsoft Mobile PC Presentation Adaptability Client
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `6E59AB1A0B4AC177DC3397A54AFCF68FCEA3C1EE72C33BD08C89F04A6DAC64B8`
 SHA384 | `11044442BFBC7F3488A51ACD5A99FE5748D66C1998072B584EF29F60C9FFDA60EBFF1ED281A8FE9D2EB988D4C657948E`
 SHA512 | `8153B79D4681F21ADE7AFE995841C386BFF8E491AD347F8E7C287DF5F9053CAE7458E273339146D9A920CEAA2BA0F41CC793D7B2C0FA80EFBB41477D39470866`
 SSDEEP | `6144:rt0iOUEDwHulF8VC+LM6Ce9U7its2xmhfGKraEH:rtgUoUulW/Cr7p2Gfn`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: NDKPing.exe | RDMA Ping Cmd
 
 * File Path: `C:\WINDOWS\system32\NDKPing.exe`
 * Description: RDMA Ping Cmd
-* Comments: 
 
 ## Hashes
 
@@ -63,9 +62,6 @@ Error: Unable to stop NDKPing driver.
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

@@ -6,7 +6,6 @@ title: diskperf.exe | Disk Performance Configuration Utility
 
 * File Path: `C:\WINDOWS\SysWOW64\diskperf.exe`
 * Description: Disk Performance Configuration Utility
-* Comments: 
 
 ## Hashes
 
@@ -63,14 +62,6 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
         systems beyond Windows 2000.
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

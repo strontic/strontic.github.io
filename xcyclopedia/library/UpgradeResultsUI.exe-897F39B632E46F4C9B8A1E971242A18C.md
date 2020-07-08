@@ -6,7 +6,6 @@ title: UpgradeResultsUI.exe | Add features to Windows Results
 
 * File Path: `C:\Windows\system32\UpgradeResultsUI.exe`
 * Description: Add features to Windows Results
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `49541ACF4CBFBA971F60263D6619D76803ED0D6EC9556D24FE2A7C07EB56A8A9`
 SHA384 | `99CC74AF7AEAD9780C9E5B49136120D67F7098779D6829D7F07EFFB7BCBDDE5B91F3F6201CBDCF0394C3A32C8D73DAB5`
 SHA512 | `608289BE2034BCDCE7A69510E819C85E2167B7EC47D3133611D19A081DCB224298600C5CFF8E1FE0030C5479142782AEAAFA956C39664DBD2ED2621CDB470F6F`
 SSDEEP | `768:hB7+No3a/HgK2Qb8a8unUXSpImvocJTMw2UR2ZhyKshYAGzeW:DlIgrhV+SSplozBHEhTGyW`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

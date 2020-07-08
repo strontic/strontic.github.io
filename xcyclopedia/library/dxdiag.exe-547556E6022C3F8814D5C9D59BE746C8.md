@@ -6,7 +6,6 @@ title: dxdiag.exe | Microsoft DirectX Diagnostic Tool
 
 * File Path: `C:\Windows\system32\dxdiag.exe`
 * Description: Microsoft DirectX Diagnostic Tool
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `D035316F6BDF5009934565079CE30EA49A540492780CA476571C904B18C8518A`
 SHA384 | `0F9D05101649C5B1A958A4FC9FCA05A653AC354085420A4644D3069847B01AA5490F00C5B7C81B1AA906A7D6BD7F6870`
 SHA512 | `F75FE41AC3AF2CF38556CE5A7A9BD91E55921EDF921F63EEB0C45276A5D5BC4DD456180D0C67618802CE9545BECA3E6D1943F1AF24C3B615335240A68D35209D`
 SSDEEP | `6144:Y4ZDzdsA4+M1gjY/zFB/cNSj96KtyhruJhZ26diFkrWKiwHbgJ6fP:E+nYb/hjsKtyhruJ2FkrWKBP`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

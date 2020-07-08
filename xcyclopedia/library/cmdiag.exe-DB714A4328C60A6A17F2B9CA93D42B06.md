@@ -5,8 +5,6 @@ title: cmdiag.exe |
 # cmdiag.exe 
 
 * File Path: `C:\WINDOWS\system32\cmdiag.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -20,11 +18,6 @@ SHA512 | `1303A2EC0BFF028E2EBA23F3212C0DBCE57E45CD84B2266F3E6D06E53CCE3E35D8538C
 SSDEEP | `768:uZK3pF5beTxwhnEfDURTbL3lTqA7KYPPjvujFgakEnWMGly7WwuFFU2NA6Q2P3r8:eK1eTxD6pqAm07uQkWM2iVL2N/RrIFP9`
 
 ## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
 
 ### Usage (stderr):
 ```Batchfile
@@ -41,9 +34,6 @@ Commands:
 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

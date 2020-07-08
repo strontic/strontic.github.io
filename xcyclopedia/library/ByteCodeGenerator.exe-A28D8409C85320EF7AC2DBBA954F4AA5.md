@@ -6,7 +6,6 @@ title: ByteCodeGenerator.exe | AppX Deployment Bytecode Generator EXE
 
 * File Path: `C:\windows\system32\ByteCodeGenerator.exe`
 * Description: AppX Deployment Bytecode Generator EXE
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `19E5361D92719CC2ED58C98D4115CE9D87FA584EB190C51AFE3824805709FF2D`
 SHA384 | `D15034BF6A6512F0421D07CA265D4BFFA6AB8269DC72DA6171169DFC441600AA4F747ECCD7165E1DA5E932D045BBBAAE`
 SHA512 | `6E428ED831BFD6CBCC21A2137E981559AB0F62498C91272740E18A0056D153161A43492FA58E4DC27724C749BDF4D0D406C3E393E4522A948262221396BB729B`
 SSDEEP | `768:4aerW6JCs9CMGQlgKt/kgi76YmPlg8RwRxtS+Pz:4rNpZlEgTPi8RwR/S+Pz`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

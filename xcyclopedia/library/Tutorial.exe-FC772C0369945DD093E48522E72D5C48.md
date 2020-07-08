@@ -6,7 +6,6 @@ title: Tutorial.exe | Synaptics Pointing Device Tutorial
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\synpd.inf_amd64_b28b907efbdd0634\Tutorial.exe`
 * Description: Synaptics Pointing Device Tutorial
-* Comments: 
 
 ## Screenshot
 
@@ -22,21 +21,6 @@ SHA256 | `B9645AE5FF6C097D577A4435B4FFF80248F2DE69D1D5ECF2E02882FD493D2C70`
 SHA384 | `3B6F3618A7D6475B9E253C6681F4730446D3B61B6FB6CB969A72EBACCE42C49DC0E899078BA1B4F37738114B08DDCD5C`
 SHA512 | `0C7BAC63959AF61FCFB4B42F329235A223502776BEB0CC3D265E0DAC62CE1E0A6BBCCCCEADEA4746534D5AEBAD7E09FCB08236A80F6F07DDDBC0149B1055AF89`
 SSDEEP | `6144:EIrcvYbJGlNv5HAwT3Js1XD5bPyLShsNlJYRV37wTyPzemA:PUNBgwT3K5bszJYj7wTsq`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

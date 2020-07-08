@@ -6,7 +6,6 @@ title: EASPolicyManagerBrokerHost.exe | Exchange Active Sync Policy Manager Brok
 
 * File Path: `C:\WINDOWS\system32\EASPolicyManagerBrokerHost.exe`
 * Description: Exchange Active Sync Policy Manager Broker
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `3A4DD3C20E81BC12A1B7CAD1537AA8DFDC26848E2793623A739B9FC6369E34EF`
 SHA384 | `0D012A68DD7E67CF91F8B2523C4DE533671801E2313EC8B7A9309D29B72BCFA3065DE6C4D397EBB1D89C1B0A5ADB8966`
 SHA512 | `19E9D62C7FE01F013AD9259D6F27F8EBC893985457BAA42A7C53D258E8C906711CC507D1CF3181CCCD9E3AD04738CC11DB6FFB15BE6F2FB4163D43167AB3D099`
 SSDEEP | `1536:8DhL6/wRLlugrQyEqCchMOAHLq1JwGgqxgrLso:x/wZlj81NHLq1JwNqyrt`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

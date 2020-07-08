@@ -6,7 +6,6 @@ title: convertvhd.exe | VHD Conversion Tool
 
 * File Path: `C:\windows\system32\convertvhd.exe`
 * Description: VHD Conversion Tool
-* Comments: 
 
 ## Hashes
 
@@ -40,9 +39,6 @@ convertvhd.exe -sourceToken <file handle> -destinationToken <file handle> [-btt]
 ] 
 
 ```
-
-### Child Processes:
-
 
 ## Signature
 

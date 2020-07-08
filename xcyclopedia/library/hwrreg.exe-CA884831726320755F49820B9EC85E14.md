@@ -6,7 +6,6 @@ title: hwrreg.exe | Microsoft Custom Dictionary Registration Tool
 
 * File Path: `C:\Windows\system32\hwrreg.exe`
 * Description: Microsoft Custom Dictionary Registration Tool
-* Comments: 
 
 ## Hashes
 
@@ -62,14 +61,6 @@ hwrreg -remove -lang en-US -type PRIMARY-DICTIONARY
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

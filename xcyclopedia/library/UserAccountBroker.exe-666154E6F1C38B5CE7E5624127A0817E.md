@@ -6,7 +6,6 @@ title: UserAccountBroker.exe | User Account Control Panel Host
 
 * File Path: `C:\windows\system32\UserAccountBroker.exe`
 * Description: User Account Control Panel Host
-* Comments: 
 
 ## Hashes
 
@@ -18,21 +17,6 @@ SHA256 | `30FCC44E784849DAFC052EB8EFF1ED5BDC8D88A6FB01266519C76C2286F40270`
 SHA384 | `7289E4048AAF935F021EEC1F7634E48CC03FA4D18FF5904064D232D3383BF0D779D05D94DC20F4AB436A9F0519358E8B`
 SHA512 | `2FBAD08AB21F1C08377CE2E572369C19BF6C212CD774A49E06A1B6ED66A9B37988486001087E7C3FF97BB0F6069F1668452463DEE4937D8AD428792819E22F7B`
 SSDEEP | `768:6/csdGlBYNCETvOA4vGvwOdzFORDkySqbsiughQ5eL1PTUx:0ltBNnJORDka+g65QPTU`
-
-## Runtime Data
-
-### Usage (stdout):
-```Batchfile
-
-```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

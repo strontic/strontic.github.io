@@ -5,8 +5,6 @@ title: lxdncfgx.exe |
 # lxdncfgx.exe 
 
 * File Path: `C:\WINDOWS\system32\DriverStore\FileRepository\lxdnprc.inf_amd64_a10e19c5a3985bc3\common\lxdncfgx.exe`
-* Description: 
-* Comments: 
 
 ## Hashes
 
@@ -47,14 +45,6 @@ EXTRACT [/Y] /C source destination
   /L dir     Location to place extracted files (default is current directory).
   /Y         Do not prompt before overwriting an existing file.
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 

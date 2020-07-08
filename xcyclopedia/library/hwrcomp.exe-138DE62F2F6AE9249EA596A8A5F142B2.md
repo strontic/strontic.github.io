@@ -6,7 +6,6 @@ title: hwrcomp.exe | Microsoft Custom Dictionary Compiler
 
 * File Path: `C:\Windows\system32\hwrcomp.exe`
 * Description: Microsoft Custom Dictionary Compiler
-* Comments: 
 
 ## Hashes
 
@@ -46,14 +45,6 @@ hwrcomp -lang en-US -type SECONDARY-DICTIONARY -o myrsrc1 mylist1.txt
 
 
 ```
-
-### Usage (stderr):
-```Batchfile
-
-```
-
-### Child Processes:
-
 
 ## Signature
 
