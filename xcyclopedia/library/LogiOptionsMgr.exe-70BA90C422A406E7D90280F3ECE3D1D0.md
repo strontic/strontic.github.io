@@ -8,6 +8,7 @@ title: LogiOptionsMgr.exe | LogiOptionsMgr.exe (UNICODE)
 * Description: LogiOptionsMgr.exe (UNICODE)
 * Comments: Created by the Productivity Software team
 
+
 ## Hashes
 
 Type | Hash

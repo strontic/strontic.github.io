@@ -26,7 +26,7 @@ SSDEEP | `3072:Opl17KsYX1j7ZyGx8oh0b4F9BptLvibLivstwP+HUCEYQRxDlKr:Opl1Os8dxBJph
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-JMDVC1N
+On computer: DESKTOP-0C3PLRM
 
 DiskPart has encountered an error: No mapping between account names and security IDs was done.
 See the System Event Log for more information.
@@ -36,8 +36,8 @@ See the System Event Log for more information.
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -158,9 +158,9 @@ You can run the following commands from the Diskpart command interpreter:
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [Disk management overview](https://docs.microsoft.com/windows-server/storage/disk-management/overview-of-disk-management)
+- [Disk management overview](../../storage/disk-management/overview-of-disk-management.md)
 
-- [Storage Cmdlets in Windows PowerShell](https://docs.microsoft.com/powershell/module/storage/)
+- [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/)
 
 ---
 

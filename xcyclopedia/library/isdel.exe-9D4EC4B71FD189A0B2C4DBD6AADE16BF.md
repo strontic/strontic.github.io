@@ -40,7 +40,7 @@ SSDEEP | `384:m3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:QwIA7Q7tDUAdnemQVSfg`
 
 File | Score
 -- | --
-[C:\WINDOWS\SysWOW64\InstallShield\_isdel.exe](isdel.exe-51161BF79F25FF278912005078AD93D5.md) | 99
+[C:\Windows\SysWOW64\InstallShield\_isdel.exe](isdel.exe-51161BF79F25FF278912005078AD93D5.md) | 99
 
 
 

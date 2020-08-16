@@ -33,8 +33,8 @@ triage    Handle corruptions
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -58,9 +58,9 @@ triage    Handle corruptions
 
 ## ReFSUtil
 
->Applies to: Windows Server 2019, Windows 10
+> Applies to: Windows Server 2019, Windows 10
 
-ReFSUtil is a tool included in Windows and Windows Server that attempts to diagnose heavily damaged ReFS volumes, identify remaining files, and copy those files to another volume. This comes in Windows 10 in the `%SystemRoot%\Windows\System32` folder or in Windows Server in the `%SystemRoot%\\System32` folder.
+ReFSUtil is a tool included in Windows and Windows Server that attempts to diagnose heavily damaged ReFS volumes, identify remaining files, and copy those files to another volume. This comes in Windows 10 in the `%SystemRoot%\Windows\System32` folder or in Windows Server in the `%SystemRoot%\System32` folder.
 
 ReFS salvage is the primary function of ReFSUtil, and is useful for recovering data from volumes that show as RAW in Disk Management. ReFS Salvage has two phases: Scan Phase and a Copy Phase. In automatic mode, the Scan Phase and Copy Phase will run sequentially. In manual
 mode, each phase can be run separately. Progress and logs are saved in a working directory to allow phases to be run separately as well as Scan Phase to be paused and resumed. You shouldn't need to use the ReFSutil tool unless the volume is RAW. If read-only, then data is still accessible.
@@ -74,7 +74,7 @@ mode, each phase can be run separately. Progress and logs are saved in a working
 | `<target directory>` | Specifies the location where identified files are copied to. It must **not** be located on the `<source volume>`. |
 | \-m | Recovers all possible files including deleted ones.<p>**WARNING:** Not only does this parameter cause the process to take longer to run, but it can also lead to unexpected results. |
 | \-v | Specifies to use verbose mode. |
-| \-x | Forces the volume to dismount first, if necessary. All opened handles to the volume are then invalid. For example, `refsutil salvage -QA R: N:\\WORKING N:\\DATA -x`. |
+| \-x | Forces the volume to dismount first, if necessary. All opened handles to the volume are then invalid. For example, `refsutil salvage -QA R: N:\WORKING N:\DATA -x`. |
 
 ### Usage and available options
 

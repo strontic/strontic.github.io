@@ -22,7 +22,7 @@ SSDEEP | `384:u9z/IFagu/0Ei6yymcWlUwWPr6wDDBRJl5uOMlh2LA:CzKG/0TLy/Fr6wD1PfRA`
 
 ### Usage (stdout):
 ```Batchfile
-Invalid argument specified: /h
+Invalid argument specified: --help
 Usage:
 ScriptRunner.exe
 -appvscript scriptFileName [Arguments] [-appvscriptrunnerparameters [-wait] [-timeout=<TimeInSeconds>] [-rollbackonerror]] 
@@ -58,6 +58,7 @@ Error: Invalid argument specified
 
 File | Score
 -- | --
+[C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 41
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-71B9062F02950BAA4441E2FB79677E99.md) | 50
 [C:\WINDOWS\system32\ScriptRunner.exe](ScriptRunner.exe-C024FF9A88E26EEB26A1A942260489BC.md) | 57
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-E099F50577EC360B96513A9251480D99.md) | 46

@@ -37,6 +37,13 @@ SSDEEP | `192:Y/tRaHXbq0eTY1iSji1to2Ac1XQOIHhW2eGWBxloIlWt8RDBQABJnqnajltsLh01:L
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `backgroundTaskHost.exe` being misused. While `backgroundTaskHost.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_abusing_azure_browser_sso.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_abusing_azure_browser_sso.yml) | `         - BackgroundTaskHost.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

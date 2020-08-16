@@ -84,7 +84,6 @@ chattr: Must use at least one of =, + or -
 
 File | Score
 -- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\chattr.exe](chattr.exe-F1F25CC18C79ED39F9AEA37CF38FC656.md) | 100
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\lsattr.exe](lsattr.exe-19EAC399FA5FB55B8699DA6F30C03458.md) | 66
 
 ## Possible Misuse

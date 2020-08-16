@@ -25,8 +25,8 @@ SSDEEP | `384:A+W7Hrtkdpm8DwTWeErIiBAEdBTC2WGroW:Af7xapm8Dw6n3/CA`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -57,7 +57,7 @@ Sets up or disables the TAPI client.
 ### Syntax
 
 ```
-tcmsetup [/q] [/x] /c <Server1> [<Server2> â€¦] 
+tcmsetup [/q] [/x] /c <Server1> [<Server2> â€¦]
 tcmsetup  [/q] /c /d
 ```
 
@@ -84,12 +84,11 @@ tcmsetup  [/q] /c /d
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-[Command shell overview](https://technet.microsoft.com/library/cc737438(v=ws.10).aspx)
+[Command shell overview](/previous-versions/windows/it-pro/windows-server-2003/cc737438(v=ws.10))
 
-[Specify telephony servers on a client computer](https://technet.microsoft.com/library/cc759226(v=ws.10).aspx)
+[Specify telephony servers on a client computer](/previous-versions/windows/it-pro/windows-server-2003/cc759226(v=ws.10))
 
-[Assign a telephony user to a line or phone](https://technet.microsoft.com/library/cc736875(v=ws.10).aspx)
-
+[Assign a telephony user to a line or phone](/previous-versions/windows/it-pro/windows-server-2003/cc736875(v=ws.10))
 
 ---
 

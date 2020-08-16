@@ -36,6 +36,11 @@ SSDEEP | `1536:AMc99L6OGXo8VYH7/tLXwtV5ARAzCwgKWHsDaDQnjZpgbPHF/w0ZhmecGp0iK681:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wifitask.exe](wifitask.exe-65DE048F4B3DD6EC21D8D890038038F1.md) | 97
 
 
 

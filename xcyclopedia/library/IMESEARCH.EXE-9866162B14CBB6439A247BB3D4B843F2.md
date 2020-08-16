@@ -9,7 +9,7 @@ title: IMESEARCH.EXE | IME search module
 
 ## Screenshot
 
-![IMESEARCH.EXE](screenshots/IMESEARCH.EXE-8F79895C80CDE73D8EED5B111C3C804E-2.png)
+![IMESEARCH.EXE](screenshots/IMESEARCH.EXE-C61697BB0A671425CF824AE0B6A4C04E-2.png)
 
 ## Hashes
 
@@ -25,8 +25,8 @@ SSDEEP | `1536:yS+GxSHfg5S0bU9CiKEZlyDhm1Ea6RbFEISoCgFjhzeBRD0CuxkWY272cOsUp1D9:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

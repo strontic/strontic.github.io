@@ -84,6 +84,9 @@ or available locally via: info '(coreutils) printf invocation'
 * Legal Copyright: 
 
 
+
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

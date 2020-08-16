@@ -85,7 +85,7 @@ winrs -r:myserver -ad -u:administrator -p:$%fgh7 dir \\anotherserver\share
 
 ### Usage (stderr):
 ```Batchfile
-Winrs.exe: Unrecognized switch "/h"
+Winrs.exe: Unrecognized switch "--help"
 Use "winrs -?" to obtain the usage information
 ```
 

@@ -74,11 +74,6 @@ Try '/usr/bin/wc --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\wc.exe](wc.exe-480897DAE456EB88030A402143328B91.md) | 100
 
 
 

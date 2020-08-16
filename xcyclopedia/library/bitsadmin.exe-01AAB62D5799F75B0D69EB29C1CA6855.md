@@ -272,8 +272,8 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -371,7 +371,7 @@ Most switches require a `<job>` parameter, which you set to the job's display na
 
 By default, you can access information about your own jobs. To access information for another user's jobs, you must have administrator privileges. If the job was created in an elevated state, then you must run **bitsadmin** from an elevated window; otherwise, you'll have read-only access to the job.
 
-Many of the switches correspond to methods in the [BITS interfaces](https://docs.microsoft.com/windows/win32/bits/bits-interfaces). For additional details that may be relevant to using a switch, see the corresponding method.
+Many of the switches correspond to methods in the [BITS interfaces](/windows/win32/bits/bits-interfaces). For additional details that may be relevant to using a switch, see the corresponding method.
 
 Use the following switches to create a job, set and retrieve the properties of a job, and monitor the status of a job. For examples that show how to use some of these switches to perform tasks, see [bitsadmin examples](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/bitsadmin-examples.md).
 

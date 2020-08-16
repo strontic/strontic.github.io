@@ -54,6 +54,11 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Steam\steamerrorreporter.exe](steamerrorreporter.exe-061E8A619CA76421823F147AC6F264FD.md) | 49
 
 
 

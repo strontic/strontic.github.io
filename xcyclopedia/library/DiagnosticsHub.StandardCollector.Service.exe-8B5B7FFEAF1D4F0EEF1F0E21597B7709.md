@@ -44,6 +44,11 @@ Unrecognized option: -help
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe](DiagnosticsHub.StandardCollector.Service.exe-533D631A23D178E5B4FC7660BEE3CFD2.md) | 96
 
 
 

@@ -36,6 +36,11 @@ SSDEEP | `1536:GEZyXaYgpfcmho5TYdb16C70ixioQNFo9pQIa4ZDyT0fGF9u:XwxmhS0Xxi5joHQI
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WinBioDataModelOOBE.exe](WinBioDataModelOOBE.exe-4F5ABD7281B7782086A970390C824698.md) | 93
 
 
 

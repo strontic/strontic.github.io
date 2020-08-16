@@ -7,6 +7,10 @@ title: WFS.exe | Microsoft  Windows Fax and Scan
 * File Path: `C:\Windows\system32\WFS.exe`
 * Description: Microsoft  Windows Fax and Scan
 
+## Screenshot
+
+![WFS.exe](screenshots/WFS.exe-EECE3DAFAF89C27DE21E23F1D9A27B55-1.png)
+
 ## Hashes
 
 Type | Hash

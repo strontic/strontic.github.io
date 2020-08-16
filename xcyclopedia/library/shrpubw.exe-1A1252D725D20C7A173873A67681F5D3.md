@@ -9,6 +9,7 @@ title: shrpubw.exe | Share Creation Wizard
 
 ## Screenshot
 
+![shrpubw.exe](screenshots/shrpubw.exe-539063395EFBB5480C0AC13CC9E5FB16-2.png)
 ![shrpubw.exe](screenshots/shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209-1.png)
 
 ## Hashes

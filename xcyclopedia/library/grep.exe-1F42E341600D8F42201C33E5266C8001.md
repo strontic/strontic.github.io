@@ -119,11 +119,6 @@ Try 'grep --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\grep.exe](grep.exe-1F42E341600D8F42201C33E5266C8001.md) | 100
 
 
 

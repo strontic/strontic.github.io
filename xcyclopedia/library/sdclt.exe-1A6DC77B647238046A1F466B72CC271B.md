@@ -40,6 +40,7 @@ SSDEEP | `24576:VywnRG0Nq1jwZMDW+zfh9yptQHZ7RHegR:7UB+P+TaQ5dH9`
 
 File | Score
 -- | --
+[C:\Windows\system32\sdclt.exe](sdclt.exe-4685EDEA02ED044779578CE2AB9505FF.md) | 99
 [C:\WINDOWS\system32\sdclt.exe](sdclt.exe-F96744B10792C70426608E670C0E39DB.md) | 46
 
 ## Possible Misuse

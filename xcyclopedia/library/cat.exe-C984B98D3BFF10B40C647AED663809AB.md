@@ -75,11 +75,6 @@ Try '/usr/bin/cat --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\cat.exe](cat.exe-C984B98D3BFF10B40C647AED663809AB.md) | 100
 
 
 

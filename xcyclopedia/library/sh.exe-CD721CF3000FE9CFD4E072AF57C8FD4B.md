@@ -78,11 +78,6 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\sh.exe](sh.exe-CD721CF3000FE9CFD4E072AF57C8FD4B.md) | 100
 
 ## Possible Misuse
 

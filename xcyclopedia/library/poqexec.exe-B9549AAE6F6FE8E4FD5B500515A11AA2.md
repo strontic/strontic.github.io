@@ -36,6 +36,11 @@ SSDEEP | `12288:xa08Hr0ycItJ3KEoz8XQ1C+1TEpt9MpkFoxrInyH5q7l:H8HrPj3oymC4TGMGmxr
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\poqexec.exe](poqexec.exe-311F9A3A9059EAE049253D3F5A813763.md) | 99
 
 
 

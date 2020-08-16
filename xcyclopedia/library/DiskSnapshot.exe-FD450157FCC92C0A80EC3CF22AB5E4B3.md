@@ -18,10 +18,9 @@ SHA384 | `49C56BE0112CCB6E7442D1C14B161592170FCE082887CBF0FB47893E71FC3120A2A681
 SHA512 | `E25482CE70709855C9D08278A9020850E993E9F95845C8C51EAB181BC6B234C5CD9B7B53A2BAC1779E2447E95FD42E280E4F0DBA78E4FB8C82462717397A159B`
 SSDEEP | `1536:b+tuvEu02o2kZfjY1VYL8g4VXx+9qauZZ+I+:bPvzYWVJ5x+9qaIZ+v`
 
-## Runtime Data
-
 ### Usage (stderr):
 ```Batchfile
+DiskSnapshot: illegal option: --
 DiskSnapshot.exe [options]
 	-c write detail data to console
 	-i write detail data to console (same as -c)
@@ -39,8 +38,8 @@ DiskSnapshot.exe [options]
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

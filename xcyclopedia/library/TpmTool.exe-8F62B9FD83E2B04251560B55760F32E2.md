@@ -61,8 +61,8 @@ Examples:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -85,7 +85,7 @@ Examples:
 ---
 ## tpmtool
 
-This utility can be used to get information about the [Trusted Platform Module (TPM)](https://docs.microsoft.com/windows/security/information-protection/tpm/trusted-platform-module-overview).
+This utility can be used to get information about the [Trusted Platform Module (TPM)](/windows/security/information-protection/tpm/trusted-platform-module-overview).
 
 >[!IMPORTANT]
 >Some information relates to prereleased product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -101,7 +101,7 @@ tpmtool /parameter [<arguments>]
 
 |Parameter|Description|
 |---------|-----------|
-|getdeviceinformation|Displays the basic information of the TPM. The meaning of the information flag values can be found [here](https://docs.microsoft.com/windows/desktop/SecProv/win32-tpm-isreadyinformation#parameters).|
+|getdeviceinformation|Displays the basic information of the TPM. The meaning of the information flag values can be found [here](/windows/desktop/secprov/win32-tpm-isreadyinformation#parameters).|
 |gatherlogs [output directory path]|Collects TPM logs and places them in the specified directory. If that directory does not exist, it is created. By default, they are placed in the current directory. The possible files generated are: </br>- TpmEvents.evtx</br>- TpmInformation.txt</br>- SRTMBoot.dat</br>- SRTMResume.dat</br>- DRTMBoot.dat</br>- DRTMResume.dat</br>|
 |drivertracing [start / stop]|Start / stop collecting TPM driver traces. The trace log, TPMTRACE.etl, will be generated and placed in the current directory.|
 |/?|Displays help at the command prompt.|
@@ -129,7 +129,7 @@ tpmtool drivertracing stop
 
 ### Decoding Error Codes
 
-TPM-specific error codes are documented [here](https://docs.microsoft.com/windows/desktop/com/com-error-codes-6).
+TPM-specific error codes are documented [here](/windows/desktop/com/com-error-codes-6).
 
 ---
 

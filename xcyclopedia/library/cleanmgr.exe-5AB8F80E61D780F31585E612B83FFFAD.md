@@ -10,6 +10,7 @@ title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
 ## Screenshot
 
 ![cleanmgr.exe](screenshots/cleanmgr.exe-1920470998932423575D36C07F8BC97E.png)
+![cleanmgr.exe](screenshots/cleanmgr.exe-5AB8F80E61D780F31585E612B83FFFAD-5.png)
 ![cleanmgr.exe](screenshots/cleanmgr.exe-B6A5162D28FDCB87869A2ED87F46C8A6-4.png)
 
 ## Hashes
@@ -26,8 +27,8 @@ SSDEEP | `3072:rJ8eh6cvBPXSWRf1nhBYoFcBdyqLAEPGRvQhRkKqUa9antF5hvvJkuXpZJq:LHvhB
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

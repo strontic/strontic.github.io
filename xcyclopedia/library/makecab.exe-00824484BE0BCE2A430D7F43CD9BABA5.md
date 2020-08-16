@@ -39,11 +39,14 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
 
 ```
 
+### Child Processes:
+mmc.exe
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -116,7 +119,7 @@ makecab [/v[<n>]] [/d var=<value> ...] /f <directives_file> [...]
 
 - [diantz command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/diantz.md)
 
-- [Microsoft Cabinet format](https://docs.microsoft.com/previous-versions/bb417343(v=msdn.10))
+- [Microsoft Cabinet format](/previous-versions/bb417343(v=msdn.10))
 
 ---
 

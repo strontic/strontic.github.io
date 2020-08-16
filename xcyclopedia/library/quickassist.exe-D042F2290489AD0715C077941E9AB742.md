@@ -7,6 +7,10 @@ title: quickassist.exe | Quick Assist
 * File Path: `C:\WINDOWS\system32\quickassist.exe`
 * Description: Quick Assist
 
+## Screenshot
+
+![quickassist.exe](screenshots/quickassist.exe-39AB5ED601B0C39DCE3B7D269847C944-1.png)
+
 ## Hashes
 
 Type | Hash

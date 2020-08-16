@@ -95,7 +95,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +6/26/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +8/14/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"
@@ -104,7 +104,7 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "FORFILES /?" for usage.
 
 ```

@@ -1,0 +1,51 @@
+﻿---
+title: AIMP.exe | AIMP
+---
+
+# AIMP.exe 
+
+* File Path: `C:\Program Files (x86)\AIMP3\AIMP.exe`
+* Description: AIMP
+* Comments: Made in Russia
+
+
+## Screenshot
+
+![AIMP.exe](screenshots/AIMP.exe-3FE9AEF9058944849CC180868B6370B2-1.png)
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `3FE9AEF9058944849CC180868B6370B2`
+SHA1 | `4DC133486F8573C8E9109B9EC3F9CE7E94CDE7E4`
+SHA256 | `3C91A3F2CCA7EAC3B7AD33F1A5315E924B5BFB06A040C884CF9D692A45F2A506`
+SHA384 | `39D7FC03A7435642A19BFD700CAC678701047D6D7B3D1A2CB10E60AD71487C6913289CD876803577C0552E6C295DF0A1`
+SHA512 | `3F35EA346AD1E33A2DCD252BA95DE2030D750EF6A4C2F6FA84E18068A6BE76E488C0D808E31F6417B153821A2698450A57344A4EDB721C2DD1852E8BF58F8C68`
+SSDEEP | `49152:SL2TmczMC1UmwAd8MpF34NSl90S9wjD0iCTg:y2TXArMpFwi0J`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `329300D599016067A3E86CED`
+* Thumbprint: `E1782EA4E44A003BFA5D98B4F6F912ACDF9B3DD1`
+* Issuer: CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE
+* Subject: E=support@aimp.ru, CN=IP Izmaylov Artem Andreevich, O=IP Izmaylov Artem Andreevich, L=Tula, S=Tula oblast, C=RU
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: AIMP
+* Company Name: AIMP DevTeam
+* File Version: 4.70.2224.0
+* Product Version: 4.70.2224.0
+* Language: Russian (Russia)
+* Legal Copyright: Artem Izmaylov
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

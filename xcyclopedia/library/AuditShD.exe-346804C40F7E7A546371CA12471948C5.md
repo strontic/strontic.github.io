@@ -36,6 +36,11 @@ SSDEEP | `768:3rH0TOoD4WhWaR+Q0z1008GPIXBZOZ4U:bH0Tc4jRSi0FSw4U`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\oobe\AuditShD.exe](AuditShD.exe-090FE45ED7835DADD6543248D8FB7F6F.md) | 80
 
 
 

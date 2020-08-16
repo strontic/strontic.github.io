@@ -1,0 +1,57 @@
+﻿---
+title: wimserv.exe | Wimfltr v2 extractor
+---
+
+# wimserv.exe 
+
+* File Path: `C:\Windows\system32\wimserv.exe`
+* Description: Wimfltr v2 extractor
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `2FE2558908359D6F5486FC8D9FFFDF35`
+SHA1 | `C6F5ED4140FF9FCDD637E8D34CCBE6C88C4646D3`
+SHA256 | `A1A78BE49FCD562B96AB1994046BE20B0B2FE2DE328E5FDBFB40C17E5A447334`
+SHA384 | `C2E2002AB8C969A811F3D08E1AFCD7879BCAEBEE066BD84150EE98536C3BED1964515C8799B6F86D2EBCA4B1C7204623`
+SHA512 | `077AE0551D555B7CC091B20E2A80F8F155D8E40408CAFB5035BD8202C888408B48F3F681266495B6D2E7B65F0671F2D315C6DBEBBCFD31ECE8C68693C7E91BA6`
+SSDEEP | `12288:DboiZqnHJ29mi+DfW+wdEhN8SqQn8vNwz:LZCHHC+KEhrevNwz`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: extractr.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.423 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.423
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wimserv.exe](wimserv.exe-88FEB4547F8965A9685CF44B1593CEA3.md) | 94
+
+## Possible Misuse
+
+*The following table contains possible examples of `wimserv.exe` being misused. While `wimserv.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_user_driver_loaded.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_user_driver_loaded.yml) | `            - '*\Windows\System32\wimserv.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

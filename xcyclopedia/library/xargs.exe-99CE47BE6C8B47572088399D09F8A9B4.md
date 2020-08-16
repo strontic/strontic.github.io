@@ -186,11 +186,6 @@ Report bugs to <bug-findutils@gnu.org>.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\xargs.exe](xargs.exe-99CE47BE6C8B47572088399D09F8A9B4.md) | 100
 
 ## Possible Misuse
 

@@ -36,6 +36,11 @@ SSDEEP | `3072:fseL7LkO2Hqj1QVnkwZRzksjVkhxrkgo+CsKwtj:fseL7LkO2Hq1QVnkEQokbQgo+
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\MDMAppInstaller.exe](MDMAppInstaller.exe-4403D9A9D8E92E7695DAC02E7A0E20CE.md) | 91
 
 
 

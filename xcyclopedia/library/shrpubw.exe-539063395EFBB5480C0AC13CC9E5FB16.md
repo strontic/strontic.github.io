@@ -9,6 +9,7 @@ title: shrpubw.exe | Share Creation Wizard
 
 ## Screenshot
 
+![shrpubw.exe](screenshots/shrpubw.exe-539063395EFBB5480C0AC13CC9E5FB16-2.png)
 ![shrpubw.exe](screenshots/shrpubw.exe-AADB2A1A2A9463154517E5F2E9EF5209-1.png)
 
 ## Hashes
@@ -25,8 +26,8 @@ SSDEEP | `768:NXfEQgbKXSjjj/fAU7kpcyiPhZkbzKKkv6H+WnfFV6gWpMUt56Xf5rvZ/qWyIV6H:W
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

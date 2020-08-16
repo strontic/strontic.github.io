@@ -21,8 +21,8 @@ SSDEEP | `24576:WTCXpLrviyltPhMOdpzTz/rpunSu+MGMD3F:WavvPhldpzP0nx+dMD3F`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -55,7 +55,7 @@ Starts the Auto File System Format Utility, which formats a drive or partition w
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [Windows Recovery Environment (WinRE)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference)
+- [Windows Recovery Environment (WinRE)](/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference)
 
 - [How to use Windows Recovery Environment (WinRE) to troubleshoot common startup issues](https://support.microsoft.com/help/4026030/how-to-use-windows-recovery-environment-winre-to-troubleshoot-common-s)
 

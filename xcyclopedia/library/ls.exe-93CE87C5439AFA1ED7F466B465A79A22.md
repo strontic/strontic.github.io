@@ -169,11 +169,6 @@ Try '/usr/bin/ls --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ls.exe](ls.exe-93CE87C5439AFA1ED7F466B465A79A22.md) | 100
 
 ## Possible Misuse
 

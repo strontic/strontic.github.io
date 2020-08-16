@@ -36,6 +36,11 @@ SSDEEP | `12288:W2LVka+E1SW8gzHPmcnodby170h0z4AWekNomX:/RMgrPmcoxnNvX`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\BioIso.exe](BioIso.exe-CA90DB02AAF23C6D9E81896B63913B85.md) | 38
 
 
 

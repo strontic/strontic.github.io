@@ -9,6 +9,7 @@ title: TpmInit.exe | TPM Initialization Wizard
 
 ## Screenshot
 
+![TpmInit.exe](screenshots/TpmInit.exe-2EF855672A91AA4443E8B4C2E1AE278E-1.png)
 ![TpmInit.exe](screenshots/TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F-1.png)
 
 ## Hashes
@@ -25,8 +26,8 @@ SSDEEP | `1536:TcI7HDs/dfHDh6XcnkYXFT70JLNuuGiceY0lA3CJHkxUM:T+/dfHQXcnV+JLNNPYf
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

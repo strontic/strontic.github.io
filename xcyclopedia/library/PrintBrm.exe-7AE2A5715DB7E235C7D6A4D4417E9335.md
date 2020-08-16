@@ -61,6 +61,11 @@ PrintBrm -B|R|Q [-S <server>] -F <file> [-D <directory>] [-O FORCE] [-P ALL|ORIG
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\spool\tools\PrintBrm.exe](PrintBrm.exe-BAE39750EE98F30056CC520ED59C8E88.md) | 90
 
 
 

@@ -7,6 +7,10 @@ title: osk.exe | Accessibility On-Screen Keyboard
 * File Path: `C:\windows\system32\osk.exe`
 * Description: Accessibility On-Screen Keyboard
 
+## Screenshot
+
+![osk.exe](screenshots/osk.exe-745F2DF5BEED97B8C751DF83938CB418-1.png)
+
 ## Hashes
 
 Type | Hash

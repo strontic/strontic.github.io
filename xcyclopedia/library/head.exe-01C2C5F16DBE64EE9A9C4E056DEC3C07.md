@@ -77,11 +77,6 @@ Try '/usr/bin/head --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\head.exe](head.exe-01C2C5F16DBE64EE9A9C4E056DEC3C07.md) | 100
 
 
 

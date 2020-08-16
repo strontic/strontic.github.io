@@ -11,6 +11,7 @@ title: winver.exe | Version Reporter Applet
 
 ![winver.exe](screenshots/winver.exe-2FAF36CA1A8C76A14294ABB5E2048CF6-1.png)
 ![winver.exe](screenshots/winver.exe-3815F11126543C450BDE1AB19559C70A-1.png)
+![winver.exe](screenshots/winver.exe-63DC2D604B8A96C9962494D1D957DD77-1.png)
 
 ## Hashes
 

@@ -8,6 +8,7 @@ title: wsisvc.exe | wsisvc
 * Description: wsisvc
 * Comments: Windows System Insights Service
 
+
 ## Hashes
 
 Type | Hash

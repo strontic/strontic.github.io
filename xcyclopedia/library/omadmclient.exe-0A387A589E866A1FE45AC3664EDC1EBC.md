@@ -36,6 +36,11 @@ SSDEEP | `6144:WwigIohuAfXhkYi4yKRHI6olhn8U1xoUxmHMSvyNt6xwl2vB4YHWguxD0NU:FBzvO
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\omadmclient.exe](omadmclient.exe-D22E591F038200B409E0B204EEC4C954.md) | 83
 
 
 

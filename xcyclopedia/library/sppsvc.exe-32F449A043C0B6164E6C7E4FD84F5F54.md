@@ -36,6 +36,11 @@ SSDEEP | `49152:/Ddf2v0CTQGMlLl/eX1fqPTBXHIxXsOGDpGhqlrxoHFfzPcUxJJoMJ4mnb3eETt6
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\sppsvc.exe](sppsvc.exe-ECA1C32C297E36CB925173CF7223168A.md) | 43
 
 ## Possible Misuse
 

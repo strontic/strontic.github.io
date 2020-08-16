@@ -23,35 +23,57 @@ SSDEEP | `12288:zTeDhxNBAwKbsaXzR73MWJZF1CrLdeeIob5FGW//BAoX:/eDRBAwKbs+3VtGLzIo
 ### Usage (stdout):
 ```Batchfile
 [2J[m[30;1H
-[HASSOC          Displays or modifies file extension associations.
-ATTRIB         Displays or changes file attributes.
-BREAK          Sets or clears extended CTRL+C checking.
-BCDEDIT        Sets properties in boot database to control boot loading.
-CACLS          Displays or modifies access control lists (ACLs) of files.
-CALL           Calls one batch program from another.
-CD             Displays the name of or changes the current directory.
-CHCP           Displays or sets the active code page number.
-CHDIR          Displays the name of or changes the current directory.
-CHKDSK         Checks a disk and displays a status report.
-CHKNTFS        Displays or modifies the checking of disk at boot time.
-CLS            Clears the screen.
-CMD            Starts a new instance of the Windows command interpreter.
-COLOR          Sets the default console foreground and background colors.
-COMP           Compares the contents of two files or sets of files.
-COMPACT        Displays or alters the compression of files on NTFS partitions.
-CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
-               current drive.
-COPY           Copies one or more files to another location.
-DATE           Displays or sets the date.
-DEL            Deletes one or more files.
-DIR            Displays a list of files and subdirectories in a directory.
-DISKPART       Displays or configures Disk Partition properties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[HDISKPART       Displays or configures Disk Partition properties.
 DOSKEY         Edits command lines, recalls Windows commands, and
                creates macros.
 DRIVERQUERY    Displays current device driver status and properties.
 ECHO           Displays messages, or turns command echoing on or off.
 ENDLOCAL       Ends localization of environment changes in a batch file.
 ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
 ]0;C:\Windows\system32\conhost.exe[?25h[25l
 
 
@@ -74,29 +96,6 @@ ERASE          Deletes one or more files.
 
 
 
-[8;1HEXIT           Quits the CMD.EXE program (command interpreter).[K
-FC             Compares two files or sets of files, and displays the[K
-               differences between them.[K
-FIND           Searches for a text string in a file or files.[K
-FINDSTR        Searches for strings in files.[K
-FOR            Runs a specified command for each file in a set of files.[K
-FORMAT         Formats a disk for use with Windows.[K
-FSUTIL         Displays or configures the file system properties.[K
-FTYPE          Displays or modifies file types used in file extension[K
-               associations.[K
-GOTO           Directs the Windows command interpreter to a labeled line in[K
-               a batch program.[K
-GPRESULT       Displays Group Policy information for machine or user.[K
-GRAFTABL       Enables Windows to display an extended character set in[K
-               graphics mode.[K
-HELP           Provides Help information for Windows commands.[K
-ICACLS         Display, modify, backup, or restore ACLs for files and[K
-               directories.[K
-IF             Performs conditional processing in batch programs.[K
-LABEL          Creates, changes, or deletes the volume label of a disk.[K
-MD             Creates a directory.[K
-MKDIR          Creates a directory.[K
-[K[?25h[25l
 
 
 
@@ -112,18 +111,7 @@ MKDIR          Creates a directory.[K
 
 
 
-
-
-
-[11;1HMKLINK         Creates Symbolic Links and Hard Links[K
-MODE           Configures a system device.[K
-MORE           Displays output one screen at a time.[K
-MOVE           Moves one or more files from one directory to another[K
-               directory.[K
-OPENFILES      Displays files opened by remote users for a file share.[K
-PATH           Displays or sets a search path for executable files.[K
-PAUSE          Suspends processing of a batch file and displays a message.[K
-POPD           Restores the previous value of the current directory saved by[K
+[HPOPD           Restores the previous value of the current directory saved by[K
                PUSHD.[K
 PRINT          Prints a text file.[K
 PROMPT         Changes the Windows command prompt.[K
@@ -134,31 +122,7 @@ REM            Records comments (remarks) in batch files or CONFIG.SYS.[K
 REN            Renames a file or files.[K
 RENAME         Renames a file or files.[K
 REPLACE        Replaces files.[K
-[K[?25h[25l
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[6;1HRMDIR          Removes a directory.[K
+RMDIR          Removes a directory.[K
 ROBOCOPY       Advanced utility to copy files and directory trees[K
 SET            Displays, sets, or removes Windows environment variables.[K
 SETLOCAL       Begins localization of environment changes in a batch file.[K
@@ -176,16 +140,22 @@ TIME           Displays or sets the system time.[K
 TITLE          Sets the window title for a CMD.EXE session.[K
 TREE           Graphically displays the directory structure of a drive or[K
                path.[K
-TYPE           Displays the contents of a text file.[K
+[K[?25h[25l
+
+
+
+
+
+
+
+
+[21;1HTYPE           Displays the contents of a text file.[K
 VER            Displays the Windows version.[K
 VERIFY         Tells Windows whether to verify that your files are written[K
                correctly to a disk.[K
 VOL            Displays a disk volume label and serial number.[K
 XCOPY          Copies files and directory trees.[K
-[K[?25h[25l
-
-
-[27;1HWMIC           Displays WMI information inside interactive command shell.[K
+WMIC           Displays WMI information inside interactive command shell.[K
 [K
 For more information on tools see the command-line reference in the online help.[K
 [K[?25h
@@ -217,6 +187,7 @@ For more information on tools see the command-line reference in the online help.
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `            - '*\conhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_1350.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml) | `            - '\System32\conhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `            - '*\conhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_uac_wsreset.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_wsreset.yml) | `        Image\|endswith: '\conhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_between-hk-and-burma.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_between-hk-and-burma.yar) | 		$file1 = "\\Microsoft\\Internet Explorer\\conhost.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

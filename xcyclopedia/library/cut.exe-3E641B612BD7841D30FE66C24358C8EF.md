@@ -85,11 +85,6 @@ Try '/usr/bin/cut --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\cut.exe](cut.exe-3E641B612BD7841D30FE66C24358C8EF.md) | 100
 
 
 

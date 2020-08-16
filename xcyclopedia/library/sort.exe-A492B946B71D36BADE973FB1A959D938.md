@@ -122,11 +122,6 @@ Try '/usr/bin/sort --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\sort.exe](sort.exe-A492B946B71D36BADE973FB1A959D938.md) | 100
 
 
 ## Additional Info*

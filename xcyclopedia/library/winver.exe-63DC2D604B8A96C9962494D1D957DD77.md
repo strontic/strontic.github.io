@@ -11,6 +11,7 @@ title: winver.exe | Version Reporter Applet
 
 ![winver.exe](screenshots/winver.exe-2FAF36CA1A8C76A14294ABB5E2048CF6-1.png)
 ![winver.exe](screenshots/winver.exe-3815F11126543C450BDE1AB19559C70A-1.png)
+![winver.exe](screenshots/winver.exe-63DC2D604B8A96C9962494D1D957DD77-1.png)
 
 ## Hashes
 
@@ -26,8 +27,8 @@ SSDEEP | `768:xNXJX+daykoGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXI:vXF+Yykoxak
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -150,11 +150,6 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\diff.exe](diff.exe-D04FDBD8F14191EBA4458F041C91538B.md) | 100
 
 
 

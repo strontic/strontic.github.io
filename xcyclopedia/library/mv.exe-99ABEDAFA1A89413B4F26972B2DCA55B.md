@@ -88,11 +88,6 @@ Try '/usr/bin/mv --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\mv.exe](mv.exe-99ABEDAFA1A89413B4F26972B2DCA55B.md) | 100
 
 
 

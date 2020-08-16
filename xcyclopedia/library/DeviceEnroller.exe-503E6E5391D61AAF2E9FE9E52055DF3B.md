@@ -36,6 +36,11 @@ SSDEEP | `6144:p9phZbNsvOdG4FF87tb5fB3kNvN/gUPtWk/2mN9qubRLh9VSJw16d:xhZq487R5fB
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DeviceEnroller.exe](DeviceEnroller.exe-1041383E30E1920B4678E89A4BB18F9C.md) | 69
 
 
 

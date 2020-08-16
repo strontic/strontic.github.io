@@ -36,6 +36,11 @@ SSDEEP | `6144:CNzQDDvfJEBzs76TtizNYERVPwmnUdP1PoPrPwGckDJP8sFt1z:CNGQzBTAzWOVPw
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\DWWIN.EXE](DWWIN.EXE-B80ECED11B442B9D70531B33770601F2.md) | 66
 
 
 

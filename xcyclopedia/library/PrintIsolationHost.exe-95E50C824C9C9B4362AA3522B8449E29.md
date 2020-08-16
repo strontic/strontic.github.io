@@ -21,8 +21,8 @@ SSDEEP | `1536:Dwr4rk/B5oU5Vt3A7HPd4n+lbeRZIbSQPT:M9p5N5HQbPRyZ2pPT`
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -42,6 +42,7 @@ File | Score
 -- | --
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 55
 [C:\Windows\splwow64.exe](splwow64.exe-9FCD31635CC99F1DAFB64AB3F963E0C1.md) | 43
+[C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 43
 [C:\Windows\splwow64.exe](splwow64.exe-B626F1C0194C73D55529E729A63209A2.md) | 50
 [C:\Windows\splwow64.exe](splwow64.exe-B73202D296AE4FDB8ECC29CC97F8A444.md) | 57
 [C:\windows\splwow64.exe](splwow64.exe-BE96C8815DE31A42E93A3BE09C2EECCC.md) | 54
@@ -56,6 +57,7 @@ File | Score
 [C:\windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-F1291C9C23C5661F4B371FF214260AE1.md) | 74
 [C:\Windows\system32\printui.exe](printui.exe-13554E4D7EFFD6EB9719D884DC5D3D1C.md) | 60
 [C:\Windows\system32\printui.exe](printui.exe-3D5F90A02F035FA8804EE3C8B8E2A680.md) | 55
+[C:\Windows\system32\printui.exe](printui.exe-89682E5353569213F4F9AA8B8AEFD69C.md) | 55
 [C:\WINDOWS\system32\printui.exe](printui.exe-C14B13D2A4DA60A016D90D395C4136E3.md) | 58
 [C:\windows\system32\printui.exe](printui.exe-CDF8D88B46FC4FA140B5F8B8B06192ED.md) | 58
 [C:\Windows\system32\printui.exe](printui.exe-FBA9678D2749E85B086F8CBF21757A32.md) | 58
@@ -69,6 +71,7 @@ File | Score
 [C:\Windows\SysWOW64\printui.exe](printui.exe-2819DD02A22EEAE743D2C059BF8A7284.md) | 57
 [C:\windows\SysWOW64\printui.exe](printui.exe-4B9586A61E98A403DAE98D4E62860081.md) | 58
 [C:\Windows\SysWOW64\printui.exe](printui.exe-A33E43C6E26BF582B98B639217639DA6.md) | 55
+[C:\Windows\SysWOW64\printui.exe](printui.exe-E73BC2E6C64861430CEA5D9C784BB6F7.md) | 57
 
 
 

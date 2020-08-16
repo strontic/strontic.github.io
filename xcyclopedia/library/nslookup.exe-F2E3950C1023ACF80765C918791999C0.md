@@ -22,8 +22,8 @@ SSDEEP | `1536:Ono+AIqFL2Gl26Uk+n4vAyl4Ds6blmRbxOcxm:OnnAI3GJ+A5Kg6Re7m`
 
 ### Usage (stdout):
 ```Batchfile
-Default Server:  hostname.mshome.net
-Address:  172.27.80.1
+Default Server:  default-pc.mshome.net
+Address:  172.16.1.1
 
 > 
 ```
@@ -44,8 +44,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

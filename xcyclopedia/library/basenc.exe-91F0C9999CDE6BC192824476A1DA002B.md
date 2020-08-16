@@ -81,11 +81,6 @@ Try '/usr/bin/basenc --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\basenc.exe](basenc.exe-91F0C9999CDE6BC192824476A1DA002B.md) | 100
 
 
 

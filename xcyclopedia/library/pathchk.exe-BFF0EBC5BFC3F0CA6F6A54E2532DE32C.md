@@ -62,11 +62,6 @@ Try '/usr/bin/pathchk --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\pathchk.exe](pathchk.exe-BFF0EBC5BFC3F0CA6F6A54E2532DE32C.md) | 100
 
 
 

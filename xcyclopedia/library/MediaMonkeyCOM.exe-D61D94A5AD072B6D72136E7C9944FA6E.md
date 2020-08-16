@@ -1,0 +1,44 @@
+﻿---
+title: MediaMonkeyCOM.exe | 
+---
+
+# MediaMonkeyCOM.exe 
+
+* File Path: `C:\Program Files (x86)\MediaMonkey\MediaMonkeyCOM.exe`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `D61D94A5AD072B6D72136E7C9944FA6E`
+SHA1 | `07CE2D813003208DC1BA96DD21C176147211D6DB`
+SHA256 | `169F8744A078BF555006AA2F8BA94378658E13D2527BCE20E7BFF6BFFA259899`
+SHA384 | `4A1F55EBAD065DB67F4DEFBB84CCC27E6F71B8128341A4917E099DBBB485C6E3AC4B3C89083CC3C5B6620BCED425F805`
+SHA512 | `29CE74F948F78950E6C7209574A6692B8210E4166C4E23EF378A9E6D84A142FFA0DF2F9C2CBF852A6F9568A0FFE5F2EA2AFE55FD75995579544E8431B06CBEF5`
+SSDEEP | `12288:gEEBPVUKWuqGSa5yIqpR1rGt7ei4uizB0SICetV0Sfp8Fag3mYSwUSQun5e8888h:IPCKLqGSWNqpjaFGB0SICI0Sf2a7wUS`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `7B48448F76331B9D5BCA1077F55FD710`
+* Thumbprint: `8369C04328BF47436E5A459D1473F8DB66552DE2`
+* Issuer: CN=thawte SHA256 Code Signing CA, O="thawte, Inc.", C=US
+* Subject: CN="Ventis Media, Inc.", OU=Application Development, O="Ventis Media, Inc.", L=Cote Saint-Luc, S=Quebec, C=CA
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

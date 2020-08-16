@@ -36,6 +36,11 @@ SSDEEP | `3072:aHzCxUcl66okaTi//SB7h/GrKicaXYI9hb0Ns:aTCqcRt/6irKkH9hbM`
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2009
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RDVGHelper.exe](RDVGHelper.exe-97E71398617B6C27F39BE66C596BC4C5.md) | 96
 
 
 

@@ -1,0 +1,49 @@
+﻿---
+title: GrLauncher.exe | GrLauncher
+---
+
+# GrLauncher.exe 
+
+* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\GrLauncher.exe`
+* Description: GrLauncher
+
+## Screenshot
+
+![GrLauncher.exe](screenshots/GrLauncher.exe-C814F03DF271718377D1AB5A6BAC84D2-1.png)
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `C814F03DF271718377D1AB5A6BAC84D2`
+SHA1 | `EAF531CDFB1FF814F9B6586AF43A3BD98DB413DB`
+SHA256 | `CF59178409BA74C50D38B21D2EE02EA8F52F9AD955E35D455338DD85AF270CCA`
+SHA384 | `735257D3876155CA0C0FC98849C72098A6C24D434FB022CEB2A5B9AF18EAB6010F411D6BE83460F3F94341277B4650EF`
+SHA512 | `4A79EC7C6C52B763C76C1453FFB86FB8DA2BAD75C07DECFD55809ECA5DACD9E867737339278398A69B3A4C64A2C32B52C04B8E9510BD481EC1D1434C2F1CBD78`
+SSDEEP | `49152:MIyddRh55Lv/EJysoON96j4+p2d7HH27TAklktncVfknOh:MtvRh55L3EJsON96j4+p2dy7TtlktncZ`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `59B4F88AACBE29B5C1AE3340C2C0F244`
+* Thumbprint: `27CBF6A879C267D0DE44D0E0E5BF74DEFAF6A959`
+* Issuer: CN=Symantec Class 3 SHA256 Code Signing CA, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+* Subject: CN=GRETECH, O=GRETECH, L=Gangnam-gu, S=Seoul, C=KR
+
+## File Metadata
+
+* Original Filename: GrLaunch.exe
+* Product Name: GrLauncher
+* Company Name: Gretech Corporation
+* File Version: 2.1.0.7
+* Product Version: 2.1.0.7
+* Language: Korean (Korea)
+* Legal Copyright: Copyright(C) Gretech Corp. All rights reserved. Since 2003
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -82,7 +82,7 @@ SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
 
 ### Usage (stderr):
 ```Batchfile
--helpThe system cannot find the file specified.
+--helpThe system cannot find the file specified.
 
 ```
 

@@ -61,7 +61,6 @@ or available locally via: info '(coreutils) false invocation'
 
 File | Score
 -- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\false.exe](false.exe-57443FAFE8F066C35B65274BBB8F26B6.md) | 100
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\true.exe](true.exe-D68DFC5B51138DCCB571499C715FD41D.md) | 80
 
 ## Possible Misuse

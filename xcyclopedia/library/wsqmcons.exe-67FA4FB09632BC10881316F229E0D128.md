@@ -40,6 +40,7 @@ SSDEEP | `768:xO9MbwAtFq+ogaRQpv1ojVbPJGJBMCat2Jp0sBflQuWnnnPreUVnbO6wGNj4:tbLog
 
 File | Score
 -- | --
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-0EB7F4F9C9F36AB73476E1445742E294.md) | 30
 [C:\WINDOWS\system32\wsqmcons.exe](wsqmcons.exe-3198C8F020BC60931404167EEC51E2BF.md) | 36
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-3B04F0282E333C98974BB8A39360DD24.md) | 33
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-5A06B640015F7BBB113AF7FF7E29A3BB.md) | 32

@@ -394,7 +394,7 @@ Value | Description
 
 #### Remarks
 
--   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:  
+-   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:
     -   With the **/e** plus **/purge** options, if the destination directory exists, the destination directory security settings are not overwritten.
     -   With the **/mir** option, if the destination directory exists, the destination directory security settings are overwritten.
 

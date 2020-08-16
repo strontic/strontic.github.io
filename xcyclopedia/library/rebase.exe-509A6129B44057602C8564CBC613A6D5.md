@@ -86,11 +86,6 @@ help: skipped because not rebaseable
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\rebase.exe](rebase.exe-509A6129B44057602C8564CBC613A6D5.md) | 100
 
 
 

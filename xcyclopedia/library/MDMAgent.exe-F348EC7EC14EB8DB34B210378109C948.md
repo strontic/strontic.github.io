@@ -36,6 +36,11 @@ SSDEEP | `3072:mupEb89riFezeeTK1X6EYzdMkbe0rHRnZnWtFekosFRS:mupEb89r/2E9KBMfgR`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\MDMAgent.exe](MDMAgent.exe-75C2003F3D269C07A5D52E3AA8225D05.md) | 83
 
 
 

@@ -36,6 +36,11 @@ SSDEEP | `1536:4b/xEmiR8soj7HD8zg+u6yKBQph9ficbp91w70Sw5/xlcPOd4odzvQ+a35S82r27:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\dtdump.exe](dtdump.exe-0ABB8047F83C7E4C5DF599F11842697F.md) | 46
 
 
 

@@ -130,11 +130,6 @@ Try '/usr/bin/cp --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\cp.exe](cp.exe-30AC9B3B2F244A51DAA533C3628B0403.md) | 100
 
 
 

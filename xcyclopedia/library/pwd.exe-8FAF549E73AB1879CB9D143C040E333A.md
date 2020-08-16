@@ -67,11 +67,6 @@ Try '/usr/bin/pwd --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\pwd.exe](pwd.exe-8FAF549E73AB1879CB9D143C040E333A.md) | 100
 
 
 

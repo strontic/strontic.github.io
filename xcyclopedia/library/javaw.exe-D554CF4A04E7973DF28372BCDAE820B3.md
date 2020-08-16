@@ -7,6 +7,10 @@ title: javaw.exe | Java(TM) Platform SE binary
 * File Path: `C:\ProgramData\Oracle\Java\javapath\javaw.exe`
 * Description: Java(TM) Platform SE binary
 
+## Screenshot
+
+![javaw.exe](screenshots/javaw.exe-6CE5BDFF0E2F280B0A270ECD1AC31E68-6.png)
+
 ## Hashes
 
 Type | Hash

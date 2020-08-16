@@ -59,6 +59,7 @@ File | Score
 [C:\windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-F1291C9C23C5661F4B371FF214260AE1.md) | 66
 [C:\Windows\system32\printui.exe](printui.exe-13554E4D7EFFD6EB9719D884DC5D3D1C.md) | 91
 [C:\Windows\system32\printui.exe](printui.exe-3D5F90A02F035FA8804EE3C8B8E2A680.md) | 86
+[C:\Windows\system32\printui.exe](printui.exe-89682E5353569213F4F9AA8B8AEFD69C.md) | 86
 [C:\WINDOWS\system32\printui.exe](printui.exe-C14B13D2A4DA60A016D90D395C4136E3.md) | 88
 [C:\windows\system32\printui.exe](printui.exe-CDF8D88B46FC4FA140B5F8B8B06192ED.md) | 88
 [C:\Windows\system32\printui.exe](printui.exe-FBA9678D2749E85B086F8CBF21757A32.md) | 93
@@ -71,6 +72,7 @@ File | Score
 [C:\Windows\SysWOW64\printui.exe](printui.exe-1A6A8EE565EA78DB660DB63960D2334F.md) | 90
 [C:\windows\SysWOW64\printui.exe](printui.exe-4B9586A61E98A403DAE98D4E62860081.md) | 88
 [C:\Windows\SysWOW64\printui.exe](printui.exe-A33E43C6E26BF582B98B639217639DA6.md) | 88
+[C:\Windows\SysWOW64\printui.exe](printui.exe-E73BC2E6C64861430CEA5D9C784BB6F7.md) | 90
 
 
 

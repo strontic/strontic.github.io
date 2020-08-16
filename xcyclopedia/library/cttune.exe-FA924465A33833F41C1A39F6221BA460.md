@@ -10,7 +10,6 @@ title: cttune.exe | ClearType Tuner
 ## Screenshot
 
 ![cttune.exe](screenshots/cttune.exe-45753895AAE368B288C39F8CF8F435E6-1.png)
-![cttune.exe](screenshots/cttune.exe-CCD6BF7BE1F0944A59F2BDC788FE24D5-1.png)
 
 ## Hashes
 

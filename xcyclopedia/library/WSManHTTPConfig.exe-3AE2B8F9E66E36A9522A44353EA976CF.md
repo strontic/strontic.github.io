@@ -18,11 +18,9 @@ SHA384 | `E687AF089652170100A3126DE79EAA8C436675B0244CE4ACFDC8F7BD66BBB8D078F086
 SHA512 | `660EEEB2C618AA79003D82E4921E5DC63FC94412A00E06836B9BE6C29F65B97F6B984301D5961F228B20D8C3FD49E48B2A4E05B5BCB7BACF1B6BE9F84344E11A`
 SSDEEP | `768:8x5XDOb98ZtDFK7l0cxV0eOHfi//2e2csde:8XOb98Q+AV0hfi/x2cie`
 
-## Runtime Data
-
 ### Usage (stderr):
 ```Batchfile
-WSMan Generic Command ERROR: Unknown switch: -help
+WSMan Generic Command ERROR: Unknown switch: --help
 WSMan Generic Command ERROR: Error in parsing input
 
 ```
@@ -30,8 +28,8 @@ WSMan Generic Command ERROR: Error in parsing input
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -47,12 +47,15 @@ File | Score
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-813CD5FD7FB059B4ED2D67A99FCBEEC0.md) | 49
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-9A393C5A2213248F772F6F8AAF26CBC8.md) | 46
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C0055D829C7FF7734EE77EE11B188A05.md) | 50
+[C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-C401D20C96E687E9F68DF87D938541EE.md) | 47
 [C:\Windows\system32\wermgr.exe](wermgr.exe-51F8D9C50CCF160D67388651DB19AC28.md) | 50
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 50
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 46
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 46
+[C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 44
 [C:\windows\system32\wermgr.exe](wermgr.exe-F88816F787B827695928ACE239A9F61C.md) | 54
 [C:\windows\SysWOW64\WerFault.exe](WerFault.exe-FF88EC2E38C3CDDA92ED566272477098.md) | 30
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-2C62D333A60162505F8CA1DBB432B7FA.md) | 40
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-3A8ED7F8072921BB83E6C9A143983073.md) | 49
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-504211A31F3A16D3FAD61A8451D08EFD.md) | 43
 [C:\WINDOWS\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-5DF1A6DC202D24CED14830637F145F48.md) | 47
@@ -61,6 +64,7 @@ File | Score
 [C:\windows\SysWOW64\wermgr.exe](wermgr.exe-1908E6DCCB5C330CCF3F0AD7E83FA4FD.md) | 55
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-2B5F4FFF330CD1B3B921DAF77330C205.md) | 44
 [C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 38
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-DEF33E6FF117395A2F1BF5A06D0988E1.md) | 44
 
 ## Possible Misuse
 
@@ -68,6 +72,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_1350.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml) | `            - '\System32\werfault.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_lsass_dump.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_lsass_dump.yml) | `        Image\|endswith: '\werfault.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 

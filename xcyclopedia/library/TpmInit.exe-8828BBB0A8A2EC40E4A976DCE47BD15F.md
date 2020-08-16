@@ -9,6 +9,7 @@ title: TpmInit.exe | TPM Initialization Wizard
 
 ## Screenshot
 
+![TpmInit.exe](screenshots/TpmInit.exe-2EF855672A91AA4443E8B4C2E1AE278E-1.png)
 ![TpmInit.exe](screenshots/TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F-1.png)
 
 ## Hashes

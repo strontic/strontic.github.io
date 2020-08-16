@@ -36,6 +36,11 @@ SSDEEP | `3072:WnO+btfdVfrNbfI/YHARVSWCk0lNdfO/3Cvshvkr5PcSMqDFE:KHJZI/YXk0Pd2/S
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-C2750E061ACAF4A930B39D6E5C47E4BA.md) | 97
 
 
 

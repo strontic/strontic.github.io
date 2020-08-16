@@ -54,6 +54,9 @@ e.g.
 
 ```
 
+### Child Processes:
+csrss.exe winlogon.exe
+
 ## Signature
 
 * Status: Signature verified.

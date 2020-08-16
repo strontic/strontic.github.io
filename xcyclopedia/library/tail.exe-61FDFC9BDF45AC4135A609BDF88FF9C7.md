@@ -98,11 +98,6 @@ Try '/usr/bin/tail --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\tail.exe](tail.exe-61FDFC9BDF45AC4135A609BDF88FF9C7.md) | 100
 
 
 

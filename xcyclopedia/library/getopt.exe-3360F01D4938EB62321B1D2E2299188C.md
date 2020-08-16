@@ -65,11 +65,6 @@ For more details see getopt(1).
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\getopt.exe](getopt.exe-3360F01D4938EB62321B1D2E2299188C.md) | 100
 
 
 

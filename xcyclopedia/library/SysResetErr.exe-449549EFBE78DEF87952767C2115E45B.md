@@ -36,6 +36,11 @@ SSDEEP | `768:IYNRFEviZppsecI+WChGhzsSNcgOQp+kE1gI1PCec:IYNRF7s7I919jp+kE1lPC3`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SysResetErr.exe](SysResetErr.exe-3CAB51BC753E5A3B1C029CD7B987BC1F.md) | 82
 
 
 

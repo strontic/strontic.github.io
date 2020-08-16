@@ -36,6 +36,11 @@ SSDEEP | `1536:cpvUmznA2BzHXf6b3v3WJeBxoMwiYAie+STpPGJYXkq5vlvkaPg:8xnA2BHPFJ4u1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\LockAppHost.exe](LockAppHost.exe-669B039303627B2FFD771B4B74C78BF7.md) | 85
 
 
 

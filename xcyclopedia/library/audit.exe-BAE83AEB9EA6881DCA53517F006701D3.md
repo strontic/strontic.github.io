@@ -36,6 +36,11 @@ SSDEEP | `1536:O7BimltHuN9XJuqyAl31u+emb9pTlXPmIgOBuxx0tlLGKYSniukop:61NuNJJoAl3
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\oobe\audit.exe](audit.exe-FF98C3A5ED0A6954EC4E337519E1957F.md) | 90
 
 
 

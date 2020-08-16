@@ -51,7 +51,7 @@ MOUNTVOL drive: /S
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{00261b03-110c-4593-a479-8811c298842a}\
+    \\?\Volume{d1215a4b-fdfb-42de-bc4c-d3998aa1a67a}\
         C:\
 
 
@@ -60,8 +60,8 @@ Possible values for VolumeName along with current mount points are:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

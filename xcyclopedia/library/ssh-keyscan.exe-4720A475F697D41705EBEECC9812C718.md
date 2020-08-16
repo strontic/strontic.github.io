@@ -4,7 +4,7 @@ title: ssh-keyscan.exe |
 
 # ssh-keyscan.exe 
 
-* File Path: `C:\windows\system32\OpenSSH\ssh-keyscan.exe`
+* File Path: `C:\Windows\system32\OpenSSH\ssh-keyscan.exe`
 
 ## Hashes
 
@@ -28,13 +28,13 @@ usage: ssh-keyscan [-46cDHv] [-f file] [-p port] [-T timeout] [-t type]
 ```
 
 ### Child Processes:
-wordpad.exe
+conhost.exe
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -54,9 +54,9 @@ File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-add.exe](ssh-add.exe-166F0CE9CC00A55569794AF53E847039.md) | 35
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-agent.exe](ssh-agent.exe-34F9BFD01311EA9D88ACE80CA7CDF890.md) | 33
-[C:\WINDOWS\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 36
-[C:\WINDOWS\system32\OpenSSH\ssh-agent.exe](ssh-agent.exe-9FFECD197D09FF33B00D5E5B78A48146.md) | 40
-[C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 21
+[C:\Windows\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 36
+[C:\Windows\system32\OpenSSH\ssh-agent.exe](ssh-agent.exe-9FFECD197D09FF33B00D5E5B78A48146.md) | 40
+[C:\Windows\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 21
 
 ## Possible Misuse
 

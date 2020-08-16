@@ -29,7 +29,7 @@ Copyright (C) 2017 Microsoft Corporation. All rights reserved.
 
 ### Usage (stderr):
 ```Batchfile
-onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF7EDC88732: (caller: 00007FF7EDC8928A) Exception(1) tid(14d8) 80070057 The parameter is incorrect.
+onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF6A26D8732: (caller: 00007FF6A26D928A) Exception(1) tid(1a14) 80070057 The parameter is incorrect.
     Msg:[
 
 USAGE:
@@ -37,8 +37,8 @@ convertvhd.exe -source <filepath> -destination <filepath> [-btt] [-toPMem]
 convertvhd.exe -sourceToken <file handle> -destinationToken <file handle> [-btt] [-toPMem]
 
 ] 
-onecore\vm\common\vml\VmModules.h(1492)\convertvhd.exe!00007FF7EDCA34E6: (caller: 00007FF7EDCA1CAC) LogHr(1) tid(14d8) 80070057 The parameter is incorrect.
-    Msg:[onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF7EDC88732: (caller: 00007FF7EDC8928A) Exception(1) tid(14d8) 80070057 The parameter is incorrect.
+onecore\vm\common\vml\VmModules.h(1492)\convertvhd.exe!00007FF6A26F34E6: (caller: 00007FF6A26F1CAC) LogHr(1) tid(1a14) 80070057 The parameter is incorrect.
+    Msg:[onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF6A26D8732: (caller: 00007FF6A26D928A) Exception(1) tid(1a14) 80070057 The parameter is incorrect.
     Msg:[
 
 USAGE:
@@ -53,8 +53,8 @@ convertvhd.exe -sourceToken <file handle> -destinationToken <file handle> [-btt]
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

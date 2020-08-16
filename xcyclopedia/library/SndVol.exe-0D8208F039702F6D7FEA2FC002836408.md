@@ -9,7 +9,7 @@ title: SndVol.exe | Volume Mixer
 
 ## Screenshot
 
-![SndVol.exe](screenshots/SndVol.exe-BE6B28D62DB5B2AAF92B00DBD717D453.png)
+![SndVol.exe](screenshots/SndVol.exe-7D7D5466FCDCD28976A004B5B08864E3-1.png)
 
 ## Hashes
 

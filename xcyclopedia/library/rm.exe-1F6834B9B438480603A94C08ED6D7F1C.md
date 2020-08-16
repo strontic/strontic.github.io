@@ -90,11 +90,6 @@ Try '/usr/bin/rm --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\rm.exe](rm.exe-1F6834B9B438480603A94C08ED6D7F1C.md) | 100
 
 
 

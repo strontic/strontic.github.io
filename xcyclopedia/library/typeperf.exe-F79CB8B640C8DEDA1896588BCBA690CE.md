@@ -25,9 +25,8 @@ SSDEEP | `768:Mrez2ecGi6KS8ak9ivuIwz8doMwQNd6YGvI3/YroadNoeHQV+UEhAz:MJGiWre1mds
 
 Microsoft r TypePerf.exe (10.0.19041.1)
 
-Typeperf
-writes
-performance data to the command window or to a log file. To stop Typeperf, press CTRL+C.
+Typeperf writes performance data to the command window
+or to a log file. To stop Typeperf, press CTRL+C.
 
 Usage:
 C:\Windows\SysWOW64\typeperf.exe { <counter [counter ...]> 
@@ -37,28 +36,49 @@ C:\Windows\SysWOW64\typeperf.exe { <counter [counter ...]>
                                 } [options]
 
 Parameters:
-  <counter [counter ...]>       Performance counters to monitor.
+  <counter [counter ...]>       Performance counters
+                                to monitor.
 
 Options:
-  -?                            Displays context sensitive help.
-  -f <CSV|TSV|BIN|SQL>          Output file format. Default is CSV.
-  -cf <filename>                File containing performance counters to
-                                monitor, one per line.
-  -si <[[hh:]mm:]ss>            Time between samples. Default is 1 second.
-  -o <filename>                 Path of output file or SQL database. Default
+  -?                            Displays context
+                                sensitive help.
+  -f <CSV|TSV|BIN|SQL>          Output file format.
+                                Default is CSV.
+  -cf <filename>                File containing
+                                performance counters
+                                to monitor, one per
+                                line.
+  -si <[[hh:]mm:]ss>            Time between samples.
+                                Default is 1 second.
+  -o <filename>                 Path of output file or
+                                SQL database. Default
                                 is STDOUT.
-  -q [object]                   List installed counters (no instances). To
-                                list counters for one object, include the
-                                object name, such as Processor.
-  -qx [object]                  List installed counters with instances. To
-                                list counters for one object, include the
-                                object name, such as Processor.
-  -sc <samples>                 Number of samples to collect. Default is to
+  -q [object]                   List installed
+                                counters (no
+                                instances). To list
+                                counters for one
+                                object, include the
+                                object name, such as
+                                Processor.
+  -qx [object]                  List installed
+                                counters with
+                                instances. To list
+                                counters for one
+                                object, include the
+                                object name, such as
+                                Processor.
+  -sc <samples>                 Number of samples to
+                                collect. Default is to
                                 sample until CTRL+C.
-  -config <filename>            Settings file containing command options.
-  -s <computer_name>            Server to monitor if no server is specified
+  -config <filename>            Settings file
+                                containing command
+                                options.
+  -s <computer_name>            Server to monitor if
+                                no server is specified
                                 in the counter path.
-  -y                            Answer yes to all questions without prompting.
+  -y                            Answer yes to all
+                                questions without
+                                prompting.
 
 Note:
   Counter is the full name of a performance counter in
@@ -75,8 +95,8 @@ Examples:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

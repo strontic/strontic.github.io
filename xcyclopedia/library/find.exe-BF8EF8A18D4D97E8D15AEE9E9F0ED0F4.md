@@ -82,11 +82,6 @@ email to <bug-findutils@gnu.org>.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\find.exe](find.exe-BF8EF8A18D4D97E8D15AEE9E9F0ED0F4.md) | 100
 
 ## Possible Misuse
 

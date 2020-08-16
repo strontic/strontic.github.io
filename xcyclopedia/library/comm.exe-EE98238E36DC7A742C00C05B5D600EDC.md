@@ -81,11 +81,6 @@ Try '/usr/bin/comm --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\comm.exe](comm.exe-EE98238E36DC7A742C00C05B5D600EDC.md) | 100
 
 
 

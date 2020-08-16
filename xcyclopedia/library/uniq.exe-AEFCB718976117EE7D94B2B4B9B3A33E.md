@@ -84,11 +84,6 @@ Try '/usr/bin/uniq --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\uniq.exe](uniq.exe-AEFCB718976117EE7D94B2B4B9B3A33E.md) | 100
 
 
 

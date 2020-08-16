@@ -40,6 +40,7 @@ SSDEEP | `1536:7JnAXHc8ynLbSbeduefalu+R/0V2oKQxsFEZ1MUHuGBSrJPR9v6GQumre2q6q:qc8
 
 File | Score
 -- | --
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-0EB7F4F9C9F36AB73476E1445742E294.md) | 40
 [C:\WINDOWS\system32\wsqmcons.exe](wsqmcons.exe-3198C8F020BC60931404167EEC51E2BF.md) | 32
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-5A06B640015F7BBB113AF7FF7E29A3BB.md) | 30
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-67FA4FB09632BC10881316F229E0D128.md) | 33

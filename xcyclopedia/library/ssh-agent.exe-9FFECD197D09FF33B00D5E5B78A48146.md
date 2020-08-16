@@ -4,7 +4,7 @@ title: ssh-agent.exe |
 
 # ssh-agent.exe 
 
-* File Path: `C:\windows\system32\OpenSSH\ssh-agent.exe`
+* File Path: `C:\Windows\system32\OpenSSH\ssh-agent.exe`
 
 ## Hashes
 
@@ -16,8 +16,6 @@ SHA256 | `79C03E83B42E3C0402680B47A2493C3C506E2D212062859BD7C4EBACA46F3AD5`
 SHA384 | `062C92AFE3DDD6CF63F575635036C84FF3311471D928FB2BC731D6023F67B4CE7DBF21754D22272888952966FF3A106B`
 SHA512 | `6C1077035A534C51586CF4ADAF6F7387AB3411F0C0662A3331F238D2C1F4BA007D352324B9B901ECE8838C3C458EE3526A1F88471672F8451EC87B82F7A217D5`
 SSDEEP | `6144:wE7PBeGGXEkgumpLL5szsz/uyNPgfdaDb2O7fcCnDto/HOvtBCrljcz:J7J1GlvQRSyVammkfCrljcz`
-
-## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -49,9 +47,9 @@ File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-add.exe](ssh-add.exe-166F0CE9CC00A55569794AF53E847039.md) | 38
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-agent.exe](ssh-agent.exe-34F9BFD01311EA9D88ACE80CA7CDF890.md) | 38
-[C:\WINDOWS\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 36
-[C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 25
-[C:\WINDOWS\system32\OpenSSH\ssh-keyscan.exe](ssh-keyscan.exe-4720A475F697D41705EBEECC9812C718.md) | 40
+[C:\Windows\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 36
+[C:\Windows\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-E7F2BA307D3C923709744745C25C9CB5.md) | 25
+[C:\Windows\system32\OpenSSH\ssh-keyscan.exe](ssh-keyscan.exe-4720A475F697D41705EBEECC9812C718.md) | 40
 
 ## Possible Misuse
 

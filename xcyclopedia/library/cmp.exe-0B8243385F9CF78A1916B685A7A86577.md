@@ -76,11 +76,6 @@ cmp: unknown option -- h
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\cmp.exe](cmp.exe-0B8243385F9CF78A1916B685A7A86577.md) | 100
 
 
 

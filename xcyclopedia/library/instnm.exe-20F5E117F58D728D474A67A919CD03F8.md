@@ -36,6 +36,11 @@ SSDEEP | `96:RLtlaijhm/uEp2keirJDGj4fDVHOEMsfP1vEW7JIXuWwxBesb:bEiVm/rItS5NM61sW
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\instnm.exe](instnm.exe-1B1261560B0D072A4643A48143C6ECD5.md) | 93
 
 
 

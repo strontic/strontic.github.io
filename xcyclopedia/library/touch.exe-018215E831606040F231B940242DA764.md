@@ -82,6 +82,9 @@ Try '/usr/bin/touch --help' for more information.
 * Legal Copyright: 
 
 
+
+
+
 MIT License. Copyright (c) 2020 Strontic.
 
 

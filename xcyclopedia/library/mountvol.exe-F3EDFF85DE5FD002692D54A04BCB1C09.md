@@ -51,7 +51,7 @@ MOUNTVOL drive: /S
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{00261b03-110c-4593-a479-8811c298842a}\
+    \\?\Volume{d1215a4b-fdfb-42de-bc4c-d3998aa1a67a}\
         C:\
 
 

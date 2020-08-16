@@ -71,11 +71,6 @@ Try '/usr/bin/basename --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\basename.exe](basename.exe-68BEA9F69240A089A7161AA238395C50.md) | 100
 
 ## Possible Misuse
 

@@ -42,6 +42,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\fixmapi.exe](fixmapi.exe-3174ECF9B3C9AC16DDF77BAB13DA6D27.md) | 49
 [C:\Windows\SysWOW64\fixmapi.exe](fixmapi.exe-C7385E6E8E1E437E4FBED1DCADB150E9.md) | 54
+[C:\Windows\SysWOW64\fixmapi.exe](fixmapi.exe-D2EB94CD3D20772989DF0CB0DE56C3ED.md) | 50
 
 
 

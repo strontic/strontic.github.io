@@ -110,6 +110,13 @@ bootsect /nt52 E:
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `bootsect.exe` being misused. While `bootsect.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) |       $f3 = "bootsect.bak" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

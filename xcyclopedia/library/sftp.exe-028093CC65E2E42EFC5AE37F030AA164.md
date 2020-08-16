@@ -4,7 +4,7 @@ title: sftp.exe |
 
 # sftp.exe 
 
-* File Path: `C:\windows\system32\OpenSSH\sftp.exe`
+* File Path: `C:\Windows\system32\OpenSSH\sftp.exe`
 
 ## Hashes
 
@@ -21,6 +21,7 @@ SSDEEP | `6144:pqTjTw9mPw0bLaPpV+y9h+jdi2qAYE4/GgcKuzxywdrHGlUTONZJVxrgZmlx4Cjh:
 
 ### Usage (stderr):
 ```Batchfile
+unknown option -- -
 usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
           [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
           [-o ssh_option] [-P port] [-R num_requests] [-S program]
@@ -34,8 +35,8 @@ conhost.exe ssh.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

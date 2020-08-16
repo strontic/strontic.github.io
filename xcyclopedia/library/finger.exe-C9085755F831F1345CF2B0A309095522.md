@@ -23,7 +23,7 @@ SSDEEP | `384:LgY+HjG7lsZSy9x6R58lSGQ7O7+VjNbKfWl0W:ETWUmVjAq`
 ### Usage (stdout):
 ```Batchfile
 
-[3303b1bc-44ef-437c-b151-24a3d83b8674]
+[b6f9104f-5aa4-45ac-9761-c1a236282b7a]
 
 ```
 

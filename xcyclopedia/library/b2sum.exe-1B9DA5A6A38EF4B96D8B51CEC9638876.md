@@ -81,11 +81,6 @@ or available locally via: info '(coreutils) b2sum invocation'
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\b2sum.exe](b2sum.exe-1B9DA5A6A38EF4B96D8B51CEC9638876.md) | 100
 
 
 

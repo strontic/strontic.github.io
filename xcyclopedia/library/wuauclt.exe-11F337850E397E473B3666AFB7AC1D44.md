@@ -36,6 +36,11 @@ SSDEEP | `1536:OK0TzC8tY6HAqCsd56ncymh7TpkwsZYZ6PD3:OKE+8tY6H/FPRkLYZ67`
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wuauclt.exe](wuauclt.exe-95E303BF80AECA5A296E519C61F42427.md) | 88
 
 ## Possible Misuse
 

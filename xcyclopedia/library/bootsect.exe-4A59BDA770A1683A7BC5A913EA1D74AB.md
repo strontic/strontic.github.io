@@ -94,8 +94,8 @@ bootsect /nt52 E:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -116,6 +116,13 @@ File | Score
 [C:\WINDOWS\system32\tzutil.exe](tzutil.exe-BBE2C493401937EABC8D1408305E2D0A.md) | 25
 [C:\Windows\system32\tzutil.exe](tzutil.exe-D707382B7D60EB8830A2DA9D6480062A.md) | 30
 
+## Possible Misuse
+
+*The following table contains possible examples of `bootsect.exe` being misused. While `bootsect.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) |       $f3 = "bootsect.bak" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

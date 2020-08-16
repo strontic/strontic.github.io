@@ -22,7 +22,7 @@ SSDEEP | `384:Js9qZDngKcZhS6JLFULEg9PhayhN9dsv/45rJLQhW79WBlW:JsgZbgZZGa49snUrJL
 
 ### Usage (stdout):
 ```Batchfile
-Bad option -help.
+Bad option --help.
 
 Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
             [-r count] [-s count] [[-j host-list] | [-k host-list]]

@@ -51,7 +51,7 @@ SSDEEP | `1536:Nz864NbAFyw/RAI/gz+PYkiOCbg/4CPJclm4az3DI5z5:Nz8pC7Rlozjkih4muAz5
 Enables you to digitally sign a Remote Desktop Protocol (.rdp) file.
 
 > [!NOTE]
-> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn283323(v=ws.11)).
+> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ### Syntax
 

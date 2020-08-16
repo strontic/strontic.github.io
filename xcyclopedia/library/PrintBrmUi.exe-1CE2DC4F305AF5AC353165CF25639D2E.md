@@ -40,6 +40,11 @@ SSDEEP | `1536:MjMQCWE1SzuGoWh0Gtl2FKr6pk+mUizvvKayD7:MJCWEHGoWh0GtlWKry1mUiznD6
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PrintBrmUi.exe](PrintBrmUi.exe-F51A4CE1A45BF7AB2FA7C7BB9B22335D.md) | 85
 
 
 

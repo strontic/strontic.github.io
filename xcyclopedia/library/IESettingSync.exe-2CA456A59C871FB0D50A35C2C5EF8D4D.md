@@ -36,6 +36,11 @@ SSDEEP | `12288:/Uoy2lnwgFgYAF3dKF1BzzjfPAhXKkvkp/:8N2ln3qY23dKF7rP+Kkvk1`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IESettingSync.exe](IESettingSync.exe-8AE7FC7658E929CFA176C05C1DB62434.md) | 83
 
 
 

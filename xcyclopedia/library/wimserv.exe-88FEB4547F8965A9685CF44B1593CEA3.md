@@ -36,6 +36,11 @@ SSDEEP | `6144:Eu0ZvbFD+iX57q5SCdMaJ29mi+DfS70+FBMlsDPkPw26EhN8K4oP9oQn8vND:8boi
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wimserv.exe](wimserv.exe-2FE2558908359D6F5486FC8D9FFFDF35.md) | 94
 
 ## Possible Misuse
 

@@ -95,7 +95,7 @@ Examples:
              /C "cmd /c echo @path 0x09 was changed 30 days ago"
     FORFILES /D 01/01/2001
              /C "cmd /c echo @fname is new since Jan 1st 2001"
-    FORFILES /D +6/27/2020 /C "cmd /c echo @fname is new today"
+    FORFILES /D +8/14/2020 /C "cmd /c echo @fname is new today"
     FORFILES /M *.exe /D +1
     FORFILES /S /M *.doc /C "cmd /c echo @fsize" 
     FORFILES /M *.txt /C "cmd /c if @isdir==FALSE notepad.exe @file"
@@ -104,7 +104,7 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "FORFILES /?" for usage.
 
 ```
@@ -112,8 +112,8 @@ Type "FORFILES /?" for usage.
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

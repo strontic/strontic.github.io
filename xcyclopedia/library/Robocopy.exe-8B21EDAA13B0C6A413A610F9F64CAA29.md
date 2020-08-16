@@ -27,7 +27,7 @@ SSDEEP | `3072:KvpGEuRH3T+yMmVFKIVDU0SA7E9uhzFFWMYFqjx6pkpGCs9nvIp:8p7uFKyMmrA9u
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Saturday, June 27, 2020 12:44:16 AM
+  Started : Friday, August 14, 2020 11:34:03 PM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -220,8 +220,8 @@ SSDEEP | `3072:KvpGEuRH3T+yMmVFKIVDU0SA7E9uhzFFWMYFqjx6pkpGCs9nvIp:8p7uFKyMmrA9u
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -414,7 +414,7 @@ Value | Description
 
 #### Remarks
 
--   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:  
+-   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:
     -   With the **/e** plus **/purge** options, if the destination directory exists, the destination directory security settings are not overwritten.
     -   With the **/mir** option, if the destination directory exists, the destination directory security settings are overwritten.
 

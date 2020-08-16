@@ -44,7 +44,7 @@ help
 
 ### Usage (stderr):
 ```Batchfile
-Unknown command '-help'. See pktmon  help.
+Unknown command '--help'. See pktmon  help.
 
 ```
 

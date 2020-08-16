@@ -36,6 +36,11 @@ SSDEEP | `3072:LuSMxutLfC1YnUkfdCD9mzDb9NgTk9yUILpi8L0nuz4/OLzIYayq+8rNMJe:LvMxu
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dmcertinst.exe](dmcertinst.exe-F4C5288EACB20BEC86982B71BF3AFC38.md) | 93
 
 
 

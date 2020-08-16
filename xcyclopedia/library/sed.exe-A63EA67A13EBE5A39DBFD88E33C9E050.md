@@ -135,11 +135,6 @@ General help using GNU software: <https://www.gnu.org/gethelp/>.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\sed.exe](sed.exe-A63EA67A13EBE5A39DBFD88E33C9E050.md) | 100
 
 
 

@@ -36,6 +36,11 @@ SSDEEP | `3072:3EuUHr85pxdP0IfiaGvlOveH9WPSIt2JAroPYmOiDT7XF0kdsJKgpr+ZVape8V/J:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\spool\tools\PrintBrmEngine.exe](PrintBrmEngine.exe-B41627D231D8A5A3B99947C07185C1C9.md) | 27
 
 
 

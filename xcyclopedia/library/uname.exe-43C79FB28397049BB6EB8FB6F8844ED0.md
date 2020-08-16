@@ -72,11 +72,6 @@ vmmem
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\uname.exe](uname.exe-43C79FB28397049BB6EB8FB6F8844ED0.md) | 100
 
 ## Possible Misuse
 

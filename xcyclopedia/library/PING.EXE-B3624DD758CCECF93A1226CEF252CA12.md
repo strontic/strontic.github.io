@@ -22,7 +22,7 @@ SSDEEP | `384:PVhNH/TqNcx+5tTAjtn3bPcPwoeGULZbiWBlWjVw:PVhZXx+5tTetLVohULZJgw`
 
 ### Usage (stdout):
 ```Batchfile
-Bad option -help.
+Bad option --help.
 
 Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
             [-r count] [-s count] [[-j host-list] | [-k host-list]]
@@ -65,8 +65,8 @@ conhost.exe
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

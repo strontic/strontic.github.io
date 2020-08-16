@@ -36,6 +36,11 @@ SSDEEP | `6144:CQO4sIYcDoPOPwoECHz+2rzmk5trop0OrNxWJr+dVbO1/IcM:CQOZnPOPyCHfzV9o
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rdpshell.exe](rdpshell.exe-FE617CBE8C91741FC09CF6F16FF34D8C.md) | 80
 
 
 

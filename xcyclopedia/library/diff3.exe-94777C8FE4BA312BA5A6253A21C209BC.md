@@ -92,11 +92,6 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\diff3.exe](diff3.exe-94777C8FE4BA312BA5A6253A21C209BC.md) | 100
 
 
 

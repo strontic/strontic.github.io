@@ -75,6 +75,7 @@ Reference.
 
 ### Usage (stderr):
 ```Batchfile
+FINDSTR: /- ignored
 FINDSTR: /h ignored
 FINDSTR: Bad command line
 

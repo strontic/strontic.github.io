@@ -40,6 +40,7 @@ SSDEEP | `1536:NfakaonCO/GnCwMslXQiAMlFdMi+J3JYP9TZTG3QrgBiTQGmCvtTJn+wRZmMvGxX:
 
 File | Score
 -- | --
+[C:\Windows\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-0ABBA71DB3BAEEF9F35AF8AD80C18D48.md) | 97
 [C:\WINDOWS\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-BB788CC0A96E281C637DB6F5B940AB51.md) | 63
 
 

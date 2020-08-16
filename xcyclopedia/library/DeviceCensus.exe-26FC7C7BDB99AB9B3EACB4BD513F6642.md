@@ -42,6 +42,7 @@ File | Score
 -- | --
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 83
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 85
+[C:\Windows\system32\SysResetErr.exe](SysResetErr.exe-3CAB51BC753E5A3B1C029CD7B987BC1F.md) | 32
 
 ## Possible Misuse
 

@@ -104,11 +104,6 @@ Try '/usr/bin/tr --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\tr.exe](tr.exe-0479775CAB07F030535E123B96FFA462.md) | 100
 
 
 

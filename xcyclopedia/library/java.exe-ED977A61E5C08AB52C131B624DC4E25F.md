@@ -1,0 +1,117 @@
+﻿---
+title: java.exe | OpenJDK Platform binary
+---
+
+# java.exe 
+
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java.exe`
+* Description: OpenJDK Platform binary
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `ED977A61E5C08AB52C131B624DC4E25F`
+SHA1 | `5074011606BEC3CDE8B48FD6FEB1DA66FBD2675F`
+SHA256 | `E649AA5FB3AEF54EF6FF651833ADB6DFC747AAB3DB14ABCC5FEEF16FAD6D88EC`
+SHA384 | `742D6624146643CE725C8BC2B637A67B8C2A3C7FBA465EDDB9B14815C2CAC37D2ED9B49EBEE1F9ADCD613A295A01DA38`
+SHA512 | `4577D5897EE7B64328B589F8D7781F508902AE21172B2DD40973DC8ED524F3E556CC1AFEFDCCF3A1BFEC70D034A92D357288BC12162F27EB320CF79CDE1324C0`
+SSDEEP | `3072:Y8p2g7wkRpsVVvr/T1qG6UiH7krmpEfdfGjW0TBf7YpDXW7k/IWalf:b2NEGDz/T1CjQrmGfde60TB97k/mlf`
+
+### Usage (stderr):
+```Batchfile
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32	  use a 32-bit data model if available
+    -d64	  use a 64-bit data model if available
+    -server	  to select the "server" VM
+                  The default VM is server.
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+
+```
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `2F83C35B5136353D68CE9EB669FD1B0B`
+* Thumbprint: `4BAD227329ADEF18F215B6475FB7948E1629B505`
+* Issuer: CN=Symantec Class 3 SHA256 Code Signing CA, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+* Subject: CN=Amazon.com Services LLC, OU=Software Services, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: java.exe
+* Product Name: OpenJDK Platform 8
+* Company Name: Amazon.com Inc.
+* File Version: 8.0.2650.1
+* Product Version: 8.0.2650.1
+* Language: Language Neutral
+* Legal Copyright: Copyright  2020
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-F0B47536472AB16EB1903169901F3C62.md) | 97
+[C:\Program Files\Amazon Corretto\jre8\bin\java.exe](java.exe-5E663E0E2CCCE189DD1C9E7D960FF67F.md) | 97
+
+## Possible Misuse
+
+*The following table contains possible examples of `java.exe` being misused. While `java.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_greenbug_may20.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_greenbug_may20.yml) | `            - '\programdata\oracle\java.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_10189.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_10189.yml) | `        ParentImage\|endswith: 'DesktopCentral_Server\jre\bin\java.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`java.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         description = "Detects uncommon file size of java.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         and filename == "java.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

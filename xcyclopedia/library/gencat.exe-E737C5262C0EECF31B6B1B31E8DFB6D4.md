@@ -17,8 +17,6 @@ SHA384 | `65AB6BE38ACD0FA640AE0D72F91F3CCA8FBC435F224C1A52877A1017A581FD8383DE56
 SHA512 | `E9D63D3A882AC7425DF80C75C1F4A9247D928D4B4D197876A0068A18FA37ECFBE2CF1AE1599F693FAEB18956836E72945C1FC71B87CC418FE38394271CAE5D3C`
 SSDEEP | `3072:vPJ3UWQESzQREJTtqaMTioHskolW5AqojzhWqqeQYmMgZmmEjScw7s3oazm:vPJkZESziElY1TiUsYojzhWimZZdEjbq`
 
-## Runtime Data
-
 ### Usage (stderr):
 ```Batchfile
 gencat: unknown option -- h
@@ -44,11 +42,6 @@ usage: gencat catfile msgfile ...
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\gencat.exe](gencat.exe-E737C5262C0EECF31B6B1B31E8DFB6D4.md) | 100
 
 
 

@@ -22,7 +22,7 @@ SSDEEP | `384:Pqsz66pGvFTnOVsFkxaHtywf+DgY2+WjjW:Pc68F6hx1VUBD`
 
 ### Usage (stdout):
 ```Batchfile
--help is an invalid parameter.
+--help is an invalid parameter.
 ---- Commands Supported ----
 
 tx     Commands related to transactions

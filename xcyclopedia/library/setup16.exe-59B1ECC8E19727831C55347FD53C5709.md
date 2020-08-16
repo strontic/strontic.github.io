@@ -45,6 +45,7 @@ SSDEEP | `384:4Z3bbVOI/YN7g8hqRryTglnqtan2Mm4Wco6O18OlVgQxAIFzWSpyWZ7L:iw2YQnGan
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\setup16.exe](setup16.exe-9BBE1E6C7CA4FCE45737BBF48CF8C9F3.md) | 58
+[C:\Windows\SysWOW64\setup16.exe](setup16.exe-CB685A2EB72FB3F518595514EFF053CD.md) | 96
 
 
 

@@ -62,7 +62,7 @@ Sets up or disables the TAPI client.
 ### Syntax
 
 ```
-tcmsetup [/q] [/x] /c <Server1> [<Server2> â€¦] 
+tcmsetup [/q] [/x] /c <Server1> [<Server2> â€¦]
 tcmsetup  [/q] /c /d
 ```
 
@@ -89,12 +89,11 @@ tcmsetup  [/q] /c /d
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-[Command shell overview](https://technet.microsoft.com/library/cc737438(v=ws.10).aspx)
+[Command shell overview](/previous-versions/windows/it-pro/windows-server-2003/cc737438(v=ws.10))
 
-[Specify telephony servers on a client computer](https://technet.microsoft.com/library/cc759226(v=ws.10).aspx)
+[Specify telephony servers on a client computer](/previous-versions/windows/it-pro/windows-server-2003/cc759226(v=ws.10))
 
-[Assign a telephony user to a line or phone](https://technet.microsoft.com/library/cc736875(v=ws.10).aspx)
-
+[Assign a telephony user to a line or phone](/previous-versions/windows/it-pro/windows-server-2003/cc736875(v=ws.10))
 
 ---
 

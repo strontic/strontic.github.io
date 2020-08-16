@@ -27,7 +27,7 @@ SSDEEP | `3072:CIsMV4DXl7fCpw55HgpjfIQQcg/rvzHaI3y9XF9FAAbpTT6mg1avYtvff:CJM+ZfC
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Saturday, June 27, 2020 12:05:17 AM
+  Started : Friday, August 14, 2020 10:43:45 PM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -414,7 +414,7 @@ Value | Description
 
 #### Remarks
 
--   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:  
+-   The **/mir** option is equivalent to the **/e** plus **/purge** options with one small difference in behavior:
     -   With the **/e** plus **/purge** options, if the destination directory exists, the destination directory security settings are not overwritten.
     -   With the **/mir** option, if the destination directory exists, the destination directory security settings are overwritten.
 

@@ -23,7 +23,7 @@ SSDEEP | `192:k7obhx5K9enOD92DgDmX/mXp6MFE+jJ6wWoWl0W0W:EUhx5MenW2DjXeXRTjJ1pWl0
 ### Usage (stdout):
 ```Batchfile
 
-[DESKTOP-JMDVC1N]
+[DESKTOP-0C3PLRM]
 
 ```
 
@@ -46,13 +46,13 @@ FINGER [-l] [user]@host [...]
 ```
 
 ### Child Processes:
-mmc.exe conhost.exe
+conhost.exe
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

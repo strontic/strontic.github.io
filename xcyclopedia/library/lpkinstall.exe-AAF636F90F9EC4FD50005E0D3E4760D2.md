@@ -36,6 +36,11 @@ SSDEEP | `768:Cj6Rghp/0enynqTmQxAB6ulx68SY/gWdP4aal0c28wvn6f9P:Cj6Rg7xyqTmiA4cxV
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\lpkinstall.exe](lpkinstall.exe-908D30340700A528C4958EEE6051FD8E.md) | 86
 
 
 

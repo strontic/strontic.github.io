@@ -22,7 +22,7 @@ SSDEEP | `12288:rYk0sKphzC3gVzq7F2+Iw6+DpB1MPh5hB:9JKzEgc7FPIw6+DpB1MPrh`
 
 ### Usage (stdout):
 ```Batchfile
-Unrecognized parameter: -help
+Unrecognized parameter: --help
 Parameters:
  /debug             to run the service executable in debug mode
  /safemode          to set up the service to run in safe mode

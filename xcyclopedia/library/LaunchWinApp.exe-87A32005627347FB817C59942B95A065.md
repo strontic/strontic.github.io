@@ -40,6 +40,11 @@ SSDEEP | `768:0mllU49zbtUEjM49favBpRPY7yNepRLoZryY:0I+49zOonRsY7yNzryY`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\LaunchWinApp.exe](LaunchWinApp.exe-EE4D58233B0C90B7BABDC402F2AB5BF8.md) | 90
 
 
 

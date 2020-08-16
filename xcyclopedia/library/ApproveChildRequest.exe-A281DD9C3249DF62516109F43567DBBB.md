@@ -40,6 +40,7 @@ SSDEEP | `6144:kYCKCIBaBYq+fEG0z97a2nfRGKdDPDvV:pCIsYqCEGU9+cnjDt`
 
 File | Score
 -- | --
+[C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-0774A755163023FFA8A42AC2851C9CC1.md) | 49
 [C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-A0105B22267A0AB8B5EA13274434E928.md) | 50
 
 

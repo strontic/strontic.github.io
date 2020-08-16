@@ -36,6 +36,11 @@ SSDEEP | `1536:fClV+9a+UI6d3TqUTqsVLwf2FcLCjfg1BKKP4VxGS1a7XHJ7G:fW+whI64UToe6L8
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WaaSMedicAgent.exe](WaaSMedicAgent.exe-A42CE607E8E9B0333F14762AE9C1419E.md) | 97
 
 
 

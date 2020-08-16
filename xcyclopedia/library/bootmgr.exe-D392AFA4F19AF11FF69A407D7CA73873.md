@@ -49,6 +49,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `bootmgr` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) |       $f2 = "bootmgr.efi" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

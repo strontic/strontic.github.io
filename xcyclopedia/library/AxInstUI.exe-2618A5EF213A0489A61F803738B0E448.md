@@ -42,6 +42,7 @@ File | Score
 -- | --
 [C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-04D542885F20AADF19D2D2C3464B4835.md) | 60
 [C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-6FDCF5C07AC244077ACCE422DBB4D330.md) | 58
+[C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-CEC05AD8BEA148A6FCA3854CB5243C3D.md) | 58
 [C:\WINDOWS\system32\AxInstUI.exe](AxInstUI.exe-EFE7E562B7DB17FD8C37B376A7FF2E50.md) | 74
 
 

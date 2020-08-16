@@ -75,9 +75,6 @@ Type "WHERE /?" for usage help.
 
 ```
 
-### Child Processes:
-perfmon.exe
-
 ## Signature
 
 * Status: Signature verified.

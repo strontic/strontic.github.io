@@ -35,11 +35,6 @@ SSDEEP | `1536:ZOfFlFIbsFehzGwEr+C4GeFHxlcwRNQvYR3vUckpKWl9AbI02RBTIvHWcWJFj8ld:
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\test.exe](test.exe-4DA9C891EBED25107CCE4AC83088295B.md) | 100
 
 ## Possible Misuse
 

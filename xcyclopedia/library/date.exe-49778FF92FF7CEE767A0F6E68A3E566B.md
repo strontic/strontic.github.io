@@ -153,11 +153,6 @@ Try '/usr/bin/date --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\date.exe](date.exe-49778FF92FF7CEE767A0F6E68A3E566B.md) | 100
 
 
 ## Additional Info*

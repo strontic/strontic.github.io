@@ -7,6 +7,10 @@ title: sysprep.exe | System Preparation Tool
 * File Path: `C:\windows\system32\Sysprep\sysprep.exe`
 * Description: System Preparation Tool
 
+## Screenshot
+
+![sysprep.exe](screenshots/sysprep.exe-DC3A5AB0D06F19841749657074D475CF-3.png)
+
 ## Hashes
 
 Type | Hash

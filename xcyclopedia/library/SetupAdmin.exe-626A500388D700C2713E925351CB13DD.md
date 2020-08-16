@@ -36,6 +36,11 @@ SSDEEP | `3072:XTEjN5dEXUN91pt0tDs5QpMaBq+p6RXb8GRocKkEup3kvOdeE37Kcvm93ZUFi2e:X
 * Language: English (United States)
 * Legal Copyright:  Apple Inc. All Rights Reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.8.5\SetupAdmin.exe](SetupAdmin.exe-DD167544E01837D53D4C97941E21994F.md) | 85
 
 
 

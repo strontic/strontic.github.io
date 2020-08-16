@@ -22,7 +22,7 @@ SSDEEP | `3072:Oy90dPKnlGwgbLOAZc7ejIKsvF6oW/GAYbHOeMFNa/zob48OQrq7w:KKn0Pb5qejI
 
 ### Usage (stdout):
 ```Batchfile
--help is an invalid parameter.
+--help is an invalid parameter.
 ---- Commands Supported ----
 
 8dot3name         8dot3name management
@@ -50,8 +50,8 @@ wim               Transparent wim hosting management
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -79,11 +79,11 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_fsutil_usage.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_fsutil_usage.yml) | `        OriginalFileName: 'fsutil.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #1: Indicator Removal using FSUtil [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #1: Indicator Removal using FSUtil [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | - [Atomic Test #1 - Indicator Removal using FSUtil](#atomic-test-1---indicator-removal-using-fsutil) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | ## Atomic Test #1 - Indicator Removal using FSUtil | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | will be displayed. More information about fsutil can be found at https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fsutil-usn | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | fsutil usn deletejournal /D C: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1551.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1551/T1551.md) | fsutil usn createjournal m=1000 a=100 c: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1070.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md) | - [Atomic Test #1 - Indicator Removal using FSUtil](#atomic-test-1---indicator-removal-using-fsutil) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1070.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md) | ## Atomic Test #1 - Indicator Removal using FSUtil | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1070.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md) | will be displayed. More information about fsutil can be found at https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fsutil-usn | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1070.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md) | fsutil usn deletejournal /D C: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1070.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md) | fsutil usn createjournal m=1000 a=100 c: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_badrabbit.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_badrabbit.yar) |       $s4 = "fsutil usn deletejournal /D %c:" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) |       $x5 = "fsutil usn deletejournal /D %c:" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 

@@ -68,8 +68,8 @@ Examples:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -192,7 +192,7 @@ manage-bde [-status] [â€“on] [â€“off] [â€“pause] [â€“resume]
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [Enabling BitLocker by Using the Command Line](https://technet.microsoft.com/library/dd894351(v=ws.10).aspx)
+- [Enabling BitLocker by Using the Command Line](/previous-versions/windows/it-pro/windows-7/dd894351(v=ws.10))
 
 ---
 

@@ -53,11 +53,6 @@ conhost.exe
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh.exe](ssh.exe-4E719BBBF76C12C2A036F17077BA10AB.md) | 100
 
 ## Possible Misuse
 

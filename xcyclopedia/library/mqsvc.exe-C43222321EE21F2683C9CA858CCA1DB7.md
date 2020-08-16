@@ -46,7 +46,7 @@ SSDEEP | `384:amuiqVWtNMaWI9pTZVZkhwK1+EtU3olovGU/TFMsSeeWoXW:P0kDDdV2h91+EtUSoT
 
 ## mqsvc
 
-Message Queuing technology enables apps running at different times to communicate across heterogeneous networks and systems that may be temporarily offline. Message Queuing provides guaranteed message delivery, efficient routing, security, and priority-based messaging. It can be used to implement solutions for both asynchronous and synchronous messaging scenarios. For more information about Message Queuing, see [Message Queuing (MSMQ)](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)).
+Message Queuing technology enables apps running at different times to communicate across heterogeneous networks and systems that may be temporarily offline. Message Queuing provides guaranteed message delivery, efficient routing, security, and priority-based messaging. It can be used to implement solutions for both asynchronous and synchronous messaging scenarios. For more information about Message Queuing, see [Message Queuing (MSMQ)](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)).
 
 ### Syntax
 
@@ -58,7 +58,7 @@ mqsvc.exe
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [MSMQ Powershell Reference](https://docs.microsoft.com/powershell/module/msmq/?view=win10-ps)
+- [MSMQ Powershell Reference](/powershell/module/msmq/?view=win10-ps)
 
 ---
 

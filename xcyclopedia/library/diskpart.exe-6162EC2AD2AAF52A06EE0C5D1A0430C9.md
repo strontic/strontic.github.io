@@ -26,7 +26,7 @@ SSDEEP | `3072:GSmnnUxcvpIcte3V2g0+8cI+I2ErgJ5S5UBT7hxJLW:GSmnUCXtcVD0sI72k75U51
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: 3303B1BC-44EF-4
+On computer: B6F9104F-5AA4-4
 
 Microsoft DiskPart syntax:
 	diskpart [/s <script>] [/?]
@@ -39,8 +39,8 @@ Microsoft DiskPart syntax:
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -161,9 +161,9 @@ You can run the following commands from the Diskpart command interpreter:
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [Disk management overview](https://docs.microsoft.com/windows-server/storage/disk-management/overview-of-disk-management)
+- [Disk management overview](../../storage/disk-management/overview-of-disk-management.md)
 
-- [Storage Cmdlets in Windows PowerShell](https://docs.microsoft.com/powershell/module/storage/)
+- [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/)
 
 ---
 

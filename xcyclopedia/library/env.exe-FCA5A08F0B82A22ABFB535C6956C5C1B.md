@@ -147,11 +147,6 @@ Try '/usr/bin/env --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\env.exe](env.exe-FCA5A08F0B82A22ABFB535C6956C5C1B.md) | 100
 
 
 

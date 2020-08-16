@@ -41,6 +41,7 @@ SSDEEP | `384:gDozbfhoJDDHb7mQNb3cktF8/AkNAXYB6LtTc57bNdcZceW2MWSMUggHiADiPGL:oo
 File | Score
 -- | --
 [C:\Windows\SysWOW64\upnpcont.exe](upnpcont.exe-33ECA4DA1C61D6591702CD667DB50527.md) | 80
+[C:\Windows\SysWOW64\upnpcont.exe](upnpcont.exe-70BE152182D262DCCA2D641422A6501D.md) | 79
 
 
 

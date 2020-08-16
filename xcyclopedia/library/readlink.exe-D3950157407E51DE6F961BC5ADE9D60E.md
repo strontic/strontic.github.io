@@ -73,11 +73,6 @@ Try '/usr/bin/readlink --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\readlink.exe](readlink.exe-D3950157407E51DE6F961BC5ADE9D60E.md) | 100
 
 
 

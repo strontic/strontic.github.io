@@ -77,7 +77,7 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "EVENTCREATE /?" for usage.
 
 ```

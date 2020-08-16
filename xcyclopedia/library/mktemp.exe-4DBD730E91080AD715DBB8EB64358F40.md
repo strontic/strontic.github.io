@@ -75,11 +75,6 @@ Try '/usr/bin/mktemp --help' for more information.
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\mktemp.exe](mktemp.exe-4DBD730E91080AD715DBB8EB64358F40.md) | 100
 
 
 

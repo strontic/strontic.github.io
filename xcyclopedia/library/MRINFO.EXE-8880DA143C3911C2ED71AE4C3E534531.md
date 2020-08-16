@@ -22,6 +22,8 @@ SSDEEP | `384:YFt53LJeMkQ6QknlMFwoDomCCmNKMfyPEHsWe8W:YrBrkT8huCmNKMfjH4`
 
 ### Usage (stdout):
 ```Batchfile
+Error: Address could not be resolved
+
 
 Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
        

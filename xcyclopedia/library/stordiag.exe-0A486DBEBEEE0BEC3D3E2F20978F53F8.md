@@ -40,7 +40,7 @@ StorDiag [-collectEtw] [-out <PATH>]
 ```
 
 ### Child Processes:
-conhost.exe
+conhost.exe systeminfo.exe
 
 ## Signature
 

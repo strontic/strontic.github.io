@@ -91,11 +91,6 @@ getfacl: /h: No such file or directory
 * Language: 
 * Legal Copyright: 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\getfacl.exe](getfacl.exe-F16420B53A7C5A41D25973AE3F9BDB12.md) | 100
 
 
 

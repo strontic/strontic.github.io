@@ -7,6 +7,10 @@ title: UevTemplateBaselineGenerator.exe |
 * File Path: `C:\WINDOWS\system32\UevTemplateBaselineGenerator.exe`
 * Description:  
 
+## Screenshot
+
+![UevTemplateBaselineGenerator.exe](screenshots/UevTemplateBaselineGenerator.exe-C85A5D2C00FF444E9E7D3E31977234AE-3.png)
+
 ## Hashes
 
 Type | Hash

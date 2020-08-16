@@ -116,7 +116,7 @@ makecab [/v[<n>]] [/d var=<value> ...] /f <directives_file> [...]
 
 - [diantz command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/diantz.md)
 
-- [Microsoft Cabinet format](https://docs.microsoft.com/previous-versions/bb417343(v=msdn.10))
+- [Microsoft Cabinet format](/previous-versions/bb417343(v=msdn.10))
 
 ---
 

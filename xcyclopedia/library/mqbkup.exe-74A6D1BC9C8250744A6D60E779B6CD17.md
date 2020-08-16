@@ -121,7 +121,7 @@ mqbkup /r c:\msmqbkup
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
-- [MSMQ Powershell Reference](https://docs.microsoft.com/powershell/module/msmq/?view=win10-ps)
+- [MSMQ Powershell Reference](/powershell/module/msmq/?view=win10-ps)
 
 ---
 

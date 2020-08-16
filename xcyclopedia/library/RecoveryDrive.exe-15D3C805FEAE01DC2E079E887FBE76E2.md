@@ -40,6 +40,11 @@ SSDEEP | `12288:judnjJlyS57c1ZDHvosqKS7vljtcyKZFjpjl++GYqZhGfe+3aOT+Ee5HbXDqdl:j
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RecoveryDrive.exe](RecoveryDrive.exe-8259659EB6B04EAA2CC5571E0BB7FBEB.md) | 88
 
 
 
