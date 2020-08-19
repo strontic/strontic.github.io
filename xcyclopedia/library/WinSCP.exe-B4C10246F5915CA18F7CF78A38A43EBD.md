@@ -1,5 +1,5 @@
 ﻿---
-title: WinSCP.exe | WinSCP: SFTP, FTP, WebDAV, S3 and SCP client
+title: WinSCP.exe | WinSCP- SFTP, FTP, WebDAV, S3 and SCP client
 ---
 
 # WinSCP.exe 

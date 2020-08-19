@@ -1,5 +1,5 @@
 ﻿---
-title: notepad++.exe | Notepad++ : a free (GNU) source code editor
+title: notepad++.exe | Notepad++ - a free (GNU) source code editor
 ---
 
 # notepad++.exe 

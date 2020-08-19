@@ -1,5 +1,5 @@
 ﻿---
-title: bdechangepin.exe | BitLocker Drive Encryption: PIN Change Tool
+title: bdechangepin.exe | BitLocker Drive Encryption- PIN Change Tool
 ---
 
 # bdechangepin.exe 

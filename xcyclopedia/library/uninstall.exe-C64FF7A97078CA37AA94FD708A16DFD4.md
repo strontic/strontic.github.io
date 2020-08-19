@@ -1,5 +1,5 @@
 ﻿---
-title: uninstall.exe | Notepad++ : a free (GNU) source code editor
+title: uninstall.exe | Notepad++ - a free (GNU) source code editor
 ---
 
 # uninstall.exe 

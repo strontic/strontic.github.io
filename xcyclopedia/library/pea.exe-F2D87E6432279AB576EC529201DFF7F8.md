@@ -1,5 +1,5 @@
 ﻿---
-title: pea.exe | Pea: pack, encrypt, authenticate
+title: pea.exe | Pea- pack, encrypt, authenticate
 ---
 
 # pea.exe 

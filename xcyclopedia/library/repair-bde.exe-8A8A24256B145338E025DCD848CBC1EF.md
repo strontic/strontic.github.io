@@ -1,5 +1,5 @@
 ﻿---
-title: repair-bde.exe | BitLocker Drive Encryption: Repair Tool
+title: repair-bde.exe | BitLocker Drive Encryption- Repair Tool
 ---
 
 # repair-bde.exe 

@@ -1,5 +1,5 @@
 ﻿---
-title: patch.exe | Patch: apply a diff file to an original
+title: patch.exe | Patch- apply a diff file to an original
 ---
 
 # patch.exe 

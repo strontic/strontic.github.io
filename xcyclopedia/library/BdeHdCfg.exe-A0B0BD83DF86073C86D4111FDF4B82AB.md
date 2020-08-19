@@ -1,5 +1,5 @@
 ﻿---
-title: BdeHdCfg.exe | BitLocker Drive Encryption: Drive Preparation Tool
+title: BdeHdCfg.exe | BitLocker Drive Encryption- Drive Preparation Tool
 ---
 
 # BdeHdCfg.exe 

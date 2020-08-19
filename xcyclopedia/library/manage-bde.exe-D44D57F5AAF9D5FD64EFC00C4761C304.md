@@ -1,5 +1,5 @@
 ﻿---
-title: manage-bde.exe | BitLocker Drive Encryption: Configuration Tool
+title: manage-bde.exe | BitLocker Drive Encryption- Configuration Tool
 ---
 
 # manage-bde.exe 
