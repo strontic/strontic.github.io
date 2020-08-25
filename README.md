@@ -4,8 +4,6 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 
 ### Jekyll Local Build Instructions
 
-0) (OPTIONAL) If SSH Keys are not already setup... `ssh-add ~/.ssh/id_rsa`, then `clip < ~/.ssh/id_rsa`. Paste into Github Account (More info: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows)
-
 1) Open *Git Bash*
 2) `cd ~/Documents/GitHub/strontic.github.io`
 3) `bundle update github-pages`
@@ -23,3 +21,7 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 - https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
 - https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
 - https://blog.bloomca.me/2017/12/15/how-to-push-folder-to-github-pages.html
+
+#### Git SSH Keys
+
+If SSH keys were not already configured... `ssh-add ~/.ssh/id_rsa`, then `clip < ~/.ssh/id_rsa`. Paste into Github Account (More info: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows)
