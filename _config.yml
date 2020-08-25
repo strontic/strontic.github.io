@@ -12,3 +12,8 @@ plugins:
   - jekyll-sitemap
 markdown: GFM
 highlighter: rouge
+destination: ./Docs
+
+#Build: This prevents MD files from being duplicated into the destination directory (if different directory)
+optional_front_matter:
+  remove_originals: true
