@@ -4,7 +4,7 @@ title: poqexec.exe | Primitive Operations Queue Executor
 
 # poqexec.exe 
 
-* File Path: `C:\windows\system32\poqexec.exe`
+* File Path: `C:\Windows\system32\poqexec.exe`
 * Description: Primitive Operations Queue Executor
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `164BC59090DC8FC229EB3F62D1C549C8F2496F31C3499A36A7359D1CD9768AE9`
 SHA384 | `4C21788298D56A5B503A0EA85204BCC571481353FD2B343CF0713DDEE9E925FF094795802F590F28CA9E143018EF9CE8`
 SHA512 | `266FAE8335CEFCA881046C035997CC9240FA8D7A24C5F7871D7990A35C3C6080E97E5E696FC6A9AF3819E85A2A89580D06CF1083ECF9976CEDD1BF414FA7B009`
 SSDEEP | `3072:CvlYeTJue2RjE3vOB5C2o6gBMpZ4Nbso508IxFkfh:CvlYgJ+RjE/OB5Vo6vqNYw08I4f`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

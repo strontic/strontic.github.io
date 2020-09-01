@@ -4,7 +4,7 @@ title: gtk-query-immodules-2.0.exe |
 
 # gtk-query-immodules-2.0.exe 
 
-* File Path: `C:\Program Files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe`
+* File Path: `C:\program files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe`
 
 ## Hashes
 
@@ -23,21 +23,32 @@ SSDEEP | `192:/G4XaYktPGlCI8Y6ITu/DEeXb34Fnt2BUszZWyHSapWU6eXEU9VSQ1lprDQIZVQa:O
 ```Batchfile
 # GTK+ Input Method Modules file
 # Automatically generated file, do not edit
-# Created by C:\Program Files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe from gtk+-2.16.6
+# Created by C:\program files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe from gtk+-2.16.6
 #
 
 ```
 
 ### Usage (stderr):
 ```Batchfile
-Cannot load module C:\Users\WDAGUtilityAccount\--help: `C:\Users\WDAGUtilityAccount\--help.dll': The specified module could not be found.
-C:\Users\WDAGUtilityAccount\--help does not export GTK+ IM module API: `C:\Users\WDAGUtilityAccount\--help.dll': The specified module could not be found.
+Cannot load module C:\Users\user\Documents\--help: `C:\Users\user\Documents\--help.dll': The specified module could not be found.
+C:\Users\user\Documents\--help does not export GTK+ IM module API: `C:\Users\user\Documents\--help.dll': The specified module could not be found.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

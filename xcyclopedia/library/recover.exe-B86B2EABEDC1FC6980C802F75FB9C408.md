@@ -4,7 +4,7 @@ title: recover.exe | Recover Files Utility
 
 # recover.exe 
 
-* File Path: `C:\windows\system32\recover.exe`
+* File Path: `C:\Windows\system32\recover.exe`
 * Description: Recover Files Utility
 
 ## Hashes
@@ -32,6 +32,26 @@ before using the RECOVER command.
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\recover.exe |
+
 
 ## Signature
 

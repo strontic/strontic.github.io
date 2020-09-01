@@ -18,6 +18,8 @@ SHA384 | `D98731E3F111333F9E8FB998000015F98D6891E2E3B6CEE8331340F7582A955995F011
 SHA512 | `ADEC344E54215DA973E6FF0ECB8F16B0D8E6CCE549D34D42E0B52FA76FD28149B818806A951EA561FFCF8B8B1612E2084718053238CCA8247B286DC1539540D0`
 SSDEEP | `768:iyaUZvEhpkMEkutakv/Kotcu1s+mlitj6iPGlVogExyylTWcqICJ:ieZvAlEkzlelT6ipUppICJ`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 usage: REGINI [-m \\machinename | -h hivefile hiveroot]
@@ -177,6 +179,16 @@ where: -m specifies a remote Windows NT machine whose registry is to be manipula
 REGINI: Missing parameter(s) for -h switch
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\regini.exe |
+
 
 ## Signature
 

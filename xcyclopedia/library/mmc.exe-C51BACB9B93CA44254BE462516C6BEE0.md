@@ -23,6 +23,52 @@ SHA384 | `50D70D08EBF9863D422DF3FC7978BCA58BE603643C000F59A571AC5EAA4D0915C9F141
 SHA512 | `36A110DCFF0E10B2C45A9C4F0850D114100F59525EAAC3E2FA95A8E9925A108AFC1AD05B800226FF5EB2D5B628D4C63BED2E4FC47EDCB440C975477EF0FF8AE8`
 SSDEEP | `24576:bj9vu0hWh5OephGCeKIvnOtAaOMo7wMo7DH:J45OeThmnOG97e7DH`
 
+## Runtime Data
+
+### Window Title:
+Console1 - [Console Root]
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mmc.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\mmcbase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mmcndmgr.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\SystemResources\mmcbase.dll.mun | File
+(R-D)   C:\Windows\SystemResources\mmcndmgr.dll.mun | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\188cHWNDInterface:240f6a | Section
+\Sessions\1\BaseNamedObjects\188cHWNDInterface:7b0fbc | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mmc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -79,9 +125,9 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Mmc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Mmc.yml) | `  - Path: C:\Windows\SysWOW64\mmc.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wsreset.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wsreset.yml) | ` - IOC: wsreset.exe launching child process other than mmc.exe` | 
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`mmc.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1546.015.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.015/T1546.015.md) | START MMC.EXE EVENTVWR.MSC | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | copy "#{executable_binary}" "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1548.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md) | mklink c:\testbypass.exe "\\?\C:\Windows \System32\mmc.exe" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1574.012.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.012/T1574.012.md) | START MMC.EXE EVENTVWR.MSC | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) |       $a5 = "taskkill /f /im mmc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*

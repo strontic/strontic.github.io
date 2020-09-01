@@ -22,6 +22,15 @@ SHA384 | `A2F13298DB99DF57F5E5F300CF733EA09FDE7A2B033C114332C68B9F918735AA86378C
 SHA512 | `9B2A4EFC3C4CE10F29EBD9ECBEDD40B99B4305058E2648AD2E843E31BE0DD8F2BB09F2779E6B1B3D60EB71EAA3C985DECE7E498E460F491C3EBBBCA5BE7BCEEE`
 SSDEEP | `3072:qC/AJTNKhOf4DQetpnimz4mgXxgDkMk4qBdL:qEATtetNimz4m2uqBd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\rekeywiz.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\rekeywiz.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

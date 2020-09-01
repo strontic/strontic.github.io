@@ -4,7 +4,7 @@ title: PATHPING.EXE | TCP/IP PathPing Command
 
 # PATHPING.EXE 
 
-* File Path: `C:\windows\system32\PATHPING.EXE`
+* File Path: `C:\Windows\system32\PATHPING.EXE`
 * Description: TCP/IP PathPing Command
 
 ## Hashes
@@ -22,6 +22,7 @@ SSDEEP | `384:dmSjRRQsfowYYmUO68sd2HMWU6ltmTL8SdxW6AW:BY+LdL+4TL8I`
 
 ### Usage (stdout):
 ```Batchfile
+--help is not a valid command option.
 
 Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n] 
                 [-p period] [-q num_queries] [-w timeout] 
@@ -42,6 +43,22 @@ Options:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

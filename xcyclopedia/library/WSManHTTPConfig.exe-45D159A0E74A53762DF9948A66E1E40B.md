@@ -4,7 +4,7 @@ title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
 
 # WSManHTTPConfig.exe 
 
-* File Path: `C:\windows\SysWOW64\WSManHTTPConfig.exe`
+* File Path: `C:\Windows\SysWOW64\WSManHTTPConfig.exe`
 * Description: WSMan HTTP Configuration File
 
 ## Hashes
@@ -18,18 +18,30 @@ SHA384 | `831B9C46A21C68BE899F7755FD6BD9271F830B36165EC4BFD4A99E6E3AC0FD21F2659E
 SHA512 | `9D705E647325EB0F5162C5F0ECE52E3267F66A85CC50E7ECE79E90763E214E93BBC8681CE3A9F7216BBA9DDC8CF64E11511F1016615CD6C83A27B8C63213F151`
 SSDEEP | `768:RjZPa/LdipG7U0KFtO2l948XZiIeDi//2GbO:hZPyUwEZiHDi/FbO`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-WSMan Generic Command ERROR: Unknown switch: -help
+WSMan Generic Command ERROR: Unknown switch: --help
 WSMan Generic Command ERROR: Error in parsing input
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WSManHTTPConfig.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

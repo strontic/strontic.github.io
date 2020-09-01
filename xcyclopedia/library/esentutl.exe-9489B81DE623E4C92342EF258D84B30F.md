@@ -4,7 +4,7 @@ title: esentutl.exe | Extensible Storage Engine Utilities for Microsoft(R) Windo
 
 # esentutl.exe 
 
-* File Path: `C:\windows\SysWOW64\esentutl.exe`
+* File Path: `C:\Windows\SysWOW64\esentutl.exe`
 * Description: Extensible Storage Engine Utilities for Microsoft(R) Windows(R)
 
 ## Hashes
@@ -22,6 +22,27 @@ SSDEEP | `6144:4OrKGG0GHqzPRHGfRldZ+YWvWmA97UX0RA0jPqNBSljUvVF0:4ObG0chfbGvQBUX0
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\esentutl.exe |
+
 
 ## Signature
 

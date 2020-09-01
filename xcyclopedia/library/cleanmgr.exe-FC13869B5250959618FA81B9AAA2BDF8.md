@@ -4,7 +4,7 @@ title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
 
 # cleanmgr.exe 
 
-* File Path: `C:\windows\system32\cleanmgr.exe`
+* File Path: `C:\Windows\system32\cleanmgr.exe`
 * Description: Disk Space Cleanup Manager for Windows
 
 ## Screenshot
@@ -23,6 +23,35 @@ SHA256 | `1BDAB94440132410D1AB623DED8F2427B34C233A063A150617AF271B9394025B`
 SHA384 | `9D8F1E958F8A6176BDF276029D62A9B06747EF9828027301833B99C46E8A972BAAEA5145483C82D0780021413CB44D42`
 SHA512 | `071A19BACF5311B9B09E2362CB3EFF2894CC790FAE5F450419B5C8750D650E035D991A188D1F679A6E8EBF430B90C1272807FA7136C6AFA1282C14484B810723`
 SSDEEP | `3072:99eq+KCx3PwALkqnAEPGRvQhRkKqUa9antF5hvvJkuXpe:9NCBkqAE+ohSKq99UF5hvv/`
+
+## Runtime Data
+
+### Child Processes:
+DismHost.exe
+
+### Window Title:
+USAGE
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\cleanmgr.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

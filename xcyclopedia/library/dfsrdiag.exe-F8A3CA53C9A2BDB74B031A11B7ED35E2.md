@@ -55,6 +55,13 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

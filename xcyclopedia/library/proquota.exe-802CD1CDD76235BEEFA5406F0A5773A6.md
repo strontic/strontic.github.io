@@ -18,6 +18,27 @@ SHA384 | `F8FC3A4A08AFEBE93E70F6758EA407B798788B06D54F07EED02D1E1A07F5E1CAF6A233
 SHA512 | `4CC28CDA6878FC288460638FE5E858D3837AB6B2B385CA97A0D0B6B7A22C9294789A008376F731298552664DFC2F31DCA8BD67B7273A0C19A9B762BB0B0508B5`
 SSDEEP | `384:VoYmzGe47482PWACGisc9ywU+eiF+PBYf/+hZJ1I6S2f10UglLUGcg8ZjUWfuW:eYJ7yWA6bU+eiFwYOdhrwLUGb+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\proquota.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

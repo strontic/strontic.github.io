@@ -4,7 +4,7 @@ title: cli.exe |
 
 # cli.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe`
+* File Path: `C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe`
 
 ## Hashes
 
@@ -17,15 +17,28 @@ SHA384 | `45439F64FADB19FA220609230E12DEEF84426DAFF12F8F9FC000E0861227A54896C0FF
 SHA512 | `9039AB6F88B87B43FED5DF4372921EA4F68A01DA14D005E852F61CAF8570FB6A729876847210E41166FB1E7DCA69FB0F6BB09964C2BF02744463734F4F33B25E`
 SSDEEP | `768:ljfnJFqNSkejOy27eW2Vef/7yX3jFICnFfvoUs49RsS98Pu4TNz14GAeRgxQ:JfnLq01weW5yX3jFxv49Nu4GhQ`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-Cannot open C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-script.py
+Cannot open C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-script.py
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,12 +58,14 @@ Cannot open C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-s
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
-[C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli.exe](cli.exe-336E81AA77418FC90E8BC6FC3D392F04.md) | 85
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli.exe](cli.exe-FF8C84D4ABC5451C70A8DF2561B005AA.md) | 85
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-32.exe](cli-32.exe-69956DA3F7E642965DEE4787AA4654D3.md) | 85
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-32.exe](cli-32.exe-D5E70A5780AEF48C7C8152F79F3AF04F.md) | 85
-[C:\Program Files\Python38\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
-[C:\Program Files\Python38\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\program files\Python38\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\program files\Python38\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 
 
 

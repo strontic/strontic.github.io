@@ -4,7 +4,7 @@ title: hsdb.exe | OpenJDK Platform binary
 
 # hsdb.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -38,6 +38,51 @@ Usage:  hsdb [[pid] | [path-to-java-executable [path-to-corefile]] | help | -hel
 ### Child Processes:
 conhost.exe
 
+### Window Title:
+HSDB - HotSpot Debugger
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\5644 | File
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\access-bridge.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\access-bridge-32.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\jaccess.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\jfxrt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jfr.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\resources.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\rt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\sa-jdi.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\tools.jar | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\Fonts\arial.ttf | File
+(RW-)   C:\Windows\Fonts\arialbd.ttf | File
+(RW-)   C:\Windows\Fonts\symbol.ttf | File
+(RW-)   C:\Windows\Fonts\wingding.ttf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_5644 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -60,8 +105,8 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jinfo.exe](jinfo.exe-536380B9EDDA1DC69DB259C3D1715DF0.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstatd.exe](jstatd.exe-A53DBF1919BB8F028056008F6F017DF0.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jinfo.exe](jinfo.exe-536380B9EDDA1DC69DB259C3D1715DF0.md) | 63
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstatd.exe](jstatd.exe-A53DBF1919BB8F028056008F6F017DF0.md) | 65
 
 
 

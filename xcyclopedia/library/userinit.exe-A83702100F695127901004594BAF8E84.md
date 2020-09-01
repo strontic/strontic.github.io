@@ -18,6 +18,30 @@ SHA384 | `4EC00E7A1073F8F096A4D2D05DF107B3F63DA23B3B6A993E15BE2F514F49174C73BF8E
 SHA512 | `52F330626CD2755035DAAB0A7B4EA7E48DC8DB14CAE27326B043618A1C9A2E592BD51E7D983422BA0E734D59FF07C95A9DEFBB933584CBA4ECCC70395C39EA33`
 SSDEEP | `384:Uwo38oAephzq+dtPzq0zUQm9J7uEQN2VMQn7RgWbymWhBGy:Uj38k7zq+bLjBm9d5QN23nS5BT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\system32\userinit.exe |
+C:\Windows\SYSTEM32\userinitext.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\winsta.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

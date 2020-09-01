@@ -40,6 +40,14 @@ Optional. Use this switch to enable this tool to ignore the schema version of  A
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\dcdiag.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

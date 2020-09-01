@@ -4,7 +4,7 @@ title: UninstDP.exe |
 
 # UninstDP.exe 
 
-* File Path: `C:\Program Files (x86)\MediaMonkey\UninstDP.exe`
+* File Path: `C:\program files (x86)\MediaMonkey\UninstDP.exe`
 
 ## Hashes
 
@@ -17,9 +17,33 @@ SHA384 | `C4158754B2BA99123358116F9C76A892435C4ED50D5CBF984DE742D45C1ED1C3A9F1C4
 SHA512 | `F5DEE82AB8875DB5959E8F1E89012596602AFC401E6AD4CB450245341E7D270F4F1C51FC86672690D7264AFE75C6D89BA47753E36A89F20E479FF289D5D12490`
 SSDEEP | `1536:AdKnHTC7f7exAcU8WKPtrMxdhDfJLk0PdUsS3ln52Mk:xHTC7fCJUbFDhLb83d52`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\MediaMonkey\UninstDP.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\MediaMonkey\UninstDP.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\MediaMonkey\UninstDP.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

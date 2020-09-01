@@ -24,6 +24,17 @@ SHA384 | `56398BB273A5B8E8702301ECA9C4DB4F2857C5A14FB823ADF16FF41B495DB5F2F8752D
 SHA512 | `EAB2E745833193C756E946788D81F3AB807BD71D7737EC13826A3A47F43E7D13DB10A6A6F94C9E8A50FF0414A1F1FD5B49E2665AC566799A11D84A27D7256BEB`
 SSDEEP | `3072:eGmoCInr2trmvwxW/gharkeCssz0/mHVf8fLMsmlp3vKpRB0+:eACInr2WCXGfIvCpRB0+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Zoom\bin\Zoom.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -46,7 +57,10 @@ SSDEEP | `3072:eGmoCInr2trmvwxW/gharkeCssz0/mHVf8fLMsmlp3vKpRB0+:eACInr2WCXGfIvC
 
 File | Score
 -- | --
+[C:\program files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-65CA9E0DF3C8B0D76BB0126B0C593A3C.md) | 40
+[C:\program files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-99C31B5AA52C51669444A916B3C02BB7.md) | 41
 [C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-F5575E3999B99035CFAC687907102B12.md) | 40
+[C:\program files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-DEAB73614D4D7C0807C5391FED75035A.md) | 35
 [C:\Program Files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-F95816E6ED240884AA0AA47BCE0229B4.md) | 35
 
 

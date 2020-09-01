@@ -25,6 +25,17 @@ SSDEEP | `6144:i6lrqsz/1TOZ4q2+Fei7DqUYpL5vb3WxHz9NTBZHdcxVW+GiLuCNjcP:1qszNTSM+
 ### Child Processes:
 atmgr.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Mobile Device Support\ATH.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

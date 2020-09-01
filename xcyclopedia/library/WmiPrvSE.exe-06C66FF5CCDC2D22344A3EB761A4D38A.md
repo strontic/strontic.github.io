@@ -4,7 +4,7 @@ title: WmiPrvSE.exe | WMI Provider Host
 
 # WmiPrvSE.exe 
 
-* File Path: `C:\windows\system32\wbem\WmiPrvSE.exe`
+* File Path: `C:\Windows\system32\wbem\WmiPrvSE.exe`
 * Description: WMI Provider Host
 
 ## Hashes
@@ -17,6 +17,30 @@ SHA256 | `B5C78BEF3883E3099F7EF844DA1446DB29107E5C0223B97F29E7FAFAB5527F15`
 SHA384 | `17849BDEBC360BDD488958A7A7B322ADE0B507DB1C0C15731243AC378426310FA81C196A480E28B873093B28E53471B3`
 SHA512 | `DF9E47A007CC831AB396C83806A3F92F837522759D11FBFC8B069EA513832252CB9C0DDD713AA09A2BA7762B57CFB18CDB13E74B166338EFAA616CD2BD13CDE9`
 SSDEEP | `6144:n55U8ziMJNIlFZVLizDI38GbSgHneOx3sZTSvq4rjyzuJDeP:53+qelFLLiYsGbSgHnD6cvqicuB8`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC18DC | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wbem\WmiPrvSE.exe |
+
 
 ## Signature
 

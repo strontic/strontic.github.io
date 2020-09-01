@@ -22,6 +22,33 @@ SHA384 | `CED837D34CCC8EF7975B6348392E0C83D3C081DBA71F9E4C7C5FD184F65076B4744CB1
 SHA512 | `54BF1E32C36D7AB05B455D2908F19ABE903C5B7B37F1F6C81F8414C41CC87FD5F01BA989260D8FB4C61A57478F8717732B2ABA364F1AD74A3AE125FC491F0171`
 SSDEEP | `3145728:AIjdsgooon1zd/A/G/j5xB/G5xdE5x65xS/W5xV5xh5xr5xT5xM5xw5xR5xb8sBr:tjd+ovT8sBr`
 
+## Runtime Data
+
+### Window Title:
+Malicious Software Removal Tool
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MRT.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,40 @@ SHA384 | `5DAC44FDF79B4D0E4FCBFBC8200F1B9B76FC0BDE08C3E6B634F96789A6FDED438C6988
 SHA512 | `3D8A9CAB6F6F6546D21A75E4F8D6DCF632E4F40FEEEEE6205600704EBF0BFDF8749F94E227934701CEE3AB2F905256A55E7DDED073CFE8AE3CDEA9A0D236E177`
 SSDEEP | `12288:icI92U/jpZyF1SFMLq/WYeL2eHKhAwMkNIDrIQbw58fuk1:zI9li3SP/WYeavEkt8fu`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SppExtComObj.Exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\System32\WS2_32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +70,11 @@ SSDEEP | `12288:icI92U/jpZyF1SFMLq/WYeL2eHKhAwMkNIDrIQbw58fuk1:zI9li3SP/WYeavEkt
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-03E8003E0D8DB6A28899156B1E3C3F73.md) | 80
 
 
 

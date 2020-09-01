@@ -49,6 +49,31 @@ The parameter is incorrect.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ActionQueue.dll |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\netutils.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\oobe\audit.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\SYSTEM32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\UNATTEND.DLL |
+C:\Windows\SYSTEM32\wdscore.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

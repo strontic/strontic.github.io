@@ -4,7 +4,7 @@ title: YSIconStamper.exe | YSIconStamper.exe
 
 # YSIconStamper.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Apple\Apple Application Support\YSIconStamper.exe`
+* File Path: `C:\program files (x86)\Common Files\Apple\Apple Application Support\YSIconStamper.exe`
 * Description: YSIconStamper.exe
 
 ## Hashes
@@ -25,6 +25,17 @@ SSDEEP | `768:TQo1GfsVEAro6UfW+yLqgq2IJsyVWHVbpvOuDCN3hPp:TQo1GfkEEQWxLIJhWHV1vO
 Usage: YSIconStamper <iconfile> <executable> <resource name/ID>
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Apple Application Support\YSIconStamper.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: senddoc.exe |
 
 # senddoc.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\senddoc.exe`
+* File Path: `C:\program files\LibreOffice\program\senddoc.exe`
 
 ## Screenshot
 
@@ -23,8 +23,15 @@ SSDEEP | `1536:WmA6WRlWCnNzYHXO51F15iezY9d2F0sNrP/RkjrEpm:JA6Sl/uX61n5NkXqNrP/Rk
 
 ## Runtime Data
 
-### Child Processes:
-conhost.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\senddoc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

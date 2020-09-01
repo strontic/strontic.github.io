@@ -18,6 +18,8 @@ SHA384 | `0C46B0FECB3B346EAB3E490CDD9B02509A212E54CA0337518C2E48A820DF207ACF03EA
 SHA512 | `E34A3EC8E66B2DB98E948B11B519FF256303FF5FF9B38A678172586E76869C02003BEB950B3E25D8EB48545650F0A2DA351C9DA4BAEC48DACC0CC9D8053892A1`
 SSDEEP | `384:E+i3f12nVyOkFmL0hjEaz5/g9K8yeZ1JDAhq6NLb0gW6WjMcZHKW3VuW:jivMPkEohPW9K8yar6R0gQlp`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Invalid parameter(s)
@@ -34,6 +36,16 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logman.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: klist.exe | OpenJDK Platform binary
 
 # klist.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\klist.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\klist.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -41,6 +41,17 @@ Usage: java sun.security.krb5.tools.Klist -help for help.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\klist.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -63,11 +74,11 @@ Usage: java sun.security.krb5.tools.Klist -help for help.
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\klist.exe](klist.exe-6A970FBA630D67B0F087637DB56EC0C2.md) | 85
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\tnameserv.exe](tnameserv.exe-3274B8934FBFB5CB07060033719BAB5E.md) | 60
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-7874489E19C78924C05D3BF61EA807EC.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\klist.exe](klist.exe-6EC7CA20366247C1BBAA9E68103B9520.md) | 88
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\tnameserv.exe](tnameserv.exe-55DC2860B7D0F30D785998CC1ABA5B4E.md) | 63
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\klist.exe](klist.exe-6A970FBA630D67B0F087637DB56EC0C2.md) | 85
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\tnameserv.exe](tnameserv.exe-3274B8934FBFB5CB07060033719BAB5E.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-7874489E19C78924C05D3BF61EA807EC.md) | 61
+[C:\program files (x86)\Amazon Corretto\jre8\bin\klist.exe](klist.exe-6EC7CA20366247C1BBAA9E68103B9520.md) | 88
+[C:\program files (x86)\Amazon Corretto\jre8\bin\tnameserv.exe](tnameserv.exe-55DC2860B7D0F30D785998CC1ABA5B4E.md) | 63
 
 
 ## Additional Info*

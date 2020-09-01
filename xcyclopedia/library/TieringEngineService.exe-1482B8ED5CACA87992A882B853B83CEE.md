@@ -18,6 +18,24 @@ SHA384 | `A95FAC17D3FD6562D32DCA4539690578C8F62CECFA3A5EDCD313E4A69EA049C7776891
 SHA512 | `989DA7C97CE163A75A0816CD8797366A8BD4006CA6D799201FD81DFBAA3549ED16F628B32313EEF3835DB40906F14A34E365A97186E1A670E9F7966CE907628C`
 SSDEEP | `3072:rQ9u+XFWXk/JEP08LS/y+4WH5+BHHftVjQujLR7JJSm1U6Sqehk7K:rgu+Xf/JEc8LS14W8BfDLRVJpW9h`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\mozglue.dll |
+C:\program files\Mozilla Thunderbird\MSVCP140.dll |
+C:\program files\Mozilla Thunderbird\thunderbird.exe |
+C:\program files\Mozilla Thunderbird\VCRUNTIME140.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

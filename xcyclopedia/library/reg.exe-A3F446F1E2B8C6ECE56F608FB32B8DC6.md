@@ -18,6 +18,16 @@ SHA384 | `08A34EB51E0741CA70CD9CE4F85C1C9BFFD4D9FCEA5FA1012C2531ED0C030CDC66E3E9
 SHA512 | `0728C4B3519462A08ED4FFA08B3F35ABCE76344DD49C79FCD9D9C7BF7C00E6FFC3DC5F2BD37FE7F2F3627E0E95EFA37BD724168F0C224248EFE6FA483C9A836E`
 SSDEEP | `1536:vy38PPvlbB4aNHPRS1Id5fbV5uRqRbkAlZJ6WsuqXakq7/c:egya/tdv5uERbdp0XR4U`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\reg.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\reg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

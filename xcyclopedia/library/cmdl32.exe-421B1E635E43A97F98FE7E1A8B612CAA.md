@@ -18,6 +18,16 @@ SHA384 | `6BB5D475AF07E8E1A56088CB91670A8C8AC4A8B65ED5E5A77E618F9F4B32CD598FA330
 SHA512 | `867920EC7B836F8BA0C12C736FC55B633F876F5A3F04E60495B4E80D17B3430D8570E201EB372B2AD55859FECEBF2BDA4B729965DE047B02148761307B8AE184`
 SSDEEP | `768:XTvH3EiucKtfMd18HpenahEt7tIguJhtxgi7JfY/r5JQn9M0SULD6nYe9q6qMTcm:XTf3EJcKtIeHIaitiguNxJ7JfY1JQn9O`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cmdkey.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cmdl32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

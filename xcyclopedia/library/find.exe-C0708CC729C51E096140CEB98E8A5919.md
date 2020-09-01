@@ -18,6 +18,16 @@ SHA384 | `E03D7B48350EB7E6E97EB84E78C366B7523670E87740EE84D4BF82DDD5AC7898F3569A
 SHA512 | `C0A3BF592175DB582DFB971A99FD931C4D02DAEFA8565E72E61105FD9B76FBFE4664C3F1BC373E003B9C411E31C0D9DCB99CBF1227E2DE3ED54D2300AA724BAD`
 SSDEEP | `192:RssQ9pabJsiuGYWTXDKo9PTswLiDb/3oVZPZakVkhFWwIWvUZ:R9QKYWTGo9PxZPQkirWwIWvU`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\find.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\find.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

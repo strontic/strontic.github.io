@@ -4,7 +4,7 @@ title: HOSTNAME.EXE | Hostname APP
 
 # HOSTNAME.EXE 
 
-* File Path: `C:\windows\system32\HOSTNAME.EXE`
+* File Path: `C:\Windows\system32\HOSTNAME.EXE`
 * Description: Hostname APP
 
 ## Hashes
@@ -36,6 +36,14 @@ sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\HOSTNAME.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

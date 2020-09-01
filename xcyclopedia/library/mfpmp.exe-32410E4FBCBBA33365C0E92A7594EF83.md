@@ -18,6 +18,17 @@ SHA384 | `F1230B51AD7E9A111E75A8BBDB829820951CE197D8D2F2FDC89851EEC39F7920408499
 SHA512 | `5206DB8459EE86CB6AB07A6802C51E55CCDFED4FBCE6BEE0A33575294040D071CD722B4E122F8E0F9EE696F51126F8D4F30F75288601211E665B9BC7E264189A`
 SSDEEP | `768:DKO+yNroxiR5xHHpClE2VqHisq/u9EEqPbs9vGXj1P/zw:DKVZxiR5xHHtmqHI7EqPbs9vApP/zw`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\metadata-viewer\metadata-viewer.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -24,6 +24,17 @@ SHA384 | `3A3BDC1F030063D046CB78804A11EB55A89B7E8C7ECFFB464744CA4F1F10B19DDCDA72
 SHA512 | `D897149A9F2B29299D6488B007DDD8D221F473AF4B6BC2F4DE968BB2F36EE86427A31173BB8A4EADCF4A4489901219F657541DA5E76DCE5FD30AC8D33C77719A`
 SSDEEP | `3072:+/FZuNynmb+aIE1aBSQwZyBH7ZE80C0biWIbN3DBCZxttaDO:0uNy9vE1aBSkVYA3D4Zh/`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wscript.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wscript.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

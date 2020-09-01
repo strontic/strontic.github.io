@@ -18,6 +18,31 @@ SHA384 | `ABEA006ADAD848E8822FEBD421C4E1B15BFC68A02FB78203EDDC320D5B0222B5A9649D
 SHA512 | `DF7B6569131C8AEA06D25526A1E18E2758065196DC8CDCA701EC74B7050D5F5CAE123EF49AACAB95353DDC9C0B814A45A02194ECC4E1632F8852EE1540C662F6`
 SSDEEP | `3072:4mqJc7rvLS1ANrP9pokJlAx7BP+vU9vwBktZDBfkPHC9RDTP09mp/KWo:4tYrvLS1Al3okJG9T9v1tBBfsHAK`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\apphelp.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\pcaui.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa\gdiplus.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

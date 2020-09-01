@@ -18,6 +18,26 @@ SHA384 | `72FB0863C6D4A3580EDBAE96D5AE4FB22933468D2BD1C61B2A47F64A62AF9824C270EA
 SHA512 | `C898F36A017528BD43D47608F35624F70FE87641CA1A37143799EEEB9ECBE5BB4FC7D7A7EB10EBE716EC0B81B2B6CED6427678457967B0B397F2C9C93DA7F4D2`
 SSDEEP | `1536:mXeOfHS56N5D1x+qykhcdsl0VKTQIdeIwx/yvWxO2VokIdCKP3:op5D1I9kWdYA/yvWxOAHKv`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
+C:\Windows\system32\RMCLIENT.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\RuntimeBroker.exe |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

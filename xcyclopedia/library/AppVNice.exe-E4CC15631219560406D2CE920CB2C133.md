@@ -4,7 +4,7 @@ title: AppVNice.exe | Microsoft Application Virtualization appvnice
 
 # AppVNice.exe 
 
-* File Path: `C:\windows\system32\AppVNice.exe`
+* File Path: `C:\Windows\system32\AppVNice.exe`
 * Description: Microsoft Application Virtualization appvnice
 
 ## Hashes
@@ -18,11 +18,23 @@ SHA384 | `9BCB4EBA66A1D12D78DF5DDE81288F6FA31E7FE5FA71C82754E7BEACBFF970B2F46AEF
 SHA512 | `E21329AE32C4BEABDC139D0444E92075DE1B34756B44F945BDA923C50359CC0DBDF40D37F499EBE9F2F5A54CA7BA07CFBD4CF4574D47D331CD2EE79AE07BE7C0`
 SSDEEP | `3072:0dYlE+eJ6uuhfRMVTMPzZAWGNU6ITLJcW+K6hqIFp:gLJ6uugTM2WGNU6ITLJChqE`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AppVNice.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

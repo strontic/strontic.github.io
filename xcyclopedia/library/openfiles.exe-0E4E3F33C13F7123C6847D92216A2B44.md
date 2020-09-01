@@ -18,6 +18,14 @@ SHA384 | `59A97AB3457AAE639D0FCFC849EF830306DFBB51428EB661D5FD7981E469CC6576CE0A
 SHA512 | `A44A44A4BC6FCF24BB4BA620A169E74A68985E25296DF7D9513C68F14815844C0DDCE07061B0315BBF5BC635EA15818650283786CC6219CC9FC25D9BE2661775`
 SSDEEP | `1536:Pd/kV1s49FCdS8vmRsbizG8iWt12BmjxRPaP:F49FCdS8vmmbQG8Omjx9`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\openfiles.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\openfiles.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

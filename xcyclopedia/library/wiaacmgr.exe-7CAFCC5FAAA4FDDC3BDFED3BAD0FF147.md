@@ -4,7 +4,7 @@ title: wiaacmgr.exe | Windows Picture Acquisition Wizard
 
 # wiaacmgr.exe 
 
-* File Path: `C:\windows\system32\wiaacmgr.exe`
+* File Path: `C:\Windows\system32\wiaacmgr.exe`
 * Description: Windows Picture Acquisition Wizard
 
 ## Hashes
@@ -17,6 +17,63 @@ SHA256 | `C485B377A3982A890B91F71495B1D74B7E0244D8B571800D462BFA051B0BF6C3`
 SHA384 | `A902890C79A7D971072526B1EB4E91B98EBDC325A7628C427DE55F1C6B45B92D1629657A251B74CE2AF15D6AF86602F3`
 SHA512 | `51A8F74BA208E45A4288F72E31A2752B1DA5D686226C01D794537481DFF1E5622BD89DD6031494C26CA40311D5623D11BBAA35067877ACBD9EB130098203D3B3`
 SSDEEP | `1536:wL46uxQPZnlN3EIpXey07p352nDXg3Ln6cMFQWd+uYiuWp+UmBo6Atf7:U4r6AIpOy0lEDXM+d+uMGmBo6Q`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\scansetting.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\wiaacmgr.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1B70 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MFC42u.dll |
+C:\Windows\system32\MSIMG32.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\ScanSetting.DLL |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\system32\wiaacmgr.exe |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa\gdiplus.dll |
+
 
 ## Signature
 

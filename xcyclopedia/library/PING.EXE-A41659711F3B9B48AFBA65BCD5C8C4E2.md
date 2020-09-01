@@ -18,6 +18,17 @@ SHA384 | `909593D3E144D947C31DE0B0BAFA6EED2AFC950A882FF6C196B49C239682342B6F76DA
 SHA512 | `868FA38CF8FE6BEC9C59135B0A0425E4F2B079FAAB145F50533C048C1531286035AE2FF6EC2F52127B078EF8178211DDCDC741D72E78FEC54F6B440B19CA4593`
 SSDEEP | `384:WPq7wf2cDzAK2IPOfwg/qaG7W3127r6lDXocT2sWjlW:WyafAK2IPojI7sY6lDYcT8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\PING.EXE |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\PING.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

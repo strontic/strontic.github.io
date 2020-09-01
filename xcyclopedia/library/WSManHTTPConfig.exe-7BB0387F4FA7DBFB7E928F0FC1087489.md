@@ -18,12 +18,28 @@ SHA384 | `070FA6EF19503D92F0C80FB795386E51E6F32C5BA71BDCB905598D1A408087103CB307
 SHA512 | `FF4188A3A84EDB56DC042053D27FCB53331B7947B42726654B20C3D779D343B7F7D2DA71141AC4AEABEEAF5B1D9BF0613ACCED7732F3E878F76739FE6FE8525C`
 SSDEEP | `768:zX08+lU8xqo+YIBc1u212uc3BxU0jhebi//2xb+tq:70n+gqRYBV12uSDfAbi/+b+t`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 WSMan Generic Command ERROR: Unknown switch: --help
 WSMan Generic Command ERROR: Error in parsing input
 
 ```
+
+### Child Processes:
+explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\WSManHTTPConfig.exe |
+
 
 ## Signature
 

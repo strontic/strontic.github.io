@@ -4,7 +4,7 @@ title: upnpcont.exe | UPnP Device Host Container
 
 # upnpcont.exe 
 
-* File Path: `C:\windows\SysWOW64\upnpcont.exe`
+* File Path: `C:\Windows\SysWOW64\upnpcont.exe`
 * Description: UPnP Device Host Container
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `8FC99D5AA8A124A217D12ADEBC52AC8A47F04E4A214A9D44CC125A70FFF58A85`
 SHA384 | `92780B9FCA5EB26593F189C03B2E63F863567B273A08B87DCD384C98FC3AC527280A0ACD282ED29E6EAB797F62455E23`
 SHA512 | `2A41260E381FB57B9DD1F899434074DDF4FE2B4A33B56997C862E0A205947C893B8FA85DB042827E99856E293709480EBB5FFB53D3A35C7D66D1C9D143CF7AB8`
 SSDEEP | `768:u0ozid9Q9vaGQbLC1Czw7bNqZmAaMUhHgS:sovivoZmAa3A`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC590 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\upnpcont.exe |
+
 
 ## Signature
 

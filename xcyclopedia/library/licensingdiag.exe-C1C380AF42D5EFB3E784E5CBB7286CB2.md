@@ -22,6 +22,16 @@ SHA384 | `B34C4FD626250B2CFE976C809CE30310B56B0DAE6B07DCAF65BB31F0171F1AD8E1A7A9
 SHA512 | `C61B1F2A707004207CB156979754EA25801B913E13F528D4FD66CDF1D539C74BFD108AE8D0C37A1E245CFF9A72BDEFBB247CD4F3A463581AAA994900E09E45D4`
 SSDEEP | `12288:vad0J+kl6fzxKGjqyKTRajuPAcSkNAJQ53snorQ:vfJ76fzxWyKTOuITQ5j`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\licensingdiag.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\licensingdiag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

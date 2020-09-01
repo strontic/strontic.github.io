@@ -18,6 +18,37 @@ SHA384 | `7734DE88C9F0DAA50F1048ECF0D62258B436E6288175C0B1EC569E0B5C3AF7EC6A16CE
 SHA512 | `B6C987369B50AA1D975DE30B133C7ED4B3269549F559C9B7D3439EF907423FF7320F77BB0239C28C48457429C3C5BF7C21B6B70A8B5D611B5E157D5D7E0392A9`
 SSDEEP | `192:sD6XRv2LYVpnXqK9to2AbeQHWHRWjeGWIsD1S8f4DBQABJtGnUkc67lqnajX8QCP:QLapnnorHWxWqGWvD1IDBRJtGnMolz8z`
 
+## Runtime Data
+
+### Child Processes:
+backgroundTaskHost.exe WerFault.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\backgroundTaskHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,7 +71,7 @@ SSDEEP | `192:sD6XRv2LYVpnXqK9to2AbeQHWHRWjeGWIsD1S8f4DBQABJtGnUkc67lqnajX8QCP:Q
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 44
+[C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 44
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 47
 [C:\Windows\system32\csrss.exe](csrss.exe-7D64128BC1EECE41196858897596EBC8.md) | 33
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 29

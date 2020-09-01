@@ -4,7 +4,7 @@ title: DevicePairingWizard.exe | Device Pairing Application
 
 # DevicePairingWizard.exe 
 
-* File Path: `C:\windows\system32\DevicePairingWizard.exe`
+* File Path: `C:\Windows\system32\DevicePairingWizard.exe`
 * Description: Device Pairing Application
 
 ## Screenshot
@@ -21,6 +21,42 @@ SHA256 | `1003A2E8786EF3F2BDB2C9A017DD5712192EB2C2AC88C296FA290B7F15C47EFB`
 SHA384 | `0DD7CAFD3D412FF8F248FFBA85CB1B8F5C115A23BF750963D68FC3ACCD5D4CE46463E2C1FB329C04A4B61F9029F76EE1`
 SHA512 | `9706DB92DA5939A5704085C8F22E5BD9586BB2BDC468EE988A1962AE7FBCEE3FB7D844EB9C99FF02A864CDA2DD8F3DB40CAE21BAAC544E1FFD096A7993617D39`
 SSDEEP | `768:pjNfqeerm2QoU47ltKE92Djb+e7Ynn7IiE1+t3+kxGyTHA4G0In3BhzhWM1GOVzh:tN72QoptKDwn7IiEwtLxGyTHqZ3qOTf`
+
+## Runtime Data
+
+### Window Title:
+Add a device
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\DevicePairing.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECF94 | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DevicePairingWizard.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

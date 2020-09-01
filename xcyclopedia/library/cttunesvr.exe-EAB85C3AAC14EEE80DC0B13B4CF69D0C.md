@@ -18,6 +18,13 @@ SHA384 | `6015F9CFF436423540D5E28CF909DBA6FA0E2B5EEE73D490263A0BE154EF8E2DB29163
 SHA512 | `025F07C7A682CD96EE309BBCA711DE2697AED93FCF4DA936984EFC1DB92A6B78F54ECE44D7655C5389AF8A2E2A46FD28B05AC717D3E8590EECD62E3D843E9D11`
 SSDEEP | `768:INYTqn5N2c//MPv6PW4iWMbrTTTSTB2bjmEDLxEHwMkNH80pqGVHTq:gYTq2c0ciWMrTTTI2fdDL2kNH80pNzq`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\cttunesvr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: java.exe | OpenJDK Platform binary
 
 # java.exe 
 
-* File Path: `C:\Program Files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe`
+* File Path: `C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `E6585FFDA88FDFEBA0B941372799ED846D53F9D0C96B1DC783E4E7327ABD1BE9`
 SHA384 | `ED643979CA6100D16B7ADDF4ECFE491BC48C67CEAE050691E361B9298FB7E7C746B0807AAD71428F49395FE52870412F`
 SHA512 | `511E9237073EF5F0B33C141F7FE9CFA7B22D98352FE645D50F3A94DA437933A47B83F08438F7C74E9421734F0CA1D6BEC78C2D69A11FA8095DD6B2FD108100CA`
 SSDEEP | `3072:e6Hm9nIIhfzMz+St5dOu7aq2WeCuXbvHXbz3DVIQuB6e+peARB9M5ZNTBfAO8Vc2:TtIK6RXB9M5ZNTBN7k/P7/q2`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -74,6 +76,17 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -96,11 +109,11 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe](java.exe-14C8D2CCB3E6701C84D6659562E5494E.md) | 97
-[C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-FC2AF8B73B73165E7D6F00A4327FF387.md) | 54
-[C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe](java.exe-415FE375F2BC0114CE6F34AEC91D1D10.md) | 97
-[C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe](javaw.exe-6CE5BDFF0E2F280B0A270ECD1AC31E68.md) | 54
-[C:\Program Files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-E525F9C4FEAE503CFAE7D6706867A898.md) | 54
+[C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe](java.exe-14C8D2CCB3E6701C84D6659562E5494E.md) | 97
+[C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-FC2AF8B73B73165E7D6F00A4327FF387.md) | 54
+[C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe](java.exe-415FE375F2BC0114CE6F34AEC91D1D10.md) | 97
+[C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe](javaw.exe-6CE5BDFF0E2F280B0A270ECD1AC31E68.md) | 54
+[C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-E525F9C4FEAE503CFAE7D6706867A898.md) | 54
 
 ## Possible Misuse
 

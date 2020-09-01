@@ -18,6 +18,24 @@ SHA384 | `4D8690324F587D19E3B11A63FE63E4218692EE30170E3943434A4545105E2861614C73
 SHA512 | `8406DC9CFD81669F4C16C5272E438C061FE200C0AA38F1064E21FEFBFB9356FACFCF46CFBC32D004A6092A68C96185AD8AC9C6D8D48FC492AE98E409E6055771`
 SSDEEP | `1536:EGUkAANziFZVt3A7HPd4n+lbeRZIbSQPT:fCA5iFZHQbPRyZ2pPT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PrintIsolationHost.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -41,6 +59,7 @@ SSDEEP | `1536:EGUkAANziFZVt3A7HPd4n+lbeRZIbSQPT:fCA5iFZHQbPRyZ2pPT`
 File | Score
 -- | --
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 55
+[C:\Windows\splwow64.exe](splwow64.exe-93A8D365CB20A105CB97FF41451B85D5.md) | 43
 [C:\Windows\splwow64.exe](splwow64.exe-9FCD31635CC99F1DAFB64AB3F963E0C1.md) | 49
 [C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 49
 [C:\Windows\splwow64.exe](splwow64.exe-B626F1C0194C73D55529E729A63209A2.md) | 49

@@ -18,6 +18,19 @@ SHA384 | `709B58F188CDDCEF1351FA0BBD6282A8EDBDC2324FC43E77A997B85F9C1F1ADF92B6B7
 SHA512 | `B2D4F2A832B636997F2E72C0EAF4620D5CBF0C929095305DB4B62918E92E6EF90A5EC72DD7A3A7E4E25D14B1E39F540E1785A975E6D7D97BF5EC855674CDA145`
 SSDEEP | `384:uZypIAkLlVlp+lfaTb16R//sOrQIwFxjxp6kmqt2J7ya+WFcWEV:cypIAk7pTC1rQIw7tzO7yal8`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\prevhost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

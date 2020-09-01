@@ -4,7 +4,7 @@ title: PasswordOnWakeSettingFlyout.exe | User CPL Password on wake setting flyou
 
 # PasswordOnWakeSettingFlyout.exe 
 
-* File Path: `C:\windows\system32\PasswordOnWakeSettingFlyout.exe`
+* File Path: `C:\Windows\system32\PasswordOnWakeSettingFlyout.exe`
 * Description: User CPL Password on wake setting flyout
 
 ## Hashes
@@ -17,6 +17,41 @@ SHA256 | `93E37875D30884F2B748A4BABDB8777D0D5EB2683F54283A032C0433A058D01F`
 SHA384 | `5DEDF8E84CA2E8078B5B48FC1B4ADB3E1F4CF3A963F3A257755A82728E897C161C698A43D63E087EAA118F03005D0597`
 SHA512 | `CA0824CB1EC47819C6C1A9A2DEF32DDEEB2A90AB5AF5A1E45B090881A9E4F88A22900287EF6E822DCCBE9BAB75B3C8BE39A59000B068A7FE6BFEF761DEA82BBB`
 SSDEEP | `768:F0JLsZWvx4I5UD5iVibsTLg7cVvoumrGBW80VaRx0HcMZJinUnI1Pk2:zW54bijgMmrlb8Rx0NZ0nUQPp`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PasswordOnWakeSettingFlyout.exe |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

@@ -18,6 +18,14 @@ SHA384 | `1C61E9DCFDC7C244298F3006D625AF09B1A3236C2D98103BF342A81B30126ED73C3929
 SHA512 | `8CA57F0C81E134A45474959A1FC03171150BA0D4041CA0D671E509404F7430FE34F6A1882D45D8C4222171F0E36B58F84846991908AE79B980313560D4BF47E6`
 SSDEEP | `768:pJrBdrBdP0rjgvCxBpPQ6HV0Oku742XPSYZuTmF5PX7JQ:RVf9qp5/GYYTspX7JQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\iisreset.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\inetsrv\iisrstas.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

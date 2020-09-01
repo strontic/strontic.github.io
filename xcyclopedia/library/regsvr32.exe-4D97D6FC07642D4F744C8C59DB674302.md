@@ -4,7 +4,7 @@ title: regsvr32.exe | Microsoft(C) Register Server
 
 # regsvr32.exe 
 
-* File Path: `C:\windows\SysWOW64\regsvr32.exe`
+* File Path: `C:\Windows\SysWOW64\regsvr32.exe`
 * Description: Microsoft(C) Register Server
 
 ## Screenshot
@@ -22,6 +22,38 @@ SHA256 | `E0E722A00C127E0425D2078E738B7A684C9F55A9BF521C67E9A40D796C8BE0E9`
 SHA384 | `31DD74D86D9A47B906E0C2AA1CA595F2F41C21A993520B8468F9C73713EEEA214EAB24AA72DA7665BCE9CFC132F17447`
 SHA512 | `0A4D3C22056FF19F37DCF9A0443B07D1D8F74BA4FF8A2795103F4D78E54D2F9A935117B0F193F93FB760E7437771BBFA9DDAFA5F68DBFED10A7CB42C50CB79D0`
 SSDEEP | `384:wte9jI+ixZu70NgDGLQQgykkskgSQlUPxAOWrnLHW0uv:k8exZYXS4UPSLXs`
+
+## Runtime Data
+
+### Window Title:
+RegSvr32
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\regsvr32.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\regsvr32.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: edpnotify.exe | Microsoft Enterpise Data Protection
 
 # edpnotify.exe 
 
-* File Path: `C:\windows\SysWOW64\edpnotify.exe`
+* File Path: `C:\Windows\SysWOW64\edpnotify.exe`
 * Description: Microsoft Enterpise Data Protection
 
 ## Hashes
@@ -17,6 +17,30 @@ SHA256 | `7CE0D1716206EA262EAC237EDFAD7C98CC0C73ECADDB5F0C307330190A44C5B1`
 SHA384 | `C78E9911BC06F1DA899058E8E0D904E501D867C55C4520075C37AD07A606E6D61EAFE65E04F63DA857208D70778B0DC3`
 SHA512 | `3EC75047848DF450D92870679AE990E9AA95F21F07F343B9A5A8F8E4BB19139A06F48CE09D2D35F830B09BAE44C95152EC7653D158DCFFA4DB270FC44852FA3C`
 SSDEEP | `768:mih2lpRKt7hUtQgZnVUOxrhWRRPm67xcuIGE:miklcAQunaKAH/7xc5GE`
+
+## Runtime Data
+
+### Child Processes:
+csrss.exe winlogon.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECAB4 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,16 @@ SHA384 | `01AE59B3BC78C8FBD9705A7ADE062D1F25F2D7E812CD4877E83019EB4FF904A6E20D25
 SHA512 | `74C85A04899BDC03AAF240492D431988BF219F0DB76F56677BBBFCC7856011B4693DA96352930153DD760367B593499E42913B98DC142C5FBC3E6E864A0DDE2D`
 SSDEEP | `768:SH/VilVH0LRioGTS1qztHW+JHX1cMmrxsehX:SH/GGVZGVhHFVmrxDX`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\timeout.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\timeout.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

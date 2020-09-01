@@ -18,6 +18,17 @@ SHA384 | `DF688479A6BEB469F5855219424ED7EE898D3E5026D704ABE269C36F06BDA4E818BF0B
 SHA512 | `350C7A330866122E22A8E796366A2B765C9AA939C40F12FB6883A102D930D6FF41951BD406234A34E79C7346DEC8B7F7B4F05725BC7879B122F14897D0D8AFC8`
 SSDEEP | `1536:sEzQXkp8Kdn9sFBIJqog8fMtILOajOPI:P8KdKaso4hlI`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cmdl32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\cmdl32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

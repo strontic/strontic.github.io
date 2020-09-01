@@ -18,6 +18,14 @@ SHA384 | `36D48180CEC4C7975822D3573CA9E2F5634A8B2C3286ED50551228069BF9ACD8EC77F4
 SHA512 | `7173EE70385D35880693370A1E38AEC91C7DE1974745F544426D7ADF815DFA1963797C62F00C10AD2753A350AE4ADD6DBF3FC51CF934B9BDBE7DFC5E71192AA6`
 SSDEEP | `384:7vojfDOksUtaJAfVAVJuu016WI2uub+khAUL5a2NsWE6W:MTDVaBJuN16WIgbjhA0Dk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chkntfs.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\chkntfs.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,14 @@ SHA384 | `7A62E36D3A124FCF840052D60C4CE2F353D8B24DBFE881E6D4C6943F42C8404F703FEF
 SHA512 | `74025B86910B145D3F76EB2C82317C49754C05A4D217D29FDDBBF612EAE872C44E2D063C2D76757469C0273F4E896BA7B0B392AB3B1EA1CB86F88C152F973C2B`
 SSDEEP | `384:rbGaON6g2FcR792uqge877VBmHXeggWg4WW:PON6g2FaJ2qTDJgz`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fsavailux.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\fsavailux.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

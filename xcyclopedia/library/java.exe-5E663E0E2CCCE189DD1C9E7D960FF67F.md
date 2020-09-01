@@ -4,7 +4,7 @@ title: java.exe | OpenJDK Platform binary
 
 # java.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\java.exe`
+* File Path: `C:\program files\Amazon Corretto\jre8\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `AC37B12C11040E25A10AADD48CA1C77E74323990F200A0B9464398E290C3B208`
 SHA384 | `1CD8256BA24975849FC75188F230F334EC105440BFE994C2FC80F1D0963DA0C4569C5C6139F828DE0F67AFBAF7EBF208`
 SHA512 | `1E04D7364988912350A4AA1F9BB37430D24A94FA83A83E821B56F45CC56C730E2411B9BCB2A22C46FFF64E332E131AA1292CBCF0E1957FE2A8695569AC57E0C4`
 SSDEEP | `3072:V8p2g7wkRpsVVvr/T1qG6UiH7krmpEfdfGjW0TBf7YpDXW7k/IWan:g2NEGDz/T1CjQrmGfde60TB97k/mn`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -73,6 +75,16 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jre8\bin\java.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -95,8 +107,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java.exe](java.exe-ED977A61E5C08AB52C131B624DC4E25F.md) | 97
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-F0B47536472AB16EB1903169901F3C62.md) | 97
+[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java.exe](java.exe-ED977A61E5C08AB52C131B624DC4E25F.md) | 97
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-F0B47536472AB16EB1903169901F3C62.md) | 97
 
 ## Possible Misuse
 

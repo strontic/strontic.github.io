@@ -18,6 +18,23 @@ SHA384 | `BE4D22A2182B6C6564333F0A79B887E31635CC92EF2D1C0C29758C332C3C53B19603F9
 SHA512 | `A9A9A2C92805039F474803986E979C48AE561D8388378FD5874BEFAB1F4753C3C590D49EE6F062A1CE259FFEF0EFCC829E38262467636C210C7AD988D5E66CF5`
 SSDEEP | `1536:orqBWAL1sSGJCUuSMRd4zj6iaQOgWUoEoMApxNA:1Hs5M0j+QOgWUnoMApr`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsSpellCheckingHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\MsSpellCheckingHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

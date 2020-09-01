@@ -4,7 +4,7 @@ title: sdiagnhost.exe | Scripted Diagnostics Native Host
 
 # sdiagnhost.exe 
 
-* File Path: `C:\windows\SysWOW64\sdiagnhost.exe`
+* File Path: `C:\Windows\SysWOW64\sdiagnhost.exe`
 * Description: Scripted Diagnostics Native Host
 
 ## Hashes
@@ -22,6 +22,30 @@ SSDEEP | `384:QHm8MXAvaaGVWyxfAzfVRmffQ7MPrOrye7mEZxaLelgWG7DWz:F1VnILVRmg7f7mma
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\sdiagnhost.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1BA8 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\sdiagnhost.exe |
+
 
 ## Signature
 

@@ -18,6 +18,17 @@ SHA384 | `612802E75469CD2F421F4F4E14EC4B1493239D0BECE8D6DB3D494FEB8F4169EA4BA573
 SHA512 | `266FDE41315FC1F506A07B69A4E609377FAB320CEE44AC47FFD655C06E1665DBFC586046A3D38A974331E4708D238BF93527E991F36A32C1E51661BC0436AF6B`
 SSDEEP | `6144:MXpGWRjQ/+5An6k0yx8QaLD89wzGjLep1FWoYlUdgc0/c9yv:F/+5nu8RLD8ezGjip1FqUO/c9yv`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\Integrator_Portable.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `6144:MXpGWRjQ/+5An6k0yx8QaLD89wzGjLep1FWoYlUdgc0/c9yv:F/+5nu8RLD8ezGji
 * Language: English
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\Integrator_Portable.exe](Integrator_Portable.exe-20982807A5D73AB54024DEDE7E7E4B37.md) | 91
 
 
 

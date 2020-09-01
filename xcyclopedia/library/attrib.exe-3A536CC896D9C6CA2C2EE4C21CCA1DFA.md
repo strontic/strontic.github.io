@@ -4,7 +4,7 @@ title: attrib.exe | Attribute Utility
 
 # attrib.exe 
 
-* File Path: `C:\windows\system32\attrib.exe`
+* File Path: `C:\Windows\system32\attrib.exe`
 * Description: Attribute Utility
 
 ## Hashes
@@ -50,6 +50,16 @@ ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [+O | -O] [+I | -I] [+X | -X] [+P
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\attrib.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: SystemPropertiesComputerName.exe | Change Computer Settings
 
 # SystemPropertiesComputerName.exe 
 
-* File Path: `C:\windows\system32\SystemPropertiesComputerName.exe`
+* File Path: `C:\Windows\system32\SystemPropertiesComputerName.exe`
 * Description: Change Computer Settings
 
 ## Hashes
@@ -17,6 +17,70 @@ SHA256 | `ACA5320EEB23777B050F7AB1483C216D5F951E34C1C350B93EAD5D59BD83BF81`
 SHA384 | `20F971351B5B6B625F3A8A1C2202A78DD6EDA09046A5186545245E0C2DD8BD92DBE10B7E2931ED64C0F44BAA2AF60B55`
 SHA512 | `7468A451CBD909E63F32A77923F68D14B122E33DC0B53316179CF68F7252F9BEF65007E4604765441DF5770517939636EB369C80A96566E7F4F6197E3EE92E57`
 SSDEEP | `1536:qIZctREC/rMcgEPJV+G57ThjEC0kzJP+V5Jx:lczECTMpuDhjRVJG7`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\netid.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesComputerName.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SYSDM.CPL |
+C:\Windows\system32\SystemPropertiesComputerName.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINSTA.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: xnview.exe | XnView Classic for Windows
 
 # xnview.exe 
 
-* File Path: `C:\Program Files (x86)\XnView\xnview.exe`
+* File Path: `C:\program files (x86)\XnView\xnview.exe`
 * Description: XnView Classic for Windows
 
 ## Screenshot
@@ -21,6 +21,40 @@ SHA256 | `169372CCEA0EBBD1998BD1FEC4A813F39FAE768115009FD8F6A853D68C5530B7`
 SHA384 | `44A80F102FF352CBA755FCAE8650B94DCBC7465EEDF20D6EB98DA840B60BEAFDABD3EABFE23454C98D286A9425CF2C36`
 SHA512 | `4FD2C20BBFB7A6C7E99268BF9B5B60142B8B3CAA8E8A8E51B7EB9F5399677CF40B3A9F8E8EEB40C02C4205800455CB493C22CA0EA058D5DF3B261B4B15BE73CB`
 SSDEEP | `98304:A82wAxsqx/nkrsgznHVLKLjlGC2MJ+YRNpbgRH0Y8fhlH2vef4qi:ACAxsqxfkrsgbHV2+MJ+QgHcf23`
+
+## Runtime Data
+
+### Window Title:
+XnView - Configuration wizard
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\msvfw32.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\XnView\xnview.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

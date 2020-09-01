@@ -27,6 +27,17 @@ SSDEEP | `6144:E3HvDnYIwGo94UTqAL4TA0NEB/aMQXmnlBGGyObmx+cX/fWAOWtAOHoJTq5MLi8a:
 ### Child Processes:
 MemfilesService.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\DpiScaling.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -45,6 +56,11 @@ MemfilesService.exe
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\DriverBackup.exe](DriverBackup.exe-3E460856D5421A40B5B075F1F772502B.md) | 97
 
 
 

@@ -4,7 +4,7 @@ title: syncli.exe | syncli.exe
 
 # syncli.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\syncli.exe`
+* File Path: `C:\program files (x86)\Common Files\Apple\Mobile Device Support\syncli.exe`
 * Description: syncli.exe
 
 ## Hashes
@@ -18,9 +18,11 @@ SHA384 | `D8E1D907531A1877FAE9FD0E482B3BB631614EE30000C28F48C48615AF31B5A2EABB67
 SHA512 | `27C4AE741C321DA923E391596E1BECE6B57A830DE6D04B326DFB5F27C655BB987D6382CD812373ACCA3488E820166DA3CA5DABC13EE0D191237D8D9BAC1AA84A`
 SSDEEP | `1536:aGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgteIUa9XnZxLs3hle:aGfKDBgbNY+JMrK+0w7IJgeBa9XnTLGe`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-2020-08-15 13:24:36.969 syncli.exe[15052:31b8] Usage syncli.exe [--dumpclients | --getclientinfo | --setclientinfo | --sync | --register | --unregister | --help ]
+2020-08-30 17:48:42.052 syncli.exe[7820:20b0] Usage syncli.exe [--dumpclients | --getclientinfo | --setclientinfo | --sync | --register | --unregister | --help ]
 --dumpclients - no arguments
 --getclientinfo CLIENT_ID
 --setclientinfo CLIENT_ID [ syncstate [ entityName | dataclassName ] [ fast | slow | refresh | push | pull ] ]
@@ -31,6 +33,17 @@ SSDEEP | `1536:aGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgteIUa9XnZxLs3hle:
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Mobile Device Support\syncli.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -54,23 +67,23 @@ SSDEEP | `1536:aGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgteIUa9XnZxLs3hle:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Apple\Apple Application Support\YSLoader.exe](YSLoader.exe-DD6A312E7CC9A3553B9B523AED113D0A.md) | 79
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileBackup.exe](AppleMobileBackup.exe-7387EECC874D1526742670009BC0167C.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileDeviceHelper.exe](AppleMobileDeviceHelper.exe-AB10CF87830496B5F5A72B305E944A2E.md) | 85
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileSync.exe](AppleMobileSync.exe-90DBA17E5E6965B4436C06AC06773381.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\ATH.exe](ATH.exe-AB873838889C0D6E7B1094C01D288BFF.md) | 86
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\com.apple.IE.client.exe](com.apple.IE.client.exe-4CD2AA8DE08B8A6B6F2057620B887EDD.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\com.apple.Outlook.client.exe](com.apple.Outlook.client.exe-EBC5F55FECCFDBEDC6827EBBEFB076B8.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\com.apple.Safari.client.exe](com.apple.Safari.client.exe-2593F12F42F8E9B9B04376D951600D65.md) | 82
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\com.apple.WindowsContacts.client.exe](com.apple.WindowsContacts.client.exe-C3D22C09BBA072A0BE14805356B7D58C.md) | 85
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\com.apple.WindowsMail.client.exe](com.apple.WindowsMail.client.exe-CF7991BC88177A773FFD6F3D9F3D7523.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\MDCrashReportTool.exe](MDCrashReportTool.exe-C0068C56AB4C4F6FE3A35D5C81CEB184.md) | 85
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\Mingler.exe](Mingler.exe-31C3C3CC12E315918E75B7882837CE13.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\SyncDiagnostics.exe](SyncDiagnostics.exe-92A58CA785BA91E2AC1530720EE071F6.md) | 85
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\SyncPlanObserver.exe](SyncPlanObserver.exe-B4B1151E96F13DC48264EB0E447A46B0.md) | 83
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\SyncServer.exe](SyncServer.exe-EA4B266CDF1A8DCF5B2DE976CFF655F3.md) | 85
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\SyncUIHandler.exe](SyncUIHandler.exe-8418129D58DAB6DB66E142D73239430A.md) | 86
-[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\upgradedb.exe](upgradedb.exe-E622EE21EE9AF752AFF196882052EF62.md) | 85
+[C:\program files (x86)\Common Files\Apple\Apple Application Support\YSLoader.exe](YSLoader.exe-DD6A312E7CC9A3553B9B523AED113D0A.md) | 79
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileBackup.exe](AppleMobileBackup.exe-7387EECC874D1526742670009BC0167C.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileDeviceHelper.exe](AppleMobileDeviceHelper.exe-AB10CF87830496B5F5A72B305E944A2E.md) | 85
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileSync.exe](AppleMobileSync.exe-90DBA17E5E6965B4436C06AC06773381.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\ATH.exe](ATH.exe-AB873838889C0D6E7B1094C01D288BFF.md) | 86
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\com.apple.IE.client.exe](com.apple.IE.client.exe-4CD2AA8DE08B8A6B6F2057620B887EDD.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\com.apple.Outlook.client.exe](com.apple.Outlook.client.exe-EBC5F55FECCFDBEDC6827EBBEFB076B8.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\com.apple.Safari.client.exe](com.apple.Safari.client.exe-2593F12F42F8E9B9B04376D951600D65.md) | 82
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\com.apple.WindowsContacts.client.exe](com.apple.WindowsContacts.client.exe-C3D22C09BBA072A0BE14805356B7D58C.md) | 85
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\com.apple.WindowsMail.client.exe](com.apple.WindowsMail.client.exe-CF7991BC88177A773FFD6F3D9F3D7523.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\MDCrashReportTool.exe](MDCrashReportTool.exe-C0068C56AB4C4F6FE3A35D5C81CEB184.md) | 85
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\Mingler.exe](Mingler.exe-31C3C3CC12E315918E75B7882837CE13.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncDiagnostics.exe](SyncDiagnostics.exe-92A58CA785BA91E2AC1530720EE071F6.md) | 85
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncPlanObserver.exe](SyncPlanObserver.exe-B4B1151E96F13DC48264EB0E447A46B0.md) | 83
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncServer.exe](SyncServer.exe-EA4B266CDF1A8DCF5B2DE976CFF655F3.md) | 85
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncUIHandler.exe](SyncUIHandler.exe-8418129D58DAB6DB66E142D73239430A.md) | 86
+[C:\program files (x86)\Common Files\Apple\Mobile Device Support\upgradedb.exe](upgradedb.exe-E622EE21EE9AF752AFF196882052EF62.md) | 85
 
 
 

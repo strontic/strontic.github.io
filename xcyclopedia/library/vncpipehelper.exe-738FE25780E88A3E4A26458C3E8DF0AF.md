@@ -4,7 +4,7 @@ title: vncpipehelper.exe | VNC Server
 
 # vncpipehelper.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\vncpipehelper.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\vncpipehelper.exe`
 * Description: VNC Server
 
 ## Hashes
@@ -18,11 +18,23 @@ SHA384 | `2D8BE65F8E8FA823818481F0B8FD9C58A2812E7E37B915A4632C578692F08BFD1252C5
 SHA512 | `D3A335B2DE8C3E097F9CC842960CC0859974DC8CEA6ED084BD68EB516DA3891E231781552336A079AA28BECBFB8F8EEEB2110EAFDF3FBF11809238CA0188A300`
 SSDEEP | `12288:29qPKSwhug9hoy6T/tjQG/JTPTKZyg80X+Mnm2FD+uvLp:oPug9R6T/9QGxv88MfmLuvLp`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 This program is not intended to be run directly.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\vncpipehelper.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -22,6 +22,21 @@ SHA384 | `54BD368CC2B6031123A953D094F4B49089ECBA0A4D39F69D04E3DA1E11FA2232ABACF4
 SHA512 | `4F9A6584DC663E5738811C8380297FD4E1A75B83B84CE4D8BEAD1BF623F269AD9833E095AB327A9312479B667350C2E6DC7EA1E2FEF120306D623E0E86F4881A`
 SSDEEP | `1536:bZTx4ri3Gcd6YKCMy45ICZCP6Lz2N2ug:bZTx4rhcd6645ICZCP6lH`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mshta.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\msiexec.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

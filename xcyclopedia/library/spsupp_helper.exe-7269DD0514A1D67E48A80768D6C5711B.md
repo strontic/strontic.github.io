@@ -4,7 +4,7 @@ title: spsupp_helper.exe |
 
 # spsupp_helper.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\spsupp_helper.exe`
+* File Path: `C:\program files\LibreOffice\program\spsupp_helper.exe`
 
 ## Hashes
 
@@ -16,6 +16,28 @@ SHA256 | `5AE75C90C488CCE6D63AB8C8EFB689F059EC5A1E2198FEAC2ACBD43F05E0D21B`
 SHA384 | `311E567B4BAD0062B8D0689E9D4320B0BA365E1ED97DE33EB358D9DE743C7444E61DD548546B5F0C95BFB599B4CE9D09`
 SHA512 | `5F9F87298503C5FB4E0B3168494D2D82EDCF8327839C67A0F05F797A61B43A7CCFEDF42237F31636C7F8B638424E8868A74377E99247A5AEE159D15A9AF3F366`
 SSDEEP | `768:Pv8qAFzHnvaY/XSX8C3wmfUEK2LfIhAEhFFlf:PvFejvB/iXD98JGghAEpN`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\i18nlangtag.dll |
+C:\program files\LibreOffice\program\mergedlo.dll |
+C:\program files\LibreOffice\program\sal3.dll |
+C:\program files\LibreOffice\program\spsupp_helper.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

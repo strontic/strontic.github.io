@@ -18,6 +18,14 @@ SHA384 | `5AE9168697A0074BA20B1B70B74A1D645E9F8E65396372A45362940ED522A568F474F2
 SHA512 | `5655DEC7CB74C8E6A9F1204E8FAAB0EC90E810AE82718BD9152F8C7F549F1BAF24A417EB5039AA7351E639AA24035BD2A958CEF982FE8A19EB6C09ED8D57B03E`
 SSDEEP | `768:Mk28bsYEEUzxhxXEsBEsQ4rKjRj/VALS:B28bsYEEUzxr0sBEsQ4GjRj/KLS`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\regsvr32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\regtrace.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

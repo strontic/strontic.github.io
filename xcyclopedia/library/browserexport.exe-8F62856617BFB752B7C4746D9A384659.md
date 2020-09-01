@@ -18,6 +18,23 @@ SHA384 | `80C3979630489B6AA04350F9B4D10A67D038AFECCBA0D0A9BB0A0DBA38A1C0653B9FD0
 SHA512 | `6B181A691939A4B9ED655D2E1C7B88B5E990BE83AD4CCA45811D1BCD8A6CCA612FB5B396ACAC96E1CB2B1127F3FEC1295B4CB250A0ABBBDD28E909B20CE3AAC6`
 SSDEEP | `3072:A6sR5hdaQoi36UnM/EA1Pozcrx2SpDatdgKmUw1NbPbMssjpt4S2+GcykX:YR5hdPoi36EM/1xvpDatdvUbPbMsDcz`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\browserexport.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

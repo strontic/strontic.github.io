@@ -18,6 +18,39 @@ SHA384 | `7841EDCEF9E98CA65467EF2BA0C23C70279E5B8B9489E98388CF6799802B1CC0D2B75E
 SHA512 | `3580EAEDFC3EA83AD93E96F7AFC3152AE85E58D89BBA522E11AC77EC31F6DC34AAF4EE19AE743D2E85A0FF85EA6EEE010E814400E2B92FB9EBC269136F440005`
 SSDEEP | `1536:v7kVOPRMzTIP01zyWuYZp/ytbWiw+Y3N2HKtaM2:jk8GoP01mol+HKQM2`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LanguageComponentsInstallerComHandler.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

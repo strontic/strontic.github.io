@@ -4,7 +4,7 @@ title: quser.exe | Query User Utility
 
 # quser.exe 
 
-* File Path: `C:\windows\SysWOW64\quser.exe`
+* File Path: `C:\Windows\SysWOW64\quser.exe`
 * Description: Query User Utility
 
 ## Hashes
@@ -48,6 +48,13 @@ QUERY USER [username | sessionname | sessionid] [/SERVER:servername]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

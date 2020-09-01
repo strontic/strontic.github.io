@@ -18,6 +18,21 @@ SHA384 | `9F0E74A3FC5ED5621A2C9DEA600C459D4D415FF4F9C5083C68B31D9693435E573E4C5D
 SHA512 | `4796606D6D61A93894E033BBE23FA9F6C05D72F433B4522F3E10A0D71A7AE7BEEBFB8CB00F78DAA9A6F6881BE58EE82B5336B82C98DD6A3C11BDBC90CFE3B019`
 SSDEEP | `192:f1CJDNbj7tYacksOgasl96c/xPhu9ai5uTEDcw8AW5yW:wJRXcksOqHMcFAW5yW`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dllhst3g.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

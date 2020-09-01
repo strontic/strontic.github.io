@@ -4,7 +4,7 @@ title: sfc.exe | System Integrity Check and Repair
 
 # sfc.exe 
 
-* File Path: `C:\windows\system32\sfc.exe`
+* File Path: `C:\Windows\system32\sfc.exe`
 * Description: System Integrity Check and Repair
 
 ## Hashes
@@ -53,6 +53,14 @@ e.g.
         sfc /VERIFYONLY
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sfc.exe |
+
 
 ## Signature
 

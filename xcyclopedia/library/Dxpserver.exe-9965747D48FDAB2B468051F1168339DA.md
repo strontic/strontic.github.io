@@ -4,7 +4,7 @@ title: Dxpserver.exe | Device Stage Platform Server
 
 # Dxpserver.exe 
 
-* File Path: `C:\windows\system32\Dxpserver.exe`
+* File Path: `C:\Windows\system32\Dxpserver.exe`
 * Description: Device Stage Platform Server
 
 ## Hashes
@@ -17,6 +17,29 @@ SHA256 | `914714AC5287F34E5C836ABD6BD918C8F68FCB805990EF7BAB378BFE4DA27F44`
 SHA384 | `DA20563E838D33385D62062D48E499CA9B0343B13E1B98B68F1858273CADB8198B73DDE1C802D6CD003C7ECDDA3B1755`
 SHA512 | `1C20C51A487C4227FD057B8821FF55AE4E4874EC5FF495DA0920D21088A88669F22BAA88DFD2E55461F76AFDAD95A64E08A287E57F1D60B670B1A59E953947E5`
 SSDEEP | `6144:NtyMZ6s/52E+/7pJ0mYNJ8V6IreJm3wAV:NtyMU4sRdoICawA`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\dxpserver.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC760 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Dxpserver.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

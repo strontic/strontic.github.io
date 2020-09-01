@@ -4,7 +4,7 @@ title: tile.exe | GNU Image Manipulation Program Plug-In
 
 # tile.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\tile\tile.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\tile\tile.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `9067CC80C01C59C5FC826E932C448614E4BD083CFD20A863A341D7307F7EA09D`
 SHA384 | `8B30033F390341115E7C651606CEB19A87080B452BEBE8827D6B34943EBE9FDF7CBAFA1B19B14814AAE15BEDEB284440`
 SHA512 | `8753617B3B5D8383BD8E352C7CA4330FF1729001048826D97999851C7741D0BB7E9258CA2ACF1A5748F17038EF1DE0E430CC866AF3C4146AA91BB322C7AA070A`
 SSDEEP | `1536:lY5s6MJJLCAxtjtfG3ORvcaipiPWKai9SWXin:l/httG3ORkfm1TSgm`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\tile\tile.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,11 +62,11 @@ SSDEEP | `1536:lY5s6MJJLCAxtjtfG3ORvcaipiPWKai9SWXin:l/httG3ORkfm1TSgm`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe](checkerboard.exe-EFA5BA4B185F9C0110373D19C4D7E7C9.md) | 44
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-jp2-load\file-jp2-load.exe](file-jp2-load.exe-BFDAEA1D95F3D8BCEC3D40477B6CC0D4.md) | 41
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\goat-exercise\goat-exercise.exe](goat-exercise.exe-75A7DF6151015C34194399E56D5A66FE.md) | 49
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\pagecurl\pagecurl.exe](pagecurl.exe-8463D2F51050F124C0097AC38CD2BC80.md) | 41
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sparkle\sparkle.exe](sparkle.exe-7DDFCE90D04C8950ADBF69D87D03EC28.md) | 43
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe](checkerboard.exe-EFA5BA4B185F9C0110373D19C4D7E7C9.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-jp2-load\file-jp2-load.exe](file-jp2-load.exe-BFDAEA1D95F3D8BCEC3D40477B6CC0D4.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\goat-exercise\goat-exercise.exe](goat-exercise.exe-75A7DF6151015C34194399E56D5A66FE.md) | 49
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\pagecurl\pagecurl.exe](pagecurl.exe-8463D2F51050F124C0097AC38CD2BC80.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\sparkle\sparkle.exe](sparkle.exe-7DDFCE90D04C8950ADBF69D87D03EC28.md) | 43
 
 
 

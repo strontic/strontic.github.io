@@ -18,6 +18,31 @@ SHA384 | `8B8C63E36E5F84728B7B7FF963226A0A465735E1473E8E7EA525B03BDE6A168DF19300
 SHA512 | `EBA13222E7433B2F6A329D8A4CE1E93FECFF5B30B6DA00C4417E9519AC67FEE75E1026B8D451CAAAF11E5DCFE6978853090ABE5FC1C1A068A0F1D56E5A5E5B41`
 SSDEEP | `384:RNLLyaWv/5k/oy97ZLOW3xWmD1IDBRJtnl4JeRlF8:RNfERk/77ZLndI1PEj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Firefox\firefox.exe |
+C:\program files\Mozilla Firefox\mozglue.dll |
+C:\program files\Mozilla Firefox\MSVCP140.dll |
+C:\program files\Mozilla Firefox\VCRUNTIME140.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.DLL |
+C:\Windows\SYSTEM32\dbghelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSASN1.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\WINTRUST.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,7 +65,7 @@ SSDEEP | `384:RNLLyaWv/5k/oy97ZLOW3xWmD1IDBRJtnl4JeRlF8:RNfERk/77ZLndI1PEj`
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 36
+[C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 36
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 36
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 30
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 30

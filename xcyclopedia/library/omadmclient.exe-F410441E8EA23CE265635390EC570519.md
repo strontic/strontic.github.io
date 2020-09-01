@@ -18,6 +18,24 @@ SHA384 | `B6F6D49500B92E9D45AD082AECEC8AA6B9CE5BD824A16A2E3872888DCDE1388C6BA8F6
 SHA512 | `F2364212843F0B8879D6BE5F5066FAC609A19B10D1715AAF4A15919EF0D4896F5A02C6D8AE4CD8BCA5BC8D7BA4F007CF09B11CD7F59BD308BFCD3068546BD070`
 SSDEEP | `6144:IiscHyarX5f9VDK1wOhnSKR0hgsSCHto:LscZVJK1iV+6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmclient.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\XmlLite.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

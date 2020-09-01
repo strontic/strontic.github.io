@@ -18,11 +18,30 @@ SHA384 | `7221408BBEE4A63993382AB8219568242382F9185026A9581A0299871037EAA7F93AD8
 SHA512 | `EBD0E7EF0352DC70044ED24C641019266F77F1E0DEC6C8C5B3A019E6C0BC7DE29240DA54627AAB0A5740720A452A6B3F5DF1240A45417873BC68EB4DDAB39F69`
 SSDEEP | `6144:ow7eEo9z5dv8jAEW9vqpI8/ucD1HBNpoj0Jg3PfcKrKywA:L1M83LeC1VJAdGyF`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage: updater patch-dir install-dir apply-to-dir [wait-pid [callback-working-dir callback-path args...]]
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UNP\UpdateNotificationMgr.exe |
+
 
 ## Signature
 
@@ -46,7 +65,9 @@ Usage: updater patch-dir install-dir apply-to-dir [wait-pid [callback-working-di
 
 File | Score
 -- | --
+[C:\program files\Mozilla Firefox\updater.exe](updater.exe-904B85E7D09E0CEE3294D10F947E3183.md) | 36
 [C:\Program Files\Mozilla Firefox\updater.exe](updater.exe-B0DC65F40D4D45A9E42628902C35422F.md) | 36
+[C:\program files\Mozilla Thunderbird\updater.exe](updater.exe-BF0362D3182C55DB7143EFA1098CEB6D.md) | 41
 
 ## Possible Misuse
 

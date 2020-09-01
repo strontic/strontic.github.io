@@ -18,6 +18,8 @@ SHA384 | `72313F7DBCE927CB9AC5FE67EFD79C6A223CBD507A5382A21A6DBFDA886B153FF90C72
 SHA512 | `C43B790C82A27F82F63963F2BB9CD5F0F985CDF034AB4CC5CAEBE1CE5BA13DE235A658D0EE4B5AA3F4C5BC1EA25163E434E4C0E8FD88B8F12C991FE089E9C525`
 SSDEEP | `384:XH/8LvAy7E9FKkUpzMiMJ2D33ns3FIC/UomimtUcuVO55O6ozvAXFuy4ahYvE3G2:XHrRWkUa53Fky1u/oLsu1vEubS6`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 
@@ -64,6 +66,17 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\NETSTAT.EXE |
+
 
 ## Signature
 

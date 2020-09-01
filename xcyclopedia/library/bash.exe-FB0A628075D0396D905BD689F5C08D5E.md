@@ -28,6 +28,16 @@ https://aka.ms/wslstore
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\basenc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

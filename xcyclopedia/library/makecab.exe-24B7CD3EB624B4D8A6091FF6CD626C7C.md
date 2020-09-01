@@ -4,7 +4,7 @@ title: makecab.exe | Microsoft Cabinet Maker
 
 # makecab.exe 
 
-* File Path: `C:\windows\system32\makecab.exe`
+* File Path: `C:\Windows\system32\makecab.exe`
 * Description: Microsoft Cabinet Maker
 
 ## Hashes
@@ -38,6 +38,16 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
   /V[n]          Verbosity level (1..3).
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\makecab.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

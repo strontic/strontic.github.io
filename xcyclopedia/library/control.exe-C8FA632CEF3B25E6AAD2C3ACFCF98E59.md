@@ -18,6 +18,38 @@ SHA384 | `764E14C0BBD22A2D79FC2957CD28AD8E75FE761F7D84B44784A97CAAE8BFAFC6DF72B9
 SHA512 | `43606A04E07C287030A33524505A3D4E93E2F1AA71BEE46FE177F16D6904F6D128662B4771EEB5BDB4B79C59BF8A10BF1BCB9F206C229FB7456D53BEFFF72AE0`
 SSDEEP | `1536:61uTV4Ny6e/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:2DY67Sp5+1k12b/Af885RK`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\control.exe |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

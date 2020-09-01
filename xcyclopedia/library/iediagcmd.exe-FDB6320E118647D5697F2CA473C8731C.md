@@ -4,7 +4,7 @@ title: iediagcmd.exe | Diagnostics utility for Internet Explorer
 
 # iediagcmd.exe 
 
-* File Path: `C:\Program Files\Internet Explorer\iediagcmd.exe`
+* File Path: `C:\program files\Internet Explorer\iediagcmd.exe`
 * Description: Diagnostics utility for Internet Explorer
 
 ## Hashes
@@ -38,6 +38,17 @@ Arguments must start with /
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Internet Explorer\iediagcmd.exe |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

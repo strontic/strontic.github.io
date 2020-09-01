@@ -22,6 +22,26 @@ SHA384 | `42B7CDE01A2C09B64F4BFD6D5A61A8E770E3A2D65C53BDF1BB15477ED4E56D47BA5CF6
 SHA512 | `F8B5C5FCE33C687A1B93FA1E97C9912C6D5551A935880FC42D9A063EE90544A98872075E575E9E1892562F91F738D7D452892E161047EC26FB5D1A9649E15A32`
 SSDEEP | `3072:SXWU7ehUgCn9HMhZC2YZFfDXBdbrLF5NUdrSO9K/tagbdDu5nB2HH:SrgC5MhZCdXfDRdbgqt5gMH`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\charmap.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

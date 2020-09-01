@@ -4,7 +4,7 @@ title: gpupdate.exe | Microsoft Group Policy Update Utility
 
 # gpupdate.exe 
 
-* File Path: `C:\windows\SysWOW64\gpupdate.exe`
+* File Path: `C:\Windows\SysWOW64\gpupdate.exe`
 * Description: Microsoft Group Policy Update Utility
 
 ## Hashes
@@ -78,8 +78,15 @@ Value                      Description
 
 ```
 
-### Child Processes:
-conhost.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\gpupdate.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

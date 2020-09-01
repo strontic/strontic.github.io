@@ -4,7 +4,7 @@ title: comrepl.exe | COM+ Server Replication
 
 # comrepl.exe 
 
-* File Path: `C:\windows\system32\com\comrepl.exe`
+* File Path: `C:\Windows\system32\com\comrepl.exe`
 * Description: COM+ Server Replication
 
 ## Hashes
@@ -26,6 +26,13 @@ ERROR: WriteConsole failed = 00000001
 ERROR: WriteConsole failed = 00000001
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

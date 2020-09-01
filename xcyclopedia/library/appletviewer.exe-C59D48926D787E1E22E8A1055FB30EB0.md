@@ -4,7 +4,7 @@ title: appletviewer.exe | OpenJDK Platform binary
 
 # appletviewer.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -35,9 +35,20 @@ The -J option is non-standard and subject to change without notice.
 
 ### Usage (stderr):
 ```Batchfile
-I/O exception while reading: C:\Users\WDAGUtilityAccount\help (The system cannot find the file specified)
+I/O exception while reading: C:\Users\user\Documents\help (The system cannot find the file specified)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -61,9 +72,9 @@ I/O exception while reading: C:\Users\WDAGUtilityAccount\help (The system cannot
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe](keytool.exe-96B9C189FC368FB11EAECE9FBE5CAB09.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\keytool.exe](keytool.exe-11D6D617609BB11967748C0EF56B1A04.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\keytool.exe](keytool.exe-C4F986C38D989EA75380E7CBD98C5B77.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe](keytool.exe-96B9C189FC368FB11EAECE9FBE5CAB09.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\keytool.exe](keytool.exe-11D6D617609BB11967748C0EF56B1A04.md) | 69
+[C:\program files (x86)\Amazon Corretto\jre8\bin\keytool.exe](keytool.exe-C4F986C38D989EA75380E7CBD98C5B77.md) | 69
 
 
 

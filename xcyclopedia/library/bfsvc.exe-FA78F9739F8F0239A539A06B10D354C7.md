@@ -18,6 +18,16 @@ SHA384 | `A3F226E06E5BB3F846F983E0BFC12F85C4AE5BAEC059795DFD917FAC980C9558AC228C
 SHA512 | `4090340D26FE93117FBB0814C171EC4BAA8B2B5EFA753445DC1A8AE6563F8D9CC478F6DD2823E71D4D034E9E3DE46A04E039F0045CB4E29FDA884F200D8B068A`
 SSDEEP | `768:WTwpe5nH9QzEbZDMFieffJ6pqdMp59DB1HvaVppaWG+3kHCNoopx50Z:WmeRH9GEuFiFqi1tJi3oIV2Z`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\bfsvc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\bfsvc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

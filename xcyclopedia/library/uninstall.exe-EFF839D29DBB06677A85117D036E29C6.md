@@ -4,7 +4,7 @@ title: uninstall.exe | ImgBurn Installer
 
 # uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\ImgBurn\uninstall.exe`
+* File Path: `C:\program files (x86)\ImgBurn\uninstall.exe`
 * Description: ImgBurn Installer
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `1536:oRPYqa5pic6jXFdL2KiMcH8gg+SsN7buCryG4DelpkF1LSQHYc:MPA6jXFN2McH8b
 ### Child Processes:
 Au_.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\ImgBurn\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\ImgBurn\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\ImgBurn\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,7 +56,7 @@ Au_.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 46
+[C:\program files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 46
 
 ## Possible Misuse
 

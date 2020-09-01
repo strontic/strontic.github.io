@@ -18,6 +18,69 @@ SHA384 | `75CFDF331CE6BEFA6773701A97120182FDA985EB2B70B67C855F4D0C736A34B795AB40
 SHA512 | `0303E2AF3F1E40D753D48A7EAF27944368DC19C7534ED039AF9A76FCEDB3E73ABEAADE5CFF6A13BB047919E528F16933988E82BBF80F4DF5306DF7423DE5684C`
 SSDEEP | `1536:UAdhHhV1rUZt8r/4botKhM+hDXDLd9tWyj3I7CFPEf:Vib8rbtKa+JTLdPDj3IuFsf`
 
+## Runtime Data
+
+### Window Title:
+Low disk space
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
+(R-D)   C:\Windows\System32\en-US\CloudNotifications.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
+(R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
+(RWD)   C:\Windows\Fonts\seguisb.ttf | File
+(RWD)   C:\Windows\Fonts\seguisym.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\system32\CloudNotifications.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\DUI70.dll |
+C:\Windows\System32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\Windows.UI.Immersive.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

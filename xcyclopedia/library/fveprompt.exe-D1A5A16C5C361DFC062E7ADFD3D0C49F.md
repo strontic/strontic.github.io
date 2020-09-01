@@ -18,6 +18,14 @@ SHA384 | `A966249B25D112DD3E48BB5CE0F066909977E24C89A258EBC7D821A6F3E11D41E02FDB
 SHA512 | `F321DBD926CFA55DA17D1848365DD082AAC5A9ACA7D04A48DD3D57B5B6986A11E060BF7FE0E627952A132B87187B5CFD1B52551146EF1C49BCF2E352081B7914`
 SSDEEP | `3072:42Psr7Otj3//wNA5GakF3jBAwnVS570M9kdatGCO+xmBc+hMPhPsx:BI7yj3/YQGakhjVs7nyatGt+SYF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fveprompt.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\fveprompt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

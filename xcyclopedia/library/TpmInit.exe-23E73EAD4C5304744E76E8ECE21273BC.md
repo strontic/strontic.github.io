@@ -4,7 +4,7 @@ title: TpmInit.exe | TPM Initialization Wizard
 
 # TpmInit.exe 
 
-* File Path: `C:\windows\SysWOW64\TpmInit.exe`
+* File Path: `C:\Windows\SysWOW64\TpmInit.exe`
 * Description: TPM Initialization Wizard
 
 ## Screenshot
@@ -22,6 +22,44 @@ SHA256 | `2A7081195ACF53B272040BD4F232691B626B522123D3FE402FCA91B3FD64F158`
 SHA384 | `9A585D718B2150B9CC2EA5E613B397A8729567FAF8341AEEF757CCD0E2B55AD2F2483124586789B2E469EF4CC220C922`
 SHA512 | `7410638DB8B2D46B4E0520B53F3BED53F10B5A7EF1E246356D5D9B5570B020F434DF9463FB3D10DE08FE8F8845A8E280DE8718BA6ECA72F8C4E6569F19DFB761`
 SSDEEP | `1536:OUeKzb+/P25nDmXSHuGiceY0lA3CJHkxUM:Le2b+/P25R+PYfSFkx1`
+
+## Runtime Data
+
+### Window Title:
+Manage the TPM security hardware
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\TpmInit.exe.mui | File
+(R-D)   C:\Windows\System32\netmsg.dll | File
+(R-D)   C:\Windows\SysWOW64\en-US\netmsg.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1568 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\TpmInit.exe |
+
 
 ## Signature
 

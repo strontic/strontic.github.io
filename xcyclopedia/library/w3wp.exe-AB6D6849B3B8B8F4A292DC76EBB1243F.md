@@ -49,6 +49,13 @@ Usage: C:\Windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host 
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

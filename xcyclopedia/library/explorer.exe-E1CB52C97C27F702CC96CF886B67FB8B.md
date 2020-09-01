@@ -18,6 +18,16 @@ SHA384 | `7D660016BFDB7F5AB0B8E461DDD09D303FE208D36A9FCCCD01AC43F491FA92AB7A1371
 SHA512 | `F1D23E0954D44A69DCF829B2BE389972B0838793DFFC96843788E2203F745A47A1CAEAC1D30AB508DA6D4AFC5BC7EA515B34983C76A22F557365510B255F4D48`
 SSDEEP | `49152:MiiUFDkq71bOfI49LImY3/1/WixGCbLkyby4XPHI/3dACuyfafo/25w8A7/eFwjF:XWNCHsc5w8a0cDR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\explorer.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -42,6 +52,7 @@ File | Score
 -- | --
 [C:\Windows\explorer.exe](explorer.exe-044F48AA4B726924881597815A7C1B06.md) | 32
 [C:\Windows\SysWOW64\explorer.exe](explorer.exe-729BAFD24FF83EBC6F963001386E6EB7.md) | 30
+[C:\Windows\SysWOW64\explorer.exe](explorer.exe-AA0CA518E66F290FE0BAC6169473E8A9.md) | 33
 
 ## Possible Misuse
 
@@ -213,6 +224,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eternalblue_non_wannacry.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eternalblue_non_wannacry.yar) |       $s1 = "\\Program Files\\Internet Explorer\\iexplore.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_foudre.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_foudre.yar) |       $s3 = "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\\\Shell Folders" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_kaspersky_duqu2.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_kaspersky_duqu2.yar) | 		$s3 = "Process Explorer" fullword wide /* PEStudio Blacklist: strings */ /* Goodware String - occured 5 times */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_aug20.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar) |       $str_exe_1 = "explorer.exe" ascii wide nocase  | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_poisonivy_gen3.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy_gen3.yar) | 		$s5 = "Explorer.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$s1 = "Explorer.exe \"" fullword ascii /* PEStudio Blacklist: strings */ /* score: '16.05' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$s1 = "EXPLORER.EXE" fullword ascii /* PEStudio Blacklist: strings */ /* score: '4.98' */ /* Goodware String - occured 22 times */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

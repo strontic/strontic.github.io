@@ -4,7 +4,7 @@ title: audacity.exe | Audacity Cross-Platform Sound Editor
 
 # audacity.exe 
 
-* File Path: `C:\Program Files (x86)\Audacity\audacity.exe`
+* File Path: `C:\program files (x86)\Audacity\audacity.exe`
 * Description: Audacity Cross-Platform Sound Editor
 
 ## Screenshot
@@ -22,9 +22,41 @@ SHA384 | `7F7450BB6538EC99A00AE3B81D4A508FA7CF8A6C68383200492031AAEE1CA9DBA4F7C0
 SHA512 | `3754BA0ACD5B776ED3D8404E88FFCCC092F353E2BB9207B55F478FFD9511F062FF185FB433146B2811A350BEA456B42872A7C3C2D199A7CD7FD05568EE9EE0F0`
 SSDEEP | `196608:v/Tp1rRkHitW0liJmogNmBeQ9WZvT7c2CwKUJ6u:3DRkHOmBL9CvTQm`
 
+## Runtime Data
+
+### Window Title:
+Audacity
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Audacity\audacity.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Audacity\audacity.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\Audacity\audacity.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

@@ -4,7 +4,7 @@ title: VaultCmd.exe | Vault cmdline Program
 
 # VaultCmd.exe 
 
-* File Path: `C:\windows\system32\VaultCmd.exe`
+* File Path: `C:\Windows\system32\VaultCmd.exe`
 * Description: Vault cmdline Program
 
 ## Hashes
@@ -33,6 +33,13 @@ VaultCmd /listproperties
 VaultCmd /sync
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

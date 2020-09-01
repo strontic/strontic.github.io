@@ -4,7 +4,7 @@ title: pythonw.exe | Python
 
 # pythonw.exe 
 
-* File Path: `C:\Program Files (x86)\Python38-32\Lib\venv\scripts\nt\pythonw.exe`
+* File Path: `C:\program files (x86)\Python38-32\Lib\venv\scripts\nt\pythonw.exe`
 * Description: Python
 
 ## Screenshot
@@ -21,6 +21,36 @@ SHA256 | `A0C0FFB73747C69160E0E05D8CA953ADE25753FB71085CA9E87092BFB0A94CF7`
 SHA384 | `23C04BD841362265ACBC3E08B88AE34805C882BF293F22D4B529775EF7C94A68EC1E1BB62BB99A395E58FA02AC535FBC`
 SHA512 | `34ADB8987D7318534A52DB3A1AC69C4FA206A781DD94B6D270F097FB01B4060BBC077B00CAF6BF7DBF78461307162DA5DFF84E581250B97CFF8406D446CC951D`
 SSDEEP | `12288:U7QICG0B6At/qh5WEiUU1NmpcxtnD0jZu6VSv7KSwM+iHGa:Ed+EiJ1NmpM0jUKNM+a`
+
+## Runtime Data
+
+### Window Title:
+Python Launcher is sorry to say ...
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Python38-32\Lib\venv\scripts\nt\pythonw.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

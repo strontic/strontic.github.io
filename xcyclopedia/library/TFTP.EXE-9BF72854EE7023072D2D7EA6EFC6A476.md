@@ -18,6 +18,16 @@ SHA384 | `C6100F922C7B33354EC49961309DE3858448D152E37EDFD0C5B7A361188B8DC8A12BBD
 SHA512 | `F7EE5719F4A94287C3D64FF4B7B7B17D70B8AF2F5CB9EA82207E7F8F0C099AFF9237922616603548698AF86C3DA323FC698FB60AA14162167DB74AD2954BFE01`
 SSDEEP | `384:xhDp0DZKITPyQk7Ex+WQGxjQS9Q/o6csdSo2lGlUQsmNCD1P2Q0284PWcBjW:xht0DVPzUoxnjxQ/o6cs8luNdNCD1P2O`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\test.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\TFTP.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

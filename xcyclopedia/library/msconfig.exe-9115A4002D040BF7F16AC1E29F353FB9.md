@@ -22,6 +22,22 @@ SHA384 | `63031526A2A0E2B6C38944C38D7843FEDDD7D4A8A01530EEDB98C4C85A9C748A870C86
 SHA512 | `7E01484498E54F9E9DEE8CAF36D260B5CC5AEAB0F8E396EE0BE1347527790B3F1CE0215199B6A2B5FA470BEFFCC454D36FCDDCAC319C9A4FE2006AB95DD27EFC`
 SSDEEP | `3072:sW38gnQSkI9lIV3kGFOI74CT0rCfUd0/HlGJRA1Q:XhpBFGFOIsCT5UdSGJRW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MaintenanceUI.dll |
+C:\Windows\system32\MSchedExe.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\msconfig.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

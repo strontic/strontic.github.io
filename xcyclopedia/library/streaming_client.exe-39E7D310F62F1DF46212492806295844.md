@@ -18,12 +18,25 @@ SHA384 | `380AB0F8C5163A69CB7B994995D96B8769AB63F8CB66408D7540764B4B56B87424AFFF
 SHA512 | `C9D854EBD0DB55F5E64449CD28F65BE09F2536EA85578FA978D6CC35E0DD25030EDAACBC1CD4C5978F204673B881BC363E70E274CF28BB3F1BC5E4773D007FBE`
 SSDEEP | `196608:xZSZw/Q6C0iSG+y9ygRvcg2SYOiA2mRSjBm/:xZSZw/Q6C0iKy9yKHJYOPqBm/`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage: C:\Program Files (x86)\Steam\streaming_client.exe [--windowed] [--novsync] [--nohwaccel] [--quality 1-3] [--captureres WxH] [--framerate N] [--bitrate N (Kbit/s)] [--burst N (Kbit/s)] [--mousescale N] [--touch-controller] [--disable-touch-controller] [--performance-icons] [--performance-overlay] [--enable|disable-video] [--enable|disable-audio] [--enable|disable-input] [--enable|disable-microphone] [--controller-overlay-hotkey [auto|button|none]] authtoken
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\stordiag.exe |
+
 
 ## Signature
 

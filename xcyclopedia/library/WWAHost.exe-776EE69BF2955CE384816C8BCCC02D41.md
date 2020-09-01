@@ -4,7 +4,7 @@ title: WWAHost.exe | Microsoft WWA Host
 
 # WWAHost.exe 
 
-* File Path: `C:\windows\SysWOW64\WWAHost.exe`
+* File Path: `C:\Windows\SysWOW64\WWAHost.exe`
 * Description: Microsoft WWA Host
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `2BE11F7A5EDAAFDB43E045664DD4C29F79BA81247CB35D4E1F88BF4C091D4D403E55A2
 SHA512 | `B97AF8DA9B503CC3A19982F7FD98B13F4897A3AC3DEC4AE9CECA017119B39C65C878C0B02E737988A5D69629C5BF663D68FE456BAA48ECA0A76CF19663D3D26C`
 SSDEEP | `12288:N0jLUorSvvHBLEGomLGLYLpLbLyKLgLSLqLlL6LvLOYeayWnv4ndboNoIozoMoXe:tvhkGjng9Ni5mvRb3g97zm`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\WWAHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

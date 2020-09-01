@@ -4,7 +4,7 @@ title: GoogleUpdateSetup.exe | Google Update Setup
 
 # GoogleUpdateSetup.exe 
 
-* File Path: `C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateSetup.exe`
+* File Path: `C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateSetup.exe`
 * Description: Google Update Setup
 
 ## Hashes
@@ -22,6 +22,29 @@ SSDEEP | `24576:esSWkfRyE2ZcFGUEGNBffACErtoFAocYj+uY64YF5AjXEx2Je7CVSszVrmWW:0WJ
 
 ### Child Processes:
 GoogleUpdate.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(---)   C:\Program Files (x86)\Google\Temp\GUT4781.tmp | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateSetup.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,7 +68,7 @@ GoogleUpdate.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Google\Update\Download\{430FD4D0-B729-4F61-AA34-91526481799D}\1.3.35.452\GoogleUpdateSetup.exe](GoogleUpdateSetup.exe-16A42E45149D841DD3445BC2C30A57F5.md) | 100
+[C:\program files (x86)\Google\Update\Download\{430FD4D0-B729-4F61-AA34-91526481799D}\1.3.35.452\GoogleUpdateSetup.exe](GoogleUpdateSetup.exe-16A42E45149D841DD3445BC2C30A57F5.md) | 100
 
 
 

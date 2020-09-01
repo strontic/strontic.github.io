@@ -4,7 +4,7 @@ title: SystemPropertiesPerformance.exe | Change Computer Performance Settings
 
 # SystemPropertiesPerformance.exe 
 
-* File Path: `C:\windows\system32\SystemPropertiesPerformance.exe`
+* File Path: `C:\Windows\system32\SystemPropertiesPerformance.exe`
 * Description: Change Computer Performance Settings
 
 ## Hashes
@@ -17,6 +17,36 @@ SHA256 | `357BDAD469524CDF42680FF44E17CE41C64B38872C4F55E89DE0560FBD003693`
 SHA384 | `B2263627B403559C47F50CC05B185B669DDBF82B5C4503714A7B20A017743E5E1596FFCEE2425BA745259B5DB5659C9F`
 SHA512 | `D001A698E41842C6B81D8912E0EC78FE7DB174E9248F320C46A9E717D59E1E8E43678325792814A1685E055CECDADFA4852D677554C4DA184757543FD89ED4CC`
 SSDEEP | `1536:o0oZbtREC/rMcgEPJV+G57ThjEC0kzJP+V5JV:orbzECTMpuDhjRVJG/`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesPerformance.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemPropertiesPerformance.exe |
+
 
 ## Signature
 

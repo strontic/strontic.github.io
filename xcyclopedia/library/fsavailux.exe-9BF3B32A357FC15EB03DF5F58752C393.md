@@ -18,6 +18,26 @@ SHA384 | `D808CB02BE9B1120D61F3D9182A29522B4440FDD593BFBBFB216A44B3D78B4C8E90554
 SHA512 | `A12B0DEE1AA58458CE0EA5067AC8AA580498A8F1957DCC79865FFE5E73DDA62FC6B157F10B1A19FEC5FA801FFA8DC4E68099900B2D7B3189B96CF5668E2E8121`
 SSDEEP | `384:YvcJm6/P7HHt8Bp6PVCK1ub9Sj1RWgmWW:hJ3/P7ntgp6tOm1G`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\fsavailux.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

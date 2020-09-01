@@ -4,7 +4,7 @@ title: setupcl.exe | System Clone Tool
 
 # setupcl.exe 
 
-* File Path: `C:\windows\system32\setupcl.exe`
+* File Path: `C:\Windows\system32\setupcl.exe`
 * Description: System Clone Tool
 
 ## Hashes
@@ -18,11 +18,22 @@ SHA384 | `2507060296902F502A79A9DBDE9F9ECAEC1CC0EF96C55EF3DCC4BC361D9902175519C1
 SHA512 | `A10330A7F004857ED2AF11B6D85A16172F3ABE9C960D394758A1CDBA49ECA5D1849DF37DA13E00D104DF20243EB8CB66E9B0934EF4358F371AEF4823E9800ADE`
 SSDEEP | `3072:cRwbBYR6ZnwBeKc+kslNZgsTlmg/v/QZ/TLTdaZ2XKC3AuQp/:c2BYRSwB93DaMQZrg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.8.5\SetupAdmin.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

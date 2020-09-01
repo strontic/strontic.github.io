@@ -4,7 +4,7 @@ title: kinit.exe | OpenJDK Platform binary
 
 # kinit.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jre8\bin\kinit.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jre8\bin\kinit.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -54,6 +54,17 @@ java.lang.IllegalArgumentException: invalid Principal name: --helpKrbException: 
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jre8\bin\kinit.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -76,11 +87,11 @@ java.lang.IllegalArgumentException: invalid Principal name: --helpKrbException: 
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe](jar.exe-FC0D5E4B2EE50EEA7AEFC756F034B42C.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe](jrunscript.exe-D7605E1C70C8E4A616CA9BDB46FBEAC9.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 82
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 82
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe](rmiregistry.exe-AC45D66B78E93F793F684492A0A3BCF8.md) | 40
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe](jar.exe-FC0D5E4B2EE50EEA7AEFC756F034B42C.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe](jrunscript.exe-D7605E1C70C8E4A616CA9BDB46FBEAC9.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 82
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 82
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe](rmiregistry.exe-AC45D66B78E93F793F684492A0A3BCF8.md) | 40
 
 
 

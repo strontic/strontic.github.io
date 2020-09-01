@@ -4,7 +4,7 @@ title: jstatd.exe | OpenJDK Platform binary
 
 # jstatd.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstatd.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstatd.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,11 +18,24 @@ SHA384 | `1C8875DF479E057A181FFEFA645D6C78550BFBC5BB29AC1A39105D5BF23F849D01AC20
 SHA512 | `E98F29CB00F59C02B8594A0790CD9EE91027BD1097B8E7D4742D8E90B4ABA2E35E4BFD70C174B577B2C1C391E0B7B1CA10CC9E4563A7997C679ECE6F009885EC`
 SSDEEP | `384:GpsH5Bn5qumSHhV83See24SzkK6jSzK2GzDgf2hs:GpsXngS/83fe2OKgh1Uf2hs`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 usage: jstatd [-nr] [-p port] [-n rminame]
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstatd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -46,8 +59,8 @@ usage: jstatd [-nr] [-p port] [-n rminame]
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe](hsdb.exe-7F335E40D9BD7CE769BCD22ED86643F2.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jinfo.exe](jinfo.exe-536380B9EDDA1DC69DB259C3D1715DF0.md) | 57
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe](hsdb.exe-7F335E40D9BD7CE769BCD22ED86643F2.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jinfo.exe](jinfo.exe-536380B9EDDA1DC69DB259C3D1715DF0.md) | 57
 
 
 

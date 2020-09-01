@@ -18,6 +18,8 @@ SHA384 | `C55F593990E3CF660B7E2FF3CA454E01B447A35883A96EB53BADB076E373DD87F1E253
 SHA512 | `4DB080996591EA45F94CBEEC7D844C5DC27CA01BDFF31D1FBC4E04E281637A59EEEA5966E22D207FD6FD7F744D7AECEFEF1861D9649054128BFCBB458B6D99C0`
 SSDEEP | `3072:CQ4Hdi0lKx96kzos9wMD0yRgUdRPu3fKMoTBf3vSjZqMN8YiYkwc:349S6DsStyaUddu3yMoTBevRXhc`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Error: opening registry key 'Software\JavaSoft\Java Runtime Environment'
@@ -25,6 +27,16 @@ Error: could not find java.dll
 Error: Could not find Java SE Runtime Environment.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jre8\bin\java.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

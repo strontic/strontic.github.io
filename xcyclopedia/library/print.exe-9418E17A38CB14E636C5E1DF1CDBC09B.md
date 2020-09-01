@@ -18,6 +18,16 @@ SHA384 | `B865E8287BB2C71A7927B0E16A795199BDA8B6961DEABE42FC83D6EA8B63AD2E11EDF3
 SHA512 | `5FE5B2EB1BDE5F403DA723AD8E01501288CBD7E3FF31D92F7BB7C7F6015BA45651312F9FB8C037E00A2164FDF6C371B7AE1B809D7E2A693A07DBA4C87CF59FF5`
 SSDEEP | `192:1v/R3LP92F+SPkblNEPazXMBv4T42DRXpLXpNBCbgYY2C10FXkdWRUWMWCJ:9/JPEQEPazXMNS4W07Y2x2dWRUW9CJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\print.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\print.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

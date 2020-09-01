@@ -29,6 +29,23 @@ SSDEEP | `24576:dp508zbSQLYjEBYswH1SVfZd4Ah3P2dKnm2HzSKST2EOt9HCssfN62E:dX0jjxmz
 ### Child Processes:
 mstsc.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsSpellCheckingHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -114,7 +131,15 @@ To connect to a session in full-screen mode, type:
 ```
 mstsc /f
 ```
+or
+```
+mstsc /v:computer1 /f
+```
+To assign width/height, type:
 
+```
+mstsc /v:computer1 /w:1920 /h:1080
+```
 To open a file called *filename.rdp* for editing, type:
 
 ```

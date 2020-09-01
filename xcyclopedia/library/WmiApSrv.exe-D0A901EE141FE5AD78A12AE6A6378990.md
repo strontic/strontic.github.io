@@ -4,7 +4,7 @@ title: WmiApSrv.exe | WMI Performance Reverse Adapter
 
 # WmiApSrv.exe 
 
-* File Path: `C:\windows\system32\wbem\WmiApSrv.exe`
+* File Path: `C:\Windows\system32\wbem\WmiApSrv.exe`
 * Description: WMI Performance Reverse Adapter
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `D85D4A64A723131ABF5E236E6C9825E0C6FE15E89B7DD8C7B751E332BC287E0BDDF58F
 SHA512 | `F4C856FF4C0A6D307CDEA5951E63A39D9E6F636DB7D73ED65B06D1ADFDB60BAE4AA8DDC0A66E7F06A1B5C2C777D297BE7F2E07BBD67AC653E11B79A764B99427`
 SSDEEP | `3072:4jTP38cDpi9I/yt5ynxcXK4y4lDh3DU5YbYK7jZWSMTwrlT:OTPscti9Ig4gy4r3o5g7jZWSMTwr`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wbem\WmiApSrv.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

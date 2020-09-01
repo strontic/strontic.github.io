@@ -18,6 +18,21 @@ SHA384 | `B83193953B4412D5319B4909DFD62CA36E0E6A2DADC15101B7219D25BA304A090FF010
 SHA512 | `0E070F80AA20EC04AB577CCDBF78F7A27C87DD503DDC07B975B4B1F2494A66ED844E4CCAF5E2D7C04F06516AF7AAF973DCB144A99915C1A20F6A42D27AD36E5E`
 SSDEEP | `1536:spmceAIvCTCbvs7g5ozoB1nGQaXmdwlRUlkMsaB4NWsCz74V+8Zh:C9Ob+cB1sXYAiuMjgDy74FZh`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\coredpussvr.exe |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

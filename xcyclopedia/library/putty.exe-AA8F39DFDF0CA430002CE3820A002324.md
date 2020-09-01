@@ -4,7 +4,7 @@ title: putty.exe | SSH, Telnet and Rlogin client
 
 # putty.exe 
 
-* File Path: `C:\Program Files\PuTTY\putty.exe`
+* File Path: `C:\program files\PuTTY\putty.exe`
 * Description: SSH, Telnet and Rlogin client
 
 ## Screenshot
@@ -21,6 +21,54 @@ SHA256 | `DCF66ED0D39BB3C1CD154D595BFA39D18148B3E1E68B8F18DD89221CF66FF4BA`
 SHA384 | `2DE89C02082BDEE25522E7A17B644A4568782C209E30BA7E5524DDB5BD68DF6F4AC828208C02B13C40EB946A129C41C2`
 SHA512 | `1C31A29219EB1D35D0B1BF1BDCE5AFB39D4B0F31DE4562D9936D71116FD53DE7DEA4C4745E4C12C885DC07163117262CC4A2D925E14AA9844A638991D5EE0744`
 SSDEEP | `12288:cKqC57Zz7Q+XAIsAbt19684P/c4Tsv9Ed9KIAH656mOleOB6Wex:pqCNNE4AhDRkBvGd9a656mW8`
+
+## Runtime Data
+
+### Window Title:
+PuTTY Command Line Error
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PuTTY\putty.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
 
 ## Signature
 

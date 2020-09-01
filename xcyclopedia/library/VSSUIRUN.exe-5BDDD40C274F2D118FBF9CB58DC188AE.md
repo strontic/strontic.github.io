@@ -22,6 +22,33 @@ SHA384 | `7DB77DDA3DD6D39FBB16D71BCE38FAFAD708524C1DCD43F8846B713E4060B786001DE6
 SHA512 | `8E56C083320191973DF481A3BE6CA4D81B07C9BD9AA9E7E572972C36919A08AAB444FE617AA2D1E15B62B10BE963293BFD55E559A8CA47E9DFC957C8CE5D4DAF`
 SSDEEP | `768:JnW6yzrSF2uxKq3a39PvFKBpYkzxug6Bx4O5vJzeIE0RmHEXzbkN4dppainbNnn2:4rG2uxbaxswkUKI1wkXfk64inb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VssTrace.DLL |
+C:\Windows\system32\VSSUIRUN.exe |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

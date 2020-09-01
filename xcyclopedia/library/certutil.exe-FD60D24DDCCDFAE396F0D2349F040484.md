@@ -4,7 +4,7 @@ title: certutil.exe | CertUtil.exe
 
 # certutil.exe 
 
-* File Path: `C:\windows\SysWOW64\certutil.exe`
+* File Path: `C:\Windows\SysWOW64\certutil.exe`
 * Description: CertUtil.exe
 
 ## Hashes
@@ -156,6 +156,13 @@ CertUtil -v -?           -- Display all help text for all verbs
 CertUtil: -? command completed successfully.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

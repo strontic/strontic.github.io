@@ -4,7 +4,7 @@ title: rmiregistry.exe | OpenJDK Platform binary
 
 # rmiregistry.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,8 @@ SHA384 | `8D08AA4C0056C4CC73D48C9F414C7BEBDAA8E9E6084E3C1B4C7111D78FD37A4458DAFC
 SHA512 | `BF25214D9521A725AECA9ECCC5EC0ADB4F661B9AFC3118F0A878054BBCF42EDD171F98F75619008B11D3A4917DA23BC44CD22532943417396A3417ECF940C492`
 SSDEEP | `384:Gpsw5hnnqtmSHhV8VoeeS4SztK6jSU93VDgf2h3:GpsanpS/8VdeS3KgH7Uf2h3`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 port argument, --help, is not a number.
@@ -27,6 +29,16 @@ where <options> includes:
   -J<runtime flag> Pass argument to the java interpreter
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -50,13 +62,13 @@ where <options> includes:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe](jdb.exe-A84E4AB77C8F90E25B6D0C916B0D25E1.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 72
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmiregistry.exe](rmiregistry.exe-457267F19E98514E55991A66650E25F3.md) | 85
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 72
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 72
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\rmiregistry.exe](rmiregistry.exe-EE9B42A4CF7692CC7F4C7C48685E9708.md) | 85
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe](jdb.exe-A84E4AB77C8F90E25B6D0C916B0D25E1.md) | 61
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 72
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmiregistry.exe](rmiregistry.exe-457267F19E98514E55991A66650E25F3.md) | 85
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 72
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 69
+[C:\program files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 72
+[C:\program files (x86)\Amazon Corretto\jre8\bin\rmiregistry.exe](rmiregistry.exe-EE9B42A4CF7692CC7F4C7C48685E9708.md) | 85
 
 
 

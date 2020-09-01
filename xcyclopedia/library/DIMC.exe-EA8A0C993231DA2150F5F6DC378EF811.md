@@ -4,7 +4,7 @@ title: DIMC.exe | Deployment Initial Machine Configuration Tool
 
 # DIMC.exe 
 
-* File Path: `C:\windows\system32\DIMC.exe`
+* File Path: `C:\Windows\system32\DIMC.exe`
 * Description: Deployment Initial Machine Configuration Tool
 
 ## Hashes
@@ -33,6 +33,13 @@ Usage: DIMC.exe -UnattendPath <Unattend_file> -HivePath <IMC_hive> [-SequenceNum
     -?                Display help. This is the same as not typing any options.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,27 @@ SHA384 | `2C4100316B220AE42D4D952FDE5ADC9BBED2820F97D3955585EDFB271C53F08D67A41F
 SHA512 | `8C550010324504998897139E5AE7DC23D661128EC814010DE52C7FB5459620BE4CE34C9E4FE2275A7C0B28D123B0465501543E77986FD8D2CA6C41A0532FB067`
 SSDEEP | `6144:2Tm48xdj2eu0c4Q5zEO08mFnGxl9dG2Xdmzopj/qn:2TmXeKc4Uj97/A`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\DEVOBJ.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WUDFHost.exe |
+C:\Windows\SYSTEM32\WUDFPlatform.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

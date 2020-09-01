@@ -18,6 +18,24 @@ SHA384 | `AA9450DD9F6DB8CA2BEACF49831F50EA097EA7CE0E6A75607AEB3D9D72667BB3C7C1C4
 SHA512 | `F4D79D82240A6EDE6B12ED5F156BA6DDA404D002286108D8682A8B5FDE8CDC9877FA0F7111C3361D892639D8E8279FD4A450F62F4D509B2808C250B99ACA2848`
 SSDEEP | `1536:Jm0pSgYKHoRveSsiJV1IbVaZhHlnO+DGh8lGZoNMe5wz4k+k2EOglUE+u:fdoRlsiJAwZplnOgGIGGMDvfOglUru`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Firefox\default-browser-agent.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

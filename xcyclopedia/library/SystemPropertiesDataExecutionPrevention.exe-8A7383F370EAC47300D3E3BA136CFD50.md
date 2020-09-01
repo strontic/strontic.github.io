@@ -18,6 +18,15 @@ SHA384 | `0780401D74B1933CC1C49548127710ACE857E4BBD398B24360797BE23EF2417AF6FCAC
 SHA512 | `DA369F5433E028AC07AFB3AD63CDFACA160E70BDCC4CD74829F1EC7EEB35B233C67831E9C1B56DDF0555C0BC54202BCF55A4566C04DB9D53B98177944181AE96`
 SSDEEP | `1536:Y2ZtREC/rMcgEPJV+G57ThjEC0kzJP+V5JF:bZzECTMpuDhjRVJG7`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemPropertiesDataExecutionPrevention.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

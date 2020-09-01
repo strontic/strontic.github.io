@@ -4,7 +4,7 @@ title: SystemPropertiesRemote.exe | System Remote Settings
 
 # SystemPropertiesRemote.exe 
 
-* File Path: `C:\windows\SysWOW64\SystemPropertiesRemote.exe`
+* File Path: `C:\Windows\SysWOW64\SystemPropertiesRemote.exe`
 * Description: System Remote Settings
 
 ## Hashes
@@ -17,6 +17,39 @@ SHA256 | `76C62B0DC6D0EEC97CE4AF5DBF7658C6025147EF73653C8E0CE33C15CF4D8570`
 SHA384 | `FF39680AEEAC24B4C21F5CA0513E63F47224A7425175E30AE5FDB57E18A66672D5573210B54844997B53DE08EB24D56C`
 SHA512 | `85734370E920B46782E99335A7B070BE327565EE58D8F5260DC53CAC17BF1482654733D8A9FD723458F1156D7FA6733A769AB4445EEFCFC566FA03945E88FCDA`
 SSDEEP | `1536:9ELZsztREC/rMcgEPJV+G57ThjEC0kzJP+V5Ju:9AAzECTMpuDhjRVJGc`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesRemote.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\netid.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\SystemPropertiesRemote.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: sxstrace.exe | Sxs Tracing Tool
 
 # sxstrace.exe 
 
-* File Path: `C:\windows\system32\sxstrace.exe`
+* File Path: `C:\Windows\system32\sxstrace.exe`
 * Description: Sxs Tracing Tool
 
 ## Hashes
@@ -38,6 +38,13 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
           SxsTrace Parse -logfile:SxsTrace.etl -outfile:SxsTrace.txt
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

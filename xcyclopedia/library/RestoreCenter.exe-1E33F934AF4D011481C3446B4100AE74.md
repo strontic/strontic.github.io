@@ -22,6 +22,17 @@ SHA384 | `BF0C7D7F83D16E094FF9C665F26041043E15BE2CD2000B2B519A293ADC91DA88AEDD5E
 SHA512 | `2B9D03C7F10BDA3F17FD9CF049958CD40E8D4C0A1C4FF9228528F2548D30A2F4F6D0B7A3CCBCFB32414540865F94896BBF5D69331DD6D179DFA67F8BCA5965B8`
 SSDEEP | `768:YP058i4VDOBXFzuzhzvzzuzXXzXePUg9dMeKgDGMxV1DGIkUf2hmn:Yc5GOBVzuzhzvzzuzXXzXePUg9ieYqV9`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\resmon.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `768:YP058i4VDOBXFzuzhzvzzuzXXzXePUg9dMeKgDGMxV1DGIkUf2hmn:Yc5GOBVzuzhz
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\RestoreCenter.exe](RestoreCenter.exe-490B4D25DB2EE94265D906E248C37E98.md) | 86
 
 
 

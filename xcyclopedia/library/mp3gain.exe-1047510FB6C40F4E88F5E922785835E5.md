@@ -4,7 +4,7 @@ title: mp3gain.exe | mp3 volume normalizer
 
 # mp3gain.exe 
 
-* File Path: `C:\Program Files (x86)\MusicBee\mp3gain.exe`
+* File Path: `C:\program files (x86)\MusicBee\mp3gain.exe`
 * Description: mp3 volume normalizer
 
 ## Hashes
@@ -29,10 +29,10 @@ Can't open --help for reading
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files (x86)\MusicBee\mp3gain.exe version 1.5.2
+C:\program files (x86)\MusicBee\mp3gain.exe version 1.5.2
 copyright(c) 2001-2009 by Glen Sawyer
 uses mpglib, which can be found at http://www.mpg123.de
-Usage: C:\Program Files (x86)\MusicBee\mp3gain.exe [options] <infile> [<infile 2> ...]
+Usage: C:\program files (x86)\MusicBee\mp3gain.exe [options] <infile> [<infile 2> ...]
 options:
 	/v - show version number
 	/g <i>  - apply gain i without doing any analysis
@@ -74,9 +74,20 @@ If you do not specify /c, the program will stop and ask before
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\MusicBee\mp3gain.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\MusicBee\mp3gain.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\MusicBee\mp3gain.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

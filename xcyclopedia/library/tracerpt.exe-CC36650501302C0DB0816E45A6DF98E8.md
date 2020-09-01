@@ -4,7 +4,7 @@ title: tracerpt.exe | Event Trace Report Tool
 
 # tracerpt.exe 
 
-* File Path: `C:\windows\system32\tracerpt.exe`
+* File Path: `C:\Windows\system32\tracerpt.exe`
 * Description: Event Trace Report Tool
 
 ## Hashes
@@ -26,7 +26,7 @@ SSDEEP | `6144:/EV1tNsIl8LEN7PkoH3jObxgTtIJnKmXCml/+jdPnnHHE9e:sH3sISo75ze7cdPn8
 Microsoft r TraceRpt.Exe (10.0.17763.1)
 
 Usage:
-  C:\windows\system32\tracerpt.exe <[-l] <value [value [...]]>|-rt <session_name [session_name [...]]>> [options]
+  C:\Windows\system32\tracerpt.exe <[-l] <value [value [...]]>|-rt <session_name [session_name [...]]>> [options]
 
 Options:
   -?                            Displays context sensitive help.
@@ -78,6 +78,13 @@ Examples:
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

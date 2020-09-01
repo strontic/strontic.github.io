@@ -4,7 +4,7 @@ title: Everything.exe | Everything
 
 # Everything.exe 
 
-* File Path: `C:\Program Files\Everything\Everything.exe`
+* File Path: `C:\program files\Everything\Everything.exe`
 * Description: Everything
 
 ## Screenshot
@@ -22,6 +22,61 @@ SHA256 | `A8E8A69C6ADBDEE716B58D3768E65AE14EA52AF6B2667CBF998B379756B5597E`
 SHA384 | `430685FE17A7E0182F59F4D3416604700D2843C89E22291A6A36E2FB648745FF814127663F6EA36B371D049B527309AC`
 SHA512 | `7CFEFDBD58039694657FA23F0D5C150C026FC3F007DD7E40F853CF78B2101B5943D9E452A4F6291FB2567C8F69C946C4193BFB8B604356069AB1E382609B9A9C`
 SSDEEP | `49152:MoSbtAyjXQ52sKplatxaix287JaOB/i+OYOOrm:Mo357t8Ybry`
+
+## Runtime Data
+
+### Window Title:
+Command Line Options - Everything
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Everything\Everything.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\comdlg32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\iertutil.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
 
 ## Signature
 

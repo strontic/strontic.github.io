@@ -21,6 +21,46 @@ SHA384 | `3D2D53AC5CABEC707C8BCF91AE84F32CC4D92C774B17965AFEE93376F253ED9B58FB00
 SHA512 | `4BF94A653040D4C726D31B2D064C3AA20252C590672841561F218DA68BA8CBBF3ED06AF0355B881174606AB5983BD72AE0D5DF53BAB51DC53E591E6F05E57B12`
 SSDEEP | `6144:+3qZHKpj1b4G8OtsGw6gPHQX0OSNm6M/TuK:/ZHcdVskgPwiQV`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\crashreporter.exe |
+C:\program files\Mozilla Thunderbird\mozglue.dll |
+C:\program files\Mozilla Thunderbird\MSVCP140.dll |
+C:\program files\Mozilla Thunderbird\nss3.dll |
+C:\program files\Mozilla Thunderbird\VCRUNTIME140.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.DLL |
+C:\Windows\SYSTEM32\dbghelp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\WININET.dll |
+C:\Windows\SYSTEM32\WINMM.dll |
+C:\Windows\System32\WINTRUST.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\SYSTEM32\WSOCK32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -39,6 +79,11 @@ SSDEEP | `6144:+3qZHKpj1b4G8OtsGw6gPHQX0OSNm6M/TuK:/ZHcdVskgPwiQV`
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Mozilla Thunderbird\crashreporter.exe](crashreporter.exe-4CFA95487A117B6C1F4BD5F73CCB6055.md) | 91
 
 
 

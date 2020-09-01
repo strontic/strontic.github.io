@@ -18,6 +18,26 @@ SHA384 | `919940C5265B3BE474382DACA700F50F34EC7C431DBB16FD0DC5F7F683F16392A07473
 SHA512 | `6510364638329D335029DAA4B22D5D3ECFAC10E53BFCC5132B92D73BFF1F5761E7885730B659FE28475BD4E819F9FD1F9B4434B20A112F4925CFAAE3245C996A`
 SSDEEP | `768:fa5/3B1fdPycF+LIAGT+nxBqxH1PR7GiF:f6/3PFPycFu6sxBqxVPUk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\CredentialUIBroker.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

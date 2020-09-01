@@ -4,7 +4,7 @@ title: gpscript.exe | Group Policy Script Application
 
 # gpscript.exe 
 
-* File Path: `C:\windows\SysWOW64\gpscript.exe`
+* File Path: `C:\Windows\SysWOW64\gpscript.exe`
 * Description: Group Policy Script Application
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `4D6B2E5242862760CB9D4B848DF760CD3A5A011DD59A5C633EC966D32D1D6EA2`
 SHA384 | `D9302795CB0CA13D2B95F0246FB910B3AD7D3E4A9DFD139695353E8C43CB677EFB38BEC266C496FBAE572F0BDA3BA550`
 SHA512 | `A57F38D9F132352D57608CCA9F51F64677A472CE644253C1EF91BB94BC6B9A6839B3602BC2BC85B3A68AA258D27371331394F56EFB1D8A3C11F166BA4EB3FDD3`
 SSDEEP | `768:Q8oplU+Bk3yO2i/9cSwJz4LK4drFbE16/BSAl2ln8031udT/ZGRnxK:+++Bk3d1cS6z43FgE/BSAj031udThGRn`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\gpscript.exe |
+
 
 ## Signature
 

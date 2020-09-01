@@ -18,6 +18,28 @@ SHA384 | `2C086C00111B50AEE73D6E0300D8782D8FACB1A0E6D1140D9F84F3C80657D994A53D85
 SHA512 | `06A21CB3F9781BBB63E4E9EE3BBED2949DE1BD4E50DB64D8D8F44EF92405ABAF2DED1E7F689167FB6EDF04B789389428196ED5B1E4AF920C3F5653F5896D4528`
 SSDEEP | `768:B6Fyyphi89jr4jwmp3PwyDdwiBieSWaZxZEApqiNwGr6wD1PqVC:B6V9jrN8P3DviCa5EgnG4PqVC`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\system32\SyncAppvPublishingServer.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: wordpad.exe | Windows Wordpad Application
 
 # wordpad.exe 
 
-* File Path: `C:\Program Files (x86)\Windows NT\Accessories\wordpad.exe`
+* File Path: `C:\program files (x86)\Windows NT\Accessories\wordpad.exe`
 * Description: Windows Wordpad Application
 
 ## Screenshot
@@ -26,6 +26,43 @@ SSDEEP | `24576:pxHn7MgYE6WM73vT62FxvNEYr8oSUGeP9PDkjjqX+l:pxH7MgYE67BxvWCXSZeP9
 
 ### Child Processes:
 splwow64.exe
+
+### Window Title:
+Document - WordPad
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Program Files (x86)\Windows NT\Accessories\en-US\wordpad.exe.mui | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\UIRibbon.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\220cHWNDInterface:1220758 | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Windows NT\Accessories\wordpad.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -49,7 +86,7 @@ splwow64.exe
 
 File | Score
 -- | --
-[C:\Program Files\Windows NT\Accessories\wordpad.exe](wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF.md) | 60
+[C:\program files\Windows NT\Accessories\wordpad.exe](wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF.md) | 60
 
 ## Possible Misuse
 

@@ -18,6 +18,39 @@ SHA384 | `E30D0D640F32E421802C5473824764927859C1710BAB90E7CC583A7049F02F9B972C30
 SHA512 | `B77CD3F0719C00601236BC3A356BCB534E3AE6D2976C938E76978A7555F27B707B47CAAC046B99DE72BDDB60F68023A1E59F8D4BB1FB6C3EF0CE210E5436E808`
 SSDEEP | `768:F6TwnuaNcBL2BXnC3l4J6BmlXSq6oO0y4WF:ATwnuaIL2Be+zlXSLey4WF`
 
+## Runtime Data
+
+### Child Processes:
+ClassicStartMenu.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\ThumbnailExtractionHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

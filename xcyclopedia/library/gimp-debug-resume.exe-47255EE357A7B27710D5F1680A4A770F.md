@@ -4,7 +4,7 @@ title: gimp-debug-resume.exe |
 
 # gimp-debug-resume.exe 
 
-* File Path: `C:\Program Files\GIMP 2\bin\gimp-debug-resume.exe`
+* File Path: `C:\program files\GIMP 2\bin\gimp-debug-resume.exe`
 
 ## Hashes
 
@@ -24,6 +24,16 @@ SSDEEP | `1536:ch2XJtis7kMotkkpVE9OX6WKF8aipiPWDaiNWXi:BXYntdVE4DKF8fmcfg`
 invalid: 0
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\bin\gimp-debug-resume.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -47,8 +57,8 @@ invalid: 0
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe](file-exr.exe-1FED269F021DE40160452865E2B6DDC7.md) | 46
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe](screenshot.exe-FA86FC2DFB51259CB5E5FF0BA1A8E18C.md) | 40
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe](file-exr.exe-1FED269F021DE40160452865E2B6DDC7.md) | 46
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe](screenshot.exe-FA86FC2DFB51259CB5E5FF0BA1A8E18C.md) | 40
 
 
 

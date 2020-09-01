@@ -4,7 +4,7 @@ title: SetACL_x64.exe | SetACL 2
 
 # SetACL_x64.exe 
 
-* File Path: `C:\Program Files (x86)\K-Lite Codec Pack\Tools\SetACL_x64.exe`
+* File Path: `C:\program files (x86)\K-Lite Codec Pack\Tools\SetACL_x64.exe`
 * Description: SetACL 2
 * Comments: SetACL command line version
 
@@ -49,9 +49,19 @@ http://helgeklein.com/setacl/documentation/command-line-version-setacl-exe/
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\K-Lite Codec Pack\Tools\SetACL_x64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\K-Lite Codec Pack\Tools\SetACL_x64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\K-Lite Codec Pack\Tools\SetACL_x64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

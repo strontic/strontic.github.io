@@ -4,7 +4,7 @@ title: MusNotification.exe | MusNotificationBroker
 
 # MusNotification.exe 
 
-* File Path: `C:\windows\system32\MusNotification.exe`
+* File Path: `C:\Windows\system32\MusNotification.exe`
 * Description: MusNotificationBroker
 
 ## Hashes
@@ -18,11 +18,34 @@ SHA384 | `7BE3D5504EDA50E7E0CA3FA1374A86A0FA93C947341410D7BD4B25A46ED68C0A2FE80C
 SHA512 | `DFEC90C13FDE72FC8712E7343EAA4BC636ABA25CC954A3440340E326777F052323ACB7CBE6259CDEE31EF9B82DAD9599C97566B9E9B941730CC3EE5923203BE2`
 SSDEEP | `6144:LKnSGmDzIJBXzXMbSS6NL/LM28BzTEqW3Zsoeu0GaSQoOqCT6a6oR5HbHHI9prOj:LKYQJxZNL/LF8BvTS/o`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\MusNotification.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -18,6 +18,17 @@ SHA384 | `0BE329A74D99343D12DAFB66F308519A388D0EB12D4780F12F6B025E955E31A6A9CD20
 SHA512 | `35CF7393EDDCD76B805B1511CB03AC3A5985813682C4760B04F55872EEC9645BF31D80B6266E6BC6865E7246BB8157845C0DBA42A8054D62B4303DF75834B2EE`
 SSDEEP | `6144:QsYQXsnUVx4ZXvQShdrXvbGLcqBG65tufv1Qp9At+a4juR1y9HkT:QjndvQSrrXvbGIqBGr1d+a9T`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

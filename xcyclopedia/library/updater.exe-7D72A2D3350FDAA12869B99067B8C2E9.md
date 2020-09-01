@@ -4,7 +4,7 @@ title: updater.exe | CDBurnerXP Updater
 
 # updater.exe 
 
-* File Path: `C:\Program Files\CDBurnerXP\updater.exe`
+* File Path: `C:\program files\CDBurnerXP\updater.exe`
 * Description: CDBurnerXP Updater
 
 ## Hashes
@@ -32,6 +32,36 @@ Unhandled Exception: System.ComponentModel.Win32Exception: The system cannot fin
 
 ### Child Processes:
 updater.exe WerFault.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\assembly\pubpol5.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_4604 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\CDBurnerXP\updater.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 

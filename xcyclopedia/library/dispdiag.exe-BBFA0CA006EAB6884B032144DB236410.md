@@ -4,7 +4,7 @@ title: dispdiag.exe | Display Diagnostics
 
 # dispdiag.exe 
 
-* File Path: `C:\windows\system32\dispdiag.exe`
+* File Path: `C:\Windows\system32\dispdiag.exe`
 * Description: Display Diagnostics
 
 ## Hashes
@@ -40,6 +40,13 @@ Output:
 	Name of the saved file.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

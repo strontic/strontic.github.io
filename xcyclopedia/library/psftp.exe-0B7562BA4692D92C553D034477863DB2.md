@@ -4,7 +4,7 @@ title: psftp.exe | Command-line interactive SFTP client
 
 # psftp.exe 
 
-* File Path: `C:\Program Files\PuTTY\psftp.exe`
+* File Path: `C:\program files\PuTTY\psftp.exe`
 * Description: Command-line interactive SFTP client
 
 ## Hashes
@@ -63,6 +63,16 @@ psftp: unknown option "-help"
 
 ### Child Processes:
 conhost.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PuTTY\psftp.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

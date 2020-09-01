@@ -4,7 +4,7 @@ title: SrvInitConfig.exe | Server Configurations
 
 # SrvInitConfig.exe 
 
-* File Path: `C:\windows\system32\SrvInitConfig.exe`
+* File Path: `C:\Windows\system32\SrvInitConfig.exe`
 * Description: Server Configurations
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `D5E0D8DA712D38522ADE4BC0AD27D9E028C80CD516FCD4947D5B4A30798CBAB41987D8
 SHA512 | `508B3AE0A8AD16558F50A404E3124F1B3D5816BAB7E6FB7DE739E6D481456DC88CA210577444BE6652ADB8F134FD7C46D7A52DDF5C987C9C489E62613AAF70EB`
 SSDEEP | `768:YI/wSnCLnj0zLAXaQXYgUFhTSPpIwAXxb9lWlyQljUcdC:YItCL4wXbXYVGPpIwAXxb90Uc4`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

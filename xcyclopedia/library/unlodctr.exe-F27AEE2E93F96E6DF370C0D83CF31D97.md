@@ -4,7 +4,7 @@ title: unlodctr.exe | Unload PerfMon Counters
 
 # unlodctr.exe 
 
-* File Path: `C:\windows\SysWOW64\unlodctr.exe`
+* File Path: `C:\Windows\SysWOW64\unlodctr.exe`
 * Description: Unload PerfMon Counters
 
 ## Hashes
@@ -48,6 +48,15 @@ Note: any arguments with spaces in the names must be enclosed within
 Double Quotation marks.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\unlodctr.exe |
+
 
 ## Signature
 

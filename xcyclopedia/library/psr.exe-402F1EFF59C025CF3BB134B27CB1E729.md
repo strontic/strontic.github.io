@@ -4,7 +4,7 @@ title: psr.exe | Steps Recorder
 
 # psr.exe 
 
-* File Path: `C:\windows\system32\psr.exe`
+* File Path: `C:\Windows\system32\psr.exe`
 * Description: Steps Recorder
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `96663EFAA7ED6D337B45F71F883C251F1D423D4AEB33BB6B11EA3CB242051AE8604A04
 SHA512 | `60ACB47B3616C26BC2BBF27F6BE706A7ADFBEB66DDF32C64F2457EBE031F331FBD43E8EE64992B9024DB824392A433894B86CFE80CC06ED2338798F373B45FDF`
 SSDEEP | `6144:z1yxV51DmDVQwwwoHsmbM/NzV/JAVcD8LPhSiWofQr2k5l8BmMxowi/EH1:z1yr5EVoHjbM/WcD8pellpco//EH1`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\psr.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

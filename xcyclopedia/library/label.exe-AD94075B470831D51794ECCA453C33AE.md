@@ -4,7 +4,7 @@ title: label.exe | Disk Label Utility
 
 # label.exe 
 
-* File Path: `C:\windows\system32\label.exe`
+* File Path: `C:\Windows\system32\label.exe`
 * Description: Disk Label Utility
 
 ## Hashes
@@ -36,6 +36,13 @@ LABEL [/MP] [volume] [label]
                   the /MP flag is unnecessary.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

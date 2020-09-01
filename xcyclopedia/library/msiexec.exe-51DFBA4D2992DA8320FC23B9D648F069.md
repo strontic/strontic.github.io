@@ -4,7 +4,7 @@ title: msiexec.exe | Windows installer
 
 # msiexec.exe 
 
-* File Path: `C:\windows\system32\msiexec.exe`
+* File Path: `C:\Windows\system32\msiexec.exe`
 * Description: Windows installer
 
 ## Screenshot
@@ -21,6 +21,34 @@ SHA256 | `DC52A89F2FCBD8E31F2D466BD2D35414A86BB907382251FABB88CD3969FB3EC8`
 SHA384 | `3666E1BA7A450C4128870113990760356A2EFBD841AEFED7C8245219DC5D596AEC27FA8BCE1B330BE07FB12B36737CF3`
 SHA512 | `E6CFC66AE78EA372922E54CFE7DE804E73F05267C9722704BEB56F73FE7E1D31A599E07B27803DA2E110748D45845E2DAC5C5FAC6917F7FA44A236F98EEAB8C3`
 SSDEEP | `768:1bzmTyNIJ8gxZ8HCOz6yapzBoHFV0sNi4BVAF25hSMizYlv/u57sHrWTx4rn15CJ:kXIB4zuA4zAFq8zzY+5nTx4r15L6V`
+
+## Runtime Data
+
+### Window Title:
+Windows Installer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\msiexec.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\msimsg.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\msiexec.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

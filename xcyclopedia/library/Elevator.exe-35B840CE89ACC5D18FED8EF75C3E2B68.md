@@ -4,7 +4,7 @@ title: Elevator.exe | AIMP Access Rights Elevator
 
 # Elevator.exe 
 
-* File Path: `C:\Program Files (x86)\AIMP3\Elevator.exe`
+* File Path: `C:\program files (x86)\AIMP3\Elevator.exe`
 * Description: AIMP Access Rights Elevator
 * Comments: Made in Russia
 
@@ -19,6 +19,19 @@ SHA256 | `3B1D02A3CAF0BC5F411A151D3C578244D98ADDF269D23BE0B0C082C2A73DD3A9`
 SHA384 | `7739670ABF447FA29D6231904ED68427D57163D9A47F96B5DAA7CF0452D254990F862340E27F9E0FB5A3B4502F49BDD0`
 SHA512 | `29085F2B2112000F9C4A1021AA82E1E2529FE77C511ED799665D0D7D14064D75B70A7E1A80B03DFC98DB1809A1A06419A546055BEA3A96B3998EB83793CB6B56`
 SSDEEP | `3072:w3AIwIWusj+1QBJglawlamCdivORLPVk/Bivm2So1XAykTIV7gkt2iFYiYd:wYIWuUttk/ib0tiFYiYd`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\AIMP3\Elevator.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

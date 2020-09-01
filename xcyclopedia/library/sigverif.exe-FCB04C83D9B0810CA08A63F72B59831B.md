@@ -22,6 +22,14 @@ SHA384 | `29425C8039C5A7B306570D729BE904ADD38BA5C0FBE480FD542C282239658DE2EA98A9
 SHA512 | `B7D88C36988BBC161131CCA92C65B7EB048290F38601A0E8E214ECA6454D8E51FF27FC086FB2A5021FB42ED888F2808CC624237578CBC666537921D1F085573B`
 SSDEEP | `1536:sJMQqk+mP6CjsvghUWNpc0SQOrsItxzAZT3WuEs:sJr19dAvgpL3OrsIkB7`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sigverif.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\sigverif.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

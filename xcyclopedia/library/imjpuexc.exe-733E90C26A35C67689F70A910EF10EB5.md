@@ -18,6 +18,16 @@ SHA384 | `23A952EFF910F2E4D81C716978AC632D334FFA86994EA150ED19091567D6A56EA3060E
 SHA512 | `888F26411718F080D80F725FEA779FBB01AD139D1BE551A3FED9F414CEFCE6EBFE8D4DAC5DF84AD944EAE307482E698A7AF89AD56BDCDA0D442ED65D4F6112C3`
 SSDEEP | `6144:qLQHmyhCtBKX0rIdzYI60AxApAwaeYscZBd3aWtM:AU4GBzIxAba3hd3XM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\IME\IMEJP\imjpuexc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\IMEJP\imjpuexc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

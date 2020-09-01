@@ -18,6 +18,27 @@ SHA384 | `280E99E29D4A9BB0F891AB2C59DA5D67026046726D69D60E6E5D15E1712DD0CB4C5880
 SHA512 | `EE2E7A305BACC218AAF9C255D21AD249B5A302E3EFEA104A00650A4DB405D38CDF2E6985B22F8001219CC8EF2F66FF2A941FA093D07DE962E0338450BA227673`
 SSDEEP | `384:7My5IVOzIZbJqe+aYM0/BeeaJ9VVz7ldwdNlHsplHWAcW:356WoYeCMQeP+/Hix`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINSPOOL.DRV |
+C:\Windows\system32\wpnpinst.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

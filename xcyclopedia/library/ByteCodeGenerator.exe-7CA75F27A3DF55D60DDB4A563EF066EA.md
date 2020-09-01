@@ -4,7 +4,7 @@ title: ByteCodeGenerator.exe | AppX Deployment Bytecode Generator EXE
 
 # ByteCodeGenerator.exe 
 
-* File Path: `C:\windows\SysWOW64\ByteCodeGenerator.exe`
+* File Path: `C:\Windows\SysWOW64\ByteCodeGenerator.exe`
 * Description: AppX Deployment Bytecode Generator EXE
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `A0BB35738D10A16190F279A30C27E1E217A5E121EC0B2A2608506DD107342C6A`
 SHA384 | `4061BAAAE0FA6EE3B6397D08A3245BD645A6F0968B36E19D1CE77DB2587FDC11EE5F356293DDE3DFE9F3495C8ACE74EB`
 SHA512 | `84F340D5B47C299B6085167D0729E1AEE9C8773CC05B005626F9B8895B249EFA3D3E6BE9B88C5CA548766ADDCC589832C3C56BB59CF499C933786FA6A6F77C59`
 SSDEEP | `1536:prn6AzKc+c9fNBtBjftarv0T5YpCK0fM23B3:pr6AzTtdYru1rx3`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ByteCodeGenerator.exe |
+
 
 ## Signature
 

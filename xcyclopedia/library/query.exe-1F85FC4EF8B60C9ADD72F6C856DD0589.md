@@ -33,6 +33,17 @@ QUERY { PROCESS | SESSION | TERMSERVER | USER }
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Client\104.4.175\QtWebEngineProcess.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -23,6 +23,16 @@ SSDEEP | `1536:9DeNdNKcJaVlpAjzfldyCKPu1oT1ldlOo+vi6Uf:BHcJazmjTldyCut1ldco+Q`
 ### Child Processes:
 ServerManager.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\CompatTelRunner.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

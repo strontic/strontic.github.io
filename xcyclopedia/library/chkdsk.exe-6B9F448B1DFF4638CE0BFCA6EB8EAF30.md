@@ -18,6 +18,16 @@ SHA384 | `742E8EB1D49813C47339308B54938654B9EB5928EA55A1C9607D93B3BF8298E6512FCB
 SHA512 | `F39D0C2E3C9D29D7E215430661B54B5C9DE5211219A31CE64061FB0DA5BD9DA63C10B4D5750F2E4111C23CE79D67B2C53F96ED80F3C9520A6EF1C2FC4B0CCFC2`
 SSDEEP | `384:nf9q3RI7DyDgpCpWODGhK2lZvEHBsnrQ0al+hdl0ITUaerNqWSFMhW:f9q3RI7DlCoOK8tWnrQ0awP3IraM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chgusr.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\chkdsk.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

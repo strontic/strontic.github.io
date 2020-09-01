@@ -18,6 +18,14 @@ SHA384 | `0DC81389757431E0BC8456C31B4E20374523D0FE1DED0148BAFE36BF7BBB535F898085
 SHA512 | `A3466A47E5133C541B842390A055A7F2EE7601E7324E9109AD9ADFC9E2D82FA240B6533B056B2D108B1A8A56D956ECAE1F51961B044BA415BF7A2E8945B9B115`
 SSDEEP | `96:fhuojQqmQX9acZvlPVI7dFpjDWPTE+rZwHuJNuxSoOvGMVFbS8EWDH8ZWwpQIYm:wkXbZFTybxSoOvGiFGNW7yWL4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dllhst3g.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dllhst3g.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

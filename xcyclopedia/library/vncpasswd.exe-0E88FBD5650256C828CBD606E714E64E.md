@@ -4,7 +4,7 @@ title: vncpasswd.exe | VNC Password Utility
 
 # vncpasswd.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\vncpasswd.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\vncpasswd.exe`
 * Description: VNC Password Utility
 
 ## Hashes
@@ -49,6 +49,16 @@ Options:
               Not recommended.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\vncpasswd.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

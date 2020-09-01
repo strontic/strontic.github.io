@@ -4,7 +4,7 @@ title: film.exe | GNU Image Manipulation Program Plug-In
 
 # film.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\film\film.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\film\film.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `ECC72EC5023FA4A95DAEE555F9E59ADD8C454CFBD134BCD341DD5F0CECCB2545`
 SHA384 | `AF1484B2E75003F13F67AE9D948BD2CF36598F955B3A12B286A0712ED6D840D4BA2149EE0E4A0984115FC331CBB4B6B3`
 SHA512 | `A5606522F2FA0CA95C00276A30FA3978C1DE84ACF6E4AC4D9FB8E65F29690C5E13C76E76C7F105A7E128123DDE76457C3384D1E6A3A95A17C821147D65D7FA66`
 SSDEEP | `1536:brUiWoamYJZRQOzzgGl8uyi8NjaipiPWQVai+fWXit:brw1zDQOzUGl8uyi8NjfmhVsfgM`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\film\film.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +62,7 @@ SSDEEP | `1536:brUiWoamYJZRQOzzgGl8uyi8NjaipiPWQVai+fWXit:brw1zDQOzUGl8uyi8Njfmh
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-sgi\file-sgi.exe](file-sgi.exe-BD828D6A2C86B1DD910D71F33803D796.md) | 46
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-sgi\file-sgi.exe](file-sgi.exe-BD828D6A2C86B1DD910D71F33803D796.md) | 46
 
 
 

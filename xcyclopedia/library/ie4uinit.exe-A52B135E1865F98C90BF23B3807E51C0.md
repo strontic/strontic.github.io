@@ -4,7 +4,7 @@ title: ie4uinit.exe | IE Per-User Initialization Utility
 
 # ie4uinit.exe 
 
-* File Path: `C:\windows\system32\ie4uinit.exe`
+* File Path: `C:\Windows\system32\ie4uinit.exe`
 * Description: IE Per-User Initialization Utility
 
 ## Hashes
@@ -18,11 +18,34 @@ SHA384 | `5AA92BCDD9D69BC129DE2444F3CEDCBE9F9E548C0238A7112B83BC87EF120123F60A7B
 SHA512 | `E97A8803B343677A15D2F84E161AA0A2C1C424FC973E933273768C5EB9F21C354F506AF396879C4B59145CFF83E28F0636446A11AB61A240AE36335DC47584E2`
 SSDEEP | `6144:2wFUGsVC9US0r+ELOC2esAfxd4beLQ+V5h6X:2wuhVw01OCtfz4bexy`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\ie4uinit.exe.mui | File
+(RW-)   C:\Users\Administrator\AppData\Local\Microsoft\Internet Explorer\ie4uinithelp.log | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_6d06464259f9d059 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ie4uinit.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

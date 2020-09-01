@@ -4,7 +4,7 @@ title: opusenc.exe |
 
 # opusenc.exe 
 
-* File Path: `C:\Program Files (x86)\AIMP3\System\Encoders\opusenc.exe`
+* File Path: `C:\program files (x86)\AIMP3\System\Encoders\opusenc.exe`
 
 ## Hashes
 
@@ -89,9 +89,20 @@ Diagnostic options:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\AIMP3\System\Encoders\opusenc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\AIMP3\System\Encoders\opusenc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\AIMP3\System\Encoders\opusenc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

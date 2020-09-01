@@ -18,6 +18,28 @@ SHA384 | `47C1C35BB95A73DEEBD795A8CAB8E4585B97A0738CE32559F9B8A826009C9EB1A2C4CE
 SHA512 | `5665CC7ECB45EC3F77965CCE0BDB34A82BE783B99E6509F7731E5EA52A7336F9F6E1E8A25A0A982E473DC559EA88F3639E3C8CD96F9A11CEB1726B4C754CF79A`
 SSDEEP | `768:j3batw7cbZaPffKJ1DEjFBfJmsYEby0sOZdrnXETI1PKV5v:DubACXDQPmcbhZdrnbPKV`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SystemSettingsRemoveDevice.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

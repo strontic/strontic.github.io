@@ -4,7 +4,7 @@ title: odbcad32.exe | ODBC Administrator
 
 # odbcad32.exe 
 
-* File Path: `C:\windows\system32\odbcad32.exe`
+* File Path: `C:\Windows\system32\odbcad32.exe`
 * Description: ODBC Administrator
 
 ## Hashes
@@ -17,6 +17,46 @@ SHA256 | `E98522037AC6DE502178B3DB469C54C7F6F1FCDCACA302C96ED0A9CD1C2E3E45`
 SHA384 | `ED11D78405457F8B1F35D079FBBB3436371F23E25F4BE582B12AB9D4B159FC1F9958261B2E902098B636D7840D8975D6`
 SHA512 | `DA0C91717D49E9585BF713FD7AB2062C2F3F187B80F739BAACBB81FE2267B6E2D58FB4457349DF5F9A5BD4A865AD18A82A0343FC75138397CF9FA02DA8B0FCE0`
 SSDEEP | `1536:N928khYf0Dytv3Jrz6q9EyYt9FlUIlbvBjIloW:u8F0UUKI9jo`
+
+## Runtime Data
+
+### Window Title:
+Microsoft ODBC Administrator
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\odbcad32.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\odbcint.dll.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\odbcad32.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

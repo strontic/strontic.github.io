@@ -25,6 +25,16 @@ SSDEEP | `24576:jdTh9FP8qIaslTRqALR7JiQAeJ6hrlZ9Mgu/RxNVNZYrEp9QNe7qpTSBMUEyQo:j
 ### Child Processes:
 _iu14D2N.tmp
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\uname.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\Program Files (x86)\K-Lite Codec Pack\unins000.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
@@ -47,7 +57,8 @@ _iu14D2N.tmp
 
 File | Score
 -- | --
-[C:\Program Files (x86)\K-Lite Codec Pack\Tools\CodecTweakTool.exe](CodecTweakTool.exe-E17BFB956FBF584DD93049822E740F04.md) | 94
+[C:\program files (x86)\K-Lite Codec Pack\Tools\CodecTweakTool.exe](CodecTweakTool.exe-E17BFB956FBF584DD93049822E740F04.md) | 94
+[C:\program files (x86)\K-Lite Codec Pack\unins000.exe](unins000.exe-9B5D0EB64DBA8BAB20D25A030EC245FF.md) | 99
 
 
 

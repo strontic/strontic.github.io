@@ -4,7 +4,7 @@ title: TapiUnattend.exe | Microsoft Windows(TM) Telephony Unattend Action
 
 # TapiUnattend.exe 
 
-* File Path: `C:\windows\SysWOW64\TapiUnattend.exe`
+* File Path: `C:\Windows\SysWOW64\TapiUnattend.exe`
 * Description: Microsoft Windows(TM) Telephony Unattend Action
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `137892CC79F32BF5A94A86D86FF107DF006E77FD3F0215137DA978C6552CB73A`
 SHA384 | `4821C82BE7F74DF0647C66EEA1A67E083C6025788A37A6D9A1DF77D453CE503B810267BEF32874ED08E4404B619B5ED1`
 SHA512 | `35EFE706C4F9687A11CC54A084BE9503B09DCAB011DB3FDB5280D05DAB29F718B4FB92B7EA24B30C19D55174113F9D1C45DC63E023F26245DE46B8F57A21DF1B`
 SSDEEP | `192:KSOadkYPdilaGPwrnR46TkBrTYreHCMrDTpHMhLVtmYGGW/BUWJx:jvPUYWk6BrT8eHCMTpshfDGGW/BUWJx`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\TapiUnattend.exe |
+
 
 ## Signature
 

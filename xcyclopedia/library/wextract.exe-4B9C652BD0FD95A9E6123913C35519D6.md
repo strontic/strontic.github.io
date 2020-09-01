@@ -22,6 +22,16 @@ SHA384 | `FE95696E80BDE91D26AB24C95AC7A3EAA9E654ABE599CB0E485E20D06121EEAE591107
 SHA512 | `0964EFAA0F3E20FDC20D58433E3D45562083F4748DB435A36BAC7D118EEFF0197BCF77DC831EA8F5A47D5B331F9DCDBC80668931A764FEC26129C5D47AF2F3F9`
 SSDEEP | `3072:IyqBXv8dNxT5Wp1icKAArDZz4N9GhbkUNEk95V:8k7Mp0yN90vE`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wevtutil.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wextract.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

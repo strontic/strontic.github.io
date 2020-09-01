@@ -4,7 +4,7 @@ title: sort.exe | Sort Utility
 
 # sort.exe 
 
-* File Path: `C:\windows\system32\sort.exe`
+* File Path: `C:\Windows\system32\sort.exe`
 * Description: Sort Utility
 
 ## Hashes
@@ -82,9 +82,16 @@ SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
 
 ### Usage (stderr):
 ```Batchfile
--helpThe system cannot find the file specified.
+--helpThe system cannot find the file specified.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

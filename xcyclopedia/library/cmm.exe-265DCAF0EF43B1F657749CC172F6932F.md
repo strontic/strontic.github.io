@@ -22,6 +22,17 @@ SHA384 | `CC7270F2586BC7C11BA83609B729165F79726DF3D7349FCE344C96F55552C300F41821
 SHA512 | `C30DB41CA768902626A304F1DAB7A4603547FF4AAF0863072A68ED314A8CAE098803C77CCC2287EB8057C03C93B52BC3E282E2C57928D29AB8C1ED6B66357030`
 SSDEEP | `3072:wACh0ZoK3GT5bVLN6PVMOzcai1JZs+oW2VA:vCRK2TBVJ6PVMOzU3ZyWx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\cmm.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `3072:wACh0ZoK3GT5bVLN6PVMOzcai1JZs+oW2VA:vCRK2TBVJ6PVMOzU3ZyWx`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\cmm.exe](cmm.exe-0F4BA0D299A93A0D3A627A1CAC06061D.md) | 93
 
 
 

@@ -18,6 +18,36 @@ SHA384 | `2EDEA61F7141C2F107FAB28F0752719FA91F71FC3544FEA227F547A661BB8868D3F6B1
 SHA512 | `5CFDDB139F254607D81F0E9ADDD0AB7D5FEC46FE8FACFC8F69BF789DA5DF7C0809A808144EC0A32CC841240F3C74DFC541C9BF9A24A33C57B3E4D2C9A88B2D9A`
 SSDEEP | `1536:Y+7fA8LgWp8jweDL+l0YW2iwpjyrH/jak:Y+DAmgWEDL+zrim+L/2k`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\TSTheme.exe.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\TSTheme.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

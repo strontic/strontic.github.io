@@ -4,7 +4,7 @@ title: qappsrv.exe | Query Remote Desktop Session Host Server Utility
 
 # qappsrv.exe 
 
-* File Path: `C:\windows\system32\qappsrv.exe`
+* File Path: `C:\Windows\system32\qappsrv.exe`
 * Description: Query Remote Desktop Session Host Server Utility
 
 ## Hashes
@@ -53,6 +53,24 @@ QUERY TERMSERVER [servername] [/DOMAIN:domain] [/ADDRESS] [/CONTINUE]
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\qappsrv.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\qappsrv.exe |
+
 
 ## Signature
 

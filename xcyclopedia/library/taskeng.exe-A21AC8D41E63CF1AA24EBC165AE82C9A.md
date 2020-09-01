@@ -18,6 +18,17 @@ SHA384 | `699FE5787E2D39A33992760C99821B6D0A5E63AADD7CB8547F103911B9401E25A1AC41
 SHA512 | `C06932F80077205B37F489C672D7462AC84F1875E2F36564D0FBECF130C6D7CA74F47345B46306F646652C6ED84AD66506807E99B55BFB1CF7FF4798383A4FE0`
 SSDEEP | `6144:oy5hazS9aKOOg542jHW+rTEHQrrT8eJnCwcEWkQDm5:oyiecK8542vrTEaFIwWZm5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\tar.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\taskeng.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: patch.exe | Patch- apply a diff file to an original
 
 # patch.exe 
 
-* File Path: `C:\Program Files\WinMerge\GnuWin32\bin\patch.exe`
+* File Path: `C:\program files\WinMerge\GnuWin32\bin\patch.exe`
 * Description: Patch: apply a diff file to an original
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `1536:i6IMVcXXBjkSvfF1mukXUf7SB2w6X7Hmp624RkdCId/jB9YJD5WLRajptgOMwD:5I
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\Program Files\WinMerge\GnuWin32\bin\patch.exe [OPTION]... [ORIGFILE [PATCHFILE]]
+Usage: C:\program files\WinMerge\GnuWin32\bin\patch.exe [OPTION]... [ORIGFILE [PATCHFILE]]
 
 Input options:
 
@@ -92,17 +92,39 @@ Report bugs to <bug-patch@gnu.org>.
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files\WinMerge\GnuWin32\bin\patch.exe: invalid option -- h
-C:\Program Files\WinMerge\GnuWin32\bin\patch.exe: Try `C:\Program Files\WinMerge\GnuWin32\bin\patch.exe --help' for more information.
+C:\program files\WinMerge\GnuWin32\bin\patch.exe: invalid option -- h
+C:\program files\WinMerge\GnuWin32\bin\patch.exe: Try `C:\program files\WinMerge\GnuWin32\bin\patch.exe --help' for more information.
 
 ```
 
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\AppData\Local\Temp\ppa10084 | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\WinMerge\GnuWin32\bin\patch.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\WinMerge\GnuWin32\bin\patch.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\WinMerge\GnuWin32\bin\patch.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

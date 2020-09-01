@@ -4,7 +4,7 @@ title: pythonw.exe | Python
 
 # pythonw.exe 
 
-* File Path: `C:\Program Files\Python38\pythonw.exe`
+* File Path: `C:\program files\Python38\pythonw.exe`
 * Description: Python
 
 ## Screenshot
@@ -26,7 +26,7 @@ SSDEEP | `1536:ISgb2lKhIxHHWMpdPa5wiE21M8kJIGFvb1CwX/k3siy0m:ISs2lKSwMpdCq/IM8uI
 
 ### Usage (stdout):
 ```Batchfile
-usage: C:\Program Files\Python38\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\program files\Python38\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
          and comparing bytes/bytearray with str. (-bb: issue errors)
@@ -122,9 +122,29 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files\Python38\pythonw.exe: can't find '__main__' module in 'help'
+C:\program files\Python38\pythonw.exe: can't open file 'help': [Errno 2] No such file or directory
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Python38\python38.dll |
+C:\program files\Python38\pythonw.exe |
+C:\program files\Python38\VCRUNTIME140.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\WS2_32.dll |
+
 
 ## Signature
 
@@ -148,8 +168,8 @@ C:\Program Files\Python38\pythonw.exe: can't find '__main__' module in 'help'
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\pythonw.exe](pythonw.exe-22A73968F535CD1042A5AA301C2A537B.md) | 82
-[C:\Program Files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 75
+[C:\program files (x86)\Python38-32\pythonw.exe](pythonw.exe-22A73968F535CD1042A5AA301C2A537B.md) | 82
+[C:\program files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 75
 
 
 

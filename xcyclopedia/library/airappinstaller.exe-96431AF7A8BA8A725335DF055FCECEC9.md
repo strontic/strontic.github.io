@@ -4,7 +4,7 @@ title: airappinstaller.exe | Adobe AIR Application Installer
 
 # airappinstaller.exe 
 
-* File Path: `C:\Program Files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe`
+* File Path: `C:\program files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe`
 * Description: Adobe AIR Application Installer
 
 ## Hashes
@@ -29,6 +29,17 @@ unexpected error: ArgumentError: Absolute path of the air file needs to be speci
 ### Child Processes:
 Adobe AIR Application Installer.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -51,7 +62,7 @@ Adobe AIR Application Installer.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\airappinstaller.exe](airappinstaller.exe-96431AF7A8BA8A725335DF055FCECEC9.md) | 100
+[C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\airappinstaller.exe](airappinstaller.exe-96431AF7A8BA8A725335DF055FCECEC9.md) | 100
 
 
 

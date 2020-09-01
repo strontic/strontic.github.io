@@ -4,7 +4,7 @@ title: xpdfimport.exe |
 
 # xpdfimport.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\xpdfimport.exe`
+* File Path: `C:\program files\LibreOffice\program\xpdfimport.exe`
 
 ## Hashes
 
@@ -21,6 +21,25 @@ SSDEEP | `49152:Tmvmq51csZyD1VPuaqWgJjRZAof3IFQLTzzf/tlL4lTdvD:j9Jo4`
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\xpdfimport.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

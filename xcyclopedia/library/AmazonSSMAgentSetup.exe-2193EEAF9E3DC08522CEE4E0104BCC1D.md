@@ -23,6 +23,29 @@ SSDEEP | `12288:579g/k9Ygb25zyaaEqrHqm/A6i7yCIBW16V:bgwYgb25FJsqIA60d316V`
 ### Child Processes:
 AmazonSSMAgentSetup.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\ProgramData\Package Cache\{4d6154c1-7b11-4968-825b-0b2aa6e1bf14}\AmazonSSMAgentSetup.exe | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Package Cache\{4d6154c1-7b11-4968-825b-0b2aa6e1bf14}\AmazonSSMAgentSetup.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

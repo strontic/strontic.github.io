@@ -4,7 +4,7 @@ title: zpaq.exe |
 
 # zpaq.exe 
 
-* File Path: `C:\Program Files\PeaZip\res\zpaq\zpaq.exe`
+* File Path: `C:\program files\PeaZip\res\zpaq\zpaq.exe`
 
 ## Hashes
 
@@ -50,13 +50,23 @@ Options:
   -tN -threads N  Use N threads (default: 0 = 0 cores).
   -to out...      Rename files... to out... or all to out/all.
   -until N        Roll back archive to N'th update or -N from end.
-  -until 2020-08-15 19:46:10  Set date, roll back (UT, default time: 235959).
+  -until 2020-08-30 21:14:44  Set date, roll back (UT, default time: 235959).
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PeaZip\res\zpaq\zpaq.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\PeaZip\res\zpaq\zpaq.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\PeaZip\res\zpaq\zpaq.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

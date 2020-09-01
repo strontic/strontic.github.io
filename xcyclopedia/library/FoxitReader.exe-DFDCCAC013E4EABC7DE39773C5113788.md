@@ -4,7 +4,7 @@ title: FoxitReader.exe | Foxit Reader 10.0
 
 # FoxitReader.exe 
 
-* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe`
+* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe`
 * Description: Foxit Reader 10.0
 
 ## Screenshot
@@ -26,6 +26,38 @@ SSDEEP | `1572864:Gv5pt8NKgCbHGtVHDmgG9toiOHoHPFhn1kL:Cpp2VHjdI12`
 
 ### Child Processes:
 cmd.exe
+
+### Window Title:
+Foxit Reader
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\SysWOW64\en-US\msvfw32.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

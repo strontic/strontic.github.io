@@ -4,7 +4,7 @@ title: setup.exe | 32-bit Setup Launcher
 
 # setup.exe 
 
-* File Path: `C:\windows\SysWOW64\InstallShield\setup.exe`
+* File Path: `C:\Windows\SysWOW64\InstallShield\setup.exe`
 * Description: 32-bit Setup Launcher
 
 ## Screenshot
@@ -23,6 +23,35 @@ SHA256 | `3F14C822BD440FEC8458FD11E950315E3D784908629B301526A57A3A623BF70C`
 SHA384 | `837EB427DD3E046D99C8B3E6ADE4FE4F583EB2793DF4331C703D627E781F01B2087E15E5976930B1038D1C1F028FA8C1`
 SHA512 | `4BAB306A87E9EF348D2C2F7051AF3E9ADC2BA0AADA6895CE3370DEF83E2A0A657E9DA9A8F9422093D1C274BFF9DDB0E52C9B7FE0D6D6FDAA85545DBDB2B2EE7B`
 SSDEEP | `1536:I8wNfktLYUqSfzC8wATsq3CRJMdzzOi3d0eFKg:I80ct8dSfmXosgCRJMdfO6FKg`
+
+## Runtime Data
+
+### Window Title:
+Setup Initialization Error
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InstallShield\setup.exe |
+
 
 ## Signature
 

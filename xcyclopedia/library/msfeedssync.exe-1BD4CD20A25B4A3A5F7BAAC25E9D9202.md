@@ -18,6 +18,13 @@ SHA384 | `89BDEFBCA09DE6917F4F806DEB9DDCA0435805E4322403A6488C610A4DE6096ADD5904
 SHA512 | `222732EC3A9160989DBA0A3265BF48C91301E000C75B40ECB309BCB16B63F720A95B7BEFF3EF7DCB95AD578F3ADDB894C2AA5A5D70E4B508987259DDDF7621CC`
 SSDEEP | `192:rmSOTWQWuyRxwAX9bTLDMnoOK810FtvWcsX8Oc:riTWQbyRzX9HsoJPDWcsXD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\msfeedssync.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

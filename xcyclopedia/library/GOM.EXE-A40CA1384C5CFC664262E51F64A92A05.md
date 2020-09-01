@@ -4,7 +4,7 @@ title: GOM.EXE | GOM Player
 
 # GOM.EXE 
 
-* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\GOM.EXE`
+* File Path: `C:\program files (x86)\GRETECH\GomPlayer\GOM.EXE`
 * Description: GOM Player
 
 ## Screenshot
@@ -26,6 +26,60 @@ SSDEEP | `98304:e6bru9aA4lt/OcPcbm6n1yKvyckjuqdBTVJVKdTZ7Gz/qNBG39qdTogjLhKa2GmF
 
 ### Child Processes:
 GrLauncher.exe
+
+### Window Title:
+GOM Player
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mshtml.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mswsock.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\wdmaud.drv.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\urlmon.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\ieframe.dll | File
+(R-D)   C:\Windows\SysWOW64\stdole2.tlb | File
+(RW-)   C:\ProgramData\GRETECH\GomPlayer\gomplayer.db | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\LHC7XUA3\ad_txt[1].htm | File
+(RW-)   C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\IE\LHC7XUA3\update_eng[1].htm | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RWD)   C:\Windows\Fonts\arialbd.ttf | File
+(RWD)   C:\Windows\Fonts\micross.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\18c8HWNDInterface:1a028e | Section
+\Sessions\1\BaseNamedObjects\18c8HWNDInterface:3702c4 | Section
+\Sessions\1\BaseNamedObjects\18c8HWNDInterface:9e038e | Section
+\Sessions\1\BaseNamedObjects\18c8HWNDInterface:a005c2 | Section
+\Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
+\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
+\Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\GOM.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

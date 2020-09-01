@@ -4,7 +4,7 @@ title: emboss.exe | GNU Image Manipulation Program Plug-In
 
 # emboss.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\emboss\emboss.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\emboss\emboss.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `BE4EE9275ECD8A4B73E63040A3140A75ED306FB8587FE9B5292DAF1E8325AD8D`
 SHA384 | `7256BB0834BADF07BE40E678ABD4D4234EA77CA43A3807B1B82260C81715F738624B6EEBFD210E7052A2FF0473D0AA4B`
 SHA512 | `E8A3F09B7F0322E4C3B1C8BE8AF51B2F18953DF578D7140CFE89062CBB4563D87D41E4C7FE82B744A963CE3A3C34A6359CD3279556BA198A339358AFB72258DE`
 SSDEEP | `1536:SMLS3+g/AXJ6dgJSstVGs9vvqaipiPWRaiwWXih:vFSsvGs9vvqfmKGg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\emboss\emboss.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,8 +62,8 @@ SSDEEP | `1536:SMLS3+g/AXJ6dgJSstVGs9vvqaipiPWRaiwWXih:vFSsvGs9vvqfmKGg`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\border-average\border-average.exe](border-average.exe-8995F1715E54FAFB4DE6D997BE10EDCF.md) | 43
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\procedure-browser\procedure-browser.exe](procedure-browser.exe-7C2B54450E1DC9D6C118363D4621724A.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\border-average\border-average.exe](border-average.exe-8995F1715E54FAFB4DE6D997BE10EDCF.md) | 43
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\procedure-browser\procedure-browser.exe](procedure-browser.exe-7C2B54450E1DC9D6C118363D4621724A.md) | 44
 
 
 

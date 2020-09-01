@@ -4,7 +4,7 @@ title: dasHost.exe | Device Association Framework Provider Host
 
 # dasHost.exe 
 
-* File Path: `C:\windows\system32\dasHost.exe`
+* File Path: `C:\Windows\system32\dasHost.exe`
 * Description: Device Association Framework Provider Host
 
 ## Hashes
@@ -22,6 +22,24 @@ SSDEEP | `1536:a8wrrC7paw1ykiaZbKIWCvywnqnjPnCCCCCCCCTLCCCCCCCCCCTCeqWHi0SbR+JY:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC14C4 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dasHost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -22,6 +22,17 @@ SHA384 | `4A3B32B1B0BE7F1469BB1CC569D0A9BD869124BC69710E0664B60DAB0E765E7B94C7E9
 SHA512 | `5CA6E3D377E10B2DE2505723496699145C33EF2917EB334F0B03FCB414149D5B6E8FE0FAC7F0454FF7E8AA3E595F380649BF42A165AF2EB0366E9BACF22CCA93`
 SSDEEP | `6144:+C+sE4Duz2C+sEQDu0irIuU5pmZbgXooP:+jsfK2jsx085pmZUP`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

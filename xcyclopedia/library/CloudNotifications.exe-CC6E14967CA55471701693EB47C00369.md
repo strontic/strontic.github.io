@@ -18,6 +18,48 @@ SHA384 | `772D39AE97F6FF1F47A751E44212B87EF1C54D1BCC1CDE3033955FD3076ECB281EFD53
 SHA512 | `A46108A4B995CDC30E22E4CA2EFA80A84DB6849721B2CAE0FAD37226BC0CE7558D0B823F1D8EDC1273D5264CA3DAEACBEB2785D320F0C21B7A326616A33EAE91`
 SSDEEP | `768:5RCmPlUYyj3KPY9Ci/aUzAYMDouj8R/cJ6x0ZOOLAq2dLwYryilmsJJH0I1Pv7zJ:5z+Yyj3yMBrVyouj8R/cJ6x0ZOOLAq2H`
 
+## Runtime Data
+
+### Window Title:
+Low disk space
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
+(R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
+(R-D)   C:\Windows\SysWOW64\en-US\CloudNotifications.exe.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
+(RWD)   C:\Windows\Fonts\seguisb.ttf | File
+(RWD)   C:\Windows\Fonts\seguisym.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CloudNotifications.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

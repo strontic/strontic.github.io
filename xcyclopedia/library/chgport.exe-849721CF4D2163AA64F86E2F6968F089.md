@@ -4,7 +4,7 @@ title: chgport.exe | Change port Utility
 
 # chgport.exe 
 
-* File Path: `C:\windows\SysWOW64\chgport.exe`
+* File Path: `C:\Windows\SysWOW64\chgport.exe`
 * Description: Change port Utility
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `7B58FD0E18BC8969CE5E5B3C790E032D7E29AF591F374075C645073C236B148D`
 SHA384 | `2691A250615B01DBCAFE8B5EC2F92F6B85C3E74CB1492FC695346CC044B75B89EEC39676B7B0A09C1DCEEBBF6A564455`
 SHA512 | `5458A30DAC3A4B5BAC9A489D66863B835EF45AD5DB6EC995684DA97A593829F84AB7911520580346F04DDF6CDD2563E6D373FA0DC3C1F3E6330BA1F8CADB963A`
 SSDEEP | `384:v8N5YwthcLXn3ts/koKXWS21ot+xnEptG276MWUQWTW:v8N5/bcLK/J2+a5W`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -31,6 +33,15 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\chgport.exe |
+
 
 ## Signature
 

@@ -18,6 +18,24 @@ SHA384 | `8DDCA030F18010AA46BE8E21C05C02BCF5B78D7BB970243D57FF2A8360E12F3784ABC9
 SHA512 | `D809DC380113BFA6124FA9870B94BE56F4E656CCD3CC3D2FF027258820FF182502D2D1B9620A9B74C404AAAC4C99FFDFB341EECC021C2AEC90DDCEB60A68C25B`
 SSDEEP | `1536:vnV89T9dEfdAVtEpjc40nVbfXwXnGySuDcolHFhMl9vsa4:98NofTpjlXns8ckFWl`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SpaceAgent.exe |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\SpaceAgent.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

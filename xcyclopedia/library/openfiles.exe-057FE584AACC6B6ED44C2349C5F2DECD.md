@@ -4,7 +4,7 @@ title: openfiles.exe | Displays the current open files list
 
 # openfiles.exe 
 
-* File Path: `C:\windows\system32\openfiles.exe`
+* File Path: `C:\Windows\system32\openfiles.exe`
 * Description: Displays the current open files list
 
 ## Hashes
@@ -52,6 +52,14 @@ ERROR: Invalid syntax.
 Type "OPENFILES /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\openfiles.exe |
+
 
 ## Signature
 

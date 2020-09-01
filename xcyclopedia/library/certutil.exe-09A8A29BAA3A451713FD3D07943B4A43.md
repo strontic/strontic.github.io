@@ -18,6 +18,14 @@ SHA384 | `FD0C5DAA674C45E34714651686A04001CA28C1C2BCFAAE6D56F859D2ABE69E0AA1E2E9
 SHA512 | `5D9AE3F3FCC6136EEC9A524E64C3684F23D401665ED878BD009F0E58FFE2295CE230DC30FB0403A0332589E03D765D77202041D44FABA808177C921B39DCB8D7`
 SSDEEP | `24576:ybmY2A9/m64I/DSFYNUIMizVnDJ0hf1z8fU7lz+3jKExi:yyLAQ2DS0UINRsN4SIjli`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\certsrv.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\certutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

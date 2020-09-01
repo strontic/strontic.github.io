@@ -18,6 +18,20 @@ SHA384 | `057391E646CD69A056AA0E7B36087C5B246A6E45DB7EDD37CCAC70F660B3BF6ACB612B
 SHA512 | `4697EFE76F9A607B20C2224A02A62E6D96EB82E9BBA2C9DE45EA9D51AEEC25B74F0496F8E98DB584DC9DB72BDF2691FD73653A93A18A04146191A2C18FFD47DD`
 SSDEEP | `24576:6P8gM1JEemUovOL2WwAPgmwjTel+mCggax:2FHe9l2kPgXTeEmxjx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\SettingSyncHost.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

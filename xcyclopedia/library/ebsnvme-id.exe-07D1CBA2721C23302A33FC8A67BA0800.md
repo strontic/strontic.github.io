@@ -23,7 +23,7 @@ SSDEEP | `6144:tZcF50g9r2a3AQpcDxlAAcn83ShMhoh8GbGhFN:tJg9rxAccVlA8o2ZX`
 ### Usage (stdout):
 ```Batchfile
 
-Error: Non-numeric input: -help
+Error: Non-numeric input: --help
 
 EBS NVMe ID utility application ver 1.0.0.32
 Usage: ebsnvme-id <disknumber> ... <disknumberN>
@@ -31,8 +31,13 @@ Usage: ebsnvme-id <disknumber> ... <disknumberN>
 
 ```
 
-### Child Processes:
-conhost.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Amazon\Tools\ebsnvme-id.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

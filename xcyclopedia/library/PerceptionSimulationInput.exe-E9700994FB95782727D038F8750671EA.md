@@ -18,6 +18,21 @@ SHA384 | `3A4E4006FE06EC52EE2C304A935A6ED4E2C1BBDB98521396306815BA60266C8EEC61D7
 SHA512 | `6AB45F812B00110419474FD8044CC129530B3BA8F526B31FD3F14ED9FB5AC9C4317B4E0F56CCE891D38EB46BD25E198589482F7F43EE32B2F8F0679A225FF657`
 SSDEEP | `768:QNLbT0zBFpzX5SLsOq/VbDhZeRhh4sVvwEO97dFpMzfe+Ic7Zn9I8Royy51YKX+F:QpH0prYI/VbD3efO9pMj8DAmpfhNokN`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.dll |
+C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

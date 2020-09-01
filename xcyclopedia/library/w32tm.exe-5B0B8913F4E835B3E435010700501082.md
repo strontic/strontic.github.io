@@ -18,6 +18,14 @@ SHA384 | `E532DF076B4ABB0262590026EEF37686E0FF5BBAAEE11A7F153F65EC7972A219712AB6
 SHA512 | `45A72897E13F11E6F07FD3AFEBD7C87135344F2F7A46415DB71FCCFBC200C454D46D8813C77DD17BEEB1D68DBDDEB754BCE3E2454B095D15C9B0BB607C4D7CB8`
 SSDEEP | `1536:m4mIDYpn6lZdHFA77hLDFpUxYJy5HzDKU00oWZRVP9e9:mbII6tHFA7tLDFOIU00oWZjPM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\w32tm.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\w32tm.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: dcomcnfg.exe | COM+
 
 # dcomcnfg.exe 
 
-* File Path: `C:\windows\SysWOW64\dcomcnfg.exe`
+* File Path: `C:\Windows\SysWOW64\dcomcnfg.exe`
 * Description: COM+
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `96:Ojxj2cfOg0OE4NnEp2iyIRo2yI3nc4d/UDGjA2HtEY2wjtoVcJDP2LVD7KkBKEWX:wx
 
 ### Child Processes:
 mmc.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dcomcnfg.exe |
+
 
 ## Signature
 

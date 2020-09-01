@@ -4,7 +4,7 @@ title: fsutil.exe | fsutil.exe
 
 # fsutil.exe 
 
-* File Path: `C:\windows\SysWOW64\fsutil.exe`
+* File Path: `C:\Windows\SysWOW64\fsutil.exe`
 * Description: fsutil.exe
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `3072:cysAQ3C2HZ2byEfGCUuyHzy6lMg87j6jUr+87CXbRMuhrG:feZeyEeCUu11fpx7QR
 
 ### Usage (stdout):
 ```Batchfile
--help is an invalid parameter.
+--help is an invalid parameter.
 ---- Commands Supported ----
 
 8dot3name       8dot3name management
@@ -45,6 +45,13 @@ volume          Volume management
 wim             Transparent wim hosting management
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

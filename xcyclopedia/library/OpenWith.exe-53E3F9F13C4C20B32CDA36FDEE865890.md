@@ -18,6 +18,38 @@ SHA384 | `3A2BB748C9E185EE1FAD2959EDCC828FE2169D1D315983629C87A371DB95B4AA047AA1
 SHA512 | `DDBEC8B6BC4A2A1EA96DE2D5C983702DFA14ECB14ADCB31A2DD55338845DD1B1C9C4076B3FDA8BE9D38876502A50C845EA82BC9A8152AF73E7E15272B20AAC0F`
 SSDEEP | `1536:gx2TCjRqyegzTJ8VcJQyAO50aimJ1JsaeQyrFumfKQTzBNer+CE+Ge+MgTq2lPxH:rTCjHPJQymaexs6rer+CE+G9lpH`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\OpenWith.exe.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\OpenWith.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

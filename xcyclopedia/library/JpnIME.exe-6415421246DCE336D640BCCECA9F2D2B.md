@@ -18,6 +18,17 @@ SHA384 | `7EF20CB918729571014C887EF4431B2D8B3EC919F00B5425F0CF5032D1AC9D599B6E33
 SHA512 | `03D9B6852E80F5F19CC2934DEF93C9A5F9DAA0F95E85C12736ECD8B7A935F6FD3DA923AC828E920EFCA2941C4D808157F843CFDAC9682F89926E01B16279068A`
 SSDEEP | `12288:fPDF79sFoGGbu0CxGYRClAW7BplGCwwPtm5h8st5:fPB7eS7urrWLlGWmQC`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\joinExe.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\InputMethod\JPN\JpnIME.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

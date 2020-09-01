@@ -18,6 +18,56 @@ SHA384 | `B448D9BE4501748A0892552D44BD5C1D6ACF8A3D8D121FA48C45AEEDD8B4FAB969BB4B
 SHA512 | `AB0A945210D6704FCFAED60001661B01FDB25F916AF2BC5CB6C8903506DA0C04F0A3963132B439881446AB0153A88A18B4444D0B80C270ACC5E07A3AED1FBFC5`
 SSDEEP | `49152:is67bEusTP+xQrJpJSH4lLdG22bGeeaAtN1kyw8A7/eFwIADOVhU7:mbcTP+QrRSH4lLdGJbGeeZX9w8a0ODOs`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\explorer.exe |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\SYSTEM32\dwmapi.dll |
+C:\Windows\SYSTEM32\dxgi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\SYSTEM32\PROPSYS.dll |
+C:\Windows\SYSTEM32\RMCLIENT.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\settingsynccore.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\SYSTEM32\SspiCli.dll |
+C:\Windows\SYSTEM32\twinapi.appcore.dll |
+C:\Windows\SYSTEM32\TWINAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\SYSTEM32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\SYSTEM32\WININET.dll |
+C:\Windows\SYSTEM32\winmm.dll |
+C:\Windows\SYSTEM32\winmmbase.dll |
+C:\Windows\SYSTEM32\WTSAPI32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -42,6 +92,7 @@ File | Score
 -- | --
 [C:\Windows\explorer.exe](explorer.exe-044F48AA4B726924881597815A7C1B06.md) | 33
 [C:\Windows\explorer.exe](explorer.exe-E1CB52C97C27F702CC96CF886B67FB8B.md) | 30
+[C:\Windows\SysWOW64\explorer.exe](explorer.exe-AA0CA518E66F290FE0BAC6169473E8A9.md) | 30
 
 ## Possible Misuse
 
@@ -213,6 +264,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eternalblue_non_wannacry.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eternalblue_non_wannacry.yar) |       $s1 = "\\Program Files\\Internet Explorer\\iexplore.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_foudre.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_foudre.yar) |       $s3 = "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\\\Shell Folders" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_kaspersky_duqu2.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_kaspersky_duqu2.yar) | 		$s3 = "Process Explorer" fullword wide /* PEStudio Blacklist: strings */ /* Goodware String - occured 5 times */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_aug20.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar) |       $str_exe_1 = "explorer.exe" ascii wide nocase  | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_poisonivy_gen3.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy_gen3.yar) | 		$s5 = "Explorer.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$s1 = "Explorer.exe \"" fullword ascii /* PEStudio Blacklist: strings */ /* score: '16.05' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$s1 = "EXPLORER.EXE" fullword ascii /* PEStudio Blacklist: strings */ /* score: '4.98' */ /* Goodware String - occured 22 times */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

@@ -18,6 +18,26 @@ SHA384 | `DDB9B6B4838AB8370DA747771D2047B78527DFDD394FCB9E0887401776F9DCA381CC06
 SHA512 | `530F4B70550EAF42FBA3BC911B0F0AF5310C3C1AD05084699A6A9070C92CB150F34DC613172B3D20C846AAB046D8A2183CB24205086DE34503ECBBEC8206F3C5`
 SSDEEP | `6144:iy6WNt9IssaMOUKbybBDnO9zSpe1R5E1G79KOkCbbUz:PNt9ZuKbybBzO3Uo9r1K`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\IME\SHARED\IMEPADSV.EXE |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

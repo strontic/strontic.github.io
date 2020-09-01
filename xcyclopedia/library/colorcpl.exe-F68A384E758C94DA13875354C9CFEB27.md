@@ -22,6 +22,49 @@ SHA384 | `6D585766D41E34A8997332EA3E04B8A8D19546C5C36354CA6417E956C672488BAC478A
 SHA512 | `1D401EA1699DA5A74D70AA9B7923C238D7972A8E1429CB0CFE985EA65E00EB76E680D91D822AE8DD866F2DA756D1FD95F66A948F55EA365B0B7E538ACA8F2C17`
 SSDEEP | `1536:vq4IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:yDXlvq7jSP1cR2prbpdCY9`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\system32\ColorAdapterClient.dll |
+C:\Windows\system32\colorcpl.exe |
+C:\Windows\system32\colorui.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\system32\IPHLPAPI.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mscms.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINSPOOL.DRV |
+
+
 ## Signature
 
 * Status: Signature verified.

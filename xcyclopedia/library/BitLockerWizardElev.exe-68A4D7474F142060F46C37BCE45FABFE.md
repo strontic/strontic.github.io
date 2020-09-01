@@ -18,6 +18,8 @@ SHA384 | `CDD861A80A42366471385A4DE92FD73D1B35A36BED3CC55D16FE8BCB45025F6C5E9EDD
 SHA512 | `D4A2953577B7F549BD1BB77DF3C5219F05FEB553A7480E0FAB54F02448C79E63480863DDBD39CFADCA00F3DF1BD12D5D70E855E5150B032E171DEA84B81E0676`
 SSDEEP | `3072:wZEDf0wnVS570M9kdatGCO+xmBc+hMPhPsx:XDdVs7nyatGt+SYF`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Bitlocker Wizard Launcher
@@ -38,6 +40,25 @@ Bitlocker Wizard Launcher
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\BitLockerWizardElev.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\FVEWIZ.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
 
 ## Signature
 

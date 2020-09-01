@@ -53,6 +53,14 @@ Type "OPENFILES /?" for usage.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\openfiles.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

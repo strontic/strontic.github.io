@@ -18,6 +18,20 @@ SHA384 | `6FD4CCBBA407215B5EFEC1A8960387D1D1E510E471375F0CEB33FF8B64C09E9B4FC53F
 SHA512 | `7A7008B98388DB13C400B9DD04CF46A102439237EFE1A52816FA86A71238C34E36E5707C19B598E8160F115106CD20ADAA34182ABBC40CCA7A3B63095EE87FEF`
 SSDEEP | `384:sIuAESo4BfUVV/Wm5DYgWvmXjDBRJY/Y1lxwMwxQ:TeSBUVTlXj1PpwxQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\prproc.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

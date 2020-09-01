@@ -18,6 +18,14 @@ SHA384 | `66916ABA3527E1EA31E4D897B7DCC3A03B6B1CA62B7E356B801221FBC67F5BA22EB923
 SHA512 | `F424F5022A52E8A7A1056ADFA67B1F3053512F2EE633189381E9EC3D61D6F76F605EDC388BD9CB7FCEFDF22128FF246E99891853346E4796BF1BD888D5D8FC29`
 SSDEEP | `192:8cjc5qF40Bv5TnL7GP7lWiEIHJpaBBhtCLsUU/KWArbQSHNe9WlG6BWb6W:8b5qF40t5L4LhKbh3SW+RNe9YWb6W`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\HOSTNAME.EXE |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\HOSTNAME.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

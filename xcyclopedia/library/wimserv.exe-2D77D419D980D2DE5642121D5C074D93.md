@@ -4,7 +4,7 @@ title: wimserv.exe | Wimfltr v2 extractor
 
 # wimserv.exe 
 
-* File Path: `C:\windows\system32\wimserv.exe`
+* File Path: `C:\Windows\system32\wimserv.exe`
 * Description: Wimfltr v2 extractor
 
 ## Hashes
@@ -17,6 +17,21 @@ SHA256 | `8BE46FACF743B74F23E69FEB09794C1ABB689C9EC7667F7ED83DBEE8F88E582D`
 SHA384 | `25BD9E3237E101FB6C5C2651493ACE3F18D13B82EA3BBF030B036CEE7C815CEBE52E682E2DE65AAE766D5F30D42124F8`
 SHA512 | `C733770DD4E42F53B5F3BAAF517F826DF2D9A2D8D50E7C916BCEB3CE297C99E6B9C14B730D10C57F5859CBFFE1DCA220A25DDC1441BD4CA545A0588EF81E7EF5`
 SSDEEP | `12288:FcTWNHCfCIVHMJTJrw2TZqCfO2zSj0n4a0P:+ICfCIhnjCfptn4a0P`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\wimserv.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: netdom.exe | NETDOM5
 
 # netdom.exe 
 
-* File Path: `C:\windows\system32\netdom.exe`
+* File Path: `C:\Windows\system32\netdom.exe`
 * Description: NETDOM5
 
 ## Hashes
@@ -47,6 +47,14 @@ The command completed successfully.
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\netdom.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

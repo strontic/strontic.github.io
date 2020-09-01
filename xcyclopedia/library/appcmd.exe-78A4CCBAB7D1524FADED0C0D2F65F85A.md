@@ -73,6 +73,14 @@ like "/!debug:value" to set a config property named "debug".
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\inetsrv\appcmd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

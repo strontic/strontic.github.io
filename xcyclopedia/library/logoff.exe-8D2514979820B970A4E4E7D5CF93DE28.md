@@ -4,7 +4,7 @@ title: logoff.exe | Session Logoff Utility
 
 # logoff.exe 
 
-* File Path: `C:\windows\system32\logoff.exe`
+* File Path: `C:\Windows\system32\logoff.exe`
 * Description: Session Logoff Utility
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `A8801F55523961A7DC8B38CBF48FBC1E46AE8E993E09153A240AC8F996C3A46F`
 SHA384 | `3199DDDAA55A88E0F7B84DA47F91B8912595D72CF0D06CAA1E3F11EDBAB03662E95F232288348501183DBA9FE01D3FBE`
 SHA512 | `9312835DA78C5BBBDA7AB1FE92AC2015047EF2450F2DDC94B1EBE96F1096963670C4A2F00E0C95165ED421520468081ED3842F50D49E4F931B0C0C82A7A58D4A`
 SSDEEP | `384:43i4l2W1q3dkKm7E57ECz5z4FK8u2k49uEmqJrrXfWjMcZexKW3PuW:43JsCsdk7o5fSFK8nk4nmeiwxj`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -34,6 +36,13 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

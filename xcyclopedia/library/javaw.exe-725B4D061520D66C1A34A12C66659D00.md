@@ -4,7 +4,7 @@ title: javaw.exe | OpenJDK Platform binary
 
 # javaw.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -21,6 +21,8 @@ SHA256 | `A18B9688D28DFFBA4970B7D819C2D128C3B760C6F6852E3D340CBC3AF71A261B`
 SHA384 | `308EE6FA6E3A68A4C324425CB4B4BC45CD649ED9F72166A7715D39BB5226990A8F61E63E694E8C370E6BDD71C494C742`
 SHA512 | `CC763C595FBC819D1E39B8DC4F9E1F6D94E62AE29B160DDE90EBA34845E84E1CA4E42F97DC8C5E7D62E51B905163DB31CB6E8B2827AAD9050E34C0F18AF5F951`
 SSDEEP | `6144:DoYCzfmQKiU/HTj2JDOHfFsozseI9TB9naZ67k/iAo:Dovzfm1ikSD4tZI9Tfc1KAo`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -77,6 +79,46 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Window Title:
+Java Virtual Machine Launcher
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\msvcr120.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -99,8 +141,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe](javaw.exe-6EEAF0FBE28B66421603A4D4CB6C8FDE.md) | 96
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-6EF1E54DE872CC3F595E8F0CA1EF4873.md) | 96
+[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe](javaw.exe-6EEAF0FBE28B66421603A4D4CB6C8FDE.md) | 96
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-6EF1E54DE872CC3F595E8F0CA1EF4873.md) | 96
 
 ## Possible Misuse
 

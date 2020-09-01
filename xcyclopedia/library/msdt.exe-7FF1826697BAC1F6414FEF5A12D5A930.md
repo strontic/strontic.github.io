@@ -22,6 +22,54 @@ SHA384 | `9588EB9C703CC00D568BB245B51FCD42D97BEF5974E40D36EA56A5ABF4CB47F12F1F0F
 SHA512 | `17F084C47F18146FD8D9B92C85EF6665DD4275B33587B3BD80875D2610402C6F7BD2257646195957D88747B41A33D5CC490C51BD1B6192AB131C8D6C9F0D5F42`
 SSDEEP | `24576:bRec0WsSAbN0OBBJ6XH4qvIReK1odddGdBnyE0k26kVZnBm3:b+dqNK7utRB2`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\ATL.DLL |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\system32\msdt.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\Secur32.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SSPICLI.DLL |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\system32\wer.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\System32\WINTRUST.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

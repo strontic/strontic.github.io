@@ -4,7 +4,7 @@ title: Uninstall.exe | WinDirStat 1.1.2
 
 # Uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\WinDirStat\Uninstall.exe`
+* File Path: `C:\program files (x86)\WinDirStat\Uninstall.exe`
 * Description: WinDirStat 1.1.2
 * Comments: This release contains both, Unicode and ANSI version of WinDirStat
 
@@ -25,9 +25,20 @@ SSDEEP | `768:tnCHBjSfD0RDSjiN+WWrHcRtf55M4z54q+F5871mJMOUlNu0ZBA9U:MHFSfARDSW0H
 ### Child Processes:
 Au_.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\WinDirStat\Uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\WinDirStat\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\WinDirStat\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

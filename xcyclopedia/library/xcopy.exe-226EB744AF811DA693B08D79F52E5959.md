@@ -4,7 +4,7 @@ title: xcopy.exe | Extended Copy Utility
 
 # xcopy.exe 
 
-* File Path: `C:\windows\SysWOW64\xcopy.exe`
+* File Path: `C:\Windows\SysWOW64\xcopy.exe`
 * Description: Extended Copy Utility
 
 ## Hashes
@@ -88,6 +88,14 @@ This may be overridden with /-Y on the command line.
 File cannot be copied onto itself
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\xcopy.exe |
+
 
 ## Signature
 

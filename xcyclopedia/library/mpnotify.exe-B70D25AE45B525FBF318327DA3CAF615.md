@@ -18,6 +18,20 @@ SHA384 | `A23FF8DDF9861D31781BE65A5424AA28AE99F07B5B93AD90B81CB8478771484D4DB76B
 SHA512 | `2D8F3DCE658D36D701D8693946901614F8FB183E93C04C6695D40EF325B63A23BD432AEE97282364F3F4249BF913A1706FF4386C6BF0C965DC23E5C0A41B19AB`
 SSDEEP | `384:EWdBhcz5gXsmFMNOwSyF5kM5StJZMP7SJPYnWkjWf:PBhczKhMNOwSAShng+QHw`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mpnotify.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\mpnotify.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

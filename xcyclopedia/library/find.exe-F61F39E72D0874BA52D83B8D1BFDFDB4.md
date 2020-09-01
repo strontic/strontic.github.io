@@ -4,7 +4,7 @@ title: find.exe | Find String (grep) Utility
 
 # find.exe 
 
-* File Path: `C:\windows\SysWOW64\find.exe`
+* File Path: `C:\Windows\SysWOW64\find.exe`
 * Description: Find String (grep) Utility
 
 ## Hashes
@@ -45,6 +45,14 @@ or piped from another command.
 FIND: Parameter format not correct
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\find.exe |
+
 
 ## Signature
 

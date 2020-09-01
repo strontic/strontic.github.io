@@ -18,6 +18,16 @@ SHA384 | `6E510F3B4382ED38DEB69FAF3EC213D6ABCBA95F28FBA46643944BEF0DA0ED2DF23EE5
 SHA512 | `C9099150593D6B91003CB796F2D8C65D60926426987812C5E84C0173E68D33051A58BD9D9274914BC8A31ABA987833AF5C0C5084CC6A3F0A006D239C9085CC9F`
 SSDEEP | `384:jkWA/jwff6X4RjLw9Bm7kr3SQ2eAWc8W:QWJ3O4RKIYrSQVO`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MRINFO.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\MRINFO.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

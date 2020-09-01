@@ -4,7 +4,7 @@ title: wbemtest.exe | WMI Test Tool
 
 # wbemtest.exe 
 
-* File Path: `C:\windows\system32\wbem\wbemtest.exe`
+* File Path: `C:\Windows\system32\wbem\wbemtest.exe`
 * Description: WMI Test Tool
 
 ## Screenshot
@@ -22,6 +22,34 @@ SHA256 | `3406B6ADF7D5BF8D7B75C9761B9BA24D1DABA8EE00BC5D014FE947B2DC0423A4`
 SHA384 | `5CC6E2B7919594CFDCF946F43BEBE9FA959E37E7879F748226F755D3BF6B63EE1F21F8AF3FAE52D9A4A05FE5A0FBDAB9`
 SHA512 | `BD92E3C4181F2ADDF4F8C37454B9AC516EABA9288DE48F1AD3BE3EAD8766B6B6A62912251CC507E9ED5F0751896E1A0EC5EC558E5ADC726A80EED3CF6FC9C6FF`
 SSDEEP | `3072:g/UskdhY3KILrzFHS1r5GMezOhflHwEwgIcENsz8JirIz4TqGf5KhIPFJRAhP2Ey:g/UskdhYLLHFHSx5GMXdQU5bDeP`
+
+## Runtime Data
+
+### Window Title:
+Windows Management Instrumentation Tester
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\System32\wbem\en-US\wbemtest.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wbem\wbemtest.exe |
+
 
 ## Signature
 

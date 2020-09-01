@@ -23,6 +23,28 @@ SSDEEP | `768:NE6zjUf1AXHPC1oAZT9LXR3/kgUe50kXSt9a97V/aM0u3stSPeU04RgO:y6zjUf193
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\microsoft shared\ink\InputPersonalization.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

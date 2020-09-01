@@ -18,6 +18,14 @@ SHA384 | `6494E1CB166E69D95909F838F88FA12475464ED8E38E5D6C1407F505D5954737CD6D3B
 SHA512 | `07AFA7EDFCCEB342D15D00A969807ABA55E8B3B44A102454420FB99C0B2469F28A634C559D669B5F06D3A1C39935400B2DAE158246EEDAA6BD5D56CB5A13E2C0`
 SSDEEP | `1536:0YC/iQSH3F/eiGlMk0z979ziqOikSArZxEIsD5x2RaeL:0ktH1lcp2J9edhhqIsD5x27`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\whoami.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\whoami.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

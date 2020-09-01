@@ -17,11 +17,23 @@ SHA384 | `FAC65837571FBB3A4C3ED619D85366E2C274A665B22044001305A47ACA64012297776D
 SHA512 | `16D19865016B6A560D16F1A2674C29E148567042E9A2EB750ADED3635C45AC4C9C098FBFE1F44440833D6E074C813E587E5D794B89CEEBB10294BF43D3A052F3`
 SSDEEP | `1536:MnDpvQm1Gk/NAIL5ZFR+Emf1rFX6YczDo87h2nO/Hda5QO6uuW4/GpK6:MDpv5tFA25ZA1J6Ho87kO/HdqQOL`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-64-script.py
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -45,8 +57,9 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 93
-[C:\Program Files\Python38\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 93
+[C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 93
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-64.exe](cli-64.exe-1B7B373761B5D63526E6AB7352200B3C.md) | 96
+[C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 93
 
 
 

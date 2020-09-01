@@ -18,6 +18,23 @@ SHA384 | `E4D9FCF43714A77A27D9E6666C2269B75859EC7B9F58B02DDEBC2073E35FD58E82CA7F
 SHA512 | `0B885C3BFBCC5EAA2A81F71E5E236FE61E368A8FB017FFDB539AE6508E5930E1D23312672850FBC34B8527962A96E15A9654382F83DA7BB72DB9A54E88999437`
 SSDEEP | `3072:YJ5vsVJfLOxVXo+i3IaXYoUlyZvC49gDpP0GerSq:YEfL8Xmj3UlyZvRr`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\apphelp.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\pcaui.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

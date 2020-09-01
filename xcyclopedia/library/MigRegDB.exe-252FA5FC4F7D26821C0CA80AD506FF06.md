@@ -18,6 +18,15 @@ SHA384 | `36EAD66613FD58C985E3DACD198502A6FF4162EA3ED23AA06F0363CC3AD6504717EDDB
 SHA512 | `48D0423B24CBBCB4204F5D40B7FBF1F4A601B8AFBD011B5EA1045A8C22E914A1E00CD7144582C29BD50197E05EBB571F90A48383278D9CFDB543EC0DCD958388`
 SSDEEP | `192:kLU8zX5hZTejyDLQBIdZR+o9j10Fct4zWbwWkf:AX5LFVdZRXAC4zWbwW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\com\MigRegDB.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Com\MigRegDB.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

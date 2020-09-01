@@ -18,6 +18,28 @@ SHA384 | `4569A00EBDB64D9C61B66C472D5969ADF2A2841783C8F9337D8DD902B032777AAA6250
 SHA512 | `F314470BA9CE51F2399E6165E4AB94717A171F7B9765B5D0D22C665D60CD02011438B84FD68F73F56E374B9FE1F73C575FA9EB820B9B4AEC73B0617840C38323`
 SSDEEP | `1536:fuWEbAR0mVztOE/RTZSGFFJBmFIwRdH7y/+iTdTnia1Gomz5j1W7Nij0BTs:fGoBsQ9S8eFvdH7w+cdTniqjON1SiCTs`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\DMPushProxy.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
+C:\Windows\system32\omadmprc.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

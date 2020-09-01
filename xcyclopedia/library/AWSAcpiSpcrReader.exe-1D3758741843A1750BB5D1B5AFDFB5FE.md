@@ -28,6 +28,14 @@ Exception caught: GetSystemFirmwareTable() failed.  LastError: Element not found
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Amazon\EC2-Windows\Launch\Scripts\AWSAcpiSpcrReader.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

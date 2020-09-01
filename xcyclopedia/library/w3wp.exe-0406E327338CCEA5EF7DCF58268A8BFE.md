@@ -4,7 +4,7 @@ title: w3wp.exe | IIS Worker Process
 
 # w3wp.exe 
 
-* File Path: `C:\windows\system32\inetsrv\w3wp.exe`
+* File Path: `C:\Windows\system32\inetsrv\w3wp.exe`
 * Description: IIS Worker Process
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `384:Zd71aN4xcQVNTYSFS26+fdJUjGL/IQ+NAZfHxWS9UsdX6EydQUtWSu8:Zd71aNmVVY
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host file]  
+Usage: C:\Windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host file]  
                            -w <optional root web.config file>  
                            -in <optional instance name>  
  
@@ -56,8 +56,12 @@ Usage: C:\windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host 
 		 environ
 ```
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

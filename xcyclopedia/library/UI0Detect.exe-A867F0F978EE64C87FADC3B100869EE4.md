@@ -18,6 +18,17 @@ SHA384 | `8D21AE358BA125E509C5D1A86766F8C5883CA102F56C7056CF61B6778277C3C7D4C19C
 SHA512 | `6918278602E6F4461DC3D5DD4B7E36AAEFB95171E79C8D8478AAAD4B4F29EFFCD9F4D9593B2C88262D26F4C835D04185D3229BF7AA5C56F20EF3614D8427B616`
 SSDEEP | `768:LgpTnojXhMYVbyTKFCFYyNrI/8BbtSzAFq8u/QDriiMMNpa8zOjFMMNv0/vM+2vk:L87pYtoRHM0BbM94DrtMMW7MMs0+2vk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\UevTemplateConfigItemGenerator.exe |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\UI0Detect.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

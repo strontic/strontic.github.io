@@ -18,6 +18,16 @@ SHA384 | `15A6FDF1AA345F6FA22D6C2A400B8D32FF15DC786D286DC134443E6E727F3BBA1DD877
 SHA512 | `CAB3109976E2FC1E69B399D0457DF54831D34B30E93C70C75DC2F0358FD5AF506BAD5DDF67138C2274CD280DEC928B88BC2E5F51D3D13FDB2F8FA9B2CFA988AE`
 SSDEEP | `1536:hlMqbiWBz6SE9zx4fBxzXi4qd6N3rArBOLrrLbwM+cJ:jDiWh6f9FKi4Z+BO/fbV+O`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\mv.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Narrator.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

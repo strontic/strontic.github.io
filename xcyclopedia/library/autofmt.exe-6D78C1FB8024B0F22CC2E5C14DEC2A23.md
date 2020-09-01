@@ -18,6 +18,24 @@ SHA384 | `9C8D30E54994DEC7EC4692635F0FEF70BB9317E6CF8D095FE318C11F9FE0BC58B52334
 SHA512 | `20624992998D3A902751990F82CDE53CA4666F3121F44328EB128BAE2C9D9512DBEC69367FCE1D993970364551D8BB8A2A9881147209BFE08BE9B58AD34A45FD`
 SSDEEP | `12288:vGB5kCcA2I9nj4NCD4NKUJayzn1Qyi68sDMS6MnDYzJ9rK6QW:tC9nkNhNKUJJzKyi68O/7szHKDW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\autofmt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -28,6 +28,13 @@ Usage: MpDlpCmd -<Command>
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -51,6 +58,8 @@ Usage: MpDlpCmd -<Command>
 File | Score
 -- | --
 [C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\MpDlpCmd.exe](MpDlpCmd.exe-36505607C5FE18E2B6E868E5ADF6BD94.md) | 74
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2006.10-0\MpDlpCmd.exe](MpDlpCmd.exe-22487937223E8A233830FA3823F4A5F9.md) | 75
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\MpDlpCmd.exe](MpDlpCmd.exe-C97B4BF420EB28F996FB2FC881D3864F.md) | 74
 
 
 

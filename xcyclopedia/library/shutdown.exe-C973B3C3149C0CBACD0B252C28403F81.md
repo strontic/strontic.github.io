@@ -18,6 +18,15 @@ SHA384 | `E55B16276DD67C59E25642D05932E41EB24A7916416B25317861A115276FA385BC449A
 SHA512 | `98BF49C8F3E649FAFBEC328A69D575AD8219D41AF05C68CA1C1F612A5696028814129A4E1DBA08A5C80CBC2EBA9E368327B132DC4D6C798F444BCECDACB754DB`
 SSDEEP | `384:qYdSqaeKLOPhP+2QeFGKK4b71gcZ1vgnmuwL4d9rw9BTk4rZFmXnYpgVlrQPWX+p:MNS0eGu7151vgsMrwnTkuq5brD+p`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\shutdown.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\shutdown.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

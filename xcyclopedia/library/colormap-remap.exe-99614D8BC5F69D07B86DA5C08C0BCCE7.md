@@ -4,7 +4,7 @@ title: colormap-remap.exe | GNU Image Manipulation Program Plug-In
 
 # colormap-remap.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\colormap-remap\colormap-remap.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\colormap-remap\colormap-remap.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -20,8 +20,25 @@ SSDEEP | `1536:basRJO2qEIdG67VJ6PaipiPWPRaiTWXiW:bau9eG67VJ6Pfmedg7`
 
 ## Runtime Data
 
-### Child Processes:
-csrss.exe winlogon.exe
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\colormap-remap\colormap-remap.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -45,9 +62,9 @@ csrss.exe winlogon.exe
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\animation-play\animation-play.exe](animation-play.exe-518CC7209245E3BFC83C98058AF4FB56.md) | 38
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\cartoon\cartoon.exe](cartoon.exe-DD89714A8D7D99636C5C7EBAD8D25C87.md) | 47
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe](checkerboard.exe-EFA5BA4B185F9C0110373D19C4D7E7C9.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\animation-play\animation-play.exe](animation-play.exe-518CC7209245E3BFC83C98058AF4FB56.md) | 38
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\cartoon\cartoon.exe](cartoon.exe-DD89714A8D7D99636C5C7EBAD8D25C87.md) | 47
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe](checkerboard.exe-EFA5BA4B185F9C0110373D19C4D7E7C9.md) | 44
 
 
 

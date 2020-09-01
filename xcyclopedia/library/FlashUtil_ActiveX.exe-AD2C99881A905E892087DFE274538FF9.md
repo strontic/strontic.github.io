@@ -23,6 +23,26 @@ SHA384 | `B7C970FBDB5F2412A6DEAAE25D2BF18B143F4C77055B30AAD1F217AABEB8A9F56614C6
 SHA512 | `3F32E7017B1EDEE57E85C94FF35F9DAA862F5957121542249DB6C5C7A70882E53579F54155609913BFAF4E69B7F4B1B8240DD424FB37CA8CD53BD0C318F61FFB`
 SSDEEP | `12288:jJ91eBTd8OIyVPHfsrYJ0AFWS3fCT+/38AAAAAAAAAAAAAAAXAbAAAAAAAAAAAAl:Nwd9xHfsrYJ0AFW6qT+/TkDNl6L1pCye`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\Macromed\Flash\FlashUtil_ActiveX.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

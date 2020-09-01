@@ -22,6 +22,35 @@ SHA384 | `AF08F5DB6D9D9C04AF2277D766C361A7B2197D38A0DC37FA2419A56E135BC85E5B44F9
 SHA512 | `BA1F3290D11CEFE9640E32E01397D5A70316A0E4849B82778E61CF346C8A92918B406800BC47B76DFD28D3E6458F6B7B850F4E56DD6C54EAFA938BF94AB00F61`
 SSDEEP | `384:vr4ypercULRjvYU53IKLWFLLu4Eaub/cWByWj4650Ingu+n6aJTIXFJhjhxhWM1l:kvLRkg38BUL/4G0In3BhzhWM1GOVz17`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\HandBrake\HandBrake.exe |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

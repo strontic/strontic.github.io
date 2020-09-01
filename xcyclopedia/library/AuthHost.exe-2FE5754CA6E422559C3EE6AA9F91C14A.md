@@ -4,7 +4,7 @@ title: AuthHost.exe | Microsoft AuthHost
 
 # AuthHost.exe 
 
-* File Path: `C:\windows\system32\AuthHost.exe`
+* File Path: `C:\Windows\system32\AuthHost.exe`
 * Description: Microsoft AuthHost
 
 ## Hashes
@@ -17,6 +17,26 @@ SHA256 | `EA48B4F5787D0941991B17A9A2075CD89F8217CD00260C5283E2A2BF97EFAC64`
 SHA384 | `8F7ACED01A725069095EC818B65BECB808206E2FEFFF097166FF57358F035999F2EBC28BB9B389E8836446465A6DDD37`
 SHA512 | `22E22820C997B2786D91DB79E376115795D753647C5A05C6565A58CE722C2A697EB018767D82EAABA1F3E3503E595569BBF199916E07D30BFE73A232A50FFB3A`
 SSDEEP | `3072:CfP1T1kCAx6I+TaUXcFewJBmc6S46twPIwCejp:Cfh1kCAAbc85ctyIcjp`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
 
 ## Signature
 

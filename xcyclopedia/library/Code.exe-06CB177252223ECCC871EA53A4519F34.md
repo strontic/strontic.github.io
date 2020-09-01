@@ -33,6 +33,41 @@ Warning: 'p' is not in the list of known options, but still passed to Electron/C
 ### Child Processes:
 Code.exe Code.exe Code.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\system32\cmstp.exe |
+C:\Windows\system32\cmutil.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -51,6 +86,11 @@ Code.exe Code.exe Code.exe
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2019 Microsoft. All rights reserved
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Microsoft VS Code\Code.exe](Code.exe-0B83757EEF8F4D32BAD1846CEF7173E5.md) | 97
 
 
 

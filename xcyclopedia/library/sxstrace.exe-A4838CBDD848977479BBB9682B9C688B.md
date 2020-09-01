@@ -18,6 +18,13 @@ SHA384 | `57ED9A26C5AB972DC86BC55901802D5846513B97D2926037644C24B60733A4549CAB3A
 SHA512 | `DE612D98135C5498BE9AD21C79789DB409207FF9E04F64B390A8473D55C535C1465BFB1CF159ED6F5B6E4994B8B4E3686C438B93AED01A55B0D3C98E8E90335A`
 SSDEEP | `768:n1azuf+5VdcsZ44ivoD46vY2jKNkKVHEwlzg5N18NyH837K+EOKqN:no625ncd2+hNMN18uk7sdqN`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\sxstrace.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

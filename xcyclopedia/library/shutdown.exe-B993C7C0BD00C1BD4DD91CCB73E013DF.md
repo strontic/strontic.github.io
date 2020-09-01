@@ -109,6 +109,15 @@ E   	5	20	Loss of network connectivity (Unplanned)
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\shutdown.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

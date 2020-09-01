@@ -18,6 +18,13 @@ SHA384 | `0964B338D52F83C032DC386A8AC3CCBB6DD3315A2A368BFBE06797A2683170B1317D6C
 SHA512 | `19D69A2B7F507C4D78C4BC13EC7CFA393FA2EBA3CE29427086222B07D862253CBA5F11935C7CEE6FAAC7F6B57C6BC5DE8D36F1BC3A64CFA4E5AFDD9AB6365F80`
 SSDEEP | `384:HtuAKt4M0my5c55oQaAsLIDHf2Y1f1OwqUY17lC4YHZiOiE0ACrMsLGpr37w0Rc1:H2RB/seQwqUL4CZiOiEKzLOHRcTD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\winrshost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

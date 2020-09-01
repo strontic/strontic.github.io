@@ -4,7 +4,7 @@ title: getmac.exe | Displays NIC MAC information
 
 # getmac.exe 
 
-* File Path: `C:\windows\system32\getmac.exe`
+* File Path: `C:\Windows\system32\getmac.exe`
 * Description: Displays NIC MAC information
 
 ## Hashes
@@ -62,10 +62,17 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "GETMAC /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

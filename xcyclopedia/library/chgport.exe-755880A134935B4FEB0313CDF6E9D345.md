@@ -18,6 +18,14 @@ SHA384 | `6374E24AE57E22D1F74F82CBDAA8E22E4D9E248AAD04B3321E94421D6A1491D6619A8F
 SHA512 | `2DBBD7DFB1DE5754F16FDAF74381EA0BAC73FA25C96AD5C52B4FF4EC00268A87304951C6193DA7F37505949A7E08CF6EB63064082C72DAD719E76E173DAF263F`
 SSDEEP | `384:7Nef7nDy8QOtuN9Ir634E/LgO8HaMXNKWXLMsKNsrWxsW9QWW3:7Nef7npfgf/3Cf4x38`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\chglogon.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\chgport.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

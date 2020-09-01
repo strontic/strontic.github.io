@@ -22,6 +22,43 @@ SHA384 | `136884B1ED6FD47A4033887B23497999687EDCC5894C48F10E6A68411FDEE31210EDC6
 SHA512 | `278EA7780796C7A8E73C58CBCCF39359C977539B714D682AB112E2B64131CD5500AED8E2827687DD7C979EA47E2DC7E78A4FBD5438E22926299121A84426CE47`
 SSDEEP | `3072:N+LLmZ70cI2B0CoIPe80j31dHQYyJ1Z0YH67IkK2NLPcV2:NdPB55G80L1dwYyJ1BmIkC`
 
+## Runtime Data
+
+### Window Title:
+Settings for Microsoft IME
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.

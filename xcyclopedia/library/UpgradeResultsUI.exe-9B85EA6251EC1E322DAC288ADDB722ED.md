@@ -23,6 +23,20 @@ SSDEEP | `768:TbpAhvHoweYyP3gsMizVXkvB/PK5jwLKLM5FfURp9xjzd8J5nTx:T91f3gpOVXkU5M
 ### Child Processes:
 csrss.exe wininit.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\UpgradeResultsUI.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

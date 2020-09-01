@@ -4,7 +4,7 @@ title: printfilterpipelinesvc.exe | Print Filter Pipeline Host
 
 # printfilterpipelinesvc.exe 
 
-* File Path: `C:\windows\system32\printfilterpipelinesvc.exe`
+* File Path: `C:\Windows\system32\printfilterpipelinesvc.exe`
 * Description: Print Filter Pipeline Host
 
 ## Hashes
@@ -18,11 +18,31 @@ SHA384 | `CDD3C5EC39B0054484522E4F7F057BB7DC7C281F5D7D6BE73BFEF91AB297079217EDC1
 SHA512 | `CB7B172D10712299A81F067416DBFED7FECBFB909C33BDAC15E9C8CD163F62CF776442EB0B9C3DCC3D9A41395B9DDF4683A466BC61B899A4035EFBBA42391119`
 SSDEEP | `12288:Fo2C+mqGCoF04H+ERlvqXQOaYRyxG4T4Uqg0Qm0enaEc6gW:Fot+mqGSE+m0urUtg7i`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC590 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -22,6 +22,17 @@ SSDEEP | `12288:oCeXgpLk9fu37MnGZoDxpufP7IRuY53io:TeXELk9fu37Mn8uxpuHkR353io`
 ### Child Processes:
 Un_A.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Notepad++\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ Un_A.exe
 * Language: English (United States)
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\TeamViewer\uninstall.exe](uninstall.exe-77F0DA0B741148310065BCC6B58B5C70.md) | 82
 
 ## Possible Misuse
 

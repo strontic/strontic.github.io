@@ -105,6 +105,14 @@ Type "TASKLIST /?" for usage.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\tasklist.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

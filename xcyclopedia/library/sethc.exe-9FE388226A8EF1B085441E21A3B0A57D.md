@@ -18,6 +18,14 @@ SHA384 | `5374CA7E20E77BC22824277F8515CAE8AFBBF17E56FA0089D6FB2CF8FC9DCF890A0EDF
 SHA512 | `F30BA957AF6A5F06B02CF10667F7E1328550805C3E5EC56FF362C4E19C042966564834E2DAA31BAB8E06A9E725FD28615D1E7412F789EC7489AE52A7405BCFB7`
 SSDEEP | `6144:djIopKuwwtKE7Oj+jC6uFz2LJGRg4kLNnei36cw:dIopXZkFCdUc`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\sethc.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,17 +48,21 @@ SSDEEP | `6144:djIopKuwwtKE7Oj+jC6uFz2LJGRg4kLNnei36cw:dIopXZkFCdUc`
 
 File | Score
 -- | --
+[C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-0490B8F08575C7AB5F358B07C1617F28.md) | 58
 [C:\windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-1EF5808E2ADC8AD7892E45551CE5C5CF.md) | 74
 [C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-6CF3E7D021A16A86178F840D787F2E4C.md) | 72
 [C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-9A846ED516E009A8409800B19402EF39.md) | 58
+[C:\Windows\system32\sethc.exe](sethc.exe-062940BA26F1204EBD5F62DF37D0C3A7.md) | 60
 [C:\Windows\system32\sethc.exe](sethc.exe-0D68CE0D6D390F926B4ECE77E44D4E30.md) | 77
 [C:\windows\system32\sethc.exe](sethc.exe-EE69991DCEA4CA4189F42DEEE5D7666A.md) | 71
 [C:\Windows\system32\sethc.exe](sethc.exe-F00FAB17E7FE21D930AA4A6CABD2381F.md) | 63
+[C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-07A336072239B2FAEC1FEA0E23A23A88.md) | 57
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-1913FD496CAFF87B409FAC35CD876274.md) | 68
 [C:\windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-69D795102CADA9D5FEC1089138DA48AF.md) | 72
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-C5897612D16810BE94A68C5EB6950598.md) | 58
 [C:\Windows\SysWOW64\sethc.exe](sethc.exe-406DBF91AAFCBA4331AA0B487D578E33.md) | 58
 [C:\windows\SysWOW64\sethc.exe](sethc.exe-5EBDA250D9AD873C3879282AC6F49FB7.md) | 74
+[C:\Windows\SysWOW64\sethc.exe](sethc.exe-999F4E59B7DB7AC9BA0A6F8DA894E2B9.md) | 60
 
 ## Possible Misuse
 

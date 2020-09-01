@@ -18,6 +18,14 @@ SHA384 | `A2B90427F932BF1FB7D7DC78D4EB6A62743D09E77EAF049BE8446DB144764FB80EB987
 SHA512 | `49FA77E0547B028A0F27F4B4AEDC97E1732B4E2CBA66199D793D2968E5464948E2902BF1FB2791E7591AAFA070A3617D41553C724F27D724D20EFCFEFE234F22`
 SSDEEP | `768:SPGlVogExyylLJs04JcSfnWB3I6I/4cMo2dJ3gf1HmSjNJTHLPT4unrunr7FSjTm:SpUl0JkWl6/4tdKDLTFUHI3m`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\regini.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\regini.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

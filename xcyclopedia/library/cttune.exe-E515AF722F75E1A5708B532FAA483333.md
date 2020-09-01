@@ -22,6 +22,46 @@ SHA384 | `D412B9C7E56B0AC1AD438B491544E38B87DEE3F2D874037A9575FE318C80500AD3ADDE
 SHA512 | `4FAC7BF851B983128D71A1F01BA4F5CACFFA8941A63D78A875FEE791131A416A107752E7432527D64DF833267238178623B5333EE44C79FA1623A5E94D529F4C`
 SSDEEP | `1536:h2fR+sBgVL4nCXjsEsmVC42qhDZZru4Ic:heR+OyLyCXjuyV9urc`
 
+## Runtime Data
+
+### Window Title:
+ClearType Text Tuner
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\cttune.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\SystemResources\cttune.exe.mun | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cttune.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

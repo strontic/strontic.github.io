@@ -4,7 +4,7 @@ title: jjs.exe | OpenJDK Platform binary
 
 # jjs.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jre8\bin\jjs.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jre8\bin\jjs.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `1786A2775B43F92C12AFC15E9650BA75838351E89EE9717C70936B94EBCE6831`
 SHA384 | `E900C5D3A0B30CE95937E970EAD73CA90F3D1126C11E3534D9F25AFDD9AA0FBEB64DC6679AD247B1873273E1B9469F46`
 SHA512 | `C426997C661368C8A3532B6660C9BBEC7B693A17D659C8BD0F9CF985032DD939F37E4669CF387E5E393984549460B34DC742D1160462332EEFB62EE1824F4097`
 SSDEEP | `384:GpsJ5BnqqGmSHhV8dKeeF4Sz8K6jS7qDgf2hLe:Gps5nTS/8dXeF+KgAqUf2hLe`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -66,6 +68,17 @@ jjs [<options>] <files> [-- <arguments>]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jre8\bin\jjs.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -88,10 +101,10 @@ jjs [<options>] <files> [-- <arguments>]
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe](jjs.exe-50283CF0315C0D9CB58A0C666D5CEFF7.md) | 88
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 86
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 72
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe](jjs.exe-50283CF0315C0D9CB58A0C666D5CEFF7.md) | 88
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 86
+[C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 72
 
 
 

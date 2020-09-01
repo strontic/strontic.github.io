@@ -18,6 +18,8 @@ SHA384 | `FF4EE704245143A96F73EFD8E3D075BDDA71FA140302F66ADBEFC68E2BCE5A44C66859
 SHA512 | `9A7C50E83CA4575A46D574A2E148190CCEBDB6EEC1F6FB21A1F31418B3BE475B344F0D64E0F2EFE54184BBD4EFAC21BDF86E7EAA462D89DBB57342E25BEAE4E9`
 SSDEEP | `768:TCLi37IWjyj54W/zRgU4lNE7FdM0XyPBSRFQiyAx:YWj3W/zRgU4C00XyPB4+iyY`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 
@@ -64,6 +66,16 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-t] [-x] [-y] [inter
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\NETSTAT.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

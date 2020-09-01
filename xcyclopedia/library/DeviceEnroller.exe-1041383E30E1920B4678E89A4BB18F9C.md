@@ -18,6 +18,23 @@ SHA384 | `44262A0E713B4BA7DBC33ED069B3056A0AA0FC6F8414BD5306CF26EEE8479DB853DCF2
 SHA512 | `86C9F0F80AE8288E5579A2F6F4DD9FFFAB0C7EE2FF4A9145248DACB2003FE8F8D019D565404D9F06ECD543B5EC3624FA6985817E0461DE78040033BB52BDFF16`
 SSDEEP | `6144:z9phZbNsvOdG4FF87Vb5fB3Doz5gUPXk/2mZ7HZTRIhsVcJw16F:fhZq487Z5fBTW5gU+2U5TRImcJwo`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DeviceEnroller.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: javaw.exe | OpenJDK Platform binary
 
 # javaw.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -21,6 +21,8 @@ SHA256 | `39CA1BC01FF229C7F22718D0161622760E8B617A43FD904E6BF007C495A0E467`
 SHA384 | `378E3328733C70C9E76AAA0BF33780B3BADEE73658B05363DE21F1A34C04A68CD00D03905A40521E3882497895EC56F7`
 SHA512 | `C8005890B9BA0A26809941508EFFED0D96FC3F3F19B04773DE14A037A6593535FB37B31995F3D43E83DFDA592785A5A63F0DDB65EE9DAF1B385C404D832F7468`
 SSDEEP | `6144:goYCzfmQKiU/HTj2JDOHfFsozseI9TB9naZ67k/iAK:govzfm1ikSD4tZI9Tfc1KAK`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -77,6 +79,43 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Window Title:
+Java Virtual Machine Launcher
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -99,8 +138,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-725B4D061520D66C1A34A12C66659D00.md) | 96
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-6EF1E54DE872CC3F595E8F0CA1EF4873.md) | 96
+[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-725B4D061520D66C1A34A12C66659D00.md) | 96
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-6EF1E54DE872CC3F595E8F0CA1EF4873.md) | 96
 
 ## Possible Misuse
 

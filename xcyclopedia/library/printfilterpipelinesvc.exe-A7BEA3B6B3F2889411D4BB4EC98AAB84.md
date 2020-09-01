@@ -18,6 +18,23 @@ SHA384 | `0E292FFCD1475DF1C205BD8BAE16CCA613416436C07347A4BD1659A66C658F77E9F115
 SHA512 | `9058EDD7A6FE8E0507588B4F4A8EC226FE3755724E700201EBCEC9D5D156FE8AD6EAF14E19D9595211829CF9B1ED0080B1FBF49132E0313DF15224352F908567`
 SSDEEP | `12288:7bWtmnZ9P+7J8DZyv/wmxP4NlHhCl2WuDXNbjz3Yc0ur:HwmZBQJ8DZkLwfhCl2fDXNcRu`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\printfilterpipelinesvc.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

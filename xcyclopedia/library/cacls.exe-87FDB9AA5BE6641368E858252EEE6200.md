@@ -67,6 +67,16 @@ SSDEEP | `768:5X/pSxwCXPUnA9j6pYE40NYV59V6mf+We9br:5PpSVXPJ9miE40NQ59Qmf+We9br`
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cacls.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

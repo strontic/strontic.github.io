@@ -4,7 +4,7 @@ title: jrunscript.exe | OpenJDK Platform binary
 
 # jrunscript.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `042574F95B7FBAD639F239E95DA1D1C5F1A85D20F42D8D692D870592323B06B7`
 SHA384 | `463C3C1DF4D12E6A8B784FC84333FA578E6E63877B1706698A938645DCF5F03FB90B493C10381605B50DEEADB34E1192`
 SHA512 | `ADC45F6834A2E037462A82C1B9E9116631A946D4C55FBC97A8F1939791D3790E9693F14CBF6626E9F8C494B191D71F53B8586BAB67E9734F319D28FD45409608`
 SSDEEP | `384:Gpsu5hnmqnmSHhV8j6ee44Sz4K6jS39Q0SDgf2hHM:GpsgneS/8jne4WKgCSUf2hs`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -45,6 +47,17 @@ missing, then interactive mode is used.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -67,11 +80,11 @@ missing, then interactive mode is used.
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe](jar.exe-FC0D5E4B2EE50EEA7AEFC756F034B42C.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 72
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\kinit.exe](kinit.exe-4090B7E81AF9AD4ADA7BE45A6DFB0DB8.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe](jar.exe-FC0D5E4B2EE50EEA7AEFC756F034B42C.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 72
+[C:\program files (x86)\Amazon Corretto\jre8\bin\kinit.exe](kinit.exe-4090B7E81AF9AD4ADA7BE45A6DFB0DB8.md) | 71
 
 
 

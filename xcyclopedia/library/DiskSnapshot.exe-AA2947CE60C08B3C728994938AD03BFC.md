@@ -39,6 +39,14 @@ DiskSnapshot.exe [options]
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskshadow.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

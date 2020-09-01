@@ -4,7 +4,7 @@ title: consent.exe | Consent UI for administrative applications
 
 # consent.exe 
 
-* File Path: `C:\windows\system32\consent.exe`
+* File Path: `C:\Windows\system32\consent.exe`
 * Description: Consent UI for administrative applications
 
 ## Hashes
@@ -18,11 +18,51 @@ SHA384 | `E42F693B1A7A4EE8E31FA033FEB4B05367A25C3AEC9835366985357D002BCC46C09C1E
 SHA512 | `7D129C79A594D57DFB3C0726C8B51C263A551D991F47703BB06811E4AE68A7DD09F17476A540C16E51C0D9CA46527F399581A1A5F3A41C6FA73431F3A2E70ABC`
 SSDEEP | `1536:nzWTXOK1vnpop7BIFFlUDKcCjXifIOAmQt/f4k7eDkXV+JEIuaikX4sVQbf/7X2r:ydKtTqyfumQF7NoJeSX4sC7mzkMv`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\Amsi.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\consent.exe |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\SYSTEM32\MsCtfMonitor.DLL |
+C:\Windows\SYSTEM32\MSIMG32.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\WINSTA.dll |
+C:\Windows\SYSTEM32\WMsgAPI.dll |
+C:\Windows\SYSTEM32\WTSAPI32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -18,6 +18,16 @@ SHA384 | `51F27CE9E1BA1E35EF5E2C02E56A75496F7FE7AD74A303D9CA686B88226548CF11900D
 SHA512 | `70B187A59412D69FF132AA849E9B62D7D70AB60C0FBEA4CE63B4BDD8681268E8BCC6BAF23FC5434E7EE5C596E6BBCF671E94E99A22F3090606A74EAB6FC486DA`
 SSDEEP | `1536:Sq1QkrarDO/SL7bUVmaQ3t4yJaURvnAIhiHtTcPOJvY:xTrau/67gVAhaUlhmtTc2RY`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PnPUnattend.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\PnPUnattend.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

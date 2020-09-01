@@ -4,7 +4,7 @@ title: msiexec.exe | Windows installer
 
 # msiexec.exe 
 
-* File Path: `C:\windows\SysWOW64\msiexec.exe`
+* File Path: `C:\Windows\SysWOW64\msiexec.exe`
 * Description: Windows installer
 
 ## Screenshot
@@ -24,8 +24,31 @@ SSDEEP | `768:No8HL2TB4LH97PQtGNSNuuNELvInbOv8PAZWmDXIMLXq6CAy/Cc:sTB4LRPOF5ELw8
 
 ## Runtime Data
 
-### Child Processes:
-wordpad.exe
+### Window Title:
+Windows Installer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\msiexec.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\msimsg.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

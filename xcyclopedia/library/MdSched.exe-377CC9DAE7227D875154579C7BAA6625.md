@@ -18,6 +18,14 @@ SHA384 | `99EE7051A2149B24FFD26A4017216431D120F2EDB945CC8CCCADA7D6D3F44B88A69EC5
 SHA512 | `56BACD36C1547CE6DA750CB6BCB3ED1EBEA75059CCE3E25A6453EB10FA5BF601B5523E1B641D82598A0B6D223A24ACEB8F8902101423D672B9CCD5EA4D8B7EBE`
 SSDEEP | `1536:e1IKpgH5WLasOSDOPm+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:mLdOcOPe/FO+VQDUcUNWs+jm6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MdSched.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\MdSched.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -22,6 +22,17 @@ SHA384 | `A2FF1CD1EA449E8E262DEC6C00A6B50DD7054D51DBD126BA9B5520840D2E55A8E48067
 SHA512 | `881C9919A592C498239BD033DF79603F1683228BC95E0ACE14EA15E799CCF69B4EC3DC0156356AFED8FB2AECFCDB2F59B337C08A6AFD79361CAB8163F62E4EED`
 SSDEEP | `12288:Up/6ZdVfzZLmabliLHqqyNIPyDVEB//90MiRYlKIwITNj0:Up/Kdm1DqSPyDISMmYEIhj0`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\DiskDefrag.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `12288:Up/6ZdVfzZLmabliLHqqyNIPyDVEB//90MiRYlKIwITNj0:Up/Kdm1DqSPyDISMm
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\DiskDefrag.exe](DiskDefrag.exe-3716DFBEAF4C7D9481A20E725AA7A9FD.md) | 97
 
 
 

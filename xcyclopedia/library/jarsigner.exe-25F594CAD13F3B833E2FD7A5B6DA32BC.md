@@ -4,7 +4,7 @@ title: jarsigner.exe | OpenJDK Platform binary
 
 # jarsigner.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -84,6 +84,17 @@ Please specify alias name
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -106,19 +117,19 @@ Please specify alias name
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\idlj.exe](idlj.exe-3C984B60B64012CE20E398C6A5CC8683.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe](jdb.exe-A84E4AB77C8F90E25B6D0C916B0D25E1.md) | 58
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe](ktab.exe-6363AC88C034BD9BBB51F5B5B3A21B22.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\policytool.exe](policytool.exe-3A729B1278E40B9496C51829C2BF1A26.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\schemagen.exe](schemagen.exe-7E205BB6E38608FDF1EABE3C43EEE44A.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-482229C18D9D28C423A4B93F3A3B99C1.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe](ktab.exe-9538260E340CF8ECFA890862796E0C5D.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe](policytool.exe-E86C3045243C39EA196EB547BBE3C845.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\policytool.exe](policytool.exe-B3361507B9EC24799355B8C5B97505B8.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\servertool.exe](servertool.exe-2DD6258EB5EA1F577129BAC139081CD3.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\idlj.exe](idlj.exe-3C984B60B64012CE20E398C6A5CC8683.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe](jdb.exe-A84E4AB77C8F90E25B6D0C916B0D25E1.md) | 58
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe](ktab.exe-6363AC88C034BD9BBB51F5B5B3A21B22.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\policytool.exe](policytool.exe-3A729B1278E40B9496C51829C2BF1A26.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\schemagen.exe](schemagen.exe-7E205BB6E38608FDF1EABE3C43EEE44A.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-482229C18D9D28C423A4B93F3A3B99C1.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe](ktab.exe-9538260E340CF8ECFA890862796E0C5D.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe](policytool.exe-E86C3045243C39EA196EB547BBE3C845.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 63
+[C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 65
+[C:\program files (x86)\Amazon Corretto\jre8\bin\policytool.exe](policytool.exe-B3361507B9EC24799355B8C5B97505B8.md) | 69
+[C:\program files (x86)\Amazon Corretto\jre8\bin\servertool.exe](servertool.exe-2DD6258EB5EA1F577129BAC139081CD3.md) | 65
 
 
 

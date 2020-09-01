@@ -28,6 +28,17 @@ Error: No files found that match --help.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\gsd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -46,6 +57,11 @@ Error: No files found that match --help.
 * Language: English (United States)
 * Legal Copyright: Copyright  2005-2006 Glarysoft.com
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\gsd.exe](gsd.exe-70F8CD1D70614D62259716CC5E0FFE17.md) | 85
 
 
 

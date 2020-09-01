@@ -4,7 +4,7 @@ title: nvdaHelperRemoteLoader.exe |
 
 # nvdaHelperRemoteLoader.exe 
 
-* File Path: `C:\Program Files (x86)\NVDA\libArm64\2020.2\nvdaHelperRemoteLoader.exe`
+* File Path: `C:\program files (x86)\NVDA\libArm64\2020.2\nvdaHelperRemoteLoader.exe`
 
 ## Hashes
 
@@ -16,6 +16,17 @@ SHA256 | `AEB2305726E97B89881F8026D1E5260358A6215CFB615206751E125BE62B75F8`
 SHA384 | `E3A40392D2BF246558E8553ACE9A74ADBD414154FC6CB6B2940E67A96AE9CA4EB35B2A955D2344AD3842B9CBF10B8308`
 SHA512 | `D5FC2E01303D042AE7000A6C9F0A35F92D71AE0F1F33F55351AC259F4C926CC72674E2178AD9F29270B82ACF7E837769D5CFAF2101F39DD721AAB92FFA1FD72C`
 SSDEEP | `1536:sOL/ut1zhzrcCsyHPOiyHuT4qvuIsWxLdMhuwhtns:hL/yjXr0SGYhMhTjs`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\NVDA\nvda_uiAccess.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

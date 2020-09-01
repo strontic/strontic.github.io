@@ -60,6 +60,13 @@ Copyright (c) 2015 Microsoft Corporation. All rights reserved.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

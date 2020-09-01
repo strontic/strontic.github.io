@@ -4,7 +4,7 @@ title: file-faxg3.exe | GNU Image Manipulation Program Plug-In
 
 # file-faxg3.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-faxg3\file-faxg3.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-faxg3\file-faxg3.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `00158D5806800E5F524859683B804A433F35F0CEFC5BBA64A2466410728CB9E2`
 SHA384 | `BB9B9B23884E05B43D6A854AF332E290B0FAFC5CD4EA973084C53FF950106F3C4288ED9F2348859B85E9C510E4410B3A`
 SHA512 | `22EF6197D0F5A8FC313C2837194190D6DF920B4DD1B927AB38BFF5E9AD93A94B142EE902324311137B267799B3E5E4CF20E2346B90061BB8D022C9737272BD7D`
 SSDEEP | `1536:xjEz7o6J21TsFGT6NFRaipiPWSmaiLWXi:x2TEsFGT6NFRfmypg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-faxg3\file-faxg3.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,8 +62,8 @@ SSDEEP | `1536:xjEz7o6J21TsFGT6NFRaipiPWSmaiLWXi:x2TEsFGT6NFRfmypg`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\crop-zealous\crop-zealous.exe](crop-zealous.exe-05F6FC0B2620715E85FD4D99F5EA4A24.md) | 47
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-csource\file-csource.exe](file-csource.exe-F18C8CF4964BC9E8895884F90077C94D.md) | 50
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\crop-zealous\crop-zealous.exe](crop-zealous.exe-05F6FC0B2620715E85FD4D99F5EA4A24.md) | 47
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-csource\file-csource.exe](file-csource.exe-F18C8CF4964BC9E8895884F90077C94D.md) | 50
 
 
 

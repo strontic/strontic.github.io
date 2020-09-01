@@ -4,7 +4,7 @@ title: SystemPropertiesDataExecutionPrevention.exe | Change Data Execution Preve
 
 # SystemPropertiesDataExecutionPrevention.exe 
 
-* File Path: `C:\windows\system32\SystemPropertiesDataExecutionPrevention.exe`
+* File Path: `C:\Windows\system32\SystemPropertiesDataExecutionPrevention.exe`
 * Description: Change Data Execution Prevention Settings
 
 ## Hashes
@@ -17,6 +17,35 @@ SHA256 | `2A68E97CBC5EB55C687E7499A08B827910619FEEB5674A980E5E118D382416CF`
 SHA384 | `F65F56EBA61A6A116FC576DB99522238BCD02963576F7E6DB2D86388EAE69A3C54BA0F1C3259FEB9BC151087D4BEE1FB`
 SHA512 | `8436DD7C7154B6F50219553927E35D149601C4565C9D738563B0ACD5EFFCA12704FE1F03D6815E0A8B8B785386E56A060F5374E050E622139C5FE7B17A236A42`
 SSDEEP | `1536:5bZ7tREC/rMcgEPJV+G57ThjEC0kzJP+V5J0:/7zECTMpuDhjRVJGe`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesDataExecutionPrevention.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemPropertiesDataExecutionPrevention.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: ServiceMiniNotice.exe | Foxit Reader ConnectedPDF Popup Notice Windows.
 
 # ServiceMiniNotice.exe 
 
-* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe`
+* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe`
 * Description: Foxit Reader ConnectedPDF Popup Notice Windows.
 
 ## Screenshot
@@ -21,6 +21,40 @@ SHA256 | `9FAB1AE975D063663BBFCD15EA80C2AC6D53F7EBBABA04D47440428871A9CFDE`
 SHA384 | `DFAC730C41EC1C6018134B2F30B01FC8CB270E6AF6D534FC65A2ADB74EF263759E7CF0FC54BD73D2DF17D6E7733729D8`
 SHA512 | `458EB93A3E294E944E18C92D4D1554FE76064E36627DBD06245F7B73457068B51F8C738A711D4730A04DFFDFAC660559096D9A36F60242BD43CCA93340142C97`
 SSDEEP | `49152:ixfy3P6hvQ89hIedXFhFdoTvReoWYk+8NGTC:6SPivQ88IXFhFdoTv4oWYk`
+
+## Runtime Data
+
+### Window Title:
+Foxit ConnectedPDF Notification
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\user\AppData\Local\Temp\~DFF42902CE85187ED8.TMP | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\1238HWNDInterface:3d0026 | Section
+\Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

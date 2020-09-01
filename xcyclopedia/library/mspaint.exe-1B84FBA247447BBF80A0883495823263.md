@@ -22,6 +22,49 @@ SHA384 | `6EA0C461DFA5EEC96442AD8FD7D91F336B7CA14B667BFBD96D583A5CD1DB7597C74A4B
 SHA512 | `AFC5C1044422D0F95C71109A66B230A8D9A37877ECE5DA76FBEC5E6545D069D2C3619BCC86EC870BB88C05C82CA324317F7B1CBBB6C1FBB018A2749F1E8A132A`
 SSDEEP | `98304:1MzALu9+2u7InCEE+wysPM4mlaw0LI60GBGrGrGWAuU7jPLQ:1gALu9+6nTE+wBMHlaw0/U7jPL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\SYSTEM32\MsCtfMonitor.DLL |
+C:\Windows\SYSTEM32\MSUTB.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\netutils.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\oobe\msoobe.exe |
+C:\Windows\SYSTEM32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\SYSTEM32\wdscore.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\windows.storage.dll |
+C:\Windows\SYSTEM32\WINSTA.dll |
+C:\Windows\SYSTEM32\wkscli.dll |
+C:\Windows\SYSTEM32\Wldp.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\mspaint.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

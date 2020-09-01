@@ -18,6 +18,17 @@ SHA384 | `E18A43938CA8D6ACB8B1963CF3053C5B51940204B609E25D3A4CC36FB673C34F3DE7FE
 SHA512 | `AADAE7E02594BE1302E2B8E75C1AA80EC87C57B31B6BC79BF0207F178939F055790A80C38EC9683BFA08CC2E6A1A4F000785914C6F338AD317749DEB1897B3D5`
 SSDEEP | `12288:ac/UjD5w8P7y8H++OUDDvPP77+7qB3ayg:ago/e+Lu7C3aj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\uninstall\helper.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,7 +51,9 @@ SSDEEP | `12288:ac/UjD5w8P7y8H++OUDDvPP77+7qB3ayg:ago/e+Lu7C3aj`
 
 File | Score
 -- | --
+[C:\program files\Mozilla Firefox\uninstall\helper.exe](helper.exe-34EAD4BDF94FFBC7C4336E5279B748AC.md) | 65
 [C:\Program Files\Mozilla Firefox\uninstall\helper.exe](helper.exe-4958534E5BCCC61DF92FFE8C75449A3E.md) | 68
+[C:\program files\Mozilla Thunderbird\uninstall\helper.exe](helper.exe-40F9693E22DFF3BAC12327E1AFC040C6.md) | 90
 
 ## Possible Misuse
 

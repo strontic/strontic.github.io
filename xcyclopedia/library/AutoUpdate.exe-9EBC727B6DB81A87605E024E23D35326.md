@@ -18,6 +18,17 @@ SHA384 | `0CC2027F0C2F848B7E830D7A332513AE740FFE95FA4C7719804E432E2E73B55F8C6525
 SHA512 | `691ED64F581DFC1C0A0CED7037ADEF71EBB3C4176229B600FA329E58A8A765017802A76D19CF7DDA9FAB8862CDBE57160AE46FF41F12BE0A4B12B9D7081F5BDE`
 SSDEEP | `12288:QBhvKRuGiIGrm+Su8DzIr+EuK4LXJcgaSu:ui0GiIL+SPEuK4LXybSu`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\AutoUpdate.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `12288:QBhvKRuGiIGrm+Su8DzIr+EuK4LXJcgaSu:ui0GiIL+SPEuK4LXybSu`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\AutoUpdate.exe](AutoUpdate.exe-8048161409846C49D68B61AB91551B3C.md) | 93
 
 ## Possible Misuse
 

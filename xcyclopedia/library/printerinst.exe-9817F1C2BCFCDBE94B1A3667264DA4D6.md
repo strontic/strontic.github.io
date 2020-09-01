@@ -4,7 +4,7 @@ title: printerinst.exe | VNC Printer Installer
 
 # printerinst.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\Printer Driver\printerinst.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\Printer Driver\printerinst.exe`
 * Description: VNC Printer Installer
 
 ## Hashes
@@ -66,9 +66,19 @@ Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
 See https://www.realvnc.com for information on VNC.
 For third party acknowledgements see:
 https://www.realvnc.com/docs/6.1/foss.html
-<11> 2020-08-15T19:52:06.189Z DESKTOP-0C3PLRM printerinst[15672]: PrinterInst: unexpected: Bad argument 'help'.  Run with -help for usage.
+<11> 2020-08-30T21:21:12.134Z B6F9104F-5AA4-4 printerinst[6672]: PrinterInst: unexpected: Bad argument 'help'.  Run with -help for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\Printer Driver\printerinst.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

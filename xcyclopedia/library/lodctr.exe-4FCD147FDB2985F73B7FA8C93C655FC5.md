@@ -4,7 +4,7 @@ title: lodctr.exe | Load PerfMon Counters
 
 # lodctr.exe 
 
-* File Path: `C:\windows\system32\lodctr.exe`
+* File Path: `C:\Windows\system32\lodctr.exe`
 * Description: Load PerfMon Counters
 
 ## Hashes
@@ -65,6 +65,13 @@ Note: any arguments with spaces in the names must be enclosed within
 Double Quotation marks.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

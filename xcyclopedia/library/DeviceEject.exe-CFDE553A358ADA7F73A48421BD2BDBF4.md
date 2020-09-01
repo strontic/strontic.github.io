@@ -18,6 +18,15 @@ SHA384 | `D34F1FE660EF20C12EF8A34317C52C442FDD347DFB2A0F85FCA9309D7071B7C4E0F5D9
 SHA512 | `1EEE6B34C40F97C6D3D66865254ACD8FC87745750B1463634C69AA8274B6594D2C66DFDDCC13F27E31A4F3B67139C2C7D9A0059F3337A376192F155AC224E127`
 SSDEEP | `384:MN0ALFkbhi94uXAI+eMSO1y1QzC67J4pTQW0wWQJY0ehA/9gnl0:MtLubduXAI+eMrgtyqpKeJYQ/9gnl0`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DeviceEject.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\DeviceEject.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

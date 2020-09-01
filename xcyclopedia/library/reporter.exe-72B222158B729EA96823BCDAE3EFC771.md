@@ -4,7 +4,7 @@ title: reporter.exe | Winamp Error Reporter
 
 # reporter.exe 
 
-* File Path: `C:\Program Files (x86)\Winamp\reporter.exe`
+* File Path: `C:\program files (x86)\Winamp\reporter.exe`
 * Description: Winamp Error Reporter
 
 ## Screenshot
@@ -21,6 +21,19 @@ SHA256 | `7C75B5878ADEC11AABE7C2FAEFFA054ADAC25EEB9655CC944F079BA6A328DD67`
 SHA384 | `9C1786B7615948F7A434CA42946299DDBDBE7AF56009E2EEA8AC97615ACC03A685C3CD8C4D66D8F1EB6A12388B40B4F3`
 SHA512 | `F74D93D77AC2E1AE00BC649854D16D217A6FFCBE81AA4D4F1AF63256A92A90215CAC060F823FAB2AD5604FE07B821CA9404BDDC320363E38BBF1D381B4BEA312`
 SSDEEP | `3072:CxEprtOvJbOdtzfeuCcLUd+kNfXTmTMKWnD+HYy57eVue/mCW:PrtuJwzfeu3LafwMgY3`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Winamp\reporter.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

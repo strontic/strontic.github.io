@@ -4,7 +4,7 @@ title: HWAccelWzd.exe | Hardwear Accelerator Wizard
 
 # HWAccelWzd.exe 
 
-* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\HWAccelWzd.exe`
+* File Path: `C:\program files (x86)\GRETECH\GomPlayer\HWAccelWzd.exe`
 * Description: Hardwear Accelerator Wizard
 
 ## Screenshot
@@ -21,6 +21,38 @@ SHA256 | `F9BF6C89B443EA12D4AF8A6A58FEFF064542FEEC3E482DFD265D6B245D994F1D`
 SHA384 | `72AD3AFDC8268E6D81B5110013B243ACF3381CA552EC7073DCE4812653B66B848B38C2E00CBDB51177F14CCE9BC2E735`
 SHA512 | `A0A02DA562AD97FA22449E7BEDFB30CDCBF9DA012EA152225440AA856C8415B0A6E148B67C45B92110B518BEE654BFEDCB4441EBC49DD5E1B523411C845FA193`
 SSDEEP | `98304:sfFi9E41XHL7r1sppNp9vsxBGaXUFLOAkGkzdnEVomFHKnPR3:SFoJMsxBGaXUFLOyomFHKnPR3`
+
+## Runtime Data
+
+### Window Title:
+GomPlayer Hardware Acceleration Wizard
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\HWAccelWzd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

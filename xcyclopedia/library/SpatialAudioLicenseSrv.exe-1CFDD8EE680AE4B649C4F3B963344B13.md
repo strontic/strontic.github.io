@@ -18,6 +18,20 @@ SHA384 | `7BB1E0FA3B34C25B153F95D94C7E2074ED02B1900CAC6A76A6461D611A1997C99DF1D9
 SHA512 | `2BB3D5682D46D922B70C03DAB326052C05A12EE793321E54D5D75162F31A1FB000450D2DA54D227EF6FFFB14CD9EFBE31FFDE28DA3CA36D9DD88BC3E41927709`
 SSDEEP | `3072:H3ssvkyH7qu400RzVj8zjMR3QgghCGzJ+iW4roAzuiGesThKV7b:HnrOu1WzxkV0woAzuhN1Ob`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\SpatialAudioLicenseSrv.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +50,11 @@ SSDEEP | `3072:H3ssvkyH7qu400RzVj8zjMR3QgghCGzJ+iW4roAzuiGesThKV7b:HnrOu1WzxkV0w
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-3B741ECE0E18DD2F16F1BD999111232F.md) | 97
 
 
 

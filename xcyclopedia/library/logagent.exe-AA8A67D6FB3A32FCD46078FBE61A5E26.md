@@ -18,6 +18,34 @@ SHA384 | `55823EB48E0D00DC2F34E73122E4809B4266774D7AE1DD2616A44076BB1C3BBCCB7719
 SHA512 | `6EE754EF76CCF8DDEBFFCECCC958D332A456488FAFDE2FFE241CBBA441F84829884A0D112D007A23947BAE12E1CF27F202928CA0885024E892631C46AB204649`
 SSDEEP | `1536:g8EanzTRKTfpChJgUgKaM37iqynweFaf+5pNknbhWduXKvCK7olBoOF:IanzNKTpChgEUFafspA9WduXQCK74Bo`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\logagent.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

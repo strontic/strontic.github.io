@@ -18,6 +18,17 @@ SHA384 | `1B10BA938091A2DEDB6884776075BA725819FF743A87DE2DD67241EBC5665C660829AF
 SHA512 | `D98DEA9F4DA56CE940E4D8B0099E914C7E2E79CE85BFD957DDDF1D4FE2B214EA3C9E12EDCBEB086B58DFE112849355CCEDAEEC89E43956FFE15520C6B025625B`
 SSDEEP | `192:4Lv4Vl0kJ9X5UNqTVDsBC0n0C10FVk2TWCnWapp:4Lpi9X5Ue+Pn0xY2TWCnWap`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\recover.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\recover.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

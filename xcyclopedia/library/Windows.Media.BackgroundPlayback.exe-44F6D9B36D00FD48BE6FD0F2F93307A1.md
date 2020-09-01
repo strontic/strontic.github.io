@@ -18,6 +18,40 @@ SHA384 | `484BFB61760F6317F691FDD4B11BCA3A20F5CA7DD61B7274110AB9AA0798015F08E848
 SHA512 | `EE72E9EB80B3AD8C8BC02026FD7D8D7307BBD3F4CC0334A326FC3649897227DFAF9A07D16DE84BD3B792B9784B96848B384D6376D66FA463EF8AFC843158213A`
 SSDEEP | `192:BIVYCOELtatxHyzLfscOLViBYA8OzyMpJgXGSjqOsJD1h7re0Hm1zaDW+5Wk:BISdkctxHsLtiV25bHgXJQtHMGW+5Wk`
 
+## Runtime Data
+
+### Child Processes:
+explorer.exe Windows.Media.BackgroundPlayback.exe WerFault.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

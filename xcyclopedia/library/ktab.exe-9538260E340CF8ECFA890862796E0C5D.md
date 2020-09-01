@@ -4,7 +4,7 @@ title: ktab.exe | OpenJDK Platform binary
 
 # ktab.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -54,6 +54,16 @@ Common option(s):
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -76,9 +86,9 @@ Common option(s):
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe](jarsigner.exe-25F594CAD13F3B833E2FD7A5B6DA32BC.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe](ktab.exe-6363AC88C034BD9BBB51F5B5B3A21B22.md) | 90
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 86
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe](jarsigner.exe-25F594CAD13F3B833E2FD7A5B6DA32BC.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe](ktab.exe-6363AC88C034BD9BBB51F5B5B3A21B22.md) | 90
+[C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 86
 
 
 

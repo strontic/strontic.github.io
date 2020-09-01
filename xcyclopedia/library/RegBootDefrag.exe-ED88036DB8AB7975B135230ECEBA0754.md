@@ -18,6 +18,13 @@ SHA384 | `D344804906293950B0395531FD396E69668E52734528ABB4F03E82D97FED2466946E42
 SHA512 | `962C7704F55C9B313F5861443CC5616454A6B6F6BD053A387A0480A95556BE66C6AC231B6C688666597E631EC5179999262936D8F06DF390B28885D251CB86E7`
 SSDEEP | `768:ufjnhj64vX5OcSYp/d+fhHdMeKgQkxV1DGIUf2h0k:urnhjHvXkhHie+CVVUfk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +43,12 @@ SSDEEP | `768:ufjnhj64vX5OcSYp/d+fhHdMeKgQkxV1DGIUf2h0k:urnhjHvXkhHie+CVVUfk`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2014 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\Native\wxp_x86\RegBootDefrag.exe](RegBootDefrag.exe-EB7E490B216664B7C9D17A1820D7E0F0.md) | 90
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\false.exe](false.exe-024D20E116CD9C5BF6FF35EB02E8D599.md) | 25
 
 
 

@@ -17,6 +17,8 @@ SHA384 | `241330B8FB6905C078C5921ECE61866C5EDDB31FD2A6C2F02665116F07909DFD40A2C8
 SHA512 | `F698D8AE1E595830759B30B42E50136E3D3DBD0540DFAF0430E7CF31AF200A3F73A4803C7DA44500E3AB5B8D3768D271B5165608818ADED5FD2EFAC0C8B418E1`
 SSDEEP | `6144:WThqanTjXv0Xa6CRU+/WFg/jB5B07qnolqLC8Z+a:qqanTDv0q6B+/WGXnolGCQ`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 unknown option -- h
@@ -24,6 +26,14 @@ usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
            [-l limit] [-o ssh_option] [-P port] [-S program] source ... target
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\OpenSSH\scp.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: comp.exe | File Compare Utility
 
 # comp.exe 
 
-* File Path: `C:\windows\system32\comp.exe`
+* File Path: `C:\Windows\system32\comp.exe`
 * Description: File Compare Utility
 
 ## Hashes
@@ -47,6 +47,26 @@ Name of second file to compare:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\comp.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

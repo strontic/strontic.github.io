@@ -22,6 +22,54 @@ SHA384 | `59F9279BDB1516A3D95B9005E3B8443339E8AD1D66A5729A861D9EAFC08640EA1A0777
 SHA512 | `272F4C2228E4F4FF1EEDB127E706C71760499030E1F2F43D73F9B308A0BABBD4A47F500BCFD90A92DA6D5F0E1C12E94181CF21907767E2377B89B110A6BB96F5`
 SSDEEP | `192:/RqP4aXNtLROydEt8GRyPLoAzDkBGJ1KDJD/QWc7NS:5aT1OOpGRyPURA1KDuWc7U`
 
+## Runtime Data
+
+### Window Title:
+HTML Help
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\user\AppData\Local\Temp\~DFA13B4554A1BD2456.TMP | File
+(R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
+(R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\hh.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\ieframe.dll | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DFEA986DC2B4D5C96D.TMP | File
+(RWD)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\1a34HWNDInterface:43053e | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
+\Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\hh.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

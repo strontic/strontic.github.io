@@ -4,7 +4,7 @@ title: appidtel.exe | Initializes Appid ManagedInstaller and Smartscreen Telemet
 
 # appidtel.exe 
 
-* File Path: `C:\windows\SysWOW64\appidtel.exe`
+* File Path: `C:\Windows\SysWOW64\appidtel.exe`
 * Description: Initializes Appid ManagedInstaller and Smartscreen Telemetry
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `6F6067FE2D9FF65BCCD9FB974C57E6EFE707756CBB672E839D01486B116985C2`
 SHA384 | `F39349D15AB5013DC9AAF55C541C1CCF3D5A9DBEC2EE826426B89944D48DC7643339AFCB7346AF3A8DA5F72D17EE51FC`
 SHA512 | `1133EC0C0A894E8545AB0C49419440E9E1581CDCD6876A52E129AA14A23A703742C7BA1D34C04DB03062E388DDE6A415936DEE298BACE73FEAA1DE323F339BE4`
 SSDEEP | `384:nlRT3SsKmxpVoXA6YHbeHWbHmeSkEkvAddk3YLAr21iEBWsdsWkiJ:lJClUpN3bHmbdu3Yf1iWuiJ`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\appidtel.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: CompPkgSrv.exe | Component Package Support Server
 
 # CompPkgSrv.exe 
 
-* File Path: `C:\windows\system32\CompPkgSrv.exe`
+* File Path: `C:\Windows\system32\CompPkgSrv.exe`
 * Description: Component Package Support Server
 
 ## Hashes
@@ -18,11 +18,34 @@ SHA384 | `4E999DF2C9197A5CC3A9A5EA2CA5E156C3E08D70809E427CE8C1E2B7A5225EB43AB79E
 SHA512 | `A57651EA171AB7AA0BF79095CCD47AC68317ACA104557640834088950D549B3AA355E56E9568ED2E7FCF2B473CA2DC3BF897F2636E15B1285919E6CC561A6640`
 SSDEEP | `3072:2+I7VFp9rfg+fbAP7ittKsXmYU9ojbCurhWhx4f+eenYNX8WU+Dkr4koxleNYg8f:2FvxIebjtgAmYU0yCg8`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC15AC | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\CompPkgSrv.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

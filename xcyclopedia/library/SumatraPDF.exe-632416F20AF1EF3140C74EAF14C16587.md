@@ -4,7 +4,7 @@ title: SumatraPDF.exe | SumatraPDF
 
 # SumatraPDF.exe 
 
-* File Path: `C:\Program Files\SumatraPDF\SumatraPDF.exe`
+* File Path: `C:\program files\SumatraPDF\SumatraPDF.exe`
 * Description: SumatraPDF
 
 ## Screenshot
@@ -21,6 +21,60 @@ SHA256 | `36D95DADF36CEAE35F49BA0DFF47FF628E3433B1150FB5A845F646BE67F90198`
 SHA384 | `C6F4892A19FE0E5EED7C443061057D9AF47C6F6F7CBD383FBBC3899477BFF987A3E58DA9CE9E7A1CBA34BA13C534830E`
 SHA512 | `EECD835F37074E6EE33D4CD3A93F1FE2BF2DA338EAE82A5BABCF473ABD2A1974F8FECCE968D37208535E6FECE8D3BAE55F5D786A3B02290A6E718F6287B2BF45`
 SSDEEP | `98304:wrjWbUfpUa5ac/8aW+pY6IbSuOWOrIWPCZC01IrP7xDqmca3tBX2gL+CkSmETu:wmUtBPdOVuUW216z1nca3tY27kvEy`
+
+## Runtime Data
+
+### Window Title:
+SumatraPDF
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Windows\System32 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+(RWD)   C:\Users\user\AppData\Local\SumatraPDF | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\SumatraPDF-8f0d66b4 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\SumatraPDF\SumatraPDF.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\SYSTEM32\d2d1.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\WINSPOOL.DRV |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
 
 ## Signature
 

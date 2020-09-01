@@ -22,6 +22,48 @@ SHA384 | `B8002527584DB7D5D1B03A705593AD4F315BC43270E569F8FAA013DEB3A223A798BE2F
 SHA512 | `FDFA84A297A2492D98BE927E8A797227B2B19AE5EF4326DCA04E19A01D89054AC71330403C6195F056460498315133077FB9559AE054FB14AD36160301A2A2DB`
 SSDEEP | `6144:vBGci6SDxNV7xLAeijxawdtuGjU8TdLO694gI1sicf7LpPtKXl:vW3V7pX8/XzjUILP94g0cD9Ptm`
 
+## Runtime Data
+
+### Window Title:
+An error occurred
+
+### Open Handles:
+
+Path | Type
+-- | --
+(---)   C:\Users\user\AppData\Local\Temp\msdtadmin\_6ACDCA37-4EC2-441E-994C-2A39282612E0_\inuse | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\msdt.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(R-D)   C:\Windows\SystemResources\msdt.exe.mun | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msdt.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

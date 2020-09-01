@@ -17,11 +17,23 @@ SHA384 | `2378ABC4C7D25A7B4DB3EA3D0BECD165E1F23B11E5A2CFB829C4A060011F1A793435B0
 SHA512 | `ED573D1CE4225EDFB9B998350A530695658E93E2FECDC9160D13FBA7768F1D6A5B450AFB53ED84B7EB338C98D65AB6E20E1FDBABB0AEFF57A3F279B8DCBF7105`
 SSDEEP | `6144:23ylgL0/HEdz2Db2O7fcCnDtiWH2Jb4Hetf5pvS:2bL0/Hg8BMb4Hetf5pvS`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Could not open a connection to your authentication agent.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\OpenSSH\ssh.exe |
+
 
 ## Signature
 
@@ -46,6 +58,8 @@ Could not open a connection to your authentication agent.
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\ssh-agent.exe](ssh-agent.exe-34F9BFD01311EA9D88ACE80CA7CDF890.md) | 49
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\ssh-add.exe](ssh-add.exe-2A1DED146AD791D52F68B6F165BB11CC.md) | 46
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\ssh-agent.exe](ssh-agent.exe-AD232E2F6698E35DC4AF193CFCE7F331.md) | 40
 [C:\Windows\system32\OpenSSH\ssh-add.exe](ssh-add.exe-C808CB063C0B78E92FF7F5A85905218D.md) | 33
 [C:\Windows\system32\OpenSSH\ssh-agent.exe](ssh-agent.exe-9FFECD197D09FF33B00D5E5B78A48146.md) | 38
 [C:\Windows\system32\OpenSSH\ssh-keyscan.exe](ssh-keyscan.exe-4720A475F697D41705EBEECC9812C718.md) | 35

@@ -4,7 +4,7 @@ title: UevTemplateConfigItemGenerator.exe |
 
 # UevTemplateConfigItemGenerator.exe 
 
-* File Path: `C:\windows\system32\UevTemplateConfigItemGenerator.exe`
+* File Path: `C:\Windows\system32\UevTemplateConfigItemGenerator.exe`
 * Description:  
 
 ## Hashes
@@ -22,6 +22,34 @@ SSDEEP | `192:xq0JHU41GGkZ1ElGTubagmrCdsa/2pk0rqWp8eMPOHnGW8FW4zv:c0pU4G1MCIbmOd
 
 ### Child Processes:
 conhost.exe
+
+### Window Title:
+UevTemplateConfigItemGenerator.exe - This application could not be started.
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\UevTemplateConfigItemGenerator.exe |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

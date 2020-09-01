@@ -4,7 +4,7 @@ title: imecfmui.exe | Microsoft IME
 
 # imecfmui.exe 
 
-* File Path: `C:\windows\system32\IME\shared\imecfmui.exe`
+* File Path: `C:\Windows\system32\IME\shared\imecfmui.exe`
 * Description: Microsoft IME
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `A5A5ECAD642AA95F1223814087F59D69880C9216C21AC9E932FC9E8632CD245D028CD2
 SHA512 | `7483DE9DAE6A761990E775FD34AE8B23E9168EDC8A7F3028D948BAAFFCC9FAD7B3965E68D8224CAC2DDE26469CF7E2DEAF9A6B041C26915391C0E0129F247A68`
 SSDEEP | `6144:wq+CpJui0Bjun7F8VXip88+lm0lT+Yi9EZgBk8SK0Q:w9CpJn2KuJiq8+lm05epS`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\IME\shared\imecfmui.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

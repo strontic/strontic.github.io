@@ -18,6 +18,26 @@ SHA384 | `1906DB4B25CDD17A4E28370FE1668D69A816ED29ABE3CE616B84D0ED88BB018DD2C642
 SHA512 | `DBA63CA5D8E1F3367DABEA911FE334B1B551B6FBBBFEC192EC02DE3D169FAA3832217006281FBFE6CDE6078909EA5594C379948E27B174D9E4DD0B33839CF5F7`
 SSDEEP | `1536:2M+f49Qox51v/j2ie1vkhPXCesZHW+XUk99P0uf3:9Lv/j2VvMq7vkk99pP`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wcsetupagent.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

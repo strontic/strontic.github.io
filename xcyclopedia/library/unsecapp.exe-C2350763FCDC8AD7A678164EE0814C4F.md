@@ -18,6 +18,14 @@ SHA384 | `694B26ED167E0A6082B6B00FD6EA69528F5065FD302A08FF66396F7726663E322AD133
 SHA512 | `4BC3D0AF9CE4B182550F29F135F6AF26E722076CA1FE23E88F81B40810B32A1784F76D5AA8FA23B5ADD803C3E74BCFB25DCE7038628C4606453349DD3601EC3D`
 SSDEEP | `768:w00V19T2VOP8OCKNNQ+dZDRhacVPjU4NUEy8Fh0jJ3pGIwyuNyS7nLdp7Z2NnPWq:w00V1oOUOpzBVLU4NZTop9taySN4D`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wbem\unsecapp.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\unsecapp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,16 @@ SHA384 | `C06A03BA4E8E5ABBFB84F13C30767919FD511CB0AD70437246848884C7499871B9CA5E
 SHA512 | `08C8530104E92634A93015BA44F92A2B3F70A2F535AFBC95EB553727ACC2C34CA1B415E9EA2CCA9F65F023D45E230F84B5A97480D075C1E64F4AAFFA7CED3F73`
 SSDEEP | `384:Ol7pKaSt2uMgetAJQ4X8a5wguawoWSDmWGC:OlFAwbgeaJD2gulu+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ARP.EXE |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ARP.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

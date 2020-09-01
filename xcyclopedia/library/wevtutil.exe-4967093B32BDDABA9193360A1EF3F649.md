@@ -18,6 +18,14 @@ SHA384 | `F0AD24B0B15CBFA7013358EAA810F8AB679EC7ACF7736FDAB72A2071BDF4FE5345F078
 SHA512 | `6BACD7E79D15727D4DBC0CBC42879BF57803ED4C7AD691EA02755F06455FB3F4663703628DDBFD396BD17857559912D26752D0455A0A0A233841A2F2BE05682C`
 SSDEEP | `3072:+nBogny/ccewDuHWdR7oLlqsX4N1jrQawDg2aHBMJKjrb/TTf4eI:+nBogny/ccewSqz/rb/Ti`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wevtutil.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wevtutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

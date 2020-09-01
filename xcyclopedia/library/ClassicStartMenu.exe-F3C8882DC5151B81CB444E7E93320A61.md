@@ -4,7 +4,7 @@ title: ClassicStartMenu.exe | Classic Start Menu
 
 # ClassicStartMenu.exe 
 
-* File Path: `C:\Program Files\Classic Shell\ClassicStartMenu.exe`
+* File Path: `C:\program files\Classic Shell\ClassicStartMenu.exe`
 * Description: Classic Start Menu
 
 ## Hashes
@@ -17,6 +17,39 @@ SHA256 | `2B77BFB12E57CC1A2CFAF511BF3C3B62ACFA2820910B968EA7EEACC15396638C`
 SHA384 | `645F5DF00FBA13BCC68EDEB0BE5626C58A90F046BEE9F09087EAD7F3A5E886BDFD09106B26B317271F804ED7909924B1`
 SHA512 | `BE7C53DCDDE3DEFA8709744E4ACD6447BE2453CC0CA94D417F3D2C572E34B2F3932ABFDF44E27DD6D8865E83237D532BE6B3D9D6492B98F46867743F02E4F1E2`
 SSDEEP | `3072:lLKDkNh+eE+AEvQmtMt5dZaFyCO6c7zHXL1HXTpEhfcvv7fFb:FK+vO7ZaFyCOl7FiNcbdb`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\windows.storage.dll.mui | File
+(RW-)   C:\Program Files\Classic Shell | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Classic Shell\ClassicStartMenu.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

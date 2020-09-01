@@ -22,6 +22,14 @@ SHA384 | `B861BD977CF391BAD51C89A5AB3E189034DDC7575A71686D8DD6F2AD6E9850D32A8064
 SHA512 | `321B62FC47D5B5FBAB9506D57D338A8CDB25C342DA4246657ACAC089F64AFC98648A0F816AEDF78ABD81EE53AC78851353F2C9FFD1F783B5778C465C917791CC`
 SSDEEP | `6144:8Qnw0UwaTsw0kuSofQycve0qnaK37JCDgnFIypfLMfIheXiDmhMic0f+aZLbe02u:c0UwaTYq6aK3Fy7QcZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\Sysprep\sysprep.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Sysprep\sysprep.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

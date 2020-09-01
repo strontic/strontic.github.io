@@ -4,7 +4,7 @@ title: keytool.exe | OpenJDK Platform binary
 
 # keytool.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jre8\bin\keytool.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jre8\bin\keytool.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `9184AFB51BFC40AEBCEBD2BB91E849C9BAD98960F1E4F9AED0468D89990A9180`
 SHA384 | `6F2F9E8F9459DD23FB2B22150A2ED3C5A4D050413CC7ADEA05612E98363EA0DE3011977CBF537D4CC0F45EF2AC00A369`
 SHA512 | `660B61571EF9571E4AA88B407A3B82779D7B2E58EAB9D4212ABD6C790B77A2AF1E738EF0B3FE8AC4E881173B387CC0E88CEB5C1725D23168592408593ACB2512`
 SSDEEP | `384:Gpsm5hn9qQmSHhV816ee34Sz2K6jSRwbUDgf2h3:GpsYnmS/81ne3kKgDbUUf2h3`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -46,6 +48,17 @@ Use "keytool -command_name -help" for usage of command_name
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jre8\bin\keytool.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -68,10 +81,10 @@ Use "keytool -command_name -help" for usage of command_name
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe](appletviewer.exe-C59D48926D787E1E22E8A1055FB30EB0.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe](keytool.exe-96B9C189FC368FB11EAECE9FBE5CAB09.md) | 85
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmiregistry.exe](rmiregistry.exe-457267F19E98514E55991A66650E25F3.md) | 74
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\keytool.exe](keytool.exe-11D6D617609BB11967748C0EF56B1A04.md) | 88
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe](appletviewer.exe-C59D48926D787E1E22E8A1055FB30EB0.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe](keytool.exe-96B9C189FC368FB11EAECE9FBE5CAB09.md) | 85
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmiregistry.exe](rmiregistry.exe-457267F19E98514E55991A66650E25F3.md) | 74
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\keytool.exe](keytool.exe-11D6D617609BB11967748C0EF56B1A04.md) | 88
 
 
 

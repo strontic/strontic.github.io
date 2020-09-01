@@ -4,7 +4,7 @@ title: WaaSMedicAgent.exe | WaasMedic Agent Exe
 
 # WaaSMedicAgent.exe 
 
-* File Path: `C:\windows\system32\WaaSMedicAgent.exe`
+* File Path: `C:\Windows\system32\WaaSMedicAgent.exe`
 * Description: WaasMedic Agent Exe
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `74965B46E9AA4A72A9FE7BD732F090CBF0798C8DF14D1D6E6E915593F326487D8FFD10
 SHA512 | `0B151606A29EB1C31421BB9C5BDC6B871390D38E0662EE92A80DFCD5D822EF634D58BBCE85AC5D86ECB612E594E277C909C66A626105671E17104488EF3C9988`
 SSDEEP | `1536:gYqyRPTu9Om35c26ToYuVwcQ47t7Gtqbm54fg4B1MMEatm5Q1SSjS5H8Nxd:gcJyQkbx7GCbfg4B1M1UDrjS5c9`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WaaSMedicAgent.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

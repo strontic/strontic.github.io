@@ -18,6 +18,18 @@ SHA384 | `7E8F4DD6EF702354B829A722010A0643068A595241BA56062A7F586AC0F1A4B5EBBE3C
 SHA512 | `1ADE2A003139570726562A0A9DC409E8118F16DFE7C3463F709E54D84B4E61752C3B21CED276B29060C6D341A940ABCD0BA4C3F4F49041DA651B95F2233442BF`
 SSDEEP | `3072:+aDyyfg2iGwnVS570M9kdatGCO+xmBc+hMPhPsx:+X2aVs7nyatGt+SYF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\baaupdate.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\baaupdate.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

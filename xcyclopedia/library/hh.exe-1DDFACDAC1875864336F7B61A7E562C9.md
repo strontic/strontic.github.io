@@ -22,6 +22,41 @@ SHA384 | `BF6E7EE9CAAEE9D93EB92D6B73BB32408C275D38322B34C8F49C7C7438F9F1D91A03C1
 SHA512 | `D1B98FEA80615C08E86BD6669D2CB32F072641B29779D0F425802031A96C2F764EE2F6590A8016AD0C75420B1DF59CC1DEE663A7B42DEAA092DEF1480BDE1AC4`
 SSDEEP | `192:zKLI4aXNtrWeydEtcGxCRLoOVR4kBGJ1KDJD/oWcGE:uaTqeOJGxCRUSzA1KDWWcG`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\hh.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\hhctrl.ocx |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_6d06464259f9d059\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

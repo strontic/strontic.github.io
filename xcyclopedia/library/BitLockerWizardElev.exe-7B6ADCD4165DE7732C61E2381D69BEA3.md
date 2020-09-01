@@ -18,6 +18,25 @@ SHA384 | `FF089FB95C14467C6C2292DDF0FB1BF91151CB00CF68A645962A8D72E1BFB3AB00A014
 SHA512 | `7D1AC8460D0555871748159AB649345B73F6DA7DB4A323D167CAFAF401DA35C737A597FF8CC6E8DB4F8534F8D3DB7258DB3E4811E28E0D1E56446BCFC024471E`
 SSDEEP | `3072:jYwy7wnVS570M9kdatGCO+xmBc+hMPhPsx:EwFVs7nyatGt+SYF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\BitLockerWizardElev.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\FVEWIZ.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

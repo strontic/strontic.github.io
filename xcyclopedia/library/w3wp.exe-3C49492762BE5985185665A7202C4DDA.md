@@ -4,7 +4,7 @@ title: w3wp.exe | IIS Worker Process
 
 # w3wp.exe 
 
-* File Path: `C:\windows\SysWOW64\inetsrv\w3wp.exe`
+* File Path: `C:\Windows\SysWOW64\inetsrv\w3wp.exe`
 * Description: IIS Worker Process
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `384:U+NQJPvshyN8jfV3rC3F258eH3VwufI8p+8s09Ux0X6gwRtWSu8fyDE:U+SJPveVcF
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\windows\SysWOW64\inetsrv\w3wp.exe -s <site id> | -h [application host file]  
+Usage: C:\Windows\SysWOW64\inetsrv\w3wp.exe -s <site id> | -h [application host file]  
                            -w <optional root web.config file>  
                            -in <optional instance name>  
  
@@ -55,6 +55,13 @@ Usage: C:\windows\SysWOW64\inetsrv\w3wp.exe -s <site id> | -h [application host 
 		 Optional parameter for enabling locale to use user's setting on language,  
 		 environ
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

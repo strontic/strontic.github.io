@@ -4,7 +4,7 @@ title: gspawn-win32-helper-console.exe |
 
 # gspawn-win32-helper-console.exe 
 
-* File Path: `C:\Program Files\GIMP 2\32\bin\gspawn-win32-helper-console.exe`
+* File Path: `C:\program files\GIMP 2\32\bin\gspawn-win32-helper-console.exe`
 
 ## Hashes
 
@@ -32,12 +32,20 @@ ERROR:../glib-2.64.3/glib/gspawn-win32-helper.c:220:main: assertion failed: (arg
 
 ```
 
-### Child Processes:
-conhost.exe gspawn-win32-helper-console.exe WerFault.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\32\bin\gspawn-win32-helper-console.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
-* Status: The file C:\Program Files\GIMP 2\32\bin\gspawn-win32-helper-console.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\GIMP 2\32\bin\gspawn-win32-helper-console.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -57,7 +65,7 @@ conhost.exe gspawn-win32-helper-console.exe WerFault.exe
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\32\bin\gspawn-win32-helper.exe](gspawn-win32-helper.exe-3FC8E6CC38AE42396B50CD2A710EAE9A.md) | 66
+[C:\program files\GIMP 2\32\bin\gspawn-win32-helper.exe](gspawn-win32-helper.exe-3FC8E6CC38AE42396B50CD2A710EAE9A.md) | 66
 
 
 

@@ -4,7 +4,7 @@ title: sigverif.exe | File Signature Verification
 
 # sigverif.exe 
 
-* File Path: `C:\windows\system32\sigverif.exe`
+* File Path: `C:\Windows\system32\sigverif.exe`
 * Description: File Signature Verification
 
 ## Screenshot
@@ -21,6 +21,33 @@ SHA256 | `776501B9C220B910503BE488126970E5D5159AFA543706B528B8A0737184EF9E`
 SHA384 | `EE76E6393D557436E337417B01835F251AF13817B3EDD14D78C45E5D7C17EB2ACE5E9EEC9AB75864A801E70D0A21B3D9`
 SHA512 | `CE629BF3245D8C0D8D1DF1B80A8C4EA71DEAD56BCF1648E638D4816074941EBAEDB8350D71B5D63A7304722384ED25507EBC918BAD97EEF20018D8F2B770E498`
 SSDEEP | `1536:6bgBQ0kEmXSYlI99uTT7MY02gewtrHatxzAZT3WuEs:i0ECYlI9UZZgltrHakB7`
+
+## Runtime Data
+
+### Window Title:
+File Signature Verification
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\sigverif.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sigverif.exe |
+
 
 ## Signature
 

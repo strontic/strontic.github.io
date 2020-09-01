@@ -4,7 +4,7 @@ title: file-exr.exe |
 
 # file-exr.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe`
 
 ## Hashes
 
@@ -16,6 +16,28 @@ SHA256 | `C6BFDFEDE686CC568BCB337C9205806939ECAF178A93F58A998155CF8F93F094`
 SHA384 | `9937B5A8081774626DBBCED52E9D6BF36AA3BC9264C9B3863567DA1F24432B64643730D8EC0FBBA9AB91D878749EC9DF`
 SHA512 | `D5C2B62384147ACB80196641414355222274255FF07919EE13BF0566E6BF38C26D75033436D24082C1A670DF6D18D1E2D6E61980342A5C3B13E3B93642E6021F`
 SSDEEP | `1536:isEJ9S4vhsBEWc9+vW1fgt8aipiPWOaiVWXi3:M9S4vhs3c9+vW1fgt8fmxfgG`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -39,8 +61,8 @@ SSDEEP | `1536:isEJ9S4vhsBEWc9+vW1fgt8aipiPWOaiVWXi3:M9S4vhs3c9+vW1fgt8fmxfgG`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\bin\gimp-debug-resume.exe](gimp-debug-resume.exe-47255EE357A7B27710D5F1680A4A770F.md) | 46
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe](screenshot.exe-FA86FC2DFB51259CB5E5FF0BA1A8E18C.md) | 41
+[C:\program files\GIMP 2\bin\gimp-debug-resume.exe](gimp-debug-resume.exe-47255EE357A7B27710D5F1680A4A770F.md) | 46
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe](screenshot.exe-FA86FC2DFB51259CB5E5FF0BA1A8E18C.md) | 41
 
 
 

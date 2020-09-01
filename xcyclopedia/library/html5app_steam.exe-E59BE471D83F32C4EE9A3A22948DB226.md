@@ -30,6 +30,16 @@ c:\buildslave\steam_rel_client_hotfix_win32\build\src\common\steam\client_api.cp
 ### Child Processes:
 steamerrorreporter.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

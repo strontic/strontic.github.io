@@ -4,7 +4,7 @@ title: nslookup.exe | nslookup
 
 # nslookup.exe 
 
-* File Path: `C:\windows\SysWOW64\nslookup.exe`
+* File Path: `C:\Windows\SysWOW64\nslookup.exe`
 * Description: nslookup
 
 ## Hashes
@@ -22,8 +22,8 @@ SSDEEP | `1536:zyiuSPDRY4uNQCqTL7HxttSf68XigRoZfYjk:ewFYhqNH7tSf68XB0f`
 
 ### Usage (stdout):
 ```Batchfile
-Default Server:  UnKnown
-Address:  168.63.129.16
+Default Server:  ip-172-31-0-2.us-east-2.compute.internal
+Address:  172.31.0.2
 
 > 
 ```
@@ -40,6 +40,28 @@ Usage:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\SysWOW64\en-US\nslookup.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\nslookup.exe |
+
 
 ## Signature
 

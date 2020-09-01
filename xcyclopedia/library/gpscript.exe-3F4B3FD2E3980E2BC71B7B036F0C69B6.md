@@ -20,8 +20,15 @@ SSDEEP | `768:34ylU+Bk31/K85lA4x209jfEXapTEza8Bj2rn1TdTKZvLss:d++Bk31S85lA4xsSTE
 
 ## Runtime Data
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\gpscript.exe |
+
 
 ## Signature
 

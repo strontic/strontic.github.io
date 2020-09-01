@@ -18,6 +18,16 @@ SHA384 | `68EE2E47F28A130DDAD1B028A47CC32A8D7F4EEADDBB37689F246D4D158ED95B888DE8
 SHA512 | `99B500CC190FC585AEBD13E39E48F0B6EC01752903551CAAB02D4F4273B5125A3E0C77F62E9133D6C78A6A12B4CF86E26D4D885257F263213B67B6FC9CED6F57`
 SSDEEP | `1536:eHETgiIgOJAxuz8+ZGFXpuHh5Nfxepbwq:QETLKv8+QFXpuZfxCb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\makecab.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\makecab.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

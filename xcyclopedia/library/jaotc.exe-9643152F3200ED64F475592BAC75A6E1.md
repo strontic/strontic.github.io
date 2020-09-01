@@ -4,7 +4,7 @@ title: jaotc.exe | OpenJDK Platform binary
 
 # jaotc.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jaotc.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jaotc.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -60,6 +60,16 @@ Exception in thread "main" java.lang.InternalError: Can't locate Microsoft Visua
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jaotc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -82,8 +92,8 @@ Exception in thread "main" java.lang.InternalError: Can't locate Microsoft Visua
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jaotc.exe](jaotc.exe-96EA8F503210EF7E3A39EEF68AE137D0.md) | 55
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jaotc.exe](jaotc.exe-FA423CD06BE535088F629C821F437452.md) | 55
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jaotc.exe](jaotc.exe-96EA8F503210EF7E3A39EEF68AE137D0.md) | 55
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jaotc.exe](jaotc.exe-FA423CD06BE535088F629C821F437452.md) | 55
 
 
 

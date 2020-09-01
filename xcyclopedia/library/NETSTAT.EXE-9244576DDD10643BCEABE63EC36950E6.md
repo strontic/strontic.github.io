@@ -4,7 +4,7 @@ title: NETSTAT.EXE | TCP/IP Netstat Command
 
 # NETSTAT.EXE 
 
-* File Path: `C:\windows\system32\NETSTAT.EXE`
+* File Path: `C:\Windows\system32\NETSTAT.EXE`
 * Description: TCP/IP Netstat Command
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `9372044B501FEFAE7333A59624379DBFC7E4ECCBEA965EE7058F2583709C2287`
 SHA384 | `0688A0EC78134C6A911B0F117481641D589B32E566C0F582848A97085D780CA5C5BDD7B3D74EC39C140307FE3220CB17`
 SHA512 | `41313807AC23F551FE63CC5E7C5863862793CFC936E7D59486784527AC5DE64B00DC4D23E78C44948929B554B65F0D4D041A7D89D059059499A495E1806C4382`
 SSDEEP | `768:oCyJjjv6Nd/4GzTzvr+JcOCoORiGpU6OsOHphRiyRHJ:Xz3ycOC5q6tOHtiyRHJ`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -64,6 +66,16 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\NETSTAT.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

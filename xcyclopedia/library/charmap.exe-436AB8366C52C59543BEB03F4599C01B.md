@@ -22,6 +22,54 @@ SHA384 | `32944CB014EB5DAFD7D1CEEB50905E1B5CDF64D09A43ACFBDD73FB428F30724EE2BE73
 SHA512 | `5A7F6C4DFF95564E64E64985F54619A89DAA6BA26A20D998FCF25BAFAF9FF206F0FB1319B1242F6A64B63BCBE5CEC59A0E1402B5F758CD1F27279E07DEC28B12`
 SSDEEP | `3072:ukP4rthUtI0OUpwFzz4G3PVClnDjlbrLF5NUdrSO9K/tagbdDu5nBf9f:ptI0pUz4G9Cl31bgqt5gZ`
 
+## Runtime Data
+
+### Window Title:
+Character Map
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\SysWOW64\bopomofo.uce | File
+(R--)   C:\Windows\SysWOW64\gb2312.uce | File
+(R--)   C:\Windows\SysWOW64\ideograf.uce | File
+(R--)   C:\Windows\SysWOW64\kanji_1.uce | File
+(R--)   C:\Windows\SysWOW64\kanji_2.uce | File
+(R--)   C:\Windows\SysWOW64\korean.uce | File
+(R--)   C:\Windows\SysWOW64\ShiftJIS.uce | File
+(R--)   C:\Windows\SysWOW64\SubRange.uce | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\getuname.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\charmap.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\1a50HWNDInterface:a40fae | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\charmap.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

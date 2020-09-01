@@ -4,7 +4,7 @@ title: AppleMobileDeviceService.exe | MobileDeviceService
 
 # AppleMobileDeviceService.exe 
 
-* File Path: `C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe`
+* File Path: `C:\program files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe`
 * Description: MobileDeviceService
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `BE54049721D28AB2D1A41F3268245EE51F247C6F8E32E9C285360172BE4B4ABB`
 SHA384 | `B5376C4DBF66360FFECA7123359B5B525D0E686EE5F0BABD0D985C9B2A64B8D9A52BCD9B8F1FFDAEFC2934F3B42BE1F0`
 SHA512 | `995DF598208F6C03F57DA7A26DDEE84AB0EBF04B3E49AD243A4730E8ABD1008796C31CD3F2D57428F258A2A524EFECED902F2BA3FE5A42E2F51767592B26B1A2`
 SSDEEP | `1536:xik5Si0v7Mk2Am25c0uvru7+6wlYJQhwXfA6fNJg3h8q:v5MArAL5cZvrllYJrXfA6fNJbq`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +52,7 @@ SSDEEP | `1536:xik5Si0v7Mk2Am25c0uvru7+6wlYJQhwXfA6fNJg3h8q:v5MArAL5cZvrllYJrXfA
 
 File | Score
 -- | --
-[C:\Program Files\Common Files\Apple\Apple Application Support\YSLoader.exe](YSLoader.exe-5100B1E1EBF8F9FAB4E9708160974854.md) | 75
+[C:\program files\Common Files\Apple\Apple Application Support\YSLoader.exe](YSLoader.exe-5100B1E1EBF8F9FAB4E9708160974854.md) | 75
 
 
 

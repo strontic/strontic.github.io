@@ -18,6 +18,15 @@ SHA384 | `C617635EE8EE38973FD2F08EFE52296CE499830694E313C0B720B071D9D4C7484175C0
 SHA512 | `8D4ABCAEF158790BF7A4DC823D02AF5A1BCF0FC9A3C4C24E9F8D79A965D3BBE026937CA2865B8FCC6101D61E3EE6D4B6D42EFD403844882D5376070EECA980BC`
 SSDEEP | `1536:sryndjMOgpwYBlKfmTMy7G00l3uU1HIED1fCbWpygzUPG7:sryndjaN1SJj16bEQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\dpapimig.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dpapimig.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

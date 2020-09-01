@@ -4,7 +4,7 @@ title: tcmsetup.exe | Microsoft Windows(TM) Telephony Administration Setup
 
 # tcmsetup.exe 
 
-* File Path: `C:\windows\SysWOW64\tcmsetup.exe`
+* File Path: `C:\Windows\SysWOW64\tcmsetup.exe`
 * Description: Microsoft Windows(TM) Telephony Administration Setup
 
 ## Screenshot
@@ -21,6 +21,38 @@ SHA256 | `92D0DF82F636DBDF23926615682CB6183DE5E7504732AA8543E4D122E316A48E`
 SHA384 | `5A29A9BA2680D98B9475BBEA296217313D63E080B785CC716B4E6DA64932356D02464DE21A11ED92965AE10B9003003E`
 SHA512 | `640DAFEF9A04CFD549B2B595633B4329FB9BAA9F96B7D5358502A619A8B8D8ECEF4AF9E3CB02B2A52FF9B869550A28D1331E4CF083355084922D059FFBD3918D`
 SSDEEP | `192:Fnr2RWY14Mcp3yb97Zc8DHK4wD1oad6V6WvgWGQoWMN:FnakY1awZcsK4wDG8WvgWGQoWM`
+
+## Runtime Data
+
+### Child Processes:
+powershell_ise.exe
+
+### Window Title:
+Telephony Client Setup Help
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\tcmsetup.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\tcmsetup.exe |
+
 
 ## Signature
 

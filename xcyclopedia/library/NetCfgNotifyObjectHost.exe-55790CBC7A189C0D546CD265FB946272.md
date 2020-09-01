@@ -4,7 +4,7 @@ title: NetCfgNotifyObjectHost.exe | Host Process for Network Driver Configuratio
 
 # NetCfgNotifyObjectHost.exe 
 
-* File Path: `C:\windows\system32\NetCfgNotifyObjectHost.exe`
+* File Path: `C:\Windows\system32\NetCfgNotifyObjectHost.exe`
 * Description: Host Process for Network Driver Configuration Plugins
 
 ## Hashes
@@ -18,11 +18,28 @@ SHA384 | `6EB96B57C277F0AEC001401FB3193B2FBFE839270BF0C77A7096F204592F750CF4102F
 SHA512 | `81BA68FD4600151C61A5E7C65ADE55EE721078D6ACA1303642AB545E10E6EF267E1C960483E5246B6480CC13B3D5BACCED7FB893A0B0D71888FA49D7EA91BF29`
 SSDEEP | `1536:gehrBT123JBqpfoI4g/5fGRwbXKcOfpXiHHLJD9RQ6:F1iJBYt/6cmXitD9N`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\NetCfgNotifyObjectHost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

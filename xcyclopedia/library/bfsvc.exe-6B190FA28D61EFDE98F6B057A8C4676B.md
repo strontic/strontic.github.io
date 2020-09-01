@@ -18,12 +18,22 @@ SHA384 | `D4F3A4AF1465E2ED097819F9D58F89E5746C754AA8D0E5C989E4DB3C3343312F9C2D17
 SHA512 | `9CB50265F4CECBEC96B81B833267EAB4A34810DB6B98A68F2D8584EFEA56C0D08B8707FF814BC315910F0FD0868EAC321AA053E6654013290C1BF8819BB529F2`
 SSDEEP | `768:qSsny4smb1M4WbEQCnK2/h3pj4szhayaUya6Kcz6gsl3j8KORJT48euOkj8H5toj:qFyp41MBCd3F9Va5fX6gsBIK6beTf7k`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 BFSVC Warning: Failed to determine source OS version.
 BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! Error code = 0xc1
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\bfsvc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

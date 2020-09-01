@@ -18,6 +18,14 @@ SHA384 | `9E84CCC8357542D0BE96C086E462DD420B81DFF9B30DB43314060E6F5E1893862334B7
 SHA512 | `6E7E7B763C3D530E7B95B843A1FBE4A0F137CC86170C872AEA4B2984BF06D16AA636AFACD7E826F97949D0A07DB2BEE5009F2BEFD9ECC5FD06F2F34D3531763D`
 SSDEEP | `384:y28ru5wAMv/jmSzwHDVYq6oqWiIeuDuZzfueOIVWlwW:UgMzxqJx9ihOIc`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cmdkey.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\cmdkey.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

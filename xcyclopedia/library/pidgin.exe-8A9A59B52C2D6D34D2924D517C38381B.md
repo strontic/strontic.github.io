@@ -4,7 +4,7 @@ title: pidgin.exe | Pidgin
 
 # pidgin.exe 
 
-* File Path: `C:\Program Files (x86)\Pidgin\pidgin.exe`
+* File Path: `C:\program files (x86)\Pidgin\pidgin.exe`
 * Description: Pidgin
 
 ## Screenshot
@@ -27,16 +27,16 @@ SSDEEP | `768:xx507g0w/a5LDei5BCEUyVbVNYVl4NGB51gF:xx5Pv/aLDvCEdbjYVl4NGB5+`
 ### Usage (stdout):
 ```Batchfile
 Loaded exchndl.dll
- Setting exchndl.dll LogFile to C:\Users\WDAGUtilityAccount\AppData\Local\Temp\pidgin.RPT
- Setting exchndl.dll DebugInfoDir to C:\Program Files (x86)\Pidgin\pidgin-2.14.1-dbgsym
-GTK+ path found: C:\Program Files (x86)\Pidgin\Gtk\bin
+ Setting exchndl.dll LogFile to C:\Users\user\AppData\Local\Temp\pidgin.RPT
+ Setting exchndl.dll DebugInfoDir to C:\program files (x86)\Pidgin\pidgin-2.14.1-dbgsym
+GTK+ path found: C:\program files (x86)\Pidgin\Gtk\bin
 Using SetDllDirectory
 Could not open reg subkey: SOFTWARE\pidgin
 Error: (2) The system cannot find the file specified.
 
 Setting locale: LANG=en
 Pidgin 2.14.1
-Usage: C:\Program Files (x86)\Pidgin\pidgin.exe [OPTION]...
+Usage: C:\program files (x86)\Pidgin\pidgin.exe [OPTION]...
 
   -c, --config=DIR    use DIR for config files
   -d, --debug         print debugging messages to stdout
@@ -53,9 +53,42 @@ Usage: C:\Program Files (x86)\Pidgin\pidgin.exe [OPTION]...
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files (x86)\Pidgin\pidgin.exe: invalid option -- e
+C:\program files (x86)\Pidgin\pidgin.exe: invalid option -- e
 
 ```
+
+### Window Title:
+Accounts
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Pidgin\pidgin.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

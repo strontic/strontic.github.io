@@ -18,6 +18,17 @@ SHA384 | `25C8818CADD6FE60536E841FB87EB4C914EE59C3956241DE8709B6817A0A8B427EF342
 SHA512 | `1D9857EAAE9A075F21565461713B1B5ECB25C7FC466591F1560CE03F23D819075AE73AE8C36B3BB80DF47D6AAB980293FBB4A66F314D9C6F1C8622E965461277`
 SSDEEP | `768:fYQZL2xNBX7CBM2sPO+gx5IJ2OP7bv07ZqyhHjIpHuY6I6xoMINw:fYQZgeBM2U6x5e/vOMHj6rxxINw`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\eventcreate.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\eventcreate.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,16 @@ SHA384 | `F1AEC56F7218C86DD1C6E01621871001CA32C2170AEE831B740A39C8CA5FB3CC5F9177
 SHA512 | `D55406645D9F70A331B351C3FCD7722B7BBC911297ADEB7620AB820BF027A757B7D39B748C4E592DD1E5BCC5A773BDBC59B2F49CC7740CEA92F7EA459184F23D`
 SSDEEP | `768:QYD4e6vK84jRXBvKSSrccAQ6MhYQsq/a337v9lC6zW:QO4eqD4FRvKiK6MOQ2bC6K`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\extrac32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\extrac32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

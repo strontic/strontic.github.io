@@ -4,7 +4,7 @@ title: gimp-2.10.exe | GNU Image Manipulation Program
 
 # gimp-2.10.exe 
 
-* File Path: `C:\Program Files\GIMP 2\bin\gimp-2.10.exe`
+* File Path: `C:\program files\GIMP 2\bin\gimp-2.10.exe`
 * Description: GNU Image Manipulation Program
 
 ## Screenshot
@@ -65,6 +65,62 @@ Application Options:
 
 
 ```
+
+### Window Title:
+GIMP Startup
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+(RWD)   C:\Program Files\GIMP 2\share\mypaint-data\1.0\brushes | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\GIMP7128.SHM | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\bin\dbghelp.dll |
+C:\program files\GIMP 2\bin\gimp-2.10.exe |
+C:\program files\GIMP 2\bin\libbabl-0.1-0.dll |
+C:\program files\GIMP 2\bin\libcairo-2.dll |
+C:\program files\GIMP 2\bin\libgdk_pixbuf-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpbase-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpcolor-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpconfig-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpmath-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpmodule-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpthumb-2.0-0.dll |
+C:\program files\GIMP 2\bin\libgimpwidgets-2.0-0.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

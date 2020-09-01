@@ -18,6 +18,16 @@ SHA384 | `4E3875361FB250E47F0C1A3AC9AE746F576C5CF155A737B767B8AD6B957FAB284475C1
 SHA512 | `FBB19E677623F9608172E76F68D5EE77D72E79F1508BF15C00D327D57E2E94063579C3F8677D49F5A982AD57DA1152B1CDE259C69C5BD287AA5602B563AC4F60`
 SSDEEP | `384:hBIs9C0ze3TaTKaga7vX/4o5BZ9JtJEiZyJLyWBVWZd:hjPzH4oDzJvyLlOd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chgport.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\chgusr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

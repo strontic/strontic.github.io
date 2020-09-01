@@ -4,7 +4,7 @@ title: SystemSettingsAdminFlows.exe | Settings
 
 # SystemSettingsAdminFlows.exe 
 
-* File Path: `C:\windows\system32\SystemSettingsAdminFlows.exe`
+* File Path: `C:\Windows\system32\SystemSettingsAdminFlows.exe`
 * Description: Settings
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `893C0583CA6425D21A658E96BB6D6E7BD0F2B7E9269C1D1BF327BEF9C2D38BAA`
 SHA384 | `DE746644995222B8A93F7C2863F30E0D81DB27B00B0B962EB425482057E3D2255F353FC1830513E5423F74FD5F8FFA14`
 SHA512 | `AA10AAE170FCCFDCDFD11177EB557A1695A918BB3E5738F2AAF4B7E39A30BBDAF372D135710D2A402531BFA966109EE1CF5FD04D3EF74DA8C19E9B845578E838`
 SSDEEP | `6144:8Pc7gpCmFKztHtUJT96N/fVgqAuIx5XG6tI/V34/AsKQjtSrc:UDCmczNC96N/f2753tIBCrjtSo`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemSettingsAdminFlows.exe |
+
 
 ## Signature
 

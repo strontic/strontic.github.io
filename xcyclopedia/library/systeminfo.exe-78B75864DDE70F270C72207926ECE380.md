@@ -4,7 +4,7 @@ title: systeminfo.exe | Displays system information
 
 # systeminfo.exe 
 
-* File Path: `C:\windows\SysWOW64\systeminfo.exe`
+* File Path: `C:\Windows\SysWOW64\systeminfo.exe`
 * Description: Displays system information
 
 ## Hashes
@@ -61,10 +61,18 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "SYSTEMINFO /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\systeminfo.exe |
+
 
 ## Signature
 

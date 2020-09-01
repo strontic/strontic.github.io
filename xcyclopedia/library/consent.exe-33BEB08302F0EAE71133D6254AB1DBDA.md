@@ -18,6 +18,25 @@ SHA384 | `3A94FED8472766A9A06A9579CF1C188A3D9677B93498D2401B9F5742BE5331B3787E4E
 SHA512 | `D3F039E5DEAA4AD349075EA4C4416B71BDE69E0D6C4437EB5A74FF6E872D56919C1551D8B264967A1E54DBD8F6F2C57E691431DE514B6182D0C1A2BDDFFD9CA9`
 SSDEEP | `3072:fMsYHiZ/JTRS58CqTudzHE5RGtQhsCNzWKl:fMaZBU5OTudzHaWQOCNz`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\consent.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

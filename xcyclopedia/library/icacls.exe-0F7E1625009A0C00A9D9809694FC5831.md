@@ -165,6 +165,14 @@ First parameter must be a file name pattern or "/?"
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\icacls.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

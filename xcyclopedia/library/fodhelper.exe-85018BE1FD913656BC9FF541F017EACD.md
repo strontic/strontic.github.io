@@ -18,6 +18,23 @@ SHA384 | `DE9AE28B35A9F9ED3D41D222ABCE0C39B8C0E5DBED6FCBC5F6F0001124D28D789C0047
 SHA512 | `3E5903CF18386951C015AE23DD68A112B2F4B0968212323218C49F8413B6D508283CC6AAA929DBEAD853BD100ADC18BF497479963DAD42DFAFBEB081C9035459`
 SSDEEP | `768:WwU7bDT2KLt6oPjQQ5fxGIjN44MgZkD9TpiPogpUORaNpohsySZlv7:WtfT2KwoPBxjN4zDbgpUOoo1SZ17`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\fodhelper.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,23 @@ SHA384 | `828477A9A5CB4EF9B16AA04456DFEADA464C5C9B5579C0FEA0084E70DF8093F128E326
 SHA512 | `240DCC73E0FEB35157A2441A59B5DFA64A819B418AA62A7889E19FDCEBFABE9F7249865D3A785E76F568B4F45A01E80BB1FF18886C507BC55E9EF595972D7A39`
 SSDEEP | `3072:sqURZrF1+udSeOkZ87DZu3fev/8rLf0p+Or+aP/p5srgNlf5pLc:RmpFwuNOksu3U0rmZ/pUgNzpg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\system32\immersivetpmvscmgrsvr.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\IMESC\IMSCPROP.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

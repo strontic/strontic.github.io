@@ -4,7 +4,7 @@ title: sweb.exe | LibreOffice Writer (Web)
 
 # sweb.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\sweb.exe`
+* File Path: `C:\program files\LibreOffice\program\sweb.exe`
 * Description: LibreOffice Writer (Web)
 
 ## Hashes
@@ -29,6 +29,32 @@ Warning: -help is deprecated.  Use --help instead.
 ### Child Processes:
 soffice.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\sweb.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -51,7 +77,7 @@ soffice.exe
 
 File | Score
 -- | --
-[C:\Program Files\LibreOffice\program\swriter.exe](swriter.exe-C7960AFBCFC76EAF8B9945FA79C46857.md) | 79
+[C:\program files\LibreOffice\program\swriter.exe](swriter.exe-C7960AFBCFC76EAF8B9945FA79C46857.md) | 79
 
 
 

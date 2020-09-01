@@ -18,6 +18,22 @@ SHA384 | `23CCD047D28A767F231495592A347442C8A45781E628AEC32FBAB2C8ED734C70DA2A6B
 SHA512 | `E0B83CE2567C1D13BEDECEA8A46B851DF4E53FB9809157E2BFA457FB4ADD75944C3B0D2E60BE5E77A1504BCFD826D74A61D0032DC767869EFC4E12FC32D0D3B5`
 SSDEEP | `768:gkErlbT40od/PVibcAbZGoQJ68e1omGSrcvM/K6ROIAMZJ1LXj1P0hUP+a:6bT49TJXOSmvcvQHRO0ZvzpPxz`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PasswordOnWakeSettingFlyout.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

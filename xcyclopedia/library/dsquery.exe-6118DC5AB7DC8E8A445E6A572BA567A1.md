@@ -106,6 +106,16 @@ dsquery failed:The parameter is incorrect.:Incorrect object type specified.
 type dsquery /? for help.
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dsquery.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

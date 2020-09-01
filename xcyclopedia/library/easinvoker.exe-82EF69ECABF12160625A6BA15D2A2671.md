@@ -18,6 +18,25 @@ SHA384 | `08992F7E6D2E042F3F712D297CA555DCFE2BB07CED0EF474AD0B2414E8B9D336AE7831
 SHA512 | `1881A5F8AAFFAE5B4E549F0C905C36B3736911A426D024E11ED9541333BD9C5B02E1CEA7309C906B575FA2C8EF98B84ABFB3D087D55DE7C0E0A00445F0C40FFB`
 SSDEEP | `1536:FvMYKUtUZn/0q9+DaVu2xXibswbTYWXUZf8y8vPF:FNd+cc+D2u2xXibswbzXUR8TvN`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\easinvoker.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

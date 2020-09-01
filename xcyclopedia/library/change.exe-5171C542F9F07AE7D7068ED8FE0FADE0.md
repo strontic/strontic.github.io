@@ -4,7 +4,7 @@ title: change.exe | Remote Desktop Services Change Utility
 
 # change.exe 
 
-* File Path: `C:\windows\system32\change.exe`
+* File Path: `C:\Windows\system32\change.exe`
 * Description: Remote Desktop Services Change Utility
 
 ## Hashes
@@ -33,8 +33,13 @@ CHANGE { LOGON | PORT | USER }
 
 ```
 
-### Child Processes:
-win32calc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\change.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -75,7 +80,7 @@ File | Score
 Changes Remote Desktop Session Host server settings for logons, COM port mappings, and install mode.
 
 > [!NOTE]
-> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
+> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ### Syntax
 

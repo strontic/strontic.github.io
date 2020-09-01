@@ -22,6 +22,17 @@ SHA384 | `D08B59BF6123763B2605E7FE3F570AB2BB7E16731FEA3225A0CC7A95E11B6F1BE02939
 SHA512 | `7647A90A9186CAE7DE8ED650A7F538702F91C9EF67C35BFC303D119E217AFEDD27EE728430F548516E5E2119743BADB372B5F7ECBA9A4022EE1310BA4CC7BD87`
 SSDEEP | `24576:6h1E/T5FFUsPOVIBkMt577B/tgl6nRbBrIvUVQnGLfiT4xzN+:IEHFpDE6JRz2TYw`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-tiff\file-tiff.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `24576:6h1E/T5FFUsPOVIBkMt577B/tgl6nRbBrIvUVQnGLfiT4xzN+:IEHFpDE6JRz2TY
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\FileUndelete.exe](FileUndelete.exe-455DB3ECB77821FAC9070B7C53EFF220.md) | 97
 
 
 

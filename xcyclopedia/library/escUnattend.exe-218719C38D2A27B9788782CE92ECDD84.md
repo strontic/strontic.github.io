@@ -4,7 +4,7 @@ title: escUnattend.exe | IE ESC 7.0 Unattended Install Utility
 
 # escUnattend.exe 
 
-* File Path: `C:\windows\system32\escUnattend.exe`
+* File Path: `C:\Windows\system32\escUnattend.exe`
 * Description: IE ESC 7.0 Unattended Install Utility
 
 ## Hashes
@@ -22,6 +22,16 @@ SSDEEP | `1536:lBRGiEZmylLzo+IDUmh7peWqm/VqL4lp7C8ti:40+g5QngpO2i`
 
 ### Child Processes:
 rundll32.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\escUnattend.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

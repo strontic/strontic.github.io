@@ -4,7 +4,7 @@ title: Narrator.exe | Screen Reader
 
 # Narrator.exe 
 
-* File Path: `C:\windows\system32\Narrator.exe`
+* File Path: `C:\Windows\system32\Narrator.exe`
 * Description: Screen Reader
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `7CB42636E62C41160BDC26882AC3347F30E277D54835EA30E1E847519E5CD229`
 SHA384 | `24361A32BE55215817DB92A438703FA31D0C04FE031DE15C652EC5522E5BD9B41F9C3914A1CE1F2C5848E334AAFFABF1`
 SHA512 | `9E20D6D076F846711B7AA878539FDCEFBA73CC5494863346695D4B716F841796DF209325036AE0D19894F2E0EB334F0809E8E1577A9E6E869DA351B8E743251E`
 SSDEEP | `6144:QpaUuFEcH1sbDUZujO34yoVAjk9AQFgZKUV:suFESmDUCOr3kiAuV`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\mv.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

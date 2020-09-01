@@ -18,6 +18,8 @@ SHA384 | `0E8154F236D4AEBE954EFF9545182E4508C328103E02AE71775EC8C40E2AE14C9B1D4E
 SHA512 | `8D0094A5DFD30F62032375AB09537505FC9D60C9B64527CABE343377FF0DFB455ACB2F88B3185E32FDC435783E5F258CEC8C5E01925BDF2E8A099EAE5881EBD8`
 SSDEEP | `12288:/IRTTa4RbsbgxCDyH3nLeueO+ueO+ueO:/IRTNRbsMiyH3nLeueO+ueO+ueO`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage: nltest [/OPTIONS]
@@ -78,6 +80,16 @@ Usage: nltest [/OPTIONS]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\nltest.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -100,6 +112,7 @@ Usage: nltest [/OPTIONS]
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\nltest.exe](nltest.exe-13CD652E2687C1B24DADC5FD219B0084.md) | 55
 [C:\Windows\SysWOW64\nltest.exe](nltest.exe-6201C092902FBBD5F53D3292C6A0130E.md) | 49
 
 ## Possible Misuse

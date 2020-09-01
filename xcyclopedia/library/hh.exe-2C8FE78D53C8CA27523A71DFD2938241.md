@@ -22,6 +22,57 @@ SHA384 | `FC24F86CFAF2D1CC7EBFBF7718D7ABDFC65B12BE11C76E2260835438A2D3B60655D624
 SHA512 | `4FBA46ECC4F12BAE5F4C46D4D6136BB0BABF1ABF7327E5210D1291D786CE2262473212A64DA35114776B1CE26EAD734A9FD3972FFA0F294D97AB6907953FD137`
 SSDEEP | `192:U8kHEFbfhORz4NqRGQE7KpcPUKU/dlk06Sl0+m5GJ1KDJD/QWc7:U8kH67heMMRGQEOpR/dlk06I1KDuWc7`
 
+## Runtime Data
+
+### Window Title:
+HTML Help
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\user\AppData\Local\Temp\~DFB49C8AD93D0098AC.TMP | File
+(R-D)   C:\Windows\en-US\hh.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
+(R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\System32\ieframe.dll | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF56E355356A121C0A.TMP | File
+(RWD)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\182cHWNDInterface:1160286 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
+\Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\hh.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

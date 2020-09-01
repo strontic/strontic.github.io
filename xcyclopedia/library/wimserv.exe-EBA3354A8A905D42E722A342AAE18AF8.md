@@ -18,6 +18,21 @@ SHA384 | `7B456F82C4E6EE30325A04FB568C2C32B20355FD04FFA1D4AAE74BB12E4105207906F2
 SHA512 | `8D6B3BE5F9BA2221ED8C42CFEDAF3E35AD017370CC68D3E551EE01C49FFB0DB1C3F1FDF1DDAB17A79A39A53A2E8D9B6B0573ABDD1894EA7CE10990EEFF1ACF25`
 SSDEEP | `12288:CYaV6eJuJkSZKNs04xFFwlCdimJgm8fmaY7HqcRX7g/eTb:CYaVTIwNs0mFFwlCdzYfDY7H3TTb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wimserv.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wimserv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

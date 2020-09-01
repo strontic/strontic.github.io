@@ -4,7 +4,7 @@ title: trillian.exe | Trillian
 
 # trillian.exe 
 
-* File Path: `C:\Program Files (x86)\Trillian\trillian.exe`
+* File Path: `C:\program files (x86)\Trillian\trillian.exe`
 * Description: Trillian
 
 ## Screenshot
@@ -22,6 +22,8 @@ SHA384 | `5921809E161A15C72D4C37F32A41FE6EFFBDF6840FCA1BDE50204C94126111501E4B28
 SHA512 | `4706514B2F1AE50FA518E85BE6DF66479916C29E2873E6E9841651D634F6FE16467A836AF83FD34F0D429412F19BE12723AE9545AAF7E7177196C4C043BB6AA0`
 SSDEEP | `49152:iApIODFy50dwLw0/ANfAQBJ+1VEZAs17YXOO1Jw:vpIODoWaw0ufAQBobEGs1dO1Jw`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 libpng warning: iCCP: known incorrect sRGB profile
@@ -31,6 +33,37 @@ libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 
 ```
+
+### Window Title:
+Welcome to Trillian!
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Trillian\trillian.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

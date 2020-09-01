@@ -4,7 +4,7 @@ title: fsutil.exe | fsutil.exe
 
 # fsutil.exe 
 
-* File Path: `C:\windows\system32\fsutil.exe`
+* File Path: `C:\Windows\system32\fsutil.exe`
 * Description: fsutil.exe
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `3072:Ni8n7ZB1tIRkH6VVadIA16IltsV6NSga1PnNlXY1XoD+VlOd2bhhU9+y8fOpr2u1:
 
 ### Usage (stdout):
 ```Batchfile
--help is an invalid parameter.
+--help is an invalid parameter.
 ---- Commands Supported ----
 
 8dot3name       8dot3name management
@@ -46,11 +46,21 @@ wim             Transparent wim hosting management
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fsutil.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

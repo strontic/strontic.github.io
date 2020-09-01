@@ -18,6 +18,14 @@ SHA384 | `B80DA956BD521199061AC411E21AAF709661D5604B5E7F1663E1FA72027BACE6A5E83F
 SHA512 | `937898C8011B74DC81D4CF2331FF72F686F5A3DF5CD6493053609147AE887B389A43278AB609F30F4E997704A8E1440E433E50934357CE5EBB881FDF55F673E4`
 SSDEEP | `1536:zDaiegJuR5dpMF4B7Li8wJ7fAZWFWF452RS9r7fJQx/xRPnCylP0:XaJrMFK722ZWFW+KyXMxIylM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\Dism\DismHost.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\dispdiag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

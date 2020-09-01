@@ -4,7 +4,7 @@ title: dxgiadaptercache.exe | DXGI Adapter Cache
 
 # dxgiadaptercache.exe 
 
-* File Path: `C:\windows\system32\dxgiadaptercache.exe`
+* File Path: `C:\Windows\system32\dxgiadaptercache.exe`
 * Description: DXGI Adapter Cache
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `BA598EFD9D9C4449DEAC83F78CEC893AA127F31767902D6DD69A157B65450240`
 SHA384 | `BEBA6744C25C6306CED806D26E8D0C5D6E1188015219ACC236F50FD7E141CF0F4887A49081AB9439BB561797A3F88651`
 SHA512 | `C839DB19463274B9849FE4A046B538148E7C2EE3FB12DD34E35BBF5723FA5DBDFFE3B36F2DDAD49EBEF344F4420E2C22FB897BF7D03C1A2F3B8466916CE6CF79`
 SSDEEP | `768:BWbOzcY09TeSj00IS9yFlZy2GP7CFecVDZwd/rQ1RrXduoRLRRBUTjD1:BEO6TeGQl7ZyV7tcfwxM1RrtuiNzUnD1`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dxgiadaptercache.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

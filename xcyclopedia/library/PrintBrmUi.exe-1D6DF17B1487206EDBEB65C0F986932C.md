@@ -22,6 +22,26 @@ SHA384 | `82E9CD894833A56F9F3D110824720666D7028748DAE6F643A1F680F8ECD87C69A8D106
 SHA512 | `6733F13D9D1ADF7FA831279F476DB61B2ACF2C9CB9A8B49E85B6251E4E4A54EB77FAF326F938E601219AE8ABDDD3018C3C7895ACD9992024632099B1B929066B`
 SSDEEP | `1536:5IswKPQ81LZvsiKG0kcNG9s+DYKRvvKayDs:5Is5DvsG0kc/4YsnDx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\spool\tools\PrintBrmEngine.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

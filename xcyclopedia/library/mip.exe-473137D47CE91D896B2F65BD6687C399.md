@@ -4,7 +4,7 @@ title: mip.exe | Math Input Panel Accessory
 
 # mip.exe 
 
-* File Path: `C:\Program Files\Common Files\microsoft shared\ink\mip.exe`
+* File Path: `C:\program files\Common Files\microsoft shared\ink\mip.exe`
 * Description: Math Input Panel Accessory
 
 ## Screenshot
@@ -21,6 +21,43 @@ SHA256 | `A20A0E5621F7B9BF23F6A144B83D32A38B0EC25C1D9DD9D3582666D958E4BD15`
 SHA384 | `304C88E723FD4290281D25836FB09C465AEDAF83B5365902EFD6AD642D43D9500B92FC5ABB7472AF6A3370E6286809FD`
 SHA512 | `F79028E8D3545E320CC13D98482CBCCFB9A1BB84FC61FDF385551D4729C68C1DE5EF25740B62BDFEF30CC9143CF6BD25C1B7219C0F2CBDAE25C1A7470903B9DA`
 SSDEEP | `24576:fcnl80kiyu6fHuE/IoGoyjxgjx/xjfxGYN3p2PaLsC8Vk4QBb3Csa20y:OkiT6fHum/NZC+sCwZm3Cf2d`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Program Files\Common Files\microsoft shared\ink\en-US\mip.exe.mui | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\1c0HWNDInterface:8f050a | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\microsoft shared\ink\mip.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: drvcfg.exe | Driver Configuration Module
 
 # drvcfg.exe 
 
-* File Path: `C:\windows\system32\drvcfg.exe`
+* File Path: `C:\Windows\system32\drvcfg.exe`
 * Description: Driver Configuration Module
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `20475A39E2C44FEE59E1C7D68D99866DC65CA45740B5212DB9E83DA2B7D1F575`
 SHA384 | `40ACD69FAF2C37DF5D7715447D33CA1C346F95075835E5E1DCE96CB6BA53EFD09BB5C18184B28AE5D048EBD710746FE4`
 SHA512 | `5D0E5F9E11B8B81D3C68FAF4DFD6805084FA05EAD978D6510D2724FF1DFE68754F11442F73B9BF61049082A7589F033DDE413DD419D6B034D6A3977841C0AEBF`
 SSDEEP | `1536:cKJwYs/DkdyExtWZQVUl/Za+/GZ2RsHc4E+ST2q6iq/M:TJqkdy8gDlRavyVdp6iZ`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\drvcfg.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

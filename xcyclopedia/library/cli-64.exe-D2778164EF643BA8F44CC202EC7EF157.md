@@ -4,7 +4,7 @@ title: cli-64.exe |
 
 # cli-64.exe 
 
-* File Path: `C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64.exe`
+* File Path: `C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe`
 
 ## Hashes
 
@@ -17,15 +17,27 @@ SHA384 | `C302E146E2FB3682D983509C407D420AD9196F365B865418176E8F4FF9949710FE98E9
 SHA512 | `CB2A5A2AEBA9D6F6BFC4A3A4576961244C109AAFB59F02134B03EBAC4D16602EE7F141CC4ADC519F15030C20E7E7D6585778870706B2EA4C74C1161729101635`
 SSDEEP | `1536:PnDpvQm1Gk/NAIL5ZFR+Emf1rFX6YczDo87h2nO/Hda5QO6F:PDpv5tFA25ZA1J6Ho87kO/HdqQ5`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-Cannot open C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64-script.py
+Cannot open C:\program files\Python38\Lib\site-packages\setuptools\cli-64-script.py
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,8 +57,9 @@ Cannot open C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\cli-
 
 File | Score
 -- | --
+[C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 100
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-64.exe](cli-64.exe-1B7B373761B5D63526E6AB7352200B3C.md) | 93
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-64.exe](cli-64.exe-F4CBE06A74C758B32F75D2BA148A0045.md) | 93
-[C:\Program Files\Python38\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 100
 
 
 

@@ -4,7 +4,7 @@ title: gdk-pixbuf-query-loaders.exe |
 
 # gdk-pixbuf-query-loaders.exe 
 
-* File Path: `C:\Program Files (x86)\Pidgin\Gtk\bin\gdk-pixbuf-query-loaders.exe`
+* File Path: `C:\program files (x86)\Pidgin\Gtk\bin\gdk-pixbuf-query-loaders.exe`
 
 ## Hashes
 
@@ -30,13 +30,24 @@ SSDEEP | `384:njwQJBRrvaHr+nGUPp2KdoBKiaDH2t/aBy:L9mLEGUPp2KWBKie2F+y`
 
 ### Usage (stderr):
 ```Batchfile
-g_module_open() failed for C:\Users\WDAGUtilityAccount\--help: `C:\Users\WDAGUtilityAccount\--help.dll': The specified module could not be found.
+g_module_open() failed for C:\Users\user\Documents\--help: `C:\Users\user\Documents\--help.dll': The specified module could not be found.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Pidgin\Gtk\bin\gdk-pixbuf-query-loaders.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Pidgin\Gtk\bin\gdk-pixbuf-query-loaders.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\Pidgin\Gtk\bin\gdk-pixbuf-query-loaders.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

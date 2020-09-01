@@ -4,7 +4,7 @@ title: NetCfgNotifyObjectHost.exe | Host Process for Network Driver Configuratio
 
 # NetCfgNotifyObjectHost.exe 
 
-* File Path: `C:\windows\SysWOW64\NetCfgNotifyObjectHost.exe`
+* File Path: `C:\Windows\SysWOW64\NetCfgNotifyObjectHost.exe`
 * Description: Host Process for Network Driver Configuration Plugins
 
 ## Hashes
@@ -20,8 +20,12 @@ SSDEEP | `1536:kcSIW3cKNVWankND5okn+GC9NaGu5AL/MPbXDcyJEigM9:ksLCVWakvokn+GC9NaG
 
 ## Runtime Data
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

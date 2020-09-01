@@ -4,7 +4,7 @@ title: netiougc.exe | Netio Unattend Generic Command
 
 # netiougc.exe 
 
-* File Path: `C:\windows\system32\netiougc.exe`
+* File Path: `C:\Windows\system32\netiougc.exe`
 * Description: Netio Unattend Generic Command
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `43D706ADAE70DE7AF538E7AD02D7ED989A582E1108610E29597E8F11902DC783`
 SHA384 | `D63B7F79E6F188C7726AE1AC12CCEB955BD06EE45F3F24ACE143B23426EC55A7AAE7BC82E40BDBC817BDA96A0B676436`
 SHA512 | `B0DD4ABB468C4D1F6CD6A7504D400925837B46ACF7ADB75C2C06F3E34E3F5D38054AD81AD651AFEBF121CF2F18AE9265415238F38DC7A4E2771361E2FA60FC70`
 SSDEEP | `768:ULcz1bM9RihRsjIt3gXEaJRphb/80Zwkj/3rvpQ:AQ1biijRZRaJFbr/7pQ`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\netiougc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

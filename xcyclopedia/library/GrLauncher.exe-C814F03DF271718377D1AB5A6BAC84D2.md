@@ -4,7 +4,7 @@ title: GrLauncher.exe | GrLauncher
 
 # GrLauncher.exe 
 
-* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\GrLauncher.exe`
+* File Path: `C:\program files (x86)\GRETECH\GomPlayer\GrLauncher.exe`
 * Description: GrLauncher
 
 ## Screenshot
@@ -21,6 +21,36 @@ SHA256 | `CF59178409BA74C50D38B21D2EE02EA8F52F9AD955E35D455338DD85AF270CCA`
 SHA384 | `735257D3876155CA0C0FC98849C72098A6C24D434FB022CEB2A5B9AF18EAB6010F411D6BE83460F3F94341277B4650EF`
 SHA512 | `4A79EC7C6C52B763C76C1453FFB86FB8DA2BAD75C07DECFD55809ECA5DACD9E867737339278398A69B3A4C64A2C32B52C04B8E9510BD481EC1D1434C2F1CBD78`
 SSDEEP | `49152:MIyddRh55Lv/EJysoON96j4+p2d7HH27TAklktncVfknOh:MtvRh55L3EJsON96j4+p2dy7TtlktncZ`
+
+## Runtime Data
+
+### Window Title:
+Can't load language file
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Program Files (x86)\GRETECH\GomPlayer | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\GrLauncher.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

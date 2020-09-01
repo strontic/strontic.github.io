@@ -22,6 +22,44 @@ SHA384 | `4760816D7369B8DF66C185EC0FCC3DE3361FFDA65CA0F65767DDD7BD9EC837373FB68E
 SHA512 | `1C47B24D04104D0E7291D09AB6DAD2C0433CA4FFA947A051A73159A986A0C0E8634B3701153E54E7D96364F80407E9FCC6D5EB8A9C34D8EA35B86780211F9CFD`
 SSDEEP | `3072:zfkVjGPsw40aLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLdx:zkTuZToIuUXmmZbgDooMb`
 
+## Runtime Data
+
+### Window Title:
+Windows PowerShell ISE
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\assembly\pubpol5.dat | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.PowerShell.ISECommon\v4.0_3.0.0.0__31bf3856ad364e35\Microsoft.PowerShell.ISECommon.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0.0.0__31bf3856ad364e35\System.Management.Automation.dll | File
+(RW-)   C:\Users\user | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_7676 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

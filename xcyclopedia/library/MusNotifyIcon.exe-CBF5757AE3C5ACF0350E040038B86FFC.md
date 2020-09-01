@@ -18,6 +18,42 @@ SHA384 | `8D976AA68AEFCFAD0A4AA323B1E71C6F7B92434316026B3479185840515BF4C2A3A095
 SHA512 | `D26D90F1DE848F2C6E3C261B29B6023D6DAFA8DF06C7683D17B31978F1CDD5C0B8A1A92376356AD687872184D9B63FAC02F7A24E33B3A8843BDBED2A388EDF44`
 SSDEEP | `6144:3o7r1tOP6zDqzPEteN0zSNl4yCB8BD/QfCn/+IbSpByb:3oFQ6zDLte8SbciKpm`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\DPAPI.DLL |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\MusNotifyIcon.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UPShared.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\System32\WINTRUST.dll |
+C:\Windows\system32\XmlLite.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

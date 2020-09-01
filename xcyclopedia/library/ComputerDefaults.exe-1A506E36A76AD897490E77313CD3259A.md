@@ -22,6 +22,16 @@ SHA384 | `D97335966E1BB6A92D36F1FD153E7FE752E83253CA98FCE0D8A68A53B1E7212E560747
 SHA512 | `DDA7ABC50BE919FFF6E0133FA3C47DCCE92ED82109F3709A3EA79D37E028FC2F99656028367AFC8D19D0D86867A4F301B7946CCD1792824322C901E155350E33`
 SSDEEP | `768:u7Q6e6JTWs2IkRDzsq4ytZZZL2YCX4ibRY:u75fBURDoq4OZZZLlCIibR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\CompPkgSrv.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ComputerDefaults.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

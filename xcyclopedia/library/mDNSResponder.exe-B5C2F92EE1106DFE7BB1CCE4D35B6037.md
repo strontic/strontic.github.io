@@ -4,7 +4,7 @@ title: mDNSResponder.exe | Bonjour Service
 
 # mDNSResponder.exe 
 
-* File Path: `C:\Program Files\Bonjour\mDNSResponder.exe`
+* File Path: `C:\program files\Bonjour\mDNSResponder.exe`
 * Description: Bonjour Service
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `E399C390687589194D8AAD385055F0CFA7D52AD9E837D8FF95008B8EB2B34E50`
 SHA384 | `2F45FC6DD1F44374622AEC22387B4ECFB15A5E1EB3FE6E61E53F8EDAF94126D284BAB91AFEBB2833545809B6D63C37AE`
 SHA512 | `7F82752B271EE35BAD31A8571AE33B8CC83EF48F41937297DFC446F6F9B12DA3D8B8336A527F6BBC5BC3C6627DEADBD38A5F109B16C7D1386A3DB36742C5A9C7`
 SSDEEP | `12288:da04bzdSCiwro3AbN54j49LEMjysQPN5Z:da08ZSCRM3qN54j49LEMjy5`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -35,6 +37,16 @@ mDNSResponder 1.0d1
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Bonjour\mDNSResponder.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

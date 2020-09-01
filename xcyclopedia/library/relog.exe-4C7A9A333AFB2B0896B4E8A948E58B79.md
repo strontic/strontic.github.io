@@ -4,7 +4,7 @@ title: relog.exe | Performance Relogging Utility
 
 # relog.exe 
 
-* File Path: `C:\windows\system32\relog.exe`
+* File Path: `C:\Windows\system32\relog.exe`
 * Description: Performance Relogging Utility
 
 ## Hashes
@@ -30,7 +30,7 @@ changing the sampling rate and/or converting the file format. Supports all
 performance log formats, including Windows NT 4.0 compressed logs.
 
 Usage:
-C:\windows\system32\relog.exe <filename [filename ...]> 
+C:\Windows\system32\relog.exe <filename [filename ...]> 
                                 [options]
 
 Parameters:
@@ -63,8 +63,13 @@ Examples:
 
 ```
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\relog.exe |
+
 
 ## Signature
 

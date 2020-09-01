@@ -4,7 +4,7 @@ title: printui.exe | Change Printing Settings
 
 # printui.exe 
 
-* File Path: `C:\windows\SysWOW64\printui.exe`
+* File Path: `C:\Windows\SysWOW64\printui.exe`
 * Description: Change Printing Settings
 
 ## Screenshot
@@ -21,6 +21,42 @@ SHA256 | `0FD82B7B6F97DF74DF7C02B2CD79E9AE306AC5B66709874146F5D042AA8C38FC`
 SHA384 | `56BDC6681A89C9C4C59FB99D46CC5E906CD728EB10156FACA8845422B21D20145BD176427892C9D04821EF8EE8E2ADDF`
 SHA512 | `BA8B7277A6A600930676C3AB4FD216A6CF5779EC899B3FF1D71C7303D996CC4D86D58C4428FAF058959F3E37F6314D5A2DAA251C6592079638F9D3239B218AAA`
 SSDEEP | `768:Q0gL0CJheuF5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnA:bCJh1VIPd4n+lbeRZIbSQPPA7t`
+
+## Runtime Data
+
+### Window Title:
+Printers
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\printui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\printui.exe.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\printui.exe |
+
 
 ## Signature
 

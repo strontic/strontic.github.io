@@ -4,7 +4,7 @@ title: DeviceCensus.exe | Device Census
 
 # DeviceCensus.exe 
 
-* File Path: `C:\windows\system32\DeviceCensus.exe`
+* File Path: `C:\Windows\system32\DeviceCensus.exe`
 * Description: Device Census
 
 ## Hashes
@@ -17,6 +17,15 @@ SHA256 | `DBEA7473D5E7B3B4948081DACC6E35327D5A588F4FD0A2D68184BFFD10439296`
 SHA384 | `46DBFAF363BC335B3BB688DFAA324F234C86B4A38BFFF986A5822262E905965676D77263A3E7A870FA5B33D238DC94D9`
 SHA512 | `49CA6F6357EB41241900F1997759ECCEB3EE0B3905118060F07109FFC2E09D3CB69A7DD2ABE77635DD5D2C41484AD2E889EAAC5882E989E494CCA97ACF7E2440`
 SSDEEP | `384:/ZFRwpU6F4NF1s0bFOaog3N4UA7Oy1All2RtzVrMFWYG4i6XiWbgW7/zD1IDBRJ6:/Dqp1ssuvWRCll0zrMF7G4i6XfnI1PyR`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +49,7 @@ SSDEEP | `384:/ZFRwpU6F4NF1s0bFOaog3N4UA7Oy1All2RtzVrMFWYG4i6XiWbgW7/zD1IDBRJ6:/
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 25
+[C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 25
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 30
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-26FC7C7BDB99AB9B3EACB4BD513F6642.md) | 83
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 97

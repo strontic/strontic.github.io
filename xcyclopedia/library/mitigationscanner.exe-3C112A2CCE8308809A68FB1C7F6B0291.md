@@ -18,6 +18,22 @@ SHA384 | `2FAC5CE6263D5568C9CB42E2F5A0494F8F6E18262FB40B93D5DCF64A192A7C9198FB2F
 SHA512 | `6DF5F448F1BFB393FFDC9AB38ACD80C3AC2DA242D654D140B41EA9DD98F0A06499FE087A891DCDF1AEDDC48FE93952D90721283D3EBBDB7EC15D97DA20D46120`
 SSDEEP | `1536:mxAvmbTf+Px3Hh9cmUzPGef5oVrAjN0ZBMV0:mx3TI2mUiefmVEpsMa`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\microsoft shared\ink\mip.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

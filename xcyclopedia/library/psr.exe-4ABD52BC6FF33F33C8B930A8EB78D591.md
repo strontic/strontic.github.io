@@ -18,6 +18,16 @@ SHA384 | `5A378D762F6DA2230FC94885CCA0E4A909B313C58FA9CD867EAE35EDFC1B4021020035
 SHA512 | `35922219108089E6D636451C9E8402A85DA4031CD181B5E58F28264517BA8F580A99A5F025F2F83C3593882CBE11081BCCA3C4E95EC024EEBB19CC8529949E34`
 SSDEEP | `12288:IsHs2pR/4o1E39jxXcD8pellpco//EH1:w2Ha9jqApeCoXEH`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\psr.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\psr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: user.exe | User
 
 # user.exe 
 
-* File Path: `C:\windows\SysWOW64\user.exe`
+* File Path: `C:\Windows\SysWOW64\user.exe`
 * Description: User
 
 ## Hashes
@@ -17,6 +17,22 @@ SHA256 | `4D2B4AA1114B342C4068E77EE063A4687C1D07CC1E51938CADAC364DF479C5B4`
 SHA384 | `0DB368EBA1C1E0C7D7CF62F614599DD52DCC2054E358D16859E311670A67E3D47D000A4AD980A700174A7DC0AA5727A1`
 SHA512 | `850C35B2BFAA3C089DF5BE24692F544EBC3B7BEB0E7FA07EF64E7D996FAAFE2AE93F4F90456C7FD894FD7ACFF35D82F76D7F6A41FB98D3673013E71950A48E31`
 SSDEEP | `24:eNGS/glSH+q6ooD812UDGKDIILiIZW0gNNZl2Si35WWdPPYPNl:a/glScooDMxIlIZWjXZno5WwHg`
+
+## Runtime Data
+
+### Child Processes:
+RdpSa.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\user.exe |
+
 
 ## Signature
 

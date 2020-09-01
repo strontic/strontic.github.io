@@ -4,7 +4,7 @@ title: EvernotePlayer.exe | Evernote Player Application
 
 # EvernotePlayer.exe 
 
-* File Path: `C:\Program Files (x86)\Evernote\Evernote\EvernotePlayer.exe`
+* File Path: `C:\program files (x86)\Evernote\Evernote\EvernotePlayer.exe`
 * Description: Evernote Player Application
 
 ## Hashes
@@ -17,6 +17,31 @@ SHA256 | `C95FA0F749389CF6630A0D81488FFF92CF98EB560C5E9E07C080B885FC2E142B`
 SHA384 | `B8F1DE848D4B7AF2A7AFDD332950CC590EFD36ACF800E2973445AA055E584FE4BC73FA0DB53DE6CA00CFA34265613833`
 SHA512 | `FCA57E52FCD8DA237C25695CA5150FFA45C58AD8922F2A315DCA14B01AEB6D594542906448008BF660C9DD4CB107655612F0CD4E18CD9B9B8905BFD4012C8A69`
 SSDEEP | `6144:J5ERHFamDGOufkEFZGQftxJavUzBKAOggJPx1F/on:Ji7aOukEFZGK4vUzBKF1F/0`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\En_shared_enaudio_state | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Evernote\Evernote\EvernotePlayer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

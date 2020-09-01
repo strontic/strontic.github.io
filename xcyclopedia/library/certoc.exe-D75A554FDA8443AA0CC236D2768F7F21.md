@@ -4,7 +4,7 @@ title: certoc.exe | CertOC.exe
 
 # certoc.exe 
 
-* File Path: `C:\windows\system32\certoc.exe`
+* File Path: `C:\Windows\system32\certoc.exe`
 * Description: CertOC.exe
 
 ## Hashes
@@ -43,6 +43,16 @@ Usage:
 The parameter is incorrect. 0x80070057 (WIN32: 87 ERROR_INVALID_PARAMETER)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\certoc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

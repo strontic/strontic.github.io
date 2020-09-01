@@ -4,7 +4,7 @@ title: ctfmon.exe | CTF Loader
 
 # ctfmon.exe 
 
-* File Path: `C:\windows\system32\ctfmon.exe`
+* File Path: `C:\Windows\system32\ctfmon.exe`
 * Description: CTF Loader
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `2D88AB60714D7CAA53B06653CDD31E14093121CEBF3BB7EB7CA0F1B9F04A3A8A`
 SHA384 | `0F35AC7A9427183F31F18C352E013A911F8F774BA6FE6AC23C087A9EE8F80D108A5CF1049A22952DFD99A1F44BD97D77`
 SHA512 | `D2CD6B392C22E6A02CC67BB2D1927298670F47A2CD8C62891EB8D46CD87BAD6FEE2061CECF4E09E450BE2D9AC9673562CFF77AAF5625A578163D0F4AFAF9F432`
 SSDEEP | `192:jQJ1u2Llzc5pjlPJ3hF+JF+q617XCMW2gW:20KlQXlh3hF+z+qg/W2gW`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ctfmon.exe |
+
 
 ## Signature
 

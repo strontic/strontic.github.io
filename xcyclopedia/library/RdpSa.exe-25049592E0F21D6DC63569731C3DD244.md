@@ -18,6 +18,30 @@ SHA384 | `62811DA63A2B94D7FD462FA45FC2AE422593A83DB0CD8DBE818067BB6E8DB93B998B7F
 SHA512 | `DE338F840EFC3DBEB076CD43BEB0B2FA307BF78032CD667505F325717137C3F5A7AA27EB2D75A35A3D2EDECA61FE512764B408937D987069AE152F0A2D77631A`
 SSDEEP | `384:bE28bmDnHPoFT8i8MlhsXD5Ge3XS3YvWh4bW4DlZrxYvXq0gEbNB7u49E7WFJW/V:F8AnvuoDMoDv3XyT4hfrxpYREOIV`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\system32\rdpclip.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

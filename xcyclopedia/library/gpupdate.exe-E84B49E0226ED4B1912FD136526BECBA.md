@@ -18,6 +18,17 @@ SHA384 | `32347A34A9A2A38707D612ED7D783752E0EE7406D2D8D7AA0279319D86E0DAB9F1C089
 SHA512 | `E80DC518B4CA1CC836E93FD9D140D1DCAC4C614F7CDE77FC73E69CA4AEE5A9789C7933ECD5149C71223773B92CA716087CDDF7AC4A0D2B10F729DF036DB696C1`
 SSDEEP | `192:6GCX4/WACGZU612fNck+iEQlYQXvTX2H7mIo9PkqkSWFeDWN6ef4:6GCrACXfNB+iEOYQX7a86SWFeDWN6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\gpupdate.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\gpupdate.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,38 @@ SHA384 | `F037278ADA62A5B0B13C3DDBF8BC050330C8821724790B51D58EB4C93A3FF37AFB8844
 SHA512 | `B5C62EBA034F48EBD58850881AFFA7E6419709E8DD5B781ACAD794BD7EDCCED394C8FD3B306C693DD1313A622E9FF10F83FAB2D406A78CE52A63D64F97929506`
 SSDEEP | `6144:fP0J4POGmdJd474KENUMoMNlxJn1MNNoELCKVs7nyatGt+SYFmW2t:fPC4PH0dO4f1CNNHhH+S+O`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\BDEUI.dll |
+C:\Windows\system32\bdeunlock.exe |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\system32\FVEAPI.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

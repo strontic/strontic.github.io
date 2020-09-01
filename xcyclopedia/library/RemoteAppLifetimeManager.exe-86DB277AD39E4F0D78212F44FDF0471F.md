@@ -18,6 +18,23 @@ SHA384 | `0895E17E765C0EF67152D4AF6E981A4A46F4250649C217664740BEAF036BEF5B1C23AB
 SHA512 | `CB1C1B6CD9FB3A04FAB961E10DEE63B87DA5493D694960270096C89296B27BA155FE72ECEE581F98930239C234C10DD36114BA249E7D27C2F9D76150131D04B2`
 SSDEEP | `1536:tk2yS4wz789Xfwx3kG/qsganNZGRgvO9EMl91SccyyyxyyyFfJDg8TBSb/1gk0dv:KS/89vwl7/tpNouvWEMlrzwUBj1Odv`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RemoteAppLifetimeManager.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

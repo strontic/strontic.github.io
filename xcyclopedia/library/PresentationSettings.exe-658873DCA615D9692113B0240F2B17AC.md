@@ -18,6 +18,20 @@ SHA384 | `724EFD2AE5AC9005663B1574B67B665CD887AEFC3173D34EB2F7BBBAE006AAE2E324BE
 SHA512 | `D0E090323D7E13D270670E27B273FB400146B2FE5A46440D0AFD0AE35B23901A5A77065FBF5019BB96AD4D3DB9B782E107FBAE93A0798E1FC4FF6C5B1D06C9C8`
 SSDEEP | `6144:duAnRId7ybTaaGkPzffts2xmhfGKraEH:d/nRId7ybTa8K2Gfn`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\PresentationHost.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

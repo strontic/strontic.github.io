@@ -23,6 +23,14 @@ SSDEEP | `768:hkbIlhPTJg07Q0eBNU5FaJsKkiWPPAh1SkNOaBTsIlkQB7WBv3:eo807QDPJs/iAw8
 ### Child Processes:
 RdpSa.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\UIMgrBroker.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

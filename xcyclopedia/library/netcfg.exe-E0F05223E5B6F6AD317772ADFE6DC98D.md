@@ -4,7 +4,7 @@ title: netcfg.exe | WinPE network installer
 
 # netcfg.exe 
 
-* File Path: `C:\windows\system32\netcfg.exe`
+* File Path: `C:\Windows\system32\netcfg.exe`
 * Description: WinPE network installer
 
 ## Hashes
@@ -138,6 +138,16 @@ General Notes:
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\netcfg.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

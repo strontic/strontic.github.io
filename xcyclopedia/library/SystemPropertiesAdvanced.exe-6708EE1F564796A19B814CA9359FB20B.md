@@ -18,6 +18,17 @@ SHA384 | `CB9145632F71D0705DD9026CA7B5673D1122D29002545CBAC2CCB45C419FF5C52EEC5A
 SHA512 | `B89388156C5AF2254A97A0FA02DF28FDB0FA78E823FDF88BB355BBBF2994CF65B131C3EB313E3DEF8E2987C0ED69DBB72F604D3C29E6179AA4E3EAE1BCE10A18`
 SSDEEP | `1536:jLe/8tREC/rMcgEPJV+G57ThjEC0kzJP+V5JU:nLzECTMpuDhjRVJGS`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesAdvanced.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\SystemPropertiesAdvanced.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

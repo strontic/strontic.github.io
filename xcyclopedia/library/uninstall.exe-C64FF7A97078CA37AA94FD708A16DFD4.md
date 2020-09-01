@@ -4,7 +4,7 @@ title: uninstall.exe | Notepad++ - a free (GNU) source code editor
 
 # uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\Notepad++\uninstall.exe`
+* File Path: `C:\program files (x86)\Notepad++\uninstall.exe`
 * Description: Notepad++ : a free (GNU) source code editor
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `6144:8R+xXYSIvF68OZGbpYByPT7lyvIcoNlh1pxR7ubHoklHP3:EMIvk8OvByPHly5YfH
 ### Child Processes:
 Un_A.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Notepad++\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Notepad++\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\Notepad++\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

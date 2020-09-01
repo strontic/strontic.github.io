@@ -18,6 +18,16 @@ SHA384 | `954DA63D5643D05FB5F83C5FA6CFF047ABC55161CC1A2DCC7CB9D2F40B55506BDE802E
 SHA512 | `4A058A6E90C1935ED14F9ED40DC6A4AC80AAB65B498445ABD8A84A0813C3CF059EE6325B7D1649325B7C58AFEDB62AEC37A87C1EC15B78C9411C75836AC01BEE`
 SSDEEP | `24576:PNaSQOW4KnF0Op8Upcawqsj69vxEWvbuqZ8K3ejve/uSgayoIZWVHqiY2:VsNpdgqDvSWDuy87dnaHD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\hvix64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +46,11 @@ SSDEEP | `24576:PNaSQOW4KnF0Op8Upcawqsj69vxEWvbuqZ8K3ejve/uSgayoIZWVHqiY2:VsNpdg
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\hvix64.exe](hvix64.exe-37E8EE507B2A4D22DC00A4578132B6C0.md) | 93
 
 
 

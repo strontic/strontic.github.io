@@ -4,7 +4,7 @@ title: taskhostw.exe | Host Process for Windows Tasks
 
 # taskhostw.exe 
 
-* File Path: `C:\windows\system32\taskhostw.exe`
+* File Path: `C:\Windows\system32\taskhostw.exe`
 * Description: Host Process for Windows Tasks
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `CA620F4DE4A426F129445E4D8A545B7B08B021080E7375A3EA3ED8C8A7212A8F`
 SHA384 | `927AA22383E339D7A33BB95E4A064E9C3F355B4C0CCC742AB922911FBB591E9E1B22602DBB040618A599B4C740C50331`
 SHA512 | `3FC3638B6178BED7C4D75EFFFC7F276C7D742A20A2513FF69374B69C86D651C0B89390C7F9DD48856C04A9B8413C9C579BCD43EB06CCB34ABEB1D73609C8DE39`
 SSDEEP | `1536:w69m34ldr8tMxKLruZ9CFpfWswrfHK4gAULUVPrT:w69m3ad6MQPkMFpf/QfHK4gAUoV/`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\taskhostw.exe |
+
 
 ## Signature
 

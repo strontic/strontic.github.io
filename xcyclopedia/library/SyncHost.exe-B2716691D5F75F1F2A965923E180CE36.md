@@ -4,7 +4,7 @@ title: SyncHost.exe | Host Process for Windows Sync
 
 # SyncHost.exe 
 
-* File Path: `C:\windows\SysWOW64\SyncHost.exe`
+* File Path: `C:\Windows\SysWOW64\SyncHost.exe`
 * Description: Host Process for Windows Sync
 
 ## Hashes
@@ -17,6 +17,31 @@ SHA256 | `47EB6D62CC9B494EB451D19A84407A879B0A4A98A46301558F6DA66D5A3CEF84`
 SHA384 | `EBB55E23DF5C6879A19883155AEE5695026592FDE8C0B12EDA1FAE4BFCBAD7E57BB7F8909BE7C303A327234D574C9545`
 SHA512 | `8ECFF769DBFD5600D97054D89C61106EE2BDB4CFE9AFB31EAFF6E7106803B05091F87755BEE6C923D3BF6515209083F6D3097E863BE689006513BDC65AB4349C`
 SSDEEP | `768:y5j1FMyTOzZHR5I3w6jJosfM6o3SEUu10+v2werM2HTON:yvqgM5I3w6jJo0do3SS6+GF6N`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECAF0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SyncHost.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: RMActivate_ssp.exe | Windows Rights Management Services Activation for Se
 
 # RMActivate_ssp.exe 
 
-* File Path: `C:\windows\SysWOW64\RMActivate_ssp.exe`
+* File Path: `C:\Windows\SysWOW64\RMActivate_ssp.exe`
 * Description: Windows Rights Management Services Activation for Server Security Processor
 
 ## Hashes
@@ -20,8 +20,14 @@ SSDEEP | `12288:E5rihVY+H388+34E7oYX7Uu9iLZUBzKUC:ExAVY+H38D3RoYou9iLZUBzKUC`
 
 ## Runtime Data
 
-### Child Processes:
-conhost.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\RMActivate_ssp.exe |
+
 
 ## Signature
 

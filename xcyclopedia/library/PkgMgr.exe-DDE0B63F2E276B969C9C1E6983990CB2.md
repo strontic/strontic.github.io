@@ -4,7 +4,7 @@ title: PkgMgr.exe | Windows Package Manager
 
 # PkgMgr.exe 
 
-* File Path: `C:\windows\system32\PkgMgr.exe`
+* File Path: `C:\Windows\system32\PkgMgr.exe`
 * Description: Windows Package Manager
 
 ## Screenshot
@@ -22,6 +22,45 @@ SHA256 | `5BED2AA29ECB2AEF1A41E8B33A0CEFD32DDEFBFA1F7767430A311C064CF13D67`
 SHA384 | `C16C88BE49B555A2FCC4D6AE507D1B1B0E6DD74CD0237EF67725232BD5441D89D185F6CAACBE70BCA3F71AFE5FBC540D`
 SHA512 | `33D2B7A8918EF14996CFB21BDFB8C6DA5BDA937FACB9B7911FCA0D40D4D7F2696FDF65C3F30D45E3186C470CF05D92F33E8E3DBA1C0E7579780EB29E479655BF`
 SSDEEP | `3072:JdN18XlC0HmKIbTENXK6JRAqs4xjw8m1IsF/Xq:fX89HmtbTMHxM8cT/X`
+
+## Runtime Data
+
+### Window Title:
+Windows Package Manager
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PkgMgr.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

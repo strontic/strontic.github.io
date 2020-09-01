@@ -18,6 +18,25 @@ SHA384 | `772057C8508DCF3D8974E99E2402363A2943E47AEDE2DFFC7C26A57D58F70E6711BC6F
 SHA512 | `83CE5FC9E23FA30CF602B7D405D312158652B542450FE797164AB76E6771CB36EC758C18CF5EFA91EB3D6D4F5193A8BAA1909A73E402C5FD9D156DACAD14B027`
 SSDEEP | `768:CUQ2PM0lKgXlr2/rhq20VVU9Swzg/hJBBWd5dy++2ZSBt:CnsRlKgXlJ2h9SwzgJhskZmSB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\lpkinstall.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\lpkinstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

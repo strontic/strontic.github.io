@@ -4,7 +4,7 @@ title: pcalua.exe | Program Compatibility Assistant
 
 # pcalua.exe 
 
-* File Path: `C:\windows\system32\pcalua.exe`
+* File Path: `C:\Windows\system32\pcalua.exe`
 * Description: Program Compatibility Assistant
 
 ## Hashes
@@ -17,6 +17,42 @@ SHA256 | `36EF04735ADFFF417AE761BF6595BADB54A4CCEB3550ABA7CFD4F7234C90EE7D`
 SHA384 | `C12C54FCDB0869AC6D8C688FB39642D5B339EA8792C07BA0E5DCE204F3D7EC3E73B74A3C2B3468B64E33F01681E2A425`
 SHA512 | `3AB25ABEB9764B33A059BA94754ADB73A14D965F908BD36E69132BC2A47F4261691217B7180E091E945C17EF28E2A5291DD12797C78D2E08BE87F4E7B679DB92`
 SSDEEP | `1536:PAIyANGQ0WV0fvIsL57qmPs00DfJw6Bb9v2:P7yA/enIG57q/VDfJLt4`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\apphelp.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\pcalua.exe |
+C:\Windows\system32\pcaui.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

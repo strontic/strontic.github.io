@@ -18,6 +18,16 @@ SHA384 | `C12C6F70E55243F94D4FA4D272F6DC8FF3E4AF56815FBE2BD4430831430D0B53C9D132
 SHA512 | `1055807C06E65D833B5A87170EA662229C91A400B8323D6DDBDD42D151A71E14286FAA624FC6EE722EEFFDC85B1F788E11F1BFEC60C64B802D121120B9BB762C`
 SSDEEP | `768:Ne/UiG8x3NB8jF0oD0eqsaXGPFokaVP+k2xwwL:Ne/UVab8xQG+kad+nxVL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\clip.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\clip.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

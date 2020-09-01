@@ -4,7 +4,7 @@ title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
 
 # Windows.Media.BackgroundPlayback.exe 
 
-* File Path: `C:\windows\system32\Windows.Media.BackgroundPlayback.exe`
+* File Path: `C:\Windows\system32\Windows.Media.BackgroundPlayback.exe`
 * Description: Windows Media Playback EXE
 
 ## Hashes
@@ -18,11 +18,22 @@ SHA384 | `CDEBB45934E48B5EC8FE3A8E2B0A3568E41A6562FF77A2CBD7FA60A1E785A6E73D436E
 SHA512 | `0D86361CAEEBE4A421AA5034DD773130CC55A08C03960082EA215A8C78A3FA3373CF72CF81C5D855D0687C4882368C3C1BB489EC241860A387402D5702B4A2DD`
 SSDEEP | `384:3yVSWye4tCt2Ci4PytyMWGe2LJQ8HOrWZ5Wp:32S+t2CDPXPF2LXHT`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

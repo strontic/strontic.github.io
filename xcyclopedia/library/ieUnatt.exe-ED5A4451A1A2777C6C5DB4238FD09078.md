@@ -18,6 +18,16 @@ SHA384 | `38149E2BDEB5F10F89EA06570D07E5C6314FD21424B9D78448B737FD1A000412F16AC0
 SHA512 | `5628F32F77F2DB793797AC277BAF5AD245D510727F737555972A49F0DD76DC38BC10FF0088A780C5240B5F8961234D87A92675304A2A252EA054F54E65B00A61`
 SSDEEP | `3072:Kh0sHLZQ90zIkRR8cGmLTYo/j0a6/uTXjjTE:KBHi9qDlHLBIa62Xjj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ieUnatt.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ieUnatt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

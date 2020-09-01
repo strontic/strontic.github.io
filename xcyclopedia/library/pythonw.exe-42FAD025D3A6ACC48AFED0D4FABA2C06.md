@@ -22,6 +22,17 @@ SHA384 | `07CDCED250AC63F1963711C8302323E8BDF228CD85EB2B21DA017B51FF197ABCC42E79
 SHA512 | `0462DAD5F9168ABD6D4321DF324CBD8043BD8B07CA8913290B479010701F4EDA13E5E5241B11D8D2FC00C622D7A354E933C41A45A52CB06D469046F0F1FCCA8E`
 SSDEEP | `6144:tMLu41dyKmyXpMvJ5uwJmTXingTb/xSiLPFH8FIwMd7wvcNHT:t94LyKppCzJmXIgTLxSAwIwM+4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Python38-32\pythonw.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -44,7 +55,8 @@ SSDEEP | `6144:tMLu41dyKmyXpMvJ5uwJmTXingTb/xSiLPFH8FIwMd7wvcNHT:t94LyKppCzJmXIg
 
 File | Score
 -- | --
-[C:\Program Files\Python38\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-AFEECB1C10D2D6E5BA7EC753D1052E95.md) | 30
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\venv\scripts\nt\pythonw.exe](pythonw.exe-F4C32BD5CB9189A69D77D56D4CBCA124.md) | 97
+[C:\program files\Python38\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-AFEECB1C10D2D6E5BA7EC753D1052E95.md) | 30
 
 
 

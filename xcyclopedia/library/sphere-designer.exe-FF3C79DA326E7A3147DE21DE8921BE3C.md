@@ -4,7 +4,7 @@ title: sphere-designer.exe | GNU Image Manipulation Program Plug-In
 
 # sphere-designer.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sphere-designer\sphere-designer.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\sphere-designer\sphere-designer.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `F4AA04A2095D1E551AB9BB211009BC5EFD7ADBC20C3693011323F9F357939FE3`
 SHA384 | `36258902CC62E642AF883A5656A1AF5C1AAF61534D85C171CFEFE9C71323C7EC549874014BAA661959AC5F2A7121B24A`
 SHA512 | `CA8611B09277CB74F5A969E3E94BEC44D1C62DCBD658334096F584B5842FEFC25235A3139A8918947529A6301966A12718B869B8C6AFC077CF9C0FEA73176FCD`
 SSDEEP | `3072:1Gpcrk3gXQpL1RMOaEhq5Bml2alEngoGGYRRXSPJQGTfmQheEgEu:1Gpcrk30Wl2zgo9eRXOJQGSQl3u`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\sphere-designer\sphere-designer.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

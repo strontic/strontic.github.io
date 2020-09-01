@@ -22,6 +22,63 @@ SHA384 | `6C0231E09F7BA339441B5766D827D1E7244D6CD9B9232F1CCF44CEBF653BD9035FECBB
 SHA512 | `A331FE77C2B18697D73F333E1ADA944EB31C9438BFA28AB67738215BE7BF4322AFA7DC5426AB81D5D29489ABA8DC4DACA67F4E3E765D90D3C67C88EBEDA4CA88`
 SSDEEP | `768:G9FtEU+i2u88EoO7nwF2IDech22GBw6n:CpUuBqwFLecfGBw6n`
 
+## Runtime Data
+
+### Window Title:
+Boot App
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\bootux.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RWD)   C:\Windows\Fonts\segoeuil.ttf | File
+(RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bootim.exe |
+C:\Windows\system32\BOOTUX.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UIAutomationCore.DLL |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

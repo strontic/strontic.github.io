@@ -4,7 +4,7 @@ title: rmic.exe | OpenJDK Platform binary
 
 # rmic.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -57,6 +57,17 @@ where <options> includes:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -79,7 +90,7 @@ where <options> includes:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstat.exe](jstat.exe-667252B3D687876CE357538652F3779E.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstat.exe](jstat.exe-667252B3D687876CE357538652F3779E.md) | 69
 
 
 

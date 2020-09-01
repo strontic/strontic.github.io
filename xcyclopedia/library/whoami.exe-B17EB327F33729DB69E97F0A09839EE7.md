@@ -4,7 +4,7 @@ title: whoami.exe | whoami - displays logged on user information
 
 # whoami.exe 
 
-* File Path: `C:\windows\SysWOW64\whoami.exe`
+* File Path: `C:\Windows\SysWOW64\whoami.exe`
 * Description: whoami - displays logged on user information
 
 ## Hashes
@@ -105,10 +105,18 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "WHOAMI /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\whoami.exe |
+
 
 ## Signature
 

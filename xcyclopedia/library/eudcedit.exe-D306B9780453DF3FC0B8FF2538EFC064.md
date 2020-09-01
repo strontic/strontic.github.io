@@ -4,7 +4,7 @@ title: eudcedit.exe | Private Character Editor
 
 # eudcedit.exe 
 
-* File Path: `C:\windows\SysWOW64\eudcedit.exe`
+* File Path: `C:\Windows\SysWOW64\eudcedit.exe`
 * Description: Private Character Editor
 
 ## Screenshot
@@ -21,6 +21,40 @@ SHA256 | `4541091E0F28F0FE29A1C3ED9086922F0FCA4910AC3BD4178064B3CB8097AD20`
 SHA384 | `B0D7F1007B8EA62BC667470B32B4E0BE02B9DC8A4B60DAC9F4A9966071091DD5BF18A62D703E412FAC69E88C410ADA50`
 SHA512 | `E02C1A4C2F1547C98F3F29C176D87785D15D30C81A7829D29D29568FF47F3D39A340139FD30AFD3CD4D1E948EF942881F868C87A7626B0983FE5A551D6B14AB0`
 SSDEEP | `6144:HCYgQlque35j+HeQ9kwFQ5TXHGLNIfqKoTJMGsWz3x1PZSqtYVmI:HqKxe3J+HvfKoTJMGj13tYEI`
+
+## Runtime Data
+
+### Window Title:
+Private Character Editor 
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\eudcedit.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\eudcedit.exe |
+
 
 ## Signature
 

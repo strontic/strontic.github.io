@@ -4,7 +4,7 @@ title: tar.exe | bsdtar archive tool
 
 # tar.exe 
 
-* File Path: `C:\windows\system32\tar.exe`
+* File Path: `C:\Windows\system32\tar.exe`
 * Description: bsdtar archive tool
 
 ## Hashes
@@ -58,6 +58,14 @@ Usage:
   Help:    tar.exe --help
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\tar.exe |
+
 
 ## Signature
 

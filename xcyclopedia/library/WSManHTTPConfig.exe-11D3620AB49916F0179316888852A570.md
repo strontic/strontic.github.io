@@ -18,12 +18,24 @@ SHA384 | `AD54725BA3C960DDC17E22B680505013DE78FB3E90EA6DB35FB925AAF2DCC03F85E856
 SHA512 | `82ABCC49F8883F65FBBEB678CDB99C27E47D735E700631E47C6F584FC6D5F376BDB88BF7651D9C1B773D887650B4328C035350FD79A8C9EACD4D85AB1FAFB911`
 SSDEEP | `384:fcxyp8M2NVa15E2h9AX2FWNvE/7xiDgqgrg5gsgBgVg9Xg/Sf0X2rG2fhcpwW/RW:fUvy5X3lFTzx/Xg/q0GrG2JGh`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 WSMan Generic Command ERROR: Unknown switch: -help
 WSMan Generic Command ERROR: Error in parsing input
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\wsimport.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

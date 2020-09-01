@@ -56,6 +56,14 @@ MsiName=<Msi1>,<Msi2>  - Comma seperated list of Msi Names
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\instnm.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

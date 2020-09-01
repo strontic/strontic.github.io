@@ -4,7 +4,7 @@ title: bitsadmin.exe | BITS administration utility
 
 # bitsadmin.exe 
 
-* File Path: `C:\windows\SysWOW64\bitsadmin.exe`
+* File Path: `C:\Windows\SysWOW64\bitsadmin.exe`
 * Description: BITS administration utility
 
 ## Hashes
@@ -267,6 +267,14 @@ Commands that take a <job> parameter will accept either a job name or a job ID
 GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\bitsadmin.exe |
+
 
 ## Signature
 

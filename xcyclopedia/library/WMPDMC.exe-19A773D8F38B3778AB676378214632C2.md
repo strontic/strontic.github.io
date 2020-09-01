@@ -18,6 +18,17 @@ SHA384 | `78151CEB2D7C23DE2FF4728261FA7D776F54BC5DF89B04B12FFCD8F79CC69CDFA95D21
 SHA512 | `3B79B8565618A89BC5EBE80B274B66D5A60E34C74261F1C1DFDA0742DB88908C81D15601F5EFB1C227F5F7CD987C6A6E7E97774355B7D97902803A75166FD1E9`
 SSDEEP | `24576:CKHeL8QgnrwWljzzVsYjigWEtn1qqumCzQMb8FQ6NTwrlHVJZh/u:CK+ngnrPljuYjig6RmEZb8FQUcrlHVU`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Windows Media Player\wmpconfig.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

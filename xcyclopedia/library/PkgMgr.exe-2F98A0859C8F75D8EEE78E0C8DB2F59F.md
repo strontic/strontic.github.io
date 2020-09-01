@@ -23,6 +23,41 @@ SHA384 | `3804463005E52CAD36C4BA3409F303E030449032CE00219310BF15FECFA34924B1D709
 SHA512 | `9FC9EBC4F7E4E4C5CB100D1F82ADC4712FBD2EEF4F912D9BF84CCFF182F7DC625EE0938BE14D1F0BF1C04A45EAA39C8F58253AE8C1C267D5C1DF6FA49918331A`
 SSDEEP | `3072:aC6RSlENnKKphw6s4RTQcWl444TKJ6eWIC5ou6IQN8QimaBo:aPSl8nRccMT41eWIyobIQN8`
 
+## Runtime Data
+
+### Window Title:
+Windows Package Manager
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\PkgMgr.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

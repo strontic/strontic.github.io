@@ -18,6 +18,19 @@ SHA384 | `E733BA9473557C622F73107ACFD4F106FB13BFEED572051D2C1E629A2A13B713E46054
 SHA512 | `958D04F1F0DEB43175D0ED4BEA869B2E770FBBA2EB6AEC8DE71AE5F9C22416315C841B075FFF441AE5274AB0F1F584DFDC66394555908DBF2DEA76F5EF5AA38B`
 SSDEEP | `1536:aMx5tcmHe4oiCcUdaablS8l4KjK36md+m4jnsXSIBW6AiGAbDyhEisX9:aJhtNckaablvHjK3zdv4CSMtA8`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\MuiUnattend.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

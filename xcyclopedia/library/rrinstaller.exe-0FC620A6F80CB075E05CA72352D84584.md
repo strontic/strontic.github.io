@@ -18,6 +18,19 @@ SHA384 | `12BCF659506029AC7F3C794909770C5E8D571F7364C201A1175968090D72B36456DB4F
 SHA512 | `5DEC08D70ADBAC4C8E768D18B666F95CBF069EE7747127B32D0D80BB748B7B80E767ED8FE47528E9C2B8271A4BA14FFF452FC0E1ED9D5B4ECB05808DC416C154`
 SSDEEP | `768:KHqsIfEFqPnmjtPHddqJYby8vhlNCE34HPt+4bz7ymo8:lfzmjtPHddqJYLhlKH/ymH`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\rrinstaller.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

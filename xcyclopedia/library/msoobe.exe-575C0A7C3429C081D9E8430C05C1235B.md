@@ -23,6 +23,14 @@ SSDEEP | `3072:6aqZr/8Zc8NRAV9rjzN8DQVfviKq+ddR0uSlwtK6E:6aqZrkgV9Peo3AgdVSl`
 ### Child Processes:
 FirstLogonAnim.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\MsMpEng.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,15 @@ SHA384 | `E1375FB2AC71E1929F7B97DA41957D807DF35394A1EFE03EABEF84CD06F79115DF1717
 SHA512 | `A7D12C5B2C13B4D856FE9BFDD957BCB78CE9E56741D46F5D976A17251E24EC0FDEEF9862C68138ABA7DC084B4607E2A6249A52F9B850EC9710D7FF3F4A63F211`
 SSDEEP | `384:JSy5zhxuAJIH9iFftZd4MRBLMWIHmmHm4eY+PWXbHNTWKcW:dF7JIH8naMzM/GFGbHz`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\comp.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\comp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

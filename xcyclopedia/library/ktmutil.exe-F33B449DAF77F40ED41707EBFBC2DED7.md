@@ -18,6 +18,16 @@ SHA384 | `0052D67E292B44E73987F77C6E4EFA46AB1ECC19F047BEF55E5FAFCDB8A1BAE616380E
 SHA512 | `E8B5DBF4B188F6C01F86397CCE804144253553BE21EBFE31C9DF3F3720DC865DE58FD867D5D7D3107CEFA67056ECD1E654299EC37765D4A792D5F3CA039809A1`
 SSDEEP | `192:1PCRLNGTRxlyFfJpehFxtoXkzTVsas6Ps9NC10Fck+WRjWvzx:1PCylyFy3toXkfVnuTx5+WRjW7`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\ktmutil.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ktmutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

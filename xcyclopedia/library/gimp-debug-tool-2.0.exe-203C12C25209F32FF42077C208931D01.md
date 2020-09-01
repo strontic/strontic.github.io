@@ -4,7 +4,7 @@ title: gimp-debug-tool-2.0.exe |
 
 # gimp-debug-tool-2.0.exe 
 
-* File Path: `C:\Program Files\GIMP 2\bin\gimp-debug-tool-2.0.exe`
+* File Path: `C:\program files\GIMP 2\bin\gimp-debug-tool-2.0.exe`
 
 ## Hashes
 
@@ -24,6 +24,16 @@ SSDEEP | `1536:ruEsO+JDkdIxAUgBWWVNaipiPWbaikhWXiV:BcDkdIxAUgc+Nfm0mhgo`
 Usage: gimp-debug-tool-2.0 [PROGRAM] [PID] [REASON] [MESSAGE] [BT_FILE] ([LAST_VERSION] [RELEASE_TIMESTAMP])
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\bin\gimp-debug-tool-2.0.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -47,7 +57,7 @@ Usage: gimp-debug-tool-2.0 [PROGRAM] [PID] [REASON] [MESSAGE] [BT_FILE] ([LAST_V
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-mng\file-mng.exe](file-mng.exe-7386BDFF7CCC6F683C5B303078E04451.md) | 46
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-mng\file-mng.exe](file-mng.exe-7386BDFF7CCC6F683C5B303078E04451.md) | 46
 
 
 

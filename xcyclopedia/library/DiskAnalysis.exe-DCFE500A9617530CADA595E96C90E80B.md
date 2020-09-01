@@ -22,6 +22,17 @@ SHA384 | `6C8E86A112F0277B332172BE6C357E3343B170CDD7A60159BC60B2CD55663D785FDBA1
 SHA512 | `C6FD99C10AA905CE10A5FAE283BB65171E661A90B931BC21EBB97084E368CE5A9B93A1F6872B56BFD719E5A5EC30744448E7776A7779758FA4355BC3938497DF`
 SSDEEP | `12288:00zqFDA2VoceDkVyHyBrOp0dgdC/DsvyXsn9koQOUR:0lN3VyHg6KWfvqsn9kJOk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\DiskAnalysis.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `12288:00zqFDA2VoceDkVyHyBrOp0dgdC/DsvyXsn9koQOUR:0lN3VyHg6KWfvqsn9kJOk
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\DiskAnalysis.exe](DiskAnalysis.exe-626F1A864C4B3A72E9BD1FE4872296C0.md) | 96
 
 
 

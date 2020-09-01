@@ -4,7 +4,7 @@ title: aitstatic.exe | Application Impact Telemetry Static Analyzer
 
 # aitstatic.exe 
 
-* File Path: `C:\windows\system32\aitstatic.exe`
+* File Path: `C:\Windows\system32\aitstatic.exe`
 * Description: Application Impact Telemetry Static Analyzer
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `3EB68EA4AC80352D890CDE5C47FBAB6110DC81C219FB2A43A2EF33E14F17C8F07A8462
 SHA512 | `EEA3C64CF5BC7381D51222E89A09CA25A3ACF0035928122CE2529A35561DC4F257CBA2F7F9E687A5D9537A8AE916B27DC42D248B76BC4BA9F3F83509A6F449C7`
 SSDEEP | `49152:yabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/L/:yyKNNYtaAIrAoTMgJvuL/`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

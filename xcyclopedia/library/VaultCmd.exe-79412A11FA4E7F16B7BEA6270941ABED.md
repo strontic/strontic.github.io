@@ -18,6 +18,16 @@ SHA384 | `FC43EF1579823E3977166EF74A292C00FE18613CAC1361370240AE8387611C59B31308
 SHA512 | `E932B2E45C516D10A853962BB8A3C74BB0B17EBD35A9E6F24C1D5D6FBA693980D0288476AA209290F910D34225D1A76040D07E83B06BEC8C18CBC256973928E1`
 SSDEEP | `384:Ani4neX2foNUVScJ46Mv/gXGcWcYQhQLAwAvDj7LSTARyyoImeLrqJFFBVWFFW:AzeX2QN8SqQIgca3AvDj7LxLOJPBM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\VaultCmd.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\VaultCmd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

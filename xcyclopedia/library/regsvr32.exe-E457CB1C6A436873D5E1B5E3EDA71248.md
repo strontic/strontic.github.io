@@ -23,6 +23,14 @@ SHA384 | `AE7D3F51F9999CA44AA26D934051FA74B071A4C6FE9A629E742DB79D1D68FB4FB5AF11
 SHA512 | `4057CCB22A958F7C67A6C5430E9282762B81FA25F4BE2B8721B2866EB2A21429505ED0F898C34C6BFEDC9A4BFB02B0D8B3186D4CB9F1B5626ADFB94A7A5F4DF7`
 SSDEEP | `384:xceHgOIAHrTj1RSXIMojdCbWrKLHWZp7:bglAhRhbd8Le`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\regsvr32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\regsvr32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

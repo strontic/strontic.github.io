@@ -4,7 +4,7 @@ title: setspn.exe | Query or reset the computer's SPN attribute
 
 # setspn.exe 
 
-* File Path: `C:\windows\SysWOW64\setspn.exe`
+* File Path: `C:\Windows\SysWOW64\setspn.exe`
 * Description: Query or reset the computer's SPN attribute
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `384:C/mo7K4hHCixhZd+NuAX5ERO7cot+rg/Mg/GdvaYzWYW4aWl:Cuo7K4FCeL+NfKa0g
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\windows\SysWOW64\setspn.exe [modifiers switch] [accountname] 
+Usage: C:\Windows\SysWOW64\setspn.exe [modifiers switch] [accountname] 
   Where "accountname" can be the name or domain\name
   of the target computer or user account
 
@@ -98,6 +98,14 @@ FindDomainForAccount: Call to DsGetDcNameWithAccountW failed with return value 0
 Could not find account help
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\setspn.exe |
+
 
 ## Signature
 

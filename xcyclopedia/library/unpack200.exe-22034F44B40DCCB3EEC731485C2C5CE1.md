@@ -4,7 +4,7 @@ title: unpack200.exe | OpenJDK Platform binary
 
 # unpack200.exe 
 
-* File Path: `C:\Program Files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe`
+* File Path: `C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `3072:GXxL0juKmSQm+ZcWEjzSpsidOVVRTBfHRSgmroAxYZq40i:IxwjLUdbPOJVVRTBfR
 
 ### Usage (stdout):
 ```Batchfile
-Usage:  C:\Program Files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
+Usage:  C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options
   -H{h}, --deflate-hint={h}     override transmitted deflate hint: true, false, or keep (default)
@@ -35,6 +35,17 @@ Unpacking Options
   -J{X}                         Java VM argument (ignored)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -58,8 +69,8 @@ Unpacking Options
 
 File | Score
 -- | --
-[C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe](unpack200.exe-A332BA6525B023270377FC3B15974B4C.md) | 96
-[C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\unpack200.exe](unpack200.exe-017AECA35FB400628AA9CF423F04B716.md) | 96
+[C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe](unpack200.exe-A332BA6525B023270377FC3B15974B4C.md) | 96
+[C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\unpack200.exe](unpack200.exe-017AECA35FB400628AA9CF423F04B716.md) | 96
 
 
 

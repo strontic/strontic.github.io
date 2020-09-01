@@ -4,7 +4,7 @@ title: MicrosoftEdgeCP.exe | Microsoft Edge Content Process
 
 # MicrosoftEdgeCP.exe 
 
-* File Path: `C:\windows\system32\MicrosoftEdgeCP.exe`
+* File Path: `C:\Windows\system32\MicrosoftEdgeCP.exe`
 * Description: Microsoft Edge Content Process
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `34B6D32D2345DB5DFE803573F4AA74479EA961004B2F72D25A486D55369AECD8`
 SHA384 | `A0AC924BDB2BC8B264BE59D9A3C29B7A511D0BB1A603319215849FDFC589F8A61A19248E3256A0CBC2EFD913A67B2E01`
 SHA512 | `C8909FAD5F3FCEAB7A825C30B033844645E49F171C285A560CF8E0DFD0D848356B8E2CC0DF8019E42B1EFE69623B715BF3237D7DD42D3EC63A462D2682711ABD`
 SSDEEP | `1536:zermIcat/7LnbR8l/DNRo04HwnVC8AknP8RsK:zeryK3V8l/804oV3TP8Rs`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MicrosoftEdgeCP.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

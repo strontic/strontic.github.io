@@ -23,6 +23,14 @@ SSDEEP | `1536:Go9A0bz1EEnZqKDeiF1mlu/HTrzvtOMCA+qbk5BKO4bt2BP:9Wi1EMeiFJTrzlOY+
 ### Child Processes:
 explorer.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sigverif.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

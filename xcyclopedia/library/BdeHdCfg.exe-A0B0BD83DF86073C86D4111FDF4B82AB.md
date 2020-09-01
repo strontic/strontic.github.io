@@ -18,6 +18,16 @@ SHA384 | `9AF969C5A892175D03A28F65688BFCDC236A36629B082AF83F8EE1658628F05B08A2CA
 SHA512 | `F9F96A3D67C56790F4A6E953DD29FBF8E0A07BDD2C3715524B36D73FC0505F1F05A22E675CFF072333C28B6DD9050582545BFBC52B882A8082889A8B33514789`
 SSDEEP | `3072:m3F7+BQd9UKEVMownVS570M9kdatGCO+xmBc+hMPhPsx:m3F7uKEVMpVs7nyatGt+SYF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\BdeHdCfg.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\BdeHdCfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

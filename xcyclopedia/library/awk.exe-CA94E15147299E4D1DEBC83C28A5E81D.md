@@ -76,6 +76,16 @@ awk: cmd. line:1:  ^ unterminated regexp
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\awk.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -94,6 +104,11 @@ awk: cmd. line:1:  ^ unterminated regexp
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\awk.exe](awk.exe-8196576B6D2DE5BA61D337BEBC56ADD5.md) | 99
 
 
 

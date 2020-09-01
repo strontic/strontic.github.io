@@ -18,6 +18,22 @@ SHA384 | `7CBF1503FF7648E744CB1A8578D5B8CD9E0A062927DD3C33BB524E0BE6DBF98A112919
 SHA512 | `A416F57FCFBE74240EE4F49C5FD7DD4F2E4D789A426BC603851417F26CA6C0C6ABBD1E53FD9354F215F2B0FFBF9900532FB368476E39FC725B91348754A60EBB`
 SSDEEP | `768:i+RfQscyF+z3eCT1iZXEOJothC50/ASGUJlvVrnIrztl3RU/zZ+ylgsSK:iaA3eCT1iDJ/SGGCH3RCJzSK`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\dusmtask.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

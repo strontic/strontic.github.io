@@ -4,7 +4,7 @@ title: regedt32.exe | Registry Editor Utility
 
 # regedt32.exe 
 
-* File Path: `C:\windows\SysWOW64\regedt32.exe`
+* File Path: `C:\Windows\SysWOW64\regedt32.exe`
 * Description: Registry Editor Utility
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `96:BQP6yb6/tfZO0ac95Ep2zyIRoVoxsDGjs0KtAtUFo3NVRrDJFMVW9EWaZhHWwD5L:Bp
 
 ### Child Processes:
 regedit.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\regedt32.exe |
+
 
 ## Signature
 

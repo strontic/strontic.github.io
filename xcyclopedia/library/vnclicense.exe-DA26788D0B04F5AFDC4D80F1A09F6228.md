@@ -4,7 +4,7 @@ title: vnclicense.exe | VNC Licensing Utility
 
 # vnclicense.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\vnclicense.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\vnclicense.exe`
 * Description: VNC Licensing Utility
 
 ## Hashes
@@ -69,6 +69,16 @@ Global parameters:
 Error: Bad argument 'help'.  Run with -help for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\vnclicense.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

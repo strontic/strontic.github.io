@@ -4,7 +4,7 @@ title: Fondue.exe | Windows Features on Demand UX
 
 # Fondue.exe 
 
-* File Path: `C:\windows\system32\Fondue.exe`
+* File Path: `C:\Windows\system32\Fondue.exe`
 * Description: Windows Features on Demand UX
 
 ## Screenshot
@@ -21,6 +21,36 @@ SHA256 | `E86B8997664E14FB6D0972D1E9D394A99AFE9E877A7911CBE7A0E575EF04791E`
 SHA384 | `E3FC368FAB4C8648530E0272D4B3D8040394DED57674CF5ADEA18147B2E61016C790AB6092F3B0D921A962B7B34D9625`
 SHA512 | `691923223EE63DFE76E42342EC02FA385D358E328A53964FEC60BFE6B6CB4C1175BFF2AAE3FBDD66C82F0C3B77965C368E0258AB56FE73692A5C77AF73F29EA1`
 SSDEEP | `3072:SyQQtGibEaznWfH22ZsuX2xKwMPTnaSrIrvD2:SyHG0znWjZnXeKwMLnaqY`
+
+## Runtime Data
+
+### Window Title:
+Windows Features
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\appwiz.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\Fondue.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Fondue.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

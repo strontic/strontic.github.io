@@ -18,6 +18,19 @@ SHA384 | `F05918B8BAAADB89A12DB162881D27B472F5989C7C72F3E10A565C97136F0C7BB4D16D
 SHA512 | `13296682A9E3EDB86DC6B1E7EE6FDF0D9B5182A1DAAF24B88575DE5C33B8D97CC3BA98E52F6BAB11203B36940B9EC2ECA58E2A0032B3A46354263F660B72DECB`
 SSDEEP | `3072:Vwv6qiGpevr0i/t6qdGiaxIZDvyQKe5d+gxqNtdkPaf/205u8Z:VwvXGPoNtdkM/20pZ`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\setupugc.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

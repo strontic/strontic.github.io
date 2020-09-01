@@ -18,6 +18,27 @@ SHA384 | `C491ECB7E67140DE399362D3100A921AC5B6A8B99798A16027A71CBA9A3A2BDE6A4946
 SHA512 | `76CF6D6C15AB52FF4DB4011B6EC88560BB1D2F20A7242B454D60C6521B294197798CDB8A9F92F8920404264D030C9D91D3E22B5C8375683A7D45264649CE7E1E`
 SSDEEP | `384:qwKMEQb8/xjDHLBNl3MyzTOeS2fy9LDE/LDEdTnRkT/erue/4WbnWqw:3TirBNlzzTO9lYeVd`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fixmapi.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

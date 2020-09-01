@@ -18,6 +18,23 @@ SHA384 | `D2B744813FA5DAF6063306560BA4A2DBA85C91437DCE4F11FB861C0CEB3CD78A5CE2C6
 SHA512 | `A2664413B5B12090D94F472317764DA9D983359222770C78AE6905CCB45276C4D786FC34A3B12FF8904F1376597CAEE582111B36463771581A7D24ADFE988621`
 SSDEEP | `192:j2sL84qxeU25tRTOzRDnEtzMPUOYA0svGS0qTYRWlofWi:MeU29TO9Et0UOB3kRWlofW`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RemoteFXvGPUDisablement.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +53,11 @@ SSDEEP | `192:j2sL84qxeU25tRTOzRDnEtzMPUOYA0svGS0qTYRWlofWi:MeU29TO9Et0UOB3kRWlo
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RemoteFXvGPUDisablement.exe](RemoteFXvGPUDisablement.exe-DA10AD97CE891EE6C483BF2FDE66877E.md) | 82
 
 
 

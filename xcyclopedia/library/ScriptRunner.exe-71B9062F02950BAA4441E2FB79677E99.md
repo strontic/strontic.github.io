@@ -4,7 +4,7 @@ title: ScriptRunner.exe |
 
 # ScriptRunner.exe 
 
-* File Path: `C:\windows\system32\ScriptRunner.exe`
+* File Path: `C:\Windows\system32\ScriptRunner.exe`
 * Description:  
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `384:T9zXIqagu/0Ei6GmtpWowWcmXjDBRJDRjY1lxd:BzdG/0TZ8VzXj1P`
 
 ### Usage (stdout):
 ```Batchfile
-Invalid argument specified: /h
+Invalid argument specified: --help
 Usage:
 ScriptRunner.exe
 -appvscript scriptFileName [Arguments] [-appvscriptrunnerparameters [-wait] [-timeout=<TimeInSeconds>] [-rollbackonerror]] 
@@ -36,11 +36,19 @@ Error: Invalid argument specified
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ScriptRunner.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

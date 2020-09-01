@@ -4,7 +4,7 @@ title: verifiergui.exe | Driver Verifier Manager
 
 # verifiergui.exe 
 
-* File Path: `C:\windows\system32\verifiergui.exe`
+* File Path: `C:\Windows\system32\verifiergui.exe`
 * Description: Driver Verifier Manager
 
 ## Hashes
@@ -179,6 +179,13 @@ COMMON USAGE:
  
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

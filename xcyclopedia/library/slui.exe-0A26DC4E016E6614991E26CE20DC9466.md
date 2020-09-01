@@ -18,6 +18,26 @@ SHA384 | `D4455E424F206FC4DB9000D39003F077AD0497766CE179482209627D59159707686CF8
 SHA512 | `88E7A7A90B48E617E36014F0813D50EE1609D8F0D7EF94A207FB886E53961A6FDE27C7FCD47E4D142B1603BFA0D0AE51C7BC1259895F7E314F516D983463E078`
 SSDEEP | `6144:32x/n9wywep0KtB9hL8NQ+i+2faxw7jAxXk8OqY/W5R02qO7VKCyWQp:3in9dTv9J8l5xwX4LOq3nyR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Microsoft Silverlight\sllauncher.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -43,6 +63,7 @@ File | Score
 [C:\windows\system32\slui.exe](slui.exe-2D8FD9EC935EE270744B5F13F881D16E.md) | 50
 [C:\Windows\system32\slui.exe](slui.exe-3A171EFE71231ACB1B45E1FC00671EDF.md) | 41
 [C:\Windows\system32\slui.exe](slui.exe-68974B8AD1EE9B8F59E93A799474A339.md) | 47
+[C:\Windows\system32\slui.exe](slui.exe-CAF88C49F33FA27D956BC728A041346D.md) | 47
 
 
 

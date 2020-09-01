@@ -18,6 +18,33 @@ SHA384 | `7201B0B15279BBB42364BF9F73F680137A4A6CEC99805C054FF0D3D95F13E27FF95BC6
 SHA512 | `3DAF9C63D41AA470333008CC7CA0B15386E93EBF17C8C95CA7CE739A2B267F2974B814971DDA574276B35A81754484325DDD94E760E5F6D91FF6C0449ED8E183`
 SSDEEP | `3072:0aGCNhdT87SLKD3OleE3j2C2IH/JMhM4:NNNrv83OlN3qC7xqM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\system32\tpmvscmgrsvr.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

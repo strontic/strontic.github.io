@@ -18,6 +18,17 @@ SHA384 | `BE2AD69123894C3F3AECC640E17AF01B2BEA81F5F974AC14C00614745C35E329BA6539
 SHA512 | `6F9284D941EE5CE1988428385A952A65B3BA235A86EFE09AB043BE66FF86588BE99C56562CAA8777CC91E2C0D801C8CD9DB385691BD6388240288ED3B6FF2DBA`
 SSDEEP | `1536:E+ddVA6E18Rxkd6chgU16Wv3NVart3rkLbYj2YKmlAwvus9arRKgXUa0:BdVL0lgUJv9Vaac2Yllh18xka0`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Pidgin\pidgin-uninst.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

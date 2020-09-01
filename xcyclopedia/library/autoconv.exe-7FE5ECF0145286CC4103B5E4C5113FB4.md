@@ -18,6 +18,24 @@ SHA384 | `0CF1D4028E9250C074F10915D1A5FFC4FD274F88BEFC2EE1A105729D1F53E55E65B366
 SHA512 | `17CACE66AE60A26426991BA1DC12FE7A1D52E96F0398DE648DB0AC1F77768CB722B54D8C52E1C698727C6AEE1C8C1D9E9F964D53E92559C4CD18E8B54F38E7B7`
 SSDEEP | `12288:XEtjuwMyr+R1gdOSMnZwoLIwHCQzuhKv1eUuPFgb5VvqKXH5u6Q:0NuwM7UOSSZwo03QzCKv1itcvqhD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\autoconv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

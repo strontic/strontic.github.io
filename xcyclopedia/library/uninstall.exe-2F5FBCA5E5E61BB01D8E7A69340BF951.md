@@ -4,7 +4,7 @@ title: uninstall.exe |
 
 # uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\NVDA\uninstall.exe`
+* File Path: `C:\program files (x86)\NVDA\uninstall.exe`
 
 ## Hashes
 
@@ -21,6 +21,17 @@ SSDEEP | `1536:VRPYqa5pic6jXFdL2KiMcWIUgdLeAyNlsSKHwmXeIMUulLdUbMkt6niM8/kO+WgW:
 
 ### Child Processes:
 Au_.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\NVDA\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -44,8 +55,8 @@ Au_.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\ImgBurn\uninstall.exe](uninstall.exe-EFF839D29DBB06677A85117D036E29C6.md) | 46
-[C:\Program Files\Krita (x64)\uninstall.exe](uninstall.exe-FE1DDED8B32BBB6B54EB03FD563BD24A.md) | 29
+[C:\program files (x86)\ImgBurn\uninstall.exe](uninstall.exe-EFF839D29DBB06677A85117D036E29C6.md) | 46
+[C:\program files\Krita (x64)\uninstall.exe](uninstall.exe-FE1DDED8B32BBB6B54EB03FD563BD24A.md) | 29
 
 ## Possible Misuse
 

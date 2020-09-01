@@ -4,7 +4,7 @@ title: jabswitch.exe | OpenJDK Platform binary
 
 # jabswitch.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe`
 * Description: OpenJDK Platform binary
 * Comments: Java Access Bridge
 
@@ -47,6 +47,16 @@ Note:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -69,8 +79,8 @@ Note:
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe](jabswitch.exe-7CA1D8DC77673F04F638D21BA5477C05.md) | 94
-[C:\Program Files\Amazon Corretto\jre8\bin\jabswitch.exe](jabswitch.exe-C40ED818AB83E7E51F95F3B491870F2C.md) | 91
+[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe](jabswitch.exe-7CA1D8DC77673F04F638D21BA5477C05.md) | 94
+[C:\program files\Amazon Corretto\jre8\bin\jabswitch.exe](jabswitch.exe-C40ED818AB83E7E51F95F3B491870F2C.md) | 91
 
 
 

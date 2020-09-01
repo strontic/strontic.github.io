@@ -18,6 +18,16 @@ SHA384 | `50E0CBD9E051411E6018E21D6693AD175E5D5AE9D1DE1B53E95CC2EA649865003C31F8
 SHA512 | `0DC4B44A2628682ACE2304AAA2C9B194F629577C8B1D52E50C949C54964DF1B4690F40C997755093151F6385CA7CD303162224817E54499339EADE75DF66325A`
 SSDEEP | `384:7pvqNhe0BXvZGFKtZGN2KhBKWgYZjHWy:YoKw22BBZj/`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wowreg32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wowreg32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

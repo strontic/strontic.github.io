@@ -4,7 +4,7 @@ title: AtBroker.exe | Windows Assistive Technology Manager
 
 # AtBroker.exe 
 
-* File Path: `C:\windows\SysWOW64\AtBroker.exe`
+* File Path: `C:\Windows\SysWOW64\AtBroker.exe`
 * Description: Windows Assistive Technology Manager
 
 ## Hashes
@@ -20,8 +20,13 @@ SSDEEP | `768:3T+Kjgbmte3DLwhxr5Fo2cMfUuc0xpkh9hwTPGV5X62UbtGeKJaD+RIu62EMKaHs:3
 
 ## Runtime Data
 
-### Child Processes:
-wordpad.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\AtBroker.exe |
+
 
 ## Signature
 

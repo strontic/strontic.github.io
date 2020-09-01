@@ -4,7 +4,7 @@ title: hdwwiz.exe | Add Hardware Wizard
 
 # hdwwiz.exe 
 
-* File Path: `C:\windows\SysWOW64\hdwwiz.exe`
+* File Path: `C:\Windows\SysWOW64\hdwwiz.exe`
 * Description: Add Hardware Wizard
 
 ## Screenshot
@@ -21,6 +21,45 @@ SHA256 | `79CCCF88DD152C2AB8BE92BC8B835CDA56728D381BE3617042620B0A5CD9308B`
 SHA384 | `24A647E19588E14196127CEFA37C842EECD7A6FA44DF5C8D68EBC80691D963EB95B9F37B4C144C4ED2E183C40F846739`
 SHA512 | `50C341D3B5E382B96E6023E75BF457D8A367A5F3AEEF1BDA91F19C48EFEFDEE2A3ADE77AD8BC474CC764C32DBADAC0436218D605623DB312F007EF3D05EFE22D`
 SSDEEP | `768:5f9l5eg2CdmmZy4G0In3BhzhWM1GOVz17Lu:V9begXZ4Z3qOTH`
+
+## Runtime Data
+
+### Window Title:
+Add Hardware
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\devmgr.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\hdwwiz.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\hdwwiz.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\newdev.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\setupapi.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\shell32.dll | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\hdwwiz.exe |
+
 
 ## Signature
 

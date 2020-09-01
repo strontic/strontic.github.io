@@ -18,6 +18,14 @@ SHA384 | `5C05573CFAAAEFB91386D39202207308569475E6BE293B30A5DAF6F793834DF7474CBF
 SHA512 | `4524C89FC3CEB9854888D8767A6D1A53935856068EF3FFC3CEEC416823A575878B2F5E397FF82D8A200D7FAB7695CF5354CADE8B2F8336081BE9D5582C57F9BD`
 SSDEEP | `768:xO9MbwAtFq+ogaRQpv1ojVbPJGJBMCat2Jp0sBflQuWnnnPreUVnbO6wGNj4:tbLogYkv16PJGACLJp0sB9Qumre2q6Q`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wsqmcons.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -41,6 +49,7 @@ SSDEEP | `768:xO9MbwAtFq+ogaRQpv1ojVbPJGJBMCat2Jp0sBflQuWnnnPreUVnbO6wGNj4:tbLog
 File | Score
 -- | --
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-0EB7F4F9C9F36AB73476E1445742E294.md) | 30
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-207A52DB4D9CB6A252722D51E54AB01D.md) | 32
 [C:\WINDOWS\system32\wsqmcons.exe](wsqmcons.exe-3198C8F020BC60931404167EEC51E2BF.md) | 36
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-3B04F0282E333C98974BB8A39360DD24.md) | 33
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-5A06B640015F7BBB113AF7FF7E29A3BB.md) | 32

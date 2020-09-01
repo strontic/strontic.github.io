@@ -4,7 +4,7 @@ title: cttune.exe | ClearType Tuner
 
 # cttune.exe 
 
-* File Path: `C:\windows\SysWOW64\cttune.exe`
+* File Path: `C:\Windows\SysWOW64\cttune.exe`
 * Description: ClearType Tuner
 
 ## Screenshot
@@ -21,6 +21,38 @@ SHA256 | `4527102D9B5AA52AD008C99E5740FBE4307B19C1BCEB1C6FD8606BC23AEF344A`
 SHA384 | `753F731B7BCDA2C79F263EBF24271F6D9C1B9CC77DF88E562A01E009A75F29E44C1A3A37C251DB1964949CC2F84C7DF4`
 SHA512 | `27020F4A2C4854A2B6FFDD8E1EDAC24726BEE85F83AA8E83BAE6628D0141BCC70917FB61EA2E9F238B3D898270AAC9CE285A3662A830B51EF3032A98AE2D18CC`
 SSDEEP | `3072:Qly6KLXlMlvctAyvJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUMZ8:mZKLVMlvctAyvoxEvTEPp/Fu`
+
+## Runtime Data
+
+### Window Title:
+ClearType Text Tuner
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\cttune.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC17E0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

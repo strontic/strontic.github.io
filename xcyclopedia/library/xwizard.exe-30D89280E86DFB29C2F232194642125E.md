@@ -18,6 +18,33 @@ SHA384 | `3C4AAD4D57720840FE01BE440538B988772137CB20CEAD4B9B1B9171F1B26CDC215E00
 SHA512 | `EE64AFF2EEF4B42FF1D8BD49E820D38265BCAACF400DABCF3C9E4682FBF7E2E0861616EB10A1DA8EBE637C0C8A4E335593201DCD84B5BF747EC90CF3709CDA6F`
 SSDEEP | `1536:aQqwlcECPKwnjoF3bVnLVn3g3iBzndURDoq4OZZZLlCIib:aQqrHP9jib3TBznSRD68wb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\system32\TextShaping.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\xwizard.exe |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\comctl32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

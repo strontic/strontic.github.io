@@ -27,6 +27,28 @@ SSDEEP | `6144:QYUid24ojDuUlMtq10Q8m7NNqM9N+hN1UFpfNS5iXjD56Gpovgp2H32nq5494FZs:
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\edgeIso.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MicrosoftEdgeSH.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\System32\WINTRUST.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

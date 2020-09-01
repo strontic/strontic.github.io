@@ -18,6 +18,17 @@ SHA384 | `32175DA33C16BEF10CDE89C364539BB39DBCF23314A7488916D38C69FD56F348F514E2
 SHA512 | `AEC2D69AF3938AE46551CCBEFC5C72252ADDC49DE1F56D9ECCE505B886BE6478478603BA2E5905DA74FE311D9EFB4DA4EC67B4AFC5EBBBC19898ADD293436BC5`
 SSDEEP | `384:PIcZxe7HHZu9Ws9GczaAn8ZNjWWWRC6WzZD1IDBRJJssl9ntYT:PbXuu9Ws9Gcza08ZNlWRCXI1PPg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\IrfanView\Plugins\Slideshow.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,7 +51,7 @@ SSDEEP | `384:PIcZxe7HHZu9Ws9GczaAn8ZNjWWWRC6WzZD1IDBRJJssl9ntYT:PbXuu9Ws9Gcza08
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 30
+[C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 30
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 30
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 27
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 27

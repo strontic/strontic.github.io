@@ -4,7 +4,7 @@ title: NETSTAT.EXE | TCP/IP Netstat Command
 
 # NETSTAT.EXE 
 
-* File Path: `C:\windows\SysWOW64\NETSTAT.EXE`
+* File Path: `C:\Windows\SysWOW64\NETSTAT.EXE`
 * Description: TCP/IP Netstat Command
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `ACA66F4BC15E1B8EDE8F05F59DFAFB15FA47D9E89EA1D4CF59264BA3D483F47C`
 SHA384 | `0534EDE1327E1C16BA05A1372150EB7E2E865D6859D20434A10C570DA76F9C22788B33CF973EB061E121DE8D888F5131`
 SHA512 | `9DCFC6BE4CB9CDE4B240222F3C20366CC8EDCD17558E3AA6F2F84DC4CE2164BFD3CFDC089810B9E95AA41F35FA38D5916615961ACED61D7BE534B1F357D33B4A`
 SSDEEP | `384:cS5vXEHf5q3+JwWH2ePKC/Rvnt3uD8r2slOUdAHqiY0tkCJh4gDi9t1WlQWup2:cS5v0xGLyfwIVQr/Y06uif8`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -65,11 +67,22 @@ NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\NETSTAT.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

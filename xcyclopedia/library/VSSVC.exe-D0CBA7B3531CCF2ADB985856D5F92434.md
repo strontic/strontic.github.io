@@ -18,6 +18,23 @@ SHA384 | `05B2F2517956DF409151CE34B151A8BA41B922038A7622B6F90C442EB8E84FA22970D6
 SHA512 | `734DEF48F2D45781C3F226053FC365D114E8EE66EEC1A00FAA89B9F02CFB6B6252DF11EA79790AA392B208BC960189CFD7A7E0B71478203C6D0C479CB9417DCF`
 SSDEEP | `24576:z1dgSii86um7SXMjN2iooZyCDm6rdiCk65Z:z1dgVi86um7S8gvl6rd/Z`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\VSSVC.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\VSSVC.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

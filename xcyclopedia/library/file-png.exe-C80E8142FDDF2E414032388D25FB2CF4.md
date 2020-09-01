@@ -4,7 +4,7 @@ title: file-png.exe | GNU Image Manipulation Program Plug-In
 
 # file-png.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-png\file-png.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-png\file-png.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `07854E076EBFE3C8CB74542FED2640BE4F5A10E4E85445E706FB8849A357E7D3`
 SHA384 | `09A465B8C991F5BCEE062B885D90BE0D5EEDB8E2F8328715EF1FE92D21C9BCBE585506F5C92AAF07860798C291B577A6`
 SHA512 | `21BDD1773AE0FDDC867ADAF58D72575B8444A2CD5FDB8066E43CB23D924CBF22AE057717CA9083ABC2D347AB3174F00FD73B5C077E6A618ADD4AA194C3F5C0F2`
 SSDEEP | `3072:jjT31xGKtJl1S1IHfgu1cLVGasKvgZvVeGBQUFQsCfmozOg:jjxFgVGDKYtF2UFQshb`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-png\file-png.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

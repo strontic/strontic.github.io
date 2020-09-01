@@ -104,6 +104,14 @@ dsrm failed:Value for 'Target object for this command' has incorrect format.
 type dsrm /? for help.
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dsrm.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

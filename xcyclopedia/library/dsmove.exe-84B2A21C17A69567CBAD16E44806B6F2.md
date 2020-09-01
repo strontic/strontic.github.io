@@ -113,6 +113,14 @@ dsmove failed:Value for 'Target object for this command' has incorrect format.
 type dsmove /? for help.
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\dsmove.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

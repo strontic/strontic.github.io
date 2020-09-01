@@ -4,7 +4,7 @@ title: clhsdb.exe | OpenJDK Platform binary
 
 # clhsdb.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\clhsdb.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\clhsdb.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -55,6 +55,38 @@ sun.jvm.hotspot.debugger.DebuggerException: Windbg Error: OpenDumpFile failed!
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\9480 | File
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\jfxrt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jfr.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\rt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\sa-jdi.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\tools.jar | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_9480 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\clhsdb.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -77,7 +109,7 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jimage.exe](jimage.exe-52585947B2B10A2C41E370B60D85A837.md) | 44
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jimage.exe](jimage.exe-52585947B2B10A2C41E370B60D85A837.md) | 44
 
 
 

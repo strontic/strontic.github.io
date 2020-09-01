@@ -34,6 +34,19 @@ Unrecognized switch "-help"
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.dll |
+C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

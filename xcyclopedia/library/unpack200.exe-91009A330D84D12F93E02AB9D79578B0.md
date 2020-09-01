@@ -4,7 +4,7 @@ title: unpack200.exe | OpenJDK Platform binary
 
 # unpack200.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `3072:RDiJGjue2OcPmRtzG+22aXcIsXSbsSsrxmqTBfKSyKm7IwB42lFs:RDiptO1RBG+X
 
 ### Usage (stdout):
 ```Batchfile
-Usage:  C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
+Usage:  C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options
   -H{h}, --deflate-hint={h}     override transmitted deflate hint: true, false, or keep (default)
@@ -35,6 +35,16 @@ Unpacking Options
   -J{X}                         Java VM argument (ignored)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -58,8 +68,8 @@ Unpacking Options
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\unpack200.exe](unpack200.exe-27825E96E1F103B3C987B2F3EE004C72.md) | 97
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe](unpack200.exe-36E96354D7150B62C3ABE7DB1F2CC19B.md) | 97
+[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\unpack200.exe](unpack200.exe-27825E96E1F103B3C987B2F3EE004C72.md) | 97
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe](unpack200.exe-36E96354D7150B62C3ABE7DB1F2CC19B.md) | 97
 
 
 

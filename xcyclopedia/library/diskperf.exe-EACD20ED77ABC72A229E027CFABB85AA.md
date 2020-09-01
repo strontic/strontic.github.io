@@ -63,6 +63,16 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\diskperf.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,22 @@ SHA384 | `5E705588D5B4EE1713A9E9595AE51A64D2CE68AC63BA57508551008071860E77FFB594
 SHA512 | `05CCB5C2B74E82C5623AC4D059BF2E28FD75F456B2814423A39524D5C87D5A39977CA47E9A6468909B564A2FF49FC79481E9734BBAE2F830DD620579B11EC079`
 SSDEEP | `1536:oC9MEZu7BzeMV3n79v5rE6sDtnr/euSxZceFt0PsUyTbJ/LF:BwzWpn7QceFt0Pszp/x`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\NetCfgNotifyObjectHost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

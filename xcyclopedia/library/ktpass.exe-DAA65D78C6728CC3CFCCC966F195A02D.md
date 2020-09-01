@@ -4,7 +4,7 @@ title: ktpass.exe | Kerberos keytab tool
 
 # ktpass.exe 
 
-* File Path: `C:\windows\SysWOW64\ktpass.exe`
+* File Path: `C:\Windows\SysWOW64\ktpass.exe`
 * Description: Kerberos keytab tool
 
 ## Hashes
@@ -18,8 +18,11 @@ SHA384 | `5D93B853E7586D72831859D96CBE69F8A5FC617BB592AE3DA1F2186782C50B261A12DF
 SHA512 | `FC1AD93270F72E36FD06E6811E8335AD06EB4ED85C0BCA64232540A9DF3409C61B514936843C6D06513A176F6E1759D601DCA17747BF3644D7A732F2E38BD7D9`
 SSDEEP | `1536:gRYcEn5C+md8bsCBjaQCQ1zITn9Gu/DD4:zvCHi1f0T9Gu/`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
+unknown option '--help'.
 Command line options:
 
 ---------------------most useful args
@@ -65,6 +68,17 @@ Command line options:
 [- +]      SetPass : Set the user's password if supplied.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ktpass.exe |
+
 
 ## Signature
 

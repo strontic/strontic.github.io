@@ -18,6 +18,14 @@ SHA384 | `5D511B7E48DC378A7F4EDD3D06751A55603B2677047888B02811868754EC35E817CAF4
 SHA512 | `17E24BDAAE4425A8D9DA209A767757CB364107833F7AE537A1721ACCB700AB965A8865A92C0DD6BA753B3FA3CA6112AB684A8ADCE8F5E7D2374F2DFABC4DDDF0`
 SSDEEP | `192:y3Q+ifW9wPRuQMepJynlJn2qwecGjeKV/QSSGR8zSvoW0zWDr:y3Q+ifWdyAHDjePGWGoW0zWDr`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\dsmove.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\DsmUserTask.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

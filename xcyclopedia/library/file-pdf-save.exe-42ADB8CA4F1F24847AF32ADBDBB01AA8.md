@@ -4,7 +4,7 @@ title: file-pdf-save.exe | GNU Image Manipulation Program Plug-In
 
 # file-pdf-save.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pdf-save\file-pdf-save.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-pdf-save\file-pdf-save.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `32E54D981B8764645E49850FEC40C750BF9A48CAC0A2AD4CD0894D1CFBD0AC8B`
 SHA384 | `E7585B4DD1766291E40665D014265C837FBA287ED903152CED6BC9277601974CBB877555D110407601ED5E9114B98BE5`
 SHA512 | `FE27B4A6C203983B05DB94AEAB7BBB1272EB9A8313965A9178E68E90FF50AB6F4E4EADA43E577068FFE9CC248C5A0506B0820AD01F79096C2A53E2D4D0778311`
 SSDEEP | `1536:LGLGtdRJsNP6xVILIGU9D27Tu2iiwMaipiPWVaiYWXiYl:LaGnEP600GU9DhLiJfmyigf`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-pdf-save\file-pdf-save.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +62,7 @@ SSDEEP | `1536:LGLGtdRJsNP6xVILIGU9D27Tu2iiwMaipiPWVaiYWXiYl:LaGnEP600GU9DhLiJfm
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\warp\warp.exe](warp.exe-A1BE55E324F1315B7554A864262B6FDC.md) | 38
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\warp\warp.exe](warp.exe-A1BE55E324F1315B7554A864262B6FDC.md) | 38
 
 
 

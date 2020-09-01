@@ -17,6 +17,30 @@ SHA384 | `59AC0C7A4F32AE5C1EE16B6DE21A8043D397486CC0DFD341692563436DD440BEC40333
 SHA512 | `0002AC854E72866F10B4779C3F12CCA97554654463341E05632198C31F98833E176D12D11E665AC2684E32BAEC8B08EAD04FD05345D60D73839BDAF0ED311810`
 SSDEEP | `768:P3a3ZvbIV9503ncUOf6VxDpl038yk5Akzaqd:P3aJDIL5GcUTt+omUH`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\deploymentcsphelper.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\WDSCORE.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

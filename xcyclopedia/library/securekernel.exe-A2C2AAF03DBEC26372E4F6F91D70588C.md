@@ -18,6 +18,13 @@ SHA384 | `6B0ADB3E0F369A0098FC959B851593897C9DC41D1C6DF1BAA407680F80485E258E92DE
 SHA512 | `ACAD8C6A4B7F3E3D8329BE4942B3625E4B75C1B5BB2B44EA1EE77FF55EB493600FE0275349C7A5FBFAF60BC42039D5B3DCAE135D2D5719F2CD640398959B2F5C`
 SSDEEP | `12288:TikjUY2Hk9Cy3ozvDCyWDTvXfKh/PhOq7XGmjbumTtGvZr0JwKJpcBPttttGNi3z:OhY2E9Cy3ozvDCyWDTvXwxOq7XGmumzA`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +43,11 @@ SSDEEP | `12288:TikjUY2Hk9Cy3ozvDCyWDTvXfKh/PhOq7XGmjbumTtGvZr0JwKJpcBPttttGNi3z
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\securekernel.exe](securekernel.exe-8E79EEDC937DE6366836046A1EDEE97D.md) | 97
 
 
 

@@ -18,6 +18,17 @@ SHA384 | `A96CA182EB230A91B43E2AE676B653CA4D83E6F42E2C437AE7A07B60C4554D2F164472
 SHA512 | `1F4738202CD3FE0EA012B77F92EF5F09B912E4EC81A81E5B287F9656AB13665C3531A6EF786383D95035B078C47117AB76162BBB08B76455A480A899433E7C5E`
 SSDEEP | `3072:iSDoWihW1jDOPsVVVVVVVVVVVjFODKyVQ:JDoZqjDOPsVVVVVVVVVVVjrN`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\filesplitter.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `3072:iSDoWihW1jDOPsVVVVVVVVVVVjFODKyVQ:JDoZqjDOPsVVVVVVVVVVVjrN`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\filesplitter.exe](filesplitter.exe-30B1F356D8BBFAAF4498CFC06E78145E.md) | 90
 
 
 

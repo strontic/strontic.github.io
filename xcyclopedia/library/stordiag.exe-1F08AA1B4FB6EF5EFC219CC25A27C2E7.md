@@ -4,7 +4,7 @@ title: stordiag.exe |
 
 # stordiag.exe 
 
-* File Path: `C:\windows\SysWOW64\stordiag.exe`
+* File Path: `C:\Windows\SysWOW64\stordiag.exe`
 * Description:  
 
 ## Hashes
@@ -40,6 +40,29 @@ StorDiag [-collectEtw] [-out <PATH>]
 
 ### Child Processes:
 conhost.exe systeminfo.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\Administrator\AppData\Local\Temp\2\StorDiag\PSLogs.txt | File
+(RW-)   C:\Users\Administrator\Documents | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_5004 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\stordiag.exe |
+
 
 ## Signature
 

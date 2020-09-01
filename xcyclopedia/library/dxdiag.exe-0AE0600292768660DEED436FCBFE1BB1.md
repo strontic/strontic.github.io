@@ -22,6 +22,24 @@ SHA384 | `95D6D96842A6B3EF1E5D78F6FC5F61424DF55D9FFFCFC47C783CE0460DA6BAD5F86FAC
 SHA512 | `7E7C2E71B8F5374DDFB8FD0C8C80183BFDFE12B0287BA33ED09706DC3FE5CA6A8283F0D521B76591497E9E710E8442ACFAEED77DD66FB77789575EDB0C4ECD15`
 SSDEEP | `3072:x6bidZHYPY8afJHV2Yxp7WJ3mQWHRKoT+Tu4Sna7UrgW38JI4WZcdbJL9brhFPVQ:Yo6PtafJ//7WJ3Ev+KSUrIq4MWhNPcx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DWWIN.EXE |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\system32\wer.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dxdiag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

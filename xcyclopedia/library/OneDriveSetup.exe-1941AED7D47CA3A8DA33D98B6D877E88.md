@@ -23,6 +23,17 @@ SSDEEP | `786432:9i5ecJ5QH6G5hH/g4vx9w5rTc/it1G80kvKv9NwzdvSgHWW:9itJG9PHY4vHw5G
 ### Child Processes:
 OneDriveSetup.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\OneDriveSetup.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

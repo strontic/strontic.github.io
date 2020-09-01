@@ -4,7 +4,7 @@ title: fsavailux.exe | Microsoft\fsavailux
 
 # fsavailux.exe 
 
-* File Path: `C:\windows\system32\fsavailux.exe`
+* File Path: `C:\Windows\system32\fsavailux.exe`
 * Description: Microsoft\fsavailux
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `4BCD912B99B7DDFC456CC45AAFE81D8F14598D02816851F9AF195E875607B797`
 SHA384 | `7832A9A45B7919AA2E8FE0209805727FE0F3EB605DF7E3B1EECE4682F5A733F134BD987AEA808D0F6379A88350C93F18`
 SHA512 | `A7506B4F14A8CE7013CEBE84C786A48636713711D7BF5AF635CBA3CF92ACE260D8A8750B29D8C21480AA48F1E60AC2FD0DA499A8CABFE4B276F29067D3B0CC76`
 SSDEEP | `384:PqWqnu8F25jWIg+Hi1pPIUekSDCufb9NNDbhWgxWW:PqRu5SqHKwUwC6nfB`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fsavailux.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

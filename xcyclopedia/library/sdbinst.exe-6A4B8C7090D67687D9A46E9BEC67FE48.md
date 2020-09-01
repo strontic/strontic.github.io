@@ -4,7 +4,7 @@ title: sdbinst.exe | Application Compatibility Database Installer
 
 # sdbinst.exe 
 
-* File Path: `C:\windows\system32\sdbinst.exe`
+* File Path: `C:\Windows\system32\sdbinst.exe`
 * Description: Application Compatibility Database Installer
 
 ## Hashes
@@ -22,8 +22,8 @@ SSDEEP | `384:s/y/Z0MK6L81zXovOym1a5gOFxYIzr/GdsEri/EXD4pLCIy2BcmQ7WngW:2y/ZhgYf
 
 ### Usage (stdout):
 ```Batchfile
-Error: Invalid switch -help.
-Usage: C:\windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
+Error: Invalid switch --help.
+Usage: C:\Windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
 
     -? - print this help text.
     -p - Allow SDBs containing patches.
@@ -34,14 +34,19 @@ Usage: C:\windows\system32\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
 
 ```
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sdbinst.exe |
+
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

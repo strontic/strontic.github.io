@@ -22,6 +22,19 @@ SHA384 | `6F68E97B2FF239832D04A7D9B03B1ABE47E39A3CE664ED8B7D6FA87D9C80A871223B90
 SHA512 | `585225919D16DBFF50E7FE6EE4AB26301184A5D0DD9CC6AF7330639654813AE69AC68AEE4214760BB5649E15DC0271B7965C258E72A0EF58AA2426FA98603472`
 SSDEEP | `3072:ogsI3cRyfNJjWRkOtHxtt3EOL2QvIsitSYVF:NsY9DWRRZzqGY`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fontdrvhost.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

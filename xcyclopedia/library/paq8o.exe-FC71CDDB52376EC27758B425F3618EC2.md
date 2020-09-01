@@ -4,7 +4,7 @@ title: paq8o.exe |
 
 # paq8o.exe 
 
-* File Path: `C:\Program Files\PeaZip\res\paq\paq8o.exe`
+* File Path: `C:\program files\PeaZip\res\paq\paq8o.exe`
 
 ## Hashes
 
@@ -22,9 +22,30 @@ SSDEEP | `1536:C8HupDmoYCN+HY4I5MKO0/V+rN6VNSD3Z04fLV:CIup5TN+HYEUdJYzG0`
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PeaZip\res\paq\paq8o.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\PeaZip\res\paq\paq8o.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\PeaZip\res\paq\paq8o.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

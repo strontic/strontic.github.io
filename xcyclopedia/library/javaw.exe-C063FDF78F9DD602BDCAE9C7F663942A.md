@@ -4,7 +4,7 @@ title: javaw.exe | OpenJDK Platform binary
 
 # javaw.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\javaw.exe`
+* File Path: `C:\program files\Amazon Corretto\jre8\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -21,6 +21,8 @@ SHA256 | `561CD48E13BEA3945EAF809EC378D35C6EA24B84E0E527050F40F3A285D5EF04`
 SHA384 | `02C32731F42B395BA13FDEB06788C3A396C2A5DF0B80D09CF4ABF9F0EDB0926BF0686694059087ED22973192883C2397`
 SHA512 | `D2AB1302A9D6874D8A26F57680D01A0B1FEE72FE7019A4CCE9532E7C9BBFCA7F4E50DDAE2DE60D1EAB602580E1BCC729B39D26E22A6733FCCE418127FBD25F19`
 SSDEEP | `3072:ovlwQRPjjSVp8fdK1hGThdIu4w8x2/dm3FmcX0TBf7Fx6fXQ57k/IXuz:gwQjOSfIGTh54x2/dm3cw0TBCY57k/tz`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -77,6 +79,42 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Window Title:
+Java Virtual Machine Launcher
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jre8\bin\javaw.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -99,8 +137,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe](javaw.exe-90F24A09E4D9808A419F8266C2B186CB.md) | 97
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe](javaw.exe-073F4DD68AA4225BEBBA9D0CA005965B.md) | 97
+[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe](javaw.exe-90F24A09E4D9808A419F8266C2B186CB.md) | 97
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe](javaw.exe-073F4DD68AA4225BEBBA9D0CA005965B.md) | 97
 
 ## Possible Misuse
 

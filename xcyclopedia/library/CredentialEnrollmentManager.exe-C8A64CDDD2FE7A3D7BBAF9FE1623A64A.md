@@ -18,6 +18,21 @@ SHA384 | `5BB3E37698591E5430A1C4A81458C45DE7C6369ED170CB680ACED8E4EF9B20DBD5245E
 SHA512 | `EE5C8328A48F89E4383FC9009679059C2120F17493323B3374B4F1E57F4F0759B54AB29235736E5C65DDF43889EAFC933D9C91A6AAA6D91BE5E176086EE74915`
 SSDEEP | `6144:AWj7vNrA+SlceAQQKL7MwALywkpn/XVdcY9ShQrHSMiPz:XFrA+/LKL5ALywa9db8exk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\CredentialEnrollmentManager.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

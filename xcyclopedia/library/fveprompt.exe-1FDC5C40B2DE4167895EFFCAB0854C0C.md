@@ -18,6 +18,21 @@ SHA384 | `81E0DC75CA7E397712F1EF807A775A43A60D3AB4B18E90DEAE46D9B21CEC3F25723B35
 SHA512 | `B871F2D8E2C2E2F614D0EFE6E31445140CD2783DDAFEC4C8A859C2B0EC2F9BF77C00A34AA1727BD393DC9F7580B59BBB3B894356370A4200B8D3B8537F44EAD7`
 SSDEEP | `3072:mCV4NknUZFc/R/e91WOyvkfQbwnVS570M9kdatGCO+xmBc+hMPhPsx:zFIFm/6MYPVs7nyatGt+SYF`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\fveprompt.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,14 @@ SHA384 | `401DC9DD95977FD5B3E0DC6D777B5CD321B95083FD11D4D5459A2B21302BD86D8B46A2
 SHA512 | `160CBB0E2097A74A8E357D298C147680D62DEF363C979821934C500CA8763EF3D6C08C17D2614525F36CF131C836CC4E3BEC0C45C177D1F09ABD30C27B74D2EE`
 SSDEEP | `1536:FL69M+82hOg+cZr0mbgHmPYltyaaByX5p4CCOhNlGFBed54GIE/P:49M+82hOg+cZrpg+Yl75p4VOhNcEgpEH`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\rrinstaller.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\rsopprov.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

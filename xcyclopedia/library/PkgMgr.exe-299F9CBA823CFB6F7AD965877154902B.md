@@ -4,7 +4,7 @@ title: PkgMgr.exe | Windows Package Manager
 
 # PkgMgr.exe 
 
-* File Path: `C:\windows\SysWOW64\PkgMgr.exe`
+* File Path: `C:\Windows\SysWOW64\PkgMgr.exe`
 * Description: Windows Package Manager
 
 ## Screenshot
@@ -22,6 +22,33 @@ SHA256 | `A1F495FB35CC72823BF0C556C59C0A1E7589F7109A3B287ABAA5F803C652009E`
 SHA384 | `A5C549CE421FE3003D54AB16043566FBE290EB57D2A3608B2935C6C37B50B6453B6E400677DFB81DF70576415446E0E8`
 SHA512 | `5B36639EC28DC09D875BE5E837551B246F067F920FBA520F6BDCF064A33F1FC00A7260474483570D78BEA53CDD2F94E46D8EEBEEB68558D8710A983BA6A73C7C`
 SSDEEP | `3072:m/r5ENnKKphw6s4RTQcWl4xEGS2PQo9tW+R/MYg+S:er58nRccMUEGS2PbxR/T`
+
+## Runtime Data
+
+### Window Title:
+Windows Package Manager
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\PkgMgr.exe |
+
 
 ## Signature
 

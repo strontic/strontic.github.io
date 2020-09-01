@@ -22,6 +22,23 @@ SHA384 | `459039476F78ACB4A1FC92CA452A4938A55997FED3E6E6222E6DB96F32B920D879E06B
 SHA512 | `C018A830D00B98A8DD24FA83A57DF9D3ED203B2B86F63F932C75456A2847A075873A17B47415735A359B2176C857C39E55DD4043800A3BE98D70880CBE67C412`
 SSDEEP | `6144:bZjpxsulHHEVHHHVkHHETyT2TaTT2T0xTTuXTT0TUTtTCTNTGTFTnT2T6T0TQaHR:FJH+S+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bdechangepin.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\bdechangepin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: mshta.exe | Microsoft (R) HTML Application host
 
 # mshta.exe 
 
-* File Path: `C:\windows\system32\mshta.exe`
+* File Path: `C:\Windows\system32\mshta.exe`
 * Description: Microsoft (R) HTML Application host
 
 ## Hashes
@@ -17,6 +17,23 @@ SHA256 | `E616C5CE71886652C13E2E1FA45A653B44D492B054F16B15A38418B8507F57C7`
 SHA384 | `0E55ADA950494D9A7F6E0425BC2A7B8D9586F3B356F5D1E70427266EB58CFAC06B80FFF0B6ADBE803B46A9E5C9B450E6`
 SHA512 | `EE6EB657562C746737E89ADB7C6E0D142FDDE8CADA1725EDF15BC82DF623A9AB547BDAB5830B811CE87D5F0F6FEED87B3194BC80544780F9914FDF96571023DE`
 SSDEEP | `192:ZA27mrbZUIhKPxwya+TW0/z5S7X6Bz3vEXPXWwG/IR:T7wFXh6mD+TW0kXSvEXfWwG`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mshta.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 

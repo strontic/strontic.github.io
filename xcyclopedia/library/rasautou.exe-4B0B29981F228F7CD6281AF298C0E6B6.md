@@ -4,7 +4,7 @@ title: rasautou.exe | Remote Access Dialer
 
 # rasautou.exe 
 
-* File Path: `C:\windows\SysWOW64\rasautou.exe`
+* File Path: `C:\Windows\SysWOW64\rasautou.exe`
 * Description: Remote Access Dialer
 
 ## Hashes
@@ -26,8 +26,16 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 
 ```
 
-### Child Processes:
-rundll32.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\rasautou.exe |
+
 
 ## Signature
 

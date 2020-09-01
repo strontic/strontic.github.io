@@ -18,6 +18,8 @@ SHA384 | `A5638F3FF10EBAF17244BE6CD882AC420CCD898296D682AF4F38B77CFD9B09BB94CF8C
 SHA512 | `32CEDA70E9257BE9BFB1AA42810951691DA9A6927D8FD75B31414FA8CA1FADB28ED02F897EBE4D7EC6AF9E2BF05C39E5094C42515B60D8FA9584427524AC00A4`
 SSDEEP | `768:a26UJ2jK/o47bxidpPfZbSvKz5XVvvSvIPRmFx6U2eFDw0LOhJVoUw:Uu7XoPsvyZQ4U2elRGJVjw`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Command line options:
@@ -65,6 +67,16 @@ Command line options:
 [- +]      SetPass : Set the user's password if supplied.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\ktmutil.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

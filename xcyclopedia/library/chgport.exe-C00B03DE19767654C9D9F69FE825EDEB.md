@@ -18,6 +18,8 @@ SHA384 | `BF1819DA432B9B75FA3C59EFD0A475F87182761CF396EA48AC2C5CD3A67E66C3B4A6E9
 SHA512 | `F64EAB534B02DDCCB8A6929ED5AE14630609FEB262D425BE72F9C1EDD05E26041FF9C02D2F5E92E3676111AEC9AFDD55F91BD86A607DC22D5D542E3534DCA716`
 SSDEEP | `768:Yh6BjS7hWc2xg4mHdutBxBxjZ8eiOuRF:YUBj2hRUnxpinF`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Invalid parameter(s)
@@ -31,6 +33,16 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chgport.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

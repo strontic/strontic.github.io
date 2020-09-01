@@ -18,6 +18,14 @@ SHA384 | `CB201EA510E28652377E9E1DCCBD024095268408DD3FB64ED17A641DA1E1BE378FE486
 SHA512 | `A335366AC705CD19A1A2D7D5948090AF4B8EB0F4F3DAC8E88EC9C61F3278CB2885ADB5AA8D81E51604DB5510FF4F0DE17F7AEF67911E95B937DE71CDE0BC8174`
 SSDEEP | `768:IzSEArWg47GLSQZoR7m7QfKP/nSBXvrxse:ARsBLSQeR7m7QfKP/SRxs`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ThumbnailExtractionHost.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ThumbnailExtractionHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,8 @@ SHA384 | `DBD33F74076CAA6CFB8D99EAC38CA27AC799E51D22046710522DA744BBB568C43F3081
 SHA512 | `A51FE2ACE818051D61BC24E361A56A33E9E32A444ED6D53293640BA4152CDDF959742EA183B1F58B90422F9F40636220CF5AE260D656915A9AC3CA06B455D909`
 SSDEEP | `384:WcVcCJo+Gt3ML6sH7h1u0nZrzhzfDXbfxjZFDRNRRnAkekFqOBhUqW50W:WvCJHOFu7h1u0Zrzd1tpRhrFqOBhUV`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 
@@ -91,6 +93,17 @@ Examples:
     > route DELETE 3ffe::/32
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\Robocopy.exe |
+
 
 ## Signature
 

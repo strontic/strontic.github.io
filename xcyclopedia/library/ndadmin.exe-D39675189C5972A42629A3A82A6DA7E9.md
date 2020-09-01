@@ -18,6 +18,14 @@ SHA384 | `D7F1F005AD7F68135D1E4A96B3A85D94FBBA5DDED65080F3206EB17091320C80DDE6B4
 SHA512 | `D11D5D2C7B6C7AE04EEDC7FA5F9BE440CF191D5DAC35DB2D686E598EC7221AFCF47CB6C5D79E546B89F1909B57AF9DC4752742700AAB32B562D1ABFCD6509CD4`
 SSDEEP | `1536:NASoTYkPr+U407Qq14uiMnAM80xCjsJQP5n+RafCuB:NY//B4Lmp9kuQZ+RsbB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ndadmin.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\ndadmin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

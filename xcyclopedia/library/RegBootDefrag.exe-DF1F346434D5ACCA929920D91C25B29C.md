@@ -18,6 +18,13 @@ SHA384 | `8F948149A0B29A4A1C89FB6FAC44C9042C7007F92D65CF5D79E2F97113B9B8B0C84975
 SHA512 | `A3E6551193677944C75220AF12E1A3B730AA0FB32D9960D706DC0B36F13A1E0E0A5EAB06043C800532597A8F5EE97EC82A7F056CC047E2114EDEE02BECF46907`
 SSDEEP | `768:i+VxNxH8kZofpP6drxyUdMeKgrOxV1DGaUf2hd:jokQUieCV/Uf6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +43,11 @@ SSDEEP | `768:i+VxNxH8kZofpP6drxyUdMeKgrOxV1DGaUf2hd:jokQUieCV/Uf6`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2014 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\Native\wxp_x64\RegBootDefrag.exe](RegBootDefrag.exe-6164C5D688112BCA1A12F2874DF59FE9.md) | 88
 
 
 

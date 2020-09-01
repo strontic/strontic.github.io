@@ -4,7 +4,7 @@ title: mmgaserver.exe | MMGA Server
 
 # mmgaserver.exe 
 
-* File Path: `C:\windows\SysWOW64\mmgaserver.exe`
+* File Path: `C:\Windows\SysWOW64\mmgaserver.exe`
 * Description: MMGA Server
 
 ## Hashes
@@ -17,6 +17,34 @@ SHA256 | `B8375160593C224F2CACDD8D3C97A5B320AC0A9EC6E75CFCB2D2FB76605F4A1F`
 SHA384 | `34E2038DDCAC9A4A19E4B16019B03A08DDE84A36520843FCE1B459F3592AAFA88F1F6CD2713C7018C62A5C0C6796EDA5`
 SHA512 | `5C9116DC3D08D6E555AD84C5F85D379885D703DB8698193A4770407074B80A9F07F72A9F71D8E35325ACAB24843A0B80AFA607DCDA5DA0BB6717327C7A3A55DE`
 SSDEEP | `12288:2nD9/Y3kJ/TcrDgjVPawkofUH66nd9Xd/iITvD71TK:2nD9/Y3G/TjFawkooBt/zTvDh`
+
+## Runtime Data
+
+### Child Processes:
+setup_wm.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECC3C | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\mmgaserver.exe |
+
 
 ## Signature
 

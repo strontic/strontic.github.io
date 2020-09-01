@@ -18,6 +18,14 @@ SHA384 | `65151587B5B0034C9FE10347CFFCDCEDB4CD40F61C77CB141C8A49AF1E24DC7BABC014
 SHA512 | `41B15F52DFD9B6B18F553CB719DBF09F2650B587CC70E5AF294E1D1498586B9B472737BF4CAAA936C6CAF96B790931E16CC86A471C1F51AAA07619CD7C0DD5EE`
 SSDEEP | `3072:hWaxiWwNc6NrSd3lx3I1+cMx07usQXhszeqe3Pni2:haFNcWrSd3lxY1+cIgesai`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\oobe\windeploy.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\oobe\windeploy.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

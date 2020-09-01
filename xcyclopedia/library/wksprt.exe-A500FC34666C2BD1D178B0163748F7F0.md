@@ -4,7 +4,7 @@ title: wksprt.exe | RemoteApp and Desktop Connection Runtime
 
 # wksprt.exe 
 
-* File Path: `C:\windows\system32\wksprt.exe`
+* File Path: `C:\Windows\system32\wksprt.exe`
 * Description: RemoteApp and Desktop Connection Runtime
 
 ## Hashes
@@ -17,6 +17,33 @@ SHA256 | `6C5E5C792FF17B6CE2987DC7CD84E9AFD0CFC9F21CBEBDD674BDA5A70DB6FCF0`
 SHA384 | `E76C4AB99E45C42A71E9471EC56A1BF392E17B3F2D0BD727D97ADDC3B9060A62B6510AF7D7E2DD3D554A4CB066ED7613`
 SHA512 | `675B7C91CFF936865719FEF50B2FD461C3E7D54A3B13FBF1E755A166796F49A5302F34F9A8CF5786D5D513EF7CEBDC8BB9CE8F8E042D07318005E0573019CF20`
 SSDEEP | `12288:LH+OHVp6H59J9HMpTuIRJ4r7GXIB7GjFMvT3lxR:LeOHD6HjUdRJ4r7GimI`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\wksprt.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC40 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wksprt.exe |
+
 
 ## Signature
 

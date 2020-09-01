@@ -4,7 +4,7 @@ title: cmdl32.exe | Microsoft Connection Manager Auto-Download
 
 # cmdl32.exe 
 
-* File Path: `C:\windows\SysWOW64\cmdl32.exe`
+* File Path: `C:\Windows\SysWOW64\cmdl32.exe`
 * Description: Microsoft Connection Manager Auto-Download
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `5F067F86AD0F88A629263162810BF5052F5EBBD97D5D0DE936311BB44C9F35E7`
 SHA384 | `1601628950C2123FF9DC5A3F59D48751F9C8D1647928E556DDB64A670D57C48385C7FB32EF6B987FE406CD72E648E092`
 SHA512 | `285ABB19138A5DD109DFC0E76F4A4F96B3731A84CA9229E6EF9315513B052FD7AD7B2E0392AC9BECBF4CAF2C9BBDBD87F5B66486FB2AE1385C1FBE6E1ED643DD`
 SSDEEP | `768:GTqHPEiucKtaMwxru9UMYriMPWBiAlZv12+6m/dJaJCO0dsZIYG8w:GT+PEJcKtaMII+e3vR6AiZI58`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cmdl32.exe |
+
 
 ## Signature
 

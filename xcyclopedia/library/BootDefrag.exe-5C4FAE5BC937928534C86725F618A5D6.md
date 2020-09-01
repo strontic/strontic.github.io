@@ -18,6 +18,16 @@ SHA384 | `909A1AD966E961AB7727A6BAF3ABC8CC7BB0E9EC60A91161C7533E0A9BD1C1B568D140
 SHA512 | `F8311022E5DC34BE3E64DB2440541EB5F193B23A1DA17AE949103AA99EA710BFE7F05444C1AC4A77575029C6BD756EAA0AF71126B5F85EC31BEC28FD15478125`
 SSDEEP | `3072:nkhM/dsRl/urMtYnLVeik0TMWlUrGTAgV/:nTdY2AZhU`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bootcfg.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -41,6 +51,8 @@ SSDEEP | `3072:nkhM/dsRl/urMtYnLVeik0TMWlUrGTAgV/:nTdY2AZhU`
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\Native\wnet_x86\BootDefrag.exe](BootDefrag.exe-8214DB939A69AEF99ADE45BF1C374437.md) | 85
+[C:\program files (x86)\Glary Utilities 5\Native\wnet_x86\BootDefrag.exe](BootDefrag.exe-EDA23D5214F33033832AC98A422C02E6.md) | 85
+[C:\program files (x86)\Glary Utilities 5\Native\wxp_x86\BootDefrag.exe](BootDefrag.exe-5183005DB3675DD0EE98F0D2AEB895FD.md) | 90
 
 
 

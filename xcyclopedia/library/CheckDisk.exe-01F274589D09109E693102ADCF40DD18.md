@@ -22,6 +22,16 @@ SHA384 | `209F69564B8C25011A3710BCCEF942B15440D5D50DC9B55F229E2BA2E583B0EA071686
 SHA512 | `724F7EEAA1C11107997CDFF711B85F0361DE7C9678AE1841C0E9F3517A0D26BC4891FEF51ED1C2D7EE886C6E8486383FE0BEBE728B7D7686EAA8593ECB87A384`
 SSDEEP | `768:S0+28DOtuzzzzzzzzzzSzzzzzzzzzz5zzzNzzzzezzIzzzz6zz/zzzzexzVzHzzZ:B+rOtuzzzzzzzzzzSzzzzzzzzzz5zzzV`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\chattr.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +50,11 @@ SSDEEP | `768:S0+28DOtuzzzzzzzzzzSzzzzzzzzzz5zzzNzzzzezzIzzzz6zz/zzzzexzVzHzzZ:B
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2014 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\CheckDisk.exe](CheckDisk.exe-92B2309732120B31FA7465A80EA36228.md) | 97
 
 
 

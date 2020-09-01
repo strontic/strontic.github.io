@@ -4,7 +4,7 @@ title: expand.exe | LZ Expansion Utility
 
 # expand.exe 
 
-* File Path: `C:\windows\system32\expand.exe`
+* File Path: `C:\Windows\system32\expand.exe`
 * Description: LZ Expansion Utility
 
 ## Hashes
@@ -44,6 +44,14 @@ EXPAND Source.cab -F:Files Destination
 		Destination must be a directory.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\expand.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

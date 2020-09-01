@@ -18,6 +18,14 @@ SHA384 | `5530A2924BFC71146C3A8B14E5B73DB4F58EA5D60304B82B16B1DB5F6E125CEB75514B
 SHA512 | `1D44FB856227DA292D2B9F286FE08345399AD78029B7372270CC5740E0B79E634531D51819A20902394D1BFF07890176B083A0BD0FA5215BB665F0A08A063E5E`
 SSDEEP | `384:/kLRr2ajp7Fmc+vEljiaph55OMWXyySKZRf0LqkcZjEWuuW/k:sL8qS8leyOM4zMLqk3`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\proquota.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\proquota.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

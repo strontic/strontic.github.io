@@ -4,7 +4,7 @@ title: QtWebEngineProcess.exe | Qt Qtwebengineprocess
 
 # QtWebEngineProcess.exe 
 
-* File Path: `C:\Program Files (x86)\Dropbox\Client\104.4.175\QtWebEngineProcess.exe`
+* File Path: `C:\program files (x86)\Dropbox\Client\104.4.175\QtWebEngineProcess.exe`
 * Description: Qt Qtwebengineprocess
 
 ## Hashes
@@ -18,12 +18,47 @@ SHA384 | `574B8870ACF957B8C1C28949D66ED88DD414FA8ED52DB5FE984525E45B07AFE738E766
 SHA512 | `2498906405B3047CE045BD29641EDA427ADF2F5A0201675051C27B31DE2D3383EEE5FA331870F6815C6DD0966B2F49329E78FAC706DB587EC5AB677588464D5A`
 SSDEEP | `6144:KfgAIvGAxhlZzF+rqu9lhVjQCPtyXrxPBOaXewYvBpKFJFn:KfgAIvTxhrzFTMhZQCU90uaByx`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-[14272:9248:0815/132623.878:ERROR:browser_main_parts_qt.cpp(125)] NOT IMPLEMENTED
-[14272:8448:0815/132624.019:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[4080:10904:0830/175003.880:ERROR:browser_main_parts_qt.cpp(125)] NOT IMPLEMENTED
+[4080:10356:0830/175004.146:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
 
 ```
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Program Files (x86)\Dropbox\Client\104.4.175\resources\icudtl.dat | File
+(RW-)   C:\Program Files (x86)\Dropbox\Client\104.4.175\resources\qtwebengine_resources.pak | File
+(RW-)   C:\Program Files (x86)\Dropbox\Client\104.4.175\resources\qtwebengine_resources_100p.pak | File
+(RW-)   C:\Program Files (x86)\Dropbox\Client\104.4.175\resources\qtwebengine_resources_200p.pak | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RWD)   C:\Windows\System32\drivers\etc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Client\104.4.175\QtWebEngineProcess.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

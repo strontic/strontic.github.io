@@ -4,7 +4,7 @@ title: plutil.exe | defaults
 
 # plutil.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Apple\Apple Application Support\plutil.exe`
+* File Path: `C:\program files (x86)\Common Files\Apple\Apple Application Support\plutil.exe`
 * Description: defaults
 
 ## Hashes
@@ -64,9 +64,20 @@ There are some additional optional arguments:
  -e extension	specify alternate extension for converted files
  -r		if writing JSON, output in human-readable form
  --		specifies that all further arguments are file names
-2020-08-15 13:23:22.191 plutil.exe[3096:3bfc] Windows edition
+2020-08-30 17:47:30.365 plutil.exe[8064:2788] Windows edition
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Apple Application Support\plutil.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -90,9 +101,9 @@ There are some additional optional arguments:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Apple\Apple Application Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 38
-[C:\Program Files (x86)\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-A7AB1130391C0261B6AEEFBDC4EAEF5E.md) | 38
-[C:\Program Files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-220A1A86EC8E4B9159C075BC8B55B998.md) | 35
+[C:\program files (x86)\Common Files\Apple\Apple Application Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 38
+[C:\program files (x86)\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-A7AB1130391C0261B6AEEFBDC4EAEF5E.md) | 38
+[C:\program files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-220A1A86EC8E4B9159C075BC8B55B998.md) | 35
 
 
 

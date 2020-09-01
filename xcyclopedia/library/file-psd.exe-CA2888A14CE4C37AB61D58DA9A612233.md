@@ -4,7 +4,7 @@ title: file-psd.exe | GNU Image Manipulation Program Plug-In
 
 # file-psd.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-psd\file-psd.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-psd\file-psd.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -20,8 +20,25 @@ SSDEEP | `3072:nc1Io3d2iW9MxWC1T8BN1YlwVtGHGtIvfm5JagN:ncj8iW9MT8BN1YCYmtIGqc`
 
 ## Runtime Data
 
-### Child Processes:
-csrss.exe winlogon.exe
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-psd\file-psd.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

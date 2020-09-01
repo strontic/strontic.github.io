@@ -44,6 +44,14 @@ IMJPUEXC GETFILTERDICT		IMJPUEXC REMOVEFILTERDICT
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\IME\IMEJP\imjpuexc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

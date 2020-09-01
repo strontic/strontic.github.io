@@ -18,6 +18,8 @@ SHA384 | `A9FF209F87D0C1D5645CB3A9A6F657C661D90E9DDC469C3A0471E4426A5FB14B02E1D2
 SHA512 | `CADC07E798B52BB0C95C5B3FEBC88C9F21EB73BF53DC7BCD7447B73D435BD5444D62609D14A7F02C65C7A4E415860E4D4B1CB3AEA0892DF0323BFA25C5B898BF`
 SSDEEP | `1536:8VRuhv3kcGhiwYMvCG/PBYSXtAC3xTkehjgph:8DuhvJGgwPPiSn+ehK`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 BFSVC Warning: Failed to determine source OS version.
@@ -25,6 +27,16 @@ BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! E
 BFSVC Error: ServicingBootFiles failed. Error = 0xc1
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\bfsvc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,22 @@ SHA384 | `44369CBE8F495BA95B8FDCD38BC9FDBF7B967DBCB38FCDEA74AB0AFCAC132DEEEFEA5C
 SHA512 | `987FCA42A0511176D44B6BF3DDF4D7669405AA3DE40573EEBC920FCCF29CB24A60371E1E6AEB58D46460A159BA65DDCAB036911BAD006E841107398C2E0731FC`
 SSDEEP | `1536:nDhJD9M8e3o0q1kWEBYq535SLWsfBbyvXl73+jql7gE5rN5DoVURpgy7uVfTxPc:m80e1kpmcgLFJa17Q8N5kVUbh7u5TxU`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

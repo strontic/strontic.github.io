@@ -4,7 +4,7 @@ title: Microsoft.Uev.SyncController.exe |
 
 # Microsoft.Uev.SyncController.exe 
 
-* File Path: `C:\windows\system32\Microsoft.Uev.SyncController.exe`
+* File Path: `C:\Windows\system32\Microsoft.Uev.SyncController.exe`
 * Description:  
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `E45DA137BA831E3FA0EA5A5B016742D1D64054702A553917CC87DD9ADD83FCFE`
 SHA384 | `5BDDD418617C900017C31857F100A3AE1B31C23FC870820E1B4302757CB4453DBDAB491E1A9057BDCB643A1C07826A1A`
 SHA512 | `0C932C06A2BBFA9E617DE21A7ABC8346CB67E4E9073D0490E0F678AB4E0C8C6EE5A3F64EEC98FB3FE770FA653B2A4FA3E5967558E3A9395698E0BFD218043709`
 SSDEEP | `1536:ChCtaUCKV/Qt1d1sTNe+6NwiKE10DHlB:RCKV/Qt1d1sTNGBl10r`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Microsoft.Uev.SyncController.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: file-gif-save.exe | GNU Image Manipulation Program Plug-In
 
 # file-gif-save.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gif-save\file-gif-save.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-gif-save\file-gif-save.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `F7C03D3D32CE6FD2A24F1210E2A5BD06FA584211774019DEAAFB0B7C95637C96`
 SHA384 | `8CFB7B94D82678A03FA3659E8C826CD44D657B0492313BEF9929A59AC62697A405321B1D5879F1301CEE193280692C06`
 SHA512 | `AF13137D5A556E19C9C30B512397469221FC6803DB58A2D4696020DE88E023A0862F428E96C654927206CC9A06AEEEDE29929DE930EECE4CD50D64A02E7397CA`
 SSDEEP | `1536:AdR2uV/z8TfhTlJhdXkrBVtGGKjs9ZuaipiPW/aiPWXint:A3/z8rZrUgGKjCZufmIVg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-gif-save\file-gif-save.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,9 +62,9 @@ SSDEEP | `1536:AdR2uV/z8TfhTlJhdXkrBVtGGKjs9ZuaipiPW/aiPWXint:A3/z8rZrUgGKjCZufm
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\color-enhance\color-enhance.exe](color-enhance.exe-03DA3D790F21006B83C5BAC917666DAF.md) | 43
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-ico\file-ico.exe](file-ico.exe-9BA606F588D200015B05318E88E44B9E.md) | 43
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe](wavelet-decompose.exe-04FF2DBC3AC674E5494C51ECAD5710A6.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\color-enhance\color-enhance.exe](color-enhance.exe-03DA3D790F21006B83C5BAC917666DAF.md) | 43
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-ico\file-ico.exe](file-ico.exe-9BA606F588D200015B05318E88E44B9E.md) | 43
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe](wavelet-decompose.exe-04FF2DBC3AC674E5494C51ECAD5710A6.md) | 44
 
 
 

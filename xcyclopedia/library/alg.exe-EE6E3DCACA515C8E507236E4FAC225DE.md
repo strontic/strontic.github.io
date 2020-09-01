@@ -18,6 +18,23 @@ SHA384 | `2F7EE41BCFB206994D325E3D9ECE905006B60DB3D5A73E11732FC733AAB6CB62F6E44B
 SHA512 | `1D7CD334F174198AA8C13FA98B0FB723F5BE9A0E9FF06AD084173857FCDEB60CC2B29056EA91BCE6A3DBB728C5F1E8DCCBB1C118329CC14C1FD5F0E06A6E3115`
 SSDEEP | `1536:OOK5IBp+EyHoMo3XhhVBmB96cuFUGwtlavc/V3TLQh7VrGH3:jKcp+EysxhVgLpuskaVDM5x`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\alg.exe |
+C:\Windows\system32\CRYPTBASE.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\MSWSOCK.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\WS2_32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

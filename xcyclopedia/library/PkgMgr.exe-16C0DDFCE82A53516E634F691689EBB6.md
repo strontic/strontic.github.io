@@ -23,6 +23,17 @@ SHA384 | `2E2F138740E9A81F5BB41CF9B2ECE2F143CFE869639D235CDC31FF99536DE29D25A9B9
 SHA512 | `9545C15569BB820DD7E55B4F2B2EAA6BB67E9E4508B4A11F063F1D6D5F13D2992AA8FEB03F23296BF185B3099095EB9A986384EF65E2BF2CD9AE06ACBF9733D6`
 SSDEEP | `3072:2E3D6AFOZaz0xulwqmeSkENXK6JRAqs4xjw8m1I1nUhu:7GAFixqwq7SkMHxM8cAUh`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Microsoft Shared\ink\pipanel.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: nbtstat.exe | TCP/IP NetBios Information
 
 # nbtstat.exe 
 
-* File Path: `C:\windows\system32\nbtstat.exe`
+* File Path: `C:\Windows\system32\nbtstat.exe`
 * Description: TCP/IP NetBios Information
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `28C46C4EE53050720E06C4BB0D1F64AEF651438E3A712398D488426355A330C7`
 SHA384 | `132F4BE41D7E5AF30E000AF8BAEF6865DBBC8FF41196177157E3AE347A60AC87B3A344EADBA3D4100485F6F49FD4B84A`
 SHA512 | `C3087515F715649B9C9C9C3BF250CCE1B40B315FD38EAA60851E364747F50E7130A1E2596681206B330C6A1BB1103A5377475C1412EEA01D5818F2006408A644`
 SSDEEP | `384:eCli1f2vdVdViTxC06n9RllSNnNgwFI7JWWarW:eCi1+vTdIc0YPeNnNgQ`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -47,6 +49,14 @@ NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\nbtstat.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

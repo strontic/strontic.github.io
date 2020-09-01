@@ -4,7 +4,7 @@ title: jstack.exe | OpenJDK Platform binary
 
 # jstack.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jstack.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jstack.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,8 @@ SHA384 | `4E2800CEBA794C4F829D0A1582AFDA8B0C0D0D1A1BA6E78F08F1E1155A3C9BBD5A4928
 SHA512 | `A7EA024A15D2BD56AF69871A8C2A835C664367FDA36E528DAE9E96E6EB82080226FDC6F0E8A4A96D1DC7147B4527FC66D3726D099440BDFDA3065A871E451179`
 SSDEEP | `384:Nb9biPq7e9dBbFMy5A2AK6jSmIHRHDgf2hc:POPceZFMy5IKgQHRHUf2hc`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage:
@@ -30,6 +32,16 @@ Options:
     -? -h --help -help to print this help message
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jstack.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -53,8 +65,8 @@ Options:
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jlink.exe](jlink.exe-15C86A7D8376EC476DD2AE27EAEE31D1.md) | 46
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jstack.exe](jstack.exe-71672EE296B2EA44D74B3B592D70F29B.md) | 52
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jlink.exe](jlink.exe-15C86A7D8376EC476DD2AE27EAEE31D1.md) | 46
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jstack.exe](jstack.exe-71672EE296B2EA44D74B3B592D70F29B.md) | 52
 
 
 

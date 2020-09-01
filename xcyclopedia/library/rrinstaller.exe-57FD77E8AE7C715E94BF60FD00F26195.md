@@ -18,6 +18,27 @@ SHA384 | `E558A934251E341A94C0C3D3FAD5B0B9B989E7C4B02B7D3C76B1C54C4C2D3151A1F1A7
 SHA512 | `612FC2F1873BA1212088A8465E8A97A74503E3604C680831D853A3FA1B89E6E3906C0BCBE2FF5D15C2F929F6060F061FBE987AD560FE622EBE9B5DC951554861`
 SSDEEP | `768:GFCt19SksNdQSG17G/MLiRMp31X38NKIcrYbFeRc8Ld0UbpIj+X1cIA57WyvzfXY:GFClSFNV8iR631X38NDccqc8R0UbSaXb`
 
+## Runtime Data
+
+### Child Processes:
+explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rrinstaller.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

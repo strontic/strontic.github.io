@@ -206,6 +206,15 @@ C:\ProgramData\Microsoft\Windows Defender\Support
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2006.10-0\X86\MpCmdRun.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

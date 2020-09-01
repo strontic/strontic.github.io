@@ -4,7 +4,7 @@ title: tabcal.exe | Digitizer Calibration Tool
 
 # tabcal.exe 
 
-* File Path: `C:\windows\system32\tabcal.exe`
+* File Path: `C:\Windows\system32\tabcal.exe`
 * Description: Digitizer Calibration Tool
 
 ## Screenshot
@@ -21,6 +21,34 @@ SHA256 | `093270617770DE311AEF2126236AD404F114BC5C75AAB1F954444683526D6626`
 SHA384 | `33B7226B6FCDE5A5B3D29AC8C36A1F9BA138E552EBC286AC64074455AF62945305B98F24649D67B66208711ED6330896`
 SHA512 | `0BBEB13DF41709A735F600C5B852BEC2D2FDBE3A35489E789FEE4EBB7901675D85EDB707D0A4C026DADAC46179F5193C5DC40936D4C777A4E62FA76AAAB93B74`
 SSDEEP | `1536:sRZ16h5zgp3sY2rPrPoGVtJ2nV+RLXdfW2jbJK:s/48p3sY2HoGqVQXdfZbs`
+
+## Runtime Data
+
+### Window Title:
+Digitizer Calibration Tool
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\tabcal.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\tabcal.exe |
+
 
 ## Signature
 

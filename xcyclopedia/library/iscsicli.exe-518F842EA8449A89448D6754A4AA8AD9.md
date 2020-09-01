@@ -18,6 +18,27 @@ SHA384 | `8C5A8322599E9A5420118711F494881610F27E51D316658BAE2A2B32551450A80DCCB6
 SHA512 | `6E872EBA508CB0F73814E17E61573F89CE92845ED71E9A3D0DC2B778977874202313DF20DDB630436C97197A5CC7EA76C17AF1E23F19F5CF2F0CDDB0D1F54B84`
 SSDEEP | `3072:6LfugDIeumTgAICgKOKaeqUKOpVk/qfWJTfS1n37M:6LfuyfcKRaeqUp3WJrM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\iPod\bin\iPodService.exe |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\CFGMGR32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\iscsicli.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

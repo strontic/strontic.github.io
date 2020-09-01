@@ -4,7 +4,7 @@ title: pythonw.exe |
 
 # pythonw.exe 
 
-* File Path: `C:\Program Files\GIMP 2\bin\pythonw.exe`
+* File Path: `C:\program files\GIMP 2\bin\pythonw.exe`
 
 ## Screenshot
 
@@ -25,7 +25,7 @@ SSDEEP | `192:5L9RSu1WH0xpvjObAZdbXEeZWIVnmwPE+tlHw5Hw+1bMjghIuVCsz:5Jl1WUxpSbAr
 
 ### Usage (stdout):
 ```Batchfile
-usage: C:\Program Files\GIMP 2\bin\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\program files\GIMP 2\bin\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about comparing bytearray with unicode
          (-bb: issue errors)
@@ -77,14 +77,33 @@ PYTHONHASHSEED: if this variable is set to 'random', the effect is the same
 ### Usage (stderr):
 ```Batchfile
 Unknown option: -e
-usage: C:\Program Files\GIMP 2\bin\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\program files\GIMP 2\bin\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Try `python -h' for more information.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\bin\libpython2.7.dll |
+C:\program files\GIMP 2\bin\pythonw.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\GIMP 2\bin\pythonw.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\GIMP 2\bin\pythonw.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -104,7 +123,7 @@ Try `python -h' for more information.
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\bin\python.exe](python.exe-0DE4B4313426E8A76A92E5370094E6C9.md) | 99
+[C:\program files\GIMP 2\bin\python.exe](python.exe-0DE4B4313426E8A76A92E5370094E6C9.md) | 99
 
 
 

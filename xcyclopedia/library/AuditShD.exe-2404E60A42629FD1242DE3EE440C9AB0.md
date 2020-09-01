@@ -4,7 +4,7 @@ title: AuditShD.exe | Audit Mode Desktop Switch Utility
 
 # AuditShD.exe 
 
-* File Path: `C:\windows\system32\oobe\AuditShD.exe`
+* File Path: `C:\Windows\system32\oobe\AuditShD.exe`
 * Description: Audit Mode Desktop Switch Utility
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `DB6BC6BA6F9AACC251B9174CE504FC1072C38F2D583267AF24AB2EC2CDEFB7CAECD1BF
 SHA512 | `73CFFE43D1E516AE256B5A6E8BA8B45BD7B29CA00EBA7752D2B9B7E845C2B091FC1547C8B42411C10D62A42929E7E4134AAF5BDA4F2D23B0CD422F046A1D4CFE`
 SSDEEP | `384:j/5LaX/4UEmZrsu/ZoajJGDuyHWBSTe0nEkKhGwOr3fpgHuWGfErnUoskBR4ogg+:xagKrswVeGS/Do4ojPvX`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\oobe\AuditShD.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

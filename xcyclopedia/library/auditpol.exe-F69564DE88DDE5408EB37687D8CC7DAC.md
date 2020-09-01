@@ -4,7 +4,7 @@ title: auditpol.exe | Audit Policy Program
 
 # auditpol.exe 
 
-* File Path: `C:\windows\SysWOW64\auditpol.exe`
+* File Path: `C:\Windows\SysWOW64\auditpol.exe`
 * Description: Audit Policy Program
 
 ## Hashes
@@ -48,6 +48,13 @@ The parameter is incorrect.
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

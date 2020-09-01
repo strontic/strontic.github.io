@@ -22,6 +22,18 @@ SSDEEP | `786432:4FbgbSTbL5pN7Gsd1eytWFzAtCOmcjNwsNHlO38uJksv6aCl6eEK2W6IsV4Zdre
 ### Child Processes:
 googledrivesync.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Google\Drive\googledrivesync.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\USER32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +52,11 @@ googledrivesync.exe
 * Language: English (United States)
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Google\Drive\googledrivesync.exe](googledrivesync.exe-294C1F547C89E9D362DFDABE66988A89.md) | 68
 
 
 

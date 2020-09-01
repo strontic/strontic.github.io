@@ -17,6 +17,19 @@ SHA384 | `4FB1E42354FA2BF7DC3547096350CAD1F7652A7F25894648A27EAC7C2CAF28BEDA515C
 SHA512 | `08A71EA588B4F7401709FBAC137014C97B4CFE7F2800BC0D268DD43599E8D06B250D9579C994D65166BAD37F39EB0B2644FC57F2B426F274B727E037C6013B17`
 SSDEEP | `192:HsT0Y/q7lyttXwJcPqT/0WlygTMf5ZmlEo6UTQj:HSbS7lyMcPqr0AyjGMUT`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\agentactivationruntimestarter.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

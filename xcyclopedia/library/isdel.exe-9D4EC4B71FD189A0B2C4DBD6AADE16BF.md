@@ -4,7 +4,7 @@ title: _isdel.exe | 32-bit InstallShield Deleter.
 
 # _isdel.exe 
 
-* File Path: `C:\windows\SysWOW64\InstallShield\_isdel.exe`
+* File Path: `C:\Windows\SysWOW64\InstallShield\_isdel.exe`
 * Description: 32-bit InstallShield Deleter.
 
 ## Hashes
@@ -17,6 +17,33 @@ SHA256 | `1E97ECA81395D1BD5E627DEBFDB02828BD3655D68C8F7296395D574781FAA32E`
 SHA384 | `4E7F088DD7D385E61DE22303A324671509767A5A11817922CC3FF9F3D032305746FA034861C575345578DBAF10BFF362`
 SHA512 | `765F8A531CC44FB241C577938C936506450D579F2005E32092B443423749F25F09C498B8A70179D37423082E8939EF4DB0B9AA82C10936922600EF2A2C936F65`
 SSDEEP | `384:m3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:QwIA7Q7tDUAdnemQVSfg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\SysWOW64\InstallShield\_isdel.exe | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InstallShield\_isdel.exe |
+
 
 ## Signature
 

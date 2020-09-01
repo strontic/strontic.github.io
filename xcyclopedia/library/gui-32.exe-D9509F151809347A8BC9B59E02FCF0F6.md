@@ -4,7 +4,7 @@ title: gui-32.exe |
 
 # gui-32.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32.exe`
+* File Path: `C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32.exe`
 
 ## Hashes
 
@@ -17,15 +17,28 @@ SHA384 | `320B99F654D8573E95624EDBBE7852D65938635167C35139EE086261BEB2F8A57D635E
 SHA512 | `D718A7F31BECF1DE094C165CD8768126FC39456E317F62DC02B8B05091A965C9E8A8A98FF44F430F6422900EE8D6EAD84E40FE70A9F44A6FF590AE6EC6763089`
 SSDEEP | `384:7q+jhqdctTr6XPS8jA7RmkHy9ujKVTKJS25FLhCW:5jhdtTAjqd1+RwS25FwW`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-Cannot open C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32-script.pyw
+Cannot open C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32-script.pyw
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,7 +58,7 @@ Cannot open C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-3
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-32.exe](cli-32.exe-62569E0E685826EA5E0824C882259308.md) | 85
+[C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-32.exe](cli-32.exe-62569E0E685826EA5E0824C882259308.md) | 85
 
 
 

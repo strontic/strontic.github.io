@@ -4,7 +4,7 @@ title: javaws.exe |
 
 # javaws.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe`
 
 ## Hashes
 
@@ -21,7 +21,7 @@ SSDEEP | `6144:Tr4C59jUJC03oDxVloRS0CRLJIceKYcFWbLUpsnJ1:Trz59jUJC03oDb+CVmLqFgL
 
 ### Usage (stdout):
 ```Batchfile
-selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10
+selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
 
 SYNOPSIS
     javaws [-run-options] jnlp file
@@ -67,11 +67,26 @@ OPTIONS
 WARNING: package javax.jnlp not in java.desktop
 WARNING: package sun.awt.X11 not in java.desktop
 Unable to use Firefox's proxy settings. Using "DIRECT" as proxy type.
+netx: Invalid jnlp file /?
 
 ```
 
 ### Child Processes:
 java.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 
@@ -95,7 +110,7 @@ java.exe
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaws.exe](javaws.exe-3B80846BD1959514903C7334CE229F21.md) | 100
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaws.exe](javaws.exe-3B80846BD1959514903C7334CE229F21.md) | 100
 
 
 

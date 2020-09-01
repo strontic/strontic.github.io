@@ -26,7 +26,7 @@ SSDEEP | `6144:ADX91oG3blPe1hUZuintPiDWOc1zDuIrI6zo4SPvU:ADN1jlw6PiDA1zyms`
 Microsoft DiskRAID version 10.0.19041.1
 
 Copyright (C) 2003-2013 Microsoft Corporation.
-On computer: B6F9104F-5AA4-4
+On computer: DESKTOP-RQ9SGT4
 
 Usage:  DISKRAID [/? | [/s <script>] [/v]]
 
@@ -46,6 +46,16 @@ Examples:
     DISKRAID /v
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskraid.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

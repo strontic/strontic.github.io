@@ -18,6 +18,17 @@ SHA384 | `14688230F4D966CE8429634637767E10EE69341C8F6A04C45260976CD47126CFD08BE6
 SHA512 | `C48ED6ADCB9D6A8E18B1EBBC74E14CD3FA9107D4209B1731C412DCA5B199E7F11817CDCA1A27AD0B3BEC5B4D1E855C2E3E88D3522ABC9B47E41B62F2764D1EC6`
 SSDEEP | `192:6QMqVO2XKnnTel3ntio9QkpkIW6cW2BF:6mV9XKTel3hqIW6cW2`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\help\help.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\help.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

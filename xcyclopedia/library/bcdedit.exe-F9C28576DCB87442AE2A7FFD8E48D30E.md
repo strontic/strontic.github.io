@@ -4,7 +4,7 @@ title: bcdedit.exe | Boot Configuration Data Editor
 
 # bcdedit.exe 
 
-* File Path: `C:\windows\system32\bcdedit.exe`
+* File Path: `C:\Windows\system32\bcdedit.exe`
 * Description: Boot Configuration Data Editor
 
 ## Hashes
@@ -113,6 +113,16 @@ Command that control remote event logging
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bcdedit.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

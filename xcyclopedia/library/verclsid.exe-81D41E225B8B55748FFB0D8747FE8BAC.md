@@ -18,6 +18,22 @@ SHA384 | `1A10576F99F7927D3C30D5EC3031BF226BAA3E650BC6C3844DA759D4A40C51F4D7F29A
 SHA512 | `495B57077F2E50247D8CB041405A39B6B8459A794AC3A801DF5CCF6EB1C2A8AFCCA668920A7039A6199B91C8895A2FCB7D70CB1955C69E0D31E4C4CDCD81AC0E`
 SSDEEP | `192:1S1rPu2/TzyyIDWm8ZdFN2y9qnWJ8VaZGuJG+WfCkXWSNW:1S17uezxm8vL2PWJqOGuUCoWSNW`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\verclsid.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

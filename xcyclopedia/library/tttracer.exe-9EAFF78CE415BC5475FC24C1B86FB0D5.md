@@ -4,7 +4,7 @@ title: tttracer.exe | Time Travel Tracing Tracer Tool
 
 # tttracer.exe 
 
-* File Path: `C:\windows\system32\tttracer.exe`
+* File Path: `C:\Windows\system32\tttracer.exe`
 * Description: Time Travel Tracing Tracer Tool
 
 ## Hashes
@@ -72,6 +72,29 @@ AND NON-INFRINGEMENT.
 ### Child Processes:
 conhost.exe help.exe ttdinject.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(---)   C:\Users\Administrator\Documents\help01.out | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RWD)   C:\Users\Administrator\Documents\help01.run | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\ttdSeq_s_2_01_03 | Section
+\Sessions\2\BaseNamedObjects\ttd_s_2_01_03_920 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\tttracer.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -97,6 +120,7 @@ conhost.exe help.exe ttdinject.exe
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ttdinject.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ttdinject.yml) | `Description: Used by Windows 1809 and newer to Debug Time Travel (Underlying call of tttracer.exe)` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Tttracer.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Tttracer.yml) | `Name: Tttracer.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Tttracer.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Tttracer.yml) | `  - Command: tttracer.exe C:\windows\system32\calc.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Tttracer.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Tttracer.yml) | `    Description: Execute calc using tttracer.exe. Requires administrator privileges` | 

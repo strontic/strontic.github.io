@@ -4,7 +4,7 @@ title: SystemPropertiesProtection.exe | System Protection Settings
 
 # SystemPropertiesProtection.exe 
 
-* File Path: `C:\windows\system32\SystemPropertiesProtection.exe`
+* File Path: `C:\Windows\system32\SystemPropertiesProtection.exe`
 * Description: System Protection Settings
 
 ## Hashes
@@ -17,6 +17,71 @@ SHA256 | `71438D2A073507B0D8A41ACD59418EC9F0659DC01CB0ECF8F23517B33F2CC454`
 SHA384 | `D910CA0A8DC3BC5B2C0173908EC22277E8CC196F59657E2CCC3FE3C0CC3C2E8A1F66DE5742AB97320AA24E83AE914A3E`
 SHA512 | `9452A1C0C92075BB3BF40BDBB0EE3960A1ADC8C882CC9854AF94C87DD71C935CA7D471800418B5113480662176895028B06589D1210166F143ECB358074E408B`
 SSDEEP | `1536:VfMZAtREC/rMcgEPJV+G57ThjEC0kzJP+V5Js:hmAzECTMpuDhjRVJGy`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\netid.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesProtection.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SYSDM.CPL |
+C:\Windows\system32\SystemPropertiesProtection.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINSTA.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
 
 ## Signature
 

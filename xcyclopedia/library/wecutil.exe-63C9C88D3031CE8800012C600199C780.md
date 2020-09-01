@@ -18,6 +18,16 @@ SHA384 | `DB1748F63B798755F93312365DB422B5AEBEAD0BF10177F2C98B3967DBE05305192F1A
 SHA512 | `B18396D71AE7102AB4A17F130094A0395A89802ED239740A8B82888F9656CA35BE312BDA51CB942D548685D2FD93C5C1C80092CFDDEBACF4FE5595C4DA9B3ACC`
 SSDEEP | `1536:/JbIN3KSlKBiI4he/5rOuO7P1uQ2hLLkLfuBLVcu:/JbINIBbsukp2B2AB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wecutil.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wecutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

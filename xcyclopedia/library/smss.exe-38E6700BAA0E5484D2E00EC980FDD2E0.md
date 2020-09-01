@@ -4,7 +4,7 @@ title: smss.exe | Windows Session Manager
 
 # smss.exe 
 
-* File Path: `C:\windows\system32\smss.exe`
+* File Path: `C:\Windows\system32\smss.exe`
 * Description: Windows Session Manager
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `B6E357B520478920810317B363AA539595D386BC5EF3D5CF9581F325026BA397`
 SHA384 | `80CCDF399DCDE005009AAF4F5FD63EF4963A4AD1C67A8079AD3C2966AD92C9DDD71C9B02B4821700D36F57C62D4432BC`
 SHA512 | `780736F49EF9E7435BAF413BE740DFBD5C6056FAE70B3C8B1FC785892F41C9158128019FBCC00C9AD432243109D7A864DB90C47AFC9BCA72CE5083A021E1190E`
 SSDEEP | `3072:hFDGXDoqgsEKeBLbwZcfTEs20a26E8FjQp0Bf3:LDGU6ElIGapLFjQpm`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\smooth-palette\smooth-palette.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

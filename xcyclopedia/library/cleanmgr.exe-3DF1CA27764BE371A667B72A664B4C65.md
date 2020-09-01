@@ -24,6 +24,22 @@ SHA384 | `0274929866D4B438FBE6CA8D7DAC588B42701158146EEDA3BF3BF112EF75E4F271A2B5
 SHA512 | `DBB47E8FD41304C9F7BD7D6147BD71B373BC742FEE5E49A9238F34E58F8D6055C8EEAFBD0D1BFDB8DD60C28DCCD24618F3582E5994BDCC72B1695CE60FE8C733`
 SSDEEP | `3072:afql8tVhvzv16fypZAEPGRvQhRkKqUa9antF5hvvJkuXp6G:KtVhvzLpeE+ohSKq99UF5hvv//`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Classic Shell\ClassicStartMenu.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

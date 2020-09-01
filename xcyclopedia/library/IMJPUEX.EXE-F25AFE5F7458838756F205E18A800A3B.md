@@ -4,7 +4,7 @@ title: IMJPUEX.EXE | Microsoft IME
 
 # IMJPUEX.EXE 
 
-* File Path: `C:\windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE`
+* File Path: `C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE`
 * Description: Microsoft IME
 
 ## Screenshot
@@ -22,11 +22,45 @@ SHA384 | `2C0600491652B014B8BE3539C6E2AFE5C540A91A435FB26DB2F0BD5DF35D5B8752CD09
 SHA512 | `4AD5104D4A68A4CFDD9361273E3737CD28A8B3C5F9E77D19001ACBCF0B9243F27B08C5ED2CAC89DB1EFD966D8BAC54FEC739744E1FF04FD6F4D1DD27F142A8A9`
 SSDEEP | `1536:o+DLziEvQS6oKL6x8oe4noCneHY3GBG3cYH67nIWDK2NLPcrIei:o+vziEoS6ovx/e4okWY3kGMYH67IkK2T`
 
+## Runtime Data
+
+### Window Title:
+Advanced Settings for Microsoft IME
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -4,7 +4,7 @@ title: browserexport.exe | Microsoft Edge Browser Exporter
 
 # browserexport.exe 
 
-* File Path: `C:\windows\system32\browserexport.exe`
+* File Path: `C:\Windows\system32\browserexport.exe`
 * Description: Microsoft Edge Browser Exporter
 
 ## Hashes
@@ -17,6 +17,42 @@ SHA256 | `C1F0E89FAA6595649C786BF3012D8E6BA45BBF319E587AB9BBDD94BEA87228EF`
 SHA384 | `932662301A38E777159F340687FA5DC335167D3223195CC9A3EB7A2B6E853FC4846CAA062F1ACBFC5F6D878F4F64C5F1`
 SHA512 | `A87EF914494F0A6E3FA79DF4765379A6BA71B51AB80732B9C6F30CE1FCAAC401F9576D0E1E8B138B6C5D09DD6ADF7B6B9F42B93A177AADF9AA29DAD33EA768E3`
 SSDEEP | `3072:ZMWHOmxD81wmJUv+JwkVjrqjlymf2RdOPIXwQNbPbMshTcMP6AoTIYDGh:ZMWHOmxDEwmJkkVjJmf2RAP0jbPbMsWv`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\browserexport.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\system32\msIso.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WININET.dll |
+C:\Windows\system32\winsqlite3.dll |
+
 
 ## Signature
 

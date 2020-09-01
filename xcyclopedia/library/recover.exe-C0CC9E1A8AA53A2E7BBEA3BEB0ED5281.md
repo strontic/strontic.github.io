@@ -18,6 +18,16 @@ SHA384 | `18CA9AE1480521A4DC104D7DBF96834C602DE6FEEC9070F15E5C80B8CAD794FF22D103
 SHA512 | `7CEDF76D10DDFD34959582A932A64D8BEABD8334F5909A04C7D0171D7CC6019F15F719E841A9B287539EA160C50B22D7D638D9737F67343F8BD41437493E1553`
 SSDEEP | `192:bsseIpJBGdP/2YhEvxepqkK/IT38Rny8MeAGkzCOFum2TWCnWa:bssdpJBSTUxfC3+ype8zz2TWCnWa`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\recover.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\recover.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

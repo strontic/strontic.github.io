@@ -18,6 +18,24 @@ SHA384 | `49E1224244CA7DE11378B7F1D3136B6CBDD714DAE60F2BB3FE2FA2FE5C40F9F1A00C4C
 SHA512 | `35B6D05766C832309040AC5779F74AC313321BA5E63921342A63472867D879AE2346A9343DBFC28689DD143F6481F3E10273BC436E040A6CFBBC2F6B9D717D07`
 SSDEEP | `768:l2Y/DAGhNqsgh6U7XTNa/iVasYdTItA3iQfMQnKnZA7t9G4qW4ne+S/ly+PKAoXm:OV7XQ/iVt3A7HPd4n+lbeRZIbSQPT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PrintIsolationHost.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\PrintIsolationHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

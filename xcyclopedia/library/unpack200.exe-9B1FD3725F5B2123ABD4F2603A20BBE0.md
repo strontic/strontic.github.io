@@ -4,7 +4,7 @@ title: unpack200.exe | OpenJDK Platform binary
 
 # unpack200.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\unpack200.exe`
+* File Path: `C:\program files\Amazon Corretto\jre8\bin\unpack200.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `3072:mUAkFH9bVb7ai7d4t0yIqIyqF5w+Zna5BZTBfxAqQNTwd+6YysYo:1D9bxaix4ttB
 
 ### Usage (stdout):
 ```Batchfile
-Usage:  C:\Program Files\Amazon Corretto\jre8\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
+Usage:  C:\program files\Amazon Corretto\jre8\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options
   -H{h}, --deflate-hint={h}     override transmitted deflate hint: true, false, or keep (default)
@@ -35,6 +35,16 @@ Unpacking Options
   -J{X}                         Java VM argument (ignored)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jre8\bin\unpack200.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -58,8 +68,8 @@ Unpacking Options
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\unpack200.exe](unpack200.exe-2437795FA33A30602CAF61F8BD3762A2.md) | 96
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\unpack200.exe](unpack200.exe-3CF889B098C1A6CB28B196049C82157E.md) | 96
+[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\unpack200.exe](unpack200.exe-2437795FA33A30602CAF61F8BD3762A2.md) | 96
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\unpack200.exe](unpack200.exe-3CF889B098C1A6CB28B196049C82157E.md) | 96
 
 
 

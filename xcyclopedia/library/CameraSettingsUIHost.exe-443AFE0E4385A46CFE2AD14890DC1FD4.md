@@ -4,7 +4,7 @@ title: CameraSettingsUIHost.exe | Camera Settings UI Host
 
 # CameraSettingsUIHost.exe 
 
-* File Path: `C:\windows\SysWOW64\CameraSettingsUIHost.exe`
+* File Path: `C:\Windows\SysWOW64\CameraSettingsUIHost.exe`
 * Description: Camera Settings UI Host
 
 ## Hashes
@@ -18,11 +18,36 @@ SHA384 | `1337C388C8D861C691B0F4D0D6B706C00D9B4E15762C7AD9A948E2365147C3920781B2
 SHA512 | `5DF6523257790DF6F08286F43E1597392C493BBAC04D9A63282E5322962D81238AB720816F8A412A81484F72E48EEC6950653CEDB11D3C784360BC935A88A72E`
 SSDEEP | `384:3V50X9btA8aEdAhh24jHxHvzY+7Qg2qXp0BTW+dW0PAmXjDBRJQ9gl3t3M2U:3T0NbtAIda2+ExBN3pXj1Py/r`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC17E8 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CameraSettingsUIHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

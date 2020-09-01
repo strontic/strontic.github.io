@@ -4,7 +4,7 @@ title: ComputerDefaults.exe | Set Program Access and Computer Defaults Control P
 
 # ComputerDefaults.exe 
 
-* File Path: `C:\windows\system32\ComputerDefaults.exe`
+* File Path: `C:\Windows\system32\ComputerDefaults.exe`
 * Description: Set Program Access and Computer Defaults Control Panel
 
 ## Screenshot
@@ -21,6 +21,22 @@ SHA256 | `B2C06A97827F403848620CAAE012C284604B5093ED7950AC4EAD2B9EE4D28EB3`
 SHA384 | `1452E7096764F43725E2D6489441052D5BB61AAD9E2EF5A1688255FDD9564F289AD0DA309692CD29C220C094B567C9A6`
 SHA512 | `EA67E6656E87F5DF1ADB718D7B445CD49E89D210C4E4DE94B13FBF4B0B3AF96A665609B8A1AB02765F90012049C3D2B46CAF388E52EC71292F2C46B46C0DF878`
 SSDEEP | `1536:kQOtu50MZS8EVCioHoL6u/a7WryQqURDoq4OZZZLlCIibB:knrWyiILS79KRD68wbB`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\ComputerDefaults.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 

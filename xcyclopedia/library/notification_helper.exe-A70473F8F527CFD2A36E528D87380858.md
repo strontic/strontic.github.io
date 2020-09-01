@@ -18,6 +18,22 @@ SHA384 | `1C4E3C18E78D2A4F46D41D65220FA5FE251C76EB944AC60CDD74C3F1DC1C67B539A8FD
 SHA512 | `41898D52C6599D65AAB97E81B3506F81BFA3F4FDA96B904AF2EC0B41E9F4B44C576C593492E5D367D7DB54C8C8EF31DDFF1B5641A330256BD5D05D09C6991E48`
 SSDEEP | `12288:wH/fpn0m49zaQZfr2Hd6s+0kHYytD+LUdMltmHCBLHwweR5+nbolCUxBx:wmm492QZf/s+lHu8MltmiB9gFx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Opera\70.0.3728.133\notification_helper.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +52,11 @@ SSDEEP | `12288:wH/fpn0m49zaQZfr2Hd6s+0kHYytD+LUdMltmHCBLHwweR5+nbolCUxBx:wmm492
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 The Chromium Authors. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Opera\70.0.3728.133\notification_helper.exe](notification_helper.exe-47CB245ADC19F618D9F82E4A4CF9205F.md) | 94
 
 
 

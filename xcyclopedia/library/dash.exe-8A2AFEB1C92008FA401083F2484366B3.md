@@ -17,11 +17,23 @@ SHA384 | `2C977459643C8B92B7EFB298842682F53252ADCE78B48E917C443B700A49492DD29141
 SHA512 | `FBCD0F9BE2C9D5E26FB5CF8C0BBEA156C9FC516040171B96E70E9DB4FB8ED6E8A2FDCBB53A319EA095DF11DCFA38EAAA3AA4CEC4923EB0143FADDB08F1ED998B`
 SSDEEP | `3072:RQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F:RQx0t8tF/tp2Zo5GqFNk9Ojtjl8F`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 /usr/bin/dash: 0: Illegal option -h
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cut.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -41,6 +53,11 @@ SSDEEP | `3072:RQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F:RQx0t8tF/tp2Zo5GqFNk9Ojtjl8
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\dash.exe](dash.exe-FADF03B8CA79E222C05B1BBEF1E0223E.md) | 97
 
 
 

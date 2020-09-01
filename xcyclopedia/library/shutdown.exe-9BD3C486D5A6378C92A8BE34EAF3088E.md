@@ -4,7 +4,7 @@ title: shutdown.exe | Windows Shutdown and Annotation Tool
 
 # shutdown.exe 
 
-* File Path: `C:\windows\system32\shutdown.exe`
+* File Path: `C:\Windows\system32\shutdown.exe`
 * Description: Windows Shutdown and Annotation Tool
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `384:tconz+fzZMnkcwk8bCFr5LdXKxOszuLZ1P08ypXdQXWK+SW:7nz+7GnSNbE5LQvzuZ
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\windows\system32\shutdown.exe [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
+Usage: C:\Windows\system32\shutdown.exe [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
     [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
 
     No args    Display help. This is the same as typing /?.
@@ -111,6 +111,15 @@ E   	5	20	Loss of network connectivity (Unplanned)
 Hibernation is not enabled on this system. You must enable hibernation in order to use the -h option.(126)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\shutdown.exe |
+
 
 ## Signature
 

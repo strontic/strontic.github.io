@@ -4,7 +4,7 @@ title: pscp.exe | Command-line SCP/SFTP client
 
 # pscp.exe 
 
-* File Path: `C:\Program Files\PuTTY\pscp.exe`
+* File Path: `C:\program files\PuTTY\pscp.exe`
 * Description: Command-line SCP/SFTP client
 
 ## Hashes
@@ -65,6 +65,16 @@ pscp: unknown option "-help"
       try typing just "pscp" for help
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PuTTY\pscp.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

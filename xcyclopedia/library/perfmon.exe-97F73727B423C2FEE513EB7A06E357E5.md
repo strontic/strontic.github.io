@@ -4,7 +4,7 @@ title: perfmon.exe | Resource and Performance Monitor
 
 # perfmon.exe 
 
-* File Path: `C:\windows\SysWOW64\perfmon.exe`
+* File Path: `C:\Windows\SysWOW64\perfmon.exe`
 * Description: Resource and Performance Monitor
 
 ## Screenshot
@@ -26,15 +26,46 @@ SSDEEP | `3072:6utzRwSpaYHrz1m2dyGghtYIo9piswTogiqQKy349tm:ZaSpaAn42dyhqIo9s37iT
 
 ### Usage (stdout):
 ```Batchfile
-Argument 'help' is unknown.
+Argument '-help' is unknown.
 
 ```
+
+### Window Title:
+Resource and Performance Monitor
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\perfmon.exe.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\perfmon.exe |
+
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

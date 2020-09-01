@@ -18,6 +18,21 @@ SHA384 | `40605E8FF04490F40E998B600B5B70A96FF03E1DFEEA1F2472FE98A1293182AF1CA708
 SHA512 | `A60667736063EEA943D8DB283DF05F4B02EFD44712E6CD82205ECA472836603ED6DB7E27EEC948607C97FFB153E8DE8D5AABFC8EF0A79CD9824B3830E35B9E04`
 SSDEEP | `768:n8rFdp8jKOClF10BFilJQKT5SlEzLCYryj87J+V3VWmxw8qGr9yF:nigKmBF6JLl6Nj87wV3QAwfGr4F`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wuapihost.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wuapp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

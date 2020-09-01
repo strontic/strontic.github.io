@@ -36,6 +36,14 @@ Use the puttygen tool from PuTTY for a human-usable tool.
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\FXSUNATD.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -54,6 +62,11 @@ conhost.exe
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2004-2020 Tim Kosse,   1997-2019 Simon Tatham.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\FileZilla FTP Client\fzputtygen.exe](fzputtygen.exe-FC5E111D30C61492A7CE907BDD3E69E8.md) | 91
 
 
 

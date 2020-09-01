@@ -18,6 +18,14 @@ SHA384 | `DA69685293ACB87C50086290308B20C7B055898A441F628A4DA1F5B2A0B92380AA3EEF
 SHA512 | `559C9F76A3EC9DDE459725B9CEEE827860F828185E1FE00B43F80A38BE20FE31C8ED4074C093EADFCA366A06835F348827587073A40D019E550FC6DF7F33D8A8`
 SSDEEP | `96:Osme/Xo+Eju0dyDWPT0GwrHhkoCrJUw0FKEW7kIXuWw8oL:OsmaXo/TIioCr10FXWt+W`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\instnm.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\instnm.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

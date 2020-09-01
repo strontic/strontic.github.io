@@ -4,7 +4,7 @@ title: IMJPSET.EXE | Microsoft IME
 
 # IMJPSET.EXE 
 
-* File Path: `C:\windows\system32\IME\IMEJP\IMJPSET.EXE`
+* File Path: `C:\Windows\system32\IME\IMEJP\IMJPSET.EXE`
 * Description: Microsoft IME
 
 ## Screenshot
@@ -22,11 +22,57 @@ SHA384 | `EF6A4625470C1099C2919525B487AA75F44DFC45D1165AB48CEFE8824CB00321921FA5
 SHA512 | `428AB573EF04E34C4EEB303FE7D130130F7B2367642D2B1E5FB179F4B085C035B0D5576A6CEBEA8C1A375EDC2B2D8501620FAC16257291900348078227B5CAAE`
 SSDEEP | `3072:KvWVfwfSl6VGYjPil0+3b2dtMk9ilDDiHmax1PcYYH67IkK2NLPcV2:KvCfw6lnuPiuNHiFDiG1mIkC`
 
+## Runtime Data
+
+### Window Title:
+Settings for Microsoft IME
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC196C | Section
+\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\IME\IMEJP\IMJPSET.EXE |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

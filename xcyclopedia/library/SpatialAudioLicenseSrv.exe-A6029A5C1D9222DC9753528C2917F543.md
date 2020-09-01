@@ -18,6 +18,17 @@ SHA384 | `03E76C1F5E4694FBC51C6549E4A77BBDC1F0199D7AEBD3C1BD9A3B48AA32E7CB040708
 SHA512 | `B5E960B25813162650307FC84A907D7D9AE07C9D563EE9BDBD1B2FA9BE848DDCE6CCDAC1F381BF016B44F22C261BB54E22E9F56112A57623E030D3BE09F118F4`
 SSDEEP | `3072:oqkH4xDfMKHcsboMGyGdlZXsbcPPkZiA7jFOiCEKH7DEHPPPsXvkPc+pJxjkuE1y:opo9HJGyGx8bmPkZiAFCEKH7DEHYepJQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SpatialAudioLicenseSrv.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `3072:oqkH4xDfMKHcsboMGyGdlZXsbcPPkZiA7jFOiCEKH7DEHPPPsXvkPc+pJxjkuE1y:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SpatialAudioLicenseSrv.exe](SpatialAudioLicenseSrv.exe-1C71A2895B8FB85A8BD7939A8DBA1F8D.md) | 97
 
 
 

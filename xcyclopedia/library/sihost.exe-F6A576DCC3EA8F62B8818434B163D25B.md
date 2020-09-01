@@ -4,7 +4,7 @@ title: sihost.exe | Shell Infrastructure Host
 
 # sihost.exe 
 
-* File Path: `C:\windows\system32\sihost.exe`
+* File Path: `C:\Windows\system32\sihost.exe`
 * Description: Shell Infrastructure Host
 
 ## Hashes
@@ -22,6 +22,25 @@ SSDEEP | `3072:HoGHHEEU+WYAKG+DizpogS+qWe9AN5rytOU/:HoekV+PA/PpVSGb5rytOU`
 
 ### Child Processes:
 explorer.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1514 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sihost.exe |
+
 
 ## Signature
 

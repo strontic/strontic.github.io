@@ -4,7 +4,7 @@ title: uno.exe |
 
 # uno.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\uno.exe`
+* File Path: `C:\program files\LibreOffice\program\uno.exe`
 
 ## Hashes
 
@@ -17,12 +17,24 @@ SHA384 | `E6992108EDBFA5D33348193B50AAA74F3367BF38AB79295BFBF2BAD22FC6A493914239
 SHA512 | `48565C4088DB9CBFC3F2366D9450E9C5C63ABD603828458C51FAC0247AAA18C0096195EECE49716EBB2582A734B7CE23B8CE2BB2456500A7ADCB2264770B200D`
 SSDEEP | `3072:N1BNmK6mIA8nufq5seXQQUBITTo2VniHWN8nuX2uR:/fmK6mIA8nuS5sYQpBITMBHWN8nEf`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 
 > error: unexpected argument "--help"
 > dying...
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\uno.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

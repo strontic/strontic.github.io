@@ -18,6 +18,22 @@ SHA384 | `2A4876C8FF7CE4E84E1F92A5130F225CA80BDE7CA8719F3BB9F96B4B19EEFCA989EE50
 SHA512 | `EE6A056EA87D50CC6F864C02E4753DDD215CA1A3D9B9DE3423BF11CC2CD3ED1875C8BEE73D73C06852E589D832AB42FF780DDC50A9BC6FF62B583933029E94D5`
 SSDEEP | `192:oX0u1J0pbgNGM9gNaBLLSGBwcgvv1sxu4UGvdhjUWpSW:UpJsgkYC+HIXSQ4UhWpSW`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SystemResetPlatform\SystemResetPlatform.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

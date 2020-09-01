@@ -18,6 +18,21 @@ SHA384 | `B0877CBB158DFB785AA35662C4FAB62B348AD7F49815518A443365B566A86E2BFB0602
 SHA512 | `DB51031F0531E4CF0DBD26AC9C6E6DC1FF804CE81E844E7DFEB0CF4EF05CA232AC648F8F14ED6E53AB08740ED5CA9B3E01982F1D40CA88D6713B3DEDD3AE396B`
 SSDEEP | `768:c2UNfPBTjo6EvoyYLd0QJ65MhgsJD7TnlpVciKs5LDudarn8TuhUJYXHlCg7t5h3:cPPG68ohpLYMRJD7TnZKafuQ8T1Crh`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\oobe\oobeldr.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\oobe\oobeldr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

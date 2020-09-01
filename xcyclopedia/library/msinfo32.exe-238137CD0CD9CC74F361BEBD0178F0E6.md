@@ -4,7 +4,7 @@ title: msinfo32.exe | System Information
 
 # msinfo32.exe 
 
-* File Path: `C:\Windows\system32\msinfo32.exe`
+* File Path: `C:\program files\Common Files\microsoft shared\MSInfo\msinfo32.exe`
 * Description: System Information
 
 ## Screenshot
@@ -21,6 +21,50 @@ SHA256 | `68390551BC3BBC372AE64B5860DCBAC3E74866595F05577A7C19365384B5D6CB`
 SHA384 | `3698B4AF2BA5AB8E8122079D045322C952A03F3D1BFD48D8BF862CACE07BD15FF093F7BBFDC20A1C15C42FC71F65E1AC`
 SHA512 | `A7793C8B82AF66D9DBA1B4562B15E8E0ACC4E576547B509AB908C5AACBDC591D1C1046DA86AA625E8FB459A827AB81A6DC65C82A95C85D1BA5E8C7337448F3D9`
 SSDEEP | `6144:oVzQSvqnSt7I+4DS3yrvJcwb+JgPkZEOHHrpm1XUZLxEZEOHHrpm1XUZLx:oVzQ1r+4VrhcwNPMtLpm1EwtLpm1E`
+
+## Runtime Data
+
+### Window Title:
+System Information
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Program Files\Common Files\microsoft shared\MSInfo\en-US\msinfo32.exe.mui | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\microsoft shared\MSInfo\msinfo32.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 
@@ -44,8 +88,8 @@ SSDEEP | `6144:oVzQSvqnSt7I+4DS3yrvJcwb+JgPkZEOHHrpm1XUZLxEZEOHHrpm1XUZLx:oVzQ1r
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 54
-[C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 100
+[C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 54
+[C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 100
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 63
 [C:\windows\system32\msinfo32.exe](msinfo32.exe-4BA6D7F9032FE80308C0501E087A54F6.md) | 63
 [C:\WINDOWS\system32\msinfo32.exe](msinfo32.exe-CE97FD0E2556A49965411764F086CEA8.md) | 61

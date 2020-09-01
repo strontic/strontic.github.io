@@ -4,7 +4,7 @@ title: plugin-browser.exe | GNU Image Manipulation Program Plug-In
 
 # plugin-browser.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\plugin-browser\plugin-browser.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\plugin-browser\plugin-browser.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `5D2A76CA0FDDBDA968AEC21EE243A0D8807B51E9E042CB7104078C84CD929F14`
 SHA384 | `37308DAFD0779E6DBB28BF789857F819208D35CF594E809CDD994BBDB324AF310CF6DB713349A834D85E853F20E5214F`
 SHA512 | `B85DD8499C13A8E80E9E47D357C89E9DB77061AD151C90F588BC199702E3154101B77DCC3718B99716965BF06C72B755E4E39EAABF4ADCD0F274CEE62FF937A0`
 SSDEEP | `1536:jMSnePJ0eS5FGprjWGTy1WfYoaipiPWYai7WWXiI:pm018pXWGTy1WfYofmTBWgJ`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\plugin-browser\plugin-browser.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

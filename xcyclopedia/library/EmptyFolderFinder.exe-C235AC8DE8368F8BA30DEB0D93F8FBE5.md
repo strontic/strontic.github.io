@@ -27,6 +27,17 @@ SSDEEP | `6144:I9WQhfEyKOOYjDbyVziSso2lUtD4fiO9hqA:I3fTKOO4/OiSso2caqA`
 ### Child Processes:
 MemfilesService.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\EmptyFolderFinder.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -45,6 +56,11 @@ MemfilesService.exe
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\EmptyFolderFinder.exe](EmptyFolderFinder.exe-20AAE75E3D008135842535BBC127FC2E.md) | 94
 
 
 

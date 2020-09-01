@@ -4,7 +4,7 @@ title: jjs.exe | OpenJDK Platform binary
 
 # jjs.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `8423993ACB5F7979AB8956DF7907F4EC3990C6BD0B70AAFA30981953EF401D61`
 SHA384 | `DD6E13D9CE97270029F8F0354FD5DEF6A7B52E08FB04A7D775B992CC42969065965E833A040B11F4CE197A772CF2C32A`
 SHA512 | `368BB0400380381A236DDF3EF15F51C31DB78F18DDA56D8879F59E96CA856D5DA72302819F3D8B8435619C22A2EED2B88E29BE9AA6F33A277A9F03FBC298288B`
 SSDEEP | `384:Gpsr5BnqqGmSHhV8dKeeF4Sz8K6jSObDgf2hIdt:Gps7nTS/8dXeF+KgZUf2hIdt`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -66,6 +68,17 @@ jjs [<options>] <files> [-- <arguments>]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -88,12 +101,12 @@ jjs [<options>] <files> [-- <arguments>]
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe](jjs.exe-50283CF0315C0D9CB58A0C666D5CEFF7.md) | 86
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 75
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstat.exe](jstat.exe-667252B3D687876CE357538652F3779E.md) | 72
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\jjs.exe](jjs.exe-F1EAC51F83F1299AD8072546BD948015.md) | 86
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe](jjs.exe-50283CF0315C0D9CB58A0C666D5CEFF7.md) | 86
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 75
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstat.exe](jstat.exe-667252B3D687876CE357538652F3779E.md) | 72
+[C:\program files (x86)\Amazon Corretto\jre8\bin\jjs.exe](jjs.exe-F1EAC51F83F1299AD8072546BD948015.md) | 86
+[C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 71
 
 
 

@@ -18,6 +18,36 @@ SHA384 | `3DC398D4FE8ED008851904E0CAE83C812B5B4FD9340E07DB5220D34470E52EC0BB1F98
 SHA512 | `4C829454D546CFBE3197A98835B8D6627F68B15FC6244A86E735FD5CE308192EF85215D510884B751A5EB1B97FFC956FAFCE13E2088CE3130F277EADA08C1564`
 SSDEEP | `12288:CM1NnWpAJfOGFpRTLVvFbpi8q+MnN0SN8JklYQ2Q9ncfG3LaLpLbLvL4LHKLAL1M:ZPuGBfLvbpWZ6ylhfWLTZ`
 
+## Runtime Data
+
+### Child Processes:
+WWAHost.exe WerFault.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WWAHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

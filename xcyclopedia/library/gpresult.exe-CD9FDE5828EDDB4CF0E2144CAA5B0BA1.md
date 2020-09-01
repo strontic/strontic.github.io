@@ -18,6 +18,16 @@ SHA384 | `5D39A0DE789F5B1332E970C2419CDBC7CE1E98736B2A1A76E723A23B13FED660F5E0AA
 SHA512 | `FEC6A607D16AB9A79A063B0DFD888C3100F3CA2C2B0CA18020563583BF81344DC818B06ADA58BCEC807EDD7EBF550A0AB69AEF5AAFD40E65D5486C8C1C2667DB`
 SSDEEP | `3072:VQh1pUC/uIQQiDuznDN8KvQ3qo/LQ6uoErZYpW8yVrp1k3q9PsQrvjC7:C3UPJQiaqYQ3NzHKWvwPf0kC`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\gpresult.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\gpresult.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

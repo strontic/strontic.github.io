@@ -18,6 +18,17 @@ SHA384 | `10F95967CF6141337DF5E77EABE6831848C606C8CB6E7068A1293BBA2AB642CBABBD5D
 SHA512 | `0E5557CE785ADB2CE7B36CE56DB1C4EDE746EEFCF8F3243DAFC92BB6473B928EF5D5AFF742F94DAFADBCA270C1446B595F249E1B5A8252B1725B824715D5F26B`
 SSDEEP | `6144:xPQ4TVWFSOj+jC6uFz2LJGRg4kLNnei36cw:JQq07FCdUc`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\sethc.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\sethc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -40,16 +51,20 @@ SSDEEP | `6144:xPQ4TVWFSOj+jC6uFz2LJGRg4kLNnei36cw:JQq07FCdUc`
 
 File | Score
 -- | --
+[C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-0490B8F08575C7AB5F358B07C1617F28.md) | 60
 [C:\windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-1EF5808E2ADC8AD7892E45551CE5C5CF.md) | 77
 [C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-6CF3E7D021A16A86178F840D787F2E4C.md) | 77
 [C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-9A846ED516E009A8409800B19402EF39.md) | 61
+[C:\Windows\system32\sethc.exe](sethc.exe-062940BA26F1204EBD5F62DF37D0C3A7.md) | 65
 [C:\Windows\system32\sethc.exe](sethc.exe-0D68CE0D6D390F926B4ECE77E44D4E30.md) | 75
 [C:\Windows\system32\sethc.exe](sethc.exe-F00FAB17E7FE21D930AA4A6CABD2381F.md) | 61
+[C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-07A336072239B2FAEC1FEA0E23A23A88.md) | 61
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-1913FD496CAFF87B409FAC35CD876274.md) | 74
 [C:\windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-69D795102CADA9D5FEC1089138DA48AF.md) | 77
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-C5897612D16810BE94A68C5EB6950598.md) | 61
 [C:\Windows\SysWOW64\sethc.exe](sethc.exe-406DBF91AAFCBA4331AA0B487D578E33.md) | 61
 [C:\windows\SysWOW64\sethc.exe](sethc.exe-5EBDA250D9AD873C3879282AC6F49FB7.md) | 82
+[C:\Windows\SysWOW64\sethc.exe](sethc.exe-999F4E59B7DB7AC9BA0A6F8DA894E2B9.md) | 63
 [C:\Windows\SysWOW64\sethc.exe](sethc.exe-9FE388226A8EF1B085441E21A3B0A57D.md) | 71
 
 ## Possible Misuse

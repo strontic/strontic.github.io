@@ -82,6 +82,14 @@ Type "CHOICE /?" for usage.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\choice.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

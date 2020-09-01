@@ -23,6 +23,13 @@ SSDEEP | `384:ohbmbbU5Kclb5Bc4XXGxai0+n/6ocJ/qWsjEWc6:CbmX8Kch5Bc4YD0YSocJ/6q`
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

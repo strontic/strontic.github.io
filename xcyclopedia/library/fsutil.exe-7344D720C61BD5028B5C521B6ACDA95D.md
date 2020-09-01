@@ -18,6 +18,16 @@ SHA384 | `45F22BF51EA18F18B32C67725FCBD767F608E72DEE0F675699B15D3B7D7A3EDD5AC70C
 SHA512 | `6D4148B3E7079DDC57D3B2BD5E90C4D1326CC817EBC95AE7FDDB446D2D28E011F78E62E1C1EC21D60C3984E6F041F16DAC4F4720C2C2387F97BCE1E074ACB899`
 SSDEEP | `3072:4Cyz+KlW+RInMlyfGt+1mlhHLYAHhAWqqkzL6ZqnEBcD3rYF4ZXTPou:4hW+RInMlyfGt+1mlRLYAHhAWqTzUBco`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fsutil.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\fsutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

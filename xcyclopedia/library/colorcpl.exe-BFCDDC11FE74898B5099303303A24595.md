@@ -4,7 +4,7 @@ title: colorcpl.exe | Microsoft Color Control Panel
 
 # colorcpl.exe 
 
-* File Path: `C:\windows\SysWOW64\colorcpl.exe`
+* File Path: `C:\Windows\SysWOW64\colorcpl.exe`
 * Description: Microsoft Color Control Panel
 
 ## Screenshot
@@ -21,6 +21,40 @@ SHA256 | `4FECEA309763CBA5109B644C4DB5DA4E17CB69E0772AABD00716AADA14EF9B2F`
 SHA384 | `071CA155BE051712BEEA50E9B8AF0DF496DEE2728D5B0FA85C60F653A9EDB24D9BD28BA3D8E30437E81A9957FF2DE79E`
 SHA512 | `9A12C28E3E30E91BD9119EB54EA8FA370EC3EDA7D8805DB87471CBE66E00C7D0E763357787C367F7DFD897246EEA7C097E1C6D6607C256F6BCF4ED137296DF2C`
 SSDEEP | `1536:D1iIPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:x1Xlvq7jSP1cR2prbpdCY9`
+
+## Runtime Data
+
+### Window Title:
+Color Management
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\colorcpl.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\colorui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\colorcpl.exe |
+
 
 ## Signature
 

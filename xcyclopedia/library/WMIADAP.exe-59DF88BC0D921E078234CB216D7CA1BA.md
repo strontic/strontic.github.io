@@ -18,6 +18,24 @@ SHA384 | `DBBB33A5BAA74761C4D15510A48E4DA328BE0BDCCB411AD1E172986C2885C5235CA664
 SHA512 | `FA630A62CF95BAFA2D3A9CB2F9AFD742F440BF00CA24CB808B746E3474735746147B9AB938ED2005034A22FA5E339F87A4D4B9B6982100DF3FEDC8305FC18285`
 SSDEEP | `3072:RGrchxbfGbfOF8oIbdp+q5e2ufvhSRs+oW+/fT6ru:9Lb+b+8bbDqSRs+bAfT6r`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wbem\WMIADAP.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

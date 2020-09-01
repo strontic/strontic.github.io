@@ -4,7 +4,7 @@ title: logagent.exe | Windows Media Player Logagent
 
 # logagent.exe 
 
-* File Path: `C:\windows\SysWOW64\logagent.exe`
+* File Path: `C:\Windows\SysWOW64\logagent.exe`
 * Description: Windows Media Player Logagent
 
 ## Hashes
@@ -17,6 +17,31 @@ SHA256 | `F100F9542A3D3B48868ADFCA2A5CA4C48960C66D5C0EA1B5D28F994A3B0D3739`
 SHA384 | `C51C6ED7C34E9E83D167C3107DD0D9EEE024B1870D3807AD16884B68F3A4CC870FF1D803E99CA4578E4AC3392C3371C5`
 SHA512 | `4F45244C5DCC1CBDAF5F982234D6FE7827BC2B07815F4BD71A90B75279E8592FE04641677AD870FF5634147748775D27FB4019F77F3E55910F595E6B6F6D4157`
 SSDEEP | `1536:m8JS2sV0ast4CpgSDXik+WuEeTJWcmX2oIuhkZHgxTMxFKrCKtmtZ:XS240RCCpgj7JWcS24SZHSeECKktZ`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1958 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\logagent.exe |
+
 
 ## Signature
 

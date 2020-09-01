@@ -4,7 +4,7 @@ title: twain32shim.exe |
 
 # twain32shim.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\twain32shim.exe`
+* File Path: `C:\program files\LibreOffice\program\twain32shim.exe`
 
 ## Hashes
 
@@ -16,6 +16,19 @@ SHA256 | `C1A191F13E22328261303BE66DC9030A37B7401AF1ADA3208537F0D85D42EAA3`
 SHA384 | `D077B34BBCE6146BC3AE1083CEEAA81A55D40125851B2E7003BFD6386AA177D361CCC4FD54F2A1FEC3F456F575EB02F1`
 SHA512 | `95A17ED4255A2E9DA7EA86C6E9C5056C9518E3B2F3D26AFEC17EBF2875D3DF92C70466CD4316DF1DD6D75CAADDC5074777613FD49B43CAFF53E8755C2F790AD4`
 SSDEEP | `768:SIzRzvzejUnUThuLAXTlNMmL5Swi6gtZGghavLEhFFlC:SIzRzvyjUn6huLA5Nlt+yuavLEpE`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\twain32shim.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

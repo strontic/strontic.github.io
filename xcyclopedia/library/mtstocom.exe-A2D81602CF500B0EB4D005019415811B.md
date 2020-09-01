@@ -18,6 +18,16 @@ SHA384 | `4452A9020E58E0443C1C669999BAC83F39C393BA85C9524CD992E0185B3BE4587AD91B
 SHA512 | `DEBFC2FD7AB7EA757086CA84D072F628F6B3F2EFF271663220DE0D542CDA853C93EE1C0CA9B1F533875C0135CD04975BA61DB9F8D58255BE00DB3C76913A82BD`
 SSDEEP | `3072:42AhA+ZtO7biJDVWhZ4GX1+fdn6RJYRJaSIP:4/OaiiH09+nASI`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mtstocom.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\mtstocom.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

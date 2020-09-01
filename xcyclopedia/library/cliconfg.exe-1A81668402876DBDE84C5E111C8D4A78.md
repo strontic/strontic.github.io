@@ -22,6 +22,16 @@ SHA384 | `9A13B56411F5790591BF74B4348401A79DF9F20FAE1457508CD3486654E971C9252740
 SHA512 | `0D94999BDC0DA6F7764B2A20CF6B0D4AA8C1670124D7F14A28FBF7CF8E7A410185C2DAA9D562A1D3415E42BF38C3E5E4A418E0FC4F87A3C6BA149806B8366161`
 SSDEEP | `384:Ut8oYa7wE5uYGR5xw7/SmWCwWSPXuNvBQAMYJQ2JQSkdowyo:88oj7wWbGua6wuI30lJBkvT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\cliconfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

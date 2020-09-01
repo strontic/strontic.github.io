@@ -18,6 +18,23 @@ SHA384 | `AF19772900759F221B66B73C6D0AD5167E5318BA2F47921B45D6E76E27A9003516FB9C
 SHA512 | `483EF5780B0F293522588047ECA949A5D73FF9560DB629F4EDE48DBC9C835EDFBFC99AB6B32998854E18E584FD5211A53C24E7D2E8D7A0A5C541DE171C8FC9BC`
 SSDEEP | `384:1LOP0eBg+HfPdbo9NfFaoFoO+ufarg5E37Zq/twa1STXTddgQO55WFZxoxtBs7Nu:1LOPNBDYNfFv8h37Utwa18dkCLxox07w`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cliconfg.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\clip.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

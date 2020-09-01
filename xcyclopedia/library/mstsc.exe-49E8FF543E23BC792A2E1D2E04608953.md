@@ -24,6 +24,23 @@ SHA384 | `C087669C57319CB842CD28AA946277D8E953821C8EA2EEEA1D8A826AF3D24DA493D60B
 SHA512 | `EFC1A98EA1DCE7CE8F937F8A8610D4BBE493C15222C48498D3E2FC068908502F2549F9B70231A75E849F785DECB811564E84B390A106D7BA8174ABB7407B11FF`
 SSDEEP | `12288:9cFLOV5UB7rv3FnAH2SayOoo7HOpaiUZmNJgLQgbRtUoAmyCQ28o:+ZOGvFAHROJHRiMmMMg1KA`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsSpellCheckingHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\mstsc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -109,7 +126,15 @@ To connect to a session in full-screen mode, type:
 ```
 mstsc /f
 ```
+or
+```
+mstsc /v:computer1 /f
+```
+To assign width/height, type:
 
+```
+mstsc /v:computer1 /w:1920 /h:1080
+```
 To open a file called *filename.rdp* for editing, type:
 
 ```

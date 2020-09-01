@@ -25,6 +25,20 @@ SSDEEP | `6144:nKzlwEJfWd1o8UmCz1Jf5KNXwy3Odjp19k5KNXf:nclwEyymCR3KVwy3OdLaKV`
 ### Child Processes:
 iexplore.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\PresentationHost.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

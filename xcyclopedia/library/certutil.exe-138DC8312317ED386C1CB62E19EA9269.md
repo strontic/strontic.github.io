@@ -145,6 +145,14 @@ CertUtil: -? command completed successfully.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\certsrv.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

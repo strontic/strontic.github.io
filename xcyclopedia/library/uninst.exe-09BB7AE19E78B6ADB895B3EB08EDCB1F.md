@@ -4,7 +4,7 @@ title: uninst.exe | FastStone Image Viewer 7.5 Setup
 
 # uninst.exe 
 
-* File Path: `C:\Program Files (x86)\FastStone Image Viewer\uninst.exe`
+* File Path: `C:\program files (x86)\FastStone Image Viewer\uninst.exe`
 * Description: FastStone Image Viewer 7.5 Setup
 * Comments: FastStone Image Viewer 7.5
 
@@ -25,9 +25,20 @@ SSDEEP | `768:C1cVhpQI2EQK0iPDh84nScF15GYbWjXO3XJYJRnAi085iyvmnQmvGOSU70BU+G+k:g
 ### Child Processes:
 Au_.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\FastStone Image Viewer\uninst.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\FastStone Image Viewer\uninst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\FastStone Image Viewer\uninst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

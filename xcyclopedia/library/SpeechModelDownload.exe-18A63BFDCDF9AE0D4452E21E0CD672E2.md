@@ -18,6 +18,19 @@ SHA384 | `1AB5AA382C01AAA24A6449CF000710511250B8771DCE0A09F41326A39977FEF2ABA802
 SHA512 | `6E8EBCAFEE5829530DE7B826672C3C4C31BCAD36A4B06DC39FAF429B815F2484889E23B6742ECD26A26F774458A1310ED02BB49472F6BC7B5625891CFA8AB69E`
 SSDEEP | `3072:Ps6DkEK94sT+duVpsohLgz2vXgYLcIMrB31iFyd/MJj655JKH5Cy36Ko:0QkR1z8ohv/gYLpMrB3AFyd/+cw`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\Speech_OneCore\Common\SpeechModelDownload.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: HelpPane.exe | Microsoft Help and Support
 
 # HelpPane.exe 
 
-* File Path: `C:\windows\HelpPane.exe`
+* File Path: `C:\Windows\HelpPane.exe`
 * Description: Microsoft Help and Support
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `25DCA0017E3884B81E8E33B48525F1BFED30CA4D69462954F41581A4C51E28837331A0
 SHA512 | `E70D457D017D91CF1D171FEED4509EBDF2E59BF877DDB9F5D58325A3DAD757FDAC2954845BA3CF1BC04B639F0D47C081FCAA55C82D89CA40AE1CA8A182D995CC`
 SSDEEP | `12288:CYQskmB4b43OYv/x+Pzr2PKlfs9W1W3MT3HOXKPXPiXuHNHGb6bH/zx/GCLW/nhf:lQlrYEzrWKlfs9WAe3H`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -18,6 +18,16 @@ SHA384 | `65247865EF4331F396F6A70096D7DBBA582EEB36045F1C9AEC18823E541836CCBE2B83
 SHA512 | `2034DD513F6166FE172B1C05EAE9B685E703A68629ECE0D8724C5C32CE97FAE073D496D382000E4B6E49E79BFABC6EA9FCBF67748F391D7325B517C8C2F93BAC`
 SSDEEP | `384:fMBMTMFBDts0CqD9FtszQx9XiIPs1EvpJ3IaeucCVxGZi4Onk3FCGedNZWkiW:f/M3Dts9qD9bszQfCEvcaeIVxG6kwndL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\compact.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\compact.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

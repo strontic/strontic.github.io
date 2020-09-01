@@ -4,7 +4,7 @@ title: Uninstall.exe | Everything Setup
 
 # Uninstall.exe 
 
-* File Path: `C:\Program Files\Everything\Uninstall.exe`
+* File Path: `C:\program files\Everything\Uninstall.exe`
 * Description: Everything Setup
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `3072:JweqOYEUXPn6WKBAkae31mgjrzElKdFkU6ag1kQ:uEUXSZCpe31mgjr4odRg1kQ`
 ### Child Processes:
 Au_.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Everything\Uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\Everything\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\Everything\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

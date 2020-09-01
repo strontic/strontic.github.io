@@ -4,7 +4,7 @@ title: SensorDataService.exe | Sensor Data Service
 
 # SensorDataService.exe 
 
-* File Path: `C:\windows\system32\SensorDataService.exe`
+* File Path: `C:\Windows\system32\SensorDataService.exe`
 * Description: Sensor Data Service
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `071E545DAAE61B9ADED9D889BF4E8D953D825C1203793F9B4C09E02550544216`
 SHA384 | `6222D39597B29FEA0FC58CA130D8590B81F2CBD46C760F57B346A409BC4264ADABB4C10418E408D2978304D0F7B81AED`
 SHA512 | `C3B6B2022AF9B0DFFB8F5D861567B140206CD15F79D14EE28AB14B64DD31705C3782CD3581CAA04E3453B783964213F4F12A5DBB923D3030EA84085DA1013BFB`
 SSDEEP | `24576:kdTcl1a/sOMelS7mAzOMGA8yEQzlj9MO3Yqo9qq:kdQl1ksKS7FqMhZEQzlj9MOI`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SensorDataService.exe |
+
 
 ## Signature
 

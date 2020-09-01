@@ -18,6 +18,23 @@ SHA384 | `A7CA3E5B9D71779A62A0B814DC3A82755FB4CD78D5F61250F6CFF46D7A6CCFCD045C74
 SHA512 | `D3C748BF8F42F98AFDAC29973D2BDF7E8BF6D3F63481F2D3E1536588A6D2C9184236C5CDE8F01DAEAC196E13E7FB17F5BA83E749B7395BB7214C78572E034F7C`
 SSDEEP | `1536:fXB9Ug7Ef5YVVRcM9juqM/0eloKd/IpNfKVN2YPw:fxkf5Yv7uJ02epNfmN2Y4`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\UNP\UNPUXHost.exe |
+C:\Windows\System32\USER32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

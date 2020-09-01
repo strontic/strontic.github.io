@@ -4,7 +4,7 @@ title: rwinsta.exe | Reset Session Utility
 
 # rwinsta.exe 
 
-* File Path: `C:\windows\system32\rwinsta.exe`
+* File Path: `C:\Windows\system32\rwinsta.exe`
 * Description: Reset Session Utility
 
 ## Hashes
@@ -49,6 +49,13 @@ RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -86,7 +93,7 @@ File | Score
 Enables you to reset (delete) a session on a Remote Desktop Session Host (rd Session Host) server.
 
 > [!NOTE]
-> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
+> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
 
 ### Remarks
 This command is the same as the **reset session** command.

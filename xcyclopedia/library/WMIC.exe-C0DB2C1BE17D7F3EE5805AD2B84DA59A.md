@@ -4,7 +4,7 @@ title: WMIC.exe | WMI Commandline Utility
 
 # WMIC.exe 
 
-* File Path: `C:\windows\SysWOW64\wbem\WMIC.exe`
+* File Path: `C:\Windows\SysWOW64\wbem\WMIC.exe`
 * Description: WMI Commandline Utility
 
 ## Hashes
@@ -150,6 +150,13 @@ For more information on CLASS/PATH/CONTEXT, type: (CLASS | PATH | CONTEXT) /?
 help - Alias not found.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: RMActivate_isv.exe | Windows Rights Management Services Activation for De
 
 # RMActivate_isv.exe 
 
-* File Path: `C:\windows\SysWOW64\RMActivate_isv.exe`
+* File Path: `C:\Windows\SysWOW64\RMActivate_isv.exe`
 * Description: Windows Rights Management Services Activation for Desktop Security Processor
 
 ## Hashes
@@ -22,6 +22,25 @@ SSDEEP | `12288:HDV+9MjWE/1pLKDRXbEh6OwhKUWr8D0oDpJ2QbMS/Qs4HnTs12vROdBie42WoQD:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\crypt32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\RMActivate_isv.exe |
+
 
 ## Signature
 

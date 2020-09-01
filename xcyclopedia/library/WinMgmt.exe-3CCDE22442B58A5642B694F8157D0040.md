@@ -4,7 +4,7 @@ title: WinMgmt.exe | WMI Service Control Utility
 
 # WinMgmt.exe 
 
-* File Path: `C:\windows\SysWOW64\wbem\WinMgmt.exe`
+* File Path: `C:\Windows\SysWOW64\wbem\WinMgmt.exe`
 * Description: WMI Service Control Utility
 
 ## Hashes
@@ -88,11 +88,20 @@ Usage:  winmgmt	[/backup <filename>] [/restore <filename> <flag>]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\wbem\WinMgmt.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -20,6 +20,15 @@ SHA384 | `437CDD848DFD28668F90A2440B9A4EACC072B83F15CA699A64C6CF811AAAE79014EBF0
 SHA512 | `9D60F1A4792D975504CC36E111C3E97970162BB7FC96E27227DCB97A63749C2DEB01B98C7552138B92BDE4E754E8BB8C73A94CF1EBE849009C269593C5AB9BF7`
 SSDEEP | `1536:1qZpXDBhCopoyz/JPvm+g1RGj7P99Nn+Cls64I+6kZE1W5anHSA3yCn:qdFhxomlTbp+TTE12anHfCC`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ServerManagerLauncher.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\ServerTelemetryConfig.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

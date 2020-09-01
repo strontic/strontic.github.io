@@ -18,6 +18,24 @@ SHA384 | `9800D46BF83318819EBFB157CD514922DF7901892901EA79C5B002023F6F2C98D39A97
 SHA512 | `15EE9D59BD528D3E5897C7574552A8AFE68E592E5064D03B1BC9F7B5F3F9BE308A9A2E39BEE7B8A190C4DEC5EB36FCFB347D488187B93E352AC03B2DD6E4DFCD`
 SSDEEP | `1536:piDtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jx:EzECTMpuDhjRVJGb`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MaintenanceUI.dll |
+C:\Windows\system32\MSchedExe.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

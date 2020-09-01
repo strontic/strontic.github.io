@@ -18,6 +18,8 @@ SHA384 | `C47823646B2511427578C8C20FAB6B8F00BEA5F95C02E6F8A2A2A2F162B1BD2EDA9DF5
 SHA512 | `20FB0032F9DDE474488B136B8AC512761DDEBCEC22382E1A8E0530ECE4FA03035FB0B79FD99CCD1B6EC7BC98BA5AB4EC02572D7C9BAD967D5F543DCB58ED5B06`
 SSDEEP | `768:LCBu/DB8PbDz0mVMRlpTrmOjTtCCzprfu:mBuV8wmORlpPmOjTHJfu`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 
@@ -39,6 +41,16 @@ TFTP [-i] host [GET | PUT] source [destination]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\test.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

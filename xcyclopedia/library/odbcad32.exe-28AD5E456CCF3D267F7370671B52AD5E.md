@@ -4,7 +4,7 @@ title: odbcad32.exe | ODBC Administrator
 
 # odbcad32.exe 
 
-* File Path: `C:\windows\SysWOW64\odbcad32.exe`
+* File Path: `C:\Windows\SysWOW64\odbcad32.exe`
 * Description: ODBC Administrator
 
 ## Hashes
@@ -17,6 +17,40 @@ SHA256 | `6E28C875BFA690D77CDC3FE2E9E1209EC9517034DAEDE8BD28903E3FB6915D40`
 SHA384 | `6F036A7E56BD3B6136A533DD145D19B2F01FAF8B05DBE974CDBCE7BBCD9838E73EA9A07DB211A48093FFB91FC8181401`
 SHA512 | `00C6F9CABACB77698D2B3F0695C912562510FE881678358FAEE5098583B78EAE7707639E81BCC9C784A440112ADD4CE68BAA8F0DA14DBE3A61AFE2D410375CB0`
 SSDEEP | `1536:ZN0Dytv3Jrz6q9EyYt9FlUIlbvBjIloW:ZN0UUKI9jo`
+
+## Runtime Data
+
+### Window Title:
+Microsoft ODBC Administrator
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\odbcad32.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\odbcint.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\odbcad32.exe |
+
 
 ## Signature
 

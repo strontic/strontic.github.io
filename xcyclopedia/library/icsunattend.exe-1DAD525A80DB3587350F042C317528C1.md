@@ -18,6 +18,16 @@ SHA384 | `6AB8CF04B2077ED6D173C3D97A3EA0E493EA457ADEC9C07A95BB351754E75BAD40BC30
 SHA512 | `3C430160301156FBCC97F125F6D92444C95CB14917AD3D9175B1C52AEF60FBAD08768D494AEE8123E0678EB7160586EDCCFAA47E5705701A2F52D946074CC490`
 SSDEEP | `384:ywpoHGZkZ8LGmuqwJx92HjoS6BreqDzwWERW:tu8OXjq2rEqDzm`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\IcsEntitlementHost.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\icsunattend.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

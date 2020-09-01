@@ -22,6 +22,47 @@ SHA384 | `8F592ACF04E77A495E04C76BB65831A36B395DE5726012362823475CECEC7913B8A318
 SHA512 | `FEB3016D9BD68FF01FF9A4CD056FB1C0F63CFE6BB46ED9406B5D9EDC82DB1FFB92216CFCB7B51929F3D84A5FFECB9D00AB5D512CE084D6D9A8F2BACCD00B6DC7`
 SSDEEP | `12288:z2dXCJNAcvhunX1vRTbiY6+uabaXdAp8qrL1:wXcNBunlvRTGY6ZAaXdAp8qP`
 
+## Runtime Data
+
+### Window Title:
+Add Word
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
+\Sessions\1\BaseNamedObjects\169cHWNDInterface:10d0790 | Section
+\Sessions\1\BaseNamedObjects\169cHWNDInterface:10e0286 | Section
+\Sessions\1\BaseNamedObjects\169cHWNDInterface:90a00 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SatoriKnlDict_MemoryDictionary_IMJP_15__M_S-1-5-21-2047949552-857980807-821054962-504 | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.

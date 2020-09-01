@@ -4,7 +4,7 @@ title: InfDefaultInstall.exe | INF Default Install
 
 # InfDefaultInstall.exe 
 
-* File Path: `C:\windows\SysWOW64\InfDefaultInstall.exe`
+* File Path: `C:\Windows\SysWOW64\InfDefaultInstall.exe`
 * Description: INF Default Install
 
 ## Screenshot
@@ -23,6 +23,43 @@ SHA256 | `0A07E8ABEDEA7406F4F1BD0A2A10CC46FD9461D464118D23E2845EB68AF26E1A`
 SHA384 | `A4040315057F0B013D243A5AFB9A86664F2114B87793146A7209D425EBF9C1AB4FFF96D7F936103D717BD3A20A4C50FA`
 SHA512 | `C0631A03FB5D4FCE8235342C2F1983A5A94EFDDFCCE62CF24BFC132342ADD2D944FE37820A81970277462C16642399BD2C289158BC9B50D322F914FD45D7CD1A`
 SSDEEP | `192:v7sbtMNudIEpxpVW+3Dg/otbtmisZKW/GW:vQt/lpTVW+sAtRVoKW/GW`
+
+## Runtime Data
+
+### Window Title:
+Install Error
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\InfDefaultInstall.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\newdev.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InfDefaultInstall.exe |
+
 
 ## Signature
 

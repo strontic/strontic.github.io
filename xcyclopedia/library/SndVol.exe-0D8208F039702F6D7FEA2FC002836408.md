@@ -4,7 +4,7 @@ title: SndVol.exe | Volume Mixer
 
 # SndVol.exe 
 
-* File Path: `C:\windows\system32\SndVol.exe`
+* File Path: `C:\Windows\system32\SndVol.exe`
 * Description: Volume Mixer
 
 ## Screenshot
@@ -21,6 +21,71 @@ SHA256 | `496FEEBC8BECE33F0D6B5F11B7D03A6A7826EA3D72AC253FBC528C5C3AEE72FF`
 SHA384 | `BA610FFC108ADF4AC320831535D8BE04357260CC9459CCB9207AE50E30D54F42C19C23168889644484DE9B0DFB77AB91`
 SHA512 | `CC5718701FFB6BD48A34F86F8261AF2B2A4D0CE64E9935D632430ED2019DFF5A2742C5E2EA5651921BB1A7BE311C9A10247365D358B2761684532A006E2C967E`
 SSDEEP | `3072:GnKtvVY2qCA4eXt+e0k95N4HfRyqPAP/PKiAcLfJ9sBjbEyB7HbIHP/:GnKYCA5XEed5N4HfRVjcrJ9fy103`
+
+## Runtime Data
+
+### Child Processes:
+explorer.exe
+
+### Window Title:
+Volume Mixer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\sndvol.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SndVol.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa\gdiplus.dll |
+
 
 ## Signature
 

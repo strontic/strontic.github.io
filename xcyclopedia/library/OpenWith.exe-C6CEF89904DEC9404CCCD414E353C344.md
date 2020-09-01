@@ -4,7 +4,7 @@ title: OpenWith.exe | Pick an app
 
 # OpenWith.exe 
 
-* File Path: `C:\windows\SysWOW64\OpenWith.exe`
+* File Path: `C:\Windows\SysWOW64\OpenWith.exe`
 * Description: Pick an app
 
 ## Hashes
@@ -18,11 +18,50 @@ SHA384 | `72A404E7B003397D9EABA4512EE859BE04A9CD4B5CE81F36004EB1216A6A3FA1A2B11A
 SHA512 | `46434021876CCD62569CA7AC2CB2FF30D91F9B3AEBA136600410B3DC4E9AB88E5EAC7973DDAF4C4EBA17C08CBE198A90E41E8BF08379B8CBA3F7ACB5EEE82348`
 SSDEEP | `1536:hl6g16xnOg26tRxwMF50aimuCHLswrKyLFKQfKQTzBNer+CE+Ge+av7FPW4yA:76cOtRxwavr3wkrer+CE+G8F+A`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\OpenWith.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\twinui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
+(RWD)   C:\Windows\Fonts\seguisb.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSEC1BE0 | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

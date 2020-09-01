@@ -18,6 +18,21 @@ SHA384 | `1B15F02D159508C5A5AE837B726A4A5D6E58544DD3DDB85ED58E0E77A03FA14661008A
 SHA512 | `C437AC7D488B40B4CD6F43040124544FBE1B634FEAA7F218FCF9FD19882C89F29DCB565F1DFE97B9686280FE10718BF57BC61E53E8756593FA29168861B2F77A`
 SSDEEP | `6144:XXRhscr7sO8g+RMxZGlK/P2kJLPOYXJjHH/2fEVdnoiEEiEEsfByAwZZS4onQF3W:Xb7syxAloeUmYX9/o5XIB7GjF3mW+xR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\wkspbroker.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wksprt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

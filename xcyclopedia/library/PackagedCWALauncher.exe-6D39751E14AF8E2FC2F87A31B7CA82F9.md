@@ -18,6 +18,24 @@ SHA384 | `F86481929C57B3ABF8D4D74A8925B199C61196134B311F32B5919D071CC5C785077705
 SHA512 | `B4544435DDB84EB90EA24BEF2B2345C661220DC1219BFD48B9B3057426364E2F80DE321C41C156296469A6DEE8250056E24C2B6C08F7F55B579BA0116F8E1476`
 SSDEEP | `768:rsg8AAfcjLNNme4VI0tTNxlRfz/CSbBxn7H5vZT8C9DlrbZSUu:NUqP4Vxt3lR+SNxn7H7T8C9Dx9SUu`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\system32\PackagedCWALauncher.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

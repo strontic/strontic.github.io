@@ -18,6 +18,22 @@ SHA384 | `32126D9CA423828DEE1A039D6F320C69F525D0584F23AA99C0C48AC3889C211C73650E
 SHA512 | `F429BDD75158249FEBCBFA9094CC7F2FE4A7A292CAE5818E95F51AA505F9766AC78DB6431B8532FE994A5147E983D750869532D9F43C6A7470E32EE9FA40F33E`
 SSDEEP | `3072:n4MJyeF34WSPTrf9OLzh4bJurJ/pJyeoHpM7CDtamBZgNRO5jzw7Qu6zt:4wyeJRSPTroCDtamBZghQp`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DTUHandler.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

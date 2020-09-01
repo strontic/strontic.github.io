@@ -22,6 +22,49 @@ SHA384 | `F1AE180469AADC3CFBEBDF56CCC6BF3EB72950050328ECC59ABDC239DC1879C7158C1A
 SHA512 | `EA6E266602311883DA7E1CCFE96A7F0CEC66AB2114C04200D885B0C6E26687A4BA7A4F140DD89087D60D5D84F702A4F1381C6858D43A810B5C9469B5927A5CC9`
 SSDEEP | `12288:qN+NnceYDudON67mYscZaQ02tf5KgbpHjaLxulGMmCb5Etixx9K91V1H3jfc:qN+NnceR/mYsYv02tf5ZNHjmxulGy9E0`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\SYSTEM32\MsCtfMonitor.DLL |
+C:\Windows\SYSTEM32\MSUTB.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\netutils.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\oobe\msoobe.exe |
+C:\Windows\SYSTEM32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\SYSTEM32\wdscore.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\windows.storage.dll |
+C:\Windows\SYSTEM32\WINSTA.dll |
+C:\Windows\SYSTEM32\wkscli.dll |
+C:\Windows\SYSTEM32\Wldp.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

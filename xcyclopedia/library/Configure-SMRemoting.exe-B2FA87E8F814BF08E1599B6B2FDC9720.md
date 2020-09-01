@@ -18,6 +18,16 @@ SHA384 | `FD38924AA2E453D4103AC2DF482991464AB8DC78B8B44FF30E4632C209D79FBF8EFE12
 SHA512 | `64790EF5065C698C1676185125937BA03A263FD091336EA297526A82E3003B134F0F1646D0BDC557F535C0A00F1E31B22A9573C53676579E12556FFC16AD40BE`
 SSDEEP | `768:LJbkYLEzXQbUXZEbfSHYiVxQxd0Eb5juotuuDvwpFibaHoL1zkHoAECq638K/:L2nS2Qxd0EbBu09vEFibeo9Ar`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Configure-SMRemoting.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Configure-SMRemoting.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

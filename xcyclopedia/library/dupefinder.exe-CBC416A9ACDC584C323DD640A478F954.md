@@ -27,6 +27,22 @@ SSDEEP | `12288:HrNRWbM8QhZGjGgGvbT0LGVVVVVVVVVVVVVVVVVVNW:hgbMFhc6gGW`
 ### Child Processes:
 MemfilesService.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DTUHandler.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -45,6 +61,11 @@ MemfilesService.exe
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\dupefinder.exe](dupefinder.exe-FD0EB8F9D3A2D854C5EB4C951AA61977.md) | 94
 
 
 

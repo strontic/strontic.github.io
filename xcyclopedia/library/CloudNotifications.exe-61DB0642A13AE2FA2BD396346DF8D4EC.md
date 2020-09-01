@@ -18,6 +18,39 @@ SHA384 | `742EA3C393D6CC3D09BFDA85FA47114C05404B5795E7B4CEB67ADC7C3C668FAD72D680
 SHA512 | `D928504D80E3227379DDB3460B033EF88F95956D6682DA405286A4B5DE737DF38D93BE8AA24EAC3663BCC8B8C493B4D1885ACD3E0E35751C89C73ED427D80865`
 SSDEEP | `1536:P+KGtFXerKIEynO4ODc4XZY+z1GcLZdMiG9w/E6pPXfP:PCXUHEykDJC+z1ZVGf9bS/H`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\system32\CloudNotifications.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\DUI70.dll |
+C:\Windows\System32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\Windows.UI.Immersive.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

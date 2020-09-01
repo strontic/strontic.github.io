@@ -18,6 +18,15 @@ SHA384 | `193080C3A7CD849613A80577F7A66F00A17DE92C582033176A212A4292EB64A2C9CE96
 SHA512 | `94CEC8FD27B1227455FD747FEA0A34CFE7C4335A6D0D180F0E3BD580842A527882704D6DDD5B6BA62B162ACB27ABF62EEC3333AF4299B8CA0AE24BFEBCD3EB1F`
 SSDEEP | `3072:d3fxCdL/4n2T6ZVVxmL/GrdTobO2tQ8YE82WAZj4QPJgYzWexVwuUg+L9G40jQLW:dERGritQ8YE82WmjkUzCvLKJFc2`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\escUnattend.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\esentutl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

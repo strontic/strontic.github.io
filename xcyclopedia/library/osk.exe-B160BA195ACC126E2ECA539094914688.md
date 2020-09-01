@@ -4,7 +4,7 @@ title: osk.exe | Accessibility On-Screen Keyboard
 
 # osk.exe 
 
-* File Path: `C:\windows\system32\osk.exe`
+* File Path: `C:\Windows\system32\osk.exe`
 * Description: Accessibility On-Screen Keyboard
 
 ## Screenshot
@@ -21,6 +21,25 @@ SHA256 | `79C62BDE821FBB73CCD72621E4EDDFF3D5DAE7B915BB7620084FA72E324B3CC0`
 SHA384 | `43C20D2783F395B86D98065837ADE6932B900AE41EC55C0597CD19F4935C68E1AA9908C84E699F408300E95934A93521`
 SHA512 | `579CD2E5A17F35D7A2487B229D3018D974A7A44D3380F2D697061B54D81E72FA472D8AEA59006F15FFB688E1C17E2CF9FC5E6CCA7A9072A59EEBB6DA10D1201B`
 SSDEEP | `6144:Yb/lKGivRTnrr1hf7Wc1OcvH3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZ:I9KGMRTXQjmNwzaoo`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\osk.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: jrunscript.exe | OpenJDK Platform binary
 
 # jrunscript.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jrunscript.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jrunscript.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `04950849D042BB55C5E76D5659EFD53AB7F6B2A3A6F1A701118A3ED89C4A9B6B`
 SHA384 | `03EB1CA8C549870DABF168EB29330BEC867F9F4FCF6EC392F14CBE8C5184F81F60D76C586B114CA26063338A415C0DF6`
 SHA512 | `1B8972D5CDE1464BD685D849D7A0167416CB1FECA55C0F9CA93FD1A553F18DB36AD008F90A4704B6EC236259D4EFCD6AE39ED18E1D40BCC2005D3B1A2763DEAD`
 SSDEEP | `384:wb9bCPq99YBbFv8p45A0QK6jSpUTDgf2hEc:0uPJFQ45SKg8UTUf2hJ`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -44,6 +46,16 @@ missing, then interactive mode is used.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jrunscript.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -66,8 +78,8 @@ missing, then interactive mode is used.
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jrunscript.exe](jrunscript.exe-B8C457CC6E8878FC4E78DF87FE69A04F.md) | 47
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jrunscript.exe](jrunscript.exe-7C4A5CAEF06DF2591580E764C20610EB.md) | 50
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jrunscript.exe](jrunscript.exe-B8C457CC6E8878FC4E78DF87FE69A04F.md) | 47
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jrunscript.exe](jrunscript.exe-7C4A5CAEF06DF2591580E764C20610EB.md) | 50
 
 
 

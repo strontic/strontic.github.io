@@ -18,6 +18,16 @@ SHA384 | `C3289DC519FE29F5CD9DE58DD683F73EB503F9C99865E015C96A570104AFD045ED7683
 SHA512 | `A5C8E9EFC50251711B7622335E7FD6C90B23BB06EC3ABDE53FAEFBFAF405D37AF491866D341F6EE9B18004AE429486552831C3AD73AC54191829E0CE1C009411`
 SSDEEP | `1536:TOqtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jsx:iqzECTMpuDhjRVJGax`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesPerformance.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\SystemPropertiesPerformance.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: qbist.exe | GNU Image Manipulation Program Plug-In
 
 # qbist.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `B27D2C65C6EA963C1B848926EA054BFE63B64BC175DFC5B683A00DF6FD4C90F5`
 SHA384 | `0EA070549AD720608D2B125415B9F650E1CC7521C3EB0E9E5F9C0D92411725E741799410187F00717466CEF1189C7073`
 SHA512 | `4B3BA69A8DFA059B686074FC35E652F299A3E9449F004227749A36B1F3F5014D3D89B62EE32004B68B5320D672AEF3E9D36D35448CF8292886D7BDCBD7340DB6`
 SSDEEP | `1536:5K+Xgw4iyRzgpBIJJEH4IDGGsVQpvmaipiPWyaisWXi:5UMmpGsVQpvmfm5eg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,8 +62,8 @@ SSDEEP | `1536:5K+Xgw4iyRzgpBIJJEH4IDGGsVQpvmaipiPWyaisWXi:5UMmpGsVQpvmfm5eg`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\decompose\decompose.exe](decompose.exe-4C2C69A5314A02926EE16BA485B229A8.md) | 44
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\nl-filter\nl-filter.exe](nl-filter.exe-4C4C435F065E5EC59F7E4605D643065E.md) | 40
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\decompose\decompose.exe](decompose.exe-4C2C69A5314A02926EE16BA485B229A8.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\nl-filter\nl-filter.exe](nl-filter.exe-4C4C435F065E5EC59F7E4605D643065E.md) | 40
 
 
 

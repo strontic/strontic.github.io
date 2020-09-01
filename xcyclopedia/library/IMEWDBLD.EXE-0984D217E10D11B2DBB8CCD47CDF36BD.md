@@ -4,7 +4,7 @@ title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
 
 # IMEWDBLD.EXE 
 
-* File Path: `C:\windows\SysWOW64\IME\shared\IMEWDBLD.EXE`
+* File Path: `C:\Windows\SysWOW64\IME\shared\IMEWDBLD.EXE`
 * Description: Microsoft IME Open Extended Dictionary Module
 
 ## Screenshot
@@ -21,6 +21,37 @@ SHA256 | `C6CF94EE76F288CF59EDEBA4440CEDF08264EE1EA6F077DF654A0E9C5149F491`
 SHA384 | `B2BED978453E382510491B05274AD0759931273EB4151D6815BF3A413EF62872858882B2D710B985851CC6279165C9A8`
 SHA512 | `885060FBC753C4CE02BDF46671C70BDBA74E75584B14C5CC0826F3E184BA3ABB0FA279854121F9C5A7A6B75E64051DB57A38F88833B3A42530619A1FF11DA59A`
 SSDEEP | `6144:sI9YzjicQ9utidKrVvI9p+hOHOty/sLRW3YolFqVQ7Gs/UEVTppNX+:rYzGcAGidKrVvI9p+MHOU/003FsQ7GsT`
+
+## Runtime Data
+
+### Window Title:
+Microsoft IME Open Extended Dictionary Error
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\shared\IMEWDBLD.EXE |
+
 
 ## Signature
 

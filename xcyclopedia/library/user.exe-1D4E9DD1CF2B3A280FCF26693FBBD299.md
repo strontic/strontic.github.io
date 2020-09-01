@@ -18,6 +18,16 @@ SHA384 | `A1BE6F8C9D54A2F16A641BE488E13EA375A1F356861A64D3630E29C7A069D610772896
 SHA512 | `5B0FE4C5B92D16B9277DED478D3319F6B60AAFF147990AD58142F7D881B307C1DF963E5FCD1A0EE0E0B7C717C59BA1FE409D4FC14DC4ED38529442841CE4A562`
 SSDEEP | `24:ev1GSgGXpGiRfAmykJPOYuIZW0gRNHQ02Si35WWdPOPNL:qgGXTAmlPOxIZWj7HJo5Wwa`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PeaZip\res\upx\upx.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\user.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

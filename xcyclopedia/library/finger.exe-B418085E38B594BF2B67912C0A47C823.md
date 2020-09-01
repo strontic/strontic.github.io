@@ -18,6 +18,14 @@ SHA384 | `EEA535AD8CEC2BDCD4014C7FAE026CBB4180F5F663372D043127D8713E2CFA06D26114
 SHA512 | `95BA1F34EA167130EFDEBD8A9012BE66BAF8040114F9D1C15F221B5A2665DC7856BDC7DB970F2CA640A2CDEFA6FE687B4340CB2B2CB4230FB28C004882D857CC`
 SSDEEP | `192:ZdjOGevsMYb5oXHDpDTTRfvo9F11uXMpURALsWL0WcW:jOGroXHJR4vuXtRWL0Wj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\finger.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\finger.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

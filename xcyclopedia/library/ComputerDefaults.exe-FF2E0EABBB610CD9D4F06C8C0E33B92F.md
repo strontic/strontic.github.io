@@ -4,7 +4,7 @@ title: ComputerDefaults.exe | Set Program Access and Computer Defaults Control P
 
 # ComputerDefaults.exe 
 
-* File Path: `C:\windows\SysWOW64\ComputerDefaults.exe`
+* File Path: `C:\Windows\SysWOW64\ComputerDefaults.exe`
 * Description: Set Program Access and Computer Defaults Control Panel
 
 ## Screenshot
@@ -22,11 +22,24 @@ SHA384 | `7B9A8E9264A3EB7C212785F0B9F1CE64FAFAAAE7E7D2217301CE9130F121F6818E65BD
 SHA512 | `FB03F9449F9C54FA2643D32EA0105037F53550A61C71E655D02C69D926148A0E04A9A1D63A496A9F74F859521F3F09184415099B308BC670E1AE698BEA893176`
 SSDEEP | `1536:0IQOnuDjXYdD0JrePojh6tGryrURDoq4OZZZLlCIibB8:X7ufYdDVwRD68wbB8`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ComputerDefaults.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

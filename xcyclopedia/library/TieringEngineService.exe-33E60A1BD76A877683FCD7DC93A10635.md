@@ -4,7 +4,7 @@ title: TieringEngineService.exe | Storage Tiers Management
 
 # TieringEngineService.exe 
 
-* File Path: `C:\windows\system32\TieringEngineService.exe`
+* File Path: `C:\Windows\system32\TieringEngineService.exe`
 * Description: Storage Tiers Management
 
 ## Hashes
@@ -17,6 +17,25 @@ SHA256 | `917F104892FF1890BE2AB218B99C2DFED8287AB93EA6895BA74090783D4E341C`
 SHA384 | `675D4F03D5594DC1E51C213726AEBBD9875689F86B37D64F8782ACDD792DED51051F779E61386A0CA3F3ACDF74F72069`
 SHA512 | `C3A715BB6D3771E7839FC7B38B307B9BF6DEB7411203CA42020084F54438070570D59277FE2A320F83512170FF9A99B522207A21335C999AA896794DF2463D40`
 SSDEEP | `6144:EjWq9JnJtFSsydvFyshpyNqZkNw16puxRbkGqG:Ei2JnJyhh+gkyxIg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\TieringEngineService.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

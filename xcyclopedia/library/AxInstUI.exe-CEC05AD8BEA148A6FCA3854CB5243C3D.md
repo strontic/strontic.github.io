@@ -18,6 +18,25 @@ SHA384 | `FD0ABCED0FA0B25BE0D488249946D7D79009D867D81088E1F8036F58E082A19C7A5D9B
 SHA512 | `280D5B72B03BAEDA85034F27AC6F6FD28AEA64A4A64DEB3EA264FDF286BB672A2A44A481D9C3260AAE307CB039DF5E685D63A4701609B2262539C1ABDCD9719A`
 SSDEEP | `384:2j00uSxMVdckL061itZdOTw+1xq3UZU9a1xq3UZU9GW5IW:2j0h9pL0ntZdOTw8ZU9QZU9h`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AxInstUI.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -42,6 +61,7 @@ File | Score
 -- | --
 [C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-04D542885F20AADF19D2D2C3464B4835.md) | 50
 [C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-2618A5EF213A0489A61F803738B0E448.md) | 58
+[C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-3573538F2EC013D2AE9C273310925EE8.md) | 57
 [C:\Windows\system32\AxInstUI.exe](AxInstUI.exe-6FDCF5C07AC244077ACCE422DBB4D330.md) | 94
 [C:\WINDOWS\system32\AxInstUI.exe](AxInstUI.exe-EFE7E562B7DB17FD8C37B376A7FF2E50.md) | 66
 

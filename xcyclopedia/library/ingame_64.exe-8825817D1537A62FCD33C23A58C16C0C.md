@@ -4,7 +4,7 @@ title: ingame_64.exe | Trillian In-Game Plugin
 
 # ingame_64.exe 
 
-* File Path: `C:\Program Files (x86)\Trillian\plugins\ingame\ingame_64.exe`
+* File Path: `C:\program files (x86)\Trillian\plugins\ingame\ingame_64.exe`
 * Description: Trillian In-Game Plugin
 
 ## Hashes
@@ -22,6 +22,29 @@ SSDEEP | `1536:7t3CDLshNkhYEmd7fu+dkKixThKkov9XosWNWjdc9dlTIrUUdCxN:7t3CDocSd72+
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\DirectInput.{5944E681-C92E-11CF-BFC7-444553540000} | Section
+\Sessions\1\BaseNamedObjects\Trillian_IngPlugin_Global_Shared_File | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Trillian\plugins\ingame\ingame_64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

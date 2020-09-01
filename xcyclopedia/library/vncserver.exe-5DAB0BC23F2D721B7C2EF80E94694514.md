@@ -4,7 +4,7 @@ title: vncserver.exe | VNC Server
 
 # vncserver.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\vncserver.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\vncserver.exe`
 * Description: VNC Server
 
 ## Hashes
@@ -317,6 +317,16 @@ Agent Parameters:
 Bad argument 'help'.  Run with -help for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\vncserver.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

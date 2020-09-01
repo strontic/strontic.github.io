@@ -18,6 +18,13 @@ SHA384 | `581727BA413150B6DAC749A9DDE67E88D4114D18C2DAA4590C38E2DCB218B8243E3E22
 SHA512 | `24F9D574C8339257921101C9CB9B3DE339C8D0473537287E5B2C1360E9685581A80CF2F54D7AB4B7C3C456B81AAB6D07D6222BAF99ED06D07C097FEBFB11D253`
 SSDEEP | `384:RYXZfMN6MwM4h+AdBmkTSk+ArjTRJpdfcMbXsecdA4vWSuba:RAZfMN6lM48KMMSHU3P0wJ6rF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\inetsrv\w3wp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

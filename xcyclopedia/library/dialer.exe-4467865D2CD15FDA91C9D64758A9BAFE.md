@@ -4,7 +4,7 @@ title: dialer.exe | Microsoft Windows Phone Dialer
 
 # dialer.exe 
 
-* File Path: `C:\windows\SysWOW64\dialer.exe`
+* File Path: `C:\Windows\SysWOW64\dialer.exe`
 * Description: Microsoft Windows Phone Dialer
 
 ## Screenshot
@@ -21,6 +21,39 @@ SHA256 | `366857DE6E835CA6A12E33503F6726A2E8528E7F1F9AC74435E2A6BD3C3ED481`
 SHA384 | `A3B5206E049751F194F272D3FA4A4B6769EDC5E28A2A1A7F0705CC156FBDA404E31749AB4AB714C105DA5023DAC3F1B4`
 SHA512 | `A99BBD09F1E50AC8D2C6DBD26791354BBC1BD8AE9655E7D43793A7D3EAADF7AD49F0A64E0A898622B527B7963B3BAA23EF4DF1FB05885298DFE265A59836AFAB`
 SSDEEP | `384:tBp25iPnE6e9vGoH+WWjOMd213y1CaUgDgkK384jLhMFVRLg4R81dULWtUKWjdXz:tG5xMoHCjbd213+Ugk70P+1dU/dv`
+
+## Runtime Data
+
+### Window Title:
+Phone Dialer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\dialer.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dialer.exe |
+
 
 ## Signature
 

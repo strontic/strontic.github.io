@@ -4,7 +4,7 @@ title: ntprint.exe | Printer driver software installation
 
 # ntprint.exe 
 
-* File Path: `C:\windows\SysWOW64\ntprint.exe`
+* File Path: `C:\Windows\SysWOW64\ntprint.exe`
 * Description: Printer driver software installation
 
 ## Hashes
@@ -20,8 +20,16 @@ SSDEEP | `768:6MtIdB36ulFT5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QR:/
 
 ## Runtime Data
 
-### Child Processes:
-wordpad.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ntprint.exe |
+
 
 ## Signature
 

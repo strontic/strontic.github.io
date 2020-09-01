@@ -4,7 +4,7 @@ title: doskey.exe | Keyboard History Utility
 
 # doskey.exe 
 
-* File Path: `C:\windows\SysWOW64\doskey.exe`
+* File Path: `C:\Windows\SysWOW64\doskey.exe`
 * Description: Keyboard History Utility
 
 ## Hashes
@@ -52,6 +52,14 @@ $1-$9  Batch parameters.  Equivalent to %1-%9 in batch programs.
 $*     Symbol replaced by everything following macro name on command line.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\doskey.exe |
+
 
 ## Signature
 

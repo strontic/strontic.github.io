@@ -4,7 +4,7 @@ title: hdwwiz.exe | Add Hardware Wizard
 
 # hdwwiz.exe 
 
-* File Path: `C:\windows\system32\hdwwiz.exe`
+* File Path: `C:\Windows\system32\hdwwiz.exe`
 * Description: Add Hardware Wizard
 
 ## Screenshot
@@ -21,6 +21,61 @@ SHA256 | `A18F734A82EE009F0AF72768B6A22DC585083296C1CB7499A280FF603281CDFC`
 SHA384 | `133419589533D3D0731D86E8AF709B520B5CAE8510014BD6F8B1099F274296324AF319FBF0624B5175CE6104F29FF561`
 SHA512 | `9E2841FABDBA05E14623C868E4EB63F0E36FAD301A898B84A074C28D53A6C9B52B838DE6A21335FA2EB040B58860C3C5EF07E5F1DE1A2AE5494A174E4343A1D1`
 SSDEEP | `768:6HVlJIWhk6WTny4G0In3BhzhWM1GOVz17:61jIWhtUn4Z3qOT`
+
+## Runtime Data
+
+### Window Title:
+Add Hardware
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\devmgr.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\hdwwiz.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\hdwwiz.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\newdev.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\setupapi.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\HandBrake\HandBrake.exe |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

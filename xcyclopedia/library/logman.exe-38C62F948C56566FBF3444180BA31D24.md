@@ -18,6 +18,14 @@ SHA384 | `3C6728DD563E464191FDEB48BA6F38CC923230CACFD3329E3A870449945554EBC7D0B8
 SHA512 | `C2E4BBDCFDB374F0B7D424100EDF7BD8EDBDA2CC2C5C299FC54D18D817B7D5BEE46209D9919C656831E4EE599B3B97DFDAC5217FE6FD83F4307A0D51DA6F7E79`
 SSDEEP | `1536:vkd9d9td+ZKjcA7O6BXnrE+RDHAdDUShjDMRKhKiRJC/hZDQlN/E0LneQneMuIru:vJKj1po+Rg1NDqKxCzQsKuIr1R+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\logagent.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\logman.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

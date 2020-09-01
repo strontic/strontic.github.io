@@ -23,13 +23,40 @@ SHA384 | `5E9CE8B9E23466568D8E5D0B3D92DEF20E0A5F26446BBFE711F42079072A2F84D0B12E
 SHA512 | `4701B7DEF5F4E597C54549FF07EA208C6A8066620BEBECC49044BF249FE8B7ADA8AEEFC406232B847B74ADC8C4FC40BC8B1DF5FA1658B822F47F5C96E10A32E2`
 SSDEEP | `24576:XeFoi1EUF6BqpT8qYhAZBQp/KiIy3W6aqh0SdWHtN2b/:Xev1EUckpTQ0ap/1SqhuHtK`
 
+## Runtime Data
+
+### Window Title:
+Uninstall Adobe Flash Player
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000008D391F9E635AAD4D5000000000008D`
-* Thumbprint: `B8A71534F400FF263831F8FD44D22053A3F6857F`
-* Issuer: CN=Microsoft Windows Third Party Component CA 2013, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-* Subject: CN=Microsoft Windows Third Party Application Component, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
 ## File Metadata
 

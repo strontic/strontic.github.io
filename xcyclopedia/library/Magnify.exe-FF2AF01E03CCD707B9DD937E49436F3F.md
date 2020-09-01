@@ -4,7 +4,7 @@ title: Magnify.exe | Microsoft Screen Magnifier
 
 # Magnify.exe 
 
-* File Path: `C:\windows\SysWOW64\Magnify.exe`
+* File Path: `C:\Windows\SysWOW64\Magnify.exe`
 * Description: Microsoft Screen Magnifier
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `33FCD1363966AB6478FE5B1061FA5A401BB8BF5C0996A837E1B08FF892393EF1`
 SHA384 | `D274C665D44B43D8FFCCD3EAA5EC08E9AB4F0032F71ED08E051E8C715BD163AC142915B679F2A9DE4E14030474A74EE4`
 SHA512 | `450AA663C3BF7A772E7C5FCFD6E7748BD7ECBDEAD23873E57E1B38927B446EFB792CA5FE27CDD910F646E222C96A3A66800B870319D95D6DDFF3FA760DC4ED88`
 SSDEEP | `12288:6jeZBV2/droHDy3hAgNEFTt8XOykpyklYx:rZB8/drojy3hAgNYTzykpykix`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\Magnify.exe |
+
 
 ## Signature
 

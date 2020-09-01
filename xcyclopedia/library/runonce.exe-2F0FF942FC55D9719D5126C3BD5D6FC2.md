@@ -18,6 +18,14 @@ SHA384 | `B201E9575CE1CA3621030DA54CE6AFD787732C33233D9903CE01325DAFB5926BAAAE1B
 SHA512 | `18D0217364404F52C332C2EDFBD6C223ECD295233875789BADC55504FAAE075BD817262EF7ED9544380465873DE605300A17C1E9242B6773BC6C23E1DBDD9C62`
 SSDEEP | `768:CTNjNbowJJEaJXAiCn7BfQ8JzixtEJ/RajQ12YBO:ANjNMqDCnMxtEH12k`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\runonce.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\runonce.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

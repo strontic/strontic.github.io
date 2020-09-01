@@ -4,7 +4,7 @@ title: dvdplay.exe | dvdplay placeholder Application
 
 # dvdplay.exe 
 
-* File Path: `C:\windows\SysWOW64\dvdplay.exe`
+* File Path: `C:\Windows\SysWOW64\dvdplay.exe`
 * Description: dvdplay placeholder Application
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `192:5SbXs35rsq9oqtm/koPjhFiwWdZW2okh:0s35rsqum/ExWdZW2h`
 
 ### Child Processes:
 wmplayer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dvdplay.exe |
+
 
 ## Signature
 

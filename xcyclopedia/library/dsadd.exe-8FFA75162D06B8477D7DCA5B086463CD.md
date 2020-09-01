@@ -90,6 +90,14 @@ dsrm /? - help for deleting objects.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dsadd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

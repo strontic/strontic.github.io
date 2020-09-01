@@ -18,6 +18,23 @@ SHA384 | `BE413D83F32D820E68A402CDC392484DCD10791B85446C16AE74E56EE82A4D0A70E9CA
 SHA512 | `78E6FD58B67A7CC864508B65649EB83D88C8876BFC8F170763BA7BA53F6C6A8C96492E68857B19CB41E49BFB306D4B216547143118D864BE9115656AFE72240C`
 SSDEEP | `6144:HaC8Dim7iOEhE4gDkSdNUjSq1rxAvanWTH8Akw5Ped0YB:x8Dim7iOEhEddNUPCvanWTrWyG`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\wkspbroker.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

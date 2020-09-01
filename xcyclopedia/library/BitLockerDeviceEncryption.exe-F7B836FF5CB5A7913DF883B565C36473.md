@@ -18,6 +18,24 @@ SHA384 | `76796B3A75F487416567F7D037A73E7E7C530F748A8EFCC864B083B389FED577A0EB60
 SHA512 | `E420E2BFE4C25FB8C29B0055004D19959267035C51D57D73B7F781847579AEFB27765B8CA29337F93EEE3E053DA1D124365DA0AAE1AB6EC44328D262210EB86F`
 SSDEEP | `3072:mIpJVc85ucB0w4LORAFqyORJPBa+W/vkh8ZsViOo:mqVc7zL8AF1ORPaTGViO`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\BitLockerDeviceEncryption.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

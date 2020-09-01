@@ -78,6 +78,16 @@ and ASCII characters in the range 128-255.
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WaaSMedicAgent.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

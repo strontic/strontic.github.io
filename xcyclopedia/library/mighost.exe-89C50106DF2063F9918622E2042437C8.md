@@ -27,6 +27,16 @@ SSDEEP | `6144:QrENU1pojDuUlARQLO62i5wKqGI+hN1UFpfNS5DWL08OavxkHpjlVMJpJafUQ/42:
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\migwiz\mighost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

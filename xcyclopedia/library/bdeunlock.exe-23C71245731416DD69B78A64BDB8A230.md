@@ -4,7 +4,7 @@ title: bdeunlock.exe | BitLocker Unlock
 
 # bdeunlock.exe 
 
-* File Path: `C:\windows\system32\bdeunlock.exe`
+* File Path: `C:\Windows\system32\bdeunlock.exe`
 * Description: BitLocker Unlock
 
 ## Hashes
@@ -17,6 +17,68 @@ SHA256 | `939D06CAB2527EFCDC3AB98FC450452552AC99C45A312095AEFCBA6A2549D9DA`
 SHA384 | `D3FBA1EB89D7178BB01AC6CD19B9570FF0568E2AD5189515852897B0336F46C24613C0CAF54E1BA742FAB78683F445F2`
 SHA512 | `D426AE9FB16C0640ECA7FB0ED57FD5EB67DB974F74F5B3FD1A8E1C25BAE0F71E755415B483D8C189B539BF67052A4CAD9B510CE9E63D5BF9439267B00074FC4E`
 SSDEEP | `6144:VJa/PSfHXVXmW/L8UcU9dQJVEmuGPIoZBaSVs7nyatGt+SYFmW2F:Da/PSfHX9mXVbuWZ3H+S+m`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\bdeunlock.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
+(RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
+(RWD)   C:\Windows\Fonts\seguisym.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC16C8 | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\BDEUI.dll |
+C:\Windows\system32\bdeunlock.exe |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\DUser.dll |
+C:\Windows\system32\FVEAPI.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

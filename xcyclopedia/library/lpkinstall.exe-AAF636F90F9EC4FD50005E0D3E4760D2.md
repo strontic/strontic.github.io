@@ -18,6 +18,25 @@ SHA384 | `027263BB1FBD95AE23337442855FE76EE4BD4A8703F48414EBF0EA19D24E8C49046423
 SHA512 | `93817DBE57450EEC4AB0074C51C6DD3A57A5D739B111D0B10D423A9CF9DA9D218A0FE9714F055B36B1F50382A216D5E6BF9B5CC8393A1C55ABA9D963BD488CDA`
 SSDEEP | `768:Cj6Rghp/0enynqTmQxAB6ulx68SY/gWdP4aal0c28wvn6f9P:Cj6Rg7xyqTmiA4cxV4xL+c28wP6f9P`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\lpkinstall.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

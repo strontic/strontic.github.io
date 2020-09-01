@@ -4,7 +4,7 @@ title: powershell_ise.exe | Windows PowerShell ISE
 
 # powershell_ise.exe 
 
-* File Path: `C:\windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe`
+* File Path: `C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe`
 * Description: Windows PowerShell ISE
 
 ## Screenshot
@@ -21,6 +21,73 @@ SHA256 | `77B4C0F9929073CE132223F3169349F3E7A626C392B7DBC1A39FA89265C2C6BF`
 SHA384 | `677980CAF0309103FD3DE0AB26B08814926235E8F427ACB24AD409927A2F1613CEFA18BCD14EF76E8B2D02DE2036D6D4`
 SHA512 | `5098BBA829A795C2AEFA85A583388B71690F588DDA92BB85B5304FD698E1AA77A610FE98EF93767803FC6FA11A46F94711BF1A4F9E0B7DC464CE61823B9E8763`
 SSDEEP | `3072:KDEkVjGPsw40vLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLa6:K4kSuZToIuUXmmZbgDooMz`
+
+## Runtime Data
+
+### Window Title:
+Windows PowerShell ISE
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_5584 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.Pd3efef62#\5c0638ef1b9468cab862ad2540108bc6\Microsoft.PowerShell.ISECommon.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\d9010e50e40e3e6a8e77495acf060c0f\mscorlib.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\98fd237ddd932ab6a650e8400655a5b8\System.Core.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\f33bf23a9bb039afed4f40da2cc7c28e\System.Drawing.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b9c2a573fa8d59b327aa00a50d31ef11\System.Management.Automation.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\9f081748f0cebf074c5e9eb0d266e77c\System.Windows.Forms.ni.dll |
+C:\Windows\assembly\NativeImages_v4.0.30319_64\System\1ae46fe9e573f1069305bd598b4ed147\System.ni.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\psapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\rsaenh.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
+
 
 ## Signature
 

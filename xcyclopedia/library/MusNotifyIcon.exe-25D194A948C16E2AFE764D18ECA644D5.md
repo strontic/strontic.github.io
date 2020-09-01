@@ -4,7 +4,7 @@ title: MusNotifyIcon.exe | MusNotifyIcon.exe
 
 # MusNotifyIcon.exe 
 
-* File Path: `C:\windows\system32\MusNotifyIcon.exe`
+* File Path: `C:\Windows\system32\MusNotifyIcon.exe`
 * Description: MusNotifyIcon.exe
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `D45CA61A47DACB8C3284CBCF4A70499DFB8113C379FD5B580324C39FCAC03284178745
 SHA512 | `5755499CE2578BCACF86706BBFC78677049DFEC7F4C8B487E0A42587E37A7B851E9368C18C7DC361C440F4DC8581BEC53AE1A96317E8ED65EB38F9CA8F5BA3C4`
 SSDEEP | `3072:fYnP1luB5Q8s4onI2lbuklOJOG6xAcEv/IG3SeczEM:4P1lks4/mnlOJOG/IMbI/`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MusNotifyIcon.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -4,7 +4,7 @@ title: LanguageComponentsInstallerComHandler.exe | LanguageComponentsInstaller C
 
 # LanguageComponentsInstallerComHandler.exe 
 
-* File Path: `C:\windows\system32\LanguageComponentsInstallerComHandler.exe`
+* File Path: `C:\Windows\system32\LanguageComponentsInstallerComHandler.exe`
 * Description: LanguageComponentsInstaller COM Handler
 
 ## Hashes
@@ -17,6 +17,38 @@ SHA256 | `2E3BD3DE5C065B1518A32C9104769726E9B51CA15ACB810FCEDD2B26B2148D75`
 SHA384 | `D1613F3DC319B233E55DD8FB05FA4DE5474535BC32765A874A7993C75FD4A03F8DEE210E95EC638D32C56615673196A8`
 SHA512 | `2A923E93272DA6B890307216BD6A40A5001947F4D7887D86B0C752DBD74B45AEEA4F410F73A88F04230964AAB99EE5834E70342C2EF50A39846DA586ADDDF9F5`
 SSDEEP | `1536:YJrjqjYsObJKvKEeHx0BHC3j1+2yL54RS9:GMvsR0Y+P449`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC16F8 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LanguageComponentsInstallerComHandler.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
 
 ## Signature
 

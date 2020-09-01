@@ -18,6 +18,14 @@ SHA384 | `7DB7F3F4AB13CE16DD76C091FB4DA97D1472CA60E4EFA868BB7F9ABA37577D1FAED19C
 SHA512 | `42B446D02320B9A86B9B43517AD410336D7D6DF41FB391D8A0BFAA39919C6017E19A00866239FECD276F6BC34997BECD1DEC5EC6FD7F6A7CF874DD9560D334D6`
 SSDEEP | `6144:+gGAJhJYQYH8AlGr66uFz2LJGRg4kLNnei36cw:i8LYhjFCdUc`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sethc.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,16 +48,20 @@ SSDEEP | `6144:+gGAJhJYQYH8AlGr66uFz2LJGRg4kLNnei36cw:i8LYhjFCdUc`
 
 File | Score
 -- | --
+[C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-0490B8F08575C7AB5F358B07C1617F28.md) | 65
 [C:\windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-1EF5808E2ADC8AD7892E45551CE5C5CF.md) | 63
 [C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-6CF3E7D021A16A86178F840D787F2E4C.md) | 63
 [C:\Windows\system32\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-9A846ED516E009A8409800B19402EF39.md) | 66
+[C:\Windows\system32\sethc.exe](sethc.exe-062940BA26F1204EBD5F62DF37D0C3A7.md) | 72
 [C:\Windows\system32\sethc.exe](sethc.exe-0D68CE0D6D390F926B4ECE77E44D4E30.md) | 61
 [C:\windows\system32\sethc.exe](sethc.exe-EE69991DCEA4CA4189F42DEEE5D7666A.md) | 61
 [C:\Windows\system32\sethc.exe](sethc.exe-F00FAB17E7FE21D930AA4A6CABD2381F.md) | 74
+[C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-07A336072239B2FAEC1FEA0E23A23A88.md) | 65
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-1913FD496CAFF87B409FAC35CD876274.md) | 58
 [C:\windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-69D795102CADA9D5FEC1089138DA48AF.md) | 65
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-C5897612D16810BE94A68C5EB6950598.md) | 68
 [C:\windows\SysWOW64\sethc.exe](sethc.exe-5EBDA250D9AD873C3879282AC6F49FB7.md) | 65
+[C:\Windows\SysWOW64\sethc.exe](sethc.exe-999F4E59B7DB7AC9BA0A6F8DA894E2B9.md) | 80
 [C:\Windows\SysWOW64\sethc.exe](sethc.exe-9FE388226A8EF1B085441E21A3B0A57D.md) | 58
 
 ## Possible Misuse

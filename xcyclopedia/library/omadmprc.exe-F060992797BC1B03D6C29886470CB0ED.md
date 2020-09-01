@@ -18,6 +18,32 @@ SHA384 | `C38999C69E37F0468DE0FCD3B17C324B779B001820C2B88D0712EB1E3951FDC73445E0
 SHA512 | `64BA05CC41B04D49E7C68E269A3E4BCF546AA97FA76EA957A13DDDCD085DB589E62453239A16E743D5A2133F814CA16F7857C0DC4B7D1BC6696F6B78E7EC90B0`
 SSDEEP | `1536:X9wFsRd/rTZQqboEtan41ToDU2+2dTniTfmR+MxBYpK:eFA/xQqUEtan41GU2+2dTniD4+M7YpK`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\DMPushProxy.dll |
+C:\Windows\system32\iri.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
+C:\Windows\system32\omadmprc.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

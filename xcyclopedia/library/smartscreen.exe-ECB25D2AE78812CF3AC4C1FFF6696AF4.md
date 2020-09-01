@@ -4,7 +4,7 @@ title: smartscreen.exe | Windows Defender SmartScreen
 
 # smartscreen.exe 
 
-* File Path: `C:\windows\system32\smartscreen.exe`
+* File Path: `C:\Windows\system32\smartscreen.exe`
 * Description: Windows Defender SmartScreen
 
 ## Hashes
@@ -17,6 +17,20 @@ SHA256 | `F740FBA7B6791ABF3E000A6C4A04DDEE68D0A0722A3F5C0B44EB4E4D713BF7C9`
 SHA384 | `3104230C2296629A9241D0465882EE46902757A034FF10D4E1F82B8052450D54C1238D75EC5DC1108B182FF815FF104D`
 SHA512 | `6313AD8B68A1BA4CB4948A58F7395FE78F61A5018DE40FEC43A3EFEE1F4207B2579E02555CB3EEE3C60C529109A6293649C6D1F86CEB32040E2A32F66C2C3B2E`
 SSDEEP | `49152:yf8eXaDPX9+m7rAIIqZA3IlvQpefUiHZDZdVeJ6aUFwNDVahv3nmUb:MI3VgNshv39b`
+
+## Runtime Data
+
+### Child Processes:
+RdpSa.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\smartscreen.exe |
+
 
 ## Signature
 

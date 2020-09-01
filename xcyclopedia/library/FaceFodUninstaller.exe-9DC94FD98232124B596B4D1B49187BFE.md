@@ -19,8 +19,18 @@ SSDEEP | `12288:SvxgCKl7KY7ssFyP9QCNmp12Hk14sszkHI:SZownDgp12Hk1454I`
 
 ## Runtime Data
 
-### Child Processes:
-powershell.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WinBioPlugIns\FaceFodUninstaller.exe |
+
 
 ## Signature
 

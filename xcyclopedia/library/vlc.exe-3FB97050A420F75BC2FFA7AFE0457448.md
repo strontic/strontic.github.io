@@ -4,7 +4,7 @@ title: vlc.exe | VLC media player
 
 # vlc.exe 
 
-* File Path: `C:\Program Files\VideoLAN\VLC\vlc.exe`
+* File Path: `C:\program files\VideoLAN\VLC\vlc.exe`
 * Description: VLC media player
 
 ## Screenshot
@@ -28,6 +28,44 @@ SSDEEP | `24576:FZ3LAiio85Z15DWtBgz1L1uUJ8pzzzYzzz0zzz3zzzb9:rLAiioEZ15WtB3pt9`
 
 ### Child Processes:
 conhost.exe
+
+### Window Title:
+VLC media player version 3.0.11
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user\Documents\vlc-help.txt | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\VideoLAN\VLC\libvlc.dll |
+C:\program files\VideoLAN\VLC\libvlccore.dll |
+C:\program files\VideoLAN\VLC\vlc.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
+
 
 ## Signature
 

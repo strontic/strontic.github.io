@@ -18,6 +18,23 @@ SHA384 | `136852894CB49FF9FC2DAE3FFEE845F2F755FBF8801E526A8E28A28ACC0E2D585BC405
 SHA512 | `FCFCF39E536C42CE0DDAFC613D9B612F9EA7304FC87037D296B811C0CDB1A95AFDD4D1A76AFD727348E9E8313DD0E58DD7700C6DA8790FAB87FB05AC7B1D02E4`
 SSDEEP | `3072:fA/+5QQBFBhWVFpe/KqPyjVdEGNDo6HM5FMb5nluparY1aOcF695/0Q0TgyL:fIJwLovr0Oo66FMbFr+V+Tg`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DataUsageLiveTileTask.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

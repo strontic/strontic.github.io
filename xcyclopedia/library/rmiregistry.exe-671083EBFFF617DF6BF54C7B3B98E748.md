@@ -4,7 +4,7 @@ title: rmiregistry.exe | OpenJDK Platform binary
 
 # rmiregistry.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\rmiregistry.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\rmiregistry.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,8 @@ SHA384 | `249E5D30BA3F4279D5A3520BDA7E307273CB04B05902E7B6B326A29FD45CABE90F3A67
 SHA512 | `4B8E20D056E176126C5A9EA5F6BFAA5BC5DC758AFAB31D03FED541C4A2F0F33E51DAF456B6B8725AFE81B618C5956DA2411FA2A9D33A24F6C40E0296E4C27229`
 SSDEEP | `384:jjgbdNt3Sy4OBbF8u5AUyK6jSjTxDgf2hQXG:suEF8u5yKg+Uf2hmG`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 port argument, --help, is not a number.
@@ -27,6 +29,16 @@ where <options> includes:
   -J<runtime flag> Pass argument to the java interpreter
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\rmiregistry.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -50,26 +62,26 @@ where <options> includes:
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jarsigner.exe](jarsigner.exe-3545DF7A746A46163EA98D79A3CFAA65.md) | 41
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jdb.exe](jdb.exe-B66DF0DC0BDF18F4A14DFC6A58F23BAB.md) | 46
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jdeprscan.exe](jdeprscan.exe-F63BEA1831254EB65EEA19012774C7B9.md) | 44
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jhsdb.exe](jhsdb.exe-61D7659F3C8D10C62224634404D1A91F.md) | 44
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jshell.exe](jshell.exe-7102DE0DBB816DFE04784CDDDF0EABC9.md) | 41
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\keytool.exe](keytool.exe-F859E5BDEA1498C82945E824021AB601.md) | 47
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\pack200.exe](pack200.exe-DC5AA7BCD19D6CE293F14AE57C3082EC.md) | 46
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-6240D6F87038D7B1F32E590D20B6EB45.md) | 50
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\serialver.exe](serialver.exe-8C875F970BA9AFB45B48DF121220D535.md) | 40
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\keytool.exe](keytool.exe-0EA9E813BC45594BC7B505FD193D233D.md) | 47
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\pack200.exe](pack200.exe-D8F4EAC78AB739846BD1D5BBD256DBC3.md) | 46
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-37B63F925D45FD055BA4A604F7E5F891.md) | 47
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jarsigner.exe](jarsigner.exe-24C345BA5B4270DD2E52E114356E9E76.md) | 61
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jdb.exe](jdb.exe-1AA2A866868B910E3B6E03B684B0D92A.md) | 68
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jdeprscan.exe](jdeprscan.exe-9C38E559ACCB2282CB5E5B92FA82C016.md) | 65
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jhsdb.exe](jhsdb.exe-913B7D99340BB598826DB8B68C19D939.md) | 68
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jshell.exe](jshell.exe-2DBEA6AB20129B0362A8485BD5218AB4.md) | 61
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\keytool.exe](keytool.exe-6045C32AB7C9FE9F5292B494A1B2E232.md) | 65
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\pack200.exe](pack200.exe-7707DC7CCEBDF3F3EA696534A43B93F2.md) | 69
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\serialver.exe](serialver.exe-3CCFF738D117AD8BC9F6817D3D323F41.md) | 65
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jarsigner.exe](jarsigner.exe-3545DF7A746A46163EA98D79A3CFAA65.md) | 41
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jdb.exe](jdb.exe-B66DF0DC0BDF18F4A14DFC6A58F23BAB.md) | 46
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jdeprscan.exe](jdeprscan.exe-F63BEA1831254EB65EEA19012774C7B9.md) | 44
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jhsdb.exe](jhsdb.exe-61D7659F3C8D10C62224634404D1A91F.md) | 44
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jshell.exe](jshell.exe-7102DE0DBB816DFE04784CDDDF0EABC9.md) | 41
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\keytool.exe](keytool.exe-F859E5BDEA1498C82945E824021AB601.md) | 47
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\pack200.exe](pack200.exe-DC5AA7BCD19D6CE293F14AE57C3082EC.md) | 46
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-6240D6F87038D7B1F32E590D20B6EB45.md) | 50
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\serialver.exe](serialver.exe-8C875F970BA9AFB45B48DF121220D535.md) | 40
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\keytool.exe](keytool.exe-0EA9E813BC45594BC7B505FD193D233D.md) | 47
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\pack200.exe](pack200.exe-D8F4EAC78AB739846BD1D5BBD256DBC3.md) | 46
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-37B63F925D45FD055BA4A604F7E5F891.md) | 47
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jarsigner.exe](jarsigner.exe-24C345BA5B4270DD2E52E114356E9E76.md) | 61
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jdb.exe](jdb.exe-1AA2A866868B910E3B6E03B684B0D92A.md) | 68
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jdeprscan.exe](jdeprscan.exe-9C38E559ACCB2282CB5E5B92FA82C016.md) | 65
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jhsdb.exe](jhsdb.exe-913B7D99340BB598826DB8B68C19D939.md) | 68
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jshell.exe](jshell.exe-2DBEA6AB20129B0362A8485BD5218AB4.md) | 61
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\keytool.exe](keytool.exe-6045C32AB7C9FE9F5292B494A1B2E232.md) | 65
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\pack200.exe](pack200.exe-7707DC7CCEBDF3F3EA696534A43B93F2.md) | 69
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\serialver.exe](serialver.exe-3CCFF738D117AD8BC9F6817D3D323F41.md) | 65
 
 
 

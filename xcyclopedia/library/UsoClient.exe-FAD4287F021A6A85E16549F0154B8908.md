@@ -18,6 +18,27 @@ SHA384 | `B5B36F68266291802D9DF5947F639BD9E604005ACB32F9403907B6E44E240FABFF5297
 SHA512 | `40C2B0B131CD60FBC276FEE911CFB97128D0B2D8EC54CBBBA59935FF7217308D2A9648539A281E93ACCAEA2A9BD386B404968E54886D68A8748F4621DC4D8B67`
 SSDEEP | `1536:ZrE4qAXFQtrwF9azElGFk3yFF3RDoVmOIGWVI6KvV5imoS:h2rjzaGFk3yFF3RD4HIGWJKN5foS`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UpdatePolicy.dll |
+C:\Windows\system32\UsoClient.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

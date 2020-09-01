@@ -4,7 +4,7 @@ title: sllauncher.exe | Microsoft Silverlight Out-of-Browser Launcher
 
 # sllauncher.exe 
 
-* File Path: `C:\Program Files (x86)\Microsoft Silverlight\sllauncher.exe`
+* File Path: `C:\program files (x86)\Microsoft Silverlight\sllauncher.exe`
 * Description: Microsoft Silverlight Out-of-Browser Launcher
 
 ## Screenshot
@@ -21,6 +21,36 @@ SHA256 | `29AA9AF2CA286A78F7D00F279C7F0C75462DFA5B008C122555BC97C948FBAED0`
 SHA384 | `774C2100157F80552DD931671D4E80C2D6B5E96A132046887B31E28C633E37BDE26FA524AE998783B1D562F6A7066607`
 SHA512 | `B1C8E741B846AAC8E43A4ECE2CC16825FE5DF3C2D2A2E4C3A3042FE05C110F70AE9CB590AF8EC4D900A11AD046BD9C0EFBB135A0E4C1BC9BAA44425FCCBF8728`
 SSDEEP | `6144:vuhSmHEHYtyqe8nO6pPLJSq+iCZu5sfjkd9Eb1lqxlKsR:G8z4bjmZu5sfjkd9EzK5R`
+
+## Runtime Data
+
+### Window Title:
+Error
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Microsoft Silverlight\sllauncher.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

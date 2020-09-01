@@ -4,7 +4,7 @@ title: winver.exe | Version Reporter Applet
 
 # winver.exe 
 
-* File Path: `C:\windows\system32\winver.exe`
+* File Path: `C:\Windows\system32\winver.exe`
 * Description: Version Reporter Applet
 
 ## Screenshot
@@ -23,6 +23,35 @@ SHA256 | `71E5E4B68B93E8B557FE0651E3D39C57279E694D07B42C67269224E2FC603AEE`
 SHA384 | `63E64F2342B29A32DB0D63212915B2ABEFA2B48E9ABC0E0DE9E272FE14C0E2FCDC5BBAED1A0C19469F9A9EB12DB888FA`
 SHA512 | `B4E646BBE1C541655C73FFB58003A8C1F35EF2B32E4114F22056621C7B4495093DAF51E932810E8D0EE86122E3936E3294799A0BA553559F2AC8B7AAD3758C7E`
 SSDEEP | `768:lJgdAO/cAxy0oGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXj:l6GO/c8y0oxakkn6oYY0ewiP82`
+
+## Runtime Data
+
+### Window Title:
+About Windows
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\winver.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

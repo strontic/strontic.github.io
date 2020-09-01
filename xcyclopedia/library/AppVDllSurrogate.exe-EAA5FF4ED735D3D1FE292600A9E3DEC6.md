@@ -4,7 +4,7 @@ title: AppVDllSurrogate.exe | Client DLL Surrogate Host
 
 # AppVDllSurrogate.exe 
 
-* File Path: `C:\windows\system32\AppVDllSurrogate.exe`
+* File Path: `C:\Windows\system32\AppVDllSurrogate.exe`
 * Description: Client DLL Surrogate Host
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `E64E7B0644196B098198A657034A2F70CEB5F42E01EA187167667526389717D701C9DD
 SHA512 | `071FB8A66B3B6E487FC0C7256943F0AEAC998508F9DA06689A8C09EB49D9B9A1E30B11619FA0F57AA74E4735A02649D388B4C0F828DC5D73BE7ABCBB4B07C2AC`
 SSDEEP | `3072:2mo1lH61ONQVOmu8OsJOjWGNU6ITLjWIa6b1vC:QEONaFu8OsJMWGNU6ITLjnn1`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

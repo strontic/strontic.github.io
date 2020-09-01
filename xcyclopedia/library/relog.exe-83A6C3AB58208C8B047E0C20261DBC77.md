@@ -25,9 +25,15 @@ SSDEEP | `768:KzsVR22awTzqvJneZ/HI7vUjO9ZNvv/2rEaQLo6Ec22C2ieEMi:KzsVFdYJIQDv9ra
 
 Microsoft r Relog.exe (10.0.19041.1)
 
-Relog creates new performance logs from data in existing performance logs by
-changing the sampling rate and/or converting the file format. Supports all
-performance log formats, including Windows NT 4.0 compressed logs.
+Relog creates new
+performance logs from data
+in existing performance logs
+by changing the sampling
+rate and/or converting the
+file format. Supports all
+performance log formats,
+including Windows NT 4.0
+compressed logs.
 
 Usage:
 C:\Windows\SysWOW64\relog.exe <filename [filename ...]> 
@@ -62,6 +68,16 @@ Examples:
   relog logfile.blg -q -o counters.txt
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\relog.exe |
+
 
 ## Signature
 

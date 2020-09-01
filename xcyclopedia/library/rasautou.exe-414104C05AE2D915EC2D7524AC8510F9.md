@@ -26,6 +26,13 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

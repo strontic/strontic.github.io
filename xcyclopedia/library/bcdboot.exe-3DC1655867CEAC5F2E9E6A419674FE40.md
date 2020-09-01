@@ -4,7 +4,7 @@ title: bcdboot.exe | Bcdboot utility
 
 # bcdboot.exe 
 
-* File Path: `C:\windows\system32\bcdboot.exe`
+* File Path: `C:\Windows\system32\bcdboot.exe`
 * Description: Bcdboot utility
 
 ## Hashes
@@ -78,6 +78,16 @@ Examples: bcdboot c:\windows /l en-us
           bcdboot c:\windows /p
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bcdboot.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

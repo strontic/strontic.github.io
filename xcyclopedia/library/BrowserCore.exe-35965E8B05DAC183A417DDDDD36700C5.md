@@ -4,7 +4,7 @@ title: BrowserCore.exe | BrowserCore
 
 # BrowserCore.exe 
 
-* File Path: `C:\Program Files\Windows Security\BrowserCore\BrowserCore.exe`
+* File Path: `C:\program files\Windows Security\BrowserCore\BrowserCore.exe`
 * Description: BrowserCore
 
 ## Hashes
@@ -22,6 +22,26 @@ SSDEEP | `1536:o3nol+Q2SyV+luUUhHso14sr9NLuPERHVsPx:oiUS0BRhMJshxu8R1sp`
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Program Files\Windows Security\BrowserCore\en-US\BrowserCore.exe.mui | File
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Windows Security\BrowserCore\BrowserCore.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

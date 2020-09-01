@@ -4,7 +4,7 @@ title: VisHelper.exe |
 
 # VisHelper.exe 
 
-* File Path: `C:\Program Files (x86)\MediaMonkey\VisHelper.exe`
+* File Path: `C:\program files (x86)\MediaMonkey\VisHelper.exe`
 
 ## Hashes
 
@@ -16,6 +16,19 @@ SHA256 | `88C5E0DA7245D0C005CAC6D433EE32E13F5929B22CD99025AB911EA4965426D0`
 SHA384 | `DB190687826860ACA7DEFE41D04AAD314FDA0124F70FC2FD6C4CFB6D2F0C287E5EBD396610189ABA67AC92ED7BEF53FA`
 SHA512 | `265470CB13E570017C1923ED6A4D92879554A124009F1E3D633C7A479B056F88623C496D24B1F7A60C728764DB35AB96C13105983D0A3931C8DD6C77655ACB43`
 SSDEEP | `3072:5U+ihAMmfX++q888888888888W88888888888m:5U+Ez5888888888888W88888888888`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\MediaMonkey\VisHelper.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -39,7 +52,7 @@ SSDEEP | `3072:5U+ihAMmfX++q888888888888W88888888888m:5U+Ez5888888888888W8888888
 
 File | Score
 -- | --
-[C:\Program Files (x86)\MediaMonkey\Decoder.exe](Decoder.exe-15D565744E247642E1FA4AD53A104B22.md) | 30
+[C:\program files (x86)\MediaMonkey\Decoder.exe](Decoder.exe-15D565744E247642E1FA4AD53A104B22.md) | 30
 
 
 

@@ -18,6 +18,16 @@ SHA384 | `DD92E23D16D8EF9EA19E8B3A8D1682E2451A822748CA8DCCD0A571319AA293A95E6314
 SHA512 | `AE9E20750AECF701AE62864F7079C04E2CCAD8A24D197CF4283CEE09CCF8C26C5C3975EB047CB10D100D73B2F88A32AA6EA2C48F7700B1928CB4B5D2D0AF0BBD`
 SSDEEP | `768:FbdgWS3+zqteDvMgKb0BkOPWkjOutws0HUu1Pbwrv:FmFeogKomOJtws00WPmv`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\ls.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -167,6 +177,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1134.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md) | Explicitly assigning the PPID may also enable elevated privileges given appropriate access rights to the parent process. For example, an adversary in a privileged user context (i.e. administrator) may spawn a new process and assign the parent as a process running as SYSTEM (such as <code>lsass.exe</code>), causing the new process to be elevated via the inherited access token.(Citation: XPNSec PPID Nov 2017)</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar) |       $s1 = "LSASS.EXE" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_irontiger_trendmicro.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_irontiger_trendmicro.yar) | 		$str2 = "Fail To Search LSASS Data" nocase wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_aug20.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar) |       $str_exe_2 = "lsass.exe" ascii wide nocase  | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_passthehashtoolkit.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_passthehashtoolkit.yar) | 		$s7 = "Cannot get LSASS.EXE PID!" fullword ascii /* score: '14.00' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_passthehashtoolkit.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_passthehashtoolkit.yar) | 		$s5 = "Error: Cannot open LSASS.EXE!." fullword ascii /* score: '12.00' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_passthehashtoolkit.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_passthehashtoolkit.yar) | 		$s7 = "LSASS HANDLE: %x" fullword ascii /* score: '5.00' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

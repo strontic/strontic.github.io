@@ -23,6 +23,15 @@ SSDEEP | `1536:YmJfn5EV1YFxso5nJGz09tXQiIWzHrQFm/mwna/LkCNDb:YKXbgHFCa/LkUDb`
 ### Child Processes:
 rundll32.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\escUnattend.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

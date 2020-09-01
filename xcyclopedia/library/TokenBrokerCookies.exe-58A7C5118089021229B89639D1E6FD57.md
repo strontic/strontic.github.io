@@ -4,7 +4,7 @@ title: TokenBrokerCookies.exe | Token Broker Cookie Helper
 
 # TokenBrokerCookies.exe 
 
-* File Path: `C:\windows\system32\TokenBrokerCookies.exe`
+* File Path: `C:\Windows\system32\TokenBrokerCookies.exe`
 * Description: Token Broker Cookie Helper
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `1AA0E78DE2176253A824FAA70F1485B0B7CB988B34E1095AA31222228725A5C4D67650
 SHA512 | `F13A76FEFEB9D6EBBA8F04652DB9527BE71E50BBAB2B755EBA640EA7F33B374D6DC4F0710D6589C8E7955463C26DBE91838D191368B1BEDA37008842AD71C732`
 SSDEEP | `768:tMUZi+ojuTSUIulmkniTYG6xmF87lMAVMn:uUuuTScmkiTYG6xmF8ZMAVMn`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\TokenBrokerCookies.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

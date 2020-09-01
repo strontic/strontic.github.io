@@ -4,7 +4,7 @@ title: autoconv.exe | Auto File System Conversion Utility
 
 # autoconv.exe 
 
-* File Path: `C:\windows\SysWOW64\autoconv.exe`
+* File Path: `C:\Windows\SysWOW64\autoconv.exe`
 * Description: Auto File System Conversion Utility
 
 ## Hashes
@@ -17,6 +17,24 @@ SHA256 | `3DA90503C57C57C198904EAB618AB5ED4942E8FA225643F4705328CDF4C69EC4`
 SHA384 | `C172A9355DB6877F82FACBE547425BCF10F48BECA518B17EB66B7F0A4D7FC73F496A470E335141ABED64B57AEC7A0C4D`
 SHA512 | `96DC44C19A0427D565CA41A172AF47B070F3247370D29E6E343BC09CBF4382C2FA8459282507AA5800F1370C6CE56D57307FED9AEE5400C44651D341C4573483`
 SSDEEP | `24576:9ujBgFjvGB8BNfAdKmtBh0eiiQuggvGjCEs4xh:8gFiANfAdKmh0eQwGj3s4xh`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
 
 ## Signature
 

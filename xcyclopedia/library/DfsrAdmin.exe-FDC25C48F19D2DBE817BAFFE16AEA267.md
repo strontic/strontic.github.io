@@ -4,7 +4,7 @@ title: DfsrAdmin.exe | DFS Replication Command Line
 
 # DfsrAdmin.exe 
 
-* File Path: `C:\windows\DfsrAdmin.exe`
+* File Path: `C:\Windows\DfsrAdmin.exe`
 * Description: DFS Replication Command Line
 
 ## Hashes
@@ -79,9 +79,16 @@ Usage: DfsrAdmin <Object> <Action> [<SubObject>] [<SubAction>]
 ```Batchfile
 
 Failed: 
-The object -help is not a valid object.
+The object --help is not a valid object.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

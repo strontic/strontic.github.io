@@ -29,6 +29,17 @@ Path '/?' does not exist.
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Microsoft VS Code\resources\app\out\vs\platform\files\node\watcher\win32\CodeHelper.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -47,6 +58,11 @@ conhost.exe
 * Language: Language Neutral
 * Legal Copyright: Copyright   2015
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Microsoft VS Code\resources\app\out\vs\platform\files\node\watcher\win32\CodeHelper.exe](CodeHelper.exe-35CF398FF6B35E8707EC276411A89E86.md) | 90
 
 
 

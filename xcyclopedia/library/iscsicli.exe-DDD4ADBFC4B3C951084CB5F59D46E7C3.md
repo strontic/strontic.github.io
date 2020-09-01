@@ -4,7 +4,7 @@ title: iscsicli.exe | iSCSI Discovery tool
 
 # iscsicli.exe 
 
-* File Path: `C:\windows\system32\iscsicli.exe`
+* File Path: `C:\Windows\system32\iscsicli.exe`
 * Description: iSCSI Discovery tool
 
 ## Hashes
@@ -212,6 +212,14 @@ mode, just run iscsicli without any parameters
 The operation completed successfully. 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\iscsicli.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

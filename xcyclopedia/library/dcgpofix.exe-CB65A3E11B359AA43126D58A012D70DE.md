@@ -18,6 +18,15 @@ SHA384 | `3262E3AEA2E711AEA211523531C5C1B4AB5E80F0FBD5C31862AF15D7B63628F04A38AC
 SHA512 | `8073331511ED286E90F8923E0F10EAEA9FF13786529906F93B8C2963F66D8A71C6493AE372FCEB1FD6DA98FE420E2767130994D40D6BA1A259274249E3ACBC62`
 SSDEEP | `768:LR5KfsXvepcZ2s6rEi6hylcz15IpdybiuHhAALbNgMKKSZjdhiCWMWruDqWcDy:TeUeRj6h5IM9HhvJgMK/jdhr3KXWcDy`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\dcgpofix.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\dcgpofix.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

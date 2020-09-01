@@ -4,7 +4,7 @@ title: rasdial.exe | Remote Access Command Line Dial UI
 
 # rasdial.exe 
 
-* File Path: `C:\windows\SysWOW64\rasdial.exe`
+* File Path: `C:\Windows\SysWOW64\rasdial.exe`
 * Description: Remote Access Command Line Dial UI
 
 ## Hashes
@@ -23,19 +23,30 @@ SSDEEP | `384:hzej6G9rUtmjYGFqR0XONQQ0Tf6WQVWTgK:drcq5QQAfccg`
 ### Usage (stdout):
 ```Batchfile
 USAGE:
-	C:\windows\SysWOW64\rasdial.exe entryname [username [password|*]] [/DOMAIN:domain]
+	C:\Windows\SysWOW64\rasdial.exe entryname [username [password|*]] [/DOMAIN:domain]
 		[/PHONE:phonenumber] [/CALLBACK:callbacknumber]
 		[/PHONEBOOK:phonebookfile] [/PREFIXSUFFIX]
 
-	C:\windows\SysWOW64\rasdial.exe [entryname] /DISCONNECT
+	C:\Windows\SysWOW64\rasdial.exe [entryname] /DISCONNECT
 
-	C:\windows\SysWOW64\rasdial.exe
+	C:\Windows\SysWOW64\rasdial.exe
 
 	Please refer to our privacy statement at 
 	'https://go.microsoft.com/fwlink/?LinkId=521839'
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\rasdial.exe |
+
 
 ## Signature
 
@@ -64,7 +75,7 @@ Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rasdial_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rasdial_activity.yml) | `title: Suspicious RASdial Activity` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_rasdial_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rasdial_activity.yml) | `description: Detects suspicious process related to rasdial.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rasdial_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rasdial_activity.yml) | `            - rasdial` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rasdial_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rasdial_activity.yml) | `            - rasdial.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

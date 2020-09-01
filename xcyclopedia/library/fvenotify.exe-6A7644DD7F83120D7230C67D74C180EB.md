@@ -22,6 +22,18 @@ SHA384 | `66DDB34BDFA269BF5A0F721D68F31062C3ECB21DAD83BDCC7186D1811E6B14E2005504
 SHA512 | `64ECB9351B39B0F81DDA3A4C27222E19757206613F1951BE12E16ADEB190FF4758870102148FC3DB00C1625D09AF38B3370BAB55F0D938399889F6BB9AA1E3D8`
 SSDEEP | `3072:m48IHGH9pvIjSboZn0M0DwnVS570M9kdatGCO+xmBc+hMPhPsx:m/IHIxIjScVVs7nyatGt+SYF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\fvenotify.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\fvenotify.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

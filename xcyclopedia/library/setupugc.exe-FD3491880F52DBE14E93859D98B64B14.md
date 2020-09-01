@@ -4,7 +4,7 @@ title: setupugc.exe | Setup Unattend Generic Command Processor
 
 # setupugc.exe 
 
-* File Path: `C:\windows\system32\setupugc.exe`
+* File Path: `C:\Windows\system32\setupugc.exe`
 * Description: Setup Unattend Generic Command Processor
 
 ## Hashes
@@ -17,6 +17,25 @@ SHA256 | `F82F49488663DCB004A2924CB4578B74072192E24787ADE190208BD04E6F4159`
 SHA384 | `9C14EE73318E44AC0BA03DFD9DE809467343292C1985B7D6687B18C0D05BEAEF54B88BEC423C1AAEB516A672BBD2AC41`
 SHA512 | `AD6691004BE8DD0CE46DF4C54A37F530C10FB418DA4FE703334DA9CC30B3A32C90271B62A9659EBD6C0D154FBAC7EFBA606520E64D442FD0932266D13C182AA1`
 SSDEEP | `1536:he+2zNzK2Kz1IS/xUdvN+BDr4Uia6bihsPwsLSQFvQQRJ9:h+zNgz1ISGVM/hePwcS2vQ0J9`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DNSAPI.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\setupugc.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WDSCORE.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: DpiScaling.exe | Display Control Panel
 
 # DpiScaling.exe 
 
-* File Path: `C:\windows\system32\DpiScaling.exe`
+* File Path: `C:\Windows\system32\DpiScaling.exe`
 * Description: Display Control Panel
 
 ## Hashes
@@ -22,6 +22,38 @@ SSDEEP | `1536:BVZG91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJjP:1EOwNMSqoKXN
 
 ### Child Processes:
 explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DpiScaling.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

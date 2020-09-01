@@ -4,7 +4,7 @@ title: AppVShNotify.exe | Microsoft Application Virtualization Client Shell Noti
 
 # AppVShNotify.exe 
 
-* File Path: `C:\windows\system32\AppVShNotify.exe`
+* File Path: `C:\Windows\system32\AppVShNotify.exe`
 * Description: Microsoft Application Virtualization Client Shell Notifier
 
 ## Hashes
@@ -18,11 +18,55 @@ SHA384 | `1B8D1DC1A21CF819D154AB262403B1CC87B678CF1B1A41843457B927B3DDD9B5B6F67A
 SHA512 | `C16C88443B1743BE70CDBCC450A736CE2BE4FFA18E1AF038582657C613238E9ED02D24FD7AE1D16C2E86A36AAD42368B3BAE815BEFDC7DA2CEC6748788222B1A`
 SSDEEP | `3072:RyMlaAj0JtLslVgqTyhq0+UJI0yWGNU6ITLz0cnVwEKTYGUh:Ry22JtQnTyhq0X1yWGNU6ITLzBxKTYn`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1434 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\AppVShNotify.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

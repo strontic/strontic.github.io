@@ -4,7 +4,7 @@ title: DmNotificationBroker.exe | DmNotificationBroker
 
 # DmNotificationBroker.exe 
 
-* File Path: `C:\windows\system32\DmNotificationBroker.exe`
+* File Path: `C:\Windows\system32\DmNotificationBroker.exe`
 * Description: DmNotificationBroker
 
 ## Hashes
@@ -20,8 +20,13 @@ SSDEEP | `768:NnJ4zlyQy46gAoTtet82Bl0/+l8Cmj5z:X0y4IZ82+/C8Fj5z`
 
 ## Runtime Data
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DmNotificationBroker.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

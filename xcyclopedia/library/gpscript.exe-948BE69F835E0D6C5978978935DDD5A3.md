@@ -18,6 +18,16 @@ SHA384 | `BA2AE63710FA6C293ABC5E0EEA5A5EFD6F83C78FBC343CC33630254C5597210BF31502
 SHA512 | `C1831D3D3A6AE1E8D879F155EFE91E40D3DFBC3A14FF5367256E786D69008116A15932090DDAA868AE06772B58F67B9661E386677767AEB8901D30A9B0960609`
 SSDEEP | `384:8sBk38mXNVJl3Uqk4FK9jG8Xh2TJpEpp84PoxSQ9UXm8Ih8rSnwkUWa94oljbsWN:8sBk3O9jG8Ie8Eoef94MbLuEk`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\gpscript.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\gpscript.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

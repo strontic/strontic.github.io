@@ -4,7 +4,7 @@ title: write.exe | Windows Write
 
 # write.exe 
 
-* File Path: `C:\windows\system32\write.exe`
+* File Path: `C:\Windows\system32\write.exe`
 * Description: Windows Write
 
 ## Hashes
@@ -22,6 +22,13 @@ SSDEEP | `192:kfN8IBpmrj0DyjZ3NRvWkHbTTHrdguUxhWxu/0WhOW:kCIB20uddBWMb9Ioxu/0WhO
 
 ### Child Processes:
 wordpad.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

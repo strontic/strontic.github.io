@@ -157,6 +157,14 @@ dsrm /? - help for deleting objects.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\dsget.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: mobsync.exe | Microsoft Sync Center
 
 # mobsync.exe 
 
-* File Path: `C:\windows\SysWOW64\mobsync.exe`
+* File Path: `C:\Windows\SysWOW64\mobsync.exe`
 * Description: Microsoft Sync Center
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `A584B2DD163DAABDC51F9E41AB3EF154B3E880D17C06DC3FDAFD62FC6E266C4F`
 SHA384 | `8B9381322CF61C534BE1A833C4CFA2BC620269762747F6C39B9518DB970FD2681954571BBB832938601B0AF981FEDFCE`
 SHA512 | `141213B488387070812067C15EE9BCD904350DD3C98A7B36C7B3EF3E67F27EE147A901C218C1DEDB7F7B07D43A8EF46D2A934267C19B86CCC3E516FAE160CBD3`
 SSDEEP | `1536:lep3oQsgy4T9ZqEpGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fK:sGqyMPpGPo9St8WHxSD+09+S`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\mobsync.exe |
+
 
 ## Signature
 

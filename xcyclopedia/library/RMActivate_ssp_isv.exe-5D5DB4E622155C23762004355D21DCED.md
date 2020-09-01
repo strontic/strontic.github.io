@@ -18,6 +18,13 @@ SHA384 | `EFF2C9B00014B9063F241359543BE304CCE98EEE38BAA71CF76F86FA660191965F04FD
 SHA512 | `3F9DB7ADFB6B58A82A3DDB816EB921058CD0950B2B7C4334F73D21E6D08AC451BD1404C78E88AD65D5486223826444E5D97E727E0AA5FC98DA261AE80DC4F0AC`
 SSDEEP | `12288:Ki1hJo4l9avKmPh3pQyjA1eNIe9n5W3dt3rO:KiLJnl9avBZ+oAYNIe95W3dt7O`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RMActivate_ssp_isv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

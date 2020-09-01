@@ -4,7 +4,7 @@ title: UserAccountBroker.exe | User Account Control Panel Host
 
 # UserAccountBroker.exe 
 
-* File Path: `C:\windows\SysWOW64\UserAccountBroker.exe`
+* File Path: `C:\Windows\SysWOW64\UserAccountBroker.exe`
 * Description: User Account Control Panel Host
 
 ## Hashes
@@ -17,6 +17,30 @@ SHA256 | `0E8430217B5215859DDB9B141649982B838538286334F309042FA614D5026D87`
 SHA384 | `64F7FCAF0C59362C50FD6D5A25FB4B85AE33D366696A6BF15F1953564DEC313AFD533BDC3DCC414235E015C089D2362C`
 SHA512 | `543AD318B0ACA7A6682DB909D681F2BDC2E7C0E5442F0245875C70B23F54384080671CA50E03C7E00FFFC7DC1E9295B0A2775B00C0F16C54C1AB788C861D87BE`
 SSDEEP | `768:HKgmZIxjtwKgHQ4iFUQJRWswGEF/TW34B3PZWpoxOLh4Xj1PUd:HW6jt5gHQ4iFUQWssfZWpos8pPC`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC15F8 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\UserAccountBroker.exe |
+
 
 ## Signature
 

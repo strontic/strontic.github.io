@@ -4,7 +4,7 @@ title: DpiScaling.exe | Display Control Panel
 
 # DpiScaling.exe 
 
-* File Path: `C:\windows\SysWOW64\DpiScaling.exe`
+* File Path: `C:\Windows\SysWOW64\DpiScaling.exe`
 * Description: Display Control Panel
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `1536:EpxZI91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJjPS:E1OOwNMSqo
 
 ### Child Processes:
 explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\DpiScaling.exe |
+
 
 ## Signature
 

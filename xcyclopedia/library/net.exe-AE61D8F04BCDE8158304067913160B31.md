@@ -4,7 +4,7 @@ title: net.exe | Net Command
 
 # net.exe 
 
-* File Path: `C:\windows\system32\net.exe`
+* File Path: `C:\Windows\system32\net.exe`
 * Description: Net Command
 
 ## Hashes
@@ -57,6 +57,16 @@ NET
       STATISTICS | STOP | TIME | USE | USER | VIEW ]
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\net.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

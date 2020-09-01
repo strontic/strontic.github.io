@@ -18,6 +18,25 @@ SHA384 | `3E3B36C7F62B123EAB2F050F1A4BFE2A472D7766CCA2D7B81FC75504A4556B0F28A5EA
 SHA512 | `2C1DB74C9C392290C12AC6F57D131F98CCEA59300D2FED032267A5A3104B4B01191CB4A0060E56AA3DF66CF0FE8CFF6A34CB360B812E0699052FA0DFEE419286`
 SSDEEP | `1536:yMc99L6OGXo8VYH7/tLXwtV5ARAzCwgKWHsDaDQnjZpgbPHF/w0ZhmecGp0iK68x:yN6zVYbF0tesnVuPxw0ZhmecGGbdtjPX`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wifitask.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

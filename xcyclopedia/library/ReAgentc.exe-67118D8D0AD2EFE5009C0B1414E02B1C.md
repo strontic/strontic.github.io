@@ -4,7 +4,7 @@ title: ReAgentc.exe | Microsoft Windows Recovery Agent
 
 # ReAgentc.exe 
 
-* File Path: `C:\windows\SysWOW64\ReAgentc.exe`
+* File Path: `C:\Windows\SysWOW64\ReAgentc.exe`
 * Description: Microsoft Windows Recovery Agent
 
 ## Hashes
@@ -77,6 +77,14 @@ REAGENTC.EXE <command> /?.
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\ReAgentc.exe |
+
 
 ## Signature
 

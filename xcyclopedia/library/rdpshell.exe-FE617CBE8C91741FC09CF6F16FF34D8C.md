@@ -18,6 +18,24 @@ SHA384 | `8D833DC8D1FC39ABE2295051A6D8B664F1D5A06B300BAF8CDACD00AB78794B466D894A
 SHA512 | `BC73E00FB05A2BA30C6E29D8BA1B24AFE9C1A17577EA7DFFB4EAE101C5CC86AA222B6172FF18CB0600FEE97F0085DD7CE5A70396627222BD7248B8310E4A882C`
 SSDEEP | `6144:LQO4sIYcDofOaXoECHz+2rzmk5trop0OrNxOJredVbv9/IEt:LQOZnfOaNCHfzV9oprNxOEdFv9/`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\system32\rdpshell.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

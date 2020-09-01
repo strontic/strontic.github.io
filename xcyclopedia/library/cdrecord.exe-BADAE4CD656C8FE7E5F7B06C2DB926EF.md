@@ -4,7 +4,7 @@ title: cdrecord.exe |
 
 # cdrecord.exe 
 
-* File Path: `C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe`
+* File Path: `C:\program files\InfraRecorder\cdrtools\cdrecord.exe`
 
 ## Hashes
 
@@ -27,7 +27,7 @@ Cdrecord-ProDVD-ProBD-Clone 2.01.01a61 (i686-pc-cygwin) Copyright (C) 1995-2009 
 
 ### Usage (stderr):
 ```Batchfile
-Usage: /cygdrive/c/Program Files/InfraRecorder/cdrtools/cdrecord [options] track1...trackn
+Usage: /cygdrive/c/program files/InfraRecorder/cdrtools/cdrecord [options] track1...trackn
 Options:
 	-version	print version information and exit
 	dev=target	SCSI target to use as CD/DVD/BD-Recorder
@@ -114,6 +114,17 @@ Currently only form 1 tracks are supported.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\InfraRecorder\cdrtools\cdrecord.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -136,8 +147,8 @@ Currently only form 1 tracks are supported.
 
 File | Score
 -- | --
-[C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
-[C:\Program Files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 35
+[C:\program files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
+[C:\program files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 35
 
 
 

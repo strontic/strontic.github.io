@@ -4,7 +4,7 @@ title: LsaIso.exe | Credential Guard & Key Guard
 
 # LsaIso.exe 
 
-* File Path: `C:\windows\system32\LsaIso.exe`
+* File Path: `C:\Windows\system32\LsaIso.exe`
 * Description: Credential Guard & Key Guard
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `456AE3F7106ED0387ED7190BCDEFC543E3F80A7189EAAFBD73517C1A9481EA2CB77ACA
 SHA512 | `FF7FA268D4291A4F1E14D4884AE8297D190B1FC20F8754CEE009B67595EB9FE3312B3F5528898DD4B0C82B2CB44D4FBA09FF8527BE58CDE7BFBE82056EA3CA41`
 SSDEEP | `6144:2dVV1+DhcBM2IvUqNvlTjw3PVscKS6ItXh:jd1XNv89jR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\ls.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

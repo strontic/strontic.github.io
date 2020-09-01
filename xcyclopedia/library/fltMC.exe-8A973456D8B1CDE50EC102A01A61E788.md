@@ -4,7 +4,7 @@ title: fltMC.exe | Filter Manager Control Program
 
 # fltMC.exe 
 
-* File Path: `C:\windows\SysWOW64\fltMC.exe`
+* File Path: `C:\Windows\SysWOW64\fltMC.exe`
 * Description: Filter Manager Control Program
 
 ## Hashes
@@ -37,6 +37,13 @@ Valid commands:
     Use fltmc help [ command ] for help on a specific command
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

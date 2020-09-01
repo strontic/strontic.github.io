@@ -4,7 +4,7 @@ title: SystemPropertiesDataExecutionPrevention.exe | Change Data Execution Preve
 
 # SystemPropertiesDataExecutionPrevention.exe 
 
-* File Path: `C:\windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe`
+* File Path: `C:\Windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe`
 * Description: Change Data Execution Prevention Settings
 
 ## Hashes
@@ -17,6 +17,38 @@ SHA256 | `51259F775BE738CE33C857B7777E88C8B6A9AFE0C3202E99D4C76F688F315424`
 SHA384 | `26052E4943DC40D68BE2CFCD7832846B20B94F4B90DC667DD88BD36FB7D78699E51337C9DDF0CF8F1B947662748D0E7C`
 SHA512 | `A7C31DFF653EE6180310349AE8EF63486F3CD1E03518DFB408553E1AAD3C3B0DD0A9DDBF681F7F23801FD6B2288FC19607BA1425E44E2165DF8752FC6DBF0A65`
 SSDEEP | `1536:SzbZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5J0:SJKzECTMpuDhjRVJGe`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesDataExecutionPrevention.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe |
+
 
 ## Signature
 

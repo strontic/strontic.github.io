@@ -18,6 +18,14 @@ SHA384 | `A5358F3EAFA60236BC1B57B5BB19405E806C0C849103A36CD2A497C376C75DE57510D2
 SHA512 | `ECE5D25F9B0DE6FD3D0831FCC6271ABB223FF2FE8E70181E46C99423C9A129A733C3066C26797297F4E204FCA6F1C32560257006367E58508321C64BB5B7699B`
 SSDEEP | `6144:zDkOC0gIaWL7Nk7DHFfBXmHq61+nQbroYl6PyHp+QwEE5ZXXQEQ5l:3Vddk7DlfBW+ng+yHRQXXNQ5l`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wsqmcons.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wsqmcons.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

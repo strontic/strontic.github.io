@@ -58,6 +58,16 @@ cmp: unknown option -- h
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cmmon32.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -76,6 +86,11 @@ cmp: unknown option -- h
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cmp.exe](cmp.exe-CF1032CAA1878355EEA100CB34A52340.md) | 94
 
 
 

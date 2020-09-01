@@ -18,6 +18,24 @@ SHA384 | `88456E9B824C45EE7B346D9ED68D907F55B51F1B61B7849DBC5D42083115995896725C
 SHA512 | `879ED5FC921C2268C1811963FDA948C4EB1E32A5F50323133BE512171BC96FB87F263ADE640F3E3B5FEB4889EA731D9DAA80E166B61C1F1690F2F9B19CCF68DD`
 SSDEEP | `1536:FrEzCPMLbiOm+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:FraC3Oe/FO+VQDUcUNWs+jm6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MdRes.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\MdRes.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

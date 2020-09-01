@@ -18,6 +18,23 @@ SHA384 | `E6F16844408FD8B18628A9A78BD3D675E96C8FED0876D3FCB715A4D86FED25FFC381F0
 SHA512 | `8B29582E31355ACF3E270D3D04BFB795C1B6E42A734CD80AB347F8C468F78623BA97929613871B88CBBE66AE77F3193933AEF06DA0759F4BDD06F414FBEA1E8B`
 SSDEEP | `1536:yLNDDCRirJYM+GmYmjR3+97wEXeGHGhIwVt3A7HPd4n+lbeRZIbSQPTxb:0D1rmM+Gyjl+eEXJwHQbPRyZ2pPTx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\splwow64.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\splwow64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -41,6 +58,7 @@ SSDEEP | `1536:yLNDDCRirJYM+GmYmjR3+97wEXeGHGhIwVt3A7HPd4n+lbeRZIbSQPTxb:0D1rmM+
 File | Score
 -- | --
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 49
+[C:\Windows\splwow64.exe](splwow64.exe-93A8D365CB20A105CB97FF41451B85D5.md) | 43
 [C:\Windows\splwow64.exe](splwow64.exe-9FCD31635CC99F1DAFB64AB3F963E0C1.md) | 44
 [C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-B626F1C0194C73D55529E729A63209A2.md) | 44

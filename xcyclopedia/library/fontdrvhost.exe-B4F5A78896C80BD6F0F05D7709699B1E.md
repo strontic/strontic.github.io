@@ -18,6 +18,24 @@ SHA384 | `8B54AC8EE30BEFC33899057B4FF25F1EA29DE7769929EED53696A11C13531CB4210154
 SHA512 | `AC2206C1D0AAEAB3B3EA8E98651659321D8FC7C55579CA6E2D77FD6BED3FE58F9FAC471EE0E10A374973A32F92F0AE11F11F88C019144C9C811EB6301CB3F70F`
 SSDEEP | `12288:CH4mhR4uSh/aJLXNzRkB7yGhJyrH8xnqinr6dP5MBU1Pab6CwKzXxNfnf9V9RclW:AV4uS8HOBWGSoVr6pt/CwYzfnVbulAO`
 
+## Runtime Data
+
+### Child Processes:
+WerFault.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fontdrvhost.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

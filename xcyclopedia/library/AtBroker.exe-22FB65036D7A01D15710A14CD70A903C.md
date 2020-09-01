@@ -18,6 +18,29 @@ SHA384 | `014B98364A545972CCCD53619F5DBCB592F03DBF576BD35D0A5B7C28F37ADBD67E971A
 SHA512 | `C501B8B473F2C5614263B5C27F5A721B070FEEF5001A4BF1E29A8ACE54FA9FDF7755A5D52066619C3BC74CD7F0484AED38A5D1513034547348E6504F71F03515`
 SSDEEP | `1536:nXtIN3Ow1nvQUfNvOI3d3M8oth+Gms2AVC3Yfx9BiXeL5Zcz5kWXFMx:ndQJBlPdc8/AVCkx/aeL5ZY5kWX6`
 
+## Runtime Data
+
+### Child Processes:
+nvda.exe Magnify.exe Narrator.exe osk.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\AtBroker.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

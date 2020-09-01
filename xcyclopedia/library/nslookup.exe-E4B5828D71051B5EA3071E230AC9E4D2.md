@@ -18,6 +18,13 @@ SHA384 | `B7EC846BFF28B155C1A6E9BE6FB4479EB2D7F1774F778FCDCA31D56BA1BBFA729985B5
 SHA512 | `690309377C1542BBCF4DBF9F7B265EDEBCCE8D53A22B9A44C26D49E6B8C6E88A343F7FED8FE7F9A54F6B17C8C0F9A93BAC9E5F38E43A27A3A2B6FE24043D1497`
 SSDEEP | `1536:4AGb3XIIYfbyeq+k2r1xSU7HWUS9iWNPocx4:4ZXZReq+k2rn5LZ0iMv4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\nslookup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

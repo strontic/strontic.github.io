@@ -18,6 +18,24 @@ SHA384 | `7B4F6D8A6751B5B8487DC1C8E9980C230BA82B191467D4F2C2225C61C06AC7E908B76A
 SHA512 | `0966FD188792C5CDF3C7E0134DACC446AC7C88389EED195374A2178DBEF1192CBC48BC37C0CE06B82CB20BA0A96AB0DF861868F087F5331C2C18FF630B3D4B01`
 SSDEEP | `12288:mOwRPzsqyUy68QLg8K8fo90MXZiarFmRgRhdZieOcrnjhIQbwIiO1iDp:DwRPzs6HLg8eJtNv3OQnY`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\SppExtComObj.Exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

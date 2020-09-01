@@ -4,7 +4,7 @@ title: runexehelper.exe |
 
 # runexehelper.exe 
 
-* File Path: `C:\windows\system32\runexehelper.exe`
+* File Path: `C:\Windows\system32\runexehelper.exe`
 
 ## Hashes
 
@@ -17,11 +17,21 @@ SHA384 | `AEC4637B7D0634DE730DFFABE5D71B256B92EC7EA0A154342A203536F52AF96F4A0F97
 SHA512 | `CD98E441FD420F91B4E3B0896A6DB6082A3455D9A2F02EF223E634196E4A6214CFB0ACE37AC3E1CEFC548C198183BA88D29AB821E954404AEF3650F6599B73C4`
 SSDEEP | `1536:moIKw1wa+j/Le2p+eDyrmsHB0cIX45uTDRlsR:mNoLe2YeDyrNfySuTC`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\runexehelper.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -4,7 +4,7 @@ title: Register-CimProvider.exe | WMI
 
 # Register-CimProvider.exe 
 
-* File Path: `C:\windows\SysWOW64\Register-CimProvider.exe`
+* File Path: `C:\Windows\SysWOW64\Register-CimProvider.exe`
 * Description: WMI
 
 ## Hashes
@@ -85,6 +85,15 @@ Usage:  Register-CimProvider.exe
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\Register-CimProvider.exe |
+
 
 ## Signature
 

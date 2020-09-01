@@ -4,7 +4,7 @@ title: secinit.exe | Security Init
 
 # secinit.exe 
 
-* File Path: `C:\windows\SysWOW64\secinit.exe`
+* File Path: `C:\Windows\SysWOW64\secinit.exe`
 * Description: Security Init
 
 ## Hashes
@@ -20,8 +20,12 @@ SSDEEP | `192:wKNJVLN9VfIA628ghXhtNtm+Qk9W8vQzRiWGh:wm1N9tIA628gRv7Pr9W8vQzRiWG`
 
 ## Runtime Data
 
-### Child Processes:
-wordpad.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

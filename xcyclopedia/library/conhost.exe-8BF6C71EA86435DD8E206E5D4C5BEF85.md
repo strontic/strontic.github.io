@@ -31,21 +31,21 @@ SSDEEP | `12288:zTeDhxNBAwKbsaXzR73MWJZF1CrLdeeIob5FGW//BAoX:/eDRBAwKbs+3VtGLzIo
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[HDISKPART       Displays or configures Disk Partition properties.
+[HCHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
 DOSKEY         Edits command lines, recalls Windows commands, and
                creates macros.
 DRIVERQUERY    Displays current device driver status and properties.
@@ -60,20 +60,6 @@ FINDSTR        Searches for strings in files.
 FOR            Runs a specified command for each file in a set of files.
 FORMAT         Formats a disk for use with Windows.
 FSUTIL         Displays or configures the file system properties.
-FTYPE          Displays or modifies file types used in file extension
-               associations.
-GOTO           Directs the Windows command interpreter to a labeled line in
-               a batch program.
-GPRESULT       Displays Group Policy information for machine or user.
-GRAFTABL       Enables Windows to display an extended character set in
-               graphics mode.
-HELP           Provides Help information for Windows commands.
-ICACLS         Display, modify, backup, or restore ACLs for files and
-               directories.
-IF             Performs conditional processing in batch programs.
-LABEL          Creates, changes, or deletes the volume label of a disk.
-MD             Creates a directory.
-MKDIR          Creates a directory.
 ]0;C:\Windows\system32\conhost.exe[?25h[25l
 
 
@@ -111,7 +97,21 @@ MKDIR          Creates a directory.
 
 
 
-[HPOPD           Restores the previous value of the current directory saved by[K
+
+
+
+[HLABEL          Creates, changes, or deletes the volume label of a disk.[K
+MD             Creates a directory.[K
+MKDIR          Creates a directory.[K
+MKLINK         Creates Symbolic Links and Hard Links[K
+MODE           Configures a system device.[K
+MORE           Displays output one screen at a time.[K
+MOVE           Moves one or more files from one directory to another[K
+               directory.[K
+OPENFILES      Displays files opened by remote users for a file share.[K
+PATH           Displays or sets a search path for executable files.[K
+PAUSE          Suspends processing of a batch file and displays a message.[K
+POPD           Restores the previous value of the current directory saved by[K
                PUSHD.[K
 PRINT          Prints a text file.[K
 PROMPT         Changes the Windows command prompt.[K
@@ -129,7 +129,27 @@ SETLOCAL       Begins localization of environment changes in a batch file.[K
 SC             Displays or configures services (background processes).[K
 SCHTASKS       Schedules commands and programs to run on a computer.[K
 SHIFT          Shifts the position of replaceable parameters in batch files.[K
-SHUTDOWN       Allows proper local or remote shutdown of machine.[K
+[K[?25h[25l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[10;1HSHUTDOWN       Allows proper local or remote shutdown of machine.[K
 SORT           Sorts input.[K
 START          Starts a separate window to run a specified program or command.[K
 SUBST          Associates a path with a drive letter.[K
@@ -140,16 +160,7 @@ TIME           Displays or sets the system time.[K
 TITLE          Sets the window title for a CMD.EXE session.[K
 TREE           Graphically displays the directory structure of a drive or[K
                path.[K
-[K[?25h[25l
-
-
-
-
-
-
-
-
-[21;1HTYPE           Displays the contents of a text file.[K
+TYPE           Displays the contents of a text file.[K
 VER            Displays the Windows version.[K
 VERIFY         Tells Windows whether to verify that your files are written[K
                correctly to a disk.[K
@@ -160,6 +171,24 @@ WMIC           Displays WMI information inside interactive command shell.[K
 For more information on tools see the command-line reference in the online help.[K
 [K[?25h
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\conhost.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
 
 ## Signature
 

@@ -18,6 +18,17 @@ SHA384 | `AFA217E4232CD1A6B3A5231F4659FAEFF7CFC41D5EFC30AA55543A923758AF606EFCE7
 SHA512 | `29E997C89A36174BA2842AF1D47114941007BFFBA7ED56C578D5798947594275C80CD8E8C952E905F88F4934E315C1D3588A2A3C0991F276DCE955FC440A43D2`
 SSDEEP | `384:gD/hZClajd2HnKR1rJ7eLUJ6rurFoDnv1D3en5uWq02Wi:k6gJ2HMEvrDnvQn5t`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ScriptRunner.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\scshost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

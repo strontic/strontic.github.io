@@ -18,6 +18,13 @@ SHA384 | `7532208BD545331E076833FF1B3D5B425D8126AEFF71DABCBFA316AF135E6BBCC05F51
 SHA512 | `C56A5ACC93C7AD4761EBE55EFF8D8487CC7F18DAE177E820DF9D772F8434F7C7531E73569F296E91ACC6E0FD289D9E4C14C4648C9FFAC101EE2624DEA050FFDB`
 SSDEEP | `3072:xoBTadO6xP1DJXTEsasx6kAfaep9Rmo5gb+P/d5wd/rXBC:xoBoF1DJXTEsXxpASK7XJd5mrX`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\tpmvscmgr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

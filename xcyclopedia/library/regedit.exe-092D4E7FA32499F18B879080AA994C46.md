@@ -4,7 +4,7 @@ title: regedit.exe | Registry Editor
 
 # regedit.exe 
 
-* File Path: `C:\windows\SysWOW64\regedit.exe`
+* File Path: `C:\Windows\SysWOW64\regedit.exe`
 * Description: Registry Editor
 
 ## Screenshot
@@ -22,6 +22,38 @@ SHA256 | `A9BFE5633CED879D8A94B66A06A294BC6D6EF466EAEE46AE4D25CB0E3A1D79A5`
 SHA384 | `74C69C9FE9FA94B6D2DAC1FF1B575563FF605ADE6C0B922470FC02F41BE1E25DD234F8B044C681B9B8A79A2818A78DE5`
 SHA512 | `9996121974FB41F0190E1CB94E8E243124CD475368B6381C491368D3731F19ADBFD450A4EA0B8D3DE66EC5A83D79CB09CA930F5DED746A877AF68D13675A5B26`
 SSDEEP | `6144:6qoAOc6qKhTsywE2KBiBQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNN2:6qvOFhg5KIQRZ66z24VZbdrpgrXN2LWr`
+
+## Runtime Data
+
+### Window Title:
+Registry Editor
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\aclui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\regedit.exe.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

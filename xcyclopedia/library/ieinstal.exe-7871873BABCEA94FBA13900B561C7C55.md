@@ -4,7 +4,7 @@ title: ieinstal.exe | Internet Explorer Add-on Installer
 
 # ieinstal.exe 
 
-* File Path: `C:\Program Files (x86)\Internet Explorer\ieinstal.exe`
+* File Path: `C:\program files (x86)\Internet Explorer\ieinstal.exe`
 * Description: Internet Explorer Add-on Installer
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `A71004C20ABC2216D52137A41B72703841DA8BAB3A97A60EEDF77A37E951609F`
 SHA384 | `B36AAC777940925EFB143CB5ECB993042DD5774468826E7414D33E65A66C595CB0BC0A184D1D09BAF2F9ED1C7FF954F8`
 SHA512 | `06F8686A7D89A3E1957FA74439CA22743ABFE0994042D082DD24C1BAB7FB5FCC62355C16DF0C216BEB5A007A6087E6AA771428AFE907467F4DC6CF900B58418E`
 SSDEEP | `6144:LDYHL0vyBwHw1rOt9pdYamXnrdbMKw7w1rOt9pdYamXnrdbMKwwR:LDGL6Q5OLpdNIrd4Ds5OLpdNIrd4DwR`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Internet Explorer\ieinstal.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -40,9 +53,9 @@ SSDEEP | `6144:LDYHL0vyBwHw1rOt9pdYamXnrdbMKw7w1rOt9pdYamXnrdbMKwwR:LDGL6Q5OLpdN
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Internet Explorer\ielowutil.exe](ielowutil.exe-650FE7460630188008BF8C8153526CEB.md) | 57
-[C:\Program Files\Internet Explorer\ieinstal.exe](ieinstal.exe-C9EDD394EB4D0996EE43CB67563DF50C.md) | 80
-[C:\Program Files\Internet Explorer\ielowutil.exe](ielowutil.exe-D831180F7596E0D2BB87B2CC57ECFCA2.md) | 54
+[C:\program files (x86)\Internet Explorer\ielowutil.exe](ielowutil.exe-650FE7460630188008BF8C8153526CEB.md) | 57
+[C:\program files\Internet Explorer\ieinstal.exe](ieinstal.exe-C9EDD394EB4D0996EE43CB67563DF50C.md) | 80
+[C:\program files\Internet Explorer\ielowutil.exe](ielowutil.exe-D831180F7596E0D2BB87B2CC57ECFCA2.md) | 54
 
 
 

@@ -18,6 +18,21 @@ SHA384 | `5B554E9C879D4A10FEAF955AD7ACAECCAB532AF6F4B3C08B0AEAC9F5DF87E3D5B516B5
 SHA512 | `FD0B68E84A9AB310927426F795EB59F0B233D6CA68764C4249EF5C5790A3A48AC9B9878EBACB0C484104D85CF28A0AEA01E295B489E2943225F2A188DFFDC65D`
 SSDEEP | `768:roDoeaPev6TOvyojAg0XgwJQ7JTmSjmEKWU0YM:reoeqouojxBwJQ7VmSjA5M`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Internet Explorer\ExtExport.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\extrac32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,16 @@ SHA384 | `1AE42540F354C1FCB5A616E68A80B4D5B99AA46CA9233AB1D16623E724DE2955A058DD
 SHA512 | `6EE20E2761DA5569B2A38C705EF707974446AD7847D80EAF5F8DB4CFA1701A746F96CFBEA3A345E0DCF3EC42ACCCB02E0BB54B5867BBA22D30B1033DD11719D4`
 SSDEEP | `384:EHCpYskzEeYxlIjpW+GWXceMoLrKS8350kFC2d4R5TkZyxtwKkelBpeShAogWlW9:EHCpMEeYX6XjLc3eQdqztwKRlve1WR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\netiougc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\netiougc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

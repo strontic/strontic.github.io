@@ -4,7 +4,7 @@ title: regedit.exe | Registry Editor
 
 # regedit.exe 
 
-* File Path: `C:\windows\regedit.exe`
+* File Path: `C:\Windows\regedit.exe`
 * Description: Registry Editor
 
 ## Screenshot
@@ -23,11 +23,43 @@ SHA384 | `25096F9DDF40C883DEF467A2224EC2B739B74AEAE5B540F1CEFB37D5BEC31F885D4F3A
 SHA512 | `CB39E0A4F7C50A449DC113F4B61AB6EF2DCAEBA12170D04DA97A2644D8399CF51F217C84C608DEDD3F35B73F8BBAA1F3F7FDD1EA51AD293BF18BCE2FA38A2C0F`
 SSDEEP | `6144:6qoAOc6qKhTsywE2KBiBQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNN2:6qvOFhg5KIQRZ66z24VZbdrpgrXN2LWr`
 
+## Runtime Data
+
+### Window Title:
+Registry Editor
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\en-US\regedit.exe.mui | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\aclui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\regedit.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

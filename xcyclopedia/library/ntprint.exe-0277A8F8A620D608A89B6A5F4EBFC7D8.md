@@ -18,6 +18,16 @@ SHA384 | `3B73795F13114873B4758BCA2E79C81C79869801A286645E9AD658E2091FF023CD9A21
 SHA512 | `1103D809F483DE38BA14B9F1928A68A7F65A4DEFE5C7945450D20233BD83B912B0F1374390E76A4F6E1BE3C90D356469B106D54C4850676D4AD6B4907203EDA1`
 SSDEEP | `768:L1tKzJT5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnNtC:alHVIPd4n+lbeRZIbSQPPA74tC`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ntfrsutl.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ntprint.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

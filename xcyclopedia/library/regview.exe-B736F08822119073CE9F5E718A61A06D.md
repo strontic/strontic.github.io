@@ -4,7 +4,7 @@ title: regview.exe |
 
 # regview.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\regview.exe`
+* File Path: `C:\program files\LibreOffice\program\regview.exe`
 
 ## Hashes
 
@@ -17,11 +17,23 @@ SHA384 | `F8C735FDF14D8D85796B9265060E2B08BF00CC5A17D1E8179CED366FF8AF3A55F81B80
 SHA512 | `AE37D0002BA32C6666F6C117E6D88A3C6702E0F3B4AD1F48A27AD413782F3DBACCD21B0A76600B30346117D4CCEB0D2C0EA4A29F92CA14B5FEC7A4695571495B`
 SSDEEP | `384:NUot4fFt6WNSMjlgftsl1GidQnz4HzAhFFwme+Es:NBg7TNstsTGWQnzCEhFFlcs`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 open registry "--help" failed
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\regview.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -45,10 +57,10 @@ open registry "--help" failed
 
 File | Score
 -- | --
-[C:\Program Files\LibreOffice\program\gpgme-w32spawn.exe](gpgme-w32spawn.exe-B6E9A3912C00E260B959024AB9B4939E.md) | 33
-[C:\Program Files\LibreOffice\program\minidump_upload.exe](minidump_upload.exe-BDCA7E6DD0F4FEFD7E79091E7CF9A7B9.md) | 29
-[C:\Program Files\LibreOffice\program\python.exe](python.exe-D96B28F3D09E5B31E756BFF7997A6C07.md) | 30
-[C:\Program Files\LibreOffice\program\unoinfo.exe](unoinfo.exe-11B7D1A4E926310A8BAC546D0154B3F1.md) | 32
+[C:\program files\LibreOffice\program\gpgme-w32spawn.exe](gpgme-w32spawn.exe-B6E9A3912C00E260B959024AB9B4939E.md) | 33
+[C:\program files\LibreOffice\program\minidump_upload.exe](minidump_upload.exe-BDCA7E6DD0F4FEFD7E79091E7CF9A7B9.md) | 29
+[C:\program files\LibreOffice\program\python.exe](python.exe-D96B28F3D09E5B31E756BFF7997A6C07.md) | 30
+[C:\program files\LibreOffice\program\unoinfo.exe](unoinfo.exe-11B7D1A4E926310A8BAC546D0154B3F1.md) | 32
 
 
 

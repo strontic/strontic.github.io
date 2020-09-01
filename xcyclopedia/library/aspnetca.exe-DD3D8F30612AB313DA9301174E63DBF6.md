@@ -4,7 +4,7 @@ title: aspnetca.exe | ASP.NET setup custom actions
 
 # aspnetca.exe 
 
-* File Path: `C:\windows\SysWOW64\inetsrv\aspnetca.exe`
+* File Path: `C:\Windows\SysWOW64\inetsrv\aspnetca.exe`
 * Description: ASP.NET setup custom actions
 
 ## Hashes
@@ -26,6 +26,13 @@ Description: aspnetca.exe is a helper utility that belongs to OS setup
 and should never be called manually.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

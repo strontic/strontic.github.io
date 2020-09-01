@@ -18,6 +18,13 @@ SHA384 | `E5D771DA25A4B8FB9C98640A10DC8770D3F437D338F186F0588758E999BBDB8A56B53C
 SHA512 | `C9BAD91B3DC0346F68B346462FE819BC6615E08E917D3287222FD430921F04CCB8D5C1EBDFF1D8A4078B8DDF0BAA90A72709C92D9E7B7429CB14BFD78DE52F5A`
 SSDEEP | `384:IiZbrQb47nCU/g7NL3we2/eMoyUurufr+Uj67yDWncW:ITgC3i/eMoQSSjyY`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\prevhost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

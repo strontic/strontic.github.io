@@ -22,6 +22,14 @@ SHA384 | `CCF9EBE3A771B3CD323BA65083E656AB3BE4888F1ED2D937A904A040247419DEF39EB2
 SHA512 | `AF80549E39DB68AE65E9F869875ED7F3FFA1281EFBD2CB2B271E19B8CD941F5FB3DD55E3607F7A027282A0457323EBF22294C4E24C1F06B04ECD1E7C55555BC1`
 SSDEEP | `3072:MRra4at1xbcghtYIo9piswTogiqQKy349b:eYxZhqIo9s37iTK24`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\perfmon.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\perfmon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

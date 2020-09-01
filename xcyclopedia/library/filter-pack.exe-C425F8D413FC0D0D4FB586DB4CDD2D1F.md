@@ -4,7 +4,7 @@ title: filter-pack.exe | GNU Image Manipulation Program Plug-In
 
 # filter-pack.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\filter-pack\filter-pack.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\filter-pack\filter-pack.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `8542AD792B31D54D78ED07D35F5F299E074ED73DA6D67846D61BD470A204C86E`
 SHA384 | `0AAA6453C1261EA8C8AD99F88BEAE182DDF4E03C18FA9E8271C7078FD832D545C7F04B0263EE4296679EB5DF2E02C8ED`
 SHA512 | `759E34EEAEE86F5D025EC34FD3C374E65FC39C7B4BD4D7C5D98C56A27A43EC760DC765DB83D90E2CFB66A057624288536DDB4DE0C5A310A7972535911A5DD50E`
 SSDEEP | `1536:vfYdWQuQDAlFJWbyT9+Gvuzv0aipiPWjTaiKWXis:YLzM1hEGvuzv0fmOTwg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\filter-pack\filter-pack.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,9 +62,9 @@ SSDEEP | `1536:vfYdWQuQDAlFJWbyT9+Gvuzv0aipiPWjTaiKWXis:YLzM1hEGvuzv0fmOTwg`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\colorify\colorify.exe](colorify.exe-EA79617EDA8E5F55DBD78CEB6A1A4FC6.md) | 46
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\despeckle\despeckle.exe](despeckle.exe-F1B2645423E7D5FEECED550712FEC034.md) | 46
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\softglow\softglow.exe](softglow.exe-2FCB78085FB4FFE4FECB9E6DA192D538.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\colorify\colorify.exe](colorify.exe-EA79617EDA8E5F55DBD78CEB6A1A4FC6.md) | 46
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\despeckle\despeckle.exe](despeckle.exe-F1B2645423E7D5FEECED550712FEC034.md) | 46
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\softglow\softglow.exe](softglow.exe-2FCB78085FB4FFE4FECB9E6DA192D538.md) | 41
 
 
 

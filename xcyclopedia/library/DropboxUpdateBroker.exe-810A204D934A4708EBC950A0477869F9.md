@@ -4,7 +4,7 @@ title: DropboxUpdateBroker.exe | Dropbox Update
 
 # DropboxUpdateBroker.exe 
 
-* File Path: `C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe`
+* File Path: `C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe`
 * Description: Dropbox Update
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `768:Fj+bYE5pI35H1ZkpMop8IMjpVP+I6lUxzXBNQJ5HzJs911/ZqU2bxDGAK43:pepiPk
 
 ### Child Processes:
 DropboxUpdate.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,7 +56,7 @@ DropboxUpdate.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe](DropboxUpdateOnDemand.exe-AE70A96D9AD364A39DCAC6CBC019E801.md) | 58
+[C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe](DropboxUpdateOnDemand.exe-AE70A96D9AD364A39DCAC6CBC019E801.md) | 58
 
 
 

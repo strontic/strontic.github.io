@@ -4,7 +4,7 @@ title: qwinsta.exe | Query Session Utility
 
 # qwinsta.exe 
 
-* File Path: `C:\windows\SysWOW64\qwinsta.exe`
+* File Path: `C:\Windows\SysWOW64\qwinsta.exe`
 * Description: Query Session Utility
 
 ## Hashes
@@ -60,6 +60,14 @@ QUERY SESSION [sessionname | username | sessionid]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\qwinsta.exe |
+
 
 ## Signature
 

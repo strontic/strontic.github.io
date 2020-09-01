@@ -4,7 +4,7 @@ title: backgroundTaskHost.exe | Background Task Host
 
 # backgroundTaskHost.exe 
 
-* File Path: `C:\windows\system32\backgroundTaskHost.exe`
+* File Path: `C:\Windows\system32\backgroundTaskHost.exe`
 * Description: Background Task Host
 
 ## Hashes
@@ -17,6 +17,31 @@ SHA256 | `B8E176FE76A1454A00C4AF0F8BF8870650D9C33D3E333239A59445C5B35C9A37`
 SHA384 | `652E1102EDEB000B95F54DDC85BE8C4D7E92001F17AB8E8F6CF0021F0F6EFF087626F40B1C1C357C35E4FF141FA62700`
 SHA512 | `A89427027064F3B60948F6CD89D467A9E54A6947B8C73E73F9A252E1608CBA1A144DA77C47D5E36BD991649D878772934D93007A4B8A2AF005A39837851635D6`
 SSDEEP | `384:H1dPOeFIR79Mjs0HijWFGWCmXjDBRJWrKudlZp06:PPO6tHimrXj1PWrTzB`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\backgroundTaskHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RMCLIENT.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\twinapi.appcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WinTypes.dll |
+
 
 ## Signature
 

@@ -22,6 +22,26 @@ SHA384 | `30F8555FE5901522B0911A1984A5AD67467E9E0AD34BD264B42047F84C1FA104FE5AE7
 SHA512 | `5A525858B409B3192F7E5E853FF9FAC9DE197B598D17E7B3F1186CE9C376FEC162728A9CA4879690DFCB525B34D56806B5418C273F9D451B467D3E67CA3040D1`
 SSDEEP | `768:Sygex7DOKjVVVVVVVVkZIOzYzz+zz4zzzszzz3zzzTZzzzjzzzzfzzzzgzzzzPzu:3gedOKjVVVVVVVVkZIOzYzz+zz4zzzsR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\i18nlangtag.dll |
+C:\program files\LibreOffice\program\mergedlo.dll |
+C:\program files\LibreOffice\program\sal3.dll |
+C:\program files\LibreOffice\program\spsupp_helper.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -44,6 +64,8 @@ SSDEEP | `768:Sygex7DOKjVVVVVVVVkZIOzYzz+zz4zzzszzz3zzzTZzzzjzzzzfzzzzgzzzzPzu:3
 
 File | Score
 -- | --
+[C:\program files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-49C40981F711E83777816DAEA71AF2D6.md) | 96
+[C:\program files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-A364BDE5FD75712D95F1772396F08C28.md) | 41
 [C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-B0CCA5153453B97D382000262F713E0A.md) | 43
 
 

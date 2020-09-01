@@ -18,6 +18,8 @@ SHA384 | `4BA20884CC1D4DBBD37EEF90CA7AC7C791690F298ECF23C2A699C9CDD960C80E93E861
 SHA512 | `4AB3D4DEF49406748F9B9D35CAA9BB1D0FFF1B4156D93130C8E05EFBD3B272981834CE8FDE38108BF299151D1F368E6BF133553DFD5193315134795927883112`
 SSDEEP | `3072:5uPZdugyxE/Co5VMWT/zJejdrRrSH1rTvEXiEvFxG+5wIoJTrZPOdUoSn4g0LGJX:5uh86tsxjVOiUoYSKV8BuxPrJoNR2L`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage: nltest [/OPTIONS]
@@ -78,6 +80,16 @@ Usage: nltest [/OPTIONS]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\nltest.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -96,6 +108,11 @@ Usage: nltest [/OPTIONS]
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\nltest.exe](nltest.exe-83D87F1BD5CC5E9EC2D2B88B82A78C6A.md) | 82
 
 ## Possible Misuse
 

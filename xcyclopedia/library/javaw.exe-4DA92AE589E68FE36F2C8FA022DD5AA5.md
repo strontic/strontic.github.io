@@ -4,7 +4,7 @@ title: javaw.exe | OpenJDK Platform binary
 
 # javaw.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\javaw.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -224,6 +224,26 @@ To specify an argument for a long option, you can use --<name>=<value> or
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\javaw.exe |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jli.dll |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\VCRUNTIME140.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -246,11 +266,11 @@ To specify an argument for a long option, you can use --<name>=<value> or
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\java.exe](java.exe-B6E59B7366EB5856C992AC5CAD257C17.md) | 69
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-2CD1B7F9036089B628BFC45F90B989FE.md) | 74
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\java.exe](java.exe-D36757DCE912D160CA59090F1B3A5409.md) | 69
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-FFAE755FD5D5CC1D967D4DEB3E9501FE.md) | 74
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\java.exe](java.exe-C3D6393B399F55B9432AA68D5C2C778C.md) | 71
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\java.exe](java.exe-B6E59B7366EB5856C992AC5CAD257C17.md) | 69
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-2CD1B7F9036089B628BFC45F90B989FE.md) | 74
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\java.exe](java.exe-D36757DCE912D160CA59090F1B3A5409.md) | 69
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-FFAE755FD5D5CC1D967D4DEB3E9501FE.md) | 74
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\java.exe](java.exe-C3D6393B399F55B9432AA68D5C2C778C.md) | 71
 
 ## Possible Misuse
 

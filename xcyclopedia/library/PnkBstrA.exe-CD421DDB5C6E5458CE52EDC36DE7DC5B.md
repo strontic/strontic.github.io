@@ -17,6 +17,17 @@ SHA384 | `D708051EB50476E8B1812A725BBC33C110E5E09D758DF3DD12A8EEC8F7492790D30E80
 SHA512 | `0FE109E26F5B9F0C89971C30636EE99E1F5F69814C5CA653DFBB2F0173B14EAD1577D5F974B9522FB7605A00C9DEA60851BA3DC1355B91CAA555F99AA1F3B696`
 SSDEEP | `1536:aCCmCvrxqUj4CU3sY8nv/IOwGPbhqeDxlHr:5ivrxqUr1IOzDxlL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Apple Application Support\plutil.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

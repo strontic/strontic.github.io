@@ -17,12 +17,25 @@ SHA384 | `D0B132F59D59D07577573D5583B3B676660B7A5227544E96C33335754809D50ABF4245
 SHA512 | `7C4AE0C7EDBFAA17F3B270AFBA8929C7B758205D85E7117F629E29E730400A730D31717D8ACEB36AC32663734197CB95352DBCF2E34DF3075EB3A14058AE681E`
 SSDEEP | `6144:tEyf4rqrHB5dwLgRig56pUmEPczS5RyC8T4Aw0+wF/xKtZRHnH+4Oj3IJ79Y:t3TigkpUmEBT8T4P0+w9xmgGY`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Inno Update v0.8.2
 Error: Bad usage
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Microsoft VS Code\tools\inno_updater.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -42,6 +55,11 @@ Error: Bad usage
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Microsoft VS Code\tools\inno_updater.exe](inno_updater.exe-217E8049190363B20EC4119187D68390.md) | 97
 
 
 

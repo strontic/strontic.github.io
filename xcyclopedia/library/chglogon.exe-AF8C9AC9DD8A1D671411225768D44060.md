@@ -18,6 +18,16 @@ SHA384 | `1F7CA56F888F5BA20C814ED93F698F35DE3011044F9AB0B8479D3AA5BB124FDDC527B5
 SHA512 | `36E48ED788863228486336C9780EF2E847B00264FC66901D18BD7E9930D2DE9D8BE0962DBCBDA95291DB144DC642569A4916CDF52E59CCEA4DC10B7597EE4702`
 SSDEEP | `384:6l/skoa9sQEhEs9mp2j37kYHJE+55HKnmXwZIGgWlW+1ynkjv6e0oKPe5ISWkEW:G/WaKROA3bqmXwZ2ijvsK5IQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chglogon.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\chglogon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: eventcreate.exe | Event Create - Creates a custom event in an event log
 
 # eventcreate.exe 
 
-* File Path: `C:\windows\SysWOW64\eventcreate.exe`
+* File Path: `C:\Windows\SysWOW64\eventcreate.exe`
 * Description: Event Create - Creates a custom event in an event log
 
 ## Hashes
@@ -77,10 +77,17 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "EVENTCREATE /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

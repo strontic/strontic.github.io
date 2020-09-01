@@ -4,7 +4,7 @@ title: defaults.exe | defaults
 
 # defaults.exe 
 
-* File Path: `C:\Program Files\Common Files\Apple\Apple Application Support\defaults.exe`
+* File Path: `C:\program files\Common Files\Apple\Apple Application Support\defaults.exe`
 * Description: defaults
 
 ## Hashes
@@ -62,6 +62,16 @@ Syntax:
   -dict-add <key1> <value1> ...
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Apple Application Support\defaults.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

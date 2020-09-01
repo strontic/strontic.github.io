@@ -4,7 +4,7 @@ title: chgport.exe | Change port Utility
 
 # chgport.exe 
 
-* File Path: `C:\windows\system32\chgport.exe`
+* File Path: `C:\Windows\system32\chgport.exe`
 * Description: Change port Utility
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `92E224A1E945B43143D74D1396B391C0FE9E123FD075C8FF368A7800B1FCD985`
 SHA384 | `1FDAB386A5DF32A08FC4C084775BE4943A68FABB598700AED55320A2DB255EC98489CE650E2E9BFD16CC2AF98CBBFD14`
 SHA512 | `3FA30CE26D3FBD2BF97EFD27D5A4953A90FBE8CEE455314F53F011B139612837080F527D0133EE4179E09692EACBBF210D24E746836033D0A88291C089D13859`
 SSDEEP | `768:9r+otF1NLLreAtASiVnK8NV+HMAjMujy:cYPr8SykHjXy`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -31,6 +33,15 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chgport.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

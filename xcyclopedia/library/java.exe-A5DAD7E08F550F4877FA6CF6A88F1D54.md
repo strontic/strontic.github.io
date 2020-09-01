@@ -4,7 +4,7 @@ title: java.exe | OpenJDK Platform binary
 
 # java.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\java.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `448C55F8296CF380E3AD3541757CA69BA8C6B18D51665B64642D4CB361949D25`
 SHA384 | `AA189E744BB47F75444A0842382015E54BC5BB7608A460B7C4152500E873709F341D90B075A34AEF43B6BE4A67E8ADF1`
 SHA512 | `7B6513B0E03102A1614972CB3BF28D4B3CE883A25C3B9B0C07EAAB1E1B33054C7AEBF8DA6DAE66B205CC4286E1B43CE06E10D95EBD30A81128F6E008BE584134`
 SSDEEP | `3072:UhVcA18g6gMjsljMTxzLbNg8mzADj4TBfHmW7k/IWuv:UhVD6XsljMz3Ng8mz8j4TB97k/Cv`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -74,6 +76,17 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\java.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -96,8 +109,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-6D68635653361D818CE0355630EEB181.md) | 97
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\java.exe](java.exe-EA4B674BCE6BE45E4F2D0F7594A23FBD.md) | 97
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-6D68635653361D818CE0355630EEB181.md) | 97
+[C:\program files (x86)\Amazon Corretto\jre8\bin\java.exe](java.exe-EA4B674BCE6BE45E4F2D0F7594A23FBD.md) | 97
 
 ## Possible Misuse
 

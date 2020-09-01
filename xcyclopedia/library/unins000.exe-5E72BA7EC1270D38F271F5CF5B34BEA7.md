@@ -4,7 +4,7 @@ title: unins000.exe | Setup/Uninstall
 
 # unins000.exe 
 
-* File Path: `C:\Program Files\Combined Community Codec Pack 64bit\unins000.exe`
+* File Path: `C:\program files\Combined Community Codec Pack 64bit\unins000.exe`
 * Description: Setup/Uninstall
 
 ## Hashes
@@ -22,6 +22,33 @@ SSDEEP | `24576:2EZXjiinrzY5tO+uKE3LMT0jECZQEbLBDBEnFWsy/d97x9NU:7dmbjTKlD00/p4`
 
 ### Child Processes:
 _iu14D2N.tmp
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\netmsg.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Combined Community Codec Pack 64bit\unins000.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,8 +72,8 @@ _iu14D2N.tmp
 
 File | Score
 -- | --
-[C:\Program Files\Combined Community Codec Pack 64bit\CCCP-Settings.exe](CCCP-Settings.exe-8B4C891A7C63E64B40D7FB093EEC7E3B.md) | 91
-[C:\Program Files\Combined Community Codec Pack 64bit\CCCP-SystemSettings.exe](CCCP-SystemSettings.exe-69D210C357EFBA2D213DA3FCDA2A7ECB.md) | 91
+[C:\program files\Combined Community Codec Pack 64bit\CCCP-Settings.exe](CCCP-Settings.exe-8B4C891A7C63E64B40D7FB093EEC7E3B.md) | 91
+[C:\program files\Combined Community Codec Pack 64bit\CCCP-SystemSettings.exe](CCCP-SystemSettings.exe-69D210C357EFBA2D213DA3FCDA2A7ECB.md) | 91
 
 
 

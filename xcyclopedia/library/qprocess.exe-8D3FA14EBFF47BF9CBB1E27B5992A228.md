@@ -4,7 +4,7 @@ title: qprocess.exe | Query Process Utility
 
 # qprocess.exe 
 
-* File Path: `C:\windows\system32\qprocess.exe`
+* File Path: `C:\Windows\system32\qprocess.exe`
 * Description: Query Process Utility
 
 ## Hashes
@@ -54,6 +54,13 @@ QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
   /SERVER:servername The Remote Desktop Session Host server to be queried.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

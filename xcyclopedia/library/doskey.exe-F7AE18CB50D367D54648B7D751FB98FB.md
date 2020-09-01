@@ -18,6 +18,14 @@ SHA384 | `4BEBA4AB38A7E1BD4CD4E1386EFCAEDAFAC790A1A1DA63DC4603CDA5C69E3E6EBE148D
 SHA512 | `75BE38443A8CE5704D190EFAB2BAD3957F1931AC2889855FE884F40FEE8B20B29459618297C91A69BA8942420CBF326CBB5AA0653027CCCE96019D2DA941D10F`
 SSDEEP | `384:o76LVQ4WipnXqiHlz+Hs69YoJtvp6pKRYeMnfW2iW:Y+Vrn1XHHR+Hs6fBR1Mnh`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\doskey.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\doskey.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

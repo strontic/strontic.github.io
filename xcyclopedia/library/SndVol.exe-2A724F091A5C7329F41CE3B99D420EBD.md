@@ -4,7 +4,7 @@ title: SndVol.exe | Volume Mixer
 
 # SndVol.exe 
 
-* File Path: `C:\windows\SysWOW64\SndVol.exe`
+* File Path: `C:\Windows\SysWOW64\SndVol.exe`
 * Description: Volume Mixer
 
 ## Screenshot
@@ -21,6 +21,40 @@ SHA256 | `439997E510099CCD0D086DC1A99DF6651CED076B34DF2029A6CBBDAD6204B469`
 SHA384 | `386BC8928A60BCDF3FD7307D7BA0E3DD6703722E75F1D6C363C21106D7FABAA0D49EC2EAAC21C390DCB329517D5ABF03`
 SHA512 | `840C1D6794FE7A4222F479A5470336C45D9454F18981CE082FCA6F7D81BF0B50A6B03113DE0D57743A1689327F10AF4A833BD485AAB15794011D4799BCCC2105`
 SSDEEP | `3072:kXdA52RxekzTkA5SKocHeKrEZAtOw+w//SfIBjbEyB7HbIdUAOo:k+yxeFA5SKPHeiP///qzy10dn`
+
+## Runtime Data
+
+### Window Title:
+Volume Mixer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\sndvol.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_570e6eecc25578b0 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SndVol.exe |
+
 
 ## Signature
 

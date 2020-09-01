@@ -23,6 +23,29 @@ SHA384 | `154CF2667403F2A2B5937660DE78968B8C4F238C0CE438290EBA21AFA70070EF373F02
 SHA512 | `C973ED40DA90BD592105C0F3D1BA806BAB8E8789C96A4423E8826218535BFD8C16E3D8D5CA3F11BB14BF55BCACD4DCDC11573A8E5428D1074ED5602FF7CB5545`
 SSDEEP | `3072:/R+IIWEQ/Cpf+VKoewlzZuuDVWM82+sVlhIPFJRAhP2EAeB:Z+IILJpfVclzj898aDeP`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\wbem\wbemtest.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\wbemtest.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

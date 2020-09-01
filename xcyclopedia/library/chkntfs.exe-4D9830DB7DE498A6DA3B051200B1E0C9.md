@@ -48,6 +48,14 @@ dirty or scheduled to be checked on next reboot.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\chkdsk.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

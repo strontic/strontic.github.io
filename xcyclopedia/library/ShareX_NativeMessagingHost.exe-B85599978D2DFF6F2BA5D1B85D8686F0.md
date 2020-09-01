@@ -4,7 +4,7 @@ title: ShareX_NativeMessagingHost.exe | ShareX NativeMessagingHost
 
 # ShareX_NativeMessagingHost.exe 
 
-* File Path: `C:\Program Files\ShareX\ShareX_NativeMessagingHost.exe`
+* File Path: `C:\program files\ShareX\ShareX_NativeMessagingHost.exe`
 * Description: ShareX NativeMessagingHost
 
 ## Hashes
@@ -18,9 +18,26 @@ SHA384 | `D36D4F06584B0834560BA22E80CB2E815C3F36C4B231FC25D0803106F908354AAB8475
 SHA512 | `1FC8A287E01D8A850702BEC84C6ACE763AF8167E3381ADD9B8DF78D1717159705F8E4236E7552252302538D96F82474494D39D57D61B3E302BB04543497F3758`
 SSDEEP | `48:6Zunn6RxoMroAOx7/AW6N0ybzh1COMVSv5vtUX1brG4iDdVUzdhn+ygL/DjcluWI:IoMoAONz6NVl1CQ5v8G43dN+yedKzNt`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\ShareX\ShareX_NativeMessagingHost.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\ShareX\ShareX_NativeMessagingHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\ShareX\ShareX_NativeMessagingHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

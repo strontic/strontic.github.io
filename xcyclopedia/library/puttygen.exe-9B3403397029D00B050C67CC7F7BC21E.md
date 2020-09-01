@@ -4,7 +4,7 @@ title: puttygen.exe | PuTTY SSH key generation utility
 
 # puttygen.exe 
 
-* File Path: `C:\Program Files (x86)\WinSCP\PuTTY\puttygen.exe`
+* File Path: `C:\program files (x86)\WinSCP\PuTTY\puttygen.exe`
 * Description: PuTTY SSH key generation utility
 
 ## Screenshot
@@ -21,6 +21,39 @@ SHA256 | `1F9C019BFD95191F41054357D9009D8DCFD45072D0C88975BFA98D9CA1336DA7`
 SHA384 | `A74842FEF6D2CF9E57E6DFD059956DE4D3166BC74842246D194BCF585652F965006032CAFE57AECC659A151E957D10B9`
 SHA512 | `632588DA44A48CF2E15D8F85B8B290D118EE1A3DCD766BA5C6E41F12F2144C1F038F864ECBCDAB7DA922EE46FF7D239E73E9F9337DDEA8EA392B42F623076C28`
 SSDEEP | `6144:kG3D6/d0A0IP+Q28wzcXCN3nbsof4StFv0U1GwWkLl3TBHB:N3D6/d0DwOwof4ScUjWQBHB`
+
+## Runtime Data
+
+### Window Title:
+PuTTYgen Error
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\WinSCP\PuTTY\puttygen.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

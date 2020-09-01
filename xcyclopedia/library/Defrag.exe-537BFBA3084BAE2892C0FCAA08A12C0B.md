@@ -18,6 +18,16 @@ SHA384 | `1BBAC5C6B279B2C9DF4C23FE7F1057DB64D7A5DBC3D6D385C826EFDBB8FC04BD051E7F
 SHA512 | `6AEA8A9A0AE2F08B9BDD6F50F7AE11B2E6C478C2B9FCF366BA3F7E343393594CAE4B1D0F05D9050AC5F97767A16F5A93440C0B9703721695D63336CB5818019C`
 SSDEEP | `3072:Iw3qMDpKdhTivZeCCwpVb4C6c5Q3eSjlR+8qxLijgJyfFOG83Yj34YFnw6OC2c9+:b3tpghEeUc3lRGOUZGKc4YFnwjCpW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Apple Application Support\defaults.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Defrag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

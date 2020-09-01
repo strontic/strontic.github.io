@@ -18,6 +18,23 @@ SHA384 | `D3432E9971003DDBB5BB44D8312CDF85ACD4E32A8DB9249E5317B8A7BE58ECB3E951E0
 SHA512 | `247CC1C5E5EE3193675B6CB0C56E7A308094A207DEC6D62E3397844619F96379E784CC5129027474F31E15A9297BD1A70077CE2481CBF42047CF0D74C46065BE`
 SSDEEP | `6144:pWCOJi2sxqy72/b+OsfW6Y6Alm0lHS34D71n4ZgBk8SK1A:pWji2sz856tAlm0I3gS`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\system32\IME\SHARED\imecfmui.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

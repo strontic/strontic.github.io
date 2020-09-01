@@ -4,7 +4,7 @@ title: itweb-settings.exe |
 
 # itweb-settings.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe`
 
 ## Hashes
 
@@ -21,8 +21,8 @@ SSDEEP | `6144:sTX359jrJC03Ccbhuoyq3x6lX0+KCcFCopO4JUr:sTn59jrJC03CcVVQJDwFvpKr`
 
 ### Usage (stdout):
 ```Batchfile
-selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10
-Unknown command \h
+selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
+Unknown command /?
 
 SYNOPSIS
     itweb-settings
@@ -57,8 +57,20 @@ WARNING: package sun.awt.X11 not in java.desktop
 
 ```
 
-### Child Processes:
-java.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 
@@ -82,7 +94,7 @@ java.exe
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\itweb-settings.exe](itweb-settings.exe-D22B4FE5EC61DFE26DFAC7B8A9C8C0A8.md) | 100
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\itweb-settings.exe](itweb-settings.exe-D22B4FE5EC61DFE26DFAC7B8A9C8C0A8.md) | 100
 
 
 

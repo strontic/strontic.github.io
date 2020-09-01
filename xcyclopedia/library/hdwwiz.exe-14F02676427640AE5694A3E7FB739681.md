@@ -22,6 +22,35 @@ SHA384 | `C95676DF92CB4DC76F28146458A3BED3898BC67F0004EE7BC5B689326F11AECD18F08B
 SHA512 | `FDED3EB1DB9E4423223B0EE35BBB669EF6392627656BE0ED85D3045A8E613D46201B9594F20828678E4669274487420F954FEFBB7F2EA74C92E73F09B3229535`
 SSDEEP | `768:R4fQYiwwXpT2z59JJAgzu9b3pbX25T1JlZE74r+dL+GU8SbM2N2gZ7ihP6ditnxY:R49UXpSTApuJlL+5bU8QBNLQSExT8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\HandBrake\HandBrake.exe |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\hdwwiz.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

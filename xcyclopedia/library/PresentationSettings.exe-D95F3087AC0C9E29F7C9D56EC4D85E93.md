@@ -4,7 +4,7 @@ title: PresentationSettings.exe | Microsoft Mobile PC Presentation Adaptability 
 
 # PresentationSettings.exe 
 
-* File Path: `C:\windows\system32\PresentationSettings.exe`
+* File Path: `C:\Windows\system32\PresentationSettings.exe`
 * Description: Microsoft Mobile PC Presentation Adaptability Client
 
 ## Hashes
@@ -17,6 +17,41 @@ SHA256 | `A1F2954DBB7D9111FB2DC9497A320E29E3A0CC2C00AFE9D96C58F78B1247CD70`
 SHA384 | `A633E24FB74F7944E56D156A4F05AEC2EE3250E25AAECCDEB77C83978C7C65DFC410646C544F045DB23776A6D004A60B`
 SHA512 | `B0C5123CE169B2D08805C9E4461A1E1CF16C0DBBC2B2D957AEC07827FDBE9A06D49726BCDACE656F147F42F3F72CFAA90FFB6B2713E78F35924FF22533BB6151`
 SSDEEP | `6144:79iUJm0KX24r6IeeYpxpts2xmhfGKraEH:5iiyuIeeUQ2Gfn`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\system32\PresentationSettings.exe |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

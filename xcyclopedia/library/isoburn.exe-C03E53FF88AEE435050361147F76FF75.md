@@ -4,7 +4,7 @@ title: isoburn.exe | Windows Disc Image Burning Tool
 
 # isoburn.exe 
 
-* File Path: `C:\windows\system32\isoburn.exe`
+* File Path: `C:\Windows\system32\isoburn.exe`
 * Description: Windows Disc Image Burning Tool
 
 ## Screenshot
@@ -21,6 +21,33 @@ SHA256 | `D7914543D7B90F43EB069E1152F0B992A39A3E18ED4C0753D1A650677D03002C`
 SHA384 | `0C9D561CAABB5031E74265D6070FE6199106D31ED5DDFF3477C5361BCA302FFEC87E1DFDD015ACE518206D73B7BAD2E1`
 SHA512 | `37A1B85FC937B58F9E0A5527440E75C78528FEB0D13AA5230DFDECEDFA05D00AFA1218B8EB90AD4B7B2B24BF2D0C87E97511EF8B4B620334F9D7ED1F01AEA7B0`
 SSDEEP | `1536:5m5quEiU/tvAyVK4Sb97eNJYDxwHIHR7psE5ykl9YAbeHZrQqf:eEL/V47e8Dxw89sEAknDeHd3`
+
+## Runtime Data
+
+### Window Title:
+Windows Disc Image Burner
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\isoburn.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\isoburn.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

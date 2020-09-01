@@ -18,6 +18,22 @@ SHA384 | `A94EE3E7665D16B3EEFC2BD740DA42298861C7FE05B2E558091A2C6FD421515E75385E
 SHA512 | `AE85F65A474831EB1B40644B30F8A9797336D206B4C3F06054CC60C8ACC30AFE0559C88889B2EA94A8BA7C0AA5394033B355A64AB81A89FBAC21312AC5DFFC19`
 SSDEEP | `1536:l/n5JY+scMJsM8VETCJFjfUYYAHa2fp2LMSza9fjjvA8CPmCC4MDg+NCHaf4CI3p:l/rY9x6YDyvAskHafZIr4W5ylo4RqJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wbem\WMIADAP.exe |
+C:\Windows\SYSTEM32\wbemcomn.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wbem\WMIADAP.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

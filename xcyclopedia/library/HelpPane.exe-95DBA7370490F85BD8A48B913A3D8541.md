@@ -18,6 +18,17 @@ SHA384 | `AF2502C29A2CDA08BA75DF59C1658FF7664C40924D211EAAF9B3EE415AA334060F1906
 SHA512 | `00A03BB870E026E77070943216611BBC6CB8093CAF064A56106DD125096FC22287A6977A343981A5D539B5705A2DC490C8ADB0023599AB3AE90670E09C57336A`
 SSDEEP | `12288:RC40wrR/TUnSM+xxRUT47BmXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:RCoUnSMyaw`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\uninstall\helper.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\HelpPane.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

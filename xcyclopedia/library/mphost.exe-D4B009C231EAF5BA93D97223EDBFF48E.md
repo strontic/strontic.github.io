@@ -25,6 +25,17 @@ SSDEEP | `3072:hQER2Hc8Z71QWwYLpqssBF/ZlYe/eTrQOXq9mw:KC2HXZ71QPYLpqssBFIeWYOyl`
 ### Child Processes:
 mphost.exe WerFault.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Zoom\bin\aomhost\mphost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -43,6 +54,11 @@ mphost.exe WerFault.exe
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Zoom\bin\aomhost\mphost.exe](mphost.exe-61D7CF278756ECC47F6ECF6DE0402E48.md) | 91
 
 
 

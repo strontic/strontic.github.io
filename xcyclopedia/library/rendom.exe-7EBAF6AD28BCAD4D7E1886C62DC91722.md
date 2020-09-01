@@ -93,6 +93,14 @@ rendom </list | /showforest | /upload | /prepare | /execute | /end | /clean>
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\rendom.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

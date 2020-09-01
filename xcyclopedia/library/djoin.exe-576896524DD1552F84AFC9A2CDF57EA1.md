@@ -4,7 +4,7 @@ title: djoin.exe | Unattended Setup Generic Command For Domain Join
 
 # djoin.exe 
 
-* File Path: `C:\windows\system32\djoin.exe`
+* File Path: `C:\Windows\system32\djoin.exe`
 * Description: Unattended Setup Generic Command For Domain Join
 
 ## Hashes
@@ -70,6 +70,13 @@ djoin.exe /REQUESTODJ /LOADFILE <FilePath> /WINDOWSPATH <Path>
 The parameter is incorrect.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

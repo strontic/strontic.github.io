@@ -4,7 +4,7 @@ title: Dropbox.exe | Dropbox
 
 # Dropbox.exe 
 
-* File Path: `C:\Program Files (x86)\Dropbox\Client\Dropbox.exe`
+* File Path: `C:\program files (x86)\Dropbox\Client\Dropbox.exe`
 * Description: Dropbox
 
 ## Hashes
@@ -22,12 +22,12 @@ SSDEEP | `49152:cE9514JiLbcw6I7KkaJVwM/WCetkpNgJwHj85AOBcIv4nqRl:RsJUbcw6kM/WCet
 
 ### Usage (stderr):
 ```Batchfile
-!! dropbox: assigning process to named job object dbx16196
-!! dropbox: assigned process to named job object with handle 00000220
+!! dropbox: assigning process to named job object dbx4248
+!! dropbox: assigned process to named job object with handle 00000210
 dropbox: loading watchdog
 dropbox: loaded watchdog. executing watchdog_main
-!! dropbox: assigning process to named job object dbx14904
-!! dropbox: assigned process to named job object with handle 00000214
+!! dropbox: assigning process to named job object dbx6472
+!! dropbox: assigned process to named job object with handle 00000210
 dropbox: loading watchdog
 dropbox: loaded watchdog. executing watchdog_main
 dropbox: starting main app
@@ -35,29 +35,60 @@ dropbox: package full name is <unpackaged>
 dropbox: loading bootstrap
 dropbox: initializing
 dropbox: initializing python 3.7.5
-dropbox: setting program path 'C:\Program Files (x86)\Dropbox\Client\Dropbox.exe'
-dropbox: setting python path 'C:\Program Files (x86)\Dropbox\Client\104.4.175;C:\Program Files (x86)\Dropbox\Client\104.4.175\python-packages.zip'
-!! dropbox: assigning process to named job object dbx11740
-!! dropbox: assigned process to named job object with handle 00000224
+dropbox: setting program path 'C:\program files (x86)\Dropbox\Client\Dropbox.exe'
+!! dropbox: assigning process to named job object dbx5356
+!! dropbox: assigned process to named job object with handle 00000218
 dropbox: loading watchdog
+dropbox: setting python path 'C:\program files (x86)\Dropbox\Client\104.4.175;C:\program files (x86)\Dropbox\Client\104.4.175\python-packages.zip'
 dropbox: loaded watchdog. executing watchdog_main
 dropbox: python initialized
 dropbox: running dropbox
 dropbox: setting args
 dropbox: applying overrides
 dropbox: running main script
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\tornado.speedups.cp37-win32.pyd'
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\cryptography.hazmat.bindings._constant_time.cp37-win32.pyd'
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\cryptography.hazmat.bindings._openssl.cp37-win32.pyd'
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\cryptography.hazmat.bindings._padding.cp37-win32.pyd'
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\apex._apex.cp37-win32.pyd'
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\psutil._psutil_windows.cp37-win32.pyd'
-dropbox: load fq extension 'C:\\Program Files (x86)\\Dropbox\\Client\\104.4.175\\win32com.shell.shell.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\tornado.speedups.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\cryptography.hazmat.bindings._constant_time.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\cryptography.hazmat.bindings._openssl.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\cryptography.hazmat.bindings._padding.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\apex._apex.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\psutil._psutil_windows.cp37-win32.pyd'
+dropbox: load fq extension 'C:\\program files (x86)\\Dropbox\\Client\\104.4.175\\win32com.shell.shell.cp37-win32.pyd'
 
 ```
 
 ### Child Processes:
 Dropbox.exe Dropbox.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\FirewallAPI.dll | File
+(R-D)   C:\Windows\SysWOW64\stdole2.tlb | File
+(RW-)   C:\Program Files (x86)\Dropbox\Client\104.4.175 | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Client\Dropbox.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

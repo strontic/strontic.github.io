@@ -4,7 +4,7 @@ title: MRINFO.EXE | Multicast Information
 
 # MRINFO.EXE 
 
-* File Path: `C:\windows\system32\MRINFO.EXE`
+* File Path: `C:\Windows\system32\MRINFO.EXE`
 * Description: Multicast Information
 
 ## Hashes
@@ -37,6 +37,22 @@ Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

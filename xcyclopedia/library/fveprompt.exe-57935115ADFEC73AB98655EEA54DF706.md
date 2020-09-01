@@ -4,7 +4,7 @@ title: fveprompt.exe | BitLocker Drive Encryption
 
 # fveprompt.exe 
 
-* File Path: `C:\windows\system32\fveprompt.exe`
+* File Path: `C:\Windows\system32\fveprompt.exe`
 * Description: BitLocker Drive Encryption
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `4156D60544639CC6B06E229372D61F50B6BEF46121040E5BFD31639D9C3AA14B`
 SHA384 | `3A4BFB9BF1F03694CD92E2B2BD0D1DEE71A67EB5D07395E76FD90158FDF2E3E492D83B51BF8D2EBB1003187FF5FB3955`
 SHA512 | `B811484A906643378F918714FCCADA5633F01CB2886D8B296C48B777FF59C81E00F5DE661280B6ECB8BC7FB8E68E3A0733FF9E6DA2DE17D426FE4BABEC0C76E5`
 SSDEEP | `3072:IhJDgt82TNFeIrSCFEjucvk7DaSwnVS570M9kdatGCO+xmBc+hMPhPsx:oJEt8IrSCFE6YsD+Vs7nyatGt+SYF`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fveprompt.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

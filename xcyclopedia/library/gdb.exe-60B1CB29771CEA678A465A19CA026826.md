@@ -4,7 +4,7 @@ title: gdb.exe |
 
 # gdb.exe 
 
-* File Path: `C:\Program Files\Inkscape\bin\gdb.exe`
+* File Path: `C:\program files\Inkscape\bin\gdb.exe`
 
 ## Hashes
 
@@ -98,13 +98,23 @@ Report bugs to "<http://www.gnu.org/software/gdb/bugs/>".
 
 ### Usage (stderr):
 ```Batchfile
-/h: No such file or directory.
+/?: No such file or directory.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Inkscape\bin\gdb.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\Inkscape\bin\gdb.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\Inkscape\bin\gdb.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

@@ -4,7 +4,7 @@ title: iisreset.exe | IIS control command line utility
 
 # iisreset.exe 
 
-* File Path: `C:\windows\system32\iisreset.exe`
+* File Path: `C:\Windows\system32\iisreset.exe`
 * Description: IIS control command line utility
 
 ## Hashes
@@ -52,6 +52,24 @@ iisreset [computername]
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1774 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,44 @@ SHA384 | `41B1DE37E41DF4CDFC3791CE8EFA73A904F98F318A3AA99060AF660F665F32E1C735B3
 SHA512 | `908FD0444E43438AD563AED947302A8F3AE4F6AB35B115137D137F27DB932AC2B5F21658C1E04297A5A4347029B23A0645B37B87B8687A4B9D7F92BFF38B34B3`
 SSDEEP | `768:vN0yKm62+wU+Aa91slxN+u996swwiKEtycTY5lkQ7Vy9ylDX7:LK/A91szN++6NwiKE10DjlP`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\assembly\pubpol5.dat | File
+(R-D)   C:\Windows\System32\Microsoft.Uev.Common.dll | File
+(R-D)   C:\Windows\System32\Microsoft.Uev.ManagedEventLogging.dll | File
+(R-D)   C:\Windows\System32\Microsoft.Uev.ModernAppCore.dll | File
+(RW-)   C:\Users\user | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_7552 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\UevAppMonitor.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

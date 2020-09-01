@@ -18,6 +18,17 @@ SHA384 | `77DA735FF7A1F2413FC8CFEFE2D8C0172679812740E2BC288E02B451F19D4F11056581
 SHA512 | `8F05B79E1F3A4CF38197C9F6706281362ED8C92759102DA597012197CF3B00D808C7CACBC670E6B999151717A3043BC97452EFE34C9C86C08686AFDBE225153A`
 SSDEEP | `192:M/pyGXXabY+JxBWSCVbF/c5P1N+JwzmpCcV7o8kt8eA69HE6LPCOKmNWRUW:M/p9Xak+cTenEwzxC76t8eFXbdNWRUW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\print\print.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\print.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

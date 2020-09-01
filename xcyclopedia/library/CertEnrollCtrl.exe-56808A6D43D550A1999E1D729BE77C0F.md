@@ -4,7 +4,7 @@ title: CertEnrollCtrl.exe | Certificate Enrollment Control
 
 # CertEnrollCtrl.exe 
 
-* File Path: `C:\windows\SysWOW64\CertEnrollCtrl.exe`
+* File Path: `C:\Windows\SysWOW64\CertEnrollCtrl.exe`
 * Description: Certificate Enrollment Control
 
 ## Hashes
@@ -17,6 +17,32 @@ SHA256 | `8DE895A62785C1294F402260671CFDBB2223E3448947C3ACE893B8A298A1D37A`
 SHA384 | `94272C1AF3CE6C5E281882115A800D24AC05A97522F5A45E9205D4CCB17B35519AA204B1B54C7B9B3A761BB7F09856F4`
 SHA512 | `D47E6C3C57330D7B67779D4529F1B51BC766053737C4A3AE6BF316CB66E68C52BB15FD0EBD5BC7A8155DABD3500C48F45FB9361F91CFB59EDB1898C210455DE9`
 SSDEEP | `768:s8tcJ5+iavKHTiPgnwmhHx4RbrbKB1+YAfAihZmt5nBo6K:70PHOonwmBxMNZmt5n/`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\CertEnrollCtrl.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1AD4 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CertEnrollCtrl.exe |
+
 
 ## Signature
 

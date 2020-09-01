@@ -24,6 +24,23 @@ SHA384 | `BCE4DC214FA5ED8C3D7C5EFE70B22982503A96672EE598EC9B7467F955A79C58CFB5AA
 SHA512 | `55799D5BF9C2D7D8D17CEC3CE090A6FCE4BA9D4B2B87A5431303764DAA15F999DFB737A221FC675B5EF35B0F0530C723F54DBAE09825C313147DFB4BE1A9D8EA`
 SSDEEP | `24576:FW4cQVPFj5Gu20gp9FbwJKimyj4IznfLhsyxm8m3vSuJpnjq39JM0Yzk/InIdjJ/:FWxQVPFj5Gu2Np9FbwoifPznf1syxm8S`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsSpellCheckingHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -109,7 +126,15 @@ To connect to a session in full-screen mode, type:
 ```
 mstsc /f
 ```
+or
+```
+mstsc /v:computer1 /f
+```
+To assign width/height, type:
 
+```
+mstsc /v:computer1 /w:1920 /h:1080
+```
 To open a file called *filename.rdp* for editing, type:
 
 ```

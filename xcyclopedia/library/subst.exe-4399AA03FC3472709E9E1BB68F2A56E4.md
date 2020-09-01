@@ -36,6 +36,16 @@ Type SUBST with no parameters to display a list of current virtual drives.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\subst.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

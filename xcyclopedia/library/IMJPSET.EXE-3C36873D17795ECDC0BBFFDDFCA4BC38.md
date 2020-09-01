@@ -22,6 +22,22 @@ SHA384 | `F738FFDFE0F309928E27948037A611F2682385B56ED2C847DBAC2E8C63555D4A99D717
 SHA512 | `57FF7507E32C57943D2BF414E865F7CED13015814CEA3F032DB86641CF4088063560D41FE81B80CF38F09D00AE5778005CE254A16174744D3EACEF419DF75AA7`
 SSDEEP | `1536:9VbnkzRDnyMD/xJrjkmaWGUKAT0cYH67nIWDK2NLPcw:9Vbnkz4M9BajUKATzYH67IkK2NLPcw`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\IME\IMEJP\IMJPSET.EXE |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\IME\IMEJP\IMJPSET.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

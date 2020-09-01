@@ -138,10 +138,20 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 
 ### Usage (stderr):
 ```Batchfile
-  File "help", line 1
-SyntaxError: Non-UTF-8 code starting with '\xa5' in file help on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "/h", line 1
+SyntaxError: Non-UTF-8 code starting with '\xa5' in file /h on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\pyw.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

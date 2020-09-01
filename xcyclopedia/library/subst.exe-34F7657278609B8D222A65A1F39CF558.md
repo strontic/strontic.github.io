@@ -18,6 +18,13 @@ SHA384 | `394A32F69EB024C75FD294D3A81C232A62B9EB52B083966088F7D09D90662DF074DD29
 SHA512 | `E536DA509AE164CA38988C3F6C00C31A247601ACDBBE11FE0766E348A6D5CAFFC2B4A22A2897CD91D8FB3366A668177AAE5B261E1A1C1F8E5715D9BA1D000185`
 SSDEEP | `192:Wb31kuD4DXqBWoktCTgOWmBC6yGZdfp3oQkpWxGWkyMh2aH:oKuD0XqEWgRmRyGnfEpWxGWkHh`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\subst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

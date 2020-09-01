@@ -4,7 +4,7 @@ title: ktab.exe | OpenJDK Platform binary
 
 # ktab.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -54,6 +54,16 @@ Common option(s):
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -76,8 +86,8 @@ Common option(s):
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe](ktab.exe-4E10E111BC97C675CFE3BF5A40E0D29F.md) | 80
-[C:\Program Files\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-7273553C79E43A7A0FC111E39B2D7462.md) | 80
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe](ktab.exe-4E10E111BC97C675CFE3BF5A40E0D29F.md) | 80
+[C:\program files\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-7273553C79E43A7A0FC111E39B2D7462.md) | 80
 
 
 

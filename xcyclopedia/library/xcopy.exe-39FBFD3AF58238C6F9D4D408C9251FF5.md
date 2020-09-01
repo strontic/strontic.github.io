@@ -91,6 +91,19 @@ File cannot be copied onto itself
 
 ```
 
+### Child Processes:
+conhost.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\xcopy.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

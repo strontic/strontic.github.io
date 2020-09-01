@@ -4,7 +4,7 @@ title: odbcconf.exe | ODBC Driver Configuration Program
 
 # odbcconf.exe 
 
-* File Path: `C:\windows\system32\odbcconf.exe`
+* File Path: `C:\Windows\system32\odbcconf.exe`
 * Description: ODBC Driver Configuration Program
 
 ## Screenshot
@@ -21,6 +21,45 @@ SHA256 | `40274D2B55355D30230CEE9C75335290C0692F6D7CFE5FAA529A582D9CDAA232`
 SHA384 | `BBFBDA14C80D13396280B83423B777E9CC8729D0269DE5570B69E4D2A7ECBF6347FD736BD5FB63F1BA35E7013C5C55C4`
 SHA512 | `7040FD42732B424200958C2CB39A8B7FB7D28DD5B370F06A90B86BA9035E8AD2942738189A098AF54DBDE5B707DFB7FBCFC4BD598C3182B50A9FC2DA58BCFC58`
 SSDEEP | `768:FCr3bf1LVAj09N+b8sI/mv9JNBmCPx9NS:FmhLVAQ9N+AmvTmCNS`
+
+## Runtime Data
+
+### Window Title:
+Invalid Parameter
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\odbcconf.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\odbcconf.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

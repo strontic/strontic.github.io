@@ -22,6 +22,49 @@ SHA384 | `C741910F4F9D932244AA155C0B596B59218100B2DDEFFF772EAFDA72FE8D873C186022
 SHA512 | `BC919B76D0DC34AF5156D170BCDC80D46218810D144FCCEBA7ACDF0AA6069C9B66569750CDD2DEDC4B503A0A823C57CEB169F0441E552161900E6E7601EFB3C9`
 SSDEEP | `384:yuFGSBYpI5xk2SJUkU3ij/PofixfO/gJ+N+4sV6Vey6Yr9jKmZzPzWN5WrNuimn:v1YbKyj/P4InJBjk6A9j1Zbe5/n`
 
+## Runtime Data
+
+### Child Processes:
+powershell_ise.exe
+
+### Window Title:
+Stored User Names and Passwords
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\credwiz.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\credwiz.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,8 @@ SHA384 | `38175580D45C6AC998DA86D76779BF3A486FF0DE6473B5B6906478FEF7588CCBC20FD4
 SHA512 | `8365478477758FBFD9315B632EA43F3A8C48F6B2E894FF7B1365FD3074E7157D763E974971F47886C6999E69913E96CBF56069471D36E26C414FFA127B32952B`
 SSDEEP | `1536:0t1XK6Z5eFG2Wj0bXWkA3u+gnp5xSfZymol31:/6/X7j0jWkA3u+gnp5xUyN31`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 DiskSnapshot.exe [options]
@@ -33,6 +35,14 @@ DiskSnapshot.exe [options]
 	-o [output-file] write detail data to a file
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskshadow.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

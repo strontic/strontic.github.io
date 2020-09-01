@@ -23,6 +23,17 @@ SSDEEP | `24576:U/WrcuKZjA1wfnq7wPg3r7yLrubpD06DKP5VeXykCyC:ypuKjn5SvDCEikCN`
 ### Child Processes:
 MemfilesService.exe x64ProcessAssistSvc.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\quickassist.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -41,6 +52,11 @@ MemfilesService.exe x64ProcessAssistSvc.exe
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\QuickSearch.exe](QuickSearch.exe-F9BF6DB5C311001B0756BDB49665CAE5.md) | 97
 
 
 

@@ -17,6 +17,16 @@ SHA384 | `4993516D9BA8036E1981DD65F23370FFBA00A64364C8C72314CEE739A1C5A20153C876
 SHA512 | `5A45FC88FAEA356CE30A479AEB9589F3D69D5AE72AB1482F11D1746F4FE19205CD0DDF69B31615094536DBF1F8A65E3133F7738A6A93AE3F2A6C807CFF405357`
 SSDEEP | `1536:o6dBxbYnvXJsIiVFMxVK2/EpMnToIfw7IIxv:RBuvXJN5/E+TBfw7I0`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\PING.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -35,6 +45,11 @@ SSDEEP | `1536:o6dBxbYnvXJsIiVFMxVK2/EpMnToIfw7IIxv:RBuvXJN5/E+TBfw7I0`
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Mozilla Thunderbird\pingsender.exe](pingsender.exe-ECD20B034E0BC05C9B704BAEE61D3E3F.md) | 86
 
 
 

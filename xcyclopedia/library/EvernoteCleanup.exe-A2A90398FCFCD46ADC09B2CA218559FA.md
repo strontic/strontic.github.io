@@ -4,7 +4,7 @@ title: EvernoteCleanup.exe | Evernote Cleanup Utility
 
 # EvernoteCleanup.exe 
 
-* File Path: `C:\Program Files (x86)\Evernote\Evernote\EvernoteCleanup.exe`
+* File Path: `C:\program files (x86)\Evernote\Evernote\EvernoteCleanup.exe`
 * Description: Evernote Cleanup Utility
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `1DA77E08E37E740647D2F64658BA625CAE94FEB3949DCA764AAEE7468E83C3A1`
 SHA384 | `B088352FA9EBC3EF7E94D848FE0D8A646E91D213AEC7239C4561A6916E72F4BF176BF371C4CD7658BE86B8EC42B0E108`
 SHA512 | `AE6BF4D7146F55B2D235606BCBD112D574C2BA4292113D8284DB39E6873592E2BF51F46F1EA09CE7B281F6B4496A223E976924E264D6096E63B2B03B105FF543`
 SSDEEP | `3072:h+QpEFcVRVw5ArwLKeFpecLOE91I+70DwNcyp5VaRg+QEGQXoxxvW42g44:i6VPwa0LKeDec/nR70acyp5VaROEBXo7`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Evernote\Evernote\EvernoteCleanup.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

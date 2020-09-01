@@ -18,6 +18,8 @@ SHA384 | `528ADE0BC8FEC1E3C804EAB34FE2CED272AEFF6E759D493368CF3C96901137CF9008CD
 SHA512 | `4E92E654A16A793E78460769305FB096BBF774823FDCEFFA51E5021C03C96D7F37F7B29008A78669FCCA878D321B140C97A6B15671670E5CA8A84618468AB1CA`
 SSDEEP | `3072:b6CtwnVS570M9kdatGCO+xmBc+hMPhPsx:GLVs7nyatGt+SYF`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Bitlocker Wizard Launcher
@@ -38,6 +40,67 @@ Bitlocker Wizard Launcher
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\BDEHDCFGLIB.dll |
+C:\Windows\system32\BDEUI.dll |
+C:\Windows\system32\BitLockerWizard.exe |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dsreg.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\FVEAPI.dll |
+C:\Windows\system32\FVECERTS.dll |
+C:\Windows\system32\FVESKYBACKUP.dll |
+C:\Windows\system32\FVEUI.dll |
+C:\Windows\system32\FVEWIZ.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\NETAPI32.dll |
+C:\Windows\system32\NETUTILS.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\ReAgent.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\system32\VSSAPI.DLL |
+C:\Windows\system32\VssTrace.DLL |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\system32\WKSCLI.DLL |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
 
 ## Signature
 

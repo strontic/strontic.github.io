@@ -4,7 +4,7 @@ title: reg.exe | Registry Console Tool
 
 # reg.exe 
 
-* File Path: `C:\windows\SysWOW64\reg.exe`
+* File Path: `C:\Windows\SysWOW64\reg.exe`
 * Description: Registry Console Tool
 
 ## Hashes
@@ -57,10 +57,17 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid Argument/Option - '-help'.
+ERROR: Invalid Argument/Option - '--help'.
 Type "REG /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

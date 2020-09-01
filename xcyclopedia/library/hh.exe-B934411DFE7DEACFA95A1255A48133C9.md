@@ -22,6 +22,17 @@ SHA384 | `95A0D2CB66AA706FC937A648AD6745B73C6DC46AE80B2DC1DC3093B746A153A2F3AD73
 SHA512 | `2757855DEFBC9788337B5F55E122245A5603D4C57BDD0E2E98CE2F05B8DEBA8EF3E75BB3DCC1DA32C9FEB75B6F67C78E20DF609D580ED821BAE7940E90297C13`
 SSDEEP | `192:Z2OLEHwPeVY0CMDU/pAmdZGqn3g6o37pJ+pKm5GJ1KDJD/gWcJ:AOLEHVY0CMQGR6o37AI1KDmWcJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\hh.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\hh.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

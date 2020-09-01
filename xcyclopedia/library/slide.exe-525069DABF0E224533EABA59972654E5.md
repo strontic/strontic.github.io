@@ -4,7 +4,7 @@ title: slide.exe | XnView SlideShow
 
 # slide.exe 
 
-* File Path: `C:\Program Files (x86)\XnView\PlugIns\slide.exe`
+* File Path: `C:\program files (x86)\XnView\PlugIns\slide.exe`
 * Description: XnView SlideShow
 
 ## Hashes
@@ -18,9 +18,22 @@ SHA384 | `F7A4423F7103F3BE333CF758E70C50FE0A598C043102DBB7BAD7AE8BE09811F73E88F2
 SHA512 | `A9AADF6D7DE13854C5EA4F9165A1E5C24846304DD9860F527E68CE65E808C0F384731EFF237BD8C85DFD00C5F821FAE6AD0E94FD88A2D150F42C945BD763DD69`
 SSDEEP | `3072:ZlGRh64nst6bfECOCJQplv2YxvQQqAkArHUnrF+84BdjlplvVJI:ZOZlJCqkkU0rFh2PVJ`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\XnView\PlugIns\slide.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\XnView\PlugIns\slide.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\XnView\PlugIns\slide.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

@@ -4,7 +4,7 @@ title: chgusr.exe | Change INI File Mapping Utility
 
 # chgusr.exe 
 
-* File Path: `C:\windows\system32\chgusr.exe`
+* File Path: `C:\Windows\system32\chgusr.exe`
 * Description: Change INI File Mapping Utility
 
 ## Hashes
@@ -46,6 +46,14 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chgusr.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

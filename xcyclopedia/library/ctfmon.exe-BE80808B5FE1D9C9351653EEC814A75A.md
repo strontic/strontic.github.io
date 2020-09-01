@@ -18,6 +18,18 @@ SHA384 | `12FBDFB1E2098B0EB9087083E2DF7EA45A215B1903111088BEB400048211DA5EA07844
 SHA512 | `72347A8158C02293DD4116D9E97D412FEF6DAD8065A3B7CDDA28B12152E6DD48964E72F38C6DD0A2AB6323DBCC6013C9CEA0B721628C2FF9C65899B2E7FCA625`
 SSDEEP | `96:DgO1mX9sT2QoiIpSDWPT4ulTHgpx2G/T/WDkVOBAiJUw0FhDJ7pRKRQEWjgWwBej:DP1mXSqJT5sLWoVOBAi10FnaWjgW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ctfmon.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsCtfMonitor.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ctfmon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

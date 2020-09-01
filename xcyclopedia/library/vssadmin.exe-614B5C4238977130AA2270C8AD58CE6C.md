@@ -4,7 +4,7 @@ title: vssadmin.exe | Command Line Interface for Microsoft Volume Shadow Copy Se
 
 # vssadmin.exe 
 
-* File Path: `C:\windows\system32\vssadmin.exe`
+* File Path: `C:\Windows\system32\vssadmin.exe`
 * Description: Command Line Interface for Microsoft Volume Shadow Copy Service 
 
 ## Hashes
@@ -43,6 +43,16 @@ Revert Shadow         - Revert a volume to a shadow copy
 Query Reverts         - Query the progress of in-progress revert operations.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\vssadmin.exe |
+
 
 ## Signature
 

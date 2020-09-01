@@ -22,6 +22,24 @@ SHA384 | `91A3C03876FD12992A00413FDEE33F1258110E2A9DFD476115170269285A8CEB6485E2
 SHA512 | `634FE177E703881A3DBAE99F9BFCF4E095185E217D5C1C770829628B5230CF4D88AADF579B85180A96C8A00678684A1B8D838243F727FE36B8E7C5E4442A1E09`
 SSDEEP | `1536:fh+rSuBC0N2Oybx3r84tbx4r9nIRIWOIh71bxb3QoBT7DBQa9ukp66f:Z7uBk178Cbg9IRI0xb3QiTxlp6O`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\IME\SHARED\IMEPADSV.EXE |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\SHARED\IMESEARCH.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

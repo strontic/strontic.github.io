@@ -23,6 +23,13 @@ SSDEEP | `192:pM4fN8IBUmrj0DyC8RRvWAT1qWUdguUthWxu/EWrOW:K4CIBz0uCEBWAu9coxu/EWr
 ### Child Processes:
 wordpad.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

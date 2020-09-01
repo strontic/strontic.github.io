@@ -4,7 +4,7 @@ title: dpnsvr.exe | DirectPlay Stub
 
 # dpnsvr.exe 
 
-* File Path: `C:\windows\SysWOW64\dpnsvr.exe`
+* File Path: `C:\Windows\SysWOW64\dpnsvr.exe`
 * Description: DirectPlay Stub
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `991AAB6B229A376B02B64D95F5DAC5059C33AA8CC914A640201A95D556B21399`
 SHA384 | `300044B87C048CD6469F5A29F2DC1A366E9921670E352887549E22AFCC45D5C6975827496B1FF448C79329ABE540A904`
 SHA512 | `C4EFE82FA2466BFDDE190CAB36BED277E7E205E13C666BDA22BC0D75956344F45C35E71B5590D68F52C65ACC612DFF9B2C6205C36975592BEFC387C6621A759A`
 SSDEEP | `96:vpah+44u+Mm9Kf+cCZnM2jsh/O2ZwmV40EWGuWwIV:vMQ4V+MEcK0GKwmVqWGuW`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\DpiScaling.exe |
+
 
 ## Signature
 

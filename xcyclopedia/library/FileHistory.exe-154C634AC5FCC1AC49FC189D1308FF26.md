@@ -22,6 +22,21 @@ SHA384 | `D20094338B1A67DCCD138DB39B5C6602A9F03221B33A4BC08873D936B892D2581C2104
 SHA512 | `1734455A15F224F9AF60928ED642E959C6536FC628DE29BC4D0151C2273A582AFE45739E3C72F352117142F65679C7ED05099F52058A654346D6B5EDDEAE559D`
 SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:Gcs3IvxzYuVD8CnxICGJn+jobd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\FileHistory.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

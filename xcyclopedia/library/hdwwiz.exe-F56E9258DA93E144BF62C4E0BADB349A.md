@@ -22,6 +22,51 @@ SHA384 | `9F786DA84EC3ED5B07380CBACF2E9485102372862849133371501755D60E314DBB6F93
 SHA512 | `A2DD1D7D0A967A381B06DEF1A52B7560A790929CB0EB69E25200190A8D8BE87CB7B7F3C229BC3CC4729F859BE8B9E39D7E318B373CB49D9AC4BA498A692BE8AC`
 SSDEEP | `768:COjpj1p4QBJITzz0f4G0In3BhzhWM1GOVz17:fJ1p4ig/0zZ3qOT`
 
+## Runtime Data
+
+### Window Title:
+Add Hardware
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\devmgr.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\hdwwiz.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\hdwwiz.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\newdev.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\setupapi.dll.mui | File
+(R-D)   C:\Windows\SystemResources\shell32.dll.mun | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\hdwwiz.cpl |
+C:\Windows\system32\hdwwiz.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: vlc-cache-gen.exe | VLC media player
 
 # vlc-cache-gen.exe 
 
-* File Path: `C:\Program Files\VideoLAN\VLC\vlc-cache-gen.exe`
+* File Path: `C:\program files\VideoLAN\VLC\vlc-cache-gen.exe`
 * Description: VLC media player
 
 ## Hashes
@@ -22,10 +22,20 @@ SSDEEP | `3072:OENWNJfF2k9Hc3/nl6LAHkzI1UfgEA6IIyRuw:fKlIk96kADL`
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\Program Files\VideoLAN\VLC\vlc-cache-gen.exe <path>
+Usage: C:\program files\VideoLAN\VLC\vlc-cache-gen.exe <path>
 Generate the LibVLC plugins cache for the specified plugins directory.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\VideoLAN\VLC\vlc-cache-gen.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

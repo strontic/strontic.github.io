@@ -73,6 +73,14 @@ Run a pre-defined study
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DFDWiz.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\WINDOWS\system32\dfp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

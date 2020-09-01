@@ -18,6 +18,16 @@ SHA384 | `016DF03470349EDB65D0F6ECCA8D2D4AE698A8CF386762794F7BB19A0937BA91E60B62
 SHA512 | `6D6B096969E516F62C3908CB7B87762632CFBBA25FA69FEAF3C7B39F5031CCA6DAB18DC3A377FDABADAEF0959F800CCFCD8003C1DF431C8312F7838A2BF7C683`
 SSDEEP | `768:ewYDtXYI/h8vZQvrM/uwCVl46noXpdReL5No3a5BOpEe2JlKJy:KPeOSXfRZa5BOWe2qJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\ksetup.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\ksetup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

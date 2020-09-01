@@ -4,7 +4,7 @@ title: pcaui.exe | Program Compatibility Assistant User Interface
 
 # pcaui.exe 
 
-* File Path: `C:\windows\SysWOW64\pcaui.exe`
+* File Path: `C:\Windows\SysWOW64\pcaui.exe`
 * Description: Program Compatibility Assistant User Interface
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `1D16441035EB9C6EA116DE582BBC9B6E794C4BED3B4045348CF10A62F6CC71A1`
 SHA384 | `4A1FDEDD38401A42A264515378C3EC04B80775020E9CB721C17499669BF25FE6434962ED90B0ED00FC842CE92872A9B2`
 SHA512 | `5D4EAEAA62F375BE1116ACAB56D086C61B3FEFD4DA3DDA1BCF5416AB08BE2E2A7D569D10551EF703D9A60342FA052A070D72FEFA5C4A2B3D55A8B2704F7A6258`
 SSDEEP | `3072:+9+TZPEKlvesKFxqhR7/k24dNR/roGMPGdjw:/4dFxeRRsNRMGMPK8`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\pcaui.exe |
+
 
 ## Signature
 

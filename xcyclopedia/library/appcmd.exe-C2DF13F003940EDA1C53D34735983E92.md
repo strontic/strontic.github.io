@@ -18,6 +18,14 @@ SHA384 | `363DA8DA14626F2D6B8C06F6CFAD1E6DD298BDEE16B56F43CC8BC4E78442442712EACA
 SHA512 | `EE42995DD53986437F31615BDF5BA4B7BE999FEFD7D5DD4D8A2BA18A6B7E4D8A84F91B7B23A416F9A84B36AA78826C7D9410DFD49D0C3A06005A05AFC415CDFF`
 SSDEEP | `3072:VzV5li/qcZuZ4fihdXMpUbFBW2Q1q0we8lULMlA4ah:7vgu4fiEpWK2O42`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\inetsrv\appcmd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\inetsrv\appcmd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

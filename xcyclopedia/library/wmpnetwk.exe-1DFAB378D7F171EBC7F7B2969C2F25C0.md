@@ -4,7 +4,7 @@ title: wmpnetwk.exe | Windows Media Player Network Sharing Service
 
 # wmpnetwk.exe 
 
-* File Path: `C:\Program Files\Windows Media Player\wmpnetwk.exe`
+* File Path: `C:\program files\Windows Media Player\wmpnetwk.exe`
 * Description: Windows Media Player Network Sharing Service
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `71B59933717D4F6E6F845B86E5C85507E3DBC27E694D492DB0CEA2D0F0B6E2F0`
 SHA384 | `2DEAFA38541B41DE38C32B9337683EBFA27A985E8AE4B11A7022B80F6EE11F94AA3B21F94FDEC175CE7AC58B1B2FF6E8`
 SHA512 | `3B11FE71ADA9FD6E3C8D7626A81938F1F341B9C6B6C5C9D1382BFD2FDEABA6D5010B9A764A5B61F67CCFF3D9DBA205297BC19CFB9E9B6EB55F36C524C9E58D10`
 SSDEEP | `12288:1q4mKvoNHSna5akf7oTiaMJBZRKFI1hh2PrLw+1N3Xj4WMIAbsm4XYYKYXx:haEkjoTiaMu+1KfThjbXXjKA`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Windows Media Player\wmpnetwk.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

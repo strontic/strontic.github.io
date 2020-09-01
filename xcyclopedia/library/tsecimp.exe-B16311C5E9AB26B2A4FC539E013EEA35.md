@@ -37,6 +37,13 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

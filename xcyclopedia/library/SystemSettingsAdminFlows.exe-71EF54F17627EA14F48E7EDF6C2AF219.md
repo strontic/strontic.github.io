@@ -18,6 +18,22 @@ SHA384 | `77767ECFF8A6D9F368C113A720E29F8F6613C0668F8C321C33ACF55A1013D5D819F4B7
 SHA512 | `32F5C1E7B52FEA10B19A3057CCD4ADCF870D5A9874913F24B1822E87125B1C1CDD2ED4595A6BD20BC3179D5069221F8731838727E43DD565A8BAA14EF1A07415`
 SSDEEP | `6144:McbT2KVeUsWklyrrluu9HpqWLMwjS5Gj1v7BFjtJW:MaNlsG9uu9crwjPjFjtJW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemSettingsAdminFlows.exe |
+C:\Windows\system32\SystemSettingsThresholdAdminFlowUI.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

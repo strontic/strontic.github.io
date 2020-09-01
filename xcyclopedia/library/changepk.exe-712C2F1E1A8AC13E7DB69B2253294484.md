@@ -4,7 +4,7 @@ title: changepk.exe | Windows Activation
 
 # changepk.exe 
 
-* File Path: `C:\windows\system32\changepk.exe`
+* File Path: `C:\Windows\system32\changepk.exe`
 * Description: Windows Activation
 
 ## Screenshot
@@ -21,6 +21,26 @@ SHA256 | `0D07EC1EB0FF9DCABE175C93E5F354484FF2BA1FF5ACCE13ED3872A31E7FE22A`
 SHA384 | `DE9EA2E08B211EB54A956F8D498D7CAE70AF1C6BDF4909B58E70A551DE2B29F1EFCA0B611D74BF80020FFBF4192D4EC3`
 SHA512 | `8D24B801147E4E159158C0F1E0FF1F716784E1957800734DB906E417EFCB5969134D430964305F392B389312704370405432962FC4CE822359209E5EB6D32FDD`
 SSDEEP | `1536:0NQZep+vv1Tj9aZ1q5TOvzj07j5Uff3vpP:Pv1Tj9aZ18yK5Uff3B`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\changepk.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
 
 ## Signature
 

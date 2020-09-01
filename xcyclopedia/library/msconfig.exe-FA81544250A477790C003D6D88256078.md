@@ -4,7 +4,7 @@ title: msconfig.exe | System Configuration Utility
 
 # msconfig.exe 
 
-* File Path: `C:\windows\system32\msconfig.exe`
+* File Path: `C:\Windows\system32\msconfig.exe`
 * Description: System Configuration Utility
 
 ## Screenshot
@@ -21,6 +21,45 @@ SHA256 | `2782A7F6336DAF4CC25A88995456678F02AFE0F01C86D24EF75CF54996710A75`
 SHA384 | `AEA25702129EB5012FC4B08818369A23F27EBFC24AD79DED31D96F7D696511FAB0AA9544BB3369A27A103CC1B19921A8`
 SHA512 | `E06475AE7C045E265BBA0FE3938D4DDEB43A2B4541BCFBF78243BC5BD389FEBAB3EB225C1BAEBC57D80BF9CE558C823360A96B50B687B70D54051B4C83B55E6F`
 SSDEEP | `3072:hqEa1DAvAaBSChjo4nZYRywPeChrL5fUd0/HlGJRA18:3eAjj9nO9mCFJUdSGJRW`
+
+## Runtime Data
+
+### Window Title:
+System Configuration
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\msconfig.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msconfig.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 

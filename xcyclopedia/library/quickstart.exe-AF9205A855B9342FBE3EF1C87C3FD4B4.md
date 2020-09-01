@@ -4,7 +4,7 @@ title: quickstart.exe |
 
 # quickstart.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\quickstart.exe`
+* File Path: `C:\program files\LibreOffice\program\quickstart.exe`
 
 ## Hashes
 
@@ -21,6 +21,26 @@ SSDEEP | `768:jpTVIq308Pjj2FaPDSswhy70qvurgQmHLU0YJxzUNarSJEhFFldU:jpTVHtxk8rUvz
 
 ### Child Processes:
 soffice.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\quickstart.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 
@@ -44,7 +64,7 @@ soffice.exe
 
 File | Score
 -- | --
-[C:\Program Files\LibreOffice\program\soffice_safe.exe](soffice_safe.exe-F96C942EB1383960B264D43BB0BF58C6.md) | 72
+[C:\program files\LibreOffice\program\soffice_safe.exe](soffice_safe.exe-F96C942EB1383960B264D43BB0BF58C6.md) | 72
 
 ## Possible Misuse
 

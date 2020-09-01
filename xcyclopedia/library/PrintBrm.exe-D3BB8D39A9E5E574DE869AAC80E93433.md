@@ -4,7 +4,7 @@ title: PrintBrm.exe | Print BRM command line tool
 
 # PrintBrm.exe 
 
-* File Path: `C:\windows\system32\spool\tools\PrintBrm.exe`
+* File Path: `C:\Windows\system32\spool\tools\PrintBrm.exe`
 * Description: Print BRM command line tool
 
 ## Hashes
@@ -42,6 +42,15 @@ PrintBrm -B|R|Q [-S <server>] -F <file> [-D <directory>] [-O FORCE] [-P ALL|ORIG
 -?               Display this help
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\spool\tools\PrintBrm.exe |
+
 
 ## Signature
 

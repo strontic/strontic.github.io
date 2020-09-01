@@ -18,6 +18,16 @@ SHA384 | `3E4ACE07463058A50BB354A6E6862B6FBA0DFDCFAF48422179818E850C6DC0112E305C
 SHA512 | `18ED875FE1BA327B137CE9488FB27BF6E1C03D2DAFFFC2E5F218A1C77F4874E72BFE3E4DA654D8936FFD55BD9A8B12100D5372D811D7AD5864EE4DB812C03272`
 SSDEEP | `1536:hwlhXzPpYYAlovU/UhN0UR8lraq6ggyDE2dwd2FhvyETLLBjJipKyby:hwTDPpFcUheUfgg+Qd2zLLBjApKy+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\drvinst.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\drvinst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

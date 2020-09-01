@@ -22,6 +22,17 @@ SHA384 | `2717CE3CE2AA8AF5C460EA361B07F5A1B1B1EC0A6104DDC3C1EB134B51B74E801ADCF3
 SHA512 | `F6FB3F59DD4B953A1974054FFD4E938C5932AE08D329F939CD788BD79796C1FDF623A0DD5DB176E3E1D1610F68E9AAF667D72B68428C25FDCF3A9FB7C1011377`
 SSDEEP | `6144:e1TNiz3XQipIJwy0cINpaYtfMIgOZCAPXvQ9j7jL:e1ozXQiph3aYt0ID/vQ93jL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\procmgr.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `6144:e1TNiz3XQipIJwy0cINpaYtfMIgOZCAPXvQ9j7jL:e1ozXQiph3aYt0ID/vQ93jL`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\procmgr.exe](procmgr.exe-2146CD60E981B6EC6DA8AACA49AA2515.md) | 94
 
 
 

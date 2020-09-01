@@ -18,6 +18,39 @@ SHA384 | `E8E4743AD03C2FAE70FE5FE8514906303EE9C14D8F7692BA7C221422221D7DB10A3EEF
 SHA512 | `6911E6C0C46C610C979A8086E5F73A7F44E5C2B9935DE32180C5368DB42A50519413ABE78B59A3877A4F832EC1526F10BDB61FFD57940F60DC72F58FE891A7A6`
 SSDEEP | `1536:jb+YR3wgD0Nuoh44/cJ6x0ZOOLAqiKTy+YMXPhJ:jb++sNrhnKO+ZX`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\system32\CloudNotifications.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\DUI70.dll |
+C:\Windows\System32\DUser.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\Windows.UI.Immersive.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -26,6 +26,16 @@ SSDEEP | `1536:FUqeR19ad+nRADc465UmRqrnZH01ectdrfLu9q:FUKrgegoo`
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\bitsadmin.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

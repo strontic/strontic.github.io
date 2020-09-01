@@ -18,6 +18,16 @@ SHA384 | `C602CD12416537830AD9360E46321A1B75EFD748EA2EE0D0C3733ED10CAA5BC6C2116F
 SHA512 | `C77F2730310F091CCA2B181C284D2AB9509A1D3382D2F454EBAA1A09F8DABC14B093565C67B995207EEC83C5CE60DEF1329932DB7CA81516396EABCDE5B1E746`
 SSDEEP | `768:fGK/hc3aZkLmMgMaouZl6iLW5WwuHk12B8Vr4Fwx9yb2NVsrYbe:fGK/hc3aZkLmMgMaouZl6i65WXl8Vr4z`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dcpromo.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\ddodiag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

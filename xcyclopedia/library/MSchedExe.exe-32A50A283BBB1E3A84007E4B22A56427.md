@@ -18,6 +18,14 @@ SHA384 | `C85DAADE60AB53A93DB4AC3AD5711F5C3107D2D42CB5F4C83034F213077CB63C8E4829
 SHA512 | `7D15AD4950197F8BCAB81213A3F11407F54FBA3CB10EA4D07B58DF55852D22D21F8B59A9E8C5E34A390CA41D23671BAF595E7A3F4A1305B5AC09810A0E087BFE`
 SSDEEP | `1536:VltREC/rMcgEPJV+G57ThjEC0kzJP+V5Jr:/zECTMpuDhjRVJGx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MRT.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\MSchedExe.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

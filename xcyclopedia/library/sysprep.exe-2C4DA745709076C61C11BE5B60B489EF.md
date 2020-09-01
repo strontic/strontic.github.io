@@ -4,7 +4,7 @@ title: sysprep.exe | System Preparation Tool
 
 # sysprep.exe 
 
-* File Path: `C:\windows\system32\Sysprep\sysprep.exe`
+* File Path: `C:\Windows\system32\Sysprep\sysprep.exe`
 * Description: System Preparation Tool
 
 ## Screenshot
@@ -21,6 +21,36 @@ SHA256 | `71EF84A9A310E34483CE3D40D805743F2D59DE1D3ADAD3F1639A6CFDAAE08EFD`
 SHA384 | `812A3B88C2C9CCEB2797670437A0C1729F2855C3952E7E3D56A46984CEFF690828D222BA4DA69081F7F2748C407B4DA5`
 SHA512 | `06D08ABA7EB5568706C422DF2501112114C453AC6B899A2B8626D0B183A41578844C47F61CE34FB1A87281C1E5EDCF9DF37A602B88F49682FC45F07DE4B6AD3F`
 SSDEEP | `12288:FHa9tyNNPsBzdhC8p82hnxa+Xoz4ztWYhaBTrGqdV/3z35oJnJgi:FHa9ty3PsNdhHp82JYv7NGqdd35o`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\Sysprep\en-US\sysprep.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\System32\Sysprep\Panther\diagerr.xml | File
+(RW-)   C:\Windows\System32\Sysprep\Panther\diagwrn.xml | File
+(RW-)   C:\Windows\System32\Sysprep\Panther\setupact.log | File
+(RW-)   C:\Windows\System32\Sysprep\Panther\setuperr.log | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\SetupLogSection | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\Sysprep\sysprep.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: Fondue.exe | Windows Features on Demand UX
 
 # Fondue.exe 
 
-* File Path: `C:\windows\SysWOW64\Fondue.exe`
+* File Path: `C:\Windows\SysWOW64\Fondue.exe`
 * Description: Windows Features on Demand UX
 
 ## Screenshot
@@ -26,6 +26,38 @@ SSDEEP | `3072:DM5ObEaznWfH22ZsuX2xKwMPTnaSrIrvD2:MoznWjZnXeKwMLnaqY`
 
 ### Child Processes:
 Fondue.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\SysWOW64\en-US\Fondue.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSEC1830 | Section
+\Sessions\2\BaseNamedObjects\UrlZonesSM_Administrator | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\Fondue.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: SenseCE.exe | Windows Defender Advanced Threat Protection Sense CE module
 
 # SenseCE.exe 
 
-* File Path: `C:\Program Files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe`
+* File Path: `C:\program files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe`
 * Description: Windows Defender Advanced Threat Protection Sense CE module
 
 ## Hashes
@@ -17,6 +17,23 @@ SHA256 | `AD03B0B20EFD223FACE34A744923E1423DF4464A53AB057D0F40D1370DEAF07D`
 SHA384 | `836223431AE0EDCAB2450CDD0F88BD4176D69FC3A43BCCDD7638F20589FAF5228F209B7E4EB616BAE22541F7E6B28835`
 SHA512 | `9908D182B7D7629955A2BA260131963A455DC3E6419FE5B4E30EDC3EB66C171F70660D1F8D80D5BDCA3D2E995E921781D59DCB18CC9C691A58A4C87C216784AD`
 SSDEEP | `12288:v406izMSHkrOyHZR6CCXuiAK6xXHDJBIMQV2:v406izMSErOyHZ0CCXuiA3XH8N2`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
 
 ## Signature
 

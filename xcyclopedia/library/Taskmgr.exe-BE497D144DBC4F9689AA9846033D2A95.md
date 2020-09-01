@@ -4,7 +4,7 @@ title: Taskmgr.exe | Task Manager
 
 # Taskmgr.exe 
 
-* File Path: `C:\windows\system32\Taskmgr.exe`
+* File Path: `C:\Windows\system32\Taskmgr.exe`
 * Description: Task Manager
 
 ## Screenshot
@@ -22,11 +22,51 @@ SHA384 | `6D6581AF4470650789FDE75013ACB251C5D033A4FC2C4AB3977638DB3A37EC2867EFD9
 SHA512 | `307C5C225C6B0F48D7E553083AAADE9F86A8779C26F7BB2E99D8D44607F423B5B03D2DA99612DDBA204654EB26059F0126A3B4CF24D09503E297609DE51E5FFD`
 SSDEEP | `24576:IaTZtOf9HXGblr3uYnL/V6kEnnCUaPYULBe7q4D:3GRX43uYnrVannCUa5e7q4`
 
+## Runtime Data
+
+### Window Title:
+Task Manager
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Taskmgr.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
+(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSECDFC | Section
+\Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*{3DA71D5A-20CC-432F-A115-DFE92379E91F}.3.ver0x0000000000000006.db | Section
+\Sessions\2\BaseNamedObjects\C:\*Users\*Administrator\*AppData\*Local\*Microsoft\*Windows\*Caches\*cversions.3.ro | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

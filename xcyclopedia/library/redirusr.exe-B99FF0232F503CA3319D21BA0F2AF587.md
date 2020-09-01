@@ -34,6 +34,14 @@ redirusr CONTAINER-DN
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\redirusr.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

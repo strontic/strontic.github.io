@@ -4,7 +4,7 @@ title: ThumbnailExtractionHost.exe | Thumbnail Handler Extraction Host
 
 # ThumbnailExtractionHost.exe 
 
-* File Path: `C:\windows\system32\ThumbnailExtractionHost.exe`
+* File Path: `C:\Windows\system32\ThumbnailExtractionHost.exe`
 * Description: Thumbnail Handler Extraction Host
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `AB58BAB0565BE06DBE5EAF5EE4CD0C3281A6BB6EFA4F23CEBC9E0F71CA29A797`
 SHA384 | `CE7E4AC7A50A1752B2897A68D7B36E3AC8778EFE320FF6412763CE0F1E6D9673FD07F7025305DDA002337E062E90995F`
 SHA512 | `10FD0D18D75350C762D239022748EF9B491CB6397BE0F0C02A667B91F4E4DDEA385EFDFBF385B11FC732B594C78F5C7C11CCB0CF4B45F9E01B4578F669AAE8E2`
 SSDEEP | `768:Wj8TiS8w6Z3NUR0rW7IjgTb5Z/VPMOquoFyEi:Wj8Gw6NWxtHMTjyEi`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECE6C | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ThumbnailExtractionHost.exe |
+
 
 ## Signature
 

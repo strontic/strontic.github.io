@@ -4,7 +4,7 @@ title: tasklist.exe | Lists the current running tasks
 
 # tasklist.exe 
 
-* File Path: `C:\windows\SysWOW64\tasklist.exe`
+* File Path: `C:\Windows\SysWOW64\tasklist.exe`
 * Description: Lists the current running tasks
 
 ## Hashes
@@ -100,10 +100,18 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "TASKLIST /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\tasklist.exe |
+
 
 ## Signature
 

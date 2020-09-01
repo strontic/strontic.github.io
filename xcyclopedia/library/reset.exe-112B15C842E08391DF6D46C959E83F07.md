@@ -18,6 +18,17 @@ SHA384 | `E833CB0780DDAACF6C88BB78C5BE9BD137651B72C8AE744F0C9B0066CB1F7B912BCD9C
 SHA512 | `2790092A67F5B6A2AF123DF6457677A1D1880C5C8AE5894E71306FC51470FF8D9B49CA2678EA722F5326B16776A4A3073C4C05BF636227C51066B52E196AFC57`
 SSDEEP | `384:ChqzHhQM8kL35RXgyfWQqiXsOkeYoKNe1thWZgW:ChqjlnJfzRcB81t8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Winamp\reporter.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\reset.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -52,9 +63,10 @@ File | Score
 
 ## reset
 
+Resets DiskShadow.exe to the default state. This command is especially useful in separating compound DiskShadow operations, such as **create**, **import**, **backup**, or **restore**.
 
-
-Resets DiskShadow.exe to the default state. **Reset** is especially useful in separating compound DiskShadow operations such as **create**, **import**, **backup**, or **restore**.
+> [!IMPORTANT
+> After you run this command, you will lose state information from commands, such as **add**, **set**, **load**, or **writer**. This command also releases IVssBackupComponent interfaces and loses non-persistent shadow copies.
 
 ### Syntax
 
@@ -62,13 +74,25 @@ Resets DiskShadow.exe to the default state. **Reset** is especially useful in se
 reset
 ```
 
-### Remarks
-
--   When you use the **reset** command, you lose state from commands such as **add**, **set**, **load**, or **writer**. **Reset** also releases IVssBackupComponent interfaces and loses non-persistent shadow copies.
-
 ### Additional References
 
 - [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+- [create command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/create.md)
+
+- [import command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/import_1.md)
+
+- [backup command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/begin-backup.md)
+
+- [restore command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/begin-restore.md)
+
+- [add command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/add.md)
+
+- [set command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/set_2.md)
+
+- [load command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/reg-load.md)
+
+- [writer command](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/writer.md)
 
 ---
 

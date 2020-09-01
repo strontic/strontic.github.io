@@ -4,7 +4,7 @@ title: coregen.exe | Microsoft Common Language Runtime native compiler
 
 # coregen.exe 
 
-* File Path: `C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe`
+* File Path: `C:\program files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe`
 * Description: Microsoft Common Language Runtime native compiler
 * Comments: Flavor=Retail
 
@@ -34,6 +34,17 @@ Usage: coregen [args] <assembly name>
     /L <coreclr>    - Specify path to coreclr.dll
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

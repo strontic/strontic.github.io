@@ -18,6 +18,25 @@ SHA384 | `04119796D48A61BFA3755926932A0214E24EF76E17E355B16225697D80306F6E23103B
 SHA512 | `24C3B37DB1B18521A08BBCFABE0C39709E41ABFFA603762626C2A3C7FB83A924A8FDC34726F2D16942BE21467B265FF410AD9DB96CAE9B2DBFB27237754DD7F2`
 SSDEEP | `768:KUbplMcVqpjJ/BQSNHVytw8Padgevl1fBQpN/lXb5oTl/1KELD8NDUSHM0k:RlMcwXN6g1fYJKTpkEUNDUSHM0k`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LockScreenContentServer.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\lodctr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

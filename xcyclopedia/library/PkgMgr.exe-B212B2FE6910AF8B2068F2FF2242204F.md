@@ -23,6 +23,27 @@ SHA384 | `06F0CF049612AD392FCDA31FBCF6DE05A1EDA40D16F1BDEAB2574F109DB9526F33FF0B
 SHA512 | `DECB0BBC4E09744B9103C5A9F3E755812217C9815E52BC822F2069A94691E2DA2646F54CD260BFF950436C42D6E5D016F72BAFA528D3F5A1450B0630A5ABCA36`
 SSDEEP | `3072:OnbEENXK6JRAqs4xjw8m1IXS2A87b9XTyCNa6KSiyaiyaiPNi6XwY5nyW+7TzLbY:ybEMHxM8c6SX8H98NQY5s2P`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PkgMgr.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\PkgMgr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

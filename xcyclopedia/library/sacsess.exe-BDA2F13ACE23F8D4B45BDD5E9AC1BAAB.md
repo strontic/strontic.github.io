@@ -18,6 +18,13 @@ SHA384 | `512C3D2101A80807B4620D3812029D1A1B1E3B0DF325B72BD84A9F032667DFC1EF9C7F
 SHA512 | `7502BD0CA9E54774037D9A87CA2A6E62937CD44E16366C8B36F66A8C8E03F638B00A43425CAE8A83654BBF71467F514EE97DCB679385F2A99E2F53E63201AE67`
 SSDEEP | `768:Zgzes9MaY8pi8uMe9N3Khe5ju0IPPFrriXgPXB1VT:ZaNh1gMKKIqFr3B1VT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\sacsess.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

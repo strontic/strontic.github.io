@@ -18,6 +18,47 @@ SHA384 | `AB8A4059E1B3188E637C3D52642F0C71DB63799F9B13465DA9F87B1BCE03C90C5FEC6C
 SHA512 | `ADB69E63122CD69240FB577016C77EB58A18D35528D173E31AE3E6820327606A9B83312AA308D808A635103080E6B7A00D2842F6334A7D0E6A63079ECBAC97F6`
 SSDEEP | `768:el/wBBBMcf1XIOOBTn9DAvt8DQgfMycTEYL67rNFPWk+iVgkV:el/wzfhFOBThDUygL67xpr+iVgu`
 
+## Runtime Data
+
+### Child Processes:
+MicrosoftEdgeSH.exe WerFault.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\edgeIso.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MicrosoftEdgeSH.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\USERENV.dll |
+C:\Windows\System32\WINTRUST.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

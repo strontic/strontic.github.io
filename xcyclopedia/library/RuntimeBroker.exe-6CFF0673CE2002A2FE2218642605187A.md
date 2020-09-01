@@ -18,6 +18,32 @@ SHA384 | `B7F7043162A613F4DD24B3A92B517E5493F8C0CC5770E19EB3FB19D8B80CDC1B28374F
 SHA512 | `996777FF3A7A8994FAC8A7768F315F56DEE33CFBF8C5995924607EF2DD0A7FD1A18348DFAD98A61099FED7044BD402A5C163A06207BA7648D0B30EB65C095894`
 SSDEEP | `1536:px4++Y9uxyixRfAuiyJw8rFk2xh7kwMLnjCdF/o9o+J2EmSlV0ls/XiVepP3T2:p6+oxRrim0LeX/ooQ2en0wiVuL2`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\system32\RMCLIENT.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\RuntimeBroker.exe |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

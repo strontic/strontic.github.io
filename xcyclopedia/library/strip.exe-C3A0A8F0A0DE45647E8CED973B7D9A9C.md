@@ -4,7 +4,7 @@ title: strip.exe |
 
 # strip.exe 
 
-* File Path: `C:\Program Files\PeaZip\res\upx\strip.exe`
+* File Path: `C:\program files\PeaZip\res\upx\strip.exe`
 
 ## Hashes
 
@@ -21,33 +21,44 @@ SSDEEP | `3072:yRpDGWktD8mKjlry9BJj40p9EeenSKg8Qn9axvJPoBEI3ravQ:sdaKpGX9x9CnSKg
 
 ### Usage (stdout):
 ```Batchfile
-Usage: C:\Program Files\PeaZip\res\upx\strip.exe [-vVsSpgxX] [-I bfdname] [-O bfdname] [-F bfdname] [-R section]
+Usage: C:\program files\PeaZip\res\upx\strip.exe [-vVsSpgxX] [-I bfdname] [-O bfdname] [-F bfdname] [-R section]
        [--input-target=bfdname] [--output-target=bfdname] [--target=bfdname]
        [--strip-all] [--strip-debug] [--strip-unneeded] [--discard-all]
        [--discard-locals] [--keep-symbol symbol] [-K symbol]
        [--strip-symbol symbol] [-N symbol] [--remove-section=section]
        [-o file] [--preserve-dates] [--verbose] [--version] [--help] file...
-C:\Program Files\PeaZip\res\upx\strip.exe: supported targets: pe-i386 pei-i386 srec symbolsrec tekhex binary ihex
+C:\program files\PeaZip\res\upx\strip.exe: supported targets: pe-i386 pei-i386 srec symbolsrec tekhex binary ihex
 Report bugs to bug-gnu-utils@gnu.org
 
 ```
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files\PeaZip\res\upx\strip.exe: invalid option -- h
-Usage: C:\Program Files\PeaZip\res\upx\strip.exe [-vVsSpgxX] [-I bfdname] [-O bfdname] [-F bfdname] [-R section]
+C:\program files\PeaZip\res\upx\strip.exe: invalid option -- h
+Usage: C:\program files\PeaZip\res\upx\strip.exe [-vVsSpgxX] [-I bfdname] [-O bfdname] [-F bfdname] [-R section]
        [--input-target=bfdname] [--output-target=bfdname] [--target=bfdname]
        [--strip-all] [--strip-debug] [--strip-unneeded] [--discard-all]
        [--discard-locals] [--keep-symbol symbol] [-K symbol]
        [--strip-symbol symbol] [-N symbol] [--remove-section=section]
        [-o file] [--preserve-dates] [--verbose] [--version] [--help] file...
-C:\Program Files\PeaZip\res\upx\strip.exe: supported targets: pe-i386 pei-i386 srec symbolsrec tekhex binary ihex
+C:\program files\PeaZip\res\upx\strip.exe: supported targets: pe-i386 pei-i386 srec symbolsrec tekhex binary ihex
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PeaZip\res\upx\strip.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\PeaZip\res\upx\strip.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\PeaZip\res\upx\strip.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

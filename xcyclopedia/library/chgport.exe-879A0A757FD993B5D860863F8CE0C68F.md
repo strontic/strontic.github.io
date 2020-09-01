@@ -18,6 +18,8 @@ SHA384 | `792B2B75B584C44485458F753B958CA2A6C870488006993BA7149135067930E2729AA1
 SHA512 | `E28ED737C5FEC5C9D868123A6CC509EBEEB7E1D0A66F21BBC067B0F8118DF31D243CAF42F05208934FA1CBC9930A9DCE18E2AB4680F2EBFB8F4C5B70CD8B53F2`
 SSDEEP | `384:Ar+obL+VKq01o+Lht/reAOgAS6Eoz5AinK8zSjpmjFqALxn3r9GZqEWqQW:Ar+otF1NLLreAtASiVnK82V+Pqsc`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Invalid parameter(s)
@@ -31,6 +33,15 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\chgport.exe |
+
 
 ## Signature
 

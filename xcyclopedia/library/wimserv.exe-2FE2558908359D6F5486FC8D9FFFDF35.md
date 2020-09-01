@@ -18,6 +18,26 @@ SHA384 | `C2E2002AB8C969A811F3D08E1AFCD7879BCAEBEE066BD84150EE98536C3BED1964515C
 SHA512 | `077AE0551D555B7CC091B20E2A80F8F155D8E40408CAFB5035BD8202C888408B48F3F681266495B6D2E7B65F0671F2D315C6DBEBBCFD31ECE8C68693C7E91BA6`
 SSDEEP | `12288:DboiZqnHJ29mi+DfW+wdEhN8SqQn8vNwz:LZCHHC+KEhrevNwz`
 
+## Runtime Data
+
+### Child Processes:
+explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wimserv.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

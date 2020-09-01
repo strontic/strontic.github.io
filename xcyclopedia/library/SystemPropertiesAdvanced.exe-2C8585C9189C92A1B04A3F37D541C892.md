@@ -4,7 +4,7 @@ title: SystemPropertiesAdvanced.exe | Advanced System Settings
 
 # SystemPropertiesAdvanced.exe 
 
-* File Path: `C:\windows\SysWOW64\SystemPropertiesAdvanced.exe`
+* File Path: `C:\Windows\SysWOW64\SystemPropertiesAdvanced.exe`
 * Description: Advanced System Settings
 
 ## Hashes
@@ -17,6 +17,44 @@ SHA256 | `86C7DB0E662CA65F8E5989A629E00B03354CC385A9AEE8BED7AAAE28672D0A5F`
 SHA384 | `334BFDAF9DE77F058BB7CB847776D246E3598BA36DF27E190CB08AEE86A901EB35D9A9B0A07330A9EEFA735E7D520955`
 SHA512 | `A0840031DB7883C79D06B5EB4E276E87A999B3FF71C86A331C41503C228EC9DBA6219F9F7903CA529419E3968F4F5542D325DBD39D08FE19A0B2746B4C17B83B`
 SSDEEP | `1536:kELZERtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jt:kACzECTMpuDhjRVJGX`
+
+## Runtime Data
+
+### Child Processes:
+RdpSa.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesAdvanced.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\netid.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesAdvanced.exe |
+
 
 ## Signature
 

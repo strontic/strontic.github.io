@@ -4,7 +4,7 @@ title: java-rmi.exe | OpenJDK Platform binary
 
 # java-rmi.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `7EE52E49BBF5A03A9C8616057CDD64A64FB15C30DE8E8D212444DA33EBA78D8C`
 SHA384 | `74FE92F5CA30A0D474293EB682B84FDA7AE0B531A72019E957AC9DBFE75350608BE4076636DDF3E6A645461F8FF340B7`
 SHA512 | `5B846D4D6600E1DF169C55CBFE92A3C5F8CC366EB2FBB66D4ACEBBEC3A214B98EBAD714BC1D6FF3DB9BEB1DAB58C7405A1A6C1A8DA5504A909E0C548C2F94EF1`
 SSDEEP | `384:ZuewKiKN0ueEWK6jSmM4Qz14UrDgf2hN8ln:ceNizEWKgDV21zrUf2hNsn`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -73,6 +75,16 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -95,9 +107,9 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe](wsgen.exe-FE1C1F8495990F2BCB301E53BCAB2B79.md) | 54
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe](java-rmi.exe-2C8BE8549F5A30706D882BF98BA1F593.md) | 66
-[C:\Program Files\Amazon Corretto\jre8\bin\java-rmi.exe](java-rmi.exe-ABB442793EFD5B49BCBD985457471CBA.md) | 66
+[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe](wsgen.exe-FE1C1F8495990F2BCB301E53BCAB2B79.md) | 54
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe](java-rmi.exe-2C8BE8549F5A30706D882BF98BA1F593.md) | 66
+[C:\program files\Amazon Corretto\jre8\bin\java-rmi.exe](java-rmi.exe-ABB442793EFD5B49BCBD985457471CBA.md) | 66
 
 
 

@@ -18,6 +18,13 @@ SHA384 | `7C9D2D0EDEA990D948FFD103F72C754A0D8AC71F2B4E249DE636B83772AEF498FE0D1E
 SHA512 | `F139B962AE57D20BE0D450AF29B1569AB7DAE90593A08466C8A99DC66BA4159374B08485CD5CADCA10CE993DCEE6AF307E000FB5E2C9641FC5E89AB1D435BCD7`
 SSDEEP | `384:h2UtVCvnMOLvGXM0NyxWpWSeNsW5FWxF:QU3EMWv906WHeNzoF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\mountvol.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

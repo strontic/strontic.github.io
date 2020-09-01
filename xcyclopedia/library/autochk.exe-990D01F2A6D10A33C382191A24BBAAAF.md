@@ -4,7 +4,7 @@ title: autochk.exe | Auto Check Utility
 
 # autochk.exe 
 
-* File Path: `C:\windows\system32\autochk.exe`
+* File Path: `C:\Windows\system32\autochk.exe`
 * Description: Auto Check Utility
 
 ## Hashes
@@ -17,6 +17,24 @@ SHA256 | `644417B839762A3325920A87C3D955CA974A4EC1D6F008216910267435921255`
 SHA384 | `4CE97989A37F34AB9046B7816F8E0B3BB7FA2FD128FCA67A42B12F155763CE61DF369A11894668613EF564AD9FFC7E0C`
 SHA512 | `A4AE319CB63DEC97CA2A4B1EB6BD8648810A2F89FB1E6BD1B2C077BEE31668EE4F83AF61BA25A29F0D79603541499C8A0E43BFBEDBA49BA5DC95D34C5B30B8B0`
 SSDEEP | `12288:klGTjqIuxMx82YwGti6T4DE4KCNptuO5SCizhm7qjJ4Ttr:3jr2Mx82YjtfSEGNptF5G4SJkh`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
 
 ## Signature
 

@@ -18,6 +18,26 @@ SHA384 | `6EDDC938CB16510C9126FCD754F7923C0D74E10F7BE362563B8A99BD114F4B24123EA1
 SHA512 | `BC3E827DA97B39A92154EAFAD64301C2502DF8F8A6C083AE794B11A5F4D71A1B455D5BE237C562272654D4B58AD4F36331D0898B28FD003AC0922CF1FF1D207A`
 SSDEEP | `384:SMImitGB0jmdm1It2RLQFZJnyWFX5GEI53wyWE+VWG9WJiia:7met2RLQFZJn59Kw9E+DR`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\Macromed\Flash\FlashUtil_ActiveX.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\fltMC.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,40 @@ SHA384 | `6709CB63CCE0D26C53C9344231272DC87974DA9BC60938A14905B2128EE3D2F47E7B50
 SHA512 | `9BB8FB16A09CAC647F52FE72A07473A3AB7E6FF35680BA175DAB54046D512C40A3897FE606F141B9C1708B40E808BCEA6FDFCD2FB964613A4093735C4FD92049`
 SSDEEP | `384:XdzXejBImR1Yd0JOsD8tqZDbRNtKYpjV40zjleCiDL0Cajh1sF/No3eqSbWYZrW:tciRsD3ZDtjZVN1eCCLHajh1mqSB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Everything\Everything.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\comdlg32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\SYSTEM32\iertutil.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\evntcmd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

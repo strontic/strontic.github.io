@@ -18,6 +18,16 @@ SHA384 | `019D3650407EC70D6C1CBEF33D1B8A94446C69C2E8F2F0FC1351312209A6A582D7B6D2
 SHA512 | `46D38B67548BC82DBFF77EB9E7CCACF335E8031EE0575D23BD7025B150987C820670B901494F611ACEDA1370CC4D1BAC478BC3DB4CB367A79CD1CDBBB33F06DF`
 SSDEEP | `3072:NacVMWT/DOsy5mR5Sw1sTwtXiEy2xL+5oIoJTxOXUWShgML2N09WEfgdOcQWIQPP:s9mxC17UW662ZFQ+Mv/9Zsd+rYjKZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\nltest.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\nltest.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

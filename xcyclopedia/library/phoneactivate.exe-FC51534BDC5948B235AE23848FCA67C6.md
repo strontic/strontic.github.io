@@ -4,7 +4,7 @@ title: phoneactivate.exe | Phone Activation UI
 
 # phoneactivate.exe 
 
-* File Path: `C:\windows\system32\phoneactivate.exe`
+* File Path: `C:\Windows\system32\phoneactivate.exe`
 * Description: Phone Activation UI
 
 ## Screenshot
@@ -24,8 +24,72 @@ SSDEEP | `1536:KDIv8OvRpZDqENAlZn22MgI8/OlCJIF53E1t7J5Xld9g6n6Lpjj0nPD:KKbRpEeSt
 
 ## Runtime Data
 
-### Child Processes:
-mmc.exe
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\phoneactivate.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\System32 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
+(RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
+(RWD)   C:\Windows\Fonts\seguisb.ttf | File
+(RWD)   C:\Windows\Fonts\seguisym.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC410 | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\ntmarta.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\phoneactivate.exe |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\system32\SLC.dll |
+C:\Windows\system32\sppc.dll |
+C:\Windows\system32\sppcext.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\Windows.UI.Immersive.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\system32\WinSCard.dll |
+
 
 ## Signature
 

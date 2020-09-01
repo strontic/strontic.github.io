@@ -18,6 +18,14 @@ SHA384 | `6BABF1B45069AB7CD75A18789FCEC46B310438DC858C5FDDB8806F989FBD7A3F4559A4
 SHA512 | `A69FCD0E15A2B07BF1C2DE6746FE71F51C2D04CEF960BEDF91763CC1392798B6A610AFFB3AB11822E24ECEC4F32C2EAE3B961E7C10BE6495E68E47E12EC8CDFF`
 SSDEEP | `192:BtlvYE2w6wWe1UKJVtcaqVDX55THZMQoZ0lWDXB9QkFkQWxno:tvr6wpbJVO3X59jWDRmQWxo`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\iisreset.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\iisreset.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: rmic.exe | OpenJDK Platform binary
 
 # rmic.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -57,6 +57,16 @@ where <options> includes:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -79,8 +89,8 @@ where <options> includes:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\klist.exe](klist.exe-6EC7CA20366247C1BBAA9E68103B9520.md) | 40
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\keytool.exe](keytool.exe-6045C32AB7C9FE9F5292B494A1B2E232.md) | 41
+[C:\program files (x86)\Amazon Corretto\jre8\bin\klist.exe](klist.exe-6EC7CA20366247C1BBAA9E68103B9520.md) | 40
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\keytool.exe](keytool.exe-6045C32AB7C9FE9F5292B494A1B2E232.md) | 41
 
 
 

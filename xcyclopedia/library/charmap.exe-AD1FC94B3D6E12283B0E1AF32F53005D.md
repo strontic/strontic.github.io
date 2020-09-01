@@ -4,7 +4,7 @@ title: charmap.exe | Character Map
 
 # charmap.exe 
 
-* File Path: `C:\windows\system32\charmap.exe`
+* File Path: `C:\Windows\system32\charmap.exe`
 * Description: Character Map
 
 ## Screenshot
@@ -21,6 +21,45 @@ SHA256 | `62E3F767F4867A067BA102970EE7CE4B925F22C35F064EC764A5A67CE163F3A1`
 SHA384 | `40F4A5CFA95A3CB6525722BB242F5F4BA042F86F84E4E02CB7D061676E749F1D7983DD957B30A8F14F1103A69DDB9604`
 SHA512 | `669A8F0E0CC529077F8E31C690E47059794CEFDA684479D5266C5F354366BE3C6CCE8A0EE00DB358A08C6D5DD7F47D2699DF0D4440A2763BB9DF110A4F6DCBED`
 SSDEEP | `3072:JXzxkkfJoAkYFFSxo2wqTIseSPBAce8brLF5NUdrSO9K/tagbdDu5nB:JzJTjixhTrQrEbgqt5g`
+
+## Runtime Data
+
+### Window Title:
+Character Map
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\System32\bopomofo.uce | File
+(R--)   C:\Windows\System32\gb2312.uce | File
+(R--)   C:\Windows\System32\ideograf.uce | File
+(R--)   C:\Windows\System32\kanji_1.uce | File
+(R--)   C:\Windows\System32\kanji_2.uce | File
+(R--)   C:\Windows\System32\korean.uce | File
+(R--)   C:\Windows\System32\ShiftJIS.uce | File
+(R--)   C:\Windows\System32\SubRange.uce | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\charmap.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\getuname.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC9F8 | Section
+\Sessions\2\BaseNamedObjects\9f8HWNDInterface:60320 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

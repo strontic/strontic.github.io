@@ -4,7 +4,7 @@ title: GoogleUpdateBroker.exe | Google Update
 
 # GoogleUpdateBroker.exe 
 
-* File Path: `C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateBroker.exe`
+* File Path: `C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateBroker.exe`
 * Description: Google Update
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `1536:H5J2AeSh8/J7YGzhc299Yx4XiIhJxsWL2HrcdQgXsOxVU90+efHNKMeCeehUfl:qg
 
 ### Child Processes:
 GoogleUpdate.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateBroker.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,7 +56,7 @@ GoogleUpdate.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateOnDemand.exe](GoogleUpdateOnDemand.exe-9020315BBE57A2F88EFF3BE4BF04F349.md) | 61
+[C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateOnDemand.exe](GoogleUpdateOnDemand.exe-9020315BBE57A2F88EFF3BE4BF04F349.md) | 61
 
 
 

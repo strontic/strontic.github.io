@@ -4,7 +4,7 @@ title: netsh.exe | Network Command Shell
 
 # netsh.exe 
 
-* File Path: `C:\windows\system32\netsh.exe`
+* File Path: `C:\Windows\system32\netsh.exe`
 * Description: Network Command Shell
 
 ## Hashes
@@ -23,7 +23,7 @@ SSDEEP | `1536:xb5iUv5pSTKh6SwRe2nrA56c6PlCNbiA9SDi:xb5i+7SToHwRe2n056vPlCdhke`
 ### Usage (stdout):
 ```Batchfile
 
-Usage: C:\windows\system32\netsh.exe [-a AliasFile] [-c Context] [-r RemoteMachine] [-u [DomainName\]UserName] [-p Password | *]
+Usage: C:\Windows\system32\netsh.exe [-a AliasFile] [-c Context] [-r RemoteMachine] [-u [DomainName\]UserName] [-p Password | *]
              [Command | -f ScriptFile]
 
 The following commands are available:
@@ -35,6 +35,7 @@ advfirewall    - Changes to the `netsh advfirewall' context.
 branchcache    - Changes to the `netsh branchcache' context.
 bridge         - Changes to the `netsh bridge' context.
 delete         - Deletes a configuration entry from a list of entries.
+dhcp           - Changes to the `netsh dhcp' context.
 dhcpclient     - Changes to the `netsh dhcpclient' context.
 dnsclient      - Changes to the `netsh dnsclient' context.
 dump           - Displays a configuration script.
@@ -48,7 +49,9 @@ ipsecdosprotection - Changes to the `netsh ipsecdosprotection' context.
 lan            - Changes to the `netsh lan' context.
 namespace      - Changes to the `netsh namespace' context.
 netio          - Changes to the `netsh netio' context.
+nps            - Changes to the `netsh nps' context.
 ras            - Changes to the `netsh ras' context.
+routing        - Changes to the `netsh routing' context.
 rpc            - Changes to the `netsh rpc' context.
 set            - Updates configuration settings.
 show           - Displays information.
@@ -58,12 +61,22 @@ winhttp        - Changes to the `netsh winhttp' context.
 winsock        - Changes to the `netsh winsock' context.
 
 The following sub-contexts are available:
- advfirewall branchcache bridge dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio ras rpc trace wfp winhttp winsock
+ advfirewall branchcache bridge dhcp dhcpclient dnsclient firewall http interface ipsec ipsecdosprotection lan namespace netio nps ras routing rpc trace wfp winhttp winsock
 
 To view help for a command, type the command, followed by a space, and then
  type ?.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\netsh.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -173,8 +186,12 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall reset >nul 2>&1 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall add rule name="atomic testing" action=allow dir=in protocol=TCP localport=450 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall delete rule name="atomic testing" protocol=TCP localport=450 >nul 2>&1 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall add rule name="Open Port to Any" dir=in protocol=tcp localport=#{local_port} action=allow profile=any | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1562.004.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md) | netsh advfirewall firewall delete rule name="Open Port to Any" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_ar18_165a.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ar18_165a.yar) |       $s1 = "netsh.exe advfirewall firewall add rule name=\"PortOpenning\" dir=in protocol=tcp localport=%d action=allow enable=yes" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_ar18_165a.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ar18_165a.yar) |       $s2 = "netsh.exe firewall add portopening TCP %d \"PortOpenning\" enable" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_aug20.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar) |       $str_netsh_1 = "netsh firewall add portopening TCP %d" ascii wide nocase  | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_aug20.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar) |       $str_netsh_2 = "netsh firewall delete portopening TCP %d" ascii wide nocase  | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [crime_phish_gina_dec15.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_phish_gina_dec15.yar) | 		$s1 = "netsh.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_malware_set_qa.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_malware_set_qa.yar) | 		$s6 = "netsh firewall delete allowedprogram" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_mal_backnet.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_backnet.yar) |       $s3 = "/C netsh wlan show profile" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)

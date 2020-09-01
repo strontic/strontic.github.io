@@ -4,7 +4,7 @@ title: WindowsUpdateElevatedInstaller.exe | WindowsUpdateElevatedInstaller
 
 # WindowsUpdateElevatedInstaller.exe 
 
-* File Path: `C:\windows\system32\WindowsUpdateElevatedInstaller.exe`
+* File Path: `C:\Windows\system32\WindowsUpdateElevatedInstaller.exe`
 * Description: WindowsUpdateElevatedInstaller
 
 ## Hashes
@@ -18,11 +18,19 @@ SHA384 | `AA396EEFC95A5958547D86E95A09D677CA53E8DF828B2B51E8788189960D081DC72F55
 SHA512 | `D6183E939EB8FAA0DDD3AA850B5FF272C1331D436483DC092C6C3ABF1FAD71C64F10E1D6A26C60FAAF2C4A38E7D7575FA73AA8F697C69FAA71B4472A7D850B16`
 SSDEEP | `768:nKNQ94605Gi5wvfJgo0J3wpppB15Qy5+3Q0Kj7rGHrLUNYjgBnL4nVUyb:YNh5bRZwjpB1T50K3rGHfOBL4nVpb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\Windows.WARP.JITService.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -18,6 +18,13 @@ SHA384 | `892E6C9D60E5008DC316467D59A560DB9805A1722296350255532D13EA637322A50B67
 SHA512 | `006FAA58B222D06901B15ADA818DC7D68528EB83A0181BD0BFBF8BACAE7173D4FBB5B1D2E52711E5487FF4C2E2BE22B195D0EEA6BABD511BE5812AE3F885E4E9`
 SSDEEP | `384:E9HCDqFuQ0wKyQcqMapmzMmoPyW/ZwXt9KkKbvEiek9W89VWP+jo:ElCD6udmQcqzdmcx/Iiek3cv`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RdpSaProxy.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

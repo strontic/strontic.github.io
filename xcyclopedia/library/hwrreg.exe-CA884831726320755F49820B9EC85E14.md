@@ -62,6 +62,17 @@ hwrreg -remove -lang en-US -type PRIMARY-DICTIONARY
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\HWAccelWzd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: iissetup.exe | IIS Setup
 
 # iissetup.exe 
 
-* File Path: `C:\windows\system32\inetsrv\iissetup.exe`
+* File Path: `C:\Windows\system32\inetsrv\iissetup.exe`
 * Description: IIS Setup
 
 ## Hashes
@@ -27,6 +27,13 @@ and should never be called manually.
 Failed = 0x80070057
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

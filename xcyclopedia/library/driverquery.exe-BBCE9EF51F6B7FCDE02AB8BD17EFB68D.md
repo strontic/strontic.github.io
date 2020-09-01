@@ -18,6 +18,16 @@ SHA384 | `29A1B6B21AF3969FBF56A5D050AA0DEDB9FF5E2FEE7280E482B4E2C859681EA38D6CA5
 SHA512 | `DD2CDE48BB01EFB7EEB3AFF3066C548D22D8A077FFA693BFF836966E5E4B791E4973040DF582D409143D6373D23944ACA0889897E5F315A92EE3A2DAED799C73`
 SSDEEP | `1536:LWJR/QDvPbFXOQzSrnjKEV47Rn0v4yB/s5YAmnq6FCUmTLxZwyM:NDvPbFXOQzSrnjKPR5y1sPN1LxqJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\driverquery.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\driverquery.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,17 @@ SHA384 | `CE2568D89D68432967735CE10EB738B5E28F5DD41B64A1844A032F4ED275F0912C69B9
 SHA512 | `7491E27790F20142849235514B132E838F8BC186B5B43FF6B9DDB9B60C31BCA9F10FCF59181F5738E88C7A01DABA9ABB22D33FA4025FD085AB2F1E79163F0818`
 SSDEEP | `12288:gDctr5AFr/UH4Cw9ny5BA+9yedBYfgXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:7XGryw9ny5BA+9jBm`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\uninstall\helper.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

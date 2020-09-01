@@ -4,7 +4,7 @@ title: javac.exe | OpenJDK Platform binary
 
 # javac.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\javac.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\javac.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -100,6 +100,16 @@ use --help for a list of possible options
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\javac.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -122,9 +132,9 @@ use --help for a list of possible options
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\javac.exe](javac.exe-3AF21D2F89F7E5A7409CF655538E4908.md) | 57
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jlink.exe](jlink.exe-15C86A7D8376EC476DD2AE27EAEE31D1.md) | 49
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jlink.exe](jlink.exe-07394595DDB48711F8120E27E11F1C75.md) | 69
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\javac.exe](javac.exe-3AF21D2F89F7E5A7409CF655538E4908.md) | 57
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jlink.exe](jlink.exe-15C86A7D8376EC476DD2AE27EAEE31D1.md) | 49
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jlink.exe](jlink.exe-07394595DDB48711F8120E27E11F1C75.md) | 69
 
 
 

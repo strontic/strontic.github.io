@@ -4,7 +4,7 @@ title: DevicePairingWizard.exe | Device Pairing Application
 
 # DevicePairingWizard.exe 
 
-* File Path: `C:\windows\SysWOW64\DevicePairingWizard.exe`
+* File Path: `C:\Windows\SysWOW64\DevicePairingWizard.exe`
 * Description: Device Pairing Application
 
 ## Screenshot
@@ -21,6 +21,46 @@ SHA256 | `B8E0841130EB3DC73E827E8CDD0CA7A8CAA2DA7AA0D7DE74433B13B0C19AB7A1`
 SHA384 | `B3FFB1A7DA6AB402542FC9F8E751043934615E58EC5C12B3E0C78215305376D483B4FC7F0FE37C9A781763E0E78EB393`
 SHA512 | `F614CB8CE25B1D288CC6256579B5AD734D1EA8C41427696951085AE22695627439F687CE29345691CAD15DE7FF1AB6CD913C9963CE210872030EDFC8FD85832C`
 SSDEEP | `768:KrSiEYEdvml88AVAwsWPitgfvNmWv/6oueZBryb24G0In3BhzhWM1GOVz177c:KrSiEYOY19eed2/6f8ryb8Z3qOTfc`
+
+## Runtime Data
+
+### Window Title:
+Add a device
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\dui70.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\DevicePairing.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC760 | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\DevicePairingWizard.exe |
+
 
 ## Signature
 

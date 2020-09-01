@@ -22,6 +22,31 @@ SHA384 | `AC4597862A7B7FE1E619309241795B3B0EBBB61CB53694A03A91C12D8F42B2A79F7CC3
 SHA512 | `7E78611283C0A9CF49A9302FAAA26DCE7B95798612AE11A8B8B91D0B2C93094871F6CAF5D0DA34C1D192A22D64A34E59D769CDC6D0DDA454ACD0A7402A2E0C57`
 SSDEEP | `3072:DwdK6g8IT9x0pWp1icKAArDZz4N9GhbkUNEk95V:IK6g8ITs8p0yN90vE`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\system32\wextract.exe |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wextract.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,17 @@ SHA384 | `FD8C0EEC87D52CBCEBD53E8D829D07C8383C8AE9E969ABCF6967833B650A3D2F728117
 SHA512 | `BE3799C0400C05489295E57E6C46E05761898677489DC2FE648F2468EA10DB934B1DA302D80EBDF375AB4352943403772F7656E9C9E72BDCE33C4E6019DCC760`
 SSDEEP | `1536:VnGuPx9hXC9kZhuXfcpXN8yD/r7DgS3Rk9Rs:VnGMdCiCEJeyD/HDgSa9Rs`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\smooth-palette\smooth-palette.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\inetsrv\smtpsetup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

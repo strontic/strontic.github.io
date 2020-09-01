@@ -22,6 +22,19 @@ SHA384 | `D0222CD6C3374168C8D4AA701256F7D22C38328E9FCD16294D05B3B05C5314EA5E87C1
 SHA512 | `ACD014355186CAC4506DA22F6FD0BA4939CD2FAD266496DBFB4C9E0CF16AB93D431BB1160D67B41863A0C98FCBCFDAD85C31AD37B428169ECFD4033C15CD6DB1`
 SSDEEP | `3072:jwmDM2NJjWRkOtHxtt3EOL2QvIsitSYVI9:skMqWRRZzqGY6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fontdrvhost.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\fontview.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

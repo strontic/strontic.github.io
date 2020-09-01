@@ -18,11 +18,33 @@ SHA384 | `97668B742C45B8DD2E672BD1189FAB3C0CC68A154593622251E549E6959AAE863C3E9A
 SHA512 | `0390D2E274E4FDF36AD4C6017B79DE43AB497E3D0B6B098B137EBD37680D578D0984B4CD63064200D085D8886CE35BA96620E98039FD2799224BAFCA4E0816E8`
 SSDEEP | `24576:Q5y7PSlMPVrw6BnRJERaRg51cj71FM8sY2qUO80fxTh9c42/:gy7UMPTJcRaK1cv1FM8srO8QT3cp`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 [0815/134243.503:ERROR:service_main.cc(150)] Failed to connect to the service control manager: The service process could not connect to the service controller. (0x427)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Google\Chrome\Application\85.0.4183.83\elevation_service.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

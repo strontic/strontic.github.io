@@ -18,6 +18,54 @@ SHA384 | `330B5503D6AC0B5EF5B4BAB28E20CF8F14C472C371AEF187981C558AC33A3ED889075D
 SHA512 | `A2F03DA17281FB760A9E5BF4B265DD496AD80975972FD0F93BC3008F053919EAFB4A76D2F904036AB1883BEFCD3915089E97AC8AF90FCC66250EFF4A27E18F5E`
 SSDEEP | `1536:o7BimltHuN9XJuqyAl31u+emb9pTlXPmIgOBuxx0tlLL1YShiuk63:A1NuNJJoAl3bTl/mIiw3Yu9f`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\oobe\en-US\audit.exe.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\Panther\UnattendGC\diagerr.xml | File
+(RW-)   C:\Windows\Panther\UnattendGC\diagwrn.xml | File
+(RW-)   C:\Windows\Panther\UnattendGC\setupact.log | File
+(RW-)   C:\Windows\Panther\UnattendGC\setuperr.log | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\SetupLogSection | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ActionQueue.dll |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\dbgcore.DLL |
+C:\Windows\system32\dbghelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\netutils.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\oobe\audit.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\SYSTEM32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\UNATTEND.DLL |
+C:\Windows\SYSTEM32\wdscore.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

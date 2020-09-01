@@ -18,6 +18,21 @@ SHA384 | `FE99C562046BEF226F62BE17BA9DF177A5A44DB4830D9338E23BD3B7A7A79BD2F41526
 SHA512 | `E933744C12A6C41993807EAC7EE5F2EC25503E53B9E07A934BA86E3CF6C042F35D5D7A44CA341383F6876E6FECEB7654D36E6E3C974B0D572AAB378D7DEFCAD3`
 SSDEEP | `1536:F5rqBynKLU3zwoktZwol60ED5ZnWRemvvrtO/kRMOTgDfZZt+qK7MI:UdUUouZll61DJstORO8DRZtUj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\provtool.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

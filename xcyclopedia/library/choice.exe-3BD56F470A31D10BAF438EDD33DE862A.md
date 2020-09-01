@@ -18,6 +18,16 @@ SHA384 | `55598A74351BC8306BF45A7A50A913946A3CF381BDBA4F7EA767C11FE77AE8781BDA60
 SHA512 | `6F254DDDF7962A39F009A6C91C525C32509E4BF54E8CD0C0AF19B45BA665445453D95748D8F154267F175C8E575B760848E90B612A9DA40227244E561861FBB8`
 SSDEEP | `768:+rfTk9wk24YUHBeZbEMs1sMLGxYHpndC:+rf0d9VHUBIsMaxYJnd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\choice.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\choice.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

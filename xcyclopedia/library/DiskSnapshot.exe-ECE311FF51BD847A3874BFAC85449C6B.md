@@ -4,7 +4,7 @@ title: DiskSnapshot.exe | DiskSnapshot.exe
 
 # DiskSnapshot.exe 
 
-* File Path: `C:\windows\system32\DiskSnapshot.exe`
+* File Path: `C:\Windows\system32\DiskSnapshot.exe`
 * Description: DiskSnapshot.exe
 
 ## Hashes
@@ -22,6 +22,7 @@ SSDEEP | `1536:ew6HOlxhH1IFf9mNm+QfjgU4H+En4x9Xl0B4ki/5co:esk2fAgUq+En43l0BdmP`
 
 ### Usage (stderr):
 ```Batchfile
+DiskSnapshot: illegal option: --
 DiskSnapshot.exe [options]
 	-c console output
 	-i (deprecated) detail data to console
@@ -40,11 +41,30 @@ DiskSnapshot.exe [options]
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DiskSnapshot.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

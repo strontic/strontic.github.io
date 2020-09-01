@@ -4,7 +4,7 @@ title: WMIADAP.exe | WMI Reverse Performance Adapter Maintenance Utility
 
 # WMIADAP.exe 
 
-* File Path: `C:\windows\SysWOW64\wbem\WMIADAP.exe`
+* File Path: `C:\Windows\SysWOW64\wbem\WMIADAP.exe`
 * Description: WMI Reverse Performance Adapter Maintenance Utility
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `08E35027B3181A3247C077EEF79E7DDE7013367CB8A3CBC12BAE3A46253FA3E7DDD303
 SHA512 | `7CE5B9E93F80FEE2C8C694B5CC12103539675AF6B1FA12953E65123BA647E0B1C7E6B2121B57C1B19846C99DAC6B153E6E257BD92AFCA1913F633E206B6A5BA9`
 SSDEEP | `3072:zp++AOVdnU7EEZ8+NNPyQ3fwyHSZ3du+LLC:zqOVMBrNP/33yZ3duEm`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

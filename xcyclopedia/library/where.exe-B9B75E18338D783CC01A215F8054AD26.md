@@ -4,7 +4,7 @@ title: where.exe | Where - Lists location of files
 
 # where.exe 
 
-* File Path: `C:\windows\SysWOW64\where.exe`
+* File Path: `C:\Windows\SysWOW64\where.exe`
 * Description: Where - Lists location of files
 
 ## Hashes
@@ -74,6 +74,14 @@ ERROR: Invalid argument or option - '/h'.
 Type "WHERE /?" for usage help.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\where.exe |
+
 
 ## Signature
 

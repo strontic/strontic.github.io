@@ -18,6 +18,31 @@ SHA384 | `12E1E812951521411E63B00A0E4CD2247E4A3FC3097FB8C5A9BF050C2BEAC0E6154930
 SHA512 | `38F55778FDC19397FAB21D4879C8B810586B64508BE64BA4189866AA8B3C663E54824562132862AA88274C89C706B1D27FE57B726830E26C55AC590BD691B18B`
 SSDEEP | `1536:s4/jyj91lFbMs/ukWlxZyE8svqr9PxDtykPmvX:7jyj9WoWlxgGu9ZDtyk+vX`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\wlrmdr.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

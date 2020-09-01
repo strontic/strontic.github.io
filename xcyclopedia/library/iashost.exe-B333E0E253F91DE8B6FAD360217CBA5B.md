@@ -4,7 +4,7 @@ title: iashost.exe | IAS Host
 
 # iashost.exe 
 
-* File Path: `C:\windows\system32\iashost.exe`
+* File Path: `C:\Windows\system32\iashost.exe`
 * Description: IAS Host
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `B7D9A6C4DDCE7889B63E894279A4312C1E42806AA03BA8CE04D99344EB3DB05B`
 SHA384 | `6F3626E9D6B2ECEACFDAA2401BC636D17ED19A96B64B88BDB2B3476EA7A1892A3F36C861E3A41C1BB615D95188A6F20D`
 SHA512 | `7BA86716A0BF35F92BF66B15A7DE256818B3463A71ACDA601A0FB7FC1F3D5FF50249B1CA4B8115ECC627FD2E9F9344287232F9DFE2741133F416D76DE7F873DC`
 SSDEEP | `384:+p1Rc815/Xxq3jykP02iWcd2zgEGhGpxLH/+yXK/XtXgkiWruWr:+TRb3/Xo+k0WrzJyG7Lf+nXmkf7`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\IrfanView\i_view32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

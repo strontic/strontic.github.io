@@ -40,6 +40,16 @@ Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\MRINFO.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.

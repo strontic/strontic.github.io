@@ -4,7 +4,7 @@ title: GoogleUpdateCore.exe | Google Update Core
 
 # GoogleUpdateCore.exe 
 
-* File Path: `C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe`
+* File Path: `C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe`
 * Description: Google Update Core
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `80837FEE9CDC25B4316448DB66800DB67968B8F264FACA6B93923436FE58F362`
 SHA384 | `092B2DEA2960F72F26C24B553197647238FDB37CB1BD5DBB1F8C0E8F9D035901ED7B24207AC295408306112D6FD9417E`
 SHA512 | `31706E88EFCC076A0D173132BA2E3A945E4B90BD6816650A0E072A93A8425CE4B2407B99773FDA5F8857A76D1DDD90F36F2881C7CF51F6E1E00FF7719781C878`
 SSDEEP | `3072:HkjtQVrY/V8ACX26UB8M6QuhI4Mg5EdbzQnAAg0FuuJor+SFrXHmI3x+naF18C/j:HkWrbACX2p6fGNgKAO0CFrf3x+aFSm`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

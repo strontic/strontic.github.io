@@ -4,7 +4,7 @@ title: print.exe | Print Utility
 
 # print.exe 
 
-* File Path: `C:\windows\SysWOW64\print.exe`
+* File Path: `C:\Windows\SysWOW64\print.exe`
 * Description: Print Utility
 
 ## Hashes
@@ -30,6 +30,16 @@ PRINT [/D:device] [[drive:][path]filename[...]]
 
 
 ```
+
+### Child Processes:
+powershell_ise.exe SystemSettingsAdminFlows.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

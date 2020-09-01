@@ -4,7 +4,7 @@ title: msinfo32.exe | System Information
 
 # msinfo32.exe 
 
-* File Path: `C:\Windows\SysWOW64\msinfo32.exe`
+* File Path: `C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe`
 * Description: System Information
 
 ## Screenshot
@@ -21,6 +21,19 @@ SHA256 | `7C9587BAD9050E03F13AB1F46E4F02F350CDD0A6EA893F70D52436E3849B2985`
 SHA384 | `0A1C265419CEF0C310DB72E768431A4D2C797B1874B072F5C9E44ACD31693FEA0069505AF7779A33F40AFAE1207193C0`
 SHA512 | `6D86476E1F1ADAF493063A4AB52128BCDA6CD0D3EFB4D1BD304D55CC9B3697FAC111D816C8BE3BB0FA872ECEB0356A4B1F415E50D88FFF4B4A187B6FF790DBC4`
 SSDEEP | `6144:8+Curxrt3aOo/8McrIHxKhph5hphcl1oMtSZEOHHrpm1XUZLxEZEOHHrpm1XUZLp:8HuVgD/LmIHxKhph5hphcl1LOtLpm1E0`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -44,8 +57,7 @@ SSDEEP | `6144:8+Curxrt3aOo/8McrIHxKhph5hphcl1oMtSZEOHHrpm1XUZLxEZEOHHrpm1XUZLp:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 100
-[C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 54
+[C:\program files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 54
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 54
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 58
 [C:\windows\system32\msinfo32.exe](msinfo32.exe-4BA6D7F9032FE80308C0501E087A54F6.md) | 57
@@ -54,6 +66,7 @@ File | Score
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-2D3773A656D92C8E4367511AD4DCDD8C.md) | 49
 [C:\windows\SysWOW64\msinfo32.exe](msinfo32.exe-54E568D65C876CF31586CCE68F51DEEA.md) | 55
 [C:\WINDOWS\SysWOW64\msinfo32.exe](msinfo32.exe-626E3EE8F3DDDA3F44E9E945C54F030D.md) | 65
+[C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 100
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-F589A0D3F0DA328F90A2A9556EF513B5.md) | 55
 
 

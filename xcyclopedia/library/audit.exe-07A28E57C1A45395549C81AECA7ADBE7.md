@@ -18,6 +18,26 @@ SHA384 | `D1295551D3E3B1D769EAC32325D91222965A23965B0D4841B0E1A4D99B27DD3730DB20
 SHA512 | `AED291B36F8A32F324E8BE246ABAFBE8CF289AFB15ECAC7D508B271003C160999B5DE94D2A69EC1378423AF5BD0376BF653BD2866AE22241B10985DC05C5E370`
 SSDEEP | `1536:d6EiMvq8kbhfvYY9JxFHKTzu2xBmKNWV6jwXFMcm9SSjHE:d6rMv6vYY93FHKTzVx2gjwE9hD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\audiodg.exe |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MMDevAPI.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

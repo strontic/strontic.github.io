@@ -4,7 +4,7 @@ title: SystemPropertiesHardware.exe | Hardware Settings
 
 # SystemPropertiesHardware.exe 
 
-* File Path: `C:\windows\system32\SystemPropertiesHardware.exe`
+* File Path: `C:\Windows\system32\SystemPropertiesHardware.exe`
 * Description: Hardware Settings
 
 ## Hashes
@@ -17,6 +17,37 @@ SHA256 | `E15AD3001AC462DA9BDD9510F85E19FB0397C4D467C16DB1067FFC72E9EE8DC6`
 SHA384 | `8154305C6630EA9410E915B15DD6349FF5938CDB2ADCECE3E79B69D812D395850B4F8EE14EE75CE0699B2DB14C8E7F26`
 SHA512 | `68C477302367D3282EE63E8604AA1A08FC566048FA80BD025F1D9EDAB17C57A3AA135CF52F171BB0EEA1EF078D8B5705F5E3174204EAACC20A1C5F378CAFED1D`
 SSDEEP | `1536:GvZMtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jk:aMzECTMpuDhjRVJGu`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\netid.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesHardware.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemPropertiesHardware.exe |
+
 
 ## Signature
 

@@ -18,6 +18,17 @@ SHA384 | `B4D1D1A52A7D2A6A64E106158CB4A7540BBCC54AB229FB2168963CD06723D16096B79A
 SHA512 | `E185F6F54E5D83D682E4F91189BF491EFD980DBCF5DD6679ECF7D61DC5FE54506ABAB1947A9666A13CBED54C0F026F6646112968449966E86425405536005EF0`
 SSDEEP | `768:OaHJU1+UAoZ+xuHToXN33Qx+wBqI1bRvwJsJqT7/pXk:kqoZcuYAx+kqIpRvwJf`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SecEdit.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\SecEdit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

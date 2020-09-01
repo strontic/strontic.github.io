@@ -4,7 +4,7 @@ title: setres.exe | Configures display settings.
 
 # setres.exe 
 
-* File Path: `C:\windows\system32\setres.exe`
+* File Path: `C:\Windows\system32\setres.exe`
 * Description: Configures display settings.
 
 ## Hashes
@@ -35,6 +35,16 @@ Description:
 -i               Display the current screen resolution.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\setres.exe |
+
 
 ## Signature
 

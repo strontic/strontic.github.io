@@ -4,7 +4,7 @@ title: pango-querymodules.exe |
 
 # pango-querymodules.exe 
 
-* File Path: `C:\Program Files (x86)\Pidgin\Gtk\bin\pango-querymodules.exe`
+* File Path: `C:\program files (x86)\Pidgin\Gtk\bin\pango-querymodules.exe`
 
 ## Hashes
 
@@ -35,14 +35,25 @@ Application Options:
 
 ### Usage (stderr):
 ```Batchfile
-Cannot load module C:\Users\WDAGUtilityAccount\help: `C:\Users\WDAGUtilityAccount\help.dll': The specified module could not be found.
-C:\Users\WDAGUtilityAccount\help does not export Pango module API
+Cannot load module C:\Users\user\Documents\help: `C:\Users\user\Documents\help.dll': The specified module could not be found.
+C:\Users\user\Documents\help does not export Pango module API
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Pidgin\Gtk\bin\pango-querymodules.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Pidgin\Gtk\bin\pango-querymodules.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\Pidgin\Gtk\bin\pango-querymodules.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

@@ -18,6 +18,8 @@ SHA384 | `1218190FF0D623F5F41A7C9AB5B4C98179FF03F8B0D6F3E645F65A2403F8FE6F1811B3
 SHA512 | `601B87ABDE366C0F4807947C5FB3F2B8DB62E03EB35605397962B662B922A8322BDFB18409F5CF33010A0C9902884728D91CDA5BD65E241D8546A4E8084EFD40`
 SSDEEP | `3072:uGBdmn6NHZM10co7T5Ooikw3+RCe2HaF1iaGdlSd9SpXx:uGBdk6NHrwQQTaF1tSp`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Unknown action: /help
@@ -110,6 +112,16 @@ TpmVscMgr.exe
 	TpmVscMgr destroy /instance root\smartcardreader\0000
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\TpmTool.exe |
+
 
 ## Signature
 

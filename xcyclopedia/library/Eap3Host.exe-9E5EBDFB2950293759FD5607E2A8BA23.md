@@ -18,6 +18,17 @@ SHA384 | `5ED3047ADC2BABDCA8C7B6F2F5714D5A81C5057E79A4BAD801AD659924F46BBD3E2131
 SHA512 | `2ADEDD4FE9E36308A6436D9AD3ED116D8211946162DDFE3058D34A5D857810CF21D8E3BCB6F95475542C11073E1B13FE90C66E92F05D6AEA3D92B775CEEE94D8`
 SSDEEP | `192:ifH+8B6gW4bgPr68qaL5OGp6xJ4dSwI4oF2ebgl7pG0dOsma6WAaW:u+8B6gWr68qaL5OJAwjw0gl7Ya6WAaW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\K-Lite Codec Pack\Tools\dxwebsetup.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Eap3Host.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

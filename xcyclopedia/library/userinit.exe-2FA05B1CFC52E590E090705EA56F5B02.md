@@ -4,7 +4,7 @@ title: userinit.exe | Userinit Logon Application
 
 # userinit.exe 
 
-* File Path: `C:\windows\SysWOW64\userinit.exe`
+* File Path: `C:\Windows\SysWOW64\userinit.exe`
 * Description: Userinit Logon Application
 
 ## Hashes
@@ -17,6 +17,26 @@ SHA256 | `6F1C2FD98615B9B0427ABB5AF0DEF53E3205B4A9E5EEC008E2284E28E839B096`
 SHA384 | `56DCB11112C8E761D5AAF9B814EB16FB0AF9DCF301D15437A6BB5897F406D854595330D29FDC885AAA1E585E2428BA5D`
 SHA512 | `CCEBCAEA3051A05F11EBD0AF5422A43E15CD9469ADEA6BB46644154946234290A388940FA2F19A26774CD3D11E1E4D262ACD0FC5628F193CA8FCDBB14AC24985`
 SSDEEP | `384:BU8ligOwpzLgHTZ4xBlwOHzuommB//QNmYMQnkvWxymW7:BbliwpLgHGvVXmk/QNmYn2`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\userinit.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

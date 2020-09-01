@@ -18,6 +18,16 @@ SHA384 | `F34B9E5E16C8460D15CFB355BAF44EACF0932665F536F6253E60CA6F013370DB8DF2C6
 SHA512 | `8F51A7FA975ADA6A300D94088CEC5A4A1C60EB5083333930EC5A143696767405F16340A678015B441751978E0B9152AEC34EB1DB6322157508FB42CB9171875C`
 SSDEEP | `768:EHDnOXf9UwynUTRlkV5SwK0FJOHetAPLywpbYfFBArxLI4Y:EHDw91RiTSn0FJQeePLywp8BAtLI`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cmmon32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cmmon32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

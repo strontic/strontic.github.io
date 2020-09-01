@@ -4,7 +4,7 @@ title: secd.exe | Apple Security Manager
 
 # secd.exe 
 
-* File Path: `C:\Program Files\Common Files\Apple\Apple Application Support\secd.exe`
+* File Path: `C:\program files\Common Files\Apple\Apple Application Support\secd.exe`
 * Description: Apple Security Manager
 
 ## Hashes
@@ -17,6 +17,45 @@ SHA256 | `026C1FC438B5754B438DA29A3282D9994B62956769F1F49262C1727DD708DCC5`
 SHA384 | `BE385D44ED93EA011F5D371ECA4520F92442E926A8B55B7FFD4A97A54F203DBBF9D3B92BB61DD6DEE22B4A6E9BC5BF76`
 SHA512 | `8A9562318B527400B918FDDD10AFD8806754A2BE9E9BAC9457BD9D02B6B29798CECDB9AF5A41F6C0829435027DF883D5000A76B347600AA964C95E8E8CD261DB`
 SSDEEP | `49152:TvGb6DdUOJOZIHWKNYrX/YGN4J554aiGwE3vzv41OBi3Avsnut:LGe2KNZT4aiGwE3vzvc5ut`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Apple Application Support\ApplePushService.dll |
+C:\program files\Common Files\Apple\Apple Application Support\CoreFoundation.dll |
+C:\program files\Common Files\Apple\Apple Application Support\libdispatch.dll |
+C:\program files\Common Files\Apple\Apple Application Support\secd.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

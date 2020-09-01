@@ -4,7 +4,7 @@ title: SenseSampleUploader.exe | Windows Defender Advanced Threat Protection Sam
 
 # SenseSampleUploader.exe 
 
-* File Path: `C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`
+* File Path: `C:\program files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`
 * Description: Windows Defender Advanced Threat Protection Sample Upload module
 
 ## Hashes
@@ -20,8 +20,24 @@ SSDEEP | `24576:08+UoDLTztjaj97Jn0WARRzgjVEj7qqjPW7Z4Bnx37Vwtun:vtoDLtuj9Z0WARhg
 
 ## Runtime Data
 
-### Child Processes:
-MediaMonkey64Helper.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WS2_32.dll |
+
 
 ## Signature
 

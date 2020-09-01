@@ -4,7 +4,7 @@ title: msfeedssync.exe | Microsoft Feeds Synchronization
 
 # msfeedssync.exe 
 
-* File Path: `C:\windows\system32\msfeedssync.exe`
+* File Path: `C:\Windows\system32\msfeedssync.exe`
 * Description: Microsoft Feeds Synchronization
 
 ## Hashes
@@ -18,11 +18,28 @@ SHA384 | `10C5508A3A2D11E0C5A4784209B3A122DA0F922852547BE9C4237D31ABECBE3455965D
 SHA512 | `4924CE094816FF9757ABA6FD2AD7E67BAD5DE3733F4E2A5C818F40FCC7C8CE7E31EFBD57658CE5943B7328F69A374CF3883E3B92C90B6755DFEAE14B28CAB3C1`
 SSDEEP | `192:5hMHubsargEfoNuwHozeh5nKjB2v5v5UHGlndjadGHULBlS5WcsH:5hQMrXqueomnKNEhnnjaC8s5WcsH`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msfeedssync.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

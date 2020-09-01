@@ -18,6 +18,23 @@ SHA384 | `F7638CFF17F3EAAF1776DA39066649160488447C002678DAE7B89DC0EACDE603C4EB1E
 SHA512 | `D488817C438497D07828FF3CDD1987D957B686F1BB72D125AC8122ABC1B9C4AFC597BACF5B115FCC2CCD384467470A6DEB6AEF0AA7EB3EAA015E433019CBF28B`
 SSDEEP | `3072:U+NKOELAaetq/bLeJQ4aTGYPA/kpIEWsaxweImspzFj6551KvNs:U+NKOQjEqzLMQRTzA0JZ2wJRc0N`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\Speech_OneCore\common\SpeechModelDownload.exe |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

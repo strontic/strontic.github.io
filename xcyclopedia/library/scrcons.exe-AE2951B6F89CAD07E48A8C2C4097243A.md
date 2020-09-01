@@ -4,7 +4,7 @@ title: scrcons.exe | WMI Standard Event Consumer - scripting
 
 # scrcons.exe 
 
-* File Path: `C:\windows\system32\wbem\scrcons.exe`
+* File Path: `C:\Windows\system32\wbem\scrcons.exe`
 * Description: WMI Standard Event Consumer - scripting
 
 ## Hashes
@@ -25,6 +25,14 @@ SSDEEP | `768:Wnc2NqrHdzJRSnc+N5QM78l/r70SA/pyf51Gk1Oxju+nzFSTIT+4i/qKVTPnyo:e5y
 Cannot run standalone
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wbem\scrcons.exe |
+
 
 ## Signature
 

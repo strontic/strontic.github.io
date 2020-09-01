@@ -18,6 +18,17 @@ SHA384 | `2834B0DBCC06B283397FC4E8F943991A57F33D09BF3115C0CF0910E25CE99AC61C8266
 SHA512 | `219EEB462AF3383B63AF48BF83CD3EDC88A802023E1101468DB4731E7CFB7F5F3136D5D22152111BF04ECEAE72B6CE697FAC8D14DF935BA46201A878ADF90D1B`
 SSDEEP | `1536:JAVY+2+lFLhar9Vkq/LHW7bTuUFH8Z4V8:JQ249har9Vk+MbTuia4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\nslookup.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\nslookup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

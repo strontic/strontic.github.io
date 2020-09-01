@@ -18,6 +18,22 @@ SHA384 | `62C1474DC62756C6BCFC9CA2FEAA832A4E90D56C123D8F9A4E9862423EEB33C9227B75
 SHA512 | `E2C122CC16B3B675EC533FB780D09F10058163D33D1B90770E34A9121DE0DDD12F503AD8130CE7DD18675D1875ACB83EE13776E7EA7343789016944939B72835`
 SSDEEP | `384:of2V54xSVFSkVXWDUcHbImbsp2Ywe6j5W0ggWbQE0g7qW2RPT/8rFeZmJhk:o0ykVXWRje6j0T2a`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\BackgroundTransferHost.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

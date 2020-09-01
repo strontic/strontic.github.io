@@ -17,6 +17,23 @@ SHA384 | `353AE2CE38E998C1BEB5DD3AAB338593D6DCE5890132D72D1B141DF95910D8689EBA03
 SHA512 | `98BEE887E7AC5117C1136F5026B5A319AA18188F55AD01BBA66B996B1A002BA0AC77701D768DAD4E1374A856984A8A0BCD7C6D3094AF83EB02AEFC57A6FE5E4D`
 SSDEEP | `192:wXstVHZqzn/3dbd3380z/hDU48AoAvcmC2veFHpqcTJGTZ6lEo6UcY0:3tVH8Tdbx8ExPvt0mClhHMUcY`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\agentactivationruntimestarter.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

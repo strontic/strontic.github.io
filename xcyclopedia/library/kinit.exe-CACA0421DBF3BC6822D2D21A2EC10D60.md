@@ -4,7 +4,7 @@ title: kinit.exe | OpenJDK Platform binary
 
 # kinit.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -54,6 +54,16 @@ java.lang.IllegalArgumentException: invalid Principal name: --helpKrbException: 
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -76,8 +86,8 @@ java.lang.IllegalArgumentException: invalid Principal name: --helpKrbException: 
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-8279A6B305002709B2FA0E42D508F5B7.md) | 72
-[C:\Program Files\Amazon Corretto\jre8\bin\kinit.exe](kinit.exe-279AB5BC8B1580FBD051A17B03A105FC.md) | 72
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-8279A6B305002709B2FA0E42D508F5B7.md) | 72
+[C:\program files\Amazon Corretto\jre8\bin\kinit.exe](kinit.exe-279AB5BC8B1580FBD051A17B03A105FC.md) | 72
 
 
 

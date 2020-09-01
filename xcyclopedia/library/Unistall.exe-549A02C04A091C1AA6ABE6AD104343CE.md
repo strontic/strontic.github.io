@@ -17,6 +17,16 @@ SHA384 | `0FD7CF59FC8445F4F192760C3C06FA4477221D798550BDEDC98177C31A72275B39E863
 SHA512 | `BD50F6AFD40EC741588650FDBD4E32A2F1BD48ADD6673A7BC1AD02AA23E8422109FF04BD1CCC81CDE9C14D36BAF66D6538BEEA01861557246DFBB50928C63CAC`
 SSDEEP | `384:nCKHfNify6EYe6iEAh3h1MeK6jroxxV1DGgibhGDgf2hb:nCe1Cn3DixdMeKgrmxV1DG91GUf2hb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\uniq.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -35,6 +45,11 @@ SSDEEP | `384:nCKHfNify6EYe6iEAh3h1MeK6jroxxV1DGgibhGDgf2hb:nCe1Cn3DixdMeKgrmxV1
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\x64\Unistall.exe](Unistall.exe-B6A142DE98B89B36AE2A77E0978E6294.md) | 90
 
 
 

@@ -4,7 +4,7 @@ title: help.exe | Command Line Help Utility
 
 # help.exe 
 
-* File Path: `C:\windows\SysWOW64\help.exe`
+* File Path: `C:\Windows\SysWOW64\help.exe`
 * Description: Command Line Help Utility
 
 ## Hashes
@@ -30,8 +30,14 @@ HELP [command]
 
 ```
 
-### Child Processes:
-explorer.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\help.exe |
+
 
 ## Signature
 

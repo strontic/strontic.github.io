@@ -18,6 +18,28 @@ SHA384 | `57DFE94E79211C3FC6D2D076729B70AC9CE0449CBDA3D7D2076C78A96104CA3F19714E
 SHA512 | `5D7AE663DCFEDFAF00836DC018131851E5A40778BD582B417B9F0BBD4BB6D1B2EB8F37F7F5A01CD2BEED78B6037EF6EB2A3290248D5E901173B1407990A202BD`
 SSDEEP | `3072:Vf8h0Gfm1y0Mx3JOlaEHPxPxQZDFcZIZ:Vfu0i17OlaEJPxQZDFZ`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\EhStorAuthn.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,16 @@ SHA384 | `69CD56144FBE9FA1B5E384B02E8BF91E8B559D00F165F111056FC5A2EAD04233AB4D3C
 SHA512 | `BB2B5A3D0F275C093D1CC4E7A1FED1751F50B9E8ABA802D487428098B60AEF5396EE50032CC4879C620D0EB40984829B00584445FC3BB8DA0CFA42D40EE2E1AF`
 SSDEEP | `384:GgZYzFaeuy1+kp4vH73wlX7XaFykXX5D4bavSWm0WW:G/ay1+kCvMFXCD4bavK`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ROUTE.EXE |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ROUTE.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

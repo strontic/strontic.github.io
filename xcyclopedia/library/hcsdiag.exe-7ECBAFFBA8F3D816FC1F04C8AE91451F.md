@@ -18,6 +18,8 @@ SHA384 | `91AC5C6160CEA1D383C3B4789313051DA65E6211C48351BC0D3770A4AAA769E93ADF8A
 SHA512 | `FA06DC906835D9F39CD76D680488FF2AB6C0168CB15B9AB09C3A2ABF158EF71370AE41E380F556BA552C0E444DD17BE21BB5AC58E3098B0715BC8712A47C52F2`
 SSDEEP | `6144:WzrrbHubsHAjOccJSgz01ELJpKY07ua4ncfVirOuWqEajNC/qx:2buWAyccccKY07ua4nc0ORqdg/`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -53,6 +55,35 @@ Copyright (c) Microsoft Corporation. All rights reserved.
     for containers hosted in a virtual machine).
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\HandBrake\HandBrake.exe |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\ucrtbase_clr0400.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

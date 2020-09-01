@@ -18,6 +18,16 @@ SHA384 | `AA586034685797C939BBBDBB5C2B36490C02B968FC5D60215CE931EC95F9BB23856E4A
 SHA512 | `91C75620D5378FFD858568368445B7B5D7CDC9172366F0B14EA53156FA35F9C0485016C1BEB243A8E9FA726FBCFFEB0331557B93ED3967B3A0BA0120E1DA7DA2`
 SSDEEP | `384:fWUQpJeZLvDJnTt7dG1snOxSjlSNMarKXFFjaERg5l4A5RkNeGuYeQb3GWHYWv:fTQpJeND1Tt7E1snOCAK1FjaER2GARpq`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\fc.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\fc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

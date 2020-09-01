@@ -60,6 +60,16 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sh.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -78,6 +88,11 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sh.exe](sh.exe-0049E1D78AFDE220B5931F1969EBAD94.md) | 97
 
 ## Possible Misuse
 

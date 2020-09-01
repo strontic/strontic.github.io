@@ -23,6 +23,17 @@ SHA384 | `E30B2B87642D7DCC6069ECC670E33649CC197335CB6D859496B2F40418DD763C72DE5A
 SHA512 | `EC4DB6B6F8194814E7DB661010F84BE0350591C49ACE84EFE15BB4BC5C968F6F4FAC8BB06F8E091FF25D11C4338D2FBB6BFA45BEBB8960EA8534DA6D1A0EEF90`
 SSDEEP | `3072:7i5rUENnKKphw6s4RTQcWl4Fa/DkCFdCf9TGOK18/qZ9vRtFmZQ:crU8nRccMC6hzCf9TGOIaqZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Microsoft Shared\ink\pipanel.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\PkgMgr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

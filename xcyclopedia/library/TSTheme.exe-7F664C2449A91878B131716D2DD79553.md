@@ -4,7 +4,7 @@ title: TSTheme.exe | TSTheme Server Module
 
 # TSTheme.exe 
 
-* File Path: `C:\windows\system32\TSTheme.exe`
+* File Path: `C:\Windows\system32\TSTheme.exe`
 * Description: TSTheme Server Module
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `0DA195AECD8794062AB5CB3BDEF2BE0230C1E76050C7B11CF609E4F3F23A9DDC`
 SHA384 | `9D7526C80131BA671970B3BB7962D61955F2B2708750DE17B20298C3C504D70D1DED7EA58E073DE7BE0D566BCA2E7F9A`
 SHA512 | `4986387C88D7165CB8B871C48478235C76B9845F8B3053A093936269C5D2A662A940E385744E001703428945E477D3600899E380854A60D4BC54D582AA6163A9`
 SSDEEP | `1536:YhT+AO0YYhOi/oX6CJYX0YOWbKuhuEiiGWv2:Y9+qpoX1U0YOshuEi9W+`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\TSTheme.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1694 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\TSTheme.exe |
+
 
 ## Signature
 

@@ -18,6 +18,13 @@ SHA384 | `943EC1FB4227AFA12734601F16A1C2F41073776A62DA2DBEB3D1B6433FB23B2B688FE9
 SHA512 | `D1517A90180C3C513FED3E4197D3C4A5301FBA4DFB3632F320A3D2225401E39C4D9435A34DB93CF62C1A7D0CF2690652C4E4905371B7C8896134CA0E36ED4E99`
 SSDEEP | `768:XBWD17CMzuy/YIMd63+t41gaby1rBc0Vk+GHzcwJ3:RWBCwuygBdlETkBcGkVAwd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\xcopy.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

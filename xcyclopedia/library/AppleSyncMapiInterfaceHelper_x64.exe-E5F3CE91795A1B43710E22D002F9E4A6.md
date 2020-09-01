@@ -4,7 +4,7 @@ title: AppleSyncMapiInterfaceHelper_x64.exe | SyncMapiInterfaceHelper
 
 # AppleSyncMapiInterfaceHelper_x64.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\AppleSyncMapiInterfaceHelper_x64.exe`
+* File Path: `C:\program files (x86)\Common Files\Apple\Mobile Device Support\AppleSyncMapiInterfaceHelper_x64.exe`
 * Description: SyncMapiInterfaceHelper
 
 ## Hashes
@@ -22,6 +22,26 @@ SSDEEP | `3072:s3e/8QxJkNgmkmKFKCZ28e4+wBr1UU7KoIJwfO0FH84ya:QetxJN3Z28e9SUUGoIJ
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\AppData\Roaming\Apple Computer\Logs\asl.174811_30Aug20.log | File
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Mobile Device Support\AppleSyncMapiInterfaceHelper_x64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

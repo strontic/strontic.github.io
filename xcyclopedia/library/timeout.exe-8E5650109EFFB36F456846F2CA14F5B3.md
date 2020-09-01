@@ -4,7 +4,7 @@ title: timeout.exe | timeout - pauses command processing
 
 # timeout.exe 
 
-* File Path: `C:\windows\system32\timeout.exe`
+* File Path: `C:\Windows\system32\timeout.exe`
 * Description: timeout - pauses command processing
 
 ## Hashes
@@ -55,7 +55,14 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 ```
 
 ### Child Processes:
-RdpSa.exe
+explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

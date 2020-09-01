@@ -18,6 +18,25 @@ SHA384 | `5A0F166EF806A7A60AD63BA3733CCA36110D2A9A36ACCAF38CA5D25887610FFD938442
 SHA512 | `8F179ED961BAB82B17AA0AF884FFF295C241B97A724E4F46FD8022CC59B2E200DC05EB7732474B3E4EA84AAE3AAABBB22313504E9041B57AD089C0FDDFC61CD5`
 SSDEEP | `3072:P2DCbFAEM82n7GC2jctoKpsusT2rEFpeoIUpZL:uD5X8I0jct5rEJdpB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iscsicpl.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\iscsicpl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: rsopprov.exe | RSoP Service Application
 
 # rsopprov.exe 
 
-* File Path: `C:\windows\SysWOW64\rsopprov.exe`
+* File Path: `C:\Windows\SysWOW64\rsopprov.exe`
 * Description: RSoP Service Application
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `2AFC95AC674762F8533B1BE1A0035D2402BD3CDB5CCF940E0B5C45254B1E3F1C`
 SHA384 | `A061F8C037999EBD18CC5AF5B23E1A4169A112399AE7882B101FA0D9FE09B638480E025ABAA1B5975DFFA0BE55412FAF`
 SHA512 | `D416315132CBB78C5564B35ABF682431593D60CC4A7CD449FEBDC00976D40C6995368EF50ECD517986935066CC62198BA73C7327628A616FA7B93AF6EB4DDF2E`
 SSDEEP | `1536:m+QBL9MdYWhOgecpBpgfQ7viyGPERtSw/9JRpAFE6kg2xlh8wQ13NnffdZyVl:m+uL9MdYWhOgecpoQ7vi5mHCE7x83NnY`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\rsopprov.exe |
+
 
 ## Signature
 

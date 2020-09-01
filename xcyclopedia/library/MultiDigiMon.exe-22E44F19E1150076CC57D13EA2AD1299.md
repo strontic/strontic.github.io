@@ -4,7 +4,7 @@ title: MultiDigiMon.exe | Digitizer to Monitor Mapping Tool
 
 # MultiDigiMon.exe 
 
-* File Path: `C:\windows\system32\MultiDigiMon.exe`
+* File Path: `C:\Windows\system32\MultiDigiMon.exe`
 * Description: Digitizer to Monitor Mapping Tool
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `104F7DDF72823F0516861BCD5E1D25D0617B9754AADFA24796404124DD120C42`
 SHA384 | `2D5D4ED6385D52C8DC52BEE6DAD790C07D61495B25AE5D7CAC7F37E0D5B1B0A37E9F37B7D85A4C9C7CF2A2715D51201C`
 SHA512 | `4ECD61FD5CAB6856EA5E507E42DC0E918BC8B3DCEF487C70E4FD966393767338FA1B7BDE647B1ADDF758788D2EFBB17EDC394945292673A1B1A05C15C90DFA0F`
 SSDEEP | `768:EMQVwFkb1dyP82uHYSz+O7W1jNrJsgrrH1Xzij9V+//qdfdh22C+BH7sFpCKcKP:Va08j7+O7WDvrgV+/ydfW2jbJK`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MultiDigiMon.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,14 @@ SHA384 | `4CAE75E004C45301E2558ADB3EC02631721F52BE91DA7F9068163AD23B968C30E8A061
 SHA512 | `910808EAAA24B6783D14ACC52A61424279504CA72A2EA6D2DE045C822488A87A207F19327ECCEF07990977ACFA23D99B50BD56AFEFAD75DDCF8386F32698AE81`
 SSDEEP | `3072:BYxx+Um00z9is4URWcDjR8sWy3+DiedbsGS45ZLFTr7Aw/:XgS2sWy+sGSMLFj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\verifier.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\verifier.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

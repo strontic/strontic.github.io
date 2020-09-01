@@ -23,6 +23,20 @@ SSDEEP | `24576:+c/qn2FsLUT4yINSdkuwNdjNx5ZoJbaZ7h+v8:n/pbdKNdZxsJeZP`
 ### Child Processes:
 opera.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Opera\launcher.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -41,6 +55,11 @@ opera.exe
 * Language: English (United States)
 * Legal Copyright: Copyright Opera Software 2020
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Opera\launcher.exe](launcher.exe-6C55C6092C51074E772EB77821726119.md) | 91
 
 ## Possible Misuse
 

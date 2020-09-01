@@ -4,7 +4,7 @@ title: print.exe | GNU Image Manipulation Program Plug-In
 
 # print.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\print\print.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\print\print.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `652D9F7456FE61BFCE664DE8B372BE2A6EAC217C707326FFE432301DB014682E`
 SHA384 | `1EC919C4D0A49FA098ECEC539C2B4CE3352C2864F8DF2E5474F57FAF5C2DC075B4C1C374ACBE3014B6C50E7FE9DED59A`
 SHA512 | `09A8DEE1A7465660192FDA02907D74EFCA6C053B647F435A1760E3F96883671D24FAE76CBE46CC01928FB23208EB7CCFBFE75B634F504A53064D0DEF23AA127D`
 SSDEEP | `1536:FhhJe7V5fJKJPD5E5YweGgZiwxRm/aipiPW2ai6yWXiT:27f4P1UEGgZxjm/fm1Uyg6`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\print\print.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,10 +62,10 @@ SSDEEP | `1536:FhhJe7V5fJKJPD5E5YweGgZiwxRm/aipiPW2ai6yWXiT:27f4P1UEGgZxjm/fm1Uy
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-ico\file-ico.exe](file-ico.exe-9BA606F588D200015B05318E88E44B9E.md) | 41
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-sunras\file-sunras.exe](file-sunras.exe-78A6C6D98674E6F26D10F0632295D323.md) | 44
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-map\gradient-map.exe](gradient-map.exe-C7F26A2FD518038620D73B699F69948B.md) | 44
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\grid\grid.exe](grid.exe-48DF0DE72E8C95E8815DC53686DD579D.md) | 47
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-ico\file-ico.exe](file-ico.exe-9BA606F588D200015B05318E88E44B9E.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-sunras\file-sunras.exe](file-sunras.exe-78A6C6D98674E6F26D10F0632295D323.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-map\gradient-map.exe](gradient-map.exe-C7F26A2FD518038620D73B699F69948B.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\grid\grid.exe](grid.exe-48DF0DE72E8C95E8815DC53686DD579D.md) | 47
 
 ## Possible Misuse
 

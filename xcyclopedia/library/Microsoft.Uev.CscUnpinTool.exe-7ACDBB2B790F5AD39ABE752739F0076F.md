@@ -18,6 +18,29 @@ SHA384 | `3F5DD1A60A0F93763C0A681B7132BF74A822DBBC67518E0704AB4F644F3CB95BE60956
 SHA512 | `43E90D2C7EDD1525764E6C7DE5A9414AC1AF7DA0724B47ACFE9CE5D56D6A50E06E07C5AC94195E07039835AC6A0FD435BFDC0D8A5C77D80878131BC766D1E5A1`
 SSDEEP | `6144:ULHkw505P//M5tV0lo1wSPgdo3IChLbS78xft2iMX+Yf+liXu52kwWIL:uM/+Uo1zrhHS7wfB6XmliXuu`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\Microsoft.Uev.CscUnpinTool.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

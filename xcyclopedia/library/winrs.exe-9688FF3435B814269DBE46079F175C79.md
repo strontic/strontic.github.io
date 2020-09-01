@@ -4,7 +4,7 @@ title: winrs.exe | winrs
 
 # winrs.exe 
 
-* File Path: `C:\windows\SysWOW64\winrs.exe`
+* File Path: `C:\Windows\SysWOW64\winrs.exe`
 * Description: winrs
 
 ## Hashes
@@ -125,9 +125,20 @@ For more information on tools see the command-line reference in the online help.
 
 ### Usage (stderr):
 ```Batchfile
-Winrs.exe: Unrecognized switch "/h"
+Winrs.exe: Unrecognized switch "--help"
 Use "winrs -?" to obtain the usage information
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\winrs.exe |
+
 
 ## Signature
 

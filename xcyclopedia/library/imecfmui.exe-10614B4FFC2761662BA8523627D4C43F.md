@@ -18,6 +18,22 @@ SHA384 | `E4602BAB8EF1B39D70B0D52B86A5F62CD88B81ED45FB0CE17BAC37F63371B608779F5B
 SHA512 | `6917059CA1D63A49DCBD642D0D0742059644004DEA3D6AA3ED58E936B28D98873AB956952C203DEAA41A05DD3A10096112C6C46E014E3B7CFEA803B8793FFF7C`
 SSDEEP | `3072:s8V+Tken4BXIoTVO0m4jR5HycXZHBx+fZkVMNfrga+o:s8Er4BXRTdm4//XdBgBkQga+o`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\IME\SHARED\ImeBroker.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\IME\SHARED\imecfmui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

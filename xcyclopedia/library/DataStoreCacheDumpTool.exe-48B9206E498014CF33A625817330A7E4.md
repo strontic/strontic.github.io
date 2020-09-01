@@ -4,7 +4,7 @@ title: DataStoreCacheDumpTool.exe |
 
 # DataStoreCacheDumpTool.exe 
 
-* File Path: `C:\windows\system32\DataStoreCacheDumpTool.exe`
+* File Path: `C:\Windows\system32\DataStoreCacheDumpTool.exe`
 
 ## Hashes
 
@@ -17,11 +17,23 @@ SHA384 | `D853C78D99168E86B1C1709EE1B82B1E644FA9B4DAA39FF5468999B03687C7B910D868
 SHA512 | `203AD7C2C105E4D75533F68BDBAD8C7D56FE8690AE14C1B0B871698394555A360AB91FFE424F4CBF92AF89EA287F2B73E0FA4985953AABD7C23638D83CEC4453`
 SSDEEP | `3072:VHFMuVLmj9ZD1KzZN4EaVa5kWhPJLpFRkLzC/UdF1xF7/i0:VFVLmjHW49Va5kW1bUzJi`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DataStoreCacheDumpTool.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

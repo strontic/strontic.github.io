@@ -4,7 +4,7 @@ title: sdbinst.exe | Application Compatibility Database Installer
 
 # sdbinst.exe 
 
-* File Path: `C:\windows\SysWOW64\sdbinst.exe`
+* File Path: `C:\Windows\SysWOW64\sdbinst.exe`
 * Description: Application Compatibility Database Installer
 
 ## Hashes
@@ -22,8 +22,8 @@ SSDEEP | `384:5ahy/EnSJIKqKziIyt4RRcHAnl+5nRl7Sew1sYmsPDErjWngWuTu:5aJZ+ziI9RRM6
 
 ### Usage (stdout):
 ```Batchfile
-Error: Invalid switch -help.
-Usage: C:\windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
+Error: Invalid switch --help.
+Usage: C:\Windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
 
     -? - print this help text.
     -p - Allow SDBs containing patches.
@@ -33,6 +33,13 @@ Usage: C:\windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
     -n "name" - Internal name of file (uninstall only).
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

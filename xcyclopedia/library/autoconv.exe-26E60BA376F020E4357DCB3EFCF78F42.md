@@ -18,6 +18,24 @@ SHA384 | `D4FA1FCBF82FEACC53C017E70A41749C46763CAF0B0DA862528722C143A86EE8478277
 SHA512 | `FD557524E6A27CF8C0EBD6F02EEE35E952EDDB3B09A7049BFAF065A095FF6C8AE98A700FFE8E3B16802DACDE87EA881DD13776A310D848E43291EC84F733ABE0`
 SSDEEP | `24576:NR7C+uj9Pf6G5EhDvjoz3MhtNKWUexvRvD:Po9PyG50vjoz3MhtNKW5lFD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\autoconv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

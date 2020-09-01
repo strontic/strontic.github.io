@@ -37,6 +37,14 @@ hostname -s is not supported.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\HOSTNAME.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.

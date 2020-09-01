@@ -18,6 +18,23 @@ SHA384 | `35BFF04CEFC1F1A07B78EA3C829935F5FC81A4FDEE92B8C3BDE84E80A07F52D37F2F27
 SHA512 | `81298F03B5D8EF919A4BE90C978A89B19F0945669BE682BF6FEFD35FCC4A7B121AB9F44BB55F81CCD69E079C5F6B67E441915BE58D1C5B0ED60697729AF9526F`
 SSDEEP | `768:e9c+P7qBxdbY2rZuv/lOmhqabv28XZACDJMwxKiHHd3nyBQgpHBe/pIP6kFNco2j:GIdVuv/lOmLRdvHpt5A6kFNx5W`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\rdrleakdiag.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

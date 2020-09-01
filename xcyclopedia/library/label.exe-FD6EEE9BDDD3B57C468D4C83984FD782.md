@@ -18,6 +18,17 @@ SHA384 | `914247C1642D82497CA41A1A11F8F57400FFFA23582780DBDFA21AEF696169391B6532
 SHA512 | `514F79E10AAB282DEF25BF83A39D6BD8C4AF39BCCE1833A3207C00613EBA26BFAD8267762AB0739008FCF288DB054D55DB62FF9DF9E7129C0B1690CCE8C5F75F`
 SSDEEP | `192:lsV+wijYL+HmvMC0XaENmTWeDWBC6zHGZbk5C10F8vkYWSUjWQOh9Cy:lsij1XaE+0t7GCxXYWSUjWQOe`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\label.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\label.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

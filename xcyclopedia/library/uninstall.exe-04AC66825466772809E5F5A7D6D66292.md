@@ -4,7 +4,7 @@ title: uninstall.exe | Steam
 
 # uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\Steam\uninstall.exe`
+* File Path: `C:\program files (x86)\Steam\uninstall.exe`
 * Description: Steam
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `1536:BMaAWOz2YOFw3ae4ptaq5qHSlTBuw+I/JFOh5N/Lq33TguZ5Kse85JqeITwr/QCe:
 
 ### Child Processes:
 Un_A.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Steam\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,7 +56,7 @@ Un_A.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe](Uninstall.exe-1596AE0C176AF0CF55B805E22D0AD364.md) | 38
+[C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe](Uninstall.exe-1596AE0C176AF0CF55B805E22D0AD364.md) | 38
 
 ## Possible Misuse
 

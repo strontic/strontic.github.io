@@ -4,7 +4,7 @@ title: PING.EXE | TCP/IP Ping Command
 
 # PING.EXE 
 
-* File Path: `C:\windows\system32\PING.EXE`
+* File Path: `C:\Windows\system32\PING.EXE`
 * Description: TCP/IP Ping Command
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `384:DL97irkr1hp22PeQw78T5HfjQ1H6PE7Apvu0pFjSbuLmq1mLQhWE2WmlW:DLFfASeQ
 
 ### Usage (stdout):
 ```Batchfile
-Bad option -help.
+Bad option --help.
 
 Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
             [-r count] [-s count] [[-j host-list] | [-k host-list]]
@@ -61,6 +61,25 @@ Options:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PING.EXE |
+
 
 ## Signature
 

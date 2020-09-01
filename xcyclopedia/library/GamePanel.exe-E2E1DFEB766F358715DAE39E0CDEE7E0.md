@@ -18,6 +18,30 @@ SHA384 | `A9EEA460743943AB9C5F4058F490529DD2E2C571C3C832988DAF884EC29F106B6185D9
 SHA512 | `1E3897BB95F0E91459DED346B532ADD0721E65BA0F4C8787F290ECC2641B4CC00B356DF92256A68EFB243E21FD6A9D715D7D1F98363F84482CC6AA9CFEC3D71D`
 SSDEEP | `24576:eqe5Y2WPhFW940AKBqVaaHVGZQ8MRE7hYR1OT32Sy5sVnA+j08FTB+IGoT6jYQSa:eqeYLhFWCbKBquwGhYR1OTaldMQ`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\GamePanel.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

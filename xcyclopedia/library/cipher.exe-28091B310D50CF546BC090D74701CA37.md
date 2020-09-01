@@ -133,6 +133,13 @@ Displays or alters the encryption of directories [files] on NTFS partitions.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

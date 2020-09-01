@@ -18,6 +18,23 @@ SHA384 | `36C7DA9D523829212A8B89AD60C89D510317B8764649BD915768297E4A4DDEEB78619D
 SHA512 | `27E3619BB34E0457EC62DA610ADE339A8EF9B95E887CBC6BECB0E12F8201F087FABFB742F6FBDC930BCDDDB8A94206DAEEB64F1C37683102A999ADAB13D714ED`
 SSDEEP | `12288:/Uoy2lnwgFgYAF3dKF1BzejyXbhXaOvkp/:8N2ln3qY23dKF7VXVaOvk1`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\IESettingSync.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

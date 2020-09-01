@@ -4,7 +4,7 @@ title: orbd.exe | OpenJDK Platform binary
 
 # orbd.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\orbd.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\orbd.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -22,6 +22,39 @@ SSDEEP | `384:Gps/BwnvBEdqCDmSHhV8ZKeeDcxK6jS8e4Dgf2hL8:Gps/yn5Ex6S/8ZXe0KgtUf2h
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\8616 | File
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\dnsns.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\jfxrt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jfr.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jsse.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\resources.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\rt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\tools.jar | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_8616 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\orbd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,11 +78,11 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 58
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\orbd.exe](orbd.exe-96A845462BBC79AA171FE9C03CE33766.md) | 90
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\orbd.exe](orbd.exe-B8A6EDEBFC7BD2FB7A7C1C12A3DBEF24.md) | 90
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 58
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\orbd.exe](orbd.exe-96A845462BBC79AA171FE9C03CE33766.md) | 90
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 61
+[C:\program files (x86)\Amazon Corretto\jre8\bin\orbd.exe](orbd.exe-B8A6EDEBFC7BD2FB7A7C1C12A3DBEF24.md) | 90
+[C:\program files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 60
 
 
 

@@ -4,7 +4,7 @@ title: VSSUIRUN.exe | Configure Shadow Copies
 
 # VSSUIRUN.exe 
 
-* File Path: `C:\windows\SysWOW64\VSSUIRUN.exe`
+* File Path: `C:\Windows\SysWOW64\VSSUIRUN.exe`
 * Description: Configure Shadow Copies
 
 ## Screenshot
@@ -21,6 +21,43 @@ SHA256 | `02E2F77451D995D053E0FD296A1CDEA7C3E3D24933C961987AE672A865A01D60`
 SHA384 | `F0ADBB4D8BAB2E4F10EAEBF1247D281A936D1565DE311127991840C28179D007861C255F5B979D4A2F929BD2F3CF220A`
 SHA512 | `86E19F3CA29871752DCEAD3A6E9A29F6FA9CEFF9C56110EAD0CC4AE6A9296C0E39D49E5945556AF59227D2787DEE8DA39C1D63C79D97231AE10D7BD33960EECA`
 SSDEEP | `768:fo+ZPJz71JCgUvVOA8zHkqkQWeod/uUOu3jPewyszbkN4dppainbNnnnnnnnnnnZ:xn/Y8zHrYnb3C9sfk64inbsM`
+
+## Runtime Data
+
+### Window Title:
+Shadow Copies
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\VSSUI.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1980 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\VSSUIRUN.exe |
+
 
 ## Signature
 

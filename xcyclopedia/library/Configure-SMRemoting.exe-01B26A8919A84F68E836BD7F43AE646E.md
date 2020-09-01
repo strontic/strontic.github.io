@@ -4,7 +4,7 @@ title: Configure-SMRemoting.exe | Configure-SMRemoting
 
 # Configure-SMRemoting.exe 
 
-* File Path: `C:\windows\system32\Configure-SMRemoting.exe`
+* File Path: `C:\Windows\system32\Configure-SMRemoting.exe`
 * Description: Configure-SMRemoting
 
 ## Hashes
@@ -18,11 +18,23 @@ SHA384 | `1F6796B57389D37C696EA4871184894B102E673AC54DA6A10BBBDAE79C919F801F5DFF
 SHA512 | `630A66C6F75931A68BCA8DCD81893874D90DB4C777837281C4F307E8AD4226EB3829E56FFDB735D305122A8B8668C74979B4D8D3037B05998120C06431904851`
 SSDEEP | `768:HcDIGqtaELu1Sbx9XxH8/QTmD3J+aPW6a8EkiHT45IdEgWDJbkYLEzXQbJcRmIld:c39c9XxHcQW5zHEkWT45SWD2FT7`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Configure-SMRemoting.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

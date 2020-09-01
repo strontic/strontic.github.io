@@ -4,7 +4,7 @@ title: jar.exe | OpenJDK Platform binary
 
 # jar.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `01EC14B949B1B310512C042DB639FDAE452A30AD8BA77925F37E50CE355316E9`
 SHA384 | `8CF8AA4E2691443EC54C32F6034F0BDC693508091E6FD018308505A0DB6BC9E6CF4B28FCF7BD7FDCD2CC0EC89A658286`
 SHA512 | `384D969AC90F5D165A1C5789A053B2E9D8583B52DE868AC7AC65AC139E60DA98A3128BBD99E0E865CD279AF693BD4A5982BD19D2027524ED4165A84F11052CB4`
 SSDEEP | `384:Gps95BnGqNmSHhV8jkeeF4SzbK6jSzvhEDgf2h+s:GpstnwS/8jBeFdKgqpEUf2hX`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -51,6 +53,17 @@ Example 2: use an existing manifest file 'mymanifest' and archive all the
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jar.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -73,11 +86,11 @@ Example 2: use an existing manifest file 'mymanifest' and archive all the
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe](jrunscript.exe-D7605E1C70C8E4A616CA9BDB46FBEAC9.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\kinit.exe](kinit.exe-4090B7E81AF9AD4ADA7BE45A6DFB0DB8.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe](jrunscript.exe-D7605E1C70C8E4A616CA9BDB46FBEAC9.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 68
+[C:\program files (x86)\Amazon Corretto\jre8\bin\kinit.exe](kinit.exe-4090B7E81AF9AD4ADA7BE45A6DFB0DB8.md) | 66
 
 
 

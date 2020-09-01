@@ -18,6 +18,13 @@ SHA384 | `4FE2C9E37265E8473FA2E704E8EBEBE0A63270E0B284ECFD15BC269C8D1E135A4909B8
 SHA512 | `1DE5B48B45AA1671ED8936DEC07EA795447345E73A2B83B50F859A7E35808F99863E4A0AEE573E68498E285DD4F4A78BCFECE9900BA6E0F369B6927AD6A44086`
 SSDEEP | `384:RA9EPryc1ObH93skXsz2nBMCFVY/Ztg7SaRDRhKOe5VkLobPIgvGfEWqXY3wyNlh:QIZ6ng+Sw635WLsKMBYgEwOHgnF31NL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\dnscacheugc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

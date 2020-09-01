@@ -18,6 +18,22 @@ SHA384 | `378AA71C34334DCC9569693CC94FAFD9664C34AD21FF8C5126761B64510258929D0337
 SHA512 | `4250C85FEB3F014EFC1D7F17BF4C302C28743A4C9FDA95269B3811388C26714085E99311FF60C83C5802DC0B3C65AD8EE084F3B0C5A22E4E5EF6E77647B02869`
 SSDEEP | `384:o22Qlce5cahaEZV1LMVHKtFMw/slH7RZOPy4uYMFkpWdTJMBnDk2+3YIU8WxoWO:iCvrZMVHwO7P4uYMgj+3Y3`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WinRTNetMUAHostServer.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,16 @@ SHA384 | `AB046A62D21B502100B8910291DB62A82B50195540C93879B204BE1F58015DB28907AC
 SHA512 | `D8B8663E4938A5CB7318FC93EDB0306244948B6C1722240E6EECECA8E28987F01CE21841905DA01E17484F7A99D89165034A878A7DB568CE197595919F8F3779`
 SSDEEP | `384:4hhA/E3kBRp47HUEEP66GmA/kxdmXvb0y2E9P8VxcayRRHfW5gWc:G6q7H/y66GT/pb0FE9P8r/yRRHO`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sdbinst.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\sdbinst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

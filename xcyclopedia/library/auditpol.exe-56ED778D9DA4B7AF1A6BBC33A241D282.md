@@ -18,6 +18,16 @@ SHA384 | `920D336BC83178B93B402C0F7E547AB945B811E0D3381F04EA418DE0BFFB94B4B8C41A
 SHA512 | `C879A04344AA564AC682FAC401F619A99E8A9966789409915406A0D620EB9E5E390BD42EA96C5AB9F621ADE18EAA7B460821FB326675332DF7892129D34426E3`
 SSDEEP | `768:M51YxeZUNypIqolt91htItsahk9607NPKMl9XRfX8z331VRUJGqd5RqoEoxGI1:oNUNyiTBt6b4XRuUJHd5RqmGI`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\auditpol.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\auditpol.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

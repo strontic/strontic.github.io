@@ -4,7 +4,7 @@ title: convert.exe | File System Conversion Utility
 
 # convert.exe 
 
-* File Path: `C:\windows\system32\convert.exe`
+* File Path: `C:\Windows\system32\convert.exe`
 * Description: File System Conversion Utility
 
 ## Hashes
@@ -46,6 +46,16 @@ CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
 Invalid drive specification.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\convert.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

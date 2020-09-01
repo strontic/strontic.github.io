@@ -18,6 +18,24 @@ SHA384 | `37F885194B662EFFFCB3E133760D7375331766C061BD64F72D6BEF850B5CE86BCE2B1B
 SHA512 | `DDCB8BEBA25C9A74396F633FB9999CFADB774FCB524BFDC004472A30CECB647A92525351523FBA8AD3FD7A76E0DC80F5BC9BDB063FCD254B749F0550F8530125`
 SSDEEP | `3072:xoVtYneJqHctNkdp7oOj54lBLEzpgsUZz00O+9JjZR6cYlHqXo6p:xoVtYn2q8tO7olpEKsgz00O81uEXo`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LegacyNetUXHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

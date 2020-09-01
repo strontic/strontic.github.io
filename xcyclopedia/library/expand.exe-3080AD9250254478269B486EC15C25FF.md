@@ -25,25 +25,19 @@ SSDEEP | `1536:1HUJ90Qr1hzF2F5Tbmb+KEUlqHuikyMUn:qHh2fTSLfan`
 Microsoft (R) File Expansion Utility
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Expands one or more compressed files.
-
-EXPAND [-R] Source Destination
-EXPAND -R Source [Destination]
-EXPAND -I Source [Destination]
-EXPAND -D Source.cab [-F:Files]
-EXPAND Source.cab -F:Files Destination
-
-  -R		Rename expanded files.
-  -I		Rename expanded files but ignore directory structure.
-  -D		Display list of files in source.
-  Source	Source file specification.  Wildcards may be used.
-  -F:Files	Name of files to expand from a .CAB.
-  Destination	Destination file | path specification.
-		Destination may be a directory.
-		If Source is multiple files and -r is not specified,
-		Destination must be a directory.
+No destination specified for: help.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\expand.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

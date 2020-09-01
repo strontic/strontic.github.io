@@ -18,6 +18,21 @@ SHA384 | `CC927E284296615C84006E496BADFE4F6CDDC7C5C34A16BF5750664FA459E630E9A07B
 SHA512 | `4DE7D569FF07A1816606ADD42B5BF27AC6BE509DFE6B00AC7072ECAD29C3745531FE6179B5025D61451914CBEEDEA5F5C80991E1F64B96BB1C055BC77C497592`
 SSDEEP | `768:KT/7YMYSI8E4svMbuXX08DFH0mdLbEivB6Ts7b3AcoYb6ZoIh:KTTs8E5vMb2ks0mdr/Ploi6ZoIh`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Opera\70.0.3728.133\opera_crashreporter.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

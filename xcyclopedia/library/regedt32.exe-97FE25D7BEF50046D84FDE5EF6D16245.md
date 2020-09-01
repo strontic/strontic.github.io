@@ -18,6 +18,17 @@ SHA384 | `082BE5AD3EFE0B151BD5A6E44EE224926A6D55A2075B5527DF052B575FC727C54ECBF6
 SHA512 | `D6D1C7404DA683ECF4F47D569EE35F996BD8859E1D4BEA8E901BC1D884AE080D9D93D714D83B0B9142CE547CF79574CF25D463DBA85916A83134576E714B5FA1`
 SSDEEP | `192:BOP5p7XksF1Bp+JMCyejA7pM+Y0WpxWCg:Qp70srmRA7e0WpxWCg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\regedt32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\regedt32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,19 @@ SHA384 | `E2BE28D177732707EECDD66A9161BD37EC29C0222088EDED6271A7970607F0BEC0744A
 SHA512 | `3C4B3DB7BA00EEB8D0529BBD01BCC4D63080C119391AB7E1F6C689FF2E9C8343DDB6B76BC1117EF857B0D3AFD3E5BD0EB8BA29E46AF3BA16700359CE6DFDCFA1`
 SSDEEP | `384:LOWa7RlJKOOkrgrODzj2BmHoX+vfYhtRnOLlhqg04ySyWScWScB:LOJXzzrgrODeBmHoX+MBgq4ySOg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\ThumbnailExtractionHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

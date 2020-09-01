@@ -18,6 +18,25 @@ SHA384 | `95D6EA2F979696761FCC5CB0FAA9D9DC0CDA8EA6A01C4C6B2AB4A59700571658E558AF
 SHA512 | `234F212BDE497FDF364C7058416F1D1C7C3D09AD9EFB0A497C4EC926F3D9469F603159C7B0F7C991F9200DCD2363AB5E2DB363C15404369A7A3E79A7FDFB27B5`
 SSDEEP | `6144:oOUHZhqqDGFXU+wxku2gw7UhHS805f94GvxxU3RegjCcLvUKguT2t:oJZcqSh3eBet/2d7UKgP`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\vds.exe |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\vds.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

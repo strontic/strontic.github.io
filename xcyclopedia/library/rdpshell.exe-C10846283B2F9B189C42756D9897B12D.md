@@ -4,7 +4,7 @@ title: rdpshell.exe | RemoteApp Shell
 
 # rdpshell.exe 
 
-* File Path: `C:\windows\system32\rdpshell.exe`
+* File Path: `C:\Windows\system32\rdpshell.exe`
 * Description: RemoteApp Shell
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `7074F785DD16CCCD4406F19443A77B453C395D1F532895E5BC768BC42E78DDB0`
 SHA384 | `98F0BCB45BF5D2EB327FCD627AEC22FA63A53672A4A6A8A342B91369F888257DDFA1D22AE7DCD0187D862E193BFC9019`
 SHA512 | `B962C86441316ECD51413424E098C78363922042A67BC3E2613E7FEF31145E967CB7D0270B7488B5B4CBBF3014EC3600922E35653EF641EBE2857E5A7DB46A79`
 SSDEEP | `12288:0+ZT06abN6hKLfvGNPBqyBd/xhNpt9J8SiKl:0+ZTNax82fvGNpqehNpzw`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\RdpSaUacHelper.exe |
+
 
 ## Signature
 

@@ -18,6 +18,21 @@ SHA384 | `D6FAA1F9FB4674E76B45B0ED8E8D8CF06EE03EF98B82449E1E7DE1C0D75455FDFD0BBD
 SHA512 | `1EB50F2215E780B1FAAA122165038A311C0E7F7CB14CE9627E0C4C5EA1F3A71ED0614441902D363B1E2BC946F4EEDD866709E518AC751F6691013C2637DA7DAD`
 SSDEEP | `1536:1mOzYulqCAV/Qkd1sTNe+6NwiKE10DHlG:zYoqCAV/Qkd1sTNGBl10A`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\Microsoft.Uev.SyncController.exe |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

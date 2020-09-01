@@ -4,7 +4,7 @@ title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
 
 # WSManHTTPConfig.exe 
 
-* File Path: `C:\windows\system32\WSManHTTPConfig.exe`
+* File Path: `C:\Windows\system32\WSManHTTPConfig.exe`
 * Description: WSMan HTTP Configuration File
 
 ## Hashes
@@ -18,12 +18,21 @@ SHA384 | `4622B7190BBD4EA5CB0D6B6F09407C912F6CB5FEDD9AE67C4A22A10CB652E10C5C4CE2
 SHA512 | `668D79B6CCF5B0FD83A7016F3820603305A2FEAF72E999646128D713C690A4DCB03292EAEF7E77F74654416960A1F796814F9469691920F68F3C10C0E8FAEA84`
 SSDEEP | `384:Z2RKxIf1gZDw1F0VTHrjfKHPCfxiDgqgrg5gsgBgVgT8PJv1HVTi//2B/2/LWlRW:Z1Idgdw1GvjbfxaJtHFi//2FKu`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-WSMan Generic Command ERROR: Unknown switch: -help
+WSMan Generic Command ERROR: Unknown switch: --help
 WSMan Generic Command ERROR: Error in parsing input
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

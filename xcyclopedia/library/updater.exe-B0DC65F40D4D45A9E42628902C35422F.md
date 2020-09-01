@@ -18,11 +18,32 @@ SHA384 | `B0B0A615B7908C7B1DB7EADB9EA61A6D350A0A801EED6E92763B4E825F47CF3A77FF4E
 SHA512 | `FF86AF6FB052C42E15474A00571CC18A76ED8C346C133D0687B2943B8E3C5CDAE2EAEE4068079EC79E0564F1EB91FEDAEDECC1EAD0CB8869C3E3DD56A7AF9AB6`
 SSDEEP | `6144:nWllNRzHZc3p/bVM/YkDvFRlFB/364zJBNZfQXRJg3PfcKrKywh:WllNZuZ/REBR/ldyJAdGyE`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage: updater patch-dir install-dir apply-to-dir [wait-pid [callback-working-dir callback-path args...]]
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Firefox\updater.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 
@@ -46,7 +67,9 @@ Usage: updater patch-dir install-dir apply-to-dir [wait-pid [callback-working-di
 
 File | Score
 -- | --
+[C:\program files\Mozilla Firefox\updater.exe](updater.exe-904B85E7D09E0CEE3294D10F947E3183.md) | 40
 [C:\Program Files\Mozilla Thunderbird\updater.exe](updater.exe-321D1891CE307A8359422D69221531DD.md) | 36
+[C:\program files\Mozilla Thunderbird\updater.exe](updater.exe-BF0362D3182C55DB7143EFA1098CEB6D.md) | 36
 
 ## Possible Misuse
 

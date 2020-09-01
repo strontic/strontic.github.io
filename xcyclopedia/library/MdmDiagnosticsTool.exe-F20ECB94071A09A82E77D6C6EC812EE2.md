@@ -46,6 +46,16 @@ SSDEEP | `1536:N7L5ewNt3W0wWBPt+KWmfVev4+6PdHvpuebu:lYuW0wqt+LyVo4+GdHBDbu`
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MdmDiagnosticsTool.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: netbtugc.exe | NetBT Unattend Generic Command
 
 # netbtugc.exe 
 
-* File Path: `C:\windows\SysWOW64\netbtugc.exe`
+* File Path: `C:\Windows\SysWOW64\netbtugc.exe`
 * Description: NetBT Unattend Generic Command
 
 ## Hashes
@@ -20,8 +20,14 @@ SSDEEP | `384:ivj2osEHN3gdeTT8BoMtij7J2goiuaxrmkmDkqQFnME/XW/JFWc:C0eTioXj7JXuUG
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\netbtugc.exe |
+
 
 ## Signature
 

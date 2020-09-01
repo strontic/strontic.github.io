@@ -53,6 +53,14 @@ Examples:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cmdkey.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

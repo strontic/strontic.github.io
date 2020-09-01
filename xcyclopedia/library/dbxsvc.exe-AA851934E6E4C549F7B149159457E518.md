@@ -4,7 +4,7 @@ title: dbxsvc.exe | Dropbox Service
 
 # dbxsvc.exe 
 
-* File Path: `C:\Program Files (x86)\Dropbox\Client\104.4.175\driver_x86\dbxsvc.exe`
+* File Path: `C:\program files (x86)\Dropbox\Client\104.4.175\driver_x86\dbxsvc.exe`
 * Description: Dropbox Service
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `A3D8D511279D7917DC44FCC535E7CD478653506C570293367647DFE6F7979617`
 SHA384 | `004E321464A84433C1E647A78739EB161ECDE86F8F949BFE0A415FCDB5941AA06F22A75DFEC8603D03C414BCE77D9C00`
 SHA512 | `97A374426477252A6DF8E9759C9C11F5A81B2E7C884C787C0818DD14249516D1199FF97B1EF45F928D3535DD703B29A891EF45826DC940C09D8F66DE182902D2`
 SSDEEP | `384:gVCa4Ci4/lvzyqbgWCkIQvPbny9i/W4eMFnmoCG5vKsC8vPVCEDGuXmVbPLon4/S:gVR4UzAWCyPbnq4W45Q8vPtDGAK44/S`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Client\104.4.175\driver_x86\dbxsvc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -40,7 +53,7 @@ SSDEEP | `384:gVCa4Ci4/lvzyqbgWCkIQvPbny9i/W4eMFnmoCG5vKsC8vPVCEDGuXmVbPLon4/S:g
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Dropbox\Client\104.4.175\DropboxThumbnailGenerator.exe](DropboxThumbnailGenerator.exe-B187017DE2A5E342EF903F16C0C39C65.md) | 35
+[C:\program files (x86)\Dropbox\Client\104.4.175\DropboxThumbnailGenerator.exe](DropboxThumbnailGenerator.exe-B187017DE2A5E342EF903F16C0C39C65.md) | 35
 
 
 

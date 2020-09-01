@@ -4,7 +4,7 @@ title: Defrag.exe | Disk Defragmenter Module
 
 # Defrag.exe 
 
-* File Path: `C:\windows\system32\Defrag.exe`
+* File Path: `C:\Windows\system32\Defrag.exe`
 * Description: Disk Defragmenter Module
 
 ## Hashes
@@ -71,6 +71,13 @@ Examples:
 	defrag /C /H /V
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

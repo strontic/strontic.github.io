@@ -4,7 +4,7 @@ title: taskkill.exe | Terminates Processes
 
 # taskkill.exe 
 
-* File Path: `C:\windows\SysWOW64\taskkill.exe`
+* File Path: `C:\Windows\SysWOW64\taskkill.exe`
 * Description: Terminates Processes
 
 ## Hashes
@@ -94,10 +94,17 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "TASKKILL /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

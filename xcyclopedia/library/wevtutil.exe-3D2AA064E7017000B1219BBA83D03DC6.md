@@ -4,7 +4,7 @@ title: wevtutil.exe | Eventing Command Line Utility
 
 # wevtutil.exe 
 
-* File Path: `C:\windows\system32\wevtutil.exe`
+* File Path: `C:\Windows\system32\wevtutil.exe`
 * Description: Eventing Command Line Utility
 
 ## Hashes
@@ -85,6 +85,14 @@ Command help is not supported.
 The parameter is incorrect.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wevtutil.exe |
+
 
 ## Signature
 

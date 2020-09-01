@@ -22,6 +22,27 @@ SHA384 | `4E804676AF0C337A31446CF111813B8A22773503D04995B15008CAD9E25BAD17157101
 SHA512 | `370536A555A27EC951CA836B7BCB59CDF17C17365D37F7E2580B1D249856E36A2923EC940BB4E0DD9F35585BDC9C449FB8497FD020B38C1B066E716895E2805C`
 SSDEEP | `3072:wI1w5sOZqEFKa+6EC3NeK15FbPkJKk/2lS:j1w5sVEQa+6d5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\dfrgui.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

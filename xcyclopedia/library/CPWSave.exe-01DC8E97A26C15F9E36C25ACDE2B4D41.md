@@ -22,6 +22,17 @@ SHA384 | `9105436B4F5BF974B7756884EFCB82BB354E40AD79721D89C945BA452C2BA7ECE5520A
 SHA512 | `0E1C5AA4727796B74B363DC55548F3FE86BB3832FC57DC1C68E7BBAC8D17F71F1DC521EF8B6D5F0C2E0E50FEB9118DA65644DA2CF5B57E725D19D1D86A980648`
 SSDEEP | `49152:WVM7aIZIToF6H0rN4lhZuoNbhd/iWlSYoFOYnGF1EtUfAPRzjapwkqQmmiFnB:x6hNld/hUIYnG7fA5zWuesnB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Zoom\Support\CptService.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

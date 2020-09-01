@@ -4,7 +4,7 @@ title: ktmutil.exe | Kernel Transaction Management Utility
 
 # ktmutil.exe 
 
-* File Path: `C:\windows\system32\ktmutil.exe`
+* File Path: `C:\Windows\system32\ktmutil.exe`
 * Description: Kernel Transaction Management Utility
 
 ## Hashes
@@ -22,13 +22,21 @@ SSDEEP | `384:DRG4uefNzVpqIuf+N22emFmNdlfATsLS3FsOWIjW:AJeFV8FNNw7FsY`
 
 ### Usage (stdout):
 ```Batchfile
--help is an invalid parameter.
+--help is an invalid parameter.
 ---- Commands Supported ----
 
 tx     Commands related to transactions
 tm     Commands related to transaction managers
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ktmutil.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

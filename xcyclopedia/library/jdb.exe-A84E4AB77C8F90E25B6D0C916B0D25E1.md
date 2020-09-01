@@ -4,7 +4,7 @@ title: jdb.exe | OpenJDK Platform binary
 
 # jdb.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -63,6 +63,37 @@ For command help type 'help' at jdb prompt
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\3484 | File
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\jfxrt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jfr.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\rt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\sa-jdi.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\tools.jar | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_3484 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdb.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -85,23 +116,23 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\idlj.exe](idlj.exe-3C984B60B64012CE20E398C6A5CC8683.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe](jarsigner.exe-25F594CAD13F3B833E2FD7A5B6DA32BC.md) | 58
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\policytool.exe](policytool.exe-3A729B1278E40B9496C51829C2BF1A26.md) | 60
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmiregistry.exe](rmiregistry.exe-457267F19E98514E55991A66650E25F3.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\schemagen.exe](schemagen.exe-7E205BB6E38608FDF1EABE3C43EEE44A.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-482229C18D9D28C423A4B93F3A3B99C1.md) | 58
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe](policytool.exe-E86C3045243C39EA196EB547BBE3C845.md) | 60
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe](rmiregistry.exe-737C1DCE9C428110E1DBA54B571A5B03.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 58
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\policytool.exe](policytool.exe-B3361507B9EC24799355B8C5B97505B8.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\rmiregistry.exe](rmiregistry.exe-EE9B42A4CF7692CC7F4C7C48685E9708.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\servertool.exe](servertool.exe-2DD6258EB5EA1F577129BAC139081CD3.md) | 60
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-110A1ED92CCF732B24175E84F5EE7E9D.md) | 40
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\idlj.exe](idlj.exe-3C984B60B64012CE20E398C6A5CC8683.md) | 63
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe](jarsigner.exe-25F594CAD13F3B833E2FD7A5B6DA32BC.md) | 58
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 63
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 61
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\policytool.exe](policytool.exe-3A729B1278E40B9496C51829C2BF1A26.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmiregistry.exe](rmiregistry.exe-457267F19E98514E55991A66650E25F3.md) | 61
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\schemagen.exe](schemagen.exe-7E205BB6E38608FDF1EABE3C43EEE44A.md) | 63
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-482229C18D9D28C423A4B93F3A3B99C1.md) | 58
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 61
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe](policytool.exe-E86C3045243C39EA196EB547BBE3C845.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe](rmiregistry.exe-737C1DCE9C428110E1DBA54B571A5B03.md) | 61
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 58
+[C:\program files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 61
+[C:\program files (x86)\Amazon Corretto\jre8\bin\policytool.exe](policytool.exe-B3361507B9EC24799355B8C5B97505B8.md) | 63
+[C:\program files (x86)\Amazon Corretto\jre8\bin\rmiregistry.exe](rmiregistry.exe-EE9B42A4CF7692CC7F4C7C48685E9708.md) | 63
+[C:\program files (x86)\Amazon Corretto\jre8\bin\servertool.exe](servertool.exe-2DD6258EB5EA1F577129BAC139081CD3.md) | 60
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-110A1ED92CCF732B24175E84F5EE7E9D.md) | 40
 
 
 

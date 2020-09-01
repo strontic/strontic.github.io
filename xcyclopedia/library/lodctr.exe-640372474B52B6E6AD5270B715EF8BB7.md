@@ -4,7 +4,7 @@ title: lodctr.exe | Load PerfMon Counters
 
 # lodctr.exe 
 
-* File Path: `C:\windows\SysWOW64\lodctr.exe`
+* File Path: `C:\Windows\SysWOW64\lodctr.exe`
 * Description: Load PerfMon Counters
 
 ## Hashes
@@ -65,6 +65,20 @@ Note: any arguments with spaces in the names must be enclosed within
 Double Quotation marks.
 
 ```
+
+### Child Processes:
+mmc.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\lodctr.exe |
+
 
 ## Signature
 

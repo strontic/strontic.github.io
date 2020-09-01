@@ -22,6 +22,16 @@ SHA384 | `13C818A36F99A5D2FDE8EF0029A9B9565034C840E26D29DF8BCCC26A7779A6FD57B8D8
 SHA512 | `F0B245DCA745A0BEA68ECE3AF0DC50E6297E74EB1048E1473D4F21EC0083328870CC30FA2123F7DF0C81200F117AD2B2396FB2729C42FFD0067BDFC77850933F`
 SSDEEP | `192:v+yb7VawP4AuNAiypZKqjRzbtceKVxQSiGqUTWf3W:v+yb7VIm9tbtceE6GqMWf3W`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bootcfg.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\bootim.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

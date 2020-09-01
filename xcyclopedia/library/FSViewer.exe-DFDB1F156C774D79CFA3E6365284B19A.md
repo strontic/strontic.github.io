@@ -4,7 +4,7 @@ title: FSViewer.exe | FastStone Image Viewer
 
 # FSViewer.exe 
 
-* File Path: `C:\Program Files (x86)\FastStone Image Viewer\FSViewer.exe`
+* File Path: `C:\program files (x86)\FastStone Image Viewer\FSViewer.exe`
 * Description: FastStone Image Viewer
 
 ## Hashes
@@ -18,9 +18,52 @@ SHA384 | `967B245CB4B852BC3149DD11DFD562615249E9D3737FB01141A750560FE8198427AE7F
 SHA512 | `C760E457AED6B373DA269A72B620F6EF4A22773C08930DD76FF049E8E6BC03AB91261AB1E108ED77CE8064E24EA2A9079C5E22BB5DDF45DD6B39AADD8EA10BB7`
 SSDEEP | `98304:FK56aAe1I/PzhF06Fd1iU//2V+L8Fz6MbuOOxUfigM:FyZ7I/TnX1iagu8FbuO4QHM`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\windows.storage.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\msvfw32.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\user\AppData\Roaming\FastStone\FSIV\FSViewer.db | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\28bcHWNDInterface:a30360 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\FastStone Image Viewer\FSViewer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\FastStone Image Viewer\FSViewer.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\FastStone Image Viewer\FSViewer.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

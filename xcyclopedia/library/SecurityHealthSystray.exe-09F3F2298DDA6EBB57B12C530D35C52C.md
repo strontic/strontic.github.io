@@ -4,7 +4,7 @@ title: SecurityHealthSystray.exe | Windows Security notification icon
 
 # SecurityHealthSystray.exe 
 
-* File Path: `C:\windows\system32\SecurityHealthSystray.exe`
+* File Path: `C:\Windows\system32\SecurityHealthSystray.exe`
 * Description: Windows Security notification icon
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `48F852164EF4747FCDDFF463034CAD33167E341D241536B122AE74FC8841C941`
 SHA384 | `6B0AA524C96521577EA0CC227EAF03D3F900F5E3E83AC9F0E1D13A73D508D0EAD5D3D414DF16464CAD5963B2E8201CBE`
 SHA512 | `D1491EA60863C8EE7C7961966E8332F0E26160BEC19731E7108B4CC3594BDA3E1C6102194765B80DF6F110938BD6BCCE91393DCCB16D62E986C389E37C243C81`
 SSDEEP | `768:Funf3GoSnuAWTAuU+PSLw18j3+igYAuIiSl5Fe3kkyGQyq3q90:ItSnyTAuk818aiSiSl5Fe3kk9Qyq3qq`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SecurityHealthSystray.exe |
+
 
 ## Signature
 

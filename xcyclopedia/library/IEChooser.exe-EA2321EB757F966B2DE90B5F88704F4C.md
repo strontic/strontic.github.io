@@ -18,6 +18,22 @@ SHA384 | `8E49FEF2F76E74CF1C48AABBE337DB792D585968E28C56B6DBD9B10F6D9BAB215F5A70
 SHA512 | `84E48E990632EAF864AD73CD15686EA72AD77BF36B3E627324FF4A7E0EB875851022D1F6D57539C31623F96E3456ABECD229A7665AE14952DEBF366EFBE0E3C7`
 SSDEEP | `3072:nkhjbJjgGOxPRebOuCksxTYZvvEIeT3xtRKxAhrSTMk9iVTRv21qaahQr:yjKPR9BMZvvEdTReAtSTMvVY1qa0Q`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\F12\IEChooser.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

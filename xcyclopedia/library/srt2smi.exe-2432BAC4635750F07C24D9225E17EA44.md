@@ -4,7 +4,7 @@ title: srt2smi.exe |
 
 # srt2smi.exe 
 
-* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\srt2smi.exe`
+* File Path: `C:\program files (x86)\GRETECH\GomPlayer\srt2smi.exe`
 
 ## Hashes
 
@@ -16,6 +16,19 @@ SHA256 | `9FBE14D5CDB855D2CF9477C3155603F128BE5B3AD326DC02D660F1CAB894A628`
 SHA384 | `8613CFEA6E7E720FE42EF8E0C457D7BECA8E3A80073E7A86B3A667FF3F6A810EF1A230E5EB9A136527A1DD8218FA9EEE`
 SHA512 | `7659B80A4FEE42785FE53EF61FC2960328251BFE9BB02D05D8C0B6A846842DAAEF36FAC0C1FD707830499F253F697B4AE71CFDDB2DE8EA48AAC75204290F6C2F`
 SSDEEP | `1536:4EM2BXRGWB/YzPKi55aziuoF4+L6fhiDjOfBrrr7BsmvhYcTsWjcdjzzyB/mJ:4j2hR2duzG++GcDOhsmvhGjzzyB/mJ`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\srt2smi.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

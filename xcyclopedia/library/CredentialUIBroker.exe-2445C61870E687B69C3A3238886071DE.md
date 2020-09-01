@@ -18,6 +18,34 @@ SHA384 | `34127E4C6BC98CA5F1B4C6F93E82436D961167D979CD247B0F3CBC187F54BA020DD4BB
 SHA512 | `2782CC9A3E5E957021D09CED0A985760F2AA7F26D1BD8D56A84D33D8D17FF1F7B9A8F7DCB2D87878C1BFAF3D604721A9D10A5BC762F6993781F27A29566CBD25`
 SSDEEP | `3072:faCt7OmCepV69VDw2mbL+GKRQVLa9PRuFnUotf7Gtg:BiwtKRsOvuBxf7Gm`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CredentialUIBroker.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

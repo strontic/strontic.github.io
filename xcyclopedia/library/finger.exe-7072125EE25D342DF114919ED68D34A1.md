@@ -4,7 +4,7 @@ title: finger.exe | TCPIP Finger Command
 
 # finger.exe 
 
-* File Path: `C:\windows\system32\finger.exe`
+* File Path: `C:\Windows\system32\finger.exe`
 * Description: TCPIP Finger Command
 
 ## Hashes
@@ -23,7 +23,7 @@ SSDEEP | `192:vT+V81sDF09kycvbhH+u6pePFkzCM0Mh08G9EQjNEwzru/aW60W:vT+VCUF09FcDdE
 ### Usage (stdout):
 ```Batchfile
 
-[Strontic5]
+[EC2AMAZ-0F59E47]
 
 ```
 
@@ -47,6 +47,14 @@ FINGER [-l] [user]@host [...]
 
 ### Child Processes:
 conhost.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\finger.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

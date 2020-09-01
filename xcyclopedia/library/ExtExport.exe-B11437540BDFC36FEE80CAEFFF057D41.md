@@ -4,7 +4,7 @@ title: ExtExport.exe | Internet Explorer ImpExp FF exporter
 
 # ExtExport.exe 
 
-* File Path: `C:\Program Files\Internet Explorer\ExtExport.exe`
+* File Path: `C:\program files\Internet Explorer\ExtExport.exe`
 * Description: Internet Explorer ImpExp FF exporter
 
 ## Hashes
@@ -17,6 +17,23 @@ SHA256 | `EDC454BCA93A7D41D193A59953BDE82766FC6874345A71BEA2A8C52E71D06E29`
 SHA384 | `38934CA37FEB702F3BA7D943E7EB49F36C1AC8A29462106D17E4AB447FD3A1440B949B308AF097366C0C70D166DD611C`
 SHA512 | `8BDCB574DBD83E805E101E325B081E1ABE19078ACF1679BF6167041476A1AFB4FE813B1B1F5D6DD6C97B4B1C2D659425232AE699DD26ABB7945B8F7AB0096433`
 SSDEEP | `1536:uMzsdDPVEPBLllUau56M+gQFafuVHVcCU+Mv3+3xbKZ/nMsQt1TZ/I8PScMI:uM4dDVEjlUau56M+gQ3HO7+Mv3+3xbKo`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Internet Explorer\ExtExport.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
 
 ## Signature
 
@@ -40,7 +57,7 @@ SSDEEP | `1536:uMzsdDPVEPBLllUau56M+gQFafuVHVcCU+Mv3+3xbKZ/nMsQt1TZ/I8PScMI:uM4d
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-3253FD643C51C133C3489A146781913B.md) | 38
+[C:\program files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-3253FD643C51C133C3489A146781913B.md) | 38
 
 ## Possible Misuse
 

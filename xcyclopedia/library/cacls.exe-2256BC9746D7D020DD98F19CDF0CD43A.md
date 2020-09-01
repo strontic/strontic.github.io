@@ -18,6 +18,17 @@ SHA384 | `973C66B43C5E98F0BC5F8901256B345437B3D89DD4DB0071F3090C43E73906D95A4610
 SHA512 | `EA1D2B1399E4B88BB6A42FF5B6993EE62B82064853168F558E1ECAA45301FEE80DAD38E7F7CE524024691CCCC4DF452E821E000286256BC1A6CDB2E400111D63`
 SSDEEP | `768:IlrI1DLRi1k0fw4zSR5EyPQEvOAnY2Ab2n/k:6re3Ri1k0FzSLEyPQ6bAb2n/`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cacls.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cacls.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

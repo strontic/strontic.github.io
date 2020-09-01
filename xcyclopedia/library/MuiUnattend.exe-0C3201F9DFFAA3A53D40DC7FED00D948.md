@@ -18,6 +18,16 @@ SHA384 | `71EB5DA9C5112A4273464FA916086CB79C99021E2142C9CA867746949FFEE4909B9236
 SHA512 | `E8422225833217BEED3C1A4176D2CC8E0C7CA0519C170EAAA2DCE6BFAE3433B3C4BE6F6ADB7FCD4CA6F56D51C2091C5FDDA315DE092347098EA2A94DEECC0442`
 SSDEEP | `1536:dLBbUEw5AAzBdmnjR06uzQvNJaI1Z3UxSFMx:ltaSAziR06uzgNJasf4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mtstocom.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\MuiUnattend.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,24 @@ SHA384 | `95792BDB09E77B03353413FA40ABF9FFD42B73EB040F15A65AADCA16BC9EB2FB13BC9D
 SHA512 | `2FDA5899591B0BBCA10F3ED8D571C31AA1D289C14C2A810A61724CB5D8945E5F3F8ABCC0758083D0443355F531D796F9EDC8D8A433C5B9E1C6CCFA5056D39CC5`
 SSDEEP | `12288:J48KacX21Y3wv8H7Sswjc4HpUymvkuvp9Hqf1gS8f6Q:J4tac6Ygv8bFwo4JIkuvu16fD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AuthHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\wintypes.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\autofmt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,30 @@ SHA384 | `852F421C1B5EAE97AA2E4875EEBFDF9C339C5165C059D670993A1FD7ED6B2FF8FCCD11
 SHA512 | `195E486776FE94499412803B08370CE0850CB9D1AB10033371E5DAD62B18A44EDE703C62B1B61113FFEC78C03DE1116BEADA6331496F8D5D7ACAB49FF81EC759`
 SSDEEP | `768:dQTeTembVs9iswcQXD6VUPko7K24l4rjgTGQnPevyJSNtP:CTkhs9+c3OPKrl4vg6mmvywtP`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\prevhost.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -17,6 +17,22 @@ SHA384 | `9448A49193C8E5CBDC6B52BB70853EDD0857E1357E309894B799E8D8AA07871ACC0901
 SHA512 | `B8832E18B99065CB5BF251BC93E944033FF5BC50EA68120383EA51075A47C0D65C3506E2BFCEAABCECCD8F0D7E407EEE8327311D9A3534A85B422E4354754549`
 SSDEEP | `768:QENcs7AUREojUerIG9HPLR4chodK5bYL6qEcloLgsP8VwcQJn97w9sGFeor:9nREojUerIG9xh75u6+TVwznF6TFeo`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\pospaymentsworker.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

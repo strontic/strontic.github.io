@@ -18,6 +18,15 @@ SHA384 | `97768D440CB0B5A0623CC0801887A6D4BB1F45E2574F2A4DF2FCFE4D0AB5633699B3BA
 SHA512 | `6C25C085E4781AA647D4DA1E6DC5471CD5C8B5902C1DA9AF2AABAA4351D14BDA9959C0489CB8C5E6A28E749FC12AC9CB61456AF520129E56700810B12442F22E`
 SSDEEP | `96:9aU1VX9UrGXoAij5xDWPToOgdlHRV/w/wNDOBAJUw0FBDJdMs2bKveLoEWyGyWwM:xXqIXTaprMcOBA10FRNmWjyWaBJ2L`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\systray.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\systray.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

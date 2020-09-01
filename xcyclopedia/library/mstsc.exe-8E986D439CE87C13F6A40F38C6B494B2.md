@@ -4,7 +4,7 @@ title: mstsc.exe | Remote Desktop Connection
 
 # mstsc.exe 
 
-* File Path: `C:\windows\SysWOW64\mstsc.exe`
+* File Path: `C:\Windows\SysWOW64\mstsc.exe`
 * Description: Remote Desktop Connection
 
 ## Screenshot
@@ -24,11 +24,28 @@ SHA384 | `997903A8FD1F8485424872DD6CDD774C3517222B936814ACA4AC763782367D645B2B57
 SHA512 | `C886956A861B5E07F834F16C70853856C989CBAB55FA5E6E8437AC159C61FA1B419906D9DA954FBEB57F456043FBCA5955AB00C08783717AB8EB0C31E94F4283`
 SSDEEP | `24576:rN0/uZQC57AknPDqr849hYeHmh9HunnB8bGGkN/2OotOFbLpwC5Krz7OikYv3hTa:CGZ/c31NOOqO9LpwCn0xfpMg1KLJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsSpellCheckingHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -109,7 +126,15 @@ To connect to a session in full-screen mode, type:
 ```
 mstsc /f
 ```
+or
+```
+mstsc /v:computer1 /f
+```
+To assign width/height, type:
 
+```
+mstsc /v:computer1 /w:1920 /h:1080
+```
 To open a file called *filename.rdp* for editing, type:
 
 ```

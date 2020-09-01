@@ -4,7 +4,7 @@ title: IMJPSET.EXE | Microsoft IME
 
 # IMJPSET.EXE 
 
-* File Path: `C:\windows\SysWOW64\IME\IMEJP\IMJPSET.EXE`
+* File Path: `C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE`
 * Description: Microsoft IME
 
 ## Screenshot
@@ -22,11 +22,42 @@ SHA384 | `E4BC2C231A6045CF44BB910D8455BFF50A41F6D3A01A0516A5CC6B0DA048B3AE5EB8A3
 SHA512 | `0887A9A4380C4B9A1931F56C08F977D4E5ECAF1439A81EDED5281BD1F9DBB6AFE1F9C733551C010832B815A85998A5C38A9B545330A4BE888032349B64B0184F`
 SSDEEP | `3072:7FM+PLmZPTAWFwymJVx+YhFWncWyy6aYYH67IkK2NLPcV2zu:hMxLbFwymr0YhsncWyy66mIkCP`
 
+## Runtime Data
+
+### Window Title:
+Settings for Microsoft IME
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -4,7 +4,7 @@ title: jjs.exe | OpenJDK Platform binary
 
 # jjs.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `09EEA7184228DEA857294B205E0E096E682AD3D17316FF8EB7332AB51D9BD5D6`
 SHA384 | `534D269CE43B47C3BE8D0A53AB0606A50FC16B0C48FDE8AF2ADF2E7616D39634C5A56A98FA1B164985C7F2B652C90E2D`
 SHA512 | `2092218FB933ABDC41A37D69AE3912A7ED1176202BD12E101C6A58E274D51EF456FE24793E5BF6B39430A43C62260B217702F4170317EAB242FAE0479B4F0EEA`
 SSDEEP | `384:Gpsu5BnqqGmSHhV8dKeeF4Sz8K6jSXayDgf2hv:GpsAnTS/8dXeF+KgaUf2hv`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -66,6 +68,17 @@ jjs [<options>] <files> [-- <arguments>]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -88,10 +101,10 @@ jjs [<options>] <files> [-- <arguments>]
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 86
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\jjs.exe](jjs.exe-F1EAC51F83F1299AD8072546BD948015.md) | 88
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 77
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 86
+[C:\program files (x86)\Amazon Corretto\jre8\bin\jjs.exe](jjs.exe-F1EAC51F83F1299AD8072546BD948015.md) | 88
+[C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe](ktab.exe-AB2485516E63BA82335DA60828829563.md) | 77
 
 
 

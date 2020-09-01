@@ -22,6 +22,31 @@ SHA384 | `B662505820F09FE8CD89BA83F7D40D4CAFCE8BBF2C97F798D308D25D0F3F5538588047
 SHA512 | `6AD1822773F8A7F993583710897222F84E6B2C2E5293021014A90D9E9CAEBC44776F7B26BF8E84F8EC6F7A5904E08A9E613B5941956FBAD33AE78BBF50AE11D4`
 SSDEEP | `3072:qvGygixsiq1fcWp1icKAArDZz4N9GhbkUNEk95r:uvKdp0yN90vE`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\system32\wextract.exe |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

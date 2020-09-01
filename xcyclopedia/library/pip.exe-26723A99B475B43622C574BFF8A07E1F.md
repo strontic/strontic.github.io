@@ -85,6 +85,16 @@ ERROR: unknown command "/?"
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\pingsender.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\Program Files (x86)\Python38-32\Scripts\pip.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
@@ -107,15 +117,21 @@ ERROR: unknown command "/?"
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
+[C:\program files (x86)\Python38-32\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
+[C:\program files (x86)\Python38-32\Scripts\easy_install.exe](easy_install.exe-32D5750EDA663A7BCF0773A1673DC088.md) | 97
 [C:\Program Files (x86)\Python38-32\Scripts\easy_install.exe](easy_install.exe-6CE7704025EA5A2B78583854868B924D.md) | 97
+[C:\program files (x86)\Python38-32\Scripts\easy_install-3.8.exe](easy_install-3.8.exe-32D5750EDA663A7BCF0773A1673DC088.md) | 97
 [C:\Program Files (x86)\Python38-32\Scripts\easy_install-3.8.exe](easy_install-3.8.exe-6CE7704025EA5A2B78583854868B924D.md) | 97
+[C:\program files (x86)\Python38-32\Scripts\pip.exe](pip.exe-4A17B3EEC62A2F1DB47D2C6927A7F506.md) | 97
 [C:\Program Files (x86)\Python38-32\Scripts\pip3.8.exe](pip3.8.exe-26723A99B475B43622C574BFF8A07E1F.md) | 100
+[C:\program files (x86)\Python38-32\Scripts\pip3.8.exe](pip3.8.exe-4A17B3EEC62A2F1DB47D2C6927A7F506.md) | 97
 [C:\Program Files (x86)\Python38-32\Scripts\pip3.exe](pip3.exe-26723A99B475B43622C574BFF8A07E1F.md) | 100
+[C:\program files (x86)\Python38-32\Scripts\pip3.exe](pip3.exe-4A17B3EEC62A2F1DB47D2C6927A7F506.md) | 97
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-5F06A8C118ED1CB5197DDC634133451B.md) | 24
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-C88E3C7B935D2ED8A4E53B78B53CB1D2.md) | 24
-[C:\Program Files\GIMP 2\lib\python2.7\site-packages\distlib\t32.exe](t32.exe-F9C699EB172F25C889BC79247E7FEB16.md) | 94
-[C:\Program Files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-AD95D8AB51B4991174DC9734C0F332ED.md) | 94
-[C:\Program Files\Python38\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
+[C:\program files\GIMP 2\lib\python2.7\site-packages\distlib\t32.exe](t32.exe-F9C699EB172F25C889BC79247E7FEB16.md) | 94
+[C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-AD95D8AB51B4991174DC9734C0F332ED.md) | 94
+[C:\program files\Python38\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 
 
 

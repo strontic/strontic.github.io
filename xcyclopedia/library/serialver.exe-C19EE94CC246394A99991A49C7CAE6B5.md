@@ -4,7 +4,7 @@ title: serialver.exe | OpenJDK Platform binary
 
 # serialver.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,12 +18,25 @@ SHA384 | `0FE827AA790FA83021DD7D877B6A8277FDF06031B52873F20598F6F479B19D623F61A6
 SHA512 | `63D94589CC068C94A247F8773D97758BAC1B31BA2B782E93493A187CBE6ABE61817C0BAF8EFC6E0D96323666ADAA6716055E7F4DD8F361481E6B4C90C166ED07`
 SSDEEP | `384:GpsF5hnnxTmSHhV8Rr4eeN4Sz1K6jSw0sYPDgf2hU:GpsVnES/8dNeNHKg3faUf2hU`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Invalid flag --help.
 use: serialver [-classpath classpath] [-show] [classname...]
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -47,8 +60,8 @@ use: serialver [-classpath classpath] [-show] [classname...]
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe](javac.exe-3A9578BFD3BB7869169BAC29E497AF55.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe](javac.exe-3A9578BFD3BB7869169BAC29E497AF55.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 66
 
 
 

@@ -18,6 +18,16 @@ SHA384 | `760102B92B01A4E905F0050AC3A330928FD054814CBBA5E1725AD1160CB8463480119E
 SHA512 | `DA0825A730BBE683A68D909028760DA3457101AA5960F38478197221D9E22BB97011ACAAE792D02954DA2B442754115C2793E76D4828BEDB681C1ACF9A74F185`
 SSDEEP | `1536:ucEa/PBKzedfKJRDIO4PVVVVVVVVVVV9myJkGievVsUfds:ucEanBKqsRcO4PVVVVVVVVVVVjJzJVu`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jmod.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +46,11 @@ SSDEEP | `1536:ucEa/PBKzedfKJRDIO4PVVVVVVVVVVV9myJkGievVsUfds:ucEanBKqsRcO4PVVVV
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\joinExe.exe](joinExe.exe-A3E36E5FCB24E7B0376AAC023A8697F7.md) | 90
 
 
 

@@ -20,6 +20,42 @@ SHA384 | `3B036C923F119C774A96B0D804C0E83E3B5A444B108A890F7CE122EE1BA09CD2B17AB3
 SHA512 | `660591BA71848B1CBF07F2EDC0237073A9F9B6C2C39758C3A4FCA8E4CB0FBFA4D071CF26D806FA5BA7674E04825E7FA9CC33EBFC24D185759563BADD55E06BE9`
 SSDEEP | `1536:0Ss3LCsBbu/1IMgAzxOEb0XpocwZANfyrNsPR9e8aqL8Ufj:0Ss3LpgNVg8OEb0Xpoc4Adyr+9eJq`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\system32\CLUSAPI.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\CPrepSrv.exe |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\CRYPTSP.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\HEALTHAPI.dll |
+C:\Windows\system32\IPHLPAPI.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\RESUTILS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\samcli.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\srvcli.dll |
+C:\Windows\system32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wevtapi.dll |
+C:\Windows\system32\WINNSI.DLL |
+C:\Windows\system32\WMICLNT.dll |
+C:\Windows\System32\WS2_32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -42,7 +78,9 @@ SSDEEP | `1536:0Ss3LCsBbu/1IMgAzxOEb0XpocwZANfyrNsPR9e8aqL8Ufj:0Ss3LpgNVg8OEb0Xp
 
 File | Score
 -- | --
+[C:\program files (x86)\Common Files\Zoom\Support\CptControl.exe](CptControl.exe-A2333C4253119E541FD5E5605C26DE5C.md) | 85
 [C:\Program Files (x86)\Zoom\bin\CptControl.exe](CptControl.exe-2D4D42DD047123F95098726A12AB4141.md) | 100
+[C:\program files (x86)\Zoom\bin\CptControl.exe](CptControl.exe-A2333C4253119E541FD5E5605C26DE5C.md) | 85
 
 
 

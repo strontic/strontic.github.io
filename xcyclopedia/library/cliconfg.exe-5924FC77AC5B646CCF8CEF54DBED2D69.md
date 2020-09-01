@@ -4,7 +4,7 @@ title: cliconfg.exe | SQL Client Configuration Utility EXE
 
 # cliconfg.exe 
 
-* File Path: `C:\windows\SysWOW64\cliconfg.exe`
+* File Path: `C:\Windows\SysWOW64\cliconfg.exe`
 * Description: SQL Client Configuration Utility EXE
 
 ## Screenshot
@@ -21,6 +21,39 @@ SHA256 | `656671D3874B77AABDFB3D1CC3B32703DA33DBE9E7711D645C4CC9C46E03C5D6`
 SHA384 | `0786BCC369D42FACA16682A16984F7DD987A1DC9FF48AE6FBC60239D675759B0F58F98E9E882A2911E843050D07C8653`
 SHA512 | `8A2E49BA0BA55DDB5D338C85C3B3AEF3FFCD52E03787B57FAF3429C24D55F87A912CA53418799EC8B7E88D92674CFA602348529BA682372200FFF090034AC751`
 SSDEEP | `384:9GwGobCwk/63JWPwWsPXuNvBQAMYJQ2JQSkdowyohy:9ir63OKuI30lJBkvTh`
+
+## Runtime Data
+
+### Window Title:
+SQL Server Client Network Utility
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\cliconfg.rll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1397_en-us_cabec5fe9b1c2b4c\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1397_en-us_cabec5fe9b1c2b4c | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_b4b37d196e75f95f | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cliconfg.exe |
+
 
 ## Signature
 

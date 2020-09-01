@@ -4,7 +4,7 @@ title: map-object.exe | GNU Image Manipulation Program Plug-In
 
 # map-object.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\map-object\map-object.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\map-object\map-object.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `9DFED0D70B8F7F4C764948E6C1295F8F2FC0CE8F7B11C20C2CCD7402A0C6EA77`
 SHA384 | `B75989401EEB310A92A3A5584EBB75BEAEA81A3005DE2B9EA368BE25E8AB515DED37F74B43F326A9A9AB69BE3D3C019E`
 SHA512 | `53034F8225411B9257AFCA76F3C1B01D18654A698A86C3D92AD159F716467214EFBE9F355A4391C4EBCE58DEE9F9ED3C41082C49A49F7A9AB853F06227376253`
 SSDEEP | `1536:s/4ZPFcwDoeD4PckQFpJb5Og72OJnDq4XdjYkhxFTG/m+68SaipiPWsai0WXi:s/2TickQFbb5OsxvYk1G/m+6tfmDeg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\map-object\map-object.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +62,7 @@ SSDEEP | `1536:s/4ZPFcwDoeD4PckQFpJb5Og72OJnDq4XdjYkhxFTG/m+68SaipiPWsai0WXi:s/2
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\guillotine\guillotine.exe](guillotine.exe-DEB46BA0D214D3A791C450AA6C3CA6D6.md) | 36
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\guillotine\guillotine.exe](guillotine.exe-DEB46BA0D214D3A791C450AA6C3CA6D6.md) | 36
 
 
 

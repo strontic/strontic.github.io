@@ -23,6 +23,14 @@ SSDEEP | `12288:kCbjxYLTpQ6UfE95JVIUMKvA5xaro9EDmrETUQLaiXJQDdD3MNN7Z:vjxYe6Ufk5
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RMActivate.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

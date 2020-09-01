@@ -4,7 +4,7 @@ title: gimp-console-2.10.exe | GNU Image Manipulation Program
 
 # gimp-console-2.10.exe 
 
-* File Path: `C:\Program Files\GIMP 2\bin\gimp-console-2.10.exe`
+* File Path: `C:\program files\GIMP 2\bin\gimp-console-2.10.exe`
 * Description: GNU Image Manipulation Program
 
 ## Hashes
@@ -60,8 +60,46 @@ Application Options:
 
 ```
 
+### Usage (stderr):
+```Batchfile
+
+(web-page.exe:5032): GLib-CRITICAL **: 15:07:24.239: g_io_channel_write_chars: assertion 'channel->is_writeable' failed
+
+(web-page.exe:5032): LibGimp-WARNING **: 15:07:24.239: web-page.exe: gimp_flush(): error
+
+(web-page.exe:5032): GLib-CRITICAL **: 15:07:24.239: g_io_channel_write_chars: assertion 'channel->is_writeable' failed
+
+(web-page.exe:5032): LibGimp-WARNING **: 15:07:24.239: web-page.exe: gimp_flush(): error
+
+```
+
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\GIMP4236.SHM | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\bin\gimp-console-2.10.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

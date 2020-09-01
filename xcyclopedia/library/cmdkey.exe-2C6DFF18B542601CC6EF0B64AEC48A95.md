@@ -4,7 +4,7 @@ title: cmdkey.exe | Credential Manager Command Line Utility
 
 # cmdkey.exe 
 
-* File Path: `C:\windows\system32\cmdkey.exe`
+* File Path: `C:\Windows\system32\cmdkey.exe`
 * Description: Credential Manager Command Line Utility
 
 ## Hashes
@@ -52,6 +52,14 @@ Examples:
      
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cmdkey.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

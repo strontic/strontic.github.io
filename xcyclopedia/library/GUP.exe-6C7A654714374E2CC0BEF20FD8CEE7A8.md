@@ -4,7 +4,7 @@ title: GUP.exe | WinGup for Notepad++
 
 # GUP.exe 
 
-* File Path: `C:\Program Files (x86)\Notepad++\updater\GUP.exe`
+* File Path: `C:\program files (x86)\Notepad++\updater\GUP.exe`
 * Description: WinGup for Notepad++
 
 ## Screenshot
@@ -24,8 +24,33 @@ SSDEEP | `12288:punghTI6t+YN23yqb/f4J0MfWU5g2AefHqDRnCkbe583f+gzTrqQh2MvOuj:4nR3
 
 ## Runtime Data
 
-### Child Processes:
-GUP.exe WerFault.exe
+### Window Title:
+GUP Command Argument Help
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Notepad++\updater\GUP.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

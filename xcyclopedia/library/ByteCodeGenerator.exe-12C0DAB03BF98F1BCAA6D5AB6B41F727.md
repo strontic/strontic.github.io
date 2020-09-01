@@ -4,7 +4,7 @@ title: ByteCodeGenerator.exe | AppX Deployment Bytecode Generator EXE
 
 # ByteCodeGenerator.exe 
 
-* File Path: `C:\windows\system32\ByteCodeGenerator.exe`
+* File Path: `C:\Windows\system32\ByteCodeGenerator.exe`
 * Description: AppX Deployment Bytecode Generator EXE
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `E2A97DA4EFD83513BD97010F00BCD746C9AC3F73ED0A6B9D398851AC59FC19CC`
 SHA384 | `76EF7BA2D17E95962C8BA73A44B45BB0BF6FB242BE1B32096287EFB4679A3842CBFD3CDEFD699F0EF938B2FDB79D6CC6`
 SHA512 | `CA667D163DDBFE266978E9EFB37642EF7259FC71023EDA2672A37CCE98B48E8FAC2AEC3B0AB883711609B82DFA46C323D867CA3BE70D22CA7CE56E992E79C35A`
 SSDEEP | `1536:OEqDOXp+O+vHDcU5EIfN8qhymeO0Fe8PfcI+:L4O+h6MDySQcn`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ByteCodeGenerator.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,25 @@ SHA384 | `7ED2C3D01C8EFB95F8B6605826B1C0FCD927FA6A952387ED0D3555FB9A5025ABE8A1EF
 SHA512 | `E0C6837FB84B4D0757FDA0022F9F6B21026D6F0E505DEBE7BFCD2F7BAD50B02A3829BD5920774A7B6DCAC6EFBE51855C6F907E778CBCE7A4B908F3F314BB7EE2`
 SSDEEP | `3072:u4/Tt39wnVS570M9kdatGCO+xmBc+hMPhPsx:TteVs7nyatGt+SYF`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\baaupdate.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

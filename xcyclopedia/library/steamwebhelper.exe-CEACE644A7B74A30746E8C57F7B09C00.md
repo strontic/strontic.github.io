@@ -23,6 +23,17 @@ SSDEEP | `98304:kpwNmn6MX74OpgW3B7ULD8yiSMUCgl7xJ4g5pMM:K6FOCWxUhj5v`
 ### Child Processes:
 steamwebhelper.exe WerFault.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Steam\SteamService.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

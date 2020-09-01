@@ -4,7 +4,7 @@ title: unins000.exe | Setup/Uninstall
 
 # unins000.exe 
 
-* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\unins000.exe`
+* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\unins000.exe`
 * Description: Setup/Uninstall
 
 ## Hashes
@@ -22,6 +22,33 @@ SSDEEP | `24576:wtdAm9DUi/CR3wCkCiRgoG7hBaHkbEXXeG/jFt5PQTx9p:wqTytRFk6ek1Py`
 
 ### Child Processes:
 _iu14D2N.tmp
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\netmsg.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Foxit Software\Foxit Reader\unins000.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,11 +72,12 @@ _iu14D2N.tmp
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Audacity\unins000.exe](unins000.exe-F8D560E2FD24B42A5E002847B7BDE527.md) | 86
-[C:\Program Files (x86)\MediaMonkey\unins000.exe](unins000.exe-2C6705FC6C700788F2A041A55E1FC6C7.md) | 90
-[C:\Program Files\Greenshot\unins000.exe](unins000.exe-D1A078992E232919EA834226AEA627A8.md) | 93
-[C:\Program Files\PeaZip\unins000.exe](unins000.exe-7119FB3DD7A59E147CF9F7BDAF9FF5F9.md) | 93
-[C:\Program Files\TeraCopy\unins000.exe](unins000.exe-27C1EE5D11DFDE7E96ED56174C432ACF.md) | 90
+[C:\program files (x86)\Audacity\unins000.exe](unins000.exe-F8D560E2FD24B42A5E002847B7BDE527.md) | 86
+[C:\program files (x86)\MediaMonkey\unins000.exe](unins000.exe-2C6705FC6C700788F2A041A55E1FC6C7.md) | 90
+[C:\program files (x86)\Spybot - Search & Destroy 2\unins000.exe](unins000.exe-71F68199C0F7D76ACB3B64A7EDC8DBE2.md) | 90
+[C:\program files\Greenshot\unins000.exe](unins000.exe-D1A078992E232919EA834226AEA627A8.md) | 93
+[C:\program files\PeaZip\unins000.exe](unins000.exe-7119FB3DD7A59E147CF9F7BDAF9FF5F9.md) | 93
+[C:\program files\TeraCopy\unins000.exe](unins000.exe-27C1EE5D11DFDE7E96ED56174C432ACF.md) | 90
 
 
 

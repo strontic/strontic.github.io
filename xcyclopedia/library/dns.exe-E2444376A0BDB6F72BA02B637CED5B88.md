@@ -18,6 +18,13 @@ SHA384 | `1A76E4BC1623FFB6D36998FDE4D1C219D77ED69BE965E027A2AFE9F21E696BF2885B4C
 SHA512 | `D32282AC3BE8500E061071EADF7546829AD871E097CF4A4FEACFA361883D478711D8F984D2E3BCAA7347E425E2A4D0210031B0701241FB8EEB82DD79CA3BC6C4`
 SSDEEP | `49152:j7gYLaYpTTKXvkvd1q69lS9aukO2m1h3Ft31lg9BPcPzxj84+IX:tpTTKXsv/q69vuh2YP9g9BUP+4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\dns.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

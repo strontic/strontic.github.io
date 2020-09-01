@@ -18,6 +18,16 @@ SHA384 | `3504DCD69A5C03BAF93665CA92ADE6240D9FAF9F09C05188FCB784BABFEB8C2D3D50E4
 SHA512 | `B78C47A539242EB7128F1C043F7133BD7799C69BB70D053A6788C2369BBCC235E1B020C9F92163AA4BC25C68FE0F62BF08F88439732A5522DD6EAA58077A0490`
 SSDEEP | `768:WnL6w6G3lZcX/TuSKCRTowakRunRJbSEln5IyYpamDjobj8S:A/18/TLOwaNnRDln5IUmDjoX`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\rundll32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\rundll32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

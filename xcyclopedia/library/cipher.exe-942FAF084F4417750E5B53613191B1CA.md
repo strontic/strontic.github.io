@@ -18,6 +18,13 @@ SHA384 | `40379B932B1E2B298F98BAEFCD896ACE6AB7594E5BB6F65012161A2007923DAFAB22F7
 SHA512 | `7132398AD91178D034760E9A72CA71E11AB059ED755DCA7FF09E78E60C718FE326A94995CFC3A27A1A307B8E357778EFB246DC8B6EF7350861CFDDEB4757A54A`
 SSDEEP | `768:Y8L6XOqJopbDmQAWTvIEA65SnVOX/HXrqRvATt8PRRTvo9WFW7e:Y8bqJ3EApuPXuRvATKpaEA7e`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\cipher.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

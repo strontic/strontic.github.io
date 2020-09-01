@@ -124,6 +124,13 @@ Note: Text (Naming Context names, server names, etc) with International or
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

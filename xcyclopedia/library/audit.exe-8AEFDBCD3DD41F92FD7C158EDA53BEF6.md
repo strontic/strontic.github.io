@@ -4,7 +4,7 @@ title: audit.exe | Audit
 
 # audit.exe 
 
-* File Path: `C:\windows\system32\oobe\audit.exe`
+* File Path: `C:\Windows\system32\oobe\audit.exe`
 * Description: Audit
 
 ## Hashes
@@ -20,14 +20,36 @@ SSDEEP | `1536:9rZ3vNrbQBU8aB9Xf7XSB7Oz8jmeBPNNrvrmRzM:9V/NroU8a7Xf7XSB7y+/JNlU`
 
 ## Runtime Data
 
-### Child Processes:
-cmd.exe
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\oobe\en-US\audit.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\Panther\UnattendGC\diagerr.xml | File
+(RW-)   C:\Windows\Panther\UnattendGC\diagwrn.xml | File
+(RW-)   C:\Windows\Panther\UnattendGC\setupact.log | File
+(RW-)   C:\Windows\Panther\UnattendGC\setuperr.log | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\SetupLogSection | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

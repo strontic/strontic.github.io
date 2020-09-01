@@ -4,7 +4,7 @@ title: TCPSVCS.EXE | TCP/IP Services Application
 
 # TCPSVCS.EXE 
 
-* File Path: `C:\windows\SysWOW64\TCPSVCS.EXE`
+* File Path: `C:\Windows\SysWOW64\TCPSVCS.EXE`
 * Description: TCP/IP Services Application
 
 ## Hashes
@@ -18,11 +18,24 @@ SHA384 | `B8070597F6926BFEC5206B1E2F1EF3B7FFF865A6F3B1C230145A946492F438C170B6C1
 SHA512 | `114D097595E3302B00698B8429F2758BDCBFC7F5DEB540C1C3A3134A89AAF8CCFC4C6AF8D19793E4ABC8B2459BC46C219110164FE2B3EA425BD8FAB61EFBED9D`
 SSDEEP | `192:EF0o+tFS+H3I3Ou4vt2bvCpeXL6//1PKcW5/Wh:EF0oe4+XaR412DCM6//QcW5/Wh`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\TCPSVCS.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

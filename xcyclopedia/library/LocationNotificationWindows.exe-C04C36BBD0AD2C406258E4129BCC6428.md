@@ -18,6 +18,24 @@ SHA384 | `385BDD53DF120A87E524559EFE0802DDAED2C258B930B3CF81AB48A6C49AE1A79BDCEF
 SHA512 | `FDD8B89B54E440E73AA5DD87605343D4A1B9B7D57B5A33AD14A7025D1F51D40DA2D6E938D9BA67767B5B43AB298836661F5B24D7F31667FE0CA4ADF030E92202`
 SSDEEP | `1536:hEq8W/W+B4Mm1dcrEwnLV6tYODEfLJDCYN0:ww4Muun5rtfFCu0`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LocationNotificationWindows.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

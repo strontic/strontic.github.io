@@ -18,6 +18,17 @@ SHA384 | `9A7F7D711F1EBAF5CE1A08A77943EAFCFF8A2078B99E710399907E7DDFAD6EB251861A
 SHA512 | `517F8F0DAF061AAE28AFDD2606854A30AFB12A92C192146B2839BCDF2EA518D251EAA85B4D159CB67DD4E7534EB5A4C116D1BDC157FA6C402D0EEC2418521DBC`
 SSDEEP | `12288:n+R8p4PptSXiRtfP68HJMbBLccXNSRLKmHYZbxwYlr:n+RzPptS2HiLccQLdYl5p`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Audacity\audacity.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `12288:n+R8p4PptSXiRtfP68HJMbBLccXNSRLKmHYZbxwYlr:n+RzPptS2HiLccQLdYl5p
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\audiodg.exe](audiodg.exe-50EC35782632F2924BB0C3E0318404ED.md) | 93
 
 ## Possible Misuse
 

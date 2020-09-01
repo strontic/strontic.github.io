@@ -36,6 +36,16 @@ SSDEEP | `49152:ZleWvsxXgsirVYXwiAP/P9TZ7krsuBhT1:AZakLBH`
 ### Child Processes:
 chrome.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InstallShield\setup.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

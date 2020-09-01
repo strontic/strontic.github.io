@@ -4,7 +4,7 @@ title: dcgpofix.exe | Microsoft (C) Default Group Policy Object Restore Utility
 
 # dcgpofix.exe 
 
-* File Path: `C:\windows\SysWOW64\dcgpofix.exe`
+* File Path: `C:\Windows\SysWOW64\dcgpofix.exe`
 * Description: Microsoft (C) Default Group Policy Object Restore Utility
 
 ## Hashes
@@ -39,6 +39,15 @@ Optional. Use this switch to enable this tool to ignore the schema version of  A
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\dcgpofix.exe |
+
 
 ## Signature
 

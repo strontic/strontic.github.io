@@ -18,6 +18,32 @@ SHA384 | `9FCFCA92FAF9A61D890BC8E9432C43B578D2DFD3E55FBD0AD1A762D3DF927AEF6D9BAE
 SHA512 | `202D224A2399F0F8FCE351C9842C4F2E7E0A9F9B124F693963347672653B9B5B754F2179313FBF073724FA9D85046996E5B69A25D36B60183097E96BD91E46DB`
 SSDEEP | `768:vTMdmQVbubIFRK5LWtWtEZobxFOQ1i1PgfqH:LFQVuIFA5LW8iobxMQ1yPu4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\system32\RMCLIENT.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\RuntimeBroker.exe |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

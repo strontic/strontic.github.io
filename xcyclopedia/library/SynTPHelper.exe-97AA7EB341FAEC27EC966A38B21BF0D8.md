@@ -18,6 +18,17 @@ SHA384 | `5917D59C6AD065F9577DDDC934F3B55D42B36A80CBB0A7930A768063DA4A104C87F423
 SHA512 | `90A7DB017759EF69A08B231E499FD9376DA8792C8E94E1240088D0D24AC396DA3E9AF0B26912ED576D2C05B1DBC2CA016BB2698F29E9FCC6100198C3B7C00E9C`
 SSDEEP | `3072:oL2zesLaguulYGr36TU9ysGdC7Z31SYEcI4Bid+SoreLJ2au9BCDWFuPs:oSzduVGr36TqnZ31SxYUdimdABdis`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncUIHandler.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: winrshost.exe | Host Process for WinRM's Remote Shell plugin
 
 # winrshost.exe 
 
-* File Path: `C:\windows\system32\winrshost.exe`
+* File Path: `C:\Windows\system32\winrshost.exe`
 * Description: Host Process for WinRM's Remote Shell plugin
 
 ## Hashes
@@ -22,6 +22,27 @@ SSDEEP | `384:bSI3EN4QWUXQ5RUaoerG0e3ZVSGhEngiWvwGkpIVCmv+7c3AECAWUwv5W00a8/gP:7
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC4A4 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

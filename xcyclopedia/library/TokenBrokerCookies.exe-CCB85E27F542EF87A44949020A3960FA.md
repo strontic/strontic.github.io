@@ -18,6 +18,26 @@ SHA384 | `330C42CE944A3E7E73C34E8900C8C687D67CB434278B89BF28C003B40CBF910DC4DA9C
 SHA512 | `192D3179E0DF918C424CA03EC71D8D31A1244B7FC81E35020C504F58C23BE04ED69B9D0987F4D347D170A93A8373242F7825034D6F1BB0E8C9B44B3BBB11E0EE`
 SSDEEP | `768:j+2iS/ZjH04PHqMvlDpTTe/juparcdhzAHUliQuZJMihBGRUNL:l7PHqMN0/jUarNHUl4MihBGRUB`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\TokenBrokerCookies.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WININET.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,17 @@ SHA384 | `2DAF313829C6D35ED4E62FF4ED33BEC44C478641978BE995A692AAA0800FF1DA81AC54
 SHA512 | `4289626B7BDD6A56A8FAC6502A2FB72C0E1FEBF41CF86A78319778A4FD2AC90BD5F2248E25B38A27CE82132CBEBC723B19427F88B423CDE07F3299260C8FA668`
 SSDEEP | `6144:o3pIP1ExRFuR+Uf/TUXdPVqzDOmiKrOSJQECeIn5Fd3t06Z3gTUL0s/AQDeP:w5A3TXz8Kr4qGvZwTCzT8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wbem\WmiPrvSE.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\WmiPrvSE.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

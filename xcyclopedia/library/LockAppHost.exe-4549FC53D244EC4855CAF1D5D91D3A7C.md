@@ -18,6 +18,33 @@ SHA384 | `23FC7F8AA36864068D0FFCB152D68766061F89384EAA6A950D969426D8ED779FE11AB3
 SHA512 | `8EDC38E3520EC471F5FAEDC6B4B4FB252A6700689096A2EFC84127D59ADF36208E8AB03E63AA56DDD8251B8F74C8FD504D9AD46D94FCFB6D6938DD20EDA5FF42`
 SSDEEP | `6144:5wcWpauxqq7xK8LPIg9cFVM7ObL5K3+VHcCy:5wPa5q7xK0PI6cFRAHCy`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LockAppHost.exe |
+C:\Windows\system32\LockHostingFramework.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHCORE.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

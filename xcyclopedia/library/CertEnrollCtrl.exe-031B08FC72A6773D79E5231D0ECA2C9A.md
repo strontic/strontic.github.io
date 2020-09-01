@@ -18,6 +18,36 @@ SHA384 | `D3C1BA0361731FBF99DD054978F8E5940009B39EE411BA5F5FCA5613340DCF7E76A824
 SHA512 | `FFCC55C9F4217A0A62FC33EA95711D4214693614E12F8FB6E9BFBEFF8FD29F37B8D3C418F7A00E55871AFE140781C58DAFAC61B4B52082A5C2F6DEF14A126AAC`
 SSDEEP | `768:zrLB44+MF3lUR5qiavKHjiPqqymtnY5xpI+wLUEvK9uwY+LmGZmRr9Ah:z3h3+RfHeSan6xpI+cVvFmZmRr9k`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\CertEnrollCtrl.exe.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CertEnrollCtrl.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

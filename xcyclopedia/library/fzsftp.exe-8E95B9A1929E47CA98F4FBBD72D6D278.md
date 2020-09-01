@@ -31,6 +31,16 @@ SSDEEP | `12288:MvGh0mGA3w7gdQps4hCCbg9Jsh0l5SoDUpgjNk:MvGUacRfbg9+GlIYUyjNk`
 ### Child Processes:
 MediaMonkey64Helper.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\FileZilla FTP Client\fzsftp.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -49,6 +59,11 @@ MediaMonkey64Helper.exe
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2004-2020 Tim Kosse,   1997-2019 Simon Tatham.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\FileZilla FTP Client\fzsftp.exe](fzsftp.exe-2F0C20CA380337C1B16C6C67BC73D117.md) | 91
 
 
 

@@ -4,7 +4,7 @@ title: ipconfig.exe | IP Configuration Utility
 
 # ipconfig.exe 
 
-* File Path: `C:\windows\SysWOW64\ipconfig.exe`
+* File Path: `C:\Windows\SysWOW64\ipconfig.exe`
 * Description: IP Configuration Utility
 
 ## Hashes
@@ -78,6 +78,17 @@ Examples:
                                          compartments
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ipconfig.exe |
+
 
 ## Signature
 

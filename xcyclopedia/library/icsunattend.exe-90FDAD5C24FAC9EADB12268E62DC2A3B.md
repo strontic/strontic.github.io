@@ -4,7 +4,7 @@ title: icsunattend.exe | ICS Unattend Utility
 
 # icsunattend.exe 
 
-* File Path: `C:\windows\SysWOW64\icsunattend.exe`
+* File Path: `C:\Windows\SysWOW64\icsunattend.exe`
 * Description: ICS Unattend Utility
 
 ## Hashes
@@ -18,11 +18,24 @@ SHA384 | `2A3EA92ED4C8617E505270125C2DE4244D8B31D36C29B840F476640D9E856298A18D26
 SHA512 | `8BD17E54922CB6283194776BE671FA3151653126558FBBCB156AA0ADAC89BF44964DC80F6EC705FAD8787D823C5C33DF19732D03482E49F4F45BB9BA5FB0222E`
 SSDEEP | `192:4hTXLdol9dJw9Z9mHbPraFZc7ZEKVQN2Nn1teDaufXDBakz3WNRWuH:4hzLNQbOFZc7ZTV6KeDaSBNz3WNRWQ`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\icsunattend.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

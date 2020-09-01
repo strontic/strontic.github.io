@@ -18,6 +18,17 @@ SHA384 | `FF631BAA71488E50FB872D91C47D78956A179CEA2E955E47B9857DAF24D829C6E8C495
 SHA512 | `586CCB9678556808E3E2930C5F4CAAD5058363366D84D133C1B733D9D9B6FE38D5C397A6D350E7F4711B9A6BB5D08E8479E2DCCC0530DA3A79E94F0BF84BF5C6`
 SSDEEP | `3072:X/CN6vRPAnyYmmhhtqPQMMaUvaJpoqrdNotXeaBo:PCNWqnrmoLpac8nrSB`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\TeamViewer\TeamViewer_Service.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\telnet.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

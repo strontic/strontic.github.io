@@ -4,7 +4,7 @@ title: RemotePosWorker.exe | Remote Pos Driver Worker
 
 # RemotePosWorker.exe 
 
-* File Path: `C:\windows\system32\RemotePosWorker.exe`
+* File Path: `C:\Windows\system32\RemotePosWorker.exe`
 * Description: Remote Pos Driver Worker
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `B1A25D53C302C3B4E7D6AFFBC309E67C3761E0D189B9FC1389E16C626EF8B09D`
 SHA384 | `05762764C12B3EBC61E4588C28C0AAFD68B6E66C25AB168F68DCF8D60D79C17B4380747C5C63E458610C467F75654492`
 SHA512 | `3773E459C9DA70D7DAEC812426AC01C6DAC4B2A067C0DAB6C1EA64CF2A2855ECB643E8F5A59CE29E3FEE7DD32529CE23641D68F2E2E34BF004E900F1D2414998`
 SSDEEP | `192:Yt9PydQJai6viLbkI4oN6BHevMqjsWPuzPCd4qigEXaRk3WF7W:YfydQJm6Leq6peviWWzPCFpRk3WF7W`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RemotePosWorker.exe |
+
 
 ## Signature
 

@@ -18,6 +18,13 @@ SHA384 | `14196114D016C55E7699B6F9948251F653E601968E4C5C4B2BEA7CA71291B5FC3DBB90
 SHA512 | `0E3DA743692623D223D69C0FC3F6339CAB0B7774392A337551387B65032A540B4D674CBC3012A2BAAEC10EE2CD74DE1F1CB75EF4024A24946C931215352FE161`
 SSDEEP | `384:CIhywDbAD93JLmiiVQypDQPelltZrFWGVuoW:Ry8AlhAVQy3llt/`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Com\comrepl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

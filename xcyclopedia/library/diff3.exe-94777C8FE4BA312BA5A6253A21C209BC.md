@@ -74,6 +74,16 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff3.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -92,6 +102,11 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff3.exe](diff3.exe-176C85055DC8F75969956CC0FB7109B7.md) | 96
 
 
 

@@ -18,6 +18,25 @@ SHA384 | `F802BA173658ADB0E06E6BEBB6DDF2F2D1332791CA16B52C42613008B41760E06AF137
 SHA512 | `74B331A3DCC31B27819D13FE220D2889F063C042244CDD6B479BCBDBC7D798930296799ADAC9464DF12D85BBC6CA209023F06930622B9293E913ABA5C0473CCD`
 SSDEEP | `768:GCnoO9VdMGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUX4:GCnHTdMxakkn6oYY0ewiP8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RunLegacyCPLElevated.exe |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\RunLegacyCPLElevated.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

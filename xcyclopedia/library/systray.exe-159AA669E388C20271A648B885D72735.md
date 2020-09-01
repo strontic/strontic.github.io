@@ -18,6 +18,14 @@ SHA384 | `402BCB566CC145704CD91F35EAE5F51564C2DE8655B0E237115F0A02ECD64A7BBF4971
 SHA512 | `AECA099206334ED5BA930DA6A14F17F0C1086368B60516155A383F3C1556C596FE9AF3F09DC51001CB67A80A374ACB5D5B984449BFCD68D14D29A5C2A488D88C`
 SSDEEP | `192:QsHzfPGcXV8amclepCjpx25Nw5w7p50wfOWjyWi:jHzNXVRKCnaG5w7F2WjyW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\SystemUWPLauncher.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\systray.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

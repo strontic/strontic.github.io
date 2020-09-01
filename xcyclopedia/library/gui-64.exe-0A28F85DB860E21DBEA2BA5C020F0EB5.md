@@ -17,11 +17,24 @@ SHA384 | `994C4FF1F6D358B38E705E3785B00D7C81348DD1FA7B5DA35DD993EE17569EA7A77095
 SHA512 | `746FB9C9BB720B7A733067C3317796A367F38A28322DDB02F7A89A0E70C519A9612C27C5BBF20E0574B10C9BC7FF5F38F2D3485AB9E0A9AE38A12735521D808E`
 SSDEEP | `1536:HpsuhGpr4+qQt4O/6LEmo1dFPo6O28E0PTBmf2iBQsdkRQ5WF8uW4rEpKu:HpsgozqC4O/jHxo6l0PTBuJBQbRQ5WFm`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui-64-script.pyw
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Python38\Lib\site-packages\setuptools\gui-32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,8 +58,9 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
-[C:\Program Files\Python38\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
+[C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui-64.exe](gui-64.exe-59C9EC38C2A420B5C5C55FC908C51084.md) | 96
+[C:\program files\Python38\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
 
 
 

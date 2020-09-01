@@ -4,7 +4,7 @@ title: file-tiff.exe | GNU Image Manipulation Program Plug-In
 
 # file-tiff.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-tiff\file-tiff.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-tiff\file-tiff.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `3499030923C4F7EB6623D6D0598A1E330346407971D8D6B0C1CC899C9E1F5D62`
 SHA384 | `37003948ED521E8970EE6C25AA80A2D107332A31117AAD5ABEF0B2AA2B44A99CFB17ECA2CA078E563B406806D2822907`
 SHA512 | `51D73C3C73024C45B50E6B246D96CF38CF21E6594B34EE0F05DD02A2AE6038CB9F391E8893F94726AAE52D73D7FC4B4DF2D977C92F982C6631ACD1713CE69726`
 SSDEEP | `1536:j/Q6jkFJD0apGoiI8tKAL6lPOn0JKRosdo8TS6G1kVZlurhhaipiPWCaiIWXiY:jxkJD0nftKAe1MI6G1kbluFhfmhWg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-tiff\file-tiff.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,10 +62,10 @@ SSDEEP | `1536:j/Q6jkFJD0apGoiI8tKAL6lPOn0JKRosdo8TS6G1kVZlurhhaipiPWCaiIWXiY:jx
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\edge-dog\edge-dog.exe](edge-dog.exe-86F1B3FE7C22B6D84D76E45074253FE4.md) | 40
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gegl\file-gegl.exe](file-gegl.exe-FCA71CAC6650C6A5B5CFF7A632E47523.md) | 38
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\jigsaw\jigsaw.exe](jigsaw.exe-C18C5A673D77AD1F5B84D892ABB754A5.md) | 36
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\web-page\web-page.exe](web-page.exe-F21B218127CDDE16A80CF5EC62E81E7F.md) | 36
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\edge-dog\edge-dog.exe](edge-dog.exe-86F1B3FE7C22B6D84D76E45074253FE4.md) | 40
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-gegl\file-gegl.exe](file-gegl.exe-FCA71CAC6650C6A5B5CFF7A632E47523.md) | 38
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\jigsaw\jigsaw.exe](jigsaw.exe-C18C5A673D77AD1F5B84D892ABB754A5.md) | 36
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\web-page\web-page.exe](web-page.exe-F21B218127CDDE16A80CF5EC62E81E7F.md) | 36
 
 
 

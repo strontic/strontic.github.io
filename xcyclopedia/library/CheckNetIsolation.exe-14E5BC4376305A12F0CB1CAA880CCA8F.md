@@ -4,7 +4,7 @@ title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
 
 # CheckNetIsolation.exe 
 
-* File Path: `C:\windows\SysWOW64\CheckNetIsolation.exe`
+* File Path: `C:\Windows\SysWOW64\CheckNetIsolation.exe`
 * Description: AppContainer Network Isolation Diagnostic Tool
 
 ## Hashes
@@ -40,14 +40,22 @@ Usage:
 
 ```
 
-### Child Processes:
-wordpad.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

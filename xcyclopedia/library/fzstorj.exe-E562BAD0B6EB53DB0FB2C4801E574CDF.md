@@ -28,6 +28,16 @@ SSDEEP | `12288:j7cGf2xP1vvVPIoMXr4TDxwW096yWRL79fq32nL1lAcQXcMsW9:j7c42xPvMUTDx
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\FileZilla FTP Client\fzstorj.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

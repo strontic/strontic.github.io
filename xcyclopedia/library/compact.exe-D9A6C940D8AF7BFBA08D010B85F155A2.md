@@ -4,7 +4,7 @@ title: compact.exe | File Compress Utility
 
 # compact.exe 
 
-* File Path: `C:\windows\SysWOW64\compact.exe`
+* File Path: `C:\Windows\SysWOW64\compact.exe`
 * Description: File Compress Utility
 
 ## Hashes
@@ -69,6 +69,13 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
   parameters.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

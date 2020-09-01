@@ -18,6 +18,17 @@ SHA384 | `A8AD1BC95EEACF2755FAB4023329FAAE5F043F1D5BB9FDCD897E473A2D5E81235C2583
 SHA512 | `54B6AC463C05CFA41AE4408FD1B81D9390506F55571B272941E91E100BADFFD39C3B037B1D75E0C2ADB6DD7E68283E283755FB98148FED142548909419BD6174`
 SSDEEP | `49152:ovTcGwwYTAGpHDu5MzM4gQvPbkj5pmTbzzDjXSHu:ovTvDYtpju5MI4gQumbN`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Steam\SteamService.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

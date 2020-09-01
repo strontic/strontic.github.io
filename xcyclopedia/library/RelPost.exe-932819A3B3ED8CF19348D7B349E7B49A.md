@@ -23,6 +23,13 @@ SSDEEP | `3072:T5MdLG2w7itD54IYKTODnePxCmtpaGyAuegPO8evTq2VA:dMA2XrOFnHFegEv+2V`
 ### Child Processes:
 RdpSa.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

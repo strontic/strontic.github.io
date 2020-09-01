@@ -4,7 +4,7 @@ title: diskraid.exe | DiskRAID
 
 # diskraid.exe 
 
-* File Path: `C:\windows\system32\diskraid.exe`
+* File Path: `C:\Windows\system32\diskraid.exe`
 * Description: DiskRAID
 
 ## Hashes
@@ -26,7 +26,7 @@ SSDEEP | `6144:39KZruydrGIPoaP1SLkWPEiBEo4SPujg:39K0ydKadPoEj`
 Microsoft DiskRAID version 10.0.17763.1
 
 Copyright (C) 2003-2013 Microsoft Corporation.
-On computer: Strontic5
+On computer: EC2AMAZ-0F59E47
 
 Usage:  DISKRAID [/? | [/s <script>] [/v]]
 
@@ -47,8 +47,14 @@ Examples:
 
 ```
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskraid.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

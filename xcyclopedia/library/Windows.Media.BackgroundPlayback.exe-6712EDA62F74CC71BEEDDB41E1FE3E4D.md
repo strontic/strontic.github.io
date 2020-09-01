@@ -18,6 +18,20 @@ SHA384 | `D385FDBF07B4D2A9D62A8DE904F2ACEEF0F11B030A325F25AE00D6FDCF4643D9358ADB
 SHA512 | `7B6612FA3404D952F2961012DB9EA7F798541663D0E6DF10FB2C2BCD6262273D9D10ED7C475672A3F3ED30C2AE43CD562054E6BC59C4D1A8AC2B9788A1C3573C`
 SSDEEP | `192:WMfv74WudkjM3SRM3qO4JD1hbX0HcWT5WLx28c:Wsz47dkjM9weHcWT5WLx28`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

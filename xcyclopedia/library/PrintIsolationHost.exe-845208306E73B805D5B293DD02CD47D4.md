@@ -4,7 +4,7 @@ title: PrintIsolationHost.exe | PrintIsolationHost
 
 # PrintIsolationHost.exe 
 
-* File Path: `C:\windows\system32\PrintIsolationHost.exe`
+* File Path: `C:\Windows\system32\PrintIsolationHost.exe`
 * Description: PrintIsolationHost
 
 ## Hashes
@@ -17,6 +17,51 @@ SHA256 | `F0D0591C4CD1A475ED985659B03D16C0FC772A82A7EFB643B8D94AE851B4A2B7`
 SHA384 | `2130ECECF18D51D211742884B51120C229AAAA8F7B4138F45BFBE3FC9252A66EFD8ED3C5D98C3123424AFF35F41CA432`
 SHA512 | `2F92B3C2944EE44DE92D5CE56289D0436C7D5C69B41D9808D626C441D3D7367967958BF3A4D14D0CF4FA80DC837F14B2307D989123CD7A085C0CC844A334293A`
 SSDEEP | `768:RRRK4KNDiSypfg7X195F8VasYdTItA3iQfMQnKnZA7t9G4qW4ne+S/ly+PKAoXRc:c4Eycz8Vt3A7HPd4n+lbeRZIbSQPT`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1228 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\system32\IPHLPAPI.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\PrintIsolationHost.exe |
+C:\Windows\system32\PrintIsolationProxy.dll |
+C:\Windows\system32\PROPSYS.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\winspool.drv |
+
 
 ## Signature
 

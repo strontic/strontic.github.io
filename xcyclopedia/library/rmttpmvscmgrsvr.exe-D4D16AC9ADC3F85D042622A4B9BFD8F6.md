@@ -4,7 +4,7 @@ title: rmttpmvscmgrsvr.exe | TPM Virtual Smart Card Manager DCOM Server
 
 # rmttpmvscmgrsvr.exe 
 
-* File Path: `C:\windows\system32\rmttpmvscmgrsvr.exe`
+* File Path: `C:\Windows\system32\rmttpmvscmgrsvr.exe`
 * Description: TPM Virtual Smart Card Manager DCOM Server
 
 ## Hashes
@@ -20,8 +20,23 @@ SSDEEP | `3072:LWmZBgGFCvMIU/Zl4Y8uMVhvmbPEzmTO:JXhWAl4Y8uMV9mwz`
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECE00 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

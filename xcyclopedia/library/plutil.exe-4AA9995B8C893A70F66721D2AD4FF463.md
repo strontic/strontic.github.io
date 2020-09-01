@@ -4,7 +4,7 @@ title: plutil.exe | defaults
 
 # plutil.exe 
 
-* File Path: `C:\Program Files\Common Files\Apple\Apple Application Support\plutil.exe`
+* File Path: `C:\program files\Common Files\Apple\Apple Application Support\plutil.exe`
 * Description: defaults
 
 ## Hashes
@@ -64,9 +64,19 @@ There are some additional optional arguments:
  -e extension	specify alternate extension for converted files
  -r		if writing JSON, output in human-readable form
  --		specifies that all further arguments are file names
-2020-08-15 15:00:12.925 plutil.exe[3400:43c0] Windows edition
+2020-08-30 15:04:28.396 plutil.exe[2392:1b0] Windows edition
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Apple Application Support\plutil.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

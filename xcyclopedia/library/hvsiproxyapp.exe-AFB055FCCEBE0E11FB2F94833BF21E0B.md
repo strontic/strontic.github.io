@@ -17,6 +17,26 @@ SHA384 | `FEA6BCBF93A77932FEB1AC73469539BC95575C44B98B2A3BEB402DE88C98DBF1732D4B
 SHA512 | `55AE8A72877D1B9CC011A3D6A4F35320E30AE35CB12B7B56250283526B429548A84C2B61B0A709DF12A10A1E2E202787F35F88075114584D72C754E7AC98E0E8`
 SSDEEP | `768:r4qDjPpbZpzwOV5gTOFI92T+TxZg5Ulcognow/77hEZbkYPTQ+w6UeWTH:kqxZNwqfHf1ognounhOwmQ+wmWTH`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\hvsiproxyapp.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WTSAPI32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

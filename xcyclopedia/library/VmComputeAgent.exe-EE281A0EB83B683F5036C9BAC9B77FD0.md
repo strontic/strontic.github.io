@@ -18,6 +18,26 @@ SHA384 | `478E469283DB6987E211F7B0B5E982C58C98ED91FAB243EDE693FC781272711BCF90B5
 SHA512 | `661ECC157E8618851DB7E866C8216C760260300D5979CEF25F1C56AA41566A81E50220BA57B73D1752747799AE65621C61C1D07A9AEC4D32F8F46B28E3E35990`
 SSDEEP | `24576:ISrGE5WhdOd278TQukVDumXmErIORhW+e/bMqK:ISrG2WhdOd278TQukImXhTe+OMqK`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\system32\container.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\VmComputeAgent.exe |
+C:\Windows\System32\WS2_32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

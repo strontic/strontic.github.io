@@ -18,6 +18,14 @@ SHA384 | `C185145167F3259B0959FF76DA2C812067EE26C42BE440A79B9253FCDE83BC08CE44D9
 SHA512 | `03D1A2BDB59260B535FCCE99AEA48C5581CBB28B10E4A54A4DC4304E011948107B11DA0B191D468FD7624114B12214750AF5EB37793CBEF5FEC1606AF2B3315F`
 SSDEEP | `384:ADmRVMYkYG2X7XloHb+RZs8U8Ff2iFzGqRLRevVW8vZzRiW:A7YkY6b+vbff2cBEvd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\secinit.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\secinit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

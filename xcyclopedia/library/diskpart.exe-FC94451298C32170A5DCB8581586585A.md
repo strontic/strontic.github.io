@@ -18,6 +18,16 @@ SHA384 | `BDE7179D1997E0C5E4F0CD7ADDBA98B9F6C75098AC05B2BB2D8C804DB2E355F0CFE8E4
 SHA512 | `F66DA5718C81D9583E93293E139B634F02C18F9C7769DB4FE26B0267678FCF5E8FA6ADC2D828C2CC5FADD12B457A9B5C26E69BC71017E9D8C9AB378A9F593333`
 SSDEEP | `3072:B5ZQNeX9dIhjA5OsSaLJO7hVPrwEv9mojoMDYSM+TYvmubR4E08VvALuWXCvRhiM:B5ceX9S+9hO7PDjfsSM+omuC5oAq1KRz`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\diskpart.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\diskpart.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

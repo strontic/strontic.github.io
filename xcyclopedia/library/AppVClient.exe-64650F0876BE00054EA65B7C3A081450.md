@@ -4,7 +4,7 @@ title: AppVClient.exe | Microsoft Application Virtualization Client Service
 
 # AppVClient.exe 
 
-* File Path: `C:\windows\system32\AppVClient.exe`
+* File Path: `C:\Windows\system32\AppVClient.exe`
 * Description: Microsoft Application Virtualization Client Service
 
 ## Hashes
@@ -18,11 +18,23 @@ SHA384 | `BE6EA327942ECD8DF49CCB3EC79D48FF36B45B5FD06FA0671931092F970FB244D5377C
 SHA512 | `B0A5E5DAB0DB46E142F3444E8D003F9D7BA11472CB2733CDEEF97297EAC8BB954A21F4B95C7190146508C0458B5DEF7A95A5EFA0A7CDB93350CB4D6B2ABB431C`
 SSDEEP | `12288:EA3NOjSfAJuWjHArR57r/zmCGNUbTNR0MXsJl:EA3uXJdHArR57rmMX0l`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\AppVClient.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

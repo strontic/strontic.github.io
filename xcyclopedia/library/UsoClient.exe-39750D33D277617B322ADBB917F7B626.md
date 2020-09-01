@@ -4,7 +4,7 @@ title: UsoClient.exe | UsoClient
 
 # UsoClient.exe 
 
-* File Path: `C:\windows\system32\UsoClient.exe`
+* File Path: `C:\Windows\system32\UsoClient.exe`
 * Description: UsoClient
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `FA47CCAF9B39943E3D2053FF058D7AE05A4674B322886A57CEC5D2628F581A34CCD730
 SHA512 | `DFA9CA745519208C31F6DD2E55730854FF12AD11CCCCD7721A562CCE79B248E2C82CBC35AB0BC3E20B8D12B2D4997BFD830F2875B0EAC751160DD875079BF91D`
 SSDEEP | `768:VHXH+s5pISHJdZw5aMzPCQj6tx4/bp96oPapcwNYQM+Zb0honK6gc:V3lpIcwXzPCQyUb7apcwNdM+ZohoK6gc`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\UsoClient.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

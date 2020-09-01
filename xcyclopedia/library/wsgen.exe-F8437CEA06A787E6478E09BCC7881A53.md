@@ -4,7 +4,7 @@ title: wsgen.exe | OpenJDK Platform binary
 
 # wsgen.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -69,6 +69,17 @@ Examples:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -91,8 +102,8 @@ Examples:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jmap.exe](jmap.exe-81D3ACB320CE4324DBD75A746B210E6B.md) | 61
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jmap.exe](jmap.exe-81D3ACB320CE4324DBD75A746B210E6B.md) | 61
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 71
 
 
 

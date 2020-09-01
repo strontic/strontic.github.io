@@ -4,7 +4,7 @@ title: mountvol.exe | Mount Volume Utility
 
 # mountvol.exe 
 
-* File Path: `C:\windows\system32\mountvol.exe`
+* File Path: `C:\Windows\system32\mountvol.exe`
 * Description: Mount Volume Utility
 
 ## Hashes
@@ -49,20 +49,18 @@ MOUNTVOL /E
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{6d558d97-0000-0000-0000-100000000000}\
-        *** NO MOUNT POINTS ***
-
-    \\?\Volume{46ca768d-0000-0000-0000-010000000000}\
-        D:\
-
-    \\?\Volume{6d558d97-0000-0000-0000-501f00000000}\
+    \\?\Volume{77d2a80b-0000-0000-0000-100000000000}\
         C:\
-
-    \\?\Volume{126fc1f0-bb3b-11ea-969f-806e6f6e6963}\
-        E:\
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

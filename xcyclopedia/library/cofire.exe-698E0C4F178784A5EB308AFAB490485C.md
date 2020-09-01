@@ -4,7 +4,7 @@ title: cofire.exe | Corrupted File Recovery Client
 
 # cofire.exe 
 
-* File Path: `C:\windows\system32\cofire.exe`
+* File Path: `C:\Windows\system32\cofire.exe`
 * Description: Corrupted File Recovery Client
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `A99ACDFC69C9A7C3E027A9BEC724D3C366D3FC52429BF6E2C1FFC8156BEB7D75`
 SHA384 | `4CE8D7962CDEBD7355D772AA2B974F8C328199DE922F5C83C5269BB7A880FA7C1B1E392FBEA3171DDF763AE5D4A56B5B`
 SHA512 | `B8421C17813AC5837D6818CC063E8BC9DDBD26E720224EC2F72510C149A082C9E50C63C0567766B8C60715B101BCDF879906FCE9C82BDDA8419968F8B3019736`
 SSDEEP | `384:hM7fEoW34+EjLflv0Ipr3VqeoZ/7R4/RMP3OtmV7RGWvJW:hCfEX3yLflvpNlmx+tmX3`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cofire.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

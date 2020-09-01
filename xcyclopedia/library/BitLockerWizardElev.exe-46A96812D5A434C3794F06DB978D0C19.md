@@ -4,7 +4,7 @@ title: BitLockerWizardElev.exe | BitLocker Drive Encryption Wizard
 
 # BitLockerWizardElev.exe 
 
-* File Path: `C:\windows\system32\BitLockerWizardElev.exe`
+* File Path: `C:\Windows\system32\BitLockerWizardElev.exe`
 * Description: BitLocker Drive Encryption Wizard
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `103078B84013B55F8CFDB5A89973F1930CF50AEF7D0C22DABAA9AC6BED967D5E`
 SHA384 | `A1BC153241D3A307BA18522DD4D8C1CEE947836CB7F7C48A224353E1C617C48C35287EA1AF8FBF9B4809D1A4B3ADF95F`
 SHA512 | `D4385F85D892801CBF61DC4B55FF17DB31C6AF7678CC95B9C39D329BCCDC0C9A3576A7C8CE7C3685C513DD50901DCE98D80D7D8621D0DC1BA003D9B5A25B5B17`
 SSDEEP | `3072:1AgMFwnVS570M9kdatGCO+xmBc+hMPhPsx:+g1Vs7nyatGt+SYF`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -39,11 +41,73 @@ Bitlocker Wizard Launcher
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\BDEHDCFGLIB.dll |
+C:\Windows\system32\BDEUI.dll |
+C:\Windows\system32\BitLockerWizardElev.exe |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dsreg.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\FVEAPI.dll |
+C:\Windows\system32\FVECERTS.dll |
+C:\Windows\system32\FVESKYBACKUP.dll |
+C:\Windows\system32\FVEUI.dll |
+C:\Windows\system32\FVEWIZ.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\NETAPI32.dll |
+C:\Windows\system32\NETUTILS.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\ReAgent.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\system32\VSSAPI.DLL |
+C:\Windows\system32\VssTrace.DLL |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\system32\WKSCLI.DLL |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

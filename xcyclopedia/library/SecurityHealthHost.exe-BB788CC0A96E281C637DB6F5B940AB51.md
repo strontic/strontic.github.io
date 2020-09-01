@@ -18,6 +18,22 @@ SHA384 | `011E68E8E302F665E5020C06B5B0E597A3C6D5250C062093A80D7D51EB11A9EE2FC45A
 SHA512 | `396F49ED0F4B79F2772BC8F887321D592E17F578B1643EDBFA0F3C2A5541F997099820E6B878E9804C5D7DD74AFF9B7021F8FF3635BBFD897E845BC6464552CE`
 SSDEEP | `1536:Yu0wgYqF9lKOc6Xi073JYP9TZTG3QrgBiTQGmCvtTJn+wRZmMveGxUwp6vPE:0w3OrX73JYP99S3Qrg4sGmCvtNn+wRZD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\SecurityHealthHost.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WINTRUST.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

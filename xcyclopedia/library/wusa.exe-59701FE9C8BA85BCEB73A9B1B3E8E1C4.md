@@ -4,7 +4,7 @@ title: wusa.exe | Windows Update Standalone Installer
 
 # wusa.exe 
 
-* File Path: `C:\windows\system32\wusa.exe`
+* File Path: `C:\Windows\system32\wusa.exe`
 * Description: Windows Update Standalone Installer
 
 ## Screenshot
@@ -21,6 +21,52 @@ SHA256 | `E0438C5594A4EEB8515518989EE3A773581F414273B857B885D2201F66A95B06`
 SHA384 | `8CF139BA0B9ADF180448ED29660BCE78D19D6BB8FE55CF52104CD5C83B1FB8FC3D9FE61364A3C80D39D765B13E55CC39`
 SHA512 | `197279F4F762D2746E5D67FEC5B94CD569647B9BEB79B0A6069C20A1D4C2DD36808F8B546CD8F0E7E515D744F05654D9D704C3FBD8ECA951F6B4A8E16BAB8C8A`
 SSDEEP | `3072:SjomFcaF4iHSd5bqcoENXK6JRAqs4xjw8m1IRpR9/BRMp3cKAArDZz4N9GhbkUNJ:Sj9FjuiebqcoMHxM8cg9wpxyN90vE`
+
+## Runtime Data
+
+### Window Title:
+Windows Update Standalone Installer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\wusa.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\wusa.exe |
+
 
 ## Signature
 

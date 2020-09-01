@@ -18,6 +18,55 @@ SHA384 | `ABF484EE1C9A2F9DED60E64EDAB4F89B05003C567B273B6D0D346CEDF6FA38F07B8560
 SHA512 | `8EC507502BC44DB80A8CA3745B7FBA625A9B9E61D8519B724A4138DD4877AFCEEFB44F7E2EED0D33FEFABBF721FE2091DC55E7E8F247432C28AD010A81B971A6`
 SSDEEP | `6144:oEVfyJw2fggMDFXb3uWeA3g6ZKhWYs07/Nts9LbWrzkdY5j4VppD+QFKQ0N4PkeN:oiyJKnDF5e2KhvsQW+5YppDT0NHFC`
 
+## Runtime Data
+
+### Window Title:
+Magnifier
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
+(R-D)   C:\Windows\System32\en-US\combase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Magnify.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\UIAutomationCore.dll.mui | File
+(R-D)   C:\Windows\SystemResources\Magnify.exe.mun | File
+(R-D)   C:\Windows\SysWOW64\en-US\windows.ui.xaml.dll.mui | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\12acHWNDInterface:790336 | Section
+\Sessions\1\BaseNamedObjects\12acHWNDInterface:c60990 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\Magnify.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

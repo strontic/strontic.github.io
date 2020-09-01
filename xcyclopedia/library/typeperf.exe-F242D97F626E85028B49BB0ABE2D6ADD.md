@@ -18,6 +18,13 @@ SHA384 | `AE65A39180221BC84973C715E014081E5B5AD1A3536D751164007628A4C3A75718B6DB
 SHA512 | `A595C004E74F03904610E6584F3BE0C194EDEF28E81BBEE67A124A4D8BE1D524C9D49220F252F8F0F13393778C98E80D044D47FC603B119264260301B0E78836`
 SSDEEP | `768:OrezRE0dPDcjADsLkgF8fnkOh+BmqqmfdNMO/2O+/ooaTnHuYOXcCb:OL05gEIL2Pv0QqqoUS2OcaTnOYscC`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\typeperf.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

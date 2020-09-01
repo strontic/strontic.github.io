@@ -4,7 +4,7 @@ title: msdt.exe | Diagnostics Troubleshooting Wizard
 
 # msdt.exe 
 
-* File Path: `C:\windows\SysWOW64\msdt.exe`
+* File Path: `C:\Windows\SysWOW64\msdt.exe`
 * Description: Diagnostics Troubleshooting Wizard
 
 ## Screenshot
@@ -21,6 +21,42 @@ SHA256 | `1BE8AFD2962596807611E6A8836952D6BBDC24BDE52A34905006FF78F1AD5D12`
 SHA384 | `50B0CCE6BCB2F7489B7CBE74625E15CF2F9A6AC66885EE68C538CE3AA57522F7BAB842087ACA56642177A919BF6505E0`
 SHA512 | `88E41AE4A7D82BD885FBD6619541B5D7558BADB6AA683CB4B7CA702A6283353C3C936C8E6BE3C9AB7AC43727135A690C245C9945D1AF5775736D4B5DF1948E33`
 SSDEEP | `24576:PZMSufiUbtkQw03V3hfi6XH4qvIReK1odddGdBnyE0k26kVZnBm4F:GLw03wqNK7utRB`
+
+## Runtime Data
+
+### Window Title:
+An error occurred
+
+### Open Handles:
+
+Path | Type
+-- | --
+(---)   C:\Users\ADMINI~1\AppData\Local\Temp\2\msdtadmin\_4D8572ED-5D63-44C8-81FE-D8B72A7A706A_\inuse | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\msdt.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msdt.exe |
+
 
 ## Signature
 

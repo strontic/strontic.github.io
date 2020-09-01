@@ -24,6 +24,17 @@ SHA384 | `F00D62D439E0179E721E4E04AB0748D5DAC87F450ECE16E05DFC54A02CE965D947F089
 SHA512 | `1AD2BB85950ACFA8DC7A80A51199956765F5FE9C3C95F3216ED84D2D36577644E380402C8CD9C287A60F177B58EAA177894A5569696ECD7ED12119B463B3DDFB`
 SSDEEP | `192:+RFuZKVKXWpbTmbGnBnvwO+EbGZ10FPsBW/GWZ:gdwXWBmeD/bGAdaW/GWZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InfDefaultInstall.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\InfDefaultInstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

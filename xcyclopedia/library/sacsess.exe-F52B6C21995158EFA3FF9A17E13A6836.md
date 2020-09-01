@@ -4,7 +4,7 @@ title: sacsess.exe | Microsoft SAC Service Helper
 
 # sacsess.exe 
 
-* File Path: `C:\windows\system32\sacsess.exe`
+* File Path: `C:\Windows\system32\sacsess.exe`
 * Description: Microsoft SAC Service Helper
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `4BCC833D4262AB483DA3273D4AF1F86CDD7C43EA7B41580DD53958E6287CD6B7`
 SHA384 | `EF3AD01FBE4FB5B1B34C53CD2391667B4FC5DD6AB1F07D7D9282F24C656DE4F9F49F257C53DD8A981D3BEBDEDF1F6E64`
 SHA512 | `935890756FC7E1EE2152CD836C36D3C85550B965B1D0E3908440413F9C42083C25A9D98116689172F1258683CFC8F0690595CEBCDD9823B1F4E6263DD891DAE0`
 SSDEEP | `768:bQPZHEsRCImDih+xVUhCfvVUPYi/1QSvklt0xuZ81c:0hNRPh+xtVUPYM6axuZQc`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sacsess.exe |
+
 
 ## Signature
 

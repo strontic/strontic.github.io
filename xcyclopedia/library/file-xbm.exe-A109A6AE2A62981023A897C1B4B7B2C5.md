@@ -4,7 +4,7 @@ title: file-xbm.exe | GNU Image Manipulation Program Plug-In
 
 # file-xbm.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-xbm\file-xbm.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-xbm\file-xbm.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `A00ED9098F98B36174FD16A9BA18258A7B794D2AD4AB862D1D04EA17BAA1808D`
 SHA384 | `B436E527644B41FD500365AA54E09304DCE0BC499CBBFBB07EDDC03C4B0D11AC20435E027590C0630CAC7A3BC7D70300`
 SHA512 | `FA9C2D1431013E4F3D92A400C12C5E3A54BB275769781C28D0632139DCC25574742E3A075F0DCB5E9D156B1DBD8A2A2A4E603DDD2044AE642108E218E11C883A`
 SSDEEP | `3072:dBRKJdhwb1AdtvwWudMnGaB8O4929G/OVSmHmfmoXgX:dBPx2nGYe2IGVFH9W0`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-xbm\file-xbm.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

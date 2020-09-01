@@ -18,6 +18,34 @@ SHA384 | `65EE8FABADA77E932C3C90571805633D66F0791108002A36D15B8213AC046F0A9D8436
 SHA512 | `15647E24AE0BAA1B5DE8FC73CD1659F8B1EBEC1C26D406ED38C2AE01153A7CC6D5A82627EDCCBE8C97124128E1F16764F8C7825140359D8362EC4F121530E570`
 SSDEEP | `768:PAf5kGdKloyyfUJILglNIJiy5xd6RRPmbixum:YfIKLgGIH+ixum`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\edpnotify.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: unins000.exe | Setup/Uninstall
 
 # unins000.exe 
 
-* File Path: `C:\Program Files\GIMP 2\uninst\unins000.exe`
+* File Path: `C:\program files\GIMP 2\uninst\unins000.exe`
 * Description: Setup/Uninstall
 * Comments: This installation was built with Inno Setup.
 
@@ -24,6 +24,34 @@ SSDEEP | `49152:HR/KpmZubPf2S8W2ILeWl+C1p9jWy5Snd0eigXN:x/jtYLP1Sy5E0`
 
 ### Child Processes:
 _iu14D2N.tmp
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\netmsg.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\uninst\unins000.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -47,7 +75,8 @@ _iu14D2N.tmp
 
 File | Score
 -- | --
-[C:\Program Files (x86)\WinSCP\unins000.exe](unins000.exe-6AE472CF11968C09BBD88DE10C91F4ED.md) | 83
+[C:\program files (x86)\WinSCP\unins000.exe](unins000.exe-6AE472CF11968C09BBD88DE10C91F4ED.md) | 83
+[C:\program files\Microsoft VS Code\unins000.exe](unins000.exe-30F9E0633397507EB900C8593FAC704F.md) | 100
 [C:\Program Files\Microsoft VS Code\unins000.exe](unins000.exe-9318C883BC05C372FF9475692414D712.md) | 97
 
 

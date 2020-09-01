@@ -4,7 +4,7 @@ title: DropboxUninstaller.exe | Dropbox 104.4.175 Installer
 
 # DropboxUninstaller.exe 
 
-* File Path: `C:\Program Files (x86)\Dropbox\Client\DropboxUninstaller.exe`
+* File Path: `C:\program files (x86)\Dropbox\Client\DropboxUninstaller.exe`
 * Description: Dropbox 104.4.175 Installer
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `1536:5cMzZHKpC/f3n0iPKJmq7PnFdp2YTfyE+/8OAawGCr5DehBWZGyKT:hzZqY30iiJm
 
 ### Child Processes:
 Au_.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Client\DropboxUninstaller.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

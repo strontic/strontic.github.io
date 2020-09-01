@@ -4,7 +4,7 @@ title: dfrgui.exe | Microsoft Drive Optimizer
 
 # dfrgui.exe 
 
-* File Path: `C:\windows\system32\dfrgui.exe`
+* File Path: `C:\Windows\system32\dfrgui.exe`
 * Description: Microsoft Drive Optimizer
 
 ## Screenshot
@@ -21,6 +21,42 @@ SHA256 | `9487BAB1AD799898C56F328FD74D92A99E8FE9983B33D5E60A70C58069310D60`
 SHA384 | `5DC264C8B257093FA7DF63549D04ED2B29BBB56D213908604644D5CCA73AC60C6474E8AFE77B1B7D47DC7C066C689730`
 SHA512 | `0B55FC0CCF859D80EEAE771D2CBAC4920931E0964A0A2B0DE3CCE8F552A2BC1A3F8BA1A90361BA880F04446DCFA2072FF48511B8F9AEECDF71A8A0CCC2D01B63`
 SSDEEP | `12288:P393ZejWw8Xd3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx7:Pp4XWd3/kRc4l6g6gtPbcHn7q`
+
+## Runtime Data
+
+### Window Title:
+Optimize Drives
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\DfrgUI.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000004.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSEC1558 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dfrgui.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

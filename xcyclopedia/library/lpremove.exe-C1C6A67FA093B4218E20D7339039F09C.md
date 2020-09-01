@@ -4,7 +4,7 @@ title: lpremove.exe | MUI Language pack cleanup
 
 # lpremove.exe 
 
-* File Path: `C:\windows\system32\lpremove.exe`
+* File Path: `C:\Windows\system32\lpremove.exe`
 * Description: MUI Language pack cleanup
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `9D38684523CCB4E0BC00F4D45350B3E34CA43B106B8E5D635D308880AFC56012208B0C
 SHA512 | `CBF7E71C910D0C497AA06F9A6EB805FD5BC35CC958112742AE0C012439381B8CA64FABD8D25B6280E210111D06A195B64C4B18A81C5378FF5EA801E1615481A7`
 SSDEEP | `768:q67S3bre0GmpYMzKxFPhdMc4hID8bcoICZDMYDfUbcTv43bLTCXDp6rm08:q67L0Gm2bBQECVZDfUb1bfCXDp6rm08`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\lpremove.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

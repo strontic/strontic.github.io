@@ -4,7 +4,7 @@ title: rasautou.exe | Remote Access Dialer
 
 # rasautou.exe 
 
-* File Path: `C:\windows\system32\rasautou.exe`
+* File Path: `C:\Windows\system32\rasautou.exe`
 * Description: Remote Access Dialer
 
 ## Hashes
@@ -25,6 +25,13 @@ SSDEEP | `384:/v5URAsJftvOTs27O++QETwRLRxkWMBW:XFSt4Y+bfx6`
 Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

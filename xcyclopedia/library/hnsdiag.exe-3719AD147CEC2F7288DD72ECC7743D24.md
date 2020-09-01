@@ -18,6 +18,8 @@ SHA384 | `65BC6D0DC2C7A01103A591A262E663160770E03B466A97369A8434C0D94F433E1D2EAD
 SHA512 | `8B530889DE397BCE7D7AE09AB13822C22C90EE6A7CA919DC9F701A26E032FD8890FA2FEA057E46DAC67473A76AFA9B3F69327AD89664641294452EFC8AE7E728`
 SSDEEP | `1536:zbWUCXlO29XoIhJ0TbwJZHkNsb+fGFsRT0GYxFKTkk/gjFK1uGSLzqoz4Qkor:bCNXo7bw/8+FmuC/gpK1T4zqjQX`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -46,6 +48,17 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 	  Specifting 'l' will additionally give the object in the latest schema version.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\hh.exe |
+
 
 ## Signature
 

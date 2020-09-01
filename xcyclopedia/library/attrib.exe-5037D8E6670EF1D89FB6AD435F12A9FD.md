@@ -51,6 +51,19 @@ ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [+O | -O] [+I | -I] [+X | -X] [+P
 
 ```
 
+### Child Processes:
+RdpSa.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\attrib.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

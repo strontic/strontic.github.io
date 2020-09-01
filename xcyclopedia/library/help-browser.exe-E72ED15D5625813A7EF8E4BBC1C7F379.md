@@ -4,7 +4,7 @@ title: help-browser.exe | GNU Image Manipulation Program Plug-In
 
 # help-browser.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\help-browser\help-browser.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\help-browser\help-browser.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `5408B6195D64D181239B3ACE47C4E3139C09676200C261B9943FE9636F762B94`
 SHA384 | `9CCF035745496B26B5D8B4064012E7FF86F617F712D6601870ED89460AD1BA5E03D33589039076E3F6E4B831707A1CA2`
 SHA512 | `B9B787784935AA3FDDCBE30E0C71A288520723EE6CFBC8FEE3634883D469484D78B3F7126B1929A2487494C912BC51AFA1BF6E1E9EF77489FB283C8A6B02AE06`
 SSDEEP | `1536:IdO+GI9inONfmfSoyehJ3bPS7tohPZjQ2zjGTKtXUpC0yXaipiPWMBaiKZWXiG:Y39iONfmb3bQtohHfGTKOC1fmpBkZgz`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\help-browser\help-browser.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +62,7 @@ SSDEEP | `1536:IdO+GI9inONfmfSoyehJ3bPS7tohPZjQ2zjGTKtXUpC0yXaipiPWMBaiKZWXiG:Y3
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe](screenshot.exe-FA86FC2DFB51259CB5E5FF0BA1A8E18C.md) | 35
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe](screenshot.exe-FA86FC2DFB51259CB5E5FF0BA1A8E18C.md) | 35
 
 
 

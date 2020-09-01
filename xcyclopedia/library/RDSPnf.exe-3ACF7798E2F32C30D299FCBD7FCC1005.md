@@ -18,6 +18,14 @@ SHA384 | `8F851AFE47D8468975C069CEE3A84509BE888C003002ED15AEE1AACF95279FECFCFCDC
 SHA512 | `C20337F7022FD62B351151A3B86FC180E0FF389C918700BC4FDD087DF23C45E8019052292B58AF89B6851D5FFF12FF26CA838CE1C53875D6456F358F79FFEE50`
 SSDEEP | `1536:D6XovjWrHc40Ww3MXMTmYBf/GEd/RH28WZ:Cs2HXJXMTmYV///RQZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RDSPnf.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\RDSPnf.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

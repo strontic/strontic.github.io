@@ -18,6 +18,26 @@ SHA384 | `06A348ED93960E23BF089BA392C70D074194C2F084E348779B31E0B261007FA3568F72
 SHA512 | `297F87699F7D693BA17F2C48C8695577D2AD9C7EA983FD7A56872AFF71C3CC3C886554269F842C85871A9F365127DDF5733FF71C07DA7B15EFF7249BE74F105E`
 SSDEEP | `6144:6C5PvoX0rLPsHdDn+pBKlNR709/gdCBvRR:JvoXOLPsHdDCOP709BBvv`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\javaw.exe |
+C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jli.dll |
+C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\VCRUNTIME140.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -34,6 +34,25 @@ The system cannot write to the specified device.
 ### Child Processes:
 installer.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Opera\70.0.3728.133\installer.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -108,6 +127,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \| [Windows Command Shell](../../T1059.003/T1059.003.md) \| Domain Account [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Disable or Modify Tools](../../T1562.001/T1562.001.md) \| [NTDS](../../T1003.003/T1003.003.md) \| [System Network Configuration Discovery](../../T1016/T1016.md) \|  \| Remote Data Staging [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| Multi-hop Proxy [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Stored Data Manipulation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Hijack Execution Flow [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Environmental Keying [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Filter DLL](../../T1556.002/T1556.002.md) \| [System Time Discovery](../../T1124/T1124.md) \|  \| Video Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| [Non-Standard Port](../../T1571/T1571.md) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Image File Execution Options Injection](../../T1546.012/T1546.012.md) \| Executable Installer File Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Guessing](../../T1110.001/T1110.001.md) \| Time Based Evasion [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| Web Portal Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| One-Way Communication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1040.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md) | \| wireshark_url \| wireshark installer download URL \| url \| https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.2.6.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1046.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md) | \| nmap_url \| NMap installer download URL \| url \| https://nmap.org/dist/nmap-7.80-setup.exe\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1056.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.002/T1056.002.md) | Adversaries may mimic this functionality to prompt users for credentials with a seemingly legitimate prompt for a number of reasons that mimic normal usage, such as a fake installer requiring additional access or a fake malware removal suite.(Citation: OSX Malware Exploits MacKeeper) This type of prompt can be used to collect credentials via various languages such as AppleScript(Citation: LogRhythm Do You Trust Oct 2014)(Citation: OSX Keydnap malware) and PowerShell(Citation: LogRhythm Do You Trust Oct 2014)(Citation: Enigma Phishing for Credentials Jan 2015). </blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1059.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md) | Write-Host  Automated installer not implemented yet, please install PowerShell v2 manually | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

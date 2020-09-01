@@ -4,7 +4,7 @@ title: powershell_ise.exe | Windows PowerShell ISE
 
 # powershell_ise.exe 
 
-* File Path: `C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe`
+* File Path: `C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe`
 * Description: Windows PowerShell ISE
 
 ## Screenshot
@@ -21,6 +21,38 @@ SHA256 | `CD65AE1EBB2B8EE7DEA364729A14D3CF4221C0EA9156B55A84EAD138F5C146E3`
 SHA384 | `C9496564E48385EB4893442774D71DB39FDA2791FA59AF6A9920623900B982B099EEE4B0C8BDD67AFBD1D41A37698355`
 SHA512 | `2BA7211B7586D5C14602209B858F7ECBA42A901B1287C0B773118D62799E75CCF0618535EB600F959FBF81226060CCB6F83E89B08AF80795731FAECB440B0278`
 SSDEEP | `3072:bwUkVjGPsw40vLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLa6:bfk+uZToIuUXmmZbgDooMz`
+
+## Runtime Data
+
+### Window Title:
+Windows PowerShell ISE
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\...\Cor_SxSPublic_IPCBlock | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_4620 | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe |
+
 
 ## Signature
 

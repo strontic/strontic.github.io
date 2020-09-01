@@ -18,6 +18,14 @@ SHA384 | `1558F841A0BC6591744A295B95EEBABE8B9EC1AB8D09E226F537492B5D7BFC26E7044F
 SHA512 | `8D612C60B6294FB579474DCE7BA429AA656A00D8D367E975767E87561E0608D8845911A2CDE41AA573E65FF90A43BE96E34507FCEB06A59873C2B98369CBECC3`
 SSDEEP | `24576:+xEPkbOUmcBPkGVP1RjETfSwtTJ3WPZwnnvqr8:+xEPkbIGVzGSwtTJ3yGnvqo`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\instnm.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +44,11 @@ SSDEEP | `24576:+xEPkbOUmcBPkGVP1RjETfSwtTJ3WPZwnnvqr8:+xEPkbIGVzGSwtTJ3yGnvqo`
 * Language: English
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\Integrator.exe](Integrator.exe-BD5EFF31291F2089276BC716FE9C958B.md) | 85
 
 
 

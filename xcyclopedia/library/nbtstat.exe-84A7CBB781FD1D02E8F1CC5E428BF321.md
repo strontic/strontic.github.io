@@ -18,6 +18,14 @@ SHA384 | `66F1AEB28A34034021493DDC37BB4BDFF24BA5DC9E43AF92C22BAE9133C5A887D34464
 SHA512 | `76D99AE928304BBB51B7E181B3097249963E1B50C83DF155E1C20D52E2F7323E5CF1926023DD1C4A75DF89C4C4CC88E2875F403B8BA3D0F12C631F624DC28C05`
 SSDEEP | `384:3f9uU67jGzIG2Q5s84I8jQwdJBF4RDc+Ii95IQ5an9YWXrW:31uU6OI584IkBAhQT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\nbtstat.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\nbtstat.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

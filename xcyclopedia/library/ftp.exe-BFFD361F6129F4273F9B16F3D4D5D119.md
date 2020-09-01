@@ -18,6 +18,16 @@ SHA384 | `723FE80FAD245CF77647D0ECC4772CF3B31A08E5F6541FFE39C280F5CB7926EA1316CE
 SHA512 | `C4C5D8E4ADBC4051BC43BFAC0B1A8AB821AC12A6236C658246EB5F9D742CB57B41347E7FCFC63BE7B50A1F8C75A545219AC652266F6A6C230124157F0F9C3518`
 SSDEEP | `768:X+lMWvnNSDzGeJ47xjBoziZTz2lo6nkPk/RrK3PBCW2ldFKJOdgExueP52eablE4:cMKx7hCo6CmWUdeixue8lcu`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ftp.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\ftp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

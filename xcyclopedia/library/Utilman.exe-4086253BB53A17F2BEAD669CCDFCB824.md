@@ -4,7 +4,7 @@ title: Utilman.exe | Utility Manager
 
 # Utilman.exe 
 
-* File Path: `C:\windows\SysWOW64\Utilman.exe`
+* File Path: `C:\Windows\SysWOW64\Utilman.exe`
 * Description: Utility Manager
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `8A05A4990C0370142DDFEC7D489737CCC4B96FAFE0A80E06AF7AE04A1C7BE722`
 SHA384 | `97B2F0FEEBCA10E140F4E6B1165E5B776E44902445A5AF912402DFE28746DD41F005D310E4C963AE956A6172DECFBE41`
 SHA512 | `0CAE2C342E18096663DF919573031D48D34C0560C16297866E9064286B6362D9AB8B859BFE025304185A8F75AD9DCFD6A6214CE04621A5952FFA51F83AE7173A`
 SSDEEP | `1536:tOCx1L46/n7zk1s2SxoZRM5RGye6NicH+LzPlliSPTcqgoLSbgvVoZtnBYMVGhZY:ECfLBzk1zFSGQefNwWc`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\Utilman.exe |
+
 
 ## Signature
 

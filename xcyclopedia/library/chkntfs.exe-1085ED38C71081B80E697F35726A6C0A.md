@@ -18,6 +18,14 @@ SHA384 | `FBD30814753841749D210DA0178CC28BFFEB51AAD7A2202621301FEF50EBCC96EE4106
 SHA512 | `A7BBC2876AE50B4AEEA6DB8554CA566DE57E51A54FB3D5ADB69959E15D8B4FC1CA1FF28EFB03E374C33CCD990BC2EE778DCAFFD9E0679CD98064382CD99B4463`
 SSDEEP | `384:X8W/Jf5/E60PPmb8TX0YN9kVBnYl1MNkWE6W:X5V5/E60nmojNWnEMs`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\chkdsk.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\chkntfs.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -20,8 +20,15 @@ SSDEEP | `192:v/jrdjk/bpQQ6yZf7BZWrY9U+l0o+qpXKXU5Gjbm9SdeL6//1FcwcW+/W:vdIt/lV7
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\TCPSVCS.EXE |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: xwizard.exe | Extensible Wizards Host Process
 
 # xwizard.exe 
 
-* File Path: `C:\windows\system32\xwizard.exe`
+* File Path: `C:\Windows\system32\xwizard.exe`
 * Description: Extensible Wizards Host Process
 
 ## Hashes
@@ -17,6 +17,30 @@ SHA256 | `B0C08A32F7F9FF3696DFEB67924D873604F20D7561A0800F39148C7B82552710`
 SHA384 | `3E23BB960B5C2378CE90F9C6938ABF10F65AEBD8EEF4DE3709B0149B65D5D4D20C1BAC4BB6393566F04FF7015A44B1D8`
 SHA512 | `53CB82832ABA22AAAD8CB7CA8FECBD87A1BA0FED5FEB2C4D87FF56B1C992B1B38D83A32D570A5B06CE26014B05BAAEF44611C1E2509481106441CA4B41C239B4`
 SSDEEP | `1536:Cpc6rrqCnPKFuT9lt53gbi1SCDURDoq4OZZZLlCIib:Ca6nhnPmuB53H1BoRD68wb`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\xwizard.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

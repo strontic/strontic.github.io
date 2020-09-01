@@ -18,6 +18,17 @@ SHA384 | `638A3BD8428C7537C64E38922BDA9C6CBF87F9C2842C49767D9ECFAF71AE17B744090A
 SHA512 | `67544C897FFCDEB12EF436CBC27F8116C8F8FF2A9BBEFE26BEE0DB32AEA7702E2ADA50837F6EC39B30E397EF644EFF44BE8BCE1213F93B64783C7652E739AB28`
 SSDEEP | `768:5uchzUdgNq3Rq7m5njFJlR/lmxEchdqsYAGrosn3sHJiC38uzvGYgKPFR:5uchzUF3R7F9oMBFy38uzv1F`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\FastStone Image Viewer\FSViewer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ftp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

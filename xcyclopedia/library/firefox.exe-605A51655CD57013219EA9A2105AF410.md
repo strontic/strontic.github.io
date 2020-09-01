@@ -76,6 +76,31 @@ Usage: C:\Program Files\Mozilla Firefox\firefox.exe [ options ... ] [URL]
 ### Child Processes:
 firefox.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Firefox\firefox.exe |
+C:\program files\Mozilla Firefox\mozglue.dll |
+C:\program files\Mozilla Firefox\MSVCP140.dll |
+C:\program files\Mozilla Firefox\VCRUNTIME140.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.DLL |
+C:\Windows\SYSTEM32\dbghelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSASN1.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\VERSION.dll |
+C:\Windows\System32\WINTRUST.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -94,6 +119,11 @@ firefox.exe
 * Language: Language Neutral
 * Legal Copyright: Firefox and Mozilla Developers; available under the MPL 2 license.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Mozilla Firefox\firefox.exe](firefox.exe-01DF6E9C1724C892E47B2D19AC5136E0.md) | 50
 
 ## Possible Misuse
 

@@ -4,7 +4,7 @@ title: Uninstall.exe | 7-Zip Uninstaller
 
 # Uninstall.exe 
 
-* File Path: `C:\Program Files\7-Zip\Uninstall.exe`
+* File Path: `C:\program files\7-Zip\Uninstall.exe`
 * Description: 7-Zip Uninstaller
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `192:WN8CeeT+a2j12sUr/XKRbU+86HOO7+Bb2NpWP1oynJ+y7ihXar28d/o:xeT+a2jfUr
 ### Child Processes:
 Uninst.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\7-Zip\Uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\7-Zip\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\7-Zip\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

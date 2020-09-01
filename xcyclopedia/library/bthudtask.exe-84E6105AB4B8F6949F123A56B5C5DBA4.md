@@ -4,7 +4,7 @@ title: bthudtask.exe | Bluetooth Uninstall Device Task
 
 # bthudtask.exe 
 
-* File Path: `C:\windows\system32\bthudtask.exe`
+* File Path: `C:\Windows\system32\bthudtask.exe`
 * Description: Bluetooth Uninstall Device Task
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `B725D71CBD9C135BA77B6A6214DB0E7D5C738A7D240AE8DF5996D5056F832D79`
 SHA384 | `2DFC2E3FD7838B8A1D62147222B34956F7EAE5AA6ABFBD856831B1E39F7B86EBE1316AAB0B86462136E7829EBB94EA9E`
 SHA512 | `B6C7F4A9D32CFDD01E9CCFA0FF9C27440F14C87080F4D6A103118EB07DCF3CA51B3207B9A0DA881D2C08A51D4C00CE2EFD7767CE58E35764A0C5DA6216558B0C`
 SSDEEP | `384:kW+OgaDoFkMczuETsFOLpfINIaef3RmSivWWwHWeKJajXDO1/EagS817l:kIdEFJSOGpfo9ys1Y/zDO`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\bthudtask.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

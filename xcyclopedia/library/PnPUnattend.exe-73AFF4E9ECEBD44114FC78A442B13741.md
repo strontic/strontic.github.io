@@ -4,7 +4,7 @@ title: PnPUnattend.exe | PnP unattend action
 
 # PnPUnattend.exe 
 
-* File Path: `C:\windows\system32\PnPUnattend.exe`
+* File Path: `C:\Windows\system32\PnPUnattend.exe`
 * Description: PnP unattend action
 
 ## Hashes
@@ -34,6 +34,16 @@ USAGE:
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PnPUnattend.exe |
+
 
 ## Signature
 

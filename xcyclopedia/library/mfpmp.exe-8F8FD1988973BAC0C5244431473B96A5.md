@@ -18,6 +18,35 @@ SHA384 | `A4380BA6C1E3D565C07AFCA79CF0076AD1499576A3112585420409A5702F9105684041
 SHA512 | `A91179E1561168B3B58F5CA893BCE425D35F4A02AEC20AC3D6FB944F5EB3C06B0A1B9D9F3FB9EA87869D65671D2B89B4AE19ACF794372BDBD27F5E9756C5A8AB`
 SSDEEP | `768:T9djkePa3/Yk6CPq0dv23xdLEED1txmjajEI1PWCi:T9dji3/Yp0dv23xdEEZnmjatPY`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\CRYPTBASE.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\ksuser.dll |
+C:\Windows\system32\MFCORE.dll |
+C:\Windows\system32\MFPlat.DLL |
+C:\Windows\system32\mfpmp.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

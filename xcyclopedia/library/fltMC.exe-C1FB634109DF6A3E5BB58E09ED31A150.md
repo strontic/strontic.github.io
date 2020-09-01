@@ -38,6 +38,14 @@ Valid commands:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fltMC.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

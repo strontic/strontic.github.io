@@ -22,6 +22,50 @@ SHA384 | `255FD4B958A5CF7F6C48A074E9AB53F9674E30C9D196A279346788D20C21A93B9CBF52
 SHA512 | `06B50F8BDB25E60DD7624DFAF7D89DB1404B30998C6AE3E77893BB1DE7948DF355FB2C8E42ED3F71D21A0AB781511C9C4B6EAE2362A4D92F7277B4720FCA9282`
 SSDEEP | `24576:uxD4o8zPsAdQnDdEJ+OknWfYgoSlSoUM:/DGdERuq1lSoz`
 
+## Runtime Data
+
+### Window Title:
+Paint
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\user\--help | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mspaint.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\UIRibbon.dll.mui | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(R-D)   C:\Windows\SystemResources\mspaint.exe.mun | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows\debug\WIA\wiatrace.log | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\RotHintTable | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mspaint.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

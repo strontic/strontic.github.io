@@ -23,6 +23,17 @@ SSDEEP | `768:MyP/7PTos0/ui4dpJ8mGveFq66XeB5+D5qzqYmPAd:PrTos1i4dgjG96OB6lAd`
 ### Child Processes:
 conhost.exe WerFault.exe dtdump.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dtdump.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

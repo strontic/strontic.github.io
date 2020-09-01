@@ -18,6 +18,15 @@ SHA384 | `731555FC95599759F85711523EF5518F846EF129B8AF014F2E4DD173A16D1DE8D52EB4
 SHA512 | `DDDAAE762C57E2044745A98D751264A53A13A8F8681736093FEBF5D7EA081AC8A75DC78CD18380A84D0E129B4B4FF17723FA697C1564F587ED7898F37F3F0FA9`
 SSDEEP | `12288:VOdlvElaFLjWodE5Wqb67dSkeKqcI9S7ZMXVw40JlyfndmLh:VOdlvn/WzTb6wUIwbrJlemd`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\system32\lpkinstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\lpksetup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

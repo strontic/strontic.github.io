@@ -4,7 +4,7 @@ title: gpsbabel.exe |
 
 # gpsbabel.exe 
 
-* File Path: `C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe`
+* File Path: `C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe`
 
 ## Hashes
 
@@ -24,8 +24,8 @@ SSDEEP | `24576:Z4zLA+L1DPzS33GBTKz52IIDbOu0RKV7+7CVsCmj7:Z4zLA+L1bzcGBTWoIIXOu0
 GPSBabel Version 1.6.0.  http://www.gpsbabel.org
 
 Usage:
-    C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -f INFILE [filter] -o OUTTYPE -F OUTFILE
-    C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -o OUTTYPE INFILE [filter] OUTFILE
+    C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -f INFILE [filter] -o OUTTYPE -F OUTFILE
+    C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -o OUTTYPE INFILE [filter] OUTFILE
 
     Converts GPS route and waypoint data from one format type to another.
     The input type and filename are specified with the -i INTYPE
@@ -179,6 +179,17 @@ Supported data filters:
 	  minimum_points        Discard tracks with fewer than these points 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

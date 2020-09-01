@@ -4,7 +4,7 @@ title: TpmInit.exe | TPM Initialization Wizard
 
 # TpmInit.exe 
 
-* File Path: `C:\windows\system32\TpmInit.exe`
+* File Path: `C:\Windows\system32\TpmInit.exe`
 * Description: TPM Initialization Wizard
 
 ## Screenshot
@@ -22,6 +22,41 @@ SHA256 | `452CD44F2920387AD9D25E5285A5C70E2D404F96F61AFD48CAF3F0DC04645CEE`
 SHA384 | `28063041E8CD5E8DAB05CABF3C40FEA2D90648306F9EB3A1411F53DEE451CFA1D77C974E8E1F11A79B8B0F52A3B94C45`
 SHA512 | `CD45DCCC3891185120AD3C2C54281249A9E18AF615FB34C5DDC3A7462668C2D765011EDA0F473627397B4E30037DD1CCD72D0741F650EF430CA861D7F323C140`
 SSDEEP | `1536:X5QXz+MMhkJ101a6HuGiceY0lA3CJHkxUM:GXzuhX1L+PYfSFkx1`
+
+## Runtime Data
+
+### Window Title:
+Manage the TPM security hardware
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\netmsg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\TpmInit.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECFAC | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

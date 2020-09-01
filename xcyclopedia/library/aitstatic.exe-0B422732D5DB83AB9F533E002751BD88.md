@@ -18,6 +18,16 @@ SHA384 | `BA120857E3A46D978C02B949BCDDEBC3A506A068DEFBBAEDDFCE7C41D723CA01F56E32
 SHA512 | `20F770AB2A521127BDE02F81EBD0A95C97BEEA36D0A881F9831706D50A764EBE581AF4D7EFCE6C78F3180152268EEBBD06531F80C03B3DA74643A29B20F26774`
 SSDEEP | `49152:MabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/L:MyKNNYtaAIrAoTMgJvuL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\aitstatic.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\aitstatic.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

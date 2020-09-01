@@ -4,7 +4,7 @@ title: dfsrdiag.exe | DFS Replication Diagnostics Tool
 
 # dfsrdiag.exe 
 
-* File Path: `C:\windows\system32\dfsrdiag.exe`
+* File Path: `C:\Windows\system32\dfsrdiag.exe`
 * Description: DFS Replication Diagnostics Tool
 
 ## Hashes
@@ -22,7 +22,7 @@ SSDEEP | `49152:mEvW2r8faYvZ7OMM0ZHuBVCc4MsuW4O3hm1cxarJ3YK/5TRE5PX:mEvW2r8faYvZ
 
 ### Usage (stdout):
 ```Batchfile
-[ERROR] Unknown Command <-help>
+[ERROR] Unknown Command <--help>
 
 
 DFSRDIAG - DFS Replication operational and diagnostics command line utility
@@ -55,8 +55,12 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
 
 ```
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

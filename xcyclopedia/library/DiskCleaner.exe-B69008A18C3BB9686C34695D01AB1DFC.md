@@ -18,6 +18,17 @@ SHA384 | `C4C2E8AD66B2A8A54EA147421AC17A9941163B10491A49B8299D2494FEEE5730C72BDC
 SHA512 | `584E437CBF634502EAC2566F6DB8266E59DF9644BD1FF9E90A9090B1590F4A0FB35BED48D5375AEAD020BF4862D90144D999B9EDF996F2DD3BEFE57E16903BC2`
 SSDEEP | `768:SMl+aADO++KVVVVVVVVVVVVVVVVVVVVVVVVVVyzzzzzzzzzzuHzHzfzwzJzzpzYP:9+XO++KVVVVVVVVVVVVVVVVVVVVVVVVP`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\DiskCleaner.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `768:SMl+aADO++KVVVVVVVVVVVVVVVVVVVVVVVVVVyzzzzzzzzzzuHzHzfzwzJzzpzYP:9
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\DiskCleaner.exe](DiskCleaner.exe-0302D7C1AD3D50B1AF90A7721A42A7C2.md) | 90
 
 
 

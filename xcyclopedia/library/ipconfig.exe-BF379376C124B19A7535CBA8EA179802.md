@@ -18,6 +18,17 @@ SHA384 | `63B64B145DA562E290DC1E4F9742BABDBF2435D3BB761C29316B236596CEBA398B94AD
 SHA512 | `0AD417B77C9EEEE17163DF384975A2846C45BD8649054BB9892E342A7DE64DCB5B4504BB0D5683447517DA19BD455697547681E5B2E3AB3A24A020B84C4DD7C2`
 SSDEEP | `768:eL5wk6Ek4d5gkUN5UA26fN+jKbmIqkbckdh2x2:sfNKtrn2agjKbzckdT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ipconfig.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\ipconfig.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

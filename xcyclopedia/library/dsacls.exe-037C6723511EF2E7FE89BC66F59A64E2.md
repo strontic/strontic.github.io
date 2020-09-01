@@ -22,7 +22,7 @@ SSDEEP | `768:eoO2E1olUkH+zlFBNXlBaEHsBV76kxf9g0FcoXs3+ridglivVtyf2MFq5eJ4qfGF:e
 
 ### Usage (stdout):
 ```Batchfile
-Parameter -help was unexpected.
+Parameter --help was unexpected.
 Displays or modifies permissions (ACLS) of an Active Directory Domain Services (AD DS)
 Object
 
@@ -214,6 +214,13 @@ You can specify more than one user in a command.
 The command completed successfully
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

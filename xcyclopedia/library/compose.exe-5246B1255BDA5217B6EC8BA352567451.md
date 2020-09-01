@@ -4,7 +4,7 @@ title: compose.exe | GNU Image Manipulation Program Plug-In
 
 # compose.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\compose\compose.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\compose\compose.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `7BD7F03A454BB799D584992B6752B755DE9B178A138AEFA094290FFAAC9EDF6B`
 SHA384 | `C5C93673DD330B70EC755C7586BA5AB92A629EF383D377923DA025A32E46F4775BC4A13A2A2901D54C043DD446A2880A`
 SHA512 | `6BFE92C9D5689C8B752C87295D444B4BC80577A9CEDACA465E9CCE27A3F531AFF5F43BE6F6F0537578FCD209A40E5F6191FB3B2C033E7E59FB2038DC2D983332`
 SSDEEP | `3072:VDrkOhFBX18duvIm5BfsOaMSpcFGTKI58xfmLJ7gAa:FkQ1sOVAOI58whja`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\compose\compose.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

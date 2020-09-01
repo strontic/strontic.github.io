@@ -4,7 +4,7 @@ title: gradient-flare.exe | GNU Image Manipulation Program Plug-In
 
 # gradient-flare.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-flare\gradient-flare.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-flare\gradient-flare.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `DEB68E14FC37DBE43FED16A2BCF9FA958C353293DE71EA7BC942810A7F85CCC7`
 SHA384 | `A49D6D939128516448357B7F785169AE19808B541A5E5932DED1D536C5F692770C3D95184BD757CF67277785F8C9D446`
 SHA512 | `E6DEADB5A8C233CA0751A7AD058E46A043F60BC733BAEA7182F249E214E27643E1769FD6C0575CBAA31306A1FAD14DD8C85819A16A0D6D61562483BD1F9428A4`
 SSDEEP | `3072:yFxlb6Q365Ci/Fun2Jqr1sWVvP2W0snGa+nQqbFOC78MJoGyjy+N+infmpPvg:yFxlpwNG3nGiSMMxWyu+i+pv`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-flare\gradient-flare.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

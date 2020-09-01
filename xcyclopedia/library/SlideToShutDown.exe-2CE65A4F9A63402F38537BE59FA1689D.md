@@ -4,7 +4,7 @@ title: SlideToShutDown.exe | SlideToShutDown
 
 # SlideToShutDown.exe 
 
-* File Path: `C:\windows\system32\SlideToShutDown.exe`
+* File Path: `C:\Windows\system32\SlideToShutDown.exe`
 * Description: SlideToShutDown
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `3EF3BF77DC2440BB6A234CE5F42C916DC9359B5EA452680676A0BE85C6AD459B`
 SHA384 | `ECC5D2BF7422EAF972B1B0DB4ADAEDF4850E5328B90F646F3E57478B7896E2E889874846CEB9E317746136EA47F4FAA0`
 SHA512 | `ECA6CCC9E054AA246CC1A024D575BA998A665346A449B0594A5DAB8A18586503AABFC38AE8D180D64D6213B200C0D1A7A706F7C393FE4CCF44138DD19E2AEFD0`
 SSDEEP | `384:dJ250h4ucSVCB9+5BZfrWWBRC6WoGmXjDBRJwZ1MgKlxsYAj:iCaMCB9gBZfNBRCcPXj1Pw8g2e`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\IrfanView\Plugins\Slideshow.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

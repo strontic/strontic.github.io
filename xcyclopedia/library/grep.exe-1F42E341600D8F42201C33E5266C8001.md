@@ -101,6 +101,17 @@ Try 'grep --help' for more information.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Greenshot\Plugins\GreenshotOCRPlugin\GreenshotOCRCommand.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -119,6 +130,11 @@ Try 'grep --help' for more information.
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\grep.exe](grep.exe-C012D7F8A7931DDDB7181A969A1038E4.md) | 97
 
 
 

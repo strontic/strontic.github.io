@@ -18,6 +18,8 @@ SHA384 | `CFF2C547BFCF098FCD07A7735CD44F6D15BE17635B211EBBB98B0C72B95A57537B0029
 SHA512 | `21861CE7EC4A1E907015B47F448449D363D91EE6104C1ECF6F83BA14F32E1698325C6B175B0408D1AB83CF1CECFF184CF0FFEB2868674AD20A960A6A080E6CD7`
 SSDEEP | `768:lvGV2EIgkhyiloBj/HUNV6CBV2JLI9tt2yfX:l5EPj/0N8Cagtsyf`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 usage: REGINI [-m \\machinename | -h hivefile hiveroot]
@@ -177,6 +179,36 @@ where: -m specifies a remote Windows NT machine whose registry is to be manipula
 REGINI: Missing parameter(s) for -h switch
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\regedt32.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHCORE.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\windows.storage.dll |
+C:\Windows\system32\Wldp.dll |
+
 
 ## Signature
 

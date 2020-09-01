@@ -4,7 +4,7 @@ title: iexplore.exe | Internet Explorer
 
 # iexplore.exe 
 
-* File Path: `C:\Program Files (x86)\Internet Explorer\iexplore.exe`
+* File Path: `C:\program files (x86)\Internet Explorer\iexplore.exe`
 * Description: Internet Explorer
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `24576:dqqlGLbMMHMMMvMMZMMMKzb6XmMMMiMMMz8JMMHMMM6MMZMMMeXNMMzMMMUMMVMl
 
 ### Child Processes:
 iexplore.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Internet Explorer\iexplore.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,7 +56,7 @@ iexplore.exe
 
 File | Score
 -- | --
-[C:\Program Files\Internet Explorer\iexplore.exe](iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE.md) | 94
+[C:\program files\Internet Explorer\iexplore.exe](iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE.md) | 94
 
 ## Possible Misuse
 

@@ -18,6 +18,26 @@ SHA384 | `FCCB1BD2FA6ADFFEB346947C262235EA5099644ACD4970270FA0DD005F179C385AB470
 SHA512 | `4190FB44C08189DF79B8B745DE180BD8D697C3204B5E254DA2C04B08E900949FC1AFAE1FCB7C1571FE11FBA96F68E7B23DE883DA183E00E3FB36CE1E11E1D4A8`
 SSDEEP | `1536:IRVvuztDtBolo5f14NaaMyRzm751sNz0UCdkV/L7:guZwSBUV1c5K`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UserAccountControlSettings.exe |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

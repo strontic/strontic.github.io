@@ -4,7 +4,7 @@ title: extrac32.exe | Microsoft CAB File Extract Utility
 
 # extrac32.exe 
 
-* File Path: `C:\windows\system32\extrac32.exe`
+* File Path: `C:\Windows\system32\extrac32.exe`
 * Description: Microsoft CAB File Extract Utility
 
 ## Hashes
@@ -46,6 +46,14 @@ EXTRACT [/Y] /C source destination
   /L dir     Location to place extracted files (default is current directory).
   /Y         Do not prompt before overwriting an existing file.
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\extrac32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

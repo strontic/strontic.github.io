@@ -17,6 +17,8 @@ SHA384 | `C3BD2632752EE64AD0875557884968DF1F617C43ED259602A7E1DDCF45A6C7E3BF29FC
 SHA512 | `C68AA88D55C8C023B98E87C3D64271ECE97AAE70F81172C007CC9B76D2B39906208EA25C5B237A67B40A3FDE2C9259133B50B82CFC7430A30D35C2F20A4DAE5C`
 SSDEEP | `6144:XIayS1HbiUn74uzYkUABtZ7SWPpmhXvaPLSKjWw:sSlnnMsYkUIoG0daD36w`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage: C:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe controlPipeName flags mouseMode cols rows
@@ -39,6 +41,17 @@ Options:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wbem\WinMgmt.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -57,6 +70,11 @@ Options:
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe](winpty-agent.exe-9ED8EDAD7DB41782ADACD259A001A78C.md) | 96
 
 
 

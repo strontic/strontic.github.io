@@ -26,6 +26,14 @@ Unrecognized option: -help
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

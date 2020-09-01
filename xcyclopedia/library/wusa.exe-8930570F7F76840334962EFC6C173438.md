@@ -22,6 +22,13 @@ SHA384 | `95EDEE4F201C74B61E0371634912E504F9297A76FEF924BB683B3C107677741431C589
 SHA512 | `44BE1B85D08C7D9EB6C0FB2EDBCBC531A37E48F35CF0AD7358DF9C1B0ADFA52E39C362B19E0BD40D08C313E6F0B1CB02D16F7797DF21266CA1D1F8629D4A5670`
 SSDEEP | `6144:preMHxM8Ww6hnFYa8rRoVJA3pxyN90vE:4MHxMxThnFYMVCHy90`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wusa.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

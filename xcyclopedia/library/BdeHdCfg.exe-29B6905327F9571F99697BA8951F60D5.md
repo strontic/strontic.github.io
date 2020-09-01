@@ -4,7 +4,7 @@ title: BdeHdCfg.exe | BitLocker Drive Encryption- Drive Preparation Tool
 
 # BdeHdCfg.exe 
 
-* File Path: `C:\windows\system32\BdeHdCfg.exe`
+* File Path: `C:\Windows\system32\BdeHdCfg.exe`
 * Description: BitLocker Drive Encryption: Drive Preparation Tool
 
 ## Hashes
@@ -68,7 +68,7 @@ Parameters:
         when a new drive is created.
 
         If not specified, the Drive Preparation Tool assumes the required
-        minimum size of 550 megabytes.
+        minimum size of 910 megabytes.
 
         Example: -size 700
         
@@ -85,13 +85,23 @@ Parameters:
         Displays help for this command.
 
 Examples:
-    BdeHdCfg -target c: shrink -newdriveletter x: -size 550 -quiet -restart
+    BdeHdCfg -target c: shrink -newdriveletter x: -size 910 -quiet -restart
     BdeHdCfg -target d: merge -quiet -restart
     BdeHdCfg -target unallocated -newdriveletter s:
     BdeHdCfg -target default
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\BdeHdCfg.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

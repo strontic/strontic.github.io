@@ -18,6 +18,19 @@ SHA384 | `51A83C3FDFD44919148D24263744F6F90330798A3188261E25B6C69374768718A86917
 SHA512 | `4083456A8605A66544741DA80DF2201F7F797DCB7C49B68568517EFE6E63DBD32FEDB2AFDE0BED39156F6CB2E183C53C56253C8CB21809D7EE598994DC108BD0`
 SSDEEP | `768:2J50rAlo07YvjyttPYuYlwswWiLCotCNSBf96vxoU44vLu:y5BOlwmieotCif96vxol4Du`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\system32\spaceman.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

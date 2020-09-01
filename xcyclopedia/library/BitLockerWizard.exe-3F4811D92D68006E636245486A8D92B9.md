@@ -18,6 +18,67 @@ SHA384 | `CCF6458FF9B3E2F65E40B04C0B946172D91A12C9EA8369A20E1493883773E4007D26EA
 SHA512 | `955043BF6EE7D962E0DEA033BEA38F6CC649B6CBDBCEE7B9648206EFD258D1896BEF3380EE37B989841D7E8A2D835A9EB2FF7239FBC1B5E1526ACD0BA967045B`
 SSDEEP | `3072:Ma4JwnVS570M9kdatGCO+xmBc+hMPhPsx:HFVs7nyatGt+SYF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\BDEHDCFGLIB.dll |
+C:\Windows\system32\BDEUI.dll |
+C:\Windows\system32\BitLockerWizard.exe |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\system32\credui.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\dsreg.dll |
+C:\Windows\system32\DUI70.dll |
+C:\Windows\system32\FVEAPI.dll |
+C:\Windows\system32\FVECERTS.dll |
+C:\Windows\system32\FVESKYBACKUP.dll |
+C:\Windows\system32\FVEUI.dll |
+C:\Windows\system32\FVEWIZ.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\NETAPI32.dll |
+C:\Windows\system32\NETUTILS.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\system32\ReAgent.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UxTheme.dll |
+C:\Windows\system32\VSSAPI.DLL |
+C:\Windows\system32\VssTrace.DLL |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WINHTTP.dll |
+C:\Windows\system32\WKSCLI.DLL |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\BitLockerWizard.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

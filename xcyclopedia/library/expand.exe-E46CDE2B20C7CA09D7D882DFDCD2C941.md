@@ -18,6 +18,13 @@ SHA384 | `BA685E396CAD67AC33519C812AA2F99180DD262D252BB23A4A3943434CC2949468A61C
 SHA512 | `48962518AEB1DFBA470D3143A4CE8850C478099714C0A6245EE4BA97EC51942D802AE4D05C7AFFB2785329966F69D58AEC2EA0E5AFDF378854970F593F294B3C`
 SSDEEP | `768:xiaHljpoFlWx391GGN5Cvsh8Zf+rTdKdlQbQKtBI7qWnBGZEJhQwa4WOGScQymXz:Bf7O1TEdf5BLWYZEtJW+7Ked96KFf`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\expand.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

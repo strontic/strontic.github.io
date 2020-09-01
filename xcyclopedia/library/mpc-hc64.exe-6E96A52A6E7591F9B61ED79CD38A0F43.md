@@ -25,6 +25,17 @@ SHA384 | `95E94B01B789EA4813AD8117DCB02EF32D5FD55ECF28341BC8617ADF890FBF01243B7F
 SHA512 | `E9F93AA6BB5EBD424A8F22E2CB97EAF6DF924CD1FD1D8DAA88955F95394545415814C6033D7FCCC0044C8727E7E33549B10CB27849936CA05915BB2DF04B14D0`
 SSDEEP | `98304:mJ4A+aaFRd7X4GRfUKEMkvLw4FyeirF9xixUxqpO:dLaa/1X4GtUhJjdiZnwQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\AIMP3\System\Encoders\mpcenc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\Program Files (x86)\K-Lite Codec Pack\MPC-HC64\mpc-hc64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

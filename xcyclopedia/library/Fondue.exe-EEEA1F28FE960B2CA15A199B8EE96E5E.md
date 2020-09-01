@@ -27,6 +27,16 @@ SSDEEP | `3072:5PPh4AbEaznWfH22ZsuX2xKwMPTnaSrIrvDi:E+znWjZnXeKwMLnaqY`
 ### Child Processes:
 Fondue.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Fondue.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -4,7 +4,7 @@ title: mighost.exe | Migration Plugins host program
 
 # mighost.exe 
 
-* File Path: `C:\windows\system32\migwiz\mighost.exe`
+* File Path: `C:\Windows\system32\migwiz\mighost.exe`
 * Description: Migration Plugins host program
 
 ## Screenshot
@@ -26,6 +26,31 @@ SSDEEP | `6144:AYUW8Kw2pojDuUlMtq10Q8m7NNqM9N+hN1UFpfNS5iXjD56Gpovgp2H32nq54945:
 
 ### Child Processes:
 conhost.exe
+
+### Window Title:
+MigHost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\migwiz\mighost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

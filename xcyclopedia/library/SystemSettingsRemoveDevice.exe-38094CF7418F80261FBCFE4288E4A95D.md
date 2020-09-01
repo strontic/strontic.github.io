@@ -4,7 +4,7 @@ title: SystemSettingsRemoveDevice.exe | SystemSettingsRemoveDevice
 
 # SystemSettingsRemoveDevice.exe 
 
-* File Path: `C:\windows\system32\SystemSettingsRemoveDevice.exe`
+* File Path: `C:\Windows\system32\SystemSettingsRemoveDevice.exe`
 * Description: SystemSettingsRemoveDevice
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `27440393C18EBCCD75ABEE131F60DAAB6B2B017FDF71F6DD741C631316786E8A`
 SHA384 | `B8C3FFD024AAE1E160F418A8789FE7079B5481D62A10EF85034D4046A8E7D810A7DF6228DFCC06220748A3E078B00D53`
 SHA512 | `231F3CFB449629EEBB22158C6C75D4D71694B28DC1D94C8AC43E6326EE2054BDF0223FCC44861123EB80EC47889181D5C4E993696241B8E954F8791F9FA5CB34`
 SSDEEP | `768:kYNC/XUjRVVYuaS9bvhko6LgatpOt+VDpOZczcEBgXj1PcO6:fFTso6MMpO1ZG1+pP76`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SystemSettingsRemoveDevice.exe |
+
 
 ## Signature
 

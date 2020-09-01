@@ -18,6 +18,23 @@ SHA384 | `882D57486B73504764362C152CD861601283E793B7B80D57DF7AF9A2C6D38599B25791
 SHA512 | `3130A62B76DA644A1142F26A4B8FC1644E0F74A6903194296C9E6278D63DC1CB9BA9361E6F3406AF8E209E5D73E80613285BDD70BE1C6CBBA0EFAB8C9D44CA57`
 SSDEEP | `768:g6RydRhNvtP2x3zmCil09N8kdyXXdauXXNI1PRCy:LRy3DFELi+v5cXXcEXKPJ`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DeviceCensus.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

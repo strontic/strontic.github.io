@@ -4,7 +4,7 @@ title: tsecimp.exe | Microsoft Windows(TM) TAPI Security File Importer
 
 # tsecimp.exe 
 
-* File Path: `C:\windows\system32\tsecimp.exe`
+* File Path: `C:\Windows\system32\tsecimp.exe`
 * Description: Microsoft Windows(TM) TAPI Security File Importer
 
 ## Hashes
@@ -36,6 +36,13 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

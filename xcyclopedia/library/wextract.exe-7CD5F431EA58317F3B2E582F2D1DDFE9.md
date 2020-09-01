@@ -4,7 +4,7 @@ title: wextract.exe | Win32 Cabinet Self-Extractor
 
 # wextract.exe 
 
-* File Path: `C:\windows\SysWOW64\wextract.exe`
+* File Path: `C:\Windows\SysWOW64\wextract.exe`
 * Description: Win32 Cabinet Self-Extractor                                           
 
 ## Screenshot
@@ -21,6 +21,35 @@ SHA256 | `64BC17D02D409B0EAE84DCCC71DD0C5115EF208EFC79A30281E60404A5632D91`
 SHA384 | `54882F879ED5203840DBFC08B85216DF2F793FBEB98615351DE84ABF9F3832B24723BA90F160B2C3E4EB32AD53DA6CE0`
 SHA512 | `E537056E3EA60BB918C0C8538445BE775B0B16775B2EC5FA92B9C2EAA394B3C425D47D5C0C7B9262A28BC42B5D76D03622758A058913AAC628841BBAE4B11566`
 SSDEEP | `3072:KZy+bnr+O1m8Wp1icKAArDZz4N9GhbkUNEk951d:KZy+bnr+f9p0yN90vE`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\wextract.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wextract.exe |
+
 
 ## Signature
 

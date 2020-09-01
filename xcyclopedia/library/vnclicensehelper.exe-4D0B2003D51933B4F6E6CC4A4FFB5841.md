@@ -4,7 +4,7 @@ title: vnclicensehelper.exe | VNC License Helper
 
 # vnclicensehelper.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\vnclicensehelper.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\vnclicensehelper.exe`
 * Description: VNC License Helper
 
 ## Hashes
@@ -18,6 +18,8 @@ SHA384 | `DA5895FC4E0FCD0A6B6E4A5E31862BB9542E2AC73CB2727C6FF407E99A2F0BA1DEFF47
 SHA512 | `09BE06698FC22CFF8221B6AB740DBAEDCA24D1F294982ECEC2D9E874E74EEBF8E9284AB9BF33D184A44BEE8C55886298B5B93A1F152D8C27E006F554C0B419E6`
 SSDEEP | `49152:dmZGPcYg9PaO0bf3LHHiAHf8VSiE4PTzr:bg90b7CAI5z`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 VNC(R) License Helper 6.1.1 (r28093) x64 (May 19 2017 12:39:35)
@@ -29,9 +31,30 @@ Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
 See https://www.realvnc.com for information on VNC.
 For third party acknowledgements see:
 https://www.realvnc.com/docs/6.1/foss.html
-<11> 2020-08-15T19:51:27.301Z DESKTOP-0C3PLRM vnclicensehelper[11040]: vnclicensehelper: Bad argument '--help'.
+<11> 2020-08-30T21:20:33.417Z B6F9104F-5AA4-4 vnclicensehelper[9004]: vnclicensehelper: Bad argument '--help'.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\vnclicensehelper.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\NETAPI32.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
 
 ## Signature
 

@@ -22,6 +22,17 @@ SHA384 | `8B153DB599233E3F6ECDB8F564F74847E670BE1BE859DEABDB8A3045E901DAFDCBB247
 SHA512 | `49991C07E271D39847E9473073638C2FF029061C62232984766061027C253A0AA27E22B4F27E82BAC5A494EE93171F4C24FB20C9B57F610AA12108032AB1BEBA`
 SSDEEP | `768:3q+ZPJz4g0/WHK1YuuWEeFbfFWrzHXc9TR+0zbkN4dppainbNnnnnnnnnnnnnnn5:t7KujM9N+0fk64inbbn`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\VSSUIRUN.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\VSSUIRUN.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

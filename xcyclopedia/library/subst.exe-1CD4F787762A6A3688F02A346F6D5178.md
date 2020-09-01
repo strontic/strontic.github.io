@@ -4,7 +4,7 @@ title: subst.exe | Subst Utility
 
 # subst.exe 
 
-* File Path: `C:\windows\SysWOW64\subst.exe`
+* File Path: `C:\Windows\SysWOW64\subst.exe`
 * Description: Subst Utility
 
 ## Hashes
@@ -35,6 +35,13 @@ SUBST drive1: /D
 Type SUBST with no parameters to display a list of current virtual drives.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

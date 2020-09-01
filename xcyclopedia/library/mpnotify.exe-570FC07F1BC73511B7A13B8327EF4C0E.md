@@ -18,6 +18,17 @@ SHA384 | `8CB2F9BAFE46640B55740DFC0073B43A8813E0CACB825044B1F885D99D5DAFDB3BD8B8
 SHA512 | `4E69EE20D3BE8776B9F1EE1F7CF16327B8AE878AA6DEDBAA37C5A93AFDDF5E96EF009F77354C92229BCD849BBFEF50E2B6CEAEF8A0AF0557F14E539B9AE81A73`
 SSDEEP | `384:jnTPEz/bWLtVKOA4yz7WdYx0MZGqbWajW:jnT8bbWuLz2Y+MZt5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Zoom\bin\aomhost\mphost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

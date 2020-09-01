@@ -22,7 +22,7 @@ SSDEEP | `6144:1jOlrq2QzsTMhJoEBA/YF9HE0C09/l760j6qTjhqVSxwn1VU1B8zqcNPaDb2O7fB:
 ### Usage (stdout):
 ```Batchfile
 Generating public/private rsa key pair.
-Enter file in which to save the key (C:\Users\WDAGUtilityAccount/.ssh/id_rsa): 
+Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa): 
 ```
 
 ### Usage (stderr):
@@ -57,6 +57,25 @@ usage: ssh-keygen [-q] [-b bits] [-t dsa | ecdsa | ed25519 | rsa]
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\OpenSSH\ssh-keygen.exe |
+
 
 ## Signature
 

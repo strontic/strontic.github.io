@@ -4,7 +4,7 @@ title: wpr.exe | Microsoft Windows Performance Recorder
 
 # wpr.exe 
 
-* File Path: `C:\windows\system32\wpr.exe`
+* File Path: `C:\Windows\system32\wpr.exe`
 * Description: Microsoft Windows Performance Recorder
 
 ## Hashes
@@ -64,15 +64,22 @@ Copyright (c) 2018 Microsoft Corporation. All rights reserved.
 	Invalid command syntax.
 
 	Error code: 0xc5600602
-	Invalid option: help
+	Invalid option: --help
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

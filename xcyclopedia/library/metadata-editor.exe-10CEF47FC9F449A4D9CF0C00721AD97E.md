@@ -4,7 +4,7 @@ title: metadata-editor.exe | GNU Image Manipulation Program Plug-In
 
 # metadata-editor.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\metadata-editor\metadata-editor.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\metadata-editor\metadata-editor.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `1DA83C2710A5FBBA62C10AE5ADEF8242E7E0598F4CCF02272CBC7403334FDB4D`
 SHA384 | `3C0B68F42EB0D0645010AB72368C6B4E8D8677A3E3C3639E491D26FD001774DED3B7F0318B8F53A8880E73531082384D`
 SHA512 | `04DBB2216E8361DC7DA2408A8EF8B511EF5D9F162861EF678473728E3A22BA800CD588B5A89B1921AFD0EFF01365000A8D2EB0961917EA1880713C0501B41541`
 SSDEEP | `3072:kN9rsbAuVHowWpd1jUxXQ2eZAEnahxOq2ew3MlBGIB4szzQCKfmlKf29gs:wWfVCqEnqOSw3Mlse4szzQCJlOOl`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\metadata-editor\metadata-editor.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

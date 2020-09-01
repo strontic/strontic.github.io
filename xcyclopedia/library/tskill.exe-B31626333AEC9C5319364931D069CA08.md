@@ -18,6 +18,8 @@ SHA384 | `92A3B84D45F153639BF82806AB46328C183EED8AAE3CD4CAEF1D89941C7E8784F504FB
 SHA512 | `3F042330501DA44D994FD73FE740B824648FE637AEA9BADF9BD020FF7229EF108195C4C890D961F4FAB6AD06A7BDD92A4EA52FA8149932AC2BAD382E8DE25166`
 SSDEEP | `384:9vyMuU7og2AV+9DtSyZ3rFlEa55j++IGlhxDky0pSrmS5mcyUSTUezqW4kQW:tf0DfrF1RIGXDipVWXezt`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Invalid parameter(s)
@@ -36,6 +38,13 @@ TSKILL processid | processname [/SERVER:servername] [/ID:sessionid | /A] [/V]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -70,7 +79,7 @@ Ends a process running in a session on a Remote Desktop Session Host server.
 
 
 > [!NOTE]
-> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
+> To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
 
 ### Syntax
 ```

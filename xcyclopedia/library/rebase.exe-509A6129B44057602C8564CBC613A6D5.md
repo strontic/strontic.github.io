@@ -68,6 +68,16 @@ help: skipped because not rebaseable
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ReAgentc.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -86,6 +96,11 @@ help: skipped because not rebaseable
 * Language: 
 * Legal Copyright: 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\rebase.exe](rebase.exe-9D64CD9BC0B1BB328E9B97F4D26F4231.md) | 97
 
 
 

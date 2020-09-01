@@ -18,6 +18,17 @@ SHA384 | `8EA9C654E490841A9ED6E138E889E885465F7A0ECA38429201B7B493388DB7E683C639
 SHA512 | `513E0EBDA484E6370A7A3B8754D8ABC1D75EE42685F5021EC5E548026F10E4961BA2A8B04C5AA6CB858ECA16499D7BC7F59F9AA41E26597FDFDF16FF7407E959`
 SSDEEP | `1536:VJMyihOOXd78vyBxF1pnOS8zORuCpeyK5jREdxOSOxiekVHqUfI:VJMyihOOXd7SyBxF1pnOSQORu4ezUxOr`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\upgrade.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `1536:VJMyihOOXd78vyBxF1pnOS8zORuCpeyK5jREdxOSOxiekVHqUfI:VJMyihOOXd7Sy
 * Language: English
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\upgrade.exe](upgrade.exe-74869BF2044224A3F132FE0024980BC2.md) | 94
 
 ## Possible Misuse
 

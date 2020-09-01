@@ -85,6 +85,16 @@ ERROR: unknown command "/?"
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Python38\Scripts\pip3.8.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\Program Files\Python38\Scripts\pip3.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
@@ -107,14 +117,19 @@ ERROR: unknown command "/?"
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\Lib\site-packages\pip\_vendor\distlib\t64.exe](t64.exe-6E5A78D1702531B72EF60B5FAE57A752.md) | 99
-[C:\Program Files\GIMP 2\lib\python2.7\site-packages\distlib\t64.exe](t64.exe-9CE140D90C4DCF6111410C4E6C2D6E05.md) | 96
-[C:\Program Files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t64.exe](t64.exe-41669D85D2BC3938EFB23B9170756634.md) | 96
-[C:\Program Files\Python38\Lib\site-packages\pip\_vendor\distlib\t64.exe](t64.exe-6E5A78D1702531B72EF60B5FAE57A752.md) | 99
+[C:\program files (x86)\Python38-32\Lib\site-packages\pip\_vendor\distlib\t64.exe](t64.exe-6E5A78D1702531B72EF60B5FAE57A752.md) | 99
+[C:\program files\GIMP 2\lib\python2.7\site-packages\distlib\t64.exe](t64.exe-9CE140D90C4DCF6111410C4E6C2D6E05.md) | 96
+[C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t64.exe](t64.exe-41669D85D2BC3938EFB23B9170756634.md) | 96
+[C:\program files\Python38\Lib\site-packages\pip\_vendor\distlib\t64.exe](t64.exe-6E5A78D1702531B72EF60B5FAE57A752.md) | 99
+[C:\program files\Python38\Scripts\easy_install.exe](easy_install.exe-75A3B31EB4FB35B4E1FB3E084FDAE9C4.md) | 97
 [C:\Program Files\Python38\Scripts\easy_install.exe](easy_install.exe-C034B64935520DDF82BA81B43FF1CF69.md) | 97
+[C:\program files\Python38\Scripts\easy_install-3.8.exe](easy_install-3.8.exe-75A3B31EB4FB35B4E1FB3E084FDAE9C4.md) | 97
 [C:\Program Files\Python38\Scripts\easy_install-3.8.exe](easy_install-3.8.exe-C034B64935520DDF82BA81B43FF1CF69.md) | 97
 [C:\Program Files\Python38\Scripts\pip.exe](pip.exe-0D99FE4499F271F6275530BF81A7FCB9.md) | 100
+[C:\program files\Python38\Scripts\pip.exe](pip.exe-EDB733853355827DD70F8D2978C83E01.md) | 97
 [C:\Program Files\Python38\Scripts\pip3.8.exe](pip3.8.exe-0D99FE4499F271F6275530BF81A7FCB9.md) | 100
+[C:\program files\Python38\Scripts\pip3.8.exe](pip3.8.exe-EDB733853355827DD70F8D2978C83E01.md) | 97
+[C:\program files\Python38\Scripts\pip3.exe](pip3.exe-EDB733853355827DD70F8D2978C83E01.md) | 97
 
 
 

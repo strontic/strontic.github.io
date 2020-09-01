@@ -17,6 +17,16 @@ SHA384 | `8D19187225B0E2FE5D3FAFFAAABFC43943D34246A7089FD3FA5189A7ED31F5367DD57D
 SHA512 | `30BA24687DD29F3E0E56B3D03D577A45895F3C26BC9A5457C06EBC59A6954AB6CB8E28EA8863AD4843E833F9D6EBEA7800BB1EFDCA161933F5E2756213618AC3`
 SSDEEP | `384:XwV5BQK0dcdBKsfVaJdh5lTwJZ55SvqVayjMlTr3J9NQNiXdsl0vyupyWQn1XXW7:yaK0dqKstW0r1olTtXp4n1X9jN4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\icacls.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\icacls.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

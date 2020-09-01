@@ -18,6 +18,17 @@ SHA384 | `5F5A0485572E14953E081382F9B91A20DE4200797F1CFD2884191ECFDA3269802185EF
 SHA512 | `AE6809A70A591FC3A63D83F780D0892722A80935248BA2013A85C61961F720C9D84C9369241328D7D35E177C1690B3A58CDE6B747D96C3ABB782CBCCE6F1EE35`
 SSDEEP | `3072:Wtlp0rcKl2MXtPofEeRNywSuMpCkQ/D+Vm/JYpW+j:Wjmrp2MXt6Vkw7YrQiVZA+`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\UserAccountControlSettings.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\UserAccountControlSettings.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

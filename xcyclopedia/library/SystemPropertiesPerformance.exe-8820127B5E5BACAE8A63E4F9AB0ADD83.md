@@ -4,7 +4,7 @@ title: SystemPropertiesPerformance.exe | Change Computer Performance Settings
 
 # SystemPropertiesPerformance.exe 
 
-* File Path: `C:\windows\SysWOW64\SystemPropertiesPerformance.exe`
+* File Path: `C:\Windows\SysWOW64\SystemPropertiesPerformance.exe`
 * Description: Change Computer Performance Settings
 
 ## Hashes
@@ -17,6 +17,40 @@ SHA256 | `2348ACB60563CA0997DA7378E5454515937EF9D54000A5E2E7FB5C81495896AF`
 SHA384 | `BB74C2AE8D2AD6737EE73B18B6E4BD809D39A113220E32132CCC23CF39C76C34BFFFC7017D3BF9947BED5C60A3FD3E20`
 SHA512 | `22F3C97D08A159F836BEF06962346E1C248DCD33928190B4914D054A1057403F3553C6762E0CC6D57BDDF368BC3DC48EE072839B9FA5054245649C3D00E3A00A`
 SSDEEP | `1536:mbZUtREC/rMcgEPJV+G57ThjEC0kzJP+V5JV:KUzECTMpuDhjRVJG/`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesPerformance.exe.mui | File
+(R-D)   C:\Windows\System32\shell32.dll | File
+(R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesPerformance.exe |
+
 
 ## Signature
 

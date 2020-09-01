@@ -18,6 +18,16 @@ SHA384 | `B22CA109C789613C4DDD41CEF4E338577BA1527B998250B3F2D918CE4B7C7501F42279
 SHA512 | `00AEF735F6DF6ACD82FEB838CB52AC94E38DDA24FED03CC83309CA5A3002BA10ECB59B710CA4930924F1A1D632E6A84CD42FC32F786EADB958F923B6B12BD1A5`
 SSDEEP | `768:WNQ8Fci4q8a1YjKG3ZL4wdeviktNJeEr+sQ90RQkHw/qe/C/beQocawO/MFx:WaKKde3tNwsjRQk72DQvO/Mv`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\klist.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\klist.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

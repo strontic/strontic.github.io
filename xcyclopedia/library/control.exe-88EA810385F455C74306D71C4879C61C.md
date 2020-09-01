@@ -4,7 +4,7 @@ title: control.exe | Windows Control Panel
 
 # control.exe 
 
-* File Path: `C:\windows\system32\control.exe`
+* File Path: `C:\Windows\system32\control.exe`
 * Description: Windows Control Panel
 
 ## Hashes
@@ -17,6 +17,40 @@ SHA256 | `4774A931C9D97828323C9E829917D82C27A05DAB9FEA6A0CEF9EBBA59942231F`
 SHA384 | `2D51CBBBEA71C5A687265880F9217579E944B4B2FD674EFF2084346B091B17F0837AA760802D1B7DDC40735BD10B7E45`
 SHA512 | `D816977F9B9B147050937DF7663BE074FD44AA6DBFF608A0E673BC2739FC1A1DBEE506668A252D0A3A0B7E430A9B084502A9E7F7D4BB5EE69621FEFE861D5646`
 SSDEEP | `1536:trl0+A4FF/P4yXBe/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:tyt43/g4B7Sp5+1k12b/Af885RK`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\control.exe |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

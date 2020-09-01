@@ -18,6 +18,16 @@ SHA384 | `7F0E7FDE02CD2D039E27F6E29FDE8F9F3B2FE2312235C0BBB647B909C651A5DF05CB48
 SHA512 | `E154783682855D9470E61661712D5F914EE4EB61A1809ECAE20EF1079F0E75D98A02C9AA94DA7EE27A35AA3D3A3B04AB89F9970A0725BBD3140F7FB080C03DC7`
 SSDEEP | `1536:14azInSl7NeGHN+I1LQNrLiTvwvwMHK9AuZ0ozuOU3xXKFE1yd/q2EdExClp:EnG0G/mLav4KKuZ0uup3xXK+1ydRwExA`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\getmac.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\getmac.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

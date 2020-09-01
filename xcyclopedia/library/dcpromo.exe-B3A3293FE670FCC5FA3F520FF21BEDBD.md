@@ -4,7 +4,7 @@ title: dcpromo.exe | Active Directory Domain Services Installer
 
 # dcpromo.exe 
 
-* File Path: `C:\windows\system32\dcpromo.exe`
+* File Path: `C:\Windows\system32\dcpromo.exe`
 * Description: Active Directory Domain Services Installer
 
 ## Screenshot
@@ -32,6 +32,35 @@ The specified argument 'help' should start with '/' or '-'.
 
 ### Child Processes:
 conhost.exe
+
+### Window Title:
+Active Directory Domain Services Installer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\dcpromo.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\debug\dcpromoui.log | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dcpromo.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,22 @@ SHA384 | `AD04C11ECD7D65D4C50FDCFF26BBA66F60D0F929C624FC85A706456C142036EBB4E3E4
 SHA512 | `C921EE3786717AC1F9E1981E35494F33D26D153AFB335C52219830261F84155383D5AC9FF0EA1D7F3F6913B28C878CE6B5EA350F60ED9A9BF1AC006596FD4C68`
 SSDEEP | `192:yecuhBM44rbhVsO3XKtK3NyeiKQ2pxeILJJQYSlid3slZiU4ltWIUW:HVhq4Ih6U3NRXpxLLJGYWi2ZcnWIUW`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LogonUI.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

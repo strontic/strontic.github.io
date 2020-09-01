@@ -18,6 +18,23 @@ SHA384 | `ABEEF9A60E90BBC6A1C5C2DB0D72E91897B792A40E47AD66FA159DE500E3A2B9B9694A
 SHA512 | `47B6FBB37908FFABBFF1BCA52A55978325086FA8F12AC8A2EEA748DC882E2DE878BBD4FAF8608DD088B2C92EE30F2DCCA8D7C2342E9CB2058B567A2669223652`
 SSDEEP | `1536:ZEZyXaYgpfcmho5TYdb16C70ixioQNFo9pQIa4LDyTTfGF9o:qwxmhS0Xxi5joHQIpHyT7Gk`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WinBioDataModelOOBE.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

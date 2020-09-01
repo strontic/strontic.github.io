@@ -4,7 +4,7 @@ title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
 
 # iscsicpl.exe 
 
-* File Path: `C:\windows\system32\iscsicpl.exe`
+* File Path: `C:\Windows\system32\iscsicpl.exe`
 * Description: Microsoft iSCSI Initiator Configuration Tool
 
 ## Hashes
@@ -17,6 +17,36 @@ SHA256 | `FEB783C81B0BC6A5E7BEDF3E1EB71106C95B2B818272B841902F14F33B507DD5`
 SHA384 | `DD1917D4153A877740B3B81495D2BB670DC689CACBA4EC947058A6D716E8D89F3EBAA6E7B153FFB397130BAAD60A33AF`
 SHA512 | `3988030325CF08F04D765AAFDEFE9E1BA72421A9CA58DFE6B480989EB7BE8527AAB7C1D0DF84A16A6E996267BC43AE961CB781DBB73D392C8830A9EFDCC4F416`
 SSDEEP | `3072:1KPRFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:1K8X8I0jct5rEJdp`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\iscsicpl.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\iscsicpl.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\iscsicpl.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

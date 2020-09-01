@@ -18,6 +18,14 @@ SHA384 | `C255BB474AC29962DAA8923D5A45D58C383B28CB7A30C8EDA5FD1200FEB5F36411E3B2
 SHA512 | `A53E16FFCBD68E1F632F78D5C3F66B24B7C82D9698EA84C8387424E508B2BF11F739389D09F770E678E631E0ED604987E4DE320C7B837DC9FD55000C8544102F`
 SSDEEP | `768:ql+9cWbY70D/oFunwwFHvHUQLNymwCXX2zv5jz+:n/oFmwwFP/wEX2zvRz`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\shrpubw.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\shutdown.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

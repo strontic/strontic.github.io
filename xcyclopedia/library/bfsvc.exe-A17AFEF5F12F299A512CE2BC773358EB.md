@@ -18,6 +18,8 @@ SHA384 | `217229E977E522469BE7667BE96397EAB36640AD3FA59C289C7551E7FFC28376C12A38
 SHA512 | `320DD7B8AF219E9EF22AD446834BB6DF5530FD0C4058A2FC1C829A75C951DF1CFC8BDBFB41C5E5B6B7D0616D6AB6AE2614308BF3AC8DCE380338DBC0144DE0A8`
 SSDEEP | `1536:GqADigBLfAx6v44MEX3p5L5h1zJz8RI+V2K1ODVtwPPae7TgU3VQ:2DRAB4h15h1zJz8RnV2QurevE`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 BFSVC Error: Failed to get partition name. Status = 0xc0000452
@@ -25,6 +27,16 @@ BFSVC Error: Failed to get system partition! Last Error = 0x3bc3
 BFSVC Error: ServicingBootFiles failed. Error = 0x3bc3
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\bfsvc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

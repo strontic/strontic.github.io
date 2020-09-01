@@ -33,6 +33,16 @@ ERROR: The system was unable to find the specified registry key or value.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WSCollect.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

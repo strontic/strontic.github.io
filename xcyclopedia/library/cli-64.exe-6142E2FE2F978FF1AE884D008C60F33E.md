@@ -4,7 +4,7 @@ title: cli-64.exe |
 
 # cli-64.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64.exe`
+* File Path: `C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64.exe`
 
 ## Hashes
 
@@ -17,15 +17,27 @@ SHA384 | `34A2C252945752EF67B838A691C35F8C6794404953CC3941F693D10D2FABDEB1D16AC3
 SHA512 | `E63DE10E3B162129638AFD2E8E72FB1C6669ADA4493CEFACE2BC379F4DE658DE81E61470CB841C978F7496772571071D257016A5D5401DA1BCCE4581A0653E0D`
 SSDEEP | `384:tPSxeWeydvCSvm6Jex2W1t9Jgwp7XzyVVVu+0vgTsV8OLDYfZCW:Fmv6i422RzlY080W`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-Cannot open C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64-script.py
+Cannot open C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64-script.py
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,7 +57,7 @@ Cannot open C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-6
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-64.exe](gui-64.exe-A24FD936C206D2E3CAA622C83D83C41A.md) | 85
+[C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-64.exe](gui-64.exe-A24FD936C206D2E3CAA622C83D83C41A.md) | 85
 
 
 

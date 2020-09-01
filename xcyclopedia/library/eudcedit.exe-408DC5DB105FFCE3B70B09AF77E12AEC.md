@@ -4,7 +4,7 @@ title: eudcedit.exe | Private Character Editor
 
 # eudcedit.exe 
 
-* File Path: `C:\windows\system32\eudcedit.exe`
+* File Path: `C:\Windows\system32\eudcedit.exe`
 * Description: Private Character Editor
 
 ## Screenshot
@@ -21,6 +21,66 @@ SHA256 | `69A75AF2A72D2BB5BDFE7FBED5D155BD0CA0F466C8AFF9F762C3C8CB182CE8ED`
 SHA384 | `4274D7F7FA166225260E99FFB79CBF22A2D2B3810A0C5462D8795E6722778287BE92CEAD3809252FF430E540C4582241`
 SHA512 | `E5EA5BB824933FA65EED59ED2EA2CD3289211FE5EF8CEC03C891BCAF1914D22641E9501CA7797B61E56767E09FD667E205D935EE7DC4E24249BFA04B7A3B8AA2`
 SSDEEP | `6144:CjbJp4VmCeYhDnyyEdRFs4ds4WTRANeEpCem6j4TPhqyF1PZSqtYVY:Cjn4tdERFsxTRnTB13tYC`
+
+## Runtime Data
+
+### Window Title:
+Private Character Editor 
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\eudcedit.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\eudcedit.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MFC42u.dll |
+C:\Windows\System32\MSCTF.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
+
 
 ## Signature
 

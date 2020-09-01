@@ -26,12 +26,23 @@ SSDEEP | `3072:Opl17KsYX1j7ZyGx8oh0b4F9BptLvibLivstwP+HUCEYQRxDlKr:Opl1Os8dxBJph
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-0C3PLRM
+On computer: DESKTOP-REAF672
 
 DiskPart has encountered an error: No mapping between account names and security IDs was done.
 See the System Event Log for more information.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\diskpart.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: ktab.exe | OpenJDK Platform binary
 
 # ktab.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jre8\bin\ktab.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -54,6 +54,17 @@ Common option(s):
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jre8\bin\ktab.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -76,12 +87,12 @@ Common option(s):
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe](jarsigner.exe-25F594CAD13F3B833E2FD7A5B6DA32BC.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe](jjs.exe-50283CF0315C0D9CB58A0C666D5CEFF7.md) | 77
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe](ktab.exe-6363AC88C034BD9BBB51F5B5B3A21B22.md) | 88
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe](ktab.exe-9538260E340CF8ECFA890862796E0C5D.md) | 86
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\jjs.exe](jjs.exe-F1EAC51F83F1299AD8072546BD948015.md) | 72
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jarsigner.exe](jarsigner.exe-25F594CAD13F3B833E2FD7A5B6DA32BC.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jjs.exe](jjs.exe-50283CF0315C0D9CB58A0C666D5CEFF7.md) | 77
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\ktab.exe](ktab.exe-6363AC88C034BD9BBB51F5B5B3A21B22.md) | 88
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\ktab.exe](ktab.exe-9538260E340CF8ECFA890862796E0C5D.md) | 86
+[C:\program files (x86)\Amazon Corretto\jre8\bin\jjs.exe](jjs.exe-F1EAC51F83F1299AD8072546BD948015.md) | 72
 
 
 

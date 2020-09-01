@@ -4,7 +4,7 @@ title: jstack.exe | OpenJDK Platform binary
 
 # jstack.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstack.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstack.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -28,8 +28,10 @@ Attaching to remote server help, please wait...
 
 ### Usage (stderr):
 ```Batchfile
-Error attaching to remote server: java.net.MalformedURLException: invalid character, '?', in URL name: ///?/SARemoteDebugger
-sun.jvm.hotspot.debugger.DebuggerException: java.net.MalformedURLException: invalid character, '?', in URL name: ///?/SARemoteDebugger
+Error attaching to remote server: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+sun.jvm.hotspot.debugger.DebuggerException: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
 	at sun.jvm.hotspot.RMIHelper.lookup(RMIHelper.java:115)
 	at sun.jvm.hotspot.HotSpotAgent.connectRemoteDebugger(HotSpotAgent.java:518)
 	at sun.jvm.hotspot.HotSpotAgent.setupDebugger(HotSpotAgent.java:374)
@@ -44,18 +46,69 @@ sun.jvm.hotspot.debugger.DebuggerException: java.net.MalformedURLException: inva
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at sun.tools.jstack.JStack.runJStackTool(JStack.java:140)
 	at sun.tools.jstack.JStack.main(JStack.java:106)
-Caused by: java.net.MalformedURLException: invalid character, '?', in URL name: ///?/SARemoteDebugger
-	at java.rmi.Naming.intParseURL(Naming.java:282)
-	at java.rmi.Naming.parseURL(Naming.java:237)
-	at java.rmi.Naming.lookup(Naming.java:96)
+Caused by: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:623)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.newCall(UnicastRef.java:343)
+	at sun.rmi.registry.RegistryImpl_Stub.lookup(RegistryImpl_Stub.java:116)
+	at java.rmi.Naming.lookup(Naming.java:101)
 	at sun.jvm.hotspot.RMIHelper.lookup(RMIHelper.java:113)
 	... 13 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at java.net.Socket.connect(Socket.java:556)
+	at java.net.Socket.<init>(Socket.java:452)
+	at java.net.Socket.<init>(Socket.java:229)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617)
+	... 19 more
 
 
 ```
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\10848 | File
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\ext\jfxrt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jfr.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\jsse.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\lib\rt.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\sa-jdi.jar | File
+(RW-)   C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\lib\tools.jar | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_10848 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstack.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -79,7 +132,7 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe](javac.exe-3A9578BFD3BB7869169BAC29E497AF55.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe](javac.exe-3A9578BFD3BB7869169BAC29E497AF55.md) | 60
 
 
 

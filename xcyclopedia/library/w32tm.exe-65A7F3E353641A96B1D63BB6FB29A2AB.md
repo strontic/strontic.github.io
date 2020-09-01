@@ -4,7 +4,7 @@ title: w32tm.exe | Windows Time Service Diagnostic Tool
 
 # w32tm.exe 
 
-* File Path: `C:\windows\SysWOW64\w32tm.exe`
+* File Path: `C:\Windows\SysWOW64\w32tm.exe`
 * Description: Windows Time Service Diagnostic Tool
 
 ## Hashes
@@ -160,6 +160,15 @@ w32tm /leapseconds /getstatus [/verbose]
   verbose: Set the verbose mode to display more information.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\w32tm.exe |
+
 
 ## Signature
 

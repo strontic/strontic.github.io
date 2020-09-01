@@ -22,6 +22,17 @@ SHA384 | `10E49BCA49346A8DBDD3374200759B2FD95AE68313C7D8D6CF1C80589BB31236C5D101
 SHA512 | `98F89C126CF159AC1BB8CFB81956CF3118CF1CB688568E6357D54C48DEF7B15ADA0E6C400D57F8097A1617DCAE0CC55FB1C0BF21F93AB92803450B90FB9A6BCF`
 SSDEEP | `768:uP0euPG+EDOUIxr51zPzzHzzzz+zPz0zzkzzRzzmdzRSzzDzPzsS8zPzAIzPzAI6:uP0eprOUIx7zPzzHzzzz+zPz0zzkzzRn`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\RegistryCleaner.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `768:uP0euPG+EDOUIxr51zPzzHzzzz+zPz0zzkzzRzzmdzRSzzDzPzsS8zPzAIzPzAI6:u
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\RegistryCleaner.exe](RegistryCleaner.exe-38192935E4087704D08F059221C4A423.md) | 97
 
 
 

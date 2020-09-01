@@ -4,7 +4,7 @@ title: MusNotificationUx.exe | MusNotificationUx.exe
 
 # MusNotificationUx.exe 
 
-* File Path: `C:\windows\system32\MusNotificationUx.exe`
+* File Path: `C:\Windows\system32\MusNotificationUx.exe`
 * Description: MusNotificationUx.exe
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `7F565A356E1BB83CFEE078DE4DF8CE7E6BF8A6EFB4FCE9ECDEF8AADBFE3A0A0BDB929F
 SHA512 | `9A8778B6B5F0A3E834607E90266449EA07B343EA93B8D473E9542F350DA6CC99B52BC86463EE9035F10E80C511AE907B625F7155FC97733F0BF9AB055A62874B`
 SSDEEP | `6144:Z9GVidiQRfoYdzQgAF6s+CH0XrmnfMAW9hMt/xPo39WXYGYvAYVeuqw986t00Mom:eQdiQ/dzQzXxo`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MusNotificationUx.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

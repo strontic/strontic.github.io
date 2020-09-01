@@ -4,7 +4,7 @@ title: tzutil.exe | Windows Time Zone Utility
 
 # tzutil.exe 
 
-* File Path: `C:\windows\SysWOW64\tzutil.exe`
+* File Path: `C:\Windows\SysWOW64\tzutil.exe`
 * Description: Windows Time Zone Utility
 
 ## Hashes
@@ -51,6 +51,17 @@ Remarks:
     An exit code of 0 indicates the command completed successfully.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\tzutil.exe |
+
 
 ## Signature
 

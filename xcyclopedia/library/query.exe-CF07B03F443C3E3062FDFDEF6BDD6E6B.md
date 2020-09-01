@@ -18,6 +18,17 @@ SHA384 | `6D46A4AEDB3E88B2AE2D709E9C9A65822D9B72FF80962FBF90B21F1EE7912CDABB556F
 SHA512 | `AA10E8F4B77CF243CD3388C693ACE6C438B5903C59C8ED2A3C226A8B8E4CB414520CEDF843BE3BC7DC9D381DFA4A12677ACC3CF6B338036EEC9FA7141665DE71`
 SSDEEP | `192:s+3WJiZoUiMuUbyeA7MAPKOK+k9C0X9iTZjtmLsYBMJ9B9QkiWkP4Wz3WGm+:zWJiwOQk9C0X9UxILsgk3KP4Wz3W7`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\query.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\query.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

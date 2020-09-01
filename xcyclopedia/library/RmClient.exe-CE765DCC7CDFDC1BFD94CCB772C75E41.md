@@ -29,6 +29,17 @@ SSDEEP | `192:EhCEJCaRmbOufN9dyQdYwmzfrKbzBQHMH1TkHWozW5Bs7HpU:sJjmbFNHyQdYwm+BQ
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\RmClient.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

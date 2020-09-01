@@ -25,6 +25,14 @@ SSDEEP | `12288:jJbcd8yYloFSV0uFGrYMcnGSeDj9//YzHXfZs:jJgd8yEV+cleP5wPG`
 ### Child Processes:
 cmd.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WebCache.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

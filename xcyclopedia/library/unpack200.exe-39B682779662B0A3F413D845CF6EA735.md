@@ -4,7 +4,7 @@ title: unpack200.exe | OpenJDK Platform binary
 
 # unpack200.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\unpack200.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\unpack200.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -43,6 +43,19 @@ Exit Status:
 
 ```
 
+### Child Processes:
+csrss.exe winlogon.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\unpack200.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -65,8 +78,8 @@ Exit Status:
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\unpack200.exe](unpack200.exe-12B5994906D8266B284D8806239A045E.md) | 96
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\unpack200.exe](unpack200.exe-15EF23137BF73C2559232C869ED877E7.md) | 88
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\unpack200.exe](unpack200.exe-12B5994906D8266B284D8806239A045E.md) | 96
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\unpack200.exe](unpack200.exe-15EF23137BF73C2559232C869ED877E7.md) | 88
 
 
 

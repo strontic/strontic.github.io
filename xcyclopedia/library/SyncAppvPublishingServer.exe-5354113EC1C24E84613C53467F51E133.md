@@ -4,7 +4,7 @@ title: SyncAppvPublishingServer.exe |
 
 # SyncAppvPublishingServer.exe 
 
-* File Path: `C:\windows\system32\SyncAppvPublishingServer.exe`
+* File Path: `C:\Windows\system32\SyncAppvPublishingServer.exe`
 
 ## Hashes
 
@@ -17,11 +17,24 @@ SHA384 | `85BDFB444867ADB44E8D8F3AFD9E526FC3519F7FC76FCDD7351E00FD8F1066F03F7BE1
 SHA512 | `182DA303B47F219C3D7FE6A9A9743E4C84FB088F8F3E0831F15B00616BEF06EB215CD7BEEEAEF32900EBC9AFCB8F0AE2CB17C2961CEB9F8FF86F08F7808CD21A`
 SSDEEP | `768:uWqD/7ecTnUtXzu81lWGFNIRTShXj1Pwjz:7LcTnCu82GFNI5StpPo`
 
+## Runtime Data
+
+### Child Processes:
+explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SyncAppvPublishingServer.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

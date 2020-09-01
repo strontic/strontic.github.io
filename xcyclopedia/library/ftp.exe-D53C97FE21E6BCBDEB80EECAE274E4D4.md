@@ -4,7 +4,7 @@ title: ftp.exe | File Transfer Program
 
 # ftp.exe 
 
-* File Path: `C:\windows\system32\ftp.exe`
+* File Path: `C:\Windows\system32\ftp.exe`
 * Description: File Transfer Program
 
 ## Hashes
@@ -53,6 +53,23 @@ Notes:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ftp.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

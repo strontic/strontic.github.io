@@ -18,6 +18,38 @@ SHA384 | `5C3615CADD018E89BBE9A536A7FFA7316764728E8029E28AA94EFCF8A89E9C8C84E1AD
 SHA512 | `87C9FFD9A0EE5FD377A7C5B38246524A4FBD18E5B2EEA5A23C688363251E8473049F7595B43B5D6062B626DE2F8F37D68BCCF4C1322F722B230AB16A7CC1E478`
 SSDEEP | `3072:E7Mc6yIZDx/HhN0Uc38lB/BAuegPO8evTq2V4:+4/BNllB5FegEv+2V`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\bcd.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\ReAgent.dll |
+C:\Windows\system32\recdisc.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

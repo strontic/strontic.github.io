@@ -18,6 +18,24 @@ SHA384 | `15339FCB2AAA0F1A306511DFF654BE427FE53A749A1E48E5AB633065D3A073A15653A4
 SHA512 | `E320B97711D0CABA74528BFD746B6C707742E21EBB98E2F9D96F7D4EFC214D7209E34B9EFFE5053CB85DA9EF41057193F0F7232E251B20BE5E43D1FA0BF2FB66`
 SSDEEP | `12288:/Uoy2lnwgFgYAF3dKF1BzzjfPAhXKkvkp/:8N2ln3qY23dKF7rP+Kkvk1`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Internet Explorer\ielowutil.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

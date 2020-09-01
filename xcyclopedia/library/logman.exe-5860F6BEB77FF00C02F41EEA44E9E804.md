@@ -4,7 +4,7 @@ title: logman.exe | Performance Log Utility
 
 # logman.exe 
 
-* File Path: `C:\windows\SysWOW64\logman.exe`
+* File Path: `C:\Windows\SysWOW64\logman.exe`
 * Description: Performance Log Utility
 
 ## Hashes
@@ -26,7 +26,7 @@ SSDEEP | `1536:xrKMkGHOonwthzqV7gGSJsh/D5LUziHKyX8aCL6ovv:hMxuIzqVs7JUD5LLKq8aLm
 Microsoft r Logman.exe (10.0.17763.1)
 
 Usage:
-  C:\windows\SysWOW64\logman.exe [create|query|start|stop|delete|update|import|export] [options]
+  C:\Windows\SysWOW64\logman.exe [create|query|start|stop|delete|update|import|export] [options]
 
 Verbs:
   create                        Create a new data collector.
@@ -167,6 +167,17 @@ Examples:
   logman start "NT Kernel Logger" -p "Windows Kernel Trace" (process,thread) -ets
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\logman.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: Windows.WARP.JITService.exe |
 
 # Windows.WARP.JITService.exe 
 
-* File Path: `C:\windows\system32\Windows.WARP.JITService.exe`
+* File Path: `C:\Windows\system32\Windows.WARP.JITService.exe`
 
 ## Hashes
 
@@ -16,6 +16,26 @@ SHA256 | `AB125094950E14CFA65DA7434C57839603C1086AF5D22646D2A667520099F6A3`
 SHA384 | `E5644F59A548B1DEE4D4D0D4E48DB11B57FD3284C33FB883B6EA61F9335204EA5F68587533CE63701F08010CC8DC95D3`
 SHA512 | `4281D256FFB6D65A1DCE842F365F6E601703A2DA494D7225A925E145DE681950FB9D15400B5A2AF65B92960FE626DFE706DF0FAE559A18D5D39694A4C1075692`
 SSDEEP | `384:iE0BxeDKqMdmBKKoKGc4vPdL+l59k7v8TMtB6SZv3/f1l5lZPwuwgm738Dri09/I:i/xeDKBreELsTCU+X/3wug38Hi+3jiq`
+
+## Runtime Data
+
+### Child Processes:
+csrss.exe winlogon.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\Windows.WARP.JITService.exe |
+
 
 ## Signature
 

@@ -22,6 +22,29 @@ SHA384 | `210FECA926B220A2AB1183AC906C15B4DDCCFD4E324D473A2D67D7EEA476FB6908077F
 SHA512 | `EE2D28941C079F2B80547EC469067D4D647BBEE4022995F5BFB7632FC75FA4965FDCE73B73603DD84F8080C62F198FFE397973B69FF03FFAE3BDC034579F5E3D`
 SSDEEP | `384:7856JZLXV44QE9yZhi82sBFd2k6eOpayE8vaXYoWepPocVfTDwzWttKWNdRVew:3Hbe4cZFFd2syE41GP7vwQxdRVew`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\dialer.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\system32\TAPI32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dialer.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: Uninstall.exe | GOM Player Setup File
 
 # Uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe`
+* File Path: `C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe`
 * Description: GOM Player Setup File
 * Comments: GOM Player Setup File (2017-05-08 17:17:42)
 
@@ -25,9 +25,20 @@ SSDEEP | `3072:EAe+3aJpgWXTBuTqkoff3m06rm7EiGxgGRaBAC9cfg2Wv+D8SWyZ:XB+pgUeqTv7c
 ### Child Processes:
 Un_A.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -47,7 +58,7 @@ Un_A.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Steam\uninstall.exe](uninstall.exe-04AC66825466772809E5F5A7D6D66292.md) | 38
+[C:\program files (x86)\Steam\uninstall.exe](uninstall.exe-04AC66825466772809E5F5A7D6D66292.md) | 38
 
 ## Possible Misuse
 

@@ -23,6 +23,16 @@ SSDEEP | `1536:CVEevZTB6bV6G86RDAm7LCmo3Dbehp9hmi+wRlOo+vi6Uf:JUTB6ppR8m7LC5DIpj
 ### Child Processes:
 mmc.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\CompatTelRunner.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

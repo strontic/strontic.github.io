@@ -4,7 +4,7 @@ title: SysResetErr.exe | Windows System Reset
 
 # SysResetErr.exe 
 
-* File Path: `C:\windows\system32\SysResetErr.exe`
+* File Path: `C:\Windows\system32\SysResetErr.exe`
 * Description: Windows System Reset
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `7994237531700A8FAE449AC3C38176E5220D167F4053466C1343F400B6AF2D47`
 SHA384 | `6B31E186973DF0361934522ADF3DA00E351B3F817CCA33C8816F84EC2CC6009549E9C20949CCE5B70078432F7E208AF2`
 SHA512 | `BBFFA9CA7D119652DBC43340F19DFB75AFF1CCA61B02F1CA8B30B268F1C608B7C59A33E1F281CEC8F5EF433505325A4486F6C0DF854CC8747DB19F7C1C41B75E`
 SSDEEP | `384:zBZHQ8g+bAEfmv224L+S9Z22BLfCeXFzQcA433QESlW5jvXVOjQ9p31EpvWOzMWF:z7HQFlEi22A4iSSbmQGHA1Xj1Px03aQ`
+
+## Runtime Data
+
+### Child Processes:
+csrss.exe winlogon.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SysResetErr.exe |
+
 
 ## Signature
 

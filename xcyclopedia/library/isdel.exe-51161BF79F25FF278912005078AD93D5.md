@@ -18,6 +18,38 @@ SHA384 | `AF6ED9D7226C7E459E66A1464A58E1442AC45BC3B8AAA0693BE644327D04EE811FBD73
 SHA512 | `C91EAC5A01EC7BFB4D3C9DF7F90A1C6C6211464ECFEDE54F7CE2F0C8A79561E4425A56EB41B48BCD89A80BD45228B2CE0C649ED92D24019A15916306D9131D8D`
 SSDEEP | `384:K3wIA7GjPE6nnP9TDWsKAkk/fG8+lmQP+0JSfgyz:MwIA7Q7tDUAdnemQVSfg`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\SysWOW64\InstallShield\_isdel.exe | File
+(RW-)   C:\Users\user | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1149834063 | Section
+\Windows\Theme2597483563 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InstallShield\_isdel.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,27 @@ SHA384 | `4579A2AA9B4BC826B046ADD638230827E4E49B72A4F78EC5766A044D91BBAFA86AB455
 SHA512 | `9E68258C0EDF69925E876B1EE3E3549C361EF82711DB1D12154B3728F678435EE0C996B3BF816F81FEEAF2ABC272D59C27080ABC55B454AF52450047F6E8FCA8`
 SSDEEP | `384:7z9lpQTYpybvONzK5dJp3S3uHCfP0knTFnmvzMqfGKvLDWRnWNA7152M:7z9lpQO+zXStvqfnv2T152`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WPDShextAutoplay.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

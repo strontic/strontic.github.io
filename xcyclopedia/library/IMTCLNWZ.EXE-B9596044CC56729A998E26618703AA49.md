@@ -22,6 +22,16 @@ SHA384 | `2A09A96E4388527DA5A73083696C2136D56EE21F2BD8F8FBECB11AB8B648FC939FDD15
 SHA512 | `F0AE2BFBB8ED6CB848D55E173668ED3216274961254F56AC2E62BD1FD0906AA38EF60CD00C7AD35B9C99936B1E05E11DB6B79D39491B480097FE16A0751AE179`
 SSDEEP | `1536:aolrgNxGltfbw2X/0xS2hQLbZ7GokSr0pHnxjNqcG5yObqs:lGxG7fbw2X/+/Q/ZSYro5Nqce`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\IMETC\IMTCLNWZ.EXE |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\IMETC\IMTCLNWZ.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

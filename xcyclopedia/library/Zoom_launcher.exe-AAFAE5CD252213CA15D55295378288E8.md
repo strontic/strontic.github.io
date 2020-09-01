@@ -24,6 +24,17 @@ SHA384 | `35BC31D560ECD06F91C3F551BC19D1B1882CBB24A9E669F99DA0AE80A98B8B1BBBA4AA
 SHA512 | `EBE40194C890F472A78E1FE06982DBD6D5DFD6A8EF0B5348E3424B126993F4D896ACD95F08F0815DF14EF9FC1C65A7770E984469EC461E5640AAE8D4184821D9`
 SSDEEP | `6144:FU/UDd8SL6H7Of5nX6hcpApmJ8ukjaRvCpRBmG:e8J8SL6bOf5X+cFJ8ukjvgG`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Zoom\bin\Zoom_launcher.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -42,6 +53,11 @@ SSDEEP | `6144:FU/UDd8SL6H7Of5nX6hcpApmJ8ukjaRvCpRBmG:e8J8SL6bOf5X+cFJ8ukjvgG`
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Zoom\bin\Zoom_launcher.exe](Zoom_launcher.exe-5E51192C636757B52DEAA9668D07612C.md) | 91
 
 
 

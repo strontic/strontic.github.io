@@ -4,7 +4,7 @@ title: wsmprovhost.exe | Host process for WinRM plug-ins
 
 # wsmprovhost.exe 
 
-* File Path: `C:\windows\SysWOW64\wsmprovhost.exe`
+* File Path: `C:\Windows\SysWOW64\wsmprovhost.exe`
 * Description: Host process for WinRM plug-ins
 
 ## Hashes
@@ -18,11 +18,39 @@ SHA384 | `14B2DA8B70D43AB4D37846F9D9B535C153A8594647B290FFD7B6126216CF6925FB01CA
 SHA512 | `9D5CB891BFA21EA058F5021B98E4DDB4BA72AAA7562558815453014093D0111716523F2DDFF1EC09F90A5D89513720673996353157E5B2AE695466E39B4756F4`
 SSDEEP | `384:RvbTjuromh33UjeUObqoqb4V7J5KDdPecvnSLXJMs2Fwmf2CSdZ9tn5TiGOaW7yT:pbTY5o4prgPecvSbE2CSdxnJi16Vr`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC68C | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\wsmprovhost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

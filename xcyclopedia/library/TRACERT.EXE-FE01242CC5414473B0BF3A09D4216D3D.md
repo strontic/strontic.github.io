@@ -4,7 +4,7 @@ title: TRACERT.EXE | TCP/IP Traceroute Command
 
 # TRACERT.EXE 
 
-* File Path: `C:\windows\system32\TRACERT.EXE`
+* File Path: `C:\Windows\system32\TRACERT.EXE`
 * Description: TCP/IP Traceroute Command
 
 ## Hashes
@@ -22,6 +22,7 @@ SSDEEP | `384:NYdbSRXUC+tQnnmoTRw3lYs9Q7aQMlmZL1ysWWlaW:NXj+mnu3Y6QZL1f`
 
 ### Usage (stdout):
 ```Batchfile
+--help is not a valid command option.
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] 
                [-R] [-S srcaddr] [-4] [-6] target_name
@@ -40,6 +41,23 @@ Options:
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\TRACERT.EXE |
+
 
 ## Signature
 

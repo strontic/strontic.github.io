@@ -28,6 +28,17 @@ SSDEEP | `12288:OKiWfsyRiBIgQJfckRH/k2qc8nzLxx4aRYOG2j8TDSZQCLyLgwxT3:OKnfsL8Jfb
 ### Child Processes:
 x64ProcessAssistSvc.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\softglow\softglow.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -46,6 +57,11 @@ x64ProcessAssistSvc.exe
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\SoftwareUpdate.exe](SoftwareUpdate.exe-C3D34B8FCFABB16846B0E4C96E7C9BC1.md) | 96
 
 
 

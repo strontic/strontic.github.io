@@ -4,7 +4,7 @@ title: expand.exe | LZ Expansion Utility
 
 # expand.exe 
 
-* File Path: `C:\windows\SysWOW64\expand.exe`
+* File Path: `C:\Windows\SysWOW64\expand.exe`
 * Description: LZ Expansion Utility
 
 ## Hashes
@@ -28,6 +28,13 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 No destination specified for: help.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

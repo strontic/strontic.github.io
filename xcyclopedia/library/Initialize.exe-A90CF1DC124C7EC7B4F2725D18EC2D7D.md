@@ -18,6 +18,16 @@ SHA384 | `8988F0476B3BF60CC67951526D1F10E0D8413F1EC5418D865B2889D5EDEBC726B6CA67
 SHA512 | `EC1121053D6A4FA46003381CD97B5BA72B5832329862FFFD8EE5666749EB03646AC8954B7B14CA45D1E0DEB6B4CD632B36290FE9BD8EE1EB108E942B01628EF9`
 SSDEEP | `3072:T1kmHv3g0DQ/sHKyMUyjknO0rpKXnVgwqUaVpp:Zv3g0sUHcUfO0l2qU6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Trillian\plugins\ingame\ingame_64.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +46,11 @@ SSDEEP | `3072:T1kmHv3g0DQ/sHKyMUyjknO0rpKXnVgwqUaVpp:Zv3g0sUHcUfO0l2qU6`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\Initialize.exe](Initialize.exe-EA2C6AEB03E449D1948991332A3BE9EE.md) | 93
 
 ## Possible Misuse
 

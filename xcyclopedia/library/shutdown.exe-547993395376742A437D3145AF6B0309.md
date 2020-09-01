@@ -104,6 +104,15 @@ E   	5	20	Loss of network connectivity (Unplanned)
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\shutdown.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

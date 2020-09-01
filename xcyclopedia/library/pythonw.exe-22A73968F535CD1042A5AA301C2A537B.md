@@ -4,7 +4,7 @@ title: pythonw.exe | Python
 
 # pythonw.exe 
 
-* File Path: `C:\Program Files (x86)\Python38-32\pythonw.exe`
+* File Path: `C:\program files (x86)\Python38-32\pythonw.exe`
 * Description: Python
 
 ## Screenshot
@@ -26,7 +26,7 @@ SSDEEP | `1536:lVu5ohIxHHWMpdPa5wiE21M8kJIGFvb1CwX/k3sHmyQ5:W5oSwMpdCq/IM8uIGf9/
 
 ### Usage (stdout):
 ```Batchfile
-usage: C:\Program Files (x86)\Python38-32\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\program files (x86)\Python38-32\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
          and comparing bytes/bytearray with str. (-bb: issue errors)
@@ -122,9 +122,20 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files (x86)\Python38-32\pythonw.exe: can't open file 'help': [Errno 2] No such file or directory
+C:\program files (x86)\Python38-32\pythonw.exe: can't open file 'help': [Errno 2] No such file or directory
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Python38-32\pythonw.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -148,8 +159,8 @@ C:\Program Files (x86)\Python38-32\pythonw.exe: can't open file 'help': [Errno 2
 
 File | Score
 -- | --
-[C:\Program Files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 72
-[C:\Program Files\Python38\pythonw.exe](pythonw.exe-B37D95BFD4A51E2847F3EB6A2F8A427E.md) | 82
+[C:\program files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 72
+[C:\program files\Python38\pythonw.exe](pythonw.exe-B37D95BFD4A51E2847F3EB6A2F8A427E.md) | 82
 
 
 

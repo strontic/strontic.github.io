@@ -4,7 +4,7 @@ title: snmptrap.exe | SNMP Trap
 
 # snmptrap.exe 
 
-* File Path: `C:\windows\system32\snmptrap.exe`
+* File Path: `C:\Windows\system32\snmptrap.exe`
 * Description: SNMP Trap
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `9CFC867BECEC3E1FCE830526108F7A7C3E9B0E2FC001EE6CDE6E49C956F781E9`
 SHA384 | `15733B97A92F22DF8FFC04D20E6C385968C7B7D7B9102B1122A759359ACB4321F9AA04185414EF7367C8E14E6111D7A5`
 SHA512 | `0289414E398B7E001571DD94C5B77655A00C435E81CA9002AAA8F6012BD4BA34B793FD6C4063BC851FF69A6DBAE8938DF90D38BAAAC687FD6AFD289BC4E4A1F6`
 SSDEEP | `384:0ulRaMStzN+lsamt6ZCCW2gOUy2QsifpKWqyW:06RwteA35y2f+u`
+
+## Runtime Data
+
+### Child Processes:
+csrss.exe winlogon.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\snmptrap.exe |
+
 
 ## Signature
 

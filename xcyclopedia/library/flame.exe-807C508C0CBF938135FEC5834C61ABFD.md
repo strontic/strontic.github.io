@@ -4,7 +4,7 @@ title: flame.exe | GNU Image Manipulation Program Plug-In
 
 # flame.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\flame\flame.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\flame\flame.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `51F9F5E0D03DC543A0F1F5B273E98A8002B48EEE68F5377A01140A53055D3D04`
 SHA384 | `721554027BB8F3CB8CF31B4423932ED213B19B8FD2F48DAB21C9582517F0F5715849AC42E552F7E1DE0099D22E589898`
 SHA512 | `51B58BDAE8CDD295DF8BDB92A81E5F9A2CEBD628DADAED793E73E80E882AF8E7B8543FD123DE8EEC07C67E60F8E6BA204BC82680D68B6F0AD8CEF425864629A1`
 SSDEEP | `3072:r9NrME63157cSQ8M/TO7FqwNHDhpDgmQb7Qw1jnGOHLyoQSfmIB7g2:rXyQ3aYwNHDhxshjGuLyoQRQ`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\flame\flame.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

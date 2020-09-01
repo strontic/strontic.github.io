@@ -4,7 +4,7 @@ title: spaceman.exe | Storage Spaces Manager
 
 # spaceman.exe 
 
-* File Path: `C:\windows\system32\spaceman.exe`
+* File Path: `C:\Windows\system32\spaceman.exe`
 * Description: Storage Spaces Manager
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `7BCAF430B2E83FDFE93E3761C438A7FAE253E761F77904512597B8A1DDF5BAB938C3E9
 SHA512 | `0FFD3F6AEC43D6A26EFFD4B23EE7E79FD13030090B80FDEF0B15182D10DF89DC8C8D2EAD4E9AAF4C598246996EC1E9D1455ED2B38D686A6C72367BB67169D03B`
 SSDEEP | `768:QD7WDTytcyiLCQOsG1xmOT8zRz5CVQK5jYrL+FQnKDQLgPrWnnqbSS:omTg7iLK11UE8vEQKKrLmQnBLgPrWnqD`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\spaceman.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

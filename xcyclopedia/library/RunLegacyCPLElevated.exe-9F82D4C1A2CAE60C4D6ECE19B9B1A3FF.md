@@ -18,6 +18,16 @@ SHA384 | `CB469A1B915D40459BD3E8CAE118C5B92ADD1FA56DB1D9741647267D0FBDEEFB89B611
 SHA512 | `ED7305A7B8D3E1BAAE7830B445E25564CC101E4408AEA2366344C34A4BB4C7919FA3ACCF272F084BB13EEA8A74ED8872C7EF261546D84D8915A020752DA410A7`
 SSDEEP | `768:ArloTbTCi3PoU/MGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUX:0yTPoU/Mxakkn6oYY0ewiP8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\RunLegacyCPLElevated.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RunLegacyCPLElevated.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: fodhelper.exe | Features On Demand Helper
 
 # fodhelper.exe 
 
-* File Path: `C:\windows\system32\fodhelper.exe`
+* File Path: `C:\Windows\system32\fodhelper.exe`
 * Description: Features On Demand Helper
 
 ## Hashes
@@ -17,6 +17,40 @@ SHA256 | `B1223B86D03C3583B84E46A9A6AD009D770FC4114640402EDE19793167593A8F`
 SHA384 | `9558658080010B4C92BE066A6090AE7E6063D6899476FFB4B4183FA3067BA55341D666B67871F6FF1D2DF062BEDCB0FD`
 SHA512 | `93249CCBF00B0CC62C9EB05535563C443A37830CE5EAB6EC068CA50EF544E9643F8C5E3E6EC484F6A1767F3D21894CD99D9329EC4BBF02FEE7BB895CC75BA394`
 SSDEEP | `768:YqpZqknV+b+pvxg9JWSALQJnjpt6V3Glw1mHXrzg31TdavZZ7RRr:pqQApW3WOV3Gy1mHX61TSZZTr`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\system32\fodhelper.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+
 
 ## Signature
 

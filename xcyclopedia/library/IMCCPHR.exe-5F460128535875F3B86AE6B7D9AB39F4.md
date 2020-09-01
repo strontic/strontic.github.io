@@ -4,7 +4,7 @@ title: IMCCPHR.exe | IMCCPHR.exe
 
 # IMCCPHR.exe 
 
-* File Path: `C:\windows\SysWOW64\IME\shared\IMCCPHR.exe`
+* File Path: `C:\Windows\SysWOW64\IME\shared\IMCCPHR.exe`
 * Description: IMCCPHR.exe
 
 ## Screenshot
@@ -21,6 +21,37 @@ SHA256 | `0AF80B99555749B2A43EF6480826F99B03F64A4B5073AA9C13A7056C163FCB0E`
 SHA384 | `D48462C19BF198A9FFD012910B14B65BB967279486F69FB737E96396329941CD48E284AFB18BC24883D1A5D8E8B822D2`
 SHA512 | `1ECD84E4550B554BE52695E9E2A6945731FEF71AB9E9DC9A78A9C27F1B0389E75CCC0F293AFA82E319D83DB59623895BF37F23337810A0A98877F96C010FF3A7`
 SSDEEP | `6144:Vxo8/rDRDL0q7UVt6F/Sg5BxyOLvr8SjOj95qOlx8uSXmCPwP6k+kc8DZ5n4:VxNvWtSBxyWvr8SjOBSuSXmH6k+kcuv`
+
+## Runtime Data
+
+### Window Title:
+User-defined Phrase Tool for Microsoft Pinyin IME
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\shared\IMCCPHR.exe |
+
 
 ## Signature
 

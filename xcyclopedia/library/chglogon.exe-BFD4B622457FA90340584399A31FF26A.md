@@ -18,6 +18,8 @@ SHA384 | `AF0208C3B0A649A8B32C2ADDF82300C640D01C8D91799B5D6A27C64F1F1619F952F6E1
 SHA512 | `ED2F1630D1959985A2451390BA23E715DFFC4DDB53AAA31A29CB3BE0254EF3D3134E5B9A7B9004CB789039F70C86F5AD2944449762CB90DB2106619BBBB412AC`
 SSDEEP | `384:eaW09CP88q3BakXPOLlMtFb5LzE0zSWZEWE:eanmqttFPzN`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Invalid parameter(s)
@@ -32,6 +34,16 @@ CHANGE LOGON {/QUERY | /ENABLE | /DISABLE | /DRAIN | /DRAINUNTILRESTART}
   /DRAINUNTILRESTART    Disable new user logons until the server is restarted, but allow reconnections to existing sessions.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\chglogon.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

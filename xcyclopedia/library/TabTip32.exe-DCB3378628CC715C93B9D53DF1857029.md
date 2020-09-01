@@ -4,7 +4,7 @@ title: TabTip32.exe | Touch Keyboard and Handwriting Panel Helper
 
 # TabTip32.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe`
+* File Path: `C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe`
 * Description: Touch Keyboard and Handwriting Panel Helper
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `ED7E9E46DC90DC6FDF6F6E67BAB6176950666DAAF8D33FDE85DF875CF856CFF7`
 SHA384 | `0D655BF05E9B6390C8DEEB34EE59DBF87F0FFE5BF407AFFF4C679844A34FED32B451568E2D9EADE91D9AA891CA78FE6E`
 SHA512 | `9BD5E81E9112ED0649F338B5944821670182626FC7F57290276C75D8624D29C71EDC2D40CF2ED75CFB681CC1A55ABF6F0DC5DA9F98F90A8380DA01D67AFCA7A7`
 SSDEEP | `384:BoOSOp8Zg7SWS2WqD1IDBRJt3wUifl/zdA:ZiZg7OmI1PFwP`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

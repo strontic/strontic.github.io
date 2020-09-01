@@ -4,7 +4,7 @@ title: TeraCopyService.exe | TeraCopy Service
 
 # TeraCopyService.exe 
 
-* File Path: `C:\Program Files\TeraCopy\TeraCopyService.exe`
+* File Path: `C:\program files\TeraCopy\TeraCopyService.exe`
 * Description: TeraCopy Service
 
 ## Hashes
@@ -27,6 +27,27 @@ To uninstall your service please type <service name> /remove
 For help please type <service name> /? or /h
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\TeraCopy\TeraCopyService.exe |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\oleaut32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

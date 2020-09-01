@@ -18,6 +18,23 @@ SHA384 | `06DA1482BA6DA57961CD5E25A610D327CDD69F8F08FF923077D55788F6D3B1951EF845
 SHA512 | `AC50C53E4F1CB91392C99235428820C04A9EBC1DF8D97C044FCB0ED64D7934CD94A2433F6BB32B5EFAD56613FEA3C25619FD560192EEA46BCF59027E4EF65B30`
 SSDEEP | `3072:e1tbLeyxsQTMKfn39sv8gNDVkDkZH6wL5scRwpGbi1Bp3nThP9DxxyM8M:ue9KFONDVZZawL5scGx3nnDWM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\Dxpserver.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\Dxpserver.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: Adobe AIR Application Installer.exe | Adobe AIR Application Installer
 
 # Adobe AIR Application Installer.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe`
+* File Path: `C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe`
 * Description: Adobe AIR Application Installer
 
 ## Screenshot
@@ -29,6 +29,39 @@ SSDEEP | `3072:WH25hogaS00EoVEf0y4ac5KNi01x/joc1CkM7MpiigEsMkFB:+bSQZiaQMkFB`
 unexpected error: ArgumentError: Absolute path of the air file needs to be specified.
 
 ```
+
+### Window Title:
+Application Install
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\e64HWNDInterface:2500f8 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: cacls.exe | Control ACLs Program
 
 # cacls.exe 
 
-* File Path: `C:\windows\SysWOW64\cacls.exe`
+* File Path: `C:\Windows\SysWOW64\cacls.exe`
 * Description: Control ACLs Program
 
 ## Hashes
@@ -66,6 +66,17 @@ SSDEEP | `384:5SC64JchhMN4djZ8aN62ym/mBEGRVYg3d1FLZBFvZhmi0DqGwNR9WXDWH:A4JchtZj
          The ACE was inherited from the parent directory's ACL.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cacls.exe |
+
 
 ## Signature
 

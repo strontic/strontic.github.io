@@ -4,7 +4,7 @@ title: foobar2000 Shell Associations Updater.exe | foobar2000 Shell Associations
 
 # foobar2000 Shell Associations Updater.exe 
 
-* File Path: `C:\Program Files (x86)\foobar2000\foobar2000 Shell Associations Updater.exe`
+* File Path: `C:\program files (x86)\foobar2000\foobar2000 Shell Associations Updater.exe`
 * Description: foobar2000 Shell Associations Updater
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `1536:U+E8n7FPyTCdSbhNlokYmsRB5tNRG9Mf:Ux8n7IudSbhQmsR7tNRG9M`
 ### Child Processes:
 regsvr32.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\foobar2000\foobar2000 Shell Associations Updater.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\foobar2000\foobar2000 Shell Associations Updater.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\foobar2000\foobar2000 Shell Associations Updater.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

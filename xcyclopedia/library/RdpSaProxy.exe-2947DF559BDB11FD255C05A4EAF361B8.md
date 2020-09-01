@@ -4,7 +4,7 @@ title: RdpSaProxy.exe | RDP Session Agent Proxy
 
 # RdpSaProxy.exe 
 
-* File Path: `C:\windows\SysWOW64\RdpSaProxy.exe`
+* File Path: `C:\Windows\SysWOW64\RdpSaProxy.exe`
 * Description: RDP Session Agent Proxy
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `112725AA0A890535231F201529CB5F382E5F00959F268A6A637818B74216D13C`
 SHA384 | `3943AC1EAA42298C2041DB743EE3F22596F9DAA7FA5CAE63D1594115A93BEC07ECD17FBE9D3956B7D3D96F8BCCB425FD`
 SHA512 | `6CA065C8CD00FEAEFBF02B609F3B4A48B6ACF56B47DDD804DD0CC6D9CEC92F6635A6A99C7AA89D0948BAA075C99FC2C2E5418808F9548ABB04734DD85B0D4176`
 SSDEEP | `384:DWHcb1IjTeoxeuOgZ3RuXWCAEavz9xwJMxZFWWF9VWfbz:a01I/eoxew9RJCqxRZFHmb`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECFA8 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

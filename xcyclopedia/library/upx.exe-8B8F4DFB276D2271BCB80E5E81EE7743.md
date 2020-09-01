@@ -4,7 +4,7 @@ title: upx.exe | UPX executable packer
 
 # upx.exe 
 
-* File Path: `C:\Program Files\PeaZip\res\upx\upx.exe`
+* File Path: `C:\program files\PeaZip\res\upx\upx.exe`
 * Description: UPX executable packer
 
 ## Hashes
@@ -266,9 +266,19 @@ UPX comes with ABSOLUTELY NO WARRANTY; for details visit https://upx.github.io
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\PeaZip\res\upx\upx.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\PeaZip\res\upx\upx.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\PeaZip\res\upx\upx.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

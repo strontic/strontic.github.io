@@ -4,7 +4,7 @@ title: msfeedssync.exe | Microsoft Feeds Synchronization
 
 # msfeedssync.exe 
 
-* File Path: `C:\windows\SysWOW64\msfeedssync.exe`
+* File Path: `C:\Windows\SysWOW64\msfeedssync.exe`
 * Description: Microsoft Feeds Synchronization
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `FF2144014012A9BDEB2F2E1775BA18EA0810CFA2771CFDC9BC075A2E3716C219`
 SHA384 | `3A6AAEE7DF51E0D61B746152F13B048B6F1D1D0B6B471A250C7DE3898CA55B83480803A5661086179B6249E1BE0EF3B4`
 SHA512 | `F258341EF0E88324AAD807968572CA9C29F970BB73CF13213135026317580F4FF416E0461828FCC27B58A0EE0726E43BE9243590AEF34CC3DAF22C7D2D7305A4`
 SSDEEP | `192:Iu6hgnIpf3E4CAjSUb+lDAB808qmqObZDRM/2mdopWcsHMhQY8:IbSnIhFCgFb+2imqbZDC+PpWcsHQQV`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msfeedssync.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: hh.exe | Microsoft HTML Help Executable
 
 # hh.exe 
 
-* File Path: `C:\windows\hh.exe`
+* File Path: `C:\Windows\hh.exe`
 * Description: Microsoft HTML Help Executable
 
 ## Screenshot
@@ -22,11 +22,93 @@ SHA384 | `F4692DE1F5DDDAAAFAACF80D65B3CA91E37711EE1D358C2F4E29A57F650679C50B444B
 SHA512 | `B72A87C998BFF58C72241072BCDC682CDFC2154EF054F5F95B1CE87BDA44D9E9B16D1E43F708FBDB6BF37D73F8E7789D5226BCFFB96467383A14700E6C0600D0`
 SSDEEP | `192:NZ4u99dac1vr3rS3N0MwfafE06YU/Shm5GJ1KDJD/4Wcg:NZ46Mc5vSCaE0TKI1KDWWcg`
 
+## Runtime Data
+
+### Window Title:
+File Download
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\ADMINI~1\AppData\Local\Temp\2\~DFBD73578C39E7EE85.TMP | File
+(R-D)   C:\Windows\en-US\hh.exe.mui | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
+(R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mshtml.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\urlmon.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\System32\ieframe.dll | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\Administrator\Documents\help | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_6d06464259f9d059 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RWD)   C:\Users\ADMINI~1\AppData\Local\Temp\2\~DF3F154201CB292DD5.TMP | File
+(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\Administrator\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RWD)   C:\Users\Administrator\Documents | File
+(RWD)   C:\Windows\Fonts | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\RPC Control\DSEC194C | Section
+\Sessions\2\BaseNamedObjects\194cHWNDInterface:60cf8 | Section
+\Sessions\2\BaseNamedObjects\194cHWNDInterface:90d00 | Section
+\Sessions\2\BaseNamedObjects\MSIMGSIZECacheMap | Section
+\Sessions\2\BaseNamedObjects\UrlZonesSM_Administrator | Section
+\Sessions\2\BaseNamedObjects\windows_ie_global_counters | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-1447986456-1901615417-2876639522-500 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\hh.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\hhctrl.ocx |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_6d06464259f9d059\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

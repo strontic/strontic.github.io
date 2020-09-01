@@ -18,6 +18,16 @@ SHA384 | `DB841E126286DF7DE01FF43308DA1524C7315BDF41E00583831D15FF34CDD63973A586
 SHA512 | `4A2EF0F8C7CB08B8E9F517C3EC0780E523626016305FA6341F631A28947844B6CD7CE511F120E579701196BDA4B715A840AFF6726853E1FA604500824996594F`
 SSDEEP | `1536:IXDEz6DOBN4ncmsfNj64g+1vk2GwL1vk2GwmXQBnKAd5:IXDUNDHfF64g2PmXQBnKI5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\IME\SHARED\imecfmui.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\IME\SHARED\IMEDICTUPDATEUI.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

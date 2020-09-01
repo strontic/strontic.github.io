@@ -4,7 +4,7 @@ title: vnclicensewiz.exe | VNC Server Licensing
 
 # vnclicensewiz.exe 
 
-* File Path: `C:\Program Files\RealVNC\VNC Server\vnclicensewiz.exe`
+* File Path: `C:\program files\RealVNC\VNC Server\vnclicensewiz.exe`
 * Description: VNC Server Licensing
 
 ## Screenshot
@@ -24,8 +24,58 @@ SSDEEP | `49152:VB+nu27CGf/bn+KUYQHF9XbNR8YOfu4Lia05EKcpZTWrwoZJ46FMiLe9GzdrIqqz
 
 ## Runtime Data
 
-### Child Processes:
-conhost.exe vnclicensewiz.exe WerFault.exe
+### Window Title:
+VNC Server - Licensing
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\RealVNC\VNC Server\vnclicensewiz.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\DSROLE.DLL |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\LOGONCLI.DLL |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\NETAPI32.dll |
+C:\Windows\SYSTEM32\NETUTILS.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\SYSTEM32\SAMCLI.DLL |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\SYSTEM32\SRVCLI.DLL |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\windows.storage.dll |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+
 
 ## Signature
 

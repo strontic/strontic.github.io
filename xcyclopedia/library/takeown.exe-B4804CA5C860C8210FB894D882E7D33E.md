@@ -18,6 +18,16 @@ SHA384 | `23DB5E621872322BC4A291D9B4D42B10617D7A680E203D61B5B6A6F4CDE8D513A60501
 SHA512 | `10DF193F2D0113E217C80965FE149BEFFA128DF513CF68C69FCC428371CA40A652CFBCB39B02B2319BC39D6B185015F2F1B17E197C24054C3A802ACB459148CA`
 SSDEEP | `1536:/nGSpfE65t75MbF8o4cbxnzuttd/Gbrj3VKMV7bvVQX4xQq:zR395MbFZzuB83VjQX4xL`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\takeown.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\takeown.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

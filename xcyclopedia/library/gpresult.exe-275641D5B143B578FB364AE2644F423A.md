@@ -4,7 +4,7 @@ title: gpresult.exe | Query Group Policy RSOP Data
 
 # gpresult.exe 
 
-* File Path: `C:\windows\system32\gpresult.exe`
+* File Path: `C:\Windows\system32\gpresult.exe`
 * Description: Query Group Policy RSOP Data
 
 ## Hashes
@@ -95,6 +95,16 @@ ERROR: Invalid syntax. Value expected for '/h'.
 Type "GPRESULT /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\gpresult.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

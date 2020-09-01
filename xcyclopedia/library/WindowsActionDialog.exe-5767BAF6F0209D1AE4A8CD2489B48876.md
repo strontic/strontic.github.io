@@ -4,7 +4,7 @@ title: WindowsActionDialog.exe | Windows Action Dialog Broker
 
 # WindowsActionDialog.exe 
 
-* File Path: `C:\windows\system32\WindowsActionDialog.exe`
+* File Path: `C:\Windows\system32\WindowsActionDialog.exe`
 * Description: Windows Action Dialog Broker
 
 ## Hashes
@@ -17,6 +17,14 @@ SHA256 | `F27A32776E3FCE6C6A5D3A9D46A84A286F71FD8380C5A7065EE34C3EC3D7932F`
 SHA384 | `7E6338787ECE06C7D563A8683A7E79DA1128BD5762E4EF3EF36B2B4664C48F68C7B6B94D6C850361A9542281752CA9E8`
 SHA512 | `795435DFB72C2384DCC9D5EB3D941AC120940AD3E3640CD4F79A6FC33F56DF2BE8E366D4C386D561A016BF8992A9CB05F607E6A93752EC814B47211A5FFD548E`
 SSDEEP | `1536:GyLheN/QeJUatmaAa0/4kvqq4/ZnBNir9cIB5y4:GmG/DtVV0lQtiWIBA4`
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\Windows.WARP.JITService.exe |
+
 
 ## Signature
 

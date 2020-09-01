@@ -4,7 +4,7 @@ title: charmap.exe | Character Map
 
 # charmap.exe 
 
-* File Path: `C:\windows\SysWOW64\charmap.exe`
+* File Path: `C:\Windows\SysWOW64\charmap.exe`
 * Description: Character Map
 
 ## Screenshot
@@ -21,6 +21,48 @@ SHA256 | `E3F7F0CC0CB19FAA1549B6648E16846E4D981F14E6B2B731C15B2E57D9D791C4`
 SHA384 | `CCB0036A2014567AB784F6FF6838193FB8BE5DD67092AC4C1DDE7DC07BA10C64F5AFA1D3BC3C7F2BBD6C636439613539`
 SHA512 | `E750FA7F7EEB2C4984A4164B5EA0B69E4FA2BF8D0574BDC53A824FF9D1DAE6E1862D3C34D758542016D4972816DC2FCA163671BD2F6E79F7CBA8299EE0AD8582`
 SSDEEP | `3072:VgVkUh7btworuDENUTzAs6dgDnXIVbrLF5NUdrSO9K/tagbdDu5nBdeG:A7btIDENUTzAbdgDnYlbgqt5g5e`
+
+## Runtime Data
+
+### Window Title:
+Character Map
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Windows\SysWOW64\bopomofo.uce | File
+(R--)   C:\Windows\SysWOW64\gb2312.uce | File
+(R--)   C:\Windows\SysWOW64\ideograf.uce | File
+(R--)   C:\Windows\SysWOW64\kanji_1.uce | File
+(R--)   C:\Windows\SysWOW64\kanji_2.uce | File
+(R--)   C:\Windows\SysWOW64\korean.uce | File
+(R--)   C:\Windows\SysWOW64\ShiftJIS.uce | File
+(R--)   C:\Windows\SysWOW64\SubRange.uce | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\getuname.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\charmap.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC12C0 | Section
+\Sessions\2\BaseNamedObjects\12c0HWNDInterface:9909de | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\charmap.exe |
+
 
 ## Signature
 

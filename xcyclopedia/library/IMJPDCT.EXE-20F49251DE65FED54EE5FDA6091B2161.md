@@ -22,6 +22,17 @@ SHA384 | `42AF74576989103AC8C1583F9779CED5B1507A394778DADF5C535040FCC23083C31132
 SHA512 | `FFD4711978BADA436A1ECA598C5F3A23A1881D90DF5F377F17905CB59D275704B5690130AC44638CFFD1E4845AE2CC90C822B7EA7F33370F1CC282184B9D5E29`
 SSDEEP | `12288:Qeq+WbflW3Y7A9dhbREBLBaW2nTxhPmXdAp8q52:QlVCQ2hPmXdAp8q`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\ImgBurn\ImgBurnPreview.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\IME\IMEJP\IMJPDCT.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

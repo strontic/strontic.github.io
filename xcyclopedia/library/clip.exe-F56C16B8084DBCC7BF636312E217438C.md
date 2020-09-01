@@ -4,7 +4,7 @@ title: clip.exe | Clip - copies the data into clipboard
 
 # clip.exe 
 
-* File Path: `C:\windows\system32\clip.exe`
+* File Path: `C:\Windows\system32\clip.exe`
 * Description: Clip - copies the data into clipboard
 
 ## Hashes
@@ -43,10 +43,20 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "CLIP /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\clip.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

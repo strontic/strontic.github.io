@@ -18,6 +18,23 @@ SHA384 | `DE02F9FFE6A6FD75F9F436C988A047E895A6785D1B731635C27A084EE28E1D4723370D
 SHA512 | `86F8C96F19205456D0A73501E19B1767D03EEB5067D60A93DBA1E40B04A1448D1C1083ADBE9EEB3C3E7EDA2B65B8C36C758F89E5986DDCC4325AD95C4D8E8E4E`
 SSDEEP | `768:U004d0m+MgrKxaNWWPhfISuVfGsWruqnj+0ngYlSzwBzbKf4RaWy2eCf:UZDrK0NWWPh7u5G/ruqjBJlSqHI4Hy2X`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LicenseManagerShellext.exe |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

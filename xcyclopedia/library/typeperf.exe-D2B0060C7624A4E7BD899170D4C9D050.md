@@ -4,7 +4,7 @@ title: typeperf.exe | Command line performance monitor
 
 # typeperf.exe 
 
-* File Path: `C:\windows\system32\typeperf.exe`
+* File Path: `C:\Windows\system32\typeperf.exe`
 * Description: Command line performance monitor
 
 ## Hashes
@@ -29,7 +29,7 @@ Typeperf writes performance data to the command window or to a log file. To
 stop Typeperf, press CTRL+C.
 
 Usage:
-C:\windows\system32\typeperf.exe { <counter [counter ...]> 
+C:\Windows\system32\typeperf.exe { <counter [counter ...]> 
                                 | -cf <filename> 
                                 | -q [object] 
                                 | -qx [object] 
@@ -70,6 +70,13 @@ Examples:
   typeperf -qx PhysicalDisk -o counters.txt
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

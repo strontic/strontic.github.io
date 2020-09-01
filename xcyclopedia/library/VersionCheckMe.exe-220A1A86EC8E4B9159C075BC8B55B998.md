@@ -4,7 +4,7 @@ title: VersionCheckMe.exe | VersionCheckMe Application
 
 # VersionCheckMe.exe 
 
-* File Path: `C:\Program Files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe`
+* File Path: `C:\program files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe`
 * Description: VersionCheckMe Application
 
 ## Hashes
@@ -34,6 +34,16 @@ Test: FAILED {Failed to find other method test key/value set}
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -56,9 +66,9 @@ Test: FAILED {Failed to find other method test key/value set}
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Apple\Apple Application Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 33
-[C:\Program Files (x86)\Common Files\Apple\Apple Application Support\plutil.exe](plutil.exe-7B40123D5C077F3BE9511A7507990A9C.md) | 35
-[C:\Program Files (x86)\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-A7AB1130391C0261B6AEEFBDC4EAEF5E.md) | 43
+[C:\program files (x86)\Common Files\Apple\Apple Application Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 33
+[C:\program files (x86)\Common Files\Apple\Apple Application Support\plutil.exe](plutil.exe-7B40123D5C077F3BE9511A7507990A9C.md) | 35
+[C:\program files (x86)\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-A7AB1130391C0261B6AEEFBDC4EAEF5E.md) | 43
 
 
 

@@ -18,6 +18,13 @@ SHA384 | `715913C7052447911BAF1E4B9068D417572EB72731CA355FC729A726C4A7A17F59A33C
 SHA512 | `067526B3539BD29E0F0F06FCA167ED3B6FA802DBE19A75B0DE5466E97AC4CF8DC09107E2425827E71097ED029E0102A63FE848CB77B728E734781C5D6AFBE69E`
 SSDEEP | `96:IzX93EfVlX7k7d7xKDWPTQ+JDHQtX/QW6oRTJUw0FU/DJdMi2bKveLrxuJRd1EWi:IzXZEfATdGQW6oRT10F+Puxu/MWYOWV`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\write.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

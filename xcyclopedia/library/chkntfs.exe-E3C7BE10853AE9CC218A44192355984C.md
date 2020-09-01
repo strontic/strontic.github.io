@@ -48,6 +48,15 @@ dirty or scheduled to be checked on next reboot.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\chkntfs.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

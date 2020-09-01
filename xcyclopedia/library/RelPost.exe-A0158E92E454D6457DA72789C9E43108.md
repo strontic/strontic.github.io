@@ -18,6 +18,13 @@ SHA384 | `CB81CF455EC275B13F7D039EEEB6395BFB6882821D4BBF45D0A68761677741143179D8
 SHA512 | `D10789B6716C0D9A5AF7ECC7BFDECA751412B2385D4511005E6D8E227237702FA32206CB0DCAD33EDAAC310C9780469D43681792CD123776BF2BBD6E7D63EB8F`
 SSDEEP | `3072:VxzIEPCaOMcVPY6VAEOWdrTeZA4N7MrHXpaGJAuegPO8evTq2V:Vx7kVPY47OenI8FegEv+2V`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\RelPost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

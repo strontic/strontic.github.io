@@ -18,6 +18,25 @@ SHA384 | `4DE79298052B1FBE3241F8117BB4CF1D2EA3B9A375A9ECE10A33039006C885F91AD4DE
 SHA512 | `54C8945DCC3313B72FABC7C377350E5AACD626342652F6761E2415A653D3FE6C443FFA02AB36FDF61725266CDFE4EA174E2E196768B1F99096227EDF66032774`
 SSDEEP | `6144:DFfLdxsj3kCyrith2E/ZFgCcnUlPZYylSb/4wmb0MOZUWhGWjcj2m:RjYTks2E/vgCHPzIQqrtmq`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\conhost.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\conhost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: LockScreenContentServer.exe | LockScreenContent Server
 
 # LockScreenContentServer.exe 
 
-* File Path: `C:\windows\system32\LockScreenContentServer.exe`
+* File Path: `C:\Windows\system32\LockScreenContentServer.exe`
 * Description: LockScreenContent Server
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `1F7DE5D4699A7129B1C02F963DFECF0E6009804BC27C90A105C9E8907417766A`
 SHA384 | `3A346DC8E52D421F0D733DD397DA7FE9949E1F91162C57932FCB94EE855B5C90D5A4B362FDA7387E0880180EF0E70ADC`
 SHA512 | `6648741D8CFFC627471B7FF54DDF396DD47B3DCC44826407B4F66061718F2055D44EFA4C80D6220F2CC4556AC051C59074FBF809EF6A48E486A08C64F5B09D73`
 SSDEEP | `768:os9qts03uq797jOLL0h6LsiGAdiGtk6ZxWnPHJ1UXSXj1PkXLP3:bsztosiziX6ZxWnPHJ1xpPkbP`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSECE3C | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\LockScreenContentServer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

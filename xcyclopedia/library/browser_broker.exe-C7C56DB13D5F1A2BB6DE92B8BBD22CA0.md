@@ -18,6 +18,21 @@ SHA384 | `C9B92DF4FDA02A72A69EDCD729CDD0355E3260A81ADC956BE8CEF4BE4FDD8BD074709D
 SHA512 | `B7D27488AE9235A800145062C7146C455D903BEEEC5B2049B3A340B15C13C611C0F0138305F552593736604390F8DD4915A94212B34DDF8B8CE66421F254F18C`
 SSDEEP | `384:/789syaX6EptzFas9SYtSZu0h5Q2DgWQHFWMWbHFWumXjDBRJp81Zl9Qz:/geXPXzcW0ha2DKEyXj1PAY`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\browser_broker.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

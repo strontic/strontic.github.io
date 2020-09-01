@@ -4,7 +4,7 @@ title: EvernoteNw.exe |
 
 # EvernoteNw.exe 
 
-* File Path: `C:\Program Files (x86)\Evernote\Evernote\NodeWebKit\EvernoteNw.exe`
+* File Path: `C:\program files (x86)\Evernote\Evernote\NodeWebKit\EvernoteNw.exe`
 
 ## Hashes
 
@@ -21,6 +21,52 @@ SSDEEP | `786432:0XA0NfKaOpeKMlcM1btVA/j9+F8ZeqiWpA8:0w0NiaOpeKkntVA/j9+FGHdW8`
 
 ### Child Processes:
 EvernoteNw.exe EvernoteNw.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Users\user\AppData\Local\EvernoteNW\lockfile | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Program Files (x86)\Evernote\Evernote\NodeWebKit\icudtl.dat | File
+(RW-)   C:\Program Files (x86)\Evernote\Evernote\NodeWebKit\nw.pak | File
+(RW-)   C:\Users\user\AppData\Local\EvernoteNW\Cache\73ecb829d0c0f2ff_0 | File
+(RW-)   C:\Users\user\AppData\Local\EvernoteNW\cookies | File
+(RW-)   C:\Users\user\AppData\Local\EvernoteNW\Local Storage\file__0.localstorage | File
+(RW-)   C:\Users\user\AppData\Local\EvernoteNW\Web Data | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RWD)   C:\Users\user\AppData\Local\EvernoteNW\GPUCache\data_0 | File
+(RWD)   C:\Users\user\AppData\Local\EvernoteNW\GPUCache\data_1 | File
+(RWD)   C:\Users\user\AppData\Local\EvernoteNW\GPUCache\data_2 | File
+(RWD)   C:\Users\user\AppData\Local\EvernoteNW\GPUCache\data_3 | File
+(RWD)   C:\Users\user\AppData\Local\EvernoteNW\GPUCache\index | File
+(RWD)   C:\Windows\System32\drivers\etc | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\404HWNDInterface:910284 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Evernote\Evernote\NodeWebKit\EvernoteNw.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

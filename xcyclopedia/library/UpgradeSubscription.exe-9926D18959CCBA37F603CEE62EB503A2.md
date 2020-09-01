@@ -18,6 +18,13 @@ SHA384 | `9AC73E9045FA742886FE83AFDC8524CC239B3F0C984DA988296CFD135BE5A726EF5EFF
 SHA512 | `10F744468A3A0C852B101A7C0DD50A54C55FDCA37EE2A91625F03C01DAF1054C538711567ECDB784D189EA1BCEB395D7F2F6AD181043F94ECFF8BA72327BC761`
 SSDEEP | `1536:gL+gpXxpD7f0SjVzc0a6A1TkISXo7zroljY3TlTCas4qu9t0awb:gL+O7f0oVzKoo7z9l/sbu9yRb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\WINDOWS\system32\UpgradeSubscription.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

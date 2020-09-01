@@ -18,6 +18,14 @@ SHA384 | `6096B776329F699EC304F2423C6A8A40E0D78F5439C304D393E5472F28E6FE29FBB5B5
 SHA512 | `5E0DDCA6B36CDE672FFF954052BC93D372FB1EA0CF191642506258F7EE99F3286B5D2ABB733886955E3545BD4941A666685498966AFABC5062E3E5ECB4AAF348`
 SSDEEP | `384:YjvsEbTu/vIDpLYEQFRtV64Xcw4juQbQuka3j6r8G//W/QFW5Iwme6e:aCEQFt6Rj8uDj6rFTEIV1`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\netbtugc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\netbtugc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

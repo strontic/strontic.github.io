@@ -4,7 +4,7 @@ title: extrac32.exe | Microsoft CAB File Extract Utility
 
 # extrac32.exe 
 
-* File Path: `C:\windows\SysWOW64\extrac32.exe`
+* File Path: `C:\Windows\SysWOW64\extrac32.exe`
 * Description: Microsoft CAB File Extract Utility
 
 ## Hashes
@@ -25,23 +25,37 @@ SSDEEP | `768:zYDhe6vxKKGWodru4ZpzBnaLR6ZQhLhstdNus:zOheqxKbpz5a1nhYXus`
 Microsoft (R) Cabinet Extraction Tool
 Copyright (c) Microsoft Corporation. All rights reserved..
 
- Cabinet help
+EXTRACT [/Y] [/A] [/D | /E] [/L dir] cabinet [filename ...]
+EXTRACT [/Y] source [newname]
+EXTRACT [/Y] /C source destination
 
-07-01-2020  1:36:02a A---         2,362 ReportingEvents.log
-07-01-2020  2:35:44a A---     1,118,208 Microsoft-Windows-AppXDeploymentServer-Operational.evtx
-07-01-2020  2:35:44a A---        69,632 Microsoft-Windows-Store-Operational.evtx
-07-01-2020  2:35:46a A---        69,632 Microsoft-Windows-WindowsUpdateClient-Operational.evtx
-07-01-2020  2:35:46a A---        69,632 Microsoft-Windows-TWinUI-Operational.evtx
-07-01-2020  1:35:58a A---        20,480 WindowsUpdate.20200701.013557.254.1.etl
-07-01-2020  1:40:08a A---       139,264 WindowsUpdate.20200701.014006.958.1.etl
-07-01-2020  1:40:30a ----       139,264 WindowsUpdate.20200701.014006.958.2.etl
-06-06-2020  9:26:50p A---        65,536 domgmt.20200606_212649_061.etl
-07-01-2020  1:40:32a A---        65,536 domgmt.20200701_014030_658.etl
-07-01-2020  2:06:42a A---       131,072 domgmt.20200701_020640_946.etl
-06-06-2020  9:25:30p A---        65,536 dosvc.20200606_212528_181.etl
-                12 Files      1,956,154 bytes
+  cabinet  - Cabinet file (contains two or more files).
+  filename - Name of the file to extract from the cabinet.
+             Wild cards and multiple filenames (separated by
+             blanks) may be used.
 
+  source   - Compressed file (a cabinet with only one file).
+  newname  - New filename to give the extracted file.
+             If not supplied, the original name is used.
+
+  /A         Process ALL cabinets.  Follows cabinet chain
+             starting in first cabinet mentioned.
+  /C         Copy source file to destination (to copy from DMF disks).
+  /D         Display cabinet directory (use with filename to avoid extract).
+  /E         Extract (use instead of *.* to extract all files).
+  /L dir     Location to place extracted files (default is current directory).
+  /Y         Do not prompt before overwriting an existing file.
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\extrac32.exe |
+
 
 ## Signature
 

@@ -18,6 +18,16 @@ SHA384 | `3D858C898A7D0B1AF302273FC12A6FD8E542BCEFEFF9036A76BE70751A61D92C337022
 SHA512 | `F330BAE94DC8BE1965EBA1860CAABF50A98B220E7648C1AFC4FED2CBFA96D3F048846180A560DDD7E0D120F7B3834E14CD4FF113842BEB090ED92BCE08D29255`
 SSDEEP | `768:yKdB5gxJdY2i0bN/WJ8LmH+aTH7bed3Jup:HbOvdPbNm8Lw3343Jup`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\tzutil.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\tzutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

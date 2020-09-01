@@ -4,7 +4,7 @@ title: java.exe | OpenJDK Platform binary
 
 # java.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `C1CEB7F3DAFE627BD44D7BF67632A3DA4CF0B6E720453C0F70CCD1141EF08FD3`
 SHA384 | `6441951CBD35519E1B2E18D52A39EB8A41ED28F4B6FDE9553FF1A604A2825F88F3CA4BB64DCEB9266CA5B4D1C0056F20`
 SHA512 | `501D26322012E27D1DC3951DB1EC7D28F82F2ABB078A4B7675E6FA54164ED7A8DC76BC7463899A5EF1679C03BC2EC30942DA36C56F7FD3BDAA51FC63835C5B1A`
 SSDEEP | `6144:90TFpCddwYdXaTC8aEwuHAnmf9TBr7k/PMq:9spCdCY9lEIS9TunMq`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -73,6 +75,16 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -95,8 +107,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe](java.exe-09F25DDC44174C27D45C6CFB49128C58.md) | 96
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe](java.exe-2518D9BEC36317CD59660BA5E43AB373.md) | 96
+[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe](java.exe-09F25DDC44174C27D45C6CFB49128C58.md) | 96
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe](java.exe-2518D9BEC36317CD59660BA5E43AB373.md) | 96
 
 ## Possible Misuse
 

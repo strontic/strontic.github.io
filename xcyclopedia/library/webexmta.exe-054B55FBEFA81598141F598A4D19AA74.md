@@ -23,6 +23,14 @@ SSDEEP | `49152:MKO/GfvurfW2Dp/Fbqc10IY7s53KNDuH2GPSSLREg272dkle0:XO/GfvurfW2F/F
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WebCache.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

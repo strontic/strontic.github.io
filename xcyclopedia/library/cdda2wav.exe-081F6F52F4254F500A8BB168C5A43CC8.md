@@ -4,7 +4,7 @@ title: cdda2wav.exe |
 
 # cdda2wav.exe 
 
-* File Path: `C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe`
+* File Path: `C:\program files\InfraRecorder\cdrtools\cdda2wav.exe`
 
 ## Hashes
 
@@ -16,6 +16,8 @@ SHA256 | `E28AA3A998FB8D104DC5B053282EF0A3EE007D2791027870D1153F4AFC28C8D7`
 SHA384 | `DC147DAB3057D1EC1EE674762B7E9D08CA3C77DF7995AAEB3244B98401F00F082AADE6EAEC4CECBDDF8C548CBEB84E24`
 SHA512 | `8D9BF0C8CFA1518FD59F96081D5DD72288AB6139516EB7A50A285115E59FA58734494EA4906C375A2BB591F11EA5E73A9F7C0E7FA794CFA7060E1DC25BCE8DB9`
 SSDEEP | `6144:qHCnri5/0OIkorrR90YsqB8eSN8QMWVUbmstwW:ZnaH290YsqBaGwW`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -94,6 +96,17 @@ defaults	stereo, 16 bit, 44100.00 Hz, track 1, no offset, one track,
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\InfraRecorder\cdrtools\cdda2wav.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -116,8 +129,8 @@ defaults	stereo, 16 bit, 44100.00 Hz, track 1, no offset, one track,
 
 File | Score
 -- | --
-[C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 29
-[C:\Program Files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 29
+[C:\program files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 29
+[C:\program files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 29
 
 
 

@@ -4,7 +4,7 @@ title: van-gogh-lic.exe | GNU Image Manipulation Program Plug-In
 
 # van-gogh-lic.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\van-gogh-lic\van-gogh-lic.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\van-gogh-lic\van-gogh-lic.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `BCD568917B03BD06DB3991D5E957D4A5B68006475481A9FAD880FCAACCAC0CF3`
 SHA384 | `44C031ABE418A32CBBD505A6EC52A298440C85EF24A85418991098E9DB1840D5DA50122626EF7956B7F271EF5E6554C8`
 SHA512 | `ADFAA05010A636C9AFACE83AEC5F3F6F266A970AEA3D2854F29FC0AD1C099C53E31FC597164DD313B483866B3FEAA4B62B26F8FCDEDAAD9748BA258A80BEC227`
 SSDEEP | `1536:N+CQIbbuJlj2M+aH89G/2Gj6020QwaipiPWU3aioWXi:IC4uw89GeGj6R0Qwfmp3Wg`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\van-gogh-lic\van-gogh-lic.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,7 +62,7 @@ SSDEEP | `1536:N+CQIbbuJlj2M+aH89G/2Gj6020QwaipiPWU3aioWXi:IC4uw89GeGj6R0Qwfmp3W
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\contrast-retinex\contrast-retinex.exe](contrast-retinex.exe-29589720B9C6235E4FE6ABB57C674DCB.md) | 40
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\contrast-retinex\contrast-retinex.exe](contrast-retinex.exe-29589720B9C6235E4FE6ABB57C674DCB.md) | 40
 
 
 

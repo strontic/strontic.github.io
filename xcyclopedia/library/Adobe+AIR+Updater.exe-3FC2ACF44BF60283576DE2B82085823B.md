@@ -4,7 +4,7 @@ title: Adobe AIR Updater.exe | Adobe AIR Installer
 
 # Adobe AIR Updater.exe 
 
-* File Path: `C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater.exe`
+* File Path: `C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater.exe`
 * Description: Adobe AIR Installer
 
 ## Hashes
@@ -25,6 +25,17 @@ SSDEEP | `6144:3jIYORi5Z8ZAbAAsAAAgAxAAAAAAAAUAAbAALxAAAAAAACAAAAAxAAusFPfJ+fO:T
 too many arguments
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\Adobe AIR Updater.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

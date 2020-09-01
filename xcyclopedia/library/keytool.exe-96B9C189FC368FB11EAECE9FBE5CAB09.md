@@ -4,7 +4,7 @@ title: keytool.exe | OpenJDK Platform binary
 
 # keytool.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -48,8 +48,16 @@ Use "keytool -command_name -help" for usage of command_name
 
 ```
 
-### Child Processes:
-csrss.exe winlogon.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\keytool.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -73,9 +81,9 @@ csrss.exe winlogon.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe](appletviewer.exe-C59D48926D787E1E22E8A1055FB30EB0.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\keytool.exe](keytool.exe-11D6D617609BB11967748C0EF56B1A04.md) | 85
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\keytool.exe](keytool.exe-C4F986C38D989EA75380E7CBD98C5B77.md) | 85
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\appletviewer.exe](appletviewer.exe-C59D48926D787E1E22E8A1055FB30EB0.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\keytool.exe](keytool.exe-11D6D617609BB11967748C0EF56B1A04.md) | 85
+[C:\program files (x86)\Amazon Corretto\jre8\bin\keytool.exe](keytool.exe-C4F986C38D989EA75380E7CBD98C5B77.md) | 85
 
 
 

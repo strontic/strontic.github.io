@@ -67,11 +67,15 @@ SSDEEP | `768:gOkLr2hyZByocltC8L90CoWbR+B9/d9gWh4i/6rWaDbGXlF:gBLr2hOkzL90CoK+BR
 
 ```
 
-### Usage (stderr):
-```Batchfile
-The system cannot find the file specified.
+### Loaded Modules:
 
-```
+Path |
+-- |
+C:\Windows\system32\cacls.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,29 @@ SHA384 | `F813F1FCF63B80CD3D8E35CEF618A42870AC7E1FCFB7FCC7FE371A5CC159A9B10166F7
 SHA512 | `BD50D996E5DE2BB977B4F49E4CE3E0EE65FAF90F7B60C807BF4F24971724B95280C426F547A7446FFA3582907C6D7D42EC24A17AD9BF2F0F686899BB46F082AA`
 SSDEEP | `384:PSOMetkg5B8lbH0NbNDhJKmtvWqC1AaLyctlc/eraGOUYWVnWUw:YwkVH0NbND6mtvWxLywlseXT`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\fixmapi.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

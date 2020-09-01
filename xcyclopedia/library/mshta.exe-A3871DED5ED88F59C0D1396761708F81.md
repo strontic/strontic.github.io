@@ -18,6 +18,13 @@ SHA384 | `6337388BEF8A73154B8BAA177FC50EE855CDC64353BB9ECE26E076F1AF38E34CDFC677
 SHA512 | `C68DF6FFE792458BD37D96A70CD0001D0AB83D77AAAD26C8BC2163500A2B3609C213E015CE056E65E26BFA60C85DFDF41789959C196ACF07DFC9204ED40A6C06`
 SSDEEP | `192:5WZ8por+TPlBrzUPpGpd4FmxZBbgUPmT7plon7LWwWVIR:O8Q+ZBrwPpO4MvbgT7mWwW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\mshta.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: policyeditor.exe |
 
 # policyeditor.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe`
 
 ## Hashes
 
@@ -21,7 +21,7 @@ SSDEEP | `6144:otB159jXJC0wYv+9Aeoym9TuKVEUVKC8i4KpO4JQz:otr59jXJC0wYvWA1lR2IYif
 
 ### Usage (stdout):
 ```Batchfile
-selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10
+selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
 
 SYNOPSIS
     policyeditor
@@ -49,6 +49,31 @@ WARNING: package sun.awt.X11 not in java.desktop
 ### Child Processes:
 java.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -71,7 +96,7 @@ java.exe
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\policyeditor.exe](policyeditor.exe-5D09F5EF3945691E05E6CD50EA4F73E3.md) | 100
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\policyeditor.exe](policyeditor.exe-5D09F5EF3945691E05E6CD50EA4F73E3.md) | 100
 
 
 

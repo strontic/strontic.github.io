@@ -4,7 +4,7 @@ title: Dism.exe | Dism Image Servicing Utility
 
 # Dism.exe 
 
-* File Path: `C:\windows\system32\Dism.exe`
+* File Path: `C:\Windows\system32\Dism.exe`
 * Description: Dism Image Servicing Utility
 
 ## Hashes
@@ -121,6 +121,13 @@ option immediately before /?.
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

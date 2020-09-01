@@ -4,7 +4,7 @@ title: unins000.exe | Setup/Uninstall
 
 # unins000.exe 
 
-* File Path: `C:\Program Files (x86)\Microsoft\Skype for Desktop\unins000.exe`
+* File Path: `C:\program files (x86)\Microsoft\Skype for Desktop\unins000.exe`
 * Description: Setup/Uninstall
 
 ## Hashes
@@ -22,6 +22,33 @@ SSDEEP | `24576:ynbbPImgK4brDi4IxgRqzwqNb+Yz73P2EMZbG0JEtXlCbWqx9qR:QHeKh4nqzF3P
 
 ### Child Processes:
 _iu14D2N.tmp
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\netmsg.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Microsoft\Skype for Desktop\unins000.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,11 +72,11 @@ _iu14D2N.tmp
 
 File | Score
 -- | --
-[C:\Program Files (x86)\KeePass Password Safe 2\unins000.exe](unins000.exe-8FAB72787C6F65CFEEFE9908289D68CC.md) | 86
-[C:\Program Files (x86)\XnView\unins000.exe](unins000.exe-898376CA4B6D0CA96191BD99DAA74243.md) | 90
-[C:\Program Files\CDBurnerXP\unins000.exe](unins000.exe-4980F7BBCE7E809E771D984EA2348F15.md) | 85
-[C:\Program Files\VS Revo Group\Revo Uninstaller\unins000.exe](unins000.exe-6620E40043ED6C1F75BCD873469F2850.md) | 88
-[C:\Program Files\WinMerge\unins000.exe](unins000.exe-5DDEAB87968A510BD6BBF6D2E3D0D4C0.md) | 86
+[C:\program files (x86)\KeePass Password Safe 2\unins000.exe](unins000.exe-8FAB72787C6F65CFEEFE9908289D68CC.md) | 86
+[C:\program files (x86)\XnView\unins000.exe](unins000.exe-898376CA4B6D0CA96191BD99DAA74243.md) | 90
+[C:\program files\CDBurnerXP\unins000.exe](unins000.exe-4980F7BBCE7E809E771D984EA2348F15.md) | 85
+[C:\program files\VS Revo Group\Revo Uninstaller\unins000.exe](unins000.exe-6620E40043ED6C1F75BCD873469F2850.md) | 88
+[C:\program files\WinMerge\unins000.exe](unins000.exe-5DDEAB87968A510BD6BBF6D2E3D0D4C0.md) | 86
 
 
 

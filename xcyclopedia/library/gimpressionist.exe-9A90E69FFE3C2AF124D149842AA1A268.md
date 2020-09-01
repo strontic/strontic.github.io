@@ -4,7 +4,7 @@ title: gimpressionist.exe | GNU Image Manipulation Program Plug-In
 
 # gimpressionist.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gimpressionist\gimpressionist.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\gimpressionist\gimpressionist.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `49A24661F6B5A28F8F7146A6E571AED796525ABFB4856559FED53275A9AF4E4E`
 SHA384 | `B2DAD6E3FE6CABB501228DE4112E7A8CFADF59FE40E82F94CD3564E93E984C49F20C20A366EF7F82C3E94F836EF642DB`
 SHA512 | `61D86F0C44E5C4FBC8E195A3AFB930CB9518814AA5FDF15BEF06BE52D499632C164A7CCEA84F23D15907505372037A7C2131325A36166A73CFA101AE5601A1E2`
 SSDEEP | `3072:GAUPrNvXtwlB9SV14eSWSy+UXHGhAPbS+QkpofmGug:TUz19pRmU2mjS+Qkpv5`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\gimpressionist\gimpressionist.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

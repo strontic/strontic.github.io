@@ -18,6 +18,8 @@ SHA384 | `A44C445EF00F2E9CD78E901B338E7F9ACE8FD8D01BC8A50F90634FD96EB2F19118497F
 SHA512 | `11A62D827219A8AFEE82822C7986C6BDEBC35A738ADCE1A47ECCDF195173E82F7788471FD510D6955F02F426642807A2D3992DDA57044D95E7E15AD9E7D33842`
 SSDEEP | `1536:2UpInlAVwr1BTvm2hm2qW3gY1hP7a0BDkXOgmSaQGRtIk:0z+2hmQQk7RkOgmSaQGnl`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 dns-sd.exe -E                  (Enumerate recommended registration domains)
@@ -41,6 +43,16 @@ dns-sd.exe -I   (Test registering and then immediately updating TXT record)
 dns-sd.exe -S                 (Test multiple operations on a shared socket)
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dns-sd.exe |
+
 
 ## Signature
 

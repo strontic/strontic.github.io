@@ -4,7 +4,7 @@ title: newdev.exe | Device driver software installation
 
 # newdev.exe 
 
-* File Path: `C:\windows\SysWOW64\newdev.exe`
+* File Path: `C:\Windows\SysWOW64\newdev.exe`
 * Description: Device driver software installation
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `626117A7AABF84D6DB68E5D670C72EF5D0D586B474DDF5B7ECA85B046F97582E`
 SHA384 | `04E46D53D1E23400BC6DEC01F960B21B12F19405170849D12AFB04221103706A50E451CD5CC4BED5931BB4BF401C424E`
 SHA512 | `98205F73CECF92397DBFCBE00B66416020F5213D5B99BAC6898DA09ED7509B5F92743531D57B02D3397CE3CBA1A05E08BC0D9E915D7ED6259CEAF371B172B957`
 SSDEEP | `768:cYifd7en3h09/2AaJQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM6:Hif5enGx2AaJfFrGUUUUUUUUUUUU3+6`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\newdev.exe |
+
 
 ## Signature
 

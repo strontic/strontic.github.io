@@ -4,7 +4,7 @@ title: javafxpackager.exe | OpenJFX Platform binary
 
 # javafxpackager.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe`
 * Description: OpenJFX Platform binary
 
 ## Hashes
@@ -204,6 +204,17 @@ Error: Unknown command: --help
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -226,7 +237,7 @@ Error: Unknown command: --help
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javapackager.exe](javapackager.exe-DF2158F85DB4E09D5BCBFE126C381D28.md) | 94
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javapackager.exe](javapackager.exe-DF2158F85DB4E09D5BCBFE126C381D28.md) | 94
 
 ## Possible Misuse
 

@@ -18,6 +18,14 @@ SHA384 | `95817154A057A40945F1CAA0C57D6411B5BC5058FDACEA86728B35FDE6881CBB514B66
 SHA512 | `6054BA2FF16DC01D4B8990D752CAD2C351E7FE93701DAC65206F41721E3B625C6E91B4C8E1960254DB25807DA196EB9119C9007CCD9988F4FDABDC79E7959950`
 SSDEEP | `24576:IyKiiEKPWvdqoducKtq6E9jukzjC3vw/p0XoIaSlPld6JX:InPWFluU9Nb/9N`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\hvax64.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +44,11 @@ SSDEEP | `24576:IyKiiEKPWvdqoducKtq6E9jukzjC3vw/p0XoIaSlPld6JX:InPWFluU9Nb/9N`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\hvax64.exe](hvax64.exe-72009D50FA0146B2D4EB28712FCE4C1B.md) | 94
 
 
 

@@ -20,8 +20,15 @@ SSDEEP | `12288:1S4wx5oml5JFKsCo1kW+Hy8CIsRPHbYUrIjuUzKhJTiIu/ikSQ5:qx5omg8kWQy5
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RMActivate_ssp_isv.exe |
+
 
 ## Signature
 

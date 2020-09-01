@@ -4,7 +4,7 @@ title: file-jp2-load.exe | GNU Image Manipulation Program Plug-In
 
 # file-jp2-load.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-jp2-load\file-jp2-load.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-jp2-load\file-jp2-load.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `193B260D0724C8241E0D40DAD1886BC14E866E49F88D438F9FBA2701ADFE925F`
 SHA384 | `9E651C1033176925AA5DE62D92E188B0543A3C1659BD489FCCC369BC22319396C4B60C14F010E4B4817250C580FF9C71`
 SHA512 | `7AE0046CC2E8816E2D8CCD4D64852ACC30A04B2E3E23EBABEFA4E4DC7F761F9D2B5CD30C53E0DE895921928BA3EB14F3B77C4C86A3C737175E24B197421110E7`
 SSDEEP | `1536:oaP0UKdz8l+IUJFx5eVwJGriNscaipiPW0MaiJWXiA:LKBuXgFx5eV6GriNscfmNMLg/`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-jp2-load\file-jp2-load.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,12 +62,12 @@ SSDEEP | `1536:oaP0UKdz8l+IUJFx5eVwJGriNscaipiPW0MaiJWXiA:LKBuXgFx5eV6GriNscfmNM
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe](checkerboard.exe-EFA5BA4B185F9C0110373D19C4D7E7C9.md) | 49
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\edge-dog\edge-dog.exe](edge-dog.exe-86F1B3FE7C22B6D84D76E45074253FE4.md) | 44
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\pagecurl\pagecurl.exe](pagecurl.exe-8463D2F51050F124C0097AC38CD2BC80.md) | 43
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sparkle\sparkle.exe](sparkle.exe-7DDFCE90D04C8950ADBF69D87D03EC28.md) | 43
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\tile\tile.exe](tile.exe-3D76437B5264EBDCF03538367D551FAC.md) | 41
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\unit-editor\unit-editor.exe](unit-editor.exe-4F60F0931DD971377BEC7AB20EE63B80.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe](checkerboard.exe-EFA5BA4B185F9C0110373D19C4D7E7C9.md) | 49
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\edge-dog\edge-dog.exe](edge-dog.exe-86F1B3FE7C22B6D84D76E45074253FE4.md) | 44
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\pagecurl\pagecurl.exe](pagecurl.exe-8463D2F51050F124C0097AC38CD2BC80.md) | 43
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\sparkle\sparkle.exe](sparkle.exe-7DDFCE90D04C8950ADBF69D87D03EC28.md) | 43
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\tile\tile.exe](tile.exe-3D76437B5264EBDCF03538367D551FAC.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\unit-editor\unit-editor.exe](unit-editor.exe-4F60F0931DD971377BEC7AB20EE63B80.md) | 44
 
 
 

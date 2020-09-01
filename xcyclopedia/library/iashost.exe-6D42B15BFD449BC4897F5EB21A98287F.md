@@ -18,6 +18,17 @@ SHA384 | `5EFBC7BD050C9F4EFD37E2C3A36182298CDD48CFB9E0D8292794EBA733327FA5ED2FEB
 SHA512 | `425E814795C52694C74B471605DB2D217CECBF8A26E961EDD972C38245337F235F978BFB2D06BB3A86B8E1334536A1A4D9A49051959E9838283D180B18C0D810`
 SSDEEP | `384:s3gTZGlT47XJZhvXBvd1oIEg8m8pGMD1WWC8uWB+A:spcXJZhd9J61FJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\IrfanView\i_view32.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\iashost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

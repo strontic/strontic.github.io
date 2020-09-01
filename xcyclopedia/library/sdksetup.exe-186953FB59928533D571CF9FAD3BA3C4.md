@@ -18,6 +18,17 @@ SHA384 | `C4B600F85420EC2A5EC4848E7C7E4AE900F2250F76C8C34F260F027D54435EFF56FC24
 SHA512 | `960412F7E7DBD7BAE9E7E6C635591875F41B5E6784CE444357C442D14DF10AF6EEE0D633B1878FA7773CAE8B80DB2DC7D10508250AABD8ECBC7ADBEB1C033C89`
 SSDEEP | `24576:hiw+VVFoeh0/odHHpMHmLoMza655/xDnZpRC:qZVgYHHp4mtJDxDs`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Spybot - Search & Destroy 2\SDImmunize.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

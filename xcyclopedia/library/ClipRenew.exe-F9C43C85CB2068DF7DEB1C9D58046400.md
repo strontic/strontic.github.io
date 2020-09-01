@@ -18,6 +18,24 @@ SHA384 | `D2036FA4789C03070620BE7D920F0825F5E551548B28251F3B0554EA2C1FF0AFC4C659
 SHA512 | `70EBA74FB0236AD30AC12984142D07C2398676F6948C22EA1A1467587F55BB00ADD7B17F37B0686622D4840DD469FEE49F8BAAEBC6FB740FC8CD65D85E58809A`
 SSDEEP | `3072:Uy/X5H/pZurO8GZgqcIruYzpXOIAEaR5O:U8pHBZcUZLcIruYzJOb`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ClipRenew.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

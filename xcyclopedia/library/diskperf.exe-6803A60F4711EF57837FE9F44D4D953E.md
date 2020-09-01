@@ -4,7 +4,7 @@ title: diskperf.exe | Disk Performance Configuration Utility
 
 # diskperf.exe 
 
-* File Path: `C:\windows\SysWOW64\diskperf.exe`
+* File Path: `C:\Windows\SysWOW64\diskperf.exe`
 * Description: Disk Performance Configuration Utility
 
 ## Hashes
@@ -62,6 +62,16 @@ DISKPERF [-Y[D|V] | -N[D|V]] [\\computername]
         systems beyond Windows 2000.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\diskperf.exe |
+
 
 ## Signature
 

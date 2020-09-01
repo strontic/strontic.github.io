@@ -4,7 +4,7 @@ title: readcd.exe |
 
 # readcd.exe 
 
-* File Path: `C:\Program Files\InfraRecorder\cdrtools\readcd.exe`
+* File Path: `C:\program files\InfraRecorder\cdrtools\readcd.exe`
 
 ## Hashes
 
@@ -17,9 +17,11 @@ SHA384 | `1E83ACBBBE8EF63AE2334EF2C8045A9684C9011F645ECD578C43CE82B93AEA66060FB3
 SHA512 | `5E821A21C7B0686F139EADEA03E595ABFCF505ABC2C851E6033786635E5B0D643FB81815D2859C636FE38533E8F51B1F357FA264B5B7A942DB1B120CFA7680D1`
 SSDEEP | `6144:flABjsKB+FSXGE3JEQXhlF8QMWVUbTI+VMu/gt/6ryI:ZcXxJzxfu/gUrT`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-/cygdrive/c/Program Files/InfraRecorder/cdrtools/readcd: Target 'help' is not a Number.
+/cygdrive/c/program files/InfraRecorder/cdrtools/readcd: Target 'help' is not a Number.
 Usage:	readcd [options]
 options:
 	-version	print version information and exit
@@ -57,6 +59,17 @@ sectors=0-0 will read nothing, sectors=0-1 will read one sector starting from 0
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\InfraRecorder\cdrtools\readcd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -79,8 +92,8 @@ sectors=0-0 will read nothing, sectors=0-1 will read one sector starting from 0
 
 File | Score
 -- | --
-[C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
-[C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 35
+[C:\program files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
+[C:\program files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 35
 
 
 

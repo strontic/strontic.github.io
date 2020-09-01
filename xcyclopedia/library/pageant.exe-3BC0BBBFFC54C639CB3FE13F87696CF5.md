@@ -4,7 +4,7 @@ title: pageant.exe | PuTTY SSH authentication agent
 
 # pageant.exe 
 
-* File Path: `C:\Program Files (x86)\WinSCP\PuTTY\pageant.exe`
+* File Path: `C:\program files (x86)\WinSCP\PuTTY\pageant.exe`
 * Description: PuTTY SSH authentication agent
 
 ## Screenshot
@@ -22,6 +22,37 @@ SHA256 | `3504BB149E194DCC587AF4B73FCAD3CC1EA4344414059857848C179FC4FA698E`
 SHA384 | `2B48C13C0EC12C4A3E0F564ADCD73F556C0BBB89D492F85F0E0B7CF541F072AE2488E6E274E332B5C49868D8A74D4968`
 SHA512 | `4111F2B829AF1AACF686F8503DFCD0BCF1E28E73D3AEDB33FE6A1F7E61B7263ECCE8DFEFCA5D7792F2D88C1C8CE75841E015D0468C35157535CBA860F06541EB`
 SSDEEP | `6144:Q+L/NJQQTqoAziD2oqqICtxpX7zYtqDUIMA3JEzHibp7:Q+L/N2yqeIYpXPYYoX3ibp7`
+
+## Runtime Data
+
+### Window Title:
+Pageant
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\WinSCP\PuTTY\pageant.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

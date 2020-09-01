@@ -4,7 +4,7 @@ title: convert.exe | File System Conversion Utility
 
 # convert.exe 
 
-* File Path: `C:\windows\SysWOW64\convert.exe`
+* File Path: `C:\Windows\SysWOW64\convert.exe`
 * Description: File System Conversion Utility
 
 ## Hashes
@@ -46,6 +46,17 @@ CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
 Invalid drive specification.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\convert.exe |
+
 
 ## Signature
 

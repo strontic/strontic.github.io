@@ -4,7 +4,7 @@ title: PickerHost.exe | File Picker UI Host
 
 # PickerHost.exe 
 
-* File Path: `C:\windows\system32\PickerHost.exe`
+* File Path: `C:\Windows\system32\PickerHost.exe`
 * Description: File Picker UI Host
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `82834848DCDEDE5A8509F2905D576CF00E576162B80FF85E6A0286A4F5B6AD29`
 SHA384 | `ECB475DDE88B849052305F8A65EF32C7A222F8BEA315F557E7ED101090C31616DB189E99804BC52190F88E2BD3013BB3`
 SHA512 | `17403C14DD1790ACAFAFFF2A2197EF3D4C8FCA667709EBD8B4393A070663F7EA7BF33BAB941EA5206FE64CC327F34A29B7FB6BDB60AE347CCC7D993C6EF8DDA3`
 SSDEEP | `1536:RA1KkjQXkUvaJaxoboCv6y4KVK54YRJ+f97i2WJFZAgQUHYx6K4Py:CnevafUCv69KVsJ+fx1WJQgHcf46`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC11CC | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\PickerHost.exe |
+
 
 ## Signature
 

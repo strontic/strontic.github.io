@@ -18,6 +18,31 @@ SHA384 | `E9847725B7A6B7AD2B5D1715BC784A8005E79E658814ADB5B7F8DA15812D8773284004
 SHA512 | `1BED8AF2CF99A7F3BB36A34F4A71C34787904BD072ECDC731FB7498290DCF4024B956FB8B6912AD050B74AA861F0B0349081B77088F72732BDA5075413B1F83D`
 SSDEEP | `3072:7EObbEaznWfH22ZsuX2xKwMPTnaSrIrvDx:75jznWjZnXeKwMLnaqY`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\appwiz.cpl |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\system32\OptionalFeatures.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHCORE.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

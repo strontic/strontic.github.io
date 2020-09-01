@@ -4,7 +4,7 @@ title: mcbuilder.exe | Resource cache builder tool
 
 # mcbuilder.exe 
 
-* File Path: `C:\windows\system32\mcbuilder.exe`
+* File Path: `C:\Windows\system32\mcbuilder.exe`
 * Description: Resource cache builder tool
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `41BBD3B038263161D5098891C98F0693AF4B7AE42A150E2B644012087D2414F7`
 SHA384 | `5B9E0C699A19ABB4C9950EB3608228F66EB5FAEC8D42F528D60B8B23AE49ECA59AFD70CA64A4541009A5051243D149C6`
 SHA512 | `118EF087867FAF9EE179CB10A4B0FEFEBA9A8799A595DCAFDE5A8554ECEB2489191B6EFB5D48F87C69BEC5FF1F1BC0D3AD98BE58F5A6D60766BE2C0E0961E93A`
 SSDEEP | `1536:7gCtn7SKASvalkQQYp4w3XHp09B2ssW4d09dlh9uWCpqYBVs:7PtneKA6OkQQYp4w3XaBmMX9nCLBG`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mcbuilder.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

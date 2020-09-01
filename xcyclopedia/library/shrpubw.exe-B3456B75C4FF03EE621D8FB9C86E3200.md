@@ -4,7 +4,7 @@ title: shrpubw.exe | Share Creation Wizard
 
 # shrpubw.exe 
 
-* File Path: `C:\windows\system32\shrpubw.exe`
+* File Path: `C:\Windows\system32\shrpubw.exe`
 * Description: Share Creation Wizard
 
 ## Screenshot
@@ -25,8 +25,33 @@ SSDEEP | `1536:lI5RMIC9qsqAt2ZKRUsOrVukBTxWJF51KsvhFsVq:lkRMI5sqy28RUsOrVPgJFWsv
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Window Title:
+Create A Shared Folder Wizard
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\aclui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\shrpubw.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\shrpubw.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: jabswitch.exe | OpenJDK Platform binary
 
 # jabswitch.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe`
 * Description: OpenJDK Platform binary
 * Comments: Java Access Bridge
 
@@ -47,6 +47,16 @@ Note:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -69,8 +79,8 @@ Note:
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\jabswitch.exe](jabswitch.exe-C9CA81DEC4D1F63778D775BFB71361CA.md) | 97
-[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\jabswitch.exe](jabswitch.exe-A523F2ADC7C07A73C079FC0A7FD8D63F.md) | 97
+[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\jabswitch.exe](jabswitch.exe-C9CA81DEC4D1F63778D775BFB71361CA.md) | 97
+[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\jabswitch.exe](jabswitch.exe-A523F2ADC7C07A73C079FC0A7FD8D63F.md) | 97
 
 
 

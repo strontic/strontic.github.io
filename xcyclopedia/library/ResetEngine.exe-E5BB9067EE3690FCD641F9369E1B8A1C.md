@@ -4,7 +4,7 @@ title: ResetEngine.exe | Push-Button Reset Engine
 
 # ResetEngine.exe 
 
-* File Path: `C:\windows\system32\ResetEngine.exe`
+* File Path: `C:\Windows\system32\ResetEngine.exe`
 * Description: Push-Button Reset Engine
 
 ## Hashes
@@ -20,8 +20,13 @@ SSDEEP | `192:ukXL6vhw27mroy/DBSuPN3NazB9JP3L8dm5uU/pMWaeW:bL65w2aEyl/PiJz8sgsMW
 
 ## Runtime Data
 
-### Child Processes:
-mmc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ResetEngine.exe |
+
 
 ## Signature
 

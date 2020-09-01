@@ -4,7 +4,7 @@ title: findstr.exe | Find String (QGREP) Utility
 
 # findstr.exe 
 
-* File Path: `C:\windows\system32\findstr.exe`
+* File Path: `C:\Windows\system32\findstr.exe`
 * Description: Find String (QGREP) Utility
 
 ## Hashes
@@ -75,6 +75,7 @@ Reference.
 
 ### Usage (stderr):
 ```Batchfile
+FINDSTR: /- ignored
 FINDSTR: /h ignored
 FINDSTR: Bad command line
 
@@ -82,6 +83,26 @@ FINDSTR: Bad command line
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\findstr.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\findstr.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

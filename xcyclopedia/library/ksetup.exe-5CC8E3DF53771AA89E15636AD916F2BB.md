@@ -18,6 +18,14 @@ SHA384 | `3A1C62400DB389D74B7770B0D53B7E7B0A599456D9F9FB6ACEC042116CF7AAF2E70BAD
 SHA512 | `597390D7159900C2032375826057EC783141135DCED2909056B4FB17575F88F738479C4CF018BDF403EB19372CD198E0DE7535762B4E289D01C84236E92244A0`
 SSDEEP | `384:jr5VbmZWwK3wrfBTEwkKdl52iKYIq5CGKam1tsQJS7X7uXE2e/qJYV28eT1hsqT0:HwK3wrf29KkYIABGJS7X92+V2qqTQJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\ksetup.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ksetup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

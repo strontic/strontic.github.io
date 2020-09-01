@@ -18,6 +18,16 @@ SHA384 | `CFA6BE433CF7F2756C225E211B8142A3602857BEE5F164AA02FEF4F643B41CF4CAF394
 SHA512 | `54EF9C85C7CE21F2127F1AD458D63FEDEDD95FF519E5052C96EE9AB6625D6CE2EF8A00868025BC20E4680B8D455328F768F6178E4C73E616C71C8A931C950721`
 SSDEEP | `192:kL+3WInZQU1MJvPdeA7MIbKRCik9C8X9iTZjtmLsYBMJ9B9QkJkIEWALWBm:kAWIniYjk9C8X9UxILsgk3KHWALW8`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\change.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\change.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -57,7 +67,7 @@ File | Score
 Changes Remote Desktop Session Host server settings for logons, COM port mappings, and install mode.
 
 > [!NOTE]
-> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
+> To find out what's new in the latest version, see [What's New in Remote Desktop Services in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ### Syntax
 

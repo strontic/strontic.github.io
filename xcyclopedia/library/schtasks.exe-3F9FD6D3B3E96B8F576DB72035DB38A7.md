@@ -4,7 +4,7 @@ title: schtasks.exe | Task Scheduler Configuration Tool
 
 # schtasks.exe 
 
-* File Path: `C:\windows\system32\schtasks.exe`
+* File Path: `C:\Windows\system32\schtasks.exe`
 * Description: Task Scheduler Configuration Tool
 
 ## Hashes
@@ -61,10 +61,20 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "SCHTASKS /QUERY /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\schtasks.exe |
+
 
 ## Signature
 

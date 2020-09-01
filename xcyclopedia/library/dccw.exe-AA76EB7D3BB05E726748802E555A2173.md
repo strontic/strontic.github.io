@@ -4,7 +4,7 @@ title: dccw.exe | Display Color Calibration
 
 # dccw.exe 
 
-* File Path: `C:\windows\SysWOW64\dccw.exe`
+* File Path: `C:\Windows\SysWOW64\dccw.exe`
 * Description: Display Color Calibration
 
 ## Screenshot
@@ -21,6 +21,39 @@ SHA256 | `94C5C38AD8252B9481330D500185D57B0A8A40C319A4DF5F35912BBB2B791CDA`
 SHA384 | `AFD0FD42E9191C9E7C729ECAE0CECA334188FC7B283467E787B78CD5B0C0C2F7C7BDFB0335D60C9AA3DB95ED74BC6E50`
 SHA512 | `86174674A27495B89EE3C68107083A778C321495DE82A18CFEEAE78E30E8254B117DB640EBDAF0C6EDFBC317BA4DDDDF9755384406E58DBBE10BAA0BB4BFA424`
 SSDEEP | `12288:iulfTVcBGOhS/IzJqrraq/t2qXy6xdRhMA:iulfZTGS/EEn/tkI`
+
+## Runtime Data
+
+### Window Title:
+Display Color Calibration
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\dccw.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_570e6eecc25578b0 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dccw.exe |
+
 
 ## Signature
 

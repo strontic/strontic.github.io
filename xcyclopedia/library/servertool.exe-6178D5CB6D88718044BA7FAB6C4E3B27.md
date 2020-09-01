@@ -4,7 +4,7 @@ title: servertool.exe | OpenJDK Platform binary
 
 # servertool.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\servertool.exe`
+* File Path: `C:\program files\Amazon Corretto\jre8\bin\servertool.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -33,6 +33,36 @@ servertool >
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\6616 | File
+(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
+(RW-)   C:\Program Files\Amazon Corretto\jre8\lib\ext\dns_sd.jar | File
+(RW-)   C:\Program Files\Amazon Corretto\jre8\lib\ext\dnsns.jar | File
+(RW-)   C:\Program Files\Amazon Corretto\jre8\lib\ext\jfxrt.jar | File
+(RW-)   C:\Program Files\Amazon Corretto\jre8\lib\jfr.jar | File
+(RW-)   C:\Program Files\Amazon Corretto\jre8\lib\resources.jar | File
+(RW-)   C:\Program Files\Amazon Corretto\jre8\lib\rt.jar | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_6616 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jre8\bin\servertool.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -55,8 +85,8 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-DA2C531652A2C306B02D9A7598ABFA86.md) | 74
-[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-7CC71DC253D94C84121954F54EB18BCA.md) | 74
+[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-DA2C531652A2C306B02D9A7598ABFA86.md) | 74
+[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-7CC71DC253D94C84121954F54EB18BCA.md) | 74
 
 
 

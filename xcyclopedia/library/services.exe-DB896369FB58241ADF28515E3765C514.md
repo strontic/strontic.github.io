@@ -4,7 +4,7 @@ title: services.exe | Services and Controller app
 
 # services.exe 
 
-* File Path: `C:\windows\system32\services.exe`
+* File Path: `C:\Windows\system32\services.exe`
 * Description: Services and Controller app
 
 ## Hashes
@@ -18,11 +18,22 @@ SHA384 | `E725F9E26419C4708AFEA2350A3D3EDF0B968DAF1FDAE6F12822BD08F6305E74779A3B
 SHA512 | `C47F469E3ED2D358C51E8B804A6E1DB37C6B33543919BEE938279902D01D44F171E132C29D2A36EC3B4369E1441F597993E727CE2F2D087A4AB384ACE345C959`
 SSDEEP | `12288:EBcEZkiKFRQVcO09OEIXXfHx0q6BgQP/pA9cY2l1JlmruvjXT2C57p3XewSH9uLi:OcAkiKFscODvnfH+OQXyaY2lPT6gFXen`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

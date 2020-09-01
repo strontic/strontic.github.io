@@ -4,7 +4,7 @@ title: pidgin-uninst.exe | Pidgin Installer (Offline)
 
 # pidgin-uninst.exe 
 
-* File Path: `C:\Program Files (x86)\Pidgin\pidgin-uninst.exe`
+* File Path: `C:\program files (x86)\Pidgin\pidgin-uninst.exe`
 * Description: Pidgin Installer (Offline)
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `3072:mSrFD0QAGq6muvCh7MCqThniOeYNpsJRHS:gQA47Ch4CqTBeYNuVS`
 ### Child Processes:
 Un_A.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Pidgin\pidgin-uninst.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\Pidgin\pidgin-uninst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\Pidgin\pidgin-uninst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,7 +56,7 @@ Un_A.exe
 
 File | Score
 -- | --
-[C:\Program Files\Krita (x64)\uninstall.exe](uninstall.exe-FE1DDED8B32BBB6B54EB03FD563BD24A.md) | 50
+[C:\program files\Krita (x64)\uninstall.exe](uninstall.exe-FE1DDED8B32BBB6B54EB03FD563BD24A.md) | 50
 
 
 

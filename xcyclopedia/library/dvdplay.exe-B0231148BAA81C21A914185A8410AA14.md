@@ -18,6 +18,20 @@ SHA384 | `C965B0D8284E05D55226F7E9107FEA45874964568A3A3829DF7AD246A416B0B4DBD984
 SHA512 | `8D3A6ADEE4E1F03BC8CC8B98E4FB75D5B77F354A41B276D16C3D26C68BF3226BBF82B0F2A2ED8869024249B82FA324EBB984EFFF0F89B151B7B9CB2C649C661C`
 SSDEEP | `192:goX+50TRupVOBA10FtkoPjhFioWEZWFoq:jX+gEpIFoEpWEZWZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\system32\dvdplay.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dvdplay.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

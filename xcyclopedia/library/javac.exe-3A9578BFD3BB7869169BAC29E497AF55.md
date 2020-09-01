@@ -4,7 +4,7 @@ title: javac.exe | OpenJDK Platform binary
 
 # javac.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `19AC59FA85DB2662E72B019F8E9CFFCBC7B8B85C2B03FC72967F5939B7D08C24`
 SHA384 | `4ABAEA983EDC7728D8AF1F7D8A78DAA684FABC2B47EFE15F52CC4BA4D43A746E96A466AC1ED53B6D3340949367FE24B0`
 SHA512 | `668D4294192DF05F4645D134E3DA1C603FD5F7E58FDFCDD0F9F62F13DD57B85A0DFB98181DAF87137B46D9281E11CA88A3E320EAE65A2F77B5A3A0878F2F1AF1`
 SSDEEP | `384:Gpsy5hnlaLmSHhV8ykmeeL4Sz1K6jSWhXAqDgf2h2:Gps0nxS/8ykLeLnKgthDUf2h2`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -57,6 +59,17 @@ where possible options include:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -79,19 +92,19 @@ where possible options include:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\extcheck.exe](extcheck.exe-803AFFB2F03A9D302817D45E59C3BB4F.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javadoc.exe](javadoc.exe-60735A8E38579FDB6320851C1DE38408.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javah.exe](javah.exe-41789B4535F6A0A491368C7CDBF08149.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javap.exe](javap.exe-D4B6FF69D8B33AE1C748D03B170A5828.md) | 75
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 74
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jfr.exe](jfr.exe-B941B77B992BC329570061F0856916EA.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstack.exe](jstack.exe-40BD00F58280DE28F726136775D3B6DA.md) | 60
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\native2ascii.exe](native2ascii.exe-3CD4E62074A39B93E3448C1F46CE55F2.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe](serialver.exe-C19EE94CC246394A99991A49C7CAE6B5.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\rmid.exe](rmid.exe-D8EC5ABE57565E6260EA2D62D74EF506.md) | 68
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\rmic.exe](rmic.exe-B0BE3B0798C023F1A21C4E066BAE9527.md) | 40
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\extcheck.exe](extcheck.exe-803AFFB2F03A9D302817D45E59C3BB4F.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javadoc.exe](javadoc.exe-60735A8E38579FDB6320851C1DE38408.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javah.exe](javah.exe-41789B4535F6A0A491368C7CDBF08149.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javap.exe](javap.exe-D4B6FF69D8B33AE1C748D03B170A5828.md) | 75
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 74
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jfr.exe](jfr.exe-B941B77B992BC329570061F0856916EA.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstack.exe](jstack.exe-40BD00F58280DE28F726136775D3B6DA.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\native2ascii.exe](native2ascii.exe-3CD4E62074A39B93E3448C1F46CE55F2.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe](serialver.exe-C19EE94CC246394A99991A49C7CAE6B5.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 66
+[C:\program files (x86)\Amazon Corretto\jre8\bin\rmid.exe](rmid.exe-D8EC5ABE57565E6260EA2D62D74EF506.md) | 68
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\rmic.exe](rmic.exe-B0BE3B0798C023F1A21C4E066BAE9527.md) | 40
 
 
 

@@ -18,6 +18,13 @@ SHA384 | `351C7C5D84C56F1083133E380B4FE67B3FE39EA5B80AF3B7A11A459D1B948C7F05E5D4
 SHA512 | `F9E0A8C44C080FA6BAF993D7072B89FD21E76DD16767BF7C94A976148A9874DD1C1E6F72902C29C62564EFFD62A5D87CFA94F4611AC79573D3D8D939E5950F4A`
 SSDEEP | `768:wia8KdB5goEYtsmlxSotFFt8hJ7oeyXFbF33MVK6KCYmK6h:AbOEuQtgSXFbFnMVK6KCYmK6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\expand.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

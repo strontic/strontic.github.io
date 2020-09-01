@@ -18,6 +18,21 @@ SHA384 | `661E16D7FE297A2A7C00413BCA2989AA4EAA568649D8EC97661CE3CF18F0CBC2ECB10D
 SHA512 | `8FD15B995E5A8D1E555EFDB519B30527077C14555D5B1242CEB6B3DF5EC214E346E13FF8402AC63026280A7E5AC2E8FBCE3F18D60A72B1E68A7E525F04B87A54`
 SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJiFgm1`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.dll |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\Microsoft.Uev.SyncController.exe |
+C:\Windows\SYSTEM32\MSCOREE.DLL |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,8 +55,8 @@ SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJ
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 32
-[C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 29
+[C:\program files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 32
+[C:\program files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 29
 [C:\WINDOWS\system32\TsWpfWrp.exe](TsWpfWrp.exe-DF69CC1A89E7540A7A2770250B739096.md) | 29
 [C:\Windows\system32\TsWpfWrp.exe](TsWpfWrp.exe-E7220B745646E732C1388B6173E5C6E9.md) | 25
 [C:\WINDOWS\SysWOW64\TsWpfWrp.exe](TsWpfWrp.exe-29080A899EACB7AC730A681B515A86EF.md) | 27

@@ -4,7 +4,7 @@ title: MBR2GPT.EXE |
 
 # MBR2GPT.EXE 
 
-* File Path: `C:\windows\system32\MBR2GPT.EXE`
+* File Path: `C:\Windows\system32\MBR2GPT.EXE`
 
 ## Hashes
 
@@ -59,12 +59,20 @@ Where:
 
 ### Usage (stderr):
 ```Batchfile
-Invalid argument: -help
+Invalid argument: --help
 
 Invalid arguments
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\MBR2GPT.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

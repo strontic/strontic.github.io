@@ -4,7 +4,7 @@ title: ARP.EXE | TCP/IP Arp Command
 
 # ARP.EXE 
 
-* File Path: `C:\windows\system32\ARP.EXE`
+* File Path: `C:\Windows\system32\ARP.EXE`
 * Description: TCP/IP Arp Command
 
 ## Hashes
@@ -56,6 +56,14 @@ Example:
   > arp -a                                    .... Displays the arp table.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\ARP.EXE |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

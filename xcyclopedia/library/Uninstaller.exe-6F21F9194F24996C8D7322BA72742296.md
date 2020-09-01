@@ -22,6 +22,17 @@ SHA384 | `68279D416EDDB20D1364A89ECA7E01753CE5401E0AF9EDCCACBF34AAD27D431E7FB9C3
 SHA512 | `65843F4B79EB2A0E5FB84598BB0284F8F5EC5D819D7F04618CA4C90C6804412715CBD9C160E28BAC1A487C55CC97AFDDAB90F944473B7C468F37E5E838B7A429`
 SSDEEP | `6144:KVWpmtlYjMRGDnHmTnED5yh/OGTPIiInUAQ8wIn:YqHjMRGLHqQ4hVSndQ8wIn`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Krita (x64)\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `6144:KVWpmtlYjMRGDnHmTnED5yh/OGTPIiInUAQ8wIn:YqHjMRGLHqQ4hVSndQ8wIn`
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\Uninstaller.exe](Uninstaller.exe-C1EC83CE8E0BC8BF186C638B10C4233C.md) | 94
 
 ## Possible Misuse
 

@@ -4,7 +4,7 @@ title: runas.exe | Run As Utility
 
 # runas.exe 
 
-* File Path: `C:\windows\SysWOW64\runas.exe`
+* File Path: `C:\Windows\SysWOW64\runas.exe`
 * Description: Run As Utility
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `F633828387901A9F6DB431A410B5F7FE18BDDDC4F630C6A839A46B061E59860E`
 SHA384 | `ED4E034A103C566736CDA3E83F5EDBD05E60BDF04DE51C3116FDEE80A4EC5EDB6F7FFAE67456210F46FD2CDE6A30931E`
 SHA512 | `43EEC51A571D196C91F3181F73AC681902986B649D786ED8A40D4A0C19E5DAEB822B383FFD337C55F1E1D9EAE4CBBE756A6D5A8BD0388DD24725E82578F7EAAD`
 SSDEEP | `384:Tc2IOvX+3WUq4WMeXMsuscYMHudWBOW0Qr:T2MwWTjMTYMHuArr`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\runas.exe |
+
 
 ## Signature
 

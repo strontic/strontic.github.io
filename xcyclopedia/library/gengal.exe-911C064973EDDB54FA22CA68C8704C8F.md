@@ -4,7 +4,7 @@ title: gengal.exe |
 
 # gengal.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\gengal.exe`
+* File Path: `C:\program files\LibreOffice\program\gengal.exe`
 
 ## Hashes
 
@@ -44,7 +44,7 @@ options:
 ### Usage (stderr):
 ```Batchfile
 Work on gallery ''
-Existing themes: 1
+Existing themes: 0
 Existing themes: 1
 Using DestDir: 
 Failed to import 'file:///%3F'
@@ -53,6 +53,32 @@ Failed to import 'file:///%3F'
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R--)   C:\Program Files\LibreOffice\share\config\default name.sdv | File
+(RW-)   C:\Program Files\LibreOffice\program\types.rdb | File
+(RW-)   C:\Program Files\LibreOffice\program\types\offapi.rdb | File
+(RW-)   C:\Program Files\LibreOffice\program\types\oovbaapi.rdb | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\gengal.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

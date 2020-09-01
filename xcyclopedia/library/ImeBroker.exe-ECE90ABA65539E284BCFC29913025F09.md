@@ -18,6 +18,24 @@ SHA384 | `FCDA5C116A85D7DF9297EC54C9F6C0C50E31266598B88EB9E76E3286783E51280F07B6
 SHA512 | `1265EFF515B53EDD10415F0BCB159DB4663C59FEE984F04B6B0734133E63C5A64E49770F8FD63F96DB6707404FA78FB5E82233ED66340D9E76BDBB8989C8407C`
 SSDEEP | `12288:Sxb4b5ND0liY29RkWQBipPnrV3RZkY/6KUzhcv:Sx0bnmj29f/0K2hcv`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\IME\SHARED\ImeBroker.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\user32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

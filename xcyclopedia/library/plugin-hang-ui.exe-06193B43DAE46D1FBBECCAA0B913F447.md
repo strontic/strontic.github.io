@@ -18,6 +18,20 @@ SHA384 | `BD8F5165E5755AA14301B4CC9F5CAF55B1606E7754DA21607638905ACCF32C6E8B85E2
 SHA512 | `44800303062DD036E0462562D0A5557E953C7BFA4F6F09BF85EBD97B2B9CD149A2D39C3208A0676EA6D18B4F1793D0683AF41272FEF2CA3A24262E17177982B6`
 SSDEEP | `768:sXtWmGN/BgVbmctn8J0hQLUJC1DGBKgKtv:sXtY/QmsnfhQLUJlEtv`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Firefox\mozglue.dll |
+C:\program files\Mozilla Firefox\plugin-container.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +50,11 @@ SSDEEP | `768:sXtWmGN/BgVbmctn8J0hQLUJC1DGBKgKtv:sXtY/QmsnfhQLUJlEtv`
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Mozilla Thunderbird\plugin-hang-ui.exe](plugin-hang-ui.exe-833C3D739A8FFB2C26ADB0DDB12F33DC.md) | 77
 
 
 

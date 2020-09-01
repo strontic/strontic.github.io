@@ -31,6 +31,13 @@ Usage: MpDlpCmd -<Command>
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -54,6 +61,8 @@ conhost.exe
 File | Score
 -- | --
 [C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2005.5-0\MpDlpCmd.exe](MpDlpCmd.exe-3F78DD1AA45AE707133B087A3BDC0ED8.md) | 74
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2006.10-0\MpDlpCmd.exe](MpDlpCmd.exe-22487937223E8A233830FA3823F4A5F9.md) | 79
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\MpDlpCmd.exe](MpDlpCmd.exe-C97B4BF420EB28F996FB2FC881D3864F.md) | 77
 
 
 

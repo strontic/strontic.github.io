@@ -4,7 +4,7 @@ title: winlogon.exe | Windows Logon Application
 
 # winlogon.exe 
 
-* File Path: `C:\windows\system32\winlogon.exe`
+* File Path: `C:\Windows\system32\winlogon.exe`
 * Description: Windows Logon Application
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `BA07CC249C938A0B59CCBF0642D722DF5B0FA598D844E054997417A97744C705221258
 SHA512 | `62DA4D9CF429E2387449C99A6F97E5923EA6B967E29C5EBC78575568B4CA648C790A0897D391495887863F85A910905CDBA04A7F8B9D9D57F7EFA835523BE8AF`
 SSDEEP | `12288:LB6L/iEapA3fCxZJUlZDWuiIUjdZaNu76w4eGK2Tjo/:0DPaK62QCk7p4eGh3o`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

@@ -18,6 +18,17 @@ SHA384 | `907E9132373DAC740C35EC80CD83EA4479388D9E26F3A8238669B99E1CD35F5CD80DA8
 SHA512 | `8FB2AF827C05DD670F920C8210D1EE0D732A7620CF7DCB1D615101E0FA15ED3E9BD1E95D5952187A8FD379CB5841AA1AD7E04A16294F3AFB271B37B809BFE307`
 SSDEEP | `1536:DbSOPgDaf7DtzdYB+d01sGwLc+wUKxJT19+iqUsCYoK5Esg0BS7HFBt2v5Xlsawy:DbVjDtzKB+d2hwDOxJT19+ksC2g0BUsU`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\TSTheme.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\TSWbPrxy.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

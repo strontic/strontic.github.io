@@ -4,7 +4,7 @@ title: cttunesvr.exe | ClearType Tuner
 
 # cttunesvr.exe 
 
-* File Path: `C:\windows\system32\cttunesvr.exe`
+* File Path: `C:\Windows\system32\cttunesvr.exe`
 * Description: ClearType Tuner
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `06B9311698EE2EF39BA44A48B6DA23F678B6F32DFFADFC1FDC9B48E18D3D2838`
 SHA384 | `380EE219227A75D0C6FBE4F1998610D3A321D38FE16BC4F3F6E1312E2D2EBD5BB3D106049599C7DCA3D768B3B0391351`
 SHA512 | `D2756AE96BBE0EE3F786A64A3BB8E691E970C9AC141B1157B645847610881C2D60C9B4FFCECB391A999C09196DAC3344B7218937C0301151605601FB71971C58`
 SSDEEP | `768:taY+NIPckKZ1d9mD85fV8/WdALEzKZQJL4g1tl1dVldJIdB+62LCVHTv:rTAd5N80tKZkL71tl1dVldGdB+Pszv`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\cttunesvr.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC17DC | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

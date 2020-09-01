@@ -4,7 +4,7 @@ title: msinfo32.exe | System Information
 
 # msinfo32.exe 
 
-* File Path: `C:\windows\SysWOW64\msinfo32.exe`
+* File Path: `C:\Windows\SysWOW64\msinfo32.exe`
 * Description: System Information
 
 ## Screenshot
@@ -21,6 +21,42 @@ SHA256 | `9D9EFB1655826BC2CC5F0767C2F461BBE6D8E743113EB6B396B5966740373DEC`
 SHA384 | `D8ABCEC2963AD3AFB9067023D10F542F9D3D4C4C7E6E81C374DE24B420FC603760D92E197179C891B2BC96830FDFA952`
 SHA512 | `09F769849517095A491217E5BA65F39F9BD6056BA0C71D6DA82BCE00BFB63ACD1D8088C73A54E51D8D37A9C9C89A7141A65F663FD5728C3BA50AEFFD1660E09F`
 SSDEEP | `6144:uHJ3+9UJO4va8O8Qu0dIlUD7Drj7jmyh27ZEOHHrpm1XUZLxEZEOHHrpm1XUZLxO:uHJ3+9UkMOG0dIlUD7Drj7jmJFtLpm1G`
+
+## Runtime Data
+
+### Window Title:
+System Information
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\msinfo32.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1798 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msinfo32.exe |
+
 
 ## Signature
 
@@ -44,8 +80,8 @@ SSDEEP | `6144:uHJ3+9UJO4va8O8Qu0dIlUD7Drj7jmyh27ZEOHHrpm1XUZLxEZEOHHrpm1XUZLxO:
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 55
-[C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 55
+[C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 55
+[C:\program files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 55
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 55
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 61
 [C:\windows\system32\msinfo32.exe](msinfo32.exe-4BA6D7F9032FE80308C0501E087A54F6.md) | 61

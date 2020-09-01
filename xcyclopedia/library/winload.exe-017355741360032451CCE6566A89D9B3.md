@@ -18,6 +18,32 @@ SHA384 | `2CDE465925DB46424038C9CD617385AA1E6FB8A6C188BB36F662D63C32CBC6D9BA69E1
 SHA512 | `B785FACF3DC49F7E45ED467AA5E7FFC10BC3BB74E34095B562EED696BE5C97F61DD55DE4B68EC953AF471CA0260E7095DB0FA642ABC332A302AC05B7AAEED67D`
 SSDEEP | `24576:uZAT5AqeEAqNajJ+iHRmWTm00a6qTWLFX6yVT9ccQ6iq4+AoIv7LAphj:uZafeSSfHZq00w47VycQ6iVwAg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\python-core-3.7.7\lib\distutils\command\wininst-9.0-amd64.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\SYSTEM32\TextShaping.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab\COMCTL32.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

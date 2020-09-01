@@ -4,7 +4,7 @@ title: shrpubw.exe | Share Creation Wizard
 
 # shrpubw.exe 
 
-* File Path: `C:\windows\SysWOW64\shrpubw.exe`
+* File Path: `C:\Windows\SysWOW64\shrpubw.exe`
 * Description: Share Creation Wizard
 
 ## Screenshot
@@ -22,6 +22,37 @@ SHA256 | `6B4E6BB29538F24AFCF8B823383B846D2D483D83B38C3F74902995DE6E6679F8`
 SHA384 | `87974F31D79047D68456454AFC9C7EBB18F53FEC3131FE5E9A01252F2B0D7678A692DFFFD93E7187AC6805890F43AB1D`
 SHA512 | `6F68E57053C9146CBDB66AA5955065A7F5022AEA319F258A27498E7269ADCAF37279DF276A7A47D36A5AF6A1F003AB3B46C2F0901491440ACC9D8625697ADF4D`
 SSDEEP | `1536:aXAWBTT7E7F3D0l4AuIDKBTxWJF51KsvhFsVqvCm:aQWBTT7EtptIcgJFWsvNvCm`
+
+## Runtime Data
+
+### Window Title:
+Create A Shared Folder Wizard
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\aclui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\shrpubw.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\shrpubw.exe |
+
 
 ## Signature
 

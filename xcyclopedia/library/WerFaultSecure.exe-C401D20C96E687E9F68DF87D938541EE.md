@@ -18,6 +18,13 @@ SHA384 | `9F076A4CB8F16FBFEB86F8B1D6CF286F2B30996CC6DF2F9381903CA7D1ECFDA5AD6760
 SHA512 | `389CDC10B288A3D6E9C5759D5D03FD5D0B39F3EE7507D913D95CF3ABCEB6C50969FFBAE492F76CEE46F605865A78DE7BF8CBD8D9B205CF17E00BA11F63D0E7FE`
 SSDEEP | `3072:IURM/uRkzZpUkkKC7AW7Wam1CFJ+yC3pwRb6JPqB604HHy7hRCd39vCaD:If/uRwrUkkKgvOLVJyB60OHyLC7vP`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -43,6 +50,7 @@ File | Score
 [C:\windows\system32\WerFault.exe](WerFault.exe-5D51C4B5991B8C112E61537B1391E060.md) | 44
 [C:\Windows\system32\WerFault.exe](WerFault.exe-B843354FF4C728A87A5A061E0974FD78.md) | 36
 [C:\Windows\system32\WerFault.exe](WerFault.exe-DDAA52E54923C29A2AC75BDA3CD7DADB.md) | 50
+[C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-21753D161716BBC3C1CE40F4EA2ED795.md) | 61
 [C:\WINDOWS\system32\WerFaultSecure.exe](WerFaultSecure.exe-6B384653F71F69C620F18506FF8D5CEB.md) | 58
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-813CD5FD7FB059B4ED2D67A99FCBEEC0.md) | 63
 [C:\Windows\system32\WerFaultSecure.exe](WerFaultSecure.exe-9A393C5A2213248F772F6F8AAF26CBC8.md) | 60
@@ -50,11 +58,13 @@ File | Score
 [C:\Windows\system32\wermgr.exe](wermgr.exe-51F8D9C50CCF160D67388651DB19AC28.md) | 50
 [C:\Windows\system32\wermgr.exe](wermgr.exe-5EEBCCABE74604D756E9F7D9A3D30C2C.md) | 63
 [C:\WINDOWS\system32\wermgr.exe](wermgr.exe-C96DD16FBFACF3E22A1C0B7DCFDFCBBB.md) | 50
+[C:\Windows\system32\wermgr.exe](wermgr.exe-CD042F94B63D67E012CFB4297D313248.md) | 43
 [C:\Windows\system32\wermgr.exe](wermgr.exe-E4F582A493C2570A23B30CAE2CEEAC19.md) | 47
 [C:\Windows\system32\wermgr.exe](wermgr.exe-ED47D884E60F476815BA4973C2599468.md) | 52
 [C:\windows\system32\wermgr.exe](wermgr.exe-F88816F787B827695928ACE239A9F61C.md) | 63
 [C:\Windows\SysWOW64\WerFault.exe](WerFault.exe-78E2621A3ED108179AE91557C1F21DDA.md) | 47
 [C:\windows\SysWOW64\WerFault.exe](WerFault.exe-FF88EC2E38C3CDDA92ED566272477098.md) | 29
+[C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-21EBD9AF6E4426C12278D0EB63DABD34.md) | 61
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-2C62D333A60162505F8CA1DBB432B7FA.md) | 57
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-3A8ED7F8072921BB83E6C9A143983073.md) | 58
 [C:\Windows\SysWOW64\WerFaultSecure.exe](WerFaultSecure.exe-504211A31F3A16D3FAD61A8451D08EFD.md) | 55
@@ -64,6 +74,7 @@ File | Score
 [C:\windows\SysWOW64\wermgr.exe](wermgr.exe-1908E6DCCB5C330CCF3F0AD7E83FA4FD.md) | 57
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-20FA16AAE2860CAFC503651E1D8A0B87.md) | 40
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-2B5F4FFF330CD1B3B921DAF77330C205.md) | 40
+[C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-3C5D8073B8A766DBFBB2B2A8257D1E59.md) | 29
 [C:\WINDOWS\SysWOW64\wermgr.exe](wermgr.exe-481E9D9BA530530EFE3C8871DEAEF37F.md) | 43
 [C:\Windows\SysWOW64\wermgr.exe](wermgr.exe-DEF33E6FF117395A2F1BF5A06D0988E1.md) | 43
 

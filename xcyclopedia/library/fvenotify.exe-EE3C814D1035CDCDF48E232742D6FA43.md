@@ -4,7 +4,7 @@ title: fvenotify.exe | BitLocker Drive Encryption Notification Utility
 
 # fvenotify.exe 
 
-* File Path: `C:\windows\system32\fvenotify.exe`
+* File Path: `C:\Windows\system32\fvenotify.exe`
 * Description: BitLocker Drive Encryption Notification Utility
 
 ## Screenshot
@@ -21,6 +21,38 @@ SHA256 | `F0CDDBA84AC1DA81B4F340B7B14193FF85E80B6444FEBE5F7686DE6061ED7C67`
 SHA384 | `0AFA4989D15D55828B409222234002B8C69228D8E1BF998BCEEA19175EAE468BB115EFB42F4BC4B8D01D0835B9AFD70E`
 SHA512 | `B5BC313347F7060F41C56660F6FDE7CF6FAF84678CAE73C91C924014E3D50BC24869A7DDE93D5D5B3DE162A20107F39D9AEC818FADED3A88C5BB40382E535D33`
 SSDEEP | `3072:zfzagc1/UX3bqxEMb4XH86rvkAXX5wnVS570M9kdatGCO+xmBc+hMPhPsx:j+t1/ubqyM8Xxrv6Vs7nyatGt+SYF`
+
+## Runtime Data
+
+### Window Title:
+BitLocker Drive Encryption
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\fvenotify.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fvenotify.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

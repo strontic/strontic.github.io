@@ -18,6 +18,25 @@ SHA384 | `C791BEB1E39676E587E4EC146D1FAECF79D73F9912A10FB766ADDD2A2ADBCD3A66BEDD
 SHA512 | `D135F48623DD56815DDEC4C987501BAFA1C6B73BCEFC901D35C91DE74F98AB88FD0436FD38CBF66EE887A40C9BDEB92D5A322F746B9F66427EA263422CDE564D`
 SSDEEP | `1536:dIPDJnLpz8lQ+eluBvirj2igxP+3uQgx84tS5:6hDQBvirD2+rR4s5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\LanguageComponentsInstallerComHandler.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

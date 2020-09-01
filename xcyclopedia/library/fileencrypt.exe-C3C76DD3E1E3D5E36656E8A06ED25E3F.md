@@ -22,6 +22,17 @@ SHA384 | `C4669B7C99D959AF4B9FFA4360D40B3374C7188F14CBFB18DF8FB4F48BDD36234C3862
 SHA512 | `8065343AC3193FB4980386BA21E9B65C3F4E861CA22701D8554379A0313109BC78281464E7D9E277BD2B1190006498A7B4A3D30FF057D4BE0539774725FBE730`
 SSDEEP | `3072:JX1mKYMmt/7Ehg/uevBT6oUKceVwHgKx/7es9ZOJuamC+N7LPAoGEV+g:fmNNJ4WWe96oUOOgKks9ZOJeWoGhg`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\fileencrypt.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `3072:JX1mKYMmt/7Ehg/uevBT6oUKceVwHgKx/7es9ZOJuamC+N7LPAoGEV+g:fmNNJ4WW
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\fileencrypt.exe](fileencrypt.exe-A368AFDE794912E1760345775D723F8F.md) | 94
 
 
 

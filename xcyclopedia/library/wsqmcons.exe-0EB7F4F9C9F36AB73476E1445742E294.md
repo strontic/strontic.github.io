@@ -18,6 +18,24 @@ SHA384 | `872D8C94E5E54EDF628DCD7270E97ED050D5D084448DF6C1404E6CC0B4C3C58288EACE
 SHA512 | `EED5CA47803DEF5D0BA83F27C89C1C02D056EC2CB985E63E334864C5F03BD129908966BCB58BD4F8B481C92DC0F16DB273849BDA2862BC52D21EB3043E617B8C`
 SSDEEP | `1536:r1P+0Jmc0vyxWqcLdKAVP9xVpgVubXwxEE1d5verrSrJPRRmGQumre2q6m:Q3c0v9VP7w4sxVor2rJHJQuCe2e`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\wsqmcons.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +58,7 @@ SSDEEP | `1536:r1P+0Jmc0vyxWqcLdKAVP9xVpgVubXwxEE1d5verrSrJPRRmGQumre2q6m:Q3c0v9
 
 File | Score
 -- | --
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-207A52DB4D9CB6A252722D51E54AB01D.md) | 32
 [C:\WINDOWS\system32\wsqmcons.exe](wsqmcons.exe-3198C8F020BC60931404167EEC51E2BF.md) | 35
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-3B04F0282E333C98974BB8A39360DD24.md) | 40
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-5A06B640015F7BBB113AF7FF7E29A3BB.md) | 35

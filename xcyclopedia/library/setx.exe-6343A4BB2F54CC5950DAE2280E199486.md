@@ -18,6 +18,16 @@ SHA384 | `DE09789A24464B8487CA5D5E585360910162BFB64A0117B4D5B30DB830B1D2266EE562
 SHA512 | `5916E82CE2375D341F6AB060859CC813140D0CF6092A73AD8B99F0327B83B1E22832B2F4AEAD2D45486842889F2F9D86DE59473AC07FCBA14F22B47C8348704E`
 SSDEEP | `768:RmF6RDl+n8wnP9CV/ata5gvUEYemJ/PTntsNPqAluuD6K9MbEYyxKodNoailP:MF6AtaYUEQ1UPqOuuDHvood+ail`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\setx.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\setx.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

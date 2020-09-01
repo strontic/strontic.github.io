@@ -18,6 +18,17 @@ SHA384 | `670E5B041D02C03435A1EC4A235D18B0824565575D73FD5FEBB7B56FD5BE537B07C2FC
 SHA512 | `7A33C639948523F60DAFDDDC784545C66DE97E76B5BB7F3C7A1657EA683B8A0ECE0FF08EB6EB54F41CC3BA903A1F440CF777C8D2220C326941930E56D78DCDFA`
 SSDEEP | `12288:HoL6be+QQrxXm+83l72kFW4VgMaA6TpFMHOy8YcRfc5IZxX:HoGbe+QQrxXE2AwacR1X`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WWAHost.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\WWAHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

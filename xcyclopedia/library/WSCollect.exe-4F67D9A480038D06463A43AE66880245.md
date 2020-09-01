@@ -29,6 +29,16 @@ Error: 0x8007007b
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\WSCollect.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

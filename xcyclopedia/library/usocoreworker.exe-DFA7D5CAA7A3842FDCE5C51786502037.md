@@ -18,6 +18,63 @@ SHA384 | `0D8AA1B3D9FB70F8F60DEAD1445AD6AC0038936875A3DBFC7FAE6B1319A31DC097AFBB
 SHA512 | `4573E87F2F7670C4A335C260EA031E74E07980E4EF4FC3B2AD2899DBBD3EEE6BBCD9B655B571CFE73CA5563968FCA00B9372FEF633DFB60689FF9C0E5C38AC47`
 SSDEEP | `24576:akzqJl29B2qlYkODtlPJeYAGrccS9dn5Onau/fClAuFYkGQO:lIlFDvRIdMnasq`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\ProgramData\USOShared\Logs\User\UsoCoreWorker.0135be41-3c55-4170-b197-85ffb29de596.1.etl | File
+(RW-)   C:\Users\user | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
+\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\system32\Cabinet.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\SYSTEM32\cryptsp.dll |
+C:\Windows\system32\DMCmnUtils.dll |
+C:\Windows\system32\dmiso8601utils.dll |
+C:\Windows\system32\DMOleAutUtils.dll |
+C:\Windows\system32\iri.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MSASN1.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\omadmapi.dll |
+C:\Windows\SYSTEM32\powrprof.dll |
+C:\Windows\system32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UMPDC.dll |
+C:\Windows\system32\UpdatePolicy.dll |
+C:\Windows\system32\usocoreworker.exe |
+C:\Windows\System32\WINTRUST.dll |
+C:\Windows\system32\XmlLite.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

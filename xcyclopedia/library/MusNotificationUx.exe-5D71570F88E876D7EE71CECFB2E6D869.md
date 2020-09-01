@@ -18,6 +18,24 @@ SHA384 | `9246F5EA0A6008E055799094011F9E77019A61E136798650333D1A30E4089893474FCE
 SHA512 | `61DA367E7421B7CEE613EE9FBF55ACE9A56451E6343167307AE27E3715D069DE241CE5B8DFB4A23198622BA92EDEB791961AF9D46DE6CEAD9B368F32EFA89088`
 SSDEEP | `3072:/SFjrQmWEbs2aN9lqz2dm8euvMdNb6c24EVv:/SFjRWEbs2aNe2dm8euvMdNbV24EV`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\MusNotificationUx.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

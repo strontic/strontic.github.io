@@ -4,7 +4,7 @@ title: DisplaySwitch.exe | Display Switch
 
 # DisplaySwitch.exe 
 
-* File Path: `C:\windows\system32\DisplaySwitch.exe`
+* File Path: `C:\Windows\system32\DisplaySwitch.exe`
 * Description: Display Switch
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `5E4E1662EB2D4D08D8D0D52F4F9BB9B30B61634F2B5E0799B03CFC098D8BEF0A`
 SHA384 | `47DF298F6668E1DD0F418FE35718F138632EF735C5310F7632EB999B1EE078835E7EDEECEE9C67F3CA7D1D78AA7F9B10`
 SHA512 | `3E444C62CB595DBA50414C44DAE98EB02457FC029E6D2F0B358FB084D1B8CAFBCD329E7386A623D3548DAF6883BA80202DB49DE03516BF9ACF8F8153DE22C672`
 SSDEEP | `3072:+eJVmi/wGrmvdEcW9cIEd/qGhtIdRHORSqvkqxXfoOETWB+/VSHP9a:+emi6vdEcyId/q06zHORNvxJp+k9`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DisplaySwitch.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

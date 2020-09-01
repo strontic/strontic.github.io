@@ -18,6 +18,17 @@ SHA384 | `4C67754CBD36C8F64473EE7996CE37AE5F31A9CF5EF0C86E57D13F393BAFAFD42DB04B
 SHA512 | `E1789FEA16DFB6D5F2FDB2FA9BDF36F87A06F9E721102D9B24E7A4E22D248FAB2D4FA24D16ABF8388DAB3C3B5ECEAC1FCC19BD8ECBF359182C001FAAD2D1097D`
 SSDEEP | `768:ACgXKDOdccAUaTsiAzOBzzHYER3zzzyfzqhTzEsIXC7fm4lupOchdMeKgMxV1DG3:NgOOdcc6siAzOBzz4EhzzzyfzqhTzEsS`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\CheckUpdate.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -36,6 +47,11 @@ SSDEEP | `768:ACgXKDOdccAUaTsiAzOBzzHYER3zzzyfzqhTzEsIXC7fm4lupOchdMeKgMxV1DG3:N
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\CheckUpdate.exe](CheckUpdate.exe-3B259C71DD5CB55DD166359B22243A5D.md) | 94
 
 ## Possible Misuse
 

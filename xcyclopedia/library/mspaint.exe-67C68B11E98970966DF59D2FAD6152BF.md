@@ -4,7 +4,7 @@ title: mspaint.exe | Paint
 
 # mspaint.exe 
 
-* File Path: `C:\windows\system32\mspaint.exe`
+* File Path: `C:\Windows\system32\mspaint.exe`
 * Description: Paint
 
 ## Screenshot
@@ -21,6 +21,41 @@ SHA256 | `615CFFE98CAD0DB5F7F261CE915F13BBBC22378BB2A80591D38205D5658A8092`
 SHA384 | `DDA836D6E9F58A535871386D191A9FA9EE1C8EE9B099F7F2F86133758B2E1618CE33E1C190CF59E7AEEF23761D0FFF33`
 SHA512 | `0B2D663E7E2611092EBBB6771321B33A128675144E2CE4260998949A486F91BC7F51ABF429CD0489004947FCE584C21DD14AE0BB06820ADA82E2D8377366B9A2`
 SSDEEP | `98304:70eQ2u7InCOgQwyRPM1mlawYL260GBGrGrGWAub7jPhivQ:7096n/gQw4MIlawYVb7jP8v`
+
+## Runtime Data
+
+### Window Title:
+Paint
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mspaint.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\UIRibbon.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\debug\WIA\wiatrace.log | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\RotHintTable | Section
+\RPC Control\DSEC152C | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\mspaint.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

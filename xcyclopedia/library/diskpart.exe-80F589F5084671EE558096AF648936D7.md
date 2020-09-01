@@ -4,7 +4,7 @@ title: diskpart.exe | DiskPart
 
 # diskpart.exe 
 
-* File Path: `C:\windows\SysWOW64\diskpart.exe`
+* File Path: `C:\Windows\SysWOW64\diskpart.exe`
 * Description: DiskPart
 
 ## Hashes
@@ -26,7 +26,7 @@ SSDEEP | `3072:FpPTkkd482hZtTG2IZOmaIoEuImgCh4NYXKAZWcclJDZZflnaK3QxiZeiO:Fpr9dr
 Microsoft DiskPart version 10.0.17763.1
 
 Copyright (C) Microsoft Corporation.
-On computer: Strontic5
+On computer: EC2AMAZ-0F59E47
 
 Microsoft DiskPart syntax:
 	diskpart [/s <script>] [/?]
@@ -35,6 +35,16 @@ Microsoft DiskPart syntax:
 	/?          - Show this help screen.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\diskpart.exe |
+
 
 ## Signature
 

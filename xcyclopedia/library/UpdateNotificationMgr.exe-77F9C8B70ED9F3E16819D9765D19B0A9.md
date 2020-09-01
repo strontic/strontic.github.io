@@ -18,6 +18,25 @@ SHA384 | `856FA8054D8BAF5955403BC621F8FEA66F3B664BD58A340B011B06209222D1960A9EBE
 SHA512 | `997063AA59C9B1FE1EEF0FE8BDA269D429B387914C3EF3450A439439D279E8C916A454A347503F2CD37BCCE4B94C92FF2D96E9ADEED3866BADFC946CA67E28B5`
 SSDEEP | `6144:f0qkYPw/UC2Vl9KNsrqPWE53VkN9ghWSXeAGagqeM8ywebWxZGi/tHd53HN3qfuC:8nIwKl9nNqooGqVGGAJHVd8AAQUZf`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UNP\UpdateNotificationMgr.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

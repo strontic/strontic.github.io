@@ -4,7 +4,7 @@ title: Uninstall.exe | AIMP Setup
 
 # Uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\AIMP3\Uninstall.exe`
+* File Path: `C:\program files (x86)\AIMP3\Uninstall.exe`
 * Description: AIMP Setup
 * Comments: Made in Russia
 
@@ -24,6 +24,17 @@ SSDEEP | `49152:QzCQT7PZS6E6c/tUSU/RQN/J8EuWI5cTsS9JfeXyF:MCoUUSU/K+RXdWfSQ`
 
 ### Child Processes:
 Uninstall.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\AIMP3\Uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

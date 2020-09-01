@@ -18,6 +18,26 @@ SHA384 | `44802521BDDAD20A9003BA6C0E8BF2E3A75942C3A1D18098F5287FE5D5954FE880A5D7
 SHA512 | `13769A75938DE87CDE4BFE7E703B35BED3506C7BAC21F86993B617ABB743127B77FCA356999A97AE7F19A180FA068CA4493AE6210B56804C92B643B3BEC4EDB1`
 SSDEEP | `768:ps727bWSEAvQyTUfqU3F6yk4kKZB4IWXP1pIllNWk0uAFkQKPhBAE:aqEAvQxqpmj/4Rp6lNWHuA6VPhBAE`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\UIMgrBroker.exe |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

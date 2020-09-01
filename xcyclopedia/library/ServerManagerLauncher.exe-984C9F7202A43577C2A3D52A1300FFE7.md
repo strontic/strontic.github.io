@@ -4,7 +4,7 @@ title: ServerManagerLauncher.exe | Server Manager Launcher
 
 # ServerManagerLauncher.exe 
 
-* File Path: `C:\windows\system32\ServerManagerLauncher.exe`
+* File Path: `C:\Windows\system32\ServerManagerLauncher.exe`
 * Description: Server Manager Launcher
 
 ## Hashes
@@ -20,8 +20,14 @@ SSDEEP | `1536:WJ41FMOgdPNvNAa6iZq0Sv7fWDTkhVzvOmvOj8lOo+vi6Uf:WS1CdNvaXiZNSv7fW
 
 ## Runtime Data
 
-### Child Processes:
-ServerManager.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ServerManagerLauncher.exe |
+
 
 ## Signature
 

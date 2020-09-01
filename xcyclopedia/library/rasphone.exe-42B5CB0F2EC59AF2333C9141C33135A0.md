@@ -4,7 +4,7 @@ title: rasphone.exe | Remote Access Phonebook
 
 # rasphone.exe 
 
-* File Path: `C:\windows\SysWOW64\rasphone.exe`
+* File Path: `C:\Windows\SysWOW64\rasphone.exe`
 * Description: Remote Access Phonebook
 
 ## Screenshot
@@ -21,6 +21,38 @@ SHA256 | `45453FDAD201A4699F6CCB1799A8B14041600CFBC77C3FF79FF9F7964BE89DDE`
 SHA384 | `817F7C5486FF894B98F8EE186ACDC932BF60A2D30A1802B7892258E3AFBA9DF5A4A2D0A28F1A968A6302F13F7308D678`
 SHA512 | `FCE0CAF9D0DF5CDF68523E4A090A2608BEB04AB936FC80C0EF931BCB7BA4A9DE0618467F8E0CA0277247BDC7C9A9A7E7EB8FF98D20C0A9CB6F7A348012A75EE4`
 SSDEEP | `768:Pw5LCkWUbOtDMAIegg1lKm84gIg8vhcaGyfeD:iCkRMDhIVR7UFGys`
+
+## Runtime Data
+
+### Window Title:
+Dial-Up Networking Command Line
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\rasphone.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\rasphone.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: mavinject.exe | Microsoft Application Virtualization Injector
 
 # mavinject.exe 
 
-* File Path: `C:\windows\system32\mavinject.exe`
+* File Path: `C:\Windows\system32\mavinject.exe`
 * Description: Microsoft Application Virtualization Injector
 
 ## Hashes
@@ -18,11 +18,21 @@ SHA384 | `F27A10016B162488E08BFED343C61EA346962F78E977120A97206418F81175AF0B93EA
 SHA512 | `B043F3BDF67CA9097E2B0188BC3CB1F7EAECEB3BE027DDFBF636F873366D53F075B3FC7D5BDEED79622C5D9BFC1033354637DC148A7B13175D3B3C4B227E454E`
 SSDEEP | `1536:rYT12U97+PXZEteMJivOtngr4PiWS4WafKYbkkbsFDfSIT0nJ2QC7pwAKV5KcBpX:rYT1d7wtXvOk4Pi6WGNU6ITLxKqcDX`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\mavinject.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

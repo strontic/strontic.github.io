@@ -18,6 +18,16 @@ SHA384 | `949EF1891C8D0FDA7ADDC9BA678DC1E29EE396307DF650B26A13BBA079D8F055561821
 SHA512 | `58CC8C0BDA324A1D8F14F2119770DD00EF71306B2EA3A3FC9D83833D31FAD3D41E16B621BE62106FDBE224BF556683F71E6291E87267482A6401F834967DE5D5`
 SSDEEP | `768:Y6Um14CKaulw/AxwA8BbVu0qpZpKr9xPANwu/6tTn:YpHCKa0bwA8Bk9bKvmwu/6tb`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\winrs.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: javaw.exe | OpenJDK Platform binary
 
 # javaw.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -21,6 +21,8 @@ SHA256 | `20A2406CE5602476A9519CFD717AA4BF2880DDDEE82CAF1DAA6EBBEB270BD7F5`
 SHA384 | `B72C1354858F481CC3E4E82C6F044732491A0CCEBB7CCA8259F69EBDC7E5B2E46B7B24912956BA24DE07B7FABAA7A4CD`
 SHA512 | `4D0427115F43887DEE416380E41418C5A5902784780FD7D5E716E564834F6C0677A76EFE12F1308D7FFE22E11DE9D9791AE955D323775BEC1167B0E8BC04B3E9`
 SSDEEP | `3072:kI1xqku6rM2slnAhcJzEPZAHQMbQa24TBfXS47k/IXatGa:kIM6HslzJAPZAHQWV24TBv7k/dF`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -78,6 +80,35 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Window Title:
+Java Virtual Machine Launcher
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -100,8 +131,8 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe](javaw.exe-7092B30DB438E77CC22951366F17DCA3.md) | 96
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\javaw.exe](javaw.exe-C60D3E91C016742D2686A8810CA930D9.md) | 97
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe](javaw.exe-7092B30DB438E77CC22951366F17DCA3.md) | 96
+[C:\program files (x86)\Amazon Corretto\jre8\bin\javaw.exe](javaw.exe-C60D3E91C016742D2686A8810CA930D9.md) | 97
 
 ## Possible Misuse
 

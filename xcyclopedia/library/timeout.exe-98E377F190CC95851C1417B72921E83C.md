@@ -4,7 +4,7 @@ title: timeout.exe | timeout - pauses command processing
 
 # timeout.exe 
 
-* File Path: `C:\windows\SysWOW64\timeout.exe`
+* File Path: `C:\Windows\SysWOW64\timeout.exe`
 * Description: timeout - pauses command processing
 
 ## Hashes
@@ -53,6 +53,15 @@ Examples:
 ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\timeout.exe |
+
 
 ## Signature
 

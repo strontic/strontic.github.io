@@ -18,6 +18,17 @@ SHA384 | `83092A3FC3A6BE9387B7755F28F0C97A9CBA62C6CB0B08DD17A4A17206355F56E1E82B
 SHA512 | `F6721549B353C8FA4ED3FE56B8F4910AA6A5A4F13A3670F411E023AC27683A1371837D912FFA165644BE55D22F08777F3F9DF14EAE5CDE6C31C27A42845516DA`
 SSDEEP | `1536:kOkLRhMup2dKPRkkqyvDD3hiWv5+OVIaXUFZexbMdaSRKC/tOK7T:kPLPzEd+DD35vIr3exbMdaSRKC/1/`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.8.5\SetupAdmin.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

@@ -18,6 +18,17 @@ SHA384 | `02060DE5D8068178B05D56F5FE7DD90C2612E8E8F61EEDCF88B1C6FCD3074E45A16845
 SHA512 | `B259C01864F0B733A1FAE5226EB6D9B7F13B156D5BA4A5C702C1CB87CC75C1B701116CCD8E44F28066D4F770F48F3ED4F596BA9AAB051BAAF7A92A4A3AC3D76A`
 SSDEEP | `384:bBNb1gKpfllTM3XPqwh3jT3WcaWvlByV:HrfvTzwBjbjlBy`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\tracerpt.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\TRACERT.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

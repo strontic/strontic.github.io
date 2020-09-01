@@ -4,7 +4,7 @@ title: diskshadow.exe | DiskShadow
 
 # diskshadow.exe 
 
-* File Path: `C:\windows\system32\diskshadow.exe`
+* File Path: `C:\Windows\system32\diskshadow.exe`
 * Description: DiskShadow
 
 ## Hashes
@@ -24,7 +24,7 @@ SSDEEP | `6144:T9zxMYiej4GcxUp6Ki2tXpC98i0e6AQNs3/6dB7RIHrad5t11XEh/SJfcJ+:T9zm1
 ```Batchfile
 Microsoft DiskShadow version 1.0
 Copyright (C) 2013 Microsoft Corporation
-On computer:  Strontic5,  7/1/2020 2:07:36 AM
+On computer:  EC2AMAZ-0F59E47,  8/30/2020 2:19:40 PM
 
 DISKSHADOW.EXE  [/s <scriptfile> [param1] [param2] [param3] ...] [/l <logfile>]
                           - Runs script mode
@@ -39,6 +39,14 @@ DISKSHADOW.EXE  [/l <logfile>]
     /l <logfile>          - Output log file
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskshadow.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

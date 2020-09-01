@@ -18,6 +18,29 @@ SHA384 | `6C7E2C17866398D2A1E6EC8EB45E3A6A43CF4D2DE6636EA672625EF2945E40A753E8DF
 SHA512 | `23057741C96D939332F4F0C50BE5999E8A43518685832D7C1DC30EE190DA75BB093EFAC274205906639A81C218A80BCE0C74FE30CEA6FAE2094C1B2F887E6D1F`
 SSDEEP | `1536:0cPN91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJjyC:lFOwNMSqoKXNvuZAFDqXzlzQe`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DpiScaling.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\DpiScaling.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

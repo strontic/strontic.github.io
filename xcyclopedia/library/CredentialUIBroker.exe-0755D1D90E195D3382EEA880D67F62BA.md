@@ -4,7 +4,7 @@ title: CredentialUIBroker.exe | Credential Manager UI Host
 
 # CredentialUIBroker.exe 
 
-* File Path: `C:\windows\SysWOW64\CredentialUIBroker.exe`
+* File Path: `C:\Windows\SysWOW64\CredentialUIBroker.exe`
 * Description: Credential Manager UI Host
 
 ## Hashes
@@ -17,6 +17,29 @@ SHA256 | `B47AE441FBB2C3307EE6B8F7807D9DE244D5127EFF68474ADCFE3C0ADF8D335D`
 SHA384 | `AB3F590B783A9C023D514A2A42A249B65EF70C460971D634068B7BEC842E7C649CB755530BD5457678BDE45D627822B7`
 SHA512 | `5996AA9D4D4C67C0B5F1260D4091D1254A384582F4339272AE0889E77ADA0BAB0A042A6DF3A2BA4A3FCF0CD8AAE8179AB3CF41F3E9D1AE8038B94B54AD0DC417`
 SSDEEP | `3072:fK+qPcjDKaSwSKWADSbsqJIq7qLTAwtCL:f9qkvvSKWAD9qJIqQc`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\CredentialUIBroker.exe |
+
 
 ## Signature
 

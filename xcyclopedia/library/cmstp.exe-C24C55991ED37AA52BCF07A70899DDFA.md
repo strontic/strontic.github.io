@@ -4,7 +4,7 @@ title: cmstp.exe | Microsoft Connection Manager Profile Installer
 
 # cmstp.exe 
 
-* File Path: `C:\windows\SysWOW64\cmstp.exe`
+* File Path: `C:\Windows\SysWOW64\cmstp.exe`
 * Description: Microsoft Connection Manager Profile Installer
 
 ## Screenshot
@@ -22,6 +22,36 @@ SHA256 | `E3EA8B0B905F0CB4B355C0650672962A18212420AA75732B689439FBD956B208`
 SHA384 | `FF7C2EE1B5E000A68781AA95866B26CD8014B91D0A790463FD80CB0633787F3612FBB9572B8A418F8139220B68CCA4EF`
 SHA512 | `B9D37CE30D1FB631ECC04D0893D85ED65F5E5D5A79788EEB1DD5BED8012D89A3CCD3D3D1A4FB8AE4ADE8D910BC57A75FE0A95398FC3323A5C5F90EF39B5EAC16`
 SSDEEP | `1536:PvsrU8+dzwKsTCmxywevV9mi2oLIYYAXraLY1qYqNRe1uZZbNDa:PErU8+JwKsTpymmjmkqYqNRe12ZJDa`
+
+## Runtime Data
+
+### Window Title:
+Connection Manager Profile Installer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\cmstp.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\cmstp.exe |
+
 
 ## Signature
 
@@ -89,8 +119,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - [T1218.003 CMSTP](../../T1218.003/T1218.003.md) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #1: CMSTP Executing Remote Scriptlet [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #2: CMSTP Executing UAC Bypass [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Exploitation for Client Execution [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Application Shimming](../../T1546.011/T1546.011.md) \| [At (Linux)](../../T1053.001/T1053.001.md) \| [CMSTP](../../T1218.003/T1218.003.md) \| Credentials from Password Stores [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Domain Groups](../../T1069.002/T1069.002.md) \| RDP Hijacking [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Credential API Hooking](../../T1056.004/T1056.004.md) \| Exfiltration Over Symmetric Encrypted Non-C2 Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Data Obfuscation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Disk Content Wipe [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Inter-Process Communication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Authentication Package [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [At (Windows)](../../T1053.002/T1053.002.md) \| [CMSTP](../../T1218.003/T1218.003.md) \| [Credentials in Registry](../../T1552.002/T1552.002.md) \| [File and Directory Discovery](../../T1083/T1083.md) \| RDP Hijacking [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Credential API Hooking](../../T1056.004/T1056.004.md) \| Exfiltration Over Physical Medium [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Data Encoding [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Direct Network Flood [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Exploitation for Client Execution [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Application Shimming](../../T1546.011/T1546.011.md) \| [At (Linux)](../../T1053.001/T1053.001.md) \| [CMSTP](../../T1218.003/T1218.003.md) \| Credentials from Password Stores [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Domain Groups](../../T1069.002/T1069.002.md) \| [RDP Hijacking](../../T1563.002/T1563.002.md) \| [Credential API Hooking](../../T1056.004/T1056.004.md) \| Exfiltration Over Symmetric Encrypted Non-C2 Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Data Obfuscation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Disk Content Wipe [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \| External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Inter-Process Communication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Authentication Package [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [At (Windows)](../../T1053.002/T1053.002.md) \| [CMSTP](../../T1218.003/T1218.003.md) \| [Credentials in Registry](../../T1552.002/T1552.002.md) \| [File and Directory Discovery](../../T1083/T1083.md) \| [RDP Hijacking](../../T1563.002/T1563.002.md) \| [Credential API Hooking](../../T1056.004/T1056.004.md) \| Exfiltration Over Physical Medium [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Data Encoding [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Direct Network Flood [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.003/T1218.003.md) | # T1218.003 - CMSTP | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.003/T1218.003.md) | <blockquote>Adversaries may abuse CMSTP to proxy execution of malicious code. The Microsoft Connection Manager Profile Installer (CMSTP.exe) is a command-line program used to install Connection Manager service profiles. (Citation: Microsoft Connection Manager Oct 2009) CMSTP.exe accepts an installation information file (INF) as a parameter and installs a service profile leveraged for remote access connections. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.003/T1218.003.md) | Adversaries may supply CMSTP.exe with INF files infected with malicious commands. (Citation: Twitter CMSTP Usage Jan 2018) Similar to [Regsvr32](https://attack.mitre.org/techniques/T1218/010) / ”Squiblydoo”, CMSTP.exe may be abused to load and execute DLLs (Citation: MSitPros CMSTP Aug 2017)  and/or COM scriptlets (SCT) from remote servers. (Citation: Twitter CMSTP Jan 2018) (Citation: GitHub Ultimate AppLocker Bypass List) (Citation: Endurant CMSTP July 2018) This execution may also bypass AppLocker and other application control defenses since CMSTP.exe is a legitimate, signed Microsoft application. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

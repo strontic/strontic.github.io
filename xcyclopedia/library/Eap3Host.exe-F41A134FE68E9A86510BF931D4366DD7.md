@@ -18,6 +18,23 @@ SHA384 | `2112F9E08B02B7C2FA8D93C2D021B93F44A905BD059156A1B708A5CAA91E913BEB01D0
 SHA512 | `7ADAA97186B729D09E6DE3023CD5D5E6343CA52701C07C5CCAEA2706877D0BE4C54DB472D3A5CC1FBEBC3071E06063563BBD5CC3F0EBF9E2252AF20AAEE61A3D`
 SSDEEP | `384:lEVw7Sg5b9iHk2/317pOnqKWU6znNO84ga5WuaW:l/OoYHk2/3GnPWR5O84gaP`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\Eap3Host.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

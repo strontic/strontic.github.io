@@ -4,7 +4,7 @@ title: GoogleUpdate.exe | Google Installer
 
 # GoogleUpdate.exe 
 
-* File Path: `C:\Program Files (x86)\Google\Update\GoogleUpdate.exe`
+* File Path: `C:\program files (x86)\Google\Update\GoogleUpdate.exe`
 * Description: Google Installer
 
 ## Screenshot
@@ -24,8 +24,35 @@ SSDEEP | `3072:UAt2Sk2m5oyiTOZQvfSERdX9Zk8AtB+llojrWTMK12XdjWtVAlR8yVciqFltCT34:
 
 ## Runtime Data
 
-### Child Processes:
-csrss.exe winlogon.exe
+### Window Title:
+Google Update Installer
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Program Files (x86)\Google\Update\1.3.35.452 | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Google\Update\GoogleUpdate.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -49,7 +76,7 @@ csrss.exe winlogon.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdate.exe](GoogleUpdate.exe-0BCA3F16DD527B4150648EC1E36CB22A.md) | 100
+[C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdate.exe](GoogleUpdate.exe-0BCA3F16DD527B4150648EC1E36CB22A.md) | 100
 
 ## Possible Misuse
 

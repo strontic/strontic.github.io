@@ -18,6 +18,17 @@ SHA384 | `A3568E1C11E82A5BA5E8177274516F1F89F556A8B036A7EFA95FC541DC8D9C97DA0813
 SHA512 | `E155D38FFA0D7C22BC0A8F7D97EA5A9A2DE234FBDB66D1EDA28795DEE4AAB7C3D66E109EAC032231EFCDD214FBF0EB2F67842BD216C6213F71AB17BCB6D6C18F`
 SSDEEP | `6144:5sT0W+rr+Ac7EoxmEVoimbZNTbvQjc+a:5zDrr+Ac7EoAEGnQQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\WinRTNetMUAHostServer.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\WINS.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

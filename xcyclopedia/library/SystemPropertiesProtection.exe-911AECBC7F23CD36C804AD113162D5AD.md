@@ -4,7 +4,7 @@ title: SystemPropertiesProtection.exe | System Protection Settings
 
 # SystemPropertiesProtection.exe 
 
-* File Path: `C:\windows\SysWOW64\SystemPropertiesProtection.exe`
+* File Path: `C:\Windows\SysWOW64\SystemPropertiesProtection.exe`
 * Description: System Protection Settings
 
 ## Hashes
@@ -17,6 +17,41 @@ SHA256 | `A13C30DF2C1D6C82A068C207E4EA66B4614C272B733511D234827FBABE6F73F3`
 SHA384 | `49F3B439DA3E3A493BA7250ED6BB31738624D3BEEBE071EFB8C4D1D571BA0663C612D07BEF4DBD62CAD72EC83A984C00`
 SHA512 | `E9F71D6361C13FEE6DFB219FBF8EF550E1E005AD53B85D3CF26CADE361BD8DC6A9D0551168B6104DE4FF0F9F6359309A21644BF8C09A6B0A11DD0264C71CE85A`
 SSDEEP | `1536:5ELZ2tREC/rMcgEPJV+G57ThjEC0kzJP+V5Js:5A2zECTMpuDhjRVJGy`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\remotepg.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\SystemPropertiesProtection.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\netid.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesProtection.exe |
+
 
 ## Signature
 

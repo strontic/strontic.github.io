@@ -18,6 +18,8 @@ SHA384 | `515245BD68B753A2A19C07E55E0CEB7BB5BB3CCA2C7BF1AFEF047727D0DAF0ECEC2FF5
 SHA512 | `5A921B0B05135E68463F3BD823F9768B94649AD4C5923A645D5A5594961D9204AA69D4A49726134CC5DFBD0B00D3B59096B1AC7DF849A1B340E81F71916AE6BA`
 SSDEEP | `384:eLvvoNBKZfeaWCmfYjHCXgd2f18LXSdj28qJfsCWWrW:e7v7feaWCmfgYfmLoj3S`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 
@@ -47,6 +49,16 @@ NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\nbtstat.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

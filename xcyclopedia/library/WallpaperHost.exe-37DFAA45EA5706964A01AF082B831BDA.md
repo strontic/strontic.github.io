@@ -18,6 +18,22 @@ SHA384 | `64BA9AD9BFF08FF7EB533AC609C011EFBF76C043F97F7F852F1A063325A246E2E96FFF
 SHA512 | `40CA4E5014D9FCA3569823C139309CE2D7871054F1A7D875125D6E447A8439DE56BCA801416EE7C1AC2A4579151E5D07842EE52D04DA80EC7D6BAAF3C6406550`
 SSDEEP | `384:n+Yx9hgLjTEWKIoGtxi5wZkTgEfJ7y7xUietlChvCauuphNvUhytTbWK0FW2:Xx9GLjT7tUAkEEfJ7y7xheDCtCuZvUhV`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\WallpaperHost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

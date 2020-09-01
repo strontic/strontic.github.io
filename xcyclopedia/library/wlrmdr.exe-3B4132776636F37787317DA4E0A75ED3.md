@@ -4,7 +4,7 @@ title: wlrmdr.exe | Windows logon reminder
 
 # wlrmdr.exe 
 
-* File Path: `C:\windows\system32\wlrmdr.exe`
+* File Path: `C:\Windows\system32\wlrmdr.exe`
 * Description: Windows logon reminder
 
 ## Hashes
@@ -20,8 +20,12 @@ SSDEEP | `1536:Y4gMLrY6x6g+d5cKswSjhbTvXylmAbsvqr9PxDtESpPTo:1rY6YxdsrvClEu9ZDtE
 
 ## Runtime Data
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

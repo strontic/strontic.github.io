@@ -18,6 +18,17 @@ SHA384 | `35C0DD238D7A04E87AB68A30FB91082E72B1EE01E2BCB2C22DE4E6FAA4399A4EC66DD5
 SHA512 | `172245CC03842DC22D87AA035BA7D7E437F6EE2740EECD50168AA2BAB82AEA63B6948DE6283140BE6E34121EE27B1598AE65D97DD0CE335953291691AAA2D09E`
 SSDEEP | `768:x88MHZU9qZU93IOnh1pEdMeKgaxV1DGH/Uf2h4f:TYpaIOnh1pEie2VQUfJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\CheckDisk.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -41,6 +52,8 @@ SSDEEP | `768:x88MHZU9qZU93IOnh1pEdMeKgaxV1DGH/Uf2h4f:TYpaIOnh1pEie2VQUfJ`
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-C0BDA5A51C2F39C0BC2DCA28846F9F7E.md) | 71
+[C:\program files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-ED233C322F4EA703EAB82E15002428CF.md) | 69
+[C:\program files (x86)\Glary Utilities 5\x64\CheckDiskProgress.exe](CheckDiskProgress.exe-2122ADC8191B8312D4CD85444DEFE08A.md) | 88
 
 
 

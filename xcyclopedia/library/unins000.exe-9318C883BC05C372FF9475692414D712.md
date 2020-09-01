@@ -25,6 +25,17 @@ SSDEEP | `49152:8R/KpmZubPf2S8W2ILeWl+C1p9jWy5Snd0eigXNh:K/jtYLP1Sy5E0w`
 ### Child Processes:
 _iu14D2N.tmp
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\KeePass Password Safe 2\unins000.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -47,8 +58,9 @@ _iu14D2N.tmp
 
 File | Score
 -- | --
-[C:\Program Files (x86)\WinSCP\unins000.exe](unins000.exe-6AE472CF11968C09BBD88DE10C91F4ED.md) | 82
-[C:\Program Files\GIMP 2\uninst\unins000.exe](unins000.exe-B034F4D564EF43DE2F65A0A4036E3336.md) | 97
+[C:\program files (x86)\WinSCP\unins000.exe](unins000.exe-6AE472CF11968C09BBD88DE10C91F4ED.md) | 82
+[C:\program files\GIMP 2\uninst\unins000.exe](unins000.exe-B034F4D564EF43DE2F65A0A4036E3336.md) | 97
+[C:\program files\Microsoft VS Code\unins000.exe](unins000.exe-30F9E0633397507EB900C8593FAC704F.md) | 96
 
 
 

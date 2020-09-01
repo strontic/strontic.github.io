@@ -18,6 +18,17 @@ SHA384 | `363080A7B7BD9EE6130DE6D44EE96353BBE931524ADC9BB32C3D88334A3B90AA5C0588
 SHA512 | `D1C0011F409075B46CBB65BFFD7AC379CDD52F4C89AF388B67B9401501278AA8BFDC1AFB9E7704BF338CC8364F6A793B3407DCF12AD047F822CEC7BE88A535C9`
 SSDEEP | `1536:wrLbh9vZJQ1ETO4cO7zNbUJAu79Q3ewdvEBwxB3cFuYt1t8:W7ZJXpQaIwncFuM1t`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\netdom.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\netdom.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

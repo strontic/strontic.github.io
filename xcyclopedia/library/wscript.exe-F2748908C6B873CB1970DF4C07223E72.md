@@ -4,7 +4,7 @@ title: wscript.exe | Microsoft  Windows Based Script Host
 
 # wscript.exe 
 
-* File Path: `C:\windows\SysWOW64\wscript.exe`
+* File Path: `C:\Windows\SysWOW64\wscript.exe`
 * Description: Microsoft  Windows Based Script Host
 
 ## Screenshot
@@ -23,6 +23,34 @@ SHA256 | `0FBB4F848D9FB14D7BF81B0454203810869C527C3435E8747A2213DD86F8129A`
 SHA384 | `128234C6B21A190B4E03ADEF4B33D73CA983AFB3DA764008032831DF3DE5B4EF966D6838544977F35FA07C585FE56A7B`
 SHA512 | `0E1B9102284131769BF960587D11F138948089130EE9366D643874A28013C573508AC2B65FE4BE5CD9608B5CDC4BE266A00CBDED6BA28560348B6E07B4D27E45`
 SSDEEP | `3072:WunWMbPUr753/5oCjz1uJvXXrkpNUmGHruGTxt+G:nWMDUr7fclX7GoHrtT/`
+
+## Runtime Data
+
+### Window Title:
+Windows Script Host
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\wscript.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\wscript.exe |
+
 
 ## Signature
 

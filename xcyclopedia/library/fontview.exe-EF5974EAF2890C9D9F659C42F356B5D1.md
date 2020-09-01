@@ -4,7 +4,7 @@ title: fontview.exe | Windows Font Viewer
 
 # fontview.exe 
 
-* File Path: `C:\windows\system32\fontview.exe`
+* File Path: `C:\Windows\system32\fontview.exe`
 * Description: Windows Font Viewer
 
 ## Screenshot
@@ -21,6 +21,35 @@ SHA256 | `4409862CC66632C1D5A4753C5A59B741273BBD8CC73B44D412D0500370996A93`
 SHA384 | `20FB9CB5183E2B238D2E64E8B7F0D311D5A5993894F2C8864D4CD8F3E502CBA2F7415E2A6A6524BFDCAAB64510E4B03E`
 SHA512 | `E6438E30672946E2F1C0BC82F0990694178872F2625FE1C395336FF7418031A6DDE6C41B91262DFE78C3D9EC1C4E8E6685F2295B12A2D9973D69477CC12AB254`
 SSDEEP | `3072:M0bCSSdBIgqZSp8NJjWRkOtHxtt3EOL2QvIsitSYV5:M0b6G/wcWRRZzqGY`
+
+## Runtime Data
+
+### Window Title:
+Windows Font Viewer 
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\fontview.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\fontview.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

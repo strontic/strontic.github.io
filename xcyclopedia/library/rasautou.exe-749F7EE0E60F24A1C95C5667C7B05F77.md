@@ -26,6 +26,16 @@ Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\rasautou.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

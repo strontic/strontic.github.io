@@ -4,7 +4,7 @@ title: CompatTelRunner.exe | Microsoft Compatibility Telemetry
 
 # CompatTelRunner.exe 
 
-* File Path: `C:\windows\system32\CompatTelRunner.exe`
+* File Path: `C:\Windows\system32\CompatTelRunner.exe`
 * Description: Microsoft Compatibility Telemetry
 
 ## Hashes
@@ -17,6 +17,18 @@ SHA256 | `F38EA7112FEA4E469883EF0935C9B47E31386E6A992494EAC12F1067BB45E86A`
 SHA384 | `3D48C4418ED9614B7DB20A50F439456F17C994C4D6180C91843F43FC321C1F887799B5D9D0C67D2CAA37C276F6F2C1AE`
 SHA512 | `70DBFE721603C7BA849049ADE4D071699D4D765F89596C02E69DFF97FF0DAE52B3FF899FFE6CBAE126A9232942F49DDE0C5AF105A8B5122ED02ADBC08C7CF0A2`
 SSDEEP | `3072:S17mRucu5IfDAZp+dBYE6lDgQr9hbwwBr5cxQ+VBD4nax79UkJvmRItLJ2wkLk0Z:87mRuc0IfDUoBCge9hbwwBtaQH6ukMRp`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\CompatTelRunner.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

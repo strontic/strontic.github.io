@@ -56,6 +56,33 @@ Press any key to continue . . .
 ### Child Processes:
 launcher.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Opera\70.0.3728.133\opera.exe |
+C:\Windows\SYSTEM32\AcGenral.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -74,6 +101,11 @@ launcher.exe
 * Language: English (United States)
 * Legal Copyright: Copyright Opera Software 2020
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Opera\70.0.3728.133\opera.exe](opera.exe-4237013D5E170927224FC5BD863CBD3D.md) | 96
 
 ## Possible Misuse
 

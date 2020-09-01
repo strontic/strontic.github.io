@@ -4,7 +4,7 @@ title: iexpress.exe | Wizard
 
 # iexpress.exe 
 
-* File Path: `C:\windows\system32\iexpress.exe`
+* File Path: `C:\Windows\system32\iexpress.exe`
 * Description: Wizard
 
 ## Screenshot
@@ -22,6 +22,34 @@ SHA256 | `333CC4A72F1FC71300678FD35906AEA6AE908C384A97E01F24055B2BF5115CB5`
 SHA384 | `54CFA39AB7D5CD31CF1D66552F84F28521E58F7AF8F7A7B1E123DCD9E5D828B23DED7620F8DF01F549A02AF934088C5F`
 SHA512 | `DD0B4C89C3DD2A2A0A1C33BF9633ACCD4440901E1FFB95B84E17C6842AA94B317E5AC0D892D28859EE342EF0B5EBAE8BA09460CB36F9523834F12752ACDC4754`
 SSDEEP | `3072:OHsPnjpOABiyML1dNDnGOb+ahXNqJohePnq45L84c:3dOAy7NDGOb+asEwv5L`
+
+## Runtime Data
+
+### Window Title:
+IExpress Wizard
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\iexpress.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1397_en-us_83118f2786a00246\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.17763.1397_en-us_83118f2786a00246 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.1397_none_6d06464259f9d059 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration
 
 # ConfigSecurityPolicy.exe 
 
-* File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\ConfigSecurityPolicy.exe`
+* File Path: `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2006.10-0\ConfigSecurityPolicy.exe`
 * Description: Microsoft Security Client Policy Configuration Tool
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `87864E07B5CB2C789C6E5B5854C3CC30AA6CAA87C931BF37358C0D5E11747540620E82
 SHA512 | `7DA1AB11FB77FE3F5A2269C0DCD3DF50DB7DB400CD2F3F3948C31C2688F7446C9ED783D6FF43317D583E0559871EB31D1D5E87FB100EDF026979BEED8003D243`
 SSDEEP | `3072:Kns2yL/4Vn+mFSGaToJqOMa1LFLK2gg6cEADk74t+fXa/QwKeGiSMV+T8rguIcmX:+s204t+cyoJ5M8LB3iqnXrgimGbw3`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225.
+Microsoft Security Client failed to apply policy "--help". Error code: 0xC00CE225.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -46,7 +55,9 @@ Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225
 
 File | Score
 -- | --
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2004.6-0\ConfigSecurityPolicy.exe](ConfigSecurityPolicy.exe-B5A3A34619717DB8486BCD0EE10D8791.md) | 100
 [C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2005.5-0\ConfigSecurityPolicy.exe](ConfigSecurityPolicy.exe-B5A3A34619717DB8486BCD0EE10D8791.md) | 100
+[C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\ConfigSecurityPolicy.exe](ConfigSecurityPolicy.exe-B5A3A34619717DB8486BCD0EE10D8791.md) | 100
 
 
 

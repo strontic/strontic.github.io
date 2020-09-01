@@ -4,7 +4,7 @@ title: DSConfig64.exe | DSConfig
 
 # DSConfig64.exe 
 
-* File Path: `C:\Program Files (x86)\K-Lite Codec Pack\Tools\DSConfig64.exe`
+* File Path: `C:\program files (x86)\K-Lite Codec Pack\Tools\DSConfig64.exe`
 * Description: DSConfig
 * Comments: DSConfig
 
@@ -20,9 +20,30 @@ SHA384 | `DEBA3F0E102635741F4940F3C38385CFDED8DB1F6755A0E3F5125BCF659EA384495A3B
 SHA512 | `146447F499BA03328C1B359EF2CB44D54BD7ED747FF16874480ED7BB2625A8D7AE69363016B51DB47C1F23A2E0E12FD33F2AA8380E3F82196C0A0C9F8A3E9494`
 SSDEEP | `6144:XnRFoyAg74v2bOSnEXB3OQAInEQETao/+6fbU7NMqd94JBujM9hD+EP:XnzGg74+6SnU3OQAvf/+6qEP`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\K-Lite Codec Pack\Tools\DSConfig64.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\K-Lite Codec Pack\Tools\DSConfig64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\K-Lite Codec Pack\Tools\DSConfig64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

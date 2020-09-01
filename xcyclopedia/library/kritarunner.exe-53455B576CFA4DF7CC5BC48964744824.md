@@ -4,7 +4,7 @@ title: kritarunner.exe |
 
 # kritarunner.exe 
 
-* File Path: `C:\Program Files\Krita (x64)\bin\kritarunner.exe`
+* File Path: `C:\program files\Krita (x64)\bin\kritarunner.exe`
 
 ## Hashes
 
@@ -30,7 +30,7 @@ SSDEEP | `98304:7rAQr8FQcVCWqJiUHnHsMqcDC1Z9b9axuZxcPkoCkAd+Wp02:7sQr8ucViUZV`
 *** EGL colorSpace: 0x308A
 *** EGL format: 0x93A1
 *** Native format: 0x57
-Usage: C:\Program Files\Krita (x64)\bin\kritarunner.exe [options] [argument(s)]
+Usage: C:\program files\Krita (x64)\bin\kritarunner.exe [options] [argument(s)]
 kritarunner executes one python script and then returns.
 
 Options:
@@ -51,6 +51,31 @@ Arguments:
 Unknown options: e, l, p.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Krita (x64)\bin\kritarunner.exe |
+C:\program files\Krita (x64)\bin\libgcc_s_seh-1.dll |
+C:\program files\Krita (x64)\bin\libKF5ConfigCore.dll |
+C:\program files\Krita (x64)\bin\libKF5CoreAddons.dll |
+C:\program files\Krita (x64)\bin\libKF5I18n.dll |
+C:\program files\Krita (x64)\bin\libkritaglobal.dll |
+C:\program files\Krita (x64)\bin\libkritalibkis.dll |
+C:\program files\Krita (x64)\bin\libkritapigment.dll |
+C:\program files\Krita (x64)\bin\libkritaui.dll |
+C:\program files\Krita (x64)\bin\libkritawidgetutils.dll |
+C:\program files\Krita (x64)\bin\libstdc++-6.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

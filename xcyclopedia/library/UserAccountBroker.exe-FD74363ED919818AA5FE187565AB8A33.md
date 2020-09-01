@@ -18,6 +18,25 @@ SHA384 | `D26DA01CCEB4FF8C55629622178D1305DB7A2942EC652BDD596C10D8EEA64BEB0490D3
 SHA512 | `575DF204E02A57BA86B9213395A906F519726E3AFE54E730EA94073BB94BF8FA4A1970A7E3194D0FEA4B8416B1B51FB99B5ACA5B2888E1CF3C1D32716D473DD9`
 SSDEEP | `768:lutKmta+Y90/HUlbDv9oske3+OAUtyyERpp0jYiddzd4PZP85+Xj1PF:lw9O4K/NztyyAp5iHpGZE5YpP`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\UserAccountBroker.exe |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

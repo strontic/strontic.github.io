@@ -4,7 +4,7 @@ title: lame.exe | MP3 Encoder.
 
 # lame.exe 
 
-* File Path: `C:\Program Files (x86)\MusicBee\Codec\lame.exe`
+* File Path: `C:\program files (x86)\MusicBee\Codec\lame.exe`
 * Description: MP3 Encoder.
 
 ## Hashes
@@ -24,7 +24,7 @@ SSDEEP | `6144:75UpSmPKc0z4PALRU4Q5qxw20ms0GDGFjrQseAOZHebsOvXau:7KvPr0UPORUJow2
 ```Batchfile
 LAME 32bits version 3.100 (http://lame.sf.net)
 
-usage: C:\Program Files (x86)\MusicBee\Codec\lame.exe [options] <infile> [outfile]
+usage: C:\program files (x86)\MusicBee\Codec\lame.exe [options] <infile> [outfile]
 
     <infile> and/or <outfile> can be "-", which means stdin/stdout.
 
@@ -61,24 +61,35 @@ OPTIONS:
 ```Batchfile
 LAME 32bits version 3.100 (http://lame.sf.net)
 
-usage: C:\Program Files (x86)\MusicBee\Codec\lame.exe [options] <infile> [outfile]
+usage: C:\program files (x86)\MusicBee\Codec\lame.exe [options] <infile> [outfile]
 
     <infile> and/or <outfile> can be "-", which means stdin/stdout.
 
 Try:
-     "C:\Program Files (x86)\MusicBee\Codec\lame.exe --help"           for general usage information
+     "C:\program files (x86)\MusicBee\Codec\lame.exe --help"           for general usage information
  or:
-     "C:\Program Files (x86)\MusicBee\Codec\lame.exe --preset help"    for information on suggested predefined settings
+     "C:\program files (x86)\MusicBee\Codec\lame.exe --preset help"    for information on suggested predefined settings
  or:
-     "C:\Program Files (x86)\MusicBee\Codec\lame.exe --longhelp"
-  or "C:\Program Files (x86)\MusicBee\Codec\lame.exe -?"              for a complete options list
+     "C:\program files (x86)\MusicBee\Codec\lame.exe --longhelp"
+  or "C:\program files (x86)\MusicBee\Codec\lame.exe -?"              for a complete options list
 
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\MusicBee\Codec\lame.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\MusicBee\Codec\lame.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\MusicBee\Codec\lame.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

@@ -18,6 +18,15 @@ SHA384 | `082BCE55612571A61E9AD5EB05A0E2CECE688E4FF83BC2773589CC615C03A4F9E2EE90
 SHA512 | `43A8853D463C38F2A1B4639FAD39D09CA748B73AD697C164C0DCF6BBCB2456BF1C8AF47F236BB9BEBCBFE583EDD40E724C925B21C0DF266581BEC73CF15C9A6D`
 SSDEEP | `6144:CCvISPehe3rlKIYCwn6Mrnp4AgDGWC+TNtkyuZEL92Rj/5fMNPeXGtl4t2UVNc9F:GeZKSUzS9CJl49JXoQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskraid.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\diskraid.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

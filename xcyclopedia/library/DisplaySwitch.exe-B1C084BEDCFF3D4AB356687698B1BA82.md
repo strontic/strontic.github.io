@@ -18,6 +18,29 @@ SHA384 | `D743933CF1E1544A789D5CCC44C0D501DD7E36121CA97C927F38CC2C223BEB4138E6F4
 SHA512 | `B37FE0F7078591824792E9D9D78BB2322EAB626BA053EDB0C1C7812533E8BAEE4DE723B979546113734C33598108267FC4ABE267FC4B3429B390F939857FD0FD`
 SSDEEP | `3072:XUG9few5ZOAQuZpxQo4/j5AwR9wqhZsEvkQ86AyLa7eygpPIHl:XUaGw5ZGuxQo4/j5NwqhZLDsqM`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DisplaySwitch.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

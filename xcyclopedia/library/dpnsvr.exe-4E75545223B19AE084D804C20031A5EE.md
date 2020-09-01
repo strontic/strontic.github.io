@@ -18,6 +18,17 @@ SHA384 | `268CEF79BCCC8B75E6050C97C899CDC0EF619A140A9096761E026F1A33829189A9BFE2
 SHA512 | `4C7FD20843BDE59C7CD561CF27F59DE2AE40B8906C09CB7A2D6648CEC589E727F9F979EB28B2B3F17B604159777D917CBD49C9F897D744591545993773F03430`
 SSDEEP | `96:vbZ6zm1TtW2Q96UZ474c1ZXlIioEWFUduWw:vbZrrphUZ4tfIwWFUduW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\DpiScaling.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\dpnsvr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

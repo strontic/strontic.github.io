@@ -4,7 +4,7 @@ title: escUnattend.exe | IE ESC 7.0 Unattended Install Utility
 
 # escUnattend.exe 
 
-* File Path: `C:\windows\SysWOW64\escUnattend.exe`
+* File Path: `C:\Windows\SysWOW64\escUnattend.exe`
 * Description: IE ESC 7.0 Unattended Install Utility
 
 ## Hashes
@@ -17,6 +17,17 @@ SHA256 | `85E0158058F46066D7EC6F4F9C1400F7239188267A31DCD82037614B1350A316`
 SHA384 | `F85C555EFEDBEC32B25BBEC32A493794FC90D8C0C18B9043E4F8D1FBB096D2E02D6FCF053A601F448767B0BB207B030D`
 SHA512 | `BC5B228847C91D00C329BFE2C0930ECE2A736B0A4D824DFB5F480B5FFBBFAA21655AC2A913C0F8B4AA58DE160CB6C2C8D0D125638996B82A756B1B3D9B2BF457`
 SSDEEP | `1536:K4WPVPVZy0ld7VWT8iChqKhhYEP5nxndmkZjOCqBqftqfRQKBW+ru0Qcg9g4gGte:72NlyUHdmnX/Gtq7WY31d`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\SysWOW64\escUnattend.exe |
+
 
 ## Signature
 

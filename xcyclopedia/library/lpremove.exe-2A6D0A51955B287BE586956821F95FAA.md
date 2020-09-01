@@ -18,6 +18,16 @@ SHA384 | `BA7C4772C244FEC418FCE43467BDEBC0906DE10080AF5199FDB4CD75148AA8FD4A4E56
 SHA512 | `BD00889F924C7D14B4E8E8B88583B26B255C2D336355A35D19E03E47786F22D210694B316B4BB3BF2C19F87C6943D32973DBAB9D0172BA8EDE2149DE0889C6CD`
 SSDEEP | `1536:Lj0sYGQsRRY7WkgGHQoS4chmA9kQ8YCfev5NORlFxPgxY:L4F7HQoShdi9fEijgq`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\lpremove.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\lpremove.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

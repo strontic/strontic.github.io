@@ -18,6 +18,16 @@ SHA384 | `E81281EF9F93CC9F402330908583B3BF54767258A325FCDA09D833FE7DD42A2F1A0D60
 SHA512 | `443FA49ABF34445EDAAFADEEBEF833287726D960E6683D6E0E4B838228E317A2C9C038224DF54C24C7AC079E375CE8FDBD56E252277086B1F7CECD7C1F412FFD`
 SSDEEP | `384:SZNKKtYAoCo9KW3AmJy4Ba0XzsDiWbG476W3CuW+jv:sNdYAofJG7muD`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\logoff.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\logoff.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

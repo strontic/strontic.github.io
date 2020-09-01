@@ -18,6 +18,16 @@ SHA384 | `044B6F0348BAB5912084BF79CF4DEEF01A5B9A1EAEFE09C005068732F66CCB8750046B
 SHA512 | `11CA774F46500DFA68FF0507B51563B245DD3B4B06DD726CB93207D08C2873E493F3B1A94F52190B72472A04CD22633ECAC320590EF6530AC056D4ECCAB18003`
 SSDEEP | `384:pqrjAOrQUVkEqbkSY7jovpDEe55fArF6R4b302rZ6D5zRCleOSSW4pQW:mnr72Jbkde9sF6R4YLVOSI`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\tskill.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\tskill.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -51,7 +61,7 @@ Ends a process running in a session on a Remote Desktop Session Host server.
 
 
 > [!NOTE]
-> In Windows Server 2008 R2, Terminal Services was renamed Remote Desktop Services. To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
+> To find out what's new in the latest version, see [What s New in Remote Desktop Services in Windows Server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) in the Windows Server TechNet Library.
 
 ### Syntax
 ```

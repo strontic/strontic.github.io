@@ -4,7 +4,7 @@ title: RtParser.exe |
 
 # RtParser.exe 
 
-* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\RtParser.exe`
+* File Path: `C:\program files (x86)\GRETECH\GomPlayer\RtParser.exe`
 
 ## Hashes
 
@@ -35,6 +35,17 @@ SSDEEP | `384:8VVrxW9j+b1VsVXtPS65GhpxOD832YJLcsoeM7UH:GrxxbPsVXXGhpcYvLTH`
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\GRETECH\GomPlayer\RtParser.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

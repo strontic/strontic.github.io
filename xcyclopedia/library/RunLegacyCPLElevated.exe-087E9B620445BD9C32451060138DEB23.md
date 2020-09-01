@@ -4,7 +4,7 @@ title: RunLegacyCPLElevated.exe | Run a legacy CPL elevated
 
 # RunLegacyCPLElevated.exe 
 
-* File Path: `C:\windows\system32\RunLegacyCPLElevated.exe`
+* File Path: `C:\Windows\system32\RunLegacyCPLElevated.exe`
 * Description: Run a legacy CPL elevated
 
 ## Hashes
@@ -17,6 +17,16 @@ SHA256 | `8809B4EEC6249DA237D5AA0D49DD73C4CEB40D0DF52F1DD0EA9DD5E13360F0ED`
 SHA384 | `1D61DAC1B187C365210B235C498672F758DB9C3A7D74914BFEC94E2F021E526F4C6C42D09F365E67FC81CFC94C40DBDA`
 SHA512 | `CF5EBB0865C9BCB67A3D9BCDCC01F1195A69F40FCD73FF1C6DE6BB0967B288178535F707F9D309FFE5CAB3A2737A724DD8A130CFF5C9E9A629D18D44A95EE4BE`
 SSDEEP | `768:fghJh8xm92NDohEG7b6OeCH8HyZEyzAKyshQ9SGSkVhWakkbB5eT905WGnUKxHUW:ov9dEc6Q1+KyN9Sxakkn6oYY0ewiP8`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RunLegacyCPLElevated.exe |
+
 
 ## Signature
 

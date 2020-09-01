@@ -18,6 +18,20 @@ SHA384 | `B24A03540824B8203A071474218F6872F3C1B2A8F8D9474D0D8C21C68FE37270938E33
 SHA512 | `16C9F8F65BA9CE75C6D1FB099AB04AFDBED479C0531B71AEE2543FE0174F0396E7696296869AAD5857AAF99CA91ED0979D3C2D88C0E5A961653C0F546761EC84`
 SSDEEP | `12288:z6SgxZl8k5b0TiPlIPop37hOi3H4i3o/:+Sgxf8QNki3X3o`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\winlogon.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

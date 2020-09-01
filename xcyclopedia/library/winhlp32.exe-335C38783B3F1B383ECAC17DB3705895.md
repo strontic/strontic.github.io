@@ -18,6 +18,17 @@ SHA384 | `03BEAD7A258273C55C1E201CAB744B6E368625FB2655FB34AD4A80FE8E981290E69521
 SHA512 | `C86FB05FCB92F8B39D16F2067FAF2FBF1DC25B84FD2D4796BA690C9A7FBDE7C88C79173D7FA8E515DDA7FFD15B06281AD688C684CBA7323177CDC2BF08393D1F`
 SSDEEP | `192:gsmOdb+XliQTMBVlB9Y10F/kjW1eHWThh4jt7p:nOXliKG/hijW1eHWThh43`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\winhlp32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\winhlp32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,6 +18,13 @@ SHA384 | `1BBECF557E0FFFBCB54047CEB319629D41E8412B984E048B731F5D689AC9D74EF4EA75
 SHA512 | `6FA063432F8EF23395372D458D6C697022CAAA503A751E2DC49BB5386DFAFE98487155CD3B38AB77EFE7486BE4D2A4BC92DE9A0D18FC42EDFF352F18B2D3DCC6`
 SSDEEP | `1536:6mLv9tREC/rMcgEPJV+G57ThjEC0kzJP+V5JU:nlzECTMpuDhjRVJGS`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\SystemPropertiesAdvanced.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

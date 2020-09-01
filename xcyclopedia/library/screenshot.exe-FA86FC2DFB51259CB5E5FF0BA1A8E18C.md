@@ -4,7 +4,7 @@ title: screenshot.exe | snappy
 
 # screenshot.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe`
 * Description: snappy
 
 ## Hashes
@@ -17,6 +17,34 @@ SHA256 | `99020FFD0722DE754CCA334CA6230F374AFCE8962156E8C5B591CA4841402B40`
 SHA384 | `7041A1B1BA6F4ADF79ECEBCCE53D6E42288C2549A9FD57DB64703E5931C0BCCA6CCF4A4AE883EF1919E20932FE917E88`
 SHA512 | `BA6E82919BA86CC8D8F0968EFF95DA64DFEC096846FB29DF5766BEADB4719369D7F1572E1A32BFE76F87FAE892AD499782D3BC784A7923F90E0B8B8462A9B4E2`
 SSDEEP | `1536:i92kaba6OJJYdUjTmwpk2dcNWT8aipiPWMNai7DWXi4U:yVaba60/qwppcgT8fmD5DgxU`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 
@@ -40,9 +68,9 @@ SSDEEP | `1536:i92kaba6OJJYdUjTmwpk2dcNWT8aipiPWMNai7DWXi4U:yVaba60/qwppcgT8fmD5
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\bin\gimp-debug-resume.exe](gimp-debug-resume.exe-47255EE357A7B27710D5F1680A4A770F.md) | 40
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe](file-exr.exe-1FED269F021DE40160452865E2B6DDC7.md) | 41
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\help-browser\help-browser.exe](help-browser.exe-E72ED15D5625813A7EF8E4BBC1C7F379.md) | 35
+[C:\program files\GIMP 2\bin\gimp-debug-resume.exe](gimp-debug-resume.exe-47255EE357A7B27710D5F1680A4A770F.md) | 40
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe](file-exr.exe-1FED269F021DE40160452865E2B6DDC7.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\help-browser\help-browser.exe](help-browser.exe-E72ED15D5625813A7EF8E4BBC1C7F379.md) | 35
 
 ## Possible Misuse
 

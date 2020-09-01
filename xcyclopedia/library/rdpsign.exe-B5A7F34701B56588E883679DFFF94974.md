@@ -4,7 +4,7 @@ title: rdpsign.exe | Remote Desktop Session Host Server Sign Tool
 
 # rdpsign.exe 
 
-* File Path: `C:\windows\system32\rdpsign.exe`
+* File Path: `C:\Windows\system32\rdpsign.exe`
 * Description: Remote Desktop Session Host Server Sign Tool
 
 ## Hashes
@@ -46,6 +46,17 @@ OPTIONS
 
 
 ```
+
+### Child Processes:
+RdpSa.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\rdpsign.exe |
+
 
 ## Signature
 

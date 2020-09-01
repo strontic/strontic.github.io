@@ -4,7 +4,7 @@ title: DropboxThumbnailGenerator.exe |
 
 # DropboxThumbnailGenerator.exe 
 
-* File Path: `C:\Program Files (x86)\Dropbox\Client\104.4.175\DropboxThumbnailGenerator.exe`
+* File Path: `C:\program files (x86)\Dropbox\Client\104.4.175\DropboxThumbnailGenerator.exe`
 
 ## Hashes
 
@@ -17,11 +17,24 @@ SHA384 | `019611D64F5D6A29D69C871353535D91A2E6A2B28C91CCD3509EDF1C45C6670F71120D
 SHA512 | `69AE9B6446133DB08D1E511D00AD6FB50FFA8745FE3D1A5E592F6F4F0A346E65513FFCC2C1DB8FACE38F7612EFDCE10BBB2DD8CABF2D86F1BB091EE745B49C1A`
 SSDEEP | `384:7ma7qYwqpEepbI2TQku55DuK80EPcwwJjsT41ClT2jH8cDGuXmVbPLonf9ZE:SlqpVzt0YcwwWTECQjccDGAK4M`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 GetFileImage failed.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Dropbox\Client\104.4.175\DropboxThumbnailGenerator.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,7 +58,7 @@ GetFileImage failed.
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Dropbox\Client\104.4.175\driver_x86\dbxsvc.exe](dbxsvc.exe-AA851934E6E4C549F7B149159457E518.md) | 35
+[C:\program files (x86)\Dropbox\Client\104.4.175\driver_x86\dbxsvc.exe](dbxsvc.exe-AA851934E6E4C549F7B149159457E518.md) | 35
 
 
 

@@ -18,6 +18,17 @@ SHA384 | `5BB0AA841D2A051AD387A37F00B62212ABB374325C91E9BBFE16FD9F617D0312C9A49A
 SHA512 | `9B28863A360291477A5D5806E8DADE149924BD969B948612853FA42C6B15C05529581704DEB12A59B9F4C876FBBA2D32025A47164A776683EF29ECE3612F7427`
 SSDEEP | `384:NVRA0oogaIknVoVWGsJLlxRw6okaSWNaW:nooYknVoVelRokaJ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\K-Lite Codec Pack\Tools\dxwebsetup.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

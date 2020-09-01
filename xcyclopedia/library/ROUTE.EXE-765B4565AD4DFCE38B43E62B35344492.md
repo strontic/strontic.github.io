@@ -4,7 +4,7 @@ title: ROUTE.EXE | TCP/IP Route Command
 
 # ROUTE.EXE 
 
-* File Path: `C:\windows\SysWOW64\ROUTE.EXE`
+* File Path: `C:\Windows\SysWOW64\ROUTE.EXE`
 * Description: TCP/IP Route Command
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `CCDCC49B612BD8C3C5075BF760B2E49DDA20A23A16E156EC3955DD349BCB5805`
 SHA384 | `7D7F1203FA90C08AAC0C6BA0D44D94D66EE86E8379252C7D102D96676EB1A9E5E96B287F1661A2CC5C0ED712FC1DDF36`
 SHA512 | `0825A20C975C62E455D126EF9BFB97164F9ED641C5EB0CCAD4D5BC014A51FF002AD2C15D03420AD2ED9261EB641974397068452350B064E99F42B7D706B52054`
 SSDEEP | `384:oJCBVc4YeJwV2f/1Cv3wkzb7lQl8HlEeFqBKyWj0WC3:oJQbJZ34IkzIKlnFqBKXo3`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -92,11 +94,21 @@ Examples:
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ROUTE.EXE |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

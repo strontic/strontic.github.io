@@ -4,7 +4,7 @@ title: UserOOBEBroker.exe | User OOBE Broker
 
 # UserOOBEBroker.exe 
 
-* File Path: `C:\windows\system32\oobe\UserOOBEBroker.exe`
+* File Path: `C:\Windows\system32\oobe\UserOOBEBroker.exe`
 * Description: User OOBE Broker
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `59911F2C3BBBEB69233DDFC1C9BE173B00C35372C850FB197E7A73C136649594`
 SHA384 | `B7AECCD33D570034945F4DC9D4074F62D8B6D8D5B19B0FCED27EACD1F3B1F121922D8E2777FFA22DB3EC71FDA12DA91E`
 SHA512 | `A8C938324353289E7F4CF4C50887F7F0DE5509F984A7601D8423753754CA1BC5823F7D448222FBFB92E8006C3BB02FC3D436427E55894EE8F15F6B49DB33E2FD`
 SSDEEP | `1536:H5f6mOEJxfUl+RZ0pdUumPQ+xkV28ZyGWibzV:HtK+Ry1mI+x+2VRq`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC18D0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\oobe\UserOOBEBroker.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: bfsvc.exe | Boot File Servicing Utility
 
 # bfsvc.exe 
 
-* File Path: `C:\windows\bfsvc.exe`
+* File Path: `C:\Windows\bfsvc.exe`
 * Description: Boot File Servicing Utility
 
 ## Hashes
@@ -28,8 +28,13 @@ BFSVC Error: ServicingBootFiles failed. Error = 0xc1
 
 ```
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\bfsvc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

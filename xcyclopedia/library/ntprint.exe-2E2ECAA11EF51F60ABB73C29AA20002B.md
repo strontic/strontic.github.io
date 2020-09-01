@@ -4,7 +4,7 @@ title: ntprint.exe | Printer driver software installation
 
 # ntprint.exe 
 
-* File Path: `C:\windows\system32\ntprint.exe`
+* File Path: `C:\Windows\system32\ntprint.exe`
 * Description: Printer driver software installation
 
 ## Hashes
@@ -17,6 +17,26 @@ SHA256 | `2393676C8C888142363980E0E72279E6F9743CA5215C88BE2CB13F89540F3A70`
 SHA384 | `89C47D1F9EE3F2B8268A7306CFCE1D2E28C5483EB33EE9B5FB8B0D3B36B485E3D77305FD780067821F31040623B3C56A`
 SHA512 | `B26BCFCFCBC4D88C0845110DB30DA9AFE719F4A6EF5F76526BA8684A29710B125DEC0CBE0E2A767A9948539BFF9B76DE8D08727D7EEAD355668D5B4D45B3624E`
 SSDEEP | `768:U29O2D7w4r95vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnR:UcO2XvxVIPd4n+lbeRZIbSQPPA78`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\ntprint.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

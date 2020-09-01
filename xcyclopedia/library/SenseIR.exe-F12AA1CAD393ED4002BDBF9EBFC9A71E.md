@@ -4,7 +4,7 @@ title: SenseIR.exe | Windows Defender Advanced Threat Protection Sense IR module
 
 # SenseIR.exe 
 
-* File Path: `C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`
+* File Path: `C:\program files\Windows Defender Advanced Threat Protection\SenseIR.exe`
 * Description: Windows Defender Advanced Threat Protection Sense IR module
 
 ## Hashes
@@ -17,6 +17,29 @@ SHA256 | `859F070003DC85DA745BD5D2AF2D731EDCC373CB789108EACD7A1DA9F4FDBC3A`
 SHA384 | `AE57B7C734904D00EF9C450337BD609F63C661CE90F219B55840066FAEC3E4F25F46887EC52E000BC1FB662F192F7D39`
 SHA512 | `1731DF7EE8A0B488398D53870CBEAA812A8D85E4091582AD981B7147EF9F134D3040B182F8A30D49002B2EFCE07895376FCD4B04E6C5832C6286B4B305F94D4C`
 SSDEEP | `49152:0e/2yRlhylWYR3fgjuM/yw5+8icxMA0/AKrUydZnaIKmhihFQ1D3HZykwUZizbOB:0zxdvwNM`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Windows Defender Advanced Threat Protection\SenseIR.exe |
+C:\Windows\System32\advapi32.dll |
+C:\Windows\SYSTEM32\Cabinet.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\tdh.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WS2_32.dll |
+
 
 ## Signature
 

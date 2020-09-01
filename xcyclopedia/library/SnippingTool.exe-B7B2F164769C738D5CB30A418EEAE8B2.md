@@ -4,7 +4,7 @@ title: SnippingTool.exe | Snipping Tool
 
 # SnippingTool.exe 
 
-* File Path: `C:\windows\system32\SnippingTool.exe`
+* File Path: `C:\Windows\system32\SnippingTool.exe`
 * Description: Snipping Tool
 
 ## Screenshot
@@ -22,6 +22,42 @@ SHA256 | `9F769E52AC15AE1D0B6A3DA293F612AC24303882B1D49EF7A5105ED1B24210D3`
 SHA384 | `1DF26F3BB82235F726F8C34B0B7E2BC65DFA5EED95A38FCC3E3AB1B8AAD0C1E6329E4656C492DE41409B3B77590BC940`
 SHA512 | `24921344E215E1BC197CFE8BD0E163A295CB000A6D5EC03C67CD261AAC436A7E200CFDA9B4D55E6DD95E3DC3EFEEBE17A3A87CC8556E8D714D7C2823631C7F8A`
 SSDEEP | `98304:MYFlxL4TsqaA2SRmXUrymuXB2rmaOOaCa2PKCZZNRwtPV3Oy:MYFvDqaA2SRmXUrymuXB2rmaOOaCa2Po`
+
+## Runtime Data
+
+### Child Processes:
+explorer.exe
+
+### Window Title:
+Snipping Tool
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\SnippingTool.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.1397_none_0f613815add94faa | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
+(RWD)   C:\Windows\Fonts\seguisym.ttf | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC1394 | Section
+\Sessions\2\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\SnippingTool.exe |
+
 
 ## Signature
 

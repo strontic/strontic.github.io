@@ -18,6 +18,22 @@ SHA384 | `01CDAC51A0AB594FFA6A5D3AA217E1E848C8F4281BFDD866C01F57F2482BA248484690
 SHA512 | `2C7E73E93693F58F3E041ABF85451818A831383E64708BB31A91D90329A0E317F42D8CD02EB656D15B64333921985F29EFAEA4CB20993E7B90BC95AA206AE8B6`
 SSDEEP | `12288:nT9P0rdhn37FA9bdpFe00sInBwzONqnuC6Jr4sDCSvCevGKNeR5+n8oyxpH5:nTil37ab75bI+OMLuCSvSvzx5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Opera\70.0.3728.133\notification_helper.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

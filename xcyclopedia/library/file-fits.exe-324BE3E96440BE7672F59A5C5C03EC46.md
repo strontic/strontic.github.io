@@ -4,7 +4,7 @@ title: file-fits.exe | GNU Image Manipulation Program Plug-In
 
 # file-fits.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-fits\file-fits.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-fits\file-fits.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `428A741683F1AC46A0367B1C40BE7F628374E59726DD75329E044BB557AFE213`
 SHA384 | `33C2E61FA69C977A08FECA59C3D3655612165429E6C2A04299F0DB925B8D0ADCF65818940CADDD2979E25C51F37E717F`
 SHA512 | `3E878B5172A987EB476718FC64B4A6EEE73B70F5F83C7ACD4CF7F658E3E4C7B6D7F7E3905F59C182615467FA2B45A3D16659FC51FD4C37060CE4A85F7D211800`
 SSDEEP | `3072:IbBagp+hvwX5EXt1ohwXsWpVfqA/1mYDj9mLaL5i8GO/zp6F5fmXSg:glp+hv5VfBnDj9m+difmzp6F4C`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-fits\file-fits.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

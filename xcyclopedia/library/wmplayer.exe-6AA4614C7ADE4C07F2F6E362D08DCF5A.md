@@ -4,7 +4,7 @@ title: wmplayer.exe | Windows Media Player
 
 # wmplayer.exe 
 
-* File Path: `C:\Program Files (x86)\Windows Media Player\wmplayer.exe`
+* File Path: `C:\program files (x86)\Windows Media Player\wmplayer.exe`
 * Description: Windows Media Player
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `3072:TWEZohYkQr0jeLwJr95rJolNAzyP+msVK0Zi:OYQqLwhHrWsOP+5VT`
 
 ### Child Processes:
 setup_wm.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Windows Media Player\wmplayer.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -45,11 +56,11 @@ setup_wm.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Windows Media Player\wmpconfig.exe](wmpconfig.exe-4ACC57344531EEAC412463137996B8C1.md) | 63
-[C:\Program Files (x86)\Windows Media Player\wmpshare.exe](wmpshare.exe-AA5933CE16373F146EC28DA42A0700B7.md) | 65
-[C:\Program Files\Windows Media Player\wmpconfig.exe](wmpconfig.exe-29E52BFB44C74B2E3730F79D04082692.md) | 63
-[C:\Program Files\Windows Media Player\wmplayer.exe](wmplayer.exe-D86F92A0D66CD72733ECA3BE2B1A412C.md) | 88
-[C:\Program Files\Windows Media Player\wmpshare.exe](wmpshare.exe-275462C97656943B9F1A11F1701861FA.md) | 63
+[C:\program files (x86)\Windows Media Player\wmpconfig.exe](wmpconfig.exe-4ACC57344531EEAC412463137996B8C1.md) | 63
+[C:\program files (x86)\Windows Media Player\wmpshare.exe](wmpshare.exe-AA5933CE16373F146EC28DA42A0700B7.md) | 65
+[C:\program files\Windows Media Player\wmpconfig.exe](wmpconfig.exe-29E52BFB44C74B2E3730F79D04082692.md) | 63
+[C:\program files\Windows Media Player\wmplayer.exe](wmplayer.exe-D86F92A0D66CD72733ECA3BE2B1A412C.md) | 88
+[C:\program files\Windows Media Player\wmpshare.exe](wmpshare.exe-275462C97656943B9F1A11F1701861FA.md) | 63
 
 ## Possible Misuse
 

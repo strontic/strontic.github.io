@@ -18,6 +18,19 @@ SHA384 | `BE177E1420FBD8B0DD34B8C6898739BAA88E0E5B0BD21B229AD007249E9B5D5864BBEF
 SHA512 | `37CE37D38CDBCF3213948C84ABBE05F5BEF4B91035489AEE36E5D42E80F6E4DF9ADC2AB0C65CE213097EE406B8D149E9CD370DC1FE491C0A721896C099ABDC9C`
 SSDEEP | `1536:0XvYeSfwBSop2kwtyPZw0cXRdShIPoANJLlAXuSXv+qSFEAeOFE:ip+RshIPFJRAhP2EAe9`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\WinMerge\WinMergeU.exe |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHLWAPI.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\WinMgmt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

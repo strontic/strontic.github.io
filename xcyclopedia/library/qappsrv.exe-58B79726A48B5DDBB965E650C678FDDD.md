@@ -18,6 +18,14 @@ SHA384 | `9BAC433D16C47B9CFF122E8147E28B766ED19138BDFBE99FE9F8B631BC749E5FE87010
 SHA512 | `BCC4A5257D68B19E6552556ED00A5AFC2B875A3FD584A2ADB6E6FF7347D6E9CFDBB389BB55B5EC4908B2BA13CDD1B4471F728D41B47E0ECCC97787FFC995F5AA`
 SSDEEP | `384:2DHrfIgRHeEtj89ix3p4/sBMuaMXLgA37islLrWkNWeaWe:2DHrfI8tI9/Sgo7OkT6`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\qappsrv.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\qappsrv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

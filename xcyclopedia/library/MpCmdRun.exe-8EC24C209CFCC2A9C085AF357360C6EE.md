@@ -212,6 +212,13 @@ C:\ProgramData\Microsoft\Windows Defender\Support
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

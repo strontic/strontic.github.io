@@ -18,6 +18,17 @@ SHA384 | `2539C26C34D3CC71B19855714AF11478C3A181D8D439F8B755BE9F39D4BDA249031387
 SHA512 | `E6DAEAFFD867ADDA7C635F4E36CD93190F8D7816AB5094B395E1B604B9145EBA6FFC2BB2BF9679F80EEE8A9341DBC5F7C608C1789D9DB31CD124F2BCFC5624AA`
 SSDEEP | `384:Gu4hi9iIEP6eTyLzHrfor2neX9+wVv92BwWTgWHAM:miI56emnHRnmD2BdC`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\RdpSaUacHelper.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RdpSaUacHelper.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

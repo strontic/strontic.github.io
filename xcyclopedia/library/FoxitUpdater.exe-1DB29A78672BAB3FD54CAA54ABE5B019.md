@@ -4,7 +4,7 @@ title: FoxitUpdater.exe | Foxit Updater
 
 # FoxitUpdater.exe 
 
-* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitUpdater.exe`
+* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\FoxitUpdater.exe`
 * Description: Foxit Updater
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `18C077F7184A1245F216F106F7983151B748AF68065D15ABCE6744930CA16578`
 SHA384 | `8837A549EA27AAE108B25AAD08537AF57082A863D3B43FE3A4441507916BB98EC2D78BC0AA1FBBF750DB8C2B58A8F385`
 SHA512 | `3B755860CFF45BC5C3C557380D4351F500126F4BFDAC003298144667248919DEE5B45E17112EAEA007A4B75B8B87CDF3F2BB3664C98150E64BD53E242CCD657A`
 SSDEEP | `49152:nUPRXJxg0pK0b/TVYNPWNbx7BwWW4xsMCDNO0n5zdYWteeDr:nkLgKrbbVYN+NbZBwWWbNO0n5zdY`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Foxit Software\Foxit Reader\FoxitUpdater.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

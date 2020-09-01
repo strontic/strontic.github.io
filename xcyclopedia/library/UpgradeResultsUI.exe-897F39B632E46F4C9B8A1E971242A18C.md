@@ -18,6 +18,20 @@ SHA384 | `99CC74AF7AEAD9780C9E5B49136120D67F7098779D6829D7F07EFFB7BCBDDE5B91F3F6
 SHA512 | `608289BE2034BCDCE7A69510E819C85E2167B7EC47D3133611D19A081DCB224298600C5CFF8E1FE0030C5479142782AEAAFA956C39664DBD2ED2621CDB470F6F`
 SSDEEP | `768:hB7+No3a/HgK2Qb8a8unUXSpImvocJTMw2UR2ZhyKshYAGzeW:DlIgrhV+SSplozBHEhTGyW`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\system32\UpgradeResultsUI.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

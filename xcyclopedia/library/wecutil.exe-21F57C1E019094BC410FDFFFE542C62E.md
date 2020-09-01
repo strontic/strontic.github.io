@@ -4,7 +4,7 @@ title: wecutil.exe | Event Collector Command Line Utility
 
 # wecutil.exe 
 
-* File Path: `C:\windows\system32\wecutil.exe`
+* File Path: `C:\Windows\system32\wecutil.exe`
 * Description: Event Collector Command Line Utility
 
 ## Hashes
@@ -67,6 +67,14 @@ Command help is not supported. Error = 0x57.
 The parameter is incorrect.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\wecutil.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: FoxitPreviewhost.exe | Foxit PDF Preview Handler Host
 
 # FoxitPreviewhost.exe 
 
-* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe`
+* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe`
 * Description: Foxit PDF Preview Handler Host
 
 ## Hashes
@@ -17,6 +17,30 @@ SHA256 | `FEF6C37E0B77810C48D36A9757A0AF0B2F8DE518487770010DC5CC233296AE53`
 SHA384 | `C4D0D96929C99820E828413FA2D1D6B6F99C7ADB11C2DF6810A0540B9DEDDC320152F6E65DE150BBDB28EC6FA94BBFC1`
 SHA512 | `397E3DE559A4ABC72816CB546D818D108A87714D6F0300F73E9EC3929B6E15799C2BE9E4160608C369A005B54500E296276281BB43654EE6ECEA511992775D19`
 SSDEEP | `3072:loSqyoPROt/Hv1uOihbXO0i+tpw2FqbDxjpbEQ6lEJ81RG:lo5HPROJP1Olf7au2W`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

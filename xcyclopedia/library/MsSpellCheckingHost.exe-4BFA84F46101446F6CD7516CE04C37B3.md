@@ -18,6 +18,25 @@ SHA384 | `72281EE7930B27E98BF4083C710E1E1FC4F6C30B212010A4C670276A35CC96E3178333
 SHA512 | `90B5F54FA68E3D0CC10A64A720B2FF461A7A2F12C6227C8DCEB78C17B99279137BE5ED585E4816534D3F3DA70F426FF06F48C50A690E8441F708CF3872C22886`
 SSDEEP | `1536:516b9VLrXr/+qbpDLhPD4k3RJRfmY53iDMj+V1sI/ZkbIEK6WApaly:Ej/qgpDxBJRfzd5+YI/ZJEK6WApal`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\MsSpellCheckingHost.exe |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

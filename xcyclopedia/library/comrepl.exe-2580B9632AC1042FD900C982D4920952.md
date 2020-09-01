@@ -18,6 +18,17 @@ SHA384 | `FBE79B17E69705A26C89D0A051AADBB6A9638D9F819F1927A8917E8C0557FD7CE2A6E6
 SHA512 | `17A5A5027F3B720D2D6EE534691691887327B072C0FF7A08348463358F1EDF82EA63AAC063F61D9BC309176AE1829128B20AB3BDB508282F72129A6F76BE841B`
 SSDEEP | `192:quc3+/zTpStzXQBRDTWDvKOmtrBLtliSalXkZr1WGVuoWjrqWZY:xcApUzXQBNAkNalUZr1WGVuoWyWZ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\ComputerDefaults.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Com\comrepl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

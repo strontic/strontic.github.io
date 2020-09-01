@@ -4,7 +4,7 @@ title: decompose.exe | GNU Image Manipulation Program Plug-In
 
 # decompose.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\decompose\decompose.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\decompose\decompose.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,28 @@ SHA256 | `3218F7EED0CBF8A9B06E6F8E62BE85BCD6AE8D0FE5F0231DCCF2FDAEC818C226`
 SHA384 | `BE928B9E603EEC32E786E8FC92E78762F5A97725A47A70171E0F81C0F8CB42C85EFD336D0F68750B5FE5A4C68830C6AF`
 SHA512 | `714DD9CE5446E7E91061690BE0FA32711A6A750A3D2420CFA7AB1F4D3847C7EB9ED183CFA7CF13C884F9DA95DEF421C39A112C6DBD351535DCB88E3B0F9AE4A0`
 SSDEEP | `1536:YkVzEyiM04RJamvIGX0GG4Z+4aipiPWyaiofWXik:Y+EBVqXmGG4Z+4fmxafgx`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\decompose\decompose.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 
@@ -40,9 +62,9 @@ SSDEEP | `1536:YkVzEyiM04RJamvIGX0GG4Z+4aipiPWyaiofWXik:Y+EBVqXmGG4Z+4fmxafgx`
 
 File | Score
 -- | --
-[C:\Program Files\GIMP 2\bin\gimp-test-clipboard-2.0.exe](gimp-test-clipboard-2.0.exe-3229BE4DA4CA387E19B4A40711AF5A4A.md) | 41
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-xwd\file-xwd.exe](file-xwd.exe-DDD149F159F5D2B6521A263F843782A5.md) | 38
-[C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe](qbist.exe-652D3BC3C02E1ABCCED00FB8254A090A.md) | 44
+[C:\program files\GIMP 2\bin\gimp-test-clipboard-2.0.exe](gimp-test-clipboard-2.0.exe-3229BE4DA4CA387E19B4A40711AF5A4A.md) | 41
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-xwd\file-xwd.exe](file-xwd.exe-DDD149F159F5D2B6521A263F843782A5.md) | 38
+[C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe](qbist.exe-652D3BC3C02E1ABCCED00FB8254A090A.md) | 44
 
 ## Possible Misuse
 

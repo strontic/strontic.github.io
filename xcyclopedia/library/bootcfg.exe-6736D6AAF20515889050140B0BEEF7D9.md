@@ -4,7 +4,7 @@ title: bootcfg.exe | BootCfg - Lists or changes the boot settings.
 
 # bootcfg.exe 
 
-* File Path: `C:\windows\SysWOW64\bootcfg.exe`
+* File Path: `C:\Windows\SysWOW64\bootcfg.exe`
 * Description: BootCfg - Lists or changes the boot settings.
 
 ## Hashes
@@ -82,6 +82,16 @@ ERROR: Invalid syntax.
 Type "BOOTCFG /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\bootcfg.exe |
+
 
 ## Signature
 

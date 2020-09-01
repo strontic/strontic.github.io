@@ -4,7 +4,7 @@ title: printui.exe | Change Printing Settings
 
 # printui.exe 
 
-* File Path: `C:\windows\system32\printui.exe`
+* File Path: `C:\Windows\system32\printui.exe`
 * Description: Change Printing Settings
 
 ## Screenshot
@@ -21,6 +21,51 @@ SHA256 | `EAF14CDF857DB35360416939DBF04D08A0C9C8FA58ACC63249EC501B3636F52A`
 SHA384 | `3A3397CF16FA4CE00E4787DEA0C3657BEB613648656D5273FE43F96D5C0B7C295D0E474B2158413CF14B60DCEF6BBADB`
 SHA512 | `EB912029829C710A75F75E25B421DBCB9C792E46140D40DB6D5D6AD3ACBF84A63E60C14A105AEFAF648BD93635FD4078EB984CAE885A3C45D9FC092814861CF3`
 SSDEEP | `768:uuyxmCZt5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnA:JCDVIPd4n+lbeRZIbSQPPA7t`
+
+## Runtime Data
+
+### Window Title:
+Printers
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\printui.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\printui.exe.mui | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_f4818e157fed07c9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\printui.exe |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

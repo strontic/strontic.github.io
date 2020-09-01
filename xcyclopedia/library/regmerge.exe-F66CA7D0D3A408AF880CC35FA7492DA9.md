@@ -4,7 +4,7 @@ title: regmerge.exe |
 
 # regmerge.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\regmerge.exe`
+* File Path: `C:\program files\LibreOffice\program\regmerge.exe`
 
 ## Hashes
 
@@ -17,9 +17,11 @@ SHA384 | `32C92DAD9ADF3CA6767C5CE5110B9D0F8705F65CD18E9B0134FC73A4E3EBD0C4ABC5B5
 SHA512 | `2A111DF76133482A0E7F0CF85085D23A22B60C5222533476AA397FDBDD206D4E0D95B5CB51DE9F780C9BD2FC9F03EFC5A5CC248834D4E820DC141C518C6B6EA1`
 SSDEEP | `768:wtWixMG755OBOCpjEFLz3djAqBLHo5W4V3MLG0ZEhFFlne:wtWRId3dj25WLG0ZEpVe`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files\LibreOffice\program\regmerge.exe: unknown option '--'
+C:\program files\LibreOffice\program\regmerge.exe: unknown option '--'
 using: regmerge [-v|--verbose] mergefile mergeKeyName regfile_1 ... regfile_n
        regmerge @regcmds
 Options:
@@ -31,6 +33,16 @@ Options:
   regfile_1..n  : specifies one or more registry files which are merged.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\regmerge.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -18,6 +18,17 @@ SHA384 | `F3173199906C8D3297A5E8506F6E7C250CC0ED0015FD7802CF1D89ACE5932AE0C76476
 SHA512 | `1CD24C27CA8501EC598951B704B9F02E51DE7948FE6F65818A840B3226A98F751D640CAD00760860E2E685B30721B5E0DD13A3F85D532B763A99E78D737D8415`
 SSDEEP | `12288:3LvyayW9hu2jXJjJsoHGJmlIsJEadzz+iOqN8L5Y:7aavbBGJQiiQ5`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

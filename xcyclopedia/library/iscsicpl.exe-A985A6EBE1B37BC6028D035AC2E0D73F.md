@@ -4,7 +4,7 @@ title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
 
 # iscsicpl.exe 
 
-* File Path: `C:\windows\SysWOW64\iscsicpl.exe`
+* File Path: `C:\Windows\SysWOW64\iscsicpl.exe`
 * Description: Microsoft iSCSI Initiator Configuration Tool
 
 ## Hashes
@@ -22,6 +22,31 @@ SSDEEP | `3072:OEnRFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:x0X8I0jct5rEJdp`
 
 ### Child Processes:
 rundll32.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\iscsicpl.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\iscsicpl.exe |
+
 
 ## Signature
 

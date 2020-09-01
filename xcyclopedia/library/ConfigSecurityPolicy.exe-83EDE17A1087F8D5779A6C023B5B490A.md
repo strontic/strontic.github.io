@@ -18,11 +18,23 @@ SHA384 | `505ADF0766A5A08464B90F233DAC8DB1F28D45D6785317CA027361438E02410A485429
 SHA512 | `CC42ECEB12344407706456E1C8FE3D7A8394BE93ABDBB72DC18E12E1D6B161F75E2CC97E99F3A5DAEE430DB072067567F18BE6D8D2F2301CCE2B59309614D66B`
 SSDEEP | `6144:5M4pWq00rPuUVh+pBLW+1b46zdscUsox6xC:bWqluULJi46zds5sC`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\Com\comrepl.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

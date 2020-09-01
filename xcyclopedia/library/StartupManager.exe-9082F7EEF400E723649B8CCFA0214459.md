@@ -27,6 +27,17 @@ SSDEEP | `768:/+eZsDOEjMvwTGkZH9R/KW7zO1idMeKgMZxV1DGRUf2hn:/+eKOEjMv6G4HT/KW7zO
 ### Child Processes:
 x64ProcessAssistSvc.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\StartupManager.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -45,6 +56,11 @@ x64ProcessAssistSvc.exe
 * Language: Chinese (Simplified, China)
 * Legal Copyright:  Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\StartupManager.exe](StartupManager.exe-12E2137D4EC0AE52C974C32F319F0136.md) | 88
 
 
 

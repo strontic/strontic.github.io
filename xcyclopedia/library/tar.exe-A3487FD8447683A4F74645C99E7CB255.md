@@ -18,6 +18,8 @@ SHA384 | `F73CADCF486E259FA5F415B5E470EDF1DADCDD594BB0A995F3921A8B94A5BCC66BAD9D
 SHA512 | `A25B217C593B20B62223FDF4C4AF7560604697C5CDFDB0D4E6A6F1CAC2F08A4549302CAA13B4228C1C322175D411D5070F309C64467059F97C7F196381E79460`
 SSDEEP | `768:Pst3SDOtWdYOkB5A9+wZ1GST4cfjwKJhBKa38O:P1KtWdYf49bUckKPBKa3/`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 Usage:
@@ -27,6 +29,17 @@ Usage:
   Help:    tar.exe --help
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\tar.exe |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: soffice.exe | LibreOffice
 
 # soffice.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\soffice.exe`
+* File Path: `C:\program files\LibreOffice\program\soffice.exe`
 * Description: LibreOffice
 
 ## Hashes
@@ -29,6 +29,41 @@ Warning: -help is deprecated.  Use --help instead.
 ### Child Processes:
 soffice.bin
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\soffice.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\MSVCP140.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -51,7 +86,7 @@ soffice.bin
 
 File | Score
 -- | --
-[C:\Program Files\LibreOffice\program\unopkg.exe](unopkg.exe-6BB35AC86EAD6816B6B97BB4E0091B9D.md) | 83
+[C:\program files\LibreOffice\program\unopkg.exe](unopkg.exe-6BB35AC86EAD6816B6B97BB4E0091B9D.md) | 83
 
 
 

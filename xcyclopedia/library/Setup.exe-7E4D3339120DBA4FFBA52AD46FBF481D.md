@@ -24,6 +24,16 @@ SHA384 | `DE45F70F6DB24157BA7CAA83901C9A66E1B914CFFCCB46E1EEF77DBB21FCA662F7787A
 SHA512 | `93AB032AE867051CA2741585CE3B2249ECE913274D2295DCD0A485725B7F61C2A40C05F2446490293CF2C9DD32353B9AB9A03BA06C4EC31A3E5277D7D9B53AAC`
 SSDEEP | `24576:anb06bg3QRg81WW4EK6MS69A99J24uUqv15l/u1FxUIHXdh:so6MQRn1WW4n6oejJvVSu1FxRH`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\InstallShield\setup.exe |
+
+
 ## Signature
 
 * Status: The file C:\ProgramData\Intel\Package Cache\{00000000-0000-0000-0000-000000000000}\Setup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

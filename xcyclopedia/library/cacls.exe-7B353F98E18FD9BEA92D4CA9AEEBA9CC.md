@@ -4,7 +4,7 @@ title: cacls.exe | Control ACLs Program
 
 # cacls.exe 
 
-* File Path: `C:\windows\system32\cacls.exe`
+* File Path: `C:\Windows\system32\cacls.exe`
 * Description: Control ACLs Program
 
 ## Hashes
@@ -72,6 +72,16 @@ SSDEEP | `768:gczFYtcN4HFs+QJp5UWh2/w/FxP9HnCi20b0DhDqG1+i2K:hzmtlnQJbUW8w/FxP1n
 The system cannot find the file specified.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\cacls.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

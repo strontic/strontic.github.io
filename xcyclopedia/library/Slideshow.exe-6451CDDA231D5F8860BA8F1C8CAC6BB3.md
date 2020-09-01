@@ -4,7 +4,7 @@ title: Slideshow.exe | Slideshow PlugIn for IrfanView
 
 # Slideshow.exe 
 
-* File Path: `C:\Program Files (x86)\IrfanView\Plugins\Slideshow.exe`
+* File Path: `C:\program files (x86)\IrfanView\Plugins\Slideshow.exe`
 * Description: Slideshow PlugIn for IrfanView
 * Comments:  
 
@@ -20,9 +20,22 @@ SHA384 | `AE86E3E3E57AF65CB2A701E62EC5E7E70CE508C1D1D03EE84A9BB273437334C3DE9FEB
 SHA512 | `49CE686744E659DBDD25963FC726E65BB9AA5803227D4A35B105597320CA59F7075E15AC272482A6C79ACD220285528127E26F42DE02DA2FCB06C0D51C419164`
 SSDEEP | `6144:6ia7LmGMr21Cq3mVMgcnir1w0rAhzwBk:6/7LmGG2Yylk1w0rAu`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\IrfanView\Plugins\Slideshow.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files (x86)\IrfanView\Plugins\Slideshow.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\IrfanView\Plugins\Slideshow.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

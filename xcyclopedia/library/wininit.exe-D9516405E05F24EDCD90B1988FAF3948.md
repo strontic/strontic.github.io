@@ -18,6 +18,14 @@ SHA384 | `D51C6393B0E37B1DDDD4F83C1A2C1C79F248D8E44AA46F66D8FF98A6463C2CFD6A7DA1
 SHA512 | `18F3EF2117FAB18B07560E1476CFB2D54485169376A72CCEF4684A57C2FAD4224872F2C8DA3014478FF382B59F2180BECFAE3A0144E6989A49E2B71AAC92CE3B`
 SSDEEP | `3072:HWkZzyTGQQOLlDuoxY2AIhGqbGCwnulDopN7x1QiWhIDlAFBqs:HfMTBQOJpAIhPbGCwulDoplxK3SWF`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\winhlp32.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\wininit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

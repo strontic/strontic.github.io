@@ -4,7 +4,7 @@ title: Setup.exe | Windows Installation and Setup
 
 # Setup.exe 
 
-* File Path: `C:\windows\system32\oobe\Setup.exe`
+* File Path: `C:\Windows\system32\oobe\Setup.exe`
 * Description: Windows Installation and Setup
 
 ## Screenshot
@@ -26,14 +26,37 @@ SSDEEP | `6144:BJLIiPDg8W83jmUJEsl+jV5frzhQXJgzBU4GfjT:BuiP/39eHfJag`
 
 ## Runtime Data
 
-### Child Processes:
-cmd.exe
+### Window Title:
+Install Windows
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\imageres.dll.mui | File
+(R-D)   C:\Windows\System32\oobe\en-US\setup.exe.mui | File
+(RW-)   C:\Windows\System32\oobe | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\oobe\Setup.exe |
+
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

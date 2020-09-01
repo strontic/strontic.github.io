@@ -4,7 +4,7 @@ title: uninstall.exe | Krita (x64) 4.3.0 Setup
 
 # uninstall.exe 
 
-* File Path: `C:\Program Files\Krita (x64)\uninstall.exe`
+* File Path: `C:\program files\Krita (x64)\uninstall.exe`
 * Description: Krita (x64) 4.3.0 Setup
 
 ## Hashes
@@ -23,9 +23,20 @@ SSDEEP | `1536:+5slrHFDzLcQAT50q6muOwgdLeAyNswgVOyt2EX:USrFD0QAGq6muOwceAZqEX`
 ### Child Processes:
 Un_A.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Krita (x64)\uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\Krita (x64)\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\Krita (x64)\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -45,8 +56,8 @@ Un_A.exe
 
 File | Score
 -- | --
-[C:\Program Files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 29
-[C:\Program Files (x86)\Pidgin\pidgin-uninst.exe](pidgin-uninst.exe-410E7935B3F84864AD7755A591A157B9.md) | 50
+[C:\program files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 29
+[C:\program files (x86)\Pidgin\pidgin-uninst.exe](pidgin-uninst.exe-410E7935B3F84864AD7755A591A157B9.md) | 50
 
 ## Possible Misuse
 

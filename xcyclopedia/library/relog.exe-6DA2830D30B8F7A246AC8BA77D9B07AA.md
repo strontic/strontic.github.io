@@ -4,7 +4,7 @@ title: relog.exe | Performance Relogging Utility
 
 # relog.exe 
 
-* File Path: `C:\windows\SysWOW64\relog.exe`
+* File Path: `C:\Windows\SysWOW64\relog.exe`
 * Description: Performance Relogging Utility
 
 ## Hashes
@@ -25,13 +25,10 @@ SSDEEP | `768:vzdUhTX4I/Y8bPgtS1S4Y+SH5KiNdiDNVbtpFGPm+v6E22MkiQXtn:vzeB4m4OY+SE
 
 Microsoft r Relog.exe (10.0.17763.1)
 
-Relog creates new performance logs from data in existing performance logs by
-changing the sampling rate and/or converting the file format. Supports all
-performance log formats, including Windows NT 4.0 compressed logs.
+Relog creates new performance logs from data in existing performance logs by changing the sampling rate and/or converting the file format. Supports all performance log formats, including Windows NT 4.0 compressed logs.
 
 Usage:
-C:\windows\SysWOW64\relog.exe <filename [filename ...]> 
-                                [options]
+C:\Windows\SysWOW64\relog.exe <filename [filename ...]> [options]
 
 Parameters:
   <filename [filename ...]>     Performance file to relog.
@@ -40,17 +37,12 @@ Options:
   -?                            Displays context sensitive help.
   -a                            Append output to the existing binary file.
   -c <path [path ...]>          Counters to filter from the input log.
-  -cf <filename>                File listing performance counters to filter
-                                from the input log. Default is all counters
-                                in the original log file.
+  -cf <filename>                File listing performance counters to filter from the input log. Default is all counters in the original log file.
   -f <CSV|TSV|BIN|SQL>          Output file format.
-  -t <value>                    Only write every nth record into the output
-                                file. Default is to write every record.
+  -t <value>                    Only write every nth record into the output file. Default is to write every record.
   -o                            Output file path or SQL database.
-  -b <M/d/yyyy h:mm:ss[AM|PM]>  Begin time for the first record to write into
-                                the output file.
-  -e <M/d/yyyy h:mm:ss[AM|PM]>  End time for the last record to write into
-                                the output file.
+  -b <M/d/yyyy h:mm:ss[AM|PM]>  Begin time for the first record to write into the output file.
+  -e <M/d/yyyy h:mm:ss[AM|PM]>  End time for the last record to write into the output file.
   -config <filename>            Settings file containing command options.
   -q                            List performance counters in the input file.
   -y                            Answer yes to all questions without prompting.
@@ -62,6 +54,17 @@ Examples:
   relog logfile.blg -q -o counters.txt
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\relog.exe |
+
 
 ## Signature
 

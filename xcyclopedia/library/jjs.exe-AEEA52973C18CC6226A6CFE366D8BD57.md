@@ -4,7 +4,7 @@ title: jjs.exe | OpenJDK Platform binary
 
 # jjs.exe 
 
-* File Path: `C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\jjs.exe`
+* File Path: `C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jjs.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `537E9EAE010ED2EE0BAAF7140E43A57EC4E2C6430658065E185752D7242D23B3`
 SHA384 | `D007B379764FC60A8E6184677EB2BC22F85C4680CDCA7973063BD0CC5120C9643228C9C66E7A8BE573EF118C0A8BBE3F`
 SHA512 | `267E6FA9516CCD01F73D472B36BB60FB262EC206FE57C00DE83ED515A45746B15EEBDBBE983A3A889E1E6590EDA24667A9D4CF8A2DB2EB57B414F52EA800F1CB`
 SSDEEP | `384:nb9bCPqn7KaX7nBbFcpA5APaK6jSLpGDgf2hT:JuPeLxFAA5vKgQ4Uf2hT`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -73,6 +75,16 @@ jjs [<options>] <files> [-- <arguments>]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jjs.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -95,8 +107,8 @@ jjs [<options>] <files> [-- <arguments>]
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jjs.exe](jjs.exe-769519D4B82D6F7FF7C779C74BCA82CF.md) | 60
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jjs.exe](jjs.exe-4BBAAAD09CA86598C402F02D56D521A7.md) | 61
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jjs.exe](jjs.exe-769519D4B82D6F7FF7C779C74BCA82CF.md) | 60
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jjs.exe](jjs.exe-4BBAAAD09CA86598C402F02D56D521A7.md) | 61
 
 
 

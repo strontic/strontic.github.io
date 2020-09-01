@@ -18,6 +18,27 @@ SHA384 | `CFD89FDADF3E266C969EB744BC9388120CF9ADD32F6C921789BF63AED3F5FA9C7B484D
 SHA512 | `5178753FAD890AC3A6393C9EEF0DBF9441C461FBBFDF6C4D73AE8A6E31F7EC122639169D71DAB0BEB3C36E68F11C7C75C32327421A29B96B8A34E692F772819D`
 SSDEEP | `1536:+q/ZSaYwCOUVI9FyPnL1Sxxakkn6oYY0ewiP8:5JCyOfLYxxaJVYYPwi`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\RunLegacyCPLElevated.exe |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

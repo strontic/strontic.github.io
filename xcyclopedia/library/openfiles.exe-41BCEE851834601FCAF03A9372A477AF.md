@@ -4,7 +4,7 @@ title: openfiles.exe | Displays the current open files list
 
 # openfiles.exe 
 
-* File Path: `C:\windows\SysWOW64\openfiles.exe`
+* File Path: `C:\Windows\SysWOW64\openfiles.exe`
 * Description: Displays the current open files list
 
 ## Hashes
@@ -18,11 +18,20 @@ SHA384 | `4BB66ACAB0016BC010A8E9D5FBE82903CEED662EB6BF73F8C2BDC21B9DCBB513F5300B
 SHA512 | `151938F70B2848C10004B07CD9E860B8739A7E4B07F25B95E60D5EA083C869ADA2BAAD2AE616E5CFAE27E3704C265A342D39F60A7B5755D228D420D8FD495129`
 SSDEEP | `1536:FORf+E6e0Obn96ysWUux88cs3+tamCxdqc:W6e0O9X7Uum8clamCxQ`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 ERROR: The target system must be running a 32 bit OS.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

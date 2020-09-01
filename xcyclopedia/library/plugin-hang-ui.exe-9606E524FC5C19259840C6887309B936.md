@@ -18,6 +18,16 @@ SHA384 | `80EFB30E722CEE6F1B94524BD4E2C3AFF3B03D0D6992C52E2C5DC52D30B6840535A2BE
 SHA512 | `D16CADAC3F54EE1308967914FDD49EC227A72A111677363536816E5864BDC1FAC9FD391D3A11D89D250CBBD4D8F7125C8FB381DF7521BB3D11A2878ACC03E6A6`
 SSDEEP | `384:oKWjyOEyZ3WAosRIoY7DcKy3oAEK/jgNOAbZXPjWAJYIvDG8uK6jS9zZG:hK3W5suPUP+K8JbZXbLJY2DGBKgQZG`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Mozilla Thunderbird\plugin-hang-ui.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +50,8 @@ SSDEEP | `384:oKWjyOEyZ3WAosRIoY7DcKy3oAEK/jgNOAbZXPjWAJYIvDG8uK6jS9zZG:hK3W5suP
 
 File | Score
 -- | --
+[C:\program files\Mozilla Firefox\plugin-hang-ui.exe](plugin-hang-ui.exe-BFAA80CF887849BE3925962D1E97A6FD.md) | 86
+[C:\program files\Mozilla Thunderbird\WSEnable.exe](WSEnable.exe-25228BEDD2A4C79453488CF27420D427.md) | 33
 [C:\Program Files\Mozilla Thunderbird\WSEnable.exe](WSEnable.exe-25B0A29D77BFEA854FA3A4940CD20B90.md) | 30
 
 

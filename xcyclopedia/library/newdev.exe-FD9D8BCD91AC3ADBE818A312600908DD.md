@@ -4,7 +4,7 @@ title: newdev.exe | Device driver software installation
 
 # newdev.exe 
 
-* File Path: `C:\windows\system32\newdev.exe`
+* File Path: `C:\Windows\system32\newdev.exe`
 * Description: Device driver software installation
 
 ## Hashes
@@ -18,11 +18,23 @@ SHA384 | `1699F0F89CD246429CCA21BA36E098F7949E7FBB4C8B9D497239EEFD2A9E36F1A24DCC
 SHA512 | `50F35CB4097D6D22EF52D2A5199856CB1B13BE9E592783F233A35F32670F7D657E1E1E69BB9804BF552E7ED844B07A0F6D9FEA367644290CBD140FFD1F775BDD`
 SSDEEP | `1536:Vaaowgx1sh/xgS5x2NCJfFrGUUUUUUUUUUUU3+:VQ1yx04Jh`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\newdev.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

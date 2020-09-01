@@ -4,7 +4,7 @@ title: logagent.exe | Windows Media Player Logagent
 
 # logagent.exe 
 
-* File Path: `C:\windows\system32\logagent.exe`
+* File Path: `C:\Windows\system32\logagent.exe`
 * Description: Windows Media Player Logagent
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `EC86199B43A0C82A06365EBEDBD6396BF93A418B18FB9FC4F6C8BC8B3A83D079`
 SHA384 | `82AE376A56DEEF040E2D3055A19DB5D4C95BB865BD5028BE6CF599D13D9409558D4236EBA19B26F82E8DC2DF5F4B80D0`
 SHA512 | `53E424B98B5C527E610806CBAAD1F47364D003405E5B7B9F1BCB86CE78645115124026AEF6BB3C53779F31BFD758DF50121EA6736F45F30784404C79A851B160`
 SSDEEP | `3072:kPIdlYIcKInlBqMFI0+uvndrZPXb56sz3aD+amCKv2:kPhqMh+ondrVNZ3aD+amCK`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC12CC | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\logagent.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

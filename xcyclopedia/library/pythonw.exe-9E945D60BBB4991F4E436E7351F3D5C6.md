@@ -4,7 +4,7 @@ title: pythonw.exe | Python
 
 # pythonw.exe 
 
-* File Path: `C:\Program Files\Inkscape\bin\pythonw.exe`
+* File Path: `C:\program files\Inkscape\bin\pythonw.exe`
 * Description: Python
 
 ## Screenshot
@@ -26,7 +26,7 @@ SSDEEP | `1536:HANPgB3IxHHWMpdPa5wiE21M8kJIGFvb1Cwz/Z3se0I:HANPlwMpdCq/IM8uIGfJ/
 
 ### Usage (stdout):
 ```Batchfile
-usage: C:\Program Files\Inkscape\bin\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\program files\Inkscape\bin\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
          and comparing bytes/bytearray with str. (-bb: issue errors)
@@ -122,13 +122,27 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 
 ### Usage (stderr):
 ```Batchfile
-C:\Program Files\Inkscape\bin\pythonw.exe: can't find '__main__' module in 'help'
+C:\program files\Inkscape\bin\pythonw.exe: can't open file 'help': [Errno 2] No such file or directory
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Inkscape\bin\libpython3.8.dll |
+C:\program files\Inkscape\bin\pythonw.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\sechost.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\Inkscape\bin\pythonw.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\Inkscape\bin\pythonw.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -148,8 +162,8 @@ C:\Program Files\Inkscape\bin\pythonw.exe: can't find '__main__' module in 'help
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\pythonw.exe](pythonw.exe-22A73968F535CD1042A5AA301C2A537B.md) | 72
-[C:\Program Files\Python38\pythonw.exe](pythonw.exe-B37D95BFD4A51E2847F3EB6A2F8A427E.md) | 75
+[C:\program files (x86)\Python38-32\pythonw.exe](pythonw.exe-22A73968F535CD1042A5AA301C2A537B.md) | 72
+[C:\program files\Python38\pythonw.exe](pythonw.exe-B37D95BFD4A51E2847F3EB6A2F8A427E.md) | 75
 
 
 

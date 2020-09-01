@@ -26,15 +26,22 @@ SSDEEP | `3072:GSmnnUxcvpIcte3V2g0+8cI+I2ErgJ5S5UBT7hxJLW:GSmnUCXtcVD0sI72k75U51
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: B6F9104F-5AA4-4
+On computer: DESKTOP-RQ9SGT4
 
-Microsoft DiskPart syntax:
-	diskpart [/s <script>] [/?]
-
-	/s <script> - Use a DiskPart script.
-	/?          - Show this help screen.
+DiskPart has encountered an error: No mapping between account names and security IDs was done.
+See the System Event Log for more information.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\diskpart.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

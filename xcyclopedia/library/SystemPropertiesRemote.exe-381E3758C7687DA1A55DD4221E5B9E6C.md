@@ -18,6 +18,17 @@ SHA384 | `2DE6233687CA3653A641BD4E07789F28A46520C43A3B6B56A6CACA4FFCF0C61F9726AC
 SHA512 | `9060C9E6530BC1C4193AAC17A94879312EEE72F9B3E8A6ABF632AE490DE92B363BD4C9E2ABB5A958E89CBD3594C53B03D23E35514B9BA4838611D02D0EB30D94`
 SSDEEP | `1536:1Le/StREC/rMcgEPJV+G57ThjEC0kzJP+V5Je:VVzECTMpuDhjRVJGQ`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\SystemPropertiesRemote.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\SystemPropertiesRemote.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

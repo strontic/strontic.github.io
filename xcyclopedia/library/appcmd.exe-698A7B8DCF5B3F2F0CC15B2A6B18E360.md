@@ -4,7 +4,7 @@ title: appcmd.exe | Application Server Command Line Admin Tool
 
 # appcmd.exe 
 
-* File Path: `C:\windows\system32\inetsrv\appcmd.exe`
+* File Path: `C:\Windows\system32\inetsrv\appcmd.exe`
 * Description: Application Server Command Line Admin Tool
 
 ## Hashes
@@ -72,6 +72,14 @@ Use "!" to escape parameters that have same names as the general parameters,
 like "/!debug:value" to set a config property named "debug".
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\inetsrv\appcmd.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: takeown.exe | Takes ownership of a file
 
 # takeown.exe 
 
-* File Path: `C:\windows\SysWOW64\takeown.exe`
+* File Path: `C:\Windows\SysWOW64\takeown.exe`
 * Description: Takes ownership of a file
 
 ## Hashes
@@ -92,10 +92,17 @@ Examples:
 
 ### Usage (stderr):
 ```Batchfile
-ERROR: Invalid argument/option - '-help'.
+ERROR: Invalid argument/option - '--help'.
 Type "TAKEOWN /?" for usage.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

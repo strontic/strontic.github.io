@@ -4,7 +4,7 @@ title: GoogleCrashHandler.exe | Google Crash Handler
 
 # GoogleCrashHandler.exe 
 
-* File Path: `C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleCrashHandler.exe`
+* File Path: `C:\program files (x86)\Google\Update\1.3.35.452\GoogleCrashHandler.exe`
 * Description: Google Crash Handler
 
 ## Hashes
@@ -17,6 +17,19 @@ SHA256 | `3C05CAF977003005770BCA7CD4C4586A3C2C2B749A5BB8659AF50B8637F5AC5E`
 SHA384 | `77445364D438DF4CC28F7A63E51751AEEAA03A955F46796A1B696576A7396A5B40C62015BD5601D52870D1773F1675ED`
 SHA512 | `CC0E690451A2D4FB5D378A9D9C0F583FF78BECA2DDC379582A94D7D540FF9618EB74802A602FF68E98E981A47D52A05C24C1AE2C1C846E496E47BB52F3F4E955`
 SSDEEP | `6144:9xboN1Vk51IBGg39VOmArrPD/B7XAOI2Srxjcx+aKW:9xEjVjBGgNVOmadr62SrGx+aKW`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Google\Update\1.3.35.452\GoogleCrashHandler.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

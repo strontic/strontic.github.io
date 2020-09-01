@@ -18,11 +18,23 @@ SHA384 | `6FA1B656C2C268AE158463DC87FA40F49A796311DE131F535545C6A45F1151885E305F
 SHA512 | `E44F4C4A23FD6C57B155ED4D531EC83453A64D78D1FD03979F2D7C501156C620D598005B60E8DCBB5A42AD090BA6FB908ADBBAAD09B97A230A63FB663BB5AC90`
 SSDEEP | `1536:vORfIKvHBDNrNIwv9DVSc+c3YWaq9xddR/:HKvHBDXIs1VSc+cZaq9xzR/`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 ERROR: The target system must be running a 32 bit OS.
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\openfiles.exe |
+
 
 ## Signature
 

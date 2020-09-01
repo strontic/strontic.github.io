@@ -4,7 +4,7 @@ title: cipher.exe | File Encryption Utility
 
 # cipher.exe 
 
-* File Path: `C:\windows\system32\cipher.exe`
+* File Path: `C:\Windows\system32\cipher.exe`
 * Description: File Encryption Utility
 
 ## Hashes
@@ -132,6 +132,13 @@ Displays or alters the encryption of directories [files] on NTFS partitions.
 
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

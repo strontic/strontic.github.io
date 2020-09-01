@@ -4,7 +4,7 @@ title: Netplwiz.exe | Advanced User Accounts Control Panel
 
 # Netplwiz.exe 
 
-* File Path: `C:\windows\SysWOW64\Netplwiz.exe`
+* File Path: `C:\Windows\SysWOW64\Netplwiz.exe`
 * Description: Advanced User Accounts Control Panel
 
 ## Hashes
@@ -17,6 +17,34 @@ SHA256 | `4D65D42A1AF2C1193B6DDDFCC1393E4887CAB79C109103E7B234B518D9001207`
 SHA384 | `7B03ECEC7721B98827F587CF01271CF8A6FCFF9B6F21C206AFBDD34A6332231A84E1A588E2453E4D891A0557FF816033`
 SHA512 | `84C11B24A9636C5A16CE7C2028C9F8AE83D2F34EB27872979C54AC6BCF8605882BE0B1BB818A157E211A0B55BC2E429FE067AFB0FCDB80FF3EA1302F7752EF5E`
 SSDEEP | `768:PAztekoshSAy7fUrh6WeENiJDBPrxZt4GM:PsyOeWSDBPrxZaG`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\netplwiz.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\Netplwiz.exe.mui | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf\comctl32.dll.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.1397_en-us_3c2ec4ec946930cf | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_26237c0767c2fee2 | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\Windows\Theme4283305886 | Section
+\Windows\Theme1956823608 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\Netplwiz.exe |
+
 
 ## Signature
 

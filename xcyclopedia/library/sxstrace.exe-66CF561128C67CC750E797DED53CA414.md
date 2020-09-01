@@ -18,6 +18,23 @@ SHA384 | `EA702E5CE523E928B7AFE44DADA4AD1C25B2A30C7265B218BD486E092902069DD6A501
 SHA512 | `A8710742C217AA227CFC025919FB8C052A3D81695ED34B3E671D0EA2E72A9D26F6423B7E70E7804C1B56853737E12447C80B5C1E8A25CD0A6410FBB26C45657E`
 SSDEEP | `384:nuTRNwF4FG2+PAIlyjz/TZigSqIz7BV140qUsyBNSwX8eFY43E8K2KHd8AJNRdEB:n46A+PQr0gH0qRcopvB9dRd1Q7`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\swriter.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\VCRUNTIME140.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\sxstrace.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -4,7 +4,7 @@ title: smoke.exe | ckEffects Application
 
 # smoke.exe 
 
-* File Path: `C:\Program Files\InfraRecorder\smoke.exe`
+* File Path: `C:\program files\InfraRecorder\smoke.exe`
 * Description: ckEffects Application
 
 ## Hashes
@@ -17,6 +17,34 @@ SHA256 | `3D5F1B984013507BFB21A9565720E266BECB8A626FC828FA5717953862A55AA6`
 SHA384 | `BD07708AA6453A6032C683EE3B364D6E1381E32CA469004D6547E159BE915711D0E9E90A4085B3D423C771A40FDB0770`
 SHA512 | `5DF56784EBA54B3993B4F72B84A3CF9283B963DF5E3A727CEDD1B075FE2BBC133F982A14E53D3046A501BFDB6AE7347122046ED646EEA53CD30DABC6505888B3`
 SSDEEP | `6144:5pmkXBHIULuwCd1EZOX09WVQie5wu8rc7yX1cNNdFYJhIogS1DpjkeAO2:ffuRd1EEYwdr/1IfCJ2oNpjkeAB`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\InfraRecorder\smoke.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\PSAPI.DLL |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

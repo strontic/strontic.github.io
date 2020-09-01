@@ -20,6 +20,17 @@ SHA384 | `853AA93E24C7ACC95133CEE1C8435068BEEC64911AA24BD043708DF2B11A5049444830
 SHA512 | `64734C79BDF11126FC98B94B3130FB71C4BA42F4B81EF5FD6082B31580291F024CEAF1275B52BFC7B73B3B5850035CCDA706FF9D4E6795EBFAA35C2B126DF35C`
 SSDEEP | `3072:AXSHb0ATgwUu1pGzfuX57Ho+8aumX1pRKGqcnUXj:A2pg7uX57Hf1UXj`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Zoom\bin\zTscoder.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -38,6 +49,11 @@ SSDEEP | `3072:AXSHb0ATgwUu1pGzfuX57Ho+8aumX1pRKGqcnUXj:A2pg7uX57Hf1UXj`
 * Language: Chinese (Simplified, China)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Zoom\bin\zUpdater.exe](zUpdater.exe-0B4AE29F35AF372F0C6D3CB1D9E1165F.md) | 86
 
 
 

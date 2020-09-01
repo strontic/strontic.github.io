@@ -4,7 +4,7 @@ title: javadoc.exe | OpenJDK Platform binary
 
 # javadoc.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javadoc.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javadoc.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -98,6 +98,17 @@ javadoc: error - No public or protected classes found to document.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javadoc.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -120,19 +131,19 @@ javadoc: error - No public or protected classes found to document.
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\extcheck.exe](extcheck.exe-803AFFB2F03A9D302817D45E59C3BB4F.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe](javac.exe-3A9578BFD3BB7869169BAC29E497AF55.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javah.exe](javah.exe-41789B4535F6A0A491368C7CDBF08149.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javap.exe](javap.exe-D4B6FF69D8B33AE1C748D03B170A5828.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 69
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jfr.exe](jfr.exe-B941B77B992BC329570061F0856916EA.md) | 68
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\native2ascii.exe](native2ascii.exe-3CD4E62074A39B93E3448C1F46CE55F2.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 65
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 66
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 71
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\rmid.exe](rmid.exe-D8EC5ABE57565E6260EA2D62D74EF506.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\extcheck.exe](extcheck.exe-803AFFB2F03A9D302817D45E59C3BB4F.md) | 66
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javac.exe](javac.exe-3A9578BFD3BB7869169BAC29E497AF55.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javah.exe](javah.exe-41789B4535F6A0A491368C7CDBF08149.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\javap.exe](javap.exe-D4B6FF69D8B33AE1C748D03B170A5828.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jdeps.exe](jdeps.exe-3391DEEABD10D7DF3EC9A1EA35F11ADA.md) | 69
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jfr.exe](jfr.exe-B941B77B992BC329570061F0856916EA.md) | 68
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\native2ascii.exe](native2ascii.exe-3CD4E62074A39B93E3448C1F46CE55F2.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\pack200.exe](pack200.exe-2B30CC6FFE825CC181A4A3F9FDF071D7.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\pack200.exe](pack200.exe-0FF0267A0F8C0055F1B1AAF5198A1472.md) | 71
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 66
+[C:\program files (x86)\Amazon Corretto\jre8\bin\pack200.exe](pack200.exe-FFF71AB59824704A3826FB5C27C9C8E8.md) | 71
+[C:\program files (x86)\Amazon Corretto\jre8\bin\rmid.exe](rmid.exe-D8EC5ABE57565E6260EA2D62D74EF506.md) | 68
 
 
 

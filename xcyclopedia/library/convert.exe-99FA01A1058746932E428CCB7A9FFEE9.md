@@ -18,6 +18,17 @@ SHA384 | `CC4C05F0D5A35BE5BB16D8855E29E976A38CA55C0A682E298B39851AF7FE2956778CFB
 SHA512 | `0A20FC9A03ADC606417FED65F264B60A4486D7DF3E4AED41DF5C7EA218A024CCDA7FB22F82A63C9BC61A9FC90DFF630B195F95DAF4D3C347A78395EE6FD0937D`
 SSDEEP | `384:HLf3WDhcR64uNuKXtvZKqJbQ3mEj0NfaEIPhjKecNUWLqW:r0hCeNHKqJbQzj6fyfcX`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\convert.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\convert.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -398,6 +398,16 @@ Win32 Error# (0): The operation completed successfully.
 ### Child Processes:
 conhost.exe
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Blender Foundation\Blender 2.83\blender.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -416,6 +426,11 @@ conhost.exe
 * Language: English (United States)
 * Legal Copyright: GPLv3 (Blender Foundation)
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files\Blender Foundation\Blender 2.83\blender.exe](blender.exe-3760DF3D3220B923BD864F120854CDA0.md) | 54
 
 
 

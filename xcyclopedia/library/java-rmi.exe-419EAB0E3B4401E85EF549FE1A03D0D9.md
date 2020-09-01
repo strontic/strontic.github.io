@@ -4,7 +4,7 @@ title: java-rmi.exe | OpenJDK Platform binary
 
 # java-rmi.exe 
 
-* File Path: `C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe`
+* File Path: `C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -17,6 +17,8 @@ SHA256 | `F6DD07FA62D210ADA95B2AE05B548DA282EDF0AAFC257A73D69C0678F72B6E6C`
 SHA384 | `A6940B090E4A2A83D1CC2BA6397A5B86E0F8E97E4597BC1FCA08AE0222512F584264C2288E0649C1B418DE60D474112D`
 SHA512 | `9E8443EE7B3E98C9D6D3EEA72B635CDA49CA45081B955067EEFD0E68CD27CCE93D68CCB1BE0D338102BDB096EA406FDEC20C30BA1C7A1E7C844CA331B48CF960`
 SSDEEP | `384:GpsFXnDbq4mSHhV8IYeeQ+K6jSUbFxDgf2hRu7:GpsFXnsS/8IteQ+KgDxUf2hRA`
+
+## Runtime Data
 
 ### Usage (stderr):
 ```Batchfile
@@ -74,6 +76,17 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -96,11 +109,11 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe](java-rmi.exe-EE8690B83712DDAE225C541566F09A4B.md) | 82
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 60
-[C:\Program Files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 63
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\java-rmi.exe](java-rmi.exe-82B5B9173ED05C20CBC6605999EB8E28.md) | 80
-[C:\Program Files (x86)\Amazon Corretto\jre8\bin\rmid.exe](rmid.exe-D8EC5ABE57565E6260EA2D62D74EF506.md) | 65
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe](java-rmi.exe-EE8690B83712DDAE225C541566F09A4B.md) | 82
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmid.exe](rmid.exe-C86BB878FAD845F245B23042C5135E97.md) | 60
+[C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\rmid.exe](rmid.exe-148834ECF2DA0E30B7D80AC0019E6C67.md) | 63
+[C:\program files (x86)\Amazon Corretto\jre8\bin\java-rmi.exe](java-rmi.exe-82B5B9173ED05C20CBC6605999EB8E28.md) | 80
+[C:\program files (x86)\Amazon Corretto\jre8\bin\rmid.exe](rmid.exe-D8EC5ABE57565E6260EA2D62D74EF506.md) | 65
 
 
 

@@ -18,6 +18,8 @@ SHA384 | `49C56BE0112CCB6E7442D1C14B161592170FCE082887CBF0FB47893E71FC3120A2A681
 SHA512 | `E25482CE70709855C9D08278A9020850E993E9F95845C8C51EAB181BC6B234C5CD9B7B53A2BAC1779E2447E95FD42E280E4F0DBA78E4FB8C82462717397A159B`
 SSDEEP | `1536:b+tuvEu02o2kZfjY1VYL8g4VXx+9qauZZ+I+:bPvzYWVJ5x+9qaIZ+v`
 
+## Runtime Data
+
 ### Usage (stderr):
 ```Batchfile
 DiskSnapshot: illegal option: --
@@ -34,6 +36,16 @@ DiskSnapshot.exe [options]
 	-o [output-file] write detail data to a file
 
 ```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\DiskSnapshot.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

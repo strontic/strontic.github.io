@@ -4,7 +4,7 @@ title: ie4ushowIE.exe | IE Per-User Show IE Icon Utility
 
 # ie4ushowIE.exe 
 
-* File Path: `C:\windows\system32\ie4ushowIE.exe`
+* File Path: `C:\Windows\system32\ie4ushowIE.exe`
 * Description: IE Per-User Show IE Icon Utility
 
 ## Hashes
@@ -18,11 +18,43 @@ SHA384 | `27603C93F405A36D831D7FEEABE1CE0DEDF61F86B950E85A3A2960682B5DD94F486971
 SHA512 | `55E7488DECF493C2012A7FD2A13AD9E47A0EA06CF13BE6318554C02FA7E39AB224A6E0EDE4C23B8F5ED8059626F09DDC775C9764F25FA702D148B0E3307B47D2`
 SSDEEP | `1536:G8bOuwnhJ90LqJ2QYSljbcePu6uq846+46EbDQpQDI+Qg7IJ1yx2:G8bQJ90LMYS1ol6v8NZaQDAWIJ1yx2`
 
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\2\BaseNamedObjects\windows_shell_global_counters | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\ie4ushowIE.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 

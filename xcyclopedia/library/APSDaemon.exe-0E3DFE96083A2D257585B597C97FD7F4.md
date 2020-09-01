@@ -4,7 +4,7 @@ title: APSDaemon.exe | Apple Push
 
 # APSDaemon.exe 
 
-* File Path: `C:\Program Files\Common Files\Apple\Apple Application Support\APSDaemon.exe`
+* File Path: `C:\program files\Common Files\Apple\Apple Application Support\APSDaemon.exe`
 * Description: Apple Push
 
 ## Hashes
@@ -17,6 +17,37 @@ SHA256 | `993B80D1260220202938142CD849C8D365617BD6A494AB2143BAE3948D700568`
 SHA384 | `4C01C16DB00C0D3242BEC9719AC4008B52925770559B07EAD251B8FDB9D273AEFC84A3966D3C53F70BBFFDD917430AD4`
 SHA512 | `55F96C948EFB8A72636349877522EBA77EAC06B8A8F22579F69FA26C7CD4E9DC265F87D8153310CEBBC2AD7DDE78F0EBB6E46A3B0DF8E9440B27B34641DFC739`
 SSDEEP | `1536:CN+OsvGMU1w+lXDtOMMmjC6xDowYJeG802YISnlw5kw3hwK:w+Hpcw+lzthMEowYJj+dSnlw5k7K`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Common Files\Apple\Apple Application Support\APSDaemon.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+
 
 ## Signature
 

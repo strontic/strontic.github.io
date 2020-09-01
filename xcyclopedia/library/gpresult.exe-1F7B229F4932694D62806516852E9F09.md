@@ -96,6 +96,16 @@ Type "GPRESULT /?" for usage.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\gpgme-w32spawn.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

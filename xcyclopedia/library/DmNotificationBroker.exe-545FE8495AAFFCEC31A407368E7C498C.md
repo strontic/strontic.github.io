@@ -18,6 +18,23 @@ SHA384 | `A0A9B124F5610C9F4233D03605CDC8527FF61E1A4644483CC29CDFE6EB7576DFF64C36
 SHA512 | `303195572095B150E69C93939424A46060E651805914BDEC8A06C19501890E4F7F477FC8116393DCA74ADC07522750812402A8AB810A9845E96FACDA06BDBB7A`
 SSDEEP | `384:mHmlyfSLvL4jzt245j6/VG7laAeSsiFMeONwsiOAuJAnYl2R/KHZgUJVjeYeITWQ:mHmXLvL4g4SwdRJpQZl0/QtLjy2`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\combase.dll |
+C:\Windows\system32\DmNotificationBroker.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\ucrtbase.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

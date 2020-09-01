@@ -18,6 +18,14 @@ SHA384 | `25152A3960C5E060DB37455DD43BC77F60D9835D9E978680F384AE667FEFE33D300F7F
 SHA512 | `46314D852269DA474760F054EF32AF8B9F6C017FAC4814CA4B927F274BA7CD06B088AF44A60916203C6C43CCA118204BD80ED282B41062FC53E56A83AF3C07D7`
 SSDEEP | `3072:t4dS+pqv1VOxPVzvPA4MF7NygUJXyw/hP2IAvchp:t4dS+pi1VOxVzQd7UXyyhIvc`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\MsMpEng.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\system32\oobe\msoobe.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

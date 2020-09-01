@@ -22,6 +22,17 @@ SHA384 | `098D00C7F911BF4C835952814DEE7CD3EA4607717E99F7358AB68946D980F09F6C6C7E
 SHA512 | `0F632A14AFACA9B093568BF8FF26D96445A054C0C1A588AA6A7655D90D46FD21852BE834E0F1A698F2FBF2E2182B5A9F5A896B8CF67EB07B0461E33519501563`
 SSDEEP | `1536://zmpeB8PQBgVQQv2bm4Sr8TwJOVWXFYPgz+OzJzhGzzz+Tzn4zoTzbzhGz2zBKU:zlBgVQU+Sr8TwJOVWVqzhBzubqMV9`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Glary Utilities 5\regdefrag.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +51,11 @@ SSDEEP | `1536://zmpeB8PQBgVQQv2bm4Sr8TwJOVWXFYPgz+OzJzhGzzz+Tzn4zoTzbzhGz2zBKU:
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\program files (x86)\Glary Utilities 5\regdefrag.exe](regdefrag.exe-0DC10FD83089A94A9FB03B5707CCE194.md) | 97
 
 
 

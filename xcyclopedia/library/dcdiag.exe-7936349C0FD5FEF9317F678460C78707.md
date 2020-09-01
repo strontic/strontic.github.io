@@ -233,8 +233,13 @@ and
 
 ```
 
-### Child Processes:
-RdpSa.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\dcdiag.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

@@ -4,7 +4,7 @@ title: iv_uninstall.exe | IrfanView Uninstaller
 
 # iv_uninstall.exe 
 
-* File Path: `C:\Program Files (x86)\IrfanView\iv_uninstall.exe`
+* File Path: `C:\program files (x86)\IrfanView\iv_uninstall.exe`
 * Description: IrfanView Uninstaller
 
 ## Hashes
@@ -22,6 +22,17 @@ SSDEEP | `1536:/JOUUA0JyI6YI6eCt7vLI+9/rHZIlalhPvMOVi:/UUgyV76htfT/rHZIlalhPvT`
 
 ### Child Processes:
 iv_uninstall.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\IrfanView\iv_uninstall.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 

@@ -18,6 +18,44 @@ SHA384 | `07D897C70C89611E2F15DDC3A8C97FBE05BCBA17BF1DBD3CCA8F055850D2F2DDA82E26
 SHA512 | `51F12472C38776BF652D2AA78C2EE88E9124F547D371558D368FDA66DB0D273B36A039199ECAAD82E849FA30C4E29E11EF970E709D1E01291F85E1A660B0F9C6`
 SSDEEP | `3072:KxtSwdcFJ8LGLc9Mrq4KiaNNzbXo9l1yCIOUOCi06OwIw9kKiaNNzbXf3rn:KNGeKg9M/5KNXwy3Odjp19k5KNXf`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\cryptsp.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iertutil.dll |
+C:\Windows\System32\kernel.appcore.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\system32\mscoree.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLE32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\powrprof.dll |
+C:\Windows\system32\PresentationHost.exe |
+C:\Windows\System32\profapi.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\shlwapi.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\urlmon.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\System32\windows.storage.dll |
+C:\Windows\system32\WININET.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\PresentationHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

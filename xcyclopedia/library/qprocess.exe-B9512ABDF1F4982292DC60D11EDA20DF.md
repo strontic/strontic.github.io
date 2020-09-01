@@ -55,6 +55,13 @@ QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.

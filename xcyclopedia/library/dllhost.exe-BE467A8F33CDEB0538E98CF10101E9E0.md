@@ -18,6 +18,19 @@ SHA384 | `086B6F93BAAF1270C61D16962D3A919B26E4D30005E1B98CC613CD3824120D41260F61
 SHA512 | `F8737DF2283603B9F8F07C229012B91D4BBAECF1730E744BC3C6D1F3889E4AC363AAC63FA4274C36E6EFBEC833DFC81FA382F7575C48A1B42EF3E65895C1B925`
 SSDEEP | `384:nWJTVQyztcEUJnPjz2M2lcCWg5W++GOqD1IDBRJJM95DKlxT1xP:nQKyxcEUR2rlcUB/I1P85DmP`
 
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\dllhost.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,7 +53,7 @@ SSDEEP | `384:nWJTVQyztcEUJnPjz2M2lcCWg5W++GOqD1IDBRJJM95DKlxT1xP:nQKyxcEUR2rlcU
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 30
+[C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 30
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 33
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-8159944C79034D2BCABF73D461A7E643.md) | 25
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 25

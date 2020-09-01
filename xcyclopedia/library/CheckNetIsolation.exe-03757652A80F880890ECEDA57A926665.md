@@ -18,6 +18,17 @@ SHA384 | `9233E5FC67F2C07B3A3181C297C2423AC8969E55C99B8E51B043C062BA984EC9267056
 SHA512 | `E8908A0CC295FFFE7C522E0B40D21BD58B4F0E4D235D079FCC868B9558B59406D556A5B2026E9F095C6228397DDAF72AD92D048D970E83289BC6F64349A5AF27`
 SSDEEP | `384:CdhaaOumnYFnC4CKRXK7K+a19kFzGaXdaKzLCMemRlJ6TVlRWY7pOWNkFpwhceIW:CbadYmKt9kFzG8VzLCERlmv7pwef`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\CheckNetIsolation.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

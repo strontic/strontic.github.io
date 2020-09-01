@@ -18,6 +18,17 @@ SHA384 | `C01AF99CF7C8CF807B492F55E344C0164BE80FA9E5816E23C6CC7FF9259FD15213C660
 SHA512 | `8E5C0211E65AA9E259718C7F742480075F5625405CE4232E167E01D68572BA9162655B6F9A3D7D56286D0421E99F10D39554C98D87BEA2AFF7AB38260A8F9EF0`
 SSDEEP | `3072:ZDvyBeNp7/oQfprvacMXQ7NsdEYPBaSLdwSSgKfDYOgemz:5vsQFprvacMXQ7NsdEWKfD2z`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\Zoom\bin\zCrashReport.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,7 +51,9 @@ SSDEEP | `3072:ZDvyBeNp7/oQfprvacMXQ7NsdEYPBaSLdwSSgKfDYOgemz:5vsQFprvacMXQ7NsdE
 
 File | Score
 -- | --
+[C:\program files (x86)\Zoom\bin\aomhost\zCrashReport.exe](zCrashReport.exe-18F18242265E9607FF73C2D05F44CD45.md) | 88
 [C:\Program Files (x86)\Zoom\bin\aomhost\zCrashReport.exe](zCrashReport.exe-FE9572B9C482034977CBFDAB3E61900F.md) | 100
+[C:\program files (x86)\Zoom\bin\zCrashReport.exe](zCrashReport.exe-18F18242265E9607FF73C2D05F44CD45.md) | 88
 
 
 

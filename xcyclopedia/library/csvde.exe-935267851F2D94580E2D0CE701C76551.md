@@ -84,6 +84,14 @@ specify the log file path via the -j option.
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\csvde.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

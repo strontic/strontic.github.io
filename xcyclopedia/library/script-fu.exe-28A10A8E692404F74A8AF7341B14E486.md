@@ -4,7 +4,7 @@ title: script-fu.exe | GNU Image Manipulation Program Plug-In
 
 # script-fu.exe 
 
-* File Path: `C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\script-fu\script-fu.exe`
+* File Path: `C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\script-fu\script-fu.exe`
 * Description: GNU Image Manipulation Program Plug-In
 
 ## Hashes
@@ -17,6 +17,34 @@ SHA256 | `B98B56C55F286C8F3EA92E63E2AF84971C0207B415F3641776DEB665AC24A3F9`
 SHA384 | `3DC32542E5A9B632DA44A3D8C6DA44D17042276E36DF8132C3484456ECE9EFF5B6E5E983935FFB271BB86F3626216931`
 SHA512 | `4C5DD292FA57A3EF357D6EB9E9ACEDAD5D3BF7803B8D768BF1DADEF19C92034B6FD3C008C98417231654AA36AF75074CF32E1123458962CD78AD08A7C284AF2C`
 SSDEEP | `6144:f8Qwl5soNDlv6X6O2JhRXOYCECGcDl4raG:f8JDsoNDtpJjBCECGcDl4r`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\script-fu\script-fu.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
+
 
 ## Signature
 

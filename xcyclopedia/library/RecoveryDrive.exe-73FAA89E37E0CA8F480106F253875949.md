@@ -22,6 +22,16 @@ SHA384 | `2E16CCD39022CF304E50EB1A76A066C3EF3734AC0011DE43574B12026D6C06B5A1A497
 SHA512 | `580AD7863DFCDF44B65434B7A969E4A2D6D3F26757B06BF14559BFE7C3919429A249F19E12ECB3C7D5149904979A3CB030BF3681F778DEEC281C3008D12A824C`
 SSDEEP | `12288:nbOWfVMxkJQHa5Jph46Bp8YZD8s5p4UMEmAsIfTlNc5L8cFPXc1AiCVvv7pyxy:nbOvxkfrN8cdE4STc1Ahvlyx`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\recover.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -40,6 +50,11 @@ SSDEEP | `12288:nbOWfVMxkJQHa5Jph46Bp8YZD8s5p4UMEmAsIfTlNc5L8cFPXc1AiCVvv7pyxy:n
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\RecoveryDrive.exe](RecoveryDrive.exe-FE09ED4BA75107B24DF95D0635A68B69.md) | 90
 
 
 

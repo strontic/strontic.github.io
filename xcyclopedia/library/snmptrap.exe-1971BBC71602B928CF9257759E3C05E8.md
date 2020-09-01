@@ -18,6 +18,21 @@ SHA384 | `12D4D4E3B93213B69ED2EE8A9A48CD81EAAAF443069CED799E75BBC75E549048B4AE0B
 SHA512 | `9766EEB67BABAD99C45EE6C1E18ED74600C284E6B50DA84D77B485FEFEF1A64595E4D0A74492DE06C75DD14D9EE51C2E2ABD62C41E0D1C9126E364F125570029`
 SSDEEP | `384:t6asNn8aCT/+jUF2d/zrSsOj5/gfnR8WSWlyW:8asNn8aCT/72dx6FgfRpx`
 
+## Runtime Data
+
+### Child Processes:
+ClassicStartMenu.exe Everything.exe Greenshot.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\snmptrap.exe |
+
+
 ## Signature
 
 * Status: Signature verified.

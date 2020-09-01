@@ -4,7 +4,7 @@ title: python.exe | Python
 
 # python.exe 
 
-* File Path: `C:\Program Files\LibreOffice\program\python-core-3.7.7\bin\python.exe`
+* File Path: `C:\program files\LibreOffice\program\python-core-3.7.7\bin\python.exe`
 * Description: Python
 
 ## Hashes
@@ -18,9 +18,33 @@ SHA384 | `55F70F6CD272B35A01CF367C129F519DE4F4FC759093BD7CFF2938E72EED9797B43E80
 SHA512 | `DBE3DCDE983248A9B07C46E93AF6AC3A7934C806E55ABEF737DDE584A4B515416A924B4F109B6C673B7585544065537642DC8FD0255C391074786BF0E2A72C5C`
 SSDEEP | `1536:jojvo0IzbuEYE+9z2wp+FavGmhMn+IhzZtz4/HXR:jojvv4buAs0FNmhMn+IhNq/HXR`
 
+## Runtime Data
+
+### Child Processes:
+conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\LibreOffice\program\python-core-3.7.7\bin\python.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\LibreOffice\program\python-core-3.7.7\bin\python.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\LibreOffice\program\python-core-3.7.7\bin\python.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -40,10 +64,11 @@ SSDEEP | `1536:jojvo0IzbuEYE+9z2wp+FavGmhMn+IhzZtz4/HXR:jojvv4buAs0FNmhMn+IhNq/H
 
 File | Score
 -- | --
-[C:\Program Files (x86)\Python38-32\python.exe](python.exe-39B32EC14AAF61FCEFA292BBD363C4BF.md) | 77
+[C:\program files (x86)\Python38-32\python.exe](python.exe-39B32EC14AAF61FCEFA292BBD363C4BF.md) | 77
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\bin\python.exe](python.exe-3FE8936968A3EBFFF4AC920E85488F38.md) | 74
-[C:\Program Files\Inkscape\bin\python.exe](python.exe-898AB9CC2EE05138BFE8EC61F393C072.md) | 74
-[C:\Program Files\Python38\python.exe](python.exe-14F7691FF32C19C21500E26EE3492688.md) | 74
+[C:\program files\Blender Foundation\Blender 2.83\2.83\python\bin\python.exe](python.exe-5A7DB3BE63EF55531E67F8B1E903417C.md) | 77
+[C:\program files\Inkscape\bin\python.exe](python.exe-898AB9CC2EE05138BFE8EC61F393C072.md) | 74
+[C:\program files\Python38\python.exe](python.exe-14F7691FF32C19C21500E26EE3492688.md) | 74
 
 ## Possible Misuse
 
@@ -156,7 +181,7 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [linux-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md) | \| Hardware Additions [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Python [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Cloud Account [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Event Triggered Execution [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Create Snapshot [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Input Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [File and Directory Discovery](../../T1083/T1083.md) \| Use Alternate Authentication Material [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Data from Cloud Storage Object [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol](../../T1048.003/T1048.003.md) \| Dead Drop Resolver [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Disk Structure Wipe [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/macos-matrix.md) | \| Spearphishing Link [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Python [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Domain Accounts [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Event Triggered Execution [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Dylib Hijacking [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Man-in-the-Middle [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Policy Discovery](../../T1201/T1201.md) \|  \| Data from Removable Media [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Exfiltration over USB [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Domain Generation Algorithms [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Endpoint Denial of Service [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md) | \| Valid Accounts [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Python [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Change Default File Association](../../T1546.001/T1546.001.md) \| Create Process with Token [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Control Panel](../../T1218.002/T1218.002.md) \| Input Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Peripheral Device Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Taint Shared Content [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Input Capture [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| [Ingress Tool Transfer](../../T1105/T1105.md) \| Reflection Amplification [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \| Spearphishing Link [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Python [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| COR_PROFILER [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Change Default File Association](../../T1546.001/T1546.001.md) \| Component Firmware [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Golden Ticket [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Policy Discovery](../../T1201/T1201.md) \| Shared Webroot [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Email Collection [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Exfiltration to Code Repository [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Encrypted Channel](../../T1573/T1573.md) \| Firmware Corruption [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \| Spearphishing Link [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Python [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [COR_PROFILER](../../T1574.012/T1574.012.md) \| [Change Default File Association](../../T1546.001/T1546.001.md) \| Component Firmware [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Golden Ticket [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Password Policy Discovery](../../T1201/T1201.md) \| Shared Webroot [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Email Collection [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| Exfiltration to Code Repository [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Encrypted Channel](../../T1573/T1573.md) \| Firmware Corruption [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1003.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md) | Parses secrets hidden in the LSASS process with python. Similar to mimikatz's sekurlsa:: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1003.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md) | Python 3 must be installed, use the get_prereq_command's to meet the prerequisites for this test. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1003.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md) | ##### Description: Computer must have python 3 installed | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

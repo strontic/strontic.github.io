@@ -4,7 +4,7 @@ title: java.exe | OpenJDK Platform binary
 
 # java.exe 
 
-* File Path: `C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\java.exe`
+* File Path: `C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -222,6 +222,16 @@ To specify an argument for a long option, you can use --<name>=<value> or
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\java.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: Signature verified.
@@ -244,11 +254,11 @@ To specify an argument for a long option, you can use --<name>=<value> or
 
 File | Score
 -- | --
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\java.exe](java.exe-B6E59B7366EB5856C992AC5CAD257C17.md) | 94
-[C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-2CD1B7F9036089B628BFC45F90B989FE.md) | 77
-[C:\Program Files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-FFAE755FD5D5CC1D967D4DEB3E9501FE.md) | 77
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\java.exe](java.exe-C3D6393B399F55B9432AA68D5C2C778C.md) | 77
-[C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin\javaw.exe](javaw.exe-4DA92AE589E68FE36F2C8FA022DD5AA5.md) | 69
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\java.exe](java.exe-B6E59B7366EB5856C992AC5CAD257C17.md) | 94
+[C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-2CD1B7F9036089B628BFC45F90B989FE.md) | 77
+[C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\javaw.exe](javaw.exe-FFAE755FD5D5CC1D967D4DEB3E9501FE.md) | 77
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\java.exe](java.exe-C3D6393B399F55B9432AA68D5C2C778C.md) | 77
+[C:\program files\Amazon Corretto\jdk11.0.8_10\bin\javaw.exe](javaw.exe-4DA92AE589E68FE36F2C8FA022DD5AA5.md) | 69
 
 ## Possible Misuse
 

@@ -4,7 +4,7 @@ title: sessionmsg.exe | Microsoft Remote Desktop Services Session Message Server
 
 # sessionmsg.exe 
 
-* File Path: `C:\windows\system32\sessionmsg.exe`
+* File Path: `C:\Windows\system32\sessionmsg.exe`
 * Description: Microsoft Remote Desktop Services Session Message Server
 
 ## Hashes
@@ -17,6 +17,30 @@ SHA256 | `20247E34C5139FA1EF689C134148B2373BE2D1A1E1A568950D9641826F6A1D4E`
 SHA384 | `0400186A72177496B2B8943DE498DA9998736212EA9110419286E31813A6E764D4B963E32E78058A221059435E853C01`
 SHA512 | `5F06E3F6973BE8B67C9D9E7D161DF60520FDBA8CA84855BB5C94F825CBD5C911C5FADCC46C9D856CF02B02287ED7F2819DD104CDA7D0C9D0B7B182BCB4AB9E9D`
 SSDEEP | `1536:mD7n7LmmQIC/F/G6n15yaIBGUjHpZMzvZJ86pPX:yHmXtw6yBTTpZMLQSP`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\sessionmsg.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC11CC | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\sessionmsg.exe |
+
 
 ## Signature
 

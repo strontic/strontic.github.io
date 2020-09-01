@@ -22,6 +22,14 @@ SHA384 | `5F216E4E1D51975A55BEC1C3469382B3125C3799A82991B7A35E854273AFCEA2F2C4DB
 SHA512 | `F10721E1217ADCBFF55F7949D01102A28C265880E8367916C69B9D6A6C4B48120356408E46103B2C98745DD8108C5F0FF26BF845AEB9DE2EFCAFC127F649926E`
 SSDEEP | `384:pDLuenLGH3hYz/HbaT7sg1yk1COUsto5T51xJZJG0X6kBVEkGrV7pr4MF5WSfyWh:1LueROtFLUh5T5LLJGLEVEvR6wqU4`
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\SysWOW64\setup16.exe |
+
+
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\setup16.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

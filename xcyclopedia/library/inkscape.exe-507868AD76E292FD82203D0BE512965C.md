@@ -4,7 +4,7 @@ title: inkscape.exe | Inkscape vector graphics editor
 
 # inkscape.exe 
 
-* File Path: `C:\Program Files\Inkscape\bin\inkscape.exe`
+* File Path: `C:\program files\Inkscape\bin\inkscape.exe`
 * Description: Inkscape vector graphics editor
 * Comments: Published under the GNU GPL
 
@@ -118,9 +118,107 @@ Missing argument for -h
 ### Child Processes:
 gdbus.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\Fonts\mingliub.ttc | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme4048709601 | Section
+\Windows\Theme603176458 | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files\Inkscape\bin\inkscape.exe |
+C:\program files\Inkscape\bin\libatk-1.0-0.dll |
+C:\program files\Inkscape\bin\libatkmm-1.6-1.dll |
+C:\program files\Inkscape\bin\libbz2-1.dll |
+C:\program files\Inkscape\bin\libcairo-2.dll |
+C:\program files\Inkscape\bin\libcairo-gobject-2.dll |
+C:\program files\Inkscape\bin\libcairomm-1.0-1.dll |
+C:\program files\Inkscape\bin\libepoxy-0.dll |
+C:\program files\Inkscape\bin\libexpat-1.dll |
+C:\program files\Inkscape\bin\libffi-7.dll |
+C:\program files\Inkscape\bin\libfontconfig-1.dll |
+C:\program files\Inkscape\bin\libfreetype-6.dll |
+C:\program files\Inkscape\bin\libfribidi-0.dll |
+C:\program files\Inkscape\bin\libgcc_s_seh-1.dll |
+C:\program files\Inkscape\bin\libgdk_pixbuf-2.0-0.dll |
+C:\program files\Inkscape\bin\libgdk-3-0.dll |
+C:\program files\Inkscape\bin\libgdkmm-3.0-1.dll |
+C:\program files\Inkscape\bin\libgiomm-2.4-1.dll |
+C:\program files\Inkscape\bin\libglib-2.0-0.dll |
+C:\program files\Inkscape\bin\libglibmm-2.4-1.dll |
+C:\program files\Inkscape\bin\libgmodule-2.0-0.dll |
+C:\program files\Inkscape\bin\libgobject-2.0-0.dll |
+C:\program files\Inkscape\bin\libgraphite2.dll |
+C:\program files\Inkscape\bin\libgtk-3-0.dll |
+C:\program files\Inkscape\bin\libgtkmm-3.0-1.dll |
+C:\program files\Inkscape\bin\libharfbuzz-0.dll |
+C:\program files\Inkscape\bin\libiconv-2.dll |
+C:\program files\Inkscape\bin\libinkscape_base.dll |
+C:\program files\Inkscape\bin\libintl-8.dll |
+C:\program files\Inkscape\bin\libpango-1.0-0.dll |
+C:\program files\Inkscape\bin\libpangocairo-1.0-0.dll |
+C:\program files\Inkscape\bin\libpangoft2-1.0-0.dll |
+C:\program files\Inkscape\bin\libpangomm-1.4-1.dll |
+C:\program files\Inkscape\bin\libpangowin32-1.0-0.dll |
+C:\program files\Inkscape\bin\libpcre-1.dll |
+C:\program files\Inkscape\bin\libpixman-1-0.dll |
+C:\program files\Inkscape\bin\libpng16-16.dll |
+C:\program files\Inkscape\bin\libsigc-2.0-0.dll |
+C:\program files\Inkscape\bin\libssp-0.dll |
+C:\program files\Inkscape\bin\libstdc++-6.dll |
+C:\program files\Inkscape\bin\libthai-0.dll |
+C:\program files\Inkscape\bin\libwinpthread-1.dll |
+C:\program files\Inkscape\bin\zlib1.dll |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\comdlg32.dll |
+C:\Windows\SYSTEM32\dwmapi.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.dll |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MSIMG32.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USP10.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\SYSTEM32\WINMM.dll |
+C:\Windows\SYSTEM32\WINSPOOL.DRV |
+C:\Windows\System32\WS2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44\gdiplus.dll |
+
+
 ## Signature
 
-* Status: The file C:\Program Files\Inkscape\bin\inkscape.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files\Inkscape\bin\inkscape.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -140,7 +238,7 @@ gdbus.exe
 
 File | Score
 -- | --
-[C:\Program Files\Inkscape\bin\inkview.exe](inkview.exe-17A62568710BE883F2B419098E3E2B20.md) | 93
+[C:\program files\Inkscape\bin\inkview.exe](inkview.exe-17A62568710BE883F2B419098E3E2B20.md) | 93
 
 
 

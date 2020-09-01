@@ -4,7 +4,7 @@ title: MDEServer.exe | Cast to Device Server
 
 # MDEServer.exe 
 
-* File Path: `C:\windows\system32\MDEServer.exe`
+* File Path: `C:\Windows\system32\MDEServer.exe`
 * Description: Cast to Device Server
 
 ## Hashes
@@ -17,6 +17,27 @@ SHA256 | `41BB53BE1EE4C34CC75511F0E416F289D1E95A40864DC1AFEBE66A3DD77C8F9A`
 SHA384 | `7E5A56925C0DAC36021361374B7FF02EC3273B6358A48429143635264F4C8F98E0C47B51EA6F595B43BC811421B21792`
 SHA512 | `119A2E6FACE2A873AAFAFE28642EC66D137D5CC95B2C5BCF863E60E61C66646823ED5162A8926ABEDA6C25381A8D8BE1B1BC273FE301C46056ADFBDE39BD5FDE`
 SSDEEP | `6144:NXL46ikZ/ASzzb9fOgvUJ28ZgCKLj5K9NJeG0yX2crpCo4Z:NXoRSz5OgvUYgg7H5KZXNrpCl`
+
+## Runtime Data
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\System32\en-US\MDEServer.exe.mui | File
+(RW-)   C:\Users\Administrator\Documents | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\RPC Control\DSEC143C | Section
+
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

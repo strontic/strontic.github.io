@@ -4,7 +4,7 @@ title: chkdsk.exe | Check Disk Utility
 
 # chkdsk.exe 
 
-* File Path: `C:\windows\system32\chkdsk.exe`
+* File Path: `C:\Windows\system32\chkdsk.exe`
 * Description: Check Disk Utility
 
 ## Hashes
@@ -72,8 +72,12 @@ skipping certain checks of the volume.
 
 ```
 
-### Child Processes:
-win32calc.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+
 
 ## Signature
 

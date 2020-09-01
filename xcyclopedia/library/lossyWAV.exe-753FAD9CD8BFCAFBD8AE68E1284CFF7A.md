@@ -4,7 +4,7 @@ title: lossyWAV.exe | lossyWAV - WAV file bit reduction method, www.hydrogenaudi
 
 # lossyWAV.exe 
 
-* File Path: `C:\Program Files (x86)\MusicBee\lossyWAV.exe`
+* File Path: `C:\program files (x86)\MusicBee\lossyWAV.exe`
 * Description: lossyWAV - WAV file bit reduction method, www.hydrogenaudio.org
 
 ## Hashes
@@ -80,12 +80,20 @@ Don Cross            for the Complex-FFT algorithm originally used.
 
 ```
 
-### Child Processes:
-MediaMonkey64Helper.exe
+### Loaded Modules:
+
+Path |
+-- |
+C:\program files (x86)\MusicBee\lossyWAV.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
-* Status: The file C:\Program Files (x86)\MusicBee\lossyWAV.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\program files (x86)\MusicBee\lossyWAV.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 

@@ -18,6 +18,21 @@ SHA384 | `CEAFD3226395D7642D1E2E9EF6DCA67EACBA36F6F7FB4E6E76D5FAC04652E3B3CC911C
 SHA512 | `1B7278347C8ABD2536A61B017574718FA3B5ADD4A9F0ACD22576C4380F1CF0A2FF9057AE4E405A047B2C4D2539695D1E142E4CD0DC55FC5D3E5AB8B2A6FDFAE5`
 SSDEEP | `192:DgOt5Km8/ddLDVIg3wHmm4DvXFhRM3s8oRWcs0oj:DBt5A/dFJI02mmyFhCARWcs0I`
 
+## Runtime Data
+
+### Child Processes:
+explorer.exe
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msfeedssync.exe |
+
+
 ## Signature
 
 * Status: Signature verified.
