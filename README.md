@@ -11,7 +11,7 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 5) (OPTIONAL) for testing what it looks like in a browser: `bundle exec jekyll serve`
 6) `cd Docs`
 7) `git init`
-8) `git add `
+8) `git add .`
 9) `touch .nojekyll`
 10) `git commit -m "Add Lastest GH-PAGES Files"`
 11) (OPTIONAL?) `git remote add origin git@github.com:strontic/strontic.github.io.git`
