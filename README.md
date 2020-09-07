@@ -8,6 +8,8 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 2) `cd ~/Documents/GitHub/strontic.github.io`
 3) `bundle update github-pages`
 4) `bundle exec jekyll build`
+    * (OPTIONAL) Incremental build: `--incremental` *([Experimental!](https://jekyllrb.com/docs/configuration/incremental-regeneration/))*
+    * (OPTIONAL) Listen for changes: `--watch` *([Info](https://jekyllrb.com/docs/installation/windows/#auto-regeneration))*
 5) (OPTIONAL) for testing what it looks like in a browser: `bundle exec jekyll serve`
 6) `cd Docs`
 7) `git init`
