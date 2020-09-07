@@ -18,13 +18,6 @@ SHA384 | `DA6AB89CEB06E137FE80374F0FC13B30D9BC2305954FEEE894901F5263AE4DDE316B9C
 SHA512 | `7ECB0F33B486A4138B61C1CE4DCBF8B30F4F6D819729955B14FB1B87B6B80D5F46306AAADC25C8A854C6CC776810F2D2B4BF0D1AE03313C69E5C56684B70D9AD`
 SSDEEP | `3072:dr5BWjxg0uMYjLKntkyPmw9JxEDRI5BaPrdpQa5s7Phoua+anr:xvWjxHuMYKtkytbgKDaPrdaa0Pho5r`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\Dism.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

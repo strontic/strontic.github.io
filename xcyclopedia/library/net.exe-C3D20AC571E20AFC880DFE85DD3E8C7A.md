@@ -18,16 +18,6 @@ SHA384 | `206095D63C7E1601C4316439E0A58D315243DC68AEECF6A481AF2CB69E13E7E22286B7
 SHA512 | `EE3F565760683A9E3E7D3D17C924DDE84CBD3E2B5248E334EB7870584C01C8ED01BD58078D1E72E8EFFE6AF6B6E8BF73B052A8A4B9B2024639CC6226EFDF48EC`
 SSDEEP | `768:ahyJxfvuxv/5u5qiRKye/+cKCiESTC/e3YAivbrTgagbXERtUD+YY4q8:awExn5u5DII8wpEvzga2UY+YY4q`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\net.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\net.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

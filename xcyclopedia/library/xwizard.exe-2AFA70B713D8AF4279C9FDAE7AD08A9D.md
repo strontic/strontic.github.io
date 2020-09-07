@@ -18,13 +18,6 @@ SHA384 | `14960C498BF8CBEECB384DEC66E13417C836C9424CA6A915A8330AEFFD75C6010ACDC1
 SHA512 | `89C1B99789ECD205C5D963697B22CECE4E043E7BFAE10F68CEF36FE1237FE9A85F1E2D2E24CF5E1089D1B552027D9CEA16500241EEBE85875E9FC8EEEEBC7CE9`
 SSDEEP | `1536:MhvOmwbTRLqt2Mb9zi6l5URDoq4OZZZLlCIib:6beLqt2Mxzi6l2RD68wb`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\xwizard.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

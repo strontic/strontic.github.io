@@ -18,21 +18,6 @@ SHA384 | `3E925E6739A986A579C923DD3FA74A6EF9B7F1D4447EA8A48D8DDB3E693131FF50CD84
 SHA512 | `2CDB96F5C76A39A43D5074C0BCCADFE7DCA0149F0ECD2F62AE872D44ADEFE9081AA1263B0C442A2CD9119CF8AE1FCF76F051798A7ED27F8625642ECABD9DBCFB`
 SSDEEP | `12288:jpZuDj4wgpxQrS+mJ/4DXrFkF4Y7lxWujS4p0ehoPYxRCqtpzwzFhirDd:vuX44rSZJADXrHklxvS4pVPtpzwzFhi9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\SearchIndexer.exe |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

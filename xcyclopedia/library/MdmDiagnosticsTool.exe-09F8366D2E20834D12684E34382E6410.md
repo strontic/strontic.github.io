@@ -46,14 +46,6 @@ SSDEEP | `1536:hMugb/U0BBxUg1MLNhUXFlErmZRAcD+tdmaaKZXe3k:eSiFlErYRxD+tdmXwu0`
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\MDMAppInstaller.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

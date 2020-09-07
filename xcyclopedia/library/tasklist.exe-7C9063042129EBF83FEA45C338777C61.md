@@ -18,14 +18,6 @@ SHA384 | `8DFCB2FFA1A6CD1CD1474BE2039DD340B8EB74F186B031F5CA4C7D88EDF84BE0E81341
 SHA512 | `35B339D27B583F0FABC5CB564F83C4C154983F691C9BD3040C8B00444FA054701EAAF33EFD0AAA80EB8B537CD2868EDA74A3002905ED76BFFDC03A2C6934DD57`
 SSDEEP | `1536:bQ5PAj82/S4nWuvEoKdwMFojj+RxasDVUAnjJsDdWolxyLd9jxxc:5l/SUWkhKqco+RxHziDdWoliNxO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\tasklist.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\tasklist.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,17 +18,6 @@ SHA384 | `F38BACF823AB7859509E3B83420A6C7F2E0E2514E476757DB093AB1DD5509FA725A8D8
 SHA512 | `1B3605ACAB643739072EADE19B9CDAA4B596996B16CDE45F3244B49CBAC76B9C229B1CBF1F9B55FC093FC8B8FB3269F4E41228AB939816A615EB8D8BD269FE48`
 SSDEEP | `768:aJns6/3x9xpyD4wN0zSeNpMxrpafM6vZLpv9N/IaoJe/9UhzBIgSDKRVXwP01:aFsuUD4S0zSeNpCAxvNo0/9szqgSDKRp`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\SyncHost.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\SyncHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -86,15 +86,6 @@ Usage:  Register-CimProvider.exe
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\Register-CimProvider.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

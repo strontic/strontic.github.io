@@ -18,27 +18,6 @@ SHA384 | `D7B3EC2DB597F00C2417C59CD6D5BFF3B083AD0D69338FD5733993C0088ACF35C37AD8
 SHA512 | `5ED17599C756DF02D1C4F027BF8E197D572F23975F237FC10A7CE0273466C2B657819C9F90F9C180C12F72AA157BFFFEE59514F7C5072D933F635DDEF3747A1B`
 SSDEEP | `1536:qKIgL6sXkrLXe5X3aNmq35RWKgY2MUGKYDXrQS:pL6sSu5KgYAGFbQS`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\iPod\bin\iPodService.exe |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\CFGMGR32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

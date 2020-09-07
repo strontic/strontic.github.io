@@ -61,14 +61,6 @@ QUERY SESSION [sessionname | username | sessionid]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\qwinsta.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

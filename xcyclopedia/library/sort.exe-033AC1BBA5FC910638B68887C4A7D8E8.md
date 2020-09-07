@@ -87,17 +87,6 @@ Invalid switch.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\SoftwareUpdate.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

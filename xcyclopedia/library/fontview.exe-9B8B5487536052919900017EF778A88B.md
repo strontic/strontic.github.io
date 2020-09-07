@@ -22,17 +22,6 @@ SHA384 | `C7A66782C276D8E8B7E0A7444F344EAA7CBF1937FEE47DCBBA38FB76B4A0D42C98FE32
 SHA512 | `8E5A575F95959219CD72512E40C599B0C8CEAFEE672D7B327EB851633E4E7055B95BD03A4E7AE2DAB90B6CB062778D056825FF1903D7D019C72B334F03640A4C`
 SSDEEP | `1536:UzybmukAytMZOt3IWjWffRkOMwXFN1HKwtf11lSn42yD/c/znD1gvvUGmGPzOtSL:QiiFNJjWRkOtHxtt3EOL2QvIsitSYVI`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\fontview.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\fontview.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

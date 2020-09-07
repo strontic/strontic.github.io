@@ -22,17 +22,6 @@ SHA384 | `2C4133DDB06AB6EEF387FCAB5DAF344BD8F307020384A84E0331BD2CA0EEE1E0157EF2
 SHA512 | `52BC25CE472E6093ABFAF721495430F254930089AB6C48A098F0B83A4214DF476E4C0F669B7F8AC79A71E8BC09C11A29A06286C3CAFEA55D5AA92867F5C76EAE`
 SSDEEP | `3072:4+YTUhpCC71f7RWOoXpjfffffffffffffffffffffffffffffffffffffffffff2:4+YHCx7RWOoXpjfffffffffffffffffm`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\memdefrag.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

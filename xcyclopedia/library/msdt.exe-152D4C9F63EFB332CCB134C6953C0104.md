@@ -22,20 +22,6 @@ SHA384 | `FB9E1184112390675F4C50809384C07D7DCABAFA59F287410A30F5835C0DC0475BCB3D
 SHA512 | `E910EEBB7F84C0CA39AD1CE3E2F37162A479DD23B02656A2523D286B2FC368E905821410E23193BD2EA67F94A07A150C824C152AE9D3D3002C2532A091E6D5C7`
 SSDEEP | `6144:l+KCiAyRZcNThhgn9IxjuGkomX5Crt+82HGKwXcwrLGcyLjh/qc1:luiAuZIgynsQPwL`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\msconfig.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

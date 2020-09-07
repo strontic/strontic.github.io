@@ -89,14 +89,6 @@ File cannot be copied onto itself
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\xcopy.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

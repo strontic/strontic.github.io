@@ -23,20 +23,6 @@ SSDEEP | `192:A3BgmrJ6JOdIXT6BkhGdP8T4W9A5q6vuU2yfumQPjhFigWXZW:+Bgu6JWEeCGdkE9q
 ### Child Processes:
 wmplayer.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\dvdplay.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

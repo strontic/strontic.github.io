@@ -18,38 +18,6 @@ SHA384 | `7F9241BA7268503959CC4929788FCDFC6220141BD864DA49C1760D00793EB8FE4A6930
 SHA512 | `A2CC9D1CC2674EB90BEEC33764A8DA3C01523DCE5C2BE849647E5880ABEF4C2CFDB69E2BBCE4E8A7F64DD69C13C81FCCF4DA90BDEF16D174692ECAC79720BEFA`
 SSDEEP | `1536:zLe/YtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jl:3rzECTMpuDhjRVJG3`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SYSDM.CPL |
-C:\Windows\system32\SystemPropertiesPerformance.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\USERENV.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\SystemPropertiesProtection.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

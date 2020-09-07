@@ -18,13 +18,6 @@ SHA384 | `BFDE626489AC4F4AC5BCB4964B91ED915B1FAF21C549B26C24E2DDD6912AC710596BAC
 SHA512 | `4A338BDD58BFAA7D460D6CAF4A7DB5A5778D1198FC1C920153626389E7FDC585DA411BAC85F830355FDE05F2487BBD1994E3BFD84934A65B24810B4B3C033725`
 SSDEEP | `1536:zyi2jqhDtk6OckP32uF3pCg+l09La/m4Oee:23jYDtk6rm2u1pv+u9Om40`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\oobe\audit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

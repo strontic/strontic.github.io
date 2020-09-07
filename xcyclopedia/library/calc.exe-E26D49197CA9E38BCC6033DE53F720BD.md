@@ -18,38 +18,6 @@ SHA384 | `92255FF833E5116C6C28843A9BE587B9C258ABFD1F77A4B4DC18B3DC3A124D79B8F41E
 SHA512 | `8C48EE551F7C282ECEC26A71233DF32DEDE4553A4E704A4C806D0DE3DACE1D91A137BFDBC54EA29B5F1C14FFD78AD6C99C12C608A1B4E58649941565980642D2`
 SSDEEP | `12288:rPphsaqo4uf0zkE/mPSqqBW3McfACH6GHeGL7GOKUXBVG:rP8o4uM4xPqBWXPaoodCHG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\calc.exe |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\calc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

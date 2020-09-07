@@ -18,21 +18,6 @@ SHA384 | `130FE1CC0DD31B95026501DFFBFDA24D7AA0164BCA3EAF53182A80B200B052CFECECD2
 SHA512 | `E2FA9E3AC44B20075F08209ABE2DD06F1B196562AC7C52F5DF607AE6AC0E2E932F5DB419633F9613847BCEDFD667F420270F0A57FC8661A0AFCE056B727F1057`
 SSDEEP | `192:AIhSJkJ6rdjLTItX+73Zy8px1Vl7mFreIox7jvZn5adGHU++ASZWcs0:ZAJDr5qX+zk81VQVyxHv/aC6hZWcs0`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\msfeedssync.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

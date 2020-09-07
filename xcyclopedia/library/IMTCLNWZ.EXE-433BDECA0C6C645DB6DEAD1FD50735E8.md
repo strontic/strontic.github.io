@@ -22,26 +22,6 @@ SHA384 | `5D55B05BD190DF09DD99E211AAA3961E5A652B81A8F4F97CDDA54CD7695D9CDFCDBE0E
 SHA512 | `F8873DE74CF4BF47A5A71C850170378399F22ED8F1556BA6395C301CA35E3F4081980CF76EF2BC0A0355A6ED69A7D967359D0FB81C26012FD3573B0FC2790736`
 SSDEEP | `1536:1QMjhKwnwmmN6SrSK+80N7Mn+isRO32ilN2cQoBA5TqbcnxjNqcG5yObqB:1QkQwnwmnCSK+80N7Mn+isR0j6oBA5T7`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\IME\IMETC\IMTCLNWZ.EXE |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

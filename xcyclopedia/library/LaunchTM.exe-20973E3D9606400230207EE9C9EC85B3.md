@@ -18,20 +18,6 @@ SHA384 | `8EDE4F6A0783CBC8370A9ECB6DC0E285F855A512FBD6200C1785A38BA7AE5130D46123
 SHA512 | `E3EE049ACB39C2004F426606A0F60AFFF26D315465B01527FD29FAD8ED2987E6572660A3BD120505A9972F433D661E9E649D99DDDE099194DD2E095DA2B8A5F4`
 SSDEEP | `1536:EdSctVm8UngMCw2I8FXmzOGDBdpunOl1UIHmejrDwkKgT43FVkXXPKedjXfaW:/ctReCO8FXUO0iOlCIHmeRKPKk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Opera\launcher.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\LaunchTM.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,17 +18,6 @@ SHA384 | `AAA4B7F7A1FD63CFF2162067C66B9EEEBB255DF81937422AA65A42210A5D75EA396642
 SHA512 | `92CDFE202F6595869413F7BA42FFF76B864CCC5C6CA58DF78D9484B75F32CAD6822EB7DFD57B53E3C33B04B93FC2E98B17A50A0B269A005378788918D5666552`
 SSDEEP | `1536:ho9MOcWhOgecpeOpEXn8XW7alWIguYvKS8VRRWHp/n5j:G9MOcWhOgecpRZW7xLuUKXCHh`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\rsopprov.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\rsopprov.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

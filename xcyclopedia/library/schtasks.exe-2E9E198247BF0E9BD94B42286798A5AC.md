@@ -18,17 +18,6 @@ SHA384 | `C2FB1E04ED3BFD38D3FA17BF668FDA92FCAC76DAD9A65A50075840DFD17FD4B67E76A0
 SHA512 | `07D4290DA0490F290A27A43E6994E8182F0F5EEFCA8EE2D58A4C73EC07DAFEDF6AEF07594DBB7C22E9A9D9FEC95652766BDF35591DFC2B615F6C7ED694327F74`
 SSDEEP | `6144:94kaXAM8/DBRrTb7W90OyZTMT+zvhJ9SwmVjhrZbKhoG:ykaXrkVRrTb7W90OsTMT+zvZSwkAZ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\schemagen.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\schtasks.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

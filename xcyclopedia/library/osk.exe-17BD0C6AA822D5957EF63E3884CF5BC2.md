@@ -22,16 +22,6 @@ SHA384 | `EE16EB95CF2F3A3FCD6531827E951781AF4B6BF6F7D164D50C4B55360F2BA504781F20
 SHA512 | `5199173AA5C5D72B5438CD3DC57295C963C1B4DC98C362C034341B1098861186C5B6880F15CDA49EF244294CACCE88537FBC17A00D50B2E7B3DF47C6E2500925`
 SSDEEP | `6144:I0ZXOZ2Sxhqn66VhQMUbC+J6yihdIbmbVobH3AdKy9HGeofJgDEvr6slnCUGw/xl:6ZBxhqn66VuL1kyY3jmNwzaoo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\orbd.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\osk.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

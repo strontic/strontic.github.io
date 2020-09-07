@@ -18,13 +18,6 @@ SHA384 | `412EFE9B29D53E7FD6CD938A28B30B7E82893C7D2D611C24B16FF87885E4289F7DC0AA
 SHA512 | `EF201A2E94BD6FF82D099DDF4B57C1D3EFBF031C7759CB0CE658BCA4AEFDDAC26D2C03B40575C5B463BD5FA0AC9A2414E27F3266F7EA8627267AEADFE6EFF1B7`
 SSDEEP | `192:1A+Q8+sb+AOVucD1RkLt3fipX2fz3c2Tp9S9YNbB93DLkNWlwWsz:1A++M+9VbRzXJ41LONWlwW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cmdkey.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

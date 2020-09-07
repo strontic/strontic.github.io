@@ -36,14 +36,6 @@ Use the puttygen tool from PuTTY for a human-usable tool.
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\FXSUNATD.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,25 +18,6 @@ SHA384 | `7D9B524572190869D97BA4F952A89FFF6D8B12F0D6A909D1D481F3E1FD3DBBAC02BB1C
 SHA512 | `2253BCA2BBBD4E2F7FF540F75D266901CB284A92512C5B9BF865AC9A74915D34DE5E302D1D86FBEA0EE3E97B2476DDE4A2D0120037E93DF38DB9D697C849CF13`
 SSDEEP | `3072:h+XwnVS570M9kdatGCO+xmBc+hMPhPsx:TVs7nyatGt+SYF`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\BitLockerWizardElev.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\FVEWIZ.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\BitLockerWizardElev.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -92,16 +92,6 @@ Use "winrs -?" to obtain the usage information
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

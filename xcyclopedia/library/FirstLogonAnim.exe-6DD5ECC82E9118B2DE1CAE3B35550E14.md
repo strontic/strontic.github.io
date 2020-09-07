@@ -18,31 +18,6 @@ SHA384 | `3F4034E63F19AFBF5B50F90B9491AB40E1F14507B97635DB5B61DAACA03993FA425132
 SHA512 | `89BEB989D97FE2BAB724C7B52FB4DCEE1BFACD73A627AA66AAE5E9C2C372EE708A268ED0AC5AF56F21657368E32A61F5045C8347E17CDA5C510467DE73434BB0`
 SSDEEP | `384:upoTBN5OpgYcv9oZNeWMxWpmXjDBRJRhlImCCA:SEBFYaoZNM1Xj1PRN/A`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Mozilla Firefox\firefox.exe |
-C:\program files\Mozilla Firefox\mozglue.dll |
-C:\program files\Mozilla Firefox\MSVCP140.dll |
-C:\program files\Mozilla Firefox\VCRUNTIME140.dll |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\SYSTEM32\CRYPTBASE.DLL |
-C:\Windows\SYSTEM32\dbghelp.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSASN1.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
-C:\Windows\System32\WINTRUST.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

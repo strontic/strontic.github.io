@@ -18,13 +18,6 @@ SHA384 | `58F75880359BECAAB93AB7CAA0636D10EB81FEE82460102CD25EB1A966C1F4058E46E9
 SHA512 | `497EEF37581545C0064390A238B3E8E32121D810174E8728CDBA666E27E9CA23F38CFC9629F5C52551A1DEC3D1BE9B1A62425055AD7755ABE13C560A36AA737E`
 SSDEEP | `1536:Lm4azG+YFB+ve/U94vV+j5OyNyt7p+LdzNzpw6xC1d3:LlB+vezV+327p+Lbpw6xC`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\getmac.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

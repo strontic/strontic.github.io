@@ -18,20 +18,6 @@ SHA384 | `29BF4180853BCFF84FB4E0012F765AF56D72F1818C5CA15CD89107EA91A838051DF717
 SHA512 | `1FE97B00E0B3E06CC28675AAAE271EFCA9737E6D19C6098603BA1E54A478F326E00B438CDEB466576941EBF0E8EB54ADDA1BE3E2227702AB60957A6A5FA5CC97`
 SSDEEP | `192:/AU3HPC1wwnUAVoNvDxPNwhxST1aE9cKIdWaNAW:HHzwnU0oBOkcKaWaNAW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\pacjsworker.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\WINHTTP.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

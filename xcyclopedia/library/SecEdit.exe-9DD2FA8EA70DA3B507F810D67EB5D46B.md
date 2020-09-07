@@ -27,16 +27,6 @@ You do not have sufficient permissions to perform this command.  Make sure that 
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\SecEdit.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

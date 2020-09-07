@@ -118,13 +118,6 @@ sc query type= driver group= NDIS     - Enumerates all NDIS drivers
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

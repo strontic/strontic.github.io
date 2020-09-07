@@ -18,16 +18,6 @@ SHA384 | `F7A33EE386436669C413EA476E125472EA67D92909B7F8F1A3BE37032496BC86925E64
 SHA512 | `188DBF3DD6EB171FF60634FEAC855D1DF1801230BF96C06D39BFE1196AADA4385F9BA4BDC48FDBBD8A31E7C8A60F5A6F9999E91E95199B33001CC76C858AAC80`
 SSDEEP | `3072:322q+HRw3etMbIFb9qYRDsxc8XDwHLFIEf9Ox2tV0uRhdNV/ysXo3HD62xKe1P/z:3K3etM8FbvDsxlz+5l0m`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\bcdedit.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\bcdedit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

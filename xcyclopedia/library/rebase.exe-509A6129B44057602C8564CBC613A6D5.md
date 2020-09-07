@@ -68,16 +68,6 @@ help: skipped because not rebaseable
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\ReAgentc.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

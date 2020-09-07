@@ -18,17 +18,6 @@ SHA384 | `C4D0613FC7637816663EEE049F1C80AB3AFDB12FE6FAD8B24AC42BB543C606EDE90A39
 SHA512 | `7A1C637CC0D4B5245172E0B0CA9841734763911D02974E459AFF145236A80CC9FBE66D3027DD8F6AD1C2AC8BD7E5CE3080043FB0DDC26C6B2D8FDE7917998372`
 SSDEEP | `192:aUAp8UrxBdlavjXcXunRIt+TPIZ9O+vQ3oJJI6WWwsW8C:aTyUdHBXundwZAIZu6WWwsWB`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\GRETECH\GomPlayer\GrLauncher.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\grpconv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

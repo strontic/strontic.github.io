@@ -18,19 +18,6 @@ SHA384 | `65E682AB82A01A534BC35391DDE01E65421AF6B0E88A7555835B0699728DCB52314DF6
 SHA512 | `0DEE42E2D380DF48D943FBA301177AF13150BF1AF0ADE29403ACBDDAD78C05689F0D0BD99771B4570F27E3ED4EC6FE648C08DCD69F0B6078A4B9A32DAC605E78`
 SSDEEP | `768:M/pXo9Ni/Xo1tMwQ16WoO+ebJLQFS71FyNv:M/eiatMmO+eNLQFS7Gv`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\ThumbnailExtractionHost.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ThumbnailExtractionHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

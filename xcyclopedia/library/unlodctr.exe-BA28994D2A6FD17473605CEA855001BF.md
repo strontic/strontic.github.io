@@ -18,17 +18,6 @@ SHA384 | `47E1761BF7A6F75200DAD293DFF23FC4DD066472386983C9E8D7486242059A554389B5
 SHA512 | `6EAECECAF5D9C601374ED48954E86E669F12459CD5EB9F30CCA7254DBCAAE0144EDF28AB0A7A20D5FAD8EA1DED8D47A8A404AEC4508D04B958A8A59E87CBA1A3`
 SSDEEP | `768:obplMcdIl9mlZgzy8klP1JmQb+i0wCnCNPxbWlNWHMS0Myj:GlMcdIulY1SPxbzMS0My`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\unlodctr.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\unlodctr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

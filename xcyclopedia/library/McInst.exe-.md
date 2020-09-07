@@ -17,14 +17,6 @@ SHA384 | ``
 SHA512 | ``
 SSDEEP | ``
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\mcbuilder.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

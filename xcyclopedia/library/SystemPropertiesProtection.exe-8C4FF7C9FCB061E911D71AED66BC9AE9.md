@@ -18,48 +18,6 @@ SHA384 | `A8E903411CA7E7B1E8D5F84790884B86961582AF79380FC40452FF41DB2E719C28A4F1
 SHA512 | `0AB162689D68828BC986D8A428E8C54B18639521871A42BA764FA886323934031FB151AF909FAD7C39D2AA470AAAEE9F2D2380E25029A6759B991B6B14D5798B`
 SSDEEP | `1536:DZG8tREC/rMcgEPJV+G57ThjEC0kzJP+V5Jg:U8zECTMpuDhjRVJG2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\system32\bcd.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\imagehlp.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\system32\SYSDM.CPL |
-C:\Windows\system32\SystemPropertiesProtection.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\USERENV.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-C:\Windows\system32\WINSTA.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

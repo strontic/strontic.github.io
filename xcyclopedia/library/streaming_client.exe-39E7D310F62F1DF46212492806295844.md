@@ -27,17 +27,6 @@ Usage: C:\Program Files (x86)\Steam\streaming_client.exe [--windowed] [--novsync
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\stordiag.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

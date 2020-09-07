@@ -18,14 +18,6 @@ SHA384 | `2F32857147144FD498592B29D56CAB0BE54892431637FDB5744E18C4FE62CFC89C50A1
 SHA512 | `91358DCFD63E2F8FCED842C94606A5D1C309EBD112A9C4CEE2F697DAA0083F1033035323269AE6BD9A64A09D975B837BE96EDCE37E8C2A874C6669176E0EEE67`
 SSDEEP | `1536:ND6xTNBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:qTNghtYIo9piswTogiqQKy349`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\ResetEngine.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\resmon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

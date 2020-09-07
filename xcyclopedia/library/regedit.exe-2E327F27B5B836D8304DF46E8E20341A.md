@@ -23,43 +23,6 @@ SHA384 | `3F2C9237A17FD1A00F600121FF309801BA2F51F3F75C36092E14FEE9FD555278DF0442
 SHA512 | `FD50D83560A79A26BF593CEB3373CF87D1270F314F78C93BF5064FFF310AFDBE7FF7CF7C902A42F1B00A54699B4A847B0CF3BC9D9E94E95F531803F2DEBB54EA`
 SSDEEP | `6144:75oI77kJde8bLgu0Z48rSQRZ66z+n4VZbd8g79pgrXNgRnVLjyzhbkidNNhC:1oI7e/OrSQRZ66z24VZbdrpgrXN2LWzy`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\regedit.exe |
-C:\Windows\SYSTEM32\ACLUI.dll |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\SYSTEM32\AUTHZ.dll |
-C:\Windows\SYSTEM32\clb.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SYSTEM32\NTDSAPI.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\ulib.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\UxTheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WS2_32.dll |
-C:\Windows\SYSTEM32\XmlLite.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

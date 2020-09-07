@@ -18,21 +18,6 @@ SHA384 | `9C9F614311CA383FBF49EDEA254F863CA8A6D6A88CD210BADC418353DB169AA0E5EEA1
 SHA512 | `A381A0264BA5CBE9A277A2BA7E399CF8E506A3814D06705A08E110EE7B8B49BC428D977801F8002E34982EC58E6D57FB822A9B17D0773F2E51143FFB276004E3`
 SSDEEP | `3072:07xwIKlXKgnUEE+plx0/UlsYTUEGolkgclYh:EwIKFD/lS/NYTNegT`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\paint.net\SetupNgen.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

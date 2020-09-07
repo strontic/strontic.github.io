@@ -23,41 +23,6 @@ SHA384 | `48006F511A7EFF3E586269236E5E391CB7374C2E5DF9A9583EE98B6FE9729E17756804
 SHA512 | `CF82295853B200E08D8CB8A4B78985935A63634B976070A244978EDC21583EEAD80E3EC1261DFA2DE64706C942F3F0BCA22D240016DC935EFE2DCDD5DAE32262`
 SSDEEP | `1536:Bo87JMD4lzobKldKVy8c/NaIG/cgG8iX3fi6UWzar71MgpmtnHrYXTxeTh:B/7JMDUzMKlkVKKcgp6HGMVtLYXTx8h`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\system32\cmstp.exe |
-C:\Windows\system32\cmutil.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\cmstp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

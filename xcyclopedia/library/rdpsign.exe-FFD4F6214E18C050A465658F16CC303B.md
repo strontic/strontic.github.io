@@ -18,14 +18,6 @@ SHA384 | `B9C3556908E57DA160F370B36A706CC3B1ED32DD3BE397577B8FF64D1BB89CD7B73422
 SHA512 | `5D1187971D9D263E27307AB3B9AC1938B9D9734AD7FA13228C3EB744971EF08B0AFC2E684D299826FCF83CA0B9B7FCA153571934E4941BE878E81318AE05CD20`
 SSDEEP | `1536:+h87Z+sNlxXF4RuGuqqgP0uPAzrUjXfkr0QtsamYxvkz:+h8V+u14M/A0GXXfI0QuamYxMz`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\rdpsign.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\rdpsign.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

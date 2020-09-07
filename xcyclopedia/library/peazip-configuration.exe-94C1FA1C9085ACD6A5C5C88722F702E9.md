@@ -29,17 +29,6 @@ SSDEEP | `12288:EadLWD++888888888888W88888888888K5iBpQ5+OP1Heo7JSN0AyUw8DJG/:jBW
 ### Child Processes:
 peazip-configuration.tmp
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\PeaZip\res\peazip-configuration.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files\PeaZip\res\peazip-configuration.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

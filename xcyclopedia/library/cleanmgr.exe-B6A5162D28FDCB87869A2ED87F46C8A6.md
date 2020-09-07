@@ -29,16 +29,6 @@ SSDEEP | `3072:T7iHR8+DLd664sn+yfZAEPGRvQhRkKqUa9antF5hvvJkuXp6:Xir3JfeE+ohSKq99
 ### Child Processes:
 DismHost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\cleanmgr.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

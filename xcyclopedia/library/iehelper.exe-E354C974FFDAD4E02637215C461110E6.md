@@ -22,17 +22,6 @@ SHA384 | `DE403C031E7A5407FC20250C5DC26F0414379ADF01B9814ADFE2DC845C3484442AA450
 SHA512 | `E05B5D5F4A6C3B9C6F54FB42529D3D98588CE5B55D74C08107EBC69657B4569476E8618A154D0C56E128C7FBC87F3C57ABBD153AF129B7415DB1B3AA338FB149`
 SSDEEP | `24576:zDohnmwcdFOscZEb+PV0Au0hq7SqjsQ0UMC:FdFOsNAuLmQf`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\iehelper.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

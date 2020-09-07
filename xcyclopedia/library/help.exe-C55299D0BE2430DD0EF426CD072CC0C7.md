@@ -30,15 +30,6 @@ HELP [command]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\help.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

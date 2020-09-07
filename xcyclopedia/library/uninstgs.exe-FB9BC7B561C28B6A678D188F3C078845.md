@@ -22,28 +22,6 @@ SSDEEP | `768:ARlPzMJWjbJQq2gp4yEGhEw8TwBI287tTMo3fodkcsOPqz3stkV0a:2PzUmdx2gahv
 ### Child Processes:
 Un_A.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\MediaMonkey\UninstDP.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files\gs\gs9.50\uninstgs.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

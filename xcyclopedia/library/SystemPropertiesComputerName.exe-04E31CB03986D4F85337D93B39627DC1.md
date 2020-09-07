@@ -18,43 +18,6 @@ SHA384 | `6A56E1F50B3B883B61EF5453B65CAA04E472B55A1A3E66955539C3ADDD4143B07C59E5
 SHA512 | `38B6F3924A00D3525E37DD5E3FFB5B7E729DDD3C4E993FAC1C20DB262653C8EBC1E925CB844870902F8F23DB30CE04EF01EC09B7527ABDB4E54BEFA4ABF1D9FB`
 SSDEEP | `1536:rxZotREC/rMcgEPJV+G57ThjEC0kzJP+V5J7:fozECTMpuDhjRVJGB`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\system32\bcd.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\imagehlp.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\system32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SYSDM.CPL |
-C:\Windows\system32\SystemPropertiesAdvanced.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\USERENV.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WINSTA.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

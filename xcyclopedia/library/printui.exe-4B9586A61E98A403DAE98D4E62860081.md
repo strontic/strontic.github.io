@@ -22,27 +22,6 @@ SHA384 | `3030EB91198A15AB332637DC5C12B4C92357CBDA06538B262C5B7E8A8575DA528CFE12
 SHA512 | `CE355C81B14B9439AB25FF0140916505A172EB00BF5893FB43875573A441C7BECE710CBF68382D3C475FC1955CBBA9E50610B5392DBBD2E894088B83593572F8`
 SSDEEP | `768:hOLCPSKL5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qn5:oCP/fVIPd4n+lbeRZIbSQPPA7M`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\printui.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\printui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

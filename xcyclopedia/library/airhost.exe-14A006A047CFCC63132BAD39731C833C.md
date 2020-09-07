@@ -18,17 +18,6 @@ SHA384 | `A121EDD96E50B7BC88D63C24354856C989E5854D338DFCBE9F8006E856CCA98EF31331
 SHA512 | `B1967A3E747495B385E4E32D7E9EC1D86930A981145B94C545E40891F6FFBCA1E75A77891F5062E86B07B952273F9F0F6EF526DBD12ACDD5FE714ED91632992F`
 SSDEEP | `196608:X5p9xakqyqJdT2qudLw5Xas532xZT6wxeU1Y99Ml/S:ekqy7dLoqxAwxeF9sS`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

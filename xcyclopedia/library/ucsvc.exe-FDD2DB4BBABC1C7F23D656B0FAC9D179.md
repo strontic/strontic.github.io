@@ -18,24 +18,6 @@ SHA384 | `6E682DA3D1489E1E4DC0298BF537D7CAA2903486D80D5BE893B811968C5806DE64D41D
 SHA512 | `969D974AB2EF403F3332A34C768E3FA257972E8706224D492C731D91806DD7E56580557CD84EF36DAAA279BC4AE254950F18B5274806737B6EB05245398FDA8C`
 SSDEEP | `768:PgWr2t5GuqfnFpddEpap+aQKKqNPrZnfeMEX71rNjqUSFFmRd:I75GumFty4rZ7EX715wFmRd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\ucsvc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ucsvc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

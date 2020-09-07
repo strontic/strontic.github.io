@@ -25,17 +25,6 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\x64\GUAssistComSvc.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\USER32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

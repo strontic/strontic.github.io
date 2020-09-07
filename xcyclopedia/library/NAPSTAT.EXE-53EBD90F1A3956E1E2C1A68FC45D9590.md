@@ -18,16 +18,6 @@ SHA384 | `038B73699FF0599C25FFD9AC368BFADE18BC23CBB08D148458C3A8A37B5889A6C141E3
 SHA512 | `65E3AD0334C4817A37BD8B1BDCCE2C6F0D6FC73D63175E65E21B742BC9D135DF9978DE8DD8B28C7C00790EA8F08A72022E5355B2CF8630164947720C86AA3500`
 SSDEEP | `6144:Of7mCYqszK+QBSbiEkM26VWxtoloBV+rLx:qLszKfMVpVJ6BV+rLx`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\mv.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\NAPSTAT.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

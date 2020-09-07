@@ -18,49 +18,6 @@ SHA384 | `55CB245123B395D678D8D470B90C7DE7ACE29B759AFA0965D4A8849D384CBB0A581988
 SHA512 | `272B87BDAC5DA867E20328DA7A2B57C9873F63AB3596B86218D8B3DC8885E9CCB02F9BF31D5945CC0C52F8ADD08A0DADE7221A150132B60D71D658B58C14AB20`
 SSDEEP | `1536:gKLltREC/rMcgEPJV+G57ThjEC0kzJP+V5Jl:JlzECTMpuDhjRVJG3`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\system32\bcd.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\imagehlp.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\MSCTF.dll |
-C:\Windows\SYSTEM32\MsftEdit.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SYSDM.CPL |
-C:\Windows\system32\SystemPropertiesProtection.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\USERENV.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WINSTA.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\SystemPropertiesProtection.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

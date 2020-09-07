@@ -18,17 +18,6 @@ SHA384 | `CE6F81D46229F7E832B2504D7CC2A584100268514E051672D6925300173F9AF23A60A7
 SHA512 | `D7C73498CA513C848BA140629FA676FE1C511B541EBC7775C1A87EB04D0FF12717AA8404F2B76D86D68A75854132AC5A4D1B8F175F321759F6B436D1A9ECF94A`
 SSDEEP | `384:O/Xk76DdPJ3Ukq7Cae5TddQrYpwDgZVwid7cTraEP55Ks63VkgszNhodGbASbGia:zmdPhdZ15dKU2DEQ/oz3VkpfyG0yrBF`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\qprocess.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\qprocess.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

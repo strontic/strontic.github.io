@@ -18,16 +18,6 @@ SHA384 | `B6B2078F7EE27E0CA283427EDA0D2902746E7E06D2C62F886D5A5BC963EFCE662EC3D2
 SHA512 | `491A6149706C68253CCF55B1777749409E922EC37914F0E7C43A50D648939905F12F17074660C12E591E34AED008C0AAC7D4E1B9AF33D5ECD50433E81E81C823`
 SSDEEP | `768:sowshdcq7vbSfP0jkResGD1TiHtdjUn6yrP+RpNrcD2VvUHrqzSQWT:JwIHjSfP0jkResGDZSdgruvULqxW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\BdeHdCfg.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\BdeUISrv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

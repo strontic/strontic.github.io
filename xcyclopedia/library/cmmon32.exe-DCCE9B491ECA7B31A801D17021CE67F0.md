@@ -18,14 +18,6 @@ SHA384 | `465D870E078389B828C3ADF2CF7E0AFAE9AF49589CA6AAE17EBA7EFA02B8A14D7CEBC5
 SHA512 | `ED29EE0686427B3894ED60C6A70A2B5C152A9601FE953BE96EC86A447E52EA701474476D17D10A38DA48EECEA02B7CDC30A11E831FEBAFF24ADEC7DB36EB0ABF`
 SSDEEP | `768:UHDnOH/9UASnwek9kXIDhA6opUIsWN1pggX37g2ezGbr4rNMgJG6lr:UHDg91HfpopUWkfzGX4rNlJG6lr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\cmmon32.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\cmmon32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -64,14 +64,6 @@ To view help for a command, type the command, followed by a space, and then
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\netsh.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

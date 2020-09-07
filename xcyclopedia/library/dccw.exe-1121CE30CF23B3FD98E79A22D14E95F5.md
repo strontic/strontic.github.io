@@ -22,17 +22,6 @@ SHA384 | `61D949483D32A2577EB3D88B3097E1690B00E207B490D458CEB340A64C412D00861539
 SHA512 | `4BEE7AEC8B25B2344658FCB240F16139ED6168A762708991159DF12963B89865D0762B7E47622E8946C1E9E05405F5A540C19A4D0D48DDD3D3E0F81FC17A0828`
 SSDEEP | `12288:Vz5g7ZpGOhS/IzJqrraq/t2qXy6xdRhMA:Xg6GS/EEn/tkI`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Dropbox\Client\104.4.175\driver_x86\dbxsvc.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

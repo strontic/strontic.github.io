@@ -18,13 +18,6 @@ SHA384 | `2A6ECADA8EF3387D5FB8287E146DCD8634BCB18E79CBF21BA7D52D610A5563F53F0B6D
 SHA512 | `0F0A95F904F055C88CB89A48911A85FB23E8F5DEC593F0623DB694F5AE9E3A666C67DB07397D9B1DA37556A48B6541710EACD31231E6E7EB9474E3AE4ABFDA6C`
 SSDEEP | `768:RJHK01RkeC/6adXbdI8i4LrvxqQJvHK16Xoi7M6QB/yO/y7Oxk/n:RJHK0bkeC/6adLd1ZP6DiEpyGyKx2n`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\waitfor.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

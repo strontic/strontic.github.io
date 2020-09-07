@@ -27,14 +27,6 @@ BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! E
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\bfsvc.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

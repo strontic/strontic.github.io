@@ -18,13 +18,6 @@ SHA384 | `F18E69964E5ED5606A39CB80FC4F94B250D3E5AED7E025D5E9DD279622022A4F3B0FB5
 SHA512 | `E6F7E14E129CF13E6628FAACA026C7FEB9F8214E22C8349FDAC568D78C14B75CDF322498163FE35525EBC8C2256C80B5EDFE0722A52839869FBDE37EB872385B`
 SSDEEP | `384:lty3EMBbRl9/vUE7TIs7hRy8QEa55IOmaYHoCWdYHE3EoI9oQeeOWSW3CuW:ltyltRv0wXV2BmaYheUdZOWO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\logoff.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,29 +18,6 @@ SHA384 | `99B6C4D038743FCEF3E86392DCA315E8E3B52033EE9D2273C533358DE0F60E446D4AC0
 SHA512 | `302581A238CC3DF7D1B6D0770BDE802CCD72475A4F4E590A8ACA690997CBD05E89437FF19030DE8F345190D0FB1763776F9A0115B3796B129923905ABAD98CA7`
 SSDEEP | `384:hMnxIqHl5uSKNtXqYz4RDyA5wZoWTnWLlbo:jqHl5z4myA5wZFqt`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\fixmapi.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\fixmapi.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

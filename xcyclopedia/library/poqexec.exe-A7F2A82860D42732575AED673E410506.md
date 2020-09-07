@@ -18,17 +18,6 @@ SHA384 | `57F4845C2061F7D8AC521C9FBE4BAB94CA39C3AE06968C98721C01798B6E22C8C50A30
 SHA512 | `B26AB636BE548BD7AB55ACCD5A4AF18534876D95B5EB43332489670A25454427C666242BE9BA9C9D84CB642F22BEF2DA00558FA6C3C7911D6BE5876A360E0347`
 SSDEEP | `3072:I0yPLZwcXHh4HT6IeBRFaxGmNlA51DEqs5:ULrXHh4bcRFaHbAn`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\policytool.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\poqexec.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

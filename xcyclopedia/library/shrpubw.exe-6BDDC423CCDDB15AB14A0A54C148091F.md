@@ -23,17 +23,6 @@ SHA384 | `7B5BC22D0B744FD90FD916A267A3EEAA4EAE72F62D287DF5F725F748999B8EF593EECE
 SHA512 | `700383794410B000178CE3545F901A4C26645286758080C5CAD56AFF98A03F86050F5BACA878ADC05DC8BA5B0F8F88A75673151A824626EE0F31CDFEE916C3BE`
 SSDEEP | `1536:YDP852G7ULLzgHqch6nknKBTxWJF51KsvhFsVHiq5yy:+P852XXzgHT6nk4gJFWsvkiq5j`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\shrpubw.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\shrpubw.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

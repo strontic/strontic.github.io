@@ -18,16 +18,6 @@ SHA384 | `249A2D3A1BBE21C396B3CCAB593DCC09454F59AC03DA58BF902FF2D16C3DE3227E3AB5
 SHA512 | `AF3AB0E0188FD8FBAD45D4FA377D4EB9A14AAB3D5B90918362427993CCF84A2DDBE5CD10BC615A502CEE8C3737D23914FB6F795C5395AA72EF2BE4C9B2AC91ED`
 SSDEEP | `1536:kMnZErhgmkErZFQkGXNwmAKGFVqggvRr:kMigJkNHVqVJr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\powercfg.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\powercfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

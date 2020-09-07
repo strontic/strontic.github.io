@@ -24,23 +24,6 @@ SHA384 | `175B8D86F9C76EE7039CC5E447115114AFB01B2D69F1805FA4B06CA305581AEB3A1274
 SHA512 | `37DE2AE729358964EEF0D5EEBDBF98B278D7AB2E77838EF8FA10C839D253A90FBE88D70961FC4D3C32D99B47A8305E6E3C2AD3B801760573C1A469DD223017A9`
 SSDEEP | `24576:M9qDarxCH+184odqWAN/s+Qr+Mva5KvMg1KA:M9CarxCH+185dqWb+Qrp+0Mg1K`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MsSpellCheckingHost.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\mstsc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

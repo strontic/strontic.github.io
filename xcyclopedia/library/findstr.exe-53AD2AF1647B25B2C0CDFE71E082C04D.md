@@ -18,17 +18,6 @@ SHA384 | `66FE084F754375B80820E969ADF4B0F3C98A842AF3D4F94BCE294BD364C34AE4775B95
 SHA512 | `11C9FA0C004B1BFA25BDE51DCD58351328B0968FDE1CDD2ADBF00CBF9E68E83E62754B7BB8A8F5844F1AD2031F9B67AD08D368D9DA5D2CE67961076075FF85DE`
 SSDEEP | `768:UI0kFUnTPAf0fTLUrG7KT/4HFkCYai6lgY6jHYIF8ld2Wtjk/:QkFuTDcS2T/4HFJYfs6SlYWtjk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\findstr.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\findstr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

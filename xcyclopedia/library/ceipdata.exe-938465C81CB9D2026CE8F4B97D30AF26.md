@@ -18,17 +18,6 @@ SHA384 | `CA5429783F153B7D4590A03CBBB0E55DAB05458169DE9AE77C876F6B3B3CAE26B62BB7
 SHA512 | `13DC500BE570B2ACEB2AD1F08372A90B09C14C0DB9DE5E7EF1F4816D3AAE5D3284FE02F1C94BB9A13CF3ECC7766755DF5AAF8A6F26A32AD402B5CCC806939ADF`
 SSDEEP | `3072:ys5jWUkZMvqd5g70Ul79jKOfI2kQFOVk+I0p9Zp9XGEM1:yhMvq3g7lHeotkQoVk+ljXG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\InfraRecorder\cdrtools\cdrecord.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ceipdata.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

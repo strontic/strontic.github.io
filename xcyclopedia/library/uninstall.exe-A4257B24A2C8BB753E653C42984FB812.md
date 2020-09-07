@@ -23,17 +23,6 @@ SSDEEP | `3072:eMYwWTxwSY46ulPsvbu2xXGGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGnUD/o:
 ### Child Processes:
 Un_A.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\WinDirStat\Uninstall.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files\FileZilla FTP Client\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

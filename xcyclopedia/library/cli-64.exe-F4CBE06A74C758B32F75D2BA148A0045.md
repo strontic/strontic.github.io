@@ -25,16 +25,6 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Python38\Lib\site-packages\setuptools\cli-64.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

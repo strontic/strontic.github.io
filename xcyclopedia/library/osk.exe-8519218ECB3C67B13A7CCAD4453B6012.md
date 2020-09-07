@@ -22,25 +22,6 @@ SHA384 | `3CFC7A427983FEE5118D58152F83634586311CBF25548572BDB5A15EE1C6922559ED68
 SHA512 | `8AFFE1D21FFA428F5B65C0038E43006D82C8554956CF30EB2437FD8E7606DA06136815C5F59463F5D2C1A8511FF82E1DD796C9ED00A4C96E664D24DF8C3B0632`
 SSDEEP | `6144:gHoFAJzBoqmz5evTRboNo+CDBrH3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLu4:gHoCAqmzKTR0OEjmNwzaoo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\osk.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\osk.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

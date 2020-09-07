@@ -18,16 +18,6 @@ SHA384 | `3CBD967A03DEFA0202B4BE8A60B61FCC707B683D57474104AC84F53095EBBE53EDFDA2
 SHA512 | `542B0338244BCA8F3D6C5962764F5F35EC923A84ADFC13B2FD51B6A636AE555438E3E3886B51BE392B933584B28BF4319D3A97751345F5220B2C1B380630A038`
 SSDEEP | `768:cMA18zvJ3ULUSZtqUEWqb1hxCn8vl8GZef/cLozK+73Q:tA18zvJ3ULUSZtqTb1hQn8vl84ef0LCW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\NETSTAT.EXE |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\NETSTAT.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

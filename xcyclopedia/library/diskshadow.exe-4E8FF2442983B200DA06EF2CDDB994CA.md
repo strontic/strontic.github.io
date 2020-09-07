@@ -18,13 +18,6 @@ SHA384 | `9E458C6E3F051DEEE56773D3EAA4416B53DF8C1C9399655D255B7A02C3A31870C42D59
 SHA512 | `53DCF28CE770EDBB5DCBB07A39D2F79F2C29587C1F93E7C8DE10E80BD26C4D036E22BB59BD5ECD06266989F66BB79B7CAFC1A110E41C4A8518DB438A226D67F6`
 SSDEEP | `3072:kZT4ncFDRVJT/5CFqLHhD7OHMzt/1bwM0aY7g4AXhMWJwJ0V4Ay:kZ3IGHhD7rNbwM0aY7grX2X0St`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\diskshadow.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

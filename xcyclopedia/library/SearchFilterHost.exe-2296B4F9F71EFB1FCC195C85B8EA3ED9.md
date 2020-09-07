@@ -18,17 +18,6 @@ SHA384 | `D96594AD864AA7F226E0AF9A56514FC3134D8C41CCF2327352FB6C47F1DEA399132346
 SHA512 | `4605520FD6C9B647AC147A68409A78A10CD56AE2DEDDD391A15B2F9D06CD3096BD6CC238F971FC562073B1CC6E99C9F69AF319F25A2ADEDE96A93E8493F4D1A9`
 SSDEEP | `3072:0mF0F+skOPzY6iEu0ow8lzd+cRAjgY/3wZgDmrBrBu/KS1ihk6kvtfGq0ev3U5WN:HaRY6mPw8l5YbmrB1ysrkR10efUK`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDWSCSvc.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

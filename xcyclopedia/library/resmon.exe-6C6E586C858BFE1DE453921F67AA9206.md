@@ -18,16 +18,6 @@ SHA384 | `78001F37DD7C6A00E4AEE1CDE4C69E2B661354765152B6CBFC17E8ED7B371706643BEE
 SHA512 | `E865604F44EEB7F44F6A710F99010DD276A34E1AA561092AF2E9EF72793732A0DF62346A6B13152BA99026685F7B83B7751B5099A91BF11586E576AE9AB52958`
 SSDEEP | `1536:sYoZ4NBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:yZ4NghtYIo9piswTogiqQKy349`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\resmon.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\resmon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

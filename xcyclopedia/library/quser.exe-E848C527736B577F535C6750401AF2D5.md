@@ -18,13 +18,6 @@ SHA384 | `2B6F04023274EC2F64E04CA12E072DD1E8AAC77310345FF0242B57BA372C14DA29B6AE
 SHA512 | `2595ADC5C4D99371B31C362F27B4A6E3C64AE3E76F91E056C929DDC2A58B1268B144FF23E3E10F7E87EE951060BDF169BA50A7DBA865B968878D8699434D6E70`
 SSDEEP | `384:HT/CNRx9/8RpW/Vt4SeLYV0osV7k1++EQ55QbbCJY7kkChGZ3Svu+ANyuoy07eOl:z/Ch9/oCVKpcXejqcbCJYqkuu+AJZO28`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\quser.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

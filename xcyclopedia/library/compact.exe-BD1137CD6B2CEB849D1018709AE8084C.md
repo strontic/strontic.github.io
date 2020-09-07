@@ -70,16 +70,6 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\compact.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -105,6 +95,13 @@ File | Score
 [C:\Windows\system32\compact.exe](compact.exe-278549BBD0CE09F011C1B8481576CA0C.md) | 38
 [C:\Windows\system32\compact.exe](compact.exe-A3BBBFB18D598EF2E494F6FCC77EE26B.md) | 41
 
+## Possible Misuse
+
+*The following table contains possible examples of `compact.exe` being misused. While `compact.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [adjectives.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/adjectives.txt) | `compact` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

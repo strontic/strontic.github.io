@@ -18,30 +18,6 @@ SHA384 | `D507CBAC2EB5AE9828437C24ED6DBB38EADFBE557CC3753549AFC9E8E814D09240299F
 SHA512 | `095CF7B6DEFC52FE5A7168C86831A8D349D2EF41D50863C4920867572F4861C6B4D2CC7A5650BAB453D064D6A848A0F80C5EBE31DFC54A7BBDE48FF7A41F9CE0`
 SSDEEP | `1536:Hu7g+wNGlCpntLJE41YEQ7yz09XfKQTzBNer+CE+Ge+yiyP1rf:x+wNwCptL1YGEvrer+CE+G8iytL`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\OpenWith.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHCORE.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

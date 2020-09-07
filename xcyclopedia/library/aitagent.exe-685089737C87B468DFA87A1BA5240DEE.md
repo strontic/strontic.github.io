@@ -18,17 +18,6 @@ SHA384 | `EB26C28D263AC9B12A3403A2C52D24FF6AF004F03CC0C76C97F5B146686772EE09BA29
 SHA512 | `EC91357A79DB681BFD9BCF6AC98BEEE14702A64703518DE8F2E55EFFCF4981ADBC277161846058F80345058F8838AE490CE46BB633BAED6F720269A744A5FA33`
 SSDEEP | `3072:caFUeChEt4MQCUs15HjnXEqX2QQp5hhZ4GX1+4zt+sNl/E:caFUeGEt4xCUkjXEqX2QO99jN+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Zoom\bin\airhost.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\aitagent.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,18 +18,6 @@ SHA384 | `100F3AA065ADCBFD84AF823F7EA52234B29EDBF394746EE7DB7626D6BDF0869B19FE99
 SHA512 | `8263C5423D56A2A90AC785FB1D9EC3AFE9FBD1B7850DEDE17B1B03EFF1AE1F2A14EBBC0CA780F5ECED0960B14F611D0A6892ACBD28C09A09F703D27583A52B9C`
 SSDEEP | `1536:KtesTu/Vao2nqglpU51z8IyUtv3I5fg4BRUL1uv1a1soS/SdHEskO:Isb2nm52UR3I5fg4BRUpM2+/SdkskO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\pip\_vendor\distlib\w64.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHLWAPI.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

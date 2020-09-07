@@ -18,22 +18,6 @@ SHA384 | `69451F3B26743B2DB192F5057994FE127599723E1F7447E6369F16776165CE325D6877
 SHA512 | `60A297B4656CCA770C81E6FD09927DFECA51383DA9809565E5E5F428F85494BEB711A6604FE2372896D5F0B805CC3FAC0F5022227D79012D6D50AB5B52889EC1`
 SSDEEP | `12288:t4ZkNIN03Ps/n6Vpt8XB04dDuc/04dDuc/vq:t4boEgp/4xI4x7v`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\Magnify.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

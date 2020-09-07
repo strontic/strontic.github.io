@@ -51,14 +51,6 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\tsdiscon.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

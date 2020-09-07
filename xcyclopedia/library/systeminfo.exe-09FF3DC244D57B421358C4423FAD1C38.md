@@ -66,14 +66,6 @@ Type "SYSTEMINFO /?" for usage.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\SysResetErr.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

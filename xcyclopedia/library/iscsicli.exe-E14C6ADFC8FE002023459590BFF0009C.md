@@ -18,14 +18,6 @@ SHA384 | `2232FF9D986330A2721278F70F3F326297A677B56BE898D4A4F462EC39E39A633B015C
 SHA512 | `34127703150FEFE1ACCF82F30FD22AB4ED00A374B22FF9B5CEAC92D90B4DC60797C97FBAA1797952195AA220D581C6899BDC47FB81479021119D9A5F8DC04D43`
 SSDEEP | `3072:21VVALZK7gAICgKOKaeqUKOpVk/qfWJTfS1n37M:OjA8UKRaeqUp3WJrM`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\iscsicli.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\iscsicli.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

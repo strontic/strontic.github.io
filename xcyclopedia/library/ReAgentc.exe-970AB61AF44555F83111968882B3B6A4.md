@@ -18,14 +18,6 @@ SHA384 | `966438B372EA6A1BCBE4CF32889F69DE483F9F94EF1FE34A824AF14EE5A51B5009A4A4
 SHA512 | `12C49043AB60719ECF2F61219F81569866A220803408A60F7BA236A579C62EC230B98393D2EFF4BC6F47FE7F0461F9A2C50637456E24D1C878AB3797C154F07E`
 SSDEEP | `384:IPqFn/oXAgaoLINsBCSIYUEPNzuKZVkKI7B65P5XkMYa1oflW3R6F5XZ49Uk/e9o:eQgaoLIa4SIYUyckt/Ya13gJZqTGVg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\ReAgentc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ReAgentc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,13 +18,6 @@ SHA384 | `18C520ECD50C3A6988581E72825D65D4B80BDBE2B9D302DA170D4084C9F92CE88473F8
 SHA512 | `D36A9890A187259CF9FA30EF97849D234D266C8EAF0211958ABAB2D0F7855A2BB58618DEC9378D068CF7E98D0E836114C3AB8AE1A6701DCA1C2D9AEE24433226`
 SSDEEP | `1536:2acIV99ClPLT4SeNYNMH8G0k03eXyt+WEF5s:2acIV9U3pI8WVywWEFK`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\reg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

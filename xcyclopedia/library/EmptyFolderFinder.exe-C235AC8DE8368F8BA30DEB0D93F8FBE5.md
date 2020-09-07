@@ -27,17 +27,6 @@ SSDEEP | `6144:I9WQhfEyKOOYjDbyVziSso2lUtD4fiO9hqA:I3fTKOO4/OiSso2caqA`
 ### Child Processes:
 MemfilesService.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\EmptyFolderFinder.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

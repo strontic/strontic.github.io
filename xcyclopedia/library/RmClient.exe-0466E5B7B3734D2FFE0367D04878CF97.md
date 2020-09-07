@@ -18,16 +18,6 @@ SHA384 | `4559D78BC1E92F8327AD77D7946A035226B62F3E55059D2F5874762D7BA6A92F1D5E62
 SHA512 | `C4008CCC43778FE7A6D2CDBD9246E6A9E7A5A608C97E6491B9DF87E2C9B4ED1886209AFD8E2265256AA5361949FC97AFD10D1016EFBA95A8325175D9C76F4FCE`
 SSDEEP | `384:LOSxxh76z4HRZxjxHSVM1QkqeHRzXVeox/WGzW:Pv8CpI2Qkqw8oxh`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\RMActivate_ssp_isv.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\RmClient.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

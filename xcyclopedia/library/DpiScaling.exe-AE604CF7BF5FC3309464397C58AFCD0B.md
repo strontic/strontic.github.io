@@ -18,38 +18,6 @@ SHA384 | `BF4E25207D2AFE1E58FE22D67D8270A7E7054EFEDA6EA68396A50876661A4A53C20DBB
 SHA512 | `DF7158C69F123BDC3633CF41E7470BC7A58CA0F15AD8C7A32EA560A4576067D1264B8CF1EB1BA553FA8ED543EA4015170B146D9EA5A5D21E1EA438E3C209DF10`
 SSDEEP | `1536:HX91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJjy:3OwNMSqoKXNvuZAFDqXzlzQe`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\system32\DpiScaling.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\DpiScaling.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

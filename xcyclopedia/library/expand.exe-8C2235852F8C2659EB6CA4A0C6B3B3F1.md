@@ -45,14 +45,6 @@ EXPAND Source.cab -F:Files Destination
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\expand.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

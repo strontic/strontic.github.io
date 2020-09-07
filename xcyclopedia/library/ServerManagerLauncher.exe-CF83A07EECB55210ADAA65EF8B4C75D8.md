@@ -18,15 +18,6 @@ SHA384 | `A803F056274A772EEF05EF24BD7E2C3A62B7B4DF47EE4A469F4DFE6EF3D5218A70EAB2
 SHA512 | `FF8EC3D1E29FF23219AB2862DC1C4D34D8E64E23663DA3E9B259A4A81D29510C237B3AA965B281D0D3D40CEEE7D54AE07A4C5ADCC0F41031B0BC36A799306A9D`
 SSDEEP | `1536:Tmad7hGms8y2O/TxrTfRt5ThYFJAdOYmUlOo+vi6Uf:TmaZ48MVXfRtJuZYmUco+Q`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\ServerManagerLauncher.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ServerManagerLauncher.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

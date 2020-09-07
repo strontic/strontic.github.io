@@ -18,17 +18,6 @@ SHA384 | `545E7B4B2C8693A43B7BE620687CA3FEC5BFC7203A2CB6E6ACD3B25265093626E50FA8
 SHA512 | `10B436059064896398774AA0B847D3E25A6789C313DD47DADC3BE1F0BBABC588E33951B930462CB862DC6D9B276941407737F6D7D230EA694AA31736BD1AEED8`
 SSDEEP | `768:rWn5k74MInd8d+bEBG90h/fIuRekZnqCNMrpR+nzC3QDy76tiSkqSklg:KO74VndI+wBogouRekRqCNapR8zsQDSd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\AutoUpdate.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\AutoWorkplace.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

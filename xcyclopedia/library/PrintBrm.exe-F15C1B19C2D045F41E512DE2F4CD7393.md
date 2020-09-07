@@ -43,15 +43,6 @@ PrintBrm -B|R|Q [-S <server>] -F <file> [-D <directory>] [-O FORCE] [-P ALL|ORIG
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\spool\tools\PrintBrm.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

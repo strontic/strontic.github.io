@@ -18,20 +18,6 @@ SHA384 | `B39DF202128A13914EF16A94CC9FA0112556CEB8E729583F9CB47F0DE1B7962AB6A8B5
 SHA512 | `65F8B151FB35FD9A50C1FB10B9CBCF1DC61B857DAF5D3C1ED4E24AED8E9ED3B9756FA0498FC1C55FD6829FB1E7125BB5B3569B97B88F90527015B5934B2572D5`
 SSDEEP | `192:nqEqSJw174R8hrjcPI6AnKXCq+TYBpJn64HnWms9GikR3SPoWGkHIWc8WPh:NJw1ER85cXuKXChiv6umi3SwWBoWc8W`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mpnotify.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\MRINFO.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

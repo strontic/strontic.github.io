@@ -23,17 +23,6 @@ SHA384 | `3F63A27F8FA71F646B02FB2FFC117FA88BB07143C0B6BFAF96726CCECAEEDE726208F2
 SHA512 | `62BE0B887228E70E9BB02FE62128077DD8060C9C35585C8A0CC9FD5086100CCF26B259DA5516EF15DE0E3F0E2EFFA4C7C3F879463DAF5AD3AF2084955C2941E6`
 SSDEEP | `1536:q7MN9r1tzY9re3IFjqyHKguMQetqVikBTxWJF51KsvhFsVH:q7sALFjBHP7Q6qVjgJFWsvk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\shredder.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\shrpubw.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

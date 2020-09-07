@@ -44,16 +44,6 @@ Query Reverts         - Query the progress of in-progress revert operations.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\vssadmin.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

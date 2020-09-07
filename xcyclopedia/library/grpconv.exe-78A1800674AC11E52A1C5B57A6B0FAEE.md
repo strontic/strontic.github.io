@@ -18,17 +18,6 @@ SHA384 | `B0860EF59E809C825E6ECBD55FC4862BCB3B1870F57F074CA326B8D0DAAF8AB70F6CE3
 SHA512 | `5664A8EC538F8503E01CD4797B50862D342B040EF7A2777F580AEF5FB1D2274383FB92BB036BB1F296B9C6205E0002A03D055A4F12EA870B4D8FA330EC4B1919`
 SSDEEP | `384:BEFen1Y4Fkl+QMwWqGHJVc1S+uuhN7rM06WWwsW:BMuFcGpVmSiXrMC`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\grpconv.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\grpconv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

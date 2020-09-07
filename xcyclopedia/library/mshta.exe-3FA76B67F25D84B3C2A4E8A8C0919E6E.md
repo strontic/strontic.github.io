@@ -18,20 +18,6 @@ SHA384 | `FA2C32008CA27C120245B32CE9E52062008BD3465C37A9A1110172975890B5ED01E3EF
 SHA512 | `D0789D3640269E4B8C4CEBB048CBBDE49223780F2861FD4D15310893DBC5F800E16556D43A243FD3F2F21FA76B832D1CBDA4B2A5B00EE5746E149109E2D03CB1`
 SSDEEP | `96:u4c5BDMXp5IRe+pYX9rnpkYi6y1XDWPT8mp0Hsd3yrO+zJUw0Fcg2DJ+PjGGsEWG:uTYXz1BXNp7HTuZO+z10FTDFWwWVIR7`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mshta.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\mshta.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

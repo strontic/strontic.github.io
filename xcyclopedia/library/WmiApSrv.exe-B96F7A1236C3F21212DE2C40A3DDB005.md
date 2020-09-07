@@ -18,18 +18,6 @@ SHA384 | `EAEA2B3F5D3971A91E24C5E8E21EE4E3FA39C368125B2A3B9658B213029A196B2A0F72
 SHA512 | `4591856C73168EF833FC661BD31ED719BE0074BFBB71B153ECD301A413F4B98BF31DF8E5A8924FD55D1ABF46AEF79B3BFD992073588BDB1C19975433CBFA993A`
 SSDEEP | `3072:xM/2ye7sSZqVYjX4Y+U9ov/W3tiopJuHb/tnTiTuTVLxtBtiXorbZU2oPY:dqVYjX4Y+ygu3tioHete2vBc4rFnoP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wbem\WmiApSrv.exe |
-C:\Windows\SYSTEM32\wbemcomn.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\WmiApSrv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

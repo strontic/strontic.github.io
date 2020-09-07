@@ -22,17 +22,6 @@ SHA384 | `DB3645026DAA1FA9CCC376D0BCC945C465A1417C9E53100B6CD3994DD680488DFB5850
 SHA512 | `55AC8D8CEDFEC0721F52EF3DE2F5C55D40CEB78BF8435011FE7F745F38D00B63678DF825F732DC5BDB5D0E67040D35C9C5C04670ACD53E866AC5F45D9ADE2984`
 SSDEEP | `768:TnMY366MQ1YAYJy40wtK2+z5b15HJuqAi2maiOi5PZrWVfxdR:IY3P1YAYIwtK515w42maiOi5PZrgxd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\dialer.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dialer.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

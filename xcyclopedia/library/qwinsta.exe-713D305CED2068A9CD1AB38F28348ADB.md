@@ -18,16 +18,6 @@ SHA384 | `0631A818F4ED248BEAA75409D16FE1420FE2D6749BB58FD78804921D966B74FAB6A91B
 SHA512 | `373B03F4A239430809DF91A7B98B81E5152F9DEA2C16AB0F4698F004EBE90CD93BE7EE5CD5ED88ABC822E96DB49E0DF8E16916A777E6DE01D79C67B6CB352448`
 SSDEEP | `768:zMh7G7oGyug+ZJiS9JUcyDjwTfPcf87hrru+GOzf:ghkpikNr3zf`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\qwinsta.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\qwinsta.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

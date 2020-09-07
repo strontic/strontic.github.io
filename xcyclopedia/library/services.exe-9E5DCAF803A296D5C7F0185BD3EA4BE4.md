@@ -18,17 +18,6 @@ SHA384 | `32048EE49B8D0D7E056C913BBDD7C4E1D377405C057CAFDB88ABC5EAD34976AF718625
 SHA512 | `DF21CD4175A35795307D9AD99AD35005877ED96C9F6D4C5A106DE5B61119CBABA72DB03B7DE4FBAD31927478E14C7B63E7E724E44F920296AD93123331699494`
 SSDEEP | `6144:9JFYAv0pGzgM5lpfY+a/anvGJbVN3Jx77pnfiHzgN0:9JFY8goY+aynvsb3Jx77pfiMa`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

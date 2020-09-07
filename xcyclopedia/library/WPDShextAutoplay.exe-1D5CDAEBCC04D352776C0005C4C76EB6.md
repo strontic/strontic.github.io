@@ -33,16 +33,6 @@ Path | Type
 \RPC Control\DSEC14D8 | Section
 
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\WpcTok.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

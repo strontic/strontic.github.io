@@ -18,14 +18,6 @@ SHA384 | `A2B09C0DA09D1293FBCA4AA1C5BC5D789A880A8CCB5F26E73E2C6B23867EE768069E4D
 SHA512 | `4557D2029221D2EA4C9431187A962C716C6D8169EE7A362CA041FE8AD71FA8D45E106FB3C997D6BC4097BCFF208DFF6638C8820E9A3469CAA3EF53C9801727D6`
 SSDEEP | `768:ibR5YJ/+AZABBES89/MhlHAVVz/Jrh8oIUW4H+ug:l+AZABBE2kVVDJFJpHvg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\AtBroker.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\AtBroker.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

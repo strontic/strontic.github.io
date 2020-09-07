@@ -18,26 +18,6 @@ SHA384 | `D4A06DB8DFE757AA774961C8001CBE6B2CCC5C190B205D75AD85D499390686887F22DE
 SHA512 | `FD9623031C7E7E8B8052A504AE45B03FD152C4D18D424AA22C477B1060DF2BFD38E288E5F26343C775C0F147BF0235C05E8D96E960343600520BC82F01DDC975`
 SSDEEP | `6144:lcka7+n9gSLLQpIDniJ4buGUlCWWkgVJyB60OHyLC7v:/9gSXQpmiJRYW4c2Hyw`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\dbghelp.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\wer.dll |
-C:\Windows\system32\WerFault.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

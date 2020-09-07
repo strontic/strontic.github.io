@@ -18,29 +18,6 @@ SHA384 | `419B84F18F5154C5D3B9F656D2EE151D8F58287775568A19E687960BCE2E108A150306
 SHA512 | `E4C2E1F645870CE91D37CCC183AC449CA2D9A718E8EA1EBA63C0BA61D42F63FB6E5B86DE7F25AF3016C8760DD1596A95B4B83A69ED5B561F9FBF074A3F13E8D8`
 SSDEEP | `3072:k/ZPeVGFGmT0bbplXIP9rRnWwDyJLt6bWfNU6ITLn3CJ+eqGm41ArZKarG:k/ZqQ2/IP91ZDIhYWfNU6ITLnSvYdrZG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\AppVShNotify.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

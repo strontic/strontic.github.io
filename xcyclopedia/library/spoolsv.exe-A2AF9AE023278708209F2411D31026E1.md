@@ -18,31 +18,6 @@ SHA384 | `7878FF4B1B80491728121C7413FF742D7AFDAC08C75CA6E2B936F23E94BB09928795E0
 SHA512 | `B10F6B5D74F48068CA9C2EF60582639F7BC51F8AACBEFC9F0BA348779C76CF9D718F9E6C731FF118D45366B1C6F858BF2C88867FF885E8B44931FFD144F51969`
 SSDEEP | `24576:L/VR7+Rc6iXfswQbKv9UFOty9ITCOVGzkAMXAZPDfVAgo8nn1oYU:L/V94iPswQbKv9UFOty9ITCOVGzkAMXj`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\system32\DNSAPI.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\System32\NSI.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\spoolsv.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WS2_32.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\spoolsv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

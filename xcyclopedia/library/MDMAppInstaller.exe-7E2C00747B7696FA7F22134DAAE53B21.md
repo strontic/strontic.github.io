@@ -18,22 +18,6 @@ SHA384 | `E92F1AE7C75E2F13AEB1E7B353C7B79E648C78E8CB3CA999BE9E79E39EDA70AD0E0EA8
 SHA512 | `659F69437B0EDE1C2FA085F269ED6C6E077C73E326B0A23FCDA8B7537A98F18E04D91B74263A23F59E6E77C24846F9814ABE6DAB9E6AF7F9102207FE7917C031`
 SSDEEP | `3072:2G5eoTFm1pGV/FhHsSnJVVhxFt/Z2PS5:2G5eocGV/FbnxbvZ26`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MDMAppInstaller.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

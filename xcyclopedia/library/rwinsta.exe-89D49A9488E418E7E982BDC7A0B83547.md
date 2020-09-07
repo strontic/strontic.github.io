@@ -18,16 +18,6 @@ SHA384 | `98E71D4E26A5B0A670BB7E0E0A56E584E9B44451E75BAAB16D642AD8BB237CFE787AA7
 SHA512 | `CBA5C22CD9FE5B5A136ACA3DADB3114789EF5FA5016B3688DD0F105D84B69B8E3A9DF26BB23292445940904E701CA63CAB5800AC85BADFD34311E089E7234474`
 SSDEEP | `384:kbvMycT97IuPd8+E2ARehGj7tEArtEG55BvERp30gtFnuI9opVeOb3WUZW:kz3chEwddjmjj5vTERpnXTVObn`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\rwinsta.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\rwinsta.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

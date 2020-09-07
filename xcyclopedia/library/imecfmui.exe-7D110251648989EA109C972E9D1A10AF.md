@@ -18,14 +18,6 @@ SHA384 | `74147AB13BF589FD30DF9824A27BDF4AE701108D0764C16B91A9A824B67509DEC76429
 SHA512 | `CA81A15877FC690C16299BE2155F8A8F5A41440363AB4F56C943271D7FC44391780FF016BEC45FF7046368B08BB94AC157B51CF08E8F69C9ACB0CBA999199F24`
 SSDEEP | `3072:Pch8QE0HpM9J57huuKUXIOOb88sDsrt7HBx+fZkVMNfrga+ofX:Pch8lx9XIdbhcsrtLBgBkQga+o`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\IME\shared\imecfmui.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\SHARED\imecfmui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

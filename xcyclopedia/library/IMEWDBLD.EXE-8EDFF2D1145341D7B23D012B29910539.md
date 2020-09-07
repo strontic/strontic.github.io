@@ -22,45 +22,6 @@ SHA384 | `2CA335235B3B69CEF1310D79C140CF26C3E1520DB41744FAC997403C85E5B4461B6516
 SHA512 | `E6F5E485C1A23AA3FCE6E4575D47CCD0408C2834DE297DFEE3C41BC644593CD83937D5661C0628F465166A29CB7E8CB66E2E49ACBDA83D646FFDC8512FFEE340`
 SSDEEP | `6144:Kjjvu06N3PcGhmmcXe7z0asJrB1v49zNWdoJwFTFSR/OjFC7Gs/UEVTppZQ1ZDLG:Kjy0SoO3sJ954uoSoIC7Gs/rz`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\SYSTEM32\Cabinet.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\IME\shared\IMEWDBLD.EXE |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\MSASN1.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\UxTheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-C:\Windows\System32\WINTRUST.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

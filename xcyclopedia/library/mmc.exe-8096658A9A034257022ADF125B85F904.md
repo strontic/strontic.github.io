@@ -23,17 +23,6 @@ SHA384 | `93DE6ED2CBDD2D1B0AD40C61629B4F938E332763C5FB165A76930934CFBDE9A837BD03
 SHA512 | `5D2BE4A8857F0D3F7AE7029972108CD5BDCA8BB0FB423E5259FD4C351120FB7EDA2755F65F0E0432644BD324029E00514F9756C1B7E65DB55579B1E10FDFC38C`
 SSDEEP | `24576:sOyZSkxGMCGNMpSv86Hb4M83Uo8Mo7wMo7DHZCgaSaFqXO:sQk8qNMpSE6HEM83Uoa7e7DHLaLFqXO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\mmc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\mmc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

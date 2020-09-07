@@ -18,17 +18,6 @@ SHA384 | `26D9F768249AC1A24A6E65B126312B69DB9E23B305F7397BF6246476A04E412F0665DA
 SHA512 | `DDE40C05AB7D206CC582B6D225623F215FE2821CDB0D02B13A5CF2887E1B9E4081F13D223741B9DD5E866D863FA26C6A10019E14FB32F65E3118E39214B21E1B`
 SSDEEP | `12288:N6xEBWFtpgcnCDr9RI2yZt8XB04dDuc/04dDuc/vq:4SWFOPS/4xI4x7v`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\K-Lite Codec Pack\Filters\madVR\madHcCtrl.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Magnify.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,15 +18,6 @@ SHA384 | `8DE64A81D00C1ADCD111B52798B091CB648475F61134472722CF5D2664EFDDF682B719
 SHA512 | `3D6B09613840BBD336EC92AD6B3797FCF59FF969C60C2E3184B6EE7ABEBAD25E114A916873D092C50C68977BCB1267333C8531A426E1B6455C5298A35507B0A0`
 SSDEEP | `192:6StRIbahjZqHwGbyo3X8WTB13+tBDs9pziSdlj4OfI4HW81WI4C0:6StvLqLbywX8YPLll/xHW81WM`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\Register-CimProvider.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Register-CimProvider.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

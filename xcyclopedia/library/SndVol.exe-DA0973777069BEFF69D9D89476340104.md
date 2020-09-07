@@ -22,40 +22,6 @@ SHA384 | `EC31FB083A3ECF88DDE1146EA5939456DCE47BDA04408CE9713E5485E0C269F9DD5169
 SHA512 | `2BB0A0032FCBC7ECEC5653708C1BB53EB777379E2AF1A097BC422111EFE41A705DB96F8278D9155FCEE631F9504CF6FA9E624572C844EEB5941B870AC8E6C41D`
 SSDEEP | `3072:XAX1Tz8W559nIJdBiFOksFYPZ3uI8qoMpkjbEyB7HbI2l:STZ5xIJdBiFOtG378qooy10y`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\atlthunk.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\dwmapi.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\MSCTF.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SndVol.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\UxTheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44\gdiplus.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

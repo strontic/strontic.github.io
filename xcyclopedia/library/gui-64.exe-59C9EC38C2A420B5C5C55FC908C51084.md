@@ -25,13 +25,6 @@ Cannot open C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Python38\Lib\site-packages\setuptools\gui-64.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

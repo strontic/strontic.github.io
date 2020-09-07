@@ -18,13 +18,6 @@ SHA384 | `057E8CEB362D141B9ED0213622C4C484D9E078C258C22DB30C91776DF1BB8352B2FA14
 SHA512 | `B8FB474518C57F02784928460D3ACBADE75394906965079F0B4EC060B45614FB0A5995DE3126CB61F8B1B4D6AEDA7328CBD2C2EDFB9B67A35F587A52EE4ED9E7`
 SSDEEP | `384:YfKSvecON1zkgrEPHdWXiGDRYu75DHft4SdMxk5Prt39yng0PRd1amCLkIX3ZgnU:IKWOch9WXiGDbySmGbyng0Xk/5Zgt`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\sort.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

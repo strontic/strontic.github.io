@@ -27,17 +27,6 @@ SSDEEP | `768:S6QutlDO5uUMH3nzuzbng3XCvJYC9D712GdMeKgpmxV1DGXnKoUf2hJF:bQuPO5utH
 ### Child Processes:
 MemfilesService.exe x64ProcessAssistSvc.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\KeePass Password Safe 2\ShInstUtil.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

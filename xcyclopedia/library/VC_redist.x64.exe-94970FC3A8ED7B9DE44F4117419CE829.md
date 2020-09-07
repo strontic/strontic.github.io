@@ -23,16 +23,6 @@ SSDEEP | `12288:BnMwHskY7gjcjhVIEhqgM7bWvcsi6aVHPIyacHwXK4Qzh+jMlWCEhG:VMysZgjS1
 ### Child Processes:
 VC_redist.x64.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\VaultCmd.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

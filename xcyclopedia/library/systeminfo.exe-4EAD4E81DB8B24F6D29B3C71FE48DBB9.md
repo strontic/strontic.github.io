@@ -18,17 +18,6 @@ SHA384 | `299D5973222B232CD0F77CCEE7D90986080A5269FC03CF1A2F1908D064EBE5B44E40AD
 SHA512 | `4588D596F4D71C746264AD97C7C6FDDA689D9385FF3C9DFD3B2CB7E6A5C25643D4A7298F3083DABBB4717B4AFA5C6A7D2F0E86660C44A3F5E25364123D5C0D70`
 SSDEEP | `1536:L73JyBscyCzUBwYIbTWi8plpRxEzmJj6/3RnslYB9CHhi0h+FnYBUKUFpxw9:L+scyb+8plZKwW/3qucibZ+18xE`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\systeminfo.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\systeminfo.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,16 +18,6 @@ SHA384 | `5836AF69047881C80EA51A34F31F3AC4580D3F597CA216D67660A1FE6C7D77D360A619
 SHA512 | `70BA843091E9C8CD391BBDD3BCDD7B3718B8CA1AD8BCC0E6BD49F8CBE0D3CAD1E2E196309BB9AADD4D77296D8F874F60594C22400CC7E93EA213BAC271A07BE6`
 SSDEEP | `768:fDbGCqjwFlNmuRLKwp8cnqYEh3BfLPEAe10WZr0guWhfTRRBmvl1ok0ENuaBgYo:fD6yFlNKMefLPEAe1fqhofTblk/8aB7`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\sc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\sc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

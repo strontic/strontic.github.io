@@ -18,16 +18,6 @@ SHA384 | `4F671827E39300BFD2C7949E90162D9B30A0D98020DFF5F55058F3B85925EBF2CB1347
 SHA512 | `1733F9950EB19A7BC63B9C6AFBAD85CECBBADF26F86B0D517F6B38030256673AFC1651B47E90292BFA069A73D74BD6B9F7918D2248A7D73B2A0097E165AC7019`
 SSDEEP | `384:MShGladyisoMrBP5C6jhxS2lIwZZDYTV/aR0eqWPoatrXx4aWsoW:MhoMVhCkhgAeARhqWPoatrx4A`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\mobsync.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\mofcomp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

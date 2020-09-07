@@ -18,17 +18,6 @@ SHA384 | `036B331A6661D9A848A2E0865DCE576AB4898B391B8CD75BC915EB080416FBC730EAD9
 SHA512 | `7D02310B1556A1BB4DF25957695031B5DBB54667DDFF921E8EDD8D75CCF5C2ED47E031FD592413E376F1FA084CB5F9F0A5063E93FE675C1062FC57FA8694DFA3`
 SSDEEP | `768:ENLbR6zBFpzX5SLsOq/VbDhZeRhh4sVvwEO97dFpMzfe+Ic7Zn9I8Royy51YKX+F:Ep1GprYI/VbD3efO9pMj8DAmpfhNokN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\PeaZip\res\peazip-configuration.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

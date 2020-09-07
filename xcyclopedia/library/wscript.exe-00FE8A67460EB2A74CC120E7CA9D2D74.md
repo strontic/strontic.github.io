@@ -24,14 +24,6 @@ SHA384 | `104FD1E95892E955FCB7457985375C7C2FCEF1B3527A2844065B315DF59F8454AD1B83
 SHA512 | `151E3BBBEC8BCD33A554F6CEDE2ADF8C20B640DA7775565C0243147F0AC526D6BCAB94973F018ABA2856DE5EEFEE3846A2B44EDF219BAF545740741890B5FF04`
 SSDEEP | `3072:oD1Btsq5OuICaSsBjvH6HebirgYQwHyxe/WIbrycATxtY:oD1BKq5OuNCT8yxa0RT`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\WSCollect.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wscript.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

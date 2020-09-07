@@ -18,38 +18,6 @@ SHA384 | `E05506AEDDFDF2D58F1548B3C90359D1628535BEA4D21B4125E31EA962AAB42DE95764
 SHA512 | `F1076B0502C8A70BEB991ACDB18653AF7D7193BE8E2A2F68CD855DDEFCA0880FBED85DD4B507A01C32901A5985AAE1F8B7A0E5AA8916B6DF4D7A27F29B0F2D3F`
 SSDEEP | `384:EZUNyVYtrHIaqEYZ+WSqYWViiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiLiiiiih:QvVY1o8YZ5c`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\calc.exe |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

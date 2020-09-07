@@ -22,17 +22,6 @@ SHA384 | `65AA1C2BFFD7B60309B0B4CA1FAEC0B5FFE32D7871142F885FF358106D71E79BC53871
 SHA512 | `6AAEAA5D35959EF5B7C33E1B2348CBB7816B93B17A6331151C9290BF92204B7E5643C6E3CB3912776CA742E3058533CAD4EDD0600D6C17F000824E4EA1F69080`
 SSDEEP | `384:h5XS7aGvJGWWCwWSPXuNvBQAMYJQ2JQSkdowyoh:h8GWJGKwuI30lJBkvT`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\cliconfg.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cliconfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

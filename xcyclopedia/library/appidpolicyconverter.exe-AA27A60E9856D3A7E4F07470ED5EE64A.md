@@ -18,16 +18,6 @@ SHA384 | `37DFD3FB23458BD9195CA58F3931D6E042443FE821772126D55AE90C5F6CC97CA0B5F1
 SHA512 | `AC120CB22FAA3D3AB2790B61753B368327ED78B6C4EA1649774FB57EAC3EC3A32E103028B4B458529E08E045D2C7D059433AECA8966B689AA78379C491E1D23F`
 SSDEEP | `3072:U+MMjXLD9VsiEWeEAGMXgUs9Hov1DVS4PQxyrkln76Zyk:am3EWeRTgjs1D04Psyrq76Zy`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\appidpolicyconverter.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\appidpolicyconverter.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

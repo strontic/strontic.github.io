@@ -18,16 +18,6 @@ SHA384 | `E2B37426C02628ABD28293FF72E0D101AE17C4D9CFF87AC5586F765A8750436604E33E
 SHA512 | `F749201A5E82A0CF73CE894FE934E95B9659C253485B3D8910171914A7CB700761D2337272828C4717FE1E00A66CDA0E9DBA967E8B21DD00CBB56DC6983DFFA8`
 SSDEEP | `3072:E1q/zaav+qQPe2UWs+N9cfLz5N/nLv9U0LPlITCbS3R1R/0BpwY/c1SrCtZ7/:BzZQPe2UWs+NALvu0L4v3R1R/0UYASr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MBR2GPT.EXE |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\mcbuilder.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

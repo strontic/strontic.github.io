@@ -24,17 +24,6 @@ SHA384 | `56398BB273A5B8E8702301ECA9C4DB4F2857C5A14FB823ADF16FF41B495DB5F2F8752D
 SHA512 | `EAB2E745833193C756E946788D81F3AB807BD71D7737EC13826A3A47F43E7D13DB10A6A6F94C9E8A50FF0414A1F1FD5B49E2665AC566799A11D84A27D7256BEB`
 SSDEEP | `3072:eGmoCInr2trmvwxW/gharkeCssz0/mHVf8fLMsmlp3vKpRB0+:eACInr2WCXGfIvCpRB0+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Zoom\bin\Zoom.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

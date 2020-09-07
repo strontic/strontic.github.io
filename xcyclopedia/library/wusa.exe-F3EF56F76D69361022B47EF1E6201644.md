@@ -22,16 +22,6 @@ SHA384 | `D07A979713A1EBBAF3D8B08A7B5F1A1A713C61420BED449A1064E80F41C839FEFFC223
 SHA512 | `E8EA9D8981A4EF86EB52782ED5CBF23E55FD9E2F3BB7DB59391271E91E48FD06875A89C448FEA005B7D9969BCA579D228EC157154EB5C6CA8B7FFA2ADFC5B6DB`
 SSDEEP | `6144:eK8nRccM6pf5XvrFMU2AGGpxyN90vE/5:D8nRcepxXzyyfy90C5`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\wusa.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wusa.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

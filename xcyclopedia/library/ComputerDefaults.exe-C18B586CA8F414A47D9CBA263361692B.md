@@ -22,20 +22,6 @@ SHA384 | `3DCAD4043F3BF1D5E4F7886B721229937D7E96B37A6239DE78C39115E1B5302C2D2047
 SHA512 | `B53552FCA1CEC57268272D01007DF72E0C8E81F90701A8919CA7E4215567DFAF3EA5716CE05AEF6C889064D99891176729792C3BD1574FCCF5C74CF0E65A14F3`
 SSDEEP | `768:KYgUpmPTWs2IkRDzsq4ytZZZL2YCX4ibR:KYSURDoq4OZZZLlCIibR`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\ComputerDefaults.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ComputerDefaults.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

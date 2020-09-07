@@ -22,21 +22,6 @@ SHA384 | `17C201C6F193EC939D2EAE943F431B183C0AEFE902139C6A06B46F289202CD3ED33B34
 SHA512 | `61184E002E58732E4C7617508F63E454D0E7959957D8AE218D55E0E4E5634C12F02C4D76B3D8ADCCAEF71ADDB804292FEAD0D4FB1FF04FA06C911E77122E34B1`
 SSDEEP | `768:Y48sHQ8TB4LH7jCHURjutImIgcC6F/xHaJI8v5m6rugC5q6MLaody:YqTB4Lb9RjutoKpvLrLNV`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mshta.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -26,16 +26,6 @@ Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\Com\comrepl.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

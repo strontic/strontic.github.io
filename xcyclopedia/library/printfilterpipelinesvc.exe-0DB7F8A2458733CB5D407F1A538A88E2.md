@@ -18,16 +18,6 @@ SHA384 | `B3557AD0B65444A9640BDCF8A81334D920D7678C915DED169E30C728BC8E8D910A1661
 SHA512 | `0DC3F70FA23D86C20603A29B634A7AC7647D10D0EDE10E501910F4099B1B8275E595EA5204EF7E8F25F2A6E9C361F34C419AD912E95EB46FD8CFAE3E393E1CB1`
 SSDEEP | `12288:a5YCOFSniFS9EMCnF5CEn+K96g+ebrWbNLiWJAW:urOwneqEZFpJYeCNp`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\printf.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\printfilterpipelinesvc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

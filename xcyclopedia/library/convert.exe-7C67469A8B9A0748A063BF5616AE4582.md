@@ -18,16 +18,6 @@ SHA384 | `45CA0F5511EE83E1817E40287BFE72DFFA6741BB78C71FD67AE97D964E20201F55D7A6
 SHA512 | `753F7581398DCA10110FAAAC785DC85DF345E38C7E55F4F2042DA068CD39BD7FCF44C1ACB2E8649004F1A3B51E07E484358EFA4CF138EA66B5D9BAD12F85974F`
 SSDEEP | `384:Z3Mj+lNoV5xeC5ip8/kGFfXdYQp5MaBCNbW0qWi:Zi+3oV5A2iYkElbowCZ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\convert.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\convert.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

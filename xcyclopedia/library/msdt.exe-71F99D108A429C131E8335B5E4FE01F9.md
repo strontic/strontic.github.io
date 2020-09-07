@@ -22,17 +22,6 @@ SHA384 | `BA0E8BCAEA732E65CA3B2B203F4A197FE23944771C740BAD8944E6D33F732FAC7750D5
 SHA512 | `F3AED0265D0ADD9A6E3B0AC5A07550AC0C4737FA711D1098E99F05915ED2DFE584F88F29DC0FFEA56DA1EA43DDD20C3C4A7D7BD7CFCC053FB36DC07156ECDB4A`
 SSDEEP | `24576:Xok+pHtjshf6XH4qvIReK1odddGdBnyEj6kKZnBF:XokENjGfqNK7jyRB`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\msdt.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\msdt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

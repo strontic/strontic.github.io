@@ -18,13 +18,6 @@ SHA384 | `0BF739BE2091C61842D87BF44F51DCA826EF0148F49AA2988BFF24DBC788407606E7F3
 SHA512 | `A03CC6DDC97B6548F15729402D37FDE3706ECC2D93EC3C28ED91067259FD7567B67CCB755C01B157D1DE83F602981F9D9480BC7BEBB41EB10E234FCBAB5ABFBB`
 SSDEEP | `384:zE3ZdzP8KZ1FBhBSS7N+RMQCihjVZ0neYuHnh3WNMWt6ZU+0zglg:zsHPxZBPsCUVZ0eYuQ/6ZUvQ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\upnpcont.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

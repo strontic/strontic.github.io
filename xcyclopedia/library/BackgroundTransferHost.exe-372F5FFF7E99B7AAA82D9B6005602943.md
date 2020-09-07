@@ -18,15 +18,6 @@ SHA384 | `27D2C3C655A41CC9E51A8B29E8D7C843F6ABE6955DB55388A8D0F1F236910E752C4F8D
 SHA512 | `41DFD44B7C3CE0B59949D50B7781C45DA7C7868785CAD35335BECB40BF09768F603E39599B4A6BBEA5132DD6F4F0C63C02538F1C44746E3D07020790EB0BC4DD`
 SSDEEP | `384:/1z51BRO4L4nd8B1mnmftxaq5tBz631l0te6usp2Sk07oW0ugWPhkLU7+1IVsC2B:J1AdC1Vmq57al0A6m079YLU0`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\BackgroundTransferHost.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\BackgroundTransferHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

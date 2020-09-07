@@ -18,13 +18,6 @@ SHA384 | `5CADBFBE9F3AA29EF0BB8CFF2269A81198B9863A6358453B55A5B230B23333BBDC4C95
 SHA512 | `2FFCC4C03BB5B7AA665141C66E124B9378ADF2DF2C2F63A710F033E47FD147D07C3C51C9C60497F34D9AD8302694181826B6ED6A52BA337BA8E6346280B3EB0C`
 SSDEEP | `1536:vJlF3MTcYL3B9+OYG2NzFv+7iV23q3pw+OBWu6gLKtvcLbdsgcNB:vJ70YzNNVnw+OBWILUcdsZ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\powercfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

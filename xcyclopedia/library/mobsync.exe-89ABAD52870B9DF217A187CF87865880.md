@@ -18,24 +18,6 @@ SHA384 | `2704E789F7F71CB865ECFD67F3BF68CE6EE4C30713EFE482DA5556A1E29B01A70AA53C
 SHA512 | `973DC2A74278945C4FF94ABE6A3B77230834145CDE90EE2E5A6EFA9A0D4EB25B883D01CDD9BAF1FD150AEC3E738C6D423BE68CB02B834A309244C4FFB9E3F667`
 SSDEEP | `1536:PfRhGe9h9GtoWGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fKb:7M6WGPo9St8WHxSD+09+Sb`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mobsync.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

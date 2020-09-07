@@ -18,16 +18,6 @@ SHA384 | `C443F9D8663085F9DFA3AB3B13703A8E361D0F1F20DD2884FD73056A82AAAF8DA39463
 SHA512 | `2FFBA4B0ABFBA91CEB24B893BB03466F0F0819CE45EF40479494E774911A5F5DF371E9795DA6E6D4DAE4C72814045427E66CDDE5F378374872F2967A1713C2E2`
 SSDEEP | `6144:dc0gGbhfc/ko8ppiZ/tt9tSJZQ4EH0Ob0QRaI:OGbhEMo8pgt9tSJC8oP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\esentutl.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\esentutl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

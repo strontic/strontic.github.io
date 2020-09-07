@@ -18,14 +18,6 @@ SHA384 | `BAE7CB6EB4EED0F041B19F7E9D973CB4E13F156914410BE94E45EF55DC0B5F3386BFBF
 SHA512 | `6191EB2C0F52E17FD999717A49B42B8D4413BA431114774E7C918A0FAE5BF77F4BB49484590EED0034171F7BB5BD4154188F75766F3400AC5B1B76AC553B94DC`
 SSDEEP | `384:bOaVyzPa7BoWjj2NXMEr+ZIJ9bqoEypu72GkzAg8VPVYh/jy7PaDbOLWI0W+:VVyzPyoo2n+ZPbyRzzA7VPVYU7CXOP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\RpcPing.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\RpcPing.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

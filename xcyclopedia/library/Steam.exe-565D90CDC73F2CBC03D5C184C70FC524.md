@@ -72,6 +72,13 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Copyright (C) 2010 Valve Corporation
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `Steam.exe` being misused. While `Steam.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `steam` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

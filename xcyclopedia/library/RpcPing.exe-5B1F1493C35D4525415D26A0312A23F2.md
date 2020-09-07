@@ -223,14 +223,6 @@ the typical profile.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\RpcPing.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

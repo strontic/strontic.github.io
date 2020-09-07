@@ -18,17 +18,6 @@ SHA384 | `84CAB02AF8CC27A761CBF4E14F1A1912BFFC039FDFDAEB7EF5D23443DA567116B816C6
 SHA512 | `418FD106F44455AA5D3449144526B2CDCE14C2B820413A7ADDF5F97E96F98D3DA7FA3A659CC78214826586594BD25F4459C843BFFD9E6AC1EBD52809CED4257F`
 SSDEEP | `3072:jRBB9yXQQDEiZyKLwzMdX9Wg6WwjDfuequOyorTe:jRBbV3ionmeq9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\smooth-palette\smooth-palette.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

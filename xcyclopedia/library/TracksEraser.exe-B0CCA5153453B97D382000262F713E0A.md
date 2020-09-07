@@ -18,17 +18,6 @@ SHA384 | `87449B74E7BC253165408E0176C6991DD61CD321162045209B1B65A1B1BB0DE7E0213B
 SHA512 | `ACF7007DE3E571A4751E2256F267141973A3F8EB97DB7AE0CF8D91BD3F1C7DFBED90DBC381B7FBF398627CC16BCC04F677C3D483F7ADFC163EA7D08919486F97`
 SSDEEP | `768:S6gKVDOCA59PL9HzzzFzzzz3zzzzzHzzzXK1111111111111111/zzzzzzzC+Xj6:HgSOCqL9HzzzFzzzz3zzzzzHzzzXAzzm`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\TracksEraser.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,17 +18,6 @@ SHA384 | `39DEEE8E7360ABC2827D7C1E7F129096DEA21BE265817030285B45150DB700F006FD77
 SHA512 | `7F14EBBE860068CA8EB75F0E56F849D494020209ED652202A3685FF53B0F38598C1A94AEDAC54F2B2B1D5B67118E9555F115FACE1F8A68BE0D3C27BE706C1418`
 SSDEEP | `768:e7N6vpfR/mMCUy2VaMd1QSqGi3pD2P+RJJTE2pO3a8boC9q2O2HLJ9zO7+vbGUxX:GN6vn/rCaaMdVqfRJJY2p2aYJLrO7+vd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\foobar2000\foobar2000.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\forfiles.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

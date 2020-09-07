@@ -18,17 +18,6 @@ SHA384 | `FFBB6CBCA17EF934DF0506F9DDA52B21162820EC2331D804F3E1E38D84843B9FDE696A
 SHA512 | `678C00E07514D9691A1EE6872F1DE85D70700B66438EEA8B9A937409ABA6B00FA59D6062CB08FB60E1680F26E348D8735D697512B14658E746C90D7EB839A738`
 SSDEEP | `6144:XY+NNRKs37LsxoD84IaTnj6h1JSedjvPxbBmnebcLe8H5Da/:VMxsTnuMedjvPQ6qeQa/`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\plugin-browser\plugin-browser.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

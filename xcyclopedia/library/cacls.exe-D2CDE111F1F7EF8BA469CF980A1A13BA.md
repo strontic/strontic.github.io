@@ -18,16 +18,6 @@ SHA384 | `A71D6AAE1366FEDF266BA8892A10FDB69CA9E5D3D307E34DCFA1BB4747AA79C023A47B
 SHA512 | `5DE1FD8C9DD222CB684AF49BCE3A60E79B9C1475AEBE31BD49174B5A07DA04BFFB3E267626818E05D8387C7871ACC2AC61A885ED7578939E9E4D5475810BC257`
 SSDEEP | `768:X/+XpZXwy9nTbf4xjo4ZRGQnDR+rOk7HPNLjiauu3r2AQ2ov:XWTXwATsxs4LGvPN4AQ2ov`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\cacls.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\cacls.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

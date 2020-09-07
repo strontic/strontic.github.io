@@ -18,27 +18,6 @@ SHA384 | `3186EB687A86E9DDCFD60F96A4542700977A310E4C6E854F8C10003B3527CB82CF6707
 SHA512 | `BAF032D4F6E05583818C630CA6FF12DEEF585785DB305752E1761DB0CD97BF9729ACE23D34E99547DFC275B2F54553DB64DBB4CA19FB09A68D181050DA6B8F59`
 SSDEEP | `384:/L5k/aLdITBPd0f/X5J19YFN1X/Gg/ZEv9WB9VW:j5fRsBPdO/f1i3Gv2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RdpSaProxy.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

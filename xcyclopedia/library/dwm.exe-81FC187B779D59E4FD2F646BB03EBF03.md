@@ -18,14 +18,6 @@ SHA384 | `9CE8CDF8A04A5392B7BEC301B74AB10D42FE3D2C07C94193E9C938F742F66817F99F31
 SHA512 | `0A17394E7DA0121140C8F030B7504DFFA7A7036B63D6253F34DBD4C71B9EB3FD491B7D1F06109BFC5CE09DFC4DF10A834E23D58F0D480D702180AB175C072226`
 SSDEEP | `1536:EYBrBpOEgfdof1WHH+bUuCb/moJXVjAUkCjLMw0ljJhUYTBUoKs7uO4a9:E2xgfdodWNkUhL2bhsRs4a9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\dwm.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dwm.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

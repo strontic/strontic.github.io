@@ -18,24 +18,6 @@ SHA384 | `45A32C849E084CF05416DE9D997FE7CD97652530160AD09292ACF4A518ECB02755143E
 SHA512 | `76E14AD9249F39FC63BDA3FE4667C1077854BA7806BC04537C7EA5A1B1751CA151598D7015AA4165F847BAD7A4348171255BB3A14519F7D9CD02C0B66030E7B8`
 SSDEEP | `12288:VFB9rDh9sZjcNR/rd3WTW9r6anRzKOl5T+AZOtJ1a6Q:H3rDzIcNR/r8ErtR2UT+5JcD`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\AuthHost.exe |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\wintypes.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\autochk.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

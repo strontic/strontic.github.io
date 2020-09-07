@@ -22,31 +22,6 @@ SHA384 | `289A71D0E3AE3CB12E6D3C71109B9435A85E5103F8205D7C89B6D04189560AFFDEE176
 SHA512 | `39955B55A97378FAE9A99A6A80E7797C69EEF3A8424EFFD4F3B992FCA9972245B5FE06B992B0D039C28DDDD7AF88F5FFC70C1C31F21743B150EEB19438DF3002`
 SSDEEP | `3072:kLLXeBBhuHLJ0ICa3X+Ab2dbh1nDewma9x9dYH67IkK2NLPcV2+:kPXqBhurJ0IpnCvDeJSCmIkC`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\IME\IMEJP\IMJPSET.EXE |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

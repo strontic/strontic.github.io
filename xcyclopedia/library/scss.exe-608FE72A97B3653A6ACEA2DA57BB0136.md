@@ -18,17 +18,6 @@ SHA384 | `752A37AD033E3A05FB132BD44DCC256998B257C0A70E37BF8132CD70A1C64C07A3CCFD
 SHA512 | `22EA4DFD96AEBE977D82B65E2DFE2631CFCE941FECE14F3CC3F5B3CF68E7B311EB55F6A9240D88577C9C2C4C7859C633D9281F6EFDA583D2C9709B0898FC3E60`
 SSDEEP | `384:uWT83XZuqsO+voReilo9+xDxRZk2g5oU/cHQZe40lWLFNFW:TT83puq/+valdFxI35s40u`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\ScriptRunner.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\scss.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,24 +18,6 @@ SHA384 | `A1A1AA6F4E62E13BEA00481C0D38C3194B86F22C6B57EEB9E2C50903DC5B137B375448
 SHA512 | `F3EF74EECC342E11270FC50A8C039E90324D3A21F03F5E117FC4E8269170E627D41478B71C0D807CA5F27FFBAC21E64F4944DAC12D90D7C684A874E32D2A8D98`
 SSDEEP | `768:+iJFXa195vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnN:+HxVIPd4n+lbeRZIbSQPPA74`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\ntprint.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ntprint.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

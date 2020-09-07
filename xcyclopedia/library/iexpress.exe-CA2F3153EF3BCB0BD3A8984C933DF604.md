@@ -23,13 +23,6 @@ SHA384 | `FBE78CB60977547AB67AB72E2399CD6E15A748DD906F376F637FC08CB91AA2BFCF2386
 SHA512 | `3D3EB0F051C2B14643D127582E7BA906F239EB31332E0292E52B215D42AA8641D1204E5699783A1A8F2BF76B65513E014EFE899CB4F974AFD551BFDAD31220C6`
 SSDEEP | `3072:SrDv/Bg+rvdziUs0he1keXxbNDnGOb+ahXNqJohePnq45L84A:GBvTdz1j4BNDGOb+asEwv5L`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\iexpress.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

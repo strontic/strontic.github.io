@@ -18,14 +18,6 @@ SHA384 | `E44679A6CB152CEBDB986C03E0CF90FDF22C233D10B64E181F87B578019CF8A4BDD1CA
 SHA512 | `39E774FF0C7557639E07AB8761B43A29B68A4C5BCF259A1D60E20093EAC4F5FE9ABE002D5984DBB057F13D52A287D82A01E56996472AB719B4780BC7162DAE36`
 SSDEEP | `768:PJp2Met2iGg/XJb8ZfN7gRFJq4w7KjH1Xzij7Kaxqdfdh22C+BH7sFpCKcKP:POkiV80Hq4WKmKaMdfW2jbJK`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\MultiDigiMon.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\MultiDigiMon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

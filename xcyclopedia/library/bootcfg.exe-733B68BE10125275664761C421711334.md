@@ -18,16 +18,6 @@ SHA384 | `B47459AEA6AC24E7A5E17F7A7A7018C329738A8819B63477D6ED050A0CC8D93D1299A8
 SHA512 | `9CF9981C382A81485EA85B6F1E93118E4DB8FFEA3DD1BDA3047BB8294B20343E07AE2209149B9B8E443076D8D8E16B16C9A24844C663191B33EBBDEC459F1584`
 SSDEEP | `1536:IxYILbDSbTjQO6MfyClGk2edS6nESsKetHWzaF5GE6nIYluCfhzL+e6LeNOKO0xK:KsTjQO5Zlx2edS6ESsKeAU5NgTjJ+3k0`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\bootcfg.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\bootcfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

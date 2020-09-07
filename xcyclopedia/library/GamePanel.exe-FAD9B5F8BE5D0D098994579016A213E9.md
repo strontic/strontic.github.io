@@ -18,28 +18,6 @@ SHA384 | `C294E44F2A249BFCB785AC802667ED1C6DF5C2B24D90D68B5503DFA459271F3644685B
 SHA512 | `A4D15F0729532B6BC8B7947578A60951FE0B045590B21CEB96E2EC48B9690B6948CBDA39B3E452E222302CFD27671FF801961749774C066EAE5614E676E91C5D`
 SSDEEP | `12288:1kT/fyVNTfdlAbNY7fgV7u5EPPKTWR9aUPIi:1kjiTf+ggV7u5EPPKyR9aUP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\GamePanel.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

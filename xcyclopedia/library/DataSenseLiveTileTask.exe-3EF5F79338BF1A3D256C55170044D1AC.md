@@ -18,22 +18,6 @@ SHA384 | `0CA6A898160F34FD3ADE8D40CCF0D768D3E85890698109D411E99EE0F8B29639BF6004
 SHA512 | `5ACD05ECCF61F9537EF3B8BD2C26AD7D67793190ABE11564ECF4B628A031B26257F19406AA87DBAC2322E17DE579C064C12507E31ED5C1D4B2661891D81A85EB`
 SSDEEP | `768:dl/fh8A7EU+1mj9pgDokEoiJs7rtLyQuj+SAf1l7OVwH5RGl0HF0fxf4t/+1vQ6z:fewEUwtokniiPtrf1EkG+HOfax+e6z`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DataExchangeHost.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -73,17 +73,6 @@ error: Could not find suitable distribution for Requirement.parse('help')
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Python38-32\Scripts\easy_install-3.8.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files (x86)\Python38-32\Scripts\easy_install-3.8.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

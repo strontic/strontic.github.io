@@ -18,16 +18,6 @@ SHA384 | `C0E1FBBD15017FC0920A09EA343382FBCA934267337B87663B7BA5E81DE132CC0191BD
 SHA512 | `E4C35A72D1C4A7CA0F180CBC13C89E56890145A419BB75E3042DDAE096915DC649A670C63068C7D19D93CEE23356C2FAD83F8C0365976711860DD59069EC0C2F`
 SSDEEP | `192:NVwRbUvE4HgHTe2Vbah/PBG2JpP27mifRiuP9eAFZUOWLUv0Wa:rwGTgHTe2VbuY2fwXRJP9egJWLc0Wa`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\servertool.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ServerWerOptin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,24 +18,6 @@ SHA384 | `861B269010085E2FE67493955FEBFC20EB8CDDA7F8A48B7CCF9C0E158DF557895C69C7
 SHA512 | `3577D602484E3D8B6D0BC932EEADC3AC52714B8AA35E4272A6593B27FD93F4062867FD007C9BFAD84FA914A3934E2DDD201F02FBD983FEC6FFBED71B88C2A810`
 SSDEEP | `6144:4KJfG2gDOj+jn6uFz2LJGRg4kLNnei36cw:XmtFCdUc`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\EaseOfAccessDialog.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\EaseOfAccessDialog.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -22,13 +22,6 @@ SHA384 | `D839B0645E2D069BE83A99D0E81BD28208E0FD9E528A9F8139947D7AE8E7CB12AEF424
 SHA512 | `84CADAE51BB0E7903947E6DD2F308146C35FE2179BF37327D2D52A6F7B6C0EFF911C0184ED4F210FEF00057A1B7B46EFE1381A1D89DF3C8C0EA22E2A88ADCBA7`
 SSDEEP | `1536:+b6HYJ37B5IMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY1g:+bNRv3lhzslTZJ9j7Heb8C1g`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\eventvwr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,20 +18,6 @@ SHA384 | `ED65241BBBF09A4992241B1AF1AFA8772094852A03511FBEEC78CC824219412503FC7D
 SHA512 | `CF5BAE3252DE875A84C9EABBCDB0EC5068026C01D6878CE9D1FD4AC53D84BCC3D119221DBE56CA8FDCA48706B7CDDE063F4C0C210C5EFE87CF121DD020A6F4CB`
 SSDEEP | `192:HVRKqXbuA6ujT4TaiUjidB9eLiSQO28BWpeGWe:HFXbu90KaVYkwO2UWMGW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\backgroundTaskHost.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\backgroundTaskHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

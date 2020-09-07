@@ -18,13 +18,6 @@ SHA384 | `9817F929E2F2DD9C8D3D5FB3DE53D2AC95CE0605F6FAEBFDD19F3418EA2FF1386EA382
 SHA512 | `F4B72FC582370E017FF3DFBFCD561D128841AEC1F8CD4424A47EF3DB6B297341C17C93BB012FC526AADD54689FADAEC1AD0B6712593D00D50D07FB31EC7F2C6C`
 SSDEEP | `768:+2GbNkoJdmQyHSYVY2Q8f727OmQ5PyjGKC:+2Gw9HSkDRD2KnPyjGKC`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\tsecimp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

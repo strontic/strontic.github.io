@@ -152,14 +152,6 @@ w32tm /debug {/disable | {/enable /file:<name> /size:<bytes> /entries:<value>
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\w32tm.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

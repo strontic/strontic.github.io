@@ -29,15 +29,6 @@ Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\TSWbPrxy.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,22 +18,6 @@ SHA384 | `62DD9F819DD80EFBF1C78BFB5D7571500B53241666900D6D847F100348EC00EFC0EF84
 SHA512 | `7A7C167C08F5121EC179F06DABCEAF8662F54F858CD369AE1BEDEE76DC55151ED02E666EB3ACDC1CBD29849E9E3A1EA50CE69E2C71CEE8BD7B05C6761365363B`
 SSDEEP | `3072:EH3ZD80M/Xp6hy2XCquuYZeH5ToM+J/8tDu2xQ:8I0MB1eHlt0ktDu`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\taskhostw.exe |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\taskkill.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

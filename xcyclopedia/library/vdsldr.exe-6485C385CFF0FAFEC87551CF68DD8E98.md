@@ -18,13 +18,6 @@ SHA384 | `DA3FE2E25536AB5291F86A5A3FC180048B643494E6ACC8E0E646F8A2D74ED2DE244539
 SHA512 | `06F186B2C3409067EDE8016044FA2ACAFA6D4E4424EC960F3E3EB10B2CA905E63FF002242EF20D35C7D495FBFDA0D17901A7F0723C3E3B1E6AFF0569966B8918`
 SSDEEP | `384:gaWJo8Oi/BF9pZwsw6I6e+H4W/TDKnMek2KTqbxL9yeN/CeGXWU+WI4:gaSo+jXG6e+H3/TDeMeJFxL/rGXo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\vdsldr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

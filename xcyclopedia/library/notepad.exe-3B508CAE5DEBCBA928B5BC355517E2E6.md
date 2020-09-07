@@ -22,49 +22,6 @@ SHA384 | `C53E42934F2BAA4A88D2402AB40B2EEB3184E99A23DD393A268B392273609513ADE106
 SHA512 | `5F5A3B5E64B4A149865F65D678028CEF3BC0DE16EF265C130B985494AB6690193F8F5E065C6E57D723BEB208411ACA6DEBD4AFB55A64CE06F3326A76B9469145`
 SSDEEP | `3072:I9icXWs8CmX+e059nAK/WDXa3ZKvvkro5P3fL/JLgf7nDVF6PUp1Yo3ICgY:gonX+x9nAs4q3KUIT/5gfzDVlVXg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\system32\CRYPTBASE.DLL |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\iertutil.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\system32\IPHLPAPI.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\notepad.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\system32\PROPSYS.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\urlmon.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-C:\Windows\system32\WINSPOOL.DRV |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

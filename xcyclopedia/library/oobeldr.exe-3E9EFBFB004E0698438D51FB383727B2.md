@@ -18,21 +18,6 @@ SHA384 | `A9F9A4BB272C8D977CD3305A69988B2FF7463E4CCCB7626E77EC455E32DC1901E8AC9C
 SHA512 | `751E000A6115E7CF79DBA56A681C13AC4F7268A3BCF942AA35414FFEB1E88623B098B3B2BCC2ED7D58F99C5C6C80C6D40131002FA1FA3439DAC1F1C39A7B49BA`
 SSDEEP | `768:McYoysP9ODc0Z6nNKl2UOVtIoDfMpJQIazVQuReUvg6kjYw+VdCZeCx/CYybL1Qy:M/sIrZ6ncstZTMDtua6k7OCIClCZiUI`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\oobe\oobeldr.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

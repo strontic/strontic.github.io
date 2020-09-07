@@ -85,16 +85,6 @@ ERROR: unknown command "/?"
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Python38\Scripts\pip3.8.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files\Python38\Scripts\pip3.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

@@ -18,17 +18,6 @@ SHA384 | `8757CB4CCA2A7A7D79E204455E70902C1682961AFD2C749C6996F9734102CE95B9178F
 SHA512 | `8EB68A7AEE2382183B43C57F815E8196398613B419F91F0B0C41D7D68BEE1C22C1C2637E26F801E2D56014DA489777591575E53B27A811D18129E878B3066900`
 SSDEEP | `3072:gIlLpNjldDfiLuQUNRD5bkmdPYP73UdRDEbV7y4eP7t:gspNjls7UjD5BSP73UTDEx7y4eP7t`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Mozilla Thunderbird\maintenanceservice_installer.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,23 +18,6 @@ SHA384 | `4B70F45F4F47196B47195B1EF3AC356FF41E5CC81119ADFD9B5CB317F75286F9113FC8
 SHA512 | `321D4A57E9CB64372BD069CE966BCE836627BF324473EB6D786776C24B6F4CBC79DD1279C7C8995C099EC4ECD85FF13AF0925871A88D928F52FD327326BE282D`
 SSDEEP | `384:xjLVTMIIibVSd/0Ztw+1xq3UZU9a1xq3UZU9yW0IW:9LZMHF0Ztw8ZU9QZU9Q`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\AxInstUI.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

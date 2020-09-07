@@ -18,14 +18,6 @@ SHA384 | `A23B653262224E7FF328FF77E5D84F3F312F3563FA9B36EB9488B9F277997BAD2D79E0
 SHA512 | `AC15B545E06FF08A17C855EDF5BB4B3E0FB776C62EFDA0FFC5939733A78B0C20E84CEE35F6C639FD1D591FA2F579D8BAC0F988A77FC8DDECE0E549497DBE1C26`
 SSDEEP | `768:mSaSf/jWPVb/UOqXFdCOkyF3F5qgtNQRW5pZppY3rseIFQs+:mSXjWtq1dCOrF15qiN5tppqseS+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\SnippingTool.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\snmp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

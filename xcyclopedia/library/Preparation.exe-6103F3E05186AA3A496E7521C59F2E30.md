@@ -18,20 +18,6 @@ SHA384 | `5F32C761CC70F9D2EB6CF04E0BE0201B34781AA995F914258DA3BF0DD74B5038DCE256
 SHA512 | `58BAF260BAB9D740063099BA2A72797F262522850096C00E38E63F3C95B72A540FE9338F84385EAB101059DF19B1C54FB1278E62EBC1DFE4F48DD19140209EE1`
 SSDEEP | `3072:h3PpcWd0dAeJopCjW+C1dvI8YOOYI0UmpKpmV2aT5qTEoN:EdAeJQCg7AmbEadEN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

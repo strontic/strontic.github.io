@@ -18,16 +18,6 @@ SHA384 | `5BDD62913566132D8F17024C3C43BA39F4BE5E8587427DA9F74CF9D4CF94865010CF11
 SHA512 | `4BDB24A81088F13EC4F8246E4D5F26348A6D4C5A42647E159B04B9159E71A24012150CCE4890667D1FDD902A1641BF134043542AFF68BF445D4F4DEAFA1C07D0`
 SSDEEP | `384:aJjx9nVH925gyH6uochX2iUrSe7uRM2NWJs0WF1C/nW3F:kx9yL0OeMM2DU/nW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\perfhost.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\perfhost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

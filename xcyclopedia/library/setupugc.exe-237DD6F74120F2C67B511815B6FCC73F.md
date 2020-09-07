@@ -18,21 +18,6 @@ SHA384 | `8816DB61D9D087D5564D00E65ACF65746580BC917CADAA343B830775CE91C0850413CF
 SHA512 | `905AE5B3B5513FCE90162A67404CCF854809EE6F8F3C542A29E0C1243175AF95F3D133269851B5A8AE09E834E964F772F924C4CA3A640DD71DD88C1464920BB3`
 SSDEEP | `1536:zhbihsTx0591Kx6VIgkEw94Q0lKK29VeWu7R4tsRc+s:zrTa5mIjjw9b0lLdWO4tY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\paint.net\SetupNgen.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\setupugc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

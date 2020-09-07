@@ -18,17 +18,6 @@ SHA384 | `5898F372F6B7645A368B46CEF3FA15EF74DC99D54EE1662F0CB06C99534AC97C553794
 SHA512 | `2C8255E830348C5251A206000FA3A13BE04A82D9D24F2AE6D33AB8DB5D3584FB544BDE955A9E9DB2149BC6463BD6CC34549EFAE439FAFCE0CBB97BDB7D078597`
 SSDEEP | `3072:3abFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:3xX8I0jct5rEJdp`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\iscsicpl.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\iscsicpl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

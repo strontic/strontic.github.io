@@ -22,16 +22,6 @@ SHA384 | `90AAD195E3E4E99842DCC26A8F7E08C3F94659A3D2561BD87512E536086E6309DEB628
 SHA512 | `EF2FC2195E6DB019E0BFF4DF9EA6027F6DA2C3C6F617212FEEDCF016E00A3BA7AEC3FC41E4C13327147D3AA7D71851DECB8C79BFBFB8EB3B75C550063620D46E`
 SSDEEP | `12288:jQPz98mUSToTmgu7wHqV/Xp22qoWeiYNPUO6rxebb3yHgXdAp8q5xh:j+UBev3KgXdAp8qR`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\IMEJP\IMJPDCT.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

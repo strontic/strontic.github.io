@@ -30,13 +30,6 @@ Path | Type
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

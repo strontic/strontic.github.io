@@ -18,17 +18,6 @@ SHA384 | `79762093654E1A9CFF8C557FE18E4B5C4493B51C3C0F6A3F3EA85CE20588AE7FF2989C
 SHA512 | `E15B334A41CEF31C06DF89BAF673726D11FEA355AAD14F0171AD227699CD2D704532F503110818289E96A1A4AE389DE12EA34DF2B94A973F121A308021636EB7`
 SSDEEP | `3072:7npwwnzfTkNa5LTERtJF4qr8Q7SiStmZ/4Pd3RJudKDm:zpwqBTEz0PtGC3i`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\Robocopy.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Robocopy.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

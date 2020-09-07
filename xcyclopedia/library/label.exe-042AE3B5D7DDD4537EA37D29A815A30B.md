@@ -18,17 +18,6 @@ SHA384 | `60FBFE024D18295D97494BA3CFCC848CF3D83FAA5C2AC0A3946F2EA44C2D0D11A2B69F
 SHA512 | `77C7FEF02A88CBC78B0F1188B022901B00A034320148C6E82C605B46575A94F35B0E0D92814DB5F43B008753B2F16923513082BCEB0481E308C9B1BCFC14E468`
 SSDEEP | `384:DgloYlKMAoaisPTL+RmRr4017eO2sgWSUjW:ElUMAoxsPTXx4QCO2sd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\ktpass.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\label.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

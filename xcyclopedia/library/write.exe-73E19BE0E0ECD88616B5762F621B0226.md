@@ -18,17 +18,6 @@ SHA384 | `A3A502C730F75C528B24CA655337335D473A7AF4DBB4A651EE6ED83F8ABD2F895145BD
 SHA512 | `EAB88674F7B27FAE21BD2D0F4F3CDD391E56BC5FC9135363B8B1A05A8660D41518E6382C67094A76EF10EE9FCD49E46F6B3164843A0581EB5EC1B032D4FE775F`
 SSDEEP | `192:fPgFa6DLjHpB+tH+r9eKY03hWxu/MWYOWS:w1Ljb+Byewoxu/MWYOWS`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\write.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\write.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

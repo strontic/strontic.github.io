@@ -31,14 +31,6 @@ Unhandled Exception: System.Security.SecurityException: Requested registry acces
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\tzsync.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

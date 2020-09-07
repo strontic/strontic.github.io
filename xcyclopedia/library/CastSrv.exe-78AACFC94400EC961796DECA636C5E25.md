@@ -18,27 +18,6 @@ SHA384 | `2840F98C1B6A49782FC479FC6FE5B0C94DF93A7E3B50AF6F1722612B4DD231543FB62B
 SHA512 | `E2F80FB124C201E678F52921513B17EB03BDD91576F0D4BACB48C86200E27A39D43EB286F56FDF78C74D0A90220796F745D714213171EFEA2052A116EBD7FD23`
 SSDEEP | `1536:gObBZ2wy1VwFvmrzQx4Qg+pLvrT8hZKiWuKhazDnJPKoJ:hbBZZyrUvmrolgwrTSKiWuKozzJCoJ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\CastSrv.exe |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MFPlat.DLL |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\RTWorkQ.DLL |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

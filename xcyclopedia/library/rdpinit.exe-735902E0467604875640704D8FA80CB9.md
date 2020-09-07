@@ -18,30 +18,6 @@ SHA384 | `414C15B0B99255961CF0646D98947B9B2F39CDCAFFA8F10EB429DC31E97EFBFC447BD4
 SHA512 | `34B820BE27AEE252D558509FC01007CE0EADC98F378A227055B15A7D30F2A11465E3724C3BE30648539D9818B7F2073B1131BA5FCBE637274A78C6173C528E1B`
 SSDEEP | `6144:wUQko2Y8D11WL0MPqNhiYEhXwhjMmehRk/mwwN9fg2:wUQkjnRwLJPqNYEjMmeh2/BGJg2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLE32.dll |
-C:\Windows\system32\rdpclip.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

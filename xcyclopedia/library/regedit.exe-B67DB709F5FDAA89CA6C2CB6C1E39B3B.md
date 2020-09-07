@@ -23,14 +23,6 @@ SHA384 | `1559C16DCDB62206F25F2C97083D610AAF35A78C7DA3D787D1B678489285A156202C25
 SHA512 | `11BEAA5D806F712CD6333B606986E7116490F4ADA87920B4029BB0AAFBF30D55449847C73058BBC11E4DB6CA09B1CB6DC4EFB49E6575AB1C23CEB8C01CC5D31A`
 SSDEEP | `3072:8BELTnC0NTvQRIxqq5iggYNf28JdVgpgw073s7jKQCL1f:8BEXvaRIUqce0iP73s7jZG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\regedit.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\regedit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

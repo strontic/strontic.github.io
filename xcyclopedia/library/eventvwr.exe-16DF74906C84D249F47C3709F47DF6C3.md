@@ -27,17 +27,6 @@ SSDEEP | `1536:8T4XMjSj5IMfoJUhSU6nPlTggJ2oj71BgR/Vp8dY14:88Z3lhzslTZJ9j7Heb8C14
 ### Child Processes:
 mmc.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\eventvwr.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

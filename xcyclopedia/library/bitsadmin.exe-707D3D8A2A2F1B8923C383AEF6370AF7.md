@@ -18,16 +18,6 @@ SHA384 | `2CDE4F144325C9108299D8403633AEA8D3DFFEF863BE01F3036F1E152F0B5FD449830F
 SHA512 | `B5EAFEC362576C804D7B194BB85067DAAFD6294A373FBE009A5D49D473A84584E9082FBB44708A8C9530EE4CD6DF6A14D070803BC5401BFC85A8EDBB414889C7`
 SSDEEP | `3072:Z/+YmZndZetIq4QJkSejZ1pMXMCSDw1wpbDORVjW1Xy72WbrODud5q0oSu/2PUG:otQJkSe/kQKobDORVj48g/2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\bitsadmin.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\bitsadmin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

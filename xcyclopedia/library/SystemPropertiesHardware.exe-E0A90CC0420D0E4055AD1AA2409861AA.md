@@ -18,14 +18,6 @@ SHA384 | `16B81E06C38DBAE4448097D82F7D0027341D1DAF1A11B9447D48A7163FE6D493102D99
 SHA512 | `23F5A93DADEBACD771E56C7BA8FD7176781433B92C145E02E1179DB1EB10CA593F0AF23923C7CD0D2E171B4603407DAAC17E9489DA47D9E2E9A1AA77ADCF78AA`
 SSDEEP | `1536:1Le/UtREC/rMcgEPJV+G57ThjEC0kzJP+V5J0:VjzECTMpuDhjRVJGC`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\SystemPropertiesHardware.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\SystemPropertiesHardware.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -39,14 +39,6 @@ TSKILL processid | processname [/SERVER:servername] [/ID:sessionid | /A] [/V]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\tskill.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

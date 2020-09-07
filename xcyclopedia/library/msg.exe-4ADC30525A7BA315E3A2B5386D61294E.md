@@ -18,14 +18,6 @@ SHA384 | `D3289993393F83642F5C787B80BA0BDB575E037269890762A651E170714782C13F4C4E
 SHA512 | `E632007E1FDD6E22A917DFC38C6C311BF4417F299FF052C2197F84A83259085732A004A19A5ECDD5B779396F1B7331770F1973946FAF75687684D862A7E7E71D`
 SSDEEP | `768:8R51CN87LjjcqmZtbQL7P6iXIjY/acnHiWd:8R51sNQyi4jY/1Jd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\msg.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\msg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

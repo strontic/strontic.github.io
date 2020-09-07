@@ -25,17 +25,6 @@ SSDEEP | `3072:hQER2Hc8Z71QWwYLpqssBF/ZlYe/eTrQOXq9mw:KC2HXZ71QPYLpqssBFIeWYOyl`
 ### Child Processes:
 mphost.exe WerFault.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Zoom\bin\aomhost\mphost.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

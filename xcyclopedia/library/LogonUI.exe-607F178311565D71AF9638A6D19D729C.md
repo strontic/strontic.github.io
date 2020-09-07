@@ -18,27 +18,6 @@ SHA384 | `0AB044962DD74A603135DC7B3E5DE4042CC5368691C473E2FF68D3228EDC5EEE667BB5
 SHA512 | `1537488E962119E600E97A5E78A54701546D4B9F66EF2CBFE9C8D9537092F51EBB0A954B487AF9CEDC0801E6CC405DB90E4D49436FA0311ED75588FCED094617`
 SSDEEP | `192:Y4Q5QD3rAMw3PDtu+WalQp0nunmbpEQrpQDoeKY0U1XlGWmUW:7YQD3rAMdGlFAgSSpuoehgWmUW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\LogonUI.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\LogonUI.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

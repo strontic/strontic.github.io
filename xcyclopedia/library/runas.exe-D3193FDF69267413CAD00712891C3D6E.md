@@ -18,14 +18,6 @@ SHA384 | `D3F78AA20ED59A032641BC2C8A6D31AB9CA53F8F65373AB4661CD1DA68254F7E37FF5B
 SHA512 | `9297B0E7DE1851172E503D08079B991D61B248681C621A2000A69C65C152640ADD4EBE0D4ABCE628063CF537483BF16DF9641D838C1AF4BE444FD5F3FF129A90`
 SSDEEP | `192:6Og41kWvmw5cv0u307RndSXggMzfTXJ8+DV1pO+903oKktWIOW:6OgRWuw2/E7RngX/MX1V1cGtWIOW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\runas.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\runas.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,23 +18,6 @@ SHA384 | `337510635FF5A049E4A4306500614A781FAB855D08FE85AE48082464D804B2493EE559
 SHA512 | `9E60EB0A2E69E44BCA029B4D5FC11A0FECC48D9602E487F76FEABD8E7D445A761448F13B8B36744E534558A7AA5B9B710A12F8BAD885FF81E727835A5095B506`
 SSDEEP | `192:B+efxv+VuwAOdFvPrk3zp+JAtpWZOUgxYPL3i7p2O1vmTJWShRW:Qcp+VuwdFbkDp+JAiZMuS7ETJWShRW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\EduPrintProv.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\system32\msvcp110_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\efsui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

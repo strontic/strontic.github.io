@@ -18,16 +18,6 @@ SHA384 | `C711771E0DCFDB8AEED9534791AD18D4A49B8B19AFD493FE88A55F0BAF69AE7CF179A0
 SHA512 | `747C8DD06061446ADF07248FBBC6CA177200EF78DAE670C31894F305C28AA915B9687F9922DA64A93CBB6B39E818B3BB239EDDABD5580AAE962CB88F9FAA7414`
 SSDEEP | `768:j8EgaX9jLtWVN4hGU+MK5bNcfT7jaRF0xGbT:j8EphWVmSMK5KbgF0ob`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\ktmutil.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ktpass.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

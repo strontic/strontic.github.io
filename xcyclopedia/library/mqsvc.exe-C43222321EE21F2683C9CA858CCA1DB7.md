@@ -18,20 +18,6 @@ SHA384 | `46985612CEF9A588C524C5529B6ABAE31FDCD6E116837C2C6986010D6BE8B35C58983F
 SHA512 | `37365E9F0CAD76DD9FA4BEE181EB4252264065C88CB4CB023C46FD3A64CC24C51581D12765C7A30DEE62943605882C0270A327A73CBEC2B1E2CD113E43BF1073`
 SSDEEP | `384:amuiqVWtNMaWI9pTZVZkhwK1+EtU3olovGU/TFMsSeeWoXW:P0kDDdV2h91+EtUSoT+sSeo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mpnotify.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,21 +18,6 @@ SHA384 | `977AA78AE012E13F95C5E3CB4847C0DD4059EFD428E37486BC94A3801F043E06585EF0
 SHA512 | `2166CD60B1461A5AF982D49D1CC926826A3768285FDAE38C31867EF825B13E76738F95610C5EE404DF8F5B8BDDB4E3949169AA9AA7468A19103C2CEC0D59648C`
 SSDEEP | `384:UNICX8nBL7pDLFlqVMnSSj27gK/2rWEIWOKD1IDBRJdq7ZYKLlmlm:qcR8SSSq7FcDI1PE1qm`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\wuapihost.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,17 +18,6 @@ SHA384 | `56B2E96A8B36E69C711A6C2396EE7ED041CB8C42F2FE8D5EAD8F8735D5DD97EA48A4E7
 SHA512 | `A294E562059FA39078B980C80A32B2294ABC2AA972AD409E75DF414B024CD94F7D2B8715C9FDAF7C6554D57CB5E9E54B718E8E31F910B589B1E8753B29789540`
 SSDEEP | `1536:8KC/Hsda4FhPK6jcHYaQAxhFXXAAuJjx/q2alBgV1STxABQ+BXoSlSYooUX40:8KC/Hsdauys7AxXduV2lCVg9sGSHs`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\ProgramData\Apple Computer\Installer Cache\iTunes 12.10.8.5\SetupAdmin.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\setupcl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

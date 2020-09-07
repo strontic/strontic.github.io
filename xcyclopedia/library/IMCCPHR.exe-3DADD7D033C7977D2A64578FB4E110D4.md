@@ -22,17 +22,6 @@ SHA384 | `48CC1A23851EA9CC9A64C2C5FA63803BEB39FE712EF36E5E8924B1795E431F24C0610B
 SHA512 | `F66C5FC845B72653438AA722EB22CFD56A64AB23A891952CCF227947E85ED2625D21D33F828CCE73393D4D1B4AE64B6F001AA4B560483D210809CCC72B0CD823`
 SSDEEP | `6144:rowe3n8jizndTFL6DQxThlg8uSXmCPwP6k+kc8DZ0ZJ:rotFL6ohuSXmH6k+kcu2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\imagemap\imagemap.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\SHARED\IMCCPHR.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

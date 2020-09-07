@@ -18,17 +18,6 @@ SHA384 | `61AE48D4155E2D7DD09D1A89AE91FAA04207F8A0687D786C8C92C902DD6C69BF8685D1
 SHA512 | `D93B067B4E046D5C114A4A56F9B699FA521D2C093592475C2C7015B720123A96E1DCB062CCDB5809A92E8A13367F108F2FE457C3F12DB24202A535A13AAB4516`
 SSDEEP | `768:+B2heA3DhTH117L2yk5Cjswbya050Ex1md/XWRzu1UEg29M3E+EruGhJVyO:+ezhmyk5CjPJ0Bx1e+zu19gaM0ztnVy`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\drvcfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -34,14 +34,6 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\chglogon.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

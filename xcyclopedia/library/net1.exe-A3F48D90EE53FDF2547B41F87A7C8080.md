@@ -18,16 +18,6 @@ SHA384 | `F4D509FD7303CD2A9768557DCCDD1329A641699E224147571D4C4530A4D78C4E0A17D9
 SHA512 | `440DFCA2AE9CA31BAE18B8E2EEECF6B340EA78C5C3AF17C3241BBF0F47B8DA4D38B01EDEE3FE94AC800B14DCB942FC9EF781B7E4BCB4A73CBA3B0A5E2D073B91`
 SSDEEP | `3072:d0PeEp+s3t37TU2q/1ndimrbvkdeDNrZ9rsjpDp/95M:dmt37TU2G1nIiDkdeDxZ9rQH/9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\net1.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\net1.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

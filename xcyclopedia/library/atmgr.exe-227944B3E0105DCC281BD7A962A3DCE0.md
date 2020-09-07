@@ -18,17 +18,6 @@ SHA384 | `34AFCD0A90C4F27A21D735137074B2BDB49ACFE741FCAE5F64ACE7281FDEF28D544C1E
 SHA512 | `2C8C6F1F2D06D560DCBBBEEBFCE1CF4C881BE01806FFCD6FA1295AB8C43B3DE70647EA589165ACAC6E3C06B423F9873169A2B0C07169BFC3AD54DF7AE402A87D`
 SSDEEP | `12288:PqtaSHvWb65tFF4ytRFh1r1q/O4Qb3mu5g1NTdxtme/EvnYOh:PSHvG6n/4iRFh1r1q/gb3bsTfoeEj`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Common Files\Apple\Mobile Device Support\ATH.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

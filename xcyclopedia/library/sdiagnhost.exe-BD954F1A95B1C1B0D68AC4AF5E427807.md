@@ -18,30 +18,6 @@ SHA384 | `10ADEDE125E448A651651F76C20002D036241EAD5416812450B05BCB1B218E9CD60DD1
 SHA512 | `5CE8E35948616680EAB7F18B66EBE05A73A0CE34D2459078767FE31D0D661183CAC915269A9D664F326704E7C51FFF84FCEE978C004BEA27BD8375220E26F9B3`
 SSDEEP | `384:FHm8MXAvartizJWNBtoUX34d4UXiqwcI1KEac/sG/XLeitWj7DWf:irtzdnw4uw6tc/sMXLei6U`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\sdiagnhost.exe |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\sdiagnhost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,14 +18,6 @@ SHA384 | `3D2097A3F3DCCDCCABD8792B5907E749067B74E46E367C9E9756D0128BBC310C7ABB2B
 SHA512 | `61BC2A899D4D2F6F106B28BB14815B77CF256A8EA8646FB0D142D7D61D772628D41E7C29AD451F8C7FB454285B8E3DA0D3DD4F3105D2D9B4C3D291FBF77E0834`
 SSDEEP | `384:j1ljAIetQmzcbMRz6lNXiCubvVyuKWjyWb:/+QafRzgXipbvQu/`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\snmptrap.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\snmptrap.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

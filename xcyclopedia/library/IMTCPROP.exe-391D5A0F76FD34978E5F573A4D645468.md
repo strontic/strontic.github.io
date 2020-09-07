@@ -22,17 +22,6 @@ SHA384 | `AFE5432F5E3C503C91723F926B47D690245824C26BBE6BB1E5EE2700EBCF1A610705E5
 SHA512 | `27046528F010E3802D336BC2EDA1E0BDB96A47891318DFE0514A61647EC69A84C02FA457C1104834BF3D7E7D2FC097835A2AB3792D4E3FA36D8F304DF7262173`
 SSDEEP | `3072:Xi9vDm9BpJC536UM77/JdQTJHrqj21P7I/Xg+mClKRiTPqcfYn/:S9vDwrgMH/DotxjINmKKRiT7fg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\IME\IMETC\IMTCPROP.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\IME\IMETC\IMTCPROP.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

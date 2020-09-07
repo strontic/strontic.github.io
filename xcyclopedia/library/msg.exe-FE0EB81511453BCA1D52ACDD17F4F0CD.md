@@ -18,17 +18,6 @@ SHA384 | `D6FFEB53360F8A0F4019E80CA8D7BD33E2036BE57EB7C90F4CDDBBA1564097391D22E1
 SHA512 | `88D6955BDFBAAAEBDA084E4701E55E0636E5B5FA2C02E3BDDD5D925B0F3929EB25049F7504F8E247BFB4D8F238F1058615788464E7BAB9C1E7C5BE4E4FC1DA6B`
 SSDEEP | `384:nXjTTPZKC5OSwd9IPAp/Gr2bVuuacXLg6vALmwRwbyWhUWO61:X/4C5O3cqPoU1H`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\msg.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\msg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

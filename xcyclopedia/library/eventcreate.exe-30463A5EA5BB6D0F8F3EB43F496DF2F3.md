@@ -18,14 +18,6 @@ SHA384 | `3278C7CA6DD762B10D28786B0C37FE69525D62E606A417AE1A242AD2D8F7121E18F3AA
 SHA512 | `F68EFB300A03D40F7CE5D1E6F9047673A64BBC3E712EAECF5780E8ECBB43CED2C90F0BE9313A0D86DDD940D0D8F4245E0AD867313FDD3E32AED269E31B0C58FD`
 SSDEEP | `768:dYgC1IJDS8nn+18w2FKAws02VUMJgIAI/SSYMhxYxWI2ANwX:dYgCGDvnBf+2tJffYkxYxYANwX`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\eventcreate.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\eventcreate.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

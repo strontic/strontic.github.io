@@ -39,14 +39,6 @@ Usage: dispdiag [-testacpi] [-d] [-delay <seconds>] [-brightnesslogging] [-out <
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\Dism\DismHost.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

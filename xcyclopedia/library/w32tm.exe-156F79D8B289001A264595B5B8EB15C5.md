@@ -161,17 +161,6 @@ w32tm /leapseconds /getstatus [/verbose]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\w32.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

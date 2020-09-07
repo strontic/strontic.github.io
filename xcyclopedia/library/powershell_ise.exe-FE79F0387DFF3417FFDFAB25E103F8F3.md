@@ -22,20 +22,6 @@ SHA384 | `10437A534907F86ED76A15ED2043917D22C88CD73DE877FAED6B6B2456250EF4EE8CCC
 SHA512 | `B394F0965F51EFDF58256DD06CBD58B1C9F085A08EDC0F5099D67F1D37EAF7B2F3F11F32A715ECC91EB190F9877DB8CBDD6D8E6245C2427BBDAB8BD895B54184`
 SSDEEP | `6144:lC+sE4Due2C+sEQDu0irIuU5pmZbgXooP:ljsfT2jsx085pmZUP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

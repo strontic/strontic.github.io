@@ -22,17 +22,6 @@ SHA384 | `E8CB4CB37B000BC8BEA729ABCDBE3D13684AEE40C9880B49D96182712ED18B39BB67D4
 SHA512 | `6D6541576D7299310ACA05BAB0BD59F6515B7EA746D2A4E607FA7807B3F1FA7EC1AD99E1475EFCCFE4A9E227B6F388BBA48BE889ABF80DCE05315CC76E1DB35F`
 SSDEEP | `384:AFBrFGSB17fI0yr1lkbJArmQgGooIYi7z/LUG4qKZXpeO6tZUMb3KEjWv5WiNusZ:kJ1C1jrDlbIYicnepoM+EgU`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\credwiz.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\credwiz.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

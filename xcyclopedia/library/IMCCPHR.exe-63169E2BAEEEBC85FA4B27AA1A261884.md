@@ -27,17 +27,6 @@ SSDEEP | `6144:In4Ubu6sLzbSDzimcBiZg50/qR5xKqOlx8uSXmCPwP6k+kc8DZ5n:I4UaNLzbqJQr
 ### Child Processes:
 RdpSa.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\IME\shared\IMCCPHR.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

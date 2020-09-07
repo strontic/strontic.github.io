@@ -21,16 +21,6 @@ SHA384 | `4D03DEA1D78326CA0817BC9F8046B0B931C564426619F64735FADDF420C4B40E74965A
 SHA512 | `EDEFDFFAA4DEC67D3341F0BBDA43A05909BF356E5E8D593431D6DC00C72A608C3C37B140089614106CFD8B90F8388E2DF0A54C9443D488AAE3652F9DA9C8B08F`
 SSDEEP | `3072:U0Wi62A0syonMU4Ub8+XsxRT/VBqe6VY/ZEhkaD0SF0Q+bVXLjWAFjJj:fWp2v/5UviRTtBqe6YW9DX5efbFN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\bin\gspawn-win64-helper-console.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files\gs\gs9.50\bin\gswin64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

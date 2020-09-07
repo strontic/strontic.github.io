@@ -18,14 +18,6 @@ SHA384 | `21DEB946430B1E697ACB88E602B34C3CAC78D0297B0B813078B32E57AD603AACE5D622
 SHA512 | `C962ADF5AE6AED7D1887CE147CB0AC1A59BBC076CDA01EDAD05CF6DBC5E62875695C9102423ACB0BCFA8C7CC0D26A725A6294E6E1A8E4E4E20DFC6D3FC89BA5F`
 SSDEEP | `1536:52WqC3B2KcVR5SjPAKnwHqZRM6crqThEjCn8dXqe6cckUs:52ZV5Sj4KnwKft2Cn8dXWg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\dasHost.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dasHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

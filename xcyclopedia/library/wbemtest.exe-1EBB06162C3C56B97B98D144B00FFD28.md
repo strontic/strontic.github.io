@@ -23,29 +23,6 @@ SHA384 | `B423F3337398BA6FBECFE7364D5BDBA89E7F8E719561750F96B97C309BD23BB6C87CF0
 SHA512 | `8B0A471FF37961BFBE02AEEE8CD742C9B7B04903F780099219BDA1C5211A6B79544F714BD7742975ADF967A7A65AC4E5B74C4FA7027F4C89D41E76E85B16C788`
 SSDEEP | `3072:niTNlcRfxZ18CDAnfgcSiJb7qp38iUfDDB1hIPFJRAhP2EAek:niTNev18CDniKtULlqDeP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\wbem\wbemtest.exe |
-C:\Windows\SYSTEM32\wbemcomn.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

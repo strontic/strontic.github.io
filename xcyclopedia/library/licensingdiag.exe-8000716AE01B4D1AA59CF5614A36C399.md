@@ -22,14 +22,6 @@ SHA384 | `4501476D9BA381C3008BE5425E9F673A57C20B3BCFE42DCE3E64F1DEB40661217EF735
 SHA512 | `6E214722FB9A5BB4149D088177A9E22D24528598A44396784AFDA33001ADCD8F1B7CCFD81AE560309E39477C92D15F587E71F6C831C8B2F05187D2BE0F63BD11`
 SSDEEP | `12288:dV1d/xtiQ51mYdZ4PUy772FrmdP18bHT3UuTSl/Zr:D1d/xtr5b8M7Fr4t8bHIuu/Zr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\licensingdiag.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\licensingdiag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

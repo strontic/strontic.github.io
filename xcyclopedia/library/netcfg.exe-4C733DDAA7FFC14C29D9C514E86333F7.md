@@ -18,16 +18,6 @@ SHA384 | `13F9BDA475A2DBD99515AA7546151195794701B5AC96F469809FDB2D7E46432E3D6051
 SHA512 | `1771A7814C6F44590700CFC5224E8801B2442B92CF484257AD06D3A42AB421794CDF5EC5E0C9044473E74A2E0C09D9F973A2AF702E38D83B0BBA7686F6EE981F`
 SSDEEP | `768:4WXpoEpa/OC1w0EsJo1Eha0SNBlVtNQ9foKh/:LpoE8/hSjBBlVtNQ9Xh/`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\netcfg.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\netcfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

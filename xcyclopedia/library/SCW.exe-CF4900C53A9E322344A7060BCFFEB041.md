@@ -18,17 +18,6 @@ SHA384 | `023B97F6869FC957D4C3B649834923B92F20F69C8B30EB74CF65BF5B444425C6B583CD
 SHA512 | `2B15394C457D33B45294EB24F8F20A616BCBB18A29E17BF201F739FDF14CE5A1751ECE45CE08B0D663C3DDE44068B610DECDF8812F779ECD10039DB3489D4B75`
 SSDEEP | `24576:nU/VLLXEdcd+Le3WjbzP4Kx9mgKkjvWbpLfS:nU/h0cdz0n6kjvWte`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\ScriptRunner.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\SCW.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

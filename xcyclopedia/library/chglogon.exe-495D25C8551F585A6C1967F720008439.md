@@ -35,14 +35,6 @@ CHANGE LOGON {/QUERY | /ENABLE | /DISABLE | /DRAIN | /DRAINUNTILRESTART}
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\chglogon.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

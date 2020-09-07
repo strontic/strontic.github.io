@@ -18,16 +18,6 @@ SHA384 | `3E7FBED6FD494DB3772FCAB25FF0AE4E07D0A27AB70D7EB1544825C551581EAACCCEFE
 SHA512 | `B266F02D51C106B468D41101F4CE4D16ABFE01F34FBA0DBFF71AA6DAC80A937A3DFB2CDFFF3949DF8BAC67A6C5995C0876A298A4D0A74D6BC3DAFEF93E169017`
 SSDEEP | `384:EeTDxKZiuEbSIs9iN3g1eE8MD3a8XIDXnh8Wik4kTWjPgW2:Lo9EbEETTWkMw`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\true.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\tscon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

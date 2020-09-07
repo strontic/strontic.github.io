@@ -18,14 +18,6 @@ SHA384 | `8634E2ABFA7CBACAECECDC2437A095E32879AA057D1A8FD2B0FF3D3F9DAE7B25D0D4EE
 SHA512 | `43AFBFD153FABA24FCEFD1713498326112A35009B5BED01606A080D0D6B905D7540A76539F738F9F79A7DF933DDA96C0C7D7D375917729DD13384A4B891ED5EA`
 SSDEEP | `3072:hVn5UdQ7FzkRlGwwnVS570M9kdatGCO+xmBc+hMPhPsx:CQ7FQR+Vs7nyatGt+SYF`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\repair-bde.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\repair-bde.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

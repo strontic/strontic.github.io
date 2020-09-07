@@ -18,14 +18,6 @@ SHA384 | `6BEB8D3097BBFCD1560DF35D92E29E9F4FF0FD088DF6B6FBC910CCC4625258471069B3
 SHA512 | `27ADDE28809287693E26FB489DA437EBBD13428FE3CE79DB1555CEB8B669F90505F75FE6FE9E36541594D6880046778E7C90B270E7F422E813A7FB3EBC4A8068`
 SSDEEP | `6144:2CvBT0VP03eZTHlARXP1llZZ9gOWDUbbUz:/vlAzliNH793fK`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\IME\shared\IMEPADSV.EXE |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\IME\SHARED\IMEPADSV.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

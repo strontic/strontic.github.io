@@ -18,21 +18,6 @@ SHA384 | `30CC567AD8E4D13F55D1177F2B5B65DDDA044DFDC658241FEB25F75B2074D575ED1069
 SHA512 | `92312B1A9C391D5D8667199EE1FD9D741677CF07A2E42F314B8D085DF577A08FA78EA4E006AF9072F5B6130C3CE9927C721DBB4576B768F52EC061166F2F9FD7`
 SSDEEP | `6144:Eu0ZvbFD+iX57q5SCdMaJ29mi+DfS70+FBMlsDPkPw26EhN8K4oP9oQn8vND:8boiZqnHJ29mi+DfW+wdEhN8SqQn8vND`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\system32\Cabinet.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\wimserv.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

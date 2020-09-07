@@ -18,17 +18,6 @@ SHA384 | `5BF5F613059C2E5795E1F258CB9D28D10638F36A51D1159A78009BA64753F3F1213A2D
 SHA512 | `73B91466CD100AA5B7392044F818EEB5E1B3CE06343FF217B8F28AB617C809058BE06B897BE7B34AF96A6AFEA5D9ADEF27666E2A9970101A54CC08F564610BA8`
 SSDEEP | `768:DukbZlM8qG3WJqmR7YDP7Bx/W1HvcGkMowOZONNWUS1ce:JlM85iMDW1HEGkPZgNWUS1c`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\lodctr.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\lodctr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

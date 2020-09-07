@@ -18,16 +18,6 @@ SHA384 | `8C6C327BC7E31D629258B66E5885EB98643D83D4F81205E9543DAD55A5F8A8BC22B6D3
 SHA512 | `8B712B8D9319E5A259AA4063C243CCB3190B3B8F8F2F6A6BBAE4B4437CF571EF79A7BA27A0EAB137BB76BA91AAC3FFEAC94AC2FF1E96DB14C0B6D53B63DA1887`
 SSDEEP | `3072:xe1cMf+gIkvIemGyVNZTssC+9VyhXJhACmMMV2:qdf+gIkQbbN1sr+rEq`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\basenc.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\bcdboot.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

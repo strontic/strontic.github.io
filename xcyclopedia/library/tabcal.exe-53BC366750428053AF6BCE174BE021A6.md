@@ -22,26 +22,6 @@ SHA384 | `4009FC5589AC144F6789D9409C2A375AC34B161CE3E7E452AD37CD3E0CCF74778A2EA3
 SHA512 | `67ED2B255C74EC246004FEF79BD9EBEE25891BBE8717B891CEC5F051EA13DECAC1712635C9795E9AB4CDAE475698AD46E1E1D5BFC895D307917B48D1A9775D1F`
 SSDEEP | `1536:AI+3D4Up0l6b0CmChvsMQ+rHOekYoG1dfW2jbJK:AI+3EUp0l6wC93ruzYB1dfZbs`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\HID.DLL |
-C:\Windows\System32\IMM32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\system32\tabcal.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\tabcal.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

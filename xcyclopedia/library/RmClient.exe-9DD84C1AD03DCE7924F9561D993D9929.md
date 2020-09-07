@@ -29,20 +29,6 @@ SSDEEP | `192:pZiJ0hqWr/6jLL+YPLmTf8KbprpHMTtmZkfW5zWGJP:pYJwr8f+YPLmvrpsJJfW5zW
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RmClient.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

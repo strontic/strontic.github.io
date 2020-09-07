@@ -18,21 +18,6 @@ SHA384 | `822455515602ED2FF1A23305C4C83B01ACD0DA53C92F7EB6BC215B15757AA7ABFDE737
 SHA512 | `F5912E9C42ECA42C64F7C5499D8AA9376D3AE4F0447E699FC771C1D5DB46074DA51604D0B7A24BE3FB477E62052A411E3613BCD5559006378CE9A7D7375156BF`
 SSDEEP | `768:79m6fhsXKZkrWcwMa4uZlqiYIBPiz5iLBFH4vxxEuYmlnS:79m6fhsXKZkrWcwMa4uZlqi/a5wLH45k`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\ddodiag.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ddodiag.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

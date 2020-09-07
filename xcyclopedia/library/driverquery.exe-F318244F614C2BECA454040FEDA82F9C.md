@@ -18,16 +18,6 @@ SHA384 | `9ECCD979FA50FF7E1BEA401E11EDEA04A0DE6FEEB2F0585B3FDCDE29123214095CD654
 SHA512 | `A239EE63CED77F5AFE705B68538049037B5987342792055A5366222C08C9588DC8FA358626F761DA6675868274FA8968DA1617A336C61F75C538561ACCD38FAB`
 SSDEEP | `1536:+7sJFSTkPn9CDgQAVxk4T7tbULMnjuxlQVWtrs/bM4A4kDID55dxyY:3FS4nkebjjAlQCI/bD5/xv`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\driverquery.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\driverquery.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

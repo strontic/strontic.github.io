@@ -18,17 +18,6 @@ SHA384 | `2DA662AF432250841E388F1588BF74A41E8F643DA630778A1538AEE32C5B8588537F91
 SHA512 | `B2C69C0F54EB969A195E0B38464A1BD5910AFDF1FF8F1DFE0A371F53F0C56C447DAA751D8151C610C266DEFBBD83C9C73F73DBA93E8C32674B76AB21C503BB27`
 SSDEEP | `192:Na/lsoPWyW7dW1fpkicPP0DkV8ZWe3eAaUQmsW0UcHW:Na+TyKDP0G8ZWe3eysW0PHW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jdeps.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\jetpack.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

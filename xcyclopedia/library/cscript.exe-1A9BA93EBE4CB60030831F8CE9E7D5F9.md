@@ -18,16 +18,6 @@ SHA384 | `5F4CB7FD2170BAC400403CAA8463A2607E7E6D3FCFC267E1C79C75ED707C02814720C4
 SHA512 | `AB3DECCED8B1EFA2205C35A2E9A4024FDE01AA2255892075F08F3728C6D46CD5C4257334852DC0DC8C61674536CF1E975B38AF0CB29A9CFD8E544F03DF80B9C1`
 SSDEEP | `3072:A7dDUkWCakBk2uE12mSZ1MOJdpsQz7EETxtN:A5DV9SZ1MWzpTR`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\cscript.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cscript.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

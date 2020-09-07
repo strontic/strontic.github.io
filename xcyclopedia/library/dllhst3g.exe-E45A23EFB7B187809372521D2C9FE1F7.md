@@ -18,19 +18,6 @@ SHA384 | `DDBEC99E6454461A1472AD96B778C7B01E4FC89E9CBE4DE70A98C97F7349B057FA872C
 SHA512 | `03CA0BD1FD46EC5D349EE51DBE02AAC2041113047BB446B3C7AEAFD548E8BB2DB004D985BC8F9635010699E9AA7417BAB2366BD9927036F129CA4A583B7C7559`
 SSDEEP | `192:s1HcRP+Qa0po6Up5QB2eKzG/FGNW7yWS:sVco96gKB2eFGNW7yWS`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\dllhst3g.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dllhst3g.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

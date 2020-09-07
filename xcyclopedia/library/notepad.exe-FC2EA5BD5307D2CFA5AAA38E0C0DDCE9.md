@@ -22,25 +22,6 @@ SHA384 | `0E1F6647A837640BA0999B924083575D898ADE9734F0D85795B0C0FF30EF45C2E6EE4A
 SHA512 | `95CC4DC15E1CCDFA79A62429A0C086B93AA75E1548ADF4A80842DB05BF5BC81397BD8D0E1417E2DAC384628A1A666E1E66885206FBCCB85AC4C95143EEC4F7AC`
 SSDEEP | `3072:lzEI9PjHizKD0FXHTEfKEygQQrs6xZssojwJLgf7nDVF6PUp1Yo3ICg6:VPjURTKhygQQrs6w05gfzDVlVXg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\system32\notepad.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\notepad.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

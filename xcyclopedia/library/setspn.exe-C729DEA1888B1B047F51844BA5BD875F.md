@@ -18,14 +18,6 @@ SHA384 | `227EC7147BD922E67946AB4C21B00A5373510F8D8BAB334EB97A44E67F045A2E5983FC
 SHA512 | `6F6C4010C0015C1DC7EF794974D1349015EFAFF49066DCFAD990FE12C42B0161C16E329B64BD301ACD431C11E26A456F56B4D58091D492ADC34DEB4B966C0EC4`
 SSDEEP | `768:jakNYMFafaTKvRNLAnCqI7UaW0pTikvPOlFf8VYn:+khuaE04lbOUyn`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\setspn.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\setspn.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

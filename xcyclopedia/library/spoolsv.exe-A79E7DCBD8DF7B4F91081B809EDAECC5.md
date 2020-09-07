@@ -18,31 +18,6 @@ SHA384 | `FA074F9174F568D2B30C583CBFC8AF3F7A8867A07574889515CF0520A528AFC9EC27D4
 SHA512 | `6EB74BD29C405E49CF585B23BD80E86A8A7C3EB743703D11D9B9FFD1F07D8629FBE7E0F9E835BBC1A4626AF0CD42B469D0012D7979C11BC492558F51A1542A20`
 SSDEEP | `12288:lCutTZFac05kb2k0RSdv9xi+su3Xwp+OVGDsocstlUSMOLgK8wyjvOeTMK9hYLxC:l37VYiPdP8wyjvOeTMK9hYLxP1UpzaJc`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\system32\DNSAPI.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\System32\NSI.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\spoolsv.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\WS2_32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

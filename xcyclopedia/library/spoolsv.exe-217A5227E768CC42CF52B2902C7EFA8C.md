@@ -18,23 +18,6 @@ SHA384 | `6E9E7E57A2BBD9B9BABEED31D85A56CAED0D96AB60BA26956339D87DB04762C28A47AE
 SHA512 | `C3F1A3E55ED2D26467D2F6C810A1C6978FEBD31EE59AC83E32FF92D8D7CF54E1BE914D9545A7F5251579405CBF57BB0CE9D0E4557FA1688CB1037A21F8A4CCE5`
 SSDEEP | `12288:TntjB9Jl2BFaRCEe2Rv6VNWP3YT8pnFZ6NgMBjvHgbllJFhP4C/wWr9vPFPHYZsO:Ttl9eREJlJFhP4C/wWr9vPFPHYZs1deo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\splwow64.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

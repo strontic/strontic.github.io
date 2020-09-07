@@ -18,17 +18,6 @@ SHA384 | `6266167BCE7E5AC91FAC97822A3788A255C86246633F551FD2A8FE209102CDED85C461
 SHA512 | `D23EE1E175E0C214173A0A23EDFFA964C26C7611F73CF3ED07972458F0C24599D8E502D70F5BAD7191ACF30E5721A4759FDB75C5538DAA10BF640290CD4E1051`
 SSDEEP | `384:4Yd7P7H00G8e7FQL45uE4sDn/qwTki/UyIopUm6sW1BW:40H0Z5WFsn/jQyhp6v`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\rasautou.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\rasautou.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

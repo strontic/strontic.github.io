@@ -18,15 +18,6 @@ SHA384 | `091A13E0059E204F511471A6643BE3A94BDF050CAB91A11025858CFCBF342D67D0BC60
 SHA512 | `532CE25F8434E2790EDB7037F2E98AC9ED433F4CCB3D7E7D7221D32B23BFE8C55658CA48D83A77445DE39E3AF883F532445F51ED99DFC4C06860B2B18E853B1E`
 SSDEEP | `12288:rWyLIJH0Ubyj9KxjmnHOTSO6OfGNlKuY:C2IJby5ISHOTf6O+AuY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\RMActivate_ssp.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RMActivate_ssp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

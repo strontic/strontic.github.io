@@ -18,14 +18,6 @@ SHA384 | `E467D245233E8604098FA5510412CE028CA705D95AC51898AFA2824E7962EC42BC64BB
 SHA512 | `01DA4B646C64209067D57C47D62766A48006C0221A0489039A3A2049495B3A01B1C1DB3C296E1F81F9DF2C2F121C338B0BBE81C40D80A655B441945BF256689F`
 SSDEEP | `1536:gfcaZlvmbft4ZEy0lz7o5TqkpFvm3FoD2e1hfkRrccCTNleyjQW8pKeqg2WW:gfI1QE/WrrUoV1hcRjaIyEzpKeH2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\drvcfg.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\drvinst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

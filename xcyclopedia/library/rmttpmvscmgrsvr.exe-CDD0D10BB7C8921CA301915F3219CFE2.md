@@ -18,35 +18,6 @@ SHA384 | `0C3B90DFE20E3DEFB65A821FAF5E279A675271CF4CDE2AE9DD482F784CEA11FB00D3C9
 SHA512 | `9384B7AFD242166C4B077F58E863283E9A122AAE20ACD313B80EE08177AF22158B72970DE5327C6E463CCE65E8007E0112AD2B74C4532C2E1040FB692DC4FBD8`
 SSDEEP | `3072:nlFBcAqn3e8SRFnpXCg0vy6ulLxvh4hwudzd:l/7tlTSg0vy6ull5uwq`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DEVOBJ.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\profapi.dll |
-C:\Windows\system32\rmttpmvscmgrsvr.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WinSCard.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

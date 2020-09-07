@@ -18,16 +18,6 @@ SHA384 | `85271E7530023F067C7772E7C0E85938AC65154AF6F1B66DF0910BF6E321400C11DE54
 SHA512 | `1329614120A461B73973AAAF09D030DF74A4D5D77B1DDDCEB84F794053B72BF5110EA6364519B450FBE6CD8E1AA9001BA08AF6077C0981B1151AB1109F4B21CE`
 SSDEEP | `384:e/7Z4dumGb6tIgjJ3URkvO6BOGmouTf53AeawUdo4NWyJWy:C2d46oevO6BIoMDUln`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\cofire.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\cofire.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

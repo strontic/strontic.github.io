@@ -18,14 +18,6 @@ SHA384 | `8B4328F444D5DFFBA8570FB1E20D3687D62871DDC2BFD00E19C93E7C196776472ED4D2
 SHA512 | `E521CAC50014571FFF70D73242A4B8AEAD8CF54F7E7C0F4768285F0A191D2F74BE1AC4188322DA8C9A1BAC108E291C851AB4BF9D51AB22D0AFF63A3F9578F726`
 SSDEEP | `1536:a+w2y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi65U:aP55NOFpTyIcuz9WzF4Chdlzri6e`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\DeviceProperties.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\DeviceProperties.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

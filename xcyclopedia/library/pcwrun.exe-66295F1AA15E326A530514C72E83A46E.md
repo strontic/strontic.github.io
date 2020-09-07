@@ -18,33 +18,6 @@ SHA384 | `2E231580E4C195D1409A78213E220415E7159441A572E3F559B497237345CCD7B8910E
 SHA512 | `2E11D08E7E82EB11D73F44D0341B8631EC88E7CDBCB5DF5761ADE4BB4EBA3433640A1748E2F155706FA51FF86FF4F6DC8FA691DC7EAF3377ACDAB8CE5E821F40`
 SSDEEP | `192:v9bUq2ckx3+bWbraTgPyPvvnK7psJp5p3+/FZDVeKQy9m8WKgW:v95kxOyrGgPhup9uZDVe58WKgW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\pcwrun.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\pcwrun.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

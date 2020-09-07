@@ -18,16 +18,6 @@ SHA384 | `6CAF927244BFF70E319C4CFE9351E71D75E10BC5C5B2F1402D2EC0C210D7E3B80AB5BB
 SHA512 | `DE40F735ED91ACB64326F6C82C01F716B3E19EA79E2A178D1EFFD39FFDF067C9390DCDE63F94D6D2A0A36F92C5B89F1A76D8A4569B34A2C0C7EBCB4498118961`
 SSDEEP | `12288:tfT3SjgAKzeHaEeewdMs9RTjNwN+9H0CYF5Kw+o8gy:ZT3Sjgf5rfX5jNwg9UR5tFy`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RMActivate.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\RMActivate.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

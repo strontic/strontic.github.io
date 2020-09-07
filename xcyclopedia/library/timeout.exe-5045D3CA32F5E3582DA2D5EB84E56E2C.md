@@ -54,16 +54,6 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\timeout.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

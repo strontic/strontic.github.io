@@ -22,30 +22,6 @@ SHA384 | `46B94D48059941F3A56D53C56C3B79F37EBA1CD9366E8864A71644A40F3C0DE5A84E42
 SHA512 | `1155DECD84623841A3E523923E6226789DBB3C69A55460D83198B2E041AB5148C42BF9472E387143900667414E64CC07AC6256229B081DC1CEF407238EDAEBE0`
 SSDEEP | `12288:VYh5lWZ9evDiCLtTR8YbVe0TIrf8NbywLkRLgLBAgV:etvOCL9R82VLTIrfMy8oLg`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

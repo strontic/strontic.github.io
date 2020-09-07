@@ -18,16 +18,6 @@ SHA384 | `5CA8BD432CF1DDE67F5E7630DABDA40B15DD132B9B7F2EBE9CADA736B337C39993854D
 SHA512 | `634743B903BFE47252A01B25F05ADA3881DC19E95BE66A9CBE16FA6F02363D941E1EBDF312F92B5F73A7BBE2D9664B278BF1A9106F457F3F9A1DEE4257AA79A1`
 SSDEEP | `768:bIjgYZsiC38MVRyaSrLVZI7zVDI27ZmJCfe8QcD6wCtBnfU/Pwg1QieQk/8O:4XWoMVCVZIP3pfexrtRU/Pw8eQk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\djoin.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\djoin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

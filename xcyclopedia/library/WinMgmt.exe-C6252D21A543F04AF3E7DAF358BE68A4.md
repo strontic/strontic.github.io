@@ -18,13 +18,6 @@ SHA384 | `623D7292BE96EE338449CBF60574551840AB0E91799FC37176B8940C0457782D4822CD
 SHA512 | `EF7898A6417A75EF3913D1D61FE384D78D7123D1A1913E75D2F0C222AAD8515D9AA431B339B5576FB36033A419C6B17D1C41BE1E5D78DBEA7540A254187D6D8F`
 SSDEEP | `1536:ECTbU6Mi0y90nZmdShIPoANJLlAXuSXv+qSFEAeOFE+:PY6L0TmshIPFJRAhP2EAe9+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wbem\WinMgmt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

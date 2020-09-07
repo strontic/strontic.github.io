@@ -18,23 +18,6 @@ SHA384 | `4B54154044B34665036C1ADCC44924968F3045BB18B6F19D982BE91DA317DAB051EB7D
 SHA512 | `D6E0F969359E559BC048D4BA7931E971548EC0F6890062F8B68B32DCB1D75C843B1FA8912C544C7F73FF26C3ED86BDAC32D2A9BD5C62DFA1C7D58CC4E2E767C2`
 SSDEEP | `1536:u1pkpTpyCkU407Qq14uiMnAM80xCjsJQP5n+RafCuB:hPNdB4Lmp9kuQZ+RsbB`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\newdev.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\newdev.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,16 +18,6 @@ SHA384 | `8F2EA2579B4FA2216943CAC67CCCBED1A016902FE1A56DFCC491F9F4C758C3DD087B59
 SHA512 | `400E55BB4E4E215C79867107386C1813317EBF2B4CBF6112DACFDD4BB86E3A6BFE953CC33E4E7657D0B042E2DC1E6A38078107D77011ABCEBDE9F98F44250F78`
 SSDEEP | `384:yNiDgqgrg5gsgBgVgQ/A2bE6IIdxGUrH7CHCV/Xg1/T9BUOXs4/xSurT1p+UeeKl:yN2oGdxGa7CHYvg1L7UOXsCSo3KkjA`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\wsimport.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\WSManHTTPConfig.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

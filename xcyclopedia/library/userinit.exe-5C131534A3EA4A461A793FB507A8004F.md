@@ -18,30 +18,6 @@ SHA384 | `33F1D1D5857C9C13BC7EC8D41604D6F0C1B63B7C340FDD5284BBB3C373896AC27C5192
 SHA512 | `AC7CDE62BED661FCCD87EC226ABB768C834632A3282EB14F6EE6320584B8D77CD2A0FDECD3366F54DAC4BE0285A53D3A88E0C90252F22AC4D4B1FFE68C3DA838`
 SSDEEP | `384:HsGPfHkWqdBxj+9fq5S2BmRquM2j7wZwOeW35GE6Lq0W84Sd7CWwymW:Vk9T5S2wc5YiwOeGGEvK4ed`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\USERENV.dll |
-C:\Windows\system32\userinit.exe |
-C:\Windows\SYSTEM32\userinitext.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\winsta.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\userinit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

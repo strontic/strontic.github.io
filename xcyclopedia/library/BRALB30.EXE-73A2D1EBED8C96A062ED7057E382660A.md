@@ -18,17 +18,6 @@ SHA384 | `43B78D7AF8B98AC53DF21AD7A0AF51A5AC5FFC7F7ADCD302306235DB0F5C3B4C98D03D
 SHA512 | `1D16208F7C9BEFF8843AD3A676A5DBD6D025F713E0BC075ABDDDAE4E9BCBB972700539F8E67000280E9A422B331BFED6AE7B955799EDAB4AFD7701761943E232`
 SSDEEP | `1536:uKy4sXACmpI/jdhFTcpvTHLE/5pXr5kdzgzX7iL:BynYGjnFYpvTHwx95cUzX7iL`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\border-average\border-average.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

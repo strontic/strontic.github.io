@@ -18,17 +18,6 @@ SHA384 | `AB64054DA8E22ECFE0DE84EE0F883B0D329140CA2FA494D5629C3C309A11ADA2C84412
 SHA512 | `54F96A0EBCE805F51860835391570EB0D06FC0B52D5F17BF4988903633D98FE0FF0DEE018AA306C4C4BB0F03DC5237DAA27F9DBA2B26310A7E71846005CD9FFF`
 SSDEEP | `6144:hn2s/UTgYurF8m7zdV970FtZUQd7fnPNkyq2zJllTdnr1IcbenL0c/PzkEr:LIVUF8ils7UQNnPlq2z1pJpbsfP4Er`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Audacity\audacity.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,21 +18,6 @@ SHA384 | `5E6BA9A1CF78F34991C8473783573090DC632CB10AC31EAAB4C08BBAD7AFF11A9557EF
 SHA512 | `8F76E05B743669048E80FB68026477098B2B23DBE2C00DB4F1F842F8B648CE70F470297F1A4A551B56E48A821ED3CF9C955F3EB993B5013417AAE09C02B3CEB8`
 SSDEEP | `384:fGm/abOF2skWUCLnQHWwxmRs70hOFUPt5NgB5FXIJAwK7dek2jhKogeFaLW/wNW:/a2UQnQHWuOXTNyGAwdkmceFa/`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\paint.net\SetupNgen.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\oobe\setupsqm.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

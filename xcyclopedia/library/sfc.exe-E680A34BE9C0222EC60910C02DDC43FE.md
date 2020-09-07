@@ -18,14 +18,6 @@ SHA384 | `474AAA0696CE1ACC70095DB3A26BEAA8765C2489AB81B9DB06132A5D8FFF41C18B98F8
 SHA512 | `1338DF7866C836D8091B1521866FA919DA3E6DE03631FC001F980F4DC517CE83354CF95F291D11DE252B23DD9F961BDA1505124C158F840FAFF891E8B5570A63`
 SSDEEP | `768:8pTRZd8QEYVx+Dlu2HICbxlCNtsFiXrf9n+GKyHkXi3FNzq+2qBWRm2cbpVUsx9:IjdLP+Dl9HhxcZbFn+GKisqFNZBWMXfz`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\sfc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\sfc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

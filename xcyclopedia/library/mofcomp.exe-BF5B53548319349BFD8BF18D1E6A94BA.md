@@ -18,16 +18,6 @@ SHA384 | `024BD635693EEFB4976187CF37A3F34A37CE14D452571C1FF21C2DBF6DCB58229C532A
 SHA512 | `87B9742AE160FB71B84C11D7197D1473BD0FE4F26FA9850670BC14601F13C9A3F0CC767D485042BE72F2301A2427A499EABC678E68086EF275509A5EF48BD74F`
 SSDEEP | `384:GxnKeV5c2bFJFKFSB5XOo/o1cI6Kbl6lF3yPoatrgxgaWsoWyns6:GIUb7FKFvXBY3yPoatcxgA8ns6`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wbem\mofcomp.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wbem\mofcomp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

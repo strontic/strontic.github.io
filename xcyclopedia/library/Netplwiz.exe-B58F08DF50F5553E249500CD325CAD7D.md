@@ -18,15 +18,6 @@ SHA384 | `06AAE00D73EA44BC0D2DC29774AEDD08A9073DED6E4C9D0E6A655990F787DCA7377AF2
 SHA512 | `9168C9C17B8C77EA16C6B31A97CF28792C60350F2062FD86D6B9100AC9D198871029A64F4AE97DAE006E7A2E9146D1A3BA66999AD25FEF69FF206208B43C0608`
 SSDEEP | `384:Z2YXmCZexbTMpfUXXLM0vCjWlgENiTdDmH/qPTXxnZt4cT6W4/CW:Z292exbTsfUrh6WeENiJDBPrxZt4b`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\system32\Netplwiz.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Netplwiz.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

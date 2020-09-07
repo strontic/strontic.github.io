@@ -22,26 +22,6 @@ SHA384 | `10EE3E617CB48B379431AAEDF2E23C3EBF21E073EE2C4D19DDA0E47F8107CA5557E669
 SHA512 | `2DDADBA8CFE9A70F73330B59754592CD33C8D669507662EC52E46063BCA2AE3E9F6457C8952DAE5CA1FF2E43F05150814AE4814FC584B97570EFE92F0D86CEC0`
 SSDEEP | `384:LlrQiwD9ML3UvR2fv2LAX5qkgkHeamingjs3Do9qZBTtucoNKPwWZrW:t3Uev25kPHeaTms3DWATkSPn`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\odbcconf.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\odbcconf.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

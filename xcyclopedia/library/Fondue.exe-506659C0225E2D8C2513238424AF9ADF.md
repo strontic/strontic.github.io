@@ -22,26 +22,6 @@ SHA384 | `85205BAD74DFEFBD57C099B84A902C6B7BAB164A5E7290762C2C9C4CED672F107D873F
 SHA512 | `90E58AC7B807FAB6C59047B935A46557AC0EB53F19FF1BCD0C6405742F6F1B4B0B14FB0AE9C7966B5C71E126D2D385DB6CDD3DF27F44D2A4D41D1E3AC4D0833D`
 SSDEEP | `3072:XxbEaznWfH22ZsuX2xKwMPTnaSrIrvDb:dznWjZnXeKwMLnaqY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\Fondue.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\Fondue.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

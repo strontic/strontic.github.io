@@ -18,17 +18,6 @@ SHA384 | `715A2A3CE1B70D0A55670338C7BC2C799A7CDD6948F209D518B897782A2A9E57005EAC
 SHA512 | `7BE8BB0588B15748C27DFADD059EC1DD480DC49619C1CA585B7EBE83FE058DBEB536FBEEFF1426F345DB787254EBFE889DCC9D7EB94E98CC8CA3AE582DB6DC1E`
 SSDEEP | `384:wGw501cuxJAy4ZKUbJZWcC1U2J+clA+4sWXTBv8mlG89/W2iW:gA2cGB0mlj9B`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\doskey.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\doskey.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

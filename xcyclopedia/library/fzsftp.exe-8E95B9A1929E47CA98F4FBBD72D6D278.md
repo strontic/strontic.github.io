@@ -31,16 +31,6 @@ SSDEEP | `12288:MvGh0mGA3w7gdQps4hCCbg9Jsh0l5SoDUpgjNk:MvGUacRfbg9+GlIYUyjNk`
 ### Child Processes:
 MediaMonkey64Helper.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\FileZilla FTP Client\fzsftp.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

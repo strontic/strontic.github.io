@@ -28,16 +28,6 @@ Error: Could not find Java SE Runtime Environment.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Amazon Corretto\jre8\bin\java.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

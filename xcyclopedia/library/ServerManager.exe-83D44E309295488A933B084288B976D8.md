@@ -23,31 +23,6 @@ SHA384 | `ED6244B92A8809E1295048C241EC96BCD7FA7BDCA386EE94C50980969BC18BA3A26B92
 SHA512 | `5D32B05803603F1910E0C8F0F3659042F40C966B99564FE99C8F354DAD4F275A9E89147B8C19C3C71D0A362264D80F8AFF03F52F2BD66FD8C10358B066497A3E`
 SSDEEP | `3072:wBQrNQUQXf8fyOcR1HnPYctZLF9nM6zQHo:wGuUQPzAGR9M`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\ServerManager.exe |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

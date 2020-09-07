@@ -22,17 +22,6 @@ SHA384 | `68348EF39F951A1EC61B2180E5FF46A9E84168DA6874405FB3D8D0A20918A3C5252B55
 SHA512 | `2C7D5B780B481C307589B2CF77642BB72CF416DEB0BAF84D400FC1EF40EAC28C71955E3F1607E7114E94B3FF6785D1BB31045D12B9A1B6EC715D8877C49AB039`
 SSDEEP | `12288:B6uUP+1T+Qp5C0M0hdX+SXCoeVK90v+7Gs/r:0k1T+Q/i0hDSHNrs/`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\IME\SHARED\IMEWDBLD.EXE |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\IME\SHARED\IMEWDBLD.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

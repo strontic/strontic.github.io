@@ -18,15 +18,6 @@ SHA384 | `B647B4BC431CA3A02513D4A13C54C00F8D6FA9F3261AAABA0EA1BB39AAA25842037E8A
 SHA512 | `927F2DDA29680FB34A42AAF9C2889C787A81FB32480847FF6B137A5AF1DC9E3A1FACAF93A69C40A33800999CFAAA700020AA92B175C352ED57CEB6D031DE1261`
 SSDEEP | `1536:Qdtm6UfhyMr6uj673y9/7RT5GF75jwydMx51djvFJzQdWaIKYi/L2Xj:Pf3X0xZNMDJVJaI08`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\timeout.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\tlntsess.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

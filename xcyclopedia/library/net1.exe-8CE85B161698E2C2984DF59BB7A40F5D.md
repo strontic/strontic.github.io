@@ -18,14 +18,6 @@ SHA384 | `1ABC6DFE8B85A422374628FE375BE27425F6FCF549ED77C74A31D27E99B2F2432A8E45
 SHA512 | `3AFADCE015351C4A1140B4A36723720285404D7AFBDA2D136BD0A29B8E7FF1B23F2F5469D5ED338642CDB60839D448D786552E16ECFD3F3307220E14A2C80A04`
 SSDEEP | `3072:RzQDh7aP1KO6sWKZx3zPrtBUNbWBmjDm7TCh82iZwnCb5u2c7P8/6p1/KzW8:RzJP1KfSTAm7TCppnAO7Em/KK8`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\net1.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\net1.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

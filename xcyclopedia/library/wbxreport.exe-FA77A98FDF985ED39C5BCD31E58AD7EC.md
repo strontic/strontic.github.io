@@ -20,26 +20,6 @@ SHA384 | `0C3BD2528697421023C411364C9FD8BE2914E4C3009F1476DBA5A2676E401F60A52A64
 SHA512 | `2F8EA7F45D75142010B54671E7969622BA0E10EF9FD3ABACB9A215DE2895A89BE1ABE119C69A516F00A4E1996276720DF03C40545A2FE61FD8D703527679CEE1`
 SSDEEP | `12288:mcjD+ZGnFGXCez87jyFErlkrmFKCvJ4rDXJMgvEhrxgG:mcjD+ZGnFy1gyFEzFKCGJzEhFgG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\wbengine.exe |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

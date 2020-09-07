@@ -18,17 +18,6 @@ SHA384 | `5447A2BF2C7B123DF54C4D07340E1175F1BC00876639359F42C039CB53E581C9B61D5F
 SHA512 | `5D092AE19886262BA8CC281C00BE80C57754DBA08EA1937265F3D1384F25E921930C3BD89145EC9C96AE87161953EEFC96071C0C9FC28C07177BBD8F7E99DA5A`
 SSDEEP | `384:rHGcMXgvaDJmvx/E1UAUC1CnfnwzqduYRbCqrXmKWneEToQPiutWj7DW:oVQOe6Cnvx1CgXXXE5Piu6`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\sdiagnhost.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\sdiagnhost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

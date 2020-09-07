@@ -18,17 +18,6 @@ SHA384 | `F2658F9BAD7BB5A483FCA6AC8AEB4E02A3D03E437AE848E755197DE8BC8B863B0EE84C
 SHA512 | `03BA6F5148D753ECB9416165EC4FE91FA2055ED3E70CCC93915999FD26058BB9795FB8365E76C1D067BD35FB0E9E527CC566A5F9869CB5DC9F9619ECE4DE09F2`
 SSDEEP | `192:msnLURchTC+1viFPLzh6z/pAOTLBT9VrIdG5eAhF7+IrWpUOzWD:HLURuC+18MzGML1LrId0eROWpRzWD`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\sethc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\setres.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

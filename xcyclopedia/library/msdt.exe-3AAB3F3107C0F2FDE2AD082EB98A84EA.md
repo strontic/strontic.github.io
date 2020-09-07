@@ -22,20 +22,6 @@ SHA384 | `5504F63F61909C704A1C9C6B5761CF97EB54D6FA2B7A6BFCBC6058AB91125C1E9827A1
 SHA512 | `3A14360D6075F7469146F71E3A04DA4BD614BFC3A1DE84BDFB38F06EBAA30445370090839DB4D0DDC3C162B46FD43B73EF9C3682A70B210A436D9CD631E79133`
 SSDEEP | `24576:hxnAB7QiQiycR36XH4qvIReK1odddGdBnyEj6kKZnBFz:daqNK7jyRBt`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\msconfig.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\msdt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

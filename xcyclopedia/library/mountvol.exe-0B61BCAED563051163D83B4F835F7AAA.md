@@ -69,16 +69,6 @@ Possible values for VolumeName along with current mount points are:
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wbem\mofcomp.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

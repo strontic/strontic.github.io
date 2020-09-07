@@ -22,51 +22,6 @@ SHA384 | `A839C57A695AFC0D159FDC650ECCC53A149501EA9BD62D1F13D3AC12B2D2B7CAFEF718
 SHA512 | `29FD3DB9B9018218EC5390A48A7CAA37AB169459B67040090D1DD085E030ED7121B1786F26CF7E17D977DFCE87D7F4C0A71B6CF0932360C450A622BEFAF1AE67`
 SSDEEP | `3072:HPkVjGPsw40GLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLEY:vkLuZToIuUXmmZbgDooMD`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.Pd3efef62#\5c0638ef1b9468cab862ad2540108bc6\Microsoft.PowerShell.ISECommon.ni.dll |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\d9010e50e40e3e6a8e77495acf060c0f\mscorlib.ni.dll |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\98fd237ddd932ab6a650e8400655a5b8\System.Core.ni.dll |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\f33bf23a9bb039afed4f40da2cc7c28e\System.Drawing.ni.dll |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b9c2a573fa8d59b327aa00a50d31ef11\System.Management.Automation.ni.dll |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\9f081748f0cebf074c5e9eb0d266e77c\System.Windows.Forms.ni.dll |
-C:\Windows\assembly\NativeImages_v4.0.30319_64\System\1ae46fe9e573f1069305bd598b4ed147\System.ni.dll |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll |
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\CRYPTBASE.dll |
-C:\Windows\System32\CRYPTSP.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\psapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\rsaenh.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

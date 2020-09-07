@@ -23,42 +23,6 @@ SSDEEP | `49152:wfYbFkUaCw8fYuUnfTxIayPjM1MTGXWFtolnBDwRG4/AcNsZ7aW4vEDXiKpcT+KH
 ### Child Processes:
 opera_autoupdate.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Opera\70.0.3728.133\opera_autoupdate.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\credui.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\SYSTEM32\CRYPTBASE.DLL |
-C:\Windows\SYSTEM32\dbgcore.DLL |
-C:\Windows\SYSTEM32\dbghelp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\USERENV.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\WINHTTP.dll |
-C:\Windows\SYSTEM32\WINMM.dll |
-C:\Windows\System32\WINTRUST.dll |
-C:\Windows\System32\WS2_32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

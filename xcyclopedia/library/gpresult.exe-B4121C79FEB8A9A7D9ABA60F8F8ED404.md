@@ -18,16 +18,6 @@ SHA384 | `879A714D203549BEEEF881F24C6FB7454A2D727BC8A52497E26AD202DD3EEDA5202690
 SHA512 | `24E4E72EF2149F1A657E09EAE9B14CEB406AE18ED30CA6B76BD42502F353E1F8660347597E10FDE26E6DAEE679D16DA9510D7E16DEB56B9EE2C2E2C41A617B92`
 SSDEEP | `3072:VwA1pUC/76BQJIH9jpmtuPMVsjlmjiEBuXnqQ7a8Yr7eLkqqFpLrC:D3U276+GH9jkE0VsMaqEazeCp`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\gpresult.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\gpresult.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

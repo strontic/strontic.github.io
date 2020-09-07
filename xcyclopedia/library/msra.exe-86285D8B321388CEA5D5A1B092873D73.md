@@ -23,17 +23,6 @@ SSDEEP | `1536:N7ls7XazinQ+dYxfNJK02oM8kIcnmPkkSTst7vIyR:LgkSX8jn6KvI`
 ### Child Processes:
 msra.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\mspaint.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -68,6 +68,13 @@ File | Score
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\photocopy\photocopy.exe](photocopy.exe-69683B38E604136574FF4228FA409BC6.md) | 43
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\twain\twain.exe](twain.exe-C23997105AA15348BD1F1F6439E16E9A.md) | 43
 
+## Possible Misuse
+
+*The following table contains possible examples of `cartoon.exe` being misused. While `cartoon.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `cartoon` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

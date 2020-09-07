@@ -53,14 +53,6 @@ iisreset [computername]
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\iisreset.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

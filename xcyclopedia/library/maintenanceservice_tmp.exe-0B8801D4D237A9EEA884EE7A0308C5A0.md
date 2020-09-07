@@ -17,17 +17,6 @@ SHA384 | `64D51D1B88651A515D01F68969401CCBE6A237F4B3F1F0E411BB12BCA37C90CB31F080
 SHA512 | `565238DC8785095D08807DF99870FFFD706B0FF76A4C9C08A4AB5A41B680631D6C4DEBF0D46D770E60C3AD6991F6A7294BDC79C2E2E8D937E8B9AE7F286A02AD`
 SSDEEP | `3072:FJP84jpTamwW7mZ6TcOZVRfU+Zztx4P981phPsbGRzlrie4yJCufjolOrWyHQkMP:FJP86zxKoZVi+Zz4lAvPlTJholgw7v`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Mozilla Firefox\maintenanceservice_installer.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

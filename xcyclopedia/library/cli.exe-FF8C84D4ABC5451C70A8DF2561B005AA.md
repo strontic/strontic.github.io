@@ -25,17 +25,6 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

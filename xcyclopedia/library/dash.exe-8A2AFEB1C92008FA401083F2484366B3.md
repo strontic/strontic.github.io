@@ -25,16 +25,6 @@ SSDEEP | `3072:RQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F:RQx0t8tF/tp2Zo5GqFNk9Ojtjl8
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cut.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

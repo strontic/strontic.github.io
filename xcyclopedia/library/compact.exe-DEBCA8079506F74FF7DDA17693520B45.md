@@ -18,13 +18,6 @@ SHA384 | `F98B46C511C27F763AB1CB633A70D4B2DF17B7DE048BF4B624D7F5544F3B1258E7C268
 SHA512 | `0D8AAC7CD1B49D8F0AF2F83859C631ABABCD3730DC5CD0BD63C15F891B3891863535D1E60892E8D8FD9B3FB81BBF72016B4B6B94C26B272ECAFFFED4EA402D02`
 SSDEEP | `384:2pPaGty0//RiCha4LkTZJP6mXjm942X/Kw7jNJWkiWrkpu:WPaGty0xiChBLk1Idv57jLHY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\compact.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -44,6 +37,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `compact.exe` being misused. While `compact.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [adjectives.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/adjectives.txt) | `compact` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

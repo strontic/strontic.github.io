@@ -18,16 +18,6 @@ SHA384 | `B865E8287BB2C71A7927B0E16A795199BDA8B6961DEABE42FC83D6EA8B63AD2E11EDF3
 SHA512 | `5FE5B2EB1BDE5F403DA723AD8E01501288CBD7E3FF31D92F7BB7C7F6015BA45651312F9FB8C037E00A2164FDF6C371B7AE1B809D7E2A693A07DBA4C87CF59FF5`
 SSDEEP | `192:1v/R3LP92F+SPkblNEPazXMBv4T42DRXpLXpNBCbgYY2C10FXkdWRUWMWCJ:9/JPEQEPazXMNS4W07Y2x2dWRUW9CJ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\print.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\print.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -65,6 +55,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Mshtml.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Mshtml.yml) | `    Description: Invoke an HTML Application via mshta.exe (Note - Pops a security warning and a print dialogue box).` | 
 [malware-ioc](https://github.com/eset/malware-ioc) | [deprimon](https://github.com/eset/malware-ioc/blob/master/deprimon/README.adoc) | `https://www.welivesecurity.com/2019/11/21/deprimon-default-print-monitor-malicious-downloader/[WeLiveSecurity].` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [deprimon](https://github.com/eset/malware-ioc/blob/master/deprimon/README.adoc) | `[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Monitors\Windows Default Print Monitor]` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `print` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [mumblehard](https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc) | `under the Perl interpreter. The following command ran as root will print the` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [mumblehard](https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc) | `ps -ef \| grep -e ' httpd$' -e ' mail$' -e ' init$' \| awk '{print $2}' \| xargs -I '{}' ls -l '/proc/{}/exe' \| grep perl \| cut -d/ -f 3` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [vf_ioc_linux_rakos.py](https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py) | `                                print("Suspected PID: {0:8s} {1:<16}:{2:>5} {3:<16}:{4:>5} {5:<15s} {6:>17s}/{7:<5d}\n".format(proto, saddr, sport, daddr, dport, state, task.comm, task.pid))` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)

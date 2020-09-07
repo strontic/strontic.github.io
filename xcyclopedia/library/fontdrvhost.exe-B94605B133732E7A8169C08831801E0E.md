@@ -23,19 +23,6 @@ SSDEEP | `24576:tEp/jPB3KZTAmklBvp61mtUBJtAlwUD+:tExjp3qTAmklBWBJtAl7D`
 ### Child Processes:
 fontdrvhost.exe WerFault.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\fontdrvhost.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

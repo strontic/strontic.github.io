@@ -18,14 +18,6 @@ SHA384 | `2E25710B480AF7862B19DC7105B958D3B57276A307CDA3F45B1C0D8427AF6DD2E3BD66
 SHA512 | `BBEE6B6EF73D838F1E112DE0DDA9FE85727CFB82F3015DBB47B81834B1A9EB6762D659F21B5F11E78BD87D0B1AF6CF487032C324CED9B8275CD3D213DDB0FAA3`
 SSDEEP | `6144:YQHSTM6D0HjEX2T//5t6xYqd6FFpjRRpB/ZOJWPkY3FHqzE:RSMDEXGX5U/dkFptx/ZOJIkYN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\rdpclip.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\rdpclip.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

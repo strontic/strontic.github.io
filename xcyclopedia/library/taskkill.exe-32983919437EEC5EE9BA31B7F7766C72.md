@@ -18,13 +18,6 @@ SHA384 | `11144CBE783B4349A261F95E5B0BF689550A152B4EC4DA867B2AB143AEC90B9CAB8E44
 SHA512 | `57320ABC5F7A0523B676A752F4C60EB8985C1C38B3ED1DD5A76EA48EA53CF64114F35E14F41E696F25637D3A7FCEE2DADB7F4AE453586647F2BD7CA4441E6352`
 SSDEEP | `1536:HhWiHp+L084X/kqEcrNvG9mbx7Kf2hEaWGiLxdnF:kiHkYvPkq9Rb1gKM5LxlF`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\taskkill.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

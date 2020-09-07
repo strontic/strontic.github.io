@@ -18,17 +18,6 @@ SHA384 | `72ACBE6D1A95C4C6A4DA4B1DA6DBBE4A3AAACE71F603E256C752C0A0C2A5BD72954EBE
 SHA512 | `8B27C15BD3BD4AB1761D7BD40883C82AD89CBE831B8FCF14B1D2CC220FBD726A28001C1B1857DA8C711DFB33D63E2A1FFC4CECE1AE01F3AF462F86C6B3C798C6`
 SSDEEP | `3072:D3LyohZ0TOCe9DqELgmkF4kiLxQsczNnLA:bLyqyAUELJYun`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Internet Explorer\iediagcmd.exe |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ieetwcollector.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

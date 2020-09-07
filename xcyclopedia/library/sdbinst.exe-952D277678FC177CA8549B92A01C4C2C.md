@@ -18,14 +18,6 @@ SHA384 | `05ADF12FBC2A2604CE439F6E421CF8BD626564838849E5D13DDBDABABB8FB84B8424AC
 SHA512 | `8456E720418CE26DCB71281DAAEEEC12A8366EE6C9FDF490168ADD500098DEE546DC413B0CD567EADAC05370B477033A457453C679092D4B20FAE0FB7D5F25E3`
 SSDEEP | `384:Jg/EcJLItPjDQKCUkwpMvODcExa3fBc35wBQL2L8iMMlPVAPW6YkzeqC5XW5gW:mLibhkwimDcE8ywOj8PVAe6xqqC52`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\sdbinst.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\sdbinst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

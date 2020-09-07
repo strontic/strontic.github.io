@@ -66,16 +66,6 @@ GPL Ghostscript 9.50: Unrecoverable error, exit code 1
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\bin\gspawn-win64-helper-console.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files\gs\gs9.50\bin\gswin64c.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

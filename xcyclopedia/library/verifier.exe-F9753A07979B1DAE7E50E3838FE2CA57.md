@@ -18,14 +18,6 @@ SHA384 | `0DFE2B2CC3D16F8802091CF71D2E6A32DE71E1B977539B52FC36921C5A7EA98248B093
 SHA512 | `A5227B7C4590956FAB99F1F694315E977127F67BE6359B35F433E5A72BDDBC264DCFA9D042B58681758DE50C5AE5681454086164408DD20CCB589C05E88E327C`
 SSDEEP | `1536:WJwB0UTv4jtCdZamkLTsd/Q5T74sAzNJWLbSAhcCHMFDuLuyyFf06tl39FKrbg6P:Wlev4l77V5mmMBuc39HcKxphcr7p`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\verifier.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\verifier.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

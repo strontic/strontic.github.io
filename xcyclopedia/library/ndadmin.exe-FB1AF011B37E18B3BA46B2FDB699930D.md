@@ -18,17 +18,6 @@ SHA384 | `1331363F84B7D4D50DB4BB820D45A035963256720A36368986AF20A5F661FA9EC69F0A
 SHA512 | `682D2DD7768186455B799B16ED60A5D5EFC9222CF9CA1AD56B8D076E5A67768D3E1F86AB665ABB7BBD39B397BA8377EE892C5557CD5E7A11220A14206A33957E`
 SSDEEP | `1536:41vwob+U407Qq14uiMnAM80xCjsJQP5n+RafCuB:Mvw+/B4Lmp9kuQZ+RsbB`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\ndadmin.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ndadmin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

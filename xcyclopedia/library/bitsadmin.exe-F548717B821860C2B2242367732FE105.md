@@ -250,14 +250,6 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\bitsadmin.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

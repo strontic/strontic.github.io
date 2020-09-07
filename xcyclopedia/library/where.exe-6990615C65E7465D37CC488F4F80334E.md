@@ -18,17 +18,6 @@ SHA384 | `951C86D66191C7E92809915EDB3253709488442C7DCD0742B82B482F0972AF7DFC216C
 SHA512 | `1C48C0B212FFC9EC48B77BF4029704B844DDF779B879629D35D2106D9FDA4C509D59AC73365EC7B947AEF9D5C48B2C9C6C25EEA3C58919CBB891D8B57CE788FE`
 SSDEEP | `768:7BBXPb5lTv/ji71ZJqxQVH2LXtgePpzvAT0A5xYx1MA:7BBXPbPvOpzMMWLXtpOHxYxCA`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\where.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\where.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

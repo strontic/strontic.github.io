@@ -18,37 +18,6 @@ SHA384 | `5AAB1DE5313D870192C579D2CCF49EFD682989F639DC6B2E1B3174719A7FA10DD5AA3E
 SHA512 | `B08AB4DFA8D3F1D625510C463B0F05B3911380F867D66F0D5C106A2A5C190182D4AD23379427C49136342C8FBC789E5636B4EADDCE2151BB268D3D3F34498523`
 SSDEEP | `384:rWsKmx9ggrM3uaB92+qaNlUq2I7RrzAbrMlpmsKW6KCmnbxiOCOW7VfWrZ1Le:ilU9fSpqaNt7NH5msKWpxn9i9h+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\system32\DSROLE.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mi.dll |
-C:\Windows\system32\miutils.dll |
-C:\Windows\System32\MSASN1.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\pcwum.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\system32\wsmprovhost.exe |
-C:\Windows\system32\WsmSvc.DLL |
-
-
 ## Signature
 
 * Status: Signature verified.

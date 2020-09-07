@@ -18,14 +18,6 @@ SHA384 | `B82DD617E7D2094D805E33D221DC89709CC71F65DC43EF3DAF16CC7C6019BB043897E8
 SHA512 | `D4DCE8896A5514BD03EE74B8C84DD384EED332EA5F0D0EF73EF5AB2F0B1CC582F63A364730AE41F732FC8B5B2294FAC3B7C67D962C118260C37833002D594680`
 SSDEEP | `1536:xz24Sdpr3XK1ebVeYKBFMYJD6gk8Q6YlkyYr+g3g6or:x8uIsYKBJsc+uno`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\Utilman.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\Utilman.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

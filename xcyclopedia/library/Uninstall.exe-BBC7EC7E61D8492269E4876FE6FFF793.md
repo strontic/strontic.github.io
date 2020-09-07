@@ -23,17 +23,6 @@ SSDEEP | `1536:iaxBRlYypb5j8ugsQ0DjLiLuJqkSZZZ3gURD8ib8OJ+NflauT41a/kxWO7iIy4Lv:
 ### Child Processes:
 Un_A.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\7-Zip\Uninstall.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

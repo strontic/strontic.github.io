@@ -36,14 +36,6 @@ REAGENTC.EXE: An error has occurred.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\ReAgentc.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

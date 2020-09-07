@@ -22,17 +22,6 @@ SHA384 | `62387053EBE3CEBC398DA37B26BFC2D67DAAA85FEC229C23FF8F588A49AA2ADF6AFF6E
 SHA512 | `4592249D5522A5245176FDDB154DB760AD30812E2D4FA1A8960A3A4551CB76A6607B77BE1101E3F75975FCCC93FDF2DF7A7437887E7031A94EF271701D2E07AF`
 SSDEEP | `768:lBcAyCBu+UPPluzu9b3pbX25T1JlZE74r+dL+GU8SbM2N2gZ7ihP6ditnxn2YVXQ:H1BuLPPljuJlL+5bU8QBNLQSExT8C`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\DevicePairingWizard.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\DevicePairingWizard.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

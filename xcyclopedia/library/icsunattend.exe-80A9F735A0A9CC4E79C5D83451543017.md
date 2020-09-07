@@ -18,17 +18,6 @@ SHA384 | `7BD85DF6CD9082597088ECFB702B7A51AF0173DA2DD6A458E6A650269B25C4DE370105
 SHA512 | `04F0474377886E7137FA7E67530B81B888023C8C0F605F38FB9E1C1E53A3AD6BCF2F77BD988021B39B40E73D203851C5128F78AFB56F885B1C73FA08CF23B8ED`
 SSDEEP | `192:JHoJDhov89I7F2BGsBU1nmRLCXcT+0XvjZXfB3lYC10F4/kzQWERWTAj3:JIJGF20kUtwOXG+0fjb3Sx7zQWERWTA`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\icsunattend.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\icsunattend.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

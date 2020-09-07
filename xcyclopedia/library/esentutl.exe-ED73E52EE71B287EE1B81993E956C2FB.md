@@ -23,16 +23,6 @@ SSDEEP | `6144:1kOobjG0Pv+KzIj7/YZYmwLkCsTCVdcjTV:1kOYG0UHRm1x+dcjT`
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\esentutl.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

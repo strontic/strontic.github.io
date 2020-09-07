@@ -18,14 +18,6 @@ SHA384 | `E9DD922187EEA95AAD87B4C833F17C3E859C84C3DCDE475017E933AB087CB92EB9E43B
 SHA512 | `7010A4E255746962A95BE3260C6F506CA01308ADCF83A23F3675187BC879B8957579FCC8F8B2D131F63214BB4B62785D42E584FE12F8561E206001BB31758DA3`
 SSDEEP | `3072:fil0TeC7EGNOvb3wwd745sUyutOa/qfXMJ1fg4a7cpK+/uNgZLOyAoGrqbjx95mo:fiqrbN4gwJRUhOUqfXMjfPzg7JKxVE`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\klist.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\InputMethod\KOR\KorIME.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

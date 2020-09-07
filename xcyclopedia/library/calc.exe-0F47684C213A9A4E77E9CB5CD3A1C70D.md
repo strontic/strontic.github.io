@@ -18,17 +18,6 @@ SHA384 | `C186CF317F97B1829E9334D8FF7899D11C3245E05F4271293F194AFF33812A08E922C0
 SHA512 | `1A020E0DBAC29445CACC2B83EAE58846CCE4A4F1E07505DB64B88ADD3C8AEEC10C6C80E94F82F48EAB87149FFD5F74F0964331DC4E48522224DFA05FDDB01F1C`
 SSDEEP | `384:krRBOTLdIhJr/sIWSqYWViiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiLiiiiiriM:eOCv/s/c`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\cacls.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,21 +18,6 @@ SHA384 | `66876C3597740311D10879EC48F9405D9C69924056CFF35F777F96987965788DC31D08
 SHA512 | `FA3808DB2EBB8087860D9AE28519EAF453F52C16076CF8450628B1D2BCB98D052FB6188D861E2E57E991662AFF8D21927AF35CC4CB3890FEAA9ACEBB8E7BDE4A`
 SSDEEP | `12288:9HXl00Mr7irR/IhDGxGs8HI1hata9AgiLVZ4Yye:ZXl00Mr7irR/Ih9s8o1hcLLVZ4Y`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MDEServer.exe |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\winmde.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

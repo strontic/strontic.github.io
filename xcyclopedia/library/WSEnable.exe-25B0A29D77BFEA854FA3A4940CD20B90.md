@@ -18,22 +18,6 @@ SHA384 | `6DF92280882945D3C906EE61F4A3DEE1C90022F8FE61D0862A4D26DDAF74D667605823
 SHA512 | `CC2CD270C0D353215B42B142BF760A7D344F5C984AA7D5DF5E862FDDA31B2BE8B3515AE59DC9571C51B989C737C0FC1C42AE49B462C8F7E215C8DFEA39FCEE9E`
 SSDEEP | `384:vqKB6YoHfRFb5NU4GpGcZBWpQemly2WCmhd0vDG8uK6jSXcCD:SbHfLb5e4cL6OemUNb6DGBKgPY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Mozilla Thunderbird\WSEnable.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

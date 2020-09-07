@@ -18,14 +18,6 @@ SHA384 | `296FFECCC6196428A1D492A89C8461D4FD3EDEB2B9B4D1CF157269B02314D070FEF06F
 SHA512 | `59B338F13BB8D634DA04D46540139F2A0B451A675F4BBEA65EDD8D690C80072C9CE5E322863D12ABD2FF053CA4E6EFDF34C368D2CA9D0EF33E79CA1808B1F3B7`
 SSDEEP | `768:YrfGlB2JS5YQDvL/HyHegHUaquMHFFxYqLHv4T0FhoN5NxLWnd:YrfYB0mYQ7LfyRay2PBoZxynd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\choice.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\choice.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

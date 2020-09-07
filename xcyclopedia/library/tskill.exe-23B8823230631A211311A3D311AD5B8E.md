@@ -18,16 +18,6 @@ SHA384 | `5CAC62B7F566A926780BC48476B9ED7A3D6CAF0ACFB4E160FA4422CAB0E5E0A188A2D9
 SHA512 | `F909C0994A65A14020B1038DC4011A12FD735528E607864732C176DF35C20DA0D28D896B8E676CA778321B740554857E149B877A8A033113953ED2980DC2AB33`
 SSDEEP | `384:kHUJsW+VYgCWk9ifa3IlA/nO9N3acXZaA8lO5W5t54eCW4pQWUz:k8slYgC3wA/G3eYQ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\tskill.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\tskill.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

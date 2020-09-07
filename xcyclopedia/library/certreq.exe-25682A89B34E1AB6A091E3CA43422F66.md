@@ -172,14 +172,6 @@ Unknown argument: -help
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\certreq.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

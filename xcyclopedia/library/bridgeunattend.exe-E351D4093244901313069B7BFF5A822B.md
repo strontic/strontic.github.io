@@ -18,16 +18,6 @@ SHA384 | `500CEE8B0EC465D3267F1C1D77CF83D5049D74B3E2FE09A21041EA02955233786E8019
 SHA512 | `880620CC47A3D73B8A189C08D241EDEFA89E0AA4861CC37DA3F4CF87121282F255047CDDADE6EC34B0816F72C274B3AC1FD35C707052AD41F3239FDDD7C62734`
 SSDEEP | `384:h57r2x7r7etCkbe16Hs9IyjDuzaqkBaycCxSZiOg3JYfPCJO44ZmeK93WBfWh:za1e/75kIMx736fK+VK9u`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\bridgeunattend.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\bridgeunattend.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

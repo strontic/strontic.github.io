@@ -18,25 +18,6 @@ SHA384 | `96C659FEC3676B62685D25739941A280D5A9D0603925437FBB212F72F000E712C5E6ED
 SHA512 | `3E0CAB178FE7BE8EA96B71C9CDE0D1A9FB2E33EE6361E4CD708FBBF7A9C0B514CB321818B68D327FAF1EA1BD843D84B3CDB7F15C988E0C5FAF1A6E60C9C26934`
 SSDEEP | `1536:6DlKFuOMZVYf3wCEgGxkS90FV+qEwBZJqqd4ahF:66eVYfhkkSUsqlZJqg4ab`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DNSAPI.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MPR.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\setupugc.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\WDSCORE.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\setx.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

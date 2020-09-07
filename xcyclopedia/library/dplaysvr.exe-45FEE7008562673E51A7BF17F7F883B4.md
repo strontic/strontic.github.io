@@ -18,17 +18,6 @@ SHA384 | `3103E6E16C69DEF25B6C3DE012DB7BBF87CD5BD0CE08A776B108CB91CA817F8D290387
 SHA512 | `3FC7235BD5D756A0C3593B1856E8CD2DC321FCCDBDEF5D4E74B273A90C16B84F5C00D7DC93E86A7BE17673CEA0FB976B15F8B4CD64EABCCE1EFD5F0518EF859B`
 SSDEEP | `96:uDYdQ2a5tbaonlOmPTMWE9YoLDbwMZRoEWFUduWwf:uDYS2a5t/n/TwYoLDMMZbWFUduWq`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\DpiScaling.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dplaysvr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

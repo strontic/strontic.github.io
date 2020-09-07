@@ -134,14 +134,6 @@ usage: ssh-agent [-c | -s] [-Dd] [-a bind_address] [-E fingerprint_hash]
 ### Child Processes:
 conhost.exe ssh-agent.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\OpenSSH\ssh-add.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

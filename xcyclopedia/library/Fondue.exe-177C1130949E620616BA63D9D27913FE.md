@@ -22,17 +22,6 @@ SHA384 | `42F45AEF6F90E9E85850663B25E91FC880775B11BBDA43F4DB95E6E696949156BD201D
 SHA512 | `F8B6AE315F56807862227565FAB653333CB43C7A0482A3B0FF81752A42A7E7F9935166AE1F695DECC7B6B66A9501F0D6C0CF617CE56CB1823466DAE7C431BE9C`
 SSDEEP | `1536:hiByjQbEaznWRJ0In22KnM5suF52KUVDzaaKtCMPTnaSsWhhIrvDI3bc:hiByQbEaznWfH22ZsuX2xKwMPTnaSrID`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\Fondue.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Fondue.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

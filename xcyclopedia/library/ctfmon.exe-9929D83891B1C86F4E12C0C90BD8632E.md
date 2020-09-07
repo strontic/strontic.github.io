@@ -18,17 +18,6 @@ SHA384 | `C1ADBF14385AECF452D0CEEF74367EC4F60CE30E3E07E9623FFF610A3171BB24133D1F
 SHA512 | `5B99BF15C5F36ED83670777E173CDB00FC10FB05F4EE0D14B59F30585F6B53E283E6EEAB251E71A4827D0674666AEEF65D4D9AE407335FAA0920590771D9893F`
 SSDEEP | `96:4+IYPI5Y80MF1v2gSnW2Qd6BZTLjlsDqf17plruADJVpRKLwEWjgWwBed:oYPD9M+npBBZTSOf17plyIYWjgWj`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\ctfmon.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ctfmon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -23,16 +23,6 @@ SSDEEP | `192:ZUGV9X0+i2Ro4yTd50lFoYhfkmMWkxWM:So9X0+q4kS2YfMWkxW`
 ### Child Processes:
 regedit.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\regedt32.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

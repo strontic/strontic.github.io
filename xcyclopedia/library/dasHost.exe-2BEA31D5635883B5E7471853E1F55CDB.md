@@ -23,16 +23,6 @@ SSDEEP | `1536:BH2ICtxwqaU6hh3mgCiIfkye2pb1n6xMyTktG8letDBlwiY2lZJI3:liw06hoO2pp
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\dash.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

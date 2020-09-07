@@ -18,22 +18,6 @@ SHA384 | `09A564D83C26B31FB29F9686FF9D3073F0C69B9B1037D77AB0F5FB47BD383202F0983D
 SHA512 | `CE894E2D7A344DD2DEE8F802841EC333DF0533D7508B6EE6B1F6EA522B22B2A7B659C2FCF9338A793F37D97EA4C1A39FA298F474425919469438CE8277656C78`
 SSDEEP | `768:O5jIz3UpHNR1h+Hi8JJcYO2Zg8mCjSbx10G98FOrMNEx:O6zU/h+Hi8JJch7+jSN6GZN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\SyncHost.exe |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

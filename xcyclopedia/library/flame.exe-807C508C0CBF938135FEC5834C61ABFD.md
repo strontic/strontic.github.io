@@ -59,6 +59,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: Copyright  1995-2020
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `flame.exe` being misused. While `flame.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `flame` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

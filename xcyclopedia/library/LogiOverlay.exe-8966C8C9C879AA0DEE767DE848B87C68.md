@@ -124,14 +124,6 @@ Unhandled Exception: System.IO.DirectoryNotFoundException: Could not find a part
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\logagent.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

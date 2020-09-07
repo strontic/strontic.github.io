@@ -22,17 +22,6 @@ SHA384 | `88E865D69D61AE9E7B5F9C7A75E5CCC873F0DE8FDEC42C593E4837142568E4EF4A56FF
 SHA512 | `F26ADC54D1B6AE70B04F0A36F65ECB903D66FAC739BDC6382DF956C45410E9B54E0E29119C2586B6CDCB70D6C9BB3F90009EAEB7C027197FA0BF407DE58DD49A`
 SSDEEP | `3072:yOVtvOX1sptKYqiKEye4P0GzT8GrJLgf7nDVF6PUp1Yo3ICg6g:yOmItKlihyv//r5gfzDVlVXgd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\notepad.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\notepad.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

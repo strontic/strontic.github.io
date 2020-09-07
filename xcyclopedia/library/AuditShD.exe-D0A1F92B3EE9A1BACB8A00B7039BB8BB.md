@@ -18,16 +18,6 @@ SHA384 | `BDDADDABB4D83D4F7237F3890E78484532691C7AD10AA39F3D7CF1C41606304C141165
 SHA512 | `303215A635215E6201D354FFF3DAC820B34CAF076B9C3878B4EAE41B37D4C84146020105F67F721341DC1ECC11591C95C059B0ABC464A0239E2841E88A21B307`
 SSDEEP | `384:NAOrR3fpgHuWGfErnssk1DgRKk4ySJwwuoGE29PC6r0y+w9mb5Hu9uI30qbiSjSa:MRP4goHs+r1I0qPw9VboCJvwaJKi`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\oobe\AuditShD.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\oobe\AuditShD.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -22,47 +22,6 @@ SHA384 | `09C491F455F2F7ED822168774B1F525BA1CE5B6B2571CC1807BD45C67B8BFF5F28458F
 SHA512 | `575E637A62A6550BC1BA0D15EC67BE98CF192C7BADD4B23673BB862B78249F1EF5E4820371CB9AC6C836E60E581F4769880A7B039BBF71D2A19A306456BCC0F0`
 SSDEEP | `6144:cSKJlvYkZCbIW9O9Vt1dVt39ENdSLiZEOHHrpm1XUZLxEZEOHHrpm1XUZLxrB:c5ld419O9Vt1dVttt+tLpm1EwtLpm1Ex`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\ATL.DLL |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\COMDLG32.dll |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\MFC42u.dll |
-C:\Windows\system32\msinfo32.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SETUPAPI.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\system32\SLC.dll |
-C:\Windows\system32\sppc.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1397_none_de7645305346d5dc\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\msinfo32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

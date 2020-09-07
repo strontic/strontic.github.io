@@ -22,16 +22,6 @@ SHA384 | `581603528A6A84818A8EB8E3D076F0EB67DBDC9FA7353A608FB303FA16AB3B4872F159
 SHA512 | `5BBCB4153CC6D9168DE2F9B883C3485AEDEF83C990461938B4397828C3E09CF399E497DE0C2FF18E57B3F8984253529E4760B59A868D8FEE15363FED65BF02AD`
 SSDEEP | `1536:E0AyXcrbNwpn2P1L9hQiMf525KPN1kNg8WAAYhpyAviuq7PO2OycwDkvvvvvvvv0:E0A1OpoLYFF1EgrAOAvi3fBBdLDR`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\LibreOffice\program\regview.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\rekeywiz.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

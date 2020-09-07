@@ -18,33 +18,6 @@ SHA384 | `4D1DCD75DEB2B57B73B4140F2C01B439F954E8F30ACC0C7B668997C33278ED674A0BDE
 SHA512 | `2A6625B588260C426CDB98CF9596F7C734AAAC29947AD429BA67DA489FBEE9B74EDA84DF6C56E49BC61E052436D3CBA3C65B4862B0F64819081C1D4F860C152A`
 SSDEEP | `12288:0pg5U1ESg1DWBQT7xSpzoiE4/VVWQrs7zqIn1Tz9jfLf5HSW18VI0a6v0cCe9B:ogDtDWq2oVyVe7zqInNJ7LAWK/a6BCWB`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\system32\ApplyTrustOffline.exe |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mintdh.dll |
-C:\Windows\System32\MSASN1.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SYSTEM32\ntmarta.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\StateRepository.Core.dll |
-C:\Windows\SYSTEM32\tdh.dll |
-C:\Windows\System32\ucrtbase.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

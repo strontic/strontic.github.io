@@ -28,17 +28,6 @@ SSDEEP | `12288:OKiWfsyRiBIgQJfckRH/k2qc8nzLxx4aRYOG2j8TDSZQCLyLgwxT3:OKnfsL8Jfb
 ### Child Processes:
 x64ProcessAssistSvc.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\softglow\softglow.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

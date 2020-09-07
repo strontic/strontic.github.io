@@ -18,16 +18,6 @@ SHA384 | `6C83DA507F81D21BCCF591FB1C4A7F5A3DED79C2B9C1BD7FDCEBC41FD35221BD67B9EE
 SHA512 | `C998C8B45069EF671ED88DA60264BDF62FCCBCEAB23DB47F85AF27E39195DF9626ED5299BEE31787652E1D0461E961D188B418E288238AF76FB985F4E3ACE5E0`
 SSDEEP | `384:CF5Biklw0j/rnAacU/wTzgl/bpgXTACq1j58g0vIW+wWqY/:CPbe07rRcU/YIiOP08//`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\at.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\at.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

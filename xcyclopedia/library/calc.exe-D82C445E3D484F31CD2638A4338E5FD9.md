@@ -18,17 +18,6 @@ SHA384 | `79FEF23FA4A3E28C6F2426DDB3C0829B19DCD09ED6BD07B14F4F3E1C75F1675340B676
 SHA512 | `91590F09480003EE967C629B78AF9B0DEA55E6C45AB3D155D1F74B566DC7CBAF6E2946EF13EFB12EB7BFD1ADE9783D5E89544AD540F134ECCBAE93DF04F7196F`
 SSDEEP | `12288:JRkui08E3X+E5gDPG0Rack9aYs1eK+1KHeGL7GOK:LkMd5gLRZk9aw/kod`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\calc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\calc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

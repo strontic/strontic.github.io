@@ -18,16 +18,6 @@ SHA384 | `23066CBC37CAAF52A292B379110A0E5B70806A69438F0B42FDDC4ABF29105251059451
 SHA512 | `750C6C7B762A6DEE13ED89D829CF0162E8EA10EF83AE5433A2CC5E0B581BD50FC7D98DA2659D092AB129AB1A13980BC09513F2FA7F024CF710E874A86E345B32`
 SSDEEP | `384:rRYotYbdP1gS5mS+legXvla6+Sywgece9zegSU/WBtW:rRux9gSkS+lw68KWgSUW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\attrib.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\attrib.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

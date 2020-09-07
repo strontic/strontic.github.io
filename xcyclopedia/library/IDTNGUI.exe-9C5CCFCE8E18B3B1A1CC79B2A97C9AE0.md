@@ -24,17 +24,6 @@ SHA384 | `C4B046304784DE978D0C49E6FF71605C08341905824EDBA9540E93B05BD368D461695F
 SHA512 | `49D100E4AF2E82846FF3695E6D67BE3BC9C71ED56201FE3923E4A73598B2FABB07801D999D076DCFF0CAB51FCE946E7232A24ABB9593903C8D09B46DB9E898B4`
 SSDEEP | `196608:8QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQQQQQQQQT:wQk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\idlj.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\WINDOWS\system32\IDTNGUI.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170

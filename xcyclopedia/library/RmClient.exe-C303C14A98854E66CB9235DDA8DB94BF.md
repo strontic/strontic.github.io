@@ -29,14 +29,6 @@ SSDEEP | `384:ZUZGRPItlJDtYbL2Xb5duDvpkh/54Khz/2NHW5zW:Zs4PIt7DtiLY5dx/lSNG`
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RmClient.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

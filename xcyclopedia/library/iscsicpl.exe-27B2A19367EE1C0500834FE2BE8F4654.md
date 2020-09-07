@@ -23,14 +23,6 @@ SSDEEP | `3072:IfbmFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:kJX8I0jct5rEJdp`
 ### Child Processes:
 rundll32.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\iscsicli.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

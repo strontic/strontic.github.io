@@ -18,14 +18,6 @@ SHA384 | `B12B0675493828CD94DEDD5F1C5A7BBFA417A369FED85CB566A990EABF273267E01AC2
 SHA512 | `24E19E0EED8E987C7FAEA060EA5C56CA4D94FA4E54FF505C335B52D542A2CBF80A431572019A61C78174367DCC6C1F5BF3EC0C688AAD5A9902DE4E01259BF8DE`
 SSDEEP | `1536:V/Z2xPuTQ1A3s5rknXqCgOBb2uhmuSk2dzBnunSPdQbdv3el54338d:V/Z2xPYQ8gG1ga2uYhztsJc54n8`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wecutil.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\wecutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,24 +18,6 @@ SHA384 | `13280B97C9FBB742B95142CE94D0EAF3711A9C70491052CE0032035C1AA2D3C47E0989
 SHA512 | `809B72BED478F3A65EC5678EDEBF8FE0B32CC51BAF6CE51A79D21D83AA5C568CF020FEC65D6E8E3B21B8D964A222766015C0149D26B771B694CB9DAE09CBFC62`
 SSDEEP | `384:6Mrngk8hn+4rEe5czfUXXLM0vCjWlgENiTdDmH/qPTXxnZt4cT6W4/CW:9mhnVrx5mfUrh6WeENiJDBPrxZt4b`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\Netplwiz.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\Netplwiz.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

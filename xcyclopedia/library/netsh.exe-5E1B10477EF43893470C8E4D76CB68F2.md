@@ -18,17 +18,6 @@ SHA384 | `BF376E2CF4948E1CD1F1189F583D70923F9D03F4E853F2FECCC7A4C913B3DF052C5466
 SHA512 | `FDB7C3C55FE4165FC8D1F9DA91A9C48DB7ED940AB59BFB9E1F1DEECBF7317BDC69DF80E4613A7C211F8DB422B95CC3EDAB4202C01F5629C43E030CA535B97AF2`
 SSDEEP | `1536:/FVbOdPjb9ZuPvDstdCkEnQrlVETxwzaMEjaWwIv/:dw9hLJPlVEtw2xn3`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\netsh.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\netsh.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

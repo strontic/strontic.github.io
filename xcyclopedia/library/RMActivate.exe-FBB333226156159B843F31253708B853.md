@@ -18,17 +18,6 @@ SHA384 | `55878C02FB3065D93FF285DB18A8E267684132A588F42687C14FAE922857314ACE09C0
 SHA512 | `A1051D7B7D594F355E6F7BE6E4B39C94A2A092CF440C54F09EACBC68010D25A2C1AD526E02A030E24C15CAEA0D25D87CC0BFE54E69044F99DAF04C4D23721031`
 SSDEEP | `12288:42Jsj+Y+Z849b1TmKjTEJT9ftgUYpFXAugdSzvzz7/Gyp2:4vj5+ZgyTEvfWUYvXAugczvzXfk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\RMActivate.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RMActivate.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

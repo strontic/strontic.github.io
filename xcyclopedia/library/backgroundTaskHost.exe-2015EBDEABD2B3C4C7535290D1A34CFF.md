@@ -18,23 +18,6 @@ SHA384 | `CA9CDDF1E41F267D9B8F1D2EB4B98C8DEC9F060FB22CC59C0629E5076CE68E096DAA8E
 SHA512 | `64F45396FBD8A42A38EAEABFF7FF310FDDC48CB2F4116D8B976F79C77497D53FE6606554EB4F7EA09711448C6E5254F5FC6BB24E33FEB6FA495C37311B3995EC`
 SSDEEP | `192:l4vXfNPm8jCQVkHW5EpYvateomzETeAOL/SQOke5WpeGWig:8f0Jz49y1TeP7OkuWMGWig`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\baaupdate.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\backgroundTaskHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

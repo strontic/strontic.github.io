@@ -18,16 +18,6 @@ SHA384 | `2070953928B8107DBE9BEC0ED0969AE49C834B8EBD312FF734E0E0C0CDAF44BDABC0B7
 SHA512 | `5D076EDFCE5C6B1D2383AC47400CC928DF1268B1F433BF7F91E2C03BC7FE27F720FCD86A18AB4EDD42E606486DD794E5CDB8E9D1D442B01ECB902E9A2B9F5024`
 SSDEEP | `24576:/fByy/b7NUqH7ntU0joFmkQvbIo1Q+R78KWvQ0iMUYkKFg1aiJ:HPH7O0joF99zf9FggiJ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\certutil.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\certutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

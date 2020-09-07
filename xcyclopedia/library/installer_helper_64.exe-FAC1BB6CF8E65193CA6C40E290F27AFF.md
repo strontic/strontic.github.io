@@ -17,26 +17,6 @@ SHA384 | `FACD13818D88FC8443BF6700AE3ABB49EC8478F50BEE8C38310C83EEF7F1B564044175
 SHA512 | `025F428BC4E681B26FE4867812A7D566D6022B7F5230E5BF29C8C8EDB25B6F87E5C730928F4EFC9E9852363399A84B397C16999E5DA8F38AF7915A708B2524AD`
 SSDEEP | `6144:EcLkSS/RsB/91TDQ1WQX41z1UEPKhpe7wTUjZGT:EwkSS/Rm91TDQ4RPK/mGT`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Opera\70.0.3728.133\installer_helper_64.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

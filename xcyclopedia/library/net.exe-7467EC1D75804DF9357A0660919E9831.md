@@ -18,17 +18,6 @@ SHA384 | `6422DCEF0C9DB31E9AB2AE2D2777E8470978C44964831C539F22CA03EA6F0612325BB1
 SHA512 | `3A47298559256D799047C7D1F06C691209C4D60047F35B199167E867BC8FB7BDAAC18D07B734A3A90EF296820288FEA5C155A7024829C0A995F52F2BBD7CFC4B`
 SSDEEP | `1536:uax0v4bGRMagyyJ2SB0iJ8LKgrox3T+Qg:uxv4+O2SR8tqTy`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\net.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\net.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

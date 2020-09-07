@@ -18,38 +18,6 @@ SHA384 | `E9FE6926CEB43A779AA1807BEB2BF3485BBA334D628901EEEB4A4C149202CEACE814AE
 SHA512 | `043FA52F0A5656EF2479AB4265561F5A7BE44DDF63D29444E90D0AD1518D9AC9DC51B315987B529B80FB2F4AF7F8AF1371A63E49633E6B6DFDD8E1BC239470DF`
 SSDEEP | `1536:XKoqsc/gEA50YF9yg0QUXQZp9DbnB6YsqlOo+vi6Ufa:XFEgEAiK0QUXCwYsqco+Qi`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\CompMgmtLauncher.exe |
-C:\Windows\System32\cryptsp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\powrprof.dll |
-C:\Windows\System32\profapi.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\CompMgmtLauncher.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

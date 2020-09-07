@@ -18,17 +18,6 @@ SHA384 | `EC8572D42D26C2F9CB83BD74356BFCB223148406A3CB9DD013A08C2164CA0924A8253E
 SHA512 | `22F4D3B7AB126A79939D3931EAA2F99CC308848643B2402C0B68DEC657FEA4A179C3E683152495A73978BF571D6427FB410380A7C55EB5968899FA5DF76CE68A`
 SSDEEP | `1536:AVwJFfXhBPu+N5D7Ha/3IVLE191XVWVDyofZTibtHRRIAgibiiLBJ2U+vrP:ZhB9x7ul191XV3QL`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\Utilman.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Utilman.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

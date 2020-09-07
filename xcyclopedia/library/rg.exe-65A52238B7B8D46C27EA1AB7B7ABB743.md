@@ -17,23 +17,6 @@ SHA384 | `149AB2558E4F44285382625C67BA4EA9844ACD6817BDE5F02B62F273A6A70C3803D65A
 SHA512 | `D87C674696F6A9E49C03617CF9B345332C774BBB0C1E2E7C57211605FB84DCC5E5CC8478EA3858A60437CBD1BF5B258B3C3EBA403ED96E280EB7909B14DDBD28`
 SSDEEP | `49152:vRANXUOlPYitW6gm03HM71YyFIJJ3DY/H8UFKPcIadCV/kWaOpX8+MI+J+GHPDQm:v6FTPYitW6gmxdk+J9bxXrCiO5c`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\VS Revo Group\Revo Uninstaller\RevoUnin.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\PSAPI.DLL |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

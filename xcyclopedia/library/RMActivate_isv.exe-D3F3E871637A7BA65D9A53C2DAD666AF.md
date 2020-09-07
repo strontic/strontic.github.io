@@ -18,13 +18,6 @@ SHA384 | `7BCD6ECE02344D25354C16E79BDC5D6F38E88639D7E918BFAF7DDE4322BCC991731093
 SHA512 | `43903B433839D3BC1CCBCA8D463EEC7D11B85905F911985825510791BAE0035731B97E24F7C23981BFB45496E40C9F1272D608773BC3E9BE9AA1310A77BA2E20`
 SSDEEP | `12288:L9HVSjRhR7Jqpgcyk9428f1fj5Sb8j8dtGtepYghVO:L9HVSjtSh4D99Sl/RpYGVO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RMActivate_isv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

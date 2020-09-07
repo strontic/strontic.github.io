@@ -22,13 +22,6 @@ SHA384 | `E521F34310B4A97CFD89F485099EF62F95F3D8E35F62A43712712ABC42CA62DD46EDE2
 SHA512 | `0FBB2E2AD21734AD5974A157681FE9E1ACBE5A19C239DBAE67DB210D48EA9AF61178B0F1CFADB1870BEE7B3570075CEEC9DA5D7B4FA9CD0B597CF910DFA965FF`
 SSDEEP | `3072:VtGumXjDMvRWBW109vJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUM4V:VoumXjDMvkU109voxEvTEPp/F`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cttune.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

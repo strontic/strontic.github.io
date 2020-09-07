@@ -18,24 +18,6 @@ SHA384 | `9A5862E84454AD35BCAB1CB6C3F3F53736B73B8BA365C4617B7EFFEBBEF99F6AAFFF79
 SHA512 | `609681D0251BAD7707B49E2F433B3B274BE47DA7D8171ECF13A427158D1FB4278C9F36E0B3E4D849B86322DDF097F4BE2AE98496F1B109DC692BC271ECFD3863`
 SSDEEP | `3072:xo6bHtpEnitC6ZdCkcv9T2wFMI/x8SYrhP0rOvfbhBe4+ef:FbHtpEnitC6ZdCkwxoSMhP0rOXOF`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\SpaceAgent.exe |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

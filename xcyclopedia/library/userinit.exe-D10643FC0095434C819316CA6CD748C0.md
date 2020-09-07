@@ -18,13 +18,6 @@ SHA384 | `EF392E2F1E59A8B1B3446DC470FD976B27A626841FF039D1C470A438759B036354A61F
 SHA512 | `87C8FF06267BFB528652FCF6E39B173D996A566D40E37682A038CD7D58EBFE92ADAD584A3F7D9E57CFEDDAB72B13F2BD4D822ABED94E2E4C0D709AFC84D36183`
 SSDEEP | `384:Q7r+oSVIANEq/lToejcFIuGKXnfMXabOTI2WwymWCrem:i66Anl8ejqGKXnfMCBay`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\userinit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

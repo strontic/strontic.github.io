@@ -22,17 +22,6 @@ SHA384 | `771601FF3DAB1CCDA993C39E4E9E04918CAAD8EAB1E3286C148B8D20BD3F14982E5DB3
 SHA512 | `5DC45B55442BB517784EC34077D26F356BAD9FB00A10AD9077E790DDEE0816110847C5E7A9F8C13C0FF849F9C372175F1E3A80A43D27593056D6D2CCAA520B3F`
 SSDEEP | `1536:vD6VajjPPBmhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWcg4zUWJG8Tc:MUPMhUYXH1+mty9quegO7j/4VpTc`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Launchy\Launchy.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\LbfoAdmin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

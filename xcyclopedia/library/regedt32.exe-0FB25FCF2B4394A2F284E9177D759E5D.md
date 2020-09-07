@@ -23,14 +23,6 @@ SSDEEP | `192:XPil/ux2Z59T7/BgTopR5TY46mCTr1i6Ohx9IVqMWkxW:SU2fte8pRJRC31iDdMWkx
 ### Child Processes:
 regedit.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\regedit.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

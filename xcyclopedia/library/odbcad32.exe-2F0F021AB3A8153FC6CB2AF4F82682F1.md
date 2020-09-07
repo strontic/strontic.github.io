@@ -18,17 +18,6 @@ SHA384 | `64EE9E131AAC38739B4D04B7BF3A4BCCC93D3444871D21A2EB4EAB89DFC6B76EE0A9F3
 SHA512 | `4162DF1D06C8123778A1CA6B3A0007D0F114876D01640EC2099A4A4435EAA2C3638D23B4034FB74BB57E34240A8C111BD8E7C0BA13E24EDD559F7F6BC5CD6122`
 SSDEEP | `1536:bQqoJTrzc1ODytv3Jrz6q9EyYt9FlUIlbvBjIloW:foJTGOUUKI9jo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\odbcad32.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\odbcad32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

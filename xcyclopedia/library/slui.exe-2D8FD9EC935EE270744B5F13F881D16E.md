@@ -18,25 +18,6 @@ SHA384 | `F91B78345E7F873D3CE5E518FD9017C922CFC71153D5B2C3551BF928BBD8E0007CA7A0
 SHA512 | `434F4D3FA0E1E79F5011E0B81B0CDC412A27690C7E0E6F0355D063D15B87174F50C59A6434F569F23F95AEC48F718E7BEE1B3CABA8039D98B40F453EA0EF34DF`
 SSDEEP | `6144:bPOsWtLMrVg2X6bVlqY/W5R02qO7VKCyWQp:bPEtLmOZ7q3nyR`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\slui.exe |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\slui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

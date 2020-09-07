@@ -20,17 +20,6 @@ SHA384 | `3FEFD21698589D466677CE766ECE1B3BF92442F74FA4556222CBF4AD2D9CF65EC97A61
 SHA512 | `608AFF0FF79250D050EF00A5B3E3B5C859C3BFFA6325FE91A707D9E8F52E5E454A2A9D997F5D1B53F937827E9605976724494D07D8284A5E541A72D591388A0E`
 SSDEEP | `3072:ZOmFbaT2UsxhX4CeAhuMsmlp3vKpRB81o:ZHoT2UsxhLhhvCpRBr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Zoom\bin\ZoomDocConverter.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

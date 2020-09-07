@@ -18,14 +18,6 @@ SHA384 | `B2AB62D9020D3179AC3F64CE36CC8B297FB8A8CC2F3A32D6F96F62247B5711F334DB72
 SHA512 | `225A089EF25BEA32D6EF803503B2B0943FEC42D6F795081DB32F8534E68EC6EB9FC0A38C371D2C5F46DFD1FD601C9F6E7CC5C67E519F1C5057D8264B305F803B`
 SSDEEP | `384:lPp/ZwIjyfD/nejgtdx0dlWV4XdeiuM9GumWL0W:lRKIW/neUnans4AiuMRj`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\finger.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\finger.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170
@@ -45,6 +37,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `finger` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

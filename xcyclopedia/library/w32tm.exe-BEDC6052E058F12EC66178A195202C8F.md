@@ -155,16 +155,6 @@ w32tm /debug {/disable | {/enable /file:<name> /size:<bytes> /entries:<value>
 ### Child Processes:
 RdpSa.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\w32tm.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

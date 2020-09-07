@@ -46,14 +46,6 @@ FIND: Parameter format not correct
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\find.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

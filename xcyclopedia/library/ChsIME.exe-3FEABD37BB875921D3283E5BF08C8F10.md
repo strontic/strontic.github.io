@@ -18,24 +18,6 @@ SHA384 | `611E68F3661D934063C590C6444BB15FD1AEF9EB4D44FF77C189392BA847DBB0E220AA
 SHA512 | `FF0BFB830FE4E4F67EEF7FA92FE0EC820626409807B1C3284AD1F8C943765BB87D211A72DE0FDB32A153272AC5899C7FCF54525271B3724E374867518FC76846`
 SSDEEP | `6144:TC0+Puyk+136pvjSG+ZYvbJaO99fbS5RM:Tf+Nk+1BG+Z+oO95qRM`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Google\Chrome\Application\85.0.4183.83\chrome_pwa_launcher.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

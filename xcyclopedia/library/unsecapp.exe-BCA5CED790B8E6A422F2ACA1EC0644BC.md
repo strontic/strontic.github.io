@@ -26,14 +26,6 @@ Cannot run standalone
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wbem\unsecapp.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

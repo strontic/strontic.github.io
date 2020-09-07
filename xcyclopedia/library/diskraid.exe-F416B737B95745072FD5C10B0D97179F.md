@@ -47,15 +47,6 @@ Examples:
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\diskraid.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

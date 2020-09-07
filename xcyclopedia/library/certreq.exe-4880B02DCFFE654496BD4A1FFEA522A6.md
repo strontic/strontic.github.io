@@ -22,14 +22,6 @@ SHA384 | `0113B5CD7A07150E7C11D1A0EFA692DDFA6596C5EEC494E0FD0994F04FF974424F3430
 SHA512 | `C478311B3D3AA964741F726B0BFDF71D1C6F92D791586599DB266EDCF57669C8B03612CE06E2458923D0EFB9A3F5762C399C41D398E550F36350060E56AE4A90`
 SSDEEP | `6144:xUJwZwgr3CZKasZSzR147rMO9GfD7y8M0vDGf1j5WaplRnJfSuap:xZfrgSC48O9GfD7yLwDGl5Wa5Jf`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\certreq.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\certreq.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

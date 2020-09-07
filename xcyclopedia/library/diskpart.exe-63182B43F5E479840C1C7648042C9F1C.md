@@ -18,16 +18,6 @@ SHA384 | `20CF9C8A6EF0B1D6747BB1F5A92FB11056B198846B0B276438D50EC293E1565DDA9C91
 SHA512 | `DDAFE2303412AF133062FA783A39A25C67ECA404053BB3DA0DDA24814ACEEEEA41337080A9DEF5C393CFD47345783C3DE648FB34A22D0925E4DF4C16B15B4288`
 SSDEEP | `3072:1p9b6XxXkO82WmJ69IQlIC7aUWIKHMoLyJWSKArkzoVawAq9pZYf1i+:1p9b6hX1DkIQl7WIKHMoLUWWjVawet`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\diskpart.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\diskpart.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

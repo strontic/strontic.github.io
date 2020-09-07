@@ -18,16 +18,6 @@ SHA384 | `BBCE7DC41AE12E2EC55EF40672669C4CC5640D8BAA71795CB8A6D690D8F4E63DCE6CCD
 SHA512 | `7DCDE5020E7E18AF0CA4373DD2D67A4FC223645D095444B90E61F2393D0E1417A9CF2BF0FF78DAD413F9F741F4BA2D3B38CF61667D51F726D25474AEE347850C`
 SSDEEP | `384:gNUjjkkM8kL35RXgyfWQqiXsO5eYoKNe1zPwWz3W:gllnJfzRcU81zP9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\query.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\query.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

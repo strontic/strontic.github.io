@@ -22,17 +22,6 @@ SHA384 | `69E69FC5F0FB4B8D79F88DF4258AABC2F5854AB1661D72794B9BE81CF16062412232AC
 SHA512 | `E02853A09F38B705ECAD0CF330476E1D3F1F9DA62C7E1924D1C61C3FABB7164C4D774F23BA9F13F333EC1DE43722D8D9BB18C0B406BB7627BE704B76C252955C`
 SSDEEP | `384:OiRkpseHdT7BHMI/W/PKjlXfoEXmq4O3q5X1GwU1KC1Q1XWTxWx:rS2+IgWE2qfq5X1GwI`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\sysinfo.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\syskey.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

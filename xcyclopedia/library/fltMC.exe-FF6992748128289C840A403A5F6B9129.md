@@ -18,16 +18,6 @@ SHA384 | `E22683DC05797B2731CB2A8AEE211A2EF3397E4E31963FDD17D1247142B36CB0BC62E4
 SHA512 | `231E93EF05CEC8F2D29985436671DED021FD61F8DB1B2B3FD0911B90072B1CA7A92A6CAB65D341FA8C82D8B530D569BFE18646CE44D417ED101E1D0EBE000EAB`
 SSDEEP | `384:C8oSwWz/I6sxLcWN1qBzs7k5FeHGo+0bdcAS3UTOCGXew2ytEnJlWG9W:Rt/I6saWNks7EB0xSETNjCEJT`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\fltMC.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\fltMC.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

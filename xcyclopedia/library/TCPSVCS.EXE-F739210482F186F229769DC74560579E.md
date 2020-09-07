@@ -18,16 +18,6 @@ SHA384 | `5265A9E4AF940068F739AE8E2C75712BD8C8D2E054C36B08ACF04FF52763F567A89216
 SHA512 | `20655074985ABC964B8271F8965007B465361DED5A6F24893BEB3960CD8C35205672B769298430AD32104834574DF1FEA4C39B27A79805EEE43CCC05A02E4CEF`
 SSDEEP | `192:jF0o+aN4XzTy3TLVo+I+mB94OS4iSUJOp1yK8WQ/WYmE:jF0odN4XzTyjpoZZeOUJOpz8WQ/W6`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\TCPSVCS.EXE |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\TCPSVCS.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,16 +18,6 @@ SHA384 | `77A8DF1A4DF493834D38D1D5FC3E117E74BE65568AAEFF0812E45CF630A39677C22E8F
 SHA512 | `25EBCB44300BCC311FB95B1AAE2F078D1EF9909E3593CA2ABCAA23E4C2F0C9DB8E71E0F9A42FE8BD6D8E09FA28F782115403889230BA21ADC9A72BDA795442DE`
 SSDEEP | `768:xLcFU+CXWulf3/BiFps2Ge3FOFKlX1pKlY:6UHXWulv/BE62GeAq1El`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\bitsadmin.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\inetsrv\bitsiissetup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

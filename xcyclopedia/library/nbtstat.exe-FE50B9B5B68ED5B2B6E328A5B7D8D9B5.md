@@ -50,14 +50,6 @@ NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\nbtstat.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

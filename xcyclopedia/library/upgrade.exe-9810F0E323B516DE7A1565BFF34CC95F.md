@@ -18,17 +18,6 @@ SHA384 | `8EA9C654E490841A9ED6E138E889E885465F7A0ECA38429201B7B493388DB7E683C639
 SHA512 | `513E0EBDA484E6370A7A3B8754D8ABC1D75EE42685F5021EC5E548026F10E4961BA2A8B04C5AA6CB858ECA16499D7BC7F59F9AA41E26597FDFDF16FF7407E959`
 SSDEEP | `1536:VJMyihOOXd78vyBxF1pnOS8zORuCpeyK5jREdxOSOxiekVHqUfI:VJMyihOOXd7SyBxF1pnOSQORu4ezUxOr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\upgrade.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -62,6 +51,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [pypi-publish.yml](https://github.com/Neo23x0/sigma/blob/master/.github/workflows/pypi-publish.yml) | `        python -m pip install --upgrade pip` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sigma-test.yml](https://github.com/Neo23x0/sigma/blob/master/.github/workflows/sigma-test.yml) | `        python -m pip install --upgrade pip` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_service_stop.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_service_stop.yml) | `    - Administrator shutting down the service due to upgrade or removal purposes` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[malware-ioc](https://github.com/eset/malware-ioc) | [adjectives.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/adjectives.txt) | `upgrade` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [rakos.yar](https://github.com/eset/malware-ioc/blob/master/rakos/rakos.yar) | `        $ = "upgrade/vars.yaml"` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [vf_ioc_linux_rakos.py](https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py) | `                          $ = "upgrade/vars.yaml"` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [python](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/contrib/python/README.md) | - Upgrade pip to the latest version: "pip install --upgrade pip" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

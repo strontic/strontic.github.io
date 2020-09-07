@@ -18,16 +18,6 @@ SHA384 | `48862144DA9666442607C77D812B33672FC9CB3CF75370BE8F59432C8542D296E09332
 SHA512 | `B1539F3F9EB7855D6A7C78986ED8CC8AB2D9D177CE2D658B85B13BE409A24AC2FD55365FD3C6C0A49438012692AA1C29E5961C0A11CD89A17DDB5A50D0987A54`
 SSDEEP | `6144:Z3x5ClQ1RGJbMsTt063tVs7nyatGt+SYF:IVMsZH+S+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\manage-bde.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\manage-bde.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

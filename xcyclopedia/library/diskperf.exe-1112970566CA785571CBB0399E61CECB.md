@@ -18,17 +18,6 @@ SHA384 | `4F9245F6AB9002D98DFE12DDDDD3380808DFD8BB599DDFFAA9A3F7A17D4F672417432C
 SHA512 | `81C8782254404C83AE868E2D938BCC4A470842C7E464BB6382AE15CB474A94882F837AA9A672ADA00B39C8C221F7C8B7EAD517E43F2D1DC4221838AD16C9FDD7`
 SSDEEP | `384:kiOMTvUrjsJAn49ayXnnOwAxjuEc0MqbYEKxniZqvydPkyKgj9WRJW:kiOMjcjsJAn49DOTxK4bYE8is6dPQgjQ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\diskperf.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\diskperf.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

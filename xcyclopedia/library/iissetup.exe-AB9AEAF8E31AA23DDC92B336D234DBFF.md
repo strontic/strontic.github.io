@@ -18,13 +18,6 @@ SHA384 | `BCE41D05BA6F12A9669083BBADA7C8C082DBD8E3796F4D70CFE819C73FBED0A148EC8C
 SHA512 | `4C355EB4F9DF83454B9A4679D6AFCE2A6DD71D6B975E27BFE42C19BE08B901FD4CDB77D5AFC83E527659729E06270A010014915DFF4D4B6E3E60FBC7F2161F73`
 SSDEEP | `3072:ViIJSnRKyHfa1NWrklEthCmc8APkzIjZrRULcf9kdvFY:kIJSnRPav4fhCmpwkzoTUckdvG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\inetsrv\iissetup.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,22 +18,6 @@ SHA384 | `E0457032C4CA40349D36636D5BFCFFE84D48CBBC97D6768B54BE9B942EC7C019D56D82
 SHA512 | `C5CBFA060D47DD7FB878B60A664122B52649F2C1AF8A96857204F3ED0E3BFAEF0E6D352CCCBF6FB8247CE5112B10F699A09BD374D7A5E4B0B615C936F91C3A90`
 SSDEEP | `768:G6Xp3rfDyLzKQRzmyeZ2IurWG3i99NBhRX9iVll00HcmES50qXdF38xeXj1PKT:p57fkUXQss+G0qtF3XpPKT`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\PickerHost.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

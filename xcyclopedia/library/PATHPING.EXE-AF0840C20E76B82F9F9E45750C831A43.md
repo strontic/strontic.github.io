@@ -18,13 +18,6 @@ SHA384 | `072BF0A0F173D3F9D585B48E8C65C8D9F3B3FD5EF158A4E2C9FB69E798AE94480EAD3E
 SHA512 | `AE7874C989211FADC93DC69045C401D098761713BE0EE6FD8453EB6258356CEF17B16BA8FBAAA6CB6EC855455B1A5260CE7E8921C610C1A6C174A5ED14F9635A`
 SSDEEP | `384:KiV0Ff8vnSHQno6uzgcAykXwjk01CXO0G/W3AWG:0weTzCe0h8`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\PATHPING.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

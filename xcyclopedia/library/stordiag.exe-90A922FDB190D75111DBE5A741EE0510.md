@@ -41,17 +41,6 @@ StorDiag [-collectEtw] [-out <PATH>]
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.dll |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\stordiag.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

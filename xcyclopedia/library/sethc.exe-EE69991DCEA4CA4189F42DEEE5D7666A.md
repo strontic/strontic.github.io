@@ -18,17 +18,6 @@ SHA384 | `10F95967CF6141337DF5E77EABE6831848C606C8CB6E7068A1293BBA2AB642CBABBD5D
 SHA512 | `0E5557CE785ADB2CE7B36CE56DB1C4EDE746EEFCF8F3243DAFC92BB6473B928EF5D5AFF742F94DAFADBCA270C1446B595F249E1B5A8252B1725B824715D5F26B`
 SSDEEP | `6144:xPQ4TVWFSOj+jC6uFz2LJGRg4kLNnei36cw:JQq07FCdUc`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\sethc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\sethc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

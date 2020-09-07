@@ -22,26 +22,6 @@ SHA384 | `8E0E177297B75A35271BD366BBE12BDFFAAB03C3A73B0A35223FB43D3F118BC61CA0A3
 SHA512 | `863C1FE896406318B261AF897BD2D83D67BBE15F591F33B71A5A556A636511BA3949606CA810754DADE2FA8C702A38D1CFC0EFA76CF5B329F18544E7DD740AF8`
 SSDEEP | `1536:Bz2qdTHUFZjPchDTzJcS3r16z4n019VtJSBTCnG9ZDTNjGPI1:4qdYTcVlrDQtJ29ZDTkQ1`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\phoneactivate.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

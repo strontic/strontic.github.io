@@ -23,21 +23,6 @@ SHA384 | `D400A59556FD2183F04160B5984AF03A8026D594EAE9EF135A2844568DB83E5ACD4EDB
 SHA512 | `DD26BF6F64565845286D085A9913BEC8A803A8F1B8AEFDE917585B45585F53DA201B8FFC371F7B37117A0524BCDEE278C623488B853A3DD500F80DAE1D495A76`
 SSDEEP | `1536:PSsrp8ZxRrnuetUUzGsadLc8REmm/x+hbh5:P1rp8DRrna/dLqmm/xEh`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\cmstp.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\cmstp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

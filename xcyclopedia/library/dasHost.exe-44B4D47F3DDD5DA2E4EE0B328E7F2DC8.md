@@ -23,14 +23,6 @@ SSDEEP | `1536:/LakScaGpYYIERUbyodnc7jHhP/hYi0FlXhh+Jpf+:m6pjHUbiv9mjlXhC9+`
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\dasHost.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

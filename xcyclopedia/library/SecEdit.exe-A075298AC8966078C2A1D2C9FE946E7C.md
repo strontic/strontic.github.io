@@ -18,16 +18,6 @@ SHA384 | `DBD7B7AA6ABBD8CC9006F7B799EF80E440CAC01ED7050B70DF7760C77F15F6EA9DB9A1
 SHA512 | `BD25DF7B82922F20A050C7829252D302B1DC74BA5583A997EF55277B52AEF2217BA0EB0F182452212D3558286D6BC9C692F61F3F06396FDD77D7C49672133EE4`
 SSDEEP | `384:ZaqZ0IEi2/3IIOhnmQqeokOXc/bEi0cv4bWezHiW/aXq0lDf2Bh7/oSXkoQfwXyk:Z5OEmUokTDEiBv4hsJqT7/pXkuZ`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\SecEdit.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\SecEdit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

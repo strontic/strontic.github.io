@@ -18,38 +18,6 @@ SHA384 | `84712DB78DEF1F23C0681420EDE31E43137C4E478B3F2076977E0B22429F49D050F80A
 SHA512 | `E49FEAFF24DB0395FA044DAE645C4A376B03513D575F1A2D371335375D7C60A88C0859B1B06C757DA5C1472113DBE81DB3B920B917343F4904B3CE6F5F94911C`
 SSDEEP | `12288:Q6JqcsiNFsRW0fTapDrbCxymAI7X9rjs9welQPUpVGMplIm9dmj1WwK9W9Qvw6Jo:Q6JgiNeR7TaExymAI7X9rQwGpAtWQmK`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\bootim.exe |
-C:\Windows\system32\BOOTUX.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DUI70.dll |
-C:\Windows\system32\DUser.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\PROPSYS.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\UIAutomationCore.DLL |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\UxTheme.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

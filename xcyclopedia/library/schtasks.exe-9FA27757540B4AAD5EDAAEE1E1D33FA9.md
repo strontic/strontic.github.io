@@ -18,16 +18,6 @@ SHA384 | `3A3AD0E32395FC3C0F685E3369B25305D5BAF18E253996215032062E4D2624833D3ADA
 SHA512 | `D3DBAC5767DC8CAF94FF90B8EB9B6686372D0C5491436DD43C858A8349980CF1509C0A0F3640ADDAB5FB8AA3E8309AC78946054E0FBB229066A707CEDEE67E19`
 SSDEEP | `3072:CPckgkn41pW0rquyDcxlmUM6fSAorVZ+Xfzfaeo8VIEoa/NbJCH:+s1pW0ufDcxlLTyQT6WN1g`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\schtasks.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\schtasks.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

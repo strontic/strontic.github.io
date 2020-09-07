@@ -18,13 +18,6 @@ SHA384 | `49B7A711E2A5442403C4A28745093B226EAB4C0A66B3781146C9D4ED9634CDEB7F307D
 SHA512 | `CD32262CA286C5F25B148235145B74093842C752C42D72478B8C3803A05F46BAC51D23B1D07949DCDA1036C5CEB1E02FD743BC4DF20943A614121F0899911E35`
 SSDEEP | `6144:ztGRiFLU2Kam77sFrBwV8HCVXJ9QyL++TRJZvvnXH3nX+ueCmueC:xGRiFd6ZhLzvvnXH3nX+ueCmueC`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\nltest.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

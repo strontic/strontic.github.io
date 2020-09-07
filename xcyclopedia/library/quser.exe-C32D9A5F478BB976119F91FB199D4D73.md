@@ -18,16 +18,6 @@ SHA384 | `4C7997DE22FD52AE51BA6AD2EFC0F40B92AE8BCD2B582138B3A3348E584268026FE939
 SHA512 | `0C92EDC3824A10686CF8478EB9BBBAFA8F0A2A5DBD3CECDFBDDE5083A6C39D893C6F22576E0660C333274A22E0BFD5BD2AE35D2240F888BC3A6018848FF47F68`
 SSDEEP | `384:wDcq3/89+iuh46Cp9YdDpbm/+S5la0X2J/dP8r+cHWSmFWcjpO:g3k9yh4Z2M/icarjpO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\quser.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\quser.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

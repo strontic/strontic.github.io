@@ -18,14 +18,6 @@ SHA384 | `3C86D1E85677BCAD64508B42921AD000FDEA1137BECF22B5ACDD73D8DE358BE8F5FF54
 SHA512 | `C3F0D8179BA1AD1C1EDF410B03B7919E9BB23996BE4B6CC606FF3A571FE021B085AD202ED5FEC493C8F451FF4FB2D279411BF2DEC9BF591C34283984E9162189`
 SSDEEP | `1536:vyDtREC/rMcgEPJV+G57ThjEC0kzJP+V5Js:6DzECTMpuDhjRVJGa`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\SystemPropertiesPerformance.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\SystemPropertiesPerformance.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

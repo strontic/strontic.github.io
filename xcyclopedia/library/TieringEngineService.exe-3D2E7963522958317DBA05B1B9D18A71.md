@@ -18,13 +18,6 @@ SHA384 | `36A4F2CC7099D162252AF1CC7CDE7264CBDBCA1B439246766E1FBE44CF9377C043BFBF
 SHA512 | `7BBEC8942D1A82E1E24B0DF1AC2D29F0708AD6076B3D6252AB4A52CB19C6AED5B8462E778D61335526736EAC860B804493CB4BC18A5DD91B42D08520034AE861`
 SSDEEP | `6144:4gR0oo7/J54/tpOQhcHPNmZuFfwBc7RK1TqHECjI/:4ff7/JS3dhm1NFo+oYjM`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\TieringEngineService.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

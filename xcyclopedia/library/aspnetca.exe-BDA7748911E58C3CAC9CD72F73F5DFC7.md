@@ -18,13 +18,6 @@ SHA384 | `9A49CC53D26B5251AA6B94F6B3E31978373DD93B100A116555E36F0CA0FD9E2B3990B4
 SHA512 | `254B7E2BE55F90A94904C3D35394A98453A3DF32D3DCB44E4C9860941DAC23E06685488818C216945483FDB6859928AD73ECDC41244E7FCA7C810C6B253B039A`
 SSDEEP | `3072:bQduH6v5UP/ksKoridSVwH9YU1hZ4GX1+kYiRpfOV:UduHjPTrGSVC199fO`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\inetsrv\aspnetca.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,16 +18,6 @@ SHA384 | `D8D526D8F3A4BBAC5C2DC5D890DF4538E52F6BFBA15EDEE01D2C06162A3CBF1A5367EF
 SHA512 | `A72009017666D8BC3A736CD76E2B7A4323F2EB77C536783C85A77FC97D35E845ECB46F5484DAE5243E76C18F8DB88E632E89E177BDDA3C731930EE49669F3DFD`
 SSDEEP | `384:CKKO+SJ/I9io3wZBkFBRakXhUTh5piWbG4uQWMnWW:CnSJYNq5XuY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\tsdiscon.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\tsdiscon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,25 +18,6 @@ SHA384 | `C262195E53E49D050AC0A53753A05A48D7E72290B5B0E57F08C565C73B8FA585355504
 SHA512 | `DC433DF51FBC21533534A9E1DA20A3C651AE2B5D077EEF4CF5C719AC18EE1FEF8AA12D8F59AE5486C094766983A7BD754AE23C915DC5FB8D33EE8561B8F4DB66`
 SSDEEP | `6144:rlp1ww7RMLpP08YUKy/xLS7oG8p/6WDykGSl1Yw3Zm:rnhtkP08YjqLS7ojw80`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Zoom\bin\aomhost\zCrashReport64.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

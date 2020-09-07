@@ -18,26 +18,6 @@ SHA384 | `182EF3A96028CAF7648EA99D10A685D1421392532586E956A56A024AA4EA96FF3A1EC2
 SHA512 | `9AC1D2F1B1901EC10996884BBF19874D166B1661D282A6F869CB36F97817AD37AF29AD5A385B03FF1733C9E3963AD2F7F558067BAEDC5C11387A0FA364D2C6F3`
 SSDEEP | `1536:tBrS9Vm8UngMCw2I8FXmzOGDBdpunOl1UIHmejrDwkKgT43FVkXXPKedjXfaW:69ReCO8FXUO0iOlCIHmeRKPKk`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\LaunchTM.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\LaunchTM.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,14 +18,6 @@ SHA384 | `AA0D333A62242207DB4FA24DC25EC6B865B290633418E4A58E9E41B7CFD3042E6AE630
 SHA512 | `83A40D792D4458B0DF708EA2F5F905D48518DA524B425FDF779B9B10859CCD3688B055A626186C9DFAA3A474C88D11683919459370F459844015A41C6DCB2FC1`
 SSDEEP | `6144:r7QNSrMSNW/oTSijtBqmqRI7R3bYqkFAEsamLywzFD3whscIlGH5enh:r7DrW/oTS8qmWyI1ePFDAhSlGH0nh`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wbem\WmiApSrv.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\wbem\WMIC.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

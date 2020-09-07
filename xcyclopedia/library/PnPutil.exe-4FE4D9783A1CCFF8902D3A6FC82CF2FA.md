@@ -18,16 +18,6 @@ SHA384 | `8E3C8A2124E5B68FA40AE88171B6ED3E5A7DE250A5AFD6A5A97F5FAB26EE7D1307FA48
 SHA512 | `B77EEA4FFB63001D91A6565A18003EE66726E84CE3FDD6016045F9CB45E1F20E4D50AC005FFDC39F61E171BF838E6AA3834C88586ECCB386DE73CF7514A29E2B`
 SSDEEP | `384:4J3e7GlAaLCPQwEyhD5yssigbB1yXdbg7sGPT/evOKE/WR8vW:c3kzwssigb4GSvOKEh`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\PnPUnattend.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\PnPutil.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,26 +18,6 @@ SHA384 | `4C8F6AA4C4CB7C3B76097C40F282C171532A1B630D31A9B3688E3F1910137107A5496B
 SHA512 | `10A227CE655A779A06B47D1A71F630688804E066F4BA93C18ED310EFE64CB0E3AAD072B998C80F5846BEA8803CB788E36D209321F9D69EAC2C9241D0C169B6C1`
 SSDEEP | `3072:Pq0bFoLKgRRJN7O5bR61kXOM5CWSzJ7nlVL:p7O7O9RHSWSz1/`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\x64\Win64ShellLink.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

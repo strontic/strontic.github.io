@@ -17,17 +17,6 @@ SHA384 | `84385B4108B529E1FE1EC587F1F3674365DDA203C041441FE853E3A9A9B266D1104788
 SHA512 | `8AEDDA0EE1D19248B8844916925CD50CFFDB83836358452607365112F97856F94D0320A77D0ED40B8753DB1CB148961D7D405F48453AB8E8782F5F3D97155203`
 SSDEEP | `6144:E/k0PGFtCM/zpe0mG6sIfOtdA8OlNfrCfD+:E/kgGFtCrG6snYN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\Integrator_Portable.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

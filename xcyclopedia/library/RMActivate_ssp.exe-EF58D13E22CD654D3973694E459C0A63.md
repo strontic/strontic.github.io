@@ -18,16 +18,6 @@ SHA384 | `5B2B36DAF5FD80CFC167CD1E88EC10BEAE0393CC005109D77E300D15A60430EEEBC977
 SHA512 | `656097D1C88E4F8CD663601D07E0EDC2936EBE5E8AB460211BAC6C209AE345C3E0D4A62CB7BEDC2DD707A2EEB0269C92D9DDAFF053E633D4A385BDDB2C57C261`
 SSDEEP | `12288:7x0JAoCpfaAleqVXLDyXNXKMbicCIyPNK:90JLCpfaA9LuXN6M2Q`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RMActivate_ssp.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\RMActivate_ssp.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

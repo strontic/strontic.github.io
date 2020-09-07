@@ -23,17 +23,6 @@ SSDEEP | `6144:Y4BpxWW2iWcKTBxdw8zbYsqplR2JduRFWG0KI3RVY2:xnxWW29FwMbyplR2dumG07
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\esentutl.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

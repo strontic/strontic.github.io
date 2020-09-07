@@ -18,14 +18,6 @@ SHA384 | `408921B9F4C4A7B5B8345CCB761FFA5C0711AC5F20EA17ABD721F66C6D4C033F6F17C9
 SHA512 | `923446DF46EB4B64E865D2BF37E3A4A07C844425E61A13A822154794AEA681BF9D8EEFAD5759F29E8282A16C24FEEFFCA016ED194CA0412D549FFC765BC4BE1F`
 SSDEEP | `384:fPvkYXG1gM6AW4AOAFLeOshsbB6eAju02W/oUW:fPvkYmgDAW4AxFLy8Vjp`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\TapiUnattend.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\TapiUnattend.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

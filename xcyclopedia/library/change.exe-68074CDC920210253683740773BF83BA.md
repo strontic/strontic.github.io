@@ -33,14 +33,6 @@ CHANGE { LOGON | PORT | USER }
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\change.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

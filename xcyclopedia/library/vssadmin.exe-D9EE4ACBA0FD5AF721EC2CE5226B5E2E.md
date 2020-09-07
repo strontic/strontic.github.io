@@ -18,16 +18,6 @@ SHA384 | `C285740B87D4E076FA2D9E3374503192108B78F7768A7D0A6DC39C79E5CCBF0F48AB95
 SHA512 | `42C6B608D35FF0820F492BF66AA1E95D735CDBBAD2D967679273994BBB140069949D31EF5F4403B3A0DBE6A0C1E4DB9BE0F8B03BF53881CDBAC5BCEE3EFFBD31`
 SSDEEP | `3072:Um47pah9kD4dYloFC+xT3J5wonkWNOYQNR6n:Um47p+9kD4djN3PwWkWNOXNR6`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\vssadmin.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\vssadmin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

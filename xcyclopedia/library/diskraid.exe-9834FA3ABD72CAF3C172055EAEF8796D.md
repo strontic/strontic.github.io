@@ -18,16 +18,6 @@ SHA384 | `EF8CC02F0E6E6A4EE23910E3A9B862A3E189BC5C108B7C3BF252BE53B11009FC8D0B3D
 SHA512 | `CC7295A7D197ED480036C4B165AB7F1D9915D2A99C50000F5B4465AC9AC96499BB15B83FF08CD6AD3BA8BB31EAEDE95A45367D9E9C3A0F2FED5350E5415572E1`
 SSDEEP | `6144:FSPNWCfV9uOnO3LzwuEGfnj8aWl9ARIukgDmzU/zup:iObzw9Gr8ae9ARDHmH`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\diskperf.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\diskraid.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

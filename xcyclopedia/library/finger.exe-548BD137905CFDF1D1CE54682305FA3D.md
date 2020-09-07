@@ -48,17 +48,6 @@ FINGER [-l] [user]@host [...]
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\finger.exe |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -83,6 +72,13 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\finger.exe](finger.exe-12F4A450805172B74227AB0D3F7AF151.md) | 52
 
+## Possible Misuse
+
+*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `finger` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

@@ -18,26 +18,6 @@ SHA384 | `ACA1F3113B759D27293777C1A2B97B735A03118947779475554F6CEB976F8F22029630
 SHA512 | `9C6EE971E513B13D3F02CF4C10593783D3017F03407B52BE00361B28AA0E0059DD4E2C6E343420BABABD33B9163CE82B3A2ED4A2F4768F1CC60FFC0D109E94AA`
 SSDEEP | `768:tsdQTbk8DWc2aPkH0uSPEzdwqXhBd5nYnr1mMUR0Fmja:uafk8l2+uS4dwOd5Or1vg0Fmja`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\TSTheme.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\TSTheme.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

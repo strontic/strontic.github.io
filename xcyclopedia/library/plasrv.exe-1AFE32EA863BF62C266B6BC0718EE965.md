@@ -18,16 +18,6 @@ SHA384 | `AA80F6230F1574144F067E7F12103C23437809E4938AABF1F200C9C63427CD748EC98E
 SHA512 | `1DEC426D943CBADEBE9B8AAB40B806A3425DC850AB70159CFF103567C82B69A5FC22A0269027E488635015DA77E324C9995A4ED0B4393BE9E1DA76FE6C997636`
 SSDEEP | `96:8wYVXfPIMkezYBeHt6gLUW2QZM6ioW0LOTbeKlHUhDJfMsjEYEWT0XWwD:83VXfP7M4NUporW0iTbeKl0r5WWAXWy`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\PktMon.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\plasrv.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,16 +18,6 @@ SHA384 | `2BE790753E3547C638A435477849B606B89097B386DE06A7AADE84950F465A9586977B
 SHA512 | `C05406BE6A6FD69AF68AD56024E4135D8447E994ABFA08CFF1A229ACBC34EC4E3EB3F36F4F141C3CF4652A36EEBCAB72B74F9C2C4C100153427559EF80C0A8FC`
 SSDEEP | `1536:HSBJC9pg8W+fmmLMmZDE5vDYiP43WLsgr3LtqQWr5z17Vy2+uU3ri5eaS9afeaSA:iJGpgrOpYvDZZgmgdr5J7XU3riJq1VI`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\Robocopy.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\Robocopy.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

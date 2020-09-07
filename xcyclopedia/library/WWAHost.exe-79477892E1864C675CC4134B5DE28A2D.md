@@ -23,14 +23,6 @@ SSDEEP | `12288:OVVE07zkKNDPKm8RBMcSESrbxO0CstvanEqoUajtzkJUdpe5cgXEisqkULpL4Lak
 ### Child Processes:
 WWAHost.exe WerFault.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\WWAHost.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

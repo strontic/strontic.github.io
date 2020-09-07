@@ -39,24 +39,6 @@ WDAGTool.exe [options]
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\samcli.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\SspiCli.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\wcsetupagent.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

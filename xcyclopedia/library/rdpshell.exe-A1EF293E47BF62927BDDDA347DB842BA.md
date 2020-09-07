@@ -18,17 +18,6 @@ SHA384 | `7540F5452213B413D50457679EC5EDFD10FF16C966FA00565DD880055BEB9E5B049200
 SHA512 | `23D80C84D4CD6D0E7B611D2BE1ED3E5CB0B3403B079B39B8A7D25DD671CAE5D0D98B8C8D8BBEF35F55F2DDD5CE8FDD8B47AFC98E688ABD0651BA70E303CFF047`
 SSDEEP | `6144:uU5FXmzNm4Qc4oP8LOUAZJvG/if6u/ej:rXmz14qxUAZFG/K6`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\RdpSaUacHelper.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\rdpshell.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

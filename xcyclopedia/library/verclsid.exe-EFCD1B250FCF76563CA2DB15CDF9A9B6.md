@@ -18,20 +18,6 @@ SHA384 | `C9C7F51F94CF41E46FF34324E889465D6F65FDCCA7722CD53EE50B10B1209BA7952B90
 SHA512 | `B6C18A6852CE9FC90A4E4F972B7ED8B3F6C6D86D161AB4653B0B3F0FEBDD2CEE7F4C7EBA05D3F1CC0C2196DAF5376132C2DF5EFB3E4206837A9A021B6D700C26`
 SSDEEP | `192:KACPC3Lq587T/UoXqbPVdAqtp6Ef7wE9D7EAEjGeKr8EtskfWkNW:tfLm87TMBOSNerjGeJosAWkNW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\verclsid.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\verclsid.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

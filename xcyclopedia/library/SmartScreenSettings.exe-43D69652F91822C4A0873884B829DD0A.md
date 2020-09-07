@@ -22,15 +22,6 @@ SHA384 | `19BD87936736ADD16D1DCF9963A7BCCAD002F893F9904A154EB366707FB872623297EF
 SHA512 | `0DEE7EF6C44DEDA31348FF560FBD4ED1A60F8B863BE37AAC792D282988E02F0F94F69974C569398B76237C63420CF2BBA1E4E3DB3E74723E5C9275668B266680`
 SSDEEP | `3072:H66EoTp0rcKl2MXtPofEeRNywSuMpCkQ/D+Vm/JYpW+j:pEKmrp2MXt6Vkw7YrQiVZA+`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\smartscreen.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\SmartScreenSettings.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

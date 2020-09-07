@@ -18,17 +18,6 @@ SHA384 | `0111135E3C83356529C93CAC7F7F1CB41ED0607D87BC3B9149F4DBBABF3F6A3AC60701
 SHA512 | `F74873E4F5BF9AB5D2F05828D916E0D72A6DA9E83DE42A8D9B73AF7CE10F62832AA1AEC9269375C0ED7B08519ED2BC46406022B3CB51E2AA65F94D71170935AB`
 SSDEEP | `768:mpOia6jpoFlWx391GBz1RrmqYpAaODoAdJ+pFQqIhKAYjr3KawLNHvfzYBHGdlkH:mH7OnRaRkDoqEv/UZRfiHGdlkms`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\CertEnrollCtrl.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\CertEnrollCtrl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

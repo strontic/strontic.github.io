@@ -18,13 +18,6 @@ SHA384 | `2690A83B9BCF815F69654DE7CED37763EE310966C016125BA6BFD9DBBD9D779B0D1A43
 SHA512 | `C30A7C039051B4B248534B03C3B50E2562157F9125142A61CB20BDDF9CD105AEA6037755079A4528B6BB3AA9004F69749B6673DD16813208D08C8DA0E1F07367`
 SSDEEP | `6144:veN0nYNxJPd6h007Zg5XfJ47rHdN5g2vBsS4e:9nYaxSXx47rHdN5Tsne`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\WUDFHost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

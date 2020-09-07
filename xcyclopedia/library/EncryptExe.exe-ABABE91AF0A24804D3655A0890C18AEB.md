@@ -22,17 +22,6 @@ SHA384 | `56B2A57FC8440CB15856C910789E860F078073DE16AF08574F16A82EE10B2E27110345
 SHA512 | `B06FE97B506AE2242D600CB67582C35DE3A23C306E90AA11210E5637D23DAE77608F06E67FBFF603C4550FCFBC358BF8DB772953487CAF65C7E7B4A7F763E25F`
 SSDEEP | `12288:2utyYb5qr2vMaewYTW/wxvZbyUU1yj3/R:91B0RC4xvZO87/R`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\EmptyFolderFinder.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

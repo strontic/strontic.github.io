@@ -18,16 +18,6 @@ SHA384 | `E00AFE8C9BBBBA3BCFC95A70BDFA73C28A83EA9C93B2B487EAD187AB3609BF12CA2D27
 SHA512 | `5EBFB32882362D0F6818856C21B39D8B3B67E02E9A424082BBADC11AF00B51F3F32687758D403F5DFB14024565219DD2CCB84CBDF1B73DDD2507F8D59EFA4A3F`
 SSDEEP | `768:OHqbN5dxoh3bg1PqsuDx9YQtvFOCqxxzaP:0qLohLyCPftvCxxzaP`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\dvdplay.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dvdupgrd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,26 +18,6 @@ SHA384 | `4D34B8B92EDC07B1A6BA925AE2195154C6BA43884AD5C58737C1855AB98D6CFAA5A8DA
 SHA512 | `DE18A0F048A086DC17A98E770A48E54AD129BF1D233B2324ADE255AA5DA34E0EB11A35016414C27108175A0D5D08590A9F97DE9CE37B18EA26728993B740753F`
 SSDEEP | `3072:7xNkYO1PLRxKwJ17L4YDaEKoBa5YQsIEH6oE4Pe:1NUPlxKi17JEoBa5HOaR4`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\tpmvscmgrsvr.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\tpmvscmgrsvr.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

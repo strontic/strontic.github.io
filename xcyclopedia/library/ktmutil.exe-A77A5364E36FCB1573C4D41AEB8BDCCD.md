@@ -26,14 +26,6 @@ The KTMUTIL utility requires that you have administrative privileges.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\ktmutil.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

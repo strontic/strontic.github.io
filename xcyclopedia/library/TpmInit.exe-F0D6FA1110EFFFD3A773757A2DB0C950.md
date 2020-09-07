@@ -23,13 +23,6 @@ SHA384 | `2F77FB8C0FBBB10F19344B863E7E136648775DC44A0826BE15ECC3BE53661D09E5F473
 SHA512 | `3886226962A372AB550C7654CE5EE12B789C74DD70E0CC8CE3B1FECBB92DA0AB2DE656EC11FDF500672E7BDA62C9572971EBE24FD59C1EF336C9A16F4932E4C2`
 SSDEEP | `3072:wmSiXu1OD9fzgmH5i/ctkvFYPz4PYfSFkx1:iQDdgmJ+GMcSA`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\TpmInit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

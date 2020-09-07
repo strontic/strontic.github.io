@@ -18,23 +18,6 @@ SHA384 | `A6EA40F3FD5270E89548812A20D0C56B21449EAF0E472AF73AC664CCF1BEAC5D7149D5
 SHA512 | `71C031B08094FD1FE74EB24D702907F1147296D125FB776330F0E0A86AF4216E36F6B4D9C93F8F1341E8E130A523719CF9DE1873632140CE5113D294506C0171`
 SSDEEP | `768:JsN2wJDz2tv30ytUanN/DJ6Bcnb9OVRZyAj6At9FH22ZAvMAT8lN5vBjIsaxoW:RODytv3Jrz6q9EyYt9FlUIlbvBjIloW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\odbcad32.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\odbcad32.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

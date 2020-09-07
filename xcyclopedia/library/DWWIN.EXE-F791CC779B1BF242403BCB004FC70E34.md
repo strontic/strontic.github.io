@@ -18,24 +18,6 @@ SHA384 | `60350252B79B40EF8AA4F46A4D39B0B1A645CF80F9EF9A3B1581EED5EC3B8D13AB7311
 SHA512 | `2A2ED68DD4B60392957E378097EA675D7794B3BAF651F8527249FE8A52A762D671E43B3543DF2873AF199A68EF0FD11A8F6E03F37293B1B9A6C5D1636448F738`
 SSDEEP | `6144:CNzQDDvfJEBzs76TtizNYERVPwmnUdP1PoPrPwGckDJP8sFt1z:CNGQzBTAzWOVPwmnUdP1PoPrPwGck90m`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\DWWIN.EXE |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
-C:\Windows\system32\wer.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

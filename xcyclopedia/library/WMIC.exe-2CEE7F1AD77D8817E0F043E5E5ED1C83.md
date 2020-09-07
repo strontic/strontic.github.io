@@ -149,14 +149,6 @@ help - Alias not found.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\wbem\WmiApSrv.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

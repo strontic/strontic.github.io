@@ -22,17 +22,6 @@ SHA384 | `80A14607ED6D7C25586D5E77D947F95336D1B587667938A2204EB70528A5005243CCA0
 SHA512 | `1CC07082423DC778D6A4C69CA9BDDCB8510A2809DD2F79D94F8D0E065AC546143D1938EEDCDE17208E06508D75B548C97EC37752AE722A67485EC2769614BACF`
 SSDEEP | `3072:i88RlSQBQfRwxiE+/9cghtYIo9piswTogiqQKy349a:SRlyf2xO/XhqIo9s37iTK24`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\perfmon.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\perfmon.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,17 +18,6 @@ SHA384 | `6A504954C77A7429561609D5E668B8CF918A6C79AB4BBC6128C43D115FF13416634BDB
 SHA512 | `2C50A2E43D46833B1264515BA4A2BA9CD560AF2ADEEE567F5D4EB926D8A2859AC095D15F1F2D5DD922DB431F9E34E47EE3720960F8D5DEC98E68AA8A9E899189`
 SSDEEP | `768:BzyruHr5DSXxxrNAshZOUAA6QaNIMBGjjwR5DQ6Ki:MwShAshZO1ALa7BG/wR5jKi`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\NETSTAT.EXE |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\NETSTAT.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

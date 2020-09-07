@@ -22,16 +22,6 @@ SHA384 | `A9621CFDF0F9371C82B5B82C95C7A313D2A4630C9E8CD543993AF0710392ABFE929865
 SHA512 | `9BA0BBF91F003AEF18103E8BD552808B8EBF35C75286C81D18F9632F6B4F9B32782FEF4C9A7938E23CD2B9B9BDF6CA140B5C1F72B2006CB4CAC8F61D7802D0C1`
 SSDEEP | `1536:uKPl8IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:plvXlvq7jSP1cR2prbpdCY9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\cofire.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\colorcpl.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

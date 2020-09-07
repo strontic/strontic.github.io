@@ -18,17 +18,6 @@ SHA384 | `DD7C2357770100A6375CA8F9A34216BC8BD7451042CD691FE028EA6C03B1258D3A5C0E
 SHA512 | `10BEA53F41CE33CF30C88E36C93519CE494433661FABB7ADBD40FFDC4518B5BB7D40B81EBE83F407FD69FADD3CBAD4694E8889E2B7E0733B2DDE3956891044B8`
 SSDEEP | `768:K1tNvY8oh6IbU19G3SGn4qpJQDsdY1SIYr:ANv186IQ19aNJQjMIYr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\wsmprovhost.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\wsmprovhost.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

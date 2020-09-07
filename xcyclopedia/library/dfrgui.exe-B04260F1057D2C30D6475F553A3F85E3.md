@@ -22,14 +22,6 @@ SHA384 | `911AE49626EDD29CF5DA131B15DD00FC242625068A88DF704D0FD8DC8B868CDF15792A
 SHA512 | `6E93CF4FFB539B48493D07299983A6CAB547010CC368577E57242F17A5CD8806C08EADF2B9D0BDDED5A8D3E3636412F4A3E30D478C79E1524B1D98A6DE77F01B`
 SSDEEP | `12288:xy2B8XS3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx7:wiWS3/kRc4l6g6gtPbcHn7q`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\dfrgui.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dfrgui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

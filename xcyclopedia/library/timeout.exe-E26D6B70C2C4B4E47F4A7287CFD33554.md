@@ -54,15 +54,6 @@ ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\timeout.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

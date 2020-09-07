@@ -18,17 +18,6 @@ SHA384 | `6DDB2E4C85BDCBB51F969E4871F474ED1FCE2F55B60863C55F3A356E4A007679161F9A
 SHA512 | `737130AA6CE4152BC87D37E10B18D52818117D8CE498DB9B71DA1BD34918EBB9C5F014D6A7901C256A1D59B6C06136FA0632CE0B053CE7E21395769E7CAEB421`
 SSDEEP | `768:55Ye2jWct8gE/jtiUOlgc2GNdrXOcq57rWjupScIXMC8VW:55YXjWwEpiUL96SgbXMC8A`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\rekeywiz.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\relog.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

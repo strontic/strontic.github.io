@@ -18,13 +18,6 @@ SHA384 | `81F94297EA1639307E66A303A91691CF60494F53DD3D2E0688E82A3053D513846BE8C3
 SHA512 | `130184B180D08B522679CEDD2571BDB4E93A8878CDFB84E26E7CE71F33AB6980D815B82EBF10D6766F35CF28D94C09F4E0A05C6E4F53DD14ACBEB05E4D686A89`
 SSDEEP | `1536:n6cVUZd8aKRj28Kh5kJrS98Kt4FKqrJXmMZGnqnoI03pZLH33:D+2aN58S9eVV4qoI0Pz`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\alg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

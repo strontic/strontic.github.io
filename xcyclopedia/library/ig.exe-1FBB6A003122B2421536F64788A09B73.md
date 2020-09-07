@@ -28,17 +28,6 @@ SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOx
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\ifs-compose\ifs-compose.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -22,17 +22,6 @@ SHA384 | `73E725703771082381114B314347E3926CE4C93600200C1F077008DCEA5361FB301EFF
 SHA512 | `F16D30821EBD7D62157BFBB5176827EA9DEC1B7F56CEA53F8D7A71FD0FB28D7E7CDAACB07C7219BE6461F7B48478C4AE7B49372033E6E276FB0526A76E8A6F1F`
 SSDEEP | `3072:58cwGNVpHayDyDTBa3bgwbeqOZLMWwwpjWzuVo:58czp6WyDTgbgwbeqOZLt3wzd`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Glary Utilities 5\ShortcutFixer.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

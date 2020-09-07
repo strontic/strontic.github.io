@@ -18,17 +18,6 @@ SHA384 | `66C2CABBA026EFF8BFBA8AB5B6F6F16CE6F393BFFED26A0AA9264DD16B65B0FA9CF7D8
 SHA512 | `2ACAE84F3E2F98B32895CF70DAFBD0533C3AA778B60D0F476A67944693AB57EB93A22AEAF8A48312DD5833BC83D5DBD1A000E28875DCEAFC09D4A28C6AAC7FB0`
 SSDEEP | `192:N/sn3IxRFzwR3ace0vj6La4XPdjtBwpv7M5Md43B3uP9eAFZU6WN8UmrW:tjRFzwRbvj6LTLBy4SOAP9egNW6JrW`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ServerCeipOptin.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

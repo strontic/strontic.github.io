@@ -22,27 +22,6 @@ SHA384 | `ECAC61902D006AD3AF16244932AB42FE25D0EA9B283FA929FD5D94640D98D9BCDFB8A3
 SHA512 | `A06DFA8551FD38697308006B61276E023546FB906E9E89EF395E369C7E99BD148377F305870C97636A4DC5D36D94CC709EA5D42BBA766229B4ABEE825909F7EF`
 SSDEEP | `768:a4qHmXrHTZCm5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qm:Ic9lVIPd4n+lbeRZIbSQPPA73`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\printui.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

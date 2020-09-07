@@ -18,16 +18,6 @@ SHA384 | `745EF128123876C79328B9625658B557966B5F1EF35837EB9182C8A5D655BCC4AF9728
 SHA512 | `C93BE466B5D79CEF12C202FE8D500D3C33E2AA24F9060375AC78921B0E15B29E4595C5788E0EB18669F841D381413F4BF2EC2E1F289ADD8B9A9A2D7E6111F9C4`
 SSDEEP | `768:PHa2di85dRs/bFz9fBItNbXXkBL/+kdy1xYxOLfrH1K:PHa2diodRs/Rz9ZIj0NGkdSxYxAf71`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\WaaSMedicAgent.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\waitfor.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

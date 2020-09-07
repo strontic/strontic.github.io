@@ -22,17 +22,6 @@ SHA384 | `103E46584CC0B591E50B550A12ABC3841003C78555E6812ACB36326E8130AC95F3A453
 SHA512 | `F9B37DF7B0FCC8AC8C449270C70A28EFCFE73AC243BF56349B50FF26E81412FE605A5BFDF6F58E4C265FF25043ED29C2F52FC2A9C5D1FBABA6E9C16D15C41DA6`
 SSDEEP | `768:G13VFKCibL7hisI4rMfWAfFOFaB0wtTF5h2q4GrVV1+5dHcj8xE2CCuxFB3:WoFz6fjjzh2q4GX1+vHcoxeJ3`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\rasphone.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\rasphone.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

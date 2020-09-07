@@ -23,16 +23,6 @@ SSDEEP | `3072:hN9okk47++EOGECRV3tGCVLtg1ihk6kvtfGq0ev3U5WNq4:Vozb+EpECr9GCVLTrk
 ### Child Processes:
 conhost.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\SearchFilterHost.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

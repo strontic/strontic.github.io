@@ -18,16 +18,6 @@ SHA384 | `EE0072C6DC2C35889995EF716072F3A0B16064498F8BAE4C69793CD9E4C0C25B20645C
 SHA512 | `E9AC98DA5FC70D0E768047ECE71BE49C5826E95ACF910F4CAD9A09D68EDFB46D9DBC2D5BF1313071665462384002D9C9854519356AECDF1E5C1E724D27569092`
 SSDEEP | `768:VTYCeqPU08TikDi4fO6Z8Np+7ikmh5Aod1SZeY1uNRZN+82NsjFVlaOktpncnxpa:VTYPDiVQ8N82kEr1SZR1uDl2NqzKNUx4`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\relog.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\relog.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

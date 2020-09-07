@@ -18,14 +18,6 @@ SHA384 | `B3801207ECD67CDFD055B0ACDECB979F87E36F01ADD992D426C1931AFE82DA2E50F8C6
 SHA512 | `2F73BFE784AB6CA4286FA3AE9558DAB0BC56D0AB4085B1898DDA0B3F4D0C339546787792126BACD42D4E2A36A0CB16C9582327D54E1D8568AA025957186AA18F`
 SSDEEP | `3072:5KTMX/DnWX/ufX5ucqVoj1U230xeuT54t:5KTG78ETqVoRUCyG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\SysWOW64\setupugc.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\setupugc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

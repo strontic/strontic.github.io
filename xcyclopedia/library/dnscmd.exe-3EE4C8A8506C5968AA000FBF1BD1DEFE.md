@@ -18,14 +18,6 @@ SHA384 | `880FBA698989B7D143AE11CC78549A8F1E5D62DCA4E445379DAF8A8BA6F2908ADE903F
 SHA512 | `7DE900F28A6C6C33A7318BB67F6FC92653FF4CF20205B8AFD8D457D2332AD444E38F97EDE6ACD8D40D8601BD5F1C8F0D94EDF88B320BF364899C064EAEF9EF00`
 SSDEEP | `6144:o5FNqlwAxdeYEsan7TRPrES2LN8s9xi0DCtT1TRep2A+wXz3o:o5FNCreYEscTRPAS2LN8VdewfezY`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\dnscmd.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\dnscmd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -27,13 +27,6 @@ WSMan Generic Command ERROR: Error in parsing input
 
 ```
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

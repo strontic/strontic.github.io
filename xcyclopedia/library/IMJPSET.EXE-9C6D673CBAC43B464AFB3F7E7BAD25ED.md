@@ -22,31 +22,6 @@ SHA384 | `91A6F5398CA08EFC5E37466D568889240F0AC507593B27ABE6F101333841B0DEA27FEC
 SHA512 | `C847FDD36C998A9E6DC96D97CF6C3E6DEF9EA596A232A9BDD20B304564933A90D0AF634B1C2C43B3C27654F91A210D68370B1DAED4CC9297C1CAC41896BB019A`
 SSDEEP | `1536:AYLP1dAotzlhNqEawwtHcGXqu+40YC9Sg6TWDga7t1UE0cYH67nIWDK2NLPcwq7:jLP5thD/7wtHJKzzYH67IkK2NLPcwq`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\system32\IME\IMEJP\IMJPSET.EXE |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\System32\windows.storage.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\IME\IMEJP\IMJPSET.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

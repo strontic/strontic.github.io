@@ -18,16 +18,6 @@ SHA384 | `F8EC49AFF2B831BB90C5E21BB014C43EA68308255E8A8C64D5E793B7F10AD201FDDF52
 SHA512 | `DE32337E5DA3B80395D692FF1709AC6DC2AE3EE0530886879718C39A0C1BEDEB2D15111875DD682FA37B562D00DAD44E08E7F2EDDF4226D4E56EA2A482D3F390`
 SSDEEP | `384:gYatuEdquaLyFAJ/P37te6KpophM5T2wmecXi1/CgmISNndWWhW1A:gjtuEdq/y2tfRe6yojMlx7EISNnL`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\ByteCodeGenerator.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\ByteCodeGenerator.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

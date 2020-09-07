@@ -18,16 +18,6 @@ SHA384 | `59E224164CFED0ECD98ACA883B1E0928EFBD7594749F9DA4C94735F2ED5A4FE92EEF05
 SHA512 | `01127D656A81DFA0810E1134905F902F3743E129E43002B98181C3744332B93F845B89CB26F6F5ABBE83A1502E33F8BA547B910EE11FA16C9CCA36E595E95553`
 SSDEEP | `24576:0e1a8eGOECpXDZuYTkkgZJAmDACPm2oIXKkF:DlChFD8AmMombEF`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

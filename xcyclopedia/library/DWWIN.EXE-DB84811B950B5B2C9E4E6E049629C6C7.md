@@ -18,24 +18,6 @@ SHA384 | `B9439BE102BA7177B25D9D333D0581362488C1E840B30EAA465A4C975DA5CC303622DE
 SHA512 | `2347F29254D4FD327108E76AF07CF0EB39DDCF3523633B12EAE3D6D94A0835847F231E427FB9257EFD3A5846FC8AED5FA7BA8980F618BE0893E52B106E486AB4`
 SSDEEP | `3072:6slJXJxeSFzhnQ09IkkGMrSiIx+E5JTWbExR:xlJX/eSF9QGdMed5JTWb`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\DWWIN.EXE |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\VERSION.dll |
-C:\Windows\system32\wer.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\DWWIN.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

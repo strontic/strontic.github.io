@@ -17,27 +17,6 @@ SHA384 | `BA5609E7E350B66BC43102884F2B5318B29359AA1204DA82B3FF58A6AEC56EAD783D18
 SHA512 | `A78F3ED40E7D13EFDA6091977B8DCA9CAB5C549697FA80EFBBF8510B15F5039ACE6399C5B055B851FAF93EA00B3F8CE12884AAEAEF34DA4C34C8FB5DF5E14A39`
 SSDEEP | `1536:ZOfFlFIbsFehzGwEr+C4GeFHxlcwRNQvYR3vUckpKWl9AbI02RBTIvHWcWJFj8ld:ZOfF7I4FczGwE+t4YR3sckpKWl9AbIb4`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\TeraCopy\TeraCopyService.exe |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\oleaut32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\user32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

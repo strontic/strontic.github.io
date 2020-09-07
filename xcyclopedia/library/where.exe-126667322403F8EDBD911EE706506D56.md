@@ -18,24 +18,6 @@ SHA384 | `D52139649D01BF12EC8A55DE0F1AC28A26AB058B2BF738B4F7ED2E09CC5B3441A0597E
 SHA512 | `3262FE0CB7DBADE3E996BCD4EDD25354FC3ECF08C126EF9F9778B2C2F41A7FCD79B5AD3C20CE1CE1FA63BC317BCCEE3260E68BFB42760984A9DE5483D927C54B`
 SSDEEP | `768:U3/ZgmxhIU80dLLmbmiuNFon/EMqzPiHDOgcU9DaxxTo:U3/ZhXNdubmZNdiCgTexpo`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\system32\WFS.exe |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\where.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

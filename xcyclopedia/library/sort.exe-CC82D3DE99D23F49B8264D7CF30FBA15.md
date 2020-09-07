@@ -18,16 +18,6 @@ SHA384 | `3F48C43F31DDBB690B188949D3426873BE5D58797FAB383677F5A2A7063172B8629CB4
 SHA512 | `F7555CB1D37CAF6BE618E4C2D7FEAC465A59A1B421A0F05946A2F0CAD99BD7A029B796F2F5CE8CC88D9D008047360778DD830A4DFA784010431E6EC455879F12`
 SSDEEP | `384:xEvHDWoMB0xEyk0SqYhwOYCXJLyODE4LHWanW:UDW1A/ODDLN`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sort.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\sort.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,15 +18,6 @@ SHA384 | `E1D6047620F352D2D121F52F4B28BF932F57ADD20D43C5E69AE333A3114A2645528480
 SHA512 | `6807D91444BB9974907C23838D3B42A3F715D537AC22EF3D2F34A8E88C6FCC5A17FCC3BC33A3AE8896F111BAD7CA7FEA1B0CD27BF5C1B58B608C3414B13E6038`
 SSDEEP | `1536:u8mOp//GZBKLcNX4UGKr0xEsdYa8NO8W37sAfU0gesMV6S8vj1onVLPRUPYzNxdG:NkKdJ1IagpMV6SYytFpwKuzu085Bc`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\SysWOW64\ieUnatt.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ieUnatt.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

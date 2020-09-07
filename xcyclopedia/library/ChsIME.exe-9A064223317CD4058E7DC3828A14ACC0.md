@@ -18,24 +18,6 @@ SHA384 | `A94279ECD0FC2656569CDA866634620EB1C2527C8D2BD563157A8E66B8E476AB936270
 SHA512 | `6B2266154481BADAC1316E70C572113A577C43CAF309EBD9972925DF32D764D748CD9FBD82C48B4C536935E4EC0B96AF19D8A06084AEC92F8E549658819607DA`
 SSDEEP | `3072:+eyhl//+W1u4v7Xu7h7N+zVMCgQS1lo9lY9BC2A:Gn+W9787NqMCgQm52`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Google\Chrome\Application\85.0.4183.83\chrome_pwa_launcher.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\InputMethod\CHS\ChsIME.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

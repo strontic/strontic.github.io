@@ -24,16 +24,6 @@ SHA384 | `B1C30901EFB4A5AFE61A4B93F6CA3F6A07E2D0AEF4BAAD9A4FD00AB1412725CA961EDF
 SHA512 | `45CCE336A8852A29F650C639F0BBF403D4E02FEF4C8EDD4665CCA22E5001DBA133951D87B6B4A78AAE825DEECC30E6E941234C723DF860EBC0B1E82C298786C6`
 SSDEEP | `768:/mX1lTmQoGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXO:eX1lXoxakkn6oYY0ewiP87`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\winver.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\winver.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

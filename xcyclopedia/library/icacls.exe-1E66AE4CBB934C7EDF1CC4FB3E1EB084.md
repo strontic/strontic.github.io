@@ -17,14 +17,6 @@ SHA384 | `3F36CBCDD33B0AD7739C1830B3A8406B91B20AFC0E48416832A6983A9E78DA1E9132A0
 SHA512 | `C03E2C6970D2A9745C9F8DD8AE24353D7FA67F48B4069B2935E2D87D185E050D4C53BB0F2F7412A5DEFC4D69AECDAFC374D48525B005A111AC1A523A6407E82F`
 SSDEEP | `768:o4vGKXcHYhSCIbfe4BE5NnyP+vNiUGzDpoTBB6ElbyqiR+126C71Eq4Ha82aEu4h:pvfX432NmDuuEZyqiRh1X/Ds4A1K9`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\system32\icacls.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\icacls.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

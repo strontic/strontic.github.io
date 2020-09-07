@@ -54,16 +54,6 @@ Try '/usr/bin/uname --help' for more information.
 ### Child Processes:
 vmmem
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\LibreOffice\program\ui-previewer.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

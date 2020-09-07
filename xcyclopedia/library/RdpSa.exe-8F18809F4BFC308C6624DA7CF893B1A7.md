@@ -18,24 +18,6 @@ SHA384 | `686FB8768A13CDAFE14C87F47C54365B87B232D1B26C2EF414EB7894BBA6BD0082208A
 SHA512 | `F0F36ADA0E5DF0C7B7FEB4BE1475F3B61DEC858E8CF5582AC3CA85DB45CA6FFD972C339F1231FB8BCDA46F4CDEBCF9210F09D4D852A4B5806ABE70435964852E`
 SSDEEP | `384:wjt+8DGl6z0fhEdE12l+SK8kI6V3ODQQCYWLYryuH8vRW8jXc9tLmMyTWIJWCHEt:4t+8yYWKEkl+LuLCNY72W8koMyHSkG`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\RdpSa.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\RdpSa.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,16 +18,6 @@ SHA384 | `E12B96CF69C96A2A7A1CD9DABB79FB01D7CB4D0A1A922D7018C8BAB6754A8872775F44
 SHA512 | `B4C529F388B0759D54A5E5ADE1781280230575815C0247E3B2E6D2CD7BD5B14885DC71B6F3372DB4AE36A5F5DFE5FAFBB840827CFA34EE54DD981CB7C3C559B0`
 SSDEEP | `384:4xb2mtGOvYg1I9CYeBpZSadPasXasgtejZiWbeMXXWUZW5:4xK2vYgyswEjPXH`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\rwinsta.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\rwinsta.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

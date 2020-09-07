@@ -23,17 +23,6 @@ SSDEEP | `192:TgvfedAPgkqDzEM4r1RWXIZCRvhIuPdS1reDR5eWdXW:TgvfKkqXynW4SvGuPJwWdX
 ### Child Processes:
 chrome.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\plasrv.exe |
-
-
 ## Signature
 
 * Status: Signature verified.

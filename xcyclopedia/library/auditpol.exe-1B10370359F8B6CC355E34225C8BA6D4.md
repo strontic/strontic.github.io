@@ -18,31 +18,6 @@ SHA384 | `8274A0384E974236BA868F0C508691A9FF8E918C98E82C7A091A3292AE26A135384806
 SHA512 | `68A439DECC12DC862DF48D5D8D28859B1D4DD464ECA7B6FB9CB61B5A8BDFD56141A59ED7156A2E9DDCBB58D877176F3C555D8B85666D773848F64C8BF54F144E`
 SSDEEP | `1536:aCmwg5fd1z0WouTB/8dAWZ8bZ0X5yunaJbdk56:aCev1wTo0yK888C85kc`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ActionQueue.dll |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\dbgcore.DLL |
-C:\Windows\system32\dbghelp.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\netutils.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\oobe\audit.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\SYSTEM32\samcli.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\UNATTEND.DLL |
-C:\Windows\SYSTEM32\wdscore.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\auditpol.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

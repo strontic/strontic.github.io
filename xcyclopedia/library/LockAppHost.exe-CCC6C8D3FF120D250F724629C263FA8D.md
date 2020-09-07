@@ -18,25 +18,6 @@ SHA384 | `55CB86368E714B43397C5D869AA85B873438300C26C468AE8CADEAD6DA8487B5D11242
 SHA512 | `B2A47A979F8513EFBBF4BA4C08BD3F98E4E4FD5020CC69BE65536353650E03532137BD0095935CA7D269954642EA3E630C05385B0C273A8AFB9230A7D22EC3E1`
 SSDEEP | `6144:V80LhMUpyhl3T804SLVSjYSLLGPTeYusbpfxVHM91FOvednwaHq9ow:V80lM4cD8XYSPiSYusFxSxhKL`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\LockAppHost.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

@@ -18,17 +18,6 @@ SHA384 | `980FC1780D66782E506C5BA50DC8D6E08E0FC14ECB1986A27048C4445922CD370FEB92
 SHA512 | `396E7A6CBCF339004DD29B01F744C16CB5DA96576FE4822A1A15445EDF2FAFC472CFE0D85AAD1F1865AEFEB1D6168FDD5097A16601BC3399F2AF4E00F0FEF7B8`
 SSDEEP | `96:62wlexCSfIDyXoEtHHkEAyIRojyIInSg0DWPTwqjRXONSiB9Tp34wyDP2LVD7Kku:6Be9XX9URobUzTsbB9Tp3XXfOWHEWU`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\dcomcnfg.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\dcomcnfg.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

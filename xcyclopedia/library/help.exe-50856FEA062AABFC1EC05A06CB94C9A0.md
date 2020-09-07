@@ -18,16 +18,6 @@ SHA384 | `1098472114DA6D6D20A502F3A6EF5ACD77DAF48E9FD0C6F6D29E224B98367EA901CBC3
 SHA512 | `73E32E0CC505D60B5107747681EDA18DF5CEF25E194A5B44620FF5FAA6FC0F23EB00CB56BAACD1D12751E829F5E468583CF335EC4C7229658F6F7E5B64154696`
 SSDEEP | `192:bHz1DjPwQP9T2CoLptpZ72zU4dG3AGT6x4eA08EQmwW6cW2:bHz1DnP9CxDL/Zs4eQUwW6cW2`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\head.exe |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\help.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

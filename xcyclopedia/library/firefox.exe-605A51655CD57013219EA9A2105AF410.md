@@ -76,31 +76,6 @@ Usage: C:\Program Files\Mozilla Firefox\firefox.exe [ options ... ] [URL]
 ### Child Processes:
 firefox.exe
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Mozilla Firefox\firefox.exe |
-C:\program files\Mozilla Firefox\mozglue.dll |
-C:\program files\Mozilla Firefox\MSVCP140.dll |
-C:\program files\Mozilla Firefox\VCRUNTIME140.dll |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\SYSTEM32\CRYPTBASE.DLL |
-C:\Windows\SYSTEM32\dbghelp.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MSASN1.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
-C:\Windows\System32\WINTRUST.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
@@ -148,6 +123,8 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_outbound_kerberos_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_suspicious_outbound_kerberos_connection.yml) | `            - '\firefox.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_powershell_parent_process.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml) | `            - '\firefox.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [malware-ioc](https://github.com/eset/malware-ioc) | [keydnap](https://github.com/eset/malware-ioc/blob/master/keydnap/README.adoc) | `\| `773a82343367b3d09965f6f09cc9887e7f8f01bf` \| screenshot.jpg \| 2016-05-07 \| hxxp://dev.aneros.com/media/icloudsyncd \| Firefox 20 about screenshot` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-kryptocibule.json](https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json) | `                        "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [kryptocibule](https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc) | ` - `Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [mispadu](https://github.com/eset/malware-ioc/blob/master/mispadu/README.adoc) | `\| `F6021380AD6E26038B5629189A7ADA5E0022C313` \| Mozilla Firefox credential stealer   \| Win32/PSWTool.PassFox.F` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [mumblehard](https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc) | `- `Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/<1 or more digits>.<1 or more digits>.<1 or more digits> Firefox/7.0.1`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [mumblehard](https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc) | `- `Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)

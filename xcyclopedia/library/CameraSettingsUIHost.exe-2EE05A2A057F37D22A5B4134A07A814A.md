@@ -18,33 +18,6 @@ SHA384 | `0B108F73824CF46D2BF44947A214885CB0A4E3FF2A406EA75F97F9D3E917FFD0E91A47
 SHA512 | `09DBFD3595977FA8CE34F75C223B76D7DAAA91764C9BDEC475B8526B24B21FC6AD6BBC731E01BBABF8BB8371BC839E4C8789118BD3D1BEFE0F24B32483AEC721`
 SSDEEP | `768:6Q5CeJ1lBSCoYyGZwpXzbmVruM31hEXj1P629F:6h+1nZMX3kHlh6pPR9F`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\system32\CameraSettingsUIHost.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\DUI70.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.dll |
-C:\Windows\System32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

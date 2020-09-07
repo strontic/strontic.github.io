@@ -18,13 +18,6 @@ SHA384 | `8394505AA58DCD44E2475CCE04F127B1BEEAE3C83A609D7D1C5556B4191D3833D20829
 SHA512 | `BE03E3DAFFEC249348F2EBE4CACC765AAA1B48618E4CE6E4B1C21E2FB72169C38E03CD4B3A2478E900613D9F85A6DE0FE060F450FD8B01FA5C1B1C7CC94A4270`
 SSDEEP | `192:NgarxPEE5z0P6Yp40n80p/bieAkVa1ZNCDdUEAezmDqWilWj:NgOi24ypipueRk3SdUMyDqWilWj`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\Locator.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

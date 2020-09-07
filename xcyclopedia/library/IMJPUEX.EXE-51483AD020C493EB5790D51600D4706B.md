@@ -22,17 +22,6 @@ SHA384 | `23F65C702DC5BE8738A34F6838A054345321D53E469FE0C3D34F735AAF0247B259C7E5
 SHA512 | `8FB92E8C11DBF04160FAB62EBAF01D5D1A229A19BA88A3CAD5ADB6174483C7CB9D90432F8D5D36158FD846036F02F9BE8CFEDB9030C8E4A3757FC989378CE188`
 SSDEEP | `768:seBZnbN5kfqgZ0zuu0YVcWjXUBtBlukancwnIXGDFY2NL1Ke+V1pgF+ChWuKZVl5:P9atCuu9VccYH67nIWDK2NLPcr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\IME\IMEJP\IMJPUEX.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

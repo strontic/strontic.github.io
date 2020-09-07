@@ -18,33 +18,6 @@ SHA384 | `1A2E79F0DE71A4AA18DDACD1A633B8F2F687D64B29F37176911D803B8A9916B69CD25D
 SHA512 | `86A0CD55F1CE19AF702956EB7E21C1BA3981785F1642D97F4AC0A844CAC836977B6D1521BF2569676A2C56880A0404E5497C8C59482B32B6C7B0121B4CF8A898`
 SSDEEP | `3072:dVtzn/vILXmAIgf4oF6jd77aJPp6hXAAEnCwv2C1iGwClepP3ry8q8d0N+:dL4L5Igf4a6x77aJB62AEnVv2DLy8ZR`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\GameBarPresenceWriter.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\SYSTEM32\powrprof.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\UMPDC.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

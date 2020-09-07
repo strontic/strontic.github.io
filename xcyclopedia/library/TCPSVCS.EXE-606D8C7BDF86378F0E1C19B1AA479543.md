@@ -18,13 +18,6 @@ SHA384 | `438131067106D7A33B351D0EABBBB05904D0206A53B8B882C14114E7184B01E8F7CB2A
 SHA512 | `D5C9D7AD862FCC38E43B8C8BE25C0349745A4EC9BB711CE685739BCA945A80F6C83F0CD28D434292FB3C216AFCC0FD9CEF08438DC563F163162DB3B8349AD2FC`
 SSDEEP | `192:DBl0o+qi/KHpcPtPR13Aaprp5UU/sVdt6qwDRNeAOfS4XSUJOp1iwEWQ/W:Vl0oDi/oQPzAq5JvqKeBfRJOpNEWQ/W`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\TCPSVCS.EXE is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

@@ -18,20 +18,6 @@ SHA384 | `420D98DC19514E7CA909CA70281F28DAB8428C041D891DEDD44CFF4DBC1B6E82AD116C
 SHA512 | `309E1C81AD2CF27F09DFF1C9DB210F8A3C679C962CE1CC41B6106AEE529BDDB5E1596F3BEE8BF7B4D868FB96331AAE711642BC813F39999F95D7EC5ECEC18DBD`
 SSDEEP | `12288:NrwQwDfT8qx+lXvbqeVDAe7bZhyD2BDQC6Yoj0RSp:N3wDfTJxCXvbqa8UbTLWp`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files\Opera\launcher.exe |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

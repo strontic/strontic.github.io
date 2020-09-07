@@ -22,17 +22,6 @@ SHA384 | `6E57407921D3624B3DD4FCD76C6F4FAEA1B3DC43C05B6F190E4B9EA915F466A72D7845
 SHA512 | `64CA97981BD3ACC766FEEFAFCF5F63B50BE6D7203A90AA7E708DE945C4B8CF6AEAB9000F34203E146F8C9658A4EBBAA6E261A80044EC494A19232231BFDF8358`
 SSDEEP | `768:ALcGPkas5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qn5:DGPIVIPd4n+lbeRZIbSQPPA7M`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\printui.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\printui.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

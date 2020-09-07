@@ -18,25 +18,6 @@ SHA384 | `3AE3FBB96DAAC46F0A2576AC418E4BA00A44750A9AB9236184984CD588A711BD59A7A2
 SHA512 | `73A1D097F51B3FFF7E770867FB35E7C1C8AF2D1213AD8CCDD34B3180E3B9B8D7F6423CFD42414AC617871E05EDAF2A6EA6FEB4297927CC99B36EC4DB8E1BEF18`
 SSDEEP | `3072:9P5mmt0fSoD7Rcw3oc8LxCsExhfMFFM+X8cAI:Tmmt0fSoD7RcG2LxCZIr`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\mavinject.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
-
-
 ## Signature
 
 * Status: Signature verified.

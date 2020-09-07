@@ -18,17 +18,6 @@ SHA384 | `346672A7055D31EA5DA4CFBD9062C4B2ECAB19231C7A35939A343876E9C4F3AF6B4940
 SHA512 | `306782DB3E32D2BD1B33D85C72323DB1B895900D2FA805B984CA17DBABD31881D6B5341ECC0728AF9D941797BD54BD573DB39083DAA2052C82FC88262C14E2D1`
 SSDEEP | `3072:075RF52kMXQBVhGr7+nSAZiKMFskFai2UhMWvfhocaManrrE4Z:wXF52BXQpVSA0LOkFwafho5rrE4Z`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-C:\Windows\SysWOW64\Dism.exe |
-
-
 ## Signature
 
 * Status: The file C:\windows\SysWOW64\Dism.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

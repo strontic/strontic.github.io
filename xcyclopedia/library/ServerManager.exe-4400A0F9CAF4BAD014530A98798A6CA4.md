@@ -23,17 +23,6 @@ SHA384 | `1543BE09650936C11BEEEFC3CC827AE592551A9C050DC77C23F17A41B2E05D81256016
 SHA512 | `AB935562879A83B640D701B5738DF706FFD1AF0DDC848579B9292FD9B15E9C24B5F1223E6B21B6A9773D766C98242A23D57D23C54E229989F673578287F3C9F8`
 SSDEEP | `6144:XixEpwpp+SNdi6gozVvPUHZsGChyB0M8VGQ8b:XiSwpp+SNQtivPyCYy7Gvb`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\serialver.exe |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
-C:\Windows\System32\wow64win.dll |
-
-
 ## Signature
 
 * Status: The file C:\windows\system32\ServerManager.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170

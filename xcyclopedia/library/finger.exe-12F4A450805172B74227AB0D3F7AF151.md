@@ -94,6 +94,13 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\finger.exe](finger.exe-548BD137905CFDF1D1CE54682305FA3D.md) | 52
 
+## Possible Misuse
+
+*The following table contains possible examples of `finger.exe` being misused. While `finger.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `finger` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

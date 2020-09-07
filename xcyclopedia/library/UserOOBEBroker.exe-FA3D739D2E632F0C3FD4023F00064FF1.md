@@ -18,21 +18,6 @@ SHA384 | `FFA13D94EC1C3B7217F083F4A3D083A0A0158FE05DB6D4E125CAB19946BCD5B55ACB2C
 SHA512 | `4C36638A94F1CDD3CEF4CF7A85B91044444E7E2AB2D4E1948A4DD358962BCCC311180C6EFFD7C2100FEC6146BDD714761EF9C0D92254798ECC3FC31796FCEDE1`
 SSDEEP | `1536:nm8+qwvdo94xWWJBPQouZAPh0la+/z/RX568DGAMoOXV:1+Dy94x9JdQouC4a+/zH6vAMt`
 
-### Loaded Modules:
-
-Path |
--- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\KERNEL32.DLL |
-C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\oobe\UserOOBEBroker.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-
-
 ## Signature
 
 * Status: Signature verified.
