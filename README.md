@@ -7,7 +7,7 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 1) Open *Git Bash*
 2) `cd ~/Documents/GitHub/strontic.github.io`
 3) `bundle update github-pages`
-4) (OPTIONAL) `export JEKYLL_GITHUB_TOKEN=\<your token\>`
+4) (OPTIONAL) `export JEKYLL_GITHUB_TOKEN=<your token>`
 5) `bundle exec jekyll build`
     * (OPTIONAL) Incremental build: `--incremental` *([Experimental!](https://jekyllrb.com/docs/configuration/incremental-regeneration/))*
     * (OPTIONAL) Listen for changes: `--watch` *([Info](https://jekyllrb.com/docs/installation/windows/#auto-regeneration))*
