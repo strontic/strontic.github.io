@@ -21,7 +21,7 @@ SSDEEP | `384:GpsKD5hnIqImSHhV8GseeK4SzvCK6jSt+gtLDgf2h6E:GpsAn/S/8GJeKJCKg0FUf2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 "/?" is neither a file name nor an URL
 
 

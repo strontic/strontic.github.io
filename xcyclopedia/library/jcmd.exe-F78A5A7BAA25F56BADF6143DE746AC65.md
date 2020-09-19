@@ -21,7 +21,7 @@ SSDEEP | `384:sR5Hhbgb/AZr1OeEMZXpqnYPLV9+MaDGm7:W52ir1TEe5qQ8DGm7`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jcmd <pid | main class> <command ...|PerfCounter.print|-f file>
    or: jcmd -l                                                    
    or: jcmd -h                                                    
@@ -41,7 +41,7 @@ Usage: jcmd <pid | main class> <command ...|PerfCounter.print|-f file>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error parsing arguments: No command specified
 
 

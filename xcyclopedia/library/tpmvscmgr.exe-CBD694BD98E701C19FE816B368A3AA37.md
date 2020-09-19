@@ -21,7 +21,7 @@ SSDEEP | `3072:OHyb47+equxzJc7z40/VrJBac8+ZTAb90p:OHyb4qeLoVd40`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown action: /help
 TpmVscMgr.exe 
  

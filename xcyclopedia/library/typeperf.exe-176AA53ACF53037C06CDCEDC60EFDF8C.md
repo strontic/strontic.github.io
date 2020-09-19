@@ -21,7 +21,7 @@ SSDEEP | `768:mrezkicmCLTANrE9v6OIwVO87MKhNvmYUr13025roamNjAj4Qbm:m7mCQVql283vUB
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft r TypePerf.exe (10.0.18362.1)
 

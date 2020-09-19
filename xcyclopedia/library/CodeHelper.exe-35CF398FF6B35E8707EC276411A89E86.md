@@ -21,7 +21,7 @@ SSDEEP | `768:PXlgdxeSvurypIy52kMzfvGnMM/BQiJZQqjTB9:PWdYepIy4TzfOMM/BQkZQwd9`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Path '--help' does not exist.
 
 ```

@@ -21,13 +21,13 @@ SSDEEP | `384:/bdNt3yyv8QABbFd05AaGnYPLV9+MaDGkF:hO+R+Fd05UQ8DGkF`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 7708 Jps
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: jps [--help]
        jps [-q] [-mlvV] [<hostid>]
 

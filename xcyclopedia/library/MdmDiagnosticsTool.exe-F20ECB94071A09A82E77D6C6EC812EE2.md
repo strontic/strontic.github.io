@@ -21,7 +21,7 @@ SSDEEP | `1536:N7L5ewNt3W0wWBPt+KWmfVev4+6PdHvpuebu:lYuW0wqt+LyVo4+GdHBDbu`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
   Usage1: C:\Windows\system32\MdmDiagnosticsTool.exe -out <output folder path>
       * Output MDM diagnostics info only to given folder path specified in -out parameter.

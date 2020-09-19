@@ -21,7 +21,7 @@ SSDEEP | `768:Nr9pUJQVmhBubVEvVuVXU9/biWClj9RB8BgS7uTyRe6S9th0lTd:hTuH6bVEqEwNlj
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Searches for strings in files.
 
 FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:file]
@@ -74,7 +74,7 @@ Reference.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 FINDSTR: /- ignored
 FINDSTR: /h ignored
 FINDSTR: Bad command line

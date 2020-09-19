@@ -21,7 +21,7 @@ SSDEEP | `768:gMO5WXdGYTNKWJDGYyXb0cDrQoNWt7G/XQYyKC7MGMEf9jZpAXDRXWfjP6:bGKNl9G
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Unhandled Exception: System.Security.SecurityException: Requested registry access is not allowed.
    at System.ThrowHelper.ThrowSecurityException(ExceptionResource resource)

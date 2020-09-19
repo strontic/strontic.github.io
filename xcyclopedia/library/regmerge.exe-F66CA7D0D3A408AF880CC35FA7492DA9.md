@@ -20,7 +20,7 @@ SSDEEP | `768:wtWixMG755OBOCpjEFLz3djAqBLHo5W4V3MLG0ZEhFFlne:wtWRId3dj25WLG0ZEpV
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files\LibreOffice\program\regmerge.exe: unknown option '--'
 using: regmerge [-v|--verbose] mergefile mergeKeyName regfile_1 ... regfile_n
        regmerge @regcmds

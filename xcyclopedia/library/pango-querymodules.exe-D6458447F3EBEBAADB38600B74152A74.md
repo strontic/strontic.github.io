@@ -20,7 +20,7 @@ SSDEEP | `384:flv5E0rWrM8yFmqPrcovYH8+8Lhugvh2pjUPUEU3CiB:flv5E09805YH/iu4AMK`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   pango-querymodules.exe [OPTION...] - [MODULE]...
 
@@ -34,7 +34,7 @@ Application Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot load module C:\Users\user\Documents\help: `C:\Users\user\Documents\help.dll': The specified module could not be found.
 C:\Users\user\Documents\help does not export Pango module API
 

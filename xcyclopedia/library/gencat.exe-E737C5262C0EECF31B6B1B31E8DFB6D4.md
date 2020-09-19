@@ -20,7 +20,7 @@ SSDEEP | `3072:vPJ3UWQESzQREJTtqaMTioHskolW5AqojzhWqqeQYmMgZmmEjScw7s3oazm:vPJkZ
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 gencat: unknown option -- h
 usage: gencat catfile msgfile ...
 

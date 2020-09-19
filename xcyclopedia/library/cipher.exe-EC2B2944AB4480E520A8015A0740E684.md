@@ -21,7 +21,7 @@ SSDEEP | `768:3W2atUnmVZln7u0aIORVpIx34pcKmPJoz4joP:3xammR7u3VeOWK5z4j`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Displays or alters the encryption of directories [files] on NTFS partitions.
 
   CIPHER [/E | /D | /C]

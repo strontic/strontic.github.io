@@ -20,7 +20,7 @@ SSDEEP | `6144:4NWN/DJLikLPPD4mv/uws3RrDDdgi2yZ8jiRPgaDb2O7fcCnDtS9LU9qDCLlC4F:4
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error connecting to agent: No such file or directory
 
 ```

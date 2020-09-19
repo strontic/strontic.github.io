@@ -21,7 +21,7 @@ SSDEEP | `192:ipULxBwumVE9IT2aA6lzTt8c7molvNBwKvTn2JKJCW7mEbAL1bwGmW6aW:ipy2VOIT
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 --help is not a valid command option.
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] 

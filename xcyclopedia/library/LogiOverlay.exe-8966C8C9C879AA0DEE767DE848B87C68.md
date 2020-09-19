@@ -21,7 +21,7 @@ SSDEEP | `6144:Wj2orPqa3zvYHv4Y6RyAZ3S2wUNIpLrAKncoGOhvKOJYDRyAZ3S2CaF:jorPqa3zv
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 App.xaml.cs(45):OnStartup - App. Mutex 'LogiOverlay' created, launching UI
 NamedPipeMgrToUi.cs(32):CreatePipeServer - [OVERLAY] [PIPEIPC] Creating Server Message Dispatcher
 NamedPipeMgrToUi.cs(38):CreatePipeServer - [OVERLAY] [PIPEIPC] Creating PipeServer, pipeName=LogiOverlay{00000000-0000-0000-0000-000000000000-1}
@@ -89,7 +89,7 @@ System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Prog
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Unhandled Exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\ProgramData\Logishrd\LogiOptions\Software\Current\Plugins'.
    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)

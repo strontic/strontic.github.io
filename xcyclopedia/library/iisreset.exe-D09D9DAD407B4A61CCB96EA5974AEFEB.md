@@ -21,7 +21,7 @@ SSDEEP | `384:1rfAz/f54lG6A0O3yc7tGlps62gy8HDExabCviEgQBIbW0:ZG41A0O3bEl9H/WvijQ
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 IISRESET.EXE (c) Microsoft Corp. 1998-2005
 

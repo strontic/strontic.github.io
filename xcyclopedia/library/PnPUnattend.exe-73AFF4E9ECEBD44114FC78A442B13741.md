@@ -21,7 +21,7 @@ SSDEEP | `768:hyPKrBx6AkCDTKAcrYeKRcdvQv7J3JAZVkhIjgkp5e0cVnxDQVW5RKpLdRh5VnDb:I
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 DESCRIPTION:
 AuditSystem, Unattend online driver install 
 

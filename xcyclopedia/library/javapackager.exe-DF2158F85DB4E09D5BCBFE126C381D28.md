@@ -21,7 +21,7 @@ SSDEEP | `3072:k/ipj3RHEqs3NOZD/NXQGOiMQvJdKWgmijvBd4g7yiMtJc:LNlQ3NkHOkJtgeNtJc
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javapackager -command [-options]
 
 where command is one of: 
@@ -195,7 +195,7 @@ javapackager -makeall -appclass brickbreaker.Main -name BrickBreaker
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error: Unknown command: --help
 
 ```

@@ -20,7 +20,7 @@ SSDEEP | `3072:uQbdpJU8ORnBW/Sww4IL3HK8nTO2kjBFf7v3/9LFKRETO:pORBW8XulFf7v3/9LFK
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/mv [OPTION]... [-T] SOURCE DEST
   or:  /usr/bin/mv [OPTION]... SOURCE... DIRECTORY
   or:  /usr/bin/mv [OPTION]... -t DIRECTORY SOURCE...
@@ -64,7 +64,7 @@ or available locally via: info '(coreutils) mv invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/mv: missing destination file operand after 'help'
 Try '/usr/bin/mv --help' for more information.
 

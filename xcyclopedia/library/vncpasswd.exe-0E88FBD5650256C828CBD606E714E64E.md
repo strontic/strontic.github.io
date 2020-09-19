@@ -21,7 +21,7 @@ SSDEEP | `12288:Wsn4GbCF/ankz/9C/X+SlEfOeQlDqPSZIw3pVzJ:2GbCFin8C/XnlE/QNe3wHJ`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 VNC(R) Password Utility 6.1.1 (r28093) x64 (May 19 2017 12:39:44)
 Copyright (C) 2002-2017 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark

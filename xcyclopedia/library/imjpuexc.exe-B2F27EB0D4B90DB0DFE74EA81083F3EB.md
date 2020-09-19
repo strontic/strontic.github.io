@@ -21,7 +21,7 @@ SSDEEP | `6144:3lr1y7Om2Qphzpdx+le8/04Hvsf25IQdWj/4kK6f9AjIKQ:3h1UYQphksYJHu2Stj
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft IME Property Command Line Tool (10.0.17763.1075)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 

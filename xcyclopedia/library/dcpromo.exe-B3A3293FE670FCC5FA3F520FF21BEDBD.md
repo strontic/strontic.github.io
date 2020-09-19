@@ -25,7 +25,7 @@ SSDEEP | `6144:Wnw7PfVxVxjFxmM/HeWjq32r6AjhRZaghY:WnKPfVLnsM/HeMTQg`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The specified argument 'help' should start with '/' or '-'.
 
 ```

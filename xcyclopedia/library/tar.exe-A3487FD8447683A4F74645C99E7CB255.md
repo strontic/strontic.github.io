@@ -21,7 +21,7 @@ SSDEEP | `768:Pst3SDOtWdYOkB5A9+wZ1GST4cfjwKJhBKa38O:P1KtWdYf49bUckKPBKa3/`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
   List:    tar.exe -tf <archive-filename>
   Extract: tar.exe -xf <archive-filename>

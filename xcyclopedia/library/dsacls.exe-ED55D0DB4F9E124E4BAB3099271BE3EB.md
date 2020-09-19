@@ -21,7 +21,7 @@ SSDEEP | `1536:JYta+rnJ25Nx4P4eS6+QXOSdF2x4LKPW:2ZrJj7S6+QXOSdF2Gp`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Parameter --help was unexpected.
 Displays or modifies permissions (ACLS) of an Active Directory Domain Services (AD DS)
 Object

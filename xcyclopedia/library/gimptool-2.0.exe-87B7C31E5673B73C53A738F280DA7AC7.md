@@ -20,7 +20,7 @@ SSDEEP | `768:w4E/9PYJOX9/Ah5Y+JNBBJWgb1eaipiR9ri48aibMriXiRx:JEmJOdAh5YcN1W0Uai
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: gimptool-2.0 [OPTION]...
 
 General options:
@@ -72,7 +72,7 @@ not libgimpui, append -nogimpui.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unrecognized switch -help
 
 ```

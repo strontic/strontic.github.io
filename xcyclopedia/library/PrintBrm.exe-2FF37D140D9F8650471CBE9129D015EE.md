@@ -21,7 +21,7 @@ SSDEEP | `384:FGrr3jeHW0/MMEMbOY9y7QLhDcuC0uJA5zRMdtBbNke63SN0GO0rSTOccxLjYVWo:0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: A single mode must be selected!
 
 Access the Backup Recovery Migration tool through a command line interface.

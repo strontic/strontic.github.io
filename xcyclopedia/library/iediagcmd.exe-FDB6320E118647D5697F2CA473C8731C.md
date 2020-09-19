@@ -21,7 +21,7 @@ SSDEEP | `12288:SjQJGJ17jTm9pq1Zi2HLGWYIwgjQwp21ZZ:SQJGJID0hYIwwQsK`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: iediagcmd 
 
 Options:
@@ -33,7 +33,7 @@ Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Arguments must start with /
 
 

@@ -20,7 +20,7 @@ SSDEEP | `12288:TY6Yi7JdO9+yC7GnFhSkn7nW6D8YMHIdF:iil49+yC7CFUkn7nWa8YyIdF`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 ===============================================================================
 flac - Command-line FLAC encoder/decoder version 1.3.2
 Copyright (C) 2000-2009  Josh Coalson
@@ -151,7 +151,7 @@ negative options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 flac 1.3.2
 Copyright (C) 2000-2009  Josh Coalson, 2011-2016  Xiph.Org Foundation

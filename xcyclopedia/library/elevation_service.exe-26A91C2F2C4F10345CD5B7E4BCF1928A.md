@@ -21,7 +21,7 @@ SSDEEP | `24576:Y0xCSxrlfMK/dKgVcOATcbJqhioi5n7DhMicP3m9htUVTVVcKx3v:YgJfhdFVTAT
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 [0830/154042.943:ERROR:service_main.cc(150)] Failed to connect to the service control manager: The service process could not connect to the service controller. (0x427)
 
 ```

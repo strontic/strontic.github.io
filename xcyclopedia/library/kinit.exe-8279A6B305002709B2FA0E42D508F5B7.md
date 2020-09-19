@@ -21,7 +21,7 @@ SSDEEP | `192:3P1yTnTZ/OKro+IKEfodlS18eExN/4yK6CYlLWwsUXCnZ74IIa9sgfxIZHyFV:3Pak
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
 
 1. Initial ticket request:
@@ -45,7 +45,7 @@ Available options to Kerberos 5 ticket request:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Exception: invalid Principal name: --helpKrbException: Cannot locate default realm
 java.lang.IllegalArgumentException: invalid Principal name: --helpKrbException: Cannot locate default realm
 	at sun.security.krb5.internal.tools.KinitOptions.<init>(KinitOptions.java:150)

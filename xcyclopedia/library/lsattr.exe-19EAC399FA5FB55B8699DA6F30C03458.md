@@ -20,7 +20,7 @@ SSDEEP | `3072:wlCYI9zQRENfTioHsCnXNcbCojzhpK6eQgmMIpnqEjUNw66Hoq7kLYT:GCYI9ziE9
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: lsattr [-RVadhln] [file]...
 
 List file attributes
@@ -58,7 +58,7 @@ Supported attributes:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 lsattr: No such file or directory while trying to stat /h
 
 ```

@@ -20,7 +20,7 @@ SSDEEP | `768:Sq3PsONxR9O+zE16SViqboi8xccccccccccccccccccccccccccccccaEkW+3F/n:S
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/pathchk [OPTION]... NAME...
 Diagnose invalid or unportable file names.
 
@@ -38,7 +38,7 @@ or available locally via: info '(coreutils) pathchk invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 pathchk: unknown option -- h
 Try '/usr/bin/pathchk --help' for more information.
 

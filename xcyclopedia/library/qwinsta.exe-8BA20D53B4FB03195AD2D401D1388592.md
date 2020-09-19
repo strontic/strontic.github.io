@@ -21,7 +21,7 @@ SSDEEP | `384:ngeQrphbmcLelWRzVBlfBg1PE9iU3ogAv9QasXFZg8XImvCSGFETUYjWV6Ww/m:gLh
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Display information about Remote Desktop Services sessions.
 
 QUERY SESSION [sessionname | username | sessionid]
@@ -41,7 +41,7 @@ QUERY SESSION [sessionname | username | sessionid]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Display information about Remote Desktop Services sessions.
 

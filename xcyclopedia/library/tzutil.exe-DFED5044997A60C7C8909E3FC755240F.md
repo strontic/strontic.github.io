@@ -21,7 +21,7 @@ SSDEEP | `768:sD21FKHTiPgnw0EJJvYxcc4DRf3IVBVx8I:si14HOonwlKec4Q7Vx8I`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Windows Time Zone Utility
 
 Usage:

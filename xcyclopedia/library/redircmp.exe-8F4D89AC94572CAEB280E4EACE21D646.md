@@ -21,7 +21,7 @@ SSDEEP | `192:xEHKqmOcff9gYqYLfuQhYnqarDhwbRM7eF4Uk1WqnbW:xEHKhlqYLfjhQqahwbCa4n
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
 
 redircmp CONTAINER-DN

@@ -20,7 +20,7 @@ SSDEEP | `1536:JeC6sTms4zW2O37j97XE/JVzUTKwnEQiHIU2JbppKUmexFfXxkuyQxEWuF9YMUf:J
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/mkdir [OPTION]... DIRECTORY...
 Create the DIRECTORY(ies), if they do not already exist.
 
@@ -43,7 +43,7 @@ or available locally via: info '(coreutils) mkdir invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 mkdir: unknown option -- h
 Try '/usr/bin/mkdir --help' for more information.
 

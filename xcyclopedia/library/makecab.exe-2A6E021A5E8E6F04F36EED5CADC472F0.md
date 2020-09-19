@@ -21,7 +21,7 @@ SSDEEP | `1536:PHETNBgUEt6H091wjM/b3sWNhIkH4oSlblnTGPptnJTliYcZpZgoLA4pnj1mOS1I:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Cabinet Maker - Lossless Data Compression Tool
 
 MAKECAB [/V[n]] [/D var=value ...] [/L dir] source [destination]

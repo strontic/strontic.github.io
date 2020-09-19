@@ -21,7 +21,7 @@ SSDEEP | `49152:kWDNeyD3yQ/WpSCU23ieKaYV8JyxO3IQ5FmIUpFtv/0VB4S6w1iSpBOeLnZcu:1x
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: ENScript <command> [options]
 
@@ -51,7 +51,7 @@ options specified in the response file.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown command: "--help"
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `192:Oo9Pjaxp8tPxf6DkuCitodMueEuynYe+PjPV9j7mMaDWpHV9Z7:/raktV6DqiPueEu
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: java-rmi [-options] class [args...]
            (to execute a class)
    or  java-rmi [-options] -jar jarfile [args...]

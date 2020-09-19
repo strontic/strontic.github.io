@@ -21,7 +21,7 @@ SSDEEP | `768:jtU40555+RRF8xBWMzdheUdNotSPshNyspmGh2pU9tg3hQNE:jO405j8xKdA6NbsH/
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Command line interface to a user's defaults.
 Syntax:
 

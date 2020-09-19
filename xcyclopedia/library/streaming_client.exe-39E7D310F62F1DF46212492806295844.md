@@ -21,7 +21,7 @@ SSDEEP | `196608:xZSZw/Q6C0iSG+y9ygRvcg2SYOiA2mRSjBm/:xZSZw/Q6C0iKy9yKHJYOPqBm/`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: C:\Program Files (x86)\Steam\streaming_client.exe [--windowed] [--novsync] [--nohwaccel] [--quality 1-3] [--captureres WxH] [--framerate N] [--bitrate N (Kbit/s)] [--burst N (Kbit/s)] [--mousescale N] [--touch-controller] [--disable-touch-controller] [--performance-icons] [--performance-overlay] [--enable|disable-video] [--enable|disable-audio] [--enable|disable-input] [--enable|disable-microphone] [--controller-overlay-hotkey [auto|button|none]] authtoken
 
 

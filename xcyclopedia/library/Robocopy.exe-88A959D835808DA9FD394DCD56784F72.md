@@ -21,7 +21,7 @@ SSDEEP | `3072:/LNJN7Bng6aRAREDkv+WZY/Xp7329sNUGaGO:jDpd5unkvCfpLNaG`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              

@@ -20,7 +20,7 @@ SSDEEP | `1536:rWI/2YX6r2iyvWRVyf2GJEX9KW76FmIy2Uf:r/HXHiyvWDyfRJEXJ76FmIy`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/rm [OPTION]... [FILE]...
 Remove (unlink) the FILE(s).
 
@@ -65,7 +65,7 @@ or available locally via: info '(coreutils) rm invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 rm: unknown option -- h
 Try '/usr/bin/rm ./-help' to remove the file '-help'.
 Try '/usr/bin/rm --help' for more information.

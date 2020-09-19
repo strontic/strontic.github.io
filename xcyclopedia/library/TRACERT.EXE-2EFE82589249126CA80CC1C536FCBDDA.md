@@ -21,7 +21,7 @@ SSDEEP | `384:GAdLHysXU6ChInwbCZrzlrxoTlmFL1yzqWfaW:GeTCStzATQFL1Ij`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] 
                [-R] [-S srcaddr] [-4] [-6] target_name

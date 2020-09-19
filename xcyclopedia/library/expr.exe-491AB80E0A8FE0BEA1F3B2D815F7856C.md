@@ -20,7 +20,7 @@ SSDEEP | `3072:9ryBotf9xN5thg+EFcTCaSW2HiLw/FmK/:xyCgkAHiLw/FmK/`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/expr EXPRESSION
   or:  /usr/bin/expr OPTION
 

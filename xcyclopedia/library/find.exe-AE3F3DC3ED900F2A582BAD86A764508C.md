@@ -21,7 +21,7 @@ SSDEEP | `384:Ahvo3AARFAaVDVxRshn92Jwpvwp0VJZyTWOIW:oV2DVM9Cuvu0VLyt`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Searches for a text string in a file or files.
 
 FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "string" [[drive:][path]filename[ ...]]
@@ -41,7 +41,7 @@ or piped from another command.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 FIND: Parameter format not correct
 
 ```

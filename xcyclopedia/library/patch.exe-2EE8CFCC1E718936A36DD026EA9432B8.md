@@ -21,7 +21,7 @@ SSDEEP | `1536:i6IMVcXXBjkSvfF1mukXUf7SB2w6X7Hmp624RkdCId/jB9YJD5WLRajptgOMwD:5I
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\program files\WinMerge\GnuWin32\bin\patch.exe [OPTION]... [ORIGFILE [PATCHFILE]]
 
 Input options:
@@ -91,7 +91,7 @@ Report bugs to <bug-patch@gnu.org>.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files\WinMerge\GnuWin32\bin\patch.exe: invalid option -- h
 C:\program files\WinMerge\GnuWin32\bin\patch.exe: Try `C:\program files\WinMerge\GnuWin32\bin\patch.exe --help' for more information.
 

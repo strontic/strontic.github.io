@@ -21,7 +21,7 @@ SSDEEP | `1536:fGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgtEsUapaABNS3h5A:f
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WindowsMailSync: what you trying to do?
 
     --issyncing

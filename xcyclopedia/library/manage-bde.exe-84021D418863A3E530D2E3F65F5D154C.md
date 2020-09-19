@@ -21,7 +21,7 @@ SSDEEP | `6144:9sZ+OW0m5L6kLZc87GF1lqq1Bmt5Vs7nyatGt+SYF:9snWBhPS8lH+S+`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 BitLocker Drive Encryption: Configuration Tool version 10.0.19041
 Copyright (C) 2013 Microsoft Corporation. All rights reserved.
 

@@ -21,7 +21,7 @@ SSDEEP | `384:Gpsr5BnqqGmSHhV8dKeeF4Sz8K6jSObDgf2hIdt:Gps7nTS/8dXeF+KgZUf2hIdt`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 jjs [<options>] <files> [-- <arguments>]
 	-D (-Dname=value. Set a system property. This option can be repeated.)
 

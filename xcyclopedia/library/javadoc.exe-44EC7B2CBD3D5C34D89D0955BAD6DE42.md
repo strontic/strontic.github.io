@@ -21,7 +21,7 @@ SSDEEP | `192:kJEkmfR0x2p8NPWhaKiiCitolWeEunYe+PjPV9j7mMaDWpH3LCKS:uEraVNehZi3iw
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javadoc [options] [packagenames] [sourcefiles] [@files]
   -overview <file>                 Read overview documentation from HTML file
   -public                          Show only public classes and members
@@ -91,7 +91,7 @@ Provided by Standard doclet:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 javadoc: warning - No source files for package help
 javadoc: warning - No source files for package help
 javadoc: error - No public or protected classes found to document.

@@ -21,7 +21,7 @@ SSDEEP | `6144:ADX91oG3blPe1hUZuintPiDWOc1zDuIrI6zo4SPvU:ADN1jlw6PiDA1zyms`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft DiskRAID version 10.0.19041.1
 

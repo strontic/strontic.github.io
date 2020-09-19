@@ -20,7 +20,7 @@ SSDEEP | `12288:j7cGf2xP1vvVPIoMXr4TDxwW096yWRL79fq32nL1lAcQXcMsW9:j7c42xPvMUTDx
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 0fzStorj started, protocol_version=1
 
 ```

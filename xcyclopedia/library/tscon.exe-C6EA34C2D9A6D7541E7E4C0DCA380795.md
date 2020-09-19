@@ -21,7 +21,7 @@ SSDEEP | `384:4vrzYf9G/TQ9qrfb/qXsBakXjAJyc4E8TTWjegW2X:4fY1G/06/M6xThMX`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Attaches a user session to a remote desktop session.
 
 TSCON {sessionid | sessionname} [/DEST:sessionname]
@@ -37,7 +37,7 @@ TSCON {sessionid | sessionname} [/DEST:sessionname]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Attaches a user session to a remote desktop session.
 

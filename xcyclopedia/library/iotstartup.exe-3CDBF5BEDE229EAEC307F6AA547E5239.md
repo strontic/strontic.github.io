@@ -21,7 +21,7 @@ SSDEEP | `3072:1apgtemxd/Jc4Yx3WJ781aY1b/0EVCug8cEexFQG33UUt:UpgxxdB3Q3WJ78gC0EV
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   IotStartup [list|add|remove|startup] ([headed|headless]) (suppress) (std::regex regular expression with implied ^ prepended)
   IotStartup [run|stop] (std::regex regular expression with implied ^ prepended)

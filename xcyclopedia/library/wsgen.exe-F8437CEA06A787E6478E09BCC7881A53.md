@@ -21,7 +21,7 @@ SSDEEP | `384:GpsQ5hnuqkmSHhV8mCee74SzwK6jSOxpPDgf2hT+A:Gps6n5S/8mve7iKgbUf2hyA`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 unrecognized parameter --help
 
 

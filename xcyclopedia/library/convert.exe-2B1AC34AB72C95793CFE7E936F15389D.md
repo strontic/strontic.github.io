@@ -21,7 +21,7 @@ SSDEEP | `384:aJloU9AHup2V7CV5SugYcFl/sX6XvwTaAztbNDWCqW/L:6loPHupWBugYMYFZbjj`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Converts a FAT volume to NTFS.
 
 CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
@@ -42,7 +42,7 @@ CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid drive specification.
 
 ```

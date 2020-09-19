@@ -21,7 +21,7 @@ SSDEEP | `768:fs4TjbWSCdB16t4D+GJmiPioMNFzXn7Bv:fTjb7yPioWFzXn7Bv`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Creates, displays and deletes stored credentials.
 Following commands are supported.Use VaultCmd /<command> /? for further help 
 VaultCmd /list

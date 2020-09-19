@@ -20,7 +20,7 @@ SSDEEP | `3072:RSNeVGdB9MvMfudf2DnDOug33J5G4HewDCFdFns:RSNeVOVudfknqugnnGwDCds`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) Diamond Extraction Tool - Version (32) 1.00.0601 (03/18/97)
 Copyright (c) Microsoft Corp 1994-1997. All rights reserved.
 

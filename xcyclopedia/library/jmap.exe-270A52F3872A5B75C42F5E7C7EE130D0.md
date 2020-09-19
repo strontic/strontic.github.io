@@ -21,7 +21,7 @@ SSDEEP | `384:Fb9biPqNye5xFBbFMm5AdbK6jSp4kDgf2hI:HOPreXFMm56Kg5kUf2hI`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
     jmap -clstats <pid>
         to connect to running process and print class loader statistics

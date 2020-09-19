@@ -21,7 +21,7 @@ SSDEEP | `768:qSsny4smb1M4WbEQCnK2/h3pj4szhayaUya6Kcz6gsl3j8KORJT48euOkj8H5toj:q
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 BFSVC Warning: Failed to determine source OS version.
 BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! Error code = 0xc1
 

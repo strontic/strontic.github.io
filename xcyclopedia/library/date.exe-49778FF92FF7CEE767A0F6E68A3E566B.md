@@ -20,7 +20,7 @@ SSDEEP | `3072:k5K5zxmECcvtDTGkveIuijQL5pKk2NhwFAHCe9VMEqO7DkIN:ki9mEnxGkVUprAHC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/date [OPTION]... [+FORMAT]
   or:  /usr/bin/date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
 Display the current time in the given FORMAT, or set the system date.
@@ -129,7 +129,7 @@ or available locally via: info '(coreutils) date invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 date: unknown option -- h
 Try '/usr/bin/date --help' for more information.
 

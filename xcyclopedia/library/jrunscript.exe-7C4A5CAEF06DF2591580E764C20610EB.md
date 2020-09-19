@@ -21,7 +21,7 @@ SSDEEP | `384:4b9bCPq93BbFv8K45A/LBnYPLV9+MaDG3h+:8uPIFX45KQ8DG3g`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: jrunscript [options] [arguments...]
 
 where [options] include:

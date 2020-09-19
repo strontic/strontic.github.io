@@ -21,7 +21,7 @@ SSDEEP | `49152:z0fhbBgHSe0DQshpVYxsTSbpQkHrAbcrhnLCCdbixXdnHsGWCxTToTkvrdSx/FxE
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Spybot - Search & Destroy command line file removal utility
 Removing files...
 Done.

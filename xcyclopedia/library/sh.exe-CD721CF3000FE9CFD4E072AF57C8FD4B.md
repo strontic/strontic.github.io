@@ -20,7 +20,7 @@ SSDEEP | `49152:1IOxRHOL8T/SI4IeSCoRABAUZLYCEZGaXBuQQ9ee:pxo8TRVABAUZLwM`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 GNU bash, version 4.4.23(1)-release-(x86_64-pc-msys)
 Usage:	/usr/bin/sh [GNU long option] [option] ...
 	/usr/bin/sh [GNU long option] [option] script-file ...
@@ -55,7 +55,7 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /c/Windows/system32/help: /c/Windows/system32/help: cannot execute binary file
 
 ```

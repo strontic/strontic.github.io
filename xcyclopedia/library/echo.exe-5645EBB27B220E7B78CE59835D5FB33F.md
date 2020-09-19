@@ -20,7 +20,7 @@ SSDEEP | `768:tE/s/xIbVRfKBIbViqboqVccccccccccccccccccccccccccccc9AWZ3Fp1DG6Uu:t
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/echo [SHORT-OPTION]... [STRING]...
   or:  /usr/bin/echo LONG-OPTION
 Echo the STRING(s) to standard output.

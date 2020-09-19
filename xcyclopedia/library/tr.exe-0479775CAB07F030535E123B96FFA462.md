@@ -20,7 +20,7 @@ SSDEEP | `768:s7PW/5lsw6E6gakYVCv8nBaUhsabYViqbo7qcccccccccccccccccccccccccccU:K
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/tr [OPTION]... SET1 [SET2]
 Translate, squeeze, and/or delete characters from standard input,
 writing to standard output.
@@ -79,7 +79,7 @@ or available locally via: info '(coreutils) tr invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/tr: missing operand after 'help'
 Two strings must be given when translating.
 Try '/usr/bin/tr --help' for more information.

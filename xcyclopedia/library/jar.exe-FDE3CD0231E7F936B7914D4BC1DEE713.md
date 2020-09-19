@@ -21,7 +21,7 @@ SSDEEP | `192:efFyTHTkQhwKK5IIKEfoaaeEg4yK6CYlLWwsUQlHPu4Ua9sgfxIZH+zD:efqKKMKNa
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Illegal option: /
 Usage: jar {ctxui}[vfmn0PMe] [jar-file] [manifest-file] [entry-point] [-C dir] files ...
 Options:

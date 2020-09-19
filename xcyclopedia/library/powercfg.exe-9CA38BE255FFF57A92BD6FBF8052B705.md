@@ -21,7 +21,7 @@ SSDEEP | `1536:IP++GkfoF8OF3R9Jz1+GidH27gYqXwkNUFmhBwU9LLVHhdeTdDze4yx34QvZj:I50
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 POWERCFG /COMMAND [ARGUMENTS]
 
@@ -113,7 +113,7 @@ Command List:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid Parameters -- try "/?" for help
 
 ```

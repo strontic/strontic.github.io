@@ -21,7 +21,7 @@ SSDEEP | `384:n46XIz3PLC0n2q3ifiljIeUtsT5uXRZ8pB+vJIiQa1TzPPhVMcrwXWMVWW:46XYTCl
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Disconnects a Remote Desktop Services session.
 
 TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
@@ -36,7 +36,7 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Disconnects a Remote Desktop Services session.
 

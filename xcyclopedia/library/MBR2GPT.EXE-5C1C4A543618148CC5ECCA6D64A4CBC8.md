@@ -20,7 +20,7 @@ SSDEEP | `12288:dBkgUjW7moZ1YaziJAwoaM1237Zj3SxFh92OMfCQLXjdo7a/2+pl5BNJtzGRmHeS
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Converts a disk from MBR to GPT partitioning without modifying or deleting data on the disk.
 
@@ -58,7 +58,7 @@ Where:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid argument: -help
 
 Invalid arguments

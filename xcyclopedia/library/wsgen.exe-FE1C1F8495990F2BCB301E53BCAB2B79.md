@@ -21,7 +21,7 @@ SSDEEP | `192:uH9yTHTc8KlMIKEfocX4eExI4yK6CYlLWwsU74Bela9sgfxIZHmGN:uHStKpKNcX4e
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 unrecognized parameter --help
 
 

@@ -20,7 +20,7 @@ SSDEEP | `768:TnELrTVQbmCoLf8oEv1BZ2Q73BNK9NiqboQ0O59WvdomN4DG+Uf2hKJ:TELnVQbnoY
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/basenc [OPTION]... [FILE]
 basenc encode or decode FILE, or standard input, to standard output.
 
@@ -57,7 +57,7 @@ or available locally via: info '(coreutils) basenc invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/basenc: missing encoding type
 Try '/usr/bin/basenc --help' for more information.
 

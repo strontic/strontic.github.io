@@ -21,7 +21,7 @@ SSDEEP | `384:Rb9biPqfl3kBbFKk5A7cK6jSvU9Dgf2h0A:jOPfFKk51Kg4U9Uf2hF`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javac <options> <source files>
 where possible options include:
   @<filename>                  Read options and filenames from file
@@ -93,7 +93,7 @@ where possible options include:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 error: -h requires an argument
 Usage: javac <options> <source files>
 use --help for a list of possible options

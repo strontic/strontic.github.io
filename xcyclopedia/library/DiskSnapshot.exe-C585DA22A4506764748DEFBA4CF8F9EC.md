@@ -21,7 +21,7 @@ SSDEEP | `1536:0t1XK6Z5eFG2Wj0bXWkA3u+gnp5xSfZymol31:/6/X7j0jWkA3u+gnp5xUyN31`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 DiskSnapshot.exe [options]
 	-c write detail data to console
 	-i write detail data to console (same as -c)

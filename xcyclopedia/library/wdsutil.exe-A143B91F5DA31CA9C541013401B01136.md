@@ -21,7 +21,7 @@ SSDEEP | `6144:UAt3XEoCBfHCRGC33msjVxiYqn3D2z+uEZMPiX5ZXbDHT:UAVXEoYfHCUU3m3z2zL
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Windows Deployment Services Management Utility [Version 10.0.17763.1]
  2018 Microsoft Corporation. All rights reserved.

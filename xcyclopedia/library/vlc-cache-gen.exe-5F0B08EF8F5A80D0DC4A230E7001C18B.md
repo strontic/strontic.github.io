@@ -21,7 +21,7 @@ SSDEEP | `3072:OENWNJfF2k9Hc3/nl6LAHkzI1UfgEA6IIyRuw:fKlIk96kADL`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\program files\VideoLAN\VLC\vlc-cache-gen.exe <path>
 Generate the LibVLC plugins cache for the specified plugins directory.
 

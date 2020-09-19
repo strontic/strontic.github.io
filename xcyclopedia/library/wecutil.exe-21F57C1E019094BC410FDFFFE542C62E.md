@@ -21,7 +21,7 @@ SSDEEP | `3072:9m7rsTmitRNqIc9rijGByFvW6nuFe7jjf:9m7Amd7iaUZuFAj`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Windows Event Collector Utility
 
 Enables you to create and manage subscriptions to events forwarded from remote
@@ -62,7 +62,7 @@ wecutil COMMAND -?
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Command help is not supported. Error = 0x57.
 The parameter is incorrect.
 

@@ -20,7 +20,7 @@ SSDEEP | `1536:NJENFpSGr68eQiWZnwc4gdvNT7Ao0qWLQF4gUf2:LwgGr68/i0yLQF46`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/printf FORMAT [ARGUMENT]...
   or:  /usr/bin/printf OPTION
 Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:

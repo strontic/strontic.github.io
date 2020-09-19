@@ -21,7 +21,7 @@ SSDEEP | `12288:MvGh0mGA3w7gdQps4hCCbg9Jsh0l5SoDUpgjNk:MvGUacRfbg9+GlIYUyjNk`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 0fzSftp started, protocol_version=9
 3psftp: Using userhost passed on commandline: help
 2psftp: no username, aborting

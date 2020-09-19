@@ -21,7 +21,7 @@ SSDEEP | `3072:jraLDabiUpYXN9XK3HbnQb4C6c5Q3eSjlR+8qxLijgJyfFOG83Yj34YFnw6OC2cs:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft Drive Optimizer
 Copyright (c) Microsoft Corp.
 

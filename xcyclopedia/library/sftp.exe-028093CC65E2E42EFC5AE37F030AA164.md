@@ -20,7 +20,7 @@ SSDEEP | `6144:pqTjTw9mPw0bLaPpV+y9h+jdi2qAYE4/GgcKuzxywdrHGlUTONZJVxrgZmlx4Cjh:
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 unknown option -- -
 usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
           [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]

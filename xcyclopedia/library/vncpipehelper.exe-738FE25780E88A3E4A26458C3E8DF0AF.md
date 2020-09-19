@@ -21,7 +21,7 @@ SSDEEP | `12288:29qPKSwhug9hoy6T/tjQG/JTPTKZyg80X+Mnm2FD+uvLp:oPug9R6T/9QGxv88Mf
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 This program is not intended to be run directly.
 
 ```

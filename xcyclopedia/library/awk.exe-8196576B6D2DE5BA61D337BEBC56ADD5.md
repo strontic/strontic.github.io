@@ -20,7 +20,7 @@ SSDEEP | `12288:7JxKw4cts8kpQY3GOBguvVRwfrRdm12DunXj6jq64WlS6HZx:7JxsctkdLvVerRd
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
 Usage: awk [POSIX or GNU style options] [--] 'program' file ...
 POSIX options:		GNU long options: (standard)
@@ -70,7 +70,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 awk: cmd. line:1: /?
 awk: cmd. line:1:  ^ unterminated regexp
 

@@ -21,7 +21,7 @@ SSDEEP | `1536:A7OiFt08oM+LA+hs/2qol3Z+it52anL5J/sD8TqWUvNApe7Q8DLQczdidjruFj6h:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Performs administrative operations on Windows Subsystem for Linux
 
 Usage: 

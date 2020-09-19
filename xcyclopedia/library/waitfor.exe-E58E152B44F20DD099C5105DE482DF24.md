@@ -21,7 +21,7 @@ SSDEEP | `768:7HafjFdAjL+LAACIOtev4ioK5VDAeHeqO9xapd1pSx:7HafjFYIOg4if5Se+qCxidC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 WaitFor has two ways of working: 
 
@@ -69,7 +69,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: The signal cannot contain characters other than a-z, A-Z, 0-9 
 and ASCII characters in the range 128-255.
 

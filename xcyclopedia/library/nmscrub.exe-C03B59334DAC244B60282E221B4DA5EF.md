@@ -20,7 +20,7 @@ SSDEEP | `3072:2D4QAn2EgZZSK/UKLrVT69LGsCofBYlolBcmaYoldhT9yfPGk1roEfrTup:w4QlEg
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 usage: nmscrub.exe
 	-a    all virtual switches

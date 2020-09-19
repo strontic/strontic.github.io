@@ -21,7 +21,7 @@ SSDEEP | `384:AuO3duY0GpGl3/gqnjpXi9iAK8HZeiKoWtl4t82foWYWWDD1IDBRJJuhKtklxt:TO3
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 NDKPing can run on a system as Server or Client.
 Run as a Server:
 	 -S -- Specify that the system will be a Server.

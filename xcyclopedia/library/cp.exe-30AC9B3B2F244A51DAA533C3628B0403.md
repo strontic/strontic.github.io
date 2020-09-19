@@ -20,7 +20,7 @@ SSDEEP | `1536:pVkyO6k9AGUegOaX/4wbAxzsbLF7k3StC6XXwTOqvruk0WU3Tz9LFTJuUf:rZcsX/
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/cp [OPTION]... [-T] SOURCE DEST
   or:  /usr/bin/cp [OPTION]... SOURCE... DIRECTORY
   or:  /usr/bin/cp [OPTION]... -t DIRECTORY SOURCE...
@@ -106,7 +106,7 @@ or available locally via: info '(coreutils) cp invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/cp: missing destination file operand after 'help'
 Try '/usr/bin/cp --help' for more information.
 

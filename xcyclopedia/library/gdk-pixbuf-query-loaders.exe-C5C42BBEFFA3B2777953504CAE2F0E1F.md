@@ -20,7 +20,7 @@ SSDEEP | `384:njwQJBRrvaHr+nGUPp2KdoBKiaDH2t/aBy:L9mLEGUPp2KWBKie2F+y`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 # GdkPixbuf Image Loader Modules file
 # Automatically generated file, do not edit
 # Created by gdk-pixbuf-query-loaders.exe from gtk+-2.16.6
@@ -29,7 +29,7 @@ SSDEEP | `384:njwQJBRrvaHr+nGUPp2KdoBKiaDH2t/aBy:L9mLEGUPp2KWBKie2F+y`
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 g_module_open() failed for C:\Users\user\Documents\--help: `C:\Users\user\Documents\--help.dll': The specified module could not be found.
 
 ```

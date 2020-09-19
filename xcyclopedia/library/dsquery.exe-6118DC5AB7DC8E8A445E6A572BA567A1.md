@@ -21,7 +21,7 @@ SSDEEP | `1536:urUx5mbDtKLErGgDManxmpjpl12OIBdVkbEkgHh5ArSCy29:WUx5mbBbxuplYxS9g
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description: This tool's commands suite allow you to query the directory
 according to specified criteria. Each of the following dsquery commands finds
 objects of a specific object type, with the exception of dsquery *, which can
@@ -101,7 +101,7 @@ dsrm /? - help for deleting objects.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 dsquery failed:The parameter is incorrect.:Incorrect object type specified.
 type dsquery /? for help.
 ```

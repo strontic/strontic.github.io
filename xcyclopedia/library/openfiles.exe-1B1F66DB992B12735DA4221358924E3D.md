@@ -21,7 +21,7 @@ SSDEEP | `1536:57IvMFxeDvlygP84Og+rKJUxLniTItiefQtdgqxzBs:qvMmc1MJiniEutdgqxO`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 OPENFILES /parameter [arguments]
 
@@ -47,7 +47,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid syntax.
 Type "OPENFILES /?" for usage.
 

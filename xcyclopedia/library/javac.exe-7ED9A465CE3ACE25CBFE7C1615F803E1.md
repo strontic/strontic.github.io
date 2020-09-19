@@ -21,7 +21,7 @@ SSDEEP | `192:sTQiDjRb+XGvrXZrAOEYseExyZXp6nYe+PjPV9j7mMaDWpHf+EKU:stRb+2vrZrlse
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: javac <options> <source files>
 where possible options include:
   -g                         Generate all debugging info

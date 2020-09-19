@@ -21,7 +21,7 @@ SSDEEP | `192:ObyoL1l+gp8NPUksiCitolrOeExBnYe+PjPV9j7mMaDWpHzWZLa:eysl+NNsks3igr
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid flag --help.
 use: serialver [-classpath classpath] [-show] [classname...]
 

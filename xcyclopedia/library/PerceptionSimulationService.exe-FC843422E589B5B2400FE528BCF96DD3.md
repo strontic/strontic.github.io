@@ -21,7 +21,7 @@ SSDEEP | `1536:4i5L8OascgCDVIxPT2ym3rp4kmlCrolqJ5VLKgljv3OFbOsJs3Gey9RHOeCUC:4g8
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Windows Perception Simulation Service.
 
 PerceptionSimulation [/I][/U][/?]

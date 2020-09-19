@@ -21,7 +21,7 @@ SSDEEP | `6144:F2qRmqUH1IHdfS08hQ/Cv1Sx4I48OUFfa6/9xkluvAloZNsEI:UqUcdS651ZDZKEI
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 wbadmin 1.0 - Backup command-line tool
 (C) Copyright Microsoft Corporation. All rights reserved.
 

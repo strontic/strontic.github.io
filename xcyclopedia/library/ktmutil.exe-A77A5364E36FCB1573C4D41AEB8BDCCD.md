@@ -21,7 +21,7 @@ SSDEEP | `384:hR8zefNzVpqIuU+N22F0FmNOf2TCS3M3/uW+jW:YeFVnFwN/jM3/u`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The KTMUTIL utility requires that you have administrative privileges.
 
 ```

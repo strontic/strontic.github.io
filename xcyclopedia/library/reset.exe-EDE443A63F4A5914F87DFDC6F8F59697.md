@@ -21,13 +21,13 @@ SSDEEP | `384:P6k7EHdWH1ZMqxdBeEh+91XfGHK2ahyWQgW:P6kQSVBA914cU`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 RESET { SESSION }
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 RESET { SESSION }
 

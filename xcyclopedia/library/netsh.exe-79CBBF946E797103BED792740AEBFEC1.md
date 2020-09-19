@@ -21,7 +21,7 @@ SSDEEP | `1536:WHbGVLn6iQTaFs9DueVzrUXKsFxgpeb5A99s:ObGV7nQTAkieVzoXXFxgp22k`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: C:\WINDOWS\system32\netsh.exe [-a AliasFile] [-c Context] [-r RemoteMachine] [-u [DomainName\]UserName] [-p Password | *]
              [Command | -f ScriptFile]

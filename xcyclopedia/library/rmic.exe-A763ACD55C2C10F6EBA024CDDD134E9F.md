@@ -21,7 +21,7 @@ SSDEEP | `384:GpsP5BnaxHmSHhV8WSPeeI4SzcK6jSYmtBDgf2hL4:Gps/nlS/8WSGeIyKgbiBUf2h
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 --help is an invalid option or argument.
 Usage: rmic <options> <class names>
 

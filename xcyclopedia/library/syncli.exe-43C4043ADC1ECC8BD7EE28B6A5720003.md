@@ -21,7 +21,7 @@ SSDEEP | `1536:aGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgteIUa9XnZxLs3hle:
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 2020-08-30 17:48:42.052 syncli.exe[7820:20b0] Usage syncli.exe [--dumpclients | --getclientinfo | --setclientinfo | --sync | --register | --unregister | --help ]
 --dumpclients - no arguments
 --getclientinfo CLIENT_ID

@@ -21,7 +21,7 @@ SSDEEP | `786432:bTK8PZpMkGA0DILjQ/B7aJqk6KpJdBux9i0nks9R3Nr1vSVOAMswjU:nK8P0kGA
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Warning: 'e' is not in the list of known options, but still passed to Electron/Chromium.
 Warning: 'l' is not in the list of known options, but still passed to Electron/Chromium.

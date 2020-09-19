@@ -20,7 +20,7 @@ SSDEEP | `384:NUot4fFt6WNSMjlgftsl1GidQnz4HzAhFFwme+Es:NBg7TNstsTGWQnzCEhFFlcs`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 open registry "--help" failed
 
 ```

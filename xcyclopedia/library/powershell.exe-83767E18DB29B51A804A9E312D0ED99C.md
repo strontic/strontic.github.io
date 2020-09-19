@@ -21,7 +21,7 @@ SSDEEP | `6144:i0ye4FWwO9sV1yZywi/PzNKXzJ7BapCK5d3klRzULOnWyjLsPhAQzqOP:ixW2KXzJ
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 PowerShell[.exe] [-PSConsoleFile <file> | -Version <version>]
     [-NoLogo] [-NoExit] [-Sta] [-Mta] [-NoProfile] [-NonInteractive]
@@ -141,7 +141,7 @@ EXAMPLES
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 At line:1 char:3
 + --help
 +   ~

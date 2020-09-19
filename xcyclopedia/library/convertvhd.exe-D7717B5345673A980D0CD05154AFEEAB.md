@@ -21,14 +21,14 @@ SSDEEP | `3072:ptUQk+kk1k6WoPeH0VbBe9EaA/Y1CxlAB1nczS56bZOf:ptjkVk14IQlA/voB1ncz
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 VHD Conversion Tool [Version 1.00]
 Copyright (C) 2017 Microsoft Corporation. All rights reserved.
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 onecore\vm\dv\storage\vhd\btt\tools\convertvhdmodule.cpp(112)\convertvhd.exe!00007FF64B218732: (caller: 00007FF64B21928A) Exception(1) tid(13e4) 80070057 The parameter is incorrect.
     Msg:[
 

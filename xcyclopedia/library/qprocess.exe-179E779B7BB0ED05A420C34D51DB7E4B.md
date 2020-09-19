@@ -21,7 +21,7 @@ SSDEEP | `384:UNbL5jXhznOMC2BoH3S4tXHZeCGl5c3kbaEF55rLutDPgsKviTV5p0gdc9YXBFoJ:w
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Displays information about processes.
 
 QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
@@ -38,7 +38,7 @@ QUERY PROCESS [* | processid | username | sessionname | /ID:nn | programname]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Displays information about processes.
 

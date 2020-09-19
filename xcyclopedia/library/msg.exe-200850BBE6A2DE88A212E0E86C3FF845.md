@@ -21,7 +21,7 @@ SSDEEP | `384:vvpXtYHHqGtCWY9L9I/irrEDKfaEX4inB2QDxaf0FiWcUW6:HRt94CWShIWg+BddF4
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Send a message to a user.
 
 MSG {username | sessionname | sessionid | @filename | *}
@@ -44,7 +44,7 @@ MSG {username | sessionname | sessionid | @filename | *}
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Send a message to a user.
 

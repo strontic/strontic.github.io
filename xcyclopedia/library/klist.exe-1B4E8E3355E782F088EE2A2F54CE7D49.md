@@ -21,7 +21,7 @@ SSDEEP | `768:3Kajkfz/QQCxSTDYlx0lSz4XNCLU4ZQ8Fci4n8D1cDxN6qvLmV/n:axfz4i4PLUVMq
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: klist.exe [command]
 

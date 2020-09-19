@@ -21,7 +21,7 @@ SSDEEP | `768:ddvxiSkGxY6ZQppLMVt+QFZ7Xu9qAJ9jq2g:ncXGhcC+QFBFAJJdg`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The AT command has been deprecated. Please use schtasks.exe instead.
 
 Invalid command.

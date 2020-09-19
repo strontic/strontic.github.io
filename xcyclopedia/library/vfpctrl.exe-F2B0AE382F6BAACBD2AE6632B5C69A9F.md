@@ -21,7 +21,7 @@ SSDEEP | `6144:skqX6qvQtdK5ajM7j7OwUyWP61njuK7D7av9zujDqN05dfCo:fYvujMqwTKo`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 
 VFP control and diagnostics utility

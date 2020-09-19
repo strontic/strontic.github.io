@@ -21,7 +21,7 @@ SSDEEP | `768:R5tugiyl/yPYp8yaigwZXbLsWwPN9s9aJuQrt8bplMcpvX/QxQb10Bxk:sxyUiRjwg
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 
 LODCTR

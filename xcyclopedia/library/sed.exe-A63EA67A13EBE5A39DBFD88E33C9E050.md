@@ -20,7 +20,7 @@ SSDEEP | `3072:bjs/pDShg/k1BnK0qwrSiLgd7vallfVi77JZo+OLV3zTohXK:PkSi/cxMhd0lQ/JZ
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 
   -n, --quiet, --silent
@@ -69,7 +69,7 @@ E-mail bug reports to: <bug-sed@gnu.org>.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 sed: unknown option -- h
 Usage: /usr/bin/sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 

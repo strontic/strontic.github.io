@@ -20,7 +20,7 @@ SSDEEP | `768:WMgEYaPKRsVvd7M826QXqVXDjPXHyRhQcBU+zGqJS967GMctEvdGA9SYxQ:1g/6/tM
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot open C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-script.pyw
 
 ```

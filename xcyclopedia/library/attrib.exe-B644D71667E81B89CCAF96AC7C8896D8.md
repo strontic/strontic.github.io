@@ -21,7 +21,7 @@ SSDEEP | `384:unm7jKCZpb32ilXuFAFmEKYVSKvW8tWWj0p0:um7jKC/b3bdVSKXJjW`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Displays or changes file attributes.
 
 ATTRIB [+R | -R] [+A | -A ] [+S | -S] [+H | -H] [+I | -I] 

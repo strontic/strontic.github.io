@@ -21,7 +21,7 @@ SSDEEP | `24576:5OIB8yD6+2als05NVXmqPhJ8ctyO0mdoTAbfSlMIbBTyhtxr3:5lB8yDK05NVWqP
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 *** zstd command line interface 64-bits v1.4.5, by Yann Collet ***
 Usage : 
       zstd.exe [args] [FILE(s)] [-o file] 
@@ -94,7 +94,7 @@ Benchmark arguments :
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 zstd: can't stat help : No such file or directory -- ignored 
 
 ```

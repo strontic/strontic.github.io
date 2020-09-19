@@ -21,7 +21,7 @@ SSDEEP | `1536:/GRqS4Do2QRllMJDVcXG22Nvz42yOoSw9sLKKOTu:Zno7zMJCXRYz42yOo/9KKvTu
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 NLB Cluster Control Utility V2.6
 Usage: NLB <command> 
 <command>

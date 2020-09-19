@@ -21,7 +21,7 @@ SSDEEP | `384:hCOMb4sSHnWfhG4MOzR7QJYMneiZM9WuJW:hCOMs1HnWfxtcPn9ZMT`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 
 DISKPERF=====================

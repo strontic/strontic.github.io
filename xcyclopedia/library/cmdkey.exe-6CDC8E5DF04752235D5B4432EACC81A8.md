@@ -21,7 +21,7 @@ SSDEEP | `384:h/HDVrL5yZsXfPPeN5qu7/btczd/xbGV9W3wW:VDCgmHLVchhGVC`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Creates, displays, and deletes stored user names and passwords.
 

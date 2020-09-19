@@ -21,7 +21,7 @@ SSDEEP | `1536:QIA/RMgNqRdShIPoANJLlAXuSXv+qSFEAeOFt:U/RcRshIPFJRAhP2EAeU`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Invalid parameter
 
 Windows Management Instrumentation

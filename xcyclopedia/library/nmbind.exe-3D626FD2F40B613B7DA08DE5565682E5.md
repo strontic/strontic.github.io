@@ -21,7 +21,7 @@ SSDEEP | `3072:7Jrb1jaXehR21RoDbjGT69LGsCJsBJS7cmaYoldhTPI1M0x4ruH8Lj4:7JrBkef2Y
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Hyper-V Network Core Bind Application 10.0.10011.16384.
 Copyright (c) Microsoft Corporation. All rights reserved.

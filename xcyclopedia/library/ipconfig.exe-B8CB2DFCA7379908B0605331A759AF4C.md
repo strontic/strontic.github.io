@@ -21,7 +21,7 @@ SSDEEP | `384:0STbXEOM7LqKYZHrWn5yu3Qso6uVCgXvtCZvE0zb4M8XG1tbyf9Wxyypvb976hWP:0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Error: unrecognized or incomplete command line.
 

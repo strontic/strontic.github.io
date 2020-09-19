@@ -20,7 +20,7 @@ SSDEEP | `768:Sm5TYJVHC/siWbDsaipiR9ri1NKaifteriXiRd:SmKJVHC/tWb4aipiPW1MaifteWX
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   gimp-test-clipboard-2.0.exe [OPTION?]
 

@@ -20,7 +20,7 @@ SSDEEP | `3072:lzzddXTJo5fj5m5YBFrsbtlfZ9xCeFV3YHZaWqBcmpGYEdOzAg0FuCf5:llM5r5GW
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 MPC Encoder 1.30.0 --stable-- (C) 1999-2009 Buschmann/Klemm/Piecha/MDT
 Built Feb 26 2009 20:33:36
      
@@ -53,7 +53,7 @@ For further information use the --longhelp option.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 MPC Encoder 1.30.0 --stable-- (C) 1999-2009 Buschmann/Klemm/Piecha/MDT
 Built Feb 26 2009 20:33:36
      ERROR: Unable to read or decode: '-help'

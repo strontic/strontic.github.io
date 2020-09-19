@@ -20,7 +20,7 @@ SSDEEP | `3072:RQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F:RQx0t8tF/tp2Zo5GqFNk9Ojtjl8
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/dash: 0: Illegal option -h
 
 ```

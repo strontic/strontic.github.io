@@ -21,7 +21,7 @@ SSDEEP | `384:rAOJ+fzZMnkcwk8bCF05Ldg38TUeu0Y08mpM0QnWE+SW:EOJ+7GnSNb75LhweNY/mp
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\WINDOWS\system32\shutdown.exe [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
     [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
 

@@ -25,7 +25,7 @@ SSDEEP | `24576:IOORJejCRQzaznwD/rwOe/agkCVoh9TLhk73XHX7fok:IOO2RzazS0OehkXh9T9k
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 INFO: Using OpenGL Context.
 
 ```

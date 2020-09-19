@@ -21,7 +21,7 @@ SSDEEP | `6144:flqSBhjSkvZxw6HCJwFnE+fQ6/G6ChcSBo9jma9CkjHHuKGuzx8JlwAxQCIcxUyp:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Unknown Command "/h" Specified -- type DnsCmd -?.
 
 

@@ -21,7 +21,7 @@ SSDEEP | `384:tSCcR08Y0F7eNrvT4alMzJS5zEtE0HVSwRb1dBt1535RFvZzmi0D+GwNRdWtDWub:m
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
  NOTE: Cacls is now deprecated, please use Icacls.
 

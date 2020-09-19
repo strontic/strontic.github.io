@@ -21,7 +21,7 @@ SSDEEP | `768:bknZVecIF+2tSF0Klx/0aBSJLdosFAd+mZWj:QnKcIyz10JLPqUyW`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Disk Footprint Tool
 
 Reports on disk and drive usage.

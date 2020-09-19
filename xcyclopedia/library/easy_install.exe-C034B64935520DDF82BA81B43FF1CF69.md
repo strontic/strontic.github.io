@@ -20,7 +20,7 @@ SSDEEP | `1536:Oq9wlfW9aTR7gyTdneTaef5g9aJxgdS64Cdk+uJE4F4k1hEZqm6iM1FfHYTop7a:n
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Global options:
   --verbose (-v)  run verbosely (default)
@@ -66,7 +66,7 @@ usage: easy_install [options] requirement_or_url ...
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WARNING: The easy_install command is deprecated and will be removed in a future version.
 error: Couldn't find a setup script in C:\Users\user\help
 

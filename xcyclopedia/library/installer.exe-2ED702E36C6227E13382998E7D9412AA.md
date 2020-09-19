@@ -26,7 +26,7 @@ SSDEEP | `49152:Gd6sYw8j54vqBmgre/oOttJBeWinIlb/BG7LdDG6g7LVjcGfzl4Mp5ojVwxLTJLR
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 The system cannot write to the specified device.
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `3145728:+fJrUWRfCcWY3Ivcgo34AePQMik6YZesHoDifu9lfUP:U3IvcgciHiBMpfGA`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Blender 2.83.5
 Usage: blender [args ...] [file] [args ...]
 
@@ -375,7 +375,7 @@ Environment Variables:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 AL lib: (EE) UpdateDeviceParams: Failed to set 48000hz, got 44100hz instead
 Warning! Using result of ChoosePixelFormat.
 Warning! Using result of ChoosePixelFormat.

@@ -21,7 +21,7 @@ SSDEEP | `384:Q2cAbR1ciHKCrQOAPFtEXW0do6J0DeOVSi2SWsaS:jbR1OOAdAa6GiBlSX`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Unhandled Exception: System.ComponentModel.Win32Exception: The system cannot find the file specified
    at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)

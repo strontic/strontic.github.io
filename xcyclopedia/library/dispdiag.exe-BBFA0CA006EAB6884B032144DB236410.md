@@ -21,7 +21,7 @@ SSDEEP | `3072:Hnhcq7iLbXtm9x5X32170rSPQRnzix1qm:BcAiLex5mJcSGnzix1`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Logs display information to a file in the current directory.
 
 Usage: dispdiag [-testacpi] [-d] [-delay <seconds>] [-brightnesslogging] [-out <FilePath>]

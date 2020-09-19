@@ -21,7 +21,7 @@ SSDEEP | `49152:yz/LgXGWKg3kf2Tpa2tYwLlG4cfX5HYRSiq996:sMXv0f29he97qRSim`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 VNC(R) Licensing Utility 6.1.1 (r28093) x64 (May 19 2017 12:39:31)
 Copyright (C) 2002-2017 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
@@ -65,7 +65,7 @@ Global parameters:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error: Bad argument 'help'.  Run with -help for usage.
 
 ```

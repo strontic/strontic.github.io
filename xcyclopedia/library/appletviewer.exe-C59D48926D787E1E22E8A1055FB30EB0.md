@@ -21,7 +21,7 @@ SSDEEP | `384:Gps15Bn1qQmSHhV8Xuee14SzRK6jSjW/Dgf2h+Kk:GpsFnWS/8Xze1zKg2W/Uf2h+V
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: appletviewer <options> url(s)
 
 where <options> include:
@@ -34,7 +34,7 @@ The -J option is non-standard and subject to change without notice.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 I/O exception while reading: C:\Users\user\Documents\help (The system cannot find the file specified)
 
 ```

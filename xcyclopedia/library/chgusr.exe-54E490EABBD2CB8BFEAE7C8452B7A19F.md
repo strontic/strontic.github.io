@@ -21,7 +21,7 @@ SSDEEP | `384:sbxjIs9CKbUj5Moqd1a7sXJAB0t9NzbaQzMMdOiWsVW2J:slZ5b4WpAB0rvO4h`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Change Install Mode.
 
 CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
@@ -34,7 +34,7 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Change Install Mode.
 

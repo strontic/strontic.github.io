@@ -21,7 +21,7 @@ SSDEEP | `24576:ptCozXii5OluefVVzYHJfbnVVCDNnnIUe:ioXpUbnMpfbnVsDd`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 printerinst 6.1.1 (r28093) x64 (May 19 2017 12:37:33)
 Copyright (C) 2002-2017 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
@@ -56,7 +56,7 @@ Global parameters:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 printerinst 6.1.1 (r28093) x64 (May 19 2017 12:37:33)
 Copyright (C) 2002-2017 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark

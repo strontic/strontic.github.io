@@ -21,7 +21,7 @@ SSDEEP | `1536:ZNYh3QQ1eb2045yZhteRKntUIc+aW8R77QVfI:kXet/7t4+aNR77iQ`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft(R) Windows(R) Operating System Default Group Policy Restore Utility v5.1
 

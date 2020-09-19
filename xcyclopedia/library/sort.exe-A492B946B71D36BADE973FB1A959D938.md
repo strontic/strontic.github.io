@@ -20,7 +20,7 @@ SSDEEP | `1536:yG5m/NWdXWwvKJpUwnlsJw9L190nmk7xuiyfrZykWFrodbaUfY:x6cd/vEmSuJw11
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/sort [OPTION]... [FILE]...
   or:  /usr/bin/sort [OPTION]... --files0-from=F
 Write sorted concatenation of all FILE(s) to standard output.
@@ -98,7 +98,7 @@ or available locally via: info '(coreutils) sort invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 sort: unknown option -- e
 Try '/usr/bin/sort --help' for more information.
 

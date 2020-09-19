@@ -25,7 +25,7 @@ SSDEEP | `1536:ISgb2lKhIxHHWMpdPa5wiE21M8kJIGFvb1CwX/k3siy0m:ISs2lKSwMpdCq/IM8uI
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 usage: C:\program files\Python38\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
@@ -121,7 +121,7 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files\Python38\pythonw.exe: can't open file 'help': [Errno 2] No such file or directory
 
 ```

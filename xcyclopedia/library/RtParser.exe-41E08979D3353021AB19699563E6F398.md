@@ -20,7 +20,7 @@ SSDEEP | `384:8VVrxW9j+b1VsVXtPS65GhpxOD832YJLcsoeM7UH:GrxxbPsVXXGhpcYvLTH`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
  RtParser v1.2 
 

@@ -20,7 +20,7 @@ SSDEEP | `6144:Tr4C59jUJC03oDxVloRS0CRLJIceKYcFWbLUpsnJ1:Trz59jUJC03oDb+CVmLqFgL
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
 
 SYNOPSIS
@@ -63,7 +63,7 @@ OPTIONS
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WARNING: package javax.jnlp not in java.desktop
 WARNING: package sun.awt.X11 not in java.desktop
 Unable to use Firefox's proxy settings. Using "DIRECT" as proxy type.

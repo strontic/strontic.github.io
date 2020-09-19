@@ -21,7 +21,7 @@ SSDEEP | `3072:EswPgZs/8fsIlnK0tRrDrTkJKk/V5W86uvsb4C6c5Q3eSjlR+8qxLijgJyfFOG8l:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Please specify a volume to perform the operation on. (0x89000007)
 

@@ -21,7 +21,7 @@ SSDEEP | `3072:r77GakXf+WXf4Zd6/7e2wyctvtOisrGr7xpKQi23rX8LcC/1IrM72tZzPaLArd5n:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) TTDInject Launcher 1.01.06
 Release: 10.0.19041.1
 Copyright (C) Microsoft Corporation. All rights reserved.
@@ -30,7 +30,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 !!! Unexpected string 'help' after 'C:\Windows\system32\ttdinject.exe'
 
 

@@ -20,7 +20,7 @@ SSDEEP | `6144:tEyf4rqrHB5dwLgRig56pUmEPczS5RyC8T4Aw0+wF/xKtZRHnH+4Oj3IJ79Y:t3Ti
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Inno Update v0.8.2
 Error: Bad usage
 

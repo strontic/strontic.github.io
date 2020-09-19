@@ -21,7 +21,7 @@ SSDEEP | `384:5ahy/EnSJIKqKziIyt4RRcHAnl+5nRl7Sew1sYmsPDErjWngWuTu:5aJZ+ziI9RRM6
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: Invalid switch --help.
 Usage: C:\Windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64]] myfile.sdb | {guid} | "name"
 

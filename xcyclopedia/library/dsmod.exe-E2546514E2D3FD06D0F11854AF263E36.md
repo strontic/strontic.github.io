@@ -21,7 +21,7 @@ SSDEEP | `768:TmNt/r3xucgvzML0p4QnYavW44JlPT4Fljiu2q+JzNqZ:Tij3xmv4c4QYavF4jr4FR
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description:  This dsmod command modifies existing objects in the directory.
 The dsmod commands include:
 
@@ -69,7 +69,7 @@ dsrm /? - help for deleting objects.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Description:  This dsmod command modifies existing objects in the directory.
 The dsmod commands include:
 

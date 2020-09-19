@@ -20,7 +20,7 @@ SSDEEP | `98304:egdysJyWGAc8rKiaZXOtK3i2dM3gAiQjQ1dDU+yZ9SuiPoyIgC6LVbo3B3ELsec+
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 This is the GNU debugger.  Usage:
 
     gdb [options] [executable-file [core-file or process-id]]
@@ -97,7 +97,7 @@ Report bugs to "<http://www.gnu.org/software/gdb/bugs/>".
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /?: No such file or directory.
 
 ```

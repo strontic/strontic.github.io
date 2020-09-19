@@ -21,7 +21,7 @@ SSDEEP | `1536:SL9q/bXmnLhUc+4p5obG48INnRDwCvGiLMYnw:SL9dZ+8pmnR0nv+w`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Transfers files to and from a computer running an FTP server service
 (sometimes called a daemon). Ftp can be used interactively.

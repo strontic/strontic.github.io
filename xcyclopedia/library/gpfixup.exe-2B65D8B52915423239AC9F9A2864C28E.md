@@ -21,7 +21,7 @@ SSDEEP | `768:W2kT68e7XUqvCQFeSVExPs7o0hlUiEj3mIA2/qhHX/wMJeIA:WY8eLr7odf/qhHvwM
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Group Policy fix up utility Version 1.1 (Microsoft)
 
 gpfixup: fix up domain name dependencies in group policy objects 
@@ -69,7 +69,7 @@ Usage: gpfixup [/?] [/v]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter.
 
 ```

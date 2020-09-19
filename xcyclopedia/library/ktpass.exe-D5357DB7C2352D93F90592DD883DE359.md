@@ -21,7 +21,7 @@ SSDEEP | `1536:C2CWKlabHmvlOJ28Du27WFRJeIZ5n9Gu/D:C291GvWDlmBH9Gu`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 unknown option '--help'.
 Command line options:
 

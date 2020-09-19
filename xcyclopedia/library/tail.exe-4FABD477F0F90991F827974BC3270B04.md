@@ -20,7 +20,7 @@ SSDEEP | `1536:JWo6Y6hXWG0uYPEcgWIQMCEuvSaWUVdo5ZxUfd:JZ6YMWG/yCCEuvoUVdo5ZA`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/tail [OPTION]... [FILE]...
 Print the last 10 lines of each FILE to standard output.
 With more than one FILE, precede each with a header giving the file name.
@@ -74,7 +74,7 @@ or available locally via: info '(coreutils) tail invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 tail: unknown option -- h
 Try '/usr/bin/tail --help' for more information.
 

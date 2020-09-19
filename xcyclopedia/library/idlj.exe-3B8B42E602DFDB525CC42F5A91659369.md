@@ -21,7 +21,7 @@ SSDEEP | `192:kJDwL1l+gp8NPsq6lQCitoeoeEFnYe+PjPV9j7mMaDWpH7/B:CDUl+NN0ZlFi/oeEF
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 java.io.FileNotFoundException: \? (The filename, directory name, or volume label syntax is incorrect)
 
 ```

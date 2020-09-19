@@ -21,7 +21,7 @@ SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOx
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 -Malwarebytes Scanner- Version: 1.0.0.27
 

@@ -20,7 +20,7 @@ SSDEEP | `768:OISscCK/26NsWQkN1ex18uQvViqbo//ccccccccccccccccccccccccccccccccv:P
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/cut OPTION... [FILE]...
 Print selected parts of lines from each FILE to standard output.
 
@@ -61,7 +61,7 @@ or available locally via: info '(coreutils) cut invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/cut: you must specify a list of bytes, characters, or fields
 Try '/usr/bin/cut --help' for more information.
 

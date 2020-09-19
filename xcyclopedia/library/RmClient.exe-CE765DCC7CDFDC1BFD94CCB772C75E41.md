@@ -21,7 +21,7 @@ SSDEEP | `192:EhCEJCaRmbOufN9dyQdYwmzfrKbzBQHMH1TkHWozW5Bs7HpU:sJjmbFNHyQdYwm+BQ
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
  RmClient.exe pipename
 

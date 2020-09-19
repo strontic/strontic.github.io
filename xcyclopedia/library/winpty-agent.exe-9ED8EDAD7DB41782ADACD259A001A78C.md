@@ -20,7 +20,7 @@ SSDEEP | `6144:MIayS1HbiUn74uzYkUABtZ7SWPpmhXvaPLSKjWI:xSlnnMsYkUIoG0daD36I`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe controlPipeName flags mouseMode cols rows
 Usage: C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe controlPipeName --create-desktop
 

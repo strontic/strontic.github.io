@@ -21,7 +21,7 @@ SSDEEP | `768:rqb1u94qTNIJ735pceeGklnbG5cVsmSWuRavKSgjEjJpO3J9Hn3GxZ56:409kjiNnb
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 You must be an administrator running a console session in order to 
 use the sfc utility.

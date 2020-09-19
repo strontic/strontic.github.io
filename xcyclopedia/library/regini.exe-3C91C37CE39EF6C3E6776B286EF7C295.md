@@ -21,7 +21,7 @@ SSDEEP | `768:EQwpWanLtqpGjQmwcWD5ZrOjA3dtTKvworOu+fOuuvygWLDPGlVogExyyl+/LccT:E
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: REGINI [-m \\machinename | -h hivefile hiveroot]
               [-i n] [-o outputWidth]
               [-b] textFiles...

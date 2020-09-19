@@ -21,7 +21,7 @@ SSDEEP | `768:OoP5b7LATPN2avUphn9VXvN2XChn4OwGwBO8DIDp+z9ecMmkSx+Bz6lqrzit:b3gPN
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 USAGE
 =====
@@ -84,7 +84,7 @@ winrs -r:myserver -ad -u:administrator -p:$%fgh7 dir \\anotherserver\share
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Winrs.exe: Unrecognized switch "/h"
 Use "winrs -?" to obtain the usage information
 ```

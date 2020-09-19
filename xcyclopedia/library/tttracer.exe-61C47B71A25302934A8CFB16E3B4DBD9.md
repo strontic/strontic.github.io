@@ -21,7 +21,7 @@ SSDEEP | `1536:GF3vbRpaTi07EMKW4OFgu24sDRccRXP0VOESXthksJczJe8s4TIePPMuJ:EjkR4MK
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 MICROSOFT TIME TRAVEL DEBUGGING (TTD)
 
 Time Travel Debugging (TTD) command line utility is not meant for use in custom software or
@@ -61,7 +61,7 @@ AND NON-INFRINGEMENT.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error:  Unrecognized command line option '--help' (Error Code 0x80070057:  The parameter is incorrect.)
 
 ```

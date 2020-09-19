@@ -21,7 +21,7 @@ SSDEEP | `24576:SOBRF+n9SDmKlWswHfrmQGPTQzmQBe2n6prjZRKvgsvC1fwz2p3014kbyqXBzAE2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 System Monitor v7.02 - System activity monitor
 Copyright (C) 2014-2018 Mark Russinovich and Thomas Garnier
@@ -31,7 +31,7 @@ Sysinternals - www.sysinternals.com
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Usage:
 Install:    C:\WINDOWS\Sysmon64.exe -i [<configfile>]

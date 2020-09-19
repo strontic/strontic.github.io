@@ -23,7 +23,7 @@ SSDEEP | `6144:XcxAapVVIylMsZcdILtDUWrM5QqbJkkMBJ1VI7LwSqfDgvNtIVyIKm:M98dILtD3w
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\program files\Mozilla Thunderbird\thunderbird.exe [ options ... ] [URL]
        where options include:
 

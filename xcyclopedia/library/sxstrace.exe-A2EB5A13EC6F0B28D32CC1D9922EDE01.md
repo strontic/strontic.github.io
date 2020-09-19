@@ -21,7 +21,7 @@ SSDEEP | `384:Co6d1wF4cr63iKO5gpyDah3xyfkYSWFD5XgZG00lmKGO27XKQw+MNdui7EwE2mS+:d
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 WinSxs Tracing Utility.
 Usage: SxsTrace [Options]
 Options:

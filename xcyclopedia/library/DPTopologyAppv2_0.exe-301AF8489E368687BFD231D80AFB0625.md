@@ -21,7 +21,7 @@ SSDEEP | `3072:I7GFfLYMJlL1vZOwbJGLD6DvtMJCU7DzpChJWn/qaBQd:FFLY6mw+ODvtMJfDVChJ
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
    at DPTopologyApp.MainWindow.GetDpTopologySelectionSubTitleString()

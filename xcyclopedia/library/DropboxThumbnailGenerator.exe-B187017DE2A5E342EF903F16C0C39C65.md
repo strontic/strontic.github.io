@@ -20,7 +20,7 @@ SSDEEP | `384:7ma7qYwqpEepbI2TQku55DuK80EPcwwJjsT41ClT2jH8cDGuXmVbPLonf9ZE:SlqpV
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 GetFileImage failed.
 
 ```

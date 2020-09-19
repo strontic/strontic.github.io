@@ -21,7 +21,7 @@ SSDEEP | `1536:PZiQ51RyAgHmpYVwO0vt647m0DLG32xZzB0we8lUvy8yUf8D:PZF3gHmpYVwR37Nz
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 General purpose IIS command line administration tool.
 
 APPCMD (command) (object-type) <identifier> </parameter1:value1 ...>

@@ -21,7 +21,7 @@ SSDEEP | `384:jb9biPqfSpkBbF5I5A7xK6jShYUlIeDgf2heEE0:lOP6F5I5oKg4TIeUf2hc0`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jlink <options> --module-path <modulepath> --add-modules <module>[,<module>...]
 Possible options include:
       --add-modules <mod>[,<mod>...]    Root modules to resolve

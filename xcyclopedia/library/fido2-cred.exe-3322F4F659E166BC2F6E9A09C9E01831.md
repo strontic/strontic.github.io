@@ -20,7 +20,7 @@ SSDEEP | `768:K8qGLXa/fqhOwq1Rsr90DVgRRsWmEiaDGCUf2h:iGL6RO95sWmEiwUf`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: fido2-cred -M [-dhqruv] [-i input_file] [-o output_file] device [type]
        fido2-cred -V [-dhv] [-i input_file] [-o output_file] [type]
 

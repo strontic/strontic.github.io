@@ -21,7 +21,7 @@ SSDEEP | `384:Z2RKxIf1gZDw1F0VTHrjfKHPCfxiDgqgrg5gsgBgVgT8PJv1HVTi//2B/2/LWlRW:Z
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WSMan Generic Command ERROR: Unknown switch: --help
 WSMan Generic Command ERROR: Error in parsing input
 

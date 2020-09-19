@@ -21,7 +21,7 @@ SSDEEP | `3072:+G4LJaB3Wlz3cPMXBFy+iSNoT45lkWPanAtb:+G4LJM3Wlz3cPMRLNXlwA1`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
 (C) Copyright 2001-2013 Microsoft Corp.
 

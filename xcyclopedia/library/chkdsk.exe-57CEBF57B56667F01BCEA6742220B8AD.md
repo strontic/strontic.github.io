@@ -21,7 +21,7 @@ SSDEEP | `384:uSTpDdWVw8apAXObwp1X3xVb0FoJZ4V0cOhBN6WSFfhWvFEjDd:jT9dWTapAXObwp1
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Checks a disk and displays a status report.
 
 

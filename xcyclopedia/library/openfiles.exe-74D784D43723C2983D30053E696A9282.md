@@ -21,7 +21,7 @@ SSDEEP | `1536:rXORfzau9lUdy1E9GCUJnZHIjPvXvxcuG:ilUdmvCUJnZEXvxz`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: The target system must be running a 32 bit OS.
 
 ```

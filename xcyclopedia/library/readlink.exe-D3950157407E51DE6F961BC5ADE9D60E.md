@@ -20,7 +20,7 @@ SSDEEP | `768:I6rzb1OVMsM0nsm09kjsUEguFb+hXVqAiqQoViqbo97wcccccccccccccccccccd:f
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/readlink [OPTION]... FILE...
 Print value of a symbolic link or canonical file name
 
@@ -49,7 +49,7 @@ or available locally via: info '(coreutils) readlink invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 readlink: unknown option -- h
 Try '/usr/bin/readlink --help' for more information.
 

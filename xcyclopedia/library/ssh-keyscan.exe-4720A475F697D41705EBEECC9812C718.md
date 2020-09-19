@@ -20,7 +20,7 @@ SSDEEP | `6144:EM8cYMUe6/LztG7NFm7tUp/GXusKK2tiaDb2O7fcCnDtiZgcaGHCSlhoWksAYX:Ec
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 unknown option -- h
 usage: ssh-keyscan [-46cDHv] [-f file] [-p port] [-T timeout] [-t type]
 		   [host | addrlist namelist]

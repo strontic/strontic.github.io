@@ -21,7 +21,7 @@ SSDEEP | `6144:Xm7QAj62wpzSX/0p7iyiGw+u3Te+9BpwxxKilowQmaX:ZSwpzm/0p7niGwN3qKJX`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft Antimalware Service Command Line Utility (c) 2006-2018 Microsoft Corp
 Use this tool to automate and troubleshoot Microsoft Antimalware Service
 

@@ -21,7 +21,7 @@ SSDEEP | `6144:C2NlFYp/PK8VscuLMo705tTaFH8NwZaWc52oRkWUCQeV:CUlqvVKLMo7WDUN`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: repadmin <cmd> <args> [/u:{domain\user}] [/pw:{password|*}]
                              [/retry[:<retries>][:<delay>]]
                              [/csv]

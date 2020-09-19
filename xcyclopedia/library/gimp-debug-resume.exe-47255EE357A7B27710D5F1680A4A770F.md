@@ -20,7 +20,7 @@ SSDEEP | `1536:ch2XJtis7kMotkkpVE9OX6WKF8aipiPWDaiNWXi:BXYntdVE4DKF8fmcfg`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 invalid: 0
 
 ```

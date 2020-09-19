@@ -20,7 +20,7 @@ SSDEEP | `1536:fNdqmdQ4DpweNAJedQzJsRscfUj0RB2WQgFuCSUfl:fP5dWeCY5ScMoRxQgFuCb`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/diff3 [OPTION]... MYFILE OLDFILE YOURFILE
 Compare three files line by line.
 
@@ -68,7 +68,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/diff3: missing operand after 'help'
 /usr/bin/diff3: Try '/usr/bin/diff3 --help' for more information.
 

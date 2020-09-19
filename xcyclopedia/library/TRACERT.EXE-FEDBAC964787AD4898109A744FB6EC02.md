@@ -21,7 +21,7 @@ SSDEEP | `384:NYFTJuM9IzcKonUb4W1MAYZC7dbcpJplmmL1y9W6aW:NYFtuMMjiIbdEpQmL1i`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 --help is not a valid command option.
 
 Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] 

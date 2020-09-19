@@ -21,7 +21,7 @@ SSDEEP | `384:epMaCtCFWvw4aYtKJUO6UjIMfbP3BsWj8W:epMptCFcC2YQ+IMfLBp`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: Address could not be resolved
 
 

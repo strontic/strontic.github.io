@@ -21,7 +21,7 @@ SSDEEP | `1536:b+tuvEu02o2kZfjY1VYL8g4VXx+9qauZZ+I+:bPvzYWVJ5x+9qaIZ+v`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 DiskSnapshot: illegal option: --
 DiskSnapshot.exe [options]
 	-c write detail data to console

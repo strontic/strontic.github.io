@@ -21,7 +21,7 @@ SSDEEP | `1536:n6dFZKXt4SeKT/DSsdj9hf5+VIsWvbJWE4KAhUfbKU:KFZpSeK6MkWpvbJWE4nQbK
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Collects storage and filesystem diagnostic logs and outputs them to a folder.
 

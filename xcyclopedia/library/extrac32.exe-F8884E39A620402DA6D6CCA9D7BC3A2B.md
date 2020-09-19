@@ -21,7 +21,7 @@ SSDEEP | `768:wYDhe6vupie/6tnrNZiQoUuPq+GN0ZnFOsuwueArHu3dxH:wOhequp0cQoU+q+IBKu
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) Cabinet Extraction Tool
 Copyright (c) Microsoft Corporation. All rights reserved..
 

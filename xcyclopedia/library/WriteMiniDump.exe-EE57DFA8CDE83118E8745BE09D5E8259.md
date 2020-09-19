@@ -21,7 +21,7 @@ SSDEEP | `3072:X9x3dGKCbyyDAS9RlLL0ukuBFX7UJhlad9QjhFu6ojXmkQwnDqYZyYnjJ8tbOit:X
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Win32 MiniDump Helper version 1.0.1255.558 (c) Copyright 2000-2003 Valve Corporation All rights reserved.
 
 Unrecognized argument '--help'.

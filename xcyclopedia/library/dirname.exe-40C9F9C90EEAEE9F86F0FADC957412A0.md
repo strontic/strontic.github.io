@@ -20,7 +20,7 @@ SSDEEP | `768:dsr6TsPUXAPkLZENfoViqboPycccccccccccccccccccccccccccccccpMZQgW2S:d
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/dirname [OPTION] NAME...
 Output each NAME with its last non-slash component and trailing slashes
 removed; if NAME contains no /'s, output '.' (meaning the current directory).
@@ -42,7 +42,7 @@ or available locally via: info '(coreutils) dirname invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 dirname: unknown option -- h
 Try '/usr/bin/dirname --help' for more information.
 

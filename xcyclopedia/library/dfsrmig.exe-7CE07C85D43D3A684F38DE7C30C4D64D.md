@@ -21,7 +21,7 @@ SSDEEP | `24576:u/buM671JFLUt5TGaj8+eGRI2k2L6oBjuveH9wnYFK0ZlTfr8RKvYFyeKKYnMYq:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Migrate SYSVOL from NTFRS to DFSR.
 
 DfsrMig [/SetGlobalState State] [/GetGlobalState] [/GetMigrationState]

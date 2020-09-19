@@ -24,7 +24,7 @@ SSDEEP | `196608:zZYyHXOzkcgl7MZbbbbGzbbbb/3bbbbaAbbbb0Wbbbbv1bbbb6jbbbbRPbbbbf0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\program files\Krita (x64)\bin\gmic_krita_qt.exe [options] socket key
 Krita G'Mic Plugin
 
@@ -37,7 +37,7 @@ Arguments:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown options: e, l, p.
 
 ```

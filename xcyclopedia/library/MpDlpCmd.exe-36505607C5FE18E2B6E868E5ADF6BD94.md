@@ -21,7 +21,7 @@ SSDEEP | `6144:zPKePpKyzob2nBRmiTVVmVVV8VVNVVVcVVVxVVVPVVlVVVRVVVtVVWV60jVLVVOW:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 MpDlpCmd: Failed with hr = 0x80070667.MpDlpCmd: Invalid command line argument
 
 Usage: MpDlpCmd -<Command>

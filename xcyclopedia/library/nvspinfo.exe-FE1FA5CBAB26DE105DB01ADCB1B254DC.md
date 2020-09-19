@@ -21,7 +21,7 @@ SSDEEP | `1536:VVpmx+8QfAl4kFNrCr3Cj181i1SdryEFd7dTlwgn+1A1ZJ23dJRaemtIXPkXfV67:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Known VmSwitch versions up to : 14.0
        Found VmSwitch version : 14.0
 Feature (1) VmsCapabilityFeatureExtensibilityStackBypass is found

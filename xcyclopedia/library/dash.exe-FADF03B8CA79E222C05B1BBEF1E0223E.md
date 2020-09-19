@@ -20,7 +20,7 @@ SSDEEP | `3072:hQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F4:hQx0t8tF/tp2Zo5GqFNk9Ojtjl
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 help: 1: help: MSCF,9081Q: not found
 help: 1: help: SIH.20200829.153211.948.1.etl: not found
 help: 1: help: SIH.20200829.153212.370.1.etl: not found

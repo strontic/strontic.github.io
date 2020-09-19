@@ -21,7 +21,7 @@ SSDEEP | `1536:3Gfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgtPCUafKcKVr3hEQ:3
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
 AppleMobileSync.exe --device device_identifier --target target_identifier [--entitynames name[,name,...]] [--reset]
 AppleMobileSync.exe --device device_identifier --target target_identifier [--dataclassnames name[,name,...]] [--reset]

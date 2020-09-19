@@ -20,13 +20,13 @@ SSDEEP | `6144:Bx1xaWxsMqjptDOZCV7I404SHwMWG8QMWVUbV/gt/PIiiiiiT1fG/ay0x9n:BZrxs
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Cdrecord-ProDVD-ProBD-Clone 2.01.01a61 (i686-pc-cygwin) Copyright (C) 1995-2009 Jrg Schilling
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: /cygdrive/c/program files/InfraRecorder/cdrtools/cdrecord [options] track1...trackn
 Options:
 	-version	print version information and exit

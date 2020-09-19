@@ -21,7 +21,7 @@ SSDEEP | `1536:G7Wb3B2Zx9F7bEF405V2zfj4qXlOSJRiLxYZG8mmVoxqpXN:AO296uzfj4oELLQox
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 DRIVERQUERY [/S system [/U username [/P [password]]]]
               [/FO format] [/NH] [/SI] [/V] 
@@ -63,7 +63,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '-help'.
 Type "DRIVERQUERY /?" for usage.
 

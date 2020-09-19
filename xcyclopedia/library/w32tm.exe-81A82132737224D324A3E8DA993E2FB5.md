@@ -21,7 +21,7 @@ SSDEEP | `3072:Ko44whoErXpbSSE1mfgQkinoN6nuiepP3ddcIm7EZZo9lSv:/44wnrIWhnuZpPXmo
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 w32tm [/? | /register | /unregister ]
   ? - this help screen.
   register - register to run as a service and add default

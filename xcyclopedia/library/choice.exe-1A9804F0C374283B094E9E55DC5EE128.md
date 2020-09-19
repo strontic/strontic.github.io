@@ -21,7 +21,7 @@ SSDEEP | `768:PZPyoiiumgQlRXh66ANl3HrGq9dyCq41Ar/27V1ZUxGt3P:VPbu/3HTdyCq41Ar/61
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 CHOICE [/C choices] [/N] [/CS] [/T timeout /D choice] [/M text]
 
@@ -76,7 +76,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "CHOICE /?" for usage.
 

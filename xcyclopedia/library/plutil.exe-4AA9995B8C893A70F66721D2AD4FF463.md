@@ -21,7 +21,7 @@ SSDEEP | `768:uCRDw7VSo2xvDMtAZ+qGr7Z+dsNtChZxyosvjDppW533hY6D:JBk29q/ChZxMjtpW5
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 plutil.exe: [command_option] [other_options] file...
 The file '-' means stdin
 Command options are (-lint is the default):
@@ -44,7 +44,7 @@ There are some additional optional arguments:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 unrecognized option: --help
 plutil.exe: [command_option] [other_options] file...
 The file '-' means stdin

@@ -20,7 +20,7 @@ SSDEEP | `1536:LGSTlDaK6ObsRPAC848UtUwfxRTzT4rhR8mYR5AEpMuz8uxzk:qiWK6OghACBttUw
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WaitNamedPipe failed for path \\.\pipe\C:\Users\user\AppData\Local\Google\Drive\GoogleDriveIpcPipe with error 2
 nativeproxy: error: Failure connecting to Ipc
 

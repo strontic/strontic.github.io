@@ -21,7 +21,7 @@ SSDEEP | `768:iARu4+N1bt1KPK/TxYJ66K3tDGNpOX2Wc93heMJ:iqu6KLxYJgDGbOX2Wc93heU`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: YSIconStamper <iconfile> <executable> <resource name/ID>
 
 ```

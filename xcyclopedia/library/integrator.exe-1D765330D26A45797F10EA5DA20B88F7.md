@@ -21,7 +21,7 @@ SSDEEP | `98304:wyvDOBT9EY0hSrpOUKWXGyUg+jeqkZovgWvYFKUfo9AbfrMxLV:wFR0KpOUKveZo
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage:
 

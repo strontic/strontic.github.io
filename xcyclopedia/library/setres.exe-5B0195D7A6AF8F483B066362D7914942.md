@@ -21,7 +21,7 @@ SSDEEP | `192:o9wfNdMn1QbDT5sPPV6jS9aPg7q0Ak7aOqWn52320nGM1rZPD+I4WNzW:omf81Qdsl
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: "help" is not a valid argument.
 
 setres [-w # -h #] [-f] [-i]

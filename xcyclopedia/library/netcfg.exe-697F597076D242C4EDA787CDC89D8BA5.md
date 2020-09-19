@@ -21,7 +21,7 @@ SSDEEP | `768:dl6Vl8RZhOObzltEb0CvZllVW+JNt8iQ0M0Rqc:q8L5bxtEg8jDW+iiQ094c`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 netcfg [-v] [-winpe] [-l <full-path-to-component-INF>] -c <p|s|c> 
        -i <comp-id>
     

@@ -20,7 +20,7 @@ SSDEEP | `24576:cM1ooGYlsMnB/RtTjgqbWqNZG1HHHHHHHlbfHHHpHHHkrkznb5g:cM16YlsMnB/P
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: rebase [OPTIONS] [FILE]...
 Rebase PE files, usually DLLs, to a specified address or address range.
 
@@ -63,7 +63,7 @@ Rebase PE files, usually DLLs, to a specified address or address range.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 help: skipped because not rebaseable
 
 ```

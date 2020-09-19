@@ -21,7 +21,7 @@ SSDEEP | `1536:XJHh2xPFzVVJjZdr6wRLhDl4x6ILgw99Rid+OCY2s/5se8:qrBV9a4GUILVI+O52k
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft r Relog.exe (10.0.19041.1)
 

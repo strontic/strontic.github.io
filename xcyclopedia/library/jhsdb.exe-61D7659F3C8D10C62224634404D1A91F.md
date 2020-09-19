@@ -21,7 +21,7 @@ SSDEEP | `384:PRgbdNt3Sy3rBbFNI5Ag7nYPLV9+MaDG1S0:au2FNI5vQ8DGQ0`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
     clhsdb       	command line debugger
     hsdb         	ui debugger
     debugd --help	to get more information

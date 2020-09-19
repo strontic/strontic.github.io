@@ -25,7 +25,7 @@ SSDEEP | `768:YagQPdb2FM5R2TyJ5R3s8D/bkt5Ruz3Vb3hM51Q8DGC:XgoSM5RdJ5R3sozkt5RA3h
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javaw [options] <mainclass> [args...]
            (to execute a class)
    or  javaw [options] -jar <jarfile> [args...]
@@ -126,7 +126,7 @@ To specify an argument for a long option, you can use --<name>=<value> or
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: javaw [options] <mainclass> [args...]
            (to execute a class)
    or  javaw [options] -jar <jarfile> [args...]

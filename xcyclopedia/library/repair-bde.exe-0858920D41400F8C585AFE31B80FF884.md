@@ -21,7 +21,7 @@ SSDEEP | `3072:4bEJiys4LOf1afCwnVS570M9kdatGCO+xmBc+hMPhPsx:4bEJfFGSVs7nyatGt+SY
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 BitLocker Drive Encryption: Repair Tool version 10.0.17763
 Copyright (C) 2013 Microsoft Corporation. All rights reserved.
 

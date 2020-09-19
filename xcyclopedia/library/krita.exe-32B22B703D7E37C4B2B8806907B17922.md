@@ -24,7 +24,7 @@ SSDEEP | `49152:QHcM3WZrahv5v8+eLOKTgxfbuHscERn6hjPW5c0Q7xB4157k8hd4gXFGjtSbPSvf
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 *** EGL colorSpace: 0x308A
 *** EGL format: 0x93A1
 *** Native format: 0x57
@@ -82,7 +82,7 @@ Arguments:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown options: e, l, p.
 
 ```

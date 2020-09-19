@@ -21,7 +21,7 @@ SSDEEP | `384:GbdNt3yyZi8zaiuBbF2pM5AgmnYPLV9+MaDGp5:6OlmLIFAM5CQ8DGp5`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jdeps <options> <path ...>]
 <path> can be a pathname to a .class file, a directory, a JAR file.
 
@@ -146,7 +146,7 @@ Options to filter classes to be analyzed:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Exception in thread "main" java.nio.file.InvalidPathException: Illegal char <?> at index 1: /?
 	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)

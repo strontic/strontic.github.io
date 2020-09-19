@@ -21,7 +21,7 @@ SSDEEP | `1536:Es/x9hEJH8OQkKGfuvZ9KlqjaGfnZ8k+d77jc0ZxIOLfFN/:txPEH8OQkzA9Kli8N
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Unrecognized parameter "--help".
 
 Intersite Messaging Service

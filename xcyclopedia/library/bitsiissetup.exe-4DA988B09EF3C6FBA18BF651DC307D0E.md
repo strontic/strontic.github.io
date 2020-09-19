@@ -21,7 +21,7 @@ SSDEEP | `1536:FUqeR19ad+nRADc465UmRqrnZH01ectdrfLu9q:FUKrgegoo`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 [BITSIISSETUP] Uninstallation of BITS IIS extension failed with error 0x80070057
 
 ```

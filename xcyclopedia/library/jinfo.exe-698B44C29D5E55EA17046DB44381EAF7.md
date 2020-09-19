@@ -21,13 +21,13 @@ SSDEEP | `192:vvmg3lzu71fKUIKEfoHQL+eEx5w4yK6CYlLWwsU7u4SIa9sgfxIZHvu:H7m1fKzKNH
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Attaching to remote server help, please wait...
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error attaching to remote server: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
 	java.net.ConnectException: Connection refused: connect
 sun.jvm.hotspot.debugger.DebuggerException: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 

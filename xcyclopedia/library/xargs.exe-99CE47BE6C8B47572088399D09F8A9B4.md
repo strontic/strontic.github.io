@@ -20,7 +20,7 @@ SSDEEP | `1536:tRG4VHdTfDJcyzsf0zmpPAZZhD7egTPcCoLTWOFF9+xUfp:7Tf1cyzsf+wQZJygfz
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 For more information on a specific command, type HELP command-name
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
@@ -123,7 +123,7 @@ For more information on tools see the command-line reference in the online help.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 xargs: unknown option -- h
 Usage: /usr/bin/xargs [OPTION]... COMMAND [INITIAL-ARGS]...
 Run COMMAND with arguments INITIAL-ARGS and more arguments read from input.

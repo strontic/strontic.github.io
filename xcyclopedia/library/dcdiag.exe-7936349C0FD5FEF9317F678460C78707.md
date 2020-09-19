@@ -21,7 +21,7 @@ SSDEEP | `6144:Pu/F9fR72PGXqHcg5la/Ee7574dovUPvyLwAqjxt9yWj8dyYduDaFH8NwZaWc52q:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
  Directory Server Diagnosis
 

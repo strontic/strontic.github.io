@@ -20,7 +20,7 @@ SSDEEP | `768:tTgFiCDsvDmZibQFeXRo/MBLViqboplccccccccccccccccccccccccccccccccM:t
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/comm [OPTION]... FILE1 FILE2
 Compare sorted files FILE1 and FILE2 line by line.
 
@@ -57,7 +57,7 @@ or available locally via: info '(coreutils) comm invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/comm: missing operand after 'help'
 Try '/usr/bin/comm --help' for more information.
 

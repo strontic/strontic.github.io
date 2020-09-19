@@ -21,7 +21,7 @@ SSDEEP | `768:aPYS96uoVdczsATsv2holTameJMjUOYX2/EDpKeDeixju:aA06uoVdMG2hoGyULXfp
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 For more information on a specific command, type HELP command-name
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
@@ -124,7 +124,7 @@ For more information on tools see the command-line reference in the online help.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Winrs.exe: Unrecognized switch "/h"
 Use "winrs -?" to obtain the usage information
 ```

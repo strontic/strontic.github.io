@@ -21,7 +21,7 @@ SSDEEP | `384:0bdNt3yyZiUwaiuBbF2Vo5Ag1nYPLV9+MaDGqmN:oOl1LIFso55Q8DGNN`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javap <options> <classes>
 where possible options include:
   -? -h --help -help               Print this help message
@@ -59,7 +59,7 @@ qualified class name. Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error: class not found: help
 
 ```

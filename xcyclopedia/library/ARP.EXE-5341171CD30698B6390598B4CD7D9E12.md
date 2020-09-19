@@ -21,7 +21,7 @@ SSDEEP | `384:3JwkQCNIdIcUu3Nq3kzCSTHcwdIXzMTRGluYubYWSOmWbp6sb:3JwBmINTzCST8wdX
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Displays and modifies the IP-to-Physical address translation tables used by
 address resolution protocol (ARP).

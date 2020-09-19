@@ -25,7 +25,7 @@ SSDEEP | `12288:0vwkvP/aNl347aOSvtpYb1jyUPqfM0RcNZrfAhvGOwHceR5+n3coFCC7Tu:0PaNt
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Opera 70.0.3728.133 Stable
 Features available through command-line switches:
 	--with-feature:enhanced-address-bar [Enabled by default: false]

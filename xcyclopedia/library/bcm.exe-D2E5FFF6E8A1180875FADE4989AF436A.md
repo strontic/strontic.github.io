@@ -20,7 +20,7 @@ SSDEEP | `3072:Hi/261shMcwcGmECH/HvI3ZmB3vTVOfAtHQ8zbdUfNL0K9EAxa6ViI:HsshM3cGmE
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 help: No such file or directory
 
 ```

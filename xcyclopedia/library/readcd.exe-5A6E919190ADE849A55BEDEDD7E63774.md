@@ -20,7 +20,7 @@ SSDEEP | `6144:flABjsKB+FSXGE3JEQXhlF8QMWVUbTI+VMu/gt/6ryI:ZcXxJzxfu/gUrT`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /cygdrive/c/program files/InfraRecorder/cdrtools/readcd: Target 'help' is not a Number.
 Usage:	readcd [options]
 options:

@@ -20,7 +20,7 @@ SSDEEP | `768:nY5ChrRKHLqH9aTv4oA5ekKx/2J1AVHC+nkoSRaw7EhFFlrG:nY5QrILqdkv495eFV
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 fatal error: cannot open --help: 21
 
 ```

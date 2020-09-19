@@ -21,7 +21,7 @@ SSDEEP | `768:SYqvkGBUTyCb+TrH6xYh0W1VshOYT789hZnz1bSYG:tJ+iyAQH6+h0Wko9vnzG`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description: This command deletes objects from the directory.
 
 Syntax:     dsrm <ObjectDN ...> [-noprompt] [-subtree [-exclude]]
@@ -99,7 +99,7 @@ dsrm /? - help for deleting objects.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 dsrm failed:Value for 'Target object for this command' has incorrect format.
 type dsrm /? for help.
 ```

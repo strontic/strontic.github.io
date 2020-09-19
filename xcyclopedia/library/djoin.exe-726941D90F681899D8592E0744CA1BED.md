@@ -21,7 +21,7 @@ SSDEEP | `768:yQB2SWB6ueUI1mhw7gQBNgowc6sKjHNbGj3kNfIj8FW06hpqjerb0J2GNnxQJ68O:5
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: djoin.exe [/OPTIONS]
 
   /PROVISION  - Provision a computer account in the domain

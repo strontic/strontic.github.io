@@ -20,7 +20,7 @@ SSDEEP | `768:8RUI/lsfOdfnVEkRmwzNViqbolvcccccccccccccccccccccccccccccYB4fWWSB:8
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/true [ignored command line arguments]
   or:  /usr/bin/true OPTION
 Exit with a status code indicating success.

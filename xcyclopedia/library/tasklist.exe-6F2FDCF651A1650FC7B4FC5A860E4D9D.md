@@ -21,7 +21,7 @@ SSDEEP | `1536:aSkqR4Tk+NcHF6aRwuyo3pVTRqEyKEg9hEQ5PXlWcshkTx8K5B:7gTBNwwupVTUEe
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 TASKLIST [/S system [/U username [/P [password]]]]
          [/M [module] | /SVC | /V] [/FI filter] [/FO format] [/NH]
@@ -99,7 +99,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '-help'.
 Type "TASKLIST /?" for usage.
 

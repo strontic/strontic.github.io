@@ -21,7 +21,7 @@ SSDEEP | `6144:KfgAIvGAxhlZzF+rqu9lhVjQCPtyXrxPBOaXewYvBpKFJFn:KfgAIvTxhrzFTMhZQ
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 [4080:10904:0830/175003.880:ERROR:browser_main_parts_qt.cpp(125)] NOT IMPLEMENTED
 [4080:10356:0830/175004.146:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
 

@@ -21,7 +21,7 @@ SSDEEP | `1536:Ono+AIqFL2Gl26Uk+n4vAyl4Ds6blmRbxOcxm:OnnAI3GJ+A5Kg6Re7m`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Default Server:  default-pc.mshome.net
 Address:  172.20.192.1
 
@@ -29,7 +29,7 @@ Address:  172.20.192.1
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
    nslookup [-opt ...]             # interactive mode using default server
    nslookup [-opt ...] - server    # interactive mode using 'server'

@@ -21,7 +21,7 @@ SSDEEP | `6144:ozZF+xDcIqEx54mmqI9mbRHDfzumv8nX0:ozZF0jqgDmB9Wnumv`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft(R) Windows(TM) Directory Service Utilities Version 2.0
 Copyright (C) Microsoft Corporation 1991-2002. All Rights Reserved.
 

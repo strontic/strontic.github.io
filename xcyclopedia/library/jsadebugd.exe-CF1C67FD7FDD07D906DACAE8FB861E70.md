@@ -21,7 +21,7 @@ SSDEEP | `384:s/ZXrTb9LBF/sGLiZrK3yreEQZXpNnYPLV9+MaDGCm:MZbRL3EriyqEy5NQ8DGCm`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 usage: java sun.jvm.hotspot.DebugServer <pid> [server id]
    or: java sun.jvm.hotspot.DebugServer <executable> <core> [server id]
 "pid" must be the process ID of a HotSpot process.

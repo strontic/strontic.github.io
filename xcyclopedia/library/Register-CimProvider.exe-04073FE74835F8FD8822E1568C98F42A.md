@@ -21,7 +21,7 @@ SSDEEP | `384:s6xOg6dVw4VUQh8BOzxg4b1x5qQkwQcQGVjeeM4KbxQWV1WYRQp:sDiFQHx5VcGhee
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Registers CIM Provider into system
 

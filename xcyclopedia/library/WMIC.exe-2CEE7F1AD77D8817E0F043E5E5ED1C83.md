@@ -21,7 +21,7 @@ SSDEEP | `6144:FsCjqsobsdwE1nPD2rWiCCyHUPkikNo/PH70FGH5enh:vJssdnYlci2c0FGH0nh`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 [global switches] <command>
 
@@ -144,7 +144,7 @@ For more information on CLASS/PATH/CONTEXT, type: (CLASS | PATH | CONTEXT) /?
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 help - Alias not found.
 
 ```

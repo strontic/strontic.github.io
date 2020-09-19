@@ -21,7 +21,7 @@ SSDEEP | `49152:dmZGPcYg9PaO0bf3LHHiAHf8VSiE4PTzr:bg90b7CAI5z`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 VNC(R) License Helper 6.1.1 (r28093) x64 (May 19 2017 12:39:35)
 Copyright (C) 2002-2017 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark

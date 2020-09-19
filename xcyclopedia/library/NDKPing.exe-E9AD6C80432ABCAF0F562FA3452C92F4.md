@@ -21,7 +21,7 @@ SSDEEP | `384:20fVRIE2MvvcSji9iAK8HZeiKoKO77282fgWJWW:2k8ESSSPeiMOG82fH`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 NDKPing can run on a system as Server or Client.
 Run as a Server:
 	 -S -- Specify that the system will be a Server.
@@ -55,7 +55,7 @@ Usage Sample:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Error: Unable to stop NDKPing driver.
 5: Access is denied.

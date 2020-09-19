@@ -21,7 +21,7 @@ SSDEEP | `192:HS5aJ5ApXYPFPfPR5Ou4FmJn3s613g1DlpBGckg1uRGYVdgx9JmhWsGW:yo5ApXYFP
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Associates a path with a drive letter.
 
 SUBST [drive1: [drive2:]path]

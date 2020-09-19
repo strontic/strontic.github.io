@@ -21,7 +21,7 @@ SSDEEP | `384:gdYKO3GR/jE3y7gqn8udp+olZ0KQ+U46C7mYeeCFUO9/0Kh1l2HsedmAzYLMhG4G:g
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Deployment Initial Machine Configuration Tool:
 

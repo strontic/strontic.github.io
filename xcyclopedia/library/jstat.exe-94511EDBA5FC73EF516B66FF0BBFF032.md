@@ -21,7 +21,7 @@ SSDEEP | `384:LbdNt3yyZitGaiuBbFfw5A71K6jSbWGDgf2hs:tOloLIFfw5EKgYJUf2hs`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jstat --help|-options
        jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]]
 
@@ -48,7 +48,7 @@ Definitions:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 -<option> required
 Usage: jstat --help|-options
        jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]]

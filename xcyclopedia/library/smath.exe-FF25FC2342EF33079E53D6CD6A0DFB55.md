@@ -21,7 +21,7 @@ SSDEEP | `768:q1MgX5fCHoX79ASWecHSsztiBQjhgBwSyhRNxpz4MCC2DR0BxXq6AgTBCPPELt+z:q
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Warning: -help is deprecated.  Use --help instead.
 
 ```

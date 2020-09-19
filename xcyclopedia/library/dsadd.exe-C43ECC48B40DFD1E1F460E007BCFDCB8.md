@@ -21,7 +21,7 @@ SSDEEP | `1536:rGGP3XVa6uaYsawXCYt1U4btMFt15XaCusbR:rGGPFuaEqMowt`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description:  This tool's commands add specific types of objects to the
 directory. The dsadd commands:
 
@@ -56,7 +56,7 @@ dsrm /? - help for deleting objects.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Description:  This tool's commands add specific types of objects to the
 directory. The dsadd commands:
 

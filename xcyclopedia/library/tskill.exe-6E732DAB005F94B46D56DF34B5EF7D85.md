@@ -21,7 +21,7 @@ SSDEEP | `384:deUPfdE901EeMrjS/JI8lEgz5ZhJK8bg1Kl4uwkU2i4xxC5xCInHWqSUZpyCyW42:d
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Ends a process.
 

@@ -21,13 +21,13 @@ SSDEEP | `192:M3WRNA8256eIMNY9akXH9TAT7+3KEVtAQSkP4Wa3WZVr02:TeRPY9akXHRA3+3KEb7
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 QUERY { PROCESS | SESSION | TERMSERVER | USER }
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 QUERY { PROCESS | SESSION | TERMSERVER | USER }
 

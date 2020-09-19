@@ -20,7 +20,7 @@ SSDEEP | `384:nvbeKMXWDx41TuL/2P9OumxiTKtZOOEed92o4Ht2IuZBrLOCOkNEI28IaSS5qsGE:v
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 lpaq8 file compressor (C) 2007, Matt Mahoney
 Licensed under GPL, http://www.gnu.org/copyleft/gpl.html
 

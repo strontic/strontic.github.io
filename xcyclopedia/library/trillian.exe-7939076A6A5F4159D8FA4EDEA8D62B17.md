@@ -25,7 +25,7 @@ SSDEEP | `49152:iApIODFy50dwLw0/ANfAQBJ+1VEZAs17YXOO1Jw:vpIODoWaw0ufAQBobEGs1dO1
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile
 libpng warning: iCCP: known incorrect sRGB profile

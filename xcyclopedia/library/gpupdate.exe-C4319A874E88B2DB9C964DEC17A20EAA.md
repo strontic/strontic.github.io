@@ -21,7 +21,7 @@ SSDEEP | `384:VDlRT3ksKmxTDxuioN9m/2fg9OvR/Q0Rdw4/xpyWFRDWC:PJ0lUDuV5pjw4ppP`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description:  Updates multiple Group Policy settings.
 
 Syntax:  Gpupdate [/Target:{Computer | User}] [/Force] [/Wait:<value>]

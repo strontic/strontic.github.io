@@ -21,7 +21,7 @@ SSDEEP | `384:DmM5jxq34/ziswyWZpA/NJ/tuUx7ED55mCRJ19FVA6NOszp5scyGMrUelRiHWpZW:a
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Reset the session subsytem hardware and software to known initial values.
 
 RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
@@ -35,7 +35,7 @@ RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Reset the session subsytem hardware and software to known initial values.
 

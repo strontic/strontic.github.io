@@ -21,7 +21,7 @@ SSDEEP | `6144:YyfUnXA86uJx13XyBc8LPNnEwYchsflDrI0:YXbxdCGU1Emsf9I0`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 fzputtygen
 Copyright (C) 2008-2018  Tim Kosse
 Based on PuTTY's puttygen

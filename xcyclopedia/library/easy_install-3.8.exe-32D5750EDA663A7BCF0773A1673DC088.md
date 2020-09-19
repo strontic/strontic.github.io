@@ -20,7 +20,7 @@ SSDEEP | `1536:WRCgEoP+G7f5G+OISw7ehlGHf5KOdT+m3jM97/TuF0SqfuYFfHYToxsDp:WRCg9nx
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Global options:
   --verbose (-v)  run verbosely (default)
@@ -66,7 +66,7 @@ usage: easy_install-3.8 [options] requirement_or_url ...
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WARNING: The easy_install command is deprecated and will be removed in a future version.
 No local packages or working download links found for help
 error: Could not find suitable distribution for Requirement.parse('help')

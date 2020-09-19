@@ -21,7 +21,7 @@ SSDEEP | `768:ZtTxvqQ5ch96j6O3VRiSXALa3cAefgy6x5YCM:fT9vzpcAefwxCC`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 CLIP
 
@@ -42,7 +42,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '-help'.
 Type "CLIP /?" for usage.
 

@@ -21,7 +21,7 @@ SSDEEP | `768:MMrZVvJJntoBFNqe9BGJ3t+yzXzDbJX5t30fRynjjZgxMae:M8ZVvLCB/qOBGJ3tnD
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Copies files and directory trees.
 
 XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W]
@@ -86,7 +86,7 @@ This may be overridden with /-Y on the command line.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 File cannot be copied onto itself
 
 ```

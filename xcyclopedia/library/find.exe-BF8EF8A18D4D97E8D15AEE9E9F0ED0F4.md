@@ -20,7 +20,7 @@ SSDEEP | `6144:bx/BBDWwF8VWp9UAMq5QgbbgdDsM+0Y2K1IGxd:bxHKU8VWCEK+0Y2K1IGxd`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
 
 default path is the current directory; default expression is -print
@@ -59,7 +59,7 @@ email to <bug-findutils@gnu.org>.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/find: '/h': No such file or directory
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `384:GpsH5Bn5qumSHhV83See24SzkK6jSzK2GzDgf2hs:GpsXngS/83fe2OKgh1Uf2hs`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: jstatd [-nr] [-p port] [-n rminame]
 
 ```

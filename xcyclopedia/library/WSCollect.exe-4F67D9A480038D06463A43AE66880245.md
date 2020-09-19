@@ -21,7 +21,7 @@ SSDEEP | `768:gSfVcsHPYfMr+I4vyIY1JrSpCNvzOTSOAVDNsn4FOBkStBW1:4UCI4qn1SWUSOAVAg
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: 0x8007007b
 
 ```

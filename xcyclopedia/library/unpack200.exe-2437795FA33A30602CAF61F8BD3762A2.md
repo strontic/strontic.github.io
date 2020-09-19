@@ -21,7 +21,7 @@ SSDEEP | `3072:5UAkFH9bVb7ai7d4t0yIqIyqF5w+Zna5BZTBfxAqQNTwd+6Yysh:WD9bxaix4ttBI
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:  C:\program files\Amazon Corretto\jdk1.8.0_265\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options

@@ -21,7 +21,7 @@ SSDEEP | `384:GpsP5hncqDmSHhV8VWee34SzvRK6jS/VSWDgf2hzq8:Gps/noS/8Vbe3JRKgMSWUf2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:  pack200 [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Packing Options
@@ -62,7 +62,7 @@ Repacking mode updates the JAR file with a pack/unpack cycle:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:  pack200 [-opt... | --option=value]... x.pack[.gz] y.jar
 (For more information, run pack200 --help .)
 

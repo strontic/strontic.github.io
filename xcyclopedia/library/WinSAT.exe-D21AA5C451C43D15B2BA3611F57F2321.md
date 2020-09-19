@@ -21,7 +21,7 @@ SSDEEP | `49152:/XpiCMrI7ninpTyjY7Q9i9GYmq1dKwdfU2bECbe:PUCUzT1DFE/`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Windows System Assessment Tool
 
@@ -164,7 +164,7 @@ OTHER COMMAND LINE OPTIONS :
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Cannot process the command line
        Assessment name 'help' is not valid
 

@@ -20,7 +20,7 @@ SSDEEP | `6144:WThqanTjXv0Xa6CRU+/WFg/jB5B07qnolqLC8Z+a:qqanTDv0q6B+/WGXnolGCQ`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 unknown option -- h
 usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
            [-l limit] [-o ssh_option] [-P port] [-S program] source ... target

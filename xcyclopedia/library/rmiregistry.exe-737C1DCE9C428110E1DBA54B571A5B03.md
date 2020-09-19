@@ -21,7 +21,7 @@ SSDEEP | `384:Gpsw5hnnqtmSHhV8VoeeS4SztK6jSU93VDgf2h3:GpsanpS/8VdeS3KgH7Uf2h3`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 port argument, --help, is not a number.
 Usage: rmiregistry <options> <port>
 

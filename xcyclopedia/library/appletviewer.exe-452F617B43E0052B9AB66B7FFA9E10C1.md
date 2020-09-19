@@ -21,7 +21,7 @@ SSDEEP | `384:Abcl+NNXJbQHi40eETnYPLV9+MaDGqiun:6cgPXiC4xETQ8DG7un`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: appletviewer <options> url(s)
 
 where <options> include:
@@ -34,7 +34,7 @@ The -J option is non-standard and subject to change without notice.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Warning: Can't read AppletViewer properties file: C:\Users\user\.hotjava\properties Using defaults.
 I/O exception while reading: C:\? (The filename, directory name, or volume label syntax is incorrect)
 

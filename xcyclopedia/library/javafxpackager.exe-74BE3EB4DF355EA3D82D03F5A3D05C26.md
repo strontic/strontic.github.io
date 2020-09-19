@@ -21,7 +21,7 @@ SSDEEP | `3072://ipj3RHEqs3NOZD/NXQGOiMQvJdKWgmijvBd4g7yiMtJ3DU:iNlQ3NkHOkJtgeNt
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javapackager -command [-options]
 
 where command is one of: 
@@ -195,7 +195,7 @@ javapackager -makeall -appclass brickbreaker.Main -name BrickBreaker
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 javafxpackager.exe has been renamed javapackager.exe.
 The original file may be removed in a future release in lieu of javapackager.
 Please update your scripts.

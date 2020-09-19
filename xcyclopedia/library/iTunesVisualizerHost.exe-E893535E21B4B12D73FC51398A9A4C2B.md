@@ -21,7 +21,7 @@ SSDEEP | `24576:0PrJ9k+VThOmrChkA+maMVUFD1aTGs+TFKCfNaXtCILm7C1muaZm5C3iKUlCtmhZ
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 RegisterBuiltInVisualizers**********************
 ConnectNamedPipe [ERROR_IO_PENDING].
 

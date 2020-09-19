@@ -21,7 +21,7 @@ SSDEEP | `384:gb9biPqbeRUBbFAi5AgnnYPLV9+MaDGaF:kOPQeIFAi57Q8DGY`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
     jinfo <option> <pid>
        (to connect to a running process)

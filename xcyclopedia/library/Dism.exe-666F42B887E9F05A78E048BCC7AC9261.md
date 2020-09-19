@@ -21,7 +21,7 @@ SSDEEP | `6144:sgLBFT2TLLjUQi7fv+KaNMlWExBuTMs2jCrs:GAJCEE2n`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Error: 740
 

@@ -20,7 +20,7 @@ SSDEEP | `1536:47wIjHYRKWPpujXY4iDQjgf4YM61rW/+uFz2Ufx:40XYs4Tg861y/+uFzz`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 For more information on a specific command, type HELP command-name
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
@@ -123,7 +123,7 @@ For more information on tools see the command-line reference in the online help.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/xargs: /h: No such file or directory
 /usr/bin/xargs: error closing file: Bad file descriptor
 

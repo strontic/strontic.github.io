@@ -21,7 +21,7 @@ SSDEEP | `12288:K8l9bs0ViIuM9MTGqNvDlXYimWyvvGmUidXSyIq37OzW4fz:K8ZViZM9MTGqNvZT
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Unrecognized parameter: -help
 Parameters:
  /debug             to run the service executable in debug mode

@@ -21,7 +21,7 @@ SSDEEP | `768:LCBu/DB8PbDz0mVMRlpTrmOjTtCCzprfu:mBuV8wmORlpPmOjTHJfu`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Transfers files to and from a remote computer running the TFTP service.
 

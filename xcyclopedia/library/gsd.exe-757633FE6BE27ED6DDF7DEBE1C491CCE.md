@@ -21,7 +21,7 @@ SSDEEP | `1536:VUb1rYVYYlX+0vTZLjFHjgo5YzKieRwVfUfk:VkyPXptVjgo5YzKDwVJ`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Error: No files found that match --help.
 

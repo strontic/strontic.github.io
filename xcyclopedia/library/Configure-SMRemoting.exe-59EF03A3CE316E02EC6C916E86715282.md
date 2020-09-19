@@ -21,7 +21,7 @@ SSDEEP | `768:Z8RbOjsY9kR/Luxlf3qHgeNljODzWLZGj+B/YYLyOoZzytqfvbJbkYLEzXQbJW5P:u
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 
 ```

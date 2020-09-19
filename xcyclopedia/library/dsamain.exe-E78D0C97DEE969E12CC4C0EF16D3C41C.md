@@ -21,7 +21,7 @@ SSDEEP | `192:VjAyf6WCHBJuIR42MREUoSZeVujtmMYGeEXkfWlZmjuKWDgW:VjAymAcKEHTdMYRfW
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 EVENTLOG (Error): NTDS General / Initialization/Termination : 2874
 
 AD/DS/LDS offline data browser.

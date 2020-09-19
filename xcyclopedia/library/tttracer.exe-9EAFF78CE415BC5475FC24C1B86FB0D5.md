@@ -21,7 +21,7 @@ SSDEEP | `6144:zRe4oPhepmdFB47+E1q9pyMFOIDixHmev9:g4oP0mcWHRiJm29`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) TTTracer 1.01.03
 Release: 10.0.17763.1
 Copyright (C) Microsoft Corporation. All rights reserved.
@@ -30,7 +30,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 MICROSOFT TIME TRAVEL DEBUGGING (TTD)
 
 Time Travel Debugging (TTD) command line utility is not meant for use in custom software or

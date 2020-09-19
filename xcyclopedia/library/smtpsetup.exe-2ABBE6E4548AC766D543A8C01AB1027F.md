@@ -21,7 +21,7 @@ SSDEEP | `768:ILLGnj9BNRTlE3ici4q81Rz1G1daowB73WOXeK7mjVlPfbp8S8dzL5+izz:IunHNXf
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Description: smtpsetup.exe runs the installation and uninstallation of SMTP
 components.

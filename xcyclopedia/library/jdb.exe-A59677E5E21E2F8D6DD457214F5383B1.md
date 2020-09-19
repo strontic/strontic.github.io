@@ -21,7 +21,7 @@ SSDEEP | `192:jbsyGNDvp85mMaMgQCitoVWIeEynYe+PjPV9j7mMaDWpHn8/p:EyqDy0MLgFi5IeEy
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 invalid option: --help
 
 Usage: jdb <options> <class> <arguments>

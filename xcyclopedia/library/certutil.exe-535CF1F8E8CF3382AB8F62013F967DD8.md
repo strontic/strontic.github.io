@@ -21,7 +21,7 @@ SSDEEP | `24576:P297/FD95VXqMybmsTDOSChclVDV3NhK+sytIuZSrsRBdUf3s7KD1gOn/Y2:P47/
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Verbs:
   -dump             -- Dump configuration information or file

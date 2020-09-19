@@ -21,7 +21,7 @@ SSDEEP | `768:Y3Qswq/TISwkYZqVYhHzn3AmFOFbL1PvMoBLoF:HswqsyBOhz3KFbhPvL2F`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 SLCONFIG: ExePassThrough==>
 SLCONFIG: invalid parameter, can only use /generalize, /specialize 
 SLCONFIG: ExePassThrough<==

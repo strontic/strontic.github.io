@@ -20,7 +20,7 @@ SSDEEP | `768:RQ8iesq2qRgmq4pjWDIHbQaiViqbo58cccccccccccccccccccccccccccccccc5:R
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/cat [OPTION]... [FILE]...
 Concatenate FILE(s) to standard output.
 
@@ -51,7 +51,7 @@ or available locally via: info '(coreutils) cat invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 cat: unknown option -- h
 Try '/usr/bin/cat --help' for more information.
 

@@ -21,7 +21,7 @@ SSDEEP | `1536:0POu7VaQvRUeF5QqXp+NeYPtF8V7tFyKtCydKYFtH1OcGob83RrsnNHnS:+VRX5Qq
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Copyright (c) Microsoft Corporation. All rights reserved.
 
    hnsdiag <command> <object> [options ...]

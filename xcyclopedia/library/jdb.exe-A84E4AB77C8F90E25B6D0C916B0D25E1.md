@@ -21,7 +21,7 @@ SSDEEP | `384:Gps0ArnPOqNTBmSHhV8VyeeQc0K6jSDDgf2hqT:GpsfnPBUS/8V/euKgsUf2hqT`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 invalid option: --help
 
 Usage: jdb <options> <class> <arguments>

@@ -21,7 +21,7 @@ SSDEEP | `1536:DjD8mTZRjbTw7kG5diFdotQBV5aHwWeJIjwKU2FMi7Y:DvnZRjbTuDOVgH/f+`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 To install your service please type <service name> /install
 To uninstall your service please type <service name> /remove
 For help please type <service name> /? or /h

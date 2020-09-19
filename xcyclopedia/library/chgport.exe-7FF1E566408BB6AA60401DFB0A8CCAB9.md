@@ -21,7 +21,7 @@ SSDEEP | `768:9r+otF1NLLreAtASiVnK8NV+HMAjMujy:cYPr8SykHjXy`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 List or change COM port mappings for DOS application compatibility.
 

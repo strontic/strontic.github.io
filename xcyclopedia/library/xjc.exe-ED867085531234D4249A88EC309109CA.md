@@ -21,7 +21,7 @@ SSDEEP | `384:Gps45hnprqKmSHhV8zSeeF4Szv3K6jSFJ0fUDgf2hJ:GpsinpCS/8zfeFJ3Kg0ZUf2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 "/?" is neither a file name nor a URL
 
 Usage: xjc [-options ...] <schema file/URL/dir/jar> ... [-b <bindinfo>] ...

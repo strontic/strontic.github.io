@@ -21,7 +21,7 @@ SSDEEP | `768:x7Yg8N9Kk0JtbAvNNTCI6RPia8BSs8eUSndlVOoa+4U7:x7Yg8N91cRwzoRPi7VJVd
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 EVENTCREATE [/S system [/U username [/P [password]]]] /ID eventid
             [/L logname] [/SO srcname] /T type /D description
@@ -76,7 +76,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "EVENTCREATE /?" for usage.
 

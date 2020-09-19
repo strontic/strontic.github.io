@@ -20,7 +20,7 @@ SSDEEP | `12288:XeE4ifbr/+wuWTqZXOF3UGMmCONFzS7ifsSZSJ:XZ4i2wiZ+Fam9FzS7ifsSZSJ`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ssh: unknown option -- h
 usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
            [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]

@@ -20,7 +20,7 @@ SSDEEP | `24576:Z4zLA+L1DPzS33GBTKz52IIDbOu0RKV7+7CVsCmj7:Z4zLA+L1bzcGBTWoIIXOu0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 GPSBabel Version 1.6.0.  http://www.gpsbabel.org
 
 Usage:

@@ -20,7 +20,7 @@ SSDEEP | `3072:JL8D2QcorQpxpqwZtcqbo0ZO/EQu9avtBxGsHKDnoCv:eDvasI6qsKOxNtBxGsHKD
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
 Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
@@ -147,7 +147,7 @@ or available locally via: info '(coreutils) ls invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ls: unknown option -- e
 Try '/usr/bin/ls --help' for more information.
 

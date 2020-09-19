@@ -21,7 +21,7 @@ SSDEEP | `384:sdharTbFLxY/UgGLiZrL3EeEQZXpcnYPLV9+MaDGRY:GhmpqMrErbhEy5cQ8DGW`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Unrecognized option --help is not valid.
 
 Usage: schemagen [-options ...] <java files> 
@@ -39,7 +39,7 @@ Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Aug 30, 2020 5:31:09 PM com.sun.tools.internal.jxc.SchemaGenerator$Runner compile
 WARNING: Unrecognized options found: [/?]
 null

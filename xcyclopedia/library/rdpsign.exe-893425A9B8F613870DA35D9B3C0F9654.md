@@ -21,13 +21,13 @@ SSDEEP | `1536:cdScOMkk5gL2j6WBxYIK5Pv8oIi7RR1qKxCidFv6:hZMkk5sm6WBKIORR1pxCiPy`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 All rdp file(s) have been succesfully signed.
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 NAME
 
 rdpsign [options] [items to sign]

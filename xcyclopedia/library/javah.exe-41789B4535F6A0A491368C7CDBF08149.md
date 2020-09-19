@@ -21,7 +21,7 @@ SSDEEP | `384:GpsR5hn0ammSHhV8yt2eeL4SzCK6jSHOp6Dgf2hWb+:GpsBnVS/8yt7eLQKgEOAUf2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: 
   javah [options] <classes>
 where [options] include:
@@ -41,7 +41,7 @@ where [options] include:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Exception in thread "main" java.lang.IllegalArgumentException: Not a valid class name: /?
 	at com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:129)
 	at com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:107)

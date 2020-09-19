@@ -21,7 +21,7 @@ SSDEEP | `768:2AwAYR3+tERm5za9/3BTpcf9eRp3zj67y1dCoAPSl0AFrP14y13NN0oTeDppoTbP:B
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: AuditPol command [<sub-command><options>]
 
 
@@ -42,7 +42,7 @@ Use AuditPol <command> /? for details on each command
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error 0x00000057 occurred:
 The parameter is incorrect.
 

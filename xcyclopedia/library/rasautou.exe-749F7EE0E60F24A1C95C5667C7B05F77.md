@@ -21,7 +21,7 @@ SSDEEP | `384:EsTMuRLrDeL9wSDT7VUyoZyTw5PYcWHBW:EQ/D5SRU/fZY9`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: rasautou [-f phonebook] [-a address] [-e entry] [-s]
 
 ```

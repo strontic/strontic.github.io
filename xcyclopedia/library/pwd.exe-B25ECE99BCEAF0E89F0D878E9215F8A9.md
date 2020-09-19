@@ -20,7 +20,7 @@ SSDEEP | `768:hdc2Py3VcjcCb2kL2X9iLPBmXMDSFM7mNiqbomc+OWqFCyDGFEUf2h5:hyYyujcCbx
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/pwd [OPTION]...
 Print the full filename of the current working directory.
 
@@ -43,7 +43,7 @@ or available locally via: info '(coreutils) pwd invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 pwd: unknown option -- h
 Try '/usr/bin/pwd --help' for more information.
 

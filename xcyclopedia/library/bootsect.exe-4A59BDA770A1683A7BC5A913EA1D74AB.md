@@ -21,7 +21,7 @@ SSDEEP | `768:rt9O59BuIAee9VkuIvsdzsyCY5eNildVUt7/8tK4ZcvNoXxrkWqVsiawjprT3lxU:R
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 bootsect {/help|/nt60|/nt52} {SYS|ALL|<DriveLetter>:} [/force] [/mbr]
 

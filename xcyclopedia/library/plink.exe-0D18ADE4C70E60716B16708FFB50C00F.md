@@ -21,7 +21,7 @@ SSDEEP | `12288:nsOlmdo5WwBjy668m3nwvsOVwLkkowZfgl8cHD:n/lzWwByT3wvdVw5rZYl82`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Plink: command-line connection utility
 Release 0.74
 Usage: plink [options] [user@]host [command]
@@ -78,7 +78,7 @@ The following options only apply to SSH connections:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unable to open connection:
 Host does not exist
 ```

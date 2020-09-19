@@ -23,7 +23,7 @@ SSDEEP | `768:vOpQXQCOnmI2JNtixiPF7NxtDBnTOkLoTp2Mcwf:vOGXcQE8FRNnBLoTpt`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 RemoveDrive V2.1 (Win32) - prepares drives for safe removal
 Freeware by Uwe Sieber - www.uwe-sieber.de

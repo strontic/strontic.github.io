@@ -21,7 +21,7 @@ SSDEEP | `12288:qIska30pZKIpno9eKXt2w3Po52QIUtMbYKUnwLu8m3mkDGYP8/Gc5oTr6zG/P9PI
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Greenshot commandline options:
 

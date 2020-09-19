@@ -20,7 +20,7 @@ SSDEEP | `384:LZKK9cgF6vvXr7xk3s3r7KARyukGsqcwR+9e4+zAhFFwmw+68q:LZKK9c3rTKA4fZw
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 usage: C:\program files\LibreOffice\program\\python-core-3.7.7 [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
@@ -112,7 +112,7 @@ PYTHONDEVMODE: enable the development mode.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown option: -e
 usage: C:\program files\LibreOffice\program\\python-core-3.7.7 [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Try `python -h' for more information.

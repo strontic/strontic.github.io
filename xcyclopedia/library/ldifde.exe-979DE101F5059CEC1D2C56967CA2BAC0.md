@@ -21,7 +21,7 @@ SSDEEP | `1536:LXoPCAhD2F8pUP+d5TolJUS8Ze3tP4k/HIwCB1:LXozTmWLKrtP4nr`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Invalid Parameter: Input file name required
 
 LDIF Directory Exchange

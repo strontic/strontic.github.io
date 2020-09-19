@@ -21,7 +21,7 @@ SSDEEP | `6144:3jIYORi5Z8ZAbAAsAAAgAxAAAAAAAAUAAbAALxAAAAAAACAAAAAxAAusFPfJ+fO:T
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 too many arguments
 
 ```

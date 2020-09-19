@@ -21,7 +21,7 @@ SSDEEP | `3072:JbAQqwEJjHN2N7191mTiQxXoUXsvfK/pgS/FHHrAuSGHZpzrqAXaG/3yy:Jbfqw4j
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft PnP Utility
 
 PNPUTIL [/add-driver <...> | /delete-driver <...> |

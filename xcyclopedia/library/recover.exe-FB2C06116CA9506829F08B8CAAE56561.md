@@ -21,7 +21,7 @@ SSDEEP | `192:EMp1/zPqoxJg1VD87N9EKVar3qy08VchbWSGS5Ajum2jWEnWy:BTRM7879UuyBVoVB
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Recovers readable information from a bad or defective disk.
 
 RECOVER [drive:][path]filename

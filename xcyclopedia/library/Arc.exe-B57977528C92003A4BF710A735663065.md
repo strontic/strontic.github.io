@@ -20,7 +20,7 @@ SSDEEP | `49152:Sk/sHkvi8CyK79VRt9/PN7cIZ4hSs+BuW:ebtZRVRD/PNPKhSsSu`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 FreeArc 0.67 (March 15 2014)  http://freearc.org  March 15 2014
 High-performance archiver. Free as well for commercial as for non-commercial use
 Usage: Arc command [options...] archive [files... @listfiles...]

@@ -21,7 +21,7 @@ SSDEEP | `768:BDQWomwoPBvdMaAEZxL3Dl1v3vOl5M939mXkpcYgY8QZLbc/0:BDiMPpdbxPl1vfyX
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The syntax of this command is:
 
 NET HELP
@@ -48,7 +48,7 @@ NET command /HELP
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 The syntax of this command is:
 
 NET

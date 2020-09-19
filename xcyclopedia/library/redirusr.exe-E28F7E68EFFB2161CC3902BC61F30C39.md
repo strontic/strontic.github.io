@@ -21,7 +21,7 @@ SSDEEP | `192:WnRVANyjXrVD60A7kTCRQg1fe6G2+yTEtGoFdF4c0bSmSWODBW:Wn8erVDP4nGgted
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
 
 redirusr CONTAINER-DN

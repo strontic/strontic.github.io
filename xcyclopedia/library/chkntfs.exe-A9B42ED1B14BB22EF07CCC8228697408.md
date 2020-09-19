@@ -21,7 +21,7 @@ SSDEEP | `192:dlvgZmvQxNwXMTnCzdZDqAWjVcEXKYgQrSKidzdrLROUazLUq7sgkN7nQWJ46WzG:7
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Displays or modifies the checking of disk at boot time.
 
 CHKNTFS volume [...]

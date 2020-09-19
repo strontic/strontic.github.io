@@ -21,7 +21,7 @@ SSDEEP | `1536:yGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgtpcUaXwK+W3hT4:yG
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WindowsContactsSync: what you trying to do?
 
     --issyncing

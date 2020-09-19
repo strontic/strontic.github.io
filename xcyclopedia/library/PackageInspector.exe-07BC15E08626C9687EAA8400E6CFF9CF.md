@@ -21,7 +21,7 @@ SSDEEP | `1536:M9/B9/ZMemxMQ432pWVjG+1hjM7er+KSCkWQC8UYlDU7+90n:E/BVZMFo3HQ+1hQC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Device Guard is not available in this edition of Windows.
 
 ```

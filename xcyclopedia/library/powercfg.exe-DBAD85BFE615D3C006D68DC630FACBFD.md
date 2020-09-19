@@ -21,7 +21,7 @@ SSDEEP | `1536:L4EqDN3DVIdnIhcN1i60GK/5j8d4IQIYWHqYTT:DqDN3DGyKhK5SQIYVQT`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 POWERCFG /COMMAND [ARGUMENTS]
 
@@ -99,7 +99,7 @@ Command List:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid Parameters -- try "/?" for help
 
 ```

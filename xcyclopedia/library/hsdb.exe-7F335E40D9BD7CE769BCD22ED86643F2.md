@@ -25,7 +25,7 @@ SSDEEP | `384:GpsoJRnmq8mSHhV83AeeDclK6jS52UDgf2hc:GpsqnJS/831ewKgs2UUf2hc`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:  hsdb [[pid] | [path-to-java-executable [path-to-corefile]] | help | -help ]
            pid:                     attach to the process whose id is 'pid'
            path-to-java-executable: Debug a core file produced by this program

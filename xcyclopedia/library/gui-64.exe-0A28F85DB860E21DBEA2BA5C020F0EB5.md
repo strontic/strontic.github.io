@@ -20,7 +20,7 @@ SSDEEP | `1536:HpsuhGpr4+qQt4O/6LEmo1dFPo6O28E0PTBmf2iBQsdkRQ5WF8uW4rEpKu:Hpsgoz
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui-64-script.pyw
 
 ```

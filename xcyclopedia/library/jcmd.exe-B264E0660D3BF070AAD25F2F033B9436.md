@@ -21,7 +21,7 @@ SSDEEP | `384:9bdNt3yyvp1ABbF5u5ACqnYPLV9+MaDGL:/O+D+F5u56Q8DGL`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jcmd <pid | main class> <command ...|PerfCounter.print|-f file>
    or: jcmd -l                                                    
    or: jcmd -h                                                    
@@ -41,7 +41,7 @@ Usage: jcmd <pid | main class> <command ...|PerfCounter.print|-f file>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Could not find any processes matching : 'help'
 
 ```

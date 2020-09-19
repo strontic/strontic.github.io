@@ -21,7 +21,7 @@ SSDEEP | `6144:jM7ikzziBIyqD14tJYfxPWh8U0TdKDDFPrDNRUNkS4/HaXlFHCe9oK28ruyLwoMm:
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 mDNSResponder 1.0d1
 

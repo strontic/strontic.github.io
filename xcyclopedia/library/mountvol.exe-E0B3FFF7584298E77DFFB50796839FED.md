@@ -21,7 +21,7 @@ SSDEEP | `384:Ob5fptnL+WMPDmOK84xVLdI8NuIcWLFWq:ofr+WMPDMx31NuIB`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Creates, deletes, or lists a volume mount point.
 
 MOUNTVOL [drive:]path VolumeName

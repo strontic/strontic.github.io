@@ -21,7 +21,7 @@ SSDEEP | `24576:Cg4UOcxn8jYUOwuDfHT1joSsiN8nqdvcp0BYbbnEGKx:RPOYn8jYUOHjHJcSsixp
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 ---- Commands Supported ----
 fixboot   Repair boot sectors
 leak      Leak Detection and Fixing

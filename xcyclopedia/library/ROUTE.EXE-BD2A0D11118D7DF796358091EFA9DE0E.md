@@ -21,7 +21,7 @@ SSDEEP | `384:aLmpji2KsyDY2nSGOUU3w8C5LJiw8HlE1FqBKSW50W:aLyD0S298CBKlcFqBKd`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Manipulates network routing tables.
 

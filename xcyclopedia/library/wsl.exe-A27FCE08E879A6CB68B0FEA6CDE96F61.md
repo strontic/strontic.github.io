@@ -21,7 +21,7 @@ SSDEEP | `6144:eE38JI+OhG9Aaam6Ex+hhLY72EZE3hkWG/:T38JxOhWamxoxk`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Invalid command line option: -help
 Usage: wsl.exe [option] ...
 Options:

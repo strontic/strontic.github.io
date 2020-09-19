@@ -21,7 +21,7 @@ SSDEEP | `3072:oT75uF5aut0c/gYnV/uZCk9pj2Q2mnAJuvuuo0aw4nrXCA/B:oPwF5KKdnV/9k9pj
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Deployment Image Servicing and Management tool
 Version: 10.0.14393.3241

@@ -21,7 +21,7 @@ SSDEEP | `3072:NZoyKwnVS570M9kdatGCO+xmBc+hMPhPsx:ceVs7nyatGt+SYF`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Bitlocker Wizard Launcher
     	Usage: BitlockerWizard X: <P|R|S|T>
     	    P is mapped to  FVEUI_AFTER_TPM_PPI_NO_REBOOT

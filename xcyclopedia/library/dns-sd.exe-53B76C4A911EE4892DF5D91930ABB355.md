@@ -21,7 +21,7 @@ SSDEEP | `1536:2UpInlAVwr1BTvm2hm2qW3gY1hP7a0BDkXOgmSaQGRtIk:0z+2hmQQk7RkOgmSaQG
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 dns-sd.exe -E                  (Enumerate recommended registration domains)
 dns-sd.exe -F                      (Enumerate recommended browsing domains)
 dns-sd.exe -B        <Type> <Domain>        (Browse for services instances)

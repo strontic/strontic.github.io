@@ -21,7 +21,7 @@ SSDEEP | `1536:zXf4VOsHS2ENfKm1TFcdK5fHuYHwrBDn:TQHSHNH1TyeuJn`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) File Expansion Utility
 Copyright (c) Microsoft Corporation. All rights reserved.
 

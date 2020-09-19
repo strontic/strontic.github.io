@@ -20,7 +20,7 @@ SSDEEP | `3072:r2WFBG2HWPmvhu/3Q+ObppKUmNxw26cAcUYfAFDQ:rFFMVmvmKpM/AcUYfAFDQ`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/touch [OPTION]... FILE...
 Update the access and modification times of each FILE to the current time.
 
@@ -57,7 +57,7 @@ or available locally via: info '(coreutils) touch invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/touch: missing file operand
 Try '/usr/bin/touch --help' for more information.
 

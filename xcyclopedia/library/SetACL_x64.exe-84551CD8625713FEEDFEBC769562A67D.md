@@ -23,7 +23,7 @@ SSDEEP | `6144:OE53L4dOd2y5r65y7n8lrgj30GU07Zbn24VlF5PqsjvdF+dFtsnxXG2omMB1H0JE:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 SetACL by Helge Klein
 

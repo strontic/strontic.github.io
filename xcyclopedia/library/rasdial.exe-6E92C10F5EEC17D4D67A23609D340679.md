@@ -21,7 +21,7 @@ SSDEEP | `384:7r2BMwcGKpSs1YEhu+L/4VyerOKZtZ1w+20rgkbOcokosnJSWEVW:fyJbgeEhu+Lsr
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 USAGE:
 	C:\Windows\system32\rasdial.exe entryname [username [password|*]] [/DOMAIN:domain]
 		[/PHONE:phonenumber] [/CALLBACK:callbacknumber]

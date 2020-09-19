@@ -21,7 +21,7 @@ SSDEEP | `98304:tqAKAd4TEWR/nVKKvjbO0snXY2we8HGzsj:tsVTLiP`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   gimp-console-2.10.exe [OPTION?] [FILE|URI...]
 
@@ -61,7 +61,7 @@ Application Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 (web-page.exe:5032): GLib-CRITICAL **: 15:07:24.239: g_io_channel_write_chars: assertion 'channel->is_writeable' failed
 

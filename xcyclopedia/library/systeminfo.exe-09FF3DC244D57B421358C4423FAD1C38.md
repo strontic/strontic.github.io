@@ -21,7 +21,7 @@ SSDEEP | `1536:CHJilTu8wey5jcF/5fm5E5zWS+20R2SAynFCd9sG2aOtmxI4k:ffwR50fgE5zX+20
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]
 
@@ -60,7 +60,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '-help'.
 Type "SYSTEMINFO /?" for usage.
 

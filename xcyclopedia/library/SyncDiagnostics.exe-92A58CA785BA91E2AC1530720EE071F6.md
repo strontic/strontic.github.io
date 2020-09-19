@@ -21,7 +21,7 @@ SSDEEP | `1536:LGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgtQHUay59Rd3hZx:LG
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncDiagnostics.exe: Incorrect number of parameters (1) specified. 4 Needed.
 C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncDiagnostics.exe: usage: C:\program files (x86)\Common Files\Apple\Mobile Device Support\SyncDiagnostics.exe DeviceId TargetId ResultsPath AppDataDirectoryPath
 

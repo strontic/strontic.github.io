@@ -21,7 +21,7 @@ SSDEEP | `49152:7l5Bt5M1P5YkK0DtaVBJ10lMuEynUiuSJk/rwjR45P6mxkn:PBt5Y/KOz`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 [ERROR] Unknown Command <-help>
 
 

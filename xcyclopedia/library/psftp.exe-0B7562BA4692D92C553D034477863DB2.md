@@ -21,7 +21,7 @@ SSDEEP | `12288:3RqFQ6UPONcezHgNcGpRrQIf+62sX4NZs1YzY4K:0FQ6UqzAyKg62ZNZs1YW`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 PuTTY Secure File Transfer (SFTP) client
 Release 0.74
 Usage: psftp [options] [user@]host
@@ -55,7 +55,7 @@ Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 psftp: unknown option "-help"
        try typing "psftp -h" for help
 

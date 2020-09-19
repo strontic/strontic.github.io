@@ -21,7 +21,7 @@ SSDEEP | `384:IrAgbdNt3SyGUBbFVX45AUGK6jS1/SDgf2hEy:IxuYFN452Kgm6Uf2hX`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jdeprscan [options] {dir|jar|class} ...
 
 options:
@@ -65,7 +65,7 @@ The --version option prints out the abbreviated version string of the tool.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: jdeprscan [options] {dir|jar|class} ...
 
 options:

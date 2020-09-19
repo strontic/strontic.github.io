@@ -21,7 +21,7 @@ SSDEEP | `384:6pQuP1r31s886F4hhG8OI3buCRdU6OeNfD3DeTEFCij4/aoahoxNINW0oW:6pFrj86
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) MOF Compiler Version 10.0.14393.0
 Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
 

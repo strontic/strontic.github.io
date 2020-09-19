@@ -21,13 +21,13 @@ SSDEEP | `768:h0E/x9/S+KW2626a6tWZa2ZeNmrhRf3qjmVeD6f2/Dd7/BaB5BW3iI:SIrMKWZxZeN
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Unknown host help.
 ftp> 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Transfers files to and from a computer running an FTP server service
 (sometimes called a daemon). Ftp can be used interactively.

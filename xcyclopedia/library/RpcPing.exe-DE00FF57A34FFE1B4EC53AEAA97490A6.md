@@ -21,7 +21,7 @@ SSDEEP | `768:SmToGAa9K1rw9FPdwfpggJJotjB8fp1Acsl/:hXAJ+9FPdOpggJ+jB6Wl/`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: 
 rpcping [-t <protseq>] [-s <server_addr>] [-e <endpoint>            
         |-f <interface UUID>[,MajorVer]] [-O <Interface Object UUID]

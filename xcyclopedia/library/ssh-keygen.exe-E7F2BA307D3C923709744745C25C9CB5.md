@@ -20,13 +20,13 @@ SSDEEP | `6144:1jOlrq2QzsTMhJoEBA/YF9HE0C09/l760j6qTjhqVSxwn1VU1B8zqcNPaDb2O7fB:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Generating public/private rsa key pair.
 Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa): 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Too many arguments.
 usage: ssh-keygen [-q] [-b bits] [-t dsa | ecdsa | ed25519 | rsa]
                   [-N new_passphrase] [-C comment] [-f output_keyfile]

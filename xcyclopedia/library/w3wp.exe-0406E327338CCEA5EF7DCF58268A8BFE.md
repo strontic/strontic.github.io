@@ -21,7 +21,7 @@ SSDEEP | `384:Zd71aN4xcQVNTYSFS26+fdJUjGL/IQ+NAZfHxWS9UsdX6EydQUtWSu8:Zd71aNmVVY
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\Windows\system32\inetsrv\w3wp.exe -s <site id> | -h [application host file]  
                            -w <optional root web.config file>  
                            -in <optional instance name>  

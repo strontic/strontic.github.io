@@ -20,7 +20,7 @@ SSDEEP | `6144:IfOazBgKadhY8E7Taj65Gi/uKjb8FtJj8Cg0COKnovJb:PazBgThY805DNwteCg0C
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: grep [OPTION]... PATTERN [FILE]...
 Search for PATTERN in each FILE.
 Example: grep -i 'hello world' menu.h main.c
@@ -95,7 +95,7 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: grep [OPTION]... PATTERN [FILE]...
 Try 'grep --help' for more information.
 

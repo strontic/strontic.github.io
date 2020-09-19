@@ -20,7 +20,7 @@ SSDEEP | `24576:kLtrZo0gn7HFHqdBzAD+qzBbWLG1F1S9eUaU000K0000d000R000:khrZjgnLFKd
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 zpaq v7.15 journaling archiver, compiled Aug 17 2016
 Unknown option ignored: --help
 Usage: zpaq command archive[.zpaq] files... -options...

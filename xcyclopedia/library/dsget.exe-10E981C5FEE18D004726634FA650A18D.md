@@ -21,7 +21,7 @@ SSDEEP | `1536:1FX4sGI2Q5eaNim1sRVOCjigtii8CaCD8ZksSM7RX3joPk/gG/3n:1FX4sneaNtsT
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description:  This tool's commands display the selected properties
 of a specific object in the directory. The dsget commands:
 
@@ -90,7 +90,7 @@ dsget succeeded
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Description:  This tool's commands display the selected properties
 of a specific object in the directory. The dsget commands:
 

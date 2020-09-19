@@ -21,7 +21,7 @@ SSDEEP | `1536:7rTzFpintnosN6oSC1hP20iJd4qjkz4CONHnCthWni2JUtLVAkoP:7rTzFpOJN6oP
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The syntax of this command is:
 
 NETDOM HELP command

@@ -21,7 +21,7 @@ SSDEEP | `384:i9bdNt3SysLXBbFHg5AA2nYPLV9+MaDGfn:+unVFHg58Q8DGfn`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:   jshell <option>... <load-file>...
 where possible options include:
     --class-path <path>   Specify where to find user class files
@@ -64,7 +64,7 @@ colon (:) to separate items.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 File 'help' for 'jshell' is not found.
 
 ```

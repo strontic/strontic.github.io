@@ -21,7 +21,7 @@ SSDEEP | `192:+29yTHTiER0MIKEfokceERR4yK6CYlLWwsUOb14JBBa9sgfxIZHP:+2SvRQKNkceEB
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Tool for working with Flight Recorder files (.jfr)
 
  jfr print [--xml|--json]
@@ -55,7 +55,7 @@ Tool for working with Flight Recorder files (.jfr)
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 jfr: unknown command '-help'
 
 List of available commands:

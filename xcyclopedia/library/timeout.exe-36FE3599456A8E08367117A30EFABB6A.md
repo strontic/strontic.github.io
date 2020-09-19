@@ -21,7 +21,7 @@ SSDEEP | `384:Em5HP2SF6SbP8Xqb4X6tU6E1bZSzXF56eWNjq2wdXonvYI1H5Mx4viGhLI1wh0WL:E
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 TIMEOUT [/T] timeout [/NOBREAK] 
 
@@ -49,7 +49,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid value for timeout (/T) specified. Valid range is -1 to 99999.
 
 ```

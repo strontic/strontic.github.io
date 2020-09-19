@@ -20,7 +20,7 @@ SSDEEP | `3072:1O4FeGs2xmZlD7r7YiboFmp0lqNVA/dGZvVMGvVG4mkfOWvCKpLeXjJj:XeGs2Mfr
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 GPL Ghostscript 9.50 (2019-10-15)
 Copyright (C) 2019 Artifex Software, Inc.  All rights reserved.
 Usage: gs [switches] [file1.ps file2.ps ...]
@@ -61,7 +61,7 @@ Please report bugs to bugs.ghostscript.com.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 GPL Ghostscript 9.50: Unrecoverable error, exit code 1
 
 ```

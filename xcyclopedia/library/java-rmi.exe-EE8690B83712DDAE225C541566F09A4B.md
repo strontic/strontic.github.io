@@ -21,7 +21,7 @@ SSDEEP | `384:Gps5XnDbq4mSHhV8IYeeQ+K6jSB7QVyDgf2hav:Gps5XnsS/8IteQ+KgXyUf2hav`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: java-rmi [-options] class [args...]
            (to execute a class)
    or  java-rmi [-options] -jar jarfile [args...]

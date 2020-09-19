@@ -25,7 +25,7 @@ SSDEEP | `3072:QkwW3lFIbDZqg6d+GRRTGghtYIo9piswTogiqQKy349:Qel+Zqg6dRhhqIo9s37iT
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Argument 'help' is unknown.
 
 ```

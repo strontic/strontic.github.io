@@ -21,7 +21,7 @@ SSDEEP | `6144:pcI29oqy82tSiiXXHZgS6/MtiwQSwGlPevt:l29ty82Ac/Og1G12t`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) TTTracer 1.01.05
 Release: 10.0.18362.1
 Copyright (C) Microsoft Corporation. All rights reserved.

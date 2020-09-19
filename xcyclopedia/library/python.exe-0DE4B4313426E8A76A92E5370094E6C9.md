@@ -20,7 +20,7 @@ SSDEEP | `192:39RSu1WH0xpvjObAZdbXEeZWIVnmwPE+tlHw5Hw+1bMjghIuVCsz:tl1WUxpSbArhj
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 usage: C:\program files\GIMP 2\bin\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about comparing bytearray with unicode
@@ -71,7 +71,7 @@ PYTHONHASHSEED: if this variable is set to 'random', the effect is the same
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown option: -e
 usage: C:\program files\GIMP 2\bin\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Try `python -h' for more information.

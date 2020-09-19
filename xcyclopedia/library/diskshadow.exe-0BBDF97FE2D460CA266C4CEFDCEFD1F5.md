@@ -21,7 +21,7 @@ SSDEEP | `6144:KZnKEomdxniCQboHYcH8gdmkxLV/9jbIcfotva78wtNsYs:KZKE1dxnlV8qhX9jbC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft DiskShadow version 1.0
 Copyright (C) 2013 Microsoft Corporation
 On computer:  default-pc,  6/4/2020 4:38:26 PM

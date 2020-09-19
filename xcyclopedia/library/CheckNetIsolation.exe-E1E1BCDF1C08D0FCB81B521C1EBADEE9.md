@@ -21,7 +21,7 @@ SSDEEP | `768:KmIFT6/SRYi9TFAClvoGayQ+h1b4v7pN:hsTAZShAClvoGany1b4v7p`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: Invalid Parameters
 
 Usage:

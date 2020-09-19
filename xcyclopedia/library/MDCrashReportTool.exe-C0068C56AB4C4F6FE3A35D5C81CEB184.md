@@ -21,7 +21,7 @@ SSDEEP | `1536:BGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgtJ5Ua1upnT3hVKv:B
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Target not specified. Exiting.
 
 ```

@@ -20,7 +20,7 @@ SSDEEP | `1536:WfnLq01weW5yX3jFxv49Nu4GhQfuW4EpK3:P3ysTGhQL4`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-script.py
 
 ```

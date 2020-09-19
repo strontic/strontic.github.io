@@ -21,7 +21,7 @@ SSDEEP | `3072:68t+2/7Ign7PmRkQ9O84NxY1aLSQyfz2IJinRqin/3lmLBg5UqoLoQ5b2:Xtf7PKk
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description: iissetup.exe is a helper utility that belongs to OS setup
 and should never be called manually.
 Failed = 0x80070057

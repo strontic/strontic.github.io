@@ -21,7 +21,7 @@ SSDEEP | `1536:qGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgteUUaWHLDe3hsq:qG
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 2020-08-30 17:49:15.974 SyncUIHandler.exe[10704:2a6c] main +++
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `192:b7QqWEftZbnLlltRLMRoeXpafGhW4doS2mDXUkSV3tSWRRkXWTiWbVjFC:/xZbnLLI
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Edits command lines, recalls Windows commands, and creates macros.
 
 DOSKEY [/REINSTALL] [/LISTSIZE=size] [/MACROS[:ALL | :exename]]

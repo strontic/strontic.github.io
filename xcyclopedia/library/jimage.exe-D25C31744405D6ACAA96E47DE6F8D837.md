@@ -21,7 +21,7 @@ SSDEEP | `384:5bdNt3yyZi0EaiuBbF065AAMnYPLV9+MaDGhWgl:LOltLIF065iQ8DGNl`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jimage <extract | info | list | verify> <options> jimage...
 
   extract  - Extract all jimage entries and place in a directory specified

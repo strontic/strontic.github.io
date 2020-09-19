@@ -20,7 +20,7 @@ SSDEEP | `768:ljfnJFqNSkejOy27eW2Vef/7yX3jFICnFfvoUs49RsS98Pu4TNz14GAeRgxQ:JfnLq
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot open C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-script.py
 
 ```

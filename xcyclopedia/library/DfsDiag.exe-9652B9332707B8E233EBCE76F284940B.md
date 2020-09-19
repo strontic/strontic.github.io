@@ -21,7 +21,7 @@ SSDEEP | `3072:QV/xYtjl964xsjykMZOhxH+6LrSHTl7T70mWf/8gg+42KanD6o/vwhvc5:4OygsaZ
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: INCORRECT SYNTAX
 
 ------ Commands supported ------

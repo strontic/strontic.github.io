@@ -21,7 +21,7 @@ SSDEEP | `768:EQTgUrUqr+j0/A9gy/VHIsMGMdnQdi1BewE3UfJb8dPVSwV5z:5RD+j9gydmXQdije
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Command line options:
 
 ---------------------most useful args

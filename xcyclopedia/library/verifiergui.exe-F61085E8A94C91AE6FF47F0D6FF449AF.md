@@ -21,7 +21,7 @@ SSDEEP | `3072:ZcJVIZen+Vcv2JBwwRBkBnRePnjA+z7zqB4nG0yYSQSvMA201qaIxP090tJJmNi+:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
  
 Copyright (c) Microsoft Corporation. All rights reserved.
  

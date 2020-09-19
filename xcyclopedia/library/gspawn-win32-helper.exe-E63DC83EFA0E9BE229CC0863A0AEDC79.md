@@ -20,7 +20,7 @@ SSDEEP | `384:RUz4/PFq8CiQXgzkEaFqXIyNb5OzmapfiRBuQVPyWM:RpCSsQ4yNb5EQDZM`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 **
 ERROR:gspawn-win32-helper.c:176:WinMain: assertion failed: (__argc >= ARG_COUNT)
 

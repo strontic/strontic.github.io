@@ -21,7 +21,7 @@ SSDEEP | `384:QnKqbEEBmpJVD8nIs7uc1T471yMnYPLgqAzu8JN77hhTsd:QKXEBmpvD8nz7ucZ471
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Test: FAILED {MinVersion, version < bl version}
 Test: PASSED {MinVersion, version == bl version}
 Test: PASSED {Between MaxVersion and MinVersion}

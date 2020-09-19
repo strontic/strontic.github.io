@@ -20,7 +20,7 @@ SSDEEP | `1536:mm5MMwmnMECCUO3C/yE0XtG6OogW2EoUstUfV:p5am/Cj7WdG6t2EoUsu`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/cmp [OPTION]... FILE1 [FILE2 [SKIP1 [SKIP2]]]
 Compare two files byte by byte.
 
@@ -52,7 +52,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 cmp: unknown option -- h
 /usr/bin/cmp: Try '/usr/bin/cmp --help' for more information.
 

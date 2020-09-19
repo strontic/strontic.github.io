@@ -20,7 +20,7 @@ SSDEEP | `768:uZK3pF5beTxwhnEfDURTbL3lTqA7KYPPjvujFgakEnWMGly7WwuFFU2NA6Q2P3r8:e
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Container Manager Diagnostics Tool
 

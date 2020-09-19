@@ -21,7 +21,7 @@ SSDEEP | `1536:rijQlcYBI2AlQM8yBTSCUiC4dTLFjJwpH/sy0OJQv+KE5PFa+ctf:rijBlQZu+/iC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 BOOTCFG /parameter [arguments]
 
@@ -77,7 +77,7 @@ WARNING: BOOT.INI is used for boot options on Windows XP and earlier
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid syntax.
 Type "BOOTCFG /?" for usage.
 

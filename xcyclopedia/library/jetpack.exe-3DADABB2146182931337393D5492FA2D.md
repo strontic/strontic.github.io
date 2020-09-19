@@ -21,7 +21,7 @@ SSDEEP | `192:1Csp6Unp3+Oqfz/eGjYsXSGIaXJwZ4G83UjnmDWGHW:MCnJvA2GMsXCWwZ4V4mDWGH
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 usage: C:\Windows\system32\jetpack.exe [-351db] <database name> <temp database name>
      : Use -351db if you are compacting NTS3.51 or prior release database
      : Use -40db  if you are compacting NTS4.0 release database

@@ -21,7 +21,7 @@ SSDEEP | `1536:U3WcvOYMd57IAB/R0CO9derpMkT2MVd17ihh4SpWfbZay0d:SOYM/7hRVmc20liLV
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 TAKEOWN [/S system [/U username [/P [password]]]]
         /F filename [/A] [/R [/D prompt]]
@@ -91,7 +91,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "TAKEOWN /?" for usage.
 

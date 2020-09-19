@@ -21,7 +21,7 @@ SSDEEP | `1536:rLweO9J3kLHYN03cl6zT88sHlu/YrrDoovijsjdH5QKq3FKsWEsl52SV47y42748:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 ERROR:  Unrecognized command
 

@@ -20,7 +20,7 @@ SSDEEP | `768:3IGScVL/c6KlAaE/TZtKGeQq45imNlyMy7eeee0eeeeeeeeeeeeeeeetNiqboprM:3
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/head [OPTION]... [FILE]...
 Print the first 10 lines of each FILE to standard output.
 With more than one FILE, precede each with a header giving the file name.
@@ -53,7 +53,7 @@ or available locally via: info '(coreutils) head invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 head: unknown option -- h
 Try '/usr/bin/head --help' for more information.
 

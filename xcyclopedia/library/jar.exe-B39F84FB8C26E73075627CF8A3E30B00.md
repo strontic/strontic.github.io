@@ -21,7 +21,7 @@ SSDEEP | `384:QpbdNt3yyvZcABbF1+5Aa7nYPLV9+MaDGLLs:Q7O+K+F1+5VQ8DGL4`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jar [OPTION...] [ [--release VERSION] [-C dir] files] ...
 jar creates an archive for classes and resources, and can manipulate or
 restore individual classes or resources from an archive.
@@ -109,7 +109,7 @@ text file and pass it to the jar command with the at sign (@) as a prefix.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Illegal option: /
 Try `jar --help' for more information.
 

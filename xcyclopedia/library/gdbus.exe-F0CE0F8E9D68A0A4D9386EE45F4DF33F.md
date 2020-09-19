@@ -20,7 +20,7 @@ SSDEEP | `768:Otr8BaLtKdO6nQQ9HQ+73OY+jzjX0P496vqmwiamv1JAWEDW:OmyQ2+7eY+38naE1+
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   gdbus.exe COMMAND
 
@@ -38,7 +38,7 @@ Use ?gdbus.exe COMMAND --help? to get help on each command.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown command '--help'
 Usage:
   gdbus.exe COMMAND

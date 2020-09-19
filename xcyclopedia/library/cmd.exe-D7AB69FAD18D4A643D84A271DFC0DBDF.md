@@ -21,7 +21,7 @@ SSDEEP | `6144:yRCCGxTT6YlsLeVQvmjiVg69qactBigm:QCCGxTzAe2mjiVg69cvig`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Starts a new instance of the Windows command interpreter
 
 CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF]

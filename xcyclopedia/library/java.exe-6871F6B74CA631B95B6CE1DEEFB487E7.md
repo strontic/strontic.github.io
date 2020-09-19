@@ -21,7 +21,7 @@ SSDEEP | `3072:CQ4Hdi0lKx96kzos9wMD0yRgUdRPu3fKMoTBf3vSjZqMN8YiYkwc:349S6DsStyaU
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error: opening registry key 'Software\JavaSoft\Java Runtime Environment'
 Error: could not find java.dll
 Error: Could not find Java SE Runtime Environment.

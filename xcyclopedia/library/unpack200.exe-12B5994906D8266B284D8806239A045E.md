@@ -21,7 +21,7 @@ SSDEEP | `3072:9vinnfYFx5FYwb+Y4gbGgbTBfuSbIQ/Avn+BB5bh:JinctpPGgbTB2SbIQ/tB3h`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Warning: The unpack200.exe tool is deprecated, and is planned for removal in a future JDK release.
 

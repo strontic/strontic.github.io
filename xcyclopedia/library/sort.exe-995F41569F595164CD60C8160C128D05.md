@@ -21,7 +21,7 @@ SSDEEP | `384:i0RnTyULFfjVsEI+4e+lMAw1WjHKXRfa7ZbHWjnWoYwc5:i0tZZsP+3+lMp1k1bwhc
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
   [[drive1:][path1]filename1] [/T [drive2:][path2]]
   [/O [drive3:][path3]filename3]
@@ -81,7 +81,7 @@ SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid switch.
 
 

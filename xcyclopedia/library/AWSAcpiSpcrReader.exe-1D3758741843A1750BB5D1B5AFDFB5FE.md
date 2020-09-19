@@ -21,7 +21,7 @@ SSDEEP | `3072:y3uMTsB0TUqlYXHC4crVc9c2dBZgXXe+lCIHyGqZt8QTALa:yeMLT9lYy4+VcO2ee
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Result buffer size: 0
 Size of SPCR: 80
 Exception caught: GetSystemFirmwareTable() failed.  LastError: Element not found.

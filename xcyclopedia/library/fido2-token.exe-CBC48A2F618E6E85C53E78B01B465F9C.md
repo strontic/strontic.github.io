@@ -20,7 +20,7 @@ SSDEEP | `768:pelpHHYXr9sn+xpV/M2jgDtO613KvVDDpl48yFVFMoMgqzMWVwTkQ6rDGGUf2h:peD
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 fido2-token: unknown option -- h
 fido2-token: unknown option -- l
 usage: fido2-token [-CR] [-d] device

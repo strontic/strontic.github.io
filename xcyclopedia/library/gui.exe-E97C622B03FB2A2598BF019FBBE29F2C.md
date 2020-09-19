@@ -20,7 +20,7 @@ SSDEEP | `768:nMgEYaPKRsVvd7M826QXqVXDjPXHyRhQcBU+zGqJS967GMctEvdGA9SYxQ:Mg/6/tM
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot open C:\program files\Python38\Lib\site-packages\setuptools\gui-script.pyw
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `3072:Opl17KsYX1j7ZyGx8oh0b4F9BptLvibLivstwP+HUCEYQRxDlKr:Opl1Os8dxBJph
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft DiskPart version 10.0.19041.1
 

@@ -21,7 +21,7 @@ SSDEEP | `6144:o0ExPO9Cu/dGIemG0bhwQC++ZvJsMXEa1lBNvXqmiJg3PfcKrKywH:wpfiZhGHSa7
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: updater patch-dir install-dir apply-to-dir [wait-pid [callback-working-dir callback-path args...]]
 
 ```

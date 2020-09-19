@@ -21,7 +21,7 @@ SSDEEP | `24576:bBh+xsr7MeUBk+1XryH7BFS4UVk+MD/iEfUetllrKLmhSzYljn9ztaIvufnX1jjc
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 avengine=Spybot2AV
 errormsg=WrappedBitDefenderScan: Access violation at address 66FB2AE0 in module 'scan.dll'. Read of address 0000010C
 

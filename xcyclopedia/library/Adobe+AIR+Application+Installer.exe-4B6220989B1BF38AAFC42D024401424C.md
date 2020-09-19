@@ -25,7 +25,7 @@ SSDEEP | `3072:WH25hogaS00EoVEf0y4ac5KNi01x/joc1CkM7MpiigEsMkFB:+bSQZiaQMkFB`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 unexpected error: ArgumentError: Absolute path of the air file needs to be specified.
 
 ```

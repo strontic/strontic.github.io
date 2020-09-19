@@ -20,7 +20,7 @@ SSDEEP | `768:2jfnJFqNSkejOy27eW2Vef/7yX3jFICnFfvoUs49RsS98Pu4TNz14GAeRgxQ:ufnLq
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot open C:\program files\Python38\Lib\site-packages\setuptools\cli-32-script.py
 
 ```

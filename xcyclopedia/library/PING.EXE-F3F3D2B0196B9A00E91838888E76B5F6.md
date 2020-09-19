@@ -21,7 +21,7 @@ SSDEEP | `384:4L97irkr1hp22PeQw78T5HfjQ1H6PE7Apsu0pFEfqmq16LQhWvWAlW:4LFfASeQw78
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Bad option -help.
 
 Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]

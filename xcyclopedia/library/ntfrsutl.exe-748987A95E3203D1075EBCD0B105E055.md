@@ -21,7 +21,7 @@ SSDEEP | `384:QQBZ6O+VOF5Bodhlqaaels5P4VOeOaRqr6RfUcsLWgNW:QQvzwOF5a/qahOpaRTRfU
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Ntfrsutl dumps the internal tables, thread and memory information
 for the ntfrs service.It runs against local as well as remote server.
 
@@ -76,7 +76,7 @@ ntfrsutl poll [/quickly[=[N]]] [/slowly[=[N]]] [/now] [computer]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Don't understand --help
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `768:bT2c85/Y9R1lef/xxu2InDvov3+gnOV04chZWoz9c8o4Jg3Q3dFbcEa424by4:pz9D
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: hwrcomp [-lang <locale>]
                [-type <type>]
                [-comment <comment>]

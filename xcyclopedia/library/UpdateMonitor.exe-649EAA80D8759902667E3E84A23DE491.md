@@ -23,7 +23,7 @@ SSDEEP | `384:bxBMtukAft029l9bEip8ZpHqGb5hiiGy+D:F3029rbEipiR9riW+D`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Command line is: "C:\program files\paint.net\UpdateMonitor.exe" --help
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `192:y360yTHTlv2KFnIKEfoISXeECE4yK6CYlLWwsULKg4GKTxa9sgfxIZHfl:y3Cd2KKK
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 
 Welcome to the Java IDL Server Tool 

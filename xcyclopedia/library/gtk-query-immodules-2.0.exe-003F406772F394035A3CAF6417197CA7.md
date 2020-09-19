@@ -20,7 +20,7 @@ SSDEEP | `192:/G4XaYktPGlCI8Y6ITu/DEeXb34Fnt2BUszZWyHSapWU6eXEU9VSQ1lprDQIZVQa:O
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 # GTK+ Input Method Modules file
 # Automatically generated file, do not edit
 # Created by C:\program files (x86)\Pidgin\Gtk\bin\gtk-query-immodules-2.0.exe from gtk+-2.16.6
@@ -29,7 +29,7 @@ SSDEEP | `192:/G4XaYktPGlCI8Y6ITu/DEeXb34Fnt2BUszZWyHSapWU6eXEU9VSQ1lprDQIZVQa:O
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Cannot load module C:\Users\user\Documents\--help: `C:\Users\user\Documents\--help.dll': The specified module could not be found.
 C:\Users\user\Documents\--help does not export GTK+ IM module API: `C:\Users\user\Documents\--help.dll': The specified module could not be found.
 

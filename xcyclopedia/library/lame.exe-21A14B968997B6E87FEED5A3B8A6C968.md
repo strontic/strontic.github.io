@@ -21,7 +21,7 @@ SSDEEP | `6144:75UpSmPKc0z4PALRU4Q5qxw20ms0GDGFjrQseAOZHebsOvXau:7KvPr0UPORUJow2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 LAME 32bits version 3.100 (http://lame.sf.net)
 
 usage: C:\program files (x86)\MusicBee\Codec\lame.exe [options] <infile> [outfile]
@@ -58,7 +58,7 @@ OPTIONS:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 LAME 32bits version 3.100 (http://lame.sf.net)
 
 usage: C:\program files (x86)\MusicBee\Codec\lame.exe [options] <infile> [outfile]

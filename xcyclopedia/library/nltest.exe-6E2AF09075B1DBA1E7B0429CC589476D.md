@@ -21,7 +21,7 @@ SSDEEP | `12288:/IRTTa4RbsbgxCDyH3nLeueO+ueO+ueO:/IRTNRbsMiyH3nLeueO+ueO+ueO`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: nltest [/OPTIONS]
 
 

@@ -20,13 +20,13 @@ SSDEEP | `192:zT0gJCXvA733Azj/HoZCqWUucl/Zfhsw2CCKU5ZNIqpE1+VjgOI4mJUCsz:Ugp33Av
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Bail out! ERROR:../glib-2.64.2/glib/gspawn-win32-helper.c:220:main: assertion failed: (argc >= ARG_COUNT)
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 **
 ERROR:../glib-2.64.2/glib/gspawn-win32-helper.c:220:main: assertion failed: (argc >= ARG_COUNT)
 

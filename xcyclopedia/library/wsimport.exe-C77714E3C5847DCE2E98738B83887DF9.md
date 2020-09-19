@@ -21,7 +21,7 @@ SSDEEP | `384:s/2SHRbvC/nZrmieECZXpS1nYPLV9+MaDGx:42ScRrmPEQ5S1Q8DGx`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 "/?" is neither a file name nor an URL
 
 

@@ -21,14 +21,14 @@ SSDEEP | `768:v7FfBiRLtfp5oscQ5vCJfoDNsn4FOBkStBWO:SRhfp5oscQ5vqfoAg0YO`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The operation completed successfully.
 Done.
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: The system was unable to find the specified registry key or value.
 
 ```

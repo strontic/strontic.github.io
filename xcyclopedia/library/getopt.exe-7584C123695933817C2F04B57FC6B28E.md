@@ -20,7 +20,7 @@ SSDEEP | `192:SfQMjUnv7WCCCTRYhnpFC9XtgPMwiSXi0lhKyj/SGD1WfCsz5TF7B3DDWpHzV9W7:C
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage:
  getopt <optstring> <parameters>

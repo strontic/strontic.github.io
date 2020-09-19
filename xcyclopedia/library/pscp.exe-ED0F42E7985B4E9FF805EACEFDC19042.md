@@ -21,7 +21,7 @@ SSDEEP | `12288:HtEhCaM1f1xKTKNkO5IbKonRKqpTZKasgQOaX1:ujOKWpStnR1TZKasv`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 PuTTY Secure Copy client
 Release 0.74
 Usage: pscp [options] [user@]host:source target
@@ -60,7 +60,7 @@ Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 pscp: unknown option "-help"
       try typing just "pscp" for help
 

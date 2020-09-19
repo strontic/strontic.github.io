@@ -23,7 +23,7 @@ SSDEEP | `768:iu0hPzXQDAYtPiDEOH4YJNX9kCfr6kpsHRmgKgsCqUf2h2:iu2jQDniDEOYYJF9kCf
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 jabswitch [/enable | /disable | /version | /?]
 

@@ -21,7 +21,7 @@ SSDEEP | `384:dmSjRRQsfowYYmUO68sd2HMWU6ltmTL8SdxW6AW:BY+LdL+4TL8I`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 --help is not a valid command option.
 
 Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n] 

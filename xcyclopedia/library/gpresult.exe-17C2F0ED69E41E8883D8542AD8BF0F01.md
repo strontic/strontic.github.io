@@ -21,7 +21,7 @@ SSDEEP | `3072:KP+sOKvkYU985BhbrSevZwp1kbbvF4dyJbTxJDxf7x+JZx1b+a1D/4Zt+a2Tv2t3:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 GPRESULT [/S system [/U username [/P [password]]]] [/SCOPE scope]
            [/USER targetusername] [/R | /V | /Z] [(/X | /H) <filename> [/F]]
@@ -90,7 +90,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid syntax. Value expected for '/h'.
 Type "GPRESULT /?" for usage.
 

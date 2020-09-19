@@ -21,7 +21,7 @@ SSDEEP | `6144:90TFpCddwYdXaTC8aEwuHAnmf9TBr7k/PMq:9spCdCY9lEIS9TunMq`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: java [-options] class [args...]
            (to execute a class)
    or  java [-options] -jar jarfile [args...]

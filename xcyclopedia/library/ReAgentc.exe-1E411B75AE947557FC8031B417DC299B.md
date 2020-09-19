@@ -21,7 +21,7 @@ SSDEEP | `768:hD/vPgxZ2rKB2rInVAPQ97ACJItUtWP0aJo:hMxZ2rigISS8Cy2sMGo`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Configures the Windows Recovery Environment (Windows RE) and system reset.
 
@@ -50,7 +50,7 @@ REAGENTC.EXE <command> /?.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Configures the Windows Recovery Environment (Windows RE) and system reset.
 

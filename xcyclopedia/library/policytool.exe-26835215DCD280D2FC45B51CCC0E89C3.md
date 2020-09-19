@@ -25,7 +25,7 @@ SSDEEP | `384:sMharTbFLax/OVGLiZrT4eEkZXpynYPLV9+MaDG/IU:LhmpkxErTNE25yQ8DG/IU`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: policytool [options]
 
   [-file <file>]    policy file location
@@ -34,7 +34,7 @@ Usage: policytool [options]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Illegal option: --help
 
 ```

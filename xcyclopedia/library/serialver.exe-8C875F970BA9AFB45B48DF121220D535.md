@@ -21,7 +21,7 @@ SSDEEP | `384:O9bdNt3SyAxBbFHi5A2+nYPLV9+MaDG3utc2d:yu7FHi5AQ8DG3utdd`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid flag --help.
 use: serialver [-classpath classpath] [classname...]
 

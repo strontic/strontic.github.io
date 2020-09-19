@@ -20,7 +20,7 @@ SSDEEP | `6144:u35dcOUy6wE85x/jGZKHCJIquxp/yDyCfFdbcXjy7vqtffrm42mH1t8Uejp/OqEL:
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Qt: Untested Windows version 6.2 detected!
 
 ```

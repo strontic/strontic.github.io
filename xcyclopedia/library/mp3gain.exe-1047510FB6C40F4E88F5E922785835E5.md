@@ -21,14 +21,14 @@ SSDEEP | `3072:HoszI/9Hh6uSeL9blOPQuAkyMt5TXT4SC/EyiO+60weV17CHC:pI/v6uSgCBC/Eyc
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 --help
 Can't open --help for reading
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files (x86)\MusicBee\mp3gain.exe version 1.5.2
 copyright(c) 2001-2009 by Glen Sawyer
 uses mpglib, which can be found at http://www.mpg123.de

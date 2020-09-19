@@ -21,7 +21,7 @@ SSDEEP | `6144:uMIkNIlShrnSqS7+l+THIsvbW6Oa5jrz5VwtYWbxTgRDn:uSIlShrnSqLlHWlrz52
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Parameters:
  -install  to install the service.
  -remove   to remove the service.

@@ -21,7 +21,7 @@ SSDEEP | `384:u9zXIqagu/0Ei6wmsWl5wWJSD1IDBRJtA02l9n1k:CzdG/0T32GI1Pb`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Invalid argument specified: /h
 Usage:
 ScriptRunner.exe

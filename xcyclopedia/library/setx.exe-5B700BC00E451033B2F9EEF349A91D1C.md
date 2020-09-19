@@ -21,7 +21,7 @@ SSDEEP | `768:4mvk3/a/BvQ6WKRdWhCUjc0juXbIbkOKrd/yrO3Xu17K+DZMwfT7CsjiyGwkEAHM:B
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 SetX has three ways of working: 
 
@@ -134,7 +134,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid syntax.
 Type "SETX /?" for usage.
 

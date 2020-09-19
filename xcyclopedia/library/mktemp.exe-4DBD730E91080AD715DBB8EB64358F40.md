@@ -20,7 +20,7 @@ SSDEEP | `768:LnlPsT9hTkRTupJP4GvwjH+iLViqbojCccccccccccccccccccccccccccccccca:D
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/mktemp [OPTION]... [TEMPLATE]
 Create a temporary file or directory, safely, and print its name.
 TEMPLATE must contain at least 3 consecutive 'X's in last component.
@@ -51,7 +51,7 @@ or available locally via: info '(coreutils) mktemp invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 mktemp: unknown option -- h
 Try '/usr/bin/mktemp --help' for more information.
 

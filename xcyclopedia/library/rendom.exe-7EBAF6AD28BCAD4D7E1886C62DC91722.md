@@ -21,7 +21,7 @@ SSDEEP | `3072:4SVuucV13OoScqAU1b8GiQLq/Dy+gXMNqXNS:4SVo13mXb5Vr+gXMNcNS`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft(R) Windows(TM) Active Directory domain rename utility Version 1.5
 Copyright (C) Microsoft Corporation 1991-2006. All Rights Reserved.
 

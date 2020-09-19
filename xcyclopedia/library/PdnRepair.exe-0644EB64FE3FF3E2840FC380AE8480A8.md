@@ -27,7 +27,7 @@ SSDEEP | `384:UhjNjBTnA9z0SD29bEip8ZpHqGb5hikHW:3oSDebEipiR9rik2`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 paint.net Repair Tool
 
 The return code from this utility is 0 (success), 1 (fail), or an MSI error code like ERROR_SUCCESS_REBOOT_REQUIRED (3010).

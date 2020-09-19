@@ -20,7 +20,7 @@ SSDEEP | `3072:N1BNmK6mIA8nufq5seXQQUBITTo2VniHWN8nuX2uR:/fmK6mIA8nuS5sYQpBITMBH
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 > error: unexpected argument "--help"
 > dying...

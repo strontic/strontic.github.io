@@ -21,7 +21,7 @@ SSDEEP | `3072:sRGqquvaEG8NdKcqsMW3Cj181i1SdryEFd7dTlwgn+1A1ZJ23dJ8emtIXPkfHfuO:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 could not open driver, error=5
 Failed to query capabilities [6]
 

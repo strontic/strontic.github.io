@@ -21,7 +21,7 @@ SSDEEP | `384:s01KrTboLJL/MGLiZrvGeEKZXp6nYPLV9+MaDG3:f1WEJnErvrE456Q8DG3`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: klist [[-c] [-f] [-e] [-a [-n]]] [-k [-t] [-K]] [name]
    name	 name of credentials cache or  keytab with the prefix. File-based cache or keytab's prefix is FILE:.

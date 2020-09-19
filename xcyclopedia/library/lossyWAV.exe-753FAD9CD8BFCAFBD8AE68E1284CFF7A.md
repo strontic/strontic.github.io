@@ -21,7 +21,7 @@ SSDEEP | `3072:RPfKByMT/F36ueL5OK3TiK+V8SXoqoS1ExPqCUqZ25:RPfKh/F3S5BDiK+V8SXQxi
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 lossyWAV 1.2.0, Copyright (C) 2007,2008,2009 Nick Currie. Copyleft.
 
 This program is free software: you can redistribute it and/or modify it under

@@ -21,7 +21,7 @@ SSDEEP | `384:beCpDo4g/qHpwwp9svt+j43NmRilpsQodDdXsxAES8Min6qbeWaYWM0i1:PDo4g2ww
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Compares two files or sets of files and displays the differences between
 them
 
@@ -52,7 +52,7 @@ FC /B [drive1:][path1]filename1 [drive2:][path2]filename2
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 FC: Insufficient number of file specifications
 
 

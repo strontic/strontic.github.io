@@ -21,7 +21,7 @@ SSDEEP | `3072:mDmwOBqkFplW0QBgXnCBfzBdYPZ23VDTGNpSVwICI+b:qvXkFpsxCgdYPZ23VDwIC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Help: 
 === Supported Objects ===
@@ -76,7 +76,7 @@ Usage: DfsrAdmin <Object> <Action> [<SubObject>] [<SubAction>]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Failed: 
 The object --help is not a valid object.

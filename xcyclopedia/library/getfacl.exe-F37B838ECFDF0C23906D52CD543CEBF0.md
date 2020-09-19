@@ -20,7 +20,7 @@ SSDEEP | `3072:g9gpvCxdEysaWGI61mHJMSoPUPQeQEdpXhQtTyR8iJMkGBsI4T:g+pvCLFWGYMSoP
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: getfacl [-adn] FILE [FILE2...]
 
 Display file and directory access control lists (ACLs).
@@ -67,7 +67,7 @@ The format for ACL output is as follows:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 getfacl: /h: No such file or directory
 
 

@@ -21,7 +21,7 @@ SSDEEP | `768:d1Bt3SDGP9WE1BfRO7zr9gCWUHtIU9HVweBraJmBKaK:ryiP9N1B5YsOnnNaABKaK`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 tar.exe(bsdtar): manipulate archive files
 First option must be a mode specifier:
   -c Create  -r Add/Replace  -t List  -u Update  -x Extract
@@ -50,7 +50,7 @@ bsdtar 3.3.2 - libarchive 3.3.2 zlib/1.2.5.f-ipp
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
   List:    tar.exe -tf <archive-filename>
   Extract: tar.exe -xf <archive-filename>

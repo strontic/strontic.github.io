@@ -20,7 +20,7 @@ SSDEEP | `768:dnQWnmoW3jtxbtJMVgnYnxFb8cWVhePksKDG3Uf2h:dQW23VjnYXb8cWV4PkstUf`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: fido2-assert -G [-dhpruv] [-i input_file] [-o output_file] device
        fido2-assert -V [-dhpv] [-i input_file] key_file [type]
 

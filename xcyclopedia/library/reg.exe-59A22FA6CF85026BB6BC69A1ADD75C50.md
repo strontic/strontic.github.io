@@ -21,7 +21,7 @@ SSDEEP | `1536:wSZ9WmBPeB8VGCBJyVp/S58/JFWhF6PeH/Yp9q1cmZNp:xpP8sB8Vp/vJFmJ11Z/`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 REG Operation [Parameter List]
 
@@ -56,7 +56,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid Argument/Option - '-help'.
 Type "REG /?" for usage.
 

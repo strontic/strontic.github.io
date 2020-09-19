@@ -21,7 +21,7 @@ SSDEEP | `6144:0kQflATq5Otf7DWNaJux0e/bNQnST/iikGy7QZQPGw9ZexWGH5enh:0LizBeoJuec
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 WMIC is deprecated.
 
@@ -146,7 +146,7 @@ For more information on CLASS/PATH/CONTEXT, type: (CLASS | PATH | CONTEXT) /?
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 help - Alias not found.
 
 ```

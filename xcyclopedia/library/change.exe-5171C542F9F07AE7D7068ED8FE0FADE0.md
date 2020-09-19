@@ -21,13 +21,13 @@ SSDEEP | `384:PyyvwEHdWH1ZMqxdBeEh+9JnXfGHK2aanWZLW:ayv5SVBA9Jn4vG`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 CHANGE { LOGON | PORT | USER }
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 CHANGE { LOGON | PORT | USER }
 

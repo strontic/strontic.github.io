@@ -21,7 +21,7 @@ SSDEEP | `384:TNDKvryYsqXo+YeLvE6nz5awUXOY6q+WbM1kW/:h0G0nLstV6q7M1Z`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 The syntax of this command is:
 
 DFSCMD [options]

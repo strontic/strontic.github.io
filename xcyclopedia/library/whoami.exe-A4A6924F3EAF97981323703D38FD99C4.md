@@ -21,7 +21,7 @@ SSDEEP | `1536:DOG7Cm6WrNJNiQZcQsfpkb+xssmUN7h8QdWNjhuL/2IR21oxMnI:qG7X6eJo2Tb+x
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 WhoAmI has three ways of working: 
 
@@ -104,7 +104,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "WHOAMI /?" for usage.
 

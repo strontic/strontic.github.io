@@ -21,7 +21,7 @@ SSDEEP | `6144:tZcF50g9r2a3AQpcDxlAAcn83ShMhoh8GbGhFN:tJg9rxAccVlA8o2ZX`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Error: Non-numeric input: --help
 

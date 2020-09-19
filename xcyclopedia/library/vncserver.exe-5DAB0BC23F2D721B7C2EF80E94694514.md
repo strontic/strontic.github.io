@@ -21,7 +21,7 @@ SSDEEP | `49152:Us+AiPieC+eXqBfo2dlksuYfNK2P3E5F1T8mfVW+IwjWAIDMFl0H8PA9vat8WtMM
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 VNC(R) Server 6.1.1 (r28093) x64 (May 19 2017 12:39:54)
 Copyright (C) 2002-2017 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
@@ -313,7 +313,7 @@ Agent Parameters:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Bad argument 'help'.  Run with -help for usage.
 
 ```

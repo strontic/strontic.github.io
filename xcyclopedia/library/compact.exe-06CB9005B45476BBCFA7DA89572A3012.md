@@ -21,7 +21,7 @@ SSDEEP | `768:Z7Ryb6dpu6gCRsddJA8LdCrZgPV7gGKJLz9cdlpduo/IjDw7XNImXKN:R1UqsHJA8Z
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Displays or alters the compression of files on NTFS partitions.
 
 COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]

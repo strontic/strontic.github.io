@@ -21,7 +21,7 @@ SSDEEP | `49152:cE9514JiLbcw6I7KkaJVwM/WCetkpNgJwHj85AOBcIv4nqRl:RsJUbcw6kM/WCet
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 !! dropbox: assigning process to named job object dbx4248
 !! dropbox: assigned process to named job object with handle 00000210
 dropbox: loading watchdog

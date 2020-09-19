@@ -21,7 +21,7 @@ SSDEEP | `3072:LP/+YU8tJON0zXWzgS0pR9OSdkr/4Qi07hJpHumBD:/zX1S0xqr/Hi07hrJ`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 BITSADMIN version 3.0
 BITS administration utility.

@@ -21,14 +21,14 @@ SSDEEP | `192:FWO2GW7AYNlv0XtHDLTKpO5pOQ6MuEFyubIDcIW20WZ7aS:p2GwAY/0XtbuODO2Aub
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 [default-pc]
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Displays information about a user on a specified system running the
 Finger service. Output varies based on the remote system.

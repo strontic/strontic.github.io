@@ -21,7 +21,7 @@ SSDEEP | `384:IgA5GX01zlPby6ZjmDZBv0xAX7lWqmWhjlth0F0GftpBjY:IgvaSH4+ii`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
 
 ```

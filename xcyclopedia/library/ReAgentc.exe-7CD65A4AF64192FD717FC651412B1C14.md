@@ -21,14 +21,14 @@ SSDEEP | `384:rvPE/ltosXE6ze4EtxXqXS3LzNhgZBNb6sUqAWyw9As6zssxX1q5+Tu9NC+NqNKX:r
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 This command can only be executed from an elevated command prompt.
 
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 REAGENTC.EXE: Operation failed: 5
 
 REAGENTC.EXE: An error has occurred.

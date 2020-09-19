@@ -21,7 +21,7 @@ SSDEEP | `768:jhvDE20EyZuhDQzXgPGJ4uJqT7/pXkBEz:tg20Ez0zwPGJ4dgE`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 The syntax of this command is:
 

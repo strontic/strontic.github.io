@@ -20,7 +20,7 @@ SSDEEP | `768:KTvUPwbiVBlFnF+Js3hj/+eHI3ajMEsaqSKp1K+LXtjIAHwtMzP:KLn+BlBF+Js3ce
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 ICACLS name /save aclfile [/T] [/C] [/L] [/Q]
     stores the DACLs for the files and folders that match the name
@@ -160,7 +160,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 First parameter must be a file name pattern or "/?"
 
 ```

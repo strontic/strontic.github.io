@@ -21,7 +21,7 @@ SSDEEP | `768:gczFYtcN4HFs+QJp5UWh2/w/FxP9HnCi20b0DhDqG1+i2K:hzmtlnQJbUW8w/FxP1n
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
  NOTE: Cacls is now deprecated, please use Icacls.
 
@@ -68,7 +68,7 @@ SSDEEP | `768:gczFYtcN4HFs+QJp5UWh2/w/FxP9HnCi20b0DhDqG1+i2K:hzmtlnQJbUW8w/FxP1n
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 The system cannot find the file specified.
 
 ```

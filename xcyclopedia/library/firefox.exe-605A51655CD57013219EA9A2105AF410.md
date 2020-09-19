@@ -21,7 +21,7 @@ SSDEEP | `12288:8kboKHxiy2M5q9cKeK5gPxYGZdNzwHJem7OzwHJe5:8y7xiy2MEyxYGZdBwpemIw
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\Program Files\Mozilla Firefox\firefox.exe [ options ... ] [URL]
        where options include:
 

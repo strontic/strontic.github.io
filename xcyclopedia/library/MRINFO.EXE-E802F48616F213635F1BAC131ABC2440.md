@@ -21,7 +21,7 @@ SSDEEP | `384:vTMwKjX6uaSyqF28i/rGTjMfyP/EWj8W:vYFX/+pmjMfMB`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
        

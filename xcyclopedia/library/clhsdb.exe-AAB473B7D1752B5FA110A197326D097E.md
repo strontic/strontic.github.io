@@ -21,7 +21,7 @@ SSDEEP | `192:j+zsyGNDvp85GSqqMCitobmeEpnYe+PjPV9j7mMaDWpHpXss:vyqDy0SqqRiemeEpn
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:  clhsdb [[pid] | [path-to-java-executable [path-to-corefile]] | help | -help ]
            pid:                     attach to the process whose id is 'pid'
            path-to-java-executable: Debug a core file produced by this program
@@ -32,7 +32,7 @@ hsdb>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Opening core file, please wait...
 Unable to open core file
 core:

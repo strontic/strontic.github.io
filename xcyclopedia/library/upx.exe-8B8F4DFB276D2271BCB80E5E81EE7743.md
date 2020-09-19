@@ -21,7 +21,7 @@ SSDEEP | `12288:MWGI81xb937Ez/h4YftwOjSwnS4KMsRm1nrrWt:MtI853u+YfPO2S4sRQat`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
                        Ultimate Packer for eXecutables
                           Copyright (C) 1996 - 2018
 UPX 3.95w       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 26th 2018
@@ -144,7 +144,7 @@ UPX comes with ABSOLUTELY NO WARRANTY; for details visit https://upx.github.io
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
                        Ultimate Packer for eXecutables
                           Copyright (C) 1996 - 2018
 UPX 3.95w       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 26th 2018

@@ -21,7 +21,7 @@ SSDEEP | `6144:3Axd0mvvdMRSw24rNGniPiKZm2SlDbd3vx/kQnlm:qBvvKSw2RiXZm2+DNx/1E`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Copyright (c) Microsoft Corporation. All rights reserved.
 
   hcsdiag <command> [options...]

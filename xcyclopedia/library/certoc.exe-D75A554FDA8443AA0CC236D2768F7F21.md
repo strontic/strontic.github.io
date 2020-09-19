@@ -21,7 +21,7 @@ SSDEEP | `1536:eicU1pleiOsnoGqfEOF11f1mPgKCftrUtWD0i4c1B2T6TvnF9cWT8YlrDbMtLR3s:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Missing command
 
 Usage:

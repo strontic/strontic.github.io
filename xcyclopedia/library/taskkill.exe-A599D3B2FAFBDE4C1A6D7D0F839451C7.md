@@ -21,7 +21,7 @@ SSDEEP | `1536:mr0UyaEu4C1f5FJHLK9eHckIe5VZ67IrujQR4I+9TrxxIzN:y0UBEu4kNysIe5V8M
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 TASKKILL [/S system [/U username [/P [password]]]]
          { [/FI filter] [/PID processid | /IM imagename] } [/T] [/F]
@@ -93,7 +93,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "TASKKILL /?" for usage.
 

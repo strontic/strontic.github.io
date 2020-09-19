@@ -21,7 +21,7 @@ SSDEEP | `384:GpsF5hnvq4mSHhV8yY81eeo4SzIK6jSrnNQDgf2hd4:GpsVnsS/8yYxeoqKgsKUf2h
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 rmid: illegal option: --help
 Usage: rmid <options>
 

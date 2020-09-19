@@ -21,7 +21,7 @@ SSDEEP | `3072:NqmrA6A5XVO/DNT/J7rnOoXAlXZ3ptkeuOwinfX9EJTJx4VniXOFZ9nkTvcx8MxB:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 We have created EULA.TXT in the current folder. 
 Please review this file before agreeing.
 Have you read and do you accept the EULA? Y/N

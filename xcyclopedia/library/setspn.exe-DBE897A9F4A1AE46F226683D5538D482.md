@@ -21,7 +21,7 @@ SSDEEP | `384:eU+GyeKt9QblMixq4onf9981ZPqXhGrLGNcxWVKseQWcaW2Md:eU+G89QblMCPkf99
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\Windows\SysWOW64\setspn.exe [modifiers switch] [accountname] 
   Where "accountname" can be the name or domain\name
   of the target computer or user account
@@ -93,7 +93,7 @@ setspn -T bar -F -Q */daserver
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 FindDomainForAccount: Call to DsGetDcNameWithAccountW failed with return value 0x0000054B
 Could not find account help
 

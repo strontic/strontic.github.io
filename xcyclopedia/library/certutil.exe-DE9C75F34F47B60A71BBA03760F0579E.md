@@ -21,7 +21,7 @@ SSDEEP | `24576:NYLCYvmm3rc2IL6yK0C13VNiEl78YUEI01/ul1wM61MFUiMdQefoCPTvi20:NYLC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Verbs:
   -dump             -- Dump configuration information or file

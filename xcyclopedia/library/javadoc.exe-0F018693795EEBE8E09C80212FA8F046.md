@@ -21,7 +21,7 @@ SSDEEP | `192:iV0bQYRJaKSaWq0DGiPqn/Ego/hyEqGD/9h1FS5tfBWlrfa5A+lI94yK6CYlLWwc:5
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
     javadoc [options] [packagenames] [sourcefiles] [@files]
 where options include:
@@ -198,7 +198,7 @@ option from its value.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 javadoc: error - No source files for package help
 
 ```

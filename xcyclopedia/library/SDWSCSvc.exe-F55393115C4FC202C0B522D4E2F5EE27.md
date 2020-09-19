@@ -21,7 +21,7 @@ SSDEEP | `3072:Rw48JpMi+asPxHsBvl62f1k4TZEbekV2Wla08sCt4PsOpFQ+Npd4ER0a:rWh+hPxV
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Spybot - Search & Destroy 2.1 - Windows Security Center (WSC) Service
 Copyright 2010-2013 Safer-Networking Ltd. All rights reserved.
 

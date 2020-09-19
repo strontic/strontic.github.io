@@ -21,7 +21,7 @@ SSDEEP | `6144:IxbPJ8VKmGuGVM2SG0E+l1kJ9XRSG78l9b0Y3m6+Riil9TU9ZNJwZwSDQI50Vvel:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: curl [options...] <url>
      --abstract-unix-socket <path> Connect via abstract Unix domain socket
      --anyauth       Pick any authentication method
@@ -237,7 +237,7 @@ Usage: curl [options...] <url>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0

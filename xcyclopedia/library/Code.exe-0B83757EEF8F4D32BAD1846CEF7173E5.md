@@ -21,7 +21,7 @@ SSDEEP | `786432:KTK8PZpMkGA0DILjQ/B7aJqk6KpJdBux9i0nks9R3Nr1vSVOAMswjJ:oK8P0kGA
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Warning: 'e' is not in the list of known options, but still passed to Electron/Chromium.
 Warning: 'l' is not in the list of known options, but still passed to Electron/Chromium.
@@ -31,7 +31,7 @@ Warning: 'p' is not in the list of known options, but still passed to Electron/C
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 [7388:2388:0830/170938.053:ERROR:exception_handler_server.cc(534)] ConnectNamedPipe: The pipe is being closed. (0xE8)
 
 ```

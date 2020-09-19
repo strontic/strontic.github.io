@@ -20,7 +20,7 @@ SSDEEP | `768:EYmR8IDsOkVCYrRJdLxgmViqboTHcccccccccccccccccccccccccccccccccBNl:E
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/basename NAME [SUFFIX]
   or:  /usr/bin/basename OPTION... NAME...
 Print NAME with any leading directory components removed.
@@ -47,7 +47,7 @@ or available locally via: info '(coreutils) basename invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 basename: unknown option -- h
 Try '/usr/bin/basename --help' for more information.
 

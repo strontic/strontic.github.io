@@ -21,7 +21,7 @@ SSDEEP | `384:uqA+RvU7+eh8rBbFyW5AenYPLV9+MaDGd:K+9Q+HJFyW5XQ8DGd`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jaotc <options> list
 
   list       A : separated list of class names, modules, jar files
@@ -51,7 +51,7 @@ where options include:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Exception in thread "main" java.lang.InternalError: Can't locate Microsoft Visual Studio amd64 link.exe
 	at jdk.aot@11.0.8/jdk.tools.jaotc.Linker.<init>(Unknown Source)
 	at jdk.aot@11.0.8/jdk.tools.jaotc.Main.run(Unknown Source)

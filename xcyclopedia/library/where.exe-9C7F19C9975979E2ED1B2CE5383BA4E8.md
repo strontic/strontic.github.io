@@ -21,7 +21,7 @@ SSDEEP | `768:tPSuf/amM13jf0X9Zz3qMXs3wp4MqfHX3/YvHnwx+dp:+fQP4JP3/hxGp`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 WHERE [/R dir] [/Q] [/F] [/T] pattern...
 
@@ -69,7 +69,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument or option - '/h'.
 Type "WHERE /?" for usage help.
 

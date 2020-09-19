@@ -20,7 +20,7 @@ SSDEEP | `768:2JIy8Ps1F6gapuUPaTSPqNLSc3f18iFViqboHWcccccccccccccccccccccccccu:2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/uniq [OPTION]... [INPUT [OUTPUT]]
 Filter adjacent matching lines from INPUT (or standard input),
 writing to OUTPUT (or standard output).
@@ -60,7 +60,7 @@ or available locally via: info '(coreutils) uniq invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 uniq: unknown option -- h
 Try '/usr/bin/uniq --help' for more information.
 

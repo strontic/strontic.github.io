@@ -21,7 +21,7 @@ SSDEEP | `768:x0twZ+bFWzclX3uV/+YvdT7iwrZVFx4ZVrjqe6td2dIpg:xj+b4olX3C+AdT7iw1VF
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 USAGE:
 /SetRealm <DnsDomainName>

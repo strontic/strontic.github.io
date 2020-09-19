@@ -21,7 +21,7 @@ SSDEEP | `3072:3QHO6eka+uLdDoB1IkX3dnuLuHfA4+0dfiUCDg6OmKreBGT3TsZNfc:3z6eXDoB17
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Bcdboot - Bcd boot file creation and repair tool.
 

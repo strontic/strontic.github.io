@@ -20,7 +20,7 @@ SSDEEP | `98304:H319LoSl9OSzbUFa9KNVTxO4LR0IFpfRnVKyHb6BXHAMBjN+hcx18wl16CPJTu:v
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 PKSFX(R)  Version 2.50  FAST!  Self Extract Utility for Windows 95/NT 4-15-1998
 Copyright 1989-1998 PKWARE Inc.  All Rights Reserved. Shareware Version
 PKZIP Reg. U.S. Pat. and Tm. Off.
@@ -53,7 +53,7 @@ More - Space for next screen, Enter for next line, Esc to abort
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 
 PKZIP: (E4) Unknown or illegal option - ?

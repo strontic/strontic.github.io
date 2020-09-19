@@ -25,7 +25,7 @@ SSDEEP | `768:xx507g0w/a5LDei5BCEUyVbVNYVl4NGB51gF:xx5Pv/aLDvCEdbjYVl4NGB5+`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Loaded exchndl.dll
  Setting exchndl.dll LogFile to C:\Users\user\AppData\Local\Temp\pidgin.RPT
  Setting exchndl.dll DebugInfoDir to C:\program files (x86)\Pidgin\pidgin-2.14.1-dbgsym
@@ -52,7 +52,7 @@ Usage: C:\program files (x86)\Pidgin\pidgin.exe [OPTION]...
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files (x86)\Pidgin\pidgin.exe: invalid option -- e
 
 ```

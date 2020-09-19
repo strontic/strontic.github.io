@@ -21,7 +21,7 @@ SSDEEP | `3072:RDiJGjue2OcPmRtzG+22aXcIsXSbsSsrxmqTBfKSyKm7IwB42lFs:RDiptO1RBG+X
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:  C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options

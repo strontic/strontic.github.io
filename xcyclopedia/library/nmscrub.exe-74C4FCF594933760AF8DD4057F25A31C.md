@@ -20,7 +20,7 @@ SSDEEP | `3072:LiAlsh/sksho2pHumpicZopDT69LGsCda+bZcmaYoldhTM7PRqH8hJY:LiAl2/sks
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 VmSwitch is loaded
 VmSwitch initialization is complete
 Service 'vmms' does not exist

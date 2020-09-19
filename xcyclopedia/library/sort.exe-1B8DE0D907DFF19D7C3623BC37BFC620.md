@@ -21,7 +21,7 @@ SSDEEP | `384:9katLqx6gT1M/EUCcQjo6+GHQO/R0eZeEqSCy0ThEmOfWXnWuju:9htAchQjmGweeV
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 
 
@@ -611,7 +611,7 @@ WindowsUpdate.20200830.142747.121.1.etl
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid switch.
 
 

@@ -20,7 +20,7 @@ SSDEEP | `1536:0qWEE6u+TWzKRy5d8nfUf6tWAPRE/CUN+e0Epk:eD3n83tnPR4C6+e0uk`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Utility to generate LibreOffice gallery files
 
 using: gengal --name <name> --path <dir> [ --destdir <path> ]
@@ -42,7 +42,7 @@ options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Work on gallery ''
 Existing themes: 0
 Existing themes: 1

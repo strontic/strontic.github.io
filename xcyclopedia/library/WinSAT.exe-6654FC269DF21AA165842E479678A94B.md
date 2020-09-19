@@ -21,7 +21,7 @@ SSDEEP | `49152:VRlzGrhju/2WnULOzka2HXTETmqYmq1dKwdfU2bECbe:tAMVfO1DFE/`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Windows System Assessment Tool
 
@@ -164,7 +164,7 @@ OTHER COMMAND LINE OPTIONS :
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error: Unable to run inside of a Virtual Machine.  Please try again running directly on the native hardware.
 
 ```

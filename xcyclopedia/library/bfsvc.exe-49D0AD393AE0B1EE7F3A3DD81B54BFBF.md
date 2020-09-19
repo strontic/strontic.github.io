@@ -21,7 +21,7 @@ SSDEEP | `1536:Qc6e7U9ENdy1qvblmlg7YgEXrP4lqRm3EWuCgzJ9vFLewg2b:Q8E8vblwjXjtm3Sv
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 BFSVC Warning: Failed to determine source OS version.
 BFSVC Error: Failed to validate boot manager checksum (help\PCAT\bootmgr)! Error code = 0xc1
 BFSVC Error: ServicingBootFiles failed. Error = 0xc1

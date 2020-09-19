@@ -21,7 +21,7 @@ SSDEEP | `3072:0mger10gqFAuru5LiElSZMuNuFfllBESl3wU+R2O2R3u+A6Rb5nV+7EAatmXs:VUg
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 SCHTASKS /parameter [arguments]
 
@@ -60,7 +60,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '-help'.
 Type "SCHTASKS /QUERY /?" for usage.
 

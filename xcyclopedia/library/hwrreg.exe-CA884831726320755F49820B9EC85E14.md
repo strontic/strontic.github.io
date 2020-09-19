@@ -21,7 +21,7 @@ SSDEEP | `3072:9chRQFLQSXRKC9TPN/cVRZl31qbydPlJReBrYWQgbmpQJ5GtCmY2lZmVC:rRRh1uL
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 USAGE:
   hwrreg [-check]
          [-lang <locale>]

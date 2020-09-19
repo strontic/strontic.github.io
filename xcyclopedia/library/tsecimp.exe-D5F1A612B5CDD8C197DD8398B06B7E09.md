@@ -21,7 +21,7 @@ SSDEEP | `384:oLanrYucAPr9nwcZghaPLpBYCyG5yY2JXn5fztwrY8ozoOWqv4WRKp8+onQrw8:YOn
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft Windows(TM) TAPI Security File Importer
 
 The syntax of this command is:

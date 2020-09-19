@@ -21,7 +21,7 @@ SSDEEP | `768:ZXNZZo0h/uuk9rIyeZrc35mvI++uP9w7l03VXQdr+gT8RdU:ZdZZo0h/uuk9rIycQM
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: "CIDiag.exe /start", "CIDiag.exe /stop <outputpath>", or "CIDiag.exe /stop /nologs <outputpath>"
 
 ```

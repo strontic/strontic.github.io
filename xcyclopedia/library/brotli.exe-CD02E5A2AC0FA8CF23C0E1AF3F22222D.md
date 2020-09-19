@@ -20,7 +20,7 @@ SSDEEP | `12288:uLXN5VcseBhzCZxj99yqoeGAHhly7XTw05nmZfRR8SnGhRO:QluhzCZxj9ToeGAj
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: brotli.exe [OPTION]... [FILE]...
 Options:
   -#                          compression level (0-9)

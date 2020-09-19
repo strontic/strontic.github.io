@@ -20,7 +20,7 @@ SSDEEP | `6144:otB159jXJC0wYv+9Aeoym9TuKVEUVKC8i4KpO4JQz:otr59jXJC0wYvWA1lR2IYif
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
 
 SYNOPSIS
@@ -40,7 +40,7 @@ OPTIONS
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 WARNING: package javax.jnlp not in java.desktop
 WARNING: package sun.awt.X11 not in java.desktop
 

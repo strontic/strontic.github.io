@@ -21,7 +21,7 @@ SSDEEP | `192:ysoA8sH+/Ew9T1LHJBAPLXXeRp/wxmDDhz46PhOn/jAth2GFpE198mNW8UW:boF9Z1
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Prints a text file.
 
 PRINT [/D:device] [[drive:][path]filename[...]]

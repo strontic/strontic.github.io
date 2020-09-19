@@ -21,7 +21,7 @@ SSDEEP | `384:Ug5VC14y5FqaPDONbolmoznbvGll6rk0/jnU/jw16PZNWRh/W:ohevCljbvgkk0bnU
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Replaces files.
 
 REPLACE [drive1:][path1]filename [drive2:][path2] [/A] [/P] [/R] [/W]
@@ -46,7 +46,7 @@ REPLACE [drive1:][path1]filename [drive2:][path2] [/P] [/R] [/S] [/W] [/U]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid switch - --help
 
 ```

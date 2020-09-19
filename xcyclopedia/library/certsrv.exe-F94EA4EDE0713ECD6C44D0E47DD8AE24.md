@@ -21,7 +21,7 @@ SSDEEP | `12288:fZ44+N/GN5nA6Pvd4+RapcNYcCyvoOntiCROaXjFQ2ju:fN8IA6Pvd4+UcNYcrAO
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
     certsrv [Options]
 

@@ -21,7 +21,7 @@ SSDEEP | `3072:YD5yF00+oM7uvvaj2cnNSxwmmaK42n5O5BVXW9C5l7cSxVN/fBHmxe8LttfVLh:Cm
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Windows Events Command Line Utility.
 
 Enables you to retrieve information about event logs and publishers, install
@@ -80,7 +80,7 @@ wevtutil COMMAND /?
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Command help is not supported.
 The parameter is incorrect.
 

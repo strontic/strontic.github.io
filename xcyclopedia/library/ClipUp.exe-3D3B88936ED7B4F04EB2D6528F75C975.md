@@ -21,7 +21,7 @@ SSDEEP | `24576:y22rikDzqNUGWO+JlEE1RpSGyyJwrygkeH0Qpp+zw:yzVDeU5O+kJlrseRb`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Done.
 C:\Windows\system32\ClipUp.exe Usage: 
 -?/-h	This help menu
@@ -40,7 +40,7 @@ Done.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Failed! Error 0x80070057.
 
 ```

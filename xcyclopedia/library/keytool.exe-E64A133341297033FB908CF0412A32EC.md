@@ -21,7 +21,7 @@ SSDEEP | `192:NH9yTnTZd8Kho+IKEfoE+weEf4yK6CYlLWwsUIHSXG4xE7ia9sgfxIZH8:NHSwKKKN
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Illegal option:  help
 Key and Certificate Management Tool
 

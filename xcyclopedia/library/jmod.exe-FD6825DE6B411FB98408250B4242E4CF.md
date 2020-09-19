@@ -21,7 +21,7 @@ SSDEEP | `384:7EbdNt3yyvpaAABbFOO5AdqK6jSCwhrSZrPDgf2hw:8O+b+FOO5PKgarS9PUf2hw`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jmod (create|extract|list|describe|hash) <OPTIONS> <jmod-file>
 
 Main operation modes:

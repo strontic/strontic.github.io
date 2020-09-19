@@ -21,7 +21,7 @@ SSDEEP | `384:xkqy2KUDuQAi1KVf8JWN00KIPyeBQekXMkPGWDWQzHiWeaXq0lDf2Bh7/oSXkoQ3:x
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 The syntax of this command is:
 

@@ -21,7 +21,7 @@ SSDEEP | `384:UZgbdNt3Sy2LBbFn85AgbnYPLV9+MaDGdyE:NuLFn85HQ8DGdyE`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Warning: The pack200 tool is deprecated, and is planned for removal in a future JDK release.
 
@@ -80,7 +80,7 @@ Warning: The pack200 tool is deprecated, and is planned for removal in a future 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:  pack200 [-opt... | --option=value]... x.pack[.gz] y.jar
 (For more information, run pack200 --help .)
 

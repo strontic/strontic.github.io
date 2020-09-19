@@ -21,7 +21,7 @@ SSDEEP | `6144:5M4pWq00rPuUVh+pBLW+1b46zdscUsox6xC:bWqluULJi46zds5sC`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225.
 
 ```

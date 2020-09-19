@@ -20,7 +20,7 @@ SSDEEP | `6144:f1kf4r82JLpm3UNS4xFBDb2O7fcCnDtie5N7Oxtzf5W9vt:f1kQfJLpm3UNjZTN7s
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Could not open a connection to your authentication agent.
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `24576:tIWadWBl6V3k5I7EfeVxcfNyjGWLnL1XK92NqGkw+qLrZ8Kp:KPsBl6V3k5I7Efe
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 This program requires administrator privileges.
 
 ```

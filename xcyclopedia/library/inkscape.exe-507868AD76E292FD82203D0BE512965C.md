@@ -23,7 +23,7 @@ SSDEEP | `1536:rJj/GWUspbjg1b1bnsn4fH/4xGA6uaGSXS1DNBhzgVDkuHAuKu9uSgztFZze:NjTb
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   org.inkscape.Inkscape [OPTION] file1 [file2 [fileN]]
 
@@ -110,7 +110,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Missing argument for -h
 
 ```

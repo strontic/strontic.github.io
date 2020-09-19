@@ -21,7 +21,7 @@ SSDEEP | `384:DRG4uefNzVpqIuf+N22emFmNdlfATsLS3FsOWIjW:AJeFV8FNNw7FsY`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 --help is an invalid parameter.
 ---- Commands Supported ----
 

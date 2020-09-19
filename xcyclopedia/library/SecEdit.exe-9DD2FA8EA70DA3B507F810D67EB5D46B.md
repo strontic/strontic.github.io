@@ -21,7 +21,7 @@ SSDEEP | `768:zrQ3EZ8qSNqD7zQzXEPGDuYJqT7/pXkI:/TZ8qSCEzUPGDujV`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 You do not have sufficient permissions to perform this command.  Make sure that you are running as the local administrator or have opened the command prompt using the 'Run as administrator' option.
 

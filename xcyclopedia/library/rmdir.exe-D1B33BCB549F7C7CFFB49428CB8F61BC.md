@@ -20,7 +20,7 @@ SSDEEP | `1536:mJnsN8yr7pmmS6+CJmjFc7J3wFhQBNgaQ8EpK2ldAbI9JkwWuFPy2Ufvk:mJsN8qp
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/rmdir [OPTION]... DIRECTORY...
 Remove the DIRECTORY(ies), if they are empty.
 
@@ -41,7 +41,7 @@ or available locally via: info '(coreutils) rmdir invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 rmdir: unknown option -- h
 Try '/usr/bin/rmdir --help' for more information.
 

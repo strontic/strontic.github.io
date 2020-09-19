@@ -21,7 +21,7 @@ SSDEEP | `768:9kE3fnX1q73OXNdvKCKIu/6F7EMwrY/I3Pf11c93IQ+n7nQ4JIxzI/GPWT+2J:iIX0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Cannot run standalone
 
 ```

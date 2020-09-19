@@ -23,7 +23,7 @@ SSDEEP | `768:ME1Y9PU0kKONIYKDig6SVJbEipiR9riDr:z1YVU0xxYKDigpVJbEipiPW3`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 8/30/2020 5:12:58 PM - Opening log
 8/30/2020 5:12:58 PM - args[0] = --help
 8/30/2020 5:12:58 PM - args.Length was less than 5 -- exiting

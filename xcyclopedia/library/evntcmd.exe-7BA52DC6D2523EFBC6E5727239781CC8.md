@@ -21,7 +21,7 @@ SSDEEP | `384:5/Yh/M+Si/mcPYgnaffFOIwKNlHXjTfSQvdqnWgrWo:pYGW/mK9aXYsTjTZdw`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) Event To Trap Translator; Configuration Tool 
 Copyright (c) Microsoft Corporation.  All rights reserved.
 

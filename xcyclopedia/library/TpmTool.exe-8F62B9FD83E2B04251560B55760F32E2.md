@@ -20,7 +20,7 @@ SSDEEP | `6144:GsnCbduJJtsDXN2DMc5vP4LmmILq9j4zPJjHf/2BVurHH:GHaADcDKymI+9j47JjV
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description:
     This utility can be used to get information about the Trusted Platform Module (TPM).
     For up-to-date documentation, please go to https://aka.ms/tpmtool

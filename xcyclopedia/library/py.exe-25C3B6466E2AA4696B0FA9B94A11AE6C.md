@@ -21,7 +21,7 @@ SSDEEP | `24576:bOPUYEi+1u4zZdc0o98Bx4tSVuUXG4fM+hGlx:ER4zZdMLO7U+hwx`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Python Launcher for Windows Version 3.8.5150.1013
 
 usage:
@@ -137,7 +137,7 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
   File "/h", line 1
 SyntaxError: Non-UTF-8 code starting with '\xa5' in file /h on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 

@@ -21,7 +21,7 @@ SSDEEP | `768:3tosHsyociq2KK0Mqqvgz1QoL7JTHcs7z9JGBphb7idM8UOa5:dosHr3f7g+QoHx8s
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 pwlauncher.exe - Windows To Go startup options command-line tool.
 
 The pwlauncher.exe command-line tool is used to query or change your Windows To

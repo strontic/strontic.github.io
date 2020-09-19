@@ -21,7 +21,7 @@ SSDEEP | `6144:ON3c/dVFQtQDneFIrMZxhxm1JjzIpx7YOAr:ON3clXLDP4UznIz7YF`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 BCDEDIT - Boot Configuration Data Store Editor
 

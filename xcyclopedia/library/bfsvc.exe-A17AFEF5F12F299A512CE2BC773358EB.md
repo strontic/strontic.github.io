@@ -21,7 +21,7 @@ SSDEEP | `1536:GqADigBLfAx6v44MEX3p5L5h1zJz8RI+V2K1ODVtwPPae7TgU3VQ:2DRAB4h15h1z
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 BFSVC Error: Failed to get partition name. Status = 0xc0000452
 BFSVC Error: Failed to get system partition! Last Error = 0x3bc3
 BFSVC Error: ServicingBootFiles failed. Error = 0x3bc3

@@ -21,7 +21,7 @@ SSDEEP | `3072:qVSiRmzT/b1a+PKHVZzwnVS570M9kdatGCO+xmBc+hMPhPsx:q8x3KHVZ8Vs7nyat
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 BitLocker Drive Preparation Tool version 10.0.18362
 Copyright (C) 2013 Microsoft Corporation. All rights reserved.
 

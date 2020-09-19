@@ -21,7 +21,7 @@ SSDEEP | `192:ziiU4v5m0us/ppTgY1Qqp8DNt2rYvk2TWlnWVMcSkt:z9jv5QCptgiQqp4212TWlnW
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Access Denied as you do not have sufficient privileges or
 the disk may be locked by another process.
 You have to invoke this utility running in elevated mode

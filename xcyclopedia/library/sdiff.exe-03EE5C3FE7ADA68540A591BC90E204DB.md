@@ -20,7 +20,7 @@ SSDEEP | `1536:ceKR3OI/kd0lb6U5xGKH0D9GDWB7dFuKFUf:ceYJ/wirxNEVhdFuK`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/sdiff [OPTION]... FILE1 FILE2
 Side-by-side merge of differences between FILE1 and FILE2.
 
@@ -61,7 +61,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/sdiff: missing operand after 'help'
 /usr/bin/sdiff: Try '/usr/bin/sdiff --help' for more information.
 

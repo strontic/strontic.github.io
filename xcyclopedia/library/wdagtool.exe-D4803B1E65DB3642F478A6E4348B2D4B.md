@@ -20,7 +20,7 @@ SSDEEP | `1536:P0tPSGE8+SBNdGLRVmD3L/M4Z1umO3VpOiVE1Kq3KrT:cK+BNdGLRW37M4imO3VpF
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 WDAGTool.exe [options]
     Available options:
         cleanup [flags] :     Cleans up the container and data indicated

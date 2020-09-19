@@ -21,7 +21,7 @@ SSDEEP | `1536:QJHREH44NN63rS+PYbX7XDB9F3KyqacVubBkks2NztFxUJr23NrJn:lHHN67SlrWa
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft iSCSI Initiator Version 10.0 Build 19041
 
 iscsicli

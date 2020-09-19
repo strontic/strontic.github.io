@@ -20,7 +20,7 @@ SSDEEP | `3072:yRpDGWktD8mKjlry9BJj40p9EeenSKg8Qn9axvJPoBEI3ravQ:sdaKpGX9x9CnSKg
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\program files\PeaZip\res\upx\strip.exe [-vVsSpgxX] [-I bfdname] [-O bfdname] [-F bfdname] [-R section]
        [--input-target=bfdname] [--output-target=bfdname] [--target=bfdname]
        [--strip-all] [--strip-debug] [--strip-unneeded] [--discard-all]
@@ -33,7 +33,7 @@ Report bugs to bug-gnu-utils@gnu.org
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files\PeaZip\res\upx\strip.exe: invalid option -- h
 Usage: C:\program files\PeaZip\res\upx\strip.exe [-vVsSpgxX] [-I bfdname] [-O bfdname] [-F bfdname] [-R section]
        [--input-target=bfdname] [--output-target=bfdname] [--target=bfdname]

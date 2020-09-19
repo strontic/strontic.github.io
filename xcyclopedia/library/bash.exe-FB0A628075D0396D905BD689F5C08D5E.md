@@ -21,7 +21,7 @@ SSDEEP | `6144:HzOZYndZkEXDvoc9qQEbjjOF59xXpJ2CnD8SWLWY:6ZYdZRXDvCQmjcFdD8S`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Windows Subsystem for Linux has no installed distributions.
 Distributions can be installed by visiting the Microsoft Store:
 https://aka.ms/wslstore

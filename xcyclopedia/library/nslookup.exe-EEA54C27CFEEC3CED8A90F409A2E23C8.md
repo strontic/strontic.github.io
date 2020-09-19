@@ -21,7 +21,7 @@ SSDEEP | `1536:5yiuh8+PLrAwyzuxzTC5vLmDfaUXR1QZF6hg:8Z8+PLrAwySxzTyzmDfacYF6h`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Default Server:  UnKnown
 Address:  1.1.1.1
 
@@ -29,7 +29,7 @@ Address:  1.1.1.1
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
    nslookup [-opt ...]             # interactive mode using default server
    nslookup [-opt ...] - server    # interactive mode using 'server'

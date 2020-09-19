@@ -21,7 +21,7 @@ SSDEEP | `3072:AOP1GQlPB5MwJtDNCjiimHxEVfNAzMYOzycVbaVlc2C+FtGeZs2TLxl7KJ39vxOX:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft Windows Performance Recorder Version 10.0.14393 (CoreSystem)
 Copyright (c) 2015 Microsoft Corporation. All rights reserved.
@@ -51,7 +51,7 @@ Copyright (c) 2015 Microsoft Corporation. All rights reserved.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 	Invalid command syntax.
 

@@ -21,7 +21,7 @@ SSDEEP | `384:eaW09CP88q3BakXPOLlMtFb5LzE0zSWZEWE:eanmqttFPzN`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Enable, disable, or drain session logins.
 

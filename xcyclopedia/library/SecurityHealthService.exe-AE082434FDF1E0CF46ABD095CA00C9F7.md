@@ -21,7 +21,7 @@ SSDEEP | `24576:7AVvj3VjZ6kEXpY9ExRnHS1wRhZJDuELAG:7koRftJDuELAG`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Unknown switch.
 
 ```

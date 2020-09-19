@@ -21,7 +21,7 @@ SSDEEP | `49152:ZleWvsxXgsirVYXwiAP/P9TZ7krsuBhT1:AZakLBH`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 [0815/134248.238:ERROR:setup_main.cc(523)] Already installed version 84.0.4147.125 at system-level conflicts with this one at user-level.
 [0815/134248.238:ERROR:persistent_histogram_storage.cc(121)] Could not write "SetupMetrics" persistent histograms to file as the storage directory does not exist.
 

@@ -20,7 +20,7 @@ SSDEEP | `1536:oUqpQA50nmB+w+HJVAHnY3gK/vawb30IIyhPJV4dZTZ6cegSfVWTxvoEequ:ojpQA
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 The system cannot find the file specified.
 
 ```

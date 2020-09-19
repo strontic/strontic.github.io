@@ -21,7 +21,7 @@ SSDEEP | `384:wD0qM6tUW8+FVtcO0H1dc6I1SpyyhpNdTw6yOod56o+ZiyLw8h52o5EIW9LrWue:G0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description:  This command moves or renames an object within the directory.
 
 Syntax:     dsmove <ObjectDN>
@@ -108,7 +108,7 @@ dsmove succeeded
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 dsmove failed:Value for 'Target object for this command' has incorrect format.
 type dsmove /? for help.
 ```

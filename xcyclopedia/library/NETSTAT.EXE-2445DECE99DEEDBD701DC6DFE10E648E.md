@@ -21,7 +21,7 @@ SSDEEP | `768:KCypZ5fjx6DnzLknmAWAhRZpU6OqPN5ZDQgdiyxuC:RnemAWAhy63l5Z0wiyxuC`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Displays protocol statistics and current TCP/IP network connections.
 

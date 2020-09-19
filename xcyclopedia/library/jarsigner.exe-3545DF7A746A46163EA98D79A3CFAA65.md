@@ -21,7 +21,7 @@ SSDEEP | `384:tubdNt3Sy/ZBbFrw5A2inYPLV9+MaDGzJ5:YusFrw5YQ8DGz7`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: jarsigner [options] jar-file alias
        jarsigner -verify [options] jar-file [alias...]
 
@@ -88,7 +88,7 @@ Usage: jarsigner [options] jar-file alias
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Please specify alias name
 
 ```

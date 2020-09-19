@@ -21,7 +21,7 @@ SSDEEP | `768:0jlFXXvALZMS57p9SZEMOdW1RyMCMgBcL0yN5C7V2NMr6y5B1TfRx5jq5d:+lJf+MS
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Invalid Parameter: Input file name required
 
 CSV Directory Exchange

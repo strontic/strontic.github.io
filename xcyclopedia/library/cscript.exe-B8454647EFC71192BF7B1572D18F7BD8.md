@@ -21,7 +21,7 @@ SSDEEP | `3072:M4j8J582MJlfBNezPd2002mm0R/EOhjULtqqM6IZxtt:Nj8olPfBNeT40DmmcUqqM
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) Windows Script Host Version 5.812
 Copyright (C) Microsoft Corporation. All rights reserved.
 

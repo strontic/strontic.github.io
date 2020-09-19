@@ -21,7 +21,7 @@ SSDEEP | `768:XdcgSIZE45pVrLSoYMmWyDwK895aPJ+dP:N9SgVrqy5aAdP`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Display information about users logged on to the system.
 
 QUERY USER [username | sessionname | sessionid] [/SERVER:servername]
@@ -35,7 +35,7 @@ QUERY USER [username | sessionname | sessionid] [/SERVER:servername]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Display information about users logged on to the system.
 

@@ -21,7 +21,7 @@ SSDEEP | `384:s6x3Rbvp8/66Zr0F8eECZXp5nYPLV9+MaDGS:xx38yMr0F5EQ55Q8DGS`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Jarfile does not exist: --help
 Usage: extcheck [-verbose] <jar file>
 

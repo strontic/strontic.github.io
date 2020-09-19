@@ -21,7 +21,7 @@ SSDEEP | `1536:PGfi0CgBOBCofRgb68puZ6Z1Zlft9MrIZxoCzhdQuB+t7IJgta4UaTmuUW3hWf:PG
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\program files (x86)\Common Files\Apple\Mobile Device Support\AppleMobileBackup.exe
 
 Action (one required):

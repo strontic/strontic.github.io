@@ -20,7 +20,7 @@ SSDEEP | `768:mzvG6rM8tyyd40I4outfJ/p2VRhNiqbozt+WtfkPhDGYUf2h4:oG6PtysuazcRG+Wt
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 For more information on a specific command, type HELP command-name
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
@@ -123,7 +123,7 @@ For more information on tools see the command-line reference in the online help.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 env: unknown option -- h
 Try '/usr/bin/env --help' for more information.
 

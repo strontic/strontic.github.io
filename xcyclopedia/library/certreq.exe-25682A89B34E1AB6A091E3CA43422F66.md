@@ -25,7 +25,7 @@ SSDEEP | `6144:oMX4IKyx+7VKP/v7MH5GNB1P1rTcSlsB/RMmwpJ9sr7GLhM1l:v4Ibx+7U3TKGfls
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   CertReq -?
   CertReq [-v] -?

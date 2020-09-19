@@ -21,7 +21,7 @@ SSDEEP | `1536:cHYVF9eMZ90tVijWXzLgERSVQIOslzvwxP+ChQEEHuio+Kt26atr4H/F:kk39OnVc
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft r Logman.exe (10.0.19041.1)
 

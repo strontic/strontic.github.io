@@ -21,7 +21,7 @@ SSDEEP | `384:cOvq2p3sGLXV1WR31AHZqOmzvl2RygjWQGBrWSi1Wm3:c897VA8kjl07jxGg`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Report location -help
 
 ```

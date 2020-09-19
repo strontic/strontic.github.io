@@ -21,7 +21,7 @@ SSDEEP | `3072:5uPZdugyxE/Co5VMWT/zJejdrRrSH1rTvEXiEvFxG+5wIoJTrZPOdUoSn4g0LGJX:
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage: nltest [/OPTIONS]
 
 

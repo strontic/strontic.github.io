@@ -21,7 +21,7 @@ SSDEEP | `384:Hk8ZkDFqPAkJ5b4EjIuUdo0XcM5VLAtjz+8Xp5Q/WK+SWk6R:HTsiv94EjIndo0X7A
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: C:\Windows\SysWOW64\shutdown.exe [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
     [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
 
@@ -107,7 +107,7 @@ E   	5	20	Loss of network connectivity (Unplanned)
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Hibernation is not enabled on this system. You must enable hibernation in order to use the -h option.(126)
 
 ```

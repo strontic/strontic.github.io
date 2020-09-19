@@ -21,7 +21,7 @@ SSDEEP | `384:bXk2Vxev12I9QLYfIR9wI+qTgQjgkvtJirWM:beN2I9QuI/5Je`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 HTTP User Access Logging v1.0
 Date: Sunday, August 30, 2020 2:55:22 PM

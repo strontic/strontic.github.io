@@ -20,7 +20,7 @@ SSDEEP | `1536:XMVm2UMsfCk0AZe2Q6GkeeeeeeeeeeeeeeUeeeeeeeeeeeeeeeeeeeeeeeeJeeeC:
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/b2sum [OPTION]... [FILE]...
 Print or check BLAKE2 (512-bit) checksums.
 
@@ -58,7 +58,7 @@ or available locally via: info '(coreutils) b2sum invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/b2sum: failed to set file descriptor text/binary mode: Bad file descriptor
 
 ```

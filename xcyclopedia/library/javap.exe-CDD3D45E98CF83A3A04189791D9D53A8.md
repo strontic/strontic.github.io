@@ -21,7 +21,7 @@ SSDEEP | `384:hEraVNerDn3iqseE/nYPLV9+MaDGgmpS5H:qrmevSqJE/Q8DGgfF`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: javap <options> <classes>
 where possible options include:
   -help  --help  -?        Print this usage message
@@ -45,7 +45,7 @@ where possible options include:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Error: invalid use of option: -h
 
 ```

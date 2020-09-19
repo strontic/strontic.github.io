@@ -20,7 +20,7 @@ SSDEEP | `1536:ruEsO+JDkdIxAUgBWWVNaipiPWbaikhWXiV:BcDkdIxAUgc+Nfm0mhgo`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: gimp-debug-tool-2.0 [PROGRAM] [PID] [REASON] [MESSAGE] [BT_FILE] ([LAST_VERSION] [RELEASE_TIMESTAMP])
 
 ```

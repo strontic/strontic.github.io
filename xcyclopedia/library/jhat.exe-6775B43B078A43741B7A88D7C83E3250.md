@@ -21,13 +21,13 @@ SSDEEP | `192:WfFyTHTkq9Km5IIKEfofX8eEY4yK6CYlLWwsUD4OcBVa9sgfxIZHiN:Wfq7KQKNfX8
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Reading from --help...
 
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:  jhat [-stack <bool>] [-refs <bool>] [-port <port>] [-baseline <file>] [-debug <int>] [-version] [-h|-help] <file>
 
 	-J<flag>          Pass <flag> directly to the runtime system. For

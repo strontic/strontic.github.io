@@ -21,7 +21,7 @@ SSDEEP | `384:xlqkwafU/pK5j53eh7MG3nEaZG6uftggJiDwC+m4vNDWccW:L85Ad53ehzEaHctggk
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Compares the contents of two files or sets of files.
 
 COMP [data1] [data2] [/D] [/A] [/L] [/N=number] [/C] [/OFF[LINE]] [/M]
@@ -41,7 +41,7 @@ To compare sets of files, use wildcards in data1 and data2 parameters.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Name of second file to compare: 
 ```
 

@@ -21,7 +21,7 @@ SSDEEP | `192:DH9yTHTLOKsMIKEfocI8XeExb4yK6CYlLWwsUOcV4strIa9sgfxIZHh:DHSGKoKNcI
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 rmid: illegal option: --help
 Usage: rmid <options>
 

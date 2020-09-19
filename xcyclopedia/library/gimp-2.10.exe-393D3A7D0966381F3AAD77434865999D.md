@@ -25,7 +25,7 @@ SSDEEP | `196608:Y4a5vuj5zo56VbLIMYeNnSfUPiPXPBlQxr:Y58omQleNnSfUPiPXPBlQxr`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
   gimp-2.10.exe [OPTION] [FILE|URI...]
 

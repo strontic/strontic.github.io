@@ -20,7 +20,7 @@ SSDEEP | `768:DqbH47yZGkpHZw0fx+2GnA6uC7Gjrpzdr+kI47X+9jHoS+Bs6lnhNPEXWJjb:YYKGk
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 bzip2, a block-sorting file compressor.  Version 1.0.8, 13-Jul-2019.
 
    usage: bzip2.exe [flags and input files in any order]

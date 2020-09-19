@@ -20,7 +20,7 @@ SSDEEP | `384:p89Wqb7QKigh8nad1nxtIhz10ze+dGZ36NizAhFFwmE10+6:pOQKz8g7tUz128Z36c
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 gpgme-w32spawn: internal error
 gpgme-w32spawn: failed to delete --help: ec=2
 

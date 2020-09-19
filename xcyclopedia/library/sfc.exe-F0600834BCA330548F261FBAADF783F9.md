@@ -21,7 +21,7 @@ SSDEEP | `1536:hO1eY5wNp9njw3I8QQ/Q/CZ2ujdQsGyhP:m35J/0j+GsP`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft (R) Windows (R) Resource Checker Version 6.0
 Copyright (C) Microsoft Corporation. All rights reserved.

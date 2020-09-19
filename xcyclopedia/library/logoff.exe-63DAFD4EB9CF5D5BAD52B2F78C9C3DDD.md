@@ -21,7 +21,7 @@ SSDEEP | `384:jrh2V3nRO3qQRC9QgstQrldEg55M2ID2/GFtR+nzn5mocyGMrUvbzCW37uW:jrhEYd
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Terminates a session.
 

@@ -20,7 +20,7 @@ SSDEEP | `768:QC12ceYqDcD/RqDcvCnqWTAclmyN5NNiqbopgsAWj/do8aDGcUf2hvX:4hY5D/RqNX
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/wc [OPTION]... [FILE]...
   or:  /usr/bin/wc [OPTION]... --files0-from=F
 Print newline, word, and byte counts for each FILE, and a total line if
@@ -50,7 +50,7 @@ or available locally via: info '(coreutils) wc invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 wc: unknown option -- h
 Try '/usr/bin/wc --help' for more information.
 

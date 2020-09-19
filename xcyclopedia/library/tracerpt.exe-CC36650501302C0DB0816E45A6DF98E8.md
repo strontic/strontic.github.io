@@ -21,7 +21,7 @@ SSDEEP | `6144:/EV1tNsIl8LEN7PkoH3jObxgTtIJnKmXCml/+jdPnnHHE9e:sH3sISo75ze7cdPn8
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Microsoft r TraceRpt.Exe (10.0.17763.1)
 

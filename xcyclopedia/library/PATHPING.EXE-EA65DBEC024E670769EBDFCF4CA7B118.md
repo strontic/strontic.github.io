@@ -21,7 +21,7 @@ SSDEEP | `384:rdYnZBEgfwhEfJF5Bn9mCraVvm6L8fzyWUAW:r29JHByVu6L8c`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n] 
                 [-p period] [-q num_queries] [-w timeout] 

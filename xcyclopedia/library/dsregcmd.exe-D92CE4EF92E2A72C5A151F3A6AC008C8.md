@@ -21,7 +21,7 @@ SSDEEP | `24576:6IENi/Knq5kyc4g/cdsgRJQPnRsvjyx4LvJd:6M/9Rg/cdsFPnRsv+x4dd`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 DSREGCMD switches
                         /? : Displays the help message for DSREGCMD
                    /status : Displays the device join status

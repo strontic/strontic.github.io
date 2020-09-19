@@ -20,7 +20,7 @@ SSDEEP | `6144:CCkOPI1tIEU13Sok6xDb2O7fcCnDtitKTnvYbxnf5Ceq3:CCMIEUVSok655vYbxnf
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 For more information on a specific command, type HELP command-name
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
@@ -123,7 +123,7 @@ For more information on tools see the command-line reference in the online help.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ssh-agent: unknown option -- h
 usage: ssh-agent [-c | -s] [-Dd] [-a bind_address] [-E fingerprint_hash]
                  [-P provider_whitelist] [-t life] [command [arg ...]]

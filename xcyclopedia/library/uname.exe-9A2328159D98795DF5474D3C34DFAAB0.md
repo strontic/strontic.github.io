@@ -20,7 +20,7 @@ SSDEEP | `768:54fIzyMWXZ7Wmm7vUYzLKELNiqboEmWsFMqDGAUf2ht:sIpWXNRRWsFMeUfo`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/uname [OPTION]...
 Print certain system information.  With no OPTION, same as -s.
 
@@ -45,7 +45,7 @@ or available locally via: info '(coreutils) uname invocation'
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/uname: extra operand 'help'
 Try '/usr/bin/uname --help' for more information.
 

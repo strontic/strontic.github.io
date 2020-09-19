@@ -21,7 +21,7 @@ SSDEEP | `1536:oL4azlGfoseDXCPwF3kFCtk1FYTlgkt4cIqi2pBKMAlUasSGm1a:o6foseTCPc4C2
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 GETMAC [/S system [/U username [/P [password]]]] [/FO format] [/NH] [/V]
 
@@ -61,7 +61,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "GETMAC /?" for usage.
 

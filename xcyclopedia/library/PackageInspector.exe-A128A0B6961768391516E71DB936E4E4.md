@@ -21,7 +21,7 @@ SSDEEP | `1536:fjzMGv33k2Ty2QepOaVc+wnZYeOfhAt6mhdFA+K7gAwS+EwAPJP9HUcn:fMI3U4Q7
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage:
 PackageInspector.exe <command> <DriveLetter or Path> [options]
 PackageInspector.exe start <DriveLetter>: [-path <pathToInstaller>]

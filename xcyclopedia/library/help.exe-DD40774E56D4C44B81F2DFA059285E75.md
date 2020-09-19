@@ -21,7 +21,7 @@ SSDEEP | `96:xc7G/+oRECOajYzsp20jvfnDGjshvQluDbX1QJMfgzGDJvkMhd0cSEWMcWw:xc4nECO
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Provides help information for Windows commands.
 
 HELP [command]

@@ -21,7 +21,7 @@ SSDEEP | `384:6snJtifh+JZdy1T0Lxh9/gZ3/2RtiJ5C2EGnArzJDmZWVrW:6uJtiUTcuxPNMzEGn3
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 
 Displays protocol statistics and current TCP/IP connections using NBT
 (NetBIOS over TCP/IP).

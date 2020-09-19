@@ -20,7 +20,7 @@ SSDEEP | `6144:qHCnri5/0OIkorrR90YsqB8eSN8QMWVUbmstwW:ZnaH290YsqBaGwW`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: cdda2wav [OPTIONS ...] [trackfilenames ...]
 OPTIONS:
         [-c chans] [-s] [-m] [-b bits] [-r rate] [-a divider] [-S speed] [-x]

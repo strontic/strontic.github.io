@@ -21,7 +21,7 @@ SSDEEP | `6144:4rt+X+KOk5HDcCTaEXHRDtaUdK22PbB+tb1VAO7ycY/3mZduvh:WU+Zk5jdTaEXHR
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 pktmon { filter | comp | reset | start | stop } [OPTIONS | help]
     Monitor internal packet propagation and packet drop reports.
 
@@ -43,7 +43,7 @@ help
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Unknown command '--help'. See pktmon  help.
 
 ```

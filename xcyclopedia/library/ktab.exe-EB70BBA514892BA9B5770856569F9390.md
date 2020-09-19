@@ -21,7 +21,7 @@ SSDEEP | `384:NPaEK6KNdl6QeENaK6jS3HdYODgf2hjM+:RaZ/wlEgKgFOUf2hI+`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Error: Useless extra argument help.
 
 Usage: ktab <commands> <options>

@@ -21,7 +21,7 @@ SSDEEP | `384:GpsH5hnnqmmSHhV8yoWee14Sz5K6jSjaWOrPpVrDgf2hse:Gps3nGS/8yobe1XKg3r
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 java.lang.Exception: --help could not be read.
 
 ```

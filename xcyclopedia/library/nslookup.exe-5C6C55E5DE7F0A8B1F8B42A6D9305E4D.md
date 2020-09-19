@@ -21,7 +21,7 @@ SSDEEP | `1536:zyiuSPDRY4uNQCqTL7HxttSf68XigRoZfYjk:ewFYhqNH7tSf68XB0f`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Default Server:  ip-172-31-0-2.us-east-2.compute.internal
 Address:  172.31.0.2
 
@@ -29,7 +29,7 @@ Address:  172.31.0.2
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Usage:
    nslookup [-opt ...]             # interactive mode using default server
    nslookup [-opt ...] - server    # interactive mode using 'server'

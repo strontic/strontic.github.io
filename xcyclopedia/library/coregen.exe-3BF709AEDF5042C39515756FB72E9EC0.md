@@ -23,7 +23,7 @@ SSDEEP | `768:6EDUAnMskbT0UxBCuWG/oDS0THDhshjSfhFB67z6GYMMtwylKCVWFTBlRL7++i+:TC
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) CoreCLR Native Image Generator - Version 5.1.50918.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
 

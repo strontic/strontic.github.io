@@ -21,7 +21,7 @@ SSDEEP | `384:sBFHRblf/XZrPoeEWZXpcnYPLV9+MaDGjE:2FnhrPdEE5cQ8DGjE`
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 usage: jstatd [-nr] [-p port] [-n rminame]
 
 ```

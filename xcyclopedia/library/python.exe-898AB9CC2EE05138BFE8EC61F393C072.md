@@ -21,7 +21,7 @@ SSDEEP | `1536:HANPgB+buEYE+9z2wp+FavGmhMn+IhzZtz8/FXRe0I:HANPzbuAs0FNmhMn+IhN+/
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 usage: C:\program files\Inkscape\bin\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
@@ -117,7 +117,7 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 C:\program files\Inkscape\bin\python.exe: can't open file 'help': [Errno 2] No such file or directory
 
 ```

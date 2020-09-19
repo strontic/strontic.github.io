@@ -21,7 +21,7 @@ SSDEEP | `12288:v38c60uMfhgknVcU00wIJ5dxKB6i9TXnD1:v38c60uMfhgiVcU00jLKNTXn`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Invalid combination of input arguments. Please run 'nvidia-smi -h' for help.
 
 

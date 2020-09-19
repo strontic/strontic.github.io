@@ -21,7 +21,7 @@ SSDEEP | `384:9MCo7ZWXxA4+StBlOcH9RjjdZ5ZTl2ProWSXjW:277Z4A4FYcXXToTy`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Creates, changes, or deletes the volume label of a disk.
 
 LABEL [drive:][label]

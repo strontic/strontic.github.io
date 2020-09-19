@@ -21,7 +21,7 @@ SSDEEP | `768:E96R5XpJwwpx7bEXRvCkkkSQU8Diw3szKiaz90JZxtbc9RwzSLn:E967wyYvcka8Di
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 FORFILES [/P pathname] [/M searchmask] [/S]
          [/C command] [/D [+ | -] {MM/dd/yyyy | dd}]
@@ -103,7 +103,7 @@ Examples:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Invalid argument/option - '--help'.
 Type "FORFILES /?" for usage.
 

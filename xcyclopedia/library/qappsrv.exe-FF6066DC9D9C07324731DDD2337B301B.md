@@ -21,7 +21,7 @@ SSDEEP | `384:UyFo0xErt7IRU9CPWb/AeaEXusR3D5N9B9WxlWPaWlW:UyFBSICL/us9Axic`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Displays the available Remote Desktop Session Host servers on the network.
 
 QUERY TERMSERVER [servername] [/DOMAIN:domain] [/ADDRESS] [/CONTINUE]
@@ -36,7 +36,7 @@ QUERY TERMSERVER [servername] [/DOMAIN:domain] [/ADDRESS] [/CONTINUE]
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 Invalid parameter(s)
 Displays the available Remote Desktop Session Host servers on the network.
 

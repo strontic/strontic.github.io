@@ -21,7 +21,7 @@ SSDEEP | `192:P94R+sms/RBGk4NFOp+DWt2SHsk2TWPnWnhIBw9Go:+RYCR8kiFOpb2q2TWPnWhIi0
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Recovers readable information from a bad or defective disk.
 
 RECOVER [drive:][path]filename

@@ -20,7 +20,7 @@ SSDEEP | `3072:QdOgpvCBwBWGbn1WymDSGPadReQRI2XhQtTA9iHCcGfEUupe:QdZpvCBoWGuDSGPO
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: chattr [-RVfhv] [+-=mode]... [file]...
 
 Change file attributes
@@ -57,7 +57,7 @@ Supported attributes:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 chattr: Must use at least one of =, + or -
 
 ```

@@ -21,7 +21,7 @@ SSDEEP | `3072:iXJZBrqpQ2sL4XhYZIcduEV/CXIkxvT/:inBrqpQ21CIcdutIkxv`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Description: aspnetca.exe is a helper utility that belongs to OS setup
 and should never be called manually.
 

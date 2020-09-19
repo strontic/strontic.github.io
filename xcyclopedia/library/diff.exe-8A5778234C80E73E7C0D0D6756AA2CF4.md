@@ -20,7 +20,7 @@ SSDEEP | `6144:PRsuSGi8nH9njp6g+B88d602rN83TAKnoxYc:PCuiwHdIHOf83TAKnoxYc`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/diff [OPTION]... FILES
 Compare FILES line by line.
 
@@ -126,7 +126,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 /usr/bin/diff: missing operand after '-help'
 /usr/bin/diff: Try '/usr/bin/diff --help' for more information.
 

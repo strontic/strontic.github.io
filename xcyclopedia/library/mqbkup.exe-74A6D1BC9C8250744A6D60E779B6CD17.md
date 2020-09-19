@@ -21,7 +21,7 @@ SSDEEP | `768:Cch+k0cErStjguUYzzUBtjLZ/YIaw8dj8/4S+y8JMD0GsvQ2f+iHhx:Hz0cEr8UBYz
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Microsoft (R) Message Queue Backup\Restore Utility Version 5.00
 Copyright (C) Microsoft 1997-2009. All rights reserved.
 

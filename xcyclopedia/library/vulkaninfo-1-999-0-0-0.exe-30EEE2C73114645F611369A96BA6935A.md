@@ -21,7 +21,7 @@ SSDEEP | `3072:OgW3xaAatQEFc5riL/hetFVYJMYpr7xQgQMOTVZYZ1:xW3xaAatrFQ0pekX0fYj`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 vulkaninfo - Summarize Vulkan information in relation to the current environment.
 

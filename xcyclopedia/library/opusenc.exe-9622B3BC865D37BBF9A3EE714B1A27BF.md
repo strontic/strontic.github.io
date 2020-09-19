@@ -20,7 +20,7 @@ SSDEEP | `6144:Qke+TpSRcE5GKeKvSkbb8yKEDIlwodqR5fM84YBlJW6mv9mU/+jAOnnZ2h:QKV45/
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: opusenc [options] input_file output_file.opus
 
 Encode audio using Opus.

@@ -20,7 +20,7 @@ SSDEEP | `1536:WRCgEoP+G7f5G+OISw7ehlGHf5KOdT+m3jM97/TuF0SqfuYFfHYToxsMK:WRCg9nx
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Usage:   
   pip3 <command> [options]
@@ -80,7 +80,7 @@ General Options:
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: unknown command "/?"
 
 ```

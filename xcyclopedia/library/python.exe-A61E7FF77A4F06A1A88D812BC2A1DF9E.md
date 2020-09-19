@@ -21,7 +21,7 @@ SSDEEP | `6144:j4DoL2F+GFJyYR5/UHEAVgnRLOrS70rGCHwKIkHcWi3Brx1YlWF:kM2jFcYjQ/VIL
 ## Runtime Data
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 No pyvenv.cfg file
 
 ```

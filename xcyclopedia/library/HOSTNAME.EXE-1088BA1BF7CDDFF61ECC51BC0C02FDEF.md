@@ -21,7 +21,7 @@ SSDEEP | `192:Eu4QmRVxfP+NhKgrsK+U7yIxESUHfGGg9GXHNyS9dVW26W:Eu4QmnINnRB7vRAftZN
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Prints the name of the current host.
 
@@ -31,7 +31,7 @@ hostname
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 sethostname: Use the Network Control Panel Applet to set hostname.
 hostname -s is not supported.
 

@@ -20,7 +20,7 @@ SSDEEP | `768:itCaMJIPTcFHkQvsapENiqboO9WFUFFYDGIUf2ht:it4qgVhQWFUFFkUfM`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 Usage: /usr/bin/false [ignored command line arguments]
   or:  /usr/bin/false OPTION
 Exit with a status code indicating failure.

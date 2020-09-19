@@ -20,7 +20,7 @@ SSDEEP | `3072:5cGmpcSSwi3ofraMcSC/Ka2O7Rvv4TOEuOL:5cGmpcSSwMofuQq7RY6m`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 using: unopkg add <options> extension-path...
        unopkg validate <options> extension-identifier...
@@ -63,7 +63,7 @@ http://wiki.openoffice.org/wiki/Documentation/DevGuide/Extensions/Extensions
 ```
 
 ### Usage (stderr):
-```Batchfile
+```cmhg
 ERROR: Unknown sub-command: '-help'. Use unopkg --help (short -h) to print all options.
 
 

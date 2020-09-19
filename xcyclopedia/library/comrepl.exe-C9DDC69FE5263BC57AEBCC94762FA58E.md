@@ -21,7 +21,7 @@ SSDEEP | `384:WUhpOVup1COE3EmimT48ZrmW5VuoWTDU:WUkuOPT481IU`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 ERROR: WriteConsole failed = 00000001
 ERROR: WriteConsole failed = 00000001
 

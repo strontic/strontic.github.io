@@ -21,7 +21,7 @@ SSDEEP | `1536:NGRqS4Do2QRllMJDVcfG2O9H7Imq7oSw9s9fOT4:Pno7zMJCfRY7Imq7o/9MWT4`
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 WLBS Cluster Control Utility V2.6
 Usage: WLBS <command> 
 <command>
