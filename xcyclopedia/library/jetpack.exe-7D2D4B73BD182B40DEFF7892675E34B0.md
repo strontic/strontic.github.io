@@ -43,7 +43,7 @@ SSDEEP | `192:Na/lsoPWyW7dW1fpkicPP0DkV8ZWe3eAaUQmsW0UcHW:Na+TyKDP0G8ZWe3eysW0PH
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | ` * `hxxp://warrixmalaysia.com.my/wp-content/plugins/jetpack/modules/contact-form/grunion-table-form.php`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `hxxp://warrixmalaysia.com.my/wp-content/plugins/jetpack/modules/contact-form/grunion-table-form.php`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

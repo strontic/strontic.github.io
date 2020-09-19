@@ -121,7 +121,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_exfiltration_and_tunneling_tools_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exfiltration_and_tunneling_tools_execution.yml) | `            - '\plink.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_exfiltration_and_tunneling_tools_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exfiltration_and_tunneling_tools_execution.yml) | `- '\plink.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

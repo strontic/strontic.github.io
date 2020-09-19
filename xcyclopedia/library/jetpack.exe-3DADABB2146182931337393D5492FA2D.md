@@ -54,7 +54,7 @@ usage: C:\Windows\system32\jetpack.exe [-351db] <database name> <temp database n
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | ` * `hxxp://warrixmalaysia.com.my/wp-content/plugins/jetpack/modules/contact-form/grunion-table-form.php`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `hxxp://warrixmalaysia.com.my/wp-content/plugins/jetpack/modules/contact-form/grunion-table-form.php`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 ## Additional Info*
 

@@ -58,7 +58,7 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [misp-kryptocibule.json](https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json) | `                        "value": "magnet:?xt=urn:btih:sgrfo3qqyb6tk7rdn7f4o2gmaz23wpd7&dn=Ashampoo Slideshow Studio HD 4.0.9.3 Multilingual.zip&xl=73299714&fc=1",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-kryptocibule.json](https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json) | `"value": "magnet:?xt=urn:btih:sgrfo3qqyb6tk7rdn7f4o2gmaz23wpd7&dn=Ashampoo Slideshow Studio HD 4.0.9.3 Multilingual.zip&xl=73299714&fc=1",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [kryptocibule](https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc) | `\|`magnet[:]?xt=urn[:]btih[:]sgrfo3qqyb6tk7rdn7f4o2gmaz23wpd7&dn=Ashampoo Slideshow Studio HD 4.0.9.3 Multilingual.zip&xl=73299714&fc=1`\| - ` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
