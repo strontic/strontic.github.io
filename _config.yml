@@ -1,7 +1,8 @@
 #Theme configuration
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
+remote_theme: "mmistakes/minimal-mistakes@4.20.2"
 title: STRONTIC
-show_downloads: false
+#show_downloads: false
 github:
   repository_url: https://github.com/strontic
   zip_url: null
@@ -10,10 +11,87 @@ github:
 url: https://strontic.github.io
 plugins:
   - jekyll-sitemap
-markdown: GFM
+  - jekyll-include-cache
+  - jekyll-feed
+#markdown: GFM
+#markdown: kramdown #default for minimal-mistakes
 highlighter: rouge
 destination: ./Docs
 
 #Build: This prevents MD files from being duplicated into the destination directory (if different directory)
 optional_front_matter:
   remove_originals: true
+
+##########################
+# minimal-mistakes theme #
+##########################
+#https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+#kramdown:
+#   enable_coderay: true
+#  input: GFM
+minimal_mistakes_skin: "dark"
+locale: "en-US"
+title_separator: "|"
+subtitle: "Security. Automation. Analytics."
+logo: "/assets/images/strontic-favicon_large_gray.png"
+masthead_title: "STRONTIC"
+search: true
+search_provider: google
+google:
+  search_engine_id: 31f5caf6441fb12c8
+
+breadcrumbs: true
+
+# Page Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      breadcrumbs_nested: true #custom fix for breadcrumbs
+      layout: "splash"
+      classes: wide
+      #sidebar:
+      #  nav: "sbar"
+      #headline: "xCyclopedia"
+
+footer:
+  links:
+    - label: "strontic.com"
+      icon: "fab fa-blogger"
+      url: "https://strontic.com"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/strontic20"
+    - label: "GitHub"
+      icon: "fab fa-github-square"
+      url: "https://github.com/strontic"
+    - label: "Instagram"
+      icon: "fab fa-instagram-square"
+      url: "https://instagram.com/strontic20"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/company/strontic"
+    - label: "Facebook"
+      icon: "fab fa-facebook-square"
+      url: "https://www.facebook.com/strontic"
+    - label: "Email"
+      icon: "fas fa-envelope-square"
+      url: "mailto:info@strontic.com"
+
+#For SEO
+social:
+  type:  Organization
+  #name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://github.com/strontic"
+    - "https://twitter.com/strontic20"
+    - "https://www.facebook.com/strontic"
+    - "https://instagram.com/strontic20"
+    - "https://www.linkedin.com/company/strontic"
+    - "mailto:info@strontic.com"
+#google_site_verification: "-5DztQd7cX4ngcGcGoD5RPbcANp-gUHFZ2bJHcNXcUs"
+#bing_site_verification: "235435C95F5298245F2EF0077284AD0E"
+twitter:
+  username: "strontic20"
+facebook:
+  username: "strontic"

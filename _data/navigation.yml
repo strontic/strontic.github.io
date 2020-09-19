@@ -1,0 +1,52 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "xCyclopedia"
+    url: /xcyclopedia/intro
+  - title: "Github"
+    url: https://github.com/strontic
+
+sbar:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /xcyclopedia/
+      - title: "Structure"
+        url: /xcyclopedia/
+      - title: "Installation"
+        url: /xcyclopedia/
+      - title: "Upgrading"
+        url: /xcyclopedia/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /xcyclopedia/
+      - title: "Navigation"
+        url: /xcyclopedia/
+      - title: "UI Text"
+        url: /xcyclopedia/
+      - title: "Authors"
+        url: /xcyclopedia/
+      - title: "Layouts"
+        url: /xcyclopedia/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /xcyclopedia/
+      - title: "Working with Pages"
+        url: /xcyclopedia/
+      - title: "Working with Collections"
+        url: /xcyclopedia/
+      - title: "Helpers"
+        url: /xcyclopedia/
+      - title: "Utility Classes"
+        url: /xcyclopedia/
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /xcyclopedia/
+      - title: "JavaScript"
+        url: /xcyclopedia/

@@ -1,5 +1,6 @@
 ﻿---
 title: ARP.EXE | TCP/IP Arp Command
+excerpt: What is ARP.exe?
 ---
 
 # ARP.EXE 
@@ -21,7 +22,7 @@ SSDEEP | `384:ks0uDm3V7A3TmJsMonFaRQo2A4N66GijP25gWScmWE:kvuDmODmuzFaWo21Yij+5l8
 ## Runtime Data
 
 ### Usage (stdout):
-```Batchfile
+```cmhg
 
 Displays and modifies the IP-to-Physical address translation tables used by
 address resolution protocol (ARP).

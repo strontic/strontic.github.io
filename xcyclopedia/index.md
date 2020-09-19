@@ -1,5 +1,6 @@
 ﻿---
-title: xCyclopedia | The Encyclopedia for Executables
+title: "xCyclopedia | The Encyclopedia for Executables"
+breadcrumbs_title: xCyclopedia Index
 ---
 
 # xCyclopedia
