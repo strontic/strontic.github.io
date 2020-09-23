@@ -1,5 +1,6 @@
 ﻿---
 title: dmclient.exe | Microsoft Feedback SIUF Deployment Manager Client
+excerpt: What is dmclient.exe?
 ---
 
 # dmclient.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:se+tiQjJcCxWmdxS/4Fo4TUlWNmK39l+zkuj/OFj/H5I:se+tiaxxlY/4Fo4TUl8N
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

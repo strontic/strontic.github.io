@@ -1,5 +1,6 @@
 ﻿---
 title: wpnpinst.exe | Support exe for Internet Printing
+excerpt: What is wpnpinst.exe?
 ---
 
 # wpnpinst.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:wXd7MNMiz/5juCh6JZef6IH9w3Evg8q1Ubu74l3WhcW:AMeShKs6WifDURg`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

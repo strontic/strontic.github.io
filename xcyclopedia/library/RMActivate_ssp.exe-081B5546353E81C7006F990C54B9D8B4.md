@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate_ssp.exe | Windows Rights Management Services Activation for Server Security Processor
+excerpt: What is RMActivate_ssp.exe?
 ---
 
 # RMActivate_ssp.exe 
@@ -17,6 +18,9 @@ SHA256 | `C7A5368A48A063B991E9B4EFFE43635ED7725B2DCC18B4AAD431577414D13AA4`
 SHA384 | `D90E593B389AB72C2A6173E26828B8ADA7F814CC24ED1188DA6F1D4CD30172C985C9587CC0340FB86ABAE2C321CC81A1`
 SHA512 | `FC15E2DD5C97CE37C45C4896A23E4817C4671E445F8835C58444F733F5CA91D66D4FAF66AE3C12EFD8D62665625291AF7CE28318B9AB5A0E7445440C1A8B04CA`
 SSDEEP | `12288:9x5qySytLiYFAJDc22WP/z0/Z8/eUYmibY+4:9WSLiYFED0WPI/a/eUYmibY+4`
+IMP | `7E5FF848353E2487D8DE47C6573CC310`
+PESHA1 | `CCDD5729E924C63D95FED94627B4AE35749ED404`
+PE256 | `66E659756BA5037B79CB1B0E09FF065DECC09EF3B3E34255645AF3D2B5EC97D2`
 
 ## Runtime Data
 
@@ -34,8 +38,8 @@ C:\Windows\SysWOW64\RMActivate_ssp.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,6 +52,12 @@ C:\Windows\SysWOW64\RMActivate_ssp.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c7a5368a48a063b991e9b4effe43635ed7725b2dcc18b4aad431577414d13aa4/detection/
 
 
 

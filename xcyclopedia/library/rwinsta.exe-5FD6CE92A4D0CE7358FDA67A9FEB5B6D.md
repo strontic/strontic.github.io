@@ -1,5 +1,6 @@
 ﻿---
 title: rwinsta.exe | Reset Session Utility
+excerpt: What is rwinsta.exe?
 ---
 
 # rwinsta.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:4xb2mtGOvYg1I9CYeBpZSadPasXasgtejZiWbeMXXWUZW5:4xK2vYgyswEjPXH`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

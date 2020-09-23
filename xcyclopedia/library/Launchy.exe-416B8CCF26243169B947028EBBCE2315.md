@@ -1,5 +1,6 @@
 ﻿---
 title: Launchy.exe | 
+excerpt: What is Launchy.exe?
 ---
 
 # Launchy.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: chkntfs.exe | NTFS Volume Maintenance Utility
+excerpt: What is chkntfs.exe?
 ---
 
 # chkntfs.exe 
@@ -17,6 +18,9 @@ SHA256 | `B11778898A18C8A6A24AF153743060E1569F443AD73943BC4292EDA844C80E2E`
 SHA384 | `328A3D0FF0294CAF8267BBF09FBDAE403BD043874E7A0522541378B46029DE126869B5D1D1FE85040C564825B5EC1A54`
 SHA512 | `B3E5323DE6233833F6116795CB5AA59554EB06390982DB06DBBFF18A4D4A02A5092A7F34200D659B75CDD0ABFA674D9B4BF263A0BA7EC462DE3BF9C781D7C96F`
 SSDEEP | `384:rOtQXGfBVa0gum5UTpr2QX0iBkNmqmBr0mqzrXm+TO0h2NUWi6W:ytQ4a0nmSTh2Pyqmbqzr3Cta`
+IMP | `D41BF2F313E9EE8CBB20EF9AD2025250`
+PESHA1 | `A3CFB32DCA3043A4904B2701B9B4F199E824CDFC`
+PE256 | `6A8CE9F5038F8AF4A6C927E99ADA63972A877AF81741FE44EE5C6FBA7DC437A1`
 
 ## Runtime Data
 
@@ -61,8 +65,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -75,6 +79,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/b11778898a18c8a6a24af153743060e1569f443ad73943bc4292eda844c80e2e/detection/
 
 
 

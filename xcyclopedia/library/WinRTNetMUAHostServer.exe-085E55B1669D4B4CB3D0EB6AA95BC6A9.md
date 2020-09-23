@@ -1,5 +1,6 @@
 ﻿---
 title: WinRTNetMUAHostServer.exe | WinRTNet MUA HostServer EXE
+excerpt: What is WinRTNetMUAHostServer.exe?
 ---
 
 # WinRTNetMUAHostServer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:LMckxIQG2fZHN66ROOrklUklEZ57kpwBnTVn82Q3UUWQoW1wn:QIQG25LAIvQ3jvw`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

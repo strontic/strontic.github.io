@@ -1,5 +1,6 @@
 ﻿---
 title: IcsEntitlementHost.exe | ICS Entitlement Host
+excerpt: What is IcsEntitlementHost.exe?
 ---
 
 # IcsEntitlementHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:nIa/Sm4UEbX9yDUsYR/RA3RpJGImTl0xDF42BDED:IaLEbX9e8R/RuRpQb+x546C`
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: systray.exe | Systray .exe stub
+excerpt: What is systray.exe?
 ---
 
 # systray.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\systray.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

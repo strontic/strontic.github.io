@@ -1,5 +1,6 @@
 ﻿---
 title: DataExchangeHost.exe | Data Exchange Host
+excerpt: What is DataExchangeHost.exe?
 ---
 
 # DataExchangeHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:P9KFZFytGANN5k9zu9QAQ2FaTd7FE/Fno9hs:Pwpytvkhu9pQ+aTdC8hs`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

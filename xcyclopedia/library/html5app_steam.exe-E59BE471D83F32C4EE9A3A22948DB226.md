@@ -1,5 +1,6 @@
 ﻿---
 title: html5app_steam.exe | Steam HTML5 App
+excerpt: What is html5app_steam.exe?
 ---
 
 # html5app_steam.exe 
@@ -47,6 +48,7 @@ steamerrorreporter.exe
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2014 Valve Corporation
+
 
 
 

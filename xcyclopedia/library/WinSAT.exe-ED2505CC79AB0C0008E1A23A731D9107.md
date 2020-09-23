@@ -1,5 +1,6 @@
 ﻿---
 title: WinSAT.exe | Windows System Assessment Tool
+excerpt: What is WinSAT.exe?
 ---
 
 # WinSAT.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:mOpNQ6QTvumPeAGU1FVA7PsYmq1dKwdfU2bECbe:9NDF1DFE/`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ktpass.exe | Kerberos keytab tool
+excerpt: What is ktpass.exe?
 ---
 
 # ktpass.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:t0wqYYvnLjHIIM/ZpDKX3eK+FvNcGCZs3I24hvJZ+pQbEY3r/rAXQeEb:t0fnHIIM3
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: EASPolicyManagerBrokerHost.exe | Exchange Active Sync Policy Manager Broker
+excerpt: What is EASPolicyManagerBrokerHost.exe?
 ---
 
 # EASPolicyManagerBrokerHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:8DhL6/wRLlugrQyEqCchMOAHLq1JwGgqxgrLso:x/wZlj81NHLq1JwNqyrt`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

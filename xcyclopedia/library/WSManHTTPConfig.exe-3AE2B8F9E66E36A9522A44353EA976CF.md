@@ -1,5 +1,6 @@
 ﻿---
 title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
+excerpt: What is WSManHTTPConfig.exe?
 ---
 
 # WSManHTTPConfig.exe 
@@ -58,10 +59,12 @@ C:\Windows\system32\WSManHTTPConfig.exe |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-77CEDB1A7736FD7E25C5C333D1FCE56C.md) | 96
 [C:\WINDOWS\system32\WSManHTTPConfig.exe](WSManHTTPConfig.exe-C8297986C7960E7B23529A930E47D360.md) | 41
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: DiskDefrag.exe | Glary Utilities Defragmenter
+excerpt: What is DiskDefrag.exe?
 ---
 
 # DiskDefrag.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:Up/6ZdVfzZLmabliLHqqyNIPyDVEB//90MiRYlKIwITNj0:Up/Kdm1DqSPyDISMm
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

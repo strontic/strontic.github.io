@@ -1,5 +1,6 @@
 ﻿---
 title: CodeHelper.exe | CodeHelper
+excerpt: What is CodeHelper.exe?
 ---
 
 # CodeHelper.exe 
@@ -46,6 +47,7 @@ conhost.exe
 * Product Version: 1.0.0.0
 * Language: Language Neutral
 * Legal Copyright: Copyright   2015
+
 
 ## File Similarity (ssdeep match)
 

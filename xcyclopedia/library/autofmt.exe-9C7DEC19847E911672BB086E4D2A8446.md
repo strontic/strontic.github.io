@@ -1,5 +1,6 @@
 ﻿---
 title: autofmt.exe | Auto File System Format Utility
+excerpt: What is autofmt.exe?
 ---
 
 # autofmt.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:PTLVkNNcemo4AKK4DK9TGiAejWi+EhMXEEIOFOxL9yNknsq5G1X:P+Nvmo4rKThM
 * Product Version: 10.0.14393.1532
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

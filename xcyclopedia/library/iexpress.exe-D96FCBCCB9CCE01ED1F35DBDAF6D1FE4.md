@@ -1,5 +1,6 @@
 ﻿---
 title: iexpress.exe | Wizard
+excerpt: What is iexpress.exe?
 ---
 
 # iexpress.exe 
@@ -73,6 +74,7 @@ C:\Windows\SysWOW64\iexpress.exe |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

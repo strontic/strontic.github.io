@@ -1,5 +1,6 @@
 ﻿---
 title: UserAccountControlSettings.exe | UserAccountControlSettings
+excerpt: What is UserAccountControlSettings.exe?
 ---
 
 # UserAccountControlSettings.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:IRVvuztDtBolo5f14NaaMyRzm751sNz0UCdkV/L7:guZwSBUV1c5K`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

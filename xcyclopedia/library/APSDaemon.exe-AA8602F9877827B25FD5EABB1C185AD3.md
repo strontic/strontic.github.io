@@ -1,5 +1,6 @@
 ﻿---
 title: APSDaemon.exe | Apple Push
+excerpt: What is APSDaemon.exe?
 ---
 
 # APSDaemon.exe 
@@ -62,6 +63,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 
 

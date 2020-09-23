@@ -1,5 +1,6 @@
 ﻿---
 title: UIMgrBroker.exe | Microsoft UIManager Broker
+excerpt: What is UIMgrBroker.exe?
 ---
 
 # UIMgrBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:NUBIBfjJcJQdHj8W8Kd7S8tYQcPPYh1YKeUaDcBRU9VkQB7qBYMsd:oIYJQtlre8OQ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

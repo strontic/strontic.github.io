@@ -1,5 +1,6 @@
 ﻿---
 title: regtrace.exe | REGTRACE MFC Application
+excerpt: What is regtrace.exe?
 ---
 
 # regtrace.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:Mk28bsYEEUzxhxXEsBEsQ4rKjRj/VALS:B28bsYEEUzxr0sBEsQ4GjRj/KLS`
 * Product Version: 8.5.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

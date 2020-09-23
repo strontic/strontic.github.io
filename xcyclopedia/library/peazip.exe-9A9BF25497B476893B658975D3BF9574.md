@@ -1,5 +1,6 @@
 ﻿---
 title: peazip.exe | PeaZip, file and archive manager
+excerpt: What is peazip.exe?
 ---
 
 # peazip.exe 
@@ -91,6 +92,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 7.4.0
 * Language: English (United States)
 * Legal Copyright: Giorgio Tani, LGPLv3
+
 
 
 

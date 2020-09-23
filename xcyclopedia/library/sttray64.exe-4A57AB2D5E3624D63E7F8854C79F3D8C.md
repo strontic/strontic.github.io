@@ -1,5 +1,6 @@
 ﻿---
 title: sttray64.exe | IDT PC Audio
+excerpt: What is sttray64.exe?
 ---
 
 # sttray64.exe 
@@ -37,6 +38,7 @@ SSDEEP | `49152:C3hDDB/rQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQ0
 * Product Version: 1.0.6491.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2004 - 2009 IDT, Inc.
+
 
 
 

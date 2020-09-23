@@ -1,5 +1,6 @@
 ﻿---
 title: mmgaserver.exe | MMGA Server
+excerpt: What is mmgaserver.exe?
 ---
 
 # mmgaserver.exe 
@@ -63,6 +64,7 @@ C:\Windows\SysWOW64\mmgaserver.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

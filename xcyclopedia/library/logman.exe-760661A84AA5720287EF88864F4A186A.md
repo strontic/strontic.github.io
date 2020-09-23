@@ -1,5 +1,6 @@
 ﻿---
 title: logman.exe | Performance Log Utility
+excerpt: What is logman.exe?
 ---
 
 # logman.exe 
@@ -17,6 +18,9 @@ SHA256 | `9777ED488531B9E50B3B255743173A0490DBE93554974B3501A5F01F164E8454`
 SHA384 | `D7543DBAA075250C5313F24DD1D2C28B8D39E8418BA01D2A6F2AFFD7E2ED4F387E10CAA357FE43F9753942B6B189013E`
 SHA512 | `66E7C209DE22870CE199C35A9E38BE43B95FD9E5FFE822980ED2DC3FC9904EED0DE0AA8302682A2F3F109E7E410038CB3E0DB5FC70BAA185B9BDF3C70D61B8C3`
 SSDEEP | `1536:B2HfEpSTGHeSunvRkpVwRB9dLHLxsXn+CKhXvatp9pPW:BQ4STBlnJkbM9ZHLOKJvaBh`
+IMP | `0DCA318B38537E36C8CE6E8439F768C4`
+PESHA1 | `F4F2B30A5BC6C0F37CA7976047EABB01783F8AD5`
+PE256 | `F50BF697EAF6BE32BFECC12C3EF412F18F197ED0F3839335A094FEBB8E7DB241`
 
 ## Runtime Data
 
@@ -174,6 +178,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\logman.exe |
 
@@ -195,6 +200,12 @@ C:\Windows\SysWOW64\logman.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/9777ed488531b9e50b3b255743173a0490dbe93554974b3501a5f01f164e8454/detection/
 
 
 

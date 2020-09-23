@@ -1,5 +1,6 @@
 ﻿---
 title: chrome_installer.exe | Google Chrome Installer
+excerpt: What is chrome_installer.exe?
 ---
 
 # chrome_installer.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 85.0.4183.83
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

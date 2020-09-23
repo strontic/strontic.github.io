@@ -1,5 +1,6 @@
 ﻿---
 title: iexpress.exe | Wizard
+excerpt: What is iexpress.exe?
 ---
 
 # iexpress.exe 
@@ -22,6 +23,9 @@ SHA256 | `D070B79FA254C528BABB73D607A7A8FD53DB89795D751F42FC0A283B61A76FD3`
 SHA384 | `EFBC94B257E3925846AB253748F8D6281C302A2393CA8CF332635D929222CD0C8299FA94E28E274F703E5DFF56FF4D78`
 SHA512 | `6B5743B37A3BE8AE9EE2AB84E0749C32C60544298A7CCE396470AA40BBD13F2E838D5D98159F21D500D20817C51EBCE4B1D2F554E3E05F6C7FC97BC9D70EA391`
 SSDEEP | `3072:d7g3ODTHYAlYzLXB08Pfd0Zu/Rh1hNDnGOb+ahXNqJohePnq45L843:dECNYzLXB0KfdvR1NDGOb+asEwv5L`
+IMP | `EB7245009D5161BC32C51EA9DCB81D49`
+PESHA1 | `F17688CD41C31E67DEFF5D7B797DF1F12FD4AF43`
+PE256 | `0F683FE1F00F8300214997FCE3290306E875E56DC91657328F5921989B7F88A2`
 
 ## Runtime Data
 
@@ -35,18 +39,13 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\iexpress.exe.mui | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.19041.1_en-us_6144a36069349598\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.19041.1_en-us_6144a36069349598 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -60,6 +59,7 @@ C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\iexpress.exe |
 C:\Windows\System32\imagehlp.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -72,15 +72,16 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -93,6 +94,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 * Product Version: 11.00.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d070b79fa254c528babb73d607a7a8fd53db89795d751f42fc0a283b61a76fd3/detection/
 
 ## File Similarity (ssdeep match)
 

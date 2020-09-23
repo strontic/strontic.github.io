@@ -1,5 +1,6 @@
 ﻿---
 title: date.exe | 
+excerpt: What is date.exe?
 ---
 
 # date.exe 
@@ -152,6 +153,7 @@ Try '/usr/bin/date --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

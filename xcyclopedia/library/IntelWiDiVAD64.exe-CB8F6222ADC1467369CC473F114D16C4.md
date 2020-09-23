@@ -1,5 +1,6 @@
 ﻿---
 title: IntelWiDiVAD64.exe | Intel WiDi
+excerpt: What is IntelWiDiVAD64.exe?
 ---
 
 # IntelWiDiVAD64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `98304:htQzK6nAwTYkrhRqlNvREqE6rn03dl2AqMZ6JiHohf9H6My9aQnPNVb5Z:TQzDZo
 * Product Version: 6.5.56.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
+
 
 
 

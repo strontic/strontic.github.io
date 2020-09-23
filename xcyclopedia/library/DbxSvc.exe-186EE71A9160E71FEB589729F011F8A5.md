@@ -1,5 +1,6 @@
 ﻿---
 title: dbxsvc.exe | Dropbox Service
+excerpt: What is dbxsvc.exe?
 ---
 
 # dbxsvc.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: Dropbox, Inc.
+
 
 ## File Similarity (ssdeep match)
 

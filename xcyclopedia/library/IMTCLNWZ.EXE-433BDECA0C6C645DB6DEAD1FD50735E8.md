@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCLNWZ.EXE | IMTCLNWZ.exe
+excerpt: What is IMTCLNWZ.EXE?
 ---
 
 # IMTCLNWZ.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `1536:1QMjhKwnwmmN6SrSK+80N7Mn+isRO32ilN2cQoBA5TqbcnxjNqcG5yObqB:1QkQwn
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

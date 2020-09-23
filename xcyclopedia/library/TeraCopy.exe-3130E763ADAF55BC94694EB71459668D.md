@@ -1,5 +1,6 @@
 ﻿---
 title: TeraCopy.exe | TeraCopy
+excerpt: What is TeraCopy.exe?
 ---
 
 # TeraCopy.exe 
@@ -94,6 +95,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.2.6.0
 * Language: English
 * Legal Copyright: (C) 2007-2017 Code Sector
+
 
 ## File Similarity (ssdeep match)
 

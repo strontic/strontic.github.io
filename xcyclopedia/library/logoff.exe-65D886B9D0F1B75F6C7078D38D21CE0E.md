@@ -1,5 +1,6 @@
 ﻿---
 title: logoff.exe | Session Logoff Utility
+excerpt: What is logoff.exe?
 ---
 
 # logoff.exe 
@@ -54,6 +55,7 @@ LOGOFF [sessionname | sessionid] [/SERVER:servername] [/V] [/VM]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

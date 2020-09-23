@@ -1,5 +1,6 @@
 ﻿---
 title: unlodctr.exe | Unload PerfMon Counters
+excerpt: What is unlodctr.exe?
 ---
 
 # unlodctr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:obplMcdIl9mlZgzy8klP1JmQb+i0wCnCNPxbWlNWHMS0Myj:GlMcdIulY1SPxbzMS0
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SearchProtocolHost.exe | Microsoft Windows Search Protocol Host
+excerpt: What is SearchProtocolHost.exe?
 ---
 
 # SearchProtocolHost.exe 
@@ -47,6 +48,7 @@ C:\Windows\system32\SearchProtocolHost.exe |
 * Product Version: 7.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

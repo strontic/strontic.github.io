@@ -1,5 +1,6 @@
 ﻿---
 title: extrac32.exe | Microsoft CAB File Extract Utility
+excerpt: What is extrac32.exe?
 ---
 
 # extrac32.exe 
@@ -17,6 +18,9 @@ SHA256 | `A91D32973A1097EB1131FF630B0C082406703C48B8F442955DDA184C43BCE99E`
 SHA384 | `4CC8041CC3F31EED5D5095DE077E0082674E884A6CE72B208641DE469D803796B3E71A9F978A75F27D60401E799C7979`
 SHA512 | `8671662575E3166CB31875CB618FBD7ED4BD80112AD849F05CAE28B725E1DC129A6099D00879006E4F451B64E5B8DF558A4E8C35D274ED003FB572964008E09E`
 SSDEEP | `768:jYDhe6vo5kwydC3ryl77oOP6emNLZnlOsWLuYksMfdxH:jOheqo5k77oe6eoyBuNsMfd`
+IMP | `7B1D3FE0DC6AA68A34FB0D96A1457FE6`
+PESHA1 | `052FD384AFA1A7883AFB02A1C1F0E05771D48B57`
+PE256 | `519EE514572F1CBAD00A931C97BEBF085FB83694044931C66AC5D46BA83888F4`
 
 ## Runtime Data
 
@@ -47,12 +51,16 @@ EXTRACT [/Y] /C source destination
   /Y         Do not prompt before overwriting an existing file.
 ```
 
+### Child Processes:
+mmc.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\extrac32.exe |
 
@@ -74,6 +82,12 @@ C:\Windows\SysWOW64\extrac32.exe |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/a91d32973a1097eb1131ff630b0c082406703c48b8f442955dda184c43bce99e/detection/
 
 
 ## Possible Misuse

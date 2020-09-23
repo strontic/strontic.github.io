@@ -1,5 +1,6 @@
 ﻿---
 title: GoogleUpdateSetup.exe | Google Update Setup
+excerpt: What is GoogleUpdateSetup.exe?
 ---
 
 # GoogleUpdateSetup.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.35.452
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 Google LLC
+
 
 ## File Similarity (ssdeep match)
 

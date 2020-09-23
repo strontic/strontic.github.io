@@ -1,5 +1,6 @@
 ﻿---
 title: klist.exe | Tool for managing the Kerberos ticket cache
+excerpt: What is klist.exe?
 ---
 
 # klist.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:tQ8Fci4KOBa1oqsDzXz1bYG1KO/GTxgBQ:6jXztKO/GV`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: peazip-configuration.exe | PeaZip configuration Setup                                  
+excerpt: What is peazip-configuration.exe?
 ---
 
 # peazip-configuration.exe 
@@ -75,6 +76,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version:                                                   
 * Language: Language Neutral
 * Legal Copyright:                                                                                                     
+
 
 ## File Similarity (ssdeep match)
 

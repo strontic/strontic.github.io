@@ -1,5 +1,6 @@
 ﻿---
 title: SpeechUXWiz.exe | Speech UX Configuration
+excerpt: What is SpeechUXWiz.exe?
 ---
 
 # SpeechUXWiz.exe 
@@ -21,6 +22,9 @@ SHA256 | `6FA424DDD31E80D679D987FD94FB2A35D8BBEAD7F5F09404AF531B46DBAE85B6`
 SHA384 | `E0E34C8A25ECA3E596F3611E3AFFA93F609F72D110F8636F1B0ADE6520720399427A9EBB828E0DC891B1DD95D07F119B`
 SHA512 | `F1B82D484867585E206A2D48B64791724ED9AAE57FE55FAE755A786BEE228482CB9CBC03B1E84CFA4D7FD5BBDA0F733FE9500C8303834E3B23FB89580F589733`
 SSDEEP | `12288:a7lb57GX8YbVe0TIrf8NbywLkRLgLBAgV:ul7Y82VLTIrfMy8oLg`
+IMP | `831B003F0C669C0AEFF82B001BEDB059`
+PESHA1 | `ED4E92E44B6AEAA4761FC49E87D897E644B07830`
+PE256 | `54B9DF949C404D67E950F06D1F4CC10A1C3938F559AC27538634A368B5160894`
 
 ## Runtime Data
 
@@ -37,20 +41,15 @@ Path | Type
 (R-D)   C:\Windows\System32\Speech\SpeechUX\en-US\SpeechUXWiz.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -58,13 +57,28 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\DUI70.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\wer.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e\gdiplus.dll |
 
 
 ## Signature
@@ -84,6 +98,12 @@ C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/6fa424ddd31e80d679d987fd94fb2a35d8bbead7f5f09404af531b46dbae85b6/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: HelpPane.exe | Microsoft Help and Support
+excerpt: What is HelpPane.exe?
 ---
 
 # HelpPane.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:RC40wrR/TUnSM+xxRUT47BmXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:RCoUnSMyaw`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: setspn.exe | Query or reset the computer's SPN attribute
+excerpt: What is setspn.exe?
 ---
 
 # setspn.exe 
@@ -17,6 +18,9 @@ SHA256 | `3EE597FA9B3333AB491807F48AEC985C4429F975E0DABCE2AF0CCAA182628884`
 SHA384 | `4521FC148B23BECA34251D704097DDB90AC3C1D5FAEAC00F07A7DE1F67F61172ADEC653FA761C9B8FC9817C4D3FB310D`
 SHA512 | `23871330177E9EF9B33CAE1BE74C9A4BFA57496F879880EF7B8502422D3FF9BE6562659E1ECDBBA984BC8B0355BE10198F9C546D7B904D566CDD828802892AF1`
 SSDEEP | `768:6tM372OwDBqKg2d8qxQDHpX32A0AQpL4iVI4h0q+YmF:6a372OwdI2OOa123R4iz0RYmF`
+IMP | `E6B8038038B9ABF6ACB11E0A8BE9BB84`
+PESHA1 | `A9C404CE14B14478355EA450716CE2E4BBF5D9F9`
+PE256 | `DD16A1DCEC8291FA987A0F9B99CF7CEF3705158602FA7F8F166371A7EB0B8ACD`
 
 ## Runtime Data
 
@@ -112,8 +116,8 @@ C:\Windows\system32\setspn.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -126,6 +130,12 @@ C:\Windows\system32\setspn.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/3ee597fa9b3333ab491807f48aec985c4429f975e0dabce2af0ccaa182628884/detection/
 
 
 ## Possible Misuse

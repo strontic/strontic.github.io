@@ -1,5 +1,6 @@
 ﻿---
 title: audacity.exe | Audacity Cross-Platform Sound Editor
+excerpt: What is audacity.exe?
 ---
 
 # audacity.exe 
@@ -71,6 +72,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2,4,2,0
 * Language: English (United States)
 * Legal Copyright: Copyright  2018. All rights reserved.
+
 
 
 

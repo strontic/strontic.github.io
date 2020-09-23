@@ -1,5 +1,6 @@
 ﻿---
 title: Silverlight.Configuration.exe | Microsoft Silverlight Configuration Utility
+excerpt: What is Silverlight.Configuration.exe?
 ---
 
 # Silverlight.Configuration.exe 
@@ -67,6 +68,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 5.1.50918.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

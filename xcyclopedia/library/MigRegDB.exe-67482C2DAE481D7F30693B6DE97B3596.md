@@ -1,5 +1,6 @@
 ﻿---
 title: MigRegDB.exe | COM+
+excerpt: What is MigRegDB.exe?
 ---
 
 # MigRegDB.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:4/mCGi9GIGRs6MsXMF0eKsxyTbKJIzHG7uUO4fWYwW:imC1YIGdbceeXysIrpr4fWY
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

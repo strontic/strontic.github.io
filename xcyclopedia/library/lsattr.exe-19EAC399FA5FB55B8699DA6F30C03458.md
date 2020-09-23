@@ -1,5 +1,6 @@
 ﻿---
 title: lsattr.exe | 
+excerpt: What is lsattr.exe?
 ---
 
 # lsattr.exe 
@@ -81,6 +82,7 @@ lsattr: No such file or directory while trying to stat /h
 * Language: 
 * Legal Copyright: 
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -93,7 +95,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | 		$s1 = "displaysecinfo(\"List of Attributes\",myshellexec(\"lsattr -a\"));" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s1 = "displaysecinfo(\"List of Attributes\",myshellexec(\"lsattr -a\"));" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

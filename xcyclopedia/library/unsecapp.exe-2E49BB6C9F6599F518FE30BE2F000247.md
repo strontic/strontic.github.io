@@ -1,5 +1,6 @@
 ﻿---
 title: unsecapp.exe | Sink to receive asynchronous callbacks for WMI client application
+excerpt: What is unsecapp.exe?
 ---
 
 # unsecapp.exe 
@@ -43,6 +44,7 @@ Cannot run standalone
 * Product Version: 10.0.14393.2515
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tsecimp.exe | Microsoft Windows(TM) TAPI Security File Importer
+excerpt: What is tsecimp.exe?
 ---
 
 # tsecimp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:+2GbNkoJdmQyHSYVY2Q8f727OmQ5PyjGKC:+2Gw9HSkDRD2KnPyjGKC`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

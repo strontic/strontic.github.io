@@ -1,5 +1,6 @@
 ﻿---
 title: slui.exe | Windows Activation Client
+excerpt: What is slui.exe?
 ---
 
 # slui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:bPOsWtLMrVg2X6bVlqY/W5R02qO7VKCyWQp:bPEtLmOZ7q3nyR`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

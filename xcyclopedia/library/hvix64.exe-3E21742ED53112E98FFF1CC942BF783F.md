@@ -1,5 +1,6 @@
 ﻿---
 title: hvix64.exe | Hypervisor V2.0
+excerpt: What is hvix64.exe?
 ---
 
 # hvix64.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.450
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

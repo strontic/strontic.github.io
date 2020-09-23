@@ -1,5 +1,6 @@
 ﻿---
 title: fontview.exe | Windows Font Viewer
+excerpt: What is fontview.exe?
 ---
 
 # fontview.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:ogsI3cRyfNJjWRkOtHxtt3EOL2QvIsitSYVF:NsY9DWRRZzqGY`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

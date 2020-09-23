@@ -1,5 +1,6 @@
 ﻿---
 title: RpcPing.exe | RPC Ping Utility
+excerpt: What is RpcPing.exe?
 ---
 
 # RpcPing.exe 
@@ -17,6 +18,9 @@ SHA256 | `B26CA32A7EEE65B90658EACAEB3589E69E9EFB5686CE6CEC7D20C1766DA34F32`
 SHA384 | `24105E4CF81EEE31F6F2620FA9E9E6208D35F47B280D4A5E24A797069B178ABAE1E719B8ABBC051791436F1E7CB5E639`
 SHA512 | `3EF2B4603908C010B1439DF821622D267AB6C1476753458944528E1B1C992915AFF93D4877C44F99B4A99A1790CAF65D3E1170832D46F636FDC2D4E84CA7E2C9`
 SSDEEP | `768:DN3YTAR6SQ7EW0HuqSJRtVtjovmEO9t8lulQt:B3A63yEF9SJRtLjovdO9ClUQt`
+IMP | `AA6B2A7321AE60F227BDF8367761D35D`
+PESHA1 | `380346AF9B72A47E30AA2B67F3033E3175B64EA4`
+PE256 | `355616BBA56C6BA32621A8A2F8A8C9658208DEB9ECEAD0C7B0A0C67B4D760E56`
 
 ## Runtime Data
 
@@ -223,6 +227,9 @@ the typical profile.
 
 ```
 
+### Child Processes:
+RdpSa.exe
+
 ### Loaded Modules:
 
 Path |
@@ -236,8 +243,8 @@ C:\Windows\system32\RpcPing.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -250,6 +257,12 @@ C:\Windows\system32\RpcPing.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b26ca32a7eee65b90658eacaeb3589e69e9efb5686ce6cec7d20c1766da34f32/detection/
 
 
 ## Possible Misuse

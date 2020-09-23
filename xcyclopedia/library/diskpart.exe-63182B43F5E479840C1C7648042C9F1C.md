@@ -1,5 +1,6 @@
 ﻿---
 title: diskpart.exe | DiskPart
+excerpt: What is diskpart.exe?
 ---
 
 # diskpart.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:1p9b6XxXkO82WmJ69IQlIC7aUWIKHMoLyJWSKArkzoVawAq9pZYf1i+:1p9b6hX1D
 * Product Version: 6.3.9600.17031
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: DropboxUpdate.exe | Dropbox Update
+excerpt: What is DropboxUpdate.exe?
 ---
 
 # DropboxUpdate.exe 
@@ -72,6 +73,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.27.73
 * Language: English (United States)
 * Legal Copyright: Copyright: Dropbox, Inc. 2015 (Omaha Copyright Google Inc.)
+
 
 ## File Similarity (ssdeep match)
 

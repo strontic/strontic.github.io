@@ -1,5 +1,6 @@
 ﻿---
 title: printui.exe | Change Printing Settings
+excerpt: What is printui.exe?
 ---
 
 # printui.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:2uyxNik9Fj5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnQ:6i
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

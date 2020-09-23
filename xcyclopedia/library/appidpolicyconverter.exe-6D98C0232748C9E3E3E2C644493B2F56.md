@@ -1,5 +1,6 @@
 ﻿---
 title: appidpolicyconverter.exe | AppID Policy Converter Task
+excerpt: What is appidpolicyconverter.exe?
 ---
 
 # appidpolicyconverter.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:jUuAA8UyKI+y6XNEb3Me6gxJ6vjYNsJ0xXJB5158icIo:cA8dkduMe6gx0rY1/Bf5
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

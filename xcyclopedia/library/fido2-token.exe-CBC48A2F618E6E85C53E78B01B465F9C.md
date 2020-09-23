@@ -1,5 +1,6 @@
 ﻿---
 title: fido2-token.exe | 
+excerpt: What is fido2-token.exe?
 ---
 
 # fido2-token.exe 
@@ -62,6 +63,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

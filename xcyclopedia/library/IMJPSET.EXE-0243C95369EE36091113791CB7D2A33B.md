@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPSET.EXE | Microsoft IME
+excerpt: What is IMJPSET.EXE?
 ---
 
 # IMJPSET.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `3072:pc+4LmZ3jdj/giKieglJqRzCr1Pgoy+bwdYH67IkK2NLPcV2:pcGzdj/ewqRzM1P3
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

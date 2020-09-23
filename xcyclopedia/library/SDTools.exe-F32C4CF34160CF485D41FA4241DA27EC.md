@@ -1,5 +1,6 @@
 ﻿---
 title: SDTools.exe | Autostart and Configuration Manager
+excerpt: What is SDTools.exe?
 ---
 
 # SDTools.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2000-2018 Safer-Networking Ltd. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

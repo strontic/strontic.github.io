@@ -1,5 +1,6 @@
 ﻿---
 title: nvdaHelperRemoteLoader.exe | 
+excerpt: What is nvdaHelperRemoteLoader.exe?
 ---
 
 # nvdaHelperRemoteLoader.exe 
@@ -80,6 +81,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

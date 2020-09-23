@@ -1,5 +1,6 @@
 ﻿---
 title: wininst-6.0.exe | 
+excerpt: What is wininst-6.0.exe?
 ---
 
 # wininst-6.0.exe 
@@ -65,6 +66,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

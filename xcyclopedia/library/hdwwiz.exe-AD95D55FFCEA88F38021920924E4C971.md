@@ -1,5 +1,6 @@
 ﻿---
 title: hdwwiz.exe | Add Hardware Wizard
+excerpt: What is hdwwiz.exe?
 ---
 
 # hdwwiz.exe 
@@ -21,11 +22,14 @@ SHA256 | `81D43AD111BD8B8DAD77E0C36E0D420332889FB9B473857DBA779EA0C070442C`
 SHA384 | `A08D253C10CC747D4D9F7D9DC5186D56A0B31C18D0F89BCFD702FE846F6E2A1579A31D13F443362C14BEA7BB4398F5AD`
 SHA512 | `1B7464DBD3DBA7AECBC898211838C28F8A0DCF630E382673A3DAF94583FE9C0F809E143FD10435D3FC8794336C0D83032DBC7B30094E251408D7566D2DF5B7B0`
 SSDEEP | `768:8bXwlZwI1XBflGf4G0In3BhzhWM1GOVz170Cv:kXw7wIflGzZ3qOTwC`
+IMP | `613877CB92EF7DF19BF5DEFD1BA60402`
+PESHA1 | `217CC19AB3205CE602AFED88FDF538C10BDB6E9B`
+PE256 | `BDC3B563F546FA3313E10804FBC26BD5B1BF54FA6785723616021686E6F62FD5`
 
 ## Runtime Data
 
 ### Child Processes:
-explorer.exe
+mmc.exe
 
 ### Window Title:
 Add Hardware
@@ -42,19 +46,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\setupapi.dll.mui | File
 (R-D)   C:\Windows\SystemResources\shell32.dll.mun | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -63,6 +62,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\hdwwiz.exe |
 
@@ -84,6 +84,12 @@ C:\Windows\SysWOW64\hdwwiz.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/81d43ad111bd8b8dad77e0c36e0d420332889fb9b473857dba779ea0c070442c/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: mip.exe | Math Input Panel Accessory
+excerpt: What is mip.exe?
 ---
 
 # mip.exe 
@@ -76,6 +77,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

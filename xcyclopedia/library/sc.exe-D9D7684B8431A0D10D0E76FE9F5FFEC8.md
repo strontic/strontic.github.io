@@ -1,5 +1,6 @@
 ﻿---
 title: sc.exe | Service Control Manager Configuration Tool
+excerpt: What is sc.exe?
 ---
 
 # sc.exe 
@@ -17,6 +18,9 @@ SHA256 | `4FE6D9EB8109FB79FF645138DE7CFF37906867AADE589BD68AFA503A9AB3CFB2`
 SHA384 | `CDC02975FE2B94D00710A4E20598E492E95EDB650E7861926CD1A05FD4C2582C00C47E23AC507C175DF4049D574C2793`
 SHA512 | `509C2FA6EF2791A76E36F255F33197729BDB650C9B2F7B8580B4C27A7BDAD09C783D3E149268EC2E4B3B9398C22BA8B5B3622C3DBEDC559C5B06305352EEF026`
 SSDEEP | `1536:lFL6e3972zBpABZ+Tolu/tKd5mjuf0ntKfRILBNflBSuJWmQnVX+n0dqZuS8bmkD:lFLx3972zBpABZ+Tolu/tKd5mjuf0nt2`
+IMP | `B037D0ADB81BF9CFC651DE01742089F1`
+PESHA1 | `6AE238799C7FA4F6B0D825D5F19336BBAF147592`
+PE256 | `140DCC4F20D96DCE3BBDB77DDF868E32CEFDA4C3083DC90F97C7544F6864FD97`
 
 ## Runtime Data
 
@@ -146,6 +150,12 @@ C:\Windows\SysWOW64\sc.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/4fe6d9eb8109fb79ff645138de7cff37906867aade589bd68afa503a9ab3cfb2/detection/
 
 
 ## Possible Misuse
@@ -184,9 +194,9 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1569.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md) | sc.exe start #{service_name} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1569.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md) | sc.exe delete #{service_name} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1574.011.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md) | <blockquote>Adversaries may execute their own malicious payloads by hijacking the Registry entries used by services. Adversaries may use flaws in the permissions for registry to redirect from the originally specified executable to one that they control, in order to launch their own code at Service start.  Windows stores local service configuration information in the Registry under <code>HKLM\SYSTEM\CurrentControlSet\Services</code>. The information stored under a service's Registry keys can be manipulated to modify a service's execution parameters through tools such as the service controller, sc.exe,  [PowerShell](https://attack.mitre.org/techniques/T1059/001), or [Reg](https://attack.mitre.org/software/S0075). Access to Registry keys is controlled through Access Control Lists and permissions. (Citation: Registry Key Security) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_robinhood.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_robinhood.yar) |       $s4 = "sc.exe stop SQLAgent$SQLEXPRESS" nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_empire.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar) |       $s1 = "$Result = sc.exe config $($TargetService.Name) binPath= $OriginalPath" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_empire.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar) |       $s2 = "$Result = sc.exe pause $($TargetService.Name)" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_robinhood.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_robinhood.yar) | $s4 = "sc.exe stop SQLAgent$SQLEXPRESS" nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_empire.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar) | $s1 = "$Result = sc.exe config $($TargetService.Name) binPath= $OriginalPath" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_empire.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar) | $s2 = "$Result = sc.exe pause $($TargetService.Name)" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

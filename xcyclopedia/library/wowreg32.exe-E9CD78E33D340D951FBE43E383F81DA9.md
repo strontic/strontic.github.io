@@ -1,5 +1,6 @@
 ﻿---
 title: wowreg32.exe | SetupAPI 32-bit Surrogate
+excerpt: What is wowreg32.exe?
 ---
 
 # wowreg32.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:A8FOum/QeY7PN4ABIWtbJc2/1YFYynD4Lt262m4XRWg7ZjHW:AP842tb1/TA4JmrhW
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

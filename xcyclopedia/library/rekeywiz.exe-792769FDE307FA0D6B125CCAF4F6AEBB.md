@@ -1,5 +1,6 @@
 ﻿---
 title: rekeywiz.exe | EFS REKEY wizard
+excerpt: What is rekeywiz.exe?
 ---
 
 # rekeywiz.exe 
@@ -73,6 +74,7 @@ C:\Windows\SysWOW64\rekeywiz.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: MicrosoftEdgeCP.exe | Microsoft Edge Content Process
+excerpt: What is MicrosoftEdgeCP.exe?
 ---
 
 # MicrosoftEdgeCP.exe 
@@ -45,6 +46,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

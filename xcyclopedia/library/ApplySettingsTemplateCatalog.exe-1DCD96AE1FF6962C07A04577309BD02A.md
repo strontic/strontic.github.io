@@ -1,5 +1,6 @@
 ﻿---
 title: ApplySettingsTemplateCatalog.exe | ApplySettingsTemplateCatalog EXE
+excerpt: What is ApplySettingsTemplateCatalog.exe?
 ---
 
 # ApplySettingsTemplateCatalog.exe 
@@ -43,6 +44,7 @@ This application requires elevated rights. Please re-run with administrator priv
 * Product Version: 10.0.18362.449
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

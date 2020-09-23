@@ -1,5 +1,6 @@
 ﻿---
 title: DPInst64.exe | Driver Package Installer
+excerpt: What is DPInst64.exe?
 ---
 
 # DPInst64.exe 
@@ -100,6 +101,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 2.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

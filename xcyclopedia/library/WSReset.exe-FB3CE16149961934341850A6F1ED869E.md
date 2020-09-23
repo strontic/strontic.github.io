@@ -1,5 +1,6 @@
 ﻿---
 title: WSReset.exe | This tool resets the Windows Store without changing account settings or deleting installed apps
+excerpt: What is WSReset.exe?
 ---
 
 # WSReset.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:qnEer5SoQTaOS00qaZMW9w1Nsn4FOBkStBWr:I/8h3S00qaZcGg0Yr`
 * Product Version: 10.0.18362.145
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

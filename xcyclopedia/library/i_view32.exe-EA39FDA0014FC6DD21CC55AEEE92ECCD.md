@@ -1,5 +1,6 @@
 ﻿---
 title: i_view32.exe | IrfanView 32-bit
+excerpt: What is i_view32.exe?
 ---
 
 # i_view32.exe 
@@ -75,6 +76,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4.54
 * Language: English (United States)
 * Legal Copyright: Copyright  2019 by Irfan Skiljan, Austria
+
 
 
 

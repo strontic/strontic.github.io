@@ -1,5 +1,6 @@
 ﻿---
 title: scrcons.exe | WMI Standard Event Consumer - scripting
+excerpt: What is scrcons.exe?
 ---
 
 # scrcons.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:GTiff1Pzo3VOyP1xhHjcai2qNBEFg/PlWyHtke0qu0+d3MiDjGfEqq7ntns0YLd0:G
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

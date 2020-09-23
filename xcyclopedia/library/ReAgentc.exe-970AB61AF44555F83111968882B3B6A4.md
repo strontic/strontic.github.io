@@ -1,5 +1,6 @@
 ﻿---
 title: ReAgentc.exe | Microsoft Windows Recovery Agent
+excerpt: What is ReAgentc.exe?
 ---
 
 # ReAgentc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:IPqFn/oXAgaoLINsBCSIYUEPNzuKZVkKI7B65P5XkMYa1oflW3R6F5XZ49Uk/e9o:e
 * Product Version: 6.3.9600.17031
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

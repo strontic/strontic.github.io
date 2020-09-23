@@ -1,5 +1,6 @@
 ﻿---
 title: GamePanel.exe | Game Bar
+excerpt: What is GamePanel.exe?
 ---
 
 # GamePanel.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:1kT/fyVNTfdlAbNY7fgV7u5EPPKTWR9aUPIi:1kjiTf+ggV7u5EPPKyR9aUP`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

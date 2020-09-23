@@ -1,5 +1,6 @@
 ﻿---
 title: true.exe | 
+excerpt: What is true.exe?
 ---
 
 # true.exe 
@@ -56,6 +57,7 @@ or available locally via: info '(coreutils) true invocation'
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

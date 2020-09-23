@@ -1,5 +1,6 @@
 ﻿---
 title: peazip.exe | PeaZip, file and archive manager
+excerpt: What is peazip.exe?
 ---
 
 # peazip.exe 
@@ -35,6 +36,7 @@ SSDEEP | `98304:McVuv4VGW/ZeILTYHawrX6Acc+oorGXsvhwa8ROXA:MLdW/3gH17wpvHZ`
 * Product Version: 7.3.2
 * Language: English (United States)
 * Legal Copyright: Giorgio Tani, LGPLv3
+
 
 
 

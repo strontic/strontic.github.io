@@ -1,5 +1,6 @@
 ﻿---
 title: relog.exe | Performance Relogging Utility
+excerpt: What is relog.exe?
 ---
 
 # relog.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:VTYCeqPU08TikDi4fO6Z8Np+7ikmh5Aod1SZeY1uNRZN+82NsjFVlaOktpncnxpa:V
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

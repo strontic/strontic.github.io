@@ -1,5 +1,6 @@
 ﻿---
 title: AIMPac.exe | AIMP Audio Converter
+excerpt: What is AIMPac.exe?
 ---
 
 # AIMPac.exe 
@@ -83,6 +84,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4.70.2224.0
 * Language: Russian (Russia)
 * Legal Copyright: Artem Izmaylov
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: MoUsoCoreWorker.exe | MoUSO Core Worker Process
+excerpt: What is MoUsoCoreWorker.exe?
 ---
 
 # MoUsoCoreWorker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:zZt9KkvnUcCLX7picmIQpvhnno7eQ0pmdh3oEw2tZG3pv5uA:d1vnDKXH+Keodh3
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

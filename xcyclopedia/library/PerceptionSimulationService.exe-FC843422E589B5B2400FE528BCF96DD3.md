@@ -1,5 +1,6 @@
 ﻿---
 title: PerceptionSimulationService.exe | Windows Perception Simulation Service
+excerpt: What is PerceptionSimulationService.exe?
 ---
 
 # PerceptionSimulationService.exe 
@@ -17,6 +18,9 @@ SHA256 | `2FBD09D8C423876B4C47211FD878514DB630DD38A0EE7292B608051CA2CAF137`
 SHA384 | `B39AC9255A5E3F9E8BF26E7BB12FCFEEA50C1F415B7FEF48DC85B983E232C213955411519064FEB081378AC978A4CA49`
 SHA512 | `E942AEFA29431A275931FCCE08976C417A7B5028BAD6E9819FDFD856B94538ACFD6B6C122ED78C40BF6C19A31BEAE67B23A5A59EF12B2E32DEFAEDC70C12FFDC`
 SSDEEP | `1536:4i5L8OascgCDVIxPT2ym3rp4kmlCrolqJ5VLKgljv3OFbOsJs3Gey9RHOeCUC:4g8FZIxPTXKfUCrUCele+DHOeC1`
+IMP | `C2DE8C94325285248B02AD116C1FA4BE`
+PESHA1 | `A0A235AE3D1F85C04E12B91F70EFCB856424C2BC`
+PE256 | `BB354F2A74EA1402F16F95656A9BA8D5E32F2EF7971AD6D9AFA3C32BA2D8917C`
 
 ## Runtime Data
 
@@ -61,6 +65,12 @@ C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/2fbd09d8c423876b4c47211fd878514db630dd38a0ee7292b608051ca2caf137/detection/
 
 
 

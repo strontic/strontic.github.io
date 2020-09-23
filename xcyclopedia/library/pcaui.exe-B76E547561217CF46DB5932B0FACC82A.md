@@ -1,5 +1,6 @@
 ﻿---
 title: pcaui.exe | Program Compatibility Assistant User Interface
+excerpt: What is pcaui.exe?
 ---
 
 # pcaui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:uN3oqhtzsss1Oxn/7N4dmdBeEgXGsh34rl4YL/qThbo72u1YWGC03:KYWhs1Oxn/7N
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

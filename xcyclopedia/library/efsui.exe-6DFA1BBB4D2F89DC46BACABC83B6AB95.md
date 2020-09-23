@@ -1,5 +1,6 @@
 ﻿---
 title: efsui.exe | EFS UI Application
+excerpt: What is efsui.exe?
 ---
 
 # efsui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:QdPeMqG5HPL9S0mnuHyhaz0IDomlOe9fYoMDB669GbGmDmTpWSsRW:wP1d5NtHyUzX
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

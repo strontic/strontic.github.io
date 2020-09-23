@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate_ssp.exe | Windows Rights Management Services Activation for Server Security Processor
+excerpt: What is RMActivate_ssp.exe?
 ---
 
 # RMActivate_ssp.exe 
@@ -46,6 +47,7 @@ C:\Windows\SysWOW64\RMActivate_ssp.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

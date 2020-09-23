@@ -1,5 +1,6 @@
 ﻿---
 title: DataSenseLiveTileTask.exe | Data Sense Live Tile Task
+excerpt: What is DataSenseLiveTileTask.exe?
 ---
 
 # DataSenseLiveTileTask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:dl/fh8A7EU+1mj9pgDokEoiJs7rtLyQuj+SAf1l7OVwH5RGl0HF0fxf4t/+1vQ6z:f
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

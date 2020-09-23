@@ -1,5 +1,6 @@
 ﻿---
 title: LogonUI.exe | Windows Logon User Interface Host
+excerpt: What is LogonUI.exe?
 ---
 
 # LogonUI.exe 
@@ -37,13 +38,14 @@ SSDEEP | `192:wPQ3DcPYDUfHqlZubjq4jrzCEqXVdQ9GvGHsl2WnUW:bDUfwgbLjreEOXGHsoWnUW`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `LogonUI.exe` being misused. While `LogonUI.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | 		$s2 = "LogonUI.exe" fullword wide /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | $s2 = "LogonUI.exe" fullword wide /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

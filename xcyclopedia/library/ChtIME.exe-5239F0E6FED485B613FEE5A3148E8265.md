@@ -1,5 +1,6 @@
 ﻿---
 title: ChtIME.exe | Microsoft IME
+excerpt: What is ChtIME.exe?
 ---
 
 # ChtIME.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:yST6Qe9BivWoBaiy6iqkEZQI5BWm4ht63g6jfo/K4lq5yL:3e9BieoBaijiqH97m6
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

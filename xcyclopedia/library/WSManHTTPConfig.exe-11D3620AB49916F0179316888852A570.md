@@ -1,5 +1,6 @@
 ﻿---
 title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
+excerpt: What is WSManHTTPConfig.exe?
 ---
 
 # WSManHTTPConfig.exe 
@@ -44,6 +45,7 @@ WSMan Generic Command ERROR: Error in parsing input
 * Product Version: 10.0.14393.479
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

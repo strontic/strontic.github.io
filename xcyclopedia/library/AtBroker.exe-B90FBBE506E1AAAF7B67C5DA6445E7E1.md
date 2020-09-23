@@ -1,5 +1,6 @@
 ﻿---
 title: AtBroker.exe | Windows Assistive Technology Manager
+excerpt: What is AtBroker.exe?
 ---
 
 # AtBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:ibR5YJ/+AZABBES89/MhlHAVVz/Jrh8oIUW4H+ug:l+AZABBE2kVVDJFJpHvg`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

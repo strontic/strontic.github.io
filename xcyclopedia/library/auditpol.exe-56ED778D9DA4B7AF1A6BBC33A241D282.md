@@ -1,5 +1,6 @@
 ﻿---
 title: auditpol.exe | Audit Policy Program
+excerpt: What is auditpol.exe?
 ---
 
 # auditpol.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:M51YxeZUNypIqolt91htItsahk9607NPKMl9XRfX8z331VRUJGqd5RqoEoxGI1:oNU
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

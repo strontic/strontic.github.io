@@ -1,5 +1,6 @@
 ﻿---
 title: javaws.exe | Java(TM) Web Start Launcher
+excerpt: What is javaws.exe?
 ---
 
 # javaws.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:6C5PvoX0rLPsHdDn+pBKlNR709/gdCBvRR:JvoXOLPsHdDCOP709BBvv`
 * Product Version: 8.0.1710.11
 * Language: Language Neutral
 * Legal Copyright: Copyright  2018
+
 
 
 

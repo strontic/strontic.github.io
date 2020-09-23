@@ -1,5 +1,6 @@
 ﻿---
 title: lame.exe | MP3 Encoder.
+excerpt: What is lame.exe?
 ---
 
 # lame.exe 
@@ -104,6 +105,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.100
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 1999-2011 The L.A.M.E. Team
+
 
 
 

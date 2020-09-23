@@ -1,5 +1,6 @@
 ﻿---
 title: SettingSyncHost.exe | Host Process for Setting Synchronization
+excerpt: What is SettingSyncHost.exe?
 ---
 
 # SettingSyncHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:JNE3C87eVaxbbHPSAvK4qhO/flsUTVmPjNHyE:zES8aVw/vK3hkflsUT2pHyE`
 * Product Version: 10.0.14393.3085
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

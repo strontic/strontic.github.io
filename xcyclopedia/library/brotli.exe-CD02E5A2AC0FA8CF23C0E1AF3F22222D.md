@@ -1,5 +1,6 @@
 ﻿---
 title: brotli.exe | 
+excerpt: What is brotli.exe?
 ---
 
 # brotli.exe 
@@ -79,6 +80,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: WPDShextAutoplay.exe | Windows Portable Device Shell Extension Autoplay Handler
+excerpt: What is WPDShextAutoplay.exe?
 ---
 
 # WPDShextAutoplay.exe 
@@ -17,6 +18,9 @@ SHA256 | `C0F8536C11BE99D0128DD970DE2B592B7C558037F07783DF006B552A9C07F17D`
 SHA384 | `40A7F66E3DFA07E911A25F498C88EC4A2329E2E8B8BACF9B1552F215024C2E9A539CF22BB41BD2E3BA9A473D37DF37E8`
 SHA512 | `FE39F828F804963855D58D1F9E88B225962C154DFF89AD4EAAF926C963D02C765545D69C427771FA850D4911F8612936A68E6B42AC880CD22467396E3ED03313`
 SSDEEP | `768:BQkcgJLEh0oIof0Wo0NiJoUoyFk4oehcrXM8wr:BPJLEqCcWZilFk4FuFwr`
+IMP | `D6E136D4A9E27F31C5602B427D3226E9`
+PESHA1 | `EE798F1FA5BF6863D23A07A2E19A933FEE9B2BBB`
+PE256 | `9839B113DD1C012D39E8FF3B579F615D7C14B2B09E21713560B11D41C5517931`
 
 ## Runtime Data
 
@@ -25,15 +29,10 @@ SSDEEP | `768:BQkcgJLEh0oIof0Wo0NiJoUoyFk4oehcrXM8wr:BPJLEqCcWZilFk4FuFwr`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\WPDShextAutoplay.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -41,19 +40,12 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WPDShextAutoplay.exe |
 
 
@@ -74,6 +66,12 @@ C:\Windows\system32\WPDShextAutoplay.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/c0f8536c11be99d0128dd970de2b592b7c558037f07783df006b552a9c07f17d/detection/
 
 
 

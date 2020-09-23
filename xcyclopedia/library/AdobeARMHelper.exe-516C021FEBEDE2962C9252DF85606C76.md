@@ -1,5 +1,6 @@
 ﻿---
 title: AdobeARMHelper.exe | Adobe Reader and Acrobat Manager Helper
+excerpt: What is AdobeARMHelper.exe?
 ---
 
 # AdobeARMHelper.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:QsYQXsnUVx4ZXvQShdrXvbGLcqBG65tufv1Qp9At+a4juR1y9HkT:QjndvQSrrXvb
 * Product Version: 1.801.10.4720
 * Language: Language Neutral
 * Legal Copyright: Copyright 2013 Adobe Systems Incorporated
+
 
 
 

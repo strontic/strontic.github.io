@@ -1,5 +1,6 @@
 ﻿---
 title: dfrgui.exe | Microsoft Drive Optimizer
+excerpt: What is dfrgui.exe?
 ---
 
 # dfrgui.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:LkJKk/dz/84MdktcYTH49cCK+fwTvlfhvjvuZyvu2Ndt4HVhMB8W0j0DyJiX:LkJK
 * Product Version: 10.0.18362.657
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

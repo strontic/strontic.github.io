@@ -1,5 +1,6 @@
 ﻿---
 title: comrepl.exe | COM+ Server Replication
+excerpt: What is comrepl.exe?
 ---
 
 # comrepl.exe 
@@ -44,6 +45,7 @@ ERROR: WriteConsole failed = 00000001
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

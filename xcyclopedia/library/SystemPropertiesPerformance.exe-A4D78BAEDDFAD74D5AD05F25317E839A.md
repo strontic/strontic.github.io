@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesPerformance.exe | Change Computer Performance Settings
+excerpt: What is SystemPropertiesPerformance.exe?
 ---
 
 # SystemPropertiesPerformance.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:KBkKZGBtREC/rMcgEPJV+G57ThjEC0kzJP+V5JZ:KzoBzECTMpuDhjRVJGz`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

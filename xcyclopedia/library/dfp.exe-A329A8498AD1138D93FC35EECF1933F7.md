@@ -1,5 +1,6 @@
 ﻿---
 title: dfp.exe | Disk Footprint Tool
+excerpt: What is dfp.exe?
 ---
 
 # dfp.exe 
@@ -90,6 +91,7 @@ Run a pre-defined study
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

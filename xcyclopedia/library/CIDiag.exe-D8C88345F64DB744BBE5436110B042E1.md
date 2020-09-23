@@ -1,5 +1,6 @@
 ﻿---
 title: CIDiag.exe | CodeIntegrity Diagnostic Tool
+excerpt: What is CIDiag.exe?
 ---
 
 # CIDiag.exe 
@@ -43,6 +44,7 @@ Usage: "CIDiag.exe /start", "CIDiag.exe /stop", or "CIDiag.exe /stop /nologs"
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

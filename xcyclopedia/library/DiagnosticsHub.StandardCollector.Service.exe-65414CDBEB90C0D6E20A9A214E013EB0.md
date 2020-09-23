@@ -1,5 +1,6 @@
 ﻿---
 title: DiagnosticsHub.StandardCollector.Service.exe | Microsoft (R) Diagnostics Hub Standard Collector
+excerpt: What is DiagnosticsHub.StandardCollector.Service.exe?
 ---
 
 # DiagnosticsHub.StandardCollector.Service.exe 
@@ -51,6 +52,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 11.00.17763.503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

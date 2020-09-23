@@ -1,5 +1,6 @@
 ﻿---
 title: bootcfg.exe | BootCfg - Lists or changes the boot settings.
+excerpt: What is bootcfg.exe?
 ---
 
 # bootcfg.exe 
@@ -100,6 +101,7 @@ Type "BOOTCFG /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: provtool.exe | Provisioning package runtime processing tool
+excerpt: What is provtool.exe?
 ---
 
 # provtool.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:F5rqBynKLU3zwoktZwol60ED5ZnWRemvvrtO/kRMOTgDfZZt+qK7MI:UdUUouZll6
 * Product Version: 10.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

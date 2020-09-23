@@ -1,5 +1,6 @@
 ﻿---
 title: jetpack.exe | Off-line jet database compact app
+excerpt: What is jetpack.exe?
 ---
 
 # jetpack.exe 
@@ -46,6 +47,7 @@ usage: C:\Windows\system32\jetpack.exe [-351db] <database name> <temp database n
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

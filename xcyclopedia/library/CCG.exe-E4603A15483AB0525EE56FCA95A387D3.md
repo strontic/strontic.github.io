@@ -1,5 +1,6 @@
 ﻿---
 title: CCG.exe | Windows Container Credential Guard Server
+excerpt: What is CCG.exe?
 ---
 
 # CCG.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:gvD0T7/Sg6dWDOxPrudo/A01RmM4AMmRhZtcYH5ZFvrfZd33W4ZZg3w:F3wdWDOxD
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

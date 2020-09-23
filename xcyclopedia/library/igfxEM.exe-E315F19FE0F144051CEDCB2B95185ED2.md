@@ -1,5 +1,6 @@
 ﻿---
 title: igfxEM.exe | igfxEM Module
+excerpt: What is igfxEM.exe?
 ---
 
 # igfxEM.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:5V3Ep9l+2RzFemY1TeTSbrA7l1sirHMunVHiujfQ+GB3:5V3y+2RzFnSSl/M6xhnG
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
 
 
 ## Possible Misuse

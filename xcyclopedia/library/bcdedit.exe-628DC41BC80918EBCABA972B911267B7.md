@@ -1,5 +1,6 @@
 ﻿---
 title: bcdedit.exe | Boot Configuration Data Editor
+excerpt: What is bcdedit.exe?
 ---
 
 # bcdedit.exe 
@@ -17,6 +18,9 @@ SHA256 | `8DE81171C19749E77DBF7317316EB8D0FE3BD1D2A52413E5D997E9248A325D37`
 SHA384 | `9E19B787C80F4140916A7E77119E0201ED3CBB16ACAEF1AD8E364EA19842457270C0FD97308C3A5960A142B996AB26E8`
 SHA512 | `1EE359673724822653612E61845593210782B9BC9FE45D57DED9C2CA61A4E6B68F61FBE1F3C9C36E9919D0AFAA423D1BBBFD61F70BCECDF1EAFABBB57746AAF6`
 SSDEEP | `6144:Jah5m2sLddo16eYXrnWTKB0GgEKkGh7qA:J45m2I7oMWT8BJKkK7`
+IMP | `ED47BFF4333B75903582989F6C229A64`
+PESHA1 | `CA4AFC6A21A48C385F25D9FAC1F5ADC944121102`
+PE256 | `A67024B12B994B13EC6DDE69E0DCF1D73A248F19C054857638CA8D9CCB9E0A88`
 
 ## Runtime Data
 
@@ -141,6 +145,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/8de81171c19749e77dbf7317316eb8d0fe3bd1d2a52413e5d997e9248a325d37/detection/
 
 
 ## Possible Misuse
@@ -160,8 +170,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | bcdedit.exe /set {default} recoveryenabled no | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | bcdedit.exe /set {default} bootstatuspolicy DisplayAllFailures >nul 2>&1 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | bcdedit.exe /set {default} recoveryenabled yes >nul 2>&1 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_olympic_destroyer.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_olympic_destroyer.yar) |       $x1 = "/set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_turbo_campaign.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turbo_campaign.yar) |       $sc_1 = "bcdedit -set testsigning" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_olympic_destroyer.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_olympic_destroyer.yar) | $x1 = "/set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_turbo_campaign.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turbo_campaign.yar) | $sc_1 = "bcdedit -set testsigning" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

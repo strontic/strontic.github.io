@@ -1,5 +1,6 @@
 ﻿---
 title: autochk.exe | Auto Check Utility
+excerpt: What is autochk.exe?
 ---
 
 # autochk.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:klGTjqIuxMx82YwGti6T4DE4KCNptuO5SCizhm7qjJ4Ttr:3jr2Mx82YjtfSEGNp
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

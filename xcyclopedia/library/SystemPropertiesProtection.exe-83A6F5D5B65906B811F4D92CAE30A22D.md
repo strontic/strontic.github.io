@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesProtection.exe | System Protection Settings
+excerpt: What is SystemPropertiesProtection.exe?
 ---
 
 # SystemPropertiesProtection.exe 
@@ -101,6 +102,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -186,7 +188,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | 		$s14 = "SystemPropertiesProtection.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | $s14 = "SystemPropertiesProtection.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

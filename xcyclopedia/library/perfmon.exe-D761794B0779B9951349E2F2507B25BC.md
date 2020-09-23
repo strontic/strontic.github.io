@@ -1,5 +1,6 @@
 ﻿---
 title: perfmon.exe | Resource and Performance Monitor
+excerpt: What is perfmon.exe?
 ---
 
 # perfmon.exe 
@@ -47,6 +48,7 @@ Argument 'help' is unknown.
 * Product Version: 10.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

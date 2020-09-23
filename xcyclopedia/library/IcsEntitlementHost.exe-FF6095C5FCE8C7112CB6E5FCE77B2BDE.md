@@ -1,5 +1,6 @@
 ﻿---
 title: IcsEntitlementHost.exe | ICS Entitlement Host
+excerpt: What is IcsEntitlementHost.exe?
 ---
 
 # IcsEntitlementHost.exe 
@@ -48,6 +49,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IcsEntitlementHost.exe](IcsEntitlementHost.exe-09909A92211BC70A40AB2C1B2FDCAFF5.md) | 94
 
 
 

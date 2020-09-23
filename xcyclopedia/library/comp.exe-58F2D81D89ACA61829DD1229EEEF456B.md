@@ -1,5 +1,6 @@
 ﻿---
 title: comp.exe | File Compare Utility
+excerpt: What is comp.exe?
 ---
 
 # comp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:JSy5zhxuAJIH9iFftZd4MRBLMWIHmmHm4eY+PWXbHNTWKcW:dF7JIH8naMzM/GFGbH
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

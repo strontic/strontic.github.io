@@ -1,5 +1,6 @@
 ﻿---
 title: decompose.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is decompose.exe?
 ---
 
 # decompose.exe 
@@ -58,6 +59,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -72,7 +74,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [atomic-red-team](https://github.com/redcanaryco/atomic-red-team/blob/master/README.md) |   We coined the term "atomic tests" because we felt there was a simple way to decompose tests so most could be | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [atomic-red-team](https://github.com/redcanaryco/atomic-red-team/blob/master/README.md) | We coined the term "atomic tests" because we felt there was a simple way to decompose tests so most could be | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/index.md) | coined the term “atomic tests” because we felt there was a simple way to decompose tests so most could be run | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 

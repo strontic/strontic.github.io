@@ -1,5 +1,6 @@
 ﻿---
 title: mofcomp.exe | The Managed Object Format (MOF) Compiler 
+excerpt: What is mofcomp.exe?
 ---
 
 # mofcomp.exe 
@@ -17,6 +18,9 @@ SHA256 | `F70F849225F5DAFE5890AD8308CB6B136385FA84DBE148805FB9A63DC91F70F4`
 SHA384 | `5C777EE5FBB8DD8828E7257E374C411691CD7C71BBF32DADA2B7F39567E9ED35CECB03AD7BE40C41646D31499CC9A2EA`
 SHA512 | `5CBF23A732BA043A34B705A94F4A9DDD6E0258325DF295E69BD0D43E6BDE016FDAFD1CE866CC409E25448E5689E669AD946860B15215CB471B257342F3B3916C`
 SSDEEP | `384:deSbrAKT+hD3ooueJ61KifPxgp3sZoFt4SvgZEyo6z4Ctl2RMiUKV4i1oah7/WeY:UEj+hD3LE5Y3PaWlql0T4i1oa9/WEOm`
+IMP | `9A6A5E4D269C5D18366CA5BF7D1981EB`
+PESHA1 | `B60A666F4848C4AF70F85DB994152817141EB8F2`
+PE256 | `51C07B7AB0DA5D76F6576F719CE502E3AAF3A016997BC6367CC11D0269DEE119`
 
 ## Runtime Data
 
@@ -72,8 +76,8 @@ C:\Windows\system32\wbem\mofcomp.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -86,6 +90,12 @@ C:\Windows\system32\wbem\mofcomp.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/f70f849225f5dafe5890ad8308cb6b136385fa84dbe148805fb9a63dc91f70f4/detection/
 
 
 

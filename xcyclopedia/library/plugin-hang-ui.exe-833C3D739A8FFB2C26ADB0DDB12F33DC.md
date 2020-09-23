@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-hang-ui.exe | Plugin Hang UI for Thunderbird
+excerpt: What is plugin-hang-ui.exe?
 ---
 
 # plugin-hang-ui.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 78.2.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

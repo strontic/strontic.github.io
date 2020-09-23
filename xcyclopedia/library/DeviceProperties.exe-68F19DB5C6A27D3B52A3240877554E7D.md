@@ -1,5 +1,6 @@
 ﻿---
 title: DeviceProperties.exe | Device Properties
+excerpt: What is DeviceProperties.exe?
 ---
 
 # DeviceProperties.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:a+w2y5nNWLJpBpTybQ74i6u0dw9Wegi85mChdlzwCxi65U:aP55NOFpTyIcuz9WzF
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

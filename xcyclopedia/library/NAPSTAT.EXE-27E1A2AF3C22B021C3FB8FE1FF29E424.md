@@ -1,5 +1,6 @@
 ﻿---
 title: NAPSTAT.EXE | Network Access Protection Client UI
+excerpt: What is NAPSTAT.EXE?
 ---
 
 # NAPSTAT.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `6144:18hLlWMLWIQsG1VPZ8jCl6VWxtoloBV+rLxK:18hLlWMLWJsiVPuVJ6BV+rLxK`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

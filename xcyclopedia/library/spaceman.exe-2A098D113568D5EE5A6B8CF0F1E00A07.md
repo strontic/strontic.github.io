@@ -1,5 +1,6 @@
 ﻿---
 title: spaceman.exe | Storage Spaces Manager
+excerpt: What is spaceman.exe?
 ---
 
 # spaceman.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:lmZJ3LnaTrJ1MZy/AnQXtBgtnZ4ZVLeYSGn59qDQCHidW6QnK0eUvL1VoW2mpE3w:l
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: resmon.exe | Resource Monitor
+excerpt: What is resmon.exe?
 ---
 
 # resmon.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:sYoZ4NBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:yZ4
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

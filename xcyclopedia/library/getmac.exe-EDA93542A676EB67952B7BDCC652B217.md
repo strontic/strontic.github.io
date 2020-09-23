@@ -1,5 +1,6 @@
 ﻿---
 title: getmac.exe | Displays NIC MAC information
+excerpt: What is getmac.exe?
 ---
 
 # getmac.exe 
@@ -84,6 +85,7 @@ Type "GETMAC /?" for usage.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

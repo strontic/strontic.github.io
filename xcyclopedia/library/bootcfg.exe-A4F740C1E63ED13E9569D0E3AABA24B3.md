@@ -1,5 +1,6 @@
 ﻿---
 title: bootcfg.exe | BootCfg - Lists or changes the boot settings.
+excerpt: What is bootcfg.exe?
 ---
 
 # bootcfg.exe 
@@ -17,6 +18,9 @@ SHA256 | `F45992F7D3602A41CFCBDA622C3E5F9F45AB2A4D19059BC746DA151ABAAAB140`
 SHA384 | `EA6BDCD4FA76B1AC4DB03052893DEA826BA960D60B706460C925379E064F927A7D33B2D58EF7C47D3C81D2955C1A6107`
 SHA512 | `036867916D63DF17F3F0204AEEC3BE8135C01CBBBCDCA0D87BC2464C6B0722D82503C9886A9A9CAEC93F56B8787E9565289AEAECBAA4264F11C1B8AE50186AEF`
 SSDEEP | `1536:3a5QRGYct9JeOreQD+5c5CU+JjRfZSb+onFuwK72EwEUiFYIxAkUFa+pU76I:1GYct6Oio+5SEfZSb+6wwc8iFYIxLUFm`
+IMP | `1326F3C4127B0B966C0872341E0A5A17`
+PESHA1 | `4AB37812F8DE6584B525F717A80ADB156597F347`
+PE256 | `3D026553F75C6F59F470AFF4D99A71BBAE1CCA41C25AAB061F0122B5B45D5620`
 
 ## Runtime Data
 
@@ -97,8 +101,8 @@ C:\Windows\SysWOW64\bootcfg.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -111,6 +115,12 @@ C:\Windows\SysWOW64\bootcfg.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f45992f7d3602a41cfcbda622c3e5f9f45ab2a4d19059bc746da151abaaab140/detection/
 
 
 

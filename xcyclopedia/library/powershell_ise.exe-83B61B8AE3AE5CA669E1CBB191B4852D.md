@@ -1,5 +1,6 @@
 ﻿---
 title: powershell_ise.exe | Windows PowerShell ISE
+excerpt: What is powershell_ise.exe?
 ---
 
 # powershell_ise.exe 
@@ -71,6 +72,7 @@ C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

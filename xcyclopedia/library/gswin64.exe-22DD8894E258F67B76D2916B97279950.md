@@ -1,5 +1,6 @@
 ﻿---
 title: gswin64.exe | 
+excerpt: What is gswin64.exe?
 ---
 
 # gswin64.exe 
@@ -38,6 +39,7 @@ SSDEEP | `3072:U0Wi62A0syonMU4Ub8+XsxRT/VBqe6VY/ZEhkaD0SF0Q+bVXLjWAFjJj:fWp2v/5U
 * Product Version: 9.50
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2019 Artifex Software, Inc.  All rights reserved.
+
 
 
 

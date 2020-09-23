@@ -1,5 +1,6 @@
 ﻿---
 title: PickerHost.exe | File Picker UI Host
+excerpt: What is PickerHost.exe?
 ---
 
 # PickerHost.exe 
@@ -17,6 +18,9 @@ SHA256 | `2FE89DF706C2B56461D988C1E9B57C1C4FEF94353D4E2BF267A99A7EB63846BF`
 SHA384 | `F3C35FBAD5D296CE1027A1B23162020F0931AF508348F0660A3A223403012BEAF983F3326FD4C0E3A48F64F6697CF490`
 SHA512 | `69020852E40E0CB045818BD1EA6DB99E05EDFE9893D5F2471ED777A7C856CCA7581442A5B5245AE8FDF66EDB33903AE51BCC451E52006745FD8719A7C50A3106`
 SSDEEP | `3072:uYcgSb1dwE5/GuOlHA+4Y4H3i+KHfasRcVwEEovx9L:unfwZg+4pH3iMsRswE/5d`
+IMP | `C3DE8313F45360F43B3BF562DCAAF09E`
+PESHA1 | `7C39C38F7A29F76A36A4C8BD1C664939C615DAB6`
+PE256 | `1B08518C43F546AB01BAE7B0A4A236601DE8C0102DD0A01882A70FFF99FE1E06`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `3072:uYcgSb1dwE5/GuOlHA+4Y4H3i+KHfasRcVwEEovx9L:unfwZg+4pH3iMsRswE/5d`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -40,6 +39,7 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -68,6 +68,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/2fe89df706c2b56461d988c1e9b57c1c4fef94353d4e2bf267a99a7eb63846bf/detection/
 
 
 

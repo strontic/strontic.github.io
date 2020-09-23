@@ -1,5 +1,6 @@
 ﻿---
 title: ResetEngine.exe | Push-Button Reset Engine
+excerpt: What is ResetEngine.exe?
 ---
 
 # ResetEngine.exe 
@@ -17,6 +18,9 @@ SHA256 | `16F7DFCC1ECDCC2783A031510D413EDD98182A1BD117CB2DFEB2153768426CA5`
 SHA384 | `99FFB6EE8F265A4F904F7C84096A99D5918651671B98F14592EE9038945F4E4D534FB871BFE48E65FEFE7BD59CCC4620`
 SHA512 | `7BE18F5100E7314FB3815F4D014E65F8A980E8B58D2D3A1676F249B387FF8D599EB11AB1B44E8639A98DC5D98AB3C936BD6017BA9E38F538CF4973702AA94F87`
 SSDEEP | `384:FlfHLUNi4m16fs41swWfeWEr6wDDBRJ54JeRlYA:/rC7LshEr6wD1PyK`
+IMP | `D1CCC9D0A0240603DC3279F82F80F8D3`
+PESHA1 | `A0FEF7CC9095C0357A17D5E91109289643329260`
+PE256 | `E983117C052D9BF74E26C1E9DFD0C509E18808A5832C9E2183464CDE25EA0D61`
 
 ## Runtime Data
 
@@ -32,15 +36,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\ResetEngine.exe |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -53,6 +55,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/16f7dfcc1ecdcc2783a031510d413edd98182a1bd117cb2dfeb2153768426ca5/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -60,6 +68,7 @@ File | Score
 -- | --
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-100E032F234550530487627EC8FACAA8.md) | 66
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 41
+[C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 43
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: CptInstall.exe | Zoom Sharing Installer
+excerpt: What is CptInstall.exe?
 ---
 
 # CptInstall.exe 
@@ -37,6 +38,7 @@ SSDEEP | `6144:a9Du5m7F0JJVyO4FTgedzHNigMXOUi79u0Hcoia0vo:a9Du5m7aJ8bFTgedzHN3ai
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

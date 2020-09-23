@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCPROP.exe | Microsoft IME 2012
+excerpt: What is IMTCPROP.exe?
 ---
 
 # IMTCPROP.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:Xi9vDm9BpJC536UM77/JdQTJHrqj21P7I/Xg+mClKRiTPqcfYn/:S9vDwrgMH/Dot
 * Product Version: 15.0.9600.18514
 * Language: Language Neutral
 * Legal Copyright:  2012 Microsoft Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

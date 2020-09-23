@@ -1,5 +1,6 @@
 ﻿---
 title: AutoWorkplace.exe |  
+excerpt: What is AutoWorkplace.exe?
 ---
 
 # AutoWorkplace.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:rWn5k74MInd8d+bEBG90h/fIuRekZnqCNMrpR+nzC3QDy76tiSkqSklg:KO74VndI+
 * Product Version: 6.3.9600.16384
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

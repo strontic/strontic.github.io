@@ -1,5 +1,6 @@
 ﻿---
 title: Tutorial.exe | Synaptics Pointing Device Tutorial
+excerpt: What is Tutorial.exe?
 ---
 
 # Tutorial.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:EIrcvYbJGlNv5HAwT3Js1XD5bPyLShsNlJYRV37wTyPzemA:PUNBgwT3K5bszJYj7
 * Product Version: 15.3.29 13Oct11
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2011
+
 
 
 ## Possible Misuse

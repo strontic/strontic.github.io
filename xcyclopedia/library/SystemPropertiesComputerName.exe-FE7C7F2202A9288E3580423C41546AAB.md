@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesComputerName.exe | Change Computer Settings
+excerpt: What is SystemPropertiesComputerName.exe?
 ---
 
 # SystemPropertiesComputerName.exe 
@@ -17,8 +18,14 @@ SHA256 | `AEF9CB5CDA480566B3A8E1E0267F31D52F2B48B96CD3D04006B69345EB207820`
 SHA384 | `080FF246918B35D594F55DEC086F2403EB704DE09FDD15F6AAB064F6B49A2674D3EE47BE5C4D8B7162EAADDDA0024F62`
 SHA512 | `EDDDAA16CE8A3762CDAB72B07CD83894A4342232863845A2712366596836476DDF24904C4D448AD261E300397DF6611A796C4DB8320723F1119B7757A8E83721`
 SSDEEP | `1536:mfdZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5JuM:mHKzECTMpuDhjRVJGY`
+IMP | `B788892AE84BA86201A726810F01CB07`
+PESHA1 | `3FCC61A4BA340227AE4409D47E060E11943D85F1`
+PE256 | `1F0F4192FF283DA45F0F80CD07B71C5307AAD58CB442254801C95D8747E2C29C`
 
 ## Runtime Data
+
+### Child Processes:
+explorer.exe
 
 ### Open Handles:
 
@@ -31,21 +38,16 @@ Path | Type
 (R-D)   C:\Windows\SysWOW64\en-US\netid.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -76,6 +78,12 @@ C:\Windows\SysWOW64\SystemPropertiesComputerName.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/aef9cb5cda480566b3a8e1e0267f31d52f2b48b96cd3d04006b69345eb207820/detection/
 
 ## File Similarity (ssdeep match)
 

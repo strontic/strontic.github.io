@@ -1,5 +1,6 @@
 ﻿---
 title: tabcal.exe | Digitizer Calibration Tool
+excerpt: What is tabcal.exe?
 ---
 
 # tabcal.exe 
@@ -21,6 +22,9 @@ SHA256 | `F31B4C751DBCA276446119BA775787C3EB032DA72EABCD40AD96A55826A3F33C`
 SHA384 | `E84AE1B42DAE9C2A7020E4F81099B0F60F5D60CDFD8DA34D79F279E34D54D9DE3990F03961BD3D9FDA4B2DD6509C6155`
 SHA512 | `646DFE4CFE90D068C3DA4C35F7053BB0F57687875A0F3469C0683E707306E6A42B0BACA3E944D78F9BE5C564BB0600202C32C223A770F89D3E2B07A24673C259`
 SSDEEP | `1536:XVS+G/Xh6wJ/59qhwfhrJ4L1Y6pEGMne24cdfW2jbJK:XsL6oRFhrJ4G6J2eJcdfZbs`
+IMP | `AE0F94FDC8914C190BEEBCE401A3F4B2`
+PESHA1 | `15139CB1C91A530FEF5B3C162D1E0B8654ECC750`
+PE256 | `870798A3E4A6457743FB646256BB153E0ADFDB277B1D2D1323CD5ACE76C59EFB`
 
 ## Runtime Data
 
@@ -34,23 +38,19 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\tabcal.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\HID.DLL |
@@ -59,7 +59,10 @@ C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
+C:\Windows\system32\NInput.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\system32\tabcal.exe |
 C:\Windows\System32\ucrtbase.dll |
@@ -70,8 +73,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,6 +87,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f31b4c751dbca276446119ba775787c3eb032da72eabcd40ad96a55826a3f33c/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: cacls.exe | Control ACLs Program
+excerpt: What is cacls.exe?
 ---
 
 # cacls.exe 
@@ -17,6 +18,9 @@ SHA256 | `D6E40B4ED7C0BC8AC18B15D265ED2EDAB9EFC260332EF0A98623F943BE3A43FA`
 SHA384 | `75A1879BF22E076C12BC6EDB4EBF40604B78EC6C8D347CD1DE957B327187E61D9943BC18C2D9E36CA6D938D387DA3A5C`
 SHA512 | `54A884652032040ACDA5C3A78D258BBE50362F77F2A3A364A8819CF8263282FCB21E35D7293EB62202EA82E96B5994FD072356D310DF3037BEC6A61C221796A6`
 SSDEEP | `768:gOkLr2hyZByocltC8L90CoWbR+B9/d9gWh4i/6rWaDbGXlF:gBLr2hOkzL90CoK+BRd95hmDbGXlF`
+IMP | `30254A514CD61AB9D483307AA5A195E8`
+PESHA1 | `FE772B355E1733B1F8E1954C44BDBCC10DAC6621`
+PE256 | `A6EC74EDD825EC6EE28F6A74A8CBFCA102A994AABF560EA2F4D578E04A251641`
 
 ## Runtime Data
 
@@ -67,6 +71,12 @@ SSDEEP | `768:gOkLr2hyZByocltC8L90CoWbR+B9/d9gWh4i/6rWaDbGXlF:gBLr2hOkzL90CoK+BR
 
 ```
 
+### Usage (stderr):
+```cmhg
+The system cannot find the file specified.
+
+```
+
 ### Loaded Modules:
 
 Path |
@@ -94,6 +104,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d6e40b4ed7c0bc8ac18b15d265ed2edab9efc260332ef0a98623f943be3a43fa/detection/
 
 
 ## Possible Misuse
@@ -103,11 +119,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_file_permission_modifications.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_file_permission_modifications.yml) | `- '\cacls.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #2: cacls - Grant permission to specified user or group recursively [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #2: cacls - Grant permission to specified user or group recursively [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #2: cacls - Grant permission to specified user or group recursively [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #2: cacls - Grant permission to specified user or group recursively [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | - [Atomic Test #2 - cacls - Grant permission to specified user or group recursively](#atomic-test-2---cacls---grant-permission-to-specified-user-or-group-recursively) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md) | ## Atomic Test #2 - cacls - Grant permission to specified user or group recursively | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | 		$s1 = "cacls %s /t /c /e /r administrators" fullword ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | $s1 = "cacls %s /t /c /e /r administrators" fullword ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

@@ -1,5 +1,6 @@
 ﻿---
 title: waitfor.exe | waitfor - wait/send a signal over a network
+excerpt: What is waitfor.exe?
 ---
 
 # waitfor.exe 
@@ -17,6 +18,9 @@ SHA256 | `1ED4BDFBBE7E27856D1B3D6D743EFAB72E5727BAE7B6C02492F8890C97AE602F`
 SHA384 | `C34C2EC91CBF91B7F89DF4481D7464B34EFE9DF1385FE27B0CF8B6F6A2BA67C2588A6AB85BEF32C873C04D97290836BE`
 SHA512 | `650DCC22A207FFA42135CF95F3B47ABFCA6CAE63989E81D382A3F191718075927224783FFC2BBF4B54D8ECB801786086CD0B022E07D98FFF09D34BA9742021D5`
 SSDEEP | `768:xiRUemA7ksCE/cil7ko1YllhHdoggsnf7bdHHKGrbinxPO1:8vZv/cil7LRgznT5HHKMsxW1`
+IMP | `8275F58C1058DF4BAFF590DA991AC78C`
+PESHA1 | `A3D25E839F2B615E6365E3A33260D1B6CC4BDDD1`
+PE256 | `DB1532FFA7AD1DC65A5DBF2920FB9656AE8126EA3A41F41E4CB53735958468B1`
 
 ## Runtime Data
 
@@ -83,14 +87,9 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\waitfor.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -120,6 +119,12 @@ C:\Windows\system32\waitfor.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/1ed4bdfbbe7e27856d1b3d6d743efab72e5727bae7b6c02492f8890c97ae602f/detection/
 
 
 ## Possible Misuse
@@ -128,9 +133,7 @@ C:\Windows\system32\waitfor.exe |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `- '*waitfor*/s*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `- '*waitfor*/si persist*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) |       $x2 = "wss.Run \"powershell.exe \" & Chr(34) & \"& {waitfor haha /T 2}\" & Chr(34), 0" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) | $x2 = "wss.Run \"powershell.exe \" & Chr(34) & \"& {waitfor haha /T 2}\" & Chr(34), 0" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

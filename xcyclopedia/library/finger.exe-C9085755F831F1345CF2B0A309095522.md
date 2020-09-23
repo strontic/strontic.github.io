@@ -1,5 +1,6 @@
 ﻿---
 title: finger.exe | TCPIP Finger Command
+excerpt: What is finger.exe?
 ---
 
 # finger.exe 
@@ -17,13 +18,16 @@ SHA256 | `D6C52EA560D6009505545E53C481F1D75579E11DADE120CF164EBD196824BA91`
 SHA384 | `E6E76C1B0F724AEEA555243155F05623A582B4837D3AE365781A39EC360DD6831608DC07BDBD62C705F9B19AC376D71D`
 SHA512 | `69FCF92EBE2E86EC0160B785740979E48FE87E79DDE225ABBA27CCC7028DF071416532F5B310FF0051F4949E91B509C1A7A04771B91FABB1724583F8FF5C0622`
 SSDEEP | `384:LgY+HjG7lsZSy9x6R58lSGQ7O7+VjNbKfWl0W:ETWUmVjAq`
+IMP | `E15D0366B0329E559CFF2A7B0126BA16`
+PESHA1 | `A442D917D4FE5EBA502EE4B5736D1EAEC2290834`
+PE256 | `DBE5062B44BFBD35D2839FAFF89618CE59472C452AE391777F1DB6B6B6C71DC8`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
 
-[DESKTOP-RQ9SGT4]
+[37aacd8d-548a-4e5b-8f88-125853a1ecae]
 
 ```
 
@@ -53,14 +57,9 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\finger.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -90,6 +89,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/d6c52ea560d6009505545e53c481f1d75579e11dade120cf164ebd196824ba91/detection/
 
 
 ## Possible Misuse

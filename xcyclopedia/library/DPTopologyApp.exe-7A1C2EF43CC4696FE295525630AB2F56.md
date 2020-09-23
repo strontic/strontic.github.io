@@ -1,5 +1,6 @@
 ﻿---
 title: DPTopologyApp.exe | Intel(R) Graphics Control Panel
+excerpt: What is DPTopologyApp.exe?
 ---
 
 # DPTopologyApp.exe 
@@ -83,6 +84,7 @@ DPTopologyApp.exe WerFault.exe
 * Product Version: 8.15.10.3682
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

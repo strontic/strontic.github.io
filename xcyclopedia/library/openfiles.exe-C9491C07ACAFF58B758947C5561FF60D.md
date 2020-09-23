@@ -1,5 +1,6 @@
 ﻿---
 title: openfiles.exe | Displays the current open files list
+excerpt: What is openfiles.exe?
 ---
 
 # openfiles.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:DFfGcb1X0jL3+nJNdYWFojeXtNTQgiNpOU2UJPZK2vaxAX:nb1XQYcjq7ijOUDPZV
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

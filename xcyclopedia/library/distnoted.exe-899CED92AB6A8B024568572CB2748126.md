@@ -1,5 +1,6 @@
 ﻿---
 title: distnoted.exe | distnoted
+excerpt: What is distnoted.exe?
 ---
 
 # distnoted.exe 
@@ -61,6 +62,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1,750,441,0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2007-2011, Apple Inc.
+
 
 ## File Similarity (ssdeep match)
 

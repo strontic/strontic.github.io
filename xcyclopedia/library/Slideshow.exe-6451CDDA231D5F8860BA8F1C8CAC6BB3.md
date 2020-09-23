@@ -1,5 +1,6 @@
 ﻿---
 title: Slideshow.exe | Slideshow PlugIn for IrfanView
+excerpt: What is Slideshow.exe?
 ---
 
 # Slideshow.exe 
@@ -50,6 +51,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4, 54, 0, 0
 * Language: English (United States)
 * Legal Copyright: Copyright  2019 by Irfan Skiljan, Austria
+
 
 
 ## Possible Misuse

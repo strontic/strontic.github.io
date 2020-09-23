@@ -1,5 +1,6 @@
 ﻿---
 title: setup16.exe | MS-Setup Setup Exe
+excerpt: What is setup16.exe?
 ---
 
 # setup16.exe 
@@ -39,6 +40,7 @@ SSDEEP | `384:hQra/7bbfcwQf0nroVdaAqmHqzwjkaKdXnQOcuNS9MVrlAAFgWSiyWjCGX:hQuzMbK
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright: Copyright  Microsoft Corp. 1991-1997
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: dsregcmd.exe | DSREG commandline tool
+excerpt: What is dsregcmd.exe?
 ---
 
 # dsregcmd.exe 
@@ -49,6 +50,7 @@ DSREGCMD switches
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

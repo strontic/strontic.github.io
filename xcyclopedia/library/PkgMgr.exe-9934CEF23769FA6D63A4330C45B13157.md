@@ -1,5 +1,6 @@
 ﻿---
 title: PkgMgr.exe | Windows Package Manager
+excerpt: What is PkgMgr.exe?
 ---
 
 # PkgMgr.exe 
@@ -22,6 +23,9 @@ SHA256 | `ADD78C9574CA3C5913BDE91097A2C9130125C7E09657E54E456C450117945C4A`
 SHA384 | `2353FE1774C597A76C68D61BEE5CE4921AA809FAF39EAB91CED096EF3CFD0407EA1A4078D81DB71B5775134E5C4C1A73`
 SHA512 | `E43D39A42B086442B4FD8C7276B4B65C22978909519D1AB9DD3FF25A6E0B93048CEAB55CC4D4E042F5EE1FD430C5664DE5542E2431FA4438DB9AFDFB17A36A2B`
 SSDEEP | `6144:leHLzmyhGNXJl1hJ1ILeIi75S+MHxM8cG28x:lmLzmyhGNXJl1X1meI0NMHxM6n`
+IMP | `F8D5056C8491474AE1BF8CC7382B98B0`
+PESHA1 | `CE25AC82860C737443C0300F2672A6A6D80BBD5A`
+PE256 | `DEFD105B09EA0472979B649777F6214D2FCC5B0CE21555F99C22F25FA6EDDD52`
 
 ## Runtime Data
 
@@ -34,16 +38,11 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -70,8 +69,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,6 +83,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/add78c9574ca3c5913bde91097a2c9130125c7e09657e54e456c450117945c4a/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: splwow64.exe | Print driver host for applications
+excerpt: What is splwow64.exe?
 ---
 
 # splwow64.exe 
@@ -51,6 +52,7 @@ Path | Type
 * Product Version: 10.0.17763.1339
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

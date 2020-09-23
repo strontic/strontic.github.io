@@ -1,5 +1,6 @@
 ﻿---
 title: NisSrv.exe | Microsoft Network Realtime Inspection Service
+excerpt: What is NisSrv.exe?
 ---
 
 # NisSrv.exe 
@@ -45,6 +46,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 4.18.2007.8
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

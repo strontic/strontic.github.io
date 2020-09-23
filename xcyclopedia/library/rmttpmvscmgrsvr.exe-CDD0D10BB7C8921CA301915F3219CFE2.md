@@ -1,5 +1,6 @@
 ﻿---
 title: rmttpmvscmgrsvr.exe | TPM Virtual Smart Card Manager DCOM Server
+excerpt: What is rmttpmvscmgrsvr.exe?
 ---
 
 # rmttpmvscmgrsvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:nlFBcAqn3e8SRFnpXCg0vy6ulLxvh4hwudzd:l/7tlTSg0vy6ull5uwq`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

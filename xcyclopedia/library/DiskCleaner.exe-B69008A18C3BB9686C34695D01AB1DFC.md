@@ -1,5 +1,6 @@
 ﻿---
 title: DiskCleaner.exe | Glary Utilities DiskCleaner
+excerpt: What is DiskCleaner.exe?
 ---
 
 # DiskCleaner.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:SMl+aADO++KVVVVVVVVVVVVVVVVVVVVVVVVVVyzzzzzzzzzzuHzHzfzwzJzzpzYP:9
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

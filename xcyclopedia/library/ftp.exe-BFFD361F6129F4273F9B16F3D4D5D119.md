@@ -1,5 +1,6 @@
 ﻿---
 title: ftp.exe | File Transfer Program
+excerpt: What is ftp.exe?
 ---
 
 # ftp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:X+lMWvnNSDzGeJ47xjBoziZTz2lo6nkPk/RrK3PBCW2ldFKJOdgExueP52eablE4:c
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: mktemp.exe | 
+excerpt: What is mktemp.exe?
 ---
 
 # mktemp.exe 
@@ -74,6 +75,7 @@ Try '/usr/bin/mktemp --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

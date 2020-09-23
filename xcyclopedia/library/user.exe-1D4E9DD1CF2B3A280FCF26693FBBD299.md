@@ -1,5 +1,6 @@
 ﻿---
 title: user.exe | User
+excerpt: What is user.exe?
 ---
 
 # user.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24:ev1GSgGXpGiRfAmykJPOYuIZW0gRNHQ02Si35WWdPOPNL:qgGXTAmlPOxIZWj7HJo5W
 * Product Version: 6.3.9600.17475
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

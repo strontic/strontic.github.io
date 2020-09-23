@@ -1,5 +1,6 @@
 ﻿---
 title: script-fu.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is script-fu.exe?
 ---
 
 # script-fu.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 
 

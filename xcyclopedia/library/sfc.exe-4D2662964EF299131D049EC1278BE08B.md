@@ -1,5 +1,6 @@
 ﻿---
 title: sfc.exe | System Integrity Check and Repair
+excerpt: What is sfc.exe?
 ---
 
 # sfc.exe 
@@ -17,6 +18,9 @@ SHA256 | `167A282DE037BCD2192205EC555890F849C4BF305CD284A763060F3332C453C6`
 SHA384 | `01291DD0A1C6CF4A1CEBC5215D0BE89839F94FD1400161D33C03DC03A057A462749023FF214658D1B5FD7FEF946975A0`
 SHA512 | `844B73A4C9D55F227FD4CACDF6634DA3BDFB992DAA5AFC5F14E1E28CB8CA9A66A4013E3835EAC934009EB35AA96664FD8D5E2380E41969810F5BB3693B7E8C44`
 SSDEEP | `768:DQ4px32PIRdrO8Zxt6MmHgft1g8GjL6EvUio4dU03CFA2PHGTBpPPopUT:VNdr5oMmHgV1lGHfox0gPHGlpP4U`
+IMP | `0E481D15F5D349B3A5B413EA7E093AE3`
+PESHA1 | `A300AEA0389D9C2AC2902BCBC25CC51B051A00E2`
+PE256 | `0A64FE4CE5D824E282D92CC028C6EAD3F76F7A8CC54E5AFB39C2109AF9868A64`
 
 ## Runtime Data
 
@@ -82,6 +86,12 @@ C:\Windows\SysWOW64\sfc.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/167a282de037bcd2192205ec555890f849c4bf305cd284a763060f3332c453c6/detection/
 
 
 ## Possible Misuse
@@ -90,7 +100,7 @@ C:\Windows\SysWOW64\sfc.exe |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poisonivy.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy.yar) | 		$s4 = "\\sfc.exe" fullword ascii /* score: '11.005' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_poisonivy.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy.yar) | $s4 = "\\sfc.exe" fullword ascii /* score: '11.005' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

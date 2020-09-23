@@ -1,5 +1,6 @@
 ﻿---
 title: where.exe | Where - Lists location of files
+excerpt: What is where.exe?
 ---
 
 # where.exe 
@@ -92,6 +93,7 @@ Type "WHERE /?" for usage help.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

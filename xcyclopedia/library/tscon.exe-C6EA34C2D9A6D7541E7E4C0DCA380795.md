@@ -1,5 +1,6 @@
 ﻿---
 title: tscon.exe | Session Connection Utility
+excerpt: What is tscon.exe?
 ---
 
 # tscon.exe 
@@ -70,6 +71,7 @@ TSCON {sessionid | sessionname} [/DEST:sessionname]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

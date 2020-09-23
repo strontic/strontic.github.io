@@ -1,5 +1,6 @@
 ﻿---
 title: Zoom.exe | Zoom Meetings
+excerpt: What is Zoom.exe?
 ---
 
 # Zoom.exe 
@@ -41,6 +42,7 @@ SSDEEP | `3072:eGmoCInr2trmvwxW/gharkeCssz0/mHVf8fLMsmlp3vKpRB0+:eACInr2WCXGfIvC
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

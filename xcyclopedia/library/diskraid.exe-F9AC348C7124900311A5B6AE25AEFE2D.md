@@ -1,5 +1,6 @@
 ﻿---
 title: diskraid.exe | DiskRAID
+excerpt: What is diskraid.exe?
 ---
 
 # diskraid.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:CCvISPehe3rlKIYCwn6Mrnp4AgDGWC+TNtkyuZEL92Rj/5fMNPeXGtl4t2UVNc9F:
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

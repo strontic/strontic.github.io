@@ -1,5 +1,6 @@
 ﻿---
 title: WinMgmt.exe | WMI Service Control Utility
+excerpt: What is WinMgmt.exe?
 ---
 
 # WinMgmt.exe 
@@ -105,6 +106,7 @@ Usage:  winmgmt	[/backup <filename>] [/restore <filename> <flag>]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

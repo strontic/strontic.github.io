@@ -1,5 +1,6 @@
 ﻿---
 title: jaccessinspector.exe | OpenJDK Platform binary
+excerpt: What is jaccessinspector.exe?
 ---
 
 # jaccessinspector.exe 
@@ -82,6 +83,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 11.0.8
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

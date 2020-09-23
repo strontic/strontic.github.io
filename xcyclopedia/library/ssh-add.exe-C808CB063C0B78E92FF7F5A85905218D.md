@@ -1,5 +1,6 @@
 ﻿---
 title: ssh-add.exe | 
+excerpt: What is ssh-add.exe?
 ---
 
 # ssh-add.exe 
@@ -16,6 +17,9 @@ SHA256 | `7E5D13C4B13BE142DA676FA5F533AA92D12F7C66AC04EC26066C271326B789E7`
 SHA384 | `04BE6FBE1AE4FB5F571C9963D032995D7DD74454672D6C3A07EEF11A836FA07831A779F5B22BD7B2C3CA10D5B17F353B`
 SHA512 | `3F7108CA89A7F57FE997F0440F885E5A88B33A2FC87919908E7977E34F179D1C82525EA922504457E1FE560D688270EE8D78E3798E42D84DEEB3646ACBC6B466`
 SSDEEP | `6144:4NWN/DJLikLPPD4mv/uws3RrDDdgi2yZ8jiRPgaDb2O7fcCnDtS9LU9qDCLlC4F:4NWNrJPLMQ/uwypei2alOU9uCLlCq`
+IMP | `5CE85084191BE301FA076E5F6FC85F6B`
+PESHA1 | `B7595AA848AE9294EE43BC1EE822BFA8418E539A`
+PE256 | `A7A76AB098186CDCDA291150D9347A055F2AF14270CAC3A2EB71E31560D758F7`
 
 ## Runtime Data
 
@@ -29,6 +33,8 @@ Error connecting to agent: No such file or directory
 
 Path |
 -- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\OpenSSH\ssh-add.exe |
 
@@ -50,6 +56,12 @@ C:\Windows\system32\OpenSSH\ssh-add.exe |
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/7e5d13c4b13be142da676fa5f533aa92d12f7c66ac04ec26066c271326b789e7/detection/
 
 ## File Similarity (ssdeep match)
 

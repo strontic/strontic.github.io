@@ -1,5 +1,6 @@
 ﻿---
 title: wbxreport.exe | WBXReport Module
+excerpt: What is wbxreport.exe?
 ---
 
 # wbxreport.exe 
@@ -37,6 +38,7 @@ SSDEEP | `12288:mcjD+ZGnFGXCez87jyFErlkrmFKCvJ4rDXJMgvEhrxgG:mcjD+ZGnFy1gyFEzFKC
 * Product Version: 3303.0.1806.2000
 * Language: English (United States)
 * Legal Copyright:  2007-2018 Cisco and/or its affiliates. All rights reserved.
+
 
 
 

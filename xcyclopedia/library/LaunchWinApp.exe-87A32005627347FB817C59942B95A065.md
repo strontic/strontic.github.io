@@ -1,5 +1,6 @@
 ﻿---
 title: LaunchWinApp.exe | Launch Windows App
+excerpt: What is LaunchWinApp.exe?
 ---
 
 # LaunchWinApp.exe 
@@ -40,10 +41,12 @@ SSDEEP | `768:0mllU49zbtUEjM49favBpRPY7yNepRLoZryY:0I+49zOonRsY7yNzryY`
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\LaunchWinApp.exe](LaunchWinApp.exe-4ACA30E7F19EE03A08E81C7499891FC5.md) | 90
 [C:\Windows\SysWOW64\LaunchWinApp.exe](LaunchWinApp.exe-EE4D58233B0C90B7BABDC402F2AB5BF8.md) | 90
 
 

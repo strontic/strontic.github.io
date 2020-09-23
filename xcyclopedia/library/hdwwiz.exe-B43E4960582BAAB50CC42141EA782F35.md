@@ -1,5 +1,6 @@
 ﻿---
 title: hdwwiz.exe | Add Hardware Wizard
+excerpt: What is hdwwiz.exe?
 ---
 
 # hdwwiz.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:oP+C9upFFdyb9A4G0In3BhzhWM1GOVz17:omC9upFFK9qZ3qOT`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

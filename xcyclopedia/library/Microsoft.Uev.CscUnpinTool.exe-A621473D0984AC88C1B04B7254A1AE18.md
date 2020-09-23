@@ -1,5 +1,6 @@
 ﻿---
 title: Microsoft.Uev.CscUnpinTool.exe | Microsoft.Uev.CscUnpinTool EXE
+excerpt: What is Microsoft.Uev.CscUnpinTool.exe?
 ---
 
 # Microsoft.Uev.CscUnpinTool.exe 
@@ -45,6 +46,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

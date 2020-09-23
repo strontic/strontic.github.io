@@ -1,5 +1,6 @@
 ﻿---
 title: SDPEStart.exe | PE Start Menu
+excerpt: What is SDPEStart.exe?
 ---
 
 # SDPEStart.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2009-2018 Safer-Networking Ltd. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

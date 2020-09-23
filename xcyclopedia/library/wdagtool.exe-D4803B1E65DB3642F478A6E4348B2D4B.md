@@ -1,5 +1,6 @@
 ﻿---
 title: wdagtool.exe | 
+excerpt: What is wdagtool.exe?
 ---
 
 # wdagtool.exe 
@@ -56,6 +57,7 @@ WDAGTool.exe [options]
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

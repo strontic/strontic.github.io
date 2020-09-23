@@ -1,5 +1,6 @@
 ﻿---
 title: WWAHost.exe | Microsoft WWA Host
+excerpt: What is WWAHost.exe?
 ---
 
 # WWAHost.exe 
@@ -41,6 +42,12 @@ WWAHost.exe WerFault.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\WWAHost.exe](WWAHost.exe-7D9FA478A888364A5F82A8C9C2A45D9C.md) | 25
 
 
 

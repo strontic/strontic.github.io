@@ -1,5 +1,6 @@
 ﻿---
 title: vulkaninfo-x86.exe | Vulkan Info
+excerpt: What is vulkaninfo-x86.exe?
 ---
 
 # vulkaninfo-x86.exe 
@@ -59,6 +60,7 @@ OPTIONS:
 * Product Version: 1.1.82.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015-2018
+
 
 ## File Similarity (ssdeep match)
 

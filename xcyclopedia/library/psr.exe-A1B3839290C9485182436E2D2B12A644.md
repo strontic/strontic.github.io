@@ -1,5 +1,6 @@
 ﻿---
 title: psr.exe | Steps Recorder
+excerpt: What is psr.exe?
 ---
 
 # psr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:XskrYkkRu4JYf/DDVrkv2tde70JAVcD8LPhSiWofQr2k5l8BmMxowi/EH1qf:/hc9
 * Product Version: 10.0.17763.1282
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

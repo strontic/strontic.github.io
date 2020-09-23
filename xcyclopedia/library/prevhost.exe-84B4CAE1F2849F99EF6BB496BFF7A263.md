@@ -1,5 +1,6 @@
 ﻿---
 title: prevhost.exe | Preview Handler Surrogate Host
+excerpt: What is prevhost.exe?
 ---
 
 # prevhost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:0VmflKL4dAY2a6bQN4Ge5Nqwg+P0BxO4Xd1Wu1yjGVwfUbuVNWGcWYYk:0VWlKcdAY
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

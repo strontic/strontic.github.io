@@ -1,5 +1,6 @@
 ﻿---
 title: GraphStudioNext64.exe | GraphStudioNext
+excerpt: What is GraphStudioNext64.exe?
 ---
 
 # GraphStudioNext64.exe 
@@ -118,6 +119,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Product Version: 0.7.1.59
 * Language: English
 * Legal Copyright: 
+
 
 
 

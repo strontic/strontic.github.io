@@ -1,5 +1,6 @@
 ﻿---
 title: windeploy.exe | Windows Deployment Loader
+excerpt: What is windeploy.exe?
 ---
 
 # windeploy.exe 
@@ -61,6 +62,7 @@ C:\Windows\system32\oobe\windeploy.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

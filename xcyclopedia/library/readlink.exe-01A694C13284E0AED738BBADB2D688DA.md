@@ -1,5 +1,6 @@
 ﻿---
 title: readlink.exe | 
+excerpt: What is readlink.exe?
 ---
 
 # readlink.exe 
@@ -96,6 +97,7 @@ C:\Windows\System32\ws2_32.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

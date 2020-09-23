@@ -1,5 +1,6 @@
 ﻿---
 title: aspnetca.exe | ASP.NET setup custom actions
+excerpt: What is aspnetca.exe?
 ---
 
 # aspnetca.exe 
@@ -44,6 +45,7 @@ and should never be called manually.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

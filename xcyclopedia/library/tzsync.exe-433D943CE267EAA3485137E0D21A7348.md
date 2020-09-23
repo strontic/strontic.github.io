@@ -1,5 +1,6 @@
 ﻿---
 title: tzsync.exe | TimeZone Sync Task
+excerpt: What is tzsync.exe?
 ---
 
 # tzsync.exe 
@@ -17,28 +18,11 @@ SHA256 | `3C4DE3F013D4611BBDB14EA17207E4D93EB406E14E639B1D87CE217C96747CF2`
 SHA384 | `22131FC7EA40FB5F489E1DBD8BB22D759468CCCF2F80F433145CC31455C9BECFB245343B0797E3ABE41AA9B7D794195B`
 SHA512 | `E91BCC1555EBC0F3866CB81F93D65F1672818940E89972A1B76EBBDC1E5B0976854301244F3C95761C16C986D4B7154A278453F90501D9698030447A971F4450`
 SSDEEP | `1536:iSofGQ6bS1v1XQEqsGIa0ZuJXwECJlDsS37eX/z7:6YOiuuD+evP`
+IMP | `n/a`
+PESHA1 | `819D1279226913E5BF6A1F0FDE185AFC53EAEF20`
+PE256 | `096BAE6271A0237297D43B8795DE6ABD3080E139329D447E82495B44A773843C`
 
 ## Runtime Data
-
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RWD)   C:\Windows\System32 | File
-\...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_2968 | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -68,6 +52,12 @@ C:\Windows\system32\tzsync.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/3c4de3f013d4611bbdb14ea17207e4d93eb406e14e639b1d87ce217c96747cf2/detection/
 
 
 

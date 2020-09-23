@@ -1,5 +1,6 @@
 ﻿---
 title: scss.exe | Security Compliance Scanner Server
+excerpt: What is scss.exe?
 ---
 
 # scss.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:uWT83XZuqsO+voReilo9+xDxRZk2g5oU/cHQZe40lWLFNFW:TT83puq/+valdFxI35
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

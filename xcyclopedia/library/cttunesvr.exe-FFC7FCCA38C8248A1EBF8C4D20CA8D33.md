@@ -1,5 +1,6 @@
 ﻿---
 title: cttunesvr.exe | ClearType Tuner
+excerpt: What is cttunesvr.exe?
 ---
 
 # cttunesvr.exe 
@@ -17,6 +18,9 @@ SHA256 | `BD23F7BAA3EA5D4303FD11BBF58132C9732DFCFD4EC61ADC0033AB7556B8B8B9`
 SHA384 | `B099FD33F2D1004D660BD88BD655361227DD210AC83CE3FED19973441DB30743D4B063B0B2C920418221DFA82E08F472`
 SHA512 | `6AB73D95BDE4E727875861AB2697BEC43730EDF40C1800D9118513C5B85111DE05DB85D44CB745FCE1A47A8B59762EC85E31C7346B373C33203C38ACACDAB2A5`
 SSDEEP | `768:iyq+IN5iphUL9jsspsuwqJk1vjsiMzr1avhTku:iyqN5ipisspsuwqJk1vjIEvdku`
+IMP | `C888235856577B905938185E0F1CDC12`
+PESHA1 | `8F2F356F754E3E32F98BAB89AD0BAD99370A5F9F`
+PE256 | `B0D7944836BA32D194B104379E232BB5F9E9EC9405734787AE17418191F1547D`
 
 ## Runtime Data
 
@@ -25,16 +29,11 @@ SSDEEP | `768:iyq+IN5iphUL9jsspsuwqJk1vjsiMzr1avhTku:iyqN5ipisspsuwqJk1vjIEvdku`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\cttunesvr.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -65,6 +64,12 @@ C:\Windows\SysWOW64\cttunesvr.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/bd23f7baa3ea5d4303fd11bbf58132c9732dfcfd4ec61adc0033ab7556b8b8b9/detection/
 
 
 

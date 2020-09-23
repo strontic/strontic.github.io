@@ -1,5 +1,6 @@
 ﻿---
 title: WorkFolders.exe | Work Folders
+excerpt: What is WorkFolders.exe?
 ---
 
 # WorkFolders.exe 
@@ -17,49 +18,42 @@ SHA256 | `CFC058A712B0F1A0932E7FA1F17430EEAA231C41FDD1EAD38639D603A8006ACA`
 SHA384 | `9E2F49CDD221E6F38DE9F5C40974DCCE0E6216631E9CE81FFA86D7D7671C4BA17155B52DB4E81BC929F34D7B30D06A51`
 SHA512 | `9575B2C03492994A4DAECC1920E8B18BE5FD2968DDAA99D4FD1ED7BA2730F2A952669FCD86B653A3FD7E9F45A268D0B9C153FFC80070DD745871E3AA6AA0F9F3`
 SSDEEP | `1536:wfNflQGO4bUh97+Bq+KvejHDHIm1wisw/8cxEa:oBhAfT+lHDHIm1Uw0cxE`
+IMP | `7468ED9A85006965C01F519C0D2C8E9F`
+PESHA1 | `28EDC5C9728C1BF1EE2FADB9985B6D1FC2564BF5`
+PE256 | `731232265E86E45F30872B1D4DC4D44127031BFCF3B1B97EA5C91EA47FE1EA39`
 
 ## Runtime Data
 
 ### Child Processes:
 control.exe
 
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\system32\DEVOBJ.dll |
+C:\Windows\system32\dmEnrollEngine.DLL |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\policymanager.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WorkFolders.exe |
 
@@ -81,6 +75,12 @@ C:\Windows\system32\WorkFolders.exe |
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/cfc058a712b0f1a0932e7fa1f17430eeaa231c41fdd1ead38639d603a8006aca/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ktpass.exe | Kerberos keytab tool
+excerpt: What is ktpass.exe?
 ---
 
 # ktpass.exe 
@@ -85,6 +86,7 @@ Command line options:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

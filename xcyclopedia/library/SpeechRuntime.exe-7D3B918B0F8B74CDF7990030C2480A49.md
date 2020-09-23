@@ -1,5 +1,6 @@
 ﻿---
 title: SpeechRuntime.exe | Speech Runtime Executable
+excerpt: What is SpeechRuntime.exe?
 ---
 
 # SpeechRuntime.exe 
@@ -17,6 +18,9 @@ SHA256 | `BCE8DD332BE145D80C4D32354AAA68590C964D50CE4D2F83F6B775A03011FEEC`
 SHA384 | `1F96A4AA46A58D0074EFD14A49BD919444A6F71BC26202283FA8C3A43D3FD9BCE612E7A2A9906B4D67964DC9717AAB1A`
 SHA512 | `4F317B37C29ADCA80B7D3C9D9494E5EE636A25628AB23623F8B27199DFF1351E0EB6366C9F49D5D48F8FA90F669E3F227887A182ED5C15F18032431606AFE136`
 SSDEEP | `3072:Pdr828Mc2JGBMlRuVRyIyGzVL83I6H0CeYDtuqx1yY/Ptm9Cskaxa7H/bqoRdhAI:/8AdRurBi3I6H0uDt1/Pq+VDbR+`
+IMP | `BE5F2589CC9B9F8396B9829ED1BB6BBA`
+PESHA1 | `258FDE5E063B30A73278A0298D59DB5B2C24AE1C`
+PE256 | `F0FA23D0EFACD30FB11964BF362D3C6C4505E81826F496B018AA94CBAE34FF4C`
 
 ## Runtime Data
 
@@ -31,6 +35,7 @@ C:\Windows\SYSTEM32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
 C:\Windows\system32\Speech_OneCore\common\SpeechRuntime.exe |
 C:\Windows\System32\ucrtbase.dll |
 
@@ -38,8 +43,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -52,6 +57,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.450
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/bce8dd332be145d80c4d32354aaa68590c964d50ce4d2f83f6b775a03011feec/detection/
 
 
 

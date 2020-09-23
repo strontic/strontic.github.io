@@ -1,5 +1,6 @@
 ﻿---
 title: dcpromo.exe | Active Directory Domain Services Installer
+excerpt: What is dcpromo.exe?
 ---
 
 # dcpromo.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:fK8SUAf7wvvwc1rMo1Nm6pvMIoY+egFpIrl0Ivz8JDiO8np6awjhIrvD:8fcHwy3y
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

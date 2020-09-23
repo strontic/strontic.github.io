@@ -1,5 +1,6 @@
 ﻿---
 title: LaunchWinApp.exe | Launch Windows App
+excerpt: What is LaunchWinApp.exe?
 ---
 
 # LaunchWinApp.exe 
@@ -91,11 +92,13 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\LaunchWinApp.exe](LaunchWinApp.exe-9501279C8CD5D2F91336DBAD91D3415E.md) | 93
+[C:\Windows\system32\LaunchWinApp.exe](LaunchWinApp.exe-C0805E49A8B08BC95190CD1B045878A7.md) | 97
 
 
 

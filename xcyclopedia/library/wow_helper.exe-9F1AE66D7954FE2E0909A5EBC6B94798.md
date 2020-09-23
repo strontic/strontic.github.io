@@ -1,5 +1,6 @@
 ﻿---
 title: wow_helper.exe | 
+excerpt: What is wow_helper.exe?
 ---
 
 # wow_helper.exe 
@@ -34,6 +35,7 @@ SSDEEP | `1536:hf77+031ru/qpap4qUqm+rIqRqEp+85LQyiY:JWo1/op4qUqfrIkb+aLQ8`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

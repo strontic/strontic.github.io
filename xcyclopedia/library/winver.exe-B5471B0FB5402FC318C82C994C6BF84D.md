@@ -1,5 +1,6 @@
 ﻿---
 title: winver.exe | Version Reporter Applet
+excerpt: What is winver.exe?
 ---
 
 # winver.exe 
@@ -23,8 +24,14 @@ SHA256 | `E8086C9FA7A33E4E6445DAB05F79EDF8E843945764B21B1024AD2FDB724037DC`
 SHA384 | `006D622918DA6AF0D5983069FA342DDBE246A1592D77D9318E6C961FBC0E80E0F34AC73EF655DA4DE0C3335AC1C29EA4`
 SHA512 | `DAAA34C689610472F36328ED14F6398BD0C01BE80ACA6F19604F4C076C86A4DB51B94B9C2133D56F5F1879C203D16C7EB214A0A270E8A3E1B7615E972ED2B4F9`
 SSDEEP | `768:QAK9l3ya+GSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXI6s:elya+xakkn6oYY0ewiP8J`
+IMP | `6F6011B78CCFE72E1E21C99F70873A70`
+PESHA1 | `EDDA6A558E938CE9A688064A9A1DC68D318DFEEF`
+PE256 | `9264014DDD52AC6FBA8C74CEEA19B6B598D510310728AFBFAC8BCDE5A3B5F974`
 
 ## Runtime Data
+
+### Child Processes:
+explorer.exe
 
 ### Window Title:
 About Windows
@@ -37,19 +44,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\winver.exe.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -58,6 +60,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\winver.exe |
 
@@ -79,6 +82,12 @@ C:\Windows\SysWOW64\winver.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e8086c9fa7a33e4e6445dab05f79edf8e843945764b21b1024ad2fdb724037dc/detection/
 
 ## File Similarity (ssdeep match)
 

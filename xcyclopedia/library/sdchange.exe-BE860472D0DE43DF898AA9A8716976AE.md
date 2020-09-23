@@ -1,5 +1,6 @@
 ﻿---
 title: sdchange.exe | Windows Remote Assistance SD Server
+excerpt: What is sdchange.exe?
 ---
 
 # sdchange.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:aZ5Skm19y1bixmwlTm+k6JrQpj//hruIr5:ENm1ARixRHwB1vr`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

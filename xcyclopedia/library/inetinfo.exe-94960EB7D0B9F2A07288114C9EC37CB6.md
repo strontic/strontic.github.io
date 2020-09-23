@@ -1,5 +1,6 @@
 ﻿---
 title: inetinfo.exe | Internet Information Services
+excerpt: What is inetinfo.exe?
 ---
 
 # inetinfo.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:Bci8FfBq3IyPukZq/JhK788exOSO/3WnX:Bt89U3akcrKGoSg0`
 * Product Version: 8.5.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

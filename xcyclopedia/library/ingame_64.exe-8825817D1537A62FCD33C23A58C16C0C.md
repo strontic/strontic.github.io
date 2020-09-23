@@ -1,5 +1,6 @@
 ﻿---
 title: ingame_64.exe | Trillian In-Game Plugin
+excerpt: What is ingame_64.exe?
 ---
 
 # ingame_64.exe 
@@ -63,6 +64,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 6.3.0.6
 * Language: English (United States)
 * Legal Copyright:  Cerulean Studios, LLC.  All rights reserved.
+
 
 
 

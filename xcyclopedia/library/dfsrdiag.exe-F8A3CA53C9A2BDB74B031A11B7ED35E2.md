@@ -1,5 +1,6 @@
 ﻿---
 title: dfsrdiag.exe | DFS Replication Diagnostics Tool
+excerpt: What is dfsrdiag.exe?
 ---
 
 # dfsrdiag.exe 
@@ -72,6 +73,7 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
 * Product Version: 10.0.14393.2999
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

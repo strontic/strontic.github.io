@@ -1,5 +1,6 @@
 ﻿---
 title: SystemSettingsBroker.exe | System Settings Broker
+excerpt: What is SystemSettingsBroker.exe?
 ---
 
 # SystemSettingsBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:b0OIP2rjVsS4HdlgSGS9y4Pq8a/HyBi6XPIctvn7T:s2r5s785ZHwjtvn`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

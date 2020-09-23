@@ -1,5 +1,6 @@
 ﻿---
 title: Configure-SMRemoting.exe | Configure-SMRemoting
+excerpt: What is Configure-SMRemoting.exe?
 ---
 
 # Configure-SMRemoting.exe 
@@ -43,6 +44,7 @@ Configure-SMRemoting.exe -GET | -ENABLE | -DISABLE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

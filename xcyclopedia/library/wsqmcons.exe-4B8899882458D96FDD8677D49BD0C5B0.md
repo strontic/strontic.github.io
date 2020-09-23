@@ -1,5 +1,6 @@
 ﻿---
 title: wsqmcons.exe | Windows SQM Consolidator
+excerpt: What is wsqmcons.exe?
 ---
 
 # wsqmcons.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:zDkOC0gIaWL7Nk7DHFfBXmHq61+nQbroYl6PyHp+QwEE5ZXXQEQ5l:3Vddk7DlfBW
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

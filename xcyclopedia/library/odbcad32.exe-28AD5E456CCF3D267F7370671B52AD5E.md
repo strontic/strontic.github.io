@@ -1,5 +1,6 @@
 ﻿---
 title: odbcad32.exe | ODBC Administrator
+excerpt: What is odbcad32.exe?
 ---
 
 # odbcad32.exe 
@@ -69,6 +70,7 @@ C:\Windows\SysWOW64\odbcad32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

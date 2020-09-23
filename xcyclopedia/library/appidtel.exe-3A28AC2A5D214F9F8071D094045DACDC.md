@@ -1,5 +1,6 @@
 ﻿---
 title: appidtel.exe | Initializes Appid ManagedInstaller and Smartscreen Telemetry
+excerpt: What is appidtel.exe?
 ---
 
 # appidtel.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:qnWST+GxWkh9zKf77M3I5TaC1oAD7v/F4TzIpncul2R5FSWrMF1u3+4KQTge0Ws1:A
 * Product Version: 10.0.14393.1613
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

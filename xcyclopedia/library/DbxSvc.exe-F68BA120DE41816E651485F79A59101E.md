@@ -1,5 +1,6 @@
 ﻿---
 title: DbxSvc.exe | Dropbox Service
+excerpt: What is DbxSvc.exe?
 ---
 
 # DbxSvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:O8n1qwrENhyssfU//Hk4gs3RJ4OBFuJTPMUFO9mQlvdXQ8vPMDGAK4rm:d1qHtuQUs
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: Dropbox, Inc.
+
 
 ## File Similarity (ssdeep match)
 

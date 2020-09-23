@@ -1,5 +1,6 @@
 ﻿---
 title: fhmanagew.exe | File History Management Tool
+excerpt: What is fhmanagew.exe?
 ---
 
 # fhmanagew.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:DA+IkrFNWhvRZVyX9DMpBjNpXm+bzpUFweKSTQrY3rJntm1rliS4248uz08Q0MeC:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

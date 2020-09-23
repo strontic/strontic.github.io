@@ -1,5 +1,6 @@
 ﻿---
 title: gldriverquery.exe | 
+excerpt: What is gldriverquery.exe?
 ---
 
 # gldriverquery.exe 
@@ -34,6 +35,7 @@ SSDEEP | `768:Y522w8WJpaIWuSQnkUIAaVAONn3fpX4yPtZZb6ekj6fCC8FMQ6ylOD8es32IDqU+:G
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: AuthHost.exe | Microsoft AuthHost
+excerpt: What is AuthHost.exe?
 ---
 
 # AuthHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:Zac1VeQgCazIEyhskFLKkn6xGbBoPbKvVLs:ZaOeQgChhnjnXbubKu`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: hh.exe | Microsoft HTML Help Executable
+excerpt: What is hh.exe?
 ---
 
 # hh.exe 
@@ -39,6 +40,7 @@ SSDEEP | `192:AvInNmiffEOXXqTeEt2TKSDLolf9kBGJ1KDJD/QWcEB:10iRXXqQK2UMA1KDOWcE`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

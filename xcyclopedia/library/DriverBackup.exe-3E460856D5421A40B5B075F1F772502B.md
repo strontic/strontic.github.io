@@ -1,5 +1,6 @@
 ﻿---
 title: DriverBackup.exe | Driver Backup/Restore
+excerpt: What is DriverBackup.exe?
 ---
 
 # DriverBackup.exe 
@@ -79,6 +80,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.17.1.4
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

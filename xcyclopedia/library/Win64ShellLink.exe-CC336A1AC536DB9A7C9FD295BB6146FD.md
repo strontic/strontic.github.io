@@ -1,5 +1,6 @@
 ﻿---
 title: Win64ShellLink.exe | WinShellLink x64
+excerpt: What is Win64ShellLink.exe?
 ---
 
 # Win64ShellLink.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:Pq0bFoLKgRRJN7O5bR61kXOM5CWSzJ7nlVL:p7O7O9RHSWSz1/`
 * Product Version: 5, 0, 0, 8
 * Language: Chinese (Simplified, China)
 * Legal Copyright:  Copyright (c) 2003-2014 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ntfrsutl.exe | Utility to dump dynamic state of File Replication Service.
+excerpt: What is ntfrsutl.exe?
 ---
 
 # ntfrsutl.exe 
@@ -108,6 +109,7 @@ C:\Windows\system32\ntfrsutl.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

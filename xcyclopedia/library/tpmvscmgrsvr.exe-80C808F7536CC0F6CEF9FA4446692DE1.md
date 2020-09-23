@@ -1,5 +1,6 @@
 ﻿---
 title: tpmvscmgrsvr.exe | TPM Virtual Smart Card Manager COM Server
+excerpt: What is tpmvscmgrsvr.exe?
 ---
 
 # tpmvscmgrsvr.exe 
@@ -17,6 +18,9 @@ SHA256 | `26F532C646277168A3DECD7E7D60A33276A1CF6A8DCACC35A9A8498923D50DDE`
 SHA384 | `F4F38360E6249A45BDA2B3B264C62029D3F9554120A68E67290AB619EB2A613536B0549D3A14A59CEA0D7F88B81CCAD5`
 SHA512 | `483847CC1762C42A691924BBA45BAD3D9D932D6E2D6504ED1AB3612ACE47E72E97D98FBB12962A4AB9ABA084A628F57F1B91680C6DDFCF3BF0DE56DECDD27D66`
 SSDEEP | `3072:a1HczjfoP8RqAK2Hs6vblWiOBBlcex48hHm7:a9cPfoP9fIsAARBIeBG`
+IMP | `D7212F3209BACBAC41D0A96B1EFD8084`
+PESHA1 | `C5BD7D18072A6566E5B604CD7228C28C13A19BC3`
+PE256 | `FDC58A2D004FD8070091EB80CE56E1FEE5FB4976591A9147D81511C703C40B92`
 
 ## Runtime Data
 
@@ -25,15 +29,10 @@ SSDEEP | `3072:a1HczjfoP8RqAK2Hs6vblWiOBBlcex48hHm7:a9cPfoP9fIsAARBIeBG`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\tpmvscmgrsvr.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -41,19 +40,10 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\system32\tpmvscmgrsvr.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -73,6 +63,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/26f532c646277168a3decd7e7d60a33276a1cf6a8dcacc35a9a8498923d50dde/detection/
 
 
 

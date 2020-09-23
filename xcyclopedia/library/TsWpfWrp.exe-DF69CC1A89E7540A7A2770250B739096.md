@@ -1,5 +1,6 @@
 ﻿---
 title: TsWpfWrp.exe | Windows Presentation Foundation Terminal Server Print Wrapper
+excerpt: What is TsWpfWrp.exe?
 ---
 
 # TsWpfWrp.exe 
@@ -43,6 +44,7 @@ Usage: TsWpfWrp.exe <PrinterName> <XPSFile> [/nodebug]
 * Product Version: 3.0.6920.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

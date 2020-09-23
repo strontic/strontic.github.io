@@ -1,5 +1,6 @@
 ﻿---
 title: LockAppHost.exe | LockAppHost
+excerpt: What is LockAppHost.exe?
 ---
 
 # LockAppHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:V80LhMUpyhl3T804SLVSjYSLLGPTeYusbpfxVHM91FOvednwaHq9ow:V80lM4cD8X
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

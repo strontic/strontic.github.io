@@ -1,5 +1,6 @@
 ﻿---
 title: EduPrintProv.exe | Printer Provision Utility for EDU
+excerpt: What is EduPrintProv.exe?
 ---
 
 # EduPrintProv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:2t4MQXwhD5q4LfD3fpi1DXVOzfNDaeamV1xGXVvaER5g8+pLdl:ONlq4LLvpi1DlG
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

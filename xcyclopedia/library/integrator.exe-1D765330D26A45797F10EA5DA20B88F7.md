@@ -1,5 +1,6 @@
 ﻿---
 title: integrator.exe | Microsoft Office Click-to-Run Integrator
+excerpt: What is integrator.exe?
 ---
 
 # integrator.exe 
@@ -73,6 +74,7 @@ MsiName=<Msi1>,<Msi2>  - Comma seperated list of Msi Names
 * Product Version: 16.0.12730.20144
 * Language: Language Neutral
 * Legal Copyright: 
+
 
 
 

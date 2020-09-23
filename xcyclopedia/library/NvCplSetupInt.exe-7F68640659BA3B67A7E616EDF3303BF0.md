@@ -1,5 +1,6 @@
 ﻿---
 title: NvCplSetupInt.exe | NVIDIA Package Launcher
+excerpt: What is NvCplSetupInt.exe?
 ---
 
 # NvCplSetupInt.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3145728:q/+34gIa3n4eu/NXPOvBKvKzcmqxt57o5oL3NCz:SgJX+NgBaKzcmGnkB`
 * Product Version: 1.0.7
 * Language: Language Neutral
 * Legal Copyright: Copyright  2017 NVIDIA Corporation
+
 
 
 

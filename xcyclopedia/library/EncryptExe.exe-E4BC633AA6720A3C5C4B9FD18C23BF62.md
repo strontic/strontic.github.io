@@ -1,5 +1,6 @@
 ﻿---
 title: EncryptExe.exe | File Decrypter
+excerpt: What is EncryptExe.exe?
 ---
 
 # EncryptExe.exe 
@@ -72,6 +73,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

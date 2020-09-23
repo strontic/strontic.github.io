@@ -1,5 +1,6 @@
 ﻿---
 title: wifitask.exe | Wireless Background Task
+excerpt: What is wifitask.exe?
 ---
 
 # wifitask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:AMc99L6OGXo8VYH7/tLXwtV5ARAzCwgKWHsDaDQnjZpgbPHF/w0ZhmecGp0iK681:
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

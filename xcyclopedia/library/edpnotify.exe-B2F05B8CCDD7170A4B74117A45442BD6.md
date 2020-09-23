@@ -1,5 +1,6 @@
 ﻿---
 title: edpnotify.exe | Microsoft Enterpise Data Protection
+excerpt: What is edpnotify.exe?
 ---
 
 # edpnotify.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:PAf5kGdKloyyfUJILglNIJiy5xd6RRPmbixum:YfIKLgGIH+ixum`
 * Product Version: 10.0.18362.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

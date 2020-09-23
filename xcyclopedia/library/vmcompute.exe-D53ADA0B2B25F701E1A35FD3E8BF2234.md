@@ -1,5 +1,6 @@
 ﻿---
 title: vmcompute.exe | Hyper-V Host Compute Service
+excerpt: What is vmcompute.exe?
 ---
 
 # vmcompute.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:z4U3kNG/0IATkza3cKoL8WnXDZMsYmhxM8/ImH1JIoPxEZCgF+KCKFpCBe:zeAUc
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

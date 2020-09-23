@@ -1,5 +1,6 @@
 ﻿---
 title: microsoft.windows.softwarelogo.showdesktop.exe | Desktop Switch Utility
+excerpt: What is microsoft.windows.softwarelogo.showdesktop.exe?
 ---
 
 # microsoft.windows.softwarelogo.showdesktop.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:VawYSo/+czVO3s4GH3N7qkx84XWl/Nzv9A0GftpBjbg65l9OM+/U:VdHo/+KFC4SJJ
 * Product Version: 10.0.10586.15
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

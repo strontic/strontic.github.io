@@ -1,5 +1,6 @@
 ﻿---
 title: PnPutil.exe | Microsoft PnP Utility - Tool to add, delete and enumerate driver packages.
+excerpt: What is PnPutil.exe?
 ---
 
 # PnPutil.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:4J3e7GlAaLCPQwEyhD5yssigbB1yXdbg7sGPT/evOKE/WR8vW:c3kzwssigb4GSvOK
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

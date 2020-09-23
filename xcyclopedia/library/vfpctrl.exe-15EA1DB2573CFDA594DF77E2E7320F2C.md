@@ -1,5 +1,6 @@
 ﻿---
 title: vfpctrl.exe | vfpctrl.exe
+excerpt: What is vfpctrl.exe?
 ---
 
 # vfpctrl.exe 
@@ -592,6 +593,7 @@ VFP control and diagnostics utility
 * Product Version: 10.0.18362.10000
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

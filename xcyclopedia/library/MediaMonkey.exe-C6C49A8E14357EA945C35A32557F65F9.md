@@ -1,5 +1,6 @@
 ﻿---
 title: MediaMonkey.exe | MediaMonkey
+excerpt: What is MediaMonkey.exe?
 ---
 
 # MediaMonkey.exe 
@@ -75,6 +76,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.0
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

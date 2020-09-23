@@ -1,5 +1,6 @@
 ﻿---
 title: uninst.exe | qBittorrent - A Bittorrent Client
+excerpt: What is uninst.exe?
 ---
 
 # uninst.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2020 The qBittorrent project
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: DTUHandler.exe | DTUHandler
+excerpt: What is DTUHandler.exe?
 ---
 
 # DTUHandler.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:n4MJyeF34WSPTrf9OLzh4bJurJ/pJyeoHpM7CDtamBZgNRO5jzw7Qu6zt:4wyeJRS
 * Product Version: 10.0.18362.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

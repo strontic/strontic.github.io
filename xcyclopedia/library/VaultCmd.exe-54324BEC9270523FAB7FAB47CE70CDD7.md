@@ -1,5 +1,6 @@
 ﻿---
 title: VaultCmd.exe | Vault cmdline Program
+excerpt: What is VaultCmd.exe?
 ---
 
 # VaultCmd.exe 
@@ -51,6 +52,7 @@ VaultCmd /sync
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

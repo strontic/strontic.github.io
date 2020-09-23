@@ -1,5 +1,6 @@
 ﻿---
 title: imecfmui.exe | Microsoft IME 2012
+excerpt: What is imecfmui.exe?
 ---
 
 # imecfmui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:s8V+Tken4BXIoTVO0m4jR5HycXZHBx+fZkVMNfrga+o:s8Er4BXRTdm4//XdBgBkQ
 * Product Version: 15.0.9600.18514
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

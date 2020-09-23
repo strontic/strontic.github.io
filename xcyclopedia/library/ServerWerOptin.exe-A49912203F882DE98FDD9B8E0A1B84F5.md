@@ -1,5 +1,6 @@
 ﻿---
 title: ServerWerOptin.exe | Windows Error Reporting opt-in command-line tool
+excerpt: What is ServerWerOptin.exe?
 ---
 
 # ServerWerOptin.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:NVwRbUvE4HgHTe2Vbah/PBG2JpP27mifRiuP9eAFZUOWLUv0Wa:rwGTgHTe2VbuY2f
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: InetMgr6.exe | IIS Admin Program
+excerpt: What is InetMgr6.exe?
 ---
 
 # InetMgr6.exe 
@@ -40,6 +41,7 @@ mmc.exe
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

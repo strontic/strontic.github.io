@@ -1,5 +1,6 @@
 ﻿---
 title: qappsrv.exe | Query Remote Desktop Session Host Server Utility
+excerpt: What is qappsrv.exe?
 ---
 
 # qappsrv.exe 
@@ -93,6 +94,7 @@ C:\Windows\SysWOW64\qappsrv.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: Fondue.exe | Windows Features on Demand UX
+excerpt: What is Fondue.exe?
 ---
 
 # Fondue.exe 
@@ -21,6 +22,9 @@ SHA256 | `8F4758F2B671E901CFC743FB7F3BD7B63094D84D55B4D8F7EB0722BA1205A6D2`
 SHA384 | `DF19C94A6C044779BEE023A238A9620004DA04D1673E8DA31E3325ECF0CDE9F18172A4508B477B082F5C7BF6AFF57437`
 SHA512 | `88F4BEBE4973F5F29B640792D21227D99AE234A834FAAB6C0BF07DF0BB0DCAF5D020B244E8CF752E4C1BAD3D0046313455598373A64947B65E690CAD64F600B8`
 SSDEEP | `3072:2zslQbEaznWfH22ZsuX2xKwMPTnaSrIrvDJ:aQuznWjZnXeKwMLnaqY`
+IMP | `C90A9B51B5004E7BF81F560D871186E8`
+PESHA1 | `3A85AB9BDB5A6AD857E896F40D2070640F6DE2B9`
+PE256 | `916C757994B67FC3C554B5D9155846F1680A2D78B8820D58DD15BA74F0E5319C`
 
 ## Runtime Data
 
@@ -33,18 +37,16 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\Fondue.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 
@@ -55,6 +57,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\Fondue.exe |
 
@@ -76,6 +79,12 @@ C:\Windows\SysWOW64\Fondue.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/8f4758f2b671e901cfc743fb7f3bd7b63094d84d55b4d8f7eb0722ba1205a6d2/detection/
 
 ## File Similarity (ssdeep match)
 

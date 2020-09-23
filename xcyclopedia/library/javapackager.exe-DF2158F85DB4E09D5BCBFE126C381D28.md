@@ -1,5 +1,6 @@
 ﻿---
 title: javapackager.exe | OpenJFX Platform binary
+excerpt: What is javapackager.exe?
 ---
 
 # javapackager.exe 
@@ -228,6 +229,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 8.0.2020.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

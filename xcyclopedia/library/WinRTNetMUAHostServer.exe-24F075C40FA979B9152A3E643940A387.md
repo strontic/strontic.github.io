@@ -1,5 +1,6 @@
 ﻿---
 title: WinRTNetMUAHostServer.exe | WinRTNet MUA HostServer EXE
+excerpt: What is WinRTNetMUAHostServer.exe?
 ---
 
 # WinRTNetMUAHostServer.exe 
@@ -17,6 +18,9 @@ SHA256 | `0763B8A990BAB988BDBD3AAB258B587A634FCDADC204A9B36B9ABE10CDAF4A83`
 SHA384 | `378AA71C34334DCC9569693CC94FAFD9664C34AD21FF8C5126761B64510258929D033771FFB18E5B7D01A72D7D4E74E8`
 SHA512 | `4250C85FEB3F014EFC1D7F17BF4C302C28743A4C9FDA95269B3811388C26714085E99311FF60C83C5802DC0B3C65AD8EE084F3B0C5A22E4E5EF6E77647B02869`
 SSDEEP | `384:o22Qlce5cahaEZV1LMVHKtFMw/slH7RZOPy4uYMFkpWdTJMBnDk2+3YIU8WxoWO:iCvrZMVHwO7P4uYMgj+3Y3`
+IMP | `469CAFAA823DF7EB902F143AC17B104A`
+PESHA1 | `9434277F8C0A6C075F26F3FB5C4B62F14D717A4D`
+PE256 | `DCD27BC3359205CFD7A6EBE4ADA4DBE65AFD80E7CF51341ECD2DE64286B06B66`
 
 ## Runtime Data
 
@@ -29,16 +33,14 @@ C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\WinRTNetMUAHostServer.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -51,6 +53,12 @@ C:\Windows\system32\WinRTNetMUAHostServer.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/0763b8a990bab988bdbd3aab258b587a634fcdadc204a9b36b9abe10cdaf4a83/detection/
 
 
 

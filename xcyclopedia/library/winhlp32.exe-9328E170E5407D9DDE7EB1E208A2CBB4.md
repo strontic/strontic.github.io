@@ -1,5 +1,6 @@
 ﻿---
 title: winhlp32.exe | Windows Winhlp32 Stub
+excerpt: What is winhlp32.exe?
 ---
 
 # winhlp32.exe 
@@ -37,13 +38,14 @@ SSDEEP | `96:Ch6sdQqe9JXOlPoj1L9A2DWPToOJ+XNHr+NtgTvDJvkMp84NEWaJeHWwZhh4xqo:CUG
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `winhlp32.exe` being misused. While `winhlp32.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_korplug_fast.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_korplug_fast.yar) |         $s4 = "\\winhlp32.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_korplug_fast.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_korplug_fast.yar) | $s4 = "\\winhlp32.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

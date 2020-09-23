@@ -1,5 +1,6 @@
 ﻿---
 title: FoxitReaderUpdateService.exe | Foxit Reader Update Service
+excerpt: What is FoxitReaderUpdateService.exe?
 ---
 
 # FoxitReaderUpdateService.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright  2019-2020 Foxit Software Inc. All Rights Reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: minidump-analyzer.exe | 
+excerpt: What is minidump-analyzer.exe?
 ---
 
 # minidump-analyzer.exe 
@@ -34,6 +35,7 @@ SSDEEP | `6144:ZUqgryLbKTJd9V7HAtAZPQt6VV6oWcqJrKGzmR9pU9YdFiVQ:ZOawqtAZPQt6VV6o
 * Product Version: 78.1.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

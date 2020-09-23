@@ -1,5 +1,6 @@
 ﻿---
 title: printfilterpipelinesvc.exe | Print Filter Pipeline Host
+excerpt: What is printfilterpipelinesvc.exe?
 ---
 
 # printfilterpipelinesvc.exe 
@@ -17,6 +18,9 @@ SHA256 | `3771726D6FF435265391CDD36B2F102EA7E1A157682EC55FE2910D390711E813`
 SHA384 | `4137DAB99B4BAF0806B625435959845A9362E49347F3CC26ECE12A6F05CCE4D0D132854068DA59BCDF4ACD3E4D633231`
 SHA512 | `A0F7F68E3E3432F036E6022314A079FB06B39CF078433ACC7447C033986D48368C585FEF146F6D8364EB2AEEBF6CC2492F191A9BD6557BE01C2BF14842B45F78`
 SSDEEP | `12288:OpOCQekD+wV4zSGa9G8lCBsGaBYe2cUEZp/cJ:MED+XSzJAsUEZp/8`
+IMP | `6D541090B3382AC315CB40B2EBBA1AEC`
+PESHA1 | `655E8F5ACFE98CFC4B44DBC5A1350AC02E563DD1`
+PE256 | `25F8099381EDF7C7BAEFC80020F2D794B90519700195B81F79DD940749A453B2`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `12288:OpOCQekD+wV4zSGa9G8lCBsGaBYe2cUEZp/cJ:MED+XSzJAsUEZp/8`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -40,23 +39,39 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\system32\iertutil.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\system32\OpcServices.DLL |
+C:\Windows\system32\POWRPROF.dll |
 C:\Windows\system32\printfilterpipelinesvc.exe |
+C:\Windows\system32\prntvpt.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\system32\urlmon.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\system32\WINSPOOL.DRV |
+C:\Windows\system32\XmlLite.dll |
+C:\Windows\system32\xpsservices.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -69,6 +84,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.264
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/3771726d6ff435265391cdd36b2f102ea7e1a157682ec55fe2910d390711e813/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: BackgroundTransferHost.exe | Download/Upload Host
+excerpt: What is BackgroundTransferHost.exe?
 ---
 
 # BackgroundTransferHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:/1z51BRO4L4nd8B1mnmftxaq5tBz631l0te6usp2Sk07oW0ugWPhkLU7+1IVsC2B:J
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: lxdnupld.exe | Lexmark Connect Upload Executable
+excerpt: What is lxdnupld.exe?
 ---
 
 # lxdnupld.exe 
@@ -40,6 +41,7 @@ lxdnwbgw.exe
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
 
 
 

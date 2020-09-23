@@ -1,5 +1,6 @@
 ﻿---
 title: SystemSettingsRemoveDevice.exe | SystemSettingsRemoveDevice
+excerpt: What is SystemSettingsRemoveDevice.exe?
 ---
 
 # SystemSettingsRemoveDevice.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:jfPLIeo1rWOtZIV3tGcN8GGv3YW7bWYE8XlRDBRJplTIw31pg24:LPLu1iEuGZGGvN
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

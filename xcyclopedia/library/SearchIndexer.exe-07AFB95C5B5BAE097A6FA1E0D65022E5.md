@@ -1,5 +1,6 @@
 ﻿---
 title: SearchIndexer.exe | Microsoft Windows Search Indexer
+excerpt: What is SearchIndexer.exe?
 ---
 
 # SearchIndexer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:JNbP/VEqwJdD6V3M+LbJG167b/0u0Ihh+eQ:7bCDq3MqJG167b/j0IhhhQ`
 * Product Version: 7.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

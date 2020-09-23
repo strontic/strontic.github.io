@@ -1,5 +1,6 @@
 ﻿---
 title: tcmsetup.exe | Microsoft Windows(TM) Telephony Administration Setup
+excerpt: What is tcmsetup.exe?
 ---
 
 # tcmsetup.exe 
@@ -21,6 +22,9 @@ SHA256 | `E243501BA2EF7A6F04F51410BB916FAFFE0EC23450A4D030CE6BFE747E544B39`
 SHA384 | `AEBC6FB1B84DD3E429A464135FF2955D78C401C86C22B2BB7ADC80C8CC0E914CDFE08AFC93D0FCED5846B2D8010649E3`
 SHA512 | `7B09192AF460C502D1A94989A0D06191C8C7A058CE3A4541E3F45960A1E12529D0CDAFF9DA3D5BACFDCEED57AEB6DC9A159C6C0A95675C438F99BF7E418C6DC5`
 SSDEEP | `384:A+W7Hrtkdpm8DwTWeErIiBAEdBTC2WGroW:Af7xapm8Dw6n3/CA`
+IMP | `AE7E4F06CC6D11D0E730DEFD22D14777`
+PESHA1 | `2C527A464E181F92E9917DF07B9519447E6443B3`
+PE256 | `16CA9ABCCADD6EBDE93902EBCD3D9DAE96BB7A896EE91BA6DBD4A18AE8D5C061`
 
 ## Runtime Data
 
@@ -33,17 +37,12 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\tcmsetup.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -53,7 +52,6 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -71,8 +69,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -85,6 +83,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e243501ba2ef7a6f04f51410bb916faffe0ec23450a4d030ce6bfe747e544b39/detection/
 
 
 

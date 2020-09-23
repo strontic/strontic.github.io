@@ -1,5 +1,6 @@
 ﻿---
 title: mcbuilder.exe | Resource cache builder tool
+excerpt: What is mcbuilder.exe?
 ---
 
 # mcbuilder.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:4MCPcVlY9eAHnrGyclAFCuFo3XejV09B2ssW4d09dlGscBuCP/LtFn:4MycVoeYrD
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: appidtel.exe | Initializes Appid ManagedInstaller and Smartscreen Telemetry
+excerpt: What is appidtel.exe?
 ---
 
 # appidtel.exe 
@@ -48,6 +49,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\appidtel.exe](appidtel.exe-06AE345F8841C597C25C73DBA1A132F3.md) | 91
 
 
 

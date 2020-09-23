@@ -1,5 +1,6 @@
 ﻿---
 title: curl.exe | The curl executable
+excerpt: What is curl.exe?
 ---
 
 # curl.exe 
@@ -17,6 +18,9 @@ SHA256 | `0BA1C44D0EE5B34B45B449074CDA51624150DC16B3B3C38251DF6C052ADBA205`
 SHA384 | `CD03A66219C32C68588DB3DF8967461781692565778C303D14FCFD822BCA782408DEA0D7129D08119140355B280D5D2B`
 SHA512 | `CCC9534A454971DB0014BA0996D837A36CDA0B91DB32A93D73F17097825B1AB7C973601586D06C953BC79D2863C52C7DB0FB4D04E37F83581A27E1CF7284224B`
 SSDEEP | `6144:2L6+FAKWJAdpfK92cy8u9I2enqjUifLfPxH7IzPyerjgvsA6E1P/qRSp:mVGUQ92PJjfzky0dE1P/qRSp`
+IMP | `2447B641444AC52A5B600C8801CE3532`
+PESHA1 | `87CE7102A887A87E1D532DB20B295D0FBD5140D5`
+PE256 | `AD9CB041995F0618F77FA6394EF4BC760D6F17DC74ED410CF97D34B7B7FCFCA3`
 
 ## Runtime Data
 
@@ -250,14 +254,9 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -287,6 +286,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.55.1
 * Language: English (United States)
 * Legal Copyright:  1996 - 2017 Daniel Stenberg, <daniel@haxx.se>.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/0ba1c44d0ee5b34b45b449074cda51624150dc16b3b3c38251df6c052adba205/detection/
 
 
 ## Possible Misuse

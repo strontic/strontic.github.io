@@ -1,5 +1,6 @@
 ﻿---
 title: clip.exe | Clip - copies the data into clipboard
+excerpt: What is clip.exe?
 ---
 
 # clip.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:1LOP0eBg+HfPdbo9NfFaoFoO+ufarg5E37Zq/twa1STXTddgQO55WFZxoxtBs7Nu:1
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

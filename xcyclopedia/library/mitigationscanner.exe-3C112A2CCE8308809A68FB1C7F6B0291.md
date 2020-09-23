@@ -1,5 +1,6 @@
 ﻿---
 title: mitigationscanner.exe | Microsoft Recommended Troubleshooting Scanner
+excerpt: What is mitigationscanner.exe?
 ---
 
 # mitigationscanner.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:mxAvmbTf+Px3Hh9cmUzPGef5oVrAjN0ZBMV0:mx3TI2mUiefmVEpsMa`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

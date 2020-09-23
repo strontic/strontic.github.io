@@ -1,5 +1,6 @@
 ﻿---
 title: ProximityUxHost.exe | Proximity UX Host
+excerpt: What is ProximityUxHost.exe?
 ---
 
 # ProximityUxHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:6KbAqG7L05P8v+lyQXMgVNj/Y2Zqm1Fl5B92lg:6KbnG7LW8GlXXVNj/Yi31ZBclg
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

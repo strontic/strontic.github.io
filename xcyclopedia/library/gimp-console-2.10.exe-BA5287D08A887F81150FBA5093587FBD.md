@@ -1,5 +1,6 @@
 ﻿---
 title: gimp-console-2.10.exe | GNU Image Manipulation Program
+excerpt: What is gimp-console-2.10.exe?
 ---
 
 # gimp-console-2.10.exe 
@@ -118,6 +119,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 
 

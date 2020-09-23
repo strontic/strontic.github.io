@@ -1,5 +1,6 @@
 ﻿---
 title: UserAccountBroker.exe | User Account Control Panel Host
+excerpt: What is UserAccountBroker.exe?
 ---
 
 # UserAccountBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:6/csdGlBYNCETvOA4vGvwOdzFORDkySqbsiughQ5eL1PTUx:0ltBNnJORDka+g65QP
 * Product Version: 6.3.9600.18339
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

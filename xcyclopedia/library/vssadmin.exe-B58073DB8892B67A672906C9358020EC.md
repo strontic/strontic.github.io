@@ -1,5 +1,6 @@
 ﻿---
 title: vssadmin.exe | Command Line Interface for Microsoft Volume Shadow Copy Service 
+excerpt: What is vssadmin.exe?
 ---
 
 # vssadmin.exe 
@@ -17,6 +18,9 @@ SHA256 | `8C1FABCC2196E4D096B7D155837C5F699AD7F55EDBF84571E4F8E03500B7A8B0`
 SHA384 | `D05BD691914E58FBAA08F78D1E305782A4ADA5B3435841C3EC958FFB2562CD36C862AB116387B42040A79861944398FF`
 SHA512 | `84C3B17D84FB07F561F9ED53FF4CEF7EA155659F302631971F949999F2EAE87F7087DE2402B512714A0FBF4CCAFBAB2E0D015FAE508E96B783A9D894F6702BFA`
 SSDEEP | `3072:o3mb3+xAIlxg9FTtLPQ0GGm47pylFHYcXZj5f0g8R:o3mb3+xNlx0T1PPm47pOFZZj5f0g8`
+IMP | `C1EDC431CD345F0A0F32019895D13FCE`
+PESHA1 | `D871D005C0231F4A849A873805E32F8F48E46631`
+PE256 | `5186EA897F6A878A05A1C6F4761AFE4AD621B4B522929430289B71B4E0CD4CB8`
 
 ## Runtime Data
 
@@ -66,6 +70,12 @@ C:\Windows\system32\vssadmin.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8c1fabcc2196e4d096b7d155837c5f699ad7f55edbf84571e4f8e03500b7a8b0/detection/
 
 
 ## Possible Misuse
@@ -91,8 +101,8 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | vssadmin.exe delete shadows /all /quiet | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | if(!(vssadmin.exe list shadows \| findstr "No items found that satisfy the query.")) { exit 0 } else { exit 1 }  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | vssadmin.exe create shadow /for=c: | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $b = "vssadmin delete shadows" ascii wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_germanwiper.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_germanwiper.yar) |       $KillShadowCopies = "vssadmin.exe delete shadows" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) | $b = "vssadmin delete shadows" ascii wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_germanwiper.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_germanwiper.yar) | $KillShadowCopies = "vssadmin.exe delete shadows" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

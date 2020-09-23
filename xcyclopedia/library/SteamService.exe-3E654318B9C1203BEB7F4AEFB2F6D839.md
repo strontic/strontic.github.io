@@ -1,5 +1,6 @@
 ﻿---
 title: SteamService.exe | Steam Client Service
+excerpt: What is SteamService.exe?
 ---
 
 # SteamService.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Valve Corporation
+
 
 ## File Similarity (ssdeep match)
 

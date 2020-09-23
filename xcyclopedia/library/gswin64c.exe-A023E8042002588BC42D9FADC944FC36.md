@@ -1,5 +1,6 @@
 ﻿---
 title: gswin64c.exe | 
+excerpt: What is gswin64c.exe?
 ---
 
 # gswin64c.exe 
@@ -83,6 +84,7 @@ GPL Ghostscript 9.50: Unrecoverable error, exit code 1
 * Product Version: 9.50
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2019 Artifex Software, Inc.  All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
+excerpt: What is Windows.Media.BackgroundPlayback.exe?
 ---
 
 # Windows.Media.BackgroundPlayback.exe 
@@ -17,27 +18,14 @@ SHA256 | `3B7CA2A56A36A3B767461C17D77F188A0308164D3E80AD39D17C13683346CA9B`
 SHA384 | `31855A0AEFA9214FF62BC0379B8115FE432B3F859161B1CC77EA73D3F15BA6DC505D085260AC275FA21DA1900626F4EC`
 SHA512 | `599CF2A022C2BDDBC1D83726DFA2F7F23B800FE83FA04166D02429E0A58C9A2F0977F500F64EDE36F298E0D36CFB3AC2FCBACD0DAE3CBF3F771E2BAB88FB9945`
 SSDEEP | `192:9MMfr37MtZFkjDfSRM3qO4JD1hbe0HMW+5WkFH:uMr3wrFkjDlwlHMW+5Wkl`
+IMP | `0378B911CA4B411C79AC0F70E4868A4E`
+PESHA1 | `9FD26E7A02E7D77EAA37B0228065BD87ACABDFAA`
+PE256 | `F389A2ACB99B26222C40BD94A4B7C3A9AE37E1D135539E53B0FF7260B768A686`
 
 ## Runtime Data
 
 ### Child Processes:
 Windows.Media.BackgroundPlayback.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -45,6 +33,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe |
 
@@ -66,6 +55,12 @@ C:\Windows\SysWOW64\Windows.Media.BackgroundPlayback.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/3b7ca2a56a36a3b767461c17d77f188a0308164d3e80ad39d17c13683346ca9b/detection/
 
 ## File Similarity (ssdeep match)
 

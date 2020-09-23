@@ -1,5 +1,6 @@
 ﻿---
 title: sppsvc.exe | Microsoft Software Protection Platform Service
+excerpt: What is sppsvc.exe?
 ---
 
 # sppsvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `98304:N2UObgrOwl+rA9g/WpdPjaA+quhD6qP1Ph1u8fFRxmZM/M7ZW7knhqI:8HbgCnbW
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

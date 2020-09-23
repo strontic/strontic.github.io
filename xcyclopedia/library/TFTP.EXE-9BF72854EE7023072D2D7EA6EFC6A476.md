@@ -1,5 +1,6 @@
 ﻿---
 title: TFTP.EXE | Trivial File Transfer Protocol App
+excerpt: What is TFTP.EXE?
 ---
 
 # TFTP.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `384:xhDp0DZKITPyQk7Ex+WQGxjQS9Q/o6csdSo2lGlUQsmNCD1P2Q0284PWcBjW:xht0D
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

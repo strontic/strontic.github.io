@@ -1,5 +1,6 @@
 ﻿---
 title: nvda_slave.exe | NVDA
+excerpt: What is nvda_slave.exe?
 ---
 
 # nvda_slave.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2020.2
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2006-2020 NVDA Contributors
+
 
 ## File Similarity (ssdeep match)
 

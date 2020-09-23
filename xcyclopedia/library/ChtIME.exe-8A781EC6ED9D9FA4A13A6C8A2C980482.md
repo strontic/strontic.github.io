@@ -1,5 +1,6 @@
 ﻿---
 title: ChtIME.exe | Microsoft IME
+excerpt: What is ChtIME.exe?
 ---
 
 # ChtIME.exe 
@@ -17,6 +18,9 @@ SHA256 | `65F15353E9BC6EBCAED4B24A1451B609BAB5D53DFA83FA3E9D3205ADB61074BF`
 SHA384 | `05522FF71DA8DC49EB85A1545671E5733F3B4BBEE1208665EE4E3A7EDBADEB294161FF501EF544784A3D1E27CF475663`
 SHA512 | `F4D6D19B40A262A38ECC677C8ACB4DC1C65E628E6459675CA3E2690BA270C5FA2423B472BFB264DF14D3843FB6CFC772ED7D025B9A9C20B18A712C3CF8C5D030`
 SSDEEP | `3072:oR/VBg5J1Pah9JVIdnAoiDvDiTDPvutbaCy+vqx+bcmh1tmMN:C/VBMJVah9JVboiDvDaHutbaCy+v+iVn`
+IMP | `1C137B847577B8F44F2F823B62D4AD5D`
+PESHA1 | `53F2E05B753CE4F5AF5FCDB9BFFC64A2810F1A3F`
+PE256 | `C6D58E5CA4808CCEB86DD7B062429F69AEB04017EA0ACA6E1BEC37DB219BDC1E`
 
 ## Runtime Data
 
@@ -33,6 +37,7 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
@@ -57,6 +62,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/65f15353e9bc6ebcaed4b24a1451b609bab5d53dfa83fa3e9d3205adb61074bf/detection/
 
 
 

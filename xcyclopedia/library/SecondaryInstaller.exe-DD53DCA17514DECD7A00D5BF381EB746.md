@@ -1,5 +1,6 @@
 ﻿---
 title: SecondaryInstaller.exe | Microsoft Visual Studio 2015 Secondary Installer Setup
+excerpt: What is SecondaryInstaller.exe?
 ---
 
 # SecondaryInstaller.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:47uBlJ/j3xVspEn0rOJm9ElnKaFNKMGA0w9PJd5N:4alJ/j0pIAaahcfN`
 * Product Version: 12.0.23107.156
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

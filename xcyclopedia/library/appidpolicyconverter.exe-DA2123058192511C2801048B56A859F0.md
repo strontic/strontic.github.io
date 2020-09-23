@@ -1,5 +1,6 @@
 ﻿---
 title: appidpolicyconverter.exe | AppID Policy Converter Task
+excerpt: What is appidpolicyconverter.exe?
 ---
 
 # appidpolicyconverter.exe 
@@ -48,6 +49,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\appidpolicyconverter.exe](appidpolicyconverter.exe-5F3C8D43D1EDA412DD9BB0D4F14401F4.md) | 90
 
 
 

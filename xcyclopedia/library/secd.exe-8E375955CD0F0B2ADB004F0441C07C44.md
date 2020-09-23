@@ -1,5 +1,6 @@
 ﻿---
 title: secd.exe | Apple Security Manager
+excerpt: What is secd.exe?
 ---
 
 # secd.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 6.0.0.0
 * Language: English (United States)
 * Legal Copyright: (c) Apple Inc.  All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: xcopy.exe | Extended Copy Utility
+excerpt: What is xcopy.exe?
 ---
 
 # xcopy.exe 
@@ -17,6 +18,9 @@ SHA256 | `B45997BB7C5FC6024685EE8752CF8AB871290A46B33E04FC4850A10077ACBA5A`
 SHA384 | `D1484DB8F3DB32AF14515A75D1464D038F0DB4270FFA189B8B8887134283261A65024DD48E5CD18C932A27B8D8BDE586`
 SHA512 | `4EAF8F1FD4718B034BDC067F8514B74C4A95AB6895C2CB26B7E0E4489C237D659883A9FD6CE9FA1C4121A68574885233FA15F8FF61443687E7FA19F98341D7B6`
 SSDEEP | `768:1Mcs8Lv2E9OkHkh5bzvtCpgd7P/EtI5tvg0D71QijZjXDY8c5meOkL/H:N/3KpC0r3g0DxQgVzY8c5mexH`
+IMP | `370E0F2A87317776FEB42A7B32DD037B`
+PESHA1 | `DD8F3FCA01984448F9EA501200F257DF8025E4BA`
+PE256 | `12BA660CA2B1FB69B9476BD2FB3E1B2554C0196DB08C757CFBE570575A3FD7B3`
 
 ## Runtime Data
 
@@ -91,25 +95,6 @@ File cannot be copied onto itself
 
 ```
 
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-(RWD)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -138,6 +123,12 @@ C:\Windows\SysWOW64\xcopy.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/b45997bb7c5fc6024685ee8752cf8ab871290a46b33e04fc4850a10077acba5a/detection/
 
 
 ## Possible Misuse

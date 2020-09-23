@@ -1,5 +1,6 @@
 ﻿---
 title: bcm.exe | 
+excerpt: What is bcm.exe?
 ---
 
 # bcm.exe 
@@ -52,6 +53,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

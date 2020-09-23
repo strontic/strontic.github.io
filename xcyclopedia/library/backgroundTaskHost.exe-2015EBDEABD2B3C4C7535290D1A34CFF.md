@@ -1,5 +1,6 @@
 ﻿---
 title: backgroundTaskHost.exe | Background Task Host
+excerpt: What is backgroundTaskHost.exe?
 ---
 
 # backgroundTaskHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:l4vXfNPm8jCQVkHW5EpYvateomzETeAOL/SQOke5WpeGWig:8f0Jz49y1TeP7OkuWM
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

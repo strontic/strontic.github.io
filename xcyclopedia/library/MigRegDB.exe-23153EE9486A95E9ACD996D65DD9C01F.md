@@ -1,5 +1,6 @@
 ﻿---
 title: MigRegDB.exe | COM+
+excerpt: What is MigRegDB.exe?
 ---
 
 # MigRegDB.exe 
@@ -46,6 +47,7 @@ C:\Windows\SysWOW64\com\MigRegDB.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

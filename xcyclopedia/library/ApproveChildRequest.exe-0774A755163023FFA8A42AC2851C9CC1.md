@@ -1,5 +1,6 @@
 ﻿---
 title: ApproveChildRequest.exe | Grant more screen time
+excerpt: What is ApproveChildRequest.exe?
 ---
 
 # ApproveChildRequest.exe 
@@ -17,6 +18,9 @@ SHA256 | `9590CDD23C89D2ED07A2F185673CA2CA4325BCA3B24D37AA39EA897DEDABF1F6`
 SHA384 | `A211932DBBDD454995B36340A9273CFEA22B421F6B95CC84FB9331B10665D0F47884F1C2CD754FFFFFAB9A2903F46002`
 SHA512 | `87EC75BF06CE52692A6BFABDB1D97897C3411F6DEEC15BD4D9A9953F97D860541B156AA0E6B0FFD791BE7661A86FDB71E4ADBC4D7AF2A58A657E8809CAD0BE78`
 SSDEEP | `6144:oBjN5zr+Czch7Hqlbs2z8aHpGZaa2nfRGKdDPDvV:Ix5/bz/bbzVpGtcnjDt`
+IMP | `1C4DF20AAD5350BA911F079171B0F617`
+PESHA1 | `485F94B230314466B37BAC98961797E07A925596`
+PE256 | `9C9EA96D521B89E12C630DE7B545A7C4EE3D5976C4E32F5361DE60473390DE9B`
 
 ## Runtime Data
 
@@ -26,22 +30,14 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\ApproveChildRequest.exe |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -61,6 +57,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9590cdd23c89d2ed07a2f185673ca2ca4325bca3b24d37aa39ea897dedabf1f6/detection/
 
 ## File Similarity (ssdeep match)
 

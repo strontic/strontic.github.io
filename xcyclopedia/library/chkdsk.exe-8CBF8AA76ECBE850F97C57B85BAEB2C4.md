@@ -1,5 +1,6 @@
 ﻿---
 title: chkdsk.exe | Check Disk Utility
+excerpt: What is chkdsk.exe?
 ---
 
 # chkdsk.exe 
@@ -92,6 +93,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

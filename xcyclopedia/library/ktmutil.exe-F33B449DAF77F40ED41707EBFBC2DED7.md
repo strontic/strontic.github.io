@@ -1,5 +1,6 @@
 ﻿---
 title: ktmutil.exe | Kernel Transaction Management Utility
+excerpt: What is ktmutil.exe?
 ---
 
 # ktmutil.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:1PCRLNGTRxlyFfJpehFxtoXkzTVsas6Ps9NC10Fck+WRjWvzx:1PCylyFy3toXkfVn
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

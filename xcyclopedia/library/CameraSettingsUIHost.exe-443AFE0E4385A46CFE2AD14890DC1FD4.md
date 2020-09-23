@@ -1,5 +1,6 @@
 ﻿---
 title: CameraSettingsUIHost.exe | Camera Settings UI Host
+excerpt: What is CameraSettingsUIHost.exe?
 ---
 
 # CameraSettingsUIHost.exe 
@@ -60,6 +61,7 @@ C:\Windows\SysWOW64\CameraSettingsUIHost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

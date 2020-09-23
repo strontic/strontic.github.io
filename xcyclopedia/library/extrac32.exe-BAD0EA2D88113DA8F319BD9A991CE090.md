@@ -1,5 +1,6 @@
 ﻿---
 title: extrac32.exe | Microsoft CAB File Extract Utility
+excerpt: What is extrac32.exe?
 ---
 
 # extrac32.exe 
@@ -64,6 +65,7 @@ EXTRACT [/Y] /C source destination
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

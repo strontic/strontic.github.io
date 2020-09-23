@@ -1,5 +1,6 @@
 ﻿---
 title: quser.exe | Query User Utility
+excerpt: What is quser.exe?
 ---
 
 # quser.exe 
@@ -17,6 +18,9 @@ SHA256 | `766C791EDFA6EEEBA0F99D6481BFE23BF59E6ACB81A930B71F3AA33EFBAFE544`
 SHA384 | `58DC5D3A0B332F42D0CEFE7344C5272C06D6A1A35B997D38E8E43870FE9AF2C9F194FA138D01514CF1B1D7A0043A906A`
 SHA512 | `8E5BF5D46ECBECF552295A9AE938BECD82F18ACC643256C203F8DD5538292198D10F6C3CA1571B5110AD279280CAF4778E64B937BE86D5A9B87F30A126893FF8`
 SSDEEP | `768:KpDszzRss58elGTDZznkOh6Z8QBc6ij5vYMo:KpDszJWlkDm6iRYMo`
+IMP | `B72F14292FAC033099AD1A08D6867486`
+PESHA1 | `022E2528554367E4EAC67795FD9C133F3E8F67CF`
+PE256 | `57DF4F4BE576D2D4AEF25CD37FF6D0797302EADCCCF65FC2145E235CE6A3DA07`
 
 ## Runtime Data
 
@@ -76,6 +80,12 @@ C:\Windows\system32\quser.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/766c791edfa6eeeba0f99d6481bfe23bf59e6acb81a930b71f3aa33efbafe544/detection/
 
 
 ## Possible Misuse
@@ -88,8 +98,8 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- quser.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1033.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md) | quser /SERVER:"#{computer_name}" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1033.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md) | quser | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [python](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/contrib/python/README.md) |     quser | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [python](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/contrib/python/README.md) |     quser /SERVER:"${computer_name}" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [python](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/contrib/python/README.md) | quser | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [python](https://github.com/redcanaryco/atomic-red-team/blob/master/execution-frameworks/contrib/python/README.md) | quser /SERVER:"${computer_name}" | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 

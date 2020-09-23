@@ -1,5 +1,6 @@
 ﻿---
 title: tdlrecover.exe | Microsoft Tile Data Layer Reset Tool
+excerpt: What is tdlrecover.exe?
 ---
 
 # tdlrecover.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:w2I8g08UO2iZNQB4nQS7kHjUciFQl1CFyvu11khKLaLlySLpJbz+0GrP:wKO2iZGh
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

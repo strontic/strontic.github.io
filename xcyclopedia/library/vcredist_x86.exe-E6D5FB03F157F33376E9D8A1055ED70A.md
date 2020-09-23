@@ -1,5 +1,6 @@
 ﻿---
 title: vcredist_x86.exe | Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005
+excerpt: What is vcredist_x86.exe?
 ---
 
 # vcredist_x86.exe 
@@ -36,6 +37,7 @@ SSDEEP | `12288:9tQsjr1agUc7iGBDZyRrvgF8diIhZrOvW4UhE:H9jrQQuGirgmdiIhZrOHuE`
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -48,7 +50,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1095.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1095/T1095.md) |   Start-Process (Join-Path $unzipPath "vcredist_x86.exe") | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1095.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1095/T1095.md) | Start-Process (Join-Path $unzipPath "vcredist_x86.exe") | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: UpgradeResultsUI.exe | Add features to Windows Results
+excerpt: What is UpgradeResultsUI.exe?
 ---
 
 # UpgradeResultsUI.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:hB7+No3a/HgK2Qb8a8unUXSpImvocJTMw2UR2ZhyKshYAGzeW:DlIgrhV+SSplozBH
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

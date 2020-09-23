@@ -1,5 +1,6 @@
 ﻿---
 title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration Tool
+excerpt: What is ConfigSecurityPolicy.exe?
 ---
 
 # ConfigSecurityPolicy.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:FxLrofs9P7AqfaVETO5Ee6iaeHJlN87cEkPSEo3+fXa/MWKeGfS+mugPy0nCvgSs:
 * Product Version: 4.18.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: alg.exe | Application Layer Gateway Service
+excerpt: What is alg.exe?
 ---
 
 # alg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:8fE1PcdpH07k3DWbKXJecY4HdPdmlDKSzKK6FRVsTJad/V2vH3:8wPcdpWQ6bKZVn
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

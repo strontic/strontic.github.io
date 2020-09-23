@@ -1,5 +1,6 @@
 ﻿---
 title: reset.exe | Remote Desktop Services Reset Utility
+excerpt: What is reset.exe?
 ---
 
 # reset.exe 
@@ -59,6 +60,7 @@ C:\Windows\SysWOW64\reset.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

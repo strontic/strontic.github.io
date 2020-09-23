@@ -1,5 +1,6 @@
 ﻿---
 title: DmOmaCpMo.exe | Host Process for OMA-CP Client
+excerpt: What is DmOmaCpMo.exe?
 ---
 
 # DmOmaCpMo.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:KRJu16K+jEtdtvwDk7qEFbl8SKqtyoPsxnPYv//QsKq80DV7yIQsubcKiL+S/:Ky1t
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

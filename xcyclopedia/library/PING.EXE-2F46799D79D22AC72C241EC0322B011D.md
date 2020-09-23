@@ -1,5 +1,6 @@
 ﻿---
 title: PING.EXE | TCP/IP Ping Command
+excerpt: What is PING.EXE?
 ---
 
 # PING.EXE 
@@ -17,6 +18,9 @@ SHA256 | `7AF50FA112932EA3284F7821B2EEA2B7582F558DBA897231BB82182003C29F8B`
 SHA384 | `1016DCB1ADB5FD3CAD17D1B5B9DFF8758CB25452F8D599B15D429B8ADACE13FBAA4BCEC914965289438DCFC1EBA791FF`
 SHA512 | `D0274C6047A788F87ADEF7E125F65D80D0DFCDD54A00C0EF5AF22466E807802F2126C5DB2F61A419D71C8A323095116FB72A648413C38E17BA82F2C4394DEFF2`
 SSDEEP | `384:Js9qZDngKcZhS6JLFULEg9PhayhN9dsv/45rJLQhW79WBlW:JsgZbgZZGa49snUrJLQ5`
+IMP | `8C3BE1286CDAD6AC1136D0BB6C83FF41`
+PESHA1 | `CBE24B531CF9305D42D0A12A29124A4A319F2F21`
+PE256 | `A59994BBF30A4C071F20F8E6AEED8AB606EC18CE87BD048FFAB98B43CC2B4F39`
 
 ## Runtime Data
 
@@ -89,6 +93,12 @@ C:\Windows\system32\PING.EXE |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/7af50fa112932ea3284f7821b2eea2b7582f558dba897231bb82182003c29f8b/detection/
 
 
 ## Possible Misuse
@@ -101,7 +111,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- ping.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_ping_hex_ip.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml) | `- '*\ping.exe 0x*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\ping.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[signature-base](https://github.com/Neo23x0/signature-base) | [spy_regin_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_regin_fiveeyes.yar) | 	    $a7="ping.exe" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [spy_regin_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_regin_fiveeyes.yar) | $a7="ping.exe" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

@@ -1,5 +1,6 @@
 ﻿---
 title: pipanel.exe | Microsoft Tablet PC Component
+excerpt: What is pipanel.exe?
 ---
 
 # pipanel.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: com.apple.Outlook.client.exe | com.apple.Outlook.client.exe
+excerpt: What is com.apple.Outlook.client.exe?
 ---
 
 # com.apple.Outlook.client.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: rm.exe | 
+excerpt: What is rm.exe?
 ---
 
 # rm.exe 
@@ -89,6 +90,7 @@ Try '/usr/bin/rm --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

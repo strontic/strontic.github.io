@@ -1,5 +1,6 @@
 ﻿---
 title: upx.exe | UPX executable packer
+excerpt: What is upx.exe?
 ---
 
 # upx.exe 
@@ -293,6 +294,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 3.95 (2018-08-26)
 * Language: English (United States)
 * Legal Copyright:  1996-2018 Markus F.X.J. Oberhumer
+
 
 
 

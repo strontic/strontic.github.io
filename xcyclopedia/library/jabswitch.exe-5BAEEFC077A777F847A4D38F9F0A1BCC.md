@@ -1,5 +1,6 @@
 ﻿---
 title: jabswitch.exe | OpenJDK Platform binary
+excerpt: What is jabswitch.exe?
 ---
 
 # jabswitch.exe 
@@ -74,6 +75,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 11.0.8
 * Language: English (United States)
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

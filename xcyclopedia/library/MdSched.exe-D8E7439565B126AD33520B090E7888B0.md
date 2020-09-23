@@ -1,5 +1,6 @@
 ﻿---
 title: MdSched.exe | Windows Memory Diagnostics Tool
+excerpt: What is MdSched.exe?
 ---
 
 # MdSched.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:i9n7ttvwY5rA7m+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:ixttvXA7e/FO+VQDUc
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

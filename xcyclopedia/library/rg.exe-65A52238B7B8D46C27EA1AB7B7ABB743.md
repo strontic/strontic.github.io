@@ -1,5 +1,6 @@
 ﻿---
 title: rg.exe | 
+excerpt: What is rg.exe?
 ---
 
 # rg.exe 
@@ -34,6 +35,7 @@ SSDEEP | `49152:vRANXUOlPYitW6gm03HM71YyFIJJ3DY/H8UFKPcIadCV/kWaOpX8+MI+J+GHPDQm
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

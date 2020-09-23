@@ -1,5 +1,6 @@
 ﻿---
 title: NetCfgNotifyObjectHost.exe | Host Process for Network Driver Configuration Plugins
+excerpt: What is NetCfgNotifyObjectHost.exe?
 ---
 
 # NetCfgNotifyObjectHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:VdTTAr0tACrRN7SQrG/W+o7fNl+vHS5fi+XdjPibnHAA16ue/:HTTAgtAy+7++oBl
 * Product Version: 10.0.14393.479
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

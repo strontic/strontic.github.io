@@ -1,5 +1,6 @@
 ﻿---
 title: SecEdit.exe | Windows Security Configuration Editor Command Tool
+excerpt: What is SecEdit.exe?
 ---
 
 # SecEdit.exe 
@@ -46,6 +47,7 @@ secedit [/configure | /analyze | /import | /export | /validate | /generaterollba
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

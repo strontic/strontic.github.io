@@ -1,5 +1,6 @@
 ﻿---
 title: regdefrag.exe | Registry Defrag 
+excerpt: What is regdefrag.exe?
 ---
 
 # regdefrag.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536://zmpeB8PQBgVQQv2bm4Sr8TwJOVWXFYPgz+OzJzhGzzz+Tzn4zoTzbzhGz2zBKU:
 * Product Version: 5.0.0.18
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

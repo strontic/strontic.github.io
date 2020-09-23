@@ -1,5 +1,6 @@
 ﻿---
 title: EhStorAuthn.exe | Microsoft Enhanced Storage Authentication Program
+excerpt: What is EhStorAuthn.exe?
 ---
 
 # EhStorAuthn.exe 
@@ -17,27 +18,23 @@ SHA256 | `D527323643BE9DF4D174C3169C6F2C7854A59B781654BCAEBD154CB51FB4219C`
 SHA384 | `57DFE94E79211C3FC6D2D076729B70AC9CE0449CBDA3D7D2076C78A96104CA3F19714EE8DDBEA7B573BCBAB10FC516C0`
 SHA512 | `5D7AE663DCFEDFAF00836DC018131851E5A40778BD582B417B9F0BBD4BB6D1B2EB8F37F7F5A01CD2BEED78B6037EF6EB2A3290248D5E901173B1407990A202BD`
 SSDEEP | `3072:Vf8h0Gfm1y0Mx3JOlaEHPxPxQZDFcZIZ:Vfu0i17OlaEJPxQZDFZ`
+IMP | `781D28469BB74D268EAF05BBBB5DA822`
+PESHA1 | `9B4C98D9F3B8493396E42CDC5B906FC99F3903B4`
+PE256 | `14F4524AF26B09287AE096568356021C79062D833774BD292A19D5A28B54A512`
 
 ## Runtime Data
+
+### Child Processes:
+setup_wm.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\EhStorAuthn.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -57,6 +54,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/d527323643be9df4d174c3169c6f2c7854a59b781654bcaebd154cb51fb4219c/detection/
 
 ## File Similarity (ssdeep match)
 

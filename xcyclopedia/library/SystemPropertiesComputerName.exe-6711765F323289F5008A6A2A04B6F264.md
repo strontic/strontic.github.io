@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesComputerName.exe | Change Computer Settings
+excerpt: What is SystemPropertiesComputerName.exe?
 ---
 
 # SystemPropertiesComputerName.exe 
@@ -17,6 +18,9 @@ SHA256 | `BD3A97327326E2245938EC6099F20059B446FF0FE1C10B9317D15D1A1DD5331E`
 SHA384 | `20EA4E4B3E40E1A8A2832509EEAFF280FFF6259A8F264E325CF5B7446EA4BD27A3D56963CB66577D972339AD803AA44E`
 SHA512 | `438ABD282D9D1C0E7E5DB2CE027FF9522C3980278B32B2EAE09C595884A8DCBFD5178BC5926B1D15F03174303382E13F5D5ECAB9A5D8E31FC07EF39E66C012E8`
 SSDEEP | `1536:ptZ9tREC/rMcgEPJV+G57ThjEC0kzJP+V5Ju:d9zECTMpuDhjRVJGY`
+IMP | `68CA080EE65AE9EA92581804B773ECBD`
+PESHA1 | `71C8D4F02777D126F23C43903CF16578C5BDB2C1`
+PE256 | `FC6AA16508BE74692E9D46D8AF3CA4E7CB0D45B04C88D8294B895DE057DE6576`
 
 ## Runtime Data
 
@@ -32,20 +36,15 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\SystemPropertiesComputerName.exe.mui | File
 (R-D)   C:\Windows\SystemResources\sysdm.cpl.mun | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -61,7 +60,6 @@ C:\Windows\System32\COMDLG32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\imagehlp.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -82,14 +80,14 @@ C:\Windows\System32\USER32.dll |
 C:\Windows\system32\USERENV.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WINSTA.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -102,6 +100,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/bd3a97327326e2245938ec6099f20059b446ff0fe1c10b9317d15d1a1dd5331e/detection/
 
 ## File Similarity (ssdeep match)
 

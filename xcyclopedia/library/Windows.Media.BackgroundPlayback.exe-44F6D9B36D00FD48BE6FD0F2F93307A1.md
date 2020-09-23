@@ -1,5 +1,6 @@
 ﻿---
 title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
+excerpt: What is Windows.Media.BackgroundPlayback.exe?
 ---
 
 # Windows.Media.BackgroundPlayback.exe 
@@ -17,26 +18,11 @@ SHA256 | `F1675AEC9BE46208FBAFA4D6BB389F61C89B1F6059E15CA1C4390EBA9F7C03AC`
 SHA384 | `484BFB61760F6317F691FDD4B11BCA3A20F5CA7DD61B7274110AB9AA0798015F08E8481BE388327FAB6B2E56EBAF700A`
 SHA512 | `EE72E9EB80B3AD8C8BC02026FD7D8D7307BBD3F4CC0334A326FC3649897227DFAF9A07D16DE84BD3B792B9784B96848B384D6376D66FA463EF8AFC843158213A`
 SSDEEP | `192:BIVYCOELtatxHyzLfscOLViBYA8OzyMpJgXGSjqOsJD1h7re0Hm1zaDW+5Wk:BISdkctxHsLtiV25bHgXJQtHMGW+5Wk`
+IMP | `475266A2489617ACC64ABDFCAE452AE0`
+PESHA1 | `3503FBF0AB7F48E02A60A9BBAA820C88BCCFC01C`
+PE256 | `F6DC238238302CA67D503D5ADC2668E31C6BA73FA45C29484E71478494D6A372`
 
 ## Runtime Data
-
-### Child Processes:
-explorer.exe Windows.Media.BackgroundPlayback.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -55,8 +41,8 @@ C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -69,6 +55,12 @@ C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/f1675aec9be46208fbafa4d6bb389f61c89b1f6059e15ca1c4390eba9f7c03ac/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: RunLegacyCPLElevated.exe | Run a legacy CPL elevated
+excerpt: What is RunLegacyCPLElevated.exe?
 ---
 
 # RunLegacyCPLElevated.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:zTFJH4SEIUkzkN2qEFhDJydZAGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/J:z
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

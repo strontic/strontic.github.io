@@ -1,5 +1,6 @@
 ﻿---
 title: CutePDFWriter.exe | CutePDF Writer
+excerpt: What is CutePDFWriter.exe?
 ---
 
 # CutePDFWriter.exe 
@@ -35,6 +36,7 @@ SSDEEP | `98304:jfhUfKsbePvDYXFAQ+Q4PkMVV0r6v/2Ojjcdmo9KTFOyFTPdFLOAkGkzdnEVomFv
 * Product Version: 4.0.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 by Acro Software Inc., All Rights Reserved
+
 
 ## File Similarity (ssdeep match)
 

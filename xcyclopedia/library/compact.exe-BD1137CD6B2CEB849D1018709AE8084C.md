@@ -1,5 +1,6 @@
 ﻿---
 title: compact.exe | File Compress Utility
+excerpt: What is compact.exe?
 ---
 
 # compact.exe 
@@ -87,6 +88,7 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 * Product Version: 10.0.18362.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

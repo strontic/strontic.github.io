@@ -1,5 +1,6 @@
 ﻿---
 title: desktopimgdownldr.exe | desktopimgdownldr.exe
+excerpt: What is desktopimgdownldr.exe?
 ---
 
 # desktopimgdownldr.exe 
@@ -17,6 +18,9 @@ SHA256 | `1F336FA7255266CA76D26928DA7A2E0D4446F4CAE7F2041218BB2B166A97504D`
 SHA384 | `0607C22104D22394E41CCE21C6720AC85C5174926866B62FA4FF73FBD06704628BDF9EF52D71DDE6A44DE5A1C1931C49`
 SHA512 | `8DB2B94D74817B4B2B59B95CC7FEB9963CDCA372A8144634DFBB9258261B5AD6024B4BF37B48C73C51CEA417585FEFC1F45ED5080F4292AADEB7B6FC5878BCFB`
 SSDEEP | `1536:OarCi80YW9i3P9fS+4mh1yUUt1Thu3SkJXDuMOI14uDLRS4Xe6KXQXQX+:nmYQhIt183SkJTuxuDdSkKAXb`
+IMP | `4497ED51F6847EDEE6F31E6DE69B6378`
+PESHA1 | `0A683F53F11ED02115F415709AA60D2387EF9B0E`
+PE256 | `3E3017729AE251D02AEE1DE4F0571C297BD06231A74A9CB4EFD45AA6EC62F1EF`
 
 ## Runtime Data
 
@@ -33,8 +37,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +51,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/1f336fa7255266ca76d26928da7a2e0d4446f4cae7f2041218bb2b166a97504d/detection/
 
 
 ## Possible Misuse

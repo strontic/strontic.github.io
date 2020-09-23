@@ -1,5 +1,6 @@
 ﻿---
 title: winamp.exe | 
+excerpt: What is winamp.exe?
 ---
 
 # winamp.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

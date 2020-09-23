@@ -1,5 +1,6 @@
 ﻿---
 title: msinfo32.exe | System Information
+excerpt: What is msinfo32.exe?
 ---
 
 # msinfo32.exe 
@@ -104,6 +105,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

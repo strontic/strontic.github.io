@@ -1,5 +1,6 @@
 ﻿---
 title: WPDShextAutoplay.exe | Windows Portable Device Shell Extension Autoplay Handler
+excerpt: What is WPDShextAutoplay.exe?
 ---
 
 # WPDShextAutoplay.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:GL0+RN7vVnpLbZzXJjf9vCsd9AzXweKTHzg8JbM+jqW2WUnWA:Y0MjTf9vCi9A85bf
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

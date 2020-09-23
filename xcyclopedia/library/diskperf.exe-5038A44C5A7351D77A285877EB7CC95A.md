@@ -1,5 +1,6 @@
 ﻿---
 title: diskperf.exe | Disk Performance Configuration Utility
+excerpt: What is diskperf.exe?
 ---
 
 # diskperf.exe 
@@ -17,6 +18,9 @@ SHA256 | `29BC6751B20EAFAA4E2748370B5358F0C7AE679627DF2E01808615D96AA89A32`
 SHA384 | `3BA74BE13DA42513AA162C44DBFB9D8220D3AA117EF19FDC8172F2ACCD14D4C729EA8EDC0F56693818F16276AF88C44B`
 SHA512 | `D72AD7485EBB479497A164E9185D81438F8345F58E19C3C8ABF9B9806B425944FB27360B5B79D355EC0C2D7761A2321A4A98AC5C9DB62B54DA6CE69D8A762A28`
 SSDEEP | `384:t1Y8+hriGBKOuP5X5ol44lDHtiPSmLkyT8QwgrZiOMoAt1GgrOweQZsadWDJW:tAhrtQol44lDASG8uiOMotwzZsa+`
+IMP | `8C30315F0059261E5778F328A7850B04`
+PESHA1 | `13F50EBE3AD24FE895F2B8CA7A5836713D084B23`
+PE256 | `523BD8D0FA084E3C44F7DAE129D009D1982C79D93C672E227BC3ABEE2086DF4F`
 
 ## Runtime Data
 
@@ -76,8 +80,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -90,6 +94,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/29bc6751b20eafaa4e2748370b5358f0c7ae679627df2e01808615d96aa89a32/detection/
 
 
 

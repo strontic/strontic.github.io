@@ -1,5 +1,6 @@
 ﻿---
 title: ClassicStartMenu.exe | Classic Start Menu
+excerpt: What is ClassicStartMenu.exe?
 ---
 
 # ClassicStartMenu.exe 
@@ -68,6 +69,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 4, 3, 1, 0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2009-2016, Ivo Beltchev
+
 
 
 

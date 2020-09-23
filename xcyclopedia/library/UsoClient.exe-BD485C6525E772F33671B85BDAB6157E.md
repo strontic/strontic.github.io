@@ -1,5 +1,6 @@
 ﻿---
 title: UsoClient.exe | UsoClient
+excerpt: What is UsoClient.exe?
 ---
 
 # UsoClient.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:RQkW82ZSOKor0e3FWultSQojsbUdsgsCkAASI6vG:R9WGorvFjSQg8U5mSIb`
 * Product Version: 10.0.14393.3471
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

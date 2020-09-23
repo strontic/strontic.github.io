@@ -1,5 +1,6 @@
 ﻿---
 title: wimserv.exe | Wimfltr v2 extractor
+excerpt: What is wimserv.exe?
 ---
 
 # wimserv.exe 
@@ -50,6 +51,7 @@ C:\Windows\system32\wimserv.exe |
 * Product Version: 10.0.17763.1039
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

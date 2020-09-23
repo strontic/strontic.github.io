@@ -1,5 +1,6 @@
 ﻿---
 title: LicenseManagerShellext.exe | LicenseManagerShellExt
+excerpt: What is LicenseManagerShellext.exe?
 ---
 
 # LicenseManagerShellext.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:dm8NFFDaXMl3DQUtb9CaRTXWmHcc1NRlFIq+QdldDuedzQKFd6mgdZHfOW9qWwX:08
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

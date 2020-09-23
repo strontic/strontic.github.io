@@ -1,5 +1,6 @@
 ﻿---
 title: mktemp.exe | 
+excerpt: What is mktemp.exe?
 ---
 
 # mktemp.exe 
@@ -84,6 +85,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

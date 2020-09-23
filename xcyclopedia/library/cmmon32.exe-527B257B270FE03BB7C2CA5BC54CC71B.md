@@ -1,5 +1,6 @@
 ﻿---
 title: cmmon32.exe | Microsoft Connection Manager Monitor
+excerpt: What is cmmon32.exe?
 ---
 
 # cmmon32.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:zbi6c54hoUjVgqPpjT466QHDnOHh9UASnhBmNDJf2X:zbikhoUG+466QHDq900NDJe
 * Product Version: 7.2.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

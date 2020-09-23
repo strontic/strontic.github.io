@@ -1,5 +1,6 @@
 ﻿---
 title: GeForce_Experience_Update_v2.5.11.45.exe | NVIDIA Package Launcher
+excerpt: What is GeForce_Experience_Update_v2.5.11.45.exe?
 ---
 
 # GeForce_Experience_Update_v2.5.11.45.exe 
@@ -35,6 +36,7 @@ SSDEEP | `786432:fr8nZFpCrZLMSULEJJ0rP51BxeESCICR5GeP086xDmhMZVV:YnfpCrnULvR/xVd
 * Product Version: 1.0.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2015 NVIDIA Corporation
+
 
 
 

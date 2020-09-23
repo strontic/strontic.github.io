@@ -1,5 +1,6 @@
 ﻿---
 title: extrac32.exe | Microsoft CAB File Extract Utility
+excerpt: What is extrac32.exe?
 ---
 
 # extrac32.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:roDoeaPev6TOvyojAg0XgwJQ7JTmSjmEKWU0YM:reoeqouojxBwJQ7VmSjA5M`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

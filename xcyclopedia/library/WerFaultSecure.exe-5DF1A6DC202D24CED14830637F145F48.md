@@ -1,5 +1,6 @@
 ﻿---
 title: WerFaultSecure.exe | Windows Fault Reporting
+excerpt: What is WerFaultSecure.exe?
 ---
 
 # WerFaultSecure.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:xup34lQbHIU3xlZW8YS7aaAFJ+yC3pwRb6JPqB604HHy7hRCd39v2UXM:xuGlQbHI
 * Product Version: 10.0.18362.657
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

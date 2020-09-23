@@ -1,5 +1,6 @@
 ﻿---
 title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
+excerpt: What is IMEWDBLD.EXE?
 ---
 
 # IMEWDBLD.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `12288:+yJ0spoD+gQkCeYeQqAd/+I1Mgh9BVyKC7Gs/r:+KKDyLrDdLpdyK/s/`
 * Product Version: 10.0.14393.2608
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: scp.exe | 
+excerpt: What is scp.exe?
 ---
 
 # scp.exe 
@@ -16,6 +17,9 @@ SHA256 | `8860E4273F59CAA71FA585697E291270F94CEE83439E5C94726D918D7C72F362`
 SHA384 | `241330B8FB6905C078C5921ECE61866C5EDDB31FD2A6C2F02665116F07909DFD40A2C8C7A50850229BE38B58C68ED206`
 SHA512 | `F698D8AE1E595830759B30B42E50136E3D3DBD0540DFAF0430E7CF31AF200A3F73A4803C7DA44500E3AB5B8D3768D271B5165608818ADED5FD2EFAC0C8B418E1`
 SSDEEP | `6144:WThqanTjXv0Xa6CRU+/WFg/jB5B07qnolqLC8Z+a:qqanTDv0q6B+/WGXnolGCQ`
+IMP | `85D8C9B4FBF728E5F40C3F477EEE0C79`
+PESHA1 | `4CB0246F0F5A62033303C14D7FB801ACC16E08FA`
+PE256 | `922EA6413B52502F17D6618426FD659872966BDCC9B46D5A39D7AD3426E70C02`
 
 ## Runtime Data
 
@@ -27,10 +31,15 @@ usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
 
 ```
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\OpenSSH\scp.exe |
 
@@ -52,6 +61,12 @@ C:\Windows\system32\OpenSSH\scp.exe |
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/8860e4273f59caa71fa585697e291270f94cee83439e5c94726d918d7c72f362/detection/
 
 
 

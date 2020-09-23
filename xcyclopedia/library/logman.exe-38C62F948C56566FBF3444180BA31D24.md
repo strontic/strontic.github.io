@@ -1,5 +1,6 @@
 ﻿---
 title: logman.exe | Performance Log Utility
+excerpt: What is logman.exe?
 ---
 
 # logman.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:vkd9d9td+ZKjcA7O6BXnrE+RDHAdDUShjDMRKhKiRJC/hZDQlN/E0LneQneMuIru:
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

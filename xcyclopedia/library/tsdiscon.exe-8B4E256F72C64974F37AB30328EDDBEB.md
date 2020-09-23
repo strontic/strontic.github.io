@@ -1,5 +1,6 @@
 ﻿---
 title: tsdiscon.exe | Session Disconnection Utility
+excerpt: What is tsdiscon.exe?
 ---
 
 # tsdiscon.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:GmDJPtyFgu/5shmgtzGs7LKRvEc55lJvoxrnIvM2PRvbI9oQeeOLwWMnWW:Gm1P0//
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: fontdrvhost.exe | Usermode Font Driver Host
+excerpt: What is fontdrvhost.exe?
 ---
 
 # fontdrvhost.exe 
@@ -40,6 +41,7 @@ fontdrvhost.exe WerFault.exe
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

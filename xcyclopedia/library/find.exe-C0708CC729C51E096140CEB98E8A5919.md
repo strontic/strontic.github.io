@@ -1,5 +1,6 @@
 ﻿---
 title: find.exe | Find String (grep) Utility
+excerpt: What is find.exe?
 ---
 
 # find.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:RssQ9pabJsiuGYWTXDKo9PTswLiDb/3oVZPZakVkhFWwIWvUZ:R9QKYWTGo9PxZPQk
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

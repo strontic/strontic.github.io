@@ -1,5 +1,6 @@
 ﻿---
 title: dcomcnfg.exe | COM+
+excerpt: What is dcomcnfg.exe?
 ---
 
 # dcomcnfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:lYdAG0ZRouR45SvlRtZVcMfuW0EWQS0a:YAG0omQSvl/wHW0EWQS`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

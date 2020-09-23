@@ -1,5 +1,6 @@
 ﻿---
 title: PrintBrmUi.exe | PrintBrm Application
+excerpt: What is PrintBrmUi.exe?
 ---
 
 # PrintBrmUi.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:pW8AIm8Gd6pdKh3FX429s5nrdIdvvKayDm:psItzch3N4Z5rdIdnDn`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

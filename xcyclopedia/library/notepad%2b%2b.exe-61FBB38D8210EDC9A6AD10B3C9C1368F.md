@@ -1,5 +1,6 @@
 ﻿---
 title: notepad++.exe | Notepad++ - a free (GNU) source code editor
+excerpt: What is notepad++.exe?
 ---
 
 # notepad++.exe 
@@ -71,6 +72,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 7.89
 * Language: English (United States)
 * Legal Copyright: Copyleft 1998-2016 by Don HO
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: wbengine.exe | Microsoft Block Level Backup Engine Service EXE
+excerpt: What is wbengine.exe?
 ---
 
 # wbengine.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:Xsvjl6i34G1ZgyZorgw1EN8QbPio3kd8sM74ssLpEGofj0Y2VtDRY640VU2Iv:8v
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

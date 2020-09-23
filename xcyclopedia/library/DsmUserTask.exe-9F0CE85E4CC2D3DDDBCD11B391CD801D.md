@@ -1,5 +1,6 @@
 ﻿---
 title: DsmUserTask.exe | Device Setup Manager User Task Handler
+excerpt: What is DsmUserTask.exe?
 ---
 
 # DsmUserTask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:FjptAPEVZZ1rg4OAuHvaJ+LDEzVj9yGb1H:JAPEVZZu3iJ+LkyGbR`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

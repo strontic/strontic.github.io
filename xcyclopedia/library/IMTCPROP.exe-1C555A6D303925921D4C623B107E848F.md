@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCPROP.exe | IMTCPROP.exe
+excerpt: What is IMTCPROP.exe?
 ---
 
 # IMTCPROP.exe 
@@ -21,6 +22,9 @@ SHA256 | `6FA685493CE0BE5900D5648D1F02789AAC403DABDA6FE23D0D82B531547184BF`
 SHA384 | `7911A7A1905D02368CA0CAD0DAF10FF01DBBC3BF5EDBB34D48A91DBA0B64180BB9A666F7D95CF18DCB41F50A2A7DA657`
 SHA512 | `759B7D487A456692B39E860D543959D8E2C6A3C115E2F89E75C6D9E64855F61D84513FE4DBD40FDE85FE7612CBE45D9A99D0C092B024A613632C1FECEB3D6B66`
 SSDEEP | `6144:4qZRdNTPKcdMHl24Ob74jINmKKRiT7fJ:pR/3+l24ObKw`
+IMP | `860B268C63F0A6124F9DA48D063DA550`
+PESHA1 | `4E77A33DCCFB31338FDA15E4C2C43D2CD1191A09`
+PE256 | `D42A43182DCD3FDA99C35A32CD3859E6D18C4291F7A05726CA1DA4439E4595F8`
 
 ## Runtime Data
 
@@ -33,17 +37,12 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -61,8 +60,6 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -83,6 +80,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/6fa685493ce0be5900d5648d1f02789aac403dabda6fe23d0d82b531547184bf/detection/
 
 ## File Similarity (ssdeep match)
 

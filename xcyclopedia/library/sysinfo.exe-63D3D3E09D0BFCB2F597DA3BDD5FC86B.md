@@ -1,5 +1,6 @@
 ﻿---
 title: sysinfo.exe | Glary Utilities SystemInformation
+excerpt: What is sysinfo.exe?
 ---
 
 # sysinfo.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:Bl9fG6pCKEXLaGlAplepg9EpRKVF0LapIBMm74U62gaemOGDf2RPtp+UER/CW4:L5
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 
 ## Possible Misuse

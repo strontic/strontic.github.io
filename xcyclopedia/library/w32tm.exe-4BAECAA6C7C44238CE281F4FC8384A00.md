@@ -1,5 +1,6 @@
 ﻿---
 title: w32tm.exe | Windows Time Service Diagnostic Tool
+excerpt: What is w32tm.exe?
 ---
 
 # w32tm.exe 
@@ -186,6 +187,7 @@ C:\Windows\system32\w32tm.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

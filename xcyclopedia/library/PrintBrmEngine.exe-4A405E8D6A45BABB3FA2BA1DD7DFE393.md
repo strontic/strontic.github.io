@@ -1,5 +1,6 @@
 ﻿---
 title: PrintBrmEngine.exe | PrintBrmEngine EXE
+excerpt: What is PrintBrmEngine.exe?
 ---
 
 # PrintBrmEngine.exe 
@@ -57,6 +58,7 @@ C:\Windows\system32\spool\tools\PrintBrmEngine.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: wmpshare.exe | Windows Media Player Folder Sharing Executable
+excerpt: What is wmpshare.exe?
 ---
 
 # wmpshare.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

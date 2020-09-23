@@ -1,5 +1,6 @@
 ﻿---
 title: changepk.exe | Change Product Key
+excerpt: What is changepk.exe?
 ---
 
 # changepk.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:Na8cHHHHHHHHHHHHHHHANOHHCHHH0sav0pb5vTYjMS2nksl7Rz2MPxT5QR:qZv0nM
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

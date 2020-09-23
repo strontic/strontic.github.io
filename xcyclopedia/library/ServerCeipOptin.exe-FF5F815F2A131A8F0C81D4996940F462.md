@@ -1,5 +1,6 @@
 ﻿---
 title: ServerCeipOptin.exe | Customer Experience Improvement Program opt-in command-line tool
+excerpt: What is ServerCeipOptin.exe?
 ---
 
 # ServerCeipOptin.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:N/sn3IxRFzwR3ace0vj6La4XPdjtBwpv7M5Md43B3uP9eAFZU6WN8UmrW:tjRFzwRb
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

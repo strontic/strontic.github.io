@@ -1,5 +1,6 @@
 ﻿---
 title: query.exe | MultiUser Query Utility
+excerpt: What is query.exe?
 ---
 
 # query.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:gNUjjkkM8kL35RXgyfWQqiXsO5eYoKNe1zPwWz3W:gllnJfzRcU81zP9`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

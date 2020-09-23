@@ -1,5 +1,6 @@
 ﻿---
 title: getmac.exe | Displays NIC MAC information
+excerpt: What is getmac.exe?
 ---
 
 # getmac.exe 
@@ -17,6 +18,9 @@ SHA256 | `AF862B278038DC2A84DEE82932CFDCFFC837A747C7852DC905DE72300C6FD937`
 SHA384 | `26EF1C4DA9B8CDB8B565E5A8463D8E6F9A0FA6DBE164C13912D132F4661D7E15896024C6FFC3FE1C7902781368AAF7A3`
 SHA512 | `C47E0F5E440C6F00054067510610C5483DD7A5060D1FCEC736231EEA88414D42139F86CACEC56A1EA6CC4288A367D28F1CFBC84471D687562465FE494EDE5264`
 SSDEEP | `1536:oL4azlGfoseDXCPwF3kFCtk1FYTlgkt4cIqi2pBKMAlUasSGm1a:o6foseTCPc4C2/YTWs4ctiSKXlUaPGm0`
+IMP | `6CB365C8C4783D7461BD89A2FF705113`
+PESHA1 | `A8355DE57784FFA4AB405287C2485550E1AFF198`
+PE256 | `810654C1EE19CF7BC71619B16B8C28E724785AF12B88E8BCC4E04B55BA229088`
 
 ## Runtime Data
 
@@ -73,6 +77,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\getmac.exe |
 
@@ -80,8 +85,8 @@ C:\Windows\SysWOW64\getmac.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -94,6 +99,12 @@ C:\Windows\SysWOW64\getmac.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/af862b278038dc2a84dee82932cfdcffc837a747c7852dc905de72300c6fd937/detection/
 
 
 

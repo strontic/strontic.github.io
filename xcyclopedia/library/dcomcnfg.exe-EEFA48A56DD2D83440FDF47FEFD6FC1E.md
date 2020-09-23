@@ -1,5 +1,6 @@
 ﻿---
 title: dcomcnfg.exe | COM+
+excerpt: What is dcomcnfg.exe?
 ---
 
 # dcomcnfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:62wlexCSfIDyXoEtHHkEAyIRojyIInSg0DWPTwqjRXONSiB9Tp34wyDP2LVD7Kku:6B
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

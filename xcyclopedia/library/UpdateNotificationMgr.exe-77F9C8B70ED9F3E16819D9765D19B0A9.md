@@ -1,5 +1,6 @@
 ﻿---
 title: UpdateNotificationMgr.exe | Update Notification Pipeline Manager
+excerpt: What is UpdateNotificationMgr.exe?
 ---
 
 # UpdateNotificationMgr.exe 
@@ -17,6 +18,9 @@ SHA256 | `5FE4952BCF8AC7EDF0C7C6342F674AFF558D47D7902C8217D73069AE084F3F9B`
 SHA384 | `856FA8054D8BAF5955403BC621F8FEA66F3B664BD58A340B011B06209222D1960A9EBE7FA56F364E5DC1CDE05F0B77CC`
 SHA512 | `997063AA59C9B1FE1EEF0FE8BDA269D429B387914C3EF3450A439439D279E8C916A454A347503F2CD37BCCE4B94C92FF2D96E9ADEED3866BADFC946CA67E28B5`
 SSDEEP | `6144:f0qkYPw/UC2Vl9KNsrqPWE53VkN9ghWSXeAGagqeM8ywebWxZGi/tHd53HN3qfuC:8nIwKl9nNqooGqVGGAJHVd8AAQUZf`
+IMP | `E8EAAE034EA45824C464D09034C7E0E3`
+PESHA1 | `0173AFF3C78248FE45B49DA8FA7AB52385B6CFCF`
+PE256 | `F8F6D3A9E263F1197F555DAFB75F9CF67FCDD63B637C1C8601FEC2F8C07EB941`
 
 ## Runtime Data
 
@@ -25,15 +29,10 @@ SSDEEP | `6144:f0qkYPw/UC2Vl9KNsrqPWE53VkN9ghWSXeAGagqeM8ywebWxZGi/tHd53HN3qfuC:
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\UNP\UpdateNotificationMgr.exe |
 
 
@@ -54,6 +53,12 @@ C:\Windows\system32\UNP\UpdateNotificationMgr.exe |
 * Product Version: 10.0.19041.264
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/5fe4952bcf8ac7edf0c7c6342f674aff558d47d7902c8217d73069ae084f3f9b/detection/
 
 
 

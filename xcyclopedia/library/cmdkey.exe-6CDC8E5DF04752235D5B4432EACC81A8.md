@@ -1,5 +1,6 @@
 ﻿---
 title: cmdkey.exe | Credential Manager Command Line Utility
+excerpt: What is cmdkey.exe?
 ---
 
 # cmdkey.exe 
@@ -17,6 +18,9 @@ SHA256 | `DA8059F55EC94DFCB0E75FA43FA6BBC794070E50DEFC00216FC42710CFA58825`
 SHA384 | `726DB38E17D1538D2AA8CAC43E2E7C295AAE8DDB9CE4DDD05E63B423E72D73CB41B0F48AB467B8A90BEB31810F27B195`
 SHA512 | `85662F9A7E8820DE2CAB4FDACA1DCC9D3503F9A401EB83A4022B2F94090EE73133B453574FEA33117CC247134F0BE24F9D562C4B2F76C18C899D66759DB3C628`
 SSDEEP | `384:h/HDVrL5yZsXfPPeN5qu7/btczd/xbGV9W3wW:VDCgmHLVchhGVC`
+IMP | `19CAF11535B9CA1BEB2EF45EB8724422`
+PESHA1 | `3436CC79A0721F888C51F837315862DC33CB57E6`
+PE256 | `9B0B6BA719A07051820857918A3312313429B7941B9C382B61285FD09C14F16D`
 
 ## Runtime Data
 
@@ -53,9 +57,6 @@ Examples:
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -84,6 +85,12 @@ C:\Windows\SysWOW64\cmdkey.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 1/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/da8059f55ec94dfcb0e75fa43fa6bbc794070e50defc00216fc42710cfa58825/detection/
 
 
 ## Possible Misuse

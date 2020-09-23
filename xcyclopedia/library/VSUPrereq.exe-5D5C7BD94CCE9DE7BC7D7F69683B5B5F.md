@@ -1,5 +1,6 @@
 ﻿---
 title: VSUPrereq.exe | VSUPreReq
+excerpt: What is VSUPrereq.exe?
 ---
 
 # VSUPrereq.exe 
@@ -37,6 +38,7 @@ SSDEEP | `192:4EwbJzheN8s0Si1eq6LyKICgWiGWqYWYyieHaVWQ4SWNSfqnajTEV9YoZbiYMl+:4E
 * Product Version: 1.0.0.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  Microsoft Corporation. All rights reserved.
+
 
 
 

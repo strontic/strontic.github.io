@@ -1,5 +1,6 @@
 ﻿---
 title: chgusr.exe | Change INI File Mapping Utility
+excerpt: What is chgusr.exe?
 ---
 
 # chgusr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:hBIs9C0ze3TaTKaga7vX/4o5BZ9JtJEiZyJLyWBVWZd:hjPzH4oDzJvyLlOd`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

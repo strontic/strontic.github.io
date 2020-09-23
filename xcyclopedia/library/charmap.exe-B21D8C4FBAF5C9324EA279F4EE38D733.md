@@ -1,5 +1,6 @@
 ﻿---
 title: charmap.exe | Character Map
+excerpt: What is charmap.exe?
 ---
 
 # charmap.exe 
@@ -81,6 +82,7 @@ C:\Windows\SysWOW64\charmap.exe |
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

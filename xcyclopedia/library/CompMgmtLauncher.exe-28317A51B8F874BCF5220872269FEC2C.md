@@ -1,5 +1,6 @@
 ﻿---
 title: CompMgmtLauncher.exe | Computer Management Snapin Launcher
+excerpt: What is CompMgmtLauncher.exe?
 ---
 
 # CompMgmtLauncher.exe 
@@ -40,6 +41,7 @@ ServerManager.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

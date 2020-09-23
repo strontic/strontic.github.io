@@ -1,5 +1,6 @@
 ﻿---
 title: GameOverlayUI.exe | gameoverlayui.exe
+excerpt: What is GameOverlayUI.exe?
 ---
 
 # GameOverlayUI.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:OP9tiER0u+GIIIIIIIhIIIIIIIIIIIIIIIUqN:4Nm5qN`
 * Product Version: 03.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2009 Valve Corporation
+
 
 ## File Similarity (ssdeep match)
 

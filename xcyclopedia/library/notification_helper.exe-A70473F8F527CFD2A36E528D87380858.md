@@ -1,5 +1,6 @@
 ﻿---
 title: notification_helper.exe | Chromium
+excerpt: What is notification_helper.exe?
 ---
 
 # notification_helper.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:wH/fpn0m49zaQZfr2Hd6s+0kHYytD+LUdMltmHCBLHwweR5+nbolCUxBx:wmm492
 * Product Version: 84.0.4147.105
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 The Chromium Authors. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

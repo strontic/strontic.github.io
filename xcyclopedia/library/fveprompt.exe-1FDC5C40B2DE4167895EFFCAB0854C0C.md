@@ -1,5 +1,6 @@
 ﻿---
 title: fveprompt.exe | BitLocker Drive Encryption
+excerpt: What is fveprompt.exe?
 ---
 
 # fveprompt.exe 
@@ -17,6 +18,9 @@ SHA256 | `FE5098923F27EF6055E3343A26AF9BED62EAA9EDDFCB77AB06D2328D8497B112`
 SHA384 | `81E0DC75CA7E397712F1EF807A775A43A60D3AB4B18E90DEAE46D9B21CEC3F25723B353B9225813D6FCC2DEA468E6F03`
 SHA512 | `B871F2D8E2C2E2F614D0EFE6E31445140CD2783DDAFEC4C8A859C2B0EC2F9BF77C00A34AA1727BD393DC9F7580B59BBB3B894356370A4200B8D3B8537F44EAD7`
 SSDEEP | `3072:mCV4NknUZFc/R/e91WOyvkfQbwnVS570M9kdatGCO+xmBc+hMPhPsx:zFIFm/6MYPVs7nyatGt+SYF`
+IMP | `F4EEE32A76D9E4FEE247653CA992EDC4`
+PESHA1 | `95DD19CD0DB784F84012CFA1C6914407F7A31BC8`
+PE256 | `09F8D0EA706C281DA16FBF46D598BB71DC68A96FA4BC6E9F4642FF9349FF6B9E`
 
 ## Runtime Data
 
@@ -26,18 +30,26 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\fveprompt.exe |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -50,6 +62,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/fe5098923f27ef6055e3343a26af9bed62eaa9eddfcb77ab06d2328d8497b112/detection/
 
 ## File Similarity (ssdeep match)
 

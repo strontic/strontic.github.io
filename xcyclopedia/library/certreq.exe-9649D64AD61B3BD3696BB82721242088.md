@@ -1,5 +1,6 @@
 ﻿---
 title: certreq.exe | CertReq.exe
+excerpt: What is certreq.exe?
 ---
 
 # certreq.exe 
@@ -21,6 +22,9 @@ SHA256 | `AC46A263AC5A21F55FF092D43FB865EDBBAB6AF8BCBE1372AE004FD0B12A8E46`
 SHA384 | `AD9C316B678C0A557C7BBA7BF7530D856C3207D9642E200CDCC21B17C734F3326E7DB1631FA11957DA0A6E8B77EE8065`
 SHA512 | `07001E5080C0F35C508E31F6781A81A8F2DED92A32C7B7B72EF777A921737EB1BFC98679E995BBEAA503A41FB826FBC68DD41F285A634FA8078B91C3E5A657B8`
 SSDEEP | `6144:w0CPCy08ZMcEvpjujaIKk76o4HnxUHQygQakKwHvVHLu5fRpNjy3NoYb1X9tE:w0MspjLpk+NHCTnKyldrK`
+IMP | `E4057C8BDE1B79AA1724B455F9E7C2BB`
+PESHA1 | `034362EABB5290613FF8376A1C4B4B398C71CB55`
+PE256 | `A2C2D19BC07C904C4BA1570D4FDDB1E24463B6776B42186BF4D8794828E755C1`
 
 ## Runtime Data
 
@@ -182,16 +186,11 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\certreq.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -207,8 +206,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -221,6 +220,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac46a263ac5a21f55ff092d43fb865edbbab6af8bcbe1372ae004fd0b12a8e46/detection/
 
 
 ## Possible Misuse

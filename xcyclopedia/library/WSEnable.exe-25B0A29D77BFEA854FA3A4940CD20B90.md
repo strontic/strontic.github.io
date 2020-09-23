@@ -1,5 +1,6 @@
 ﻿---
 title: WSEnable.exe | Thunderbird Windows Search Integration Handler
+excerpt: What is WSEnable.exe?
 ---
 
 # WSEnable.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:vqKB6YoHfRFb5NU4GpGcZBWpQemly2WCmhd0vDG8uK6jSXcCD:SbHfLb5e4cL6OemU
 * Product Version: 78.1.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

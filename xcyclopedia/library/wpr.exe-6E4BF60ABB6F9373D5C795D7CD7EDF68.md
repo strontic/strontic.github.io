@@ -1,5 +1,6 @@
 ﻿---
 title: wpr.exe | Microsoft Windows Performance Recorder
+excerpt: What is wpr.exe?
 ---
 
 # wpr.exe 
@@ -17,6 +18,9 @@ SHA256 | `30940147D6C68C79C9CB8E56CEDB4DAA4F025EDDF1134274DE90DD39D0D8EAD0`
 SHA384 | `A7E008CC9393C194FD46AA6B762920950A51FC613E0A784A93F93B3AC48128D0F049DC6B37BFA7873830D389F7F4B6B1`
 SHA512 | `0F993938797ADFE1E13457A4777946B65679EBD9AEBC84F64D12170E0948596022CE25A3C57C0ED216AF1A957BE5672AEE57B920B26A2416CA74B9B2AC338247`
 SSDEEP | `6144:egtvJfDldaBXZd0PaHw/kDeuiEKvK5cnbhbYg06X0R:JZJfreXZd0pseuiIS//E`
+IMP | `E61CD2AA90474CA9DFFAD3043C7DA49E`
+PESHA1 | `E6E806F059535CDAA2655ADEF8979FCD518309C3`
+PE256 | `D661C1CB218965082FDF827B3ACB8BF7E966E06B098218E1DB70DFC0284BB6AC`
 
 ## Runtime Data
 
@@ -95,6 +99,12 @@ C:\Windows\system32\wpr.exe |
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  2019 Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/30940147d6c68c79c9cb8e56cedb4daa4f025eddf1134274de90dd39d0d8ead0/detection/
 
 
 ## Possible Misuse
@@ -103,8 +113,8 @@ C:\Windows\system32\wpr.exe |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) |       description = "Windows Password Recovery - file wpr.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) |       $s1 = "WPR.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | description = "Windows Password Recovery - file wpr.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | $s1 = "WPR.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

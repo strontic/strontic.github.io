@@ -1,5 +1,6 @@
 ﻿---
 title: lighting.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is lighting.exe?
 ---
 
 # lighting.exe 
@@ -59,13 +60,14 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: Copyright  1995-2020
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `lighting.exe` being misused. While `lighting.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) |       $s3 = "FX Global Lighting Angle" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | $s3 = "FX Global Lighting Angle" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

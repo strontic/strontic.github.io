@@ -1,5 +1,6 @@
 ﻿---
 title: RestoreCenter.exe | Glary Utilities RestoreCenter
+excerpt: What is RestoreCenter.exe?
 ---
 
 # RestoreCenter.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:YP058i4VDOBXFzuzhzvzzuzXXzXePUg9dMeKgDGMxV1DGIkUf2hmn:Yc5GOBVzuzhz
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

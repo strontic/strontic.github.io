@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationSettings.exe | Microsoft Mobile PC Presentation Adaptability Client
+excerpt: What is PresentationSettings.exe?
 ---
 
 # PresentationSettings.exe 
@@ -17,6 +18,9 @@ SHA256 | `6E59AB1A0B4AC177DC3397A54AFCF68FCEA3C1EE72C33BD08C89F04A6DAC64B8`
 SHA384 | `11044442BFBC7F3488A51ACD5A99FE5748D66C1998072B584EF29F60C9FFDA60EBFF1ED281A8FE9D2EB988D4C657948E`
 SHA512 | `8153B79D4681F21ADE7AFE995841C386BFF8E491AD347F8E7C287DF5F9053CAE7458E273339146D9A920CEAA2BA0F41CC793D7B2C0FA80EFBB41477D39470866`
 SSDEEP | `6144:rt0iOUEDwHulF8VC+LM6Ce9U7its2xmhfGKraEH:rtgUoUulW/Cr7p2Gfn`
+IMP | `7B89FBC2ECACD3670D706A9372A38F83`
+PESHA1 | `865549BFF9397EBF4B3B1B38A903F75C8C74B5F9`
+PE256 | `4E14878339BA87C39180326A8FBC81D3E4632CF51490B10B93FE6B8092FA2C30`
 
 ## Runtime Data
 
@@ -27,22 +31,20 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\PresentationSettings.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -70,12 +72,11 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\system32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\UMPDC.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\WINMM.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44\gdiplus.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e\gdiplus.dll |
 
 
 ## Signature
@@ -95,6 +96,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/6e59ab1a0b4ac177dc3397a54afcf68fcea3c1ee72c33bd08c89f04a6dac64b8/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: appidcertstorecheck.exe | AppID Certificate Store Verification Task
+excerpt: What is appidcertstorecheck.exe?
 ---
 
 # appidcertstorecheck.exe 
@@ -48,6 +49,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\appidcertstorecheck.exe](appidcertstorecheck.exe-8402EB60F76D15A0DB80E0419F3A0106.md) | 96
 
 
 

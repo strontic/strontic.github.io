@@ -1,5 +1,6 @@
 ﻿---
 title: mstsc.exe | Remote Desktop Connection
+excerpt: What is mstsc.exe?
 ---
 
 # mstsc.exe 
@@ -23,6 +24,9 @@ SHA256 | `5CE2BE81382FE4D759F0C4389972FBF508F5E9C8F06AAFA7333244006F5F2CBA`
 SHA384 | `4BAD8C76028ACC6A32124C49C1B657E670FA70284F3276494C6F72B2062DF5E1879A7FFE501140CA00E9E25F44D4CD01`
 SHA512 | `4A7CC87CB36E806DCAFAD72FF13C36B3F4538EB24B510C4545A310EA191637062007936332239E56963338AC94C70FF5F30CC25A8F9C20FA69EB1911824F77F0`
 SSDEEP | `24576:aaynVLSkeJ7Et1vk61L873eor9GLiP8jGQhNhaDigqKSdxClrell1r3MJ6W2LVrM:DsVLSkeJ7Et1vk61LO3e+9HP8jGQhNhA`
+IMP | `8ED9FD7812149E8C5396DE875FB2685E`
+PESHA1 | `110337C7D4D9C4897E33CF3BF21E80B7EE3C2117`
+PE256 | `163E4111903887A5B7A53696605C79FDC3129B78D09F690755279337BDE176BD`
 
 ## Signature
 
@@ -41,6 +45,12 @@ SSDEEP | `24576:aaynVLSkeJ7Et1vk61L873eor9GLiP8jGQhNhaDigqKSdxClrell1r3MJ6W2LVrM
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/5ce2be81382fe4d759f0c4389972fbf508f5e9c8f06aafa7333244006f5f2cba/detection/
 
 
 ## Possible Misuse
@@ -55,8 +65,8 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_rdp_hijack_shadowing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_rdp_hijack_shadowing.yml) | `description: Detects RDP session hijacking by using MSTSC shadowing` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1021.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md) | mstsc /v:$Server | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1021.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md) | $p=Tasklist /svc /fi "IMAGENAME eq mstsc.exe" /fo csv \| convertfrom-csv | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | 		$s1 = "srv\\newclient\\lib\\win32\\obj\\i386\\mstsc.pdb" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) |       $a2 = "taskkill /f /im mstsc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [cn_pentestset_tools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar) | $s1 = "srv\\newclient\\lib\\win32\\obj\\i386\\mstsc.pdb" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) | $a2 = "taskkill /f /im mstsc.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

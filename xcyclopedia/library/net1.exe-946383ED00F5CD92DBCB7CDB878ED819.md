@@ -1,5 +1,6 @@
 ﻿---
 title: net1.exe | Net Command
+excerpt: What is net1.exe?
 ---
 
 # net1.exe 
@@ -75,6 +76,7 @@ NET
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

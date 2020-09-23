@@ -1,5 +1,6 @@
 ﻿---
 title: SpatialAudioLicenseSrv.exe | Spatial License AppService Broker
+excerpt: What is SpatialAudioLicenseSrv.exe?
 ---
 
 # SpatialAudioLicenseSrv.exe 
@@ -60,6 +61,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1397
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

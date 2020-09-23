@@ -1,5 +1,6 @@
 ﻿---
 title: taskeng.exe | Task Scheduler Engine
+excerpt: What is taskeng.exe?
 ---
 
 # taskeng.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:oy5hazS9aKOOg542jHW+rTEHQrrT8eJnCwcEWkQDm5:oyiecK8542vrTEaFIwWZm5
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: taskhostw.exe | Host Process for Windows Tasks
+excerpt: What is taskhostw.exe?
 ---
 
 # taskhostw.exe 
@@ -17,6 +18,9 @@ SHA256 | `F58B368E051EF114719DB91E1E82DB81E8274A0C9F1286A39B00D9EBB6FDE330`
 SHA384 | `2E4501528E81073B00B6DCD58BF3266B34FC5A878AB4A28C10187BB15F5C1C76F698CF5E854213025CD08DB20FFC5388`
 SHA512 | `7496F32D2E3E36A89EB42721FCB17017671CE643E2B5EF921B0E2726C80A05D08AC531F1E085C54F2A10150ADF4543ABF33FBE5006FC2BF5A1771DC5DE368C79`
 SSDEEP | `1536:e0Je6hPDm9RsbcpHyxlLfE3RMaapRYJVC6XA+pfhNHrg8K6iSzyegZhP9:V465LbcJyxlLfE3RMRSXA+pfjg8K6+Tx`
+IMP | `3A0C6863CDE566AF997DB2DEFFF9D924`
+PESHA1 | `41332FF5547305DA5BAE792C7F1CA84EC0FC8345`
+PE256 | `52C88862BBAACA55226F08A09E61563E15E679A5A2C5B505FF176A4B9ACE4C61`
 
 ## Runtime Data
 
@@ -53,6 +57,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/f58b368e051ef114719db91e1e82db81e8274a0c9f1286a39b00d9ebb6fde330/detection/
 
 
 ## Possible Misuse
@@ -62,8 +72,8 @@ C:\Windows\System32\ucrtbase.dll |
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wmi_module_load.yml) | `- '\windows\system32\taskhostw.exe'  # c:\windows\system32\taskhostw.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1036.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md) | - [Atomic Test #5 - Masquerading - powershell.exe running as taskhostw.exe](#atomic-test-5---masquerading---powershellexe-running-as-taskhostwexe) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1036.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md) | ## Atomic Test #5 - Masquerading - powershell.exe running as taskhostw.exe | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1036.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md) | Copies powershell.exe, renames it, and launches it to masquerade as an instance of taskhostw.exe. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

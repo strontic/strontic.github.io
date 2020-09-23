@@ -1,5 +1,6 @@
 ﻿---
 title: iTunesHelper.exe | iTunesHelper
+excerpt: What is iTunesHelper.exe?
 ---
 
 # iTunesHelper.exe 
@@ -66,6 +67,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 12.10.8.5
 * Language: English (United States)
 * Legal Copyright:  2000-2020 Apple Inc. All rights reserved.
+
 
 
 

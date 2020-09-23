@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesProtection.exe | System Protection Settings
+excerpt: What is SystemPropertiesProtection.exe?
 ---
 
 # SystemPropertiesProtection.exe 
@@ -17,6 +18,9 @@ SHA256 | `64D46A44784B59500BE52A0E7F8F2B8ACC2FA679115C31C9DEFA04511662D8AA`
 SHA384 | `3469467984FB4EBF97333BD1BA2CD446EDDA1951C686A04E05A6E05FE164ACAE39BE587C4473458F068AC4E89F597D5D`
 SHA512 | `B4A9144F2810B85862B795CD45395B859BD73392DC3C379412F34665DE9FAD067D45D179FDE0813E10010C36C3601726F40B251AC15409C2F7150AD12DD1D50D`
 SSDEEP | `1536:qfdZ2tREC/rMcgEPJV+G57ThjEC0kzJP+V5JPH:qH2zECTMpuDhjRVJGF`
+IMP | `B788892AE84BA86201A726810F01CB07`
+PESHA1 | `DD9A26189ED4179A8F2E7197269FD6114C1243E2`
+PE256 | `E71F004844A013910D440915075FF5D1B93350DA252221965F603F4F5716CF9A`
 
 ## Runtime Data
 
@@ -31,21 +35,16 @@ Path | Type
 (R-D)   C:\Windows\SysWOW64\en-US\netid.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -76,6 +75,12 @@ C:\Windows\SysWOW64\SystemPropertiesProtection.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/64d46a44784b59500be52a0e7f8f2b8acc2fa679115c31c9defa04511662d8aa/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -162,7 +167,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | 		$s14 = "SystemPropertiesProtection.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | $s14 = "SystemPropertiesProtection.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

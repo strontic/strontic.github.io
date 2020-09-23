@@ -1,5 +1,6 @@
 ﻿---
 title: vdsldr.exe | Virtual Disk Service Loader
+excerpt: What is vdsldr.exe?
 ---
 
 # vdsldr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:gaWJo8Oi/BF9pZwsw6I6e+H4W/TDKnMek2KTqbxL9yeN/CeGXWU+WI4:gaSo+jXG6e
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

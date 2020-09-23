@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationHost.exe | Windows Presentation Foundation Host
+excerpt: What is PresentationHost.exe?
 ---
 
 # PresentationHost.exe 
@@ -42,6 +43,7 @@ iexplore.exe
 * Product Version: 4.0.41210.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: atasanot.exe | WebEx Application Sharing Annonation Module
+excerpt: What is atasanot.exe?
 ---
 
 # atasanot.exe 
@@ -37,6 +38,7 @@ SSDEEP | `1536:5kd09VieuRg0tc6SDm6TokrgQAgm39j7SRb3hKJs:I09qPtDSlsOgQ1e7SRke`
 * Product Version: 1031,1609,1100,2200
 * Language: English (United States)
 * Legal Copyright: 1997-2015 Cisco and/or its affiliates. All rights reserved.
+
 
 
 

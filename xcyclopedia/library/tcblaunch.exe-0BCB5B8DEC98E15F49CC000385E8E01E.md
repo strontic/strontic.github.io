@@ -1,5 +1,6 @@
 ﻿---
 title: tcblaunch.exe | TCB Launcher
+excerpt: What is tcblaunch.exe?
 ---
 
 # tcblaunch.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:D16JqsiP1wupRaxznLtq3lUfToyMEdeSjO1/A+mLfWGTI:56JcPyURaNnLklyXeS
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

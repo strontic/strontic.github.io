@@ -1,5 +1,6 @@
 ﻿---
 title: refsutil.exe | refsutil.exe
+excerpt: What is refsutil.exe?
 ---
 
 # refsutil.exe 
@@ -57,6 +58,7 @@ C:\Windows\system32\refsutil.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

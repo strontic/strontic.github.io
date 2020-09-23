@@ -1,5 +1,6 @@
 ﻿---
 title: poqexec.exe | Primitive Operations Queue Executor
+excerpt: What is poqexec.exe?
 ---
 
 # poqexec.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:3LvyayW9hu2jXJjJsoHGJmlIsJEadzz+iOqN8L5Y:7aavbBGJQiiQ5`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

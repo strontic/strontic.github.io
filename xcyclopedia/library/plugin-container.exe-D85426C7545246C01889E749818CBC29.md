@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-container.exe | Plugin Container for Firefox
+excerpt: What is plugin-container.exe?
 ---
 
 # plugin-container.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 80.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

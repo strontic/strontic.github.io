@@ -1,5 +1,6 @@
 ﻿---
 title: browser_broker.exe | Browser_Broker
+excerpt: What is browser_broker.exe?
 ---
 
 # browser_broker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:o0qEakX1n2856m/Sjl3g7D1Qn1mEHKuI1PLU8:o0qE5XR2KQQ7u1mEHKHPL`
 * Product Version: 11.00.18362.267
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

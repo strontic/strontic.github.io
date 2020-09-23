@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCPROP.exe | IMTCPROP.exe
+excerpt: What is IMTCPROP.exe?
 ---
 
 # IMTCPROP.exe 
@@ -44,6 +45,7 @@ RdpSa.exe
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

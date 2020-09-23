@@ -1,5 +1,6 @@
 ﻿---
 title: iscsicli.exe | iSCSI Discovery tool
+excerpt: What is iscsicli.exe?
 ---
 
 # iscsicli.exe 
@@ -230,6 +231,7 @@ The operation completed successfully.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

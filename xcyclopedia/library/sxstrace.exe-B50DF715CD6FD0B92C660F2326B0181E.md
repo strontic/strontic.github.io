@@ -1,5 +1,6 @@
 ﻿---
 title: sxstrace.exe | Sxs Tracing Tool
+excerpt: What is sxstrace.exe?
 ---
 
 # sxstrace.exe 
@@ -67,6 +68,7 @@ C:\Windows\SysWOW64\sxstrace.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

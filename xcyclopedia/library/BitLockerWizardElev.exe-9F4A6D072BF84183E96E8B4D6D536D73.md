@@ -1,5 +1,6 @@
 ﻿---
 title: BitLockerWizardElev.exe | BitLocker Drive Encryption Wizard
+excerpt: What is BitLockerWizardElev.exe?
 ---
 
 # BitLockerWizardElev.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:h+XwnVS570M9kdatGCO+xmBc+hMPhPsx:TVs7nyatGt+SYF`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

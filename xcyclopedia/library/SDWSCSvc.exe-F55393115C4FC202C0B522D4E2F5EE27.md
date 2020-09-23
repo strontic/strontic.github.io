@@ -1,5 +1,6 @@
 ﻿---
 title: SDWSCSvc.exe | Windows Security Center integration.
+excerpt: What is SDWSCSvc.exe?
 ---
 
 # SDWSCSvc.exe 
@@ -61,6 +62,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+
 
 
 

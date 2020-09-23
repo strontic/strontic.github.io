@@ -1,5 +1,6 @@
 ﻿---
 title: wbemtest.exe | WMI Test Tool
+excerpt: What is wbemtest.exe?
 ---
 
 # wbemtest.exe 
@@ -22,6 +23,9 @@ SHA256 | `2828D06FE31D1D3A1910DC4F370CA652F10CB0F8C83CD0CCDEC1F72A1469DDB9`
 SHA384 | `8280275DF8F6DE4E05C3B76BB45E645F45AB93E1FD7915820E64865E06FC028065E0001E6D7E6A579C39C90AEB93E474`
 SHA512 | `7AAA3D6897CD0892BAD74F571E4DA7318B8884BC83EE9E66F70876352CBFD185EF1282A8B7097E8FA918111A5D8FF7BD6ED996B96AEA25D86F3F2CA086FE6014`
 SSDEEP | `3072:+4Nur3ltFr/NTVtC6VYnzvM5RBgDw0B8Y1wfT6UhIPFJRAhP2EAeL:+4NuL1NTVRgTOQiEqmtDeP`
+IMP | `CDFDFC84E739873776D87479B9819CD0`
+PESHA1 | `942F366EB61513A1B9ACEF186A00D043EBC326EF`
+PE256 | `E6A81CDAC5DD5DB917D405163869948B5D34458F56F345BDAE059A447BB9BF8A`
 
 ## Runtime Data
 
@@ -35,17 +39,12 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\System32\wbem\en-US\wbemtest.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -74,8 +73,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -88,6 +87,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/2828d06fe31d1d3a1910dc4f370ca652f10cb0f8c83cd0ccdec1f72a1469ddb9/detection/
 
 ## File Similarity (ssdeep match)
 

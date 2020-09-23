@@ -1,5 +1,6 @@
 ﻿---
 title: dasHost.exe | Device Association Framework Provider Host
+excerpt: What is dasHost.exe?
 ---
 
 # dasHost.exe 
@@ -40,6 +41,7 @@ conhost.exe
 * Product Version: 10.0.14393.2791
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

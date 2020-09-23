@@ -1,5 +1,6 @@
 ﻿---
 title: hdwwiz.exe | Add Hardware Wizard
+excerpt: What is hdwwiz.exe?
 ---
 
 # hdwwiz.exe 
@@ -78,6 +79,7 @@ C:\Windows\SysWOW64\hdwwiz.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

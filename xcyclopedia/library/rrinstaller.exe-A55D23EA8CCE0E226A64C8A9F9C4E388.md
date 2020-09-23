@@ -1,5 +1,6 @@
 ﻿---
 title: rrinstaller.exe | R&R installer
+excerpt: What is rrinstaller.exe?
 ---
 
 # rrinstaller.exe 
@@ -40,6 +41,7 @@ RdpSa.exe
 * Product Version: 11.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

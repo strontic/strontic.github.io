@@ -1,5 +1,6 @@
 ﻿---
 title: expr.exe | 
+excerpt: What is expr.exe?
 ---
 
 # expr.exe 
@@ -101,6 +102,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

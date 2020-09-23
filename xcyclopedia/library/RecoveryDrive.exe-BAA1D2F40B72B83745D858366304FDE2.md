@@ -1,5 +1,6 @@
 ﻿---
 title: RecoveryDrive.exe | Recovery Media Creator
+excerpt: What is RecoveryDrive.exe?
 ---
 
 # RecoveryDrive.exe 
@@ -39,6 +40,7 @@ SSDEEP | `24576:Ol26PyVFgx6RB8QrUsY28G2HUgA7SwJX5ebmnMiH94h:YF6y8RBjrfNcHUgCebmM
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

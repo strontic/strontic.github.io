@@ -1,5 +1,6 @@
 ﻿---
 title: wsisvc.exe | wsisvc
+excerpt: What is wsisvc.exe?
 ---
 
 # wsisvc.exe 
@@ -37,6 +38,7 @@ SSDEEP | `3072:RL01wwX4vo9E+ZntahMIhzXUcv1WElJ3C8e:RI1Dw06MItUcv1WEXE`
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

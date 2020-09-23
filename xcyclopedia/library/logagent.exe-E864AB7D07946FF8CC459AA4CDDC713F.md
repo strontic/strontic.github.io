@@ -1,5 +1,6 @@
 ﻿---
 title: logagent.exe | Windows Media Player Logagent
+excerpt: What is logagent.exe?
 ---
 
 # logagent.exe 
@@ -56,6 +57,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 12.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

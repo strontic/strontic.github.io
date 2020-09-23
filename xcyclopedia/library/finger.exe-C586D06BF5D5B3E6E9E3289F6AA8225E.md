@@ -1,5 +1,6 @@
 ﻿---
 title: finger.exe | TCPIP Finger Command
+excerpt: What is finger.exe?
 ---
 
 # finger.exe 
@@ -17,13 +18,16 @@ SHA256 | `781F1BB7080EF4DC5BD8B5F6E3D7CD1AE304E0DA6DE135B166EF686326E87C5F`
 SHA384 | `07213C43E06CC71A3513D74B097325BF5A95270D936F89AB60BD9A49919B540F367FEA45C96F0BDF0530A40A6414214C`
 SHA512 | `00A3421557C1E08FA476F78C0A4C615DE57E85AB69E46C9E56BE1E6BE2CED01CEF3988029E07BAB3F9950064B9F8A4B8A4019D329DF89DF2FC5ACE76B50D9548`
 SSDEEP | `192:k7obhx5K9enOD92DgDmX/mXp6MFE+jJ6wWoWl0W0W:EUhx5MenW2DjXeXRTjJ1pWl0W`
+IMP | `DD36F61A81704582E5C476E946B3969A`
+PESHA1 | `C9C041E329135864D46954B13137570689AE9898`
+PE256 | `C58AAC1FADBEC621A61AF1C3CCFABC22721C4E039936180FDB251182B272B9B9`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
 
-[DESKTOP-REAF672]
+[DESKTOP-DVEMHUO]
 
 ```
 
@@ -53,15 +57,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\finger.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -70,6 +69,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\finger.exe |
 
@@ -91,6 +91,12 @@ C:\Windows\SysWOW64\finger.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/781f1bb7080ef4dc5bd8b5f6e3d7cd1ae304e0da6de135b166ef686326e87c5f/detection/
 
 
 ## Possible Misuse

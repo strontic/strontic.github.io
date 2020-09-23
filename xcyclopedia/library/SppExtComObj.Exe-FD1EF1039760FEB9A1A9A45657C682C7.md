@@ -1,5 +1,6 @@
 ﻿---
 title: SppExtComObj.Exe | KMS Connection Broker
+excerpt: What is SppExtComObj.Exe?
 ---
 
 # SppExtComObj.Exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:mOwRPzsqyUy68QLg8K8fo90MXZiarFmRgRhdZieOcrnjhIQbwIiO1iDp:DwRPzs6
 * Product Version: 10.0.14393.2248
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

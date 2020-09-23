@@ -1,5 +1,6 @@
 ﻿---
 title: SDBootCD.exe | Create a bootable CD with Spybot-S&D on it.
+excerpt: What is SDBootCD.exe?
 ---
 
 # SDBootCD.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2007-2018 Safer-Networking Ltd. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ShareX.exe | ShareX
+excerpt: What is ShareX.exe?
 ---
 
 # ShareX.exe 
@@ -99,6 +100,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 13.1.0
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) 2007-2020 ShareX Team
+
 
 
 

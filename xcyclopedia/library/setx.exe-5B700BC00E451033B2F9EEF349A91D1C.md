@@ -1,5 +1,6 @@
 ﻿---
 title: setx.exe | Setx - Sets environment variables
+excerpt: What is setx.exe?
 ---
 
 # setx.exe 
@@ -17,6 +18,9 @@ SHA256 | `84A5CE53747DDE0FBD2A9E94FD668591FBB7BDE1BBEE25A84A9E6216159DCB3A`
 SHA384 | `E3A0CC7D8043DF9616E1F221E3D6122C991081EDAE3AD95720EF0D33B2024F4A5F33D5E46652356DD4AF31C0936B13B8`
 SHA512 | `2E1CBE2EE1985AF8A9D176E5F4449165DC64206F2B51E06FBB6EADEAAA6226F6A7A5DD695A2EEE8224578AD11E59226ADB2D47D23116DB41DFD45D5CD31923F4`
 SSDEEP | `768:4mvk3/a/BvQ6WKRdWhCUjc0juXbIbkOKrd/yrO3Xu17K+DZMwfT7CsjiyGwkEAHM:Bvk3Cl/LWFbj0bI45A+UfWijiVZIH+Na`
+IMP | `87DEC5CA66F6F41BBF6CA5743F581342`
+PESHA1 | `79175EF31F927BA052158F6D96498A69E649E1F0`
+PE256 | `9EF43EBEE752682100356FF57373FF32D9A17DA3E970A96777A8203F9A82FDFE`
 
 ## Runtime Data
 
@@ -146,6 +150,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\setx.exe |
 
@@ -167,6 +172,12 @@ C:\Windows\SysWOW64\setx.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/84a5ce53747dde0fbd2a9e94fd668591fbb7bde1bbee25a84a9e6216159dcb3a/detection/
 
 
 

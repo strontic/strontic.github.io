@@ -1,5 +1,6 @@
 ﻿---
 title: dpnsvr.exe | DirectPlay Stub
+excerpt: What is dpnsvr.exe?
 ---
 
 # dpnsvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:uDYdQ2a5tbaonlOmPTMWE9YoLDbwMZRoEWFUduWwf:uDYS2a5t/n/TwYoLDMMZbWFUd
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tlntsvr.exe | Telnet
+excerpt: What is tlntsvr.exe?
 ---
 
 # tlntsvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:D/4TmqdiYlIfFWXveHkMqkUuaTX9c9qwFk/rNo4v:D/kIQfnMq1uOXYqwMNo`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

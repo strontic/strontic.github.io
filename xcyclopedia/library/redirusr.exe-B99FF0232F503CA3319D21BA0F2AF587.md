@@ -1,5 +1,6 @@
 ﻿---
 title: redirusr.exe | Microsoft User Container Redirection Utility
+excerpt: What is redirusr.exe?
 ---
 
 # redirusr.exe 
@@ -59,6 +60,7 @@ C:\Windows\SysWOW64\redirusr.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

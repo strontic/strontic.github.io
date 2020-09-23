@@ -1,5 +1,6 @@
 ﻿---
 title: bootmgr.exe | Boot Manager
+excerpt: What is bootmgr.exe?
 ---
 
 # bootmgr.exe 
@@ -36,6 +37,7 @@ SSDEEP | `12288:Q6JqcsiNFsRW0fTapDrbCxymAI7X9rjs9welQPUpVGMplIm9dmj1WwK9W9Qvw6Jo
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -49,7 +51,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `bootmgr` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) |       $f2 = "bootmgr.efi" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) | $f2 = "bootmgr.efi" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

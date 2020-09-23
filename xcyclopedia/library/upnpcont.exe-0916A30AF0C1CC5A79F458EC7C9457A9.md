@@ -1,5 +1,6 @@
 ﻿---
 title: upnpcont.exe | UPnP Device Host Container
+excerpt: What is upnpcont.exe?
 ---
 
 # upnpcont.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:lgylY3gHKtvH/wadFAMqP2cxVjfFg0/4ITEVYWPq7OhZLyUh5:iMym1kFZCfScgVYb
 * Product Version: 10.0.14393.3321
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

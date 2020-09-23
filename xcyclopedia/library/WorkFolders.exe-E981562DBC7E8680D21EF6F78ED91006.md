@@ -1,5 +1,6 @@
 ﻿---
 title: WorkFolders.exe | Work Folders
+excerpt: What is WorkFolders.exe?
 ---
 
 # WorkFolders.exe 
@@ -40,6 +41,7 @@ control.exe
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

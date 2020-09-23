@@ -1,5 +1,6 @@
 ﻿---
 title: chattr.exe | 
+excerpt: What is chattr.exe?
 ---
 
 # chattr.exe 
@@ -80,6 +81,7 @@ chattr: Must use at least one of =, + or -
 * Language: 
 * Legal Copyright: 
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -93,9 +95,9 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [lnx_chattr_immutable_removal.yml](https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_chattr_immutable_removal.yml) | `a0\|contains: 'chattr'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #9: chattr - Remove immutable file attribute [macos, linux] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [linux-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md) |   - Atomic Test #9: chattr - Remove immutable file attribute [macos, linux] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md) |   - Atomic Test #9: chattr - Remove immutable file attribute [macos, linux] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #9: chattr - Remove immutable file attribute [macos, linux] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [linux-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md) | - Atomic Test #9: chattr - Remove immutable file attribute [macos, linux] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [macos-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md) | - Atomic Test #9: chattr - Remove immutable file attribute [macos, linux] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.002/T1222.002.md) | - [Atomic Test #9 - chattr - Remove immutable file attribute](#atomic-test-9---chattr---remove-immutable-file-attribute) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.002/T1222.002.md) | ## Atomic Test #9 - chattr - Remove immutable file attribute | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1222.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.002/T1222.002.md) | Remove's a file's `immutable` attribute using `chattr`. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

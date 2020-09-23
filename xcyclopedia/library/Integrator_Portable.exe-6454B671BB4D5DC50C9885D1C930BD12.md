@@ -1,5 +1,6 @@
 ﻿---
 title: Integrator_Portable.exe | Glary Utilities 5
+excerpt: What is Integrator_Portable.exe?
 ---
 
 # Integrator_Portable.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:MXpGWRjQ/+5An6k0yx8QaLD89wzGjLep1FWoYlUdgc0/c9yv:F/+5nu8RLD8ezGji
 * Product Version: 5, 0, 0, 1
 * Language: English
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

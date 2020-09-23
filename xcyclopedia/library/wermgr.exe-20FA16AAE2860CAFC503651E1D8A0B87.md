@@ -1,5 +1,6 @@
 ﻿---
 title: wermgr.exe | Windows Problem Reporting
+excerpt: What is wermgr.exe?
 ---
 
 # wermgr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:MS659z6JESF0JBho1Q3xXfMBLICq8/HRtsHdwCAheNwOOFJ+yC3pwRb6JPqB604o:
 * Product Version: 10.0.17763.1282
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

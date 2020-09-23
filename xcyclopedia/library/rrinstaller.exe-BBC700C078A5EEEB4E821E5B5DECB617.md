@@ -1,5 +1,6 @@
 ﻿---
 title: rrinstaller.exe | R&R installer
+excerpt: What is rrinstaller.exe?
 ---
 
 # rrinstaller.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:bAC0n28tjSWco79vjYQcaJe0Arc9WjsxA+jJa2epnv8YfI8cIHNtYH5uSXmzFP:bAZ
 * Product Version: 11.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

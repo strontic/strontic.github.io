@@ -1,5 +1,6 @@
 ﻿---
 title: LanguageComponentsInstallerComHandler.exe | LanguageComponentsInstaller COM Handler
+excerpt: What is LanguageComponentsInstallerComHandler.exe?
 ---
 
 # LanguageComponentsInstallerComHandler.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:O9OM0ukdc+pC1QunQVVVbl+s7r4gCZ2+uO:QOZdT41/nQ/Vh+xZTu`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SoftwareUpdate.exe | Apple Software Update
+excerpt: What is SoftwareUpdate.exe?
 ---
 
 # SoftwareUpdate.exe 
@@ -90,6 +91,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.6.3.0
 * Language: English (United States)
 * Legal Copyright: (c) 2006-2011, 2015-2018 Apple Inc. All rights reserved.
+
 
 
 

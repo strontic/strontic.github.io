@@ -1,5 +1,6 @@
 ﻿---
 title: nvdaHelperRemoteLoader.exe | 
+excerpt: What is nvdaHelperRemoteLoader.exe?
 ---
 
 # nvdaHelperRemoteLoader.exe 
@@ -34,6 +35,7 @@ SSDEEP | `1536:sOL/ut1zhzrcCsyHPOiyHuT4qvuIsWxLdMhuwhtns:hL/yjXr0SGYhMhTjs`
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

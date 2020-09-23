@@ -1,5 +1,6 @@
 ﻿---
 title: pidgin-uninst.exe | Pidgin Installer (Offline)
+excerpt: What is pidgin-uninst.exe?
 ---
 
 # pidgin-uninst.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.14.1
 * Language: English (United States)
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SgrmBroker.exe | System Guard Runtime Monitor Broker Service
+excerpt: What is SgrmBroker.exe?
 ---
 
 # SgrmBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:RqjM9iHEeJs8fY16oqRXWenOCe0OpnUPw+U98U:4jM9iHRZfY16VRXWxyw2U`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

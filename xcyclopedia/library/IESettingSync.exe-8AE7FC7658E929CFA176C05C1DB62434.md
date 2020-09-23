@@ -1,5 +1,6 @@
 ﻿---
 title: IESettingSync.exe | Microsoft  IE Setting Sync Background Application
+excerpt: What is IESettingSync.exe?
 ---
 
 # IESettingSync.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 11.00.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

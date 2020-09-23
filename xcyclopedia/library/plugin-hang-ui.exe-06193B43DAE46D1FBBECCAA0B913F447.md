@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-hang-ui.exe | Plugin Hang UI for Thunderbird
+excerpt: What is plugin-hang-ui.exe?
 ---
 
 # plugin-hang-ui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:sXtWmGN/BgVbmctn8J0hQLUJC1DGBKgKtv:sXtY/QmsnfhQLUJlEtv`
 * Product Version: 78.1.1
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

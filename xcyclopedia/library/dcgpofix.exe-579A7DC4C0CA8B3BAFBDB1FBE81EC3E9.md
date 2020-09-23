@@ -1,5 +1,6 @@
 ﻿---
 title: dcgpofix.exe | Microsoft (C) Default Group Policy Object Restore Utility
+excerpt: What is dcgpofix.exe?
 ---
 
 # dcgpofix.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:irR5jcEwMO76OTpwB3KCtwjFlxNN83pki7FrU/:iTjcEf/MpA3KaoUpki7B`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

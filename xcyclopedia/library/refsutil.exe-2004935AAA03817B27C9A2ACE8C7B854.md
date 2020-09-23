@@ -1,5 +1,6 @@
 ﻿---
 title: refsutil.exe | refsutil.exe
+excerpt: What is refsutil.exe?
 ---
 
 # refsutil.exe 
@@ -17,6 +18,9 @@ SHA256 | `7E740610DB81F36D96DDC05CA9FE15FBB0C09BFC7168E80E1FB93586C6970CFD`
 SHA384 | `A8018A572B893B22620F7F8BCD5DFC232ACB6E76DD2A5F3DCCC3DDA6F6BD87775C7EDAF1354B88930E6C9DD7A719D75D`
 SHA512 | `AABD419C591C5900856E149826DC6A6821893BBB1A9F8FF53BE064A03095F468D15ABB8277066FD4C67DF215999B84F6072DD08A1F4B6A3D292215332EF4B15A`
 SSDEEP | `24576:VyjRzvYLnvlag4to4VtcrcDXd1d85vwL+dmSXDxGwhR:Vk7YLnvlag4to4VtcrYXd1d85v0GXzY4`
+IMP | `140B57FE70F5016718431D3C313D32BE`
+PESHA1 | `00C6C1C5F206F0721BC87CBD12669ADAB6D20D9E`
+PE256 | `7435FC864585D2C4AD1A3085A80A785F2403068AE1D562DBB5F35D0ECCC00CB5`
 
 ## Runtime Data
 
@@ -43,8 +47,8 @@ C:\Windows\system32\refsutil.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -57,6 +61,12 @@ C:\Windows\system32\refsutil.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/7e740610db81f36d96ddc05ca9fe15fbb0c09bfc7168e80e1fb93586c6970cfd/detection/
 
 
 

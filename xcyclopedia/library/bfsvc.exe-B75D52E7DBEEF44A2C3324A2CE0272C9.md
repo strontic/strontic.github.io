@@ -1,5 +1,6 @@
 ﻿---
 title: bfsvc.exe | Boot File Servicing Utility
+excerpt: What is bfsvc.exe?
 ---
 
 # bfsvc.exe 
@@ -45,6 +46,7 @@ BFSVC Error: ServicingBootFiles failed. Error = 0xc1
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

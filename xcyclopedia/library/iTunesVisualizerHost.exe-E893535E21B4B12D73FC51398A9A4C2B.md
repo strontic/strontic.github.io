@@ -1,5 +1,6 @@
 ﻿---
 title: iTunesVisualizerHost.exe | iTunes Visualizer Host
+excerpt: What is iTunesVisualizerHost.exe?
 ---
 
 # iTunesVisualizerHost.exe 
@@ -86,6 +87,7 @@ C:\Windows\SYSTEM32\WINMM.dll |
 * Product Version: 12.10.8.5
 * Language: English (United States)
 * Legal Copyright:  2000-2020 Apple Inc. All rights reserved.
+
 
 
 

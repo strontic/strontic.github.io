@@ -1,5 +1,6 @@
 ﻿---
 title: trillian.exe | Trillian
+excerpt: What is trillian.exe?
 ---
 
 # trillian.exe 
@@ -82,6 +83,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 6.3.0.6
 * Language: English (United States)
 * Legal Copyright:  Cerulean Studios, LLC.  All rights reserved.
+
 
 
 

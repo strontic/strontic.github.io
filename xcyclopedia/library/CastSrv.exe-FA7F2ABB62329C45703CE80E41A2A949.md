@@ -1,5 +1,6 @@
 ﻿---
 title: CastSrv.exe | Casting protocol connection listener
+excerpt: What is CastSrv.exe?
 ---
 
 # CastSrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:5RfIgXu7rbFvJkXnabe1SuDvNPsVOOzHbh0c5TIwS4zRN/yIumj4+o1ZYIB6Xj1z:7
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: gmic_krita_qt.exe | 
+excerpt: What is gmic_krita_qt.exe?
 ---
 
 # gmic_krita_qt.exe 
@@ -113,6 +114,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: edpnotify.exe | Microsoft Enterpise Data Protection
+excerpt: What is edpnotify.exe?
 ---
 
 # edpnotify.exe 
@@ -66,6 +67,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\edpnotify.exe](edpnotify.exe-6EECA58E87BB27973F645DB12C275A17.md) | 96
 
 
 

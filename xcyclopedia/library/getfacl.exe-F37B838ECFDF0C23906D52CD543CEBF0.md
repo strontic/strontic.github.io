@@ -1,5 +1,6 @@
 ﻿---
 title: getfacl.exe | 
+excerpt: What is getfacl.exe?
 ---
 
 # getfacl.exe 
@@ -100,6 +101,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

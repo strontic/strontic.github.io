@@ -1,5 +1,6 @@
 ﻿---
 title: winresume.exe | Resume From Hibernate boot application
+excerpt: What is winresume.exe?
 ---
 
 # winresume.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:yQ/i6EqiMw1E/h7/ZoaJ3viGlP+tpqw232Syu8oItTDq:ta68QNpYyP+tpwGDE3`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

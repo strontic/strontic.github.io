@@ -1,5 +1,6 @@
 ﻿---
 title: regini.exe | Registry Initializer
+excerpt: What is regini.exe?
 ---
 
 # regini.exe 
@@ -17,6 +18,9 @@ SHA256 | `C2EE2FFE2FAE173188C3568C47C8090347E6CB09085C249936DF2D52C0521DBB`
 SHA384 | `F129281A54A234F0CC7B8BE4E9E5C6CD321B02C3CDCB00E86EEF3C5897B11E2D3CC49D39D63651F13C2644F8B8E6D0E5`
 SHA512 | `953AEC7AFAD4BADBA32903736F07CE5EC4649B3A8D1BC71206DD0039A427B3D6854BD8F0BD9F5F17F7C6F9C2171639C943F49F35DAD4E67BFCB3EDB768A1AA1C`
 SSDEEP | `768:EQwpWanLtqpGjQmwcWD5ZrOjA3dtTKvworOu+fOuuvygWLDPGlVogExyyl+/LccT:EQwBLtqpGjQmwce5ZMOZqLOL7XgWvpUR`
+IMP | `59EADF2E64B87E9C2B8F545B5E2B4A03`
+PESHA1 | `89FC0BAA2EFBDE92F174E0548445A90EF62D3E33`
+PE256 | `9360ABAE69DB1C6E28DBEEF080F7AF20D119CDE170F03AECB052AC1D63187E9F`
 
 ## Runtime Data
 
@@ -193,8 +197,8 @@ C:\Windows\system32\regini.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -207,6 +211,12 @@ C:\Windows\system32\regini.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/c2ee2ffe2fae173188c3568c47c8090347e6cb09085c249936df2d52c0521dbb/detection/
 
 ## File Similarity (ssdeep match)
 

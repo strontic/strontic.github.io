@@ -1,5 +1,6 @@
 ﻿---
 title: msconfig.exe | System Configuration Utility
+excerpt: What is msconfig.exe?
 ---
 
 # msconfig.exe 
@@ -78,6 +79,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

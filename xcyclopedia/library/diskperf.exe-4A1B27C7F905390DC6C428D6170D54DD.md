@@ -1,5 +1,6 @@
 ﻿---
 title: diskperf.exe | Disk Performance Configuration Utility
+excerpt: What is diskperf.exe?
 ---
 
 # diskperf.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:4piOMtQz0EkQV+evvoX/Ml2fPgL8r/JulWRJWmP19:kiOMtQgEkQV+ekMyPmo/Juo3
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

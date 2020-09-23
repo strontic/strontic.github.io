@@ -1,5 +1,6 @@
 ﻿---
 title: UserAccountBroker.exe | User Account Control Panel Host
+excerpt: What is UserAccountBroker.exe?
 ---
 
 # UserAccountBroker.exe 
@@ -17,6 +18,9 @@ SHA256 | `CD28FE6B1B0ECFECF01AA674326FC250D158908F33EBD023356683CAE108C2BB`
 SHA384 | `AA85DB2E9016B8ABD67E5A2A13AD3BC8065ADD0A841192D58C56602C4EBDF98A9E37E7A43001C829F1D5B9D1A879BD82`
 SHA512 | `0B9A6F85CE555EB31CF6042B27144CCA3EE2389A76F9A7D5B09970C24F004B65C3FC263124EEF8146ADD19D005C738F884C4389E870D3A286AB8686D0C91D023`
 SSDEEP | `768:qZJhrvq9Hbs0eJEsnkbQ1zWr6L2WKSF0ADpXPZ+mZlXRI1PcF3J:0JxvsHbs0eJEs7cr6BF9F/Z+mqPcX`
+IMP | `47E33A59D99B513B43234DE272F7D64B`
+PESHA1 | `9F67EC5CABF7C74D448C67DE2BE85D89EC6BE92D`
+PE256 | `53E54539D90126BA962F7FDD742264836C70F868DEA124B9717035F15D9B47BE`
 
 ## Runtime Data
 
@@ -24,16 +28,11 @@ SSDEEP | `768:qZJhrvq9Hbs0eJEsnkbQ1zWr6L2WKSF0ADpXPZ+mZlXRI1PcF3J:0JxvsHbs0eJEs7
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -64,6 +63,12 @@ C:\Windows\SysWOW64\UserAccountBroker.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/cd28fe6b1b0ecfecf01aa674326fc250d158908f33ebd023356683cae108c2bb/detection/
 
 
 

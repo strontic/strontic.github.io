@@ -1,5 +1,6 @@
 ﻿---
 title: taskhostex.exe | Host Process for Windows Tasks
+excerpt: What is taskhostex.exe?
 ---
 
 # taskhostex.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:zUhfW3ndI41bycYaLwhMRpyVo28RDZqj5XNojH02pIFksXSKd44CS8aaPb4B:QhfW
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

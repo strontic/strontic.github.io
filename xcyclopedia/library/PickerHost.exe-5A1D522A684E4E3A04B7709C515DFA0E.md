@@ -1,5 +1,6 @@
 ﻿---
 title: PickerHost.exe | File Picker UI Host
+excerpt: What is PickerHost.exe?
 ---
 
 # PickerHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:G6Xp3rfDyLzKQRzmyeZ2IurWG3i99NBhRX9iVll00HcmES50qXdF38xeXj1PKT:p57
 * Product Version: 10.0.14393.2457
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

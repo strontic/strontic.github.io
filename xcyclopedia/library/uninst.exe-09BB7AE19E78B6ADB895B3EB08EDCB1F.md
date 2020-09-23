@@ -1,5 +1,6 @@
 ﻿---
 title: uninst.exe | FastStone Image Viewer 7.5 Setup
+excerpt: What is uninst.exe?
 ---
 
 # uninst.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 7.5
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2020 by FastStone Soft
+
 
 
 

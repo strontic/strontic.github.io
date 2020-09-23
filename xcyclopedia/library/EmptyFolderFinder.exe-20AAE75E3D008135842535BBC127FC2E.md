@@ -1,5 +1,6 @@
 ﻿---
 title: EmptyFolderFinder.exe | EmptyFolderFinder
+excerpt: What is EmptyFolderFinder.exe?
 ---
 
 # EmptyFolderFinder.exe 
@@ -85,6 +86,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.0.0.28
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

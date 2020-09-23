@@ -1,5 +1,6 @@
 ﻿---
 title: AtBroker.exe | Windows Assistive Technology Manager
+excerpt: What is AtBroker.exe?
 ---
 
 # AtBroker.exe 
@@ -17,31 +18,11 @@ SHA256 | `CDC2B0207769F3F73BBF068EFF68661D145909B410F2C25FBFA5A38D4AAD464C`
 SHA384 | `C2FA89F85BC8F97CB849DF018B3F31BAFBC00858D743EBE70DBA3973558FAA14C37E66BDF468C8C9016976A636FCF272`
 SHA512 | `6D525914332227099ED2ED7AA2B218CCB7FA2EA49CABD1E8334299222A368FD48B609FD5DD5B2C8F4287D3193507433A4DE7B98A0184512B23A3BBB56FC97F98`
 SSDEEP | `1536:RMa9OziOF0JbOKal+DmJTTc3vL9GSDNhGEiL:x9+iQ+InM8SxhGEiL`
+IMP | `20DD334D18ED22744B3C9C88AA5E4B64`
+PESHA1 | `1386A9F338AABE60B7BFF2BC4F47924B33B71171`
+PE256 | `E3B7A03787C199047AF77C94CCD9775E4B5BFA60FCA2F4DEAC9D1FEB1DCB6282`
 
 ## Runtime Data
-
-### Child Processes:
-Magnify.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -71,6 +52,12 @@ C:\Windows\SysWOW64\AtBroker.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/cdc2b0207769f3f73bbf068eff68661d145909b410f2c25fbfa5a38d4aad464c/detection/
 
 
 ## Possible Misuse

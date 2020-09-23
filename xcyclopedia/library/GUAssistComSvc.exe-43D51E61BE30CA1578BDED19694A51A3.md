@@ -1,5 +1,6 @@
 ﻿---
 title: GUAssistComSvc.exe | 
+excerpt: What is GUAssistComSvc.exe?
 ---
 
 # GUAssistComSvc.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\USER32.dll |
 * Product Version: 1.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 
 

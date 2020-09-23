@@ -1,5 +1,6 @@
 ﻿---
 title: upnpcont.exe | UPnP Device Host Container
+excerpt: What is upnpcont.exe?
 ---
 
 # upnpcont.exe 
@@ -63,6 +64,7 @@ C:\Windows\system32\upnpcont.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

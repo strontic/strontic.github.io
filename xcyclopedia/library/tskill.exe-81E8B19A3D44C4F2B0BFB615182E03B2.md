@@ -1,5 +1,6 @@
 ﻿---
 title: tskill.exe | Remote Desktop Services End Process Utility
+excerpt: What is tskill.exe?
 ---
 
 # tskill.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:pqrjAOrQUVkEqbkSY7jovpDEe55fArF6R4b302rZ6D5zRCleOSSW4pQW:mnr72Jbkd
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

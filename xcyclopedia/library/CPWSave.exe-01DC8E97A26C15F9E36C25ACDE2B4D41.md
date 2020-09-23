@@ -1,5 +1,6 @@
 ﻿---
 title: CPWSave.exe | CutePDF Writer
+excerpt: What is CPWSave.exe?
 ---
 
 # CPWSave.exe 
@@ -39,6 +40,7 @@ SSDEEP | `49152:WVM7aIZIToF6H0rN4lhZuoNbhd/iWlSYoFOYnGF1EtUfAPRzjapwkqQmmiFnB:x6
 * Product Version: 4, 0, 0, 1
 * Language: English (United States)
 * Legal Copyright: Copyright  2020 by Acro Software Inc., All Rights Reserved
+
 
 
 

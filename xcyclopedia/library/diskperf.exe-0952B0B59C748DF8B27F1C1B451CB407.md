@@ -1,5 +1,6 @@
 ﻿---
 title: diskperf.exe | Disk Performance Configuration Utility
+excerpt: What is diskperf.exe?
 ---
 
 # diskperf.exe 
@@ -17,6 +18,9 @@ SHA256 | `E9D5AE57A518963D3F6C290B81E77FCEE79A0837046B5064B9C5393EBD073E16`
 SHA384 | `B866D1D58F09AB80FCE5DF4037E010C9BA3D044EB7093825AA46CF387557EBCFBBCA815038246EF8195A0357455B35C3`
 SHA512 | `8AD290FC955672A85217771D240C3C70728A349203B0533B3F06C0AC3501C562235D744DF12873A997505198F31782D5A516CA93EF65961BE173480ED353217D`
 SSDEEP | `384:OCOMRLsbFyNdHwHfybLVnzp6+PQJfjsGeNZV1WDJW2jUS:OCOMRuyHHwHfEF6+4aGSZVGq`
+IMP | `C28394BB096619BE03BC663DF4326B95`
+PESHA1 | `9EA1C72550C5B624B3DAE3283562A91E1CBB3009`
+PE256 | `2047233814DEB6B2B8971AECD97ACC3C34C9D9B1267C0042F165B3B169A47213`
 
 ## Runtime Data
 
@@ -69,7 +73,6 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
-C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\diskperf.exe |
 
@@ -91,6 +94,12 @@ C:\Windows\SysWOW64\diskperf.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/e9d5ae57a518963d3f6c290b81e77fcee79a0837046b5064b9c5393ebd073e16/detection/
 
 
 

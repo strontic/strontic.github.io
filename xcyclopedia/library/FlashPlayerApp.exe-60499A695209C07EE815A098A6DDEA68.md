@@ -1,5 +1,6 @@
 ﻿---
 title: FlashPlayerApp.exe | Adobe Flash Player Control Panel Applet
+excerpt: What is FlashPlayerApp.exe?
 ---
 
 # FlashPlayerApp.exe 
@@ -75,6 +76,7 @@ C:\Windows\SysWOW64\FlashPlayerApp.exe |
 * Product Version: 32,0,0,387
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 Adobe. All Rights Reserved. Adobe and Flash are either trademarks or registered trademarks in the United States and/or other countries.
+
 
 ## File Similarity (ssdeep match)
 

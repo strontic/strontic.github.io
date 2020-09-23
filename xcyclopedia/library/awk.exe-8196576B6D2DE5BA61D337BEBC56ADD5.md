@@ -1,5 +1,6 @@
 ﻿---
 title: awk.exe | 
+excerpt: What is awk.exe?
 ---
 
 # awk.exe 
@@ -103,6 +104,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

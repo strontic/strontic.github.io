@@ -1,5 +1,6 @@
 ﻿---
 title: bdechangepin.exe | BitLocker Drive Encryption- PIN Change Tool
+excerpt: What is bdechangepin.exe?
 ---
 
 # bdechangepin.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:7OqNU7GHVxHEVHHHQVb1kHVqHVqHQQbTuTRTHTfTEHVf2XTQT6TITQT+VyW176eQ:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

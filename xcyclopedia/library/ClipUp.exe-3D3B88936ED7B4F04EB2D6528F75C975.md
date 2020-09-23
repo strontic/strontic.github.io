@@ -1,5 +1,6 @@
 ﻿---
 title: ClipUp.exe | Client License Platform migration tool
+excerpt: What is ClipUp.exe?
 ---
 
 # ClipUp.exe 
@@ -73,6 +74,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\ClipUp.exe](ClipUp.exe-0BE391A5D9C5FB4DE0CD1A4B1440FF69.md) | 83
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: certreq.exe | CertReq.exe
+excerpt: What is certreq.exe?
 ---
 
 # certreq.exe 
@@ -21,6 +22,9 @@ SHA256 | `BDFD1131BFC746A7A08AF26063FDF9BA148691C2CCD4CDEBB5A73045BFC61B02`
 SHA384 | `B862858B81EA74F8D146B99AF3FCDC8665AAE59F4D186FDFE783F0D85F96B11C2659F60E6F53CAF9FA38B7C1DBE3D044`
 SHA512 | `47A8419C255221909F69E310AE38921B98813786DF75346AF184F30B92B2BA738EAE01E4F243B7226D30C1D09AFAC37858C374B78FB349002109A94F90A65744`
 SSDEEP | `6144:bE5qa4XEg9GDTo33owUamjeui8AtrPLcYWqNMUYLGQx993taHAdyPHz1:ba0EVOUaWeui8AtrQYFNMUYLr2Hlz1`
+IMP | `76D5EC94263665D8F75D78ED97C77C03`
+PESHA1 | `A2370CFE8BD95728D0581FCED67DE72740D2D7EE`
+PE256 | `87E6E1FF5B47E0319A063E398B5032B5340D1384752514A9C4E298CC2085C322`
 
 ## Runtime Data
 
@@ -182,17 +186,12 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\certreq.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -223,6 +222,12 @@ C:\Windows\SysWOW64\certreq.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/bdfd1131bfc746a7a08af26063fdf9ba148691c2ccd4cdebb5a73045bfc61b02/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: aitstatic.exe | Application Impact Telemetry Static Analyzer
+excerpt: What is aitstatic.exe?
 ---
 
 # aitstatic.exe 
@@ -44,6 +45,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.18362.1035
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

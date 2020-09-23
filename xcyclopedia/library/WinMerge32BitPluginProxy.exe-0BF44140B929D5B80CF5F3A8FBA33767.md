@@ -1,5 +1,6 @@
 ﻿---
 title: WinMerge32BitPluginProxy.exe | WinMerge 32 Bit Plug-in Proxy
+excerpt: What is WinMerge32BitPluginProxy.exe?
 ---
 
 # WinMerge32BitPluginProxy.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.0.0.4
 * Language: English
 * Legal Copyright: Copyright 2013-2015 sdottaka@users.sourceforge.net
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: bridgeunattend.exe | Bridge Unattend Utility
+excerpt: What is bridgeunattend.exe?
 ---
 
 # bridgeunattend.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:lNViIGafHo53dfNFCYMJYDoVbPPyvjKNbcD43C/O0YHWcfW:sJJCODiPQWeD410Yf`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

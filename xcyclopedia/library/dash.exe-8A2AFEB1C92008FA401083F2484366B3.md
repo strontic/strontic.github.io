@@ -1,5 +1,6 @@
 ﻿---
 title: dash.exe | 
+excerpt: What is dash.exe?
 ---
 
 # dash.exe 
@@ -42,6 +43,7 @@ SSDEEP | `3072:RQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F:RQx0t8tF/tp2Zo5GqFNk9Ojtjl8
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

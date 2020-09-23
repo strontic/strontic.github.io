@@ -1,5 +1,6 @@
 ﻿---
 title: dvdupgrd.exe | DVDUpgrd
+excerpt: What is dvdupgrd.exe?
 ---
 
 # dvdupgrd.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:OHqbN5dxoh3bg1PqsuDx9YQtvFOCqxxzaP:0qLohLyCPftvCxxzaP`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

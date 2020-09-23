@@ -1,5 +1,6 @@
 ﻿---
 title: grpconv.exe | Windows Progman Group Converter
+excerpt: What is grpconv.exe?
 ---
 
 # grpconv.exe 
@@ -17,6 +18,9 @@ SHA256 | `A248E327B89F8574CB7DF9F34CD7120C0508CA1541C5520BD72F0830F85A0CEC`
 SHA384 | `CFB7F1E23EAD839688547DD80A0757B7D079E57BA928924DE5E8A0104723364ED1A1E93771DAE6037624A1AE7D992013`
 SHA512 | `C5318BC367CD192211F1CD5DCBC63025780F4262DFAC1E80BA4FCD94A907723B8DE23A3B7E112B731A4AF8415B4B1375D1688C50C27D12406F87C247C492FB6B`
 SSDEEP | `1536:RbWdz0bCMCUzmHmVTRufNBjtlCVR0wmU05khyrE:RKd8lOBzCuUKR4`
+IMP | `671EAFCFCFA86F159D56B51A22BF5C87`
+PESHA1 | `D9FD0A3F365DFAB280D5A9AAE37195C91506CAE1`
+PE256 | `35FE60F5E21AA510D9236C62CD159B70EB65CFA548089637480BE0EC0E4C2F82`
 
 ## Runtime Data
 
@@ -25,17 +29,12 @@ SSDEEP | `1536:RbWdz0bCMCUzmHmVTRufNBjtlCVR0wmU05khyrE:RKd8lOBzCuUKR4`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\system32\grpconv.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -55,6 +54,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a248e327b89f8574cb7df9f34cd7120c0508ca1541c5520bd72f0830f85a0cec/detection/
 
 
 

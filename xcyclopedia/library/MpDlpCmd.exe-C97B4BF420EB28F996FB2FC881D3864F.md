@@ -1,5 +1,6 @@
 ﻿---
 title: MpDlpCmd.exe | Microsoft Malware Protection DLP Command Line Utility
+excerpt: What is MpDlpCmd.exe?
 ---
 
 # MpDlpCmd.exe 
@@ -53,6 +54,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 4.18.2007.8
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

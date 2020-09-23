@@ -1,5 +1,6 @@
 ﻿---
 title: UNPUXHost.exe | UNPUXHost
+excerpt: What is UNPUXHost.exe?
 ---
 
 # UNPUXHost.exe 
@@ -40,6 +41,7 @@ msedge.exe
 * Product Version: 10.0.18362.592
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

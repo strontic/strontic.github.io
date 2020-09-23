@@ -1,5 +1,6 @@
 ﻿---
 title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration Tool
+excerpt: What is ConfigSecurityPolicy.exe?
 ---
 
 # ConfigSecurityPolicy.exe 
@@ -43,6 +44,7 @@ Microsoft Security Client failed to apply policy "-help". Error code: 0xC00CE225
 * Product Version: 4.10.14393.1198
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

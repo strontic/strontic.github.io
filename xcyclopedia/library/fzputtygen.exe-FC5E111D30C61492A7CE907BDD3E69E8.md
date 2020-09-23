@@ -1,5 +1,6 @@
 ﻿---
 title: fzputtygen.exe | SFTP module for FileZilla based on PuTTY's psftp component
+excerpt: What is fzputtygen.exe?
 ---
 
 # fzputtygen.exe 
@@ -72,6 +73,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Unidentified build
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2004-2020 Tim Kosse,   1997-2019 Simon Tatham.
+
 
 ## File Similarity (ssdeep match)
 

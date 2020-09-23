@@ -1,5 +1,6 @@
 ﻿---
 title: repair-bde.exe | BitLocker Drive Encryption- Repair Tool
+excerpt: What is repair-bde.exe?
 ---
 
 # repair-bde.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:hVn5UdQ7FzkRlGwwnVS570M9kdatGCO+xmBc+hMPhPsx:CQ7FQR+Vs7nyatGt+SYF
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 
@@ -88,7 +90,7 @@ File | Score
 Attempts to reconstruct critical parts of a severely damaged drive and salvage recoverable data if the drive was encrypted by using BitLocker and if it has a valid recovery password or recovery key for decryption.
 
 > [!IMPORTANT]
-> If the BitLocker metadata data on the drive is corrupt, you must be able to supply a backup key package in addition to the recovery password or recovery key. If you used the default key back up setting for Active Directory Domain Services, your key package is backed up there. You can use the [BitLocker: Use BitLocker Recovery Password Viewer](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-use-bitlocker-recovery-password-viewer) to obtain the key package from AD DS.
+> If the BitLocker metadata data on the drive is corrupt, you must be able to supply a backup key package in addition to the recovery password or recovery key. If you used the default key back up setting for Active Directory Domain Services, your key package is backed up there. You can use the [BitLocker: Use BitLocker Recovery Password Viewer](/windows/security/information-protection/bitlocker/bitlocker-use-bitlocker-recovery-password-viewer) to obtain the key package from AD DS.
 >
 > Using the key package and either the recovery password or recovery key, you can decrypt portions of a BitLocker-protected drive, even if the disk is corrupted. Each key package works only for a drive with the corresponding drive identifier.
 

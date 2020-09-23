@@ -1,5 +1,6 @@
 ﻿---
 title: klist.exe | Tool for managing the Kerberos ticket cache
+excerpt: What is klist.exe?
 ---
 
 # klist.exe 
@@ -17,6 +18,9 @@ SHA256 | `F5AB529EF4B76FF81F363F600202EB82925CE624C60F7AD3A4AEF3C8FCBECA41`
 SHA384 | `E0F7F464930A028A528471A3F252CAA77C7C9B1EBC5FC64E2C779FB02ADE7E801B3703F6E60CC194D2E0555AD4D01496`
 SHA512 | `57FF8FA6AF0CD9AF1925488EBF2845ECDF3CCEA5CBF7B8E035895D8E9468BDAE024257C8E3A3D1EE771731E7B29367B873C24A2F045D236D54A1CAE3D34B8E28`
 SSDEEP | `768:zGsdjbk6Bk9tUd8gDXhGwKqs+AXhWkPlFE0eRt/vQ8Fci4n8D1ckyDj/eo3F9tN3:zGmU6K9MpDKf+AXMkYBRt+jd3F9tC0`
+IMP | `85207CDD890ACE87BF7EF7906D90318B`
+PESHA1 | `707DB74244FA8805FB5BB21EAE692813B6D327E2`
+PE256 | `320BF938C62919B2FF76D63D6E030FC22F597F844F7282985B553B24C0DF2FCC`
 
 ## Runtime Data
 
@@ -52,8 +56,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -66,6 +70,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f5ab529ef4b76ff81f363f600202eb82925ce624c60f7ad3a4aef3c8fcbeca41/detection/
 
 ## File Similarity (ssdeep match)
 

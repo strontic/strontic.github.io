@@ -1,5 +1,6 @@
 ﻿---
 title: prproc.exe | PlayReady Process EXE
+excerpt: What is prproc.exe?
 ---
 
 # prproc.exe 
@@ -17,6 +18,9 @@ SHA256 | `A174DE17639A2C544D8124895F878ABAAA634FDC63BF49979B407FD7A20C28BF`
 SHA384 | `35B6141F7407006AD02A5253B0B33A66E7F5DBF3F092551655DD789BC24A321D7F3461B3EA42D10C5F3ECFAB71BF589D`
 SHA512 | `2B858C8025F6B4FC63F72DC1A2259D79B0E4F06BEEDE4C2FC79C1D6D997D064C77EBFA68AB66F5F1CEF85F996E7C35CE86939D7AB0C8B2B83A3C9C2354539ACB`
 SSDEEP | `384:m8s6nIBV0X5VtUWm6DYgWsUD1IDBRJtIlIX:mCe0X5VLgI1P3`
+IMP | `92966D1E1404073AA1D43B25D8FD8907`
+PESHA1 | `EF19A06A6C9BDB6C56D72C4E24677E321A368221`
+PE256 | `F912B31497003A70AD059E47F8EC9C90E16293978781540A33E7BFA3060D6426`
 
 ## Runtime Data
 
@@ -24,21 +28,18 @@ SSDEEP | `384:m8s6nIBV0X5VtUWm6DYgWsUD1IDBRJtIlIX:mCe0X5VLgI1P3`
 
 Path |
 -- |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\prproc.exe |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -51,6 +52,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/a174de17639a2c544d8124895f878abaaa634fdc63bf49979b407fd7a20c28bf/detection/
 
 ## File Similarity (ssdeep match)
 

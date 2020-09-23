@@ -1,5 +1,6 @@
 ﻿---
 title: pip.exe | 
+excerpt: What is pip.exe?
 ---
 
 # pip.exe 
@@ -102,6 +103,7 @@ ERROR: unknown command "/?"
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

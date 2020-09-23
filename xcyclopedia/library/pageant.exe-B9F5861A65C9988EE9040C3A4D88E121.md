@@ -1,5 +1,6 @@
 ﻿---
 title: pageant.exe | PuTTY SSH authentication agent
+excerpt: What is pageant.exe?
 ---
 
 # pageant.exe 
@@ -89,6 +90,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+
 
 
 

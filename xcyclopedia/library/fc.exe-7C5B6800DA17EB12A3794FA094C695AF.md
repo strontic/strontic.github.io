@@ -1,5 +1,6 @@
 ﻿---
 title: fc.exe | DOS 5 File Compare Utility
+excerpt: What is fc.exe?
 ---
 
 # fc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:fWUQpJeZLvDJnTt7dG1snOxSjlSNMarKXFFjaERg5l4A5RkNeGuYeQb3GWHYWv:fTQ
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

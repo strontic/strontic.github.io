@@ -1,5 +1,6 @@
 ﻿---
 title: msdtc.exe | Microsoft Distributed Transaction Coordinator Service
+excerpt: What is msdtc.exe?
 ---
 
 # msdtc.exe 
@@ -17,6 +18,9 @@ SHA256 | `EDFE71025C352D0DABEC7B9506C5945BB0EC11F8DB540DB8CB1116C2EA1648A8`
 SHA384 | `BA601A97F69630626939298014FFCD764B0CF4D936A02814145BA18EE4A5EFCD55F699EDD2ECFDD5BC551C4548F65BE3`
 SHA512 | `2587ACD723F515EB8FA1DD7016647079FD7AF2A1C32F92FF344766803D524D9820BEBAF21DAA3B3D3556D2DB8AB956A8A1682EAA46ABB9B04A4C8E1E21321BDC`
 SSDEEP | `1536:vOKf3ewElEA4yattFzRFZzi1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lc:GNlOxzvv7fcmEAkyXiqc`
+IMP | `51BA43624008AF885335F88516CA2AD3`
+PESHA1 | `A8A8101BC18379F31B40513A68B4834E7AC3D5EC`
+PE256 | `22EA120BB10C430E58DB1EBC6BD51710705C1180C0E0182082FA90088662F410`
 
 ## Runtime Data
 
@@ -28,7 +32,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\msdtc.exe |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
@@ -51,6 +54,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/edfe71025c352d0dabec7b9506c5945bb0ec11f8db540db8cb1116c2ea1648a8/detection/
 
 ## File Similarity (ssdeep match)
 

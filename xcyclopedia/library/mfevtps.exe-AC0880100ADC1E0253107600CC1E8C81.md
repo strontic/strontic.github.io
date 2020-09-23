@@ -1,5 +1,6 @@
 ﻿---
 title: mfevtps.exe | McAfee Process Validation Service
+excerpt: What is mfevtps.exe?
 ---
 
 # mfevtps.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:4D/BJd98p+rdp68htJslsWy/GLaSh222YyQpcdheu+jE29cr:4D/yQh/kHyL`
 * Product Version: 20.1.0.177
 * Language: Language Neutral
 * Legal Copyright: Copyright (C) 1995-2020 McAfee, LLC. All Rights Reserved.
+
 
 
 

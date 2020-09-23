@@ -1,5 +1,6 @@
 ﻿---
 title: winver.exe | Version Reporter Applet
+excerpt: What is winver.exe?
 ---
 
 # winver.exe 
@@ -41,6 +42,7 @@ SSDEEP | `768:6wqdzEyP+GSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXp:gAyP+xakkn6oY
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

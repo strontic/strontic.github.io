@@ -1,5 +1,6 @@
 ﻿---
 title: fontdrvhost.exe | Usermode Font Driver Host
+excerpt: What is fontdrvhost.exe?
 ---
 
 # fontdrvhost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:yA9zG/6EZnWuQjGZiZV0uvucsHX7e6QaBzK:yA9CnaYcV0uvSHre6T`
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

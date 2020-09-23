@@ -1,5 +1,6 @@
 ﻿---
 title: MDMAgent.exe | MDMAgent
+excerpt: What is MDMAgent.exe?
 ---
 
 # MDMAgent.exe 
@@ -17,6 +18,9 @@ SHA256 | `9840565E700311386876D2843B33E9A680F3D64AC821674B259573E441198E13`
 SHA384 | `0CA0815E205A1B82E63F3A0B7AF92497D9F83C56FC1BDC7B725871F6634A49F11CED55315BA71307D08C10AEB020F3CE`
 SHA512 | `A835061FAFE7B7B4EBE0345010377B46B71745FE4BD8D602CE3648BBF6097B87BD6E66CB1567D7A040D2253367C2609135F3CC3B2FA1257D720DBDCA0C2A7484`
 SSDEEP | `3072:pupEb89riFezeeTK1X6EYzdMkbe0rHjnZnk1Fe/oOfRM:pupEb89r/2E9KJMQMR`
+IMP | `345FA8112EDD1BE2A4082E99B3F7711B`
+PESHA1 | `6AA1C9A540C636992AA14D6244B9F184AED399B4`
+PE256 | `50068988BFEA981F91D37488FC0D2B1E1E58F1C1D374A31BE9B1EC683226A945`
 
 ## Runtime Data
 
@@ -25,29 +29,11 @@ SSDEEP | `3072:pupEb89riFezeeTK1X6EYzdMkbe0rHjnZnk1Fe/oOfRM:pupEb89r/2E9KJMQMR`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\system32\CRYPTSP.dll |
-C:\Windows\system32\DEVOBJ.dll |
-C:\Windows\system32\DMCmnUtils.dll |
-C:\Windows\system32\dmEnrollEngine.DLL |
-C:\Windows\system32\iri.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MDMAgent.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\system32\msvcp110_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\system32\omadmapi.dll |
-C:\Windows\SYSTEM32\powrprof.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\USERENV.dll |
 
 
 ## Signature
@@ -67,6 +53,12 @@ C:\Windows\system32\USERENV.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9840565e700311386876d2843b33e9a680f3d64ac821674b259573e441198e13/detection/
 
 ## File Similarity (ssdeep match)
 

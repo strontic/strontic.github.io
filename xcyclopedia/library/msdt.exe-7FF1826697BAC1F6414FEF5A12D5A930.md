@@ -1,5 +1,6 @@
 ﻿---
 title: msdt.exe | Diagnostics Troubleshooting Wizard
+excerpt: What is msdt.exe?
 ---
 
 # msdt.exe 
@@ -39,6 +40,7 @@ SSDEEP | `24576:bRec0WsSAbN0OBBJ6XH4qvIReK1odddGdBnyE0k26kVZnBm3:b+dqNK7utRB2`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

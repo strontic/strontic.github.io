@@ -1,5 +1,6 @@
 ﻿---
 title: DeviceCensus.exe | Device Census
+excerpt: What is DeviceCensus.exe?
 ---
 
 # DeviceCensus.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:/rqp1ssuvWRCll0zrMF7G4i6Xf4r6wD1Pu:2jivW0+PO7GcfWPu`
 * Product Version: 10.0.18362.1035
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

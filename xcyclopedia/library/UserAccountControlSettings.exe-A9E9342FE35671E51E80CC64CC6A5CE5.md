@@ -1,5 +1,6 @@
 ﻿---
 title: UserAccountControlSettings.exe | UserAccountControlSettings
+excerpt: What is UserAccountControlSettings.exe?
 ---
 
 # UserAccountControlSettings.exe 
@@ -17,6 +18,9 @@ SHA256 | `DAA00A8C9F3531100DF87FC5D4226B6E8A476D80E2D109274128CA65701197C5`
 SHA384 | `57BA22DDA6462DA8A823B067A621D0BCE6636041965BB52142F50C80FB9C68BE978B412855610A918859A1DA2EC8C8E2`
 SHA512 | `7BDCE71D6B5B9259E858600BF8DEC02391136AEFB2F235F74672C67265985BE007A98F9B3B6AB04809D8BC7484F393BE272C0B1392439E1004BA7168F85B360D`
 SSDEEP | `1536:F9Y3005lZEv18V2CW02hCqKd3ruXyzWP751sNz0UCdkV/L7:/uY1gWL271aT5K`
+IMP | `535666E355558A85F423E8C8D4D12F36`
+PESHA1 | `050B35F5B9C70F636249C20B659DC12B7BB474E9`
+PE256 | `A0BDC1F5B5D338CB6C40C87A259D37BBCC98C7987EA1F48C0E0970588DB0419D`
 
 ## Runtime Data
 
@@ -25,16 +29,12 @@ SSDEEP | `1536:F9Y3005lZEv18V2CW02hCqKd3ruXyzWP751sNz0UCdkV/L7:/uY1gWL271aT5K`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\UserAccountControlSettings.exe |
 C:\Windows\System32\win32u.dll |
@@ -43,8 +43,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -57,6 +57,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/daa00a8c9f3531100df87fc5d4226b6e8a476d80e2d109274128ca65701197c5/detection/
 
 ## File Similarity (ssdeep match)
 

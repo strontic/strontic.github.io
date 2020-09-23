@@ -1,5 +1,6 @@
 ﻿---
 title: snmptrap.exe | SNMP Trap
+excerpt: What is snmptrap.exe?
 ---
 
 # snmptrap.exe 
@@ -48,6 +49,7 @@ C:\Windows\system32\snmptrap.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

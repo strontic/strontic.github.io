@@ -1,5 +1,6 @@
 ﻿---
 title: file-darktable.exe | 
+excerpt: What is file-darktable.exe?
 ---
 
 # file-darktable.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

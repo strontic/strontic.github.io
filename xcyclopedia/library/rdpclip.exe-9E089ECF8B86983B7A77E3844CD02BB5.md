@@ -1,5 +1,6 @@
 ﻿---
 title: rdpclip.exe | RDP Clipboard Monitor
+excerpt: What is rdpclip.exe?
 ---
 
 # rdpclip.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\rdpclip.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

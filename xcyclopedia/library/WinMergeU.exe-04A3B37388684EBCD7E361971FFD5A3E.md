@@ -1,5 +1,6 @@
 ﻿---
 title: WinMergeU.exe | WinMerge
+excerpt: What is WinMergeU.exe?
 ---
 
 # WinMergeU.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\SHLWAPI.dll |
 * Product Version: 2.16.6.0
 * Language: English (United States)
 * Legal Copyright: (c) 1996-2020 Dean P. Grimm / Thingamahoochie Software
+
 
 
 

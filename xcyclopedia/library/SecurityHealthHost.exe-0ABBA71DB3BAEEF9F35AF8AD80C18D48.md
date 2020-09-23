@@ -1,5 +1,6 @@
 ﻿---
 title: SecurityHealthHost.exe | Windows Security Health Host
+excerpt: What is SecurityHealthHost.exe?
 ---
 
 # SecurityHealthHost.exe 
@@ -54,10 +55,12 @@ C:\Windows\System32\WINTRUST.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-672C2568647CE3A4F06A1CB466490AB7.md) | 97
 [C:\Windows\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-B090D816B80E2C5A0DC8A2CFE110816D.md) | 97
 [C:\WINDOWS\system32\SecurityHealthHost.exe](SecurityHealthHost.exe-BB788CC0A96E281C637DB6F5B940AB51.md) | 63
 

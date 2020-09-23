@@ -1,5 +1,6 @@
 ﻿---
 title: dusmtask.exe | DUSM Task
+excerpt: What is dusmtask.exe?
 ---
 
 # dusmtask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:xhILtRoEhlTyKs4rOE55rLEsvlq8giZUV50T+waVCs+wRbfgsBOed:3I9lTyVUdrLt
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

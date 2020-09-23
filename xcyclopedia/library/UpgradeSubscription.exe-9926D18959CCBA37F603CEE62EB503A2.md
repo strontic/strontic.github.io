@@ -1,5 +1,6 @@
 ﻿---
 title: UpgradeSubscription.exe | Windows Upgrade to Subscription tool
+excerpt: What is UpgradeSubscription.exe?
 ---
 
 # UpgradeSubscription.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:gL+gpXxpD7f0SjVzc0a6A1TkISXo7zroljY3TlTCas4qu9t0awb:gL+O7f0oVzKoo
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

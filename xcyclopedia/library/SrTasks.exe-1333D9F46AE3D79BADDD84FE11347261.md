@@ -1,5 +1,6 @@
 ﻿---
 title: SrTasks.exe | Microsoft Windows System Protection background tasks.
+excerpt: What is SrTasks.exe?
 ---
 
 # SrTasks.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:CvZ7YK/lQt9EXKIAES4cpKror9+NymAucl:cQjEawGKM4yRug`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

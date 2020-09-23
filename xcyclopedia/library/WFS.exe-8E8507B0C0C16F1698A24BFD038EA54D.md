@@ -1,5 +1,6 @@
 ﻿---
 title: WFS.exe | Microsoft  Windows Fax and Scan
+excerpt: What is WFS.exe?
 ---
 
 # WFS.exe 
@@ -79,10 +80,12 @@ C:\Windows\system32\WFS.exe |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\system32\WFS.exe](WFS.exe-7C1E8C5382FF4F55BF242B0377DA3EC5.md) | 36
 [C:\WINDOWS\system32\WFS.exe](WFS.exe-7D05DBCCB67C329AD2F2E5FCAEE84260.md) | 40
 [C:\Windows\system32\WFS.exe](WFS.exe-EECE3DAFAF89C27DE21E23F1D9A27B55.md) | 36
 

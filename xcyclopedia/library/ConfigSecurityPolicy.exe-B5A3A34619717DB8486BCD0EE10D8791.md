@@ -1,5 +1,6 @@
 ﻿---
 title: ConfigSecurityPolicy.exe | Microsoft Security Client Policy Configuration Tool
+excerpt: What is ConfigSecurityPolicy.exe?
 ---
 
 # ConfigSecurityPolicy.exe 
@@ -50,6 +51,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 4.18.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

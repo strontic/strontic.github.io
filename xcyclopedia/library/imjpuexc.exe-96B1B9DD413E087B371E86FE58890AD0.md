@@ -1,5 +1,6 @@
 ﻿---
 title: imjpuexc.exe | Microsoft IME
+excerpt: What is imjpuexc.exe?
 ---
 
 # imjpuexc.exe 
@@ -61,6 +62,7 @@ IMJPUEXC GETFILTERDICT		IMJPUEXC REMOVEFILTERDICT
 * Product Version: 10.0.14393.2457
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

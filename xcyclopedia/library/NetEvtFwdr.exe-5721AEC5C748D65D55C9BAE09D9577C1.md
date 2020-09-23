@@ -1,5 +1,6 @@
 ﻿---
 title: NetEvtFwdr.exe | Event Forwarder
+excerpt: What is NetEvtFwdr.exe?
 ---
 
 # NetEvtFwdr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:UabO4vI7hQVPESH57hy48iZnxtWdTvcAiPKPFwyS:jbnI1MT5UOnxQXPFXS`
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: mphost.exe | Zoom
+excerpt: What is mphost.exe?
 ---
 
 # mphost.exe 
@@ -42,6 +43,7 @@ mphost.exe WerFault.exe
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

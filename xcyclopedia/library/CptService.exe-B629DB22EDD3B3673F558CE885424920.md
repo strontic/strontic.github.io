@@ -1,5 +1,6 @@
 ﻿---
 title: CptService.exe | Zoom Sharing Service
+excerpt: What is CptService.exe?
 ---
 
 # CptService.exe 
@@ -37,6 +38,7 @@ SSDEEP | `6144:dthXAWxPcgm/dwWBYk1k9FTzIIOQ4RRbJuyfjbP9v:dthXAWxPo/GaYk1k9FTz3CR
 * Product Version: 5, 0, 2020, 0731
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

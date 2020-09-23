@@ -1,5 +1,6 @@
 ﻿---
 title: mv.exe | 
+excerpt: What is mv.exe?
 ---
 
 # mv.exe 
@@ -87,6 +88,7 @@ Try '/usr/bin/mv --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: dnscacheugc.exe | DNSCache Unattend Generic Command
+excerpt: What is dnscacheugc.exe?
 ---
 
 # dnscacheugc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:LmP+UlYbpy8KVWnBEhYP76xiZZ8MbuBk6TtsVaPpPryc1ObH9uoskMUzJUISfu2B:L
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

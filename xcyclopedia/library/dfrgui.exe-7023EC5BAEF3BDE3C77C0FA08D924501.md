@@ -1,5 +1,6 @@
 ﻿---
 title: dfrgui.exe | Microsoft Drive Optimizer
+excerpt: What is dfrgui.exe?
 ---
 
 # dfrgui.exe 
@@ -49,6 +50,7 @@ C:\Windows\SysWOW64\dfrgui.exe |
 * Product Version: 10.0.17763.1039
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

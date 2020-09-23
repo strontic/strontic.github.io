@@ -1,5 +1,6 @@
 ﻿---
 title: ServerManagerLauncher.exe | Server Manager Launcher
+excerpt: What is ServerManagerLauncher.exe?
 ---
 
 # ServerManagerLauncher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Tmad7hGms8y2O/TxrTfRt5ThYFJAdOYmUlOo+vi6Uf:TmaZ48MVXfRtJuZYmUco+Q
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

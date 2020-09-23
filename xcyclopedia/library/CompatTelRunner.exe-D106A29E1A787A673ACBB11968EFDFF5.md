@@ -1,5 +1,6 @@
 ﻿---
 title: CompatTelRunner.exe | Microsoft Compatibility Telemetry
+excerpt: What is CompatTelRunner.exe?
 ---
 
 # CompatTelRunner.exe 
@@ -17,6 +18,9 @@ SHA256 | `D4C583BC6EFD5F24ADF5C70421BA3FDCF6A53B010BC6A0D96147A6C7C3ADBC0C`
 SHA384 | `33A5D8054A54D1307B3A7CD1C7AC4B21FE62E4A135619553984B8DBE50CF40C6556145BFAE85BC06D89D2E447F6BF6AF`
 SHA512 | `392737C08A8BE420561D3189BDB64714D265D23C10C00915CA8E6C471BCFDBE0C6501C955608F3CF6C907C4E9D630EE847A0A5027E45D01F624C13CFCBBF506F`
 SSDEEP | `3072:emQNq9Gqo0bp/59ziXK4z2fuukK+NqD2n6f9UkaVxR8t3J2wPFr:ejNq95o0l/59ziXK4zkNA5k8R8dV`
+IMP | `8AA2AD4D02CD4F329F140F0BFF16AE96`
+PESHA1 | `15881ADFA4497DD6A80B82D2C798961A53458AFE`
+PE256 | `B746B22EE3270BAB1ACBF693D8066CB710C5488CFA0C9F1B4C082D9098C71833`
 
 ## Runtime Data
 
@@ -33,8 +37,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +51,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/d4c583bc6efd5f24adf5c70421ba3fdcf6a53b010bc6a0d96147a6c7c3adbc0c/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: rdpclip.exe | RDP Clipboard Monitor
+excerpt: What is rdpclip.exe?
 ---
 
 # rdpclip.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:L3nDy/JHSjbkV8jeP2mLnBLxJw1AJQUTntdKXb5zMsoSe9AW:TDyxHSjbkV8je+m
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

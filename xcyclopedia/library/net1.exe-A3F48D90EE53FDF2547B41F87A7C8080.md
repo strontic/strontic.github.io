@@ -1,5 +1,6 @@
 ﻿---
 title: net1.exe | Net Command
+excerpt: What is net1.exe?
 ---
 
 # net1.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:d0PeEp+s3t37TU2q/1ndimrbvkdeDNrZ9rsjpDp/95M:dmt37TU2G1nIiDkdeDxZ9
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

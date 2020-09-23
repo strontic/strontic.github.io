@@ -1,5 +1,6 @@
 ﻿---
 title: reporter.exe | Winamp Error Reporter
+excerpt: What is reporter.exe?
 ---
 
 # reporter.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5,8,0,3660
 * Language: English (United States)
 * Legal Copyright: Copyright  2005-2019 Winamp SA
+
 
 
 ## Possible Misuse

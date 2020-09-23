@@ -1,5 +1,6 @@
 ﻿---
 title: FlashPlayerApp.exe | Adobe Flash Player Control Panel Applet
+excerpt: What is FlashPlayerApp.exe?
 ---
 
 # FlashPlayerApp.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:fNAgxDRKumETAq9RKWqQqEd1BtOkodxduog/TXJa/x82IErOJsEV/QtBAz:mavnK
 * Product Version: 31,0,0,108
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2018 Adobe Systems Incorporated. All Rights Reserved. Adobe and Flash are either trademarks or registered trademarks in the United States and/or other countries.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
+excerpt: What is cleanmgr.exe?
 ---
 
 # cleanmgr.exe 
@@ -47,6 +48,7 @@ DismHost.exe
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -81,8 +83,8 @@ cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/
 | Parameter | Description |
 | --------- | ----------- |
 | /d `<driveletter>` | Specifies the drive that you want Disk Cleanup to clean.<p>**NOTE:** The **/d** option is not utilized with `/sagerun:n`. |
-| /sageset:n | Displays the **Disk Cleanup Settings** dialog box and also creates a registry key to store the settings that you select. The `n` value, which is stored in the registry, allows you to specify tasks for Disk Cleanup to run. The `n` value can be any integer value from 0 to 65535. |
-| /sagerun:n | Runs the specified tasks that are assigned to the n value if you use the **\sageset** option. All drives on the computer are enumerated and the selected profile runs against each drive. |
+| /sageset:n | Displays the **Disk Cleanup Settings** dialog box and also creates a registry key to store the settings that you select. The `n` value, which is stored in the registry, allows you to specify tasks for Disk Cleanup to run. The `n` value can be any integer value from 0 to 9999. |
+| /sagerun:n | Runs the specified tasks that are assigned to the n value if you use the **/sageset** option. All drives on the computer are enumerated and the selected profile runs against each drive. |
 | /tuneup:n | Run **/sageset** and **/sagerun** for the same `n` . |
 | /lowdisk | Run with the default settings. |
 | /verylowdisk | Run with the default settings, no user prompts. |

@@ -1,5 +1,6 @@
 ﻿---
 title: CCCP-Settings.exe | Setup/Uninstall
+excerpt: What is CCCP-Settings.exe?
 ---
 
 # CCCP-Settings.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

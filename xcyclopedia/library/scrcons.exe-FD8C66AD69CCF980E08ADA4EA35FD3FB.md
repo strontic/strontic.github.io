@@ -1,5 +1,6 @@
 ﻿---
 title: scrcons.exe | WMI Standard Event Consumer - scripting
+excerpt: What is scrcons.exe?
 ---
 
 # scrcons.exe 
@@ -17,6 +18,9 @@ SHA256 | `F96C187199362265FAC87ADB337DB242D24F9B313407646F89DA62A1ED12B6D9`
 SHA384 | `83F0E50AAFBA9BD059A42EC8680A1DEA22ACB08BF042BF0A608500D73FD22AEE856442586F49470F8958429B78CC84F2`
 SHA512 | `69414794881801B43855A6880159E61B0D412B192F57066D8AE820267F43D5255D2660C69A4B98F7924083DE8FC66920E67EE0AFBF3C3C780147213C876A3177`
 SSDEEP | `1536:5K7eR5nv5HMyhDuihPLrFj3tkj069tuNdXSnNdGjQBBBfA1bUIzB21+nFFifj:5nnv5HMyVuiHj3tgBfUbUIV21+nFQ`
+IMP | `33D9F246D162F5E1E1312E28E566A69E`
+PESHA1 | `06B6A53B58BD62CC5FCDFDED693F806C941226A1`
+PE256 | `8864A7B69CB55FA75466F2A5260277B2088C29498A42DADD6DF95679B96B98DD`
 
 ## Runtime Data
 
@@ -35,6 +39,7 @@ C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
@@ -45,8 +50,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -59,6 +64,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/f96c187199362265fac87adb337db242d24f9b313407646f89da62a1ed12b6d9/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: SpeechRuntime.exe | Speech Runtime Executable
+excerpt: What is SpeechRuntime.exe?
 ---
 
 # SpeechRuntime.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:lQx4puGPAoiH6zOO6dAVW6sJXCiCZRk/uPo5W:+4J4oiEOO9jsJXCAI`
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

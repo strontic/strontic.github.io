@@ -1,5 +1,6 @@
 ﻿---
 title: diskpart.exe | DiskPart
+excerpt: What is diskpart.exe?
 ---
 
 # diskpart.exe 
@@ -53,6 +54,7 @@ Microsoft DiskPart syntax:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

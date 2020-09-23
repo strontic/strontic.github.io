@@ -1,5 +1,6 @@
 ﻿---
 title: Register-CimProvider.exe | WMI
+excerpt: What is Register-CimProvider.exe?
 ---
 
 # Register-CimProvider.exe 
@@ -17,6 +18,9 @@ SHA256 | `7946DD01FD7A3C2B9F33ECEDF6CE04F04D6F494830900338F4469DE6464CAA0E`
 SHA384 | `1F7984D97E1E59F2BE71C9C99A0BA7D637FB3776A0529C46859B0B949FD3DBE9156A46E42877CBCA3C1236A01394A3A8`
 SHA512 | `8700C2C48507559D963123688A78C4B8368BCAD073F5F4676E440C745C4519215F8DFDC084B712591E573814DE53108963DE4D3CB709B5DA6A2A9CED7234B6E3`
 SSDEEP | `384:m4HBsKmxpfjX564NvHWrEnN2LfQGOzzrkgMcCsenu4K7xIWK1Wk:mMlUt5XzYLfQGOykenu48x4x`
+IMP | `E38114F7B41F83A6809D0A3C49C82EEE`
+PESHA1 | `A6C76DBCBF033FACE529324532B9D98957087009`
+PE256 | `46A51311E90FA0BD3B23932F48360FB557931764BB10E483DFA255942C21FA3B`
 
 ## Runtime Data
 
@@ -114,6 +118,12 @@ C:\Windows\SysWOW64\Register-CimProvider.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/7946dd01fd7a3c2b9f33ecedf6ce04f04d6f494830900338f4469de6464caa0e/detection/
 
 
 ## Possible Misuse
@@ -126,8 +136,8 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Register-cimprovider.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Register-cimprovider.yml) | `- Command: Register-cimprovider -path "C:\folder\evil.dll"` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Register-cimprovider.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Register-cimprovider.yml) | `- Path: C:\Windows\System32\Register-cimprovider.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Register-cimprovider.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Register-cimprovider.yml) | `- Path: C:\Windows\SysWOW64\Register-cimprovider.exe` | 
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #3: Register-CimProvider - Execute evil dll [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #3: Register-CimProvider - Execute evil dll [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #3: Register-CimProvider - Execute evil dll [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #3: Register-CimProvider - Execute evil dll [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md) | - [Atomic Test #3 - Register-CimProvider - Execute evil dll](#atomic-test-3---register-cimprovider---execute-evil-dll) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md) | ## Atomic Test #3 - Register-CimProvider - Execute evil dll | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1218.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md) | C:\Windows\SysWow64\Register-CimProvider.exe -Path #{dll_payload} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

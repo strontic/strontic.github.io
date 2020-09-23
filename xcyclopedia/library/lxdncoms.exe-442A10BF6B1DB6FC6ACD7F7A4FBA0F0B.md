@@ -1,5 +1,6 @@
 ﻿---
 title: lxdncoms.exe | Printer Communication System
+excerpt: What is lxdncoms.exe?
 ---
 
 # lxdncoms.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:26+ICXOsGWSPWM27+e5d9EuCFg1/NoM+8pGMaXTxjYMbGtd:26rmOsGWSPG+e5dL
 * Product Version: 1.233.39.0
 * Language: English (United States)
 * Legal Copyright:  
+
 
 
 

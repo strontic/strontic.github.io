@@ -1,5 +1,6 @@
 ﻿---
 title: ieetwcollector.exe | IE ETW Collector Service
+excerpt: What is ieetwcollector.exe?
 ---
 
 # ieetwcollector.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:D3LyohZ0TOCe9DqELgmkF4kiLxQsczNnLA:bLyqyAUELJYun`
 * Product Version: 11.00.9600.18895
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

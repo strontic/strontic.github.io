@@ -1,5 +1,6 @@
 ﻿---
 title: UserOOBEBroker.exe | User OOBE Broker
+excerpt: What is UserOOBEBroker.exe?
 ---
 
 # UserOOBEBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:iE85UpE/0bf67aMxlhbkhTTLQGhDGy+jHu/28eyX4bpV:7i8PMxldkvf+jO/2uXm`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: sdbinst.exe | Application Compatibility Database Installer
+excerpt: What is sdbinst.exe?
 ---
 
 # sdbinst.exe 
@@ -17,6 +18,9 @@ SHA256 | `A64EBFEAA892EE807F2C3FE39E5A396D7129A78FA3CC358E93DFDD6E0BFEBFD3`
 SHA384 | `5F87F7CAB8D4A50CDBD1C342ADB4A349136D197DF588E09F8093C5F48F398609CFE02DA371ECFBE97921BA2403CE0CC1`
 SHA512 | `82DC3158E3AF131C226ED2B245A165207BFF31E4EA1F27621CA89666C9F69C1BDE68413DE1A538DF60A19B569B685995F6FC860CB3C5A9E6FF23C6CC1E383517`
 SSDEEP | `384:QbwRvEwCKgGHJ6bgtYhpRkZE6SFZw7i/EpzUTQOy2BcFL1TWcgW:mwRJpQgtyIqACQOy2BcFL1D`
+IMP | `5D01C40092C3C1075F7A8335CD70663B`
+PESHA1 | `F741D3B820DF481EDCADC5BBE8C413F6F3C7A86C`
+PE256 | `0EA1F5A7CE8283B719AC2900C77B480DED95C2A241ECE79D00D5782ED848AD09`
 
 ## Runtime Data
 
@@ -47,8 +51,8 @@ C:\Windows\system32\sdbinst.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -61,6 +65,12 @@ C:\Windows\system32\sdbinst.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/a64ebfeaa892ee807f2c3fe39e5a396d7129a78fa3cc358e93dfdd6e0bfebfd3/detection/
 
 
 ## Possible Misuse

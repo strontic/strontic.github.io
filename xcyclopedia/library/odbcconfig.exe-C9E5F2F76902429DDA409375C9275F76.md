@@ -1,5 +1,6 @@
 ﻿---
 title: odbcconfig.exe | 
+excerpt: What is odbcconfig.exe?
 ---
 
 # odbcconfig.exe 
@@ -81,6 +82,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 * Product Version: 7.0.0.3
 * Language: English (United States)
 * Legal Copyright: Copyright  2000-2020 by LibreOffice contributors. All rights reserved.
+
 
 
 

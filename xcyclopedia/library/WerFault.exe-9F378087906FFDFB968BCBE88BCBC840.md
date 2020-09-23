@@ -1,5 +1,6 @@
 ﻿---
 title: WerFault.exe | Windows Problem Reporting
+excerpt: What is WerFault.exe?
 ---
 
 # WerFault.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\WerFault.exe |
 * Product Version: 10.0.17763.1339
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

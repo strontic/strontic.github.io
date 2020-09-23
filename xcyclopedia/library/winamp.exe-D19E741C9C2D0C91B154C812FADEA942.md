@@ -1,5 +1,6 @@
 ﻿---
 title: winamp.exe | Winamp
+excerpt: What is winamp.exe?
 ---
 
 # winamp.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5,8,0,3660
 * Language: English (United States)
 * Legal Copyright: Copyright  1997-2019 Winamp SA
+
 
 
 

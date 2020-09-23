@@ -1,5 +1,6 @@
 ﻿---
 title: Ec2LaunchSettings.exe | Ec2Launch.Settings
+excerpt: What is Ec2LaunchSettings.exe?
 ---
 
 # Ec2LaunchSettings.exe 
@@ -83,6 +84,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 1.0.0.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  Amazon.com 2016
+
 
 
 

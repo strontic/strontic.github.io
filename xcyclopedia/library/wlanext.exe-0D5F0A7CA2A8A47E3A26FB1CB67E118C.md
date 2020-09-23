@@ -1,5 +1,6 @@
 ﻿---
 title: wlanext.exe | Windows Wireless LAN 802.11 Extensibility Framework
+excerpt: What is wlanext.exe?
 ---
 
 # wlanext.exe 
@@ -17,6 +18,9 @@ SHA256 | `3C928B9AFF2E651AA35EA798C29FDE398E9F7817E3451AE0F4C97C86630DC92B`
 SHA384 | `A00F79D689B1B09624415409AA92BE148E74F6957CCF2914FF8B49A038EA13910D573312C3FF6AEE11F3A154D98BD2E3`
 SHA512 | `84398D4E5680C2EA1679D0076468207A9503B053A233932FD3EFAEFDBF4559CFEAB5A0E95F526644C6382A88C17B6A62D3993323012211AB685DA4C4B025C045`
 SSDEEP | `1536:UbDMdx4Tm9lSD2HAcOqa57xlYuNxo8b1E:+MduTm9lSD7rNKk6`
+IMP | `DF1E2B2A61EF32982A6D4F4D8DD9F55A`
+PESHA1 | `DA974224A232E72806CA6C2B4D5BFAAF0547698D`
+PE256 | `DAC922BF57E44406D6611671A0B2A85AE4CF5466BFF85CD9626F88CC5964D831`
 
 ## Runtime Data
 
@@ -34,8 +38,8 @@ C:\Windows\SysWOW64\wlanext.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,6 +52,12 @@ C:\Windows\SysWOW64\wlanext.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/3c928b9aff2e651aa35ea798c29fde398e9f7817e3451ae0f4c97c86630dc92b/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: fltMC.exe | Filter Manager Control Program
+excerpt: What is fltMC.exe?
 ---
 
 # fltMC.exe 
@@ -17,6 +18,9 @@ SHA256 | `ED93A19342F39822378F3DEC9CD3F6BF48EF44B1A26FBEA41D6932A79CE4002E`
 SHA384 | `6380D69FFBBAE87B342CAC1CA1DA89B5D551F6F0C9E7E98ED128F75DA1AEBAE606583964156C0BEF55187E3C8B6F07B5`
 SHA512 | `1CC06DB162D2EF32A3CE7C6F5817BAFECB846909C1A5CAAE26C123D58B82031F453728CD60EFD26D160AF97C05E3E7C1596E853BCB11E7E12BEE63FDEFD0E717`
 SSDEEP | `384:lAMNUGvYUI9LwOnrnq0px6izavkJjjJ5X8cR2VWo9Wi6:lFI9LwOnrnq2oiOvk3+cR2B`
+IMP | `50932E942F8E6C207BD1C02FB974B27C`
+PESHA1 | `38EE17ACA629F38164981782B854580047612298`
+PE256 | `CEA63BCDE1325E55C1402EC7AB66B87367854B6B7EA96471B2153F237E40D811`
 
 ## Runtime Data
 
@@ -44,6 +48,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\fltMC.exe |
 
@@ -65,6 +70,12 @@ C:\Windows\SysWOW64\fltMC.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/ed93a19342f39822378f3dec9cd3f6bf48ef44b1a26fbea41d6932a79ce4002e/detection/
 
 
 ## Possible Misuse

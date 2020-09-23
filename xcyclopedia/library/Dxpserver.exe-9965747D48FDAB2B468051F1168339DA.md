@@ -1,5 +1,6 @@
 ﻿---
 title: Dxpserver.exe | Device Stage Platform Server
+excerpt: What is Dxpserver.exe?
 ---
 
 # Dxpserver.exe 
@@ -58,6 +59,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

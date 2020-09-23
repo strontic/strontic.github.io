@@ -1,5 +1,6 @@
 ﻿---
 title: tail.exe | 
+excerpt: What is tail.exe?
 ---
 
 # tail.exe 
@@ -97,6 +98,7 @@ Try '/usr/bin/tail --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

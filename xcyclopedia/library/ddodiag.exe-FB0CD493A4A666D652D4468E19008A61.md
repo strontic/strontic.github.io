@@ -1,5 +1,6 @@
 ﻿---
 title: ddodiag.exe | DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
+excerpt: What is ddodiag.exe?
 ---
 
 # ddodiag.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\ddodiag.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

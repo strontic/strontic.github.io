@@ -1,5 +1,6 @@
 ﻿---
 title: RdpSaUacHelper.exe | RDP Session Agent UAC Helper
+excerpt: What is RdpSaUacHelper.exe?
 ---
 
 # RdpSaUacHelper.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:RwNV72wOjKvOlhhqYVrmFBOOL1i5wFzr5ZgZvyJ:RwX7vZvMqVF0OQwF9ZgVy`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

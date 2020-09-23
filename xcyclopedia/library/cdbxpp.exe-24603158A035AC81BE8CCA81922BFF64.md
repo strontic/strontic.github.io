@@ -1,5 +1,6 @@
 ﻿---
 title: cdbxpp.exe | CDBurnerXP
+excerpt: What is cdbxpp.exe?
 ---
 
 # cdbxpp.exe 
@@ -126,6 +127,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 4.5.8.7128
 * Language: Language Neutral
 * Legal Copyright: Copyright  2002-2008 Canneverbe Limited
+
 
 
 

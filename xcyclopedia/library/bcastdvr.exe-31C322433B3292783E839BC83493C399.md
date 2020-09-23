@@ -1,5 +1,6 @@
 ﻿---
 title: bcastdvr.exe | Broadcast DVR server
+excerpt: What is bcastdvr.exe?
 ---
 
 # bcastdvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:ElJpdpzZQmTiVXGUSXgFBgi1BD8t1cbV:ELVZVTJXDcBD8sb`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

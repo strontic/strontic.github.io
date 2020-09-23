@@ -1,5 +1,6 @@
 ﻿---
 title: paq8o.exe | 
+excerpt: What is paq8o.exe?
 ---
 
 # paq8o.exe 
@@ -60,6 +61,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

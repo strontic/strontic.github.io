@@ -1,5 +1,6 @@
 ﻿---
 title: installer_helper_64.exe | 
+excerpt: What is installer_helper_64.exe?
 ---
 
 # installer_helper_64.exe 
@@ -34,6 +35,7 @@ SSDEEP | `6144:EcLkSS/RsB/91TDQ1WQX41z1UEPKhpe7wTUjZGT:EwkSS/Rm91TDQ4RPK/mGT`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

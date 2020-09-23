@@ -1,5 +1,6 @@
 ﻿---
 title: iisrstas.exe | Internet Information Services reset control
+excerpt: What is iisrstas.exe?
 ---
 
 # iisrstas.exe 
@@ -55,6 +56,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

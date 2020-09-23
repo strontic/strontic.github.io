@@ -1,5 +1,6 @@
 ﻿---
 title: dxgiadaptercache.exe | DXGI Adapter Cache
+excerpt: What is dxgiadaptercache.exe?
 ---
 
 # dxgiadaptercache.exe 
@@ -56,6 +57,13 @@ C:\Windows\System32\win32u.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\directxdatabaseupdater.exe](directxdatabaseupdater.exe-031BCFFEEC62FCA7C05CCBFD5B44B375.md) | 33
+[C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-08F12D5206A2C6910D9C7FED1D87AFAC.md) | 41
 
 
 

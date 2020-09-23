@@ -1,5 +1,6 @@
 ﻿---
 title: rrinstaller.exe | R&R installer
+excerpt: What is rrinstaller.exe?
 ---
 
 # rrinstaller.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\rrinstaller.exe |
 * Product Version: 11.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

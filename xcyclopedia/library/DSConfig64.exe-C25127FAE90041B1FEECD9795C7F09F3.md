@@ -1,5 +1,6 @@
 ﻿---
 title: DSConfig64.exe | DSConfig
+excerpt: What is DSConfig64.exe?
 ---
 
 # DSConfig64.exe 
@@ -58,6 +59,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: gimp-2.10.exe | GNU Image Manipulation Program
+excerpt: What is gimp-2.10.exe?
 ---
 
 # gimp-2.10.exe 
@@ -139,6 +140,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: setspn.exe | Query or reset the computer's SPN attribute
+excerpt: What is setspn.exe?
 ---
 
 # setspn.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:Klb7NApubbjTyH7Mc3NQELSj0TXc3D23U531edYWxaWPlUI:gb7NApQ3TyH7zy+wT3
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

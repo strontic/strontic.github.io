@@ -1,5 +1,6 @@
 ﻿---
 title: opera_autoupdate.exe | Opera auto-updater
+excerpt: What is opera_autoupdate.exe?
 ---
 
 # opera_autoupdate.exe 
@@ -40,6 +41,7 @@ opera_autoupdate.exe
 * Product Version: 70.0.3728.106
 * Language: English (United States)
 * Legal Copyright: Copyright Opera Software 2020
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ntprint.exe | Printer driver software installation
+excerpt: What is ntprint.exe?
 ---
 
 # ntprint.exe 
@@ -17,6 +18,9 @@ SHA256 | `24BE330AC87CDCFFD09F2F6AB8CA17415EC22E8F28B80C9D2B3B0C804D571834`
 SHA384 | `FCFCA08EAD9E7DD23192D627CC876E08A93F25E1F4270A688DFD19CAB146DF338C12C226966633D92ACB72ECB75D8560`
 SHA512 | `64F998EE30D70ADEED408ED94892D9AD8E704501E0D7524A6424C70020B71720D6B65F340BBAD4325D952B86B588B1F0448DB1900A4651877374D624B3DAC657`
 SSDEEP | `768:9koqI6PbFT5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qn+:WpHVIPd4n+lbeRZIbSQPPA73`
+IMP | `84E6CE32AD78D98B8E208DD970DC233E`
+PESHA1 | `ABD4F6CC462D63BE92BEC705B01A2CBBA652FC91`
+PE256 | `341E80C4CC9EA22250FD9CD2DFF490985C56DB2EBF39B3E4BDEA71DCF887740F`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\ntprint.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\ntprint.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/24be330ac87cdcffd09f2f6ab8ca17415ec22e8f28b80c9d2b3b0c804d571834/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: nvspinfo.exe | "nvspinfo.PROGRAM"
+excerpt: What is nvspinfo.exe?
 ---
 
 # nvspinfo.exe 
@@ -161,6 +162,7 @@ cleaning up...finished
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

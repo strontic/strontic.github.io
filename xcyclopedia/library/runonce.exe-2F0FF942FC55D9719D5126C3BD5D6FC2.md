@@ -1,5 +1,6 @@
 ﻿---
 title: runonce.exe | Run Once Wrapper
+excerpt: What is runonce.exe?
 ---
 
 # runonce.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:CTNjNbowJJEaJXAiCn7BfQ8JzixtEJ/RajQ12YBO:ANjNMqDCnMxtEH12k`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

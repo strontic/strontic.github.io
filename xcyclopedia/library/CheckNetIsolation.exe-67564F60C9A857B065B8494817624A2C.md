@@ -1,5 +1,6 @@
 ﻿---
 title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
+excerpt: What is CheckNetIsolation.exe?
 ---
 
 # CheckNetIsolation.exe 
@@ -17,6 +18,9 @@ SHA256 | `9CB971F87C46B7F96B83CF601C49AF9629D0B688A6A8B5C68192AA96ADEF6C45`
 SHA384 | `589A4B35A072108A6382E40DF37DDAE36B002329666AFAE37EBD058F9DC3B6CF4FD6700412A5D8D8CF6FA97FA787E580`
 SHA512 | `31A23222951C590059D09FC5E7F83A5A37CF0B42F89794102B675BB3899DDD8FC423680967C9A1E211482B5D5F1FC7B841AA994366E0D5DAE327A0682FFA2117`
 SSDEEP | `768:ClwlBleXgP6qbheMK2x0OKafaFnctky7pt:CalPeXgrh1x0OFfaqtky7p`
+IMP | `E437A3A0162600CE23B282A0DFA53D7B`
+PESHA1 | `5E3759CA1391989EF4403839A1EC26398AC0B4DC`
+PE256 | `7131C89F49F64968A9B70E82C9A6568AC86322B9AEE51C1A7929B791F806618D`
 
 ## Runtime Data
 
@@ -53,8 +57,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -67,6 +71,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/9cb971f87c46b7f96b83cf601c49af9629d0b688a6a8b5c68192aa96adef6c45/detection/
 
 
 

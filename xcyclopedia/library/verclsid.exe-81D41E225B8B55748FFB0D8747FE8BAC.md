@@ -1,5 +1,6 @@
 ﻿---
 title: verclsid.exe | Extension CLSID Verification Host
+excerpt: What is verclsid.exe?
 ---
 
 # verclsid.exe 
@@ -17,6 +18,9 @@ SHA256 | `AC6E1F614CB902C0ABE4297646E21C70590624B652A080BFBB8407B1AB52609D`
 SHA384 | `1A10576F99F7927D3C30D5EC3031BF226BAA3E650BC6C3844DA759D4A40C51F4D7F29AF93128AE29AFDCD01E47BDFDBE`
 SHA512 | `495B57077F2E50247D8CB041405A39B6B8459A794AC3A801DF5CCF6EB1C2A8AFCCA668920A7039A6199B91C8895A2FCB7D70CB1955C69E0D31E4C4CDCD81AC0E`
 SSDEEP | `192:1S1rPu2/TzyyIDWm8ZdFN2y9qnWJ8VaZGuJG+WfCkXWSNW:1S17uezxm8vL2PWJqOGuUCoWSNW`
+IMP | `FA65D753209C7382631265744DE49154`
+PESHA1 | `1DE0E12F0D8BEC5CFD749CC24901367A305AD1CB`
+PE256 | `F37FCB07032841EB2FFE0A88884A4712B1A217E71EAC6B9653834ED58F2D09F4`
 
 ## Runtime Data
 
@@ -24,14 +28,19 @@ SSDEEP | `192:1S1rPu2/TzyyIDWm8ZdFN2y9qnWJ8VaZGuJG+WfCkXWSNW:1S17uezxm8vL2PWJqOG
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\verclsid.exe |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -51,6 +60,12 @@ C:\Windows\system32\verclsid.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac6e1f614cb902c0abe4297646e21c70590624b652a080bfbb8407b1ab52609d/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: gimp-debug-resume.exe | 
+excerpt: What is gimp-debug-resume.exe?
 ---
 
 # gimp-debug-resume.exe 
@@ -52,6 +53,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

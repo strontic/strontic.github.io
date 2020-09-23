@@ -1,5 +1,6 @@
 ﻿---
 title: UsoClient.exe | UsoClient
+excerpt: What is UsoClient.exe?
 ---
 
 # UsoClient.exe 
@@ -57,6 +58,12 @@ C:\Windows\system32\UsoClient.exe |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\UsoClient.exe](UsoClient.exe-0713F7831AC1247123C2C02864D17E6B.md) | 91
 
 
 

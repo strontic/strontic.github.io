@@ -1,5 +1,6 @@
 ﻿---
 title: gpscript.exe | Group Policy Script Application
+excerpt: What is gpscript.exe?
 ---
 
 # gpscript.exe 
@@ -17,6 +18,9 @@ SHA256 | `10DA9175BC408CB270B4CF24167BAB915E34BD5ABB3D2BCE3EC9D3E68A329622`
 SHA384 | `1AA4FB65AB5311303C8A55572FF174989C7C5118DEB765738155A0AF120754E01845485E66721EF68491FA0FF7A0DF1D`
 SHA512 | `99BD50CD7F2CAE762CEF530C83655F08F542AEF1F0AD87D4656BC099DB1BACCD5AABE0AFB9B0981AA741802DB2980C6A4BF7AF85742EE143CB78139AFBFA4B9B`
 SSDEEP | `768:34ylU+Bk31/K85lA4x209jfEXapTEza8Bj2rn1TdTKZvLss:d++Bk31S85lA4xsSTEzQn1TdTevLs`
+IMP | `9AFFCA7D865BD1DE5A91261C9981D95C`
+PESHA1 | `E97D450A5536737829FEBF545B7A338F99E456D4`
+PE256 | `0078C04117B045EF0325635BD8C4791F566630677DB07018459070E12F350987`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\gpscript.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\gpscript.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/10da9175bc408cb270b4cf24167bab915e34bd5abb3d2bce3ec9d3e68a329622/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: pathchk.exe | 
+excerpt: What is pathchk.exe?
 ---
 
 # pathchk.exe 
@@ -71,6 +72,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: cmdkey.exe | Credential Manager Command Line Utility
+excerpt: What is cmdkey.exe?
 ---
 
 # cmdkey.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:y28ru5wAMv/jmSzwHDVYq6oqWiIeuDuZzfueOIVWlwW:UgMzxqJx9ihOIc`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

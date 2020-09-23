@@ -1,5 +1,6 @@
 ﻿---
 title: dpapimig.exe | DPAPI Key Migration Wizard
+excerpt: What is dpapimig.exe?
 ---
 
 # dpapimig.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:eAU8vw6svPOCG00l3uU1HIED1fCbWpygzU:eb84luC1SJj16bE`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

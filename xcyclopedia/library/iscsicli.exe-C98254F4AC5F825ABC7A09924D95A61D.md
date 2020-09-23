@@ -1,5 +1,6 @@
 ﻿---
 title: iscsicli.exe | iSCSI Discovery tool
+excerpt: What is iscsicli.exe?
 ---
 
 # iscsicli.exe 
@@ -17,6 +18,9 @@ SHA256 | `436072ADDF870C0ED6B8E21C550CADFAA549264D35A18D4D0E3D3104846BA9E6`
 SHA384 | `C15C15D674C336ACA37E9BB90B307731EF4DE3C07E64F208A6D08F108FC19F7271CFDDC9FB6A1BC07982A33884AD4657`
 SHA512 | `AACB07A1C04E8C693AD82B0A0150F12F717637668E257C674FD402DB58FB326DFCC123D74F028401BC2D10D7766F66BDC36D892170B9B16DE948747B7354F805`
 SSDEEP | `768:yywiJK3iS9LNZA0yOxev/gETthnJcbTWprR/:tYXLNZAFOsv4ETtuWprR/`
+IMP | `8CA0AB71D922D32950087F16FDC104A3`
+PESHA1 | `45ADDF995FB4466B1D3BCA2B171066C18FE47479`
+PE256 | `44126F528912607A2669062FC018279E3A2BCF869BC5DC43C7B6C51DA19B21A9`
 
 ## Runtime Data
 
@@ -227,8 +231,8 @@ C:\Windows\SysWOW64\iscsicli.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -241,6 +245,12 @@ C:\Windows\SysWOW64\iscsicli.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/436072addf870c0ed6b8e21c550cadfaa549264d35a18d4d0e3d3104846ba9e6/detection/
 
 
 

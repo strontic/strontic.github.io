@@ -1,5 +1,6 @@
 ﻿---
 title: ktmutil.exe | Kernel Transaction Management Utility
+excerpt: What is ktmutil.exe?
 ---
 
 # ktmutil.exe 
@@ -47,6 +48,7 @@ tm     Commands related to transaction managers
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

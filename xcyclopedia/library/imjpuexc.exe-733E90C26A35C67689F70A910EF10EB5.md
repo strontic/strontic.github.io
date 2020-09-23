@@ -1,5 +1,6 @@
 ﻿---
 title: imjpuexc.exe | Microsoft IME 2012
+excerpt: What is imjpuexc.exe?
 ---
 
 # imjpuexc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:qLQHmyhCtBKX0rIdzYI60AxApAwaeYscZBd3aWtM:AU4GBzIxAba3hd3XM`
 * Product Version: 15.0.9600.18514
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

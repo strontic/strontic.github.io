@@ -1,5 +1,6 @@
 ﻿---
 title: user.exe | User
+excerpt: What is user.exe?
 ---
 
 # user.exe 
@@ -17,6 +18,9 @@ SHA256 | `AE62BC1EA069F1E99EE71731A0A37A4C1AF4ED221B3F0714238989A92C533A44`
 SHA384 | `9DAEDEE868330F629B1141651E5D733A37D86F721927D1FF8FDDAAD7300D53B03F6305DB123A50B99C5F2C91D07579A3`
 SHA512 | `C3A43D720C179810E32C81AA3073687A8DFA644FFFB936A225A04927D8964CF3C64480831BB8B1A7EB66FD78CC3FF835574786F9EFCB5BB4A43576E6BC6A8502`
 SSDEEP | `24:ev1GSAK+hAz888qTyNGK9fZY4to6IZW0gbN6l2Si35WWdPOPNm:qAJAzCqTafZY4tFIZWjh6no5Wwa`
+IMP | `n/a`
+PESHA1 | `4E34E84C742074D1CE97A8945F75BD2537DEDEB6`
+PE256 | `ACA820FD888A312CC9E895B66F2CE24CE4B377A6FE6B51F62250E050060901C6`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\user.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\user.exe |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/ae62bc1ea069f1e99ee71731a0a37a4c1af4ed221b3f0714238989a92c533a44/detection/
 
 ## File Similarity (ssdeep match)
 

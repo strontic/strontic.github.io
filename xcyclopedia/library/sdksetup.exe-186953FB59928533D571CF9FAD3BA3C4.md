@@ -1,5 +1,6 @@
 ﻿---
 title: sdksetup.exe | Windows Software Development Kit - Windows 10.0.10586.15
+excerpt: What is sdksetup.exe?
 ---
 
 # sdksetup.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:hiw+VVFoeh0/odHHpMHmLoMza655/xDnZpRC:qZVgYHHp4mtJDxDs`
 * Product Version: 10.1.10586.15
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

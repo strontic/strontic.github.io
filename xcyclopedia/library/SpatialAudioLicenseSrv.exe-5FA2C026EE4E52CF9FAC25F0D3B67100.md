@@ -1,5 +1,6 @@
 ﻿---
 title: SpatialAudioLicenseSrv.exe | Spatial License AppService Broker
+excerpt: What is SpatialAudioLicenseSrv.exe?
 ---
 
 # SpatialAudioLicenseSrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:ULcHIlIFOJrycskIM2aOKH+ATh2jhkwBpr7FIchMyjmXU1sfvk3nkojLDAGpi:icH
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

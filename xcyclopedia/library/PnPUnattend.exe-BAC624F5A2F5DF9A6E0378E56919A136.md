@@ -1,5 +1,6 @@
 ﻿---
 title: PnPUnattend.exe | PnP unattend action
+excerpt: What is PnPUnattend.exe?
 ---
 
 # PnPUnattend.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Sq1QkrarDO/SL7bUVmaQ3t4yJaURvnAIhiHtTcPOJvY:xTrau/67gVAhaUlhmtTc2
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

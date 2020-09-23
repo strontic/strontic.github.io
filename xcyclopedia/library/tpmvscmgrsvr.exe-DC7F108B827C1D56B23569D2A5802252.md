@@ -1,5 +1,6 @@
 ﻿---
 title: tpmvscmgrsvr.exe | TPM Virtual Smart Card Manager COM Server
+excerpt: What is tpmvscmgrsvr.exe?
 ---
 
 # tpmvscmgrsvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:QWryK6gWaOoAIXpTvHPS1MDyhig5AeZX5F5qGEm:NriAAIFPSaDyhiohIG`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

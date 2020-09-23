@@ -1,5 +1,6 @@
 ﻿---
 title: w3wp.exe | IIS Worker Process
+excerpt: What is w3wp.exe?
 ---
 
 # w3wp.exe 
@@ -66,6 +67,7 @@ Usage: C:\Windows\SysWOW64\inetsrv\w3wp.exe -s <site id> | -h [application host 
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

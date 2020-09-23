@@ -1,5 +1,6 @@
 ﻿---
 title: regedt32.exe | Registry Editor Utility
+excerpt: What is regedt32.exe?
 ---
 
 # regedt32.exe 
@@ -17,6 +18,9 @@ SHA256 | `A83D55C6F3FD0E634D4CD570CED654A8BDC1776027680BC3F003476E764CC499`
 SHA384 | `4ACE1A903F35E55CC5EB69BA1062426CB47956DE6D4FE2AA5C8EE60532CC2A53460C8F6979C01D2ACD3308B8FFA8B84C`
 SHA512 | `59D38AE1A915C73D565BDECB9FF10C3074B021DC2D2B144DD6636FB59BF15085C76A306F09403617065FE21A3DEC91B4F744FE63EA79004DF0DC730E14E6557C`
 SSDEEP | `192:9cIya1bGZuqvFJscKonxSWR8ji6ZPl6cMWbxW:KIyQbQuOfx5nEXiENMWbxW`
+IMP | `A3060EC916831020104FAE5BC9414975`
+PESHA1 | `B37CE6AFB3F6D6F557B1F7825E143635379F33C6`
+PE256 | `855057B96229B2831E5F9FC2506043D5DDA0B7CC0E04F6F6EDA09785F52AFCCC`
 
 ## Runtime Data
 
@@ -27,37 +31,21 @@ regedit.exe
 
 Path |
 -- |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\regedt32.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHCORE.dll |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\windows.storage.dll |
-C:\Windows\system32\Wldp.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -70,6 +58,12 @@ C:\Windows\system32\Wldp.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a83d55c6f3fd0e634d4cd570ced654a8bdc1776027680bc3f003476e764cc499/detection/
 
 
 ## Possible Misuse
@@ -78,7 +72,7 @@ C:\Windows\system32\Wldp.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $a3 = "regedt32.exe" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) | $a3 = "regedt32.exe" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

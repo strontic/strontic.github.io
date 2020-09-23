@@ -1,5 +1,6 @@
 ﻿---
 title: rasphone.exe | Remote Access Phonebook
+excerpt: What is rasphone.exe?
 ---
 
 # rasphone.exe 
@@ -21,6 +22,9 @@ SHA256 | `081F631D598C327C2E9093D34FEFEE01BC571BECF0B3B3EAF1F6537FE18A945E`
 SHA384 | `B612DB62DDF9281F37BDCF69B707EF5D083DB952BC8D5787FE4BDBF84E297A7AF8CC549963F580DDAB4E4CA2F77E06F8`
 SHA512 | `114FDB64F5D40EDA4F80087E383FB677C0B741B2A213399DBE117F93F521F6891023CE67C711BCE15773E0CE1F36555564E19BB545805870B24EF3A4C630A2B2`
 SSDEEP | `768:bHaFkPaBnW5+Fxt49Jv4YXr1gIg8qgLPNKRN:blPaJWAxgJ3W7NWPN`
+IMP | `1CE24F8D171D420DCF77580404DF2579`
+PESHA1 | `AE8DFB067CA0DE6B6966AE2D2845B7621FD346EC`
+PE256 | `6E880DA60AA389C4FB2212F12F5976F049AABCD0BA5EC178C1ABD1C382175DAF`
 
 ## Runtime Data
 
@@ -34,18 +38,13 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\rasphone.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -76,6 +75,12 @@ C:\Windows\SysWOW64\rasphone.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/081f631d598c327c2e9093d34fefee01bc571becf0b3b3eaf1f6537fe18a945e/detection/
 
 
 

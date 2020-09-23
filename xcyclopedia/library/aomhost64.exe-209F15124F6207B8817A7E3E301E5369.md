@@ -1,5 +1,6 @@
 ﻿---
 title: aomhost64.exe | Zoom
+excerpt: What is aomhost64.exe?
 ---
 
 # aomhost64.exe 
@@ -42,6 +43,7 @@ aomhost64.exe WerFault.exe
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: bootim.exe | boot immersive menus
+excerpt: What is bootim.exe?
 ---
 
 # bootim.exe 
@@ -97,6 +98,12 @@ C:\Windows\System32\win32u.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\bootim.exe](bootim.exe-9E65F3BF408CC580BED4ECB0D91AC58D.md) | 88
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: pacjsworker.exe | HTTP Auto Proxy Detection Worker Process
+excerpt: What is pacjsworker.exe?
 ---
 
 # pacjsworker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:/AU3HPC1wwnUAVoNvDxPNwhxST1aE9cKIdWaNAW:HHzwnU0oBOkcKaWaNAW`
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

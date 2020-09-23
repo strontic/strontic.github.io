@@ -1,5 +1,6 @@
 ﻿---
 title: wmpnscfg.exe | Windows Media Player Network Sharing Service Configuration Application
+excerpt: What is wmpnscfg.exe?
 ---
 
 # wmpnscfg.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

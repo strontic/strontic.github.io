@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesRemote.exe | System Remote Settings
+excerpt: What is SystemPropertiesRemote.exe?
 ---
 
 # SystemPropertiesRemote.exe 
@@ -68,6 +69,7 @@ C:\Windows\SysWOW64\SystemPropertiesRemote.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 
@@ -154,7 +156,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | 		$s15 = "SystemPropertiesRemote.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt6_malware.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt6_malware.yar) | $s15 = "SystemPropertiesRemote.exe" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: awk.exe | 
+excerpt: What is awk.exe?
 ---
 
 # awk.exe 
@@ -93,6 +94,7 @@ awk: cmd. line:1:  ^ unterminated regexp
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: jar.exe | OpenJDK Platform binary
+excerpt: What is jar.exe?
 ---
 
 # jar.exe 
@@ -142,6 +143,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 11.0.8
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

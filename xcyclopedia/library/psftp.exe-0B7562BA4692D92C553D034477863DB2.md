@@ -1,5 +1,6 @@
 ﻿---
 title: psftp.exe | Command-line interactive SFTP client
+excerpt: What is psftp.exe?
 ---
 
 # psftp.exe 
@@ -91,6 +92,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+
 
 
 

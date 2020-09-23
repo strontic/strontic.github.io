@@ -1,5 +1,6 @@
 ﻿---
 title: readlink.exe | 
+excerpt: What is readlink.exe?
 ---
 
 # readlink.exe 
@@ -72,6 +73,7 @@ Try '/usr/bin/readlink --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

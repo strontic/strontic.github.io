@@ -1,5 +1,6 @@
 ﻿---
 title: control.exe | Windows Control Panel
+excerpt: What is control.exe?
 ---
 
 # control.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\control.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

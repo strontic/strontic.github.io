@@ -1,5 +1,6 @@
 ﻿---
 title: PATHPING.EXE | TCP/IP PathPing Command
+excerpt: What is PATHPING.EXE?
 ---
 
 # PATHPING.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `384:eZeQ0pPAUeZ7yfJfcpuME6CNDWA0322W3AW:ugpPGyJfcpoNH03W`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

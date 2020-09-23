@@ -1,5 +1,6 @@
 ﻿---
 title: pwlauncher.exe | Windows To Go Startup Options Command Line Tool
+excerpt: What is pwlauncher.exe?
 ---
 
 # pwlauncher.exe 
@@ -54,6 +55,7 @@ pwlauncher [/enable | /disable]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

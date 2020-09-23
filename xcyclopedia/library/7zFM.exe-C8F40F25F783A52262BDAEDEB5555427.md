@@ -1,5 +1,6 @@
 ﻿---
 title: 7zFM.exe | 7-Zip File Manager
+excerpt: What is 7zFM.exe?
 ---
 
 # 7zFM.exe 
@@ -99,6 +100,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 19.00
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 1999-2018 Igor Pavlov
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: xpsrchvw.exe | XPS Viewer
+excerpt: What is xpsrchvw.exe?
 ---
 
 # xpsrchvw.exe 
@@ -40,6 +41,7 @@ SSDEEP | `98304:2fJidmVy60ByWLN5jKRFUkl/+taQMwkiF:2UJ6myWHjKRFU0/rnwL`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

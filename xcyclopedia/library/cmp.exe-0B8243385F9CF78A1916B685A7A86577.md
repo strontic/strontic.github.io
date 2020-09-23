@@ -1,5 +1,6 @@
 ﻿---
 title: cmp.exe | 
+excerpt: What is cmp.exe?
 ---
 
 # cmp.exe 
@@ -75,6 +76,7 @@ cmp: unknown option -- h
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

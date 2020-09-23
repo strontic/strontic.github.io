@@ -1,5 +1,6 @@
 ﻿---
 title: ftp.exe | File Transfer Program
+excerpt: What is ftp.exe?
 ---
 
 # ftp.exe 
@@ -17,6 +18,9 @@ SHA256 | `43784D61F7ABA93CBD8127251229C66FE37B3AF0759CA07E70CA7FA96B13CFB1`
 SHA384 | `70815C2CFCB646895CB362F4123E8AE509A024BB86580D052D018A5C8A69C9BA6236D33091A7D4142D46E80007516C22`
 SHA512 | `71D6257CA8093D0160CB8DB25117E7300C82C44669395037FBC09CA8AFAEFD6957FBA5B3B32B9FB5C781A7E1D6B41C5272CDFB6445DCD67325F9A1D6B9806C3C`
 SSDEEP | `768:OCZzp6zKzZSi6mZo0HZedzMbxklDyAFC4xruUaROTU0bq7RBUxtW:bcmZRHZedzzFl8CU0bqBUC`
+IMP | `F76AC455BB3971C0CB2A43FDCD1FF525`
+PESHA1 | `C0E6AC8C44F002E245DA932197FE50D6C4C23F57`
+PE256 | `45BEB106D9022DD220B273C7F60850CB54AF50F28E3D921F51EE585401A1A7E8`
 
 ## Runtime Data
 
@@ -65,15 +69,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\ftp.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -82,6 +81,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\ftp.exe |
 
@@ -103,6 +103,12 @@ C:\Windows\SysWOW64\ftp.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/43784d61f7aba93cbd8127251229c66fe37b3af0759ca07e70ca7fa96b13cfb1/detection/
 
 
 ## Possible Misuse

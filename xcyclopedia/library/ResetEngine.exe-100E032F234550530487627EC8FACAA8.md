@@ -1,5 +1,6 @@
 ﻿---
 title: ResetEngine.exe | Push-Button Reset Engine
+excerpt: What is ResetEngine.exe?
 ---
 
 # ResetEngine.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:4lfHLUNi4m16fs41sYWNeWRD1IDBRJFuvleGND:2rC7LsrfI1PQZ`
 * Product Version: 10.0.19041.153
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

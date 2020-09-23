@@ -1,5 +1,6 @@
 ﻿---
 title: drvinst.exe | Driver Installation Module
+excerpt: What is drvinst.exe?
 ---
 
 # drvinst.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:m2hSnc/gTJrTuNZxhfoyDigOqtJ+tGfOijamuJ4/0NZdY5s:acYd6Txhf0g1++uJ4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

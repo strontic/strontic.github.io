@@ -1,5 +1,6 @@
 ﻿---
 title: foobar2000.exe | foobar2000
+excerpt: What is foobar2000.exe?
 ---
 
 # foobar2000.exe 
@@ -72,6 +73,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.5.5.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2002-2020 Piotr Pawlowski
+
 
 
 

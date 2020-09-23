@@ -1,5 +1,6 @@
 ﻿---
 title: RmClient.exe | Restart Manager LUA Restart Client
+excerpt: What is RmClient.exe?
 ---
 
 # RmClient.exe 
@@ -46,6 +47,7 @@ SSDEEP | `384:ZUZGRPItlJDtYbL2Xb5duDvpkh/54Khz/2NHW5zW:Zs4PIt7DtiLY5dx/lSNG`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

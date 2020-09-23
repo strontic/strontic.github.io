@@ -1,5 +1,6 @@
 ﻿---
 title: hvax64.exe | Hypervisor V2.0
+excerpt: What is hvax64.exe?
 ---
 
 # hvax64.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.450
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

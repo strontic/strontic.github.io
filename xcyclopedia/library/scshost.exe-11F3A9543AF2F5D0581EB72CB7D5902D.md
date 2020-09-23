@@ -1,5 +1,6 @@
 ﻿---
 title: scshost.exe | SCS Host
+excerpt: What is scshost.exe?
 ---
 
 # scshost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:gD/hZClajd2HnKR1rJ7eLUJ6rurFoDnv1D3en5uWq02Wi:k6gJ2HMEvrDnvQn5t`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: usocoreworker.exe | USO Core Worker Process
+excerpt: What is usocoreworker.exe?
 ---
 
 # usocoreworker.exe 
@@ -92,6 +93,7 @@ C:\Windows\system32\XmlLite.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: IMCCPHR.exe | IMCCPHR.exe
+excerpt: What is IMCCPHR.exe?
 ---
 
 # IMCCPHR.exe 
@@ -44,6 +45,7 @@ RdpSa.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tzsync.exe | TimeZone Sync Task
+excerpt: What is tzsync.exe?
 ---
 
 # tzsync.exe 
@@ -48,6 +49,7 @@ Unhandled Exception: System.Security.SecurityException: Requested registry acces
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: AuditShD.exe | Audit Mode Desktop Switch Utility
+excerpt: What is AuditShD.exe?
 ---
 
 # AuditShD.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:os3HNdQBct+n76FSjz0Zb1YiAxZNNv2Hbe3Jbg6XhjKOr3fpgHuWGfErnUoskdeL:B
 * Product Version: 10.0.18362.207
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

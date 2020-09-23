@@ -1,5 +1,6 @@
 ﻿---
 title: unins000.exe | Setup/Uninstall
+excerpt: What is unins000.exe?
 ---
 
 # unins000.exe 
@@ -42,6 +43,7 @@ _iu14D2N.tmp
 * Product Version: 15.6.8                                            
 * Language: Language Neutral
 * Legal Copyright:                                                                                                     
+
 
 ## File Similarity (ssdeep match)
 

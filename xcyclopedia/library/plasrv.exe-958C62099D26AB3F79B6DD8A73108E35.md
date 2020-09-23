@@ -1,5 +1,6 @@
 ﻿---
 title: plasrv.exe | Performance Logs and Alerts DCOM Server
+excerpt: What is plasrv.exe?
 ---
 
 # plasrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:o/feVr4m7MI5cRuv1mRZeOxLGTXdTuUQV5GWWXW:o/fE7x6utmyPTXENgWWXW`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

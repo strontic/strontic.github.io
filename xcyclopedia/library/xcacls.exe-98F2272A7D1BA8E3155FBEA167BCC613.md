@@ -1,5 +1,6 @@
 ﻿---
 title: xcacls.exe | 
+excerpt: What is xcacls.exe?
 ---
 
 # xcacls.exe 
@@ -66,6 +67,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tnameserv.exe | OpenJDK Platform binary
+excerpt: What is tnameserv.exe?
 ---
 
 # tnameserv.exe 
@@ -79,6 +80,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SynTPEnhService.exe | 64-bit Synaptics Pointing Enhance Service
+excerpt: What is SynTPEnhService.exe?
 ---
 
 # SynTPEnhService.exe 
@@ -46,6 +47,7 @@ Service failed to run w/err 0x00000427
 * Product Version: 19.3.31.31 16Aug17
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2017
+
 
 
 

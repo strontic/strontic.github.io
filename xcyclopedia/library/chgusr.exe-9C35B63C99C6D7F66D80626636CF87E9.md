@@ -1,5 +1,6 @@
 ﻿---
 title: chgusr.exe | Change INI File Mapping Utility
+excerpt: What is chgusr.exe?
 ---
 
 # chgusr.exe 
@@ -71,6 +72,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

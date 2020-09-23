@@ -1,5 +1,6 @@
 ﻿---
 title: driverquery.exe | Queries the drivers on a system
+excerpt: What is driverquery.exe?
 ---
 
 # driverquery.exe 
@@ -86,6 +87,7 @@ Type "DRIVERQUERY /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

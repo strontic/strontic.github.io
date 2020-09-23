@@ -1,5 +1,6 @@
 ﻿---
 title: lpremove.exe | MUI Language pack cleanup
+excerpt: What is lpremove.exe?
 ---
 
 # lpremove.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:xu4NmePgdRxfZ1vvFhx73W/wmRq02aFo2Q7iU5wTaHBl4S:49xnvV73WYmc0LDQ7l
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

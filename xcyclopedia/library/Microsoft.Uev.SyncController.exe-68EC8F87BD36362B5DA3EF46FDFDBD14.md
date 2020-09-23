@@ -1,5 +1,6 @@
 ﻿---
 title: Microsoft.Uev.SyncController.exe |  
+excerpt: What is Microsoft.Uev.SyncController.exe?
 ---
 
 # Microsoft.Uev.SyncController.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:9hCtaUCKV/Q2vd1sTNe+6NwiKE10DHlZ:YCKV/Q2vd1sTNGBl10z`
 * Product Version: 10.0.18362.449
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

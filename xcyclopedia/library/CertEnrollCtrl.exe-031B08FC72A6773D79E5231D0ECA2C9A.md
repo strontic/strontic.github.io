@@ -1,5 +1,6 @@
 ﻿---
 title: CertEnrollCtrl.exe | Certificate Enrollment Control
+excerpt: What is CertEnrollCtrl.exe?
 ---
 
 # CertEnrollCtrl.exe 
@@ -17,6 +18,9 @@ SHA256 | `4DEF81210878DC626FFA5F677E12577E831B6C286C67D83A6C30DCF8FB434671`
 SHA384 | `D3C1BA0361731FBF99DD054978F8E5940009B39EE411BA5F5FCA5613340DCF7E76A824A700FEA3FA45C3D3862FD29D96`
 SHA512 | `FFCC55C9F4217A0A62FC33EA95711D4214693614E12F8FB6E9BFBEFF8FD29F37B8D3C418F7A00E55871AFE140781C58DAFAC61B4B52082A5C2F6DEF14A126AAC`
 SSDEEP | `768:zrLB44+MF3lUR5qiavKHjiPqqymtnY5xpI+wLUEvK9uwY+LmGZmRr9Ah:z3h3+RfHeSan6xpI+cVvFmZmRr9k`
+IMP | `EABE8C5D3BBE7BB90E7C03DED23530EE`
+PESHA1 | `3D297CB374445DC95799348A3D10BE98F05A23E8`
+PE256 | `238504DABFA2AE328755EF25453675F25BA20CB10A893F497E6E3D9B4A0CC9A2`
 
 ## Runtime Data
 
@@ -25,16 +29,11 @@ SSDEEP | `768:zrLB44+MF3lUR5qiavKHjiPqqymtnY5xpI+wLUEvK9uwY+LmGZmRr9Ah:z3h3+RfHe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\CertEnrollCtrl.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -65,6 +64,12 @@ C:\Windows\SysWOW64\CertEnrollCtrl.exe |
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/4def81210878dc626ffa5f677e12577e831b6c286c67d83a6c30dcf8fb434671/detection/
 
 ## File Similarity (ssdeep match)
 

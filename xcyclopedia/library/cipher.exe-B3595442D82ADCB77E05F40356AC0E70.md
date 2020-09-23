@@ -1,5 +1,6 @@
 ﻿---
 title: cipher.exe | File Encryption Utility
+excerpt: What is cipher.exe?
 ---
 
 # cipher.exe 
@@ -37,6 +38,7 @@ SSDEEP | `768:3GJavBzIggAy2gHS6r2xMOCFSjOIGAn4v7PHWNzOy:WJavPgSgy6C+lKOInA7ezOy`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `cipher.exe` being misused. While `cipher.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
@@ -69,8 +71,8 @@ Source | Source File | Example | License
 [malware-ioc](https://github.com/eset/malware-ioc) | [carbon_tool.py](https://github.com/eset/malware-ioc/blob/master/turla/carbon_tool.py) | `data = cipher.encrypt(plaintext)	` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [carbon_tool.py](https://github.com/eset/malware-ioc/blob/master/turla/carbon_tool.py) | `data = cipher.decrypt(ciphertext)` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [windigo](https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc) | `[-Q cipher \| cipher-auth \| mac \| kex \| key]` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_promethium_neodymium.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_promethium_neodymium.yar) |       $s1 = "%s SslHandshakeDone(%d) %d. Secure connection with %s, cipher %s, %d secret bits (%d total), session reused=%s" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | 		$s3 = "Crypto.Cipher.AES(" fullword ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_promethium_neodymium.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_promethium_neodymium.yar) | $s1 = "%s SslHandshakeDone(%d) %d. Secure connection with %s, cipher %s, %d secret bits (%d total), session reused=%s" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | $s3 = "Crypto.Cipher.AES(" fullword ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

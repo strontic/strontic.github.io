@@ -1,5 +1,6 @@
 ﻿---
 title: UpdateNotificationMgr.exe | Update Notification Pipeline Manager
+excerpt: What is UpdateNotificationMgr.exe?
 ---
 
 # UpdateNotificationMgr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:NS4HeEPDU7ek07stQ67iOVBIZmTQIhyDWFX7MDEDbQINXif3y56l6:U4+t0IeOLIZ
 * Product Version: 10.0.18362.592
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: WpcTok.exe | Family Safety Token Auth
+excerpt: What is WpcTok.exe?
 ---
 
 # WpcTok.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:ety+jmYRgC8Jd2IWF+Q+RqjpPwWGsPz5z:ehSYRgC8JdvWF+Q+4jeWG+5z`
 * Product Version: 10.0.19041.292
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

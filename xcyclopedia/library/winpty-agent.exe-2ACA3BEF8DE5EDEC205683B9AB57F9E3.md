@@ -1,5 +1,6 @@
 ﻿---
 title: winpty-agent.exe | 
+excerpt: What is winpty-agent.exe?
 ---
 
 # winpty-agent.exe 
@@ -58,6 +59,7 @@ Options:
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

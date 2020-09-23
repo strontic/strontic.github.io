@@ -1,5 +1,6 @@
 ﻿---
 title: chkntfs.exe | NTFS Volume Maintenance Utility
+excerpt: What is chkntfs.exe?
 ---
 
 # chkntfs.exe 
@@ -74,6 +75,7 @@ C:\Windows\SysWOW64\chkntfs.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

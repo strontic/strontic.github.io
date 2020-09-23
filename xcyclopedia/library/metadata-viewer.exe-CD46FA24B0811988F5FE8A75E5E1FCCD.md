@@ -1,5 +1,6 @@
 ﻿---
 title: metadata-viewer.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is metadata-viewer.exe?
 ---
 
 # metadata-viewer.exe 
@@ -57,6 +58,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 ## File Similarity (ssdeep match)
 

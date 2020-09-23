@@ -1,5 +1,6 @@
 ﻿---
 title: dvdplay.exe | dvdplay placeholder Application
+excerpt: What is dvdplay.exe?
 ---
 
 # dvdplay.exe 
@@ -17,6 +18,9 @@ SHA256 | `B740FBBA53980B4C2EEC43D09F3ADA7D7B55431D68A15D83AD77E1DC582AD31E`
 SHA384 | `8719329B46F2D974D3B57A836470DCABBA089FB9A813B3C2CF34A80F32F1509BAF7A77B4C6ACED27ED9EB1BEE9949BA3`
 SHA512 | `6E7073B8EB25129CA12251DC352CF8C3174C9B61A51025005A481B62149BCDA00F831C5A6BE2758DFC5577846BC1F71283F07A754BAFCD6871EC6B92422AB8E6`
 SSDEEP | `96:bOQ+dun2Ap2hCP/DGjsg5HNI9oE1tDJvkMqf9sPfbhFijEWoBZWw3JpFY:bZp/E9i9oE1XkoPjhFioWSZW6pFY`
+IMP | `E039C46E30A89ABAF651718C922747B4`
+PESHA1 | `7ACBD7A67F70630119484521DBE2419C7E45E886`
+PE256 | `B211D71765A19FF4744E39D9E45D0C86B0D6B453DA3E8463031412A899F5A7D5`
 
 ## Runtime Data
 
@@ -29,6 +33,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\dvdplay.exe |
 
@@ -50,6 +55,12 @@ C:\Windows\SysWOW64\dvdplay.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/b740fbba53980b4c2eec43d09f3ada7d7b55431d68a15d83ad77e1dc582ad31e/detection/
 
 ## File Similarity (ssdeep match)
 

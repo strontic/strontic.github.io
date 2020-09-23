@@ -1,5 +1,6 @@
 ﻿---
 title: nlb.exe | Network Load Balancing Control Utility
+excerpt: What is nlb.exe?
 ---
 
 # nlb.exe 
@@ -126,6 +127,7 @@ For detailed information, see the online help for NLB.
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

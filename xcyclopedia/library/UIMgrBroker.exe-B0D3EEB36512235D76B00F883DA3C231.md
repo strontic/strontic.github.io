@@ -1,5 +1,6 @@
 ﻿---
 title: UIMgrBroker.exe | Microsoft UIManager Broker
+excerpt: What is UIMgrBroker.exe?
 ---
 
 # UIMgrBroker.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\UIMgrBroker.exe |
 * Product Version: 10.0.17763.1339
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

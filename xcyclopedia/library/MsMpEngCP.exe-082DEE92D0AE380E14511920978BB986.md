@@ -1,5 +1,6 @@
 ﻿---
 title: MsMpEngCP.exe | Antimalware Service Executable Content Process
+excerpt: What is MsMpEngCP.exe?
 ---
 
 # MsMpEngCP.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:3eomtrT4YLgDPtMbh4xM9vwq4OWlgxWw8hDBRJkIVAQhlGs/18Gd:gT4LchXsh1Pkw
 * Product Version: 1.1.17038.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

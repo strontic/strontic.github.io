@@ -1,5 +1,6 @@
 ﻿---
 title: tsecimp.exe | Microsoft Windows(TM) TAPI Security File Importer
+excerpt: What is tsecimp.exe?
 ---
 
 # tsecimp.exe 
@@ -54,6 +55,7 @@ tsecimp {-?|-h |-H} | { [ {-v|-V} | {-u|-U} ] -f filename} | {-d|-D}
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

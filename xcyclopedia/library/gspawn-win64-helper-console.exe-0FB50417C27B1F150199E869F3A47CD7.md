@@ -1,5 +1,6 @@
 ﻿---
 title: gspawn-win64-helper-console.exe | 
+excerpt: What is gspawn-win64-helper-console.exe?
 ---
 
 # gspawn-win64-helper-console.exe 
@@ -59,6 +60,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

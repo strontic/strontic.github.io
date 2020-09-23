@@ -1,5 +1,6 @@
 ﻿---
 title: CameraSettingsUIHost.exe | Camera Settings UI Host
+excerpt: What is CameraSettingsUIHost.exe?
 ---
 
 # CameraSettingsUIHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:IkP3HZExTb7d/EvHmPsAjHvPfY+7Qg2qXp0BjWYdWWdKNftmXjDBRJ6olniMnd:735
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

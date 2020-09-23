@@ -1,5 +1,6 @@
 ﻿---
 title: setres.exe | Configures display settings.
+excerpt: What is setres.exe?
 ---
 
 # setres.exe 
@@ -53,6 +54,7 @@ Description:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

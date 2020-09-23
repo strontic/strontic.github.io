@@ -1,5 +1,6 @@
 ﻿---
 title: ZoomDocConverter.exe | Zoom
+excerpt: What is ZoomDocConverter.exe?
 ---
 
 # ZoomDocConverter.exe 
@@ -37,6 +38,7 @@ SSDEEP | `3072:ZOmFbaT2UsxhX4CeAhuMsmlp3vKpRB81o:ZHoT2UsxhLhhvCpRBr`
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

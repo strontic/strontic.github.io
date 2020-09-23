@@ -1,5 +1,6 @@
 ﻿---
 title: bcdboot.exe | Bcdboot utility
+excerpt: What is bcdboot.exe?
 ---
 
 # bcdboot.exe 
@@ -91,6 +92,7 @@ Examples: bcdboot c:\windows /l en-us
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

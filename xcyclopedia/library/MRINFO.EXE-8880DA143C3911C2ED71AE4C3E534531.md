@@ -1,5 +1,6 @@
 ﻿---
 title: MRINFO.EXE | Multicast Information
+excerpt: What is MRINFO.EXE?
 ---
 
 # MRINFO.EXE 
@@ -17,13 +18,14 @@ SHA256 | `59EEA6E8904771A620559EC4F55AED2CA0F5BCF9B14C6D030301F165AA59EB2C`
 SHA384 | `94BE9F7996021FC719F1CF81093395B42DDAA793149827C0ED57F289CE74950209273B0A23E9C2DAD6C923350CD638A7`
 SHA512 | `00A0318225F59DDE6E1489655B81B609A53034C32E197F96B60C25D731847ACF363E6E82302C0FA2ACAF8581A318ECACF4FAE9CAD6DDAAF374EFCA30A815A073`
 SSDEEP | `384:YFt53LJeMkQ6QknlMFwoDomCCmNKMfyPEHsWe8W:YrBrkT8huCmNKMfjH4`
+IMP | `293E4CA0CECE9CF71F0DB8AA9DCA02F6`
+PESHA1 | `FC22C045AF29EAA62E62CF92A0ABB21DF702EC3E`
+PE256 | `7112895823DFA9518BDBCD62173904100AFE11324A47299BBEA8979193B2A5A5`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-Error: Address could not be resolved
-
 
 Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
        
@@ -39,6 +41,15 @@ Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
 
 ### Child Processes:
 conhost.exe
+
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
 
 ### Loaded Modules:
 
@@ -67,6 +78,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/59eea6e8904771a620559ec4f55aed2ca0f5bcf9b14c6d030301f165aa59eb2c/detection/
 
 
 

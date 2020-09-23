@@ -1,5 +1,6 @@
 ﻿---
 title: SSCERuntime_x64-enu.exe | Microsoft SQL Server Compact 4.0 Setup
+excerpt: What is SSCERuntime_x64-enu.exe?
 ---
 
 # SSCERuntime_x64-enu.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:t4x8xiiEPUjAzWGoHuYsQLPNgsIcNdw5S/gddc5vmLuykalm/KVsNVa/kY:t4x8x
 * Product Version: 4.0.8876.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

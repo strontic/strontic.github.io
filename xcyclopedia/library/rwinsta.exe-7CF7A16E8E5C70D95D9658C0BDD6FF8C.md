@@ -1,5 +1,6 @@
 ﻿---
 title: rwinsta.exe | Reset Session Utility
+excerpt: What is rwinsta.exe?
 ---
 
 # rwinsta.exe 
@@ -66,6 +67,7 @@ RESET SESSION {sessionname | sessionid} [/SERVER:servername] [/V]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

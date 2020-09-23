@@ -1,5 +1,6 @@
 ﻿---
 title: acu.exe | ACU
+excerpt: What is acu.exe?
 ---
 
 # acu.exe 
@@ -37,6 +38,7 @@ SSDEEP | `384:Xy2s+fssUg+OSxhDs9W9DA+YvrQKahZNisVUmDsVltVk0dvaeT7QCbmwDV7wJ/Wk:E
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

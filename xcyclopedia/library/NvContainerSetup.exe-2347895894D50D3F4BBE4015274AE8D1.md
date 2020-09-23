@@ -1,5 +1,6 @@
 ﻿---
 title: NvContainerSetup.exe | NVIDIA Package Launcher
+excerpt: What is NvContainerSetup.exe?
 ---
 
 # NvContainerSetup.exe 
@@ -35,6 +36,7 @@ SSDEEP | `98304:JwkZ3BPZDcrfZorS4rH+wcErSES3YQYdHo+T1NVNPhO90e9:akJBPe9qey4bYdHo
 * Product Version: 1.0.7
 * Language: Language Neutral
 * Legal Copyright: Copyright  2017 NVIDIA Corporation
+
 
 
 

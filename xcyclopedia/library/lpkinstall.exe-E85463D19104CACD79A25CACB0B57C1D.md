@@ -1,5 +1,6 @@
 ﻿---
 title: lpkinstall.exe | Language Pack Installer
+excerpt: What is lpkinstall.exe?
 ---
 
 # lpkinstall.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:CUQ2PM0lKgXlr2/rhq20VVU9Swzg/hJBBWd5dy++2ZSBt:CnsRlKgXlJ2h9SwzgJhs
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

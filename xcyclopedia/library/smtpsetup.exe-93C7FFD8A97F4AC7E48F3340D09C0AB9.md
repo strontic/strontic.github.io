@@ -1,5 +1,6 @@
 ﻿---
 title: smtpsetup.exe | SMTP Setup
+excerpt: What is smtpsetup.exe?
 ---
 
 # smtpsetup.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:VnGuPx9hXC9kZhuXfcpXN8yD/r7DgS3Rk9Rs:VnGMdCiCEJeyD/HDgSa9Rs`
 * Product Version: 8.5.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: newdev.exe | Device driver software installation
+excerpt: What is newdev.exe?
 ---
 
 # newdev.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:zKIFOzdF2FaJfFrGUUUUUUUUUUUU3+GX:zKIFACAJh`
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

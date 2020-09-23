@@ -1,5 +1,6 @@
 ﻿---
 title: netbtugc.exe | NetBT Unattend Generic Command
+excerpt: What is netbtugc.exe?
 ---
 
 # netbtugc.exe 
@@ -17,6 +18,9 @@ SHA256 | `90662ED05D2E3F416B9E1482ECFC0D4265918152016354ED882922F660C64FC3`
 SHA384 | `CB938EE2840573199385D1DEE903AEADCDC91693403DA298758375204E075848ED97AA73054152B7521CCDA9E7E8F4C3`
 SHA512 | `2BA1CDAF0193ACAC5AEE9072058C7947447A6E0865D5B018B19FDD6BE6EEBC878E2BB59459829D2C890B6D7C3DB72020A76DF66421B66E93F32558ADF2D555DB`
 SSDEEP | `384:Uj2osEgJ9UfPPB+aNYFCasNPWI0B4gfmSkiVw+I/PW/uFWAb:6fx+lFCao0iBiVmxJ`
+IMP | `4466068C0E40CE7D9687DE58566C2743`
+PESHA1 | `9B48053B8CA1E6EF33014880C32266FA48E147F2`
+PE256 | `198DC6D27D1AD3D6649CF987F9765616BFB8CF52C24E835E2BB1B9686A6DE9D3`
 
 ## Runtime Data
 
@@ -34,8 +38,8 @@ C:\Windows\SysWOW64\netbtugc.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,6 +52,12 @@ C:\Windows\SysWOW64\netbtugc.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/90662ed05d2e3f416b9e1482ecfc0d4265918152016354ed882922f660c64fc3/detection/
 
 
 

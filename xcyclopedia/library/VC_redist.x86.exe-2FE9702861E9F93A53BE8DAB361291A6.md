@@ -1,5 +1,6 @@
 ﻿---
 title: VC_redist.x86.exe | Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23506
+excerpt: What is VC_redist.x86.exe?
 ---
 
 # VC_redist.x86.exe 
@@ -35,6 +36,7 @@ SSDEEP | `393216:Yklp+dkBSuF2SfUfn6vVq0kv6+LMIdl/zkP2vq4qn7:tp+Ty2SfUfnwUvxAIdlx
 * Product Version: 14.0.23506.0
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

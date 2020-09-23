@@ -1,5 +1,6 @@
 ﻿---
 title: Defrag.exe | Disk Defragmenter Module
+excerpt: What is Defrag.exe?
 ---
 
 # Defrag.exe 
@@ -17,6 +18,9 @@ SHA256 | `D90DF37806E6F4A59D51B2D6FEDFDAF129436C4A0BC27DC271650B53B4848053`
 SHA384 | `D797295A1DCA8C8883E8D0B9A2483F4C5A5F2FDD6E438CE5090640D4E53220350B646FBBE90AD517E3F2EA79D20FEF5F`
 SHA512 | `93981E904171CAC7F050E277DF270B93984F7F85C5B64802112EE00668811EC61D4431FA9258999FBFB6AC104879751322ED51BA6CDDAF01DD800083D647798E`
 SSDEEP | `3072:EswPgZs/8fsIlnK0tRrDrTkJKk/V5W86uvsb4C6c5Q3eSjlR+8qxLijgJyfFOG8l:P02o8PK+q+uJ3lRGOUZGKc4YFnwjCpW`
+IMP | `9233D07CE8B477A0DE3511C3B6B4B24D`
+PESHA1 | `8FEF5F428B441A89487AD10189C8354F6769E4D2`
+PE256 | `B270B551385887434E5B0D73E35213D49777F8B76E5A1E943F2CCCEF041C55E8`
 
 ## Runtime Data
 
@@ -87,25 +91,6 @@ Examples:
 
 ```
 
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\Defrag.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -133,6 +118,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corp.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/d90df37806e6f4a59d51b2d6fedfdaf129436c4a0bc27dc271650b53b4848053/detection/
 
 ## File Similarity (ssdeep match)
 

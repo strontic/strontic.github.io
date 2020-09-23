@@ -1,5 +1,6 @@
 ﻿---
 title: fontdrvhost.exe | Usermode Font Driver Host
+excerpt: What is fontdrvhost.exe?
 ---
 
 # fontdrvhost.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.450
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

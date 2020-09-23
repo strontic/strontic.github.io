@@ -1,5 +1,6 @@
 ﻿---
 title: GOM.EXE | GOM Player
+excerpt: What is GOM.EXE?
 ---
 
 # GOM.EXE 
@@ -98,6 +99,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2, 3, 14, 5270
 * Language: Korean (Korea)
 * Legal Copyright: Copyright(C) Gretech Corp. All rights reserved. Since 2003
+
 
 
 

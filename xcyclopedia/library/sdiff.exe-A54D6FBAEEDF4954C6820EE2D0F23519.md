@@ -1,5 +1,6 @@
 ﻿---
 title: sdiff.exe | 
+excerpt: What is sdiff.exe?
 ---
 
 # sdiff.exe 
@@ -84,6 +85,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

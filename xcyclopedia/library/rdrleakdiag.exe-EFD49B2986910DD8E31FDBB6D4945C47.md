@@ -1,5 +1,6 @@
 ﻿---
 title: rdrleakdiag.exe | Microsoft Windows Resource Leak Diagnostic
+excerpt: What is rdrleakdiag.exe?
 ---
 
 # rdrleakdiag.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:XLTJWbFuasCKqgvWLcSsUaF4I6FrYQJvI/pII6pNco2NnzlTqz:XQbFsLvWwVUH1FR
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

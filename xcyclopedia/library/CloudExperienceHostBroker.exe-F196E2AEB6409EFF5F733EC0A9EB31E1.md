@@ -1,5 +1,6 @@
 ﻿---
 title: CloudExperienceHostBroker.exe | CloudExperienceHost Broker
+excerpt: What is CloudExperienceHostBroker.exe?
 ---
 
 # CloudExperienceHostBroker.exe 
@@ -67,6 +68,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

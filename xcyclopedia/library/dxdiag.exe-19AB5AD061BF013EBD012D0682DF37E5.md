@@ -1,5 +1,6 @@
 ﻿---
 title: dxdiag.exe | Microsoft DirectX Diagnostic Tool
+excerpt: What is dxdiag.exe?
 ---
 
 # dxdiag.exe 
@@ -21,6 +22,9 @@ SHA256 | `B3C1048DF7A2292798EFCAD66B3400C5C3C5747E8F09993621FD0DE7B33A159C`
 SHA384 | `3C224B1C8AE1847A1908936760FC76F48948F3ABAFA77A3FA738DE651CE421C4ACB6BCB33FCEBBB9F067ED1318040482`
 SHA512 | `2142C9F06A87FF8901705C022CA5BA0C768BA4484A32DB596361D04C149B390191BBE05392BCB724FC9F2B172C2817F7B9F9FECD130A4A894FEA5D72ECF10647`
 SSDEEP | `6144:kVzfxC1imqncQXy9194csa8iy9JBl6glJVJ3UkvhZ3P:t1iJckY6hDUUP`
+IMP | `6B783B76A766357333E369590AB75C80`
+PESHA1 | `B1C1DBBE0476C8DD46E89332F094E5D0C49AD2A5`
+PE256 | `34FA29C4BA811485B176351EFD1E93A1681C824A2E1371E75FB4E33E62E7535C`
 
 ## Runtime Data
 
@@ -34,17 +38,12 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\dxdiag.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -75,6 +74,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/b3c1048df7a2292798efcad66b3400c5c3c5747e8f09993621fd0de7b33a159c/detection/
 
 
 

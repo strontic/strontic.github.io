@@ -1,5 +1,6 @@
 ﻿---
 title: SenseCncProxy.exe | Windows Defender Advanced Threat Protection Communications module
+excerpt: What is SenseCncProxy.exe?
 ---
 
 # SenseCncProxy.exe 
@@ -65,6 +66,7 @@ C:\Windows\SYSTEM32\WINHTTP.dll |
 * Product Version: 10.7430.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

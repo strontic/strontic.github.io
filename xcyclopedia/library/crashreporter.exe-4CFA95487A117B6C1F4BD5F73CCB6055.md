@@ -1,5 +1,6 @@
 ﻿---
 title: crashreporter.exe | 
+excerpt: What is crashreporter.exe?
 ---
 
 # crashreporter.exe 
@@ -97,6 +98,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 78.2.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

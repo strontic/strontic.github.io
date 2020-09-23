@@ -1,5 +1,6 @@
 ﻿---
 title: aitagent.exe | Application Impact Telemetry Agent
+excerpt: What is aitagent.exe?
 ---
 
 # aitagent.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:caFUeChEt4MQCUs15HjnXEqX2QQp5hhZ4GX1+4zt+sNl/E:caFUeGEt4xCUkjXEqX
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

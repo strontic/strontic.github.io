@@ -1,5 +1,6 @@
 ﻿---
 title: smoke.exe | ckEffects Application
+excerpt: What is smoke.exe?
 ---
 
 # smoke.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.0.0.0
 * Language: English
 * Legal Copyright: Copyright  2007 Christian Kindahl
+
 
 
 ## Possible Misuse

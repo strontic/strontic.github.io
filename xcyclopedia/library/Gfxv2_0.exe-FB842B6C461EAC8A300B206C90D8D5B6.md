@@ -1,5 +1,6 @@
 ﻿---
 title: Gfxv2_0.exe | Intel(R) Graphics Control Panel
+excerpt: What is Gfxv2_0.exe?
 ---
 
 # Gfxv2_0.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:fezv6/HqgdXTDSSZXIV3hOsPWVXDei3+NRcryEmZthSYNXORGMvt6fDVCDaT:feM
 * Product Version: 8.15.10.3682
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

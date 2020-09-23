@@ -1,5 +1,6 @@
 ﻿---
 title: powershell_ise.exe | Windows PowerShell ISE
+excerpt: What is powershell_ise.exe?
 ---
 
 # powershell_ise.exe 
@@ -21,6 +22,9 @@ SHA256 | `92A89AE883ED67889C50FA7AF84B1A94768C7A257DAA263211616D745D8DBDC3`
 SHA384 | `5D90625927DB70C74525971AC1AFC2EBAC2E2CF97D004397DFDCAB856758F5AB527627EDE455E2EABAD872EE08B3C842`
 SHA512 | `684EEC347F39D9135E856A827D6410C545CFB6E0F10A34E93785E975C958192C700B991A23A78817FBFDA14B4CD8FA2488D4F304B110CD3F46A22D1680E2B7C5`
 SSDEEP | `3072:o9kVjGPsw40xLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLdx:0kauZToIuUXmmZbgDooMb`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `BF6BDEDA271A79E842CFF22C14536992BBBC28F9`
+PE256 | `45C77CCBCE87AD3A7B87755E83E8947C7FF08701C239076BCC0336198EB790C8`
 
 ## Runtime Data
 
@@ -31,18 +35,25 @@ Windows PowerShell ISE
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.PowerShell.ISECommon\v4.0_3.0.0.0__31bf3856ad364e35\Microsoft.PowerShell.ISECommon.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0.0.0__31bf3856ad364e35\System.Management.Automation.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RWD)   C:\Windows\SysWOW64 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_8808 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_5796 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -73,6 +84,12 @@ C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/92a89ae883ed67889c50fa7af84b1a94768c7a257daa263211616d745d8dbdc3/detection/
 
 ## File Similarity (ssdeep match)
 

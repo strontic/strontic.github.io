@@ -1,5 +1,6 @@
 ﻿---
 title: gdb.exe | 
+excerpt: What is gdb.exe?
 ---
 
 # gdb.exe 
@@ -129,6 +130,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

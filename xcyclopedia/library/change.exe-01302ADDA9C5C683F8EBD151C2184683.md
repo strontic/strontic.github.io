@@ -1,5 +1,6 @@
 ﻿---
 title: change.exe | Remote Desktop Services Change Utility
+excerpt: What is change.exe?
 ---
 
 # change.exe 
@@ -50,6 +51,7 @@ CHANGE { LOGON | PORT | USER }
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

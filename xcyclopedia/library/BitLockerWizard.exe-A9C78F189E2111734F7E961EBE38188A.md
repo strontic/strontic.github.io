@@ -1,5 +1,6 @@
 ﻿---
 title: BitLockerWizard.exe | BitLocker Drive Encryption Wizard
+excerpt: What is BitLockerWizard.exe?
 ---
 
 # BitLockerWizard.exe 
@@ -17,6 +18,9 @@ SHA256 | `13302146579B36397D4B5E602F98B8474A65BDCC125E499FD0FF2EEFD811C44B`
 SHA384 | `9D54C7149FCC8E3FA00752419C78B6D1F5DF988907D5549DA2BEAB8B823DE19E2587F67F6DA999BE4D41BDDDA007CF81`
 SHA512 | `7389E29B83E6ECFD061C7668A1B4841D0359E40DF34460E8FAA2A616A6F3F46B2F1405630E32F6ABB311FF2C527966DAB13ADD386F6F685FE9FDE7C8C3864F90`
 SSDEEP | `3072:NZoyKwnVS570M9kdatGCO+xmBc+hMPhPsx:ceVs7nyatGt+SYF`
+IMP | `1438673C4B1B5696C777658AD76B5D13`
+PESHA1 | `D4F285E06AE87D808F75688D470822451E9B3C42`
+PE256 | `8B8002DC5034BED43A7814A1BEB3B7AED27BC2014D7B879C62F686825C308335`
 
 ## Runtime Data
 
@@ -60,8 +64,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,6 +78,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/13302146579b36397d4b5e602f98b8474a65bdcc125e499fd0ff2eefd811c44b/detection/
 
 ## File Similarity (ssdeep match)
 

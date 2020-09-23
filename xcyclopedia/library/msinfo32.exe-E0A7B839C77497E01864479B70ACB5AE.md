@@ -1,10 +1,11 @@
 ﻿---
 title: msinfo32.exe | System Information
+excerpt: What is msinfo32.exe?
 ---
 
 # msinfo32.exe 
 
-* File Path: `C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe`
+* File Path: `C:\Windows\SysWOW64\msinfo32.exe`
 * Description: System Information
 
 ## Screenshot
@@ -21,18 +22,45 @@ SHA256 | `7C9587BAD9050E03F13AB1F46E4F02F350CDD0A6EA893F70D52436E3849B2985`
 SHA384 | `0A1C265419CEF0C310DB72E768431A4D2C797B1874B072F5C9E44ACD31693FEA0069505AF7779A33F40AFAE1207193C0`
 SHA512 | `6D86476E1F1ADAF493063A4AB52128BCDA6CD0D3EFB4D1BD304D55CC9B3697FAC111D816C8BE3BB0FA872ECEB0356A4B1F415E50D88FFF4B4A187B6FF790DBC4`
 SSDEEP | `6144:8+Curxrt3aOo/8McrIHxKhph5hphcl1oMtSZEOHHrpm1XUZLxEZEOHHrpm1XUZLp:8HuVgD/LmIHxKhph5hphcl1LOtLpm1E0`
+IMP | `B82A7325B56EDAACBA365CDE179A07C8`
+PESHA1 | `0F79860591C9CB296F3781D49189669320F3D4DF`
+PE256 | `EA416041E0D1B4A0F167FCCAC677752C95F1B8869B0845D940D0E7973DFB058C`
 
 ## Runtime Data
+
+### Window Title:
+System Information
+
+### Open Handles:
+
+Path | Type
+-- | --
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\msinfo32.exe.mui | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
+
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
+C:\Windows\SysWOW64\msinfo32.exe |
 
 
 ## Signature
@@ -52,11 +80,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/7c9587bad9050e03f13ab1f46e4f02f350cdd0a6ea893f70d52436e3849b2985/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 100
 [C:\program files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 54
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 54
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 58
@@ -66,7 +101,6 @@ File | Score
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-2D3773A656D92C8E4367511AD4DCDD8C.md) | 49
 [C:\windows\SysWOW64\msinfo32.exe](msinfo32.exe-54E568D65C876CF31586CCE68F51DEEA.md) | 55
 [C:\WINDOWS\SysWOW64\msinfo32.exe](msinfo32.exe-626E3EE8F3DDDA3F44E9E945C54F030D.md) | 65
-[C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 100
 [C:\Windows\SysWOW64\msinfo32.exe](msinfo32.exe-F589A0D3F0DA328F90A2A9556EF513B5.md) | 55
 
 

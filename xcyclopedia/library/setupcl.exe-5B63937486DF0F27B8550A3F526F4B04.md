@@ -1,5 +1,6 @@
 ﻿---
 title: setupcl.exe | System Clone Tool
+excerpt: What is setupcl.exe?
 ---
 
 # setupcl.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:cRwbBYR6ZnwBeKc+kslNZgsTlmg/v/QZ/TLTdaZ2XKC3AuQp/:c2BYRSwB93DaMQZ
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

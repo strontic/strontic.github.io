@@ -1,5 +1,6 @@
 ﻿---
 title: vmwp.exe | Virtual Machine Worker Process
+excerpt: What is vmwp.exe?
 ---
 
 # vmwp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:M2Ix0Z7B2WpQVslpP9+Wy/S29PaFyp6RFFBzOmFaZc4S9jW6Kac+lJZkHDVn3n1Q
 * Product Version: 10.0.18362.476
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: AppVClient.exe | Microsoft Application Virtualization Client Service
+excerpt: What is AppVClient.exe?
 ---
 
 # AppVClient.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:ruXOXTsbhYPll5gFampro20OcGNUbT2QTX2rXrj7MXky:6eXMhQOampr6gcX2rXr
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

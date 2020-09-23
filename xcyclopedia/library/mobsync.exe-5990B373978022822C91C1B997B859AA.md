@@ -1,5 +1,6 @@
 ﻿---
 title: mobsync.exe | Microsoft Sync Center
+excerpt: What is mobsync.exe?
 ---
 
 # mobsync.exe 
@@ -17,6 +18,9 @@ SHA256 | `6E83030A6A3E447ACB1D38CC07035C1FD5BD2C9E136A57CE99F3AC1BE45A7D3D`
 SHA384 | `6F1DCFAED0C588571D74D420B33902F4230109E8F703D03229C5EFAD6D06106FC398DF0CA5EE9C489908679DE8E989E6`
 SHA512 | `0FF669AA63D510A57EE834D0C9FBA99FAF2609A02765A8CF29BEFD29004AC7095FFB2A7B190E7723347941DEE12BE546ED55EC7558CA0C1C10F182B0B070A568`
 SSDEEP | `1536:Egi6A/6n66FHGYzkZup0ZBN2GPoCGVjGWmt8CXZ+63x+w4JD+0NL+fK:ni6Bn66NYj2GPo9St8WHxSD+09+S`
+IMP | `F247D587E13B170D2246BD033539DBFB`
+PESHA1 | `1CB8FE914AEFB0FD1807D331C48E530E3D785773`
+PE256 | `717ACAC9C17DD66D4D375C5F3F3516B9F943E960CEF9711262F16C60025D4CDD`
 
 ## Runtime Data
 
@@ -41,8 +45,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -55,6 +59,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/6e83030a6a3e447acb1d38cc07035c1fd5bd2c9e136a57ce99f3ac1be45a7d3d/detection/
 
 ## File Similarity (ssdeep match)
 

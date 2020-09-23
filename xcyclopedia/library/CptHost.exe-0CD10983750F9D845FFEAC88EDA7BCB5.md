@@ -1,5 +1,6 @@
 ﻿---
 title: CptHost.exe | Zoom Sharing Host
+excerpt: What is CptHost.exe?
 ---
 
 # CptHost.exe 
@@ -37,6 +38,7 @@ SSDEEP | `6144:bqjEQ8ttrv4eQv5sqYOnfpgzq3jQMhwysAdOTgkVp2x3goJq5ahRLj40Gll3XAjl:
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationSettings.exe | Microsoft Mobile PC Presentation Adaptability Client
+excerpt: What is PresentationSettings.exe?
 ---
 
 # PresentationSettings.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:duAnRId7ybTaaGkPzffts2xmhfGKraEH:d/nRId7ybTa8K2Gfn`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

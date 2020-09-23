@@ -1,5 +1,6 @@
 ﻿---
 title: chkntfs.exe | NTFS Volume Maintenance Utility
+excerpt: What is chkntfs.exe?
 ---
 
 # chkntfs.exe 
@@ -65,6 +66,7 @@ dirty or scheduled to be checked on next reboot.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

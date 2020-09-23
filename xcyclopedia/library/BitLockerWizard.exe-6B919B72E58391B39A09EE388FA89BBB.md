@@ -1,5 +1,6 @@
 ﻿---
 title: BitLockerWizard.exe | BitLocker Drive Encryption Wizard
+excerpt: What is BitLockerWizard.exe?
 ---
 
 # BitLockerWizard.exe 
@@ -58,6 +59,7 @@ Bitlocker Wizard Launcher
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

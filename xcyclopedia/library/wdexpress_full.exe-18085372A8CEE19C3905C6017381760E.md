@@ -1,5 +1,6 @@
 ﻿---
 title: wdexpress_full.exe | Microsoft Visual Studio Express 2015 for Windows Desktop - ENU
+excerpt: What is wdexpress_full.exe?
 ---
 
 # wdexpress_full.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:KFNxi7/ums6UA7xhdvRnGWMpL4susHB2CzSC+GZ/q2QplreA8Dt:KFjuldvRGPb7
 * Product Version: 14.0.23107.156
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

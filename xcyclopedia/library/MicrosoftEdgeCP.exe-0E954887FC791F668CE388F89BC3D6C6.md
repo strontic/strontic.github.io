@@ -1,5 +1,6 @@
 ﻿---
 title: MicrosoftEdgeCP.exe | Microsoft Edge Content Process
+excerpt: What is MicrosoftEdgeCP.exe?
 ---
 
 # MicrosoftEdgeCP.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:nnadCUC/KixG5bPc33lj8yC2aj+7KxxL2/m4nVrs6FhnP8Ru:nndL85gFjt1a6W2/
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

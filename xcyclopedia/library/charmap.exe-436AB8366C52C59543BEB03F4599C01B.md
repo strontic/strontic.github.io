@@ -1,5 +1,6 @@
 ﻿---
 title: charmap.exe | Character Map
+excerpt: What is charmap.exe?
 ---
 
 # charmap.exe 
@@ -21,6 +22,9 @@ SHA256 | `9D1955F3A5A98C6BF6886280D3B6736163B6F05DC06A10CB89A152C5B8D43BFC`
 SHA384 | `32944CB014EB5DAFD7D1CEEB50905E1B5CDF64D09A43ACFBDD73FB428F30724EE2BE7367366ABF5E7384DD26146FF2D8`
 SHA512 | `5A7F6C4DFF95564E64E64985F54619A89DAA6BA26A20D998FCF25BAFAF9FF206F0FB1319B1242F6A64B63BCBE5CEC59A0E1402B5F758CD1F27279E07DEC28B12`
 SSDEEP | `3072:ukP4rthUtI0OUpwFzz4G3PVClnDjlbrLF5NUdrSO9K/tagbdDu5nBf9f:ptI0pUz4G9Cl31bgqt5gZ`
+IMP | `AA067A9709CF4CC14566F71EE6196E09`
+PESHA1 | `B9C0DC1D23B2DA53C698AEEE70CD5C5EEC1D49EA`
+PE256 | `86FAFA9D22551500DD1707DAE6105152951C0ED82BCC9BE940B7012D9DB14095`
 
 ## Runtime Data
 
@@ -43,20 +47,15 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\getuname.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\charmap.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\1a50HWNDInterface:a40fae | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\BaseNamedObjects\e8cHWNDInterface:840862 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -87,6 +86,12 @@ C:\Windows\SysWOW64\charmap.exe |
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/9d1955f3a5a98c6bf6886280d3b6736163b6f05dc06a10cb89a152c5b8d43bfc/detection/
 
 ## File Similarity (ssdeep match)
 

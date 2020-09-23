@@ -1,5 +1,6 @@
 ﻿---
 title: steam_monitor.exe | steam_monitor.exe
+excerpt: What is steam_monitor.exe?
 ---
 
 # steam_monitor.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:98ijKFdL2jNasR3YmBFER0u+GIIIIIIIhIIIIIIIIIIIIIIIUiMY:qiu2xasRom5i
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2016 Valve Corporation
+
 
 ## File Similarity (ssdeep match)
 

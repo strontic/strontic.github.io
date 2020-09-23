@@ -1,5 +1,6 @@
 ﻿---
 title: NgcIso.exe | Windows Hello Security Process
+excerpt: What is NgcIso.exe?
 ---
 
 # NgcIso.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:YmBnPUUeGP5yt2hNuOjoN5OyXHtnddAXlByQEM+Y4bqZIxEuFg:bBPdFOOsNjHWfv
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

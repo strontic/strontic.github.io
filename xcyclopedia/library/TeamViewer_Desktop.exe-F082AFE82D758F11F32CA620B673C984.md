@@ -1,5 +1,6 @@
 ﻿---
 title: TeamViewer_Desktop.exe | TeamViewer
+excerpt: What is TeamViewer_Desktop.exe?
 ---
 
 # TeamViewer_Desktop.exe 
@@ -68,6 +69,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 15.9.4.0
 * Language: English (United Kingdom)
 * Legal Copyright: TeamViewer Germany GmbH
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: RevoUnin.exe | Revo Uninstaller
+excerpt: What is RevoUnin.exe?
 ---
 
 # RevoUnin.exe 
@@ -96,6 +97,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 2.1.7.0
 * Language: Language Neutral
 * Legal Copyright: (c) VS Revo Group Ltd.  All rights reserved.
+
 
 
 

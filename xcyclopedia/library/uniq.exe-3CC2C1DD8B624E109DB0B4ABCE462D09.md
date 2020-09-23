@@ -1,5 +1,6 @@
 ﻿---
 title: uniq.exe | 
+excerpt: What is uniq.exe?
 ---
 
 # uniq.exe 
@@ -92,6 +93,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: change.exe | Remote Desktop Services Change Utility
+excerpt: What is change.exe?
 ---
 
 # change.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:kL+3WInZQU1MJvPdeA7MIbKRCik9C8X9iTZjtmLsYBMJ9B9QkJkIEWALWBm:kAWIni
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

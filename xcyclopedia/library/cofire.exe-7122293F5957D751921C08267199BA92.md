@@ -1,5 +1,6 @@
 ﻿---
 title: cofire.exe | Corrupted File Recovery Client
+excerpt: What is cofire.exe?
 ---
 
 # cofire.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:1XJWJBS7ApUMDv2yTNf/NL/7R4d3xP8PDymu5fltWLJW:94XS7SDBTNFjDymSflW`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

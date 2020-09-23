@@ -1,5 +1,6 @@
 ﻿---
 title: wlrmdr.exe | Windows logon reminder
+excerpt: What is wlrmdr.exe?
 ---
 
 # wlrmdr.exe 
@@ -17,6 +18,9 @@ SHA256 | `876E04F2C6F953C80EDF173DFB2EB950257AABE5603ABC2EA43EAC0229A553A3`
 SHA384 | `12E1E812951521411E63B00A0E4CD2247E4A3FC3097FB8C5A9BF050C2BEAC0E61549302BDE28A9713BD3ADC11ABD97F9`
 SHA512 | `38F55778FDC19397FAB21D4879C8B810586B64508BE64BA4189866AA8B3C663E54824562132862AA88274C89C706B1D27FE57B726830E26C55AC590BD691B18B`
 SSDEEP | `1536:s4/jyj91lFbMs/ukWlxZyE8svqr9PxDtykPmvX:7jyj9WoWlxgGu9ZDtyk+vX`
+IMP | `0C029EF03BE0DFE4324558843609A28E`
+PESHA1 | `1E053F812333C35A5BC350198438F15257689F1D`
+PE256 | `97B81982E5C01B4B94464D482826990A11EC86759DEC0483AF892F6AD5AFF762`
 
 ## Runtime Data
 
@@ -24,20 +28,12 @@ SSDEEP | `1536:s4/jyj91lFbMs/ukWlxZyE8svqr9PxDtykPmvX:7jyj9WoWlxgGu9ZDtyk+vX`
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\system32\SspiCli.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\system32\wlrmdr.exe |
@@ -46,8 +42,8 @@ C:\Windows\system32\wlrmdr.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -60,6 +56,12 @@ C:\Windows\system32\wlrmdr.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/65
+* VirusTotal Link: https://www.virustotal.com/gui/file/876e04f2c6f953c80edf173dfb2eb950257aabe5603abc2ea43eac0229a553a3/detection/
 
 ## File Similarity (ssdeep match)
 

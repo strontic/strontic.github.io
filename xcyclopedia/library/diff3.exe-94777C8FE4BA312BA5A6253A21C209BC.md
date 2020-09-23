@@ -1,5 +1,6 @@
 ﻿---
 title: diff3.exe | 
+excerpt: What is diff3.exe?
 ---
 
 # diff3.exe 
@@ -91,6 +92,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

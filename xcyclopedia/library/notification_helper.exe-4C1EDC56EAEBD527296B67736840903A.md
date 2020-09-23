@@ -1,5 +1,6 @@
 ﻿---
 title: notification_helper.exe | Google Chrome
+excerpt: What is notification_helper.exe?
 ---
 
 # notification_helper.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:nT9P0rdhn37FA9bdpFe00sInBwzONqnuC6Jr4sDCSvCevGKNeR5+n8oyxpH5:nTi
 * Product Version: 84.0.4147.125
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: getopt.exe | 
+excerpt: What is getopt.exe?
 ---
 
 # getopt.exe 
@@ -64,6 +65,7 @@ For more details see getopt(1).
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

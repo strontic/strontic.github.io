@@ -1,5 +1,6 @@
 ﻿---
 title: Adobe AIR Updater.exe | Adobe AIR Installer
+excerpt: What is Adobe AIR Updater.exe?
 ---
 
 # Adobe AIR Updater.exe 
@@ -54,6 +55,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 32.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2007-2019, Adobe
+
 
 
 

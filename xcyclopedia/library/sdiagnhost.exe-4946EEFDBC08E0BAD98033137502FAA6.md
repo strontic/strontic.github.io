@@ -1,5 +1,6 @@
 ﻿---
 title: sdiagnhost.exe | Scripted Diagnostics Native Host
+excerpt: What is sdiagnhost.exe?
 ---
 
 # sdiagnhost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:rHGcMXgvaDJmvx/E1UAUC1CnfnwzqduYRbCqrXmKWneEToQPiutWj7DW:oVQOe6Cnv
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

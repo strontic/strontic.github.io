@@ -1,5 +1,6 @@
 ﻿---
 title: TSTheme.exe | TSTheme Server Module
+excerpt: What is TSTheme.exe?
 ---
 
 # TSTheme.exe 
@@ -17,6 +18,9 @@ SHA256 | `0A827CB624FB1DD5743DD5706A60FFED477988D4E939C6876BBCE398F2574065`
 SHA384 | `2EDEA61F7141C2F107FAB28F0752719FA91F71FC3544FEA227F547A661BB8868D3F6B15A0B570E7C189A607152509CD9`
 SHA512 | `5CFDDB139F254607D81F0E9ADDD0AB7D5FEC46FE8FACFC8F69BF789DA5DF7C0809A808144EC0A32CC841240F3C74DFC541C9BF9A24A33C57B3E4D2C9A88B2D9A`
 SSDEEP | `1536:Y+7fA8LgWp8jweDL+l0YW2iwpjyrH/jak:Y+DAmgWEDL+zrim+L/2k`
+IMP | `C059327BB81F9769B552D03F94C4F1A1`
+PESHA1 | `86126C61838F7F598E55482173F646ADCEECDCDC`
+PE256 | `879F25E8E0304DC678BE79520EEF9FD22464DCD01C99758C896A9C11D9AFBD0B`
 
 ## Runtime Data
 
@@ -25,16 +29,11 @@ SSDEEP | `1536:Y+7fA8LgWp8jweDL+l0YW2iwpjyrH/jak:Y+DAmgWEDL+zrim+L/2k`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\TSTheme.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -65,6 +64,12 @@ C:\Windows\SysWOW64\TSTheme.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/0a827cb624fb1dd5743dd5706a60ffed477988d4e939c6876bbce398f2574065/detection/
 
 
 ## Possible Misuse

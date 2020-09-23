@@ -1,5 +1,6 @@
 ﻿---
 title: ntfrs.exe | File Replication Service
+excerpt: What is ntfrs.exe?
 ---
 
 # ntfrs.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\ntfrs.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

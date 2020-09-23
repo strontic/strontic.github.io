@@ -1,5 +1,6 @@
 ﻿---
 title: FoxitReader.exe | Foxit Reader 10.0
+excerpt: What is FoxitReader.exe?
 ---
 
 # FoxitReader.exe 
@@ -76,6 +77,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.1.35811
 * Language: Language Neutral
 * Legal Copyright: Copyright  2004-2020 Foxit Software Inc. All Rights Reserved. 
+
 
 
 

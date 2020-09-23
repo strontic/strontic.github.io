@@ -1,5 +1,6 @@
 ﻿---
 title: RunLegacyCPLElevated.exe | Run a legacy CPL elevated
+excerpt: What is RunLegacyCPLElevated.exe?
 ---
 
 # RunLegacyCPLElevated.exe 
@@ -17,6 +18,9 @@ SHA256 | `E3F8C10EE5FE36CBFEED2AF0EDA485059459C5696ED0B54EA24BA6B7697F4589`
 SHA384 | `DF1D190A7187414620B03C625D202AA05EFD42DB7D9D440E2441056C64FA239AC2A6FC73E8E9E1F711B4A51F61DDB0CE`
 SHA512 | `DC038841F12402B0449F430F92BC5E0BE782DAB1A8B27AA197F6C6BEA0406A72FE1321225A2C60DC6194E8F2A9DDDBF65AB2CC1D8DD96708BDC5DA0FD2F6DB6F`
 SSDEEP | `768:TdyMiHpWdUDSzLPNCspV1Ry8oxGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptXB:5ynJAz1y8oxxakkn6oYY0ewiP8s`
+IMP | `932B565960425EE7FA367E4081AFA26B`
+PESHA1 | `42FCBC79C76D87D77FE147E29A7E6E8383F5F60B`
+PE256 | `DCFC940EEBCD88A903C6F75C0767744FCB0984088AC656F5A0A4D5B0A1FB0AB5`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\RunLegacyCPLElevated.exe |
 
@@ -33,8 +38,8 @@ C:\Windows\SysWOW64\RunLegacyCPLElevated.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\RunLegacyCPLElevated.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e3f8c10ee5fe36cbfeed2af0eda485059459c5696ed0b54ea24ba6b7697f4589/detection/
 
 ## File Similarity (ssdeep match)
 

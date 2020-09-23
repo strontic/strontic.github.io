@@ -1,5 +1,6 @@
 ﻿---
 title: ndadmin.exe | Device driver software installation
+excerpt: What is ndadmin.exe?
 ---
 
 # ndadmin.exe 
@@ -17,6 +18,9 @@ SHA256 | `E31A51CDC7CFD3924C2C259B78A5D5165E1EB708F20BE9806B5D400F76470EE9`
 SHA384 | `66D718EF43C3A3197CC28D71FE1C917B8CF9CF2DFAF526F3052607D681519262B461C576BFABF3FB340565DC2882DBEA`
 SHA512 | `943B5AF342467B2657010A8D34FFF57BA3AEE8F5FCC927A1F9250AB8D44D311AEDEF9DF39F05C2A6661F2634B160A018547BB136612352A05C18E2E528ED5FD9`
 SSDEEP | `768:EEnF9lObTuBYzMbjrjQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:d9lObT+YAPrjfFrGUUUUUUUUUUUU3+`
+IMP | `3AED82C66B004C977279044836A79845`
+PESHA1 | `0B72792C053CB0502B594C1A247F4B17A9BBBB63`
+PE256 | `BD187803B958BC22957CA730B4F735134CE6AFC89B17133B88F0C1676EB82180`
 
 ## Runtime Data
 
@@ -26,9 +30,12 @@ Path |
 -- |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\ndadmin.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -48,6 +55,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/e31a51cdc7cfd3924c2c259b78a5d5165e1eb708f20be9806b5d400f76470ee9/detection/
 
 ## File Similarity (ssdeep match)
 

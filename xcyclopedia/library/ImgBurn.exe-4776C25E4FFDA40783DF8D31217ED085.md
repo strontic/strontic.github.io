@@ -1,5 +1,6 @@
 ﻿---
 title: ImgBurn.exe | ImgBurn - The Ultimate Image Burner!
+excerpt: What is ImgBurn.exe?
 ---
 
 # ImgBurn.exe 
@@ -86,6 +87,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.5.8.0
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright 2005 - 2013
+
 
 
 

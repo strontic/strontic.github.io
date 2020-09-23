@@ -1,5 +1,6 @@
 ﻿---
 title: CheckNetIsolation.exe | AppContainer Network Isolation Diagnostic Tool
+excerpt: What is CheckNetIsolation.exe?
 ---
 
 # CheckNetIsolation.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:CdhaaOumnYFnC4CKRXK7K+a19kFzGaXdaKzLCMemRlJ6TVlRWY7pOWNkFpwhceIW:C
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: false.exe | 
+excerpt: What is false.exe?
 ---
 
 # false.exe 
@@ -57,6 +58,7 @@ or available locally via: info '(coreutils) false invocation'
 * Language: 
 * Legal Copyright: 
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -69,7 +71,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar) | 		description = "Detects tool from EQGRP toolset - file false.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar) | description = "Detects tool from EQGRP toolset - file false.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

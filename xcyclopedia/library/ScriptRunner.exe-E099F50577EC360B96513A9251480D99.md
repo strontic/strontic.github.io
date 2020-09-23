@@ -1,5 +1,6 @@
 ﻿---
 title: ScriptRunner.exe |  
+excerpt: What is ScriptRunner.exe?
 ---
 
 # ScriptRunner.exe 
@@ -54,6 +55,7 @@ Error: Invalid argument specified
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -61,6 +63,7 @@ File | Score
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-71B9062F02950BAA4441E2FB79677E99.md) | 46
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 46
 [C:\WINDOWS\system32\ScriptRunner.exe](ScriptRunner.exe-C024FF9A88E26EEB26A1A942260489BC.md) | 47
+[C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 43
 
 ## Possible Misuse
 

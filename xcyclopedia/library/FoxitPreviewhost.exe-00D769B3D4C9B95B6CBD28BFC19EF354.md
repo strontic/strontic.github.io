@@ -1,5 +1,6 @@
 ﻿---
 title: FoxitPreviewhost.exe | Foxit PDF Preview Handler Host
+excerpt: What is FoxitPreviewhost.exe?
 ---
 
 # FoxitPreviewhost.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.0.6.411
 * Language: Language Neutral
 * Legal Copyright: Copyright  2005-2020 Foxit Software Inc. All Rights Reserved.
+
 
 
 

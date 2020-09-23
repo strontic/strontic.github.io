@@ -1,5 +1,6 @@
 ﻿---
 title: resmon.exe | Resource Monitor
+excerpt: What is resmon.exe?
 ---
 
 # resmon.exe 
@@ -17,33 +18,14 @@ SHA256 | `F3707C1D638F5487D1EF0A72173356023307DC6734DC738944C75F127FBCFD54`
 SHA384 | `AC6BD6FDB6469C78E75B9975C54B238D570C91C9982713AD350386B08226367E7AF0913056112B5A240587D4A84EA36A`
 SHA512 | `30E967CB19BE23D8595BFD0C86E3DCA888C118DA5957C8B7FE6C4DA693C69FBA1ACD5C63D296C974A55C3C76059799CFE2910737C8FBE1E8EC62D0E429A39EAE`
 SSDEEP | `1536:L/YKBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:LgKghtYIo9piswTogiqQKy349`
+IMP | `86521711CB1F214E18EA188295368818`
+PESHA1 | `4EF285A05A9C310BAA34DC3EAC3EBCE2FC268F58`
+PE256 | `6FF84E0FC3C416CE5ECDBE50B53EE084528B169A5C1BD4F63825C5AF7378A220`
 
 ## Runtime Data
 
 ### Child Processes:
 perfmon.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
-(R-D)   C:\Windows\System32\en-US\windows.storage.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -51,6 +33,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\resmon.exe |
 
@@ -72,6 +55,12 @@ C:\Windows\SysWOW64\resmon.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/f3707c1d638f5487d1ef0a72173356023307dc6734dc738944c75f127fbcfd54/detection/
 
 ## File Similarity (ssdeep match)
 

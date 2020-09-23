@@ -1,5 +1,6 @@
 ﻿---
 title: fveprompt.exe | BitLocker Drive Encryption
+excerpt: What is fveprompt.exe?
 ---
 
 # fveprompt.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:1DW4TLqIv9m7KH7vkvL9R0wnVS570M9kdatGCO+xmBc+hMPhPsx:xWcW89m7K74L9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

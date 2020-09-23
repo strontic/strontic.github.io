@@ -1,5 +1,6 @@
 ﻿---
 title: igfxTray.exe | 
+excerpt: What is igfxTray.exe?
 ---
 
 # igfxTray.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:bOKrfap2ojjnjTmT66cRt6UfBKqmfUQODvtMJfDVChJWRU:HojjnuGfBK3ZMvt6fD
 * Language: 
 * Legal Copyright: 
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -58,7 +60,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [malware-ioc](https://github.com/eset/malware-ioc) | [oceanlotus](https://github.com/eset/malware-ioc/blob/master/oceanlotus/README.adoc) | `* `HKCU\SOFTWARE\Intel\Display\igfxcui\igfxtray\;[NUMBER];[DWORD]`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_four_element_sword.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_four_element_sword.yar) | 		$s4 = "igfxtray.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_four_element_sword.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_four_element_sword.yar) | $s4 = "igfxtray.exe" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

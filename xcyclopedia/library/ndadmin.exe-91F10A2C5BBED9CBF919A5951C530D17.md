@@ -1,5 +1,6 @@
 ﻿---
 title: ndadmin.exe | Device driver software installation
+excerpt: What is ndadmin.exe?
 ---
 
 # ndadmin.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:LcCh3x8dsCNbjQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:Lzhh8dfbjfFrGUUUUUU
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

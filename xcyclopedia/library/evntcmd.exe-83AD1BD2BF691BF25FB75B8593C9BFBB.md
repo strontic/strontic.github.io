@@ -1,5 +1,6 @@
 ﻿---
 title: evntcmd.exe | Event Translator Configuration Tool
+excerpt: What is evntcmd.exe?
 ---
 
 # evntcmd.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:XdzXejBImR1Yd0JOsD8tqZDbRNtKYpjV40zjleCiDL0Cajh1sF/No3eqSbWYZrW:tc
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

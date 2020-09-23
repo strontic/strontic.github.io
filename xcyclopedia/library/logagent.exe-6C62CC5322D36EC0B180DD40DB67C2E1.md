@@ -1,5 +1,6 @@
 ﻿---
 title: logagent.exe | Windows Media Player Logagent
+excerpt: What is logagent.exe?
 ---
 
 # logagent.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:YSA8y59/iay73JyUzq3s/JJPjE2Ce87O1XqSQVfYWlC17ygPG8Tm0Okz89TWr1F:r
 * Product Version: 12.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

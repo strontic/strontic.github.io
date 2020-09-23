@@ -1,5 +1,6 @@
 ﻿---
 title: ls.exe | 
+excerpt: What is ls.exe?
 ---
 
 # ls.exe 
@@ -180,6 +181,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: qprocess.exe | Query Process Utility
+excerpt: What is qprocess.exe?
 ---
 
 # qprocess.exe 
@@ -17,6 +18,9 @@ SHA256 | `F71965F45A393E95B8C10B6D8947903BD0F035FC8CA3982D0F1A7D42B23FA315`
 SHA384 | `F82B7FB20FD43C00AA287C59DBC998B1D2F2D053A68453582B33A15492555205A7AAAD14D25823CDDA0F0517ECF787F2`
 SHA512 | `C28347F4C719317B847C333C393B316DDFBD290FB56F7B286269E3850C05BF717F12E81FEB95D2F07D5A18F22DE0C9FE9D0329322726117B6342E2D62E46992D`
 SSDEEP | `768:z0wxzFYy7HF93OARwQs3Zzg2yHMpZ8iLLBVu3:z0wFjPxOZdgnsLL23`
+IMP | `2C6064FDDA8E2B58540E4729A999BB69`
+PESHA1 | `CC735AB6CC79E2D4DB8762B08D84100C54C681FC`
+PE256 | `9B27E73546CD423EEB33922B53C6545B71A349C670A48C04E37AE13295D7AB48`
 
 ## Runtime Data
 
@@ -82,6 +86,12 @@ C:\Windows\system32\qprocess.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f71965f45a393e95b8c10b6d8947903bd0f035fc8ca3982d0f1a7d42b23fa315/detection/
 
 
 ## Possible Misuse
@@ -91,7 +101,7 @@ C:\Windows\system32\qprocess.exe |
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_commands_recon_activity.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_commands_recon_activity.yml) | `- qprocess` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_suspicious_strings.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_suspicious_strings.yar) |       $ = "qprocess" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_suspicious_strings.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_suspicious_strings.yar) | $ = "qprocess" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

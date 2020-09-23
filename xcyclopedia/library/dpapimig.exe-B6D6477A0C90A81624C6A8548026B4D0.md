@@ -1,5 +1,6 @@
 ﻿---
 title: dpapimig.exe | DPAPI Key Migration Wizard
+excerpt: What is dpapimig.exe?
 ---
 
 # dpapimig.exe 
@@ -17,6 +18,9 @@ SHA256 | `A8147D08B82609C72D588A0A604CD3C1F2076BEFCC719D282C7CBD6525AE89EB`
 SHA384 | `3F22EFDBE5A6311BA4D359DE0A7B757BC101E686CABCF870CB2B3CDB06DECCABB4920F2B063244BC9E5100D28552D8E1`
 SHA512 | `72EC8B79E3438F0F981129A323AD39DB84DF7DD14A796A820BDBC74EA8FA13EEE843D1EA030A0C1CAEDA2E2D69952F14A821A73825B38DD9415047ACA597B1FE`
 SSDEEP | `1536:5Thpc5GR/Zhp00l3uU1HIED1fCbWpygzU:VhaKh+SJj16bE`
+IMP | `5BACEA135D7122680523ECF81DEF2D51`
+PESHA1 | `75FCCC39073029797B96CE61994E31EF9194E814`
+PE256 | `FF196069C71C5C0E8775405433F65416DFB7EBFD81FAF4004EAE4D6AB33DB861`
 
 ## Runtime Data
 
@@ -25,34 +29,23 @@ SSDEEP | `1536:5Thpc5GR/Zhp00l3uU1HIED1fCbWpygzU:VhaKh+SJj16bE`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
 C:\Windows\system32\dpapimig.exe |
-C:\Windows\system32\DUI70.dll |
 C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\system32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\samcli.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -65,6 +58,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/a8147d08b82609c72d588a0a604cd3c1f2076befcc719d282c7cbd6525ae89eb/detection/
 
 ## File Similarity (ssdeep match)
 

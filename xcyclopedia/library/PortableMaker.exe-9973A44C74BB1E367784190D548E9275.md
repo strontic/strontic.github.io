@@ -1,5 +1,6 @@
 ﻿---
 title: PortableMaker.exe | Glary Utilities Portable Maker
+excerpt: What is PortableMaker.exe?
 ---
 
 # PortableMaker.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:xoDstICpwxRoUy0OpOeeV7YNnRLFCSWKHuQY9OBXuGtvVW:xniC/Uy0Ok5a3HWOBn
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2014-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: CExecSvc.exe | Container Execution Agent
+excerpt: What is CExecSvc.exe?
 ---
 
 # CExecSvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:8CZW+F9YCBTq2rFr7vYrdJXqY2EjEB3HDi+ZblgE0PX0Az0F:8nqq2VYBlqYBjiH2
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

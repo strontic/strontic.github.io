@@ -1,5 +1,6 @@
 ﻿---
 title: lpksetup.exe | Language Pack Installer
+excerpt: What is lpksetup.exe?
 ---
 
 # lpksetup.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:VOdlvElaFLjWodE5Wqb67dSkeKqcI9S7ZMXVw40JlyfndmLh:VOdlvn/WzTb6wUI
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

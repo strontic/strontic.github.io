@@ -1,5 +1,6 @@
 ﻿---
 title: WMPDMC.exe | Cast to Device
+excerpt: What is WMPDMC.exe?
 ---
 
 # WMPDMC.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:CKHeL8QgnrwWljzzVsYjigWEtn1qqumCzQMb8FQ6NTwrlHVJZh/u:CK+ngnrPlju
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

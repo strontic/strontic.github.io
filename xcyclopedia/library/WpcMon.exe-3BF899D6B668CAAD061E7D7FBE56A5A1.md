@@ -1,5 +1,6 @@
 ﻿---
 title: WpcMon.exe | Family Safety Monitor
+excerpt: What is WpcMon.exe?
 ---
 
 # WpcMon.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:zoMJ78ekdneMUV+y9mBBEb7WRQaw6t3CqrhsiGWHjrfmvmZ:00kdDP0sBk7Zaw6t
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

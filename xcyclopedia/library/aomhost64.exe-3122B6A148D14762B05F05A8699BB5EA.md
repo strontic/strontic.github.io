@@ -1,5 +1,6 @@
 ﻿---
 title: aomhost64.exe | Zoom
+excerpt: What is aomhost64.exe?
 ---
 
 # aomhost64.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 5,2,44052,0816
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 
 

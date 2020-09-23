@@ -1,5 +1,6 @@
 ﻿---
 title: basename.exe | 
+excerpt: What is basename.exe?
 ---
 
 # basename.exe 
@@ -70,6 +71,7 @@ Try '/usr/bin/basename --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 ## Possible Misuse

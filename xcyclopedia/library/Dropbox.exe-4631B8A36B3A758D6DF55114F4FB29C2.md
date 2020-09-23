@@ -1,5 +1,6 @@
 ﻿---
 title: Dropbox.exe | Dropbox
+excerpt: What is Dropbox.exe?
 ---
 
 # Dropbox.exe 
@@ -109,6 +110,7 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Dropbox, Inc.
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `Dropbox.exe` being misused. While `Dropbox.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
@@ -121,12 +123,12 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [net_dns_high_subdomain_rate.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/net_dns_high_subdomain_rate.yml) | `- "dropbox.com"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [net_dns_large_domain_name.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/net_dns_large_domain_name.yml) | `- "dropbox.com"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-machete-event.json](https://github.com/eset/malware-ioc/blob/master/machete/misp-machete-event.json) | `"value": "https://www.dropbox.com/s/m38rq5hx5ydrg07/zingapur?dl=1",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_hiddencobra_bankshot.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hiddencobra_bankshot.yar) |       $a1 = "live.dropbox.com" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_indetectables_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_indetectables_rat.yar) | 		$x2 = "URLDownloadToFileA 0, \"https://dl.dropbox.com/u/105015858/nome.exe\", \"c:\\nome.exe\", 0, 0" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_indetectables_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_indetectables_rat.yar) | 		$s5 = "https://dl.dropbox.com/u/105015858" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_khrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_khrat.yar) |       $x1 = "http.open \"POST\", \"http://update.upload-dropbox[.]com/docs/tz/GetProcess.php\",False,\"\",\"\" " fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_nanocore_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_nanocore_rat.yar) |       $x1 = "C:\\Users\\Logintech\\Dropbox\\Projects\\New folder\\Latest\\Benchmark\\Benchmark\\obj\\Release\\Benchmark.pdb" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_mal_scripts.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_scripts.yar) |       $x2 = "script:https://www.dropbox.com" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_hiddencobra_bankshot.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hiddencobra_bankshot.yar) | $a1 = "live.dropbox.com" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_indetectables_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_indetectables_rat.yar) | $x2 = "URLDownloadToFileA 0, \"https://dl.dropbox.com/u/105015858/nome.exe\", \"c:\\nome.exe\", 0, 0" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_indetectables_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_indetectables_rat.yar) | $s5 = "https://dl.dropbox.com/u/105015858" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_khrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_khrat.yar) | $x1 = "http.open \"POST\", \"http://update.upload-dropbox[.]com/docs/tz/GetProcess.php\",False,\"\",\"\" " fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_nanocore_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_nanocore_rat.yar) | $x1 = "C:\\Users\\Logintech\\Dropbox\\Projects\\New folder\\Latest\\Benchmark\\Benchmark\\obj\\Release\\Benchmark.pdb" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_mal_scripts.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_scripts.yar) | $x2 = "script:https://www.dropbox.com" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

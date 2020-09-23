@@ -1,5 +1,6 @@
 ﻿---
 title: jconsole.exe | OpenJDK Platform binary
+excerpt: What is jconsole.exe?
 ---
 
 # jconsole.exe 
@@ -89,6 +90,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 
 

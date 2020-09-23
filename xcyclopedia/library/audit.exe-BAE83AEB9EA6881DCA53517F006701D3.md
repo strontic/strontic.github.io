@@ -1,5 +1,6 @@
 ﻿---
 title: audit.exe | Audit
+excerpt: What is audit.exe?
 ---
 
 # audit.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:O7BimltHuN9XJuqyAl31u+emb9pTlXPmIgOBuxx0tlLGKYSniukop:61NuNJJoAl3
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

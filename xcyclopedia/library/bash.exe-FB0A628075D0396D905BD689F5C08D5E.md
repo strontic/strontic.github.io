@@ -1,5 +1,6 @@
 ﻿---
 title: bash.exe | Microsoft Bash Launcher
+excerpt: What is bash.exe?
 ---
 
 # bash.exe 
@@ -45,6 +46,7 @@ https://aka.ms/wslstore
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

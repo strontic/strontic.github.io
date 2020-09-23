@@ -1,5 +1,6 @@
 ﻿---
 title: snmp.exe | SNMP Service
+excerpt: What is snmp.exe?
 ---
 
 # snmp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:29coLl85F1XPNiwywIlaNn2/uOX4prC7E/zM6CvuS3CNBduzWMY2DNHo5YLX7PmI:J
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

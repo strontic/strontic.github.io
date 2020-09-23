@@ -1,5 +1,6 @@
 ﻿---
 title: win32calc.exe | Windows Calculator
+excerpt: What is win32calc.exe?
 ---
 
 # win32calc.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:wKpPPLacOEIIC9dfbHnD4UYhJLx3HeGL7GOK1d:BpIr9FbHnD4HZxXod`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

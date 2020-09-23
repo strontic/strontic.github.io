@@ -1,5 +1,6 @@
 ﻿---
 title: prproc.exe | PlayReady Process EXE
+excerpt: What is prproc.exe?
 ---
 
 # prproc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:sIuAESo4BfUVV/Wm5DYgWvmXjDBRJY/Y1lxwMwxQ:TeSBUVTlXj1PpwxQ`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: Integrator.exe | Glary Utilities 5
+excerpt: What is Integrator.exe?
 ---
 
 # Integrator.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:+xEPkbOUmcBPkGVP1RjETfSwtTJ3WPZwnnvqr8:+xEPkbIGVzGSwtTJ3yGnvqo`
 * Product Version: 5, 0, 0, 0
 * Language: English
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

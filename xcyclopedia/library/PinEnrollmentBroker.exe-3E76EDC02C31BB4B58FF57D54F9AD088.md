@@ -1,5 +1,6 @@
 ﻿---
 title: PinEnrollmentBroker.exe | PinEnrollmentBroker
+excerpt: What is PinEnrollmentBroker.exe?
 ---
 
 # PinEnrollmentBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:E+ddVA6E18Rxkd6chgU16Wv3NVart3rkLbYj2YKmlAwvus9arRKgXUa0:BdVL0lgU
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

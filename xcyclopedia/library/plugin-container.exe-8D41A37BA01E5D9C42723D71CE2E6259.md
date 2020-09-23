@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-container.exe | Plugin Container for Firefox
+excerpt: What is plugin-container.exe?
 ---
 
 # plugin-container.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:XY+NNRKs37LsxoD84IaTnj6h1JSedjvPxbBmnebcLe8H5Da/:VMxsTnuMedjvPQ6q
 * Product Version: 79.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

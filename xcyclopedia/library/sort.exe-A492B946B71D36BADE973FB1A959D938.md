@@ -1,5 +1,6 @@
 ﻿---
 title: sort.exe | 
+excerpt: What is sort.exe?
 ---
 
 # sort.exe 
@@ -121,6 +122,7 @@ Try '/usr/bin/sort --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

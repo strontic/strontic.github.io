@@ -1,5 +1,6 @@
 ﻿---
 title: basenc.exe | 
+excerpt: What is basenc.exe?
 ---
 
 # basenc.exe 
@@ -80,6 +81,7 @@ Try '/usr/bin/basenc --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: PrintIsolationHost.exe | PrintIsolationHost
+excerpt: What is PrintIsolationHost.exe?
 ---
 
 # PrintIsolationHost.exe 
@@ -17,6 +18,9 @@ SHA256 | `EB0AC5D09D1CB7830FEB6FD002F07BF26DAB139546C48FA03AAA5383190DB1AD`
 SHA384 | `14E70426B14359F9F171273E528323F954D487BCFF8C8C130E365874A55D7CE9A83D5E24BD7DB81D4601D797C07BEC0D`
 SHA512 | `147F390584737EF4A389DCB84263712A22F3DB4B8D6DE1EF95088832D3ED56F919B1F88935FBBA7F9EE482048E56BAA8F4FB48858E6C0056A4EFBD97ECFCC8F1`
 SSDEEP | `1536:Dwr4rk/B5oU5Vt3A7HPd4n+lbeRZIbSQPT:M9p5N5HQbPRyZ2pPT`
+IMP | `C3D07A510071A15D061A6D4301509DBC`
+PESHA1 | `083AD3F9E34BE2449D2B1D9C9F23AF18F4498B23`
+PE256 | `7732F5C24FF68D2CA537B8AEBBEA626551035BF4DDC7D5ABE5526996F10E9889`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `1536:Dwr4rk/B5oU5Vt3A7HPd4n+lbeRZIbSQPT:M9p5N5HQbPRyZ2pPT`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -40,8 +39,6 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -50,14 +47,13 @@ C:\Windows\system32\PrintIsolationHost.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -70,6 +66,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/eb0ac5d09d1cb7830feb6fd002f07bf26dab139546c48fa03aaa5383190db1ad/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: cmdl32.exe | Microsoft Connection Manager Auto-Download
+excerpt: What is cmdl32.exe?
 ---
 
 # cmdl32.exe 
@@ -17,6 +18,9 @@ SHA256 | `28A7FF1AE045EB1FE7ED6A7DCD9B2212411C449A8AFE0E652071AF48BEAC610D`
 SHA384 | `624032478818B9044B32962532F599A79248708E0FD064ED5AC8085FFD5C327CED7D91EB3328D33DAF4DD3BA7E59C2A4`
 SHA512 | `B16CB5A2D44F01EEB70012A5B34540BC44839F2F610EB84A63A6ABCCCA7ADFEB26CB725213DEA5F68700BBF464615558E0796005450F1F1016D64DEFF316964D`
 SSDEEP | `1536:qHYI8+yFRfADp+o03NC4uKlyDQoD3swgz9szevkp8KdjQ352xiI:cYFvo+YGNJq8KdjQ3JI`
+IMP | `AD55713E249A605BD30190ACBD0F9776`
+PESHA1 | `526929185B0FEFE49BB168116732F67A967EF16A`
+PE256 | `85E3E5F69BCB0F1F4DA4349EE0F3533D46DEF7FA919984DAC3E5F8D59FFDD73A`
 
 ## Runtime Data
 
@@ -30,7 +34,6 @@ C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
@@ -56,6 +59,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 7.2.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/28a7ff1ae045eb1fe7ed6a7dcd9b2212411c449a8afe0e652071af48beac610d/detection/
 
 ## File Similarity (ssdeep match)
 

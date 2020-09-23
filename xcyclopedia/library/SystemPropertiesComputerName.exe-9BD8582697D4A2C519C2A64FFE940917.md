@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesComputerName.exe | Change Computer Settings
+excerpt: What is SystemPropertiesComputerName.exe?
 ---
 
 # SystemPropertiesComputerName.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:LAGUtREC/rMcgEPJV+G57ThjEC0kzJP+V5J9:pUzECTMpuDhjRVJGX`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

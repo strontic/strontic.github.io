@@ -1,5 +1,6 @@
 ﻿---
 title: hh.exe | Microsoft HTML Help Executable
+excerpt: What is hh.exe?
 ---
 
 # hh.exe 
@@ -21,43 +22,57 @@ SHA256 | `A83ADD413DF07EFB9A6609F1B2D677521B5060E2D01678B3CDBF6B805592EFD5`
 SHA384 | `59F9279BDB1516A3D95B9005E3B8443339E8AD1D66A5729A861D9EAFC08640EA1A0777348E1CDD82344DA91501CF4F2A`
 SHA512 | `272F4C2228E4F4FF1EEDB127E706C71760499030E1F2F43D73F9B308A0BABBD4A47F500BCFD90A92DA6D5F0E1C12E94181CF21907767E2377B89B110A6BB96F5`
 SSDEEP | `192:/RqP4aXNtLROydEt8GRyPLoAzDkBGJ1KDJD/QWc7NS:5aT1OOpGRyPURA1KDuWc7U`
+IMP | `F937A8A0DD0B39468FF87DDE8D9CDB45`
+PESHA1 | `20B9456F69FDFC3A44C4E385AD1B12E2902F5871`
+PE256 | `2E56C543A89D6873300985E769EEF3FA87F563F5240C74CD06CDC3A353DBE411`
 
 ## Runtime Data
 
 ### Window Title:
-HTML Help
+File Download
 
 ### Open Handles:
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\~DFA13B4554A1BD2456.TMP | File
+(R--)   C:\Users\user\AppData\Local\Temp\~DF47B34C20F66C87BF.TMP | File
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mshtml.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\SystemResources\ieframe.dll.mun | File
 (R-D)   C:\Windows\SysWOW64\en-US\hh.exe.mui | File
+(R-D)   C:\Windows\SysWOW64\en-US\urlmon.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\ieframe.dll | File
-(RW-)   C:\Users\user | File
+(R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user\Documents\help | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DFEA986DC2B4D5C96D.TMP | File
-(RWD)   C:\Windows | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DFE091C8EED9C0D352.TMP | File
+(RWD)   C:\Users\user\Documents | File
+(RWD)   C:\Windows\Fonts | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\1a34HWNDInterface:43053e | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\614HWNDInterface:5096c | Section
+\Sessions\1\BaseNamedObjects\614HWNDInterface:5097a | Section
+\Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -66,6 +81,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\hh.exe |
 
@@ -87,6 +103,12 @@ C:\Windows\SysWOW64\hh.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/a83add413df07efb9a6609f1b2d677521b5060e2d01678b3cdbf6b805592efd5/detection/
 
 ## File Similarity (ssdeep match)
 

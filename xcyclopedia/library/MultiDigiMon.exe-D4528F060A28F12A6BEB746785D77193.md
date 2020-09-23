@@ -1,5 +1,6 @@
 ﻿---
 title: MultiDigiMon.exe | Digitizer to Monitor Mapping Tool
+excerpt: What is MultiDigiMon.exe?
 ---
 
 # MultiDigiMon.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:LB8jP8jVgBJs1KstTLkbPQ9mKoH1Xzijfblu/qdfdh22C+BH7sFpCKcKP:dI2msFVk
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

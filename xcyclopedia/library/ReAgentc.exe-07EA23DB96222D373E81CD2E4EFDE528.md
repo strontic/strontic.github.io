@@ -1,5 +1,6 @@
 ﻿---
 title: ReAgentc.exe | Microsoft Windows Recovery Agent
+excerpt: What is ReAgentc.exe?
 ---
 
 # ReAgentc.exe 
@@ -95,6 +96,7 @@ REAGENTC.EXE <command> /?.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

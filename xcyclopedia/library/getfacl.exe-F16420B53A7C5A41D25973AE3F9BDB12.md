@@ -1,5 +1,6 @@
 ﻿---
 title: getfacl.exe | 
+excerpt: What is getfacl.exe?
 ---
 
 # getfacl.exe 
@@ -90,6 +91,7 @@ getfacl: /h: No such file or directory
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

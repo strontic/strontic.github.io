@@ -1,5 +1,6 @@
 ﻿---
 title: tsdiscon.exe | Session Disconnection Utility
+excerpt: What is tsdiscon.exe?
 ---
 
 # tsdiscon.exe 
@@ -76,6 +77,7 @@ C:\Windows\SysWOW64\tsdiscon.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

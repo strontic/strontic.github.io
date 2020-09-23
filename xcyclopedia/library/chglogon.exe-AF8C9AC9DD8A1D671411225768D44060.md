@@ -1,5 +1,6 @@
 ﻿---
 title: chglogon.exe | Change Logon Utility
+excerpt: What is chglogon.exe?
 ---
 
 # chglogon.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:6l/skoa9sQEhEs9mp2j37kYHJE+55HKnmXwZIGgWlW+1ynkjv6e0oKPe5ISWkEW:G/
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

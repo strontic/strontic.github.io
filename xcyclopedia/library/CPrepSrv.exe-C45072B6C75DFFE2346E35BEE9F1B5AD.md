@@ -1,5 +1,6 @@
 ﻿---
 title: CPrepSrv.exe | Cluster Server Side Agent
+excerpt: What is CPrepSrv.exe?
 ---
 
 # CPrepSrv.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

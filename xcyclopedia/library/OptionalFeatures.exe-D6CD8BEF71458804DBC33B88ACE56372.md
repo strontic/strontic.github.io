@@ -1,5 +1,6 @@
 ﻿---
 title: OptionalFeatures.exe | Windows Features
+excerpt: What is OptionalFeatures.exe?
 ---
 
 # OptionalFeatures.exe 
@@ -17,6 +18,9 @@ SHA256 | `FA2E741416994F2C1BF9EF7A16B9C4DBF20C84267E3DA91AE6F1AD75EE9F49B8`
 SHA384 | `E9847725B7A6B7AD2B5D1715BC784A8005E79E658814ADB5B7F8DA15812D87732840041C22C50C27657F638FE25C3029`
 SHA512 | `1BED8AF2CF99A7F3BB36A34F4A71C34787904BD072ECDC731FB7498290DCF4024B956FB8B6912AD050B74AA861F0B0349081B77088F72732BDA5075413B1F83D`
 SSDEEP | `3072:7EObbEaznWfH22ZsuX2xKwMPTnaSrIrvDx:75jznWjZnXeKwMLnaqY`
+IMP | `B1DA23E5BF146552E38FA70DEE47601E`
+PESHA1 | `EDF63A3AC4A8CBEEC043AC071A2246730DE925C8`
+PE256 | `F9CBD945413EBD7D5688FD3F9C48008F2CE9B871D952AB3C4D674BD340C7BCBC`
 
 ## Runtime Data
 
@@ -24,8 +28,6 @@ SSDEEP | `3072:7EObbEaznWfH22ZsuX2xKwMPTnaSrIrvDx:75jznWjZnXeKwMLnaqY`
 
 Path |
 -- |
-C:\Windows\system32\appwiz.cpl |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -33,11 +35,7 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
 C:\Windows\system32\OptionalFeatures.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHCORE.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -46,8 +44,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -60,6 +58,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/fa2e741416994f2c1bf9ef7a16b9c4dbf20c84267e3da91ae6f1ad75ee9f49b8/detection/
 
 ## File Similarity (ssdeep match)
 

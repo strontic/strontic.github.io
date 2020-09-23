@@ -1,5 +1,6 @@
 ﻿---
 title: dialer.exe | Microsoft Windows Phone Dialer
+excerpt: What is dialer.exe?
 ---
 
 # dialer.exe 
@@ -39,6 +40,7 @@ SSDEEP | `384:mhRoZrPnE6SVmnNsk/xDwGsL9sjLrCqAQ/O8+HB4ATLhMFewgdULWtKKWxd1x4rO:m
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

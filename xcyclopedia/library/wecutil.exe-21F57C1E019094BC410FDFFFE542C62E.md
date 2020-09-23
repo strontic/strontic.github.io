@@ -1,5 +1,6 @@
 ﻿---
 title: wecutil.exe | Event Collector Command Line Utility
+excerpt: What is wecutil.exe?
 ---
 
 # wecutil.exe 
@@ -93,6 +94,7 @@ C:\Windows\system32\wecutil.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: user.exe | User
+excerpt: What is user.exe?
 ---
 
 # user.exe 
@@ -51,6 +52,7 @@ C:\Windows\SysWOW64\user.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: Fondue.exe | Windows Features on Demand UX
+excerpt: What is Fondue.exe?
 ---
 
 # Fondue.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:XxbEaznWfH22ZsuX2xKwMPTnaSrIrvDb:dznWjZnXeKwMLnaqY`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

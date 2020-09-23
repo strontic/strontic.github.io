@@ -1,5 +1,6 @@
 ﻿---
 title: WinSAT.exe | Windows System Assessment Tool
+excerpt: What is WinSAT.exe?
 ---
 
 # WinSAT.exe 
@@ -17,6 +18,9 @@ SHA256 | `CC31FDCDCE05144EF750B01233D57614CDA7364A73CA26FF68886EBDC650E367`
 SHA384 | `C069E9F4D7BDF64983C1315CE0FC1378D63AE0489C012CDEC97F519EC8E78107EB0E7AAFBF17D2FE9F035C2BE2104671`
 SHA512 | `9BA9EAEFA1E2E4DA2D14F12B81F2ED0597AB6EB6B32D85851B69BC86D77A6B38810A04AA35FFCBF64484D544F52960F05F4EACA4740CD3674A1D09D8B373CE3C`
 SSDEEP | `49152:R8sgM4nGU8AlipUY2K7G/hDAHlmWC67HyYmq1dKwdfU2bECbe:gBGUkezg/1DFE/`
+IMP | `77CCB5C30DFB942E48EBC52E645CF431`
+PESHA1 | `FA83B2D0316B485FDBCE16935B9B05C3C4C71326`
+PE256 | `188B5F14467E3DCC2F5AE75C6C113C4DA3139E2141B275EA696B939D5A486C1D`
 
 ## Runtime Data
 
@@ -182,8 +186,8 @@ C:\Windows\system32\WinSAT.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -196,6 +200,12 @@ C:\Windows\system32\WinSAT.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/cc31fdcdce05144ef750b01233d57614cda7364a73ca26ff68886ebdc650e367/detection/
 
 ## File Similarity (ssdeep match)
 

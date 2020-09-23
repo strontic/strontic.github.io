@@ -1,5 +1,6 @@
 ﻿---
 title: control.exe | Windows Control Panel
+excerpt: What is control.exe?
 ---
 
 # control.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:e4EMLqAaMre/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imK:NLL9rr7Sp5
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

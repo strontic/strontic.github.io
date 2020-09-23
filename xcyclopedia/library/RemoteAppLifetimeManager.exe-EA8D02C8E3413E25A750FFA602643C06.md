@@ -1,5 +1,6 @@
 ﻿---
 title: RemoteAppLifetimeManager.exe | RemoteAppLifetimeManager_ServerExe.exe
+excerpt: What is RemoteAppLifetimeManager.exe?
 ---
 
 # RemoteAppLifetimeManager.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:7XorfHwGdYSUAwWOoMo0sAVA8vf4RD2Ab0wIphJYSe0eC9f9NZ:kQM335+m8vf45t
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

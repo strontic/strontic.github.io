@@ -1,5 +1,6 @@
 ﻿---
 title: ShInstUtil.exe | ShInstUtil - KeePass Helper Utility
+excerpt: What is ShInstUtil.exe?
 ---
 
 # ShInstUtil.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.45.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2007-2020 Dominik Reichl
+
 
 
 

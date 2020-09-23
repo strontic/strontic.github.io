@@ -1,5 +1,6 @@
 ﻿---
 title: winrshost.exe | Host Process for WinRM's Remote Shell plugin
+excerpt: What is winrshost.exe?
 ---
 
 # winrshost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:HtuAKt4M0my5c55oQaAsLIDHf2Y1f1OwqUY17lC4YHZiOiE0ACrMsLGpr37w0Rc1:H
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

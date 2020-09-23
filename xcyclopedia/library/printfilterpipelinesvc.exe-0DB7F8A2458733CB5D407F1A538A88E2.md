@@ -1,5 +1,6 @@
 ﻿---
 title: printfilterpipelinesvc.exe | Print Filter Pipeline Host
+excerpt: What is printfilterpipelinesvc.exe?
 ---
 
 # printfilterpipelinesvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:a5YCOFSniFS9EMCnF5CEn+K96g+ebrWbNLiWJAW:urOwneqEZFpJYeCNp`
 * Product Version: 6.3.9600.19701
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

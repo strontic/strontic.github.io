@@ -1,5 +1,6 @@
 ﻿---
 title: auditpol.exe | Audit Policy Program
+excerpt: What is auditpol.exe?
 ---
 
 # auditpol.exe 
@@ -66,6 +67,7 @@ The parameter is incorrect.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

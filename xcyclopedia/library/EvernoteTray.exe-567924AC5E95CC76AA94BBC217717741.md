@@ -1,5 +1,6 @@
 ﻿---
 title: EvernoteTray.exe | Evernote Tray Application
+excerpt: What is EvernoteTray.exe?
 ---
 
 # EvernoteTray.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Evernote Corporation.
 All rights reserved.
+
 
 
 

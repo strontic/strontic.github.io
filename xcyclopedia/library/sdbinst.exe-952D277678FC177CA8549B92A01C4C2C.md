@@ -1,5 +1,6 @@
 ﻿---
 title: sdbinst.exe | Application Compatibility Database Installer
+excerpt: What is sdbinst.exe?
 ---
 
 # sdbinst.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:Jg/EcJLItPjDQKCUkwpMvODcExa3fBc35wBQL2L8iMMlPVAPW6YkzeqC5XW5gW:mLi
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

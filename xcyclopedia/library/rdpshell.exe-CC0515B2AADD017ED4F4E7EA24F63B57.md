@@ -1,5 +1,6 @@
 ﻿---
 title: rdpshell.exe | RemoteApp Shell
+excerpt: What is rdpshell.exe?
 ---
 
 # rdpshell.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:nfZhfxfHX7XI1npzPwVy6Si+mcROL69VF7KYfirqG3QhZORnN6iE0cxyjnj:nfZhf
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

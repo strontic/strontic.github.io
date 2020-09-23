@@ -1,5 +1,6 @@
 ﻿---
 title: Dism.exe | Dism Image Servicing Utility
+excerpt: What is Dism.exe?
 ---
 
 # Dism.exe 
@@ -47,6 +48,7 @@ Use an elevated command prompt to complete these tasks.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

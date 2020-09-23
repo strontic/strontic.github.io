@@ -1,5 +1,6 @@
 ﻿---
 title: sxstrace.exe | Sxs Tracing Tool
+excerpt: What is sxstrace.exe?
 ---
 
 # sxstrace.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:n1azuf+5VdcsZ44ivoD46vY2jKNkKVHEwlzg5N18NyH837K+EOKqN:no625ncd2+hN
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

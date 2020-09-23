@@ -1,5 +1,6 @@
 ﻿---
 title: dsregcmd.exe | DSREG commandline tool
+excerpt: What is dsregcmd.exe?
 ---
 
 # dsregcmd.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:2WDjl+NcT1a7sgc1yhu0z5fkZG0yWzvfmhvjLrgUOv+r/L:ZDUNcZa7sgckhu0lf
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: madHcCtrl.exe | mad* home cinema control
+excerpt: What is madHcCtrl.exe?
 ---
 
 # madHcCtrl.exe 
@@ -65,6 +66,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.1.21.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2010-2016 madshi.net
+
 
 
 

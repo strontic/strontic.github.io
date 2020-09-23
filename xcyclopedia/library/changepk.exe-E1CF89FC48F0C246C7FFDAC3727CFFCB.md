@@ -1,5 +1,6 @@
 ﻿---
 title: changepk.exe | Windows Activation
+excerpt: What is changepk.exe?
 ---
 
 # changepk.exe 
@@ -21,6 +22,9 @@ SHA256 | `69644AB12ECC3A89BC2DB5DC8198A506647D14F5B44745BCED02EAFAC362E8CF`
 SHA384 | `54AA3E9793223853216E400F1126FA25EAD5ECA9B2EE11B269AD6CC64B302BBB1C026C918CE75EF430F6DEDDB12732E5`
 SHA512 | `F904C301C09937C8C7F246CFFB3CB2792C61D3679B3EE60D8CD6B3D9D46EB0488692803E7DD3ABAA113C1C808539F7491069249FDDF1ACCE850A6E4FED771B01`
 SSDEEP | `1536:17F+2BGymzag4U8AIvd1scT05vzj07j5UfE9AIP:ejyzg4U3Ivd1sU0lK5UfEqI`
+IMP | `E3EFA1B5D57BA8D5B087542C1D3F58F7`
+PESHA1 | `2519A33EAE53413E71D91AB7A893FA89E9A6087A`
+PE256 | `1CE9E6C4811EF1160C4C0DFED1F7619DF0B21D054A0DFDD245B2994B56703726`
 
 ## Runtime Data
 
@@ -37,6 +41,7 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -57,6 +62,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/69644ab12ecc3a89bc2db5dc8198a506647d14f5b44745bced02eafac362e8cf/detection/
 
 ## File Similarity (ssdeep match)
 

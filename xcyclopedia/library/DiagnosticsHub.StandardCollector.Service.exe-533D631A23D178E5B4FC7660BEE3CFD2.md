@@ -1,5 +1,6 @@
 ﻿---
 title: DiagnosticsHub.StandardCollector.Service.exe | Microsoft (R) Diagnostics Hub Standard Collector
+excerpt: What is DiagnosticsHub.StandardCollector.Service.exe?
 ---
 
 # DiagnosticsHub.StandardCollector.Service.exe 
@@ -60,11 +61,13 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe](DiagnosticsHub.StandardCollector.Service.exe-8B5B7FFEAF1D4F0EEF1F0E21597B7709.md) | 96
+[C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe](DiagnosticsHub.StandardCollector.Service.exe-917CC8AD990789A111B73284B33EAAF6.md) | 96
 
 
 

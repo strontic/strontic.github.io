@@ -1,5 +1,6 @@
 ﻿---
 title: jetpack.exe | Off-line jet database compact app
+excerpt: What is jetpack.exe?
 ---
 
 # jetpack.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:Na/lsoPWyW7dW1fpkicPP0DkV8ZWe3eAaUQmsW0UcHW:Na+TyKDP0G8ZWe3eysW0PH
 * Product Version: 6.3.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

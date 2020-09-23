@@ -1,5 +1,6 @@
 ﻿---
 title: netcfg.exe | WinPE network installer
+excerpt: What is netcfg.exe?
 ---
 
 # netcfg.exe 
@@ -156,6 +157,7 @@ General Notes:
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

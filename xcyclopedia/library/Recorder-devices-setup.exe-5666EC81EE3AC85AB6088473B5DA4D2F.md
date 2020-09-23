@@ -1,5 +1,6 @@
 ﻿---
 title: Recorder-devices-setup.exe | Recorder Devices for ShareX Setup                           
+excerpt: What is Recorder-devices-setup.exe?
 ---
 
 # Recorder-devices-setup.exe 
@@ -76,6 +77,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 0.12.10                                           
 * Language: Language Neutral
 * Legal Copyright:                                                                                                     
+
 
 
 

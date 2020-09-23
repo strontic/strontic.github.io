@@ -1,5 +1,6 @@
 ﻿---
 title: lxdnview.exe | Lexmark Connect Viewer Executable
+excerpt: What is lxdnview.exe?
 ---
 
 # lxdnview.exe 
@@ -40,6 +41,7 @@ iexplore.exe
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
 
 
 

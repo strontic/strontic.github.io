@@ -1,5 +1,6 @@
 ﻿---
 title: certreq.exe | CertReq.exe
+excerpt: What is certreq.exe?
 ---
 
 # certreq.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:/jjTEnjszN9nXbK7FKwdGBkvuvCyuqVlbkuK1K08AqkB:bjTEnjszN9nXq0kAkGvl
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: chkdsk.exe | Check Disk Utility
+excerpt: What is chkdsk.exe?
 ---
 
 # chkdsk.exe 
@@ -89,6 +90,7 @@ skipping certain checks of the volume.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

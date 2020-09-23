@@ -1,5 +1,6 @@
 ﻿---
 title: hvsirdpclient.exe | Windows Defender Application Guard Manager RDP Client
+excerpt: What is hvsirdpclient.exe?
 ---
 
 # hvsirdpclient.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:BW0Mr3wvM8yk4rimBjmR7huIxmvRD0upcsruRc/nZRaZIyrxZU8GkZ2z:BW06N8Uj
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

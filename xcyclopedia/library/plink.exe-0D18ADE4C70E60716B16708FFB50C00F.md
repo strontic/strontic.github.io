@@ -1,5 +1,6 @@
 ﻿---
 title: plink.exe | Command-line SSH, Telnet, and Rlogin client
+excerpt: What is plink.exe?
 ---
 
 # plink.exe 
@@ -113,6 +114,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+
 
 
 ## Possible Misuse

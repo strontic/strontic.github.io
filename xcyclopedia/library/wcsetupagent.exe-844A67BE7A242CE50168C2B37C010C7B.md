@@ -1,5 +1,6 @@
 ﻿---
 title: wcsetupagent.exe | Utility VM Setup Agent
+excerpt: What is wcsetupagent.exe?
 ---
 
 # wcsetupagent.exe 
@@ -17,6 +18,9 @@ SHA256 | `3749B4F1D866A1552C07E30FDF85BB24A7DF7DC7A4F8E703CF6E23E47CBEA7D2`
 SHA384 | `1906DB4B25CDD17A4E28370FE1668D69A816ED29ABE3CE616B84D0ED88BB018DD2C64210F3179666BFCCE9DFBAD51F4B`
 SHA512 | `DBA63CA5D8E1F3367DABEA911FE334B1B551B6FBBBFEC192EC02DE3D169FAA3832217006281FBFE6CDE6078909EA5594C379948E27B174D9E4DD0B33839CF5F7`
 SSDEEP | `1536:2M+f49Qox51v/j2ie1vkhPXCesZHW+XUk99P0uf3:9Lv/j2VvMq7vkk99pP`
+IMP | `0BFC70E7578FC85B8136243B25EA8984`
+PESHA1 | `991AF8BB84FD126B9618A07BE81DD0048FDF4C94`
+PE256 | `1B8406CE53F41A0E665255648F7C3C2B123C9801D8CB41B0E63FB2995F473104`
 
 ## Runtime Data
 
@@ -31,9 +35,7 @@ C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\system32\samcli.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\system32\SspiCli.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wcsetupagent.exe |
 
@@ -55,6 +57,12 @@ C:\Windows\system32\wcsetupagent.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/3749b4f1d866a1552c07e30fdf85bb24a7df7dc7a4f8e703cf6e23e47cbea7d2/detection/
 
 
 

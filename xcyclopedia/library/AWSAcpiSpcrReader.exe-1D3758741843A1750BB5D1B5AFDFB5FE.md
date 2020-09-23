@@ -1,5 +1,6 @@
 ﻿---
 title: AWSAcpiSpcrReader.exe | AWS ACPI SPCR reader
+excerpt: What is AWSAcpiSpcrReader.exe?
 ---
 
 # AWSAcpiSpcrReader.exe 
@@ -53,6 +54,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2017
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: mfpmp.exe | Media Foundation Protected Pipeline EXE
+excerpt: What is mfpmp.exe?
 ---
 
 # mfpmp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:ei/puqUXX+8Uk6lKjZJyI+2toXnHAhLZvqDaI1PK:n5kDB2sZJy2oXHAhLIHPK`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

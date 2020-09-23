@@ -1,5 +1,6 @@
 ﻿---
 title: uninst.exe | 
+excerpt: What is uninst.exe?
 ---
 
 # uninst.exe 
@@ -39,6 +40,7 @@ Un_A.exe
 * Product Version: 
 * Language: Japanese (Japan)
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

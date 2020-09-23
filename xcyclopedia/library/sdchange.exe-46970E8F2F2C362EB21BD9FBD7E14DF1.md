@@ -1,5 +1,6 @@
 ﻿---
 title: sdchange.exe | Windows Remote Assistance SD Server
+excerpt: What is sdchange.exe?
 ---
 
 # sdchange.exe 
@@ -17,6 +18,9 @@ SHA256 | `77BEA7A0371E270B9BFCD6B51433CA8642078BD36E4FDBDB726F9815BF3B6A4F`
 SHA384 | `A547BC0632543D764EEDB05849B165AB0D4A565DBE057D10697D9E1431621D92142876F32B425AB58782D00F94A92A2D`
 SHA512 | `73D78E46ABD95F0470761C37851A79EB5FEA773BE1FDADFE00B4DB1D1959A009EB34252A6C1F97191F8E9914CF58824B7135A79E42327632670C3C72844B8ED1`
 SSDEEP | `768:T/Y5y+q0Ev5bjsoQqlURS0KarrbMQb7/Fh6BG:U8v5b4oJle2YPmc`
+IMP | `FEBDB8D41B96564D59EF7EC952028FD4`
+PESHA1 | `8D5ADFCB21BBE29821D67D7CF3883A7CBA5C97DB`
+PE256 | `2C38854F23A1CDB32E7994C77766065AC6CB69DF041E3C403422CFBDFA6EAC19`
 
 ## Runtime Data
 
@@ -25,16 +29,11 @@ SSDEEP | `768:T/Y5y+q0Ev5bjsoQqlURS0KarrbMQb7/Fh6BG:U8v5b4oJle2YPmc`
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\sdchange.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -65,6 +64,12 @@ C:\Windows\SysWOW64\sdchange.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/77bea7a0371e270b9bfcd6b51433ca8642078bd36e4fdbdb726f9815bf3b6a4f/detection/
 
 
 

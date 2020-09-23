@@ -1,5 +1,6 @@
 ﻿---
 title: HandBrake.exe | HandBrake
+excerpt: What is HandBrake.exe?
 ---
 
 # HandBrake.exe 
@@ -120,6 +121,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.3.3.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  2003-2019 HandBrake Team 
+
 
 
 

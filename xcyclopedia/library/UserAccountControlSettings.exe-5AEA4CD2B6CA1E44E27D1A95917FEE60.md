@@ -1,5 +1,6 @@
 ﻿---
 title: UserAccountControlSettings.exe | UserAccountControlSettings
+excerpt: What is UserAccountControlSettings.exe?
 ---
 
 # UserAccountControlSettings.exe 
@@ -17,6 +18,9 @@ SHA256 | `EB4C62E672647C1AD1A247356FFD738FEEA55FF0390EDFF2A2BDE89D9362250E`
 SHA384 | `E4753977FDB3BDDDC48BDCBF0A0DD146FEB2EC069426B4AA1A851D6B6B7DF8D196899937DD00D15076B08BA86D7270DC`
 SHA512 | `CAE8119ECC75CA27E2248C90B9EC04311199C86A26FE4A07F24CB1A690E5E990F9639855B3BB084EF7A00359E055504122A7D2889D2CDD9163C332DFCC1D5B02`
 SSDEEP | `1536:I52HzscbxoZoJZ9olzy3sP751sNz0UCdkV/L7:lTZbNJZ9bcT5K`
+IMP | `281B2F62B1066F5953A92A11BC46D367`
+PESHA1 | `1B84B6019FA85509215A46506FBA4E9CF9E72718`
+PE256 | `D8D2C01D450B6FEF6966D7163C7423EE1279693BFE77E83045C3D47B6720455C`
 
 ## Runtime Data
 
@@ -48,6 +52,12 @@ C:\Windows\SysWOW64\UserAccountControlSettings.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/eb4c62e672647c1ad1a247356ffd738feea55ff0390edff2a2bde89d9362250e/detection/
 
 ## File Similarity (ssdeep match)
 

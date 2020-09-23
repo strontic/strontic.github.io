@@ -1,5 +1,6 @@
 ﻿---
 title: SDShell.exe | 
+excerpt: What is SDShell.exe?
 ---
 
 # SDShell.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (United States)
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+
 
 
 

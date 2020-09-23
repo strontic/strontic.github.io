@@ -1,5 +1,6 @@
 ﻿---
 title: lxdnwbgw.exe | Lexmark Web Gateway
+excerpt: What is lxdnwbgw.exe?
 ---
 
 # lxdnwbgw.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:EZfoEPEv2yfEmgV1/2m+ScCKBJfuPqBLvKa8zpf:EyIC2ycmg/xDYJfuALyLzpf`
 * Product Version: 1.93.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
 
 
 

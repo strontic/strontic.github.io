@@ -1,5 +1,6 @@
 ﻿---
 title: getmac.exe | Displays NIC MAC information
+excerpt: What is getmac.exe?
 ---
 
 # getmac.exe 
@@ -95,6 +96,7 @@ C:\Windows\SysWOW64\getmac.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

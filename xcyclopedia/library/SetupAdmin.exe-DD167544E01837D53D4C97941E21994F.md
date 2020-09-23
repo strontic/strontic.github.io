@@ -1,5 +1,6 @@
 ﻿---
 title: SetupAdmin.exe | Apple Installer (Elevated)
+excerpt: What is SetupAdmin.exe?
 ---
 
 # SetupAdmin.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 12.10.8.5
 * Language: English (United States)
 * Legal Copyright:  Apple Inc. All Rights Reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: lxdnpswx.exe | Printer Status Window Interface
+excerpt: What is lxdnpswx.exe?
 ---
 
 # lxdnpswx.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:17QGKVTXr9Zum9L2dtPDNWgmY1uLbwbrYMEKC3+lvJgpo0Wlk:0TXrLum92uWC3+
 * Product Version: 4.424.0.29
 * Language: Language Neutral
 * Legal Copyright: 
+
 
 
 

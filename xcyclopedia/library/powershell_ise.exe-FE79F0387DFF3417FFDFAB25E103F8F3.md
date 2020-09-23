@@ -1,5 +1,6 @@
 ﻿---
 title: powershell_ise.exe | Windows PowerShell ISE
+excerpt: What is powershell_ise.exe?
 ---
 
 # powershell_ise.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:lC+sE4Due2C+sEQDu0irIuU5pmZbgXooP:ljsfT2jsx085pmZUP`
 * Product Version: 6.3.9600.17399
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

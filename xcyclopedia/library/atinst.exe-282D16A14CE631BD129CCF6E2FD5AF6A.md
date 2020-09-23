@@ -1,5 +1,6 @@
 ﻿---
 title: atinst.exe | Broker for Vista
+excerpt: What is atinst.exe?
 ---
 
 # atinst.exe 
@@ -42,6 +43,7 @@ atmgr.exe
 * Product Version: 10033,0,2018,614
 * Language: English (United States)
 * Legal Copyright:  2006-2018 Cisco and/or its affiliates. All rights reserved.
+
 
 
 

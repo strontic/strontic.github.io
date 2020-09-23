@@ -1,5 +1,6 @@
 ﻿---
 title: djoin.exe | Unattended Setup Generic Command For Domain Join
+excerpt: What is djoin.exe?
 ---
 
 # djoin.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:bIjgYZsiC38MVRyaSrLVZI7zVDI27ZmJCfe8QcD6wCtBnfU/Pwg1QieQk/8O:4XWoM
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

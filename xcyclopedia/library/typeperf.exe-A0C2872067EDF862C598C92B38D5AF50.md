@@ -1,5 +1,6 @@
 ﻿---
 title: typeperf.exe | Command line performance monitor
+excerpt: What is typeperf.exe?
 ---
 
 # typeperf.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:g7+DHZNemz6fOwooB7Mtzv6rK06zWVl/wNpyig1u8yB9139+5tU+vssZoacnxbI:gW
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

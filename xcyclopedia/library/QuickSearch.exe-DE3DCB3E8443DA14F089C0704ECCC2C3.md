@@ -1,5 +1,6 @@
 ﻿---
 title: QuickSearch.exe | Glary Utilities QuickSearch
+excerpt: What is QuickSearch.exe?
 ---
 
 # QuickSearch.exe 
@@ -40,6 +41,7 @@ MemfilesService.exe x64ProcessAssistSvc.exe
 * Product Version: 5.35.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

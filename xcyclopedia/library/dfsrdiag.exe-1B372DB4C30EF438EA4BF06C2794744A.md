@@ -1,5 +1,6 @@
 ﻿---
 title: dfsrdiag.exe | DFS Replication Diagnostics Tool
+excerpt: What is dfsrdiag.exe?
 ---
 
 # dfsrdiag.exe 
@@ -79,6 +80,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.529
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

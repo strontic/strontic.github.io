@@ -1,5 +1,6 @@
 ﻿---
 title: backgroundTaskHost.exe | Background Task Host
+excerpt: What is backgroundTaskHost.exe?
 ---
 
 # backgroundTaskHost.exe 
@@ -17,27 +18,11 @@ SHA256 | `5A2F7C3BD5B63E15465CC5159BEEE66332C86A95C5C554DE7953E5C1C6944E3C`
 SHA384 | `7734DE88C9F0DAA50F1048ECF0D62258B436E6288175C0B1EC569E0B5C3AF7EC6A16CEAC5EE79F3693C32AFB219DFF23`
 SHA512 | `B6C987369B50AA1D975DE30B133C7ED4B3269549F559C9B7D3439EF907423FF7320F77BB0239C28C48457429C3C5BF7C21B6B70A8B5D611B5E157D5D7E0392A9`
 SSDEEP | `192:sD6XRv2LYVpnXqK9to2AbeQHWHRWjeGWIsD1S8f4DBQABJtGnUkc67lqnajX8QCP:QLapnnorHWxWqGWvD1IDBRJtGnMolz8z`
+IMP | `B01956F70C2FC1C81D9AF197F35D4D75`
+PESHA1 | `C909915BED32ED2B9D5AEE7EDEF9070DC9FBF912`
+PE256 | `19FE01CD6176A395C473F7426C563F970D0A33A56CB98ABD23C471AC92A10561`
 
 ## Runtime Data
-
-### Child Processes:
-backgroundTaskHost.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -45,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\backgroundTaskHost.exe |
 
@@ -66,6 +52,12 @@ C:\Windows\SysWOW64\backgroundTaskHost.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/5a2f7c3bd5b63e15465cc5159beee66332c86a95c5c554de7953e5c1c6944e3c/detection/
 
 ## File Similarity (ssdeep match)
 

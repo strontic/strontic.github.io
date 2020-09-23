@@ -1,5 +1,6 @@
 ﻿---
 title: TpmInit.exe | TPM Initialization Wizard
+excerpt: What is TpmInit.exe?
 ---
 
 # TpmInit.exe 
@@ -22,6 +23,9 @@ SHA256 | `06210A3296CFAD3AF92253BF998536BA1786A8799BB4CAB80CCDF3DDE30F0E66`
 SHA384 | `A4A8E2CEE94DEAD179C790E308FD697694C4DF8322F48452B4247F0D2BED5799A5D559CC065E990D3066FDAB7117E2E3`
 SHA512 | `E5674153D4B8F82B1944C99B89064FC277171737806D8602BDE243F50012CC8BCBDC47B75F48485CC35008BA702796F88B23DF31C4E020BB28C10754C2E253C8`
 SSDEEP | `1536:TcI7HDs/dfHDh6XcnkYXFT70JLNuuGiceY0lA3CJHkxUM:T+/dfHQXcnV+JLNNPYfSFkx1`
+IMP | `CB0FB4D269B59D4F60F985CCD3A90C83`
+PESHA1 | `6CD2F17F074C0135C97BA645AB904CC0AB6644F2`
+PE256 | `FFCAD6B0E8C9050CFB0B0459E3917DA82E08E41B2412636FF1495F03C824091D`
 
 ## Runtime Data
 
@@ -40,19 +44,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\TpmInit.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -77,14 +76,14 @@ C:\Windows\system32\TpmInit.exe |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -97,6 +96,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/06210a3296cfad3af92253bf998536ba1786a8799bb4cab80ccdf3dde30f0e66/detection/
 
 ## File Similarity (ssdeep match)
 

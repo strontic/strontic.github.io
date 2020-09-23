@@ -1,5 +1,6 @@
 ﻿---
 title: NLB-unattend.exe | Network Load Balancing Unattended Installation Utility
+excerpt: What is NLB-unattend.exe?
 ---
 
 # NLB-unattend.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:kJzqIQnYqjurW/WxZFdQJ7dWv85aNk6k3chGQxhO7K:WVqJuxv2JZx7K`
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

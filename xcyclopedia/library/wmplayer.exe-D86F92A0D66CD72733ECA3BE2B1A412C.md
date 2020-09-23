@@ -1,5 +1,6 @@
 ﻿---
 title: wmplayer.exe | Windows Media Player
+excerpt: What is wmplayer.exe?
 ---
 
 # wmplayer.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: DropboxUninstaller.exe | Dropbox 104.4.175 Installer
+excerpt: What is DropboxUninstaller.exe?
 ---
 
 # DropboxUninstaller.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright:  Dropbox, Inc.
+
 
 
 

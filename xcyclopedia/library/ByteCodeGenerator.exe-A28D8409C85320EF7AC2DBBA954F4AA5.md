@@ -1,5 +1,6 @@
 ﻿---
 title: ByteCodeGenerator.exe | AppX Deployment Bytecode Generator EXE
+excerpt: What is ByteCodeGenerator.exe?
 ---
 
 # ByteCodeGenerator.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:4aerW6JCs9CMGQlgKt/kgi76YmPlg8RwRxtS+Pz:4rNpZlEgTPi8RwR/S+Pz`
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: unlodctr.exe | Unload PerfMon Counters
+excerpt: What is unlodctr.exe?
 ---
 
 # unlodctr.exe 
@@ -66,6 +67,7 @@ Double Quotation marks.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

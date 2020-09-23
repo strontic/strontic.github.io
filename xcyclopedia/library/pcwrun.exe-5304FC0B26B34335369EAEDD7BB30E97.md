@@ -1,5 +1,6 @@
 ﻿---
 title: pcwrun.exe | Program Compatibility Troubleshooter Invoker
+excerpt: What is pcwrun.exe?
 ---
 
 # pcwrun.exe 
@@ -17,6 +18,9 @@ SHA256 | `E3D136C667662A2198DA3D45A4637DF1EFE1F61B2B948F421FC0F8EEE6D83C3A`
 SHA384 | `A6417550886393FC9A9052BC5DF6F3447F1F28B9AED55116F3B21D83EBF5F00EDEE0BE1FAC2075E22E070FEDF8832100`
 SHA512 | `DE582402580A4D87E51AD992625024AC9E6E0E5CD9E4C88C2BFB5608F9DE99FB8BE037E055670BAEB71E2698E3E06CB017882FEF9D9963ED873E386FB39E8C8B`
 SSDEEP | `384:9uqm53yj33csvrp6rThI/NfiiJoJ4fA+cWMgW:9+ij33cGrMrwNfiiJcOA+C`
+IMP | `B78658A8BFA515AFA2CD46E53317253F`
+PESHA1 | `CAC074C20335A643C190F2E08B8B2E30C12DDC76`
+PE256 | `792309C4B1874121DD841D2EA0400289FD40FE47DD84B23E4C464C51B4659B95`
 
 ## Runtime Data
 
@@ -27,12 +31,8 @@ msdt.exe
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -41,12 +41,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\pcwrun.exe |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -67,6 +64,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/e3d136c667662a2198da3d45a4637df1efe1f61b2b948f421fc0f8eee6d83c3a/detection/
 
 
 ## Possible Misuse

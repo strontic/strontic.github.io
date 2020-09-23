@@ -1,5 +1,6 @@
 ﻿---
 title: WerFault.exe | Windows Problem Reporting
+excerpt: What is WerFault.exe?
 ---
 
 # WerFault.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:/AA1R0mzqb9PVi9nYdFSPvjY/tKg4hlEvaRUNTDFa4s5OKnVJyB60OHyLC7vT:/sm
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

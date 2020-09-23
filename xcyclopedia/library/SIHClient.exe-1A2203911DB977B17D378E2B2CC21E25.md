@@ -1,5 +1,6 @@
 ﻿---
 title: SIHClient.exe | SIH Client
+excerpt: What is SIHClient.exe?
 ---
 
 # SIHClient.exe 
@@ -36,6 +37,12 @@ SSDEEP | `6144:IOCUtmYAGr1TgnkQ+4Vx2f8hOAvj3aWzlE9IT90edT+f+b6fnA6RFFMTi5f9:bCUv
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SIHClient.exe](SIHClient.exe-F2CC4F2F8B22C6540E557892A2E3A562.md) | 91
 
 ## Possible Misuse
 

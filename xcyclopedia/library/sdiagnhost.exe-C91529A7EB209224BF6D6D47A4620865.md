@@ -1,5 +1,6 @@
 ﻿---
 title: sdiagnhost.exe | Scripted Diagnostics Native Host
+excerpt: What is sdiagnhost.exe?
 ---
 
 # sdiagnhost.exe 
@@ -40,6 +41,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

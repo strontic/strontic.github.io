@@ -1,5 +1,6 @@
 ﻿---
 title: comp.exe | File Compare Utility
+excerpt: What is comp.exe?
 ---
 
 # comp.exe 
@@ -65,6 +66,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ipconfig.exe | IP Configuration Utility
+excerpt: What is ipconfig.exe?
 ---
 
 # ipconfig.exe 
@@ -17,6 +18,9 @@ SHA256 | `87B036C720FBD5E63355B9920A2864FEAF59B1584EBD8458651936AB8C7C1F81`
 SHA384 | `308F95286C1AEBA9EA9BED79C36F74DF459FF6510D9AAFF97D9035E69F8D35DCA9067F2D167593CEFC4B2A8ECD679306`
 SHA512 | `21DF8867246A9C5834253C0D2C2DE3E620E9F8B4B031B9E53CB6082ECA78B90BDB09B9E8BAF39E05A08B859F81B3AECBC34F3540428CEF0BED746D7E769F2F04`
 SSDEEP | `384:TX75STbXbI4zeTgPH1H5T2FJzTe959+Ir+1Dc7oL88RbfMoUn2gF97h7YBTsbnk6:rt+Z/1Z2FtA3+Ir+1DF70Nt7YCbn6K`
+IMP | `14140F48563DAAA2A531D3BAD3FFF909`
+PESHA1 | `A66EAED9A3D852CEBFE8A54293634471A87C9457`
+PE256 | `1D51A18576963307DFC65EF409EF4581C6497151266499551A4067310BDC318F`
 
 ## Runtime Data
 
@@ -107,6 +111,12 @@ C:\Windows\SysWOW64\ipconfig.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/87b036c720fbd5e63355b9920a2864feaf59b1584ebd8458651936ab8c7c1f81/detection/
 
 
 ## Possible Misuse
@@ -128,11 +138,11 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1018.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1018/T1018.md) | $localip = ((ipconfig \| findstr [0-9].\.)[0]).Split()[-1] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1021.006.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md) | Upon successful execution, powershell will execute ipconfig on localhost using `invoke-command`. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1021.006.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md) | \| remote_command \| Command to execute on remote Host \| String \| ipconfig\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) |       $s1 = "whoami & hostname & ipconfig /all" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_volatile_cedar.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_volatile_cedar.yar) | 		$s1 = "command = \"ipconfig /all\"" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_webshells.yar) |         $s6 = "secparam('IP Configurate',execute('ipconfig -all'));" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_recon_indicators.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_recon_indicators.yar) |       /* ipconfig /all */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | 		$s5 = "//------- [netstat -an] and [ipconfig] and [tasklist] ------------" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) | $s1 = "whoami & hostname & ipconfig /all" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_volatile_cedar.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_volatile_cedar.yar) | $s1 = "command = \"ipconfig /all\"" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_cn_webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_webshells.yar) | $s6 = "secparam('IP Configurate',execute('ipconfig -all'));" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_recon_indicators.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_recon_indicators.yar) | /* ipconfig /all */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-webshells.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar) | $s5 = "//------- [netstat -an] and [ipconfig] and [tasklist] ------------" fullword | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SystemResetPlatform.exe | Windows System Reset Platform
+excerpt: What is SystemResetPlatform.exe?
 ---
 
 # SystemResetPlatform.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:/bAXc6egPPtcVo5f/iBuTLdlwaqDg/wVtZtUGx19n3WiSW:zAM61dcul/ioTJ+7tUA
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

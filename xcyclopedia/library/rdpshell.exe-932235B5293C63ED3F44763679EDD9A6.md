@@ -1,5 +1,6 @@
 ﻿---
 title: rdpshell.exe | RemoteApp Shell
+excerpt: What is rdpshell.exe?
 ---
 
 # rdpshell.exe 
@@ -36,10 +37,12 @@ SSDEEP | `6144:CQO4sIYcDoPOPwoECHz+2rzmk5trop0OrNxWJr+dVbO1/IcM:CQOZnPOPyCHfzV9o
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\system32\rdpshell.exe](rdpshell.exe-CAD5E9513CBD384F1B6045EDEEFF70D2.md) | 80
 [C:\Windows\system32\rdpshell.exe](rdpshell.exe-FE617CBE8C91741FC09CF6F16FF34D8C.md) | 80
 
 

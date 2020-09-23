@@ -1,5 +1,6 @@
 ﻿---
 title: vcredist_x64.exe | Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005
+excerpt: What is vcredist_x64.exe?
 ---
 
 # vcredist_x64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `196608:S9OaQ54oYY7jLwXjZ41OON2uk3bQWgtyccMELo:Nz5x7jLXkmkU4cFeo`
 * Product Version: 12.0.21005.1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

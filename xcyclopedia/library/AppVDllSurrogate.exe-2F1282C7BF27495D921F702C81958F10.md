@@ -1,5 +1,6 @@
 ﻿---
 title: AppVDllSurrogate.exe | Client DLL Surrogate Host
+excerpt: What is AppVDllSurrogate.exe?
 ---
 
 # AppVDllSurrogate.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:tKHXk8OYtTt+8qFrrz7YLriqWGNU6gTLe7Thec7d77:t3YbZqFrrz7cWGNU6gTLep
 * Product Version: 10.0.14393.3659
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

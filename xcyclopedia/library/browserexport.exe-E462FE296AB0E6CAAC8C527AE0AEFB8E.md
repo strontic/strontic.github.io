@@ -1,5 +1,6 @@
 ﻿---
 title: browserexport.exe | Microsoft Edge Browser Exporter
+excerpt: What is browserexport.exe?
 ---
 
 # browserexport.exe 
@@ -71,6 +72,7 @@ C:\Windows\system32\winsqlite3.dll |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

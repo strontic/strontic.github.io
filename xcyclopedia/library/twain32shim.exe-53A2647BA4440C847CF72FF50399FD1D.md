@@ -1,5 +1,6 @@
 ﻿---
 title: twain32shim.exe | 
+excerpt: What is twain32shim.exe?
 ---
 
 # twain32shim.exe 
@@ -47,6 +48,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 7.0.0.3
 * Language: English (United States)
 * Legal Copyright: Copyright  2000-2020 by LibreOffice contributors. All rights reserved.
+
 
 
 

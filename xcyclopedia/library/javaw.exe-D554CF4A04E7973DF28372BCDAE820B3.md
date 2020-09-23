@@ -1,5 +1,6 @@
 ﻿---
 title: javaw.exe | Java(TM) Platform SE binary
+excerpt: What is javaw.exe?
 ---
 
 # javaw.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:JKdm6VH3+Q6zaesz1SCCTOphtYAHIG0xR4TBfHnIjZqMNxWDAhT:J6mgh6BszOTO3
 * Product Version: 8.0.1710.11
 * Language: Language Neutral
 * Legal Copyright: Copyright  2018
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: KorIME.exe | Microsoft IME
+excerpt: What is KorIME.exe?
 ---
 
 # KorIME.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:fil0TeC7EGNOvb3wwd745sUyutOa/qfXMJ1fg4a7cpK+/uNgZLOyAoGrqbjx95mo:
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

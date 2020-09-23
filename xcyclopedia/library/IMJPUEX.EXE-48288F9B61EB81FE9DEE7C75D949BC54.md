@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPUEX.EXE | Microsoft IME
+excerpt: What is IMJPUEX.EXE?
 ---
 
 # IMJPUEX.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `1536:TQ3vBqQEjzV0MPGrScYH67nIWDK2NLPcrh:TQfBYzV0MerdYH67IkK2NLPcrh`
 * Product Version: 10.0.14393.2457
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

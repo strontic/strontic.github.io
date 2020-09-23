@@ -1,5 +1,6 @@
 ﻿---
 title: MuiUnattend.exe | MUI unattend action
+excerpt: What is MuiUnattend.exe?
 ---
 
 # MuiUnattend.exe 
@@ -47,6 +48,7 @@ C:\Windows\SysWOW64\MuiUnattend.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

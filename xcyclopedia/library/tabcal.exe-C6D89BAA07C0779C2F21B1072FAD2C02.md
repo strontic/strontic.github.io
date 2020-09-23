@@ -1,5 +1,6 @@
 ﻿---
 title: tabcal.exe | Digitizer Calibration Tool
+excerpt: What is tabcal.exe?
 ---
 
 # tabcal.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:IFR/Fbbgw/S6MW2rzqF0QnBMChpdfW2jbJK:IFFtbg6PMW2rzCB1pdfZbs`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

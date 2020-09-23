@@ -1,5 +1,6 @@
 ﻿---
 title: nmbind.exe | Hyper-V Network Core Bind Application
+excerpt: What is nmbind.exe?
 ---
 
 # nmbind.exe 
@@ -55,6 +56,7 @@ Options:
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

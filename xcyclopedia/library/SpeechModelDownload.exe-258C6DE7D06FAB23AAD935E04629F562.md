@@ -1,5 +1,6 @@
 ﻿---
 title: SpeechModelDownload.exe | Speech Model Download Executable
+excerpt: What is SpeechModelDownload.exe?
 ---
 
 # SpeechModelDownload.exe 
@@ -48,6 +49,7 @@ C:\Windows\SysWOW64\Speech_OneCore\common\SpeechModelDownload.exe |
 * Product Version: 10.0.17763.1369
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

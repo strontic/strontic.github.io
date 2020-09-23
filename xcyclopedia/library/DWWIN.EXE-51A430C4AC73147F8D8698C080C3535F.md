@@ -1,5 +1,6 @@
 ﻿---
 title: DWWIN.EXE | Windows Error Reporting
+excerpt: What is DWWIN.EXE?
 ---
 
 # DWWIN.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `3072:3kO3vIOB7ScDjqMz2iGXV1IWn0jRYXJEU1Jqmt73ulnQTT4VOxA1STcoxsvXvexV:
 * Product Version: 10.0.19041.264
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ENScript.exe | ENScript Application
+excerpt: What is ENScript.exe?
 ---
 
 # ENScript.exe 
@@ -85,6 +86,7 @@ C:\Windows\System32\wow64win.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Evernote Corporation.
 All rights reserved.
+
 
 
 

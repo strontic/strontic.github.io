@@ -1,5 +1,6 @@
 ﻿---
 title: qbittorrent.exe | qBittorrent - A Bittorrent Client
+excerpt: What is qbittorrent.exe?
 ---
 
 # qbittorrent.exe 
@@ -93,6 +94,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: v4.2.5
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2020 The qBittorrent Project
+
 
 
 

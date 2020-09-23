@@ -1,5 +1,6 @@
 ﻿---
 title: browserexport.exe | Microsoft Edge Browser Exporter
+excerpt: What is browserexport.exe?
 ---
 
 # browserexport.exe 
@@ -17,6 +18,9 @@ SHA256 | `983502C17475814CCCC6D8B41A87B62B28DED6DCE680A67DD6EE44B367E20A1A`
 SHA384 | `80C3979630489B6AA04350F9B4D10A67D038AFECCBA0D0A9BB0A0DBA38A1C0653B9FD0823DD9B8ABF71BB2DF0F982B91`
 SHA512 | `6B181A691939A4B9ED655D2E1C7B88B5E990BE83AD4CCA45811D1BCD8A6CCA612FB5B396ACAC96E1CB2B1127F3FEC1295B4CB250A0ABBBDD28E909B20CE3AAC6`
 SSDEEP | `3072:A6sR5hdaQoi36UnM/EA1Pozcrx2SpDatdgKmUw1NbPbMssjpt4S2+GcykX:YR5hdPoi36EM/1xvpDatdvUbPbMsDcz`
+IMP | `40AAF38944F0933C0EB6654302549F58`
+PESHA1 | `A9A82BD3D16D3A151F7376EF42F4FF0B3573C9ED`
+PE256 | `1D55892F74E411F318E6FB4B99991CC66AA9C1F80DCACEC343025427BFABCA6F`
 
 ## Runtime Data
 
@@ -38,8 +42,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -52,6 +56,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 11.00.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/983502c17475814cccc6d8b41a87b62b28ded6dce680a67dd6ee44b367e20a1a/detection/
 
 
 

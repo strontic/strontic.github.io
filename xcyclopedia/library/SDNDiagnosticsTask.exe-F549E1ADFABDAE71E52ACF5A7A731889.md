@@ -1,5 +1,6 @@
 ﻿---
 title: SDNDiagnosticsTask.exe | 
+excerpt: What is SDNDiagnosticsTask.exe?
 ---
 
 # SDNDiagnosticsTask.exe 
@@ -43,6 +44,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate.exe | Windows Rights Management Services Activation for Desktop Security Processor
+excerpt: What is RMActivate.exe?
 ---
 
 # RMActivate.exe 
@@ -51,6 +52,7 @@ C:\Windows\SysWOW64\RMActivate.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

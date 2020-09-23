@@ -1,5 +1,6 @@
 ﻿---
 title: OptionalFeatures.exe | Windows Features
+excerpt: What is OptionalFeatures.exe?
 ---
 
 # OptionalFeatures.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:7bOJ8bEaznWfH22ZsuX2xKwMPTnaSrIrvD4:7bSSznWjZnXeKwMLnaqY`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

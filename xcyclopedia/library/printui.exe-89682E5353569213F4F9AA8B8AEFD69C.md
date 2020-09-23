@@ -1,5 +1,6 @@
 ﻿---
 title: printui.exe | Change Printing Settings
+excerpt: What is printui.exe?
 ---
 
 # printui.exe 
@@ -21,6 +22,9 @@ SHA256 | `30BA375125E87D88106EC1B952AF157CAF9940DFC2CC382C56087DB9F15A4FA6`
 SHA384 | `0C35DDB6C8C143D7C5F2EF423AD87EB0C192BD1BD38C5034A897E3B46370ECF68B0F8912B4675A46BB1BE29F822F9B51`
 SHA512 | `EAD85A958F37C20EEA3881A4952A9BD930ABD5E34805A5C3183C84BD830968ED5A9C5B829E46551AB32B25C4AB0CBAAEDAF2F5ED1ABA9C4E0248F625591A072F`
 SSDEEP | `768:a4PHmXrHTZCm5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qp:Jc9lVIPd4n+lbeRZIbSQPPA7s`
+IMP | `DE8C59512CA98FB3E224769147985370`
+PESHA1 | `38F78D38EF16FB296A49E1A4C2E0302EE6FFB7F3`
+PE256 | `7F5B48C966EDDD6AAA8EFC0725571E34C57C905BBC1804A716C9C2051FD94833`
 
 ## Runtime Data
 
@@ -37,18 +41,13 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\printui.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -89,6 +88,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/30ba375125e87d88106ec1b952af157caf9940dfc2cc382c56087db9f15a4fa6/detection/
 
 ## File Similarity (ssdeep match)
 

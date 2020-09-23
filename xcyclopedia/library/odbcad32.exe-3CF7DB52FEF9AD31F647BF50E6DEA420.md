@@ -1,5 +1,6 @@
 ﻿---
 title: odbcad32.exe | ODBC Administrator
+excerpt: What is odbcad32.exe?
 ---
 
 # odbcad32.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:WWcUNJDz2tv30ytUanN/DJ6Bcnb9OVRZyAj6At9FH22ZAvMAT8lN5vBjIsaxoW:ZbD
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

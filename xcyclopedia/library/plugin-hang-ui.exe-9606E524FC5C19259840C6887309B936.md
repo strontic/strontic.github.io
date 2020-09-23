@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-hang-ui.exe | Plugin Hang UI for Firefox
+excerpt: What is plugin-hang-ui.exe?
 ---
 
 # plugin-hang-ui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:oKWjyOEyZ3WAosRIoY7DcKy3oAEK/jgNOAbZXPjWAJYIvDG8uK6jS9zZG:hK3W5suP
 * Product Version: 79.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

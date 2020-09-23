@@ -1,5 +1,6 @@
 ﻿---
 title: bzip2.exe | 
+excerpt: What is bzip2.exe?
 ---
 
 # bzip2.exe 
@@ -78,6 +79,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

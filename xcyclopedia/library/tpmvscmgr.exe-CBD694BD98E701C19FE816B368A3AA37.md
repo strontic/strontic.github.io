@@ -1,5 +1,6 @@
 ﻿---
 title: tpmvscmgr.exe | TPM Virtual Smartcard Setup Utility
+excerpt: What is tpmvscmgr.exe?
 ---
 
 # tpmvscmgr.exe 
@@ -130,6 +131,7 @@ TpmVscMgr.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

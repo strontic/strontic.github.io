@@ -1,5 +1,6 @@
 ﻿---
 title: puttygen.exe | PuTTY SSH key generation utility
+excerpt: What is puttygen.exe?
 ---
 
 # puttygen.exe 
@@ -91,6 +92,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+
 
 
 

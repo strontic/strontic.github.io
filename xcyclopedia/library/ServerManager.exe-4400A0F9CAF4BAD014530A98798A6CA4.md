@@ -1,5 +1,6 @@
 ﻿---
 title: ServerManager.exe | Server Manager
+excerpt: What is ServerManager.exe?
 ---
 
 # ServerManager.exe 
@@ -40,6 +41,7 @@ SSDEEP | `6144:XixEpwpp+SNdi6gozVvPUHZsGChyB0M8VGQ8b:XiSwpp+SNQtivPyCYy7Gvb`
 * Product Version: 6.3.9600.17238
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

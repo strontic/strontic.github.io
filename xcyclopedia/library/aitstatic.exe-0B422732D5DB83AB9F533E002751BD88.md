@@ -1,5 +1,6 @@
 ﻿---
 title: aitstatic.exe | Application Impact Telemetry Static Analyzer
+excerpt: What is aitstatic.exe?
 ---
 
 # aitstatic.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:MabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/L:MyKNNYtaAIrA
 * Product Version: 10.0.18362.1023
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

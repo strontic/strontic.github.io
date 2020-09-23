@@ -1,5 +1,6 @@
 ﻿---
 title: PerceptionSimulationInput.exe | Mixed Reality Simulation Control
+excerpt: What is PerceptionSimulationInput.exe?
 ---
 
 # PerceptionSimulationInput.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:ENLbR6zBFpzX5SLsOq/VbDhZeRhh4sVvwEO97dFpMzfe+Ic7Zn9I8Royy51YKX+F:E
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

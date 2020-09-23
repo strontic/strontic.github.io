@@ -1,5 +1,6 @@
 ﻿---
 title: setup16.exe | MS-Setup Setup Exe
+excerpt: What is setup16.exe?
 ---
 
 # setup16.exe 
@@ -66,6 +67,7 @@ C:\Windows\SysWOW64\setup16.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright: Copyright  Microsoft Corp. 1991-1997
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: help.exe | Command Line Help Utility
+excerpt: What is help.exe?
 ---
 
 # help.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:bHz1DjPwQP9T2CoLptpZ72zU4dG3AGT6x4eA08EQmwW6cW2:bHz1DnP9CxDL/Zs4eQ
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: GoogleUpdate.exe | Google Installer
+excerpt: What is GoogleUpdate.exe?
 ---
 
 # GoogleUpdate.exe 
@@ -72,6 +73,7 @@ C:\Windows\System32\wow64win.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 Google LLC
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -91,8 +93,8 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `Description: Create a scheduled execution of C:\GoogleUpdate.exe to run at 9pm.` | 
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-machete-event.json](https://github.com/eset/malware-ioc/blob/master/machete/misp-machete-event.json) | `"value": "GoogleUpdate.exe",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [machete](https://github.com/eset/malware-ioc/blob/master/machete/README.adoc) | `=== GoogleUpdate.exe` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_google_anomaly.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_google_anomaly.yar) |       description = "Detects suspicious unsigned GoogleUpdate.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_google_anomaly.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_google_anomaly.yar) |       /* OriginalName GoogleUpdate.exe */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_google_anomaly.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_google_anomaly.yar) | description = "Detects suspicious unsigned GoogleUpdate.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_google_anomaly.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_google_anomaly.yar) | /* OriginalName GoogleUpdate.exe */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

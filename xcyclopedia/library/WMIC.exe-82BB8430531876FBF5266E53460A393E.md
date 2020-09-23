@@ -1,5 +1,6 @@
 ﻿---
 title: WMIC.exe | WMI Commandline Utility
+excerpt: What is WMIC.exe?
 ---
 
 # WMIC.exe 
@@ -17,6 +18,9 @@ SHA256 | `9578C31E1B58FA75A2B612456EBCE324296E53A007E5697995CEC5785956AFE4`
 SHA384 | `9A50FDE7DF28E2BD7D2C43786084CB7238AC01A4DEFCF3FE254C6EEE4E774FD8C2CC079862F5435C4B206B5123F59777`
 SHA512 | `AD94A1F864366CBCDA675192BF16B698630A96B3672742B4ED8BC939634ED281478339F3E38A012A382FCBC535F1A16475B42CD7DB27A1B53F55854AD73905F4`
 SSDEEP | `6144:nvVmVt4pxhNZhND013yAqLEWhJ4ZVGH5enhF:nvVtdY3yAGEwEVGH0nhF`
+IMP | `09405355AF00B2202306292C39E63FB3`
+PESHA1 | `115B5E079859E6A5F9D986B69CF9E79909AAC7D4`
+PE256 | `3D3D3B7506DEC13ECFA67C6717AE9D2584FA490C689F17BCD0B4133C7CFB4CB9`
 
 ## Runtime Data
 
@@ -179,6 +183,12 @@ C:\Windows\SysWOW64\wbem\WMIC.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9578c31e1b58fa75a2b612456ebce324296e53a007e5697995cec5785956afe4/detection/
 
 
 ## Possible Misuse
@@ -217,7 +227,6 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Command: wmic.exe process get brief /format:"\\127.0.0.1\c$\Tools\pocremote.xsl"` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Path: C:\Windows\System32\wbem\wmic.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Path: C:\Windows\SysWOW64\wbem\wmic.exe` | 
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1021.006.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md) | Upon successful execution, cmd will utilize wmic.exe to modify the registry on a remote endpoint to swap osk.exe with cmd.exe. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1047.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md) | This test uses wmic.exe to execute a process on the local host. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1047.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md) | This test uses wmic.exe to execute a process on a remote host. Specify a valid value for remote IP using the node parameter. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1220.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md) | \| wmic_command \| WMI command to execute using wmic.exe \| string \| process list\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

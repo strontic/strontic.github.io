@@ -1,5 +1,6 @@
 ﻿---
 title: cmdkey.exe | Credential Manager Command Line Utility
+excerpt: What is cmdkey.exe?
 ---
 
 # cmdkey.exe 
@@ -70,6 +71,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

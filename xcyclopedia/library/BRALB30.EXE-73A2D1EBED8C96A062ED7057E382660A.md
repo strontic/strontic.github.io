@@ -1,5 +1,6 @@
 ﻿---
 title: BRALB30.EXE | Printer Driver Application Launcher
+excerpt: What is BRALB30.EXE?
 ---
 
 # BRALB30.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `1536:uKy4sXACmpI/jdhFTcpvTHLE/5pXr5kdzgzX7iL:BynYGjnFYpvTHwx95cUzX7iL`
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: (C) 2013 Brother Industries, Ltd. All Rights Reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: IMCCPHR.exe | Microsoft IME 2012
+excerpt: What is IMCCPHR.exe?
 ---
 
 # IMCCPHR.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:rowe3n8jizndTFL6DQxThlg8uSXmCPwP6k+kc8DZ0ZJ:rotFL6ohuSXmH6k+kcu2`
 * Product Version: 15.0.9600.17415
 * Language: Language Neutral
 * Legal Copyright:  2012 Microsoft Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: TeraCopyService.exe | TeraCopy Service
+excerpt: What is TeraCopyService.exe?
 ---
 
 # TeraCopyService.exe 
@@ -66,6 +67,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 3.0
 * Language: English (United States)
 * Legal Copyright: 2007-2014 Code Sector
+
 
 
 

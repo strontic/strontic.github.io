@@ -1,5 +1,6 @@
 ﻿---
 title: pidgin.exe | Pidgin
+excerpt: What is pidgin.exe?
 ---
 
 # pidgin.exe 
@@ -107,6 +108,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.14.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 1998-2010 The Pidgin developer community (See the COPYRIGHT file in the source distribution).
+
 
 
 

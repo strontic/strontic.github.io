@@ -1,5 +1,6 @@
 ﻿---
 title: printui.exe | Change Printing Settings
+excerpt: What is printui.exe?
 ---
 
 # printui.exe 
@@ -21,11 +22,11 @@ SHA256 | `0CCF0351C0E4E9E422D014F349B75F0CF9710E241CDD40FD48C6BAB1E165FE66`
 SHA384 | `E0803D2C25C562DA51FBA4B09C5EDCD88DD4754EC3EB4FBB9E8EF41F56E2BA093671CF97CFEF7513D55FA46A42FB67DB`
 SHA512 | `101B8C3751BE3B22ACB285C75CAF7B8220C56EF8CF325A265E546B5465AA8F831F45DC059261F838694F2A8F037847456289605E1A6E62E1A4F0F6BEB7209B53`
 SSDEEP | `768:FKgp+/G5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qnp:YVuVIPd4n+lbeRZIbSQPPA7s`
+IMP | `6F4EF9E489C40856B4C2A7590D1E7B05`
+PESHA1 | `363B0ED78F47CA7B041B03F09B250DA79FD68E4C`
+PE256 | `28477DE74D5A9A08C9A111D72AF011E621CCD9837F71944317CB495628FD4C74`
 
 ## Runtime Data
-
-### Child Processes:
-explorer.exe
 
 ### Window Title:
 Printers
@@ -40,19 +41,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\printui.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -61,6 +57,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\printui.exe |
 
@@ -82,6 +79,12 @@ C:\Windows\SysWOW64\printui.exe |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/0ccf0351c0e4e9e422d014f349b75f0cf9710e241cdd40fd48c6bab1e165fe66/detection/
 
 ## File Similarity (ssdeep match)
 

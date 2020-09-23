@@ -1,5 +1,6 @@
 ﻿---
 title: tsdiscon.exe | Session Disconnection Utility
+excerpt: What is tsdiscon.exe?
 ---
 
 # tsdiscon.exe 
@@ -68,6 +69,7 @@ TSDISCON [sessionid | sessionname] [/SERVER:servername] [/V] [/VM]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

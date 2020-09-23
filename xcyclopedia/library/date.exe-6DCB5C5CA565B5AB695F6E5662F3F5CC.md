@@ -1,5 +1,6 @@
 ﻿---
 title: date.exe | 
+excerpt: What is date.exe?
 ---
 
 # date.exe 
@@ -162,6 +163,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

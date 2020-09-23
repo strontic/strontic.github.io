@@ -1,5 +1,6 @@
 ﻿---
 title: mcbuilder.exe | Resource cache builder tool
+excerpt: What is mcbuilder.exe?
 ---
 
 # mcbuilder.exe 
@@ -17,27 +18,11 @@ SHA256 | `F5FBD701E0CEEFCAB76839231C23F29EB967AD6107520B8454C40FD8DCDDFDE1`
 SHA384 | `A4DBA9F6CD894551E6B6B3A7386BBDD6BBEDA047A989559F00658BFB63A24918F63264A98E83A6F234AB1C865E0B4A07`
 SHA512 | `0D87C7C6797312286AB141AF5260BA8E6A3DE98A51617AFF9F7D1DC149B239FA04E26F87B72FB7E4BC387566317C8801A62D50E953F0872A8790EB5B9D8F7932`
 SSDEEP | `1536:U5i0hBmMsWjcdIkpk0551bBuej8LrdHNaAssqeyAiBTd9aFZBrx7WwE45:UhBGIkV71bBuEmrIsqeyAiBTdCBrpWwr`
+IMP | `195E17EC8E0FA560F3971AAF373C53F7`
+PESHA1 | `6577D29FD94DAB13ADD5A38C6C9D6A14C9CBEA8E`
+PE256 | `70F2F7071071B099EE404BE265B2FCFDD44DF0AF0351F7EAD7A9D13CD151F85C`
 
 ## Runtime Data
-
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-(RWD)   C:\Windows\SystemResources | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -67,6 +52,12 @@ C:\Windows\SysWOW64\mcbuilder.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/f5fbd701e0ceefcab76839231c23f29eb967ad6107520b8454c40fd8dcddfde1/detection/
 
 ## File Similarity (ssdeep match)
 

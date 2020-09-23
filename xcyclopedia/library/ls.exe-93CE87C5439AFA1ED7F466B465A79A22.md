@@ -1,5 +1,6 @@
 ﻿---
 title: ls.exe | 
+excerpt: What is ls.exe?
 ---
 
 # ls.exe 
@@ -168,6 +169,7 @@ Try '/usr/bin/ls --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 ## Possible Misuse

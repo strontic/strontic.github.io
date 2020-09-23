@@ -1,5 +1,6 @@
 ﻿---
 title: DPTopologyAppv2_0.exe | Intel(R) Graphics Control Panel
+excerpt: What is DPTopologyAppv2_0.exe?
 ---
 
 # DPTopologyAppv2_0.exe 
@@ -85,6 +86,7 @@ dw20.exe
 * Product Version: 8.15.10.4248
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

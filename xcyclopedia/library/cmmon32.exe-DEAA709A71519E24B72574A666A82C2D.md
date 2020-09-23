@@ -1,5 +1,6 @@
 ﻿---
 title: cmmon32.exe | Microsoft Connection Manager Monitor
+excerpt: What is cmmon32.exe?
 ---
 
 # cmmon32.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\cmmon32.exe |
 * Product Version: 7.2.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: MpSigStub.exe | Microsoft Malware Protection Signature Update Stub
+excerpt: What is MpSigStub.exe?
 ---
 
 # MpSigStub.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:1ukxwlT4Opldy3LDSaapZKt+t5lqvbWR0bwpAUUFNECeNPF/z:ckx48OplQ3LDqp
 * Product Version: 1.1.16900.5
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

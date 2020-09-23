@@ -1,5 +1,6 @@
 ﻿---
 title: FXSSVC.exe | Fax Service
+excerpt: What is FXSSVC.exe?
 ---
 
 # FXSSVC.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:mJFox052yo03ypNIwZMNGQWk48QVwGe+ip6BvjNOCWkbIlDpV/h:KME/oAONd2NJ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

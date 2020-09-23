@@ -1,5 +1,6 @@
 ﻿---
 title: RemotePosWorker.exe | Remote Pos Driver Worker
+excerpt: What is RemotePosWorker.exe?
 ---
 
 # RemotePosWorker.exe 
@@ -46,6 +47,7 @@ C:\Windows\system32\RemotePosWorker.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: lxdnih.exe | Printer Communication System
+excerpt: What is lxdnih.exe?
 ---
 
 # lxdnih.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:caWuJ18VFexmvFLwRPbvFjNEu4KFPuc7PF4FZO+w+5cWMlARtiTQ4SYaP2+:648VF
 * Product Version: 1.233.39.0
 * Language: English (United States)
 * Legal Copyright:  
+
 
 
 

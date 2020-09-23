@@ -1,5 +1,6 @@
 ﻿---
 title: BootDefrag.exe | BootDefrag.exe
+excerpt: What is BootDefrag.exe?
 ---
 
 # BootDefrag.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:QMsLVMYGORx9F7Z5tPvQhFJOMuBdfXMV1:QBM2b9F7Z5+0DPXS`
 * Product Version: 4, 0, 0, 5
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2014 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

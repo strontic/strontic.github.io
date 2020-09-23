@@ -1,5 +1,6 @@
 ﻿---
 title: omadmclient.exe | Host Process for OMA-DM Client
+excerpt: What is omadmclient.exe?
 ---
 
 # omadmclient.exe 
@@ -55,6 +56,7 @@ C:\Windows\system32\XmlLite.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

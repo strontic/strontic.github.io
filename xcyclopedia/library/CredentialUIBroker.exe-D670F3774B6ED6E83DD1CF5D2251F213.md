@@ -1,5 +1,6 @@
 ﻿---
 title: CredentialUIBroker.exe | Credential Manager UI Host
+excerpt: What is CredentialUIBroker.exe?
 ---
 
 # CredentialUIBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:2nWq6QSgM9acs9x8c9UfUdByEmlqAp9z89WjoZAimMx3gxM2ggKIayf3x4MtYIXP:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

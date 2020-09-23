@@ -1,5 +1,6 @@
 ﻿---
 title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
+excerpt: What is iscsicpl.exe?
 ---
 
 # iscsicpl.exe 
@@ -40,6 +41,7 @@ rundll32.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

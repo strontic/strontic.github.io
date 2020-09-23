@@ -1,5 +1,6 @@
 ﻿---
 title: Preparation.exe | Microsoft Visual Studio 2015
+excerpt: What is Preparation.exe?
 ---
 
 # Preparation.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:N3PpJOd0dAeJopCjW+C1dvI8YOOYI0UmpKpu0DaT5QtEfs:bdAeJQCg7AmjUadjs`
 * Product Version: 14.0.24720.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

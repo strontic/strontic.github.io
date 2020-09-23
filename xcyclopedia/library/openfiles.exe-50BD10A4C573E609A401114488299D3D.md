@@ -1,5 +1,6 @@
 ﻿---
 title: openfiles.exe | Displays the current open files list
+excerpt: What is openfiles.exe?
 ---
 
 # openfiles.exe 
@@ -17,6 +18,9 @@ SHA256 | `8C8EAD6B2FFF2BECE455B6B43BE47DDD177B5803F1CE9D0AB7CF5F23AEFC3221`
 SHA384 | `6FA1B656C2C268AE158463DC87FA40F49A796311DE131F535545C6A45F1151885E305F3D38FFD4A80133283C74C3D02F`
 SHA512 | `E44F4C4A23FD6C57B155ED4D531EC83453A64D78D1FD03979F2D7C501156C620D598005B60E8DCBB5A42AD090BA6FB908ADBBAAD09B97A230A63FB663BB5AC90`
 SSDEEP | `1536:vORfIKvHBDNrNIwv9DVSc+c3YWaq9xddR/:HKvHBDXIs1VSc+cZaq9xzR/`
+IMP | `F4871A9C2C4D47CC68C3AE460CFDE7D8`
+PESHA1 | `18CE9A6C368A69AB91F20F84EFC6CA198598819F`
+PE256 | `57A9EE24D97A64A7A77ACC490DA36DD6BCA339A404AE8ED0CF37EAEAE056BB8F`
 
 ## Runtime Data
 
@@ -32,6 +36,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\openfiles.exe |
 
@@ -53,6 +58,12 @@ C:\Windows\SysWOW64\openfiles.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8c8ead6b2fff2bece455b6b43be47ddd177b5803f1ce9d0ab7cf5f23aefc3221/detection/
 
 
 

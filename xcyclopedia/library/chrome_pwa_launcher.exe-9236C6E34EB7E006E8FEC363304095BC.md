@@ -1,5 +1,6 @@
 ﻿---
 title: chrome_pwa_launcher.exe | Google Chrome
+excerpt: What is chrome_pwa_launcher.exe?
 ---
 
 # chrome_pwa_launcher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:XRpZ1qgAxmEW/Wpb879sOfkpuFLQAt7diXyWeR5+nzHoWrwKA4NY:XuxmEFpY+8F
 * Product Version: 84.0.4147.125
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

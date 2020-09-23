@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPUEX.EXE | Microsoft IME
+excerpt: What is IMJPUEX.EXE?
 ---
 
 # IMJPUEX.EXE 
@@ -21,6 +22,9 @@ SHA256 | `D063C93E6B4B3C6AC60950AEE6F981E5A0E804D907C1A11D5534008B56A8483D`
 SHA384 | `4DB9C81DC52811B3B2FC86866AE99CCEEEEBCE0F4AFE42C289BC3C80109275006BA35A06D341E0CAC05EB8A9115CE8DF`
 SHA512 | `9C75AE70F80F5E16CC79CD4DF2F0B1E25308405C02F5EB677FEE2C961E2147B5CADF371240C33AF8DC66BB0133E22C818BC6CD66544C0CD8AE419F2EF6BBE0CD`
 SSDEEP | `1536:w+7qqVboOxOpYdxNxCBvnjYhnycXyrqNDcYH67nIWDK2NLPcrqs:w+PVboOxOpgUBvnjYhnpXyrqNYYH67ID`
+IMP | `870FD0A6D06CED43109E434FD506DEB4`
+PESHA1 | `9709ABBA748CAB23ECD5AF790632D32D019BB2D0`
+PE256 | `DD9CDCE29A4EBBC0E3CE11FEC19468390DBAB892E1E07B57CF60006C1E190AFE`
 
 ## Runtime Data
 
@@ -34,20 +38,15 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -78,6 +77,12 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPUEX.EXE |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d063c93e6b4b3c6ac60950aee6f981e5a0e804d907c1a11d5534008b56a8483d/detection/
 
 ## File Similarity (ssdeep match)
 

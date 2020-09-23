@@ -1,5 +1,6 @@
 ﻿---
 title: SumatraPDF.exe | SumatraPDF
+excerpt: What is SumatraPDF.exe?
 ---
 
 # SumatraPDF.exe 
@@ -93,6 +94,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 3.2
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2020 all authors (GPLv3)
+
 
 
 

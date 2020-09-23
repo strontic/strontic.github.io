@@ -1,5 +1,6 @@
 ﻿---
 title: browser_broker.exe | Browser_Broker
+excerpt: What is browser_broker.exe?
 ---
 
 # browser_broker.exe 
@@ -57,6 +58,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 11.00.17763.316
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

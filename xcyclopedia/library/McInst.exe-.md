@@ -1,5 +1,6 @@
 ﻿---
 title: McInst.exe | 
+excerpt: What is McInst.exe?
 ---
 
 # McInst.exe 
@@ -34,6 +35,7 @@ SSDEEP | ``
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

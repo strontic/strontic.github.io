@@ -1,5 +1,6 @@
 ﻿---
 title: pythonw.exe | 
+excerpt: What is pythonw.exe?
 ---
 
 # pythonw.exe 
@@ -118,6 +119,7 @@ C:\Windows\System32\USER32.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

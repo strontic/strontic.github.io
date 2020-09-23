@@ -1,5 +1,6 @@
 ﻿---
 title: wmprph.exe | Windows Media Player Rich Preview Handler
+excerpt: What is wmprph.exe?
 ---
 
 # wmprph.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 12.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

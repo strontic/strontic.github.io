@@ -1,5 +1,6 @@
 ﻿---
 title: NDP461-KB3102436-x86-x64-AllOS-ENU.exe | Microsoft .NET Framework 4.6.1 Setup
+excerpt: What is NDP461-KB3102436-x86-x64-AllOS-ENU.exe?
 ---
 
 # NDP461-KB3102436-x86-x64-AllOS-ENU.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1572864:SL78UzR3Tg8Xyh0/aHrATkd01efRk8GgxvRpwefR4/M6Wd1+yn:wtg8ih0CHyC
 * Product Version: 4.6.01055.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

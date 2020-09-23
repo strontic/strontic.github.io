@@ -1,5 +1,6 @@
 ﻿---
 title: lxdncfgx.exe | 
+excerpt: What is lxdncfgx.exe?
 ---
 
 # lxdncfgx.exe 
@@ -63,6 +64,7 @@ EXTRACT [/Y] /C source destination
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

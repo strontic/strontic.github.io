@@ -1,5 +1,6 @@
 ﻿---
 title: credwiz.exe | Credential Backup and Restore Wizard
+excerpt: What is credwiz.exe?
 ---
 
 # credwiz.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:dLaECK6c9URwnAU0+tXyJYFOJLta8UbMWVPtCyHbTGsFZ:NY+qA0NYYJLta8wMWVPt
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

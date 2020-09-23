@@ -1,5 +1,6 @@
 ﻿---
 title: MbaeParserTask.exe | Mobile Broadband Account Experience Parser Task
+excerpt: What is MbaeParserTask.exe?
 ---
 
 # MbaeParserTask.exe 
@@ -45,6 +46,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

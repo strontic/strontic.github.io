@@ -1,5 +1,6 @@
 ﻿---
 title: mfpmp.exe | Media Foundation Protected Pipeline EXE
+excerpt: What is mfpmp.exe?
 ---
 
 # mfpmp.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\mfpmp.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

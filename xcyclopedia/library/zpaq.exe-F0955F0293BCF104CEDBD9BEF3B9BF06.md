@@ -1,5 +1,6 @@
 ﻿---
 title: zpaq.exe | 
+excerpt: What is zpaq.exe?
 ---
 
 # zpaq.exe 
@@ -81,6 +82,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

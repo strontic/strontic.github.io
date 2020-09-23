@@ -1,5 +1,6 @@
 ﻿---
 title: GenValObj.exe | Microsoft Software Protection Platform Admin Object
+excerpt: What is GenValObj.exe?
 ---
 
 # GenValObj.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:EwLVdwySY9thlbixmV/X2bUhdCnGdL8DXV6zXmFWApmOdJ:Ew5dwbMhl4mNX2bUh
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: WpcMon.exe | Family Safety Monitor
+excerpt: What is WpcMon.exe?
 ---
 
 # WpcMon.exe 
@@ -17,27 +18,11 @@ SHA256 | `5BBAA50D2B9D2242CB2F83C0BEF935EA170736286813B2A774C36FDE34D44588`
 SHA384 | `A4DDAF41D97E8141F33C3129F4F8BCBBF0F5D1E4F13C5945C10D3D4DA4E161C19D8997101DEFBD951060C049D801477B`
 SHA512 | `D576C091D445144CDE03038407F56D7708973E104407CCD12A2C910AD51C1C0FE9D6F6B4450F58D7ED631DE195DAEC79612C18C29E4DA15BDB65CA35E5F13BA5`
 SSDEEP | `24576:kDcYPVm9VZMUKT2/TB/9N0+CvNsFwGI2:kn0Twq/Vg+aCFZ`
+IMP | `D7BF6777BE67ACBE091F892E19199749`
+PESHA1 | `DEEDBF37A7EF3564F08A1DD1AF40EF04D4670AE9`
+PE256 | `F6BDC8D98F8C37B47BB5C449E705B92C7E007F321E283197B1047B82C3C598AA`
 
 ## Runtime Data
-
-### Child Processes:
-WpcMon.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\WpcMon.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -51,6 +36,8 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\WpcMon.exe |
 
 
@@ -71,6 +58,12 @@ C:\Windows\system32\WpcMon.exe |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/5bbaa50d2b9d2242cb2f83c0bef935ea170736286813b2a774c36fde34d44588/detection/
 
 
 

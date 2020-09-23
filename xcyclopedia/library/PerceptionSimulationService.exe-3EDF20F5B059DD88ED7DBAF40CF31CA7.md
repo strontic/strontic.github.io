@@ -1,5 +1,6 @@
 ﻿---
 title: PerceptionSimulationService.exe | Windows Perception Simulation Service
+excerpt: What is PerceptionSimulationService.exe?
 ---
 
 # PerceptionSimulationService.exe 
@@ -51,6 +52,7 @@ Unrecognized switch "-help"
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

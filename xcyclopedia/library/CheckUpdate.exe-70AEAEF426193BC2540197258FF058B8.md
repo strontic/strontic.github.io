@@ -1,5 +1,6 @@
 ﻿---
 title: CheckUpdate.exe | Glary Utilities CheckUpdate
+excerpt: What is CheckUpdate.exe?
 ---
 
 # CheckUpdate.exe 
@@ -36,6 +37,7 @@ SSDEEP | `768:ACgXKDOdccAUaTsiAzOBzzHYER3zzzyfzqhTzEsIXC7fm4lupOchdMeKgMxV1DG3:N
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -48,8 +50,8 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) |       $c1 = "svchost64.swp\",checkUpdate" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) |       $c2 = "svchost64.swp,checkUpdate" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) | $c1 = "svchost64.swp\",checkUpdate" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) | $c2 = "svchost64.swp,checkUpdate" wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

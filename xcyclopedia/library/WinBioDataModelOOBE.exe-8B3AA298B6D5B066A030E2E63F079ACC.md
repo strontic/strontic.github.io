@@ -1,5 +1,6 @@
 ﻿---
 title: WinBioDataModelOOBE.exe | WinBioDataModel OOBE
+excerpt: What is WinBioDataModelOOBE.exe?
 ---
 
 # WinBioDataModelOOBE.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:zvdwvwM5KFTHx2I1SXa8oo93FlKS0Ji/t1ib3wpaMuLn06owIVAkVtDRID7:l5x2I
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

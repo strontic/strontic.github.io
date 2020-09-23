@@ -1,5 +1,6 @@
 ﻿---
 title: dns.exe | Domain Name System (DNS) Server
+excerpt: What is dns.exe?
 ---
 
 # dns.exe 
@@ -44,6 +45,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.719
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

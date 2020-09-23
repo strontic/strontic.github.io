@@ -1,5 +1,6 @@
 ﻿---
 title: SystemSettingsBroker.exe | System Settings Broker
+excerpt: What is SystemSettingsBroker.exe?
 ---
 
 # SystemSettingsBroker.exe 
@@ -17,6 +18,9 @@ SHA256 | `C57B3CCDED8EFEA55A1CDB794DE2ABF46B3BC1CEE108768BF572388922DC6D7C`
 SHA384 | `454220084C9D15BB293E6112E5E8134014FCD948CFE90DDE8E263B2C43BBD051A584A79531D8907C4BE8727EEC3EC41E`
 SHA512 | `F96E584667F00784D7A57FEE33C303FD1A497EBD251B95B476D586D30B2570447B26AF2733F1CA2A1A7C8AA7A19AC3984E8486A5C3BDC60AB9CE488CA904C5D7`
 SSDEEP | `3072:jB0/XugribH0k9pDBUpUET+o6jReL+9y4PyxnYYmHx3FCy7wqe9LIctbie:jFpUGN+UW+o6jRenpmHOy7wZjtD`
+IMP | `3A177E6AFB160C377ED95B1005942B8A`
+PESHA1 | `C59C1A35D3ABEA7E03C9EE4940B85B7BF35B482D`
+PE256 | `A77789C9D3A4E272ED9F0B2A54119842C4CC000EA98A2DE54BE137B909557265`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `3072:jB0/XugribH0k9pDBUpUET+o6jReL+9y4PyxnYYmHx3FCy7wqe9LIctbie:jFpUGN
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -42,7 +41,6 @@ Path |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
@@ -55,8 +53,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -69,6 +67,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/c57b3ccded8efea55a1cdb794de2abf46b3bc1cee108768bf572388922dc6d7c/detection/
 
 
 

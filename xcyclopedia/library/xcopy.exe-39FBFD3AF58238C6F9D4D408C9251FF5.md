@@ -1,5 +1,6 @@
 ﻿---
 title: xcopy.exe | Extended Copy Utility
+excerpt: What is xcopy.exe?
 ---
 
 # xcopy.exe 
@@ -17,6 +18,9 @@ SHA256 | `269EB0728413654856F4B2EE1FA7838CD69672EBC11BAED4CAA63F58C2DF5823`
 SHA384 | `27409A9A6F56C88F47482C79A5E63C9D28FF87AAF2E77DDF2C6A90111CC90CE24C0447CFB9DB72A79A45C2CAED64F9A7`
 SHA512 | `B1CF7952F4C5D049C6BF076A34ABA5789833EF208C3E8AB1DE300D96C9E7FFCFD13E0B458FF608105395B57CEC7FE0F2DD240C942E9E727E13BF5686C752E336`
 SSDEEP | `768:MMrZVvJJntoBFNqe9BGJ3t+yzXzDbJX5t30fRynjjZgxMae:M8ZVvLCB/qOBGJ3tnDzDFLE8nax7e`
+IMP | `1EFFE65A4F251E4AE9FA8551F9FCDABB`
+PESHA1 | `8694FF3A1C3A67F338DB5C391C989BDB76E99DB9`
+PE256 | `6ADD938B26A573378BEFEB6C5CD9E539476C1378227C0979AA62F45D738C03AF`
 
 ## Runtime Data
 
@@ -91,9 +95,6 @@ File cannot be copied onto itself
 
 ```
 
-### Child Processes:
-conhost.exe
-
 ### Loaded Modules:
 
 Path |
@@ -121,6 +122,12 @@ C:\Windows\system32\xcopy.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/269eb0728413654856f4b2ee1fa7838cd69672ebc11baed4caa63f58c2df5823/detection/
 
 
 ## Possible Misuse

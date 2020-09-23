@@ -1,5 +1,6 @@
 ﻿---
 title: dns-sd.exe | Bonjour Console Utility
+excerpt: What is dns-sd.exe?
 ---
 
 # dns-sd.exe 
@@ -71,6 +72,7 @@ C:\Windows\SysWOW64\dns-sd.exe |
 * Product Version: 3,1,0,1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2003-2015 Apple Inc.
+
 
 
 

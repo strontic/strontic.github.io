@@ -1,5 +1,6 @@
 ﻿---
 title: Silverlight.Configuration.exe | Microsoft Silverlight Configuration Utility
+excerpt: What is Silverlight.Configuration.exe?
 ---
 
 # Silverlight.Configuration.exe 
@@ -50,6 +51,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.1.50918.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

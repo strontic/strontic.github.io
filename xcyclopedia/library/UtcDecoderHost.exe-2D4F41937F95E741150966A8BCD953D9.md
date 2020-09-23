@@ -1,5 +1,6 @@
 ﻿---
 title: UtcDecoderHost.exe | Microsoft Windows Diagnostics Tracking Decoder Host
+excerpt: What is UtcDecoderHost.exe?
 ---
 
 # UtcDecoderHost.exe 
@@ -47,6 +48,7 @@ C:\Windows\system32\UtcDecoderHost.exe |
 * Product Version: 10.0.19041.207
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

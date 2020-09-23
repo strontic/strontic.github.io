@@ -1,5 +1,6 @@
 ﻿---
 title: wiaacmgr.exe | Windows Picture Acquisition Wizard
+excerpt: What is wiaacmgr.exe?
 ---
 
 # wiaacmgr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:NDpDXH2DQdeRhEsMx+V3sWfd4T2dClPd9stAgSRayp+APmBo6A+NbafEFK/Fh/js:9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

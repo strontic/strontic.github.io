@@ -1,5 +1,6 @@
 ﻿---
 title: Configure-SMRemoting.exe | Configure-SMRemoting
+excerpt: What is Configure-SMRemoting.exe?
 ---
 
 # Configure-SMRemoting.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:LJbkYLEzXQbUXZEbfSHYiVxQxd0Eb5juotuuDvwpFibaHoL1zkHoAECq638K/:L2nS
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

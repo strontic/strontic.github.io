@@ -1,5 +1,6 @@
 ﻿---
 title: CloudStorageWizard.exe | CloudStorageWizard
+excerpt: What is CloudStorageWizard.exe?
 ---
 
 # CloudStorageWizard.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:MkKlA48WgqLPCEp9FcYBp2BsSVB+ZCTGP40H+w2pVmM3T2jk:MkCA4FLdpX37uZBE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

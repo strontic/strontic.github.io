@@ -1,5 +1,6 @@
 ﻿---
 title: cipher.exe | File Encryption Utility
+excerpt: What is cipher.exe?
 ---
 
 # cipher.exe 
@@ -17,6 +18,9 @@ SHA256 | `0B26B46319CE5332AC61DC2D4767368AF0C5FD0475B0B82304AB3AB621952ECE`
 SHA384 | `1C562F14FEF4FA40E500C3766B26BA6BB16F498BD482DB48000072BF4B14371F2EAFB29A4936712A560FA1584D08B6F4`
 SHA512 | `A5EA6ABCE9B77E27DE2661773BCDD54FDB5730605273D214299BC0CF2DA369FEC52AAA6B4B3D160179BC7CD17634EBB514581BFA4FA09259269766DECBD18174`
 SSDEEP | `768:3W2atUnmVZln7u0aIORVpIx34pcKmPJoz4joP:3xammR7u3VeOWK5z4j`
+IMP | `3709556898BEAA4E2B5F857FFA0F54BA`
+PESHA1 | `8C702D8EBB66721193D0903D5D92238DA271DA73`
+PE256 | `0D6751B3D87C1341AF2AAF67E2241186C03BC10AA0B26983788568F2B0A93D1F`
 
 ## Runtime Data
 
@@ -161,6 +165,12 @@ C:\Windows\SysWOW64\cipher.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/0b26b46319ce5332ac61dc2d4767368af0c5fd0475b0b82304ab3ab621952ece/detection/
 
 
 ## Possible Misuse
@@ -195,8 +205,8 @@ Source | Source File | Example | License
 [malware-ioc](https://github.com/eset/malware-ioc) | [carbon_tool.py](https://github.com/eset/malware-ioc/blob/master/turla/carbon_tool.py) | `data = cipher.encrypt(plaintext)	` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [carbon_tool.py](https://github.com/eset/malware-ioc/blob/master/turla/carbon_tool.py) | `data = cipher.decrypt(ciphertext)` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [windigo](https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc) | `[-Q cipher \| cipher-auth \| mac \| kex \| key]` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_promethium_neodymium.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_promethium_neodymium.yar) |       $s1 = "%s SslHandshakeDone(%d) %d. Secure connection with %s, cipher %s, %d secret bits (%d total), session reused=%s" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | 		$s3 = "Crypto.Cipher.AES(" fullword ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_promethium_neodymium.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_promethium_neodymium.yar) | $s1 = "%s SslHandshakeDone(%d) %d. Secure connection with %s, cipher %s, %d secret bits (%d total), session reused=%s" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_seaduke_unit42.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_seaduke_unit42.yar) | $s3 = "Crypto.Cipher.AES(" fullword ascii /* PEStudio Blacklist: strings */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

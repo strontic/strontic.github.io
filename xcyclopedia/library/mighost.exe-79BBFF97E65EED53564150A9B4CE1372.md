@@ -1,5 +1,6 @@
 ﻿---
 title: mighost.exe | Migration Plugins host program
+excerpt: What is mighost.exe?
 ---
 
 # mighost.exe 
@@ -21,6 +22,9 @@ SHA256 | `C8240FC9F799A5EB4FCFA83ACEE64D53B8D1DC955269E1CBEF816CFE72F91EB8`
 SHA384 | `3D2FA7C91FD8BA88FAC6C2AF7B4A6B8EFDC9E58DC6F21B5A3ECADC18145C76A26EFA64578FB494AA5BF9CA8D25EF8041`
 SHA512 | `28A4B88AA05DE96157D129DA8CD8BA8CED97749A00EC890E3E60EFDA8E39BDE396E6FED9798967CEF7A1B8E07B0F8340DE8294297E38447267A177913035CC57`
 SSDEEP | `6144:DTP+SYlDKFv4mojDuUlMtq10Q8m7NNqM9N+hN1UFpfNS5iXjD56Gpovgp2H32nqf:DrgmeDuUlEqatglsLbF`
+IMP | `1A2E6FBE71CAA18E49B7AEBBC2EAC135`
+PESHA1 | `2D8CF4AE6E8BC6C86393FFB93972D5104C1BA018`
+PE256 | `14A8C7BF6DA4EB4DA2D499E67ECD9543F860855951F6C8EB7D8707138022E16B`
 
 ## Runtime Data
 
@@ -35,16 +39,11 @@ MigHost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -60,8 +59,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,6 +73,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/64
+* VirusTotal Link: https://www.virustotal.com/gui/file/c8240fc9f799a5eb4fcfa83acee64d53b8d1dc955269e1cbef816cfe72f91eb8/detection/
 
 ## File Similarity (ssdeep match)
 

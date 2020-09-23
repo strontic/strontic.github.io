@@ -1,5 +1,6 @@
 ﻿---
 title: hvax64.exe | Hypervisor V2.0
+excerpt: What is hvax64.exe?
 ---
 
 # hvax64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:lU1hEhLvUX7O4yReHZtc2AE4ejrbi2WqoIYe+/3Nk:oqUX7O4yIP4bW`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

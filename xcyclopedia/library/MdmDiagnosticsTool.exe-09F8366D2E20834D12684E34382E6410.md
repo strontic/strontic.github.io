@@ -1,5 +1,6 @@
 ﻿---
 title: MdmDiagnosticsTool.exe | MdmDiagnosticsTool
+excerpt: What is MdmDiagnosticsTool.exe?
 ---
 
 # MdmDiagnosticsTool.exe 
@@ -63,6 +64,7 @@ SSDEEP | `1536:hMugb/U0BBxUg1MLNhUXFlErmZRAcD+tdmaaKZXe3k:eSiFlErYRxD+tdmXwu0`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

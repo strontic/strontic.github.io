@@ -1,5 +1,6 @@
 ﻿---
 title: GoogleCrashHandler64.exe | Google Crash Handler
+excerpt: What is GoogleCrashHandler64.exe?
 ---
 
 # GoogleCrashHandler64.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.3.35.451
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 Google LLC
+
 
 
 

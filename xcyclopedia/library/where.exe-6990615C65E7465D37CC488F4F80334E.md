@@ -1,5 +1,6 @@
 ﻿---
 title: where.exe | Where - Lists location of files
+excerpt: What is where.exe?
 ---
 
 # where.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:7BBXPb5lTv/ji71ZJqxQVH2LXtgePpzvAT0A5xYx1MA:7BBXPbPvOpzMMWLXtpOHxY
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

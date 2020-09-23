@@ -1,5 +1,6 @@
 ﻿---
 title: lpksetup.exe | Language Pack Installer
+excerpt: What is lpksetup.exe?
 ---
 
 # lpksetup.exe 
@@ -17,6 +18,9 @@ SHA256 | `0FEFBD2235C5EB2BABCEDECAA3F798CF632A580AA4D73D023D3D24D8365DA562`
 SHA384 | `C6F7C40A29C6CAA602348B55363AEE4A755F60633C5D0E93A338CCF036363B4436C85F76DD6472B98E068E45E41AA6C2`
 SHA512 | `84D40F7DCC0116B84712C9EEB1A126E591C386675390C65AC059BDC6834AE6B1477039336A8206FD22BCFFACF53BD3E6A0BAC9B454D9E62F0D5F2A8BFFBEDAD5`
 SSDEEP | `12288:yL+oTc8GaWeMrq8foczY1teOcu6A5yxmGCphr8fVv67ZluKAyfndmLh:K+Nxhqm8AON5y9Cphr8fVi7ZluKAemd`
+IMP | `8D09DF56DB65CA2428CB8BEFB9C1F83A`
+PESHA1 | `A304084C43C16BFCAE3EB0A451AAAECB1A112BBA`
+PE256 | `FC7EE3A86527EC4294631710090CEDAE8B45B2BFE44E3FE60BA66795E6D68DBF`
 
 ## Runtime Data
 
@@ -25,17 +29,12 @@ SSDEEP | `12288:yL+oTc8GaWeMrq8foczY1teOcu6A5yxmGCphr8fVv67ZluKAyfndmLh:K+Nxhqm8
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\lpksetup.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\RotHintTable | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -76,6 +75,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/0fefbd2235c5eb2babcedecaa3f798cf632a580aa4d73d023d3d24d8365da562/detection/
 
 ## File Similarity (ssdeep match)
 

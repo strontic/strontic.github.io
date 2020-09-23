@@ -1,5 +1,6 @@
 ﻿---
 title: TokenBrokerCookies.exe | Token Broker Cookie Helper
+excerpt: What is TokenBrokerCookies.exe?
 ---
 
 # TokenBrokerCookies.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\TokenBrokerCookies.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

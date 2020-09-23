@@ -1,5 +1,6 @@
 ﻿---
 title: AppleMobileDeviceService.exe | MobileDeviceService
+excerpt: What is AppleMobileDeviceService.exe?
 ---
 
 # AppleMobileDeviceService.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

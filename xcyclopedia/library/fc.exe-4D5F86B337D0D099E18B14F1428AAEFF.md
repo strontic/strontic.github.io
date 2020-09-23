@@ -1,5 +1,6 @@
 ﻿---
 title: fc.exe | DOS 5 File Compare Utility
+excerpt: What is fc.exe?
 ---
 
 # fc.exe 
@@ -17,6 +18,9 @@ SHA256 | `9C52BFD3C2EFD9DBC031112359F4F8C4B002B4C829D70862BE100D17710DAC01`
 SHA384 | `A94EAE95CBB97E41F6D67ACFA3752980DC6F115678DA72C40E9E95C2577CB4C2C2FB8E14FC6A2EC0A37B9D763B893AE6`
 SHA512 | `8D41AB4A53D275DFC046EC1707D2154025BDC9F19A52E1A9A26D5B5C22333ED3EE29022C10BBEF6907A9EC7D3E004CBA459752E3695669650187E8D97E2E6BE7`
 SSDEEP | `384:wq9Vyq/AGmYtxQht5IgFeudWVlggjdAPKAa3SNZU7YbWWFYWlr:DVy6AGmExQhtCBuQo6E9X`
+IMP | `8737B5A2A0AC9AC3783A38A0C047A140`
+PESHA1 | `0F76A656154ECAC90A9DBDACE56120E0562FB02C`
+PE256 | `E4A8E7FA899CE9B707152609EE0705865DBDF9DCB2E6BD2F3F30D7F4A507F401`
 
 ## Runtime Data
 
@@ -64,6 +68,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\fc.exe |
 
@@ -71,8 +76,8 @@ C:\Windows\SysWOW64\fc.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -85,6 +90,12 @@ C:\Windows\SysWOW64\fc.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/9c52bfd3c2efd9dbc031112359f4f8c4b002b4c829d70862be100d17710dac01/detection/
 
 
 

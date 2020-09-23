@@ -1,5 +1,6 @@
 ﻿---
 title: dxgiadaptercache.exe | DXGI Adapter Cache
+excerpt: What is dxgiadaptercache.exe?
 ---
 
 # dxgiadaptercache.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:nb5AYTWqz0W/7o0FnA82+qjRaSLM2iISGlp1K:b5AYTWqz0QA8qjRaSLM1IJp`
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

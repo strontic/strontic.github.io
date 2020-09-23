@@ -1,5 +1,6 @@
 ﻿---
 title: win32calc.exe | Windows Calculator
+excerpt: What is win32calc.exe?
 ---
 
 # win32calc.exe 
@@ -98,6 +99,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.139
 * Product Version: 10.0.17763.771
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

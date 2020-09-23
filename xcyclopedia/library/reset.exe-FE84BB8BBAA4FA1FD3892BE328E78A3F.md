@@ -1,5 +1,6 @@
 ﻿---
 title: reset.exe | Remote Desktop Services Reset Utility
+excerpt: What is reset.exe?
 ---
 
 # reset.exe 
@@ -17,6 +18,9 @@ SHA256 | `0F45EE243CDC2AAEC85DC18B686A86B18D3416729751F273FC094DA0A5BCCF07`
 SHA384 | `B6C6C2A02DD2EAD7537B3E7F68415E2C52CAB431DAB33B6EAD84DB6D20DA9B2972863B01A2E3843C356076BCFFC673B5`
 SHA512 | `ABB113470F260496E8E905A9C482EA19636A9B2ED3B08B7D5B5B49823E41259CA30B593A687FA146E185CABD7192EFE74281E48AB84A336F556FAE8A474A2EBB`
 SSDEEP | `192:/bOsPg02O0EAMuDzEAk3ZsThGdgo8jJIbO4kekhwxxth2GcDKI12m6W7gW:/bO5Z1M/Kg7y2bzyOxth20Cj6W7gW`
+IMP | `CCC9DA4A55E90DFE34CBCDB066D6A6B3`
+PESHA1 | `9EDC7BAD27E6FAC0CB86D091E1C1143A24A772B6`
+PE256 | `32D809B75186F9DF9444D05EEC916CADAFD1E87AB46C5763D46570F4C93AF519`
 
 ## Runtime Data
 
@@ -32,6 +36,9 @@ Invalid parameter(s)
 RESET { SESSION }
 
 ```
+
+### Child Processes:
+RdpSa.exe
 
 ### Loaded Modules:
 
@@ -60,6 +67,12 @@ C:\Windows\system32\reset.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/0f45ee243cdc2aaec85dc18b686a86b18d3416729751f273fc094da0a5bccf07/detection/
 
 ## File Similarity (ssdeep match)
 

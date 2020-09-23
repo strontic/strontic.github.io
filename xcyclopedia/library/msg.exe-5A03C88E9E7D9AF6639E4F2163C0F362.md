@@ -1,5 +1,6 @@
 ﻿---
 title: msg.exe | Message Utility
+excerpt: What is msg.exe?
 ---
 
 # msg.exe 
@@ -87,6 +88,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

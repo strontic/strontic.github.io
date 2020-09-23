@@ -1,5 +1,6 @@
 ﻿---
 title: kritarunner.exe | 
+excerpt: What is kritarunner.exe?
 ---
 
 # kritarunner.exe 
@@ -94,6 +95,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

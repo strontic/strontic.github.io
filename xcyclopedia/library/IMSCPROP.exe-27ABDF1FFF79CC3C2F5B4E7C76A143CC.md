@@ -1,5 +1,6 @@
 ﻿---
 title: IMSCPROP.exe | Microsoft Pinyin IME 2012
+excerpt: What is IMSCPROP.exe?
 ---
 
 # IMSCPROP.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:rLR4IE525Q4INddL+dgDXaDKxKpOtNnv2g6ARA49WjHuUqFNwjirgNlf5pLc:rllE
 * Product Version: 15.0.9600.18514
 * Language: Language Neutral
 * Legal Copyright:  2012 Microsoft Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

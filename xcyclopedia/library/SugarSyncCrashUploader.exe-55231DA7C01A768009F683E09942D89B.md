@@ -1,5 +1,6 @@
 ﻿---
 title: SugarSyncCrashUploader.exe | 
+excerpt: What is SugarSyncCrashUploader.exe?
 ---
 
 # SugarSyncCrashUploader.exe 
@@ -47,6 +48,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: DpiScaling.exe | Display Control Panel
+excerpt: What is DpiScaling.exe?
 ---
 
 # DpiScaling.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:HX91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJjy:3OwNMSqoKXNvuZ
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

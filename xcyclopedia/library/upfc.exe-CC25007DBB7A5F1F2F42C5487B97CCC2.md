@@ -1,5 +1,6 @@
 ﻿---
 title: upfc.exe | Updateability From SCM
+excerpt: What is upfc.exe?
 ---
 
 # upfc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:BMUpKLj2imosk7z9fcDvDxQWZnvkqPt2m64Sxb0:+2sj2fG7zFcDvDxpR2GSq`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

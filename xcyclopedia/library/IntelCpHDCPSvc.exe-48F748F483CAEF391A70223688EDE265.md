@@ -1,5 +1,6 @@
 ﻿---
 title: IntelCpHDCPSvc.exe | IntelCpHDCPSvc Executable
+excerpt: What is IntelCpHDCPSvc.exe?
 ---
 
 # IntelCpHDCPSvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:GLH9xuWtwcMXvTIIj7r0BaycmVJTEkx04YGoGismQP3M14u5pJrZgQp45w1e:GD5t
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015
+
 
 
 

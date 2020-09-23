@@ -1,5 +1,6 @@
 ﻿---
 title: NisSrv.exe | Microsoft Network Realtime Inspection Service
+excerpt: What is NisSrv.exe?
 ---
 
 # NisSrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:BkJTnMm2McXrkpFYCllKuIe5S307CTvME4kC8r37UnyZ:tbelKuur371Z`
 * Product Version: 4.18.2004.6
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

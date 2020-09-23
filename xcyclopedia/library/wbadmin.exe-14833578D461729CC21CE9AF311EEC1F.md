@@ -1,5 +1,6 @@
 ﻿---
 title: wbadmin.exe | Command Line Interface for Microsoft BLB Backup
+excerpt: What is wbadmin.exe?
 ---
 
 # wbadmin.exe 
@@ -17,6 +18,9 @@ SHA256 | `382B033D559B33D801F77776F4D6ECB180703C14A3CE5B91277A5B589B2F8B18`
 SHA384 | `9AF2F99ADFCA212458EFC51D321BCA5266048990F6505B69ECD7C3E30855DB23EA32949561352B3C9E90E6B0C599261E`
 SHA512 | `DD1854742B76745F150E8C304A9A3DA715FE4C55D8505E1C49FA2C1979A403E79576D178450B43F014C805FBA08F51614127764FD05F2B9AD35C8BEC41F53E80`
 SSDEEP | `6144:F2qRmqUH1IHdfS08hQ/Cv1Sx4I48OUFfa6/9xkluvAloZNsEI:UqUcdS651ZDZKEI`
+IMP | `D72A8A096458529EDF54E67F5F212651`
+PESHA1 | `E72EC04F6A3754D2439D66DB7F5B84CB927AE6C1`
+PE256 | `5CDC83B7A105D1B7B5A0901869A0C166A143A31D9CC6F9106B6B093B36E480D1`
 
 ## Runtime Data
 
@@ -68,6 +72,12 @@ C:\Windows\system32\wbadmin.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/382b033d559b33d801f77776f4d6ecb180703c14a3ce5b91277a5b589b2f8b18/detection/
 
 
 ## Possible Misuse
@@ -78,7 +88,6 @@ Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_malware_wannacry.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml) | `- '*wbadmin delete catalog -quiet*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- wbadmin.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_process_creations.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_process_creations.yml) | `- '* wbadmin.exe delete catalog -quiet*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | * <code>wbadmin.exe</code> can be used to delete the Windows Backup Catalog - <code>wbadmin.exe delete catalog -quiet</code> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1490.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md) | wbadmin.exe delete catalog -quiet | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 

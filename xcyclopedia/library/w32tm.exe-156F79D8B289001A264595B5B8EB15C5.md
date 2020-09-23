@@ -1,5 +1,6 @@
 ﻿---
 title: w32tm.exe | Windows Time Service Diagnostic Tool
+excerpt: What is w32tm.exe?
 ---
 
 # w32tm.exe 
@@ -178,6 +179,7 @@ w32tm /leapseconds /getstatus [/verbose]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

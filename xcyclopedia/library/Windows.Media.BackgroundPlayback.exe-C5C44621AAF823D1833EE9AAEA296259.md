@@ -1,5 +1,6 @@
 ﻿---
 title: Windows.Media.BackgroundPlayback.exe | Windows Media Playback EXE
+excerpt: What is Windows.Media.BackgroundPlayback.exe?
 ---
 
 # Windows.Media.BackgroundPlayback.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:o3zYuEkxShCP40zZZUo2DEiVaOcB2BPHTv/qGSjqOsJ41A9GX0KcW95WE:o3cuEcSU
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

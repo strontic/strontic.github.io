@@ -1,5 +1,6 @@
 ﻿---
 title: powercfg.exe | Power Settings Command-Line Tool
+excerpt: What is powercfg.exe?
 ---
 
 # powercfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:vJlF3MTcYL3B9+OYG2NzFv+7iV23q3pw+OBWu6gLKtvcLbdsgcNB:vJ70YzNNVnw+
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

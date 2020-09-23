@@ -1,5 +1,6 @@
 ﻿---
 title: DmNotificationBroker.exe | DmNotificationBroker
+excerpt: What is DmNotificationBroker.exe?
 ---
 
 # DmNotificationBroker.exe 
@@ -17,6 +18,9 @@ SHA256 | `9E5F3D2A0D483D36CC69B958C6BAC7DB679F9B9083D9443E0920634493DC15CF`
 SHA384 | `A0A9B124F5610C9F4233D03605CDC8527FF61E1A4644483CC29CDFE6EB7576DFF64C366F5EADDDE89DF7C411B136E257`
 SHA512 | `303195572095B150E69C93939424A46060E651805914BDEC8A06C19501890E4F7F477FC8116393DCA74ADC07522750812402A8AB810A9845E96FACDA06BDBB7A`
 SSDEEP | `384:mHmlyfSLvL4jzt245j6/VG7laAeSsiFMeONwsiOAuJAnYl2R/KHZgUJVjeYeITWQ:mHmXLvL4g4SwdRJpQZl0/QtLjy2`
+IMP | `289708B41323FCB3D276BCFB9F56B2E7`
+PESHA1 | `D7DB6EFCFD4A16072613D7E1682A29CBC1E5C961`
+PE256 | `DCC717B088AF7212C212D32C46A93F199F934C38F51B19B6D1BD15790648D0AE`
 
 ## Runtime Data
 
@@ -33,6 +37,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
 
 
 ## Signature
@@ -52,6 +57,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/9e5f3d2a0d483d36cc69b958c6bac7db679f9b9083d9443e0920634493dc15cf/detection/
 
 
 

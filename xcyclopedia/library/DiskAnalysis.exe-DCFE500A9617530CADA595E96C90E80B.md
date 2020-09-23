@@ -1,5 +1,6 @@
 ﻿---
 title: DiskAnalysis.exe | Glary Utilities DiskAnalysis
+excerpt: What is DiskAnalysis.exe?
 ---
 
 # DiskAnalysis.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:00zqFDA2VoceDkVyHyBrOp0dgdC/DsvyXsn9koQOUR:0lN3VyHg6KWfvqsn9kJOk
 * Product Version: 5.27.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

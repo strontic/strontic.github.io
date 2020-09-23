@@ -1,5 +1,6 @@
 ﻿---
 title: setupsqm.exe | Setup SQM Tool
+excerpt: What is setupsqm.exe?
 ---
 
 # setupsqm.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:fGm/abOF2skWUCLnQHWwxmRs70hOFUPt5NgB5FXIJAwK7dek2jhKogeFaLW/wNW:/a
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

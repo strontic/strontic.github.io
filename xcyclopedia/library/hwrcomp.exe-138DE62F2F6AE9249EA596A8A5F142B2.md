@@ -1,5 +1,6 @@
 ﻿---
 title: hwrcomp.exe | Microsoft Custom Dictionary Compiler
+excerpt: What is hwrcomp.exe?
 ---
 
 # hwrcomp.exe 
@@ -63,6 +64,7 @@ hwrcomp -lang en-US -type SECONDARY-DICTIONARY -o myrsrc1 mylist1.txt
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

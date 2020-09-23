@@ -1,5 +1,6 @@
 ﻿---
 title: ssh-agent.exe | 
+excerpt: What is ssh-agent.exe?
 ---
 
 # ssh-agent.exe 
@@ -16,6 +17,9 @@ SHA256 | `79C03E83B42E3C0402680B47A2493C3C506E2D212062859BD7C4EBACA46F3AD5`
 SHA384 | `062C92AFE3DDD6CF63F575635036C84FF3311471D928FB2BC731D6023F67B4CE7DBF21754D22272888952966FF3A106B`
 SHA512 | `6C1077035A534C51586CF4ADAF6F7387AB3411F0C0662A3331F238D2C1F4BA007D352324B9B901ECE8838C3C458EE3526A1F88471672F8451EC87B82F7A217D5`
 SSDEEP | `6144:wE7PBeGGXEkgumpLL5szsz/uyNPgfdaDb2O7fcCnDto/HOvtBCrljcz:J7J1GlvQRSyVammkfCrljcz`
+IMP | `C3450B747B22F2447BB5C3214451ADA3`
+PESHA1 | `9F39153A279CFDFF7AB7DFAE1A83900ED6EF90B5`
+PE256 | `FD6D1ECE2E8DAA5ADAD01E4E3CF1589F502A3BA62FEF25896C5FA58889BB9AD4`
 
 ## Runtime Data
 
@@ -29,7 +33,10 @@ unable to start ssh-agent service, error :1058
 
 Path |
 -- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\OpenSSH\ssh-agent.exe |
 
 
 ## Signature
@@ -49,6 +56,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/79c03e83b42e3c0402680b47a2493c3c506e2d212062859bd7c4ebaca46f3ad5/detection/
 
 ## File Similarity (ssdeep match)
 

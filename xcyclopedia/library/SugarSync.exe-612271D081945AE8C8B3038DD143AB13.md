@@ -1,5 +1,6 @@
 ﻿---
 title: SugarSync.exe | SugarSync
+excerpt: What is SugarSync.exe?
 ---
 
 # SugarSync.exe 
@@ -88,6 +89,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4.0.1.2
 * Language: English (United States)
 * Legal Copyright: (c) 2020 KeepItSafe, Inc.
+
 
 
 

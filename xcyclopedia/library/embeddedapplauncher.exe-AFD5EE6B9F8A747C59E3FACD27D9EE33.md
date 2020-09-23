@@ -1,5 +1,6 @@
 ﻿---
 title: embeddedapplauncher.exe | Embedded App Launcher
+excerpt: What is embeddedapplauncher.exe?
 ---
 
 # embeddedapplauncher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:VNnFc/FIjSAwIA68rx9GHooYJJwzckZzyB0E5ho71Pm1I:7OG22e2UBN5hkPCI`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

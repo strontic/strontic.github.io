@@ -1,5 +1,6 @@
 ﻿---
 title: lodctr.exe | Load PerfMon Counters
+excerpt: What is lodctr.exe?
 ---
 
 # lodctr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:DukbZlM8qG3WJqmR7YDP7Bx/W1HvcGkMowOZONNWUS1ce:JlM85iMDW1HEGkPZgNWU
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: gpgme-w32spawn.exe | 
+excerpt: What is gpgme-w32spawn.exe?
 ---
 
 # gpgme-w32spawn.exe 
@@ -53,6 +54,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

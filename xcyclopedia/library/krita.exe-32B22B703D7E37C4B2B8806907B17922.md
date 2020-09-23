@@ -1,5 +1,6 @@
 ﻿---
 title: krita.exe | 
+excerpt: What is krita.exe?
 ---
 
 # krita.exe 
@@ -224,6 +225,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: rasdial.exe | Remote Access Command Line Dial UI
+excerpt: What is rasdial.exe?
 ---
 
 # rasdial.exe 
@@ -54,6 +55,7 @@ USAGE:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

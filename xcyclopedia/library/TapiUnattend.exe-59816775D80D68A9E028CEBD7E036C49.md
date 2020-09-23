@@ -1,5 +1,6 @@
 ﻿---
 title: TapiUnattend.exe | Microsoft Windows(TM) Telephony Unattend Action
+excerpt: What is TapiUnattend.exe?
 ---
 
 # TapiUnattend.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:5qeadkYPdilaGPwrndYV9WJ2VNF7PUWjrD50pHMhLVtmYGmW/LUWh+:58vPUYWkzJ2
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

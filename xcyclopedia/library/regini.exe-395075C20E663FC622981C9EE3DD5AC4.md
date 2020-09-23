@@ -1,5 +1,6 @@
 ﻿---
 title: regini.exe | Registry Initializer
+excerpt: What is regini.exe?
 ---
 
 # regini.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:SPGlVogExyylLJs04JcSfnWB3I6I/4cMo2dJ3gf1HmSjNJTHLPT4unrunr7FSjTm:S
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: securekernel.exe | NT Secure Kernel
+excerpt: What is securekernel.exe?
 ---
 
 # securekernel.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:MJr0A2k2UW4VV6KJJAw2hYUehvrtUN/N30HiPttttQAoMcZXGa:MJ4LV4PL2hYUA
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

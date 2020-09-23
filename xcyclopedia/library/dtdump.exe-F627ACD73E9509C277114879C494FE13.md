@@ -1,5 +1,6 @@
 ﻿---
 title: dtdump.exe | DTDUMP.EXE
+excerpt: What is dtdump.exe?
 ---
 
 # dtdump.exe 
@@ -48,6 +49,7 @@ C:\Windows\SysWOW64\dtdump.exe |
 * Product Version: 10.0.17763.1397
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

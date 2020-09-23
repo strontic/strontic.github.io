@@ -1,5 +1,6 @@
 ﻿---
 title: typeperf.exe | Command line performance monitor
+excerpt: What is typeperf.exe?
 ---
 
 # typeperf.exe 
@@ -17,6 +18,9 @@ SHA256 | `7DA4FB590C5BCB0A98BAB84BC587CCC728DEFDFFF7139FC7994734F192CAC385`
 SHA384 | `FC4591CDE7318755D562EB76D6473DB7BFFC24C5B7EECFB47BA21C7C5ABD1CD068D2363C89966C63820864F3CD2E97E1`
 SHA512 | `42022E771A4C19FBED2488953C7600544661259FD0C15F1F8B7DB692480E1E2768D4D1CFD43C5C77D8DFC4558D1BF1FB62910A052A5CDDDB24FE5E5ABF6994DE`
 SSDEEP | `1536:h/BL4f+eh450dilLWuwUrt0uXjF2xtpLmiuMa4NS5EO:yE0IlZ9ItpLmiuMaiS53`
+IMP | `6C6EF5458AE158C242617DDB457DC4C9`
+PESHA1 | `BDF2AC6DF06D690CF3D8093DB195D264BC5199F0`
+PE256 | `BA96E79581C31DB75F22CF6829D0FE16FF013B05950AB2DCE409A2AE7DB9DA92`
 
 ## Runtime Data
 
@@ -84,8 +88,8 @@ C:\Windows\system32\typeperf.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -98,6 +102,12 @@ C:\Windows\system32\typeperf.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/7da4fb590c5bcb0a98bab84bc587ccc728defdfff7139fc7994734f192cac385/detection/
 
 
 

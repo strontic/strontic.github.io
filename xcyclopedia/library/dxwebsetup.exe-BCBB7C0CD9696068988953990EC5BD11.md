@@ -1,5 +1,6 @@
 ﻿---
 title: dxwebsetup.exe | DirectX 9.0 Web setup
+excerpt: What is dxwebsetup.exe?
 ---
 
 # dxwebsetup.exe 
@@ -69,6 +70,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 9.29.1974.0
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

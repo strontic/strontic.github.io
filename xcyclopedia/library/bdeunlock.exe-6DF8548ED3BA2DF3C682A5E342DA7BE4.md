@@ -1,5 +1,6 @@
 ﻿---
 title: bdeunlock.exe | BitLocker Unlock
+excerpt: What is bdeunlock.exe?
 ---
 
 # bdeunlock.exe 
@@ -17,6 +18,9 @@ SHA256 | `387911A1AC9D717420B0BD6E4C8055EF2EC75C66C64FFA2447B12D49E95AC4B4`
 SHA384 | `68945F14D385A7F8C3F9C1F4C3533630CB4181DF72646509F121F6B22D75126C8948AC6F66DC723794D3D01095B14B8B`
 SHA512 | `A151B05BD05C986A7B4B358D18ABBAD7F56CFD723FFAD36D7CD7B8B515A21DD1F67650271B9EE9269BD8BF6B474CA579849273EBC9378E070960617FBD4E7F37`
 SSDEEP | `6144:8v4KaSwBeBLnDXjosNiGkPHgmqEwo4ndpjVs7nyatGt+SYFSW2:8v1aS6eBzDXjosNiGkvgmqEwTd1H+S+`
+IMP | `62596CD98BFD22A43D0FBC85C9A00B6F`
+PESHA1 | `67EEED5D03FB25862A9FF9EBE5185913C02066A1`
+PE256 | `DEB1475870A373DF000D64FC6E441DB1B581722319E24D6E52EB382E760D0455`
 
 ## Runtime Data
 
@@ -31,18 +35,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\Windows.UI.Immersive.dll.mui | File
 (R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RWD)   C:\Windows\Fonts\segoeui.ttf | File
 (RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
 (RWD)   C:\Windows\Fonts\seguisym.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 
@@ -62,7 +62,6 @@ C:\Windows\system32\DUser.dll |
 C:\Windows\system32\FVEAPI.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -82,8 +81,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -96,6 +95,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/387911a1ac9d717420b0bd6e4c8055ef2ec75c66c64ffa2447b12d49e95ac4b4/detection/
 
 ## File Similarity (ssdeep match)
 

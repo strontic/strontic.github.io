@@ -1,5 +1,6 @@
 ﻿---
 title: logman.exe | Performance Log Utility
+excerpt: What is logman.exe?
 ---
 
 # logman.exe 
@@ -185,6 +186,7 @@ Examples:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

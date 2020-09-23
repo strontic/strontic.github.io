@@ -1,5 +1,6 @@
 ﻿---
 title: diskshadow.exe | DiskShadow
+excerpt: What is diskshadow.exe?
 ---
 
 # diskshadow.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:554+IPTyvXipu2C4pOZjf6O9MMXtEdiFR2tWUtLz6QOx4X+H:554+11X8uR2cXiO`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

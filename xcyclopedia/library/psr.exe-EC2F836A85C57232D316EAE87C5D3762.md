@@ -1,5 +1,6 @@
 ﻿---
 title: psr.exe | Steps Recorder
+excerpt: What is psr.exe?
 ---
 
 # psr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:5XWREgol+AtjWRux5ZX6SBDbWOIGmteHBRR3FnXj+n/Ce3sLG+9r5OPhvvBif:pWR
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

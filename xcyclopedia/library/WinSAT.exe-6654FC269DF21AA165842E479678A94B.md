@@ -1,5 +1,6 @@
 ﻿---
 title: WinSAT.exe | Windows System Assessment Tool
+excerpt: What is WinSAT.exe?
 ---
 
 # WinSAT.exe 
@@ -186,6 +187,7 @@ Error: Unable to run inside of a Virtual Machine.  Please try again running dire
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

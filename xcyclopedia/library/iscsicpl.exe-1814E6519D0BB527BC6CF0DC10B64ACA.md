@@ -1,5 +1,6 @@
 ﻿---
 title: iscsicpl.exe | Microsoft iSCSI Initiator Configuration Tool
+excerpt: What is iscsicpl.exe?
 ---
 
 # iscsicpl.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:m/5zvUR/NZNKln9Y8p2kvnxDGjoBcHz0yjCyj9ZBxbDeSD1MM7kmqDJWRxkMC58y:mV
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

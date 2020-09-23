@@ -1,5 +1,6 @@
 ﻿---
 title: TieringEngineService.exe | Storage Tiers Management
+excerpt: What is TieringEngineService.exe?
 ---
 
 # TieringEngineService.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:incvuqJnJNcvIvSGiRHCOnIqSZvjjO8kgd2RIKciIseA:TDJnJM4OpSpnO8kTDl`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

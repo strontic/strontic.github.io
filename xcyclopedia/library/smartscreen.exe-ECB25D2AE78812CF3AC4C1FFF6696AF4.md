@@ -1,5 +1,6 @@
 ﻿---
 title: smartscreen.exe | Windows Defender SmartScreen
+excerpt: What is smartscreen.exe?
 ---
 
 # smartscreen.exe 
@@ -49,6 +50,7 @@ C:\Windows\system32\smartscreen.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

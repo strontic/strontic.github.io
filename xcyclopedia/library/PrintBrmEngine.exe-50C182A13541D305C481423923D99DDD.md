@@ -1,5 +1,6 @@
 ﻿---
 title: PrintBrmEngine.exe | PrintBrmEngine EXE
+excerpt: What is PrintBrmEngine.exe?
 ---
 
 # PrintBrmEngine.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:AQ2u8uIStqyiEsH+mPeHSvww1djmtYHKUc:t2uIwqVEOzPySX1dIsKU`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: steamerrorreporter.exe | steamerrorreporter.exe
+excerpt: What is steamerrorreporter.exe?
 ---
 
 # steamerrorreporter.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:mCNXmPx4jVmBhphvUwP9bKFiAENm2eK7mnoUSgpAY8ODcDcm7cIs5JmAO1wlER0a:
 * Product Version: 03.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2010 Valve Corporation
+
 
 ## File Similarity (ssdeep match)
 

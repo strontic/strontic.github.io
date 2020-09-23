@@ -1,5 +1,6 @@
 ﻿---
 title: systemreset.exe | System Reset for Windows
+excerpt: What is systemreset.exe?
 ---
 
 # systemreset.exe 
@@ -17,6 +18,9 @@ SHA256 | `DDFCDB2AA1406DF0F4BA57FE205AF2393DA7874EBB65708229996B8D850CB6D1`
 SHA384 | `4FD7B34DFE9273174872A1087C096F4C614A2A76B5344FB60AA8C8FF9B33C695CA1EE99BBB479C15E7DEB4B94E5D2BEE`
 SHA512 | `3A00D704577A54FCBA58AAFBCB3C5F460FD451A5A8F6DF8F3B711C4FFDEFA8FF650194EF3BAB70E9C9F49EE0C80A98BC32E4396113069C6EA899CB06FB09557F`
 SSDEEP | `6144:UDIrA4zB/KTXlvKv6/d9ECOHsWPiJ/9akwBqARoqd/qLV7KUIQGEEEsND0ZCYWhg:GWA4B/KTXlSvo9ECcaJ/ckwBqA7`
+IMP | `566F89A444B31198B209EEF816C285A3`
+PESHA1 | `8709D623C7359C8C2978139E9D80FB2FC05BEB89`
+PE256 | `6C6AC86681BD5DB2B7B93AACB2E799E1FA774D80AE5C1F02E249E3BC43D664CC`
 
 ## Runtime Data
 
@@ -36,21 +40,17 @@ Path | Type
 (R-D)   C:\Windows\SystemResources\Windows.UI.Immersive.dll.mun | File
 (RW-)   C:\$SysReset\Logs\setupact.log | File
 (RW-)   C:\$SysReset\Logs\setuperr.log | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\System32 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RWD)   C:\Windows\Fonts\segoeuil.ttf | File
 (RWD)   C:\Windows\Fonts\segoeuisl.ttf | File
 (RWD)   C:\Windows\Fonts\seguisb.ttf | File
 (RWD)   C:\Windows\Fonts\seguisym.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\SetupLogSection | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 
@@ -60,20 +60,31 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\system32\systemreset.exe |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -86,6 +97,12 @@ C:\Windows\system32\systemreset.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/ddfcdb2aa1406df0f4ba57fe205af2393da7874ebb65708229996b8d850cb6d1/detection/
 
 ## File Similarity (ssdeep match)
 

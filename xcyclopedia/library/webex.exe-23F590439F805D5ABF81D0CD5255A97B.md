@@ -1,5 +1,6 @@
 ﻿---
 title: webex.exe | Cisco Webex Meeting
+excerpt: What is webex.exe?
 ---
 
 # webex.exe 
@@ -36,6 +37,7 @@ SSDEEP | `12288:RujXKKv7VnbJKNWL5eM5fNmaKIDeyBUruYo7g1jA1F3RhNT5bsmoihBwF6kk:EXK
 * Language: English (United States)
 * Legal Copyright:  2018 Cisco and/or its affiliates. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -49,7 +51,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_prog_location_network_connection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_susp_prog_location_network_connection.yml) | `# - '*\ProgramData\\*'  # too many false positives, e.g. with Webex for Windows` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_malware_MacOS_plist_suspicious.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_malware_MacOS_plist_suspicious.yar) |       $fp2 = "<string>com.cisco.base64</string>"  // Webex | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_malware_MacOS_plist_suspicious.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_malware_MacOS_plist_suspicious.yar) | $fp2 = "<string>com.cisco.base64</string>"  // Webex | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

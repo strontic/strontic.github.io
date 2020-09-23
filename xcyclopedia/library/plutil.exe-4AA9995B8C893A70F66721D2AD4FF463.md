@@ -1,5 +1,6 @@
 ﻿---
 title: plutil.exe | defaults
+excerpt: What is plutil.exe?
 ---
 
 # plutil.exe 
@@ -95,6 +96,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 1,950,522,0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2007-2011, Apple Inc.
+
 
 
 

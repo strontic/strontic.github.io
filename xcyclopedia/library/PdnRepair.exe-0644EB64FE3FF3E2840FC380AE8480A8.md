@@ -1,5 +1,6 @@
 ﻿---
 title: PdnRepair.exe | paint.net Repair Utility
+excerpt: What is PdnRepair.exe?
 ---
 
 # PdnRepair.exe 
@@ -94,6 +95,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 4.213.7521.38873
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020 dotPDN LLC, Rick Brewster, and contributors. All Rights Reserved.
+
 
 ## File Similarity (ssdeep match)
 

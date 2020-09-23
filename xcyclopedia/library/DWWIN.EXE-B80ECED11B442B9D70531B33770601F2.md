@@ -1,5 +1,6 @@
 ﻿---
 title: DWWIN.EXE | Windows Error Reporting
+excerpt: What is DWWIN.EXE?
 ---
 
 # DWWIN.EXE 
@@ -17,6 +18,9 @@ SHA256 | `28F96CDD44F4EF2350F47E4C3E9FDA9F0FFA880796533B9A377EDEB89BBDE450`
 SHA384 | `2CF84A642AB9321A4CC4DAA6EBF5D063B60992E4899AAA3C432FD2A22A65E38F36237053AD98C46F770B9C055CCC7F83`
 SHA512 | `F5613225680E24E51D9FC7D2E2A651AA17B31D529D7C787A361460B8A64DCC9D7879C4C375A98D3877EC05184B58800953170FD4CABAFFB3288E20AF880E42A1`
 SSDEEP | `6144:pN02zDVUu0Rzw76cL3K7N5MAVPwmnUdP1PoPrPwGck3Zm8gFt1z:pN+BzFcLE3/VPwmnUdP1PoPrPwGckpHC`
+IMP | `FE9551C19FFA0B0B4EC670BA900DCB7F`
+PESHA1 | `71B59E41D194E56F937731464FF577B7D8743C1E`
+PE256 | `842AFFB29CAA2A4C00339170A4BB7DE6D5F75E9C49E791C4FEB84FE9CF9CB429`
 
 ## Runtime Data
 
@@ -35,7 +39,6 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\system32\VERSION.dll |
 C:\Windows\system32\wer.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -55,6 +58,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/28f96cdd44f4ef2350f47e4c3e9fda9f0ffa880796533b9a377edeb89bbde450/detection/
 
 ## File Similarity (ssdeep match)
 

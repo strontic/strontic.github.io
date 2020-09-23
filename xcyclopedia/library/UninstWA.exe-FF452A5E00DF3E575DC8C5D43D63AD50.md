@@ -1,5 +1,6 @@
 ﻿---
 title: UninstWA.exe | Winamp Installer
+excerpt: What is UninstWA.exe?
 ---
 
 # UninstWA.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.80 Build 3660
 * Language: English (United States)
 * Legal Copyright: Copyright  1997-2016 Winamp SA
+
 
 
 

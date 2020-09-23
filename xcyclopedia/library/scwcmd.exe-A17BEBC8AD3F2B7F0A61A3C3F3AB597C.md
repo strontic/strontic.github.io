@@ -1,5 +1,6 @@
 ﻿---
 title: scwcmd.exe | Windows Security Configuration Wizard Command Tool
+excerpt: What is scwcmd.exe?
 ---
 
 # scwcmd.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:5lSvl17gK7zL24Ti9ZgzO9m/o5NvvtwiGenAA10qZvd+AvoLOtuC0c:5gX733TiMy
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

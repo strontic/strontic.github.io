@@ -1,5 +1,6 @@
 ﻿---
 title: secinit.exe | Security Init
+excerpt: What is secinit.exe?
 ---
 
 # secinit.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:CKNAiCFxj6uGwYQhXhtwtm+QkdW8vWzRiWdpFY:C9Rrj6uGwYQRv8PrdW8vWzRiWds
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

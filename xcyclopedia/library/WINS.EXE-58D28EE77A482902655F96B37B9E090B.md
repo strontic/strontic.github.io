@@ -1,5 +1,6 @@
 ﻿---
 title: WINS.EXE | WINS SERVER
+excerpt: What is WINS.EXE?
 ---
 
 # WINS.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `3072:M79Z3kCPg/IUHeYrhwxF6OYreLtfir8KvZe2muRq7ZCXOCpc7Ujq29/mLxQsbplh:
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

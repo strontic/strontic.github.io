@@ -1,5 +1,6 @@
 ﻿---
 title: phoneactivate.exe | Phone Activation UI
+excerpt: What is phoneactivate.exe?
 ---
 
 # phoneactivate.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:Bz2qdTHUFZjPchDTzJcS3r16z4n019VtJSBTCnG9ZDTNjGPI1:4qdYTcVlrDQtJ29
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

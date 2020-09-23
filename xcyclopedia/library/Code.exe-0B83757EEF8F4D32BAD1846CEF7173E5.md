@@ -1,5 +1,6 @@
 ﻿---
 title: Code.exe | Visual Studio Code
+excerpt: What is Code.exe?
 ---
 
 # Code.exe 
@@ -114,6 +115,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 1.48.2
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2019 Microsoft. All rights reserved
+
 
 ## File Similarity (ssdeep match)
 

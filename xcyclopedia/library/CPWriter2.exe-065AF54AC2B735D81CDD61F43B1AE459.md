@@ -1,5 +1,6 @@
 ﻿---
 title: CPWriter2.exe | 
+excerpt: What is CPWriter2.exe?
 ---
 
 # CPWriter2.exe 
@@ -34,6 +35,7 @@ SSDEEP | `1536:uJ2BJO4KT+kc6gp0+wI5p9GTkIzzRRQ/PseebVT62yNZbsK8+IstBe/qYu/RS:xtv
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

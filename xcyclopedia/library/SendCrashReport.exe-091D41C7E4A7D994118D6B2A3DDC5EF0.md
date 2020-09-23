@@ -1,5 +1,6 @@
 ﻿---
 title: SendCrashReport.exe | SendCrashReport
+excerpt: What is SendCrashReport.exe?
 ---
 
 # SendCrashReport.exe 
@@ -83,6 +84,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.2.1.725
 * Language: Language Neutral
 * Legal Copyright: Copyright  2013-2020 Foxit Software Inc. All Rights Reserved.
+
 
 
 

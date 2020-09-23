@@ -1,5 +1,6 @@
 ﻿---
 title: gtk-query-immodules-2.0.exe | 
+excerpt: What is gtk-query-immodules-2.0.exe?
 ---
 
 # gtk-query-immodules-2.0.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

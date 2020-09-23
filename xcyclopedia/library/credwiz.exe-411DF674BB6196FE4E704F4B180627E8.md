@@ -1,5 +1,6 @@
 ﻿---
 title: credwiz.exe | Credential Backup and Restore Wizard
+excerpt: What is credwiz.exe?
 ---
 
 # credwiz.exe 
@@ -74,6 +75,7 @@ C:\Windows\SysWOW64\credwiz.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

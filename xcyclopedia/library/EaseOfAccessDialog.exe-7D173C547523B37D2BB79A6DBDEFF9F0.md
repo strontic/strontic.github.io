@@ -1,5 +1,6 @@
 ﻿---
 title: EaseOfAccessDialog.exe | Ease of Access Dialog Host
+excerpt: What is EaseOfAccessDialog.exe?
 ---
 
 # EaseOfAccessDialog.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:yi+1oLjBFRtzUpMeuLhzwlh46faS7w50/u7K8iKZYT1hoKUHjgnsWaiT:yi702LZw
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

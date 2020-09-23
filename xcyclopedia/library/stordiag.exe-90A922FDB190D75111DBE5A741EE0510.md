@@ -1,5 +1,6 @@
 ﻿---
 title: stordiag.exe |  
+excerpt: What is stordiag.exe?
 ---
 
 # stordiag.exe 
@@ -58,6 +59,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

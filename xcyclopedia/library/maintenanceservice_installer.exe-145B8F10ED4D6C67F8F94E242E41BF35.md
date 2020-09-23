@@ -1,5 +1,6 @@
 ﻿---
 title: maintenanceservice_installer.exe | Mozilla Maintenance Service Installer
+excerpt: What is maintenanceservice_installer.exe?
 ---
 
 # maintenanceservice_installer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:iIlLpNjldDfiLurUNRD5bDJoyAWP73UdRDEbl7y4wP73L:ispNjlsAUjD5RXP73UT
 * Product Version: 78.1.1
 * Language: English (United States)
 * Legal Copyright: Mozilla Corporation
+
 
 ## File Similarity (ssdeep match)
 

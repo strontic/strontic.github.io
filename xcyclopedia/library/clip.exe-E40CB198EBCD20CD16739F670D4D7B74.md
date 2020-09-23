@@ -1,5 +1,6 @@
 ﻿---
 title: clip.exe | Clip - copies the data into clipboard
+excerpt: What is clip.exe?
 ---
 
 # clip.exe 
@@ -17,6 +18,9 @@ SHA256 | `6CDC8D3C147DCF7253C0FB7BB552B4AE918ABA4058CC072A2320A7297D4FBED7`
 SHA384 | `EC95F7C7CC1D0F72AC9ABCF24C6BECA45B9B01F3E42945A308302311943064D237159AB647E535BB1BD039640DFCBFFA`
 SHA512 | `1E5A68B2AE30C7D16A0A74807FA069BE2D1B8ADCFCBCDE777217B9420A987196AF13FB05177E476157029A1F7916E6948A1286CDB8957CDD142756DA3C42BEEF`
 SSDEEP | `384:R7OPm5RmB6C+DlVbrb6IQhH48oOhQ76pXeEYfM3G8HIdkLWXKQAF900kdxLd73NV:R7OPQc+DlVbrvQhYWhQ+BeEYfyRHPcZl`
+IMP | `2E4F8B6217B6FC3E22F837FF8337F26B`
+PESHA1 | `5FDD96068858E1DFD8414A1B87589B2C0FE15FEC`
+PE256 | `76A402561ADE86AA7E2C6D1850B8ACD5E779BDBAB2EA3AEA1F3F9DE52C3289AC`
 
 ## Runtime Data
 
@@ -54,6 +58,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\clip.exe |
 
@@ -75,6 +80,12 @@ C:\Windows\SysWOW64\clip.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/6cdc8d3c147dcf7253c0fb7bb552b4ae918aba4058cc072a2320a7297d4fbed7/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: wininst-14.0-amd64.exe | 
+excerpt: What is wininst-14.0-amd64.exe?
 ---
 
 # wininst-14.0-amd64.exe 
@@ -79,6 +80,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

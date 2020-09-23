@@ -1,5 +1,6 @@
 ﻿---
 title: FSViewer.exe | FastStone Image Viewer
+excerpt: What is FSViewer.exe?
 ---
 
 # FSViewer.exe 
@@ -78,6 +79,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 7.5
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2020 by FastStone Soft
+
 
 
 

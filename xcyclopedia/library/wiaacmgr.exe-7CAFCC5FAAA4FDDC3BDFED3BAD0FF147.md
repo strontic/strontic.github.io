@@ -1,5 +1,6 @@
 ﻿---
 title: wiaacmgr.exe | Windows Picture Acquisition Wizard
+excerpt: What is wiaacmgr.exe?
 ---
 
 # wiaacmgr.exe 
@@ -92,6 +93,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.139
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

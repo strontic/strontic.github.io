@@ -1,5 +1,6 @@
 ﻿---
 title: RelPost.exe | Windows Diagnosis and Recovery
+excerpt: What is RelPost.exe?
 ---
 
 # RelPost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:3sFam0B3VWzOsZO+xjNuIiL3OjONyxDsFEPpLGnAuegPO8evTq2Vl:3kN0BFW/YwJ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

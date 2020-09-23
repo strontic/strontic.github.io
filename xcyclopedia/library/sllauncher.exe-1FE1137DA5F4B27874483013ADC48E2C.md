@@ -1,5 +1,6 @@
 ﻿---
 title: sllauncher.exe | Microsoft Silverlight Out-of-Browser Launcher
+excerpt: What is sllauncher.exe?
 ---
 
 # sllauncher.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 5.1.50918.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: RdpSa.exe | RDP Session Agent
+excerpt: What is RdpSa.exe?
 ---
 
 # RdpSa.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:0v/g9z8dx/qjNeffrkmVZeuLh4ZK1a56ZNRo:0Xg9z8rqxeffImyZK1a56`
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

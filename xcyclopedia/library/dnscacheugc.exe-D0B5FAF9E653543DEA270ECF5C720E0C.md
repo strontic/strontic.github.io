@@ -1,5 +1,6 @@
 ﻿---
 title: dnscacheugc.exe | DNSCache Unattend Generic Command
+excerpt: What is dnscacheugc.exe?
 ---
 
 # dnscacheugc.exe 
@@ -17,6 +18,9 @@ SHA256 | `06C1EC3A9F90B6822F51B3601708856DB4E825B83C85208C77731A408FA5FE00`
 SHA384 | `5E99E534A4D4D8A579848015E19B34A8868DFD4D54809EC0AD2945DB65A5AF8ABB806852B4ED2795A929068CBD1C7F2F`
 SHA512 | `E280B8A804AF4090B1D2F2466F590F64FB6E8C1B239BE7441CDA2DDD5E305289BE00DF50E3039F993009AD30E8446EC1EA80358098CB0789C7489B13AACF4E08`
 SSDEEP | `384:MOMpQtypR6VBwYSiNGYRYXK/xrIjW5ApbzfegUASYPryc1ObH9uoskePEkUIsf7i:ypaTSiIsAWLgzZBEkUIsf71OMh`
+IMP | `4A3D4F031F8C441FBD0BA2F1249E1D03`
+PESHA1 | `A086891F596160CB82A465B7696FB31CA01C9FEA`
+PE256 | `2246B7ABF9FA718184E079925BF004B148844E7308C45816D6D0DBEB059DB641`
 
 ## Runtime Data
 
@@ -33,8 +37,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +51,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/06c1ec3a9f90b6822f51b3601708856db4e825b83c85208c77731a408fa5fe00/detection/
 
 ## File Similarity (ssdeep match)
 

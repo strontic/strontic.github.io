@@ -1,5 +1,6 @@
 ﻿---
 title: pythonw.exe | Python
+excerpt: What is pythonw.exe?
 ---
 
 # pythonw.exe 
@@ -69,6 +70,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.8.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2001-2016 Python Software Foundation. Copyright  2000 BeOpen.com. Copyright  1995-2001 CNRI. Copyright  1991-1995 SMC.
+
 
 
 

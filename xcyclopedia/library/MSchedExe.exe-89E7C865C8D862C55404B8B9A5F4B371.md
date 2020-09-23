@@ -1,5 +1,6 @@
 ﻿---
 title: MSchedExe.exe | Automatic Maintenance
+excerpt: What is MSchedExe.exe?
 ---
 
 # MSchedExe.exe 
@@ -17,6 +18,9 @@ SHA256 | `B48D5B58D9BBF92FBFFBA06D98E695218676D3BA1D4A060C08E3B9EF1650110C`
 SHA384 | `9800D46BF83318819EBFB157CD514922DF7901892901EA79C5B002023F6F2C98D39A971AC3AFE9EFE13DAA07F1860FE8`
 SHA512 | `15EE9D59BD528D3E5897C7574552A8AFE68E592E5064D03B1BC9F7B5F3F9BE308A9A2E39BEE7B8A190C4DEC5EB36FCFB347D488187B93E352AC03B2DD6E4DFCD`
 SSDEEP | `1536:piDtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jx:EzECTMpuDhjRVJGb`
+IMP | `9BB805D1418F5443C74B46538E23AA97`
+PESHA1 | `08AAC218ED9B5BAF3B12ABEC552BC2B7952DEF66`
+PE256 | `7B513F50F4B58F978065DA8B65436D52716E4049A1D7A981B107F6FA137252B8`
 
 ## Runtime Data
 
@@ -31,9 +35,7 @@ C:\Windows\system32\MSchedExe.exe |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
@@ -53,6 +55,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/b48d5b58d9bbf92fbffba06d98e695218676d3ba1d4a060c08e3b9ef1650110c/detection/
 
 ## File Similarity (ssdeep match)
 

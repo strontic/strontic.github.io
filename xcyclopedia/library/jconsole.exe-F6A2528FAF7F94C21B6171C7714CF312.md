@@ -1,5 +1,6 @@
 ﻿---
 title: jconsole.exe | OpenJDK Platform binary
+excerpt: What is jconsole.exe?
 ---
 
 # jconsole.exe 
@@ -100,6 +101,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

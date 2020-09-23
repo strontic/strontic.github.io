@@ -1,5 +1,6 @@
 ﻿---
 title: dns.exe | Domain Name System (DNS) Server
+excerpt: What is dns.exe?
 ---
 
 # dns.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:j7gYLaYpTTKXvkvd1q69lS9aukO2m1h3Ft31lg9BPcPzxj84+IX:tpTTKXsv/q69
 * Product Version: 6.3.9600.17327
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

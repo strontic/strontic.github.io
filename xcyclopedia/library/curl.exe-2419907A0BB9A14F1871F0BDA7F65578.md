@@ -1,5 +1,6 @@
 ﻿---
 title: curl.exe | The curl executable
+excerpt: What is curl.exe?
 ---
 
 # curl.exe 
@@ -279,6 +280,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.55.1
 * Language: English (United States)
 * Legal Copyright:  1996 - 2017 Daniel Stenberg, <daniel@haxx.se>.
+
 
 
 ## Possible Misuse

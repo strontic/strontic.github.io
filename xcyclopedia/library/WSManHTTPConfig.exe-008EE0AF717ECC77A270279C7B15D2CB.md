@@ -1,5 +1,6 @@
 ﻿---
 title: WSManHTTPConfig.exe | WSMan HTTP Configuration File
+excerpt: What is WSManHTTPConfig.exe?
 ---
 
 # WSManHTTPConfig.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:yNiDgqgrg5gsgBgVgQ/A2bE6IIdxGUrH7CHCV/Xg1/T9BUOXs4/xSurT1p+UeeKl:y
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: drvcfg.exe | Driver Configuration Module
+excerpt: What is drvcfg.exe?
 ---
 
 # drvcfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:s0P8+mKFDtocK42SXxC7+0PfuFWjzm1DDew:s0k10pIwxs3fu2zqDn`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

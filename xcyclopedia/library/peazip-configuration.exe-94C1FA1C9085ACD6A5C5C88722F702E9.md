@@ -1,5 +1,6 @@
 ﻿---
 title: peazip-configuration.exe | PeaZip configuration Setup                                  
+excerpt: What is peazip-configuration.exe?
 ---
 
 # peazip-configuration.exe 
@@ -46,6 +47,7 @@ peazip-configuration.tmp
 * Product Version:                                                   
 * Language: Language Neutral
 * Legal Copyright:                                                                                                     
+
 
 ## File Similarity (ssdeep match)
 

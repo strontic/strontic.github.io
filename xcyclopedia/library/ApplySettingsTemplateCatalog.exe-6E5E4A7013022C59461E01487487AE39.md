@@ -1,5 +1,6 @@
 ﻿---
 title: ApplySettingsTemplateCatalog.exe | ApplySettingsTemplateCatalog EXE
+excerpt: What is ApplySettingsTemplateCatalog.exe?
 ---
 
 # ApplySettingsTemplateCatalog.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:X0KdFOSqr40VzK9a8C5vtsBQlU8STQ/jTuI8G26crjGEzq9yiXlM:RfOSqFZK9St
 * Product Version: 10.0.14393.3471
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

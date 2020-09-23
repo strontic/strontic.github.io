@@ -1,5 +1,6 @@
 ﻿---
 title: WMIADAP.exe | WMI Reverse Performance Adapter Maintenance Utility
+excerpt: What is WMIADAP.exe?
 ---
 
 # WMIADAP.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:crvATAIA7F0zcMQCGye3W9pClAO7jgpQdXfqu:OvHF/CGye3W9efQpQdXfF`
 * Product Version: 10.0.14393.2515
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

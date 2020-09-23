@@ -1,5 +1,6 @@
 ﻿---
 title: hvsievaluator.exe | Microsoft Defender Application Guard Policy Evaluator
+excerpt: What is hvsievaluator.exe?
 ---
 
 # hvsievaluator.exe 
@@ -48,6 +49,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\hvsievaluator.exe](hvsievaluator.exe-A26ECA1B3E8AABE2F1D44641333D35EA.md) | 90
 
 
 

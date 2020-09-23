@@ -1,5 +1,6 @@
 ﻿---
 title: provlaunch.exe | Provisioning package runtime command launching tool
+excerpt: What is provlaunch.exe?
 ---
 
 # provlaunch.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:J5V9vzzofJtAMUj3tpFNZIvOdacGytv32y1TIjm6ZoMp26gO7ti:Jxw63tv66Gsv3
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

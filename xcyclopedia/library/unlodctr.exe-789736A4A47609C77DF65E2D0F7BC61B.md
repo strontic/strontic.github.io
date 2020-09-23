@@ -1,5 +1,6 @@
 ﻿---
 title: unlodctr.exe | Unload PerfMon Counters
+excerpt: What is unlodctr.exe?
 ---
 
 # unlodctr.exe 
@@ -17,6 +18,9 @@ SHA256 | `E8EEAC85A29EB75A4CF41509EA982AE1B6256D0C7CDFF3299ED3DF3CE34356D9`
 SHA384 | `3D7CA89804A9A75FC54F18C362E3426BFC58CE6462CEE8ED7BDAE82BD454991BDEFCE59ED166226289A13204D2A10A2C`
 SHA512 | `35FF07C6038C74399176454416118853B48257BF003646E91C10F4D59DE31D4BB5BC502F5D2701C3E8576CB750530D2825C1688DD3C2B59C80BEDFAB5266758C`
 SSDEEP | `768:Urp1PX8kHsc3L2CK7JhIlqyTDwI+pXn7M9DdRMTdplMcAujMFwf/wEdk:81PXtHZlqy4IMXn49DdRMTTlMcrCwf4x`
+IMP | `F1D5D1A81E34EB75E2AF99A4FB939D87`
+PESHA1 | `6A9664A1C14EAD8825F1190C0399D76835956390`
+PE256 | `C2AD349F097C56B509D21AB502FDD8100CA627ED25A8FBC06F8A0E830243F59C`
 
 ## Runtime Data
 
@@ -52,7 +56,6 @@ Path |
 -- |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\unlodctr.exe |
 
@@ -74,6 +77,12 @@ C:\Windows\system32\unlodctr.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/e8eeac85a29eb75a4cf41509ea982ae1b6256d0c7cdff3299ed3df3ce34356d9/detection/
 
 
 

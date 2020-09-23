@@ -1,5 +1,6 @@
 ﻿---
 title: DataStoreCacheDumpTool.exe | 
+excerpt: What is DataStoreCacheDumpTool.exe?
 ---
 
 # DataStoreCacheDumpTool.exe 
@@ -46,6 +47,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

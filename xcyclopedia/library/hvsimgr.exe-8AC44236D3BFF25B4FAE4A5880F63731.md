@@ -1,5 +1,6 @@
 ﻿---
 title: hvsimgr.exe | Windows Defender Application Guard Manager
+excerpt: What is hvsimgr.exe?
 ---
 
 # hvsimgr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:q34Q+sUy0e8w3mbF1X6BBxRXeLvisHyFv9xibrITBXqk5MJQHQ+JHBe8QNTsa+4Q:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

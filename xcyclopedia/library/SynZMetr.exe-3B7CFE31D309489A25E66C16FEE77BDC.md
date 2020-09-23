@@ -1,5 +1,6 @@
 ﻿---
 title: SynZMetr.exe | Synaptics Pressure Graph
+excerpt: What is SynZMetr.exe?
 ---
 
 # SynZMetr.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:JIWrQgt6PmvebEc5jQQMalHt/TM03bXu75nZwpJ8k1wr73U1QfK5IC/tJ4IOTa7:O
 * Product Version: 15.3.29 13Oct11
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2011
+
 
 
 

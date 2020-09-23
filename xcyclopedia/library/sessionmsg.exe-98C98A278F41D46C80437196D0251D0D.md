@@ -1,5 +1,6 @@
 ﻿---
 title: sessionmsg.exe | Microsoft Remote Desktop Services Session Message Server
+excerpt: What is sessionmsg.exe?
 ---
 
 # sessionmsg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:mjbH60wB85ZqWAttrOtXaI5cAAOojMNFzJ0ZpPn:SJwAAo5bAOojMnuP`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

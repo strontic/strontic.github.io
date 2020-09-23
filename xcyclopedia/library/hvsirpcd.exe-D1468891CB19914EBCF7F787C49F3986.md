@@ -1,5 +1,6 @@
 ﻿---
 title: hvsirpcd.exe | Windows Defender Application Guard Proxy services
+excerpt: What is hvsirpcd.exe?
 ---
 
 # hvsirpcd.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:tV6DeMNBiImM4s4/+5FtCYJh5uBx897zG9ujMb5++BPs:tVgmM4X/0J2Bxs7C3b5+
 * Product Version: 10.0.18362.693
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

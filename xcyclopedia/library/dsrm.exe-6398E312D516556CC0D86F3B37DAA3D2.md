@@ -1,5 +1,6 @@
 ﻿---
 title: dsrm.exe | Microsoft AD DS/LDS deletion command line utility
+excerpt: What is dsrm.exe?
 ---
 
 # dsrm.exe 
@@ -129,6 +130,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

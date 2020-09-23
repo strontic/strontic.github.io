@@ -1,5 +1,6 @@
 ﻿---
 title: compact.exe | File Compress Utility
+excerpt: What is compact.exe?
 ---
 
 # compact.exe 
@@ -97,6 +98,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.831
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

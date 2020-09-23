@@ -1,5 +1,6 @@
 ﻿---
 title: SetupAdmin.exe | Apple Installer (Elevated)
+excerpt: What is SetupAdmin.exe?
 ---
 
 # SetupAdmin.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:eob0ul1GNZaMR895gGF0wYb8gLMMYSeZiXtRwf+QQME83X8X8fgh7:7Quwgv95pdQ
 * Product Version: 7.1.0.34
 * Language: English (United States)
 * Legal Copyright:  Apple Inc. All Rights Reserved.
+
 
 
 

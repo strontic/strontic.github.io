@@ -1,5 +1,6 @@
 ﻿---
 title: SecEdit.exe | Windows Security Configuration Editor Command Tool
+excerpt: What is SecEdit.exe?
 ---
 
 # SecEdit.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:OaHJU1+UAoZ+xuHToXN33Qx+wBqI1bRvwJsJqT7/pXk:kqoZcuYAx+kqIpRvwJf`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

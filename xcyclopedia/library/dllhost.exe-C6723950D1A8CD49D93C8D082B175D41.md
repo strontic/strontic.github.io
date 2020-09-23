@@ -1,5 +1,6 @@
 ﻿---
 title: dllhost.exe | COM Surrogate
+excerpt: What is dllhost.exe?
 ---
 
 # dllhost.exe 
@@ -17,6 +18,9 @@ SHA256 | `FFBFD4EA38939327584779F31F46CC8A8AFA0AD03A783A35D1C166C335E7B910`
 SHA384 | `4189FB4C78239045790FF7D036AC4C24153FA2D73EB3CBA043FE31E60184188D13AF26F8A6981F2836B278DE26A7CBD7`
 SHA512 | `EC559A2A244731CEAF10E39F7A2958FDB3500C95F9F196C644DA2CBB47135A50BCB8ACEAC559B11C9F23E085EB5EC9471A4B60E47D9470E5DAAAE1BB9D5A91C0`
 SSDEEP | `384:Z7JRXcksOlcUcZlHWg5WiD1IDBRJJAZhKtklxt:Z7JR7WUcZlDdI1Pe`
+IMP | `CF79FCE90FCED31836373F3E48251A5D`
+PESHA1 | `62F9327ACA455C1A97198A5147BB71FD86E6610A`
+PE256 | `835786C42D11C2851B84210B81B966AD5B49E6E01CFB82FDB3B3F8AC304FA744`
 
 ## Runtime Data
 
@@ -50,6 +54,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/ffbfd4ea38939327584779f31f46cc8a8afa0ad03a783a35d1c166c335e7b910/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -85,7 +95,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_dllhost_net_connections.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_dllhost_net_connections.yml) | `Image: '*\dllhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_cmstp_com_object_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cmstp_com_object_access.yml) | `ParentCommandLine\|contains: '\DllHost.exe '` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '*\dllhost.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) |       $s7 = "dllhost.dat" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_nopetya_jun17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar) | $s7 = "dllhost.dat" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

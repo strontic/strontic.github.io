@@ -1,5 +1,6 @@
 ﻿---
 title: bdeunlock.exe | BitLocker Unlock
+excerpt: What is bdeunlock.exe?
 ---
 
 # bdeunlock.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:+0mYvpuH/lxpZ0i6mA7rUVs7nyatGt+SYFmW2DE:jmYhK/lxp6NmAvaH+S+eE`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

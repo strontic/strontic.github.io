@@ -1,5 +1,6 @@
 ﻿---
 title: lodctr.exe | Load PerfMon Counters
+excerpt: What is lodctr.exe?
 ---
 
 # lodctr.exe 
@@ -17,6 +18,9 @@ SHA256 | `3915BFB4520C2947E3DC9B4BDD4AF56AABDEDA1923B60F17A6E742A2231EA50D`
 SHA384 | `286C2BC641F35AA94809F4F19196C76E94387CF4637D412E5291DCA47D9CE75E809206847BE84269943A8277405F8D2D`
 SHA512 | `B4EDD7D5050491E0A706F2BD9E56C564E599FBC03ED84D24CE4A36261A99D34B87899791E551FE14C17E35E9AD15A3911410318BC9836C8C273BCA831BD78A8B`
 SSDEEP | `768:qJ3ZlM8ZvQ0RrAs8fkk6IrHYUZgMkuwm8VcMDwFZ/hiKMAZnEOw9i:ulM8FFrANHHYUyMku4VKhJB1EOw9i`
+IMP | `FDABB1B17742D7066DE0358591144052`
+PESHA1 | `2E22CFA2967A876B932A4FDD287FDB2B35F733F0`
+PE256 | `4F1377C128E97EC6726D5D2B9C0CCA1DD029D02A26757AC347FD24D3FC58E7DB`
 
 ## Runtime Data
 
@@ -100,6 +104,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\lodctr.exe |
 
@@ -121,6 +126,12 @@ C:\Windows\SysWOW64\lodctr.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/3915bfb4520c2947e3dc9b4bdd4af56aabdeda1923b60f17a6e742a2231ea50d/detection/
 
 ## File Similarity (ssdeep match)
 

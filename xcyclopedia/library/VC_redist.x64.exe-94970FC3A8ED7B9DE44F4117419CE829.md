@@ -1,5 +1,6 @@
 ﻿---
 title: VC_redist.x64.exe | Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127
+excerpt: What is VC_redist.x64.exe?
 ---
 
 # VC_redist.x64.exe 
@@ -40,6 +41,7 @@ VC_redist.x64.exe
 * Product Version: 14.24.28127.4
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

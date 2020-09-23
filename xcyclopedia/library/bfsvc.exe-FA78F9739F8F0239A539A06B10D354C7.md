@@ -1,5 +1,6 @@
 ﻿---
 title: bfsvc.exe | Boot File Servicing Utility
+excerpt: What is bfsvc.exe?
 ---
 
 # bfsvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:WTwpe5nH9QzEbZDMFieffJ6pqdMp59DB1HvaVppaWG+3kHCNoopx50Z:WmeRH9GEuF
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

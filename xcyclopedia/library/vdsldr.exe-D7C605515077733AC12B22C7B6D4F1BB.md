@@ -1,5 +1,6 @@
 ﻿---
 title: vdsldr.exe | Virtual Disk Service Loader
+excerpt: What is vdsldr.exe?
 ---
 
 # vdsldr.exe 
@@ -17,6 +18,9 @@ SHA256 | `C80AA94B7370BCAF14EE105E8208A303957E64F030BFF3D77F98ACE089A575B7`
 SHA384 | `78643ED798D8122C4DCE151C826A964AE13F221412ED47AA5D1033528118EBD93C44588ABA9FA0BDB0E5FBDDB8301758`
 SHA512 | `89023B7E716F88393D9E67C92645BE0BB43867AE443B1BF2161C77CDBD14384B5C954AA0D9A2E963906FAFFD7C5284B3BC2484C317AF701F5DE5C3EB6543FD3B`
 SSDEEP | `768:PuuEyKsUf6U5N6huY/ZwLRG1LTsRcYmjFh:PhEyKO14QLTsBmjF`
+IMP | `9603C9CE05A128F079B59510B5F4D75C`
+PESHA1 | `D4076A058B02204B271434C75D800DF38F1C19E2`
+PE256 | `A7017CFC453830E82D75846DB9EB7317818CCFEBF760A46FCC363575592B6E0C`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `768:PuuEyKsUf6U5N6huY/ZwLRG1LTsRcYmjFh:PhEyKO14QLTsBmjF`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -40,23 +39,18 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\system32\vdsldr.exe |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -69,6 +63,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/c80aa94b7370bcaf14ee105e8208a303957e64f030bff3d77f98ace089a575b7/detection/
 
 
 

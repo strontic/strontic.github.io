@@ -1,5 +1,6 @@
 ﻿---
 title: SnippingTool.exe | Snipping Tool
+excerpt: What is SnippingTool.exe?
 ---
 
 # SnippingTool.exe 
@@ -40,6 +41,7 @@ SSDEEP | `98304:WL6slxL4TsqaA2SRmXUrymuXB2rmaOOaCa2PKCZZNRwtPV3Oy:WL6svDqaA2SRmX
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

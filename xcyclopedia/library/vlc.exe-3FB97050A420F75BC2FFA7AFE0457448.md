@@ -1,5 +1,6 @@
 ﻿---
 title: vlc.exe | VLC media player
+excerpt: What is vlc.exe?
 ---
 
 # vlc.exe 
@@ -84,6 +85,7 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 3,0,11,0
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 VideoLAN and VLC Authors
+
 
 
 

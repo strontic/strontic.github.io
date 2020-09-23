@@ -1,5 +1,6 @@
 ﻿---
 title: verclsid.exe | Extension CLSID Verification Host
+excerpt: What is verclsid.exe?
 ---
 
 # verclsid.exe 
@@ -17,6 +18,9 @@ SHA256 | `5F6FD0BC72EB2E71918241213E97DCD8FD0DE2887A36BE58B769E8C5A4FF8598`
 SHA384 | `4B0FA5DAD679A62173E0D00C5FD5FDE5C8C446991957B830B9F25EDD49A1FBBDAC28157BBA03AF450D77A96503D564B8`
 SHA512 | `B7FFC21A13CA5A1C3520F3F1A41E35F313819A58D66F52EF78F7919945C6EB875992FA3C732F8A0E853E90AF32AE59AFF7D65F3CCF5DBF9D91679707A3E2D131`
 SSDEEP | `192:K91EQfrn8bEjcTu8qknDtD1MJvgzNq/WSNWEN:KfTbnjcTu8qk5DWJoZSWSNWE`
+IMP | `BDC7940F5DE0DB2F5978F34E0BD82FF0`
+PESHA1 | `304A8E030B188F081983B5C73B6D79A899F872F7`
+PE256 | `06CA864E0F3B2596D7A68FC6748CF6917537DCE0CED0CE9A3445C1A5628635AA`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\verclsid.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\verclsid.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/5f6fd0bc72eb2e71918241213e97dcd8fd0de2887a36be58b769e8c5a4ff8598/detection/
 
 
 ## Possible Misuse

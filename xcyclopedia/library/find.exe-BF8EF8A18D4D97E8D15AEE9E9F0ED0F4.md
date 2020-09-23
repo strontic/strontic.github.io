@@ -1,5 +1,6 @@
 ﻿---
 title: find.exe | 
+excerpt: What is find.exe?
 ---
 
 # find.exe 
@@ -81,6 +82,7 @@ email to <bug-findutils@gnu.org>.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 ## Possible Misuse

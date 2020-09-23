@@ -1,5 +1,6 @@
 ﻿---
 title: netdom.exe | NETDOM5
+excerpt: What is netdom.exe?
 ---
 
 # netdom.exe 
@@ -73,6 +74,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

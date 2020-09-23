@@ -1,5 +1,6 @@
 ﻿---
 title: secinit.exe | Security Init
+excerpt: What is secinit.exe?
 ---
 
 # secinit.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:ADmRVMYkYG2X7XloHb+RZs8U8Ff2iFzGqRLRevVW8vZzRiW:A7YkY6b+vbff2cBEvd
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

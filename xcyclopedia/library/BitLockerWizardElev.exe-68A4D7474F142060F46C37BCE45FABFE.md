@@ -1,5 +1,6 @@
 ﻿---
 title: BitLockerWizardElev.exe | BitLocker Drive Encryption Wizard
+excerpt: What is BitLockerWizardElev.exe?
 ---
 
 # BitLockerWizardElev.exe 
@@ -17,6 +18,9 @@ SHA256 | `15820C45B1686910877FFACED9A9E9AE02334B967475FDE566E60CE8D4BD182B`
 SHA384 | `CDD861A80A42366471385A4DE92FD73D1B35A36BED3CC55D16FE8BCB45025F6C5E9EDD4626AA405004763DB544CBDCC8`
 SHA512 | `D4A2953577B7F549BD1BB77DF3C5219F05FEB553A7480E0FAB54F02448C79E63480863DDBD39CFADCA00F3DF1BD12D5D70E855E5150B032E171DEA84B81E0676`
 SSDEEP | `3072:wZEDf0wnVS570M9kdatGCO+xmBc+hMPhPsx:XDdVs7nyatGt+SYF`
+IMP | `1438673C4B1B5696C777658AD76B5D13`
+PESHA1 | `87D80066BFE91AB2444D785EF4DEE53A168DA5A7`
+PE256 | `A2816E86745F9865B475A80F48E37AC346E502707E208B6EE841ACC7D9AA8AA9`
 
 ## Runtime Data
 
@@ -56,15 +60,15 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -77,6 +81,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/15820c45b1686910877ffaced9a9e9ae02334b967475fde566e60ce8d4bd182b/detection/
 
 ## File Similarity (ssdeep match)
 

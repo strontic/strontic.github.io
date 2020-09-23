@@ -1,5 +1,6 @@
 ﻿---
 title: changepk.exe | Windows Activation
+excerpt: What is changepk.exe?
 ---
 
 # changepk.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:VDep0Ef77YAmocVoyg1e1qpTBPvzj07j5Ufcc1PiL:WH7YAdQoyR1cBXK5Ufcc16L
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

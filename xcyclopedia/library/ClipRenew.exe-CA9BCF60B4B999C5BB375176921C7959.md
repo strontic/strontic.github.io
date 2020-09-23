@@ -1,5 +1,6 @@
 ﻿---
 title: ClipRenew.exe | Acquire License From Store
+excerpt: What is ClipRenew.exe?
 ---
 
 # ClipRenew.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:LLkWNsgAAyx0E13Ai6/cwT7GHENd1GoxC:3fsnD0D/BWkW`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

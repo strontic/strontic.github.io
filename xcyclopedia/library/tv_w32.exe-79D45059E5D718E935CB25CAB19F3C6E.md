@@ -1,5 +1,6 @@
 ﻿---
 title: tv_w32.exe | TeamViewer
+excerpt: What is tv_w32.exe?
 ---
 
 # tv_w32.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 15.9.4.0
 * Language: Language Neutral
 * Legal Copyright: TeamViewer Germany GmbH
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: vds.exe | Virtual Disk Service
+excerpt: What is vds.exe?
 ---
 
 # vds.exe 
@@ -17,6 +18,9 @@ SHA256 | `8A0AA93F17FEE2C816D57ADB6B6BE38D195D87A3CDCFBDDB78E0AF0D5452BC5E`
 SHA384 | `7C0A8683387E1F62226AAE6DE5B64ACA50FE42ACEF8C9108D76014230E43962A17D584841D38AABB4F42B5E80F4AC56B`
 SHA512 | `B965C1891027276A5299F854C45AC5A3155821B78C448562126BB9F79C5F6C2DADD1EDDA151653AE434A20D9281D804603892B930C6E36A00D1DB8F88C02E47A`
 SSDEEP | `6144:TOKzUfSIW1onAtgXx/moIs8hxVR+7F7eYaj4se0LxQdxJ:T0AtgXx7Is8bCtVA4T8M`
+IMP | `1DED34FA2F4887EC7854C3137A5F180D`
+PESHA1 | `DB3505A17AF47608077CFA3542BF87CF4BB7EF9E`
+PE256 | `92E371D1EBF466F641C6CC4B220A4438AB6E82499638B2A61172306403764573`
 
 ## Runtime Data
 
@@ -42,8 +46,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,6 +60,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/8a0aa93f17fee2c816d57adb6b6be38d195d87a3cdcfbddb78e0af0d5452bc5e/detection/
 
 
 ## Possible Misuse

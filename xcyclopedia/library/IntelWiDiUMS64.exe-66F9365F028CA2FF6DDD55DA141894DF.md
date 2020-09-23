@@ -1,5 +1,6 @@
 ﻿---
 title: IntelWiDiUMS64.exe | Intel(R) User Mode Service
+excerpt: What is IntelWiDiUMS64.exe?
 ---
 
 # IntelWiDiUMS64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:europ/P7Qm5V0nnnBqf4pAmM2G3a6nAwTYkrhRqlNvREqE6rn03dl2AISi1:/rop
 * Product Version: 6.5.43.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2010-2015, Intel Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

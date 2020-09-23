@@ -1,5 +1,6 @@
 ﻿---
 title: Windows.WARP.JITService.exe | 
+excerpt: What is Windows.WARP.JITService.exe?
 ---
 
 # Windows.WARP.JITService.exe 
@@ -16,26 +17,11 @@ SHA256 | `1C3797E47C68EBCB5EEEF0852FAD398205E0F0BCB1EB45D600D282A3B578EF5A`
 SHA384 | `6B3932740BC65E4932BF8D2C0DC395E9FE5AD3F6204B82CBE7F02F6395FF9942B773F073CF2EA4867B8753E99E608F2C`
 SHA512 | `B8E7B7453D01E1676820EA0C4BEEEE385ED20CC05373FA2DC1D865FCA6809D8BEE75097E1D1D39C286E0D7E8A4B37B811F86DA5204F5C3429847EFF80574CABA`
 SSDEEP | `1536:+XzFipKZEdQjIImLMdcu9UvI/9MfTOoX:6XpzmwdBmIM6W`
+IMP | `AEE778DFE1B256EC0FBE9F965DEE0410`
+PESHA1 | `C45CE1FB712CD443BD53F9076E1A97DF23F4ED93`
+PE256 | `37FC38B7E10EF03691B38735E6E1F73F9864E20EA8309DAAC2F26E5A0D77A5B9`
 
 ## Runtime Data
-
-### Child Processes:
-Windows.WARP.JITService.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -65,6 +51,12 @@ C:\Windows\SysWOW64\Windows.WARP.JITService.exe |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/1c3797e47c68ebcb5eeef0852fad398205e0f0bcb1eb45d600d282a3b578ef5a/detection/
 
 
 

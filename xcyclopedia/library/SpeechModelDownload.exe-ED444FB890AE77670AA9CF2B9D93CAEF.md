@@ -1,5 +1,6 @@
 ﻿---
 title: SpeechModelDownload.exe | Speech Model Download Executable
+excerpt: What is SpeechModelDownload.exe?
 ---
 
 # SpeechModelDownload.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:Zs6DTcNoBqIoNwIh3HFGfwaTaCdRcmoPNQZMJj65EEKXqZ3l:mQTOlPNw2XFGfwIT
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

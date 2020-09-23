@@ -1,5 +1,6 @@
 ﻿---
 title: wuapihost.exe | wuapihost
+excerpt: What is wuapihost.exe?
 ---
 
 # wuapihost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:XLCUXHrvEqYRrmZYt9W262zdK/s3NPQ/Udxy8ZbXt/NKpWafW:bCqHhYRi2b96WdKE
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: escUnattend.exe | IE ESC 7.0 Unattended Install Utility
+excerpt: What is escUnattend.exe?
 ---
 
 # escUnattend.exe 
@@ -40,6 +41,7 @@ rundll32.exe
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

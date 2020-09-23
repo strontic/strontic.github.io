@@ -1,5 +1,6 @@
 ﻿---
 title: dwm.exe | Desktop Window Manager
+excerpt: What is dwm.exe?
 ---
 
 # dwm.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:EYBrBpOEgfdof1WHH+bUuCb/moJXVjAUkCjLMw0ljJhUYTBUoKs7uO4a9:E2xgfdo
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

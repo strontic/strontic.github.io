@@ -1,5 +1,6 @@
 ﻿---
 title: RuntimeBroker.exe | Runtime Broker
+excerpt: What is RuntimeBroker.exe?
 ---
 
 # RuntimeBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:kXkyzjbt4ss3JwAnAGWaP6GON0Hxd5OXCpf+veF2WH6WpFlRDBRJLElfkPjCE/X:kX
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

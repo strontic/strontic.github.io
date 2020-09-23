@@ -1,5 +1,6 @@
 ﻿---
 title: cmdl32.exe | Microsoft Connection Manager Auto-Download
+excerpt: What is cmdl32.exe?
 ---
 
 # cmdl32.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:D4TqHPEiucKt9XCUdfFPbeLi1VsODF3QU7e2Yc58PlUNyvNy9PcuIDxEp:D4T+PEJc
 * Product Version: 7.2.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

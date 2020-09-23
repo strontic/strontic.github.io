@@ -1,5 +1,6 @@
 ﻿---
 title: SyncPlanObserver.exe | SyncPlanObserver.exe
+excerpt: What is SyncPlanObserver.exe?
 ---
 
 # SyncPlanObserver.exe 
@@ -62,6 +63,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

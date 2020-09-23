@@ -1,5 +1,6 @@
 ﻿---
 title: comp.exe | File Compare Utility
+excerpt: What is comp.exe?
 ---
 
 # comp.exe 
@@ -17,6 +18,9 @@ SHA256 | `758A3A677F150ECB7B123848A5F227A1B436D13B61191377E74A456535708908`
 SHA384 | `AAC283AEAB4B1550A01D4D97D0D225C0B242E718E2D44F3EA291173AAFCDAD78293A4F6E7FB0318D422DB0D829364F18`
 SHA512 | `1692E8B47AD67B0326936C949D655DD86E8AB9E19950F94C165E2133586A43C399B7FAEFCF3A20503699778F232D3EBE713B4ED0D0B70624627D72936F07D9E5`
 SSDEEP | `384:DiLW3NrHPDfwgGvZYsQgKNWiHiNeZPWqZ2guEA68NDWccWFsk:DiLW3NroRQgaWiHiNYbjD8RU`
+IMP | `FFD97A520B1CE23CD1FC4B5F8E5BCB3C`
+PESHA1 | `4B824386D98960932A72344F486AFA3E5F0AA0DE`
+PE256 | `4BBFBEBEB24307829D5161B65BDDC3ACD01F0EED12E3A481BE3036426B267D57`
 
 ## Runtime Data
 
@@ -53,15 +57,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -78,8 +77,8 @@ C:\Windows\SysWOW64\comp.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -92,6 +91,12 @@ C:\Windows\SysWOW64\comp.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/758a3a677f150ecb7b123848a5f227a1b436d13b61191377e74a456535708908/detection/
 
 
 

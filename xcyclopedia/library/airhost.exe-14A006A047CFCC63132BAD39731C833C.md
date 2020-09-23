@@ -1,5 +1,6 @@
 ﻿---
 title: airhost.exe | AirHost
+excerpt: What is airhost.exe?
 ---
 
 # airhost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `196608:X5p9xakqyqJdT2qudLw5Xas532xZT6wxeU1Y99Ml/S:ekqy7dLoqxAwxeF9sS`
 * Product Version: 5.2.42619.0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 
 

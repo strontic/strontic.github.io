@@ -1,5 +1,6 @@
 ﻿---
 title: poqexec.exe | Primitive Operations Queue Executor
+excerpt: What is poqexec.exe?
 ---
 
 # poqexec.exe 
@@ -36,10 +37,12 @@ SSDEEP | `6144:MW5uKmK3eyy33PInY24RQHMt/N+MP7ikFvm1a9ZpHBufqnPCOjvCa4aOnUWkQok5:
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\poqexec.exe](poqexec.exe-74530CC0F5149D38B1F9D694C99CA1A2.md) | 99
 [C:\Windows\SysWOW64\poqexec.exe](poqexec.exe-F9DB219480FCB37EC09DAF9A26BCCA87.md) | 99
 
 

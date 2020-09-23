@@ -1,5 +1,6 @@
 ﻿---
 title: VSSetupUtility.exe | Microsoft Visual Studio Enterprise 2015 Setup
+excerpt: What is VSSetupUtility.exe?
 ---
 
 # VSSetupUtility.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:OjzkrbuhO99o47Q6cbJp3TIkUzUslp6fKl/Oj9ijUyry+zturqX26kl7FmU4x9h0:
 * Product Version: 12.0.23107.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

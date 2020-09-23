@@ -1,5 +1,6 @@
 ﻿---
 title: dvdplay.exe | dvdplay placeholder Application
+excerpt: What is dvdplay.exe?
 ---
 
 # dvdplay.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:yOwFcCPcXj3EZ1p/AksEsNjvL17p50rmQPjhFioWEZW:McPXYZztHsNjvL1738pWEZ
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

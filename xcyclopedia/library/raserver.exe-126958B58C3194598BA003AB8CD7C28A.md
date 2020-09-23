@@ -1,5 +1,6 @@
 ﻿---
 title: raserver.exe | Windows Remote Assistance COM Server
+excerpt: What is raserver.exe?
 ---
 
 # raserver.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:1urCz2hE4xkvbrK3krsXTl6yu+JDK4NFgmW5oYDvM7cBkzH:1hz2W4xkvfABXTl6d
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

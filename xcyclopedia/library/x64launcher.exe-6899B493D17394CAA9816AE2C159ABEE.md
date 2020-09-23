@@ -1,5 +1,6 @@
 ﻿---
 title: x64launcher.exe | x64launcher.exe
+excerpt: What is x64launcher.exe?
 ---
 
 # x64launcher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:jlulg8LWd1LsfRhMER0u+GIIIIIIIhIIIIIIIIIIIIIIIU7:hSgSW2/Hm57`
 * Product Version: 03.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2010 Valve Corporation
+
 
 ## File Similarity (ssdeep match)
 

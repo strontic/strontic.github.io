@@ -1,5 +1,6 @@
 ﻿---
 title: chgusr.exe | Change INI File Mapping Utility
+excerpt: What is chgusr.exe?
 ---
 
 # chgusr.exe 
@@ -64,6 +65,7 @@ CHANGE USER {/EXECUTE | /INSTALL | /QUERY}
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

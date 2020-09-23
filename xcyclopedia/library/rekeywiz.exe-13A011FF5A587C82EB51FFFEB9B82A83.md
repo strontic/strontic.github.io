@@ -1,5 +1,6 @@
 ﻿---
 title: rekeywiz.exe | EFS REKEY wizard
+excerpt: What is rekeywiz.exe?
 ---
 
 # rekeywiz.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:gd5ywJL7mS/RUJynnyCWFm2cLk/i3vvkwtyQBdI:gd5ywJL7F/RURF/MttyQBd`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: rdpinit.exe | RemoteApp Logon Application
+excerpt: What is rdpinit.exe?
 ---
 
 # rdpinit.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:2VQ62uj4ITcLZ5EVmTkO/yHbXPKEatmNFmdYIcBDAoYCinFUMBV5IyRHh8aQi8/N:
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: bootsect.exe | Boot Sector Manipulation Tool
+excerpt: What is bootsect.exe?
 ---
 
 # bootsect.exe 
@@ -17,6 +18,9 @@ SHA256 | `2D7CE2DD4A9CE5FBED2C150720280CF50808B0CD5D7D988CDAAF5BD1E9E292F3`
 SHA384 | `F9CCB58F7BDCBB2D2491728FE48F8C4333EBB379519FC9BBDC9617459F05CBD993201EBE7A7849A9EA80795C094C4E66`
 SHA512 | `846DDC20123C8F47F2E9205D17DCF5FF53CA962891B309E7AEBB0098ED6EB10EE56C53AC81C89745AC43B6FF8C4868A8144CAC8C35B090A38C4D70FD9ECD6D24`
 SSDEEP | `768:rt9O59BuIAee9VkuIvsdzsyCY5eNildVUt7/8tK4ZcvNoXxrkWqVsiawjprT3lxU:RTB5egI78tKKc7XHui2IH5vgY83JDPxb`
+IMP | `A26CB263B9DC97B5627F1E68CAAC6231`
+PESHA1 | `E350A271E03024A8D6D0E8B22818A2DCA28D229B`
+PE256 | `9710607BA10DD6978DE04E13D7BE3223B72190F3D526D4E8F817B53F4C3956C6`
 
 ## Runtime Data
 
@@ -118,6 +122,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/61
+* VirusTotal Link: https://www.virustotal.com/gui/file/2d7ce2dd4a9ce5fbed2c150720280cf50808b0cd5d7d988cdaaf5bd1e9e292f3/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -132,7 +142,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) |       $f3 = "bootsect.bak" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_ransom_ragna_locker.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar) | $f3 = "bootsect.bak" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

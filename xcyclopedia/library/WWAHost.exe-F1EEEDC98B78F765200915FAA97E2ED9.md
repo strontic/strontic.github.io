@@ -1,5 +1,6 @@
 ﻿---
 title: WWAHost.exe | Microsoft WWA Host
+excerpt: What is WWAHost.exe?
 ---
 
 # WWAHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:A2UvAgeBDr0yh+IJwPx7EH50GSdqwGHCVS0BYb/DMGkqs5r7WIq:cvAgwrBh+Iiz
 * Product Version: 10.0.14393.51
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

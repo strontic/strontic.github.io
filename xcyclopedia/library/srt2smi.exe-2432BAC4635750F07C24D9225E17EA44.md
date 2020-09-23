@@ -1,5 +1,6 @@
 ﻿---
 title: srt2smi.exe | 
+excerpt: What is srt2smi.exe?
 ---
 
 # srt2smi.exe 
@@ -47,6 +48,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

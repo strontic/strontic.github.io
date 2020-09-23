@@ -1,5 +1,6 @@
 ﻿---
 title: NetCfgNotifyObjectHost.exe | Host Process for Network Driver Configuration Plugins
+excerpt: What is NetCfgNotifyObjectHost.exe?
 ---
 
 # NetCfgNotifyObjectHost.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

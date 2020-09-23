@@ -1,5 +1,6 @@
 ﻿---
 title: shrpubw.exe | Share Creation Wizard
+excerpt: What is shrpubw.exe?
 ---
 
 # shrpubw.exe 
@@ -40,6 +41,7 @@ SSDEEP | `1536:q7MN9r1tzY9re3IFjqyHKguMQetqVikBTxWJF51KsvhFsVH:q7sALFjBHP7Q6qVjg
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

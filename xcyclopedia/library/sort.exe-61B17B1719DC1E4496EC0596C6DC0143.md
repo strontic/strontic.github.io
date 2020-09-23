@@ -1,5 +1,6 @@
 ﻿---
 title: sort.exe | Sort Utility
+excerpt: What is sort.exe?
 ---
 
 # sort.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:YfKSvecON1zkgrEPHdWXiGDRYu75DHft4SdMxk5Prt39yng0PRd1amCLkIX3ZgnU:I
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: wscadminui.exe | Windows Security Center Elevated UI App
+excerpt: What is wscadminui.exe?
 ---
 
 # wscadminui.exe 
@@ -17,6 +18,9 @@ SHA256 | `9AFA38359D1960A2366522E0658D656DD984A0838AF491EC51E179B444394985`
 SHA384 | `D783F5C8F9F66B386C17B785990EC024DEB7A70F402DF86AC8A6136092B429BB0DCC0792E97FC5B27F731C4786ACA09D`
 SHA512 | `A3AAAD47F9BDA9DBEB4423B99B9E23251D15B358F2B99EFF3262755909A378FE901D32432069352BFFA03F0F946BDD17384D7591045997B867189D6E2A052A8C`
 SSDEEP | `96:TCfIlqZhGhbHHgP32Qz69cVvbDrahnVZxzX29snVkG1FREWehRWw:TUGKhGCGzqVvvGhdhWG1FSWehRW`
+IMP | `95DFB21A6AA7374716FD58473502A86F`
+PESHA1 | `60A8B6A142CA7B2DC6737C926C06C5AF6ECBD23F`
+PE256 | `0F1B15B8371A92F15535DCE98E54DC8E5D52CFCBF7A71DD1FF5F5FCA7100D371`
 
 ## Runtime Data
 
@@ -35,8 +39,8 @@ C:\Windows\system32\WSCAPI.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -49,6 +53,12 @@ C:\Windows\system32\WSCAPI.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/9afa38359d1960a2366522e0658d656dd984a0838af491ec51e179b444394985/detection/
 
 ## File Similarity (ssdeep match)
 

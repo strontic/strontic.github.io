@@ -1,5 +1,6 @@
 ﻿---
 title: InetMgr.exe | IIS Manager
+excerpt: What is InetMgr.exe?
 ---
 
 # InetMgr.exe 
@@ -94,6 +95,7 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

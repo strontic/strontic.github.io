@@ -1,5 +1,6 @@
 ﻿---
 title: TeamViewer_Service.exe | TeamViewer
+excerpt: What is TeamViewer_Service.exe?
 ---
 
 # TeamViewer_Service.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 15.9.4.0
 * Language: English (United Kingdom)
 * Legal Copyright: TeamViewer Germany GmbH
+
 
 
 

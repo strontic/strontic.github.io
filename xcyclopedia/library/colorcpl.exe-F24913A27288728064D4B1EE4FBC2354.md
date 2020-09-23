@@ -1,5 +1,6 @@
 ﻿---
 title: colorcpl.exe | Microsoft Color Control Panel
+excerpt: What is colorcpl.exe?
 ---
 
 # colorcpl.exe 
@@ -107,6 +108,7 @@ C:\Windows\system32\WINSPOOL.DRV |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

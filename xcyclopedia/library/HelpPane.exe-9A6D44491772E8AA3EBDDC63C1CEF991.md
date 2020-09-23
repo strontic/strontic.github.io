@@ -1,5 +1,6 @@
 ﻿---
 title: HelpPane.exe | Microsoft Help and Support
+excerpt: What is HelpPane.exe?
 ---
 
 # HelpPane.exe 
@@ -17,6 +18,9 @@ SHA256 | `587943F7A42FC21D636B3BAE0CAD17D66E9AA919F0689730A01A77035F7BD767`
 SHA384 | `AF7ED6366A9BE1C185896D69BD25FACA7D16699CF8E09030B26A20098568E740C2028AA234BE187AC32A6D4DEFFC26BB`
 SHA512 | `A1917A06606697EABBA0A73332DFAFD3CA7D44A0F3F5AE887AB0A5C219F49803A59F690FEE7F11BAB21435CAE57A28857366CC4CAFD76AF6FAF916C599F78675`
 SSDEEP | `12288:VGoI5cF1qtS8e5QIjFAPWAlkS+ExyEXsXKPXPiXuHNHGb6bH/zx/GCLW/nh/X:E+qtSZJFA+ekS+El`
+IMP | `A71B59777FDF47EB06D8F9729F3BF423`
+PESHA1 | `9A9A7D8753F507DFCE0252DA29B378BD013B2F14`
+PE256 | `BBB63B5E1E12461C01D9CB302568385684FD72B6D1593CBC92BD6E77332A972B`
 
 ## Runtime Data
 
@@ -35,7 +39,6 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -56,6 +59,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/587943f7a42fc21d636b3bae0cad17d66e9aa919f0689730a01a77035f7bd767/detection/
 
 ## File Similarity (ssdeep match)
 

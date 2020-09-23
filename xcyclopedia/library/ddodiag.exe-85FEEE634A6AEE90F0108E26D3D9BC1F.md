@@ -1,5 +1,6 @@
 ﻿---
 title: ddodiag.exe | DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
+excerpt: What is ddodiag.exe?
 ---
 
 # ddodiag.exe 
@@ -17,6 +18,9 @@ SHA256 | `99C63175504781E9278824D487DA082DA7C014E99F1024227AF164986D3A27C6`
 SHA384 | `F6820000F1373CF0201AAA3681062729AF08DB49D6E351C00BA53E7A769864086438B29D09F1FD8DD423D506E77DD8DB`
 SHA512 | `B81A3E1723A5180C5168CD7BB5181C631F4F57C59780BB82A502160B7874777F3EEF1EBE1B14F66C97F9F1A4721AF13B6FBCDFF2045C8563C18B5D12540953FF`
 SSDEEP | `768:C+UDtsXkIdh/W7TNL5TGK/hc3aZkLmMgMaouZl6iAK5vjQf:904JINL5TGK/hc3aZkLmMgMaouZl6iPc`
+IMP | `64A12EF7F6C9BB0EDB1C912884F52AB1`
+PESHA1 | `03DDC852BADA2ACD1A1734A88F3356EF8D4EFE34`
+PE256 | `A7506CD3B33E9D6B349C791E350A36C9CCCAD2124D5C4395C99F1BE030490642`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\ddodiag.exe |
+C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -38,8 +43,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -52,6 +57,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/99c63175504781e9278824d487da082da7c014e99f1024227af164986d3a27c6/detection/
 
 ## File Similarity (ssdeep match)
 

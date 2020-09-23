@@ -1,5 +1,6 @@
 ﻿---
 title: diskraid.exe | DiskRAID
+excerpt: What is diskraid.exe?
 ---
 
 # diskraid.exe 
@@ -17,6 +18,9 @@ SHA256 | `6F572BD4C5A0D9CDCAA2E63FF1B0E36982F4D35FA9FB9D360B2D8CC57FE4EE54`
 SHA384 | `FC53ECF53C50B4C988049E426565BEF032FF60F8AE3EC3DBC5BC612FE25CEC462A457CF1BAAD262259A0D65FAA02329C`
 SHA512 | `56278FE5DA369B7CC9D6C9A8DF94E1333FEB407907C945716EAB52958EF07FCF66AB64803501C27E4C5BC4B060EA1BD851978D7E1D5061EA3E1AC2E4DCBC1EEC`
 SSDEEP | `6144:ADX91oG3blPe1hUZuintPiDWOc1zDuIrI6zo4SPvU:ADN1jlw6PiDA1zyms`
+IMP | `701F69CB7F69911A0C2E0D44935719EB`
+PESHA1 | `8E5699D7A4263F8D4B92E9580A352F2C38B83F5A`
+PE256 | `F572C50ACCE476B0B1D8A1FFCCA3C8BC0243DD12546C49D85700CBAAFB38B99B`
 
 ## Runtime Data
 
@@ -26,7 +30,7 @@ SSDEEP | `6144:ADX91oG3blPe1hUZuintPiDWOc1zDuIrI6zo4SPvU:ADN1jlw6PiDA1zyms`
 Microsoft DiskRAID version 10.0.19041.1
 
 Copyright (C) 2003-2013 Microsoft Corporation.
-On computer: DESKTOP-RQ9SGT4
+On computer: 37AACD8D-548A-4
 
 Usage:  DISKRAID [/? | [/s <script>] [/v]]
 
@@ -60,8 +64,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -74,6 +78,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/6f572bd4c5a0d9cdcaa2e63ff1b0e36982f4d35fa9fb9d360b2d8cc57fe4ee54/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: zstd.exe | Zstandard - Fast and efficient compression algorithm
+excerpt: What is zstd.exe?
 ---
 
 # zstd.exe 
@@ -126,6 +127,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 1.4.4
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2013-present, Yann Collet, Facebook, Inc.
+
 
 
 

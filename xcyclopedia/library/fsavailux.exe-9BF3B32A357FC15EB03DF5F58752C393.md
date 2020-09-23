@@ -1,5 +1,6 @@
 ﻿---
 title: fsavailux.exe | Microsoft\fsavailux
+excerpt: What is fsavailux.exe?
 ---
 
 # fsavailux.exe 
@@ -17,6 +18,9 @@ SHA256 | `B6F49FBE12F91BEC54CF7EC214F808DB0DCA04F99B71FAE2F47A75EBAE16521E`
 SHA384 | `D808CB02BE9B1120D61F3D9182A29522B4440FDD593BFBBFB216A44B3D78B4C8E90554D3BDDCF0C8CC25C2E4FAB82B03`
 SHA512 | `A12B0DEE1AA58458CE0EA5067AC8AA580498A8F1957DCC79865FFE5E73DDA62FC6B157F10B1A19FEC5FA801FFA8DC4E68099900B2D7B3189B96CF5668E2E8121`
 SSDEEP | `384:YvcJm6/P7HHt8Bp6PVCK1ub9Sj1RWgmWW:hJ3/P7ntgp6tOm1G`
+IMP | `7906A2680F0C0553216922F1E3808813`
+PESHA1 | `EDEFD163F9E2862770DCC3D612DDC41FF2A5E31E`
+PE256 | `B85DF509CDAAE909F6D56C4FCF0DC59AE8C1C1D3564B5C538ECC9FA64D58C78A`
 
 ## Runtime Data
 
@@ -26,8 +30,6 @@ Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\system32\fsavailux.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -55,6 +57,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/b6f49fbe12f91bec54cf7ec214f808db0dca04f99b71fae2f47a75ebae16521e/detection/
 
 
 

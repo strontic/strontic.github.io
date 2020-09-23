@@ -1,5 +1,6 @@
 ﻿---
 title: zUpdater.exe | Zoom Meetings
+excerpt: What is zUpdater.exe?
 ---
 
 # zUpdater.exe 
@@ -37,6 +38,7 @@ SSDEEP | `3072:AXSHb0ATgwUu1pGzfuX57Ho+8aumX1pRKGqcnUXj:A2pg7uX57Hf1UXj`
 * Product Version: 5,2,42619,0804
 * Language: Chinese (Simplified, China)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

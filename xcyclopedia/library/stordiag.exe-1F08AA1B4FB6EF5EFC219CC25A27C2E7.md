@@ -1,5 +1,6 @@
 ﻿---
 title: stordiag.exe |  
+excerpt: What is stordiag.exe?
 ---
 
 # stordiag.exe 
@@ -81,6 +82,7 @@ C:\Windows\SysWOW64\stordiag.exe |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

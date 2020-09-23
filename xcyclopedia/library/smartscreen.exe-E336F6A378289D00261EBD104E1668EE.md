@@ -1,5 +1,6 @@
 ﻿---
 title: smartscreen.exe | SmartScreen
+excerpt: What is smartscreen.exe?
 ---
 
 # smartscreen.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:jkSUwdaXFUbZwBmHNbPBgBmQ+MSt1Fzlhv3nLl:9PxMStthv3Z`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

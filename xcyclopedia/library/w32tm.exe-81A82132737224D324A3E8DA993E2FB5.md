@@ -1,5 +1,6 @@
 ﻿---
 title: w32tm.exe | Windows Time Service Diagnostic Tool
+excerpt: What is w32tm.exe?
 ---
 
 # w32tm.exe 
@@ -17,6 +18,9 @@ SHA256 | `88F14176C848ADCE732FE1DB67C2D95CD495AC71CAED5D137E0108332509042F`
 SHA384 | `F5B146B0495133C448088A01138F8929B5D1A8B5188BF58D88133E8188E7413077BC33AD43B8AE3CA12A36BC517028F6`
 SHA512 | `AF918D4343E6E00050092BE047D00F92405A71113E270E780D75500AFE5C077419020C08A6ED4F6EAEE9E771954E1F9A953157EA90FBB384ECA8EA6DE62B9480`
 SSDEEP | `3072:Ko44whoErXpbSSE1mfgQkinoN6nuiepP3ddcIm7EZZo9lSv:/44wnrIWhnuZpPXmoZZo9lS`
+IMP | `D825DE3A7A0BA78C5D631CAFDFBE9F2A`
+PESHA1 | `B41D1DAF60271B1EC87EE160781DCD51A2245B80`
+PE256 | `7508DE292B477A5CF929E1D7E07DBC8F8B09488C64E259E229B693C18819C44D`
 
 ## Runtime Data
 
@@ -174,8 +178,8 @@ C:\Windows\system32\w32tm.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -188,6 +192,12 @@ C:\Windows\system32\w32tm.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/88f14176c848adce732fe1db67c2d95cd495ac71caed5d137e0108332509042f/detection/
 
 
 ## Possible Misuse

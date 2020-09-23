@@ -1,5 +1,6 @@
 ﻿---
 title: BRAL130.EXE | Printer Driver Application Launcher
+excerpt: What is BRAL130.EXE?
 ---
 
 # BRAL130.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `768:jASKYengkOZHkQ/LM+Pnxks6lhoV3HKnun2YED7JLk+g6GX73+7A:jdqeMwysaEz0W
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright: (C) 2013 Brother Industries, Ltd. All Rights Reserved.
+
 
 
 

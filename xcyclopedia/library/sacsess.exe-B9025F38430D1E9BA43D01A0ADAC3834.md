@@ -1,5 +1,6 @@
 ﻿---
 title: sacsess.exe | Microsoft SAC Service Helper
+excerpt: What is sacsess.exe?
 ---
 
 # sacsess.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:7lyfr2oFRpasiZoC4yVMoQCT8oi2dskiqBqLTPBd2pOPDjUg:RyfrxFRmchM8oi2zq
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

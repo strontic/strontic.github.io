@@ -1,5 +1,6 @@
 ﻿---
 title: typeperf.exe | Command line performance monitor
+excerpt: What is typeperf.exe?
 ---
 
 # typeperf.exe 
@@ -17,6 +18,9 @@ SHA256 | `6189863E404821412177546146BF39BE81603229F5FCC7D669E4737DD8FF7B7E`
 SHA384 | `D0A4088C9A46802617A872B1C25381CE53A643D4FDA298FFBAA5B94BDCE325E2C2BA1917CC041994F03A307C3EDAA0BA`
 SHA512 | `38D7C3C83AD071B6F23175F0E8A643D5CA7018044C1B0E2E327FA9D4470EF6911502BD88E825C6A965C195E81F8A5C41F5D0927CA8C5439AE9CC3F64F4AD424C`
 SSDEEP | `768:Mrez2ecGi6KS8ak9ivuIwz8doMwQNd6YGvI3/YroadNoeHQV+UEhAz:MJGiWre1mdsaGw3AMadNoeWEhQ`
+IMP | `5DCDDB44A0DA4CD1D962C12AD1A2DA22`
+PESHA1 | `505143165D88AD93D329A6D2A60F3D1A1A9AC6DB`
+PE256 | `E4313648214F8F4A83934B986110C7212FA62B068747A156011FA8EBB3E403E0`
 
 ## Runtime Data
 
@@ -25,8 +29,9 @@ SSDEEP | `768:Mrez2ecGi6KS8ak9ivuIwz8doMwQNd6YGvI3/YroadNoeHQV+UEhAz:MJGiWre1mds
 
 Microsoft r TypePerf.exe (10.0.19041.1)
 
-Typeperf writes performance data to the command window
-or to a log file. To stop Typeperf, press CTRL+C.
+Typeperf
+writes
+performance data to the command window or to a log file. To stop Typeperf, press CTRL+C.
 
 Usage:
 C:\Windows\SysWOW64\typeperf.exe { <counter [counter ...]> 
@@ -36,49 +41,28 @@ C:\Windows\SysWOW64\typeperf.exe { <counter [counter ...]>
                                 } [options]
 
 Parameters:
-  <counter [counter ...]>       Performance counters
-                                to monitor.
+  <counter [counter ...]>       Performance counters to monitor.
 
 Options:
-  -?                            Displays context
-                                sensitive help.
-  -f <CSV|TSV|BIN|SQL>          Output file format.
-                                Default is CSV.
-  -cf <filename>                File containing
-                                performance counters
-                                to monitor, one per
-                                line.
-  -si <[[hh:]mm:]ss>            Time between samples.
-                                Default is 1 second.
-  -o <filename>                 Path of output file or
-                                SQL database. Default
+  -?                            Displays context sensitive help.
+  -f <CSV|TSV|BIN|SQL>          Output file format. Default is CSV.
+  -cf <filename>                File containing performance counters to
+                                monitor, one per line.
+  -si <[[hh:]mm:]ss>            Time between samples. Default is 1 second.
+  -o <filename>                 Path of output file or SQL database. Default
                                 is STDOUT.
-  -q [object]                   List installed
-                                counters (no
-                                instances). To list
-                                counters for one
-                                object, include the
-                                object name, such as
-                                Processor.
-  -qx [object]                  List installed
-                                counters with
-                                instances. To list
-                                counters for one
-                                object, include the
-                                object name, such as
-                                Processor.
-  -sc <samples>                 Number of samples to
-                                collect. Default is to
+  -q [object]                   List installed counters (no instances). To
+                                list counters for one object, include the
+                                object name, such as Processor.
+  -qx [object]                  List installed counters with instances. To
+                                list counters for one object, include the
+                                object name, such as Processor.
+  -sc <samples>                 Number of samples to collect. Default is to
                                 sample until CTRL+C.
-  -config <filename>            Settings file
-                                containing command
-                                options.
-  -s <computer_name>            Server to monitor if
-                                no server is specified
+  -config <filename>            Settings file containing command options.
+  -s <computer_name>            Server to monitor if no server is specified
                                 in the counter path.
-  -y                            Answer yes to all
-                                questions without
-                                prompting.
+  -y                            Answer yes to all questions without prompting.
 
 Note:
   Counter is the full name of a performance counter in
@@ -120,6 +104,12 @@ C:\Windows\SysWOW64\typeperf.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/6189863e404821412177546146bf39be81603229f5fcc7d669e4737dd8ff7b7e/detection/
 
 
 

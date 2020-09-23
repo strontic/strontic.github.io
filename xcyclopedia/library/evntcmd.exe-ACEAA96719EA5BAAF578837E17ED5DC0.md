@@ -1,5 +1,6 @@
 ﻿---
 title: evntcmd.exe | Event Translator Configuration Tool
+excerpt: What is evntcmd.exe?
 ---
 
 # evntcmd.exe 
@@ -51,6 +52,7 @@ options:   -?,-h        usage help;
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

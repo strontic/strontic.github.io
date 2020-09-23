@@ -1,5 +1,6 @@
 ﻿---
 title: AppVShNotify.exe | Microsoft Application Virtualization Client Shell Notifier
+excerpt: What is AppVShNotify.exe?
 ---
 
 # AppVShNotify.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:k/ZPeVGFGmT0bbplXIP9rRnWwDyJLt6bWfNU6ITLn3CJ+eqGm41ArZKarG:k/ZqQ2
 * Product Version: 10.0.14393.3659
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

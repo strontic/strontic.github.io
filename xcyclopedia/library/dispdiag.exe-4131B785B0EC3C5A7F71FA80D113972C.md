@@ -1,5 +1,6 @@
 ﻿---
 title: dispdiag.exe | Display Diagnostics
+excerpt: What is dispdiag.exe?
 ---
 
 # dispdiag.exe 
@@ -58,6 +59,7 @@ Output:
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

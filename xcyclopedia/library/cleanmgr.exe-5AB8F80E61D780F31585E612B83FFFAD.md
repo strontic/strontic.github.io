@@ -1,5 +1,6 @@
 ﻿---
 title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
+excerpt: What is cleanmgr.exe?
 ---
 
 # cleanmgr.exe 
@@ -23,6 +24,9 @@ SHA256 | `21737F8A48F1A7FB7873DFED26836382613DDC9E1DB860D71250B5067C011D82`
 SHA384 | `0EA3AC9AD762E37B1789F8ED665E0302AF1AF116748B47ABEE7DED71DCECCF14739A5E06460904F77A545456332116E2`
 SHA512 | `B098215E02967963C092161B3A15774886F7276B15D1C297E3ED0FA76CE44068ACF353A44B4891A4574F427848C4D35A1CD229F230FF04B1A6CBAC2073EC0EAB`
 SSDEEP | `3072:rJ8eh6cvBPXSWRf1nhBYoFcBdyqLAEPGRvQhRkKqUa9antF5hvvJkuXpZJq:LHvhBYoFcBMqsE+ohSKq99UF5hvv/`
+IMP | `F76A18F264CF5159E816B15A0467A24E`
+PESHA1 | `C8003ECCD65001D3EFBCC02C5A5DE7DE4CF231B3`
+PE256 | `E8363348996515C388559019C8088D7C33E262FB9B67022231631CD934BECA9E`
 
 ## Runtime Data
 
@@ -35,18 +39,13 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\cleanmgr.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -55,6 +54,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\cleanmgr.exe |
 
@@ -76,6 +76,12 @@ C:\Windows\SysWOW64\cleanmgr.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/21737f8a48f1a7fb7873dfed26836382613ddc9e1db860d71250b5067c011d82/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -111,8 +117,8 @@ cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/
 | Parameter | Description |
 | --------- | ----------- |
 | /d `<driveletter>` | Specifies the drive that you want Disk Cleanup to clean.<p>**NOTE:** The **/d** option is not utilized with `/sagerun:n`. |
-| /sageset:n | Displays the **Disk Cleanup Settings** dialog box and also creates a registry key to store the settings that you select. The `n` value, which is stored in the registry, allows you to specify tasks for Disk Cleanup to run. The `n` value can be any integer value from 0 to 65535. |
-| /sagerun:n | Runs the specified tasks that are assigned to the n value if you use the **\sageset** option. All drives on the computer are enumerated and the selected profile runs against each drive. |
+| /sageset:n | Displays the **Disk Cleanup Settings** dialog box and also creates a registry key to store the settings that you select. The `n` value, which is stored in the registry, allows you to specify tasks for Disk Cleanup to run. The `n` value can be any integer value from 0 to 9999. |
+| /sagerun:n | Runs the specified tasks that are assigned to the n value if you use the **/sageset** option. All drives on the computer are enumerated and the selected profile runs against each drive. |
 | /tuneup:n | Run **/sageset** and **/sagerun** for the same `n` . |
 | /lowdisk | Run with the default settings. |
 | /verylowdisk | Run with the default settings, no user prompts. |

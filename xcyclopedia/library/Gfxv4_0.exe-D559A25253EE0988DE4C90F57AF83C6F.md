@@ -1,5 +1,6 @@
 ﻿---
 title: Gfxv4_0.exe | Intel(R) Graphics Control Panel
+excerpt: What is Gfxv4_0.exe?
 ---
 
 # Gfxv4_0.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:+umQC9Aph7xhAj1F8IQrMtEi0gHRhnUMXOMMvt6fDVCDa:+umQ/hNhAjTPZbUrMu
 * Product Version: 8.15.10.4248
 * Language: Language Neutral
 * Legal Copyright:  Intel Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

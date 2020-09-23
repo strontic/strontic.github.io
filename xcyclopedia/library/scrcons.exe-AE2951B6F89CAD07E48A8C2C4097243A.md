@@ -1,5 +1,6 @@
 ﻿---
 title: scrcons.exe | WMI Standard Event Consumer - scripting
+excerpt: What is scrcons.exe?
 ---
 
 # scrcons.exe 
@@ -51,6 +52,7 @@ C:\Windows\system32\wbem\scrcons.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

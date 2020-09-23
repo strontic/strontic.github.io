@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationHost.exe | Windows Presentation Foundation Host
+excerpt: What is PresentationHost.exe?
 ---
 
 # PresentationHost.exe 
@@ -19,6 +20,9 @@ SHA256 | `17D6DCFACED6873A4AC0361FF14F48313F270AC9C465E9F02B5C12B5A5274C48`
 SHA384 | `9779F95F87B421BFDE816FA47AE7ED4EC520B3D3A28899B66893A2EDD4084D5B040B83E152704D3318F2D5DB821990B0`
 SHA512 | `40F46C3A131BB0388B8A3F7AEE422936F6E2AA8D2CDA547C43C4E7979C163D06C5AA20033A5156D3EEEE5D455EEB929CBCE89BCC8BB1766CBB65D7F03DD23E2E`
 SSDEEP | `6144:nKzlwEJfWd1o8UmCz1Jf5KNXwy3Odjp19k5KNXf:nclwEyymCR3KVwy3OdLaKV`
+IMP | `0F05A612CA776F9A937ECDE00BDB9592`
+PESHA1 | `8D88D1300FA7F6900B4BB6CBF6BAA54AB5AB9C0E`
+PE256 | `B437E2F8A7406A36DB15FFFC00BFD6795341DC1ADBCCD2BE53C79849C19D5DA5`
 
 ## Runtime Data
 
@@ -29,6 +33,7 @@ iexplore.exe
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -36,6 +41,7 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\PresentationHost.exe |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -56,6 +62,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 4.0.41210.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/17d6dcfaced6873a4ac0361ff14f48313f270ac9c465e9f02b5c12b5a5274c48/detection/
 
 ## File Similarity (ssdeep match)
 

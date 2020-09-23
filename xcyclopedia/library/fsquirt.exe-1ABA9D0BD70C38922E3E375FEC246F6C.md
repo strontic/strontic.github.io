@@ -1,5 +1,6 @@
 ﻿---
 title: fsquirt.exe | 
+excerpt: What is fsquirt.exe?
 ---
 
 # fsquirt.exe 
@@ -38,6 +39,7 @@ SSDEEP | `1536:R0CslG0dk/42GXQoLXHtEryPuO2NTk9/sG8OGbqkl+k0MTgFveWbXkbTsUFncUwp:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: AppleSyncMapiInterfaceHelper_x64.exe | SyncMapiInterfaceHelper
+excerpt: What is AppleSyncMapiInterfaceHelper_x64.exe?
 ---
 
 # AppleSyncMapiInterfaceHelper_x64.exe 
@@ -60,6 +61,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 
 

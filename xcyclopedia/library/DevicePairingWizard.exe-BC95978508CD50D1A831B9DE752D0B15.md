@@ -1,5 +1,6 @@
 ﻿---
 title: DevicePairingWizard.exe | Device Pairing Application
+excerpt: What is DevicePairingWizard.exe?
 ---
 
 # DevicePairingWizard.exe 
@@ -79,6 +80,7 @@ C:\Windows\SysWOW64\DevicePairingWizard.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

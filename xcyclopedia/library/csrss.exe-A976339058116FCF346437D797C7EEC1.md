@@ -1,5 +1,6 @@
 ﻿---
 title: csrss.exe | Client Server Runtime Process
+excerpt: What is csrss.exe?
 ---
 
 # csrss.exe 
@@ -17,6 +18,9 @@ SHA256 | `8EBF4096D28A78E8AB36E5084784ACC90464EB4A74D972C942F147EA59E5134B`
 SHA384 | `DD8EB1A01A8EC79580D8493B43E836783C0ADE408BC9D6DC3C519C82C8BF5606E2B505EBC5F8EFB2D55EE898D82052C1`
 SHA512 | `72BAC6EA896D9B7F817EF5644ADBDEA80BC7F852BE124F08487507A4507FB0C0AEC167EC03B9DFB8C4EDE7F0DBCBDC8343BD3C114EEA62BB1B842160FCE324A4`
 SSDEEP | `192:OGOblXioAyoBxQCwUmHW5MnWOuzCssCNDBQABJKPWo4Nbkwqnaj0A:cXroCpHW5MnWOuz4CNDBRJ9XlIA`
+IMP | `A96FA9912E09E361274AD77F1A4B252C`
+PESHA1 | `9AB2220BF0C75DD265CDC10C2AA298E5D96052CC`
+PE256 | `66C8CCB5F90CFE1458DF74E2B144530468B8AF879D8DABDCE2669E6C9EBEDA91`
 
 ## Signature
 
@@ -35,6 +39,12 @@ SSDEEP | `192:OGOblXioAyoBxQCwUmHW5MnWOuzCssCNDBQABJKPWo4Nbkwqnaj0A:cXroCpHW5MnW
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/65
+* VirusTotal Link: https://www.virustotal.com/gui/file/8ebf4096d28a78e8ab36e5084784acc90464eb4a74d972c942f147ea59e5134b/detection/
 
 
 ## Possible Misuse
@@ -53,11 +63,11 @@ Source | Source File | Example | License
 [malware-ioc](https://github.com/eset/malware-ioc) | [glupteba](https://github.com/eset/malware-ioc/blob/master/glupteba/README.adoc) | `\|`1645AD8468A2FB54763C0EBEB766DFD8C643F3DB`\|csrss.exe   \|Win32/Agent.SVE` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [nukesped_lazarus](https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc) | `.`csrss.exe`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `csrss.exe` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         description = "Detects uncommon file size of csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) |         and filename == "csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		description = "Anomaly rule looking for certain strings in a system file (maybe false positive on certain systems) - file csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		$s4 = "name=\"Microsoft.Windows.CSRSS\"" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		filename == "csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) | description = "Detects uncommon file size of csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [generic_anomalies.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar) | and filename == "csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | description = "Anomaly rule looking for certain strings in a system file (maybe false positive on certain systems) - file csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | $s4 = "name=\"Microsoft.Windows.CSRSS\"" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | filename == "csrss.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

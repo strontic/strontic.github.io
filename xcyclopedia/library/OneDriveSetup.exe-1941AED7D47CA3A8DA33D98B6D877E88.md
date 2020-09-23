@@ -1,5 +1,6 @@
 ﻿---
 title: OneDriveSetup.exe | Microsoft OneDrive Setup
+excerpt: What is OneDriveSetup.exe?
 ---
 
 # OneDriveSetup.exe 
@@ -40,6 +41,7 @@ OneDriveSetup.exe
 * Product Version: 19.002.0107.0005
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: WerFault.exe | Windows Problem Reporting
+excerpt: What is WerFault.exe?
 ---
 
 # WerFault.exe 
@@ -17,6 +18,9 @@ SHA256 | `F79420BE1161A86FC1CAA09D062C5C835929913B48F10EECCC8179DEA9A318DC`
 SHA384 | `68270ABA895AF6A1CA0C682DC83ABCD3CAEC98FAABC3F818A041AF97749C4C4601D0C03FD82B61C0AFD37490D3C0AB14`
 SHA512 | `0C8117B69CDA594E3ACB4626863462ECE70D040D5B8A0338B33E8560702725D3E0DB2EB08188386E2CAA7A837F5F22086DAAFC6CF2DECF5FFFF4D10C17C0CCB2`
 SSDEEP | `12288:Y1RCjjD0LCLuys9oczNZcbEjoUqhFEHc2Hywnbu:YRC/4LCLuysXpGwoUqhFEHcyhnS`
+IMP | `1CB1148A98B718C6F3EEF715F4EBCFDD`
+PESHA1 | `78C3C02B96B6CEC18403D1E2DDA891C1A4EACC0A`
+PE256 | `CDC3CE50652FE4E1BAC5B63A8BDACCDF8E5BEEC387A2D95B6171E988189EA685`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\WerFault.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\WerFault.exe |
 * Product Version: 10.0.19041.388
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/f79420be1161a86fc1caa09d062c5c835929913b48f10eeccc8179dea9a318dc/detection/
 
 
 ## Possible Misuse

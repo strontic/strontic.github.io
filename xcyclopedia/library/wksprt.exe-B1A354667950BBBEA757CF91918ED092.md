@@ -1,5 +1,6 @@
 ﻿---
 title: wksprt.exe | RemoteApp and Desktop Connection Runtime
+excerpt: What is wksprt.exe?
 ---
 
 # wksprt.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:lUGU6hHxGgzYOL5GRqQcSXIB7GjFMvT3lxR:lzU6hHxGgzn8sSimI`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: wbemtest.exe | WMI Test Tool
+excerpt: What is wbemtest.exe?
 ---
 
 # wbemtest.exe 
@@ -40,6 +41,7 @@ SSDEEP | `3072:/R+IIWEQ/Cpf+VKoewlzZuuDVWM82+sVlhIPFJRAhP2EAeB:Z+IILJpfVclzj898a
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

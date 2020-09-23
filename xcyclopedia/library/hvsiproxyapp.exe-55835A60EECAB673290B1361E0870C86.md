@@ -1,5 +1,6 @@
 ﻿---
 title: hvsiproxyapp.exe | 
+excerpt: What is hvsiproxyapp.exe?
 ---
 
 # hvsiproxyapp.exe 
@@ -57,6 +58,12 @@ C:\Windows\system32\WTSAPI32.dll |
 * Language: 
 * Legal Copyright: 
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\hvsiproxyapp.exe](hvsiproxyapp.exe-1BBE4594709EB8D6E34AB126888827CA.md) | 90
 
 
 

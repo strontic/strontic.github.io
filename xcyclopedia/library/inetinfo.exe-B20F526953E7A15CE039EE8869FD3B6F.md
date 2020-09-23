@@ -1,5 +1,6 @@
 ﻿---
 title: inetinfo.exe | Internet Information Services
+excerpt: What is inetinfo.exe?
 ---
 
 # inetinfo.exe 
@@ -45,6 +46,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

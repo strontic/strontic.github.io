@@ -1,5 +1,6 @@
 ﻿---
 title: igfxCUIService.exe | igfxCUIService Module
+excerpt: What is igfxCUIService.exe?
 ---
 
 # igfxCUIService.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:/X67T/HNGxW4Cm7mQuT/F/1A2RKnXYRRSgEbJ4Y:/XcT/tG4+7m50YRR`
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
 
 
 ## Possible Misuse

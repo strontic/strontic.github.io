@@ -1,5 +1,6 @@
 ﻿---
 title: cli-32.exe | 
+excerpt: What is cli-32.exe?
 ---
 
 # cli-32.exe 
@@ -42,6 +43,7 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

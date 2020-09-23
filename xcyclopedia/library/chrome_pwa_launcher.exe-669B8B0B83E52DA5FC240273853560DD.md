@@ -1,5 +1,6 @@
 ﻿---
 title: chrome_pwa_launcher.exe | Google Chrome
+excerpt: What is chrome_pwa_launcher.exe?
 ---
 
 # chrome_pwa_launcher.exe 
@@ -55,6 +56,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 85.0.4183.83
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

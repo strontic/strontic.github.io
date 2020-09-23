@@ -1,5 +1,6 @@
 ﻿---
 title: AIMPate.exe | AIMP Advanced Tag Editor
+excerpt: What is AIMPate.exe?
 ---
 
 # AIMPate.exe 
@@ -92,6 +93,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4.70.2224.0
 * Language: Russian (Russia)
 * Legal Copyright: Artem Izmaylov
+
 
 
 

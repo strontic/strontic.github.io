@@ -1,5 +1,6 @@
 ﻿---
 title: dmcfghost.exe | Host Process for Push Router Client of OMA-CP
+excerpt: What is dmcfghost.exe?
 ---
 
 # dmcfghost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:k49Fv2Ei7Y0Dl7IOaojrnNZDahY4owDl0lDGAgkMk57z:rv2Ew0OrnNZDa3D+kAgkT
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

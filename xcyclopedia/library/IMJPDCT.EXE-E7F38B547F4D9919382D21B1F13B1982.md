@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPDCT.EXE | Microsoft IME
+excerpt: What is IMJPDCT.EXE?
 ---
 
 # IMJPDCT.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `12288:3EgYIX3nN6kShFtNr+4re/3iOr3Vic/81lXdAp8qr/:Ut1q4UV9/81lXdAp8q`
 * Product Version: 10.0.18362.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

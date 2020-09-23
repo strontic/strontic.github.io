@@ -1,5 +1,6 @@
 ﻿---
 title: winrs.exe | winrs
+excerpt: What is winrs.exe?
 ---
 
 # winrs.exe 
@@ -146,6 +147,7 @@ Use "winrs -?" to obtain the usage information
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

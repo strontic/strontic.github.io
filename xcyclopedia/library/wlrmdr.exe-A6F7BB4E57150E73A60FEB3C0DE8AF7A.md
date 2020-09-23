@@ -1,5 +1,6 @@
 ﻿---
 title: wlrmdr.exe | Windows logon reminder
+excerpt: What is wlrmdr.exe?
 ---
 
 # wlrmdr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:xD4X02Ldm8340UVhJvNysbsvqr9PxDtrrP7:t2LdmC4dJvkxu9ZDtrrj`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

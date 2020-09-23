@@ -1,5 +1,6 @@
 ﻿---
 title: cttune.exe | ClearType Tuner
+excerpt: What is cttune.exe?
 ---
 
 # cttune.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:VtGumXjDMvRWBW109vJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUM4V:VoumXjDMv
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

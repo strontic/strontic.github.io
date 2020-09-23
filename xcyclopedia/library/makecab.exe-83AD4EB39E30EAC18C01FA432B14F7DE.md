@@ -1,5 +1,6 @@
 ﻿---
 title: makecab.exe | Microsoft Cabinet Maker
+excerpt: What is makecab.exe?
 ---
 
 # makecab.exe 
@@ -56,6 +57,7 @@ MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

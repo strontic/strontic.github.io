@@ -1,5 +1,6 @@
 ﻿---
 title: windirstat.exe | Windows Directory Statistics
+excerpt: What is windirstat.exe?
 ---
 
 # windirstat.exe 
@@ -79,6 +80,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.1.2.80 (Unicode)
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2003-2005 Bernhard Seifert
+
 
 
 

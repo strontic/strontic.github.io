@@ -1,5 +1,6 @@
 ﻿---
 title: UsoClient.exe | UsoClient
+excerpt: What is UsoClient.exe?
 ---
 
 # UsoClient.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\UsoClient.exe |
 * Product Version: 10.0.17763.1007
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

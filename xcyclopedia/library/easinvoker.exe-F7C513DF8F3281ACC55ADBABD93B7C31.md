@@ -1,5 +1,6 @@
 ﻿---
 title: easinvoker.exe | Exchange ActiveSync Invoker
+excerpt: What is easinvoker.exe?
 ---
 
 # easinvoker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:ZW95nI6AueECr3lImy2xXib8wwuY/Y1FaS3r2lCPZF:ZOI6AueECjljy2xXib8wwd
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

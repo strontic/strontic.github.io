@@ -1,5 +1,6 @@
 ﻿---
 title: bcdboot.exe | Bcdboot utility
+excerpt: What is bcdboot.exe?
 ---
 
 # bcdboot.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:xe1cMf+gIkvIemGyVNZTssC+9VyhXJhACmMMV2:qdf+gIkQbbN1sr+rEq`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

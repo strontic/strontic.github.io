@@ -1,5 +1,6 @@
 ﻿---
 title: VmComputeAgent.exe | Hyper-V Guest Compute Service
+excerpt: What is VmComputeAgent.exe?
 ---
 
 # VmComputeAgent.exe 
@@ -55,6 +56,7 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

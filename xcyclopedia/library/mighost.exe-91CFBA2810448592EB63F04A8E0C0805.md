@@ -1,5 +1,6 @@
 ﻿---
 title: mighost.exe | Migration Plugins host program
+excerpt: What is mighost.exe?
 ---
 
 # mighost.exe 
@@ -69,6 +70,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

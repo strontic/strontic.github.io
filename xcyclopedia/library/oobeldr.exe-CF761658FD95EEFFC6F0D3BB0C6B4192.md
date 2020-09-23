@@ -1,5 +1,6 @@
 ﻿---
 title: oobeldr.exe | OOBE Loader
+excerpt: What is oobeldr.exe?
 ---
 
 # oobeldr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:c2UNfPBTjo6EvoyYLd0QJ65MhgsJD7TnlpVciKs5LDudarn8TuhUJYXHlCg7t5h3:c
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

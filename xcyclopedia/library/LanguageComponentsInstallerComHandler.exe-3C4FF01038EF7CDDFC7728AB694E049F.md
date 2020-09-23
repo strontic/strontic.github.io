@@ -1,5 +1,6 @@
 ﻿---
 title: LanguageComponentsInstallerComHandler.exe | LanguageComponentsInstaller COM Handler
+excerpt: What is LanguageComponentsInstallerComHandler.exe?
 ---
 
 # LanguageComponentsInstallerComHandler.exe 
@@ -67,6 +68,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

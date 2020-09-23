@@ -1,5 +1,6 @@
 ﻿---
 title: TSWbPrxy.exe | Microsoft Remote Desktop Services Web Proxy
+excerpt: What is TSWbPrxy.exe?
 ---
 
 # TSWbPrxy.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:2Dhqnd6tSBtkeas6mwpYaxil9BPUebq7scbJ+6bysaw+NhQ:2lfqRaC4Dxknbosct
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

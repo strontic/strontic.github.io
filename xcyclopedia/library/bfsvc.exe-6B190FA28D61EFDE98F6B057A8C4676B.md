@@ -1,5 +1,6 @@
 ﻿---
 title: bfsvc.exe | Boot File Servicing Utility
+excerpt: What is bfsvc.exe?
 ---
 
 # bfsvc.exe 
@@ -44,6 +45,7 @@ BFSVC Error: Failed to validate boot manager checksum (help\EFI\bootmgfw.efi)! E
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

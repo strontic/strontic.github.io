@@ -1,5 +1,6 @@
 ﻿---
 title: BdeHdCfg.exe | BitLocker Drive Encryption- Drive Preparation Tool
+excerpt: What is BdeHdCfg.exe?
 ---
 
 # BdeHdCfg.exe 
@@ -110,6 +111,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

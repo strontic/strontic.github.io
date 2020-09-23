@@ -1,5 +1,6 @@
 ﻿---
 title: PktMon.exe | Packet Monitor
+excerpt: What is PktMon.exe?
 ---
 
 # PktMon.exe 
@@ -72,6 +73,7 @@ C:\Windows\system32\PktMon.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

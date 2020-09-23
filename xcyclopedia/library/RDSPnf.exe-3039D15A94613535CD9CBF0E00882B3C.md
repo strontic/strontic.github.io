@@ -1,5 +1,6 @@
 ﻿---
 title: RDSPnf.exe | Windows All-User Installer Profile Processing Module
+excerpt: What is RDSPnf.exe?
 ---
 
 # RDSPnf.exe 
@@ -56,6 +57,7 @@ C:\Windows\system32\RDSPnf.exe |
 * Product Version: 10.0.17763.1007
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

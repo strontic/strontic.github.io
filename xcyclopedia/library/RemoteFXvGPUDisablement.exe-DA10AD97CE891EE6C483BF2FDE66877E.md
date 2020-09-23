@@ -1,5 +1,6 @@
 ﻿---
 title: RemoteFXvGPUDisablement.exe |  
+excerpt: What is RemoteFXvGPUDisablement.exe?
 ---
 
 # RemoteFXvGPUDisablement.exe 
@@ -46,12 +47,20 @@ C:\Windows\system32\RemoteFXvGPUDisablement.exe |
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\RemoteFXvGPUDisablement.exe](RemoteFXvGPUDisablement.exe-0718AA4C9BD4A64231A92672B36BCDA9.md) | 82
 
+## Possible Misuse
+
+*The following table contains possible examples of `RemoteFXvGPUDisablement.exe` being misused. While `RemoteFXvGPUDisablement.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `- '\WINDOWS\System32\RemoteFXvGPUDisablement.exe'  # on win10` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

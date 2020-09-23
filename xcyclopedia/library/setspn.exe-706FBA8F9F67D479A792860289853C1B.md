@@ -1,5 +1,6 @@
 ﻿---
 title: setspn.exe | Query or reset the computer's SPN attribute
+excerpt: What is setspn.exe?
 ---
 
 # setspn.exe 
@@ -125,6 +126,7 @@ C:\Windows\system32\setspn.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: YSIconStamper.exe | YSIconStamper.exe
+excerpt: What is YSIconStamper.exe?
 ---
 
 # YSIconStamper.exe 
@@ -54,6 +55,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 
 

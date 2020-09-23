@@ -1,5 +1,6 @@
 ﻿---
 title: mblctr.exe | Windows Mobility Center
+excerpt: What is mblctr.exe?
 ---
 
 # mblctr.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:9tuceTlfs5PQXu+YqubBSMr1JM1h351qviizQBODAKylkm5ZUxXrc5Zh5ZG5Ze:9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

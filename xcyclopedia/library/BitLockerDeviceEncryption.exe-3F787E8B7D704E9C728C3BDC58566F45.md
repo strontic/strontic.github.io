@@ -1,5 +1,6 @@
 ﻿---
 title: BitLockerDeviceEncryption.exe | BitLocker Device Encryption Tool
+excerpt: What is BitLockerDeviceEncryption.exe?
 ---
 
 # BitLockerDeviceEncryption.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:OsIWPUSyJIzdmCE/n5Yh4Oz0R+svk886jh7:OxW2WHE/5Yh4OwhTjh`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

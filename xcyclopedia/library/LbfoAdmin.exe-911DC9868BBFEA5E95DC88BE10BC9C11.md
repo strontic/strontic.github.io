@@ -1,5 +1,6 @@
 ﻿---
 title: LbfoAdmin.exe | NIC Teaming
+excerpt: What is LbfoAdmin.exe?
 ---
 
 # LbfoAdmin.exe 
@@ -96,6 +97,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

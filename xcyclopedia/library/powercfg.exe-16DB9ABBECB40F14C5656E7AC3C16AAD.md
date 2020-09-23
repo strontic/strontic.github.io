@@ -1,5 +1,6 @@
 ﻿---
 title: powercfg.exe | Power Settings Command-Line Tool
+excerpt: What is powercfg.exe?
 ---
 
 # powercfg.exe 
@@ -142,6 +143,7 @@ C:\Windows\system32\powercfg.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

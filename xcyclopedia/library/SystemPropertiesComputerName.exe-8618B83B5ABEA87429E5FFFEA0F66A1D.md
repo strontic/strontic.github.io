@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesComputerName.exe | Change Computer Settings
+excerpt: What is SystemPropertiesComputerName.exe?
 ---
 
 # SystemPropertiesComputerName.exe 
@@ -70,6 +71,7 @@ C:\Windows\SysWOW64\SystemPropertiesComputerName.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

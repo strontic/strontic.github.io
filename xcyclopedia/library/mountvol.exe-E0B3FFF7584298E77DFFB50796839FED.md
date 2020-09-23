@@ -1,5 +1,6 @@
 ﻿---
 title: mountvol.exe | Mount Volume Utility
+excerpt: What is mountvol.exe?
 ---
 
 # mountvol.exe 
@@ -17,6 +18,9 @@ SHA256 | `F247BE88F22B07A36F4B71707ED7A96BD989BAD37A7500DA03B81709749DED7E`
 SHA384 | `7C2259B742D8C889B8355876EF4E792C9CF54688776CB966FCA94CE7232E27AC245F0FF23AC50868B8AC150529CE41A9`
 SHA512 | `49F56C904C8E8433F13D49D6F2C67BECFB1FC8CA41C28ABBD67687FFBA00095827F2000F39F1DB217A1EF47FF9EF6FCC8B150572F4DD9B779565932EB4C7A709`
 SSDEEP | `384:Ob5fptnL+WMPDmOK84xVLdI8NuIcWLFWq:ofr+WMPDMx31NuIB`
+IMP | `30F2C65A9103A7536B77118A741917B8`
+PESHA1 | `75141692C6580AD5F9890E32530BD94BA5E05F8C`
+PE256 | `809333394E05CB5ABF942D826E545483638655624AD6FF8452EDEB24A9D9C500`
 
 ## Runtime Data
 
@@ -51,7 +55,7 @@ MOUNTVOL drive: /S
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{d1215a4b-fdfb-42de-bc4c-d3998aa1a67a}\
+    \\?\Volume{ef3f46bb-a26f-43f2-98f7-b1933a975c79}\
         C:\
 
 
@@ -85,6 +89,12 @@ C:\Windows\SysWOW64\mountvol.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f247be88f22b07a36f4b71707ed7a96bd989bad37a7500da03b81709749ded7e/detection/
 
 
 

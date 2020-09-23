@@ -1,5 +1,6 @@
 ﻿---
 title: snmptrap.exe | SNMP Trap
+excerpt: What is snmptrap.exe?
 ---
 
 # snmptrap.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:QtHuGmUrx1S90msBqUy6yGx3Bf2PD6r7m4eoDDxVKEgTz91oA2ekyGsH17VnmOWS:A
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SysResetErr.exe | Windows System Reset
+excerpt: What is SysResetErr.exe?
 ---
 
 # SysResetErr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:WVKwFuZe2LoGVAH/my7LVcSYFLUh15rCMun7kMWeEWxxAdwQES52+uvMWde+iYQs:X
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

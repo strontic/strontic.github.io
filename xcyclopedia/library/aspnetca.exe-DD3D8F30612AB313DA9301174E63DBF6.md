@@ -1,5 +1,6 @@
 ﻿---
 title: aspnetca.exe | ASP.NET setup custom actions
+excerpt: What is aspnetca.exe?
 ---
 
 # aspnetca.exe 
@@ -51,6 +52,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

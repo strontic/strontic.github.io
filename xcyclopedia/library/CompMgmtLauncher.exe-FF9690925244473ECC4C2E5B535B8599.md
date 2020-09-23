@@ -1,5 +1,6 @@
 ﻿---
 title: CompMgmtLauncher.exe | Computer Management Snapin Launcher
+excerpt: What is CompMgmtLauncher.exe?
 ---
 
 # CompMgmtLauncher.exe 
@@ -17,6 +18,9 @@ SHA256 | `764AD199D40BFD87C0906470A816422ECDAA7CAFF7DF97592922B068FA9C5F40`
 SHA384 | `91B06E9726F88D28645FA864D692B72D7E02D585925B97D56ADBA97085846A7C7A26C5AA7C508FE5A36C027FD43E16F2`
 SHA512 | `096DEF64516A9268E388EB06CEAA34E0772D9AD041A5368F5F68036DBA3DC5F756E226A00BD6A8B5710B9A075ADD2849E180E68603430873685330A95D7802A1`
 SSDEEP | `1536:PHsdhnqKTs6GHQm7cMvn3MuD4ptcD2e9lOo+vi6Uf:PMnnq25Gwm7cMv3p4ptcCe9co+Q`
+IMP | `5C07F48325D782CDDABE04AA4F7F5B0B`
+PESHA1 | `B3ABD82ABA30E9678C03893E75B2AA432BB1C420`
+PE256 | `A4AF3E4F731BF33178E2B415552770CE9BD16F6EDBB48F14E30262A22DD2EAA1`
 
 ## Runtime Data
 
@@ -27,19 +31,14 @@ mmc.exe
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
 C:\Windows\system32\CompMgmtLauncher.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -59,6 +58,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/764ad199d40bfd87c0906470a816422ecdaa7caff7df97592922b068fa9c5f40/detection/
 
 ## File Similarity (ssdeep match)
 

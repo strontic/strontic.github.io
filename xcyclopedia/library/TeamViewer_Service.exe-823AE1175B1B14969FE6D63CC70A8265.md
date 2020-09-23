@@ -1,5 +1,6 @@
 ﻿---
 title: TeamViewer_Service.exe | TeamViewer
+excerpt: What is TeamViewer_Service.exe?
 ---
 
 # TeamViewer_Service.exe 
@@ -35,6 +36,7 @@ SSDEEP | `196608:8gSQl34abo+FDN/nwIqGId77CXtZ3unCR+BEhAz5TpKMHL:8JQlIo/nPCSbqEhC
 * Product Version: 15.8.3.0
 * Language: English (United Kingdom)
 * Legal Copyright: TeamViewer Germany GmbH
+
 
 
 

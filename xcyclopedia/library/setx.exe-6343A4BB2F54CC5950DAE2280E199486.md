@@ -1,5 +1,6 @@
 ﻿---
 title: setx.exe | Setx - Sets environment variables
+excerpt: What is setx.exe?
 ---
 
 # setx.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:RmF6RDl+n8wnP9CV/ata5gvUEYemJ/PTntsNPqAluuD6K9MbEYyxKodNoailP:MF6A
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

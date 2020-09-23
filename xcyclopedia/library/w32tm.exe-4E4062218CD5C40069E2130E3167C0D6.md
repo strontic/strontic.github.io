@@ -1,5 +1,6 @@
 ﻿---
 title: w32tm.exe | Windows Time Service Diagnostic Tool
+excerpt: What is w32tm.exe?
 ---
 
 # w32tm.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:xYGoDYpHygP5FQwowTX3BwEdlk+HaEYkr/s+ZA7kCC+Kp9Ma4ZGVje:xboox9v3q+
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

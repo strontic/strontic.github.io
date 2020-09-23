@@ -1,5 +1,6 @@
 ﻿---
 title: CertEnrollCtrl.exe | Certificate Enrollment Control
+excerpt: What is CertEnrollCtrl.exe?
 ---
 
 # CertEnrollCtrl.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:mpOia6jpoFlWx391GBz1RrmqYpAaODoAdJ+pFQqIhKAYjr3KawLNHvfzYBHGdlkH:m
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: WindowsActionDialog.exe | Windows Action Dialog Broker
+excerpt: What is WindowsActionDialog.exe?
 ---
 
 # WindowsActionDialog.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:6kSHpGgnr2M2xBMqV7YSyE4gwqfWs4r5qn+Vtxfyye6Y3Vgp42LZtuwDq4EgmGDg:n
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

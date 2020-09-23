@@ -1,5 +1,6 @@
 ﻿---
 title: refsutil.exe | refsutil.exe
+excerpt: What is refsutil.exe?
 ---
 
 # refsutil.exe 
@@ -43,6 +44,7 @@ This program requires administrator privileges.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

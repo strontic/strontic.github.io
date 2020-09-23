@@ -1,5 +1,6 @@
 ﻿---
 title: twain.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is twain.exe?
 ---
 
 # twain.exe 
@@ -61,6 +62,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 ## File Similarity (ssdeep match)
 

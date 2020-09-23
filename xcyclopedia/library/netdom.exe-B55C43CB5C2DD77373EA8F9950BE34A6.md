@@ -1,5 +1,6 @@
 ﻿---
 title: netdom.exe | NETDOM5
+excerpt: What is netdom.exe?
 ---
 
 # netdom.exe 
@@ -65,6 +66,7 @@ The command completed successfully.
 * Product Version: 10.0.14393.2969
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

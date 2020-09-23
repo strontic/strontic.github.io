@@ -1,5 +1,6 @@
 ﻿---
 title: igfxext.exe | igfxext Module
+excerpt: What is igfxext.exe?
 ---
 
 # igfxext.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:dT1htmbcfmTj9LgwvQ+gYY1d3C0OaxYaad8Jw+vGqeKhI4xFVBr3jwiQX:t3LfmTJ
 * Product Version: 6.15.10.4248
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
 
 
 

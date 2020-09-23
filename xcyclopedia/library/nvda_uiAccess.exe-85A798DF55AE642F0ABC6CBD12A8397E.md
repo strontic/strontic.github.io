@@ -1,5 +1,6 @@
 ﻿---
 title: nvda_uiAccess.exe | NVDA application
+excerpt: What is nvda_uiAccess.exe?
 ---
 
 # nvda_uiAccess.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2020.2
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2006-2020 NVDA Contributors
+
 
 ## File Similarity (ssdeep match)
 

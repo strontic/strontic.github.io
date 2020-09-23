@@ -1,5 +1,6 @@
 ﻿---
 title: WSEnable.exe | Thunderbird Windows Search Integration Handler
+excerpt: What is WSEnable.exe?
 ---
 
 # WSEnable.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 78.2.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

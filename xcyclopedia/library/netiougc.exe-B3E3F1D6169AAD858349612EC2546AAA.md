@@ -1,5 +1,6 @@
 ﻿---
 title: netiougc.exe | Netio Unattend Generic Command
+excerpt: What is netiougc.exe?
 ---
 
 # netiougc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:Wwx59osEBoMn7qrOTvkWrvrDsWrs76xq53+mbj/3qqEwVWXrNWPa/7:Px5s8YrpFq5
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

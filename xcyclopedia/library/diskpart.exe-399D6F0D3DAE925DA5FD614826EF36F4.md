@@ -1,5 +1,6 @@
 ﻿---
 title: diskpart.exe | DiskPart
+excerpt: What is diskpart.exe?
 ---
 
 # diskpart.exe 
@@ -17,6 +18,9 @@ SHA256 | `48B07261356FCB13497AC3CFCE27AA17EDA79757673C3E26ACCCABC88CBDA6B3`
 SHA384 | `7CD1BDE13290DE5D7D24407F7CB666F450E6F5DCF69E57F85BBCC60372B25C06FCA61D2D31F12F8DF8CA5E977B953B0B`
 SHA512 | `565AB21877113CCFAF4B4DC31CD28BF69598A5B053D205086D9FF4D504D6F923DA76468864D2AC066E19F7D2E063232A557C7F55B4F285AEBE71B87485E42CA8`
 SSDEEP | `3072:Opl17KsYX1j7ZyGx8oh0b4F9BptLvibLivstwP+HUCEYQRxDlKr:Opl1Os8dxBJphSwuC+0jUr`
+IMP | `037D23EC0A7AA77EB4DD8BDA72D2A94E`
+PESHA1 | `DDBE5A1F8574F7A0BD4AD585C471D0173F142628`
+PE256 | `11C4C432EF757443FA7635EBF0A84C240176D14AA023F4AFF636DED54A17168D`
 
 ## Runtime Data
 
@@ -26,7 +30,7 @@ SSDEEP | `3072:Opl17KsYX1j7ZyGx8oh0b4F9BptLvibLivstwP+HUCEYQRxDlKr:Opl1Os8dxBJph
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-REAF672
+On computer: DESKTOP-DVEMHUO
 
 DiskPart has encountered an error: No mapping between account names and security IDs was done.
 See the System Event Log for more information.
@@ -61,6 +65,12 @@ C:\Windows\SysWOW64\diskpart.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/48b07261356fcb13497ac3cfce27aa17eda79757673c3e26acccabc88cbda6b3/detection/
 
 
 ## Possible Misuse

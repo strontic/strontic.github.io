@@ -1,5 +1,6 @@
 ﻿---
 title: dtdump.exe | DTDUMP.EXE
+excerpt: What is dtdump.exe?
 ---
 
 # dtdump.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:4b/xEmiR8soj7HD8zg+u6yKBQph9ficbp91w70Sw5/xlcPOd4odzvQ+a35S82r27:
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

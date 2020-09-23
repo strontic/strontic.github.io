@@ -1,5 +1,6 @@
 ﻿---
 title: cp.exe | 
+excerpt: What is cp.exe?
 ---
 
 # cp.exe 
@@ -129,6 +130,7 @@ Try '/usr/bin/cp --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

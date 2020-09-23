@@ -1,5 +1,6 @@
 ﻿---
 title: SecurityHealthSystray.exe | Windows Security notification icon
+excerpt: What is SecurityHealthSystray.exe?
 ---
 
 # SecurityHealthSystray.exe 
@@ -17,6 +18,9 @@ SHA256 | `570B37A7A3FFDAFCCECCC33CBC1968FEB857B73CA3CB4DFFEDC2E67E9ABD0878`
 SHA384 | `6022A3C0C0D93BE920073A61464D574522C97C44E0D0BAB26654A3343402D12EAA4B43DB39B116244F245637D38BB636`
 SHA512 | `64CF69020713119C0B1633B600435F18342052F9DE0529CE658446E041CC51FBF73AF4C92E41C77417C8ADC35C78A15188CFD8C5A90AFB89CCAF0B440AFE4ACA`
 SSDEEP | `768:8r/PLGOY9Vl4qvTLC+pIxtFfNKgfP5uYoNIjDx0Nw4BygrPoB90g:yI9Vl4Q2p0gfPviOx0/BygrPoBq`
+IMP | `E6B44B525767F585EB30F35172497CB0`
+PESHA1 | `0C18123CF9F366D55403C5670E49B43FAE87CD97`
+PE256 | `9B83EF83482631EB2FFA3CC77BA766EF12B686F5923809E2FFAEE2E405D97444`
 
 ## Runtime Data
 
@@ -24,17 +28,12 @@ SSDEEP | `768:8r/PLGOY9Vl4qvTLC+pIxtFfNKgfP5uYoNIjDx0Nw4BygrPoB90g:yI9Vl4Q2p0gfP
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\system32\SecurityHealthSystray.exe |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
@@ -42,8 +41,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,6 +55,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/570b37a7a3ffdafcceccc33cbc1968feb857b73ca3cb4dffedc2e67e9abd0878/detection/
 
 
 

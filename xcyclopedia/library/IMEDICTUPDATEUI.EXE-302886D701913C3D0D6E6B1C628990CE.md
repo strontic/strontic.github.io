@@ -1,5 +1,6 @@
 ﻿---
 title: IMEDICTUPDATEUI.EXE | Microsoft IME 2012
+excerpt: What is IMEDICTUPDATEUI.EXE?
 ---
 
 # IMEDICTUPDATEUI.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `1536:IXDEz6DOBN4ncmsfNj64g+1vk2GwL1vk2GwmXQBnKAd5:IXDUNDHfF64g2PmXQBnK
 * Product Version: 15.0.9600.17415
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tracerpt.exe | Event Trace Report Tool
+excerpt: What is tracerpt.exe?
 ---
 
 # tracerpt.exe 
@@ -17,6 +18,9 @@ SHA256 | `D195EEC1CEEBC970EF9FD607667299D2C2A4D13CD0A26F57908CB7769476B4A7`
 SHA384 | `18D5CCBCE3A6F30F35F7AA674AA457E1E490FB125D27C84542C77F023E95DE2AD70D9EF5BC7B6C665610B10AACA22A53`
 SHA512 | `E32B176F5C4E3D169B52E51C0A5570077265B515E3823B5B6EA1C333126B48894C906EA66F0681E06A7AAD829E2E25CB82EE1FB262256A4A2DACCD20B346AEB6`
 SSDEEP | `6144:O8+is/GxYz8R2VQr3otDDeP55Vc8YmcVhq5J5MT:VXtxYzeaeR5Vc5Vh8J5`
+IMP | `7835E3A9354323D36EDE92465DE72126`
+PESHA1 | `CAA26804E739D9C12D9A03496847965147EC8CB3`
+PE256 | `B1AEA3E4C5196431923032DDE87D52CA2EE4376CB7538DA6C98DC29503AE9A9A`
 
 ## Runtime Data
 
@@ -85,6 +89,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\tracerpt.exe |
 
@@ -106,6 +111,12 @@ C:\Windows\SysWOW64\tracerpt.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d195eec1ceebc970ef9fd607667299d2c2a4d13cd0a26f57908cb7769476b4a7/detection/
 
 
 

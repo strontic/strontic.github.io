@@ -1,5 +1,6 @@
 ﻿---
 title: sdiagnhost.exe | Scripted Diagnostics Native Host
+excerpt: What is sdiagnhost.exe?
 ---
 
 # sdiagnhost.exe 
@@ -17,6 +18,9 @@ SHA256 | `3584436E99BD2D420E9066E3A237ED1BE41E964E92FB5E1C88E052E6C834B1DA`
 SHA384 | `401182DCA59A4CC3B3A28DDE61F52ADF67B28B70161EED5DE82AB34CA982F5C2742A00E520AA2F125C41E533DD3B9912`
 SHA512 | `94014C6EB596222A7E72E089518AA071F24C870DEDA3050B6EB4D9A9766A0291D31A009E94CF2874AB8FCEEAC8AFBA97465D38E295874025948573648A4E732F`
 SSDEEP | `384:zHm8MXAvaHQ41cJluoPk8KWreBiyj7hZxaLelgWh7DWIH:wHElu4b8j75aLeN`
+IMP | `1AC4615E680B9BC131EC1F2ADCF60B35`
+PESHA1 | `687EF5C2A6DA51ABC7EA3E15104034086017AC3E`
+PE256 | `E415F46A53DCE06C8995B85E54A40D8F8DE5E27067A96E1B4E9B2BFC749D7240`
 
 ## Runtime Data
 
@@ -28,16 +32,11 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\sdiagnhost.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -68,6 +67,12 @@ C:\Windows\SysWOW64\sdiagnhost.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/60
+* VirusTotal Link: https://www.virustotal.com/gui/file/3584436e99bd2d420e9066e3a237ed1be41e964e92fb5e1c88e052e6c834b1da/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: mmgaserver.exe | MMGA Server
+excerpt: What is mmgaserver.exe?
 ---
 
 # mmgaserver.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:QiC+FESzU4M8tlKb3g/533+o2GUGcg34aGNOX/zVtwEMVUcj9VkJtRZEOpNqP0jc:
 * Product Version: 10.0.18362.145
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

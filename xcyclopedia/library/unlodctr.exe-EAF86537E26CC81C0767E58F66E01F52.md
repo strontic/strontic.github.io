@@ -1,5 +1,6 @@
 ﻿---
 title: unlodctr.exe | Unload PerfMon Counters
+excerpt: What is unlodctr.exe?
 ---
 
 # unlodctr.exe 
@@ -17,6 +18,9 @@ SHA256 | `68E5607D0AA1A52BFF70FE53C7EB0C5D27B342886BCBFEA7FBFEFD4168951F9B`
 SHA384 | `E797E79E9DF90E0A881B1253E0FE5C39C83F09C4A53BB242C3D3C1B2BF4149793D53268D684B09284A9D85FCC708CCDC`
 SHA512 | `75E591DBAC45ED1559559A47405D2E934D3D41D1E37CBB712F575DBF140509C3C60FE335E60006331C8E694558CE8635E116E7EDD244D5105664EAE79BFC2524`
 SSDEEP | `768:jZlM8QoRNUQ8QkY6krH0CUEGuDSnhTUflUk:9lM8XUVYH0Cyu+nxUflU`
+IMP | `6A4B1735A0F46C1BF9026F6600020288`
+PESHA1 | `23D8C0A6C8293D7D67DC2F7019C9F114C28F994D`
+PE256 | `690A1C81EC98F8D4F8A9E5D6D19038654AE8F0D087F6200AA342150D3D246492`
 
 ## Runtime Data
 
@@ -46,9 +50,6 @@ quotation marks.
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -77,6 +78,12 @@ C:\Windows\SysWOW64\unlodctr.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/68e5607d0aa1a52bff70fe53c7eb0c5d27b342886bcbfea7fbfefd4168951f9b/detection/
 
 
 

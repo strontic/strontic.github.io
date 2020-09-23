@@ -1,5 +1,6 @@
 ﻿---
 title: slui.exe | Windows Activation Client
+excerpt: What is slui.exe?
 ---
 
 # slui.exe 
@@ -57,6 +58,12 @@ C:\Windows\System32\win32u.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\slui.exe](slui.exe-EB725EA35A13DC18EAC46AA81E7F2841.md) | 91
 
 
 

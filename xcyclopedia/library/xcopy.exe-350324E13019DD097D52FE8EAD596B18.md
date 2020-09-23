@@ -1,5 +1,6 @@
 ﻿---
 title: xcopy.exe | Extended Copy Utility
+excerpt: What is xcopy.exe?
 ---
 
 # xcopy.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:okocTYgDLIvKew/OKlm7ZtByEtOmGO7ohecoFTAx6hgcTyx/JwcI:nTYgD6bw/5lm7
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

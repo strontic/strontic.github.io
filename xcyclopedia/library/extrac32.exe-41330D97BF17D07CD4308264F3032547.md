@@ -1,5 +1,6 @@
 ﻿---
 title: extrac32.exe | Microsoft CAB File Extract Utility
+excerpt: What is extrac32.exe?
 ---
 
 # extrac32.exe 
@@ -17,6 +18,9 @@ SHA256 | `A224559FD6621066347A5BA8F4AEECEEA8A0A7A881A71BD36DE69ACEB52E9DF7`
 SHA384 | `E2F07921D9BC80EF4120891A96B2B4A9DE86F8A8512BB3EE261B6320429E5B1964D5B0776084C6A67A18B31834B7C23D`
 SHA512 | `AE29E41C01EE6620FE822F9FEB3DD851617314CEC4D8EF750D2EBD2C61BD24FB54012146123F1FDF9B893F26E83CE5A17DBC5D3AAE42BB04DAAB6D42E82F2A04`
 SSDEEP | `768:ovwYnkEtzFtV6F/+oPaGYVAVIoDxeaPbS2s6Hl4yA:cRfa+YaGYVAVIexeqbSIpA`
+IMP | `9E8A016B1763601647B4DFBEF00DAC86`
+PESHA1 | `157E49FF299D661B1B09B667A9CAD327B8C4A5C2`
+PE256 | `249AE9FCD78556E94F9A37F388890D5D48A583EA5895B7BC01EA0987D2454EAF`
 
 ## Runtime Data
 
@@ -51,11 +55,9 @@ EXTRACT [/Y] /C source destination
 
 Path |
 -- |
-C:\Windows\system32\Cabinet.dll |
 C:\Windows\system32\extrac32.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -64,14 +66,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -84,6 +85,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a224559fd6621066347a5ba8f4aeeceea8a0a7a881a71bd36de69aceb52e9df7/detection/
 
 
 ## Possible Misuse

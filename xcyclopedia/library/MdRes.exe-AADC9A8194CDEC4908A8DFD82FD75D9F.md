@@ -1,5 +1,6 @@
 ﻿---
 title: MdRes.exe | Windows Memory Diagnostic
+excerpt: What is MdRes.exe?
 ---
 
 # MdRes.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:FrEzCPMLbiOm+65tFI720+VpmDOzc4JNWxwB1MjVJmRc:FraC3Oe/FO+VQDUcUNWs
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

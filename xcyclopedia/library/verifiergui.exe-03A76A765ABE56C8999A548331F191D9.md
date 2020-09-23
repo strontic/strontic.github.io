@@ -1,5 +1,6 @@
 ﻿---
 title: verifiergui.exe | Driver Verifier Manager
+excerpt: What is verifiergui.exe?
 ---
 
 # verifiergui.exe 
@@ -17,6 +18,9 @@ SHA256 | `19A383A3028816C56AB123962707ADDA9D3F68091C44F9D9E2F69E6CA935F151`
 SHA384 | `9DCEE7EC1A2C3DA7FE1C8EB9D2616813E2DE1CC99FF26F6F2079FF6891F2764496D2E9D276CDAA02D22F34E773B382BF`
 SHA512 | `C741D5B4293F33F3DC1235F381BFE5F6635BA95D73BD719C800EDE6AFEE160E6095B1136779EA1DCC85A2ABC24DCE872B80F897662B33EB9A5C7A299337D86D4`
 SSDEEP | `3072:chElFUjJ4TITY3ZbKLc/Ul7Fgqhjc5VoJe3+Vcv2JxQQBBEB3Befnj0t+TrjqNnf:0jJ4bZbvnbvhL`
+IMP | `466780D17BDF0C0DD4493F0E167E7B41`
+PESHA1 | `04292B4FA8DA89B6D09C214A60215FEFA8613876`
+PE256 | `C2C3630CD8C1B7214DEFE774484607008D791440230EF06B40E37F364E10EEDD`
 
 ## Runtime Data
 
@@ -193,8 +197,8 @@ C:\Windows\system32\verifiergui.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -207,6 +211,12 @@ C:\Windows\system32\verifiergui.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/19a383a3028816c56ab123962707adda9d3f68091c44f9d9e2f69e6ca935f151/detection/
 
 ## File Similarity (ssdeep match)
 

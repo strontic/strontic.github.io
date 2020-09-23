@@ -1,5 +1,6 @@
 ﻿---
 title: iisrstas.exe | Internet Information Services reset control
+excerpt: What is iisrstas.exe?
 ---
 
 # iisrstas.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:pJrBdrBdP0rjgvCxBpPQ6HV0Oku742XPSYZuTmF5PX7JQ:RVf9qp5/GYYTspX7JQ`
 * Product Version: 8.5.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

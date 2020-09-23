@@ -1,5 +1,6 @@
 ﻿---
 title: inkscape.exe | Inkscape vector graphics editor
+excerpt: What is inkscape.exe?
 ---
 
 # inkscape.exe 
@@ -233,6 +234,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Product Version: 1.0
 * Language: English (United States)
 * Legal Copyright:  2020 Inkscape project
+
 
 ## File Similarity (ssdeep match)
 

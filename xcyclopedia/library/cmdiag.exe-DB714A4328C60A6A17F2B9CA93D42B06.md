@@ -1,5 +1,6 @@
 ﻿---
 title: cmdiag.exe | 
+excerpt: What is cmdiag.exe?
 ---
 
 # cmdiag.exe 
@@ -52,6 +53,7 @@ Commands:
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

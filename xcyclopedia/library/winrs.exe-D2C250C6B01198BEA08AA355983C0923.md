@@ -1,5 +1,6 @@
 ﻿---
 title: winrs.exe | winrs
+excerpt: What is winrs.exe?
 ---
 
 # winrs.exe 
@@ -17,6 +18,9 @@ SHA256 | `00B00F9E2A62550136F2D80428BDCE22C8FE718784B7F8DAFC29C18BFD782BDF`
 SHA384 | `183FBE4C0FDEC2EF772C4180C44AB494ECDE0A142C477D2DFA01600CA26B1A4E7C9BA307D50146FF8C489FB552BB5EEE`
 SHA512 | `673DCA33B1E412510792D84549D04B56912AF9B6D845327593354311AFA6977DDAB87182410DE24DAB27D879FA59E9DB3E7A2E42D91DBD7323947750FFB9519E`
 SSDEEP | `768:cTnnHx13UF6bVgw7nOrXgsRrMfDEklZx1nKuPUA/2/lDfShXcMmkdhuxVqVaogE:wRSFO7nOzr5kl7s6Uv/lDKhvmkWE`
+IMP | `2A6F61CB3D8B085F04D934C7B0CC98A1`
+PESHA1 | `09244B1BE9614EFC501FFB0CB906229FADC9187A`
+PE256 | `4215E29B7975BA06CFAE64C78A95323EAAD5800EE669EFC901D80B6532A5026E`
 
 ## Runtime Data
 
@@ -98,15 +102,10 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\mswsock.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -122,8 +121,8 @@ C:\Windows\system32\winrs.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -136,6 +135,12 @@ C:\Windows\system32\winrs.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/00b00f9e2a62550136f2d80428bdce22c8fe718784b7f8dafc29c18bfd782bdf/detection/
 
 
 

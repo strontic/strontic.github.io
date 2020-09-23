@@ -1,5 +1,6 @@
 ﻿---
 title: at.exe | Schedule service command line interface
+excerpt: What is at.exe?
 ---
 
 # at.exe 
@@ -17,6 +18,9 @@ SHA256 | `C27460533B663278C2C03CD85384AA2560BC4A8FFA6D7160B070F8BE62839145`
 SHA384 | `D72D887DDF6474BE365260AED388C040478EC2CF99235B71F9C00EEFB24D4983AF2F58822A92EC2427D24185AFEF5208`
 SHA512 | `772BB06A670B5A0B7F732D6A4FD38BD9DFCA1E3A705388B3E6D6B37C90C91F907266B7CB10894F0B9798772DA929211D6B688DA30B52EE5F7F14683B260ABE8E`
 SSDEEP | `384:ROnToZKLrisNpN/mSBJtWh/1yyEatn7lwUcHc/f5wpnJ7vHWwwWl:RymKisNpA0tWhfwV8/BknJ7r`
+IMP | `D5E405DA642D875E6A1BC0F575104CE1`
+PESHA1 | `0D9F164BB8A23C20EE28A5EF8BF6B06953783804`
+PE256 | `8EB5E4B7517E84B11FC7DB130552965E0822C13BAE9AE8D111A5665B565DE470`
 
 ## Runtime Data
 
@@ -62,6 +66,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\at.exe |
 
@@ -83,6 +88,12 @@ C:\Windows\SysWOW64\at.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c27460533b663278c2c03cd85384aa2560bc4a8ffa6d7160b070f8be62839145/detection/
 
 
 ## Possible Misuse
@@ -101,8 +112,8 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `- Path: C:\WINDOWS\System32\At.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `- Path: C:\WINDOWS\SysWOW64\At.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [At.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml) | `- Link: https://www.secureworks.com/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems` | 
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) |   - Atomic Test #1: At.exe Scheduled task [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) |   - Atomic Test #1: At.exe Scheduled task [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #1: At.exe Scheduled task [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #1: At.exe Scheduled task [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | <blockquote>Adversaries may abuse the <code>at.exe</code> utility to perform task scheduling for initial or recurring execution of malicious code. The [at](https://attack.mitre.org/software/S0110) utility exists as an executable within Windows for scheduling tasks at a specified time and date. Using [at](https://attack.mitre.org/software/S0110) requires that the Task Scheduler service be running, and the user to be logged on as a member of the local Administrators group.  | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | An adversary may use <code>at.exe</code> in Windows environments to execute programs at system startup or on a scheduled basis for persistence. [at](https://attack.mitre.org/software/S0110) can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account (such as SYSTEM). | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1053.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md) | Note: The <code>at.exe</code> command line utility has been deprecated in current versions of Windows in favor of <code>schtasks</code>.</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

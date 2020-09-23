@@ -1,5 +1,6 @@
 ﻿---
 title: sort.exe | Sort Utility
+excerpt: What is sort.exe?
 ---
 
 # sort.exe 
@@ -17,6 +18,9 @@ SHA256 | `C9D8C048BEEC3AA7D0494A36E77D5692391DFF26BD32B07A3358C010D8C84C79`
 SHA384 | `E278E94ED8A1513774A16BBD0FEDB697BFF1DDCA3EE68FD7583FDB14BCEE0169161991C0556A4AFEBE6AF80FD3BA3007`
 SHA512 | `3343B18197F8D9245466C5260D332E80C5167403E9DE5411B9D926AC01D24892AD1BE26E28A2C28D7E0E37898A6178E9837DD131535D04BAC1A87F96C98E6330`
 SSDEEP | `768:rc0yzw7kniZU5zTUKGcv9gb+KVahzfN8AWYsp/SNKxxYFE3:Hyzw7kniZU5/nzKGzfCSixv3`
+IMP | `96BC073D8286B37DFA22A171D067DA0F`
+PESHA1 | `2ADC26AB1B16037F66E658767D41B7E8EF0B262A`
+PE256 | `8A98C953B36692F4DF17A288D630E9049C75F09D44AE41697DB5092A482488D0`
 
 ## Runtime Data
 
@@ -82,8 +86,7 @@ SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
 
 ### Usage (stderr):
 ```cmhg
-Invalid switch.
-
+--helpThe system cannot find the file specified.
 
 ```
 
@@ -114,6 +117,12 @@ C:\Windows\system32\sort.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c9d8c048beec3aa7d0494a36e77d5692391dff26bd32b07a3358c010d8c84c79/detection/
 
 
 

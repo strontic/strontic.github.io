@@ -1,5 +1,6 @@
 ﻿---
 title: tttracer.exe | Time Travel Debugging Tracer Tool
+excerpt: What is tttracer.exe?
 ---
 
 # tttracer.exe 
@@ -17,6 +18,9 @@ SHA256 | `73FD8AA2603F3DF92DC6C912CC823099EF611340E6864A237D45C124AFC6EFB5`
 SHA384 | `0C00BECB397266209CD62D7CC3301674723D811420B9D03B3F58C8FA504E27CF736E47F1098252EDF13A0CD70936CEAD`
 SHA512 | `982BBA51C9093F7F6A75F8A6E219BBA8ADBF5195C728E7C54305EEBADE0B9DD21018E2198EC6F5FEDF8720ACDE2B218CBD6E2874801FEEB3D97F9CA1FB2A1A1F`
 SSDEEP | `1536:8GqMbxBgvycQEdhC1/Hu+Kizxs7l9nvqGmESQQJczJe8s4TIew6QP1ICv:IMtavyFMG/OIzxAVSQQJkTu3v`
+IMP | `F60B40636A512BD0BFE6ECF41CF49CBB`
+PESHA1 | `E8DB73389D46532DB8B7953614C67CE2732E5F08`
+PE256 | `2247AA6C0ACBE620898D3E2BA58AA5D1F890CAF2D3C5B57092087455DFB4F9B6`
 
 ## Runtime Data
 
@@ -72,6 +76,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\tttracer.exe |
 
@@ -93,6 +98,12 @@ C:\Windows\SysWOW64\tttracer.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/73fd8aa2603f3df92dc6c912cc823099ef611340e6864a237d45c124afc6efb5/detection/
 
 ## File Similarity (ssdeep match)
 

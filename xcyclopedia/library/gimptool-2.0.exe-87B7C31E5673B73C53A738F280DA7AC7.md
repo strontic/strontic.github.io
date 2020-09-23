@@ -1,5 +1,6 @@
 ﻿---
 title: gimptool-2.0.exe | 
+excerpt: What is gimptool-2.0.exe?
 ---
 
 # gimptool-2.0.exe 
@@ -104,6 +105,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

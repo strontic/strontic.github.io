@@ -1,5 +1,6 @@
 ﻿---
 title: RemoteFXvGPUDisablement.exe |  
+excerpt: What is RemoteFXvGPUDisablement.exe?
 ---
 
 # RemoteFXvGPUDisablement.exe 
@@ -17,6 +18,9 @@ SHA256 | `CFCF444DDB908A89DC7C0C279D320F960FAC3BA5D64E631370CD7357D4003880`
 SHA384 | `D2B744813FA5DAF6063306560BA4A2DBA85C91437DCE4F11FB861C0CEB3CD78A5CE2C67BEE1D9F5AF80585C9064334D4`
 SHA512 | `A2664413B5B12090D94F472317764DA9D983359222770C78AE6905CCB45276C4D786FC34A3B12FF8904F1376597CAEE582111B36463771581A7D24ADFE988621`
 SSDEEP | `192:j2sL84qxeU25tRTOzRDnEtzMPUOYA0svGS0qTYRWlofWi:MeU29TO9Et0UOB3kRWlofW`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `020E641B1E1FD6B0639CEFF3BE973363B29D2DC4`
+PE256 | `DD0B154805FC7A56587EBF6F067C76F94AC34CEC30255AE0AAFAE3CF6D0F152F`
 
 ## Runtime Data
 
@@ -31,7 +35,6 @@ C:\Windows\SYSTEM32\MSCOREE.DLL |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\RemoteFXvGPUDisablement.exe |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 
 
@@ -52,6 +55,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.388
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/cfcf444ddb908a89dc7c0c279d320f960fac3ba5d64e631370cd7357d4003880/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -59,6 +68,13 @@ File | Score
 -- | --
 [C:\Windows\system32\RemoteFXvGPUDisablement.exe](RemoteFXvGPUDisablement.exe-DA10AD97CE891EE6C483BF2FDE66877E.md) | 82
 
+## Possible Misuse
+
+*The following table contains possible examples of `RemoteFXvGPUDisablement.exe` being misused. While `RemoteFXvGPUDisablement.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `- '\WINDOWS\System32\RemoteFXvGPUDisablement.exe'  # on win10` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

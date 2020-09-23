@@ -1,5 +1,6 @@
 ﻿---
 title: LicensingUI.exe | Licensing UI
+excerpt: What is LicensingUI.exe?
 ---
 
 # LicensingUI.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Hr9xOHHudvoIWdfDOy069PAwwXFg3C7d1QyIJP8OcswBSjbku42aysIPg:Hr9xOHO
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

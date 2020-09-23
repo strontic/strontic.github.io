@@ -1,5 +1,6 @@
 ﻿---
 title: unsecapp.exe | Sink to receive asynchronous callbacks for WMI client application
+excerpt: What is unsecapp.exe?
 ---
 
 # unsecapp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:w00V19T2VOP8OCKNNQ+dZDRhacVPjU4NUEy8Fh0jJ3pGIwyuNyS7nLdp7Z2NnPWq:w
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

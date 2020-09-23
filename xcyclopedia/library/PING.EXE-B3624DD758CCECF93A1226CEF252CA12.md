@@ -1,5 +1,6 @@
 ﻿---
 title: PING.EXE | TCP/IP Ping Command
+excerpt: What is PING.EXE?
 ---
 
 # PING.EXE 
@@ -17,6 +18,9 @@ SHA256 | `4AAA74F294C15AEB37ADA8185D0DEAD58BD87276A01A814ABC0C4B40545BF2EF`
 SHA384 | `4A2C6917CB8EB958DED1BE985F2053B76E2A5AF6E4EEF75C577DD9700A7C63F28867743CF2B0CFA979E14C69FE859566`
 SHA512 | `C613D18511B00FA25FC7B1BDDE10D96DEBB42A99B5AAAB9E9826538D0E229085BB371F0197F6B1086C4F9C605F01E71287FFC5442F701A95D67C232A5F031838`
 SSDEEP | `384:PVhNH/TqNcx+5tTAjtn3bPcPwoeGULZbiWBlWjVw:PVhZXx+5tTetLVohULZJgw`
+IMP | `6C1FE20B3F9688A9263FFDF9FF417272`
+PESHA1 | `306AC6B860783CC69BF7915472BCB41FC9A08343`
+PE256 | `18AC70758DE5A85B011FCE39F9D27143DA97F9F6DB94127510BF3417C299669B`
 
 ## Runtime Data
 
@@ -62,12 +66,23 @@ Options:
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\PING.EXE |
 
@@ -89,6 +104,12 @@ C:\Windows\SysWOW64\PING.EXE |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/4aaa74f294c15aeb37ada8185d0dead58bd87276a01a814abc0c4b40545bf2ef/detection/
 
 
 ## Possible Misuse
@@ -101,7 +122,7 @@ Source | Source File | Example | License
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- ping.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_ping_hex_ip.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml) | `- '*\ping.exe 0x*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\ping.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[signature-base](https://github.com/Neo23x0/signature-base) | [spy_regin_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_regin_fiveeyes.yar) | 	    $a7="ping.exe" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [spy_regin_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_regin_fiveeyes.yar) | $a7="ping.exe" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

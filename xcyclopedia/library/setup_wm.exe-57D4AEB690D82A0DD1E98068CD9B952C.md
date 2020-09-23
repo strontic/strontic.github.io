@@ -1,5 +1,6 @@
 ﻿---
 title: setup_wm.exe | Microsoft Windows Media Configuration Utility
+excerpt: What is setup_wm.exe?
 ---
 
 # setup_wm.exe 
@@ -115,6 +116,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

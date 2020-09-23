@@ -1,5 +1,6 @@
 ﻿---
 title: find.exe | Find String (grep) Utility
+excerpt: What is find.exe?
 ---
 
 # find.exe 
@@ -63,6 +64,7 @@ FIND: Parameter format not correct
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

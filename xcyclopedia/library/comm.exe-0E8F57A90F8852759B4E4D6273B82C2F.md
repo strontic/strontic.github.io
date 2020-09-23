@@ -1,5 +1,6 @@
 ﻿---
 title: comm.exe | 
+excerpt: What is comm.exe?
 ---
 
 # comm.exe 
@@ -90,6 +91,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

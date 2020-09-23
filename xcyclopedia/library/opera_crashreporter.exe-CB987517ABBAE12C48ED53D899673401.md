@@ -1,5 +1,6 @@
 ﻿---
 title: opera_crashreporter.exe | Opera crash-reporter
+excerpt: What is opera_crashreporter.exe?
 ---
 
 # opera_crashreporter.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:Y6OJDQeivs4peWQWTbZOEphpPmZ30LfcuTjmj1XiTZZeKjYvnz:YjJtdWQWTbTpC
 * Product Version: 70.0.3728.106
 * Language: English (United States)
 * Legal Copyright: Copyright Opera Software 2020
+
 
 
 

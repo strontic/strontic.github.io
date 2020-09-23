@@ -1,5 +1,6 @@
 ﻿---
 title: pwd.exe | 
+excerpt: What is pwd.exe?
 ---
 
 # pwd.exe 
@@ -79,6 +80,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

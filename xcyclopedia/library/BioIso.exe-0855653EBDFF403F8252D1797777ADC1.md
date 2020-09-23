@@ -1,5 +1,6 @@
 ﻿---
 title: BioIso.exe | Secure Biometrics
+excerpt: What is BioIso.exe?
 ---
 
 # BioIso.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:43Af+FgHqzM4AmUarGlkHkibGanY15pwuOltoBbe38WxGsU1lkZjiTs01CDA/3eS:
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

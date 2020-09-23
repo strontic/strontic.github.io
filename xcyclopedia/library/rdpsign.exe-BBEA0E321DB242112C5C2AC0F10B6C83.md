@@ -1,5 +1,6 @@
 ﻿---
 title: rdpsign.exe | Remote Desktop Session Host Server Sign Tool
+excerpt: What is rdpsign.exe?
 ---
 
 # rdpsign.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Nz864NbAFyw/RAI/gz+PYkiOCbg/4CPJclm4az3DI5z5:Nz8pC7Rlozjkih4muAz5
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

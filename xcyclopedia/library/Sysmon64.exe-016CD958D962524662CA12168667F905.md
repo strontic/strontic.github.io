@@ -1,5 +1,6 @@
 ﻿---
 title: Sysmon64.exe | System activity monitor
+excerpt: What is Sysmon64.exe?
 ---
 
 # Sysmon64.exe 
@@ -91,6 +92,7 @@ Neither install nor uninstall requires a reboot.
 * Product Version: 7.02
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2014-2018 Mark Russinovich and Thomas Garnier
+
 
 
 

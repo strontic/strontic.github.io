@@ -1,5 +1,6 @@
 ﻿---
 title: ssh-keyscan.exe | 
+excerpt: What is ssh-keyscan.exe?
 ---
 
 # ssh-keyscan.exe 
@@ -16,6 +17,9 @@ SHA256 | `965ACD45BD7D44FD374D3E598E88148AFFD8C7C148EA846167FB04F7837A5503`
 SHA384 | `48AE80576BDF525BB854B7D1051F028FBDF0024678F2C0742DD9C7DD5F6AB413D2A20092C122083A85A8BD7BB9C92097`
 SHA512 | `285FEF404DDF66CD5CF77342C43FCF82F0E2E51405590DD0FC1CF558549576F605A9A3787DC694FDEDE5F02A104FE3B9E9E92574CC6AC7E3647E00B9C756DBD9`
 SSDEEP | `6144:EM8cYMUe6/LztG7NFm7tUp/GXusKK2tiaDb2O7fcCnDtiZgcaGHCSlhoWksAYX:EcIztcexUp/TbXBSa2CSl6WX`
+IMP | `EB8223A61E876E103713BD9CE4F82C84`
+PESHA1 | `36CB821312445DADD687037FE4986BD11C311ABB`
+PE256 | `96D692420E594813180440E8F6FE8228160906C7E7566AE5E718D13D77E6AE07`
 
 ## Runtime Data
 
@@ -34,7 +38,8 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -43,14 +48,17 @@ Path | Type
 
 Path |
 -- |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\system32\OpenSSH\ssh-keyscan.exe |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `33000001C422B2F79B793DACB20000000001C4`
-* Thumbprint: `AE9C1AE54763822EEC42474983D8B635116C8452`
+* Serial: `330000023241FB59996DCC4DFF000000000232`
+* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -63,6 +71,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/965acd45bd7d44fd374d3e598e88148affd8c7c148ea846167fb04f7837a5503/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tlntadmn.exe | 
+excerpt: What is tlntadmn.exe?
 ---
 
 # tlntadmn.exe 
@@ -34,6 +35,7 @@ SSDEEP | `768:C/j1yRTXpMQ/6rbRpBwtx+PeqT+R9mUqekpva2lkCI8kMjjf4BSx8VgfxO69uGUr:C
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

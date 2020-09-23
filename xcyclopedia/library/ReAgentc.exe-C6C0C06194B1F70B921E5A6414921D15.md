@@ -1,5 +1,6 @@
 ﻿---
 title: ReAgentc.exe | Microsoft Windows Recovery Agent
+excerpt: What is ReAgentc.exe?
 ---
 
 # ReAgentc.exe 
@@ -17,6 +18,9 @@ SHA256 | `6ED3121E5A6299EE1030F52D800F3F1F2EE1AAB5C73C99E0DD34034A23F7D44C`
 SHA384 | `AF8FF5C893426E9DF0D027F2572AA225309EABD1ADD3A310259A96003993F7494FE662E6D207000C882840596330EE69`
 SHA512 | `E4AF93849E6F8C8AEDE2793A12C3927D3B2E9C476811A15E6856A544025EDDE6D4C860156A59DB76157591DD59B5CFABF7273305F51E03653E9FDB44815F5D6E`
 SSDEEP | `768:pk6DuaaMKodXVsc8EKx05aav1hrE7IrhRp4NfqavPFk/lmKVdMN8s61IY2:a6DuaaMKMMzna9asVv4Nfq9/lmKbw8Qr`
+IMP | `8EE3C5B237390A633C5114373C9B4C60`
+PESHA1 | `2AAE494762A6F583D387B7B3E9E87D775EB92914`
+PE256 | `3A17A4ED624A011BEBB18C0B62B66912ED093E859BB98DE898D10A2C64843390`
 
 ## Runtime Data
 
@@ -93,8 +97,8 @@ C:\Windows\system32\ReAgentc.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -107,6 +111,12 @@ C:\Windows\system32\ReAgentc.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/6ed3121e5a6299ee1030f52d800f3f1f2ee1aab5c73c99e0dd34034a23f7d44c/detection/
 
 
 

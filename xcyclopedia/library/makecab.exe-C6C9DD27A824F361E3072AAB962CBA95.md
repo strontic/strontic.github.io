@@ -1,5 +1,6 @@
 ﻿---
 title: makecab.exe | Microsoft Cabinet Maker
+excerpt: What is makecab.exe?
 ---
 
 # makecab.exe 
@@ -64,6 +65,7 @@ C:\Windows\SysWOW64\makecab.exe |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

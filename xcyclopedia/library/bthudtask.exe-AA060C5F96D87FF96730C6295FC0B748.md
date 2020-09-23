@@ -1,5 +1,6 @@
 ﻿---
 title: bthudtask.exe | Bluetooth Uninstall Device Task
+excerpt: What is bthudtask.exe?
 ---
 
 # bthudtask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:o+OgaDoFkrczuTFslOIfINIkMfImSm/WWmHW4KJajXDO1/EagS817l:WdEFGSTzfo4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

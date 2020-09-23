@@ -1,5 +1,6 @@
 ﻿---
 title: licensingdiag.exe | Licensing Diagnostic Tool
+excerpt: What is licensingdiag.exe?
 ---
 
 # licensingdiag.exe 
@@ -78,6 +79,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\licensingdiag.exe](licensingdiag.exe-72FC07B9BA3A086B08D1202DB704FC00.md) | 97
 
 
 

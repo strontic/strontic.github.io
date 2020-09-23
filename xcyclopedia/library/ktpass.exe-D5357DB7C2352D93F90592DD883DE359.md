@@ -1,5 +1,6 @@
 ﻿---
 title: ktpass.exe | Kerberos keytab tool
+excerpt: What is ktpass.exe?
 ---
 
 # ktpass.exe 
@@ -94,6 +95,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.652
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

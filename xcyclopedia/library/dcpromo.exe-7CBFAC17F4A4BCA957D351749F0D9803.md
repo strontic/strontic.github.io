@@ -1,5 +1,6 @@
 ﻿---
 title: dcpromo.exe | Active Directory Domain Services Installer
+excerpt: What is dcpromo.exe?
 ---
 
 # dcpromo.exe 
@@ -50,6 +51,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

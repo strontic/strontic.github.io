@@ -1,5 +1,6 @@
 ﻿---
 title: mountvol.exe | Mount Volume Utility
+excerpt: What is mountvol.exe?
 ---
 
 # mountvol.exe 
@@ -17,6 +18,9 @@ SHA256 | `CAF29650446DB3842E1C1E8E5E1BAFADAF90FC82C5C37B9E2C75A089B7476131`
 SHA384 | `6E5D0127C6BD7E1FF21B05674565031608275C42238A7C70CD794E5711AC76453525FF3201793E0B040585152E78BB40`
 SHA512 | `531D920E2567F58E8169AFC786637C1A0F7B9B5C27B27B5F0EDDBFC3E00CECD7BEA597E34061D836647C5F8C7757F2FE02952A9793344E21B39DDD4BF7985F9D`
 SSDEEP | `384:abquDyuX3PMD1A77ciNqC/Elsrl+0+/QlDIINvB0WLFW:gquuuHPMDinDY9al+0WQFNvBZ`
+IMP | `72D2CD1301A2466A3D1834DC3B95BE3F`
+PESHA1 | `B30703EA6D8390223B61552D3FBAE3C7BFE791D8`
+PE256 | `F130F3E4BBE0957960CC3442E09364645E73ABDB5B085DF9E34CBD4D20E567D9`
 
 ## Runtime Data
 
@@ -51,7 +55,7 @@ MOUNTVOL drive: /S
 
 Possible values for VolumeName along with current mount points are:
 
-    \\?\Volume{d1215a4b-fdfb-42de-bc4c-d3998aa1a67a}\
+    \\?\Volume{ef3f46bb-a26f-43f2-98f7-b1933a975c79}\
         C:\
 
 
@@ -84,6 +88,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/caf29650446db3842e1c1e8e5e1bafadaf90fc82c5c37b9e2c75a089b7476131/detection/
 
 
 

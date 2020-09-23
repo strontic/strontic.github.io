@@ -1,5 +1,6 @@
 ﻿---
 title: wowreg32.exe | SetupAPI 32-bit Surrogate
+excerpt: What is wowreg32.exe?
 ---
 
 # wowreg32.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\wowreg32.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SecEdit.exe | Windows Security Configuration Editor Command Tool
+excerpt: What is SecEdit.exe?
 ---
 
 # SecEdit.exe 
@@ -17,6 +18,9 @@ SHA256 | `58348E21FB9AE1582E68AA07BF21F87D58DB03FE12123B0DF5BFB3A7E168DB26`
 SHA384 | `FA57EEE9D6F92DCAD9C55C6B62ED419AB2908222C94F94AE7AC058B5F76B479F1A58AB23BC5BD7FA5A185F452E643E31`
 SHA512 | `C4EE99BA9AD4E3B725404E564628196A0F68DE0C46D267C29FB33007C850A9A79875D007AE12C946E4BA34398B29183327438DC63A23D3F97F8D0702C32B142A`
 SSDEEP | `768:TjqyEE2/b/6zzHDn82pvU14B+uKGWzdJqT7/pXk:NEE2D/6zzjvUmhKGWz6`
+IMP | `58A66C69176097C9B8C5C9AE4273BD6F`
+PESHA1 | `B71284E44F41E4B89B1754A814E26BEA3E416B87`
+PE256 | `30CE15333529587515D7A886CAEAB19B4E5EAF379707DB09DF81B7CA372FCE7D`
 
 ## Runtime Data
 
@@ -28,6 +32,9 @@ The syntax of this command is:
 secedit [/configure | /analyze | /import | /export | /validate | /generaterollback]
 
 ```
+
+### Child Processes:
+RdpSa.exe
 
 ### Loaded Modules:
 
@@ -56,6 +63,12 @@ C:\Windows\system32\SecEdit.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/58348e21fb9ae1582e68aa07bf21f87d58db03fe12123b0df5bfb3a7e168db26/detection/
 
 ## File Similarity (ssdeep match)
 

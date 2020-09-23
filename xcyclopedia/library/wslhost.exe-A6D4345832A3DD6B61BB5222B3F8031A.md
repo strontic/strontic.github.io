@@ -1,5 +1,6 @@
 ﻿---
 title: wslhost.exe | Microsoft Windows Subsystem for Linux Background Host
+excerpt: What is wslhost.exe?
 ---
 
 # wslhost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:siNrwFHg6zbV2llPLg0x+3rczlHAkbRcrwmp4uMiVK1S0Bz7N9S70Z2/xpSqykP1:
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

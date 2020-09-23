@@ -1,5 +1,6 @@
 ﻿---
 title: resmon.exe | Resource Monitor
+excerpt: What is resmon.exe?
 ---
 
 # resmon.exe 
@@ -17,6 +18,9 @@ SHA256 | `4C0BDF906AF0C1FDBC9FA61BF2AF95C708498F5AFE8E05C65E865E99DEAC8716`
 SHA384 | `3BECAD8F946B4B7A1D2A16ADC98A4EF7BA372A4086A050C50241E333C7C90EDDAA507FD530380DAF8A7BF63BCBF7708A`
 SHA512 | `9E388B1325CFDA2597428D9B44EE48B491D29DBF0840065DEAC7C75F3647757EEFD8AA5D1E8B33AA119C742EB71751FA94B66B47574C9A4F65A5F25025372664`
 SSDEEP | `1536:5EZgvhlKBqY3KtrtizIo9plJSs9kYuZJnGZLzOcE6Ls7HXG84PK05Z34g/CO+sH:c6KghtYIo9piswTogiqQKy349`
+IMP | `C489853A1F490DCDAEA1E10E57C136E4`
+PESHA1 | `4A85AF6DCFFFA70C9CCFDD570444F551A5FABB1F`
+PE256 | `1A945D89A85BBD00490D29DF7A12C400EF02D3F5EE1353C2BF9388598686792F`
 
 ## Runtime Data
 
@@ -27,8 +31,6 @@ perfmon.exe
 
 Path |
 -- |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -38,14 +40,13 @@ C:\Windows\system32\resmon.exe |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -58,6 +59,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/4c0bdf906af0c1fdbc9fa61bf2af95c708498f5afe8e05c65e865e99deac8716/detection/
 
 ## File Similarity (ssdeep match)
 

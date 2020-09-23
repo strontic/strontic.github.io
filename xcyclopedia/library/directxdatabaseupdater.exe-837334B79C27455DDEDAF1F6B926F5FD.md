@@ -1,5 +1,6 @@
 ﻿---
 title: directxdatabaseupdater.exe | DirectX Database Updater
+excerpt: What is directxdatabaseupdater.exe?
 ---
 
 # directxdatabaseupdater.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:DEfxm1cIOTb+WQuKha8YyHQlf8zEt07kn/pFBNO/:O0yIK3+aqHQN8zE3n/fBI`
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

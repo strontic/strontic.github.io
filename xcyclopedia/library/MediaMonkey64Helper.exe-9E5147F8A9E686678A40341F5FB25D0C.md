@@ -1,5 +1,6 @@
 ﻿---
 title: MediaMonkey64Helper.exe | 
+excerpt: What is MediaMonkey64Helper.exe?
 ---
 
 # MediaMonkey64Helper.exe 
@@ -58,6 +59,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

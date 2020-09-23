@@ -1,5 +1,6 @@
 ﻿---
 title: sort.exe | Sort Utility
+excerpt: What is sort.exe?
 ---
 
 # sort.exe 
@@ -107,6 +108,7 @@ perfmon.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

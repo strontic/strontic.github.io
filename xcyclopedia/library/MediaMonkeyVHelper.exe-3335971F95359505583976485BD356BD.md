@@ -1,5 +1,6 @@
 ﻿---
 title: MediaMonkeyVHelper.exe | 
+excerpt: What is MediaMonkeyVHelper.exe?
 ---
 
 # MediaMonkeyVHelper.exe 
@@ -47,6 +48,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: hnsdiag.exe | Hyper-V Host Network Service Diagnostics Tool
+excerpt: What is hnsdiag.exe?
 ---
 
 # hnsdiag.exe 
@@ -64,6 +65,7 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: pwlauncher.exe | Windows To Go Startup Options Command Line Tool
+excerpt: What is pwlauncher.exe?
 ---
 
 # pwlauncher.exe 
@@ -17,6 +18,9 @@ SHA256 | `20BD575E31804C52D7EDC3A6298ABA504878D31DF549D3FC82FE7A99EE9A966E`
 SHA384 | `F540532EE9BD6E0377C2DFB6AF60441F890D2CCBDB62FB8AE25FD658D58A7FFBDA8D093A1C8721CEA695F8AE6913FF7F`
 SHA512 | `DA277637BDE52D14B6E37BD3B2C9C9B90C774CA7F9D08561249B3F1651CB670446759111015BF9D8AEA5D41B013D2B440C703AC83F309888AB7DE1BE3634A0A7`
 SSDEEP | `768:3tosHsyociq2KK0Mqqvgz1QoL7JTHcs7z9JGBphb7idM8UOa5:dosHr3f7g+QoHx8s7z94Bzb7yNUO6`
+IMP | `10E2E3C83FAD470F2219B3E8C8A1881E`
+PESHA1 | `4107D3F04AD8247594DC1696582A19DE23D283C4`
+PE256 | `7B5823CCE9EDE541ADA4A1881153D454CF6A0D45BD56C62F212B51CB88E53DCD`
 
 ## Runtime Data
 
@@ -50,8 +54,8 @@ C:\Windows\system32\pwlauncher.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -64,6 +68,12 @@ C:\Windows\system32\pwlauncher.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/20bd575e31804c52d7edc3a6298aba504878d31df549d3fc82fe7a99ee9a966e/detection/
 
 
 

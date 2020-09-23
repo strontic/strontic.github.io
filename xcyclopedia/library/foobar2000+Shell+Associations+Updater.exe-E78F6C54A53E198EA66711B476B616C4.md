@@ -1,5 +1,6 @@
 ﻿---
 title: foobar2000 Shell Associations Updater.exe | foobar2000 Shell Associations Updater
+excerpt: What is foobar2000 Shell Associations Updater.exe?
 ---
 
 # foobar2000 Shell Associations Updater.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1, 0, 0, 0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2008-2013 Peter Pawlowski
+
 
 
 

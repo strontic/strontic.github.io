@@ -1,5 +1,6 @@
 ﻿---
 title: iisreset.exe | IIS control command line utility
+excerpt: What is iisreset.exe?
 ---
 
 # iisreset.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:ZafpN49si5Cp3bdH17Xu0A/6qHeh3M2uw5K0ClHeQDIWx:ZapN8Cp3hH17XRA/6qHU
 * Product Version: 8.5.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

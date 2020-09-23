@@ -1,5 +1,6 @@
 ﻿---
 title: MusNotification.exe | MusNotificationBroker
+excerpt: What is MusNotification.exe?
 ---
 
 # MusNotification.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:ZmiT9BEkwreePRRH1pI7BZW/AkO5MAr97F6O97JB0Ua12GbsQfCn/Qwc8Kk4g6CR:
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

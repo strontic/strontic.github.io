@@ -1,5 +1,6 @@
 ﻿---
 title: regini.exe | Registry Initializer
+excerpt: What is regini.exe?
 ---
 
 # regini.exe 
@@ -17,6 +18,9 @@ SHA256 | `04D137F3F2873A75FAB8D71D54E79B5792D047854B7B7501CC9D4E2B231D1CB1`
 SHA384 | `916B98A4DA2914EB58988545CE78099E40F42A86942F0069C9F1D5F437478162E9701A3E07610CA40F5C66A4E0088A0F`
 SHA512 | `DACAE80E98FEB789E0E09D763E047CCB1C54F3187059C6F5D0F4CDD433FE9D2E96C2E947327121111D1925A5740E25397C761F1AFD25FFB11AE8D34658A58BCC`
 SSDEEP | `768:YyvGV2EIgkhyilxWRhBDjMQx40tEt9WCADa1urxFE5L+ax9GFtLNI:H5EiADjb69WCAZF8x9GFJNI`
+IMP | `5356BCBDA656EB8E0846EEAF52BE48B1`
+PESHA1 | `5FEFDB3ABEF3275E9822DCDFD25F247DC6482547`
+PE256 | `79A8B27B8391A75F5F002160693DEE90F6DE1CD084533B2346241E95B863E04C`
 
 ## Runtime Data
 
@@ -187,15 +191,10 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -226,6 +225,12 @@ C:\Windows\SysWOW64\regini.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/04d137f3f2873a75fab8d71d54e79b5792d047854b7b7501cc9d4e2b231d1cb1/detection/
 
 ## File Similarity (ssdeep match)
 

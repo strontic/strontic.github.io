@@ -1,5 +1,6 @@
 ﻿---
 title: wkspbroker.exe | RemoteApp and Desktop Connection Runtime Broker
+excerpt: What is wkspbroker.exe?
 ---
 
 # wkspbroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:uWmwo8F49LV0La8L8C77hudVT4EWQ68dpW25cUZCfIhc7lW1eZpZBNzzAIS7:uWm3
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

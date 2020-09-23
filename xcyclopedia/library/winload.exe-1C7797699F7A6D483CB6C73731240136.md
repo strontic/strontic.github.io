@@ -1,5 +1,6 @@
 ﻿---
 title: winload.exe | OS Loader
+excerpt: What is winload.exe?
 ---
 
 # winload.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:ddDLxb5QrfVjfF6IjOPEoEOmslKbcKyxW8E+ddjO96J38FPb:d1jQr9nMEOqixPd
 * Product Version: 10.0.18362.752
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: winrs.exe | winrs
+excerpt: What is winrs.exe?
 ---
 
 # winrs.exe 
@@ -17,6 +18,9 @@ SHA256 | `C0DD2782705893496765CD83BA9BE23C8C1B279F5B943756C380219A5BE15A6E`
 SHA384 | `A28333AE75AD05309FE2964C5062F357FD3A140A9D185460F637F528B400B02893F0430313C94AC701C43160218F8B46`
 SHA512 | `E92B72EA80BC9E6F30E793DBEB9E8E4150296E6FA028776D07C9F1924B558EB551CAB9AC189793754C7B3BF964A4A1972555E3B66AD6905CB1B7A3A6A62C1745`
 SSDEEP | `768:eD1or/ZFDGspNEkXRs8pxXfA1q9EXEMLkwsrNxOh:eDC/bjoMfsYqLkwsrNxQ`
+IMP | `F0EE307FE96339D2235693E095EC19FE`
+PESHA1 | `6A872FD9CA76752DCA996F4E2AE86B7A1ADE7088`
+PE256 | `DAAFA9E563BE143DFF5DC8086FE498B3741687E82EDC4EB92698222640124F61`
 
 ## Runtime Data
 
@@ -90,7 +94,7 @@ Use "winrs -?" to obtain the usage information
 ```
 
 ### Child Processes:
-explorer.exe
+conhost.exe
 
 ### Open Handles:
 
@@ -98,16 +102,11 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\mswsock.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -138,6 +137,12 @@ C:\Windows\SysWOW64\winrs.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c0dd2782705893496765cd83ba9be23c8c1b279f5b943756c380219a5be15a6e/detection/
 
 
 

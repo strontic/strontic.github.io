@@ -1,5 +1,6 @@
 ﻿---
 title: wksprt.exe | RemoteApp and Desktop Connection Runtime
+excerpt: What is wksprt.exe?
 ---
 
 # wksprt.exe 
@@ -62,6 +63,7 @@ C:\Windows\system32\wksprt.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

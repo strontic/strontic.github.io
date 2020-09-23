@@ -1,5 +1,6 @@
 ﻿---
 title: WmiApSrv.exe | WMI Performance Reverse Adapter
+excerpt: What is WmiApSrv.exe?
 ---
 
 # WmiApSrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:yVuG1JcDtqbSZczNZaPT/VxACI7J02rnY3F3uU+75jX1oAp48ZFRvCcw:jGetqbSZ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

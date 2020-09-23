@@ -1,5 +1,6 @@
 ﻿---
 title: DevicePairingWizard.exe | Device Pairing Application
+excerpt: What is DevicePairingWizard.exe?
 ---
 
 # DevicePairingWizard.exe 
@@ -21,6 +22,9 @@ SHA256 | `2ADAF3A5D3FDE149626E3FEF0E943C7029A135C04688ACF357B2D8D04C81981B`
 SHA384 | `ADFFB34CE2A740CCA7F88B6A8CE98F58294739B398065474DD87580EAA2EB2CDA384EE307F1361548809EC188804140B`
 SHA512 | `1191C2EFCADD53B74D085612025C44B6CD54DD69493632950E30ADA650D5ED79E3468C138F389CD3BC21EA103059A63EB38D9D919A62D932A38830C93F57731F`
 SSDEEP | `1536:UgTdAN6wPYZucq7WPXTsQ5xSjBxrzSj11nhy0ohqZ3qOTU:v26wwZuX+X4USjBxfSj11o0oRoU`
+IMP | `048D96A843A6DF20276E268A873746A7`
+PESHA1 | `032BA3D5A498B3B4B66D44DA59A55F562BCEEFCB`
+PE256 | `069FAF50AC58DEFDA1ECDCFE2CA585259BB0907FD574E033D0BBE5BBDCC28379`
 
 ## Runtime Data
 
@@ -38,20 +42,16 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\oleaccrc.dll.mui | File
 (R-D)   C:\Windows\SystemResources\DevicePairing.dll.mun | File
 (R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -62,11 +62,9 @@ C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\system32\DevicePairingWizard.exe |
 C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\MFC42u.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
@@ -94,6 +92,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/2adaf3a5d3fde149626e3fef0e943c7029a135c04688acf357b2d8d04c81981b/detection/
 
 
 

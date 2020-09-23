@@ -1,5 +1,6 @@
 ﻿---
 title: chglogon.exe | Change Logon Utility
+excerpt: What is chglogon.exe?
 ---
 
 # chglogon.exe 
@@ -52,6 +53,7 @@ CHANGE LOGON {/QUERY | /ENABLE | /DISABLE | /DRAIN | /DRAINUNTILRESTART}
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

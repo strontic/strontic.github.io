@@ -1,5 +1,6 @@
 ﻿---
 title: VSSVC.exe | Microsoft Volume Shadow Copy Service
+excerpt: What is VSSVC.exe?
 ---
 
 # VSSVC.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:z1dgSii86um7SXMjN2iooZyCDm6rdiCk65Z:z1dgVi86um7S8gvl6rd/Z`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

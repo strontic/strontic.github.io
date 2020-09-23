@@ -1,5 +1,6 @@
 ﻿---
 title: pango-querymodules.exe | 
+excerpt: What is pango-querymodules.exe?
 ---
 
 # pango-querymodules.exe 
@@ -68,6 +69,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

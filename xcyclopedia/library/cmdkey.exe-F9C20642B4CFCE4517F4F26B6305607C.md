@@ -1,5 +1,6 @@
 ﻿---
 title: cmdkey.exe | Credential Manager Command Line Utility
+excerpt: What is cmdkey.exe?
 ---
 
 # cmdkey.exe 
@@ -17,6 +18,9 @@ SHA256 | `14BCC1901C5CCA8E91A6400050308752916AC861BDD52CF3A44DC7EF46830282`
 SHA384 | `45F38A585851501FAA095A9374AEC160DB3800B9AC9196D0D64AA1DF74E449D97A1C542737072B169DEAA2493F3C2862`
 SHA512 | `8EB98B07E17EF8B0891F79C5248F3A59EEBA41F190746C4407AC401329225A17051401A82807CBACDB265784EEA4D38BD8BF89E3080C30FAFFE4C3F5691D1A13`
 SSDEEP | `384:MXKDF3y+4BMfcDv2ZtqjXR/1RvOiDVwJxCGsVW3wW:5Jd4qShzTDSCGsK`
+IMP | `03AD7A1AF78BF7A500FB199CABE4C34A`
+PESHA1 | `F98AF9D1CC63F9DFED9EC2FF7AD8A5C407B7808C`
+PE256 | `06D8A0BCD59D55E87AF90D582B9FE43A45AA00FFE121B469E2139AFD8DEDC6F1`
 
 ## Runtime Data
 
@@ -66,8 +70,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -80,6 +84,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/14bcc1901c5cca8e91a6400050308752916ac861bdd52cf3a44dc7ef46830282/detection/
 
 
 ## Possible Misuse

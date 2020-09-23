@@ -1,5 +1,6 @@
 ﻿---
 title: BdeHdCfg.exe | BitLocker Drive Encryption- Drive Preparation Tool
+excerpt: What is BdeHdCfg.exe?
 ---
 
 # BdeHdCfg.exe 
@@ -17,6 +18,9 @@ SHA256 | `A6797C873AF8F7FEFE1352876113CD912E329759E838CF2F49ECD7BDF4BF4F26`
 SHA384 | `EAE382250DEAEE0F6A1ABA0D4B1AAC80D50048E043B51742D06DD19984A47BF456C928C6D751317163370E5751C4E344`
 SHA512 | `EC6199DF2DACA0DE2BC279E891D5996BA4AFC6EE1892AA878FB17C438F7C2EBC4E7678A582151ACC56D7FB74E8787E3EC8D5AA0C370DF0B5D0DEA0DEDFC30EA0`
 SSDEEP | `3072:pq93U6JRZxaPUKHVZzwnVS570M9kdatGCO+xmBc+hMPhPsx:pqzXKHVZ8Vs7nyatGt+SYF`
+IMP | `BED35470582631F338EFA043107C9B11`
+PESHA1 | `D1A8D815A510A7D9E4EC21989D4B1748A7C2C202`
+PE256 | `85C2E37B81F2E69FDE96A4B39D473E49E1C0B327FD8F26B04F5634EA2D824BB7`
 
 ## Runtime Data
 
@@ -106,8 +110,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -120,6 +124,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/a6797c873af8f7fefe1352876113cd912e329759e838cf2f49ecd7bdf4bf4f26/detection/
 
 ## File Similarity (ssdeep match)
 

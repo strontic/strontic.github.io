@@ -1,5 +1,6 @@
 ﻿---
 title: ImeBroker.exe | Microsoft IME 2012
+excerpt: What is ImeBroker.exe?
 ---
 
 # ImeBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:j5FnTV8UPM1m5oe0QjkEqKNmqprDdjUKSbxl7cje/b+kcDthnG9:j5MUPM1iRjkEq
 * Product Version: 15.0.9600.19612
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

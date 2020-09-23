@@ -1,5 +1,6 @@
 ﻿---
 title: extrac32.exe | Microsoft CAB File Extract Utility
+excerpt: What is extrac32.exe?
 ---
 
 # extrac32.exe 
@@ -72,6 +73,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

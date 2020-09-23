@@ -1,5 +1,6 @@
 ﻿---
 title: LaunchWinApp.exe | Launch Windows App
+excerpt: What is LaunchWinApp.exe?
 ---
 
 # LaunchWinApp.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:4feQl8I/Q3CGqm6hzHXm6shqHhVL72VAtVJGzwB:YeQaInGqb4qHhV31JGzw`
 * Product Version: 10.0.14393.3686
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

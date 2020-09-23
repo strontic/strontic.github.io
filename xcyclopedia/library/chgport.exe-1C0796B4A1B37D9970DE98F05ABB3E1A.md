@@ -1,5 +1,6 @@
 ﻿---
 title: chgport.exe | Change port Utility
+excerpt: What is chgport.exe?
 ---
 
 # chgport.exe 
@@ -51,6 +52,7 @@ CHANGE PORT [portx=porty | /D portx | /QUERY]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: desktopimgdownldr.exe | desktopimgdownldr.exe
+excerpt: What is desktopimgdownldr.exe?
 ---
 
 # desktopimgdownldr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:hAN+bWaVooo4ooPMf8uolZlaEUuYUK1aZT7nV:xLSNdoPk8Fl2EdYHU57nV`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

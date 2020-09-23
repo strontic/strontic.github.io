@@ -1,5 +1,6 @@
 ﻿---
 title: ExtExport.exe | Internet Explorer ImpExp FF exporter
+excerpt: What is ExtExport.exe?
 ---
 
 # ExtExport.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 11.00.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

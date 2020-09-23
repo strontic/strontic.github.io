@@ -1,5 +1,6 @@
 ﻿---
 title: SynTPEnh.exe | Synaptics TouchPad 64-bit Enhancements
+excerpt: What is SynTPEnh.exe?
 ---
 
 # SynTPEnh.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:lBvL7wuV6xl2OwsymLXHLL6LMAIe65cSTsMxYjnuglmolVs:lBn1ylAmLXHv6LM3
 * Product Version: 19.3.31.31 16Aug17
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2017
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: relog.exe | Performance Relogging Utility
+excerpt: What is relog.exe?
 ---
 
 # relog.exe 
@@ -17,6 +18,9 @@ SHA256 | `245C64930182B28134A2E2A79BB8A9601F00E41BEF9DFE345887C7FA5C346BCD`
 SHA384 | `7DAD250182E65129A4F9AFE7974B485234AAFCBD7C2BB6C0BCDA644DED9C28CBA7933A8CCE859E5D0B86D87CBB338429`
 SHA512 | `20DFFA31E45A2D46BF7AA210FBCAC7E176F900EBDC8862D43F6419DD157EA8538F2A365DD30E0B29CD2D0F63A169F0B18F69B4DAA1C207F7E6792BFD62FCC630`
 SSDEEP | `1536:XJHh2xPFzVVJjZdr6wRLhDl4x6ILgw99Rid+OCY2s/5se8:qrBV9a4GUILVI+O52k5sj`
+IMP | `B09E7B2A179D74583FD66AEE5A7A267B`
+PESHA1 | `3C8DD183E3BF7D468553858C83FA916B86520CF0`
+PE256 | `9824950EEA61031BCDAE184E32A4D4E6BA96234A460C0DFC12F9ECD77EF21075`
 
 ## Runtime Data
 
@@ -76,8 +80,8 @@ C:\Windows\system32\relog.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -90,6 +94,12 @@ C:\Windows\system32\relog.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/245c64930182b28134a2e2a79bb8a9601f00e41bef9dfe345887c7fa5c346bcd/detection/
 
 
 

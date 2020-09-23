@@ -1,5 +1,6 @@
 ﻿---
 title: gpresult.exe | Query Group Policy RSOP Data
+excerpt: What is gpresult.exe?
 ---
 
 # gpresult.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:VwA1pUC/76BQJIH9jpmtuPMVsjlmjiEBuXnqQ7a8Yr7eLkqqFpLrC:D3U276+GH9j
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

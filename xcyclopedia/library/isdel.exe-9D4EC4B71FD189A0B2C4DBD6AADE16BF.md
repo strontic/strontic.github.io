@@ -1,5 +1,6 @@
 ﻿---
 title: _isdel.exe | 32-bit InstallShield Deleter.
+excerpt: What is _isdel.exe?
 ---
 
 # _isdel.exe 
@@ -62,6 +63,7 @@ C:\Windows\SysWOW64\InstallShield\_isdel.exe |
 * Product Version: 5, 51
 * Language: English (United States)
 * Legal Copyright: Copyright 1990-1998 InstallShield Software Corporation, Phone: (847) 240-9111
+
 
 ## File Similarity (ssdeep match)
 

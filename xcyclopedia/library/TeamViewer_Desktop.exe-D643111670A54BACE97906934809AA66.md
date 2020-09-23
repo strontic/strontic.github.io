@@ -1,5 +1,6 @@
 ﻿---
 title: TeamViewer_Desktop.exe | TeamViewer
+excerpt: What is TeamViewer_Desktop.exe?
 ---
 
 # TeamViewer_Desktop.exe 
@@ -35,6 +36,7 @@ SSDEEP | `196608:09tOz5tGL5HpfAcZoHJJze9p4puSR6MWN:09tOz5tGhFZoHJJppuhN`
 * Product Version: 15.8.3.0
 * Language: English (United Kingdom)
 * Legal Copyright: TeamViewer Germany GmbH
+
 
 
 

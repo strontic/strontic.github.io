@@ -1,5 +1,6 @@
 ﻿---
 title: openfiles.exe | Displays the current open files list
+excerpt: What is openfiles.exe?
 ---
 
 # openfiles.exe 
@@ -43,6 +44,7 @@ ERROR: The target system must be running a 32 bit OS.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

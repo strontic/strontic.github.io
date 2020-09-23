@@ -1,5 +1,6 @@
 ﻿---
 title: w3wp.exe | IIS Worker Process
+excerpt: What is w3wp.exe?
 ---
 
 # w3wp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:aaI3JPdnZePRLWX5GpSMJGjG4kvvWSubaIXe:RAJPxZePRHSPjRkvFme`
 * Product Version: 8.5.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

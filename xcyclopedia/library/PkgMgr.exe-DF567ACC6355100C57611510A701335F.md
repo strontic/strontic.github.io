@@ -1,5 +1,6 @@
 ﻿---
 title: PkgMgr.exe | Windows Package Manager
+excerpt: What is PkgMgr.exe?
 ---
 
 # PkgMgr.exe 
@@ -40,6 +41,7 @@ SSDEEP | `3072:tRS0ENnKKphw6s4RTQcWl4K9rpW6Hr76s5TuiAyD4Ugqo4iHMK:fS08nRccMx9r1H
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

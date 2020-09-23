@@ -1,5 +1,6 @@
 ﻿---
 title: CrashReport.exe | Glarysoft Crash Report
+excerpt: What is CrashReport.exe?
 ---
 
 # CrashReport.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:n1D4eyHDSe+KpPvhIbixa0cA6NCx+b72r5Kp/TDme8JA3hL:1D4eyHXhRqwwbi9K
 * Product Version: 5, 0, 0, 1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

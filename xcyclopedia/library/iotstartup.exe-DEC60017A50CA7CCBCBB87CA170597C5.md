@@ -1,5 +1,6 @@
 ﻿---
 title: iotstartup.exe | IotStartup
+excerpt: What is iotstartup.exe?
 ---
 
 # iotstartup.exe 
@@ -67,6 +68,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

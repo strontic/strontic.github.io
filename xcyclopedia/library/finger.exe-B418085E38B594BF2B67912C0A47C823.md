@@ -1,5 +1,6 @@
 ﻿---
 title: finger.exe | TCPIP Finger Command
+excerpt: What is finger.exe?
 ---
 
 # finger.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:ZdjOGevsMYb5oXHDpDTTRfvo9F11uXMpURALsWL0WcW:jOGroXHJR4vuXtRWL0Wj`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

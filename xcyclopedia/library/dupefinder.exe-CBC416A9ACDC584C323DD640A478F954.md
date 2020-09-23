@@ -1,5 +1,6 @@
 ﻿---
 title: dupefinder.exe | Glary Utilities Dupefinder
+excerpt: What is dupefinder.exe?
 ---
 
 # dupefinder.exe 
@@ -44,6 +45,7 @@ MemfilesService.exe
 * Product Version: 5,0,0,1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

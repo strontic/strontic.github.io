@@ -1,5 +1,6 @@
 ﻿---
 title: CastSrv.exe | Casting protocol connection listener
+excerpt: What is CastSrv.exe?
 ---
 
 # CastSrv.exe 
@@ -67,6 +68,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

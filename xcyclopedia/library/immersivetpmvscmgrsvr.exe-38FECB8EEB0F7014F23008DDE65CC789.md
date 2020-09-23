@@ -1,5 +1,6 @@
 ﻿---
 title: immersivetpmvscmgrsvr.exe | Immersive TPM Virtual Smart Card Manager COM Server
+excerpt: What is immersivetpmvscmgrsvr.exe?
 ---
 
 # immersivetpmvscmgrsvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:blfd1OmDDRu2ThFOqkHaBJA+ZwtyYOwVrIAcCR5yqqlOEwL:Nd1OURzzOAAywtyYL
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: verclsid.exe | Extension CLSID Verification Host
+excerpt: What is verclsid.exe?
 ---
 
 # verclsid.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:KRf9UHJpooq5JXNKncxjEx9NvDWPTE2Fb+uDpVbvJOoO19u0yDJdMx2bKveL5vEj:KR
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

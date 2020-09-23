@@ -1,5 +1,6 @@
 ﻿---
 title: slide.exe | XnView SlideShow
+excerpt: What is slide.exe?
 ---
 
 # slide.exe 
@@ -50,6 +51,7 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Copyright  1991-2005 by Gougelet Pierre-e
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `slide.exe` being misused. While `slide.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
@@ -58,7 +60,7 @@ Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_powershell_parent_process.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml) | `- https://speakerdeck.com/heirhabarov/hunting-for-powershell-abuse?slide=26` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bitsadmin.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml) | `- Link: https://www.slideshare.net/chrisgates/windows-attacks-at-is-the-new-black-26672679 - slide 53` | 
-[signature-base](https://github.com/Neo23x0/signature-base) | [airbnb_binaryalert.yar](https://github.com/Neo23x0/signature-base/blob/master/vendor/yara/airbnb_binaryalert.yar) |         $a2 = "leaked kaslr slide," wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [airbnb_binaryalert.yar](https://github.com/Neo23x0/signature-base/blob/master/vendor/yara/airbnb_binaryalert.yar) | $a2 = "leaked kaslr slide," wide ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

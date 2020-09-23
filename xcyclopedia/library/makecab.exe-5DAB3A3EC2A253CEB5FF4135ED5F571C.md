@@ -1,5 +1,6 @@
 ﻿---
 title: makecab.exe | Microsoft Cabinet Maker
+excerpt: What is makecab.exe?
 ---
 
 # makecab.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:i3EDOH/oHMHRU/DH8C2HeubcbFBWUcFq3pIHJsd/LGxSXz:MEDQwH8RU/DHm+mcbF
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: perfhost.exe | x86 Performance Counter Host
+excerpt: What is perfhost.exe?
 ---
 
 # perfhost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:aJjx9nVH925gyH6uochX2iUrSe7uRM2NWJs0WF1C/nW3F:kx9yL0OeMM2DU/nW`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

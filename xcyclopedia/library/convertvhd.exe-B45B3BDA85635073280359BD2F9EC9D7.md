@@ -1,5 +1,6 @@
 ﻿---
 title: convertvhd.exe | VHD Conversion Tool
+excerpt: What is convertvhd.exe?
 ---
 
 # convertvhd.exe 
@@ -67,6 +68,7 @@ convertvhd.exe -sourceToken <file handle> -destinationToken <file handle> [-btt]
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

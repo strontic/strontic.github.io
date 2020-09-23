@@ -1,5 +1,6 @@
 ﻿---
 title: fixmapi.exe | FIXMAPI 1.0 MAPI Repair Tool
+excerpt: What is fixmapi.exe?
 ---
 
 # fixmapi.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:YSHV7ve/alWPjzTN9RHcFl1SrPhQoV+Dd7kk4QWTnW:YCV7v8vTN9R8Fl1SmoV+dkk
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

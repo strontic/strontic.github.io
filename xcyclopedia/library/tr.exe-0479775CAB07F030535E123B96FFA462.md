@@ -1,5 +1,6 @@
 ﻿---
 title: tr.exe | 
+excerpt: What is tr.exe?
 ---
 
 # tr.exe 
@@ -103,6 +104,7 @@ Try '/usr/bin/tr --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: GamePanel.exe | Game Bar
+excerpt: What is GamePanel.exe?
 ---
 
 # GamePanel.exe 
@@ -17,6 +18,9 @@ SHA256 | `97C6FCFA760A17DD8A2A27CA85B66E2559EB52C563DC2E40788FA2C91623B159`
 SHA384 | `A9EEA460743943AB9C5F4058F490529DD2E2C571C3C832988DAF884EC29F106B6185D96B32CC7E1521A177650CFC3DDD`
 SHA512 | `1E3897BB95F0E91459DED346B532ADD0721E65BA0F4C8787F290ECC2641B4CC00B356DF92256A68EFB243E21FD6A9D715D7D1F98363F84482CC6AA9CFEC3D71D`
 SSDEEP | `24576:eqe5Y2WPhFW940AKBqVaaHVGZQ8MRE7hYR1OT32Sy5sVnA+j08FTB+IGoT6jYQSa:eqeYLhFWCbKBquwGhYR1OTaldMQ`
+IMP | `28A171FB66EF92BEB7178A780526D50F`
+PESHA1 | `B3A173B8F3BC7198B51E93F0287275E7344DCAB8`
+PE256 | `BB4493FC56C224CD217A00954794DEA28CEECBCAF0682328E74DA71299DD047A`
 
 ## Runtime Data
 
@@ -25,7 +29,6 @@ SSDEEP | `24576:eqe5Y2WPhFW940AKBqVaaHVGZQ8MRE7hYR1OT32Sy5sVnA+j08FTB+IGoT6jYQSa
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\system32\GamePanel.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
@@ -34,11 +37,9 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
 
@@ -59,6 +60,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/97c6fcfa760a17dd8a2a27ca85b66e2559eb52c563dc2e40788fa2c91623b159/detection/
 
 
 

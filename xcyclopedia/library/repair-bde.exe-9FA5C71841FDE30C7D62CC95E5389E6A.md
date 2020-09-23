@@ -1,5 +1,6 @@
 ﻿---
 title: repair-bde.exe | BitLocker Drive Encryption- Repair Tool
+excerpt: What is repair-bde.exe?
 ---
 
 # repair-bde.exe 
@@ -17,6 +18,9 @@ SHA256 | `13930144928B4C55AC75120678F3C523B6E6E1730B0E5BC972A15FAEAE399259`
 SHA384 | `5B0087441AD8ECDAA326ACE1605B5F71FBA1BD2E0BAB3BFEAEB4648D54D556E9DA336F89335348F07956449E2AB5B877`
 SHA512 | `B37C82EC0F6ECAB0887263BE677B1A1D6CFCABB775D22C4AF62A22AE544D6BDE8B31D2F99CB3BCBCD9A9C160692F69EFDAEEF387596434A3971D2E1E0EBDE412`
 SSDEEP | `3072:Tv2Xi0hGCIG1PfGWxa637wnVS570M9kdatGCO+xmBc+hMPhPsx:Tv2Xi0hGCZUWaVs7nyatGt+SYF`
+IMP | `E79D89F81C99F2656B81FFE7397F88D7`
+PESHA1 | `523ABD30F512707F47FCAC99439C0C4481913D15`
+PE256 | `DB39A2344C3E436899EA9A2295302688E9E2F4FA0A741E0806D091F5D8B4A7BC`
 
 ## Runtime Data
 
@@ -114,8 +118,8 @@ C:\Windows\system32\repair-bde.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -128,6 +132,12 @@ C:\Windows\system32\repair-bde.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/13930144928b4c55ac75120678f3c523b6e6e1730b0e5bc972a15faeae399259/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -181,7 +191,7 @@ File | Score
 Attempts to reconstruct critical parts of a severely damaged drive and salvage recoverable data if the drive was encrypted by using BitLocker and if it has a valid recovery password or recovery key for decryption.
 
 > [!IMPORTANT]
-> If the BitLocker metadata data on the drive is corrupt, you must be able to supply a backup key package in addition to the recovery password or recovery key. If you used the default key back up setting for Active Directory Domain Services, your key package is backed up there. You can use the [BitLocker: Use BitLocker Recovery Password Viewer](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-use-bitlocker-recovery-password-viewer) to obtain the key package from AD DS.
+> If the BitLocker metadata data on the drive is corrupt, you must be able to supply a backup key package in addition to the recovery password or recovery key. If you used the default key back up setting for Active Directory Domain Services, your key package is backed up there. You can use the [BitLocker: Use BitLocker Recovery Password Viewer](/windows/security/information-protection/bitlocker/bitlocker-use-bitlocker-recovery-password-viewer) to obtain the key package from AD DS.
 >
 > Using the key package and either the recovery password or recovery key, you can decrypt portions of a BitLocker-protected drive, even if the disk is corrupted. Each key package works only for a drive with the corresponding drive identifier.
 

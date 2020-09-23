@@ -1,5 +1,6 @@
 ﻿---
 title: CameraSettingsUIHost.exe | Camera Settings UI Host
+excerpt: What is CameraSettingsUIHost.exe?
 ---
 
 # CameraSettingsUIHost.exe 
@@ -17,6 +18,9 @@ SHA256 | `9753C8D7E7B89F707712B24699BBD10CBDA1F09EAC1DD5A2F99D741F15F7897D`
 SHA384 | `56FA1545FF9F9512E43122EEEDDB3F89F8B2F586CF86703B786274673240AD0AF64E0E8DD297D1EBD6AA5F8AB343AA41`
 SHA512 | `265981572F01FFE7C304ADCD525DCACB8EB53CFA4E19752A1972682A885AFC0CD5745A9659778B284B0D2C8B1EC2CA125AAE5DC1655411CB0036E097A59E4DF4`
 SSDEEP | `384:tDiqhV8/xNeLE9kbMe6hFvR2yoB2dJ+7Qg2qXpdJBbWZdWpex5sD1IDBRJtGICTh:0qhVMxNeKkIdcyRrkJBay8sI1PoIC9`
+IMP | `098461CCF821A821C7EF74FD392E1DB6`
+PESHA1 | `0366E8AFADB7B04E07CD10F4ECD7D9FD6E22C965`
+PE256 | `9ACF958ECD1E9B5BFBC5EDCC05156649B3C300E32B9AA56A7C0DBEDAE0E3D32A`
 
 ## Runtime Data
 
@@ -24,16 +28,11 @@ SSDEEP | `384:tDiqhV8/xNeLE9kbMe6hFvR2yoB2dJ+7Qg2qXpdJBbWZdWpex5sD1IDBRJtGICTh:0
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -42,6 +41,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\CameraSettingsUIHost.exe |
 
@@ -63,6 +63,12 @@ C:\Windows\SysWOW64\CameraSettingsUIHost.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/9753c8d7e7b89f707712b24699bbd10cbda1f09eac1dd5a2f99d741f15f7897d/detection/
 
 ## File Similarity (ssdeep match)
 

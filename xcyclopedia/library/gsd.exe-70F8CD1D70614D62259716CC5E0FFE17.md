@@ -1,5 +1,6 @@
 ﻿---
 title: gsd.exe | Securely Delete Files
+excerpt: What is gsd.exe?
 ---
 
 # gsd.exe 
@@ -56,6 +57,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1, 0, 0, 0
 * Language: English (United States)
 * Legal Copyright: Copyright  2005-2006 Glarysoft.com
+
 
 ## File Similarity (ssdeep match)
 

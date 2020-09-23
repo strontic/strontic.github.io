@@ -1,5 +1,6 @@
 ﻿---
 title: isoburn.exe | Windows Disc Image Burning Tool
+excerpt: What is isoburn.exe?
 ---
 
 # isoburn.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:0loR9w2PLj3/MAXYw5yElKAbeHZrQqfvS:NzbMAXIsNeHd3`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

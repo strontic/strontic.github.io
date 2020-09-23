@@ -1,5 +1,6 @@
 ﻿---
 title: DisplaySwitch.exe | Display Switch
+excerpt: What is DisplaySwitch.exe?
 ---
 
 # DisplaySwitch.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:1fp3NHIF5Ni1dZpbS57m0KZkxj3O4LvkJ20/mSLTWVXrSY6t:t3WNiHS57m0KIj3N
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

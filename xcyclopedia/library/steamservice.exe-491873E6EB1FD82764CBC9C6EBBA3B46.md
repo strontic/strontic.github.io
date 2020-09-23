@@ -1,5 +1,6 @@
 ﻿---
 title: steamservice.exe | Steam Client Service
+excerpt: What is steamservice.exe?
 ---
 
 # steamservice.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:ovTcGwwYTAGpHDu5MzM4gQvPbkj5pmTbzzDjXSHu:ovTvDYtpju5MI4gQumbN`
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Valve Corporation
+
 
 
 

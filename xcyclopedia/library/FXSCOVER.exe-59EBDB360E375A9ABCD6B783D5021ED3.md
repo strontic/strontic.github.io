@@ -1,5 +1,6 @@
 ﻿---
 title: FXSCOVER.exe | Microsoft  Fax Cover Page Editor
+excerpt: What is FXSCOVER.exe?
 ---
 
 # FXSCOVER.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:lHCSyxsUIK4RDa2xCsDg4B88udMDORE/:lHWxs9KmFNB88uNE/`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

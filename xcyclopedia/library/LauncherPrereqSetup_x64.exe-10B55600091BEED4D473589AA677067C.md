@@ -1,5 +1,6 @@
 ﻿---
 title: LauncherPrereqSetup_x64.exe | Launcher Prerequisites (x64)
+excerpt: What is LauncherPrereqSetup_x64.exe?
 ---
 
 # LauncherPrereqSetup_x64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:NrwQwDfT8qx+lXvbqeVDAe7bZhyD2BDQC6Yoj0RSp:N3wDfTJxCXvbqa8UbTLWp`
 * Product Version: 1.0.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2014-2015 Epic Games, Inc.
+
 
 
 

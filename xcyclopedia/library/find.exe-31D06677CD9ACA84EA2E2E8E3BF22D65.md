@@ -1,5 +1,6 @@
 ﻿---
 title: find.exe | Find String (grep) Utility
+excerpt: What is find.exe?
 ---
 
 # find.exe 
@@ -17,6 +18,9 @@ SHA256 | `63DDBCB0233ED7C8C90748869EC5879309A351FFC6D230AF66CCDE8372F00B34`
 SHA384 | `397D0BE78FF9E7F80E3C1EDFE841CC85F9BC66435DD3BFEE1E4C1077C92B6506F100B10E53430A050BB160B1E8B2CFE5`
 SHA512 | `AEF0356F9D6C9A35189305A507A02E3874F573A693293331971BF46F698A1398C2DEE1D89F742D25109E28DB826DB8932CB1FDEA412FB123BFAF6B6D7FDAAE33`
 SSDEEP | `384:HIGKTPCCRLMRUXIQmm9Me7sNDT6zjazWOIW7:HIGKjCCRLMRU4bm9Me7sJGzONR`
+IMP | `F1CCECB8E289C2632DEE607CD74A0CCA`
+PESHA1 | `16E63F62C8A3D27CDDF30E1A69928DE534E05D16`
+PE256 | `67DC28AD2A6507CE06FCF58F3CF642F44A87DF2A6F5BA85D48C2F757BFB276BF`
 
 ## Runtime Data
 
@@ -52,6 +56,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\find.exe |
 
@@ -73,6 +78,12 @@ C:\Windows\SysWOW64\find.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/63ddbcb0233ed7c8c90748869ec5879309a351ffc6d230af66ccde8372f00b34/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: chrome_installer.exe | Google Chrome Installer
+excerpt: What is chrome_installer.exe?
 ---
 
 # chrome_installer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1572864:PtLFMdK1tUMk6Ro+Dkp3AwZbGrE3vW8uRe1WT:PtzHnRo+wpQ+bUE3v9Ce1U`
 * Product Version: 84.0.4147.125
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

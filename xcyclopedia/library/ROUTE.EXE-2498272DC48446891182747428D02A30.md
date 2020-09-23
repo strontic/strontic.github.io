@@ -1,5 +1,6 @@
 ﻿---
 title: ROUTE.EXE | TCP/IP Route Command
+excerpt: What is ROUTE.EXE?
 ---
 
 # ROUTE.EXE 
@@ -111,6 +112,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

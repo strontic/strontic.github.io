@@ -1,5 +1,6 @@
 ﻿---
 title: mpnotify.exe | Windows NT Multiple Provider Notification Application
+excerpt: What is mpnotify.exe?
 ---
 
 # mpnotify.exe 
@@ -61,6 +62,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

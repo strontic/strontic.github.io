@@ -1,5 +1,6 @@
 ﻿---
 title: AmazonSSMAgentSetup.exe | Amazon SSM Agent
+excerpt: What is AmazonSSMAgentSetup.exe?
 ---
 
 # AmazonSSMAgentSetup.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\wow64.dll |
 * Product Version: 2.3.842.0
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Amazon Web Services. All rights reserved.
+
 
 
 

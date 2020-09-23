@@ -1,5 +1,6 @@
 ﻿---
 title: repair_tool.exe | 
+excerpt: What is repair_tool.exe?
 ---
 
 # repair_tool.exe 
@@ -71,6 +72,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

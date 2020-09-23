@@ -1,5 +1,6 @@
 ﻿---
 title: printf.exe | 
+excerpt: What is printf.exe?
 ---
 
 # printf.exe 
@@ -92,6 +93,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

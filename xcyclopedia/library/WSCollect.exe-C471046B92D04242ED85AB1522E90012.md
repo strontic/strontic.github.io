@@ -1,5 +1,6 @@
 ﻿---
 title: WSCollect.exe | This tool collects Windows Store log files
+excerpt: What is WSCollect.exe?
 ---
 
 # WSCollect.exe 
@@ -46,6 +47,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

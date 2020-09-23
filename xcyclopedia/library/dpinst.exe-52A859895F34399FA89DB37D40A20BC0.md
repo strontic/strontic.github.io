@@ -1,5 +1,6 @@
 ﻿---
 title: dpinst.exe | Driver Package Installer
+excerpt: What is dpinst.exe?
 ---
 
 # dpinst.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:OsSOzpPId26dQcEaUrPvwgwkRVagRoDHTj8K1sqI6VLp4XOigSbduP/1HHm/hHAl:
 * Product Version: 2.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

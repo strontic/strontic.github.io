@@ -1,5 +1,6 @@
 ﻿---
 title: ClusterUpdateUI.exe | Cluster-Aware Updating UI
+excerpt: What is ClusterUpdateUI.exe?
 ---
 
 # ClusterUpdateUI.exe 
@@ -90,6 +91,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

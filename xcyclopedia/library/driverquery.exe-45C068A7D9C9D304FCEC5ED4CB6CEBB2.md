@@ -1,5 +1,6 @@
 ﻿---
 title: driverquery.exe | Queries the drivers on a system
+excerpt: What is driverquery.exe?
 ---
 
 # driverquery.exe 
@@ -96,6 +97,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

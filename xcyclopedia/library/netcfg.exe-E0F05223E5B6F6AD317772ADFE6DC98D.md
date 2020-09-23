@@ -1,5 +1,6 @@
 ﻿---
 title: netcfg.exe | WinPE network installer
+excerpt: What is netcfg.exe?
 ---
 
 # netcfg.exe 
@@ -166,6 +167,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: PATHPING.EXE | TCP/IP PathPing Command
+excerpt: What is PATHPING.EXE?
 ---
 
 # PATHPING.EXE 
@@ -60,6 +61,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

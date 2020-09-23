@@ -1,5 +1,6 @@
 ﻿---
 title: dllhst3g.exe | COM Surrogate
+excerpt: What is dllhst3g.exe?
 ---
 
 # dllhst3g.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:s1HcRP+Qa0po6Up5QB2eKzG/FGNW7yWS:sVco96gKB2eFGNW7yWS`
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: maintenanceservice_installer.exe | Mozilla Maintenance Service Installer
+excerpt: What is maintenanceservice_installer.exe?
 ---
 
 # maintenanceservice_installer.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 78.2.0
 * Language: English (United States)
 * Legal Copyright: Mozilla Corporation
+
 
 ## File Similarity (ssdeep match)
 

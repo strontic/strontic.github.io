@@ -1,5 +1,6 @@
 ﻿---
 title: browserexport.exe | Microsoft Edge Browser Exporter
+excerpt: What is browserexport.exe?
 ---
 
 # browserexport.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:15mq+uBgLvEhQLuoKLBZKQRQg3wuLNzgEFwzNbPbMs3fC/nA:1wq+uByvEhQLufPQ
 * Product Version: 11.00.18362.267
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

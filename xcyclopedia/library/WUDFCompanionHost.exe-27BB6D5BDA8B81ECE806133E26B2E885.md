@@ -1,5 +1,6 @@
 ﻿---
 title: WUDFCompanionHost.exe | Windows Driver Foundation - User-mode Driver Companion Framework Host Process
+excerpt: What is WUDFCompanionHost.exe?
 ---
 
 # WUDFCompanionHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:mtHrtkHqpVvBa7Z2yjSGx9gz/777wEgh1u05m3nkPQyH55uaeIKB0lv:urt+qbvBa
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

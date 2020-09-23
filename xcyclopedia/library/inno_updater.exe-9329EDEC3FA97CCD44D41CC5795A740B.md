@@ -1,5 +1,6 @@
 ﻿---
 title: inno_updater.exe | 
+excerpt: What is inno_updater.exe?
 ---
 
 # inno_updater.exe 
@@ -43,6 +44,7 @@ Error: Bad usage
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

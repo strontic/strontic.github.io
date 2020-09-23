@@ -1,5 +1,6 @@
 ﻿---
 title: WSReset.exe | This tool resets the Windows Store without changing account settings or deleting installed apps
+excerpt: What is WSReset.exe?
 ---
 
 # WSReset.exe 
@@ -17,6 +18,9 @@ SHA256 | `E1E8F9FB5503A7EC9731BC81CDD3F428001C2AFB0528CF99DA451C5220A1580F`
 SHA384 | `39474778BF617D16343F3FCADF197C268EA1B9409B5C6C3DD16061188A75F9AA4E638A9F82182301FD81B9989A7352C6`
 SHA512 | `6F3539EC0F15184F887D2CC8417D5133FBED65666A8FA4459351422F408401B13CCBA3162B9BF8693E5F24858DD72155FF1EB7409ECF6692FDFFD4CA1C53BEBF`
 SSDEEP | `768:lJKVfVIDwlvjEFLSj1cKSSSzSSoMo9b1Nsn4FOBkStBW/:mbiMjEFLi1tFGg0Y/`
+IMP | `AB03184F9306BF7E8482C6F987BA1832`
+PESHA1 | `AAE557C6EDB843CB97C908076D2453840BC752D8`
+PE256 | `A82F5E43E6F796FA94FAABA7CA3FC0252817753CB4B36E916EE57BB457F9255B`
 
 ## Runtime Data
 
@@ -27,14 +31,9 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 
 
@@ -65,6 +64,12 @@ C:\Windows\system32\WSReset.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/e1e8f9fb5503a7ec9731bc81cdd3f428001c2afb0528cf99da451c5220a1580f/detection/
 
 ## File Similarity (ssdeep match)
 

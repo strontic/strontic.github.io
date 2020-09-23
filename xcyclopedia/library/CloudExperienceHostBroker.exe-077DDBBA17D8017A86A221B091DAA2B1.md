@@ -1,5 +1,6 @@
 ﻿---
 title: CloudExperienceHostBroker.exe | CloudExperienceHost Broker
+excerpt: What is CloudExperienceHostBroker.exe?
 ---
 
 # CloudExperienceHostBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:aZBWjco9eS2/Eqidhxz43BkxYMvNhIsd+pS199YMXVP15FP0cG:QBqMS28vkBkxYE
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

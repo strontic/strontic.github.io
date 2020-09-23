@@ -1,5 +1,6 @@
 ﻿---
 title: FileUndelete.exe | Glary Utilities FileUndelete
+excerpt: What is FileUndelete.exe?
 ---
 
 # FileUndelete.exe 
@@ -39,6 +40,7 @@ SSDEEP | `24576:6h1E/T5FFUsPOVIBkMt577B/tgl6nRbBrIvUVQnGLfiT4xzN+:IEHFpDE6JRz2TY
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

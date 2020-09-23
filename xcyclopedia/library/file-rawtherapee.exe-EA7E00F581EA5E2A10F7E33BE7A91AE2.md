@@ -1,5 +1,6 @@
 ﻿---
 title: file-rawtherapee.exe | 
+excerpt: What is file-rawtherapee.exe?
 ---
 
 # file-rawtherapee.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

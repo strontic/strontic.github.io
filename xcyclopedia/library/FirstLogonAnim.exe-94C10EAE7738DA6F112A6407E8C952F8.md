@@ -1,5 +1,6 @@
 ﻿---
 title: FirstLogonAnim.exe | First Sign-in Animation
+excerpt: What is FirstLogonAnim.exe?
 ---
 
 # FirstLogonAnim.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:DoMBNKWwgKphXv9cZQ+WixWaHmXjDBRJZlApl9qKt:DrBcYKphFcZQCtGXj1PYv`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

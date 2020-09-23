@@ -1,5 +1,6 @@
 ﻿---
 title: verifiergui.exe | Driver Verifier Manager
+excerpt: What is verifiergui.exe?
 ---
 
 # verifiergui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:nAcJVIZen+Vcv2JBwwRBkBnRePnjp+z7zq2xk8RvoXD/Aq57Gi9yFmNEdnef4l2N:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

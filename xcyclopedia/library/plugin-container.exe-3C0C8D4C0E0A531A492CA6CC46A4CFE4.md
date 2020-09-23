@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-container.exe | Plugin Container for Thunderbird
+excerpt: What is plugin-container.exe?
 ---
 
 # plugin-container.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:4jAabp7FZlcTcy0WC7rheEv9dZy1llomA3afK3Nx/PmS5:45TWC3oaulomA3afENx
 * Product Version: 78.1.1
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

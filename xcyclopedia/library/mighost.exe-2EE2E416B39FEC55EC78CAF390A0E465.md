@@ -1,5 +1,6 @@
 ﻿---
 title: mighost.exe | Migration Plugins host program
+excerpt: What is mighost.exe?
 ---
 
 # mighost.exe 
@@ -44,6 +45,7 @@ conhost.exe
 * Product Version: 10.0.18362.778
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

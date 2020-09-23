@@ -1,5 +1,6 @@
 ﻿---
 title: GoogleCrashHandler.exe | Google Crash Handler
+excerpt: What is GoogleCrashHandler.exe?
 ---
 
 # GoogleCrashHandler.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.35.451
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 Google LLC
+
 
 
 

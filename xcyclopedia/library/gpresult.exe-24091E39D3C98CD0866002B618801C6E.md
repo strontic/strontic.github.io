@@ -1,5 +1,6 @@
 ﻿---
 title: gpresult.exe | Query Group Policy RSOP Data
+excerpt: What is gpresult.exe?
 ---
 
 # gpresult.exe 
@@ -17,6 +18,9 @@ SHA256 | `2BAC97558FA6700178EBF89AD80DB4492E21A6C92692F89956FDAB2AA5899D57`
 SHA384 | `0E1BC158F4F8D277C12AB840DC6AB4B76DE6082AB0F69CD823940CB61444835FD720FA20600E2FC8956C30ABE4AE0D53`
 SHA512 | `FB76E01930FB01176016786CDEDF2349720150E2308138FF585E0B98EC1BF96003A8BF95B87018AC9BEDA7CBE0056356FBB3EA42BEA5A19286F94D09398792B3`
 SSDEEP | `3072:Ja+sOKvkY3L78RtU5eITpgwRO42wtzi8TKnpft9PtgXtmpZmnIMqiNPr5W3qi1Xi:8BHL78R+5ef4O6nv36ayucr2k/MF`
+IMP | `C2331BA71CEC644A91EA059F8846B40A`
+PESHA1 | `79ED5D211464254315020C72B3957BBF1C86D931`
+PE256 | `176AB07D2950A0EA16E860BCA5A0129E50BEA5DA3C4ECEBAF82AED7ABD422B29`
 
 ## Runtime Data
 
@@ -96,6 +100,9 @@ Type "GPRESULT /?" for usage.
 
 ```
 
+### Child Processes:
+mmc.exe
+
 ### Loaded Modules:
 
 Path |
@@ -124,6 +131,12 @@ C:\Windows\SysWOW64\gpresult.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/2bac97558fa6700178ebf89ad80db4492e21a6c92692f89956fdab2aa5899d57/detection/
 
 ## File Similarity (ssdeep match)
 

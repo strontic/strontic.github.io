@@ -1,5 +1,6 @@
 ﻿---
 title: fsavailux.exe | Microsoft\fsavailux
+excerpt: What is fsavailux.exe?
 ---
 
 # fsavailux.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:rbGaON6g2FcR792uqge877VBmHXeggWg4WW:PON6g2FaJ2qTDJgz`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

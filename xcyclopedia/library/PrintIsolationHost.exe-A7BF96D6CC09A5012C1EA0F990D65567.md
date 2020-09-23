@@ -1,5 +1,6 @@
 ﻿---
 title: PrintIsolationHost.exe | PrintIsolationHost
+excerpt: What is PrintIsolationHost.exe?
 ---
 
 # PrintIsolationHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:EGUkAANziFZVt3A7HPd4n+lbeRZIbSQPT:fCA5iFZHQbPRyZ2pPT`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

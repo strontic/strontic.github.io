@@ -1,5 +1,6 @@
 ﻿---
 title: ApplyTrustOffline.exe | "ApplyTrustOffline.PROGRAM"
+excerpt: What is ApplyTrustOffline.exe?
 ---
 
 # ApplyTrustOffline.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.450
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

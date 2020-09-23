@@ -1,5 +1,6 @@
 ﻿---
 title: StartupManager.exe | Glary Utilities StartupManager
+excerpt: What is StartupManager.exe?
 ---
 
 # StartupManager.exe 
@@ -44,6 +45,7 @@ x64ProcessAssistSvc.exe
 * Product Version: 5.10.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright:  Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

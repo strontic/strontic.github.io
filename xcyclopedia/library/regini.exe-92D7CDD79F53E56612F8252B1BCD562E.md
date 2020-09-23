@@ -1,5 +1,6 @@
 ﻿---
 title: regini.exe | Registry Initializer
+excerpt: What is regini.exe?
 ---
 
 # regini.exe 
@@ -200,6 +201,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

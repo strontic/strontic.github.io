@@ -1,5 +1,6 @@
 ﻿---
 title: sample-colorize.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is sample-colorize.exe?
 ---
 
 # sample-colorize.exe 
@@ -57,6 +58,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 
 

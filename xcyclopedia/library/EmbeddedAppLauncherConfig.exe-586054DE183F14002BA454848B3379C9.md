@@ -1,5 +1,6 @@
 ﻿---
 title: EmbeddedAppLauncherConfig.exe | Embedded App Launcher config
+excerpt: What is EmbeddedAppLauncherConfig.exe?
 ---
 
 # EmbeddedAppLauncherConfig.exe 
@@ -45,6 +46,7 @@ SLCONFIG: ExePassThrough<==
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

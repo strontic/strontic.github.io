@@ -1,5 +1,6 @@
 ﻿---
 title: recover.exe | Recover Files Utility
+excerpt: What is recover.exe?
 ---
 
 # recover.exe 
@@ -17,6 +18,9 @@ SHA256 | `DD8BC56FFB5B471B94F101C385439159B289BB9255A48EDD1F0C247F5101FDD7`
 SHA384 | `BC88FEF37801C34E43C59C8030068B4D947EDC790D2780451BD6FD46656B7A056ACF81A2422AF2F2C2C0F75B863BF11E`
 SHA512 | `430F9B8CD1B89C50DC77CA137368B391534312A278881D297E201C72F96D7BB6DFF51D84CBFE783A2F000EDBF0A049279180B66136551119B1242AC7DD2F4A4D`
 SSDEEP | `192:EMp1/zPqoxJg1VD87N9EKVar3qy08VchbWSGS5Ajum2jWEnWy:BTRM7879UuyBVoVB62jWEnW`
+IMP | `15EC0ACE85D3228ADCC66943670EF7D8`
+PESHA1 | `7755FF29ED30AE5989DD476939C43064DAC24309`
+PE256 | `F1AB60DD90A424DC9ADA815829F250267CABEEB2A094C3D0877122917A92000F`
 
 ## Runtime Data
 
@@ -29,6 +33,9 @@ Consult the online Command Reference in Windows Help
 before using the RECOVER command.
 
 ```
+
+### Child Processes:
+RdpSa.exe
 
 ### Loaded Modules:
 
@@ -57,6 +64,12 @@ C:\Windows\system32\recover.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/dd8bc56ffb5b471b94f101c385439159b289bb9255a48edd1f0c247f5101fdd7/detection/
 
 ## File Similarity (ssdeep match)
 

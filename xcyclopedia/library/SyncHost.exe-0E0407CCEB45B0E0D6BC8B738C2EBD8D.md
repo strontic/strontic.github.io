@@ -1,5 +1,6 @@
 ﻿---
 title: SyncHost.exe | Host Process for Windows Sync
+excerpt: What is SyncHost.exe?
 ---
 
 # SyncHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:aJns6/3x9xpyD4wN0zSeNpMxrpafM6vZLpv9N/IaoJe/9UhzBIgSDKRVXwP01:aFsu
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

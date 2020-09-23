@@ -1,5 +1,6 @@
 ﻿---
 title: WriteMiniDump.exe | Win32 MiniDump Helper
+excerpt: What is WriteMiniDump.exe?
 ---
 
 # WriteMiniDump.exe 
@@ -57,6 +58,7 @@ DumpFile	Select path of output dump file
 * Product Version: 1.0.0.0
 * Language: English (United States)
 * Legal Copyright:  Copyright 2000-2003 Valve Corporation All rights reserved.
+
 
 
 

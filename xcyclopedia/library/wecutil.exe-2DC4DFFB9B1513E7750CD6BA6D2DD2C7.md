@@ -1,5 +1,6 @@
 ﻿---
 title: wecutil.exe | Event Collector Command Line Utility
+excerpt: What is wecutil.exe?
 ---
 
 # wecutil.exe 
@@ -17,6 +18,9 @@ SHA256 | `32E06B5E1ACB62625B9805450F9030ED4E074031C6FA3D769A44F3AC6F5A1598`
 SHA384 | `977C7AA8B4C25229387E9B5B5630F22EA02D01B0547234189C6A781B5059E0B572A23DFAE10C77DA5146B6B03871CFE5`
 SHA512 | `3560ABE0713DAF8E0C29984BD3AEC2B4F40D7F84AD1F968FEB5BAE2D9CEF417821E66D1DC4BFAC3826A67B0788D4FCDDEA27FE2F4EF480D78A02A71BFA6001FA`
 SSDEEP | `3072:y52vOgyTrK+xYnl3byVA+eZEa+UU4REcB3:y52vcHZibEcZEa13EcB`
+IMP | `B72EE51C5FE65846BB96655320BB4A02`
+PESHA1 | `77EC8CA30F1E2461C0D56D76720D2913F914CF5D`
+PE256 | `74A9C8577B6C6211E07051110B9E470BECDC88A27E5535A971537E85F68DD815`
 
 ## Runtime Data
 
@@ -68,9 +72,6 @@ The parameter is incorrect.
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -98,6 +99,12 @@ C:\Windows\system32\wecutil.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/32e06b5e1acb62625b9805450f9030ed4e074031c6fa3d769a44f3ac6f5a1598/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: steamwebhelper.exe | Steam Client WebHelper
+excerpt: What is steamwebhelper.exe?
 ---
 
 # steamwebhelper.exe 
@@ -40,6 +41,7 @@ steamwebhelper.exe WerFault.exe
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2014 Valve Corporation
+
 
 
 

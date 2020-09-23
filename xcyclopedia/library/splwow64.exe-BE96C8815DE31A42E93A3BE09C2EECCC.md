@@ -1,5 +1,6 @@
 ﻿---
 title: splwow64.exe | Print driver host for applications
+excerpt: What is splwow64.exe?
 ---
 
 # splwow64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:yLNDDCRirJYM+GmYmjR3+97wEXeGHGhIwVt3A7HPd4n+lbeRZIbSQPTxb:0D1rmM+
 * Product Version: 6.3.9600.19727
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

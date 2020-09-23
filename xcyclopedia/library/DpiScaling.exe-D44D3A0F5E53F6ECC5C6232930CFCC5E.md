@@ -1,5 +1,6 @@
 ﻿---
 title: DpiScaling.exe | Display Control Panel
+excerpt: What is DpiScaling.exe?
 ---
 
 # DpiScaling.exe 
@@ -17,32 +18,14 @@ SHA256 | `FA1DD224289D1C39C49CB5DD2896FA19A3091CE650D6B665626D5D30B65DEE9E`
 SHA384 | `C834E33A780A89415E7AE5DDC2925206D2987B74EF5CA0D022321AACD8D91FEBAC31664F8039062955FCA0D4DBD94531`
 SHA512 | `A4104E8ABB58D17D6565A410A5E4653280827D2291BFEDB59201E368DCE475B43B79FDD3087DCE46C8E0A95CAD78AFB15E0C1FB351BABD7168E39E26EF861AF6`
 SSDEEP | `1536:8jZI91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJj8:YOOwNMSqoKXNvuZAFDqXzlzQQ`
+IMP | `91ACA85D178C3B3F6B7A2FAD4CCCBEE7`
+PESHA1 | `D4A32D5BE35B888D8ED1C43182AE8E33F0E92687`
+PE256 | `DD3E243BD7D25E6239F28D679FD000315F3E2A45B2063D358473F9C26CD47F61`
 
 ## Runtime Data
 
 ### Child Processes:
 explorer.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\DpiScaling.exe.mui | File
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -72,6 +55,12 @@ C:\Windows\SysWOW64\DpiScaling.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/fa1dd224289d1c39c49cb5dd2896fa19a3091ce650d6b665626d5d30b65dee9e/detection/
 
 ## File Similarity (ssdeep match)
 

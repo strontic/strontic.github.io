@@ -1,5 +1,6 @@
 ﻿---
 title: MoUsoCoreWorker.exe | MoUSO Core Worker Process
+excerpt: What is MoUsoCoreWorker.exe?
 ---
 
 # MoUsoCoreWorker.exe 
@@ -70,6 +71,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

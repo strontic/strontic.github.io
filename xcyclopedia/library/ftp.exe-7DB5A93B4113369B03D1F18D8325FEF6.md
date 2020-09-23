@@ -1,5 +1,6 @@
 ﻿---
 title: ftp.exe | File Transfer Program
+excerpt: What is ftp.exe?
 ---
 
 # ftp.exe 
@@ -17,14 +18,11 @@ SHA256 | `9728A3B5755A67A4EBE91A04730EFCC2CABEBACBB41FFCA75A71B42502E3D7D5`
 SHA384 | `3E6E1F226CDF6A347A0B4E6108A278CF75B25FD893D4FCD393DB9EEEEDA960FA922F283F66210791D939C159E2BE9C5F`
 SHA512 | `BB35CD7B526B0E819E8C83CF84769F2DD1EBF0C62094D4756881612B22892B3F964489DA64BF5CE8BD758F3B2AC8C06D035F048675BDB64DB98F437666A30444`
 SSDEEP | `1536:PDri+Kto7tsFr0VHYHtenn8hhuMhMMXi:PyEOFwhYHteOdS`
+IMP | `77FB959251723204D9A218FADEE0AF08`
+PESHA1 | `407FFEA54A73ACEF271DD5FD02B5EAFEEA6C411E`
+PE256 | `94848C77C242DC87990F7EDD4961549FE4E935E5671BBC0360120D7A903F383F`
 
 ## Runtime Data
-
-### Usage (stdout):
-```cmhg
-Unknown host help.
-ftp> 
-```
 
 ### Usage (stderr):
 ```cmhg
@@ -64,15 +62,9 @@ conhost.exe
 
 Path | Type
 -- | --
-(R-D)   C:\Windows\System32\en-US\ftp.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -102,6 +94,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/9728a3b5755a67a4ebe91a04730efcc2cabebacbb41ffca75a71b42502e3d7d5/detection/
 
 
 ## Possible Misuse

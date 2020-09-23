@@ -1,5 +1,6 @@
 ﻿---
 title: dfsfrsHost.exe | DfsFrs Host
+excerpt: What is dfsfrsHost.exe?
 ---
 
 # dfsfrsHost.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\dfsfrsHost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

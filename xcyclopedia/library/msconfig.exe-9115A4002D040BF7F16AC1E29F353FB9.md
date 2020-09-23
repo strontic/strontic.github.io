@@ -1,5 +1,6 @@
 ﻿---
 title: msconfig.exe | System Configuration Utility
+excerpt: What is msconfig.exe?
 ---
 
 # msconfig.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:sW38gnQSkI9lIV3kGFOI74CT0rCfUd0/HlGJRA1Q:XhpBFGFOIsCT5UdSGJRW`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

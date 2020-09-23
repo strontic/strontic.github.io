@@ -1,5 +1,6 @@
 ﻿---
 title: cmm.exe | Glary Utilities cmm
+excerpt: What is cmm.exe?
 ---
 
 # cmm.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:wACh0ZoK3GT5bVLN6PVMOzcai1JZs+oW2VA:vCRK2TBVJ6PVMOzU3ZyWx`
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: perfmon.exe | Resource and Performance Monitor
+excerpt: What is perfmon.exe?
 ---
 
 # perfmon.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:ypBjlcfRy/COZa6nYI7CGghtYIo9piswTogiqQKy349:P5y/NZ3YI7ihqIo9s37iT
 * Product Version: 10.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

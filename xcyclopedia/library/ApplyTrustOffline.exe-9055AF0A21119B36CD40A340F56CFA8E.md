@@ -1,5 +1,6 @@
 ﻿---
 title: ApplyTrustOffline.exe | "ApplyTrustOffline.PROGRAM"
+excerpt: What is ApplyTrustOffline.exe?
 ---
 
 # ApplyTrustOffline.exe 
@@ -64,6 +65,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1397
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

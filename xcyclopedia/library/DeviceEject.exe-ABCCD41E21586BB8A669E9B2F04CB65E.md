@@ -1,5 +1,6 @@
 ﻿---
 title: DeviceEject.exe | Eject Device
+excerpt: What is DeviceEject.exe?
 ---
 
 # DeviceEject.exe 
@@ -17,6 +18,9 @@ SHA256 | `14A69B5E05A8496EBCA246B356AB318A32DF3B563E4F375C6BBAE07E87B8DE51`
 SHA384 | `8605FE51AB2CC1AF442D743A4BDA674DD4D748D0F822C76313016EFF5A0039EAE0CA9B567F44E5A02C4B3A043A6BBD18`
 SHA512 | `80FA4154442E16A75338BD40FDCC3D39ED717153F7985A84D349BC117DCF359712DAFAEC2306ECC4CB1FA91BEE146F8664D53164AAE718D201F4CC7C0E61DD95`
 SSDEEP | `384:bBtZ6SEFik4imsCqHJEPH6cHsOz8q0np8EMUWD5ir0TYWywWpJY0ehA/9gnl0:bBtZ6VQQEPUS8VuEMX5/M7JYQ/9gnl0`
+IMP | `2E7F5CD72D55290932813BE557479C8F`
+PESHA1 | `857CF762DE5A06527EF04C58A2AE6F13D1D00677`
+PE256 | `FB024B32BD2F3FF25E5D76BB2EE2334FD5ADE2864978BFE09787DDA398117A46`
 
 ## Runtime Data
 
@@ -33,6 +37,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -52,6 +57,12 @@ C:\Windows\System32\USER32.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/14a69b5e05a8496ebca246b356ab318a32df3b563e4f375c6bbae07e87b8de51/detection/
 
 ## File Similarity (ssdeep match)
 

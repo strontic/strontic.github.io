@@ -1,5 +1,6 @@
 ﻿---
 title: SDPrepPos.exe | System Whitelist Preparation
+excerpt: What is SDPrepPos.exe?
 ---
 
 # SDPrepPos.exe 
@@ -79,6 +80,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

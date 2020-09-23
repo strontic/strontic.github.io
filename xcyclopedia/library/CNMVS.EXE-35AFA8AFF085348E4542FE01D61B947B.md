@@ -1,5 +1,6 @@
 ﻿---
 title: CNMVS.EXE | Canon IJ Printer Driver
+excerpt: What is CNMVS.EXE?
 ---
 
 # CNMVS.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `768:5nXHGQ9GT7X1Zhju7r8r+Rc9UQ5H9QwerF2BCMRAUHcZny8EjfvSSoGhdZ89V4LA:N
 * Product Version: 2.60.2.10
 * Language: English (United States)
 * Legal Copyright: Copyright CANON INC. 2000-2012 All Rights Reserved
+
 
 ## File Similarity (ssdeep match)
 

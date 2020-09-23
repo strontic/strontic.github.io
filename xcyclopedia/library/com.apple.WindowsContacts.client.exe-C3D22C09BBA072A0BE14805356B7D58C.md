@@ -1,5 +1,6 @@
 ﻿---
 title: com.apple.WindowsContacts.client.exe | com.apple.WindowsContacts.client.exe
+excerpt: What is com.apple.WindowsContacts.client.exe?
 ---
 
 # com.apple.WindowsContacts.client.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

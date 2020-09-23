@@ -1,5 +1,6 @@
 ﻿---
 title: sigverif.exe | File Signature Verification
+excerpt: What is sigverif.exe?
 ---
 
 # sigverif.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:sJMQqk+mP6CjsvghUWNpc0SQOrsItxzAZT3WuEs:sJr19dAvgpL3OrsIkB7`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: dccw.exe | Display Color Calibration
+excerpt: What is dccw.exe?
 ---
 
 # dccw.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:riijv+KGol6xUVQzLnXsAr+lzwM7++z7OwaJNev1a7S/3YfgT5t0M+279u5MagSP:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

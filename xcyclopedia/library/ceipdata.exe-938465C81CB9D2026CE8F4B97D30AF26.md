@@ -1,5 +1,6 @@
 ﻿---
 title: ceipdata.exe | Windows Server Customer Experience Improvement Program
+excerpt: What is ceipdata.exe?
 ---
 
 # ceipdata.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:ys5jWUkZMvqd5g70Ul79jKOfI2kQFOVk+I0p9Zp9XGEM1:yhMvq3g7lHeotkQoVk+
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

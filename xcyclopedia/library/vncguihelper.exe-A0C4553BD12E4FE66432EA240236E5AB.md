@@ -1,5 +1,6 @@
 ﻿---
 title: vncguihelper.exe | VNC Server
+excerpt: What is vncguihelper.exe?
 ---
 
 # vncguihelper.exe 
@@ -86,6 +87,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+
 
 
 

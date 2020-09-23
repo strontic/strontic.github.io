@@ -1,5 +1,6 @@
 ﻿---
 title: x86launcher.exe | x64launcher.exe
+excerpt: What is x86launcher.exe?
 ---
 
 # x86launcher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:puIdrER0u+GIIIIIIIhIIIIIIIIIIIIIIIUrHv:pHdom5rHv`
 * Product Version: 03.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2010 Valve Corporation
+
 
 ## File Similarity (ssdeep match)
 

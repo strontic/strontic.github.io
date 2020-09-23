@@ -1,5 +1,6 @@
 ﻿---
 title: plasrv.exe | Performance Logs and Alerts DCOM Server
+excerpt: What is plasrv.exe?
 ---
 
 # plasrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:8wYVXfPIMkezYBeHt6gLUW2QZM6ioW0LOTbeKlHUhDJfMsjEYEWT0XWwD:83VXfP7M4
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

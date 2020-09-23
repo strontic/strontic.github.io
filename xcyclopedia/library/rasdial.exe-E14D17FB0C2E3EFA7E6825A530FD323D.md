@@ -1,5 +1,6 @@
 ﻿---
 title: rasdial.exe | Remote Access Command Line Dial UI
+excerpt: What is rasdial.exe?
 ---
 
 # rasdial.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:JxCsL3FV8+TZ1haPg41lHzjk9VK5HMeTXzC/tTbajtcV9MDnkeeEW5VW7oLY:zDHt1
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

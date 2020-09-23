@@ -1,5 +1,6 @@
 ﻿---
 title: fc.exe | DOS 5 File Compare Utility
+excerpt: What is fc.exe?
 ---
 
 # fc.exe 
@@ -75,6 +76,7 @@ FC: Insufficient number of file specifications
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

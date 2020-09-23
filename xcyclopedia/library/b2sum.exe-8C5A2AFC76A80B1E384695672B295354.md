@@ -1,5 +1,6 @@
 ﻿---
 title: b2sum.exe | 
+excerpt: What is b2sum.exe?
 ---
 
 # b2sum.exe 
@@ -92,6 +93,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

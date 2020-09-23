@@ -1,5 +1,6 @@
 ﻿---
 title: WebCache.exe | Microsoft Web Cache
+excerpt: What is WebCache.exe?
 ---
 
 # WebCache.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\WebCache.exe |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

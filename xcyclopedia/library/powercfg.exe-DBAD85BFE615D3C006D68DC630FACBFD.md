@@ -1,5 +1,6 @@
 ﻿---
 title: powercfg.exe | Power Settings Command-Line Tool
+excerpt: What is powercfg.exe?
 ---
 
 # powercfg.exe 
@@ -121,6 +122,7 @@ Invalid Parameters -- try "/?" for help
 * Product Version: 10.0.14393.351
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

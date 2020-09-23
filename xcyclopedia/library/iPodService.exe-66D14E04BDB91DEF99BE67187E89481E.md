@@ -1,5 +1,6 @@
 ﻿---
 title: iPodService.exe | iPod Service
+excerpt: What is iPodService.exe?
 ---
 
 # iPodService.exe 
@@ -58,6 +59,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 12.10.8.5
 * Language: English (United States)
 * Legal Copyright:  2000-2020 Apple Inc. All rights reserved.
+
 
 
 

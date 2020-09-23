@@ -1,5 +1,6 @@
 ﻿---
 title: ROUTE.EXE | TCP/IP Route Command
+excerpt: What is ROUTE.EXE?
 ---
 
 # ROUTE.EXE 
@@ -121,6 +122,7 @@ C:\Windows\SysWOW64\ROUTE.EXE |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

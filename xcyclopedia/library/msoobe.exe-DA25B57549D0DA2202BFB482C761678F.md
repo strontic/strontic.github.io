@@ -1,5 +1,6 @@
 ﻿---
 title: msoobe.exe | MSOOBE EXE
+excerpt: What is msoobe.exe?
 ---
 
 # msoobe.exe 
@@ -17,6 +18,9 @@ SHA256 | `EE7013246BB3A3E88D8708C1CA498DFA1C4D23DA43DA9251AF02DE1DD2B95BDD`
 SHA384 | `CAF15778E9B91C737E8E1D06DDA343DA263ECAE08A729DCE7F1BA5A9DDB1ECC8E8BAB3EB50D67346899584F32AAA9BAF`
 SHA512 | `DC5259932B593D1B741D1270B58EACDB4DB08259C38046DF86129F0AEEFB7E8EBCCFCE20C3D16301F23E8BC85140B6C28692CB677A00C050E7FC8BB4604C6E64`
 SSDEEP | `3072:wiEY4ayePNAx9J4tlyxHjzxXQwUQzYYNjHeO6AXN+MdAVONVrmwbRZxl:wiEY4aXVu9J4SNmlVYVHeutdXNRZ`
+IMP | `5F659A3501BAC3F0F5C7A8E249FF6425`
+PESHA1 | `D2586C77FFC8209FAD10D7C7B1D363D078FB5B30`
+PE256 | `F61F76C60D21CC6CBA158CA8B1F352BD4A8072DDF067802DF380F652F66982F1`
 
 ## Runtime Data
 
@@ -25,42 +29,11 @@ SSDEEP | `3072:wiEY4ayePNAx9J4tlyxHjzxXQwUQzYYNjHeO6AXN+MdAVONVrmwbRZxl:wiEY4aXV
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\SYSTEM32\dbgcore.DLL |
-C:\Windows\system32\dbghelp.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\MSCTF.dll |
-C:\Windows\SYSTEM32\MsCtfMonitor.DLL |
-C:\Windows\SYSTEM32\MSUTB.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\netutils.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\system32\oobe\msoobe.exe |
-C:\Windows\SYSTEM32\PROPSYS.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
-C:\Windows\SYSTEM32\wdscore.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\windows.storage.dll |
-C:\Windows\SYSTEM32\WINSTA.dll |
-C:\Windows\SYSTEM32\wkscli.dll |
-C:\Windows\SYSTEM32\Wldp.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
 
 
 ## Signature
@@ -80,6 +53,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 1/65
+* VirusTotal Link: https://www.virustotal.com/gui/file/ee7013246bb3a3e88d8708c1ca498dfa1c4d23da43da9251af02de1dd2b95bdd/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tv_w32.exe | TeamViewer
+excerpt: What is tv_w32.exe?
 ---
 
 # tv_w32.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:/pmQDZ7w5rlxKBBAEXjE2RBqfQv1ekdbqbhLvAgaHHZZZmsszc6k3Z9SQfF:vAKB
 * Product Version: 15.8.3.0
 * Language: Language Neutral
 * Legal Copyright: TeamViewer Germany GmbH
+
 
 
 

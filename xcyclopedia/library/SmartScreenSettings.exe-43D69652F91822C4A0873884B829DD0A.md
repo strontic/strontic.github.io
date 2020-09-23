@@ -1,5 +1,6 @@
 ﻿---
 title: SmartScreenSettings.exe | SmartScreenSettings
+excerpt: What is SmartScreenSettings.exe?
 ---
 
 # SmartScreenSettings.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:H66EoTp0rcKl2MXtPofEeRNywSuMpCkQ/D+Vm/JYpW+j:pEKmrp2MXt6Vkw7YrQiV
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

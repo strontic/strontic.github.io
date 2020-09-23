@@ -1,5 +1,6 @@
 ﻿---
 title: GameBarPresenceWriter.exe | Gamebar Presence Writer
+excerpt: What is GameBarPresenceWriter.exe?
 ---
 
 # GameBarPresenceWriter.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:dVtzn/vILXmAIgf4oF6jd77aJPp6hXAAEnCwv2C1iGwClepP3ry8q8d0N+:dL4L5I
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

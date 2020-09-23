@@ -1,5 +1,6 @@
 ﻿---
 title: msra.exe | Windows Remote Assistance
+excerpt: What is msra.exe?
 ---
 
 # msra.exe 
@@ -40,6 +41,7 @@ msra.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

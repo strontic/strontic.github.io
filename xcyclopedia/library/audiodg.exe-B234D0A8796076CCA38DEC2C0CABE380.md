@@ -1,5 +1,6 @@
 ﻿---
 title: audiodg.exe | Windows Audio Device Graph Isolation 
+excerpt: What is audiodg.exe?
 ---
 
 # audiodg.exe 
@@ -58,6 +59,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\audiodg.exe](audiodg.exe-FC880CF7F34B382A1CA63340E68AC69E.md) | 58
 
 ## Possible Misuse
 

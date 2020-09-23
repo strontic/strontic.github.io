@@ -1,5 +1,6 @@
 ﻿---
 title: setx.exe | Setx - Sets environment variables
+excerpt: What is setx.exe?
 ---
 
 # setx.exe 
@@ -165,6 +166,7 @@ C:\Windows\system32\setx.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

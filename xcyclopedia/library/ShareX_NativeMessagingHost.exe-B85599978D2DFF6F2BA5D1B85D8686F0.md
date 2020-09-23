@@ -1,5 +1,6 @@
 ﻿---
 title: ShareX_NativeMessagingHost.exe | ShareX NativeMessagingHost
+excerpt: What is ShareX_NativeMessagingHost.exe?
 ---
 
 # ShareX_NativeMessagingHost.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 13.1.0
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) 2007-2020 ShareX Team
+
 
 
 

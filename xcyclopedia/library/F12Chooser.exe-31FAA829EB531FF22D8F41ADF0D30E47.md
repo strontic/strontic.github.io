@@ -1,5 +1,6 @@
 ﻿---
 title: F12Chooser.exe | F12 Attach Chooser executable
+excerpt: What is F12Chooser.exe?
 ---
 
 # F12Chooser.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:GJ9c/KihPJRVRSNvacp2WaFKPPFgUAv3bMezki2fk:GE/dtSNvacp2Wdgv3bMeOk`
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

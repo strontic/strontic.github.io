@@ -1,5 +1,6 @@
 ﻿---
 title: plasrv.exe | Performance Logs and Alerts DCOM Server
+excerpt: What is plasrv.exe?
 ---
 
 # plasrv.exe 
@@ -17,6 +18,9 @@ SHA256 | `2D1C235DDC76D427C48C39C22E6DC50141F09734270EAF01778713F987E99CC4`
 SHA384 | `292A1C7F2736C5F2CD22FFF6B04ED1DD9EC06D1198C0CF2C778E410C1414288A654CC12488A2B76FB5C2DB39751167B8`
 SHA512 | `B34F659A85F9621FE75D087B8A9D502ECD600AD182863B134A071DC7877900CFBAD6A2C17FEC7DAF0B25891E9F66EDB8596B74860F2D745DC1046A72ACC71399`
 SSDEEP | `192:F4tGfanJwH7XLc8B+Ps9nCuYgLrgdRFn5OW+XW:F4tLJwbXYq+U1YgPgNgW+XW`
+IMP | `71297308FDB1BE310422F78B8E23F73C`
+PESHA1 | `98074B41AAD64CC5B31633D886377CD5E8717B7D`
+PE256 | `AF4E7D29CD9FF88DAE11F1D17E29ACCDD872D502E36809419199A5F03893D736`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `192:F4tGfanJwH7XLc8B+Ps9nCuYgLrgdRFn5OW+XW:F4tLJwbXYq+U1YgPgNgW+XW`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -49,8 +48,8 @@ C:\Windows\system32\plasrv.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -63,6 +62,12 @@ C:\Windows\system32\plasrv.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/2d1c235ddc76d427c48c39c22e6dc50141f09734270eaf01778713f987e99cc4/detection/
 
 
 ## Possible Misuse

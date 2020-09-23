@@ -1,5 +1,6 @@
 ﻿---
 title: dasHost.exe | Device Association Framework Provider Host
+excerpt: What is dasHost.exe?
 ---
 
 # dasHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:52WqC3B2KcVR5SjPAKnwHqZRM6crqThEjCn8dXqe6cckUs:52ZV5Sj4KnwKft2Cn8
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

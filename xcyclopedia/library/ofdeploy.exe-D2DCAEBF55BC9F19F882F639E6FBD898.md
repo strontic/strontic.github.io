@@ -1,5 +1,6 @@
 ﻿---
 title: ofdeploy.exe | Office Deployment
+excerpt: What is ofdeploy.exe?
 ---
 
 # ofdeploy.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:R9vlv2eyoYqU0oVsIziCcgy3+sFssssei25U9Wj90hK0VB+JeaWy:zlETVsIzlcdL
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

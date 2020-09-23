@@ -1,5 +1,6 @@
 ﻿---
 title: LbfoAdmin.exe | NIC Teaming
+excerpt: What is LbfoAdmin.exe?
 ---
 
 # LbfoAdmin.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:vD6VajjPPBmhUYXH1VydQShStyJPnqbye86opC3M/EgmnryqPbvAWcg4zUWJG8Tc:
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

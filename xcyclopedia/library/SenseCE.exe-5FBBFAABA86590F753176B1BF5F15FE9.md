@@ -1,5 +1,6 @@
 ﻿---
 title: SenseCE.exe | Windows Defender Advanced Threat Protection Sense CE module
+excerpt: What is SenseCE.exe?
 ---
 
 # SenseCE.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.7430.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

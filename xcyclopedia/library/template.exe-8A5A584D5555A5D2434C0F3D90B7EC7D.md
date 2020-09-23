@@ -1,5 +1,6 @@
 ﻿---
 title: template.exe | 
+excerpt: What is template.exe?
 ---
 
 # template.exe 
@@ -70,6 +71,7 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: 
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `template.exe` being misused. While `template.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
@@ -93,14 +95,14 @@ Source | Source File | Example | License
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \| Office Template Macros [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \| [Path Interception by Unquoted Path](../../T1574.009/T1574.009.md) \| Hijack Execution Flow [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \|  \| Web Service [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-matrix.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md) | \|  \|  \|  \|  \| Template Injection [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) \|  \|  \|  \|  \|  \|  \|  \| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [contributing.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/contributing.md) | > Don't have Ruby? Use the Atomic Test template [here]({{ site.github.repository_url }}/blob/master/atomic_red_team/atomic_test_template.yaml) as a starting point for your new test. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_moonlightmaze.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_moonlightmaze.yar) | 	$a3="template string = \|%s\|"   ascii wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) |       $x2 = "C:\\Users\\admin\\Documents\\visual studio 2015\\Projects\\Export\\TDTESS_ShortOne\\WinService Template\\" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) |       $s1 = "\\WinService Template\\obj\\x64\\x64\\winlogin" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cobalt_gang_pdf.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cobalt_gang_pdf.yar) |       description = "Find documents saved from the same potential Cobalt Gang PDF template" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) |       $s07 = "template.new({'BLOCK'='print readpipe(" ascii /* TrustedSec templae */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) |       $s09 = "template.new({'BLOCK'=" /* PZI exploit URL decoded form */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) |       $s10 = "template.new({'BLOCK'%3d" /* PZI exploit URl encoded form */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) |       $s12 = "iKAT Exe Template" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_moonlightmaze.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_moonlightmaze.yar) | $a3="template string = \|%s\|"   ascii wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) | $x2 = "C:\\Users\\admin\\Documents\\visual studio 2015\\Projects\\Export\\TDTESS_ShortOne\\WinService Template\\" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_wilted_tulip.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar) | $s1 = "\\WinService Template\\obj\\x64\\x64\\winlogin" ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cobalt_gang_pdf.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cobalt_gang_pdf.yar) | description = "Find documents saved from the same potential Cobalt Gang PDF template" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) | $s07 = "template.new({'BLOCK'='print readpipe(" ascii /* TrustedSec templae */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) | $s09 = "template.new({'BLOCK'=" /* PZI exploit URL decoded form */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) | $s10 = "template.new({'BLOCK'%3d" /* PZI exploit URl encoded form */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | $s12 = "iKAT Exe Template" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

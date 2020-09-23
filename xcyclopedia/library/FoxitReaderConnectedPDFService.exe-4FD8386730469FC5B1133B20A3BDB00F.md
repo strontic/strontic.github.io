@@ -1,5 +1,6 @@
 ﻿---
 title: FoxitReaderConnectedPDFService.exe | Foxit Reader ConnectedPDF Windows Service.
+excerpt: What is FoxitReaderConnectedPDFService.exe?
 ---
 
 # FoxitReaderConnectedPDFService.exe 
@@ -70,6 +71,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.1.35811
 * Language: English (United States)
 * Legal Copyright: Copyright  2016-2020 Foxit Software Inc. All Rights Reserved.
+
 
 
 

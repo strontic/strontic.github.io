@@ -1,5 +1,6 @@
 ﻿---
 title: getopt.exe | 
+excerpt: What is getopt.exe?
 ---
 
 # getopt.exe 
@@ -74,6 +75,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

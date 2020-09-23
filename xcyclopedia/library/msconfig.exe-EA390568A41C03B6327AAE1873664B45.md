@@ -1,5 +1,6 @@
 ﻿---
 title: msconfig.exe | MSCONFIG MFC APPLICATION
+excerpt: What is msconfig.exe?
 ---
 
 # msconfig.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:GixBrgOYNvtt4DIIsYhCx8oMFir9fUd0/HlGJRA1:GirgObIIsYYSFkUdSGJRW`
 * Product Version: 1, 0, 0, 1
 * Language: English (United States)
 * Legal Copyright: COPYRIGHT (c) Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

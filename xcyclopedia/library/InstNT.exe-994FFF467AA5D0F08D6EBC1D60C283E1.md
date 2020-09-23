@@ -1,5 +1,6 @@
 ﻿---
 title: InstNT.exe | TouchPad Driver Installation Application
+excerpt: What is InstNT.exe?
 ---
 
 # InstNT.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:TmT7Q8tsOKb8zEwoi9M3zXTkdagTVneYZQi8HIvWaO8TF:CT7Q8KOKYowoi+jX5w7
 * Product Version: 19.3.31.31 16Aug17
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2017
+
 
 
 

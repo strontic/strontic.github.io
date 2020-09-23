@@ -1,5 +1,6 @@
 ﻿---
 title: RegBootDefrag.exe | RegBootDefrag
+excerpt: What is RegBootDefrag.exe?
 ---
 
 # RegBootDefrag.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:i+VxNxH8kZofpP6drxyUdMeKgrOxV1DGaUf2hd:jokQUieCV/Uf6`
 * Product Version: 5, 0, 0, 4
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2014 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

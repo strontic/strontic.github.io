@@ -1,5 +1,6 @@
 ﻿---
 title: file-html-table.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is file-html-table.exe?
 ---
 
 # file-html-table.exe 
@@ -57,6 +58,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 ## File Similarity (ssdeep match)
 

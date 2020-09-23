@@ -1,5 +1,6 @@
 ﻿---
 title: DPInst32.exe | Driver Package Installer
+excerpt: What is DPInst32.exe?
 ---
 
 # DPInst32.exe 
@@ -71,6 +72,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

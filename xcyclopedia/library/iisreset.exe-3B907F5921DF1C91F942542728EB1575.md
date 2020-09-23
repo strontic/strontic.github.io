@@ -1,5 +1,6 @@
 ﻿---
 title: iisreset.exe | IIS control command line utility
+excerpt: What is iisreset.exe?
 ---
 
 # iisreset.exe 
@@ -88,6 +89,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

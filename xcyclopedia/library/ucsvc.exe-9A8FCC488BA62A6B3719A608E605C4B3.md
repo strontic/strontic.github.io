@@ -1,5 +1,6 @@
 ﻿---
 title: ucsvc.exe | Boot File Servicing Utility
+excerpt: What is ucsvc.exe?
 ---
 
 # ucsvc.exe 
@@ -55,6 +56,7 @@ C:\Windows\system32\ucsvc.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: FsIso.exe | Secure Frame Server Helper
+excerpt: What is FsIso.exe?
 ---
 
 # FsIso.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:/PX7mv94+Ie9AZhaDtAAbeNzHHO2LwgYTcOsr3u9DxNJ8dr+WEPaR:Hr+4+IeohaD
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

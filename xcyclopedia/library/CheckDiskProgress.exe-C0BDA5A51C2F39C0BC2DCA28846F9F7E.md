@@ -1,5 +1,6 @@
 ﻿---
 title: CheckDiskProgress.exe | Check Disk Progress
+excerpt: What is CheckDiskProgress.exe?
 ---
 
 # CheckDiskProgress.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:8dbX0ctdUXZU9qZU93IOnh1prrdMeKgg5xV1DGp/9vUf2hU:8rHtaXpaIOnh1pXieo
 * Product Version: 5, 0, 0, 6
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

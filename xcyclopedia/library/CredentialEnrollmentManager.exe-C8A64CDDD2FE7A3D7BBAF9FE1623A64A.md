@@ -1,5 +1,6 @@
 ﻿---
 title: CredentialEnrollmentManager.exe | Credential Enrollment Manager
+excerpt: What is CredentialEnrollmentManager.exe?
 ---
 
 # CredentialEnrollmentManager.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:AWj7vNrA+SlceAQQKL7MwALywkpn/XVdcY9ShQrHSMiPz:XFrA+/LKL5ALywa9db8
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

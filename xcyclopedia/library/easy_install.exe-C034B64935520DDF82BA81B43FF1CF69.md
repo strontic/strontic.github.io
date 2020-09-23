@@ -1,5 +1,6 @@
 ﻿---
 title: easy_install.exe | 
+excerpt: What is easy_install.exe?
 ---
 
 # easy_install.exe 
@@ -89,6 +90,7 @@ error: Couldn't find a setup script in C:\Users\user\help
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

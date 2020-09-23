@@ -1,5 +1,6 @@
 ﻿---
 title: wextract.exe | Win32 Cabinet Self-Extractor                                           
+excerpt: What is wextract.exe?
 ---
 
 # wextract.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:DwdK6g8IT9x0pWp1icKAArDZz4N9GhbkUNEk95V:IK6g8ITs8p0yN90vE`
 * Product Version: 11.00.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

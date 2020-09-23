@@ -1,5 +1,6 @@
 ﻿---
 title: ddodiag.exe | DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
+excerpt: What is ddodiag.exe?
 ---
 
 # ddodiag.exe 
@@ -17,6 +18,9 @@ SHA256 | `1A40075AE8330D3B2AB1C567B4FD183CFDDA20794015DAB8503A406B58DF9D44`
 SHA384 | `52BA63988B760F0F70AD7CF3CC2A8D6BCCA0198123A32623C55F038EA1499B3553A527C52CC34B49CFEA329BD99E733E`
 SHA512 | `D022F018906C896CBDE62FECABE6EDDE07B9CC4C01982FC2EB8ABFAC3289201189C9E3B3086B85F7560021E8CF410E05893AFB377D537BA352B5BECA1197015E`
 SSDEEP | `768:Jm6fhsXKZkrWcwMa4uZlqivwTuhLuxhIO+5A:Jm6fhsXKZkrWcwMa4uZlqiw2uxh25A`
+IMP | `C44782044D722D4027BBE52D755A88BB`
+PESHA1 | `6B44FD647760660711A71868E50D9B827477D9E1`
+PE256 | `C178B15D8FDFF27E23CD5299216DEA7A2ADDB4259BC023EDD5A8428BE9C0AF48`
 
 ## Runtime Data
 
@@ -48,6 +52,12 @@ C:\Windows\SysWOW64\ddodiag.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/1a40075ae8330d3b2ab1c567b4fd183cfdda20794015dab8503a406b58df9d44/detection/
 
 ## File Similarity (ssdeep match)
 

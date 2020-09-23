@@ -1,5 +1,6 @@
 ﻿---
 title: IEChooser.exe | F12 Attach Chooser executable
+excerpt: What is IEChooser.exe?
 ---
 
 # IEChooser.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:cgdwMnMMGqjMJiliykj0H9gjhfgD0h6Zcohq2tLbCL:cgdwMMXqjMsliykj0dQ9yT
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

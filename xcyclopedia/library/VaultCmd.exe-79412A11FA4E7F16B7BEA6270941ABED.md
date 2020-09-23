@@ -1,5 +1,6 @@
 ﻿---
 title: VaultCmd.exe | Vault cmdline Program
+excerpt: What is VaultCmd.exe?
 ---
 
 # VaultCmd.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:Ani4neX2foNUVScJ46Mv/gXGcWcYQhQLAwAvDj7LSTARyyoImeLrqJFFBVWFFW:Aze
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

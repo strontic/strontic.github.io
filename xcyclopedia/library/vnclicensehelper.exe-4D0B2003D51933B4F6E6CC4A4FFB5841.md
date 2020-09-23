@@ -1,5 +1,6 @@
 ﻿---
 title: vnclicensehelper.exe | VNC License Helper
+excerpt: What is vnclicensehelper.exe?
 ---
 
 # vnclicensehelper.exe 
@@ -73,6 +74,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: perfmon.exe | Resource and Performance Monitor
+excerpt: What is perfmon.exe?
 ---
 
 # perfmon.exe 
@@ -21,6 +22,9 @@ SHA256 | `3FA716B87491BDC9A01EC636F0010A028552D224EEC64334F7669206C69CFFF2`
 SHA384 | `F362E0489C49CF03F64FAE91156C18D219DF29374A65FC929C27D90816EC8CE4C91B45DA01C7758DB6583441D0EF7E4E`
 SHA512 | `822F9150CFB661897B61D97F15EE2B3B20D6100A5B3976E401176244C1AB63978ECCCEBE313DDBCA99E8F8E66A158026106340BEBA821060C38FA62966977AA1`
 SSDEEP | `3072:gHuEgHwz/iUZPGghtYIo9piswTogiqQKy349e:gYHcKUZrhqIo9s37iTK24I`
+IMP | `9E1163D7390EBC6170B5E1D9EE0421D0`
+PESHA1 | `A29B197DFA7D6F3CE7BACC8A7D60A90859552483`
+PE256 | `0F1BD43D7E561CFFAFD3A41F9083D4EB3F9EE4B8647B20EDBA4D10A9D641F3DD`
 
 ## Runtime Data
 
@@ -43,19 +47,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\perfmon.exe.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -86,6 +85,12 @@ C:\Windows\SysWOW64\perfmon.exe |
 * Product Version: 10.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/3fa716b87491bdc9a01ec636f0010a028552d224eec64334f7669206c69cfff2/detection/
 
 ## File Similarity (ssdeep match)
 

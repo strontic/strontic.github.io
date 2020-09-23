@@ -1,5 +1,6 @@
 ﻿---
 title: verifier.exe | Driver Verifier Manager
+excerpt: What is verifier.exe?
 ---
 
 # verifier.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:BYxx+Um00z9is4URWcDjR8sWy3+DiedbsGS45ZLFTr7Aw/:XgS2sWy+sGSMLFj`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

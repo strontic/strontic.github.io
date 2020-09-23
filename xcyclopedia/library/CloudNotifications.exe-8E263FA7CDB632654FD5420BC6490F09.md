@@ -1,5 +1,6 @@
 ﻿---
 title: CloudNotifications.exe | Cloud notifications
+excerpt: What is CloudNotifications.exe?
 ---
 
 # CloudNotifications.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:jb+YR3wgD0Nuoh44/cJ6x0ZOOLAqiKTy+YMXPhJ:jb++sNrhnKO+ZX`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

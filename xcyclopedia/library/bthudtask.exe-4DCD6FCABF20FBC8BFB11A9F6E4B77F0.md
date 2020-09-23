@@ -1,5 +1,6 @@
 ﻿---
 title: bthudtask.exe | Bluetooth Uninstall Device Task
+excerpt: What is bthudtask.exe?
 ---
 
 # bthudtask.exe 
@@ -17,6 +18,9 @@ SHA256 | `CF5AE95C9FDAFE5F0CC9D7010412E84502FE66AD60F57DFDF68735B9315FF444`
 SHA384 | `A861FDC89E162AF7AA8ADA1DF84640316F5F2719DB26B1C092329E4A6F8147B969FBFFE3B0F1F433EF273A3462E6E124`
 SHA512 | `B4293A438BA9D41E446BFB1BCA3A4DF4AB009882B7DF2EDA61607CFEF77A397F6AE3C3532DC1ADDAA9553A0BC9F3E756D3AC377A69CF1AE537638F618E666EA3`
 SSDEEP | `384:9xPCdanLUfz+Kr+fUOzDfINIDaqJkb9J3WWLHWpKJajXDO1/EagS817l:rjLUL+KAfosa59J7kzDO`
+IMP | `9ABEB2B37A47478C60D77A46A439A38B`
+PESHA1 | `1E7DFC093D378E382CAC47BACEFE666F49F180C2`
+PE256 | `314B2C477633AC026E09C025EFA91B77190959F2874939E8E67F1ED144886D44`
 
 ## Runtime Data
 
@@ -33,8 +37,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +51,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/cf5ae95c9fdafe5f0cc9d7010412e84502fe66ad60f57dfdf68735b9315ff444/detection/
 
 ## File Similarity (ssdeep match)
 

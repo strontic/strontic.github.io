@@ -1,5 +1,6 @@
 ﻿---
 title: wiawow64.exe | Thunking WIA APIS from 32 to 64 Process
+excerpt: What is wiawow64.exe?
 ---
 
 # wiawow64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:q/WQ8x1W1ZpRxZ40XbNaWL3e/F5vC2VSxmthdICw:pI380YWLO/F1C2V+mw`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

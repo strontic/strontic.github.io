@@ -1,5 +1,6 @@
 ﻿---
 title: LockScreenContentServer.exe | LockScreenContent Server
+excerpt: What is LockScreenContentServer.exe?
 ---
 
 # LockScreenContentServer.exe 
@@ -17,6 +18,9 @@ SHA256 | `217A41AB21095D289867AD177DE71241A970EE8FA7F569C4751F6190F8FDAFFF`
 SHA384 | `7D86A0D2AB1F99AF65504BADFAC153F9A5DB28CCCC4C9423158411322DF2F171405B46C2C8730606EA707DD17F6149C4`
 SHA512 | `8585A2B7C4C2F6507461B62FB406B6320F28B50F59B1B629E7EB4259301AC8CEAFC3082D470C8785208B2C7F4094CC1F6661A222A65A58B09D8D60579CD203B9`
 SSDEEP | `768:i9vZAVIGUb4KO1K/3Hujsf/XJUQ4oZmW6CHI1Pti:gvIIlUKFfP4oZmW6CwPQ`
+IMP | `E441628266F72396B90DBB4176D0A3BD`
+PESHA1 | `CB1861A18D91FA95468A235D1C30CA44DDC8E194`
+PE256 | `F8A2C9A70B0CA0590B6B8E78DA1B23ECCE3A4C4EBEE035BA217F03E0BE968E28`
 
 ## Runtime Data
 
@@ -24,32 +28,20 @@ SSDEEP | `768:i9vZAVIGUb4KO1K/3Hujsf/XJUQ4oZmW6CHI1Pti:gvIIlUKFfP4oZmW6CwPQ`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\system32\LockScreenContentServer.exe |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
@@ -57,8 +49,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -71,6 +63,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/217a41ab21095d289867ad177de71241a970ee8fa7f569c4751f6190f8fdafff/detection/
 
 
 

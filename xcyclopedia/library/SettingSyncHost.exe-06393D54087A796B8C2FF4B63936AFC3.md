@@ -1,5 +1,6 @@
 ﻿---
 title: SettingSyncHost.exe | Host Process for Setting Synchronization
+excerpt: What is SettingSyncHost.exe?
 ---
 
 # SettingSyncHost.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\SettingSyncHost.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: AuditShD.exe | Audit Mode Desktop Switch Utility
+excerpt: What is AuditShD.exe?
 ---
 
 # AuditShD.exe 
@@ -17,6 +18,9 @@ SHA256 | `86395007A28868B010C38ED2654A12583B8E2EBF86D75D22BB1169CB3E9E9F23`
 SHA384 | `0FD91B5135D6A2C448AA73D539C197A2486DE4EDDD56F7107F3ADC021828761B79A45E05A71376F066CD69A32171170E`
 SHA512 | `EE13CBC13FABE4D0960C2F585493BA32017E02AE5FCF8FD143EABC9969FA14D88D5CAD802F1E208F35599940F0B56C2CCD3D7F7723EBD67A760CA2A8C744577E`
 SSDEEP | `384:GsrcYx0TOoDsdWhE/Ah2Qf2i+I5z6ecQXUTB110dBIRlvlEGTOr3fpgHuWGfErnd:lrH0TOoD4WhWaR+Q0z1008Gy8IX484e`
+IMP | `3E42D3E81F8B4EE361987C0C80F4A041`
+PESHA1 | `07060D408B782DED7BB23046E5E57B4450F1187D`
+PE256 | `1394E8C46B8FFECAA550D08917FA9BF11A7A14908D1B77D0CF3BDC4B1D885E76`
 
 ## Runtime Data
 
@@ -33,8 +37,8 @@ C:\Windows\system32\oobe\AuditShD.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +51,12 @@ C:\Windows\system32\oobe\AuditShD.exe |
 * Product Version: 10.0.19041.450
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/86395007a28868b010c38ed2654a12583b8e2ebf86d75d22bb1169cb3e9e9f23/detection/
 
 ## File Similarity (ssdeep match)
 

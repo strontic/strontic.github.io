@@ -1,5 +1,6 @@
 ﻿---
 title: igfxSDK.exe | 
+excerpt: What is igfxSDK.exe?
 ---
 
 # igfxSDK.exe 
@@ -34,6 +35,7 @@ SSDEEP | `12288:sk0FHwQB8NY1rAgnpETLpR2VnvQPliga8ZBX/Fd1tl5DBoBBXYcbf6vQ:7fpR1P0
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

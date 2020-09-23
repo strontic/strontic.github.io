@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPDCT.EXE | Microsoft IME 2012
+excerpt: What is IMJPDCT.EXE?
 ---
 
 # IMJPDCT.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `12288:Qeq+WbflW3Y7A9dhbREBLBaW2nTxhPmXdAp8q52:QlVCQ2hPmXdAp8q`
 * Product Version: 15.0.9600.18514
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

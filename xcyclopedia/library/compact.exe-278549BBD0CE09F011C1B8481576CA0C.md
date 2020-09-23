@@ -1,5 +1,6 @@
 ﻿---
 title: compact.exe | File Compress Utility
+excerpt: What is compact.exe?
 ---
 
 # compact.exe 
@@ -17,6 +18,9 @@ SHA256 | `6245640E75E1E55AF426F8D9A779B8478F8034479AD5CA7D49E5BEBEB823B76A`
 SHA384 | `4DD1DCDD1E49D0D078A0908383C1AEBA29E723C5844103E9E7443D24751357BDB1A0A2D3E4D2AF0A4FBECF10B55DB9DB`
 SHA512 | `AB07478DDF1A38B1E39D1EA31FCB47CB4B3B24D68B2091109D303216F8490CAE94EE9BD468B53B6B15CBBE50E513160FDED583BABFEC575B10A8F39A4E34C26B`
 SSDEEP | `768:pq9T3sJh6bx2X1YMDgvILb107Y7fKHvApyMuuoJQcTlpHpoaqEzsztq5uIVTZ:whXt0YcgvIP14t493oJQcTlpHp1qzzts`
+IMP | `928C9114035A0164EB94B966F4A358C8`
+PESHA1 | `E914796C6714E0B6BA3024A07635E4A33BFD4363`
+PE256 | `2EB1147B3CAF5FA01B4F1D76DA9420CAA6949B4B1E09D46A3981F63634996CA2`
 
 ## Runtime Data
 
@@ -83,8 +87,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -97,6 +101,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/6245640e75e1e55af426f8d9a779b8478f8034479ad5ca7d49e5bebeb823b76a/detection/
 
 ## File Similarity (ssdeep match)
 

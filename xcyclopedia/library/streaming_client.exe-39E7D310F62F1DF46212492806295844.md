@@ -1,5 +1,6 @@
 ﻿---
 title: streaming_client.exe | streaming_client.exe
+excerpt: What is streaming_client.exe?
 ---
 
 # streaming_client.exe 
@@ -44,6 +45,7 @@ Usage: C:\Program Files (x86)\Steam\streaming_client.exe [--windowed] [--novsync
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2013 Valve Corporation
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: fontview.exe | Windows Font Viewer
+excerpt: What is fontview.exe?
 ---
 
 # fontview.exe 
@@ -71,6 +72,7 @@ C:\Windows\SysWOW64\fontview.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

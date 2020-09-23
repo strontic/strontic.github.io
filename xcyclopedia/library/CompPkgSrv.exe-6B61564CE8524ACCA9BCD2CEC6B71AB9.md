@@ -1,5 +1,6 @@
 ﻿---
 title: CompPkgSrv.exe | Component Package Support Server
+excerpt: What is CompPkgSrv.exe?
 ---
 
 # CompPkgSrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:nhhrHBdZvT+lElAV8IXo3bdzRIBW+QEJvlf9dkiu3Dku4kox8fub5Lif:nrB7TeV8
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

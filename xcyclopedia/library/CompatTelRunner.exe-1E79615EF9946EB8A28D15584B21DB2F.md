@@ -1,5 +1,6 @@
 ﻿---
 title: CompatTelRunner.exe | Microsoft Compatibility Telemetry
+excerpt: What is CompatTelRunner.exe?
 ---
 
 # CompatTelRunner.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:v17mRucu5IfDAZp+dBYE6lDgQr9hbwwBr5cxQ+VBD4nax79UkJvmRItLJ2wkLkhM:
 * Product Version: 10.0.18362.1035
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: evntwin.exe | Event Translator Config Tool
+excerpt: What is evntwin.exe?
 ---
 
 # evntwin.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:tNhMuTFdRmgvxXH36TPqvTy/RsL7kHkMU/ta24Kk4kKcOtrvqevk7QIlz/tvusQm:
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

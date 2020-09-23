@@ -1,5 +1,6 @@
 ﻿---
 title: b2sum.exe | 
+excerpt: What is b2sum.exe?
 ---
 
 # b2sum.exe 
@@ -80,6 +81,7 @@ or available locally via: info '(coreutils) b2sum invocation'
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

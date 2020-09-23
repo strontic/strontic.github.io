@@ -1,5 +1,6 @@
 ﻿---
 title: winrs.exe | winrs
+excerpt: What is winrs.exe?
 ---
 
 # winrs.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:Y6Um14CKaulw/AxwA8BbVu0qpZpKr9xPANwu/6tTn:YpHCKa0bwA8Bk9bKvmwu/6tb
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

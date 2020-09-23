@@ -1,5 +1,6 @@
 ﻿---
 title: SetACL_x86.exe | SetACL 2
+excerpt: What is SetACL_x86.exe?
 ---
 
 # SetACL_x86.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2, 1, 3, 0
 * Language: English (United States)
 * Legal Copyright: Copyright  Helge Klein
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: cttunesvr.exe | ClearType Tuner
+excerpt: What is cttunesvr.exe?
 ---
 
 # cttunesvr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:osb3lkNePOWzUfWatpsuDAV0QHOCcgJnXPHq5yiuabJN+3HTD:R5ODWaIu8V0QHB1n
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

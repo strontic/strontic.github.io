@@ -1,5 +1,6 @@
 ﻿---
 title: newdev.exe | Device driver software installation
+excerpt: What is newdev.exe?
 ---
 
 # newdev.exe 
@@ -17,6 +18,9 @@ SHA256 | `CE9B35CE076CA17F312A324058925AECF9E389C61F27985A161DABD7B016CF01`
 SHA384 | `2B3E13AF032433110F4F5F2ECF8CD42508F4AAB02A9E77E779E658A1FA3CDE1BFBFADBA5461CF9D057855838C6E78AF2`
 SHA512 | `C21D2F84FFB6146267CED32C2BF40DB56A28AB3B2CE78258A55AA3B9FC7A50332ED8ECC42114690042B2F7F6917C819B1CD666DC9DCC5CFC5BEFC5EA03C80F6C`
 SSDEEP | `768:1iFs97OzKEH02zaJQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxMF:cFsBOzR02zaJfFrGUUUUUUUUUUUU3+F`
+IMP | `B4DC1C33BAF719825A5B35608B2A72A8`
+PESHA1 | `A3838686F51BBEB93DEE1D82715AFFA30DC264AA`
+PE256 | `41FE0094E2D33ABA16F793546AABB1F74B35C205F1B5430CF89DBCD10233626C`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\newdev.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\newdev.exe |
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/ce9b35ce076ca17f312a324058925aecf9e389c61f27985a161dabd7b016cf01/detection/
 
 ## File Similarity (ssdeep match)
 

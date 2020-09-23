@@ -1,5 +1,6 @@
 ﻿---
 title: setupugc.exe | Setup Unattend Generic Command Processor
+excerpt: What is setupugc.exe?
 ---
 
 # setupugc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:DmTVorNMzCKVItmPE8eVAEWePRlFf4WbihsPNz+ifYQFh4CRT7:iBorNVwPEnA4pY
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

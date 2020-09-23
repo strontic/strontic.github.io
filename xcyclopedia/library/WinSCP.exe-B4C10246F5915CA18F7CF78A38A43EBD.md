@@ -1,5 +1,6 @@
 ﻿---
 title: WinSCP.exe | WinSCP- SFTP, FTP, WebDAV, S3 and SCP client
+excerpt: What is WinSCP.exe?
 ---
 
 # WinSCP.exe 
@@ -83,6 +84,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.17.7.0
 * Language: English (United States)
 * Legal Copyright: (c) 2000-2020 Martin Prikryl
+
 
 
 ## Possible Misuse

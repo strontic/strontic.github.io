@@ -1,5 +1,6 @@
 ﻿---
 title: mobsync.exe | Microsoft Sync Center
+excerpt: What is mobsync.exe?
 ---
 
 # mobsync.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:C1m08k96mow2rZJqUPGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fK:aSfwmxPGPo9St8W
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

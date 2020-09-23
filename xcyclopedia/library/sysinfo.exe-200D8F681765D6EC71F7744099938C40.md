@@ -1,5 +1,6 @@
 ﻿---
 title: sysinfo.exe | Glary Utilities SystemInformation
+excerpt: What is sysinfo.exe?
 ---
 
 # sysinfo.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 
 ## Possible Misuse

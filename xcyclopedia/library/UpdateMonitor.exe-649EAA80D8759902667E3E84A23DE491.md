@@ -1,5 +1,6 @@
 ﻿---
 title: UpdateMonitor.exe | paint.net Update Monitor
+excerpt: What is UpdateMonitor.exe?
 ---
 
 # UpdateMonitor.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 4.213.7521.38873
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020 dotPDN LLC, Rick Brewster, and contributors. All Rights Reserved.
+
 
 ## File Similarity (ssdeep match)
 

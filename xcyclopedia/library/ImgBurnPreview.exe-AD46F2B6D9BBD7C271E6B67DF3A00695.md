@@ -1,5 +1,6 @@
 ﻿---
 title: ImgBurnPreview.exe | ImgBurnPreview
+excerpt: What is ImgBurnPreview.exe?
 ---
 
 # ImgBurnPreview.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.1.6.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2008
+
 
 
 

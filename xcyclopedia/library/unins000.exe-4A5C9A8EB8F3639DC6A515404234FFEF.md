@@ -1,5 +1,6 @@
 ﻿---
 title: unins000.exe | Setup/Uninstall
+excerpt: What is unins000.exe?
 ---
 
 # unins000.exe 
@@ -67,6 +68,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

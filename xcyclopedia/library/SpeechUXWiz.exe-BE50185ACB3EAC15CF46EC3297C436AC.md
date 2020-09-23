@@ -1,5 +1,6 @@
 ﻿---
 title: SpeechUXWiz.exe | Speech UX Configuration
+excerpt: What is SpeechUXWiz.exe?
 ---
 
 # SpeechUXWiz.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:6wc771uSH9hBp8YbVe0TIrf8NbywLkRLgLBAgVF:H3+9h/82VLTIrfMy8oLgp`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

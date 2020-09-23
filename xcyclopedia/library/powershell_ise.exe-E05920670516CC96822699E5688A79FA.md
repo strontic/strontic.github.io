@@ -1,5 +1,6 @@
 ﻿---
 title: powershell_ise.exe | Windows PowerShell ISE
+excerpt: What is powershell_ise.exe?
 ---
 
 # powershell_ise.exe 
@@ -21,6 +22,9 @@ SHA256 | `1172951D8B1AA4CF9D0AC9F72AE344C5896CE4286C790A1F0DFF8A6F71A5772E`
 SHA384 | `4760816D7369B8DF66C185EC0FCC3DE3361FFDA65CA0F65767DDD7BD9EC837373FB68E34624399C2023F60F54A7519D6`
 SHA512 | `1C47B24D04104D0E7291D09AB6DAD2C0433CA4FFA947A051A73159A986A0C0E8634B3701153E54E7D96364F80407E9FCC6D5EB8A9C34D8EA35B86780211F9CFD`
 SSDEEP | `3072:zfkVjGPsw40aLkVjqP4w6U+ToIuWNXmmZTWl/jC7gDooMLdx:zkTuZToIuUXmmZbgDooMb`
+IMP | `n/a`
+PESHA1 | `6DA0DD4D97E6BB31D3098BEDE5C5F055A87F0A90`
+PE256 | `30E126A34BB6E9D83642D47C4B21D9154A9CE063C5BD2E8EBD1747B42D3731CE`
 
 ## Runtime Data
 
@@ -31,32 +35,34 @@ Windows PowerShell ISE
 
 Path | Type
 -- | --
-(R--)   C:\Windows\assembly\pubpol5.dat | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.PowerShell.ISECommon\v4.0_3.0.0.0__31bf3856ad364e35\Microsoft.PowerShell.ISECommon.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll | File
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0.0.0__31bf3856ad364e35\System.Management.Automation.dll | File
-(RW-)   C:\Users\user | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | File
+(R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_7676 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_5708 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
 
 
@@ -77,6 +83,12 @@ C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/1172951d8b1aa4cf9d0ac9f72ae344c5896ce4286c790a1f0dff8a6f71a5772e/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: DiskSnapshot.exe | DiskSnapshot.exe
+excerpt: What is DiskSnapshot.exe?
 ---
 
 # DiskSnapshot.exe 
@@ -56,6 +57,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

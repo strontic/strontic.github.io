@@ -1,5 +1,6 @@
 ﻿---
 title: PrintBrm.exe | Print BRM command line tool
+excerpt: What is PrintBrm.exe?
 ---
 
 # PrintBrm.exe 
@@ -60,6 +61,7 @@ PrintBrm -B|R|Q [-S <server>] -F <file> [-D <directory>] [-O FORCE] [-P ALL|ORIG
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

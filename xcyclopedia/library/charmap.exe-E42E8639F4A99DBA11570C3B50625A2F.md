@@ -1,5 +1,6 @@
 ﻿---
 title: charmap.exe | Character Map
+excerpt: What is charmap.exe?
 ---
 
 # charmap.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:wLiGZ6/lNUtpcVLbxgjbPpbrLF5NUdrSO9K/tagbdDu5nBgo:w6N4cV/xg3Rbgqt5
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

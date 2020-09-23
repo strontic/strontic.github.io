@@ -1,5 +1,6 @@
 ﻿---
 title: VmComputeAgent.exe | Hyper-V Guest Compute Service
+excerpt: What is VmComputeAgent.exe?
 ---
 
 # VmComputeAgent.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:AGHem0MCfLQoAUBjjQmq62yx9AmsuUUwXa6W+UWMf8PRbMqW:AFm0MCfLQoAUBjj
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: expr.exe | 
+excerpt: What is expr.exe?
 ---
 
 # expr.exe 
@@ -91,6 +92,7 @@ or available locally via: info '(coreutils) expr invocation'
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

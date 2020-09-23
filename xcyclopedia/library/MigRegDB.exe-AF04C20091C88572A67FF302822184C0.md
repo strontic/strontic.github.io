@@ -1,5 +1,6 @@
 ﻿---
 title: MigRegDB.exe | COM+
+excerpt: What is MigRegDB.exe?
 ---
 
 # MigRegDB.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:wpliSJpRf+Hw853PVpb7SoxCwGapKBKZcICo9xzhXsGteAf0Oh4rWbwW:9SbRfQ5Hb
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

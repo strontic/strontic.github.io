@@ -1,5 +1,6 @@
 ﻿---
 title: rebase.exe | 
+excerpt: What is rebase.exe?
 ---
 
 # rebase.exe 
@@ -85,6 +86,7 @@ help: skipped because not rebaseable
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

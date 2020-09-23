@@ -1,5 +1,6 @@
 ﻿---
 title: ApplyTrustOffline.exe | "ApplyTrustOffline.PROGRAM"
+excerpt: What is ApplyTrustOffline.exe?
 ---
 
 # ApplyTrustOffline.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:VBR/xKT65jQzrVpudOlSlBo9yWgn/SpzBkj2oUJXI4uVy558SZR53YezkZTqXJM:
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

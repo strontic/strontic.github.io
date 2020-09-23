@@ -1,5 +1,6 @@
 ﻿---
 title: driverquery.exe | Queries the drivers on a system
+excerpt: What is driverquery.exe?
 ---
 
 # driverquery.exe 
@@ -17,6 +18,9 @@ SHA256 | `42EC0718E29088EA73BBAC9C96EAF02807BA556A392FA8C830AE9B425B7E0CC0`
 SHA384 | `D9308CE4907507C330C3A3975073361C24AE8FCA7FA2009619C5EC3614C12EAC53C22AD85AFC7CFF90C94DBE68E6B62F`
 SHA512 | `AF16C83D1468AAABCD10A3A4BB13BC753D30770F6496526E561674D36DB0B974A678C7E35A10153059FB26BEB1FBF257F08B5D5744FEAC7E54297E7A711468E2`
 SSDEEP | `1536:LSJUbCDS01QaavBCGWFxND02cCncUIfP0N5yIKxfm8:/bCF1QaD/DncdUZ1Kxe`
+IMP | `C118304E7D2CAFD7F39FDA694BE5CE60`
+PESHA1 | `516F7F8F94692A7D2EBF8EC4B11FF2B68C476672`
+PE256 | `08910C8DB9E4C230452404BEA0651678C0C80AE6C6151FFBF8B6D9D296A7F536`
 
 ## Runtime Data
 
@@ -69,12 +73,16 @@ Type "DRIVERQUERY /?" for usage.
 
 ```
 
+### Child Processes:
+explorer.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\driverquery.exe |
 
@@ -96,6 +104,12 @@ C:\Windows\SysWOW64\driverquery.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/42ec0718e29088ea73bbac9c96eaf02807ba556a392fa8c830ae9b425b7e0cc0/detection/
 
 
 

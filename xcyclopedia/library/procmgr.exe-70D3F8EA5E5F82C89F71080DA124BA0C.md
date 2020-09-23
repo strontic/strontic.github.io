@@ -1,5 +1,6 @@
 ﻿---
 title: procmgr.exe | Glary Utilities ProcessManager
+excerpt: What is procmgr.exe?
 ---
 
 # procmgr.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:e1TNiz3XQipIJwy0cINpaYtfMIgOZCAPXvQ9j7jL:e1ozXQiph3aYt0ID/vQ93jL`
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

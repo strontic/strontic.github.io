@@ -1,5 +1,6 @@
 ﻿---
 title: CNMSE.EXE | Canon IJ Print Utility
+excerpt: What is CNMSE.EXE?
 ---
 
 # CNMSE.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `384:lgZukZ110kHwpXOr3xTK9xwY+kGq7wOcYJLcfaFeMS:lgZb1K+kXOLpewY+kGq7wOR
 * Product Version: 2.60.2.10
 * Language: English (United States)
 * Legal Copyright: Copyright CANON INC. 2000-2012 All Rights Reserved
+
 
 ## File Similarity (ssdeep match)
 

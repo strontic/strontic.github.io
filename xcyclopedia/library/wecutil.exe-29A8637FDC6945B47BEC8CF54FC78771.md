@@ -1,5 +1,6 @@
 ﻿---
 title: wecutil.exe | Event Collector Command Line Utility
+excerpt: What is wecutil.exe?
 ---
 
 # wecutil.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:V/Z2xPuTQ1A3s5rknXqCgOBb2uhmuSk2dzBnunSPdQbdv3el54338d:V/Z2xPYQ8g
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

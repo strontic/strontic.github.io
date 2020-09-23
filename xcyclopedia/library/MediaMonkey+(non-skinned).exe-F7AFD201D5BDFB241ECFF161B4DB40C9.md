@@ -1,5 +1,6 @@
 ﻿---
 title: MediaMonkey (non-skinned).exe | MediaMonkey
+excerpt: What is MediaMonkey (non-skinned).exe?
 ---
 
 # MediaMonkey (non-skinned).exe 
@@ -86,6 +87,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.0
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

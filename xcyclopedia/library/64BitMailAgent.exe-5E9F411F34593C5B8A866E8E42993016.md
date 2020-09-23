@@ -1,5 +1,6 @@
 ﻿---
 title: 64BitMailAgent.exe | 64Bit MAPI Mail Agent
+excerpt: What is 64BitMailAgent.exe?
 ---
 
 # 64BitMailAgent.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.0.8.1228
 * Language: Language Neutral
 * Legal Copyright: Copyright  2014-2020 Foxit Software Inc. All Rights Reserved.
+
 
 
 

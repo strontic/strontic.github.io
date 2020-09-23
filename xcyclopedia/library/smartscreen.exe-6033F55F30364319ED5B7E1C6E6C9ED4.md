@@ -1,5 +1,6 @@
 ﻿---
 title: smartscreen.exe | Windows Defender SmartScreen
+excerpt: What is smartscreen.exe?
 ---
 
 # smartscreen.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:FkFfgfHzq9YKudUyiIWllo5hwHKAAdFpl9SdICBZgX5k8r37UnxNDg:ebsr37eN`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

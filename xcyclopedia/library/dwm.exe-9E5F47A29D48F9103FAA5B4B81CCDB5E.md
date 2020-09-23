@@ -1,5 +1,6 @@
 ﻿---
 title: dwm.exe | Desktop Window Manager
+excerpt: What is dwm.exe?
 ---
 
 # dwm.exe 
@@ -49,6 +50,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\dwm.exe](dwm.exe-7260B06613BC480862F379FF5CCD58B6.md) | 90
 
 ## Possible Misuse
 

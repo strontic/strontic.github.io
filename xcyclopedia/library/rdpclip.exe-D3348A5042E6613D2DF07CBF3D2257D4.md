@@ -1,5 +1,6 @@
 ﻿---
 title: rdpclip.exe | RDP Clipboard Monitor
+excerpt: What is rdpclip.exe?
 ---
 
 # rdpclip.exe 
@@ -17,6 +18,9 @@ SHA256 | `8AB6E280B961D73082C5F6C67E843CB2F8B666DFFA4104995DAFC454432847D6`
 SHA384 | `7B5CE312D9DA04C81AB0B85D12C84B6C6569919D9ADC2B5E83EA817AFE4CD14E74E9353637938AD5F843FD2063A1818E`
 SHA512 | `543DBFF7BA26F6D4B9F26AC9AC64CC7455BA08981DB4356544ABDD5AEB4AA9BBB922A7D34349D681C929639B818B86806310171BF60EE06AA3E30C0A08FC6F0D`
 SSDEEP | `12288:A34oYkqYnFYTuW8Pq4C4bhObjoSpPwevZu2oxuXet9qviLboBcquUwQtBpDlJ5y8:3oYkqYFYTuW8Pq49bhOb6nRDbyFb1`
+IMP | `810E64B8DF587DC8C95D4C20115A7F58`
+PESHA1 | `287C693231871C2C3AE4269F07128E795C74DF51`
+PE256 | `B6DCFA67E90042BBB38E16D379A5E4DD9E80C693F981256716FAA36F6C814F12`
 
 ## Runtime Data
 
@@ -25,23 +29,11 @@ SSDEEP | `12288:A34oYkqYnFYTuW8Pq4C4bhObjoSpPwevZu2oxuXet9qviLboBcquUwQtBpDlJ5y8
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLE32.dll |
 C:\Windows\system32\rdpclip.exe |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -61,6 +53,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/8ab6e280b961d73082c5f6c67e843cb2f8b666dffa4104995dafc454432847d6/detection/
 
 
 ## Possible Misuse

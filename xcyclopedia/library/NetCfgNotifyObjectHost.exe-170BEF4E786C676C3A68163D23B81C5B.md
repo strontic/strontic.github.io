@@ -1,5 +1,6 @@
 ﻿---
 title: NetCfgNotifyObjectHost.exe | Host Process for Network Driver Configuration Plugins
+excerpt: What is NetCfgNotifyObjectHost.exe?
 ---
 
 # NetCfgNotifyObjectHost.exe 
@@ -17,6 +18,9 @@ SHA256 | `4AA3B4382067841FD02D4778BAD973DD89E43F22B08A0A3A27FF463F01540E85`
 SHA384 | `AD38BA1E13B3CA1897370D8CB4E27B41B7894856EEA82683F4A8A649D0BE6160769FB47EB9DDEDFA64B895E3DB4552E9`
 SHA512 | `E0B13ABF56210F797854A7F5782A35E99E6F9145BB6EEDAA2414B7E89A8D0D2C52D2B36078F727ACEB09539306851F506253216B9FED5D1C415455898C0D30CA`
 SSDEEP | `1536:fKE9pTyrqNrpeFgOTzB9Ja8Q1ROrsBZe0Mx/iETvC/yuwJE9jE+x:fByrAFeF13JzQ1ROrsBZe0Mx/iYa/yJg`
+IMP | `A8D7B6412514578972310CDCBECE40DF`
+PESHA1 | `D84845B861980E7237F2203F51DCAEFBCBE18518`
+PE256 | `2A25BB8C93695F31EC54293630DBD6725C01CC016FF6BB92EAA4AA417138808C`
 
 ## Runtime Data
 
@@ -34,8 +38,8 @@ C:\Windows\SysWOW64\NetCfgNotifyObjectHost.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -48,6 +52,12 @@ C:\Windows\SysWOW64\NetCfgNotifyObjectHost.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/61
+* VirusTotal Link: https://www.virustotal.com/gui/file/4aa3b4382067841fd02d4778bad973dd89e43f22b08a0a3a27ff463f01540e85/detection/
 
 
 

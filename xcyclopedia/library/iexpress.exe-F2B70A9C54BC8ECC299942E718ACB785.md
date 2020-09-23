@@ -1,5 +1,6 @@
 ﻿---
 title: iexpress.exe | Wizard
+excerpt: What is iexpress.exe?
 ---
 
 # iexpress.exe 
@@ -40,6 +41,7 @@ SSDEEP | `3072:rSu3CErr/G0r16YNDnGOb+ahXNqJohePnq45L84I:5SElfNDGOb+asEwv5L`
 * Product Version: 11.00.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

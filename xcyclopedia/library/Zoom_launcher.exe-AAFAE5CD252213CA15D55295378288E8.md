@@ -1,5 +1,6 @@
 ﻿---
 title: Zoom_launcher.exe | Zoom
+excerpt: What is Zoom_launcher.exe?
 ---
 
 # Zoom_launcher.exe 
@@ -41,6 +42,7 @@ SSDEEP | `6144:FU/UDd8SL6H7Of5nX6hcpApmJ8ukjaRvCpRBmG:e8J8SL6bOf5X+cFJ8ukjvgG`
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

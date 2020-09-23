@@ -1,5 +1,6 @@
 ﻿---
 title: MusNotifyIcon.exe | MusNotifyIcon.exe
+excerpt: What is MusNotifyIcon.exe?
 ---
 
 # MusNotifyIcon.exe 
@@ -72,11 +73,14 @@ C:\Windows\system32\XmlLite.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\MusNotificationUx.exe](MusNotificationUx.exe-0B946B21072675DE6B577267C2565D03.md) | 25
+[C:\Windows\system32\MusNotificationUx.exe](MusNotificationUx.exe-207A34AAD28587B6047A12C8085A33C8.md) | 27
+[C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-CD0A38C09977FFA7E18B9183BA7C0F81.md) | 79
 
 
 

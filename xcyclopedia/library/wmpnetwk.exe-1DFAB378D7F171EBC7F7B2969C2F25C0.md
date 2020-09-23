@@ -1,5 +1,6 @@
 ﻿---
 title: wmpnetwk.exe | Windows Media Player Network Sharing Service
+excerpt: What is wmpnetwk.exe?
 ---
 
 # wmpnetwk.exe 
@@ -47,6 +48,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

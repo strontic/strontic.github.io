@@ -1,5 +1,6 @@
 ﻿---
 title: GfxUIEx.exe | GFXUIEX Module
+excerpt: What is GfxUIEx.exe?
 ---
 
 # GfxUIEx.exe 
@@ -40,6 +41,7 @@ Gfxv4_0.exe
 * Product Version: 6.15.10.3682
 * Language: English (United States)
 * Legal Copyright: Copyright 2012-2015, Intel Corporation
+
 
 ## File Similarity (ssdeep match)
 

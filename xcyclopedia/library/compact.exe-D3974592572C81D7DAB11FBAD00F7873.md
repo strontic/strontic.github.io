@@ -1,5 +1,6 @@
 ﻿---
 title: compact.exe | File Compress Utility
+excerpt: What is compact.exe?
 ---
 
 # compact.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:fMBMTMFBDts0CqD9FtszQx9XiIPs1EvpJ3IaeucCVxGZi4Onk3FCGedNZWkiW:f/M3
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

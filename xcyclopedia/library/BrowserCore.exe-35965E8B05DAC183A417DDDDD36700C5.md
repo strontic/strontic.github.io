@@ -1,5 +1,6 @@
 ﻿---
 title: BrowserCore.exe | BrowserCore
+excerpt: What is BrowserCore.exe?
 ---
 
 # BrowserCore.exe 
@@ -60,6 +61,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

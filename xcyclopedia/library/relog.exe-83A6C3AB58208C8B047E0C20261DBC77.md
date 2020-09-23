@@ -1,5 +1,6 @@
 ﻿---
 title: relog.exe | Performance Relogging Utility
+excerpt: What is relog.exe?
 ---
 
 # relog.exe 
@@ -17,6 +18,9 @@ SHA256 | `FA6B86965E740987905EECFC510922C2F1335AFE06148B660A31EDB4B67F477A`
 SHA384 | `2ACD63F48C5F1578581C17DFADE396ECB78EC3D2CB045A4B573E27251D2878C121ADF355A9143BFF5E084FDB78F40EDA`
 SHA512 | `9579C0EDD452AFF96205B360094F42A8824B3868EAE7F9ED559CB0A5DA95A5A819AE5A512A32D30A328060E883068BF139369D6D2B20C6505E8492989422A25A`
 SSDEEP | `768:KzsVR22awTzqvJneZ/HI7vUjO9ZNvv/2rEaQLo6Ec22C2ieEMi:KzsVFdYJIQDv9raEqc2AieEMi`
+IMP | `6224A72BD9E47088A3D467560173CDC1`
+PESHA1 | `94A7A4BFBD9EA185906C22C39802337A162BB72A`
+PE256 | `CDAED9B26E133DD5145F23D9C1B856AC083794CFFF0353BDA2D6A329842C1AC8`
 
 ## Runtime Data
 
@@ -75,6 +79,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\relog.exe |
 
@@ -96,6 +101,12 @@ C:\Windows\SysWOW64\relog.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/fa6b86965e740987905eecfc510922c2f1335afe06148b660a31edb4b67f477a/detection/
 
 
 

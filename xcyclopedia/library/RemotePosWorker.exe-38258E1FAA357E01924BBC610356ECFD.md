@@ -1,5 +1,6 @@
 ﻿---
 title: RemotePosWorker.exe | Remote Pos Driver Worker
+excerpt: What is RemotePosWorker.exe?
 ---
 
 # RemotePosWorker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:u15PydQJai6viLbtI4oNCCavM3EjsWcuMBHd4qigoXaRDTmW/7W:uzydQJm6L5qChv
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

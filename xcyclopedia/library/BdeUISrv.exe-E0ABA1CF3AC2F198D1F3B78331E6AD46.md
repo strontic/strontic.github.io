@@ -1,5 +1,6 @@
 ﻿---
 title: BdeUISrv.exe | BDE UI Launcher
+excerpt: What is BdeUISrv.exe?
 ---
 
 # BdeUISrv.exe 
@@ -17,6 +18,9 @@ SHA256 | `37E9A578A9802A02C5A78BD3466127A21E555422E3D7847B63471AA9DFEF04C4`
 SHA384 | `4308A1BE244035CB9AB46EF659337B8A5CA7CC304C568E96994068922E453B9BDEC8562D1290D0E213BA2046278504BC`
 SHA512 | `9891D95B837807D23354647813500898DA7648448A1E6517C2F06E418B5981FD1A91F63E5CE9C5E65D88376F65562E8665D81A7CB55AECB6E6BCF08C1CA32F02`
 SSDEEP | `1536:viwyXsYLR3FrzDn0YVEYW3bcZd84ImNqtae:donV3Fr3Yrcbotae`
+IMP | `282735D0D5831BB1C7033BF08F93ACE8`
+PESHA1 | `723F42514E9B5C57453753C72EE793D63BA68DAB`
+PE256 | `3631C1042B77F6BC148D9F0F23E93C5359FDCEF2EAB36BC06D9E8999D26E27A0`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `1536:viwyXsYLR3FrzDn0YVEYW3bcZd84ImNqtae:donV3Fr3Yrcbotae`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -48,14 +47,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -68,6 +66,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/37e9a578a9802a02c5a78bd3466127a21e555422e3d7847b63471aa9dfef04c4/detection/
 
 
 

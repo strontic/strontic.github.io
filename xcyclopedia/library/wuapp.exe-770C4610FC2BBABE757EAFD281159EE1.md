@@ -1,5 +1,6 @@
 ﻿---
 title: wuapp.exe | Windows Update Application Launcher
+excerpt: What is wuapp.exe?
 ---
 
 # wuapp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:arJHxM5B6gvSldXJOuqsDE2G0/zKrZRsCVh81BUGzdHKIiZ9XcRsyOIScGYInW/B:a
 * Product Version: 7.9.9600.18970
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

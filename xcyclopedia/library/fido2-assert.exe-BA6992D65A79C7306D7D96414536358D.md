@@ -1,5 +1,6 @@
 ﻿---
 title: fido2-assert.exe | 
+excerpt: What is fido2-assert.exe?
 ---
 
 # fido2-assert.exe 
@@ -53,6 +54,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

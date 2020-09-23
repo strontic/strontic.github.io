@@ -1,5 +1,6 @@
 ﻿---
 title: infrarecorder.exe | InfraRecorder
+excerpt: What is infrarecorder.exe?
 ---
 
 # infrarecorder.exe 
@@ -102,6 +103,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 0.53.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2006-2012 Christian Kindahl
+
 
 
 

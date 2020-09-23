@@ -1,5 +1,6 @@
 ﻿---
 title: dsac.exe | Active Directory Administrative Center
+excerpt: What is dsac.exe?
 ---
 
 # dsac.exe 
@@ -66,6 +67,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: bootim.exe | boot immersive menus
+excerpt: What is bootim.exe?
 ---
 
 # bootim.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:+wvsOjY8RL3Kpw2fCHAUTCdFPkkPL2vFHHoQ:+QsSLHgc09FMFHHoQ`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

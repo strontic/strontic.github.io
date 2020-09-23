@@ -1,5 +1,6 @@
 ﻿---
 title: iisual.exe |  
+excerpt: What is iisual.exe?
 ---
 
 # iisual.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:HrkvtJiOP+aJOtIj+zGjlOKTccEIPQGT1s4gQjvkMHWG:HmJ1JOtIj+zGjlfbnBwMJ
 * Product Version: 8.5.9600.16384
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

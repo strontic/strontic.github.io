@@ -1,5 +1,6 @@
 ﻿---
 title: TabTip32.exe | Touch Keyboard and Handwriting Panel Helper
+excerpt: What is TabTip32.exe?
 ---
 
 # TabTip32.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

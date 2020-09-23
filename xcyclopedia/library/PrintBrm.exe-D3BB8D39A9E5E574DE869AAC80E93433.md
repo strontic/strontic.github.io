@@ -1,5 +1,6 @@
 ﻿---
 title: PrintBrm.exe | Print BRM command line tool
+excerpt: What is PrintBrm.exe?
 ---
 
 # PrintBrm.exe 
@@ -69,6 +70,7 @@ C:\Windows\system32\spool\tools\PrintBrm.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

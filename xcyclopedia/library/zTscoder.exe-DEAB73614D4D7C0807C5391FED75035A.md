@@ -1,5 +1,6 @@
 ﻿---
 title: zTscoder.exe | Zoom
+excerpt: What is zTscoder.exe?
 ---
 
 # zTscoder.exe 
@@ -77,6 +78,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5,2,44052,0816
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

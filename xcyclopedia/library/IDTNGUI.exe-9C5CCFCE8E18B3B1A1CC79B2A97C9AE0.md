@@ -1,5 +1,6 @@
 ﻿---
 title: IDTNGUI.exe | IDT PC Audio
+excerpt: What is IDTNGUI.exe?
 ---
 
 # IDTNGUI.exe 
@@ -41,6 +42,7 @@ SSDEEP | `196608:8QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQeQQQQQQQQQQQQQQQQQQQQQ
 * Product Version: 1.0.6491.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2004 - 2009 IDT, Inc.
+
 
 
 

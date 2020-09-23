@@ -1,5 +1,6 @@
 ﻿---
 title: policytool.exe | OpenJDK Platform binary
+excerpt: What is policytool.exe?
 ---
 
 # policytool.exe 
@@ -107,6 +108,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

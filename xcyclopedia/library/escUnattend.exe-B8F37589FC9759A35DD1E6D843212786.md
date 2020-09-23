@@ -1,5 +1,6 @@
 ﻿---
 title: escUnattend.exe | IE ESC 7.0 Unattended Install Utility
+excerpt: What is escUnattend.exe?
 ---
 
 # escUnattend.exe 
@@ -46,6 +47,7 @@ C:\Windows\SysWOW64\escUnattend.exe |
 * Product Version: 11.00.17763.529
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

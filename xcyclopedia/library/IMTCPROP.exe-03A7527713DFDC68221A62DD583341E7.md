@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCPROP.exe | IMTCPROP.exe
+excerpt: What is IMTCPROP.exe?
 ---
 
 # IMTCPROP.exe 
@@ -70,6 +71,7 @@ C:\Windows\SysWOW64\IME\IMETC\IMTCPROP.exe |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: qappsrv.exe | Query Remote Desktop Session Host Server Utility
+excerpt: What is qappsrv.exe?
 ---
 
 # qappsrv.exe 
@@ -71,6 +72,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

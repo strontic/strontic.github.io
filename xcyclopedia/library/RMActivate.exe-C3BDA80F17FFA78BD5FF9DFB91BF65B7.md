@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate.exe | Windows Rights Management Services Activation for Desktop Security Processor
+excerpt: What is RMActivate.exe?
 ---
 
 # RMActivate.exe 
@@ -17,28 +18,11 @@ SHA256 | `62E94CB99BD3207951211B8566BCAADF19BE925090404BD7AA0191BFC83FD08F`
 SHA384 | `CA2173D54CC485C36AE25C9D39CE37A25E96B923F7C25F68F140C68A4AA862F6854C82FBD609A74A0920048713C804D9`
 SHA512 | `33C59880DA6CDAA2E03A2D2F37558D1F47498895144F67CE76BB2CC43B4DBDE42160A8AD06C4FFB0582EAECBA2603F1FD838EF3E3649D61B5AAA0D509CA341A0`
 SSDEEP | `12288:1fOj2FGKc4zSZpD1nswafC/+KGidvQPxUQ4e1kVg6TeGaB:12jOSZpDVswIC/+KGiyP34e1kK6KxB`
+IMP | `EBCDFF4FE394A3E0CD90455A8A72EF29`
+PESHA1 | `7EC72FBD49280CACF340D0D41F5911A54A928919`
+PE256 | `BAA0FB225012C2DC0BD57C4F04A7F21237774550945E3C8EE55CCEB3CC8825E1`
 
 ## Runtime Data
-
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\crypt32.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -46,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\RMActivate.exe |
 
@@ -53,8 +38,8 @@ C:\Windows\SysWOW64\RMActivate.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -67,6 +52,12 @@ C:\Windows\SysWOW64\RMActivate.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/62e94cb99bd3207951211b8566bcaadf19be925090404bd7aa0191bfc83fd08f/detection/
 
 
 

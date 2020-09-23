@@ -1,5 +1,6 @@
 ﻿---
 title: RunLegacyCPLElevated.exe | Run a legacy CPL elevated
+excerpt: What is RunLegacyCPLElevated.exe?
 ---
 
 # RunLegacyCPLElevated.exe 
@@ -17,6 +18,9 @@ SHA256 | `56132C62671C38C162DC4712F71213BA818FE369604C29572C95D7BB5C88E800`
 SHA384 | `CFD89FDADF3E266C969EB744BC9388120CF9ADD32F6C921789BF63AED3F5FA9C7B484DD3F2B3E27BC537D8AE65E877EF`
 SHA512 | `5178753FAD890AC3A6393C9EEF0DBF9441C461FBBFDF6C4D73AE8A6E31F7EC122639169D71DAB0BEB3C36E68F11C7C75C32327421A29B96B8A34E692F772819D`
 SSDEEP | `1536:+q/ZSaYwCOUVI9FyPnL1Sxxakkn6oYY0ewiP8:5JCyOfLYxxaJVYYPwi`
+IMP | `994147192F9A5486FF1045A684507004`
+PESHA1 | `4FC48AF2E4782F0D0A8266AF466F38BDD14812B2`
+PE256 | `613CCFEA2202D3CC1A64BFD11E88B692CDC818A43461E04C41FF1EF731938DFD`
 
 ## Runtime Data
 
@@ -33,7 +37,6 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\RunLegacyCPLElevated.exe |
 C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -42,8 +45,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,6 +59,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/56132c62671c38c162dc4712f71213ba818fe369604c29572c95d7bb5c88e800/detection/
 
 ## File Similarity (ssdeep match)
 

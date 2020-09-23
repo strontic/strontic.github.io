@@ -1,5 +1,6 @@
 ﻿---
 title: notification_helper.exe | Chromium
+excerpt: What is notification_helper.exe?
 ---
 
 # notification_helper.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 84.0.4147.125
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 The Chromium Authors. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

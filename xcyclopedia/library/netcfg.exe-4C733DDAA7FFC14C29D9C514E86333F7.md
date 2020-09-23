@@ -1,5 +1,6 @@
 ﻿---
 title: netcfg.exe | WinPE network installer
+excerpt: What is netcfg.exe?
 ---
 
 # netcfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:4WXpoEpa/OC1w0EsJo1Eha0SNBlVtNQ9foKh/:LpoE8/hSjBBlVtNQ9Xh/`
 * Product Version: 6.3.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: crashreporter.exe | 
+excerpt: What is crashreporter.exe?
 ---
 
 # crashreporter.exe 
@@ -38,6 +39,7 @@ SSDEEP | `6144:4fSCR4uDan59KyAz1xkVtXXlQZGaxoskHKt28WTub:sFc59AsR1QUyZwM`
 * Product Version: 79.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

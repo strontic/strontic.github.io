@@ -1,5 +1,6 @@
 ﻿---
 title: MuiUnattend.exe | MUI unattend action
+excerpt: What is MuiUnattend.exe?
 ---
 
 # MuiUnattend.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:LvU6PywtFJtw7+kNwFfI1HuiTwkyge6hUB4QfA:LvU6KwtFPw7+GwFwYchyH9E`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

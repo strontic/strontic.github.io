@@ -1,5 +1,6 @@
 ﻿---
 title: MbaeParserTask.exe | Mobile Broadband Account Experience Parser Task
+excerpt: What is MbaeParserTask.exe?
 ---
 
 # MbaeParserTask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:X7KTL3NOpVnehHjUWiApZ8z4My7KjGoiuzS7aVH8J/P+pbv:X7KFOpchHiApU45+j
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

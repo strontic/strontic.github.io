@@ -1,5 +1,6 @@
 ﻿---
 title: unregmp2.exe | Microsoft Windows Media Player Setup Utility
+excerpt: What is unregmp2.exe?
 ---
 
 # unregmp2.exe 
@@ -47,6 +48,7 @@ C:\Windows\SysWOW64\unregmp2.exe |
 * Product Version: 12.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

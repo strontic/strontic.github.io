@@ -1,5 +1,6 @@
 ﻿---
 title: valWBFPolicyService.exe | ValidityWBF Policy Service (EEM)
+excerpt: What is valWBFPolicyService.exe?
 ---
 
 # valWBFPolicyService.exe 
@@ -37,6 +38,7 @@ SSDEEP | `384:tbq9QJuBcxYrQho2MN4YkZ5libhN1TfyfKn1pxO:twUYcmMhunkZ5li9TfF70`
 * Product Version: 4.05.0228.000
 * Language: English (United States)
 * Legal Copyright: Copyright  2006-2013, Validity Sensors, Inc.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: x64ProcessAssistSvc.exe | x64 Process Assist
+excerpt: What is x64ProcessAssistSvc.exe?
 ---
 
 # x64ProcessAssistSvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:RrDy89+SFnyTt9+rir406oXxtbJU0cODdC//////H79RuWVv:RaKk6oX/JxcODdC/
 * Product Version: 1.0.0.14
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2018 Glarysoft Ltd
+
 
 
 

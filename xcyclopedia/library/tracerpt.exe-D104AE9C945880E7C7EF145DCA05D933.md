@@ -1,5 +1,6 @@
 ﻿---
 title: tracerpt.exe | Event Trace Report Tool
+excerpt: What is tracerpt.exe?
 ---
 
 # tracerpt.exe 
@@ -96,6 +97,7 @@ Examples:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

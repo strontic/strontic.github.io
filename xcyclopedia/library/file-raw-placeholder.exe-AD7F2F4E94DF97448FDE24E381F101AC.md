@@ -1,5 +1,6 @@
 ﻿---
 title: file-raw-placeholder.exe | 
+excerpt: What is file-raw-placeholder.exe?
 ---
 
 # file-raw-placeholder.exe 
@@ -56,6 +57,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

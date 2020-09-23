@@ -1,5 +1,6 @@
 ﻿---
 title: AppHostRegistrationVerifier.exe | App Uri Handlers Registration Verifier
+excerpt: What is AppHostRegistrationVerifier.exe?
 ---
 
 # AppHostRegistrationVerifier.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:hExf1PZ2cMzr10kgcye+fP5hP4mxZKG9W:hExfFMnzye+zP48`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

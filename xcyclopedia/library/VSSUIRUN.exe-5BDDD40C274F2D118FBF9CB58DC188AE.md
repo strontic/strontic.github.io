@@ -1,5 +1,6 @@
 ﻿---
 title: VSSUIRUN.exe | Configure Shadow Copies
+excerpt: What is VSSUIRUN.exe?
 ---
 
 # VSSUIRUN.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:JnW6yzrSF2uxKq3a39PvFKBpYkzxug6Bx4O5vJzeIE0RmHEXzbkN4dppainbNnn2:4
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: MultiDigiMon.exe | Digitizer to Monitor Mapping Tool
+excerpt: What is MultiDigiMon.exe?
 ---
 
 # MultiDigiMon.exe 
@@ -17,6 +18,9 @@ SHA256 | `AC37148D091BC02D24E40A1215AEB9A750EC10C48F7D709E4E1483E665677AB5`
 SHA384 | `19FF080B08F36FF50441C88150A3D476720397D0C179B1060AA0BC11FDF1984039E27BE86FC75DA53FE22904F7B18D8F`
 SHA512 | `94BDC1B0F2BF55ADDA532E6042FB34C91399A285184B5A0CE8BB80758BBBE23B400C5F56946545954BF1CC9F0BFCA0F4C9F381F906DD4B8EE1CFDF97A67080C2`
 SSDEEP | `768:WtH7bnhiFP1vOKUJdkk9Ks+cJS2KVrrI16mi8kU18uqdfdh22C+BH7sFpCKcKP:I3M9XUs1ygrBU18ldfW2jbJK`
+IMP | `E2B29DA5A898E5378D53FC923C78C72E`
+PESHA1 | `74A8DBFC0960350E85477B108348618612B6B85A`
+PE256 | `D8353C4C7CD2430198DDBF1810F82B84B8003B1F4673D72C493837A68C171087`
 
 ## Runtime Data
 
@@ -24,26 +28,22 @@ SSDEEP | `768:WtH7bnhiFP1vOKUJdkk9Ks+cJS2KVrrI16mi8kU18uqdfdh22C+BH7sFpCKcKP:I3M
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\MultiDigiMon.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,6 +56,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac37148d091bc02d24e40a1215aeb9a750ec10c48f7d709e4e1483e665677ab5/detection/
 
 ## File Similarity (ssdeep match)
 

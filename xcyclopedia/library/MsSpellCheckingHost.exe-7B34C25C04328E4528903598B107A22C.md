@@ -1,5 +1,6 @@
 ﻿---
 title: MsSpellCheckingHost.exe | Microsoft Spell Checking Host
+excerpt: What is MsSpellCheckingHost.exe?
 ---
 
 # MsSpellCheckingHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:dzzDOahPcrWDG0dwOJh/TzKlCYTW2kyn57MNbKY6Oe7iOEUMApxN:dirorh/TzEI2
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

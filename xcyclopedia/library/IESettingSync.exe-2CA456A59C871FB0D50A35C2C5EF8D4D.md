@@ -1,5 +1,6 @@
 ﻿---
 title: IESettingSync.exe | Microsoft  IE Setting Sync Background Application
+excerpt: What is IESettingSync.exe?
 ---
 
 # IESettingSync.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:/Uoy2lnwgFgYAF3dKF1BzzjfPAhXKkvkp/:8N2ln3qY23dKF7rP+Kkvk1`
 * Product Version: 11.00.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

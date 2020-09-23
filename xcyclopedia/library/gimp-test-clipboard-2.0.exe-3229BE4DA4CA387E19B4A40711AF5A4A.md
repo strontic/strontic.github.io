@@ -1,5 +1,6 @@
 ﻿---
 title: gimp-test-clipboard-2.0.exe | 
+excerpt: What is gimp-test-clipboard-2.0.exe?
 ---
 
 # gimp-test-clipboard-2.0.exe 
@@ -69,6 +70,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

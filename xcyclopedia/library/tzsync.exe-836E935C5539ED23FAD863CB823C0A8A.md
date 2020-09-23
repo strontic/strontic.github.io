@@ -1,5 +1,6 @@
 ﻿---
 title: tzsync.exe | TimeZone Sync Task
+excerpt: What is tzsync.exe?
 ---
 
 # tzsync.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:ZmOoGHeP1rK1iJSCL3tN1SDCQv3ChEfi7MXMwf9jzpAXDRzbfjPt:ZORKAz3tG3PCh
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: joinExe.exe | File Joiner
+excerpt: What is joinExe.exe?
 ---
 
 # joinExe.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:ucEa/PBKzedfKJRDIO4PVVVVVVVVVVV9myJkGievVsUfds:ucEanBKqsRcO4PVVVV
 * Product Version: 5, 0, 0, 1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

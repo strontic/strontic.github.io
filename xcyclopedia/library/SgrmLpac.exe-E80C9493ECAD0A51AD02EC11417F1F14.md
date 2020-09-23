@@ -1,5 +1,6 @@
 ﻿---
 title: SgrmLpac.exe | System Guard Runtime Monitor LPAC
+excerpt: What is SgrmLpac.exe?
 ---
 
 # SgrmLpac.exe 
@@ -17,6 +18,9 @@ SHA256 | `A48549B91D712FD6F0117AA6A3DA2113EB60F712DF3BF30C3BEB74637CC29BF7`
 SHA384 | `A61AB9BCD07A24C117471D2DC5F3B2C48921BEFCEAC65790DC7D9148148A093B8FB88FF75A7ADDECAE84C2604292DC85`
 SHA512 | `654E35C8CE3E9D5AD835B7EF81C0AFBE532421B2FC5396BCD0D8499C3C1C006340A6D9ED3131A73CD35DED50678AF1E791BEC09F31627B5384487ED8571F3E4D`
 SSDEEP | `768:FDkyJeTGzBtJdIOAVuZxVdJl4rr3CJZYKalW2P3NwgI7/Kb429kObUrxI1PL:RaGzBtJnAVunMPSxqW2vNd8/Kj9kXWPL`
+IMP | `78899CFF817AD8547147D8AD92BCABE2`
+PESHA1 | `AABCA0A4BAAF5990ADAA87D531E71A3A083D7759`
+PE256 | `83FC4965AC722012890C293925CB16645FB40E368783A23BF4A484F2ECEDC608`
 
 ## Runtime Data
 
@@ -24,14 +28,9 @@ SSDEEP | `768:FDkyJeTGzBtJdIOAVuZxVdJl4rr3CJZYKalW2P3NwgI7/Kb429kObUrxI1PL:RaGzB
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -42,11 +41,7 @@ C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\system32\SgrmLpac.exe |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\WINHTTP.dll |
 
 
 ## Signature
@@ -66,6 +61,12 @@ C:\Windows\system32\WINHTTP.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/a48549b91d712fd6f0117aa6a3da2113eb60f712df3bf30c3beb74637cc29bf7/detection/
 
 
 

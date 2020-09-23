@@ -1,5 +1,6 @@
 ﻿---
 title: dispdiag.exe | Display Diagnostics
+excerpt: What is dispdiag.exe?
 ---
 
 # dispdiag.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:zDaiegJuR5dpMF4B7Li8wJ7fAZWFWF452RS9r7fJQx/xRPnCylP0:XaJrMFK722ZW
 * Product Version: 6.3.9600.17415
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

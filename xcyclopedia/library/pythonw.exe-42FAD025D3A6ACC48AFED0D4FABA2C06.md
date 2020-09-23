@@ -1,5 +1,6 @@
 ﻿---
 title: pythonw.exe | Python
+excerpt: What is pythonw.exe?
 ---
 
 # pythonw.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:tMLu41dyKmyXpMvJ5uwJmTXingTb/xSiLPFH8FIwMd7wvcNHT:t94LyKppCzJmXIg
 * Product Version: 3.7.4
 * Language: Language Neutral
 * Legal Copyright: Copyright  2001-2016 Python Software Foundation. Copyright  2000 BeOpen.com. Copyright  1995-2001 CNRI. Copyright  1991-1995 SMC.
+
 
 ## File Similarity (ssdeep match)
 

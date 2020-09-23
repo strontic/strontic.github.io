@@ -1,5 +1,6 @@
 ﻿---
 title: FileHistory.exe | File History
+excerpt: What is FileHistory.exe?
 ---
 
 # FileHistory.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:G
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

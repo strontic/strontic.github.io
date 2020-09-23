@@ -1,5 +1,6 @@
 ﻿---
 title: gdbus.exe | 
+excerpt: What is gdbus.exe?
 ---
 
 # gdbus.exe 
@@ -83,6 +84,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

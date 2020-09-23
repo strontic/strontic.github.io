@@ -1,5 +1,6 @@
 ﻿---
 title: SystemUWPLauncher.exe | SystemUWPLauncher
+excerpt: What is SystemUWPLauncher.exe?
 ---
 
 # SystemUWPLauncher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:R5T0csTTDrk1EeQ3VnF+CMqqZBDkFveLuB8xlrwhxIUQKxwnrPcChsJp/G:H0cwEQ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

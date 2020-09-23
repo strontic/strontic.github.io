@@ -1,5 +1,6 @@
 ﻿---
 title: SystemUWPLauncher.exe | SystemUWPLauncher
+excerpt: What is SystemUWPLauncher.exe?
 ---
 
 # SystemUWPLauncher.exe 
@@ -17,6 +18,9 @@ SHA256 | `510EDE28028A3BBBAED028804AE5F0D8E5A5864F134021476B0A006A8E69BE2C`
 SHA384 | `90F0B5D52C9D112FB827CC63D0227ECAB21F4579728488C053E7BAEEA55AC3C6547D055F513C70E7239E51F8AC8AC38B`
 SHA512 | `5C34F7D2DAB4871C86241DCABEDE089B36BC106187EB75AD87D445812458D1CA7A676FA7D39FB7B628CC536EC8DA5D3941D0E408F9BDFEEC090D8A5601B2BA95`
 SSDEEP | `1536:hR9tTsigVdKpRTuZmqZDu6ehbi44voz8kDhvTb:vovdKpFuZmiDu6IG44AzlFvn`
+IMP | `455635ECDB048BC446820490B3539B1C`
+PESHA1 | `199F6DE09424B91290B876DDABEBC1EFC5BB6FCB`
+PE256 | `11CCE4D11B1D4C1FDEFE3ACDBD195934A6C8B4669AD10F9E6A59EFB07E1452AB`
 
 ## Runtime Data
 
@@ -24,22 +28,14 @@ SSDEEP | `1536:hR9tTsigVdKpRTuZmqZDu6ehbi44voz8kDhvTb:vovdKpFuZmiDu6IG44AzlFvn`
 
 Path |
 -- |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
 C:\Windows\system32\SystemUWPLauncher.exe |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\SYSTEM32\usermgrcli.dll |
 
 
 ## Signature
@@ -59,6 +55,12 @@ C:\Windows\SYSTEM32\usermgrcli.dll |
 * Product Version: 10.0.19041.388
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/510ede28028a3bbbaed028804ae5f0d8e5a5864f134021476b0a006a8e69be2c/detection/
 
 
 

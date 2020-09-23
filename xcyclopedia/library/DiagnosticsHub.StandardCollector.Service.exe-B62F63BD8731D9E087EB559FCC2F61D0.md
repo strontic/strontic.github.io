@@ -1,5 +1,6 @@
 ﻿---
 title: DiagnosticsHub.StandardCollector.Service.exe | Microsoft (R) Diagnostics Hub Standard Collector
+excerpt: What is DiagnosticsHub.StandardCollector.Service.exe?
 ---
 
 # DiagnosticsHub.StandardCollector.Service.exe 
@@ -43,6 +44,7 @@ Unrecognized option: -help
 * Product Version: 11.00.14393.3564
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

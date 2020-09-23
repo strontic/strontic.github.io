@@ -1,5 +1,6 @@
 ﻿---
 title: WWAHost.exe | Microsoft WWA Host
+excerpt: What is WWAHost.exe?
 ---
 
 # WWAHost.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\WWAHost.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

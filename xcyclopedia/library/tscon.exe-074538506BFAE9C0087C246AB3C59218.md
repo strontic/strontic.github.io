@@ -1,5 +1,6 @@
 ﻿---
 title: tscon.exe | Session Connection Utility
+excerpt: What is tscon.exe?
 ---
 
 # tscon.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:DkDdlQS/hFkOcDz6N4s7vyOCE155bjSkF9cyF9x2M/sD2VcobeeO5zWjPgW:Dolv/T
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

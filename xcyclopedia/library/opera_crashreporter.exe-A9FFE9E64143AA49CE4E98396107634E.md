@@ -1,5 +1,6 @@
 ﻿---
 title: opera_crashreporter.exe | Opera crash-reporter
+excerpt: What is opera_crashreporter.exe?
 ---
 
 # opera_crashreporter.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 70.0.3728.133
 * Language: English (United States)
 * Legal Copyright: Copyright Opera Software 2020
+
 
 
 

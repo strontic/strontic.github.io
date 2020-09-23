@@ -1,5 +1,6 @@
 ﻿---
 title: lossyWAV.exe | lossyWAV - WAV file bit reduction method, www.hydrogenaudio.org
+excerpt: What is lossyWAV.exe?
 ---
 
 # lossyWAV.exe 
@@ -108,6 +109,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.1.0
 * Language: English (United Kingdom)
 * Legal Copyright: GNU GPLv3+ License, Copyleft
+
 
 
 

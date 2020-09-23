@@ -1,5 +1,6 @@
 ﻿---
 title: gui-32.exe | 
+excerpt: What is gui-32.exe?
 ---
 
 # gui-32.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

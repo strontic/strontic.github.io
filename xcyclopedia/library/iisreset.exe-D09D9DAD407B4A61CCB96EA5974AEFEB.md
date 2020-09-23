@@ -1,5 +1,6 @@
 ﻿---
 title: iisreset.exe | IIS control command line utility
+excerpt: What is iisreset.exe?
 ---
 
 # iisreset.exe 
@@ -70,6 +71,7 @@ conhost.exe
 * Product Version: 10.0.14393.0
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

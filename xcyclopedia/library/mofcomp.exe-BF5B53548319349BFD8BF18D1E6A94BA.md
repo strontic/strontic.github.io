@@ -1,5 +1,6 @@
 ﻿---
 title: mofcomp.exe | The Managed Object Format (MOF) Compiler 
+excerpt: What is mofcomp.exe?
 ---
 
 # mofcomp.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:GxnKeV5c2bFJFKFSB5XOo/o1cI6Kbl6lF3yPoatrgxgaWsoWyns6:GIUb7FKFvXBY3
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

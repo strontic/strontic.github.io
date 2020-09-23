@@ -1,5 +1,6 @@
 ﻿---
 title: SynReflash.exe | TouchPad Reflash
+excerpt: What is SynReflash.exe?
 ---
 
 # SynReflash.exe 
@@ -39,6 +40,7 @@ SSDEEP | `24576:6nQNZz4L5PWFIutBzQ1zCjakbmq920WDU5VM0XS:GsEwzQ1zCjakbd2NU56CS`
 * Product Version: 19.0.12.95 06Jul15
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2015
+
 
 
 

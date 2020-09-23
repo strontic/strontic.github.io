@@ -1,5 +1,6 @@
 ﻿---
 title: GrLauncher.exe | GrLauncher
+excerpt: What is GrLauncher.exe?
 ---
 
 # GrLauncher.exe 
@@ -69,6 +70,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.1.0.7
 * Language: Korean (Korea)
 * Legal Copyright: Copyright(C) Gretech Corp. All rights reserved. Since 2003
+
 
 
 

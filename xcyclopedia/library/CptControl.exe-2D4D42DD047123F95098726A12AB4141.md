@@ -1,5 +1,6 @@
 ﻿---
 title: CptControl.exe | Zoom Sharing Controller
+excerpt: What is CptControl.exe?
 ---
 
 # CptControl.exe 
@@ -37,6 +38,7 @@ SSDEEP | `1536:0Ss3LCsBbu/1IMgAzxOEb0XpocwZANfyrNsPR9e8aqL8Ufj:0Ss3LpgNVg8OEb0Xp
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: newdev.exe | Device driver software installation
+excerpt: What is newdev.exe?
 ---
 
 # newdev.exe 
@@ -17,6 +18,9 @@ SHA256 | `DE9849562A31642DCE4C12683E7769D52C58B11C45B92186989DC5672C77BCCB`
 SHA384 | `4E68593A36358D81AFCD0021952C558EBDC39B49F27189086663DADDB5CD60095D38FAA72EF5485B7D1183146529485B`
 SHA512 | `75F97A317D1BB60E989B2E581E832D28146FAFB23AB39FEB90C5766A632F73CE4A8E02EA3F8F2FB24FC50E21D462B3DC1AF8884C80AB4948DCBE02B87EA1251D`
 SSDEEP | `1536:uxXicfJw+ay02+G3CJfFrGUUUUUUUUUUUU3+:tcSz6+fJh`
+IMP | `C601175EC89061A8970A843D93305533`
+PESHA1 | `F4162B6860EF1CB097CBE8CA02ACDEEE5476F7BA`
+PE256 | `20C95C3134C19D40E839A4954AC644B9964464513856FA6FDD7D1C475C534D0B`
 
 ## Runtime Data
 
@@ -24,14 +28,18 @@ SSDEEP | `1536:uxXicfJw+ay02+G3CJfFrGUUUUUUUUUUUU3+:tcSz6+fJh`
 
 Path |
 -- |
+C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\system32\newdev.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -54,6 +62,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 5.2.3668.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/de9849562a31642dce4c12683e7769d52c58b11c45b92186989dc5672c77bccb/detection/
 
 ## File Similarity (ssdeep match)
 

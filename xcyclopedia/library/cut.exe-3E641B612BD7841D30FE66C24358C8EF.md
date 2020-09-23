@@ -1,5 +1,6 @@
 ﻿---
 title: cut.exe | 
+excerpt: What is cut.exe?
 ---
 
 # cut.exe 
@@ -84,6 +85,7 @@ Try '/usr/bin/cut --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

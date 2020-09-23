@@ -1,5 +1,6 @@
 ﻿---
 title: DevicePairingWizard.exe | Device Pairing Application
+excerpt: What is DevicePairingWizard.exe?
 ---
 
 # DevicePairingWizard.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:SteGfjBEo/nOQuodJmo9pgjtueZBnyb24G0In3BhzhWM1GOVz17B:eeujBEw92jM8n
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

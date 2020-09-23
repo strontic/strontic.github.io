@@ -1,5 +1,6 @@
 ﻿---
 title: wscadminui.exe | Windows Security Center Elevated UI App
+excerpt: What is wscadminui.exe?
 ---
 
 # wscadminui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:+onf1X+eAxi2Ytsp203WDLDGjQ5HUCUuD5MOtmKEWThRWw3jI:+6fR+eAxHYwBLeZjD
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

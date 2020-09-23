@@ -1,5 +1,6 @@
 ﻿---
 title: DFDWiz.exe | Windows Disk Diagnostic User Resolver
+excerpt: What is DFDWiz.exe?
 ---
 
 # DFDWiz.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:gnm5UETuFLczkNQ9GHQx4oj0GZND7k1Uk9wFO6Omc0G0zmjuHShGF:XS9g9nZDjO6D
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

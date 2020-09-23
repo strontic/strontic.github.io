@@ -1,5 +1,6 @@
 ﻿---
 title: FoxitUpdater.exe | Foxit Updater
+excerpt: What is FoxitUpdater.exe?
 ---
 
 # FoxitUpdater.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.1.35811
 * Language: Language Neutral
 * Legal Copyright: Copyright  2004-2020 Foxit Software Inc. All Rights Reserved.
+
 
 
 

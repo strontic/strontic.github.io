@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCLNWZ.EXE | Microsoft IME 2012
+excerpt: What is IMTCLNWZ.EXE?
 ---
 
 # IMTCLNWZ.EXE 
@@ -39,6 +40,7 @@ SSDEEP | `1536:aolrgNxGltfbw2X/0xS2hQLbZ7GokSr0pHnxjNqcG5yObqs:lGxG7fbw2X/+/Q/ZS
 * Product Version: 15.0.9600.17415
 * Language: Language Neutral
 * Legal Copyright:  2012 Microsoft Corporation.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

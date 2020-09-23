@@ -1,5 +1,6 @@
 ﻿---
 title: TpmInit.exe | TPM Initialization Wizard
+excerpt: What is TpmInit.exe?
 ---
 
 # TpmInit.exe 
@@ -40,6 +41,7 @@ SSDEEP | `1536:s6/XFhLJWzBBgQ63Z0NpluGiceY0lA3CJHkxUM:sIFhLot7NpEPYfSFkx1`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

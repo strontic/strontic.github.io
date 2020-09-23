@@ -1,5 +1,6 @@
 ﻿---
 title: label.exe | Disk Label Utility
+excerpt: What is label.exe?
 ---
 
 # label.exe 
@@ -17,6 +18,9 @@ SHA256 | `5B63CDAA6B386340186D48FCA6687B51D666F4457C1D1228C4915BDD2917A315`
 SHA384 | `1268DCD2DF01398F462C736D3C7E0615E8331C014B0D9599FB17508E7811EFD630DF953C9D1B442E5F7542C483FCE684`
 SHA512 | `CD193F836EAE332A6C5F6BF47D4B8ACC8C8E469DDCC3AA068CC9E8EF209AB77AFB73E9122728B3CD0788D4D8753785CBCD4877BF72022E29FAF2D70994CA728A`
 SSDEEP | `384:9IKr+PAtNL+TlYeRycSXIl6Xsh/QWSCjW:9Iw+ItNqTKeAXIoXsh//`
+IMP | `9D31AD7E7AE990941EB6693E119F8284`
+PESHA1 | `5985A9808DBBDBCDBC92A36B5ECCBD6CBE4E4095`
+PE256 | `A47BD6707627BC976DC9B9C754154FDD6321385369C38AA85033F03753CB6118`
 
 ## Runtime Data
 
@@ -64,6 +68,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/5b63cdaa6b386340186d48fca6687b51d666f4457c1d1228c4915bdd2917a315/detection/
 
 
 ## Possible Misuse
@@ -72,9 +82,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt29_grizzly_steppe.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt29_grizzly_steppe.yar) |       $ = "\x0D\x0AVolume label: " | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_Excel4Macro_Sharpshooter.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_Excel4Macro_Sharpshooter.yar) |         // ' 0018     23 LABEL : Cell Value, String Constant - build-in-name 1 Auto_Open | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_win_privesc.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_win_privesc.yar) | 		$s1 = "<Label x:Name=\"lblPort\" Content=\"Port:\"  HorizontalAlignment=\"Left\" Height=\"28\" Margin=\"10,0,0,0\" Width=\"35\"/>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_apt29_grizzly_steppe.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt29_grizzly_steppe.yar) | $ = "\x0D\x0AVolume label: " | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_Excel4Macro_Sharpshooter.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_Excel4Macro_Sharpshooter.yar) | // ' 0018     23 LABEL : Cell Value, String Constant - build-in-name 1 Auto_Open | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_win_privesc.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_win_privesc.yar) | $s1 = "<Label x:Name=\"lblPort\" Content=\"Port:\"  HorizontalAlignment=\"Left\" Height=\"28\" Margin=\"10,0,0,0\" Width=\"35\"/>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

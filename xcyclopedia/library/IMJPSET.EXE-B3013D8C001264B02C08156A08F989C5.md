@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPSET.EXE | Microsoft IME
+excerpt: What is IMJPSET.EXE?
 ---
 
 # IMJPSET.EXE 
@@ -70,6 +71,7 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

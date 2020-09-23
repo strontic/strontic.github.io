@@ -1,5 +1,6 @@
 ﻿---
 title: LaunchTM.exe | Task Manager Launcher
+excerpt: What is LaunchTM.exe?
 ---
 
 # LaunchTM.exe 
@@ -40,6 +41,7 @@ Taskmgr.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

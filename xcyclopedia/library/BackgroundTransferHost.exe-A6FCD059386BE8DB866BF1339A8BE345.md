@@ -1,5 +1,6 @@
 ﻿---
 title: BackgroundTransferHost.exe | Download/Upload Host
+excerpt: What is BackgroundTransferHost.exe?
 ---
 
 # BackgroundTransferHost.exe 
@@ -17,6 +18,9 @@ SHA256 | `62B52F9594BDD96E73B2A21944977229786D4F4C421EB0F353C310B71A56C9AA`
 SHA384 | `62C1474DC62756C6BCFC9CA2FEAA832A4E90D56C123D8F9A4E9862423EEB33C9227B75B7D87A50DB5F46F19DC411ABB2`
 SHA512 | `E2C122CC16B3B675EC533FB780D09F10058163D33D1B90770E34A9121DE0DDD12F503AD8130CE7DD18675D1875ACB83EE13776E7EA7343789016944939B72835`
 SSDEEP | `384:of2V54xSVFSkVXWDUcHbImbsp2Ywe6j5W0ggWbQE0g7qW2RPT/8rFeZmJhk:o0ykVXWRje6j0T2a`
+IMP | `43BA7C14F952D3784267C6946F79BD81`
+PESHA1 | `DFD56445663D30D831043453703290436CA792CA`
+PE256 | `C4EE30E19B51F2BA47BC2B6CA88D81ED3320DE0FDBCCD3F62BF7023F590CBD9A`
 
 ## Runtime Data
 
@@ -25,7 +29,10 @@ SSDEEP | `384:of2V54xSVFSkVXWDUcHbImbsp2Ywe6j5W0ggWbQE0g7qW2RPT/8rFeZmJhk:o0ykVX
 Path |
 -- |
 C:\Windows\system32\BackgroundTransferHost.exe |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\System32\clbcatq.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -37,8 +44,8 @@ C:\Windows\System32\ucrtbase.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -51,6 +58,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/62b52f9594bdd96e73b2a21944977229786d4f4c421eb0f353c310b71a56c9aa/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: IDTNJ.exe | IDT PC Audio
+excerpt: What is IDTNJ.exe?
 ---
 
 # IDTNJ.exe 
@@ -41,6 +42,7 @@ SSDEEP | `1536:jeHYIo2MG+cicUSwmP1zo0abJw3mi6zo0abJw31WJ6RGVJxiVhV:j106JwWiz06Jw
 * Product Version: 1.0.6491.0
 * Language: English (United States)
 * Legal Copyright: Copyright  2004 - 2009 IDT, Inc.
+
 
 
 

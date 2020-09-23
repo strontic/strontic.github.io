@@ -1,5 +1,6 @@
 ﻿---
 title: InputPersonalization.exe | Input Personalization Server
+excerpt: What is InputPersonalization.exe?
 ---
 
 # InputPersonalization.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

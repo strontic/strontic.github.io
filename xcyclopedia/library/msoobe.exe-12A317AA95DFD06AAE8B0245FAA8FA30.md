@@ -1,5 +1,6 @@
 ﻿---
 title: msoobe.exe | MSOOBE EXE
+excerpt: What is msoobe.exe?
 ---
 
 # msoobe.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:t4dS+pqv1VOxPVzvPA4MF7NygUJXyw/hP2IAvchp:t4dS+pi1VOxVzQd7UXyyhIvc
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesDataExecutionPrevention.exe | Change Data Execution Prevention Settings
+excerpt: What is SystemPropertiesDataExecutionPrevention.exe?
 ---
 
 # SystemPropertiesDataExecutionPrevention.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Y2ZtREC/rMcgEPJV+G57ThjEC0kzJP+V5JF:bZzECTMpuDhjRVJG7`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: fvenotify.exe | BitLocker Drive Encryption Notification Utility
+excerpt: What is fvenotify.exe?
 ---
 
 # fvenotify.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:s8QDYpxKs6HELN4y7YrZEyqvkTPwnVS570M9kdatGCO+xmBc+hMPhPsx:pQTH4N4Q
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

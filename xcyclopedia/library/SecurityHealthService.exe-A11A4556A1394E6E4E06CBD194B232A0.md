@@ -1,5 +1,6 @@
 ﻿---
 title: SecurityHealthService.exe | Windows Security Health Service
+excerpt: What is SecurityHealthService.exe?
 ---
 
 # SecurityHealthService.exe 
@@ -43,6 +44,7 @@ Unknown switch.
 * Product Version: 4.18.1807.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

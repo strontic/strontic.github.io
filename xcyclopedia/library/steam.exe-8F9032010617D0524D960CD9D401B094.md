@@ -1,5 +1,6 @@
 ﻿---
 title: steam.exe | Steam Client Bootstrapper
+excerpt: What is steam.exe?
 ---
 
 # steam.exe 
@@ -44,6 +45,7 @@ steamwebhelper.exe
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2010 Valve Corporation
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: OpenWith.exe | Pick an app
+excerpt: What is OpenWith.exe?
 ---
 
 # OpenWith.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Hu7g+wNGlCpntLJE41YEQ7yz09XfKQTzBNer+CE+Ge+yiyP1rf:x+wNwCptL1YGEv
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

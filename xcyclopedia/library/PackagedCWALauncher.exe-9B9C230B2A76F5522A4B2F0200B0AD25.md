@@ -1,5 +1,6 @@
 ﻿---
 title: PackagedCWALauncher.exe | Packaged CWA Launcher
+excerpt: What is PackagedCWALauncher.exe?
 ---
 
 # PackagedCWALauncher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:r6BYjPXvCCa0lXcxHWJS62GWSXrkhojoLu+oWU9+WSiKmESarHYS8Y:eBACCaifIqr
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

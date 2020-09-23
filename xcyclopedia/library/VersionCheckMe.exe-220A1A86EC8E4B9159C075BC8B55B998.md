@@ -1,5 +1,6 @@
 ﻿---
 title: VersionCheckMe.exe | VersionCheckMe Application
+excerpt: What is VersionCheckMe.exe?
 ---
 
 # VersionCheckMe.exe 
@@ -61,6 +62,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 1.0.0.1
 * Language: English (United States)
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

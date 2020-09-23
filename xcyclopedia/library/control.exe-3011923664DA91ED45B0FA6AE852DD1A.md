@@ -1,5 +1,6 @@
 ﻿---
 title: control.exe | Windows Control Panel
+excerpt: What is control.exe?
 ---
 
 # control.exe 
@@ -17,6 +18,9 @@ SHA256 | `54D9F98F36BC5511D281318B8022002F74AD30B6383696E861220E15EE68E5A3`
 SHA384 | `98AE8CC78B1E74D2F0A6CD6B5F32567B80B3C2092E0682E81E4418BD2407EAE3C13E8681B9B577B522C5E5E9EDECBA6A`
 SHA512 | `F09F07F6285A7ED8AB6066F95EC4C770378D40282D41ED65D3CC7DE701EC73506053BADE2AF0D34C98DF8E6CEF4CFBB77A22B6C63B1C179E27FF53D2BC0A6AF3`
 SSDEEP | `3072:tCPVV7dL01mNUug7Sp5+1k12b/Af885RK:tCtVZi7+5+1kf15`
+IMP | `ED7ECF5DCE55D515F7FE036FCAEBFF1A`
+PESHA1 | `191F24AF6F8B7D227ACD9944247824BBA5A334E4`
+PE256 | `9DD0AB521FF0F56FDEAD107709DB7A598F63AB9C0F9FC09205561FC95011FFE9`
 
 ## Runtime Data
 
@@ -25,30 +29,20 @@ SSDEEP | `3072:tCPVV7dL01mNUug7Sp5+1k12b/Af885RK:tCtVZi7+5+1kf15`
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\system32\control.exe |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -61,6 +55,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/54d9f98f36bc5511d281318b8022002f74ad30b6383696e861220e15ee68e5a3/detection/
 
 ## File Similarity (ssdeep match)
 

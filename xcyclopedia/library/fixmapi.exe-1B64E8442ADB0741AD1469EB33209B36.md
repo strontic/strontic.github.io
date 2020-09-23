@@ -1,5 +1,6 @@
 ﻿---
 title: fixmapi.exe | FIXMAPI 1.0 MAPI Repair Tool
+excerpt: What is fixmapi.exe?
 ---
 
 # fixmapi.exe 
@@ -17,6 +18,9 @@ SHA256 | `E77C39972273CE22AF4FB971FD08108FB6F6C02F97C92260F4EB9D31CDBE39C0`
 SHA384 | `C491ECB7E67140DE399362D3100A921AC5B6A8B99798A16027A71CBA9A3A2BDE6A49467B0FB099A185FD13F6949165DD`
 SHA512 | `76CF6D6C15AB52FF4DB4011B6EC88560BB1D2F20A7242B454D60C6521B294197798CDB8A9F92F8920404264D030C9D91D3E22B5C8375683A7D45264649CE7E1E`
 SSDEEP | `384:qwKMEQb8/xjDHLBNl3MyzTOeS2fy9LDE/LDEdTnRkT/erue/4WbnWqw:3TirBNlzzTO9lYeVd`
+IMP | `671476B97F9417A9DD566A255C7365DD`
+PESHA1 | `46DD6BB53884FE4F32B1BAA41EA2F342817073DA`
+PE256 | `50054C0FCD3B8B24A8EE106B535EB94BBCC416C512E129E06CD267A8E7216D47`
 
 ## Runtime Data
 
@@ -30,11 +34,7 @@ C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 
@@ -42,8 +42,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -56,6 +56,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/e77c39972273ce22af4fb971fd08108fb6f6c02f97c92260f4eb9d31cdbe39c0/detection/
 
 ## File Similarity (ssdeep match)
 

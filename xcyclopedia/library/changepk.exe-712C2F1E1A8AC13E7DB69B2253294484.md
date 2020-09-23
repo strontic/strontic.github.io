@@ -1,5 +1,6 @@
 ﻿---
 title: changepk.exe | Windows Activation
+excerpt: What is changepk.exe?
 ---
 
 # changepk.exe 
@@ -59,6 +60,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

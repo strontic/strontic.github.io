@@ -1,5 +1,6 @@
 ﻿---
 title: RdpSaProxy.exe | RDP Session Agent Proxy
+excerpt: What is RdpSaProxy.exe?
 ---
 
 # RdpSaProxy.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:/L5k/aLdITBPd0f/X5J19YFN1X/Gg/ZEv9WB9VW:j5fRsBPdO/f1i3Gv2`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

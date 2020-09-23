@@ -1,5 +1,6 @@
 ﻿---
 title: tzutil.exe | Windows Time Zone Utility
+excerpt: What is tzutil.exe?
 ---
 
 # tzutil.exe 
@@ -17,6 +18,9 @@ SHA256 | `BF331CDF306FE1D01A5B4B81B898A268D0D1C8461C4AEDA19D5C67F5FAD981B1`
 SHA384 | `416AE7EB5677B7760067892AC4019ADFEC6B26A49FCD57F70667B606A8E2D26DC19F6A28D5EDBC533AF8D54F2510254E`
 SHA512 | `3341C6AE65C4604792ED64900BB4E7E713E60148ECB9AAB88C0108F1E6C21AF2311289137C2D5D6F32A1CDDF3157E8B52FDE55FB607719D0D47F64B1A77F2D51`
 SSDEEP | `768:r4gjGXBwJDkHlyVm9h8oxpIHskL9sl7R8FNjprT3lxyVO1VTO+Uvxxi8oOWx:kgjG2JDkQYbBpyskLSKBHuiE5oOWx`
+IMP | `B4940EAAD48DE4C33FFFA56E15249A7A`
+PESHA1 | `C30C6920FD54287234AE20051EF4752F17E0F38F`
+PE256 | `43F52E3DED69A9053B30359DA961E55A42CFEAB492DDA173D935A800BD7B8FFE`
 
 ## Runtime Data
 
@@ -65,8 +69,8 @@ C:\Windows\system32\tzutil.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -79,6 +83,12 @@ C:\Windows\system32\tzutil.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/bf331cdf306fe1d01a5b4b81b898a268d0d1c8461c4aeda19d5c67f5fad981b1/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -100,36 +110,47 @@ File | Score
 Displays the Windows Time Zone utility.
 
 ### Syntax
-```
-tzutil [/?] [/g] [/s <timeZoneID>[_dstoff]] [/l]
-```
-##### Parameters
-|Parameter|Description|
-|-------|--------|
-|/?|Displays help at the command prompt.|
-|/g|Displays the current time zone ID.|
-|/s \<timeZoneID>[_dstoff]|Sets the current time zone using the specified time zone ID. The **_dstoff** suffix disables Daylight Saving time adjustments for the time zone (where applicable).|
-|/l|lists all valid time zone IDs and display names. The output will be:<p>-   \<display name><br />-   \<time zone ID>|
 
-### Remarks
+```
+tzutil [/?] [/g] [/s <timezoneID>[_dstoff]] [/l]
+```
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /g | Displays the current time zone ID. |
+| /s `<timezoneID>[_dstoff]` | Sets the current time zone using the specified time zone ID. The **_dstoff** suffix disables Daylight Saving time adjustments for the time zone (where applicable). Your value must be surrounded by quotes. |
+| /l | Lists all valid time zone IDs and display names. The output appears as:<ul><li>`<display name>`</li><li>`<time zone ID>`</li></ul> |
+| /? | Displays help at the command prompt. |
+
+##### Remarks
+
 An exit code of **0** indicates the command completed successfully.
 
 ### Examples
+
 To display the current time zone ID, type:
+
 ```
 tzutil /g
 ```
-To set the current time zone to Pacific Standard time, type:
-```
-tzutil /s Pacific Standard time
-```
-To set the current time zone to Pacific Standard time and disable Daylight Saving time adjustments, type:
-```
-tzutil /s Pacific Standard time_dstoff
-```
-### Additional References
-- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
+To set the current time zone to Pacific Standard time, type:
+
+```
+tzutil /s "Pacific Standard time"
+```
+
+To set the current time zone to Pacific Standard time and disable Daylight Saving time adjustments, type:
+
+```
+tzutil /s "Pacific Standard time_dstoff"
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
 

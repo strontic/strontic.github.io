@@ -1,5 +1,6 @@
 ﻿---
 title: DeviceEject.exe | Eject Device
+excerpt: What is DeviceEject.exe?
 ---
 
 # DeviceEject.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:mfAm+y3Vvrc92z0DOZ969eNopxWvyDyK5TYWpwWJJY0ehA/9gnl0:mAczcq0D19eg0
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

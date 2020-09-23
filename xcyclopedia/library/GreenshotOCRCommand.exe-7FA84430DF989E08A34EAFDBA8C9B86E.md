@@ -1,5 +1,6 @@
 ﻿---
 title: GreenshotOCRCommand.exe | GreenshotOCRCommand
+excerpt: What is GreenshotOCRCommand.exe?
 ---
 
 # GreenshotOCRCommand.exe 
@@ -50,6 +51,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.2.10.6-RELEASE-c2414cf0149a1475ea00520effc01b40087c225c
 * Language: Language Neutral
 * Legal Copyright: Greenshot
+
 
 
 

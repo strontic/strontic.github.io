@@ -1,5 +1,6 @@
 ﻿---
 title: change.exe | Remote Desktop Services Change Utility
+excerpt: What is change.exe?
 ---
 
 # change.exe 
@@ -58,6 +59,7 @@ C:\Windows\SysWOW64\change.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

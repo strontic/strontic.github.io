@@ -1,5 +1,6 @@
 ﻿---
 title: sed.exe | 
+excerpt: What is sed.exe?
 ---
 
 # sed.exe 
@@ -134,6 +135,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: WinBioDataModelOOBE.exe | WinBioDataModel OOBE
+excerpt: What is WinBioDataModelOOBE.exe?
 ---
 
 # WinBioDataModelOOBE.exe 
@@ -17,6 +18,9 @@ SHA256 | `0F8FF7B4506B083D87A2759D7959CBE8E8F7485D17DC40FA97327473FCAF113D`
 SHA384 | `ABEEF9A60E90BBC6A1C5C2DB0D72E91897B792A40E47AD66FA159DE500E3A2B9B9694A2FC21AE32E6DF9D5A3B0677D07`
 SHA512 | `47B6FBB37908FFABBFF1BCA52A55978325086FA8F12AC8A2EEA748DC882E2DE878BBD4FAF8608DD088B2C92EE30F2DCCA8D7C2342E9CB2058B567A2669223652`
 SSDEEP | `1536:ZEZyXaYgpfcmho5TYdb16C70ixioQNFo9pQIa4LDyTTfGF9o:qwxmhS0Xxi5joHQIpHyT7Gk`
+IMP | `B715BA90BF8C6071611DBD2C43347A2A`
+PESHA1 | `4C6D87432106A6FC043837EA9251A5BEB3F2B379`
+PE256 | `EB301E35FCBCEF2ECBD584A7EA50F620384AE441FCE73F7BA60523F6A19EFAAF`
 
 ## Runtime Data
 
@@ -38,8 +42,8 @@ C:\Windows\system32\WinBioDataModelOOBE.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -52,6 +56,12 @@ C:\Windows\system32\WinBioDataModelOOBE.exe |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/0f8ff7b4506b083d87a2759d7959cbe8e8f7485d17dc40fa97327473fcaf113d/detection/
 
 ## File Similarity (ssdeep match)
 

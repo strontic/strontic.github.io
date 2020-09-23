@@ -1,5 +1,6 @@
 ﻿---
 title: vulkaninfo-1-999-0-0-0.exe | Vulkan Info
+excerpt: What is vulkaninfo-1-999-0-0-0.exe?
 ---
 
 # vulkaninfo-1-999-0-0-0.exe 
@@ -59,6 +60,7 @@ OPTIONS:
 * Product Version: 1.1.82.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2015-2018
+
 
 ## File Similarity (ssdeep match)
 

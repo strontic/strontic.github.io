@@ -1,5 +1,6 @@
 ﻿---
 title: pathchk.exe | 
+excerpt: What is pathchk.exe?
 ---
 
 # pathchk.exe 
@@ -61,6 +62,7 @@ Try '/usr/bin/pathchk --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

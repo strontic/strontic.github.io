@@ -1,5 +1,6 @@
 ﻿---
 title: gpupdate.exe | Microsoft Group Policy Update Utility
+excerpt: What is gpupdate.exe?
 ---
 
 # gpupdate.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:6GCX4/WACGZU612fNck+iEQlYQXvTX2H7mIo9PkqkSWFeDWN6ef4:6GCrACXfNB+iE
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

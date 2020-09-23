@@ -1,5 +1,6 @@
 ﻿---
 title: tracerpt.exe | Event Trace Report Tool
+excerpt: What is tracerpt.exe?
 ---
 
 # tracerpt.exe 
@@ -17,6 +18,9 @@ SHA256 | `92B0511FA56E758D69B2B8861B8CF35F3ADC0BE2C127CC9476B75C6B2C3D53DA`
 SHA384 | `69E76E174B9A9C76C18B7A8B638DBC6B9B29CC1B7EDB1C301C26B5E4CF6AEC96EA4F2D12ACE2FF7462BCDF6A1781061A`
 SHA512 | `84F417C8BB8BA64A2B0D8C04F09DA24CA89CA94D941C8E9569CE700A8E2AA96056BD4476DE9B2FFF9A15A809D25CB5047C498EDB9DE4E0B84CE93F618CDC49BA`
 SSDEEP | `6144:9wGD0ahxQAuuYiAwlUZhj2AZ5H2XTnRNXI7MNi5gQrGVBOMbq3hsv028T:lD0agAuuYiAhVZ5c8oBJFr`
+IMP | `46E5DA1ED3EC55407D760ABB247DEF1C`
+PESHA1 | `3AA4CDA8434ADC95F73113C23FB9600593EF9DD8`
+PE256 | `4A2A5666A80E3997CDFA2BE85F057C70BF674B7015B01BFFAE00110C3476F4D8`
 
 ## Runtime Data
 
@@ -92,8 +96,8 @@ C:\Windows\system32\tracerpt.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -106,6 +110,12 @@ C:\Windows\system32\tracerpt.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/92b0511fa56e758d69b2b8861b8cf35f3adc0be2c127cc9476b75c6b2c3d53da/detection/
 
 
 

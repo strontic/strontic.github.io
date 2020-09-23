@@ -1,5 +1,6 @@
 ﻿---
 title: nlbmgr.exe | Network Load Balancing management client
+excerpt: What is nlbmgr.exe?
 ---
 
 # nlbmgr.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:xYhLX8A43oVJDuTCkGNMwt6Jeu1xWk/2yL5Cj0H/i59KfHPf:xOz8A43Iu8WwAJD1
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

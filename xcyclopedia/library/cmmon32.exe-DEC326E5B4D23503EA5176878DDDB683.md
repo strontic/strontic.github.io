@@ -1,5 +1,6 @@
 ﻿---
 title: cmmon32.exe | Microsoft Connection Manager Monitor
+excerpt: What is cmmon32.exe?
 ---
 
 # cmmon32.exe 
@@ -17,11 +18,11 @@ SHA256 | `0032CD8F78472C45C2030441CB3446BAD5A632BB149DA0AC76F3B6FC2647BA33`
 SHA384 | `ECD7FC7E504A94DCE80D8437336569775B7AE8728E5151CB18D9503BD2BE46D1725BF406573A2FF930D100180A03D148`
 SHA512 | `EDA377BB4EF7947BA2E3F208AA6315E4AD697FBEBF770DD7F9B81E78B14B64ADA0C6F98ECD0037EAB6CDAA03D3701A961A41748D25220D0EC4F570E4C6C6CCAA`
 SSDEEP | `768:THDnOXh9UwynApgeI3PG3nT3m6jgjF2SGFvFiJz5tKA+n3HJ:THD69ieI3PG3jmFadUN5tKA+3p`
+IMP | `D3E67DC5271176E155375662C3682D3F`
+PESHA1 | `A2989E03285DC6D3CD7582BDEE854426F3679950`
+PE256 | `E6445EB98FF12154887780AE8B22D9C4849CB2BDB885845CDFEF19293FA389A1`
 
 ## Runtime Data
-
-### Child Processes:
-iTunesHelper.exe
 
 ### Loaded Modules:
 
@@ -29,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\cmmon32.exe |
 
@@ -50,6 +52,12 @@ C:\Windows\SysWOW64\cmmon32.exe |
 * Product Version: 7.2.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/0032cd8f78472c45c2030441cb3446bad5a632bb149da0ac76f3b6fc2647ba33/detection/
 
 ## File Similarity (ssdeep match)
 

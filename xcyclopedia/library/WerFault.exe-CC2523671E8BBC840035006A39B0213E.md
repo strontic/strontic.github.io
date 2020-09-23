@@ -1,5 +1,6 @@
 ﻿---
 title: WerFault.exe | Windows Problem Reporting
+excerpt: What is WerFault.exe?
 ---
 
 # WerFault.exe 
@@ -17,6 +18,9 @@ SHA256 | `05EE1A3CE81C001F5B175B60C35D6A91EE8766DB9A18BCEFA8CE9B4B160182DB`
 SHA384 | `25CB9635401BB7880EB3AE70953D0B45E7CB741ABF3B82014F30CD9AC377070774D0D55FF99752B2BEC2A51B78118DB7`
 SHA512 | `5C443108C0205C83D360419AC83720C3F369A2FE4F99465250411700E3FF5B5F853A2753EB5231437FC4F5936CF1B7B50B5E8B19A3D2EEF3D20E3CCC7BCD5260`
 SSDEEP | `6144:XGz8dLTD3OoG+4ahurV4oAWHxbHozjQZkxkEwQWFL6qJdVdLKl2JRg+6FL1VJyBe:uF46LAWxbHozClQWFddgDFLzc2Hywv`
+IMP | `862AFF0B51DFEEABAB0230D4F6D5ADDD`
+PESHA1 | `A95360724E56D737FC4C7DEB34F65F1FDDB0FB46`
+PE256 | `17D22A16DE63C2E3AE6C64F128AB7ED958FD8AC8B42C701BA94ED88F1B4440BE`
 
 ## Runtime Data
 
@@ -24,19 +28,10 @@ SSDEEP | `6144:XGz8dLTD3OoG+4ahurV4oAWHxbHozjQZkxkEwQWFL6qJdVdLKl2JRg+6FL1VJyBe:
 
 Path |
 -- |
-C:\Windows\System32\bcrypt.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\system32\dbghelp.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\system32\wer.dll |
 C:\Windows\system32\WerFault.exe |
 
 
@@ -57,6 +52,12 @@ C:\Windows\system32\WerFault.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/05ee1a3ce81c001f5b175b60c35d6a91ee8766db9a18bcefa8ce9b4b160182db/detection/
 
 
 ## Possible Misuse

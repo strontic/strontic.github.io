@@ -1,5 +1,6 @@
 ﻿---
 title: MRINFO.EXE | Multicast Information
+excerpt: What is MRINFO.EXE?
 ---
 
 # MRINFO.EXE 
@@ -35,6 +36,7 @@ SSDEEP | `192:nqEqSJw174R8hrjcPI6AnKXCq+TYBpJn64HnWms9GikR3SPoWGkHIWc8WPh:NJw1ER
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: curl.exe | The curl executable
+excerpt: What is curl.exe?
 ---
 
 # curl.exe 
@@ -17,6 +18,9 @@ SHA256 | `126217CB9E37D9CF3B254E13A4E2B257FFFFAE54728892D00E868D56DE726071`
 SHA384 | `611FD29E435BB8744088CE608FAB7DC183F36877A65763B41D141C56FED6BB7E7F588EB088C86BE96BBAB6E9E4598D64`
 SHA512 | `77F25E22536DCC1DDDC0E7D4A309D8535E910D39FF3B5A390BC116E4602DE4D07312EDC4D87A654D8EBF93CCCE5EA5EEDD80E5F758283BD92629686166F9DC55`
 SSDEEP | `6144:L9a6KNoetW6yge/7hGgY1b2OFpG1PisLzZhKt8/6pSd1bG/e/XZwl6UId0Vv/Rk9:LvetW6yl/7hR8GNisLzLKtA6p7mVU20A`
+IMP | `1FAE21CBD5A980A07170C74DE0A3B416`
+PESHA1 | `03484C0DEB8E7D033D060B9875E380B3337D37CE`
+PE256 | `BA6729824B4B3DEC1A26ABD486CB01CB1EBBC188E6E9F092AF93ECB42138DABD`
 
 ## Runtime Data
 
@@ -250,15 +254,10 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -289,6 +288,12 @@ C:\Windows\SysWOW64\curl.exe |
 * Product Version: 7.55.1
 * Language: English (United States)
 * Legal Copyright:  1996 - 2017 Daniel Stenberg, <daniel@haxx.se>.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/126217cb9e37d9cf3b254e13a4e2b257ffffae54728892d00e868d56de726071/detection/
 
 
 ## Possible Misuse

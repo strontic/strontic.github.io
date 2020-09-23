@@ -1,5 +1,6 @@
 ﻿---
 title: imagemap.exe | 
+excerpt: What is imagemap.exe?
 ---
 
 # imagemap.exe 
@@ -56,6 +57,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

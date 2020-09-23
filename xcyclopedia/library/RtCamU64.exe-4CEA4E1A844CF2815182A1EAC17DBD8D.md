@@ -1,5 +1,6 @@
 ﻿---
 title: RtCamU64.exe | RtCamU
+excerpt: What is RtCamU64.exe?
 ---
 
 # RtCamU64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `49152:auRxdmhKVPyB2vXbUqXbE8sV3RykWSxJ6bxUwVi9tHuOqhDHdatbItMIj:atMIo1
 * Product Version: 1.11.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Realtek Semiconductor Corp.
+
 
 
 

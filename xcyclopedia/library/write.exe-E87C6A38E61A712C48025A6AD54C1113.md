@@ -1,5 +1,6 @@
 ﻿---
 title: write.exe | Windows Write
+excerpt: What is write.exe?
 ---
 
 # write.exe 
@@ -40,6 +41,7 @@ wordpad.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

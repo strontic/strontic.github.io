@@ -1,5 +1,6 @@
 ﻿---
 title: SettingSyncHost.exe | Host Process for Setting Synchronization
+excerpt: What is SettingSyncHost.exe?
 ---
 
 # SettingSyncHost.exe 
@@ -17,6 +18,9 @@ SHA256 | `73D8F23A1ACF635A39B2DCB8B37304658F6F84D1090AF961EA031EFAB833D916`
 SHA384 | `D4251DA3097702CFA5E62C5130BBA1A0594C6AED273919AC97F590A4530197452885A1445111B833BA8573137233BD23`
 SHA512 | `69A6FA5C93F0729BA54EE6F46E80AF09AEAB355A594EEB3CD7A830553969EADFAEF637042B1ABBD442B22F31A21E2A5F89105A6F447CEEF9BAB09424D0D9C932`
 SSDEEP | `24576:I8IflK01N/Jsr8YZD73W3Jdm0TzVYf7uA6:sfqD73+JPT5Yf7uf`
+IMP | `8049F9993FD0B0E41EDE568A3C5646B8`
+PESHA1 | `84948592B65113C2FC2E4AE3B2F26E900B538144`
+PE256 | `2C1AC310B4B9E42BA347FF11F39E4C93623FB99321D4D0C5E8076BEDDE4840B3`
 
 ## Runtime Data
 
@@ -31,6 +35,7 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\system32\SettingSyncHost.exe |
+C:\Windows\System32\shcore.dll |
 C:\Windows\System32\ucrtbase.dll |
 
 
@@ -51,6 +56,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/73d8f23a1acf635a39b2dcb8b37304658f6f84d1090af961ea031efab833d916/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ttdinject.exe | Time Traver Debugging Application Injector
+excerpt: What is ttdinject.exe?
 ---
 
 # ttdinject.exe 
@@ -17,6 +18,9 @@ SHA256 | `149306318334A101F6647718519477713A7ED2E50759258881AB28F4F04F5FA7`
 SHA384 | `12217046EE4D7E9311D083F8B769BC30330DCEEC9E698D1B1469770F7645594EFC2EDB27CBD9C607A636398782FA6E29`
 SHA512 | `B195819AC82BB7257DBCC216FD21EC4497B96770F80EF8EA15C51731B10CCCB893EC36A4BE39D379BC3D28542F1A8D8FD54B6821133F1218F6A23EA693DFA6E0`
 SSDEEP | `6144:3LOdyc8ldPDGmSqJoCblTGq+yI/wSL/ZPELgaSdn:3L6yc6diqoCblTGq+XwSL/ZPEshh`
+IMP | `A3665E1917D2E20AE758DA35DCB10292`
+PESHA1 | `32A9CB1F46825B222DAD8C4431ABDBC94E7A2D41`
+PE256 | `A7CCE6F87ECB455A4E72D1FBA16521A32DFBF3449B3066F67AD0F0F6F4824295`
 
 ## Runtime Data
 
@@ -42,6 +46,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\ttdinject.exe |
 
@@ -63,6 +68,12 @@ C:\Windows\SysWOW64\ttdinject.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/149306318334a101f6647718519477713a7ed2e50759258881ab28f4f04f5fa7/detection/
 
 
 ## Possible Misuse

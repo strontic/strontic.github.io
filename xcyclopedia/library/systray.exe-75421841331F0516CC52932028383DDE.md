@@ -1,5 +1,6 @@
 ﻿---
 title: systray.exe | Systray .exe stub
+excerpt: What is systray.exe?
 ---
 
 # systray.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:txKsz2619X9iYxBg49DRE2DWPToCSRHiZHpUpvo8cceXkbOY8DJdMs2bKveLZiEY:Zz
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: directxdatabaseupdater.exe | DirectX Database Updater
+excerpt: What is directxdatabaseupdater.exe?
 ---
 
 # directxdatabaseupdater.exe 
@@ -53,6 +54,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.84
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

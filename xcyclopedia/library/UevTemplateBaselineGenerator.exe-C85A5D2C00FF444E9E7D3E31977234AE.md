@@ -1,5 +1,6 @@
 ﻿---
 title: UevTemplateBaselineGenerator.exe |  
+excerpt: What is UevTemplateBaselineGenerator.exe?
 ---
 
 # UevTemplateBaselineGenerator.exe 
@@ -21,6 +22,9 @@ SHA256 | `303BE386109BD9CF507B72F467AE9DDB22AE1B85FD05423DAFC9385624EB1053`
 SHA384 | `B9A381BC32DF7DAEC1C2CB0855D282774100F8052D4D8D8CA937323098D8A75CCE0412B0D482959B911B8D3FF626C4C0`
 SHA512 | `38CCE8A3702C87A99FF21D3176089A642DCC037889AC2C754666AF3BBE3FDA83CB06C4BD4741466D1D4574DF09D9464328D7390E85F42E71345706E578DD53BB`
 SSDEEP | `384:OwL8CUA6oNTSAkBcYKPdIQX6GIp056PMSK++WTJW9Z:Z4CbTSviBqYe+`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `66EA67C2A5A1AA5A2B48243BE26906B575E5D3E2`
+PE256 | `215D588F8C290FCE2BB56F2C5980B0D97A2E3C3DEDD35CAB88C910EAAC960F57`
 
 ## Runtime Data
 
@@ -36,18 +40,13 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -78,6 +77,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/303be386109bd9cf507b72f467ae9ddb22ae1b85fd05423dafc9385624eb1053/detection/
 
 ## File Similarity (ssdeep match)
 

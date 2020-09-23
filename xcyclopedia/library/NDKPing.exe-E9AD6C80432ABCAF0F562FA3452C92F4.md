@@ -1,5 +1,6 @@
 ﻿---
 title: NDKPing.exe | RDMA Ping Cmd
+excerpt: What is NDKPing.exe?
 ---
 
 # NDKPing.exe 
@@ -80,6 +81,7 @@ Error: Unable to stop NDKPing driver.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

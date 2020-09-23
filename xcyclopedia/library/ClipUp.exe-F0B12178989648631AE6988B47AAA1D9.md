@@ -1,5 +1,6 @@
 ﻿---
 title: ClipUp.exe | Client License Platform migration tool
+excerpt: What is ClipUp.exe?
 ---
 
 # ClipUp.exe 
@@ -62,6 +63,7 @@ Failed! Error 0x80070057.
 * Product Version: 10.0.14393.3503
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

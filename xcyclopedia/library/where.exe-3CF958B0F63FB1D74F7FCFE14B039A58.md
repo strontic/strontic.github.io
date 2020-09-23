@@ -1,5 +1,6 @@
 ﻿---
 title: where.exe | Where - Lists location of files
+excerpt: What is where.exe?
 ---
 
 # where.exe 
@@ -17,6 +18,9 @@ SHA256 | `A19F7B783BC5611095D577F5ECCC12069CA2B5E92BBE37F415429BB72C09792C`
 SHA384 | `AC0875D4E96AB610032EB01C7AE27F5A96FCE83673BF935ACA9C6D20ABF9FF5CB52E1F478F1F63532E242A6FE8D37B57`
 SHA512 | `7DAE44CC54B59A951D1F93E3426B76DD27FE88CFB374D0CD8861AF8D4CDE1116673829A8877DE70F27F4C5A3877DB728D64E9A968EBEA55359B1ADDB9173A6A4`
 SSDEEP | `768:L/lCZBqFV1UILaTYl+oJD6Fnv0DkxkbRG565ygKWkJ46RQ3/G8QDDxOB6G:RzV1bCYl+oJD6F8wA6uyRJ46RQ3/GJvU`
+IMP | `1B253A651AEF9DCAAFF94AFE777011D1`
+PESHA1 | `757C78DCF7E1143D9B5F77B6E782E494F5E80B57`
+PE256 | `862EC1F760452BD9FAA0B03A3036C35F9BC1A0A8B35BE937D708A434662DCA9B`
 
 ## Runtime Data
 
@@ -75,24 +79,6 @@ Type "WHERE /?" for usage help.
 
 ```
 
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\where.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -120,6 +106,12 @@ C:\Windows\system32\where.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/a19f7b783bc5611095d577f5eccc12069ca2b5e92bbe37f415429bb72c09792c/detection/
 
 
 ## Possible Misuse

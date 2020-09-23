@@ -1,5 +1,6 @@
 ﻿---
 title: WinMgmt.exe | WMI Service Control Utility
+excerpt: What is WinMgmt.exe?
 ---
 
 # WinMgmt.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:ECTbU6Mi0y90nZmdShIPoANJLlAXuSXv+qSFEAeOFE+:PY6L0TmshIPFJRAhP2EAe
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

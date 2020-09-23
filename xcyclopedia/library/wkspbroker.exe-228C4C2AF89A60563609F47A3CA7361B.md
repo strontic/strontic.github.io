@@ -1,5 +1,6 @@
 ﻿---
 title: wkspbroker.exe | RemoteApp and Desktop Connection Runtime Broker
+excerpt: What is wkspbroker.exe?
 ---
 
 # wkspbroker.exe 
@@ -44,6 +45,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

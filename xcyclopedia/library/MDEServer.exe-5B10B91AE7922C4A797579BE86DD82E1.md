@@ -1,5 +1,6 @@
 ﻿---
 title: MDEServer.exe | Cast to Device Server
+excerpt: What is MDEServer.exe?
 ---
 
 # MDEServer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:NjjAn48JAzrXAYFISIhgRpprfhPr2npaN34AriFmgfvuk6:NnY5MXAhSIhefhPrz4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

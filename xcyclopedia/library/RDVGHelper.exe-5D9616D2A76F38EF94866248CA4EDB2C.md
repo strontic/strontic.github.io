@@ -1,5 +1,6 @@
 ﻿---
 title: RDVGHelper.exe | RemoteFX Helper
+excerpt: What is RDVGHelper.exe?
 ---
 
 # RDVGHelper.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:IwUBRmG94TdP5MFdQk8O9v69CP+1ZepzMURO7Ni2GrSQfm/Vh1kgQnT6knIFGs:Im
 * Product Version: 0, 0, 0, 1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2009
+
 
 
 

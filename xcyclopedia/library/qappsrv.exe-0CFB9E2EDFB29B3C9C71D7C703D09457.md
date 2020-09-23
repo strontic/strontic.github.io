@@ -1,5 +1,6 @@
 ﻿---
 title: qappsrv.exe | Query Remote Desktop Session Host Server Utility
+excerpt: What is qappsrv.exe?
 ---
 
 # qappsrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:HmOJ1AjKsOMMcYdj/re7MOLj8ZEa55H1hM+Wr5GS4j+OheSo90TeOv1WeaW:T1AXP7
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

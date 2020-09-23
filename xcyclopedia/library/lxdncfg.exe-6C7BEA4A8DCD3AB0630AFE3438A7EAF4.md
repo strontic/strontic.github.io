@@ -1,5 +1,6 @@
 ﻿---
 title: lxdncfg.exe | Printer Communication System
+excerpt: What is lxdncfg.exe?
 ---
 
 # lxdncfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:ZzBu6pHMYlJtzUwcCO6OxlaPu5DBLG+tv44Y3bODRz:ZzB7nJtzGCO6OraPu9tv4
 * Product Version: 1.233.39.0
 * Language: English (United States)
 * Legal Copyright:  
+
 
 
 

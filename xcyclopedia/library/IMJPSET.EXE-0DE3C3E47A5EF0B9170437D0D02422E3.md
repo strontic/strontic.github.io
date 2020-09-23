@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPSET.EXE | Microsoft IME
+excerpt: What is IMJPSET.EXE?
 ---
 
 # IMJPSET.EXE 
@@ -21,6 +22,9 @@ SHA256 | `F270580D875C376E7CA80718623338C09635BB446890676C732C9989D326EE4C`
 SHA384 | `A28B598B92B18C7D3BD53B6EFC7C090999FAAADA8B5A34D365575927C9E0285AFB90EE2A9CDCED881DB841D310B01FDD`
 SHA512 | `3922895D23FF78C9CEA371CB11FAFA039FC42CEC5D3779630F7FE9BD5EC78868AF4FEBC71F6CA069AE84C844A0DC6F37B6836E7C6C2C1E29B51929D09E335EE0`
 SSDEEP | `3072:S5YBwyROX446PQ4mbMxX+EV+jb2dp/Zpo+E4D9/maFhh0YH67IkK2NLPcV2:S5HToXPQ4mbEXnhpEKD9OwhpmIkC`
+IMP | `D029DD353E920B362E6A4D2B864A663D`
+PESHA1 | `9F16682D2FAA3CB2FABB6C6C27B3217B7216AFEA`
+PE256 | `6B26E26E5412493AAD54419E36AB85738ACBBE8826C2CC238560A0E67DA23610`
 
 ## Runtime Data
 
@@ -32,19 +36,14 @@ Settings for Microsoft IME
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -80,6 +79,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/f270580d875c376e7ca80718623338c09635bb446890676c732c9989d326ee4c/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: dcgpofix.exe | Microsoft (C) Default Group Policy Object Restore Utility
+excerpt: What is dcgpofix.exe?
 ---
 
 # dcgpofix.exe 
@@ -64,6 +65,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

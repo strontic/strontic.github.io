@@ -1,5 +1,6 @@
 ﻿---
 title: tlntsess.exe | Microsoft Telnet Server Helper
+excerpt: What is tlntsess.exe?
 ---
 
 # tlntsess.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Qdtm6UfhyMr6uj673y9/7RT5GF75jwydMx51djvFJzQdWaIKYi/L2Xj:Pf3X0xZNM
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

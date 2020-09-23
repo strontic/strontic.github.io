@@ -1,5 +1,6 @@
 ﻿---
 title: GOMProtect.exe | GOM Protect
+excerpt: What is GOMProtect.exe?
 ---
 
 # GOMProtect.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.0.0.1
 * Language: English
 * Legal Copyright: Copyright (C) Since 2013
+
 
 
 

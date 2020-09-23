@@ -1,5 +1,6 @@
 ﻿---
 title: wlanext.exe | Windows Wireless LAN 802.11 Extensibility Framework
+excerpt: What is wlanext.exe?
 ---
 
 # wlanext.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:Baom1KGJQ9yJKySgGtPtdCkdhy/RkS6NAAu6H3VTtkyHba9ftjG/FTR4m4kRmbtA:w
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

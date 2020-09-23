@@ -1,5 +1,6 @@
 ﻿---
 title: PackageInspector.exe | PackageInspector allows creation of a catalog containing all executable files laid down by an installer
+excerpt: What is PackageInspector.exe?
 ---
 
 # PackageInspector.exe 
@@ -17,6 +18,9 @@ SHA256 | `ADF1880A66C7FFAB61F60DBB27145A0DCCBC7B7726AC750896FF2B7E79A31064`
 SHA384 | `2AA127F0872B36C818D38D2BFBDB436C53D56C8C7946FB5AA00F59FEA0104520BA61763D3987B9A288DEB6F62B06D4FF`
 SHA512 | `B60C0A5779D8A9FE69E124DA62EF8647940DF2BB916C5E644178290A1387040C5C017E33A4388A9677958253E2FD6A5E2132A77D322CBB3D3F3AB80FCD3A2502`
 SSDEEP | `1536:fjzMGv33k2Ty2QepOaVc+wnZYeOfhAt6mhdFA+K7gAwS+EwAPJP9HUcn:fMI3U4Q7l+GZYe8AAm7y+K7gI+EwAPJb`
+IMP | `4E095ADEBA5B01D1D9BE8EA1CB75A8BA`
+PESHA1 | `9CAAD71DAF7467E5752757D15AA261695CCE2E85`
+PE256 | `8C508A38F06B3EEF4A2A665C60A855DC11D3B1B36C8AF2CCFD90714F3F4A01C4`
 
 ## Runtime Data
 
@@ -76,6 +80,12 @@ C:\Windows\system32\PackageInspector.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/adf1880a66c7ffab61f60dbb27145a0dccbc7b7726ac750896ff2b7e79a31064/detection/
 
 
 

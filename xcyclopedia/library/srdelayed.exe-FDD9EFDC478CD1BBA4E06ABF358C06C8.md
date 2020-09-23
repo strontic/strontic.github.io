@@ -1,5 +1,6 @@
 ﻿---
 title: srdelayed.exe | Microsoft Windows System Restore Delayed File Renamer
+excerpt: What is srdelayed.exe?
 ---
 
 # srdelayed.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:crnOh2CaX1I8jYxOLzL2F38unuAW18oW:ICabjYxyKFluI`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

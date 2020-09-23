@@ -1,5 +1,6 @@
 ﻿---
 title: msdt.exe | Diagnostics Troubleshooting Wizard
+excerpt: What is msdt.exe?
 ---
 
 # msdt.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:l+KCiAyRZcNThhgn9IxjuGkomX5Crt+82HGKwXcwrLGcyLjh/qc1:luiAuZIgynsQ
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

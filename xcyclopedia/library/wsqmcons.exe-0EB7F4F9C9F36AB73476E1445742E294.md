@@ -1,5 +1,6 @@
 ﻿---
 title: wsqmcons.exe | Windows SQM Consolidator
+excerpt: What is wsqmcons.exe?
 ---
 
 # wsqmcons.exe 
@@ -17,6 +18,9 @@ SHA256 | `B2C302908DCF70EBD1B1112312C702247197254CB7310ADDFD66184B931B7D2D`
 SHA384 | `872D8C94E5E54EDF628DCD7270E97ED050D5D084448DF6C1404E6CC0B4C3C58288EACEF450B9E68CB05B3DF2B4D7AC64`
 SHA512 | `EED5CA47803DEF5D0BA83F27C89C1C02D056EC2CB985E63E334864C5F03BD129908966BCB58BD4F8B481C92DC0F16DB273849BDA2862BC52D21EB3043E617B8C`
 SSDEEP | `1536:r1P+0Jmc0vyxWqcLdKAVP9xVpgVubXwxEE1d5verrSrJPRRmGQumre2q6m:Q3c0v9VP7w4sxVor2rJHJQuCe2e`
+IMP | `16504DCDB7B5511E296EEF5ED950DDD2`
+PESHA1 | `A3EB9401B92B74240BE1F802BE868CCCA5321D61`
+PE256 | `D2255DFA270914095C14440E579CE724F7593441B549ED85A73A80D4EB691DF2`
 
 ## Runtime Data
 
@@ -24,15 +28,12 @@ SSDEEP | `1536:r1P+0Jmc0vyxWqcLdKAVP9xVpgVubXwxEE1d5verrSrJPRRmGQumre2q6m:Q3c0v9
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\ucrtbase.dll |
 C:\Windows\system32\wsqmcons.exe |
 
 
@@ -53,6 +54,12 @@ C:\Windows\system32\wsqmcons.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/b2c302908dcf70ebd1b1112312c702247197254cb7310addfd66184b931b7d2d/detection/
 
 ## File Similarity (ssdeep match)
 

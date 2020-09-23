@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesAdvanced.exe | Advanced System Settings
+excerpt: What is SystemPropertiesAdvanced.exe?
 ---
 
 # SystemPropertiesAdvanced.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:sAGGptREC/rMcgEPJV+G57ThjEC0kzJP+V5Jx:8gzECTMpuDhjRVJGL`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

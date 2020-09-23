@@ -1,5 +1,6 @@
 ﻿---
 title: omadmclient.exe | Host Process for OMA-DM Client
+excerpt: What is omadmclient.exe?
 ---
 
 # omadmclient.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:cA2SRAAZZ/YEdhqIecPAZf+skQOQ2MR/Vpz:cIqAZBrhqOED`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

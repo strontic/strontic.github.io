@@ -1,5 +1,6 @@
 ﻿---
 title: ApplicationFrameHost.exe | Application Frame Host
+excerpt: What is ApplicationFrameHost.exe?
 ---
 
 # ApplicationFrameHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:x5QhpssSBRpXH769rXsAq9COl0DOg6LtseT2OwRX1PCarx:xwp3sXHI5O+DnCtsevw
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

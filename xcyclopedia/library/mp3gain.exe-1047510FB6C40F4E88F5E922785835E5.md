@@ -1,5 +1,6 @@
 ﻿---
 title: mp3gain.exe | mp3 volume normalizer
+excerpt: What is mp3gain.exe?
 ---
 
 # mp3gain.exe 
@@ -102,6 +103,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1, 5, 0, 2
 * Language: English (United States)
 * Legal Copyright: Copyright  2001-2009 Glen Sawyer
+
 
 
 

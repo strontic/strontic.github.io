@@ -1,5 +1,6 @@
 ﻿---
 title: HWAccelWzd.exe | Hardwear Accelerator Wizard
+excerpt: What is HWAccelWzd.exe?
 ---
 
 # HWAccelWzd.exe 
@@ -71,6 +72,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.1.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright(c) Gretech Corp.  All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

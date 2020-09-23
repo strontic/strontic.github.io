@@ -1,5 +1,6 @@
 ﻿---
 title: comm.exe | 
+excerpt: What is comm.exe?
 ---
 
 # comm.exe 
@@ -80,6 +81,7 @@ Try '/usr/bin/comm --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

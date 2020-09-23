@@ -1,5 +1,6 @@
 ﻿---
 title: RpcPing.exe | RPC Ping Utility
+excerpt: What is RpcPing.exe?
 ---
 
 # RpcPing.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:GN7FQRTwWlCYhocHlLlOb30lxZCIlwMPWMFQhXtwoVV0MLWI0WEk:4mRxCOXZJlwM3
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

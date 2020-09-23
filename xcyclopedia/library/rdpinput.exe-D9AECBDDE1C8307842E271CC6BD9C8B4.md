@@ -1,5 +1,6 @@
 ﻿---
 title: rdpinput.exe | RDP Session Input Handler
+excerpt: What is rdpinput.exe?
 ---
 
 # rdpinput.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:5H+4ehRauwFQ3RB6h3BwJA+AUkatRfeFr15LlLWj8G4QJM:F+4tPQBB6h3BwJAUHw
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

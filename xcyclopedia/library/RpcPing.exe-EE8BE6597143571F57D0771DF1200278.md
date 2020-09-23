@@ -1,5 +1,6 @@
 ﻿---
 title: RpcPing.exe | RPC Ping Utility
+excerpt: What is RpcPing.exe?
 ---
 
 # RpcPing.exe 
@@ -240,6 +241,7 @@ the typical profile.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: Robocopy.exe | Microsoft Robocopy
+excerpt: What is Robocopy.exe?
 ---
 
 # Robocopy.exe 
@@ -17,6 +18,9 @@ SHA256 | `AB5FE50644FD7E989C00F6596EC40284FF37A3AD8E44FBCA98DBFBF9B5192A2E`
 SHA384 | `00E66FD4BEDC7E447623837A4FA3AB07611320AC2C0137A0D6A6FCD09AE4D114520D246275B57F459E7820DD7E908126`
 SHA512 | `12347E4891783E94B2135223CD46AEB2FC684AFF402903E7D2D5249842194E64499454B6C70D3380FE79B014AB8C948EDAC62510F448C6E13BA96B4BDA882AD8`
 SSDEEP | `3072:CIsMV4DXl7fCpw55HgpjfIQQcg/rvzHaI3y9XF9FAAbpTT6mg1avYtvff:CJM+ZfCw5KJQCg/rvzHaI3y9XOypimtE`
+IMP | `8FEDEBCE77B4BC94A8D29804416DA569`
+PESHA1 | `3197C83BF963AB60FF1A3E64B9F38FD6ED364A07`
+PE256 | `A0E9E203654FDDEFCEBB248DEB0086973550A9C04807F348E2171DE9101BB451`
 
 ## Runtime Data
 
@@ -27,7 +31,7 @@ SSDEEP | `3072:CIsMV4DXl7fCpw55HgpjfIQQcg/rvzHaI3y9XF9FAAbpTT6mg1avYtvff:CJM+ZfC
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Saturday, August 29, 2020 6:35:08 PM
+  Started : Sunday, September 20, 2020 8:24:55 PM
               Usage :: ROBOCOPY source destination [file [file]...] [options]
 
              source :: Source Directory (drive:\path or \\server\share\path).
@@ -244,6 +248,12 @@ C:\Windows\system32\Robocopy.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/ab5fe50644fd7e989c00f6596ec40284ff37a3ad8e44fbca98dbfbf9b5192a2e/detection/
 
 
 ## Possible Misuse
@@ -312,8 +322,8 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 | /mir | Mirrors a directory tree (equivalent to **/e** plus **/purge**). Using this option with the **/e** option and a destination directory, overwrites the destination directory security settings. |
 | /mov | Moves files, and deletes them from the source after they are copied. |
 | /move | Moves files and directories, and deletes them from the source after they are copied. |
-| /a+:[RASHCNET] | Adds the specified attributes to copied files. |
-| /a-:[RASHCNET] | Removes the specified attributes from copied files. |
+| /a+:[RASHCNET] | Adds the specified attributes to copied files.  The valid values for this option are: <ul><li>**R** - Read only</li><li>**A** - Archive</li><li>**S** - System</li><li>**H** - Hidden</li><li>**C** - Compressed</li><li>**N** - Not content indexed</li><li>**E** - Encrypted</li><li>**T** - Temporary</li></ul> |
+| /a-:[RASHCNET] | Removes the specified attributes from copied files. The valid values for this option are: <ul><li>**R** - Read only</li><li>**A** - Archive</li><li>**S** - System</li><li>**H** - Hidden</li><li>**C** - Compressed</li><li>**N** - Not content indexed</li><li>**E** - Encrypted</li><li>**T** - Temporary</li></ul> |
 | /create | Creates a directory tree and zero-length files only. |
 | /fat | Creates destination files by using 8.3 character-length FAT file names only. |
 | /256 | Turns off support for paths longer than 256 characters. |
@@ -340,8 +350,8 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 |--|--|
 | /a | Copies only files for which the **Archive** attribute is set. |
 | /m | Copies only files for which the **Archive** attribute is set, and resets the **Archive** attribute. |
-| /ia:`[RASHCNETO]` | Includes only files for which any of the specified attributes are set. |
-| /xa:`[RASHCNETO]` | Excludes files for which any of the specified attributes are set. |
+| /ia:`[RASHCNETO]` | Includes only files for which any of the specified attributes are set.  The valid values for this option are: <ul><li>**R** - Read only</li><li>**A** - Archive</li><li>**S** - System</li><li>**H** - Hidden</li><li>**C** - Compressed</li><li>**N** - Not content indexed</li><li>**E** - Encrypted</li><li>**T** - Temporary</li><li>**O** - Offline</li></ul> |
+| /xa:`[RASHCNETO]` | Excludes files for which any of the specified attributes are set. The valid values for this option are: <ul><li>**R** - Read only</li><li>**A** - Archive</li><li>**S** - System</li><li>**H** - Hidden</li><li>**C** - Compressed</li><li>**N** - Not content indexed</li><li>**E** - Encrypted</li><li>**T** - Temporary</li><li>**O** - Offline</li></ul> |
 | /xf `<filename>[ ...]` | Excludes files that match the specified names or paths. Wildcard characters (**&#42;** and **?**) are supported. |
 | /xd `<directory>[ ...]` | Excludes directories that match the specified names and paths. |
 | /xc | Excludes changed files. |

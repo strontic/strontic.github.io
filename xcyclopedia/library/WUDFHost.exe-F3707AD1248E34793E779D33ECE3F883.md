@@ -1,5 +1,6 @@
 ﻿---
 title: WUDFHost.exe | Windows Driver Foundation - User-mode Driver Framework Host Process
+excerpt: What is WUDFHost.exe?
 ---
 
 # WUDFHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:veN0nYNxJPd6h007Zg5XfJ47rHdN5g2vBsS4e:9nYaxSXx47rHdN5Tsne`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

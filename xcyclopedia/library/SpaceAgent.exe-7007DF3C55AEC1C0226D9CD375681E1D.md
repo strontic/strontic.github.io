@@ -1,5 +1,6 @@
 ﻿---
 title: SpaceAgent.exe | Storage Spaces Settings
+excerpt: What is SpaceAgent.exe?
 ---
 
 # SpaceAgent.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:PnEGTU8sw1ag4rFUkNwh8osksFJcO0rKO+i0M8LIeBioDq:8Wsw1ag4rWecsFJcO0
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

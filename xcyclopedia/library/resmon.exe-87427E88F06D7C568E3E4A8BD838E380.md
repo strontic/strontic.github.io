@@ -1,5 +1,6 @@
 ﻿---
 title: resmon.exe | Resource Monitor
+excerpt: What is resmon.exe?
 ---
 
 # resmon.exe 
@@ -40,6 +41,7 @@ perfmon.exe
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

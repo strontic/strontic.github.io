@@ -1,5 +1,6 @@
 ﻿---
 title: reset.exe | Remote Desktop Services Reset Utility
+excerpt: What is reset.exe?
 ---
 
 # reset.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:ChqzHhQM8kL35RXgyfWQqiXsOkeYoKNe1thWZgW:ChqjlnJfzRcB81t8`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

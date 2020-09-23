@@ -1,5 +1,6 @@
 ﻿---
 title: makecab.exe | Microsoft Cabinet Maker
+excerpt: What is makecab.exe?
 ---
 
 # makecab.exe 
@@ -17,6 +18,9 @@ SHA256 | `BA31AD8ECA19C5FE03F6A5C64C8E0ADFC7BD8D04B1F4E1C11D167467FD5261E9`
 SHA384 | `4B0CAD899127F7B28E81B4B0A45A0361A67E4DE60FD1B6DD493ABDC893C69F5CF0218A6832F879DEAF11609583D74C09`
 SHA512 | `0E0778306A37B4178B570DFFCEB00C5AC7C0110FC35FD81DBE105D759AADEDDD9006DC8CFD654F948FD42A2D5BF12453AA629F637C3FCD94718122580AE12DE8`
 SSDEEP | `1536:E1O9GAeEoohuq5r20STMoXQVhuKGlMykUR021AmN3EDKtx0vRu:v9GAmqx52TTMoXQLFGlMykl21vEDKtxl`
+IMP | `A9326A6F3C34256D97D8CD7972ACC242`
+PESHA1 | `B742443BCD0F291D7BB2BD953BE5906C30AFF317`
+PE256 | `2D8A7CC311E52167DA99BB22B2819E82FBEDCC670ABE1B3DF85BF80E393F0F03`
 
 ## Runtime Data
 
@@ -52,8 +56,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -66,6 +70,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.00
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/ba31ad8eca19c5fe03f6a5c64c8e0adfc7bd8d04b1f4e1c11d167467fd5261e9/detection/
 
 
 ## Possible Misuse

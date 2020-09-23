@@ -1,5 +1,6 @@
 ﻿---
 title: msra.exe | Windows Remote Assistance
+excerpt: What is msra.exe?
 ---
 
 # msra.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:KIdTLxxIPxsenPgB53+rOF4VWsPkAyf6BpSWxnIZhtYcyIRSrCt+O:KSTA40rOF4V
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

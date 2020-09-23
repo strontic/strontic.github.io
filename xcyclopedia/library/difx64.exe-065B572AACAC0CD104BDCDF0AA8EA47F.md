@@ -1,5 +1,6 @@
 ﻿---
 title: difx64.exe | 64 bit driver installer
+excerpt: What is difx64.exe?
 ---
 
 # difx64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:FkjU/mLkLgUPhsASnGsTI2hzQXWENwZp/C01zSHjSmdOtd7C:F8LkLgUPhyTI2hzQ
 * Product Version: 1, 4, 3, 0
 * Language: English (United States)
 * Legal Copyright: Copyright (C), Intel Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

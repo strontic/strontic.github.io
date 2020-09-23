@@ -1,5 +1,6 @@
 ﻿---
 title: xpsrchvw.exe | XPS Viewer
+excerpt: What is xpsrchvw.exe?
 ---
 
 # xpsrchvw.exe 
@@ -78,6 +79,7 @@ C:\Windows\SysWOW64\xpsrchvw.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: eventcreate.exe | Event Create - Creates a custom event in an event log
+excerpt: What is eventcreate.exe?
 ---
 
 # eventcreate.exe 
@@ -17,6 +18,9 @@ SHA256 | `AB6D407D07D35AFF98E3F59F8715B1C2A820B2D76E24E4D8CEDC13F00D1ABA31`
 SHA384 | `AFF32AACACAFA46BB96670D83B5692C93A22197799BFF2D420E4C868B2789F4D0F709ECBE2DE4482B3CD1809A47B31D9`
 SHA512 | `B3285677468664F20D169652879DA9BB693C523E57E292051BE95DE8100C01A8631A410B617D5B89F2D73795A321429B9A8015FC9C6DE14A28FDA1C327CE2FF6`
 SSDEEP | `768:PYgnYOP9WXFQk762tjYgThdzdikWOyRkP5j53nil7Ooa+Q/6z:PYgYOPQ1D/KgdzdimlBRil7va+Q/`
+IMP | `D9D5E96F73EC284F3BDBECE646CCF1EC`
+PESHA1 | `B79FBCD61AAE8B7903336581DB599A1CD14FF678`
+PE256 | `99C89C6908AAB4C5D16BAAEC4548AD2C3FC408D1F479C9871E54FDC93ED22CB7`
 
 ## Runtime Data
 
@@ -110,6 +114,12 @@ C:\Windows\SysWOW64\eventcreate.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/ab6d407d07d35aff98e3f59f8715b1c2a820b2d76e24e4d8cedc13f00d1aba31/detection/
 
 
 
@@ -151,13 +161,13 @@ eventcreate [/s <computer> [/u <domain\user> [/p <password>]] {[/l {APPLICATION|
 The following examples show how you can use the **eventcreate** command:
 
 ```
-eventcreate /t error /id 100 /l application /d Create event in application log
-eventcreate /t information /id 1000 /so winmgmt /d Create event in WinMgmt source
-eventcreate /t error /id 2001 /so winword /l application /d new src Winword in application log
-eventcreate /s server /t error /id 100 /l application /d Remote machine without user credentials
-eventcreate /s server /u user /p password /id 100 /t error /l application /d Remote machine with user credentials
-eventcreate /s server1 /s server2 /u user /p password /id 100 /t error /so winmgmt /d Creating events on Multiple remote machines
-eventcreate /s server /u user /id 100 /t warning /so winmgmt /d Remote machine with partial user credentials
+eventcreate /t ERROR /id 100 /l application /d "Create event in application log"
+eventcreate /t INFORMATION /id 1000 /d "Create event in WinMgmt source"
+eventcreate /t ERROR /id 201 /so winword /l application /d "New src Winword in application log"
+eventcreate /s server /t ERROR /id 100 /l application /d "Remote machine without user credentials"
+eventcreate /s server /u user /p password /id 100 /t ERROR /l application /d "Remote machine with user credentials"
+eventcreate /s server1 /s server2 /u user /p password /id 100 /t ERROR /d "Creating events on Multiple remote machines"
+eventcreate /s server /u user /id 100 /t WARNING /d "Remote machine with partial user credentials"
 ```
 
 ### Additional References

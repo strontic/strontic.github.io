@@ -1,5 +1,6 @@
 ﻿---
 title: DIMC.exe | Deployment Initial Machine Configuration Tool
+excerpt: What is DIMC.exe?
 ---
 
 # DIMC.exe 
@@ -51,6 +52,7 @@ Usage: DIMC.exe -UnattendPath <Unattend_file> -HivePath <IMC_hive> [-SequenceNum
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

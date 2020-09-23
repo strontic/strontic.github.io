@@ -1,5 +1,6 @@
 ﻿---
 title: lxdnserv.exe | Lexmark Connect Service Executable
+excerpt: What is lxdnserv.exe?
 ---
 
 # lxdnserv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:18pEwVlhdIWh/RpFGr4NsNnOQUWPoUNYgL+rILokIXWgod4GGVUm1uNi5FF:KDVlhn
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
 
 
 

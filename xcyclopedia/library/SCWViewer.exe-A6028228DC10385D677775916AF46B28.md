@@ -1,5 +1,6 @@
 ﻿---
 title: SCWViewer.exe | Security Configuration Wizard Viewer
+excerpt: What is SCWViewer.exe?
 ---
 
 # SCWViewer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:lkDUsIiiaQS6W1aAFnIEEZ1LhblFfuLyva4HDm:lkIJiRQuOny4HDm`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

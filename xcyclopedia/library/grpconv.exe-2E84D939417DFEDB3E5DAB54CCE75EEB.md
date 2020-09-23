@@ -1,5 +1,6 @@
 ﻿---
 title: grpconv.exe | Windows Progman Group Converter
+excerpt: What is grpconv.exe?
 ---
 
 # grpconv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:aUAp8UrxBdlavjXcXunRIt+TPIZ9O+vQ3oJJI6WWwsW8C:aTyUdHBXundwZAIZu6WW
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

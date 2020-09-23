@@ -1,5 +1,6 @@
 ﻿---
 title: LogiOverlay.exe | Logi Overlay
+excerpt: What is LogiOverlay.exe?
 ---
 
 # LogiOverlay.exe 
@@ -141,6 +142,7 @@ Unhandled Exception: System.IO.DirectoryNotFoundException: Could not find a part
 * Product Version: 8.20.329
 * Language: Language Neutral
 * Legal Copyright: (C)  1998-2019  Logitech. All rights reserved.
+
 
 
 

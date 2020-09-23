@@ -1,5 +1,6 @@
 ﻿---
 title: diskpart.exe | DiskPart
+excerpt: What is diskpart.exe?
 ---
 
 # diskpart.exe 
@@ -17,6 +18,9 @@ SHA256 | `AD121832A99D58E9822E0F09647B714C0553265B3D9A3F1912645E4FEDEB8C48`
 SHA384 | `10C7FB6BBBEDC31CB560CC882E704B5344605C9E4548D969EF2D0ECE08041539F9D5A2CC1416F2D2F6B199B6070FF74C`
 SHA512 | `0E192D87D4712F751FAF0BAAEFAF4C5659FC070BC58286A8B109D64E61175C946676BA5E65D89344F9EC66D822FB55EA3DF8538361DDD6997DAE148293F6D87B`
 SSDEEP | `3072:GSmnnUxcvpIcte3V2g0+8cI+I2ErgJ5S5UBT7hxJLW:GSmnUCXtcVD0sI72k75U51`
+IMP | `B985D106F2EED6C2BADE4F1EFE2FE39D`
+PESHA1 | `08BB81A549791A22375A1F5786DCB1ABA5E27627`
+PE256 | `351645C04D48C80046980E420724082BC80ED398F3858BD399CAFCFC65141BCE`
 
 ## Runtime Data
 
@@ -26,10 +30,13 @@ SSDEEP | `3072:GSmnnUxcvpIcte3V2g0+8cI+I2ErgJ5S5UBT7hxJLW:GSmnUCXtcVD0sI72k75U51
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-RQ9SGT4
+On computer: 37AACD8D-548A-4
 
-DiskPart has encountered an error: No mapping between account names and security IDs was done.
-See the System Event Log for more information.
+Microsoft DiskPart syntax:
+	diskpart [/s <script>] [/?]
+
+	/s <script> - Use a DiskPart script.
+	/?          - Show this help screen.
 
 ```
 
@@ -46,8 +53,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -60,6 +67,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/ad121832a99d58e9822e0f09647b714c0553265b3d9a3f1912645e4fedeb8c48/detection/
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: DismHost.exe | Dism Host Servicing Process
+excerpt: What is DismHost.exe?
 ---
 
 # DismHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:RJ7FsTbuZ7Zi+lzqDq7FUm/AuRXSprvBODB:LFsTbu/lzaqNANprvs1`
 * Product Version: 6.3.9600.19397
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

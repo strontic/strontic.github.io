@@ -1,5 +1,6 @@
 ﻿---
 title: SDOnAccess.exe | On Access protection dialog
+excerpt: What is SDOnAccess.exe?
 ---
 
 # SDOnAccess.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2013-2018 Safer-Networking Ltd. All rights reserved.
+
 
 
 

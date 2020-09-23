@@ -1,5 +1,6 @@
 ﻿---
 title: wuauclt.exe | Windows Update
+excerpt: What is wuauclt.exe?
 ---
 
 # wuauclt.exe 
@@ -36,11 +37,13 @@ SSDEEP | `1536:OK0TzC8tY6HAqCsd56ncymh7TpkwsZYZ6PD3:OKE+8tY6H/FPRkLYZ67`
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\wuauclt.exe](wuauclt.exe-95E303BF80AECA5A296E519C61F42427.md) | 88
+[C:\Windows\system32\wuauclt.exe](wuauclt.exe-E97B13E82F4E1ED5918A6C0466E19748.md) | 88
 
 ## Possible Misuse
 
@@ -48,7 +51,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | 		$x0 = "WUAUCLT.EXE" fullword wide /* PEStudio Blacklist: strings */ /* score: '20.01' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_putterpanda.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_putterpanda.yar) | $x0 = "WUAUCLT.EXE" fullword wide /* PEStudio Blacklist: strings */ /* score: '20.01' */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

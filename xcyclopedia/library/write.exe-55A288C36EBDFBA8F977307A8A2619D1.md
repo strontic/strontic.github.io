@@ -1,5 +1,6 @@
 ﻿---
 title: write.exe | Windows Write
+excerpt: What is write.exe?
 ---
 
 # write.exe 
@@ -51,6 +52,7 @@ C:\Windows\SysWOW64\write.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

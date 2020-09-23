@@ -1,5 +1,6 @@
 ﻿---
 title: SenseIR.exe | Windows Defender Advanced Threat Protection Sense IR module
+excerpt: What is SenseIR.exe?
 ---
 
 # SenseIR.exe 
@@ -58,6 +59,7 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 10.7430.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

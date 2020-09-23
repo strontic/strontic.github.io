@@ -1,5 +1,6 @@
 ﻿---
 title: logoff.exe | Session Logoff Utility
+excerpt: What is logoff.exe?
 ---
 
 # logoff.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:SZNKKtYAoCo9KW3AmJy4Ba0XzsDiWbG476W3CuW+jv:sNdYAofJG7muD`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: doskey.exe | Keyboard History Utility
+excerpt: What is doskey.exe?
 ---
 
 # doskey.exe 
@@ -17,6 +18,9 @@ SHA256 | `9D9568D16DA949EEDFE608E40F92433A3340A6676FC0D9EBD027D13EF18AC3CF`
 SHA384 | `6CA9228810ABF7A391E81BDC8121A6A608C09A1C93A443787D23E6B24DBEA5325BA1637AB45667F1AEE5B9A134219A95`
 SHA512 | `8413BFD0A59275CF892BB03A0B597F07E529008E627D32663D048A4D16BC322851A534FD2E72427E684DFCB1558AD5EA99C508C8908C9A18C30D7237D3C9CEB1`
 SSDEEP | `384:AfRzIPevb7bI7rSexFQZwBUhFlFEiXW4iWCy:oR8Pevb7bI7rSexYwqFEirm`
+IMP | `815CEBC8099878FCFC3EEFE858FAB97B`
+PESHA1 | `C2F2482D96169596715020DB4A5542A1730609BC`
+PE256 | `2C59A011004E4C6E87D3289D3B6201F9B0E58AA7D13CC43617C3CEECC660AF8E`
 
 ## Runtime Data
 
@@ -81,6 +85,12 @@ C:\Windows\SysWOW64\doskey.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/9d9568d16da949eedfe608e40f92433a3340a6676fc0d9ebd027d13ef18ac3cf/detection/
 
 
 ## Possible Misuse
@@ -90,8 +100,8 @@ C:\Windows\SysWOW64\doskey.exe |
 Source | Source File | Example | License
 -- | -- | -- | --
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1119.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1119/T1119.md) | doskey /history > %TEMP%\T1119_2.txt | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		description = "Anomaly rule looking for certain strings in a system file (maybe false positive on certain systems) - file doskey.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | 		filename == "doskey.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | description = "Anomaly rule looking for certain strings in a system file (maybe false positive on certain systems) - file doskey.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [thor_inverse_matches.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar) | filename == "doskey.exe" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

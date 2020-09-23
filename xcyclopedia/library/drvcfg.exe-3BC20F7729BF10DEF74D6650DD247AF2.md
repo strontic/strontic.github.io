@@ -1,5 +1,6 @@
 ﻿---
 title: drvcfg.exe | Driver Installation Module
+excerpt: What is drvcfg.exe?
 ---
 
 # drvcfg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:+B2heA3DhTH117L2yk5Cjswbya050Ex1md/XWRzu1UEg29M3E+EruGhJVyO:+ezhmy
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

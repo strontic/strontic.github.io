@@ -1,5 +1,6 @@
 ﻿---
 title: CompMgmtLauncher.exe | Computer Management Snapin Launcher
+excerpt: What is CompMgmtLauncher.exe?
 ---
 
 # CompMgmtLauncher.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:XKoqsc/gEA50YF9yg0QUXQZp9DbnB6YsqlOo+vi6Ufa:XFEgEAiK0QUXCwYsqco+Q
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

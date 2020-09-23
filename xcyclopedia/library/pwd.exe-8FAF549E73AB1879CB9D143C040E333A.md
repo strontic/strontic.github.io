@@ -1,5 +1,6 @@
 ﻿---
 title: pwd.exe | 
+excerpt: What is pwd.exe?
 ---
 
 # pwd.exe 
@@ -66,6 +67,7 @@ Try '/usr/bin/pwd --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

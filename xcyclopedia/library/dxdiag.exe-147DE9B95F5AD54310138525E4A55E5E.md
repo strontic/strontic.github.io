@@ -1,5 +1,6 @@
 ﻿---
 title: dxdiag.exe | Microsoft DirectX Diagnostic Tool
+excerpt: What is dxdiag.exe?
 ---
 
 # dxdiag.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:WI+xa/sBUDCsGXNwDU/hGJlI9kYHMznHgFtwSBFj6oM+FP:WICss2+hGYP2WpHP`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

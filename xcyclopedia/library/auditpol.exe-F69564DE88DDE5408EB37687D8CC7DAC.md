@@ -1,5 +1,6 @@
 ﻿---
 title: auditpol.exe | Audit Policy Program
+excerpt: What is auditpol.exe?
 ---
 
 # auditpol.exe 
@@ -73,6 +74,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

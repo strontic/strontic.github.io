@@ -1,5 +1,6 @@
 ﻿---
 title: LaunchTM.exe | Task Manager Launcher
+excerpt: What is LaunchTM.exe?
 ---
 
 # LaunchTM.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:tBrS9Vm8UngMCw2I8FXmzOGDBdpunOl1UIHmejrDwkKgT43FVkXXPKedjXfaW:69R
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

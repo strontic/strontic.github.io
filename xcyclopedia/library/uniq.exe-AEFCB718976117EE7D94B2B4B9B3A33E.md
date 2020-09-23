@@ -1,5 +1,6 @@
 ﻿---
 title: uniq.exe | 
+excerpt: What is uniq.exe?
 ---
 
 # uniq.exe 
@@ -83,6 +84,7 @@ Try '/usr/bin/uniq --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

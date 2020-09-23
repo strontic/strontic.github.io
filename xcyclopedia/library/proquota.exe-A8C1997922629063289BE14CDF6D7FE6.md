@@ -1,5 +1,6 @@
 ﻿---
 title: proquota.exe | ProQuota
+excerpt: What is proquota.exe?
 ---
 
 # proquota.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:yW+fZC7I5GSkxC9loHk2/AIL3+NeTIEdI:ytj5TkI+EjY7TIEd`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

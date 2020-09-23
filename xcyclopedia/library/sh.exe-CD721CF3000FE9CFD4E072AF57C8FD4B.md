@@ -1,5 +1,6 @@
 ﻿---
 title: sh.exe | 
+excerpt: What is sh.exe?
 ---
 
 # sh.exe 
@@ -77,6 +78,7 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

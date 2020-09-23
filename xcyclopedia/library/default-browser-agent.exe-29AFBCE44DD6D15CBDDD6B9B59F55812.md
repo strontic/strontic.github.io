@@ -1,5 +1,6 @@
 ﻿---
 title: default-browser-agent.exe | Firefox Default Browser Agent
+excerpt: What is default-browser-agent.exe?
 ---
 
 # default-browser-agent.exe 
@@ -55,6 +56,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 80.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

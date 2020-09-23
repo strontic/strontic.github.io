@@ -1,5 +1,6 @@
 ﻿---
 title: ie4uinit.exe | IE Per-User Initialization Utility
+excerpt: What is ie4uinit.exe?
 ---
 
 # ie4uinit.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:MPyvRc+5+bRhN1Wjl4K/eZb8vm1YWAIu350PK:cypFqRhPK4KW8vm1YCuwK`
 * Product Version: 11.00.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

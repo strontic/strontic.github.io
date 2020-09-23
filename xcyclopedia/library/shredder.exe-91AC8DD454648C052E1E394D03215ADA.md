@@ -1,5 +1,6 @@
 ﻿---
 title: shredder.exe | Glary Utilities FileShredder
+excerpt: What is shredder.exe?
 ---
 
 # shredder.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:58cwGNVpHayDyDTBa3bgwbeqOZLMWwwpjWzuVo:58czp6WyDTgbgwbeqOZLt3wzd`
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

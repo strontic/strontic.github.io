@@ -1,5 +1,6 @@
 ﻿---
 title: PerceptionSimulationInput.exe | Mixed Reality Simulation Control
+excerpt: What is PerceptionSimulationInput.exe?
 ---
 
 # PerceptionSimulationInput.exe 
@@ -17,6 +18,9 @@ SHA256 | `6DAA3C4359DE509E490B6D5FA777C67FFDA5178C4C7D2EC1AAD8EE8C22D3B5BA`
 SHA384 | `3A4E4006FE06EC52EE2C304A935A6ED4E2C1BBDB98521396306815BA60266C8EEC61D75B74873B1D11C1E965CBC45B4C`
 SHA512 | `6AB45F812B00110419474FD8044CC129530B3BA8F526B31FD3F14ED9FB5AC9C4317B4E0F56CCE891D38EB46BD25E198589482F7F43EE32B2F8F0679A225FF657`
 SSDEEP | `768:QNLbT0zBFpzX5SLsOq/VbDhZeRhh4sVvwEO97dFpMzfe+Ic7Zn9I8Royy51YKX+F:QpH0prYI/VbD3efO9pMj8DAmpfhNokN`
+IMP | `EB3F6F99C19C67E537908E9D98C57787`
+PESHA1 | `B384F2D2BFDDC7230D60512DFF6127AB9165E365`
+PE256 | `729B174A375F4176FA3CF7F6C868CBB1E5FFFBEF2A09403DECBA3F132D62A9BD`
 
 ## Runtime Data
 
@@ -26,9 +30,7 @@ Path |
 -- |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.dll |
 C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe |
 C:\Windows\System32\ucrtbase.dll |
 
@@ -50,6 +52,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/64
+* VirusTotal Link: https://www.virustotal.com/gui/file/6daa3c4359de509e490b6d5fa777c67ffda5178c4c7d2ec1aad8ee8c22d3b5ba/detection/
 
 ## File Similarity (ssdeep match)
 

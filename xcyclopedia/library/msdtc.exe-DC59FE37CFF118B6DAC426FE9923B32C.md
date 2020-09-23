@@ -1,5 +1,6 @@
 ﻿---
 title: msdtc.exe | Microsoft Distributed Transaction Coordinator Service
+excerpt: What is msdtc.exe?
 ---
 
 # msdtc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:jpfIniVRD81jmGX8q15ZkMH1A0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lk:zVFNzqB
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

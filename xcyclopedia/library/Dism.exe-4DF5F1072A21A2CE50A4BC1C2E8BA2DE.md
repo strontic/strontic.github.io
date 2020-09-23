@@ -1,5 +1,6 @@
 ﻿---
 title: Dism.exe | Dism Image Servicing Utility
+excerpt: What is Dism.exe?
 ---
 
 # Dism.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:dr5BWjxg0uMYjLKntkyPmw9JxEDRI5BaPrdpQa5s7Phoua+anr:xvWjxHuMYKtkyt
 * Product Version: 6.3.9600.17031
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

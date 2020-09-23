@@ -1,5 +1,6 @@
 ﻿---
 title: imecfmui.exe | Microsoft IME
+excerpt: What is imecfmui.exe?
 ---
 
 # imecfmui.exe 
@@ -17,6 +18,9 @@ SHA256 | `AA0B99D00A342BE0B5BCDD26D6AEAD470301081CEE2E1F8D73A5B86F222AFBF0`
 SHA384 | `D3432E9971003DDBB5BB44D8312CDF85ACD4E32A8DB9249E5317B8A7BE58ECB3E951E03CC4A034FE02575816BB9FC4EE`
 SHA512 | `247CC1C5E5EE3193675B6CB0C56E7A308094A207DEC6D62E3397844619F96379E784CC5129027474F31E15A9297BD1A70077CE2481CBF42047CF0D74C46065BE`
 SSDEEP | `6144:pWCOJi2sxqy72/b+OsfW6Y6Alm0lHS34D71n4ZgBk8SK1A:pWji2sz856tAlm0I3gS`
+IMP | `8D93DF9136B1CE35DF052B28A1BF27CD`
+PESHA1 | `36EF95AE983BD435C5386FD467D605D6552F4DFF`
+PE256 | `DB1AAA6F0D3F0A3734D4D1764AC369A1C34D90D827025A95611427E9C99D374E`
 
 ## Runtime Data
 
@@ -25,14 +29,10 @@ SSDEEP | `6144:pWCOJi2sxqy72/b+OsfW6Y6Alm0lHS34D71n4ZgBk8SK1A:pWji2sz856tAlm0I3g
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\GDI32.dll |
 C:\Windows\system32\IME\SHARED\imecfmui.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -52,6 +52,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/aa0b99d00a342be0b5bcdd26d6aead470301081cee2e1f8d73a5b86f222afbf0/detection/
 
 ## File Similarity (ssdeep match)
 

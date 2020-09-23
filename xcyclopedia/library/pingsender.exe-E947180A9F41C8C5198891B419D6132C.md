@@ -1,5 +1,6 @@
 ﻿---
 title: pingsender.exe | 
+excerpt: What is pingsender.exe?
 ---
 
 # pingsender.exe 
@@ -46,6 +47,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 80.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

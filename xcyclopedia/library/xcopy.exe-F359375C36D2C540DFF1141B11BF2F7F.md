@@ -1,5 +1,6 @@
 ﻿---
 title: xcopy.exe | Extended Copy Utility
+excerpt: What is xcopy.exe?
 ---
 
 # xcopy.exe 
@@ -106,6 +107,7 @@ File cannot be copied onto itself
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

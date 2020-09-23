@@ -1,5 +1,6 @@
 ﻿---
 title: LogiOptionsMgr.exe | LogiOptionsMgr.exe (UNICODE)
+excerpt: What is LogiOptionsMgr.exe?
 ---
 
 # LogiOptionsMgr.exe 
@@ -37,6 +38,7 @@ SSDEEP | `98304:PWtE621boSnlAiG2GurdaaDtS0EhSMq+tee/Fha/AV+J2j0wzU7i:OtE62lAiGFm
 * Product Version: 8.20.329
 * Language: English (United States)
 * Legal Copyright: (C) 1998-2019 Logitech. All rights reserved.
+
 
 
 

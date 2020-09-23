@@ -1,5 +1,6 @@
 ﻿---
 title: gpresult.exe | Query Group Policy RSOP Data
+excerpt: What is gpresult.exe?
 ---
 
 # gpresult.exe 
@@ -113,6 +114,7 @@ Type "GPRESULT /?" for usage.
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

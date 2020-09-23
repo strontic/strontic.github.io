@@ -1,5 +1,6 @@
 ﻿---
 title: MCU.exe | NVIDIA Maximus Configuration Utility
+excerpt: What is MCU.exe?
 ---
 
 # MCU.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:xzONvMk17hBelz3l9trOGl7mpSOz3l9trOGl7mpSNw8:ahBepFdl7byFdl7bG8`
 * Product Version: 1.1.5204.20580
 * Language: Language Neutral
 * Legal Copyright: Copyright  NVIDIA Corporation 2012
+
 
 
 

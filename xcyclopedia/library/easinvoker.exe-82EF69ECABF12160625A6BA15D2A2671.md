@@ -1,5 +1,6 @@
 ﻿---
 title: easinvoker.exe | Exchange ActiveSync Invoker
+excerpt: What is easinvoker.exe?
 ---
 
 # easinvoker.exe 
@@ -17,6 +18,9 @@ SHA256 | `4AB78DC788CEAD8F20227C9E2ABFBEFD5E74C64C85677C505AE7E694B7D41565`
 SHA384 | `08992F7E6D2E042F3F712D297CA555DCFE2BB07CED0EF474AD0B2414E8B9D336AE78313FED9E7C8274E303DD2A79DB0E`
 SHA512 | `1881A5F8AAFFAE5B4E549F0C905C36B3736911A426D024E11ED9541333BD9C5B02E1CEA7309C906B575FA2C8EF98B84ABFB3D087D55DE7C0E0A00445F0C40FFB`
 SSDEEP | `1536:FvMYKUtUZn/0q9+DaVu2xXibswbTYWXUZf8y8vPF:FNd+cc+D2u2xXibswbzXUR8TvN`
+IMP | `A80CEE60EFFA9529BAF16EE52FF52B18`
+PESHA1 | `3558E552C88A80A88533B6B4EE7E416021E108D3`
+PE256 | `2607AAAACA8C2893444BCF79E37AFC7556C6F8A2215F40A75B3B443074185702`
 
 ## Runtime Data
 
@@ -33,8 +37,6 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
 
 
 ## Signature
@@ -54,6 +56,12 @@ C:\Windows\System32\USER32.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/4ab78dc788cead8f20227c9e2abfbefd5e74c64c85677c505ae7e694b7d41565/detection/
 
 ## File Similarity (ssdeep match)
 

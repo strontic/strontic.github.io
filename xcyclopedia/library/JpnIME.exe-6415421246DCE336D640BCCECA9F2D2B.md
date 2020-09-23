@@ -1,5 +1,6 @@
 ﻿---
 title: JpnIME.exe | Microsoft IME
+excerpt: What is JpnIME.exe?
 ---
 
 # JpnIME.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:fPDF79sFoGGbu0CxGYRClAW7BplGCwwPtm5h8st5:fPB7eS7urrWLlGWmQC`
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

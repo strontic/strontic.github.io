@@ -1,5 +1,6 @@
 ﻿---
 title: DeviceEnroller.exe | API for MDM Enrollment
+excerpt: What is DeviceEnroller.exe?
 ---
 
 # DeviceEnroller.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:p9phZbNsvOdG4FF87tb5fB3kNvN/gUPtWk/2mN9qubRLh9VSJw16d:xhZq487R5fB
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

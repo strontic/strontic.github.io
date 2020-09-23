@@ -1,5 +1,6 @@
 ﻿---
 title: cleanmgr.exe | Disk Space Cleanup Manager for Windows
+excerpt: What is cleanmgr.exe?
 ---
 
 # cleanmgr.exe 
@@ -23,8 +24,14 @@ SHA256 | `A43C79ECAE0D4726157FBB2E9E2E314D3622201678B56DB514AAE50EA84A09F9`
 SHA384 | `A6664786AEB39A5C0170F8BC80A592F0D85C95C267ABB9456DCA980BB0ED4DC548B220357767025C2D878E2D3DE43D80`
 SHA512 | `225E4959335DEFFF69D91358DDE1DF86CF54A19325F0589A316F57923101BE6A5244F6E845A18CBBD9A017870F5BC150F3D2C8ABC007BD0EE1F125623F0C4778`
 SSDEEP | `3072:bQVx/3xmYvearjjPFC2bbymKByAEPGRvQhRkKqUa9antF5hvvJkuXpZ:a57XgtmKBFE+ohSKq99UF5hvv/`
+IMP | `05A7686561BB995BEAD3C54DB2591AD1`
+PESHA1 | `F03F295A9CE64F4891A49DC00A4BB4941894CC67`
+PE256 | `007BBD0E071911888E111FCC487927AA67A2892703541D724A77216F67799AAF`
 
 ## Runtime Data
+
+### Child Processes:
+DismHost.exe
 
 ### Window Title:
 USAGE
@@ -35,17 +42,12 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\cleanmgr.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -53,22 +55,15 @@ Path | Type
 Path |
 -- |
 C:\Windows\system32\cleanmgr.exe |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
 
 
 ## Signature
@@ -88,6 +83,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/a43c79ecae0d4726157fbb2e9e2e314d3622201678b56db514aae50ea84a09f9/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -123,8 +124,8 @@ cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/
 | Parameter | Description |
 | --------- | ----------- |
 | /d `<driveletter>` | Specifies the drive that you want Disk Cleanup to clean.<p>**NOTE:** The **/d** option is not utilized with `/sagerun:n`. |
-| /sageset:n | Displays the **Disk Cleanup Settings** dialog box and also creates a registry key to store the settings that you select. The `n` value, which is stored in the registry, allows you to specify tasks for Disk Cleanup to run. The `n` value can be any integer value from 0 to 65535. |
-| /sagerun:n | Runs the specified tasks that are assigned to the n value if you use the **\sageset** option. All drives on the computer are enumerated and the selected profile runs against each drive. |
+| /sageset:n | Displays the **Disk Cleanup Settings** dialog box and also creates a registry key to store the settings that you select. The `n` value, which is stored in the registry, allows you to specify tasks for Disk Cleanup to run. The `n` value can be any integer value from 0 to 9999. |
+| /sagerun:n | Runs the specified tasks that are assigned to the n value if you use the **/sageset** option. All drives on the computer are enumerated and the selected profile runs against each drive. |
 | /tuneup:n | Run **/sageset** and **/sagerun** for the same `n` . |
 | /lowdisk | Run with the default settings. |
 | /verylowdisk | Run with the default settings, no user prompts. |

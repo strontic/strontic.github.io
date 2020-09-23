@@ -1,5 +1,6 @@
 ﻿---
 title: hh.exe | Microsoft HTML Help Executable
+excerpt: What is hh.exe?
 ---
 
 # hh.exe 
@@ -21,42 +22,56 @@ SHA256 | `EB63FD45ED7EC773ECCAF0F20D44BC9B4ED0A3E01779D62321B1DA954A0F6EB8`
 SHA384 | `FC24F86CFAF2D1CC7EBFBF7718D7ABDFC65B12BE11C76E2260835438A2D3B60655D6248E58F482610BD138CB0BE4E3D4`
 SHA512 | `4FBA46ECC4F12BAE5F4C46D4D6136BB0BABF1ABF7327E5210D1291D786CE2262473212A64DA35114776B1CE26EAD734A9FD3972FFA0F294D97AB6907953FD137`
 SSDEEP | `192:U8kHEFbfhORz4NqRGQE7KpcPUKU/dlk06Sl0+m5GJ1KDJD/QWc7:U8kH67heMMRGQEOpR/dlk06I1KDuWc7`
+IMP | `D3D9C3E81A404E7F5C5302429636F04C`
+PESHA1 | `59C8F3207BFFB145504CFAE687C1BBD6AE2B7E25`
+PE256 | `12F6D248A1D3661735FDC7AF92632A3DE629361D6AB9B68E9760DED97C784B71`
 
 ## Runtime Data
 
 ### Window Title:
-HTML Help
+File Download
 
 ### Open Handles:
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\~DFB49C8AD93D0098AC.TMP | File
+(R--)   C:\Users\user\AppData\Local\Temp\~DF8BF4B28ECB34E428.TMP | File
+(R-D)   C:\Windows\apppatch\DirectXApps_FOD.sdb | File
 (R-D)   C:\Windows\en-US\hh.exe.mui | File
+(R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\hhctrl.ocx.mui | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\mshtml.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\urlmon.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\System32\ieframe.dll | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF56E355356A121C0A.TMP | File
-(RWD)   C:\Windows | File
+(R-D)   C:\Windows\SystemResources\ieframe.dll.mun | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user\Documents\help | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF68F99C09076BA739.TMP | File
+(RWD)   C:\Users\user\Documents | File
+(RWD)   C:\Windows\Fonts | File
+(RWD)   C:\Windows\Fonts\segoeui.ttf | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\182cHWNDInterface:1160286 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
+\Sessions\1\BaseNamedObjects\a54HWNDInterface:390700 | Section
+\Sessions\1\BaseNamedObjects\a54HWNDInterface:6804e8 | Section
+\Sessions\1\BaseNamedObjects\MSIMGSIZECacheMap | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -90,6 +105,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/eb63fd45ed7ec773eccaf0f20d44bc9b4ed0a3e01779d62321b1da954a0f6eb8/detection/
 
 ## File Similarity (ssdeep match)
 

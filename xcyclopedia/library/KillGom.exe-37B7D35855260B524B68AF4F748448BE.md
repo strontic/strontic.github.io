@@ -1,5 +1,6 @@
 ﻿---
 title: KillGom.exe | 
+excerpt: What is KillGom.exe?
 ---
 
 # KillGom.exe 
@@ -47,6 +48,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

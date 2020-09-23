@@ -1,5 +1,6 @@
 ﻿---
 title: IEChooser.exe | F12 Attach Chooser executable
+excerpt: What is IEChooser.exe?
 ---
 
 # IEChooser.exe 
@@ -45,6 +46,7 @@ C:\Windows\SysWOW64\F12\IEChooser.exe |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

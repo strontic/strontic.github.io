@@ -1,5 +1,6 @@
 ﻿---
 title: HvsiSettingsWorker.exe | 
+excerpt: What is HvsiSettingsWorker.exe?
 ---
 
 # HvsiSettingsWorker.exe 
@@ -34,6 +35,7 @@ SSDEEP | `1536:eePUsCqtIcLPIZV8tRfIb5dnNFBvq514QNUq9ahwbD3c1HW7PO:jcwPLPIoEbXR03
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

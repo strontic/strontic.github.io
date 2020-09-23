@@ -1,5 +1,6 @@
 ﻿---
 title: NDP461-DevPack-KB3105179-ENU.exe | Microsoft .NET Framework 4.6.1 Developer Pack
+excerpt: What is NDP461-DevPack-KB3105179-ENU.exe?
 ---
 
 # NDP461-DevPack-KB3105179-ENU.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:OqIuRebMq5S+Ud8QK+ehB9XgdmAeUBZ2x52OoElZTxP0hQg21OihqWnA6EccKsgd:
 * Product Version: 4.6.1055
 * Language: English (United States)
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationHost.exe | Windows Presentation Foundation Host
+excerpt: What is PresentationHost.exe?
 ---
 
 # PresentationHost.exe 
@@ -19,29 +20,14 @@ SHA256 | `D9C533B6109160ABBF139D83C438806563E212D5C877192B64E4304806626C0A`
 SHA384 | `88AE0D8BA707375F80B836041B9E8C6F77AC01E5AAD33ED6DADD60D6259631ABFC7D460AB539DC74150F3EDE879E9469`
 SHA512 | `DC2D3A9E766F46DC5FC3296B2AC17642234BE1CC87EAA83EC7994C68915AF31CD5FE7CA7B561253EDAAE775E669E9D8AF926A0C20F3634037AF7A40257B09DBE`
 SSDEEP | `6144:A0z2luCY78kez5KNXwy3Odjp19k5KNXf:AC2lu97ZQKVwy3OdLaKV`
+IMP | `EAABF5736556491C472D1B684E7EB9A1`
+PESHA1 | `C8CE9AA7164D1A765B69E42A23A404BC295FCA21`
+PE256 | `0BDC09FBCFA4F9A69B9C7575E35B13DAE940D01622186E873ABCDF2C541EBF44`
 
 ## Runtime Data
 
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(R-D)   C:\Windows\SysWOW64\en-US\PresentationHost.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
+### Child Processes:
+iexplore.exe
 
 ### Loaded Modules:
 
@@ -71,6 +57,12 @@ C:\Windows\SysWOW64\PresentationHost.exe |
 * Product Version: 4.0.41210.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d9c533b6109160abbf139d83c438806563e212d5c877192b64e4304806626c0a/detection/
 
 ## File Similarity (ssdeep match)
 

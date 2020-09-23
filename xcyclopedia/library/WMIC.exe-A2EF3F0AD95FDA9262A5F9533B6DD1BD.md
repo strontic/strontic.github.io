@@ -1,5 +1,6 @@
 ﻿---
 title: WMIC.exe | WMI Commandline Utility
+excerpt: What is WMIC.exe?
 ---
 
 # WMIC.exe 
@@ -17,6 +18,9 @@ SHA256 | `FA78C88DAC91FDF2EAC736E6900AC1EC4AB7A388B8F77A23FFA7E80A4AD29F5A`
 SHA384 | `83FB60616B354E148638A11FEBDB54B2CEDB6D0430138D6DD70B1BFFEBA60FE5B29A82D8D8D78DB9571C5E0E0AA5C9DE`
 SHA512 | `71C9B7F76AE68CA24C2B985D47509C5C5CA262A2A23FDADA63B35343C3482776539B5D958D92F7C53F79A91320555EB569E22D30B8CA83D94D555F7E5665CFC1`
 SSDEEP | `6144:fSWq+ijIokIRywZYxCzEY5wfY0fvnnok/LFoCs4F/HPcoe/VLSztBKHGH5enh:KWptweFYi1ok6CsV/VLSDKHGH0nh`
+IMP | `D8770F1C24B7AAD7B5CD1817B3FEB2AA`
+PESHA1 | `063C404BE48F1DFA34E01613FBC64D155580A6D1`
+PE256 | `C0A0014E734125EA5871831823EE0D2E91B36CF8293F263FCE3D8E8AD62ED3A2`
 
 ## Runtime Data
 
@@ -151,9 +155,6 @@ help - Alias not found.
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
@@ -167,8 +168,8 @@ C:\Windows\system32\wbem\WMIC.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -181,6 +182,12 @@ C:\Windows\system32\wbem\WMIC.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/fa78c88dac91fdf2eac736e6900ac1ec4ab7a388b8f77a23ffa7e80a4ad29f5a/detection/
 
 
 ## Possible Misuse
@@ -219,7 +226,6 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Command: wmic.exe process get brief /format:"\\127.0.0.1\c$\Tools\pocremote.xsl"` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Path: C:\Windows\System32\wbem\wmic.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Path: C:\Windows\SysWOW64\wbem\wmic.exe` | 
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1021.006.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md) | Upon successful execution, cmd will utilize wmic.exe to modify the registry on a remote endpoint to swap osk.exe with cmd.exe. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1047.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md) | This test uses wmic.exe to execute a process on the local host. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1047.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md) | This test uses wmic.exe to execute a process on a remote host. Specify a valid value for remote IP using the node parameter. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1220.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md) | \| wmic_command \| WMI command to execute using wmic.exe \| string \| process list\| | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

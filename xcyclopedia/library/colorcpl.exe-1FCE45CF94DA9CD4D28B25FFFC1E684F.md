@@ -1,5 +1,6 @@
 ﻿---
 title: colorcpl.exe | Microsoft Color Control Panel
+excerpt: What is colorcpl.exe?
 ---
 
 # colorcpl.exe 
@@ -39,6 +40,7 @@ SSDEEP | `1536:VF8IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:7vXlvq7jSP1c
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

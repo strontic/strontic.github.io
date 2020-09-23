@@ -1,5 +1,6 @@
 ﻿---
 title: dtdump.exe | DTDUMP.EXE
+excerpt: What is dtdump.exe?
 ---
 
 # dtdump.exe 
@@ -40,6 +41,7 @@ conhost.exe WerFault.exe dtdump.exe
 * Product Version: 10.0.14393.351
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

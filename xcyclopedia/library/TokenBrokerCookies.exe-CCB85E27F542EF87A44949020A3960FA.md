@@ -1,5 +1,6 @@
 ﻿---
 title: TokenBrokerCookies.exe | Token Broker Cookie Helper
+excerpt: What is TokenBrokerCookies.exe?
 ---
 
 # TokenBrokerCookies.exe 
@@ -17,6 +18,9 @@ SHA256 | `F138CD58278B472B577854EF866F062C8E129B4D7F401F775AC7F6A14D074081`
 SHA384 | `330C42CE944A3E7E73C34E8900C8C687D67CB434278B89BF28C003B40CBF910DC4DA9CC65AA39345F9C91F454A0912C8`
 SHA512 | `192D3179E0DF918C424CA03EC71D8D31A1244B7FC81E35020C504F58C23BE04ED69B9D0987F4D347D170A93A8373242F7825034D6F1BB0E8C9B44B3BBB11E0EE`
 SSDEEP | `768:j+2iS/ZjH04PHqMvlDpTTe/juparcdhzAHUliQuZJMihBGRUNL:l7PHqMN0/jUarNHUl4MihBGRUB`
+IMP | `702F5476F4C0A7F27F77F6BF3689CBB8`
+PESHA1 | `F946D27959AD7059ADA20F8E737E731188E1E5D9`
+PE256 | `5E8FC130DFF3F16BEBF625F423D24BC7B4A55FCF971714E668AFBBF4514D9731`
 
 ## Runtime Data
 
@@ -28,7 +32,6 @@ C:\Windows\System32\combase.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
@@ -55,6 +58,12 @@ C:\Windows\system32\WININET.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/f138cd58278b472b577854ef866f062c8e129b4d7f401f775ac7f6a14d074081/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: dstokenclean.exe | Data Sharing Service Maintenance Driver
+excerpt: What is dstokenclean.exe?
 ---
 
 # dstokenclean.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:DuhLbbgVPrmg7dOOaYgeCTM1NS2TkvGSGt7Wd9GXkgDARVsDWzEW:DCHbcRs+xCkNS
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

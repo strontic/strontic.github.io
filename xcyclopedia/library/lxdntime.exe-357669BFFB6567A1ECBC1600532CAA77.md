@@ -1,5 +1,6 @@
 ﻿---
 title: lxdntime.exe | Lexmark Connect Time Executable
+excerpt: What is lxdntime.exe?
 ---
 
 # lxdntime.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:l6Gj8ppZV2Es8fuFaEjQeOrF+G/mjCFTk/6aSA0HyDIfcWcRIdrRByq+kTe/L:hj8pP
 * Product Version: 1.88.0.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2006-2007 Lexmark International, Inc. All rights reserved.
+
 
 
 

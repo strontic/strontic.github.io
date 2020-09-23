@@ -1,5 +1,6 @@
 ﻿---
 title: rasphone.exe | Remote Access Phonebook
+excerpt: What is rasphone.exe?
 ---
 
 # rasphone.exe 
@@ -39,6 +40,7 @@ SSDEEP | `384:c1mvVaob2amAp3PPyiGi71/vm7VtXjVaRA4eZQpXs8MTnJ0PvMrFjZzWHBWKTY:mjo
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

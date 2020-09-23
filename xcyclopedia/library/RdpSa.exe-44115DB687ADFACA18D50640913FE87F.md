@@ -1,5 +1,6 @@
 ﻿---
 title: RdpSa.exe | RDP Session Agent
+excerpt: What is RdpSa.exe?
 ---
 
 # RdpSa.exe 
@@ -17,26 +18,21 @@ SHA256 | `47B333F35B84F5A13563C74D6BDB0E59D21627757C4AC3458E3515CCC7B3DD59`
 SHA384 | `8C60841EB2D7496F233A447CB4B8D4F9995BB2782F204BF28D32B11840BE1D756CFC814F8011A2A9C37ED26AC24001D9`
 SHA512 | `CD458EA3C53D646CF881F87F0F765608AF9619ED891A2F5E2BD2808578C1EB33B69D669899AFCFD77D74D8071DC59C8DAD637759786D908F8D62847182D4FF2E`
 SSDEEP | `768:6lU1oEkGtETVP006mrmn4ILt3EHViyatq6qQ4ZIs1o2k:6+13kGtETt007rmn4Iy1iA6QZIs1oF`
+IMP | `4D86CE84E4EB6CE9E7C94F1E0F629BC5`
+PESHA1 | `E5BFA4F995F5BD7BDED4B1ED747585DA008BF5B2`
+PE256 | `1418417A2CD9FF29A3EED59432918BF1C3D589BDBF17BAD256496CC4B38E13D8`
 
 ## Runtime Data
-
-### Child Processes:
-explorer.exe
 
 ### Open Handles:
 
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\RdpSa.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -67,6 +63,12 @@ C:\Windows\SysWOW64\RdpSa.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/47b333f35b84f5a13563c74d6bdb0e59d21627757c4ac3458e3515ccc7b3dd59/detection/
 
 
 

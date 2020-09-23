@@ -1,5 +1,6 @@
 ﻿---
 title: dnscmd.exe | DNS Command Line Admin Utility
+excerpt: What is dnscmd.exe?
 ---
 
 # dnscmd.exe 
@@ -147,6 +148,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `dnscmd.exe` being misused. While `dnscmd.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
@@ -160,7 +162,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `- Path: C:\Windows\System32\Dnscmd.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `- Path: C:\Windows\SysWOW64\Dnscmd.exe` | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `- IOC: Dnscmd.exe loading dll from UNC path` | 
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) |       $x4 = "CreateObject(\"WScript.Shell\").Run DnsCmd,0" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_oilrig.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar) | $x4 = "CreateObject(\"WScript.Shell\").Run DnsCmd,0" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 ## Additional Info*
 

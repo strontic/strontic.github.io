@@ -1,5 +1,6 @@
 ﻿---
 title: instnm.exe | 32-bit NetMeeting Installer for Win64
+excerpt: What is instnm.exe?
 ---
 
 # instnm.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:z8qqMhp1OEp2k3rpDGj4dJXzVH9Msf3tmvEW7CIXuWwVF:dq4p1LM+j59MKtmsW7+W`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

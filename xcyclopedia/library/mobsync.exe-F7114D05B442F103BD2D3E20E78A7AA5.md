@@ -1,5 +1,6 @@
 ﻿---
 title: mobsync.exe | Microsoft Sync Center
+excerpt: What is mobsync.exe?
 ---
 
 # mobsync.exe 
@@ -17,6 +18,9 @@ SHA256 | `244B65DC083F033047F8BDCBFE128D6D118D72C113D1DC21E0D2FD16C09A735A`
 SHA384 | `10EA70333C82848D3B6A05B7395F53E2FFFF2053B7E6E022F430BD25590C69BFB12446ED2C0C776147B87027E665BEA2`
 SHA512 | `A1EB8502429612E1F3A4618E16D6FE27295D31E872E0448D94C974929C408340838D778C485849EC6E4E9D70189475E718583996EF3B57809EF40D091E57C13E`
 SSDEEP | `1536:XY8psCkXo9ZjH2GPoCGVjGWmt8CXZ+63x+w4JD+0NL+fK:CCkkD2GPo9St8WHxSD+09+S`
+IMP | `B4668B610D5FA04C01B79CE854744B5B`
+PESHA1 | `52768179A93719AF4D87CC9E3550AA30547CC037`
+PE256 | `69F61E129C96C739831EE7405E20B28F55B6C19B6EC30499C1ABE5C0C7AE4F13`
 
 ## Runtime Data
 
@@ -26,6 +30,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\mobsync.exe |
 
@@ -47,6 +52,12 @@ C:\Windows\SysWOW64\mobsync.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/244b65dc083f033047f8bdcbfe128d6d118d72c113d1dc21e0d2fd16c09a735a/detection/
 
 ## File Similarity (ssdeep match)
 

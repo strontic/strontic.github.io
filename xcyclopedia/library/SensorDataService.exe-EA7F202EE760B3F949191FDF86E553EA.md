@@ -1,5 +1,6 @@
 ﻿---
 title: SensorDataService.exe | Sensor Data Service
+excerpt: What is SensorDataService.exe?
 ---
 
 # SensorDataService.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:wPmjcHiBtUvDNCoc6OGzEHnixAB13bMPv7opKwJxc84ghf:1jcslMGn3B1Y75wx4
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: spaceman.exe | Storage Spaces Manager
+excerpt: What is spaceman.exe?
 ---
 
 # spaceman.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\spaceman.exe |
 * Product Version: 10.0.17763.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

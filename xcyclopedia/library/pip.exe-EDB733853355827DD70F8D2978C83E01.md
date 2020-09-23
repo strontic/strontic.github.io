@@ -1,5 +1,6 @@
 ﻿---
 title: pip.exe | 
+excerpt: What is pip.exe?
 ---
 
 # pip.exe 
@@ -112,6 +113,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

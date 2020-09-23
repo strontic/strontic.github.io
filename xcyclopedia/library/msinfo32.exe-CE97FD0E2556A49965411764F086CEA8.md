@@ -1,5 +1,6 @@
 ﻿---
 title: msinfo32.exe | System Information
+excerpt: What is msinfo32.exe?
 ---
 
 # msinfo32.exe 
@@ -39,6 +40,7 @@ SSDEEP | `6144:ApS7G6IHuv0o5KXcSK27WjWzPKRw/2ZEOHHrpm1XUZLxEZEOHHrpm1XUZLx:sSnX5
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

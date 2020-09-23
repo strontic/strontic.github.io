@@ -1,5 +1,6 @@
 ﻿---
 title: VSSVC.exe | Microsoft Volume Shadow Copy Service
+excerpt: What is VSSVC.exe?
 ---
 
 # VSSVC.exe 
@@ -45,6 +46,7 @@ C:\Windows\system32\VSSVC.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

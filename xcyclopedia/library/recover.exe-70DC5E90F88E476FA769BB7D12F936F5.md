@@ -1,5 +1,6 @@
 ﻿---
 title: recover.exe | Recover Files Utility
+excerpt: What is recover.exe?
 ---
 
 # recover.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:4Lv4Vl0kJ9X5UNqTVDsBC0n0C10FVk2TWCnWapp:4Lpi9X5Ue+Pn0xY2TWCnWap`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

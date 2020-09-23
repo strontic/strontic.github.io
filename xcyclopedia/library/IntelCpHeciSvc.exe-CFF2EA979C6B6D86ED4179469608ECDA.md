@@ -1,5 +1,6 @@
 ﻿---
 title: IntelCpHeciSvc.exe | 
+excerpt: What is IntelCpHeciSvc.exe?
 ---
 
 # IntelCpHeciSvc.exe 
@@ -34,6 +35,7 @@ SSDEEP | `3072:Y6m/Vw6o/h64ggh5JXL/kbLQrQLaXVHBJ6TuuHzi76u+76sp6BsdVMrOH/HJVYyI:
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright: 
+
 
 
 

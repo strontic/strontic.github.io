@@ -1,5 +1,6 @@
 ﻿---
 title: SCW.exe | Security Configuration Wizard
+excerpt: What is SCW.exe?
 ---
 
 # SCW.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:nU/VLLXEdcd+Le3WjbzP4Kx9mgKkjvWbpLfS:nU/h0cdz0n6kjvWte`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: mpnotify.exe | Windows NT Multiple Provider Notification Application
+excerpt: What is mpnotify.exe?
 ---
 
 # mpnotify.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:nctR5Rwmny+vuotpXRaeczWdk3dNG0Z3kPWpjW:ncJxy+vt8ecuaNG0Wu`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

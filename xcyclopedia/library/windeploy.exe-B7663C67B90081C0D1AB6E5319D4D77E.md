@@ -1,5 +1,6 @@
 ﻿---
 title: windeploy.exe | Windows Deployment Loader
+excerpt: What is windeploy.exe?
 ---
 
 # windeploy.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:hWaxiWwNc6NrSd3lx3I1+cMx07usQXhszeqe3Pni2:haFNcWrSd3lxY1+cIgesai`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

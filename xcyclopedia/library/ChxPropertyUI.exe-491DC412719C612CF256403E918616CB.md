@@ -1,5 +1,6 @@
 ﻿---
 title: ChxPropertyUI.exe | Microsoft IME
+excerpt: What is ChxPropertyUI.exe?
 ---
 
 # ChxPropertyUI.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:kEpTU3rrlG9P2HQjUhz4XvCPn9CwJtMGUt:kSUflGRRy0/eJk`
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

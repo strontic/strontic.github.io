@@ -1,5 +1,6 @@
 ﻿---
 title: echo.exe | 
+excerpt: What is echo.exe?
 ---
 
 # echo.exe 
@@ -74,6 +75,7 @@ or available locally via: info '(coreutils) echo invocation'
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

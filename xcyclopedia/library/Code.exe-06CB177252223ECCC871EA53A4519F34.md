@@ -1,5 +1,6 @@
 ﻿---
 title: Code.exe | Visual Studio Code
+excerpt: What is Code.exe?
 ---
 
 # Code.exe 
@@ -50,6 +51,7 @@ Code.exe Code.exe Code.exe
 * Product Version: 1.48.0
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2019 Microsoft. All rights reserved
+
 
 ## File Similarity (ssdeep match)
 

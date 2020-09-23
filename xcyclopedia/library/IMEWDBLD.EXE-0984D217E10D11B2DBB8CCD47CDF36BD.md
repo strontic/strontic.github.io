@@ -1,5 +1,6 @@
 ﻿---
 title: IMEWDBLD.EXE | Microsoft IME Open Extended Dictionary Module
+excerpt: What is IMEWDBLD.EXE?
 ---
 
 # IMEWDBLD.EXE 
@@ -70,6 +71,7 @@ C:\Windows\SysWOW64\IME\shared\IMEWDBLD.EXE |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

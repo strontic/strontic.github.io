@@ -1,5 +1,6 @@
 ﻿---
 title: compose.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is compose.exe?
 ---
 
 # compose.exe 
@@ -59,13 +60,14 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: Copyright  1995-2020
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `compose.exe` being misused. While `compose.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_winnti_hdroot.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_winnti_hdroot.yar) |       $x2 = "compose.aspx?s=%4X%4X%4X%4X%4X%4X" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_winnti_hdroot.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_winnti_hdroot.yar) | $x2 = "compose.aspx?s=%4X%4X%4X%4X%4X%4X" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

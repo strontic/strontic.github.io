@@ -1,5 +1,6 @@
 ﻿---
 title: regedt32.exe | Registry Editor Utility
+excerpt: What is regedt32.exe?
 ---
 
 # regedt32.exe 
@@ -17,31 +18,14 @@ SHA256 | `B9A0659A5F8173629C2CC702F9D786F699BE2C1C1BD10EE354494DF75C618954`
 SHA384 | `0B7D872C1AE2C053CECCB83BEA2A393105F573E60C5FD8BF6397627A2511151A91A474B7BE855FB09D66B6DA0244002B`
 SHA512 | `A6F473794315E9A38C3D08F1777BA14D0DE3F98F560E8DB120F96ED6FB6EF2A14568F444783AE2520F958E872223A8D4CFAEB98718089E3BC5A3DA35539C85E0`
 SSDEEP | `96:cT/8zwOtfZOWkcTLEp2TyIRoJIP3DGjsl3tTZFovnzeDJFMVWVEWlZhHWwB:cT8zwqrTaGRoTeTZFovnz0MWbxWG`
+IMP | `FA8607DE86B3096660A35E6483D8EACA`
+PESHA1 | `0306A05C48621FA8AD80B1364AF9DCB540733308`
+PE256 | `7F31C7F1219A508D4BF5EFEC627F58BC47EC0FF8DDB13003666F0A52C46E48A5`
 
 ## Runtime Data
 
 ### Child Processes:
 regedit.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -71,6 +55,12 @@ C:\Windows\SysWOW64\regedt32.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/b9a0659a5f8173629c2cc702f9d786f699be2c1c1bd10ee354494df75c618954/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -84,7 +74,7 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) |       $a3 = "regedt32.exe" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_grizzlybear_uscert.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar) | $a3 = "regedt32.exe" wide nocase | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

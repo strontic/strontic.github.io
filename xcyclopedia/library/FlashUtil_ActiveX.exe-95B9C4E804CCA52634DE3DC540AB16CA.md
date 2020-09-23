@@ -1,5 +1,6 @@
 ﻿---
 title: FlashUtil_ActiveX.exe | Adobe Flash Player Utility
+excerpt: What is FlashUtil_ActiveX.exe?
 ---
 
 # FlashUtil_ActiveX.exe 
@@ -40,6 +41,7 @@ SSDEEP | `24576:xO4+5dzFeSrkuTTtK3gZD1VXZANbPYbRG71HfS/KwH06b:xOhdzFtwuTcwxmYaQy
 * Product Version: 32,0,0,330
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 Adobe
+
 
 
 

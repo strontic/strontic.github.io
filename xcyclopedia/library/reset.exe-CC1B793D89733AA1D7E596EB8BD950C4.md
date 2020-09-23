@@ -1,5 +1,6 @@
 ﻿---
 title: reset.exe | Remote Desktop Services Reset Utility
+excerpt: What is reset.exe?
 ---
 
 # reset.exe 
@@ -50,6 +51,7 @@ RESET { SESSION }
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

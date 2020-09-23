@@ -1,5 +1,6 @@
 ﻿---
 title: ChsIME.exe | Microsoft IME
+excerpt: What is ChsIME.exe?
 ---
 
 # ChsIME.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:c99SpyqIROrwjfU+SZNx0QMhySIVhtAaIWULvxhs5UAgR3G+8yduCjpOBhDC+XMt:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: 4gb_patch.exe | 4gb_patch
+excerpt: What is 4gb_patch.exe?
 ---
 
 # 4gb_patch.exe 
@@ -69,6 +70,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1, 0, 0, 1
 * Language: English
 * Legal Copyright:  2007 Daniel Pistelli.  All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: head.exe | 
+excerpt: What is head.exe?
 ---
 
 # head.exe 
@@ -76,6 +77,7 @@ Try '/usr/bin/head --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

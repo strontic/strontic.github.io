@@ -1,5 +1,6 @@
 ﻿---
 title: thunderbird.exe | Thunderbird
+excerpt: What is thunderbird.exe?
 ---
 
 # thunderbird.exe 
@@ -111,6 +112,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: Language Neutral
 * Legal Copyright: Thunderbird and Mozilla Developers, according to the MPL 1.1/GPL 2.0/LGPL 2.1 licenses, as applicable.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
@@ -124,7 +126,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [malware-ioc](https://github.com/eset/malware-ioc) | [turla-outlook.yar](https://github.com/eset/malware-ioc/blob/master/turla/turla-outlook.yar) | `$s5 = "Software\\Mozilla\\Mozilla Thunderbird\\Profiles" ascii wide` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[signature-base](https://github.com/Neo23x0/signature-base) | [general_cloaking.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/general_cloaking.yar) | 		and not filepath contains "Thunderbird" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [general_cloaking.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/general_cloaking.yar) | and not filepath contains "Thunderbird" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SppExtComObj.Exe | KMS Connection Broker
+excerpt: What is SppExtComObj.Exe?
 ---
 
 # SppExtComObj.Exe 
@@ -56,11 +57,13 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-72B29BAD446905009880873A43F80E44.md) | 88
+[C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-84EBE9E2E54272C01CBA8F1B5AD40EBD.md) | 88
 
 
 

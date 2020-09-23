@@ -1,5 +1,6 @@
 ﻿---
 title: write.exe | Windows Write
+excerpt: What is write.exe?
 ---
 
 # write.exe 
@@ -35,6 +36,7 @@ SSDEEP | `96:IzX93EfVlX7k7d7xKDWPTQ+JDHQtX/QW6oRTJUw0FU/DJdMi2bKveLrxuJRd1EWi:Iz
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

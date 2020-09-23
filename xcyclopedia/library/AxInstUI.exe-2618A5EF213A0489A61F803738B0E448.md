@@ -1,5 +1,6 @@
 ﻿---
 title: AxInstUI.exe | ActiveX Installer Service
+excerpt: What is AxInstUI.exe?
 ---
 
 # AxInstUI.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:fLVTMIzi8ySEAg4ZXiw+1xq3UZU9a1xq3UZU9aW6IW:fLZMc434ZXiw8ZU9QZU9O`
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

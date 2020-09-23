@@ -1,5 +1,6 @@
 ﻿---
 title: zCrashReport.exe | Crash Report Delivery Module
+excerpt: What is zCrashReport.exe?
 ---
 
 # zCrashReport.exe 
@@ -48,6 +49,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.2.44052.0816
 * Language: English (United States)
 * Legal Copyright: Copyright 2003-2013 The CrashRpt Project Authors
+
 
 ## File Similarity (ssdeep match)
 

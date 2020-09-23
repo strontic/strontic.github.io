@@ -1,5 +1,6 @@
 ﻿---
 title: chrmstp.exe | Google Chrome Installer
+excerpt: What is chrmstp.exe?
 ---
 
 # chrmstp.exe 
@@ -88,6 +89,7 @@ C:\Windows\SYSTEM32\WTSAPI32.dll |
 * Product Version: 85.0.4183.83
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

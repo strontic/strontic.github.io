@@ -1,5 +1,6 @@
 ﻿---
 title: regdefrag.exe | Registry Defrag 
+excerpt: What is regdefrag.exe?
 ---
 
 # regdefrag.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.0.0.18
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

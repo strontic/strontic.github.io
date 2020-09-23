@@ -1,5 +1,6 @@
 ﻿---
 title: appidcertstorecheck.exe | AppID Certificate Store Verification Task
+excerpt: What is appidcertstorecheck.exe?
 ---
 
 # appidcertstorecheck.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:o2PV3ZVoFGq0kYg23HdRoGPYMOvUVXUQ32MOX4xxBPD+9BqWbaK1W:o8VpVoFGq8hR
 * Product Version: 10.0.14393.1198
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

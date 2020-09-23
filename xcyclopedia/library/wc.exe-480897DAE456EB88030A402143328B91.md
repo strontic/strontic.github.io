@@ -1,5 +1,6 @@
 ﻿---
 title: wc.exe | 
+excerpt: What is wc.exe?
 ---
 
 # wc.exe 
@@ -73,6 +74,7 @@ Try '/usr/bin/wc --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

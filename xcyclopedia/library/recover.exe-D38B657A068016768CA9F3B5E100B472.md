@@ -1,5 +1,6 @@
 ﻿---
 title: recover.exe | Recover Files Utility
+excerpt: What is recover.exe?
 ---
 
 # recover.exe 
@@ -17,6 +18,9 @@ SHA256 | `D971D5F962E2188A429DE6AC6DD6FBA3FA97199CDC1A8182E753069AEC2FB93E`
 SHA384 | `558A877D466D9D0B6BBD45AD9E797801DAD3456E2E5525A943274F7CE0E543C85CABF72D149A380081A00FF5D2B32FE5`
 SHA512 | `3128B173A47CFF9F53F904ADC757D4340D574847B5F7E9997CACA88C003244BFE17FE8412A52EEFD5791CFC797FCF3482CCEAB923FBFE6A34E276A4279A1F3C5`
 SSDEEP | `192:gfmv5WKYs/pCjwY19qpXD9tAYq7xk2jWEnWyaAb4V:1v5gCpWwi9qp3AnS2jWEnWHAkV`
+IMP | `CD8185705936323067B6715FDC1BF798`
+PESHA1 | `7CDCD3D937E9D39A4B202630AA2E169C29460064`
+PE256 | `38FB1E2B6DFF01CAD1D949F553923B1F4BEF5C97C5E7CD4A1FD2B318BA43C0C0`
 
 ## Runtime Data
 
@@ -44,8 +48,8 @@ C:\Windows\SysWOW64\recover.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -58,6 +62,12 @@ C:\Windows\SysWOW64\recover.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/d971d5f962e2188a429de6ac6dd6fba3fa97199cdc1a8182e753069aec2fb93e/detection/
 
 ## File Similarity (ssdeep match)
 

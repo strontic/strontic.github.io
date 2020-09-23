@@ -1,5 +1,6 @@
 ﻿---
 title: plugin-container.exe | Plugin Container for Thunderbird
+excerpt: What is plugin-container.exe?
 ---
 
 # plugin-container.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 78.2.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: sdbinst.exe | Application Compatibility Database Installer
+excerpt: What is sdbinst.exe?
 ---
 
 # sdbinst.exe 
@@ -51,6 +52,7 @@ Usage: C:\Windows\SysWOW64\sdbinst.exe [-?] [-q] [-u] [-g] [-p] [-n[:WIN32|WIN64
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

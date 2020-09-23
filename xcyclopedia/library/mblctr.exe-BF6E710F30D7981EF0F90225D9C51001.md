@@ -1,5 +1,6 @@
 ﻿---
 title: mblctr.exe | Windows Mobility Center
+excerpt: What is mblctr.exe?
 ---
 
 # mblctr.exe 
@@ -49,6 +50,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

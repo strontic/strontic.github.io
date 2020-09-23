@@ -1,5 +1,6 @@
 ﻿---
 title: gdk-pixbuf-query-loaders.exe | 
+excerpt: What is gdk-pixbuf-query-loaders.exe?
 ---
 
 # gdk-pixbuf-query-loaders.exe 
@@ -62,6 +63,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

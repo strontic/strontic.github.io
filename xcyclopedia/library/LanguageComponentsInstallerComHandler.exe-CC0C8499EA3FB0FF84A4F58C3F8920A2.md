@@ -1,5 +1,6 @@
 ﻿---
 title: LanguageComponentsInstallerComHandler.exe | LanguageComponentsInstaller COM Handler
+excerpt: What is LanguageComponentsInstallerComHandler.exe?
 ---
 
 # LanguageComponentsInstallerComHandler.exe 
@@ -17,6 +18,9 @@ SHA256 | `EC47F7C125C7412B2C0D3F8C776EC281FAEBCF82DDE7A98D25602CD1864E44B7`
 SHA384 | `7841EDCEF9E98CA65467EF2BA0C23C70279E5B8B9489E98388CF6799802B1CC0D2B75EDCE09FCEFE0A406A5EDDEC0BF7`
 SHA512 | `3580EAEDFC3EA83AD93E96F7AFC3152AE85E58D89BBA522E11AC77EC31F6DC34AAF4EE19AE743D2E85A0FF85EA6EEE010E814400E2B92FB9EBC269136F440005`
 SSDEEP | `1536:v7kVOPRMzTIP01zyWuYZp/ytbWiw+Y3N2HKtaM2:jk8GoP01mol+HKQM2`
+IMP | `471DBD49E64A7A69D4CE26244906F660`
+PESHA1 | `3FE485FFBBBEA566AC8739A330D37B968D0A9233`
+PE256 | `B90B5D9B74BC1726A36E714DB3EEBAFFE428D9EE439F44C7B39541E06C969EA8`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `1536:v7kVOPRMzTIP01zyWuYZp/ytbWiw+Y3N2HKtaM2:jk8GoP01mol+HKQM2`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -68,6 +67,12 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/ec47f7c125c7412b2c0d3f8c776ec281faebcf82dde7a98d25602cd1864e44b7/detection/
 
 
 

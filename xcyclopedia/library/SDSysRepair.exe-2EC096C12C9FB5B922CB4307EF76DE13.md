@@ -1,5 +1,6 @@
 ﻿---
 title: SDSysRepair.exe | System Repair
+excerpt: What is SDSysRepair.exe?
 ---
 
 # SDSysRepair.exe 
@@ -79,6 +80,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2008-2018 Safer-Networking Ltd. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: hvix64.exe | Hypervisor V2.0
+excerpt: What is hvix64.exe?
 ---
 
 # hvix64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:PNaSQOW4KnF0Op8Upcawqsj69vxEWvbuqZ8K3ejve/uSgayoIZWVHqiY2:VsNpdg
 * Product Version: 10.0.17763.1282
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

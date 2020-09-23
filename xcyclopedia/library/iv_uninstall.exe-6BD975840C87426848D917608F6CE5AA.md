@@ -1,5 +1,6 @@
 ﻿---
 title: iv_uninstall.exe | IrfanView Uninstaller
+excerpt: What is iv_uninstall.exe?
 ---
 
 # iv_uninstall.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1, 5, 2, 0
 * Language: German (Austria)
 * Legal Copyright: Copyright  2019 by Irfan Skiljan, Austria
+
 
 
 

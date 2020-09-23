@@ -1,5 +1,6 @@
 ﻿---
 title: gpscript.exe | Group Policy Script Application
+excerpt: What is gpscript.exe?
 ---
 
 # gpscript.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:8sBk38mXNVJl3Uqk4FK9jG8Xh2TJpEpp84PoxSQ9UXm8Ih8rSnwkUWa94oljbsWN:8
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

@@ -1,5 +1,6 @@
 ﻿---
 title: ThumbnailExtractionHost.exe | Thumbnail Handler Extraction Host
+excerpt: What is ThumbnailExtractionHost.exe?
 ---
 
 # ThumbnailExtractionHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:1OFw8tztEQTnN6kbSHY0uwhqFop5PhB7bGX:1OFw87ENhqezhB/G`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: winrshost.exe | Host Process for WinRM's Remote Shell plugin
+excerpt: What is winrshost.exe?
 ---
 
 # winrshost.exe 
@@ -40,6 +41,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

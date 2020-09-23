@@ -1,5 +1,6 @@
 ﻿---
 title: LsaIso.exe | Credential Guard & Key Guard
+excerpt: What is LsaIso.exe?
 ---
 
 # LsaIso.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:cuJXVbWxzLh20bxOO7in7G/cnbFFVc+B8pJu:5KPh2AC8+1c+CpU`
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

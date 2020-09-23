@@ -1,5 +1,6 @@
 ﻿---
 title: subst.exe | Subst Utility
+excerpt: What is subst.exe?
 ---
 
 # subst.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:Wb31kuD4DXqBWoktCTgOWmBC6yGZdfp3oQkpWxGWkyMh2aH:oKuD0XqEWgRmRyGnfE
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

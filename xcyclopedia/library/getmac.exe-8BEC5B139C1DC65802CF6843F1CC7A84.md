@@ -1,5 +1,6 @@
 ﻿---
 title: getmac.exe | Displays NIC MAC information
+excerpt: What is getmac.exe?
 ---
 
 # getmac.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:14azInSl7NeGHN+I1LQNrLiTvwvwMHK9AuZ0ozuOU3xXKFE1yd/q2EdExClp:EnG0
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

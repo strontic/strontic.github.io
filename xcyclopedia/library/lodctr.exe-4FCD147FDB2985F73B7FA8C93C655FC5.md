@@ -1,5 +1,6 @@
 ﻿---
 title: lodctr.exe | Load PerfMon Counters
+excerpt: What is lodctr.exe?
 ---
 
 # lodctr.exe 
@@ -90,6 +91,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

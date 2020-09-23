@@ -1,5 +1,6 @@
 ﻿---
 title: pingsender.exe | 
+excerpt: What is pingsender.exe?
 ---
 
 # pingsender.exe 
@@ -34,6 +35,7 @@ SSDEEP | `1536:tD7yTZEdho/nOyYdCHLja7I/aa+nToIfzV5P59:wKdhWHa7uraTBfzf/`
 * Product Version: 79.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

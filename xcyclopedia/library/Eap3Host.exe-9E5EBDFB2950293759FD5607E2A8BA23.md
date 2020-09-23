@@ -1,5 +1,6 @@
 ﻿---
 title: Eap3Host.exe | Eap Third Party Surrogate Host
+excerpt: What is Eap3Host.exe?
 ---
 
 # Eap3Host.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:ifH+8B6gW4bgPr68qaL5OGp6xJ4dSwI4oF2ebgl7pG0dOsma6WAaW:u+8B6gWr68qa
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

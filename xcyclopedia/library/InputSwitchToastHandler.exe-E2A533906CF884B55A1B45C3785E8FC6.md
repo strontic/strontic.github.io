@@ -1,5 +1,6 @@
 ﻿---
 title: InputSwitchToastHandler.exe | Input Switch Toast Handler
+excerpt: What is InputSwitchToastHandler.exe?
 ---
 
 # InputSwitchToastHandler.exe 
@@ -40,6 +41,7 @@ conhost.exe
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

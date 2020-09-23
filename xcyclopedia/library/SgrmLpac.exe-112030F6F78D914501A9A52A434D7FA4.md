@@ -1,5 +1,6 @@
 ﻿---
 title: SgrmLpac.exe | System Guard Runtime Monitor LPAC
+excerpt: What is SgrmLpac.exe?
 ---
 
 # SgrmLpac.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:ZEO3LQkmF+N8D6fKWwbK99KwUz6TSf6EPMTOzXO/k6IIy9iWx29+ymqXj1Pra:53IF
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

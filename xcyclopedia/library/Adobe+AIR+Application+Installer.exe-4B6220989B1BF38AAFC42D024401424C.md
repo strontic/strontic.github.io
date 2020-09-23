@@ -1,5 +1,6 @@
 ﻿---
 title: Adobe AIR Application Installer.exe | Adobe AIR Application Installer
+excerpt: What is Adobe AIR Application Installer.exe?
 ---
 
 # Adobe AIR Application Installer.exe 
@@ -80,6 +81,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 32.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2007-2019, Adobe
+
 
 
 

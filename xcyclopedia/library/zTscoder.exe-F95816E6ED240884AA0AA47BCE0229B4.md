@@ -1,5 +1,6 @@
 ﻿---
 title: zTscoder.exe | Zoom
+excerpt: What is zTscoder.exe?
 ---
 
 # zTscoder.exe 
@@ -41,6 +42,7 @@ SSDEEP | `3072:GQAMI0+UWi69dGa8w+j4D0qJ4bsmlp3vKpRBHglKp:GRi69dGaZ0G4bvCpRBZp`
 * Product Version: 5,2,42619,0804
 * Language: English (United States)
 * Legal Copyright:  Zoom Video Communications, Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

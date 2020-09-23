@@ -1,5 +1,6 @@
 ﻿---
 title: rdpinit.exe | RemoteApp Logon Application
+excerpt: What is rdpinit.exe?
 ---
 
 # rdpinit.exe 
@@ -36,6 +37,12 @@ SSDEEP | `6144:wUQko2Y8D11WL0MPqNhiYEhXwhjMmehRk/mwwN9fg2:wUQkjnRwLJPqNYEjMmeh2/
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\rdpinit.exe](rdpinit.exe-A4186B82B93C94C7B8DEB5BF0FB6E6C3.md) | 90
 
 
 

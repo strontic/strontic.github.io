@@ -1,5 +1,6 @@
 ﻿---
 title: SenseSampleUploader.exe | Windows Defender Advanced Threat Protection Sample Upload module
+excerpt: What is SenseSampleUploader.exe?
 ---
 
 # SenseSampleUploader.exe 
@@ -56,6 +57,7 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 10.7430.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

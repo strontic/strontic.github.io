@@ -1,5 +1,6 @@
 ﻿---
 title: GeForce_Experience_Update_2Xto3X_v3.0.7.34.exe | NVIDIA Package Launcher
+excerpt: What is GeForce_Experience_Update_2Xto3X_v3.0.7.34.exe?
 ---
 
 # GeForce_Experience_Update_2Xto3X_v3.0.7.34.exe 
@@ -35,6 +36,7 @@ SSDEEP | `786432:gDhk/LXKxsRgW6DXPTqR7pQxfWO9FguQi76Jm4kqkZAfLAlo/+9Rf3qpksiu2M+
 * Product Version: 1.0.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2015 NVIDIA Corporation
+
 
 
 

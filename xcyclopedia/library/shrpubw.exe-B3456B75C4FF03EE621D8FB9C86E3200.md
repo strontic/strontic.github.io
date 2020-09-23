@@ -1,5 +1,6 @@
 ﻿---
 title: shrpubw.exe | Share Creation Wizard
+excerpt: What is shrpubw.exe?
 ---
 
 # shrpubw.exe 
@@ -70,6 +71,7 @@ C:\Windows\system32\shrpubw.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

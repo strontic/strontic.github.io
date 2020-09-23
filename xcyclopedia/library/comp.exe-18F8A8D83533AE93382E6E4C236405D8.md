@@ -1,5 +1,6 @@
 ﻿---
 title: comp.exe | File Compare Utility
+excerpt: What is comp.exe?
 ---
 
 # comp.exe 
@@ -17,6 +18,9 @@ SHA256 | `C2729CBCB6A723939CA111C7EE82BAB30856EC8D728CA234459112B975B9F306`
 SHA384 | `07EB14BDA1518C1DEC418D674B0B333DC7974AD3ABEBF6F08A7B4C3381A813D31D431E9A53015BB64F9753C4EF01CEA8`
 SHA512 | `DCAB01D741D9DDF0D6E1063C395B47EF1B4E8DC85A838964E80668571E8406EB61994BDCC084E8A0DBBC1ACE5AFC3478549F3F418FA4E64B6D11E4E1059F30B9`
 SSDEEP | `384:xlqkwafU/pK5j53eh7MG3nEaZG6uftggJiDwC+m4vNDWccW:L85Ad53ehzEaHctggkx4vh`
+IMP | `02B63B93BB0FF42FF5BEB4C6E62D06B7`
+PESHA1 | `CA080272F02C67D9882D2298398E9AA4CC1B7ED7`
+PE256 | `B85989AAA74E81D22126A124C32B44918F8E509B290398A4173DD8972E4DFDD1`
 
 ## Runtime Data
 
@@ -53,14 +57,9 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\ulib.dll.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -90,6 +89,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c2729cbcb6a723939ca111c7ee82bab30856ec8d728ca234459112b975b9f306/detection/
 
 
 

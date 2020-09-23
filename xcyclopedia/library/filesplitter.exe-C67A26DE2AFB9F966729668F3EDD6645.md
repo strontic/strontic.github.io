@@ -1,5 +1,6 @@
 ﻿---
 title: filesplitter.exe | File Splitter and Joiner
+excerpt: What is filesplitter.exe?
 ---
 
 # filesplitter.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:iSDoWihW1jDOPsVVVVVVVVVVVjFODKyVQ:JDoZqjDOPsVVVVVVVVVVVjrN`
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

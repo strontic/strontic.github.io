@@ -1,5 +1,6 @@
 ﻿---
 title: sdiagnhost.exe | Scripted Diagnostics Native Host
+excerpt: What is sdiagnhost.exe?
 ---
 
 # sdiagnhost.exe 
@@ -17,6 +18,9 @@ SHA256 | `761815301A00D0B3A7BB4959A5004B623C55009CE701C6E867C96F468DC1323A`
 SHA384 | `4A7C83879CB0A023C98E7908A706B88D4B44C8CA3253884A0A9E030CD5CFEDFA821DF4D2A9A4FB4B79AC2AEFCE08B35C`
 SHA512 | `AB4261F78EABC4EFD9ECA0240C147F69A17DBFFAE0486420AA2396A1C1260F82889D060FC4D3D4959AD84C23E65BD1C0AFA8F3328B4497B14391439ECF5CAC08`
 SSDEEP | `384:bJwNWEgA6slYA8AGoZesJ1MYEFu8BNtbFTpUHGcMXgvaNS/uoJwJsL4BxKilsWh2:dwNW764o/+b7rHNS/uLs8KiR`
+IMP | `88C840A970A1633DCA61E1CD2D926E21`
+PESHA1 | `593CC73AEA0ED6AAD288D92C3B6A63BE8A628B19`
+PE256 | `842636E8014B8043A4FF5BBACB6EB14E142D491AC7B7599B6B6F961AF3B142CD`
 
 ## Runtime Data
 
@@ -28,15 +32,10 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\sdiagnhost.exe.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -46,7 +45,6 @@ Path |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -76,6 +74,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/761815301a00d0b3a7bb4959a5004b623c55009ce701c6e867c96f468dc1323a/detection/
 
 ## File Similarity (ssdeep match)
 

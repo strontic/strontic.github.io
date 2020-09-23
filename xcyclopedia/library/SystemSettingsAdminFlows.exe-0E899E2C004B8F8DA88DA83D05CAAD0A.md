@@ -1,5 +1,6 @@
 ﻿---
 title: SystemSettingsAdminFlows.exe | Settings
+excerpt: What is SystemSettingsAdminFlows.exe?
 ---
 
 # SystemSettingsAdminFlows.exe 
@@ -17,6 +18,9 @@ SHA256 | `1BF68447CD5C0D63224DE11650EF913F672894A2818EF2294B5A63C5D630ECB0`
 SHA384 | `C74F1DD0734C66AB236F6128AE4A23DDE231763899DF3F36735B7C9706545AE1DE88796C0202B6399A51F88766363971`
 SHA512 | `DCB956053FFBD5B4DC4D018494CC7110A7E5AC3B5977690877C15BE72463B9E777C0DB6DCB02F58C95B200FAB3F89CA995DC8436D7FCCD6EA8E33DFEA2CF6468`
 SSDEEP | `6144:6/OBmK7pFWu+2RrS6xtV3qnyONOFfCbYseQpLxSFn2iiPIh9E7jtI:eOkK9Mh2hS6BQ5NUf0XgF2esjtI`
+IMP | `C6531DFED34A54D8246E693AE49F54F8`
+PESHA1 | `C7A8D5CAFFD1B864B87CBE5A6885C3ECF0FC65CD`
+PE256 | `5A1708BC3C7E966F43C10DC9F3BB0999F4F3B88ED06040905349E702C1BDE568`
 
 ## Runtime Data
 
@@ -32,15 +36,15 @@ C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\SystemSettingsAdminFlows.exe |
-C:\Windows\system32\SystemSettingsThresholdAdminFlowUI.dll |
+C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\win32u.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -53,6 +57,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/1bf68447cd5c0d63224de11650ef913f672894a2818ef2294b5a63c5d630ecb0/detection/
 
 
 

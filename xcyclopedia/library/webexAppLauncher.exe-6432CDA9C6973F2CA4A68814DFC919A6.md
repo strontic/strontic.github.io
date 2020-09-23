@@ -1,5 +1,6 @@
 ﻿---
 title: webexAppLauncher.exe | WebEx Productivity Tools Application
+excerpt: What is webexAppLauncher.exe?
 ---
 
 # webexAppLauncher.exe 
@@ -42,6 +43,7 @@ cmd.exe
 * Product Version: 3303,4,1807,2500
 * Language: English (United States)
 * Legal Copyright:  2017 Cisco and/or its affiliates. All rights reserved.
+
 
 
 

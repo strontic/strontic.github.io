@@ -1,5 +1,6 @@
 ﻿---
 title: dialer.exe | Microsoft Windows Phone Dialer
+excerpt: What is dialer.exe?
 ---
 
 # dialer.exe 
@@ -21,6 +22,9 @@ SHA256 | `179584E64148751549E5F25A127293FD6E0AC7C2CEAED78E53669397A005BAE7`
 SHA384 | `5E0B1DDADE15930E30A74065356E9780CC4B5071DD1F1E11C4D4033ECD49C47F5AA86AD970A74823D91C582F356D6A73`
 SHA512 | `2B73E358BCA9DA827E2BC99045F93D73E6C23F577380F5FA30422FEDA1F19D2E3DEA28F5A47A60FB94E1B837B2C55395A61A9D6CF14716500B01E68A33B23BDF`
 SSDEEP | `384:3RUApn/nE6i9nNsxkP7/1E0mMbtszLLC6A72OpZ+HB44zLhFw3dL9vbWtvKW2d7p:3hpUZekP7/rmOtsz5A7zKS59+CdKo2Q`
+IMP | `76E0D8D65462216E7B0903BC27D606D1`
+PESHA1 | `D609B7232584F57791742F9A8A59E9AC87EF94F5`
+PE256 | `CAB17443F1C21CA66B17B64136F8B4A09787B391DAA65DE0D4337AC4DDF9B8A2`
 
 ## Runtime Data
 
@@ -35,18 +39,13 @@ Path | Type
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\SysWOW64\en-US\dialer.exe.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -55,6 +54,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\dialer.exe |
 
@@ -76,6 +76,12 @@ C:\Windows\SysWOW64\dialer.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/179584e64148751549e5f25a127293fd6e0ac7c2ceaed78e53669397a005bae7/detection/
 
 
 ## Possible Misuse

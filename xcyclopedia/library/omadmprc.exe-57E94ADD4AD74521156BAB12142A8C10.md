@@ -1,5 +1,6 @@
 ﻿---
 title: omadmprc.exe | Host Process for Push Router Client of OMA-DM
+excerpt: What is omadmprc.exe?
 ---
 
 # omadmprc.exe 
@@ -63,6 +64,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

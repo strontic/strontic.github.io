@@ -1,5 +1,6 @@
 ﻿---
 title: msfeedssync.exe | Microsoft Feeds Synchronization
+excerpt: What is msfeedssync.exe?
 ---
 
 # msfeedssync.exe 
@@ -52,6 +53,7 @@ C:\Windows\System32\ucrtbase.dll |
 * Product Version: 11.00.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

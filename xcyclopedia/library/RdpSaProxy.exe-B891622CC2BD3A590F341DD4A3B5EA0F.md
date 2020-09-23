@@ -1,5 +1,6 @@
 ﻿---
 title: RdpSaProxy.exe | RDP Session Agent Proxy
+excerpt: What is RdpSaProxy.exe?
 ---
 
 # RdpSaProxy.exe 
@@ -17,6 +18,9 @@ SHA256 | `D263AA2DBFD48F580594630C9AC3D72E64620B8EA67B9123332DD52467311095`
 SHA384 | `44A1E9D0B7C2BBAED7F305D31152DB01F8D7B7F61B55231563AF92A3548675A412F7BA97BC44E61629EED859E3239D08`
 SHA512 | `D290A9B103AB963B55FC3F9C7E693665D0E3D829B9F0A0CA83A8184C4610E51ADBEE26164D3158B34BAB560EEB9D83FF0F605B0E4878AB40D005E1DB04C78D69`
 SSDEEP | `768:VTDECjSJWyyz/nIP+yzlHua+OVAl0Vd2kZv4gd9B+nMuMA//c:RECWot/olOB+VLZv4gd9Ac`
+IMP | `CAB3BAC1D31F8145D8F4244A95674FA1`
+PESHA1 | `82988A9CB6B4937BCB9855F28D0B9B80CA161450`
+PE256 | `78A5BEF4C0CF94D66F409736EC83E3FE750A138AE4D7D535B7EC628A04DA10F2`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `768:VTDECjSJWyyz/nIP+yzlHua+OVAl0Vd2kZv4gd9B+nMuMA//c:RECWot/olOB+VLZv
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -40,20 +39,13 @@ Path | Type
 Path |
 -- |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\RdpSaProxy.exe |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -73,6 +65,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d263aa2dbfd48f580594630c9ac3d72e64620b8ea67b9123332dd52467311095/detection/
 
 
 

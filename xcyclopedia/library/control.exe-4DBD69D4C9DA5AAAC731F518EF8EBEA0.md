@@ -1,5 +1,6 @@
 ﻿---
 title: control.exe | Windows Control Panel
+excerpt: What is control.exe?
 ---
 
 # control.exe 
@@ -17,31 +18,11 @@ SHA256 | `D923F812BF0191F3344DE6CD5FCEAF6C7B2F6961F637C74C2AA329FB3F8CA6C5`
 SHA384 | `D43646A184E6C50FC465B345C1F979A12E9A48F33243901B775BD6181265035A4ABB7308BBE5E2327B41D4BDB26EF668`
 SHA512 | `5756AAE6F17009A550F5C1FCF51A16F4B51675B16E2E548C5BBBEA64FBE5CD59BF9173205310D40E0AEF1605BDF44CC4C21577DA529164CC489A94FD0894D0AB`
 SSDEEP | `3072:GcDa+r2qCGcsfcVd0g7Sp5+1k12b/Af885RK:t++r5crd/7+5+1kf15`
+IMP | `E429F70455F107F91CC4781D386989F0`
+PESHA1 | `7EF5E339B38917744B80128789AB6234D049FEA6`
+PE256 | `B87507FDB866B6CA95DB02DFF75AF3B9B747003B4761C579D58FFBA31EE6492F`
 
 ## Runtime Data
-
-### Child Processes:
-explorer.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -57,8 +38,8 @@ C:\Windows\SysWOW64\control.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -71,6 +52,12 @@ C:\Windows\SysWOW64\control.exe |
 * Product Version: 10.0.19041.423
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 1/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/d923f812bf0191f3344de6cd5fceaf6c7b2f6961f637c74c2aa329fb3f8ca6c5/detection/
 
 ## File Similarity (ssdeep match)
 

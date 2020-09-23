@@ -1,5 +1,6 @@
 ﻿---
 title: where.exe | Where - Lists location of files
+excerpt: What is where.exe?
 ---
 
 # where.exe 
@@ -17,6 +18,9 @@ SHA256 | `D591F730F356D7623D8B6DFE5DF48CB994322CA98F88CE2278EFD4090767DFA0`
 SHA384 | `6A3499734D85C8E6A784B57155DC88CD6ED1B7EDC467758FB7FF509F8033BFD733CC59ED0E8D90985D75369FFE38188A`
 SHA512 | `C951619F200186A0A4A49EE6792637D0ADEA4E7E66B3B07871FC1DAEE25FC25AC85D9085121024C5669CAABD897667765D2252264D6CC4D6E489EB166CAA40C5`
 SSDEEP | `768:KbXPtGDcjUKc7ulvnk+8IkhhQC4/qYwUj847vClltxYOuO:kXPtGDcJcqlGUzVwhWIx3uO`
+IMP | `C6F8BF70A2BF252E595BCF3EB4236860`
+PESHA1 | `D6E2C98AFF01BC6C10F92D4887041FCFA0D284F3`
+PE256 | `017613EEED7207D06D47F4B46A0E19FF4C262761936211A2C451124F24D33E18`
 
 ## Runtime Data
 
@@ -75,26 +79,6 @@ Type "WHERE /?" for usage help.
 
 ```
 
-### Child Processes:
-conhost.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\where.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-(RWD)   C:\Users\user\AppData | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
-
 ### Loaded Modules:
 
 Path |
@@ -123,6 +107,12 @@ C:\Windows\SysWOW64\where.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d591f730f356d7623d8b6dfe5df48cb994322ca98f88ce2278efd4090767dfa0/detection/
 
 
 ## Possible Misuse

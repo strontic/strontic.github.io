@@ -1,5 +1,6 @@
 ﻿---
 title: ntprint.exe | Printer driver software installation
+excerpt: What is ntprint.exe?
 ---
 
 # ntprint.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:Y3ls9T5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/QnU:THVIPd
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

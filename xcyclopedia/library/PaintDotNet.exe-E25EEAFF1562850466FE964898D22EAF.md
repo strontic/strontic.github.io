@@ -1,5 +1,6 @@
 ﻿---
 title: PaintDotNet.exe | paint.net
+excerpt: What is PaintDotNet.exe?
 ---
 
 # PaintDotNet.exe 
@@ -117,6 +118,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 4.213.7521.38873
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020 dotPDN LLC, Rick Brewster, and contributors. All Rights Reserved.
+
 
 
 

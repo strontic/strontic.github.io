@@ -1,5 +1,6 @@
 ﻿---
 title: compact.exe | File Compress Utility
+excerpt: What is compact.exe?
 ---
 
 # compact.exe 
@@ -17,6 +18,9 @@ SHA256 | `E8DDA2E35381B17E9619EA49305B53E8321F56947D19E981012D300428E3B0B1`
 SHA384 | `90BC8C1B44F7CF4C68E47C5DE844A4E7A7B4A28708687ED0BC2E4FFCB9CA25106F74402068A189205B2C8EB368A957A0`
 SHA512 | `95212006110772E675A683DC058F3DC95EF8CB7A9C9D11B77E02DD108E6697A718F618EEE5671B0A512208990EE7A301615229B9BD50A6228B1A37FEFA58EAFA`
 SSDEEP | `768:RVZQMj1pHpIb5Rtt+BESwRdIdGwTH/cat9fgFrDxZNRjk8G8jHxuMlTK/ktHq5u5:RVZQMj1pHpE5R/oozrDDlHUkTK/ktHqs`
+IMP | `F62B024CE3F1C2441731CA2486368509`
+PESHA1 | `C10C78BE8A56F0DB36A4900B3FFF6AD4EFB264B9`
+PE256 | `4333E0CC9129552584B959A47BB78669708AB09DC0A6721D777554EC588AD9C8`
 
 ## Runtime Data
 
@@ -70,15 +74,13 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 
 ```
 
-### Child Processes:
-powershell_ise.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\compact.exe |
 
@@ -100,6 +102,12 @@ C:\Windows\SysWOW64\compact.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e8dda2e35381b17e9619ea49305b53e8321f56947d19e981012d300428e3b0b1/detection/
 
 ## File Similarity (ssdeep match)
 

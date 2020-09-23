@@ -1,5 +1,6 @@
 ﻿---
 title: baaupdate.exe | BitLocker Access Agent Update Utility
+excerpt: What is baaupdate.exe?
 ---
 
 # baaupdate.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:+aDyyfg2iGwnVS570M9kdatGCO+xmBc+hMPhPsx:+X2aVs7nyatGt+SYF`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

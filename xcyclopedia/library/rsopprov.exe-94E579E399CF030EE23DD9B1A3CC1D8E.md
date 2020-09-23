@@ -1,5 +1,6 @@
 ﻿---
 title: rsopprov.exe | RSoP Service Application
+excerpt: What is rsopprov.exe?
 ---
 
 # rsopprov.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:ho9MOcWhOgecpeOpEXn8XW7alWIguYvKS8VRRWHp/n5j:G9MOcWhOgecpRZW7xLuU
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

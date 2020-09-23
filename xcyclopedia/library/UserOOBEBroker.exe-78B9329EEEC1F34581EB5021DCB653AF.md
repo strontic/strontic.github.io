@@ -1,5 +1,6 @@
 ﻿---
 title: UserOOBEBroker.exe | User OOBE Broker
+excerpt: What is UserOOBEBroker.exe?
 ---
 
 # UserOOBEBroker.exe 
@@ -68,6 +69,12 @@ C:\Windows\System32\USER32.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\oobe\UserOOBEBroker.exe](UserOOBEBroker.exe-80E7F1E70CB79EF61E2D5D710FC22A2A.md) | 85
 
 
 

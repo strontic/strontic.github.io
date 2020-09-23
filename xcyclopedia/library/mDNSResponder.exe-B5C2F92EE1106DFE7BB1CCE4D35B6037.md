@@ -1,5 +1,6 @@
 ﻿---
 title: mDNSResponder.exe | Bonjour Service
+excerpt: What is mDNSResponder.exe?
 ---
 
 # mDNSResponder.exe 
@@ -65,6 +66,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 3,1,0,1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2003-2015 Apple Inc.
+
 
 
 ## Possible Misuse

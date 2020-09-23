@@ -1,5 +1,6 @@
 ﻿---
 title: dvdplay.exe | dvdplay placeholder Application
+excerpt: What is dvdplay.exe?
 ---
 
 # dvdplay.exe 
@@ -17,6 +18,9 @@ SHA256 | `59576775D8A06038BD9975903418AEBF003F075D82F1F109FEADDAB8877E3C20`
 SHA384 | `B7552C9FE5F52BDF12659027F53B61B65589FCFBBF3F92DDEE760B577018A6996FFF270E317B83CC1AAEBCBD32E356CC`
 SHA512 | `BE1EEA964C35EB4716E286696E6F559C6BA9459CAC27073299EC5634FFC628F2F88F5DC44284673D057EC5C1DE9F4DED53546640C1394528C155A93EFC6ACC9D`
 SSDEEP | `192:O0Lw0ZGSOrYHMVEkx2dPZ3rHIQ1qgxZMCPEq6lFsAmQPjhFioWSZW:O0BJgkLS2dh3Utqjl8hWSZW`
+IMP | `9D517BD4783BA5BC3C67F3120C6BA649`
+PESHA1 | `4E9C14E4FDA05E1268C9943A9880EC220835065D`
+PE256 | `3E310D1CFFE01E87D5351952180692D452B48C4C78BDD37C68EF3A80EE7B5A88`
 
 ## Runtime Data
 
@@ -40,8 +44,8 @@ C:\Windows\System32\sechost.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -54,6 +58,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/59576775d8a06038bd9975903418aebf003f075d82f1f109feaddab8877e3c20/detection/
 
 ## File Similarity (ssdeep match)
 

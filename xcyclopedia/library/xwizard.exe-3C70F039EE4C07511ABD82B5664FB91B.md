@@ -1,5 +1,6 @@
 ﻿---
 title: xwizard.exe | Extensible Wizards Host Process
+excerpt: What is xwizard.exe?
 ---
 
 # xwizard.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:o5ObzBwv/bqaWLtpJwzh/rIo8YeTWs2IkRDzsq4ytZZZL2YCX4ib:o4KvGaiwVTIo1
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

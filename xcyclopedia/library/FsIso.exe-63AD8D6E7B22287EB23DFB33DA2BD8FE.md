@@ -1,5 +1,6 @@
 ﻿---
 title: FsIso.exe | Secure Frame Server Helper
+excerpt: What is FsIso.exe?
 ---
 
 # FsIso.exe 
@@ -17,6 +18,9 @@ SHA256 | `FF419466845F99A7E5AAC084150BBD4C0A2A4AAAEF2118F8AFA41716B8790E88`
 SHA384 | `963F010F76CC15CA7002943EA53BDDE3C5035BD72F75EB5074CCA0C1963E3C3D2FB0979E46AE87C54EE5B8004141E0EF`
 SHA512 | `F1296643F5E1AAEB0B655C42A62E881EC345F31CB4E715041081CF9E7CB399649BE8B5A2797BDF572FB3624C441F83433CC2B78F19E3713974E845919B3BE32D`
 SSDEEP | `1536:fep6LVdosYWZau3+p9kxQqZzNiLyCKs79sLP3u9Qy0xIrLPPL:feEwHWZau38kx39Mhb5sTe9QROL3L`
+IMP | `54FDA49E38FC53ED5FD39A6AE34568E0`
+PESHA1 | `B4963E7B7A18CC57689FCB7EFFE1D6248441DC25`
+PE256 | `72C06E8495BBE7E9CDEB9B9398BEE23971AA2B9CFE1BC8BA27F454369DFBB08B`
 
 ## Runtime Data
 
@@ -24,14 +28,9 @@ SSDEEP | `1536:fep6LVdosYWZau3+p9kxQqZzNiLyCKs79sLP3u9Qy0xIrLPPL:feEwHWZau38kx39
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -39,7 +38,6 @@ Path | Type
 Path |
 -- |
 C:\Windows\system32\FsIso.exe |
-C:\Windows\system32\iumbase.DLL |
 C:\Windows\system32\IumSdk.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -51,8 +49,8 @@ C:\Windows\System32\RPCRT4.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -65,6 +63,12 @@ C:\Windows\System32\RPCRT4.dll |
 * Product Version: 10.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/ff419466845f99a7e5aac084150bbd4c0a2a4aaaef2118f8afa41716b8790e88/detection/
 
 
 

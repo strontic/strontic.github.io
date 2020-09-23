@@ -1,5 +1,6 @@
 ﻿---
 title: netbtugc.exe | NetBT Unattend Generic Command
+excerpt: What is netbtugc.exe?
 ---
 
 # netbtugc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:pjfskT50BNe+jlGX/OZ+45D0Kd0wamJnATVu/IHdwFhekonNeU7ShokHW/QFW:hGIP
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

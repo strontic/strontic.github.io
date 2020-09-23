@@ -1,5 +1,6 @@
 ﻿---
 title: zCrashReport64.exe | Crash Report Delivery Module
+excerpt: What is zCrashReport64.exe?
 ---
 
 # zCrashReport64.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:rlp1ww7RMLpP08YUKy/xLS7oG8p/6WDykGSl1Yw3Zm:rnhtkP08YjqLS7ojw80`
 * Product Version: 5.2.42619.0804
 * Language: English (United States)
 * Legal Copyright: Copyright 2003-2013 The CrashRpt Project Authors
+
 
 ## File Similarity (ssdeep match)
 

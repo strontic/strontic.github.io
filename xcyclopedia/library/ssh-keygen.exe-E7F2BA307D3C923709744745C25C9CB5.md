@@ -1,5 +1,6 @@
 ﻿---
 title: ssh-keygen.exe | 
+excerpt: What is ssh-keygen.exe?
 ---
 
 # ssh-keygen.exe 
@@ -16,13 +17,16 @@ SHA256 | `F647D15BAC7651FB3FC23779D7568F7C14B139745AFF03201EA5F569A7D84810`
 SHA384 | `BA21430FD59C29B39E185EACDA530F562B5E524103C3FAAA4E2514731A8B78F6C93413AFD8D0B24BAEA0A0F4867A1D37`
 SHA512 | `DB5F7CA98083444D348C7BE8851ECEDA225A06446C4C97323B2A6B3A382CC0867A89CD3EEEEC4A7A1F505B4FC3226D7EB9E002C24785B0E33C936E29CF25D29E`
 SSDEEP | `6144:1jOlrq2QzsTMhJoEBA/YF9HE0C09/l760j6qTjhqVSxwn1VU1B8zqcNPaDb2O7fB:1CTOJl+EO0CM/M0+Ck8Bixo0lHCd`
+IMP | `643DF7829C13810977871B7A9E601644`
+PESHA1 | `970DC5D9DEE15124AB266C6FE37D09E8E1879DF0`
+PE256 | `48DE64377C0CB07CA1AF00987DB65A9A4734F6FD5BCE156D8CDACA2D7039D612`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
 Generating public/private rsa key pair.
-Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa): 
+Enter file in which to save the key (C:\Users\user/.ssh/id_rsa): 
 ```
 
 ### Usage (stderr):
@@ -62,7 +66,7 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\Administrator\Documents | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -94,6 +98,12 @@ C:\Windows\system32\OpenSSH\ssh-keygen.exe |
 * Product Version: OpenSSH_7.7p1 for Windows
 * Language: English (United States)
 * Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f647d15bac7651fb3fc23779d7568f7c14b139745aff03201ea5f569a7d84810/detection/
 
 ## File Similarity (ssdeep match)
 

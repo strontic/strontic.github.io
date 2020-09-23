@@ -1,5 +1,6 @@
 ﻿---
 title: tzutil.exe | Windows Time Zone Utility
+excerpt: What is tzutil.exe?
 ---
 
 # tzutil.exe 
@@ -17,6 +18,9 @@ SHA256 | `044C52F7B934C4EB64EAC31B1D8E5F29C9FEE2B3F080EA9BC6F180464CC8DB2D`
 SHA384 | `3DB6370767D15EDCFF4B92BB3A2B192CE00F56A029868BB68823804B0EA6E712EAE892DAF2663DE45853D69BCB680FC4`
 SHA512 | `12C87B636172253DE86DDE8A203F66EDD827D136A54306B4CA9F6C62BD1130E8E969D35FEEA158F00E881ACF2A4ADE85BC73147560217C306A3F82D4A63D8CD5`
 SSDEEP | `768:3qaRM9gF04O6KHjiPqqNZOcjehPcALfRePBSLj8Vy/99:3JaKF09HeSa6BcGKBKAVy/9`
+IMP | `C790BA0E7FECB0FFFC05EA7D2D0D5D32`
+PESHA1 | `BB5265CB2A7DE7A6E658611B07AAD147FB9D1A9E`
+PE256 | `97947E72573E3839CAC8555C6B0EB38AE8BB2AF214CABF88CF65854048A18B54`
 
 ## Runtime Data
 
@@ -52,15 +56,13 @@ Remarks:
 
 ```
 
-### Child Processes:
-explorer.exe
-
 ### Loaded Modules:
 
 Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\tzutil.exe |
 
@@ -68,8 +70,8 @@ C:\Windows\SysWOW64\tzutil.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -82,6 +84,12 @@ C:\Windows\SysWOW64\tzutil.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/044c52f7b934c4eb64eac31b1d8e5f29c9fee2b3f080ea9bc6f180464cc8db2d/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -103,36 +111,47 @@ File | Score
 Displays the Windows Time Zone utility.
 
 ### Syntax
-```
-tzutil [/?] [/g] [/s <timeZoneID>[_dstoff]] [/l]
-```
-##### Parameters
-|Parameter|Description|
-|-------|--------|
-|/?|Displays help at the command prompt.|
-|/g|Displays the current time zone ID.|
-|/s \<timeZoneID>[_dstoff]|Sets the current time zone using the specified time zone ID. The **_dstoff** suffix disables Daylight Saving time adjustments for the time zone (where applicable).|
-|/l|lists all valid time zone IDs and display names. The output will be:<p>-   \<display name><br />-   \<time zone ID>|
 
-### Remarks
+```
+tzutil [/?] [/g] [/s <timezoneID>[_dstoff]] [/l]
+```
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /g | Displays the current time zone ID. |
+| /s `<timezoneID>[_dstoff]` | Sets the current time zone using the specified time zone ID. The **_dstoff** suffix disables Daylight Saving time adjustments for the time zone (where applicable). Your value must be surrounded by quotes. |
+| /l | Lists all valid time zone IDs and display names. The output appears as:<ul><li>`<display name>`</li><li>`<time zone ID>`</li></ul> |
+| /? | Displays help at the command prompt. |
+
+##### Remarks
+
 An exit code of **0** indicates the command completed successfully.
 
 ### Examples
+
 To display the current time zone ID, type:
+
 ```
 tzutil /g
 ```
-To set the current time zone to Pacific Standard time, type:
-```
-tzutil /s Pacific Standard time
-```
-To set the current time zone to Pacific Standard time and disable Daylight Saving time adjustments, type:
-```
-tzutil /s Pacific Standard time_dstoff
-```
-### Additional References
-- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
+To set the current time zone to Pacific Standard time, type:
+
+```
+tzutil /s "Pacific Standard time"
+```
+
+To set the current time zone to Pacific Standard time and disable Daylight Saving time adjustments, type:
+
+```
+tzutil /s "Pacific Standard time_dstoff"
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
 

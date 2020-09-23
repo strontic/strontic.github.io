@@ -1,5 +1,6 @@
 ﻿---
 title: recover.exe | Recover Files Utility
+excerpt: What is recover.exe?
 ---
 
 # recover.exe 
@@ -46,6 +47,7 @@ and make sure the disk is unlocked.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: wsmprovhost.exe | Host process for WinRM plug-ins
+excerpt: What is wsmprovhost.exe?
 ---
 
 # wsmprovhost.exe 
@@ -70,6 +71,12 @@ C:\Windows\system32\wsmprovhost.exe |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wsmprovhost.exe](wsmprovhost.exe-345926C1D6E692E0054E1B2A61E202EC.md) | 96
 
 ## Possible Misuse
 

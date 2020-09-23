@@ -1,5 +1,6 @@
 ﻿---
 title: WinMgmt.exe | WMI Service Control Utility
+excerpt: What is WinMgmt.exe?
 ---
 
 # WinMgmt.exe 
@@ -17,6 +18,9 @@ SHA256 | `9587494C2CCB011BD1DD77500B4D6840268AFD6C567DFD0BEAC51ED3C92147D0`
 SHA384 | `FD44F85EEC164639A70D570E32AF8BF6D3BA473EB67A13A9A151A9AD1E8F10F65BBE9FE2B0ACCECC0F905743ACDF5973`
 SHA512 | `E090FB7A306361A4B92AD9F87F0F8A100B81996D9B0512A36FF8231062ECE347500952DAC775C5AE98616825882931A1039BFB7E05D1FEE73B2AADD62AC387FE`
 SSDEEP | `1536:ob/PdxA8uRzZbvvAvdShIPoANJLlAXuSXv+qSFEAeOFg:eEAvshIPFJRAhP2EAeB`
+IMP | `798ACA9C42114FEEB9FA9A5FD82CBA43`
+PESHA1 | `A6A67C90FDB8ED2652DE51D60388F935154A71FF`
+PE256 | `9AA28E8144BE49E8E8D23DC665F8639EAEF90C16DF6C676B9A5752897DDB885C`
 
 ## Runtime Data
 
@@ -101,8 +105,8 @@ C:\Windows\system32\wbem\WinMgmt.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -115,6 +119,12 @@ C:\Windows\system32\wbem\WinMgmt.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/9587494c2ccb011bd1dd77500b4d6840268afd6c567dfd0beac51ed3c92147d0/detection/
 
 ## File Similarity (ssdeep match)
 

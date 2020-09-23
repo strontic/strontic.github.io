@@ -1,5 +1,6 @@
 ﻿---
 title: zCrashReport64.exe | Crash Report Delivery Module
+excerpt: What is zCrashReport64.exe?
 ---
 
 # zCrashReport64.exe 
@@ -56,6 +57,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 5.2.44052.0816
 * Language: English (United States)
 * Legal Copyright: Copyright 2003-2013 The CrashRpt Project Authors
+
 
 ## File Similarity (ssdeep match)
 

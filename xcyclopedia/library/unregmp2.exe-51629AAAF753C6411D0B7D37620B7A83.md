@@ -1,5 +1,6 @@
 ﻿---
 title: unregmp2.exe | Microsoft Windows Media Player Setup Utility
+excerpt: What is unregmp2.exe?
 ---
 
 # unregmp2.exe 
@@ -17,31 +18,11 @@ SHA256 | `CC883043ADCCFA1DD61B3DA09D89940F3B97A6E74A09AA32D0D339B0553CD728`
 SHA384 | `F46D27F793C24DF3D98A5A41BCB4FB6396B6A23A5440F10D30BCF8F7186654DA8AA56CA466D17F46361FC47761E00B3C`
 SHA512 | `BDFAE0E02F0E18171738ECB705770463E4696884AC279DE79F681A5A525C2BD58014DC8B0546A128C7AED92AEAED4219BF25009DD998F262C2ED30D965514CB3`
 SSDEEP | `3072:9P6OfAg0IenWsWSwcCRCoE1mJ1C6U2z3maPfb9s:9gWsYRiO1CKzP3b`
+IMP | `567DEBB2A156B506ED421C435F1B2E33`
+PESHA1 | `09F36CEC1068C1548C9DE9645C52C775E7FF2614`
+PE256 | `539718FBE4934D85B1FBD9BC8E9DB2AD4BA08B1BEEE1E0A247A2D4DC46417ACE`
 
 ## Runtime Data
-
-### Open Handles:
-
-Path | Type
--- | --
-(R--)   C:\Users\user\AppData\Local\Temp\wmsetup.log | File
-(R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(R-D)   C:\Windows\System32\en-US\unregmp2.exe.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -71,6 +52,12 @@ C:\Windows\SysWOW64\unregmp2.exe |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/cc883043adccfa1dd61b3da09d89940f3b97a6e74a09aa32d0d339b0553cd728/detection/
 
 ## File Similarity (ssdeep match)
 

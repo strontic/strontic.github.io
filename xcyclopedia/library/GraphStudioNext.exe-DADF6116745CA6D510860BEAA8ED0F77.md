@@ -1,5 +1,6 @@
 ﻿---
 title: GraphStudioNext.exe | GraphStudioNext
+excerpt: What is GraphStudioNext.exe?
 ---
 
 # GraphStudioNext.exe 
@@ -88,6 +89,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 0.7.1.59
 * Language: English
 * Legal Copyright: 
+
 
 
 

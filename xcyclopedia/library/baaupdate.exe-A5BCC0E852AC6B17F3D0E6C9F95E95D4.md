@@ -1,5 +1,6 @@
 ﻿---
 title: baaupdate.exe | BitLocker Access Agent Update Utility
+excerpt: What is baaupdate.exe?
 ---
 
 # baaupdate.exe 
@@ -17,6 +18,9 @@ SHA256 | `9F2251424D855579C2E2CA78486FF4DD1DF807E6F02FD5E513065225E44AD4C6`
 SHA384 | `7ED2C3D01C8EFB95F8B6605826B1C0FCD927FA6A952387ED0D3555FB9A5025ABE8A1EFAC96D720E6BD6EA0A401FCCA0D`
 SHA512 | `E0C6837FB84B4D0757FDA0022F9F6B21026D6F0E505DEBE7BFCD2F7BAD50B02A3829BD5920774A7B6DCAC6EFBE51855C6F907E778CBCE7A4B908F3F314BB7EE2`
 SSDEEP | `3072:u4/Tt39wnVS570M9kdatGCO+xmBc+hMPhPsx:TteVs7nyatGt+SYF`
+IMP | `EEDA0083C7D468FE0C97DE8B9FCD7FF8`
+PESHA1 | `839E7E00D7F3243016B69AC231B84807C63D1700`
+PE256 | `4E3A0473B80BC1AFF01BA4DAA1144110971F67E572887DCD636AD1E0286E0783`
 
 ## Runtime Data
 
@@ -32,6 +36,7 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -40,8 +45,8 @@ C:\Windows\System32\win32u.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000026551AE1BBD005CBFBD000000000265`
-* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -54,6 +59,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/9f2251424d855579c2e2ca78486ff4dd1df807e6f02fd5e513065225e44ad4c6/detection/
 
 ## File Similarity (ssdeep match)
 

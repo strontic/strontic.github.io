@@ -1,5 +1,6 @@
 ﻿---
 title: TabTip.exe | Touch Keyboard and Handwriting Panel
+excerpt: What is TabTip.exe?
 ---
 
 # TabTip.exe 
@@ -54,6 +55,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

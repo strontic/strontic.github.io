@@ -1,5 +1,6 @@
 ﻿---
 title: mmgaserver.exe | MMGA Server
+excerpt: What is mmgaserver.exe?
 ---
 
 # mmgaserver.exe 
@@ -17,6 +18,9 @@ SHA256 | `9143D7977DBB84661AB4C5050CC69E7784BCDCE26FFBC036B108C09A81318CB3`
 SHA384 | `20D8EA6BD33B5818C7FF74FBDF0F57DC53A6B1B5BF8A66EBC0A9F7DD7CED75CD76D2C8B0A68728C0975F47D0E7ACC1DD`
 SHA512 | `E257A1897301F12973DA2F9B85DE89F721A37D2FF8D642A5185F89D074ED6DA2BE3BD3D770C18F8392E25A1A3058388214C95097CDBAF1AF99263DA5C1D1077E`
 SSDEEP | `24576:0DQv2TXwDO4++8cXwnLcbZV6GTS2AR/P93:0DT9c/VfS2s93`
+IMP | `27B4DB1C625181771F64CF4B5A6A8E44`
+PESHA1 | `94FE6F768421F68833D4DE45B6C6F7B6A9754CD2`
+PE256 | `37FDF5952AA85A42648E1486AE169BF4EEF9E7CFCCB6C16795EED941B9BC205D`
 
 ## Runtime Data
 
@@ -24,15 +28,10 @@ SSDEEP | `24576:0DQv2TXwDO4++8cXwnLcbZV6GTS2AR/P93:0DT9c/VfS2s93`
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -68,6 +67,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/9143d7977dbb84661ab4c5050cc69e7784bcdce26ffbc036b108c09a81318cb3/detection/
 
 
 

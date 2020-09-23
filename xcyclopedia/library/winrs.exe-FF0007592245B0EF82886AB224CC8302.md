@@ -1,5 +1,6 @@
 ﻿---
 title: winrs.exe | winrs
+excerpt: What is winrs.exe?
 ---
 
 # winrs.exe 
@@ -154,6 +155,7 @@ C:\Windows\system32\winrs.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

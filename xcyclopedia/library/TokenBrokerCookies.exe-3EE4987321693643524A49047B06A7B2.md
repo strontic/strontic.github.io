@@ -1,5 +1,6 @@
 ﻿---
 title: TokenBrokerCookies.exe | Token Broker Cookie Helper
+excerpt: What is TokenBrokerCookies.exe?
 ---
 
 # TokenBrokerCookies.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:EJfW/9pKmdjCVfThu82O1dY6BVgTJIC1gYHCZCMA9L6:SfE9dEfThuidYaVgTJILYH
 * Product Version: 10.0.18362.815
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

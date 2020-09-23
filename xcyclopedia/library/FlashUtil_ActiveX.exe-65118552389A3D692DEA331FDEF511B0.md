@@ -1,5 +1,6 @@
 ﻿---
 title: FlashUtil_ActiveX.exe | Adobe Flash Player Utility
+excerpt: What is FlashUtil_ActiveX.exe?
 ---
 
 # FlashUtil_ActiveX.exe 
@@ -22,6 +23,9 @@ SHA256 | `C05B1C1B1F0FB1849D809E05DA33AE19DB6E9E6C3F3B462713D8629A82357CA4`
 SHA384 | `7CFEE521897A663D5CFECCB72ACD19267BE0976C6996E5D01FE094FD887A431A835132EA4F7EA660F32B118494056039`
 SHA512 | `B7B99424CB4EADADE9C4E337A0B1E08904BAC4E42504D13260F5BE1971103CF84C41FB3E31ED980839FE41B4A0EFACE6645AEAF1F692B738DDA90178D766FFC9`
 SSDEEP | `24576:XLCmMHfsrhzUOCodT+8p4RDeqyDZuN79:7C3HfsrTCodT8DQDZuN5`
+IMP | `78C85DA1706B825DCACD51E95DCCD06C`
+PESHA1 | `3AD3DE73C9E0D4BAA10C0F3EBF192E5ABCAE7897`
+PE256 | `15D3C8AA58FB6CF573838DA8EBBC81850FABF949AAC3155D62C08B238373E89A`
 
 ## Runtime Data
 
@@ -30,14 +34,9 @@ SSDEEP | `24576:XLCmMHfsrhzUOCodT+8p4RDeqyDZuN79:7C3HfsrTCodT8DQDZuN5`
 Path | Type
 -- | --
 (RW-)   C:\Windows\System32 | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 
 
@@ -54,8 +53,6 @@ C:\Windows\system32\Macromed\Flash\FlashUtil_ActiveX.exe |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -78,6 +75,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 32,0,0,387
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 Adobe
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/c05b1c1b1f0fb1849d809e05da33ae19db6e9e6c3f3b462713d8629a82357ca4/detection/
 
 
 

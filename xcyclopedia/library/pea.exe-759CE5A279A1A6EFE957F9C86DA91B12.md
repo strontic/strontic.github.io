@@ -1,5 +1,6 @@
 ﻿---
 title: pea.exe | Pea- pack, encrypt, authenticate
+excerpt: What is pea.exe?
 ---
 
 # pea.exe 
@@ -86,6 +87,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 0.73.0
 * Language: English (United States)
 * Legal Copyright: Giorgio Tani, LGPLv3
+
 
 
 

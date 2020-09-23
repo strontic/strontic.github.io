@@ -1,5 +1,6 @@
 ﻿---
 title: diskperf.exe | Disk Performance Configuration Utility
+excerpt: What is diskperf.exe?
 ---
 
 # diskperf.exe 
@@ -90,6 +91,7 @@ C:\Windows\SysWOW64\diskperf.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

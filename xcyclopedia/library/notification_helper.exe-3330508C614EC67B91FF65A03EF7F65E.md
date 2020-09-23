@@ -1,5 +1,6 @@
 ﻿---
 title: notification_helper.exe | Google Chrome
+excerpt: What is notification_helper.exe?
 ---
 
 # notification_helper.exe 
@@ -55,6 +56,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 85.0.4183.83
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

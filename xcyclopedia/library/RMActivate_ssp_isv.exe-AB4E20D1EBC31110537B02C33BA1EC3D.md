@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate_ssp_isv.exe | Windows Rights Management Services Activation for Server Security Processor (Pre-production)
+excerpt: What is RMActivate_ssp_isv.exe?
 ---
 
 # RMActivate_ssp_isv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:YiohJoxH1MESuXtT1ljqW9XEtwT2EfZpk:YiuJgH2XuwW9rTK`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

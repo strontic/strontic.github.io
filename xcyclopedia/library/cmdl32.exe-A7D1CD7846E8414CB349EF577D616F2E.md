@@ -1,5 +1,6 @@
 ﻿---
 title: cmdl32.exe | Microsoft Connection Manager Auto-Download
+excerpt: What is cmdl32.exe?
 ---
 
 # cmdl32.exe 
@@ -46,6 +47,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 7.2.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: Dxpserver.exe | Device Stage Platform Server
+excerpt: What is Dxpserver.exe?
 ---
 
 # Dxpserver.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:dB3aDSTFwFhEj18rztQdy+SYeof0dRFn:dBqDqqa9GQKR`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

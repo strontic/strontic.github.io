@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate_isv.exe | Windows Rights Management Services Activation for Desktop Security Processor
+excerpt: What is RMActivate_isv.exe?
 ---
 
 # RMActivate_isv.exe 
@@ -44,6 +45,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

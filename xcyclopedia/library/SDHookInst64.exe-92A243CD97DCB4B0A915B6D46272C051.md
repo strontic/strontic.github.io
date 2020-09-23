@@ -1,5 +1,6 @@
 ﻿---
 title: SDHookInst64.exe | Live Protection Configuration Tool
+excerpt: What is SDHookInst64.exe?
 ---
 
 # SDHookInst64.exe 
@@ -57,6 +58,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+
 
 
 

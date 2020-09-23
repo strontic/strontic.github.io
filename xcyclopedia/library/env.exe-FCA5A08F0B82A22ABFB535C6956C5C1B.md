@@ -1,5 +1,6 @@
 ﻿---
 title: env.exe | 
+excerpt: What is env.exe?
 ---
 
 # env.exe 
@@ -146,6 +147,7 @@ Try '/usr/bin/env --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

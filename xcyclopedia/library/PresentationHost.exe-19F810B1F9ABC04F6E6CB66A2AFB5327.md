@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationHost.exe | Windows Presentation Foundation Host
+excerpt: What is PresentationHost.exe?
 ---
 
 # PresentationHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:KxtSwdcFJ8LGLc9Mrq4KiaNNzbXo9l1yCIOUOCi06OwIw9kKiaNNzbXf3rn:KNGeK
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

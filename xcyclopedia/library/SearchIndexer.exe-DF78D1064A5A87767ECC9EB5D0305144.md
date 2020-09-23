@@ -1,5 +1,6 @@
 ﻿---
 title: SearchIndexer.exe | Microsoft Windows Search Indexer
+excerpt: What is SearchIndexer.exe?
 ---
 
 # SearchIndexer.exe 
@@ -48,6 +49,7 @@ C:\Windows\SysWOW64\SearchIndexer.exe |
 * Product Version: 7.0.17763.1369
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

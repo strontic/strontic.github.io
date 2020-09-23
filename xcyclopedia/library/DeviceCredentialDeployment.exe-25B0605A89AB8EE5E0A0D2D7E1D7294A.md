@@ -1,5 +1,6 @@
 ﻿---
 title: DeviceCredentialDeployment.exe | "DeviceCredentialDeployment.exe"
+excerpt: What is DeviceCredentialDeployment.exe?
 ---
 
 # DeviceCredentialDeployment.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:pmJP2Yzg391V8YgSjvSBXa9foiB2MfiVEsRbudtseha1vSIAvvMHN:6eV8FSjvkq9
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

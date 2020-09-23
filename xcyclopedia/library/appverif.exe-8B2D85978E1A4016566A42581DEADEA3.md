@@ -1,5 +1,6 @@
 ﻿---
 title: appverif.exe | Application Verifier User Interface Utility
+excerpt: What is appverif.exe?
 ---
 
 # appverif.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:qJHaxC4XrXb5QFYA4QMk1IYsSD8R+3X/n0E0rAwpmexlBRxct:qJ4bXb2em1/gu/n
 * Product Version: 10.0.10586.15
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

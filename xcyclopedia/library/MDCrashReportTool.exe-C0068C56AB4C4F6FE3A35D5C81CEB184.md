@@ -1,5 +1,6 @@
 ﻿---
 title: MDCrashReportTool.exe | MDCrashReportTool
+excerpt: What is MDCrashReportTool.exe?
 ---
 
 # MDCrashReportTool.exe 
@@ -57,6 +58,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

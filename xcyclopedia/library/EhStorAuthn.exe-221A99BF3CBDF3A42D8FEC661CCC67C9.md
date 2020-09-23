@@ -1,5 +1,6 @@
 ﻿---
 title: EhStorAuthn.exe | Microsoft Enhanced Storage Authentication Program
+excerpt: What is EhStorAuthn.exe?
 ---
 
 # EhStorAuthn.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:kqxynjQUFLi7Y/bNVfCKGeomgPHA5kG9mQ7N6wMkNaAYG5n8sZI:ccUF6YTNVKKGx
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

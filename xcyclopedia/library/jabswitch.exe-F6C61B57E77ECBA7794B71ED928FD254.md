@@ -1,5 +1,6 @@
 ﻿---
 title: jabswitch.exe | OpenJDK Platform binary
+excerpt: What is jabswitch.exe?
 ---
 
 # jabswitch.exe 
@@ -75,6 +76,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 8.0.2650.1
 * Language: English (United States)
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: vds.exe | Virtual Disk Service
+excerpt: What is vds.exe?
 ---
 
 # vds.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:sKiWs0U8AJ7Mmz2Xaz4tdBxYVqMBreyVE3kjsOFNQzmsHLcrwFRRVH:MMOJ7AA4pu
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

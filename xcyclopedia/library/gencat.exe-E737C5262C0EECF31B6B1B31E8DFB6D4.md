@@ -1,5 +1,6 @@
 ﻿---
 title: gencat.exe | 
+excerpt: What is gencat.exe?
 ---
 
 # gencat.exe 
@@ -43,6 +44,7 @@ usage: gencat catfile msgfile ...
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

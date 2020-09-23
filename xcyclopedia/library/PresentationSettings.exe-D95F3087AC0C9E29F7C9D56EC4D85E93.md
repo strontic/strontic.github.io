@@ -1,5 +1,6 @@
 ﻿---
 title: PresentationSettings.exe | Microsoft Mobile PC Presentation Adaptability Client
+excerpt: What is PresentationSettings.exe?
 ---
 
 # PresentationSettings.exe 
@@ -70,6 +71,7 @@ C:\Windows\System32\windows.storage.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Microsoft. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

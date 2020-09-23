@@ -1,5 +1,6 @@
 ﻿---
 title: MemfilesService.exe | MemfilesService
+excerpt: What is MemfilesService.exe?
 ---
 
 # MemfilesService.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:voEg+ktixt+HAfK+c0l/e15EByca9jBoTtbOvpTBwBk2Oxw9CcA:voIo0An0lq+By
 * Product Version: 5.18.1.24
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 
 

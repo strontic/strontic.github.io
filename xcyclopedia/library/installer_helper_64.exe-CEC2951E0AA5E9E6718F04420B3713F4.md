@@ -1,5 +1,6 @@
 ﻿---
 title: installer_helper_64.exe | 
+excerpt: What is installer_helper_64.exe?
 ---
 
 # installer_helper_64.exe 
@@ -56,6 +57,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

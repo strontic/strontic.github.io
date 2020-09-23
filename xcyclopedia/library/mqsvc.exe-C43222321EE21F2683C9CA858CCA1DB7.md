@@ -1,5 +1,6 @@
 ﻿---
 title: mqsvc.exe | Message Queuing Service
+excerpt: What is mqsvc.exe?
 ---
 
 # mqsvc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:amuiqVWtNMaWI9pTZVZkhwK1+EtU3olovGU/TFMsSeeWoXW:P0kDDdV2h91+EtUSoT
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

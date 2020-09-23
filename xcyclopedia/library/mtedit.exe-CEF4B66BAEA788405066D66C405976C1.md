@@ -1,5 +1,6 @@
 ﻿---
 title: mtedit.exe | Microsoft Group Policy Management Migration Table Editor
+excerpt: What is mtedit.exe?
 ---
 
 # mtedit.exe 
@@ -72,6 +73,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

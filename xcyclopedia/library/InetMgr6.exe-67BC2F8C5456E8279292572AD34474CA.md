@@ -1,5 +1,6 @@
 ﻿---
 title: InetMgr6.exe | IIS Admin Program
+excerpt: What is InetMgr6.exe?
 ---
 
 # InetMgr6.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:OM++0vBr0R2swcRMY8g7o3YOnApt0YsNkP6vWIF:c+0vBr0R5fo3YOApLsUk`
 * Product Version: 8.5.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

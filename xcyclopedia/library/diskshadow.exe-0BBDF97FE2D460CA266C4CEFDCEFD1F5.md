@@ -1,5 +1,6 @@
 ﻿---
 title: diskshadow.exe | DiskShadow
+excerpt: What is diskshadow.exe?
 ---
 
 # diskshadow.exe 
@@ -57,6 +58,7 @@ DISKSHADOW.EXE  [/l <logfile>]
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

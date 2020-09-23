@@ -1,5 +1,6 @@
 ﻿---
 title: fileencrypt.exe | File Encrypter and Decrypter
+excerpt: What is fileencrypt.exe?
 ---
 
 # fileencrypt.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:JX1mKYMmt/7Ehg/uevBT6oUKceVwHgKx/7es9ZOJuamC+N7LPAoGEV+g:fmNNJ4WW
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

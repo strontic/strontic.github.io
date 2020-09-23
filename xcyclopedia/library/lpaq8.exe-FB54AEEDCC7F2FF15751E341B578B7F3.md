@@ -1,5 +1,6 @@
 ﻿---
 title: lpaq8.exe | 
+excerpt: What is lpaq8.exe?
 ---
 
 # lpaq8.exe 
@@ -60,6 +61,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

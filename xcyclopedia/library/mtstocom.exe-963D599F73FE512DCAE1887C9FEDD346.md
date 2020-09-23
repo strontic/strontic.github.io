@@ -1,5 +1,6 @@
 ﻿---
 title: mtstocom.exe | COM+
+excerpt: What is mtstocom.exe?
 ---
 
 # mtstocom.exe 
@@ -17,8 +18,14 @@ SHA256 | `66479FCA0DC380ECBD62BC55A75C2AB5B33FBF3D2119C47748FBF3A3DD3A0954`
 SHA384 | `C64E940B1C7518AB582A6FDCFF75316E88F32EFF5717253629E6AB63DFCACFCBF4DB00A86D3A9ADCA825214A0D339AC0`
 SHA512 | `47379A52E2844C3E76811234483FA5E1CC72005D18E8DF28907A56F0A312C8B3D4919DCE86E35D7EA734DF64F29B4266EF2CCF25CF956D681CB6FEEE41B158E0`
 SSDEEP | `3072:JZ7Bi7yKamDD9ZDp+tvRUiR2yPCVExfa3uG0:vBcaOLp+tZtVqKxf6u`
+IMP | `630A3A9AA7982CFD7A78DDCB919E831E`
+PESHA1 | `DD125583222AEEC6B6A914CF303CEEF03AA11740`
+PE256 | `50A0406CC7EA7921EB833964C54A23861CDA695F69089CA800D76B5FB0325555`
 
 ## Runtime Data
+
+### Child Processes:
+csrss.exe winlogon.exe
 
 ### Loaded Modules:
 
@@ -33,8 +40,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -47,6 +54,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/66479fca0dc380ecbd62bc55a75c2ab5b33fbf3d2119c47748fbf3a3dd3a0954/detection/
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesHardware.exe | Hardware Settings
+excerpt: What is SystemPropertiesHardware.exe?
 ---
 
 # SystemPropertiesHardware.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:lWGwtREC/rMcgEPJV+G57ThjEC0kzJP+V5Jh:9wzECTMpuDhjRVJG7`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

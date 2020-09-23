@@ -1,5 +1,6 @@
 ﻿---
 title: chgport.exe | Change port Utility
+excerpt: What is chgport.exe?
 ---
 
 # chgport.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:v9v/U+7uI9cea54tSGakjnB7+AoWEd55WVdz58+FRmbITAYd+SZea7u04eO8kW95:V
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

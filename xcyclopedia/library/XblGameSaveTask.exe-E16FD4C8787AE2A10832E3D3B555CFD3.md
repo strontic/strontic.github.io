@@ -1,5 +1,6 @@
 ﻿---
 title: XblGameSaveTask.exe | XblGameSave Standby Task
+excerpt: What is XblGameSaveTask.exe?
 ---
 
 # XblGameSaveTask.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:SiDE3b/dIQBWf54qkqQXSUWTcrj/gvXIufEI7OrFnmOr3rQaUXeA:bDSIQBGeAQX3W
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

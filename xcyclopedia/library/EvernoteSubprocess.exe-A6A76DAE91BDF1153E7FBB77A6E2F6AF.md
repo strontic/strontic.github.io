@@ -1,5 +1,6 @@
 ﻿---
 title: EvernoteSubprocess.exe | Evernote Subprocess
+excerpt: What is EvernoteSubprocess.exe?
 ---
 
 # EvernoteSubprocess.exe 
@@ -60,6 +61,7 @@ C:\Windows\System32\wow64win.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Evernote Corporation.
 All rights reserved.
+
 
 
 

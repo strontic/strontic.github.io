@@ -1,5 +1,6 @@
 ﻿---
 title: LegacyNetUXHost.exe | Legacy Net UX Host
+excerpt: What is LegacyNetUXHost.exe?
 ---
 
 # LegacyNetUXHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:+9mlDBGVYt+uIc2pC5Akvxw8nobS+Z829rt/0uc6RMNS:+9SD8VYRInIBoufuaucC
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

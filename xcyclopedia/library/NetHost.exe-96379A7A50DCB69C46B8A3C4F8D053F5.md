@@ -1,5 +1,6 @@
 ﻿---
 title: NetHost.exe | EXE for configuring VPN proxy
+excerpt: What is NetHost.exe?
 ---
 
 # NetHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:VYKPtCdeYTvjKky4SuN5TUDIN+Gy9GXkSBWdbqW:3QV7KLHftNSBWdbqW`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

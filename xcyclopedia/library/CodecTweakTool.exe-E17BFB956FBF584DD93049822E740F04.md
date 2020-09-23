@@ -1,5 +1,6 @@
 ﻿---
 title: CodecTweakTool.exe | Setup/Uninstall
+excerpt: What is CodecTweakTool.exe?
 ---
 
 # CodecTweakTool.exe 
@@ -74,6 +75,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 6.4.5.0                                           
 * Language: Language Neutral
 * Legal Copyright:                                                                                                     
+
 
 ## File Similarity (ssdeep match)
 

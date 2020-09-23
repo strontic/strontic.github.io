@@ -1,5 +1,6 @@
 ﻿---
 title: SecurityHealthSystray.exe | Windows Security notification icon
+excerpt: What is SecurityHealthSystray.exe?
 ---
 
 # SecurityHealthSystray.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:iYHET+M5mU1kLvqJzcq82XkXUzy7G7pq:mxh1kLvqJJ0N7G7pq`
 * Product Version: 10.0.18362.628
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

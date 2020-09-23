@@ -1,5 +1,6 @@
 ﻿---
 title: SlideToShutDown.exe | SlideToShutDown
+excerpt: What is SlideToShutDown.exe?
 ---
 
 # SlideToShutDown.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:CqkHzUtCybmCW99GLjZGNDWW1RC6W08lRDBRJOklTIw31pgB67:rQwJSCW9aZGNF1R
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

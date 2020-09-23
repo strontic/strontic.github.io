@@ -1,5 +1,6 @@
 ﻿---
 title: MusicBee.exe | MusicBee
+excerpt: What is MusicBee.exe?
 ---
 
 # MusicBee.exe 
@@ -81,6 +82,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.3.7491.38139
 * Language: Language Neutral
 * Legal Copyright: Copyright  Steven Mayall, 2008-2020
+
 
 
 

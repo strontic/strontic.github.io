@@ -1,5 +1,6 @@
 ﻿---
 title: write.exe | Windows Write
+excerpt: What is write.exe?
 ---
 
 # write.exe 
@@ -17,28 +18,14 @@ SHA256 | `6F760002730A8CA55181EB61EB7D9764D91F236EFC602168F225CB0CD9180295`
 SHA384 | `991D34705B5477BC48F30C870E33B6914AF321E0772342197062D2AA733F2946E88D54D90B54F3B83DBC85AB630F7601`
 SHA512 | `F6E21B25D342D47A75ACC08A4165AA144B1DE7B0DDE0452FE9AF718D232AD76F2D1B99574890118C730F81FC2BF48F62960F3AE37276B840A419D14CA65D1D76`
 SSDEEP | `96:wXEPsSNEdA+Bn9Jkp2kBjDDDGjg6GHDCMq1RDJdMi2bKveLrxuJRdlEWGOWwMj3:wXEUFdA+hyQgDCMq1hPuxu/sWGOWNj`
+IMP | `B05C7142E6016FF931CDC4142BE82084`
+PESHA1 | `3E45FA268DAD96B552B414AD276F655E99E46781`
+PE256 | `7A13C914E51109F249B0AA11F375F5730544ACEC4DCFA6C5A3B55121CA9CF995`
 
 ## Runtime Data
 
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
+### Child Processes:
+wordpad.exe
 
 ### Loaded Modules:
 
@@ -46,6 +33,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\write.exe |
 
@@ -67,6 +55,12 @@ C:\Windows\SysWOW64\write.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/6f760002730a8ca55181eb61eb7d9764d91f236efc602168f225cb0cd9180295/detection/
 
 ## File Similarity (ssdeep match)
 

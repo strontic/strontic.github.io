@@ -1,5 +1,6 @@
 ﻿---
 title: SDHelp.exe | 
+excerpt: What is SDHelp.exe?
 ---
 
 # SDHelp.exe 
@@ -78,6 +79,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (United States)
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

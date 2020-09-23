@@ -1,5 +1,6 @@
 ﻿---
 title: chkdsk.exe | Check Disk Utility
+excerpt: What is chkdsk.exe?
 ---
 
 # chkdsk.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:nf9q3RI7DyDgpCpWODGhK2lZvEHBsnrQ0al+hdl0ITUaerNqWSFMhW:f9q3RI7DlCo
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

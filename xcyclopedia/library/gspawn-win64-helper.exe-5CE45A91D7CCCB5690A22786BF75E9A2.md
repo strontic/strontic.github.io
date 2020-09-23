@@ -1,5 +1,6 @@
 ﻿---
 title: gspawn-win64-helper.exe | 
+excerpt: What is gspawn-win64-helper.exe?
 ---
 
 # gspawn-win64-helper.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

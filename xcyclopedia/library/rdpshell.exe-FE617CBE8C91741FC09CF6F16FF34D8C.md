@@ -1,5 +1,6 @@
 ﻿---
 title: rdpshell.exe | RemoteApp Shell
+excerpt: What is rdpshell.exe?
 ---
 
 # rdpshell.exe 
@@ -54,11 +55,13 @@ C:\Windows\System32\ucrtbase.dll |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\rdpshell.exe](rdpshell.exe-932235B5293C63ED3F44763679EDD9A6.md) | 80
+[C:\Windows\system32\rdpshell.exe](rdpshell.exe-CAD5E9513CBD384F1B6045EDEEFF70D2.md) | 99
 
 
 

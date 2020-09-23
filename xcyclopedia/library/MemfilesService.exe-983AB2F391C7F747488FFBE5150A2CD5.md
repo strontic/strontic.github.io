@@ -1,5 +1,6 @@
 ﻿---
 title: MemfilesService.exe | MemfilesService
+excerpt: What is MemfilesService.exe?
 ---
 
 # MemfilesService.exe 
@@ -79,6 +80,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 5.18.1.26
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 
 

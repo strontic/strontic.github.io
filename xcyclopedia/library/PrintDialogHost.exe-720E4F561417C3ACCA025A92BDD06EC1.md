@@ -1,5 +1,6 @@
 ﻿---
 title: PrintDialogHost.exe | Print Dialog Host
+excerpt: What is PrintDialogHost.exe?
 ---
 
 # PrintDialogHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:q2zoRqxErKUIL3gGFfD/esl5KHD5Hq3ze0AbW7UxCroeVRqWF0WaDBRJijlSCIqO:q
 * Product Version: 6.3.9600.17415
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

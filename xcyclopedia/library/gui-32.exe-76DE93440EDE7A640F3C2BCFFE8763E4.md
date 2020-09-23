@@ -1,5 +1,6 @@
 ﻿---
 title: gui-32.exe | 
+excerpt: What is gui-32.exe?
 ---
 
 # gui-32.exe 
@@ -42,6 +43,7 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

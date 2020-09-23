@@ -1,5 +1,6 @@
 ﻿---
 title: coregen.exe | Microsoft Common Language Runtime native compiler
+excerpt: What is coregen.exe?
 ---
 
 # coregen.exe 
@@ -62,6 +63,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.1.50918.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+
 
 
 

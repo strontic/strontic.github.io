@@ -1,5 +1,6 @@
 ﻿---
 title: tcmsetup.exe | Microsoft Windows(TM) Telephony Administration Setup
+excerpt: What is tcmsetup.exe?
 ---
 
 # tcmsetup.exe 
@@ -39,6 +40,7 @@ SSDEEP | `192:yebIMC8k7HAoEQggMaPTy4SOv0Urr+ppuzRQKS/SG77p7d2+TGWGpoW:FbTk+Qgncy
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

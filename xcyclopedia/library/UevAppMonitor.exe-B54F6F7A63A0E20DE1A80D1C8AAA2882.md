@@ -1,5 +1,6 @@
 ﻿---
 title: UevAppMonitor.exe |  
+excerpt: What is UevAppMonitor.exe?
 ---
 
 # UevAppMonitor.exe 
@@ -17,6 +18,9 @@ SHA256 | `0BE7F413037A2192E3361954867B09DE0568FF53A938F73DD8BA1BDCE05C7002`
 SHA384 | `41B1DE37E41DF4CDFC3791CE8EFA73A904F98F318A3AA99060AF660F665F32E1C735B3BE220E87A9E3DECDA06A984FC4`
 SHA512 | `908FD0444E43438AD563AED947302A8F3AE4F6AB35B115137D137F27DB932AC2B5F21658C1E04297A5A4347029B23A0645B37B87B8687A4B9D7F92BFF38B34B3`
 SSDEEP | `768:vN0yKm62+wU+Aa91slxN+u996swwiKEtycTY5lkQ7Vy9ylDX7:LK/A91szN++6NwiKE10DjlP`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `5BF8191ADB1ADAFC20AC427E44D21E17F6F05A97`
+PE256 | `642C83D2A017868169A67D4E1ABE6EEAABFC1149E0D7CF46FAFC23DAAF13C65C`
 
 ## Runtime Data
 
@@ -24,34 +28,37 @@ SSDEEP | `768:vN0yKm62+wU+Aa91slxN+u996swwiKEtycTY5lkQ7Vy9ylDX7:LK/A91szN++6NwiK
 
 Path | Type
 -- | --
-(R--)   C:\Windows\assembly\pubpol5.dat | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_64\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.XML.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll | File
+(R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll | File
 (R-D)   C:\Windows\System32\Microsoft.Uev.Common.dll | File
 (R-D)   C:\Windows\System32\Microsoft.Uev.ManagedEventLogging.dll | File
 (R-D)   C:\Windows\System32\Microsoft.Uev.ModernAppCore.dll | File
-(RW-)   C:\Users\user | File
+(R-D)   C:\Windows\System32\Microsoft.Uev.ModernAppData.WinRT.dll | File
+(RW-)   C:\Users\user\Documents | File
 \...\Cor_SxSPublic_IPCBlock | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_7552 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_2420 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\system32\UevAppMonitor.exe |
 
@@ -73,6 +80,12 @@ C:\Windows\system32\UevAppMonitor.exe |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/0be7f413037a2192e3361954867b09de0568ff53a938f73dd8ba1bdce05c7002/detection/
 
 ## File Similarity (ssdeep match)
 

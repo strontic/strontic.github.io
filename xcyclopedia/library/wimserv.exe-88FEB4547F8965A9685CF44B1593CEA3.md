@@ -1,5 +1,6 @@
 ﻿---
 title: wimserv.exe | Wimfltr v2 extractor
+excerpt: What is wimserv.exe?
 ---
 
 # wimserv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:Eu0ZvbFD+iX57q5SCdMaJ29mi+DfS70+FBMlsDPkPw26EhN8K4oP9oQn8vND:8boi
 * Product Version: 10.0.19041.84
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

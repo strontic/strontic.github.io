@@ -1,5 +1,6 @@
 ﻿---
 title: omadmprc.exe | Host Process for Push Router Client of OMA-DM
+excerpt: What is omadmprc.exe?
 ---
 
 # omadmprc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:X9wFsRd/rTZQqboEtan41ToDU2+2dTniTfmR+MxBYpK:eFA/xQqUEtan41GU2+2dT
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

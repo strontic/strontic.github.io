@@ -1,5 +1,6 @@
 ﻿---
 title: chkntfs.exe | NTFS Volume Maintenance Utility
+excerpt: What is chkntfs.exe?
 ---
 
 # chkntfs.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:X8W/Jf5/E60PPmb8TX0YN9kVBnYl1MNkWE6W:X5V5/E60nmojNWnEMs`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

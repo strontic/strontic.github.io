@@ -1,5 +1,6 @@
 ﻿---
 title: systemreset.exe | System Reset for Windows
+excerpt: What is systemreset.exe?
 ---
 
 # systemreset.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:ADIrA4zB/KTXlvKv6/d9ECOHsWPiJ/9akwBqARoqd/yLV7KUIQGEEEsND0ZCYWhg:
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

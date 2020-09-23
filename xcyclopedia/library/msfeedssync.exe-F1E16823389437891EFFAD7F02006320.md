@@ -1,5 +1,6 @@
 ﻿---
 title: msfeedssync.exe | Microsoft Feeds Synchronization
+excerpt: What is msfeedssync.exe?
 ---
 
 # msfeedssync.exe 
@@ -35,6 +36,7 @@ SSDEEP | `192:ROd9kmXRfE0QX6xtk2JTxDSSl7LRGRMLTvoZWcsLsl:RM99ZSXkiqYWRGCIZWcsL`
 * Product Version: 11.00.14393.2007
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

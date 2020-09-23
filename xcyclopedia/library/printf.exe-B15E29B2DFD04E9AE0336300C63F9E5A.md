@@ -1,5 +1,6 @@
 ﻿---
 title: printf.exe | 
+excerpt: What is printf.exe?
 ---
 
 # printf.exe 
@@ -82,6 +83,7 @@ or available locally via: info '(coreutils) printf invocation'
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

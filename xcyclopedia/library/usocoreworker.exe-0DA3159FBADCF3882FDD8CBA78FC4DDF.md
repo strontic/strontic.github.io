@@ -1,5 +1,6 @@
 ﻿---
 title: usocoreworker.exe | USO Core Worker Process
+excerpt: What is usocoreworker.exe?
 ---
 
 # usocoreworker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `24576:gUCz3Xsi628dIDD1xdyhlY1xyZloTmx2UlcIzmkrG4Q+:g358dEDjt4dlokv`
 * Product Version: 10.0.18362.836
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

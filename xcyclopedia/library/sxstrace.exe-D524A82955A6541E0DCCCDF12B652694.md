@@ -1,5 +1,6 @@
 ﻿---
 title: sxstrace.exe | Sxs Tracing Tool
+excerpt: What is sxstrace.exe?
 ---
 
 # sxstrace.exe 
@@ -56,6 +57,7 @@ Example:  SxsTrace Trace -logfile:SxsTrace.etl
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: vlc-cache-gen.exe | VLC media player
+excerpt: What is vlc-cache-gen.exe?
 ---
 
 # vlc-cache-gen.exe 
@@ -54,6 +55,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 3,0,11,0
 * Language: English (United States)
 * Legal Copyright: Copyright  1996-2020 VideoLAN and VLC Authors
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: ttdinject.exe | Time Traver Debugger Application Launcher
+excerpt: What is ttdinject.exe?
 ---
 
 # ttdinject.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:P7+nuZC491nBweMVewi0FOPU5I2ze3DgOTgZoX+NV597Io0aeg:PB84Rwi0F2UDvO
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

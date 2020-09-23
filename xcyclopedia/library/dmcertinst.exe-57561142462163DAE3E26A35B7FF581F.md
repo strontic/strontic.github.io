@@ -1,5 +1,6 @@
 ﻿---
 title: dmcertinst.exe | DM Certificate Installer
+excerpt: What is dmcertinst.exe?
 ---
 
 # dmcertinst.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:V3qW7ZgcCyCMxQFgCNfr5AWPJuz4aP2GdP6:V337Zg3yI+Sf9AQyuGd`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

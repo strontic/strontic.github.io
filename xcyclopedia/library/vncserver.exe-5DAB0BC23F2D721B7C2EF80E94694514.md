@@ -1,5 +1,6 @@
 ﻿---
 title: vncserver.exe | VNC Server
+excerpt: What is vncserver.exe?
 ---
 
 # vncserver.exe 
@@ -345,6 +346,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+
 
 
 

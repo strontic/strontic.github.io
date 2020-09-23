@@ -1,5 +1,6 @@
 ﻿---
 title: Defrag.exe | Disk Defragmenter Module
+excerpt: What is Defrag.exe?
 ---
 
 # Defrag.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:Iw3qMDpKdhTivZeCCwpVb4C6c5Q3eSjlR+8qxLijgJyfFOG83Yj34YFnw6OC2c9+:
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  2013 Microsoft Corp.
+
 
 ## File Similarity (ssdeep match)
 

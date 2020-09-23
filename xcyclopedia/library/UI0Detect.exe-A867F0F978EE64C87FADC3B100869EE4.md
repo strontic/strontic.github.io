@@ -1,5 +1,6 @@
 ﻿---
 title: UI0Detect.exe | Interactive services detection
+excerpt: What is UI0Detect.exe?
 ---
 
 # UI0Detect.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:LgpTnojXhMYVbyTKFCFYyNrI/8BbtSzAFq8u/QDriiMMNpa8zOjFMMNv0/vM+2vk:L
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

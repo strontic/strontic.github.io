@@ -1,5 +1,6 @@
 ﻿---
 title: gspawn-win32-helper.exe | 
+excerpt: What is gspawn-win32-helper.exe?
 ---
 
 # gspawn-win32-helper.exe 
@@ -54,6 +55,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

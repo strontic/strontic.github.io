@@ -1,5 +1,6 @@
 ﻿---
 title: inkview.exe | Inkview vector graphics viewer
+excerpt: What is inkview.exe?
 ---
 
 # inkview.exe 
@@ -91,6 +92,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.0
 * Language: English (United States)
 * Legal Copyright:  2020 Inkscape project
+
 
 ## File Similarity (ssdeep match)
 

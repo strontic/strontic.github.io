@@ -1,5 +1,6 @@
 ﻿---
 title: imjpuexc.exe | Microsoft IME
+excerpt: What is imjpuexc.exe?
 ---
 
 # imjpuexc.exe 
@@ -69,6 +70,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.17763.1075
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

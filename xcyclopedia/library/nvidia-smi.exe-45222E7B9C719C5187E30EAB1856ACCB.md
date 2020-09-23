@@ -1,5 +1,6 @@
 ﻿---
 title: nvidia-smi.exe | NVIDIA-SMI 422.02
+excerpt: What is nvidia-smi.exe?
 ---
 
 # nvidia-smi.exe 
@@ -44,6 +45,7 @@ Invalid combination of input arguments. Please run 'nvidia-smi -h' for help.
 * Product Version: 8.17.14.2202
 * Language: English (United States)
 * Legal Copyright: (C) 2019 NVIDIA Corporation. All rights reserved.
+
 
 
 

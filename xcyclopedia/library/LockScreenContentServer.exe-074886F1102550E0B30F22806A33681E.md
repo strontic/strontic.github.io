@@ -1,5 +1,6 @@
 ﻿---
 title: LockScreenContentServer.exe | LockScreenContent Server
+excerpt: What is LockScreenContentServer.exe?
 ---
 
 # LockScreenContentServer.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:oangc4hQ7u07x8jBmu5kuWHtFHl9rG9GO1pP1PM10d:9gxKVFwjVWHvHHrG9GwpNPg
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SIHClient.exe | SIH Client
+excerpt: What is SIHClient.exe?
 ---
 
 # SIHClient.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:kbSNlGA45uWSlDxFb9unjchIGCvNtwG7965YPmsT7X/+dKIIXwnUzFMT125:6SNvz
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

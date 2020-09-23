@@ -1,5 +1,6 @@
 ﻿---
 title: gsd.exe | Securely Delete Files
+excerpt: What is gsd.exe?
 ---
 
 # gsd.exe 
@@ -45,6 +46,7 @@ Error: No files found that match --help.
 * Product Version: 1, 0, 0, 0
 * Language: English (United States)
 * Legal Copyright: Copyright  2005-2006 Glarysoft.com
+
 
 ## File Similarity (ssdeep match)
 

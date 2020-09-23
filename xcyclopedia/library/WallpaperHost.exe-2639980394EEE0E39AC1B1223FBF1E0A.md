@@ -1,5 +1,6 @@
 ﻿---
 title: WallpaperHost.exe | Wallpaper Host Process
+excerpt: What is WallpaperHost.exe?
 ---
 
 # WallpaperHost.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:utkFMXwAMKCwgPvC6Td8z1Q/zkDk0yWcPoBb0tiJL+G3diW4B7GcmEWKLFW:KkFMXx
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

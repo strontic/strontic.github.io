@@ -1,5 +1,6 @@
 ﻿---
 title: SynTPHelper.exe | Synaptics Pointing Device Helper
+excerpt: What is SynTPHelper.exe?
 ---
 
 # SynTPHelper.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:DE2zqOhOrTLchhRBaCV5lFJ3FLQGPJDj/JT7S:Y2zWrTmhD/VFAGPJDj/E`
 * Product Version: 15.3.29 13Oct11
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2011
+
 
 
 

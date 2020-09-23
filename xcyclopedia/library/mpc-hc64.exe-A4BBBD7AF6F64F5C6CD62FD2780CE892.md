@@ -1,5 +1,6 @@
 ﻿---
 title: mpc-hc64.exe | MPC-HC
+excerpt: What is mpc-hc64.exe?
 ---
 
 # mpc-hc64.exe 
@@ -112,6 +113,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Product Version: 1.7.8.162 (ff72737) (blitzkrieg) (master@46ce9d6)
 * Language: English (United States)
 * Legal Copyright: Copyright  2002-2015 all contributors, see Authors.txt
+
 
 
 

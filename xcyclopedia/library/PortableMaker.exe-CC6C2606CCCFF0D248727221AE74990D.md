@@ -1,5 +1,6 @@
 ﻿---
 title: PortableMaker.exe | Glary Utilities Portable Maker
+excerpt: What is PortableMaker.exe?
 ---
 
 # PortableMaker.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2014-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

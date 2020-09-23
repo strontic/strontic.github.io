@@ -1,5 +1,6 @@
 ﻿---
 title: TSTheme.exe | TSTheme Server Module
+excerpt: What is TSTheme.exe?
 ---
 
 # TSTheme.exe 
@@ -57,6 +58,7 @@ C:\Windows\system32\TSTheme.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

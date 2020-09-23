@@ -1,5 +1,6 @@
 ﻿---
 title: BackgroundTransferHost.exe | Download/Upload Host
+excerpt: What is BackgroundTransferHost.exe?
 ---
 
 # BackgroundTransferHost.exe 
@@ -17,27 +18,11 @@ SHA256 | `3D395FE2C562D0222CB77D89219685A22FF8ADA9FEC0D2B55D1E8137D864E8B1`
 SHA384 | `9FDD19CB4E429906E55F6781D72567E733E0FF5113112846DB54FEC28D5C401004DCEC9241C2CE1A3AF4AC5A38480A26`
 SHA512 | `EDA24CFD6522B703A68CCF1C6DDED793021674A35EE8E115F5735A4E374D99AFAD2276B5C0236721137EC05F2F906235463D127E6BC2F3FC113B676058EC8B6A`
 SSDEEP | `384:bF4OfAVPLg4rv13S/nxspKMweBHW0ggWbQE0g7qW2RPT/8rFeZmJhu:hpIV04m1eB2T2a`
+IMP | `2C84391D64B2AF34A9B9E60431B39091`
+PESHA1 | `E966BD328F228A56714305381E3F214084D162A3`
+PE256 | `66E2FB49E8F1819B4CB05D54D8CCFF9F1EFBC301BD678C387552C1BBFC77765D`
 
 ## Runtime Data
-
-### Child Processes:
-BackgroundTransferHost.exe WerFault.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(RW-)   C:\Users\user | File
-(RW-)   C:\Windows | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-
 
 ### Loaded Modules:
 
@@ -67,6 +52,12 @@ C:\Windows\SysWOW64\BackgroundTransferHost.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/3d395fe2c562d0222cb77d89219685a22ff8ada9fec0d2b55d1e8137d864e8b1/detection/
 
 ## File Similarity (ssdeep match)
 

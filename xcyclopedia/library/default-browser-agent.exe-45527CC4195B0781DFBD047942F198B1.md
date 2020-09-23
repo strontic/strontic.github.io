@@ -1,5 +1,6 @@
 ﻿---
 title: default-browser-agent.exe | Firefox Default Browser Agent
+excerpt: What is default-browser-agent.exe?
 ---
 
 # default-browser-agent.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:Jm0pSgYKHoRveSsiJV1IbVaZhHlnO+DGh8lGZoNMe5wz4k+k2EOglUE+u:fdoRlsi
 * Product Version: 79.0
 * Language: Language Neutral
 * Legal Copyright: License: MPL 2
+
 
 
 

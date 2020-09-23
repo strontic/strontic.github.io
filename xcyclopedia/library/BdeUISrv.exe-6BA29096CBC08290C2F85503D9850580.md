@@ -1,5 +1,6 @@
 ﻿---
 title: BdeUISrv.exe | BDE UI Launcher
+excerpt: What is BdeUISrv.exe?
 ---
 
 # BdeUISrv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:ZrDbWsE9AqzdZ+SCV1xdiyfkMVZ/jDPmScTNPGCghddQZbYgP17VGrto2w2E+:5vE9
 * Product Version: 10.0.18362.387
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

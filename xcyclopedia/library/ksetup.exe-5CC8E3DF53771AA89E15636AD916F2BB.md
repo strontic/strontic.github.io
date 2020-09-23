@@ -1,5 +1,6 @@
 ﻿---
 title: ksetup.exe | Kerberos Setup tool
+excerpt: What is ksetup.exe?
 ---
 
 # ksetup.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:jr5VbmZWwK3wrfBTEwkKdl52iKYIq5CGKam1tsQJS7X7uXE2e/qJYV28eT1hsqT0:H
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

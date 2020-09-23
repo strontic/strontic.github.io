@@ -1,5 +1,6 @@
 ﻿---
 title: ServerTelemetryConfig.exe | ServerTelemetryConfig
+excerpt: What is ServerTelemetryConfig.exe?
 ---
 
 # ServerTelemetryConfig.exe 
@@ -37,6 +38,7 @@ SSDEEP | `1536:1qZpXDBhCopoyz/JPvm+g1RGj7P99Nn+Cls64I+6kZE1W5anHSA3yCn:qdFhxomlT
 * Product Version: 6.3.9600.16384
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+
 
 
 

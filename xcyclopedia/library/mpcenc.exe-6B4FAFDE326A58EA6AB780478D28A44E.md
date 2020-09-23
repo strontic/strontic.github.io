@@ -1,5 +1,6 @@
 ﻿---
 title: mpcenc.exe | 
+excerpt: What is mpcenc.exe?
 ---
 
 # mpcenc.exe 
@@ -88,6 +89,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

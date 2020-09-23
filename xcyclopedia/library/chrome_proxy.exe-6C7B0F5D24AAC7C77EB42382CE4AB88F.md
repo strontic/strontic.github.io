@@ -1,5 +1,6 @@
 ﻿---
 title: chrome_proxy.exe | Google Chrome
+excerpt: What is chrome_proxy.exe?
 ---
 
 # chrome_proxy.exe 
@@ -66,6 +67,7 @@ C:\Windows\SYSTEM32\WINMM.dll |
 * Product Version: 85.0.4183.83
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
+
 
 
 

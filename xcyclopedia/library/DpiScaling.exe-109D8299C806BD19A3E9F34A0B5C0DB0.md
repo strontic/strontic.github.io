@@ -1,5 +1,6 @@
 ﻿---
 title: DpiScaling.exe | Display Control Panel
+excerpt: What is DpiScaling.exe?
 ---
 
 # DpiScaling.exe 
@@ -17,6 +18,9 @@ SHA256 | `1192F380B190AA0C6B531BA59B14A12C6346B642C3553EC9F014B68AAC992950`
 SHA384 | `A73A6A049A8EE80D8B88197A98CAE5F66D375A9654E8372BD4D2F02B479104A55FA893A8EF7A9415BBFFBA9B82A773A2`
 SHA512 | `A2E449E7BDA46B7A19577E18E22808538991D606096199CA9788B3C663D59445C96EC17F7FD9D0C8B030D845AEF4A35E36A15A10373454245BFFA9DF4C564532`
 SSDEEP | `1536:AVZd91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJj8:S1OwNMSqoKXNvuZAFDqXzlzQQ`
+IMP | `79AF10FA7C10573B0B9B52F39C28B0F2`
+PESHA1 | `AD268B019C68CA4E180EBDA826DFD636D1B23D82`
+PE256 | `3718ACC683877FC0C5815C2DDB1342D3A2282CE3EA572604EA05866674FEF99A`
 
 ## Runtime Data
 
@@ -27,20 +31,13 @@ explorer.exe
 
 Path |
 -- |
-C:\Windows\System32\combase.dll |
 C:\Windows\system32\DpiScaling.exe |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -63,6 +60,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/1192f380b190aa0c6b531ba59b14a12c6346b642c3553ec9f014b68aac992950/detection/
 
 ## File Similarity (ssdeep match)
 

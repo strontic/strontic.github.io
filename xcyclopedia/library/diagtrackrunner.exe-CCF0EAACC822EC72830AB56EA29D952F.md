@@ -1,5 +1,6 @@
 ﻿---
 title: diagtrackrunner.exe | Microsoft Windows Diagnostics Tracking Runner
+excerpt: What is diagtrackrunner.exe?
 ---
 
 # diagtrackrunner.exe 
@@ -35,6 +36,7 @@ SSDEEP | `1536:VLrfIoQDQxgs0Y5eDYVAb8KxLQgSSQlKWy/y:VQ2xgs35eDEAb8KxLQgSdcp/y`
 * Product Version: 10.0.10586.8
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

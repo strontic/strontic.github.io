@@ -1,5 +1,6 @@
 ﻿---
 title: ApproveChildRequest.exe | Grant more screen time
+excerpt: What is ApproveChildRequest.exe?
 ---
 
 # ApproveChildRequest.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:/z8U6JeC+OAJSEZbN7engxGwKa2nfRGKdDPDvV:/fm7+zbhLxGWcnjDt`
 * Product Version: 10.0.19041.84
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

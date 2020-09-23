@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCLNWZ.EXE | IMTCLNWZ.exe
+excerpt: What is IMTCLNWZ.EXE?
 ---
 
 # IMTCLNWZ.EXE 
@@ -70,6 +71,7 @@ C:\Windows\SysWOW64\IME\IMETC\IMTCLNWZ.EXE |
 * Product Version: 10.0.17763.1075
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

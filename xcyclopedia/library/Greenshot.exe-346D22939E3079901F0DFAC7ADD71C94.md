@@ -1,5 +1,6 @@
 ﻿---
 title: Greenshot.exe | Greenshot
+excerpt: What is Greenshot.exe?
 ---
 
 # Greenshot.exe 
@@ -126,6 +127,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 1.2.10.6-RELEASE-c2414cf0149a1475ea00520effc01b40087c225c
 * Language: Language Neutral
 * Legal Copyright: 
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: javaws.exe | 
+excerpt: What is javaws.exe?
 ---
 
 # javaws.exe 
@@ -105,6 +106,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: SynMood.exe | MoodPad
+excerpt: What is SynMood.exe?
 ---
 
 # SynMood.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:BRX7JECBW8f+1BRn5OsW5n8Ckbxyn1U7Af7Lywr73QlS7TtvfEI/TXF:BdKrC+1BR
 * Product Version: 15.3.29 13Oct11
 * Language: English (United States)
 * Legal Copyright: Copyright (C) Synaptics Incorporated 1996-2011
+
 
 
 

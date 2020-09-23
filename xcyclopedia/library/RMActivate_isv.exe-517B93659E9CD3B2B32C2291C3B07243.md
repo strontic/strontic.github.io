@@ -1,5 +1,6 @@
 ﻿---
 title: RMActivate_isv.exe | Windows Rights Management Services Activation for Desktop Security Processor
+excerpt: What is RMActivate_isv.exe?
 ---
 
 # RMActivate_isv.exe 
@@ -35,6 +36,7 @@ SSDEEP | `12288:eRShqdrvdR84gQqVAbzjNXZV+9UT4kAXsE:UhU4R/5ZV+9UT4YE`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

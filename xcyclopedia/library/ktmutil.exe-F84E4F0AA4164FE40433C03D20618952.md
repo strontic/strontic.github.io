@@ -1,5 +1,6 @@
 ﻿---
 title: ktmutil.exe | Kernel Transaction Management Utility
+excerpt: What is ktmutil.exe?
 ---
 
 # ktmutil.exe 
@@ -43,6 +44,7 @@ The KTMUTIL utility requires that you have administrative privileges.
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

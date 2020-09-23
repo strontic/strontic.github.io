@@ -1,5 +1,6 @@
 ﻿---
 title: SpyRemover.exe | Glary Utilities SpyRemover
+excerpt: What is SpyRemover.exe?
 ---
 
 # SpyRemover.exe 
@@ -39,6 +40,7 @@ SSDEEP | `768:Sygex7DOKjVVVVVVVVkZIOzYzz+zz4zzzszzz3zzzTZzzzjzzzzfzzzzgzzzzPzu:3
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: DmNotificationBroker.exe | DmNotificationBroker
+excerpt: What is DmNotificationBroker.exe?
 ---
 
 # DmNotificationBroker.exe 
@@ -35,6 +36,7 @@ SSDEEP | `768:9wg2XXdIn24Dzfvv+lj4dhkMl0n5KxxZCs:SNIn24v3v+6diM+n0XZCs`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

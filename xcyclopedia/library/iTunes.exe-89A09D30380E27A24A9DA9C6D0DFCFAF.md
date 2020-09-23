@@ -1,5 +1,6 @@
 ﻿---
 title: iTunes.exe | iTunes
+excerpt: What is iTunes.exe?
 ---
 
 # iTunes.exe 
@@ -155,13 +156,14 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Legal Copyright:  2000-2020 Apple Inc. All rights reserved.
 
 
+
 ## Possible Misuse
 
 *The following table contains possible examples of `iTunes.exe` being misused. While `iTunes.exe` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [gen_osx_backdoor_bella.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_osx_backdoor_bella.yar) |         $subpart2_c = "iTunes" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_osx_backdoor_bella.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_osx_backdoor_bella.yar) | $subpart2_c = "iTunes" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

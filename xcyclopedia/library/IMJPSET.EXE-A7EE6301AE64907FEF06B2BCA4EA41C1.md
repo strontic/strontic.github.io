@@ -1,5 +1,6 @@
 ﻿---
 title: IMJPSET.EXE | Microsoft IME
+excerpt: What is IMJPSET.EXE?
 ---
 
 # IMJPSET.EXE 
@@ -21,6 +22,9 @@ SHA256 | `4386FF9864A601116D5E8A165AFFBC00C2B642E7C4948641593A5114F0B675DF`
 SHA384 | `136884B1ED6FD47A4033887B23497999687EDCC5894C48F10E6A68411FDEE31210EDC656C8A5939503B9DB7332618D92`
 SHA512 | `278EA7780796C7A8E73C58CBCCF39359C977539B714D682AB112E2B64131CD5500AED8E2827687DD7C979EA47E2DC7E78A4FBD5438E22926299121A84426CE47`
 SSDEEP | `3072:N+LLmZ70cI2B0CoIPe80j31dHQYyJ1Z0YH67IkK2NLPcV2:NdPB55G80L1dwYyJ1BmIkC`
+IMP | `BB3D3D5AB97ABB6B74E68C292F476172`
+PESHA1 | `3566565EB0B54BCD684F31852BF534490AE78D94`
+PE256 | `C2EB7A878F47B805BCB755E7D46D9B5581B436C9E497E30765A4C53E3791087E`
 
 ## Runtime Data
 
@@ -32,20 +36,15 @@ Settings for Microsoft IME
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\_IMJP_15_UD_FileMapping_{b4f0aa5b-77d3-486f-b999-53049e87159e}_M_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -76,6 +75,12 @@ C:\Windows\SysWOW64\IME\IMEJP\IMJPSET.EXE |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/4386ff9864a601116d5e8a165affbc00c2b642e7c4948641593a5114f0b675df/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: tabcal.exe | Digitizer Calibration Tool
+excerpt: What is tabcal.exe?
 ---
 
 # tabcal.exe 
@@ -67,6 +68,7 @@ C:\Windows\system32\tabcal.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

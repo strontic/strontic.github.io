@@ -1,5 +1,6 @@
 ﻿---
 title: xnview.exe | XnView Classic for Windows
+excerpt: What is xnview.exe?
 ---
 
 # xnview.exe 
@@ -73,6 +74,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.49.3
 * Language: English (United States)
 * Legal Copyright: Copyright  1991-2020 by Pierre-e Gougelet
+
 
 
 

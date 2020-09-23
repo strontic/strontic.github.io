@@ -1,5 +1,6 @@
 ﻿---
 title: secure_desktop_capture.exe | secure_desktop_capture.exe
+excerpt: What is secure_desktop_capture.exe?
 ---
 
 # secure_desktop_capture.exe 
@@ -39,6 +40,7 @@ SSDEEP | `49152:0+HWJHe4Nb+NZVcrOc9/9JZ2/4gCSPbpHYMmRCeb2PmES:0UWJHjNb+bWrOc9+4g
 * Product Version: 01.00.00.01
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2018 Valve Corporation
+
 
 
 

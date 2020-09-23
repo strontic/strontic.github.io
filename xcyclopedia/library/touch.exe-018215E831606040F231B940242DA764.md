@@ -1,5 +1,6 @@
 ﻿---
 title: touch.exe | 
+excerpt: What is touch.exe?
 ---
 
 # touch.exe 
@@ -80,6 +81,7 @@ Try '/usr/bin/touch --help' for more information.
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

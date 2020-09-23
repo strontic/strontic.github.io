@@ -1,5 +1,6 @@
 ﻿---
 title: IMTCPROP.exe | IMTCPROP.exe
+excerpt: What is IMTCPROP.exe?
 ---
 
 # IMTCPROP.exe 
@@ -39,6 +40,7 @@ SSDEEP | `3072:xKtDzC2eXhRbJ08TgrCk70im5gpH+faSfeLOQDPiC21P7I/Xg+mClKRiTPqcfYM5:
 * Product Version: 10.0.14393.2608
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

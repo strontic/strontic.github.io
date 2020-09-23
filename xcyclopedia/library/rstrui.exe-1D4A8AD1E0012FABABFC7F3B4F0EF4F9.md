@@ -1,5 +1,6 @@
 ﻿---
 title: rstrui.exe | Microsoft Windows System Restore
+excerpt: What is rstrui.exe?
 ---
 
 # rstrui.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:6GEtHges25EgmpBaAc6WrpDZ9Oangx2+UvQ/KpmOq:6GWAXppBaAcdrxZ9OKFvQ/K
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

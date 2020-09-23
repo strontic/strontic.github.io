@@ -1,5 +1,6 @@
 ﻿---
 title: msg.exe | Message Utility
+excerpt: What is msg.exe?
 ---
 
 # msg.exe 
@@ -35,6 +36,7 @@ SSDEEP | `384:nXjTTPZKC5OSwd9IPAp/Gr2bVuuacXLg6vALmwRwbyWhUWO61:X/4C5O3cqPoU1H`
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: jdeps.exe | OpenJDK Platform binary
+excerpt: What is jdeps.exe?
 ---
 
 # jdeps.exe 
@@ -189,6 +190,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 11.0.8
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

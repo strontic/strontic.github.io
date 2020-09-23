@@ -1,5 +1,6 @@
 ﻿---
 title: cmp.exe | 
+excerpt: What is cmp.exe?
 ---
 
 # cmp.exe 
@@ -88,6 +89,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 ## File Similarity (ssdeep match)
 

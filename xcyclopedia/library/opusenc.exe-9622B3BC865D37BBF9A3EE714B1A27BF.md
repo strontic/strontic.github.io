@@ -1,5 +1,6 @@
 ﻿---
 title: opusenc.exe | 
+excerpt: What is opusenc.exe?
 ---
 
 # opusenc.exe 
@@ -117,6 +118,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

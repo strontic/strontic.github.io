@@ -1,5 +1,6 @@
 ﻿---
 title: Netplwiz.exe | Advanced User Accounts Control Panel
+excerpt: What is Netplwiz.exe?
 ---
 
 # Netplwiz.exe 
@@ -63,6 +64,7 @@ C:\Windows\SysWOW64\Netplwiz.exe |
 * Product Version: 10.0.17763.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

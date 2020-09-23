@@ -1,5 +1,6 @@
 ﻿---
 title: SystemPropertiesDataExecutionPrevention.exe | Change Data Execution Prevention Settings
+excerpt: What is SystemPropertiesDataExecutionPrevention.exe?
 ---
 
 # SystemPropertiesDataExecutionPrevention.exe 
@@ -17,6 +18,9 @@ SHA256 | `58B01EACA5604FC46B170AA8C6EAC22C7B9DDC00CED8F1832530907DF2EC4189`
 SHA384 | `679B59BCBA92D094303EE10226274F4C43300CED5E929D8939FE8779DBA54B0F56F6DD5D2DBCD62FFA599125BD3C3D86`
 SHA512 | `44EB922873F65740C6F421D787B65CECE6ECF44F2699FF22FAF43F92F93C74B5BDCC776864527920CC62D9B3769FB5C79ABCF88BFD2448C03EF4002ACC920D33`
 SSDEEP | `1536:YfdZKtREC/rMcgEPJV+G57ThjEC0kzJP+V5JfH:YHKzECTMpuDhjRVJGJ`
+IMP | `B788892AE84BA86201A726810F01CB07`
+PESHA1 | `94BD1AD8FC34334703F9DE5EF4069120A1615CF8`
+PE256 | `32479AD66D1E35B6D4FF34A8CF26708C91D4FB3BBFB60F25E51DC068324D42E7`
 
 ## Runtime Data
 
@@ -29,20 +33,15 @@ Path | Type
 (R-D)   C:\Windows\SystemResources\sysdm.cpl.mun | File
 (R-D)   C:\Windows\SysWOW64\en-US\sysdm.cpl.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme1149834063 | Section
-\Windows\Theme2597483563 | Section
+\Sessions\1\Windows\Theme1703657751 | Section
+\Windows\Theme1455388728 | Section
 
 
 ### Loaded Modules:
@@ -51,6 +50,7 @@ Path |
 -- |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
 C:\Windows\System32\wow64win.dll |
 C:\Windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe |
 
@@ -72,6 +72,12 @@ C:\Windows\SysWOW64\SystemPropertiesDataExecutionPrevention.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/58b01eaca5604fc46b170aa8c6eac22c7b9ddc00ced8f1832530907df2ec4189/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: PnkBstrA.exe | 
+excerpt: What is PnkBstrA.exe?
 ---
 
 # PnkBstrA.exe 
@@ -34,6 +35,7 @@ SSDEEP | `1536:xyaVymnfxmCWX2WisYL0Yi5OBGPKJzaQKljT:x5xnfxmCSVhOeQKl3`
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+
 
 
 

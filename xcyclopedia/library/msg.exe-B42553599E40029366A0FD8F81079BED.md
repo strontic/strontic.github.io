@@ -1,5 +1,6 @@
 ﻿---
 title: msg.exe | Message Utility
+excerpt: What is msg.exe?
 ---
 
 # msg.exe 
@@ -17,6 +18,9 @@ SHA256 | `2BDAB404DF6E4990BC1FD8F7464DBA325FB993C67E592BA1C5DC4F07C02A8E85`
 SHA384 | `D1BFDA7690FC0A289275DAA13EDEC0B75B3097B5E03F583F92ECD7269E582637189FE5D0828A72C2A08394FE26860B43`
 SHA512 | `379226EDD56B5BF109102BE5FB3B340DB92AE9E1B0DB9BAA2A21EBEBC4E5A15C8E37E79E04167A4CDCC9F875F34F22C8D74FF7AE2BFBFEFFD8D47697EB3C2B4C`
 SSDEEP | `768:S8Wp08SpWHZNwhOvCB5fHP14PoxZ8qtLwGP:S8Wp08FHZ8nCstDP`
+IMP | `CD3B5466F111A79E4AC06248B98E0B04`
+PESHA1 | `554191C216D0B4978BDD00B70A5DBDCB7601958C`
+PE256 | `F421C05B5CBE096EBF4B940BE6F518FB5B5D40B381D455381BAD48E369429EDF`
 
 ## Runtime Data
 
@@ -75,14 +79,9 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\msg.exe.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 
 
 ### Loaded Modules:
@@ -112,6 +111,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/2bdab404df6e4990bc1fd8f7464dba325fb993c67e592ba1c5dc4f07c02a8e85/detection/
 
 
 

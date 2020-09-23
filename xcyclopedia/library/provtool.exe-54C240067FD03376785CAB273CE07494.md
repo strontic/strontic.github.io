@@ -1,5 +1,6 @@
 ﻿---
 title: provtool.exe | Provisioning package runtime processing tool
+excerpt: What is provtool.exe?
 ---
 
 # provtool.exe 
@@ -78,6 +79,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.153
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 ## Possible Misuse

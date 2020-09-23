@@ -1,5 +1,6 @@
 ﻿---
 title: write.exe | Windows Write
+excerpt: What is write.exe?
 ---
 
 # write.exe 
@@ -17,30 +18,14 @@ SHA256 | `A70D52EDA892EDC073932B462CC367CDBFBACE3F4196857D8D4FA869A13DE792`
 SHA384 | `54333EC10CFCAB874257FA46DCF5E9F30D3F982B194D32C4022D7533AB04356D7093EF6B2552D164126EF9B5D2AB830D`
 SHA512 | `28C6FF32BC94AAD8B201E469F854DDE32CAD9EB2E7A80ED858AC2FF99648312CECCA06918BCE96E8D905D52D5EBEE076BD08D957F7933602C0C79D93EAD20EE3`
 SSDEEP | `192:ZV89t7hglDCS8O3GbXdYFWihWxu/sWGOW:ZVM7hceSP3IXioxu/sWGOW`
+IMP | `90A23F469BA0443719430CBA4569B220`
+PESHA1 | `A4F66FA28EB11A219C177052029687C0C3E983CE`
+PE256 | `C0B77A27E77A38B21724E115C8BF3C8EF59F820DAF3AE4F83084218C730DA403`
 
 ## Runtime Data
 
 ### Child Processes:
 wordpad.exe
-
-### Open Handles:
-
-Path | Type
--- | --
-(R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
-(RW-)   C:\Users\user | File
-\BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
-\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
-\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{F79646A6-8BE5-443B-A98F-AD03D667F646}.2.ver0x0000000000000001.db | Section
-\Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
-\Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
-\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-
 
 ### Loaded Modules:
 
@@ -63,8 +48,8 @@ C:\Windows\system32\write.exe |
 ## Signature
 
 * Status: Signature verified.
-* Serial: `330000023241FB59996DCC4DFF000000000232`
-* Thumbprint: `FF82BC38E1DA5E596DF374C53E3617F7EDA36B06`
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -77,6 +62,12 @@ C:\Windows\system32\write.exe |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a70d52eda892edc073932b462cc367cdbfbace3f4196857d8d4fa869a13de792/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -1,5 +1,6 @@
 ﻿---
 title: verifier.exe | Verifier Configuration Editor
+excerpt: What is verifier.exe?
 ---
 
 # verifier.exe 
@@ -306,6 +307,7 @@ PARAMETERS:
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

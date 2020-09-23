@@ -1,5 +1,6 @@
 ﻿---
 title: van-gogh-lic.exe | GNU Image Manipulation Program Plug-In
+excerpt: What is van-gogh-lic.exe?
 ---
 
 # van-gogh-lic.exe 
@@ -57,6 +58,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 2.10.20
 * Language: English (United States)
 * Legal Copyright: Copyright  1995-2020
+
 
 ## File Similarity (ssdeep match)
 

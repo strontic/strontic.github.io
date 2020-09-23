@@ -1,5 +1,6 @@
 ﻿---
 title: FileUndelete.exe | Glary Utilities FileUndelete
+excerpt: What is FileUndelete.exe?
 ---
 
 # FileUndelete.exe 
@@ -81,6 +82,7 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.0.0.1
 * Language: Chinese (Simplified, China)
 * Legal Copyright: Copyright (c) 2003-2020 Glarysoft Ltd
+
 
 ## File Similarity (ssdeep match)
 

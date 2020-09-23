@@ -1,5 +1,6 @@
 ﻿---
 title: MdmDiagnosticsTool.exe | MdmDiagnosticsTool
+excerpt: What is MdmDiagnosticsTool.exe?
 ---
 
 # MdmDiagnosticsTool.exe 
@@ -43,6 +44,7 @@ Report location -help
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

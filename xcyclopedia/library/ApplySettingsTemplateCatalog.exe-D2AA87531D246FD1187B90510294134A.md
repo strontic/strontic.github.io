@@ -1,5 +1,6 @@
 ﻿---
 title: ApplySettingsTemplateCatalog.exe | ApplySettingsTemplateCatalog EXE
+excerpt: What is ApplySettingsTemplateCatalog.exe?
 ---
 
 # ApplySettingsTemplateCatalog.exe 
@@ -51,6 +52,7 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

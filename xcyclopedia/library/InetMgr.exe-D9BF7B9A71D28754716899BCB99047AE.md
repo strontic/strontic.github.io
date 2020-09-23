@@ -1,5 +1,6 @@
 ﻿---
 title: InetMgr.exe | IIS Manager
+excerpt: What is InetMgr.exe?
 ---
 
 # InetMgr.exe 
@@ -40,6 +41,7 @@ SSDEEP | `3072:ottm40w3oh7PR3i3RLchg5O++FL034XB:8vtoJFihLt3A+`
 * Product Version: 8.5.9600.16384
 * Language: Language Neutral
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

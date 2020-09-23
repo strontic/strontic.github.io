@@ -1,5 +1,6 @@
 ﻿---
 title: tracerpt.exe | Event Trace Report Tool
+excerpt: What is tracerpt.exe?
 ---
 
 # tracerpt.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:7ORAjgi1krbzuzxNQ0pBPzY7V5pK6IFnbbWYOCjSKQMLZY:72AHkr/uU0pBPzY7np
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

@@ -1,5 +1,6 @@
 ﻿---
 title: javaw.exe | OpenJDK Platform binary
+excerpt: What is javaw.exe?
 ---
 
 # javaw.exe 
@@ -131,6 +132,7 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+
 
 ## File Similarity (ssdeep match)
 

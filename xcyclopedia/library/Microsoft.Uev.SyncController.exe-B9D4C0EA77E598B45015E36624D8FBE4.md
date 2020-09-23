@@ -1,5 +1,6 @@
 ﻿---
 title: Microsoft.Uev.SyncController.exe |  
+excerpt: What is Microsoft.Uev.SyncController.exe?
 ---
 
 # Microsoft.Uev.SyncController.exe 
@@ -17,6 +18,9 @@ SHA256 | `D0B753FC637891AAE7FB08AD4B4EFDC693689EE8E6A9B7145E15E495493972F3`
 SHA384 | `0C1268B968488C21F6A2846EF4BB9959790FAC2958F7BC9E3FAA94ACC2C0C3420F652B8643380E4FEC2AE37DE86BE011`
 SHA512 | `3A61E16E4B6870C97EF4F5628444EFC6D7D46E7F9072124D4C37DA4CB19FBF06553108BAB45AA8D0542B6DA3987C88035C5176B7573783EA930194B47D47805C`
 SSDEEP | `1536:2hCtaUCKV/Q2vd1sTNe+6NwiKE10DHlu:FCKV/Q2vd1sTNGBl10Y`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `935A4BD1227F8DAFE22031A81A64635D4998C3A3`
+PE256 | `D6D3D9C65068198B89F8E3A992C1BF6460B3479F4365E15FD6389D44022A1CC0`
 
 ## Runtime Data
 
@@ -31,8 +35,6 @@ C:\Windows\system32\Microsoft.Uev.SyncController.exe |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
 
 
 ## Signature
@@ -52,6 +54,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 10.0.19041.1
 * Language: Language Neutral
 * Legal Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/d0b753fc637891aae7fb08ad4b4efdc693689ee8e6a9b7145e15e495493972f3/detection/
 
 ## File Similarity (ssdeep match)
 

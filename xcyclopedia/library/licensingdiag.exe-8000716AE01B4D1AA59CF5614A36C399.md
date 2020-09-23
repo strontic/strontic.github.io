@@ -1,5 +1,6 @@
 ﻿---
 title: licensingdiag.exe | Licensing Diagnostic Tool
+excerpt: What is licensingdiag.exe?
 ---
 
 # licensingdiag.exe 
@@ -39,6 +40,7 @@ SSDEEP | `12288:dV1d/xtiQ51mYdZ4PUy772FrmdP18bHT3UuTSl/Zr:D1d/xtr5b8M7Fr4t8bHIuu
 * Product Version: 6.3.9600.16384
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

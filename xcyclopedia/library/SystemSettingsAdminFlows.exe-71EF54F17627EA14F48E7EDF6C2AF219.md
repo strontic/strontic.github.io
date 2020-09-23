@@ -1,5 +1,6 @@
 ﻿---
 title: SystemSettingsAdminFlows.exe | Settings
+excerpt: What is SystemSettingsAdminFlows.exe?
 ---
 
 # SystemSettingsAdminFlows.exe 
@@ -35,6 +36,7 @@ SSDEEP | `6144:McbT2KVeUsWklyrrluu9HpqWLMwjS5Gj1v7BFjtJW:MaNlsG9uu9crwjPjFjtJW`
 * Product Version: 10.0.14393.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 
 

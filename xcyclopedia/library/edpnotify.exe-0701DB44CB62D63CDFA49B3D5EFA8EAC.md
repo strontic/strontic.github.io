@@ -1,5 +1,6 @@
 ﻿---
 title: edpnotify.exe | Microsoft Enterpise Data Protection
+excerpt: What is edpnotify.exe?
 ---
 
 # edpnotify.exe 
@@ -65,6 +66,12 @@ C:\Windows\SysWOW64\edpnotify.exe |
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\edpnotify.exe](edpnotify.exe-516042566C6228F60F16AB375814D891.md) | 94
 
 
 

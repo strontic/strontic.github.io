@@ -1,5 +1,6 @@
 ﻿---
 title: recdisc.exe | Microsoft Windows Repair Disc
+excerpt: What is recdisc.exe?
 ---
 
 # recdisc.exe 
@@ -35,6 +36,7 @@ SSDEEP | `3072:E7Mc6yIZDx/HhN0Uc38lB/BAuegPO8evTq2V4:+4/BNllB5FegEv+2V`
 * Product Version: 10.0.18362.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+
 
 ## File Similarity (ssdeep match)
 

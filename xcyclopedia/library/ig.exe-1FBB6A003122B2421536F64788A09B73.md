@@ -1,5 +1,6 @@
 ﻿---
 title: ig.exe | Malware Scanner
+excerpt: What is ig.exe?
 ---
 
 # ig.exe 
@@ -45,6 +46,7 @@ SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOx
 * Product Version: 1.0.0.27
 * Language: English (United States)
 * Legal Copyright: (C) Malwarebytes. All rights reserved.
+
 
 
 
