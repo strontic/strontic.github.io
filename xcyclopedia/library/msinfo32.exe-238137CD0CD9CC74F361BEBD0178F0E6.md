@@ -5,7 +5,7 @@ excerpt: What is msinfo32.exe?
 
 # msinfo32.exe 
 
-* File Path: `C:\Windows\system32\msinfo32.exe`
+* File Path: `C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe`
 * Description: System Information
 
 ## Screenshot
@@ -35,33 +35,32 @@ System Information
 
 Path | Type
 -- | --
+(R-D)   C:\Program Files\Common Files\microsoft shared\MSInfo\en-US\msinfo32.exe.mui | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
-(R-D)   C:\Windows\System32\en-US\msinfo32.exe.mui | File
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme1703657751 | Section
-\Windows\Theme1455388728 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
+C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\system32\ATL.DLL |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\system32\msinfo32.exe |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -69,7 +68,6 @@ C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -103,8 +101,8 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
-[C:\program files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 54
-[C:\program files\Common Files\microsoft shared\MSInfo\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 100
+[C:\Program Files (x86)\Common Files\Microsoft Shared\MSInfo\msinfo32.exe](msinfo32.exe-E0A7B839C77497E01864479B70ACB5AE.md) | 54
+[C:\Windows\system32\msinfo32.exe](msinfo32.exe-238137CD0CD9CC74F361BEBD0178F0E6.md) | 100
 [C:\Windows\system32\msinfo32.exe](msinfo32.exe-41AA3C8C427A773B6C08460535EE8070.md) | 63
 [C:\windows\system32\msinfo32.exe](msinfo32.exe-4BA6D7F9032FE80308C0501E087A54F6.md) | 63
 [C:\WINDOWS\system32\msinfo32.exe](msinfo32.exe-CE97FD0E2556A49965411764F086CEA8.md) | 61

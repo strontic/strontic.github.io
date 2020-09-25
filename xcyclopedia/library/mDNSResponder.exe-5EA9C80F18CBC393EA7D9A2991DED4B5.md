@@ -5,7 +5,7 @@ excerpt: What is mDNSResponder.exe?
 
 # mDNSResponder.exe 
 
-* File Path: `C:\program files (x86)\Bonjour\mDNSResponder.exe`
+* File Path: `C:\Program Files (x86)\Bonjour\mDNSResponder.exe`
 * Description: Bonjour Service
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `7E5EB1CE44FEBE93686174058D51581FA00BDFF0EBB84BD74BC08F6386019253`
 SHA384 | `08CF5BFADB2FF3A020BFABCAB1539C07D78A16EC50379AA758F3AB0127A361805306A09909EC734768175D81BBF8983A`
 SHA512 | `7FD949B792A40630CA385DD2BC88DB9673F9106975B9F55481E2382F67986DD75B03CDF0FBF59846B513A8DEF0C506AC6561F6BA658775286F11D761B575513A`
 SSDEEP | `6144:jM7ikzziBIyqD14tJYfxPWh8U0TdKDDFPrDNRUNkS4/HaXlFHCe9oK28ruyLwoMm:rwzi2D1JfxPWNIEFzDNRkkSDaYaS`
+IMP | `87F3680DE715E7D989A5FE0369FAE5CC`
+PESHA1 | `EDC3B001DC6F3622666A9C488C6D05A673EB2739`
+PE256 | `F27F7073CBC3D912886C889E68088D9916132374E835EE97D6398BC2B74F36C6`
 
 ## Runtime Data
 
@@ -43,7 +46,7 @@ mDNSResponder 1.0d1
 
 Path |
 -- |
-C:\program files (x86)\Bonjour\mDNSResponder.exe |
+C:\Program Files (x86)\Bonjour\mDNSResponder.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -67,7 +70,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3,1,0,1
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2003-2015 Apple Inc.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/7e5eb1ce44febe93686174058d51581fa00bdff0ebb84bd74bc08f6386019253/detection/
 
 
 ## Possible Misuse

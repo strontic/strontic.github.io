@@ -5,7 +5,7 @@ excerpt: What is vncguihelper.exe?
 
 # vncguihelper.exe 
 
-* File Path: `C:\program files\RealVNC\VNC Server\vncguihelper.exe`
+* File Path: `C:\Program Files\RealVNC\VNC Server\vncguihelper.exe`
 * Description: VNC Server
 
 ## Screenshot
@@ -23,6 +23,9 @@ SHA256 | `CC0B4DBD278443E4B2533E81B40B442A7A63F3CBF395665BC03991DB6F776399`
 SHA384 | `C93E7C7B2FC1359053B2CFECBE1C15745B464EBAE598F6A377B825DA69DF21BFF00510BFC784E7E268D5876125B00C98`
 SHA512 | `604D6EA1573A3408E57658E8B754B09EF75AA80E7E3D68003A68B193A2B2E49BF70D0E88F05BA1C25B4E9F227E56F70F80669960223C808A12CA5A74D76E8AE0`
 SSDEEP | `12288:E6H9N29Ks8NPVougpdeCHzS4D3qZUdLjgtyAmNsNZvL6q:E6H9I9dkdmpdDT9ToUdoto0vL6q`
+IMP | `6D424FC29BAE99E60B305B781DAE20EF`
+PESHA1 | `67DBC3F9EDAE5E851DC0CDF30C51610FEF39EB8E`
+PE256 | `8F45C9D9C1D849B300D9CDC8D6FB45FC453E4AAB0972BD7DF4F905D2FF252CB4`
 
 ## Runtime Data
 
@@ -36,19 +39,20 @@ Path | Type
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\RealVNC\VNC Server\vncguihelper.exe |
+C:\Program Files\RealVNC\VNC Server\vncguihelper.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
@@ -65,6 +69,7 @@ C:\Windows\System32\RPCRT4.dll |
 C:\Windows\SYSTEM32\SAMCLI.DLL |
 C:\Windows\System32\sechost.dll |
 C:\Windows\System32\SHELL32.dll |
+C:\Windows\SYSTEM32\SRVCLI.DLL |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -87,7 +92,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/cc0b4dbd278443e4b2533e81b40b442a7a63f3cbf395665bc03991db6f776399/detection/
 
 
 

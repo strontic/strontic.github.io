@@ -5,7 +5,7 @@ excerpt: What is opusenc.exe?
 
 # opusenc.exe 
 
-* File Path: `C:\program files (x86)\AIMP3\System\Encoders\opusenc.exe`
+* File Path: `C:\Program Files (x86)\AIMP3\System\Encoders\opusenc.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `A5FE14E1989F83E06378C54AFCA5F4D0F46A48BA7B0AFCC4EE5E406ACF0B7833`
 SHA384 | `9801C7A1EA83D983F304353ED1AF72DDA3023786D541F0959C2D9CDF2D366560F6038B57EA49B022D78DC5F73690F06E`
 SHA512 | `8BB2669AA2FDC67AC95A321DB32202B6AD26875A916BE021706F6C08631C0A7E3A09FC67B15EEC2A606A1EFDB515864A1E0870A6BF2E548FC6B83D3F6966DF13`
 SSDEEP | `6144:Qke+TpSRcE5GKeKvSkbb8yKEDIlwodqR5fM84YBlJW6mv9mU/+jAOnnZ2h:QKV45/fSkEcDswodqR5UnYByvxwxZ`
+IMP | `9A2247C5F51BFB5107CB607B0893F31B`
+PESHA1 | `4D4EB2316EA229C3D16327941F6DBF5EA65D10F4`
+PE256 | `904906622D1C68C7F6CE6FC2999E0F3EA0CB3659BCF328B7501356096CE46F73`
 
 ## Runtime Data
 
@@ -94,7 +97,7 @@ Diagnostic options:
 
 Path |
 -- |
-C:\program files (x86)\AIMP3\System\Encoders\opusenc.exe |
+C:\Program Files (x86)\AIMP3\System\Encoders\opusenc.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -103,7 +106,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\AIMP3\System\Encoders\opusenc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\AIMP3\System\Encoders\opusenc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -118,7 +121,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a5fe14e1989f83e06378c54afca5f4d0f46a48ba7b0afcc4ee5e406acf0b7833/detection/
 
 
 

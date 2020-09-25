@@ -5,7 +5,7 @@ excerpt: What is vncserver.exe?
 
 # vncserver.exe 
 
-* File Path: `C:\program files\RealVNC\VNC Server\vncserver.exe`
+* File Path: `C:\Program Files\RealVNC\VNC Server\vncserver.exe`
 * Description: VNC Server
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `1C8B26AA02BBF235D59EF953D471B53D964987772C8F255645F04522C46FBF69`
 SHA384 | `FB6E4B48BD08FA05EE68410D588469922673E002758B0CBE4785711AB48D26EAB09A6381957B35FF27E8C07151420A44`
 SHA512 | `B43014362E8543A2B071C18F657D1B0A4602F069A352610B8F727F6BDEA396DE9C868AE385B00560F0225E7BDBE79944607DCB3B2CA0C8F594847B52EA945449`
 SSDEEP | `49152:Us+AiPieC+eXqBfo2dlksuYfNK2P3E5F1T8mfVW+IwjWAIDMFl0H8PA9vat8WtMM:B6PizavnrUfVJ9boD3wNhGCQzk`
+IMP | `2805FC6C70072F9B24DD4950E18C7B69`
+PESHA1 | `C1D14890C1AE858A541AACF40FF57D7435321E40`
+PE256 | `7FA33CDCE25238D6D4C666AECB037E9495AD16919B892F8B840DC9D208226CF3`
 
 ## Runtime Data
 
@@ -315,7 +318,8 @@ Agent Parameters:
 
 ### Usage (stderr):
 ```cmhg
-Bad argument 'help'.  Run with -help for usage.
+Bad argument 'C:\temp\strontic-xcyclopedia\notepad.exe'.  Run with -help for
+usage.
 
 ```
 
@@ -323,7 +327,7 @@ Bad argument 'help'.  Run with -help for usage.
 
 Path |
 -- |
-C:\program files\RealVNC\VNC Server\vncserver.exe |
+C:\Program Files\RealVNC\VNC Server\vncserver.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -346,7 +350,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/1c8b26aa02bbf235d59ef953d471b53d964987772c8f255645f04522c46fbf69/detection/
 
 
 

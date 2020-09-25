@@ -5,7 +5,7 @@ excerpt: What is GoogleUpdateCore.exe?
 
 # GoogleUpdateCore.exe 
 
-* File Path: `C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe`
+* File Path: `C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe`
 * Description: Google Update Core
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `80837FEE9CDC25B4316448DB66800DB67968B8F264FACA6B93923436FE58F362`
 SHA384 | `092B2DEA2960F72F26C24B553197647238FDB37CB1BD5DBB1F8C0E8F9D035901ED7B24207AC295408306112D6FD9417E`
 SHA512 | `31706E88EFCC076A0D173132BA2E3A945E4B90BD6816650A0E072A93A8425CE4B2407B99773FDA5F8857A76D1DDD90F36F2881C7CF51F6E1E00FF7719781C878`
 SSDEEP | `3072:HkjtQVrY/V8ACX26UB8M6QuhI4Mg5EdbzQnAAg0FuuJor+SFrXHmI3x+naF18C/j:HkWrbACX2p6fGNgKAO0CFrf3x+aFSm`
+IMP | `09B92EEEE6BA57AB255475574ED48955`
+PESHA1 | `D251D0A330DC96CE54879A7C70BF003DE1177BF7`
+PE256 | `B02185913C1DD5849AED63903B48D9B733C6E4581259A6C21233433F0BCDB7B4`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `3072:HkjtQVrY/V8ACX26UB8M6QuhI4Mg5EdbzQnAAg0FuuJor+SFrXHmI3x+naF18C/j:
 
 Path |
 -- |
-C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe |
+C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateCore.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -49,7 +52,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.35.451
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 Google LLC
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/80837fee9cdc25b4316448db66800db67968b8f264faca6b93923436fe58f362/detection/
 
 
 

@@ -46,6 +46,7 @@ SSDEEP | `6144:+3qZHKpj1b4G8OtsGw6gPHQX0OSNm6M/TuK:/ZHcdVskgPwiQV`
 File | Score
 -- | --
 [C:\program files\Mozilla Thunderbird\crashreporter.exe](crashreporter.exe-4CFA95487A117B6C1F4BD5F73CCB6055.md) | 91
+[C:\Program Files\Mozilla Thunderbird\crashreporter.exe](crashreporter.exe-79E72A69D9DEACB09974E96003A02D12.md) | 93
 
 
 

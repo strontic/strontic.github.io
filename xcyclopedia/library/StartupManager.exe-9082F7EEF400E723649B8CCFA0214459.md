@@ -52,6 +52,7 @@ x64ProcessAssistSvc.exe
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\StartupManager.exe](StartupManager.exe-12E2137D4EC0AE52C974C32F319F0136.md) | 88
+[C:\Program Files (x86)\Glary Utilities 5\StartupManager.exe](StartupManager.exe-F6F1189D2C79B1A84BE8F5C792DD60B2.md) | 91
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is pythonw.exe?
 
 # pythonw.exe 
 
-* File Path: `C:\program files\Python38\pythonw.exe`
+* File Path: `C:\Program Files\Python38\pythonw.exe`
 * Description: Python
 
 ## Screenshot
@@ -22,12 +22,15 @@ SHA256 | `A98A2BAF2065CC2EBD24A398B1C57F9BBCA84E447132BD2B1BE983EC831B54F7`
 SHA384 | `8966673DAFDE9804B7CB128836E4CC64372168E075DF7CED7C837136A4843A353F7FB2F3EB4B075FE9C790972900CDFD`
 SHA512 | `ADA00B48464F1923F0F8975460BFA198917EC44956D7B22C445AE3E7D0046D5BDB34A25059AE0536F618132AABD49FEDB8BECDB2BE224C734971E13764F8E394`
 SSDEEP | `1536:ISgb2lKhIxHHWMpdPa5wiE21M8kJIGFvb1CwX/k3siy0m:ISs2lKSwMpdCq/IM8uIGf9/k3sx`
+IMP | `28DBE7CA53EAEDBB68C0793385C1B718`
+PESHA1 | `CFBA3BE96AA287E571631090B234745D83926B2F`
+PE256 | `91B2A083FD51AD4F7A673B4B98B49A63957490DBEB6F174ED6FC4A13A48C51AD`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-usage: C:\program files\Python38\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\Program Files\Python38\pythonw.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
          and comparing bytes/bytearray with str. (-bb: issue errors)
@@ -123,7 +126,7 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 
 ### Usage (stderr):
 ```cmhg
-C:\program files\Python38\pythonw.exe: can't open file 'help': [Errno 2] No such file or directory
+C:\Program Files\Python38\pythonw.exe: can't open file 'C:\temp\strontic-xcyclopedia\notepad.exe': [Errno 13] Permission denied
 
 ```
 
@@ -131,9 +134,9 @@ C:\program files\Python38\pythonw.exe: can't open file 'help': [Errno 2] No such
 
 Path |
 -- |
-C:\program files\Python38\python38.dll |
-C:\program files\Python38\pythonw.exe |
-C:\program files\Python38\VCRUNTIME140.dll |
+C:\Program Files\Python38\python38.dll |
+C:\Program Files\Python38\pythonw.exe |
+C:\Program Files\Python38\VCRUNTIME140.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -164,13 +167,19 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 3.8.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2001-2016 Python Software Foundation. Copyright  2000 BeOpen.com. Copyright  1995-2001 CNRI. Copyright  1991-1995 SMC.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a98a2baf2065cc2ebd24a398b1c57f9bbca84e447132bd2b1be983ec831b54f7/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\program files (x86)\Python38-32\pythonw.exe](pythonw.exe-22A73968F535CD1042A5AA301C2A537B.md) | 82
+[C:\Program Files\Inkscape\bin\pythonw.exe](pythonw.exe-200EDC1FDD2370647A09D869CE5DDD33.md) | 79
 [C:\program files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 75
 
 

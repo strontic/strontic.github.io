@@ -5,7 +5,7 @@ excerpt: What is java.exe?
 
 # java.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `228027FDF00ABBFB917BC67F58D67FE26F56B19869DEAC4E548C42005D7E3614`
 SHA384 | `EAC29B1D74E16A1481FEFC049F64AD753442BEFECAC11B3BD49D128242AC58B1F40960EA6A08A95CB7159D88F2924D13`
 SHA512 | `2754D45DB29EFAA945DFC296C688A0AC6179C44A91B4DF32C3982FDCEF295A608E340B45D031DD701A9B95DEB89305991680D94A4F8FAF4B525A82296253FFF7`
 SSDEEP | `3072:l8p2g7wkRpsVVvr/T1qG6UiH7krmpEfdfGjW0TBf7YpDXW7k/IWai:Q2NEGDz/T1CjQrmGfde60TB97k/mi`
+IMP | `BB9F83F2CCF071025CFCF6C07DC24B5C`
+PESHA1 | `4A030331ECCA35F1395F987945C20DCC03E55B7A`
+PE256 | `BCE6E8FFF69678CB6F434A927A2F9260046E4447B39870795755663294FCAAF9`
 
 ## Runtime Data
 
@@ -80,7 +83,7 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe |
+C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -103,14 +106,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/228027fdf00abbfb917bc67f58d67fe26f56b19869deac4e548c42005d7e3614/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java.exe](java.exe-ED977A61E5C08AB52C131B624DC4E25F.md) | 97
-[C:\program files\Amazon Corretto\jre8\bin\java.exe](java.exe-5E663E0E2CCCE189DD1C9E7D960FF67F.md) | 97
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java.exe](java.exe-ED977A61E5C08AB52C131B624DC4E25F.md) | 97
+[C:\Program Files\Amazon Corretto\jre8\bin\java.exe](java.exe-5E663E0E2CCCE189DD1C9E7D960FF67F.md) | 97
 
 ## Possible Misuse
 

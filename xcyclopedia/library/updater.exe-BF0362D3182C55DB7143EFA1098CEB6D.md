@@ -68,8 +68,10 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\Program Files\Mozilla Firefox\updater.exe](updater.exe-019CF18ADC3FA81FA314F8B3ED9061C1.md) | 35
 [C:\program files\Mozilla Firefox\updater.exe](updater.exe-904B85E7D09E0CEE3294D10F947E3183.md) | 38
 [C:\Program Files\Mozilla Firefox\updater.exe](updater.exe-B0DC65F40D4D45A9E42628902C35422F.md) | 36
+[C:\Program Files\Mozilla Thunderbird\updater.exe](updater.exe-07D16EADF927C51C736FA89A68A9F379.md) | 94
 [C:\Program Files\Mozilla Thunderbird\updater.exe](updater.exe-321D1891CE307A8359422D69221531DD.md) | 41
 
 ## Possible Misuse

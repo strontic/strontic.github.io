@@ -56,6 +56,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\Integrator_Portable.exe](Integrator_Portable.exe-6454B671BB4D5DC50C9885D1C930BD12.md) | 91
+[C:\Program Files (x86)\Glary Utilities 5\Integrator_Portable.exe](Integrator_Portable.exe-849335973614520994FA29588351AF28.md) | 91
 
 
 

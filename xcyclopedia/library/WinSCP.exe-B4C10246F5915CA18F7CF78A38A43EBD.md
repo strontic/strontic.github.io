@@ -5,7 +5,7 @@ excerpt: What is WinSCP.exe?
 
 # WinSCP.exe 
 
-* File Path: `C:\program files (x86)\WinSCP\WinSCP.exe`
+* File Path: `C:\Program Files (x86)\WinSCP\WinSCP.exe`
 * Description: WinSCP: SFTP, FTP, WebDAV, S3 and SCP client
 
 ## Screenshot
@@ -23,6 +23,9 @@ SHA256 | `424505953E12C975D18EB5C0D51EFD79D11BB3A18423AF0098042B9ABE7243FC`
 SHA384 | `4CCF626EF696AE9C0A746F756E70D9BE5B4512A7007418AA9B4F9184C8098A443C3329FD35EA3C538B1685FABDAD1D6A`
 SHA512 | `0605CF593F07B7107230AF9C6677A71086011FDF94C81C43F603AF0A848E818C5E04CB2F187401C04F0284B05127C409F51DA1CFBD5404EE35B8E0326EADDC1C`
 SSDEEP | `393216:69aUyMH+lifETvAf3YThi+eT0+qA+jvY/nWI5Gk:6K4fSmH/n7`
+IMP | `30AD36462CD514849659CACB855D304D`
+PESHA1 | `3AF333D524B35DBF4B1307C4C75E8C37858B6EDB`
+PE256 | `EC80030536D0CAA2B3CB4A521195BC3B0221104157AC2312A84E4A315DCE4C18`
 
 ## Runtime Data
 
@@ -30,7 +33,7 @@ SSDEEP | `393216:69aUyMH+lifETvAf3YThi+eT0+qA+jvY/nWI5Gk:6K4fSmH/n7`
 conhost.exe
 
 ### Window Title:
---help - WinSCP
+C - WinSCP
 
 ### Open Handles:
 
@@ -40,27 +43,27 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\WinSCP\WinSCP.exe |
+C:\Program Files (x86)\WinSCP\WinSCP.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -84,7 +87,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.17.7.0
 * Language: English (United States)
 * Legal Copyright: (c) 2000-2020 Martin Prikryl
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/424505953e12c975d18eb5c0d51efd79d11bb3a18423af0098042b9abe7243fc/detection/
 
 
 ## Possible Misuse

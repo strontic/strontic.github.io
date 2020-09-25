@@ -51,6 +51,7 @@ MemfilesService.exe x64ProcessAssistSvc.exe
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\ShortcutFixer.exe](ShortcutFixer.exe-A9A25703275E8C510968A1400E18ED98.md) | 91
 [C:\program files (x86)\Glary Utilities 5\ShortcutFixer.exe](ShortcutFixer.exe-C4B526B2B5726B8D82D2BE93E952B944.md) | 90
 
 

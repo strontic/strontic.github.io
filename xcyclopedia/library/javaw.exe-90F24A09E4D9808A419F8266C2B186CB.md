@@ -5,7 +5,7 @@ excerpt: What is javaw.exe?
 
 # javaw.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `68CC958D0F9713A9DCB22C7B02AF50F408F2ECBCAE6F9043E0F980A9515E486C`
 SHA384 | `8E2C47C18208CD9B41939192D96596F4518686AD6736CD40EB4318448AEFA8420FA837964B3B0E615CB6409C0AB812F7`
 SHA512 | `844C1864B2373C89537A49090F95E7C3F4AE9F494A2B2A655F6261D2B783F050AEF36F534E236BF7B38144B63C13F4C7712A30CF1B2F721B7ACAD1D2989E50C2`
 SSDEEP | `3072:RvlwQRPjjSVp8fdK1hGThdIu4w8x2/dm3FmcX0TBf7Fx6fXQ57k/IXuh:nwQjOSfIGTh54x2/dm3cw0TBCY57k/th`
+IMP | `2D6F4E096A2D15D4349A455F88E1F66E`
+PESHA1 | `A4A761E8DE6543AB571474FA0B6AC4423C30EFA2`
+PE256 | `699F683C31A29F65BA3B8B0E40DD64ACACA8B115BE0FA485343ACBAF39051938`
 
 ## Runtime Data
 
@@ -89,19 +92,19 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe |
+C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javaw.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
@@ -134,14 +137,19 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/68cc958d0f9713a9dcb22c7b02af50f408f2ecbcae6f9043e0f980a9515e486c/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe](javaw.exe-073F4DD68AA4225BEBBA9D0CA005965B.md) | 97
-[C:\program files\Amazon Corretto\jre8\bin\javaw.exe](javaw.exe-C063FDF78F9DD602BDCAE9C7F663942A.md) | 97
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\javaw.exe](javaw.exe-073F4DD68AA4225BEBBA9D0CA005965B.md) | 97
+[C:\Program Files\Amazon Corretto\jre8\bin\javaw.exe](javaw.exe-C063FDF78F9DD602BDCAE9C7F663942A.md) | 97
 
 ## Possible Misuse
 

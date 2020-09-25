@@ -5,7 +5,7 @@ excerpt: What is mpcenc.exe?
 
 # mpcenc.exe 
 
-* File Path: `C:\program files (x86)\AIMP3\System\Encoders\mpcenc.exe`
+* File Path: `C:\Program Files (x86)\AIMP3\System\Encoders\mpcenc.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `212FDA6EEC1CEAF481E316C51FDDD21403BE2863AFE8209FBF7C43E9BFD59921`
 SHA384 | `AC584B04F8B1202DD21F04ABE19A1F0982CE50C5CACA820B1179FC92493F04E5276A06849DE60E50BBA80D707C1984CC`
 SHA512 | `33232B0FB00F7D39F06A7AA340C53F1335D79D3041FAA33EF2A115BF7A12FF768BF4BEE36D9998EE86BE22CB71D8C934132AEEAFB328699CE08C7E00AC7F7CF4`
 SSDEEP | `3072:lzzddXTJo5fj5m5YBFrsbtlfZ9xCeFV3YHZaWqBcmpGYEdOzAg0FuCf5:llM5r5GWFrOj9kew4Wac4GkzAOC`
+IMP | `A5E13ECDA5CB29A04A20A46E5D2BBAE2`
+PESHA1 | `BDDFBDC5AA126E32D99F54C01D4A94BAE42366EE`
+PE256 | `245C68F6D45CE5E6B29145EA345049AC6A474674482B574E5086DA30A77DF49E`
 
 ## Runtime Data
 
@@ -57,7 +60,7 @@ For further information use the --longhelp option.
 ```cmhg
 MPC Encoder 1.30.0 --stable-- (C) 1999-2009 Buschmann/Klemm/Piecha/MDT
 Built Feb 26 2009 20:33:36
-     ERROR: Unable to read or decode: '-help'
+     ERROR: Unable to read or decode: 'C:\temp\strontic-xcyclopedia\notepad.exe'
 
 ```
 
@@ -65,7 +68,7 @@ Built Feb 26 2009 20:33:36
 
 Path |
 -- |
-C:\program files (x86)\AIMP3\System\Encoders\mpcenc.exe |
+C:\Program Files (x86)\AIMP3\System\Encoders\mpcenc.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -74,7 +77,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\AIMP3\System\Encoders\mpcenc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\AIMP3\System\Encoders\mpcenc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -89,7 +92,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/212fda6eec1ceaf481e316c51fddd21403be2863afe8209fbf7c43e9bfd59921/detection/
 
 
 

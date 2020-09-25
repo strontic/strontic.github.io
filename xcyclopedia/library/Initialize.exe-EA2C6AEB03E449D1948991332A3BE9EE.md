@@ -73,6 +73,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Initialize.exe](Initialize.exe-7511532801542AAE6C31871614B53872.md) | 93
 [C:\Program Files (x86)\Glary Utilities 5\Initialize.exe](Initialize.exe-A90CF1DC124C7EC7B4F2725D18EC2D7D.md) | 93
 
 ## Possible Misuse

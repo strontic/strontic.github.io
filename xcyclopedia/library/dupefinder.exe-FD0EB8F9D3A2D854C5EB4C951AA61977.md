@@ -92,6 +92,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\dupefinder.exe](dupefinder.exe-2FA54B791D7717226DF8763287EC31B8.md) | 75
 [C:\Program Files (x86)\Glary Utilities 5\dupefinder.exe](dupefinder.exe-CBC416A9ACDC584C323DD640A478F954.md) | 94
 
 

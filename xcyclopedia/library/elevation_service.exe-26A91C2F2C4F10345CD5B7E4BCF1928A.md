@@ -66,6 +66,11 @@ C:\Windows\System32\win32u.dll |
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Google\Chrome\Application\85.0.4183.121\elevation_service.exe](elevation_service.exe-AFD137B53BA091ACBA569255B16DF837.md) | 94
 
 
 

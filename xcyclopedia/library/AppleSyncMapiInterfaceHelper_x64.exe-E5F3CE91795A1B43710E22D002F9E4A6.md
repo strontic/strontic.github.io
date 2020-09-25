@@ -63,6 +63,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright:  2020 Apple Inc. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\AppleSyncMapiInterfaceHelper_x64.exe](AppleSyncMapiInterfaceHelper_x64.exe-35EC1952650B31EAFE9DD3AF90831D53.md) | 58
 
 
 

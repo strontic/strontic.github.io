@@ -90,6 +90,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\SoftwareUpdate.exe](SoftwareUpdate.exe-1430FB2502D17E9AABCB75D856FD88B5.md) | 96
+[C:\Program Files (x86)\Glary Utilities 5\SoftwareUpdate.exe](SoftwareUpdate.exe-4E1E2E1348D0FE11222B7D55D249E4FA.md) | 97
 
 
 

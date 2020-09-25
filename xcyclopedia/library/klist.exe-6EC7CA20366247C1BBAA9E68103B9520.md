@@ -81,7 +81,7 @@ File | Score
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\klist.exe](klist.exe-DF405170A9755BF4C0A2817D16E67147.md) | 88
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-7874489E19C78924C05D3BF61EA807EC.md) | 61
 [C:\program files (x86)\Amazon Corretto\jre8\bin\tnameserv.exe](tnameserv.exe-55DC2860B7D0F30D785998CC1ABA5B4E.md) | 66
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe](rmic.exe-81D6484F78DCB9ABAE2F748AC381B5E0.md) | 40
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe](rmic.exe-81D6484F78DCB9ABAE2F748AC381B5E0.md) | 40
 [C:\program files\Amazon Corretto\jdk11.0.8_10\bin\keytool.exe](keytool.exe-6045C32AB7C9FE9F5292B494A1B2E232.md) | 47
 
 

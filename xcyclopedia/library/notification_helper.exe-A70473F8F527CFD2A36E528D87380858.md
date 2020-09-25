@@ -43,6 +43,7 @@ SSDEEP | `12288:wH/fpn0m49zaQZfr2Hd6s+0kHYytD+LUdMltmHCBLHwweR5+nbolCUxBx:wmm492
 File | Score
 -- | --
 [C:\program files\Opera\70.0.3728.133\notification_helper.exe](notification_helper.exe-47CB245ADC19F618D9F82E4A4CF9205F.md) | 94
+[C:\Program Files\Opera\71.0.3770.171\opera.exe](opera.exe-FECED32DA54213875400A87196C61233.md) | 33
 
 
 

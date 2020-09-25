@@ -82,7 +82,7 @@ cmp: unknown option -- h
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cmp.exe](cmp.exe-CF1032CAA1878355EEA100CB34A52340.md) | 94
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cmp.exe](cmp.exe-CF1032CAA1878355EEA100CB34A52340.md) | 94
 
 
 

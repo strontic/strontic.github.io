@@ -55,6 +55,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\program files\Common Files\Apple\Apple Application Support\YSLoader.exe](YSLoader.exe-5100B1E1EBF8F9FAB4E9708160974854.md) | 75
+[C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe](AppleMobileDeviceService.exe-FD1696B603502ED848FE7F9A8E7CC94C.md) | 74
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is putty.exe?
 
 # putty.exe 
 
-* File Path: `C:\program files\PuTTY\putty.exe`
+* File Path: `C:\Program Files\PuTTY\putty.exe`
 * Description: SSH, Telnet and Rlogin client
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `DCF66ED0D39BB3C1CD154D595BFA39D18148B3E1E68B8F18DD89221CF66FF4BA`
 SHA384 | `2DE89C02082BDEE25522E7A17B644A4568782C209E30BA7E5524DDB5BD68DF6F4AC828208C02B13C40EB946A129C41C2`
 SHA512 | `1C31A29219EB1D35D0B1BF1BDCE5AFB39D4B0F31DE4562D9936D71116FD53DE7DEA4C4745E4C12C885DC07163117262CC4A2D925E14AA9844A638991D5EE0744`
 SSDEEP | `12288:cKqC57Zz7Q+XAIsAbt19684P/c4Tsv9Ed9KIAH656mOleOB6Wex:pqCNNE4AhDRkBvGd9a656mW8`
+IMP | `2E3215ACC61253E5FA73A840384E9720`
+PESHA1 | `CFC56D6C39FCEB9A1990CFA1E3499321934AA288`
+PE256 | `E8F327A7ABA6B2DD1A7A24E544555969D14BD17CA3559F36EF4E511092B4BA71`
 
 ## Runtime Data
 
@@ -32,22 +35,22 @@ PuTTY Command Line Error
 
 Path | Type
 -- | --
-(R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\PuTTY\putty.exe |
+C:\Program Files\PuTTY\putty.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\COMDLG32.dll |
@@ -67,8 +70,11 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
+C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+C:\Windows\System32\ws2_32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28\comctl32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -88,7 +94,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/dcf66ed0d39bb3c1cd154d595bfa39d18148b3e1e68b8f18dd89221cf66ff4ba/detection/
 
 
 ## Possible Misuse

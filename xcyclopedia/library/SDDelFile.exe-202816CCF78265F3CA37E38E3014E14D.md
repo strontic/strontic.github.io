@@ -5,7 +5,7 @@ excerpt: What is SDDelFile.exe?
 
 # SDDelFile.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDDelFile.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDDelFile.exe`
 * Description: File remover for stubborn files
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `3AD6A79F23B25C8B78F95FB26571A9FABDEE50519E6ABC0296F108AFAA2B024E`
 SHA384 | `D88B50D55D36B71215460C357F369DA243F9185491D4C80EF268DFF031DB8E7CC80985FF217F3F7A3B0194CF1CBEBD1B`
 SHA512 | `9FD04C9BCC6D886E1D84885659C3902BC1BF154766E058645F02DA1DA1698521F2DC684FB1FC6A6C05D930FBAB8B0766190D6517F336787F935F29B35B6B1778`
 SSDEEP | `49152:z0fhbBgHSe0DQshpVYxsTSbpQkHrAbcrhnLCCdbixXdnHsGWCxTToTkvrdSx/FxE:KQ04cuFHrAbcr9LIhWCpSJcBjNiqt2xe`
+IMP | `EF66946E37AB054152C28C9654D67CFA`
+PESHA1 | `B5F86466792644DD446A61CC7A3DBB3079DC5ADA`
+PE256 | `DEE44021DAEDE56ADA67890B02B35A508340E2168C439970857F01F69F86C85A`
 
 ## Runtime Data
 
@@ -33,7 +36,7 @@ Done.
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDDelFile.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDDelFile.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -57,7 +60,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2007-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/3ad6a79f23b25c8b78f95fb26571a9fabdee50519e6abc0296f108afaa2b024e/detection/
 
 
 

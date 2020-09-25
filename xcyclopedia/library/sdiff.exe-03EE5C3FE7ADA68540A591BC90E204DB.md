@@ -102,7 +102,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\sdiff.exe](sdiff.exe-A54D6FBAEEDF4954C6820EE2D0F23519.md) | 96
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sdiff.exe](sdiff.exe-03EE5C3FE7ADA68540A591BC90E204DB.md) | 100
 
 
 

@@ -85,6 +85,8 @@ C:\Windows\System32\WS2_32.dll |
 
 File | Score
 -- | --
+[C:\Program Files\Google\Chrome\Application\85.0.4183.121\Installer\chrmstp.exe](chrmstp.exe-AEA2671A54A5A19A449CA1F268F1D7BD.md) | 88
+[C:\Program Files\Google\Chrome\Application\85.0.4183.121\Installer\setup.exe](setup.exe-AEA2671A54A5A19A449CA1F268F1D7BD.md) | 88
 [C:\program files\Google\Chrome\Application\85.0.4183.83\Installer\chrmstp.exe](chrmstp.exe-4F98D67579082660BFD6AB138652DB49.md) | 100
 
 ## Possible Misuse

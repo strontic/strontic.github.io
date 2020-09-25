@@ -5,7 +5,7 @@ excerpt: What is DropboxUpdateOnDemand.exe?
 
 # DropboxUpdateOnDemand.exe 
 
-* File Path: `C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe`
+* File Path: `C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe`
 * Description: Dropbox Update
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `D9BE9D36CDE01B178AEB4F5847A302BF7B588966DD7BAF017EF818A0650C3531`
 SHA384 | `6633C3C6AFE4481AFA555022F4BE3CCDE659E7E0473BF4D0CBBE5D7E8088F2FB7BD8F74027C990CDDBA28E5F7A7AEBDB`
 SHA512 | `A9911113C913F2CAEBED79CDC1AF489BD5BDADD5E12D58E384C7282679BFF8342241D7AB4688CB41E6E9D4160B5C3A6ACEE210F04851463A8F7BA622438F6FA6`
 SSDEEP | `768:uT2rI0Jp4350FJ0pM4p8wEEpVPWSB6lAxMtXBNQC5HzJs911/ZqU28fyDGAK4Dq:CmpSO06I8EDPetQC5T0YZKuq`
+IMP | `126388812F3CEE524977F3F98906D2EB`
+PESHA1 | `FCE9E6E7666F50FD5C2003C8281B78156C1CC81A`
+PE256 | `54C6F6273C6AB6F243C7D030E97C5057D1EA43DA2C179CF45C68F9DBC5F8418A`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ DropboxUpdate.exe
 
 Path |
 -- |
-C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe |
+C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -52,13 +55,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.335.1
 * Language: English (United States)
 * Legal Copyright: Copyright: Dropbox, Inc. 2015 (Omaha Copyright Google Inc.)
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d9be9d36cde01b178aeb4f5847a302bf7b588966dd7baf017ef818a0650c3531/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe](DropboxUpdateBroker.exe-810A204D934A4708EBC950A0477869F9.md) | 58
+[C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe](DropboxUpdateBroker.exe-810A204D934A4708EBC950A0477869F9.md) | 58
 
 
 

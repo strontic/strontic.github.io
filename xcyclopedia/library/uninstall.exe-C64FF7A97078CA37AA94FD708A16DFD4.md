@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files (x86)\Notepad++\uninstall.exe`
+* File Path: `C:\Program Files (x86)\Notepad++\uninstall.exe`
 * Description: Notepad++ : a free (GNU) source code editor
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `43BF4010B7B762B088DD6EAAE3858182D975C8BF3E3BAE6E501B35747C2A3DDA`
 SHA384 | `ED610B39DBD9C68F128AF35BF1E86F8F8549BE7329D7F50898520F3197B7C7AB29627A838AC982664AA6D3030F33ACC1`
 SHA512 | `2A6891C6AD68C7EF55D529B099CA887A16E1AEB6297F10CB7C88A7DE42E18700CF1FBC2B8A8ADA3079300FE63557AEAD7514B03D85E8B1979468BA36621D2844`
 SSDEEP | `6144:8R+xXYSIvF68OZGbpYByPT7lyvIcoNlh1pxR7ubHoklHP3:EMIvk8OvByPHly5YfH7uTlHP3`
+IMP | `1F23F452093B5C1FF091A2F9FB4FA3E9`
+PESHA1 | `n/a`
+PE256 | `n/a`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files (x86)\Notepad++\uninstall.exe |
+C:\Program Files (x86)\Notepad++\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -37,7 +40,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\Notepad++\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\Notepad++\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -52,7 +55,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 7.89
 * Language: English (United States)
 * Legal Copyright: Copyleft 1998-2017 by Don HO
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/43bf4010b7b762b088dd6eaae3858182d975c8bf3e3bae6e501b35747c2a3dda/detection/
 
 
 ## Possible Misuse

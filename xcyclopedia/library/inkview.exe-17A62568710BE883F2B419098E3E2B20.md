@@ -99,6 +99,8 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\program files\Inkscape\bin\inkscape.exe](inkscape.exe-507868AD76E292FD82203D0BE512965C.md) | 93
+[C:\Program Files\Inkscape\bin\inkscape.exe](inkscape.exe-F30F53F65E0E2C4835820A406761EF42.md) | 86
+[C:\Program Files\Inkscape\bin\inkview.exe](inkview.exe-ED010CDD22BE2438CAE317B1DD012314.md) | 91
 
 
 

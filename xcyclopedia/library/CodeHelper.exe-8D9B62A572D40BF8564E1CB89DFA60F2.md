@@ -54,6 +54,7 @@ conhost.exe
 File | Score
 -- | --
 [C:\program files\Microsoft VS Code\resources\app\out\vs\platform\files\node\watcher\win32\CodeHelper.exe](CodeHelper.exe-35CF398FF6B35E8707EC276411A89E86.md) | 90
+[C:\Program Files\Microsoft VS Code\resources\app\out\vs\platform\files\node\watcher\win32\CodeHelper.exe](CodeHelper.exe-DC3CB03BAC659F0704DF1043BAC8AE5A.md) | 90
 
 
 

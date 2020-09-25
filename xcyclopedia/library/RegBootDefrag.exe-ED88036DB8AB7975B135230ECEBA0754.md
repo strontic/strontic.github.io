@@ -42,8 +42,9 @@ SSDEEP | `768:ufjnhj64vX5OcSYp/d+fhHdMeKgQkxV1DGIUf2h0k:urnhjHvXkhHie+CVVUfk`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x86\RegBootDefrag.exe](RegBootDefrag.exe-A1AEBAD1A5568938A1AE251CB2DBC3C5.md) | 83
 [C:\program files (x86)\Glary Utilities 5\Native\wxp_x86\RegBootDefrag.exe](RegBootDefrag.exe-EB7E490B216664B7C9D17A1820D7E0F0.md) | 90
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\false.exe](false.exe-024D20E116CD9C5BF6FF35EB02E8D599.md) | 25
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\false.exe](false.exe-024D20E116CD9C5BF6FF35EB02E8D599.md) | 25
 
 
 

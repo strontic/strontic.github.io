@@ -65,6 +65,8 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\program files (x86)\Mozilla Maintenance Service\maintenanceservice_tmp.exe](maintenanceservice_tmp.exe-545E00B400ED5F944C33932BBE1A2176.md) | 100
+[C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice_tmp.exe](maintenanceservice_tmp.exe-8CEE48685DA18D8BE588B263B304B452.md) | 93
+[C:\Program Files\Mozilla Thunderbird\maintenanceservice.exe](maintenanceservice.exe-8CEE48685DA18D8BE588B263B304B452.md) | 93
 
 
 

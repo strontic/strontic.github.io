@@ -134,7 +134,7 @@ File | Score
 [C:\program files (x86)\Amazon Corretto\jre8\bin\policytool.exe](policytool.exe-B3361507B9EC24799355B8C5B97505B8.md) | 63
 [C:\program files (x86)\Amazon Corretto\jre8\bin\rmiregistry.exe](rmiregistry.exe-EE9B42A4CF7692CC7F4C7C48685E9708.md) | 63
 [C:\program files (x86)\Amazon Corretto\jre8\bin\servertool.exe](servertool.exe-2DD6258EB5EA1F577129BAC139081CD3.md) | 60
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-110A1ED92CCF732B24175E84F5EE7E9D.md) | 40
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\tnameserv.exe](tnameserv.exe-110A1ED92CCF732B24175E84F5EE7E9D.md) | 40
 
 
 

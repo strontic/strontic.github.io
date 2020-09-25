@@ -5,7 +5,7 @@ excerpt: What is SDFileScanHelper.exe?
 
 # SDFileScanHelper.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDFileScanHelper.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDFileScanHelper.exe`
 * Description: File scan helper for network files.
 
 ## Hashes
@@ -18,13 +18,16 @@ SHA256 | `BE577EF7A38E75851BC519D615B2FD732E9C571B8508976F2E1F427C889D6EFF`
 SHA384 | `9A6431C79ED8C4EA921539893453AE667B70ABE054EF7A86A75CACCCE57041C55F81F80FCCCF89FAE3A5F4ED7F22F252`
 SHA512 | `31E924C36E149340C17B4FD58BCDD18C765355547797F3B6050DF05DECF7CE789D6CC6F6D467832768D34BDBEAB36B88BACD193161D33DEEB778983ACE193E31`
 SSDEEP | `24576:bBh+xsr7MeUBk+1XryH7BFS4UVk+MD/iEfUetllrKLmhSzYljn9ztaIvufnX1jjc:tIQfS4UVNPYlluLmhSkp9zt98FP`
+IMP | `189E906D32376276471F5F45AD9A3456`
+PESHA1 | `4BE5E3F68E52119C3701373A4DE4100DFD99891B`
+PE256 | `DF22416168237EBEFA3AC8BB8BF13C87BB80BE54E40ED120716236A990EC275A`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
 avengine=Spybot2AV
-errormsg=WrappedBitDefenderScan: Access violation at address 66FB2AE0 in module 'scan.dll'. Read of address 0000010C
+errormsg=WrappedBitDefenderScan: Access violation at address 64082AE0 in module 'scan.dll'. Read of address 0000010C
 
 
 ```
@@ -33,7 +36,7 @@ errormsg=WrappedBitDefenderScan: Access violation at address 66FB2AE0 in module 
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDFileScanHelper.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDFileScanHelper.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -57,7 +60,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2011-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/be577ef7a38e75851bc519d615b2fd732e9c571b8508976f2e1f427c889d6eff/detection/
 
 
 

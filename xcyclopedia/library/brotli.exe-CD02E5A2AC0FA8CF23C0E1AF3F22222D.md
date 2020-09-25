@@ -5,7 +5,7 @@ excerpt: What is brotli.exe?
 
 # brotli.exe 
 
-* File Path: `C:\program files\PeaZip\res\brotli\brotli.exe`
+* File Path: `C:\Program Files\PeaZip\res\brotli\brotli.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `4BDD56D53DCC4F5C325C8F84D0C9847F6527DFBF1F31BEB333148D856DE6BCBF`
 SHA384 | `93648B441B24B6C7B41CA37682011D5F4E7B125FF7791EEB7CBAAFE8D00FBAAB6E332A3738F9CB3E72FF8C97B7428F7D`
 SHA512 | `F19A4C2232C2E37F5998A76DCC2880B1C9FB83962A6DDC789D688B9FAAC8029EF4A2E52B1ADB8453C764A9B8B7CFB82D68AF2587736FB55F7F814F5720355678`
 SSDEEP | `12288:uLXN5VcseBhzCZxj99yqoeGAHhly7XTw05nmZfRR8SnGhRO:QluhzCZxj9ToeGAjAmZfR23hRO`
+IMP | `348E9BEBF3A1EFE615C98B68BCF985C7`
+PESHA1 | `152146F599615DBD8CF7486FF3A33889AA8DEBDA`
+PE256 | `9670FEBBF9CEF5B23CEA4B07F0F4E9F4B1CE100E3899074073E9CE6C03ECD17F`
 
 ## Runtime Data
 
@@ -57,7 +60,7 @@ All arguments after '--' are treated as files.
 
 Path |
 -- |
-C:\program files\PeaZip\res\brotli\brotli.exe |
+C:\Program Files\PeaZip\res\brotli\brotli.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -65,7 +68,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Signature
 
-* Status: The file C:\program files\PeaZip\res\brotli\brotli.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\PeaZip\res\brotli\brotli.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -80,7 +83,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/4bdd56d53dcc4f5c325c8f84d0c9847f6527dfbf1f31beb333148d856de6bcbf/detection/
 
 
 

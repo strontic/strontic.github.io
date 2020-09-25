@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files (x86)\NVDA\uninstall.exe`
+* File Path: `C:\Program Files (x86)\NVDA\uninstall.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `6842976EEB996FC807F87C6A6C94C753AF00C508B9470E3923E9EB0DDC2093C6`
 SHA384 | `2ADC4AC7F8318F24DDA2B19D315979B553EBC70B488C3490DC5BB44F6AD3436A9BE711222828D1DB4556EC0A47AA3A22`
 SHA512 | `516486BA662C3B7E850353F111C545E8F5DC4DA5E21C76F1B7191BADEEF8F9D17B4598FFB22F2292347C66783CBF166B9EC5DDD93FF32A9133EFC22BE2B3E7A3`
 SSDEEP | `1536:VRPYqa5pic6jXFdL2KiMcWIUgdLeAyNlsSKHwmXeIMUulLdUbMkt6niM8/kO+WgW:HPA6jXFN2MctUceAymOIeljXniM8/kJE`
+IMP | `B1A57B635B23FFD553B3FD1E0960B2BD`
+PESHA1 | `2E2BFD6EB6FB1A20CAE68235FEA40EE9D1D0039B`
+PE256 | `5BCEED7B261073A10A7C162C8FC005AA93DB9931E4904D83106795ECDBDB1D0A`
 
 ## Runtime Data
 
@@ -27,7 +30,7 @@ Au_.exe
 
 Path |
 -- |
-C:\program files (x86)\NVDA\uninstall.exe |
+C:\Program Files (x86)\NVDA\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -51,14 +54,19 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: Language Neutral
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/6842976eeb996fc807f87c6a6c94c753af00c508b9470e3923e9eb0ddc2093c6/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\ImgBurn\uninstall.exe](uninstall.exe-EFF839D29DBB06677A85117D036E29C6.md) | 46
-[C:\program files\Krita (x64)\uninstall.exe](uninstall.exe-FE1DDED8B32BBB6B54EB03FD563BD24A.md) | 29
+[C:\Program Files (x86)\ImgBurn\uninstall.exe](uninstall.exe-EFF839D29DBB06677A85117D036E29C6.md) | 46
+[C:\Program Files\Krita (x64)\uninstall.exe](uninstall.exe-FE1DDED8B32BBB6B54EB03FD563BD24A.md) | 29
 
 ## Possible Misuse
 

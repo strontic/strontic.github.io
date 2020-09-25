@@ -5,7 +5,7 @@ excerpt: What is jabswitch.exe?
 
 # jabswitch.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe`
 * Description: OpenJDK Platform binary
 * Comments: Java Access Bridge
 
@@ -20,6 +20,9 @@ SHA256 | `532784316D4E8CFA02A82FABF213E3F049938EF0D3725CD8642940CED3984AD9`
 SHA384 | `C4805C55A39CAD8105A73DEB9576B6D2F4D4C0BA4702453331B690FD3A6FCAC23ACFDEFD248FA5B36ECE71C5D1E5F30B`
 SHA512 | `F9F77673DD66A4BBCF02B3CE181487B55ABE013C21E6D9017F540635EAB100FA32E67A1125FE1CC00EAA5CF53003C24EE973663EA46DC6E45864D5F7664283B5`
 SSDEEP | `384:H6oYT0MbRq7NJyiDQCg6IqXX5Avq4OxquEW5+nLMKCMYJsiKfrhCQpvbmLRh+cnI:RM1V+4prwaYJTKfrQQNq0cQ8DG3`
+IMP | `44EAD3581C2812FE7A87A8072A588251`
+PESHA1 | `2C40485C6950BC4F025362D68AB640165F68DA69`
+PE256 | `66BE2F60F44EC8539EB5E7DEFDD7D2EEA22375BD9C1612418910D871DCF02EB1`
 
 ## Runtime Data
 
@@ -52,7 +55,7 @@ Note:
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jabswitch.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -75,14 +78,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: English (United States)
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/532784316d4e8cfa02a82fabf213e3f049938ef0d3725cd8642940ced3984ad9/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\jabswitch.exe](jabswitch.exe-C9CA81DEC4D1F63778D775BFB71361CA.md) | 97
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\jabswitch.exe](jabswitch.exe-A523F2ADC7C07A73C079FC0A7FD8D63F.md) | 97
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\jabswitch.exe](jabswitch.exe-C9CA81DEC4D1F63778D775BFB71361CA.md) | 97
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\jabswitch.exe](jabswitch.exe-A523F2ADC7C07A73C079FC0A7FD8D63F.md) | 97
 
 
 

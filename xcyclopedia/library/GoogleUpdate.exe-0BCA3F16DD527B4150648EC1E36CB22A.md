@@ -5,7 +5,7 @@ excerpt: What is GoogleUpdate.exe?
 
 # GoogleUpdate.exe 
 
-* File Path: `C:\program files (x86)\Google\Update\GoogleUpdate.exe`
+* File Path: `C:\Program Files (x86)\Google\Update\GoogleUpdate.exe`
 * Description: Google Installer
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `B60E92004D394D0B14A8953A2BA29951C79F2F8A6C94F495E3153DFBBEF115B6`
 SHA384 | `A1257A0BF9BA3661676092ADA2AF2150A0B6B0FDED103F99E5B67C79316624B50A02D2B94C802C2CB0B535006854F936`
 SHA512 | `516E1C9313AAF1D49223A3C06677BDBE5E4F9DF392C12696A9EEB086634CF60C42A9C330E2D1095F1E6FDD1F16D2A6A13C9D28110155469159F0959897DFF164`
 SSDEEP | `3072:UAt2Sk2m5oyiTOZQvfSERdX9Zk8AtB+llojrWTMK12XdjWtVAlR8yVciqFltCT34:IxwjRsB+Fqo`
+IMP | `7DF1816239C5BC855600D41210406C5B`
+PESHA1 | `42596256C2B9532A871A70303D5819FCB3716F6D`
+PE256 | `6C38B49D18CDD85F379E75FF08D524E7F048A75A3AAF5E9A514F219017BE654A`
 
 ## Runtime Data
 
@@ -36,19 +39,19 @@ Path | Type
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (RW-)   C:\Program Files (x86)\Google\Update\1.3.35.452 | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Google\Update\GoogleUpdate.exe |
+C:\Program Files (x86)\Google\Update\GoogleUpdate.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -72,13 +75,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.35.451
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 Google LLC
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/b60e92004d394d0b14a8953a2ba29951c79f2f8a6c94f495e3153dfbbef115b6/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Google\Update\1.3.35.452\GoogleUpdate.exe](GoogleUpdate.exe-0BCA3F16DD527B4150648EC1E36CB22A.md) | 100
+[C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdate.exe](GoogleUpdate.exe-0BCA3F16DD527B4150648EC1E36CB22A.md) | 100
 
 ## Possible Misuse
 

@@ -5,7 +5,7 @@ excerpt: What is pscp.exe?
 
 # pscp.exe 
 
-* File Path: `C:\program files\PuTTY\pscp.exe`
+* File Path: `C:\Program Files\PuTTY\pscp.exe`
 * Description: Command-line SCP/SFTP client
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `7076D74C383B34556F60007BB349AA8D2C17B32000500CE118DF5143C147A0FA`
 SHA384 | `6B5C3C00724D9E54FF3BD7A27775D21C91DBF5CC31031958622847566000535457934FC092B4D20683603D3C1FE723D3`
 SHA512 | `427F0E033B0A7B0DF4067E864DFBB7C8D89B57C5F3D21A547F7AE079E3CC12495DA16339921DB9AEDCA21C95E53CC2090EB9AF58C85BA5A6F5C49BB34FF58D13`
 SSDEEP | `12288:HtEhCaM1f1xKTKNkO5IbKonRKqpTZKasgQOaX1:ujOKWpStnR1TZKasv`
+IMP | `C2612378E2F461D6FCF8743722ABEB7A`
+PESHA1 | `C671ADC9EE6C570DA6E89B03F03F8A4B02ADA51D`
+PE256 | `427B5745FA61DE334C2793CB29F24D2756198C3571B8B9EFA00D7686A9E4F31F`
 
 ## Runtime Data
 
@@ -71,7 +74,7 @@ pscp: unknown option "-help"
 
 Path |
 -- |
-C:\program files\PuTTY\pscp.exe |
+C:\Program Files\PuTTY\pscp.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -94,7 +97,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/7076d74c383b34556f60007bb349aa8d2c17b32000500ce118df5143c147a0fa/detection/
 
 
 ## Possible Misuse

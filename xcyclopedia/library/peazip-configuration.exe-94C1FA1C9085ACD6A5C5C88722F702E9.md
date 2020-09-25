@@ -54,6 +54,7 @@ peazip-configuration.tmp
 File | Score
 -- | --
 [C:\program files\PeaZip\res\peazip-configuration.exe](peazip-configuration.exe-24A4C81CB50CC7F7FC9956B394655953.md) | 85
+[C:\Program Files\PeaZip\res\peazip-configuration.exe](peazip-configuration.exe-3D0D7BD27D3EF365238722121712E9A7.md) | 88
 
 
 

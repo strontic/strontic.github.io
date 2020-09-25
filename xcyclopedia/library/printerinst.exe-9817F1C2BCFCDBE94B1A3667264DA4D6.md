@@ -5,7 +5,7 @@ excerpt: What is printerinst.exe?
 
 # printerinst.exe 
 
-* File Path: `C:\program files\RealVNC\VNC Server\Printer Driver\printerinst.exe`
+* File Path: `C:\Program Files\RealVNC\VNC Server\Printer Driver\printerinst.exe`
 * Description: VNC Printer Installer
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `B33D600B49CC070867D6C42B842A98AFF7E1A8798A7F1087697F7DA488CAFDEC`
 SHA384 | `CADF6CD574B4120D7E0DFF58C35E21EF7E85672B5B15B9223E00C656DDBBAD39F714993588243F0819077670287D5F8F`
 SHA512 | `D5EF0050B9BC30D338D3849521B0DC5F50FC81B68AE3F20DC0467CA1FD94BFE6A5AA9103E68DAF2DD380A1FD83C6AA5523F9167BBC56B8BD01CF423C2AB91DE5`
 SSDEEP | `24576:ptCozXii5OluefVVzYHJfbnVVCDNnnIUe:ioXpUbnMpfbnVsDd`
+IMP | `7B32C978BDFCAAC0B3E4EF13E86A55DD`
+PESHA1 | `41D1D06B1B5A54E1289474791DC273B64CB5DC7E`
+PE256 | `650B93221F0C832A195862EBEF4FE9939EC3FA57A638C913538A270C10849A4C`
 
 ## Runtime Data
 
@@ -67,7 +70,7 @@ Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
 See https://www.realvnc.com for information on VNC.
 For third party acknowledgements see:
 https://www.realvnc.com/docs/6.1/foss.html
-<11> 2020-08-30T21:21:12.134Z B6F9104F-5AA4-4 printerinst[6672]: PrinterInst: unexpected: Bad argument 'help'.  Run with -help for usage.
+<11> 2020-09-24T22:27:49.969Z 37AACD8D-548A-4 printerinst[6024]: PrinterInst: unexpected: Bad argument 'C:\temp\strontic-xcyclopedia\notepad.exe'.  Run with -help for usage.
 
 ```
 
@@ -75,7 +78,7 @@ https://www.realvnc.com/docs/6.1/foss.html
 
 Path |
 -- |
-C:\program files\RealVNC\VNC Server\Printer Driver\printerinst.exe |
+C:\Program Files\RealVNC\VNC Server\Printer Driver\printerinst.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -98,7 +101,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/b33d600b49cc070867d6c42b842a98aff7e1a8798a7f1087697f7da488cafdec/detection/
 
 
 

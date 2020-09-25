@@ -5,7 +5,7 @@ excerpt: What is UpdateMonitor.exe?
 
 # UpdateMonitor.exe 
 
-* File Path: `C:\program files\paint.net\UpdateMonitor.exe`
+* File Path: `C:\Program Files\paint.net\UpdateMonitor.exe`
 * Description: paint.net Update Monitor
 * Comments: Image and photo editing software.
 
@@ -20,23 +20,23 @@ SHA256 | `812E12F3467BF6F6FB43039C359B37FF5D75805CCB2ABAFD8CD13C061257D947`
 SHA384 | `E3B794E9528223CF4DB82ACAAF88195B32649B716344807B698AEB258912C4A11EF31C063A9FE8375F9D6826EA8A540C`
 SHA512 | `CB504842ADFA7DB2481502A45CE645D5CA512F41FA48986E25E86E952C4C0ED4EEC1FC772356AA84478CD9BAEC7CB7C2E6476EB07C6FB8E99A41CF110C1C6FB2`
 SSDEEP | `384:bxBMtukAft029l9bEip8ZpHqGb5hiiGy+D:F3029rbEipiR9riW+D`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `728B1B06C39B8AB91EF1EFA89D0F47908D31B942`
+PE256 | `263702E1B0D6CA7B34083A528E8F165D84E8D5E5D7228872E3429EA3E160471F`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-Command line is: "C:\program files\paint.net\UpdateMonitor.exe" --help
+Command line is: "C:\Program Files\paint.net\UpdateMonitor.exe" C:\temp\strontic-xcyclopedia\notepad.exe
 
 ```
-
-### Child Processes:
-Un_C.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\paint.net\UpdateMonitor.exe |
+C:\Program Files\paint.net\UpdateMonitor.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
@@ -64,7 +64,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 4.213.7521.38873
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020 dotPDN LLC, Rick Brewster, and contributors. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/812e12f3467bf6f6fb43039c359b37ff5d75805ccb2abafd8cd13c061257d947/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -97,8 +102,8 @@ File | Score
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\twain\twain.exe](twain.exe-C23997105AA15348BD1F1F6439E16E9A.md) | 27
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe](wavelet-decompose.exe-04FF2DBC3AC674E5494C51ECAD5710A6.md) | 29
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\web-browser\web-browser.exe](web-browser.exe-74EBC9205E8832310A6B4A34A1E09540.md) | 33
-[C:\program files\paint.net\PdnRepair.exe](PdnRepair.exe-0644EB64FE3FF3E2840FC380AE8480A8.md) | 60
-[C:\program files\paint.net\SetupNgen.exe](SetupNgen.exe-3A16E356C6CA089DCD45F877A9B89B68.md) | 44
+[C:\Program Files\paint.net\PdnRepair.exe](PdnRepair.exe-0644EB64FE3FF3E2840FC380AE8480A8.md) | 60
+[C:\Program Files\paint.net\SetupNgen.exe](SetupNgen.exe-3A16E356C6CA089DCD45F877A9B89B68.md) | 44
 
 
 

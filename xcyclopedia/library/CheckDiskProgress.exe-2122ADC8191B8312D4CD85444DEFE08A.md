@@ -75,8 +75,10 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-C0BDA5A51C2F39C0BC2DCA28846F9F7E.md) | 69
+[C:\Program Files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-C394F3E322E8D06A05F656B45DA8AF3B.md) | 68
 [C:\program files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-ED233C322F4EA703EAB82E15002428CF.md) | 69
 [C:\Program Files (x86)\Glary Utilities 5\x64\CheckDiskProgress.exe](CheckDiskProgress.exe-0ECF2A2DA0BFE7D7E6F0EED6B754783C.md) | 88
+[C:\Program Files (x86)\Glary Utilities 5\x64\CheckDiskProgress.exe](CheckDiskProgress.exe-95684DA4AEA28F92E87751023F129220.md) | 83
 
 
 

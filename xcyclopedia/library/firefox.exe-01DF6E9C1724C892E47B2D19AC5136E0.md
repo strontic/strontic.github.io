@@ -125,6 +125,7 @@ C:\Windows\System32\WINTRUST.dll |
 
 File | Score
 -- | --
+[C:\Program Files\Mozilla Firefox\firefox.exe](firefox.exe-2E9D3F170BE8451F3DAE9D0EB8EE2A6E.md) | 50
 [C:\Program Files\Mozilla Firefox\firefox.exe](firefox.exe-605A51655CD57013219EA9A2105AF410.md) | 50
 
 ## Possible Misuse

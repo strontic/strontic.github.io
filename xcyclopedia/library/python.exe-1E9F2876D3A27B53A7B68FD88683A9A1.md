@@ -51,6 +51,7 @@ No pyvenv.cfg file
 File | Score
 -- | --
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\venv\scripts\nt\python.exe](python.exe-A61E7FF77A4F06A1A88D812BC2A1DF9E.md) | 97
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\venv\scripts\nt\python.exe](python.exe-ADCC9178AE9761E395D2B184FE6BEE18.md) | 96
 
 ## Possible Misuse
 

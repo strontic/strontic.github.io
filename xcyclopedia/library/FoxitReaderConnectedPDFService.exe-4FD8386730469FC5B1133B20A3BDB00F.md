@@ -5,7 +5,7 @@ excerpt: What is FoxitReaderConnectedPDFService.exe?
 
 # FoxitReaderConnectedPDFService.exe 
 
-* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\FoxitReaderConnectedPDFService.exe`
+* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReaderConnectedPDFService.exe`
 * Description: Foxit Reader ConnectedPDF Windows Service.
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `30038EA26A0B58A4E4B42C3AEFEE0B9FE70F1793A820756234D1B277A29D6C74`
 SHA384 | `A653F3B8F2BBD1A2697FF0F9EF116C9934EA6F707A3DD383F2F4E664E2F4E376BE0AB934EB4DED4FF05164A96EDB5CD1`
 SHA512 | `DB185D52699CDC2CE316E732DE87FF0B9E3D9BCFB02846D0AF37D48703F6C3B5E400DAA829017BC6410F5809860F85E3500EF1EC8DD80D8E628D055C939539B1`
 SSDEEP | `49152:U0zD3H2Xi87PpM4PcxBMDR7Ucj67sGyRnjV:5zDGXn7PpvPABMDR7T67sGyR`
+IMP | `56BBFED3DB2BE99BE63E1A35F9DC3F56`
+PESHA1 | `4E6AB425C911F41EAE76223D04BC9DF6CFBEE9E0`
+PE256 | `FADA604B70AE928266BD14974D59B196BB7F33E6EEC0CCFE80A4671C3633915D`
 
 ## Runtime Data
 
@@ -30,24 +33,24 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\mswsock.dll.mui | File
 (RW-)   C:\ProgramData\Foxit Software\Foxit Reader\FoxitConnectPDF\ConnectPDFLocalDatabase.db | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Foxit Software\Foxit Reader\FoxitReaderConnectedPDFService.exe |
+C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReaderConnectedPDFService.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -71,7 +74,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.1.35811
 * Language: English (United States)
 * Legal Copyright: Copyright  2016-2020 Foxit Software Inc. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/30038ea26a0b58a4e4b42c3aefee0b9fe70f1793a820756234d1b277a29d6c74/detection/
 
 
 

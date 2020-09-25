@@ -5,7 +5,7 @@ excerpt: What is FoxitPreviewhost.exe?
 
 # FoxitPreviewhost.exe 
 
-* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe`
+* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe`
 * Description: Foxit PDF Preview Handler Host
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `FEF6C37E0B77810C48D36A9757A0AF0B2F8DE518487770010DC5CC233296AE53`
 SHA384 | `C4D0D96929C99820E828413FA2D1D6B6F99C7ADB11C2DF6810A0540B9DEDDC320152F6E65DE150BBDB28EC6FA94BBFC1`
 SHA512 | `397E3DE559A4ABC72816CB546D818D108A87714D6F0300F73E9EC3929B6E15799C2BE9E4160608C369A005B54500E296276281BB43654EE6ECEA511992775D19`
 SSDEEP | `3072:loSqyoPROt/Hv1uOihbXO0i+tpw2FqbDxjpbEQ6lEJ81RG:lo5HPROJP1Olf7au2W`
+IMP | `C3A01FE9CA99B78734D043A482F20CB9`
+PESHA1 | `34DE86E700BA9A48DE7B20829D64142F262D1606`
+PE256 | `379D85ECD5A5B252049E9214025740A5BCE12AB202002587BB6147EBB07A7216`
 
 ## Runtime Data
 
@@ -25,8 +28,8 @@ SSDEEP | `3072:loSqyoPROt/Hv1uOihbXO0i+tpw2FqbDxjpbEQ6lEJ81RG:lo5HPROJP1Olf7au2W
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -36,7 +39,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe |
+C:\Program Files (x86)\Foxit Software\Foxit Reader\Shell Extensions\FoxitPreviewhost.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -60,7 +63,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.0.6.411
 * Language: Language Neutral
 * Legal Copyright: Copyright  2005-2020 Foxit Software Inc. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/fef6c37e0b77810c48d36a9757a0af0b2f8de518487770010dc5cc233296ae53/detection/
 
 
 

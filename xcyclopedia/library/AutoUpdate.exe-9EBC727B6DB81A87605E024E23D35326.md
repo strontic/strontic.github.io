@@ -43,6 +43,7 @@ SSDEEP | `12288:QBhvKRuGiIGrm+Su8DzIr+EuK4LXJcgaSu:ui0GiIL+SPEuK4LXybSu`
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\AutoUpdate.exe](AutoUpdate.exe-8048161409846C49D68B61AB91551B3C.md) | 93
+[C:\Program Files (x86)\Glary Utilities 5\AutoUpdate.exe](AutoUpdate.exe-F93CAF4FCC37DB8039AFFFCE510B9E0A.md) | 96
 
 ## Possible Misuse
 

@@ -5,7 +5,7 @@ excerpt: What is cdda2wav.exe?
 
 # cdda2wav.exe 
 
-* File Path: `C:\program files\InfraRecorder\cdrtools\cdda2wav.exe`
+* File Path: `C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `E28AA3A998FB8D104DC5B053282EF0A3EE007D2791027870D1153F4AFC28C8D7`
 SHA384 | `DC147DAB3057D1EC1EE674762B7E9D08CA3C77DF7995AAEB3244B98401F00F082AADE6EAEC4CECBDDF8C548CBEB84E24`
 SHA512 | `8D9BF0C8CFA1518FD59F96081D5DD72288AB6139516EB7A50A285115E59FA58734494EA4906C375A2BB591F11EA5E73A9F7C0E7FA794CFA7060E1DC25BCE8DB9`
 SSDEEP | `6144:qHCnri5/0OIkorrR90YsqB8eSN8QMWVUbmstwW:ZnaH290YsqBaGwW`
+IMP | `35CBE833D22981286985C85235BC754A`
+PESHA1 | `B274B36A65B2D6F52936D56E8B3A3B9114CD86B0`
+PE256 | `E9CA5ACEBC9873089D9140DD7F181C554E45C17C9092EBCF590D5DFB60AF1DB3`
 
 ## Runtime Data
 
@@ -101,7 +104,7 @@ defaults	stereo, 16 bit, 44100.00 Hz, track 1, no offset, one track,
 
 Path |
 -- |
-C:\program files\InfraRecorder\cdrtools\cdda2wav.exe |
+C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -125,14 +128,19 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/e28aa3a998fb8d104dc5b053282ef0a3ee007d2791027870d1153f4afc28c8d7/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 29
-[C:\program files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 29
+[C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 29
+[C:\Program Files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 29
 
 
 

@@ -53,6 +53,7 @@ Error: No files found that match --help.
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\gsd.exe](gsd.exe-70F8CD1D70614D62259716CC5E0FFE17.md) | 85
+[C:\Program Files (x86)\Glary Utilities 5\gsd.exe](gsd.exe-E36B8304C25BB8B3150A443ADC28332C.md) | 83
 
 
 

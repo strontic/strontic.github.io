@@ -81,6 +81,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\RestoreCenter.exe](RestoreCenter.exe-1E33F934AF4D011481C3446B4100AE74.md) | 86
+[C:\Program Files (x86)\Glary Utilities 5\RestoreCenter.exe](RestoreCenter.exe-F41AA5C35D9FCE175DF7F2BDBC39E4ED.md) | 93
 
 
 

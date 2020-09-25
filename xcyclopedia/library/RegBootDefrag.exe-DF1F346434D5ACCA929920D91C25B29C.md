@@ -42,6 +42,7 @@ SSDEEP | `768:i+VxNxH8kZofpP6drxyUdMeKgrOxV1DGaUf2hd:jokQUieCV/Uf6`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x64\RegBootDefrag.exe](RegBootDefrag.exe-3A311BED1F44CD166139B6F5B486157C.md) | 90
 [C:\program files (x86)\Glary Utilities 5\Native\wxp_x64\RegBootDefrag.exe](RegBootDefrag.exe-6164C5D688112BCA1A12F2874DF59FE9.md) | 88
 
 

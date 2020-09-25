@@ -89,6 +89,11 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Legal Copyright: Giorgio Tani, LGPLv3
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\PeaZip\res\pea.exe](pea.exe-AC01E20BCDDC29CBCBDB880DF89AACE8.md) | 29
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is Evernote.exe?
 
 # Evernote.exe 
 
-* File Path: `C:\program files (x86)\Evernote\Evernote\Evernote.exe`
+* File Path: `C:\Program Files (x86)\Evernote\Evernote\Evernote.exe`
 * Description: Evernote
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `47F8271F2F6EAF39987DC966BB2D3BA22E6491DE316A2860F4071CA56DE8298A`
 SHA384 | `6671A4174D39333AF3812E4CC9413E7241940BEEEF084D0C444DE8241165DE608D9D127DDDB3DF570CCD0ECE51A3BD80`
 SHA512 | `5D42FA0E04C54ACBB2D98E7A5DA007F543F2F798F86F96D2716152E34DA62CD8B8A3462215B135D3DF15514E606C36F1FE0BD2B8BFC0DA4D3D4DB48453184CA2`
 SSDEEP | `393216:SPKZzhiINVPHCcdjs/KGIJqp7Oc+C5nj5QwWv:SS2INVPCGw/KG0ljw6`
+IMP | `97BCF5B2ACFD3F5CC92FA53B7FE987AB`
+PESHA1 | `27EECCB1A698CAED5642DFF83CDAA22F396E5EF6`
+PE256 | `588E4F9C81281984CDF212BD3D4182F6FBC9BB7A62B895743A3DD4403A32A5D3`
 
 ## Runtime Data
 
@@ -32,29 +35,29 @@ Evernote License Agreement
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\Evernote_exe_PID8592_2020830_175151012891c0.lock | File
+(R--)   C:\Users\user\AppData\Local\Temp\Evernote_exe_PID8584_2020924_18452700ccf9ff.lock | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\ntdll.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Users\user\Evernote\Logs\AppLog_2020-08-30.txt | File
+(RW-)   C:\Users\user\Evernote\Logs\AppLog_2020-09-24.txt | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\ENInstancesSM | Section
 \Sessions\1\BaseNamedObjects\ENLogListener | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Evernote\Evernote\Evernote.exe |
+C:\Program Files (x86)\Evernote\Evernote\Evernote.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -79,7 +82,12 @@ C:\Windows\System32\wow64win.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Evernote Corporation.
 All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/47f8271f2f6eaf39987dc966bb2d3ba22e6491de316a2860f4071ca56de8298a/detection/
 
 
 ## Possible Misuse

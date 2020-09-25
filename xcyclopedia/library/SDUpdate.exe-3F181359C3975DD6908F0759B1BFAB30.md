@@ -5,7 +5,7 @@ excerpt: What is SDUpdate.exe?
 
 # SDUpdate.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDUpdate.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDUpdate.exe`
 * Description: Update
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `EB70D40988AAC997CD83D017E6615541B2B221CDA02AF95A5336664BA7294196`
 SHA384 | `8C3D8A6E21B94A1722D4CC157F761783F8962CD23CA6A54A66623447D71BB63795B0077F202D26BDD530E0D368EE958D`
 SHA512 | `13ABF1A0EFB4616B47A4F8D3FD5AE04589CF25566CB86C78D65DC0C6CFC6B3D0F4C9E24CD96A4259B005E41B75358D9342E46548E75815F37EB4F4B73FF92000`
 SSDEEP | `98304:bYtfeA4W0ibP7ey5a60ZHkKFNWfNUhB6F12vvjAL5/iqt2iZ:FAHbPqy5azYNcB6zUMZMM`
+IMP | `FF06F9C4D8FFF68B478EDA8F25B7020B`
+PESHA1 | `1DC422EDA0F50775E8944939A44689A2EC63BFD0`
+PE256 | `35C018C10C134F83F73D0166CDAEBEBB0AD02A7B931B9FD7FF7933666D583810`
 
 ## Runtime Data
 
@@ -33,10 +36,10 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df\comctl32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_130e63d987a738df | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\xCyclopedia | File
 (RWD)   C:\Users\user\AppData\Roaming\Microsoft\SystemCertificates\My | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
@@ -52,15 +55,15 @@ Path | Type
 \Sessions\1\BaseNamedObjects\MMF.Spybot2.Updates.Status.Localized | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDUpdate.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDUpdate.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -84,33 +87,38 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2000-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/eb70d40988aac997cd83d017e6615541b2b221cda02af95a5336664ba7294196/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Spybot - Search & Destroy 2\explorer.exe](explorer.exe-93C039905E587E60842D0C8FF2E8988E.md) | 33
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDBootCD.exe](SDBootCD.exe-4DB104C5B1742B2061E48D26C11837B1.md) | 40
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDCleaner.exe](SDCleaner.exe-0FDE330837830102673073FA4C5EEAD7.md) | 38
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDFiles.exe](SDFiles.exe-D4973562BFA8E178EF72A8816C1C5557.md) | 33
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDHelp.exe](SDHelp.exe-D1B3480B016A952C6A7C683E453B3C7C.md) | 33
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDImmunize.exe](SDImmunize.exe-CF037C5A2A24E2517091D8D701AFF037.md) | 30
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDLogReport.exe](SDLogReport.exe-E0E49C7329EECC60EE907A5E7725A737.md) | 38
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDPEStart.exe](SDPEStart.exe-ED943067AF3C2B31F9D56415A64029A5.md) | 40
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDPhoneScan.exe](SDPhoneScan.exe-D053AED7F467E45FE3B0FA58D82DAEAC.md) | 40
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDPrepPos.exe](SDPrepPos.exe-7822DAFEB5D90E81D53E50B3A8BF97E0.md) | 35
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDQuarantine.exe](SDQuarantine.exe-498015661C0E7B197ED3DB62D03DBF85.md) | 32
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDRootAlyzer.exe](SDRootAlyzer.exe-47F02E23C6EDEA58DA2CC0CA8F67828D.md) | 30
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDSBIEdit.exe](SDSBIEdit.exe-9766A0E790E3F17BC61C42956183F405.md) | 35
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDScan.exe](SDScan.exe-93C039905E587E60842D0C8FF2E8988E.md) | 33
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDScript.exe](SDScript.exe-E1117C0FFF026B3CF51990E2A6F474E6.md) | 30
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDSettings.exe](SDSettings.exe-4ACDC47B703A0C390C92B4F85A75E3F8.md) | 32
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDShred.exe](SDShred.exe-21F7D3606C1BF53FF51CBE07AC0065FA.md) | 41
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDSysRepair.exe](SDSysRepair.exe-2EC096C12C9FB5B922CB4307EF76DE13.md) | 35
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDTools.exe](SDTools.exe-F32C4CF34160CF485D41FA4241DA27EC.md) | 29
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDTray.exe](SDTray.exe-06B43CB00B61BE55B6D100B15EDFBC39.md) | 33
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDWelcome.exe](SDWelcome.exe-333F7FE978921B78A38EDF043AB0C1CA.md) | 30
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\explorer.exe](explorer.exe-93C039905E587E60842D0C8FF2E8988E.md) | 33
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDBootCD.exe](SDBootCD.exe-4DB104C5B1742B2061E48D26C11837B1.md) | 40
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDCleaner.exe](SDCleaner.exe-0FDE330837830102673073FA4C5EEAD7.md) | 38
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDFiles.exe](SDFiles.exe-D4973562BFA8E178EF72A8816C1C5557.md) | 33
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHelp.exe](SDHelp.exe-D1B3480B016A952C6A7C683E453B3C7C.md) | 33
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDImmunize.exe](SDImmunize.exe-CF037C5A2A24E2517091D8D701AFF037.md) | 30
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDLogReport.exe](SDLogReport.exe-E0E49C7329EECC60EE907A5E7725A737.md) | 38
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDPEStart.exe](SDPEStart.exe-ED943067AF3C2B31F9D56415A64029A5.md) | 40
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDPhoneScan.exe](SDPhoneScan.exe-D053AED7F467E45FE3B0FA58D82DAEAC.md) | 40
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDPrepPos.exe](SDPrepPos.exe-7822DAFEB5D90E81D53E50B3A8BF97E0.md) | 35
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDQuarantine.exe](SDQuarantine.exe-498015661C0E7B197ED3DB62D03DBF85.md) | 32
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDRootAlyzer.exe](SDRootAlyzer.exe-47F02E23C6EDEA58DA2CC0CA8F67828D.md) | 30
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDSBIEdit.exe](SDSBIEdit.exe-9766A0E790E3F17BC61C42956183F405.md) | 35
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDScan.exe](SDScan.exe-93C039905E587E60842D0C8FF2E8988E.md) | 33
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDScript.exe](SDScript.exe-E1117C0FFF026B3CF51990E2A6F474E6.md) | 30
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDSettings.exe](SDSettings.exe-4ACDC47B703A0C390C92B4F85A75E3F8.md) | 32
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDShred.exe](SDShred.exe-21F7D3606C1BF53FF51CBE07AC0065FA.md) | 41
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDSysRepair.exe](SDSysRepair.exe-2EC096C12C9FB5B922CB4307EF76DE13.md) | 35
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDTools.exe](SDTools.exe-F32C4CF34160CF485D41FA4241DA27EC.md) | 29
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDTray.exe](SDTray.exe-06B43CB00B61BE55B6D100B15EDFBC39.md) | 33
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDWelcome.exe](SDWelcome.exe-333F7FE978921B78A38EDF043AB0C1CA.md) | 30
 
 
 

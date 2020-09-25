@@ -47,6 +47,8 @@ SSDEEP | `768:Sygex7DOKjVVVVVVVVkZIOzYzz+zz4zzzszzz3zzzTZzzzjzzzzfzzzzgzzzzPzu:3
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-49C40981F711E83777816DAEA71AF2D6.md) | 96
+[C:\Program Files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-9F02F3CD1EE1E26FC53115E0E7089BDD.md) | 97
+[C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-54C83AE9F55B299D7AEC2B59ACF4E688.md) | 41
 [C:\program files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-A364BDE5FD75712D95F1772396F08C28.md) | 41
 [C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-B0CCA5153453B97D382000262F713E0A.md) | 43
 

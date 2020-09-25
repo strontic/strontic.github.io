@@ -69,6 +69,11 @@ C:\Windows\System32\ucrtbase.dll |
 * Legal Copyright:  2000-2020 Apple Inc. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\iTunes\iTunesHelper.exe](iTunesHelper.exe-20E702A75DC25E28EEE0047668B27811.md) | 66
 
 
 

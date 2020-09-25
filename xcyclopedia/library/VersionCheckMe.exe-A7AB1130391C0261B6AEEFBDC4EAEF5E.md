@@ -71,6 +71,7 @@ File | Score
 -- | --
 [C:\program files (x86)\Common Files\Apple\Apple Application Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 36
 [C:\program files (x86)\Common Files\Apple\Apple Application Support\plutil.exe](plutil.exe-7B40123D5C077F3BE9511A7507990A9C.md) | 38
+[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 36
 [C:\program files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-220A1A86EC8E4B9159C075BC8B55B998.md) | 43
 
 

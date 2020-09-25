@@ -42,6 +42,7 @@ SSDEEP | `3072:T1kmHv3g0DQ/sHKyMUyjknO0rpKXnVgwqUaVpp:Zv3g0sUHcUfO0l2qU6`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Initialize.exe](Initialize.exe-7511532801542AAE6C31871614B53872.md) | 93
 [C:\program files (x86)\Glary Utilities 5\Initialize.exe](Initialize.exe-EA2C6AEB03E449D1948991332A3BE9EE.md) | 93
 
 ## Possible Misuse

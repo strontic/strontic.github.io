@@ -5,7 +5,7 @@ excerpt: What is jabswitch.exe?
 
 # jabswitch.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe`
 * Description: OpenJDK Platform binary
 * Comments: Java Access Bridge
 
@@ -20,6 +20,9 @@ SHA256 | `A54268A88DD991D930CDBE91247DE502E0D055E6B7B9DBF20F9E6A902832470B`
 SHA384 | `6A0BFF8C8FCCB9BCB495665CC11207CD0CA4AC823BE04DEAB455CEADF50471CAC5CB31C1C4F801FA45069507239F9E64`
 SHA512 | `FDA7CCD75D8FDE76A2F3C476278BC74957215317618F37501DAA20F71F7FCE924A67E7A4452A5FAC1B44E46A6DFD1A4F3E1A63CFC3CFBFD6D7CC21D05E016470`
 SSDEEP | `768:+D5g122o9XtH0t5ZHFHUow+nZw//fPD0bKg6Uf2hw:I5g1UrH0PZlHUow+nAPD0b0Uf5`
+IMP | `4E0EB6FD80F520CB51E94548BC312D9F`
+PESHA1 | `9E97D3260B0F9DBCFD17FDEA42E06FF1C9956A8A`
+PE256 | `F25270EFE8F5A8042E09BC9BFBC7292A43EA52BF2D6452E3AE8AE6F6F0B695E4`
 
 ## Runtime Data
 
@@ -52,7 +55,7 @@ Note:
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe |
+C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -75,15 +78,20 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: English (United States)
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/a54268a88dd991d930cdbe91247de502e0d055e6b7b9dbf20f9e6a902832470b/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstat.exe](jstat.exe-667252B3D687876CE357538652F3779E.md) | 30
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe](jabswitch.exe-D93F83785CC0A8DB3B18AB9159B30A2E.md) | 94
-[C:\program files\Amazon Corretto\jre8\bin\jabswitch.exe](jabswitch.exe-C40ED818AB83E7E51F95F3B491870F2C.md) | 91
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe](jabswitch.exe-D93F83785CC0A8DB3B18AB9159B30A2E.md) | 94
+[C:\Program Files\Amazon Corretto\jre8\bin\jabswitch.exe](jabswitch.exe-C40ED818AB83E7E51F95F3B491870F2C.md) | 91
 
 
 

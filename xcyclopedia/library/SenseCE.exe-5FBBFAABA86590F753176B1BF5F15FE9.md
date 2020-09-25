@@ -55,6 +55,11 @@ C:\Windows\System32\ucrtbase.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe](SenseCE.exe-30259C1A23F104C673021F3D2081A360.md) | 72
 
 
 

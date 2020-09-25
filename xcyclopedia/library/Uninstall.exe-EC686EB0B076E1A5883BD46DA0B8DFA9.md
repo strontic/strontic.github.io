@@ -5,7 +5,7 @@ excerpt: What is Uninstall.exe?
 
 # Uninstall.exe 
 
-* File Path: `C:\program files (x86)\MusicBee\Uninstall.exe`
+* File Path: `C:\Program Files (x86)\MusicBee\Uninstall.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `7D036BE30EF5E21750ADA057A8392D6E80CAEE23B30F6C6BD982671C529C7D2F`
 SHA384 | `17097F4BFB41E04C69129BBA22EF5EC578674961B221F5367BD04894C30854F16ABBDF1D1D947DBD29FAB9634EC75D3D`
 SHA512 | `1BB0B19201DB9B75833478FA8EAA887775969D372D9C7DA70D8BFD190E7116137AAF535521B25B10865B35C52F44AEFF01C86360C129834D5DCAD3DED755F593`
 SSDEEP | `1536:cJKZmarH2YPdBEUFsBo+ErnvcArSU1vePHaj:cQZmPYFFiorvcrUpie`
+IMP | `7C2C71DFCE9A27650634DC8B1CA03BF0`
+PESHA1 | `EEDC16E5083D1048293DAA01861AE2F54E4D0DA0`
+PE256 | `585C7627A0FAEF1C4381149930F584418F2819DC02B325DFF887CA352C6A24AE`
 
 ## Runtime Data
 
@@ -27,7 +30,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files (x86)\MusicBee\Uninstall.exe |
+C:\Program Files (x86)\MusicBee\Uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -36,7 +39,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\MusicBee\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\MusicBee\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -51,7 +54,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/7d036be30ef5e21750ada057a8392d6e80caee23b30f6c6bd982671c529c7d2f/detection/
 
 
 ## Possible Misuse

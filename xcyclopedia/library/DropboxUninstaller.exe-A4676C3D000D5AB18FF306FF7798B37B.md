@@ -54,6 +54,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright:  Dropbox, Inc.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Dropbox\Client\DropboxUninstaller.exe](DropboxUninstaller.exe-B5B1DABDBF83646B60F0B496886B83C6.md) | 90
 
 
 

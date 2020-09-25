@@ -5,7 +5,7 @@ excerpt: What is psftp.exe?
 
 # psftp.exe 
 
-* File Path: `C:\program files\PuTTY\psftp.exe`
+* File Path: `C:\Program Files\PuTTY\psftp.exe`
 * Description: Command-line interactive SFTP client
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `04991D8689840DA842A38CF47A184908D679C85120ED642633112840428008DB`
 SHA384 | `806F41B87AEA4B7A04F0BCF5E8B9B225245CF5315B887F777890A08746A88FE8A3FB959A302C113ECA4F2EAB87040462`
 SHA512 | `B55F1DDA7FB2E610909BCFAB1007BBCFB0CDD99E87CD47360B1CB3458B07A0406C7579FB6C9A1B9F78B06005B3FB1C93D3E07D502375151B09343FCCD3B7BA10`
 SSDEEP | `12288:3RqFQ6UPONcezHgNcGpRrQIf+62sX4NZs1YzY4K:0FQ6UqzAyKg62ZNZs1YW`
+IMP | `470AD2D172B4461A335182DF8B98A31A`
+PESHA1 | `9626A0C11400D33EF11F6AF6C22E18186E476B7F`
+PE256 | `80288B7E9DCCC759F69A8D4B9CF9B2E921957662B317DA14235DD657A26CE67F`
 
 ## Runtime Data
 
@@ -65,11 +68,21 @@ psftp: unknown option "-help"
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\xCyclopedia | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\PuTTY\psftp.exe |
+C:\Program Files\PuTTY\psftp.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -92,7 +105,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/04991d8689840da842a38cf47a184908d679c85120ed642633112840428008db/detection/
 
 
 

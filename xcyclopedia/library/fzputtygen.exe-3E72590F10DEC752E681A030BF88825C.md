@@ -60,7 +60,7 @@ conhost.exe
 
 File | Score
 -- | --
-[C:\program files\FileZilla FTP Client\fzputtygen.exe](fzputtygen.exe-FC5E111D30C61492A7CE907BDD3E69E8.md) | 91
+[C:\Program Files\FileZilla FTP Client\fzputtygen.exe](fzputtygen.exe-FC5E111D30C61492A7CE907BDD3E69E8.md) | 91
 
 
 

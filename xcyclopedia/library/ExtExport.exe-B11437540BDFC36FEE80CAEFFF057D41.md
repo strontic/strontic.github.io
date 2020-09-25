@@ -5,7 +5,7 @@ excerpt: What is ExtExport.exe?
 
 # ExtExport.exe 
 
-* File Path: `C:\program files\Internet Explorer\ExtExport.exe`
+* File Path: `C:\Program Files\Internet Explorer\ExtExport.exe`
 * Description: Internet Explorer ImpExp FF exporter
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `EDC454BCA93A7D41D193A59953BDE82766FC6874345A71BEA2A8C52E71D06E29`
 SHA384 | `38934CA37FEB702F3BA7D943E7EB49F36C1AC8A29462106D17E4AB447FD3A1440B949B308AF097366C0C70D166DD611C`
 SHA512 | `8BDCB574DBD83E805E101E325B081E1ABE19078ACF1679BF6167041476A1AFB4FE813B1B1F5D6DD6C97B4B1C2D659425232AE699DD26ABB7945B8F7AB0096433`
 SSDEEP | `1536:uMzsdDPVEPBLllUau56M+gQFafuVHVcCU+Mv3+3xbKZ/nMsQt1TZ/I8PScMI:uM4dDVEjlUau56M+gQ3HO7+Mv3+3xbKo`
+IMP | `9F19CF94DB3339462A59D9352CFE30B0`
+PESHA1 | `1A678C7DB2FBC9A30F96547EF1AF905F60D21394`
+PE256 | `9EA77BDDCE763434180573FAEAF3D1F9687ECBF37B50941E5B6145E8F3C4CD72`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `1536:uMzsdDPVEPBLllUau56M+gQFafuVHVcCU+Mv3+3xbKZ/nMsQt1TZ/I8PScMI:uM4d
 
 Path |
 -- |
-C:\program files\Internet Explorer\ExtExport.exe |
+C:\Program Files\Internet Explorer\ExtExport.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -34,13 +37,14 @@ C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
 
 
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -53,13 +57,18 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 11.00.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/edc454bca93a7d41d193a59953bde82766fc6874345a71bea2a8c52e71d06e29/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-3253FD643C51C133C3489A146781913B.md) | 38
+[C:\Program Files (x86)\Internet Explorer\ExtExport.exe](ExtExport.exe-3253FD643C51C133C3489A146781913B.md) | 38
 
 ## Possible Misuse
 

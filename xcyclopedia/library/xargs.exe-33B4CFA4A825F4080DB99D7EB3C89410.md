@@ -159,11 +159,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\xargs.exe](xargs.exe-33B4CFA4A825F4080DB99D7EB3C89410.md) | 100
 
 ## Possible Misuse
 

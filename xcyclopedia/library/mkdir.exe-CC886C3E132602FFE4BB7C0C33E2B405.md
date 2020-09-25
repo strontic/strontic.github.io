@@ -79,11 +79,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\mkdir.exe](mkdir.exe-CC886C3E132602FFE4BB7C0C33E2B405.md) | 100
 
 ## Possible Misuse
 

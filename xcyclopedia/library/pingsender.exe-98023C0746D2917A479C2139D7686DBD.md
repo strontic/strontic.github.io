@@ -41,6 +41,7 @@ SSDEEP | `1536:o6dBxbYnvXJsIiVFMxVK2/EpMnToIfw7IIxv:RBuvXJN5/E+TBfw7I0`
 
 File | Score
 -- | --
+[C:\Program Files\Mozilla Thunderbird\pingsender.exe](pingsender.exe-51849446729CCD17336B59B2EB761A84.md) | 86
 [C:\program files\Mozilla Thunderbird\pingsender.exe](pingsender.exe-ECD20B034E0BC05C9B704BAEE61D3E3F.md) | 86
 
 

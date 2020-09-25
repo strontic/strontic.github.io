@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files (x86)\Steam\uninstall.exe`
+* File Path: `C:\Program Files (x86)\Steam\uninstall.exe`
 * Description: Steam
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `8F648DF6A34445236155B2094905D1FB142E3F9CC314781C4361CF3C052E77F6`
 SHA384 | `6A9ECFD4B2174600F681688FCE6551FB2407DC2EEADF1DBBACD9A6AA46E644F5EAEC85B771A9BF0B64249093F66C90D7`
 SHA512 | `DBC86E084312F9F22A1703965AE4B52FE00AFFF908B9FD01FF7D86A24B0B4F91EABE5FAB45C91E44819D7EC7CA241281E759064549F9C2CB74AE93418C8A9C78`
 SSDEEP | `1536:BMaAWOz2YOFw3ae4ptaq5qHSlTBuw+I/JFOh5N/Lq33TguZ5Kse85JqeITwr/QCe:BAe+3aJpgWXTBuA/JFONMVHdrFqbvLl`
+IMP | `4EA4DF5D94204FC550BE1874E1B77EA7`
+PESHA1 | `926A8E90CF8DDCFB834FE256EAF24F8735B98180`
+PE256 | `E5F8524264FCC709B7AC12AB42058B37B50E10339CA10BFBF10919280D85AE24`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files (x86)\Steam\uninstall.exe |
+C:\Program Files (x86)\Steam\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -52,13 +55,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright:  Valve Corporation
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8f648df6a34445236155b2094905d1fb142e3f9cc314781c4361cf3c052e77f6/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe](Uninstall.exe-1596AE0C176AF0CF55B805E22D0AD364.md) | 38
+[C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe](Uninstall.exe-1596AE0C176AF0CF55B805E22D0AD364.md) | 38
 
 ## Possible Misuse
 

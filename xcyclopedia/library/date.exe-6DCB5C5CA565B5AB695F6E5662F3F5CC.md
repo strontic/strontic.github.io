@@ -165,11 +165,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\date.exe](date.exe-6DCB5C5CA565B5AB695F6E5662F3F5CC.md) | 100
 
 
 ## Additional Info*

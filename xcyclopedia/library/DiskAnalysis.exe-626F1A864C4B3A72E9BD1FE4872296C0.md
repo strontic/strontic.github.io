@@ -94,6 +94,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\DiskAnalysis.exe](DiskAnalysis.exe-DCFE500A9617530CADA595E96C90E80B.md) | 96
+[C:\Program Files (x86)\Glary Utilities 5\DiskAnalysis.exe](DiskAnalysis.exe-FDF3C573E937EB183C8C610CB28AE8CE.md) | 96
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is filezilla.exe?
 
 # filezilla.exe 
 
-* File Path: `C:\program files\FileZilla FTP Client\filezilla.exe`
+* File Path: `C:\Program Files\FileZilla FTP Client\filezilla.exe`
 * Description: FileZilla FTP Client
 * Comments: Version 3.50.0
 
@@ -25,48 +25,74 @@ SHA256 | `557C627868C7FD1D1B4D570420B9691E68EE6235B1B02361A8FDCAF3B0C0D2E1`
 SHA384 | `7312F9429A37AEC37953DB9BEFA401DD7E27B4675C5BB07CBDB7BC93CA8B8D66D0EBDFEB75550B70712F8BC3B648F4FC`
 SHA512 | `9B768DBE7B57D26DE3DB4DFF573DB2F4B4B3377518E4FCCEE1ADC375C49E1381537E09DF7DB6A8919274DA6DEF07703EEC02752CC063C7D330DAE6A438E10092`
 SSDEEP | `98304:pwODZX45hyOEs8zdO64rjXLD8wVNcM8yMgBp6/gUheg:CODMZSO66LnVJ8deg`
+IMP | `73CB9419A2A4590062FBEC0430B712F1`
+PESHA1 | `8DC0D2C1293A6C05FDCF292C660342DD78962B09`
+PE256 | `947F1029981564EECC6404B88798DA08D0524F979BFB5030D088F3912CDC9E0F`
 
 ## Runtime Data
 
 ### Window Title:
-Filezilla
+FileZilla
 
 ### Open Handles:
 
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
+(R-D)   C:\Windows\System32\en-US\duser.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\shell32.dll.mui | File
+(R-D)   C:\Windows\System32\en-US\windows.storage.dll.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
+(RW-)   C:\Users\user\AppData\Roaming\FileZilla\queue.sqlite3 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9625_none_08e1c10da83fbc83 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+\BaseNamedObjects\__ComCatalogCache__ | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\BaseNamedObjects\12a4HWNDInterface:1607f6 | Section
+\Sessions\1\BaseNamedObjects\12a4HWNDInterface:1a07f2 | Section
+\Sessions\1\BaseNamedObjects\12a4HWNDInterface:2007fa | Section
+\Sessions\1\BaseNamedObjects\12a4HWNDInterface:5083e | Section
+\Sessions\1\BaseNamedObjects\12a4HWNDInterface:5087a | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\FileZilla FTP Client\filezilla.exe |
-C:\program files\FileZilla FTP Client\libfilezilla-9.dll |
-C:\program files\FileZilla FTP Client\libgcc_s_seh-1.dll |
-C:\program files\FileZilla FTP Client\libgmp-10.dll |
-C:\program files\FileZilla FTP Client\libgnutls-30.dll |
-C:\program files\FileZilla FTP Client\libhogweed-6.dll |
-C:\program files\FileZilla FTP Client\libnettle-8.dll |
-C:\program files\FileZilla FTP Client\libpng16-16.dll |
-C:\program files\FileZilla FTP Client\libsqlite3-0.dll |
-C:\program files\FileZilla FTP Client\libstdc++-6.dll |
-C:\program files\FileZilla FTP Client\zlib1.dll |
+C:\Program Files\FileZilla FTP Client\filezilla.exe |
+C:\Program Files\FileZilla FTP Client\libfilezilla-9.dll |
+C:\Program Files\FileZilla FTP Client\libgcc_s_seh-1.dll |
+C:\Program Files\FileZilla FTP Client\libgmp-10.dll |
+C:\Program Files\FileZilla FTP Client\libgnutls-30.dll |
+C:\Program Files\FileZilla FTP Client\libhogweed-6.dll |
+C:\Program Files\FileZilla FTP Client\libnettle-8.dll |
+C:\Program Files\FileZilla FTP Client\libpng16-16.dll |
+C:\Program Files\FileZilla FTP Client\libsqlite3-0.dll |
+C:\Program Files\FileZilla FTP Client\libstdc++-6.dll |
+C:\Program Files\FileZilla FTP Client\zlib1.dll |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\BCRYPT.DLL |
+C:\Windows\System32\bcryptprimitives.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\comdlg32.dll |
 C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MPR.dll |
@@ -76,6 +102,7 @@ C:\Windows\SYSTEM32\ncrypt.dll |
 C:\Windows\SYSTEM32\NETAPI32.dll |
 C:\Windows\SYSTEM32\NETUTILS.DLL |
 C:\Windows\System32\Normaliz.dll |
+C:\Windows\SYSTEM32\NTASN1.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
@@ -87,11 +114,12 @@ C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\SYSTEM32\SRVCLI.DLL |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\SYSTEM32\UMPDC.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\SYSTEM32\WINMM.dll |
 C:\Windows\System32\WS2_32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -111,7 +139,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 3, 50, 0, 0
 * Language: Language Neutral
 * Legal Copyright: Copyright (C) 2006-2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/65
+* VirusTotal Link: https://www.virustotal.com/gui/file/557c627868c7fd1d1b4d570420b9691e68ee6235b1b02361a8fdcaf3b0c0d2e1/detection/
 
 
 

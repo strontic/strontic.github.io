@@ -5,7 +5,7 @@ excerpt: What is javaw.exe?
 
 # javaw.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe`
 * Description: OpenJDK Platform binary
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `39CA1BC01FF229C7F22718D0161622760E8B617A43FD904E6BF007C495A0E467`
 SHA384 | `378E3328733C70C9E76AAA0BF33780B3BADEE73658B05363DE21F1A34C04A68CD00D03905A40521E3882497895EC56F7`
 SHA512 | `C8005890B9BA0A26809941508EFFED0D96FC3F3F19B04773DE14A037A6593535FB37B31995F3D43E83DFDA592785A5A63F0DDB65EE9DAF1B385C404D832F7468`
 SSDEEP | `6144:goYCzfmQKiU/HTj2JDOHfFsozseI9TB9naZ67k/iAK:govzfm1ikSD4tZI9Tfc1KAK`
+IMP | `0F5CC683FA39EDBE3CA8321B37BF56BC`
+PESHA1 | `84D16B01A57D47A4656EAD27B71618807C6DBE86`
+PE256 | `EF9C3B2ECA8DD5D7A247090C9BFCED8EF22B9AC041E9734046B003E7425E77D5`
 
 ## Runtime Data
 
@@ -89,19 +92,19 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\javaw.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
@@ -134,14 +137,19 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/39ca1bc01ff229c7f22718d0161622760e8b617a43fd904e6bf007c495a0e467/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-725B4D061520D66C1A34A12C66659D00.md) | 96
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-6EF1E54DE872CC3F595E8F0CA1EF4873.md) | 96
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-725B4D061520D66C1A34A12C66659D00.md) | 96
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaw.exe](javaw.exe-6EF1E54DE872CC3F595E8F0CA1EF4873.md) | 96
 
 ## Possible Misuse
 

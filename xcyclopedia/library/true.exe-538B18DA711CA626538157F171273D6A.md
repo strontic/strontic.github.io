@@ -73,9 +73,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cat.exe](cat.exe-D0C2FEA7B52D7E0648BD17A8E7AFC27C.md) | 41
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\false.exe](false.exe-024D20E116CD9C5BF6FF35EB02E8D599.md) | 88
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\true.exe](true.exe-538B18DA711CA626538157F171273D6A.md) | 100
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cat.exe](cat.exe-D0C2FEA7B52D7E0648BD17A8E7AFC27C.md) | 41
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\false.exe](false.exe-024D20E116CD9C5BF6FF35EB02E8D599.md) | 88
 
 
 

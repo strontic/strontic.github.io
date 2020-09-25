@@ -5,7 +5,7 @@ excerpt: What is mpc-hc64.exe?
 
 # mpc-hc64.exe 
 
-* File Path: `C:\program files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe`
+* File Path: `C:\Program Files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe`
 * Description: MPC-HC
 * Comments: Based on the original Media Player Classic v6.4.9.0  Gabest
 
@@ -25,33 +25,40 @@ SHA256 | `755438F0EB59B8884AAA6205E832F3A348013AFEF254B41FE9F396145EC9EA2D`
 SHA384 | `DB39C4467B669DC2027AA857B6C46FE35A04AFB9B187CE2680AD41DFC45655D9D06FC4CB07B298A02DF82D0313905AF3`
 SHA512 | `93EFE07C30EE87281447811566FA7D7048D6968FCACD9338F5F87442CF4713DEAE9F986E4C8A63B14F734D6A5D4F6FBD25742352B0F06B76BBF2A6D7D737FEDB`
 SSDEEP | `98304:t2ev2FLl89zqO7tzt8/W7ATzg3sSCTy0/SEGrX/VcwDrzbeew18DdRbbN:t2RlwXxyO7JJ0ab9pz`
+IMP | `2C45DD29F2B0E3A56EF700E975786A42`
+PESHA1 | `2632B5B016F37F0D15722E1D918FB5C01F1149D2`
+PE256 | `4B5DFD1DF56FAF6AAD7AC84A1C7D49BADFA87622792B012D3B8BF8B604E52EEE`
 
 ## Runtime Data
 
 ### Window Title:
-Command line help
+Media Player Classic Home Cinema
 
 ### Open Handles:
 
 Path | Type
 -- | --
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
+(R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (RW-)   C:\Program Files\Combined Community Codec Pack 64bit\MPC | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
 (RWD)   C:\Windows\Fonts\StaticCache.dat | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\BaseNamedObjects\6c8HWNDInterface:307ea | Section
+\Sessions\1\BaseNamedObjects\6c8HWNDInterface:30806 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe |
+C:\Program Files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe |
 C:\Windows\SYSTEM32\AcGenral.DLL |
 C:\Windows\SYSTEM32\AcLayers.DLL |
 C:\Windows\System32\ADVAPI32.dll |
@@ -92,13 +99,13 @@ C:\Windows\SYSTEM32\WINMM.dll |
 C:\Windows\SYSTEM32\winmmbase.dll |
 C:\Windows\SYSTEM32\WINSPOOL.DRV |
 C:\Windows\System32\WS2_32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\COMCTL32.dll |
-C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_fae7a009761b0b44\gdiplus.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e\gdiplus.dll |
 
 
 ## Signature
 
-* Status: The file C:\program files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\Combined Community Codec Pack 64bit\MPC\mpc-hc64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -113,7 +120,12 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 * Product Version: 1.7.8.162 (ff72737) (blitzkrieg) (master@46ce9d6)
 * Language: English (United States)
 * Legal Copyright: Copyright  2002-2015 all contributors, see Authors.txt
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/755438f0eb59b8884aaa6205e832f3a348013afef254b41fe9f396145ec9ea2d/detection/
 
 
 

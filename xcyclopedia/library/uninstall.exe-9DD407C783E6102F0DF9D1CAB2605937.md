@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files\FileZilla FTP Client\uninstall.exe`
+* File Path: `C:\Program Files\FileZilla FTP Client\uninstall.exe`
 * Description: FileZilla FTP Client
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `92EADCB23526D090167D63CEA53531F5506A69C581786C8DBD7E822E538E6F84`
 SHA384 | `4968F1AB61CD296AAA9C01CC92FB34766BF9AA32BFCB8F65225B5F684BE3F5A04F096E8638267E3B2E557E96B8632DCE`
 SHA512 | `8FBC954724CBA3DCE19217886386E366B401DDF90E3BA285E01D3BAC8E86C1D15DE788447CE8C78E197C043DC959367753B25C8E9E45FC29E13F8CE020EC146E`
 SSDEEP | `3072:bMYwWTxwSY46ulPsvbu2xXGGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGQUQQ5:QR+xX1PabueGGGGGGGGHGGGGGGGGGGGy`
+IMP | `1F23F452093B5C1FF091A2F9FB4FA3E9`
+PESHA1 | `n/a`
+PE256 | `n/a`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files\FileZilla FTP Client\uninstall.exe |
+C:\Program Files\FileZilla FTP Client\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -37,7 +40,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files\FileZilla FTP Client\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\FileZilla FTP Client\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -52,7 +55,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 3.50.0
 * Language: English (United States)
 * Legal Copyright: Tim Kosse
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/92eadcb23526d090167d63cea53531f5506a69c581786c8dbd7e822e538e6f84/detection/
 
 ## File Similarity (ssdeep match)
 

@@ -42,6 +42,7 @@ SSDEEP | `6144:ZUqgryLbKTJd9V7HAtAZPQt6VV6oWcqJrKGzmR9pU9YdFiVQ:ZOawqtAZPQt6VV6o
 File | Score
 -- | --
 [C:\program files\Mozilla Thunderbird\minidump-analyzer.exe](minidump-analyzer.exe-3359FF50F7D222016CD8D368ADA4C3F4.md) | 94
+[C:\Program Files\Mozilla Thunderbird\minidump-analyzer.exe](minidump-analyzer.exe-C34B4D684CA0A901BA15350189D06743.md) | 94
 
 
 

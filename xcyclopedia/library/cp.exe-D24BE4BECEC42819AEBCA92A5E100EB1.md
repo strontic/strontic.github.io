@@ -142,11 +142,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cp.exe](cp.exe-D24BE4BECEC42819AEBCA92A5E100EB1.md) | 100
 
 
 

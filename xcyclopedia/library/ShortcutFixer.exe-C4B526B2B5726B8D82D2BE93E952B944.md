@@ -93,6 +93,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\ShortcutFixer.exe](ShortcutFixer.exe-54CBF749EC75DB5FAA146F8FD5014359.md) | 90
+[C:\Program Files (x86)\Glary Utilities 5\ShortcutFixer.exe](ShortcutFixer.exe-A9A25703275E8C510968A1400E18ED98.md) | 88
 
 
 

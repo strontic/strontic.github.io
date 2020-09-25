@@ -100,6 +100,7 @@ Usage: C:\Program Files\Mozilla Thunderbird\thunderbird.exe [ options ... ] [URL
 File | Score
 -- | --
 [C:\program files\Mozilla Thunderbird\thunderbird.exe](thunderbird.exe-3C010B5C2E94A65E8BBCF62C880D9DC4.md) | 57
+[C:\Program Files\Mozilla Thunderbird\thunderbird.exe](thunderbird.exe-78426A2669EAB01A71F33B7799715867.md) | 69
 
 ## Possible Misuse
 

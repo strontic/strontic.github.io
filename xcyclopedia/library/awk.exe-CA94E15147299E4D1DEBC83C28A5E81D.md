@@ -100,7 +100,7 @@ awk: cmd. line:1:  ^ unterminated regexp
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\awk.exe](awk.exe-8196576B6D2DE5BA61D337BEBC56ADD5.md) | 99
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\awk.exe](awk.exe-8196576B6D2DE5BA61D337BEBC56ADD5.md) | 99
 
 
 

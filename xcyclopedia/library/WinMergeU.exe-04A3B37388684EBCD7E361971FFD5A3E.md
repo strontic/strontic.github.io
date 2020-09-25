@@ -80,6 +80,11 @@ C:\Windows\System32\SHLWAPI.dll |
 * Legal Copyright: (c) 1996-2020 Dean P. Grimm / Thingamahoochie Software
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\WinMerge\WinMergeU.exe](WinMergeU.exe-4B1A20649FF0992D3576D61B859FC3B9.md) | 35
 
 
 

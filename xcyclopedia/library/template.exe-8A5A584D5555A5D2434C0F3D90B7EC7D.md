@@ -5,7 +5,7 @@ excerpt: What is template.exe?
 
 # template.exe 
 
-* File Path: `C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\template.exe`
+* File Path: `C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\template.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `D3A04C8A8F4338B6A944A231B49F2996DC5A539DB92A496B658763C816CEAF80`
 SHA384 | `4959D0E1D95553C91A45ECAE342C2AF6570F9990839408D24D5F32747F8012B5B1BB84EB8D1DBDC575AE30CE2CF321D7`
 SHA512 | `69EA9E9CA2913E50259E872C103CF2F857DEE2D5D7EB7A75AF28DE2F7E1EBA253D5BC6F26D6A90AD69B35CAFD41C8FC0D8A230244801BD075BD7B60D47134925`
 SSDEEP | `1536:QI9Z5kh5Eui32qxrBcA8zu2YEU21ggSGPhVY10MwQPyTsWjVBcd6GGkdubO1:R32IBcAeqEUkglffwyy66GGSua`
+IMP | `4F601DCB43304C66CF782B449F927733`
+PESHA1 | `7F5DACE0347F08416EF1609776F4A1AF27AE4748`
+PE256 | `8981638ABA8EA95661E44E16FCCEAD1686808EBA853D4DCF6BE6F26C027A5676`
 
 ## Runtime Data
 
@@ -28,24 +31,24 @@ Adobe AIR Updater.exe
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\MacromediaFMOmega | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\template.exe |
+C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\template.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -54,7 +57,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\template.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\template.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -69,7 +72,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/d3a04c8a8f4338b6a944a231b49f2996dc5a539db92a496b658763c816ceaf80/detection/
 
 
 ## Possible Misuse

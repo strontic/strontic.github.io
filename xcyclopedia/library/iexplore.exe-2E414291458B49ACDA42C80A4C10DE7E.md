@@ -5,7 +5,7 @@ excerpt: What is iexplore.exe?
 
 # iexplore.exe 
 
-* File Path: `C:\program files (x86)\Internet Explorer\iexplore.exe`
+* File Path: `C:\Program Files (x86)\Internet Explorer\iexplore.exe`
 * Description: Internet Explorer
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `E582676EC900249B408AB4E37976AE8C443635A7DA77755DAF6F896A172856A3`
 SHA384 | `57056D11FAF2B69BF8A7ED122AA8DAB84306D9EF0AC5014C40F01FB6385062ADC8CD4A62BEDE6E24EE7E4F999F15A06F`
 SHA512 | `3CF0C8F829EC04F8E5A9B8A2B551D1764933771903A0F40D5AEF5BF7023CA5CDBD2F7084C46F6EDA98695763346338C564D010E2BDA6FB5F5A9B0C44627BF314`
 SSDEEP | `24576:dqqlGLbMMHMMMvMMZMMMKzb6XmMMMiMMMz8JMMHMMM6MMZMMMeXNMMzMMMUMMVMl:QMMHMMMvMMZMMMlmMMMiMMMYJMMHMMMP`
+IMP | `27B75923177DBF055202FF3CFC4082E0`
+PESHA1 | `8187B16CD5B1B3E4E1E89F8B4B5F904D45E96268`
+PE256 | `71145DE5C265B21C9BCC66DA8D21F608BA64D3343A44FD49CFB9E4F9606B050B`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ iexplore.exe
 
 Path |
 -- |
-C:\program files (x86)\Internet Explorer\iexplore.exe |
+C:\Program Files (x86)\Internet Explorer\iexplore.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -52,13 +55,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 11.00.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/e582676ec900249b408ab4e37976ae8c443635a7da77755daf6f896a172856a3/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Internet Explorer\iexplore.exe](iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE.md) | 94
+[C:\Program Files\Internet Explorer\iexplore.exe](iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE.md) | 94
 
 ## Possible Misuse
 

@@ -47,6 +47,7 @@ Un_A.exe
 File | Score
 -- | --
 [C:\program files (x86)\TeamViewer\uninstall.exe](uninstall.exe-77F0DA0B741148310065BCC6B58B5C70.md) | 82
+[C:\Program Files (x86)\TeamViewer\uninstall.exe](uninstall.exe-79AA93413FA81C90930008A95F63190F.md) | 77
 
 ## Possible Misuse
 

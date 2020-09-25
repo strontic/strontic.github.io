@@ -5,7 +5,7 @@ excerpt: What is python.exe?
 
 # python.exe 
 
-* File Path: `C:\program files\Python38\python.exe`
+* File Path: `C:\Program Files\Python38\python.exe`
 * Description: Python
 
 ## Hashes
@@ -18,12 +18,15 @@ SHA256 | `052F8B35EEE3A2B59CA479CF5A9F2D95C08F2394F1730D0233CC79C5CEBAA3DF`
 SHA384 | `31F087D2A8471BDD723D4B247B545AD5D2FC5F66BD587671F902ED56AA34ED5937350F66014B5D1C6CE5E6535D3CFE4A`
 SHA512 | `6EBB49A357A098F343BAEA0B37B714A4E426F2740C6C4C2588BA73E5AAD66ADF9F2E4396AC40C06AB95F48395A93DEEDA2E182B5C869D02613472805E6086E30`
 SSDEEP | `1536:y77VbKbuEYE+9z2wp+FavGmhMn+IhzZtzI/IXRfwyo1:y77VbKbuAs0FNmhMn+IhNa/IXRk`
+IMP | `A1304C4778128720E89539BB55752E4C`
+PESHA1 | `37A4E18676B4D8FBE85B28E76C4E54C8A4E2F9DE`
+PE256 | `A267789F4500982E0FD585812635BBD4162511337E35B59EAE272BBBACF94420`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-usage: C:\program files\Python38\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+usage: C:\Program Files\Python38\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
 -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
          and comparing bytes/bytearray with str. (-bb: issue errors)
@@ -119,7 +122,7 @@ PYTHONPYCACHEPREFIX: root directory for bytecode cache (pyc) files.
 
 ### Usage (stderr):
 ```cmhg
-C:\program files\Python38\python.exe: can't open file 'help': [Errno 2] No such file or directory
+C:\Program Files\Python38\python.exe: can't open file 'C:\temp\strontic-xcyclopedia\notepad.exe': [Errno 13] Permission denied
 
 ```
 
@@ -127,7 +130,7 @@ C:\program files\Python38\python.exe: can't open file 'help': [Errno 2] No such 
 
 Path |
 -- |
-C:\program files\Python38\python.exe |
+C:\Program Files\Python38\python.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -150,7 +153,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 3.8.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2001-2016 Python Software Foundation. Copyright  2000 BeOpen.com. Copyright  1995-2001 CNRI. Copyright  1991-1995 SMC.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/052f8b35eee3a2b59ca479cf5a9f2d95c08f2394f1730d0233cc79c5cebaa3df/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -159,6 +167,8 @@ File | Score
 [C:\program files (x86)\Python38-32\python.exe](python.exe-39B32EC14AAF61FCEFA292BBD363C4BF.md) | 82
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\bin\python.exe](python.exe-3FE8936968A3EBFFF4AC920E85488F38.md) | 72
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\bin\python.exe](python.exe-5A7DB3BE63EF55531E67F8B1E903417C.md) | 72
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\bin\python.exe](python.exe-776D2731E373E99BFD7B52212DC31653.md) | 75
+[C:\Program Files\Inkscape\bin\python.exe](python.exe-80A2A4AF0ED4A216773786EFC0A5ED97.md) | 80
 [C:\program files\Inkscape\bin\python.exe](python.exe-898AB9CC2EE05138BFE8EC61F393C072.md) | 72
 [C:\program files\LibreOffice\program\python-core-3.7.7\bin\python.exe](python.exe-397E3AFBBBFBEA3A47F92AA4225CC094.md) | 74
 

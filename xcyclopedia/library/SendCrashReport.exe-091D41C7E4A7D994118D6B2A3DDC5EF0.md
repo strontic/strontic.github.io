@@ -5,7 +5,7 @@ excerpt: What is SendCrashReport.exe?
 
 # SendCrashReport.exe 
 
-* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\SendCrashReport.exe`
+* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\SendCrashReport.exe`
 * Description: SendCrashReport
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `7C6569AEE3D041FBF0575A38086602BB8668F3A8460C7942DB5CA1CE1EF8538E`
 SHA384 | `5FA8CF64C5CBF2B5D10F5835BF996A734A40EB78D26445D96D4E398A4A6EDE4F3967BA797BE3933C645B4B0D6037C3CB`
 SHA512 | `E5A78399FA61CDD0367DF99F292F83F49A445AA12C422139CAFEAF75D4C1FDB79E447526E281BCDEBF6DFA37EAF22A0F80894D028B9992936180D32151D13A55`
 SSDEEP | `49152:r29apmwV+4KN18Apxa+he0QEdFSQE+fkyLGkMCNy30nGTdRoY:MWmwV8N2Mxa+w0ldFSQEz+y30n`
+IMP | `8F8C7EFF73BEECA48A9B3DF97B9A7824`
+PESHA1 | `13C194A39F4DD0F925CF5991F34BA51049918B35`
+PE256 | `668B634F1634800FB9929E58FBF5533A2C3D30AD9A86F7C7B11F3AF8BCFB0AB7`
 
 ## Runtime Data
 
@@ -37,14 +40,14 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
 (RW-)   C:\Users\user\AppData\Local\CrashReport.zip | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -52,15 +55,15 @@ Path | Type
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Foxit Software\Foxit Reader\SendCrashReport.exe |
+C:\Program Files (x86)\Foxit Software\Foxit Reader\SendCrashReport.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -84,7 +87,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.2.1.725
 * Language: Language Neutral
 * Legal Copyright: Copyright  2013-2020 Foxit Software Inc. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/7c6569aee3d041fbf0575a38086602bb8668f3a8460c7942db5ca1ce1ef8538e/detection/
 
 
 

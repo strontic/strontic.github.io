@@ -47,6 +47,7 @@ MemfilesService.exe x64ProcessAssistSvc.exe
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\QuickSearch.exe](QuickSearch.exe-2B88EF66E89467506ED13764774733E3.md) | 97
 [C:\program files (x86)\Glary Utilities 5\QuickSearch.exe](QuickSearch.exe-F9BF6DB5C311001B0756BDB49665CAE5.md) | 97
 
 

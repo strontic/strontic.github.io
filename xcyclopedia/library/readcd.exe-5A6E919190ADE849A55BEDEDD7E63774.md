@@ -5,7 +5,7 @@ excerpt: What is readcd.exe?
 
 # readcd.exe 
 
-* File Path: `C:\program files\InfraRecorder\cdrtools\readcd.exe`
+* File Path: `C:\Program Files\InfraRecorder\cdrtools\readcd.exe`
 
 ## Hashes
 
@@ -17,12 +17,15 @@ SHA256 | `1A39CAC63CA32EB4B1F7B538E31BB979F2696AC71676F8D57347A16A519BBF58`
 SHA384 | `1E83ACBBBE8EF63AE2334EF2C8045A9684C9011F645ECD578C43CE82B93AEA66060FB34CDF06318CB14A3163778EBAC3`
 SHA512 | `5E821A21C7B0686F139EADEA03E595ABFCF505ABC2C851E6033786635E5B0D643FB81815D2859C636FE38533E8F51B1F357FA264B5B7A942DB1B120CFA7680D1`
 SSDEEP | `6144:flABjsKB+FSXGE3JEQXhlF8QMWVUbTI+VMu/gt/6ryI:ZcXxJzxfu/gUrT`
+IMP | `B67708B5C926F99C64399761351AB604`
+PESHA1 | `CF3461C0B634755F6572385EA33069932AD03B30`
+PE256 | `A1C5C4FA6B7EB6D3F14CB8ADBACF727E0E9BFE2791F3BBEA4A28C1C3DC3E8B6F`
 
 ## Runtime Data
 
 ### Usage (stderr):
 ```cmhg
-/cygdrive/c/program files/InfraRecorder/cdrtools/readcd: Target 'help' is not a Number.
+/cygdrive/c/Program Files/InfraRecorder/cdrtools/readcd: Target 'C:\temp\strontic-xcyclopedia\notepad.exe' is not a Number.
 Usage:	readcd [options]
 options:
 	-version	print version information and exit
@@ -64,7 +67,7 @@ sectors=0-0 will read nothing, sectors=0-1 will read one sector starting from 0
 
 Path |
 -- |
-C:\program files\InfraRecorder\cdrtools\readcd.exe |
+C:\Program Files\InfraRecorder\cdrtools\readcd.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -88,14 +91,19 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/1a39cac63ca32eb4b1f7b538e31bb979f2696ac71676f8d57347a16a519bbf58/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
-[C:\program files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 35
+[C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
+[C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe](cdrecord.exe-BADAE4CD656C8FE7E5F7B06C2DB926EF.md) | 35
 
 
 

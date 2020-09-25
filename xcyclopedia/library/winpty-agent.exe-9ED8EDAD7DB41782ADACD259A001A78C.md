@@ -76,6 +76,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe](winpty-agent.exe-2ACA3BEF8DE5EDEC205683B9AB57F9E3.md) | 96
+[C:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe](winpty-agent.exe-7BEC3CEDEAEA6A1D8FD1224FBDDA19B0.md) | 79
 
 
 

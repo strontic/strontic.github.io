@@ -5,7 +5,7 @@ excerpt: What is fzstorj.exe?
 
 # fzstorj.exe 
 
-* File Path: `C:\program files\FileZilla FTP Client\fzstorj.exe`
+* File Path: `C:\Program Files\FileZilla FTP Client\fzstorj.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `78975AE2956B38DDFBDDD458725FA3FE22FF0F18036F922D2B530BDC54B2251D`
 SHA384 | `AEB8A20F18F7931B88C8BF173FEB3FEEDF07DC2B31FD0484D83D094DB8999FAF113EFA5CC3C3B589CED398C5AB2856E0`
 SHA512 | `2D4D50F860F4C69D10C97896DD69C64749CC68F2C1978A8DD407A6939B2DD3B97DF1EB9A06268FA7FDD2F9E7D9265854B8298B4C0145B420EF211856CEDD6223`
 SSDEEP | `98304:86fBtfnqmfG/iXY/IAkHORJCNlSbha7Aq+givjgPE:jfBtfnqSWiXY/IAkHORJ+k6waE`
+IMP | `3CF653F7B50B2D6723D88248FF63B083`
+PESHA1 | `F2D248CF83C3C54EAD4F59E60167539EBF2982DB`
+PE256 | `2C175F25D2C367BF60CBCF950D9C7DB23909BF8DFA61FE2D4B9A53BB11C3B8E2`
 
 ## Runtime Data
 
@@ -33,7 +36,7 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -42,7 +45,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files\FileZilla FTP Client\fzstorj.exe |
+C:\Program Files\FileZilla FTP Client\fzstorj.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -65,7 +68,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/78975ae2956b38ddfbddd458725fa3fe22ff0f18036f922d2b530bdc54b2251d/detection/
 
 
 

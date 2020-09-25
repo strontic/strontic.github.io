@@ -82,7 +82,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\klist.exe](klist.exe-46C3EFEFBB84EF261A21CE50DD82538B.md) | 38
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\klist.exe](klist.exe-46C3EFEFBB84EF261A21CE50DD82538B.md) | 38
 
 
 

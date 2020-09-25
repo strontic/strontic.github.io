@@ -5,7 +5,7 @@ excerpt: What is plink.exe?
 
 # plink.exe 
 
-* File Path: `C:\program files\PuTTY\plink.exe`
+* File Path: `C:\Program Files\PuTTY\plink.exe`
 * Description: Command-line SSH, Telnet, and Rlogin client
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `FEB29E7CC97DE6950192E29F2EC117CD9B17A0095A4F68D059770A24379C3993`
 SHA384 | `794708CE9EB3C48EFEFDDCB3EB3B9604BDAF6B1DB5AF08F82EAF9568B140B5FB0024B6E80F4B0BDA6B77F4E7EE87ADC3`
 SHA512 | `FB747EDBB1259900D9F3E210729743B4A2979066A3E0A4FF6487069223C86B7807F6285D54F1A114788B400FD1E5ACAD6EF74010A84A32D947B0345D73A1E913`
 SSDEEP | `12288:nsOlmdo5WwBjy668m3nwvsOVwLkkowZfgl8cHD:n/lzWwByT3wvdVw5rZYl82`
+IMP | `87AECF008D87EC86EC8B00A2394B3E6C`
+PESHA1 | `3944D290E13A505DA8AD4C2302090112B96559E2`
+PE256 | `EB5964601FFA7BFB773AA5E00CED927754F744B98A50004CD947BEE5F954CB40`
 
 ## Runtime Data
 
@@ -91,7 +94,7 @@ conhost.exe
 
 Path |
 -- |
-C:\program files\PuTTY\plink.exe |
+C:\Program Files\PuTTY\plink.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -114,7 +117,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Release 0.74
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  1997-2020 Simon Tatham.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/feb29e7cc97de6950192e29f2ec117cd9b17a0095a4f68d059770a24379c3993/detection/
 
 
 ## Possible Misuse

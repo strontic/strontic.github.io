@@ -74,8 +74,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x86\RegBootDefrag.exe](RegBootDefrag.exe-ED88036DB8AB7975B135230ECEBA0754.md) | 25
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\false.exe](false.exe-024D20E116CD9C5BF6FF35EB02E8D599.md) | 100
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\true.exe](true.exe-538B18DA711CA626538157F171273D6A.md) | 88
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\true.exe](true.exe-538B18DA711CA626538157F171273D6A.md) | 88
 
 ## Possible Misuse
 

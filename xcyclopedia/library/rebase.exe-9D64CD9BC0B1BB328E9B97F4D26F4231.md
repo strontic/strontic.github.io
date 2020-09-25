@@ -103,7 +103,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\rebase.exe](rebase.exe-509A6129B44057602C8564CBC613A6D5.md) | 97
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\rebase.exe](rebase.exe-9D64CD9BC0B1BB328E9B97F4D26F4231.md) | 100
 
 
 

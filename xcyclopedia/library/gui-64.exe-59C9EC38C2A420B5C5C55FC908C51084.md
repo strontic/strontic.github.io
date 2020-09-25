@@ -51,7 +51,8 @@ File | Score
 -- | --
 [C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui-64.exe](gui-64.exe-0A28F85DB860E21DBEA2BA5C020F0EB5.md) | 96
-[C:\program files\Python38\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\gui-64.exe](gui-64.exe-CC1161FA847EE240A87E2F5EE4725C27.md) | 96
+[C:\Program Files\Python38\Lib\site-packages\setuptools\gui-64.exe](gui-64.exe-2FFC9A24492C0A1AF4D562F0C7608AA5.md) | 96
 
 
 

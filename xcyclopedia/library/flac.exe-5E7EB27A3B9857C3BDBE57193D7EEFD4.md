@@ -5,7 +5,7 @@ excerpt: What is flac.exe?
 
 # flac.exe 
 
-* File Path: `C:\program files (x86)\MusicBee\Codec\flac.exe`
+* File Path: `C:\Program Files (x86)\MusicBee\Codec\flac.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `BC40922B374126B65F4B82F2FC83685421C7FCF409BD1598892DF26A45E17075`
 SHA384 | `516588C87E6C9A30961A6E73B5E49F8272E83DE0E4B70765D6DD799191B8F528F5959F4F0BFDE197169A2707E8A05BF1`
 SHA512 | `1748B4ACFF6A2BC72DFA89CBAAE7B1F7AB5C32532D5601D56936C7CBCA1FB87F4B5E4A01D7C240F737105B9E9B6CF18258E4BBD396C4E38928215334E7519B2A`
 SSDEEP | `12288:TY6Yi7JdO9+yC7GnFhSkn7nW6D8YMHIdF:iil49+yC7CFUkn7nWa8YyIdF`
+IMP | `7EA35F193D3FE2323FA2820F78684F48`
+PESHA1 | `60231FF51213A66024EB1C5012A011AD7D220F9E`
+PE256 | `0B2EE1390B233D053E095F1ABCFD2DB3344F56D40AFC76EAFD71D4054192F850`
 
 ## Runtime Data
 
@@ -159,15 +162,18 @@ Copyright (C) 2000-2009  Josh Coalson, 2011-2016  Xiph.Org Foundation
 flac comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are
 welcome to redistribute it under certain conditions.  Type `flac' for details.
 
-ERROR: can't open input file help: No such file or directory
+ERROR: can't open input file C:\temp\strontic-xcyclopedia\notepad.exe: Permission denied
 
 ```
+
+### Child Processes:
+conhost.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\MusicBee\Codec\flac.exe |
+C:\Program Files (x86)\MusicBee\Codec\flac.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -176,7 +182,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\MusicBee\Codec\flac.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\MusicBee\Codec\flac.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -191,7 +197,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/bc40922b374126b65f4b82f2fc83685421c7fcf409bd1598892df26a45e17075/detection/
 
 
 

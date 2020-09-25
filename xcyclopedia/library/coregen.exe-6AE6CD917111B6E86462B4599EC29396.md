@@ -5,7 +5,7 @@ excerpt: What is coregen.exe?
 
 # coregen.exe 
 
-* File Path: `C:\program files\Microsoft Silverlight\5.1.50918.0\coregen.exe`
+* File Path: `C:\Program Files\Microsoft Silverlight\5.1.50918.0\coregen.exe`
 * Description: Microsoft Common Language Runtime native compiler
 * Comments: Flavor=Retail
 
@@ -20,6 +20,9 @@ SHA256 | `E0344BC6C6A47D1AD11EC3CE98C48DF07DC80B5F6337BBCA155491EE0F814A1F`
 SHA384 | `B8B98C050463183BA7E4D1236825601D9350A8E76052E386965D8E9AA8F4DDF991B2795F4EC2EAA0E4925CAEB61EC148`
 SHA512 | `56DEB21DF98A806CB6C7CD9757E1C4E5571B955B0037582DF384B73E88141197E0450A4CD84214DA922DB9B0CBCE3D7E6BEA23F52EC985D4977E5EBA82079B43`
 SSDEEP | `1536:2dKTjw9GNL5ybOjU+Q0x7+66lVk0b89LhrNo3Kv2:aKTjw9A9aOA+t9aG489Lhxo3m2`
+IMP | `10CE2F704DACA82828A02A0D76021EB8`
+PESHA1 | `FE88F80DB3957E509D08DDDE3EAC5319EBE52D91`
+PE256 | `8AB15669CBC7D795A184270C3D444C20CBF5B20C9A69C3613505B86E421F0F6B`
 
 ## Runtime Data
 
@@ -40,7 +43,7 @@ Usage: coregen [args] <assembly name>
 
 Path |
 -- |
-C:\program files\Microsoft Silverlight\5.1.50918.0\coregen.exe |
+C:\Program Files\Microsoft Silverlight\5.1.50918.0\coregen.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -63,7 +66,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 5.1.50918.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/e0344bc6c6a47d1ad11ec3ce98c48df07dc80b5f6337bbca155491ee0f814a1f/detection/
 
 
 

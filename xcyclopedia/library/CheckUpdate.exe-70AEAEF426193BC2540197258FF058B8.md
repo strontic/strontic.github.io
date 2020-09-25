@@ -43,6 +43,7 @@ SSDEEP | `768:ACgXKDOdccAUaTsiAzOBzzHYER3zzzyfzqhTzEsIXC7fm4lupOchdMeKgMxV1DG3:N
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\CheckUpdate.exe](CheckUpdate.exe-3B259C71DD5CB55DD166359B22243A5D.md) | 94
+[C:\Program Files (x86)\Glary Utilities 5\CheckUpdate.exe](CheckUpdate.exe-5D0D62731FF110F355D225E7B7DABE19.md) | 94
 
 ## Possible Misuse
 

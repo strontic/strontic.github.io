@@ -93,6 +93,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: Copyright (C) 2007-2011, Apple Inc.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\iTunes\defaults.exe](defaults.exe-955525EDC465FF98C9EAAACA6F0F9D4D.md) | 80
 
 ## Possible Misuse
 

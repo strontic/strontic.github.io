@@ -5,7 +5,7 @@ excerpt: What is wmplayer.exe?
 
 # wmplayer.exe 
 
-* File Path: `C:\program files\Windows Media Player\wmplayer.exe`
+* File Path: `C:\Program Files\Windows Media Player\wmplayer.exe`
 * Description: Windows Media Player
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `AD4463F1737CE4BB445663515A0CB24A9EA50929E46BE81C803972D326FA7E10`
 SHA384 | `855385FCCA868C6B2BA63CF8AE3F240F88CE9AF797B67C9CBE8B9C4B138B6360895BB85615F40D975048925F78C63AFD`
 SHA512 | `74E6F327C8C394A1C120C63B3101802D76DC1565B485F3F6F9499E28093BFD9DC499A9A0175B02546F7F284B95ED13F7783A8425A9693E3AE05E8F03F2A71262`
 SSDEEP | `3072:TIV3QSwKohYkQr0jeLwJr95rJolNAzyP+msVK0Zi:TIV3cYQqLwhHrWsOP+5VT`
+IMP | `33E3BA3C576D003915CF7E8CEC099D86`
+PESHA1 | `A2DF8A39215EE514EAEDB5AD5ADA818CF3EBD7F2`
+PE256 | `3322D38D837F3580F79DBDB5BBE9E1C11118D14F77B61D5D30E3D383FA0768AB`
 
 ## Runtime Data
 
@@ -28,33 +31,20 @@ setup_wm.exe
 
 Path |
 -- |
-C:\program files\Windows Media Player\wmplayer.exe |
+C:\Program Files\Windows Media Player\wmplayer.exe |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\SYSTEM32\PROPSYS.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\shlwapi.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\windows.storage.dll |
-C:\Windows\SYSTEM32\Wldp.dll |
 C:\Windows\System32\WS2_32.dll |
 
 
@@ -75,17 +65,22 @@ C:\Windows\System32\WS2_32.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/ad4463f1737ce4bb445663515a0cb24a9ea50929e46be81c803972d326fa7e10/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Windows Media Player\wmpconfig.exe](wmpconfig.exe-4ACC57344531EEAC412463137996B8C1.md) | 60
-[C:\program files (x86)\Windows Media Player\wmplayer.exe](wmplayer.exe-6AA4614C7ADE4C07F2F6E362D08DCF5A.md) | 88
-[C:\program files (x86)\Windows Media Player\wmpshare.exe](wmpshare.exe-AA5933CE16373F146EC28DA42A0700B7.md) | 60
-[C:\program files\Windows Media Player\wmpconfig.exe](wmpconfig.exe-29E52BFB44C74B2E3730F79D04082692.md) | 60
-[C:\program files\Windows Media Player\wmpshare.exe](wmpshare.exe-275462C97656943B9F1A11F1701861FA.md) | 61
+[C:\Program Files (x86)\Windows Media Player\wmpconfig.exe](wmpconfig.exe-4ACC57344531EEAC412463137996B8C1.md) | 60
+[C:\Program Files (x86)\Windows Media Player\wmplayer.exe](wmplayer.exe-6AA4614C7ADE4C07F2F6E362D08DCF5A.md) | 88
+[C:\Program Files (x86)\Windows Media Player\wmpshare.exe](wmpshare.exe-AA5933CE16373F146EC28DA42A0700B7.md) | 60
+[C:\Program Files\Windows Media Player\wmpconfig.exe](wmpconfig.exe-29E52BFB44C74B2E3730F79D04082692.md) | 60
+[C:\Program Files\Windows Media Player\wmpshare.exe](wmpshare.exe-275462C97656943B9F1A11F1701861FA.md) | 61
 
 ## Possible Misuse
 

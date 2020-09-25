@@ -66,9 +66,10 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\program files (x86)\Python38-32\Lib\distutils\command\wininst-7.1.exe](wininst-7.1.exe-AE6CE17005C63B7E9BF15A2A21ABB315.md) | 99
+[C:\Program Files\Inkscape\lib\python3.8\distutils\command\wininst-7.1.exe](wininst-7.1.exe-7D3F734CD0A057B9034D3941326407B6.md) | 99
 [C:\program files\Inkscape\lib\python3.8\distutils\command\wininst-7.1.exe](wininst-7.1.exe-BB97CDB4F0C884A443F968EDED5F62FE.md) | 100
 [C:\program files\LibreOffice\program\python-core-3.7.7\lib\distutils\command\wininst-7.1.exe](wininst-7.1.exe-AE6CE17005C63B7E9BF15A2A21ABB315.md) | 99
-[C:\program files\Python38\Lib\distutils\command\wininst-7.1.exe](wininst-7.1.exe-AE6CE17005C63B7E9BF15A2A21ABB315.md) | 99
+[C:\Program Files\Python38\Lib\distutils\command\wininst-7.1.exe](wininst-7.1.exe-AE6CE17005C63B7E9BF15A2A21ABB315.md) | 99
 
 
 

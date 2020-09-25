@@ -110,6 +110,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Dropbox, Inc.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Dropbox\Client\Dropbox.exe](Dropbox.exe-8B86CFBDD8AA0FCA798090E78677BB16.md) | 72
 
 ## Possible Misuse
 

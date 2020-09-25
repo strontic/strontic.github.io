@@ -5,7 +5,7 @@ excerpt: What is RtParser.exe?
 
 # RtParser.exe 
 
-* File Path: `C:\program files (x86)\GRETECH\GomPlayer\RtParser.exe`
+* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\RtParser.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `CA41280CB0067932B20A7248CA18BA5E3745939FC91906DB11C1571764E2DFD0`
 SHA384 | `6D1648AEB82FB59D2DB216BF8074C9E58FCD10557FB6EFEF1E770044802E352DC3B73836115ADB83D3F9993EE83E0ED8`
 SHA512 | `635712875A59AB3E59C33FE4A8D467D9395D56E4BEEF6023F5B470AC434630D1BD30CE3B532583638593F6E5EC51EDF8E6E78D5E98FFFA9D83FE47E8BAE4454E`
 SSDEEP | `384:8VVrxW9j+b1VsVXtPS65GhpxOD832YJLcsoeM7UH:GrxxbPsVXXGhpcYvLTH`
+IMP | `0147DDDF8D175A20389A619875403E85`
+PESHA1 | `FA54AEC5FF6015A05F34A93885D87C1D35EFBC01`
+PE256 | `3D6A73A628E8D95CEDF6DC85F91C429300A8F3A80BE83AF811EF2E469A1F3047`
 
 ## Runtime Data
 
@@ -41,7 +44,7 @@ SSDEEP | `384:8VVrxW9j+b1VsVXtPS65GhpxOD832YJLcsoeM7UH:GrxxbPsVXXGhpcYvLTH`
 
 Path |
 -- |
-C:\program files (x86)\GRETECH\GomPlayer\RtParser.exe |
+C:\Program Files (x86)\GRETECH\GomPlayer\RtParser.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -65,7 +68,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/ca41280cb0067932b20a7248ca18ba5e3745939fc91906db11c1571764e2dfd0/detection/
 
 
 

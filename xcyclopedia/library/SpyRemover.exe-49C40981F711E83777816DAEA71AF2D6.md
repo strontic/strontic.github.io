@@ -81,6 +81,8 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-2327A2C252ADC79A2F1FA37CE76D10DA.md) | 96
+[C:\Program Files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-9F02F3CD1EE1E26FC53115E0E7089BDD.md) | 96
+[C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-54C83AE9F55B299D7AEC2B59ACF4E688.md) | 43
 [C:\program files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-A364BDE5FD75712D95F1772396F08C28.md) | 41
 [C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-B0CCA5153453B97D382000262F713E0A.md) | 43
 

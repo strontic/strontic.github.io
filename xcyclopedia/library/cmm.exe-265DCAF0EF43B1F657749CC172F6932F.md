@@ -47,6 +47,7 @@ SSDEEP | `3072:wACh0ZoK3GT5bVLN6PVMOzcai1JZs+oW2VA:vCRK2TBVJ6PVMOzU3ZyWx`
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\cmm.exe](cmm.exe-0F4BA0D299A93A0D3A627A1CAC06061D.md) | 93
+[C:\Program Files (x86)\Glary Utilities 5\cmm.exe](cmm.exe-36B90A261054515B83979DCF55C8577E.md) | 90
 
 
 

@@ -87,11 +87,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\mktemp.exe](mktemp.exe-10500D0547202DF4C5B30F2D16372E5F.md) | 100
 
 
 

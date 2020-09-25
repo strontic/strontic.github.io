@@ -5,7 +5,7 @@ excerpt: What is PdnRepair.exe?
 
 # PdnRepair.exe 
 
-* File Path: `C:\program files\paint.net\PdnRepair.exe`
+* File Path: `C:\Program Files\paint.net\PdnRepair.exe`
 * Description: paint.net Repair Utility
 * Comments: Image and photo editing software.
 
@@ -24,6 +24,9 @@ SHA256 | `F791BBC0C046F691208A583FE94C1A74AB3A760D56E73BF52AE899B5C1211B82`
 SHA384 | `C54AE6DEC74684842D99E79C065BEF5310D897D663E687F6C23580CA0AAF73EC6A02AF7BE3C995BE54A3F393393BE4A2`
 SHA512 | `6FDF795460379BE36FEFA33176B666DC5D450E186A85182BF8317067E24BE9F4ABEE3FDE354536E7E773A511526E923D3A495A04BC7D5FB2337820A329E483C0`
 SSDEEP | `384:UhjNjBTnA9z0SD29bEip8ZpHqGb5hikHW:3oSDebEipiR9rik2`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `DB609E64D64862F31439BD25DFFBC6DC3EC98809`
+PE256 | `77FB67AEBC260EDB40787B9C21790C36D88DDA80457D0BCE5F034CB7B85D9B45`
 
 ## Runtime Data
 
@@ -53,25 +56,20 @@ paint.net
 
 Path | Type
 -- | --
-(R--)   C:\Windows\assembly\pubpol5.dat | File
-(R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(R-D)   C:\Windows\System32\en-US\msimsg.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_6232 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_6708 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\paint.net\PdnRepair.exe |
+C:\Program Files\paint.net\PdnRepair.exe |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MSCOREE.DLL |
@@ -95,7 +93,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 4.213.7521.38873
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020 dotPDN LLC, Rick Brewster, and contributors. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/f791bbc0c046f691208a583fe94c1a74ab3a760d56e73bf52ae899b5c1211b82/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -128,8 +131,8 @@ File | Score
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\twain\twain.exe](twain.exe-C23997105AA15348BD1F1F6439E16E9A.md) | 29
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe](wavelet-decompose.exe-04FF2DBC3AC674E5494C51ECAD5710A6.md) | 29
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\web-browser\web-browser.exe](web-browser.exe-74EBC9205E8832310A6B4A34A1E09540.md) | 29
-[C:\program files\paint.net\SetupNgen.exe](SetupNgen.exe-3A16E356C6CA089DCD45F877A9B89B68.md) | 43
-[C:\program files\paint.net\UpdateMonitor.exe](UpdateMonitor.exe-649EAA80D8759902667E3E84A23DE491.md) | 60
+[C:\Program Files\paint.net\SetupNgen.exe](SetupNgen.exe-3A16E356C6CA089DCD45F877A9B89B68.md) | 43
+[C:\Program Files\paint.net\UpdateMonitor.exe](UpdateMonitor.exe-649EAA80D8759902667E3E84A23DE491.md) | 60
 
 
 

@@ -153,6 +153,11 @@ C:\Windows\SYSTEM32\VERSION.dll |
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Google\Chrome\Application\chrome.exe](chrome.exe-C139654B5C1438A95B321BB01AD63EF6.md) | 93
 
 ## Possible Misuse
 

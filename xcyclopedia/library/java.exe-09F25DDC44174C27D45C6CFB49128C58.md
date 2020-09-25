@@ -5,7 +5,7 @@ excerpt: What is java.exe?
 
 # java.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `D5677C7117F8212B85A2E6FFC9BC05C4C5B15957F38429CB36D1E1AADFB9F82D`
 SHA384 | `B34C4E469103B0C9617452CC035483ABAD34AE5DE6B63F6D304BC858F72479AFD8753B17D644281324CD2BDFB2D85E0C`
 SHA512 | `2ACAC3AEEA7DC7D0BCDEBBBA0C667557599B19A1167BD47A7936F2C535015A3E6A75BD53B35300656C33B94AA17B36B6DBD9CEEFE4CCAAD5BCBA2AEE3BD8A2E9`
 SSDEEP | `6144:X0TFpCddwYdXaTC8aEwuHAnmf9TBr7k/PMZ:XspCdCY9lEIS9TunMZ`
+IMP | `0F5CC683FA39EDBE3CA8321B37BF56BC`
+PESHA1 | `0CB88689612DDB68D1D12E959A23909DBCCD4AC9`
+PE256 | `B1F80AFBD35161793F3A90428E97FD1022A7311D430C40C63384156411ECCAA9`
 
 ## Runtime Data
 
@@ -80,7 +83,7 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -103,14 +106,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/d5677c7117f8212b85a2e6ffc9bc05c4c5b15957f38429cb36d1e1aadfb9f82d/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe](java.exe-7911C3FAF5EB6BEFDF66111F4CF96862.md) | 96
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe](java.exe-2518D9BEC36317CD59660BA5E43AB373.md) | 96
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java.exe](java.exe-7911C3FAF5EB6BEFDF66111F4CF96862.md) | 96
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java.exe](java.exe-2518D9BEC36317CD59660BA5E43AB373.md) | 96
 
 ## Possible Misuse
 

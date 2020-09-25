@@ -5,7 +5,7 @@ excerpt: What is fzsftp.exe?
 
 # fzsftp.exe 
 
-* File Path: `C:\program files\FileZilla FTP Client\fzsftp.exe`
+* File Path: `C:\Program Files\FileZilla FTP Client\fzsftp.exe`
 * Description: SFTP module for FileZilla based on PuTTY's psftp component
 
 ## Hashes
@@ -18,13 +18,16 @@ SHA256 | `B72F0A0ADB7B961BBE7B2A93B49A29657C8D46F0F1A4C2380C4791FCC6190263`
 SHA384 | `7EFB5A39757C9971A086D1F6C7FBABE41D186564B2C115B2847F13C1C83520AF7A86C7B1854049A9F20E91AEABC6A333`
 SHA512 | `EB2FB20B51F36DA3C1BF96286BF0052F7D27DE4E8F231D98AB4FFE483DE29136F2431AD9DC1A3B79F626B7B2444B0EA9127C60C2A19BFC0555ED91CA3AEA3950`
 SSDEEP | `12288:tvGh0mGA3w7gdQps4hCCbg9Jsh0l5SoDyp4jN9:tvGUacRfbg9+GlIYyujN9`
+IMP | `DBA03695B0C784EBA85D721D5B5D6CCE`
+PESHA1 | `628BD1F11BB360D9D1E070EC233B926AFC4EC97E`
+PE256 | `7F3B23180E6F66F95D2C55C22082A6D7CCE3E797F577BA4F1A7AFC458EF94BCD`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
 0fzSftp started, protocol_version=9
-3psftp: Using userhost passed on commandline: help
+3psftp: Using userhost passed on commandline: C:\temp\strontic-xcyclopedia\notepad.exe
 2psftp: no username, aborting
 
 ```
@@ -33,7 +36,7 @@ SSDEEP | `12288:tvGh0mGA3w7gdQps4hCCbg9Jsh0l5SoDyp4jN9:tvGUacRfbg9+GlIYyujN9`
 
 Path |
 -- |
-C:\program files\FileZilla FTP Client\fzsftp.exe |
+C:\Program Files\FileZilla FTP Client\fzsftp.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -56,7 +59,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Unidentified build
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2004-2020 Tim Kosse,   1997-2019 Simon Tatham.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b72f0a0adb7b961bbe7b2a93b49a29657c8d46f0f1a4c2380c4791fcc6190263/detection/
 
 ## File Similarity (ssdeep match)
 

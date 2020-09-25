@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files\VideoLAN\VLC\uninstall.exe`
+* File Path: `C:\Program Files\VideoLAN\VLC\uninstall.exe`
 
 ## Hashes
 
@@ -17,17 +17,20 @@ SHA256 | `8E98238FD2B28836F2D5B50D25D7B704B62CBF697DB08BC42543F3E5870006A4`
 SHA384 | `4FDB550DC3E424A110B90D3E72660261D5AF6C7EFF07C2E9559763EFE116F73C3C0C089075612E872D0B6EB2072CCF1E`
 SHA512 | `5793B5B46E7F536B696087F7A7050666F1E7B930FB6BEAFB4888D4FFF74E1BBBF11374EEB74DD2B49E973D6A0DEA380CBDA7EDE4A6218B012165C74397EA3DF9`
 SSDEEP | `6144:pzO5Qvk6R4ziUk96kADCqkQWzvnIlF/2OiCypQkf:9Oh6BbqtWzvIlR2OiT1`
+IMP | `0A20B8E464E26D9DEB5556274A8BE70A`
+PESHA1 | `n/a`
+PE256 | `n/a`
 
 ## Runtime Data
 
 ### Child Processes:
-Un_C.exe
+Un_A.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\VideoLAN\VLC\uninstall.exe |
+C:\Program Files\VideoLAN\VLC\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -36,7 +39,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files\VideoLAN\VLC\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\VideoLAN\VLC\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -51,7 +54,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/8e98238fd2b28836f2d5b50d25d7b704b62cbf697db08bc42543f3e5870006a4/detection/
 
 
 ## Possible Misuse

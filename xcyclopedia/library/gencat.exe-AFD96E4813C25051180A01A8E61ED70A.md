@@ -59,11 +59,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\gencat.exe](gencat.exe-AFD96E4813C25051180A01A8E61ED70A.md) | 100
 
 
 

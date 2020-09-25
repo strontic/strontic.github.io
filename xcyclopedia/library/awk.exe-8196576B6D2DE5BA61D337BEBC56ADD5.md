@@ -111,7 +111,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\awk.exe](awk.exe-CA94E15147299E4D1DEBC83C28A5E81D.md) | 99
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\awk.exe](awk.exe-8196576B6D2DE5BA61D337BEBC56ADD5.md) | 100
 
 
 

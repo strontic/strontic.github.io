@@ -92,7 +92,8 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\venv\scripts\nt\pythonw.exe](pythonw.exe-42FAD025D3A6ACC48AFED0D4FABA2C06.md) | 97
-[C:\program files\Python38\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-AFEECB1C10D2D6E5BA7EC753D1052E95.md) | 30
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\venv\scripts\nt\pythonw.exe](pythonw.exe-EBCD7748BA148C3FCA431F9C38D8D714.md) | 91
+[C:\Program Files\Python38\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-AFEECB1C10D2D6E5BA7EC753D1052E95.md) | 30
 
 
 

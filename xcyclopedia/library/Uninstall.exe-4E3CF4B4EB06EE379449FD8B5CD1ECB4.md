@@ -56,6 +56,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Artem Izmaylov
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\AIMP3\Uninstall.exe](Uninstall.exe-A947D7E0CB71D08C2AF8ABC051A46DD1.md) | 50
 
 ## Possible Misuse
 

@@ -70,7 +70,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\Native\wxp_x64\RegBootDefrag.exe](RegBootDefrag.exe-6164C5D688112BCA1A12F2874DF59FE9.md) | 33
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\fido2-token.exe](fido2-token.exe-CBC48A2F618E6E85C53E78B01B465F9C.md) | 100
 
 
 

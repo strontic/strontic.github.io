@@ -5,7 +5,7 @@ excerpt: What is SetupNgen.exe?
 
 # SetupNgen.exe 
 
-* File Path: `C:\program files\paint.net\SetupNgen.exe`
+* File Path: `C:\Program Files\paint.net\SetupNgen.exe`
 * Description: paint.net SetupNgen
 * Comments: Image and photo editing software.
 
@@ -20,15 +20,21 @@ SHA256 | `C882AFC96765B0170905C367FE0B854FD98491DA8D76D90925C5ACF0FF0C8EBC`
 SHA384 | `00FD0526D430581535CB31222745C26228EF31D4C1960A346F9A8D595DF6BEA35FF2BF01508FA68624D1F9E6557AA3FA`
 SHA512 | `4F410AA075205C6EF0C193B3748B3A2217BE45B8946D2E4C0B675B8CD9F0029C004D55A98D6EB2C48DF7E0581CFAB46692671FE415EB85E9EA5D031954368E25`
 SSDEEP | `768:ME1Y9PU0kKONIYKDig6SVJbEipiR9riDr:z1YVU0xxYKDigpVJbEipiPW3`
+IMP | `F34D5F2D4577ED6D9CEEC516C1F5A744`
+PESHA1 | `EB4FF2DD4A9D4ADEAB71ECDCE6AB21C5587AB7C1`
+PE256 | `C168B461CD5DE4040609A5CDF2298F03F9246A226C4AD61E14D9DD68AF653B77`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-8/30/2020 5:12:58 PM - Opening log
-8/30/2020 5:12:58 PM - args[0] = --help
-8/30/2020 5:12:58 PM - args.Length was less than 5 -- exiting
-8/30/2020 5:12:58 PM - Closing log
+9/24/2020 6:17:30 PM - MainImpl(args) threw an exception: System.IO.IOException: The process cannot access the file 'C:\Users\user\AppData\Local\Temp\pdnSetupNgenInstall.log' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PaintDotNet.SetupNgen.OpenLog()
+   at PaintDotNet.SetupNgen.Main(String[] args)
+9/24/2020 6:17:30 PM - Closing log
 
 ```
 
@@ -36,7 +42,7 @@ SSDEEP | `768:ME1Y9PU0kKONIYKDig6SVJbEipiR9riDr:z1YVU0xxYKDigpVJbEipiPW3`
 
 Path |
 -- |
-C:\program files\paint.net\SetupNgen.exe |
+C:\Program Files\paint.net\SetupNgen.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
@@ -64,7 +70,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 4.213.7521.38873
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020 dotPDN LLC, Rick Brewster, and contributors. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/c882afc96765b0170905c367fe0b854fd98491da8d76d90925c5acf0ff0c8ebc/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -97,8 +108,8 @@ File | Score
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\twain\twain.exe](twain.exe-C23997105AA15348BD1F1F6439E16E9A.md) | 30
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe](wavelet-decompose.exe-04FF2DBC3AC674E5494C51ECAD5710A6.md) | 33
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\web-browser\web-browser.exe](web-browser.exe-74EBC9205E8832310A6B4A34A1E09540.md) | 32
-[C:\program files\paint.net\PdnRepair.exe](PdnRepair.exe-0644EB64FE3FF3E2840FC380AE8480A8.md) | 43
-[C:\program files\paint.net\UpdateMonitor.exe](UpdateMonitor.exe-649EAA80D8759902667E3E84A23DE491.md) | 44
+[C:\Program Files\paint.net\PdnRepair.exe](PdnRepair.exe-0644EB64FE3FF3E2840FC380AE8480A8.md) | 43
+[C:\Program Files\paint.net\UpdateMonitor.exe](UpdateMonitor.exe-649EAA80D8759902667E3E84A23DE491.md) | 44
 
 
 

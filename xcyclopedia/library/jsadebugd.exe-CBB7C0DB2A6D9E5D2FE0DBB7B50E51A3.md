@@ -71,7 +71,7 @@ File | Score
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\servertool.exe](servertool.exe-482229C18D9D28C423A4B93F3A3B99C1.md) | 55
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\servertool.exe](servertool.exe-5984FFFB2E2536E6E52FD59827AA6B7B.md) | 57
 [C:\program files (x86)\Amazon Corretto\jre8\bin\servertool.exe](servertool.exe-2DD6258EB5EA1F577129BAC139081CD3.md) | 58
-[C:\program files\Amazon Corretto\jre8\bin\klist.exe](klist.exe-485D7DCE45873697DD951A75B3358C7A.md) | 38
+[C:\Program Files\Amazon Corretto\jre8\bin\klist.exe](klist.exe-485D7DCE45873697DD951A75B3358C7A.md) | 38
 
 
 

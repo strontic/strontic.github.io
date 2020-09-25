@@ -42,7 +42,7 @@ SSDEEP | `49152:pZB9ujZA8voGzF5CNVCz/aK0da5lmbvYYYYYYYYYYYRYYYYYYYYYYE3iA7/eFUcv
 
 File | Score
 -- | --
-[C:\program files\TeraCopy\TeraCopy.exe](TeraCopy.exe-3130E763ADAF55BC94694EB71459668D.md) | 40
+[C:\Program Files\TeraCopy\TeraCopy.exe](TeraCopy.exe-3130E763ADAF55BC94694EB71459668D.md) | 40
 [C:\windows\SysWOW64\explorer.exe](explorer.exe-97A7A0521E059D242907EFB73A844F29.md) | 52
 
 ## Possible Misuse

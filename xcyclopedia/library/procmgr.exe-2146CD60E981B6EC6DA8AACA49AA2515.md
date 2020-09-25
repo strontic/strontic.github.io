@@ -91,6 +91,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\procmgr.exe](procmgr.exe-0DE6D2ED146BD41469D804501ABF5990.md) | 96
 [C:\Program Files (x86)\Glary Utilities 5\procmgr.exe](procmgr.exe-70D3F8EA5E5F82C89F71080DA124BA0C.md) | 94
 
 

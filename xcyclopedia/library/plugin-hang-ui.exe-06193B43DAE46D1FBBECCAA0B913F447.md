@@ -42,6 +42,7 @@ SSDEEP | `768:sXtWmGN/BgVbmctn8J0hQLUJC1DGBKgKtv:sXtY/QmsnfhQLUJlEtv`
 
 File | Score
 -- | --
+[C:\Program Files\Mozilla Thunderbird\plugin-hang-ui.exe](plugin-hang-ui.exe-5BBE12DA4B8E4CD9D711FC73DC2F3BA2.md) | 79
 [C:\program files\Mozilla Thunderbird\plugin-hang-ui.exe](plugin-hang-ui.exe-833C3D739A8FFB2C26ADB0DDB12F33DC.md) | 77
 
 

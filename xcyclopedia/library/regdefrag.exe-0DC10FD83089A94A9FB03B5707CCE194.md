@@ -81,6 +81,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\regdefrag.exe](regdefrag.exe-1F5F99AAC7EF9D099464C04CA4719731.md) | 97
+[C:\Program Files (x86)\Glary Utilities 5\regdefrag.exe](regdefrag.exe-ACCD55195B958A893E2E71A287614AFF.md) | 97
 
 
 

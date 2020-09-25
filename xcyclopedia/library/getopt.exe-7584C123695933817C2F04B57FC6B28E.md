@@ -77,11 +77,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\getopt.exe](getopt.exe-7584C123695933817C2F04B57FC6B28E.md) | 100
 
 
 

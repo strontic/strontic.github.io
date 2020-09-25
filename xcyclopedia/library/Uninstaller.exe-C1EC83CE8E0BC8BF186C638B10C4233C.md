@@ -87,6 +87,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\Uninstaller.exe](Uninstaller.exe-6F21F9194F24996C8D7322BA72742296.md) | 94
+[C:\Program Files (x86)\Glary Utilities 5\Uninstaller.exe](Uninstaller.exe-D4A5B0E1591FE45B9D3661F11D27E3B6.md) | 96
 
 ## Possible Misuse
 

@@ -54,6 +54,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Copyright (c) 2019 David Carpenter
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Everything\Uninstall.exe](Uninstall.exe-B20735E24027BD8A786C521159A1AB89.md) | 66
 
 ## Possible Misuse
 

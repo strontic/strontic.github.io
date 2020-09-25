@@ -65,6 +65,7 @@ Options:
 
 File | Score
 -- | --
+[C:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe](winpty-agent.exe-7BEC3CEDEAEA6A1D8FD1224FBDDA19B0.md) | 75
 [C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe](winpty-agent.exe-9ED8EDAD7DB41782ADACD259A001A78C.md) | 96
 
 

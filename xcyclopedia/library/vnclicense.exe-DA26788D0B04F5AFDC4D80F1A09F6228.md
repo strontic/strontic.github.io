@@ -5,7 +5,7 @@ excerpt: What is vnclicense.exe?
 
 # vnclicense.exe 
 
-* File Path: `C:\program files\RealVNC\VNC Server\vnclicense.exe`
+* File Path: `C:\Program Files\RealVNC\VNC Server\vnclicense.exe`
 * Description: VNC Licensing Utility
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `A30E06F950B3F4EE923B22BFE4CD950530248A97E14B5454B9FDF8310A36F357`
 SHA384 | `5226566267D7ADD8B903E8EEA25C22D291A6998B2BF47EDCF8BD1041DE029C972F36047C175B71CE37CA425D13BF8612`
 SHA512 | `581AF6E88B8617E8C443EC2E9B63D5B4EAD3A92E60459388869FFD7763CB7461038ADC5B08E8E99DF0C81526C82378162FB90EE79F0DDDAAA17B0C64E551C3C7`
 SSDEEP | `49152:yz/LgXGWKg3kf2Tpa2tYwLlG4cfX5HYRSiq996:sMXv0f29he97qRSim`
+IMP | `41C52A119D434DBF4774C0E53353CB26`
+PESHA1 | `F5B1A62FA4402E2732A6D702B72036AF49038BE5`
+PE256 | `2E51AA86E121A1D3F92605B3CA2D0B77FCDE0FC2C330F6E58196BF95DB8EF847`
 
 ## Runtime Data
 
@@ -67,7 +70,8 @@ Global parameters:
 
 ### Usage (stderr):
 ```cmhg
-Error: Bad argument 'help'.  Run with -help for usage.
+Error: Bad argument 'C:\temp\strontic-xcyclopedia\notepad.exe'.  Run with -help
+for usage.
 
 ```
 
@@ -75,7 +79,7 @@ Error: Bad argument 'help'.  Run with -help for usage.
 
 Path |
 -- |
-C:\program files\RealVNC\VNC Server\vnclicense.exe |
+C:\Program Files\RealVNC\VNC Server\vnclicense.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -98,7 +102,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/a30e06f950b3f4ee923b22bfe4cd950530248a97e14b5454b9fdf8310a36f357/detection/
 
 
 

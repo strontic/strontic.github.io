@@ -56,11 +56,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\fido2-assert.exe](fido2-assert.exe-BA6992D65A79C7306D7D96414536358D.md) | 100
 
 
 

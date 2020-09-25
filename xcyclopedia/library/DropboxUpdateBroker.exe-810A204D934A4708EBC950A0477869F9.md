@@ -5,7 +5,7 @@ excerpt: What is DropboxUpdateBroker.exe?
 
 # DropboxUpdateBroker.exe 
 
-* File Path: `C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe`
+* File Path: `C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe`
 * Description: Dropbox Update
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `BA7E733B9C810AAEB8EF10AC008014F467BBA67D7274CDC72F5A45CD6C579F69`
 SHA384 | `D3B1DB8F2ADCF73BE172BD3F20BC336A9F457A8744842F0E5AE16D22808A020F31C5DE1D65FB8DF7D5CBA16CAB17197F`
 SHA512 | `DE2459BE945BD225B16239F2418D444EEEBE9B0B59B087706E8F675DB92E8B736EF830F57FF2FBDDF1E0A876D3510101448312DCC4EFF0637992E2DD72BE479D`
 SSDEEP | `768:Fj+bYE5pI35H1ZkpMop8IMjpVP+I6lUxzXBNQJ5HzJs911/ZqU2bxDGAK43:pepiPk6Y8jDPekQJ5T0YnK0`
+IMP | `126388812F3CEE524977F3F98906D2EB`
+PESHA1 | `F2BCE494234C5DBEE55EA87B385F40BAAD163E9A`
+PE256 | `1DF102D569878DACF6322814FAEDDD6D1BB0993DAEAD06947E8CF836149A759D`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ DropboxUpdate.exe
 
 Path |
 -- |
-C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe |
+C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateBroker.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -52,13 +55,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.3.335.1
 * Language: English (United States)
 * Legal Copyright: Copyright: Dropbox, Inc. 2015 (Omaha Copyright Google Inc.)
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/ba7e733b9c810aaeb8ef10ac008014f467bba67d7274cdc72f5a45cd6c579f69/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe](DropboxUpdateOnDemand.exe-AE70A96D9AD364A39DCAC6CBC019E801.md) | 58
+[C:\Program Files (x86)\Dropbox\Update\1.3.335.1\DropboxUpdateOnDemand.exe](DropboxUpdateOnDemand.exe-AE70A96D9AD364A39DCAC6CBC019E801.md) | 58
 
 
 

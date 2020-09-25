@@ -5,7 +5,7 @@ excerpt: What is java-rmi.exe?
 
 # java-rmi.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `7EE52E49BBF5A03A9C8616057CDD64A64FB15C30DE8E8D212444DA33EBA78D8C`
 SHA384 | `74FE92F5CA30A0D474293EB682B84FDA7AE0B531A72019E957AC9DBFE75350608BE4076636DDF3E6A645461F8FF340B7`
 SHA512 | `5B846D4D6600E1DF169C55CBFE92A3C5F8CC366EB2FBB66D4ACEBBEC3A214B98EBAD714BC1D6FF3DB9BEB1DAB58C7405A1A6C1A8DA5504A909E0C548C2F94EF1`
 SSDEEP | `384:ZuewKiKN0ueEWK6jSmM4Qz14UrDgf2hN8ln:ceNizEWKgDV21zrUf2hNsn`
+IMP | `2C43CDA2243B5AF72E180E8D1F09446D`
+PESHA1 | `C35478DB67AD59019DCF58426BE3BDC832D1DA21`
+PE256 | `ADFFF9DF56E3D29776BEF88AAF80FC086CB6058AC61587A5B9AF87FD791CF955`
 
 ## Runtime Data
 
@@ -76,11 +79,14 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 ```
 
+### Child Processes:
+powershell_ise.exe
+
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe |
+C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java-rmi.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -103,15 +109,20 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/7ee52e49bbf5a03a9c8616057cdd64a64fb15c30de8e8d212444da33eba78d8c/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe](wsgen.exe-FE1C1F8495990F2BCB301E53BCAB2B79.md) | 54
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe](java-rmi.exe-2C8BE8549F5A30706D882BF98BA1F593.md) | 66
-[C:\program files\Amazon Corretto\jre8\bin\java-rmi.exe](java-rmi.exe-ABB442793EFD5B49BCBD985457471CBA.md) | 66
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\wsgen.exe](wsgen.exe-FE1C1F8495990F2BCB301E53BCAB2B79.md) | 54
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java-rmi.exe](java-rmi.exe-2C8BE8549F5A30706D882BF98BA1F593.md) | 66
+[C:\Program Files\Amazon Corretto\jre8\bin\java-rmi.exe](java-rmi.exe-ABB442793EFD5B49BCBD985457471CBA.md) | 66
 
 
 

@@ -81,6 +81,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\iehelper.exe](iehelper.exe-2636692F22B98F81DAA2D58A7FC3ECB3.md) | 96
 [C:\Program Files (x86)\Glary Utilities 5\iehelper.exe](iehelper.exe-E354C974FFDAD4E02637215C461110E6.md) | 96
 
 ## Possible Misuse

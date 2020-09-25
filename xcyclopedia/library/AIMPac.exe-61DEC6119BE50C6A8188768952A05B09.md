@@ -86,6 +86,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Artem Izmaylov
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\AIMP3\AIMPac.exe](AIMPac.exe-6A88C3AE48F7B8E1EC64F944C7D9BD26.md) | 88
 
 
 

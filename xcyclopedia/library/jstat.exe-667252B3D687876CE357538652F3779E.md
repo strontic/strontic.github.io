@@ -109,7 +109,7 @@ File | Score
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jps.exe](jps.exe-5AFACE3595288F9EF62F39721DEEC88C.md) | 72
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe](rmic.exe-A763ACD55C2C10F6EBA024CDDD134E9F.md) | 69
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\jjs.exe](jjs.exe-EF545E6EFCC0E8BA4089FE7DC1DFDE90.md) | 72
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe](jabswitch.exe-7CA1D8DC77673F04F638D21BA5477C05.md) | 30
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe](jabswitch.exe-7CA1D8DC77673F04F638D21BA5477C05.md) | 30
 
 
 

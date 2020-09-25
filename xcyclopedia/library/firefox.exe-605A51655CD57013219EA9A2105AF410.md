@@ -101,6 +101,7 @@ firefox.exe
 File | Score
 -- | --
 [C:\program files\Mozilla Firefox\firefox.exe](firefox.exe-01DF6E9C1724C892E47B2D19AC5136E0.md) | 50
+[C:\Program Files\Mozilla Firefox\firefox.exe](firefox.exe-2E9D3F170BE8451F3DAE9D0EB8EE2A6E.md) | 41
 
 ## Possible Misuse
 

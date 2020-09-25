@@ -86,6 +86,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Inkscape\bin\gdbus.exe](gdbus.exe-76484952AE7C142F4A6952D69C02B65A.md) | 35
 
 
 

@@ -103,11 +103,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\getfacl.exe](getfacl.exe-F37B838ECFDF0C23906D52CD543CEBF0.md) | 100
 
 
 

@@ -46,6 +46,7 @@ SSDEEP | `3072:JX1mKYMmt/7Ehg/uevBT6oUKceVwHgKx/7es9ZOJuamC+N7LPAoGEV+g:fmNNJ4WW
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\fileencrypt.exe](fileencrypt.exe-71C92DA6521BC54CCE0640FB2FD0F6DE.md) | 94
 [C:\program files (x86)\Glary Utilities 5\fileencrypt.exe](fileencrypt.exe-A368AFDE794912E1760345775D723F8F.md) | 94
 
 

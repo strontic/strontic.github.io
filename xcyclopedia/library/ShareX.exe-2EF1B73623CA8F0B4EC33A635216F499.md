@@ -102,6 +102,11 @@ C:\Windows\System32\sechost.dll |
 * Legal Copyright: Copyright (c) 2007-2020 ShareX Team
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\ShareX\ShareX.exe](ShareX.exe-266776244FD9701915EF1BFA9F76091E.md) | 74
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is unpack200.exe?
 
 # unpack200.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,12 +18,15 @@ SHA256 | `5F8D7EE436F546F95E9CB364351FCF0980F4A86A64A460D56D71A4214D1B8586`
 SHA384 | `A411BE7B2421AC5AA55D7C1A7E93CEC0883B0110EE64235B8F982F4069A92741AF709A0A4A1BC6BF4C4D319A13B5C3FA`
 SHA512 | `61D09D167B64E60B8F63EAA418E9E8EBA4201E229780C0FB56D2192D2496656AC3F8916F405E35667853F354190C2F856DF0F96D7F46E09FC31902B20AFBA0FA`
 SSDEEP | `3072:RDiJGjue2OcPmRtzG+22aXcIsXSbsSsrxmqTBfKSyKm7IwB42lFs:RDiptO1RBG+XzIuSUDTBSSyKm7IwBJs`
+IMP | `4BE091735E1ADC31798D09C92BE170C0`
+PESHA1 | `891B027EAC47AB9A459FE0CBD64FB58DAAB1AD27`
+PE256 | `B0F77A1A38607F6CEAA42B027497BDBE13459CE63C22B5C9DAD6741AA250B89C`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-Usage:  C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
+Usage:  C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options
   -H{h}, --deflate-hint={h}     override transmitted deflate hint: true, false, or keep (default)
@@ -41,7 +44,7 @@ Unpacking Options
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\unpack200.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -64,14 +67,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/5f8d7ee436f546f95e9cb364351fcf0980f4a86a64a460d56d71a4214d1b8586/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\unpack200.exe](unpack200.exe-27825E96E1F103B3C987B2F3EE004C72.md) | 97
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe](unpack200.exe-36E96354D7150B62C3ABE7DB1F2CC19B.md) | 97
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\unpack200.exe](unpack200.exe-27825E96E1F103B3C987B2F3EE004C72.md) | 97
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\unpack200.exe](unpack200.exe-36E96354D7150B62C3ABE7DB1F2CC19B.md) | 97
 
 
 

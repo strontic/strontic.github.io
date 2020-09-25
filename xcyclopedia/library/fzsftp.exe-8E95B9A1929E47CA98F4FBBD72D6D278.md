@@ -55,7 +55,7 @@ MediaMonkey64Helper.exe
 
 File | Score
 -- | --
-[C:\program files\FileZilla FTP Client\fzsftp.exe](fzsftp.exe-2F0C20CA380337C1B16C6C67BC73D117.md) | 91
+[C:\Program Files\FileZilla FTP Client\fzsftp.exe](fzsftp.exe-2F0C20CA380337C1B16C6C67BC73D117.md) | 91
 
 
 

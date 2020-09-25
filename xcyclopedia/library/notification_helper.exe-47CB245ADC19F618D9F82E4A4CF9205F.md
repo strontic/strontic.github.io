@@ -61,6 +61,7 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Program Files\Opera\70.0.3728.106\notification_helper.exe](notification_helper.exe-A70473F8F527CFD2A36E528D87380858.md) | 94
+[C:\Program Files\Opera\71.0.3770.171\opera.exe](opera.exe-FECED32DA54213875400A87196C61233.md) | 32
 
 
 

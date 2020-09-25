@@ -89,6 +89,11 @@ C:\Windows\SYSTEM32\WINMM.dll |
 * Legal Copyright:  2000-2020 Apple Inc. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\iTunes\iTunesVisualizerHost.exe](iTunesVisualizerHost.exe-F47027A1E5072A6ED0C609D2702F7CB2.md) | 74
 
 
 

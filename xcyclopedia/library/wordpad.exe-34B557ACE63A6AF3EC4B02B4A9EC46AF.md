@@ -83,7 +83,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
-[C:\program files (x86)\Windows NT\Accessories\wordpad.exe](wordpad.exe-61173FF6ABB1C40E3D3B580126FC5F66.md) | 60
+[C:\Program Files (x86)\Windows NT\Accessories\wordpad.exe](wordpad.exe-61173FF6ABB1C40E3D3B580126FC5F66.md) | 60
+[C:\Program Files\Windows NT\Accessories\wordpad.exe](wordpad.exe-DF75D2712714593DA00E662055A46EF1.md) | 77
 
 ## Possible Misuse
 

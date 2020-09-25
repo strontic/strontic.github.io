@@ -5,7 +5,7 @@ excerpt: What is lossyWAV.exe?
 
 # lossyWAV.exe 
 
-* File Path: `C:\program files (x86)\MusicBee\lossyWAV.exe`
+* File Path: `C:\Program Files (x86)\MusicBee\lossyWAV.exe`
 * Description: lossyWAV - WAV file bit reduction method, www.hydrogenaudio.org
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `BA869966D83F0B44E0A55760B5A37F216A65B3B2F7DB991B82B5E05118193018`
 SHA384 | `3928E9564157E3074152D8E25445A4E5E3A3E6DE65B6344D98BD6B7092CA96A71A9A5052A330E9FDA761EFF8B7C7909F`
 SHA512 | `95E35D2376939C6FF1C3BFA441BA9F7AB0DE73F9B5C12E83BA43C27D058626926FC9A9A7B07F064562D584CA11743A5FB42DBE3F51C1C59A5074ADEB61163921`
 SSDEEP | `3072:RPfKByMT/F36ueL5OK3TiK+V8SXoqoS1ExPqCUqZ25:RPfKh/F3S5BDiK+V8SXQxiCUq`
+IMP | `7AAAF49B7121EFDFBAAF9280BA6AF713`
+PESHA1 | `05D3056A71643B95769E0FFB71C29738BF8B24F7`
+PE256 | `D5FAF57A389BF4C82C5E159A504CDEE567030D51F079A7A47176C23C92934614`
 
 ## Runtime Data
 
@@ -85,7 +88,7 @@ Don Cross            for the Complex-FFT algorithm originally used.
 
 Path |
 -- |
-C:\program files (x86)\MusicBee\lossyWAV.exe |
+C:\Program Files (x86)\MusicBee\lossyWAV.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -94,7 +97,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\MusicBee\lossyWAV.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\MusicBee\lossyWAV.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -109,7 +112,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.1.0
 * Language: English (United Kingdom)
 * Legal Copyright: GNU GPLv3+ License, Copyleft
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/ba869966d83f0b44e0a55760b5a37f216a65b3b2f7db991b82b5e05118193018/detection/
 
 
 

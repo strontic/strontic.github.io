@@ -43,6 +43,7 @@ SSDEEP | `24576:n1D4eyHDSe+KpPvhIbixa0cA6NCx+b72r5Kp/TDme8JA3hL:1D4eyHXhRqwwbi9K
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\CrashReport.exe](CrashReport.exe-1D92915D83040E3CC6C2B5ED67B286E1.md) | 80
+[C:\Program Files (x86)\Glary Utilities 5\CrashReport.exe](CrashReport.exe-A59FD84E9911426818B04A706D11F20B.md) | 80
 
 
 

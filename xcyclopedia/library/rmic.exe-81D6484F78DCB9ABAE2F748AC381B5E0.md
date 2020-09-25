@@ -5,7 +5,7 @@ excerpt: What is rmic.exe?
 
 # rmic.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `C00886328515AC1F62956C8893EE6A8F3081BAC36F971F0AF539E842F7AD183E`
 SHA384 | `4368A4C129EEA533FE0CC72AD8061D750F6651F9285409DDD98F22E4EB93E06D517D890FC0A7975917C099EEFA844DEF`
 SHA512 | `5315AFD0EE2A9091850D1245FDFB5A520B769292E3C927E97ABEEEF1525D7A08A259D5E0DA28C0D72BBDC6CBDE6CC537B81C094DB2C2B4ACD9C2046FED2FEF2A`
 SSDEEP | `384:2eqHRSKNfNSJeEDK6jSdE2bDgf2hSuT7X:xqd7SQEDKgCUf2hSu/X`
+IMP | `2C43CDA2243B5AF72E180E8D1F09446D`
+PESHA1 | `9302C8E9E13817ADAA4349E398F4E6429E55AF56`
+PE256 | `85F015887F216EB5E0AEF494934E89A08545730380482A3FE0878E5A3A3F385D`
 
 ## Runtime Data
 
@@ -62,7 +65,7 @@ where <options> includes:
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe |
+C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -85,7 +88,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/c00886328515ac1f62956c8893ee6a8f3081bac36f971f0af539e842f7ad183e/detection/
 
 ## File Similarity (ssdeep match)
 

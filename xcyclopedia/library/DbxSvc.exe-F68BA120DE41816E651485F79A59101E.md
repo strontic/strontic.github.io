@@ -43,6 +43,7 @@ SSDEEP | `768:O8n1qwrENhyssfU//Hk4gs3RJ4OBFuJTPMUFO9mQlvdXQ8vPMDGAK4rm:d1qHtuQUs
 File | Score
 -- | --
 [C:\program files (x86)\Dropbox\Client\104.4.175\driver_amd64\dbxsvc.exe](dbxsvc.exe-186EE71A9160E71FEB589729F011F8A5.md) | 90
+[C:\Program Files (x86)\Dropbox\Client\106.4.368\driver_amd64\dbxsvc.exe](dbxsvc.exe-255146C1AB4DCBE753F1240A0C2FAAEE.md) | 91
 [C:\Windows\system32\DbxSvc.exe](DbxSvc.exe-186EE71A9160E71FEB589729F011F8A5.md) | 90
 
 

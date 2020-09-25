@@ -5,7 +5,7 @@ excerpt: What is zstd.exe?
 
 # zstd.exe 
 
-* File Path: `C:\program files\PeaZip\res\zstd\zstd.exe`
+* File Path: `C:\Program Files\PeaZip\res\zstd\zstd.exe`
 * Description: Zstandard - Fast and efficient compression algorithm
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `35F5563F68E73A2EF37F7BB23E398909992B791DF9EB020C52335CC26D4C279D`
 SHA384 | `A68F4B8495B339BFB62BDF209B8CF034E43E5FD45A75574BA9CCDB36D40ED7C64FF30DAC4D6EA4752026D3F4A320D489`
 SHA512 | `19286211839D9901A01B7E0C9F2769DB9B7A6D905B81D76F2585AC6789C7E9A4F66BC2CCE38EB454010A5129B4F7DCA11AA0565570D73565AF3071D7D260EF60`
 SSDEEP | `24576:5OIB8yD6+2als05NVXmqPhJ8ctyO0mdoTAbfSlMIbBTyhtxr3:5lB8yDK05NVWqPhmEoTAbfTIFTOtxr3`
+IMP | `1891EA2D36C07C7945D5133F5EDB6881`
+PESHA1 | `60EFC7E375592CD1EF94BE2B5E5E8CE9161FF6F0`
+PE256 | `DD8FAC21CD0DDB76EF9315965F96618C328F4B1864C037CF236EC0A03AF47B99`
 
 ## Runtime Data
 
@@ -96,7 +99,7 @@ Benchmark arguments :
 
 ### Usage (stderr):
 ```cmhg
-zstd: can't stat help : No such file or directory -- ignored 
+zstd: C:\temp\strontic-xcyclopedia\notepad.exe: Permission denied 
 
 ```
 
@@ -104,7 +107,7 @@ zstd: can't stat help : No such file or directory -- ignored
 
 Path |
 -- |
-C:\program files\PeaZip\res\zstd\zstd.exe |
+C:\Program Files\PeaZip\res\zstd\zstd.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -112,7 +115,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Signature
 
-* Status: The file C:\program files\PeaZip\res\zstd\zstd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\PeaZip\res\zstd\zstd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -127,7 +130,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 1.4.4
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 2013-present, Yann Collet, Facebook, Inc.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/35f5563f68e73a2ef37f7bb23e398909992b791df9eb020c52335cc26d4c279d/detection/
 
 
 

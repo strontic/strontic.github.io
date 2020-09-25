@@ -65,9 +65,11 @@ File | Score
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui.exe](gui.exe-025128110FCE7BBBF5104C980EB630CE.md) | 91
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui-32.exe](gui-32.exe-76DE93440EDE7A640F3C2BCFFE8763E4.md) | 93
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui-32.exe](gui-32.exe-9C67FA0CA19B314984944E81169925DF.md) | 93
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\gui.exe](gui.exe-E8FC8D036498673C1FB9EC71777CC049.md) | 96
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\gui-32.exe](gui-32.exe-1141BC784E846FE5C081B4CCFDC3F7F2.md) | 91
 [C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui.exe](gui.exe-0757D0A43B7FB6C4C0631284DCE0D5CE.md) | 83
-[C:\program files\Python38\Lib\site-packages\setuptools\gui.exe](gui.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
-[C:\program files\Python38\Lib\site-packages\setuptools\gui-32.exe](gui-32.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
+[C:\Program Files\Python38\Lib\site-packages\setuptools\gui.exe](gui.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
+[C:\Program Files\Python38\Lib\site-packages\setuptools\gui-32.exe](gui-32.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 
 ## Possible Misuse
 

@@ -5,7 +5,7 @@ excerpt: What is trillian.exe?
 
 # trillian.exe 
 
-* File Path: `C:\program files (x86)\Trillian\trillian.exe`
+* File Path: `C:\Program Files (x86)\Trillian\trillian.exe`
 * Description: Trillian
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `04BBEAE34381E575C0431E6E7AA214F6785AE915DBC478B533F901318BE90BCC`
 SHA384 | `5921809E161A15C72D4C37F32A41FE6EFFBDF6840FCA1BDE50204C94126111501E4B28A6E3F333F9642799A0E544963C`
 SHA512 | `4706514B2F1AE50FA518E85BE6DF66479916C29E2873E6E9841651D634F6FE16467A836AF83FD34F0D429412F19BE12723AE9545AAF7E7177196C4C043BB6AA0`
 SSDEEP | `49152:iApIODFy50dwLw0/ANfAQBJ+1VEZAs17YXOO1Jw:vpIODoWaw0ufAQBobEGs1dO1Jw`
+IMP | `F2D89447A29D45539877C03F3B76109B`
+PESHA1 | `8D77563340F26D0414ACDE11F7D7904746DFB2EA`
+PE256 | `640E40F6DE111CAC7D5081EDD96D7240BECD71436EF6B39EA1E016B20D02FB0B`
 
 ## Runtime Data
 
@@ -43,23 +46,23 @@ Welcome to Trillian!
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Trillian\trillian.exe |
+C:\Program Files (x86)\Trillian\trillian.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -83,7 +86,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 6.3.0.6
 * Language: English (United States)
 * Legal Copyright:  Cerulean Studios, LLC.  All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/04bbeae34381e575c0431e6e7aa214f6785ae915dbc478b533f901318be90bcc/detection/
 
 
 

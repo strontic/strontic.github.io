@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files (x86)\ImgBurn\uninstall.exe`
+* File Path: `C:\Program Files (x86)\ImgBurn\uninstall.exe`
 * Description: ImgBurn Installer
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `1B5CB8035B18D06B5219F2E7D30200CA343C0CE6763962C7C41534AECC2B1C80`
 SHA384 | `11538F744BBDF79A2A8D9FE98A0139ABCE0CCF4AA36628B8D4D1137C03EC53FD084006DC2236D9B02D0C8B367D11C13F`
 SHA512 | `CB4FB2B054E3430DF934CD30BE220E13C2F86BF2DBC6E2A46D59FA4F7D9C6FECA9CBC44FB1CC49BFAE7AA39623D26D8F4510FA9A0584A1F64110CAE87117AFF3`
 SSDEEP | `1536:oRPYqa5pic6jXFdL2KiMcH8gg+SsN7buCryG4DelpkF1LSQHYc:MPA6jXFN2McH8b+vnuCryGmjGS`
+IMP | `B1A57B635B23FFD553B3FD1E0960B2BD`
+PESHA1 | `0F4D40AF47FFBB84AC78D408F19D060CDED15151`
+PE256 | `2BBB62D6A0B90D21CC3241688452DE54486A247AC7C774A9A5AAB73580814104`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Au_.exe
 
 Path |
 -- |
-C:\program files (x86)\ImgBurn\uninstall.exe |
+C:\Program Files (x86)\ImgBurn\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -37,7 +40,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\ImgBurn\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\ImgBurn\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -52,13 +55,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.5.8.0
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright 2005 - 2016
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/1b5cb8035b18d06b5219f2e7d30200ca343c0ce6763962c7c41534aecc2b1c80/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 46
+[C:\Program Files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 46
 
 ## Possible Misuse
 

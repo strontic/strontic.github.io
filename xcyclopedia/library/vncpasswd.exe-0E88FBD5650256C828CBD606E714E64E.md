@@ -5,7 +5,7 @@ excerpt: What is vncpasswd.exe?
 
 # vncpasswd.exe 
 
-* File Path: `C:\program files\RealVNC\VNC Server\vncpasswd.exe`
+* File Path: `C:\Program Files\RealVNC\VNC Server\vncpasswd.exe`
 * Description: VNC Password Utility
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `E5076A85BC92DF38DBDA5FA43C23CA3D28167FC83DC40B1944BFE942061A78CD`
 SHA384 | `2B2C2E036EAC3F1613D8846E510F616A73C153F08F3D7752F5CBECA8B29BD9CE746F77EA42002AEACC6A2BD8224899B3`
 SHA512 | `858586C686CAEAB1FA608A4896C16B17A481F750372573669AC7B9898AB9565C4D31706F42316544D2ABC584AB2964356B1CE187AE4AB80FD5B5FC9A14B76289`
 SSDEEP | `12288:Wsn4GbCF/ankz/9C/X+SlEfOeQlDqPSZIw3pVzJ:2GbCFin8C/XnlE/QNe3wHJ`
+IMP | `51E9DAE3A9E0EDD3A3516515A18F5C10`
+PESHA1 | `3AE84950092CC4D83555A0DAC41716A098763140`
+PE256 | `534367A1728C0AFE24C873BFEE286C94DA4C0B2469E9E632062E7DF0CF656BBB`
 
 ## Runtime Data
 
@@ -55,7 +58,7 @@ Options:
 
 Path |
 -- |
-C:\program files\RealVNC\VNC Server\vncpasswd.exe |
+C:\Program Files\RealVNC\VNC Server\vncpasswd.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -78,7 +81,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 6.1.1 (r28093)
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2002-2017 RealVNC Ltd.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e5076a85bc92df38dbda5fa43c23ca3d28167fc83dc40b1944bfe942061a78cd/detection/
 
 
 

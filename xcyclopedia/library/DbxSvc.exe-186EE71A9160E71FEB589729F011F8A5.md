@@ -54,6 +54,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Dropbox\Client\106.4.368\driver_amd64\dbxsvc.exe](dbxsvc.exe-255146C1AB4DCBE753F1240A0C2FAAEE.md) | 90
 [C:\Windows\system32\DbxSvc.exe](DbxSvc.exe-186EE71A9160E71FEB589729F011F8A5.md) | 100
 [C:\WINDOWS\system32\DbxSvc.exe](DbxSvc.exe-F68BA120DE41816E651485F79A59101E.md) | 90
 

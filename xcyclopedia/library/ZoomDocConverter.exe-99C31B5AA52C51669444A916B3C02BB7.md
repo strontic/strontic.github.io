@@ -72,9 +72,12 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-59A1CFFFD1A4736E6C7C31840D6DF90C.md) | 32
 [C:\program files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-65CA9E0DF3C8B0D76BB0126B0C593A3C.md) | 35
 [C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-EF568D198B3DEDB38FCC19FA94950B06.md) | 41
+[C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-6FA586963D8EACAF21B0B3175E19E14A.md) | 49
 [C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-F5575E3999B99035CFAC687907102B12.md) | 79
+[C:\Program Files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-685CB56B9EEE21EE835A68392709D89B.md) | 46
 [C:\program files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-DEAB73614D4D7C0807C5391FED75035A.md) | 38
 [C:\Program Files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-F95816E6ED240884AA0AA47BCE0229B4.md) | 32
 

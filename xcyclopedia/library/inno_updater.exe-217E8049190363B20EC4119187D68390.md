@@ -62,6 +62,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files\Microsoft VS Code\tools\inno_updater.exe](inno_updater.exe-9329EDEC3FA97CCD44D41CC5795A740B.md) | 97
+[C:\Program Files\Microsoft VS Code\tools\inno_updater.exe](inno_updater.exe-A47643754759481BFEB1E99036D4E02B.md) | 97
 
 
 

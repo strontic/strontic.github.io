@@ -51,6 +51,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Copyright (c) 2007-2020 Dominik Reichl
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\KeePass Password Safe 2\ShInstUtil.exe](ShInstUtil.exe-F484D53E04FB43749F47656A33099DCA.md) | 83
 
 
 

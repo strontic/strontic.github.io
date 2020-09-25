@@ -5,7 +5,7 @@ excerpt: What is Arc.exe?
 
 # Arc.exe 
 
-* File Path: `C:\program files\PeaZip\res\arc\Arc.exe`
+* File Path: `C:\Program Files\PeaZip\res\arc\Arc.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `B36B1BE0A3C329675AF4EECE3193F08CF343EDE57A6933033BF6004A50AB2A65`
 SHA384 | `0DCE57A498104486345A7949C382F429FB8666A7E7B36D3BA4C913E67DCEF6B96731963642A59818396ED60F32761810`
 SHA512 | `DC436A2B017945DABA993510B90A701C767A236749F5F1CE0C367CBAF8F21A39E751DB51FCBEE82613B7CE0DA361B28119D3466700BE5BD37BA80956D3F4B175`
 SSDEEP | `49152:Sk/sHkvi8CyK79VRt9/PN7cIZ4hSs+BuW:ebtZRVRD/PNPKhSsSu`
+IMP | `53257C90EF12E3B0DAB13734D615CA11`
+PESHA1 | `36E08AB796F6B144499D77352D092FF2F819F546`
+PE256 | `48C61D766FDA75A0A8244E693A9553354B2DE40158007BE08AE2A734E6A8961D`
 
 ## Runtime Data
 
@@ -145,7 +148,7 @@ All OK
 
 Path |
 -- |
-C:\program files\PeaZip\res\arc\Arc.exe |
+C:\Program Files\PeaZip\res\arc\Arc.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -154,7 +157,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files\PeaZip\res\arc\Arc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\PeaZip\res\arc\Arc.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -169,7 +172,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b36b1be0a3c329675af4eece3193f08cf343ede57a6933033bf6004a50ab2a65/detection/
 
 
 

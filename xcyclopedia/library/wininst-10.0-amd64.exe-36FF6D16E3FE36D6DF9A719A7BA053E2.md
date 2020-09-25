@@ -90,8 +90,9 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 File | Score
 -- | --
 [C:\program files (x86)\Python38-32\Lib\distutils\command\wininst-10.0-amd64.exe](wininst-10.0-amd64.exe-F8A38FD27DA720881C0AF1AC99B8C1AD.md) | 99
+[C:\Program Files\Inkscape\lib\python3.8\distutils\command\wininst-10.0-amd64.exe](wininst-10.0-amd64.exe-D14EDE41E7B30759BAD14D3757E81DC0.md) | 100
 [C:\program files\LibreOffice\program\python-core-3.7.7\lib\distutils\command\wininst-10.0-amd64.exe](wininst-10.0-amd64.exe-F8A38FD27DA720881C0AF1AC99B8C1AD.md) | 99
-[C:\program files\Python38\Lib\distutils\command\wininst-10.0-amd64.exe](wininst-10.0-amd64.exe-F8A38FD27DA720881C0AF1AC99B8C1AD.md) | 99
+[C:\Program Files\Python38\Lib\distutils\command\wininst-10.0-amd64.exe](wininst-10.0-amd64.exe-F8A38FD27DA720881C0AF1AC99B8C1AD.md) | 99
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is coregen.exe?
 
 # coregen.exe 
 
-* File Path: `C:\program files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe`
+* File Path: `C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe`
 * Description: Microsoft Common Language Runtime native compiler
 * Comments: Flavor=Retail
 
@@ -20,6 +20,9 @@ SHA256 | `412A6B755B2029126D46E7469854ADD3FAA850F5A4700DD1E078FCC536CA418A`
 SHA384 | `9F4EA6CE74672F10C3D2C024C834EAFD226E352255018E3B82B7BE5E6961F3245C5AF232F8C026A402F0E3EFC782CDA7`
 SHA512 | `82B28BC4F52B2CC8C6FCFB92C7D236F46C397DF4A860F6795C5D69AC92E82A0406EA66F61D63B2FA9FA2F8CE01A7975E6F28D69E1E2FAFF8462AB70EAD674C3C`
 SSDEEP | `768:6EDUAnMskbT0UxBCuWG/oDS0THDhshjSfhFB67z6GYMMtwylKCVWFTBlRL7++i+:TCbhk+IVLm2fhFBoz4/cFTB++R`
+IMP | `9959601E87162D788749D80BA2EA8FF2`
+PESHA1 | `CAA5E552B562D6E2EB1454B9F6E41FC6406631E4`
+PE256 | `F99063DEECF3FF2DDF5F07ABB33369F380D4969DE3AEAD18DB2DFA3ABBBE5C6A`
 
 ## Runtime Data
 
@@ -40,7 +43,7 @@ Usage: coregen [args] <assembly name>
 
 Path |
 -- |
-C:\program files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe |
+C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\coregen.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -64,7 +67,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.1.50918.0
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation.  All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/412a6b755b2029126d46e7469854add3faa850f5a4700dd1e078fcc536ca418a/detection/
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is ENScript.exe?
 
 # ENScript.exe 
 
-* File Path: `C:\program files (x86)\Evernote\Evernote\ENScript.exe`
+* File Path: `C:\Program Files (x86)\Evernote\Evernote\ENScript.exe`
 * Description: ENScript Application
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `58F3E9CE4DD525A83B358B93B132D2452EC2F07189F7DBB4F146120C16CB5DF3`
 SHA384 | `1B10BF4BB7D530DCC40B67ED570BA3DAAFDA868D3E02F438B0079E605A62D81420D9A73D6186DFBD0D38F09AB0973913`
 SHA512 | `6EF3EF60F10E4B0461A281E57E982D968BA8333CDD4624D5E1D4894427CCCEDDD6D6C833A8D3C053BCFD8F594973DF5EACA6A40AB281C03E09A6D39B5DE7EC95`
 SSDEEP | `49152:kWDNeyD3yQ/WpSCU23ieKaYV8JyxO3IQ5FmIUpFtv/0VB4S6w1iSpBOeLnZcu:1x7eKGJyxO3IQ5cjDu`
+IMP | `1FB9B53D1A5D45267697D2101F5855F2`
+PESHA1 | `9BFC7A9E20A0F7A3BC285275AED547497866664F`
+PE256 | `282898738E67C10F59260E4A97EA4BF3F179348719795E592B1FDD6D11070602`
 
 ## Runtime Data
 
@@ -53,7 +56,7 @@ options specified in the response file.
 
 ### Usage (stderr):
 ```cmhg
-Unknown command: "--help"
+Unknown command: "C:\temp\strontic-xcyclopedia\notepad.exe"
 
 ```
 
@@ -61,7 +64,7 @@ Unknown command: "--help"
 
 Path |
 -- |
-C:\program files (x86)\Evernote\Evernote\ENScript.exe |
+C:\Program Files (x86)\Evernote\Evernote\ENScript.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -86,7 +89,12 @@ C:\Windows\System32\wow64win.dll |
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 Evernote Corporation.
 All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/58f3e9ce4dd525a83b358b93b132d2452ec2f07189f7dbb4f146120c16cb5df3/detection/
 
 
 

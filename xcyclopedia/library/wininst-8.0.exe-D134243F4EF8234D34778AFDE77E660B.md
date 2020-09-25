@@ -75,8 +75,9 @@ File | Score
 -- | --
 [C:\program files (x86)\Python38-32\Lib\distutils\command\wininst-8.0.exe](wininst-8.0.exe-ED0FDE686788CAEC4F2CB1EC9C31680C.md) | 97
 [C:\program files\Inkscape\lib\python3.8\distutils\command\wininst-8.0.exe](wininst-8.0.exe-D134243F4EF8234D34778AFDE77E660B.md) | 100
+[C:\Program Files\Inkscape\lib\python3.8\distutils\command\wininst-8.0.exe](wininst-8.0.exe-DB9CCEAE232BDD04EB18859DA7A8E6C5.md) | 99
 [C:\program files\LibreOffice\program\python-core-3.7.7\lib\distutils\command\wininst-8.0.exe](wininst-8.0.exe-ED0FDE686788CAEC4F2CB1EC9C31680C.md) | 97
-[C:\program files\Python38\Lib\distutils\command\wininst-8.0.exe](wininst-8.0.exe-ED0FDE686788CAEC4F2CB1EC9C31680C.md) | 97
+[C:\Program Files\Python38\Lib\distutils\command\wininst-8.0.exe](wininst-8.0.exe-ED0FDE686788CAEC4F2CB1EC9C31680C.md) | 97
 
 
 

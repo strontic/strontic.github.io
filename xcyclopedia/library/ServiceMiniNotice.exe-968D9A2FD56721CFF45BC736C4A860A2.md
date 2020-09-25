@@ -5,7 +5,7 @@ excerpt: What is ServiceMiniNotice.exe?
 
 # ServiceMiniNotice.exe 
 
-* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe`
+* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe`
 * Description: Foxit Reader ConnectedPDF Popup Notice Windows.
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `9FAB1AE975D063663BBFCD15EA80C2AC6D53F7EBBABA04D47440428871A9CFDE`
 SHA384 | `DFAC730C41EC1C6018134B2F30B01FC8CB270E6AF6D534FC65A2ADB74EF263759E7CF0FC54BD73D2DF17D6E7733729D8`
 SHA512 | `458EB93A3E294E944E18C92D4D1554FE76064E36627DBD06245F7B73457068B51F8C738A711D4730A04DFFDFAC660559096D9A36F60242BD43CCA93340142C97`
 SSDEEP | `49152:ixfy3P6hvQ89hIedXFhFdoTvReoWYk+8NGTC:6SPivQ88IXFhFdoTv4oWYk`
+IMP | `FFA4187319C1C0DE72963EDE13BB77CA`
+PESHA1 | `EEC15371B5D8C4E836554B581F478220938B818D`
+PE256 | `510EA25299C7A4F7E7C76F3A01CDEF35576FA7BE86E617E645C9753E4333720A`
 
 ## Runtime Data
 
@@ -32,25 +35,25 @@ Foxit ConnectedPDF Notification
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Local\Temp\~DFF42902CE85187ED8.TMP | File
-(RW-)   C:\Users\user\Documents | File
+(R--)   C:\Users\user\AppData\Local\Temp\~DFF85BE4021CCD20DC.TMP | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\1238HWNDInterface:3d0026 | Section
+\Sessions\1\BaseNamedObjects\2044HWNDInterface:b503c0 | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe |
+C:\Program Files (x86)\Foxit Software\Foxit Reader\ServiceMiniNotice.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -74,7 +77,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.1.35811
 * Language: English (United States)
 * Legal Copyright: Copyright  2016-2020 Foxit Software Inc. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/9fab1ae975d063663bbfcd15ea80c2ac6d53f7ebbaba04d47440428871a9cfde/detection/
 
 
 

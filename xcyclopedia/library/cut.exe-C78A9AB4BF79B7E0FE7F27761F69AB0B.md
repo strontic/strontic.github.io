@@ -97,11 +97,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\cut.exe](cut.exe-C78A9AB4BF79B7E0FE7F27761F69AB0B.md) | 100
 
 
 

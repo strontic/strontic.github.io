@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files\Krita (x64)\uninstall.exe`
+* File Path: `C:\Program Files\Krita (x64)\uninstall.exe`
 * Description: Krita (x64) 4.3.0 Setup
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `B99BB630B5E7438355565CEC976AC2845BBB87910DB75F3918A2E11BDBDC06CD`
 SHA384 | `948F5F52C65B7B6A69F6015D3D2282A4B51182D2E89B137337999325724A7DEDDC06CE98064BAF74EA793F066FE746E3`
 SHA512 | `E959808969ED6DA4E14FF9DCDE4BCB7B0341AFF99908314A688E5389A9E6590612A12A30D14C6A5747B821D84E490D5527F3859BDC480507A1CE560159F17E7A`
 SSDEEP | `1536:+5slrHFDzLcQAT50q6muOwgdLeAyNswgVOyt2EX:USrFD0QAGq6muOwceAZqEX`
+IMP | `24F4223E271413C25ABAD52FD456A9BC`
+PESHA1 | `n/a`
+PE256 | `n/a`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files\Krita (x64)\uninstall.exe |
+C:\Program Files\Krita (x64)\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -37,7 +40,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files\Krita (x64)\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\Krita (x64)\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -52,14 +55,19 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4.3.0.0
 * Language: English (United States)
 * Legal Copyright: Krita Foundation
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/b99bb630b5e7438355565cec976ac2845bbb87910db75f3918a2e11bdbdc06cd/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 29
-[C:\program files (x86)\Pidgin\pidgin-uninst.exe](pidgin-uninst.exe-410E7935B3F84864AD7755A591A157B9.md) | 50
+[C:\Program Files (x86)\NVDA\uninstall.exe](uninstall.exe-2F5FBCA5E5E61BB01D8E7A69340BF951.md) | 29
+[C:\Program Files (x86)\Pidgin\pidgin-uninst.exe](pidgin-uninst.exe-410E7935B3F84864AD7755A591A157B9.md) | 50
 
 ## Possible Misuse
 

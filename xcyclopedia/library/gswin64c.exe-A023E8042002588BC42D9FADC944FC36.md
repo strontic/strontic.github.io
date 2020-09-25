@@ -17,6 +17,9 @@ SHA256 | `CCD8AE634552299C2101300EABDFE3657D4BBAD9647C3039ED960AACAED8634E`
 SHA384 | `B4F6407C99FB2FD55200722426D0A8BF6E1C0F3BBA44ED659D72D2300CA9389A56E1E5A7373A93A4588D327AC139DFA6`
 SHA512 | `CB3A52B4B4BE50CA3DC5D41BDFE875A2947B358BCA3A935F5574F6711141C85B4170C25BC3A1B45EB74ADB9C5B2924E35077737E4EB204416D2121F38C3B596F`
 SSDEEP | `3072:1O4FeGs2xmZlD7r7YiboFmp0lqNVA/dGZvVMGvVG4mkfOWvCKpLeXjJj:XeGs2Mfr7rcFmOEVAFiCGvNvfAXN`
+IMP | `F731B245C6CCEBD386FAC125C38C2BA1`
+PESHA1 | `4D76360D5CABEFB63F7B20C27E2DFB751EF3F443`
+PE256 | `904FA59B3C642FBAB1784296FCDC842FEF3FF783C84F9103C837A1C4DD44AD41`
 
 ## Runtime Data
 
@@ -67,6 +70,16 @@ GPL Ghostscript 9.50: Unrecoverable error, exit code 1
 
 ```
 
+### Loaded Modules:
+
+Path |
+-- |
+C:\Program Files\gs\gs9.50\bin\gswin64c.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
 ## Signature
 
 * Status: The file C:\Program Files\gs\gs9.50\bin\gswin64c.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
@@ -84,7 +97,12 @@ GPL Ghostscript 9.50: Unrecoverable error, exit code 1
 * Product Version: 9.50
 * Language: English (United States)
 * Legal Copyright: Copyright (C) 2019 Artifex Software, Inc.  All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/ccd8ae634552299c2101300eabdfe3657d4bbad9647c3039ed960aacaed8634e/detection/
 
 
 

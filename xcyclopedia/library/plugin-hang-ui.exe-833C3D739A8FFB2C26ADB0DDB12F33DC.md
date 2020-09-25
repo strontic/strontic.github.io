@@ -55,6 +55,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Program Files\Mozilla Thunderbird\plugin-hang-ui.exe](plugin-hang-ui.exe-06193B43DAE46D1FBBECCAA0B913F447.md) | 77
+[C:\Program Files\Mozilla Thunderbird\plugin-hang-ui.exe](plugin-hang-ui.exe-5BBE12DA4B8E4CD9D711FC73DC2F3BA2.md) | 79
 
 
 

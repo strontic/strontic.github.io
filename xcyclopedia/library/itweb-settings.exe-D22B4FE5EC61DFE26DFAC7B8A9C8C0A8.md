@@ -5,7 +5,7 @@ excerpt: What is itweb-settings.exe?
 
 # itweb-settings.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe`
 
 ## Hashes
 
@@ -17,13 +17,16 @@ SHA256 | `E67CA80460F378F69FE913E76394D0EA48ACB50D4F6252B7530E03E6C77BE144`
 SHA384 | `58C8C226BCAC1AFE3A302433E5EA90E4F53076798E6B01DD24A35EBEDADC2FEE20DEA4BCAD409D80A2815064445CF5D2`
 SHA512 | `B3D4350B0519695BD414AB1DF4181550CF6AF49F5CB9A29B2F556B16F13C443AB8E260E6E89C2F6A52F00CED89AE7E280FA3D8BA157128C73EE24461BBA67509`
 SSDEEP | `6144:sTX359jrJC03Ccbhuoyq3x6lX0+KCcFCopO4JUr:sTn59jrJC03CcVVQJDwFvpKr`
+IMP | `9FD54043F02018BEF6A03B084CAEEE47`
+PESHA1 | `A534569EE88B76D6EB149039CCFF22849F828328`
+PE256 | `E9DADA88203CFC23D9AFF4C1B588C95F2F6BF4A81A38910EB4FA66590B2571D2`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
-Unknown command /?
+selected jre: C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\
+Unknown command C:\temp\strontic-xcyclopedia\notepad.exe
 
 SYNOPSIS
     itweb-settings
@@ -51,19 +54,16 @@ DESCRIPTION
 
 ```
 
-### Usage (stderr):
-```cmhg
-WARNING: package javax.jnlp not in java.desktop
-WARNING: package sun.awt.X11 not in java.desktop
-
-```
+### Child Processes:
+nvda.exe
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\itweb-settings.exe |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\SYSTEM32\CRYPTBASE.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
@@ -90,13 +90,18 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e67ca80460f378f69fe913e76394d0ea48acb50d4f6252b7530e03e6c77be144/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\itweb-settings.exe](itweb-settings.exe-D22B4FE5EC61DFE26DFAC7B8A9C8C0A8.md) | 100
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\itweb-settings.exe](itweb-settings.exe-D22B4FE5EC61DFE26DFAC7B8A9C8C0A8.md) | 100
 
 
 

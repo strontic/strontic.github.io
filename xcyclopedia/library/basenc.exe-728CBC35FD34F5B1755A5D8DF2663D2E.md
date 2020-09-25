@@ -93,11 +93,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\basenc.exe](basenc.exe-728CBC35FD34F5B1755A5D8DF2663D2E.md) | 100
 
 
 

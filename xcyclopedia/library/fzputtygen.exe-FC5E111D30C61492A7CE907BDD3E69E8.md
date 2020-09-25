@@ -5,7 +5,7 @@ excerpt: What is fzputtygen.exe?
 
 # fzputtygen.exe 
 
-* File Path: `C:\program files\FileZilla FTP Client\fzputtygen.exe`
+* File Path: `C:\Program Files\FileZilla FTP Client\fzputtygen.exe`
 * Description: SFTP module for FileZilla based on PuTTY's psftp component
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `7C84C2B3A232D915892CE277018D64FB07F7DF77EFB85336D8E26FF456869C48`
 SHA384 | `591B22A54E8A6E399BC7DBF648359A471D72E44C760A6C9FF5539E7C1856D810A3AB9934600C81062405890766A0A2BA`
 SHA512 | `74A85F70C8845B7FDC18BEB2437E478219D3915802B17C92FCAAA103C35CAA011C494EECA4F353453EF13256211474D568F1DDD814CDCF19A50A7F358F2BC255`
 SSDEEP | `6144:YyfUnXA86uJx13XyBc8LPNnEwYchsflDrI0:YXbxdCGU1Emsf9I0`
+IMP | `6A1D312A78347FEA3D1178F6ABFE8426`
+PESHA1 | `70D277E1FB0D8F42842DA8D46A686BB6E136EE1A`
+PE256 | `F30B6795880E174B85D7EBAFD63EAAF603B1CDE4136A068DF8B38E3F8F893E52`
 
 ## Runtime Data
 
@@ -41,7 +44,7 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -50,7 +53,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files\FileZilla FTP Client\fzputtygen.exe |
+C:\Program Files\FileZilla FTP Client\fzputtygen.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -73,7 +76,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: Unidentified build
 * Language: English (United Kingdom)
 * Legal Copyright: Copyright  2004-2020 Tim Kosse,   1997-2019 Simon Tatham.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/7c84c2b3a232d915892ce277018d64fb07f7df77efb85336d8e26ff456869c48/detection/
 
 ## File Similarity (ssdeep match)
 

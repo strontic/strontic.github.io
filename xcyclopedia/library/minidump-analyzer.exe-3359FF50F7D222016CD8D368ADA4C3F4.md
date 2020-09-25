@@ -54,6 +54,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Program Files\Mozilla Thunderbird\minidump-analyzer.exe](minidump-analyzer.exe-9483589B13726E1F0AE8A3F1D1EEF065.md) | 94
+[C:\Program Files\Mozilla Thunderbird\minidump-analyzer.exe](minidump-analyzer.exe-C34B4D684CA0A901BA15350189D06743.md) | 94
 
 
 

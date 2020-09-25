@@ -5,7 +5,7 @@ excerpt: What is SDWSCSvc.exe?
 
 # SDWSCSvc.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDWSCSvc.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDWSCSvc.exe`
 * Description: Windows Security Center integration.
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `3286992FB5375FC4571374EEF07046DC8B092F47251D0528AD6256244918650E`
 SHA384 | `FE45F9628D74E118B8370C1762876094FC7DB4D8300E95B0EF60B44D122902057498363E4B65E7FF64DDD0B6FAD4367D`
 SHA512 | `1F5C42A54B6A1E3A47541251605400AFDC328125F4D305DBD816C18246F69DAD60E4A3C6F58ECE9F7644863A9D1A1F4609AAA43D148C4EF7C1EB0DAB00E852C2`
 SSDEEP | `3072:Rw48JpMi+asPxHsBvl62f1k4TZEbekV2Wla08sCt4PsOpFQ+Npd4ER0a:rWh+hPxV6Wla0BCtOpFQ+jr+a`
+IMP | `396B263E7E8F29C51326C5BC02FEED40`
+PESHA1 | `D874B029D2006F98A069B55972DE7BD47E025E9C`
+PE256 | `CBD8141BBA51B52BDB1FE1D65F1D4060E773FD6CCEBB95D500AC113085A30936`
 
 ## Runtime Data
 
@@ -38,7 +41,7 @@ Help - Usage. The following parameters are supported:
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDWSCSvc.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDWSCSvc.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -62,7 +65,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/3286992fb5375fc4571374eef07046dc8b092f47251d0528ad6256244918650e/detection/
 
 
 

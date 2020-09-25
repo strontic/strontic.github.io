@@ -77,8 +77,9 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\program files (x86)\WinSCP\unins000.exe](unins000.exe-6AE472CF11968C09BBD88DE10C91F4ED.md) | 83
+[C:\Program Files (x86)\WinSCP\unins000.exe](unins000.exe-6AE472CF11968C09BBD88DE10C91F4ED.md) | 83
 [C:\program files\Microsoft VS Code\unins000.exe](unins000.exe-30F9E0633397507EB900C8593FAC704F.md) | 100
+[C:\Program Files\Microsoft VS Code\unins000.exe](unins000.exe-630C9FB2DB921BD7C37628A7C9628D9E.md) | 97
 [C:\Program Files\Microsoft VS Code\unins000.exe](unins000.exe-9318C883BC05C372FF9475692414D712.md) | 97
 
 

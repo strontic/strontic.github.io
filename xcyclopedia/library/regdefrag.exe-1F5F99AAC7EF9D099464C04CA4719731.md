@@ -47,6 +47,7 @@ SSDEEP | `1536://zmpeB8PQBgVQQv2bm4Sr8TwJOVWXFYPgz+OzJzhGzzz+Tzn4zoTzbzhGz2zBKU:
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\regdefrag.exe](regdefrag.exe-0DC10FD83089A94A9FB03B5707CCE194.md) | 97
+[C:\Program Files (x86)\Glary Utilities 5\regdefrag.exe](regdefrag.exe-ACCD55195B958A893E2E71A287614AFF.md) | 97
 
 
 

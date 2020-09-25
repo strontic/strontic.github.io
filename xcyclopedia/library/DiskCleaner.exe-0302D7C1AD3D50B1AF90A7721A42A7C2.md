@@ -81,6 +81,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\DiskCleaner.exe](DiskCleaner.exe-12EFC21AFDF0C8238DB92188372804A7.md) | 93
 [C:\Program Files (x86)\Glary Utilities 5\DiskCleaner.exe](DiskCleaner.exe-B69008A18C3BB9686C34695D01AB1DFC.md) | 90
 
 

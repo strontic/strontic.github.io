@@ -74,10 +74,11 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\program files (x86)\KeePass Password Safe 2\unins000.exe](unins000.exe-8FAB72787C6F65CFEEFE9908289D68CC.md) | 86
-[C:\program files (x86)\XnView\unins000.exe](unins000.exe-898376CA4B6D0CA96191BD99DAA74243.md) | 90
-[C:\program files\CDBurnerXP\unins000.exe](unins000.exe-4980F7BBCE7E809E771D984EA2348F15.md) | 85
-[C:\program files\VS Revo Group\Revo Uninstaller\unins000.exe](unins000.exe-6620E40043ED6C1F75BCD873469F2850.md) | 88
+[C:\Program Files (x86)\KeePass Password Safe 2\unins000.exe](unins000.exe-8FAB72787C6F65CFEEFE9908289D68CC.md) | 86
+[C:\Program Files (x86)\Microsoft\Skype for Desktop\unins000.exe](unins000.exe-C26D6DF4579EF884063859CE3879E798.md) | 99
+[C:\Program Files (x86)\XnView\unins000.exe](unins000.exe-898376CA4B6D0CA96191BD99DAA74243.md) | 90
+[C:\Program Files\CDBurnerXP\unins000.exe](unins000.exe-4980F7BBCE7E809E771D984EA2348F15.md) | 85
+[C:\Program Files\VS Revo Group\Revo Uninstaller\unins000.exe](unins000.exe-6620E40043ED6C1F75BCD873469F2850.md) | 88
 [C:\program files\WinMerge\unins000.exe](unins000.exe-5DDEAB87968A510BD6BBF6D2E3D0D4C0.md) | 86
 
 

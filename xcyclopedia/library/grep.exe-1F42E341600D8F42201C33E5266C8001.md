@@ -125,7 +125,7 @@ Try 'grep --help' for more information.
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\grep.exe](grep.exe-C012D7F8A7931DDDB7181A969A1038E4.md) | 97
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\grep.exe](grep.exe-C012D7F8A7931DDDB7181A969A1038E4.md) | 97
 
 
 

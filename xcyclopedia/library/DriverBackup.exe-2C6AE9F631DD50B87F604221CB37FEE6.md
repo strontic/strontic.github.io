@@ -52,6 +52,7 @@ MemfilesService.exe
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\DriverBackup.exe](DriverBackup.exe-3E460856D5421A40B5B075F1F772502B.md) | 97
+[C:\Program Files (x86)\Glary Utilities 5\DriverBackup.exe](DriverBackup.exe-5ABFE96EE190437FF2572F2226C00976.md) | 97
 
 
 

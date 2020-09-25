@@ -80,6 +80,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\RegistryCleaner.exe](RegistryCleaner.exe-6C8D3198FB61B7739CF574CF1E71226E.md) | 96
 [C:\Program Files (x86)\Glary Utilities 5\RegistryCleaner.exe](RegistryCleaner.exe-7AAB426DADA6E4F85740316E212D0BEB.md) | 97
 
 

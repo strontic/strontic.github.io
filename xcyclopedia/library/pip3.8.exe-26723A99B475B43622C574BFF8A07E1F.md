@@ -121,9 +121,10 @@ File | Score
 [C:\program files (x86)\Python38-32\Scripts\pip3.exe](pip3.exe-4A17B3EEC62A2F1DB47D2C6927A7F506.md) | 97
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-5F06A8C118ED1CB5197DDC634133451B.md) | 24
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-C88E3C7B935D2ED8A4E53B78B53CB1D2.md) | 24
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-F7328BF69CD450E444E7C1E48747BDBF.md) | 32
 [C:\program files\GIMP 2\lib\python2.7\site-packages\distlib\t32.exe](t32.exe-F9C699EB172F25C889BC79247E7FEB16.md) | 94
 [C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-AD95D8AB51B4991174DC9734C0F332ED.md) | 94
-[C:\program files\Python38\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
+[C:\Program Files\Python38\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 
 
 

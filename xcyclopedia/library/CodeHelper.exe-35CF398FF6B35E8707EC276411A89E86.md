@@ -62,6 +62,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files\Microsoft VS Code\resources\app\out\vs\platform\files\node\watcher\win32\CodeHelper.exe](CodeHelper.exe-8D9B62A572D40BF8564E1CB89DFA60F2.md) | 90
+[C:\Program Files\Microsoft VS Code\resources\app\out\vs\platform\files\node\watcher\win32\CodeHelper.exe](CodeHelper.exe-DC3CB03BAC659F0704DF1043BAC8AE5A.md) | 90
 
 
 

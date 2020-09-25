@@ -5,7 +5,7 @@ excerpt: What is uninstall.exe?
 
 # uninstall.exe 
 
-* File Path: `C:\program files (x86)\SugarSync\uninstall.exe`
+* File Path: `C:\Program Files (x86)\SugarSync\uninstall.exe`
 * Description: SugarSync Setup
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `B874011E659268BB0701C503BA61E2F1A8909D0A31B6F8219AA3623973FB0629`
 SHA384 | `99A74502FB2F573308FE4D7C87F07FEBFFDE76693E68CD1330684D6CDB998957BF9E80D7D828EA161489DF6ABF69A1C6`
 SHA512 | `2E2C5126A8E8D129BEBB4D6A59AEA851444A39377846BE2B3AA81B30619EF73E27D83CF306918D115AEFB4BAD0AE47C06E42A6C085CBDDE378C2AFF2AA11885D`
 SSDEEP | `3072:ldRGsvFggQcX/FPGH56sqNkX9movsQnhar7Wd3ZGqYO5I:l5L/FPGH56sqNkNmoDhmqaqYOW`
+IMP | `57E98D9A5A72C8D7AD8FB7A6A58B3DAF`
+PESHA1 | `n/a`
+PE256 | `n/a`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files (x86)\SugarSync\uninstall.exe |
+C:\Program Files (x86)\SugarSync\uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -37,7 +40,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\SugarSync\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\SugarSync\uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -52,7 +55,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 4.0.1.2
 * Language: English (United States)
 * Legal Copyright: (c) 2020 KeepItSafe, Inc.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/b874011e659268bb0701c503ba61e2f1a8909d0a31b6f8219aa3623973fb0629/detection/
 
 
 ## Possible Misuse

@@ -101,6 +101,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Artem Izmaylov
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\AIMP3\AIMP.exe](AIMP.exe-7C24BE8CDFD77852E65B1A072C754100.md) | 40
 
 
 

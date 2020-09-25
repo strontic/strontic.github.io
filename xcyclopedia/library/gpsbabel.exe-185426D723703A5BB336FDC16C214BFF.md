@@ -5,7 +5,7 @@ excerpt: What is gpsbabel.exe?
 
 # gpsbabel.exe 
 
-* File Path: `C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe`
+* File Path: `C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `404CD331D409A1D61B6FD3F656087C2C6DBDC6786D60C2C495CC999B3444ADB3`
 SHA384 | `CEFA256E97FB2EEDCE7FFACE0A17D2B659AD2F408C817713BE33A2AB5E5862CDE67D90BEC063354EEF7219BADD6D59D7`
 SHA512 | `CB15034645C154829E3ED4A76FBABDFBC844958A0934D041905AC039D9EEDB2A0A90948414A1BD3BF6A5E3572E1900C7AE6C807B5333E2DF2CB30C1934543FBD`
 SSDEEP | `24576:Z4zLA+L1DPzS33GBTKz52IIDbOu0RKV7+7CVsCmj7:Z4zLA+L1bzcGBTWoIIXOu0RKmCQj7`
+IMP | `6BB07118A34BDB285BF2C78FBEED63F0`
+PESHA1 | `12FAAC01F7309EEBB6967C0FC446D1CD4BC12E3F`
+PE256 | `9B6D1595ABD437E60A63529CF38FBA3D0D419FAD4C0CEA12DC7335EBA5A9AC9F`
 
 ## Runtime Data
 
@@ -25,8 +28,8 @@ SSDEEP | `24576:Z4zLA+L1DPzS33GBTKz52IIDbOu0RKV7+7CVsCmj7:Z4zLA+L1bzcGBTWoIIXOu0
 GPSBabel Version 1.6.0.  http://www.gpsbabel.org
 
 Usage:
-    C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -f INFILE [filter] -o OUTTYPE -F OUTFILE
-    C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -o OUTTYPE INFILE [filter] OUTFILE
+    C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -f INFILE [filter] -o OUTTYPE -F OUTFILE
+    C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe [options] -i INTYPE -o OUTTYPE INFILE [filter] OUTFILE
 
     Converts GPS route and waypoint data from one format type to another.
     The input type and filename are specified with the -i INTYPE
@@ -185,7 +188,7 @@ Supported data filters:
 
 Path |
 -- |
-C:\program files (x86)\Google\Google Earth Pro\client\gpsbabel.exe |
+C:\Program Files (x86)\Google\Google Earth Pro\client\gpsbabel.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -209,7 +212,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/404cd331d409a1d61b6fd3f656087c2c6dbdc6786d60c2c495cc999b3444adb3/detection/
 
 
 

@@ -50,8 +50,10 @@ Usage: updater patch-dir install-dir apply-to-dir [wait-pid [callback-working-di
 
 File | Score
 -- | --
+[C:\Program Files\Mozilla Firefox\updater.exe](updater.exe-019CF18ADC3FA81FA314F8B3ED9061C1.md) | 33
 [C:\program files\Mozilla Firefox\updater.exe](updater.exe-904B85E7D09E0CEE3294D10F947E3183.md) | 36
 [C:\Program Files\Mozilla Firefox\updater.exe](updater.exe-B0DC65F40D4D45A9E42628902C35422F.md) | 36
+[C:\Program Files\Mozilla Thunderbird\updater.exe](updater.exe-07D16EADF927C51C736FA89A68A9F379.md) | 40
 [C:\program files\Mozilla Thunderbird\updater.exe](updater.exe-BF0362D3182C55DB7143EFA1098CEB6D.md) | 41
 
 ## Possible Misuse

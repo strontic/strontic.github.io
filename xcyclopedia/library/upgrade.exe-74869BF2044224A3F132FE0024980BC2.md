@@ -55,6 +55,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\upgrade.exe](upgrade.exe-798242794D23FDFF13B482C5D20AF566.md) | 94
 [C:\Program Files (x86)\Glary Utilities 5\upgrade.exe](upgrade.exe-9810F0E323B516DE7A1565BFF34CC95F.md) | 94
 
 ## Possible Misuse

@@ -5,7 +5,7 @@ excerpt: What is wmpnetwk.exe?
 
 # wmpnetwk.exe 
 
-* File Path: `C:\program files\Windows Media Player\wmpnetwk.exe`
+* File Path: `C:\Program Files\Windows Media Player\wmpnetwk.exe`
 * Description: Windows Media Player Network Sharing Service
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `71B59933717D4F6E6F845B86E5C85507E3DBC27E694D492DB0CEA2D0F0B6E2F0`
 SHA384 | `2DEAFA38541B41DE38C32B9337683EBFA27A985E8AE4B11A7022B80F6EE11F94AA3B21F94FDEC175CE7AC58B1B2FF6E8`
 SHA512 | `3B11FE71ADA9FD6E3C8D7626A81938F1F341B9C6B6C5C9D1382BFD2FDEABA6D5010B9A764A5B61F67CCFF3D9DBA205297BC19CFB9E9B6EB55F36C524C9E58D10`
 SSDEEP | `12288:1q4mKvoNHSna5akf7oTiaMJBZRKFI1hh2PrLw+1N3Xj4WMIAbsm4XYYKYXx:haEkjoTiaMu+1KfThjbXXjKA`
+IMP | `F32463049238CFF3FAB1C5C6E3AB9A84`
+PESHA1 | `0583D25F7FCA9A62D5EDCB0E9237543C8BD20E6A`
+PE256 | `5345C87436C9B0B675B9C2A0224B2283703F400737E727DB99C18D27AE476342`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `12288:1q4mKvoNHSna5akf7oTiaMJBZRKFI1hh2PrLw+1N3Xj4WMIAbsm4XYYKYXx:haEk
 
 Path |
 -- |
-C:\program files\Windows Media Player\wmpnetwk.exe |
+C:\Program Files\Windows Media Player\wmpnetwk.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -48,7 +51,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/71b59933717d4f6e6f845b86e5c85507e3dbc27e694d492db0cea2d0f0b6e2f0/detection/
 
 
 

@@ -56,6 +56,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\AutoUpdate.exe](AutoUpdate.exe-9EBC727B6DB81A87605E024E23D35326.md) | 93
+[C:\Program Files (x86)\Glary Utilities 5\AutoUpdate.exe](AutoUpdate.exe-F93CAF4FCC37DB8039AFFFCE510B9E0A.md) | 96
 
 ## Possible Misuse
 

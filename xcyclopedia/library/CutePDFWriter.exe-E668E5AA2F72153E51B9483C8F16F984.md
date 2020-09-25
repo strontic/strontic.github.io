@@ -18,6 +18,22 @@ SHA256 | `362B9B5618F75D12432AB535CCA8C547352714BF563AFB3A57FEE920D890CBA5`
 SHA384 | `172BE9D0F79781F49F620A6F08DB6415DDD29ED7BFE6907A9D81E7F521193E7DCD6624ABB43636B9F621D4A96657C63F`
 SHA512 | `1DADD2A9F50025A260EC432F0514600BA05303380ADFE2CF1E77F424219F03A19B63F6D26C8B3756C193FEA38EE87D4A6B7928D05E7F1BEA5739BE87467354E9`
 SSDEEP | `98304:jfhUfKsbePvDYXFAQ+Q4PkMVV0r6v/2Ojjcdmo9KTFOyFTPdFLOAkGkzdnEVomFv:DhUfKsbePrKAQ+R8MV2wTFOy5dFLOyoU`
+IMP | `CEEB548FBCA5AF10FA52F327A58CEDD7`
+PESHA1 | `2C08242052684604C19C8F2E0A12A78562DFBF41`
+PE256 | `AB97F9AE0E93ED4753E46F893C8420AC851D7D0556E38D4E3AF678618E3AFB62`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Program Files (x86)\CutePDF Writer\CutePDFWriter.exe |
+C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\wow64.dll |
+C:\Windows\System32\wow64cpu.dll |
+C:\Windows\System32\wow64win.dll |
+
 
 ## Signature
 
@@ -36,13 +52,18 @@ SSDEEP | `98304:jfhUfKsbePvDYXFAQ+Q4PkMVV0r6v/2Ojjcdmo9KTFOyFTPdFLOAkGkzdnEVomFv
 * Product Version: 4.0.0.1
 * Language: English (United States)
 * Legal Copyright: Copyright 2020 by Acro Software Inc., All Rights Reserved
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/362b9b5618f75d12432ab535cca8c547352714bf563afb3a57fee920d890cba5/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\GRETECH\GomPlayer\HWAccelWzd.exe](HWAccelWzd.exe-8FB346D9F02DC1DD704BC57495A3C6ED.md) | 36
+[C:\Program Files (x86)\GRETECH\GomPlayer\HWAccelWzd.exe](HWAccelWzd.exe-8FB346D9F02DC1DD704BC57495A3C6ED.md) | 36
 
 
 

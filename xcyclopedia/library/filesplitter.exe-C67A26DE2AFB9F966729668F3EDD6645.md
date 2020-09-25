@@ -43,6 +43,7 @@ SSDEEP | `3072:iSDoWihW1jDOPsVVVVVVVVVVVjFODKyVQ:JDoZqjDOPsVVVVVVVVVVVjrN`
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\filesplitter.exe](filesplitter.exe-30B1F356D8BBFAAF4498CFC06E78145E.md) | 90
+[C:\Program Files (x86)\Glary Utilities 5\filesplitter.exe](filesplitter.exe-395F3EF1E716C0B8708B4E031B265689.md) | 85
 
 
 

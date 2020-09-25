@@ -48,10 +48,13 @@ SSDEEP | `3072:GQAMI0+UWi69dGa8w+j4D0qJ4bsmlp3vKpRBHglKp:GRi69dGaZ0G4bvCpRBZp`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-59A1CFFFD1A4736E6C7C31840D6DF90C.md) | 35
 [C:\program files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-65CA9E0DF3C8B0D76BB0126B0C593A3C.md) | 32
 [C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-EF568D198B3DEDB38FCC19FA94950B06.md) | 35
+[C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-6FA586963D8EACAF21B0B3175E19E14A.md) | 35
 [C:\program files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-99C31B5AA52C51669444A916B3C02BB7.md) | 32
 [C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-F5575E3999B99035CFAC687907102B12.md) | 33
+[C:\Program Files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-685CB56B9EEE21EE835A68392709D89B.md) | 38
 [C:\program files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-DEAB73614D4D7C0807C5391FED75035A.md) | 41
 
 

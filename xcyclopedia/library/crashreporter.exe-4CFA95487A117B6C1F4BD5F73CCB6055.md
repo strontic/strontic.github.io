@@ -105,6 +105,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\Program Files\Mozilla Thunderbird\crashreporter.exe](crashreporter.exe-6DA9600E6D73BB8F66EA47674192D8D9.md) | 91
+[C:\Program Files\Mozilla Thunderbird\crashreporter.exe](crashreporter.exe-79E72A69D9DEACB09974E96003A02D12.md) | 91
 
 
 

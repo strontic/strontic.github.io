@@ -5,7 +5,7 @@ excerpt: What is updater.exe?
 
 # updater.exe 
 
-* File Path: `C:\program files\CDBurnerXP\updater.exe`
+* File Path: `C:\Program Files\CDBurnerXP\updater.exe`
 * Description: CDBurnerXP Updater
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `D552A297A9393EA9A0AAD2B5649D7D7749D9A098ECB8CDE0823C3674024A28CE`
 SHA384 | `EAFEAFCA6F1513AE76450A2B478CA0AD4D2B9FAAB3B55F12E020210DD222CFEEDABF858ECB72F5DBB1BF80F58401CDD5`
 SHA512 | `E0C8B54FADBAA8778C2EBF1F477838E9227BF3B5A6F1F8AEF0BB41283666D9DA44A5B023C8633919B88A3A445910F29CE8F82D898250AEBA9C5A9A089C465034`
 SSDEEP | `384:Q2cAbR1ciHKCrQOAPFtEXW0do6J0DeOVSi2SWsaS:jbR1OOAdAa6GiBlSX`
+IMP | `n/a`
+PESHA1 | `27972A2FF680B7C4178F357B32566E1B71FC2F06`
+PE256 | `F6F14A343D8522F74F20BCAEC1B50A9E29903935C086D0648A3A3BDF8BB69FAA`
 
 ## Runtime Data
 
@@ -38,12 +41,11 @@ updater.exe WerFault.exe
 
 Path | Type
 -- | --
-(R--)   C:\Windows\assembly\pubpol5.dat | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\xCyclopedia | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_4604 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_4616 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
@@ -53,7 +55,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files\CDBurnerXP\updater.exe |
+C:\Program Files\CDBurnerXP\updater.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\KERNEL32.dll |
 C:\Windows\System32\KERNELBASE.dll |
@@ -81,7 +83,12 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 4.5.8.7128
 * Language: Language Neutral
 * Legal Copyright: Copyright 2008 Canneverbe Limited
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/d552a297a9393ea9a0aad2b5649d7d7749d9a098ecb8cde0823c3674024a28ce/detection/
 
 
 ## Possible Misuse

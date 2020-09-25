@@ -5,7 +5,7 @@ excerpt: What is Uninstall.exe?
 
 # Uninstall.exe 
 
-* File Path: `C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe`
+* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe`
 * Description: GOM Player Setup File
 * Comments: GOM Player Setup File (2017-05-08 17:17:42)
 
@@ -20,6 +20,9 @@ SHA256 | `3FEB94195FD6F271A412B63611FC18DA8EECC222AD35CE7BC36F081579900EEA`
 SHA384 | `474AE5BC67D934B37B668AC5175F3D2A657C06ECA56D33682CD862704C2DE3D8EC2CA15AFA5E35799BF5656F29476621`
 SHA512 | `BC439631FDFEC491D12557834E348795427F17B1296A10FF8224E0F960D5AFCAFBAB7BE62D20095417E3E03D5733FF663076EA2559B757369402B1B82CE8A1A8`
 SSDEEP | `3072:EAe+3aJpgWXTBuTqkoff3m06rm7EiGxgGRaBAC9cfg2Wv+D8SWyZ:XB+pgUeqTv7c1lC2fAWDpZ`
+IMP | `4EA4DF5D94204FC550BE1874E1B77EA7`
+PESHA1 | `n/a`
+PE256 | `n/a`
 
 ## Runtime Data
 
@@ -30,7 +33,7 @@ Un_A.exe
 
 Path |
 -- |
-C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe |
+C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -39,7 +42,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\GRETECH\GomPlayer\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\GRETECH\GomPlayer\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -54,13 +57,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.3.14.5270
 * Language: English (United States)
 * Legal Copyright: Copyright(C) Since 2003 Gretech Corporation.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/3feb94195fd6f271a412b63611fc18da8eecc222ad35ce7bc36f081579900eea/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Steam\uninstall.exe](uninstall.exe-04AC66825466772809E5F5A7D6D66292.md) | 38
+[C:\Program Files (x86)\Steam\uninstall.exe](uninstall.exe-04AC66825466772809E5F5A7D6D66292.md) | 38
 
 ## Possible Misuse
 

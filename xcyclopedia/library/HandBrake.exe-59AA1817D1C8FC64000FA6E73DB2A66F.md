@@ -5,7 +5,7 @@ excerpt: What is HandBrake.exe?
 
 # HandBrake.exe 
 
-* File Path: `C:\program files\HandBrake\HandBrake.exe`
+* File Path: `C:\Program Files\HandBrake\HandBrake.exe`
 * Description: HandBrake
 * Comments: HandBrake is an open-source, GPL-licensed, multiplatform,video transcoder.
 
@@ -24,18 +24,17 @@ SHA256 | `22B30EF8DBC10BB21098E372CB15825711773B86403E7294A501404E5F642AD2`
 SHA384 | `69508F3AD9663F5C4E02F1586F73766C8550130708B20C78AAA2019EE6DBC98FCFF1626ECF1C0FCC81C36C5CA20DABAA`
 SHA512 | `02809535610FD29163E6E41C3C286ABFF7F1887FECED045BA1D3BE907ADD5B35F9D1E2A81D6E422E6F48CA099AC0DA8E12719061BA2C9060B62B12B92EAC8C34`
 SSDEEP | `12288:CeWNKub9l5JCLZUA5EgsIH5iqsFARJJo9Y5MkvpEaun7Y5MkvpEkG:tWNKuhYNzEgsIpRJJo9iyTiykG`
+IMP | `n/a`
+PESHA1 | `A4BDD7DDC9B942D391D2D086B113D6A82840AA9F`
+PE256 | `463AA0D939647E7F281822ECDC44D7A86E1C62B79D21846F1689564224DE34B8`
 
 ## Runtime Data
-
-### Window Title:
-HandBrake
 
 ### Open Handles:
 
 Path | Type
 -- | --
-(R--)   C:\Users\user\AppData\Roaming\HandBrake\logs\activity_log8180.txt | File
-(R--)   C:\Windows\assembly\pubpol5.dat | File
+(R--)   C:\Users\user\AppData\Roaming\HandBrake\logs\activity_log1304.txt | File
 (R-D)   C:\Program Files\HandBrake\Caliburn.Micro.dll | File
 (R-D)   C:\Program Files\HandBrake\Caliburn.Micro.Platform.Core.dll | File
 (R-D)   C:\Program Files\HandBrake\Caliburn.Micro.Platform.dll | File
@@ -62,24 +61,24 @@ Path | Type
 (R-D)   C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll | File
 (R-D)   C:\Windows\System32\en-US\msctfui.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\UIAutomationCore.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\System32 | File
+(RW-)   C:\xCyclopedia | File
 \...\Cor_SxSPublic_IPCBlock | Section
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\Cor_Private_IPCBlock_v4_8180 | Section
+\BaseNamedObjects\Cor_Private_IPCBlock_v4_1304 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\1ff4HWNDInterface:140336 | Section
+\Sessions\1\BaseNamedObjects\518HWNDInterface:4b08a4 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\HandBrake\HandBrake.exe |
+C:\Program Files\HandBrake\HandBrake.exe |
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll |
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll |
 C:\Windows\System32\ADVAPI32.dll |
@@ -106,7 +105,7 @@ C:\Windows\System32\win32u.dll |
 
 ## Signature
 
-* Status: The file C:\program files\HandBrake\HandBrake.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\HandBrake\HandBrake.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -121,7 +120,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 1.3.3.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  2003-2019 HandBrake Team 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/22b30ef8dbc10bb21098e372cb15825711773b86403e7294a501404e5f642ad2/detection/
 
 
 

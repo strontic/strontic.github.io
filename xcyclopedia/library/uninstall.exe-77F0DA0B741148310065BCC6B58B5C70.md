@@ -57,6 +57,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\TeamViewer\uninstall.exe](uninstall.exe-79AA93413FA81C90930008A95F63190F.md) | 79
 [C:\Program Files (x86)\TeamViewer\uninstall.exe](uninstall.exe-D78D25F4B540B04987BE48149FA3C299.md) | 82
 
 ## Possible Misuse

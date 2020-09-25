@@ -5,7 +5,7 @@ excerpt: What is jabswitch.exe?
 
 # jabswitch.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jre8\bin\jabswitch.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\jabswitch.exe`
 * Description: OpenJDK Platform binary
 * Comments: Java Access Bridge
 
@@ -20,6 +20,9 @@ SHA256 | `C0C4713EA8E77DF3323B1F6522618C4F504DDA520527089B91E165005408DFF1`
 SHA384 | `D319969A7B01C8AF8CD9CBCCD246E0F5C32A33119DE918DBB83A199047E1435567A8CCCE8DEEDD63C1CDC13A76CC6274`
 SHA512 | `234A2BB64463D826DF264E30790B54C70BDF0BDCC446AE6810281679836F22840FA09AC40A4172796F6FA1CB9A45B7C782E2CCEA664509098ECF04FA2D17B466`
 SSDEEP | `768:RD5g122o9XtH0t5ZHFHUow+nZw//fPD0bKgrHUf2hYi/:p5g1UrH0PZlHUow+nAPD0b5HUfRM`
+IMP | `4E0EB6FD80F520CB51E94548BC312D9F`
+PESHA1 | `9E97D3260B0F9DBCFD17FDEA42E06FF1C9956A8A`
+PE256 | `F25270EFE8F5A8042E09BC9BFBC7292A43EA52BF2D6452E3AE8AE6F6F0B695E4`
 
 ## Runtime Data
 
@@ -52,7 +55,7 @@ Note:
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jre8\bin\jabswitch.exe |
+C:\Program Files\Amazon Corretto\jre8\bin\jabswitch.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -75,14 +78,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: English (United States)
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/c0c4713ea8e77df3323b1f6522618c4f504dda520527089b91e165005408dff1/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe](jabswitch.exe-7CA1D8DC77673F04F638D21BA5477C05.md) | 91
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe](jabswitch.exe-D93F83785CC0A8DB3B18AB9159B30A2E.md) | 91
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\jabswitch.exe](jabswitch.exe-7CA1D8DC77673F04F638D21BA5477C05.md) | 91
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\jabswitch.exe](jabswitch.exe-D93F83785CC0A8DB3B18AB9159B30A2E.md) | 91
 
 
 

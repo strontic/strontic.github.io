@@ -5,7 +5,7 @@ excerpt: What is zpaq.exe?
 
 # zpaq.exe 
 
-* File Path: `C:\program files\PeaZip\res\zpaq\zpaq.exe`
+* File Path: `C:\Program Files\PeaZip\res\zpaq\zpaq.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `7A94B4F1D6323A758C7B0B6344036F166BFF0FD44F1C3C86F05B3688023496CB`
 SHA384 | `8D1E24DA276EB5F9DD86DC875CFE9ED92D5155DD57F199ED35B212F36181CFD37983AF93E4F283D6E4A0FA326EA1581D`
 SHA512 | `A4D53801689BF4F362CA86142B9BB2C2165E4E2B61937A4352963A1A78D8C7357DA77EBE917C869CA8446E980FCDF0ABB968253E8CE9218550BA447AD3A1101D`
 SSDEEP | `24576:kLtrZo0gn7HFHqdBzAD+qzBbWLG1F1S9eUaU000K0000d000R000:khrZjgnLFKdBzK9zBbWlB`
+IMP | `AC3973BCC0C9F23105BBD985DE43A5E9`
+PESHA1 | `EA132100D5161703DBB10D8F4A402D5D6AF71CBB`
+PE256 | `E9C7608681F8C647D3EBF1964A931E1B7BB106E09822F1A4EFD0364FB915F9E6`
 
 ## Runtime Data
 
@@ -51,7 +54,7 @@ Options:
   -tN -threads N  Use N threads (default: 0 = 0 cores).
   -to out...      Rename files... to out... or all to out/all.
   -until N        Roll back archive to N'th update or -N from end.
-  -until 2020-08-30 21:14:44  Set date, roll back (UT, default time: 235959).
+  -until 2020-09-24 22:19:47  Set date, roll back (UT, default time: 235959).
 
 ```
 
@@ -59,7 +62,7 @@ Options:
 
 Path |
 -- |
-C:\program files\PeaZip\res\zpaq\zpaq.exe |
+C:\Program Files\PeaZip\res\zpaq\zpaq.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -67,7 +70,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Signature
 
-* Status: The file C:\program files\PeaZip\res\zpaq\zpaq.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\PeaZip\res\zpaq\zpaq.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -82,7 +85,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/7a94b4f1d6323a758c7b0b6344036f166bff0fd44f1c3c86f05b3688023496cb/detection/
 
 
 

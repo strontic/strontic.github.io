@@ -61,6 +61,11 @@ C:\Windows\System32\WS2_32.dll |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe](SenseIR.exe-4DB4D400A83C97C3E0DB2790E3816974.md) | 47
 
 
 

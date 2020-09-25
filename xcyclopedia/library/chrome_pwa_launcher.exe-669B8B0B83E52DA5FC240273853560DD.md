@@ -58,6 +58,11 @@ C:\Windows\System32\win32u.dll |
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Google\Chrome\Application\85.0.4183.121\chrome_pwa_launcher.exe](chrome_pwa_launcher.exe-BABD10DA1A1169BB79F46C34AC848C03.md) | 93
 
 
 

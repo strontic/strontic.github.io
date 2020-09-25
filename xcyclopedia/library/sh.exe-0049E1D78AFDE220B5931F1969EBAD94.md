@@ -95,7 +95,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\sh.exe](sh.exe-CD721CF3000FE9CFD4E072AF57C8FD4B.md) | 97
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sh.exe](sh.exe-0049E1D78AFDE220B5931F1969EBAD94.md) | 100
 
 ## Possible Misuse
 

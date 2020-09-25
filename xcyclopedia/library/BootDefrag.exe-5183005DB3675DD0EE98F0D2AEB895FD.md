@@ -42,8 +42,10 @@ SSDEEP | `3072:JkhM/dsRl/urMtYnLVeik0TMWlUrGT38VD:JTdY2AZaU`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Native\wnet_x86\BootDefrag.exe](BootDefrag.exe-70123B80EBBA1EAB2F1D8E74C2A45DAC.md) | 83
 [C:\Program Files (x86)\Glary Utilities 5\Native\wnet_x86\BootDefrag.exe](BootDefrag.exe-8214DB939A69AEF99ADE45BF1C374437.md) | 85
 [C:\program files (x86)\Glary Utilities 5\Native\wnet_x86\BootDefrag.exe](BootDefrag.exe-EDA23D5214F33033832AC98A422C02E6.md) | 85
+[C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x86\BootDefrag.exe](BootDefrag.exe-1C2C99D1417A958FE8A2A3BA9A1A7285.md) | 90
 [C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x86\BootDefrag.exe](BootDefrag.exe-5C4FAE5BC937928534C86725F618A5D6.md) | 90
 
 

@@ -60,6 +60,7 @@ C:\Windows\System32\sechost.dll |
 File | Score
 -- | --
 [C:\Program Files\Mozilla Thunderbird\plugin-container.exe](plugin-container.exe-3C0C8D4C0E0A531A492CA6CC46A4CFE4.md) | 93
+[C:\Program Files\Mozilla Thunderbird\plugin-container.exe](plugin-container.exe-C711287F2FC1D720FA3E6A5D9D18BC23.md) | 93
 
 
 

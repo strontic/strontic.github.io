@@ -47,6 +47,7 @@ SSDEEP | `768:S0+28DOtuzzzzzzzzzzSzzzzzzzzzz5zzzNzzzzezzIzzzz6zz/zzzzexzVzHzzZ:B
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\CheckDisk.exe](CheckDisk.exe-92B2309732120B31FA7465A80EA36228.md) | 97
+[C:\Program Files (x86)\Glary Utilities 5\CheckDisk.exe](CheckDisk.exe-EE6490BE0422B1FE26CD2C888F8DBE89.md) | 97
 
 
 

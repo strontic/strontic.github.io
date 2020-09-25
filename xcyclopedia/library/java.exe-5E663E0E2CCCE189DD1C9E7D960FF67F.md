@@ -5,7 +5,7 @@ excerpt: What is java.exe?
 
 # java.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jre8\bin\java.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\java.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `AC37B12C11040E25A10AADD48CA1C77E74323990F200A0B9464398E290C3B208`
 SHA384 | `1CD8256BA24975849FC75188F230F334EC105440BFE994C2FC80F1D0963DA0C4569C5C6139F828DE0F67AFBAF7EBF208`
 SHA512 | `1E04D7364988912350A4AA1F9BB37430D24A94FA83A83E821B56F45CC56C730E2411B9BCB2A22C46FFF64E332E131AA1292CBCF0E1957FE2A8695569AC57E0C4`
 SSDEEP | `3072:V8p2g7wkRpsVVvr/T1qG6UiH7krmpEfdfGjW0TBf7YpDXW7k/IWan:g2NEGDz/T1CjQrmGfde60TB97k/mn`
+IMP | `BB9F83F2CCF071025CFCF6C07DC24B5C`
+PESHA1 | `4A030331ECCA35F1395F987945C20DCC03E55B7A`
+PE256 | `BCE6E8FFF69678CB6F434A927A2F9260046E4447B39870795755663294FCAAF9`
 
 ## Runtime Data
 
@@ -80,7 +83,7 @@ See http://www.oracle.com/technetwork/java/javase/documentation/index.html for m
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jre8\bin\java.exe |
+C:\Program Files\Amazon Corretto\jre8\bin\java.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -103,14 +106,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/ac37b12c11040e25a10aadd48ca1c77e74323990f200a0b9464398e290c3b208/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\java.exe](java.exe-ED977A61E5C08AB52C131B624DC4E25F.md) | 97
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-F0B47536472AB16EB1903169901F3C62.md) | 97
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\java.exe](java.exe-ED977A61E5C08AB52C131B624DC4E25F.md) | 97
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\java.exe](java.exe-F0B47536472AB16EB1903169901F3C62.md) | 97
 
 ## Possible Misuse
 

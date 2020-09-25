@@ -42,6 +42,7 @@ SSDEEP | `49152:rRANXUOlPYitW6gm03HM71YyFIJJ3DY/H8UFKPcIadCV/kWaOpX8+MI+J+GHPDQy
 File | Score
 -- | --
 [C:\program files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\vscode-ripgrep\bin\rg.exe](rg.exe-65A52238B7B8D46C27EA1AB7B7ABB743.md) | 97
+[C:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\vscode-ripgrep\bin\rg.exe](rg.exe-9ADE040A1B749F641333464DA9F9928A.md) | 97
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is wmlaunch.exe?
 
 # wmlaunch.exe 
 
-* File Path: `C:\program files\Windows Media Player\wmlaunch.exe`
+* File Path: `C:\Program Files\Windows Media Player\wmlaunch.exe`
 * Description: Windows Media Player Launcher
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `5BA4924693446CB1B754FE0491B9A1BAA6EC7805907130D2B19B786D8E17E379`
 SHA384 | `308EF5E36CB13EEC90D92B3D5993C711A42D31EB027E86070C89C1EA7A9B3A17B863652696AA9E59AA4D8A5062DCBC88`
 SHA512 | `758A363B835712C4A0AD3599B7899063C23E122DED343A97B1482D7DD5D9B7EC5CD043DDE12E46F4CA96350E9D5594B524818BA78EDE33F196499F27D4B29043`
 SSDEEP | `1536:L0GtHA+XRhlDCWqqFotX7iDgA6t2XLB88QMXYk5wmtjX921WC:wqHHlDPqUc4ZB8tcgojbC`
+IMP | `17BB20F989B0A254B1F05920AA008D6A`
+PESHA1 | `63EAF682C35B10491CFD8CA3D5BD42198B1D467A`
+PE256 | `B437F736408ADED4D5FCC6C714BADE084F8D649E62A720BAA48FEE2AEFE6DFA3`
 
 ## Runtime Data
 
@@ -26,7 +29,7 @@ SSDEEP | `1536:L0GtHA+XRhlDCWqqFotX7iDgA6t2XLB88QMXYk5wmtjX921WC:wqHHlDPqUc4ZB8t
 Path | Type
 -- | --
 (R-D)   C:\Program Files\Windows Media Player\en-US\wmlaunch.exe.mui | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -36,30 +39,14 @@ Path | Type
 
 Path |
 -- |
-C:\program files\Windows Media Player\wmlaunch.exe |
+C:\Program Files\Windows Media Player\wmlaunch.exe |
 C:\Windows\System32\ADVAPI32.dll |
-C:\Windows\System32\cfgmgr32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\MFPlat.DLL |
-C:\Windows\SYSTEM32\MPR.dll |
-C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -79,7 +66,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 12.0.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/5ba4924693446cb1b754fe0491b9a1baa6ec7805907130d2b19b786d8e17e379/detection/
 
 
 

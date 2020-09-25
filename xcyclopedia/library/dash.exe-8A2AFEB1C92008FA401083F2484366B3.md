@@ -49,7 +49,7 @@ SSDEEP | `3072:RQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F:RQx0t8tF/tp2Zo5GqFNk9Ojtjl8
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\dash.exe](dash.exe-FADF03B8CA79E222C05B1BBEF1E0223E.md) | 97
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\dash.exe](dash.exe-FADF03B8CA79E222C05B1BBEF1E0223E.md) | 97
 
 
 

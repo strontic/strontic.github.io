@@ -69,6 +69,11 @@ C:\Windows\SYSTEM32\WINMM.dll |
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Google\Chrome\Application\chrome_proxy.exe](chrome_proxy.exe-78F0B8FC1B4DB6AD95603D1564E0EA41.md) | 93
 
 
 

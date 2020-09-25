@@ -54,6 +54,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright:  Peter Pawlowski. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\foobar2000\uninstall.exe](uninstall.exe-86CDFEA8B193AC553E264D12B43C61DD.md) | 88
 
 ## Possible Misuse
 

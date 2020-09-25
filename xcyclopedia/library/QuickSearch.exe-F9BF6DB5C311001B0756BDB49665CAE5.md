@@ -102,6 +102,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\QuickSearch.exe](QuickSearch.exe-2B88EF66E89467506ED13764774733E3.md) | 97
 [C:\Program Files (x86)\Glary Utilities 5\QuickSearch.exe](QuickSearch.exe-DE3DCB3E8443DA14F089C0704ECCC2C3.md) | 97
 
 

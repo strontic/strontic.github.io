@@ -98,9 +98,9 @@ File | Score
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\tile-small\tile-small.exe](tile-small.exe-40DA7E4EEDF8FB9A1DBCCD65A34350A9.md) | 46
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe](wavelet-decompose.exe-04FF2DBC3AC674E5494C51ECAD5710A6.md) | 47
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\web-browser\web-browser.exe](web-browser.exe-74EBC9205E8832310A6B4A34A1E09540.md) | 46
-[C:\program files\paint.net\PdnRepair.exe](PdnRepair.exe-0644EB64FE3FF3E2840FC380AE8480A8.md) | 29
-[C:\program files\paint.net\SetupNgen.exe](SetupNgen.exe-3A16E356C6CA089DCD45F877A9B89B68.md) | 30
-[C:\program files\paint.net\UpdateMonitor.exe](UpdateMonitor.exe-649EAA80D8759902667E3E84A23DE491.md) | 27
+[C:\Program Files\paint.net\PdnRepair.exe](PdnRepair.exe-0644EB64FE3FF3E2840FC380AE8480A8.md) | 29
+[C:\Program Files\paint.net\SetupNgen.exe](SetupNgen.exe-3A16E356C6CA089DCD45F877A9B89B68.md) | 30
+[C:\Program Files\paint.net\UpdateMonitor.exe](UpdateMonitor.exe-649EAA80D8759902667E3E84A23DE491.md) | 27
 
 
 

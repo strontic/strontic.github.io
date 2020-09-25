@@ -53,6 +53,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Artem Izmaylov
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\AIMP3\Elevator.exe](Elevator.exe-C316705DF724AE73856E8A3D15FB8FB0.md) | 91
 
 ## Possible Misuse
 

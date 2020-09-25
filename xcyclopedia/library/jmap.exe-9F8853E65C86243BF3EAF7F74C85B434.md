@@ -5,7 +5,7 @@ excerpt: What is jmap.exe?
 
 # jmap.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jmap.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jmap.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,20 +18,23 @@ SHA256 | `FD6E31EF722A81C68DDED03DF3B4A735D2BB7C964265754A5A6AFB22737502C1`
 SHA384 | `7A6C2A605D79D3708FA1113FC2DA27175C43945FAF51F35BECF7289322269CA24CB8DBFC6DA442B48FEA934393D1A854`
 SHA512 | `9546CC510E2F498BFC8D637FEFAB46413144DC57728771496F76C1109754E5BF90596BF8F7C607254280BB053F8C6FAF8DBED7511F885D74554C47F3CFF648DC`
 SSDEEP | `192:j2Fep8UGL5FeEMHaCitoVSeEjnYe+PjPV9j7mMaDWpHtCH1L:CbnL5FeFH/iMSeEjnYPLV9+MaDGAZ`
+IMP | `4CE08A7677042CDA6B3152B9229A7EF4`
+PESHA1 | `8BA5156AAFA039E5BEC4AEA0BB5A8AC34631955F`
+PE256 | `CC2447137BC6E34C2B368613DE75F166A6984BC74F99CCA30B11F36A018CF4E1`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-Attaching to remote server help, please wait...
+Attaching to remote server C:\temp\strontic-xcyclopedia\notepad.exe, please wait...
 
 ```
 
 ### Usage (stderr):
 ```cmhg
-Error attaching to remote server: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
+Error attaching to remote server: java.rmi.ConnectException: Connection refused to host: 172.31.11.20; nested exception is: 
 	java.net.ConnectException: Connection refused: connect
-sun.jvm.hotspot.debugger.DebuggerException: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
+sun.jvm.hotspot.debugger.DebuggerException: java.rmi.ConnectException: Connection refused to host: 172.31.11.20; nested exception is: 
 	java.net.ConnectException: Connection refused: connect
 	at sun.jvm.hotspot.RMIHelper.lookup(RMIHelper.java:115)
 	at sun.jvm.hotspot.HotSpotAgent.connectRemoteDebugger(HotSpotAgent.java:517)
@@ -47,7 +50,7 @@ sun.jvm.hotspot.debugger.DebuggerException: java.rmi.ConnectException: Connectio
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at sun.tools.jmap.JMap.runTool(JMap.java:201)
 	at sun.tools.jmap.JMap.main(JMap.java:130)
-Caused by: java.rmi.ConnectException: Connection refused to host: 172.20.207.139; nested exception is: 
+Caused by: java.rmi.ConnectException: Connection refused to host: 172.31.11.20; nested exception is: 
 	java.net.ConnectException: Connection refused: connect
 	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:623)
 	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
@@ -84,18 +87,18 @@ conhost.exe
 
 Path | Type
 -- | --
-(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\4752 | File
+(R-D)   C:\Users\user\AppData\Local\Temp\hsperfdata_user\3564 | File
 (R-D)   C:\Windows\System32\en-US\kernel32.dll.mui | File
 (RW-)   C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\jfr.jar | File
 (RW-)   C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\jsse.jar | File
 (RW-)   C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar | File
 (RW-)   C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\lib\sa-jdi.jar | File
 (RW-)   C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\lib\tools.jar | File
-(RW-)   C:\Users\user\Documents | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\hsperfdata_user_4752 | Section
+\Sessions\1\BaseNamedObjects\hsperfdata_user_3564 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 
 
@@ -103,7 +106,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jmap.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jmap.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -126,7 +129,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/60
+* VirusTotal Link: https://www.virustotal.com/gui/file/fd6e31ef722a81c68dded03df3b4a735d2bb7c964265754a5a6afb22737502c1/detection/
 
 ## File Similarity (ssdeep match)
 
@@ -203,7 +211,7 @@ File | Score
 [C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\rmiregistry.exe](rmiregistry.exe-C80D5CABB52A12F93C1EF0B711BDD767.md) | 50
 [C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\servertool.exe](servertool.exe-550437F1F282DF05DBF7A59C65D937E9.md) | 50
 [C:\program files (x86)\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\tnameserv.exe](tnameserv.exe-DB78E88209743CC938B665DFA0401A25.md) | 50
-[C:\program files (x86)\GRETECH\GomPlayer\KillGom.exe](KillGom.exe-37B7D35855260B524B68AF4F748448BE.md) | 21
+[C:\Program Files (x86)\GRETECH\GomPlayer\KillGom.exe](KillGom.exe-37B7D35855260B524B68AF4F748448BE.md) | 21
 [C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jaotc.exe](jaotc.exe-96EA8F503210EF7E3A39EEF68AE137D0.md) | 46
 [C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jar.exe](jar.exe-B39F84FB8C26E73075627CF8A3E30B00.md) | 41
 [C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jarsigner.exe](jarsigner.exe-3545DF7A746A46163EA98D79A3CFAA65.md) | 46
@@ -238,63 +246,63 @@ File | Score
 [C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\rmid.exe](rmid.exe-D98CF348139BB44E4EFCA15FEA955F7C.md) | 43
 [C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-6240D6F87038D7B1F32E590D20B6EB45.md) | 44
 [C:\program files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\serialver.exe](serialver.exe-8C875F970BA9AFB45B48DF121220D535.md) | 47
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\appletviewer.exe](appletviewer.exe-452F617B43E0052B9AB66B7FFA9E10C1.md) | 54
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\clhsdb.exe](clhsdb.exe-AAB473B7D1752B5FA110A197326D097E.md) | 61
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\extcheck.exe](extcheck.exe-00E9757CA12E6048C880E1712B20072A.md) | 54
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\hsdb.exe](hsdb.exe-74ACF1B01D760B7945569B318212CB77.md) | 63
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\idlj.exe](idlj.exe-3B8B42E602DFDB525CC42F5A91659369.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jar.exe](jar.exe-C4EF2186F19802E43BC972CAB954846D.md) | 55
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jarsigner.exe](jarsigner.exe-A51098C1FEDE268905DA223733564F0E.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javac.exe](javac.exe-516BEE30A2C5F0EB81CB68CAF8CA1D1F.md) | 54
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javadoc.exe](javadoc.exe-44EC7B2CBD3D5C34D89D0955BAD6DE42.md) | 60
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javah.exe](javah.exe-37112E80D331E4AC2EFD2B6A7F9CC666.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javap.exe](javap.exe-CDD3D45E98CF83A3A04189791D9D53A8.md) | 49
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java-rmi.exe](java-rmi.exe-9B53C80BB45BB9B5EDF8A691DBBBBA59.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jcmd.exe](jcmd.exe-EED2291F53953A6CCD07727A82D38F6E.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jconsole.exe](jconsole.exe-AEE0E28C80DD48C728D3E04B63AD0DBB.md) | 50
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jdb.exe](jdb.exe-A59677E5E21E2F8D6DD457214F5383B1.md) | 65
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jdeps.exe](jdeps.exe-1FA81F74862BE01CE96CD8BB0BC8EFB0.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jfr.exe](jfr.exe-2086CD29FB600A1205F335CBC25081E4.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jhat.exe](jhat.exe-0E8A7F5E3DFBC6CFA3318DC81C2E662F.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jinfo.exe](jinfo.exe-2F310FF2B5631AF61631BCE97024E9EC.md) | 75
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jjs.exe](jjs.exe-9B47057EB9B5E0598F3AA87DFAB689E9.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jps.exe](jps.exe-54E27CAE3F9F744B8EBD207F9AE926EC.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jrunscript.exe](jrunscript.exe-DA8FB2490CCF57F9D2E15D41371A66EF.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jsadebugd.exe](jsadebugd.exe-D611C5E607F83CBCB7318A1620F17264.md) | 60
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jstack.exe](jstack.exe-BFE52EE05423B954BEB4AB4C53CE9A2C.md) | 72
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jstat.exe](jstat.exe-4CF32887C994D0BCDEDBEA8FA7224EB3.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jstatd.exe](jstatd.exe-DBE9EE30728ACA2053D828452F425DF1.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\keytool.exe](keytool.exe-E2A0D9DAA4262F3CEF19CA8F99971993.md) | 61
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\kinit.exe](kinit.exe-C96A8BA772B27E5425A09E1DD29810FB.md) | 46
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\klist.exe](klist.exe-DEDBEDA995C571246734195BF0D5FF03.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\ktab.exe](ktab.exe-732B4FD2433212EAEED20C130D34B9A4.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\native2ascii.exe](native2ascii.exe-147576C8F8C1C2974FCB477CD0DDF0BD.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\orbd.exe](orbd.exe-6E3AE4A3C0076DDB935DBCFDE6F23D08.md) | 66
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\pack200.exe](pack200.exe-8438084723AFA7F34D28B141363503ED.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policytool.exe](policytool.exe-3AE610E3F18185F0363DDA2CBCAC88B4.md) | 55
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\rmic.exe](rmic.exe-4BDC105AB47CBA6ADA728FB799DD92F5.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\rmid.exe](rmid.exe-E5F3CBA5F6C8D0ED462379DA5CB87AE6.md) | 54
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\rmiregistry.exe](rmiregistry.exe-411160E594F717D03B278992D287E919.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\schemagen.exe](schemagen.exe-66A0089BE433BFE8C870742EFA0A7F72.md) | 55
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\serialver.exe](serialver.exe-347EFCDEEF9D847085D0D2BCD3EBBF90.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\servertool.exe](servertool.exe-9A71B71C85E6E109A8948FC96781385A.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\tnameserv.exe](tnameserv.exe-4B14989D92B608AE2032C1AC6731E948.md) | 63
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\wsgen.exe](wsgen.exe-AE956BB3C06F9822C4D3E92DF000D019.md) | 55
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\wsimport.exe](wsimport.exe-EAC7415E31BA88DDCEBF4BD79206A5F5.md) | 54
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\xjc.exe](xjc.exe-1DF1A50C07F4545A3723803DFCDB4075.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java-rmi.exe](java-rmi.exe-5599CA2F91315E30C2EDDB12FCDEA6D8.md) | 55
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\jjs.exe](jjs.exe-F5BAAB25BB78D8C989DE4C25805EF750.md) | 60
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\keytool.exe](keytool.exe-DB2C6EE1ABB141E832C69A6941C00624.md) | 49
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\kinit.exe](kinit.exe-8642901DFEC6892CC169786E8E7C133A.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\klist.exe](klist.exe-558FAD6023A99926C599A2EC768DEF45.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\ktab.exe](ktab.exe-C6AB70C482BB08FCD9F0BF5CA27DAF03.md) | 46
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\orbd.exe](orbd.exe-E81B78B77B095BCA838444D61069E057.md) | 66
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\pack200.exe](pack200.exe-5D8DA453A34C247B2C72694D2AB17FE1.md) | 58
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\policytool.exe](policytool.exe-BE2B28FFF82B71CE4C7311352DE2CE9F.md) | 57
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\rmid.exe](rmid.exe-0D6C8AB547A0BC0F22D3EA5648ABC933.md) | 54
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\rmiregistry.exe](rmiregistry.exe-BDA2442FBC8F89510F832D802B6D31DF.md) | 60
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\servertool.exe](servertool.exe-FEC5BD7AEEC4F9CD039C7E7CF8C1FDC2.md) | 60
-[C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\tnameserv.exe](tnameserv.exe-E82A70E69F1961614B58C5D57CF6D69C.md) | 63
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\appletviewer.exe](appletviewer.exe-452F617B43E0052B9AB66B7FFA9E10C1.md) | 54
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\clhsdb.exe](clhsdb.exe-AAB473B7D1752B5FA110A197326D097E.md) | 61
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\extcheck.exe](extcheck.exe-00E9757CA12E6048C880E1712B20072A.md) | 54
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\hsdb.exe](hsdb.exe-74ACF1B01D760B7945569B318212CB77.md) | 63
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\idlj.exe](idlj.exe-3B8B42E602DFDB525CC42F5A91659369.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jar.exe](jar.exe-C4EF2186F19802E43BC972CAB954846D.md) | 55
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jarsigner.exe](jarsigner.exe-A51098C1FEDE268905DA223733564F0E.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javac.exe](javac.exe-516BEE30A2C5F0EB81CB68CAF8CA1D1F.md) | 54
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javadoc.exe](javadoc.exe-44EC7B2CBD3D5C34D89D0955BAD6DE42.md) | 60
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javah.exe](javah.exe-37112E80D331E4AC2EFD2B6A7F9CC666.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javap.exe](javap.exe-CDD3D45E98CF83A3A04189791D9D53A8.md) | 49
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\java-rmi.exe](java-rmi.exe-9B53C80BB45BB9B5EDF8A691DBBBBA59.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jcmd.exe](jcmd.exe-EED2291F53953A6CCD07727A82D38F6E.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jconsole.exe](jconsole.exe-AEE0E28C80DD48C728D3E04B63AD0DBB.md) | 50
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jdb.exe](jdb.exe-A59677E5E21E2F8D6DD457214F5383B1.md) | 65
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jdeps.exe](jdeps.exe-1FA81F74862BE01CE96CD8BB0BC8EFB0.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jfr.exe](jfr.exe-2086CD29FB600A1205F335CBC25081E4.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jhat.exe](jhat.exe-0E8A7F5E3DFBC6CFA3318DC81C2E662F.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jinfo.exe](jinfo.exe-2F310FF2B5631AF61631BCE97024E9EC.md) | 75
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jjs.exe](jjs.exe-9B47057EB9B5E0598F3AA87DFAB689E9.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jps.exe](jps.exe-54E27CAE3F9F744B8EBD207F9AE926EC.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jrunscript.exe](jrunscript.exe-DA8FB2490CCF57F9D2E15D41371A66EF.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jsadebugd.exe](jsadebugd.exe-D611C5E607F83CBCB7318A1620F17264.md) | 60
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jstack.exe](jstack.exe-BFE52EE05423B954BEB4AB4C53CE9A2C.md) | 72
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jstat.exe](jstat.exe-4CF32887C994D0BCDEDBEA8FA7224EB3.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\jstatd.exe](jstatd.exe-DBE9EE30728ACA2053D828452F425DF1.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\keytool.exe](keytool.exe-E2A0D9DAA4262F3CEF19CA8F99971993.md) | 61
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\kinit.exe](kinit.exe-C96A8BA772B27E5425A09E1DD29810FB.md) | 46
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\klist.exe](klist.exe-DEDBEDA995C571246734195BF0D5FF03.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\ktab.exe](ktab.exe-732B4FD2433212EAEED20C130D34B9A4.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\native2ascii.exe](native2ascii.exe-147576C8F8C1C2974FCB477CD0DDF0BD.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\orbd.exe](orbd.exe-6E3AE4A3C0076DDB935DBCFDE6F23D08.md) | 66
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\pack200.exe](pack200.exe-8438084723AFA7F34D28B141363503ED.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policytool.exe](policytool.exe-3AE610E3F18185F0363DDA2CBCAC88B4.md) | 55
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\rmic.exe](rmic.exe-4BDC105AB47CBA6ADA728FB799DD92F5.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\rmid.exe](rmid.exe-E5F3CBA5F6C8D0ED462379DA5CB87AE6.md) | 54
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\rmiregistry.exe](rmiregistry.exe-411160E594F717D03B278992D287E919.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\schemagen.exe](schemagen.exe-66A0089BE433BFE8C870742EFA0A7F72.md) | 55
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\serialver.exe](serialver.exe-347EFCDEEF9D847085D0D2BCD3EBBF90.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\servertool.exe](servertool.exe-9A71B71C85E6E109A8948FC96781385A.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\tnameserv.exe](tnameserv.exe-4B14989D92B608AE2032C1AC6731E948.md) | 63
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\wsgen.exe](wsgen.exe-AE956BB3C06F9822C4D3E92DF000D019.md) | 55
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\wsimport.exe](wsimport.exe-EAC7415E31BA88DDCEBF4BD79206A5F5.md) | 54
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\xjc.exe](xjc.exe-1DF1A50C07F4545A3723803DFCDB4075.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\java-rmi.exe](java-rmi.exe-5599CA2F91315E30C2EDDB12FCDEA6D8.md) | 55
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\jjs.exe](jjs.exe-F5BAAB25BB78D8C989DE4C25805EF750.md) | 60
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\keytool.exe](keytool.exe-DB2C6EE1ABB141E832C69A6941C00624.md) | 49
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\kinit.exe](kinit.exe-8642901DFEC6892CC169786E8E7C133A.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\klist.exe](klist.exe-558FAD6023A99926C599A2EC768DEF45.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\ktab.exe](ktab.exe-C6AB70C482BB08FCD9F0BF5CA27DAF03.md) | 46
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\orbd.exe](orbd.exe-E81B78B77B095BCA838444D61069E057.md) | 66
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\pack200.exe](pack200.exe-5D8DA453A34C247B2C72694D2AB17FE1.md) | 58
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\policytool.exe](policytool.exe-BE2B28FFF82B71CE4C7311352DE2CE9F.md) | 57
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\rmid.exe](rmid.exe-0D6C8AB547A0BC0F22D3EA5648ABC933.md) | 54
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\rmiregistry.exe](rmiregistry.exe-BDA2442FBC8F89510F832D802B6D31DF.md) | 60
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\servertool.exe](servertool.exe-FEC5BD7AEEC4F9CD039C7E7CF8C1FDC2.md) | 60
+[C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\bin\tnameserv.exe](tnameserv.exe-E82A70E69F1961614B58C5D57CF6D69C.md) | 63
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jaotc.exe](jaotc.exe-FA423CD06BE535088F629C821F437452.md) | 46
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jfr.exe](jfr.exe-065E5E752266CD2FA6F1CF2564249B21.md) | 44
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\jjs.exe](jjs.exe-4BBAAAD09CA86598C402F02D56D521A7.md) | 41
@@ -306,19 +314,19 @@ File | Score
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\pack200.exe](pack200.exe-D8F4EAC78AB739846BD1D5BBD256DBC3.md) | 44
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\rmid.exe](rmid.exe-62D6E0918BC131ABDB5F5A98A66346EF.md) | 41
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-37B63F925D45FD055BA4A604F7E5F891.md) | 44
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java-rmi.exe](java-rmi.exe-94D5085F3D92FE0F4C09D84522076474.md) | 57
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\jjs.exe](jjs.exe-E8F2F0963FE4BC13C4C8FE26B01FAD45.md) | 58
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\keytool.exe](keytool.exe-0BD92FF2056898CFF0F623DF73455036.md) | 60
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\kinit.exe](kinit.exe-13B98A07A136F0B5B1DC66842FBD4029.md) | 58
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\klist.exe](klist.exe-0D568C427EC1BF20752D10A0EECFA706.md) | 57
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\ktab.exe](ktab.exe-C99C2C19C464F768ADC67B88FB83EAA8.md) | 46
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\orbd.exe](orbd.exe-A54184901C0B1CD198F7217ED40B0072.md) | 68
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\pack200.exe](pack200.exe-DBA39D8D09C4821F0A4AC3AAB4AA2E80.md) | 60
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\policytool.exe](policytool.exe-365F11C75165E4647C9B46B5C3382AE4.md) | 46
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\rmid.exe](rmid.exe-65A00A5E7129B6FFAA015A814E438F40.md) | 54
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\rmiregistry.exe](rmiregistry.exe-A46A476D2961404E0DD3F2652CFA4B23.md) | 54
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\servertool.exe](servertool.exe-FF6FAFFF307A92D012ABBF84FC5DE132.md) | 61
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\tnameserv.exe](tnameserv.exe-F41937DA12ADFBBE9E92AD99F8039A9F.md) | 63
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\java-rmi.exe](java-rmi.exe-94D5085F3D92FE0F4C09D84522076474.md) | 57
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\jjs.exe](jjs.exe-E8F2F0963FE4BC13C4C8FE26B01FAD45.md) | 58
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\keytool.exe](keytool.exe-0BD92FF2056898CFF0F623DF73455036.md) | 60
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\kinit.exe](kinit.exe-13B98A07A136F0B5B1DC66842FBD4029.md) | 58
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\klist.exe](klist.exe-0D568C427EC1BF20752D10A0EECFA706.md) | 57
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\ktab.exe](ktab.exe-C99C2C19C464F768ADC67B88FB83EAA8.md) | 46
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\orbd.exe](orbd.exe-A54184901C0B1CD198F7217ED40B0072.md) | 68
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\pack200.exe](pack200.exe-DBA39D8D09C4821F0A4AC3AAB4AA2E80.md) | 60
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\policytool.exe](policytool.exe-365F11C75165E4647C9B46B5C3382AE4.md) | 46
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\rmid.exe](rmid.exe-65A00A5E7129B6FFAA015A814E438F40.md) | 54
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\rmiregistry.exe](rmiregistry.exe-A46A476D2961404E0DD3F2652CFA4B23.md) | 54
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\servertool.exe](servertool.exe-FF6FAFFF307A92D012ABBF84FC5DE132.md) | 61
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\tnameserv.exe](tnameserv.exe-F41937DA12ADFBBE9E92AD99F8039A9F.md) | 63
 
 
 

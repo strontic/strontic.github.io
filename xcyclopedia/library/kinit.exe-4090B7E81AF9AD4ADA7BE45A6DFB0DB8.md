@@ -93,7 +93,7 @@ File | Score
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jrunscript.exe](jrunscript.exe-D7605E1C70C8E4A616CA9BDB46FBEAC9.md) | 71
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\kinit.exe](kinit.exe-06E306A8844F160ED5171B649CD1AF17.md) | 82
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\jre\bin\kinit.exe](kinit.exe-9DB3F4A11DF7C72A619559550437B160.md) | 82
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe](rmiregistry.exe-AC45D66B78E93F793F684492A0A3BCF8.md) | 40
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\rmiregistry.exe](rmiregistry.exe-AC45D66B78E93F793F684492A0A3BCF8.md) | 40
 
 
 

@@ -85,6 +85,8 @@ File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-2327A2C252ADC79A2F1FA37CE76D10DA.md) | 41
 [C:\program files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-49C40981F711E83777816DAEA71AF2D6.md) | 41
+[C:\Program Files (x86)\Glary Utilities 5\SpyRemover.exe](SpyRemover.exe-9F02F3CD1EE1E26FC53115E0E7089BDD.md) | 43
+[C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-54C83AE9F55B299D7AEC2B59ACF4E688.md) | 94
 [C:\Program Files (x86)\Glary Utilities 5\TracksEraser.exe](TracksEraser.exe-B0CCA5153453B97D382000262F713E0A.md) | 94
 
 

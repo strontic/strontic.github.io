@@ -51,7 +51,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
-[C:\program files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 25
+[C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 25
 [C:\Windows\system32\backgroundTaskHost.exe](backgroundTaskHost.exe-9B19B73580F7813DAD7C7C4671D004E5.md) | 30
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-26FC7C7BDB99AB9B3EACB4BD513F6642.md) | 83
 [C:\WINDOWS\system32\DeviceCensus.exe](DeviceCensus.exe-AC7BD0E738FDE12FB29DA98D88C903EA.md) | 97

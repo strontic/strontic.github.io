@@ -5,7 +5,7 @@ excerpt: What is iexplore.exe?
 
 # iexplore.exe 
 
-* File Path: `C:\program files\Internet Explorer\iexplore.exe`
+* File Path: `C:\Program Files\Internet Explorer\iexplore.exe`
 * Description: Internet Explorer
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `F76F00939F1BE76152809C37591EF75D3C150745232E35697D99CAE09E31C2BC`
 SHA384 | `240E65EEB92B1AF5A641C9D7622EC2A624ECCE762B528B95A0360BBD5E5DA1EBE8E7833C9D29255D43B3A6F6BC838617`
 SHA512 | `505159C8C6C1341043215D0C91E663A2366ED14C68DE61DE639736E549ABC764D7589F53D972A8B2CC1DE40B23CF5AAD6565EEE9D988522CF8BD6A9B2CF0BF05`
 SSDEEP | `24576:h/4lGLbMMHMMMvMMZMMMKzb6XmMMMiMMMz8JMMHMMM6MMZMMMeXNMMzMMMUMMVMH:hlMMHMMMvMMZMMMlmMMMiMMMYJMMHMMY`
+IMP | `8C797F2A2A97DA90C7A8F1CF249ADBEB`
+PESHA1 | `1555A9CACD92190FA33292F1DE8F0153257EBDE3`
+PE256 | `49AF5EF7E46F9C7CBD9969222611AF8E088331268C74734149B72BB62C2E5AB7`
 
 ## Runtime Data
 
@@ -25,62 +28,67 @@ SSDEEP | `24576:h/4lGLbMMHMMMvMMZMMMKzb6XmMMMiMMMz8JMMHMMM6MMZMMMeXNMMzMMMUMMVMH
 iexplore.exe
 
 ### Window Title:
-http://--help/ - Internet Explorer
+Cant reach this page - Internet Explorer
 
 ### Open Handles:
 
 Path | Type
 -- | --
-(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{6BE9D4EC-EAF9-11EA-B639-00155D5B4201}.dat | File
-(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{6A73822F-EAF9-11EA-B639-00155D5B4201}.dat | File
-(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{6BE9D4EA-EAF9-11EA-B639-00155D5B4201}.dat | File
+(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{A280402E-FEB2-11EA-882E-00155D998289}.dat | File
+(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{A0FBA0DF-FEB2-11EA-882E-00155D998289}.dat | File
+(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{A280402C-FEB2-11EA-882E-00155D998289}.dat | File
 (R-D)   C:\Program Files\Internet Explorer\en-US\iexplore.exe.mui | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
 (R-D)   C:\Windows\SystemResources\ieframe.dll.mun | File
+(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
 (RW-)   C:\Users\user\Desktop | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_4b395a7b3c8e63ab | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF30815613F94764E1.TMP | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF59AAEDEFE2D47573.TMP | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF8B20B008C06509BC.TMP | File
-\...\!PrivacIE!SharedMem!Settings | Section
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28 | File
+(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
+(RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF92E3303DD88C7B7A.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF95482B093E244F59.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DFC5331C560F5F02E8.TMP | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000002.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2.ro | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\544HWNDInterface:1e0184 | Section
-\Sessions\1\BaseNamedObjects\544HWNDInterface:2f0288 | Section
-\Sessions\1\BaseNamedObjects\544HWNDInterface:4103d0 | Section
-\Sessions\1\BaseNamedObjects\544HWNDInterface:590428 | Section
-\Sessions\1\BaseNamedObjects\544HWNDInterface:5b0268 | Section
-\Sessions\1\BaseNamedObjects\544HWNDInterface:6d028a | Section
-\Sessions\1\BaseNamedObjects\ie_ias_00000544-0000-0000-0000-000000000000 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_544_IEFrame!GetAsyncKeyStateSharedMem | Section
-\Sessions\1\BaseNamedObjects\IsoScope_544_IsoSpaceV2_ScopeTrusted | Section
-\Sessions\1\BaseNamedObjects\IsoScope_544_IsoSpaceV2_ScopeTrusted_0:3_3 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_544_IsoSpaceV2_ScopeTrusted_0:3_4 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_544_IsoSpaceV2_ScopeTrusted_0:6_2 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_544_IsoSpaceV2_ScopeTrusted_0:7_1 | Section
+\Sessions\1\BaseNamedObjects\844HWNDInterface:2b08a6 | Section
+\Sessions\1\BaseNamedObjects\844HWNDInterface:2e085a | Section
+\Sessions\1\BaseNamedObjects\844HWNDInterface:31069a | Section
+\Sessions\1\BaseNamedObjects\844HWNDInterface:4d0726 | Section
+\Sessions\1\BaseNamedObjects\844HWNDInterface:700798 | Section
+\Sessions\1\BaseNamedObjects\844HWNDInterface:960902 | Section
+\Sessions\1\BaseNamedObjects\ie_ias_00000844-0000-0000-0000-000000000000 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IEFrame!GetAsyncKeyStateSharedMem | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:3_3 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:3_4 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:3_5 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:6_2 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:7_1 | Section
+\Sessions\1\BaseNamedObjects\IsoSpaceV2_LogonHighx64 | Section
 \Sessions\1\BaseNamedObjects\IsoSpaceV2_LogonMediumx64 | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\VERMGMTSharedMemory | Section
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\Internet Explorer\iexplore.exe |
+C:\Program Files\Internet Explorer\iexplore.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\SYSTEM32\apphelp.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
@@ -97,7 +105,6 @@ C:\Windows\SYSTEM32\msIso.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\NETAPI32.dll |
-C:\Windows\SYSTEM32\NETUTILS.DLL |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
@@ -113,7 +120,6 @@ C:\Windows\SYSTEM32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\SYSTEM32\WINHTTP.dll |
 C:\Windows\SYSTEM32\WKSCLI.DLL |
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_b555e41d4684ddec\comctl32.dll |
 
 
 ## Signature
@@ -133,13 +139,18 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * Product Version: 11.00.19041.1
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f76f00939f1be76152809c37591ef75d3c150745232e35697d99cae09e31c2bc/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Internet Explorer\iexplore.exe](iexplore.exe-2E414291458B49ACDA42C80A4C10DE7E.md) | 94
+[C:\Program Files (x86)\Internet Explorer\iexplore.exe](iexplore.exe-2E414291458B49ACDA42C80A4C10DE7E.md) | 94
 
 ## Possible Misuse
 

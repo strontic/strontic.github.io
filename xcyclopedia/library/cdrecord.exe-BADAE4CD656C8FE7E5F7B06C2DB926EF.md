@@ -5,7 +5,7 @@ excerpt: What is cdrecord.exe?
 
 # cdrecord.exe 
 
-* File Path: `C:\program files\InfraRecorder\cdrtools\cdrecord.exe`
+* File Path: `C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe`
 
 ## Hashes
 
@@ -17,6 +17,9 @@ SHA256 | `7F1133CE207CF067F7604FD8AC8D8B092D714EA0C7000838E59DB7C9E050BEED`
 SHA384 | `C636818F436F836111D9BC25D93A6CBB11F37C331BDAE3137B3A4E7CEC1C5521B2C7DC5AAF469C25F0271E483DCAD8ED`
 SHA512 | `9259E9D3FC39B3149B308A013FF522166D3307D17C40BAC41A115D09343E9D7B6452B6DE2A14C9A90A498D5902E226E7D5363F95CDFE22170CC82D589A1CF1B3`
 SSDEEP | `6144:Bx1xaWxsMqjptDOZCV7I404SHwMWG8QMWVUbV/gt/PIiiiiiT1fG/ay0x9n:BZrxsrzDOZCV7I4D+Jc/g5/Rxh`
+IMP | `4C9CF243B831189DE5FF43457E78F83D`
+PESHA1 | `E080095CD3541436DE2A6D89BFE74EDFEF86ED69`
+PE256 | `78E9D4935DAC804BFCB10A6B86AB54B4DB7F55571A6F693238E009FF2A994E0F`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Cdrecord-ProDVD-ProBD-Clone 2.01.01a61 (i686-pc-cygwin) Copyright (C) 1995-2009 
 
 ### Usage (stderr):
 ```cmhg
-Usage: /cygdrive/c/program files/InfraRecorder/cdrtools/cdrecord [options] track1...trackn
+Usage: /cygdrive/c/Program Files/InfraRecorder/cdrtools/cdrecord [options] track1...trackn
 Options:
 	-version	print version information and exit
 	dev=target	SCSI target to use as CD/DVD/BD-Recorder
@@ -119,7 +122,7 @@ Currently only form 1 tracks are supported.
 
 Path |
 -- |
-C:\program files\InfraRecorder\cdrtools\cdrecord.exe |
+C:\Program Files\InfraRecorder\cdrtools\cdrecord.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -143,14 +146,19 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/7f1133ce207cf067f7604fd8ac8d8b092d714ea0c7000838e59db7c9e050beed/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
-[C:\program files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 35
+[C:\Program Files\InfraRecorder\cdrtools\cdda2wav.exe](cdda2wav.exe-081F6F52F4254F500A8BB168C5A43CC8.md) | 29
+[C:\Program Files\InfraRecorder\cdrtools\readcd.exe](readcd.exe-5A6E919190ADE849A55BEDEDD7E63774.md) | 35
 
 
 

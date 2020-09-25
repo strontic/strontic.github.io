@@ -5,7 +5,7 @@ excerpt: What is SDHookInst32.exe?
 
 # SDHookInst32.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDHookInst32.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookInst32.exe`
 * Description: Live Protection Configuration Tool
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `8C705D7AC7C4FD9236FE18684C0117003A2E1C3D90216FE0DCB6C5C65623E175`
 SHA384 | `495E46C3A7C40A21E67296F2A9E1AF7942C1D8C7F5C1FC6AB799FB0984B6B99CF8D221E7B232248763E429B58586AE88`
 SHA512 | `888C24687E8CE8CFFABD7A139CD55FCAB98AA97358D75AEBBADE6F54B5551A2ACDEC6C5CF03B1B4323F146FA61ECFB960D1D07740886FB66201D47563696BC3D`
 SSDEEP | `3072:9SVQ3qzChPpp/4s8lRyAPszES+WfDKTLRn3I82L5ef0+GmOj1YYVN+FYCTbEQwg1:8pIPP/4o9D9cn3I8qefBI1NibRVmF`
+IMP | `B66992F88E6B5E56635C814D732A1224`
+PESHA1 | `5823951CA87E9853F49A2E7535079B7698406445`
+PE256 | `CAC6106F6F949059621540AA45A73FB1773C187333C737157C3EF0AF0569AB8E`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `3072:9SVQ3qzChPpp/4s8lRyAPszES+WfDKTLRn3I82L5ef0+GmOj1YYVN+FYCTbEQwg1:
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDHookInst32.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookInst32.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -49,13 +52,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/8c705d7ac7c4fd9236fe18684c0117003a2e1c3d90216fe0dcb6c5c65623e175/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDHookHelper.exe](SDHookHelper.exe-2E76D7ADE849B09200C2B2ED26802265.md) | 44
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookHelper.exe](SDHookHelper.exe-2E76D7ADE849B09200C2B2ED26802265.md) | 44
 
 
 

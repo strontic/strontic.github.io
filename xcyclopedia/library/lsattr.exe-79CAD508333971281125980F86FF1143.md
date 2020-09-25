@@ -97,8 +97,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\chattr.exe](chattr.exe-EA2E956C8B2D11F9337CBC99AFB7D91F.md) | 55
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\lsattr.exe](lsattr.exe-79CAD508333971281125980F86FF1143.md) | 100
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\chattr.exe](chattr.exe-EA2E956C8B2D11F9337CBC99AFB7D91F.md) | 55
 
 ## Possible Misuse
 

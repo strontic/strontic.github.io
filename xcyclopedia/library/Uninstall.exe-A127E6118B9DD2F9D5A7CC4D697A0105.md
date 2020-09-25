@@ -5,7 +5,7 @@ excerpt: What is Uninstall.exe?
 
 # Uninstall.exe 
 
-* File Path: `C:\program files (x86)\WinDirStat\Uninstall.exe`
+* File Path: `C:\Program Files (x86)\WinDirStat\Uninstall.exe`
 * Description: WinDirStat 1.1.2
 * Comments: This release contains both, Unicode and ANSI version of WinDirStat
 
@@ -20,6 +20,9 @@ SHA256 | `AFC864CFCE79B2A6ADD491A27EA672D958233ED7A97A2CBBCE60100D2FA1E670`
 SHA384 | `C2634C0FB3190AEC4DD85D9CF65BFA53E86C870E73FB39585F6A4C45408A94D75C9389D6E78527F0BE198E3BFCDEA75A`
 SHA512 | `0E57D2856C02C55D477D9B3CC1D4BF5FFA3650D4B20BE18B0A9E614D19143AEE325C4CD92FF31BBDDF6E93CD3EBEB47D8727DE6E25FAA366341CC71117122065`
 SSDEEP | `768:tnCHBjSfD0RDSjiN+WWrHcRtf55M4z54q+F5871mJMOUlNu0ZBA9U:MHFSfARDSW0HefHbmJZUlNu0bP`
+IMP | `97318DA386948415D08CEF4A9006D669`
+PESHA1 | `7492D98E007624B3E88BEAB28793286C99FF3D3E`
+PE256 | `3D9DB378FDE5D67C2201DD710A9BEB48A3AC00FF024404C95E207A2716ACEA12`
 
 ## Runtime Data
 
@@ -30,7 +33,7 @@ Au_.exe
 
 Path |
 -- |
-C:\program files (x86)\WinDirStat\Uninstall.exe |
+C:\Program Files (x86)\WinDirStat\Uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -39,7 +42,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\WinDirStat\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\WinDirStat\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -54,7 +57,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 
 * Language: English (United States)
 * Legal Copyright:  2003-2007 WDS Team
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/afc864cfce79b2a6add491a27ea672d958233ed7a97a2cbbce60100d2fa1e670/detection/
 
 
 ## Possible Misuse

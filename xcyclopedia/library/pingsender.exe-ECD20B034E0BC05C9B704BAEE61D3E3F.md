@@ -53,6 +53,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Program Files\Mozilla Thunderbird\pingsender.exe](pingsender.exe-51849446729CCD17336B59B2EB761A84.md) | 85
 [C:\Program Files\Mozilla Thunderbird\pingsender.exe](pingsender.exe-98023C0746D2917A479C2139D7686DBD.md) | 86
 
 

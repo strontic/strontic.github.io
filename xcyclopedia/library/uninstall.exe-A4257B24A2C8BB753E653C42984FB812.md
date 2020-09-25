@@ -47,7 +47,7 @@ Un_A.exe
 
 File | Score
 -- | --
-[C:\program files\FileZilla FTP Client\uninstall.exe](uninstall.exe-9DD407C783E6102F0DF9D1CAB2605937.md) | 91
+[C:\Program Files\FileZilla FTP Client\uninstall.exe](uninstall.exe-9DD407C783E6102F0DF9D1CAB2605937.md) | 91
 
 ## Possible Misuse
 

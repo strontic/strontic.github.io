@@ -42,11 +42,15 @@ SSDEEP | `3072:gMsLVMYGORx9F7Z5tPvQhFJOMzBdSsVfz:gBM2b9F7Z5+06iaz`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Native\win7_x64\BootDefrag.exe](BootDefrag.exe-B5BF21B27ACC7D55ED6A4378D05C8B9E.md) | 91
 [C:\Program Files (x86)\Glary Utilities 5\Native\win7_x64\BootDefrag.exe](BootDefrag.exe-E97AFF263E060AE8ED9CAB05E0A54AFA.md) | 86
 [C:\program files (x86)\Glary Utilities 5\Native\wlh_x64\BootDefrag.exe](BootDefrag.exe-422D41B7166F861AEDADA2232382FB20.md) | 83
 [C:\Program Files (x86)\Glary Utilities 5\Native\wlh_x64\BootDefrag.exe](BootDefrag.exe-81B77F8E87B2F5AAEBB8143CA1A057BC.md) | 83
+[C:\Program Files (x86)\Glary Utilities 5\Native\wlh_x64\BootDefrag.exe](BootDefrag.exe-A579DB05347D66CF4E89AA0F9F2410A9.md) | 85
+[C:\Program Files (x86)\Glary Utilities 5\Native\wnet_x64\BootDefrag.exe](BootDefrag.exe-04FB920D96A8178A5E10BE58DEF76B05.md) | 85
 [C:\program files (x86)\Glary Utilities 5\Native\wnet_x64\BootDefrag.exe](BootDefrag.exe-71F17291321898E98730606000578037.md) | 85
 [C:\Program Files (x86)\Glary Utilities 5\Native\wnet_x64\BootDefrag.exe](BootDefrag.exe-BDB3202B3B1CE5651271B3E91910C285.md) | 85
+[C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x64\BootDefrag.exe](BootDefrag.exe-4708262781D45D84122990044C07F8BA.md) | 85
 [C:\program files (x86)\Glary Utilities 5\Native\wxp_x64\BootDefrag.exe](BootDefrag.exe-67E3F43D188F1D467E2FA38843629EB8.md) | 85
 [C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x64\BootDefrag.exe](BootDefrag.exe-920D98A5DED46561050043158DB4A43B.md) | 85
 

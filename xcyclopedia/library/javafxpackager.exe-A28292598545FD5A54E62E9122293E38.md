@@ -5,7 +5,7 @@ excerpt: What is javafxpackager.exe?
 
 # javafxpackager.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe`
 * Description: OpenJFX Platform binary
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `F4E5223B5C2F9521D297255712ED3162A0DBAF74A116F842AE101FE185668DD6`
 SHA384 | `644F69D216C8B206168B3DE0E7428313E6675A260618B96EBD200EC258B33FDE8C1A8CF2F00A63BF3732346E7D721CF9`
 SHA512 | `0B95D8E25D067A53A42816593C7FC209A655C3D7F73782C5B523E1AC037911ED6A1A1B5EBCB0686AD6C0FDB323AA555C261FF09CC534085620C4E9B127D7B1F4`
 SSDEEP | `3072:j982i0/16CUicomL0yAktZpN/hLXVzYZAs0yp:jviGR/c0yvZpuFp`
+IMP | `BC2D876CA6DE81D619F53B9DC8AD752C`
+PESHA1 | `3B43E45179867F018CE22F161B0F5BE75C88E499`
+PE256 | `313657247601F9FC6B80ABE3A2F3CB8F615D381ECC866004809912AC707336BC`
 
 ## Runtime Data
 
@@ -201,7 +204,7 @@ javafxpackager.exe has been renamed javapackager.exe.
 The original file may be removed in a future release in lieu of javapackager.
 Please update your scripts.
 
-Error: Unknown command: --help
+Error: Unknown command: C:\temp\strontic-xcyclopedia\notepad.exe
 
 ```
 
@@ -209,7 +212,7 @@ Error: Unknown command: --help
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe |
+C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javafxpackager.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -232,13 +235,18 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2020.0
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/f4e5223b5c2f9521d297255712ed3162a0dbaf74a116f842ae101fe185668dd6/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\javapackager.exe](javapackager.exe-7A2696725C6D7C9C62197117ACBDDDA8.md) | 94
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\javapackager.exe](javapackager.exe-7A2696725C6D7C9C62197117ACBDDDA8.md) | 94
 
 ## Possible Misuse
 

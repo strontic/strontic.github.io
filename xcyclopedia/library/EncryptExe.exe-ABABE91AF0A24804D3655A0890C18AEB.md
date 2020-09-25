@@ -46,6 +46,7 @@ SSDEEP | `12288:2utyYb5qr2vMaewYTW/wxvZbyUU1yj3/R:91B0RC4xvZO87/R`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\EncryptExe.exe](EncryptExe.exe-2F376D290086F4A8A88D684AF4D99A78.md) | 96
 [C:\program files (x86)\Glary Utilities 5\EncryptExe.exe](EncryptExe.exe-E4BC633AA6720A3C5C4B9FD18C23BF62.md) | 96
 
 

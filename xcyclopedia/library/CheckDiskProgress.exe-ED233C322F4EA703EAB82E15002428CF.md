@@ -56,8 +56,10 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-C0BDA5A51C2F39C0BC2DCA28846F9F7E.md) | 91
+[C:\Program Files (x86)\Glary Utilities 5\CheckDiskProgress.exe](CheckDiskProgress.exe-C394F3E322E8D06A05F656B45DA8AF3B.md) | 88
 [C:\Program Files (x86)\Glary Utilities 5\x64\CheckDiskProgress.exe](CheckDiskProgress.exe-0ECF2A2DA0BFE7D7E6F0EED6B754783C.md) | 69
 [C:\program files (x86)\Glary Utilities 5\x64\CheckDiskProgress.exe](CheckDiskProgress.exe-2122ADC8191B8312D4CD85444DEFE08A.md) | 69
+[C:\Program Files (x86)\Glary Utilities 5\x64\CheckDiskProgress.exe](CheckDiskProgress.exe-95684DA4AEA28F92E87751023F129220.md) | 66
 
 
 

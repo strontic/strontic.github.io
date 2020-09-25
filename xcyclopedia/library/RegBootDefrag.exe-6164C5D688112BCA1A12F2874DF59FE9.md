@@ -42,8 +42,9 @@ SSDEEP | `768:D+VxNxH8kZofpP6drxyUdMeKgMjxV1DGGUf2hZ:SokQUiegVfUfq`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x64\RegBootDefrag.exe](RegBootDefrag.exe-3A311BED1F44CD166139B6F5B486157C.md) | 90
 [C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x64\RegBootDefrag.exe](RegBootDefrag.exe-DF1F346434D5ACCA929920D91C25B29C.md) | 88
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\fido2-token.exe](fido2-token.exe-CBC48A2F618E6E85C53E78B01B465F9C.md) | 33
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\fido2-token.exe](fido2-token.exe-CBC48A2F618E6E85C53E78B01B465F9C.md) | 33
 
 
 

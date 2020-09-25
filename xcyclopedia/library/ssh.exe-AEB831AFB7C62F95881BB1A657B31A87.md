@@ -65,11 +65,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\ssh.exe](ssh.exe-AEB831AFB7C62F95881BB1A657B31A87.md) | 100
 
 ## Possible Misuse
 

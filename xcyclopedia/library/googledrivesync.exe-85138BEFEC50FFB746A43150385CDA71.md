@@ -46,7 +46,7 @@ googledrivesync.exe
 
 File | Score
 -- | --
-[C:\program files\Google\Drive\googledrivesync.exe](googledrivesync.exe-294C1F547C89E9D362DFDABE66988A89.md) | 68
+[C:\Program Files\Google\Drive\googledrivesync.exe](googledrivesync.exe-294C1F547C89E9D362DFDABE66988A89.md) | 68
 
 
 

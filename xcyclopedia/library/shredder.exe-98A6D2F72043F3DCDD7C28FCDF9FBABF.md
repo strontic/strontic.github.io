@@ -87,6 +87,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\shredder.exe](shredder.exe-1595C9571D602451E5A255223711A3A4.md) | 93
 [C:\Program Files (x86)\Glary Utilities 5\shredder.exe](shredder.exe-91AC8DD454648C052E1E394D03215ADA.md) | 91
 
 

@@ -240,7 +240,9 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450
 
 File | Score
 -- | --
+[C:\Program Files\Inkscape\bin\inkscape.exe](inkscape.exe-F30F53F65E0E2C4835820A406761EF42.md) | 86
 [C:\program files\Inkscape\bin\inkview.exe](inkview.exe-17A62568710BE883F2B419098E3E2B20.md) | 93
+[C:\Program Files\Inkscape\bin\inkview.exe](inkview.exe-ED010CDD22BE2438CAE317B1DD012314.md) | 91
 
 
 

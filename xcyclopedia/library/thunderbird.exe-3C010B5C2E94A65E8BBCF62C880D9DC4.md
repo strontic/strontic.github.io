@@ -118,6 +118,7 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Program Files\Mozilla Thunderbird\thunderbird.exe](thunderbird.exe-77EB6156F1177F3F897269026B203841.md) | 57
+[C:\Program Files\Mozilla Thunderbird\thunderbird.exe](thunderbird.exe-78426A2669EAB01A71F33B7799715867.md) | 55
 
 ## Possible Misuse
 

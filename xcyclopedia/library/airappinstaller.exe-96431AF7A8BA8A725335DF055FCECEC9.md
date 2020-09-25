@@ -5,7 +5,7 @@ excerpt: What is airappinstaller.exe?
 
 # airappinstaller.exe 
 
-* File Path: `C:\program files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe`
+* File Path: `C:\Program Files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe`
 * Description: Adobe AIR Application Installer
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `F32CE702E32CE313748A1B9DE4D2AB0475210233F3A7A560C3C1AFE974DD53DF`
 SHA384 | `E5DFDDF96A8BDC42DA61171754D4011459387A9638875F3E5790937B921BD653688D55953DCDFBCBEDFB85E759DDF0CD`
 SHA512 | `C193B7BECBEB290CCF55490C60A23645395D45734B7502C5B0D869F7D3F61A3F35BD03E8E9C3512972C4FE64E42DE56FA00999C591D8AD2BB9D7F05EFEEE771B`
 SSDEEP | `384:K4qvSCMvQqV0qn6H101x/joc1E1k3Hn87EtpevVyAW7/z3ZsHLkjPnhV:6vSRc101x/joc1Ck3Hn87MpiVy3oGhV`
+IMP | `6FD6BFE9136FCE19E6ECA8278FEB7ADD`
+PESHA1 | `F8B3E6DDB6B7C2C189AB477343A7A456887C3CD3`
+PE256 | `FEE01C126DACE6950509AA514438A7B88A0934E45ADB9D432FF92A62285FF224`
 
 ## Runtime Data
 
@@ -34,7 +37,7 @@ Adobe AIR Application Installer.exe
 
 Path |
 -- |
-C:\program files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe |
+C:\Program Files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstaller.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -58,13 +61,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 32.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2007-2019, Adobe
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f32ce702e32ce313748a1b9de4d2ab0475210233f3a7a560c3c1afe974dd53df/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\airappinstaller.exe](airappinstaller.exe-96431AF7A8BA8A725335DF055FCECEC9.md) | 100
+[C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\airappinstaller.exe](airappinstaller.exe-96431AF7A8BA8A725335DF055FCECEC9.md) | 100
 
 
 

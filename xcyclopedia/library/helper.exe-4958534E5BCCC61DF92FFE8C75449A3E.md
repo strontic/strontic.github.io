@@ -43,7 +43,9 @@ SSDEEP | `12288:PcUUjD58lP7y8H+RNUDDvmEP77+7qB3DWKtsm453:P5p/eRSu7C3D1tT453`
 File | Score
 -- | --
 [C:\program files\Mozilla Firefox\uninstall\helper.exe](helper.exe-34EAD4BDF94FFBC7C4336E5279B748AC.md) | 88
+[C:\Program Files\Mozilla Firefox\uninstall\helper.exe](helper.exe-955304089E5347F4322D7FC3E76B0AC4.md) | 88
 [C:\program files\Mozilla Thunderbird\uninstall\helper.exe](helper.exe-40F9693E22DFF3BAC12327E1AFC040C6.md) | 65
+[C:\Program Files\Mozilla Thunderbird\uninstall\helper.exe](helper.exe-8FA842C0D816C2DEB70A40213C7E62D3.md) | 65
 [C:\Program Files\Mozilla Thunderbird\uninstall\helper.exe](helper.exe-BB2FD747BDC619EB96D693D665F403C7.md) | 68
 
 ## Possible Misuse

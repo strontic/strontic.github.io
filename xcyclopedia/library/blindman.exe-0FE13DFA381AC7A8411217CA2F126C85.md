@@ -5,7 +5,7 @@ excerpt: What is blindman.exe?
 
 # blindman.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\blindman.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\blindman.exe`
 * Description: Dummy
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `C7BAAE0E4D94287A809DCEEB41DBA93F5139EA2D58D3C1DB4A7885AAE7F6BC3D`
 SHA384 | `2567452AC95E177C3B04369A1C1125B72E5F4502638916BCF3C7A00646211BC3FC87B587A1588F9CDE58F8F8E922EB0F`
 SHA512 | `CA59FEBF6E160FC3A9E943D2C118F9228B29AC497C56128BAA8C92FED08795A7FC53575A3F6C415077BBA4875BEBB8008D490FD3D33FE1510011FE5FC3BC7B7F`
 SSDEEP | `3072:GcXXJvrwKvs7s0yUpYyb890k1UTOo9B1IyS6zCm:GcX5vh3G93aUTOo9BqmCm`
+IMP | `3AD8B6512001A26D94354AF6A7BEC79B`
+PESHA1 | `56345B3D63B6DBD1317B1E9FB50FA761F70130BB`
+PE256 | `77C0EFBE092992A772D492C0F78CF32CD0012140617B00BA8B304C5EA347C434`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `3072:GcXXJvrwKvs7s0yUpYyb890k1UTOo9B1IyS6zCm:GcX5vh3G93aUTOo9BqmCm`
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\blindman.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\blindman.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -49,7 +52,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2009-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/c7baae0e4d94287a809dceeb41dba93f5139ea2d58d3c1db4a7885aae7f6bc3d/detection/
 
 
 

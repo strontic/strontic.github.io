@@ -44,7 +44,9 @@ File | Score
 -- | --
 [C:\Program Files\Mozilla Firefox\plugin-hang-ui.exe](plugin-hang-ui.exe-9606E524FC5C19259840C6887309B936.md) | 30
 [C:\program files\Mozilla Firefox\plugin-hang-ui.exe](plugin-hang-ui.exe-BFAA80CF887849BE3925962D1E97A6FD.md) | 30
+[C:\Program Files\Mozilla Firefox\plugin-hang-ui.exe](plugin-hang-ui.exe-EE3024DA9F9CA3E2C1F516B74FB528C1.md) | 30
 [C:\program files\Mozilla Thunderbird\WSEnable.exe](WSEnable.exe-25228BEDD2A4C79453488CF27420D427.md) | 80
+[C:\Program Files\Mozilla Thunderbird\WSEnable.exe](WSEnable.exe-747E5D954A997EF8A7FF09C4386A44D9.md) | 80
 
 
 

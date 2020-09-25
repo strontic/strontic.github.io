@@ -52,6 +52,7 @@ MemfilesService.exe
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\EmptyFolderFinder.exe](EmptyFolderFinder.exe-20AAE75E3D008135842535BBC127FC2E.md) | 94
+[C:\Program Files (x86)\Glary Utilities 5\EmptyFolderFinder.exe](EmptyFolderFinder.exe-E414B13E5875190B056E237AAC6AA58B.md) | 96
 
 
 

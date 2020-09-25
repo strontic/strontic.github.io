@@ -83,11 +83,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\basename.exe](basename.exe-06A6BE1F6953444247863D2B556B8710.md) | 100
 
 ## Possible Misuse
 

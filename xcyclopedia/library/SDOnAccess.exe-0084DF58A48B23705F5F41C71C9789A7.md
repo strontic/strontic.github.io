@@ -5,7 +5,7 @@ excerpt: What is SDOnAccess.exe?
 
 # SDOnAccess.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDOnAccess.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDOnAccess.exe`
 * Description: On Access protection dialog
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `6837E3C0702326A76196FAB0A809AF28A178594FE0C6592633BF9ECD8A45B2C8`
 SHA384 | `9A04E2218925230F67C3C3FB4AA101937D01C1103323537A4EA6B97A46AAD46DAD3FA9B1594AA3F6DDCAB63EAF284D6D`
 SHA512 | `610E7055064F330618FB373C9665755C646DF3324F71D6461764CCEC3A495A8FC586CF9CEE11C86933C7AB8B0DFA84EBA8F7B7568348FA0189A538CFD73D36B3`
 SSDEEP | `49152:DvDunXSWCqwAw4k8r5Fcj7AkdrkQjDLPZIFE1SryN0fNTuTWNMDI5YdtQH986Fc0:DvU2kFcgkkQnLPVN0fZZFjNiqt2zsJ`
+IMP | `9295ADD0A47ABB00777F50C28840222F`
+PESHA1 | `C542FF83D6C902F465A95841ED07F23FAE0908AB`
+PE256 | `C3A2948EB71157C6466603B073EFF8CF7A8D5D1B8BCDA71630B7841025DBC420`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `49152:DvDunXSWCqwAw4k8r5Fcj7AkdrkQjDLPZIFE1SryN0fNTuTWNMDI5YdtQH986Fc0
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDOnAccess.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDOnAccess.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -49,7 +52,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: English (Ireland)
 * Legal Copyright:  2013-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/6837e3c0702326a76196fab0a809af28a178594fe0c6592633bf9ecd8a45b2c8/detection/
 
 
 

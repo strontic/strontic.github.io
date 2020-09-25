@@ -79,6 +79,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright:                                                                                                     
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\ShareX\Recorder-devices-setup.exe](Recorder-devices-setup.exe-1AF667F0584E8BE6855987F50286F988.md) | 94
 
 
 

@@ -109,7 +109,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\diff3.exe](diff3.exe-94777C8FE4BA312BA5A6253A21C209BC.md) | 96
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff3.exe](diff3.exe-176C85055DC8F75969956CC0FB7109B7.md) | 100
 
 
 

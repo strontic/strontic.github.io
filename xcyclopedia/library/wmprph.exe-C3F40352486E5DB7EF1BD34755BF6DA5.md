@@ -5,7 +5,7 @@ excerpt: What is wmprph.exe?
 
 # wmprph.exe 
 
-* File Path: `C:\program files (x86)\Windows Media Player\wmprph.exe`
+* File Path: `C:\Program Files (x86)\Windows Media Player\wmprph.exe`
 * Description: Windows Media Player Rich Preview Handler
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `A31FCFBEC695BD29F2763AC52C7BCDB22E95CEA9334E5841FA0BB379C5B35F8B`
 SHA384 | `E4547D2239A449FCBDEAA95EFF86C11653F64E87FB9107BCA4106AA59710FBA1ECF6ABF7A10655A6AA4983F6B9B9C464`
 SHA512 | `E0ADD07122BE62044E7359112EE809AA3321DCE1587DECC750A0F0D44B0F05A6F1878A84B26D085CEF853F31C723ECDBAF11ABD9EEA9CABE662ED22241ED4ED8`
 SSDEEP | `768:4+VqzjGFGQbg9//WrDScC+iXoQbjFtQA0uaYm7Y+h7G1O3ANyERHn3EUR:SGxe/OOcPiYQN3GjG1bNhRHn3E8`
+IMP | `E80BCC3A3EFBA6E5D42792769409FC2A`
+PESHA1 | `1DC9F561FF9670ECC21934542B38F0B54DDF969E`
+PE256 | `E9BE843C2E510D688AB30CBEBC08CD5E1E247782E7288F0ED766DE26209CE58E`
 
 ## Runtime Data
 
@@ -25,8 +28,8 @@ SSDEEP | `768:4+VqzjGFGQbg9//WrDScC+iXoQbjFtQA0uaYm7Y+h7G1O3ANyERHn3EUR:SGxe/OOc
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -36,7 +39,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files (x86)\Windows Media Player\wmprph.exe |
+C:\Program Files (x86)\Windows Media Player\wmprph.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -60,7 +63,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 12.0.19041.329
 * Language: English (United States)
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/a31fcfbec695bd29f2763ac52c7bcdb22e95cea9334e5841fa0bb379c5b35f8b/detection/
 
 
 

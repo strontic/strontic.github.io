@@ -89,7 +89,9 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Native\wxp_x86\RegBootDefrag.exe](RegBootDefrag.exe-A1AEBAD1A5568938A1AE251CB2DBC3C5.md) | 43
 [C:\Program Files (x86)\Glary Utilities 5\StartupManager.exe](StartupManager.exe-9082F7EEF400E723649B8CCFA0214459.md) | 88
+[C:\Program Files (x86)\Glary Utilities 5\StartupManager.exe](StartupManager.exe-F6F1189D2C79B1A84BE8F5C792DD60B2.md) | 90
 
 
 

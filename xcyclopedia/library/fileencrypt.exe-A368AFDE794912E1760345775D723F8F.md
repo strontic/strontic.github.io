@@ -83,6 +83,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\fileencrypt.exe](fileencrypt.exe-71C92DA6521BC54CCE0640FB2FD0F6DE.md) | 94
 [C:\Program Files (x86)\Glary Utilities 5\fileencrypt.exe](fileencrypt.exe-C3C76DD3E1E3D5E36656E8A06ED25E3F.md) | 94
 
 

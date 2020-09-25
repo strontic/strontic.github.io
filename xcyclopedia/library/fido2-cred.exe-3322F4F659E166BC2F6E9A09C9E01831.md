@@ -56,11 +56,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\fido2-cred.exe](fido2-cred.exe-3322F4F659E166BC2F6E9A09C9E01831.md) | 100
 
 
 

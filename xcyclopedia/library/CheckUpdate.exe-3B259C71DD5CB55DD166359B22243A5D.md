@@ -79,6 +79,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\CheckUpdate.exe](CheckUpdate.exe-5D0D62731FF110F355D225E7B7DABE19.md) | 96
 [C:\Program Files (x86)\Glary Utilities 5\CheckUpdate.exe](CheckUpdate.exe-70AEAEF426193BC2540197258FF058B8.md) | 94
 
 ## Possible Misuse

@@ -55,6 +55,11 @@ C:\Windows\System32\sechost.dll |
 * Legal Copyright: Copyright (c) 2007-2020 ShareX Team
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\ShareX\ShareX_NativeMessagingHost.exe](ShareX_NativeMessagingHost.exe-1CC257D805C9D4B2F242FAE2095ED76E.md) | 88
 
 
 

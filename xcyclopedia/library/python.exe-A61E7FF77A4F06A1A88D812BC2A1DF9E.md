@@ -61,6 +61,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\venv\scripts\nt\python.exe](python.exe-1E9F2876D3A27B53A7B68FD88683A9A1.md) | 97
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\venv\scripts\nt\python.exe](python.exe-ADCC9178AE9761E395D2B184FE6BEE18.md) | 93
 
 ## Possible Misuse
 

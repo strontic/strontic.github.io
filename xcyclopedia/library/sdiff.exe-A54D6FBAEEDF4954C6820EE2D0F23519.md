@@ -91,7 +91,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sdiff.exe](sdiff.exe-03EE5C3FE7ADA68540A591BC90E204DB.md) | 96
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sdiff.exe](sdiff.exe-03EE5C3FE7ADA68540A591BC90E204DB.md) | 96
 
 
 

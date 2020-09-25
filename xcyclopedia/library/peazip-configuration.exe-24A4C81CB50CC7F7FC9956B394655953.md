@@ -82,6 +82,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files\PeaZip\res\peazip-configuration.exe](peazip-configuration.exe-3D0D7BD27D3EF365238722121712E9A7.md) | 82
 [C:\Program Files\PeaZip\res\peazip-configuration.exe](peazip-configuration.exe-94C1FA1C9085ACD6A5C5C88722F702E9.md) | 85
 
 

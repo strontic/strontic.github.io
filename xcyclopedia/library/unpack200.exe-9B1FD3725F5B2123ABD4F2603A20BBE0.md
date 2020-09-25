@@ -5,7 +5,7 @@ excerpt: What is unpack200.exe?
 
 # unpack200.exe 
 
-* File Path: `C:\program files\Amazon Corretto\jre8\bin\unpack200.exe`
+* File Path: `C:\Program Files\Amazon Corretto\jre8\bin\unpack200.exe`
 * Description: OpenJDK Platform binary
 
 ## Hashes
@@ -18,12 +18,15 @@ SHA256 | `F284BA1D318645D6092D9AFE61DB2DAE46C6068C89530C913196BA38BCD2CAA7`
 SHA384 | `B4E07E058DD0F21AAA1C54779ADA1F9AE1F5AEECB6BE97538F70E465D9424A3EB7592E67F88CBA41A591ED217D4D7E85`
 SHA512 | `0D06D791C31D2D65E58F3CEBE0778B1E892ECC59C083A1AAB8C728CF04D1AEC6C61E103FF0C0281236DA7281D63ACBCB45128B9D42A7AC73B2E2110902F57734`
 SSDEEP | `3072:mUAkFH9bVb7ai7d4t0yIqIyqF5w+Zna5BZTBfxAqQNTwd+6YysYo:1D9bxaix4ttBIfGeSzTBZAqQNTwd+J`
+IMP | `E1A3B9C755B6E615B4050D0BD623BB5B`
+PESHA1 | `2E0912C9A3318315DD6C4551F265DB93C7146DB8`
+PE256 | `D55335CC7263F4D61C8E056BAC88D6D4A0A8439EA1D388FF8322E62539B518F5`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-Usage:  C:\program files\Amazon Corretto\jre8\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
+Usage:  C:\Program Files\Amazon Corretto\jre8\bin\unpack200.exe [-opt... | --option=value]... x.pack[.gz] y.jar
 
 Unpacking Options
   -H{h}, --deflate-hint={h}     override transmitted deflate hint: true, false, or keep (default)
@@ -41,7 +44,7 @@ Unpacking Options
 
 Path |
 -- |
-C:\program files\Amazon Corretto\jre8\bin\unpack200.exe |
+C:\Program Files\Amazon Corretto\jre8\bin\unpack200.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -64,14 +67,19 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 8.0.2650.1
 * Language: Language Neutral
 * Legal Copyright: Copyright  2020
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/f284ba1d318645d6092d9afe61db2dae46c6068c89530c913196ba38bcd2caa7/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\unpack200.exe](unpack200.exe-2437795FA33A30602CAF61F8BD3762A2.md) | 96
-[C:\program files\Amazon Corretto\jdk1.8.0_265\jre\bin\unpack200.exe](unpack200.exe-3CF889B098C1A6CB28B196049C82157E.md) | 96
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\unpack200.exe](unpack200.exe-2437795FA33A30602CAF61F8BD3762A2.md) | 96
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\jre\bin\unpack200.exe](unpack200.exe-3CF889B098C1A6CB28B196049C82157E.md) | 96
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is RemoveDrive.exe?
 
 # RemoveDrive.exe 
 
-* File Path: `C:\program files (x86)\MusicBee\RemoveDrive.exe`
+* File Path: `C:\Program Files (x86)\MusicBee\RemoveDrive.exe`
 * Description: RemoveDrive (Win32) - Prepares drives for safe removal
 * Comments: Works on Windows 2000, XP and higher only, Freeware
 
@@ -20,6 +20,9 @@ SHA256 | `A0C1B9B7D55C850A8D0D7CD6A640A8CC4AA5C617008DC9C44D43D735ABD23089`
 SHA384 | `316FDFDC8931F953BD8FB5FE41A7E153569419DF31848C2630D8B888C1331A819AA0FA7C9C1CAB96CAE8A3DA992968CF`
 SHA512 | `48994C04E707AD496F077583AAC1BE3715AF5904EDDEB76136C534895696356F8E0091B293CCEEF564F3FB7A5E82A29304DC259EB10C247ED3FE24DE1CEC19A7`
 SSDEEP | `768:vOpQXQCOnmI2JNtixiPF7NxtDBnTOkLoTp2Mcwf:vOGXcQE8FRNnBLoTpt`
+IMP | `7BB9E9C201DC40D5675C1446ED9A63A6`
+PESHA1 | `6A635BBF088DB338FFDCFEE63B3CE2CF50FED90E`
+PE256 | `9621B88CE8A857E54B56567BB18735AECA69792402698E7F82908BF385B3E3E2`
 
 ## Runtime Data
 
@@ -57,7 +60,7 @@ or the device id string of the volume or of the disk
 
 Path |
 -- |
-C:\program files (x86)\MusicBee\RemoveDrive.exe |
+C:\Program Files (x86)\MusicBee\RemoveDrive.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -66,7 +69,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files (x86)\MusicBee\RemoveDrive.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files (x86)\MusicBee\RemoveDrive.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -81,7 +84,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2,1,1,0
 * Language: Language Neutral
 * Legal Copyright: Copyright  2005-2011 Uwe Sieber
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 2/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/a0c1b9b7d55c850a8d0d7cd6a640a8cc4aa5c617008dc9c44d43d735abd23089/detection/
 
 
 

@@ -134,11 +134,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sort.exe](sort.exe-91EDD1D38D2A99EA499257C005B46B35.md) | 100
 
 
 ## Additional Info*

@@ -5,7 +5,7 @@ excerpt: What is SDHookInst64.exe?
 
 # SDHookInst64.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDHookInst64.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookInst64.exe`
 * Description: Live Protection Configuration Tool
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `2BA8BA5CC2AADEA45FEC891E66853FD3820641D10D18B3640EA2CA447510C039`
 SHA384 | `E353D386C02F72D7CF2C71E8ABAB196FBB74FA89479F9656F39966009054866F82ADFDE2DF923D784FAA10D5B2E5BE88`
 SHA512 | `D9B4F23DCD4B34B1798FAD176FF446FD4F2BCD0BB924CE33EB596031722AB3D791CA7712674B99F5D472172DA75CB1EF0E380673D7706FFA3DBD88529B2DAEA8`
 SSDEEP | `6144:ni+J5J8mVjoKFBqT8XzIwJYg4741NibRV:i05CUts81NOD`
+IMP | `42D41CB9E777155257B0A62B8CCCE1D4`
+PESHA1 | `566998637B1DD4045BB08C326898F17FBE9761D8`
+PE256 | `E9AC1156DF1B8A04880BE4E532CB5234E529A6455B2682CBF421818E8629DC92`
 
 ## Runtime Data
 
@@ -25,10 +28,11 @@ SSDEEP | `6144:ni+J5J8mVjoKFBqT8XzIwJYg4741NibRV:i05CUts81NOD`
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDHookInst64.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookInst64.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
@@ -36,6 +40,7 @@ C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SHELL32.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -58,7 +63,12 @@ C:\Windows\System32\win32u.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/2ba8ba5cc2aadea45fec891e66853fd3820641d10d18b3640ea2ca447510c039/detection/
 
 
 

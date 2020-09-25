@@ -56,6 +56,8 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\program files (x86)\Dropbox\Client\104.4.175\DropboxThumbnailGenerator.exe](DropboxThumbnailGenerator.exe-B187017DE2A5E342EF903F16C0C39C65.md) | 35
+[C:\Program Files (x86)\Dropbox\Client\106.4.368\driver_x86\dbxsvc.exe](dbxsvc.exe-873031F9607DC71F4A18C75791A8E116.md) | 93
+[C:\Program Files (x86)\Dropbox\Client\106.4.368\DropboxThumbnailGenerator.exe](DropboxThumbnailGenerator.exe-F2FB59D095731A55973638A7769CED9F.md) | 36
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is upx.exe?
 
 # upx.exe 
 
-* File Path: `C:\program files\PeaZip\res\upx\upx.exe`
+* File Path: `C:\Program Files\PeaZip\res\upx\upx.exe`
 * Description: UPX executable packer
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `3660FA3C1E91917E8388C85E222BF3973EDEBF89F5898B2908111C981481DD40`
 SHA384 | `C861B31759AF8B55899BD8104B1DB8EB7446C3DF27B546533C9B3293C2612777B454709D4CDB2918EEF55643AC7AA01A`
 SHA512 | `263B2229072BBBCE046619C9B1E9C61D6D64164AA0A2BED3E33E5D49E18E6D72E33234566A819A7EB5A2643602C5D87F0CD60D54312EC916FAC270CF86A4EFC2`
 SSDEEP | `12288:MWGI81xb937Ez/h4YftwOjSwnS4KMsRm1nrrWt:MtI853u+YfPO2S4sRQat`
+IMP | `n/a`
+PESHA1 | `FB3F1BF927535BA939FFE375DC5E8C4D37EC42D5`
+PE256 | `52CEAFF9940A86760885B1B9321081CD0F2F8F365E135C7132AA74A1ECCC18FF`
 
 ## Runtime Data
 
@@ -271,7 +274,7 @@ UPX comes with ABSOLUTELY NO WARRANTY; for details visit https://upx.github.io
 
 Path |
 -- |
-C:\program files\PeaZip\res\upx\upx.exe |
+C:\Program Files\PeaZip\res\upx\upx.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -279,7 +282,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## Signature
 
-* Status: The file C:\program files\PeaZip\res\upx\upx.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\PeaZip\res\upx\upx.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -294,7 +297,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 3.95 (2018-08-26)
 * Language: English (United States)
 * Legal Copyright:  1996-2018 Markus F.X.J. Oberhumer
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 2/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/3660fa3c1e91917e8388c85e222bf3973edebf89f5898b2908111c981481dd40/detection/
 
 
 

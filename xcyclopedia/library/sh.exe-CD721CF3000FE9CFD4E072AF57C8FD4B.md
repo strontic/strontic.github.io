@@ -84,7 +84,7 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sh.exe](sh.exe-0049E1D78AFDE220B5931F1969EBAD94.md) | 97
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\sh.exe](sh.exe-0049E1D78AFDE220B5931F1969EBAD94.md) | 97
 
 ## Possible Misuse
 

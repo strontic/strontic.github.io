@@ -5,7 +5,7 @@ excerpt: What is GUP.exe?
 
 # GUP.exe 
 
-* File Path: `C:\program files (x86)\Notepad++\updater\GUP.exe`
+* File Path: `C:\Program Files (x86)\Notepad++\updater\GUP.exe`
 * Description: WinGup for Notepad++
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `CE0685BEDEB6904488615F45764E8304CE1DD4DA4AE0200A4B2F6D14C1B91D49`
 SHA384 | `E28E1D32338CD35724326EFB6161FBC409737438349C27195B0E4BCA76CD24AB157A65927B3C4EF6B38A33435546B531`
 SHA512 | `50F58A629CEDF006030A03386DB204A6AD0AA60095B05A6B7308654C0BB4B535C5BF63467611549280E4EF51231D8A8FE2A0F86A62C80811448B8DA6DA60729C`
 SSDEEP | `12288:punghTI6t+YN23yqb/f4J0MfWU5g2AefHqDRnCkbe583f+gzTrqQh2MvOuj:4nR3yE4J0IVS2AePWCkbJvTrqQhzWuj`
+IMP | `1722E04041B3F31D41A061D6052A298F`
+PESHA1 | `DFE6001979016E1C27F18A6C552A072D32B5D512`
+PE256 | `DB7C07E268CE9D3A0DE2DBD33D8E7B80BD17A3B4C8AADFB995B340151EC8C404`
 
 ## Runtime Data
 
@@ -33,20 +36,20 @@ GUP Command Argument Help
 Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Notepad++\updater\GUP.exe |
+C:\Program Files (x86)\Notepad++\updater\GUP.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -70,7 +73,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 5.11
 * Language: English (United States)
 * Legal Copyright: Copyright 2018 by Don HO
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/ce0685bedeb6904488615f45764e8304ce1dd4da4ae0200a4b2f6d14c1b91d49/detection/
 
 
 ## Possible Misuse

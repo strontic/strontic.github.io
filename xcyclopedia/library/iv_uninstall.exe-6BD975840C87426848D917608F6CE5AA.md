@@ -5,7 +5,7 @@ excerpt: What is iv_uninstall.exe?
 
 # iv_uninstall.exe 
 
-* File Path: `C:\program files (x86)\IrfanView\iv_uninstall.exe`
+* File Path: `C:\Program Files (x86)\IrfanView\iv_uninstall.exe`
 * Description: IrfanView Uninstaller
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `2FA5AF76ECC059CEA936A51884F0218B0CFC98412194D9A3EA22360D23415E3C`
 SHA384 | `80BD7CA58A219FEF5F32CEA539DC712C96E4A4F375FA1F449A5E7F352A5CF9B21FD96D66D19E0E02D50D45230E78BFC8`
 SHA512 | `C001CF0631A6EA06E76D3DD1B4356E660EF653D5EECE6108C5C2C9A0289389C7204C80A838D128B78C619A50E3BF4847B7E8437ADB9A275341C19ADA90E28DCC`
 SSDEEP | `1536:/JOUUA0JyI6YI6eCt7vLI+9/rHZIlalhPvMOVi:/UUgyV76htfT/rHZIlalhPvT`
+IMP | `5DC155C4A84EF063F105FE45F7497B27`
+PESHA1 | `BA9EEE9957053032DA568863A71387F28A5BBFA8`
+PE256 | `F5F015DE66A5F736241888A5DDD1DB54CBECDD5147918B970BA59AB21E070C96`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ iv_uninstall.exe
 
 Path |
 -- |
-C:\program files (x86)\IrfanView\iv_uninstall.exe |
+C:\Program Files (x86)\IrfanView\iv_uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -52,7 +55,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1, 5, 2, 0
 * Language: German (Austria)
 * Legal Copyright: Copyright  2019 by Irfan Skiljan, Austria
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 1/65
+* VirusTotal Link: https://www.virustotal.com/gui/file/2fa5af76ecc059cea936a51884f0218b0cfc98412194d9a3ea22360d23415e3c/detection/
 
 
 

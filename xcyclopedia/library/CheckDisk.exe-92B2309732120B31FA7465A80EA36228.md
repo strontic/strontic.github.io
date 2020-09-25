@@ -89,6 +89,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\CheckDisk.exe](CheckDisk.exe-01F274589D09109E693102ADCF40DD18.md) | 97
+[C:\Program Files (x86)\Glary Utilities 5\CheckDisk.exe](CheckDisk.exe-EE6490BE0422B1FE26CD2C888F8DBE89.md) | 97
 
 
 

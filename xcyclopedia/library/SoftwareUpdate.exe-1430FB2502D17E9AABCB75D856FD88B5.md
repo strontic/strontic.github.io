@@ -52,6 +52,7 @@ x64ProcessAssistSvc.exe
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\SoftwareUpdate.exe](SoftwareUpdate.exe-4E1E2E1348D0FE11222B7D55D249E4FA.md) | 96
 [C:\program files (x86)\Glary Utilities 5\SoftwareUpdate.exe](SoftwareUpdate.exe-C3D34B8FCFABB16846B0E4C96E7C9BC1.md) | 96
 
 

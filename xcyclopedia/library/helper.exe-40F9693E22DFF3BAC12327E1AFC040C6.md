@@ -57,6 +57,8 @@ File | Score
 -- | --
 [C:\program files\Mozilla Firefox\uninstall\helper.exe](helper.exe-34EAD4BDF94FFBC7C4336E5279B748AC.md) | 65
 [C:\Program Files\Mozilla Firefox\uninstall\helper.exe](helper.exe-4958534E5BCCC61DF92FFE8C75449A3E.md) | 65
+[C:\Program Files\Mozilla Firefox\uninstall\helper.exe](helper.exe-955304089E5347F4322D7FC3E76B0AC4.md) | 65
+[C:\Program Files\Mozilla Thunderbird\uninstall\helper.exe](helper.exe-8FA842C0D816C2DEB70A40213C7E62D3.md) | 86
 [C:\Program Files\Mozilla Thunderbird\uninstall\helper.exe](helper.exe-BB2FD747BDC619EB96D693D665F403C7.md) | 90
 
 ## Possible Misuse

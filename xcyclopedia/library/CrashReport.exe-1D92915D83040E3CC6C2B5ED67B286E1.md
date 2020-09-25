@@ -56,6 +56,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\CrashReport.exe](CrashReport.exe-0ED17BBF3A225737C4474A4A341037F6.md) | 80
+[C:\Program Files (x86)\Glary Utilities 5\CrashReport.exe](CrashReport.exe-A59FD84E9911426818B04A706D11F20B.md) | 94
 
 
 

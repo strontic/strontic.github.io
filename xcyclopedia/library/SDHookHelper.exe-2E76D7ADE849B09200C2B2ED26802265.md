@@ -5,7 +5,7 @@ excerpt: What is SDHookHelper.exe?
 
 # SDHookHelper.exe 
 
-* File Path: `C:\program files (x86)\Spybot - Search & Destroy 2\SDHookHelper.exe`
+* File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookHelper.exe`
 * Description: Live Protection Helper
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `D93A7294399A315D034B3550E7DE0DD5D2A1E11B5F1986DD31B9610E05F825E9`
 SHA384 | `A1C7DC802EB7CB1D5E329ACB75BF0288FA038F20A908149A7AB060A498E87464DC6885601AFBEDAB0FDAC61C80EF1732`
 SHA512 | `1E0701A01B69815630BA2FFB9FC08FFFCFA92D136DBD684738C74F4C37701306DDAA81F742F23F77D458BD2A4982143619873848872642DAE7548696924EA4BF`
 SSDEEP | `3072:VkS+WjzgACklrlmOj1YYVN+FYCTbEQwq8KO:V3+Wjznd31NibRIKO`
+IMP | `7FE9366C1A8913966E95F87F15B4988C`
+PESHA1 | `D61D80209F5B7E3E36F36264E86D912694B8BC0C`
+PE256 | `C0EFFB2024D2EB39AA72EC6354C01C431ECDD4C6E97279B7886DF7185C53E327`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `3072:VkS+WjzgACklrlmOj1YYVN+FYCTbEQwq8KO:V3+Wjznd31NibRIKO`
 
 Path |
 -- |
-C:\program files (x86)\Spybot - Search & Destroy 2\SDHookHelper.exe |
+C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookHelper.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -49,13 +52,18 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.7.64.0
 * Language: Language Neutral
 * Legal Copyright:  2010-2018 Safer-Networking Ltd. All rights reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d93a7294399a315d034b3550e7de0dd5d2a1e11b5f1986dd31b9610e05f825e9/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files (x86)\Spybot - Search & Destroy 2\SDHookInst32.exe](SDHookInst32.exe-20388B5A0CD09EE8B80BEF12B646341B.md) | 44
+[C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHookInst32.exe](SDHookInst32.exe-20388B5A0CD09EE8B80BEF12B646341B.md) | 44
 
 
 

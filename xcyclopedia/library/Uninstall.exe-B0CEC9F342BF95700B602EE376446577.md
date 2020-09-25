@@ -5,7 +5,7 @@ excerpt: What is Uninstall.exe?
 
 # Uninstall.exe 
 
-* File Path: `C:\program files\7-Zip\Uninstall.exe`
+* File Path: `C:\Program Files\7-Zip\Uninstall.exe`
 * Description: 7-Zip Uninstaller
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `24A2472E3BD5016CB22CE14CEFEE112D5BC18354BF099E8E66AD9846AEA15088`
 SHA384 | `784E85C86598A1215279F2841E5F9649A0ED1CCE2D9DA3EC2A49FC6BBB505CB4A79AAE9CF7CAF8DEBF45AC855F189FC5`
 SHA512 | `05EBECFC8D3E2E7885D3CACC65BFD97DB710C2CBC0FB76B19B7D6CC82B327B25DF953A20AFFC8D84002167DD8AC7710622279D3579C6605E742A98FE7095AA4E`
 SSDEEP | `192:WN8CeeT+a2j12sUr/XKRbU+86HOO7+Bb2NpWP1oynJ+y7ihXar28d/o:xeT+a2jfUrfKRa6HiqpA13+y7+Xa1`
+IMP | `978A83E4E4FC81BD6EC2E78D6B0DAFBD`
+PESHA1 | `41D04A73990C4D591B0F895860B2263CA12CED31`
+PE256 | `4DA780F6AC1F2D06564D3C56D0D7B26225E8249674B6F1641F59DFDC3378A064`
 
 ## Runtime Data
 
@@ -28,7 +31,7 @@ Uninst.exe
 
 Path |
 -- |
-C:\program files\7-Zip\Uninstall.exe |
+C:\Program Files\7-Zip\Uninstall.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -37,7 +40,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files\7-Zip\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\7-Zip\Uninstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -52,7 +55,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 19.00
 * Language: English (United States)
 * Legal Copyright: Copyright (c) 1999-2018 Igor Pavlov
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/66
+* VirusTotal Link: https://www.virustotal.com/gui/file/24a2472e3bd5016cb22ce14cefee112d5bc18354bf099e8e66ad9846aea15088/detection/
 
 
 ## Possible Misuse

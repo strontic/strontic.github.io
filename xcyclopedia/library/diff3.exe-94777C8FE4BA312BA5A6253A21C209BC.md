@@ -98,7 +98,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff3.exe](diff3.exe-176C85055DC8F75969956CC0FB7109B7.md) | 96
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff3.exe](diff3.exe-176C85055DC8F75969956CC0FB7109B7.md) | 96
 
 
 

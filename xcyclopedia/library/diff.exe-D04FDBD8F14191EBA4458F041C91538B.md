@@ -156,7 +156,7 @@ General help using GNU software: <https://www.gnu.org/gethelp/>
 
 File | Score
 -- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff.exe](diff.exe-8A5778234C80E73E7C0D0D6756AA2CF4.md) | 97
+[C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\diff.exe](diff.exe-8A5778234C80E73E7C0D0D6756AA2CF4.md) | 97
 
 
 

@@ -5,7 +5,7 @@ excerpt: What is Adobe AIR Application Installer.exe?
 
 # Adobe AIR Application Installer.exe 
 
-* File Path: `C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe`
+* File Path: `C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe`
 * Description: Adobe AIR Application Installer
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `8B9B8D0C7234EF27ACC2B64E8EFED625B7D871D1F5AF9E22814D7FB871A6AEC2`
 SHA384 | `8BCA667F06FB8CC0582C09E57F17FE4589B6EF6E1AB98F6DA04DFEDDC1638CF39CB77464A357978D2032139C0C55A7D9`
 SHA512 | `D33D69339D402BE4B3526CEF206BDBAE01A7AE3A299E5F07BA5BB5E541EF6D190484574BC6DD89BEF3D3D0DCE3C90BE551D2C727800AA1EF906F178EE9DC8373`
 SSDEEP | `3072:WH25hogaS00EoVEf0y4ac5KNi01x/joc1CkM7MpiigEsMkFB:+bSQZiaQMkFB`
+IMP | `D09F9313E12CD980465ADFC5B438C66E`
+PESHA1 | `38D1557994F4963DEBB81E85D3F8502695E18B4C`
+PE256 | `D872C43E2814E0D639548040A65B35543A638329540EF0A410EBB8E84DED8F4C`
 
 ## Runtime Data
 
@@ -40,24 +43,24 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_89e6152f0b32762e | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\BaseNamedObjects\e64HWNDInterface:2500f8 | Section
+\Sessions\1\BaseNamedObjects\1624HWNDInterface:4a063a | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe |
+C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -81,7 +84,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 32.0
 * Language: English (United States)
 * Legal Copyright: Copyright 2007-2019, Adobe
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/8b9b8d0c7234ef27acc2b64e8efed625b7d871d1f5af9e22814d7fb871a6aec2/detection/
 
 
 

@@ -47,6 +47,7 @@ Un_A.exe
 File | Score
 -- | --
 [C:\program files (x86)\Glary Utilities 5\uninst.exe](uninst.exe-9C9F9148DB47E19BFA0E7F58FFD84295.md) | 82
+[C:\Program Files (x86)\Glary Utilities 5\uninst.exe](uninst.exe-C5D2A8EE1C89DB7CF1FD02A89A0480F8.md) | 77
 
 
 

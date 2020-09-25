@@ -5,7 +5,7 @@ excerpt: What is GOMProtect.exe?
 
 # GOMProtect.exe 
 
-* File Path: `C:\program files (x86)\GRETECH\GomPlayer\GOMProtect.exe`
+* File Path: `C:\Program Files (x86)\GRETECH\GomPlayer\GOMProtect.exe`
 * Description: GOM Protect
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `3568D0C63251E7E07C6723BE78ADC23C8576D211EC4E8A50DED69FA5AB59B9CA`
 SHA384 | `D5AF6A30DEEAE8CDB8D1AA768CF6EB2145276C1AE9293AD5E52C466B226D5E8FE4659EFF383A19105C19134822085D48`
 SHA512 | `7762ECBCB8E585A0709D6F41B7954F9AB63AA9FCD000F36F8FAF3508E5C59F0BAA93E5684ACD3BD2453B2B6698E002D704FF075C7C8DA958819C4467A0CA0039`
 SSDEEP | `49152:er/HBbn68dnJflbWb4JR93bvT+Uw7X8ZzZ17KzeczZMVr0K8uV:er/568dJfl/RJXD`
+IMP | `79A7CD794CAC9AD828C88F814316AB72`
+PESHA1 | `0F4CFA044D3C2D3DAEAA6FA5C1B734DD34630539`
+PE256 | `72CFE8FE3B443AF38A06F262E82D7445BED8E1F19E9532E79C43686B2CDB41AA`
 
 ## Runtime Data
 
@@ -25,7 +28,7 @@ SSDEEP | `49152:er/HBbn68dnJflbWb4JR93bvT+Uw7X8ZzZ17KzeczZMVr0K8uV:er/568dJfl/RJ
 
 Path |
 -- |
-C:\program files (x86)\GRETECH\GomPlayer\GOMProtect.exe |
+C:\Program Files (x86)\GRETECH\GomPlayer\GOMProtect.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -49,7 +52,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 1.0.0.1
 * Language: English
 * Legal Copyright: Copyright (C) Since 2013
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/63
+* VirusTotal Link: https://www.virustotal.com/gui/file/3568d0c63251e7e07c6723be78adc23c8576d211ec4e8a50ded69fa5ab59b9ca/detection/
 
 
 

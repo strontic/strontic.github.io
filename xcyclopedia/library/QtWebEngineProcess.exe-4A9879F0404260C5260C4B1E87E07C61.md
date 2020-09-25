@@ -80,6 +80,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Copyright (C) 2019 The Qt Company Ltd.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Dropbox\Client\106.4.368\QtWebEngineProcess.exe](QtWebEngineProcess.exe-43E8E6963F42F534C79EF326A949D9F0.md) | 97
 
 
 

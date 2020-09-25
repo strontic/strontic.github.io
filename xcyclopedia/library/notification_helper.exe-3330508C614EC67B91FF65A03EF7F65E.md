@@ -58,6 +58,11 @@ C:\Windows\System32\win32u.dll |
 * Legal Copyright: Copyright 2020 Google LLC. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files\Google\Chrome\Application\85.0.4183.121\notification_helper.exe](notification_helper.exe-12458846E0CAEC4E0CB7D1E960CB94AB.md) | 93
 
 
 

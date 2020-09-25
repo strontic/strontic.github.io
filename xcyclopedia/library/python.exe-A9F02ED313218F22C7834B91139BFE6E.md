@@ -5,7 +5,7 @@ excerpt: What is python.exe?
 
 # python.exe 
 
-* File Path: `C:\program files\Python38\Lib\venv\scripts\nt\python.exe`
+* File Path: `C:\Program Files\Python38\Lib\venv\scripts\nt\python.exe`
 * Description: Python
 
 ## Hashes
@@ -18,6 +18,9 @@ SHA256 | `A472A9F70621FFC769109CA47EDF3E55D67C3D7ED2E2E1883445F73675ABA795`
 SHA384 | `D71CF730F43205AF7525FA336342ECA0AD408383FBEE4EB8730119A5CBE1119F664FD96CC9A963EDFAF781BC252A13A8`
 SHA512 | `0ECDA1D123F3BF8F874DAF156709F051AD4CA76FB020C2537E2E2262F2D36C2FF76EE3F080EB23FD0E997F22BC8AD3CA8D33E53A8FF68F3C82C2301908829B33`
 SSDEEP | `6144:NGWqqQF8kIQZA6Kcji63AQ2oOM96qOR4QorF2gvYlr:MW5QF8kI6acbS/M0qZQANY`
+IMP | `F988550AD40886ADE812A0F81A58F466`
+PESHA1 | `00643126FA34CB72A37B06E4B5F85967A4050DF6`
+PE256 | `5F0A38E2BE3E732206FFA8598DFC496AD63FD20E385F99D9D0CBDD25734D580B`
 
 ## Runtime Data
 
@@ -31,7 +34,7 @@ No pyvenv.cfg file
 
 Path |
 -- |
-C:\program files\Python38\Lib\venv\scripts\nt\python.exe |
+C:\Program Files\Python38\Lib\venv\scripts\nt\python.exe |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -54,7 +57,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * Product Version: 3.8.5
 * Language: Language Neutral
 * Legal Copyright: Copyright  2001-2016 Python Software Foundation. Copyright  2000 BeOpen.com. Copyright  1995-2001 CNRI. Copyright  1991-1995 SMC.
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/a472a9f70621ffc769109ca47edf3e55d67c3d7ed2e2e1883445f73675aba795/detection/
 
 
 ## Possible Misuse

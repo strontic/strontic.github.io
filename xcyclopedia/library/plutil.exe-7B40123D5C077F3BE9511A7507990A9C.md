@@ -105,6 +105,7 @@ File | Score
 -- | --
 [C:\program files (x86)\Common Files\Apple\Apple Application Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 38
 [C:\program files (x86)\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-A7AB1130391C0261B6AEEFBDC4EAEF5E.md) | 38
+[C:\Program Files (x86)\Common Files\Apple\Mobile Device Support\distnoted.exe](distnoted.exe-899CED92AB6A8B024568572CB2748126.md) | 38
 [C:\program files\Common Files\Apple\Apple Application Support\VersionCheckMe.exe](VersionCheckMe.exe-220A1A86EC8E4B9159C075BC8B55B998.md) | 35
 
 

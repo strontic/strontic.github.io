@@ -69,8 +69,10 @@ File | Score
 [C:\program files (x86)\Python38-32\python.exe](python.exe-39B32EC14AAF61FCEFA292BBD363C4BF.md) | 77
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\bin\python.exe](python.exe-3FE8936968A3EBFFF4AC920E85488F38.md) | 74
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\bin\python.exe](python.exe-5A7DB3BE63EF55531E67F8B1E903417C.md) | 77
+[C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\bin\python.exe](python.exe-776D2731E373E99BFD7B52212DC31653.md) | 80
+[C:\Program Files\Inkscape\bin\python.exe](python.exe-80A2A4AF0ED4A216773786EFC0A5ED97.md) | 75
 [C:\program files\Inkscape\bin\python.exe](python.exe-898AB9CC2EE05138BFE8EC61F393C072.md) | 74
-[C:\program files\Python38\python.exe](python.exe-14F7691FF32C19C21500E26EE3492688.md) | 74
+[C:\Program Files\Python38\python.exe](python.exe-14F7691FF32C19C21500E26EE3492688.md) | 74
 
 ## Possible Misuse
 

@@ -137,6 +137,7 @@ File | Score
 -- | --
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\hsdb.exe](hsdb.exe-7F335E40D9BD7CE769BCD22ED86643F2.md) | 63
 [C:\program files (x86)\Amazon Corretto\jdk1.8.0_265\bin\jstatd.exe](jstatd.exe-A53DBF1919BB8F028056008F6F017DF0.md) | 57
+[C:\Program Files (x86)\Glary Utilities 5\x64\Unistall.exe](Unistall.exe-38E12693E499612069FEFA640229C4F1.md) | 35
 
 
 

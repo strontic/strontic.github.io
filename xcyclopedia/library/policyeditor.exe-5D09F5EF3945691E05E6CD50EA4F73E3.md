@@ -5,7 +5,7 @@ excerpt: What is policyeditor.exe?
 
 # policyeditor.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe`
 
 ## Hashes
 
@@ -17,12 +17,15 @@ SHA256 | `BDD85F7FA9A0170B6C31AEC83369B4765587812E13391BE5222BDF514D8BB158`
 SHA384 | `9F13F7800E09BA98C6277046BEEED0A6960F4A4CDA03138FC7D59C5385E8AC97A1056ECD80204AEF75B56732880F796C`
 SHA512 | `1F8A59692E560F2A6BC05FC638A31BAC6D549CD2EEFF41E3A5F7EB7233DE78687E2A40209F38D429BBDB17E3647F5BE1296A603CEB7722725823E0275E50CFC4`
 SSDEEP | `6144:otB159jXJC0wYv+9Aeoym9TuKVEUVKC8i4KpO4JQz:otr59jXJC0wYvWA1lR2IYifpyz`
+IMP | `9FD54043F02018BEF6A03B084CAEEE47`
+PESHA1 | `2C6EDA671D3CD65D7F623E81A1DA23E600921738`
+PE256 | `A25F32310A5061B6EE9ACC314E5CA87BC1BAFE3BEFE7C1F39D2B46B72D6AC8F3`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
+selected jre: C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\
 
 SYNOPSIS
     policyeditor
@@ -40,13 +43,6 @@ OPTIONS
 
 ```
 
-### Usage (stderr):
-```cmhg
-WARNING: package javax.jnlp not in java.desktop
-WARNING: package sun.awt.X11 not in java.desktop
-
-```
-
 ### Child Processes:
 java.exe
 
@@ -54,7 +50,7 @@ java.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -63,7 +59,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\policyeditor.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\SYSTEM32\CRYPTBASE.DLL |
@@ -92,13 +88,18 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/bdd85f7fa9a0170b6c31aec83369b4765587812e13391be5222bdf514d8bb158/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\policyeditor.exe](policyeditor.exe-5D09F5EF3945691E05E6CD50EA4F73E3.md) | 100
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\policyeditor.exe](policyeditor.exe-5D09F5EF3945691E05E6CD50EA4F73E3.md) | 100
 
 
 

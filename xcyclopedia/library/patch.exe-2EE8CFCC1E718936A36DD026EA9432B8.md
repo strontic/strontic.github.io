@@ -5,7 +5,7 @@ excerpt: What is patch.exe?
 
 # patch.exe 
 
-* File Path: `C:\program files\WinMerge\GnuWin32\bin\patch.exe`
+* File Path: `C:\Program Files\WinMerge\GnuWin32\bin\patch.exe`
 * Description: Patch: apply a diff file to an original
 
 ## Hashes
@@ -18,12 +18,15 @@ SHA256 | `EFC277FE48CADD8F5014D499F2B9484F668BD917DB47A699BAACE407F0A52F13`
 SHA384 | `D0213C6E054029304F2DCF35DE2CC7B1CDE8ACEA476795BA8AAB044E2CE1CB1151075E535D0D57EF75E278951A8B1EBB`
 SHA512 | `BBE2E4F246015BB52C4CDCB7787D6D5D828B52CC3199C8B4FD7BE3E1F0BE1F39A376005E319E4384D421FDAA4BFCDEBDA4381466D0D27C861EBBCAA667F00130`
 SSDEEP | `1536:i6IMVcXXBjkSvfF1mukXUf7SB2w6X7Hmp624RkdCId/jB9YJD5WLRajptgOMwD:5IlX/11v+v6C62aktjgJlWLQjpeOMwD`
+IMP | `5902F4C16F29B0D4B5A876CDF14A33BE`
+PESHA1 | `1FBF0EAA35B611B9416B73C0DAA90BF32C188B0B`
+PE256 | `C6610CCF17B16D92C0E777632B17A3D5F57A84E93A00926840C6AA3AE7493DAC`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-Usage: C:\program files\WinMerge\GnuWin32\bin\patch.exe [OPTION]... [ORIGFILE [PATCHFILE]]
+Usage: C:\Program Files\WinMerge\GnuWin32\bin\patch.exe [OPTION]... [ORIGFILE [PATCHFILE]]
 
 Input options:
 
@@ -93,8 +96,8 @@ Report bugs to <bug-patch@gnu.org>.
 
 ### Usage (stderr):
 ```cmhg
-C:\program files\WinMerge\GnuWin32\bin\patch.exe: invalid option -- h
-C:\program files\WinMerge\GnuWin32\bin\patch.exe: Try `C:\program files\WinMerge\GnuWin32\bin\patch.exe --help' for more information.
+C:\Program Files\WinMerge\GnuWin32\bin\patch.exe: invalid option -- h
+C:\Program Files\WinMerge\GnuWin32\bin\patch.exe: Try `C:\Program Files\WinMerge\GnuWin32\bin\patch.exe --help' for more information.
 
 ```
 
@@ -105,9 +108,9 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\Users\user\AppData\Local\Temp\ppa10084 | File
-(RW-)   C:\Users\user\Documents | File
+(RW-)   C:\Users\user\AppData\Local\Temp\ppa03364 | File
 (RW-)   C:\Windows | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -116,7 +119,7 @@ Path | Type
 
 Path |
 -- |
-C:\program files\WinMerge\GnuWin32\bin\patch.exe |
+C:\Program Files\WinMerge\GnuWin32\bin\patch.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -125,7 +128,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## Signature
 
-* Status: The file C:\program files\WinMerge\GnuWin32\bin\patch.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
+* Status: The file C:\Program Files\WinMerge\GnuWin32\bin\patch.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170
 * Serial: ``
 * Thumbprint: ``
 * Issuer: 
@@ -140,7 +143,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 2.5.9.2670
 * Language: English (United States)
 * Legal Copyright:  2007 Free Software Foundation <www.fsf.org>
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/efc277fe48cadd8f5014d499f2b9484f668bd917db47a699baace407f0a52f13/detection/
 
 
 ## Possible Misuse

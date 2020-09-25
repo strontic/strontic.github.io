@@ -89,6 +89,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\Integrator.exe](Integrator.exe-479C0EFFA117B08844D93319A4849E39.md) | 91
 [C:\Program Files (x86)\Glary Utilities 5\Integrator.exe](Integrator.exe-7D8607322AF951E838D38FB397F49A79.md) | 85
 
 

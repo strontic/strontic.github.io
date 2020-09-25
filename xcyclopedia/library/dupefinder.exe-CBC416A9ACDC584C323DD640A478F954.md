@@ -51,6 +51,7 @@ MemfilesService.exe
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\dupefinder.exe](dupefinder.exe-2FA54B791D7717226DF8763287EC31B8.md) | 75
 [C:\program files (x86)\Glary Utilities 5\dupefinder.exe](dupefinder.exe-FD0EB8F9D3A2D854C5EB4C951AA61977.md) | 94
 
 

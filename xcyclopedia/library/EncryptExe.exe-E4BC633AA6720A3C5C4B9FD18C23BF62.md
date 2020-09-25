@@ -79,6 +79,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\EncryptExe.exe](EncryptExe.exe-2F376D290086F4A8A88D684AF4D99A78.md) | 96
 [C:\Program Files (x86)\Glary Utilities 5\EncryptExe.exe](EncryptExe.exe-ABABE91AF0A24804D3655A0890C18AEB.md) | 96
 
 

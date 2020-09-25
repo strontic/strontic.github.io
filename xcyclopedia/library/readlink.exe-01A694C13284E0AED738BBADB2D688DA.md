@@ -99,11 +99,6 @@ C:\Windows\System32\ws2_32.dll |
 * Legal Copyright: 
 
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\readlink.exe](readlink.exe-01A694C13284E0AED738BBADB2D688DA.md) | 100
 
 
 

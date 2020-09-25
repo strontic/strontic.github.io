@@ -88,6 +88,11 @@ C:\Windows\System32\sechost.dll |
 * Legal Copyright: Copyright  2003-2020 Dominik Reichl
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe](KeePass.exe-961DFBEE4C1C386665D4BB29F0A49441.md) | 54
 
 ## Possible Misuse
 

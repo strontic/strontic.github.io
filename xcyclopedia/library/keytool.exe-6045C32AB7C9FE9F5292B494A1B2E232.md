@@ -97,7 +97,7 @@ File | Score
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\keytool.exe](keytool.exe-0EA9E813BC45594BC7B505FD193D233D.md) | 52
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\pack200.exe](pack200.exe-D8F4EAC78AB739846BD1D5BBD256DBC3.md) | 49
 [C:\program files\AdoptOpenJDK\jre-11.0.8.10-hotspot\bin\rmiregistry.exe](rmiregistry.exe-37B63F925D45FD055BA4A604F7E5F891.md) | 47
-[C:\program files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe](rmic.exe-81D6484F78DCB9ABAE2F748AC381B5E0.md) | 41
+[C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe](rmic.exe-81D6484F78DCB9ABAE2F748AC381B5E0.md) | 41
 [C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jarsigner.exe](jarsigner.exe-24C345BA5B4270DD2E52E114356E9E76.md) | 61
 [C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jdb.exe](jdb.exe-1AA2A866868B910E3B6E03B684B0D92A.md) | 69
 [C:\program files\Amazon Corretto\jdk11.0.8_10\bin\jdeprscan.exe](jdeprscan.exe-9C38E559ACCB2282CB5E5B92FA82C016.md) | 68

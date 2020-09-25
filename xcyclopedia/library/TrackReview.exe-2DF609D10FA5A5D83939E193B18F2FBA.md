@@ -5,7 +5,7 @@ excerpt: What is TrackReview.exe?
 
 # TrackReview.exe 
 
-* File Path: `C:\program files (x86)\Foxit Software\Foxit Reader\TrackReview.exe`
+* File Path: `C:\Program Files (x86)\Foxit Software\Foxit Reader\TrackReview.exe`
 * Description: Track Review
 
 ## Screenshot
@@ -22,6 +22,9 @@ SHA256 | `B424A3A50EF871F188CD5180C64A86E96171455F90A4421B100D49055FCBA676`
 SHA384 | `4FBE2D8F491D99E6A6B32714B0C3D796EE53708173C93F315E195706451BC317523D15728C23EFACC38290112340646C`
 SHA512 | `60B75017BD09540936408B3D3D4A3362FBD5A81E2027C760E9EC3729BA99D1B815A39E8384FEA546DC1B31F9AC3DBCCCAAEAA25CEE45B814F6CA2AD2DCDC331C`
 SSDEEP | `98304:A9noklabfkfRNqwBtmoG8mOoMbdi0nbqYypX:2n5EbfeNfu8/AYy`
+IMP | `AAE941060B86C74E77BAEDD537F04E21`
+PESHA1 | `F2708242DEF9F8F5AE5A8B46E5DA9C3629767CFA`
+PE256 | `F2A48DAD65D7B411B9AFAAAD50496A12411A9A91BFE399D16E36E325603D63D5`
 
 ## Runtime Data
 
@@ -34,21 +37,21 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
-(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2 | File
-(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.450_none_4294d6e08a97344a | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
+(RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
+(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme4048709601 | Section
-\Windows\Theme603176458 | Section
+\Sessions\1\Windows\Theme2547664911 | Section
+\Windows\Theme3854699184 | Section
 
 
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files (x86)\Foxit Software\Foxit Reader\TrackReview.exe |
+C:\Program Files (x86)\Foxit Software\Foxit Reader\TrackReview.exe |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\wow64.dll |
 C:\Windows\System32\wow64cpu.dll |
@@ -72,7 +75,12 @@ C:\Windows\System32\wow64win.dll |
 * Product Version: 10.0.1.35811
 * Language: Language Neutral
 * Legal Copyright: Copyright  2014-2020 Foxit Software Inc. All Rights Reserved.
+* Machine Type: 32-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/b424a3a50ef871f188cd5180c64a86e96171455f90a4421b100d49055fcba676/detection/
 
 
 

@@ -65,6 +65,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\x64\Win64ShellLink.exe](Win64ShellLink.exe-CC336A1AC536DB9A7C9FD295BB6146FD.md) | 93
+[C:\Program Files (x86)\Glary Utilities 5\x64\Win64ShellLink.exe](Win64ShellLink.exe-FA66B612E117EB6F0CE0BBE4D6D76F48.md) | 90
 
 
 

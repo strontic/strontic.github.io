@@ -71,7 +71,6 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\usr\bin\dash.exe](dash.exe-8A2AFEB1C92008FA401083F2484366B3.md) | 97
-[C:\Users\WDAGUtilityAccount\AppData\Local\GitHubDesktop\app-2.5.4\resources\app\git\usr\bin\dash.exe](dash.exe-FADF03B8CA79E222C05B1BBEF1E0223E.md) | 100
 
 
 

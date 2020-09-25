@@ -95,6 +95,11 @@ C:\Windows\System32\wow64win.dll |
 * Legal Copyright: Artem Izmaylov
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\AIMP3\AIMPate.exe](AIMPate.exe-890D5BEFAC508E3105DAE8AB33D88079.md) | 94
 
 
 

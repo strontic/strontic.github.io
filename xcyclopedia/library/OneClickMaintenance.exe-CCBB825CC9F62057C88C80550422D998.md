@@ -78,6 +78,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\OneClickMaintenance.exe](OneClickMaintenance.exe-35B31CFAB6C5F771734F0AC7FE87BC92.md) | 94
+[C:\Program Files (x86)\Glary Utilities 5\OneClickMaintenance.exe](OneClickMaintenance.exe-EF6CF6D0DF545300EE144F02F0BADCF9.md) | 94
 
 
 

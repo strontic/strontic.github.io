@@ -5,7 +5,7 @@ excerpt: What is javaws.exe?
 
 # javaws.exe 
 
-* File Path: `C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe`
+* File Path: `C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe`
 
 ## Hashes
 
@@ -17,12 +17,15 @@ SHA256 | `CD0142AD4EE5E46E84447A1A80D3841F3A009F59CECC58F10AD771BC42283F24`
 SHA384 | `2D171499B2DD7B95805497A4A5E5816B79EEF717186A901589F3F4CA9AA4729444E594EAF952CF42F8B15AB78B0CECC5`
 SHA512 | `1B2B3D7FBF50CBB6E2E0663E65F353E5727880C1812F116A37DE583F9F901A7499F54BF053B5998E9292A0BDCBC86CF97BA5588A46466012307EB94E72E0F3D1`
 SSDEEP | `6144:Tr4C59jUJC03oDxVloRS0CRLJIceKYcFWbLUpsnJ1:Trz59jUJC03oDb+CVmLqFgLUOJ1`
+IMP | `9FD54043F02018BEF6A03B084CAEEE47`
+PESHA1 | `859FF544B48D0750EEDB9C8A9C93F8A7FC1C2A61`
+PE256 | `280110F69A3E4E5191BDD4A37F3F5713759A4405CAD88F2863F76D91673B68CB`
 
 ## Runtime Data
 
 ### Usage (stdout):
 ```cmhg
-selected jre: C:\Program Files\Amazon Corretto\jdk11.0.8_10\
+selected jre: C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\
 
 SYNOPSIS
     javaws [-run-options] jnlp file
@@ -65,8 +68,6 @@ OPTIONS
 
 ### Usage (stderr):
 ```cmhg
-WARNING: package javax.jnlp not in java.desktop
-WARNING: package sun.awt.X11 not in java.desktop
 Unable to use Firefox's proxy settings. Using "DIRECT" as proxy type.
 netx: Invalid jnlp file /?
 
@@ -75,12 +76,23 @@ netx: Invalid jnlp file /?
 ### Child Processes:
 java.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\xCyclopedia | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+
+
 ### Loaded Modules:
 
 Path |
 -- |
-C:\program files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe |
+C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\bin\javaws.exe |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
+C:\Windows\SYSTEM32\CRYPTBASE.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcrt.dll |
@@ -106,13 +118,18 @@ C:\Windows\System32\sechost.dll |
 * Product Version: 
 * Language: 
 * Legal Copyright: 
+* Machine Type: 64-bit
 
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/cd0142ad4ee5e46e84447a1a80d3841f3a009f59cecc58f10ad771bc42283f24/detection/
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
-[C:\program files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaws.exe](javaws.exe-3B80846BD1959514903C7334CE229F21.md) | 100
+[C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\javaws.exe](javaws.exe-3B80846BD1959514903C7334CE229F21.md) | 100
 
 
 

@@ -58,6 +58,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\uninst.exe](uninst.exe-445E55D03ED1F11FB15CAEA958A150A1.md) | 82
+[C:\Program Files (x86)\Glary Utilities 5\uninst.exe](uninst.exe-C5D2A8EE1C89DB7CF1FD02A89A0480F8.md) | 75
 
 
 

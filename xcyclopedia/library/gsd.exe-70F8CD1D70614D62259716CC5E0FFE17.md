@@ -64,6 +64,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Glary Utilities 5\gsd.exe](gsd.exe-757633FE6BE27ED6DDF7DEBE1C491CCE.md) | 85
+[C:\Program Files (x86)\Glary Utilities 5\gsd.exe](gsd.exe-E36B8304C25BB8B3150A443ADC28332C.md) | 86
 
 
 

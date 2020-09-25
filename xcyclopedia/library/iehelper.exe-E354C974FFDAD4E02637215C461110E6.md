@@ -46,6 +46,7 @@ SSDEEP | `24576:zDohnmwcdFOscZEb+PV0Au0hq7SqjsQ0UMC:FdFOsNAuLmQf`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Glary Utilities 5\iehelper.exe](iehelper.exe-2636692F22B98F81DAA2D58A7FC3ECB3.md) | 96
 [C:\program files (x86)\Glary Utilities 5\iehelper.exe](iehelper.exe-79EDD0580D1DD4FE483FB803F7D2CFEA.md) | 96
 
 ## Possible Misuse
