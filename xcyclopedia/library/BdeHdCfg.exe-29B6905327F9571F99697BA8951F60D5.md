@@ -31,7 +31,7 @@ Usage:
 BdeHdCfg[.exe] 
                [-driveinfo]
                [-target {default | unallocated | 
-                         TargetDriveLetter {shrink | merge}}]
+                         TargetDriveLetter {shrink | merge} }]
                [-newdriveletter DriveLetter]
                [-size SizeInMegabytes]
                [-quiet] [-restart] [{-? | /?}]

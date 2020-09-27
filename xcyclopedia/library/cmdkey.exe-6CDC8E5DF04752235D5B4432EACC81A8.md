@@ -31,7 +31,7 @@ Creates, displays, and deletes stored user names and passwords.
 
 The syntax of this command is:
 
-CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:password}}} | /delete{:targetname | /ras} | /list{:targetname}]
+CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:password} }} | /delete{:targetname | /ras} | /list{:targetname}]
 
 Examples:
 

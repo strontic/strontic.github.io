@@ -53,7 +53,7 @@ Capture Usage:
                 [-wer]
                 [-64]
                 {
-                 {{[-w] Process_Name | Service_Name | PID} [Dump_File | Dump_Folder]}
+                 { {[-w] Process_Name | Service_Name | PID} [Dump_File | Dump_Folder]}
                 |
                  {-x Dump_Folder Image_File [Argument, ...]}
                 }

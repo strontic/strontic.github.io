@@ -146,7 +146,7 @@ w32tm /query [/computer:<target>]
   verbose: set the verbose mode to display more information.
 
 w32tm /debug {/disable | {/enable /file:<name> /size:<bytes> /entries:<value>
-    [/truncate]}}  
+    [/truncate]} }  
   Enable or disable local computer windows time service private log.
   disable: disable the private log.
   enable: enable the private log.
