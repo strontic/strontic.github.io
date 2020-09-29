@@ -1,0 +1,79 @@
+﻿---
+title: KBDLT2.DLL | Lithuanian Standard Keyboard Layout
+excerpt: What is KBDLT2.DLL?
+---
+
+# KBDLT2.DLL 
+
+* File Path: `C:\Windows\system32\KBDLT2.DLL`
+* Description: Lithuanian Standard Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `C01D522C82BC486F53870DEE236D8168`
+SHA1 | `A81660B470F51ABC004E556D559C4ED0AB421A92`
+SHA256 | `F7ED12D9ACE4E2E2AB0FB4BB3D0AAF8100EAC5BA29DA89A3FD4D506DB4EB9C0A`
+SHA384 | `E584F7910C1A84100DCFAF6A260FD803B8AB64418DCB87EB9987C0EA31592294E539786B512877240FCD44614A722F6B`
+SHA512 | `CE847671BF109940EF48A742D334F25387B8958AAD8F13D9342F5C3D473C646D77477174C0DE3AE4787B60D20E13FEE780F7A68C3F7ECE16326ACB232E88C45F`
+SSDEEP | `96:INFyw+J6V1QvI6bylCDCbApi4naIWopuWwMvv:INU6frV2AVIWMuWX`
+IMP | `n/a`
+PESHA1 | `924D13354118DC75C496B5D5FCFD36BD5BF78200`
+PE256 | `904BA699524FC5A3D5F318F1064B4F0893AF81705E39180A73B1C7D9DB33AADE`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdlt2.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/f7ed12d9ace4e2e2ab0fb4bb3d0aaf8100eac5ba29da89a3fd4d506db4eb9c0a/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDAZEL.DLL](KBDAZEL.DLL-B0C67CBF87A8BA04A3CC139853A26691.md) | 65
+[C:\Windows\system32\KBDAZST.DLL](KBDAZST.DLL-3F6765FDDE2AA8476A5F5BA913C6FEB3.md) | 66
+[C:\Windows\system32\KBDBASH.DLL](KBDBASH.DLL-8F18572D916E66234D6C978E66DE2516.md) | 66
+[C:\Windows\system32\KBDBGPH1.DLL](KBDBGPH1.DLL-124BE893E254E0C0B22EA1BD56EEE616.md) | 68
+[C:\Windows\system32\kbdgeome.dll](kbdgeome.dll-14AE66D422DF8686ED9083885D722865.md) | 68
+[C:\Windows\system32\kbdgeoqw.dll](kbdgeoqw.dll-7FA313AC47E09F9B96B7B1B8C27B03D4.md) | 68
+[C:\Windows\system32\KBDKNI.DLL](KBDKNI.DLL-29FB8B86D231CBA1D1E99FA9FD522EC1.md) | 61
+[C:\Windows\system32\KBDLAO.DLL](KBDLAO.DLL-702F9CD858969BC1CFE3BBD60813E345.md) | 68
+[C:\Windows\system32\KBDMACST.DLL](KBDMACST.DLL-59C5F787ED213C73E7564CF979CD0491.md) | 68
+[C:\Windows\system32\KBDPASH.DLL](KBDPASH.DLL-B7C5FB67BF2BCD52B3CD39207F4A1429.md) | 63
+[C:\Windows\system32\KBDSN1.DLL](KBDSN1.DLL-4FF242AC2F02CDDC4C375250172CE33C.md) | 60
+[C:\Windows\system32\KBDTURME.DLL](KBDTURME.DLL-F3B80643F63D1B482BE6F99947B66015.md) | 72
+[C:\Windows\system32\KBDYAK.DLL](KBDYAK.DLL-0203AF79A583D465BC77CD8D085FEADE.md) | 61
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

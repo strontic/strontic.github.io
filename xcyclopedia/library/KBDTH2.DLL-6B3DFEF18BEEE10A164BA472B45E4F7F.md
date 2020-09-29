@@ -1,0 +1,79 @@
+﻿---
+title: KBDTH2.DLL | Thai Kedmanee (non-ShiftLock) Keyboard Layout
+excerpt: What is KBDTH2.DLL?
+---
+
+# KBDTH2.DLL 
+
+* File Path: `C:\Windows\system32\KBDTH2.DLL`
+* Description: Thai Kedmanee (non-ShiftLock) Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `6B3DFEF18BEEE10A164BA472B45E4F7F`
+SHA1 | `0E2B118923CBE78B2EC80C2F59E44F2C18FE2AF8`
+SHA256 | `D734F35CB3DF63A97E9E1D5E4197806218723BB4DDCA0AA3FA9E6FC1F20AFD98`
+SHA384 | `07E9AB24520FB55FA6D021FCACE838797A8165E83D02263D94F7BA0AD2A8DAC77373655D0CEE2E3C20CB353FFEDCB1CC`
+SHA512 | `8A589FB4A2BC360BBB36481020203D0CAE209AB2DD4846AFAAE51E93C58F1322E7E62C383D7336138536DCC6838F5C5E171803D38E26E0B5BF334984EDF1F32C`
+SSDEEP | `96:h4NFyw+cmQ1OG7+2vrUSlI6wFbApq4nqDNW+FLpaWwgvNvv:2NRZfvYSeDhNW+FdaWR1`
+IMP | `n/a`
+PESHA1 | `2A31547CF5CB1C0D32F0C6659D6719B55CB2A99D`
+PE256 | `F363ABD092063B93FC7E52AC9225C0075B3B6F72901B8D515915A11BEEC7D8C8`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdth2.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d734f35cb3df63a97e9e1d5e4197806218723bb4ddca0aa3fa9e6fc1f20afd98/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDA1.DLL](KBDA1.DLL-CE2BBD36120F3CA23EDEEC98ACBA75F8.md) | 58
+[C:\Windows\system32\KBDBLR.DLL](KBDBLR.DLL-F7761CE5F1D1B7193AAAB39B8B0E6B37.md) | 58
+[C:\Windows\system32\KBDDIV1.DLL](KBDDIV1.DLL-EB504CAD4DD630752DE1BA9E302FEA07.md) | 57
+[C:\Windows\system32\KBDDIV2.DLL](KBDDIV2.DLL-A0A03FB482DFBE6EFAD193735C66E011.md) | 57
+[C:\Windows\system32\KBDHEB.DLL](KBDHEB.DLL-CB5D79FDCDF19A223F89B23636BF23AF.md) | 55
+[C:\Windows\system32\KBDLT.DLL](KBDLT.DLL-CAD729C1D90EA0E52B62CAD30DD4D3CD.md) | 54
+[C:\Windows\system32\KBDMON.DLL](KBDMON.DLL-01F90F795EF14B6B6693905578B203E0.md) | 55
+[C:\Windows\system32\KBDTH0.DLL](KBDTH0.DLL-D9DF38EDC22B9C4180917B6F5C6DC429.md) | 69
+[C:\Windows\system32\KBDTH1.DLL](KBDTH1.DLL-AF01A035885696A1F03347C0B47329A0.md) | 69
+[C:\Windows\system32\KBDTH3.DLL](KBDTH3.DLL-25F92BCB15DF0F1F64584CF081BFEC2A.md) | 65
+[C:\Windows\system32\KBDURDU.DLL](KBDURDU.DLL-A60A7A452A2AB58196AF852CCB12A1E5.md) | 61
+[C:\Windows\system32\KBDUZB.DLL](KBDUZB.DLL-084E58239378DE9DCC6603F6EA0E670F.md) | 54
+[C:\Windows\SysWOW64\KBDTH2.DLL](KBDTH2.DLL-A57CF9880BDD3E02A5205885A4362AD5.md) | 44
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

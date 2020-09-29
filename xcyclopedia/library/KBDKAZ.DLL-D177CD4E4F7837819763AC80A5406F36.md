@@ -1,0 +1,76 @@
+﻿---
+title: KBDKAZ.DLL | Kazak_Cyrillic Keyboard Layout
+excerpt: What is KBDKAZ.DLL?
+---
+
+# KBDKAZ.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDKAZ.DLL`
+* Description: Kazak_Cyrillic Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `D177CD4E4F7837819763AC80A5406F36`
+SHA1 | `AC5FA64A2B4DC46572F812BE860FA4CE950C9DDD`
+SHA256 | `BFDA043A1C970CD4D2107AC524AE6865B61D44009B91094E5B5BB310369D5545`
+SHA384 | `F5877F14379C8C5337C4A0A461E503F9BE2FCCCD61FB7FB4E5F1563F464570140628118FD5239E72183789428ACC0BB1`
+SHA512 | `7BFA40D727A00833E16C2B4EF2844DA3D34BABAD638B393629921FFDB86BA4181125D1CD5B0DBABB55F7E6121A73853629D2EB2D553657C0BF4408378B722827`
+SSDEEP | `48:qoP1eAAgynjANI8RqaQYNXjVjLHf1izVUNc6/0WQvRwsPZWNfuifhI5WwHgrW0P:vP4jARxdVjV/YyNc60WydWBMWwQRP`
+IMP | `n/a`
+PESHA1 | `7DF7D1E88BC5296DFAA77BD9C928A78C7D1729F9`
+PE256 | `A58AA1B6C753455AC910E06B3EC8D28DB52D446FE36DD45A2CB97AB296BDBFB6`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x52981e30 | 0x00001e30
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdkaz.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/bfda043a1c970cd4d2107ac524ae6865b61d44009b91094e5b5bb310369d5545/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PhoneServiceRes.dll](PhoneServiceRes.dll-8F630993C58F9726D1B100C95F299167.md) | 30
+[C:\Windows\SysWOW64\KBDAZEL.DLL](KBDAZEL.DLL-AB50AB013533478CB9B303E915B5465E.md) | 35
+[C:\Windows\SysWOW64\KBDHU1.DLL](KBDHU1.DLL-653531730239ED628DD0E25F16FDB4C7.md) | 46
+[C:\Windows\SysWOW64\KBDINMAR.DLL](KBDINMAR.DLL-B476986C968995065EEA5E09BBA5D8F2.md) | 49
+[C:\Windows\SysWOW64\KBDINTEL.DLL](KBDINTEL.DLL-EE5744B44DFEBFA515D099CF7A97943F.md) | 44
+[C:\Windows\SysWOW64\KBDLT.DLL](KBDLT.DLL-45C18A54E3ED5DE1DB8D64555C097908.md) | 52
+[C:\Windows\SysWOW64\KBDTH0.DLL](KBDTH0.DLL-F029B27814EC8731D78EA7E3E3E1DFD4.md) | 52
+[C:\Windows\SysWOW64\KBDTH1.DLL](KBDTH1.DLL-5D6665EB013DE887CA227C845F2C23A5.md) | 52
+[C:\Windows\SysWOW64\KBDTH3.DLL](KBDTH3.DLL-371BB391740F0607F2CF46EFDFAE344A.md) | 49
+[C:\Windows\SysWOW64\KBDUZB.DLL](KBDUZB.DLL-327A09576EFA8F2DBF46469DB34D0914.md) | 54
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

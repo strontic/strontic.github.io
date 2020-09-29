@@ -1,0 +1,76 @@
+﻿---
+title: KBDTAJIK.DLL | Tajik Keyboard Layout
+excerpt: What is KBDTAJIK.DLL?
+---
+
+# KBDTAJIK.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDTAJIK.DLL`
+* Description: Tajik Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `6F1E93FD2D680ADC50E293F4B2B7A3EE`
+SHA1 | `0525E0FCB193437D805CE9F37C1C06C161DB888C`
+SHA256 | `6ACA8A158E655790C739DB6B129C30EECECB442EF38C051E82D43824405764DA`
+SHA384 | `2D78433D922C75CEFA14DC58618D722422E9AFCDEB89092EA97ABAA92DA4E531DFDC3BB4F9098113795440FD463159C3`
+SHA512 | `8EDC1112CD6E2D1640047BB211D1DD449673EF136F508AD047BB520C7DE35665F6962BF3F7E99CD9C68AF9E890FB2F772BC44FCC113989D2549493780FE0E380`
+SSDEEP | `48:qoBEReAAgynkj+elmFspVVPrOWxGE+wWMZZ5SHY2zVUNc6YfW3Jd1oW/ZWOqup/H:vBdmrmYPpxSwWMbofyNcvu3Jo6WahWw`
+IMP | `n/a`
+PESHA1 | `C0D60D72C8818369E32CABB263FADF446939C702`
+PE256 | `863185ECBEA91712E12EE03B0FC2BCC290F5BB6E1DE56CC49D8676A4D9738ACE`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001e70 | 0x00001e70
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdtajik.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/6aca8a158e655790c739db6b129c30eececb442ef38c051e82d43824405764da/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\KBDAZEL.DLL](KBDAZEL.DLL-AB50AB013533478CB9B303E915B5465E.md) | 38
+[C:\Windows\SysWOW64\KBDBUG.DLL](KBDBUG.DLL-00AAFDFA2CF7B87AD381B66FA2A0C300.md) | 72
+[C:\Windows\SysWOW64\KBDBULG.DLL](KBDBULG.DLL-6185655F5FED7256BA553E92BE945909.md) | 46
+[C:\Windows\SysWOW64\KBDINBE1.DLL](KBDINBE1.DLL-2382DF48BF2D690899B871C5267632C8.md) | 58
+[C:\Windows\SysWOW64\kbdlisub.dll](kbdlisub.dll-D4E0C51C707D5215DA5AFF522373142E.md) | 71
+[C:\Windows\SysWOW64\kbdlisus.dll](kbdlisus.dll-DADFF12963C88EECB8AFA83B33C87783.md) | 75
+[C:\Windows\SysWOW64\kbdnko.dll](kbdnko.dll-EF09833E585A5D059047588D6546D8E7.md) | 69
+[C:\Windows\SysWOW64\KBDOGHAM.DLL](KBDOGHAM.DLL-BB62F50651902B7D31521F3826391B1D.md) | 47
+[C:\Windows\SysWOW64\KBDOLDIT.DLL](KBDOLDIT.DLL-6B9B1C24E72BECF97DB8C6750FBD41D1.md) | 41
+[C:\Windows\SysWOW64\KBDURDU.DLL](KBDURDU.DLL-59E30A2594A3E76A4B8D8835190AFB97.md) | 47
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

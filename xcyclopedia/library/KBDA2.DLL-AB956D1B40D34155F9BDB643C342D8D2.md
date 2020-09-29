@@ -1,0 +1,72 @@
+﻿---
+title: KBDA2.DLL | Arabic_2 Keyboard Layout
+excerpt: What is KBDA2.DLL?
+---
+
+# KBDA2.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDA2.DLL`
+* Description: Arabic_2 Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `AB956D1B40D34155F9BDB643C342D8D2`
+SHA1 | `98F874FFE78062DFC37BC1DACD659C82C4C6FDE5`
+SHA256 | `E5DCA582B2784FF4B90E6992B481C4CA9A6A019D3E4D271161B63391EE6E1BCE`
+SHA384 | `F34B6DD02AED85B1017EC1AE3C55035BFF0A4E659669CA9A837A31232F223D638C9FBB63C2170AA5BDC4651EAF2DAF8A`
+SHA512 | `0F1F76C0AEE780B9310B15031F8D4A2AA1814974EF09AB31D2377B263A2E7D7680168E6EA50F2723127CBF8AD329A004A1A93F96FE14B90197C428630767078E`
+SSDEEP | `96:vpiQ9N2PfVlhsyNcKXWT6wODPoQWSQfWwCP:xiyYPfaOLoQWffW`
+IMP | `n/a`
+PESHA1 | `6BBBF23AFECFAE89EBF8758F132665087632B520`
+PE256 | `B53AB6AEF283684FBC63E9644E9BFC08B904BDF0794EF3528ECEC98415823F6F`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x52981f40 | 0x00001f40
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbda2.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/e5dca582b2784ff4b90e6992b481c4ca9a6a019d3e4d271161b63391ee6e1bce/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\KBDA3.DLL](KBDA3.DLL-E27BB683A96D3C2338FB46385AB7F2FB.md) | 65
+[C:\Windows\SysWOW64\KBDAL.DLL](KBDAL.DLL-843F90467101826B08E202A08B0331AD.md) | 33
+[C:\Windows\SysWOW64\KBDEST.DLL](KBDEST.DLL-9FB310AF0253FDC5B6474F4FECE7D2F6.md) | 33
+[C:\Windows\SysWOW64\KBDINMAR.DLL](KBDINMAR.DLL-B476986C968995065EEA5E09BBA5D8F2.md) | 47
+[C:\Windows\SysWOW64\KBDINTEL.DLL](KBDINTEL.DLL-EE5744B44DFEBFA515D099CF7A97943F.md) | 40
+[C:\Windows\SysWOW64\KBDTUQ.DLL](KBDTUQ.DLL-C14A68F424A87BE899A6BC0B8F0F6407.md) | 41
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

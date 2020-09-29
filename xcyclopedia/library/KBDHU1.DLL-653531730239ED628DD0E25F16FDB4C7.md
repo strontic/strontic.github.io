@@ -1,0 +1,74 @@
+﻿---
+title: KBDHU1.DLL | Hungarian 101-key Keyboard Layout
+excerpt: What is KBDHU1.DLL?
+---
+
+# KBDHU1.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDHU1.DLL`
+* Description: Hungarian 101-key Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `653531730239ED628DD0E25F16FDB4C7`
+SHA1 | `CE6B252FB3404547CD818D79BA3A843B9BB1A5DD`
+SHA256 | `236D8873388F001EBED5A7BC2A3452DEDC4D0227795A2A6A1C139EB72FE1FCA2`
+SHA384 | `A4B9766136D6355AE1633F275B3696FB4C143844D41E8C243DD807A6E9A42C6757B2A4225506A0EA210CA5B0E5765438`
+SHA512 | `655ECD89AA26DEABEC2D6D0B5C21D9A559D334FFA0E44762DDB23CF88B2C9491A13645D01B7212C44F512A80895A06DA1E91A63F66E010D09A922D4D0F7D187A`
+SSDEEP | `48:qoo0eAAgyn6paWuLc6knLna4OVxW3BpxizVUNc6DtW3TAeZWywuMhM5WwHgc:voJ6AWuLp2O4EWBpsyNcmtWjzWHQWwl`
+IMP | `n/a`
+PESHA1 | `C78526BD752852C90314230F24225E8157028290`
+PE256 | `5CFD2A80A074BEB6026F966A939BE04B2A688F379259848516A11415A06161C8`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x52981e50 | 0x00001e50
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdhu1.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/236d8873388f001ebed5a7bc2a3452dedc4d0227795a2a6a1c139eb72fe1fca2/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\KBDAZEL.DLL](KBDAZEL.DLL-AB50AB013533478CB9B303E915B5465E.md) | 36
+[C:\Windows\SysWOW64\KBDHEB.DLL](KBDHEB.DLL-119979F9E2112FA2020350E7A6821707.md) | 47
+[C:\Windows\SysWOW64\KBDINMAR.DLL](KBDINMAR.DLL-B476986C968995065EEA5E09BBA5D8F2.md) | 50
+[C:\Windows\SysWOW64\KBDINTEL.DLL](KBDINTEL.DLL-EE5744B44DFEBFA515D099CF7A97943F.md) | 43
+[C:\Windows\SysWOW64\KBDKAZ.DLL](KBDKAZ.DLL-D177CD4E4F7837819763AC80A5406F36.md) | 46
+[C:\Windows\SysWOW64\KBDLT.DLL](KBDLT.DLL-45C18A54E3ED5DE1DB8D64555C097908.md) | 44
+[C:\Windows\SysWOW64\KBDMAC.DLL](KBDMAC.DLL-D9684E55E88EF6A36D54685653483E59.md) | 49
+[C:\Windows\SysWOW64\KBDOGHAM.DLL](KBDOGHAM.DLL-BB62F50651902B7D31521F3826391B1D.md) | 52
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

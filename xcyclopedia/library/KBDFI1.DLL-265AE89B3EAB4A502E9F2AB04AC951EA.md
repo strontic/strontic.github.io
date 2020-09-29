@@ -1,0 +1,76 @@
+﻿---
+title: KBDFI1.DLL | Finnish-Swedish with Sami Keyboard Layout
+excerpt: What is KBDFI1.DLL?
+---
+
+# KBDFI1.DLL 
+
+* File Path: `C:\Windows\system32\KBDFI1.DLL`
+* Description: Finnish-Swedish with Sami Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `265AE89B3EAB4A502E9F2AB04AC951EA`
+SHA1 | `9705622BBCEF0B2775D3D2788F806C7DB310B8D2`
+SHA256 | `8E724B6A721774BD170A0D87899E2A936B3DE2A000CFA0E32A828F29A95C17B0`
+SHA384 | `6FCBE599926C0F1833E5D076B5366BE6EED989942A5C0140893C9A71BBFE5F2FF01BC4829AF42BCC0DB71F3008307487`
+SHA512 | `64031B8E02FC2D4899522B7CE0FC32502840BBDD58209B07366C48C729338E9180EC5823FF2C7F9B7FD9DFCC1414DA20CF08C47A29F913DD47E56797C878F69B`
+SSDEEP | `96:uoNFUw+N6FmZ1i3rMWllsbkevgPinWUpy4H/YHWFCWwD:uoNrmLUP/sgeIPinJAWFCW`
+IMP | `n/a`
+PESHA1 | `1B8C2136D1F1A80A16AAD8105D9D4C5E2945B9B7`
+PE256 | `42CCFBA8E4B2BEFA0D98CDC6129ACFDCCBC42E2605C42A53842127BF26A0D872`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdfi1.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/8e724b6a721774bd170a0d87899e2a936b3de2a000cfa0e32a828f29a95c17b0/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDGN.DLL](KBDGN.DLL-43E8DFFF4C2B42AF6496BEF07B3B7DB2.md) | 44
+[C:\Windows\system32\KBDGRLND.DLL](KBDGRLND.DLL-A6E1C194BD88187B8546B6EFDCD9366A.md) | 79
+[C:\Windows\system32\KBDNO1.DLL](KBDNO1.DLL-F8EE4C9DBDD6EBC154BBC953C04D2F92.md) | 77
+[C:\Windows\system32\KBDSMSFI.DLL](KBDSMSFI.DLL-FC09D7979CD5DCDB44D4610F3A6875A8.md) | 50
+[C:\Windows\system32\KBDTZM.DLL](KBDTZM.DLL-CAFAABD1F38C719580C056A2373F0534.md) | 46
+[C:\Windows\system32\KBDUKX.DLL](KBDUKX.DLL-592C735842F988F32B7DCBE0116DE9F1.md) | 54
+[C:\Windows\system32\KBDWOL.DLL](KBDWOL.DLL-2FFAAAA64C4F08D1DA8371C98BAB1F78.md) | 43
+[C:\Windows\SysWOW64\KBDFI1.DLL](KBDFI1.DLL-66C7948F0DF877EA70879DCAA46ED419.md) | 41
+[C:\Windows\SysWOW64\KBDGRLND.DLL](KBDGRLND.DLL-3D5AB2CC4DE8B218435D4CCC919EAC34.md) | 35
+[C:\Windows\SysWOW64\KBDSMSFI.DLL](KBDSMSFI.DLL-C8307EB6619052EB322666ED3EC70EC3.md) | 32
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

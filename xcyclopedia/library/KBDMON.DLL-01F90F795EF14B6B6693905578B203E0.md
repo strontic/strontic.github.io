@@ -1,0 +1,78 @@
+﻿---
+title: KBDMON.DLL | Mongolian Keyboard Layout
+excerpt: What is KBDMON.DLL?
+---
+
+# KBDMON.DLL 
+
+* File Path: `C:\Windows\system32\KBDMON.DLL`
+* Description: Mongolian Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `01F90F795EF14B6B6693905578B203E0`
+SHA1 | `95A1E08E36A99A5D0923462335BF7A54F4F840B7`
+SHA256 | `80F4FD311AAEEBFB7EFCB6E7A462690F1BD669CC2C64EFE724D854820666E9A9`
+SHA384 | `15B471724A9F3DA30837F9EF83D4E94F8B5284A64CEF99D3DF4D52B08635B1272222B905BF01E7A1291292F68F268E7A`
+SHA512 | `893731D3A1478CBDA549F710B93D94489281BDC90A571585C9AF3D5B24A9AF8ABF7CC6D85BE2BB9AF7A5C3221C00477F2C813AD2DCE01BCE1B619E01199868E4`
+SSDEEP | `96:42ggNFyw+cmaO1A5/LkilI6wFbApq4nwnFhcCWYQWw4Fvv:JggNxSA5/LkieDfrFWYQWT`
+IMP | `n/a`
+PESHA1 | `6D7D46193B84DC6C273D3A76089477DBA87C07CE`
+PE256 | `0FB7390C1C7572000EE786F51B21ABBE50104121FAED814EEA546E2B6019C3A4`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdmon.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/80f4fd311aaeebfb7efcb6e7a462690f1bd669cc2c64efe724d854820666e9a9/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDA1.DLL](KBDA1.DLL-CE2BBD36120F3CA23EDEEC98ACBA75F8.md) | 57
+[C:\Windows\system32\KBDBLR.DLL](KBDBLR.DLL-F7761CE5F1D1B7193AAAB39B8B0E6B37.md) | 71
+[C:\Windows\system32\KBDDIV1.DLL](KBDDIV1.DLL-EB504CAD4DD630752DE1BA9E302FEA07.md) | 61
+[C:\Windows\system32\KBDDIV2.DLL](KBDDIV2.DLL-A0A03FB482DFBE6EFAD193735C66E011.md) | 55
+[C:\Windows\system32\KBDHEB.DLL](KBDHEB.DLL-CB5D79FDCDF19A223F89B23636BF23AF.md) | 57
+[C:\Windows\system32\KBDLT.DLL](KBDLT.DLL-CAD729C1D90EA0E52B62CAD30DD4D3CD.md) | 50
+[C:\Windows\system32\KBDTH0.DLL](KBDTH0.DLL-D9DF38EDC22B9C4180917B6F5C6DC429.md) | 58
+[C:\Windows\system32\KBDTH1.DLL](KBDTH1.DLL-AF01A035885696A1F03347C0B47329A0.md) | 58
+[C:\Windows\system32\KBDTH2.DLL](KBDTH2.DLL-6B3DFEF18BEEE10A164BA472B45E4F7F.md) | 55
+[C:\Windows\system32\KBDTH3.DLL](KBDTH3.DLL-25F92BCB15DF0F1F64584CF081BFEC2A.md) | 58
+[C:\Windows\system32\KBDURDU.DLL](KBDURDU.DLL-A60A7A452A2AB58196AF852CCB12A1E5.md) | 55
+[C:\Windows\system32\KBDUZB.DLL](KBDUZB.DLL-084E58239378DE9DCC6603F6EA0E670F.md) | 68
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

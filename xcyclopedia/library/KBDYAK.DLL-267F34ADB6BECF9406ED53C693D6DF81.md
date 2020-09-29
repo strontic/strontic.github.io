@@ -1,0 +1,77 @@
+﻿---
+title: KBDYAK.DLL | Sakha - Russia Keyboard Layout
+excerpt: What is KBDYAK.DLL?
+---
+
+# KBDYAK.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDYAK.DLL`
+* Description: Sakha - Russia Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `267F34ADB6BECF9406ED53C693D6DF81`
+SHA1 | `63F4A3D29415557ACFB7CDD2719D6B9C2AF7F90B`
+SHA256 | `7B716914C07CFC1301C8987B60A80085DBF9544384915262F435ED8037E1ECFD`
+SHA384 | `32F6248104F0EFFD937B49D2155D611D5834B1BF0DFC79E9326158D903F81026BD50C09CDC3E0259C01B351075BA9387`
+SHA512 | `F92368B7EBAD2228640145013AD49834421F13ECCF1990C88F9CC0EEF926619C948E5A7ED3C35E1644C6C10A843E7AF6236479B87ABA1F4533EC5493A32FB513`
+SSDEEP | `96:vuytKa3mNfn81Khu/+qDyNc7O84viWM3Ww:7tKa3mNf80AGBZiWM3W`
+IMP | `n/a`
+PESHA1 | `1CEDED83F4834DD8BB54A54565A0B42069A3F21B`
+PE256 | `D5B5F83BA9BB1F23D23F55DBF2A8B1D165F37234776D2A5AB1AED7FCC58E36F8`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001f10 | 0x00001f10
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdyak.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/7b716914c07cfc1301c8987b60a80085dbf9544384915262f435ed8037e1ecfd/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\kbdgeome.dll](kbdgeome.dll-22353A90FAEDB843727D4CE5BB1A623D.md) | 66
+[C:\Windows\SysWOW64\kbdgeoqw.dll](kbdgeoqw.dll-0ABD0C44F142A3C0ED9619E55C66DA06.md) | 72
+[C:\Windows\SysWOW64\KBDLT2.DLL](KBDLT2.DLL-6CD11911D79BF489C3F3C3030E92E3CD.md) | 66
+[C:\Windows\SysWOW64\KBDMACST.DLL](KBDMACST.DLL-65A76A97B7FE60E56BAC093D4DB7E23A.md) | 68
+[C:\Windows\SysWOW64\KBDNTL.DLL](KBDNTL.DLL-4AE80AC7E4C49EF376A926E655DDADE1.md) | 68
+[C:\Windows\SysWOW64\KBDSN1.DLL](KBDSN1.DLL-861468B3C2182391F362EA1D6284DE14.md) | 65
+[C:\Windows\SysWOW64\KBDSYR1.DLL](KBDSYR1.DLL-953223C1CC2B032819C30556B2673EB7.md) | 50
+[C:\Windows\SysWOW64\KBDSYR2.DLL](KBDSYR2.DLL-222E3B47578151C6348DF4DF9EDD4A71.md) | 54
+[C:\Windows\SysWOW64\KBDTIFI.DLL](KBDTIFI.DLL-E0DDF0892AD4E6E48CBC733197771814.md) | 69
+[C:\Windows\SysWOW64\KBDTIFI2.DLL](KBDTIFI2.DLL-DC0C0868F1A86B605566189012A07A80.md) | 69
+[C:\Windows\SysWOW64\KBDTURME.DLL](KBDTURME.DLL-85BE9832459033F40634A7C1903A2B53.md) | 68
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

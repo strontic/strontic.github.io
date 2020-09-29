@@ -1,0 +1,73 @@
+﻿---
+title: KBDOGHAM.DLL | Ogham Keyboard Layout
+excerpt: What is KBDOGHAM.DLL?
+---
+
+# KBDOGHAM.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDOGHAM.DLL`
+* Description: Ogham Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `BB62F50651902B7D31521F3826391B1D`
+SHA1 | `0B52E6FD93FEE6568C9EC12BE3772DD60D69E8BD`
+SHA256 | `FF10400B9457941DC38D338A3A5E7E9CD5C60A11CCF3B9E574A2FED9762D5142`
+SHA384 | `CDA18504069EBA0C8695A3C7A3D46D85F47710AFBA66D28A63116242BA1D542DD3EDC39B7E7C838F7B67853A6CD848CF`
+SHA512 | `EF6CEFB326C6CC03F03848C47260652EA9B059DF87F32725942441958633558980D2736535564D6FEF2A7108DBEF5BFD4E00679EF60CCB0815385D5C66CE827D`
+SSDEEP | `48:qoik0eAAgynkjnrrOWuGMWkWFVTzVUNc6DTOGcMH/ZWONumk5WwHg:vlJmrpu6kWbyNckqGc4WC4Ww`
+IMP | `n/a`
+PESHA1 | `DB73703DA035CB40B3AF15B6007CD0CCD2031424`
+PE256 | `4CED550A6C3A2215B9B189E55FA498D0F1E10FBD95A33F5404F7C556E6ADEF19`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001dd0 | 0x00001dd0
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdogham.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/ff10400b9457941dc38d338a3a5e7e9cd5c60a11ccf3b9e574a2fed9762d5142/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\KBDBULG.DLL](KBDBULG.DLL-6185655F5FED7256BA553E92BE945909.md) | 43
+[C:\Windows\SysWOW64\KBDHEB.DLL](KBDHEB.DLL-119979F9E2112FA2020350E7A6821707.md) | 49
+[C:\Windows\SysWOW64\KBDHU1.DLL](KBDHU1.DLL-653531730239ED628DD0E25F16FDB4C7.md) | 52
+[C:\Windows\SysWOW64\kbdlisus.dll](kbdlisus.dll-DADFF12963C88EECB8AFA83B33C87783.md) | 46
+[C:\Windows\SysWOW64\KBDMAC.DLL](KBDMAC.DLL-D9684E55E88EF6A36D54685653483E59.md) | 46
+[C:\Windows\SysWOW64\KBDOLDIT.DLL](KBDOLDIT.DLL-6B9B1C24E72BECF97DB8C6750FBD41D1.md) | 54
+[C:\Windows\SysWOW64\KBDTAJIK.DLL](KBDTAJIK.DLL-6F1E93FD2D680ADC50E293F4B2B7A3EE.md) | 47
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

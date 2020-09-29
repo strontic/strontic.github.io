@@ -1,0 +1,76 @@
+﻿---
+title: kbdlisus.dll | Lisu Standard Keyboard Layout
+excerpt: What is kbdlisus.dll?
+---
+
+# kbdlisus.dll 
+
+* File Path: `C:\Windows\SysWOW64\kbdlisus.dll`
+* Description: Lisu Standard Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `DADFF12963C88EECB8AFA83B33C87783`
+SHA1 | `8C816CCA51FE52E5453B2633928D88A98E454FDD`
+SHA256 | `ABCCC1E91208059D87D53A3B7B2AC705F06C0862B4C75B93AA9FA06E95AFDB25`
+SHA384 | `EF1BF3742B67BC88E6AB16696747EEF15745DC942F6AE2580251D14D94E02E8ABFBD1BB56182BD606A3B8C1B5C7D3FAB`
+SHA512 | `26FF5FFD40D6945B40EBFEBBE51B47F58811CA25DCB509D47E6291E2DB548D5C3DFEC7C0E1A52859AE9622D6FF2D370D8655126727EB07F3FFA89DFFCC68D48A`
+SSDEEP | `48:qo9geAAgynkjEP6P3MTUpy1rOWxGE+wWMZZ5SHY2zVUNc6YfW3Jn2eZWWhuaA5WY:v9dmEP6PGpxSwWMbofyNcvu3JFWiUWw`
+IMP | `n/a`
+PESHA1 | `A8D9D28CFFA607606B1351440B393CFD9E2F569B`
+PE256 | `FA43C950C4BDE9E0E36D619C078FB56F875F78C379A1773CC1BFBFCC823C8CB7`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001e90 | 0x00001e90
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdlisus.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/abccc1e91208059d87d53a3b7b2ac705f06c0862b4c75b93aa9fa06e95afdb25/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\KBDAZEL.DLL](KBDAZEL.DLL-AB50AB013533478CB9B303E915B5465E.md) | 36
+[C:\Windows\SysWOW64\KBDBUG.DLL](KBDBUG.DLL-00AAFDFA2CF7B87AD381B66FA2A0C300.md) | 66
+[C:\Windows\SysWOW64\KBDBULG.DLL](KBDBULG.DLL-6185655F5FED7256BA553E92BE945909.md) | 43
+[C:\Windows\SysWOW64\KBDINBE1.DLL](KBDINBE1.DLL-2382DF48BF2D690899B871C5267632C8.md) | 58
+[C:\Windows\SysWOW64\kbdlisub.dll](kbdlisub.dll-D4E0C51C707D5215DA5AFF522373142E.md) | 71
+[C:\Windows\SysWOW64\kbdnko.dll](kbdnko.dll-EF09833E585A5D059047588D6546D8E7.md) | 66
+[C:\Windows\SysWOW64\KBDOGHAM.DLL](KBDOGHAM.DLL-BB62F50651902B7D31521F3826391B1D.md) | 46
+[C:\Windows\SysWOW64\KBDOLDIT.DLL](KBDOLDIT.DLL-6B9B1C24E72BECF97DB8C6750FBD41D1.md) | 44
+[C:\Windows\SysWOW64\KBDTAJIK.DLL](KBDTAJIK.DLL-6F1E93FD2D680ADC50E293F4B2B7A3EE.md) | 75
+[C:\Windows\SysWOW64\KBDURDU.DLL](KBDURDU.DLL-59E30A2594A3E76A4B8D8835190AFB97.md) | 44
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

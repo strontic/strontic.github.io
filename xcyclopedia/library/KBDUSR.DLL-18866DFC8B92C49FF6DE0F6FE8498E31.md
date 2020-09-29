@@ -1,0 +1,75 @@
+﻿---
+title: KBDUSR.DLL | Dvorak Right-Hand US English Keyboard Layout
+excerpt: What is KBDUSR.DLL?
+---
+
+# KBDUSR.DLL 
+
+* File Path: `C:\Windows\system32\KBDUSR.DLL`
+* Description: Dvorak Right-Hand US English Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `18866DFC8B92C49FF6DE0F6FE8498E31`
+SHA1 | `FAAFE206D6D57276C4FE5DDEF6FAA628576E769F`
+SHA256 | `C34580F59F7F4144054F0CA966C16B0BD0352C7066B750301A6F799D9614D39E`
+SHA384 | `250B622ECCF0DF3373E4EFE28A7BC2196EB4EF95A174127AF03E54D9BA89F71395F2C737A99FC95A1D748D32FF0056C4`
+SHA512 | `FAF7ECB8F797A14BD97656B0F5C8ED4CB8F81056A9B43C4D8A51D0F00E65F0001D34AA27DD9B5F3D789D38B1A9AEC71AE37AD1EB4D5E29E585748DF2A8C80B95`
+SSDEEP | `96:H2nNFyw+cM1YB9SCI62bApi4nNgnheWPQp7IWw4Fvv:WnN4YXSZzjheW4lIWz`
+IMP | `n/a`
+PESHA1 | `3B8C8183E99BBAEB0F926DA43FD26D528E737E83`
+PE256 | `994D02220B8EEF36DF621F96288FDB8A22EA4F357853E4306457B63E9A72C908`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdusr.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/c34580f59f7f4144054f0ca966c16b0bd0352c7066b750301a6f799d9614d39e/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDFA.DLL](KBDFA.DLL-498FC0CA1221D28A3926E864DFC1438E.md) | 54
+[C:\Windows\system32\KBDINDEV.DLL](KBDINDEV.DLL-DFF55054658CDA4F85A88551A5B31883.md) | 47
+[C:\Windows\system32\KBDKAZ.DLL](KBDKAZ.DLL-AD64963195D50F48C736873E7269B419.md) | 55
+[C:\Windows\system32\KBDKNI.DLL](KBDKNI.DLL-29FB8B86D231CBA1D1E99FA9FD522EC1.md) | 50
+[C:\Windows\system32\KBDOLCH.DLL](KBDOLCH.DLL-06AE9DD9F949B722A87B14EC67D9CB7C.md) | 58
+[C:\Windows\system32\KBDSORS1.DLL](KBDSORS1.DLL-421F35C98C4BCD072ADC8CA3B83A3E22.md) | 47
+[C:\Windows\system32\KBDUSA.DLL](KBDUSA.DLL-B0C02601C2FB385C2D7778C81624F5EE.md) | 68
+[C:\Windows\system32\KBDUSL.DLL](KBDUSL.DLL-1FB4C9E109C339170B74B5CD6B9AC1D9.md) | 68
+[C:\Windows\SysWOW64\KBDUSR.DLL](KBDUSR.DLL-962FE8A62199D8C1E56566684C10CF73.md) | 36
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

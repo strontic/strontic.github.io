@@ -1,0 +1,78 @@
+﻿---
+title: KBDURDU.DLL | Urdu Keyboard Layout
+excerpt: What is KBDURDU.DLL?
+---
+
+# KBDURDU.DLL 
+
+* File Path: `C:\Windows\system32\KBDURDU.DLL`
+* Description: Urdu Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `A60A7A452A2AB58196AF852CCB12A1E5`
+SHA1 | `B645C308239935A644E748D11110DC6EB0924DBB`
+SHA256 | `CF2E9DA398AD515B234877AC1BAC52A8E232CCAE539E39ADC9F1FD43F21E8520`
+SHA384 | `1434CE79925755778F9166C4C48519C52323455F1D02051A78B773C789E0E58CA44D28C7FA2734803C66EBAF90E72B3E`
+SHA512 | `586EEB8FBDB5404642A4E8A445951908DC0597FC9097F600DB132ADCBE58CB54A2763F57B1C86AFF85B9FED70AC4FDEA7FFC192C89DC491F74326113F7AB9B5A`
+SSDEEP | `96:X/wLNFyw+cmB10nvrNlI6wFbApq4nPSW/TqWwDvP+vv:YLNO0nvrNeDTW/TqW+O`
+IMP | `n/a`
+PESHA1 | `7D68FA00E4714080E93F52EB1E688D4FEB332944`
+PE256 | `2DB3DD10A437731D341968B49FF0CE44C9E9D4843725A377532BBFFC3DFB797C`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdurdu.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/cf2e9da398ad515b234877ac1bac52a8e232ccae539e39adc9f1fd43f21e8520/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDA1.DLL](KBDA1.DLL-CE2BBD36120F3CA23EDEEC98ACBA75F8.md) | 63
+[C:\Windows\system32\KBDBLR.DLL](KBDBLR.DLL-F7761CE5F1D1B7193AAAB39B8B0E6B37.md) | 57
+[C:\Windows\system32\KBDDIV1.DLL](KBDDIV1.DLL-EB504CAD4DD630752DE1BA9E302FEA07.md) | 54
+[C:\Windows\system32\KBDDIV2.DLL](KBDDIV2.DLL-A0A03FB482DFBE6EFAD193735C66E011.md) | 58
+[C:\Windows\system32\KBDHEB.DLL](KBDHEB.DLL-CB5D79FDCDF19A223F89B23636BF23AF.md) | 55
+[C:\Windows\system32\KBDLT.DLL](KBDLT.DLL-CAD729C1D90EA0E52B62CAD30DD4D3CD.md) | 58
+[C:\Windows\system32\KBDMON.DLL](KBDMON.DLL-01F90F795EF14B6B6693905578B203E0.md) | 55
+[C:\Windows\system32\KBDTH0.DLL](KBDTH0.DLL-D9DF38EDC22B9C4180917B6F5C6DC429.md) | 60
+[C:\Windows\system32\KBDTH1.DLL](KBDTH1.DLL-AF01A035885696A1F03347C0B47329A0.md) | 63
+[C:\Windows\system32\KBDTH2.DLL](KBDTH2.DLL-6B3DFEF18BEEE10A164BA472B45E4F7F.md) | 61
+[C:\Windows\system32\KBDTH3.DLL](KBDTH3.DLL-25F92BCB15DF0F1F64584CF081BFEC2A.md) | 60
+[C:\Windows\system32\KBDUZB.DLL](KBDUZB.DLL-084E58239378DE9DCC6603F6EA0E670F.md) | 54
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

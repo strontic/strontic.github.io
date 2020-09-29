@@ -1,0 +1,79 @@
+﻿---
+title: kbdgeoqw.dll | Georgian (QWERTY) Keyboard Layout
+excerpt: What is kbdgeoqw.dll?
+---
+
+# kbdgeoqw.dll 
+
+* File Path: `C:\Windows\system32\kbdgeoqw.dll`
+* Description: Georgian (QWERTY) Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `7FA313AC47E09F9B96B7B1B8C27B03D4`
+SHA1 | `BC2C443B0BE6317784D5E814483DE4D67380B89C`
+SHA256 | `00B82171D84A0D7531AFE90FFDD95357F579D74D0F1C75395A3F03393A32138F`
+SHA384 | `F886FE73422C91FC1530BDEDF3FE22CB31DCCA459F90141BAD3428863FDA265022175C685759DE8DFEE98DF957065F02`
+SHA512 | `61A36CDE6F10330BBD85269471617174D2C12E4C5DE3E798248D3BA0FC8F8590D599429A1FAE7BDB9FE878AC8EA580CCC54D7872A833CCE6C812BDFD6FC13714`
+SSDEEP | `96:wNFyw+J6V1AvI6qrmXybApi4nEWDC3Wwsvv:wNU6fbuApWDC3WH`
+IMP | `n/a`
+PESHA1 | `B1141213F2C7EDA1B67233FE77F220CBE8654865`
+PE256 | `CB777D69FC15036EA81FAEED9D5117E9CA6722E00F7253ABF15D81C950608453`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdgeoqw.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/00b82171d84a0d7531afe90ffdd95357f579d74d0f1c75395a3f03393a32138f/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDAZEL.DLL](KBDAZEL.DLL-B0C67CBF87A8BA04A3CC139853A26691.md) | 68
+[C:\Windows\system32\KBDAZST.DLL](KBDAZST.DLL-3F6765FDDE2AA8476A5F5BA913C6FEB3.md) | 65
+[C:\Windows\system32\KBDBASH.DLL](KBDBASH.DLL-8F18572D916E66234D6C978E66DE2516.md) | 71
+[C:\Windows\system32\KBDBGPH1.DLL](KBDBGPH1.DLL-124BE893E254E0C0B22EA1BD56EEE616.md) | 63
+[C:\Windows\system32\kbdgeome.dll](kbdgeome.dll-14AE66D422DF8686ED9083885D722865.md) | 69
+[C:\Windows\system32\KBDKNI.DLL](KBDKNI.DLL-29FB8B86D231CBA1D1E99FA9FD522EC1.md) | 63
+[C:\Windows\system32\KBDLAO.DLL](KBDLAO.DLL-702F9CD858969BC1CFE3BBD60813E345.md) | 60
+[C:\Windows\system32\KBDLT2.DLL](KBDLT2.DLL-C01D522C82BC486F53870DEE236D8168.md) | 68
+[C:\Windows\system32\KBDMACST.DLL](KBDMACST.DLL-59C5F787ED213C73E7564CF979CD0491.md) | 69
+[C:\Windows\system32\KBDPASH.DLL](KBDPASH.DLL-B7C5FB67BF2BCD52B3CD39207F4A1429.md) | 66
+[C:\Windows\system32\KBDSN1.DLL](KBDSN1.DLL-4FF242AC2F02CDDC4C375250172CE33C.md) | 65
+[C:\Windows\system32\KBDTURME.DLL](KBDTURME.DLL-F3B80643F63D1B482BE6F99947B66015.md) | 72
+[C:\Windows\system32\KBDYAK.DLL](KBDYAK.DLL-0203AF79A583D465BC77CD8D085FEADE.md) | 69
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

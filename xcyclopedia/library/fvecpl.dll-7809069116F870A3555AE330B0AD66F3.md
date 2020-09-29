@@ -1,0 +1,146 @@
+﻿---
+title: fvecpl.dll | BitLocker Drive Encryption control panel
+excerpt: What is fvecpl.dll?
+---
+
+# fvecpl.dll 
+
+* File Path: `C:\Windows\system32\fvecpl.dll`
+* Description: BitLocker Drive Encryption control panel
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `7809069116F870A3555AE330B0AD66F3`
+SHA1 | `272E126C5CA7B289E258320857E58870D89DD2A7`
+SHA256 | `BD28232A913200428CD81D0FF9143B99555360DEDC6899F07AA623B7D5C931A8`
+SHA384 | `9D5FBE1F8666E50E646A3A91FA29A34EDA4710D4694B7244BFBF4B84F57AF36C200F7CBABEC0460D957BDC273C66E7DF`
+SHA512 | `7EF50F924E49BA08746771F9434FBD1D9350FE04CA348009D245B2CBABCC262D768BB17F86F35FE6003067DCAA000C0C3EB46BBC7F45E7B50C9D7FC54FB6976A`
+SSDEEP | `6144:KnJgyKworQz8f5ac44i3RFGn9uz7Dvle222gBLBUZdTVs7nyatGt+SYF:6Kmz8P44URFGYz7Dde2vDH+S+`
+IMP | `EA9FF07D6F588D404D9DD8FE97B523DE`
+PESHA1 | `2ABE8F9DED002B2D47FDF6D29DCA72AB5D145237`
+PE256 | `D18536FDB48DCEB2C394CA1BF74772E11ABE0EFA366557729153BD176E9AFDF8`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`DllCanUnloadNow` | 41 (0x29) | Exported Function | 0x0000000180002320 | 0x00002320
+`public: bool __cdecl VolumeFveStatus::IsEncrypting(void)const __ptr64` | 27 (0x1b) | Exported Function | 0x0000000180001fb0 | 0x00001fb0
+`public: bool __cdecl VolumeFveStatus::IsLocked(void)const __ptr64` | 28 (0x1c) | Exported Function | 0x0000000180002050 | 0x00002050
+`public: bool __cdecl VolumeFveStatus::IsOn(void)const __ptr64` | 29 (0x1d) | Exported Function | 0x0000000180001f50 | 0x00001f50
+`public: bool __cdecl VolumeFveStatus::IsOsCriticalVolume(void)const __ptr64` | 30 (0x1e) | Exported Function | 0x0000000180001f20 | 0x00001f20
+`public: bool __cdecl VolumeFveStatus::IsOsVolume(void)const __ptr64` | 31 (0x1f) | Exported Function | 0x0000000180001f10 | 0x00001f10
+`public: bool __cdecl VolumeFveStatus::IsPartiallyConverted(void)const __ptr64` | 32 (0x20) | Exported Function | 0x0000000180001fa0 | 0x00001fa0
+`public: bool __cdecl VolumeFveStatus::IsPaused(void)const __ptr64` | 33 (0x21) | Exported Function | 0x0000000180001f60 | 0x00001f60
+`public: bool __cdecl VolumeFveStatus::IsPreProvisioned(void)const __ptr64` | 34 (0x22) | Exported Function | 0x0000000180002070 | 0x00002070
+`public: bool __cdecl VolumeFveStatus::IsEncrypted(void)const __ptr64` | 26 (0x1a) | Exported Function | 0x0000000180001fc0 | 0x00001fc0
+`public: bool __cdecl VolumeFveStatus::IsRoamingDevice(void)const __ptr64` | 35 (0x23) | Exported Function | 0x0000000180001f40 | 0x00001f40
+`public: bool __cdecl VolumeFveStatus::IsUnknownFveVersion(void)const __ptr64` | 37 (0x25) | Exported Function | 0x00000001800020d0 | 0x000020d0
+`public: bool __cdecl VolumeFveStatus::IsWiping(void)const __ptr64` | 38 (0x26) | Exported Function | 0x0000000180001ff0 | 0x00001ff0
+`public: bool __cdecl VolumeFveStatus::NeedsRestart(void)const __ptr64` | 40 (0x28) | Exported Function | 0x0000000180002020 | 0x00002020
+`public: class BuiVolume & __ptr64 __cdecl BuiVolume::operator=(class BuiVolume const & __ptr64) __ptr64` | 3 (0x3) | Exported Function | 0x0000000180002190 | 0x00002190
+`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus && __ptr64) __ptr64` | 4 (0x4) | Exported Function | 0x0000000180002160 | 0x00002160
+`public: class VolumeFveStatus & __ptr64 __cdecl VolumeFveStatus::operator=(class VolumeFveStatus const & __ptr64) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180002140 | 0x00002140
+`public: long __cdecl VolumeFveStatus::GetLastConvertStatus(void)const __ptr64` | 8 (0x8) | Exported Function | 0x0000000180002120 | 0x00002120
+`public: static unsigned int const BuiVolume::NO_DRIVE_LETTER` | 39 (0x27) | Exported Function | 0x000000018003a890 | 0x0003a890
+`public: bool __cdecl VolumeFveStatus::IsSecure(void)const __ptr64` | 36 (0x24) | Exported Function | 0x0000000180002010 | 0x00002010
+`public: bool __cdecl VolumeFveStatus::IsEDriveVolume(void)const __ptr64` | 25 (0x19) | Exported Function | 0x00000001800020b0 | 0x000020b0
+`public: bool __cdecl VolumeFveStatus::IsDisabled(void)const __ptr64` | 24 (0x18) | Exported Function | 0x0000000180002030 | 0x00002030
+`public: bool __cdecl VolumeFveStatus::IsDecrypting(void)const __ptr64` | 23 (0x17) | Exported Function | 0x0000000180001fd0 | 0x00001fd0
+`DllGetClassObject` | 42 (0x2a) | Exported Function | 0x00000001800024f0 | 0x000024f0
+`DllRegisterServer` | 43 (0x2b) | Exported Function | 0x0000000180002340 | 0x00002340
+`DllUnregisterServer` | 44 (0x2c) | Exported Function | 0x0000000180002370 | 0x00002370
+`protected: __cdecl VolumeFveStatus::VolumeFveStatus(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180002130 | 0x00002130
+`public: __cdecl VolumeFveStatus::VolumeFveStatus(unsigned long,unsigned __int64,long,enum _FVE_WIPING_STATE) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180001e60 | 0x00001e60
+`public: bool __cdecl VolumeFveStatus::FailedDryRun(void)const __ptr64` | 6 (0x6) | Exported Function | 0x0000000180002080 | 0x00002080
+`public: bool __cdecl VolumeFveStatus::HasExternalKey(void)const __ptr64` | 10 (0xa) | Exported Function | 0x0000000180001ed0 | 0x00001ed0
+`public: bool __cdecl VolumeFveStatus::HasPassphraseProtector(void)const __ptr64` | 12 (0xc) | Exported Function | 0x0000000180001ef0 | 0x00001ef0
+`public: bool __cdecl VolumeFveStatus::HasPBKDF2RecoveryPassword(void)const __ptr64` | 11 (0xb) | Exported Function | 0x0000000180001ec0 | 0x00001ec0
+`public: bool __cdecl VolumeFveStatus::HasPinProtector(void)const __ptr64` | 13 (0xd) | Exported Function | 0x0000000180001ea0 | 0x00001ea0
+`public: bool __cdecl VolumeFveStatus::HasRecoveryData(void)const __ptr64` | 14 (0xe) | Exported Function | 0x0000000180002060 | 0x00002060
+`public: bool __cdecl VolumeFveStatus::HasRecoveryPassword(void)const __ptr64` | 15 (0xf) | Exported Function | 0x0000000180001eb0 | 0x00001eb0
+`public: bool __cdecl VolumeFveStatus::HasSmartCardProtector(void)const __ptr64` | 16 (0x10) | Exported Function | 0x0000000180001f00 | 0x00001f00
+`public: bool __cdecl VolumeFveStatus::HasStartupKeyProtector(void)const __ptr64` | 17 (0x11) | Exported Function | 0x0000000180001ee0 | 0x00001ee0
+`public: bool __cdecl VolumeFveStatus::HasTpmProtector(void)const __ptr64` | 18 (0x12) | Exported Function | 0x0000000180001e90 | 0x00001e90
+`public: bool __cdecl VolumeFveStatus::IsConverting(void)const __ptr64` | 19 (0x13) | Exported Function | 0x0000000180001f80 | 0x00001f80
+`public: bool __cdecl VolumeFveStatus::IsCsvMetadataVolume(void)const __ptr64` | 20 (0x14) | Exported Function | 0x00000001800020c0 | 0x000020c0
+`public: bool __cdecl VolumeFveStatus::IsDEAutoProvisioned(void)const __ptr64` | 21 (0x15) | Exported Function | 0x00000001800020f0 | 0x000020f0
+`public: bool __cdecl VolumeFveStatus::IsDecrypted(void)const __ptr64` | 22 (0x16) | Exported Function | 0x0000000180001fe0 | 0x00001fe0
+`public: unsigned __int64 __cdecl VolumeFveStatus::GetExtendedFlags(void)const __ptr64` | 7 (0x7) | Exported Function | 0x0000000180002110 | 0x00002110
+`public: unsigned long __cdecl VolumeFveStatus::GetStatusFlags(void)const __ptr64` | 9 (0x9) | Exported Function | 0x0000000180002100 | 0x00002100
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: FVECPL.DLL.MUI
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/bd28232a913200428cd81d0ff9143b99555360dedc6899f07aa623b7d5c931a8/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\baaupdate.exe](baaupdate.exe-124495DF347DBB3FE50CAF55B211CBD9.md) | 40
+[C:\WINDOWS\system32\baaupdate.exe](baaupdate.exe-1DE833E454562483BD0CD60D96B3CA0C.md) | 44
+[C:\windows\system32\baaupdate.exe](baaupdate.exe-5B49CC654ADC1CE20F2756FB61C1E3A4.md) | 40
+[C:\Windows\system32\baaupdate.exe](baaupdate.exe-A5BCC0E852AC6B17F3D0E6C9F95E95D4.md) | 40
+[C:\Windows\system32\BdeHdCfg.exe](BdeHdCfg.exe-29B6905327F9571F99697BA8951F60D5.md) | 44
+[C:\WINDOWS\system32\BdeHdCfg.exe](BdeHdCfg.exe-49993078062CFCCFE5EE1ACCF47B1EAF.md) | 43
+[C:\Windows\system32\BdeHdCfg.exe](BdeHdCfg.exe-89D0572C9B53F34230C8514F6B11BD56.md) | 40
+[C:\windows\system32\BdeHdCfg.exe](BdeHdCfg.exe-A0B0BD83DF86073C86D4111FDF4B82AB.md) | 41
+[C:\Windows\system32\bdeunlock.exe](bdeunlock.exe-23C71245731416DD69B78A64BDB8A230.md) | 36
+[C:\Windows\system32\bdeunlock.exe](bdeunlock.exe-6DF8548ED3BA2DF3C682A5E342DA7BE4.md) | 41
+[C:\WINDOWS\system32\bdeunlock.exe](bdeunlock.exe-7EDA3DEC2AC9206D153AF752F20B4B92.md) | 36
+[C:\windows\system32\bdeunlock.exe](bdeunlock.exe-F1422C3B0232F78BFB19B51CBC88BB50.md) | 35
+[C:\Windows\system32\BitLockerWizard.exe](BitLockerWizard.exe-1F7EC0D141821C5BB3B51C054E7CA8D4.md) | 38
+[C:\windows\system32\BitLockerWizard.exe](BitLockerWizard.exe-3F4811D92D68006E636245486A8D92B9.md) | 41
+[C:\WINDOWS\system32\BitLockerWizard.exe](BitLockerWizard.exe-6B919B72E58391B39A09EE388FA89BBB.md) | 44
+[C:\Windows\system32\BitLockerWizard.exe](BitLockerWizard.exe-A9C78F189E2111734F7E961EBE38188A.md) | 44
+[C:\Windows\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-46A96812D5A434C3794F06DB978D0C19.md) | 40
+[C:\Windows\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-68A4D7474F142060F46C37BCE45FABFE.md) | 43
+[C:\WINDOWS\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-7B6ADCD4165DE7732C61E2381D69BEA3.md) | 43
+[C:\windows\system32\BitLockerWizardElev.exe](BitLockerWizardElev.exe-9F4A6D072BF84183E96E8B4D6D536D73.md) | 41
+[C:\Windows\system32\fvenotify.exe](fvenotify.exe-1DDE0327CAF5309EC597B21726028153.md) | 41
+[C:\windows\system32\fvenotify.exe](fvenotify.exe-6A7644DD7F83120D7230C67D74C180EB.md) | 36
+[C:\WINDOWS\system32\fvenotify.exe](fvenotify.exe-D7B50B5843EFD63DBAAE341B8E70856D.md) | 41
+[C:\Windows\system32\fvenotify.exe](fvenotify.exe-EE3C814D1035CDCDF48E232742D6FA43.md) | 40
+[C:\WINDOWS\system32\fveprompt.exe](fveprompt.exe-1B9EC98C9542EF45D511E3D003E00369.md) | 43
+[C:\Windows\system32\fveprompt.exe](fveprompt.exe-1FDC5C40B2DE4167895EFFCAB0854C0C.md) | 40
+[C:\Windows\system32\fveprompt.exe](fveprompt.exe-57935115ADFEC73AB98655EEA54DF706.md) | 41
+[C:\windows\system32\fveprompt.exe](fveprompt.exe-D1A5A16C5C361DFC062E7ADFD3D0C49F.md) | 40
+[C:\Windows\system32\fveui.dll](fveui.dll-F5FBB09919FBE03401751FEE4046DA67.md) | 40
+[C:\WINDOWS\system32\manage-bde.exe](manage-bde.exe-146C56E1598A4F568B6F0342A485DD84.md) | 41
+[C:\Windows\system32\manage-bde.exe](manage-bde.exe-84021D418863A3E530D2E3F65F5D154C.md) | 38
+[C:\Windows\system32\manage-bde.exe](manage-bde.exe-D44D57F5AAF9D5FD64EFC00C4761C304.md) | 36
+[C:\windows\system32\manage-bde.exe](manage-bde.exe-F7E627DDF4C3B09BDB8954E02B4A375C.md) | 40
+[C:\Windows\system32\repair-bde.exe](repair-bde.exe-0858920D41400F8C585AFE31B80FF884.md) | 46
+[C:\WINDOWS\system32\repair-bde.exe](repair-bde.exe-7DE31602235A9B4A6C1EBCFB6E6E30E2.md) | 44
+[C:\windows\system32\repair-bde.exe](repair-bde.exe-8A8A24256B145338E025DCD848CBC1EF.md) | 41
+[C:\Windows\system32\repair-bde.exe](repair-bde.exe-9FA5C71841FDE30C7D62CC95E5389E6A.md) | 40
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

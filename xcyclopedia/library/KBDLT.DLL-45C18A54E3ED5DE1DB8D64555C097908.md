@@ -1,0 +1,72 @@
+﻿---
+title: KBDLT.DLL | Lithuania Keyboard Layout
+excerpt: What is KBDLT.DLL?
+---
+
+# KBDLT.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDLT.DLL`
+* Description: Lithuania Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `45C18A54E3ED5DE1DB8D64555C097908`
+SHA1 | `AA739CF59633D5966B25FAF83CA5ABBCA6454D49`
+SHA256 | `C1E2D2AAB7F0669FE2038D187BBA6B01656FDDC1F2457399488D08F98FC24618`
+SHA384 | `EFF78F4B35631D6B33E11E578DDFD50B4862F01B5C66AB32019E1DA5E8D40637AB7A1F90670ED67E0BE615BF3D8F05B7`
+SHA512 | `7CE90A673637B5C5464574F8BE1A19C09289A236F4AB9453A9C1EA43FFA11994AD7EACCDE97B5B159DB4BF474D1F96E26DD27FE634DAA36F9914ABBECFDB9B85`
+SSDEEP | `48:qoNseAAgyn7qzTROvamYlIXloOfIizVUNc6qPWXbw4vZW6ejuoY5WwHgUbP:vNB2zlOCmYwlosJyNc/PWrHWt8WwVbP`
+IMP | `n/a`
+PESHA1 | `3A119F333A1C17F82435864E34CA50E8344BFFB4`
+PE256 | `FB7495CA482163FDC0725D8739B8EF50A1A07FFF4C99832820A0045EA149CE10`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x52981e70 | 0x00001e70
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdlt.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/c1e2d2aab7f0669fe2038d187bba6b01656fddc1f2457399488d08f98fc24618/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\KBDAZEL.DLL](KBDAZEL.DLL-AB50AB013533478CB9B303E915B5465E.md) | 38
+[C:\Windows\SysWOW64\KBDHU1.DLL](KBDHU1.DLL-653531730239ED628DD0E25F16FDB4C7.md) | 44
+[C:\Windows\SysWOW64\KBDINMAR.DLL](KBDINMAR.DLL-B476986C968995065EEA5E09BBA5D8F2.md) | 46
+[C:\Windows\SysWOW64\KBDINTEL.DLL](KBDINTEL.DLL-EE5744B44DFEBFA515D099CF7A97943F.md) | 50
+[C:\Windows\SysWOW64\KBDKAZ.DLL](KBDKAZ.DLL-D177CD4E4F7837819763AC80A5406F36.md) | 52
+[C:\Windows\SysWOW64\KBDMAC.DLL](KBDMAC.DLL-D9684E55E88EF6A36D54685653483E59.md) | 49
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

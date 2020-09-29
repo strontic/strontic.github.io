@@ -1,0 +1,84 @@
+﻿---
+title: KBDIULAT.DLL | Inuktitut Latin Keyboard Layout
+excerpt: What is KBDIULAT.DLL?
+---
+
+# KBDIULAT.DLL 
+
+* File Path: `C:\Windows\system32\KBDIULAT.DLL`
+* Description: Inuktitut Latin Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `4C6CA5660AE3FC74AA1B20AEDE16A1D1`
+SHA1 | `5E460E54E494749EFC85015B24B0B4ABFFB702D0`
+SHA256 | `D164AB84AA021A002315D2CA0B711A5EA2D8044B9473B26C218D834449C3920D`
+SHA384 | `7F59BFB3F4093F0139B48BEA0FCE7B1CADF330C81DD260CCD2D81D41D1FEC76CED2B431D28C044AF77AB022BE838C4A6`
+SHA512 | `BA80044CCF66A8073D036D1DC331DFEA8C636DBCF08C031EC759D6D565E12FC7B37CC7B6E6F67A3644BA75F47A0FF68F58CEBEBDAF46A27B1A8336D3A9B7D0F1`
+SSDEEP | `96:SzNFyw+W6V1PvI6GbApq4nEMqhgMw+yWiZWw1vP8:gNX6fIzXhgUyWiZWM`
+IMP | `n/a`
+PESHA1 | `4333F46EE207BB4FC6181419ED8808F1AF15F67F`
+PE256 | `45142802138E0FD59ECE4F4EC3DBB4F544D8A8DEE7D0C6930E8E5966DA9E3B97`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdiulat.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/d164ab84aa021a002315d2ca0b711a5ea2d8044b9473b26c218d834449c3920d/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\kbdarmph.dll](kbdarmph.dll-EDC488CADC3155607C374599F7C7B8AC.md) | 57
+[C:\Windows\system32\kbdarmty.dll](kbdarmty.dll-2989AEBD20A345578DB9CEAD03D86562.md) | 57
+[C:\Windows\system32\kbdgeoer.dll](kbdgeoer.dll-C398F1B26A6DF17574D138CCEFA0F26A.md) | 61
+[C:\Windows\system32\kbdgeooa.dll](kbdgeooa.dll-11DE972AD9C701F5DD5A103D1D4D4F62.md) | 61
+[C:\Windows\system32\KBDHAU.DLL](KBDHAU.DLL-E152F0C766E5A5C9CE66BA001DA7ACCE.md) | 61
+[C:\Windows\system32\KBDHAW.DLL](KBDHAW.DLL-2E2FEA6B11933C4E3764E48109CEDE0C.md) | 61
+[C:\Windows\system32\kbdhebl3.dll](kbdhebl3.dll-D9FA4A32EA061308418D74D684701907.md) | 60
+[C:\Windows\system32\KBDINDEV.DLL](KBDINDEV.DLL-DFF55054658CDA4F85A88551A5B31883.md) | 46
+[C:\Windows\system32\KBDJAV.DLL](KBDJAV.DLL-21200774B06A003567259331FDA6E428.md) | 60
+[C:\Windows\system32\KBDMAC.DLL](KBDMAC.DLL-C78D3103A3BD64F514B5B6895EA30464.md) | 55
+[C:\Windows\system32\KBDMLT47.DLL](KBDMLT47.DLL-3CDAB750C80B74885DA7814545573AF3.md) | 63
+[C:\Windows\system32\KBDMYAN.DLL](KBDMYAN.DLL-E5C3BDF360993B367653B18583607166.md) | 58
+[C:\Windows\system32\kbdphags.dll](kbdphags.dll-6634F715638F189C81BE07802BE7F11C.md) | 60
+[C:\Windows\system32\KBDSW09.DLL](KBDSW09.DLL-9AA504BFB544F63BDEA2169E67FCB453.md) | 58
+[C:\Windows\system32\KBDSYR1.DLL](KBDSYR1.DLL-85FBA024BA56F2527B04E61E73F5E69E.md) | 49
+[C:\Windows\system32\KBDTT102.DLL](KBDTT102.DLL-52C1F6F74F32E8BC9A545814CD028499.md) | 58
+[C:\Windows\system32\KBDUR.DLL](KBDUR.DLL-622290D9A35B442E9468D50D3D87C727.md) | 50
+[C:\Windows\system32\KBDUR1.DLL](KBDUR1.DLL-2ADF51029A8964C7AFDE8689B137C523.md) | 57
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

@@ -1,0 +1,74 @@
+﻿---
+title: updatepolicy.dll | Update Policy Reader
+excerpt: What is updatepolicy.dll?
+---
+
+# updatepolicy.dll 
+
+* File Path: `C:\Windows\system32\updatepolicy.dll`
+* Description: Update Policy Reader
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `2F5B2E3CD3B09FC385A6FADF3D379C70`
+SHA1 | `C2AB013F5E6A5F3949509EFD2F82B8A6520AB48F`
+SHA256 | `934087DD1F0CF54D70B34410E473258B2C7F3F615484C4FA171C48E03DEC64C7`
+SHA384 | `1DBA44BAB9EA8E133C6F574B97AC36F4C7652D671A8024718C052263CAEB2C00B4313019870AF0C1DC2BEEC69F63C186`
+SHA512 | `39DD96C716CB15FBBEE313F9FC37EA0D2E5C3E74B9F39ABCB17EB572B4F90FEFE7AE17487B13A43BF37F776F43DD86D3E8FF411FE067B821FBBDE1E756019ECB`
+SSDEEP | `6144:Ztwg2B/FLfkH1jTRD95S+lqrEmZUcrBq:Dwg2BFYH1XRZ+rE7c`
+IMP | `4F8C638D9E4474D1831F8CEA2DAFBD4C`
+PESHA1 | `67C10FFA87F50871D29051D835ABF0060635E575`
+PE256 | `6CB5216CEE7869E868DFED640AFE98A4CA5C9FA7B4178A0B6C093B0585AD5469`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`DllCanUnloadNow` | 10 (0xa) | Exported Function | 0x00000001800050f0 | 0x000050f0
+`DllGetClassObject` | 11 (0xb) | Exported Function | 0x0000000180005110 | 0x00005110
+`DllRegisterServer` | 12 (0xc) | Exported Function | 0x0000000180005240 | 0x00005240
+`DllUnregisterServer` | 13 (0xd) | Exported Function | 0x0000000180005340 | 0x00005340
+`GetAutoUpdatePolicy` | 1 (0x1) | Exported Function | 0x0000000180015d90 | 0x00015d90
+`GetEnterprisePolicyName` | 2 (0x2) | Exported Function | 0x000000018000ebd0 | 0x0000ebd0
+`GetSkuUpdateManagementGroup` | 3 (0x3) | Exported Function | 0x00000001800162a0 | 0x000162a0
+`GetUpdatePolicyName` | 4 (0x4) | Exported Function | 0x0000000180015b10 | 0x00015b10
+`ReadPolicy` | 5 (0x5) | Exported Function | 0x00000001800158b0 | 0x000158b0
+`ReadPolicyWithFallback` | 6 (0x6) | Exported Function | 0x000000018000e4c0 | 0x0000e4c0
+`ReleaseAutoUpdatePolicy` | 7 (0x7) | Exported Function | 0x0000000180018320 | 0x00018320
+`ReleaseEnterprisePolicyValue` | 8 (0x8) | Exported Function | 0x000000018000f350 | 0x0000f350
+`ReleaseUpdatePolicyValue` | 9 (0x9) | Exported Function | 0x00000001800182d0 | 0x000182d0
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: UpdatePolicy.dll.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/934087dd1f0cf54d70b34410e473258b2c7f3f615484c4fa171c48e03dec64c7/detection/
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

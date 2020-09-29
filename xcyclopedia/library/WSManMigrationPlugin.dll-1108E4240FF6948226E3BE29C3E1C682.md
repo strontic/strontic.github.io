@@ -1,0 +1,88 @@
+﻿---
+title: WSManMigrationPlugin.dll | WinRM Migration Plugin
+excerpt: What is WSManMigrationPlugin.dll?
+---
+
+# WSManMigrationPlugin.dll 
+
+* File Path: `C:\Windows\system32\WSManMigrationPlugin.dll`
+* Description: WinRM Migration Plugin
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `1108E4240FF6948226E3BE29C3E1C682`
+SHA1 | `218DFD40098036C3F897BA05A6BCF55A49C9F965`
+SHA256 | `CED75050A2C1CD34F24EDC28037DF025859B08A361822BCA6DF41A45738B9269`
+SHA384 | `0D458E794CE611B18E83C945732FD57866F0CA1FA3C3686F5D3EF324D85741CE69285D6C3CD91995359D5F2EA845A8C8`
+SHA512 | `EE197AE8C7237198D1603C0D686D25FAA8C1F6BF6BCA409814DB3E08EF691C09B3A663F15D7E8FE727812138797E2F53AC78B557F09424483DC7F86549056622`
+SSDEEP | `1536:i/vLPiHtXan0nfpKasI+NzB6aRT1I1cw5Rdj+6yV47BGg5F+VRUGOutfvw:6GNXan0EP/zZz9w5Rdj+7V49B5F+D2uC`
+IMP | `53216E6C53CB7AFB15827A11314BBF16`
+PESHA1 | `07FD18CED815D39B67B5ABE5904805BA229A21D2`
+PE256 | `894B1D6131A542E4C5E6AE4A2A7B85778055ECE02D2A262060DA655A17B32DFE`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`const SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::``vftable'` | 8 (0x8) | Exported Function | 0x000000018000dfd0 | 0x0000dfd0
+`public: virtual void __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Release(void)const __ptr64` | 20 (0x14) | Exported Function | 0x0000000180005050 | 0x00005050
+`public: virtual void __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void)const __ptr64` | 9 (0x9) | Exported Function | 0x0000000180005050 | 0x00005050
+`public: virtual bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Initialize(class IRequestContext & __ptr64) __ptr64` | 18 (0x12) | Exported Function | 0x00000001800050e0 | 0x000050e0
+`public: virtual bool __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::DeInitialize(class IRequestContext & __ptr64) __ptr64` | 14 (0xe) | Exported Function | 0x0000000180005060 | 0x00005060
+`public: unsigned long __cdecl CWSManCriticalSection::GetInitError(void)const __ptr64` | 15 (0xf) | Exported Function | 0x0000000180004440 | 0x00004440
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __ptr64 __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::GetMap(void)const __ptr64` | 17 (0x11) | Exported Function | 0x0000000180006160 | 0x00006160
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::GetMap(void)const __ptr64` | 16 (0x10) | Exported Function | 0x0000000180006160 | 0x00006160
+`public: class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64 __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::AsReference(void) __ptr64` | 12 (0xc) | Exported Function | 0x0000000180005a50 | 0x00005a50
+`public: bool __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquired(void) __ptr64` | 11 (0xb) | Exported Function | 0x0000000180006070 | 0x00006070
+`public: bool __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::IsValid(void)const __ptr64` | 19 (0x13) | Exported Function | 0x0000000180005a60 | 0x00005a60
+`public: __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 6 (0x6) | Exported Function | 0x0000000180006080 | 0x00006080
+`public: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Reset(void) __ptr64` | 21 (0x15) | Exported Function | 0x00000001800060f0 | 0x000060f0
+`public: __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > const & __ptr64,bool) __ptr64` | 3 (0x3) | Exported Function | 0x00000001800060b0 | 0x000060b0
+`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::SafeMap_Iterator<class Locale::Key,unsigned long>(class SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> > & __ptr64,bool) __ptr64` | 2 (0x2) | Exported Function | 0x0000000180005b10 | 0x00005b10
+`public: __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::~SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 4 (0x4) | Exported Function | 0x00000001800051c0 | 0x000051c0
+`public: __cdecl SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::SafeMap<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >(void) __ptr64` | 1 (0x1) | Exported Function | 0x0000000180005220 | 0x00005220
+`public: __cdecl CWSManCriticalSectionWithConditionVar::~CWSManCriticalSectionWithConditionVar(void) __ptr64` | 7 (0x7) | Exported Function | 0x0000000180004450 | 0x00004450
+`protected: void __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::SkipOrphans(void) __ptr64` | 22 (0x16) | Exported Function | 0x0000000180006500 | 0x00006500
+`protected: class STLMap<class Locale::Key,unsigned long> & __ptr64 __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::Data(void)const __ptr64` | 13 (0xd) | Exported Function | 0x00000001800065b0 | 0x000065b0
+`DllUnregisterServer` | 27 (0x1b) | Exported Function | 0x00000001800014c0 | 0x000014c0
+`DllRegisterServer` | 26 (0x1a) | Exported Function | 0x00000001800013a0 | 0x000013a0
+`DllMain` | 25 (0x19) | Exported Function | 0x0000000180001610 | 0x00001610
+`DllGetClassObject` | 24 (0x18) | Exported Function | 0x0000000180001260 | 0x00001260
+`DllCanUnloadNow` | 23 (0x17) | Exported Function | 0x00000001800015d0 | 0x000015d0
+`public: __cdecl SafeMap_Iterator<class Locale::Key,unsigned long>::~SafeMap_Iterator<class Locale::Key,unsigned long>(void) __ptr64` | 5 (0x5) | Exported Function | 0x0000000180005a70 | 0x00005a70
+`public: void __cdecl SafeMap_Lock<class Locale::Key,unsigned long,class SafeMap_Iterator<class Locale::Key,unsigned long> >::Acquire(void) __ptr64` | 10 (0xa) | Exported Function | 0x00000001800064a0 | 0x000064a0
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: WSManMigrationPlugin.DLL
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.488 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.488
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/67
+* VirusTotal Link: https://www.virustotal.com/gui/file/ced75050a2c1cd34f24edc28037df025859b08a361822bca6df41a45738b9269/detection/
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

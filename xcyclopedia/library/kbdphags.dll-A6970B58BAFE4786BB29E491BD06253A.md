@@ -1,0 +1,80 @@
+﻿---
+title: kbdphags.dll | Phags-pa Keyboard Layout
+excerpt: What is kbdphags.dll?
+---
+
+# kbdphags.dll 
+
+* File Path: `C:\Windows\SysWOW64\kbdphags.dll`
+* Description: Phags-pa Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `A6970B58BAFE4786BB29E491BD06253A`
+SHA1 | `008747C82FE725DAEBF47C3A1120792435766406`
+SHA256 | `7FF15BAB50CACB8B6F7A0E0F36EF832742EEB48E7E8A29131FEF26785101408B`
+SHA384 | `81F0CB1C017AFE1A9F2AF493E6DC1BD1E342D1EC0E7510C51BC726C4490B8D40C6DCE0578A66512146E9FBE3B9CE2F87`
+SHA512 | `E2ED6E4D941322A7EFB08C5EE40517AE857843D97CA497B6AD88EF6428BB8A9A0417C1E67A661028C97ACB3A2DDF435D55036E826306F060051D7B69E36D91CA`
+SSDEEP | `96:vLO1aLqW5gDpc+8Wbku/LyNcbacceX9RsWh5Wwwv:zO1aWWdsvWssWh5Wb`
+IMP | `n/a`
+PESHA1 | `D744464FEA2347532C454F5D631DF028085D686F`
+PE256 | `599B12AC79201A32B294DBA75EC946D827B829612635A87B875F8CC42DAC152E`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001f60 | 0x00001f60
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdphags.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/7ff15bab50cacb8b6f7a0e0f36ef832742eeb48e7e8a29131fef26785101408b/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\kbdphags.dll](kbdphags.dll-6634F715638F189C81BE07802BE7F11C.md) | 41
+[C:\Windows\SysWOW64\kbdarmph.dll](kbdarmph.dll-40A1904AEB19AC08DA762F5567014874.md) | 58
+[C:\Windows\SysWOW64\kbdgeoer.dll](kbdgeoer.dll-1F7DFFAF7B2D8C591381FBDF3F697BA4.md) | 58
+[C:\Windows\SysWOW64\kbdgeooa.dll](kbdgeooa.dll-9EA9EF6F83183E5AD95CD45F3678B801.md) | 68
+[C:\Windows\SysWOW64\KBDHAU.DLL](KBDHAU.DLL-9793B90833044EB2B0FA44789EBCFB5F.md) | 58
+[C:\Windows\SysWOW64\KBDHAW.DLL](KBDHAW.DLL-FB0E6EF0DE1831530DAC04000375612D.md) | 60
+[C:\Windows\SysWOW64\KBDJAV.DLL](KBDJAV.DLL-8E23AD2CF332C08ED1DA805B4D871E30.md) | 57
+[C:\Windows\SysWOW64\KBDMLT48.DLL](KBDMLT48.DLL-85794DF0D8E0405DF0C2CCCE9CCA3E8E.md) | 61
+[C:\Windows\SysWOW64\KBDMYAN.DLL](KBDMYAN.DLL-7FB5C6F476ADE5D4A8738FE6BCB68B18.md) | 61
+[C:\Windows\SysWOW64\KBDOSA.DLL](KBDOSA.DLL-B8C0A6BCC4A291CF5C473BC9BEDC24BE.md) | 52
+[C:\Windows\SysWOW64\KBDTIPRC.DLL](KBDTIPRC.DLL-85ABE609C6D3EF90FFD0617C0E2470F6.md) | 55
+[C:\Windows\SysWOW64\KBDTIPRD.DLL](KBDTIPRD.DLL-D0F15571DA4BBFD24C877A3C0E4F2FCA.md) | 57
+[C:\Windows\SysWOW64\KBDTT102.DLL](KBDTT102.DLL-ACAFA797E536050E3F8DF6B1F01C9DBE.md) | 61
+[C:\Windows\SysWOW64\KBDUR1.DLL](KBDUR1.DLL-3B9FB5F23924B48E940D6333A6D09C2E.md) | 65
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

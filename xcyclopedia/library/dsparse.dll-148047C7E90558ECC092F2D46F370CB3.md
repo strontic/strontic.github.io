@@ -1,0 +1,89 @@
+﻿---
+title: dsparse.dll | Active Directory Domain Services API
+excerpt: What is dsparse.dll?
+---
+
+# dsparse.dll 
+
+* File Path: `C:\Windows\SysWOW64\dsparse.dll`
+* Description: Active Directory Domain Services API
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `148047C7E90558ECC092F2D46F370CB3`
+SHA1 | `B0D30169236D0F002622ADABEB0D92700DD91236`
+SHA256 | `77DB2B5DA00CAF38275B617A5C89D691219426FD2FE66696981CAE7591D548E8`
+SHA384 | `68D5C07AD2C855E4BBFEF209F7A1656239C12983AAC5FE7EB8F2CE8E0F250CC47A8699089403A6FB6D1BE42EC4E7E3D7`
+SHA512 | `0E281897C52F53918C10646EE204B38F30F2B83C3BD89984CC8CA745A2B960A2D9678FC3D541959C68E71916C20FBFCDB3A81D09CF423A13685EAD7EC554F063`
+SSDEEP | `384:7eWbP6Ucdg0kI2lH+LB265Gbr18pl6js0D5u7nnev5x3eIp+lvZuWRTW:7RWXUH5Cng8nK5xOo+xZh`
+IMP | `AE6B1186EC8181CBE320D8D73D84A7C0`
+PESHA1 | `0D27B4F898B00F50D561293064C190857FB3C2B1`
+PE256 | `209380DA9CAF4B6BDA94DB62D545CC6E36B324DFE5A164AD2E50E212DBF94A3E`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`DsCrackSpn2A` | 1 (0x1) | Exported Function | 0x10002560 | 0x00002560
+`DsQuoteRdnValueW` | 18 (0x12) | Exported Function | 0x10003f20 | 0x00003f20
+`DsQuoteRdnValueA` | 17 (0x11) | Exported Function | 0x10003db0 | 0x00003db0
+`DsMakeSpnW` | 16 (0x10) | Exported Function | 0x10003300 | 0x00003300
+`DsMakeSpnA` | 15 (0xf) | Exported Function | 0x10003160 | 0x00003160
+`DsMakeSpn2W` | 14 (0xe) | Exported Function | 0x10002ec0 | 0x00002ec0
+`DsIsMangledRdnValueW` | 13 (0xd) | Exported Function | 0x10003d10 | 0x00003d10
+`DsIsMangledRdnValueA` | 12 (0xc) | Exported Function | 0x10003cb0 | 0x00003cb0
+`DsIsMangledDnW` | 11 (0xb) | Exported Function | 0x10003c40 | 0x00003c40
+`DsIsMangledDnA` | 10 (0xa) | Exported Function | 0x10003bf0 | 0x00003bf0
+`DsGetRdnW` | 9 (0x9) | Exported Function | 0x10003b40 | 0x00003b40
+`DsCrackUnquotedMangledRdnW` | 8 (0x8) | Exported Function | 0x10003aa0 | 0x00003aa0
+`DsCrackUnquotedMangledRdnA` | 7 (0x7) | Exported Function | 0x10003a40 | 0x00003a40
+`DsCrackSpnW` | 6 (0x6) | Exported Function | 0x10002cf0 | 0x00002cf0
+`DsCrackSpnA` | 5 (0x5) | Exported Function | 0x10002ac0 | 0x00002ac0
+`DsCrackSpn4W` | 4 (0x4) | Exported Function | 0x100028b0 | 0x000028b0
+`DsCrackSpn3W` | 3 (0x3) | Exported Function | 0x10002780 | 0x00002780
+`DsCrackSpn2W` | 2 (0x2) | Exported Function | 0x10001620 | 0x00001620
+`DsUnquoteRdnValueA` | 19 (0x13) | Exported Function | 0x10003fd0 | 0x00003fd0
+`DsUnquoteRdnValueW` | 20 (0x14) | Exported Function | 0x10004140 | 0x00004140
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: dsparse.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/77db2b5da00caf38275b617a5c89d691219426fd2fe66696981cae7591d548e8/detection/
+
+
+## Possible Misuse
+
+*The following table contains possible examples of `dsparse.dll` being misused. While `dsparse.dll` is **not** inherently malicious, its legitimate functionality can by abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_office_dsparse_dll_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_office_dsparse_dll_load.yml) | `description: Detects DSParse DLL being loaded by an Office Product` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_office_dsparse_dll_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_office_dsparse_dll_load.yml) | `- '*\dsparse.dll*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

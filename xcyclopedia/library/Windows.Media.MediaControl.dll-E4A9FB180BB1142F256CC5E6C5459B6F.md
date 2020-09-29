@@ -1,0 +1,72 @@
+﻿---
+title: Windows.Media.MediaControl.dll | Windows Runtime MediaControl server DLL
+excerpt: What is Windows.Media.MediaControl.dll?
+---
+
+# Windows.Media.MediaControl.dll 
+
+* File Path: `C:\Windows\SysWOW64\Windows.Media.MediaControl.dll`
+* Description: Windows Runtime MediaControl server DLL
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `E4A9FB180BB1142F256CC5E6C5459B6F`
+SHA1 | `319D9B20E65B23F48047630D6D071B083BE37CAD`
+SHA256 | `D785BDA70E038C3DADB035E930404C70DB0267D2583D633262D8C39F691F8963`
+SHA384 | `6DB41281EE98D47B0CA8E3EF931C25D4F729F2B489E220347EA4E5217F0A2A33C3C3D71015766988F419A79FD7541C6F`
+SHA512 | `6C140B70F2AA8A9198A5DAA92009A039104B2F85BB05362D48A3D1E0222A9E2F2074BC51A4B06A87E1CC952A7C1EBA0C262CF7F62CB0E932C910DA38FE890F13`
+SSDEEP | `6144:UbGLH+bozBXBtdo+m0f1qivW2rVmTLCZnsH1JEpVlzJuX5R6y:UbeebozBxDo+m00WW2dsnEpVlIX5l`
+IMP | `EA59C786E5B8068727B4BA3E12ADCAB4`
+PESHA1 | `B7808BD2F5933A04F7047ABDC5FBD1EB8C804561`
+PE256 | `5D99AE8974B229FD895145644B7CE067C92C4C841393CA49B3F21E2F4D824A52`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`CreateCaptureAudioStateMonitor` | 1 (0x1) | Exported Function | 0x1002c610 | 0x0002c610
+`CreateCaptureAudioStateMonitorForCategory` | 2 (0x2) | Exported Function | 0x1002c650 | 0x0002c650
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceId` | 3 (0x3) | Exported Function | 0x1002c6d0 | 0x0002c6d0
+`CreateCaptureAudioStateMonitorForCategoryAndDeviceRole` | 4 (0x4) | Exported Function | 0x1002c750 | 0x0002c750
+`CreateRenderAudioStateMonitor` | 5 (0x5) | Exported Function | 0x1002c7e0 | 0x0002c7e0
+`CreateRenderAudioStateMonitorForCategory` | 6 (0x6) | Exported Function | 0x1002c820 | 0x0002c820
+`CreateRenderAudioStateMonitorForCategoryAndDeviceId` | 7 (0x7) | Exported Function | 0x1002c8a0 | 0x0002c8a0
+`CreateRenderAudioStateMonitorForCategoryAndDeviceRole` | 8 (0x8) | Exported Function | 0x1002c920 | 0x0002c920
+`DllCanUnloadNow` | 9 (0x9) | Exported Function | 0x10025330 | 0x00025330
+`DllGetActivationFactory` | 10 (0xa) | Exported Function | 0x10024760 | 0x00024760
+`DllGetClassObject` | 11 (0xb) | Exported Function | 0x100210f0 | 0x000210f0
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: Windows.Media.MediaControl.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.388 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.388
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/68
+* VirusTotal Link: https://www.virustotal.com/gui/file/d785bda70e038c3dadb035e930404c70db0267d2583d633262d8c39f691f8963/detection/
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

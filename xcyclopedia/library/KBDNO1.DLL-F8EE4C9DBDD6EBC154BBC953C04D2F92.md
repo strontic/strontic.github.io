@@ -1,0 +1,75 @@
+﻿---
+title: KBDNO1.DLL | Norwegian with Sami Keyboard Layout
+excerpt: What is KBDNO1.DLL?
+---
+
+# KBDNO1.DLL 
+
+* File Path: `C:\Windows\system32\KBDNO1.DLL`
+* Description: Norwegian with Sami Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `F8EE4C9DBDD6EBC154BBC953C04D2F92`
+SHA1 | `FC1B82B9FB9A07ED0C9333E27F30E90EF0A4E819`
+SHA256 | `E030DA0E92BAD2FB8900F22F47294B3F5EFC07D6662E8CC7C4C93CD6ADFC70B6`
+SHA384 | `120C8EC6C03723D9BB774196BBFA43321E7DC1B4364F2AC58B642D2EF07BD7394E6E80F326F70BB09174A00AE9A9B937`
+SHA512 | `658AEAA2B1176FC8011005805ADA6653DA81E99FFE386B392B1FD5081C2AC9E26E1D5804085F2927F0D873E137FF3771E046AF73CBF26F0585CB084141EFEF63`
+SSDEEP | `96:foNFUw+N6FmZ1i3rMWtls72kevYPinWUpy4HWfaWE8Wwj:foNLmLUPXs7veAPinmaWE8W`
+IMP | `n/a`
+PESHA1 | `CF15D299EC22DC3A14044098D66E57FC2E1EFACC`
+PE256 | `B87F8F5E802FBDD16EC94F6115EBBF69F71EC343DECBEA2BC5C5646B78476834`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdno1.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/72
+* VirusTotal Link: https://www.virustotal.com/gui/file/e030da0e92bad2fb8900f22f47294b3f5efc07d6662e8cc7c4c93cd6adfc70b6/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDFI1.DLL](KBDFI1.DLL-265AE89B3EAB4A502E9F2AB04AC951EA.md) | 77
+[C:\Windows\system32\KBDGN.DLL](KBDGN.DLL-43E8DFFF4C2B42AF6496BEF07B3B7DB2.md) | 41
+[C:\Windows\system32\KBDGRLND.DLL](KBDGRLND.DLL-A6E1C194BD88187B8546B6EFDCD9366A.md) | 80
+[C:\Windows\system32\KBDSMSNO.DLL](KBDSMSNO.DLL-F202BD44ADBDCFE7B17038241D8079B0.md) | 46
+[C:\Windows\system32\KBDTZM.DLL](KBDTZM.DLL-CAFAABD1F38C719580C056A2373F0534.md) | 49
+[C:\Windows\system32\KBDUKX.DLL](KBDUKX.DLL-592C735842F988F32B7DCBE0116DE9F1.md) | 55
+[C:\Windows\system32\KBDWOL.DLL](KBDWOL.DLL-2FFAAAA64C4F08D1DA8371C98BAB1F78.md) | 41
+[C:\Windows\SysWOW64\KBDNO1.DLL](KBDNO1.DLL-BC2F67D5E954DD359B8F2F78A05AD56D.md) | 41
+[C:\Windows\SysWOW64\KBDSMSNO.DLL](KBDSMSNO.DLL-5E7E4D7795308D621CFC37B0B8A5E8F5.md) | 32
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

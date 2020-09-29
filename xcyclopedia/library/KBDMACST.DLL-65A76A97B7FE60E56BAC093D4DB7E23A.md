@@ -1,0 +1,77 @@
+﻿---
+title: KBDMACST.DLL | Macedonian (North Macedonia) - Standard Keyboard Layout
+excerpt: What is KBDMACST.DLL?
+---
+
+# KBDMACST.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDMACST.DLL`
+* Description: Macedonian (North Macedonia) - Standard Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `65A76A97B7FE60E56BAC093D4DB7E23A`
+SHA1 | `07B2964C7A89DBA6183D60FB9CF99F605E7F3F2D`
+SHA256 | `B26B0460CBE634E0B428F5B0EBA7650C32AB95251D2F08860F4802D55469FB74`
+SHA384 | `C7C1C769CCE96DCB3DF329D11D072398A8A96A1A886BB74A3B0A59E5A19DC31D379F99359A114BC44ABB98565B92A48E`
+SHA512 | `68ECE60FF33CDD4219C69E6886D657967A123C0C0B3711C370BD3E0721A2EE069BC5354F1DBEF40829A03F2AB8CE0192EB2BC3078874F14B9207BFDC7DA00419`
+SSDEEP | `96:vkxKa3jHfQe81Khu/+qDyNc7O84tsfEddW2sWw:cxKa3jfQn0AGBrW2sW`
+IMP | `n/a`
+PESHA1 | `D864E616D2B01C9E39EA066BD83FED63672EC626`
+PE256 | `69589CFCF70803A19171C6A4B678E6711CC18084CD90E6BF1CE21E05C840A754`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001f00 | 0x00001f00
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdmacst.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/70
+* VirusTotal Link: https://www.virustotal.com/gui/file/b26b0460cbe634e0b428f5b0eba7650c32ab95251d2f08860f4802d55469fb74/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\kbdgeome.dll](kbdgeome.dll-22353A90FAEDB843727D4CE5BB1A623D.md) | 63
+[C:\Windows\SysWOW64\kbdgeoqw.dll](kbdgeoqw.dll-0ABD0C44F142A3C0ED9619E55C66DA06.md) | 65
+[C:\Windows\SysWOW64\KBDLT2.DLL](KBDLT2.DLL-6CD11911D79BF489C3F3C3030E92E3CD.md) | 60
+[C:\Windows\SysWOW64\KBDNTL.DLL](KBDNTL.DLL-4AE80AC7E4C49EF376A926E655DDADE1.md) | 63
+[C:\Windows\SysWOW64\KBDSN1.DLL](KBDSN1.DLL-861468B3C2182391F362EA1D6284DE14.md) | 63
+[C:\Windows\SysWOW64\KBDSYR1.DLL](KBDSYR1.DLL-953223C1CC2B032819C30556B2673EB7.md) | 54
+[C:\Windows\SysWOW64\KBDSYR2.DLL](KBDSYR2.DLL-222E3B47578151C6348DF4DF9EDD4A71.md) | 50
+[C:\Windows\SysWOW64\KBDTIFI.DLL](KBDTIFI.DLL-E0DDF0892AD4E6E48CBC733197771814.md) | 65
+[C:\Windows\SysWOW64\KBDTIFI2.DLL](KBDTIFI2.DLL-DC0C0868F1A86B605566189012A07A80.md) | 72
+[C:\Windows\SysWOW64\KBDTURME.DLL](KBDTURME.DLL-85BE9832459033F40634A7C1903A2B53.md) | 63
+[C:\Windows\SysWOW64\KBDYAK.DLL](KBDYAK.DLL-267F34ADB6BECF9406ED53C693D6DF81.md) | 68
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

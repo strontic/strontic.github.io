@@ -1,0 +1,79 @@
+﻿---
+title: KBDMYAN.DLL | Myanmar Keyboard Layout
+excerpt: What is KBDMYAN.DLL?
+---
+
+# KBDMYAN.DLL 
+
+* File Path: `C:\Windows\SysWOW64\KBDMYAN.DLL`
+* Description: Myanmar Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `7FB5C6F476ADE5D4A8738FE6BCB68B18`
+SHA1 | `B2BFCE116F7F817001DD8EE335A2F863618B363F`
+SHA256 | `7FC20639FFAD5BE48CCBDC7D13BEA5B0207A6D7101DD12D1B1074B34D4DBD64A`
+SHA384 | `D9A905A1AFE403CC3DFD334399CE17214D1C8E1E2F1A5C63C6BFBE76A5CA5E7BEF3FCA97A13EDDBC9E02CD0C123A86A9`
+SHA512 | `4C6CA8FA1463283CC4B7755307B4C0CCAF7C50EDC4F411191C23F9B47581A12450FDE70D67AFA81EA7F3F1C11F54FEDF5322BE183B2BE2A92D248BEB5770520C`
+SSDEEP | `96:v6O1amsXniFm8Wbku/LyNcbacclKWrkfWwwv:CO1amMniFvsvWaWrkfW7`
+IMP | `n/a`
+PESHA1 | `2BECC1A356FEFCA60A0EEFAFDC97FFD717E62AAF`
+PE256 | `394994D8ED877D7EEDCBEF6DC50307C7E7CA7E5CAADA2882D338DC36A6362470`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001f60 | 0x00001f60
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdmyan.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/7fc20639ffad5be48ccbdc7d13bea5b0207a6d7101dd12d1b1074b34d4dbd64a/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\kbdarmph.dll](kbdarmph.dll-40A1904AEB19AC08DA762F5567014874.md) | 61
+[C:\Windows\SysWOW64\kbdgeoer.dll](kbdgeoer.dll-1F7DFFAF7B2D8C591381FBDF3F697BA4.md) | 61
+[C:\Windows\SysWOW64\kbdgeooa.dll](kbdgeooa.dll-9EA9EF6F83183E5AD95CD45F3678B801.md) | 68
+[C:\Windows\SysWOW64\KBDHAU.DLL](KBDHAU.DLL-9793B90833044EB2B0FA44789EBCFB5F.md) | 69
+[C:\Windows\SysWOW64\KBDHAW.DLL](KBDHAW.DLL-FB0E6EF0DE1831530DAC04000375612D.md) | 63
+[C:\Windows\SysWOW64\KBDJAV.DLL](KBDJAV.DLL-8E23AD2CF332C08ED1DA805B4D871E30.md) | 52
+[C:\Windows\SysWOW64\KBDMLT48.DLL](KBDMLT48.DLL-85794DF0D8E0405DF0C2CCCE9CCA3E8E.md) | 61
+[C:\Windows\SysWOW64\KBDOSA.DLL](KBDOSA.DLL-B8C0A6BCC4A291CF5C473BC9BEDC24BE.md) | 58
+[C:\Windows\SysWOW64\kbdphags.dll](kbdphags.dll-A6970B58BAFE4786BB29E491BD06253A.md) | 61
+[C:\Windows\SysWOW64\KBDTIPRC.DLL](KBDTIPRC.DLL-85ABE609C6D3EF90FFD0617C0E2470F6.md) | 50
+[C:\Windows\SysWOW64\KBDTIPRD.DLL](KBDTIPRD.DLL-D0F15571DA4BBFD24C877A3C0E4F2FCA.md) | 54
+[C:\Windows\SysWOW64\KBDTT102.DLL](KBDTT102.DLL-ACAFA797E536050E3F8DF6B1F01C9DBE.md) | 68
+[C:\Windows\SysWOW64\KBDUR1.DLL](KBDUR1.DLL-3B9FB5F23924B48E940D6333A6D09C2E.md) | 60
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

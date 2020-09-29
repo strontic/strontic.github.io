@@ -1,13 +1,9 @@
 ﻿---
 title: xCyclopedia | The Encyclopedia for Executables
-breadcrumbs_title: xCyclopedia Index
+breadcrumbs_title: xCyclopedia Index (EXEs)
 ---
 
-# xCyclopedia
-*Encyclopedia for Executables*
-
-## Source
-[github.com/strontic/xcyclopedia](https://github.com/strontic/xcyclopedia)
+[Info](intro){: .btn .btn--primary .btn--large} [.EXE](#index){: .btn .btn--light-outline .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large}
 
 ## Index
 
@@ -851,9 +847,7 @@ File Name / Variants | Description
 **[lighting.exe](library/lighting.exe-10278CE926A6DCF0BE60AB05FEEDAE2A.md)** | GNU Image Manipulation Program Plug-In. 
 **[-LinkID=690621.exe](library/-LinkID%3d690621.exe-186953FB59928533D571CF9FAD3BA3C4.md)** | Windows Software Development Kit - Windows 10.0.10586.15. 
 **[Listdlls.exe](library/Listdlls.exe-60A2331A2B28968585C7C7229D2424A8.md)** | Listdlls. 
-**[Listdlls64.exe](library/Listdlls64.exe-.md)** | . 
 **[livekd.exe](library/livekd.exe-CA9A18EEC3DD7543A56058975CE31987.md)** | livekd. 
-**[livekd64.exe](library/livekd64.exe-.md)** | . 
 **[LoadOrd.exe](library/LoadOrd.exe-B68843BA92EC1FE57DC259337CDDDBD1.md)** | Startup order viewer. 
 **[LoadOrd64.exe](library/LoadOrd64.exe-409ED17853D3A1B7413926FF8471957C.md)** | Startup order viewer. 
 **[LoadOrdC.exe](library/LoadOrdC.exe-94A073B507AD4B8DEFB20955F49BC958.md)** | Startup order viewer. 

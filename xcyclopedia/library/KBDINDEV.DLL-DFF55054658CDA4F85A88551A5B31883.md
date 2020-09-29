@@ -1,0 +1,75 @@
+﻿---
+title: KBDINDEV.DLL | Devanagari Keyboard Layout
+excerpt: What is KBDINDEV.DLL?
+---
+
+# KBDINDEV.DLL 
+
+* File Path: `C:\Windows\system32\KBDINDEV.DLL`
+* Description: Devanagari Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `DFF55054658CDA4F85A88551A5B31883`
+SHA1 | `7601C577A7C721C11C2448E2B156525188EDDDF1`
+SHA256 | `BA2B7C620C22B7FE931A4F1E1A0E11406BE72A27B4315499FDBB0BC10F5062EB`
+SHA384 | `09284ACDD57D1C158125D4800065C25EC2FD0B47C78673475FE9E9794450D9F0912506B87F8A174CE730D39336B7C5CF`
+SHA512 | `51C4448B9B5A0ED43C9C521CBE723940DEA1C6598293CB5FB1009603A3FE270613775ACDFA4329D8C4EA4129CD394A2C6A69E22B580A74326BAE77775559BFA3`
+SSDEEP | `96:M2nNFyw+pFPu1ljLOZx2AI6GbApq4np9QWTbtOWwhevv:9NEy1iZqzVWXtOWL`
+IMP | `n/a`
+PESHA1 | `7B49BD386657D802F890ADB369FCF9F9CC1A08C8`
+PE256 | `7391F6A18E4DB4833921426AFD10997F885A8A8E84842CB628236D0658DCEF15`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x0000000180001010 | 0x00001010
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdindev.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/69
+* VirusTotal Link: https://www.virustotal.com/gui/file/ba2b7c620c22b7fe931a4f1e1a0e11406be72a27b4315499fdbb0bc10f5062eb/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\KBDHEB.DLL](KBDHEB.DLL-CB5D79FDCDF19A223F89B23636BF23AF.md) | 52
+[C:\Windows\system32\KBDIULAT.DLL](KBDIULAT.DLL-4C6CA5660AE3FC74AA1B20AEDE16A1D1.md) | 46
+[C:\Windows\system32\KBDMAC.DLL](KBDMAC.DLL-C78D3103A3BD64F514B5B6895EA30464.md) | 52
+[C:\Windows\system32\KBDSW09.DLL](KBDSW09.DLL-9AA504BFB544F63BDEA2169E67FCB453.md) | 50
+[C:\Windows\system32\KBDUR.DLL](KBDUR.DLL-622290D9A35B442E9468D50D3D87C727.md) | 55
+[C:\Windows\system32\KBDUSA.DLL](KBDUSA.DLL-B0C02601C2FB385C2D7778C81624F5EE.md) | 54
+[C:\Windows\system32\KBDUSL.DLL](KBDUSL.DLL-1FB4C9E109C339170B74B5CD6B9AC1D9.md) | 46
+[C:\Windows\system32\KBDUSR.DLL](KBDUSR.DLL-18866DFC8B92C49FF6DE0F6FE8498E31.md) | 47
+[C:\Windows\SysWOW64\KBDINDEV.DLL](KBDINDEV.DLL-43981BD0E0B4AAA7AB003EF7243D38EA.md) | 32
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

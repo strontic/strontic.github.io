@@ -1,0 +1,77 @@
+﻿---
+title: kbdgeome.dll | Georgian (MES) Keyboard Layout
+excerpt: What is kbdgeome.dll?
+---
+
+# kbdgeome.dll 
+
+* File Path: `C:\Windows\SysWOW64\kbdgeome.dll`
+* Description: Georgian (MES) Keyboard Layout
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `22353A90FAEDB843727D4CE5BB1A623D`
+SHA1 | `25CB0B56736B499F77B471AB6C04F0F5D537771E`
+SHA256 | `FB463CCCCF43CDA6593B37C91138C8218EB2C0E680E0405EE64C125148216C74`
+SHA384 | `3C2743189A7BB4CB3A5FA7C08C1926B1DE3FC5353CFD3708C8FD78DCCE80299FEE7F666609A76651114ECF75C1204770`
+SHA512 | `D590B86F90751F8BED1B060EF121A63EB6412AA7782142D51A3D85505EC323AA7BB8D388F60AB489615E81E3BB23B904A056D9C576C3E1FB263F6D2CC35DBE10`
+SSDEEP | `96:vj5Ka075Mva81Khu/+qDyNc7O849+W8JWw:r5Ka0FU0AGBuW8JW`
+IMP | `n/a`
+PESHA1 | `FDC1E195715BF8A0287721496FE0FB6FEC889311`
+PE256 | `D9E80550BA34067137379FFF041A8C40F3BEC5B1C37BC1C17F895B55ED72A9DF`
+
+## DLL Exports:
+
+Function Name | Ordinal | Type | Address | Relative Address
+-- | -- | -- | -- | --
+`KbdLayerDescriptor` | 1 (0x1) | Exported Function | 0x10001f00 | 0x00001f00
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: kbdgeome.dll
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.1 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.1
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/71
+* VirusTotal Link: https://www.virustotal.com/gui/file/fb463ccccf43cda6593b37c91138c8218eb2c0e680e0405ee64c125148216c74/detection/
+
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\kbdgeoqw.dll](kbdgeoqw.dll-0ABD0C44F142A3C0ED9619E55C66DA06.md) | 69
+[C:\Windows\SysWOW64\KBDLT2.DLL](KBDLT2.DLL-6CD11911D79BF489C3F3C3030E92E3CD.md) | 63
+[C:\Windows\SysWOW64\KBDMACST.DLL](KBDMACST.DLL-65A76A97B7FE60E56BAC093D4DB7E23A.md) | 63
+[C:\Windows\SysWOW64\KBDNTL.DLL](KBDNTL.DLL-4AE80AC7E4C49EF376A926E655DDADE1.md) | 68
+[C:\Windows\SysWOW64\KBDSN1.DLL](KBDSN1.DLL-861468B3C2182391F362EA1D6284DE14.md) | 61
+[C:\Windows\SysWOW64\KBDSYR1.DLL](KBDSYR1.DLL-953223C1CC2B032819C30556B2673EB7.md) | 57
+[C:\Windows\SysWOW64\KBDSYR2.DLL](KBDSYR2.DLL-222E3B47578151C6348DF4DF9EDD4A71.md) | 57
+[C:\Windows\SysWOW64\KBDTIFI.DLL](KBDTIFI.DLL-E0DDF0892AD4E6E48CBC733197771814.md) | 69
+[C:\Windows\SysWOW64\KBDTIFI2.DLL](KBDTIFI2.DLL-DC0C0868F1A86B605566189012A07A80.md) | 68
+[C:\Windows\SysWOW64\KBDTURME.DLL](KBDTURME.DLL-85BE9832459033F40634A7C1903A2B53.md) | 69
+[C:\Windows\SysWOW64\KBDYAK.DLL](KBDYAK.DLL-267F34ADB6BECF9406ED53C693D6DF81.md) | 66
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+
