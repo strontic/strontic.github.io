@@ -95,3 +95,7 @@ twitter:
   username: "strontic20"
 facebook:
   username: "strontic"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-179392403-1"
