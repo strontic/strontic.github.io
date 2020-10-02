@@ -17,6 +17,7 @@ plugins:
 #markdown: kramdown #default for minimal-mistakes
 highlighter: rouge
 destination: ./Docs
+repository: strontic/strontic.github.io
 
 #Build: This prevents MD files from being duplicated into the destination directory (if different directory)
 optional_front_matter:
@@ -39,6 +40,10 @@ search: true
 search_provider: google
 google:
   search_engine_id: 31f5caf6441fb12c8
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-179392403-1"
 
 breadcrumbs: true
 
@@ -95,7 +100,3 @@ twitter:
   username: "strontic20"
 facebook:
   username: "strontic"
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-179392403-1"

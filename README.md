@@ -4,21 +4,22 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 
 ### Jekyll Local Build Instructions
 
-1) Open *Git Bash*
-2) `cd ~/Documents/GitHub/strontic.github.io`
-3) `bundle update github-pages`
-4) (OPTIONAL) `export JEKYLL_GITHUB_TOKEN=<your token>`
-5) `bundle exec jekyll build`
+1. Open *Git Bash*
+2. `cd ~/Documents/GitHub/strontic.github.io`
+3. `bundle update github-pages`
+4. (OPTIONAL) `export JEKYLL_GITHUB_TOKEN=<your token>`
+5. `export JEKYLL_ENV=production`
+6. `bundle exec jekyll build`
     * (OPTIONAL) Incremental build: `--incremental` *([Experimental!](https://jekyllrb.com/docs/configuration/incremental-regeneration/))*
     * (OPTIONAL) Listen for changes: `--watch` *([Info](https://jekyllrb.com/docs/installation/windows/#auto-regeneration))*
-6) (OPTIONAL) for testing what it looks like in a browser: `bundle exec jekyll serve`
-7) `cd Docs`
-8) `git init`
-9) `git add .`
-10) `touch .nojekyll`
-11) `git commit -m "Add Lastest GH-PAGES Files"`
-12) (OPTIONAL?) `git remote add origin git@github.com:strontic/strontic.github.io.git`
-13) `git push --force origin master:gh-pages`
+7. (OPTIONAL) for testing what it looks like in a browser: `bundle exec jekyll serve`
+8. `cd Docs`
+9. `git init`
+10. `git add .`
+11. `touch .nojekyll`
+12. `git commit -m "Add Lastest GH-PAGES Files"`
+13. (OPTIONAL?) `git remote add origin git@github.com:strontic/strontic.github.io.git`
+14. `git push --force origin master:gh-pages`
 
 #### Helpful Sources:
 - https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
