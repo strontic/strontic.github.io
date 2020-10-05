@@ -32,7 +32,7 @@ conhost.exe
 Path | Type
 -- | --
 (R-D)   C:\Program Files\Windows Security\BrowserCore\en-US\BrowserCore.exe.mui | File
-(RW-)   C:\xCyclopedia | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 
@@ -68,7 +68,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/65
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/17ed5618b83bb82a4cbe8927ab365706826153e903bbe726e989f0710c1cc41c/detection/
 
 

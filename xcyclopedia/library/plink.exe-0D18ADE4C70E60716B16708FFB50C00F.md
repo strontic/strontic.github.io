@@ -90,6 +90,16 @@ Host does not exist
 ### Child Processes:
 conhost.exe
 
+### Open Handles:
+
+Path | Type
+-- | --
+(RW-)   C:\Users\user\Documents | File
+\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
+\BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
+\Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
+
+
 ### Loaded Modules:
 
 Path |

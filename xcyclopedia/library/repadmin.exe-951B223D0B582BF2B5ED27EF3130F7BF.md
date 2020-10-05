@@ -160,6 +160,7 @@ File | Score
 -- | --
 [C:\Windows\system32\dcdiag.exe](dcdiag.exe-7936349C0FD5FEF9317F678460C78707.md) | 35
 [C:\Windows\system32\dsmgmt.exe](dsmgmt.exe-F268289F96C350F9CDA9B5AB39448E4E.md) | 40
+[C:\Windows\system32\ntdsapi.dll](ntdsapi.dll-BC568753179FE7812FE36638457C6F3E.md) | 47
 
 
 

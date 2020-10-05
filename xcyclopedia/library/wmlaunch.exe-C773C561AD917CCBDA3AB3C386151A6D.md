@@ -29,7 +29,7 @@ PE256 | `B437F736408ADED4D5FCC6C714BADE084F8D649E62A720BAA48FEE2AEFE6DFA3`
 Path | Type
 -- | --
 (R-D)   C:\Program Files\Windows Media Player\en-US\wmlaunch.exe.mui | File
-(RW-)   C:\xCyclopedia | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -41,12 +41,19 @@ Path |
 -- |
 C:\Program Files\Windows Media Player\wmlaunch.exe |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -70,7 +77,7 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/5ba4924693446cb1b754fe0491b9a1baa6ec7805907130d2b19b786d8e17e379/detection/
 
 

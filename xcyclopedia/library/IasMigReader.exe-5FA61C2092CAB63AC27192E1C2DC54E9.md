@@ -48,6 +48,11 @@ C:\Windows\SysWOW64\IasMigReader.exe |
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\IasMigPlugin.dll](IasMigPlugin.dll-035D82BD4F8F727B972F857ED5BD2CB5.md) | 24
 
 
 

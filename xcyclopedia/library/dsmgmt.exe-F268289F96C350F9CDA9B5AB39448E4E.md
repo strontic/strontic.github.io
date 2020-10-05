@@ -103,6 +103,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\system32\dcdiag.exe](dcdiag.exe-7936349C0FD5FEF9317F678460C78707.md) | 35
+[C:\Windows\system32\ntdsapi.dll](ntdsapi.dll-BC568753179FE7812FE36638457C6F3E.md) | 38
 [C:\Windows\system32\repadmin.exe](repadmin.exe-951B223D0B582BF2B5ED27EF3130F7BF.md) | 40
 
 

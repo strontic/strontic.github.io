@@ -43,9 +43,6 @@ Arguments must start with /
 
 ```
 
-### Child Processes:
-csrss.exe winlogon.exe
-
 ### Loaded Modules:
 
 Path |
@@ -78,7 +75,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/c6aa1294f6a5aa52dc8ca2800065f22f7a0a8b5c1f5ec3e1761145d2e12024be/detection/
 
 

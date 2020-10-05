@@ -56,6 +56,7 @@ File | Score
 [C:\windows\system32\wusa.exe](wusa.exe-8930570F7F76840334962EFC6C173438.md) | 40
 [C:\Windows\system32\wusa.exe](wusa.exe-8A0B789F779802881EEAC4F99532A35C.md) | 36
 [C:\Windows\system32\wusa.exe](wusa.exe-E7A1BF42A43A9031533768B393D5673A.md) | 41
+[C:\Windows\SysWOW64\ocsetapi.dll](ocsetapi.dll-C21C76EB69C2341726564264A28E8B8B.md) | 41
 [C:\windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-049A6E9C689E058AC091C3DD08CB06DF.md) | 46
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-24DFD1EFE2837C760511CE773DF3E9CA.md) | 43
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-299F9CBA823CFB6F7AD965877154902B.md) | 40

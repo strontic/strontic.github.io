@@ -28,8 +28,8 @@ PE256 | `C75A4FA4A1137F76AE7AB0439C7CE9F3A57BF635C0F38E0D98C66C0D6A4D6389`
 
 Path | Type
 -- | --
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -71,7 +71,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/73
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/1119c7bccad7c5a290ab2515a5cb3bbba047ecf98b2230c9eb3111e4b5e8f5d0/detection/
 
 ## File Similarity (ssdeep match)

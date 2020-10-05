@@ -8,6 +8,10 @@ excerpt: What is iexplore.exe?
 * File Path: `C:\Program Files\Internet Explorer\iexplore.exe`
 * Description: Internet Explorer
 
+## Screenshot
+
+![iexplore.exe](screenshots/iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE-8.png)
+
 ## Hashes
 
 Type | Hash
@@ -34,45 +38,43 @@ Cant reach this page - Internet Explorer
 
 Path | Type
 -- | --
-(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{A280402E-FEB2-11EA-882E-00155D998289}.dat | File
-(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{A0FBA0DF-FEB2-11EA-882E-00155D998289}.dat | File
-(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{A280402C-FEB2-11EA-882E-00155D998289}.dat | File
+(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\{F538A955-0656-11EB-882E-00155DD100FD}.dat | File
+(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{F3BFF526-0656-11EB-882E-00155DD100FD}.dat | File
+(---)   C:\Users\user\AppData\Local\Microsoft\Internet Explorer\Recovery\High\Active\RecoveryStore.{F538A953-0656-11EB-882E-00155DD100FD}.dat | File
 (R-D)   C:\Program Files\Internet Explorer\en-US\iexplore.exe.mui | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\ieframe.dll.mui | File
 (R-D)   C:\Windows\SystemResources\ieframe.dll.mun | File
-(R-D)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9\comctl32.dll.mui | File
 (RW-)   C:\Users\user\Desktop | File
-(RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.19041.1_en-us_cb612d02732b0fd9 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.488_none_4238de57f6b64d28 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db | File
 (RWD)   C:\Users\user\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF92E3303DD88C7B7A.TMP | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DF95482B093E244F59.TMP | File
-(RWD)   C:\Users\user\AppData\Local\Temp\~DFC5331C560F5F02E8.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DF075DFF15BF8C0FDD.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DFD59A797D5ED3FDA7.TMP | File
+(RWD)   C:\Users\user\AppData\Local\Temp\~DFE2F6E6743AB4CC71.TMP | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
-\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db | Section
+\BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000006.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db | Section
 \BaseNamedObjects\C:\*ProgramData\*Microsoft\*Windows\*Caches\*cversions.2 | Section
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\844HWNDInterface:2b08a6 | Section
-\Sessions\1\BaseNamedObjects\844HWNDInterface:2e085a | Section
-\Sessions\1\BaseNamedObjects\844HWNDInterface:31069a | Section
-\Sessions\1\BaseNamedObjects\844HWNDInterface:4d0726 | Section
-\Sessions\1\BaseNamedObjects\844HWNDInterface:700798 | Section
-\Sessions\1\BaseNamedObjects\844HWNDInterface:960902 | Section
-\Sessions\1\BaseNamedObjects\ie_ias_00000844-0000-0000-0000-000000000000 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IEFrame!GetAsyncKeyStateSharedMem | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:3_3 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:3_4 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:3_5 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:6_2 | Section
-\Sessions\1\BaseNamedObjects\IsoScope_844_IsoSpaceV2_ScopeTrusted_0:7_1 | Section
+\Sessions\1\BaseNamedObjects\57cHWNDInterface:1d030a | Section
+\Sessions\1\BaseNamedObjects\57cHWNDInterface:360414 | Section
+\Sessions\1\BaseNamedObjects\57cHWNDInterface:b0196 | Section
+\Sessions\1\BaseNamedObjects\57cHWNDInterface:b025c | Section
+\Sessions\1\BaseNamedObjects\57cHWNDInterface:b0332 | Section
+\Sessions\1\BaseNamedObjects\57cHWNDInterface:b034e | Section
+\Sessions\1\BaseNamedObjects\ie_ias_0000057C-0000-0000-0000-000000000000 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IEFrame!GetAsyncKeyStateSharedMem | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IsoSpaceV2_ScopeTrusted | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IsoSpaceV2_ScopeTrusted_0:3_3 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IsoSpaceV2_ScopeTrusted_0:3_4 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IsoSpaceV2_ScopeTrusted_0:3_5 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IsoSpaceV2_ScopeTrusted_0:6_2 | Section
+\Sessions\1\BaseNamedObjects\IsoScope_57c_IsoSpaceV2_ScopeTrusted_0:7_1 | Section
 \Sessions\1\BaseNamedObjects\IsoSpaceV2_LogonHighx64 | Section
 \Sessions\1\BaseNamedObjects\IsoSpaceV2_LogonMediumx64 | Section
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
@@ -80,8 +82,8 @@ Path | Type
 \Sessions\1\BaseNamedObjects\windows_ie_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme2547664911 | Section
-\Windows\Theme3854699184 | Section
+\Sessions\1\Windows\Theme64749523 | Section
+\Windows\Theme1120315852 | Section
 
 
 ### Loaded Modules:
@@ -89,37 +91,10 @@ Path | Type
 Path |
 -- |
 C:\Program Files\Internet Explorer\iexplore.exe |
-C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\SYSTEM32\apphelp.dll |
-C:\Windows\System32\bcryptPrimitives.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\GDI32.dll |
-C:\Windows\System32\gdi32full.dll |
-C:\Windows\SYSTEM32\IEFRAME.dll |
-C:\Windows\SYSTEM32\iertutil.dll |
-C:\Windows\System32\IMM32.DLL |
-C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\SYSTEM32\msIso.dll |
-C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
-C:\Windows\SYSTEM32\NETAPI32.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\OLEAUT32.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\System32\shcore.dll |
-C:\Windows\System32\SHELL32.dll |
-C:\Windows\System32\SHLWAPI.dll |
-C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\USER32.dll |
-C:\Windows\SYSTEM32\USERENV.dll |
-C:\Windows\SYSTEM32\VERSION.dll |
-C:\Windows\System32\win32u.dll |
-C:\Windows\SYSTEM32\WINHTTP.dll |
-C:\Windows\SYSTEM32\WKSCLI.DLL |
 
 
 ## Signature

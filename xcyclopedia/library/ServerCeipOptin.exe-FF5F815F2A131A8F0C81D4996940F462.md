@@ -50,38 +50,51 @@ File | Score
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
+
 ## serverceipoptin
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Allows you to participate in the Customer Experience Improvement Program (CEIP).
+
 ### Syntax
+
 ```
 serverceipoptin [/query] [/enable] [/disable]
 ```
-##### Parameters
-|Parameter|Description|
-|-------|--------|
-|/query|verifies the current setting.|
-|/enable|Enables participation.|
-|/disable|Disables participation.|
-|/?|Displays help at the command prompt.|
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /query | Verifies your current setting. |
+| /enable | Turns on your participation in CEIP. |
+| /disable | Turns off your participation in CEIP. |
+| /? | Displays help at the command prompt. |
+
 ### Examples
-To verify the current settings, type:
+
+To verify your current settings, type:
+
 ```
 serverceipoptin /query
 ```
-To enable participation, type:
+
+To turn on your participation, type:
+
 ```
 serverceipoptin /enable
 ```
-To disable participation, type:
+
+To turn off your participation, type:
+
 ```
 serverceipoptin /disable
 ```
-### Additional References
-- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
 

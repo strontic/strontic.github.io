@@ -70,6 +70,7 @@ File | Score
 -- | --
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-26FC7C7BDB99AB9B3EACB4BD513F6642.md) | 32
 [C:\Windows\system32\SysResetErr.exe](SysResetErr.exe-449549EFBE78DEF87952767C2115E45B.md) | 82
+[C:\Windows\SysWOW64\ResourcePolicyClient.dll](ResourcePolicyClient.dll-AA11A4DDE5147A0EEBB147140A1AD6EF.md) | 29
 
 
 

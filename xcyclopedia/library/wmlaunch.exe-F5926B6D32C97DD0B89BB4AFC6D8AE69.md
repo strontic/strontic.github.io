@@ -29,8 +29,8 @@ PE256 | `D1D3C111E0D01B2FBEDB4217E36222758AAD76C51E687931E83DCACFD7280CCF`
 Path | Type
 -- | --
 (R-D)   C:\Program Files (x86)\Windows Media Player\en-US\wmlaunch.exe.mui | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section

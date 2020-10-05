@@ -29,8 +29,8 @@ PE256 | `DE315ED09CCAE9837FC74D1212A264ED7E725C0B3138BE8E83420E91669224BE`
 Path | Type
 -- | --
 (R-D)   C:\Program Files\Windows Media Player\en-US\wmpnscfg.exe.mui | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -41,10 +41,22 @@ Path | Type
 Path |
 -- |
 C:\Program Files\Windows Media Player\wmpnscfg.exe |
+C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\SYSTEM32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -68,7 +80,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/42cf12cce4c991c6c2c93147fee7d3193341c03b2a65938f521acc7000c4a6d5/detection/
 
 

@@ -77,6 +77,8 @@ Remarks:
 File | Score
 -- | --
 [C:\Windows\system32\bootsect.exe](bootsect.exe-4A59BDA770A1683A7BC5A913EA1D74AB.md) | 25
+[C:\Windows\system32\DriverStore\FileRepository\tsgenericusbdriver.inf_amd64_6b86bbc412f35fe7\TsUsbGDCoInstaller.dll](TsUsbGDCoInstaller.dll-4D45B865AB970A8A3C1BFEF2EA59C4FF.md) | 35
+[C:\Windows\system32\TsUsbGDCoInstaller.dll](TsUsbGDCoInstaller.dll-4D45B865AB970A8A3C1BFEF2EA59C4FF.md) | 35
 [C:\Windows\system32\tzutil.exe](tzutil.exe-D707382B7D60EB8830A2DA9D6480062A.md) | 33
 
 

@@ -28,8 +28,8 @@ PE256 | `E9BE843C2E510D688AB30CBEBC08CD5E1E247782E7288F0ED766DE26209CE58E`
 
 Path | Type
 -- | --
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section

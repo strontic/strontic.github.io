@@ -29,19 +29,11 @@ PE256 | `BEC6058E71E4355474D36A83074C0E93931A52F744EBE0B30E2BAAB399301681`
 Path |
 -- |
 C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe |
-C:\Windows\System32\advapi32.dll |
-C:\Windows\System32\combase.dll |
-C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
-C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\RPCRT4.dll |
-C:\Windows\System32\sechost.dll |
-C:\Windows\SYSTEM32\tdh.dll |
 C:\Windows\System32\ucrtbase.dll |
-C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -65,7 +57,7 @@ C:\Windows\System32\WS2_32.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/67
+* VirusTotal Detections: 0/69
 * VirusTotal Link: https://www.virustotal.com/gui/file/4d8373d3be443392db9dd1fa80a5861962b32ce5b9b82593b69c0b343fe35d6d/detection/
 
 ## File Similarity (ssdeep match)

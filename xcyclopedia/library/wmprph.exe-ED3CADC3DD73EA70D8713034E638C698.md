@@ -28,7 +28,7 @@ PE256 | `0C1B7A5754196684B3EB0205D1E42ABDBFF84B7F0DD4B59D5AD13BA8457A85A5`
 
 Path | Type
 -- | --
-(RW-)   C:\xCyclopedia | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
@@ -41,12 +41,16 @@ Path |
 C:\Program Files\Windows Media Player\wmprph.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\win32u.dll |
 
 
 ## Signature
@@ -70,7 +74,7 @@ C:\Windows\System32\sechost.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
+* VirusTotal Detections: 0/69
 * VirusTotal Link: https://www.virustotal.com/gui/file/ab81411a2fcd8c9dd2d62d95e54854795405ed6d10450c56a8ed9e988ec9d254/detection/
 
 

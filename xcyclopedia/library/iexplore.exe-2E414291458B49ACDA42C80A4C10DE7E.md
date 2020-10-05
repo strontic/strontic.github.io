@@ -8,6 +8,10 @@ excerpt: What is iexplore.exe?
 * File Path: `C:\Program Files (x86)\Internet Explorer\iexplore.exe`
 * Description: Internet Explorer
 
+## Screenshot
+
+![iexplore.exe](screenshots/iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE-8.png)
+
 ## Hashes
 
 Type | Hash
@@ -59,7 +63,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
+* VirusTotal Detections: 0/65
 * VirusTotal Link: https://www.virustotal.com/gui/file/e582676ec900249b408ab4e37976ae8c443635a7da77755daf6f896a172856a3/detection/
 
 ## File Similarity (ssdeep match)

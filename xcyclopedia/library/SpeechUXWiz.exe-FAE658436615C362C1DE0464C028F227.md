@@ -46,6 +46,7 @@ SSDEEP | `12288:VYh5lWZ9evDiCLtTR8YbVe0TIrf8NbywLkRLgLBAgV:etvOCL9R82VLTIrfMy8oL
 
 File | Score
 -- | --
+[C:\Windows\system32\Speech\SpeechUX\speechuxcpl.dll](speechuxcpl.dll-F80452AD1ED856C3C07F4EC41188A22B.md) | 41
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-02BCE04D6192EB6BC85A195E0187E707.md) | 71
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-12BEDBBE10C9281CADB3A1CE54F716E5.md) | 71
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-BE50185ACB3EAC15CF46EC3297C436AC.md) | 71

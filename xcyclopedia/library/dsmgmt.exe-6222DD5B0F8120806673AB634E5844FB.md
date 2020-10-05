@@ -105,6 +105,7 @@ C:\Windows\SysWOW64\dsmgmt.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\dcdiag.exe](dcdiag.exe-CA1502D2B3342A4F8890FC8A120E4B32.md) | 41
+[C:\Windows\SysWOW64\ntdsapi.dll](ntdsapi.dll-9C3A995D8C370C6C5C9EE4515283C58F.md) | 41
 [C:\Windows\SysWOW64\repadmin.exe](repadmin.exe-D79A33E972B365D254CD6B9718DCB213.md) | 41
 
 

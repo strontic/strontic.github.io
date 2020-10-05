@@ -42,9 +42,9 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\mswsock.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\wininet.dll.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\F932B6C7-3A20-46A0-B8A0-8894AA421973 | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
@@ -53,8 +53,8 @@ Path | Type
 \Sessions\1\BaseNamedObjects\UrlZonesSM_user | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
 \Sessions\1\BaseNamedObjects\windows_webcache_counters_{9B6AB5B3-91BC-4097-835C-EA2DEC95E9CC}_S-1-5-21-2047949552-857980807-821054962-504 | Section
-\Sessions\1\Windows\Theme2547664911 | Section
-\Windows\Theme3854699184 | Section
+\Sessions\1\Windows\Theme64749523 | Section
+\Windows\Theme1120315852 | Section
 
 
 ### Loaded Modules:
@@ -65,6 +65,7 @@ C:\Program Files\Windows Media Player\setup_wm.exe |
 C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\SYSTEM32\ATL.DLL |
 C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\bcryptPrimitives.dll |
 C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
 C:\Windows\System32\CRYPT32.dll |
@@ -72,9 +73,11 @@ C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\SYSTEM32\iertutil.dll |
 C:\Windows\System32\IMM32.DLL |
+C:\Windows\SYSTEM32\kernel.appcore.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\SYSTEM32\MFPlat.DLL |
+C:\Windows\SYSTEM32\MSASN1.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -82,6 +85,7 @@ C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
 C:\Windows\SYSTEM32\pdh.dll |
 C:\Windows\System32\RPCRT4.dll |
+C:\Windows\SYSTEM32\RTWorkQ.DLL |
 C:\Windows\System32\sechost.dll |
 C:\Windows\SYSTEM32\Secur32.dll |
 C:\Windows\System32\SETUPAPI.dll |
@@ -93,6 +97,7 @@ C:\Windows\System32\ucrtbase.dll |
 C:\Windows\SYSTEM32\urlmon.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\system32\uxtheme.dll |
 C:\Windows\SYSTEM32\VERSION.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\SYSTEM32\WININET.dll |

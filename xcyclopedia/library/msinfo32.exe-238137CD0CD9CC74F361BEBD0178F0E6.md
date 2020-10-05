@@ -41,13 +41,13 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\propsys.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\user32.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\winnlsres.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme2547664911 | Section
-\Windows\Theme3854699184 | Section
+\Sessions\1\Windows\Theme64749523 | Section
+\Windows\Theme1120315852 | Section
 
 
 ### Loaded Modules:
@@ -56,21 +56,35 @@ Path |
 -- |
 C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe |
 C:\Windows\System32\ADVAPI32.dll |
+C:\Windows\SYSTEM32\ATL.DLL |
+C:\Windows\System32\bcrypt.dll |
+C:\Windows\System32\cfgmgr32.dll |
 C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MFC42u.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
 C:\Windows\System32\ole32.dll |
 C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\SYSTEM32\POWRPROF.dll |
 C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\sechost.dll |
+C:\Windows\System32\SETUPAPI.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\SYSTEM32\SLC.dll |
+C:\Windows\SYSTEM32\sppc.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature

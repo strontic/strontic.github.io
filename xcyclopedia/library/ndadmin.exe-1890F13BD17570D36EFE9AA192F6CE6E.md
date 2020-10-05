@@ -73,6 +73,7 @@ File | Score
 [C:\Windows\system32\newdev.exe](newdev.exe-4F3EF6C426AE2F5D9949878E7AFF478E.md) | 47
 [C:\Windows\system32\newdev.exe](newdev.exe-84A870C614ECDF6BF1A4D0D2A8760159.md) | 57
 [C:\Windows\system32\newdev.exe](newdev.exe-FD9D8BCD91AC3ADBE818A312600908DD.md) | 50
+[C:\Windows\system32\pnpclean.dll](pnpclean.dll-C0BD8608E5615391406DEFC369C39DC9.md) | 25
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-09D18C2636A83FF07117A4C93C2C8875.md) | 96
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-8126A090A1F30D3C9A42F69D55E7E1EC.md) | 74
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-87AA258CFC9F60E1F2072D3223030176.md) | 77

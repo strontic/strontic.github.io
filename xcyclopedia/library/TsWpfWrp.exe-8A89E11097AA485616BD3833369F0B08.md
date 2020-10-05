@@ -56,8 +56,12 @@ File | Score
 [C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 32
 [C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 29
 [C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 24
+[C:\Windows\system32\mrt_map.dll](mrt_map.dll-CA38D29EA401068262FF1C9E19CB7A0D.md) | 30
+[C:\Windows\system32\mrt100.dll](mrt100.dll-B1BCB646CD9873F4E641472A8892151C.md) | 25
 [C:\WINDOWS\system32\TsWpfWrp.exe](TsWpfWrp.exe-DF69CC1A89E7540A7A2770250B739096.md) | 69
 [C:\Windows\system32\TsWpfWrp.exe](TsWpfWrp.exe-E7220B745646E732C1388B6173E5C6E9.md) | 68
+[C:\Windows\SysWOW64\mrt_map.dll](mrt_map.dll-6140B08213721C9F60FF93818FA851DC.md) | 27
+[C:\Windows\SysWOW64\mrt100.dll](mrt100.dll-78C804E5770B96E412A4BA65E4199AAD.md) | 29
 [C:\WINDOWS\SysWOW64\TsWpfWrp.exe](TsWpfWrp.exe-29080A899EACB7AC730A681B515A86EF.md) | 80
 
 

@@ -87,6 +87,8 @@ C:\Windows\system32\WorkFolders.exe |
 File | Score
 -- | --
 [C:\WINDOWS\system32\WorkFolders.exe](WorkFolders.exe-E981562DBC7E8680D21EF6F78ED91006.md) | 57
+[C:\Windows\system32\WorkFoldersRes.dll](WorkFoldersRes.dll-268D2AC1DBF7EBA04E0AE10E8C812331.md) | 50
+[C:\Windows\SysWOW64\WorkFoldersRes.dll](WorkFoldersRes.dll-8B3FDCE08A2D909FD22DA56C2418D5CC.md) | 50
 
 
 

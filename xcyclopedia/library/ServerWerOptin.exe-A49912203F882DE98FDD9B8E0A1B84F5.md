@@ -50,38 +50,51 @@ File | Score
 **The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
 
 ---
+
 ## serverweroptin
 
 > Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Allows you to enable error reporting.
+Allows you to turn on error reporting.
+
 ### Syntax
+
 ```
 serverweroptin [/query] [/detailed] [/summary]
 ```
-##### Parameters
-|Parameter|Description|
-|-------|--------|
-|/query|verifies the current setting.|
-|/detailed|Sends detailed reports automatically.|
-|/summary|Sends summary reports automatically.|
-|/?|Displays help at the command prompt.|
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /query | Verifies your current setting. |
+| /detailed | Specifies to send detailed reports automatically. |
+| /summary | Specifies to send summary reports automatically. |
+| /? | Displays help at the command prompt. |
+
 ### Examples
+
 To verify the current setting, type:
+
 ```
 serverweroptin /query
 ```
+
 To automatically send detailed reports, type:
+
 ```
 serverweroptin /detailed
 ```
-To automatically send summary reports, type
+
+To automatically send summary reports, type:
+
 ```
 serverweroptin /summary
 ```
-### Additional References
-- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
 
 ---
 

@@ -50,8 +50,24 @@ PE256 | `2CB668642ECDAEAAFECBE04E10D93FED47CFCC73996B1D4CB3566F31AC9C3BAD`
 
 File | Score
 -- | --
+[C:\Windows\system32\dpnaddr.dll](dpnaddr.dll-BA32BB24B7DA23BD7EE7AE4B576338CD.md) | 100
+[C:\Windows\system32\dpnathlp.dll](dpnathlp.dll-BA32BB24B7DA23BD7EE7AE4B576338CD.md) | 100
+[C:\Windows\system32\dpnet.dll](dpnet.dll-BA32BB24B7DA23BD7EE7AE4B576338CD.md) | 100
+[C:\Windows\system32\dpnhpast.dll](dpnhpast.dll-BA32BB24B7DA23BD7EE7AE4B576338CD.md) | 100
+[C:\Windows\system32\dpnhupnp.dll](dpnhupnp.dll-BA32BB24B7DA23BD7EE7AE4B576338CD.md) | 100
+[C:\Windows\system32\dpnlobby.dll](dpnlobby.dll-BA32BB24B7DA23BD7EE7AE4B576338CD.md) | 100
+[C:\Windows\system32\msrating.dll](msrating.dll-E9C2FB0507A8D8F478030CC4758D1DFB.md) | 40
 [C:\Windows\SysWOW64\dplaysvr.exe](dplaysvr.exe-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dplayx.dll](dplayx.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpmodemx.dll](dpmodemx.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpnaddr.dll](dpnaddr.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpnathlp.dll](dpnathlp.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpnet.dll](dpnet.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpnhpast.dll](dpnhpast.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpnhupnp.dll](dpnhupnp.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpnlobby.dll](dpnlobby.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
 [C:\Windows\SysWOW64\dpnsvr.exe](dpnsvr.exe-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
+[C:\Windows\SysWOW64\dpwsockx.dll](dpwsockx.dll-FAEDA9B43E022ACD3B8462B222EEDC72.md) | 32
 
 
 

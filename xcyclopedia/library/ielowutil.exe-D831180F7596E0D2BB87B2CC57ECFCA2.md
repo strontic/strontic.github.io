@@ -29,7 +29,6 @@ PE256 | `ADC3C56DC6E4286B5E492FE6DC36A366058131B12E8A70B6CB4BFB6636691D93`
 Path |
 -- |
 C:\Program Files\Internet Explorer\ielowutil.exe |
-C:\Windows\System32\combase.dll |
 C:\Windows\System32\GDI32.dll |
 C:\Windows\System32\gdi32full.dll |
 C:\Windows\System32\KERNEL32.DLL |
@@ -37,8 +36,6 @@ C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
-C:\Windows\System32\ole32.dll |
-C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
 C:\Windows\System32\win32u.dll |
@@ -65,7 +62,7 @@ C:\Windows\System32\win32u.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/69
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/3099b6cf67191b1a7e4d8463576fe85835e8df2296dba3470b0cd42babd336c8/detection/
 
 ## File Similarity (ssdeep match)

@@ -62,7 +62,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
+* VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/0e613d199d7f383e3b41d8ce3cb01b906d168a4f21580bd71283134eab978146/detection/
 
 ## File Similarity (ssdeep match)

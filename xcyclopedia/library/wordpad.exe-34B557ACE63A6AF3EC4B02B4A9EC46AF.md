@@ -11,6 +11,8 @@ excerpt: What is wordpad.exe?
 ## Screenshot
 
 ![wordpad.exe](screenshots/wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF-1.png)
+![wordpad.exe](screenshots/wordpad.exe-61173FF6ABB1C40E3D3B580126FC5F66-1.png)
+![wordpad.exe](screenshots/wordpad.exe-DF75D2712714593DA00E662055A46EF1-1.png)
 
 ## Hashes
 

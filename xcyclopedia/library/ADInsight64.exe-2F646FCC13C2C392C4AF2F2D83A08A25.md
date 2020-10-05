@@ -12,7 +12,6 @@ excerpt: What is ADInsight64.exe?
 
 ![ADInsight64.exe](screenshots/ADInsight64.exe-2F646FCC13C2C392C4AF2F2D83A08A25-1.png)
 ![ADInsight64.exe](screenshots/ADInsight64.exe-2F646FCC13C2C392C4AF2F2D83A08A25-4.png)
-![ADInsight64.exe](screenshots/ADInsight64.exe-2F646FCC13C2C392C4AF2F2D83A08A25-5.png)
 
 ## Hashes
 

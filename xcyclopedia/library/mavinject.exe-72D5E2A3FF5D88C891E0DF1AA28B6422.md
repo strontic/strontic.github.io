@@ -56,6 +56,7 @@ File | Score
 [C:\WINDOWS\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-4564AEECEED25F34A2A6156A355C09B6.md) | 40
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-EAA5FF4ED735D3D1FE292600A9E3DEC6.md) | 30
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-FE1414362471F8F2603A41BDA2B81526.md) | 52
+[C:\Windows\system32\AppVFileSystemMetadata.dll](AppVFileSystemMetadata.dll-F35D3437B238B8F4492C58CA0149A861.md) | 29
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-23AFC486E58A3841A015F2F45E34F781.md) | 47
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-47C060EF467EB3E4461D26BCBC858377.md) | 43
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-8F6A8E7CEF9833166DE4A29920B48F42.md) | 38
@@ -64,6 +65,8 @@ File | Score
 [C:\Windows\system32\AppVShNotify.exe](AppVShNotify.exe-3E705409974662FD944B65C3B9ADAC31.md) | 27
 [C:\Windows\system32\AppVShNotify.exe](AppVShNotify.exe-422209DBC6879722C59054DBFBCDA152.md) | 36
 [C:\Windows\system32\AppVShNotify.exe](AppVShNotify.exe-F4E5D8D8C06466305663EC35C617D458.md) | 36
+[C:\Windows\system32\AppVStreamingUX.dll](AppVStreamingUX.dll-C9966B7BA8CFDCD1D97185C3634763E3.md) | 32
+[C:\Windows\system32\AppVStreamMap.dll](AppVStreamMap.dll-520D8187FFAE4758054A49A29831CE67.md) | 30
 [C:\Windows\system32\mavinject.exe](mavinject.exe-3196E7F92E0B4367444A185B5A4E757D.md) | 41
 [C:\Windows\system32\mavinject.exe](mavinject.exe-73E25B03C4DF5277BAF67004D53FC241.md) | 44
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 40

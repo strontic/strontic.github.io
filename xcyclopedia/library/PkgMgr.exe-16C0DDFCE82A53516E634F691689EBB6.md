@@ -47,6 +47,7 @@ SSDEEP | `3072:2E3D6AFOZaz0xulwqmeSkENXK6JRAqs4xjw8m1I1nUhu:7GAFixqwq7SkMHxM8cAU
 
 File | Score
 -- | --
+[C:\Windows\system32\ocsetapi.dll](ocsetapi.dll-23BC4F98A5F7B0810CA560BF3DF76EF7.md) | 54
 [C:\windows\system32\PkgMgr.exe](PkgMgr.exe-B212B2FE6910AF8B2068F2FF2242204F.md) | 38
 [C:\Windows\system32\PkgMgr.exe](PkgMgr.exe-DC51BE58FEAF1A400DA1BBFC16219C10.md) | 49
 [C:\Windows\system32\PkgMgr.exe](PkgMgr.exe-DDE0B63F2E276B969C9C1E6983990CB2.md) | 50

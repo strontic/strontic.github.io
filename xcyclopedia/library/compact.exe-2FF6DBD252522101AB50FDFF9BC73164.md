@@ -96,6 +96,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\compact.exe](compact.exe-5CB107F69062D6D387F4F7A14737220E.md) | 49
 [C:\Windows\SysWOW64\compact.exe](compact.exe-D9A6C940D8AF7BFBA08D010B85F155A2.md) | 41
+[C:\Windows\SysWOW64\WofUtil.dll](WofUtil.dll-14ABE0012FF8B7BA24C775A664E65772.md) | 36
 
 ## Possible Misuse
 

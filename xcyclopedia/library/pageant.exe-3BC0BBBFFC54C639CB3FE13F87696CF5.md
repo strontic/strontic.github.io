@@ -11,6 +11,7 @@ excerpt: What is pageant.exe?
 ## Screenshot
 
 ![pageant.exe](screenshots/pageant.exe-3BC0BBBFFC54C639CB3FE13F87696CF5-1.png)
+![pageant.exe](screenshots/pageant.exe-B9F5861A65C9988EE9040C3A4D88E121-1.png)
 ![pageant.exe](screenshots/pageant.exe-B9F5861A65C9988EE9040C3A4D88E121-2.png)
 
 ## Hashes

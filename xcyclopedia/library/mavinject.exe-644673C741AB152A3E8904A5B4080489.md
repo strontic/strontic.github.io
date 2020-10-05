@@ -42,6 +42,9 @@ SSDEEP | `3072:nQ7FmBt0fSoD79hILhpVVrujzKdu5ommZPEAkp8:imBt0fSoD79hOLazAZ`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Microsoft Office\root\Client\AppVDllSurrogate32.exe](AppVDllSurrogate32.exe-BB87D970CD29CC07A84A92E637ADD9A2.md) | 38
+[C:\Program Files (x86)\Microsoft Office\root\Client\AppVLP.exe](AppVLP.exe-F8CF92A63D69595CE0E6ECB9265EA7F7.md) | 32
+[C:\Program Files\Common Files\microsoft shared\ClickToRun\MavInject32.exe](MavInject32.exe-AC6978D0FEF8F6F2F07051473D188F02.md) | 29
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-49338D141DD60CA212D85F60521FB1DF.md) | 49
 [C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.md) | 54
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-A0B66B648C645B6B2A982C9414153437.md) | 33

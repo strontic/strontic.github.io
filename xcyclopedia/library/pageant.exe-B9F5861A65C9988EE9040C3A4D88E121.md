@@ -11,6 +11,7 @@ excerpt: What is pageant.exe?
 ## Screenshot
 
 ![pageant.exe](screenshots/pageant.exe-3BC0BBBFFC54C639CB3FE13F87696CF5-1.png)
+![pageant.exe](screenshots/pageant.exe-B9F5861A65C9988EE9040C3A4D88E121-1.png)
 ![pageant.exe](screenshots/pageant.exe-B9F5861A65C9988EE9040C3A4D88E121-2.png)
 
 ## Hashes
@@ -38,12 +39,12 @@ Path | Type
 -- | --
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
-\Sessions\1\Windows\Theme2547664911 | Section
-\Windows\Theme3854699184 | Section
+\Sessions\1\Windows\Theme64749523 | Section
+\Windows\Theme1120315852 | Section
 
 
 ### Loaded Modules:
@@ -60,7 +61,6 @@ C:\Windows\system32\hhctrl.ocx |
 C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
-C:\Windows\System32\MSCTF.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
@@ -74,7 +74,6 @@ C:\Windows\System32\SHLWAPI.dll |
 C:\Windows\SYSTEM32\TextShaping.dll |
 C:\Windows\System32\ucrtbase.dll |
 C:\Windows\System32\USER32.dll |
-C:\Windows\system32\uxtheme.dll |
 C:\Windows\System32\win32u.dll |
 C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 

@@ -46,6 +46,7 @@ File | Score
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-FE1414362471F8F2603A41BDA2B81526.md) | 43
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-E4CC15631219560406D2CE920CB2C133.md) | 32
 [C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-E805EC74A53B64CE1D9D6739B8055579.md) | 38
+[C:\Windows\system32\AppVStreamingUX.dll](AppVStreamingUX.dll-C9966B7BA8CFDCD1D97185C3634763E3.md) | 32
 [C:\Windows\system32\mavinject.exe](mavinject.exe-72D5E2A3FF5D88C891E0DF1AA28B6422.md) | 47
 
 

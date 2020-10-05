@@ -11,6 +11,8 @@ excerpt: What is wordpad.exe?
 ## Screenshot
 
 ![wordpad.exe](screenshots/wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF-1.png)
+![wordpad.exe](screenshots/wordpad.exe-61173FF6ABB1C40E3D3B580126FC5F66-1.png)
+![wordpad.exe](screenshots/wordpad.exe-DF75D2712714593DA00E662055A46EF1-1.png)
 
 ## Hashes
 
@@ -35,24 +37,25 @@ Document - WordPad
 
 Path | Type
 -- | --
+(R--)   C:\Windows\System32\spool\V4Dirs\25449FF2-CC50-42EB-8319-2CF5834CA6EA\94766af2.BUD | File
 (R-D)   C:\Program Files\Windows NT\Accessories\en-US\wordpad.exe.mui | File
 (R-D)   C:\Windows\Fonts\StaticCache.dat | File
 (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\System32\en-US\UIRibbon.dll.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21 | File
 (RW-)   C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_faefa4f37613d18e | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\1b2cHWNDInterface:390716 | Section
+\Sessions\1\BaseNamedObjects\b2cHWNDInterface:2c043a | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme2547664911 | Section
-\Windows\Theme3854699184 | Section
+\Sessions\1\Windows\Theme64749523 | Section
+\Windows\Theme1120315852 | Section
 
 
 ### Loaded Modules:
@@ -60,10 +63,34 @@ Path | Type
 Path |
 -- |
 C:\Program Files\Windows NT\Accessories\wordpad.exe |
+C:\Windows\SYSTEM32\AcGenral.dll |
+C:\Windows\System32\ADVAPI32.dll |
 C:\Windows\SYSTEM32\apphelp.dll |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\COMDLG32.dll |
+C:\Windows\System32\GDI32.dll |
+C:\Windows\System32\gdi32full.dll |
+C:\Windows\System32\IMM32.DLL |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\MFC42u.dll |
+C:\Windows\SYSTEM32\MPR.dll |
+C:\Windows\System32\msvcp_win.dll |
+C:\Windows\System32\msvcrt.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\ole32.dll |
+C:\Windows\System32\OLEAUT32.dll |
+C:\Windows\System32\RPCRT4.dll |
+C:\Windows\System32\sechost.dll |
+C:\Windows\System32\shcore.dll |
+C:\Windows\System32\SHELL32.dll |
+C:\Windows\System32\SHLWAPI.dll |
+C:\Windows\SYSTEM32\SspiCli.dll |
+C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\USER32.dll |
+C:\Windows\SYSTEM32\USERENV.dll |
+C:\Windows\System32\win32u.dll |
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_ca04af081b815d21\COMCTL32.dll |
 
 
 ## Signature
@@ -87,7 +114,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/66
+* VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/59b86c305d6ab3867b4f7099438dbfd2ef9f9662323628e2473af153e503f8f0/detection/
 
 ## File Similarity (ssdeep match)

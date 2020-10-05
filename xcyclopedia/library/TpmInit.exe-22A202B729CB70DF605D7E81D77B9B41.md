@@ -94,11 +94,13 @@ C:\Windows\SysWOW64\TpmInit.exe |
 
 File | Score
 -- | --
+[C:\Windows\system32\tpmcompc.dll](tpmcompc.dll-72B06E97FDB4367DB82EADABAF2AE0F3.md) | 60
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-2EF855672A91AA4443E8B4C2E1AE278E.md) | 54
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-578EF2B7D0C63504C39DD1BF3CADB2A8.md) | 55
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F.md) | 50
 [C:\WINDOWS\system32\TpmInit.exe](TpmInit.exe-C601DD6B0449412E9BC6903B9AEBAA5B.md) | 55
 [C:\windows\system32\TpmInit.exe](TpmInit.exe-F0D6FA1110EFFFD3A773757A2DB0C950.md) | 33
+[C:\Windows\SysWOW64\tpmcompc.dll](tpmcompc.dll-AB4D8679A9877AF6CB100DBF897A26B5.md) | 54
 [C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 50
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-23E73EAD4C5304744E76E8ECE21273BC.md) | 60
 [C:\windows\SysWOW64\TpmInit.exe](TpmInit.exe-6C56049244A18816695CA8719A6A1BB2.md) | 50

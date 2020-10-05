@@ -49,8 +49,10 @@ File | Score
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-5D773715386E186D1FAEADDA6AA75384.md) | 79
 [C:\windows\system32\dfrgui.exe](dfrgui.exe-B04260F1057D2C30D6475F553A3F85E3.md) | 80
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B.md) | 83
+[C:\Windows\system32\shwebsvc.dll](shwebsvc.dll-EB1AC593EA9EB9650BC66622031E0051.md) | 50
 [C:\windows\SysWOW64\dfrgui.exe](dfrgui.exe-0CB14A5281EE411B6D13B205C146EB85.md) | 77
 [C:\Windows\SysWOW64\dfrgui.exe](dfrgui.exe-7023EC5BAEF3BDE3C77C0FA08D924501.md) | 80
+[C:\Windows\SysWOW64\shwebsvc.dll](shwebsvc.dll-89472631C11DF69989D86BF26B08800A.md) | 46
 
 
 

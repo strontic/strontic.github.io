@@ -42,6 +42,9 @@ SSDEEP | `24:ev1GSgGXpGiRfAmykJPOYuIZW0gRNHQ02Si35WWdPOPNL:qgGXTAmlPOxIZWj7HJo5W
 
 File | Score
 -- | --
+[C:\Windows\system32\tier2punctuations.dll](tier2punctuations.dll-24F2082361A5382A144E422CF49EBE00.md) | 41
+[C:\Windows\system32\tzres.dll](tzres.dll-E8E700ADC2030B7B7DB446E9BC38838D.md) | 44
+[C:\Windows\SysWOW64\tzres.dll](tzres.dll-C57FCB7E1E3F1C45A6C719F247D94827.md) | 47
 [C:\WINDOWS\SysWOW64\user.exe](user.exe-2D7FE92D519E19374302B72E88ACF56E.md) | 55
 [C:\Windows\SysWOW64\user.exe](user.exe-48D2C346C4875106531F8EE6B81D2C32.md) | 50
 [C:\Windows\SysWOW64\user.exe](user.exe-B30709F69A03714334BC7E1123D4DA48.md) | 54

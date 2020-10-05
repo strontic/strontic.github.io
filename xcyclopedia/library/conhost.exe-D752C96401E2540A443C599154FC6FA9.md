@@ -38,6 +38,11 @@ SSDEEP | `384:MJrgzqNPdIb4NQUFiuBGPnUixUXeYKSWhnWUOufano5wACtQMyBs:MFVVdvQUnGPUi
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\winsrv.dll](winsrv.dll-19979E1729CFA0E56EB4CCCB198DFD05.md) | 40
 
 ## Possible Misuse
 

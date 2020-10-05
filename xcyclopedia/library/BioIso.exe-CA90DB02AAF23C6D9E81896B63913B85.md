@@ -65,7 +65,10 @@ C:\Windows\System32\ucrtbase.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\bcryptprimitives.dll](bcryptprimitives.dll-BE8C33CD5A83B698EEE876403CCC3929.md) | 36
 [C:\Windows\system32\BioIso.exe](BioIso.exe-9B0B54FBAC17F4ADE9D0245889912694.md) | 38
+[C:\Windows\system32\ci.dll](ci.dll-2D3C21DC26898B49E4FF25B9B755BB61.md) | 36
+[C:\Windows\system32\skci.dll](skci.dll-7E88E785DFD6D6A343770C1BADD19D2E.md) | 35
 
 
 

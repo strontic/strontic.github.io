@@ -63,6 +63,9 @@ C:\Windows\SysWOW64\mavinject.exe |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Microsoft Office\root\Client\AppVDllSurrogate32.exe](AppVDllSurrogate32.exe-BB87D970CD29CC07A84A92E637ADD9A2.md) | 50
+[C:\Program Files (x86)\Microsoft Office\root\Client\AppVLP.exe](AppVLP.exe-F8CF92A63D69595CE0E6ECB9265EA7F7.md) | 33
+[C:\Program Files\Common Files\microsoft shared\ClickToRun\MavInject32.exe](MavInject32.exe-AC6978D0FEF8F6F2F07051473D188F02.md) | 32
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-644673C741AB152A3E8904A5B4080489.md) | 49
 [C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.md) | 50
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-A0B66B648C645B6B2A982C9414153437.md) | 44

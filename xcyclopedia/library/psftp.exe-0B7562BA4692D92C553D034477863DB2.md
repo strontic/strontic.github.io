@@ -72,7 +72,7 @@ conhost.exe
 
 Path | Type
 -- | --
-(RW-)   C:\xCyclopedia | File
+(RW-)   C:\Users\user\Documents | File
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
@@ -109,7 +109,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/72
+* VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/04991d8689840da842a38cf47a184908d679c85120ed642633112840428008db/detection/
 
 

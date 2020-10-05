@@ -109,6 +109,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508
 
 File | Score
 -- | --
+[C:\Windows\system32\Speech\SpeechUX\speechuxcpl.dll](speechuxcpl.dll-F80452AD1ED856C3C07F4EC41188A22B.md) | 47
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-12BEDBBE10C9281CADB3A1CE54F716E5.md) | 79
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-BE50185ACB3EAC15CF46EC3297C436AC.md) | 75
 [C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-FAE658436615C362C1DE0464C028F227.md) | 71

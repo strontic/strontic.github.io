@@ -56,7 +56,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/71
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/30e2d946d30d0a88de97301661b47e1ba797d7787cf054231fb35144bef4339b/detection/
 
 ## File Similarity (ssdeep match)

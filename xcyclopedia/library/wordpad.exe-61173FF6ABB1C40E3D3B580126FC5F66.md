@@ -11,6 +11,8 @@ excerpt: What is wordpad.exe?
 ## Screenshot
 
 ![wordpad.exe](screenshots/wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF-1.png)
+![wordpad.exe](screenshots/wordpad.exe-61173FF6ABB1C40E3D3B580126FC5F66-1.png)
+![wordpad.exe](screenshots/wordpad.exe-DF75D2712714593DA00E662055A46EF1-1.png)
 
 ## Hashes
 
@@ -44,19 +46,19 @@ Path | Type
 (R-D)   C:\Windows\System32\en-US\MFC42u.dll.mui | File
 (R-D)   C:\Windows\SystemResources\imageres.dll.mun | File
 (R-D)   C:\Windows\SysWOW64\en-US\UIRibbon.dll.mui | File
+(RW-)   C:\Users\user\Documents | File
 (RW-)   C:\Windows | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627 | File
 (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94 | File
-(RW-)   C:\xCyclopedia | File
 \BaseNamedObjects\__ComCatalogCache__ | Section
 \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0 | Section
 \BaseNamedObjects\NLS_CodePage_437_3_2_0_0 | Section
 \BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\BaseNamedObjects\18dcHWNDInterface:1bc074c | Section
+\Sessions\1\BaseNamedObjects\1820HWNDInterface:69049c | Section
 \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference | Section
 \Sessions\1\BaseNamedObjects\windows_shell_global_counters | Section
-\Sessions\1\Windows\Theme2547664911 | Section
-\Windows\Theme3854699184 | Section
+\Sessions\1\Windows\Theme64749523 | Section
+\Windows\Theme1120315852 | Section
 
 
 ### Loaded Modules:
@@ -91,7 +93,7 @@ C:\Windows\System32\wow64win.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
+* VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/09f10e7344ca61b53a080e4d54c7cb6ecd4e3308254b350906437e29e7a7d9b2/detection/
 
 ## File Similarity (ssdeep match)

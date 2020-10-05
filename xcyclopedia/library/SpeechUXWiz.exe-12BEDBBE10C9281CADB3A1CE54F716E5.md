@@ -96,6 +96,7 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\Speech\SpeechUX\speechuxcpl.dll](speechuxcpl.dll-F80452AD1ED856C3C07F4EC41188A22B.md) | 41
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-02BCE04D6192EB6BC85A195E0187E707.md) | 79
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-BE50185ACB3EAC15CF46EC3297C436AC.md) | 69
 [C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-FAE658436615C362C1DE0464C028F227.md) | 71

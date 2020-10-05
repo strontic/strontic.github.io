@@ -106,6 +106,7 @@ File | Score
 -- | --
 [C:\Windows\system32\compact.exe](compact.exe-278549BBD0CE09F011C1B8481576CA0C.md) | 38
 [C:\WINDOWS\system32\compact.exe](compact.exe-BD1137CD6B2CEB849D1018709AE8084C.md) | 41
+[C:\Windows\system32\WofUtil.dll](WofUtil.dll-15FB7F0BC6665C5F339E6D0811EE2205.md) | 38
 
 ## Possible Misuse
 

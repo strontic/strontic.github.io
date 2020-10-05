@@ -82,6 +82,12 @@ C:\Windows\System32\sechost.dll |
 * VirusTotal Detections: 0/67
 * VirusTotal Link: https://www.virustotal.com/gui/file/e9f7635477b24ad5bbd0555687c8277ae200750f19804190326e59f6a3d51630/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\Microsoft Power Query for Excel Integrated\bin\Microsoft.Mashup.Container.NetFX40.exe](Microsoft.Mashup.Container.NetFX40.exe-4EBF16CC96F8A323CE9F46FA42DFAE0A.md) | 33
+[C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\Microsoft Power Query for Excel Integrated\bin\Microsoft.Mashup.Container.NetFX45.exe](Microsoft.Mashup.Container.NetFX45.exe-02E16063B890CF67BB117ACB637C47D2.md) | 35
 
 
 

@@ -143,7 +143,7 @@ Source | Source File | Example | License
 
 ---
 
-## reg
+## reg commands
 
 Performs operations on registry subkey information and values in registry entries.
 

@@ -313,8 +313,6 @@ Source | Source File | Example | License
 
 ## rundll32
 
-
-
 Loads and runs 32-bit dynamic-link libraries (DLLs). There are no configurable settings for Rundll32. Help information is provided for a specific DLL you run with the **rundll32** command.
 
 You must run the **rundll32** command from an elevated command prompt. To open an elevated command prompt, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.
@@ -322,14 +320,14 @@ You must run the **rundll32** command from an elevated command prompt. To open a
 ### Syntax
 
 ```
-Rundll32 <DLLname>
+rundll32 <DLLname>
 ```
 
-### Commands
+#### Parameters
 
-|Parameter|Description|
-|---------|-----------|
-|[Rundll32 printui.dll,PrintUIEntry](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/rundll32-printui.md)|Displays the printer user interface|
+| Parameter | Description |
+|--|--|
+| [Rundll32 printui.dll,PrintUIEntry](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/rundll32-printui.md) | Displays the printer user interface. |
 
 ### Remarks
 

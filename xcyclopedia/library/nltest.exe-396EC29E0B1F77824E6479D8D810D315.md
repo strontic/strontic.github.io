@@ -118,6 +118,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/a0ab27588baa72c13f1bdd3a59cc6b76b1c9789ef9e30f0b8bef968316be77b5/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\nshwfp.dll](nshwfp.dll-366C76832A6A12850407BF16F2D22441.md) | 35
 
 ## Possible Misuse
 

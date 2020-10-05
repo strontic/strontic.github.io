@@ -29,11 +29,15 @@ PE256 | `0E9D847F6320A2DD2E7C74E529D0DF4147F0E04E33598919869417BBA7375BAA`
 Path |
 -- |
 C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe |
+C:\Windows\System32\combase.dll |
+C:\Windows\System32\CRYPT32.dll |
 C:\Windows\System32\KERNEL32.DLL |
 C:\Windows\System32\KERNELBASE.dll |
 C:\Windows\System32\msvcp_win.dll |
 C:\Windows\SYSTEM32\ntdll.dll |
+C:\Windows\System32\RPCRT4.dll |
 C:\Windows\System32\ucrtbase.dll |
+C:\Windows\System32\WS2_32.dll |
 
 
 ## Signature
@@ -57,7 +61,7 @@ C:\Windows\System32\ucrtbase.dll |
 
 ## File Scan
 
-* VirusTotal Detections: 0/68
+* VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/ded30fdf9b12da4db599293fe4a036b6fd9792cd9844dec3cc148e7635daa31c/detection/
 
 

@@ -63,6 +63,11 @@ C:\Windows\SysWOW64\user.exe |
 
 File | Score
 -- | --
+[C:\Windows\system32\icmp.dll](icmp.dll-9A29876347A6B7A9FBD942C7181B883D.md) | 50
+[C:\Windows\system32\tier2punctuations.dll](tier2punctuations.dll-24F2082361A5382A144E422CF49EBE00.md) | 46
+[C:\Windows\system32\tzres.dll](tzres.dll-E8E700ADC2030B7B7DB446E9BC38838D.md) | 41
+[C:\Windows\SysWOW64\icmp.dll](icmp.dll-EF7D0F1EF60616814125B2FEDD84B0EB.md) | 47
+[C:\Windows\SysWOW64\tzres.dll](tzres.dll-C57FCB7E1E3F1C45A6C719F247D94827.md) | 40
 [C:\windows\SysWOW64\user.exe](user.exe-1D4E9DD1CF2B3A280FCF26693FBBD299.md) | 57
 [C:\WINDOWS\SysWOW64\user.exe](user.exe-2D7FE92D519E19374302B72E88ACF56E.md) | 54
 [C:\Windows\SysWOW64\user.exe](user.exe-48D2C346C4875106531F8EE6B81D2C32.md) | 54
